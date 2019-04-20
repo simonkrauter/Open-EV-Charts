@@ -1,0 +1,191 @@
+body {
+  font-family: Noto Sans, Segoe UI, Helvetica, sans-serif;
+  font-size: 92%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.title, .select-wrapper {
+  background: #43A047;
+  color: white;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 17px;
+  margin-bottom: 15px;
+}
+
+a, a:visited {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title a {
+  color: inherit;
+}
+
+.title > div a {
+  text-decoration: underline;
+  text-decoration-color: #AFD1AF;
+}
+
+.title > div a:hover {
+  text-decoration-color: white;
+}
+
+h1 {
+  font-size: 230%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+h1 sup {
+  font-size: 45%;
+}
+
+.select-wrapper {
+  position: relative;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.select-wrapper select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 28px;
+  background: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+@-moz-document url-prefix() {
+  .select-wrapper select  {
+    padding-left: 5px;
+    padding-top: -2px;
+    padding-bottom: 2px;
+  }
+}
+
+.select-wrapper::before {
+  content: "☰";
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  pointer-events: none;
+}
+
+select:focus {
+  outline: 0;
+  border: 0;
+}
+
+body.showFocus *:focus {
+  outline: 3px solid #EDDD00;
+}
+
+.filters {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.filters > * {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a.remove-button {
+  font-size: 130%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  vertical-align: bottom;
+  color: #515151;
+  top: 0;
+}
+
+.remove-button > i {
+  padding: 5px;
+}
+
+.sources {
+  display: none;
+  margin-bottom: 5px;
+}
+
+.single-chart .sources {
+  display: block;
+}
+
+.sources > div {
+  display: none;
+  background: #E2E2E2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sources.visible > div {
+  display: inline-block;
+}
+
+.sources.visible > a {
+  display: none;
+}
+
+.sources ol {
+  margin: 2px;
+  text-align: left;
+}
+
+.chart-tile {
+  width: 100%;
+  max-width: 700px;
+  display: inline-block;
+}
+
+.single-chart .chart-tile {
+  max-width: 1240px;
+}
+
+.chart-title {
+  display: inline-block;
+  padding: 3px;
+  font-size: 110%;
+}
+
+.chart-tile .remove-button {
+  position: absolute;
+}
+
+.apexcharts-legend > div {
+  padding: 4px;
+}
+
+.apexcharts-title-text {
+  display: none;
+}
+
+div.apexcharts-toolbar {
+  display: none;
+}
+
+.single-chart div.apexcharts-toolbar {
+  display: flex;
+}
