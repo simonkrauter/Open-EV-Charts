@@ -6,6 +6,7 @@ body {
   text-align: center;
   background: white;
   color: black;
+  min-width: 500px;
 }
 
 .title, .select-wrapper {
@@ -17,6 +18,12 @@ body {
   padding-top: 10px;
   padding-bottom: 17px;
   margin-bottom: 15px;
+  position: relative;
+}
+
+.title > div {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a, a:visited {
