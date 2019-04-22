@@ -191,7 +191,7 @@ function createRemoveButton() {
   var removeButton = createButton();
   removeButton.classList.add("remove-button");
   removeButton.title = "Remove";
-  removeButton.innerHTML = "<i class=\"far fa-window-close\"></i>";
+  removeButton.appendChild(document.createElement("DIV"));
   return removeButton;
 }
 

@@ -119,13 +119,36 @@ body.showFocus *:focus {
 }
 
 a.remove-button {
-  font-size: 130%;
-  display: inline-block;
   margin-left: 10px;
-  cursor: pointer;
-  vertical-align: bottom;
+  top: 1px;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+a.remove-button > div {
+  display: inline-block;
+  width: 17px;
+  height: 14px;
+  color: #6B6B6B;
+  border: 2px solid #6B6B6B;
+  border-radius: 3px;
+}
+
+a.remove-button:hover > div {
   color: #515151;
-  top: 0;
+  border-color: #515151;
+}
+
+a.remove-button > div:after {
+  display: inline-block;
+  content: "\00d7";
+  vertical-align: top;
+  margin-top: -9px;
+  margin-left: 1.5px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .remove-button > i {
