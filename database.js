@@ -237,7 +237,7 @@ var db = {
           if (!categoriesInOrder.includes(category))
             categoriesInOrder.push(category);
         }
-        var seriesName = "total";
+        var seriesName = "";
         if (chartConfig.chartType == this.chartTypes.SalesAll || chartConfig.chartType == this.chartTypes.SalesElectric)
           seriesName = brand;
         if (!(seriesName in seriesRows))
@@ -254,7 +254,8 @@ var db = {
     // Add categories to array in sorted order
     if (chartConfig.chartType == this.chartTypes.ModelsElectric) {
       categoriesInOrder.sort(function(a, b) {
-        return seriesRows.total[a] < seriesRows.total[b] ? 1 : seriesRows.total[a] > seriesRows.total[b] ? -1 : 0;
+        let totalSeries = seriesRows[""];
+        return totalSeries[a] < totalSeries[b] ? 1 : totalSeries[a] > totalSeries[b] ? -1 : 0;
       });
     }
     for (let i in categoriesInOrder) {
