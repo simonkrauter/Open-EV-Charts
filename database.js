@@ -112,8 +112,7 @@ var db = {
     param.unfoldOptions = [];
     param.options = {};
     param.options[param.unfoldKey] = "All Countries";
-    // param.options["combine-countries"] = "Combine Countries";
-    // TODO
+    param.options["combine-countries"] = "Combine Countries";
     for (let code in db.countries) {
       param.options[code] = db.countryNames[db.countries[code]];
       param.unfoldOptions.push(code);
