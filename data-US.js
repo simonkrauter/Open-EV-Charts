@@ -44,12 +44,11 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 105
 });
 
-db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 1875
 , "Tesla|Model S": 800
 , "Tesla|Model X": 700
 , "Chevrolet|Bolt EV": 1177
-, "BMW|i3": 382
 , "Kia|Soul EV": 115
 , "Honda|Clarity BEV": 203
 , "Ford|C-Max Energi": 234
@@ -97,13 +96,12 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 106
 });
 
-db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 2485
 , "Tesla|Model S": 1125
 , "Tesla|Model X": 975
 , "Chevrolet|Bolt EV": 1424
 , "Nissan|Leaf": 895
-, "BMW|i3": 623
 , "Fiat|500e": 235
 , "Kia|Soul EV": 163
 , "Honda|Clarity BEV": 104
@@ -154,13 +152,12 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 110
 });
 
-db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 3820
 , "Tesla|Model S": 3375
 , "Tesla|Model X": 2825
 , "Chevrolet|Bolt EV": 1774
 , "Nissan|Leaf": 1500
-, "BMW|i3": 992
 , "Fiat|500e": 285
 , "Kia|Soul EV": 157
 , "Honda|Clarity BEV": 48
@@ -207,13 +204,12 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 93
 });
 
-db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 3750
 , "Tesla|Model S": 1250
 , "Tesla|Model X": 1025
 , "Chevrolet|Bolt EV": 1275
 , "Nissan|Leaf": 1171
-, "BMW|i3": 503
 , "Fiat|500e": 215
 , "Kia|Soul EV": 152
 , "Honda|Clarity BEV": 52
@@ -260,13 +256,12 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 110
 });
 
-db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 6000
 , "Tesla|Model S": 1520
 , "Tesla|Model X": 1450
 , "Chevrolet|Bolt EV": 1125
 , "Nissan|Leaf": 1576
-, "BMW|i3": 424
 , "Fiat|500e": 250
 , "Kia|Soul EV": 133
 , "Honda|Clarity BEV": 37
@@ -315,13 +310,12 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Volvo": 9868
 });
 
-db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 5902
 , "Tesla|Model S": 2750
 , "Tesla|Model X": 2550
 , "Chevrolet|Bolt EV": 1083
 , "Nissan|Leaf": 1367
-, "BMW|i3": 580
 , "Fiat|500e": 225
 , "Kia|Soul EV": 57
 , "Honda|Clarity BEV": 126
@@ -370,13 +364,12 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Volvo": 8622
 });
 
-db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 14250
 , "Tesla|Model S": 1200
 , "Tesla|Model X": 1325
 , "Chevrolet|Bolt EV": 1175
 , "Nissan|Leaf": 1149
-, "BMW|i3": 464
 , "Fiat|500e": 220
 , "Kia|Soul EV": 130
 , "Honda|Clarity BEV": 120
@@ -425,13 +418,12 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 108
 });
 
-db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 17800
 , "Tesla|Model S": 2625
 , "Tesla|Model X": 2750
 , "Chevrolet|Bolt EV": 1225
 , "Nissan|Leaf": 1315
-, "BMW|i3": 418
 , "Fiat|500e": 75
 , "Kia|Soul EV": 33
 , "Honda|Clarity BEV": 75
@@ -480,13 +472,12 @@ db.insert(db.countries.US, "2018-09", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 98
 });
 
-db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 22250
 , "Tesla|Model S": 3750
 , "Tesla|Model X": 3975
 , "Chevrolet|Bolt EV": 1549
 , "Nissan|Leaf": 1563
-, "BMW|i3": 461
 , "Fiat|500e": 94
 , "Kia|Soul EV": 18
 , "Honda|Clarity BEV": 122
@@ -534,13 +525,12 @@ db.insert(db.countries.US, "2018-10", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 95
 });
 
-db.insert(db.countries.US, "2018-10", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/",
+db.insert(db.countries.US, "2018-10", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 17750
 , "Tesla|Model S": 1350
 , "Tesla|Model X": 1225
 , "Chevrolet|Bolt EV": 2075
 , "Nissan|Leaf": 1234
-, "BMW|i3": 424
 , "Fiat|500e": 100
 , "Kia|Soul EV": 61
 , "Honda|Clarity BEV": 116
@@ -588,13 +578,12 @@ db.insert(db.countries.US, "2018-11", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 100
 });
 
-db.insert(db.countries.US, "2018-11", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/november-2018-u-s-plug-in-ev-sales-report-card/",
+db.insert(db.countries.US, "2018-11", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/november-2018-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 18650
 , "Tesla|Model S": 2750
 , "Tesla|Model X": 3200
 , "Chevrolet|Bolt EV": 2825
 , "Nissan|Leaf": 1128
-, "BMW|i3": 490
 , "Fiat|500e": 148
 , "Volkswagen|e-Golf": 230
 , "smart|ED": 100
@@ -643,13 +632,12 @@ db.insert(db.countries.US, "2018-12", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 122
 });
 
-db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/december-2018-u-s-plug-in-ev-sales-report-card/",
+db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/december-2018-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 25250
 , "Tesla|Model X": 4100
 , "Tesla|Model S": 3250
 , "Chevrolet|Bolt EV": 1412
 , "Nissan|Leaf": 1667
-, "BMW|i3": 356
 , "Fiat|500e": 193
 , "Volkswagen|e-Golf": 222
 , "smart|ED": 122
@@ -694,13 +682,12 @@ db.insert(db.countries.US, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 83
 });
 
-db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/january-2019-u-s-plug-in-ev-sales-report-card/",
+db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/january-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 6500
 , "Tesla|Model X": 950
 , "Chevrolet|Bolt EV": 925
 , "Tesla|Model S": 875
 , "Nissan|Leaf": 717
-, "BMW|i3": 255
 , "Jaguar|I-Pace": 210
 , "Volkswagen|e-Golf": 164
 , "smart|ED": 83
@@ -743,13 +730,12 @@ db.insert(db.countries.US, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 58
 });
 
-db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/february-2019-u-s-plug-in-ev-sales-report-card/",
+db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/february-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 5750
 , "Chevrolet|Bolt EV": 1225
 , "Tesla|Model X": 1100
 , "Tesla|Model S": 800
 , "Nissan|Leaf": 654
-, "BMW|i3": 350
 , "Jaguar|I-Pace": 186
 , "Volkswagen|e-Golf": 118
 , "Fiat|500e": 87
@@ -798,13 +784,12 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 90
 });
 
-db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/march-2019-u-s-plug-in-ev-sales-report-card/",
+db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/march-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 10175
 , "Chevrolet|Bolt EV": 2166
 , "Tesla|Model X": 2175
 , "Tesla|Model S": 2275
 , "Nissan|Leaf": 1314
-, "BMW|i3": 359
 , "Volkswagen|e-Golf": 581
 , "Jaguar|I-Pace": 212
 , "Honda|Clarity BEV": 92
