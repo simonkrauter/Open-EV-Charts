@@ -76,7 +76,8 @@ var db = {
 
   chartTypes:
   { "SalesAll": "sales-all"
-  , "SalesAlectric": "sales-electric"
+  , "SalesElectric": "sales-electric"
+  , "ModelsElectric": "models"
   },
 
   maxSeriesOptions:
@@ -96,9 +97,10 @@ var db = {
     param.unfoldKey = "all-charts";
     param.options[param.unfoldKey] = "All Charts";
     param.options[this.chartTypes.SalesAll] = "All Cars Sales";
-    param.options[this.chartTypes.SalesAlectric] = "Electric Cars Sales";
+    param.options[this.chartTypes.SalesElectric] = "Electric Cars Sales";
+    param.options[this.chartTypes.ModelsElectric] = "Total Sales of Electric Models";
     param.unfoldOptions = Object.values(this.chartTypes);
-    param.defaultOption = this.chartTypes.SalesAlectric;
+    param.defaultOption = this.chartTypes.SalesElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
     result.push(param);
@@ -201,6 +203,7 @@ var db = {
 
   queryChartData: function(chartConfig) {
     let countryId = db.countries[chartConfig.country];
+    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     var dsType = db.dsTypes.ElectricCarsByModel;
     if (chartConfig.chartType == this.chartTypes.SalesAll)
       dsType = db.dsTypes.AllCarsByBrand;
@@ -208,6 +211,7 @@ var db = {
     var result = {series: [], categories: [], sources: []};
 
     // Select datasets
+    var categoriesInOrder = [];
     for (let i in db.datasets) {
       let dataset = db.datasets[i];
       if (countryId != null && dataset.country != countryId)
@@ -215,18 +219,27 @@ var db = {
       if (dataset.dsType != dsType)
         continue;
 
-      let category = dataset.month;
-      // let category = this.monthToQuarter(dataset.month);
-
-      if (!result.categories.includes(category)) {
-        result.categories.push(category);
+      var category;
+      if (chartConfig.chartType == this.chartTypes.SalesAll || chartConfig.chartType == this.chartTypes.SalesElectric) {
+        category = dataset.month;
+        // let category = this.monthToQuarter(dataset.month);
+        if (!categoriesInOrder.includes(category))
+          categoriesInOrder.push(category);
       }
+
       for (var dataKey in dataset.data) {
         let dataKeyParts = dataKey.split("|", 2);
         let brand = dataKeyParts[0];
         let model = brand + " " + dataKeyParts[1];
         let value = dataset.data[dataKey];
-        let seriesName = brand;
+        if (chartConfig.chartType == this.chartTypes.ModelsElectric) {
+          category = model;
+          if (!categoriesInOrder.includes(category))
+            categoriesInOrder.push(category);
+        }
+        var seriesName = "total";
+        if (chartConfig.chartType == this.chartTypes.SalesAll || chartConfig.chartType == this.chartTypes.SalesElectric)
+          seriesName = brand;
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
         if (category in seriesRows[seriesName])
@@ -236,6 +249,19 @@ var db = {
       }
       if (!result.sources.includes(dataset.source))
         result.sources.push(dataset.source);
+    }
+
+    // Add categories to array in sorted order
+    if (chartConfig.chartType == this.chartTypes.ModelsElectric) {
+      categoriesInOrder.sort(function(a, b) {
+        return seriesRows.total[a] < seriesRows.total[b] ? 1 : seriesRows.total[a] > seriesRows.total[b] ? -1 : 0;
+      });
+    }
+    for (let i in categoriesInOrder) {
+      let category = categoriesInOrder[i];
+      result.categories.push(category);
+      if (chartConfig.chartType == this.chartTypes.ModelsElectric && result.categories.length == maxSeries)
+        break;
     }
 
     // Create series (entries of 'data' must be in order of 'result.categories')
@@ -251,9 +277,8 @@ var db = {
       for (let i in result.categories) {
         let category = result.categories[i];
         let value = seriesRows[seriesName][category];
-        if (typeof(value) == "undefined") {
+        if (typeof(value) == "undefined")
           value = null;
-        }
         newSeries.data.push(value);
         if (value != null) {
           var factor = 1;
@@ -272,7 +297,6 @@ var db = {
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
-    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     for (let i in seriesNamesInOrder) {
       let seriesName = seriesNamesInOrder[i];
       result.series.push(seriesByName[seriesName]);

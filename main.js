@@ -201,13 +201,16 @@ function renderChart(chartConfig, chartData, chartDiv) {
       text: db.getChartTitle(chartConfig)
     },
     chart: {
-      type: "line",
       animations: {
         enabled: false
       }
     },
+    plotOptions: {
+      bar: {
+        horizontal: true
+      }
+    },
     stroke: {
-      width: 3.5
     },
     colors: [
       "#e53935",
@@ -235,10 +238,17 @@ function renderChart(chartConfig, chartData, chartDiv) {
       "#8E24AA"
     ],
     series: [],
-    xaxis: {},
+    xaxis: {
+      labels: {
+        formatter: function (val, timestamp, index) {
+          if (Number.isInteger(val))
+            return val.toLocaleString();
+          return val;
+        }
+      }
+    },
     yaxis: {
       title: {
-        text: "Sold cars"
       },
       min: 0,
       forceNiceScale: true,
@@ -254,10 +264,24 @@ function renderChart(chartConfig, chartData, chartDiv) {
       size: 3.5,
       strokeWidth: 0
     },
+    dataLabels: {
+      formatter: function (val, opts) {
+        return val.toLocaleString();
+      }
+    },
     legend: {
       position: "bottom",
       offsetY: -10,
     }
+  }
+
+  if (chartConfig.chartType == db.chartTypes.ModelsElectric) {
+    chartOptions.chart.type = "bar";
+    chartOptions.legend.show = false;
+  } else {
+    chartOptions.chart.type = "line";
+    chartOptions.stroke.width = 3.5;
+    chartOptions.yaxis.title.text = "Sold cars";
   }
 
   chartOptions.chart.fontFamily = window.getComputedStyle(document.body)["font-family"];
