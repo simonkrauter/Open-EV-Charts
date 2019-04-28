@@ -53,7 +53,7 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://i
 , "Honda|Clarity BEV": 203
 , "Ford|C-Max Energi": 234
 , "Ford|Focus Electric": 70
-, "Hyundai|Ioniq EV": 49
+, "Hyundai|Ioniq Electric": 49
 });
 
 db.insert(db.countries.US, "2018-02", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/02/u-s-auto-sales-brand-rankings-february-2018-ytd/",
@@ -109,7 +109,7 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 198
 , "Ford|C-Max Energi": 142
 , "Ford|Focus Electric": 73
-, "Hyundai|Ioniq EV": 3
+, "Hyundai|Ioniq Electric": 3
 });
 
 db.insert(db.countries.US, "2018-03", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/04/u-s-auto-sales-brand-rankings-march-2018-ytd/",
@@ -165,7 +165,7 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 164
 , "Ford|C-Max Energi": 105
 , "Ford|Focus Electric": 137
-, "Hyundai|Ioniq EV": 60
+, "Hyundai|Ioniq Electric": 60
 });
 
 db.insert(db.countries.US, "2018-04", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/05/u-s-auto-sales-brand-rankings-april-2018-ytd/",
@@ -217,7 +217,7 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 128
 , "Ford|C-Max Energi": 57
 , "Ford|Focus Electric": 83
-, "Hyundai|Ioniq EV": 7
+, "Hyundai|Ioniq Electric": 7
 });
 
 db.insert(db.countries.US, "2018-05", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/06/u-s-auto-sales-brand-rankings-may-2018-ytd/",
@@ -269,7 +269,7 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 76
 , "Ford|C-Max Energi": 18
 , "Ford|Focus Electric": 88
-, "Hyundai|Ioniq EV": 32
+, "Hyundai|Ioniq Electric": 32
 });
 
 db.insert(db.countries.US, "2018-06", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/07/u-s-auto-sales-brand-rankings-june-2018-ytd/",
@@ -323,7 +323,7 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 32
 , "Ford|C-Max Energi": 6
 , "Ford|Focus Electric": 50
-, "Hyundai|Ioniq EV": 47
+, "Hyundai|Ioniq Electric": 47
 });
 
 db.insert(db.countries.US, "2018-07", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/08/u-s-auto-sales-brand-rankings-july-2018-ytd/",
@@ -377,7 +377,7 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 18
 , "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 46
-, "Hyundai|Ioniq EV": 35
+, "Hyundai|Ioniq Electric": 35
 });
 
 db.insert(db.countries.US, "2018-08", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/09/u-s-auto-sales-brand-rankings-august-2018-ytd/",
@@ -431,7 +431,7 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 32
 , "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 7
-, "Hyundai|Ioniq EV": 21
+, "Hyundai|Ioniq Electric": 21
 });
 
 db.insert(db.countries.US, "2018-09", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/10/u-s-auto-sales-brand-rankings-september-2018-ytd/",
@@ -485,7 +485,7 @@ db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 14
 , "Ford|C-Max Energi": 12
 , "Ford|Focus Electric": 4
-, "Hyundai|Ioniq EV": 12
+, "Hyundai|Ioniq Electric": 12
 });
 
 db.insert(db.countries.US, "2018-10", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2018/11/u-s-auto-sales-brand-rankings-october-2018-ytd/",
@@ -536,7 +536,7 @@ db.insert(db.countries.US, "2018-10", db.dsTypes.ElectricCarsByModel, "https://i
 , "Honda|Clarity BEV": 116
 , "smart|ED": 95
 , "Volkswagen|e-Golf": 62
-, "Hyundai|Ioniq EV": 21
+, "Hyundai|Ioniq Electric": 21
 , "Jaguar|I-Pace": 5
 });
 
@@ -590,7 +590,7 @@ db.insert(db.countries.US, "2018-11", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 61
 , "Honda|Clarity BEV": 37
 , "Ford|Focus Electric": 1
-, "Hyundai|Ioniq EV": 34
+, "Hyundai|Ioniq Electric": 34
 , "Jaguar|I-Pace": 165
 });
 
@@ -645,7 +645,7 @@ db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://i
 , "Honda|Clarity BEV": 86
 , "Ford|Focus Electric": 1
 , "Jaguar|I-Pace": 223
-, "Hyundai|Ioniq EV": 24
+, "Hyundai|Ioniq Electric": 24
 });
 
 db.insert(db.countries.US, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/02/u-s-auto-sales-brand-rankings-january-2019-ytd/",
@@ -693,7 +693,7 @@ db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://i
 , "smart|ED": 83
 , "Honda|Clarity BEV": 78
 , "Fiat|500e": 72
-, "Hyundai|Ioniq EV": 34
+, "Hyundai|Ioniq Electric": 34
 });
 
 db.insert(db.countries.US, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/03/u-s-auto-sales-brand-rankings-february-2019-ytd/",
@@ -741,7 +741,7 @@ db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 87
 , "Honda|Clarity BEV": 68
 , "smart|ED": 58
-, "Hyundai|Ioniq EV": 32
+, "Hyundai|Ioniq Electric": 32
 , "Hyundai|Kona Electric": 16
 , "Kia|Soul EV": 1
 });
@@ -796,6 +796,6 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://i
 , "smart|ED": 90
 , "Fiat|500e": 33
 , "Hyundai|Kona Electric": 127
-, "Hyundai|Ioniq EV": 28
+, "Hyundai|Ioniq Electric": 28
 , "Kia|Soul EV": 2
 });

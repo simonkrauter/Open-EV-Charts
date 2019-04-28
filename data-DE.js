@@ -48,7 +48,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 450
 , "Renault|ZOE": 299
 , "BMW|i3 BEV": 210
-, "Hyundai|Ioniq Elektro": 189
+, "Hyundai|Ioniq Electric": 189
 , "smart|forfour electric drive": 173
 , "Volkswagen|e-up!": 73
 , "Opel|Ampera-e": 67
@@ -105,7 +105,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 199
 , "Tesla|Model S": 124
 , "Opel|Ampera-e": 111
-, "Hyundai|Ioniq Elektro": 109
+, "Hyundai|Ioniq Electric": 109
 , "Kia|Soul EV": 101
 , "Volkswagen|e-up!": 73
 , "Tesla|Model X": 51
@@ -164,7 +164,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 304
 , "Volkswagen|e-up!": 131
 , "Tesla|Model X": 124
-, "Hyundai|Ioniq Elektro": 61
+, "Hyundai|Ioniq Electric": 61
 , "Opel|Ampera-e": 57
 , "Ford|Focus Electric": 10
 , "Mercedes|B-Klasse Electric Drive": 10
@@ -219,7 +219,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 279
 , "smart|fortwo electric drive": 254
 , "smart|forfour electric drive": 175
-, "Hyundai|Ioniq Elektro": 96
+, "Hyundai|Ioniq Electric": 96
 , "Volkswagen|e-up!": 95
 , "Tesla|Model S": 71
 , "Tesla|Model X": 35
@@ -278,7 +278,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 129
 , "smart|fortwo electric drive": 122
 , "Tesla|Model S": 112
-, "Hyundai|Ioniq Elektro": 98
+, "Hyundai|Ioniq Electric": 98
 , "Tesla|Model X": 88
 , "Volkswagen|e-up!": 76
 , "Mercedes|B-Klasse Electric Drive": 34
@@ -336,7 +336,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "smart|fortwo electric drive": 264
 , "Tesla|Model S": 200
 , "Nissan|Leaf": 127
-, "Hyundai|Ioniq Elektro": 126
+, "Hyundai|Ioniq Electric": 126
 , "Kia|Soul EV": 125
 , "Tesla|Model X": 80
 , "Peugeot|iOn": 70
@@ -396,7 +396,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 311
 , "Nissan|Leaf": 159
 , "smart|forfour electric drive": 116
-, "Hyundai|Ioniq Elektro": 105
+, "Hyundai|Ioniq Electric": 105
 , "Jaguar|I-Pace": 70
 , "Tesla|Model S": 51
 , "Volkswagen|e-up!": 46
@@ -453,7 +453,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 268
 , "Nissan|Leaf": 177
 , "smart|forfour electric drive": 169
-, "Hyundai|Ioniq Elektro": 138
+, "Hyundai|Ioniq Electric": 138
 , "Volkswagen|e-up!": 105
 , "Tesla|Model S": 47
 , "Tesla|Model X": 35
@@ -510,9 +510,9 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 275
 , "smart|fortwo electric drive": 264
 , "Kia|Soul EV": 120
-, "Hyundai|Ioniq Elektro": 110
+, "Hyundai|Ioniq Electric": 110
 , "Tesla|Model S": 104
-, "Hyundai|Kona Elektro": 91
+, "Hyundai|Kona Electric": 91
 , "Tesla|Model X": 81
 , "Volkswagen|e-up!": 80
 , "smart|forfour electric drive": 74
@@ -569,8 +569,8 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 306
 , "Nissan|Leaf": 306
 , "smart|forfour electric drive": 295
-, "Hyundai|Ioniq Elektro": 257
-, "Hyundai|Kona Elektro": 78
+, "Hyundai|Ioniq Electric": 257
+, "Hyundai|Kona Electric": 78
 , "Volkswagen|e-up!": 66
 , "Kia|Soul EV": 53
 , "Tesla|Model S": 46
@@ -626,11 +626,11 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 366
 , "BMW|i3 BEV": 360
 , "smart|fortwo electric drive": 296
-, "Hyundai|Ioniq Elektro": 227
+, "Hyundai|Ioniq Electric": 227
 , "smart|forfour electric drive": 214
 , "Kia|Soul EV": 182
 , "Volkswagen|e-up!": 126
-, "Hyundai|Kona Elektro": 95
+, "Hyundai|Kona Electric": 95
 , "Tesla|Model S": 81
 , "Tesla|Model X": 40
 , "Jaguar|I-Pace": 38
@@ -684,10 +684,10 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 497
 , "Nissan|Leaf": 206
 , "smart|fortwo electric drive": 188
-, "Hyundai|Ioniq Elektro": 179
+, "Hyundai|Ioniq Electric": 179
 , "Kia|Soul EV": 151
 , "smart|forfour electric drive": 115
-, "Hyundai|Kona Elektro": 104
+, "Hyundai|Kona Electric": 104
 , "Volkswagen|e-up!": 86
 , "Tesla|Model S": 63
 , "Tesla|Model X": 42
@@ -743,10 +743,10 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 645
 , "Audi|e-tron quattro": 407
 , "Kia|Soul EV": 302
-, "Hyundai|Kona Elektro": 291
+, "Hyundai|Kona Electric": 291
 , "Nissan|Leaf": 288
 , "smart|fortwo electric drive": 264
-, "Hyundai|Ioniq Elektro": 203
+, "Hyundai|Ioniq Electric": 203
 , "smart|forfour electric drive": 145
 , "Kia|Niro EV": 103
 , "Tesla|Model S": 91
@@ -801,14 +801,14 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 959
 , "Renault|ZOE": 782
 , "BMW|i3 BEV": 628
-, "Hyundai|Kona Elektro": 400
+, "Hyundai|Kona Electric": 400
 , "Nissan|Leaf": 302
 , "Volkswagen|e-Golf": 281
 , "smart|forfour electric drive": 190
 , "smart|fortwo electric drive": 179
 , "Audi|e-tron quattro": 155
 , "Kia|Soul EV": 149
-, "Hyundai|Ioniq Elektro": 142
+, "Hyundai|Ioniq Electric": 142
 , "Jaguar|I-Pace": 92
 , "Tesla|Model S": 87
 , "Volkswagen|e-up!": 65
@@ -864,11 +864,11 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 708
 , "Audi|e-tron quattro": 478
 , "smart|fortwo electric drive": 371
-, "Hyundai|Kona Elektro": 284
+, "Hyundai|Kona Electric": 284
 , "Nissan|Leaf": 227
 , "Volkswagen|e-Golf": 219
 , "smart|forfour electric drive": 132
-, "Hyundai|Ioniq Elektro": 131
+, "Hyundai|Ioniq Electric": 131
 , "Jaguar|I-Pace": 106
 , "Nissan|e-NV200": 93
 , "Kia|Niro EV": 87
