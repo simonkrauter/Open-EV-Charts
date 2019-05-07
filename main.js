@@ -322,6 +322,7 @@ function renderSources(chartTileDiv, chartData) {
     let link = document.createElement("A");
     li.appendChild(link);
     link.href = url;
+    link.target = "_blank";
     link.appendChild(document.createTextNode(url));
     if (parts.length > 0)
       li.appendChild(document.createTextNode(" " + parts.join(" ")));
