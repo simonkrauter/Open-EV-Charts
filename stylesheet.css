@@ -9,25 +9,25 @@ body {
   min-width: 500px;
 }
 
-.title, .select-wrapper {
-  background: #43A047;
+.title, .filters {
+  background: #262626;
   color: white;
 }
 
 .title {
-  padding-top: 10px;
-  padding-bottom: 17px;
-  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: relative;
 }
 
 .title > div {
+  padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 a, a:visited {
-  color: #0000EE;
+  color: #0067CE;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 
 .title > div a {
   text-decoration: underline;
-  text-decoration-color: #AFD1AF;
+  text-decoration-color: #BCBCBC;
 }
 
 .title > div a:hover {
@@ -53,7 +53,6 @@ h1 {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
 h1 sup {
@@ -62,7 +61,8 @@ h1 sup {
 
 .select-wrapper {
   position: relative;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  background: #2A81C9;
+  color: white;
 }
 
 .select-wrapper select {
@@ -81,20 +81,17 @@ h1 sup {
   cursor: pointer;
 }
 
-@-moz-document url-prefix() {
-  .select-wrapper select  {
-    padding-left: 5px;
-    padding-top: -2px;
-    padding-bottom: 2px;
-  }
-}
-
-.select-wrapper::before {
-  content: "☰";
+.select-wrapper::after {
+  content: " ";
   position: absolute;
-  right: 7px;
-  top: 6px;
+  width: 8px;
+  height: 8px;
+  right: 9px;
+  top: 9px;
   pointer-events: none;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 select:focus {
@@ -108,8 +105,9 @@ body.showFocus *:focus {
 
 .filters {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
 }
 
 .filters > * {
@@ -120,33 +118,32 @@ body.showFocus *:focus {
 
 a.remove-button {
   margin-left: 10px;
-  top: 1px;
   display: inline-block;
-  padding: 5px;
+  padding: 3px;
+  padding-top: 6px;
   text-decoration: none;
   vertical-align: top;
 }
 
 a.remove-button > div {
   display: inline-block;
-  width: 17px;
-  height: 14px;
-  color: #6B6B6B;
-  border: 2px solid #6B6B6B;
-  border-radius: 3px;
+  width: 18px;
+  height: 16px;
+  color: #8C8C8C;
+  border: 2px solid #8C8C8C;
+  opacity: 0.8;
 }
 
 a.remove-button:hover > div {
-  color: #515151;
-  border-color: #515151;
+  opacity: 1;
 }
 
 a.remove-button > div:after {
   display: inline-block;
   content: "\00d7";
   vertical-align: top;
-  margin-top: -9px;
-  margin-left: 1.5px;
+  margin-top: -8px;
+  margin-left: 1px;
   font-size: 22px;
   font-weight: bold;
 }
@@ -166,9 +163,8 @@ a.remove-button > div:after {
 
 .sources > div {
   display: none;
-  background: #E2E2E2;
+  background: #DBDBDB;
   padding: 5px;
-  border-radius: 5px;
 }
 
 .sources.visible > div {
@@ -197,6 +193,7 @@ a.remove-button > div:after {
 .chart-title {
   display: inline-block;
   padding: 3px;
+  padding-top: 4px;
   font-size: 110%;
 }
 

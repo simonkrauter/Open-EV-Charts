@@ -1,5 +1,5 @@
-EV Sales Tracker
-================
+Open EV Charts
+==============
 
 The purpose of this projects is to collect and visualize information about the adoption of electric cars.<br>
 The database contains monthly sales volume per country and manufacturer. The numbers for electric cars are given by model.
@@ -34,6 +34,6 @@ Requirements for data sets:
 License
 -------
 
-EV Sales Tracker is FLOSS (free and open-source software).<br>
+Open EV Charts is FLOSS (free and open-source software).<br>
 All files in this repository are licensed under the [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0) (GPLv3).<br>
 Copyright 2019 Simon Krauter
