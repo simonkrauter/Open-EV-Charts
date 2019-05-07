@@ -300,6 +300,7 @@ function renderSources(chartTileDiv, chartData) {
   let showButton = createButton();
   sourcesDiv.appendChild(showButton);
   showButton.appendChild(document.createTextNode("Show Sources"));
+  showButton.classList.add("button");
   showButton.addEventListener("click", function(event) {
     event.preventDefault();
     event.target.parentNode.classList.add("visible");
