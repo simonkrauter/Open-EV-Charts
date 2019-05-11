@@ -27,21 +27,13 @@ function renderPage() {
     let chartSetDiv = document.createElement("DIV");
     dynamicContent.appendChild(chartSetDiv);
     chartSetDiv.classList.add("chart-set");
-    renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString));
+    renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString), chartConfigStrings.length == 1);
   }
-}
-
-function updateChartSize(tileCount) {
-  if (tileCount == 1 && dynamicContent.childNodes.length == 1 && dynamicContent.childNodes[0].childNodes.length == 2)
-    dynamicContent.classList.add("single-chart");
-  else
-    dynamicContent.classList.remove("single-chart");
 }
 
 function getChartConfigStringsFromUrl() {
   return location.hash.substr(1).split(",");
 }
-
 
 function rebuildUrlHash() {
   let oldCount = getChartConfigStringsFromUrl().length;
@@ -56,7 +48,7 @@ function rebuildUrlHash() {
     renderPage();
 }
 
-function renderChartSet(chartSetDiv, chartConfig) {
+function renderChartSet(chartSetDiv, chartConfig, isSingle) {
   chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartSetDiv.innerHTML = "";
 
@@ -64,7 +56,7 @@ function renderChartSet(chartSetDiv, chartConfig) {
 
   let chartConfigList = db.unfoldChartConfig(chartConfig);
   for (let i in chartConfigList)
-    renderChartTile(chartSetDiv, chartConfigList[i], chartConfigList.length);
+    renderChartTile(chartSetDiv, chartConfigList[i], isSingle && chartConfigList.length == 1);
 }
 
 function renderFilters(chartSetDiv, chartConfig) {
@@ -75,6 +67,8 @@ function renderFilters(chartSetDiv, chartConfig) {
   let params = db.getChartParams();
   for (let i in params) {
     let param = params[i];
+    if (!param.showAsFilter)
+      continue;
     var select = addSelectElement(div);
     select.name = param.name;
     select.addEventListener("change", function(event) {
@@ -82,6 +76,7 @@ function renderFilters(chartSetDiv, chartConfig) {
       let chartSetDiv = event.target.parentNode.parentNode.parentNode;
       var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
       chartConfig[paramName] = event.target.value;
+      chartConfig.view = db.views.chart;
       renderChartSet(chartSetDiv, chartConfig);
       rebuildUrlHash();
     });
@@ -115,7 +110,7 @@ function addSelectElement(parent, defaultOptionText) {
   return select;
 }
 
-function renderChartTile(chartSetDiv, chartConfig, tileCount) {
+function renderChartTile(chartSetDiv, chartConfig, isSingle) {
   var chartData = db.queryChartData(chartConfig);
 
   let chartTileDiv = document.createElement("DIV");
@@ -123,28 +118,61 @@ function renderChartTile(chartSetDiv, chartConfig, tileCount) {
   chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartTileDiv.classList.add("chart-tile");
 
-  updateChartSize(tileCount);
-  // do this before the chart gets rendered to avoid resizing
+  if (!isSingle)
+    chartConfig.view = db.views.chart;
 
-  let titleElem = document.createElement("A");
+  renderChartTitle(chartTileDiv, chartConfig, isSingle);
+
+  if (isSingle)
+    renderChartTabButtons(chartTileDiv, chartConfig);
+
+  if (chartConfig.view == db.views.chart)
+    renderChartView(chartConfig, chartData, chartTileDiv, isSingle);
+  else if (chartConfig.view == db.views.sources)
+    renderSources(chartTileDiv, chartData);
+}
+
+function renderChartTitle(chartTileDiv, chartConfig, isSingle) {
+  var titleElem;
+  if (isSingle)
+    titleElem = document.createElement("DIV");
+  else {
+    titleElem = document.createElement("A");
+    titleElem.href = "#" + db.encodeChartConfig(chartConfig);
+    titleElem.title = "Show only this chart (bigger)";
+  }
   chartTileDiv.appendChild(titleElem);
   titleElem.classList.add("chart-title");
   titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig)));
-  titleElem.href = "#" + db.encodeChartConfig(chartConfig);
-  titleElem.title = "Show only this chart (bigger)";
 
-  if (tileCount > 1) {
+  if (!isSingle) {
     var removeButton = createRemoveButton();
     chartTileDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartTileRemoveClick);
   }
+}
 
-  let chartDiv = document.createElement("DIV");
-  chartTileDiv.appendChild(chartDiv);
+function renderChartTabButtons(chartTileDiv, chartConfig) {
+  let tabButtonsDiv = document.createElement("DIV");
+  chartTileDiv.appendChild(tabButtonsDiv);
+  tabButtonsDiv.classList.add("tab-buttons");
+  let params = db.getChartParams();
+  let viewOptions = params.view.options;
+  for (let i in viewOptions)
+    renderChartTabButton(tabButtonsDiv, chartConfig, i, viewOptions[i]);
+}
 
-  renderChart(chartConfig, chartData, chartDiv);
-
-  renderSources(chartTileDiv, chartData);
+function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
+  var button;
+  if (chartConfig.view == key)
+    button = document.createElement("DIV");
+  else
+    button = document.createElement("A");
+  tabButtonsDiv.appendChild(button);
+  var chartConfigChanged = cloneObject(chartConfig);
+  chartConfigChanged.view = key;
+  button.href = "#" + db.encodeChartConfig(chartConfigChanged);
+  button.appendChild(document.createTextNode(title));
 }
 
 function chartTileRemoveClick(event) {
@@ -173,6 +201,7 @@ function chartTileRemoveClick(event) {
 function createButton() {
   // Creates an A element which can be used as a button
   var button = document.createElement("A");
+  button.classList.add("button");
   button.href = "#";
   button.addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
@@ -195,7 +224,7 @@ function createRemoveButton() {
   return removeButton;
 }
 
-function renderChart(chartConfig, chartData, chartDiv) {
+function renderChartView(chartConfig, chartData, chartTileDiv, isSingle) {
   var chartOptions = {
     title: {
       text: db.getChartTitle(chartConfig)
@@ -203,6 +232,9 @@ function renderChart(chartConfig, chartData, chartDiv) {
     chart: {
       animations: {
         enabled: false
+      },
+      toolbar: {
+        show: isSingle
       }
     },
     plotOptions: {
@@ -275,7 +307,7 @@ function renderChart(chartConfig, chartData, chartDiv) {
     }
   }
 
-  if (chartConfig.chartType == db.chartTypes.ModelsElectric) {
+  if (chartConfig.chartType == db.chartTypes.modelsElectric) {
     chartOptions.chart.type = "bar";
     chartOptions.legend.show = false;
   } else {
@@ -288,6 +320,18 @@ function renderChart(chartConfig, chartData, chartDiv) {
   chartOptions.series = chartData.series;
   chartOptions.xaxis.categories = chartData.categories;
 
+  let chartDiv = document.createElement("DIV");
+  chartTileDiv.appendChild(chartDiv);
+
+  // Set chart size
+  let heightRatio = 0.63; // defined by apex charts
+  let heightOffset = 230;
+  let minWidth = 500;
+  var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
+  if (!isSingle)
+    wantedWith = wantedWith / 2.2;
+  chartTileDiv.style.width = Math.max(wantedWith, minWidth) + "px";
+
   var chart = new ApexCharts(chartDiv, chartOptions);
   chart.render();
 }
@@ -297,23 +341,8 @@ function renderSources(chartTileDiv, chartData) {
   chartTileDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
-  let showButton = createButton();
-  sourcesDiv.appendChild(showButton);
-  showButton.appendChild(document.createTextNode("Show Sources"));
-  showButton.classList.add("button");
-  showButton.addEventListener("click", function(event) {
-    event.preventDefault();
-    event.target.parentNode.classList.add("visible");
-  });
-
-  let sourcesContentDiv = document.createElement("DIV");
-  sourcesDiv.appendChild(sourcesContentDiv);
-
-  let textDiv = document.createElement("DIV");
-  sourcesContentDiv.appendChild(textDiv);
-  textDiv.appendChild(document.createTextNode("Sources"));
   let ol = document.createElement("OL");
-  sourcesContentDiv.appendChild(ol);
+  sourcesDiv.appendChild(ol);
   let reversed = chartData.sources.reverse();
   for (let i in reversed) {
     let parts = reversed[i].split(" ");
@@ -330,3 +359,6 @@ function renderSources(chartTileDiv, chartData) {
   }
 }
 
+function cloneObject(obj) {
+  return JSON.parse(JSON.stringify(obj))
+}

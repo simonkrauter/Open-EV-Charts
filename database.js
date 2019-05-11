@@ -75,9 +75,14 @@ var db = {
   },
 
   chartTypes:
-  { "SalesAll": "sales-all"
-  , "SalesElectric": "sales-electric"
-  , "ModelsElectric": "models"
+  { "salesAll": "sales-all"
+  , "salesElectric": "sales-electric"
+  , "modelsElectric": "models"
+  },
+
+  views:
+  { "chart": "chart"
+  , "sources": "sources"
   },
 
   maxSeriesOptions:
@@ -88,7 +93,7 @@ var db = {
   },
 
   getChartParams: function() {
-    var result = [];
+    var result = {};
 
     // chart type
     var param = {};
@@ -96,14 +101,15 @@ var db = {
     param.options = {};
     param.unfoldKey = "all-charts";
     param.options[param.unfoldKey] = "All Charts";
-    param.options[this.chartTypes.SalesAll] = "All Cars Sales";
-    param.options[this.chartTypes.SalesElectric] = "Electric Cars Sales";
-    param.options[this.chartTypes.ModelsElectric] = "Total Sales of Electric Models";
+    param.options[this.chartTypes.salesAll] = "All Cars Sales";
+    param.options[this.chartTypes.salesElectric] = "Electric Cars Sales";
+    param.options[this.chartTypes.modelsElectric] = "Total Sales of Electric Models";
     param.unfoldOptions = Object.values(this.chartTypes);
-    param.defaultOption = this.chartTypes.SalesElectric;
+    param.defaultOption = this.chartTypes.salesElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
-    result.push(param);
+    param.showAsFilter = true;
+    result[param.name] = param;
 
     // country
     var param = {};
@@ -119,7 +125,8 @@ var db = {
     }
     param.defaultOption = "all-countries";
     param.showInTitle = true;
-    result.push(param);
+    param.showAsFilter = true;
+    result[param.name] = param;
 
     // max series
     var param = {};
@@ -128,7 +135,17 @@ var db = {
     for (let key in this.maxSeriesOptions)
       param.options[key] = "Top " + this.maxSeriesOptions[key];
     param.defaultOption = "top10";
-    result.push(param);
+    param.showAsFilter = true;
+    result[param.name] = param;
+
+    // view
+    var param = {};
+    param.name = "view";
+    param.options = {};
+    param.options[this.views.chart] = "Chart";
+    param.options[this.views.sources] = "Sources";
+    param.defaultOption = this.views.chart;
+    result[param.name] = param;
 
     return result;
   },
@@ -204,7 +221,7 @@ var db = {
     let countryId = db.countries[chartConfig.country];
     let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     var dsType = db.dsTypes.ElectricCarsByModel;
-    if (chartConfig.chartType == this.chartTypes.SalesAll)
+    if (chartConfig.chartType == this.chartTypes.salesAll)
       dsType = db.dsTypes.AllCarsByBrand;
     var seriesRows = {};
     var result = {series: [], categories: [], sources: []};
@@ -219,7 +236,7 @@ var db = {
         continue;
 
       var category;
-      if (chartConfig.chartType == this.chartTypes.SalesAll || chartConfig.chartType == this.chartTypes.SalesElectric) {
+      if (chartConfig.chartType == this.chartTypes.salesAll || chartConfig.chartType == this.chartTypes.salesElectric) {
         category = dataset.month;
         // let category = this.monthToQuarter(dataset.month);
         if (!categoriesInOrder.includes(category))
@@ -231,13 +248,13 @@ var db = {
         let brand = dataKeyParts[0];
         let model = brand + " " + dataKeyParts[1];
         let value = dataset.data[dataKey];
-        if (chartConfig.chartType == this.chartTypes.ModelsElectric) {
+        if (chartConfig.chartType == this.chartTypes.modelsElectric) {
           category = model;
           if (!categoriesInOrder.includes(category))
             categoriesInOrder.push(category);
         }
         var seriesName = "";
-        if (chartConfig.chartType == this.chartTypes.SalesAll || chartConfig.chartType == this.chartTypes.SalesElectric)
+        if (chartConfig.chartType == this.chartTypes.salesAll || chartConfig.chartType == this.chartTypes.salesElectric)
           seriesName = brand;
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
@@ -251,7 +268,7 @@ var db = {
     }
 
     // Add categories to array in sorted order
-    if (chartConfig.chartType == this.chartTypes.ModelsElectric) {
+    if (chartConfig.chartType == this.chartTypes.modelsElectric) {
       categoriesInOrder.sort(function(a, b) {
         let totalSeries = seriesRows[""];
         return totalSeries[a] < totalSeries[b] ? 1 : totalSeries[a] > totalSeries[b] ? -1 : 0;
@@ -260,7 +277,7 @@ var db = {
     for (let i in categoriesInOrder) {
       let category = categoriesInOrder[i];
       result.categories.push(category);
-      if (chartConfig.chartType == this.chartTypes.ModelsElectric && result.categories.length == maxSeries)
+      if (chartConfig.chartType == this.chartTypes.modelsElectric && result.categories.length == maxSeries)
         break;
     }
 

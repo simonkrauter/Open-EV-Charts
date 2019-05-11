@@ -134,16 +134,16 @@ body.showFocus *:focus {
   margin-right: 10px;
 }
 
-a.remove-button {
+a.button.remove-button {
+  background: none;
   margin-left: 10px;
   display: inline-block;
   padding: 3px;
-  padding-top: 6px;
-  text-decoration: none;
+  padding-top: 7px;
   vertical-align: top;
 }
 
-a.remove-button > div {
+a.button.remove-button > div {
   display: inline-block;
   width: 18px;
   height: 16px;
@@ -152,11 +152,11 @@ a.remove-button > div {
   opacity: 0.8;
 }
 
-a.remove-button:hover > div {
+a.button.remove-button:hover > div {
   opacity: 1;
 }
 
-a.remove-button > div:after {
+a.button.remove-button > div:after {
   display: inline-block;
   content: "\00d7";
   vertical-align: top;
@@ -166,31 +166,12 @@ a.remove-button > div:after {
   font-weight: bold;
 }
 
-.remove-button > i {
+.button.remove-button > i {
   padding: 5px;
 }
 
 .sources {
-  display: none;
-  margin-bottom: 5px;
-}
-
-.single-chart .sources {
-  display: block;
-}
-
-.sources > div {
-  display: none;
-  background: #DBDBDB;
-  padding: 5px;
-}
-
-.sources.visible > div {
   display: inline-block;
-}
-
-.sources.visible > a {
-  display: none;
 }
 
 .sources ol {
@@ -199,24 +180,29 @@ a.remove-button > div:after {
 }
 
 .chart-tile {
-  width: 100%;
-  max-width: 700px;
   display: inline-block;
-}
-
-.single-chart .chart-tile {
-  max-width: 1240px;
 }
 
 .chart-title {
   display: inline-block;
   padding: 3px;
   padding-top: 4px;
-  font-size: 110%;
+  font-size: 118%;
 }
 
 .chart-tile .remove-button {
   position: absolute;
+}
+
+.tab-buttons > * {
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.tab-buttons > div {
+  font-weight: bold;
 }
 
 .apexcharts-legend > div {
@@ -225,12 +211,4 @@ a.remove-button > div:after {
 
 .apexcharts-title-text {
   display: none;
-}
-
-div.apexcharts-toolbar {
-  display: none;
-}
-
-.single-chart div.apexcharts-toolbar {
-  display: flex;
 }
