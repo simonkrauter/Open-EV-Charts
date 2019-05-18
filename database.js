@@ -82,6 +82,7 @@ var db = {
 
   views:
   { "chart": "chart"
+  , "table": "table"
   , "sources": "sources"
   },
 
@@ -143,6 +144,7 @@ var db = {
     param.name = "view";
     param.options = {};
     param.options[this.views.chart] = "Chart";
+    param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
     param.defaultOption = this.views.chart;
     result[param.name] = param;
@@ -224,7 +226,14 @@ var db = {
     if (chartConfig.chartType == this.chartTypes.salesAll)
       dsType = db.dsTypes.AllCarsByBrand;
     var seriesRows = {};
-    var result = {series: [], categories: [], sources: []};
+    var result = {};
+    result.series = [];
+    result.categories = [];
+    result.sources = [];
+    if (chartConfig.chartType == this.chartTypes.modelsElectric)
+      result.categoryTitle = "Model";
+    else
+      result.categoryTitle = "Date";
 
     // Select datasets
     var categoriesInOrder = [];
@@ -287,10 +296,13 @@ var db = {
     var seriesSortValues = {};
     for (let seriesName in seriesRows) {
       seriesNamesInOrder.push(seriesName);
-      var newSeries =
-      { name: seriesName
-      , data: []
-      }
+      var newSeries = {};
+      if (chartConfig.chartType == this.chartTypes.modelsElectric)
+        newSeries.name = "Sold cars";
+      else
+        newSeries.name = seriesName;
+      newSeries.data = [];
+
       for (let i in result.categories) {
         let category = result.categories[i];
         let value = seriesRows[seriesName][category];

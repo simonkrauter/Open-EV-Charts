@@ -81,7 +81,6 @@ function renderFilters(chartSetDiv, chartConfig) {
       let chartSetDiv = event.target.parentNode.parentNode.parentNode;
       var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
       chartConfig[paramName] = event.target.value;
-      chartConfig.view = db.views.chart;
       renderChartSet(chartSetDiv, chartConfig);
       rebuildUrlHash();
     });
@@ -133,6 +132,8 @@ function renderChartTile(chartSetDiv, chartConfig) {
 
   if (chartConfig.view == db.views.chart)
     renderChartView(chartConfig, chartData, chartTileDiv);
+  else if (chartConfig.view == db.views.table)
+    renderTable(chartTileDiv, chartData);
   else if (chartConfig.view == db.views.sources)
     renderSources(chartTileDiv, chartData);
 }
@@ -339,6 +340,44 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
 
   var chart = new ApexCharts(chartDiv, chartOptions);
   chart.render();
+}
+
+function renderTable(chartTileDiv, chartData) {
+  let table = document.createElement("TABLE");
+  chartTileDiv.appendChild(table);
+  // Table head
+  let row = document.createElement("TR");
+  table.appendChild(row);
+  var cell = document.createElement("TH");
+  cell.appendChild(document.createTextNode(chartData.categoryTitle));
+  row.appendChild(cell);
+  for (let i in chartData.series) {
+    let series = chartData.series[i];
+    let cell = document.createElement("TH");
+    cell.appendChild(document.createTextNode(series.name));
+    row.appendChild(cell);
+  }
+
+  // Table body
+  for (let i in chartData.categories) {
+    let category = chartData.categories[i];
+    let row = document.createElement("TR");
+    table.appendChild(row);
+    let cell = document.createElement("TD");
+    cell.appendChild(document.createTextNode(category));
+    row.appendChild(cell);
+    for (let j in chartData.series) {
+      let series = chartData.series[j];
+      let cell = document.createElement("TD");
+      cell.style.textAlign = "right";
+      let val = series.data[i];
+      if (val === null)
+        cell.appendChild(document.createTextNode(""));
+      else
+        cell.appendChild(document.createTextNode(val.toLocaleString()));
+      row.appendChild(cell);
+    }
+  }
 }
 
 function renderSources(chartTileDiv, chartData) {
