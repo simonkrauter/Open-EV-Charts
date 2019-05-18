@@ -378,7 +378,7 @@ function renderTable(chartTileDiv, chartData) {
       let cell = document.createElement("TD");
       cell.style.textAlign = "right";
       let val = series.data[i];
-      if (val === null)
+      if (val == null && val !== 0)
         cell.appendChild(document.createTextNode(""));
       else
         cell.appendChild(document.createTextNode(val.toLocaleString()));

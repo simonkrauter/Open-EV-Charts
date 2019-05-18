@@ -217,7 +217,7 @@ var db = {
     let params = this.getChartParams();
     for (let i in params) {
       let param = params[i];
-      if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl)
+      if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl && chartConfig[param.name])
         parts.push(chartConfig[param.name]);
     }
     return parts.join(":");
@@ -355,10 +355,10 @@ var db = {
         var seriesName = "";
         if (filterCountryId == null && chartConfig.country != this.countryOptions.combineCountries && chartConfig.xProperty != this.xProperties.country)
           seriesName = countryName;
-        if (chartConfig.brand != this.brandOptions.combineBrands && chartConfig.xProperty != this.xProperties.model) {
+        if (chartConfig.brand != this.brandOptions.combineBrands && chartConfig.xProperty != this.xProperties.model && chartConfig.xProperty != this.xProperties.brand) {
           if (chartConfig.brand != this.brandOptions.allBrands)
             seriesName = brandAndModel;
-          else if (chartConfig.xProperty != this.xProperties.brand)
+          else
             seriesName = brand;
         }
 
