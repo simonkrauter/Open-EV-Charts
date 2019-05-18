@@ -130,12 +130,17 @@ function renderChartTile(chartSetDiv, chartConfig) {
   if (isSingleChart)
     renderChartTabButtons(chartTileDiv, chartConfig);
 
-  if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
-    renderChartView(chartConfig, chartData, chartTileDiv);
-  else if (chartConfig.view == db.views.table)
-    renderTable(chartTileDiv, chartData);
-  else if (chartConfig.view == db.views.sources)
-    renderSources(chartTileDiv, chartData);
+  if (chartData.series.length == 0) {
+    let chartDiv = document.createElement("DIV");
+    chartTileDiv.appendChild(document.createTextNode("No data"));
+  } else {
+    if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
+      renderChartView(chartConfig, chartData, chartTileDiv);
+    else if (chartConfig.view == db.views.table)
+      renderTable(chartTileDiv, chartData);
+    else if (chartConfig.view == db.views.sources)
+      renderSources(chartTileDiv, chartData);
+  }
 }
 
 function renderChartTitle(chartTileDiv, chartConfig) {
@@ -282,6 +287,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     },
     yaxis: {
       title: {
+        text: "Sold cars"
       },
       min: 0,
       forceNiceScale: true,
@@ -313,19 +319,12 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   if (chartData.series[chartData.series.length - 1].name == "Other")
     chartOptions.colors[chartData.series.length - 1] = "#000000";
 
-  if (chartConfig.chartType == db.chartTypes.modelsElectric) {
-    chartOptions.chart.type = "bar";
-    chartOptions.plotOptions.bar.horizontal = true;
-    chartOptions.legend.show = false;
+  if (chartConfig.view == db.views.lineChart) {
+    chartOptions.chart.type = "line";
+    chartOptions.stroke.width = 3.5;
   } else {
-    if (chartConfig.view == db.views.lineChart) {
-      chartOptions.chart.type = "line";
-      chartOptions.stroke.width = 3.5;
-    } else {
-      chartOptions.chart.type = "bar";
-      chartOptions.chart.stacked = true;
-    }
-    chartOptions.yaxis.title.text = "Sold cars";
+    chartOptions.chart.type = "bar";
+    chartOptions.chart.stacked = true;
   }
 
   chartOptions.dataLabels.enabled = chartOptions.chart.type == "bar" && isSingleChart;

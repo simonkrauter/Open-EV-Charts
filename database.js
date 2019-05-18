@@ -74,10 +74,30 @@ var db = {
     return year + " Q" + Math.ceil(monthNum / 3);
   },
 
-  chartTypes:
-  { "salesAll": "sales-all"
+  metrics:
+  { "all": "all-metrics"
+  , "salesAll": "sales-all"
   , "salesElectric": "sales-electric"
-  , "modelsElectric": "models"
+  },
+
+  xProperties:
+  { "month": "month"
+  , "quarter": "quarter"
+  , "year": "year"
+  , "country": "country"
+  , "brand": "brand"
+  , "model": "model"
+  },
+
+  countryOptions:
+  { "allCountries": "all-countries"
+  , "combineCountries": "combine-countries"
+  },
+
+  brandOptions:
+  { "allBrands": "all-brands"
+  , "allModels": "all-models"
+  , "combineBrands": "combine-brands"
   },
 
   views:
@@ -98,45 +118,80 @@ var db = {
   getChartParams: function(chartConfig) {
     var result = {};
 
-    // chart type
+    // metric
     var param = {};
-    param.name = "chartType";
+    param.name = "metric";
     param.options = {};
-    param.unfoldKey = "all-charts";
-    param.options[param.unfoldKey] = "All Charts";
-    param.options[this.chartTypes.salesAll] = "All Cars Sales";
-    param.options[this.chartTypes.salesElectric] = "Electric Cars Sales";
-    param.options[this.chartTypes.modelsElectric] = "Total Sales of Electric Models";
-    param.unfoldOptions = Object.values(this.chartTypes);
-    param.defaultOption = this.chartTypes.salesElectric;
+    param.unfoldKey = this.metrics.all;
+    param.options[this.metrics.all] = "All Metrics";
+    param.options[this.metrics.salesAll] = "All Cars Sales";
+    param.options[this.metrics.salesElectric] = "Electric Cars Sales";
+    param.unfoldOptions = [];
+    param.unfoldOptions.push(this.metrics.salesAll);
+    param.unfoldOptions.push(this.metrics.salesElectric);
+    param.defaultOption = this.metrics.salesElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
     param.showAsFilter = true;
     result[param.name] = param;
 
-    // country
+    // x-axis property
     var param = {};
-    param.name = "country";
-    param.unfoldKey = "all-countries";
-    param.unfoldOptions = [];
+    param.name = "xProperty";
     param.options = {};
-    param.options[param.unfoldKey] = "All Countries";
-    param.options["combine-countries"] = "Combine Countries";
-    for (let code in db.countries) {
-      param.options[code] = db.countryNames[db.countries[code]];
-      param.unfoldOptions.push(code);
-    }
-    param.defaultOption = "all-countries";
-    param.showInTitle = true;
+    param.options[this.xProperties.month] = "Per Month";
+    param.options[this.xProperties.quarter] = "Per Quarter";
+    param.options[this.xProperties.year] = "Per Year";
+    param.options[this.xProperties.country] = "Per Country";
+    param.options[this.xProperties.brand] = "Per Brand";
+    if (chartConfig == null || chartConfig.metric == this.metrics.salesElectric)
+      param.options[this.xProperties.model] = "Per Model";
+    param.defaultOption = this.xProperties.month;
     param.showAsFilter = true;
     result[param.name] = param;
+
+    // country
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.country) {
+      var param = {};
+      param.name = "country";
+      param.unfoldKey = this.countryOptions.allCountries;
+      param.unfoldOptions = [];
+      param.options = {};
+      param.options[this.countryOptions.allCountries] = "All Countries";
+      param.options[this.countryOptions.combineCountries] = "Combine Countries";
+      for (let code in db.countries) {
+        param.options[code] = db.countryNames[db.countries[code]];
+        param.unfoldOptions.push(code);
+      }
+      param.defaultOption = this.countryOptions.allCountries;
+      param.showInTitle = true;
+      param.showAsFilter = true;
+      result[param.name] = param;
+    }
+
+    // brand
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand) {
+      var param = {};
+      param.name = "brand";
+      param.options = {};
+      if (chartConfig == null || chartConfig.xProperty != this.xProperties.model) {
+        param.options[this.brandOptions.allBrands] = "All Brands";
+        param.options[this.brandOptions.allModels] = "All Models";
+      }
+      param.options["combine-brands"] = "Combine Brands";
+      for (let i in this.brands)
+        param.options[this.brands[i]] = this.brands[i];
+      param.defaultOption = this.brandOptions.allBrands;
+      param.showAsFilter = true;
+      result[param.name] = param;
+    }
 
     // max series
     var param = {};
     param.name = "maxSeries";
     param.options = {};
-    for (let key in this.maxSeriesOptions)
-      param.options[key] = "Top " + this.maxSeriesOptions[key];
+    for (let i in this.maxSeriesOptions)
+      param.options[i] = "Top " + this.maxSeriesOptions[i];
     param.defaultOption = "top10";
     param.showAsFilter = true;
     result[param.name] = param;
@@ -146,7 +201,7 @@ var db = {
     param.name = "view";
     param.options = {};
     param.options[this.views.barChart] = "Bar Chart";
-    if (chartConfig == null || chartConfig.chartType != db.chartTypes.modelsElectric)
+    if (chartConfig == null || [this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
       param.options[this.views.lineChart] = "Line Chart";
     param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
@@ -174,6 +229,8 @@ var db = {
     var result = {};
     var params = this.getChartParams();
     for (let i in params) {
+      if (!params[i])
+        continue;
       let param = params[i];
       var selectedValue = param.defaultOption;
       for (let j in parts) {
@@ -190,12 +247,17 @@ var db = {
   },
 
   unfoldChartConfig: function(chartConfig) {
+    var yProperty;
+    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
+      yProperty = "brand";
+    else
+      yProperty = "country";
     var result = [];
     result.push(chartConfig);
     let params = this.getChartParams();
     for (let i in params) {
       let param = params[i];
-      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey) {
+      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey && yProperty != param.name) {
         var newResult = [];
         for (let j in result) {
           for (let k in param.unfoldOptions) {
@@ -225,73 +287,117 @@ var db = {
   },
 
   queryChartData: function(chartConfig) {
-    let countryId = db.countries[chartConfig.country];
+    var filterCountryId = null;
+    if (chartConfig.country != this.countryOptions.combineCountries && chartConfig.country != this.countryOptions.allCountries)
+      filterCountryId = db.countries[chartConfig.country];
+    var filterBrand = null;
+    if (![this.brandOptions.combineBrands, this.brandOptions.allBrands, this.brandOptions.allModels].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
+      filterBrand = chartConfig.brand;
     let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     var dsType = db.dsTypes.ElectricCarsByModel;
-    if (chartConfig.chartType == this.chartTypes.salesAll)
+    if (chartConfig.metric == this.metrics.salesAll)
       dsType = db.dsTypes.AllCarsByBrand;
     var seriesRows = {};
     var result = {};
     result.series = [];
     result.categories = [];
     result.sources = [];
-    if (chartConfig.chartType == this.chartTypes.modelsElectric)
+    if (chartConfig.xProperty == this.xProperties.country)
+      result.categoryTitle = "Country";
+    else if (chartConfig.xProperty == this.xProperties.model)
       result.categoryTitle = "Model";
+    else if (chartConfig.xProperty == this.xProperties.brand)
+      result.categoryTitle = "Brand";
     else
-      result.categoryTitle = "Date";
+      result.categoryTitle = "Time Span";
 
     // Select datasets
     var categoriesInOrder = [];
     for (let i in db.datasets) {
       let dataset = db.datasets[i];
-      if (countryId != null && dataset.country != countryId)
+      if (filterCountryId != null && dataset.country != filterCountryId)
         continue;
       if (dataset.dsType != dsType)
         continue;
+      let countryName = db.countryNames[dataset.country];
 
-      var category;
-      if (chartConfig.chartType == this.chartTypes.salesAll || chartConfig.chartType == this.chartTypes.salesElectric) {
+      var category = "";
+      if (chartConfig.xProperty == this.xProperties.month)
         category = dataset.month;
-        // let category = this.monthToQuarter(dataset.month);
-        if (!categoriesInOrder.includes(category))
-          categoriesInOrder.push(category);
-      }
+      else if (chartConfig.xProperty == this.xProperties.quarter)
+        category = this.monthToQuarter(dataset.month);
+      else if (chartConfig.xProperty == this.xProperties.year)
+        category = dataset.month.substr(0, 4);
+      else if (chartConfig.xProperty == this.xProperties.country)
+        category = countryName;
 
       for (var dataKey in dataset.data) {
         let dataKeyParts = dataKey.split("|", 2);
         let brand = dataKeyParts[0];
-        let model = brand + " " + dataKeyParts[1];
+        let model = dataKeyParts[1];
+        var brandAndModel = brand;
+        if (filterBrand != null)
+          brandAndModel = model;
+        else if (model)
+          brandAndModel = brandAndModel + " " + model;
+
         let value = dataset.data[dataKey];
-        if (chartConfig.chartType == this.chartTypes.modelsElectric) {
-          category = model;
-          if (!categoriesInOrder.includes(category))
-            categoriesInOrder.push(category);
-        }
+
+        if (filterBrand != null && brand != filterBrand)
+          continue;
+
+        if (chartConfig.xProperty == this.xProperties.brand)
+          category = brand;
+        else if (chartConfig.xProperty == this.xProperties.model)
+          category = brandAndModel;
+
         var seriesName = "";
-        if (chartConfig.chartType == this.chartTypes.salesAll || chartConfig.chartType == this.chartTypes.salesElectric)
-          seriesName = brand;
+        if (filterCountryId == null && chartConfig.country != this.countryOptions.combineCountries && chartConfig.xProperty != this.xProperties.country)
+          seriesName = countryName;
+        if (chartConfig.brand != this.brandOptions.combineBrands && chartConfig.xProperty != this.xProperties.model) {
+          if (chartConfig.brand != this.brandOptions.allBrands)
+            seriesName = brandAndModel;
+          else if (chartConfig.xProperty != this.xProperties.brand)
+            seriesName = brand;
+        }
+
+        if (seriesName == "")
+          seriesName = "Value";
+
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
         if (category in seriesRows[seriesName])
           seriesRows[seriesName][category] += value;
         else
           seriesRows[seriesName][category] = value;
+        if (!categoriesInOrder.includes(category))
+          categoriesInOrder.push(category);
       }
       if (!result.sources.includes(dataset.source))
         result.sources.push(dataset.source);
     }
 
     // Add categories to array in sorted order
-    if (chartConfig.chartType == this.chartTypes.modelsElectric) {
+    if (![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       categoriesInOrder.sort(function(a, b) {
-        let currSeries = seriesRows[""];
-        return currSeries[a] < currSeries[b] ? 1 : currSeries[a] > currSeries[b] ? -1 : 0;
+        var valueA = 0;
+        var valueB = 0;
+        for (let seriesName in seriesRows) {
+          let currSeries = seriesRows[seriesName];
+          if (currSeries[a] != null)
+            valueA += currSeries[a];
+          if (currSeries[b] != null)
+            valueB += currSeries[b];
+        }
+        return valueA < valueB ? 1 : valueA > valueB ? -1 : 0;
       });
     }
+    var count = 0;
     for (let i in categoriesInOrder) {
       let category = categoriesInOrder[i];
       result.categories.push(category);
-      if (chartConfig.chartType == this.chartTypes.modelsElectric && result.categories.length == maxSeries)
+      count++;
+      if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
         break;
     }
 
@@ -306,10 +412,7 @@ var db = {
     for (let seriesName in seriesRows) {
       seriesNamesInOrder.push(seriesName);
       var newSeries = {};
-      if (chartConfig.chartType == this.chartTypes.modelsElectric)
-        newSeries.name = "Sold cars";
-      else
-        newSeries.name = seriesName;
+      newSeries.name = seriesName;
       newSeries.data = [];
 
       for (let i in result.categories) {
