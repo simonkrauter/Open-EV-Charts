@@ -296,15 +296,8 @@ var db = {
     }
 
     // Prepare special series
-    var totalSeries = null;
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart) {
-      totalSeries = {name: "Total", data: []};
-      for (let i in result.categories)
-        totalSeries.data.push(0);
-    }
+    var totalSeries = {name: "Total", data: []};
     var otherSeries = {name: "Other", data: []};
-    for (let i in result.categories)
-      otherSeries.data.push(0);
 
     // Create series (entries of 'data' must be in order of 'result.categories')
     var seriesByName = {};
@@ -326,8 +319,12 @@ var db = {
           value = null;
         newSeries.data.push(value);
         // Add value to total series
-        if (value != null && totalSeries != null)
-          totalSeries.data[i] += value;
+        if (value != null) {
+          if (i in totalSeries.data)
+            totalSeries.data[i] += value;
+          else
+            totalSeries.data[i] = value;
+        }
         // Add value to seriesSortValues
         if (value != null) {
           var factor = 1;
@@ -342,7 +339,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (totalSeries != null)
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart)
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
@@ -359,13 +356,17 @@ var db = {
       } else {
         for (let j in currSeries.data) {
           let value = currSeries.data[j];
-          if (value != null)
+          if (value == null)
+            continue;
+          if (j in otherSeries.data)
             otherSeries.data[j] += value;
+          else
+            otherSeries.data[j] = value;
         }
       }
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.lineChart)
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.lineChart && otherSeries.data.length > 0)
       result.series.push(otherSeries);
 
     return result;
