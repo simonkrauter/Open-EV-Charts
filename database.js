@@ -176,7 +176,8 @@ var db = {
       param.options = {};
       if (chartConfig == null || chartConfig.xProperty != this.xProperties.model) {
         param.options[this.brandOptions.allBrands] = "All Brands";
-        param.options[this.brandOptions.allModels] = "All Models";
+        if (chartConfig == null || chartConfig.metric != this.metrics.salesAll)
+          param.options[this.brandOptions.allModels] = "All Models";
       }
       param.options["combine-brands"] = "Combine Brands";
       for (let i in this.brands)

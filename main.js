@@ -115,15 +115,15 @@ function addSelectElement(parent, defaultOptionText) {
 }
 
 function renderChartTile(chartSetDiv, chartConfig) {
+  if (!isSingleChart)
+    chartConfig.view = db.views.barChart;
+
   var chartData = db.queryChartData(chartConfig);
 
   let chartTileDiv = document.createElement("DIV");
   chartSetDiv.appendChild(chartTileDiv);
   chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartTileDiv.classList.add("chart-tile");
-
-  if (!isSingleChart)
-    chartConfig.view = db.views.barChart;
 
   renderChartTitle(chartTileDiv, chartConfig);
 
