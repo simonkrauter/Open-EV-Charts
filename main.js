@@ -16,18 +16,22 @@ homeLink.addEventListener("click", function(event) {
   renderPage();
 });
 
+var topLevelChartConfigCount = 0;
+var isSingleChart = false;
+
 renderPage();
 
 function renderPage() {
   dynamicContent.innerHTML = "";
 
   let chartConfigStrings = getChartConfigStringsFromUrl();
+  topLevelChartConfigCount = chartConfigStrings.length;
   for (let i in chartConfigStrings) {
     let chartConfigString = chartConfigStrings[i];
     let chartSetDiv = document.createElement("DIV");
     dynamicContent.appendChild(chartSetDiv);
     chartSetDiv.classList.add("chart-set");
-    renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString), chartConfigStrings.length == 1);
+    renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString));
   }
 }
 
@@ -48,15 +52,16 @@ function rebuildUrlHash() {
     renderPage();
 }
 
-function renderChartSet(chartSetDiv, chartConfig, isSingle) {
+function renderChartSet(chartSetDiv, chartConfig) {
   chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartSetDiv.innerHTML = "";
 
   renderFilters(chartSetDiv, chartConfig);
 
   let chartConfigList = db.unfoldChartConfig(chartConfig);
+  isSingleChart = topLevelChartConfigCount == 1 && chartConfigList.length == 1;
   for (let i in chartConfigList)
-    renderChartTile(chartSetDiv, chartConfigList[i], isSingle && chartConfigList.length == 1);
+    renderChartTile(chartSetDiv, chartConfigList[i]);
 }
 
 function renderFilters(chartSetDiv, chartConfig) {
@@ -110,7 +115,7 @@ function addSelectElement(parent, defaultOptionText) {
   return select;
 }
 
-function renderChartTile(chartSetDiv, chartConfig, isSingle) {
+function renderChartTile(chartSetDiv, chartConfig) {
   var chartData = db.queryChartData(chartConfig);
 
   let chartTileDiv = document.createElement("DIV");
@@ -118,23 +123,23 @@ function renderChartTile(chartSetDiv, chartConfig, isSingle) {
   chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartTileDiv.classList.add("chart-tile");
 
-  if (!isSingle)
+  if (!isSingleChart)
     chartConfig.view = db.views.chart;
 
-  renderChartTitle(chartTileDiv, chartConfig, isSingle);
+  renderChartTitle(chartTileDiv, chartConfig);
 
-  if (isSingle)
+  if (isSingleChart)
     renderChartTabButtons(chartTileDiv, chartConfig);
 
   if (chartConfig.view == db.views.chart)
-    renderChartView(chartConfig, chartData, chartTileDiv, isSingle);
+    renderChartView(chartConfig, chartData, chartTileDiv);
   else if (chartConfig.view == db.views.sources)
     renderSources(chartTileDiv, chartData);
 }
 
-function renderChartTitle(chartTileDiv, chartConfig, isSingle) {
+function renderChartTitle(chartTileDiv, chartConfig) {
   var titleElem;
-  if (isSingle)
+  if (isSingleChart)
     titleElem = document.createElement("DIV");
   else {
     titleElem = document.createElement("A");
@@ -145,7 +150,7 @@ function renderChartTitle(chartTileDiv, chartConfig, isSingle) {
   titleElem.classList.add("chart-title");
   titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig)));
 
-  if (!isSingle) {
+  if (!isSingleChart) {
     var removeButton = createRemoveButton();
     chartTileDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartTileRemoveClick);
@@ -224,7 +229,7 @@ function createRemoveButton() {
   return removeButton;
 }
 
-function renderChartView(chartConfig, chartData, chartTileDiv, isSingle) {
+function renderChartView(chartConfig, chartData, chartTileDiv) {
   var chartOptions = {
     title: {
       text: db.getChartTitle(chartConfig)
@@ -234,7 +239,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv, isSingle) {
         enabled: false
       },
       toolbar: {
-        show: isSingle
+        show: isSingleChart
       }
     },
     plotOptions: {
@@ -328,7 +333,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv, isSingle) {
   let heightOffset = 230;
   let minWidth = 500;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
-  if (!isSingle)
+  if (!isSingleChart)
     wantedWith = wantedWith / 2.2;
   chartTileDiv.style.width = Math.max(wantedWith, minWidth) + "px";
 
