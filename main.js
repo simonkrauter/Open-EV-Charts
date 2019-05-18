@@ -36,7 +36,7 @@ function renderPage() {
 }
 
 function getChartConfigStringsFromUrl() {
-  return location.hash.substr(1).split(",");
+  return decodeURIComponent(location.hash.substr(1)).split(",");
 }
 
 function rebuildUrlHash() {
@@ -310,6 +310,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     },
     legend: {
       position: "bottom",
+      showForSingleSeries: chartData.series[0].name != "Value",
       offsetY: -10,
     }
   }

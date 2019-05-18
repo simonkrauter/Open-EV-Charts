@@ -90,14 +90,18 @@ var db = {
   },
 
   countryOptions:
-  { "allCountries": "all-countries"
-  , "combineCountries": "combine-countries"
+  { "all": "all-countries"
+  , "combine": "combine-countries"
   },
 
   brandOptions:
-  { "allBrands": "all-brands"
-  , "allModels": "all-models"
-  , "combineBrands": "combine-brands"
+  { "all": "all-brands"
+  , "combine": "combine-brands"
+  },
+
+  modelOptions:
+  { "all": "all-models"
+  , "combine": "combine-models"
   },
 
   views:
@@ -113,6 +117,10 @@ var db = {
   , "top15": 15
   , "top20": 20
   , "top30": 30
+  },
+
+  formatForUrl: function(str) {
+    return str.replace(/ /g, "-");
   },
 
   getChartParams: function(chartConfig) {
@@ -151,41 +159,54 @@ var db = {
     result[param.name] = param;
 
     // country
-    if (chartConfig == null || chartConfig.xProperty != this.xProperties.country) {
-      var param = {};
-      param.name = "country";
-      param.unfoldKey = this.countryOptions.allCountries;
-      param.unfoldOptions = [];
-      param.options = {};
-      param.options[this.countryOptions.allCountries] = "All Countries";
-      param.options[this.countryOptions.combineCountries] = "Combine Countries";
-      for (let code in db.countries) {
-        param.options[code] = db.countryNames[db.countries[code]];
-        param.unfoldOptions.push(code);
-      }
-      param.defaultOption = this.countryOptions.allCountries;
-      param.showInTitle = true;
-      param.showAsFilter = true;
-      result[param.name] = param;
+    var param = {};
+    param.name = "country";
+    param.unfoldKey = this.countryOptions.all;
+    param.unfoldOptions = [];
+    param.options = {};
+    param.options[this.countryOptions.all] = "All Countries";
+    param.options[this.countryOptions.combine] = "Combine Countries";
+    for (let code in db.countries) {
+      param.options[code] = db.countryNames[db.countries[code]];
+      param.unfoldOptions.push(code);
     }
+    param.defaultOption = this.countryOptions.all;
+    param.showInTitle = true;
+    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
+    result[param.name] = param;
 
     // brand
-    if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand) {
-      var param = {};
-      param.name = "brand";
-      param.options = {};
-      if (chartConfig == null || chartConfig.xProperty != this.xProperties.model) {
-        param.options[this.brandOptions.allBrands] = "All Brands";
-        if (chartConfig == null || chartConfig.metric != this.metrics.salesAll)
-          param.options[this.brandOptions.allModels] = "All Models";
-      }
-      param.options["combine-brands"] = "Combine Brands";
-      for (let i in this.brands)
-        param.options[this.brands[i]] = this.brands[i];
-      param.defaultOption = this.brandOptions.allBrands;
-      param.showAsFilter = true;
-      result[param.name] = param;
+    var param = {};
+    param.name = "brand";
+    param.options = {};
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.model)
+      param.options[this.brandOptions.all] = "All Brands";
+    param.options[this.brandOptions.combine] = "Combine Brands";
+    for (let i in this.brands) {
+      let brand = this.brands[i];
+      if (brand != "other")
+        param.options[this.formatForUrl(brand)] = brand;
     }
+    param.defaultOption = this.brandOptions.all;
+    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.brand;
+    result[param.name] = param;
+
+    // model
+    var param = {};
+    param.name = "model";
+    param.options = {};
+    param.options[this.modelOptions.all] = "All Models";
+    param.options[this.modelOptions.combine] = "Combine Models";
+    for (let i in this.models) {
+      let parts = this.models[i].split("|", 2);
+      let brand = parts[0];
+      let model = parts[1];
+      if (chartConfig == null || chartConfig.brand == brand)
+        param.options[this.formatForUrl(model)] = model;
+    }
+    param.defaultOption = this.modelOptions.combine;
+    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && chartConfig.metric != this.metrics.salesAll && ![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand));
+    result[param.name] = param;
 
     // max series
     var param = {};
@@ -249,9 +270,9 @@ var db = {
 
   unfoldChartConfig: function(chartConfig) {
     var yProperty;
-    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
+    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.brand == this.brandOptions.all)
       yProperty = "brand";
-    else
+    else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
     var result = [];
     result.push(chartConfig);
@@ -289,11 +310,15 @@ var db = {
 
   queryChartData: function(chartConfig) {
     var filterCountryId = null;
-    if (chartConfig.country != this.countryOptions.combineCountries && chartConfig.country != this.countryOptions.allCountries)
+    if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all)
       filterCountryId = db.countries[chartConfig.country];
     var filterBrand = null;
-    if (![this.brandOptions.combineBrands, this.brandOptions.allBrands, this.brandOptions.allModels].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
+    if (![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
+    var filterModel = null;
+    if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model)
+      filterModel = chartConfig.model;
+
     let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     var dsType = db.dsTypes.ElectricCarsByModel;
     if (chartConfig.metric == this.metrics.salesAll)
@@ -336,16 +361,21 @@ var db = {
         let dataKeyParts = dataKey.split("|", 2);
         let brand = dataKeyParts[0];
         let model = dataKeyParts[1];
+
+        if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
+          continue;
+        if (filterModel != null && this.formatForUrl(model) != filterModel)
+          continue;
+
         var brandAndModel = brand;
-        if (filterBrand != null)
-          brandAndModel = model;
-        else if (model)
-          brandAndModel = brandAndModel + " " + model;
+        if (model) {
+          if (filterBrand != null)
+            brandAndModel = model;
+          else
+            brandAndModel = brandAndModel + " " + model;
+        }
 
         let value = dataset.data[dataKey];
-
-        if (filterBrand != null && brand != filterBrand)
-          continue;
 
         if (chartConfig.xProperty == this.xProperties.brand)
           category = brand;
@@ -353,14 +383,16 @@ var db = {
           category = brandAndModel;
 
         var seriesName = "";
-        if (filterCountryId == null && chartConfig.country != this.countryOptions.combineCountries && chartConfig.xProperty != this.xProperties.country)
+        if (filterCountryId == null && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
           seriesName = countryName;
-        if (chartConfig.brand != this.brandOptions.combineBrands && chartConfig.xProperty != this.xProperties.model && chartConfig.xProperty != this.xProperties.brand) {
-          if (chartConfig.brand != this.brandOptions.allBrands)
+        if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.xProperty != this.xProperties.brand) {
+          if (chartConfig.brand != this.brandOptions.all)
             seriesName = brandAndModel;
           else
             seriesName = brand;
         }
+        if (filterModel == null && chartConfig.model != this.modelOptions.aModels && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model)
+          seriesName = model;
 
         if (seriesName == "")
           seriesName = "Value";
