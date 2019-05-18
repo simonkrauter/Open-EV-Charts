@@ -69,7 +69,7 @@ function renderFilters(chartSetDiv, chartConfig) {
   chartSetDiv.appendChild(div);
   div.classList.add("filters");
 
-  let params = db.getChartParams();
+  let params = db.getChartParams(chartConfig);
   for (let i in params) {
     let param = params[i];
     if (!param.showAsFilter)
@@ -123,14 +123,14 @@ function renderChartTile(chartSetDiv, chartConfig) {
   chartTileDiv.classList.add("chart-tile");
 
   if (!isSingleChart)
-    chartConfig.view = db.views.chart;
+    chartConfig.view = db.views.barChart;
 
   renderChartTitle(chartTileDiv, chartConfig);
 
   if (isSingleChart)
     renderChartTabButtons(chartTileDiv, chartConfig);
 
-  if (chartConfig.view == db.views.chart)
+  if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
     renderChartView(chartConfig, chartData, chartTileDiv);
   else if (chartConfig.view == db.views.table)
     renderTable(chartTileDiv, chartData);
@@ -162,7 +162,7 @@ function renderChartTabButtons(chartTileDiv, chartConfig) {
   let tabButtonsDiv = document.createElement("DIV");
   chartTileDiv.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tab-buttons");
-  let params = db.getChartParams();
+  let params = db.getChartParams(chartConfig);
   let viewOptions = params.view.options;
   for (let i in viewOptions)
     renderChartTabButton(tabButtonsDiv, chartConfig, i, viewOptions[i]);
@@ -244,9 +244,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
       }
     },
     plotOptions: {
-      bar: {
-        horizontal: true
-      }
+      bar: {}
     },
     stroke: {
     },
@@ -257,20 +255,20 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
       "#FB8C00",
       "#31CEE0",
       "#FDD835",
-      "#8C8C8C",
-      "#000000",
       "#8025A8",
+      "#8C8C8C",
+      "#16545B",
       "#795548",
       "#A00000",
       "#000E8E",
       "#024C00",
       "#8C4D00",
-      "#16545B",
       "#87711C",
       "#93F296",
       "#8B66DD",
       "#C0CA33",
-      "#E52984"
+      "#E52984",
+      "#FFBB68"
     ],
     series: [],
     xaxis: {
@@ -310,14 +308,27 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     }
   }
 
+  if (chartData.series[0].name == "Total")
+    chartOptions.colors.unshift("#000000");
+  if (chartData.series[chartData.series.length - 1].name == "Other")
+    chartOptions.colors[chartData.series.length - 1] = "#000000";
+
   if (chartConfig.chartType == db.chartTypes.modelsElectric) {
     chartOptions.chart.type = "bar";
+    chartOptions.plotOptions.bar.horizontal = true;
     chartOptions.legend.show = false;
   } else {
-    chartOptions.chart.type = "line";
-    chartOptions.stroke.width = 3.5;
+    if (chartConfig.view == db.views.lineChart) {
+      chartOptions.chart.type = "line";
+      chartOptions.stroke.width = 3.5;
+    } else {
+      chartOptions.chart.type = "bar";
+      chartOptions.chart.stacked = true;
+    }
     chartOptions.yaxis.title.text = "Sold cars";
   }
+
+  chartOptions.dataLabels.enabled = chartOptions.chart.type == "bar" && isSingleChart;
 
   chartOptions.chart.fontFamily = window.getComputedStyle(document.body)["font-family"];
   chartOptions.series = chartData.series;

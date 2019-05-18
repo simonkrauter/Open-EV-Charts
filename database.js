@@ -81,7 +81,8 @@ var db = {
   },
 
   views:
-  { "chart": "chart"
+  { "barChart": "bar-chart"
+  , "lineChart": "line-chart"
   , "table": "table"
   , "sources": "sources"
   },
@@ -91,9 +92,10 @@ var db = {
   , "top10": 10
   , "top15": 15
   , "top20": 20
+  , "top30": 30
   },
 
-  getChartParams: function() {
+  getChartParams: function(chartConfig) {
     var result = {};
 
     // chart type
@@ -143,10 +145,12 @@ var db = {
     var param = {};
     param.name = "view";
     param.options = {};
-    param.options[this.views.chart] = "Chart";
+    param.options[this.views.barChart] = "Bar Chart";
+    if (chartConfig == null || chartConfig.chartType != db.chartTypes.modelsElectric)
+      param.options[this.views.lineChart] = "Line Chart";
     param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
-    param.defaultOption = this.views.chart;
+    param.defaultOption = this.views.barChart;
     result[param.name] = param;
 
     return result;
@@ -168,7 +172,7 @@ var db = {
     if (chartConfigString != "")
       parts = chartConfigString.split(":");
     var result = {};
-    let params = this.getChartParams();
+    var params = this.getChartParams();
     for (let i in params) {
       let param = params[i];
       var selectedValue = param.defaultOption;
@@ -180,6 +184,7 @@ var db = {
         }
       }
       result[param.name] = selectedValue;
+      params = this.getChartParams(result);
     }
     return result;
   },
@@ -207,7 +212,7 @@ var db = {
 
   getChartTitle: function(chartConfig) {
     var title = "";
-    let params = this.getChartParams();
+    let params = this.getChartParams(chartConfig);
     for (let i in params) {
       let param = params[i];
       if (!param.showInTitle)
@@ -279,8 +284,8 @@ var db = {
     // Add categories to array in sorted order
     if (chartConfig.chartType == this.chartTypes.modelsElectric) {
       categoriesInOrder.sort(function(a, b) {
-        let totalSeries = seriesRows[""];
-        return totalSeries[a] < totalSeries[b] ? 1 : totalSeries[a] > totalSeries[b] ? -1 : 0;
+        let currSeries = seriesRows[""];
+        return currSeries[a] < currSeries[b] ? 1 : currSeries[a] > currSeries[b] ? -1 : 0;
       });
     }
     for (let i in categoriesInOrder) {
@@ -289,6 +294,17 @@ var db = {
       if (chartConfig.chartType == this.chartTypes.modelsElectric && result.categories.length == maxSeries)
         break;
     }
+
+    // Prepare special series
+    var totalSeries = null;
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart) {
+      totalSeries = {name: "Total", data: []};
+      for (let i in result.categories)
+        totalSeries.data.push(0);
+    }
+    var otherSeries = {name: "Other", data: []};
+    for (let i in result.categories)
+      otherSeries.data.push(0);
 
     // Create series (entries of 'data' must be in order of 'result.categories')
     var seriesByName = {};
@@ -309,6 +325,10 @@ var db = {
         if (typeof(value) == "undefined")
           value = null;
         newSeries.data.push(value);
+        // Add value to total series
+        if (value != null && totalSeries != null)
+          totalSeries.data[i] += value;
+        // Add value to seriesSortValues
         if (value != null) {
           var factor = 1;
           if (i == result.categories.length - 1)
@@ -322,16 +342,31 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
+    if (totalSeries != null)
+      result.series.push(totalSeries);
+
     // Add series to array in sorted order
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
+    var count = 0;
     for (let i in seriesNamesInOrder) {
       let seriesName = seriesNamesInOrder[i];
-      result.series.push(seriesByName[seriesName]);
-      if (result.series.length == maxSeries)
-        break;
+      let currSeries = seriesByName[seriesName];
+      if (seriesName != "other" && count < maxSeries) {
+        result.series.push(currSeries);
+        count++;
+      } else {
+        for (let j in currSeries.data) {
+          let value = currSeries.data[j];
+          if (value != null)
+            otherSeries.data[j] += value;
+        }
+      }
     }
+
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.lineChart)
+      result.series.push(otherSeries);
 
     return result;
   }
