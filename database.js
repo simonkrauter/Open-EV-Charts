@@ -430,7 +430,7 @@ var db = {
       let category = categoriesInOrder[i];
       result.categories.push(category);
       count++;
-      if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
+      if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.view != this.views.table)
         break;
     }
 
