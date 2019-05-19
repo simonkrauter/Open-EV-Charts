@@ -845,7 +845,7 @@ db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Audi|e-tron": 253
 , "Hyundai|Kona Electric": 77
 , "Fiat|500e": 20
-, "Hyundai|Ioniq EV": 9
+, "Hyundai|Ioniq Electric": 9
 , "Kia|Niro EV": 40
 });
 

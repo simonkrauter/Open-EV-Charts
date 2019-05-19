@@ -462,7 +462,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 5
 , "Peugeot|iOn": 3
 , "Jaguar|I-Pace": 2
-, "Citroën|Berlingo": 1
+, "Citroën|Berlingo Electric": 1
 });
 
 db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2018/pm_21_2018_fahrzeugzulassungen_09_2018_pdf.pdf?__blob=publicationFile&v=8",
@@ -925,11 +925,11 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 514
 , "Volkswagen|e-Golf": 489
 , "smart|fortwo electric drive": 428
-, "Hyundai|Kona Elektro": 296
+, "Hyundai|Kona Electric": 296
 , "smart|forfour electric drive": 280
 , "Audi|e-tron quattro": 174
 , "Nissan|Leaf": 165
-, "Hyundai|Ioniq Elektro": 137
+, "Hyundai|Ioniq Electric": 137
 , "Jaguar|I-Pace": 85
 , "Volkswagen|e-up!": 68
 , "Kia|Soul EV": 60
