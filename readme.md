@@ -13,8 +13,10 @@ Technology
 Database state
 --------------
 
-- US: data since 2018 collected
-- DE: data since 2018 collected
+- US: data since 2018-01 collected
+- DE: data since 2018-01 collected
+- FR: data since 2019-01 collected
+- CH: data since 2018-01 collected
 
 Data sources for other countries wanted.
 
