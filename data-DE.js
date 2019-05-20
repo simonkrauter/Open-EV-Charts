@@ -35,7 +35,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 213
 , "Subaru": 551
 , "Suzuki": 2502
-, "Tesla": 63
+, "Tesla": 62
 , "Toyota": 6937
 , "Volvo": 2711
 , "Volkswagen": 54348
@@ -321,7 +321,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 241
 , "Subaru": 695
 , "Suzuki": 3070
-, "Tesla": 282
+, "Tesla": 280
 , "Toyota": 7603
 , "Volvo": 4452
 , "Volkswagen": 66389
@@ -555,7 +555,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 134
 , "Subaru": 576
 , "Suzuki": 3049
-, "Tesla": 62
+, "Tesla": 61
 , "Toyota": 6896
 , "Volvo": 4270
 , "Volkswagen": 40811
@@ -613,7 +613,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 168
 , "Subaru": 483
 , "Suzuki": 3258
-, "Tesla": 122
+, "Tesla": 121
 , "Toyota": 6469
 , "Volvo": 4796
 , "Volkswagen": 49253
@@ -730,7 +730,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 161
 , "Subaru": 807
 , "Suzuki": 2965
-, "Tesla": 137
+, "Tesla": 135
 , "Toyota": 6656
 , "Volvo": 3786
 , "Volkswagen": 50823
