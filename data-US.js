@@ -784,7 +784,7 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Smart": 90
 });
 
-db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/march-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/347358/ev-sales-scorecard-april-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 10175
 , "Chevrolet|Bolt EV": 2166
 , "Tesla|Model X": 2175
