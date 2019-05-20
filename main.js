@@ -137,7 +137,7 @@ function renderChartTile(chartSetDiv, chartConfig) {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
       renderChartView(chartConfig, chartData, chartTileDiv);
     else if (chartConfig.view == db.views.table)
-      renderTable(chartTileDiv, chartData);
+      renderTable(chartConfig, chartTileDiv, chartData);
     else if (chartConfig.view == db.views.sources)
       renderSources(chartTileDiv, chartData);
   }
@@ -235,6 +235,16 @@ function createRemoveButton() {
   return removeButton;
 }
 
+function formatValue(chartConfig, value) {
+  if (chartConfig.metric == db.metrics.ratioElectric) {
+    if (chartConfig.view == db.views.table)
+      return value.toFixed(1).toLocaleString() + " %";
+    else
+      return (Math.round(value * 10) / 10).toLocaleString() + " %";
+  } else
+    return value.toLocaleString();
+}
+
 function renderChartView(chartConfig, chartData, chartTileDiv) {
   var chartOptions = {
     title: {
@@ -286,18 +296,13 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
       }
     },
     yaxis: {
-      title: {
-        text: "Sold cars"
-      },
       min: 0,
       forceNiceScale: true,
       labels: {
         formatter: function (value) {
-          if (value == null)
-            return value;
-          return value.toLocaleString();
+          return formatValue(chartConfig, value);
         }
-      },
+      }
     },
     markers: {
       size: 3.5,
@@ -305,7 +310,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     },
     dataLabels: {
       formatter: function (val, opts) {
-        return val.toLocaleString();
+        return formatValue(chartConfig, val);
       }
     },
     legend: {
@@ -350,7 +355,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   chart.render();
 }
 
-function renderTable(chartTileDiv, chartData) {
+function renderTable(chartConfig, chartTileDiv, chartData) {
   let table = document.createElement("TABLE");
   chartTileDiv.appendChild(table);
   // Table head
@@ -382,7 +387,7 @@ function renderTable(chartTileDiv, chartData) {
       if (val == null && val !== 0)
         cell.appendChild(document.createTextNode(""));
       else
-        cell.appendChild(document.createTextNode(val.toLocaleString()));
+        cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
       row.appendChild(cell);
     }
   }
