@@ -130,13 +130,10 @@ var db = {
     var param = {};
     param.name = "metric";
     param.options = {};
-    param.unfoldKey = this.metrics.all;
     param.options[this.metrics.all] = "All Metrics";
     param.options[this.metrics.salesAll] = "All Cars Sales";
     param.options[this.metrics.salesElectric] = "Electric Cars Sales";
-    param.unfoldOptions = [];
-    param.unfoldOptions.push(this.metrics.salesAll);
-    param.unfoldOptions.push(this.metrics.salesElectric);
+    param.unfoldKey = this.metrics.all;
     param.defaultOption = this.metrics.salesElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
@@ -161,15 +158,13 @@ var db = {
     // country
     var param = {};
     param.name = "country";
-    param.unfoldKey = this.countryOptions.all;
-    param.unfoldOptions = [];
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
     param.options[this.countryOptions.combine] = "Combine Countries";
-    for (let code in db.countries) {
+    for (let code in db.countries)
       param.options[code] = db.countryNames[db.countries[code]];
-      param.unfoldOptions.push(code);
-    }
+    param.unfoldKey = this.countryOptions.all;
+    param.excludeOnUnfold = this.countryOptions.combine;
     param.defaultOption = this.countryOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
@@ -282,10 +277,12 @@ var db = {
       if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey && yProperty != param.name) {
         var newResult = [];
         for (let j in result) {
-          for (let k in param.unfoldOptions) {
-            var newConfig = JSON.parse(JSON.stringify(result[j]));
-            newConfig[param.name] = param.unfoldOptions[k];
-            newResult.push(newConfig);
+          for (let k in param.options) {
+            if (k != param.unfoldKey && k != param.excludeOnUnfold) {
+              var newConfig = JSON.parse(JSON.stringify(result[j]));
+              newConfig[param.name] = k;
+              newResult.push(newConfig);
+            }
           }
         }
         result = newResult;
