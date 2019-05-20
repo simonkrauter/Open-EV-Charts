@@ -34,6 +34,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1574
 , "Land Rover": 455
 , "Jaguar": 294
+, "Tesla": 32
 , "other": 4491
 });
 
@@ -91,6 +92,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 461
 , "Jaguar": 241
 , "Chevrolet": 6
+, "Tesla": 445
 , "other": 5154
 });
 
@@ -150,6 +152,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1978
 , "Land Rover": 716
 , "Jaguar": 283
+, "Tesla": 1250
 , "other": 7379
 });
 
@@ -208,6 +211,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1527
 , "Land Rover": 677
 , "Jaguar": 370
+, "Tesla": 305
 , "other": 5062
 });
 
