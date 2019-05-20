@@ -31,7 +31,7 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Mitsubishi": 8480
 , "Land Rover": 6446
 , "Lincoln": 6410
-, "Tesla": 6000
+, "Tesla": 3375
 , "Volvo": 5567
 , "Porsche": 4816
 , "Mini": 2937
@@ -83,7 +83,7 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Acura": 10969
 , "Land Rover": 6828
 , "Lincoln": 6700
-, "Tesla": 6000
+, "Tesla": 4585
 , "Volvo": 6283
 , "Porsche": 4382
 , "Mini": 3065
@@ -140,7 +140,7 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Land Rover": 10972
 , "Lincoln": 9352
 , "Volvo": 8233
-, "Tesla": 6000
+, "Tesla": 10020
 , "Porsche": 4756
 , "Mini": 4531
 , "Jaguar": 3260
@@ -192,7 +192,7 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Lincoln": 8518
 , "Land Rover": 6448
 , "Volvo": 8333
-, "Tesla": 6000
+, "Tesla": 6025
 , "Porsche": 5570
 , "Mini": 3731
 , "Jaguar": 2019
@@ -244,7 +244,7 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Lincoln": 9755
 , "Land Rover": 7103
 , "Volvo": 9338
-, "Tesla": 6000
+, "Tesla": 8970
 , "Porsche": 5005
 , "Mini": 4226
 , "Jaguar": 2366
@@ -304,7 +304,7 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Ram": 51729
 , "Smart": 126
 , "Subaru": 59841
-, "Tesla": 11062
+, "Tesla": 11202
 , "Toyota": 185851
 , "Volkswagen": 28941
 , "Volvo": 9868
@@ -358,7 +358,7 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Ram": 45065
 , "Smart": 103
 , "Subaru": 59426
-, "Tesla": 16675
+, "Tesla": 16775
 , "Toyota": 183367
 , "Volkswagen": 30520
 , "Volvo": 8622
@@ -404,7 +404,7 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Acura": 15072
 , "Cadillac": 13173
 , "Infiniti": 10796
-, "Tesla": 21700
+, "Tesla": 23175
 , "Mitsubishi": 8416
 , "Lincoln": 8945
 , "Volvo": 8970
