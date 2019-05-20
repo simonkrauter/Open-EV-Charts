@@ -305,7 +305,8 @@ var db = {
     return title;
   },
 
-  queryChartData: function(chartConfig) {
+  queryDataSets: function(chartConfig) {
+    // Returns datasets for chart
     var filterCountryId = null;
     if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all)
       filterCountryId = db.countries[chartConfig.country];
@@ -316,26 +317,14 @@ var db = {
     if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model)
       filterModel = chartConfig.model;
 
-    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     var dsType = db.dsTypes.ElectricCarsByModel;
     if (chartConfig.metric == this.metrics.salesAll)
       dsType = db.dsTypes.AllCarsByBrand;
-    var seriesRows = {};
-    var result = {};
-    result.series = [];
-    result.categories = [];
-    result.sources = [];
-    if (chartConfig.xProperty == this.xProperties.country)
-      result.categoryTitle = "Country";
-    else if (chartConfig.xProperty == this.xProperties.model)
-      result.categoryTitle = "Model";
-    else if (chartConfig.xProperty == this.xProperties.brand)
-      result.categoryTitle = "Brand";
-    else
-      result.categoryTitle = "Time Span";
 
-    // Select datasets
-    var categoriesInOrder = [];
+    var seriesRows = {};
+    var sources = [];
+    var categories = [];
+
     for (let i in db.datasets) {
       let dataset = db.datasets[i];
       if (filterCountryId != null && dataset.country != filterCountryId)
@@ -400,16 +389,28 @@ var db = {
           seriesRows[seriesName][category] += value;
         else
           seriesRows[seriesName][category] = value;
-        if (!categoriesInOrder.includes(category))
-          categoriesInOrder.push(category);
+        if (!categories.includes(category))
+          categories.push(category);
       }
-      if (!result.sources.includes(dataset.source))
-        result.sources.push(dataset.source);
+      if (!sources.includes(dataset.source))
+        sources.push(dataset.source);
     }
 
-    // Add categories to array in sorted order
+    return {
+      seriesRows: seriesRows,
+      sources: sources,
+      categories: categories
+    };
+  },
+
+  getCategoriesFromDataSets: function(chartConfig, datasets) {
+    // Sort categories and limit count
+    var categories = datasets.categories;
+    var seriesRows = datasets.seriesRows;
+    var result = [];
+    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     if (![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
-      categoriesInOrder.sort(function(a, b) {
+      categories.sort(function(a, b) {
         var valueA = 0;
         var valueB = 0;
         for (let seriesName in seriesRows) {
@@ -423,22 +424,40 @@ var db = {
       });
     }
     var count = 0;
-    for (let i in categoriesInOrder) {
-      let category = categoriesInOrder[i];
-      result.categories.push(category);
+    for (let i in categories) {
+      let category = categories[i];
+      result.push(category);
       count++;
       if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.view != this.views.table)
         break;
     }
+    return result
+  },
 
-    // Prepare special series
-    var totalSeries = {name: "Total", data: []};
-    var otherSeries = {name: "Other", data: []};
+  queryChartData: function(chartConfig) {
+    // Returns the data for a spedific view
+    var datasets = this.queryDataSets(chartConfig);
+    var seriesRows = datasets.seriesRows;
+
+    var result = {};
+    result.series = [];
+    result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+    result.sources = datasets.sources;
+
+    if (chartConfig.xProperty == this.xProperties.country)
+      result.categoryTitle = "Country";
+    else if (chartConfig.xProperty == this.xProperties.model)
+      result.categoryTitle = "Model";
+    else if (chartConfig.xProperty == this.xProperties.brand)
+      result.categoryTitle = "Brand";
+    else
+      result.categoryTitle = "Time Span";
 
     // Create series (entries of 'data' must be in order of 'result.categories')
     var seriesByName = {};
     var seriesNamesInOrder = [];
     var seriesSortValues = {};
+    var totalSeries = {name: "Total", data: []};
     for (let seriesName in seriesRows) {
       seriesNamesInOrder.push(seriesName);
       var newSeries = {};
@@ -476,10 +495,12 @@ var db = {
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
+    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
     var count = 0;
+    var otherSeries = {name: "Other", data: []};
     for (let i in seriesNamesInOrder) {
       let seriesName = seriesNamesInOrder[i];
       let currSeries = seriesByName[seriesName];
