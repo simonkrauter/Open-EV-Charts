@@ -43,13 +43,13 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 });
 
 db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Januar/",
-{ "smart|fortwo electric drive": 729
+{ "Smart|fortwo electric drive": 729
 , "Kia|Soul EV": 450
 , "Volkswagen|e-Golf": 450
 , "Renault|ZOE": 299
 , "BMW|i3 BEV": 210
 , "Hyundai|Ioniq Electric": 189
-, "smart|forfour electric drive": 173
+, "Smart|forfour electric drive": 173
 , "Volkswagen|e-up!": 73
 , "Opel|Ampera-e": 67
 , "Tesla|Model S": 45
@@ -98,10 +98,10 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 });
 
 db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Februar/",
-{ "smart|fortwo electric drive": 510
+{ "Smart|fortwo electric drive": 510
 , "Renault|ZOE": 475
 , "Volkswagen|e-Golf": 465
-, "smart|forfour electric drive": 253
+, "Smart|forfour electric drive": 253
 , "BMW|i3 BEV": 199
 , "Tesla|Model S": 124
 , "Opel|Ampera-e": 111
@@ -156,8 +156,8 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Maerz/",
 { "Volkswagen|e-Golf": 534
 , "Renault|ZOE": 523
-, "smart|forfour electric drive": 457
-, "smart|fortwo electric drive": 454
+, "Smart|forfour electric drive": 457
+, "Smart|fortwo electric drive": 454
 , "Kia|Soul EV": 396
 , "Nissan|Leaf": 346
 , "BMW|i3 BEV": 322
@@ -217,8 +217,8 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|ZOE": 422
 , "BMW|i3 BEV": 395
 , "Nissan|Leaf": 279
-, "smart|fortwo electric drive": 254
-, "smart|forfour electric drive": 175
+, "Smart|fortwo electric drive": 254
+, "Smart|forfour electric drive": 175
 , "Hyundai|Ioniq Electric": 96
 , "Volkswagen|e-up!": 95
 , "Tesla|Model S": 71
@@ -274,9 +274,9 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 366
 , "Kia|Soul EV": 231
 , "BMW|i3 BEV": 226
-, "smart|forfour electric drive": 201
+, "Smart|forfour electric drive": 201
 , "Nissan|Leaf": 129
-, "smart|fortwo electric drive": 122
+, "Smart|fortwo electric drive": 122
 , "Tesla|Model S": 112
 , "Hyundai|Ioniq Electric": 98
 , "Tesla|Model X": 88
@@ -331,9 +331,9 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Juni/",
 { "Renault|ZOE": 465
 , "BMW|i3 BEV": 399
-, "smart|forfour electric drive": 310
+, "Smart|forfour electric drive": 310
 , "Volkswagen|e-Golf": 290
-, "smart|fortwo electric drive": 264
+, "Smart|fortwo electric drive": 264
 , "Tesla|Model S": 200
 , "Nissan|Leaf": 127
 , "Hyundai|Ioniq Electric": 126
@@ -390,12 +390,12 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 
 db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Juli/",
 { "Kia|Soul EV": 423
-, "smart|fortwo electric drive": 387
+, "Smart|fortwo electric drive": 387
 , "Renault|ZOE": 320
 , "BMW|i3 BEV": 314
 , "Volkswagen|e-Golf": 311
 , "Nissan|Leaf": 159
-, "smart|forfour electric drive": 116
+, "Smart|forfour electric drive": 116
 , "Hyundai|Ioniq Electric": 105
 , "Jaguar|I-Pace": 70
 , "Tesla|Model S": 51
@@ -448,11 +448,11 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/August/",
 { "Renault|ZOE": 421
 , "Kia|Soul EV": 339
-, "smart|fortwo electric drive": 334
+, "Smart|fortwo electric drive": 334
 , "BMW|i3 BEV": 282
 , "Volkswagen|e-Golf": 268
 , "Nissan|Leaf": 177
-, "smart|forfour electric drive": 169
+, "Smart|forfour electric drive": 169
 , "Hyundai|Ioniq Electric": 138
 , "Volkswagen|e-up!": 105
 , "Tesla|Model S": 47
@@ -508,14 +508,14 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|ZOE": 328
 , "BMW|i3 BEV": 282
 , "Nissan|Leaf": 275
-, "smart|fortwo electric drive": 264
+, "Smart|fortwo electric drive": 264
 , "Kia|Soul EV": 120
 , "Hyundai|Ioniq Electric": 110
 , "Tesla|Model S": 104
 , "Hyundai|Kona Electric": 91
 , "Tesla|Model X": 81
 , "Volkswagen|e-up!": 80
-, "smart|forfour electric drive": 74
+, "Smart|forfour electric drive": 74
 , "Nissan|e-NV200": 13
 , "Opel|Ampera-e": 10
 , "Jaguar|I-Pace": 8
@@ -565,10 +565,10 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Oktober/",
 { "Volkswagen|e-Golf": 784
 , "Renault|ZOE": 609
-, "smart|fortwo electric drive": 402
+, "Smart|fortwo electric drive": 402
 , "BMW|i3 BEV": 306
 , "Nissan|Leaf": 306
-, "smart|forfour electric drive": 295
+, "Smart|forfour electric drive": 295
 , "Hyundai|Ioniq Electric": 257
 , "Hyundai|Kona Electric": 78
 , "Volkswagen|e-up!": 66
@@ -625,9 +625,9 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 858
 , "Nissan|Leaf": 366
 , "BMW|i3 BEV": 360
-, "smart|fortwo electric drive": 296
+, "Smart|fortwo electric drive": 296
 , "Hyundai|Ioniq Electric": 227
-, "smart|forfour electric drive": 214
+, "Smart|forfour electric drive": 214
 , "Kia|Soul EV": 182
 , "Volkswagen|e-up!": 126
 , "Hyundai|Kona Electric": 95
@@ -683,10 +683,10 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 529
 , "BMW|i3 BEV": 497
 , "Nissan|Leaf": 206
-, "smart|fortwo electric drive": 188
+, "Smart|fortwo electric drive": 188
 , "Hyundai|Ioniq Electric": 179
 , "Kia|Soul EV": 151
-, "smart|forfour electric drive": 115
+, "Smart|forfour electric drive": 115
 , "Hyundai|Kona Electric": 104
 , "Volkswagen|e-up!": 86
 , "Tesla|Model S": 63
@@ -745,9 +745,9 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 302
 , "Hyundai|Kona Electric": 291
 , "Nissan|Leaf": 288
-, "smart|fortwo electric drive": 264
+, "Smart|fortwo electric drive": 264
 , "Hyundai|Ioniq Electric": 203
-, "smart|forfour electric drive": 145
+, "Smart|forfour electric drive": 145
 , "Kia|Niro EV": 103
 , "Tesla|Model S": 91
 , "Peugeot|iOn": 70
@@ -804,8 +804,8 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 400
 , "Nissan|Leaf": 302
 , "Volkswagen|e-Golf": 281
-, "smart|forfour electric drive": 190
-, "smart|fortwo electric drive": 179
+, "Smart|forfour electric drive": 190
+, "Smart|fortwo electric drive": 179
 , "Audi|e-tron quattro": 155
 , "Kia|Soul EV": 149
 , "Hyundai|Ioniq Electric": 142
@@ -863,11 +863,11 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|ZOE": 1136
 , "BMW|i3 BEV": 708
 , "Audi|e-tron quattro": 478
-, "smart|fortwo electric drive": 371
+, "Smart|fortwo electric drive": 371
 , "Hyundai|Kona Electric": 284
 , "Nissan|Leaf": 227
 , "Volkswagen|e-Golf": 219
-, "smart|forfour electric drive": 132
+, "Smart|forfour electric drive": 132
 , "Hyundai|Ioniq Electric": 131
 , "Jaguar|I-Pace": 106
 , "Nissan|e-NV200": 93
@@ -924,9 +924,9 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 734
 , "Tesla|Model 3": 514
 , "Volkswagen|e-Golf": 489
-, "smart|fortwo electric drive": 428
+, "Smart|fortwo electric drive": 428
 , "Hyundai|Kona Electric": 296
-, "smart|forfour electric drive": 280
+, "Smart|forfour electric drive": 280
 , "Audi|e-tron quattro": 174
 , "Nissan|Leaf": 165
 , "Hyundai|Ioniq Electric": 137
