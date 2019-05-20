@@ -132,7 +132,9 @@ function renderChartTile(chartSetDiv, chartConfig) {
 
   if (chartData.series.length == 0) {
     let chartDiv = document.createElement("DIV");
-    chartTileDiv.appendChild(document.createTextNode("No data"));
+    let div = document.createElement("DIV");
+    chartTileDiv.appendChild(div);
+    div.appendChild(document.createTextNode("No data"));
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
       renderChartView(chartConfig, chartData, chartTileDiv);
