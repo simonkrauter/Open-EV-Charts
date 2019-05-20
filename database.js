@@ -78,6 +78,7 @@ var db = {
   { "all": "all-metrics"
   , "salesAll": "sales-all"
   , "salesElectric": "sales-electric"
+  , "ratioElectric": "ratio-electric"
   },
 
   xProperties:
@@ -133,8 +134,9 @@ var db = {
     param.options[this.metrics.all] = "All Metrics";
     param.options[this.metrics.salesAll] = "All Cars Sales";
     param.options[this.metrics.salesElectric] = "Electric Cars Sales";
+    param.options[this.metrics.ratioElectric] = "Ratio of Electric Cars Sales";
     param.unfoldKey = this.metrics.all;
-    param.defaultOption = this.metrics.salesElectric;
+    param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
     param.showAsFilter = true;
@@ -305,7 +307,7 @@ var db = {
     return title;
   },
 
-  queryDataSets: function(chartConfig) {
+  queryDataSets: function(chartConfig, dsType) {
     // Returns datasets for chart
     var filterCountryId = null;
     if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all)
@@ -316,10 +318,6 @@ var db = {
     var filterModel = null;
     if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model)
       filterModel = chartConfig.model;
-
-    var dsType = db.dsTypes.ElectricCarsByModel;
-    if (chartConfig.metric == this.metrics.salesAll)
-      dsType = db.dsTypes.AllCarsByBrand;
 
     var seriesRows = {};
     var sources = [];
@@ -434,15 +432,54 @@ var db = {
     return result
   },
 
+  getValue: function(value, defaultValue) {
+    if (typeof(value) == "undefined")
+      return defaultValue;
+    return value;
+  },
+
   queryChartData: function(chartConfig) {
     // Returns the data for a spedific view
-    var datasets = this.queryDataSets(chartConfig);
-    var seriesRows = datasets.seriesRows;
-
     var result = {};
     result.series = [];
-    result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
-    result.sources = datasets.sources;
+
+    var seriesRows;
+    var valuesForRatio = {};
+    if (chartConfig.metric == this.metrics.salesAll) {
+      var datasets = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
+      seriesRows = datasets.seriesRows;
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.sources = datasets.sources;
+    } else if (chartConfig.metric == this.metrics.salesElectric) {
+      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      seriesRows = datasets.seriesRows;
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.sources = datasets.sources;
+    } else if (chartConfig.metric == this.metrics.ratioElectric) {
+      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      var datasetsForRatio = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
+      seriesRows = datasets.seriesRows;
+      result.sources = datasets.sources.concat(datasetsForRatio.sources);
+      for (let i in datasets.categories) {
+        let category = datasets.categories[i];
+        var value = 0;
+        for (let seriesName in datasetsForRatio.seriesRows) {
+          value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
+        }
+        valuesForRatio[category] = value;
+      }
+      for (let seriesName in seriesRows) {
+        for (let i in datasets.categories) {
+          let category = datasets.categories[i];
+          var value = this.getValue(seriesRows[seriesName][category], null);
+          if (valuesForRatio[category] == 0)
+            seriesRows[seriesName][category] = 0;
+          else
+            seriesRows[seriesName][category] = value / valuesForRatio[category] * 100;
+        }
+      }
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+    }
 
     if (chartConfig.xProperty == this.xProperties.country)
       result.categoryTitle = "Country";
@@ -466,9 +503,7 @@ var db = {
 
       for (let i in result.categories) {
         let category = result.categories[i];
-        let value = seriesRows[seriesName][category];
-        if (typeof(value) == "undefined")
-          value = null;
+        var value = this.getValue(seriesRows[seriesName][category], null);
         newSeries.data.push(value);
         // Add value to total series
         if (value != null) {
