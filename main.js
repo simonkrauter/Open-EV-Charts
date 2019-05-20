@@ -236,7 +236,7 @@ function createRemoveButton() {
 }
 
 function formatValue(chartConfig, value) {
-  if (chartConfig.metric == db.metrics.ratioElectric) {
+  if ([db.metrics.ratioElectric, db.metrics.shareElectric].includes(chartConfig.metric)) {
     if (chartConfig.view == db.views.table)
       return value.toFixed(1).toLocaleString() + " %";
     else
@@ -338,6 +338,9 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   chartOptions.chart.fontFamily = window.getComputedStyle(document.body)["font-family"];
   chartOptions.series = chartData.series;
   chartOptions.xaxis.categories = chartData.categories;
+
+  if (chartConfig.metric == db.metrics.shareElectric)
+    chartOptions.yaxis.forceNiceScale = false;
 
   let chartDiv = document.createElement("DIV");
   chartTileDiv.appendChild(chartDiv);

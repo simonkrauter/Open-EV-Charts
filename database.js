@@ -73,9 +73,10 @@ var db = {
 
   metrics:
   { "all": "all-metrics"
-  , "salesAll": "sales-all"
-  , "salesElectric": "sales-electric"
-  , "ratioElectric": "ratio-electric"
+  , "salesAll": "all-sales"
+  , "salesElectric": "electric-sales"
+  , "ratioElectric": "electric-ratio"
+  , "shareElectric": "electric-share"
   },
 
   xProperties:
@@ -132,6 +133,7 @@ var db = {
     param.options[this.metrics.salesAll] = "All Cars Sales";
     param.options[this.metrics.salesElectric] = "Electric Cars Sales";
     param.options[this.metrics.ratioElectric] = "Ratio of Electric Cars Sales";
+    param.options[this.metrics.shareElectric] = "Market Share of Electric Cars";
     param.unfoldKey = this.metrics.all;
     param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
@@ -476,6 +478,30 @@ var db = {
         }
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+    } else if (chartConfig.metric == this.metrics.shareElectric) {
+      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      seriesRows = datasets.seriesRows;
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.sources = datasets.sources;
+      var sums = {};
+      for (let i in datasets.categories) {
+        let category = datasets.categories[i];
+        var sum = 0;
+        for (let seriesName in datasets.seriesRows) {
+          sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+        }
+        sums[category] = sum;
+      }
+      for (let seriesName in seriesRows) {
+        for (let i in datasets.categories) {
+          let category = datasets.categories[i];
+          var value = this.getValue(seriesRows[seriesName][category], null);
+          if (valuesForRatio[category] == 0)
+            seriesRows[seriesName][category] = 0;
+          else
+            seriesRows[seriesName][category] = value / sums[category] * 100;
+        }
+      }
     }
 
     if (chartConfig.xProperty == this.xProperties.country)
