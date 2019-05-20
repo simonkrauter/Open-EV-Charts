@@ -10,11 +10,8 @@ var db = {
   // ID => Name
 
   dsTypes:
-  { "AllCarsTotal": 1
-  , "AllCarsByBrand": 2
-  , "ElectricCarsTotal": 3
-  , "ElectricCarsByBrand": 4
-  , "ElectricCarsByModel": 5
+  { "AllCarsByBrand": 1
+  , "ElectricCarsByModel": 2
   },
 
   datasets: [],
