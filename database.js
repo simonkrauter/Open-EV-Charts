@@ -119,7 +119,8 @@ var db = {
   },
 
   formatForUrl: function(str) {
-    return str.replace(/ /g, "-");
+    if (str)
+      return str.replace(/ /g, "-");
   },
 
   getChartParams: function(chartConfig) {
@@ -165,7 +166,7 @@ var db = {
     for (let code in db.countries)
       param.options[code] = db.countryNames[db.countries[code]];
     param.unfoldKey = this.countryOptions.all;
-    param.excludeOnUnfold = this.countryOptions.combine;
+    param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
     param.defaultOption = this.countryOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
@@ -183,7 +184,9 @@ var db = {
       if (brand != "other")
         param.options[this.formatForUrl(brand)] = brand;
     }
+    param.excludeOnUnfoldAndTitle = [this.brandOptions.all, this.brandOptions.combine];
     param.defaultOption = this.brandOptions.all;
+    param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.brand;
     result[param.name] = param;
 
@@ -279,7 +282,7 @@ var db = {
         var newResult = [];
         for (let j in result) {
           for (let k in param.options) {
-            if (k != param.unfoldKey && k != param.excludeOnUnfold) {
+            if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
               var newConfig = JSON.parse(JSON.stringify(result[j]));
               newConfig[param.name] = k;
               newResult.push(newConfig);
@@ -299,9 +302,12 @@ var db = {
       let param = params[i];
       if (!param.showInTitle)
         continue;
+      let value = chartConfig[param.name];
+      if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
+        continue;
       if (title != "")
         title = title + " - ";
-      title = title + param.options[chartConfig[param.name]];
+      title = title + param.options[value];
     }
     return title;
   },
