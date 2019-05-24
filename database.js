@@ -380,7 +380,7 @@ var db = {
           else
             seriesName = brand;
         }
-        if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model) {
+        if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
           if (chartConfig.brand == this.brandOptions.all)
             seriesName = brandAndModel;
           else
