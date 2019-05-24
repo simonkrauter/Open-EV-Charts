@@ -265,28 +265,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     },
     stroke: {
     },
-    colors: [
-      "#E83835",
-      "#1469AA",
-      "#43A047",
-      "#FB8C00",
-      "#31CEE0",
-      "#FDD835",
-      "#8025A8",
-      "#8C8C8C",
-      "#16545B",
-      "#795548",
-      "#A00000",
-      "#000E8E",
-      "#024C00",
-      "#8C4D00",
-      "#87711C",
-      "#93F296",
-      "#8B66DD",
-      "#C0CA33",
-      "#E52984",
-      "#FFBB68"
-    ],
+    colors: getChartSeriesColors(chartConfig, chartData),
     series: [],
     xaxis: {
       labels: {
@@ -322,11 +301,6 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     }
   }
 
-  if (chartData.series[0].name == "Total")
-    chartOptions.colors.unshift("#000000");
-  if (chartData.series[chartData.series.length - 1].name == "Other")
-    chartOptions.colors[chartData.series.length - 1] = "#000000";
-
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.chart.type = "line";
     chartOptions.stroke.width = 3.5;
@@ -358,6 +332,75 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
 
   var chart = new ApexCharts(chartDiv, chartOptions);
   chart.render();
+}
+
+function getChartSeriesColors(chartConfig, chartData) {
+  var colorSet = [
+    "#E83835",
+    "#1469AA",
+    "#43A047",
+    "#FB8C00",
+    "#31CEE0",
+    "#FDD835",
+    "#8025A8",
+    "#8C8C8C",
+    "#16545B",
+    "#795548",
+    "#A00000",
+    "#000E8E",
+    "#024C00",
+    "#8C4D00",
+    "#87711C",
+    "#93F296",
+    "#8B66DD",
+    "#C0CA33",
+    "#E52984",
+    "#FFBB68"
+  ];
+  var colorIndexByBrand = {
+    "Tesla": 0,
+    "Nissan": 7,
+    "Chevrolet": 5,
+    "Renault": 3,
+    "Volkswagen": 1,
+    "Smart": 2,
+    "BMW": 4,
+    "Kia": 10,
+    "Hyundai": 11,
+    "Fiat": 18,
+    "Jaguar": 8,
+    "Audi": 6,
+    "Peugeot": 9
+  };
+
+  var colors = [];
+  var usedIndexes = [];
+  if (chartConfig.brand == db.brandOptions.all) {
+    for (let i in colorIndexByBrand)
+      usedIndexes.push(colorIndexByBrand[i]);
+  }
+  var unusedColors = [];
+  for (var i in colorSet) {
+    i = parseInt(i);
+    if (!usedIndexes.includes(i))
+      unusedColors.push(colorSet[i]);
+  }
+  var nextUnusedIndex = 0;
+  for (let i in chartData.series) {
+    let seriesName = chartData.series[i].name;
+    if (seriesName == "Total" || seriesName == "Other")
+      colors.push("#000000");
+    else {
+      var index = colorIndexByBrand[seriesName];
+      if (index != null)
+        colors.push(colorSet[index % colorSet.length]);
+      else {
+        colors.push(unusedColors[nextUnusedIndex % unusedColors.length]);
+        nextUnusedIndex++;
+      }
+    }
+  }
+  return colors;
 }
 
 function renderTable(chartConfig, chartTileDiv, chartData) {
