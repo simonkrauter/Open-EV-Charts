@@ -201,7 +201,7 @@ var db = {
         param.options[this.formatForUrl(model)] = model;
     }
     param.defaultOption = this.modelOptions.combine;
-    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && chartConfig.metric != this.metrics.salesAll && ![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand));
+    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && chartConfig.metric != this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine);
     result[param.name] = param;
 
     // max series
@@ -374,8 +374,12 @@ var db = {
           else
             seriesName = brand;
         }
-        if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model)
-          seriesName = model;
+        if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model) {
+          if (chartConfig.brand == this.brandOptions.all)
+            seriesName = brandAndModel;
+          else
+            seriesName = model;
+        }
 
         if (seriesName == "")
           seriesName = "Value";
