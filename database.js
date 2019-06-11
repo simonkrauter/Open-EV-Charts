@@ -537,13 +537,18 @@ var db = {
       for (let i in result.categories) {
         let category = result.categories[i];
         var value = this.getValue(seriesRows[seriesName][category], null);
-        newSeries.data.push(value);
         // Add value to total series
         if (value != null) {
+          newSeries.data.push(value);
           if (i in totalSeries.data)
             totalSeries.data[i] += value;
           else
             totalSeries.data[i] = value;
+        } else {
+          if (chartConfig.view == this.views.barChart)
+            newSeries.data.push(0);
+          else
+            newSeries.data.push(null);
         }
         // Add value to seriesSortValues
         if (value != null) {
