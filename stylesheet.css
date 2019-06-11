@@ -9,6 +9,11 @@ body {
   min-width: 500px;
 }
 
+input, select {
+  font-size: inherit;
+  font-family: inherit;
+}
+
 .title, .filters, th {
   background: #262626;
   color: white;
@@ -36,9 +41,23 @@ a:hover {
 }
 
 a.button, .select-wrapper {
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 80px;
+}
+
+a.button {
+  background: #565656;
+  color: white;
+}
+
+a.button.active, .select-wrapper {
   background: #2A81C9;
   color: white;
-  border-radius: 2px;
 }
 
 a.button:hover, .select-wrapper:hover  {
@@ -123,15 +142,10 @@ body.showFocus *:focus {
 
 .filters {
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   margin-bottom: 5px;
-}
-
-.filters > * {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 92%;
 }
 
 a.button.remove-button {

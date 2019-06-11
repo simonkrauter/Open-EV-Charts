@@ -74,7 +74,10 @@ function renderFilters(chartSetDiv, chartConfig) {
     let param = params[i];
     if (!param.showAsFilter)
       continue;
-    renderFilterAsDropDown(div, param, chartConfig[param.name]);
+    if ((param.name == "metric" || param.name == "country") && isWidthEnoughForFilterAsButtons() && getChartConfigStringsFromUrl().length == 1)
+      renderFilterAsButtons(div, param, chartConfig[param.name]);
+    else
+      renderFilterAsDropDown(div, param, chartConfig[param.name]);
   }
 
   if (getChartConfigStringsFromUrl().length > 1) {
@@ -89,14 +92,16 @@ function renderFilters(chartSetDiv, chartConfig) {
   }
 }
 
+function isWidthEnoughForFilterAsButtons() {
+  return window.innerWidth >= 1000;
+}
+
 function renderFilterAsDropDown(parentDiv, param, selectedKey) {
   var select = addSelectElement(parentDiv);
-  select.name = param.name;
   select.addEventListener("change", function(event) {
-    let paramName = event.target.name;
     let chartSetDiv = event.target.parentNode.parentNode.parentNode;
     var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
-    chartConfig[paramName] = event.target.value;
+    chartConfig[param.name] = event.target.value;
     renderChartSet(chartSetDiv, chartConfig);
     rebuildUrlHash();
   });
@@ -106,6 +111,32 @@ function renderFilterAsDropDown(parentDiv, param, selectedKey) {
     option.text = param.options[optionKey];
     option.selected = optionKey == selectedKey;
     select.appendChild(option);
+  }
+}
+
+function renderFilterAsButtons(parentDiv, param, selectedKey) {
+  let div = document.createElement("DIV");
+  div.classList.add("full-row");
+  parentDiv.appendChild(div);
+  for (let optionKey in param.options) {
+    let chartSetDiv = parentDiv.parentNode;
+    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
+    chartConfig[param.name] = optionKey;
+
+    var button = document.createElement("A");
+    div.appendChild(button);
+    button.href = "#" + db.encodeChartConfig(chartConfig);
+    button.classList.add("button");
+    if (optionKey == selectedKey)
+      button.classList.add("active");
+    button.appendChild(document.createTextNode(param.options[optionKey]));
+    button.addEventListener("click", function(event) {
+      var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
+      chartConfig[param.name] = optionKey;
+      renderChartSet(chartSetDiv, chartConfig);
+      rebuildUrlHash();
+      event.preventDefault();
+    });
   }
 }
 
@@ -327,7 +358,9 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
 
   // Set chart size
   let heightRatio = 0.63; // defined by apex charts
-  let heightOffset = 230;
+  var heightOffset = 260;
+  if (isWidthEnoughForFilterAsButtons())
+    heightOffset = 300;
   let minWidth = 500;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart)

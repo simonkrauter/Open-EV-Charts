@@ -130,7 +130,8 @@ var db = {
     var param = {};
     param.name = "metric";
     param.options = {};
-    param.options[this.metrics.all] = "All Metrics";
+    if (!chartConfig || chartConfig.country != this.countryOptions.all)
+      param.options[this.metrics.all] = "All Metrics";
     param.options[this.metrics.salesAll] = "All Cars Sales";
     param.options[this.metrics.salesElectric] = "Electric Cars Sales";
     param.options[this.metrics.ratioElectric] = "Ratio of Electric Cars Sales";
@@ -139,21 +140,6 @@ var db = {
     param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
-    param.showAsFilter = true;
-    result[param.name] = param;
-
-    // x-axis property
-    var param = {};
-    param.name = "xProperty";
-    param.options = {};
-    param.options[this.xProperties.month] = "Per Month";
-    param.options[this.xProperties.quarter] = "Per Quarter";
-    param.options[this.xProperties.year] = "Per Year";
-    param.options[this.xProperties.country] = "Per Country";
-    param.options[this.xProperties.brand] = "Per Brand";
-    if (chartConfig == null || chartConfig.metric == this.metrics.salesElectric)
-      param.options[this.xProperties.model] = "Per Model";
-    param.defaultOption = this.xProperties.month;
     param.showAsFilter = true;
     result[param.name] = param;
 
@@ -170,6 +156,21 @@ var db = {
     param.defaultOption = this.countryOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
+    result[param.name] = param;
+
+    // x-axis property
+    var param = {};
+    param.name = "xProperty";
+    param.options = {};
+    param.options[this.xProperties.month] = "Per Month";
+    param.options[this.xProperties.quarter] = "Per Quarter";
+    param.options[this.xProperties.year] = "Per Year";
+    param.options[this.xProperties.country] = "Per Country";
+    param.options[this.xProperties.brand] = "Per Brand";
+    if (chartConfig == null || chartConfig.metric == this.metrics.salesElectric)
+      param.options[this.xProperties.model] = "Per Model";
+    param.defaultOption = this.xProperties.month;
+    param.showAsFilter = true;
     result[param.name] = param;
 
     // brand
