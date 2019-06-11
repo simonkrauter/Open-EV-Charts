@@ -74,23 +74,7 @@ function renderFilters(chartSetDiv, chartConfig) {
     let param = params[i];
     if (!param.showAsFilter)
       continue;
-    var select = addSelectElement(div);
-    select.name = param.name;
-    select.addEventListener("change", function(event) {
-      let paramName = event.target.name;
-      let chartSetDiv = event.target.parentNode.parentNode.parentNode;
-      var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
-      chartConfig[paramName] = event.target.value;
-      renderChartSet(chartSetDiv, chartConfig);
-      rebuildUrlHash();
-    });
-    for (let optionKey in param.options) {
-      var option = document.createElement("OPTION");
-      option.value = optionKey;
-      option.text = param.options[optionKey];
-      option.selected = optionKey == chartConfig[param.name];
-      select.appendChild(option);
-    }
+    renderFilterAsDropDown(div, param, chartConfig[param.name]);
   }
 
   if (getChartConfigStringsFromUrl().length > 1) {
@@ -102,6 +86,26 @@ function renderFilters(chartSetDiv, chartConfig) {
       chartSetDiv.parentNode.removeChild(chartSetDiv);
       rebuildUrlHash();
     });
+  }
+}
+
+function renderFilterAsDropDown(parentDiv, param, selectedKey) {
+  var select = addSelectElement(parentDiv);
+  select.name = param.name;
+  select.addEventListener("change", function(event) {
+    let paramName = event.target.name;
+    let chartSetDiv = event.target.parentNode.parentNode.parentNode;
+    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
+    chartConfig[paramName] = event.target.value;
+    renderChartSet(chartSetDiv, chartConfig);
+    rebuildUrlHash();
+  });
+  for (let optionKey in param.options) {
+    var option = document.createElement("OPTION");
+    option.value = optionKey;
+    option.text = param.options[optionKey];
+    option.selected = optionKey == selectedKey;
+    select.appendChild(option);
   }
 }
 
