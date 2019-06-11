@@ -7,6 +7,10 @@ window.onhashchange = function() {
   renderPage();
 }
 
+window.onresize = function() {
+  renderPage();
+}
+
 let homeLink = document.getElementById("homeLink");
 homeLink.href = location.pathname + location.search;
 homeLink.addEventListener("click", function(event) {
