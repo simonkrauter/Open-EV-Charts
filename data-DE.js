@@ -942,6 +942,68 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 5
 });
 
+db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_12_2019_fahrzeugzulassungen_05_2019_pdf.pdf?__blob=publicationFile&v=4",
+{ "Alfa Romeo": 283
+, "Audi": 25816
+, "BMW": 26995
+, "Citroën": 5980
+, "Dacia": 7807
+, "DS Automobiles": 267
+, "Fiat": 9895
+, "Ford": 26011
+, "Honda": 1257
+, "Hyundai": 10747
+, "Jaguar": 853
+, "Jeep": 1449
+, "Kia": 6199
+, "Land Rover": 1536
+, "Lexus": 491
+, "Mazda": 5810
+, "Mercedes-Benz": 29793
+, "Mini": 3780
+, "Mitsubishi": 5120
+, "Nissan": 3027
+, "Opel": 21622
+, "Peugeot": 6599
+, "Porsche": 3101
+, "Renault": 10394
+, "Seat": 14139
+, "Škoda": 18701
+, "Smart": 4430
+, "SsangYong": 260
+, "Subaru": 428
+, "Suzuki": 2980
+, "Tesla": 433
+, "Toyota": 8549
+, "Volvo": 5546
+, "Volkswagen": 60906
+, "other": 1758
+});
+
+db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Mai/",
+{ "Renault|ZOE": 875
+, "BMW|i3 BEV": 861
+, "Smart|fortwo electric drive": 495
+, "Audi|e-tron quattro": 322
+, "Tesla|Model 3": 317
+, "Volkswagen|e-Golf": 310
+, "Smart|forfour electric drive": 236
+, "Hyundai|Kona Electric": 226
+, "Kia|Soul EV": 158
+, "Hyundai|Ioniq Electric": 152
+, "Nissan|Leaf": 96
+, "Jaguar|I-Pace": 86
+, "Tesla|Model S": 68
+, "Nissan|e-NV200": 66
+, "Volkswagen|e-up!": 55
+, "Tesla|Model X": 48
+, "Citron|C-Zero": 20
+, "Kia|Niro EV": 11
+, "Opel|Ampera-e": 7
+, "Peugeot|iOn": 4
+});
+
+
 // Template
 // db.insert(db.countries.DE, "", db.dsTypes.AllCarsByBrand, "",
 // { "Alfa Romeo":
