@@ -150,11 +150,11 @@ body.showFocus *:focus {
 
 a.button.remove-button {
   background: none;
-  margin-left: 10px;
   display: inline-block;
   padding: 3px;
-  padding-top: 7px;
+  padding-top: 2px;
   vertical-align: top;
+  min-width: 0;
 }
 
 a.button.remove-button > div {
@@ -164,6 +164,7 @@ a.button.remove-button > div {
   color: #8C8C8C;
   border: 2px solid #8C8C8C;
   opacity: 0.8;
+  border-radius: 2px;
 }
 
 a.button.remove-button:hover > div {
@@ -175,9 +176,12 @@ a.button.remove-button > div:after {
   content: "\00d7";
   vertical-align: top;
   margin-top: -8px;
-  margin-left: 1px;
   font-size: 22px;
   font-weight: bold;
+}
+
+.filters a.button.remove-button {
+  padding-top: 6px;
 }
 
 .button.remove-button > i {
@@ -195,17 +199,21 @@ a.button.remove-button > div:after {
 
 .chart-tile {
   display: inline-block;
+  vertical-align: top;
+  position: relative;
 }
 
 .chart-title {
   display: inline-block;
   padding: 3px;
   padding-top: 4px;
+  margin-right: 40px;
   font-size: 118%;
 }
 
 .chart-tile .remove-button {
   position: absolute;
+  right: 0;
 }
 
 .tab-buttons > * {
