@@ -849,3 +849,53 @@ db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Niro EV": 40
 });
 
+db.insert(db.countries.US, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/06/u-s-auto-sales-brand-rankings-may-2019-ytd/",
+{ "Toyota": 197637
+, "Honda": 131985
+, "Nissan": 121570
+, "Jeep": 90326
+, "Subaru": 63972
+, "Hyundai": 66121
+, "Ram": 67117
+, "Kia": 60062
+, "Dodge": 47759
+, "Volkswagen": 35702
+, "Mercedes-Benz": 25631
+, "BMW": 27108
+, "Mazda": 25192
+, "Lexus": 24537
+, "Audi": 18892
+, "Acura": 13547
+, "Tesla": 16350
+, "Mitsubishi": 9750
+, "Infiniti": 10413
+, "Chrysler": 10903
+, "Volvo": 9761
+, "Land Rover": 7337
+, "Porsche": 5010
+, "Jaguar": 2021
+, "Mini": 2822
+, "Genesis": 2313
+, "Alfa Romeo": 1572
+, "Fiat": 1025
+, "Smart": 85
+});
+
+db.insert(db.countries.US, "2019-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/352626/ev-sales-scorecard-may-2019/ (incomplete, only models with no ICE/hybrid variant included)",
+{ "Tesla|Model 3": 13950
+, "Chevrolet|Bolt EV": 1396
+, "Tesla|Model X": 1375
+, "Tesla|Model S": 1025
+, "Nissan|Leaf": 1216
+, "Volkswagen|e-Golf": 264
+, "Jaguar|I-Pace": 228
+, "Audi|e-tron": 1109
+, "Honda|Clarity BEV": 82
+, "Smart|ED": 85
+, "Hyundai|Kona Electric": 91
+, "Fiat|500e": 60
+, "Hyundai|Ioniq Electric": 61
+, "Kia|Niro EV": 159
+, "Kia|Soul EV": 1
+});
+
