@@ -150,34 +150,23 @@ body.showFocus *:focus {
 
 a.button.remove-button {
   background: none;
-  display: inline-block;
-  padding: 3px;
-  padding-top: 2px;
-  vertical-align: top;
+  padding: 5px;
+  padding-top: 0;
+  margin-top: -3px;
   min-width: 0;
-}
-
-a.button.remove-button > div {
-  display: inline-block;
-  width: 18px;
-  height: 16px;
   color: #8C8C8C;
-  border: 2px solid #8C8C8C;
   opacity: 0.8;
-  border-radius: 2px;
+  font-size: 200%;
+  font-weight: bold;
+  vertical-align: top;
 }
 
-a.button.remove-button:hover > div {
+a.button.remove-button:hover {
   opacity: 1;
 }
 
-a.button.remove-button > div:after {
-  display: inline-block;
+a.button.remove-button:after {
   content: "\00d7";
-  vertical-align: top;
-  margin-top: -8px;
-  font-size: 22px;
-  font-weight: bold;
 }
 
 .filters a.button.remove-button {

@@ -89,7 +89,7 @@ function renderFilters(chartSetDiv, chartConfig) {
     div.appendChild(removeButton);
     removeButton.addEventListener("click", function(event) {
       event.preventDefault();
-      let chartSetDiv = event.target.parentNode.parentNode.parentNode;
+      let chartSetDiv = event.target.parentNode.parentNode;
       chartSetDiv.parentNode.removeChild(chartSetDiv);
       rebuildUrlHash();
     });
@@ -229,7 +229,7 @@ function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
 
 function chartTileRemoveClick(event) {
   event.preventDefault();
-  let chartTileDiv = event.target.parentNode.parentNode;
+  let chartTileDiv = event.target.parentNode;
   let chartSetDiv = chartTileDiv.parentNode;
   var chartConfigStrings = [];
   for (var i = 0; i < dynamicContent.childNodes.length; i++) {
@@ -272,7 +272,6 @@ function createRemoveButton() {
   var removeButton = createButton();
   removeButton.classList.add("remove-button");
   removeButton.title = "Remove";
-  removeButton.appendChild(document.createElement("DIV"));
   return removeButton;
 }
 
