@@ -365,7 +365,7 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   var heightOffset = 260;
   if (isWidthEnoughForFilterAsButtons())
     heightOffset = 300;
-  let minWidth = 500;
+  let minWidth = 400;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart)
     wantedWith = wantedWith / 2.2;
