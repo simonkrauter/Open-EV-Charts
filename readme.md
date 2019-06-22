@@ -1,24 +1,37 @@
 Open EV Charts
 ==============
 
-The purpose of this projects is to collect and visualize information about the adoption of electric cars.<br>
-The database contains monthly sales volume per country and manufacturer. The numbers for electric cars are given by model.
+The purpose of this projects is to collect and visualize information about the adoption of electric cars.
+
+Viewable online version: https://open-ev-charts.org/
+
+What data is collected
+----------------------
+
+The database contains:
+
+- Monthly sales of all cars by brand and country.
+- Monthly sales of electric cars by model and country.
+
+Electric car means battery electric car here.
+
+Database state
+--------------
+
+- US: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
+- DE: data since 2018-01 collected
+- FR: data since 2019-01 collected
+- CH: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
+- NO: data since 2019-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
+
+Data sources for other countries wanted.
 
 Technology
 ----------
 
 - JavaScript/HTML/CSS running in a web browser
 - [apexcharts.js](https://github.com/apexcharts/apexcharts.js), a JavaScript chart library
-
-Database state
---------------
-
-- US: data since 2018-01 collected
-- DE: data since 2018-01 collected
-- FR: data since 2019-01 collected
-- CH: data since 2018-01 collected
-
-Data sources for other countries wanted.
+- https://open-ev-charts.org/ is hosted by GitHub Pages
 
 Contributing
 ------------
