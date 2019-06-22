@@ -20,9 +20,9 @@ Database state
 
 - US: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
 - DE: data since 2018-01 collected
-- FR: data since 2019-01 collected
+- FR: data since 2018-01 collected, EV models incomplete, missing i3 BEV
 - CH: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
-- NO: data since 2019-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
+- NO: data since 2018-01 collected, EV models incomplete, missing i3 BEV
 
 Data sources for other countries wanted.
 
