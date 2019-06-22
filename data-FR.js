@@ -4,6 +4,497 @@
 
 db.addCountry("FR", "France");
 
+db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jan (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 31526
+, "Citroën": 17292
+, "Opel": 5467
+, "DS Automobiles": 1460
+, "Renault": 27282
+, "Dacia": 9888
+, "Volkswagen": 8656
+, "Audi": 3400
+, "Škoda": 2153
+, "Seat": 2116
+, "Porsche": 317
+, "Toyota": 7951
+, "Lexus": 523
+, "Ford": 6933
+, "Fiat": 5219
+, "Jeep": 884
+, "Alfa Romeo": 592
+, "BMW": 3811
+, "Mini": 2095
+, "Kia": 3153
+, "Hyundai": 2461
+, "Nissan": 4631
+, "Infiniti": 69
+, "Mercedes-Benz": 2888
+, "Smart": 415
+, "Volvo": 1185
+, "other": 4467
+});
+
+db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1520266815361253686bfda401bf217a7bc644eb32-Barometre%20janvier%202018.pdf",
+{ "Renault|ZOE": 633
+, "BMW|i3 BEV": 172
+, "Kia|Soul EV": 136
+, "smart|fortwo electric drive": 98
+, "Peugeot|iOn": 56
+, "Nissan|Leaf": 48
+, "Citroën|C-Zero": 43
+, "Hyundai|Ioniq Electric": 42
+, "Peugeot|Partner Electric": 40
+, "smart|forfour electric drive": 27
+, "Volkswagen|e-Golf": 16
+, "Citroën|Berlingo Electric": 14
+, "Volkswagen|e-up!": 14
+, "Bollore|Bluecar": 10
+, "Tesla|Model S": 9
+, "Citroën|E-Mehari": 7
+, "Nissan|e-NV200": 7
+, "Tesla|Model X": 3
+});
+
+db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#feb (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 31006
+, "Citroën": 16643
+, "Opel": 5718
+, "DS Automobiles": 1340
+, "Renault": 30242
+, "Dacia": 10081
+, "Volkswagen": 10916
+, "Audi": 4036
+, "Seat": 2256
+, "Škoda": 2189
+, "Porsche": 418
+, "Toyota": 7892
+, "Lexus": 464
+, "Fiat": 5912
+, "Jeep": 1048
+, "Alfa Romeo": 730
+, "Ford": 7249
+, "BMW": 4842
+, "Mini": 1975
+, "Kia": 3723
+, "Hyundai": 2755
+, "Nissan": 5515
+, "Infiniti": 52
+, "Mercedes-Benz": 4826
+, "Smart": 398
+, "Volvo": 1325
+, "Chevrolet": 13
+, "other": 5302
+});
+
+db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/france-february-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 1155
+, "Nissan|Leaf": 306
+, "Kia|Soul EV": 73
+, "Smart|fortwo electric drive": 72
+, "Peugeot|iOn": 41
+, "Citroën|C-Zero": 35
+});
+
+db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#mar (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 40528
+, "Citroën": 21577
+, "Opel": 7363
+, "DS Automobiles": 2540
+, "Renault": 49171
+, "Dacia": 13921
+, "Alpine": 27
+, "Volkswagen": 14504
+, "Audi": 5688
+, "Seat": 2963
+, "Škoda": 2821
+, "Porsche": 369
+, "Fiat": 8412
+, "Jeep": 1269
+, "Alfa Romeo": 967
+, "Ford": 10335
+, "Toyota": 8222
+, "Lexus": 531
+, "BMW": 5670
+, "Mini": 2650
+, "Kia": 4439
+, "Hyundai": 3227
+, "Nissan": 7402
+, "Infiniti": 94
+, "Mercedes-Benz": 6406
+, "Smart": 606
+, "Volvo": 2069
+, "Chevrolet": 10
+, "other": 7308
+});
+
+db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/france-march-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 2245
+, "Nissan|Leaf": 719
+, "Kia|Soul EV": 59
+, "Smart|fortwo electric drive": 77
+, "Tesla|Model S": 162
+, "Peugeot|iOn": 98
+, "Hyundai|Ioniq Electric": 127
+});
+
+db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#apr (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 34576
+, "Citroën": 16991
+, "Opel": 6305
+, "DS Automobiles": 2630
+, "Renault": 33726
+, "Dacia": 14114
+, "Alpine": 114
+, "Volkswagen": 12445
+, "Audi": 4942
+, "Škoda": 2635
+, "Seat": 2343
+, "Porsche": 380
+, "Fiat": 6961
+, "Jeep": 1297
+, "Alfa Romeo": 707
+, "Toyota": 8070
+, "Lexus": 574
+, "Kia": 4288
+, "Hyundai": 3326
+, "Ford": 7406
+, "BMW": 4574
+, "Mini": 1992
+, "Mercedes-Benz": 4773
+, "Smart": 538
+, "Nissan": 4604
+, "Infiniti": 72
+, "Volvo": 1252
+, "Chevrolet": 6
+, "other": 5746
+});
+
+db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/france-april-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 961
+, "Nissan|Leaf": 375
+, "Kia|Soul EV": 70
+, "Smart|fortwo electric drive": 69
+, "Peugeot|iOn": 59
+, "Tesla|Model S": 23
+, "Citroën|C-Zero": 42
+});
+
+db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#may (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 33081
+, "Citroën": 17164
+, "Opel": 7014
+, "DS Automobiles": 2240
+, "Renault": 36252
+, "Dacia": 13168
+, "Alpine": 105
+, "Volkswagen": 12659
+, "Audi": 4769
+, "Škoda": 3025
+, "Seat": 2573
+, "Porsche": 385
+, "Fiat": 7397
+, "Jeep": 1577
+, "Alfa Romeo": 787
+, "Toyota": 7627
+, "Lexus": 507
+, "Ford": 7723
+, "BMW": 4993
+, "Mini": 2197
+, "Mercedes-Benz": 6525
+, "Smart": 560
+, "Kia": 3627
+, "Hyundai": 3228
+, "Nissan": 5433
+, "Infiniti": 62
+, "Volvo": 1380
+, "Chevrolet": 8
+, "other": 5607
+});
+
+db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/france-may-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 1085
+, "Nissan|Leaf": 331
+, "Kia|Soul EV": 51
+, "Smart|fortwo electric drive": 68
+, "Peugeot|iOn": 63
+, "Tesla|Model S": 63
+, "Hyundai|Ioniq Electric": 20
+});
+
+db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jun (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 42885
+, "Citroën": 24403
+, "Opel": 7284
+, "DS Automobiles": 3190
+, "Renault": 59504
+, "Dacia": 16551
+, "Alpine": 122
+, "Volkswagen": 15881
+, "Audi": 5875
+, "Škoda": 3404
+, "Seat": 3391
+, "Porsche": 593
+, "Fiat": 10507
+, "Jeep": 1377
+, "Alfa Romeo": 1033
+, "Toyota": 9403
+, "Lexus": 522
+, "BMW": 5876
+, "Mini": 2849
+, "Rolls Royce": 6
+, "Kia": 4357
+, "Hyundai": 3420
+, "Ford": 7274
+, "Mercedes-Benz": 5769
+, "Smart": 930
+, "Nissan": 6612
+, "Infiniti": 60
+, "Volvo": 1823
+, "Chevrolet": 16
+, "other": 7283
+});
+
+db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 1928
+, "Nissan|Leaf": 469
+, "Smart|fortwo electric drive": 95
+, "Peugeot|iOn": 91
+, "Kia|Soul EV": 18
+, "Tesla|Model S": 103
+, "Hyundai|Ioniq Electric": 21
+, "Citroën|C-Zero": 77
+});
+
+// No source for 2018-07 found
+
+db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#aug (Unclear: Why is Tesla missing?)",
+{ "Renault": 27819
+, "Dacia": 11377
+, "Alpine": 249
+, "Peugeot": 21026
+, "Citroën": 13694
+, "Opel": 3465
+, "DS Automobiles": 1143
+, "Volkswagen": 9868
+, "Audi": 5052
+, "Seat": 2715
+, "Škoda": 2394
+, "Porsche": 902
+, "Lamborghin": 13
+, "Bentley": 9
+, "Nissan": 9296
+, "Infiniti": 421
+, "Fiat": 5517
+, "Jeep": 1573
+, "Alfa Romeo": 1404
+, "Maserati": 45
+, "Ferrari": 18
+, "Toyota": 6057
+, "Lexus": 431
+, "BMW": 3782
+, "Mini": 1690
+, "Ford": 4822
+, "Mercedes-Benz": 4180
+, "Smart": 551
+, "Kia": 2278
+, "Hyundai": 2123
+, "Volvo": 913
+, "other": 5534
+});
+
+db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/norway-august-2018.html (incomplete, missing i3 BEV)",
+{ "Nissan|Leaf": 1241
+, "Volkswagen|e-Golf": 764
+, "Tesla|Model X": 113
+, "Tesla|Model S": 82
+, "Renault|ZOE": 386
+, "Hyundai|Ioniq Electric": 159
+, "Kia|Soul EV": 168
+});
+
+db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#sep (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 29353
+, "Citroën": 15751
+, "Opel": 6404
+, "DS Automobiles": 1636
+, "Renault": 28111
+, "Dacia": 9353
+, "Alpine": 25
+, "Volkswagen": 6807
+, "Audi": 2444
+, "Škoda": 1955
+, "Seat": 1731
+, "Porsche": 124
+, "Toyota": 7128
+, "Lexus": 383
+, "BMW": 4936
+, "Mini": 2067
+, "Kia": 3196
+, "Hyundai": 3021
+, "Mercedes-Benz": 5612
+, "Smart": 587
+, "Fiat": 4940
+, "Jeep": 491
+, "Alfa Romeo": 169
+, "Ford": 5095
+, "Volvo": 1596
+, "Nissan": 1458
+, "Infiniti": 6
+, "Chevrolet": 8
+, "other": 4359
+});
+
+db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 1482
+, "Nissan|Leaf": 390
+, "Smart|fortwo electric drive": 81
+, "Peugeot|iOn": 85
+, "Tesla|Model S": 107
+, "Kia|Soul EV": 44
+, "Hyundai|Ioniq Electric": 64
+, "Citroën|C-Zero": 63
+});
+
+db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#oct (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 34962
+, "Citroën": 18780
+, "Opel": 6420
+, "DS Automobiles": 1506
+, "Renault": 29484
+, "Dacia": 10138
+, "Alpine": 96
+, "Volkswagen": 9244
+, "Audi": 2755
+, "Škoda": 2936
+, "Seat": 2461
+, "Porsche": 125
+, "Toyota": 9354
+, "Lexus": 486
+, "BMW": 5108
+, "Mini": 2795
+, "Ford": 7563
+, "Mercedes-Benz": 6381
+, "Smart": 705
+, "Kia": 3629
+, "Hyundai": 3201
+, "Fiat": 5162
+, "Jeep": 726
+, "Alfa Romeo": 246
+, "Nissan": 2652
+, "Infiniti": 10
+, "Volvo": 1832
+, "other": 4957
+});
+
+db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 1745
+, "Nissan|Leaf": 410
+, "Smart|fortwo electric drive": 108
+, "Peugeot|iOn":  68
+, "Kia|Soul EV": 47
+, "Tesla|Model S": 23
+, "Hyundai|Ioniq Electric": 55
+, "Citroën|C-Zero": 54
+});
+
+db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#nov (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 32820
+, "Citroën": 17743
+, "Opel": 6096
+, "DS Automobiles": 1970
+, "Renault": 25699
+, "Dacia": 12351
+, "Alpine": 113
+, "Volkswagen": 13146
+, "Audi": 3540
+, "Škoda": 2782
+, "Seat": 2600
+, "Porsche": 83
+, "Toyota": 8940
+, "Lexus": 536
+, "BMW": 4973
+, "Mini": 2594
+, "Mercedes-Benz": 6432
+, "Smart": 714
+, "Fiat": 5422
+, "Jeep": 686
+, "Alfa Romeo": 327
+, "Hyundai": 3130
+, "Kia": 3074
+, "Ford": 6055
+, "Nissan": 2421
+, "Infiniti": 8
+, "Volvo": 1800
+, "Chevrolet": 7
+, "other": 5540
+});
+
+db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1547740964b4293d4c688a85f0f64776ee401217b3-Novembre%202018.pdf",
+{ "Renault|ZOE": 1895
+, "Nissan|Leaf": 420
+, "Peugeot|iOn": 258
+, "Citroën|C-Zero": 224
+, "smart|fortwo electric drive": 133
+, "Hyundai|Ioniq Electric": 112
+, "BMW|i3 BEV": 81
+, "Tesla|Model S": 63
+, "Tesla|Model X": 56
+, "Volkswagen|e-up!": 47
+, "smart|forfour electric drive": 45
+, "Volkswagen|e-Golf": 44
+, "Kia|Soul EV": 42
+, "Kia|Niro EV": 30
+, "Jaguar|I-Pace": 26
+, "Hyundai|Kona Electric": 22
+, "Citroën|E-Mehari": 19
+, "Citroën|Berlingo Electric": 11
+, "Peugeot|Partner Electric": 8
+, "Nissan|e-NV200": 4
+});
+
+db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#dec (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 27045
+, "Citroën": 16228
+, "Opel": 4844
+, "DS Automobiles": 1701
+, "Renault": 31301
+, "Dacia": 9603
+, "Alpine": 154
+, "Volkswagen": 13093
+, "Audi": 3967
+, "Škoda": 2760
+, "Seat": 3022
+, "Porsche": 230
+, "Toyota": 8085
+, "Lexus": 579
+, "Fiat": 4931
+, "Jeep": 671
+, "Alfa Romeo": 457
+, "BMW": 4944
+, "Mini": 2846
+, "Ford": 5940
+, "Kia": 3052
+, "Hyundai": 2528
+, "Mercedes-Benz": 7382
+, "Smart": 914
+, "Nissan": 2619
+, "Infiniti": 14
+, "Volvo": 1721
+, "Chevrolet": 8
+, "other": 4742
+});
+
+db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (incomplete, missing i3 BEV)",
+{ "Renault|ZOE": 2558
+, "Nissan|Leaf": 447
+, "Smart|fortwo electric drive": 339
+, "Peugeot|iOn": 99
+, "Tesla|Model S": 99
+, "Citroën|C-Zero": 53
+, "Kia|Soul EV": 26
+, "Hyundai|Ioniq Electric": 47
+});
+
 db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jan (Unclear: Why is Tesla missing?)",
 { "Peugeot": 29652
 , "Citroën": 17563
