@@ -32,6 +32,7 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 415
 , "Volvo": 1185
 , "other": 4467
+, "Tesla": 12
 });
 
 db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1520266815361253686bfda401bf217a7bc644eb32-Barometre%20janvier%202018.pdf",
@@ -125,6 +126,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 2069
 , "Chevrolet": 10
 , "other": 7308
+, "Tesla": 162
 });
 
 db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/france-march-2018.html (incomplete, missing i3 BEV)",
@@ -167,6 +169,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1252
 , "Chevrolet": 6
 , "other": 5746
+, "Tesla": 23
 });
 
 db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/france-april-2018.html (incomplete, missing i3 BEV)",
@@ -209,6 +212,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1380
 , "Chevrolet": 8
 , "other": 5607
+, "Tesla": 63
 });
 
 db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/france-may-2018.html (incomplete, missing i3 BEV)",
@@ -252,6 +256,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1823
 , "Chevrolet": 16
 , "other": 7283
+, "Tesla": 103
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
@@ -300,6 +305,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 2123
 , "Volvo": 913
 , "other": 5534
+, "Tesla": 195
 });
 
 db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/norway-august-2018.html (incomplete, missing i3 BEV)",
@@ -342,6 +348,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 6
 , "Chevrolet": 8
 , "other": 4359
+, "Tesla": 107
 });
 
 db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (incomplete, missing i3 BEV)",
@@ -384,6 +391,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 10
 , "Volvo": 1832
 , "other": 4957
+, "Tesla": 23
 });
 
 db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (incomplete, missing i3 BEV)",
@@ -427,6 +435,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1800
 , "Chevrolet": 7
 , "other": 5540
+, "Tesla": 119
 });
 
 db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1547740964b4293d4c688a85f0f64776ee401217b3-Novembre%202018.pdf",
@@ -482,6 +491,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1721
 , "Chevrolet": 8
 , "other": 4742
+, "Tesla": 99
 });
 
 db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (incomplete, missing i3 BEV)",
@@ -762,6 +772,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 621
 , "Jaguar": 308
 , "other": 4643
+, "Tesla": 413
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15598367646482fda3e8e139d80cbbc783c7550665-immats-juin-2019.pdf",
