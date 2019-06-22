@@ -112,7 +112,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 33
 , "Citroën|C-Zero": 22
 , "Volkswagen|e-up!": 15
-, "Audi|e-tron quattro": 14
+, "Audi|e-tron": 14
 , "Kia|Soul EV": 14
 , "Tesla|Model X": 11
 , "Peugeot|Partner Electric": 11
@@ -163,7 +163,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Niro EV": 299
 , "BMW|i3 BEV": 207
 , "Hyundai|Kona Electric": 141
-, "Audi|e-tron quattro": 140
+, "Audi|e-tron": 140
 , "Peugeot|iOn": 127
 , "Smart|fortwo electric drive": 104
 , "Citroën|C-Zero": 93
@@ -230,7 +230,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 47
 , "Volkswagen|e-Golf": 38
 , "Tesla|Model S": 33
-, "Audi|e-tron quattro": 22
+, "Audi|e-tron": 22
 , "Tesla|Model X": 21
 , "Citroën|E-Mehari": 16
 , "Volkswagen|e-up!": 12
@@ -291,7 +291,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 28
 , "Volkswagen|e-up!": 24
 , "Smart|forfour electric drive": 15
-, "Audi|e-tron quattro": 13
+, "Audi|e-tron": 13
 , "Citroën|E-Mehari": 7
 , "Citroën|Berlingo Electric": 6
 , "Peugeot|Partner Electric": 6
@@ -309,7 +309,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 // , "Kia|Niro EV":
 // , "BMW|i3 BEV":
 // , "Hyundai|Kona Electric":
-// , "Audi|e-tron quattro":
+// , "Audi|e-tron":
 // , "Peugeot|iOn":
 // , "Smart|fortwo electric drive":
 // , "Citroën|C-Zero":
