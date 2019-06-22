@@ -27,10 +27,17 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mini": 86
 });
 
-db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/norway-january-2018.html (incomplete, only models with no hybrid variant included)",
 { "Nissan|Leaf": 673
+, "Volkswagen|e-Golf": 666
+, "Hyundai|Ioniq Electric": 347
+, "Hyundai|Kona Electric": 325
 , "Renault|ZOE": 155
 , "Tesla|Model X": 150
+, "Kia|Soul EV": 86
+, "Volkswagen|e-up!": 80
+, "Jaguar|I-Pace": 79
+, "Opel|Ampera-e": 48
 , "Tesla|Model S": 36
 });
 
@@ -57,12 +64,19 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 218
 });
 
-db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
-{ "Nissan|Leaf": 508
+db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/norway-february-2019.html (incomplete, only models with no hybrid variant included)",
+{ "Volkswagen|e-Golf": 780
+, "Nissan|Leaf": 508
 , "Tesla|Model 3": 791
+, "Hyundai|Kona Electric": 414
+, "Hyundai|Ioniq Electric": 302
 , "Jaguar|I-Pace": 391
 , "Renault|ZOE": 208
 , "Tesla|Model X": 141
+, "Volkswagen|e-up!": 81
+, "Kia|Niro EV": 133
+, "Kia|Soul EV": 28
+, "Opel|Ampera-e": 62
 , "Tesla|Model S": 84
 });
 
@@ -89,14 +103,20 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 127
 });
 
-db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/norway-march-2019.html (incomplete, only models with no hybrid variant included)",
 { "Tesla|Model 3": 5315
+, "Volkswagen|e-Golf": 894
 , "Nissan|Leaf": 618
+, "Hyundai|Kona Electric": 331
+, "Hyundai|Ioniq Electric": 314
 , "Jaguar|I-Pace": 442
 , "Audi|e-tron": 680
 , "Renault|ZOE": 344
 , "Tesla|Model X": 341
+, "Kia|Niro EV": 187
 , "Tesla|Model S": 166
+, "Volkswagen|e-up!": 51
+, "Opel|Ampera-e": 65
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -122,13 +142,18 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 125
 });
 
-db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/norway-april-2019.html (incomplete, only models with no hybrid variant included)",
 { "Tesla|Model 3": 720
+, "Volkswagen|e-Golf": 911
 , "Nissan|Leaf": 386
+, "Hyundai|Kona Electric": 306
 , "Jaguar|I-Pace": 350
+, "Hyundai|Ioniq Electric": 243
 , "Audi|e-tron": 371
 , "Renault|ZOE": 206
 , "Tesla|Model X": 68
+, "Kia|Niro EV": 77
+, "Volkswagen|e-up!": 105
 , "Tesla|Model S": 23
 });
 
@@ -155,13 +180,18 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 151
 });
 
-db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/norway-may-2019.html (incomplete, only models with no hybrid variant included)",
 { "Tesla|Model 3": 705
+, "Volkswagen|e-Golf": 779
 , "Nissan|Leaf": 390
 , "Jaguar|I-Pace": 510
 , "Audi|e-tron": 530
 , "Renault|ZOE": 268
 , "Tesla|Model X": 258
+, "Hyundai|Kona Electric": 234
+, "Hyundai|Ioniq Electric": 216
+, "Kia|Niro EV": 84
+, "Volkswagen|e-up!": 71
 , "Tesla|Model S": 47
 });
 
@@ -190,11 +220,16 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://o
 // , "Citroën":
 // });
 
-// db.insert(db.countries.NO, "xx", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no ICE/hybrid variant included)",
-// { "Tesla|Model S":
+// db.insert(db.countries.NO, "xx", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, only models with no hybrid variant included)",
+// { "Tesla|Model 3":
+// , "Volkswagen|e-Golf":
 // , "Nissan|Leaf":
 // , "Jaguar|I-Pace":
 // , "Audi|e-tron":
 // , "Renault|ZOE":
 // , "Tesla|Model X":
-// });
+// , "Hyundai|Kona Electric":
+// , "Hyundai|Ioniq Electric":
+// , "Kia|Niro EV":
+// , "Volkswagen|e-up!":
+// , "Tesla|Model S":
