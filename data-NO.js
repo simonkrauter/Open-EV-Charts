@@ -31,6 +31,7 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://o
 { "Nissan|Leaf": 673
 , "Renault|ZOE": 155
 , "Tesla|Model X": 150
+, "Tesla|Model S": 36
 });
 
 db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -62,6 +63,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://o
 , "Jaguar|I-Pace": 391
 , "Renault|ZOE": 208
 , "Tesla|Model X": 141
+, "Tesla|Model S": 84
 });
 
 db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -94,6 +96,7 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://o
 , "Audi|e-tron": 680
 , "Renault|ZOE": 344
 , "Tesla|Model X": 341
+, "Tesla|Model S": 166
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -126,6 +129,7 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://o
 , "Audi|e-tron": 371
 , "Renault|ZOE": 206
 , "Tesla|Model X": 68
+, "Tesla|Model S": 23
 });
 
 db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -158,6 +162,7 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://o
 , "Audi|e-tron": 530
 , "Renault|ZOE": 268
 , "Tesla|Model X": 258
+, "Tesla|Model S": 47
 });
 
 // Template:
