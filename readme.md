@@ -13,16 +13,16 @@ The database contains:
 - Monthly sales of all cars by brand and country.
 - Monthly sales of electric cars by model and country.
 
-Electric car means battery electric car here.
+Electric car means pure battery electric car here.
 
 Database state
 --------------
 
 - US: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
 - DE: data since 2018-01 collected
-- FR: data since 2018-01 collected, EV models incomplete, missing i3 BEV
+- FR: data since 2018-01 collected
 - CH: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
-- NO: data since 2018-01 collected, EV models incomplete, missing i3 BEV
+- NO: data since 2018-01 collected
 
 Data sources for other countries wanted.
 
