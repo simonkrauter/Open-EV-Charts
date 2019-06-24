@@ -665,6 +665,7 @@ db.insert(db.countries.CH, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 8
 , "Nissan|Leaf": 58
 , "Citroën|C-Zero": 2
+, "BMW|i3 BEV": 64
 });
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
@@ -717,6 +718,7 @@ db.insert(db.countries.CH, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 26
 , "Nissan|Leaf": 59
 , "Citroën|C-Zero": 4
+, "BMW|i3 BEV": 144
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
@@ -770,6 +772,7 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron": 93
 , "Nissan|Leaf": 46
 , "Citroën|C-Zero": 2
+, "BMW|i3 BEV": 223
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_4.xlsx",
@@ -824,6 +827,7 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron": 33
 , "Nissan|Leaf": 39
 , "Citroën|C-Zero": 2
+, "BMW|i3 BEV": 302
 });
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_5.xlsx",
@@ -879,6 +883,7 @@ db.insert(db.countries.CH, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron": 48
 , "Nissan|Leaf": 17
 , "Citroën|C-Zero": 5
+, "BMW|i3 BEV": 394
 });
 
 
