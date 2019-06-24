@@ -422,9 +422,10 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mini": 86
 });
 
-db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/norway-january-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/norway-january-2018.html",
 { "Nissan|Leaf": 673
 , "Volkswagen|e-Golf": 666
+, "BMW|i3 BEV": 619
 , "Hyundai|Ioniq Electric": 347
 , "Hyundai|Kona Electric": 325
 , "Renault|ZOE": 155
@@ -459,9 +460,10 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 218
 });
 
-db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/norway-february-2019.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/norway-february-2019.html",
 { "Volkswagen|e-Golf": 780
 , "Nissan|Leaf": 508
+, "BMW|i3 BEV": 396
 , "Tesla|Model 3": 791
 , "Hyundai|Kona Electric": 414
 , "Hyundai|Ioniq Electric": 302
@@ -498,9 +500,10 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 127
 });
 
-db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/norway-march-2019.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/norway-march-2019.html",
 { "Tesla|Model 3": 5315
 , "Volkswagen|e-Golf": 894
+, "BMW|i3 BEV": 784
 , "Nissan|Leaf": 618
 , "Hyundai|Kona Electric": 331
 , "Hyundai|Ioniq Electric": 314
@@ -537,9 +540,10 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 125
 });
 
-db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/norway-april-2019.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/norway-april-2019.html",
 { "Tesla|Model 3": 720
 , "Volkswagen|e-Golf": 911
+, "BMW|i3 BEV": 467
 , "Nissan|Leaf": 386
 , "Hyundai|Kona Electric": 306
 , "Jaguar|I-Pace": 350
@@ -575,9 +579,10 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 151
 });
 
-db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/norway-may-2019.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/norway-may-2019.html",
 { "Tesla|Model 3": 705
 , "Volkswagen|e-Golf": 779
+, "BMW|i3 BEV": 344
 , "Nissan|Leaf": 390
 , "Jaguar|I-Pace": 510
 , "Audi|e-tron": 530
