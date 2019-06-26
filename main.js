@@ -298,7 +298,8 @@ function formatValue(chartConfig, value) {
 function renderChartView(chartConfig, chartData, chartTileDiv) {
   var chartOptions = {
     title: {
-      text: db.getChartTitle(chartConfig)
+      margin: 0,
+      floating: true
     },
     chart: {
       animations: {
@@ -349,6 +350,9 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     }
   }
 
+  if (isSingleChart)
+    chartOptions.title.text = db.getChartTitle(chartConfig);
+
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.chart.type = "line";
     chartOptions.stroke.width = 3.5;
@@ -366,9 +370,6 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   if (chartConfig.metric == db.metrics.shareElectric)
     chartOptions.yaxis.forceNiceScale = false;
 
-  const chartDiv = document.createElement("DIV");
-  chartTileDiv.appendChild(chartDiv);
-
   // Set chart size
   const heightRatio = 0.6;
   var heightOffset = 290;
@@ -382,6 +383,8 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   chartOptions.chart.width = Math.max(wantedWith, minWidth);
   chartOptions.chart.height = Math.max(chartOptions.chart.width * heightRatio, minHeight);
 
+  const chartDiv = document.createElement("DIV");
+  chartTileDiv.appendChild(chartDiv);
   var chart = new ApexCharts(chartDiv, chartOptions);
   chart.render();
 }
