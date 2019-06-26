@@ -265,6 +265,13 @@ var db = {
       result[param.name] = selectedValue;
       params = this.getChartParams(result);
     }
+
+    // Remove invalid combinations
+    if (result.xProperty == this.xProperties.country)
+      result.country = this.countryOptions.all;
+    if (result.xProperty == this.xProperties.brand)
+      result.brand = this.brandOptions.all;
+
     return result;
   },
 
