@@ -370,15 +370,17 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   chartTileDiv.appendChild(chartDiv);
 
   // Set chart size
-  const heightRatio = 0.63; // defined by apex charts
-  var heightOffset = 260;
+  const heightRatio = 0.6;
+  var heightOffset = 290;
   if (isWidthEnoughForFilterAsButtons())
-    heightOffset = 300;
+    heightOffset = 305;
   const minWidth = 400;
+  const minHeight = 300;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart)
     wantedWith = wantedWith / 2.2;
-  chartTileDiv.style.width = Math.max(wantedWith, minWidth) + "px";
+  chartOptions.chart.width = Math.max(wantedWith, minWidth);
+  chartOptions.chart.height = Math.max(chartOptions.chart.width * heightRatio, minHeight);
 
   var chart = new ApexCharts(chartDiv, chartOptions);
   chart.render();
