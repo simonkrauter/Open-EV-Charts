@@ -1,6 +1,6 @@
 "use strict";
 
-let dynamicContent = document.createElement("DIV");
+const dynamicContent = document.createElement("DIV");
 document.body.appendChild(dynamicContent);
 
 window.onhashchange = function() {
@@ -11,7 +11,7 @@ window.onresize = function() {
   renderPage();
 }
 
-let homeLink = document.getElementById("homeLink");
+const homeLink = document.getElementById("homeLink");
 homeLink.href = location.pathname + location.search;
 homeLink.addEventListener("click", function(event) {
   // re-render page without page reload
@@ -38,11 +38,11 @@ function navigate() {
 function renderPage() {
   dynamicContent.innerHTML = "";
 
-  let chartConfigStrings = getChartConfigStringsFromUrl();
+  const chartConfigStrings = getChartConfigStringsFromUrl();
   topLevelChartConfigCount = chartConfigStrings.length;
-  for (let i in chartConfigStrings) {
-    let chartConfigString = chartConfigStrings[i];
-    let chartSetDiv = document.createElement("DIV");
+  for (const i in chartConfigStrings) {
+    const chartConfigString = chartConfigStrings[i];
+    const chartSetDiv = document.createElement("DIV");
     dynamicContent.appendChild(chartSetDiv);
     chartSetDiv.classList.add("chart-set");
     renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString));
@@ -54,11 +54,11 @@ function getChartConfigStringsFromUrl() {
 }
 
 function rebuildUrlHash() {
-  let oldCount = getChartConfigStringsFromUrl().length;
+  const oldCount = getChartConfigStringsFromUrl().length;
   var chartConfigStrings = [];
   for (var i = 0; i < dynamicContent.childNodes.length; i++)
     chartConfigStrings.push(dynamicContent.childNodes[i].dataChartConfig);
-  let hash = "#" + chartConfigStrings.join(",");
+  const hash = "#" + chartConfigStrings.join(",");
   history.pushState(null, null, hash);
 
   // Re-render page to get rid of the remove button(s) and to adjust chart size
@@ -72,20 +72,20 @@ function renderChartSet(chartSetDiv, chartConfig) {
 
   renderFilters(chartSetDiv, chartConfig);
 
-  let chartConfigList = db.unfoldChartConfig(chartConfig);
+  const chartConfigList = db.unfoldChartConfig(chartConfig);
   isSingleChart = topLevelChartConfigCount == 1 && chartConfigList.length == 1;
-  for (let i in chartConfigList)
+  for (const i in chartConfigList)
     renderChartTile(chartSetDiv, chartConfigList[i]);
 }
 
 function renderFilters(chartSetDiv, chartConfig) {
-  let div = document.createElement("DIV");
+  const div = document.createElement("DIV");
   chartSetDiv.appendChild(div);
   div.classList.add("filters");
 
-  let params = db.getChartParams(chartConfig);
-  for (let i in params) {
-    let param = params[i];
+  const params = db.getChartParams(chartConfig);
+  for (const i in params) {
+    const param = params[i];
     if (!param.showAsFilter)
       continue;
     if ((param.name == "metric" || param.name == "country") && isWidthEnoughForFilterAsButtons() && getChartConfigStringsFromUrl().length == 1)
@@ -99,7 +99,7 @@ function renderFilters(chartSetDiv, chartConfig) {
     div.appendChild(removeButton);
     removeButton.addEventListener("click", function(event) {
       event.preventDefault();
-      let chartSetDiv = event.target.parentNode.parentNode;
+      const chartSetDiv = event.target.parentNode.parentNode;
       chartSetDiv.parentNode.removeChild(chartSetDiv);
       rebuildUrlHash();
     });
@@ -113,13 +113,13 @@ function isWidthEnoughForFilterAsButtons() {
 function renderFilterAsDropDown(parentDiv, param, selectedKey) {
   var select = addSelectElement(parentDiv);
   select.addEventListener("change", function(event) {
-    let chartSetDiv = event.target.parentNode.parentNode.parentNode;
+    const chartSetDiv = event.target.parentNode.parentNode.parentNode;
     var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
     chartConfig[param.name] = event.target.value;
     renderChartSet(chartSetDiv, chartConfig);
     rebuildUrlHash();
   });
-  for (let optionKey in param.options) {
+  for (const optionKey in param.options) {
     var option = document.createElement("OPTION");
     option.value = optionKey;
     option.text = param.options[optionKey];
@@ -129,11 +129,11 @@ function renderFilterAsDropDown(parentDiv, param, selectedKey) {
 }
 
 function renderFilterAsButtons(parentDiv, param, selectedKey) {
-  let div = document.createElement("DIV");
+  const div = document.createElement("DIV");
   div.classList.add("full-row");
   parentDiv.appendChild(div);
-  for (let optionKey in param.options) {
-    let chartSetDiv = parentDiv.parentNode;
+  for (const optionKey in param.options) {
+    const chartSetDiv = parentDiv.parentNode;
     var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
     chartConfig[param.name] = optionKey;
 
@@ -169,7 +169,7 @@ function renderChartTile(chartSetDiv, chartConfig) {
 
   var chartData = db.queryChartData(chartConfig);
 
-  let chartTileDiv = document.createElement("DIV");
+  const chartTileDiv = document.createElement("DIV");
   chartSetDiv.appendChild(chartTileDiv);
   chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartTileDiv.classList.add("chart-tile");
@@ -180,8 +180,8 @@ function renderChartTile(chartSetDiv, chartConfig) {
     renderChartTabButtons(chartTileDiv, chartConfig);
 
   if (chartData.series.length == 0) {
-    let chartDiv = document.createElement("DIV");
-    let div = document.createElement("DIV");
+    const chartDiv = document.createElement("DIV");
+    const div = document.createElement("DIV");
     chartTileDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data"));
   } else {
@@ -215,12 +215,12 @@ function renderChartTitle(chartTileDiv, chartConfig) {
 }
 
 function renderChartTabButtons(chartTileDiv, chartConfig) {
-  let tabButtonsDiv = document.createElement("DIV");
+  const tabButtonsDiv = document.createElement("DIV");
   chartTileDiv.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tab-buttons");
-  let params = db.getChartParams(chartConfig);
-  let viewOptions = params.view.options;
-  for (let i in viewOptions)
+  const params = db.getChartParams(chartConfig);
+  const viewOptions = params.view.options;
+  for (const i in viewOptions)
     renderChartTabButton(tabButtonsDiv, chartConfig, i, viewOptions[i]);
 }
 
@@ -239,23 +239,23 @@ function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
 
 function chartTileRemoveClick(event) {
   event.preventDefault();
-  let chartTileDiv = event.target.parentNode;
-  let chartSetDiv = chartTileDiv.parentNode;
+  const chartTileDiv = event.target.parentNode;
+  const chartSetDiv = chartTileDiv.parentNode;
   var chartConfigStrings = [];
   for (var i = 0; i < dynamicContent.childNodes.length; i++) {
-    let child = dynamicContent.childNodes[i];
+    const child = dynamicContent.childNodes[i];
     if (child == chartSetDiv) {
-      let chartConfig = db.decodeChartConfigString(child.dataChartConfig);
-      let chartConfigList = db.unfoldChartConfig(chartConfig);
-      for (let i in chartConfigList) {
-        let newChartConfig = db.encodeChartConfig(chartConfigList[i]);
+      const chartConfig = db.decodeChartConfigString(child.dataChartConfig);
+      const chartConfigList = db.unfoldChartConfig(chartConfig);
+      for (const i in chartConfigList) {
+        const newChartConfig = db.encodeChartConfig(chartConfigList[i]);
         if (newChartConfig != chartTileDiv.dataChartConfig)
           chartConfigStrings.push(newChartConfig);
       }
     } else
       chartConfigStrings.push(child.dataChartConfig);
   }
-  let hash = "#" + chartConfigStrings.join(",");
+  const hash = "#" + chartConfigStrings.join(",");
   history.pushState(null, null, hash);
   renderPage();
 }
@@ -366,15 +366,15 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   if (chartConfig.metric == db.metrics.shareElectric)
     chartOptions.yaxis.forceNiceScale = false;
 
-  let chartDiv = document.createElement("DIV");
+  const chartDiv = document.createElement("DIV");
   chartTileDiv.appendChild(chartDiv);
 
   // Set chart size
-  let heightRatio = 0.63; // defined by apex charts
+  const heightRatio = 0.63; // defined by apex charts
   var heightOffset = 260;
   if (isWidthEnoughForFilterAsButtons())
     heightOffset = 300;
-  let minWidth = 400;
+  const minWidth = 400;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart)
     wantedWith = wantedWith / 2.2;
@@ -426,7 +426,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   var colors = [];
   var usedIndexes = [];
   if (chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
-    for (let i in colorIndexByBrand)
+    for (const i in colorIndexByBrand)
       usedIndexes.push(colorIndexByBrand[i]);
   }
   var unusedColors = [];
@@ -436,8 +436,8 @@ function getChartSeriesColors(chartConfig, chartData) {
       unusedColors.push(colorSet[i]);
   }
   var nextUnusedIndex = 0;
-  for (let i in chartData.series) {
-    let seriesName = chartData.series[i].name;
+  for (const i in chartData.series) {
+    const seriesName = chartData.series[i].name;
     if (seriesName == "Total" || seriesName == "Other")
       colors.push("#000000");
     else {
@@ -454,34 +454,34 @@ function getChartSeriesColors(chartConfig, chartData) {
 }
 
 function renderTable(chartConfig, chartTileDiv, chartData) {
-  let table = document.createElement("TABLE");
+  const table = document.createElement("TABLE");
   chartTileDiv.appendChild(table);
   // Table head
-  let row = document.createElement("TR");
+  const row = document.createElement("TR");
   table.appendChild(row);
   var cell = document.createElement("TH");
   cell.appendChild(document.createTextNode(chartData.categoryTitle));
   row.appendChild(cell);
-  for (let i in chartData.series) {
-    let series = chartData.series[i];
-    let cell = document.createElement("TH");
+  for (const i in chartData.series) {
+    const series = chartData.series[i];
+    const cell = document.createElement("TH");
     cell.appendChild(document.createTextNode(series.name));
     row.appendChild(cell);
   }
 
   // Table body
-  for (let i in chartData.categories) {
-    let category = chartData.categories[i];
-    let row = document.createElement("TR");
+  for (const i in chartData.categories) {
+    const category = chartData.categories[i];
+    const row = document.createElement("TR");
     table.appendChild(row);
-    let cell = document.createElement("TD");
+    const cell = document.createElement("TD");
     cell.appendChild(document.createTextNode(category));
     row.appendChild(cell);
-    for (let j in chartData.series) {
-      let series = chartData.series[j];
-      let cell = document.createElement("TD");
+    for (const j in chartData.series) {
+      const series = chartData.series[j];
+      const cell = document.createElement("TD");
       cell.style.textAlign = "right";
-      let val = series.data[i];
+      const val = series.data[i];
       if (val == null && val !== 0)
         cell.appendChild(document.createTextNode(""));
       else
@@ -492,19 +492,19 @@ function renderTable(chartConfig, chartTileDiv, chartData) {
 }
 
 function renderSources(chartTileDiv, chartData) {
-  let sourcesDiv = document.createElement("DIV");
+  const sourcesDiv = document.createElement("DIV");
   chartTileDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
-  let ol = document.createElement("OL");
+  const ol = document.createElement("OL");
   sourcesDiv.appendChild(ol);
-  let reversed = chartData.sources.reverse();
-  for (let i in reversed) {
-    let parts = reversed[i].split(" ");
-    let url = parts.shift();
-    let li = document.createElement("LI");
+  const reversed = chartData.sources.reverse();
+  for (const i in reversed) {
+    const parts = reversed[i].split(" ");
+    const url = parts.shift();
+    const li = document.createElement("LI");
     ol.appendChild(li);
-    let link = document.createElement("A");
+    const link = document.createElement("A");
     li.appendChild(link);
     link.href = url;
     link.target = "_blank";

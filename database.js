@@ -34,7 +34,7 @@ var db = {
   // Format: e.g. "Tesla|Model 3"
 
   addCountry: function(code, name) {
-    let id = Object.keys(this.countries).length + 1;
+    const id = Object.keys(this.countries).length + 1;
     this.countries[code] = id;
     this.countryNames[id] = name;
   },
@@ -48,7 +48,7 @@ var db = {
     , data: data
     });
     if (dsType == db.dsTypes.AllCarsByBrand || dsType == db.dsTypes.ElectricCarsByBrand) {
-      for (let brand in data) {
+      for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
           this.brands.sort();
@@ -56,7 +56,7 @@ var db = {
       }
     }
     else if (dsType == db.dsTypes.ElectricCarsByModel) {
-      for (let model in data) {
+      for (const model in data) {
         if (!this.models.includes(model)) {
           this.models.push(model);
           this.models.sort();
@@ -66,8 +66,8 @@ var db = {
   },
 
   monthToQuarter: function(month) {
-    let year = month.substr(0, 4);
-    let monthNum = parseInt(month.substr(5, 2));
+    const year = month.substr(0, 4);
+    const monthNum = parseInt(month.substr(5, 2));
     return year + " Q" + Math.ceil(monthNum / 3);
   },
 
@@ -149,7 +149,7 @@ var db = {
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
     param.options[this.countryOptions.combine] = "Combine Countries";
-    for (let code in db.countries)
+    for (const code in db.countries)
       param.options[code] = db.countryNames[db.countries[code]];
     param.unfoldKey = this.countryOptions.all;
     param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
@@ -180,8 +180,8 @@ var db = {
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.model)
       param.options[this.brandOptions.all] = "All Brands";
     param.options[this.brandOptions.combine] = "Combine Brands";
-    for (let i in this.brands) {
-      let brand = this.brands[i];
+    for (const i in this.brands) {
+      const brand = this.brands[i];
       if (brand != "other")
         param.options[this.formatForUrl(brand)] = brand;
     }
@@ -197,10 +197,10 @@ var db = {
     param.options = {};
     param.options[this.modelOptions.all] = "All Models";
     param.options[this.modelOptions.combine] = "Combine Models";
-    for (let i in this.models) {
-      let parts = this.models[i].split("|", 2);
-      let brand = parts[0];
-      let model = parts[1];
+    for (const i in this.models) {
+      const parts = this.models[i].split("|", 2);
+      const brand = parts[0];
+      const model = parts[1];
       if (chartConfig == null || chartConfig.brand == brand)
         param.options[this.formatForUrl(model)] = model;
     }
@@ -212,7 +212,7 @@ var db = {
     var param = {};
     param.name = "maxSeries";
     param.options = {};
-    for (let i in this.maxSeriesOptions)
+    for (const i in this.maxSeriesOptions)
       param.options[i] = "Top " + this.maxSeriesOptions[i];
     param.defaultOption = "top10";
     param.showAsFilter = true;
@@ -235,9 +235,9 @@ var db = {
 
   encodeChartConfig: function(chartConfig) {
     var parts = [];
-    let params = this.getChartParams();
-    for (let i in params) {
-      let param = params[i];
+    const params = this.getChartParams();
+    for (const i in params) {
+      const param = params[i];
       if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl && chartConfig[param.name])
         parts.push(chartConfig[param.name]);
     }
@@ -250,13 +250,13 @@ var db = {
       parts = chartConfigString.split(":");
     var result = {};
     var params = this.getChartParams();
-    for (let i in params) {
+    for (const i in params) {
       if (!params[i])
         continue;
-      let param = params[i];
+      const param = params[i];
       var selectedValue = param.defaultOption;
-      for (let j in parts) {
-        let part = parts[j];
+      for (const j in parts) {
+        const part = parts[j];
         if (part in param.options) {
           selectedValue = part;
           break;
@@ -276,13 +276,13 @@ var db = {
       yProperty = "country";
     var result = [];
     result.push(chartConfig);
-    let params = this.getChartParams();
-    for (let i in params) {
-      let param = params[i];
+    const params = this.getChartParams();
+    for (const i in params) {
+      const param = params[i];
       if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey && yProperty != param.name) {
         var newResult = [];
-        for (let j in result) {
-          for (let k in param.options) {
+        for (const j in result) {
+          for (const k in param.options) {
             if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
               var newConfig = JSON.parse(JSON.stringify(result[j]));
               newConfig[param.name] = k;
@@ -298,12 +298,12 @@ var db = {
 
   getChartTitle: function(chartConfig) {
     var title = "";
-    let params = this.getChartParams(chartConfig);
-    for (let i in params) {
-      let param = params[i];
+    const params = this.getChartParams(chartConfig);
+    for (const i in params) {
+      const param = params[i];
       if (!param.showInTitle)
         continue;
-      let value = chartConfig[param.name];
+      const value = chartConfig[param.name];
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
       if (title != "")
@@ -329,13 +329,13 @@ var db = {
     var sources = [];
     var categories = [];
 
-    for (let i in db.datasets) {
-      let dataset = db.datasets[i];
+    for (const i in db.datasets) {
+      const dataset = db.datasets[i];
       if (filterCountryId != null && dataset.country != filterCountryId)
         continue;
       if (dataset.dsType != dsType)
         continue;
-      let countryName = db.countryNames[dataset.country];
+      const countryName = db.countryNames[dataset.country];
 
       var category = "";
       if (chartConfig.xProperty == this.xProperties.month)
@@ -348,9 +348,9 @@ var db = {
         category = countryName;
 
       for (var dataKey in dataset.data) {
-        let dataKeyParts = dataKey.split("|", 2);
-        let brand = dataKeyParts[0];
-        let model = dataKeyParts[1];
+        const dataKeyParts = dataKey.split("|", 2);
+        const brand = dataKeyParts[0];
+        const model = dataKeyParts[1];
 
         if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
           continue;
@@ -365,7 +365,7 @@ var db = {
             brandAndModel = brandAndModel + " " + model;
         }
 
-        let value = dataset.data[dataKey];
+        const value = dataset.data[dataKey];
 
         if (chartConfig.xProperty == this.xProperties.brand)
           category = brand;
@@ -416,13 +416,13 @@ var db = {
     var categories = datasets.categories;
     var seriesRows = datasets.seriesRows;
     var result = [];
-    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
+    const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     if (![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       categories.sort(function(a, b) {
         var valueA = 0;
         var valueB = 0;
-        for (let seriesName in seriesRows) {
-          let currSeries = seriesRows[seriesName];
+        for (const seriesName in seriesRows) {
+          const currSeries = seriesRows[seriesName];
           if (currSeries[a] != null)
             valueA += currSeries[a];
           if (currSeries[b] != null)
@@ -432,8 +432,8 @@ var db = {
       });
     }
     var count = 0;
-    for (let i in categories) {
-      let category = categories[i];
+    for (const i in categories) {
+      const category = categories[i];
       result.push(category);
       count++;
       if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.view != this.views.table)
@@ -470,17 +470,17 @@ var db = {
       var datasetsForRatio = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
       result.sources = datasets.sources.concat(datasetsForRatio.sources);
-      for (let i in datasets.categories) {
-        let category = datasets.categories[i];
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
         var value = 0;
-        for (let seriesName in datasetsForRatio.seriesRows) {
+        for (const seriesName in datasetsForRatio.seriesRows) {
           value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
         }
         valuesForRatio[category] = value;
       }
-      for (let seriesName in seriesRows) {
-        for (let i in datasets.categories) {
-          let category = datasets.categories[i];
+      for (const seriesName in seriesRows) {
+        for (const i in datasets.categories) {
+          const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
           if (valuesForRatio[category] == 0)
             seriesRows[seriesName][category] = 0;
@@ -495,17 +495,17 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
       var sums = {};
-      for (let i in datasets.categories) {
-        let category = datasets.categories[i];
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
         var sum = 0;
-        for (let seriesName in datasets.seriesRows) {
+        for (const seriesName in datasets.seriesRows) {
           sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
         }
         sums[category] = sum;
       }
-      for (let seriesName in seriesRows) {
-        for (let i in datasets.categories) {
-          let category = datasets.categories[i];
+      for (const seriesName in seriesRows) {
+        for (const i in datasets.categories) {
+          const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
           if (valuesForRatio[category] == 0)
             seriesRows[seriesName][category] = 0;
@@ -529,14 +529,14 @@ var db = {
     var seriesNamesInOrder = [];
     var seriesSortValues = {};
     var totalSeries = {name: "Total", data: []};
-    for (let seriesName in seriesRows) {
+    for (const seriesName in seriesRows) {
       seriesNamesInOrder.push(seriesName);
       var newSeries = {};
       newSeries.name = seriesName;
       newSeries.data = [];
 
-      for (let i in result.categories) {
-        let category = result.categories[i];
+      for (const i in result.categories) {
+        const category = result.categories[i];
         var value = this.getValue(seriesRows[seriesName][category], null);
         // Add value to total series
         if (value != null) {
@@ -569,21 +569,21 @@ var db = {
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
-    let maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
+    const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
     var count = 0;
     var otherSeries = {name: "Other", data: []};
-    for (let i in seriesNamesInOrder) {
-      let seriesName = seriesNamesInOrder[i];
-      let currSeries = seriesByName[seriesName];
+    for (const i in seriesNamesInOrder) {
+      const seriesName = seriesNamesInOrder[i];
+      const currSeries = seriesByName[seriesName];
       if (seriesName != "other" && count < maxSeries) {
         result.series.push(currSeries);
         count++;
       } else {
-        for (let j in currSeries.data) {
-          let value = currSeries.data[j];
+        for (const j in currSeries.data) {
+          const value = currSeries.data[j];
           if (value == null)
             continue;
           if (j in otherSeries.data)
