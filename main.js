@@ -4,7 +4,7 @@ let dynamicContent = document.createElement("DIV");
 document.body.appendChild(dynamicContent);
 
 window.onhashchange = function() {
-  renderPage();
+  navigate();
 }
 
 window.onresize = function() {
@@ -17,13 +17,23 @@ homeLink.addEventListener("click", function(event) {
   // re-render page without page reload
   event.preventDefault();
   history.pushState(null, null, location.pathname + location.search);
-  renderPage();
+  navigate();
 });
 
 var topLevelChartConfigCount = 0;
 var isSingleChart = false;
 
-renderPage();
+navigate();
+
+function navigate() {
+  renderPage();
+
+  if (location.hostname == "open-ev-charts.org") {
+    let r = new XMLHttpRequest();
+    r.open("GET", "https://nexunity.org/pageview-logger/open-ev-charts.org/?action=log&url=" + encodeURIComponent(location.href) + "&referrer=" + encodeURIComponent(document.referrer));
+    r.send();
+  }
+}
 
 function renderPage() {
   dynamicContent.innerHTML = "";
