@@ -417,7 +417,11 @@ var db = {
     var seriesRows = datasets.seriesRows;
     var result = [];
     const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
-    if (![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+      // Sort by name
+      categories.sort();
+    } else {
+      // Sort by value
       categories.sort(function(a, b) {
         var valueA = 0;
         var valueB = 0;
@@ -439,7 +443,7 @@ var db = {
       if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.view != this.views.table)
         break;
     }
-    return result
+    return result;
   },
 
   getValue: function(value, defaultValue) {
