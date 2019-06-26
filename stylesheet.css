@@ -198,6 +198,7 @@ a.button.remove-button:after {
   padding-top: 4px;
   margin-right: 40px;
   font-size: 118%;
+  white-space: nowrap;
 }
 
 .chart-tile .remove-button {
