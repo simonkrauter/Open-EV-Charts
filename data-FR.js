@@ -39,13 +39,13 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Renault|ZOE": 633
 , "BMW|i3 BEV": 172
 , "Kia|Soul EV": 136
-, "smart|fortwo electric drive": 98
+, "Smart|fortwo electric drive": 98
 , "Peugeot|iOn": 56
 , "Nissan|Leaf": 48
 , "Citroën|C-Zero": 43
 , "Hyundai|Ioniq Electric": 42
 , "Peugeot|Partner Electric": 40
-, "smart|forfour electric drive": 27
+, "Smart|forfour electric drive": 27
 , "Volkswagen|e-Golf": 16
 , "Citroën|Berlingo Electric": 14
 , "Volkswagen|e-up!": 14
@@ -443,13 +443,13 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 420
 , "Peugeot|iOn": 258
 , "Citroën|C-Zero": 224
-, "smart|fortwo electric drive": 133
+, "Smart|fortwo electric drive": 133
 , "Hyundai|Ioniq Electric": 112
 , "BMW|i3 BEV": 81
 , "Tesla|Model S": 63
 , "Tesla|Model X": 56
 , "Volkswagen|e-up!": 47
-, "smart|forfour electric drive": 45
+, "Smart|forfour electric drive": 45
 , "Volkswagen|e-Golf": 44
 , "Kia|Soul EV": 42
 , "Kia|Niro EV": 30
