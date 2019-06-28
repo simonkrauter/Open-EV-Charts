@@ -18,9 +18,11 @@ Electric car means pure battery electric car here.
 Database state
 --------------
 
-- US: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
+- US: data since 2018-01 collected
 - DE: data since 2018-01 collected
 - FR: data since 2018-01 collected
+- NL: data since 2018-01 collected
+- AT: data since 2019-01 collected
 - CH: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
 - NO: data since 2018-01 collected
 
