@@ -49,9 +49,10 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://i
 , "Tesla|Model S": 800
 , "Tesla|Model X": 700
 , "Chevrolet|Bolt EV": 1177
+, "Nissan|Leaf": 150
 , "Kia|Soul EV": 115
 , "Honda|Clarity BEV": 203
-, "Ford|C-Max Energi": 234
+, "Volkswagen|e-Golf": 178
 , "Ford|Focus Electric": 70
 , "Hyundai|Ioniq Electric": 49
 });
@@ -106,7 +107,6 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 163
 , "Honda|Clarity BEV": 104
 , "Volkswagen|e-Golf": 198
-, "Ford|C-Max Energi": 142
 , "Ford|Focus Electric": 73
 , "Hyundai|Ioniq Electric": 3
 });
@@ -161,7 +161,6 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 157
 , "Honda|Clarity BEV": 48
 , "Volkswagen|e-Golf": 164
-, "Ford|C-Max Energi": 105
 , "Ford|Focus Electric": 137
 , "Hyundai|Ioniq Electric": 60
 });
@@ -212,7 +211,6 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 152
 , "Honda|Clarity BEV": 52
 , "Volkswagen|e-Golf": 128
-, "Ford|C-Max Energi": 57
 , "Ford|Focus Electric": 83
 , "Hyundai|Ioniq Electric": 7
 });
@@ -263,7 +261,6 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 133
 , "Honda|Clarity BEV": 37
 , "Volkswagen|e-Golf": 76
-, "Ford|C-Max Energi": 18
 , "Ford|Focus Electric": 88
 , "Hyundai|Ioniq Electric": 32
 });
@@ -316,7 +313,6 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 57
 , "Honda|Clarity BEV": 126
 , "Volkswagen|e-Golf": 32
-, "Ford|C-Max Energi": 6
 , "Ford|Focus Electric": 50
 , "Hyundai|Ioniq Electric": 47
 });
@@ -369,7 +365,6 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 130
 , "Honda|Clarity BEV": 120
 , "Volkswagen|e-Golf": 18
-, "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 46
 , "Hyundai|Ioniq Electric": 35
 });
@@ -422,7 +417,6 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 33
 , "Honda|Clarity BEV": 75
 , "Volkswagen|e-Golf": 32
-, "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 7
 , "Hyundai|Ioniq Electric": 21
 });
@@ -475,7 +469,6 @@ db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 18
 , "Honda|Clarity BEV": 122
 , "Volkswagen|e-Golf": 14
-, "Ford|C-Max Energi": 12
 , "Ford|Focus Electric": 4
 , "Hyundai|Ioniq Electric": 12
 });
