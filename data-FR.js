@@ -285,7 +285,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 2715
 , "Škoda": 2394
 , "Porsche": 902
-, "Lamborghin": 13
+, "Lamborghini": 13
 , "Bentley": 9
 , "Nissan": 9296
 , "Infiniti": 421
