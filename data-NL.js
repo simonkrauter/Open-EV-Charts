@@ -54,7 +54,7 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|Leaf": 24
 , "Tesla|Model X": 20
 , "Volkswagen|e-up!": 9
-, "Smart|forfour electric drive": 9
+, "Smart|Forfour electric drive": 9
 });
 
 db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#feb",
@@ -104,7 +104,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|Leaf": 150
 , "Renault|ZOE": 92
 , "Tesla|Model X": 66
-, "Smart|forfour electric drive": 7
+, "Smart|Forfour electric drive": 7
 , "Volkswagen|e-up!": 4
 });
 
@@ -156,8 +156,8 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 283
 , "Opel|Ampera-e": 61
 , "Renault|ZOE": 93
-, "Smart|forfour electric drive": 17
-, "Smart|fortwo electric drive": 4
+, "Smart|Forfour electric drive": 17
+, "Smart|Fortwo electric drive": 4
 });
 
 db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#apr",
@@ -206,8 +206,8 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 28
 , "Renault|ZOE": 110
 , "Opel|Ampera-e": 59
-, "Smart|forfour electric drive": 13
-, "Smart|fortwo electric drive": 2
+, "Smart|Forfour electric drive": 13
+, "Smart|Fortwo electric drive": 2
 });
 
 db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#may",
@@ -258,8 +258,8 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 173
 , "Opel|Ampera-e": 85
 , "Renault|ZOE": 61
-, "Smart|forfour electric drive": 8
-, "Smart|fortwo electric drive": 4
+, "Smart|Forfour electric drive": 8
+, "Smart|Fortwo electric drive": 4
 , "Volkswagen|e-up!": 9
 });
 
@@ -309,7 +309,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 101
 , "Renault|ZOE": 130
 , "Opel|Ampera-e": 75
-, "Smart|forfour electric drive": 12
+, "Smart|Forfour electric drive": 12
 , "Volkswagen|e-up!": 6
 });
 
@@ -361,7 +361,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 101
 , "Renault|ZOE": 81
 , "Opel|Ampera-e": 60
-, "Smart|forfour electric drive": 4
+, "Smart|Forfour electric drive": 4
 });
 
 // No source for 2018-08 found
@@ -413,7 +413,7 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Opel|Ampera-e": 46
 , "Renault|ZOE": 31
 , "Hyundai|Kona Electric": 85
-, "Smart|forfour electric drive": 26
+, "Smart|Forfour electric drive": 26
 });
 
 db.insert(db.countries.NL, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#oct",
@@ -464,7 +464,7 @@ db.insert(db.countries.NL, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Opel|Ampera-e": 22
 , "Jaguar|I-Pace": 209
 , "Hyundai|Kona Electric": 69
-, "Smart|forfour electric drive": 29
+, "Smart|Forfour electric drive": 29
 });
 
 db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#nov",
@@ -515,7 +515,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Jaguar|I-Pace": 607
 , "Opel|Ampera-e": 96
 , "Hyundai|Kona Electric": 167
-, "Smart|forfour electric drive": 8
+, "Smart|Forfour electric drive": 8
 });
 
 db.insert(db.countries.NL, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#dec",
@@ -566,7 +566,7 @@ db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Opel|Ampera-e": 30
 , "Hyundai|Kona Electric": 152
 , "Audi|e-tron": 163
-, "Smart|forfour electric drive": 5
+, "Smart|Forfour electric drive": 5
 });
 
 db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#jan",
@@ -620,7 +620,7 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BMW|i3 BEV": 112
 , "Opel|Ampera-e": 83
 , "Tesla|Model 3": 40
-, "Smart|forfour electric drive": 28
+, "Smart|Forfour electric drive": 28
 , "Jaguar|I-Pace": 15
 , "Kia|Soul EV": 14
 });
@@ -674,7 +674,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BMW|i3 BEV": 180
 , "Hyundai|Ioniq Electric": 94
 , "Opel|Ampera-e": 48
-, "Smart|forfour electric drive": 28
+, "Smart|Forfour electric drive": 28
 , "Tesla|Model S": 10
 });
 
@@ -728,7 +728,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Renault|ZOE": 108
 , "Hyundai|Ioniq Electric": 102
 , "Opel|Ampera-e": 39
-, "Smart|forfour electric drive": 26
+, "Smart|Forfour electric drive": 26
 , "Jaguar|I-Pace": 40
 });
 
@@ -782,7 +782,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Renault|ZOE": 113
 , "Hyundai|Ioniq Electric": 63
 , "Opel|Ampera-e": 32
-, "Smart|forfour electric drive": 23
+, "Smart|Forfour electric drive": 23
 , "Audi|e-tron": 55
 });
 
@@ -836,7 +836,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 110
 , "Audi|e-tron": 161
 , "Opel|Ampera-e": 29
-, "Smart|forfour electric drive": 23
+, "Smart|Forfour electric drive": 23
 , "Jaguar|I-Pace": 26
 });
 
@@ -856,6 +856,6 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 // , "Hyundai|Ioniq Electric":
 // , "Audi|e-tron":
 // , "Opel|Ampera-e":
-// , "Smart|forfour electric drive":
+// , "Smart|Forfour electric drive":
 // , "Jaguar|I-Pace":
 // });

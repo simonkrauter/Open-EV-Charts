@@ -39,13 +39,13 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Renault|ZOE": 633
 , "BMW|i3 BEV": 172
 , "Kia|Soul EV": 136
-, "Smart|fortwo electric drive": 98
+, "Smart|Fortwo electric drive": 98
 , "Peugeot|iOn": 56
 , "Nissan|Leaf": 48
 , "Citroën|C-Zero": 43
 , "Hyundai|Ioniq Electric": 42
 , "Peugeot|Partner Electric": 40
-, "Smart|forfour electric drive": 27
+, "Smart|Forfour electric drive": 27
 , "Volkswagen|e-Golf": 16
 , "Citroën|Berlingo Electric": 14
 , "Volkswagen|e-up!": 14
@@ -91,7 +91,7 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Renault|ZOE": 1155
 , "Nissan|Leaf": 306
 , "Kia|Soul EV": 73
-, "Smart|fortwo electric drive": 72
+, "Smart|Fortwo electric drive": 72
 , "Peugeot|iOn": 41
 , "Citroën|C-Zero": 35
 });
@@ -133,7 +133,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Renault|ZOE": 2245
 , "Nissan|Leaf": 719
 , "Kia|Soul EV": 59
-, "Smart|fortwo electric drive": 77
+, "Smart|Fortwo electric drive": 77
 , "Tesla|Model S": 162
 , "Peugeot|iOn": 98
 , "Hyundai|Ioniq Electric": 127
@@ -176,7 +176,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Renault|ZOE": 961
 , "Nissan|Leaf": 375
 , "Kia|Soul EV": 70
-, "Smart|fortwo electric drive": 69
+, "Smart|Fortwo electric drive": 69
 , "Peugeot|iOn": 59
 , "Tesla|Model S": 23
 , "Citroën|C-Zero": 42
@@ -219,7 +219,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Renault|ZOE": 1085
 , "Nissan|Leaf": 331
 , "Kia|Soul EV": 51
-, "Smart|fortwo electric drive": 68
+, "Smart|Fortwo electric drive": 68
 , "Peugeot|iOn": 63
 , "Tesla|Model S": 63
 , "Hyundai|Ioniq Electric": 20
@@ -262,7 +262,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
 { "Renault|ZOE": 1928
 , "Nissan|Leaf": 469
-, "Smart|fortwo electric drive": 95
+, "Smart|Fortwo electric drive": 95
 , "Peugeot|iOn": 91
 , "Kia|Soul EV": 18
 , "Tesla|Model S": 103
@@ -354,7 +354,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (incomplete, missing i3 BEV)",
 { "Renault|ZOE": 1482
 , "Nissan|Leaf": 390
-, "Smart|fortwo electric drive": 81
+, "Smart|Fortwo electric drive": 81
 , "Peugeot|iOn": 85
 , "Tesla|Model S": 107
 , "Kia|Soul EV": 44
@@ -397,7 +397,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (incomplete, missing i3 BEV)",
 { "Renault|ZOE": 1745
 , "Nissan|Leaf": 410
-, "Smart|fortwo electric drive": 108
+, "Smart|Fortwo electric drive": 108
 , "Peugeot|iOn":  68
 , "Kia|Soul EV": 47
 , "Tesla|Model S": 23
@@ -443,13 +443,13 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 420
 , "Peugeot|iOn": 258
 , "Citroën|C-Zero": 224
-, "Smart|fortwo electric drive": 133
+, "Smart|Fortwo electric drive": 133
 , "Hyundai|Ioniq Electric": 112
 , "BMW|i3 BEV": 81
 , "Tesla|Model S": 63
 , "Tesla|Model X": 56
 , "Volkswagen|e-up!": 47
-, "Smart|forfour electric drive": 45
+, "Smart|Forfour electric drive": 45
 , "Volkswagen|e-Golf": 44
 , "Kia|Soul EV": 42
 , "Kia|Niro EV": 30
@@ -497,7 +497,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (incomplete, missing i3 BEV)",
 { "Renault|ZOE": 2558
 , "Nissan|Leaf": 447
-, "Smart|fortwo electric drive": 339
+, "Smart|Fortwo electric drive": 339
 , "Peugeot|iOn": 99
 , "Tesla|Model S": 99
 , "Citroën|C-Zero": 53
@@ -542,7 +542,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15495492248cd691d9fa4f2bee8d93483d2fbf9f2a-Barometre%20janvier%20AvereFrance.pdf",
 { "Renault|ZOE": 1496
 , "Nissan|Leaf": 341
-, "Smart|fortwo electric drive": 306
+, "Smart|Fortwo electric drive": 306
 , "BMW|i3 BEV": 229
 , "Kia|Niro EV": 149
 , "Hyundai|Kona Electric": 147
@@ -552,7 +552,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 47
 , "Jaguar|I-Pace": 31
 , "Volkswagen|e-up!": 25
-, "Smart|forfour electric drive": 24
+, "Smart|Forfour electric drive": 24
 , "Kia|Soul EV": 23
 , "Tesla|Model S": 21
 , "Nissan|e-NV200": 15
@@ -603,12 +603,12 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 326
 , "Kia|Niro EV": 253
 , "BMW|i3 BEV": 196
-, "Smart|fortwo electric drive": 87
+, "Smart|Fortwo electric drive": 87
 , "Hyundai|Kona Electric": 79
 , "Jaguar|I-Pace": 47
 , "Volkswagen|e-Golf": 42
 , "Peugeot|iOn": 42
-, "Smart|forfour electric drive": 41
+, "Smart|Forfour electric drive": 41
 , "Hyundai|Ioniq Electric": 34
 , "Tesla|Model S": 33
 , "Citroën|C-Zero": 22
@@ -666,7 +666,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 141
 , "Audi|e-tron": 140
 , "Peugeot|iOn": 127
-, "Smart|fortwo electric drive": 104
+, "Smart|Fortwo electric drive": 104
 , "Citroën|C-Zero": 93
 , "Volkswagen|e-Golf": 61
 , "Tesla|Model S": 51
@@ -675,7 +675,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Jaguar|I-Pace": 42
 , "Peugeot|Partner Electric": 37
 , "Citroën|E-Mehari": 27
-, "Smart|forfour electric drive": 21
+, "Smart|Forfour electric drive": 21
 , "Nissan|e-NV200": 9
 , "Volkswagen|e-up!": 9
 , "Citroën|Berlingo Electric": 7
@@ -723,11 +723,11 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Niro EV": 239
 , "BMW|i3 BEV": 202
 , "Hyundai|Kona Electric": 161
-, "Smart|fortwo electric drive": 110
+, "Smart|Fortwo electric drive": 110
 , "Peugeot|iOn": 58
 , "Citroën|C-Zero": 53
 , "Jaguar|I-Pace": 53
-, "Smart|forfour electric drive": 51
+, "Smart|Forfour electric drive": 51
 , "Hyundai|Ioniq Electric": 47
 , "Volkswagen|e-Golf": 38
 , "Tesla|Model S": 33
@@ -782,7 +782,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 160
 , "Kia|Niro EV": 152
 , "Hyundai|Kona Electric": 141
-, "Smart|fortwo electric drive": 78
+, "Smart|Fortwo electric drive": 78
 , "Citroën|C-Zero": 58
 , "Tesla|Model S": 50
 , "Tesla|Model X": 42
@@ -792,7 +792,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 28
 , "Volkswagen|e-Golf": 28
 , "Volkswagen|e-up!": 24
-, "Smart|forfour electric drive": 15
+, "Smart|Forfour electric drive": 15
 , "Audi|e-tron": 13
 , "Citroën|E-Mehari": 7
 , "Citroën|Berlingo Electric": 6
@@ -813,7 +813,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 // , "Hyundai|Kona Electric":
 // , "Audi|e-tron":
 // , "Peugeot|iOn":
-// , "Smart|fortwo electric drive":
+// , "Smart|Fortwo electric drive":
 // , "Citroën|C-Zero":
 // , "Volkswagen|e-Golf":
 // , "Tesla|Model S":
@@ -822,7 +822,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 // , "Jaguar|I-Pace":
 // , "Peugeot|Partner Electric":
 // , "Citroën|E-Mehari":
-// , "Smart|forfour electric drive":
+// , "Smart|Forfour electric drive":
 // , "Nissan|e-NV200":
 // , "Volkswagen|e-up!":
 // , "Citroën|Berlingo Electric":
