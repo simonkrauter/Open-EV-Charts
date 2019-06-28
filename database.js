@@ -583,7 +583,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine)
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine && chartConfig.metric != this.metrics.shareElectric)
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
