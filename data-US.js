@@ -105,7 +105,6 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 235
 , "Kia|Soul EV": 163
 , "Honda|Clarity BEV": 104
-, "Smart|ED": 90
 , "Volkswagen|e-Golf": 198
 , "Ford|C-Max Energi": 142
 , "Ford|Focus Electric": 73
@@ -161,7 +160,6 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 285
 , "Kia|Soul EV": 157
 , "Honda|Clarity BEV": 48
-, "Smart|ED": 103
 , "Volkswagen|e-Golf": 164
 , "Ford|C-Max Energi": 105
 , "Ford|Focus Electric": 137
@@ -213,7 +211,6 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 215
 , "Kia|Soul EV": 152
 , "Honda|Clarity BEV": 52
-, "Smart|ED": 80
 , "Volkswagen|e-Golf": 128
 , "Ford|C-Max Energi": 57
 , "Ford|Focus Electric": 83
@@ -265,7 +262,6 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 250
 , "Kia|Soul EV": 133
 , "Honda|Clarity BEV": 37
-, "Smart|ED": 110
 , "Volkswagen|e-Golf": 76
 , "Ford|C-Max Energi": 18
 , "Ford|Focus Electric": 88
@@ -319,7 +315,6 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 225
 , "Kia|Soul EV": 57
 , "Honda|Clarity BEV": 126
-, "Smart|ED": 126
 , "Volkswagen|e-Golf": 32
 , "Ford|C-Max Energi": 6
 , "Ford|Focus Electric": 50
@@ -373,7 +368,6 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 220
 , "Kia|Soul EV": 130
 , "Honda|Clarity BEV": 120
-, "Smart|ED": 103
 , "Volkswagen|e-Golf": 18
 , "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 46
@@ -427,7 +421,6 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 75
 , "Kia|Soul EV": 33
 , "Honda|Clarity BEV": 75
-, "Smart|ED": 108
 , "Volkswagen|e-Golf": 32
 , "Ford|C-Max Energi": 4
 , "Ford|Focus Electric": 7
@@ -481,7 +474,6 @@ db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 94
 , "Kia|Soul EV": 18
 , "Honda|Clarity BEV": 122
-, "Smart|ED": 98
 , "Volkswagen|e-Golf": 14
 , "Ford|C-Max Energi": 12
 , "Ford|Focus Electric": 4
@@ -534,7 +526,6 @@ db.insert(db.countries.US, "2018-10", db.dsTypes.ElectricCarsByModel, "https://i
 , "Fiat|500e": 100
 , "Kia|Soul EV": 61
 , "Honda|Clarity BEV": 116
-, "Smart|ED": 95
 , "Volkswagen|e-Golf": 62
 , "Hyundai|Ioniq Electric": 21
 , "Jaguar|I-Pace": 5
@@ -586,7 +577,6 @@ db.insert(db.countries.US, "2018-11", db.dsTypes.ElectricCarsByModel, "https://i
 , "Nissan|Leaf": 1128
 , "Fiat|500e": 148
 , "Volkswagen|e-Golf": 230
-, "Smart|ED": 100
 , "Kia|Soul EV": 61
 , "Honda|Clarity BEV": 37
 , "Ford|Focus Electric": 1
@@ -640,7 +630,6 @@ db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://i
 , "Nissan|Leaf": 1667
 , "Fiat|500e": 193
 , "Volkswagen|e-Golf": 222
-, "Smart|ED": 122
 , "Kia|Soul EV": 54
 , "Honda|Clarity BEV": 86
 , "Ford|Focus Electric": 1
@@ -690,7 +679,6 @@ db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://i
 , "Nissan|Leaf": 717
 , "Jaguar|I-Pace": 210
 , "Volkswagen|e-Golf": 164
-, "Smart|ED": 83
 , "Honda|Clarity BEV": 78
 , "Fiat|500e": 72
 , "Hyundai|Ioniq Electric": 34
@@ -740,7 +728,6 @@ db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 118
 , "Fiat|500e": 87
 , "Honda|Clarity BEV": 68
-, "Smart|ED": 58
 , "Hyundai|Ioniq Electric": 32
 , "Hyundai|Kona Electric": 16
 , "Kia|Soul EV": 1
@@ -793,7 +780,6 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 581
 , "Jaguar|I-Pace": 212
 , "Honda|Clarity BEV": 92
-, "Smart|ED": 90
 , "Fiat|500e": 33
 , "Hyundai|Kona Electric": 127
 , "Hyundai|Ioniq Electric": 28
@@ -841,7 +827,6 @@ db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://i
 , "Volkswagen|e-Golf": 400
 , "Jaguar|I-Pace": 237
 , "Honda|Clarity BEV": 88
-, "Smart|ED": 85
 , "Audi|e-tron": 253
 , "Hyundai|Kona Electric": 77
 , "Fiat|500e": 20
@@ -891,7 +876,6 @@ db.insert(db.countries.US, "2019-05", db.dsTypes.ElectricCarsByModel, "https://i
 , "Jaguar|I-Pace": 228
 , "Audi|e-tron": 1109
 , "Honda|Clarity BEV": 82
-, "Smart|ED": 85
 , "Hyundai|Kona Electric": 91
 , "Fiat|500e": 60
 , "Hyundai|Ioniq Electric": 61
