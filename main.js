@@ -358,7 +358,8 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     chartOptions.stroke.width = 3.5;
   } else {
     chartOptions.chart.type = "bar";
-    chartOptions.chart.stacked = true;
+    if (chartConfig.brand != db.brandOptions.combine)
+      chartOptions.chart.stacked = true;
   }
 
   chartOptions.dataLabels.enabled = chartOptions.chart.type == "bar" && isSingleChart;

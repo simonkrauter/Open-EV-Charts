@@ -271,6 +271,8 @@ var db = {
       result.country = this.countryOptions.all;
     if (result.xProperty == this.xProperties.brand)
       result.brand = this.brandOptions.all;
+    if (result.brand == this.brandOptions.combine && result.model == this.modelOptions.all)
+      result.model = this.modelOptions.combine;
 
     return result;
   },
@@ -465,7 +467,6 @@ var db = {
     result.series = [];
 
     var seriesRows;
-    var valuesForRatio = {};
     if (chartConfig.metric == this.metrics.salesAll) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
@@ -481,15 +482,21 @@ var db = {
       var datasetsForRatio = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
       result.sources = datasets.sources.concat(datasetsForRatio.sources);
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
-        var value = 0;
-        for (const seriesName in datasetsForRatio.seriesRows) {
-          value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
-        }
-        valuesForRatio[category] = value;
-      }
       for (const seriesName in seriesRows) {
+        var valuesForRatio = {};
+        for (const i in datasets.categories) {
+          const category = datasets.categories[i];
+          var value = 0;
+          if (chartConfig.brand != this.brandOptions.combine) {
+            for (const seriesNameInner in datasetsForRatio.seriesRows) {
+              value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
+            }
+          } else {
+            if (datasetsForRatio.seriesRows[seriesName])
+              value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
+          }
+          valuesForRatio[category] = value;
+        }
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
@@ -518,7 +525,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
-          if (valuesForRatio[category] == 0)
+          if (sums[category] == 0)
             seriesRows[seriesName][category] = 0;
           else
             seriesRows[seriesName][category] = value / sums[category] * 100;
@@ -576,7 +583,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart)
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine)
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
