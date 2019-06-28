@@ -501,7 +501,7 @@ var db = {
           const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
           if (valuesForRatio[category] == 0)
-            seriesRows[seriesName][category] = 0;
+            seriesRows[seriesName][category] = null;
           else
             seriesRows[seriesName][category] = value / valuesForRatio[category] * 100;
         }
