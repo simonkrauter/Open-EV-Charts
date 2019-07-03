@@ -431,7 +431,7 @@ function getChartSeriesColors(chartConfig, chartData) {
 
   var colors = [];
   var usedIndexes = [];
-  if (chartConfig.xProperty != db.xProperties.brand && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
+  if (![db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
     for (const i in colorIndexByBrand)
       usedIndexes.push(colorIndexByBrand[i]);
   }
