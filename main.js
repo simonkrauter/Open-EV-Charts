@@ -27,7 +27,10 @@ navigate();
 
 function navigate() {
   renderPage();
+  logVisit();
+}
 
+function logVisit() {
   if (location.hostname == "open-ev-charts.org") {
     let r = new XMLHttpRequest();
     r.open("GET", "https://nexunity.org/pageview-logger/open-ev-charts.org/?action=log&url=" + encodeURIComponent(location.href) + "&referrer=" + encodeURIComponent(document.referrer));
@@ -53,19 +56,6 @@ function getChartConfigStringsFromUrl() {
   return decodeURIComponent(location.hash.substr(1)).split(",");
 }
 
-function rebuildUrlHash() {
-  const oldCount = getChartConfigStringsFromUrl().length;
-  var chartConfigStrings = [];
-  for (var i = 0; i < dynamicContent.childNodes.length; i++)
-    chartConfigStrings.push(dynamicContent.childNodes[i].dataChartConfig);
-  const hash = "#" + chartConfigStrings.join(",");
-  history.pushState(null, null, hash);
-
-  // Re-render page to get rid of the remove button(s) and to adjust chart size
-  if (oldCount > 1 && chartConfigStrings.length == 1)
-    renderPage();
-}
-
 function renderChartSet(chartSetDiv, chartConfig) {
   chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartSetDiv.innerHTML = "";
@@ -76,6 +66,28 @@ function renderChartSet(chartSetDiv, chartConfig) {
   isSingleChart = topLevelChartConfigCount == 1 && chartConfigList.length == 1;
   for (const i in chartConfigList)
     renderChartTile(chartSetDiv, chartConfigList[i]);
+}
+
+function replaceChartSet(chartSetDiv, chartConfig) {
+  if (chartConfig == null)
+    chartSetDiv.parentNode.removeChild(chartSetDiv);
+  else
+    chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
+
+  // Rebuild URL
+  const oldCount = getChartConfigStringsFromUrl().length;
+  var chartConfigStrings = [];
+  for (var i = 0; i < dynamicContent.childNodes.length; i++)
+    chartConfigStrings.push(dynamicContent.childNodes[i].dataChartConfig);
+  const hash = "#" + chartConfigStrings.join(",");
+  history.pushState(null, null, hash);
+
+  // Render
+  if (oldCount > 1 && chartConfigStrings.length == 1)
+    renderPage(); // Get rid of remove button and to adjust chart size
+  else if (chartConfig)
+    renderChartSet(chartSetDiv, chartConfig);
+  logVisit();
 }
 
 function renderFilters(chartSetDiv, chartConfig) {
@@ -100,8 +112,7 @@ function renderFilters(chartSetDiv, chartConfig) {
     removeButton.addEventListener("click", function(event) {
       event.preventDefault();
       const chartSetDiv = event.target.parentNode.parentNode;
-      chartSetDiv.parentNode.removeChild(chartSetDiv);
-      rebuildUrlHash();
+      replaceChartSet(chartSetDiv, null);
     });
   }
 }
@@ -116,8 +127,7 @@ function renderFilterAsDropDown(parentDiv, param, selectedKey) {
     const chartSetDiv = event.target.parentNode.parentNode.parentNode;
     var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
     chartConfig[param.name] = event.target.value;
-    renderChartSet(chartSetDiv, chartConfig);
-    rebuildUrlHash();
+    replaceChartSet(chartSetDiv, chartConfig);
   });
   for (const optionKey in param.options) {
     var option = document.createElement("OPTION");
@@ -147,8 +157,7 @@ function renderFilterAsButtons(parentDiv, param, selectedKey) {
     button.addEventListener("click", function(event) {
       var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
       chartConfig[param.name] = optionKey;
-      renderChartSet(chartSetDiv, chartConfig);
-      rebuildUrlHash();
+      replaceChartSet(chartSetDiv, chartConfig);
       event.preventDefault();
     });
   }
@@ -234,6 +243,14 @@ function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
   var chartConfigChanged = cloneObject(chartConfig);
   chartConfigChanged.view = key;
   button.href = "#" + db.encodeChartConfig(chartConfigChanged);
+  button.addEventListener("click", function(event) {
+    const chartTileDiv = event.target.parentNode.parentNode;
+    const chartSetDiv = chartTileDiv.parentNode;
+    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
+    chartConfig.view = key;
+    replaceChartSet(chartSetDiv, chartConfig);
+    event.preventDefault();
+  });
   button.appendChild(document.createTextNode(title));
 }
 
