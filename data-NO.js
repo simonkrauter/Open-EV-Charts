@@ -595,6 +595,46 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model S": 47
 });
 
+db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 3760
+, "Volkswagen": 1825
+, "Toyota": 1750
+, "BMW": 801
+, "Volvo": 653
+, "Hyundai": 643
+, "Nissan": 569
+, "Škoda": 635
+, "Audi": 733
+, "Mitsubishi": 579
+, "Jaguar": 351
+, "Kia": 259
+, "Ford": 380
+, "Peugeot": 326
+, "Mercedes-Benz": 386
+, "Renault": 289
+, "Suzuki": 189
+, "Mazda": 258
+, "Opel": 259
+, "Citroën": 144
+});
+
+db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/norway-june-2019.html",
+{ "Tesla|Model 3": 3012
+, "Volkswagen|e-Golf": 798
+, "BMW|i3 BEV": 453
+, "Nissan|Leaf": 475
+, "Audi|e-tron": 574
+, "Jaguar|I-Pace": 329
+, "Hyundai|Kona Electric": 289
+, "Hyundai|Ioniq Electric": 197
+, "Renault|ZOE": 265
+, "Tesla|Model X": 314
+, "Tesla|Model S": 434
+, "Kia|Niro EV": 44
+, "Volkswagen|e-up!": 48
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -620,9 +660,10 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 // , "Citroën":
 // });
 
-// db.insert(db.countries.NO, "xx", db.dsTypes.ElectricCarsByModel, "https://ofv.no/registreringsstatistikk (incomplete, missing i3 BEV)",
+// db.insert(db.countries.NO, "xx", db.dsTypes.ElectricCarsByModel, "",
 // { "Tesla|Model 3":
 // , "Volkswagen|e-Golf":
+// , "BMW|i3 BEV":
 // , "Nissan|Leaf":
 // , "Jaguar|I-Pace":
 // , "Audi|e-tron":
