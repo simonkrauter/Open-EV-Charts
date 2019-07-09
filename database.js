@@ -331,7 +331,7 @@ var db = {
     if (![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
     var filterModel = null;
-    if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model)
+    if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
       filterModel = chartConfig.model;
 
     var seriesRows = {};
@@ -393,7 +393,7 @@ var db = {
         if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
           if (chartConfig.brand == this.brandOptions.all)
             seriesName = brandAndModel;
-          else
+          else if (model)
             seriesName = model;
         }
 
@@ -506,7 +506,7 @@ var db = {
             seriesRows[seriesName][category] = value / valuesForRatio[category] * 100;
         }
       }
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasetsForRatio);
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
