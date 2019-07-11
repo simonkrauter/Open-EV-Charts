@@ -96,7 +96,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Dacia": 871
 , "Suzuki": 860
 , "Citroën": 808
-, "Tesla": 748
+, "Tesla": 727
 , "Toyota": 550
 , "Nissan": 533
 , "other": 2578
