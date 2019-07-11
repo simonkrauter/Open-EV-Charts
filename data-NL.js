@@ -840,10 +840,70 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Jaguar|I-Pace": 26
 });
 
+db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#jun",
+{ "Opel": 3921
+, "Volkswagen": 3618
+, "Toyota": 3100
+, "Peugeot": 3082
+, "Renault": 3054
+, "Tesla": 2586
+, "Ford": 2441
+, "BMW": 2028
+, "Kia": 1985
+, "Mercedes-Benz": 1653
+, "Volvo": 1523
+, "Citroën": 1501
+, "Škoda": 1423
+, "Hyundai": 1190
+, "Audi": 1182
+, "Nissan": 1095
+, "Seat": 1056
+, "Mazda": 973
+, "Suzuki": 831
+, "Mitsubishi": 786
+, "Mini": 667
+, "Dacia": 454
+, "Fiat": 389
+, "Jeep": 138
+, "Honda": 123
+, "Lexus": 111
+, "Porsche": 89
+, "DS Automobiles": 89
+, "Land Rover": 79
+, "Alfa Romeo": 73
+, "Smart": 39
+, "Jaguar": 29
+, "Subaru": 29
+, "Ferrari": 7
+, "Bentley": 6
+, "Alpine": 5
+, "Lamborghini": 4
+, "Maserati": 3
+, "Infiniti": 3
+, "Aston Martin": 1
+, "Rolls-royce": 1
+, "Lotus": 1
+, "Morgan": 1
+, "other": 302
+});
+
+db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/netherlands-june-2019.html",
+{ "Tesla|Model 3": 2487
+, "Hyundai|Kona Electric": 370
+, "Kia|Niro EV": 272
+, "Volkswagen|e-Golf": 196
+, "Nissan|Leaf": 175
+, "BMW|i3 BEV": 152
+, "Renault|ZOE": 114
+, "Hyundai|Ioniq Electric": 48
+, "Audi|e-tron": 103
+, "Opel|Ampera-e": 16
+, "Smart|Forfour electric drive": 29
+, "Jaguar|I-Pace": 11
+});
+
 
 // Template:
-
-// db.insert(db.countries.NL, "", db.dsTypes.AllCarsByBrand, "",
 
 // db.insert(db.countries.NL, "", db.dsTypes.ElectricCarsByModel, "",
 // { "Tesla|Model 3":
