@@ -846,7 +846,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Toyota": 3100
 , "Peugeot": 3082
 , "Renault": 3054
-, "Tesla": 2586
+, "Tesla": 2487
 , "Ford": 2441
 , "BMW": 2028
 , "Kia": 1985
