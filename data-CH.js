@@ -659,13 +659,13 @@ db.insert(db.countries.CH, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
 { "Renault|ZOE": 122
-, "Jaguar|I-Pace": 14
-, "Tesla|Model X": 15
-, "Tesla|Model S": 23
-, "Peugeot|iOn": 8
+, "BMW|i3": 64
 , "Nissan|Leaf": 58
+, "Tesla|Model S": 23
+, "Tesla|Model X": 15
+, "Jaguar|I-Pace": 14
+, "Peugeot|iOn": 8
 , "Citroën|C-Zero": 2
-, "BMW|i3 BEV": 64
 });
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
@@ -711,14 +711,14 @@ db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-{ "Renault|ZOE": 91
-, "Jaguar|I-Pace": 39
-, "Tesla|Model X": 13
-, "Tesla|Model 3": 277
-, "Tesla|Model S": 26
+{ "Tesla|Model 3": 277
+, "Renault|ZOE": 91
+, "BMW|i3": 80
 , "Nissan|Leaf": 59
+, "Jaguar|I-Pace": 39
+, "Tesla|Model S": 26
+, "Tesla|Model X": 13
 , "Citroën|C-Zero": 4
-, "BMW|i3 BEV": 144
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
@@ -764,15 +764,15 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-{ "Renault|ZOE": 151
+{ "Tesla|Model 3": 1094
+, "Renault|ZOE": 151
+, "BMW|i3": 79
+, "Nissan|Leaf": 46
+, "Tesla|Model S": 80
 , "Jaguar|I-Pace": 70
 , "Tesla|Model X": 69
-, "Tesla|Model 3": 1094
-, "Tesla|Model S": 80
 , "Audi|e-tron": 93
-, "Nissan|Leaf": 46
 , "Citroën|C-Zero": 2
-, "BMW|i3 BEV": 223
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_4.xlsx",
@@ -818,16 +818,16 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-{ "Renault|ZOE": 164
-, "Jaguar|I-Pace": 69
-, "Tesla|Model X": 16
-, "Tesla|Model 3": 495
-, "Tesla|Model S": 27
-, "Peugeot|iOn": 1
-, "Audi|e-tron": 33
+{ "Tesla|Model 3": 495
+, "Renault|ZOE": 164
+, "BMW|i3": 79
 , "Nissan|Leaf": 39
+, "Jaguar|I-Pace": 69
+, "Tesla|Model S": 27
+, "Audi|e-tron": 33
+, "Tesla|Model X": 16
 , "Citroën|C-Zero": 2
-, "BMW|i3 BEV": 302
+, "Peugeot|iOn": 1
 });
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_5.xlsx",
@@ -874,16 +874,16 @@ db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-{ "Renault|ZOE": 118
+{ "Tesla|Model 3": 125
+, "Renault|ZOE": 118
+, "BMW|i3": 92
 , "Jaguar|I-Pace": 55
-, "Tesla|Model X": 37
-, "Tesla|Model 3": 125
-, "Tesla|Model S": 33
-, "Peugeot|iOn": 2
-, "Audi|e-tron": 48
 , "Nissan|Leaf": 17
+, "Tesla|Model S": 33
+, "Audi|e-tron": 48
+, "Tesla|Model X": 37
 , "Citroën|C-Zero": 5
-, "BMW|i3 BEV": 394
+, "Peugeot|iOn": 2
 });
 
 db.insert(db.countries.CH, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_6.xlsx",
@@ -930,16 +930,16 @@ db.insert(db.countries.CH, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-{ "Jaguar|I-Pace": 41
-, "Tesla|Model S": 37
+{ "Tesla|Model 3": 586
+, "Renault|ZOE": 130
+, "BMW|i3": 62
+, "Jaguar|I-Pace": 41
 , "Nissan|Leaf": 23
 , "Audi|e-tron": 58
-, "Renault|ZOE": 130
-, "Citroën|C-Zero": 3
+, "Tesla|Model S": 37
 , "Tesla|Model X": 36
-, "Tesla|Model 3": 586
+, "Citroën|C-Zero": 3
 , "Peugeot|iOn": 1
-, "BMW|i3": 62
 });
 
 // https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken/
