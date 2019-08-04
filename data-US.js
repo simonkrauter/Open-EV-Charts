@@ -889,7 +889,7 @@ db.insert(db.countries.US, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Fiat": 933
 , "Ford": 179729
 , "Genesis": 1887
-, "Gmc": 45510
+, "GMC": 45510
 , "Honda": 123953
 , "Hyundai": 64202
 , "Infiniti": 9839
