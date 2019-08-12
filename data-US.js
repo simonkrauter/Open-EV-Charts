@@ -631,37 +631,41 @@ db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://i
 });
 
 db.insert(db.countries.US, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/02/u-s-auto-sales-brand-rankings-january-2019-ytd/",
-{ "Ford": 180766
-, "Chevrolet": 148602
-, "Toyota": 138601
-, "Honda": 96375
-, "Nissan": 90439
-, "Jeep": 58401
-, "Subaru": 46072
-, "Hyundai": 40796
-, "Ram": 39649
-, "Kia": 37376
-, "Dodge": 27077
-, "Mercedes-Benz": 23721
-, "Volkswagen": 23074
-, "Mazda": 20045
-, "BMW": 18102
-, "Lexus": 17420
-, "Audi": 14253
-, "Infiniti": 10302
-, "Acura": 9764
-, "Chrysler": 9054
-, "Mitsubishi": 8711
-, "Tesla": 8325
-, "Land Rover": 7385
-, "Volvo": 5854
-, "Porsche": 5419
-, "Jaguar": 3078
-, "Mini": 2457
-, "Genesis": 1224
+{ "Acura": 9764
 , "Alfa Romeo": 1150
+, "Audi": 14253
+, "BMW": 18102
+, "Buick": 17061
+, "Cadillac": 11841
+, "Chevrolet": 148602
+, "Chrysler": 9054
+, "Dodge": 27077
 , "Fiat": 751
+, "Ford": 180766
+, "Genesis": 1224
+, "GMC": 41309
+, "Honda": 96375
+, "Hyundai": 40796
+, "Infiniti": 10302
+, "Jaguar": 3078
+, "Jeep": 58401
+, "Kia": 37376
+, "Land Rover": 7385
+, "Lexus": 17420
+, "Lincoln": 8116
+, "Mazda": 20045
+, "Mercedes-Benz": 23721
+, "Mini": 2457
+, "Mitsubishi": 8711
+, "Nissan": 90439
+, "Porsche": 5419
+, "Ram": 39649
 , "Smart": 83
+, "Subaru": 46072
+, "Tesla": 8325
+, "Toyota": 138601
+, "Volkswagen": 23074
+, "Volvo": 5854
 });
 
 db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/january-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -678,37 +682,41 @@ db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://i
 });
 
 db.insert(db.countries.US, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/03/u-s-auto-sales-brand-rankings-february-2019-ytd/",
-{ "Ford": 177467
-, "Chevrolet": 142654
-, "Toyota": 152626
-, "Honda": 102926
-, "Nissan": 103735
-, "Jeep": 67075
-, "Subaru": 49081
-, "Hyundai": 45612
-, "Ram": 45542
-, "Kia": 43406
-, "Dodge": 37073
-, "Volkswagen": 25706
-, "Mercedes-Benz": 24389
-, "Mazda": 23852
-, "BMW": 23558
-, "Lexus": 20122
-, "Audi": 13560
-, "Mitsubishi": 13760
-, "Acura": 12213
-, "Infiniti": 10607
-, "Chrysler": 10368
-, "Tesla": 7650
-, "Land Rover": 8151
-, "Volvo": 6635
-, "Porsche": 4826
-, "Jaguar": 3465
-, "Mini": 2679
-, "Genesis": 1528
+{ "Acura": 12213
 , "Alfa Romeo": 1362
+, "Audi": 13560
+, "BMW": 23558
+, "Buick": 16378
+, "Cadillac": 11367
+, "Chevrolet": 142654
+, "Chrysler": 10368
+, "Dodge": 37073
 , "Fiat": 616
+, "Ford": 177467
+, "Genesis": 1528
+, "GMC": 39656
+, "Honda": 102926
+, "Hyundai": 45612
+, "Infiniti": 10607
+, "Jaguar": 3465
+, "Jeep": 67075
+, "Kia": 43406
+, "Land Rover": 8151
+, "Lexus": 20122
+, "Lincoln": 7886
+, "Mazda": 23852
+, "Mercedes-Benz": 24389
+, "Mini": 2679
+, "Mitsubishi": 13760
+, "Nissan": 103735
+, "Porsche": 4826
+, "Ram": 45542
 , "Smart": 58
+, "Subaru": 49081
+, "Tesla": 7650
+, "Toyota": 152626
+, "Volkswagen": 25706
+, "Volvo": 6635
 });
 
 db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/february-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -727,41 +735,41 @@ db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://i
 });
 
 db.insert(db.countries.US, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/04/u-s-auto-sales-brand-rankings-march-2019-ytd/",
-{ "Ford": 199651
-, "Toyota": 185698
-, "Chevrolet": 160486
-, "Honda": 134101
-, "Nissan": 137362
-, "Jeep": 87328
-, "Subaru": 61601
-, "Hyundai": 61177
-, "Ram": 51822
-, "Kia": 55814
-, "GMC": 44614
-, "Dodge": 46367
-, "Volkswagen": 37092
-, "Mercedes-Benz": 30557
-, "BMW": 32228
-, "Mazda": 26934
-, "Lexus": 29249
-, "Buick": 18426
-, "Audi": 20302
-, "Mitsubishi": 19599
-, "Acura": 14408
-, "Cadillac": 12788
-, "Infiniti": 13406
-, "Chrysler": 12169
-, "Tesla": 14625
-, "Land Rover": 9492
-, "Lincoln": 8872
-, "Volvo": 9569
-, "Porsche": 4779
-, "Jaguar": 3679
-, "Mini": 3769
+{ "Acura": 14408
 , "Alfa Romeo": 1774
-, "Genesis": 1451
+, "Audi": 20302
+, "BMW": 32228
+, "Buick": 18426
+, "Cadillac": 12788
+, "Chevrolet": 160486
+, "Chrysler": 12169
+, "Dodge": 46367
 , "Fiat": 847
+, "Ford": 199651
+, "Genesis": 1451
+, "GMC": 44614
+, "Honda": 134101
+, "Hyundai": 61177
+, "Infiniti": 13406
+, "Jaguar": 3679
+, "Jeep": 87328
+, "Kia": 55814
+, "Land Rover": 9492
+, "Lexus": 29249
+, "Lincoln": 8872
+, "Mazda": 26934
+, "Mercedes-Benz": 30557
+, "Mini": 3769
+, "Mitsubishi": 19599
+, "Nissan": 137362
+, "Porsche": 4779
+, "Ram": 51822
 , "Smart": 90
+, "Subaru": 61601
+, "Tesla": 14625
+, "Toyota": 185698
+, "Volkswagen": 37092
+, "Volvo": 9569
 });
 
 db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/347358/ev-sales-scorecard-april-2019/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -780,35 +788,41 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://i
 });
 
 db.insert(db.countries.US, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/05/u-s-auto-sales-brand-rankings-april-2019-ytd/",
-{ "Toyota": 162506
-, "Honda": 114088
-, "Nissan": 87207
-, "Jeep": 76325
-, "Subaru": 57288
-, "Hyundai": 55420
-, "Ram": 53811
-, "Kia": 51385
-, "Dodge": 31262
-, "Volkswagen": 31309
-, "Mercedes-Benz": 25631
-, "BMW": 23816
-, "Mazda": 19702
-, "Lexus": 21360
-, "Audi": 20302
-, "Mitsubishi": 6963
-, "Acura": 11687
-, "Infiniti": 8491
-, "Tesla": 11925
-, "Chrysler": 8987
-, "Land Rover": 7165
-, "Volvo": 8367
-, "Porsche": 5018
-, "Jaguar": 2147
-, "Mini": 2621
+{ "Acura": 11687
 , "Alfa Romeo": 1584
-, "Genesis": 1605
+, "Audi": 15024
+, "BMW": 23816
+, "Buick": 17996
+, "Cadillac": 12891
+, "Chevrolet": 162011
+, "Chrysler": 8987
+, "Dodge": 31262
 , "Fiat": 931
+, "Ford": 201208
+, "Genesis": 1605
+, "GMC": 49301
+, "Honda": 114088
+, "Hyundai": 55420
+, "Infiniti": 8491
+, "Jaguar": 2147
+, "Jeep": 76325
+, "Kia": 51385
+, "Land Rover": 7165
+, "Lexus": 21360
+, "Lincoln": 8431
+, "Mazda": 19702
+, "Mercedes-Benz": 25631
+, "Mini": 2621
+, "Mitsubishi": 6963
+, "Nissan": 87207
+, "Porsche": 5018
+, "Ram": 53811
 , "Smart": 85
+, "Subaru": 57288
+, "Tesla": 11925
+, "Toyota": 162506
+, "Volkswagen": 31309
+, "Volvo": 8367
 });
 
 db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/347358/ev-sales-scorecard-april-2019/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -828,35 +842,41 @@ db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://i
 });
 
 db.insert(db.countries.US, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/2019/06/u-s-auto-sales-brand-rankings-may-2019-ytd/",
-{ "Toyota": 197637
-, "Honda": 131985
-, "Nissan": 121570
-, "Jeep": 90326
-, "Subaru": 63972
-, "Hyundai": 66121
-, "Ram": 67117
-, "Kia": 60062
-, "Dodge": 47759
-, "Volkswagen": 35702
-, "Mercedes-Benz": 25631
-, "BMW": 27108
-, "Mazda": 25192
-, "Lexus": 24537
-, "Audi": 18892
-, "Acura": 13547
-, "Tesla": 16350
-, "Mitsubishi": 9750
-, "Infiniti": 10413
-, "Chrysler": 10903
-, "Volvo": 9761
-, "Land Rover": 7337
-, "Porsche": 5010
-, "Jaguar": 2021
-, "Mini": 2822
-, "Genesis": 2313
+{ "Acura": 13547
 , "Alfa Romeo": 1572
+, "Audi": 18892
+, "BMW": 27108
+, "Buick": 20765
+, "Cadillac": 14874
+, "Chevrolet": 175322
+, "Chrysler": 10903
+, "Dodge": 47759
 , "Fiat": 1025
+, "Ford": 232161
+, "Genesis": 2313
+, "GMC": 56890
+, "Honda": 131985
+, "Hyundai": 66121
+, "Infiniti": 10413
+, "Jaguar": 2021
+, "Jeep": 90326
+, "Kia": 60062
+, "Land Rover": 7337
+, "Lexus": 24537
+, "Lincoln": 9728
+, "Mazda": 25192
+, "Mercedes-Benz": 25631
+, "Mini": 2822
+, "Mitsubishi": 9750
+, "Nissan": 121570
+, "Porsche": 5010
+, "Ram": 67117
 , "Smart": 85
+, "Subaru": 63972
+, "Tesla": 16350
+, "Toyota": 197637
+, "Volkswagen": 35702
+, "Volvo": 9761
 });
 
 db.insert(db.countries.US, "2019-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/352626/ev-sales-scorecard-may-2019/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -929,7 +949,7 @@ db.insert(db.countries.US, "2019-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Hyundai|Ioniq Electric": 62
 });
 
-db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_201",
+db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019",
 { "Acura": 12759
 , "Audi": 19370
 , "BMW": 23015
