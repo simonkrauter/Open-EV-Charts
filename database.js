@@ -409,8 +409,13 @@ var db = {
         if (!categories.includes(category))
           categories.push(category);
       }
-      if (!sources.includes(dataset.source))
-        sources.push(dataset.source);
+
+      const sourceParts = dataset.source.split("; ");
+      for (var j in sourceParts) {
+        const sourcePart = sourceParts[j];
+        if (!sources.includes(sourcePart))
+          sources.push(sourcePart);
+      }
     }
 
     return {
