@@ -225,3 +225,39 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Audi|e-tron": 38
 , "Kia|Niro EV": 30
 });
+
+db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+{ "Volkswagen": 5524
+, "Škoda": 2490
+, "Seat": 1917
+, "Ford": 1828
+, "BMW": 1738
+, "Opel": 1726
+, "Renault": 1407
+, "Hyundai": 1382
+, "Mercedes-Benz": 1374
+, "Audi": 1354
+, "Fiat": 1256
+, "Peugeot": 1150
+, "Suzuki": 977
+, "Dacia": 943
+, "Mazda": 866
+, "Kia": 793
+, "Citroën": 716
+, "Toyota": 647
+, "Mini": 528
+, "Volvo": 478
+, "other": 2360
+});
+
+db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+{ "Tesla|Model 3": 111
+, "Hyundai|Kona Electric": 85
+, "BMW|i3 BEV": 79
+, "Audi|e-tron": 78
+, "Volkswagen|e-Golf": 53
+, "Renault|ZOE": 52
+, "Nissan|Leaf": 47
+, "Tesla|Model X": 30
+, "Tesla|Model S": 22
+});
