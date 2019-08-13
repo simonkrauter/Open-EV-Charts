@@ -813,7 +813,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 3809
 , "Škoda": 3242
 , "Porsche": 658
-, "Lamborghin": 9
+, "Lamborghini": 9
 , "Bentley": 4
 , "Fiat": 8717
 , "Jeep": 1398
