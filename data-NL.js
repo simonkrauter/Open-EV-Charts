@@ -881,7 +881,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 3
 , "Infiniti": 3
 , "Aston Martin": 1
-, "Rolls-royce": 1
+, "Rolls Royce": 1
 , "Lotus": 1
 , "Morgan": 1
 , "other": 302
