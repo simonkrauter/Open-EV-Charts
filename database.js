@@ -617,7 +617,7 @@ var db = {
       }
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.lineChart && otherSeries.data.length > 0)
+    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0)
       result.series.push(otherSeries);
 
     return result;
