@@ -35,6 +35,13 @@ Technology
 - [apexcharts.js](https://github.com/apexcharts/apexcharts.js), a JavaScript chart library
 - https://open-ev-charts.org/ is hosted by GitHub Pages
 
+Feeback
+-------
+
+Feeback of any kind is welcome. Possibilities to send feedback:
+- Mail: trustablecode@gmail.com
+- [GitHub issue](https://github.com/trustable-code/Open-EV-Charts/issues/new)
+
 Contributing
 ------------
 
