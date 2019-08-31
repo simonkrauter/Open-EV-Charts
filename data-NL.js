@@ -921,7 +921,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 960
 , "Nissan": 836
 , "Mini": 645
-, "Tesla": 629
+, "Tesla": 611
 , "Mazda": 559
 , "Mitsubishi": 404
 , "Fiat": 255
