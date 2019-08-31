@@ -492,7 +492,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.brand != this.brandOptions.combine) {
+          if (chartConfig.brand == this.brandOptions.all) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
@@ -507,11 +507,14 @@ var db = {
           var value = this.getValue(seriesRows[seriesName][category], null);
           if (valuesForRatio[category] == 0)
             seriesRows[seriesName][category] = null;
-          else
-            seriesRows[seriesName][category] = value / valuesForRatio[category] * 100;
+          else {
+            var val = value / valuesForRatio[category] * 100;
+            val = Math.min(val, 100);
+            seriesRows[seriesName][category] = val;
+          }
         }
       }
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasetsForRatio);
+      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasetsForRatio.categories, "seriesRows": seriesRows});
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
