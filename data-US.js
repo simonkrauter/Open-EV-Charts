@@ -887,7 +887,7 @@ db.insert(db.countries.US, "2019-05", db.dsTypes.ElectricCarsByModel, "https://i
 , "Nissan|Leaf": 1216
 , "Volkswagen|e-Golf": 264
 , "Jaguar|I-Pace": 228
-, "Audi|e-tron": 1109
+, "Audi|e-tron": 856
 , "Honda|Clarity BEV": 82
 , "Hyundai|Kona Electric": 91
 , "Fiat|500e": 60
@@ -941,7 +941,7 @@ db.insert(db.countries.US, "2019-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Tesla|Model S": 1750
 , "Nissan|Leaf": 1156
 , "Volkswagen|e-Golf": 366
-, "Audi|e-tron": 1835
+, "Audi|e-tron": 726
 , "Jaguar|I-Pace": 236
 , "Honda|Clarity BEV": 52
 , "Hyundai|Kona Electric": 116
@@ -983,7 +983,7 @@ db.insert(db.countries.US, "2019-07", db.dsTypes.ElectricCarsByModel, "https://i
 , "Chevrolet|Bolt EV": 985
 , "Tesla|Model S": 975
 , "Nissan|Leaf": 938
-, "Audi|e-tron": 2513
+, "Audi|e-tron": 678
 , "Volkswagen|e-Golf": 460
 , "Jaguar|I-Pace": 213
 , "Hyundai|Kona Electric": 150
@@ -1021,18 +1021,14 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Ford": 209953
 });
 
-db.insert(db.countries.US, "2019-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/362819/ev-sales-scorecard-july-2019/ (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.US, "2019-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/368729/ev-sales-scorecard-august-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 13150
 , "Tesla|Model X": 1825
-, "Chevrolet|Bolt EV": 9266
 , "Tesla|Model S": 1050
 , "Nissan|Leaf": 1117
-, "Audi|e-tron": 3106
+, "Audi|e-tron": 593
 , "Volkswagen|e-Golf": 689
 , "Jaguar|I-Pace": 160
-, "Hyundai|Kona Electric": 577
 , "Honda|Clarity BEV": 65
 , "Fiat|500e": 45
-, "Hyundai|Ioniq Electric": 281
-, "Kia|Soul EV": 5
 });
