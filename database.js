@@ -18,7 +18,7 @@ var db = {
   // All datasets of the database.
   // Format of entries:
   // - country: country enum value
-  // - month:   month in the form "YYY-MM"
+  // - month:   month in the form "YYYY-MM"
   // - dsType:  dataset dsType enum value
   // - source:  source URL
   // - data:    number of sales or
@@ -65,10 +65,22 @@ var db = {
     }
   },
 
+  getValue: function(value, defaultValue) {
+    if (typeof(value) == "undefined")
+      return defaultValue;
+    return value;
+  },
+
+  formatMonth: function(year, month) {
+    return year + "-" + ("0" + month).substr(-2);
+  },
+
+  formatQuarter: function(year, quarter) {
+    return year + " Q" + quarter;
+  },
+
   monthToQuarter: function(month) {
-    const year = month.substr(0, 4);
-    const monthNum = parseInt(month.substr(5, 2));
-    return year + " Q" + Math.ceil(monthNum / 3);
+    return Math.ceil(month / 3);
   },
 
   metrics:
@@ -86,6 +98,12 @@ var db = {
   , "country": "country"
   , "brand": "brand"
   , "model": "model"
+  },
+
+  timeSpanOptions:
+  { "all": "all-time"
+  , "last1y": "1y"
+  , "last2y": "2y"
   },
 
   countryOptions:
@@ -170,6 +188,55 @@ var db = {
     if (chartConfig == null || chartConfig.metric == this.metrics.salesElectric)
       param.options[this.xProperties.model] = "Per Model";
     param.defaultOption = this.xProperties.month;
+    param.showAsFilter = true;
+    result[param.name] = param;
+
+    // time span
+    var param = {};
+    param.name = "timeSpan";
+    param.options = {};
+    param.options[this.timeSpanOptions.all] = "All Time";
+    param.options[this.timeSpanOptions.last1y] = "Last Year";
+    param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
+    var currentDate = new Date();
+    var latestYear = 1900 + currentDate.getYear();
+    var latestMonth = 1 + currentDate.getMonth();
+    latestMonth--;
+    if (latestMonth < 1) {
+      latestMonth = 12;
+      latestYear--;
+    }
+    if (chartConfig == null || [this.xProperties.country, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
+      // single month
+      var year = latestYear;
+      var month = latestMonth;
+      for (var i = 0; i < 4; i++) {
+        param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
+        month--;
+        if (month < 1) {
+          month = 12;
+          year--;
+        }
+      }
+      // single quarter
+      var year = latestYear;
+      var quarter = this.monthToQuarter(latestMonth);
+      for (var i = 0; i < 4; i++) {
+        param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
+        quarter--;
+        if (quarter < 1) {
+          quarter = 4;
+          year--;
+        }
+      }
+      // single year
+      var year = latestYear;
+      for (var i = 0; i < 2; i++) {
+        param.options["y" + year] = year;
+        year--;
+      }
+    }
+    param.defaultOption = this.timeSpanOptions.last2y;
     param.showAsFilter = true;
     result[param.name] = param;
 
@@ -333,6 +400,45 @@ var db = {
     var filterModel = null;
     if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
       filterModel = chartConfig.model;
+    var filterYearFirst = null;
+    var filterYearLast = null;
+    var filterMonthFirst = null;
+    var filterMonthLast = null;
+    if (chartConfig.timeSpan != this.timeSpanOptions.all) {
+      if (chartConfig.timeSpan.startsWith("y")) {
+        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1));
+        filterMonthFirst = 1;
+        filterYearLast = filterYearFirst;
+        filterMonthLast = 12;
+      } else if (chartConfig.timeSpan.startsWith("q")) {
+        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1).substr(0, 4));
+        filterMonthFirst = 1 + (parseInt(chartConfig.timeSpan.substr(1).substr(5, 1)) - 1) * 3;
+        filterYearLast = filterYearFirst;
+        filterMonthLast = filterMonthFirst + 2;
+      } else if (chartConfig.timeSpan.startsWith("m")) {
+        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1).substr(0, 4));
+        filterMonthFirst = parseInt(chartConfig.timeSpan.substr(1).substr(5, 2));
+        filterYearLast = filterYearFirst;
+        filterMonthLast = filterMonthFirst;
+      } else if (chartConfig.timeSpan.endsWith("y")) {
+        var currentDate = new Date();
+        var latestYear = 1900 + currentDate.getYear();
+        var latestMonth = 1 + currentDate.getMonth();
+        latestMonth--;
+        if (latestMonth < 1) {
+          latestMonth = 12;
+          latestYear--;
+        }
+        filterYearLast = latestYear;
+        filterMonthLast = latestMonth;
+        filterYearFirst = latestYear - parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
+        filterMonthFirst = filterMonthLast + 1;
+        if (filterMonthFirst > 12) {
+          filterYearFirst++;
+          filterMonthFirst = 1;
+        }
+      }
+    }
 
     var seriesRows = {};
     var sources = [];
@@ -344,15 +450,19 @@ var db = {
         continue;
       if (dataset.dsType != dsType)
         continue;
+      const year = parseInt(dataset.month.substr(0, 4));
+      const month = parseInt(dataset.month.substr(5, 2));
+      if (filterYearFirst != null && (year < filterYearFirst || year > filterYearLast || (year == filterYearFirst && month < filterMonthFirst) || (year == filterYearLast && month > filterMonthLast)))
+        continue;
       const countryName = db.countryNames[dataset.country];
 
       var category = "";
       if (chartConfig.xProperty == this.xProperties.month)
         category = dataset.month;
       else if (chartConfig.xProperty == this.xProperties.quarter)
-        category = this.monthToQuarter(dataset.month);
+        category = this.formatQuarter(year, this.monthToQuarter(month));
       else if (chartConfig.xProperty == this.xProperties.year)
-        category = dataset.month.substr(0, 4);
+        category = year;
       else if (chartConfig.xProperty == this.xProperties.country)
         category = countryName;
 
@@ -458,12 +568,6 @@ var db = {
         break;
     }
     return result;
-  },
-
-  getValue: function(value, defaultValue) {
-    if (typeof(value) == "undefined")
-      return defaultValue;
-    return value;
   },
 
   queryChartData: function(chartConfig) {
