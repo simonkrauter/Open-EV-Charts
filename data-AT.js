@@ -25,6 +25,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Volvo": 362
 , "Mitsubishi": 348
 , "Nissan": 332
+, "Tesla": 16
 , "other": 1550
 });
 
@@ -62,6 +63,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 413
 , "Jeep": 339
 , "Nissan": 333
+, "Tesla": 156
 , "other": 1636
 });
 
@@ -136,6 +138,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 681
 , "Mitsubishi": 676
 , "Volvo": 429
+, "Tesla": 173
 , "other": 2219
 });
 
@@ -173,6 +176,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 660
 , "Mitsubishi": 464
 , "Jeep": 352
+, "Tesla": 159
 , "other": 2106
 });
 
@@ -247,6 +251,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 647
 , "Mini": 528
 , "Volvo": 478
+, "Tesla": 163
 , "other": 2360
 });
 
@@ -283,6 +288,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 621
 , "Dacia": 598
 , "Jeep": 547
+, "Tesla": 130
 , "other": 2094
 });
 
