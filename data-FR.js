@@ -835,6 +835,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1853
 , "Chevrolet": 5
 , "Cadillac": 3
+, "Tesla": 1285
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
@@ -885,6 +886,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 54
 , "Volvo": 1646
 , "Chevrolet": 6
+, "Tesla": 294
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -938,6 +940,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 954
 , "Chevrolet": 1
 , "Cadillac": 1
+, "Tesla": 294
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
