@@ -850,6 +850,112 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|C-Zero": 76
 });
 
+db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jul (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 30807
+, "Citroën": 19823
+, "Opel": 5206
+, "DS Automobiles": 2646
+, "Renault": 23664
+, "Dacia": 9927
+, "Alpine": 319
+, "Volkswagen": 13056
+, "Audi": 5130
+, "Seat": 3329
+, "Škoda": 2947
+, "Porsche": 417
+, "Lamborghin": 18
+, "Bentley": 7
+, "Toyota": 9522
+, "Lexus": 741
+, "Kia": 3859
+, "Hyundai": 3677
+, "Fiat": 5323
+, "Jeep": 1761
+, "Alfa Romeo": 308
+, "Maserati": 42
+, "Ferrari": 41
+, "Lancia": 1
+, "BMW": 4188
+, "Mini": 2234
+, "Rolls Royce": 1
+, "Mercedes-Benz": 5269
+, "Smart": 888
+, "Ford": 6002
+, "Nissan": 3150
+, "Infiniti": 54
+, "Volvo": 1646
+, "Chevrolet": 6
+});
+
+db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
+{ "Renault|ZOE": 1235
+, "Nissan|Leaf": 321
+, "Tesla|Model 3": 259
+, "BMW|i3 BEV": 170
+, "Hyundai|Kona Electric": 99
+, "Kia|Niro EV": 93
+, "Smart|Fortwo electric drive": 67
+, "Kia|Soul EV": 45
+, "Tesla|Model S": 35
+, "Smart|Forfour electric drive": 33
+, "Nissan|e-NV200": 41
+, "Peugeot|Partner Electric": 25
+, "Citroën|Berlingo Electric": 23
+});
+
+db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#aug (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 19696
+, "Citroën": 12911
+, "Opel": 3310
+, "DS Automobiles": 1501
+, "Renault": 18718
+, "Dacia": 8050
+, "Alpine": 386
+, "Volkswagen": 8542
+, "Audi": 3807
+, "Seat": 2956
+, "Škoda": 2416
+, "Porsche": 287
+, "Lamborghin": 6
+, "Bentley": 6
+, "Mercedes-Benz": 4734
+, "Smart": 3193
+, "Toyota": 6784
+, "Lexus": 566
+, "Kia": 2721
+, "Hyundai": 2082
+, "BMW": 2961
+, "Mini": 1667
+, "Rolls Royce": 1
+, "Fiat": 3432
+, "Jeep": 815
+, "Alfa Romeo": 214
+, "Maserati": 29
+, "Ferrari": 10
+, "Ford": 4148
+, "Nissan": 3182
+, "Infiniti": 22
+, "Volvo": 954
+, "Chevrolet": 1
+, "Cadillac": 1
+});
+
+db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
+{ "Renault|ZOE": 1235
+, "Nissan|Leaf": 321
+, "Tesla|Model 3": 259
+, "BMW|i3 BEV": 170
+, "Hyundai|Kona Electric": 99
+, "Kia|Niro EV": 93
+, "Smart|Fortwo electric drive": 67
+, "Kia|Soul EV": 45
+, "Tesla|Model S": 35
+, "Smart|Forfour electric drive": 33
+, "Nissan|e-NV200": 41
+, "Peugeot|Partner Electric": 25
+, "Citroën|Berlingo Electric": 23
+});
+
 // http://www.avere-france.org/Site/Category/?arborescence_id=143
 
 // Template:
