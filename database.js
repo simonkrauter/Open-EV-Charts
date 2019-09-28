@@ -621,6 +621,9 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasetsForRatio.categories, "seriesRows": seriesRows});
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      var chartConfigForSum = JSON.parse(JSON.stringify(chartConfig));
+      chartConfigForSum.brand = this.brandOptions.all;
+      var datasetsForSum = this.queryDataSets(chartConfigForSum, db.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
@@ -640,8 +643,8 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var sum = 0;
-          for (const seriesName in datasets.seriesRows) {
-            sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+          for (const seriesName in datasetsForSum.seriesRows) {
+            sum = sum + this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
           }
           sums[category] = sum;
         }
