@@ -625,22 +625,40 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
       var sums = {};
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
-        var sum = 0;
+      if (chartConfig.xProperty == this.xProperties.brand) {
+        // sum per series
         for (const seriesName in datasets.seriesRows) {
-          sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+          var sum = 0;
+          for (const i in datasets.categories) {
+            const category = datasets.categories[i];
+            sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+          }
+          sums[seriesName] = sum;
         }
-        sums[category] = sum;
+      } else {
+        // sum per categories
+        for (const i in datasets.categories) {
+          const category = datasets.categories[i];
+          var sum = 0;
+          for (const seriesName in datasets.seriesRows) {
+            sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+          }
+          sums[category] = sum;
+        }
       }
       for (const seriesName in seriesRows) {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
-          if (sums[category] == 0)
+          var sum;
+          if (chartConfig.xProperty == this.xProperties.brand)
+            sum = sums[seriesName];
+          else
+            sum = sums[category];
+          if (sum == 0)
             seriesRows[seriesName][category] = 0;
           else
-            seriesRows[seriesName][category] = value / sums[category] * 100;
+            seriesRows[seriesName][category] = value / sum * 100;
         }
       }
     }
