@@ -630,7 +630,7 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
       var sums = {};
-      const isSumPerSeries = [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
+      const isSumPerSeries = [this.xProperties.brand, this.xProperties.model, this.xProperties.country].includes(chartConfig.xProperty);
       if (isSumPerSeries) {
         // sum per series
         for (const seriesName in datasets.seriesRows) {
