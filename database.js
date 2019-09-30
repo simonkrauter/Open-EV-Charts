@@ -185,8 +185,7 @@ var db = {
     param.options[this.xProperties.year] = "Per Year";
     param.options[this.xProperties.country] = "Per Country";
     param.options[this.xProperties.brand] = "Per Brand";
-    if (chartConfig == null || chartConfig.metric == this.metrics.salesElectric)
-      param.options[this.xProperties.model] = "Per Model";
+    param.options[this.xProperties.model] = "Per Model";
     param.defaultOption = this.xProperties.month;
     param.showAsFilter = true;
     result[param.name] = param;
@@ -622,13 +621,17 @@ var db = {
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       var chartConfigForSum = JSON.parse(JSON.stringify(chartConfig));
-      chartConfigForSum.brand = this.brandOptions.all;
+      if (chartConfig.xProperty == this.xProperties.brand)
+        chartConfigForSum.brand = this.brandOptions.all;
+      else if (chartConfig.xProperty == this.xProperties.model)
+        chartConfigForSum.model = this.modelOptions.all;
       var datasetsForSum = this.queryDataSets(chartConfigForSum, db.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
       var sums = {};
-      if (chartConfig.xProperty == this.xProperties.brand) {
+      const isSumPerSeries = [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
+      if (isSumPerSeries) {
         // sum per series
         for (const seriesName in datasets.seriesRows) {
           var sum = 0;
@@ -654,7 +657,7 @@ var db = {
           const category = datasets.categories[i];
           var value = this.getValue(seriesRows[seriesName][category], null);
           var sum;
-          if (chartConfig.xProperty == this.xProperties.brand)
+          if (isSumPerSeries)
             sum = sums[seriesName];
           else
             sum = sums[category];
