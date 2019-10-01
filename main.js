@@ -60,6 +60,9 @@ function renderChartSet(chartSetDiv, chartConfig) {
   chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartSetDiv.innerHTML = "";
 
+  if(chartConfig.xProperty == db.xProperties.model && ![db.metrics.salesElectric, db.metrics.shareElectric].includes(chartConfig.metric))
+    chartConfig.xProperty = db.xProperties.brand;
+
   renderFilters(chartSetDiv, chartConfig);
 
   const chartConfigList = db.unfoldChartConfig(chartConfig);
