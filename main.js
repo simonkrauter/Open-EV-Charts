@@ -337,13 +337,6 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
     colors: getChartSeriesColors(chartConfig, chartData),
     series: [],
     xaxis: {
-      labels: {
-        formatter: function (val, timestamp, index) {
-          if (Number.isInteger(val))
-            return val.toLocaleString();
-          return val;
-        }
-      }
     },
     yaxis: {
       min: 0,
