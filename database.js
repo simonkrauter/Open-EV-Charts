@@ -622,9 +622,8 @@ var db = {
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       var chartConfigForSum = JSON.parse(JSON.stringify(chartConfig));
-      if (chartConfig.xProperty == this.xProperties.brand)
-        chartConfigForSum.brand = this.brandOptions.all;
-      else if (chartConfig.xProperty == this.xProperties.model)
+      chartConfigForSum.brand = this.brandOptions.all;
+      if (chartConfig.xProperty == this.xProperties.model)
         chartConfigForSum.model = this.modelOptions.all;
       var datasetsForSum = this.queryDataSets(chartConfigForSum, db.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
