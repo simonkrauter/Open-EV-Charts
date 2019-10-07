@@ -17,13 +17,16 @@ var db = {
   datasets: [],
   // All datasets of the database.
   // Format of entries:
-  // - country: country enum value
-  // - month:   month in the form "YYYY-MM"
-  // - dsType:  dataset dsType enum value
-  // - source:  source URL
-  // - data:    number of sales or
-  //            object of brand -> number of sales or
-  //            object of model -> number of sales
+  // - country:     country enum value
+  // - countryName: country display name
+  // - monthString: month in the form "YYYY-MM"
+  // - year:        integer
+  // - month:       integer 1..12
+  // - dsType:      dataset dsType enum value
+  // - source:      source URL
+  // - data:        number of sales or
+  //                object of brand -> number of sales or
+  //                object of model -> number of sales
 
   brands: [],
   // All car brands used in the datasets.
@@ -39,10 +42,13 @@ var db = {
     this.countryNames[id] = name;
   },
 
-  insert: function(country, month, dsType, source, data) {
+  insert: function(country, monthString, dsType, source, data) {
     this.datasets.push(
     { country: country
-    , month: month
+    , countryName: this.countryNames[country]
+    , monthString: monthString
+    , year: parseInt(monthString.substr(0, 4))
+    , month: parseInt(monthString.substr(5, 2))
     , dsType: dsType
     , source: source
     , data: data
@@ -450,21 +456,18 @@ var db = {
         continue;
       if (dataset.dsType != dsType)
         continue;
-      const year = parseInt(dataset.month.substr(0, 4));
-      const month = parseInt(dataset.month.substr(5, 2));
-      if (filterYearFirst != null && (year < filterYearFirst || year > filterYearLast || (year == filterYearFirst && month < filterMonthFirst) || (year == filterYearLast && month > filterMonthLast)))
+      if (filterYearFirst != null && (dataset.year < filterYearFirst || dataset.year > filterYearLast || (dataset.year == filterYearFirst && dataset.month < filterMonthFirst) || (dataset.year == filterYearLast && dataset.month > filterMonthLast)))
         continue;
-      const countryName = db.countryNames[dataset.country];
 
       var category = "";
       if (chartConfig.xProperty == this.xProperties.month)
-        category = dataset.month;
+        category = dataset.monthString;
       else if (chartConfig.xProperty == this.xProperties.quarter)
-        category = this.formatQuarter(year, this.monthToQuarter(month));
+        category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
       else if (chartConfig.xProperty == this.xProperties.year)
-        category = year;
+        category = dataset.year;
       else if (chartConfig.xProperty == this.xProperties.country)
-        category = countryName;
+        category = dataset.countryName;
 
       for (var dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
@@ -493,7 +496,7 @@ var db = {
 
         var seriesName = "";
         if (filterCountryId == null && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
-          seriesName = countryName;
+          seriesName = dataset.countryName;
         if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.xProperty != this.xProperties.brand) {
           if (chartConfig.brand != this.brandOptions.all)
             seriesName = brandAndModel;
