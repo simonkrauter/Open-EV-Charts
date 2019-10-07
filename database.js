@@ -621,7 +621,7 @@ var db = {
           }
         }
       }
-      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasetsForRatio.categories, "seriesRows": seriesRows});
+      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows});
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       var chartConfigForSum = JSON.parse(JSON.stringify(chartConfig));
