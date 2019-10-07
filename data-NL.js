@@ -364,7 +364,66 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Smart|Forfour electric drive": 4
 });
 
-// No source for 2018-08 found
+db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#aug",
+{ "Renault": 6159
+, "Volkswagen": 5838
+, "Opel": 3054
+, "Peugeot": 3007
+, "Audi": 2280
+, "Kia": 2258
+, "Nissan": 1822
+, "BMW": 1698
+, "Ford": 1635
+, "Toyota": 1569
+, "Hyundai": 1266
+, "Škoda": 1164
+, "Mercedes-Benz": 1084
+, "Citroën": 1023
+, "Fiat": 950
+, "Volvo": 910
+, "Suzuki": 886
+, "Mazda": 700
+, "Dacia": 662
+, "Seat": 629
+, "Tesla": 536
+, "Mini": 530
+, "Mitsubishi": 462
+, "Porsche": 216
+, "Jaguar": 143
+, "Land Rover": 112
+, "Jeep": 105
+, "Alfa Romeo": 104
+, "Honda": 100
+, "Smart": 90
+, "Lexus": 58
+, "Subaru": 51
+, "DS Automobiles": 33
+, "Alpine": 7
+, "Maserati": 6
+, "Ferrari": 6
+, "Bentley": 5
+, "Aston Martin": 5
+, "Infiniti": 3
+, "Lamborghini": 2
+, "Rolls Royce": 2
+, "Chrysler": 2
+, "Mclaren": 1
+, "Morgan": 1
+, "Donkervoort": 1
+, "Lotus": 1
+, "other": 115
+});
+
+db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.rvo.nl/sites/default/files/2018/09/2018_08_Statistics%20Electric%20Vehicles%20and%20Charging%20in%20The%20Netherlands%20up%20to%20and%20including%20August%202018.pdf",
+{ "Tesla|Model S": 335
+, "Nissan|Leaf": 316
+, "Renault|ZOE": 53
+, "Tesla|Model X": 201
+, "Volkswagen|e-Golf": 120
+, "BMW|i3 BEV": 127
+, "Hyundai|Ioniq Electric": 135
+, "Opel|Ampera-e": 92
+});
 
 db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#sep",
 { "Opel": 3106
