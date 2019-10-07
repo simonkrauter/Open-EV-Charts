@@ -56,7 +56,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 17
 , "Nissan|e-NV200": 15
 , "Nissan|Leaf": 11
-, "Mercedes|B-Klasse Electric Drive": 3
+, "Mercedes-Benz|B-Klasse Electric Drive": 3
 });
 
 db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2018/pm_05_2018_fahrzeugzulassungen_02_2018_pdf.pdf?__blob=publicationFile&v=8",
@@ -109,7 +109,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 101
 , "Volkswagen|e-up!": 73
 , "Tesla|Model X": 51
-, "Mercedes|B-Klasse Electric Drive": 25
+, "Mercedes-Benz|B-Klasse Electric Drive": 25
 , "Citroën|C-Zero": 7
 , "Nissan|e-NV200": 6
 , "Ford|Focus Electric": 5
@@ -167,7 +167,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 61
 , "Opel|Ampera-e": 57
 , "Ford|Focus Electric": 10
-, "Mercedes|B-Klasse Electric Drive": 10
+, "Mercedes-Benz|B-Klasse Electric Drive": 10
 , "Peugeot|iOn": 9
 , "Citroën|C-Zero": 3
 , "Nissan|e-NV200": 1
@@ -281,7 +281,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 98
 , "Tesla|Model X": 88
 , "Volkswagen|e-up!": 76
-, "Mercedes|B-Klasse Electric Drive": 34
+, "Mercedes-Benz|B-Klasse Electric Drive": 34
 , "Opel|Ampera-e": 23
 , "Nissan|e-NV200": 15
 , "Citroën|C-Zero": 12
@@ -344,7 +344,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 29
 , "Ford|Focus Electric": 17
 , "Jaguar|I-Pace": 10
-, "Mercedes|B-Klasse Electric Drive": 8
+, "Mercedes-Benz|B-Klasse Electric Drive": 8
 , "Citroën|C-Zero": 7
 , "Opel|Ampera-e": 7
 , "Kia|Niro EV": 2
@@ -997,7 +997,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 66
 , "Volkswagen|e-up!": 55
 , "Tesla|Model X": 48
-, "Citron|C-Zero": 20
+, "Citroën|C-Zero": 20
 , "Kia|Niro EV": 11
 , "Opel|Ampera-e": 7
 , "Peugeot|iOn": 4
@@ -1057,7 +1057,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 76
 , "Jaguar|I-Pace": 56
 , "Volkswagen|e-up!": 25
-, "Citron|C-Zero": 20
+, "Citroën|C-Zero": 20
 , "Nissan|e-NV200": 18
 , "Peugeot|iOn": 16
 , "Kia|Niro EV": 10
@@ -1122,7 +1122,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 22
 , "Opel|Ampera-e": 12
 , "Volkswagen|e-up!": 12
-, "Citron|C-Zero": 10
+, "Citroën|C-Zero": 10
 });
 
 db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_20_2019_fahrzeugzulassungen_08_2019_pdf.pdf?__blob=publicationFile&v=8",
@@ -1181,7 +1181,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 24
 , "Peugeot|iOn": 14
 , "Opel|Ampera-e": 12
-, "Citron|C-Zero": 12
+, "Citroën|C-Zero": 12
 , "Kia|Niro EV": 8
 , "Volkswagen|e-up!": 5
 });
