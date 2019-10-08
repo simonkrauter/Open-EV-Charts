@@ -1006,7 +1006,7 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Lexus": 29931
 , "Mazda": 27482
 , "Audi": 21531
-, "Tesla": 16025
+, "Tesla": 15225
 , "Acura": 15189
 , "Mitsubishi": 8139
 , "Infiniti": 9185
@@ -1022,7 +1022,7 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 });
 
 db.insert(db.countries.US, "2019-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/368729/ev-sales-scorecard-august-2019/ (incomplete, only models with no ICE/hybrid variant included)",
-{ "Tesla|Model 3": 13150
+{ "Tesla|Model 3": 12350
 , "Tesla|Model X": 1825
 , "Tesla|Model S": 1050
 , "Nissan|Leaf": 1117
