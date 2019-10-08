@@ -88,7 +88,7 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|e-NV200": 49
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#mar",
+db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#mar (Unclear: Why is Tesla missing?)",
 { "Volvo": 8719
 , "Volkswagen": 5340
 , "Toyota": 2376
@@ -121,10 +121,11 @@ db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 25
 , "Iveco": 3
 , "Smart": 2
-, "other": 1188
+, "Tesla": 146
+, "other": 1042
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/sweden-march-2018.html",
+db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/sweden-march-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 250
 , "Renault|ZOE": 85
 , "Hyundai|Ioniq Electric": 114
@@ -132,7 +133,7 @@ db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-Golf": 36
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#apr",
+db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#apr (Unclear: Why is Tesla missing?)",
 { "Volvo": 7313
 , "Volkswagen": 5351
 , "Kia": 2110
@@ -165,10 +166,11 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 27
 , "Iveco": 12
 , "DS Automobiles": 2
-, "other": 1372
+, "Tesla": 44
+, "other": 1328
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/sweden-april-2018.html",
+db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/sweden-april-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 139
 , "Renault|ZOE": 56
 , "Hyundai|Ioniq Electric": 28
@@ -176,7 +178,7 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-Golf": 27
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#may",
+db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#may (Unclear: Why is Tesla missing?)",
 { "Volvo": 6544
 , "Volkswagen": 5920
 , "Kia": 2405
@@ -211,10 +213,11 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "NEVS": 4
 , "DS Automobiles": 1
 , "Smart": 1
-, "other": 1290
+, "Tesla": 29
+, "other": 1261
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/sweden-may-2018.html",
+db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/sweden-may-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 47
 , "Renault|ZOE": 51
 , "Hyundai|Ioniq Electric": 19
@@ -222,7 +225,7 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-Golf": 40
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#jun",
+db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#jun (Unclear: Why is Tesla missing?)",
 { "Volvo": 14695
 , "Volkswagen": 10273
 , "BMW": 3650
@@ -256,10 +259,11 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "SsangYong": 15
 , "NEVS": 8
 , "DS Automobiles": 2
-, "other": 2483
+, "Tesla": 85
+, "other": 2398
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/sweden-june-2018.html",
+db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/sweden-june-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 19
 , "Renault|ZOE": 43
 , "Tesla|Model S": 85
@@ -267,7 +271,7 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-Golf": 30
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#jul",
+db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#jul (Unclear: Why is Tesla missing?)",
 { "Volkswagen": 2414
 , "Volvo": 1462
 , "Kia": 1440
@@ -300,10 +304,11 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Iveco": 2
 , "DS Automobiles": 1
 , "Smart": 1
-, "other": 559
+, "Tesla": 65
+, "other": 494
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/sweden-july-2018.html",
+db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/sweden-july-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 62
 , "Renault|ZOE": 126
 , "Tesla|Model S": 65
@@ -313,7 +318,7 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 
 // No source found for electric car sales 2019-08
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#sep",
+db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#sep (Unclear: Why is Tesla missing?)",
 { "Volvo": 3301
 , "Kia": 2101
 , "Volkswagen": 1881
@@ -346,10 +351,11 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 3
 , "SsangYong": 2
 , "Smart": 1
-, "other": 863
+, "Tesla": 215
+, "other": 648
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/sweden-september-2018.html",
+db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/sweden-september-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 168
 , "Renault|ZOE": 191
 , "Tesla|Model S": 173
@@ -358,7 +364,7 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 42
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#oct",
+db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#oct (Unclear: Why is Tesla missing?)",
 { "Volvo": 3883
 , "Volkswagen": 2971
 , "Kia": 2002
@@ -389,10 +395,11 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 52
 , "Alfa Romeo": 15
 , "Smart": 1
-, "other": 804
+, "Tesla": 54
+, "other": 750
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/sweden-october-2018.html",
+db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/sweden-october-2018.html (incomplete, missing i3 BEV)",
 { "Renault|ZOE": 299
 , "Nissan|Leaf": 240
 , "Tesla|Model S": 44
@@ -401,7 +408,7 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 10
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#nov",
+db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#nov (Unclear: Why is Tesla missing?)",
 { "Volvo": 4943
 , "Volkswagen": 3236
 , "Kia": 1907
@@ -435,10 +442,11 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Iveco": 2
 , "Smart": 2
 , "Maybach": 1
-, "other": 907
+, "Tesla": 84
+, "other": 823
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/sweden-november-2018.html",
+db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/sweden-november-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 388
 , "Renault|ZOE": 166
 , "Tesla|Model S": 72
@@ -447,7 +455,7 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 12
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#dec",
+db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2018#dec (Unclear: Why is Tesla missing?)",
 { "Volvo": 4557
 , "Volkswagen": 2682
 , "Kia": 1462
@@ -480,10 +488,11 @@ db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Iveco": 1
 , "DS Automobiles": 1
 , "Smart": 1
-, "other": 758
+, "Tesla": 173
+, "other": 585
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/sweden-december-2018.html",
+db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/sweden-december-2018.html (incomplete, missing i3 BEV)",
 { "Nissan|Leaf": 343
 , "Renault|ZOE": 340
 , "Tesla|Model S": 107
@@ -872,7 +881,8 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 22
 , "Alpine": 3
 , "Iveco": 1
-, "other": 1588
+, "Tesla": 1002
+, "other": 586
 });
 
 db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/sweden-september-2019.html",
