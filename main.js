@@ -121,7 +121,7 @@ function renderFilters(chartSetDiv, chartConfig) {
 }
 
 function isWidthEnoughForFilterAsButtons() {
-  return window.innerWidth >= 1270;
+  return window.innerWidth >= 1400;
 }
 
 function renderFilterAsDropDown(parentDiv, param, selectedKey) {
