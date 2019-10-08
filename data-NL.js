@@ -407,7 +407,7 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lamborghini": 2
 , "Rolls Royce": 2
 , "Chrysler": 2
-, "Mclaren": 1
+, "McLaren": 1
 , "Morgan": 1
 , "Donkervoort": 1
 , "Lotus": 1

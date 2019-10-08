@@ -21,7 +21,7 @@ db.insert(db.countries.CH, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 116
 , "Jeep": 349
 , "Kia": 285
-, "Land-Rover": 308
+, "Land Rover": 308
 , "Lexus": 48
 , "Maserati": 66
 , "Mazda": 517
@@ -72,7 +72,7 @@ db.insert(db.countries.CH, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 110
 , "Jeep": 261
 , "Kia": 339
-, "Land-Rover": 263
+, "Land Rover": 263
 , "Lexus": 38
 , "Maserati": 55
 , "Mazda": 524
@@ -122,7 +122,7 @@ db.insert(db.countries.CH, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 182
 , "Jeep": 378
 , "Kia": 502
-, "Land-Rover": 409
+, "Land Rover": 409
 , "Lexus": 48
 , "Maserati": 59
 , "Mazda": 595
@@ -173,7 +173,7 @@ db.insert(db.countries.CH, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 142
 , "Jeep": 469
 , "Kia": 538
-, "Land-Rover": 299
+, "Land Rover": 299
 , "Lexus": 50
 , "Maserati": 62
 , "Mazda": 497
@@ -224,7 +224,7 @@ db.insert(db.countries.CH, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 142
 , "Jeep": 530
 , "Kia": 475
-, "Land-Rover": 256
+, "Land Rover": 256
 , "Lexus": 47
 , "Maserati": 41
 , "Mazda": 483
@@ -275,7 +275,7 @@ db.insert(db.countries.CH, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 285
 , "Jeep": 389
 , "Kia": 521
-, "Land-Rover": 421
+, "Land Rover": 421
 , "Lexus": 28
 , "Maserati": 50
 , "Mazda": 668
@@ -326,7 +326,7 @@ db.insert(db.countries.CH, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 114
 , "Jeep": 375
 , "Kia": 301
-, "Land-Rover": 201
+, "Land Rover": 201
 , "Lexus": 64
 , "Maserati": 46
 , "Mazda": 478
@@ -377,7 +377,7 @@ db.insert(db.countries.CH, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 55
 , "Jeep": 367
 , "Kia": 337
-, "Land-Rover": 173
+, "Land Rover": 173
 , "Lexus": 62
 , "Maserati": 23
 , "Mazda": 454
@@ -429,7 +429,7 @@ db.insert(db.countries.CH, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 188
 , "Jeep": 426
 , "Kia": 516
-, "Land-Rover": 228
+, "Land Rover": 228
 , "Lexus": 60
 , "Maserati": 52
 , "Mazda": 526
@@ -480,7 +480,7 @@ db.insert(db.countries.CH, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 215
 , "Jeep": 458
 , "Kia": 342
-, "Land-Rover": 361
+, "Land Rover": 361
 , "Lexus": 73
 , "Maserati": 53
 , "Mazda": 467
@@ -531,7 +531,7 @@ db.insert(db.countries.CH, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 200
 , "Jeep": 455
 , "Kia": 289
-, "Land-Rover": 316
+, "Land Rover": 316
 , "Lexus": 104
 , "Maserati": 48
 , "Mazda": 512
@@ -581,7 +581,7 @@ db.insert(db.countries.CH, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 209
 , "Jeep": 386
 , "Kia": 434
-, "Land-Rover": 574
+, "Land Rover": 574
 , "Lexus": 112
 , "Maserati": 45
 , "Mazda": 506
