@@ -692,7 +692,7 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Kona Electric": 50
 , "Hyundai|Ioniq Electric": 22
 , "Volkswagen|e-Golf": 52
-, "Audi|e-tron quattro": 43
+, "Audi|e-tron": 43
 });
 
 db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2019#may (Unclear: Why is Tesla missing?)",
@@ -742,7 +742,7 @@ db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Kona Electric": 51
 , "Hyundai|Ioniq Electric": 27
 , "Volkswagen|e-Golf": 62
-, "Audi|e-tron quattro": 80
+, "Audi|e-tron": 80
 });
 
 db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2019#jun (Unclear: Why is Tesla missing?)",
@@ -790,7 +790,7 @@ db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BMW|i3 BEV": 98
 , "Tesla|Model S": 209
 , "Hyundai|Kona Electric": 84
-, "Audi|e-tron quattro": 75
+, "Audi|e-tron": 75
 , "Kia|Soul EV": 94
 , "Volkswagen|e-Golf": 45
 });
@@ -842,7 +842,7 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BMW|i3 BEV": 78
 , "Tesla|Model S": 117
 , "Hyundai|Kona Electric": 10
-, "Audi|e-tron quattro": 75
+, "Audi|e-tron": 75
 , "Volkswagen|e-Golf": 63
 , "Kia|Soul EV": 28
 , "Hyundai|Ioniq Electric": 55
@@ -892,7 +892,7 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|Leaf": 142
 , "Tesla|Model S": 197
 , "BMW|i3 BEV": 69
-, "Audi|e-tron quattro": 87
+, "Audi|e-tron": 87
 , "Volkswagen|e-Golf": 132
 , "Hyundai|Kona Electric": 20
 , "Tesla|Model X": 89
@@ -905,7 +905,7 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 // , "Renault|ZOE":
 // , "Hyundai|Kona Electric":
 // , "Volkswagen|e-Golf":
-// , "Audi|e-tron quattro":
+// , "Audi|e-tron":
 // , "Tesla|Model 3":
 // , "Smart|Fortwo electric drive":
 // , "Nissan|Leaf":
