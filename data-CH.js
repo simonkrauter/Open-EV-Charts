@@ -994,6 +994,7 @@ db.insert(db.countries.CH, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 36
 , "Tesla|Model S": 24
 , "Tesla|Model X": 24
+, "Mercedes-Benz|EQC": 32
 , "Citroën|C-Zero": 1
 , "Peugeot|iOn": 2
 });
@@ -1049,6 +1050,7 @@ db.insert(db.countries.CH, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 45
 , "Tesla|Model S": 37
 , "Tesla|Model X": 47
+, "Mercedes-Benz|EQC": 19
 , "Citroën|C-Zero": 3
 });
 
