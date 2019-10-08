@@ -1024,11 +1024,16 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/368729/ev-sales-scorecard-august-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 12350
 , "Tesla|Model X": 1825
+, "Chevrolet|Bolt EV": 1720
 , "Tesla|Model S": 1050
 , "Nissan|Leaf": 1117
-, "Audi|e-tron": 593
 , "Volkswagen|e-Golf": 689
+, "Audi|e-tron": 593
 , "Jaguar|I-Pace": 160
 , "Honda|Clarity BEV": 65
+, "Hyundai|Kona Electric": 130
 , "Fiat|500e": 45
+, "Hyundai|Ioniq Electric": 40
+, "Kia|Soul EV": 8
 });
+
