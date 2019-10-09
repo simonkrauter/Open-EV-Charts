@@ -678,7 +678,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1349
 });
 
-db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2018/Dezember/",
+db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Renault|ZOE": 944
 , "Volkswagen|e-Golf": 529
 , "BMW|i3 BEV": 497
@@ -691,6 +691,8 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 86
 , "Tesla|Model S": 63
 , "Tesla|Model X": 42
+, "Porsche|Taycan": 28
+, "Mini|Electric": 23
 , "Kia|Niro EV": 22
 , "Opel|Ampera-e": 10
 , "Citroën|C-Zero": 9
@@ -737,7 +739,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1349
 });
 
-db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Januar/",
+db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Renault|ZOE": 799
 , "Volkswagen|e-Golf": 746
 , "BMW|i3 BEV": 645
@@ -755,8 +757,10 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 67
 , "Tesla|Model X": 44
 , "Jaguar|I-Pace": 16
+, "Mini|Electric": 16
 , "Opel|Ampera-e": 14
 , "Citroën|C-Zero": 5
+, "Porsche|Taycan": 5
 });
 
 db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_06_2019_fahrzeugzulassungen_02_2019_pdf.pdf?__blob=publicationFile&v=4",
@@ -797,7 +801,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1455
 });
 
-db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Februar/",
+db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Tesla|Model 3": 959
 , "Renault|ZOE": 782
 , "BMW|i3 BEV": 628
@@ -816,6 +820,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 46
 , "Opel|Ampera-e": 27
 , "Nissan|e-NV200": 26
+, "Porsche|Taycan": 20
 , "Citroën|C-Zero": 5
 , "Peugeot|iOn": 3
 });
@@ -858,7 +863,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1890
 });
 
-db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Maerz/",
+db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Tesla|Model 3": 2224
 , "Renault|ZOE": 1136
 , "BMW|i3 BEV": 708
@@ -875,7 +880,9 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 82
 , "Tesla|Model X": 61
 , "Volkswagen|e-up!": 59
+, "Mini|Electric": 33
 , "Kia|Soul EV": 33
+, "Porsche|Taycan": 30
 , "Citroën|C-Zero": 10
 , "Peugeot|iOn": 8
 , "Opel|Ampera-e": 6
@@ -919,7 +926,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1973
 });
 
-db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/April/",
+db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Renault|ZOE": 939
 , "BMW|i3 BEV": 734
 , "Tesla|Model 3": 514
@@ -937,8 +944,11 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 43
 , "Tesla|Model S": 40
 , "Kia|Niro EV": 39
+, "Porsche|Taycan": 38
+, "Mercedes-Benz|EQC": 37
 , "Tesla|Model X": 21
 , "Peugeot|iON": 11
+, "Mini|Electric": 9
 , "Opel|Ampera-e": 5
 });
 
@@ -980,7 +990,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1758
 });
 
-db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Mai/",
+db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Renault|ZOE": 875
 , "BMW|i3 BEV": 861
 , "Smart|Fortwo electric drive": 495
@@ -992,14 +1002,17 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 158
 , "Hyundai|Ioniq Electric": 152
 , "Nissan|Leaf": 96
+, "Mercedes-Benz|EQC": 93
 , "Jaguar|I-Pace": 86
 , "Tesla|Model S": 68
 , "Nissan|e-NV200": 66
 , "Volkswagen|e-up!": 55
 , "Tesla|Model X": 48
+, "Porsche|Taycan": 38
 , "Citroën|C-Zero": 20
 , "Kia|Niro EV": 11
 , "Opel|Ampera-e": 7
+, "Mini|Electric": 5
 , "Peugeot|iOn": 4
 });
 
@@ -1041,7 +1054,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1732
 });
 
-db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Juni/",
+db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Tesla|Model 3": 1336
 , "Renault|ZOE": 1020
 , "BMW|i3 BEV": 702
@@ -1055,13 +1068,16 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 102
 , "Tesla|Model X": 98
 , "Kia|Soul EV": 76
+, "Porsche|Taycan": 64
 , "Jaguar|I-Pace": 56
+, "Mercedes-Benz|EQC": 47
 , "Volkswagen|e-up!": 25
 , "Citroën|C-Zero": 20
 , "Nissan|e-NV200": 18
 , "Peugeot|iOn": 16
 , "Kia|Niro EV": 10
 , "Opel|Ampera-e": 9
+, "Mini|Electric": 1
 });
 
 db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_18_2019_fahrzeugzulassungen_07_2019_pdf.pdf?__blob=publicationFile&v=5",
@@ -1102,7 +1118,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2256
 });
 
-db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/Juli/",
+db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Volkswagen|e-Golf": 1007
 , "BMW|i3 BEV": 961
 , "Renault|ZOE": 910
@@ -1113,16 +1129,19 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 249
 , "Smart|Forfour electric drive": 211
 , "Hyundai|Ioniq Electric": 180
+, "Porsche|Taycan": 122
 , "Jaguar|I-Pace": 89
 , "Kia|Soul EV": 84
 , "Tesla|Model X": 78
 , "Tesla|Model S": 75
+, "Mercedes-Benz|EQC": 74
 , "Nissan|e-NV200": 27
 , "Peugeot|iOn": 25
 , "Kia|Niro EV": 22
 , "Opel|Ampera-e": 12
 , "Volkswagen|e-up!": 12
 , "Citroën|C-Zero": 10
+, "Mini|Electric": 6
 });
 
 db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_20_2019_fahrzeugzulassungen_08_2019_pdf.pdf?__blob=publicationFile&v=8",
@@ -1163,7 +1182,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2761
 });
 
-db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/August/",
+db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=6",
 { "BMW|i3 BEV": 987
 , "Renault|ZOE": 777
 , "Hyundai|Kona Electric": 441
@@ -1175,14 +1194,17 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 196
 , "Smart|Forfour electric drive": 157
 , "Hyundai|Ioniq Electric": 152
+, "Porsche|Taycan": 105
 , "Tesla|Model S": 98
 , "Jaguar|I-Pace": 82
+, "Mercedes-Benz|EQC": 80
 , "Tesla|Model X": 60
 , "Nissan|e-NV200": 24
 , "Peugeot|iOn": 14
 , "Opel|Ampera-e": 12
 , "Citroën|C-Zero": 12
 , "Kia|Niro EV": 8
+, "Mini|Electric": 6
 , "Volkswagen|e-up!": 5
 });
 
@@ -1224,7 +1246,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1202
 });
 
-db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.goingelectric.de/zulassungszahlen/2019/September/",
+db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Tesla|Model 3": 1516
 , "BMW|i3 BEV": 863
 , "Renault|ZOE": 634
@@ -1236,13 +1258,16 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Forfour electric drive": 143
 , "Kia|Soul EV": 133
 , "Hyundai|Ioniq Electric": 112
+, "Porsche|Taycan": 103
 , "Jaguar|I-Pace": 92
 , "Tesla|Model X": 84
 , "Tesla|Model S": 78
+, "Mercedes-Benz|EQC": 73
 , "Nissan|e-NV200": 53
 , "Volkswagen|e-Crafter": 28
 , "Kia|Niro EV": 21
 , "Peugeot|iOn": 19
+, "Mini|Electric": 14
 , "Opel|Ampera-e": 8
 , "Volkswagen|e-up!": 8
 , "Citroën|C-Zero": 7
