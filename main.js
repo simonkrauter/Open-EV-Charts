@@ -147,9 +147,20 @@ function renderFilterAsButtons(parentDiv, param) {
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
     button.appendChild(document.createTextNode(param.options[optionKey]));
+    if (param.allowMultiSelection)
+      button.title = "CTRL click for multi-selection";
     button.addEventListener("click", function(event) {
       event.preventDefault();
-      chartSetConfig[param.name] = optionKey;
+      if (param.allowMultiSelection && event.ctrlKey) {
+        var values = chartSetConfig[param.name].split(",");
+        var index = values.indexOf(optionKey);
+        if (index !== -1)
+          values.splice(index, 1);
+        else
+          values.push(optionKey);
+        chartSetConfig[param.name] = values.join(",");
+      } else
+        chartSetConfig[param.name] = optionKey;
       navigateToChartConfig(chartSetConfig);
     });
   }
