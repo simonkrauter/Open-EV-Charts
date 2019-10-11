@@ -55,7 +55,7 @@ function renderPage() {
   const chartSetDiv = document.createElement("DIV");
   dynamicContent.appendChild(chartSetDiv);
 
-  renderFilters(chartSetDiv, chartSetConfig);
+  renderFilters(chartSetDiv);
 
   for (const i in chartTileConfigs)
     renderChartTile(chartSetDiv, chartTileConfigs[i]);
@@ -71,20 +71,20 @@ function getChartConfigFromUrl() {
   return db.decodeChartConfigString(hash);
 }
 
-function renderFilters(chartSetDiv, chartConfig) {
+function renderFilters(chartSetDiv) {
   const div = document.createElement("DIV");
   chartSetDiv.appendChild(div);
   div.classList.add("filters");
 
-  const params = db.getChartParams(chartConfig);
+  const params = db.getChartParams(chartSetConfig);
   for (const i in params) {
     const param = params[i];
     if (!param.showAsFilter)
       continue;
-    if (showFilterAsButtons(chartConfig, param))
-      renderFilterAsButtons(div, param, chartConfig);
+    if (showFilterAsButtons(chartSetConfig, param))
+      renderFilterAsButtons(div, param, chartSetConfig);
     else
-      renderFilterAsDropDown(div, param, chartConfig);
+      renderFilterAsDropDown(div, param, chartSetConfig);
   }
 }
 
