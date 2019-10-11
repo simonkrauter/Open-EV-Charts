@@ -55,8 +55,8 @@ function renderPage() {
 
   renderFilters();
 
-  for (const i in chartTileConfigs)
-    renderChartTile(chartTileConfigs[i]);
+  for (const chartIndex in chartTileConfigs)
+    renderChart(chartIndex);
 }
 
 function getChartConfigFromUrl() {
@@ -79,19 +79,19 @@ function renderFilters() {
     const param = params[i];
     if (!param.showAsFilter)
       continue;
-    if (showFilterAsButtons(chartSetConfig, param))
-      renderFilterAsButtons(div, param, chartSetConfig);
+    if (showFilterAsButtons(param))
+      renderFilterAsButtons(div, param);
     else
-      renderFilterAsDropDown(div, param, chartSetConfig);
+      renderFilterAsDropDown(div, param);
   }
 }
 
-function showFilterAsButtons(chartConfig, param) {
+function showFilterAsButtons(param) {
   if (!["metric", "country"].includes(param.name))
     return false;
 
   // Drop down list can't handle multi-selection yet
-  if (param.allowMultiSelection && chartConfig[param.name].includes(","))
+  if (param.allowMultiSelection && chartSetConfig[param.name].includes(","))
     return true;
 
   if (!isWidthEnoughForFilterAsButtons())
@@ -104,8 +104,8 @@ function isWidthEnoughForFilterAsButtons() {
   return window.innerWidth >= 1400;
 }
 
-function renderFilterAsDropDown(parentDiv, param, chartConfig) {
-  const selectedKey = chartConfig[param.name];
+function renderFilterAsDropDown(parentDiv, param) {
+  const selectedKey = chartSetConfig[param.name];
   var select = addSelectElement(parentDiv);
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
@@ -120,8 +120,8 @@ function renderFilterAsDropDown(parentDiv, param, chartConfig) {
   }
 }
 
-function renderFilterAsButtons(parentDiv, param, chartConfig) {
-  const selectedKeys = chartConfig[param.name].split(",");
+function renderFilterAsButtons(parentDiv, param) {
+  const selectedKeys = chartSetConfig[param.name].split(",");
   const div = document.createElement("DIV");
   div.classList.add("full-row");
   parentDiv.appendChild(div);
@@ -153,7 +153,8 @@ function addSelectElement(parent, defaultOptionText) {
   return select;
 }
 
-function renderChartTile(chartConfig) {
+function renderChart(chartIndex) {
+  var chartConfig = chartTileConfigs[chartIndex];
   if (!isSingleChart)
     chartConfig.view = db.views.barChart;
 
@@ -167,7 +168,7 @@ function renderChartTile(chartConfig) {
   renderChartTitle(chartTileDiv, chartConfig);
 
   if (isSingleChart)
-    renderChartTabButtons(chartTileDiv, chartConfig);
+    renderChartTabButtons(chartTileDiv);
 
   if (chartData.series.length == 0) {
     const chartDiv = document.createElement("DIV");
@@ -204,24 +205,24 @@ function renderChartTitle(chartTileDiv, chartConfig) {
   }
 }
 
-function renderChartTabButtons(chartTileDiv, chartConfig) {
+function renderChartTabButtons(chartTileDiv) {
   const tabButtonsDiv = document.createElement("DIV");
   chartTileDiv.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tab-buttons");
-  const params = db.getChartParams(chartConfig);
+  const params = db.getChartParams(chartSetConfig);
   const viewOptions = params.view.options;
   for (const i in viewOptions)
-    renderChartTabButton(tabButtonsDiv, chartConfig, i, viewOptions[i]);
+    renderChartTabButton(tabButtonsDiv, i, viewOptions[i]);
 }
 
-function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
+function renderChartTabButton(tabButtonsDiv, key, title) {
   var button;
-  if (chartConfig.view == key)
+  if (chartSetConfig.view == key)
     button = document.createElement("DIV");
   else
     button = document.createElement("A");
   tabButtonsDiv.appendChild(button);
-  var chartConfigChanged = db.cloneObject(chartConfig);
+  var chartConfigChanged = db.cloneObject(chartSetConfig);
   chartConfigChanged.view = key;
   button.href = "#" + db.encodeChartConfig(chartConfigChanged);
   button.addEventListener("click", function(event) {
