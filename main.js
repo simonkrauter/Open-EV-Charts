@@ -311,8 +311,12 @@ function formatValue(chartConfig, value) {
       return value.toFixed(1).toLocaleString() + " %";
     else
       return (Math.round(value * 10) / 10).toLocaleString() + " %";
-  } else
-    return value.toLocaleString();
+  } else {
+    if (value != null)
+      return value.toLocaleString();
+    else
+      return value;
+  }
 }
 
 function renderChartView(chartConfig, chartData, chartTileDiv) {
