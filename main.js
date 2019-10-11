@@ -102,7 +102,7 @@ function renderFilters(chartSetDiv, chartConfig) {
     const param = params[i];
     if (!param.showAsFilter)
       continue;
-    if ((param.name == "metric" || param.name == "country") && isWidthEnoughForFilterAsButtons() && getChartConfigStringsFromUrl().length == 1)
+    if (showFilterAsButtons(param))
       renderFilterAsButtons(div, param, chartConfig[param.name]);
     else
       renderFilterAsDropDown(div, param, chartConfig[param.name]);
@@ -117,6 +117,19 @@ function renderFilters(chartSetDiv, chartConfig) {
       replaceChartSet(chartSetDiv, null);
     });
   }
+}
+
+function showFilterAsButtons(param) {
+  if (!["metric", "country"].includes(param.name))
+    return false;
+
+  if (!isWidthEnoughForFilterAsButtons())
+    return false;
+
+  if (!getChartConfigStringsFromUrl().length == 1)
+    return false;
+
+  return true;
 }
 
 function isWidthEnoughForFilterAsButtons() {
