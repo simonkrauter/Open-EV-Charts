@@ -1138,6 +1138,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 27
 , "Peugeot|iOn": 25
 , "Kia|Niro EV": 22
+, "Volkswagen|ID.3": 17
 , "Opel|Ampera-e": 12
 , "Volkswagen|e-up!": 12
 , "Citroën|C-Zero": 10
@@ -1199,6 +1200,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 82
 , "Mercedes-Benz|EQC": 80
 , "Tesla|Model X": 60
+, "Volkswagen|ID.3": 25
 , "Nissan|e-NV200": 24
 , "Peugeot|iOn": 14
 , "Opel|Ampera-e": 12
@@ -1258,12 +1260,13 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Forfour electric drive": 143
 , "Kia|Soul EV": 133
 , "Hyundai|Ioniq Electric": 112
-, "Porsche|Taycan": 103
 , "Jaguar|I-Pace": 92
 , "Tesla|Model X": 84
+, "Porsche|Taycan": 78
 , "Tesla|Model S": 78
 , "Mercedes-Benz|EQC": 73
 , "Nissan|e-NV200": 53
+, "Volkswagen|ID.3": 43
 , "Volkswagen|e-Crafter": 28
 , "Kia|Niro EV": 21
 , "Peugeot|iOn": 19
