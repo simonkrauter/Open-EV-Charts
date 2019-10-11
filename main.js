@@ -20,14 +20,26 @@ homeLink.addEventListener("click", function(event) {
   navigate();
 });
 
-var topLevelChartConfigCount = 0;
-var isSingleChart = false;
+var isSingleChart;
+var chartSetConfig;
+var chartTileConfigs;
 
 navigate();
 
 function navigate() {
+  chartSetConfig = getChartConfigFromUrl();
+  chartSetConfig = db.makeChartConfigValid(chartSetConfig);
+  chartTileConfigs = db.unfoldChartConfig(chartSetConfig);
+  isSingleChart = chartTileConfigs.length == 1;
+
   renderPage();
   logVisit();
+}
+
+function navigateToChartConfig(chartConfig) {
+  const hash = "#" + db.encodeChartConfig(chartConfig);
+  history.pushState(null, null, hash);
+  navigate();
 }
 
 function logVisit() {
@@ -40,56 +52,23 @@ function logVisit() {
 
 function renderPage() {
   dynamicContent.innerHTML = "";
+  const chartSetDiv = document.createElement("DIV");
+  dynamicContent.appendChild(chartSetDiv);
 
-  const chartConfigStrings = getChartConfigStringsFromUrl();
-  topLevelChartConfigCount = chartConfigStrings.length;
-  for (const i in chartConfigStrings) {
-    const chartConfigString = chartConfigStrings[i];
-    const chartSetDiv = document.createElement("DIV");
-    dynamicContent.appendChild(chartSetDiv);
-    chartSetDiv.classList.add("chart-set");
-    renderChartSet(chartSetDiv, db.decodeChartConfigString(chartConfigString));
-  }
+  renderFilters(chartSetDiv, chartSetConfig);
+
+  for (const i in chartTileConfigs)
+    renderChartTile(chartSetDiv, chartTileConfigs[i]);
 }
 
-function getChartConfigStringsFromUrl() {
-  return decodeURIComponent(location.hash.substr(1)).split(",");
-}
+function getChartConfigFromUrl() {
+  var hash = decodeURIComponent(location.hash.substr(1));
 
-function renderChartSet(chartSetDiv, chartConfig) {
-  chartConfig = db.makeChartConfigValid(chartConfig);
+  // backward compatibility to old format
+  const sets = hash.split(",");
+  hash = sets[0];
 
-  chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
-  chartSetDiv.innerHTML = "";
-
-  renderFilters(chartSetDiv, chartConfig);
-
-  const chartConfigList = db.unfoldChartConfig(chartConfig);
-  isSingleChart = topLevelChartConfigCount == 1 && chartConfigList.length == 1;
-  for (const i in chartConfigList)
-    renderChartTile(chartSetDiv, chartConfigList[i]);
-}
-
-function replaceChartSet(chartSetDiv, chartConfig) {
-  if (chartConfig == null)
-    chartSetDiv.parentNode.removeChild(chartSetDiv);
-  else
-    chartSetDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
-
-  // Rebuild URL
-  const oldCount = getChartConfigStringsFromUrl().length;
-  var chartConfigStrings = [];
-  for (var i = 0; i < dynamicContent.childNodes.length; i++)
-    chartConfigStrings.push(dynamicContent.childNodes[i].dataChartConfig);
-  const hash = "#" + chartConfigStrings.join(",");
-  history.pushState(null, null, hash);
-
-  // Render
-  if (oldCount > 1 && chartConfigStrings.length == 1)
-    renderPage(); // Get rid of remove button and to adjust chart size
-  else if (chartConfig)
-    renderChartSet(chartSetDiv, chartConfig);
-  logVisit();
+  return db.decodeChartConfigString(hash);
 }
 
 function renderFilters(chartSetDiv, chartConfig) {
@@ -102,31 +81,22 @@ function renderFilters(chartSetDiv, chartConfig) {
     const param = params[i];
     if (!param.showAsFilter)
       continue;
-    if (showFilterAsButtons(param))
-      renderFilterAsButtons(div, param, chartConfig[param.name]);
+    if (showFilterAsButtons(chartConfig, param))
+      renderFilterAsButtons(div, param, chartConfig);
     else
-      renderFilterAsDropDown(div, param, chartConfig[param.name]);
-  }
-
-  if (getChartConfigStringsFromUrl().length > 1) {
-    var removeButton = createRemoveButton();
-    div.appendChild(removeButton);
-    removeButton.addEventListener("click", function(event) {
-      event.preventDefault();
-      const chartSetDiv = event.target.parentNode.parentNode;
-      replaceChartSet(chartSetDiv, null);
-    });
+      renderFilterAsDropDown(div, param, chartConfig);
   }
 }
 
-function showFilterAsButtons(param) {
+function showFilterAsButtons(chartConfig, param) {
   if (!["metric", "country"].includes(param.name))
     return false;
 
-  if (!isWidthEnoughForFilterAsButtons())
-    return false;
+  // Drop down list can't handle multi-selection yet
+  if (param.allowMultiSelection && chartConfig[param.name].includes(","))
+    return true;
 
-  if (!getChartConfigStringsFromUrl().length == 1)
+  if (!isWidthEnoughForFilterAsButtons())
     return false;
 
   return true;
@@ -136,13 +106,12 @@ function isWidthEnoughForFilterAsButtons() {
   return window.innerWidth >= 1400;
 }
 
-function renderFilterAsDropDown(parentDiv, param, selectedKey) {
+function renderFilterAsDropDown(parentDiv, param, chartConfig) {
+  const selectedKey = chartConfig[param.name];
   var select = addSelectElement(parentDiv);
   select.addEventListener("change", function(event) {
-    const chartSetDiv = event.target.parentNode.parentNode.parentNode;
-    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
-    chartConfig[param.name] = event.target.value;
-    replaceChartSet(chartSetDiv, chartConfig);
+    chartSetConfig[param.name] = event.target.value;
+    navigateToChartConfig(chartSetConfig);
   });
   for (const optionKey in param.options) {
     var option = document.createElement("OPTION");
@@ -153,27 +122,26 @@ function renderFilterAsDropDown(parentDiv, param, selectedKey) {
   }
 }
 
-function renderFilterAsButtons(parentDiv, param, selectedKey) {
+function renderFilterAsButtons(parentDiv, param, chartConfig) {
+  const selectedKeys = chartConfig[param.name].split(",");
   const div = document.createElement("DIV");
   div.classList.add("full-row");
   parentDiv.appendChild(div);
   for (const optionKey in param.options) {
-    const chartSetDiv = parentDiv.parentNode;
-    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
+    var chartConfig = cloneObject(chartSetConfig);
     chartConfig[param.name] = optionKey;
 
     var button = document.createElement("A");
     div.appendChild(button);
     button.href = "#" + db.encodeChartConfig(chartConfig);
     button.classList.add("button");
-    if (optionKey == selectedKey)
+    if (selectedKeys.includes(optionKey))
       button.classList.add("active");
     button.appendChild(document.createTextNode(param.options[optionKey]));
     button.addEventListener("click", function(event) {
-      var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
-      chartConfig[param.name] = optionKey;
-      replaceChartSet(chartSetDiv, chartConfig);
       event.preventDefault();
+      chartSetConfig[param.name] = optionKey;
+      navigateToChartConfig(chartSetConfig);
     });
   }
 }
@@ -259,37 +227,51 @@ function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
   chartConfigChanged.view = key;
   button.href = "#" + db.encodeChartConfig(chartConfigChanged);
   button.addEventListener("click", function(event) {
-    const chartTileDiv = event.target.parentNode.parentNode;
-    const chartSetDiv = chartTileDiv.parentNode;
-    var chartConfig = db.decodeChartConfigString(chartSetDiv.dataChartConfig);
-    chartConfig.view = key;
-    replaceChartSet(chartSetDiv, chartConfig);
     event.preventDefault();
+    chartSetConfig.view = key;
+    navigateToChartConfig(chartSetConfig);
   });
   button.appendChild(document.createTextNode(title));
 }
 
 function chartTileRemoveClick(event) {
   event.preventDefault();
-  const chartTileDiv = event.target.parentNode;
-  const chartSetDiv = chartTileDiv.parentNode;
-  var chartConfigStrings = [];
-  for (var i = 0; i < dynamicContent.childNodes.length; i++) {
-    const child = dynamicContent.childNodes[i];
-    if (child == chartSetDiv) {
-      const chartConfig = db.decodeChartConfigString(child.dataChartConfig);
-      const chartConfigList = db.unfoldChartConfig(chartConfig);
-      for (const i in chartConfigList) {
-        const newChartConfig = db.encodeChartConfig(chartConfigList[i]);
-        if (newChartConfig != chartTileDiv.dataChartConfig)
-          chartConfigStrings.push(newChartConfig);
-      }
-    } else
-      chartConfigStrings.push(child.dataChartConfig);
+
+  const params = db.getChartParams();
+  var currentParam;
+  for (const i in params) {
+    const param = params[i];
+    if (param.unfoldKey && chartSetConfig[param.name] == param.unfoldKey) {
+      currentParam = param;
+      break;
+    }
   }
-  const hash = "#" + chartConfigStrings.join(",");
-  history.pushState(null, null, hash);
-  renderPage();
+  if (currentParam == null) {
+    for (const i in params) {
+      const param = params[i];
+      if (param.allowMultiSelection && chartSetConfig[param.name].includes(",")) {
+        currentParam = param;
+        break;
+      }
+    }
+  }
+  if (currentParam == null) // should never happen
+    return;
+
+  const tileDiv = event.target.parentNode;
+  const tileConfig = db.decodeChartConfigString(tileDiv.dataChartConfig);
+  const valueToRemove = tileConfig[currentParam.name];
+
+  var newValues = [];
+  for (const i in chartTileConfigs) {
+    const chartTileConfig = chartTileConfigs[i];
+    const value = chartTileConfig[currentParam.name];
+    if (value != valueToRemove && !newValues.includes(value))
+      newValues.push(value);
+  }
+
+  chartSetConfig[currentParam.name] = newValues.join(",");
+  navigateToChartConfig(chartSetConfig);
 }
 
 function createButton() {

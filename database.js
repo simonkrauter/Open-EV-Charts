@@ -165,6 +165,7 @@ var db = {
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
     param.showAsFilter = true;
+    param.allowMultiSelection = true;
     result[param.name] = param;
 
     // country
@@ -180,6 +181,7 @@ var db = {
     param.defaultOption = this.countryOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
+    param.allowMultiSelection = true;
     result[param.name] = param;
 
     // x-axis property
@@ -311,8 +313,12 @@ var db = {
     const params = this.getChartParams();
     for (const i in params) {
       const param = params[i];
-      if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl && chartConfig[param.name])
-        parts.push(chartConfig[param.name]);
+      if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl) {
+        var values = chartConfig[param.name].split(",");
+        for (const i in values) {
+          parts.push(values[i]);
+        }
+      }
     }
     return parts.join(":");
   },
@@ -327,14 +333,23 @@ var db = {
       if (!params[i])
         continue;
       const param = params[i];
-      var selectedValue = param.defaultOption;
+      var selectedValue = null;
       for (const j in parts) {
         const part = parts[j];
         if (part in param.options) {
-          selectedValue = part;
-          break;
+          if (param.allowMultiSelection) {
+            if (selectedValue == null)
+              selectedValue = part;
+            else
+              selectedValue = selectedValue + "," + part;
+          } else {
+            selectedValue = part;
+            break;
+          }
         }
       }
+      if (selectedValue == null)
+        selectedValue = param.defaultOption;
       result[param.name] = selectedValue;
       params = this.getChartParams(result);
     }
@@ -377,6 +392,20 @@ var db = {
           }
         }
         result = newResult;
+      }
+      if (param.allowMultiSelection && yProperty != param.name) {
+        var values = chartConfig[param.name].split(",");
+        if (values.length > 1) {
+          var newResult = [];
+          for (const j in result) {
+            for (const i in values) {
+              var newConfig = JSON.parse(JSON.stringify(result[j]));
+              newConfig[param.name] = values[i];
+              newResult.push(newConfig);
+            }
+          }
+          result = newResult;
+        }
       }
     }
     return result;
