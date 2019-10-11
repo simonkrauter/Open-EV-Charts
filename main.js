@@ -52,13 +52,11 @@ function logVisit() {
 
 function renderPage() {
   dynamicContent.innerHTML = "";
-  const chartSetDiv = document.createElement("DIV");
-  dynamicContent.appendChild(chartSetDiv);
 
-  renderFilters(chartSetDiv);
+  renderFilters();
 
   for (const i in chartTileConfigs)
-    renderChartTile(chartSetDiv, chartTileConfigs[i]);
+    renderChartTile(chartTileConfigs[i]);
 }
 
 function getChartConfigFromUrl() {
@@ -71,9 +69,9 @@ function getChartConfigFromUrl() {
   return db.decodeChartConfigString(hash);
 }
 
-function renderFilters(chartSetDiv) {
+function renderFilters() {
   const div = document.createElement("DIV");
-  chartSetDiv.appendChild(div);
+  dynamicContent.appendChild(div);
   div.classList.add("filters");
 
   const params = db.getChartParams(chartSetConfig);
@@ -155,14 +153,14 @@ function addSelectElement(parent, defaultOptionText) {
   return select;
 }
 
-function renderChartTile(chartSetDiv, chartConfig) {
+function renderChartTile(chartConfig) {
   if (!isSingleChart)
     chartConfig.view = db.views.barChart;
 
   var chartData = db.queryChartData(chartConfig);
 
   const chartTileDiv = document.createElement("DIV");
-  chartSetDiv.appendChild(chartTileDiv);
+  dynamicContent.appendChild(chartTileDiv);
   chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
   chartTileDiv.classList.add("chart-tile");
 
