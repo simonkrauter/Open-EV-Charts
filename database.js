@@ -77,6 +77,10 @@ var db = {
     return value;
   },
 
+  cloneObject: function(obj) {
+    return JSON.parse(JSON.stringify(obj))
+  },
+
   formatMonth: function(year, month) {
     return year + "-" + ("0" + month).substr(-2);
   },
@@ -385,7 +389,7 @@ var db = {
         for (const j in result) {
           for (const k in param.options) {
             if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
-              var newConfig = JSON.parse(JSON.stringify(result[j]));
+              var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = k;
               newResult.push(newConfig);
             }
@@ -399,7 +403,7 @@ var db = {
           var newResult = [];
           for (const j in result) {
             for (const i in values) {
-              var newConfig = JSON.parse(JSON.stringify(result[j]));
+              var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = values[i];
               newResult.push(newConfig);
             }
@@ -657,7 +661,7 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows});
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
-      var chartConfigForSum = JSON.parse(JSON.stringify(chartConfig));
+      var chartConfigForSum = this.cloneObject(chartConfig);
       chartConfigForSum.brand = this.brandOptions.all;
       if (chartConfig.xProperty == this.xProperties.model)
         chartConfigForSum.model = this.modelOptions.all;

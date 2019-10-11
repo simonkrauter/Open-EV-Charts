@@ -128,7 +128,7 @@ function renderFilterAsButtons(parentDiv, param, chartConfig) {
   div.classList.add("full-row");
   parentDiv.appendChild(div);
   for (const optionKey in param.options) {
-    var chartConfig = cloneObject(chartSetConfig);
+    var chartConfig = db.cloneObject(chartSetConfig);
     chartConfig[param.name] = optionKey;
 
     var button = document.createElement("A");
@@ -223,7 +223,7 @@ function renderChartTabButton(tabButtonsDiv, chartConfig, key, title) {
   else
     button = document.createElement("A");
   tabButtonsDiv.appendChild(button);
-  var chartConfigChanged = cloneObject(chartConfig);
+  var chartConfigChanged = db.cloneObject(chartConfig);
   chartConfigChanged.view = key;
   button.href = "#" + db.encodeChartConfig(chartConfigChanged);
   button.addEventListener("click", function(event) {
@@ -529,8 +529,4 @@ function renderSources(chartTileDiv, chartData) {
     if (parts.length > 0)
       li.appendChild(document.createTextNode(" " + parts.join(" ")));
   }
-}
-
-function cloneObject(obj) {
-  return JSON.parse(JSON.stringify(obj))
 }
