@@ -339,15 +339,19 @@ var db = {
       params = this.getChartParams(result);
     }
 
-    // Remove invalid combinations
-    if (result.xProperty == this.xProperties.country)
-      result.country = this.countryOptions.all;
-    if (result.xProperty == this.xProperties.brand)
-      result.brand = this.brandOptions.all;
-    if (result.brand == this.brandOptions.combine && result.model == this.modelOptions.all)
-      result.model = this.modelOptions.combine;
+    return this.makeChartConfigValid(result);
+  },
 
-    return result;
+  makeChartConfigValid: function(chartConfig) {
+    if (chartConfig.xProperty == this.xProperties.country)
+      chartConfig.country = this.countryOptions.all;
+    if (chartConfig.xProperty == this.xProperties.brand)
+      chartConfig.brand = this.brandOptions.all;
+    if (chartConfig.brand == this.brandOptions.combine && chartConfig.model == this.modelOptions.all)
+      chartConfig.model = this.modelOptions.combine;
+    if(chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
+      chartConfig.xProperty = this.xProperties.brand;
+    return chartConfig;
   },
 
   unfoldChartConfig: function(chartConfig) {
