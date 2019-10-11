@@ -337,24 +337,19 @@ var db = {
       if (!params[i])
         continue;
       const param = params[i];
-      var selectedValue = null;
+      var selectedValues = [];
       for (const j in parts) {
         const part = parts[j];
         if (part in param.options) {
-          if (param.allowMultiSelection) {
-            if (selectedValue == null)
-              selectedValue = part;
-            else
-              selectedValue = selectedValue + "," + part;
-          } else {
-            selectedValue = part;
+          if (!selectedValues.includes(part))
+            selectedValues.push(part);
+          if (!param.allowMultiSelection)
             break;
-          }
         }
       }
-      if (selectedValue == null)
-        selectedValue = param.defaultOption;
-      result[param.name] = selectedValue;
+      if (selectedValues.length == 0)
+        selectedValues.push(param.defaultOption);
+      result[param.name] = selectedValues.join(",");
       params = this.getChartParams(result);
     }
 
