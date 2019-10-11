@@ -55,8 +55,19 @@ function renderPage() {
 
   renderFilters();
 
-  for (const chartIndex in chartConfigs)
-    renderChart(chartIndex);
+  // Prevent displaying of too many charts at one
+  var maxVisibleCharts = 4;
+  if (isWidthEnoughForFilterAsButtons())
+    maxVisibleCharts = 6;
+
+  for (const chartIndex in chartConfigs) {
+    var chartDiv = renderChart(chartIndex);
+    if (chartIndex >= maxVisibleCharts)
+      chartDiv.style.display = "none";
+  }
+
+  if (chartConfigs.length > maxVisibleCharts)
+    addShowAllChartsButton();
 }
 
 function getChartConfigFromUrl() {
@@ -182,6 +193,8 @@ function renderChart(chartIndex) {
     else if (chartConfig.view == db.views.sources)
       renderSources(chartDiv, chartData);
   }
+
+  return chartDiv;
 }
 
 function renderChartTitle(chartDiv, chartConfig) {
@@ -270,6 +283,25 @@ function chartRemoveClick(event) {
 
   chartSetConfig[currentParam.name] = newValues.join(",");
   navigateToChartConfig(chartSetConfig);
+}
+
+function addShowAllChartsButton() {
+  const div = document.createElement("DIV");
+  dynamicContent.appendChild(div);
+  var button = createButton();
+  div.appendChild(button);
+  button.appendChild(document.createTextNode("Show All Charts"));
+  button.addEventListener("click", showAllChartsButtonClick);
+}
+
+function showAllChartsButtonClick(event) {
+  event.preventDefault();
+  const nodes = event.target.parentNode.parentNode.childNodes;
+  for (const i in nodes) {
+    if (nodes[i].style)
+      nodes[i].style.display = "";
+  }
+  event.target.style.display = "none";
 }
 
 function createButton() {
