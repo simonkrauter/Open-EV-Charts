@@ -22,15 +22,15 @@ homeLink.addEventListener("click", function(event) {
 
 var isSingleChart;
 var chartSetConfig;
-var chartTileConfigs;
+var chartConfigs;
 
 navigate();
 
 function navigate() {
   chartSetConfig = getChartConfigFromUrl();
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
-  chartTileConfigs = db.unfoldChartConfig(chartSetConfig);
-  isSingleChart = chartTileConfigs.length == 1;
+  chartConfigs = db.unfoldChartConfig(chartSetConfig);
+  isSingleChart = chartConfigs.length == 1;
 
   renderPage();
   logVisit();
@@ -55,7 +55,7 @@ function renderPage() {
 
   renderFilters();
 
-  for (const chartIndex in chartTileConfigs)
+  for (const chartIndex in chartConfigs)
     renderChart(chartIndex);
 }
 
@@ -154,38 +154,37 @@ function addSelectElement(parent, defaultOptionText) {
 }
 
 function renderChart(chartIndex) {
-  var chartConfig = chartTileConfigs[chartIndex];
+  var chartConfig = chartConfigs[chartIndex];
   if (!isSingleChart)
     chartConfig.view = db.views.barChart;
 
   var chartData = db.queryChartData(chartConfig);
 
-  const chartTileDiv = document.createElement("DIV");
-  dynamicContent.appendChild(chartTileDiv);
-  chartTileDiv.dataChartConfig = db.encodeChartConfig(chartConfig);
-  chartTileDiv.classList.add("chart-tile");
+  const chartDiv = document.createElement("DIV");
+  dynamicContent.appendChild(chartDiv);
+  chartDiv.dataChartIndex = chartIndex;
+  chartDiv.classList.add("chart-tile");
 
-  renderChartTitle(chartTileDiv, chartConfig);
+  renderChartTitle(chartDiv, chartConfig);
 
   if (isSingleChart)
-    renderChartTabButtons(chartTileDiv);
+    renderChartTabButtons(chartDiv);
 
   if (chartData.series.length == 0) {
-    const chartDiv = document.createElement("DIV");
     const div = document.createElement("DIV");
-    chartTileDiv.appendChild(div);
+    chartDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data"));
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
-      renderChartView(chartConfig, chartData, chartTileDiv);
+      renderChartView(chartConfig, chartData, chartDiv);
     else if (chartConfig.view == db.views.table)
-      renderTable(chartConfig, chartTileDiv, chartData);
+      renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
-      renderSources(chartTileDiv, chartData);
+      renderSources(chartDiv, chartData);
   }
 }
 
-function renderChartTitle(chartTileDiv, chartConfig) {
+function renderChartTitle(chartDiv, chartConfig) {
   var titleElem;
   if (isSingleChart)
     titleElem = document.createElement("DIV");
@@ -194,20 +193,20 @@ function renderChartTitle(chartTileDiv, chartConfig) {
     titleElem.href = "#" + db.encodeChartConfig(chartConfig);
     titleElem.title = "Show only this chart (bigger)";
   }
-  chartTileDiv.appendChild(titleElem);
+  chartDiv.appendChild(titleElem);
   titleElem.classList.add("chart-title");
   titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig)));
 
   if (!isSingleChart) {
     var removeButton = createRemoveButton();
-    chartTileDiv.appendChild(removeButton);
-    removeButton.addEventListener("click", chartTileRemoveClick);
+    chartDiv.appendChild(removeButton);
+    removeButton.addEventListener("click", chartRemoveClick);
   }
 }
 
-function renderChartTabButtons(chartTileDiv) {
+function renderChartTabButtons(chartDiv) {
   const tabButtonsDiv = document.createElement("DIV");
-  chartTileDiv.appendChild(tabButtonsDiv);
+  chartDiv.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tab-buttons");
   const params = db.getChartParams(chartSetConfig);
   const viewOptions = params.view.options;
@@ -233,7 +232,7 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
   button.appendChild(document.createTextNode(title));
 }
 
-function chartTileRemoveClick(event) {
+function chartRemoveClick(event) {
   event.preventDefault();
 
   const params = db.getChartParams();
@@ -257,14 +256,14 @@ function chartTileRemoveClick(event) {
   if (currentParam == null) // should never happen
     return;
 
-  const tileDiv = event.target.parentNode;
-  const tileConfig = db.decodeChartConfigString(tileDiv.dataChartConfig);
-  const valueToRemove = tileConfig[currentParam.name];
+  const chartDiv = event.target.parentNode;
+  const chartConfig = chartConfigs[chartDiv.dataChartIndex];
+  const valueToRemove = chartConfig[currentParam.name];
 
   var newValues = [];
-  for (const i in chartTileConfigs) {
-    const chartTileConfig = chartTileConfigs[i];
-    const value = chartTileConfig[currentParam.name];
+  for (const i in chartConfigs) {
+    const chartConfig = chartConfigs[i];
+    const value = chartConfig[currentParam.name];
     if (value != valueToRemove && !newValues.includes(value))
       newValues.push(value);
   }
@@ -312,7 +311,7 @@ function formatValue(chartConfig, value) {
   }
 }
 
-function renderChartView(chartConfig, chartData, chartTileDiv) {
+function renderChartView(chartConfig, chartData, chartDiv) {
   var chartOptions = {
     title: {
       margin: 0,
@@ -394,9 +393,9 @@ function renderChartView(chartConfig, chartData, chartTileDiv) {
   chartOptions.chart.width = Math.max(wantedWith, minWidth);
   chartOptions.chart.height = Math.max(chartOptions.chart.width * heightRatio, minHeight);
 
-  const chartDiv = document.createElement("DIV");
-  chartTileDiv.appendChild(chartDiv);
-  var chart = new ApexCharts(chartDiv, chartOptions);
+  const chartInnerDiv = document.createElement("DIV");
+  chartDiv.appendChild(chartInnerDiv);
+  var chart = new ApexCharts(chartInnerDiv, chartOptions);
   chart.render();
 }
 
@@ -469,9 +468,9 @@ function getChartSeriesColors(chartConfig, chartData) {
   return colors;
 }
 
-function renderTable(chartConfig, chartTileDiv, chartData) {
+function renderTable(chartConfig, chartDiv, chartData) {
   const table = document.createElement("TABLE");
-  chartTileDiv.appendChild(table);
+  chartDiv.appendChild(table);
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
@@ -507,9 +506,9 @@ function renderTable(chartConfig, chartTileDiv, chartData) {
   }
 }
 
-function renderSources(chartTileDiv, chartData) {
+function renderSources(chartDiv, chartData) {
   const sourcesDiv = document.createElement("DIV");
-  chartTileDiv.appendChild(sourcesDiv);
+  chartDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
   const ol = document.createElement("OL");
