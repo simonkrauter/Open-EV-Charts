@@ -248,6 +248,16 @@ var db = {
         year--;
       }
     }
+    if (chartConfig != null && chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null) {
+      // Allow to select a time spans which is not included in the suggested options
+      var text = chartConfig.timeSpan.substr(1);
+      if (chartConfig.timeSpan.startsWith("q")) {
+        const year = chartConfig.timeSpan.substr(1, 4);
+        const quarter = chartConfig.timeSpan.substr(6, 1);
+        text = this.formatQuarter(year, quarter);
+      }
+      param.options[chartConfig.timeSpan] = text;
+    }
     param.defaultOption = this.timeSpanOptions.last2y;
     param.showInTitle = chartConfig == null || [this.xProperties.country, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
     param.showAsFilter = true;
@@ -346,6 +356,9 @@ var db = {
             selectedValues.push(part);
           if (!param.allowMultiSelection)
             break;
+        } else if (param.name == "timeSpan" && ((part.startsWith("m") && part.length == 8) || (part.startsWith("q") && part.length == 7) || (part.startsWith("y") && part.length == 5))) {
+          // Allow to select a time spans which is not included in the suggested options
+          selectedValues.push(part);
         }
       }
       if (selectedValues.length == 0)
