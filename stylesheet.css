@@ -45,9 +45,16 @@ a.button, .select-wrapper {
   display: inline-block;
   margin-top: 6px;
   margin-bottom: 6px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
   min-width: 80px;
+}
+
+@media (min-width: 1150px) {
+  .filters > a.button, .filters > .select-wrapper {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
 }
 
 a.button {

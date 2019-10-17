@@ -112,7 +112,7 @@ function showFilterAsButtons(param) {
 }
 
 function isWidthEnoughForFilterAsButtons() {
-  return window.innerWidth >= 1400;
+  return window.innerWidth >= 1300;
 }
 
 function renderFilterAsDropDown(parentDiv, param) {
