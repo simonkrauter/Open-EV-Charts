@@ -134,7 +134,6 @@ function renderFilterAsDropDown(parentDiv, param) {
 function renderFilterAsButtons(parentDiv, param) {
   const selectedKeys = chartSetConfig[param.name].split(",");
   const div = document.createElement("DIV");
-  div.classList.add("full-row");
   parentDiv.appendChild(div);
   for (const optionKey in param.options) {
     var chartConfig = db.cloneObject(chartSetConfig);
