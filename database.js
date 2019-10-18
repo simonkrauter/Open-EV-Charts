@@ -356,7 +356,7 @@ var db = {
             selectedValues.push(part);
           if (!param.allowMultiSelection)
             break;
-        } else if (param.name == "timeSpan" && Number.isInteger(part[1]) && (part.startsWith("m") || part.startsWith("q") || part.startsWith("y"))) {
+        } else if (param.name == "timeSpan" && Number.isInteger(parseInt(part[1])) && (part.startsWith("m") || part.startsWith("q") || part.startsWith("y"))) {
           // Allow to select a time spans which is not included in the suggested options
           selectedValues.push(part);
         }
