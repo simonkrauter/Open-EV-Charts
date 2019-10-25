@@ -372,6 +372,9 @@ function renderChartView(chartConfig, chartData, chartDiv) {
     },
     stroke: {
     },
+    fill: {
+      opacity: 1
+    },
     colors: getChartSeriesColors(chartConfig, chartData),
     series: [],
     xaxis: {
