@@ -367,9 +367,6 @@ function renderChartView(chartConfig, chartData, chartDiv) {
         show: isSingleChart
       }
     },
-    plotOptions: {
-      bar: {}
-    },
     stroke: {
     },
     fill: {
