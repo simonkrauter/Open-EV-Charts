@@ -112,6 +112,8 @@ var db = {
 
   timeSpanOptions:
   { "all": "all-time"
+  , "last3m": "3m"
+  , "last6m": "6m"
   , "last1y": "1y"
   , "last2y": "2y"
   },
@@ -208,6 +210,8 @@ var db = {
     param.name = "timeSpan";
     param.options = {};
     param.options[this.timeSpanOptions.all] = "All Time";
+    param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
+    param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
     param.options[this.timeSpanOptions.last1y] = "Last Year";
     param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
     var currentDate = new Date();
@@ -472,7 +476,7 @@ var db = {
         filterMonthFirst = parseInt(chartConfig.timeSpan.substr(1).substr(5, 2));
         filterYearLast = filterYearFirst;
         filterMonthLast = filterMonthFirst;
-      } else if (chartConfig.timeSpan.endsWith("y")) {
+      } else if (chartConfig.timeSpan.endsWith("y") || chartConfig.timeSpan.endsWith("m")) {
         var currentDate = new Date();
         var latestYear = 1900 + currentDate.getYear();
         var latestMonth = 1 + currentDate.getMonth();
@@ -483,11 +487,21 @@ var db = {
         }
         filterYearLast = latestYear;
         filterMonthLast = latestMonth;
-        filterYearFirst = latestYear - parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
-        filterMonthFirst = filterMonthLast + 1;
-        if (filterMonthFirst > 12) {
-          filterYearFirst++;
-          filterMonthFirst = 1;
+        const quantity = parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
+        if (chartConfig.timeSpan.endsWith("y")) {
+          filterYearFirst = latestYear - quantity;
+          filterMonthFirst = filterMonthLast + 1;
+          if (filterMonthFirst > 12) {
+            filterYearFirst++;
+            filterMonthFirst = filterMonthFirst - 12;
+          }
+        } else if (chartConfig.timeSpan.endsWith("m")) {
+          filterYearFirst = latestYear;
+          filterMonthFirst = latestMonth - quantity + 1;
+          if (filterMonthFirst < 1) {
+            filterYearFirst--;
+            filterMonthFirst = filterMonthFirst + 12;
+          }
         }
       }
     }
