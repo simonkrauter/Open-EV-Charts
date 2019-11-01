@@ -24,6 +24,7 @@ var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
 
+setGlobalChartOptions();
 navigate();
 
 function navigate() {
@@ -179,12 +180,14 @@ function renderChart(chartIndex) {
   if (!isSingleChart)
     chartConfig.view = db.views.barChart;
 
-  var chartData = db.queryChartData(chartConfig);
+  const chartData = db.queryChartData(chartConfig);
 
   const chartDiv = document.createElement("DIV");
   dynamicContent.appendChild(chartDiv);
   chartDiv.dataChartIndex = chartIndex;
   chartDiv.classList.add("chart-tile");
+  if (isSingleChart)
+    chartDiv.classList.add("single");
 
   renderChartTitle(chartDiv, chartConfig);
 
@@ -196,9 +199,11 @@ function renderChart(chartIndex) {
     chartDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data"));
   } else {
-    if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view))
-      renderChartView(chartConfig, chartData, chartDiv);
-    else if (chartConfig.view == db.views.table)
+    if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
+      renderChartView(chartConfig, chartData, chartDiv, false);
+      if (isSingleChart)
+        addPngExportButton(chartDiv);
+    } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
       renderSources(chartDiv, chartData);
@@ -353,92 +358,149 @@ function formatValue(chartConfig, value) {
   }
 }
 
-function renderChartView(chartConfig, chartData, chartDiv) {
+function setGlobalChartOptions() {
+  const bodyStyle = window.getComputedStyle(document.body);
+  Chart.defaults.global.defaultFontColor = bodyStyle["color"];
+  Chart.defaults.global.defaultFontFamily = bodyStyle["font-family"];
+  Chart.defaults.global.animation.duration = 0;
+  Chart.defaults.global.title.fontSize = 20;
+  Chart.defaults.global.legend.position = "bottom";
+  Chart.defaults.global.legend.labels.boxWidth = 12;
+  Chart.defaults.global.plugins.datalabels.color = "white";
+  Chart.defaults.global.elements.line.fill = false;
+  Chart.defaults.global.elements.line.borderWidth = 3.5;
+  Chart.defaults.global.elements.line.tension = 0.2;
+}
+
+function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   var chartOptions = {
-    title: {
-      margin: 0,
-      floating: true
+    data: {
+      datasets: []
     },
-    chart: {
-      animations: {
-        enabled: false
+    options: {
+      title: {
+        display: isExport,
+        text: db.getChartTitle(chartConfig)
       },
-      toolbar: {
-        show: isSingleChart
-      }
-    },
-    stroke: {
-    },
-    fill: {
-      opacity: 1
-    },
-    colors: getChartSeriesColors(chartConfig, chartData),
-    series: [],
-    xaxis: {
-    },
-    yaxis: {
-      min: 0,
-      forceNiceScale: true,
-      labels: {
-        formatter: function (value) {
-          return formatValue(chartConfig, value);
+      scales: {
+        xAxes: [{
+          gridLines: {
+            display: false
+          },
+          ticks: {
+            autoSkip: false
+          }
+        }],
+        yAxes: [{
+          ticks: {
+            beginAtZero: true,
+            precision: 0,
+            padding: 8,
+            callback: function(value, index, values) {
+              return formatValue(chartConfig, value);
+            }
+          },
+          gridLines: {
+            drawBorder: false
+          }
+        }]
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, data) {
+            var label = data.datasets[tooltipItem.datasetIndex].label || '';
+            if (label)
+              label += ': ';
+            label += formatValue(chartConfig, tooltipItem.yLabel);
+            return label;
+          }
+        }
+      },
+      legend: {
+        display: chartData.series.length > 1 || chartData.series[0].name != "Value"
+      },
+      plugins: {
+        datalabels: {
+          display: false,
+          formatter: function(value, context) {
+            return formatValue(chartConfig, value);
+          }
         }
       }
-    },
-    markers: {
-      size: 3.5,
-      strokeWidth: 0
-    },
-    dataLabels: {
-      formatter: function (val, opts) {
-        return formatValue(chartConfig, val);
-      }
-    },
-    legend: {
-      position: "bottom",
-      showForSingleSeries: chartData.series[0].name != "Value",
-      offsetY: -10,
     }
   }
 
-  if (isSingleChart)
-    chartOptions.title.text = db.getChartTitle(chartConfig);
-
   if (chartConfig.view == db.views.lineChart) {
-    chartOptions.chart.type = "line";
-    chartOptions.stroke.width = 3.5;
+    chartOptions.type = "line";
   } else {
-    chartOptions.chart.type = "bar";
-    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric == db.metrics.shareElectric)
-      chartOptions.chart.stacked = true;
+    chartOptions.type = "bar";
+    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric == db.metrics.shareElectric) {
+      chartOptions.options.scales.xAxes[0].stacked = true;
+      chartOptions.options.scales.yAxes[0].stacked = true;
+    }
+    if (isSingleChart) {
+      chartOptions.options.plugins.datalabels.display = "auto";
+    }
   }
 
-  chartOptions.dataLabels.enabled = chartOptions.chart.type == "bar" && isSingleChart;
+  // Convert chartData
+  const colors = getChartSeriesColors(chartConfig, chartData);
+  for (const i in chartData.series) {
+    const series = chartData.series[i];
+    var dataset = {};
+    dataset.label = series.name;
+    dataset.data = series.data;
+    if (chartConfig.view == db.views.lineChart) {
+      dataset.borderColor = colors[i];
+      dataset.pointBackgroundColor = colors[i];
+    } else
+      dataset.backgroundColor = colors[i];
+    chartOptions.data.datasets.push(dataset);
+  }
+  chartOptions.data.labels = chartData.categories;
 
-  chartOptions.chart.fontFamily = window.getComputedStyle(document.body)["font-family"];
-  chartOptions.series = chartData.series;
-  chartOptions.xaxis.categories = chartData.categories;
+  const canvas = document.createElement("CANVAS");
+  setChartSize(canvas);
+  chartDiv.appendChild(canvas);
 
-  if (chartConfig.metric == db.metrics.shareElectric)
-    chartOptions.yaxis.forceNiceScale = false;
+  return new Chart(canvas.getContext('2d'), chartOptions);
+}
 
-  // Set chart size
+function setChartSize(element) {
   const heightRatio = 0.6;
   var heightOffset = 290;
   if (isWidthEnoughForFilterAsButtons())
-    heightOffset = 305;
-  const minWidth = 400;
-  const minHeight = 300;
+    heightOffset = 300;
+  const minWidth = 380;
+  const minHeight = 280;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart)
-    wantedWith = wantedWith / 2.2;
-  chartOptions.chart.width = Math.max(wantedWith, minWidth);
-  chartOptions.chart.height = Math.max(chartOptions.chart.width * heightRatio, minHeight);
+    wantedWith = wantedWith / 2.33;
+  const width = Math.max(wantedWith, minWidth);
+  const height = Math.max(width * heightRatio, minHeight);
+  element.style.width = width + "px";
+  element.style.height = height + "px";
+}
 
-  const chartInnerDiv = document.createElement("DIV");
-  chartDiv.appendChild(chartInnerDiv);
-  var chart = new ApexCharts(chartInnerDiv, chartOptions);
-  chart.render();
+function addPngExportButton(parent) {
+  const exportButton = document.createElement("A");
+  exportButton.appendChild(document.createTextNode("PNG"));
+  exportButton.classList.add("export");
+  exportButton.title = "Export chart";
+  exportButton.addEventListener("click", function(event) {
+    event.preventDefault();
+    const chartData = db.queryChartData(chartConfigs[0]);
+    const chartDiv = document.createElement("DIV");
+    parent.appendChild(chartDiv);
+
+    const chart = renderChartView(chartConfigs[0], chartData, chartDiv, true);
+    var url = chart.toBase64Image();
+    var win = window.open("about:blank");
+    win.document.write("<img src=\"" + url + "\" />");
+
+    parent.removeChild(chartDiv);
+  });
+  parent.appendChild(exportButton);
 }
 
 function getChartSeriesColors(chartConfig, chartData) {

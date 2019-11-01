@@ -5,7 +5,7 @@ body {
   padding: 0;
   text-align: center;
   background: white;
-  color: black;
+  color: #232323;
   min-width: 400px;
 }
 
@@ -131,7 +131,7 @@ h1 sup {
   width: 8px;
   height: 8px;
   right: 9px;
-  top: 9px;
+  top: 8px;
   pointer-events: none;
   border: solid white;
   border-width: 0 2px 2px 0;
@@ -160,6 +160,7 @@ a.button.remove-button {
   padding: 5px;
   padding-top: 0;
   margin-top: -3px;
+  margin-right: 0;
   min-width: 0;
   color: #8C8C8C;
   opacity: 0.8;
@@ -199,10 +200,15 @@ a.button.remove-button:after {
   position: relative;
 }
 
+.chart-tile:not(.single) {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
 .chart-title {
   display: inline-block;
   padding: 3px;
-  padding-top: 4px;
   margin-right: 40px;
   font-size: 118%;
   white-space: nowrap;
@@ -211,6 +217,10 @@ a.button.remove-button:after {
 .chart-tile .remove-button {
   position: absolute;
   right: 0;
+}
+
+.tab-buttons {
+  margin-bottom: 5px;
 }
 
 .tab-buttons > * {
@@ -224,18 +234,9 @@ a.button.remove-button:after {
   font-weight: bold;
 }
 
-.apexcharts-legend > div {
-  padding: 4px;
-}
-
-.apexcharts-title-text {
-  display: none;
-}
-
 table {
   border-collapse: collapse;
   margin: 2px;
-  display: inline-block;
 }
 
 th, td {
@@ -259,4 +260,12 @@ td {
 
 tr:hover {
   background: #FFF696;
+}
+
+a.export {
+  position: absolute;
+  color: #232323;
+  font-size: 80%;
+  right: 0;
+  bottom: 0;
 }

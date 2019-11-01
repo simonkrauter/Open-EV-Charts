@@ -33,7 +33,7 @@ Technology
 ----------
 
 - JavaScript/HTML/CSS running in a web browser
-- [apexcharts.js](https://github.com/apexcharts/apexcharts.js), a JavaScript chart library
+- [Chart.js](https://www.chartjs.org/), a JavaScript chart library
 - https://open-ev-charts.org/ is hosted by GitHub Pages
 
 Feeback
