@@ -1276,6 +1276,72 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 7
 });
 
+db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_24_2019_fahrzeugzulassungen_10_2019_pdf.pdf?__blob=publicationFile&v=4",
+{ "Alfa Romeo": 468
+, "Audi": 16990
+, "BMW": 24319
+, "Citroën": 3863
+, "Dacia": 2889
+, "DS Automobiles": 231
+, "Fiat": 5554
+, "Ford": 22365
+, "Honda": 1117
+, "Hyundai": 10378
+, "Jaguar": 567
+, "Jeep": 1158
+, "Kia": 5723
+, "Land Rover": 1459
+, "Lexus": 224
+, "Mazda": 6186
+, "Mercedes-Benz": 33606
+, "Mini": 4707
+, "Mitsubishi": 4547
+, "Nissan": 2692
+, "Opel": 13753
+, "Peugeot": 5752
+, "Porsche": 3346
+, "Renault": 10118
+, "Seat": 9800
+, "Škoda": 15928
+, "Smart": 3749
+, "SsangYong": 180
+, "Subaru": 372
+, "Suzuki": 2360
+, "Tesla": 293
+, "Toyota": 7237
+, "Volvo": 4498
+, "Volkswagen": 56877
+, "other": 1287
+});
+
+db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "BMW|i3 BEV": 858
+, "Smart|Fortwo electric drive": 746
+, "Volkswagen|e-Golf": 723
+, "Renault|ZOE": 458
+, "Smart|Forfour electric drive": 320
+, "Nissan|Leaf": 275
+, "Hyundai|Kona Electric": 263
+, "Tesla|Model 3": 221
+, "Audi|e-tron": 207
+, "Kia|Soul EV": 192
+, "Hyundai|Ioniq Electric": 105
+, "Jaguar|I-Pace": 85
+, "Volkswagen|ID.3": 81
+, "Porsche|Taycan": 66
+, "Volkswagen|e-Crafter": 52
+, "Mercedes-Benz|EQC": 41
+, "Tesla|Model X": 38
+, "Tesla|Model S": 34
+, "Volkswagen|e-up!": 32
+, "Nissan|e-NV200": 30
+, "Kia|Niro EV": 8
+, "Citroën|C-Zero": 5
+, "Opel|Ampera-e": 3
+, "Mini|Electric": 3
+, "Peugeot|iOn": 2
+});
+
 // Template
 // db.insert(db.countries.DE, "", db.dsTypes.AllCarsByBrand, "",
 // { "Alfa Romeo":
