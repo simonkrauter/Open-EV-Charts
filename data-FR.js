@@ -544,6 +544,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 341
 , "Smart|Fortwo electric drive": 306
 , "BMW|i3 BEV": 229
+, "Renault|Kangoo Z.E.": 211
 , "Kia|Niro EV": 149
 , "Hyundai|Kona Electric": 147
 , "Citroën|C-Zero": 60
@@ -600,6 +601,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155186746334385712e0880d4efa60463604ed3785-immats-mars-2019.pdf",
 { "Renault|ZOE": 1197
 , "Tesla|Model 3": 401
+, "Renault|Kangoo Z.E.": 368
 , "Nissan|Leaf": 326
 , "Kia|Niro EV": 253
 , "BMW|i3 BEV": 196
@@ -661,6 +663,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Renault|ZOE": 1536
 , "Tesla|Model 3": 1153
 , "Nissan|Leaf": 455
+, "Renault|Kangoo Z.E.": 361
 , "Kia|Niro EV": 299
 , "BMW|i3 BEV": 207
 , "Hyundai|Kona Electric": 141
@@ -718,6 +721,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155715869983878c91171338902e0fe0fb97a8c47a-immats-mai-2019.pdf",
 { "Renault|ZOE": 1472
+, "Renault|Kangoo Z.E.": 371
 , "Nissan|Leaf": 347
 , "Tesla|Model 3": 251
 , "Kia|Niro EV": 239
@@ -778,6 +782,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15598367646482fda3e8e139d80cbbc783c7550665-immats-juin-2019.pdf",
 { "Renault|ZOE": 1331
 , "Tesla|Model 3": 321
+, "Renault|Kangoo Z.E.": 297
 , "Nissan|Leaf": 172
 , "BMW|i3 BEV": 160
 , "Kia|Niro EV": 152
@@ -841,6 +846,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
 { "Renault|ZOE": 1845
 , "Tesla|Model 3": 1097
+, "Renault|Kangoo Z.E.": 392
 , "Nissan|Leaf": 332
 , "Hyundai|Kona Electric": 189
 , "BMW|i3 BEV": 179
@@ -891,6 +897,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
 { "Renault|ZOE": 1235
+, "Renault|Kangoo Z.E.": 322
 , "Nissan|Leaf": 321
 , "Tesla|Model 3": 259
 , "BMW|i3 BEV": 170
@@ -945,6 +952,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
 { "Renault|ZOE": 1235
+, "Renault|Kangoo Z.E.": 322
 , "Nissan|Leaf": 321
 , "Tesla|Model 3": 259
 , "BMW|i3 BEV": 170
@@ -996,6 +1004,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1570545565f08eb0fd30ec313709d8c39f8fe20075-immats-octobre-2019.pdf",
 { "Renault|ZOE": 2470
+, "Renault|Kangoo Z.E.": 644
 , "Nissan|Leaf": 642
 , "Tesla|Model 3": 518
 , "BMW|i3 BEV": 340
