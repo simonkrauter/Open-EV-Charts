@@ -947,7 +947,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 38
 , "Mercedes-Benz|EQC": 37
 , "Tesla|Model X": 21
-, "Peugeot|iON": 11
+, "Peugeot|iOn": 11
 , "Mini|Electric": 9
 , "Opel|Ampera-e": 5
 });
