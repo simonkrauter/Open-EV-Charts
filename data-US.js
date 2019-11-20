@@ -949,7 +949,7 @@ db.insert(db.countries.US, "2019-06", db.dsTypes.ElectricCarsByModel, "https://i
 , "Hyundai|Ioniq Electric": 62
 });
 
-db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019",
+db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019#jul",
 { "Acura": 12759
 , "Audi": 19370
 , "BMW": 23015
@@ -973,7 +973,7 @@ db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Toyota": 184179
 , "Volkswagen": 31188
 , "Volvo": 8795
-, "GMC": 236518
+, "GM": 236518
 , "Ford": 192720
 });
 
@@ -993,7 +993,7 @@ db.insert(db.countries.US, "2019-07", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019",
+db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goodcarbadcar.net/u-s-auto-sales-figures-by-brand/; https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019#aug",
 { "Toyota": 218403
 , "Honda": 158804
 , "Nissan": 118045
@@ -1017,7 +1017,7 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Jaguar": 2128
 , "Genesis": 1757
 , "Smart": 74
-, "GMC": 289475
+, "GM": 289475
 , "Ford": 209953
 });
 
