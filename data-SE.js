@@ -898,27 +898,51 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 89
 });
 
-// Template:
+db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2019#oct (Unclear: Why is Tesla missing?)",
+{ "Volvo": 5215
+, "Volkswagen": 4939
+, "Kia": 2474
+, "Toyota": 2349
+, "BMW": 1802
+, "Audi": 1693
+, "Mercedes-Benz": 1609
+, "Škoda": 1270
+, "Nissan": 778
+, "Seat": 730
+, "Ford": 703
+, "Hyundai": 647
+, "Mazda": 591
+, "Mitsubishi": 522
+, "Renault": 487
+, "Fiat": 435
+, "Subaru": 390
+, "Opel": 358
+, "Mini": 338
+, "Porsche": 281
+, "Honda": 211
+, "Citroën": 205
+, "Suzuki": 190
+, "Lexus": 183
+, "Land Rover": 102
+, "Jeep": 102
+, "Alfa Romeo": 95
+, "Dacia": 79
+, "Jaguar": 42
+, "DS Automobiles": 8
+, "Iveco": 5
+, "Alpine": 1
+, "Tesla": 62
+, "other": 735
+});
 
-// db.insert(db.countries.SE, "", db.dsTypes.ElectricCarsByModel, "",
-// { "BMW|i3 BEV":
-// , "Renault|ZOE":
-// , "Hyundai|Kona Electric":
-// , "Volkswagen|e-Golf":
-// , "Audi|e-tron":
-// , "Tesla|Model 3":
-// , "Smart|Fortwo electric drive":
-// , "Nissan|Leaf":
-// , "Kia|Soul EV":
-// , "Smart|Forfour electric drive":
-// , "Hyundai|Ioniq Electric":
-// , "Tesla|Model S":
-// , "Jaguar|I-Pace":
-// , "Tesla|Model X":
-// , "Nissan|e-NV200":
-// , "Peugeot|iOn":
-// , "Opel|Ampera-e":
-// , "Citroën|C-Zero":
-// , "Kia|Niro EV":
-// , "Volkswagen|e-up!":
-// });
+db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/sweden-october-2019.html",
+{ "Tesla|Model 3": 47
+, "Renault|ZOE": 128
+, "Kia|Niro EV": 104
+, "Nissan|Leaf": 141
+, "BMW|i3 BEV": 62
+, "Tesla|Model S": 15
+, "Audi|e-tron": 78
+, "Volkswagen|e-Golf": 69
+, "Hyundai|Kona Electric": 43
+});
