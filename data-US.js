@@ -1090,3 +1090,38 @@ db.insert(db.countries.US, "2019-09", db.dsTypes.ElectricCarsByModel, "https://i
 , "Kia|Soul EV": 65
 });
 
+db.insert(db.countries.US, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019#oct",
+{ "GM": 209870
+, "Ford": 193571
+, "Toyota": 188787
+, "FCA": 177120
+, "Honda": 131443
+, "Nissan": 103563
+, "Hyundai": 59029
+, "Subaru": 55531
+, "Kia": 50007
+, "Mercedes-Benz": 32130
+, "Volkswagen": 28072
+, "BMW": 25440
+, "Mazda": 19520
+, "Audi": 19172
+, "Tesla": 11400
+, "Volvo": 8807
+, "Land Rover": 8093
+, "Mitsubishi": 7372
+, "Porsche": 5447
+, "Mini": 2962
+, "Jaguar": 2350
+, "other": 1556
+});
+
+db.insert(db.countries.US, "2019-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2019/11/10/teslas-77-7-of-us-electric-vehicle-sales/ (estimation)",
+{ "Tesla|Model 3": 9000
+, "Chevrolet|Bolt EV": 1500
+, "Tesla|Model X": 1400
+, "Tesla|Model S": 1000
+, "Nissan|Leaf": 887
+, "Volkswagen|e-Golf": 637
+, "Audi|e-tron": 462
+, "BMW|i3 BEV": 359
+});
