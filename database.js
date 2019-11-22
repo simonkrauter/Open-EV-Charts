@@ -509,6 +509,7 @@ var db = {
     var seriesRows = {};
     var sources = [];
     var categories = [];
+    var valuesCountPerCountry = {};
 
     for (const i in db.datasets) {
       const dataset = db.datasets[i];
@@ -522,14 +523,22 @@ var db = {
       var category = "";
       if (chartConfig.xProperty == this.xProperties.month)
         category = dataset.monthString;
-      else if (chartConfig.xProperty == this.xProperties.quarter)
+      else if (chartConfig.xProperty == this.xProperties.quarter) {
         category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-      else if (chartConfig.xProperty == this.xProperties.year)
+        if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric)) {
+          if (!(dataset.country in valuesCountPerCountry))
+            valuesCountPerCountry[dataset.country] = {};
+          if (category in valuesCountPerCountry[dataset.country])
+            valuesCountPerCountry[dataset.country][category]++;
+          else
+            valuesCountPerCountry[dataset.country][category] = 1;
+        }
+      } else if (chartConfig.xProperty == this.xProperties.year)
         category = dataset.year;
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
-      for (var dataKey in dataset.data) {
+      for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
         const model = dataKeyParts[1];
@@ -584,10 +593,22 @@ var db = {
       }
 
       const sourceParts = dataset.source.split("; ");
-      for (var j in sourceParts) {
+      for (const j in sourceParts) {
         const sourcePart = sourceParts[j];
         if (!sources.includes(sourcePart))
           sources.push(sourcePart);
+      }
+    }
+
+    // Remove last quarter if it is incomplete
+    if (Object.keys(valuesCountPerCountry).length > 0) {
+      const lastCategory = categories[categories.length - 1];
+      for (const i in valuesCountPerCountry) {
+        const valueCountPerCategory = valuesCountPerCountry[i];
+        if (valueCountPerCategory[lastCategory] != 3) {
+          categories.pop();
+          break;
+        }
       }
     }
 
