@@ -434,7 +434,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     chartOptions.type = "line";
   } else {
     chartOptions.type = "bar";
-    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric == db.metrics.shareElectric) {
+    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric != db.metrics.ratioElectric) {
       chartOptions.options.scales.xAxes[0].stacked = true;
       chartOptions.options.scales.yAxes[0].stacked = true;
     }
