@@ -376,6 +376,6 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 47
 , "Smart|Fortwo electric drive": 27
 , "Tesla|Model 3": 25
-, "Audi|E-Tron": 24
+, "Audi|e-tron": 24
 , "Kia|Soul": 23
 });
