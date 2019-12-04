@@ -792,8 +792,8 @@ var db = {
         // Add value to seriesSortValues
         if (value != null) {
           var factor = 1;
-          if (i == result.categories.length - 1)
-            factor = 5;
+          if (i >= result.categories.length / 2)
+            factor = 2;
           if (seriesName in seriesSortValues)
             seriesSortValues[seriesName] += value * factor;
           else
