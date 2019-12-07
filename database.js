@@ -299,6 +299,7 @@ var db = {
         param.options[this.formatForUrl(model)] = model;
     }
     param.defaultOption = this.modelOptions.combine;
+    param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
     param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && chartConfig.metric != this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine);
     result[param.name] = param;
 
