@@ -567,16 +567,16 @@ var db = {
         var seriesName = "Value";
         if (filterCountryId == null && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
-        else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
-          if (chartConfig.brand != this.brandOptions.all)
-            seriesName = brandAndModel;
-          else
-            seriesName = brand;
-        } else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
+        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
           if (chartConfig.brand == this.brandOptions.all)
             seriesName = brandAndModel;
           else if (model)
             seriesName = model;
+        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
+          if (chartConfig.brand != this.brandOptions.all)
+            seriesName = brandAndModel;
+          else
+            seriesName = brand;
         }
 
         if (!(seriesName in seriesRows))
