@@ -437,6 +437,8 @@ var db = {
       if (!param.showInTitle)
         continue;
       const value = chartConfig[param.name];
+      if (param.allowMultiSelection && value.includes(","))
+        continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
       if (title != "")
@@ -448,9 +450,13 @@ var db = {
 
   queryDataSets: function(chartConfig, dsType) {
     // Returns datasets for chart
-    var filterCountryId = null;
-    if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all)
-      filterCountryId = db.countries[chartConfig.country];
+    var filterCountryIds = [];
+    if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all) {
+      const countryCodes = chartConfig.country.split(",");
+      for (const i in countryCodes) {
+        filterCountryIds.push(db.countries[countryCodes[i]]);
+      }
+    }
     var filterBrand = null;
     if (![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
@@ -514,7 +520,7 @@ var db = {
 
     for (const i in db.datasets) {
       const dataset = db.datasets[i];
-      if (filterCountryId != null && dataset.country != filterCountryId)
+      if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
         continue;
       if (dataset.dsType != dsType)
         continue;
@@ -565,7 +571,7 @@ var db = {
           category = brandAndModel;
 
         var seriesName = "Value";
-        if (filterCountryId == null && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
+        if (filterCountryIds.length != 1 && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
         else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
           if (chartConfig.brand == this.brandOptions.all)
