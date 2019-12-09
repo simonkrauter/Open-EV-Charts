@@ -1204,6 +1204,68 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 13
 });
 
+db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#nov",
+{ "Volkswagen": 4496
+, "Tesla": 4109
+, "Renault": 2553
+, "Kia": 2538
+, "Toyota": 2476
+, "Peugeot": 2433
+, "BMW": 2075
+, "Hyundai": 1987
+, "Škoda": 1872
+, "Mercedes-Benz": 1869
+, "Opel": 1747
+, "Ford": 1390
+, "Nissan": 1373
+, "Audi": 1224
+, "Volvo": 1215
+, "Citroën": 1208
+, "Mazda": 1205
+, "Seat": 970
+, "Mini": 514
+, "Suzuki": 507
+, "Mitsubishi": 358
+, "Dacia": 311
+, "Fiat": 251
+, "Lexus": 109
+, "Porsche": 107
+, "Jaguar": 105
+, "Honda": 97
+, "Land Rover": 83
+, "DS Automobiles": 73
+, "MG": 48
+, "Jeep": 37
+, "Alfa Romeo": 31
+, "Smart": 26
+, "Subaru": 22
+, "Alpine": 4
+, "Lamborghini": 4
+, "Bentley": 3
+, "Aston Martin": 2
+, "Morgan": 2
+, "Infiniti": 1
+, "Rolls Royce": 1
+, "other": 71
+});
+
+db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/netherlands-november-2019.html",
+{ "Tesla|Model 3": 3973
+, "Hyundai|Kona Electric": 535
+, "Kia|Niro EV": 425
+, "Nissan|Leaf": 418
+, "Volkswagen|e-Golf": 176
+, "BMW|i3 BEV": 262
+, "Hyundai|Ioniq Electric": 277
+, "Renault|ZOE": 50
+, "Audi|e-tron": 162
+, "Opel|Ampera-e": 155
+, "Jaguar|I-Pace": 86
+, "Tesla|Model S": 69
+, "Tesla|Model X": 67
+, "Smart|Forfour electric drive": 15
+});
+
 // Template:
 
 // db.insert(db.countries.NL, "", db.dsTypes.ElectricCarsByModel, "",
