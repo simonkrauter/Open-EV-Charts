@@ -376,14 +376,32 @@ var db = {
   },
 
   makeChartConfigValid: function(chartConfig) {
+    if (chartConfig.country.includes(",")) {
+      const values = chartConfig.country.split(",");
+      if (values.includes(this.countryOptions.all))
+        chartConfig.country = this.countryOptions.all;
+      else if (values.includes(this.countryOptions.combine))
+        chartConfig.country = this.countryOptions.combine;
+    }
+    if (chartConfig.metric.includes(",")) {
+      const values = chartConfig.metric.split(",");
+      if (values.includes(this.metrics.all))
+        chartConfig.metric = this.metrics.all;
+    }
+
     if (chartConfig.xProperty == this.xProperties.country)
       chartConfig.country = this.countryOptions.all;
     if (chartConfig.xProperty == this.xProperties.brand)
       chartConfig.brand = this.brandOptions.all;
     if (chartConfig.brand == this.brandOptions.combine && chartConfig.model == this.modelOptions.all)
       chartConfig.model = this.modelOptions.combine;
-    if(chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
+    if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
+    if (chartConfig.metric == this.metrics.all && chartConfig.country == this.countryOptions.all) {
+      const params = this.getChartParams();
+      chartConfig.metric = params.metric.defaultOption;
+    }
+
     return chartConfig;
   },
 
