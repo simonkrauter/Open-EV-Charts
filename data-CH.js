@@ -1158,6 +1158,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 34
 , "Nissan|Leaf": 41
 , "Tesla|Model X": 46
+, "Audi|e-tron": 26
 , "Jaguar|I-Pace": 17
 , "Mercedes-Benz|EQC": 18
 , "Citroën|C-Zero": 2
