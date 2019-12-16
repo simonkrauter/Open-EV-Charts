@@ -1125,3 +1125,40 @@ db.insert(db.countries.US, "2019-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Audi|e-tron": 462
 , "BMW|i3 BEV": 359
 });
+
+db.insert(db.countries.US, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019#nov",
+{ "GM": 245108
+, "Toyota": 207857
+, "Ford": 188718
+, "FCA": 174324
+, "Honda": 133952
+, "Nissan": 92947
+, "Hyundai": 62768
+, "Subaru": 56893
+, "Kia": 50504
+, "Mercedes-Benz": 37263
+, "BMW": 31213
+, "Volkswagen": 29218
+, "Mazda": 24374
+, "Audi": 20618
+, "Tesla": 13200
+, "Volvo": 9635
+, "Land Rover": 9514
+, "Mitsubishi": 8188
+, "Porsche": 6326
+, "Mini": 3067
+, "Jaguar": 2958
+, "other": 1619
+});
+
+db.insert(db.countries.US, "2019-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2019/12/13/tesla-scores-77-of-us-electric-vehicle-sales-cleantechnica-report/ (estimation)",
+{ "Tesla|Model 3": 10500
+, "Tesla|Model X": 1700
+, "Nissan|Leaf": 1140
+, "Tesla|Model S": 1000
+, "BMW|i3 BEV": 918
+, "Audi|e-tron": 621
+, "Volkswagen|e-Golf": 366
+});
+
+// https://cleantechnica.com/tag/us-ev-sales/
