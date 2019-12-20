@@ -484,3 +484,25 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EC-Series": 926
 , "Xiaopeng|Xpeng G3": 505
 });
+
+db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#nov TODO: numbers per brand wanted",
+{ "other": 2057000
+});
+
+db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/china-november-2019.html",
+{ "BAIC|EU-Series": 6258
+, "BYD|Yuan / S2 EV": 2399
+, "SAIC|Baojun E-Series EV": 9809
+, "Chery|eQ": 1861
+, "Geely|Emgrand EV": 2104
+, "BYD|e5": 121
+, "Great Wall|Ora R1 EV": 2001
+, "SAIC|Roewe Ei5 EV": 750
+, "GAC|Aion S": 5538
+, "Changan|Eado EV": 1914
+, "Tesla|Model 3": 900
+, "BAIC|EX-Series": 22
+, "JAC|iEV E-Series": 123
+, "BAIC|EC-Series": 662
+, "BYD|Qin Pro EV": 1623
+});
