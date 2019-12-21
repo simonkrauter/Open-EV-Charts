@@ -1274,6 +1274,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 8
 , "Volkswagen|e-up!": 8
 , "Citroën|C-Zero": 7
+, "Honda|e": 2
 });
 
 db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_24_2019_fahrzeugzulassungen_10_2019_pdf.pdf?__blob=publicationFile&v=4",
@@ -1406,6 +1407,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 14
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 2
+, "Honda|e": 1
 });
 
 
