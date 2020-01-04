@@ -245,6 +245,8 @@ var db = {
           year--;
         }
       }
+    }
+    if (chartConfig == null || [this.xProperties.country, this.xProperties.brand, this.xProperties.model, this.xProperties.month].includes(chartConfig.xProperty)) {
       // single year
       var year = latestYear;
       for (var i = 0; i < 2; i++) {
