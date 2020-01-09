@@ -677,6 +677,40 @@ var db = {
     return result;
   },
 
+  fillMonthCategoryGaps: function(categories) {
+    var i = 0;
+    while (i < categories.length - 2) {
+      var year = parseInt(categories[i].substr(0, 4));
+      var month = parseInt(categories[i].substr(5, 2));
+      month++;
+      if (month > 12) {
+        year++;
+        month = month - 12;
+      }
+      var nextMonthString = this.formatMonth(year, month);
+      if (categories[i + 1] != nextMonthString)
+        categories.splice(i + 1, 0, nextMonthString);
+      i++;
+    }
+  },
+
+  fillQuarterCategoryGaps: function(categories) {
+    var i = 0;
+    while (i < categories.length - 2) {
+      var year = parseInt(categories[i].substr(0, 4));
+      var quarter = parseInt(categories[i].substr(6, 1));
+      quarter++;
+      if (quarter > 4) {
+        year++;
+        quarter = quarter - 4;
+      }
+      var nextMonthString = this.formatQuarter(year, quarter);
+      if (categories[i + 1] != nextMonthString)
+        categories.splice(i + 1, 0, nextMonthString);
+      i++;
+    }
+  },
+
   queryChartData: function(chartConfig) {
     // Returns the data for a spedific view
     var result = {};
@@ -782,10 +816,15 @@ var db = {
       result.categoryTitle = "Model";
     else if (chartConfig.xProperty == this.xProperties.brand)
       result.categoryTitle = "Brand";
-    else
+    else {
       result.categoryTitle = "Time Span";
+      if (chartConfig.xProperty == this.xProperties.month)
+        this.fillMonthCategoryGaps(result.categories);
+      else if (chartConfig.xProperty == this.xProperties.quarter)
+        this.fillQuarterCategoryGaps(result.categories);
+    }
 
-    // Create series (entries of 'data' must be in order of 'result.categories')
+    // Create series (entries of 'data' will be inserted in the order of 'result.categories')
     var seriesByName = {};
     var seriesNamesInOrder = [];
     var seriesSortValues = {};
