@@ -578,6 +578,14 @@ function getChartSeriesColors(chartConfig, chartData) {
 function renderTable(chartConfig, chartDiv, chartData) {
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
+  const showHorizontalBars = chartData.series.length == 1 && chartData.categories.length > 1;
+  var maxValue = 0;
+  if (showHorizontalBars) {
+    for (const i in chartData.categories) {
+      maxValue = Math.max(maxValue, chartData.series[0].data[i]);
+    }
+  }
+
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
@@ -588,6 +596,9 @@ function renderTable(chartConfig, chartDiv, chartData) {
     const series = chartData.series[i];
     const cell = document.createElement("TH");
     cell.appendChild(document.createTextNode(series.name));
+    if (showHorizontalBars) {
+      cell.colSpan = 2;
+    }
     row.appendChild(cell);
   }
 
@@ -608,6 +619,16 @@ function renderTable(chartConfig, chartDiv, chartData) {
         cell.appendChild(document.createTextNode(""));
       else
         cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
+      row.appendChild(cell);
+    }
+    // add horizontal bar
+    if (showHorizontalBars) {
+      const cell = document.createElement("TD");
+      const barDiv = document.createElement("DIV");
+      cell.appendChild(barDiv);
+      barDiv.classList.add("horizontalBar");
+      const width = chartData.series[0].data[i] / maxValue * 300;
+      barDiv.style.width = width + "px";
       row.appendChild(cell);
     }
   }

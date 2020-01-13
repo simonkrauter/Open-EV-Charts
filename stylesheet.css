@@ -62,7 +62,7 @@ a.button {
   color: white;
 }
 
-a.button.active, .select-wrapper {
+a.button.active, .select-wrapper, .horizontalBar {
   background: #2A81C9;
   color: white;
 }
@@ -260,6 +260,10 @@ td {
 
 tr:hover {
   background: #FFF696;
+}
+
+.horizontalBar {
+  height: 16px;
 }
 
 a.export {
