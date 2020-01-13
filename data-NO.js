@@ -830,6 +830,45 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-up!": 8
 });
 
+db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Volkswagen": 1253
+, "Tesla": 1398
+, "Toyota": 766
+, "BMW": 855
+, "Volvo": 1260
+, "Nissan": 469
+, "Hyundai": 490
+, "Audi": 571
+, "Škoda": 836
+, "Mitsubishi": 467
+, "Ford": 353
+, "Peugeot": 333
+, "Mercedes-Benz": 329
+, "Kia": 176
+, "Jaguar": 111
+, "Mazda": 395
+, "Renault": 34
+, "Opel": 220
+, "Suzuki": 169
+, "Citroën": 109
+});
+
+db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/norway-december-2019.html",
+{ "Tesla|Model 3": 1251
+, "Volkswagen|e-Golf": 525
+, "Nissan|Leaf": 307
+, "Audi|e-tron": 282
+, "BMW|i3 BEV": 150
+, "Hyundai|Kona Electric": 305
+, "Jaguar|I-Pace": 111
+, "Hyundai|Ioniq Electric": 109
+, "Renault|ZOE": 8
+, "Tesla|Model X": 117
+, "Tesla|Model S": 30
+, "Opel|Ampera-e": 50
+, "Volkswagen|e-up!": 2
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
