@@ -692,7 +692,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 63
 , "Tesla|Model X": 42
 , "Porsche|Taycan": 28
-, "Mini|Electric": 23
+, "Mini|Cooper SE Elektro": 23
 , "Kia|Niro EV": 22
 , "Opel|Ampera-e": 10
 , "Citroën|C-Zero": 9
@@ -757,7 +757,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 67
 , "Tesla|Model X": 44
 , "Jaguar|I-Pace": 16
-, "Mini|Electric": 16
+, "Mini|Cooper SE Elektro": 16
 , "Opel|Ampera-e": 14
 , "Citroën|C-Zero": 5
 , "Porsche|Taycan": 5
@@ -880,7 +880,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 82
 , "Tesla|Model X": 61
 , "Volkswagen|e-up!": 59
-, "Mini|Electric": 33
+, "Mini|Cooper SE Elektro": 33
 , "Kia|Soul EV": 33
 , "Porsche|Taycan": 30
 , "Citroën|C-Zero": 10
@@ -948,7 +948,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 37
 , "Tesla|Model X": 21
 , "Peugeot|iOn": 11
-, "Mini|Electric": 9
+, "Mini|Cooper SE Elektro": 9
 , "Opel|Ampera-e": 5
 });
 
@@ -1012,7 +1012,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 20
 , "Kia|Niro EV": 11
 , "Opel|Ampera-e": 7
-, "Mini|Electric": 5
+, "Mini|Cooper SE Elektro": 5
 , "Peugeot|iOn": 4
 });
 
@@ -1077,7 +1077,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 16
 , "Kia|Niro EV": 10
 , "Opel|Ampera-e": 9
-, "Mini|Electric": 1
+, "Mini|Cooper SE Elektro": 1
 });
 
 db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_18_2019_fahrzeugzulassungen_07_2019_pdf.pdf?__blob=publicationFile&v=5",
@@ -1142,7 +1142,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 12
 , "Volkswagen|e-up!": 12
 , "Citroën|C-Zero": 10
-, "Mini|Electric": 6
+, "Mini|Cooper SE Elektro": 6
 });
 
 db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Pressemitteilungen/DE/2019/pm_20_2019_fahrzeugzulassungen_08_2019_pdf.pdf?__blob=publicationFile&v=8",
@@ -1206,7 +1206,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 12
 , "Citroën|C-Zero": 12
 , "Kia|Niro EV": 8
-, "Mini|Electric": 6
+, "Mini|Cooper SE Elektro": 6
 , "Volkswagen|e-up!": 5
 });
 
@@ -1270,7 +1270,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Crafter": 28
 , "Kia|Niro EV": 21
 , "Peugeot|iOn": 19
-, "Mini|Electric": 14
+, "Mini|Cooper SE Elektro": 14
 , "Opel|Ampera-e": 8
 , "Volkswagen|e-up!": 8
 , "Citroën|C-Zero": 7
@@ -1339,7 +1339,7 @@ db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 8
 , "Citroën|C-Zero": 5
 , "Opel|Ampera-e": 3
-, "Mini|Electric": 3
+, "Mini|Cooper SE Elektro": 3
 , "Peugeot|iOn": 2
 });
 
@@ -1395,7 +1395,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 100
 , "Kia|Soul EV": 95
 , "Volkswagen|ID.3": 81
-, "Mini|Electric": 79
+, "Mini|Cooper SE Elektro": 79
 , "Volkswagen|e-Crafter": 78
 , "Hyundai|Ioniq Electric": 76
 , "Porsche|Taycan": 75
@@ -1406,6 +1406,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 25
 , "Opel|Ampera-e": 14
 , "Citroën|C-Zero": 2
+, "DS|DS 3 Crossback E-Tense": 3
 , "Peugeot|iOn": 2
 , "Honda|e": 1
 });
