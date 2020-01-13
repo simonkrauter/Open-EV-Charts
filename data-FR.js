@@ -1123,31 +1123,86 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 18
 });
 
+db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#dec (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 29268
+, "Citroën": 17905
+, "Opel": 3204
+, "DS Automobiles": 2682
+, "Renault": 39747
+, "Dacia": 13215
+, "Alpine": 386
+, "Volkswagen": 16205
+, "Audi": 6909
+, "Seat": 3284
+, "Škoda": 4373
+, "Porsche": 1124
+, "Lamborghin": 20
+, "Bentley": 9
+, "Toyota": 7899
+, "Lexus": 996
+, "Fiat": 6512
+, "Jeep": 1008
+, "Alfa Romeo": 628
+, "Maserati": 114
+, "BMW": 8353
+, "Mini": 3203
+, "Rolls Royce": 1
+, "Kia": 4668
+, "Hyundai": 3327
+, "Mercedes-Benz": 9685
+, "Smart": 1472
+, "Ford": 7428
+, "Nissan": 4750
+, "Infiniti": 36
+, "Suzuki": 3029
+, "Volvo": 3047
+, "Land Rover": 1229
+, "Jaguar": 536
+, "Mitsubishi": 710
+, "Chevrolet": 2
+, "Cadillac": 1
+, "Tesla": 1435
+, "other": 2794
+});
+
+db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1578561037dfcf28d0734569a6a693bc8194de62bf-BILANANNUEL2019.pdf",
+{ "Renault|ZOE": 2146
+, "Tesla|Model 3": 1250
+, "BMW|i3 BEV": 475
+, "Nissan|Leaf": 222
+, "Smart|Fortwo electric drive": 159
+, "Tesla|Model S": 102
+, "Tesla|Model X": 83
+, "Volkswagen|e-Golf": 80
+, "Jaguar|I-Pace": 74
+, "Audi|e-tron": 53
+, "Renault|Kangoo Z.E.": 350
+, "Nissan|e-NV200": 105
+, "Citroën|Berlingo Electric": 25
+, "Peugeot|Partner Electric": 24
+, "Peugeot|iOn": 6
+});
+
 // http://www.avere-france.org/Site/Category/?arborescence_id=143
 
 // Template:
 
 // db.insert(db.countries.FR, "", db.dsTypes.ElectricCarsByModel, "",
 // { "Renault|ZOE":
-// , "Tesla|Model 3":
-// , "Nissan|Leaf":
-// , "Kia|Niro EV":
 // , "BMW|i3 BEV":
-// , "Hyundai|Kona Electric":
-// , "Audi|e-tron":
-// , "Peugeot|iOn":
+// , "Nissan|Leaf":
+// , "Tesla|Model 3":
+// , "Nissan|e-NV200":
 // , "Smart|Fortwo electric drive":
-// , "Citroën|C-Zero":
+// , "Hyundai|Kona Electric":
 // , "Volkswagen|e-Golf":
-// , "Tesla|Model S":
 // , "Hyundai|Ioniq Electric":
+// , "Audi|e-tron":
+// , "Renault|Kangoo Z.E.":
+// , "Peugeot|Partner Electric":
+// , "Citroën|Berlingo Electric":
+// , "Tesla|Model S":
 // , "Tesla|Model X":
 // , "Jaguar|I-Pace":
-// , "Peugeot|Partner Electric":
-// , "Citroën|E-Mehari":
-// , "Smart|Forfour electric drive":
-// , "Nissan|e-NV200":
-// , "Volkswagen|e-up!":
-// , "Citroën|Berlingo Electric":
-// , "Kia|Soul EV":
+// , "Peugeot|iOn":
 // });
