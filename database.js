@@ -197,7 +197,8 @@ var db = {
     param.options[this.xProperties.month] = "Per Month";
     param.options[this.xProperties.quarter] = "Per Quarter";
     param.options[this.xProperties.year] = "Per Year";
-    param.options[this.xProperties.country] = "Per Country";
+    if (chartConfig == null || chartConfig.metric != this.metrics.shareElectric)
+      param.options[this.xProperties.country] = "Per Country";
     param.options[this.xProperties.brand] = "Per Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       param.options[this.xProperties.model] = "Per Model";
