@@ -306,7 +306,7 @@ var db = {
     }
     param.defaultOption = this.modelOptions.combine;
     param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
-    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && chartConfig.metric != this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine);
+    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && ![this.metrics.salesAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
     result[param.name] = param;
 
     // max series
@@ -408,6 +408,8 @@ var db = {
       const params = this.getChartParams();
       chartConfig.metric = params.metric.defaultOption;
     }
+    if (chartConfig.metric == this.metrics.ratioElectricWithinBrand)
+      chartConfig.model = this.modelOptions.combine;
 
     return chartConfig;
   },
