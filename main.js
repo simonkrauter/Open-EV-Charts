@@ -177,8 +177,9 @@ function addSelectElement(parent, defaultOptionText) {
 
 function renderChart(chartIndex) {
   var chartConfig = chartConfigs[chartIndex];
+  const params = db.getChartParams(chartConfig);
   if (!isSingleChart)
-    chartConfig.view = db.views.barChart;
+    chartConfig.view = params.view.defaultOption;
 
   const chartData = db.queryChartData(chartConfig);
 
@@ -345,7 +346,7 @@ function createRemoveButton() {
 }
 
 function formatValue(chartConfig, value) {
-  if ([db.metrics.ratioElectric, db.metrics.shareElectric].includes(chartConfig.metric)) {
+  if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinBrand, db.metrics.shareElectric].includes(chartConfig.metric)) {
     if (chartConfig.view == db.views.table)
       return value.toFixed(1).toLocaleString() + " %";
     else

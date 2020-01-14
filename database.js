@@ -98,6 +98,7 @@ var db = {
   , "salesAll": "all-sales"
   , "salesElectric": "electric-sales"
   , "ratioElectric": "electric-ratio"
+  , "ratioElectricWithinBrand": "brand-electric-ratio"
   , "shareElectric": "electric-share"
   },
 
@@ -160,12 +161,13 @@ var db = {
     var param = {};
     param.name = "metric";
     param.options = {};
-    if (!chartConfig || chartConfig.country != this.countryOptions.all)
+    if (chartConfig == null || chartConfig.country != this.countryOptions.all)
       param.options[this.metrics.all] = "All Metrics";
     param.options[this.metrics.salesAll] = "All Cars Sales";
-    param.options[this.metrics.salesElectric] = "Electric Cars Sales";
-    param.options[this.metrics.ratioElectric] = "Ratio of Electric Cars Sales";
-    param.options[this.metrics.shareElectric] = "Market Share of Electric Cars";
+    param.options[this.metrics.salesElectric] = "EV Sales";
+    param.options[this.metrics.ratioElectric] = "EV Ratio";
+    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
+    param.options[this.metrics.shareElectric] = "EV Market Share";
     param.unfoldKey = this.metrics.all;
     param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
@@ -179,7 +181,8 @@ var db = {
     param.name = "country";
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
-    param.options[this.countryOptions.combine] = "Combine Countries";
+    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+      param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in db.countries)
       param.options[code] = db.countryNames[db.countries[code]];
     param.unfoldKey = this.countryOptions.all;
@@ -197,7 +200,7 @@ var db = {
     param.options[this.xProperties.month] = "Per Month";
     param.options[this.xProperties.quarter] = "Per Quarter";
     param.options[this.xProperties.year] = "Per Year";
-    if (chartConfig == null || chartConfig.metric != this.metrics.shareElectric)
+    if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
       param.options[this.xProperties.country] = "Per Country";
     param.options[this.xProperties.brand] = "Per Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
@@ -320,12 +323,13 @@ var db = {
     var param = {};
     param.name = "view";
     param.options = {};
-    param.options[this.views.barChart] = "Bar Chart";
-    if (chartConfig == null || [this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
+    if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand))
+      param.options[this.views.barChart] = "Bar Chart";
+    if (chartConfig == null || ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
       param.options[this.views.lineChart] = "Line Chart";
     param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
-    param.defaultOption = this.views.barChart;
+    param.defaultOption = Object.keys(param.options)[0];
     result[param.name] = param;
 
     return result;
@@ -333,7 +337,7 @@ var db = {
 
   encodeChartConfig: function(chartConfig) {
     var parts = [];
-    const params = this.getChartParams();
+    const params = this.getChartParams(chartConfig);
     for (const i in params) {
       const param = params[i];
       if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl) {
@@ -728,7 +732,7 @@ var db = {
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
-    } else if (chartConfig.metric == this.metrics.ratioElectric) {
+    } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
       var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
       var datasetsForRatio = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
@@ -738,7 +742,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.brand == this.brandOptions.all) {
+          if (chartConfig.metric == this.metrics.ratioElectric) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
@@ -866,7 +870,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine && ![this.metrics.ratioElectric, this.metrics.shareElectric].includes(chartConfig.metric))
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
