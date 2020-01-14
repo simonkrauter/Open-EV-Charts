@@ -266,6 +266,11 @@ tr:hover {
   height: 16px;
 }
 
+.NA {
+  text-align: center;
+  color: grey;
+}
+
 a.export {
   position: absolute;
   color: #232323;

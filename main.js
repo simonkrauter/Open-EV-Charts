@@ -579,11 +579,14 @@ function getChartSeriesColors(chartConfig, chartData) {
 function renderTable(chartConfig, chartDiv, chartData) {
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
-  const showHorizontalBars = chartData.series.length == 1 && chartData.categories.length > 1;
+  var showHorizontalBars = chartData.series.length == 1 && chartData.categories.length > 1;
   var maxValue = 0;
   if (showHorizontalBars) {
     for (const i in chartData.categories) {
       maxValue = Math.max(maxValue, chartData.series[0].data[i]);
+    }
+    if (maxValue == 0) {
+      showHorizontalBars = false;
     }
   }
 
@@ -614,12 +617,15 @@ function renderTable(chartConfig, chartDiv, chartData) {
     for (const j in chartData.series) {
       const series = chartData.series[j];
       const cell = document.createElement("TD");
-      cell.style.textAlign = "right";
       const val = series.data[i];
-      if (val == null && val !== 0)
-        cell.appendChild(document.createTextNode(""));
-      else
+      if (val == null && val !== 0) {
+        cell.appendChild(document.createTextNode("NA"));
+        // cell.style.textAlign = "center";
+        cell.classList.add("NA");
+      } else {
         cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
+        cell.style.textAlign = "right";
+      }
       row.appendChild(cell);
     }
     // add horizontal bar
