@@ -1406,7 +1406,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 25
 , "Opel|Ampera-e": 14
 , "Citroën|C-Zero": 2
-, "DS|DS 3 Crossback E-Tense": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Peugeot|iOn": 2
 , "Honda|e": 1
 });
@@ -1475,7 +1475,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 31
 , "Opel|Ampera-e": 3
 , "Citroën|C-Zero": 3
-, "DS|DS 3 Crossback E-Tense": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 9
 });
 
 
