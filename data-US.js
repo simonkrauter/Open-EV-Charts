@@ -1161,4 +1161,43 @@ db.insert(db.countries.US, "2019-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|e-Golf": 366
 });
 
+db.insert(db.countries.US, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_usa_2019#dec",
+{ "GM": 277640
+, "Ford": 216439
+, "Toyota": 207373
+, "FCA": 191075
+, "Honda": 136566
+, "Nissan": 104781
+, "Hyundai": 66945
+, "Subaru": 62364
+, "Kia": 51229
+, "Volkswagen": 27877
+, "Mercedes-Benz": 35279
+, "BMW": 35746
+, "Mazda": 26491
+, "Audi": 25850
+, "Tesla": 29500
+, "Mitsubishi": 9915
+, "Volvo": 12360
+, "Land Rover": 10490
+, "Porsche": 4733
+, "Mini": 2310
+, "Jaguar": 3311
+, "other": 1481
+});
+
+db.insert(db.countries.US, "2019-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2020/01/16/tesla-gobbled-up-81-of-us-electric-vehicle-sales-in-2019/ (estimation)",
+{ "Tesla|Model 3": 27000
+, "Tesla|Model X": 1500
+, "Chevrolet|Bolt EV": 1307
+, "Nissan|Leaf": 1227
+, "Tesla|Model S": 1000
+, "Audi|e-tron": 746
+, "Volkswagen|e-Golf": 264
+, "BMW|i3 BEV": 214
+, "Jaguar|I-Pace": 176
+, "Porsche|Taycan": 130
+});
+
+
 // https://cleantechnica.com/tag/us-ev-sales/
