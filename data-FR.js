@@ -1064,7 +1064,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model 3": 178
 , "Hyundai|Ioniq Electric": 174
 , "Hyundai|Kona Electric": 122
-, "DS Automobiles|DS3 Crossback": 110
+, "DS Automobiles|DS 3 Crossback E-Tense": 110
 , "Renault|Kangoo Z.E.": 302
 , "Nissan|e-NV200": 121
 , "Peugeot|e-208": 54

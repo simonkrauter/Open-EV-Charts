@@ -105,7 +105,7 @@ db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 4034
 , "Haima|Aishang EV": 3278
 , "Zotye|E200": 1703
-, "SAIC|Roewe Ei5 BEV": 2996
+, "SAIC|Roewe Ei5 EV": 2996
 , "Tesla|Model X": 1500
 , "Hawtai|xEV260": 1559
 });
@@ -123,7 +123,7 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 4434
 , "Geely|Emgrand EV": 2433
 , "SAIC|Baojun E100": 873
-, "SAIC|Roewe Ei5 BEV": 4661
+, "SAIC|Roewe Ei5 EV": 4661
 , "Hawtai|EV160": 2965
 , "BAIC|EU-Series": 3944
 , "Zotye|E200": 1497
