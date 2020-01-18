@@ -761,7 +761,8 @@ var db = {
             seriesRows[seriesName][category] = null;
           else {
             var val = value / valuesForRatio[category] * 100;
-            val = Math.min(val, 100);
+            if (val > 100)
+              console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
             seriesRows[seriesName][category] = val;
           }
         }
