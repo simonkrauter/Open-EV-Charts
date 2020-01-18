@@ -1144,7 +1144,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "SsangYong": 86
 , "Subaru": 177
 , "Suzuki": 780
-, "Tesla": 188
+, "Tesla": 189
 , "Toyota": 885
 , "Volkswagen": 2903
 , "Volvo": 769
