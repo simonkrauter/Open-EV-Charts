@@ -212,22 +212,22 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 793
 , "Suzuki": 789
 , "Toyota": 642
-, "Tesla": 469
+, "Tesla": 426
 , "Nissan": 419
 , "other": 2394
 });
 
 db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "Tesla|Model 3": 346
+, "Audi|e-tron": 146
 , "BMW|i3 BEV": 99
 , "Tesla|Model S": 80
 , "Renault|ZOE": 72
 , "Volkswagen|e-Golf": 58
 , "Hyundai|Kona Electric": 44
 , "Nissan|Leaf": 43
-, "Tesla|Model X": 43
-, "Audi|e-tron": 38
 , "Kia|Niro EV": 30
+, "Hyundai|Ioniq Electric": 16
 });
 
 db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -251,7 +251,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 647
 , "Mini": 528
 , "Volvo": 478
-, "Tesla": 163
+, "Tesla": 133
 , "other": 2360
 });
 
@@ -260,11 +260,12 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 85
 , "BMW|i3 BEV": 79
 , "Audi|e-tron": 78
+, "Kia|Niro EV": 67
 , "Volkswagen|e-Golf": 53
 , "Renault|ZOE": 52
 , "Nissan|Leaf": 47
-, "Tesla|Model X": 30
 , "Tesla|Model S": 22
+, "Hyundai|Ioniq Electric": 18
 });
 
 db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -288,21 +289,21 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 621
 , "Dacia": 598
 , "Jeep": 547
-, "Tesla": 130
+, "Tesla": 109
 , "other": 2094
 });
 
 db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
-{ "Tesla|Model 3": 83
-, "BMW|i3 BEV": 156
+{ "BMW|i3 BEV": 156
 , "Renault|ZOE": 133
-, "Volkswagen|e-Golf": 77
 , "Hyundai|Kona Electric": 114
+, "Tesla|Model 3": 83
+, "Volkswagen|e-Golf": 77
+, "Audi|e-tron": 39
+, "Hyundai|Ioniq Electric": 38
 , "Nissan|Leaf": 28
-, "Kia|Niro EV": 88
-, "Audi|e-tron": 58
-, "Tesla|Model S": 47
-, "Hyundai|Ioniq Electric": 95
+, "Tesla|Model S": 26
+, "Kia|Niro EV": 21
 });
 
 db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -363,8 +364,8 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Volvo": 417
 , "Suzuki": 382
 , "Nissan": 319
-, "Tesla": 25
-, "other": 1830
+, "Tesla": 46
+, "other": 1809
 });
 
 db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -374,10 +375,10 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 50
 , "Hyundai|Kona Electric": 48
 , "Hyundai|Ioniq Electric": 47
-, "Smart|Fortwo electric drive": 27
 , "Tesla|Model 3": 25
 , "Audi|e-tron": 24
-, "Kia|Soul": 23
+, "Tesla|Model S": 21
+, "Kia|Niro EV": 13
 });
 
 db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -401,7 +402,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 446
 , "Volvo": 361
 , "Mitsubishi": 275
-, "Tesla": 119
+, "Tesla": 102
 , "other": 1210
 });
 
@@ -415,7 +416,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 33
 , "Renault|ZOE": 25
 , "Audi|e-tron": 21
-, "Tesla|Model X": 17
+, "Kia|Niro EV": 3
 });
 
 db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
