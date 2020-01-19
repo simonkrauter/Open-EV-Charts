@@ -67,7 +67,11 @@ a.button.active, .select-wrapper, .horizontalBar {
   color: white;
 }
 
-a.button:hover, .select-wrapper:hover  {
+a.button:hover  {
+  background: #6B6B6B;
+  text-decoration: none;
+}
+a.button.active:hover, .select-wrapper:hover  {
   background: #4899DB;
   text-decoration: none;
 }
