@@ -181,8 +181,7 @@ var db = {
     param.name = "country";
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
-    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
-      param.options[this.countryOptions.combine] = "Combine Countries";
+    param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in db.countries)
       param.options[code] = db.countryNames[db.countries[code]];
     param.unfoldKey = this.countryOptions.all;
@@ -760,8 +759,10 @@ var db = {
             seriesRows[seriesName][category] = null;
           else {
             var val = value / valuesForRatio[category] * 100;
-            if (val > 100)
+            if (val > 100) {
               console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
+              val = null;
+            }
             seriesRows[seriesName][category] = val;
           }
         }
