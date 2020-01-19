@@ -42,7 +42,8 @@ db.insert(db.countries.CH, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 689
 , "Volkswagen": 2360
 , "Volvo": 712
-, "other": 88
+, "Tesla": 15
+, "other": 73
 });
 
 db.insert(db.countries.CH, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -93,7 +94,8 @@ db.insert(db.countries.CH, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 696
 , "Volkswagen": 1947
 , "Volvo": 557
-, "other": 126
+, "Tesla": 37
+, "other": 89
 });
 
 db.insert(db.countries.CH, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -143,7 +145,8 @@ db.insert(db.countries.CH, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 902
 , "Volkswagen": 2606
 , "Volvo": 773
-, "other": 464
+, "Tesla": 322
+, "other": 142
 });
 
 db.insert(db.countries.CH, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -194,7 +197,8 @@ db.insert(db.countries.CH, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 985
 , "Volkswagen": 2831
 , "Volvo": 620
-, "other": 243
+, "Tesla": 67
+, "other": 176
 });
 
 db.insert(db.countries.CH, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -245,7 +249,8 @@ db.insert(db.countries.CH, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 858
 , "Volkswagen": 3414
 , "Volvo": 649
-, "other": 219
+, "Tesla": 64
+, "other": 155
 });
 
 db.insert(db.countries.CH, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -296,7 +301,8 @@ db.insert(db.countries.CH, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 935
 , "Volkswagen": 4033
 , "Volvo": 737
-, "other": 437
+, "Tesla": 283
+, "other": 154
 });
 
 db.insert(db.countries.CH, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -347,7 +353,8 @@ db.insert(db.countries.CH, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 663
 , "Volkswagen": 3288
 , "Volvo": 780
-, "other": 183
+, "Tesla": 31
+, "other": 152
 });
 
 db.insert(db.countries.CH, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -398,7 +405,8 @@ db.insert(db.countries.CH, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 709
 , "Volkswagen": 2741
 , "Volvo": 485
-, "other": 224
+, "Tesla": 71
+, "other": 153
 });
 
 db.insert(db.countries.CH, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -450,7 +458,8 @@ db.insert(db.countries.CH, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 771
 , "Volkswagen": 1888
 , "Volvo": 543
-, "other": 353
+, "Tesla": 275
+, "other": 78
 });
 
 db.insert(db.countries.CH, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -501,7 +510,8 @@ db.insert(db.countries.CH, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 830
 , "Volkswagen": 2203
 , "Volvo": 770
-, "other": 155
+, "Tesla": 35
+, "other": 120
 });
 
 db.insert(db.countries.CH, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -552,7 +562,8 @@ db.insert(db.countries.CH, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 835
 , "Volkswagen": 2485
 , "Volvo": 692
-, "other": 224
+, "Tesla": 68
+, "other": 156
 });
 
 db.insert(db.countries.CH, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -602,7 +613,8 @@ db.insert(db.countries.CH, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 635
 , "Volkswagen": 3153
 , "Volvo": 804
-, "other": 471
+, "Tesla": 195
+, "other": 276
 });
 
 db.insert(db.countries.CH, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (incomplete, only models with no ICE/hybrid variant included)",
