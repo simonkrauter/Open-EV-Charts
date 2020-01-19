@@ -147,18 +147,33 @@ function renderFilterAsButtons(parentDiv, param) {
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
     button.appendChild(document.createTextNode(param.options[optionKey]));
-    if (param.allowMultiSelection)
+    const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
+    const isOptionAdditive = param.additiveOptions && param.additiveOptions.includes(optionKey);
+    if (param.allowMultiSelection && isMultiSelectOption && !isOptionAdditive)
       button.title = "CTRL click for multi-selection";
     button.addEventListener("click", function(event) {
       event.preventDefault();
-      if (param.allowMultiSelection && event.ctrlKey) {
+      if (param.allowMultiSelection && (event.ctrlKey || isOptionAdditive)) {
         var values = chartSetConfig[param.name].split(",");
         var index = values.indexOf(optionKey);
         if (index !== -1)
           values.splice(index, 1);
         else
           values.push(optionKey);
-        chartSetConfig[param.name] = values.join(",");
+        var newValues = [];
+        for (const i in values) {
+          if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
+            newValues.push(values[i]);
+        }
+        chartSetConfig[param.name] = newValues.join(",");
+      } else if (param.allowMultiSelection) {
+        var oldValues = chartSetConfig[param.name].split(",");
+        var newValues = [optionKey];
+        for (const i in param.additiveOptions) {
+          if (oldValues.includes(param.additiveOptions[i]))
+            newValues.push(param.additiveOptions[i]);
+        }
+        chartSetConfig[param.name] = newValues.join(",");
       } else
         chartSetConfig[param.name] = optionKey;
       navigateToChartConfig(chartSetConfig);

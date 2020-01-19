@@ -187,6 +187,9 @@ var db = {
       param.options[code] = db.countryNames[db.countries[code]];
     param.unfoldKey = this.countryOptions.all;
     param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
+    param.noMultiSelectOptions = [this.countryOptions.all];
+    param.disableUnfoldOption = this.countryOptions.combine;
+    param.additiveOptions = [this.countryOptions.combine];
     param.defaultOption = this.countryOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
@@ -383,13 +386,6 @@ var db = {
   },
 
   makeChartConfigValid: function(chartConfig) {
-    if (chartConfig.country.includes(",")) {
-      const values = chartConfig.country.split(",");
-      if (values.includes(this.countryOptions.all))
-        chartConfig.country = this.countryOptions.all;
-      else if (values.includes(this.countryOptions.combine))
-        chartConfig.country = this.countryOptions.combine;
-    }
     if (chartConfig.metric.includes(",")) {
       const values = chartConfig.metric.split(",");
       if (values.includes(this.metrics.all))
@@ -439,11 +435,13 @@ var db = {
         result = newResult;
       }
       if (param.allowMultiSelection && yProperty != param.name) {
-        var values = chartConfig[param.name].split(",");
-        if (values.length > 1) {
+        const values = chartConfig[param.name].split(",");
+        if (values.length > 1 && (!param.disableUnfoldOption || !values.includes(param.disableUnfoldOption))) {
           var newResult = [];
           for (const j in result) {
             for (const i in values) {
+              if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[i]))
+                continue;
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = values[i];
               newResult.push(newConfig);
@@ -477,11 +475,12 @@ var db = {
 
   queryDataSets: function(chartConfig, dsType) {
     // Returns datasets for chart
+    const countryValues = chartConfig.country.split(",");
     var filterCountryIds = [];
-    if (chartConfig.country != this.countryOptions.combine && chartConfig.country != this.countryOptions.all) {
-      const countryCodes = chartConfig.country.split(",");
-      for (const i in countryCodes) {
-        filterCountryIds.push(db.countries[countryCodes[i]]);
+    if (chartConfig.country != this.countryOptions.all) {
+      for (const i in countryValues) {
+        if (db.countries[countryValues[i]])
+          filterCountryIds.push(db.countries[countryValues[i]]);
       }
     }
     var filterBrand = null;
@@ -598,7 +597,7 @@ var db = {
           category = brandAndModel;
 
         var seriesName = "Value";
-        if (filterCountryIds.length != 1 && chartConfig.country != this.countryOptions.combine && chartConfig.xProperty != this.xProperties.country)
+        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
         else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
           if (chartConfig.brand == this.brandOptions.all)
