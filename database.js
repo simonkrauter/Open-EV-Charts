@@ -385,6 +385,21 @@ var db = {
   },
 
   makeChartConfigValid: function(chartConfig) {
+    var countyValues = chartConfig.country.split(",");
+    if (!countyValues.includes(this.countryOptions.all)) {
+    var containsSingleCountry = false;
+      for (const i in countyValues) {
+        if (countyValues[i] != this.countryOptions.combine) {
+          containsSingleCountry = true;
+          break;
+        }
+      }
+      if (!containsSingleCountry) {
+        countyValues.push(this.countryOptions.all);
+        chartConfig.country = countyValues.join(",");
+      }
+    }
+
     if (chartConfig.metric.includes(",")) {
       const values = chartConfig.metric.split(",");
       if (values.includes(this.metrics.all))

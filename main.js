@@ -168,11 +168,13 @@ function renderFilterAsButtons(parentDiv, param) {
         chartSetConfig[param.name] = newValues.join(",");
       } else if (param.allowMultiSelection) {
         var oldValues = chartSetConfig[param.name].split(",");
-        var newValues = [optionKey];
+        var newValues = [];
         for (const i in param.additiveOptions) {
           if (oldValues.includes(param.additiveOptions[i]))
             newValues.push(param.additiveOptions[i]);
         }
+        if (param.defaultOption != optionKey)
+          newValues.push(optionKey);
         chartSetConfig[param.name] = newValues.join(",");
       } else
         chartSetConfig[param.name] = optionKey;
