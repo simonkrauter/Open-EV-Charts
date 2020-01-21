@@ -241,6 +241,8 @@ a.button.remove-button:after {
 table {
   border-collapse: collapse;
   margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th, td {
