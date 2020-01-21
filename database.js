@@ -757,7 +757,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.metric == this.metrics.ratioElectric) {
+          if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.brand == this.brandOptions.all) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
