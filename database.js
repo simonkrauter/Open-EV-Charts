@@ -325,7 +325,7 @@ var db = {
     var param = {};
     param.name = "view";
     param.options = {};
-    if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand))
+    if (chartConfig == null || ((chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine)))
       param.options[this.views.barChart] = "Bar Chart";
     if (chartConfig == null || ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
       param.options[this.views.lineChart] = "Line Chart";
@@ -338,6 +338,7 @@ var db = {
   },
 
   encodeChartConfig: function(chartConfig) {
+    chartConfig = db.makeChartConfigValid(chartConfig);
     var parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -385,6 +386,8 @@ var db = {
   },
 
   makeChartConfigValid: function(chartConfig) {
+    const params = this.getChartParams(chartConfig);
+
     var countyValues = chartConfig.country.split(",");
     if (!countyValues.includes(this.countryOptions.all)) {
     var containsSingleCountry = false;
@@ -414,12 +417,13 @@ var db = {
       chartConfig.model = this.modelOptions.combine;
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
-    if (chartConfig.metric == this.metrics.all && chartConfig.country == this.countryOptions.all) {
-      const params = this.getChartParams();
+    if (chartConfig.metric == this.metrics.all && chartConfig.country == this.countryOptions.all)
       chartConfig.metric = params.metric.defaultOption;
-    }
     if (chartConfig.metric == this.metrics.ratioElectricWithinBrand)
       chartConfig.model = this.modelOptions.combine;
+
+    if (!Object.keys(params.view.options).includes(chartConfig.view))
+      chartConfig.view = params.view.defaultOption;
 
     return chartConfig;
   },
