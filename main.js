@@ -173,7 +173,7 @@ function renderFilterAsButtons(parentDiv, param) {
           if (oldValues.includes(param.additiveOptions[i]))
             newValues.push(param.additiveOptions[i]);
         }
-        if (param.defaultOption != optionKey)
+        if (param.defaultOption != optionKey || param.alwaysAddToUrl)
           newValues.push(optionKey);
         chartSetConfig[param.name] = newValues.join(",");
       } else
