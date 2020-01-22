@@ -204,7 +204,8 @@ var db = {
     param.options[this.xProperties.year] = "Per Year";
     if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
       param.options[this.xProperties.country] = "Per Country";
-    param.options[this.xProperties.brand] = "Per Brand";
+    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+      param.options[this.xProperties.brand] = "Per Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       param.options[this.xProperties.model] = "Per Model";
     param.defaultOption = this.xProperties.month;
@@ -281,7 +282,8 @@ var db = {
     param.options = {};
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.model)
       param.options[this.brandOptions.all] = "All Brands";
-    param.options[this.brandOptions.combine] = "Combine Brands";
+    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+      param.options[this.brandOptions.combine] = "Combine Brands";
     for (const i in this.brands) {
       const brand = this.brands[i];
       if (brand != "other")
@@ -386,7 +388,7 @@ var db = {
   },
 
   makeChartConfigValid: function(chartConfig) {
-    const params = this.getChartParams(chartConfig);
+    var params = this.getChartParams(chartConfig);
 
     var countyValues = chartConfig.country.split(",");
     if (!countyValues.includes(this.countryOptions.all)) {
@@ -421,6 +423,14 @@ var db = {
       chartConfig.metric = params.metric.defaultOption;
     if (chartConfig.metric == this.metrics.ratioElectricWithinBrand)
       chartConfig.model = this.modelOptions.combine;
+
+    if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
+      chartConfig.xProperty = params.xProperty.defaultOption;
+
+    if (!Object.keys(params.brand.options).includes(chartConfig.brand))
+      chartConfig.brand = params.brand.defaultOption;
+
+    params = this.getChartParams(chartConfig); // update
 
     if (!Object.keys(params.view.options).includes(chartConfig.view))
       chartConfig.view = params.view.defaultOption;
