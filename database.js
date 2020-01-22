@@ -428,6 +428,17 @@ var db = {
     return chartConfig;
   },
 
+  applyNewDefaultOptions: function(newChartConfig, curChartConfig) {
+    // reset parameters, which are set to the current default option, to the new default option
+    const newParams = this.getChartParams(newChartConfig);
+    const curParams = this.getChartParams(curChartConfig);
+    for (const i in curParams) {
+      const param = curParams[i];
+      if (newChartConfig[param.name] == param.defaultOption)
+        newChartConfig[param.name] = newParams[i].defaultOption;
+    }
+  },
+
   unfoldChartConfig: function(chartConfig) {
     var yProperty;
     if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.brand == this.brandOptions.all)

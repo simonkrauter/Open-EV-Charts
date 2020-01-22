@@ -137,12 +137,13 @@ function renderFilterAsButtons(parentDiv, param) {
   const div = document.createElement("DIV");
   parentDiv.appendChild(div);
   for (const optionKey in param.options) {
-    var chartConfig = db.cloneObject(chartSetConfig);
-    chartConfig[param.name] = optionKey;
+    var newChartConfig = db.cloneObject(chartSetConfig);
+    newChartConfig[param.name] = optionKey;
+    db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
 
     var button = document.createElement("A");
     div.appendChild(button);
-    button.href = "#" + db.encodeChartConfig(chartConfig);
+    button.href = "#" + db.encodeChartConfig(newChartConfig);
     button.classList.add("button");
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
@@ -153,8 +154,9 @@ function renderFilterAsButtons(parentDiv, param) {
       button.title = "CTRL click for multi-selection";
     button.addEventListener("click", function(event) {
       event.preventDefault();
+      var newChartConfig = db.cloneObject(chartSetConfig);
       if (param.allowMultiSelection && (event.ctrlKey || isOptionAdditive)) {
-        var values = chartSetConfig[param.name].split(",");
+        var values = newChartConfig[param.name].split(",");
         var index = values.indexOf(optionKey);
         if (index !== -1)
           values.splice(index, 1);
@@ -165,9 +167,9 @@ function renderFilterAsButtons(parentDiv, param) {
           if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
             newValues.push(values[i]);
         }
-        chartSetConfig[param.name] = newValues.join(",");
+        newChartConfig[param.name] = newValues.join(",");
       } else if (param.allowMultiSelection) {
-        var oldValues = chartSetConfig[param.name].split(",");
+        var oldValues = newChartConfig[param.name].split(",");
         var newValues = [];
         for (const i in param.additiveOptions) {
           if (oldValues.includes(param.additiveOptions[i]))
@@ -175,9 +177,12 @@ function renderFilterAsButtons(parentDiv, param) {
         }
         if (param.defaultOption != optionKey || param.alwaysAddToUrl)
           newValues.push(optionKey);
-        chartSetConfig[param.name] = newValues.join(",");
+        newChartConfig[param.name] = newValues.join(",");
       } else
-        chartSetConfig[param.name] = optionKey;
+        newChartConfig[param.name] = optionKey;
+
+      db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
+      chartSetConfig = newChartConfig;
       navigateToChartConfig(chartSetConfig);
     });
   }
