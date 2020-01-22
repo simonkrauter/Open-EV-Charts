@@ -53,7 +53,7 @@ var db = {
     , source: source
     , data: data
     });
-    if (dsType == db.dsTypes.AllCarsByBrand || dsType == db.dsTypes.ElectricCarsByBrand) {
+    if (dsType == this.dsTypes.AllCarsByBrand || dsType == this.dsTypes.ElectricCarsByBrand) {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
@@ -61,7 +61,7 @@ var db = {
         }
       }
     }
-    else if (dsType == db.dsTypes.ElectricCarsByModel) {
+    else if (dsType == this.dsTypes.ElectricCarsByModel) {
       for (const model in data) {
         if (!this.models.includes(model)) {
           this.models.push(model);
@@ -182,8 +182,8 @@ var db = {
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
     param.options[this.countryOptions.combine] = "Combine Countries";
-    for (const code in db.countries)
-      param.options[code] = db.countryNames[db.countries[code]];
+    for (const code in this.countries)
+      param.options[code] = this.countryNames[this.countries[code]];
     param.unfoldKey = this.countryOptions.all;
     param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
     param.noMultiSelectOptions = [this.countryOptions.all];
@@ -338,7 +338,7 @@ var db = {
   },
 
   encodeChartConfig: function(chartConfig) {
-    chartConfig = db.makeChartConfigValid(chartConfig);
+    chartConfig = this.makeChartConfigValid(chartConfig);
     var parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -508,8 +508,8 @@ var db = {
     var filterCountryIds = [];
     if (chartConfig.country != this.countryOptions.all) {
       for (const i in countryValues) {
-        if (db.countries[countryValues[i]])
-          filterCountryIds.push(db.countries[countryValues[i]]);
+        if (this.countries[countryValues[i]])
+          filterCountryIds.push(this.countries[countryValues[i]]);
       }
     }
     var filterBrand = null;
@@ -573,8 +573,8 @@ var db = {
     var categories = [];
     var valuesCountPerCountry = {};
 
-    for (const i in db.datasets) {
-      const dataset = db.datasets[i];
+    for (const i in this.datasets) {
+      const dataset = this.datasets[i];
       if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
         continue;
       if (dataset.dsType != dsType)
@@ -753,18 +753,18 @@ var db = {
 
     var seriesRows;
     if (chartConfig.metric == this.metrics.salesAll) {
-      var datasets = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
+      var datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
     } else if (chartConfig.metric == this.metrics.salesElectric) {
-      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
     } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
-      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
-      var datasetsForRatio = this.queryDataSets(chartConfig, db.dsTypes.AllCarsByBrand);
+      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
+      var datasetsForRatio = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
       result.sources = datasets.sources.concat(datasetsForRatio.sources);
       for (const seriesName in seriesRows) {
@@ -799,12 +799,12 @@ var db = {
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows});
     } else if (chartConfig.metric == this.metrics.shareElectric) {
-      var datasets = this.queryDataSets(chartConfig, db.dsTypes.ElectricCarsByModel);
+      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       var chartConfigForSum = this.cloneObject(chartConfig);
       chartConfigForSum.brand = this.brandOptions.all;
       if (chartConfig.xProperty == this.xProperties.model)
         chartConfigForSum.model = this.modelOptions.all;
-      var datasetsForSum = this.queryDataSets(chartConfigForSum, db.dsTypes.ElectricCarsByModel);
+      var datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
       result.sources = datasets.sources;
