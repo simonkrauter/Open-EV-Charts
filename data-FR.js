@@ -925,7 +925,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 2956
 , "Škoda": 2416
 , "Porsche": 287
-, "Lamborghin": 6
+, "Lamborghini": 6
 , "Bentley": 6
 , "Mercedes-Benz": 4734
 , "Smart": 3193
@@ -1136,7 +1136,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 3284
 , "Škoda": 4373
 , "Porsche": 1124
-, "Lamborghin": 20
+, "Lamborghini": 20
 , "Bentley": 9
 , "Toyota": 7899
 , "Lexus": 996
