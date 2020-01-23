@@ -77,8 +77,7 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 27
 , "Alfa Romeo": 22
 , "Jaguar": 16
-, "NEVS": 1
-, "other": 987
+, "other": 988
 });
 
 db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/sweden-february-2018.html (incomplete, missing i3 BEV)",
@@ -210,11 +209,10 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 69
 , "Jaguar": 47
 , "Iveco": 7
-, "NEVS": 4
 , "DS Automobiles": 1
 , "Smart": 1
 , "Tesla": 29
-, "other": 1261
+, "other": 1265
 });
 
 db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/sweden-may-2018.html (incomplete, missing i3 BEV)",
@@ -257,10 +255,9 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 96
 , "Iveco": 26
 , "SsangYong": 15
-, "NEVS": 8
 , "DS Automobiles": 2
 , "Tesla": 85
-, "other": 2398
+, "other": 2406
 });
 
 db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/sweden-june-2018.html (incomplete, missing i3 BEV)",
@@ -441,9 +438,8 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Bentley": 4
 , "Iveco": 2
 , "Smart": 2
-, "Maybach": 1
 , "Tesla": 84
-, "other": 823
+, "other": 824
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/sweden-november-2018.html (incomplete, missing i3 BEV)",

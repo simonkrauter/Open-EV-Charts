@@ -405,13 +405,8 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Aston Martin": 5
 , "Infiniti": 3
 , "Lamborghini": 2
-, "Rolls Royce": 2
 , "Chrysler": 2
-, "McLaren": 1
-, "Morgan": 1
-, "Donkervoort": 1
-, "Lotus": 1
-, "other": 115
+, "other": 121
 });
 
 db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.rvo.nl/sites/default/files/2018/09/2018_08_Statistics%20Electric%20Vehicles%20and%20Charging%20in%20The%20Netherlands%20up%20to%20and%20including%20August%202018.pdf",
@@ -940,10 +935,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 3
 , "Infiniti": 3
 , "Aston Martin": 1
-, "Rolls Royce": 1
-, "Lotus": 1
-, "Morgan": 1
-, "other": 302
+, "other": 305
 });
 
 db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/netherlands-june-2019.html",
@@ -1001,8 +993,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 3
 , "Aston Martin": 2
 , "Infiniti": 2
-, "Rolls Royce": 1
-, "other": 210
+, "other": 211
 });
 
 db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/08/netherlands-july-2019.html",
@@ -1062,9 +1053,7 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 3
 , "Alpine": 2
 , "Aston Martin": 1
-, "Rolls Royce": 1
-, "Morgan": 1
-, "other": 139
+, "other": 141
 });
 
 db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/netherlands-august-2019.html",
@@ -1183,8 +1172,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 3
 , "Alpine": 2
 , "Lamborghini": 2
-, "Morgan": 1
-, "other": 71
+, "other": 72
 });
 
 db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/netherlands-october-2019.html",
@@ -1243,10 +1231,8 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lamborghini": 4
 , "Bentley": 3
 , "Aston Martin": 2
-, "Morgan": 2
 , "Infiniti": 1
-, "Rolls Royce": 1
-, "other": 71
+, "other": 74
 });
 
 db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/netherlands-november-2019.html",

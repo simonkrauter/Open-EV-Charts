@@ -245,7 +245,6 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 522
 , "BMW": 5876
 , "Mini": 2849
-, "Rolls Royce": 6
 , "Kia": 4357
 , "Hyundai": 3420
 , "Ford": 7274
@@ -256,7 +255,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1823
 , "Chevrolet": 16
 , "other": 7283
-, "Tesla": 103
+, "Tesla": 109
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
@@ -834,13 +833,12 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 657
 , "BMW": 4321
 , "Mini": 2234
-, "Rolls Royce": 1
 , "Nissan": 4109
 , "Infiniti": 13
 , "Volvo": 1853
 , "Chevrolet": 5
 , "Cadillac": 3
-, "Tesla": 1285
+, "Tesla": 1286
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
@@ -881,10 +879,8 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 308
 , "Maserati": 42
 , "Ferrari": 41
-, "Lancia": 1
 , "BMW": 4188
 , "Mini": 2234
-, "Rolls Royce": 1
 , "Mercedes-Benz": 5269
 , "Smart": 888
 , "Ford": 6002
@@ -892,7 +888,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 54
 , "Volvo": 1646
 , "Chevrolet": 6
-, "Tesla": 294
+, "Tesla": 295
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -935,7 +931,6 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 2082
 , "BMW": 2961
 , "Mini": 1667
-, "Rolls Royce": 1
 , "Fiat": 3432
 , "Jeep": 815
 , "Alfa Romeo": 214
@@ -947,7 +942,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 954
 , "Chevrolet": 1
 , "Cadillac": 1
-, "Tesla": 294
+, "Tesla": 295
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -986,7 +981,6 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 3528
 , "BMW": 4662
 , "Mini": 2376
-, "Rolls Royce": 1
 , "Fiat": 5349
 , "Jeep": 672
 , "Alfa Romeo": 213
@@ -1089,7 +1083,6 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 529
 , "BMW": 5884
 , "Mini": 1956
-, "Rolls Royce": 3
 , "Hyundai": 3600
 , "Kia": 3262
 , "Ford": 6259
@@ -1104,7 +1097,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 657
 , "Jaguar": 183
 , "Tesla": 225
-, "other": 4296
+, "other": 4299
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1575639106b8246659af0aba2bf961bc2e285f68f8-barometre%20decembre%202019.pdf",
@@ -1146,7 +1139,6 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 114
 , "BMW": 8353
 , "Mini": 3203
-, "Rolls Royce": 1
 , "Kia": 4668
 , "Hyundai": 3327
 , "Mercedes-Benz": 9685
@@ -1162,7 +1154,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 2
 , "Cadillac": 1
 , "Tesla": 1435
-, "other": 2794
+, "other": 2795
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1578561037dfcf28d0734569a6a693bc8194de62bf-BILANANNUEL2019.pdf",
