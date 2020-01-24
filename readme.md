@@ -41,7 +41,7 @@ Feeback
 -------
 
 Feeback of any kind is welcome. Possibilities to send feedback:
-- Mail: trustablecode@gmail.com
+- Mail: trustable@disroot.org
 - [GitHub issue](https://github.com/trustable-code/Open-EV-Charts/issues/new)
 
 Contributing
