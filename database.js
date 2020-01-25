@@ -569,13 +569,13 @@ var db = {
         filterYearLast = filterYearFirst;
         filterMonthLast = 12;
       } else if (chartConfig.timeSpan.startsWith("q")) {
-        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1).substr(0, 4));
-        filterMonthFirst = 1 + (parseInt(chartConfig.timeSpan.substr(1).substr(5, 1)) - 1) * 3;
+        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1, 4));
+        filterMonthFirst = 1 + (parseInt(chartConfig.timeSpan.substr(6, 1)) - 1) * 3;
         filterYearLast = filterYearFirst;
         filterMonthLast = filterMonthFirst + 2;
       } else if (chartConfig.timeSpan.startsWith("m")) {
-        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1).substr(0, 4));
-        filterMonthFirst = parseInt(chartConfig.timeSpan.substr(1).substr(5, 2));
+        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1, 4));
+        filterMonthFirst = parseInt(chartConfig.timeSpan.substr(6, 2));
         filterYearLast = filterYearFirst;
         filterMonthLast = filterMonthFirst;
       } else if (chartConfig.timeSpan.endsWith("y") || chartConfig.timeSpan.endsWith("m")) {
