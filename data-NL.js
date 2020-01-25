@@ -41,8 +41,7 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Maserati": 17
 , "Bentley": 11
 , "Infiniti": 7
-, "Ferrari": 5
-, "other": 104
+, "other": 109
 });
 
 db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/02/netherlands-january-2018.html (incomplete, missing i3 BEV)",
@@ -91,9 +90,8 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 50
 , "Lexus": 49
 , "Subaru": 45
-, "Ferrari": 8
 , "Maserati": 7
-, "other": 164
+, "other": 172
 });
 
 db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/netherlands-february-2018.html (incomplete, missing i3 BEV)",
@@ -143,9 +141,8 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 80
 , "Subaru": 38
 , "Maserati": 6
-, "Ferrari": 5
 , "Infiniti": 5
-, "other": 258
+, "other": 263
 });
 
 db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/netherlands-march-2018.html (incomplete, missing i3 BEV)",
@@ -194,8 +191,7 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Honda": 72
 , "Subaru": 65
 , "Lexus": 62
-, "Aston Martin": 6
-, "other": 358
+, "other": 364
 });
 
 db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/netherlands-april-2018.html (incomplete, missing i3 BEV)",
@@ -245,9 +241,8 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 63
 , "Subaru": 51
 , "Alpine": 16
-, "Ferrari": 5
 , "Infiniti": 5
-, "other": 348
+, "other": 353
 });
 
 db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/netherlands-may-2018.html (incomplete, missing i3 BEV)",
@@ -348,9 +343,8 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 58
 , "DS Automobiles": 28
 , "Bentley": 9
-, "Ferrari": 6
 , "Infiniti": 6
-, "other": 196
+, "other": 202
 });
 
 db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/netherlands-july-2018.html (incomplete, missing i3 BEV)",
@@ -400,13 +394,10 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 33
 , "Alpine": 7
 , "Maserati": 6
-, "Ferrari": 6
 , "Bentley": 5
-, "Aston Martin": 5
 , "Infiniti": 3
-, "Lamborghini": 2
 , "Chrysler": 2
-, "other": 121
+, "other": 134
 });
 
 db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.rvo.nl/sites/default/files/2018/09/2018_08_Statistics%20Electric%20Vehicles%20and%20Charging%20in%20The%20Netherlands%20up%20to%20and%20including%20August%202018.pdf",
@@ -659,9 +650,8 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 40
 , "Alpine": 11
 , "Bentley": 11
-, "Lamborghini": 8
 , "Maserati": 8
-, "other": 126
+, "other": 134
 });
 
 db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/netherlands-january-2019.html",
@@ -768,8 +758,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 33
 , "Bentley": 10
 , "Alpine": 7
-, "Lamborghini": 5
-, "other": 206
+, "other": 211
 });
 
 db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/netherlands-march-2019.html",
@@ -821,9 +810,8 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 45
 , "Smart": 24
 , "Alpine": 8
-, "Aston Martin": 6
 , "Bentley": 5
-, "other": 419
+, "other": 425
 });
 
 db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/netherlands-april-2019.html",
@@ -875,8 +863,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 50
 , "Smart": 32
 , "Bentley": 12
-, "Lamborghini": 5
-, "other": 402
+, "other": 407
 });
 
 db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/netherlands-may-2019.html",
@@ -928,14 +915,11 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 39
 , "Jaguar": 29
 , "Subaru": 29
-, "Ferrari": 7
 , "Bentley": 6
 , "Alpine": 5
-, "Lamborghini": 4
 , "Maserati": 3
 , "Infiniti": 3
-, "Aston Martin": 1
-, "other": 305
+, "other": 317
 });
 
 db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/netherlands-june-2019.html",
@@ -988,12 +972,9 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 27
 , "Smart": 16
 , "Bentley": 6
-, "Lamborghini": 6
-, "Ferrari": 4
 , "Maserati": 3
-, "Aston Martin": 2
 , "Infiniti": 2
-, "other": 211
+, "other": 223
 });
 
 db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/08/netherlands-july-2019.html",
@@ -1047,13 +1028,10 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 43
 , "Smart": 16
 , "Bentley": 8
-, "Lamborghini": 5
 , "Maserati": 5
-, "Ferrari": 3
 , "Infiniti": 3
 , "Alpine": 2
-, "Aston Martin": 1
-, "other": 141
+, "other": 150
 });
 
 db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/netherlands-august-2019.html",
@@ -1109,11 +1087,8 @@ db.insert(db.countries.NL, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 8
 , "Bentley": 5
 , "Alpine": 2
-, "Lamborghini": 1
-, "Ferrari": 1
 , "Maserati": 1
-, "Aston Martin": 1
-, "other": 79
+, "other": 82
 });
 
 db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/netherlands-september-2019.html",
@@ -1168,11 +1143,9 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 26
 , "Subaru": 19
 , "Bentley": 5
-, "Ferrari": 5
 , "Maserati": 3
 , "Alpine": 2
-, "Lamborghini": 2
-, "other": 72
+, "other": 79
 });
 
 db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/netherlands-october-2019.html",
@@ -1228,11 +1201,9 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 26
 , "Subaru": 22
 , "Alpine": 4
-, "Lamborghini": 4
 , "Bentley": 3
-, "Aston Martin": 2
 , "Infiniti": 1
-, "other": 74
+, "other": 80
 });
 
 db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/netherlands-november-2019.html",
@@ -1288,9 +1259,7 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 178
 , "Smart": 54
 , "Bentley": 1
-, "Lamborghini": 2
-, "Ferrari": 1
-, "other": 33
+, "other": 36
 });
 
 db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/netherlands-december-2019.html",

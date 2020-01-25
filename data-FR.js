@@ -284,7 +284,6 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 2715
 , "Škoda": 2394
 , "Porsche": 902
-, "Lamborghini": 13
 , "Bentley": 9
 , "Nissan": 9296
 , "Infiniti": 421
@@ -292,7 +291,6 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 1573
 , "Alfa Romeo": 1404
 , "Maserati": 45
-, "Ferrari": 18
 , "Toyota": 6057
 , "Lexus": 431
 , "BMW": 3782
@@ -303,7 +301,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Kia": 2278
 , "Hyundai": 2123
 , "Volvo": 913
-, "other": 5534
+, "other": 5565
 , "Tesla": 195
 });
 
@@ -817,12 +815,10 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 3809
 , "Škoda": 3242
 , "Porsche": 658
-, "Lamborghini": 9
 , "Bentley": 4
 , "Fiat": 8717
 , "Jeep": 1398
 , "Alfa Romeo": 406
-, "Ferrari": 36
 , "Maserati": 27
 , "Toyota": 9912
 , "Lexus": 623
@@ -839,6 +835,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 5
 , "Cadillac": 3
 , "Tesla": 1286
+, "other": 45
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
@@ -868,7 +865,6 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 3329
 , "Škoda": 2947
 , "Porsche": 417
-, "Lamborghini": 18
 , "Bentley": 7
 , "Toyota": 9522
 , "Lexus": 741
@@ -878,7 +874,6 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 1761
 , "Alfa Romeo": 308
 , "Maserati": 42
-, "Ferrari": 41
 , "BMW": 4188
 , "Mini": 2234
 , "Mercedes-Benz": 5269
@@ -889,6 +884,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1646
 , "Chevrolet": 6
 , "Tesla": 295
+, "other": 59
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -921,7 +917,6 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 2956
 , "Škoda": 2416
 , "Porsche": 287
-, "Lamborghini": 6
 , "Bentley": 6
 , "Mercedes-Benz": 4734
 , "Smart": 3193
@@ -935,7 +930,6 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 815
 , "Alfa Romeo": 214
 , "Maserati": 29
-, "Ferrari": 10
 , "Ford": 4148
 , "Nissan": 3182
 , "Infiniti": 22
@@ -943,6 +937,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 1
 , "Cadillac": 1
 , "Tesla": 295
+, "other": 16
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -1129,7 +1124,6 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 3284
 , "Škoda": 4373
 , "Porsche": 1124
-, "Lamborghini": 20
 , "Bentley": 9
 , "Toyota": 7899
 , "Lexus": 996
@@ -1154,7 +1148,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 2
 , "Cadillac": 1
 , "Tesla": 1435
-, "other": 2795
+, "other": 2815
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1578561037dfcf28d0734569a6a693bc8194de62bf-BILANANNUEL2019.pdf",
