@@ -19,7 +19,7 @@ var db = {
   // Format of entries:
   // - country:     country enum value
   // - countryName: country display name
-  // - monthString: month in the form "YYYY-MM"
+  // - monthString: month in the form "2020-01"
   // - year:        integer
   // - month:       integer 1..12
   // - dsType:      dataset dsType enum value
@@ -42,17 +42,47 @@ var db = {
     this.countryNames[id] = name;
   },
 
-  insert: function(country, monthString, dsType, source, data) {
-    this.datasets.push(
-    { country: country
-    , countryName: this.countryNames[country]
-    , monthString: monthString
-    , year: parseInt(monthString.substr(0, 4))
-    , month: parseInt(monthString.substr(5, 2))
-    , dsType: dsType
-    , source: source
-    , data: data
-    });
+  insert: function(country, dateString, dsType, source, data) {
+    // Adds the data for one counry and one month or one quarter and one dataset type.
+    // - country:     country enum value
+    // - dateString:  month in the form "2020-01" or quarter in the form "q2020-1"
+    // - dsType:      dataset dsType enum value
+    // - source:      source URL
+    // - data:        number of sales or
+    //                object of brand -> number of sales or
+    //                object of model -> number of sales
+
+    if (dateString.substr(0, 1) == 'q') {
+      var dataset =
+      { country: country
+      , countryName: this.countryNames[country]
+      , dsType: dsType
+      , source: source
+      , data: {}
+      }
+      for (var i in data) {
+        dataset.data[i] = Math.round(data[i] / 3);
+      }
+      dataset.year = parseInt(dateString.substr(1, 4));
+      dataset.month = 1 + (parseInt(dateString.substr(6, 1)) - 1) * 3;
+      for (var i = 0; i < 3; i++) {
+        dataset.monthString = this.formatMonth(dataset.year, dataset.month);
+        this.datasets.push(this.cloneObject(dataset));
+        dataset.month++;
+      }
+    } else {
+      this.datasets.push(
+      { country: country
+      , countryName: this.countryNames[country]
+      , monthString: dateString
+      , year: parseInt(dateString.substr(0, 4))
+      , month: parseInt(dateString.substr(5, 2))
+      , dsType: dsType
+      , source: source
+      , data: data
+      });
+    }
+
     if (dsType == this.dsTypes.AllCarsByBrand || dsType == this.dsTypes.ElectricCarsByBrand) {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
