@@ -60,8 +60,10 @@ var db = {
       , source: source
       , data: {}
       }
-      for (var i in data) {
-        dataset.data[i] = Math.round(data[i] / 3);
+      for (var key in data) {
+        const val = Math.round(data[key] / 3);
+        if (val > 0)
+          dataset.data[key] = val;
       }
       dataset.year = parseInt(dateString.substr(1, 4));
       dataset.month = 1 + (parseInt(dateString.substr(6, 1)) - 1) * 3;
