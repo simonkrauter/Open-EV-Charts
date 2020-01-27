@@ -4,7 +4,9 @@
 
 db.addCountry("UK", "United Kingdom");
 
-db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+// source: https://www.gov.uk/government/statistical-data-sets/all-vehicles-veh01#registered-for-the-first-time
+
+db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 82658
 , "Volkswagen": 57865
 , "Vauxhall": 54282
@@ -54,7 +56,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 1931
 });
 
-db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 2015
 , "Tesla|Model S": 541
 , "Renault|ZOE": 429
@@ -68,7 +70,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "q2018-2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 64040
 , "Volkswagen": 56061
 , "BMW": 45284
@@ -120,7 +122,7 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2181
 });
 
-db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 1501
 , "Tesla|Model S": 498
 , "Tesla|Model X": 422
@@ -134,7 +136,7 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 5
 });
 
-db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 61289
 , "Mercedes-Benz": 46605
 , "Vauxhall": 45693
@@ -186,7 +188,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2084
 });
 
-db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 961
 , "Tesla|Model S": 498
 , "Renault|ZOE": 454
@@ -199,7 +201,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-up!": 5
 });
 
-db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 49064
 , "Volkswagen": 45713
 , "BMW": 36106
@@ -251,7 +253,7 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 1595
 });
 
-db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 939
 , "Renault|ZOE": 696
 , "Jaguar|I-Pace": 534
@@ -265,7 +267,7 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "q2019-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 68668
 , "Volkswagen": 60350
 , "Vauxhall": 55300
@@ -317,7 +319,7 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2279
 });
 
-db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Volkswagen|e-Golf": 1579
 , "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
@@ -331,7 +333,7 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "q2019-2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 60619
 , "Volkswagen": 52274
 , "BMW": 43617
@@ -383,7 +385,7 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2064
 });
 
-db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Jaguar|I-Pace": 982
 , "BMW|i3 BEV": 969
 , "Volkswagen|e-Golf": 796
@@ -400,7 +402,7 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Roadster": 1
 });
 
-db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 60883
 , "Mercedes-Benz": 47760
 , "Volkswagen": 46964
@@ -452,7 +454,7 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 1965
 });
 
-db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853466/veh0161.ods (per quarter)",
+db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 5350
 , "Nissan|Leaf": 1386
 , "Volkswagen|e-Golf": 1208
