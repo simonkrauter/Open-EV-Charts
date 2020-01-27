@@ -808,7 +808,11 @@ var db = {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       var datasetsForRatio = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
-      result.sources = datasets.sources.concat(datasetsForRatio.sources);
+      result.sources = datasets.sources;
+      for (const i in datasetsForRatio.sources) {
+        if (!result.sources.includes(datasetsForRatio.sources[i]))
+          result.sources.push(datasetsForRatio.sources[i]);
+      }
       for (const seriesName in seriesRows) {
         var valuesForRatio = {};
         for (const i in datasets.categories) {
