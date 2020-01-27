@@ -225,6 +225,8 @@ var db = {
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
     param.allowMultiSelection = true;
+    param.maxOptionsToShowAsButton = 9;
+    param.moreButtonText = "More Countries";
     result[param.name] = param;
 
     // x-axis property

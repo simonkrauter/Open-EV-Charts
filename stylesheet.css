@@ -189,6 +189,13 @@ a.button.remove-button:after {
   padding: 5px;
 }
 
+.filters > div:not(.showAllOptions) > a.button.extendedOption:not(.active) {
+  display: none;
+}
+.filters > div.showAllOptions > a.button.showMore {
+  display: none;
+}
+
 .sources {
   display: inline-block;
 }

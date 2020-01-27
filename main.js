@@ -23,11 +23,17 @@ homeLink.addEventListener("click", function(event) {
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
+var activeShowAllOptionsParamName;
 
 setGlobalChartOptions();
 navigate();
 
-function navigate() {
+function navigate(retainShowAllOptionsParamName) {
+  if (typeof(retainShowAllOptionsParamName) != "undefined")
+    activeShowAllOptionsParamName = retainShowAllOptionsParamName;
+  else
+    activeShowAllOptionsParamName = "";
+
   chartSetConfig = getChartConfigFromUrl();
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
@@ -37,10 +43,10 @@ function navigate() {
   logVisit();
 }
 
-function navigateToChartConfig(chartConfig) {
+function navigateToChartConfig(chartConfig, retainShowAllOptionsParamName) {
   const hash = "#" + db.encodeChartConfig(chartConfig);
   history.pushState(null, null, hash);
-  navigate();
+  navigate(retainShowAllOptionsParamName);
 }
 
 function logVisit() {
@@ -136,6 +142,22 @@ function renderFilterAsButtons(parentDiv, param) {
   const selectedKeys = chartSetConfig[param.name].split(",");
   const div = document.createElement("DIV");
   parentDiv.appendChild(div);
+
+  // Test, if "Show more" button is needed
+  var extendedOptionStartIndex = -1;
+  var optionIndex = 0;
+  if (param.maxOptionsToShowAsButton > 0 && activeShowAllOptionsParamName != param.name) {
+    for (const optionKey in param.options) {
+      if (!selectedKeys.includes(optionKey) && optionIndex >= param.maxOptionsToShowAsButton - 1) {
+        extendedOptionStartIndex = optionIndex;
+        break;
+      }
+      optionIndex++;
+    }
+  }
+
+  // Add regular option button
+  optionIndex = 0;
   for (const optionKey in param.options) {
     var newChartConfig = db.cloneObject(chartSetConfig);
     newChartConfig[param.name] = optionKey;
@@ -147,6 +169,9 @@ function renderFilterAsButtons(parentDiv, param) {
     button.classList.add("button");
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
+    if (extendedOptionStartIndex != -1 && optionIndex >= extendedOptionStartIndex)
+      button.classList.add("extendedOption");
+    optionIndex++;
     button.appendChild(document.createTextNode(param.options[optionKey]));
     const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
     const isOptionAdditive = param.additiveOptions && param.additiveOptions.includes(optionKey);
@@ -183,8 +208,24 @@ function renderFilterAsButtons(parentDiv, param) {
 
       db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
       chartSetConfig = newChartConfig;
-      navigateToChartConfig(chartSetConfig);
+      navigateToChartConfig(chartSetConfig, param.name);
     });
+  }
+
+  // Add "Show more" button
+  if (extendedOptionStartIndex != -1) {
+    var button = document.createElement("A");
+    button.href = "#";
+    div.appendChild(button);
+    button.addEventListener("click", function(event) {
+      event.preventDefault();
+      div.classList.add("showAllOptions");
+      activeShowAllOptionsParamName = param.name;
+    });
+    button.classList.add("button");
+    button.classList.add("showMore");
+    button.appendChild(document.createTextNode(param.moreButtonText));
+    button.title = "Show more options";
   }
 }
 
