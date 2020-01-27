@@ -21,6 +21,7 @@ Database state
 - China: data since 2018-01 collected, numbers per brand missing
 - United States: data since 2018-01 collected
 - Germany: data since 2018-01 collected
+- United Kingdom: data since 2018-01 collected, data is per quarter
 - France: data since 2018-01 collected
 - Netherlands: data since 2018-01 collected
 - Austria: data since 2019-01 collected
