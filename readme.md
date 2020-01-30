@@ -24,8 +24,8 @@ Database state
 - United Kingdom: data since 2018-01 collected, data is per quarter
 - France: data since 2018-01 collected
 - Netherlands: data since 2018-01 collected
-- Austria: data since 2019-01 collected
 - Sweden: data since 2018-01 collected
+- Austria: data since 2019-01 collected
 - Switzerland: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
 - Norway: data since 2018-01 collected
 
