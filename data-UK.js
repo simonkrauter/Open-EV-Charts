@@ -169,7 +169,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jeep": 1499
 , "Abarth": 1461
 , "Subaru": 1197
-, "Tesla": 942
+, "Tesla": 939
 , "Alfa Romeo": 932
 , "DS Automobiles": 719
 , "SsangYong": 655
@@ -234,7 +234,7 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jeep": 1304
 , "Abarth": 1100
 , "Alfa Romeo": 786
-, "Tesla": 675
+, "Tesla": 672
 , "Subaru": 637
 , "DS Automobiles": 561
 , "SsangYong": 475
@@ -427,7 +427,7 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Suzuki": 9410
 , "Fiat": 7226
 , "Dacia": 6762
-, "Tesla": 5974
+, "Tesla": 5970
 , "Lexus": 5415
 , "Mitsubishi": 3881
 , "Porsche": 3343
