@@ -251,9 +251,12 @@ var db = {
     param.name = "timeSpan";
     param.options = {};
     param.options[this.timeSpanOptions.all] = "All Time";
-    param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
-    param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
-    param.options[this.timeSpanOptions.last1y] = "Last Year";
+    if (chartConfig == null || ![this.xProperties.year, this.xProperties.quarter].includes(chartConfig.xProperty)) {
+      param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
+      param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
+    }
+    if (chartConfig == null || ![this.xProperties.year].includes(chartConfig.xProperty))
+      param.options[this.timeSpanOptions.last1y] = "Last Year";
     param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
     var currentDate = new Date();
     var latestYear = 1900 + currentDate.getYear();
@@ -287,7 +290,7 @@ var db = {
         }
       }
     }
-    if (chartConfig == null || [this.xProperties.country, this.xProperties.brand, this.xProperties.model, this.xProperties.month].includes(chartConfig.xProperty)) {
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.year) {
       // single year
       var year = latestYear;
       for (var i = 0; i < 2; i++) {
