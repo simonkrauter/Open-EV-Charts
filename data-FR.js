@@ -255,7 +255,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1823
 , "Chevrolet": 16
 , "other": 7283
-, "Tesla": 109
+, "Tesla": 103
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
@@ -834,7 +834,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1853
 , "Chevrolet": 5
 , "Cadillac": 3
-, "Tesla": 1286
+, "Tesla": 1285
 , "other": 45
 });
 
@@ -883,7 +883,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 54
 , "Volvo": 1646
 , "Chevrolet": 6
-, "Tesla": 295
+, "Tesla": 294
 , "other": 59
 });
 
@@ -936,7 +936,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 954
 , "Chevrolet": 1
 , "Cadillac": 1
-, "Tesla": 295
+, "Tesla": 294
 , "other": 16
 });
 
