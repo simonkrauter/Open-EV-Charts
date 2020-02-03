@@ -1182,6 +1182,67 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 1
 });
 
+db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Toyota": 1148
+, "Audi": 999
+, "Volkswagen": 995
+, "BMW": 927
+, "Volvo": 696
+, "Hyundai": 631
+, "Renault": 546
+, "Nissan": 513
+, "Mercedes-Benz": 426
+, "Škoda": 387
+, "Mitsubishi": 305
+, "Kia": 245
+, "Tesla": 194
+, "Seat": 180
+, "Ford": 169
+, "Suzuki": 166
+, "Peugeot": 152
+, "Opel": 127
+, "Subaru": 118
+, "Jaguar": 115
+});
+
+db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Audi|e-tron": 899
+, "Renault|ZOE": 532
+, "Volkswagen|e-Golf": 493
+, "Hyundai|Kona Electric": 379
+, "Nissan|Leaf": 366
+, "Nissan|e-NV200": 242
+, "Hyundai|Ioniq Electric": 210
+, "BMW|i3 BEV": 200
+, "Seat|Mii Electric": 178
+, "Tesla|Model 3": 166
+, "Škoda|Citigo-e": 130
+, "Jaguar|I-Pace": 112
+, "Kia|Soul EV": 89
+, "Kia|Niro EV": 80
+, "Opel|Ampera-e": 70
+, "Mercedes-Benz|EQC": 67
+, "Volkswagen|e-up!": 40
+, "Citroën|Berlingo Electric": 37
+, "Tesla|Model X": 18
+, "DS Automobiles|DS 3 Crossback E-Tense": 14
+, "Smart|Fortwo electric drive": 14
+, "Smart|Forfour electric drive": 13
+, "Peugeot|e-208": 11
+, "Maxus|EV80": 11
+, "Tesla|Model S": 10
+, "Porsche|Taycan": 10
+, "Citroën|C-Zero": 8
+, "MG|ZS EV": 7
+, "Mini|Cooper SE Electric": 5
+, "Peugeot|iOn": 5
+, "Volkswagen|e-Crafter": 3
+, "Mitsubishi|i-MiEV": 2
+, "Mercedes-Benz|eVito": 2
+, "Chevrolet|Bolt EV": 1
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1205,21 +1266,4 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Mazda":
 // , "Opel":
 // , "Citroën":
-// });
-
-// db.insert(db.countries.NO, "xx", db.dsTypes.ElectricCarsByModel, "",
-// { "Tesla|Model 3":
-// , "Volkswagen|e-Golf":
-// , "BMW|i3 BEV":
-// , "Nissan|Leaf":
-// , "Jaguar|I-Pace":
-// , "Audi|e-tron":
-// , "Renault|ZOE":
-// , "Tesla|Model X":
-// , "Hyundai|Kona Electric":
-// , "Hyundai|Ioniq Electric":
-// , "Kia|Niro EV":
-// , "Volkswagen|e-up!":
-// , "Tesla|Model S":
-// , "Opel|Ampera-e":
 // });
