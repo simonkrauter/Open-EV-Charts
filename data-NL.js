@@ -1456,20 +1456,74 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 });
 
-// Template:
+db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2020#jan",
+{ "Volkswagen": 6733
+, "BMW": 3005
+, "Peugeot": 2989
+, "Kia": 2896
+, "Toyota": 2645
+, "Renault": 2598
+, "Ford": 2487
+, "Opel": 2394
+, "Volvo": 2083
+, "Škoda": 1973
+, "Audi": 1861
+, "Seat": 1766
+, "Mercedes-Benz": 1657
+, "Citroën": 1353
+, "Hyundai": 1196
+, "Mini": 1019
+, "Nissan": 958
+, "Suzuki": 912
+, "Mazda": 755
+, "Mitsubishi": 684
+, "Fiat": 491
+, "Porsche": 356
+, "Land Rover": 230
+, "Dacia": 206
+, "Honda": 166
+, "Tesla": 54
+, "Lexus": 117
+, "MG": 110
+, "DS Automobiles": 107
+, "Jaguar": 88
+, "Subaru": 54
+, "Jeep": 42
+, "Alfa Romeo": 38
+, "Bentley": 11
+, "Smart": 7
+, "Alpine": 3
+, "other": 21
+});
 
-// db.insert(db.countries.NL, "", db.dsTypes.ElectricCarsByModel, "",
-// { "Tesla|Model 3":
-// , "Hyundai|Kona Electric":
-// , "Kia|Niro EV":
-// , "Volkswagen|e-Golf":
-// , "Nissan|Leaf":
-// , "BMW|i3 BEV":
-// , "Renault|ZOE":
-// , "Hyundai|Ioniq Electric":
-// , "Audi|e-tron":
-// , "Opel|Ampera-e":
-// , "Smart|Forfour electric drive":
-// , "Jaguar|I-Pace":
-// , "Tesla|Model S":
-// });
+db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Opel|Ampera-e": 312
+, "Volkswagen|e-Golf": 270
+, "Kia|Niro EV": 156
+, "Peugeot|e-208": 97
+, "Renault|ZOE": 76
+, "Hyundai|Kona Electric": 73
+, "Kia|Soul EV": 61
+, "Nissan|Leaf": 48
+, "BMW|i3 BEV": 45
+, "Tesla|Model 3": 43
+, "Škoda|Citigo-e": 41
+, "Audi|e-tron": 36
+, "Opel|Corsa-e": 36
+, "Citroën|Berlingo Electric": 31
+, "DS Automobiles|DS 3 Crossback E-Tense": 28
+, "Hyundai|Ioniq Electric": 26
+, "Seat|Mii Electric": 22
+, "Porsche|Taycan": 17
+, "Citroën|C-Zero": 13
+, "Nissan|e-NV200": 10
+, "Smart|Fortwo electric drive": 7
+, "Tesla|Model X": 7
+, "Mercedes-Benz|EQC": 5
+, "MG|ZS EV": 5
+, "Mini|Cooper SE Electric": 4
+, "Tesla|Model S": 4
+, "Volkswagen|e-Crafter": 4
+, "Jaguar|I-Pace": 3
+, "Mercedes-Benz|eVito": 1
+});
