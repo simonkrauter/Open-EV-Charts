@@ -39,9 +39,8 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 84
 , "Tesla": 78
 , "Maserati": 17
-, "Bentley": 11
 , "Infiniti": 7
-, "other": 109
+, "other": 120
 });
 
 db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -260,9 +259,8 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 76
 , "DS Automobiles": 63
 , "Subaru": 51
-, "Alpine": 16
 , "Infiniti": 5
-, "other": 353
+, "other": 369
 });
 
 db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -318,8 +316,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Honda": 109
 , "Jaguar": 94
 , "Subaru": 58
-, "Alpine": 16
-, "other": 262
+, "other": 278
 });
 
 db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -376,9 +373,8 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 65
 , "Lexus": 58
 , "DS Automobiles": 28
-, "Bentley": 9
 , "Infiniti": 6
-, "other": 202
+, "other": 211
 });
 
 db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -435,12 +431,10 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 58
 , "Subaru": 51
 , "DS Automobiles": 33
-, "Alpine": 7
 , "Maserati": 6
-, "Bentley": 5
 , "Infiniti": 3
 , "Chrysler": 2
-, "other": 134
+, "other": 146
 });
 
 db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -611,8 +605,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 51
 , "Subaru": 47
 , "DS Automobiles": 35
-, "Alpine": 5
-, "other": 74
+, "other": 79
 });
 
 db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -732,10 +725,8 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 63
 , "Tesla": 55
 , "Smart": 40
-, "Alpine": 11
-, "Bentley": 11
 , "Maserati": 8
-, "other": 134
+, "other": 156
 });
 
 db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -796,9 +787,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 36
 , "DS Automobiles": 34
 , "Subaru": 28
-, "Alpine": 12
-, "Bentley": 6
-, "other": 147
+, "other": 165
 });
 
 db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -855,9 +844,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 66
 , "Smart": 41
 , "Subaru": 33
-, "Bentley": 10
-, "Alpine": 7
-, "other": 211
+, "other": 228
 });
 
 db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -916,9 +903,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 55
 , "Subaru": 45
 , "Smart": 24
-, "Alpine": 8
-, "Bentley": 5
-, "other": 425
+, "other": 438
 });
 
 db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -978,8 +963,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 68
 , "Subaru": 50
 , "Smart": 32
-, "Bentley": 12
-, "other": 407
+, "other": 419
 });
 
 db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1038,11 +1022,9 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 39
 , "Jaguar": 29
 , "Subaru": 29
-, "Bentley": 6
-, "Alpine": 5
 , "Maserati": 3
 , "Infiniti": 3
-, "other": 317
+, "other": 328
 });
 
 db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1102,10 +1084,9 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 66
 , "Subaru": 27
 , "Smart": 16
-, "Bentley": 6
 , "Maserati": 3
 , "Infiniti": 2
-, "other": 223
+, "other": 229
 });
 
 db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1167,11 +1148,9 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 48
 , "DS Automobiles": 43
 , "Smart": 16
-, "Bentley": 8
 , "Maserati": 5
 , "Infiniti": 3
-, "Alpine": 2
-, "other": 150
+, "other": 160
 });
 
 db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1230,10 +1209,8 @@ db.insert(db.countries.NL, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 35
 , "Subaru": 17
 , "Alfa Romeo": 8
-, "Bentley": 5
-, "Alpine": 2
 , "Maserati": 1
-, "other": 82
+, "other": 89
 });
 
 db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1293,10 +1270,8 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 26
 , "Smart": 26
 , "Subaru": 19
-, "Bentley": 5
 , "Maserati": 3
-, "Alpine": 2
-, "other": 79
+, "other": 86
 });
 
 db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1359,10 +1334,8 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 31
 , "Smart": 26
 , "Subaru": 22
-, "Alpine": 4
-, "Bentley": 3
 , "Infiniti": 1
-, "other": 80
+, "other": 87
 });
 
 db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1426,8 +1399,7 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 28
 , "Subaru": 178
 , "Smart": 54
-, "Bentley": 1
-, "other": 36
+, "other": 37
 });
 
 db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1490,10 +1462,8 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 54
 , "Jeep": 42
 , "Alfa Romeo": 38
-, "Bentley": 11
 , "Smart": 7
-, "Alpine": 3
-, "other": 21
+, "other": 35
 });
 
 db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",

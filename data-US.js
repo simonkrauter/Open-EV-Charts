@@ -40,8 +40,8 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Genesis": 1613
 , "Fiat": 1229
 , "Maserati": 966
-, "Bentley": 157
 , "Smart": 105
+, "other": 157
 });
 
 db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -93,8 +93,8 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Genesis": 1363
 , "Fiat": 1241
 , "Maserati": 931
-, "Bentley": 165
 , "Smart": 106
+, "other": 165
 });
 
 db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -147,8 +147,8 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Genesis": 1386
 , "Fiat": 1544
 , "Maserati": 885
-, "Bentley": 165
 , "Smart": 110
+, "other": 165
 });
 
 db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -197,8 +197,8 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Fiat": 1404
 , "Genesis": 1028
 , "Maserati": 950
-, "Bentley": 165
 , "Smart": 93
+, "other": 165
 });
 
 db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
@@ -247,8 +247,8 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.AllCarsByBrand, "http://www.goo
 , "Fiat": 1441
 , "Genesis": 1076
 , "Maserati": 950
-, "Bentley": 165
 , "Smart": 110
+, "other": 165
 });
 
 db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/october-2018-plug-in-electric-vehicle-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",

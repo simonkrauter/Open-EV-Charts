@@ -103,7 +103,6 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2540
 , "Renault": 49171
 , "Dacia": 13921
-, "Alpine": 27
 , "Volkswagen": 14504
 , "Audi": 5688
 , "Seat": 2963
@@ -125,7 +124,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 606
 , "Volvo": 2069
 , "Chevrolet": 10
-, "other": 7308
+, "other": 7335
 , "Tesla": 162
 });
 
@@ -146,7 +145,6 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2630
 , "Renault": 33726
 , "Dacia": 14114
-, "Alpine": 114
 , "Volkswagen": 12445
 , "Audi": 4942
 , "Škoda": 2635
@@ -168,7 +166,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 72
 , "Volvo": 1252
 , "Chevrolet": 6
-, "other": 5746
+, "other": 5860
 , "Tesla": 23
 });
 
@@ -189,7 +187,6 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2240
 , "Renault": 36252
 , "Dacia": 13168
-, "Alpine": 105
 , "Volkswagen": 12659
 , "Audi": 4769
 , "Škoda": 3025
@@ -211,7 +208,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 62
 , "Volvo": 1380
 , "Chevrolet": 8
-, "other": 5607
+, "other": 5712
 , "Tesla": 63
 });
 
@@ -232,7 +229,6 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 3190
 , "Renault": 59504
 , "Dacia": 16551
-, "Alpine": 122
 , "Volkswagen": 15881
 , "Audi": 5875
 , "Škoda": 3404
@@ -254,7 +250,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 60
 , "Volvo": 1823
 , "Chevrolet": 16
-, "other": 7283
+, "other": 7405
 , "Tesla": 103
 });
 
@@ -274,7 +270,6 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#aug (Unclear: Why is Tesla missing?)",
 { "Renault": 27819
 , "Dacia": 11377
-, "Alpine": 249
 , "Peugeot": 21026
 , "Citroën": 13694
 , "Opel": 3465
@@ -284,7 +279,6 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 2715
 , "Škoda": 2394
 , "Porsche": 902
-, "Bentley": 9
 , "Nissan": 9296
 , "Infiniti": 421
 , "Fiat": 5517
@@ -301,7 +295,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Kia": 2278
 , "Hyundai": 2123
 , "Volvo": 913
-, "other": 5565
+, "other": 5823
 , "Tesla": 195
 });
 
@@ -322,7 +316,6 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1636
 , "Renault": 28111
 , "Dacia": 9353
-, "Alpine": 25
 , "Volkswagen": 6807
 , "Audi": 2444
 , "Škoda": 1955
@@ -344,7 +337,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Nissan": 1458
 , "Infiniti": 6
 , "Chevrolet": 8
-, "other": 4359
+, "other": 4384
 , "Tesla": 107
 });
 
@@ -366,7 +359,6 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1506
 , "Renault": 29484
 , "Dacia": 10138
-, "Alpine": 96
 , "Volkswagen": 9244
 , "Audi": 2755
 , "Škoda": 2936
@@ -387,7 +379,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Nissan": 2652
 , "Infiniti": 10
 , "Volvo": 1832
-, "other": 4957
+, "other": 5053
 , "Tesla": 23
 });
 
@@ -409,7 +401,6 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1970
 , "Renault": 25699
 , "Dacia": 12351
-, "Alpine": 113
 , "Volkswagen": 13146
 , "Audi": 3540
 , "Škoda": 2782
@@ -431,7 +422,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 8
 , "Volvo": 1800
 , "Chevrolet": 7
-, "other": 5540
+, "other": 5653
 , "Tesla": 119
 });
 
@@ -465,7 +456,6 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1701
 , "Renault": 31301
 , "Dacia": 9603
-, "Alpine": 154
 , "Volkswagen": 13093
 , "Audi": 3967
 , "Škoda": 2760
@@ -487,7 +477,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 14
 , "Volvo": 1721
 , "Chevrolet": 8
-, "other": 4742
+, "other": 4896
 , "Tesla": 99
 });
 
@@ -509,7 +499,6 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1767
 , "Renault": 26363
 , "Dacia": 9350
-, "Alpine": 323
 , "Volkswagen": 10141
 , "Audi": 3166
 , "Škoda": 2185
@@ -533,7 +522,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 455
 , "Jaguar": 294
 , "Tesla": 32
-, "other": 4491
+, "other": 4814
 });
 
 db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15495492248cd691d9fa4f2bee8d93483d2fbf9f2a-Barometre%20janvier%20AvereFrance.pdf",
@@ -566,7 +555,6 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1684
 , "Renault": 29812
 , "Dacia": 10428
-, "Alpine": 200
 , "Volkswagen": 11258
 , "Audi": 3766
 , "Seat": 2631
@@ -591,7 +579,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 241
 , "Chevrolet": 6
 , "Tesla": 445
-, "other": 5154
+, "other": 5354
 });
 
 db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155186746334385712e0880d4efa60463604ed3785-immats-mars-2019.pdf",
@@ -627,7 +615,6 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1986
 , "Renault": 45911
 , "Dacia": 15838
-, "Alpine": 303
 , "Volkswagen": 15704
 , "Audi": 5700
 , "Škoda": 3268
@@ -651,7 +638,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 716
 , "Jaguar": 283
 , "Tesla": 1250
-, "other": 7379
+, "other": 7682
 });
 
 db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1554462213a58da558147631652560897fe8b30dee-immats-avril-2019.pdf",
@@ -686,7 +673,6 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1948
 , "Renault": 31495
 , "Dacia": 12501
-, "Alpine": 353
 , "Volkswagen": 12676
 , "Audi": 5043
 , "Seat": 3260
@@ -710,7 +696,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 677
 , "Jaguar": 370
 , "Tesla": 305
-, "other": 5062
+, "other": 5415
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155715869983878c91171338902e0fe0fb97a8c47a-immats-mai-2019.pdf",
@@ -745,7 +731,6 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2222
 , "Renault": 36026
 , "Dacia": 13002
-, "Alpine": 299
 , "Volkswagen": 11487
 , "Audi": 5281
 , "Škoda": 3159
@@ -768,7 +753,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1454
 , "Land Rover": 621
 , "Jaguar": 308
-, "other": 4643
+, "other": 4942
 , "Tesla": 413
 });
 
@@ -804,13 +789,11 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 3592
 , "Renault": 51654
 , "Dacia": 15330
-, "Alpine": 250
 , "Volkswagen": 15963
 , "Audi": 6905
 , "Seat": 3809
 , "Škoda": 3242
 , "Porsche": 658
-, "Bentley": 4
 , "Fiat": 8717
 , "Jeep": 1398
 , "Alfa Romeo": 406
@@ -830,7 +813,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 5
 , "Cadillac": 3
 , "Tesla": 1285
-, "other": 45
+, "other": 299
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
@@ -853,13 +836,11 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2646
 , "Renault": 23664
 , "Dacia": 9927
-, "Alpine": 319
 , "Volkswagen": 13056
 , "Audi": 5130
 , "Seat": 3329
 , "Škoda": 2947
 , "Porsche": 417
-, "Bentley": 7
 , "Toyota": 9522
 , "Lexus": 741
 , "Kia": 3859
@@ -878,7 +859,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Volvo": 1646
 , "Chevrolet": 6
 , "Tesla": 294
-, "other": 59
+, "other": 385
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -904,13 +885,11 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 1501
 , "Renault": 18718
 , "Dacia": 8050
-, "Alpine": 386
 , "Volkswagen": 8542
 , "Audi": 3807
 , "Seat": 2956
 , "Škoda": 2416
 , "Porsche": 287
-, "Bentley": 6
 , "Mercedes-Benz": 4734
 , "Smart": 3193
 , "Toyota": 6784
@@ -930,7 +909,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 1
 , "Cadillac": 1
 , "Tesla": 294
-, "other": 16
+, "other": 408
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
@@ -956,7 +935,6 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2142
 , "Renault": 36487
 , "Dacia": 9134
-, "Alpine": 43
 , "Volkswagen": 10001
 , "Audi": 3107
 , "Škoda": 3042
@@ -981,6 +959,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 272
 , "Mitsubishi": 306
 , "Tesla": 588
+, "other": 43
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1570545565f08eb0fd30ec313709d8c39f8fe20075-immats-octobre-2019.pdf",
@@ -1006,7 +985,6 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2665
 , "Renault": 34667
 , "Dacia": 12431
-, "Alpine": 111
 , "Volkswagen": 11939
 , "Audi": 4008
 , "Seat": 3422
@@ -1032,7 +1010,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 277
 , "Mitsubishi": 541
 , "Tesla": 178
-, "other": 1638
+, "other": 1749
 });
 
 db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/157313247269f0fce55475a3683d0110d1960f1837-barometre%20octobre%202019.pdf",
@@ -1058,7 +1036,6 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2011
 , "Renault": 32614
 , "Dacia": 9770
-, "Alpine": 178
 , "Volkswagen": 12134
 , "Audi": 4710
 , "Škoda": 3276
@@ -1082,7 +1059,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 657
 , "Jaguar": 183
 , "Tesla": 225
-, "other": 4299
+, "other": 4477
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1575639106b8246659af0aba2bf961bc2e285f68f8-barometre%20decembre%202019.pdf",
@@ -1107,13 +1084,11 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 2682
 , "Renault": 39747
 , "Dacia": 13215
-, "Alpine": 386
 , "Volkswagen": 16205
 , "Audi": 6909
 , "Seat": 3284
 , "Škoda": 4373
 , "Porsche": 1124
-, "Bentley": 9
 , "Toyota": 7899
 , "Lexus": 996
 , "Fiat": 6512
@@ -1137,7 +1112,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Chevrolet": 2
 , "Cadillac": 1
 , "Tesla": 1435
-, "other": 2815
+, "other": 3210
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1578561037dfcf28d0734569a6a693bc8194de62bf-BILANANNUEL2019.pdf",

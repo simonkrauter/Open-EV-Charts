@@ -613,7 +613,6 @@ db.insert(db.countries.CH, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
 { "Alfa Romeo": 269
-, "Alpine": 10
 , "Audi": 1183
 , "BMW": 1583
 , "Citroën": 424
@@ -649,7 +648,7 @@ db.insert(db.countries.CH, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 724
 , "Volkswagen": 2670
 , "Volvo": 882
-, "other": 137
+, "other": 147
 });
 
 db.insert(db.countries.CH, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -665,7 +664,6 @@ db.insert(db.countries.CH, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
 { "Alfa Romeo": 247
-, "Alpine": 22
 , "Audi": 777
 , "BMW": 1945
 , "Citroën": 430
@@ -701,7 +699,7 @@ db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 881
 , "Volkswagen": 2445
 , "Volvo": 572
-, "other": 120
+, "other": 142
 });
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -717,7 +715,6 @@ db.insert(db.countries.CH, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_3.xlsx",
 { "Alfa Romeo": 259
-, "Alpine": 29
 , "Audi": 2173
 , "BMW": 1881
 , "Citroën": 523
@@ -753,7 +750,7 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 919
 , "Volkswagen": 2829
 , "Volvo": 755
-, "other": 210
+, "other": 239
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -770,7 +767,6 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_4.xlsx",
 { "Alfa Romeo": 274
-, "Alpine": 18
 , "Audi": 1399
 , "BMW": 2198
 , "Citroën": 499
@@ -806,7 +802,7 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 966
 , "Volkswagen": 3331
 , "Volvo": 883
-, "other": 298
+, "other": 316
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -824,7 +820,6 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_5.xlsx",
 { "Alfa Romeo": 296
-, "Alpine": 27
 , "Audi": 1942
 , "BMW": 2291
 , "Citroën": 524
@@ -860,7 +855,7 @@ db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 996
 , "Volkswagen": 3431
 , "Volvo": 671
-, "other": 213
+, "other": 240
 });
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -878,7 +873,6 @@ db.insert(db.countries.CH, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_6.xlsx",
 { "Alfa Romeo": 236
-, "Alpine": 19
 , "Audi": 1500
 , "BMW": 2152
 , "Citroën": 687
@@ -914,7 +908,7 @@ db.insert(db.countries.CH, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 985
 , "Volkswagen": 3098
 , "Volvo": 831
-, "other": 228
+, "other": 247
 });
 
 db.insert(db.countries.CH, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -932,7 +926,6 @@ db.insert(db.countries.CH, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_7.xlsx",
 { "Alfa Romeo": 262
-, "Alpine": 26
 , "Audi": 1895
 , "BMW": 2159
 , "Citroën": 716
@@ -968,7 +961,7 @@ db.insert(db.countries.CH, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 923
 , "Volkswagen": 3021
 , "Volvo": 749
-, "other": 228
+, "other": 254
 });
 
 db.insert(db.countries.CH, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -987,7 +980,6 @@ db.insert(db.countries.CH, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2019_8.xlsx",
 { "Alfa Romeo": 168
-, "Alpine": 10
 , "Audi": 1024
 , "BMW": 1519
 , "Citroën": 400
@@ -1023,7 +1015,7 @@ db.insert(db.countries.CH, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 1001
 , "Volkswagen": 1930
 , "Volvo": 424
-, "other": 183
+, "other": 193
 });
 
 db.insert(db.countries.CH, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -1093,7 +1085,6 @@ db.insert(db.countries.CH, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/2019/auto-schweiz_PW_2019_10.xlsx",
 { "Alfa Romeo": 276
-, "Alpine": 4
 , "Audi": 1773
 , "BMW": 2232
 , "Citroën": 734
@@ -1129,7 +1120,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 885
 , "Volkswagen": 2903
 , "Volvo": 769
-, "other": 238
+, "other": 242
 });
 
 db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -1148,7 +1139,6 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/2019/auto-schweiz_PW_2019_11.xlsx",
 { "Alfa Romeo": 248
-, "Alpine": 10
 , "Audi": 1488
 , "BMW": 2160
 , "Citroën": 150
@@ -1184,7 +1174,7 @@ db.insert(db.countries.CH, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 783
 , "Volkswagen": 2748
 , "Volvo": 769
-, "other": 185
+, "other": 195
 });
 
 db.insert(db.countries.CH, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -1203,7 +1193,6 @@ db.insert(db.countries.CH, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/2019/auto-schweiz_PW_2019_12.xlsx",
 { "Alfa Romeo": 216
-, "Alpine": 6
 , "Audi": 2424
 , "BMW": 2902
 , "Citroën": 276
@@ -1239,7 +1228,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 1199
 , "Volkswagen": 3888
 , "Volvo": 949
-, "other": 156
+, "other": 162
 });
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2019.xlsx (incomplete, only models with no ICE/hybrid variant included)",
@@ -1256,4 +1245,46 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 1
 });
 
-// https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken/
+db.insert(db.countries.CH, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/2020/auto-schweiz_PW_2020_1.xlsx",
+{ "Volkswagen": 2193
+, "BMW": 1877
+, "Mercedes-Benz": 1827
+, "Škoda": 1484
+, "Seat": 1020
+, "Volvo": 1000
+, "Audi": 990
+, "Renault": 914
+, "Toyota": 829
+, "Fiat": 627
+, "Ford": 570
+, "Hyundai": 522
+, "Dacia": 489
+, "Mini": 429
+, "Opel": 396
+, "Peugeot": 374
+, "Jeep": 362
+, "Mazda": 334
+, "Porsche": 283
+, "Mitsubishi": 266
+, "Suzuki": 251
+, "Kia": 233
+, "Nissan": 210
+, "Land Rover": 205
+, "Tesla": 203
+, "Citroën": 166
+, "Alfa Romeo": 160
+, "Subaru": 115
+, "Jaguar": 94
+, "Honda": 83
+, "Lexus": 45
+, "DS Automobiles": 35
+, "Smart": 35
+, "Maserati": 30
+, "other": 137
+});
+
+// db.insert(db.countries.CH, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2020.xlsx (incomplete, only models with no ICE/hybrid variant included)",
+
+
+// https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken
+// https://www.auto.swiss/statistiken/pw-zulassungen-nach-modellen

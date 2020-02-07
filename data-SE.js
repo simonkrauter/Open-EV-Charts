@@ -36,8 +36,7 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 30
 , "Jaguar": 30
 , "DS Automobiles": 27
-, "Bentley": 4
-, "other": 876
+, "other": 880
 });
 
 db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/02/sweden-january-2018.html (incomplete, missing i3 BEV)",
@@ -429,10 +428,9 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 99
 , "Land Rover": 44
 , "Porsche": 31
-, "Bentley": 4
 , "Smart": 2
 , "Tesla": 84
-, "other": 826
+, "other": 830
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/sweden-november-2018.html (incomplete, missing i3 BEV)",
@@ -564,10 +562,9 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 78
 , "Jeep": 59
 , "Alfa Romeo": 42
-, "Alpine": 2
 , "DS Automobiles": 1
 , "Tesla": 52
-, "other": 681
+, "other": 683
 });
 
 db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/sweden-february-2019.html",
@@ -614,9 +611,8 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 55
 , "DS Automobiles": 9
 , "Smart": 1
-, "Alpine": 1
 , "Tesla": 1077
-, "other": 692
+, "other": 693
 });
 
 db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/sweden-march-2018.html",
@@ -662,9 +658,8 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 75
 , "Alfa Romeo": 27
 , "DS Automobiles": 17
-, "Alpine": 6
 , "Tesla": 536
-, "other": 810
+, "other": 816
 });
 
 db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/sweden-april-2019.html",
@@ -811,9 +806,8 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 73
 , "Alfa Romeo": 64
 , "DS Automobiles": 19
-, "Alpine": 5
 , "Tesla": 265
-, "other": 1047
+, "other": 1052
 });
 
 db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/sweden-july-2019.html",
@@ -861,9 +855,8 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 51
 , "Alfa Romeo": 22
 , "DS Automobiles": 22
-, "Alpine": 3
 , "Tesla": 1002
-, "other": 587
+, "other": 590
 });
 
 db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/sweden-september-2019.html",
@@ -910,9 +903,8 @@ db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Dacia": 79
 , "Jaguar": 42
 , "DS Automobiles": 8
-, "Alpine": 1
 , "Tesla": 62
-, "other": 740
+, "other": 741
 });
 
 db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/sweden-october-2019.html",
@@ -958,11 +950,9 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 82
 , "Jaguar": 36
 , "DS Automobiles": 10
-, "Alpine": 1
 , "Smart": 1
-, "Bentley": 1
 , "Tesla": 179
-, "other": 1025
+, "other": 1027
 });
 
 db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/sweden-november-2019.html",
@@ -1007,11 +997,9 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jeep": 111
 , "Alfa Romeo": 55
 , "DS Automobiles": 32
-, "Alpine": 1
 , "Smart": 3
-, "Bentley": 1
 , "Tesla": 888
-, "other": 1938
+, "other": 1940
 });
 
 db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/sweden-december-2019.html",

@@ -43,7 +43,6 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Subaru": 1097
 , "SsangYong": 861
 , "Tesla": 834
-, "Bentley": 555
 , "Maserati": 441
 , "Infiniti": 312
 , "Chevrolet": 69
@@ -53,7 +52,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Chrysler": 20
 , "Lincoln": 18
 , "Buick": 3
-, "other": 1931
+, "other": 2486
 });
 
 db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -107,7 +106,6 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Tesla": 921
 , "Subaru": 788
 , "SsangYong": 753
-, "Bentley": 518
 , "Maserati": 316
 , "Infiniti": 241
 , "Chevrolet": 78
@@ -117,9 +115,8 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Cadillac": 20
 , "Lincoln": 18
 , "Buick": 17
-, "Alpine": 2
 , "Acura": 1
-, "other": 2181
+, "other": 2701
 });
 
 db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -173,9 +170,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Alfa Romeo": 932
 , "DS Automobiles": 719
 , "SsangYong": 655
-, "Bentley": 532
 , "Maserati": 308
-, "Alpine": 126
 , "Infiniti": 122
 , "Chevrolet": 74
 , "Dodge": 74
@@ -185,7 +180,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 22
 , "Buick": 11
 , "Acura": 2
-, "other": 2084
+, "other": 2742
 });
 
 db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -238,7 +233,6 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Subaru": 637
 , "DS Automobiles": 561
 , "SsangYong": 475
-, "Bentley": 344
 , "Maserati": 287
 , "Infiniti": 91
 , "Dodge": 73
@@ -246,11 +240,10 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Opel": 31
 , "Chrysler": 25
 , "Lincoln": 18
-, "Alpine": 17
 , "Cadillac": 15
 , "Buick": 14
 , "Acura": 2
-, "other": 1595
+, "other": 1956
 });
 
 db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -304,19 +297,17 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "DS Automobiles": 975
 , "SsangYong": 730
 , "Tesla": 646
-, "Bentley": 534
 , "Maserati": 307
 , "Infiniti": 95
 , "Chevrolet": 67
 , "Dodge": 63
-, "Alpine": 44
 , "Opel": 30
 , "Chrysler": 26
 , "Cadillac": 17
 , "Lincoln": 16
 , "Buick": 12
 , "Acura": 4
-, "other": 2279
+, "other": 2857
 });
 
 db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -369,20 +360,18 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.AllCarsByBrand, "https://assets
 , "DS Automobiles": 757
 , "Subaru": 664
 , "Abarth": 639
-, "Bentley": 495
 , "SsangYong": 380
 , "Maserati": 262
 , "Infiniti": 105
 , "Chevrolet": 85
 , "Dodge": 61
-, "Alpine": 44
 , "Opel": 38
 , "Lincoln": 28
 , "Cadillac": 23
 , "Chrysler": 22
 , "Buick": 14
 , "Acura": 3
-, "other": 2064
+, "other": 2603
 });
 
 db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
@@ -439,11 +428,9 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Subaru": 834
 , "Smart": 693
 , "SsangYong": 557
-, "Bentley": 475
 , "Maserati": 237
 , "Chevrolet": 103
 , "Infiniti": 87
-, "Alpine": 51
 , "Dodge": 51
 , "Chrysler": 36
 , "Opel": 32
@@ -451,7 +438,7 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 27
 , "Buick": 6
 , "Acura": 2
-, "other": 1965
+, "other": 2491
 });
 
 db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",

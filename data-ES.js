@@ -41,9 +41,7 @@ db.insert(db.countries.ES, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 78
 , "Tesla": 6
 , "Maserati": 19
-, "Bentley": 5
-, "Alpine": 3
-, "other": 15
+, "other": 23
 });
 
 db.insert(db.countries.ES, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -103,8 +101,7 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 142
 , "Maserati": 27
 , "Tesla": 20
-, "Bentley": 3
-, "other": 28
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -162,8 +159,7 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 166
 , "Tesla": 64
 , "Maserati": 24
-, "Bentley": 3
-, "other": 10
+, "other": 13
 });
 
 db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -222,8 +218,7 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 132
 , "Tesla": 31
 , "Maserati": 18
-, "Bentley": 7
-, "other": 21
+, "other": 28
 });
 
 db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -283,9 +278,7 @@ db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 202
 , "Maserati": 26
 , "Tesla": 24
-, "Bentley": 2
-, "Alpine": 2
-, "other": 26
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -343,9 +336,7 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 173
 , "Maserati": 54
 , "Tesla": 45
-, "Alpine": 10
-, "Bentley": 4
-, "other": 26
+, "other": 40
 });
 
 db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -404,9 +395,7 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 138
 , "Maserati": 27
 , "Tesla": 16
-, "Bentley": 8
-, "Alpine": 3
-, "other": 38
+, "other": 49
 });
 
 db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -465,9 +454,7 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 150
 , "Maserati": 20
 , "Tesla": 14
-, "Bentley": 9
-, "Alpine": 3
-, "other": 30
+, "other": 42
 });
 
 db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -529,9 +516,7 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 42
 , "Tesla": 40
 , "Maserati": 22
-, "Bentley": 1
-, "Alpine": 1
-, "other": 28
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -590,8 +575,7 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 63
 , "Maserati": 26
 , "Tesla": 20
-, "Bentley": 1
-, "other": 108
+, "other": 109
 });
 
 db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -651,9 +635,7 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 44
 , "Maserati": 23
 , "Tesla": 21
-, "Alpine": 5
-, "Bentley": 3
-, "other": 27
+, "other": 35
 });
 
 db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -712,9 +694,7 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 78
 , "Tesla": 33
 , "Maserati": 19
-, "Bentley": 5
-, "Alpine": 3
-, "other": 15
+, "other": 23
 });
 
 db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -774,9 +754,7 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 120
 , "Maserati": 19
 , "Tesla": 15
-, "Bentley": 8
-, "Alpine": 8
-, "other": 32
+, "other": 48
 });
 
 db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -836,9 +814,7 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 175
 , "Porsche": 79
 , "Maserati": 17
-, "Bentley": 6
-, "Alpine": 5
-, "other": 19
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -902,9 +878,7 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 189
 , "Infiniti": 78
 , "Maserati": 18
-, "Bentley": 7
-, "Alpine": 7
-, "other": 33
+, "other": 47
 });
 
 db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -967,8 +941,7 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 153
 , "Tesla": 76
 , "Maserati": 31
-, "Bentley": 3
-, "other": 37
+, "other": 40
 });
 
 db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1032,9 +1005,7 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 165
 , "Tesla": 152
 , "Maserati": 23
-, "Bentley": 5
-, "Alpine": 5
-, "other": 31
+, "other": 41
 });
 
 db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1096,9 +1067,7 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 214
 , "Infiniti": 88
 , "Maserati": 26
-, "Alpine": 10
-, "Bentley": 5
-, "other": 28
+, "other": 43
 });
 
 db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1162,8 +1131,7 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Tesla": 127
 , "Infiniti": 95
 , "Maserati": 25
-, "Bentley": 7
-, "other": 35
+, "other": 42
 });
 
 db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1228,9 +1196,7 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Tesla": 99
 , "Infiniti": 73
 , "Maserati": 20
-, "Bentley": 4
-, "Alpine": 1
-, "other": 76
+, "other": 81
 });
 
 db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1292,8 +1258,7 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "SsangYong": 100
 , "Infiniti": 73
 , "Maserati": 19
-, "Bentley": 7
-, "other": 19
+, "other": 26
 });
 
 db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1356,9 +1321,7 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 65
 , "Tesla": 40
 , "Maserati": 9
-, "Bentley": 1
-, "Alpine": 1
-, "other": 29
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1424,9 +1387,7 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Tesla": 87
 , "Infiniti": 44
 , "Maserati": 15
-, "Bentley": 4
-, "Alpine": 2
-, "other": 23
+, "other": 29
 });
 
 db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1490,8 +1451,7 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 172
 , "Infiniti": 59
 , "Maserati": 8
-, "Bentley": 4
-, "other": 57
+, "other": 61
 });
 
 db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1554,8 +1514,7 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 39
 , "Tesla": 32
 , "Maserati": 11
-, "Bentley": 11
-, "other": 31
+, "other": 42
 });
 
 db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
