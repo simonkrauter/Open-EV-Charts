@@ -62,7 +62,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 15
 , "Nissan|Leaf": 11
 , "Mercedes-Benz|B-Klasse Electric Drive": 3
-, "Volkswagen|ID.3": 1
+, "Volkswagen|other": 1
 , "Tesla|Model 3": 1
 });
 
@@ -189,7 +189,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 3
 , "Honda|e": 2
 , "Nissan|e-NV200": 1
-, "Volkswagen|ID.3": 1
+, "Volkswagen|other": 1
 });
 
 db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=6",
@@ -448,7 +448,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 18
 , "Opel|Ampera-e": 15
 , "Nissan|e-NV200": 3
-, "Volkswagen|ID.3": 2
+, "Volkswagen|other": 2
 , "Mercedes-Benz|eVito": 1
 });
 
@@ -514,7 +514,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 3
 , "Jaguar|I-Pace": 2
 , "Citroën|Berlingo Electric": 1
-, "Volkswagen|ID.3": 1
+, "Volkswagen|other": 1
 });
 
 db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
@@ -580,7 +580,7 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 5
 , "Citroën|C-Zero": 3
 , "Kia|Niro EV": 3
-, "Volkswagen|ID.3": 3
+, "Volkswagen|other": 3
 , "Mercedes-Benz|eVito": 1
 });
 
@@ -645,7 +645,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 15
 , "Audi|e-tron": 11
 , "Peugeot|iOn": 9
-, "Volkswagen|ID.3": 8
+, "Volkswagen|other": 8
 , "Citroën|C-Zero": 3
 , "Honda|e": 1
 , "Mercedes-Benz|eVito": 1
@@ -713,7 +713,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 23
 , "Opel|Ampera-e": 15
 , "Citroën|C-Zero": 12
-, "Volkswagen|ID.3": 9
+, "Volkswagen|other": 9
 , "Peugeot|iOn": 3
 , "Tesla|Model 3": 1
 });
@@ -777,7 +777,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 28
 , "Mini|Cooper SE Electric": 23
 , "Kia|Niro EV": 22
-, "Volkswagen|ID.3": 12
+, "Volkswagen|other": 12
 , "Opel|Ampera-e": 10
 , "Citroën|C-Zero": 9
 , "Jaguar|I-Pace": 8
@@ -849,7 +849,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 16
 , "Mini|Cooper SE Electric": 16
 , "Opel|Ampera-e": 14
-, "Volkswagen|ID.3": 9
+, "Volkswagen|other": 9
 , "Volkswagen|e-Crafter": 7
 , "Citroën|C-Zero": 5
 , "Porsche|Taycan": 5
@@ -918,7 +918,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 27
 , "Nissan|e-NV200": 26
 , "Porsche|Taycan": 20
-, "Volkswagen|ID.3": 9
+, "Volkswagen|other": 9
 , "Citroën|C-Zero": 5
 , "Peugeot|iOn": 3
 , "Mercedes-Benz|eVito": 1
@@ -987,7 +987,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 33
 , "Mini|Cooper SE Electric": 33
 , "Porsche|Taycan": 30
-, "Volkswagen|ID.3": 12
+, "Volkswagen|other": 12
 , "Citroën|C-Zero": 10
 , "Peugeot|iOn": 8
 , "Opel|Ampera-e": 6
@@ -1057,7 +1057,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 39
 , "Porsche|Taycan": 38
 , "Mercedes-Benz|EQC": 37
-, "Volkswagen|ID.3": 30
+, "Volkswagen|other": 30
 , "Tesla|Model X": 21
 , "Peugeot|iOn": 11
 , "Mini|Cooper SE Electric": 9
@@ -1127,7 +1127,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 55
 , "Tesla|Model X": 48
 , "Porsche|Taycan": 38
-, "Volkswagen|ID.3": 32
+, "Volkswagen|other": 32
 , "Citroën|C-Zero": 20
 , "Volkswagen|e-Crafter": 16
 , "Kia|Niro EV": 11
@@ -1196,7 +1196,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 76
 , "Porsche|Taycan": 64
 , "Jaguar|I-Pace": 56
-, "Volkswagen|ID.3": 48
+, "Volkswagen|other": 48
 , "Mercedes-Benz|EQC": 47
 , "Volkswagen|e-up!": 25
 , "Citroën|C-Zero": 20
@@ -1273,7 +1273,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 27
 , "Peugeot|iOn": 25
 , "Kia|Niro EV": 22
-, "Volkswagen|ID.3": 17
+, "Volkswagen|other": 17
 , "Opel|Ampera-e": 12
 , "Volkswagen|e-up!": 12
 , "Citroën|C-Zero": 10
@@ -1341,7 +1341,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 82
 , "Mercedes-Benz|EQC": 80
 , "Tesla|Model X": 60
-, "Volkswagen|ID.3": 25
+, "Volkswagen|other": 25
 , "Nissan|e-NV200": 24
 , "Peugeot|iOn": 14
 , "Citroën|C-Zero": 12
@@ -1412,7 +1412,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 78
 , "Mercedes-Benz|EQC": 73
 , "Nissan|e-NV200": 53
-, "Volkswagen|ID.3": 43
+, "Volkswagen|other": 43
 , "Volkswagen|e-Crafter": 28
 , "Kia|Niro EV": 21
 , "Peugeot|iOn": 19
@@ -1477,7 +1477,7 @@ db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 192
 , "Hyundai|Ioniq Electric": 105
 , "Jaguar|I-Pace": 85
-, "Volkswagen|ID.3": 81
+, "Volkswagen|other": 81
 , "Porsche|Taycan": 66
 , "Volkswagen|e-Crafter": 52
 , "Mercedes-Benz|EQC": 41
@@ -1547,7 +1547,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 106
 , "Nissan|e-NV200": 100
 , "Kia|Soul EV": 95
-, "Volkswagen|ID.3": 81
+, "Volkswagen|other": 81
 , "Mini|Cooper SE Electric": 79
 , "Volkswagen|e-Crafter": 78
 , "Hyundai|Ioniq Electric": 76
@@ -1626,7 +1626,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 42
 , "Kia|Niro EV": 38
 , "Hyundai|Ioniq Electric": 35
-, "Volkswagen|ID.3": 33
+, "Volkswagen|other": 33
 , "Porsche|Taycan": 31
 , "Mercedes-Benz|eVito": 29
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
@@ -1677,7 +1677,7 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
 { "Renault|ZOE": 1798
 , "Volkswagen|e-Golf": 1120
-, "Audi|e-tron": 572
+, "Audi|e-tron": 573
 , "BMW|i3 BEV": 551
 , "Volkswagen|e-up!": 463
 , "Škoda|Citigo-e": 437
@@ -1690,7 +1690,7 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 145
 , "Peugeot|e-208": 142
 , "Jaguar|I-Pace": 88
-, "Volkswagen|ID.3": 84
+, "Volkswagen|other": 84
 , "Nissan|e-NV200": 76
 , "Mercedes-Benz|EQC": 75
 , "Seat|Mii Electric": 70
