@@ -1478,42 +1478,79 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
 });
 
+db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Volkswagen": 48744
+, "Mercedes-Benz": 26034
+, "Audi": 22066
+, "BMW": 20454
+, "Ford": 17335
+, "Škoda": 14295
+, "Opel": 12279
+, "Seat": 10416
+, "Renault": 9936
+, "Hyundai": 8217
+, "Toyota": 5488
+, "Peugeot": 5135
+, "Citroën": 4898
+, "Kia": 4617
+, "Fiat": 4428
+, "Mitsubishi": 4228
+, "Dacia": 3810
+, "Mazda": 3526
+, "Volvo": 3314
+, "Mini": 3095
+, "Nissan": 2983
+, "Porsche": 2012
+, "Land Rover": 1591
+, "Suzuki": 1304
+, "Jeep": 1028
+, "Honda": 958
+, "Jaguar": 887
+, "Lexus": 391
+, "Subaru": 372
+, "Tesla": 367
+, "DS Automobiles": 366
+, "Alfa Romeo": 254
+, "SsangYong": 131
+, "Smart": 108
+, "Bentley": 105
+, "Maserati": 61
+, "Infiniti": 25
+, "Alpine": 20
+, "other": 1022
+});
 
-// Template
-// db.insert(db.countries.DE, "", db.dsTypes.AllCarsByBrand, "",
-// { "Alfa Romeo":
-// , "Audi":
-// , "BMW":
-// , "Citroën":
-// , "Dacia":
-// , "DS Automobiles":
-// , "Fiat":
-// , "Ford":
-// , "Honda":
-// , "Hyundai":
-// , "Jaguar":
-// , "Jeep":
-// , "Kia":
-// , "Land Rover":
-// , "Lexus":
-// , "Mazda":
-// , "Mercedes-Benz":
-// , "Mini":
-// , "Mitsubishi":
-// , "Nissan":
-// , "Opel":
-// , "Peugeot":
-// , "Porsche":
-// , "Renault":
-// , "Seat":
-// , "Škoda":
-// , "Smart":
-// , "SsangYong":
-// , "Subaru":
-// , "Suzuki":
-// , "Tesla":
-// , "Toyota":
-// , "Volvo":
-// , "Volkswagen":
-// , "other":
-// });
+db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Renault|ZOE": 1798
+, "Volkswagen|e-Golf": 1120
+, "Audi|e-tron": 572
+, "BMW|i3 BEV": 551
+, "Volkswagen|e-up!": 463
+, "Škoda|Citigo-e": 437
+, "Hyundai|Kona Electric": 358
+, "Tesla|Model 3": 257
+, "Hyundai|Ioniq Electric": 191
+, "Nissan|Leaf": 182
+, "Porsche|Taycan": 167
+, "Kia|Soul EV": 149
+, "Opel|Ampera-e": 145
+, "Peugeot|e-208": 142
+, "Jaguar|I-Pace": 88
+, "Volkswagen|ID.3": 84
+, "Nissan|e-NV200": 76
+, "Mercedes-Benz|EQC": 75
+, "Seat|Mii Electric": 70
+, "Tesla|Model S": 70
+, "DS Automobiles|DS 3 Crossback E-Tense": 64
+, "Smart|Fortwo electric drive": 64
+, "Volkswagen|e-Crafter": 46
+, "Citroën|C-Zero": 42
+, "Smart|Forfour electric drive": 42
+, "Tesla|Model X": 40
+, "Kia|Niro EV": 32
+, "Mercedes-Benz|eVito": 15
+, "Mini|Cooper SE Electric": 12
+, "Peugeot|iOn": 11
+, "Honda|e": 7
+, "Mercedes-Benz|EQV": 7
+});
