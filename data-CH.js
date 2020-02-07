@@ -4,6 +4,9 @@
 
 db.addCountry("CH", "Switzerland");
 
+// https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken
+// https://www.auto.swiss/statistiken/pw-zulassungen-nach-modellen
+
 db.insert(db.countries.CH, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_1.xlsx",
 { "Alfa Romeo": 280
 , "Audi": 1018
@@ -1244,47 +1247,3 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 1
 , "Peugeot|iOn": 1
 });
-
-db.insert(db.countries.CH, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/2020/auto-schweiz_PW_2020_1.xlsx",
-{ "Volkswagen": 2193
-, "BMW": 1877
-, "Mercedes-Benz": 1827
-, "Škoda": 1484
-, "Seat": 1020
-, "Volvo": 1000
-, "Audi": 990
-, "Renault": 914
-, "Toyota": 829
-, "Fiat": 627
-, "Ford": 570
-, "Hyundai": 522
-, "Dacia": 489
-, "Mini": 429
-, "Opel": 396
-, "Peugeot": 374
-, "Jeep": 362
-, "Mazda": 334
-, "Porsche": 283
-, "Mitsubishi": 266
-, "Suzuki": 251
-, "Kia": 233
-, "Nissan": 210
-, "Land Rover": 205
-, "Tesla": 203
-, "Citroën": 166
-, "Alfa Romeo": 160
-, "Subaru": 115
-, "Jaguar": 94
-, "Honda": 83
-, "Lexus": 45
-, "DS Automobiles": 35
-, "Smart": 35
-, "Maserati": 30
-, "other": 137
-});
-
-// db.insert(db.countries.CH, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2020.xlsx (incomplete, only models with no ICE/hybrid variant included)",
-
-
-// https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken
-// https://www.auto.swiss/statistiken/pw-zulassungen-nach-modellen
