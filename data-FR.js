@@ -1132,23 +1132,78 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|iOn": 6
 });
 
+db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2020#jan (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 29246
+, "Renault": 23892
+, "Citroën": 15634
+, "Toyota": 9716
+, "Volkswagen": 7040
+, "Dacia": 5852
+, "Opel": 4268
+, "Ford": 3918
+, "BMW": 3285
+, "Nissan": 3277
+, "Fiat": 3095
+, "Kia": 2931
+, "Audi": 2785
+, "Hyundai": 2682
+, "DS Automobiles": 2469
+, "Mercedes-Benz": 2412
+, "Seat": 2332
+, "Škoda": 2310
+, "Suzuki": 1431
+, "Mini": 1424
+, "Volvo": 771
+, "Lexus": 523
+, "Land Rover": 444
+, "Porsche": 323
+, "Mitsubishi": 266
+, "Jeep": 240
+, "Alfa Romeo": 164
+, "Jaguar": 127
+, "Smart": 77
+, "Tesla": 124
+, "other": 1172
+});
+
+db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15810701345ba87c5934635d85077d6afe8094f115-bilan_janvier_2020.pdf",
+{ "Renault|ZOE": 5471
+, "Peugeot|e-208": 2644
+, "DS Automobiles|DS 3 Crossback E-Tense": 597
+, "Kia|Niro EV": 429
+, "Citroën|C-Zero": 414
+, "Nissan|Leaf": 360
+, "Hyundai|Kona Electric": 248
+, "BMW|i3 BEV": 137
+, "Škoda|Citigo-e": 124
+, "Tesla|Model 3": 124
+, "Nissan|e-NV200": 82
+, "Citroën|Berlingo Electric": 38
+, "Peugeot|Partner Electric": 34
+});
+
 // http://www.avere-france.org/Site/Category/?arborescence_id=143
 
 // Template:
 
 // db.insert(db.countries.FR, "", db.dsTypes.ElectricCarsByModel, "",
 // { "Renault|ZOE":
-// , "BMW|i3 BEV":
+// , "Peugeot|e-208":
+// , "DS Automobiles|DS 3 Crossback E-Tense":
+// , "Kia|Niro EV":
+// , "Citroën|C-Zero":
 // , "Nissan|Leaf":
+// , "Hyundai|Kona Electric":
+// , "BMW|i3 BEV":
+// , "Škoda|Citigo-e":
 // , "Tesla|Model 3":
 // , "Nissan|e-NV200":
+// , "Citroën|Berlingo Electric":
+// , "Peugeot|Partner Electric":
 // , "Smart|Fortwo electric drive":
-// , "Hyundai|Kona Electric":
 // , "Volkswagen|e-Golf":
 // , "Hyundai|Ioniq Electric":
 // , "Audi|e-tron":
-// , "Peugeot|Partner Electric":
-// , "Citroën|Berlingo Electric":
 // , "Tesla|Model S":
 // , "Tesla|Model X":
 // , "Jaguar|I-Pace":
