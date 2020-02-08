@@ -213,7 +213,8 @@ var db = {
     param.name = "country";
     param.options = {};
     param.options[this.countryOptions.all] = "All Countries";
-    param.options[this.countryOptions.combine] = "Combine Countries";
+    if (chartConfig == null || (chartConfig.country == this.countryOptions.all || chartConfig.country == null || chartConfig.country.split(",").length > 1))
+      param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in this.countries)
       param.options[code] = this.countryNames[this.countries[code]];
     param.unfoldKey = this.countryOptions.all;
@@ -385,7 +386,8 @@ var db = {
       if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl) {
         var values = chartConfig[param.name].split(",");
         for (const i in values) {
-          parts.push(values[i]);
+          if (values[i] != "")
+            parts.push(values[i]);
         }
       }
     }
@@ -429,16 +431,21 @@ var db = {
 
     var countyValues = chartConfig.country.split(",");
     if (!countyValues.includes(this.countryOptions.all)) {
-    var containsSingleCountry = false;
+      var singleCountryCount = 0;
       for (const i in countyValues) {
-        if (countyValues[i] != this.countryOptions.combine) {
-          containsSingleCountry = true;
-          break;
-        }
+        if (countyValues[i] != this.countryOptions.combine)
+          singleCountryCount++;
       }
-      if (!containsSingleCountry) {
+      if (singleCountryCount == 0) {
         countyValues.push(this.countryOptions.all);
         chartConfig.country = countyValues.join(",");
+      } else if (singleCountryCount == 1 && countyValues.length > 0) {
+        for (const i in countyValues) {
+          if (countyValues[i] != this.countryOptions.combine) {
+            chartConfig.country = countyValues[i];
+            break;
+          }
+        }
       }
     }
 
