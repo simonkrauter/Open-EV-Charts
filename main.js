@@ -146,12 +146,24 @@ function renderFilterAsButtons(parentDiv, param) {
   var optionIndex = 0;
   if (param.maxOptionsToShowAsButton > 0 && activeShowAllOptionsParamName != param.name) {
     for (const optionKey in param.options) {
-      if (!selectedKeys.includes(optionKey) && optionIndex >= param.maxOptionsToShowAsButton - 1) {
+      if (optionIndex >= param.maxOptionsToShowAsButton - 1) {
         extendedOptionStartIndex = optionIndex;
         break;
       }
       optionIndex++;
     }
+  }
+
+  // Hide more options when extended options are active
+  if (extendedOptionStartIndex != -1) {
+    optionIndex = 0;
+    var decCount = 0;
+    for (const optionKey in param.options) {
+      if (optionIndex >= extendedOptionStartIndex && selectedKeys.includes(optionKey))
+        decCount++;
+      optionIndex++;
+    }
+    extendedOptionStartIndex = extendedOptionStartIndex - decCount;
   }
 
   // Add regular option button
@@ -167,7 +179,7 @@ function renderFilterAsButtons(parentDiv, param) {
     button.classList.add("button");
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
-    if (extendedOptionStartIndex != -1 && optionIndex >= extendedOptionStartIndex)
+    else if (extendedOptionStartIndex != -1 && optionIndex >= extendedOptionStartIndex)
       button.classList.add("extendedOption");
     optionIndex++;
     button.appendChild(document.createTextNode(param.options[optionKey]));
