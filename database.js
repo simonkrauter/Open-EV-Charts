@@ -365,7 +365,7 @@ var db = {
     var param = {};
     param.name = "view";
     param.options = {};
-    if (chartConfig == null || ((chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine)))
+    if (chartConfig == null || ((chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all)))
       param.options[this.views.barChart] = "Bar Chart";
     if (chartConfig == null || ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
       param.options[this.views.lineChart] = "Line Chart";
