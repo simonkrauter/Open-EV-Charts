@@ -605,11 +605,15 @@ var db = {
         filterMonthLast = latestMonth;
         const quantity = parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
         if (chartConfig.timeSpan.endsWith("y")) {
-          filterYearFirst = latestYear - quantity;
-          filterMonthFirst = filterMonthLast + 1;
-          if (filterMonthFirst > 12) {
-            filterYearFirst++;
-            filterMonthFirst = filterMonthFirst - 12;
+          if (chartConfig.xProperty == this.xProperties.year) {
+            filterMonthFirst = 1;
+          } else {
+            filterYearFirst = latestYear - quantity;
+            filterMonthFirst = filterMonthLast + 1;
+            if (filterMonthFirst > 12) {
+              filterYearFirst++;
+              filterMonthFirst = filterMonthFirst - 12;
+            }
           }
         } else if (chartConfig.timeSpan.endsWith("m")) {
           filterYearFirst = latestYear;
