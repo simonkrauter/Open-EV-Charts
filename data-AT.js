@@ -4,6 +4,8 @@
 
 db.addCountry("AT", "Austria");
 
+// http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/verkehr/strasse/kraftfahrzeuge_-_neuzulassungen/index.html
+
 db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "Volkswagen": 4384
 , "Škoda": 2380
@@ -455,4 +457,42 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 40
 , "Audi|e-tron": 16
 , "Hyundai|Ioniq Electric": 28
+});
+
+db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+{ "Volkswagen": 3884
+, "Škoda": 2055
+, "Seat": 2019
+, "BMW": 1706
+, "Opel": 1169
+, "Hyundai": 1159
+, "Mercedes-Benz": 1156
+, "Renault": 1090
+, "Ford": 984
+, "Audi": 925
+, "Peugeot": 892
+, "Fiat": 774
+, "Citroën": 614
+, "Mazda": 576
+, "Dacia": 560
+, "Kia": 524
+, "Toyota": 477
+, "Volvo": 363
+, "Suzuki": 329
+, "Mitsubishi": 305
+, "Tesla": 37
+, "other": 1361
+});
+
+db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+{ "Renault|ZOE": 168
+, "BMW|i3 BEV": 63
+, "Hyundai|Kona Electric": 57
+, "Nissan|Leaf": 47
+, "Seat|Mii Electric": 39
+, "Volkswagen|e-Golf": 38
+, "Tesla|Model 3": 37
+, "Kia|Soul EV": 33
+, "Volkswagen|e-up!": 25
+, "Audi|e-tron": 24
 });
