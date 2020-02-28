@@ -304,7 +304,7 @@ db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Great Wall|Ora iQ5 EV": 1443
 , "Changan|Eulove EV": 1000
 , "Nio|ES8": 654
-, "Weltmeister|EX5 EV": 417
+, "Weltmeister|EX5": 417
 });
 
 db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#mar TODO: numbers per brand wanted",
@@ -326,7 +326,7 @@ db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 3426
 , "Geely|Emgrand GSE EV": 1518
 , "Tesla|Model 3": 5300
-, "Weltmeister|EX5 EV": 1637
+, "Weltmeister|EX5": 1637
 , "Hawtai|Santa Fe xEV": 1856
 });
 
@@ -350,7 +350,7 @@ db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 647
 , "Geely|Emgrand GSE EV": 177
 , "Nio|ES8": 1508
-, "Weltmeister|EX5 EV": 1377
+, "Weltmeister|EX5": 1377
 });
 
 db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#may TODO: numbers per brand wanted",
@@ -527,4 +527,26 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 756
 , "JAC|iEV E-Series": 269
 , "SAIC|MG eZS EV": 4714
+});
+
+db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2020#jan TODO: numbers per brand wanted",
+{ "other": 1614000
+});
+
+db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
+{ "Tesla|Model 3": 3183
+, "SAIC|Roewe Ei5 EV": 3068
+, "GAC|Aion S": 2648
+, "Besturn|B30 EV": 2161
+, "BAIC|EU-Series": 1966
+, "BYD|Qin EV": 1690
+, "Nio|ES6": 1493
+, "SAIC|MG eZS EV": 1429
+, "SAIC|Baojun E-Series EV": 1417
+, "Great Wall|Ora R1 EV": 1295
+, "GAC Toyota|Leahead iA5": 1236
+, "BYD|Yuan / S2 EV": 1202
+, "BYD|e2": 1028
+, "Weltmeister|EX5": 1027
+, "Hozon|Neta N01": 1001
 });
