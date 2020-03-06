@@ -1708,3 +1708,77 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Honda|e": 7
 , "Mercedes-Benz|EQV": 7
 });
+
+db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen": 44405
+, "Mercedes-Benz": 23577
+, "Audi": 19172
+, "BMW": 17613
+, "Ford": 17330
+, "Škoda": 14870
+, "Opel": 14031
+, "Seat": 11225
+, "Renault": 9420
+, "Hyundai": 8534
+, "Fiat": 6328
+, "Toyota": 5950
+, "Kia": 5617
+, "Citroën": 4409
+, "Peugeot": 4339
+, "Volvo": 4301
+, "Mitsubishi": 4247
+, "Dacia": 3708
+, "Mazda": 3515
+, "Nissan": 3330
+, "Mini": 2792
+, "Suzuki": 2082
+, "Porsche": 1734
+, "Jeep": 1108
+, "Land Rover": 868
+, "Honda": 774
+, "Smart": 695
+, "Tesla": 685
+, "Jaguar": 667
+, "Subaru": 449
+, "Lexus": 262
+, "Alfa Romeo": 255
+, "DS Automobiles": 222
+, "SsangYong": 119
+, "Maserati": 38
+, "Infiniti": 26
+, "other": 1246
+});
+
+db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen|e-Golf": 1475
+, "Renault|ZOE": 1352
+, "Volkswagen|e-up!": 679
+, "Tesla|Model 3": 610
+, "Audi|e-tron": 602
+, "BMW|i3 BEV": 480
+, "Smart|Fortwo electric drive": 387
+, "Hyundai|Kona Electric": 361
+, "Smart|Forfour electric drive": 307
+, "Nissan|Leaf": 283
+, "Kia|Soul EV": 229
+, "Porsche|Taycan": 195
+, "Škoda|Citigo-e": 167
+, "Hyundai|Ioniq Electric": 151
+, "Opel|Ampera-e": 112
+, "Mercedes-Benz|EQC": 109
+, "Volkswagen|other": 91
+, "Seat|Mii Electric": 68
+, "Kia|Niro EV": 67
+, "Jaguar|I-Pace": 58
+, "Mini|Cooper SE Electric": 52
+, "Nissan|e-NV200": 44
+, "Tesla|Model X": 41
+, "Tesla|Model S": 34
+, "Peugeot|iOn": 24
+, "DS Automobiles|DS 3 Crossback E-Tense": 12
+, "Citroën|C-Zero": 11
+, "Opel|Corsa-e": 11
+, "Mercedes-Benz|eVito": 9
+, "Peugeot|e-208": 9
+, "Mercedes-Benz|EQV": 1
+});
