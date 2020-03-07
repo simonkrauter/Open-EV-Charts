@@ -1214,7 +1214,8 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 270
 , "Alfa Romeo": 136
 , "Smart": 118
-, "other": 2538
+, "Tesla": 1025
+, "other": 1513
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1583508368d6ec42e0ea5eb1f7c37fcb43d7cfba48-bilan_fevrier_2020.pdf",
