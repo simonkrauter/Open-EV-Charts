@@ -4,6 +4,8 @@
 
 db.addCountry("FR", "France");
 
+// http://www.avere-france.org/Site/Category/?arborescence_id=143
+
 db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jan (Unclear: Why is Tesla missing?)",
 { "Peugeot": 31526
 , "Citroën": 17292
@@ -1182,7 +1184,56 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 34
 });
 
-// http://www.avere-france.org/Site/Category/?arborescence_id=143
+db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2020#feb (Unclear: Why is Tesla missing?)",
+{ "Peugeot": 32326
+, "Renault": 28863
+, "Citroën": 18737
+, "Volkswagen": 9667
+, "Toyota": 8625
+, "Dacia": 7619
+, "Opel": 6216
+, "BMW": 5402
+, "Ford": 4948
+, "Audi": 4926
+, "Mercedes-Benz": 4860
+, "Nissan": 4343
+, "Fiat": 4089
+, "Hyundai": 4040
+, "Kia": 3644
+, "DS Automobiles": 3595
+, "Seat": 2893
+, "Škoda": 2726
+, "Mini": 1601
+, "Volvo": 1559
+, "Suzuki": 1558
+, "Lexus": 667
+, "Land Rover": 652
+, "Jeep": 440
+, "Porsche": 429
+, "Mitsubishi": 297
+, "Jaguar": 270
+, "Alfa Romeo": 136
+, "Smart": 118
+, "other": 2538
+});
+
+db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1583508368d6ec42e0ea5eb1f7c37fcb43d7cfba48-bilan_fevrier_2020.pdf",
+{ "Renault|ZOE": 3169
+, "Peugeot|e-208": 2500
+, "Tesla|Model 3": 1025
+, "DS Automobiles|DS 3 Crossback E-Tense": 517
+, "Hyundai|Kona Electric": 414
+, "Nissan|Leaf": 283
+, "Kia|Niro EV": 278
+, "Opel|Corsa-e": 165
+, "Citroën|C-Zero": 162
+, "BMW|i3 BEV": 153
+, "Nissan|e-NV200": 97
+, "Citroën|Berlingo Electric": 29
+, "Peugeot|Partner Electric": 18
+, "Peugeot|iOn": 4
+});
+
 
 // Template:
 
