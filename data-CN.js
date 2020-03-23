@@ -550,3 +550,25 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 1027
 , "Hozon|Neta N01": 1001
 });
+
+db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2020#feb TODO: numbers per brand wanted",
+{ "other": 224000
+});
+
+db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
+{ "Tesla|Model 3": 2284
+, "GAC|Aion S": 1433
+, "SAIC|Roewe Ei5 EV": 277
+, "BYD|Qin Pro EV": 1477
+, "BAIC|EU-Series": 979
+, "Besturn|B30 EV": 371
+, "Nio|ES6": 671
+, "SAIC|MG eZS EV": 334
+, "SAIC|Baojun E-Series EV": 335
+, "BYD|Yuan / S2 EV": 505
+, "Weltmeister|EX5": 567
+, "Great Wall|Ora R1 EV": 252
+, "BYD|e2": 305
+, "Chery|eQ": 470
+, "Changan|Eado EV": 408
+});
