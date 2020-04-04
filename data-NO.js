@@ -1290,7 +1290,7 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 19
 , "DS Automobiles|DS 3 Crossback E-Tense": 15
 , "Tesla|Model S": 11
-, "Volkswagen|e-Crafter": 7
+, "Volkswagen|e-Crafter": 8
 , "Peugeot|iOn": 6
 , "Citroën|Berlingo Electric": 5
 , "Mercedes-Benz|eVito": 4
