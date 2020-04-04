@@ -1568,3 +1568,74 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Volkswagen|e-Crafter": 1
 });
+
+
+db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2020#mar",
+{ "Volkswagen": 2843
+, "Toyota": 2409
+, "Kia": 2324
+, "Peugeot": 2055
+, "Ford": 1708
+, "Mercedes-Benz": 1674
+, "BMW": 1619
+, "Škoda": 1608
+, "Renault": 1592
+, "Opel": 1578
+, "Tesla": 1398
+, "Volvo": 1096
+, "Nissan": 976
+, "Audi": 893
+, "Citroën": 828
+, "Mini": 828
+, "Hyundai": 809
+, "Seat": 655
+, "Mazda": 614
+, "Suzuki": 476
+, "Mitsubishi": 342
+, "Fiat": 213
+, "Porsche": 149
+, "Land Rover": 145
+, "Dacia": 130
+, "Honda": 90
+, "Lexus": 55
+, "Jaguar": 32
+, "DS Automobiles": 28
+, "MG": 25
+, "Jeep": 19
+, "Smart": 16
+, "Alfa Romeo": 11
+, "Subaru": 9
+, "Maserati": 1
+, "other": 251
+});
+
+db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Tesla|Model 3": 1342
+, "Kia|Niro EV": 525
+, "Volkswagen|e-Golf": 398
+, "Opel|Ampera-e": 320
+, "Škoda|Citigo-e": 228
+, "Mini|Cooper SE Electric": 215
+, "Hyundai|Kona Electric": 180
+, "Nissan|Leaf": 125
+, "Volkswagen|e-up!": 88
+, "Renault|ZOE": 85
+, "Mercedes-Benz|EQC": 67
+, "BMW|i3 BEV": 65
+, "Kia|Soul EV": 55
+, "Hyundai|Ioniq Electric": 36
+, "Audi|e-tron": 30
+, "Seat|Mii Electric": 29
+, "Tesla|Model S": 28
+, "Tesla|Model X": 28
+, "MG|ZS EV": 25
+, "Porsche|Taycan": 22
+, "Smart|Forfour electric drive": 8
+, "Smart|Fortwo electric drive": 8
+, "Peugeot|e-208": 3
+, "Opel|Corsa-e": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Jaguar|I-Pace": 2
+, "Honda|e": 1
+, "Nissan|e-NV200": 1
+});
