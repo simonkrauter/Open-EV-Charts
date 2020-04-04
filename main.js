@@ -475,7 +475,8 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             }
           },
           gridLines: {
-            drawBorder: false
+            drawBorder: false,
+            color: "rgba(0, 0, 0, 0.15)"
           }
         }]
       },
