@@ -1541,8 +1541,8 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Opel|Ampera-e": 647
 , "Kia|Niro EV": 481
 , "Volkswagen|e-Golf": 470
-, "Hyundai|Kona Electric": 291
-, "Škoda|Citigo-e": 153
+, "Hyundai|Kona Electric": 292
+, "Škoda|Citigo-e": 154
 , "Tesla|Model 3": 122
 , "Renault|ZOE": 81
 , "Mercedes-Benz|EQC": 80
@@ -1562,6 +1562,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 4
 , "Smart|Fortwo electric drive": 4
 , "Mini|Cooper SE Electric": 3
+, "Maxus|EV80": 2
 , "Jaguar|I-Pace": 2
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
