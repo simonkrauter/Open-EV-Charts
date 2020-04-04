@@ -550,9 +550,12 @@ function setChartSize(element) {
     heightOffset = 300;
   const minWidth = 380;
   const minHeight = 280;
+  const maxWidthMultiChart = 550;
   var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
-  if (!isSingleChart)
+  if (!isSingleChart) {
     wantedWith = wantedWith / 2.33;
+    wantedWith = Math.min(wantedWith, maxWidthMultiChart);
+  }
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minHeight);
   element.style.width = width + "px";
