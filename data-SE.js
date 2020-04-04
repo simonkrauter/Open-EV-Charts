@@ -1096,3 +1096,47 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Kia|Soul EV": 62
 , "Tesla|Model 3": 98
 });
+
+db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_sweden_2020#mar (Unclear: Why is Tesla missing?)",
+{ "Volvo": 5177
+, "Volkswagen": 3739
+, "Kia": 2497
+, "Audi": 2226
+, "Toyota": 1764
+, "BMW": 1675
+, "Mercedes-Benz": 1618
+, "Škoda": 1376
+, "Renault": 832
+, "Seat": 688
+, "Hyundai": 584
+, "Mitsubishi": 523
+, "Ford": 487
+, "Nissan": 343
+, "Porsche": 311
+, "Mini": 291
+, "Fiat": 276
+, "Dacia": 186
+, "Citroën": 183
+, "Suzuki": 164
+, "Lexus": 123
+, "Subaru": 102
+, "Land Rover": 95
+, "Honda": 72
+, "Mazda": 59
+, "Jaguar": 31
+, "Jeep": 22
+, "Alfa Romeo": 13
+, "Smart": 1
+, "Tesla": 1084
+, "other": 1107
+});
+
+db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/sweden-march-2020.html",
+{ "Tesla|Model 3": 1084
+, "Kia|Niro EV": 139
+, "Audi|e-tron": 315
+, "Renault|ZOE": 310
+, "Nissan|Leaf": 152
+, "Volkswagen|e-Golf": 155
+});
+
