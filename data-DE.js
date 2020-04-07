@@ -1782,3 +1782,78 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-208": 9
 , "Mercedes-Benz|EQV": 1
 });
+
+db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
+{ "Volkswagen": 40643
+, "Mercedes-Benz": 20132
+, "BMW": 20047
+, "Audi": 18904
+, "Ford": 12730
+, "Škoda": 12113
+, "Opel": 10851
+, "Seat": 9052
+, "Fiat": 6801
+, "Renault": 6270
+, "Hyundai": 5981
+, "Toyota": 5339
+, "Kia": 4785
+, "Mitsubishi": 4313
+, "Nissan": 3825
+, "Volvo": 3751
+, "Mini": 3717
+, "Dacia": 3339
+, "Peugeot": 3157
+, "Mazda": 3048
+, "Citroën": 3033
+, "Tesla": 2263
+, "Suzuki": 1976
+, "Porsche": 1941
+, "Land Rover": 1244
+, "Jeep": 950
+, "Honda": 890
+, "Jaguar": 719
+, "Smart": 641
+, "Subaru": 522
+, "Lexus": 276
+, "DS Automobiles": 217
+, "Alfa Romeo": 151
+, "SsangYong": 127
+, "Maserati": 38
+, "Infiniti": 30
+, "other": 1303
+});
+
+db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
+{ "Tesla|Model 3": 2034
+, "Volkswagen|e-Golf": 1524
+, "Renault|ZOE": 945
+, "Audi|e-tron": 736
+, "Volkswagen|e-up!": 662
+, "Opel|Corsa-e": 622
+, "BMW|i3 BEV": 551
+, "Smart|Fortwo electric drive": 501
+, "Mini|Cooper SE Electric": 326
+, "Hyundai|Kona Electric": 278
+, "Škoda|Citigo-e": 261
+, "Nissan|Leaf": 255
+, "Porsche|Taycan": 164
+, "Volkswagen|other": 140
+, "Smart|Forfour electric drive": 137
+, "Hyundai|Ioniq Electric": 134
+, "Tesla|Model S": 129
+, "Seat|Mii Electric": 110
+, "Tesla|Model X": 100
+, "Kia|Soul EV": 99
+, "Mercedes-Benz|EQC": 93
+, "Opel|Ampera-e": 93
+, "Kia|Niro EV": 85
+, "Nissan|e-NV200": 53
+, "Jaguar|I-Pace": 41
+, "Volkswagen|e-Crafter": 36
+, "Honda|e": 6
+, "Mercedes-Benz|eVito": 6
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Peugeot|iOn": 4
+, "Mercedes-Benz|EQV": 2
+, "Peugeot|e-208": 1
+});
