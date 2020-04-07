@@ -1340,7 +1340,7 @@ db.insert(db.countries.CH, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 137
 });
 
-db.insert(db.countries.CH, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2020_01.xlsx (incomplete, only models with no ICE/hybrid variant included)",
+db.insert(db.countries.CH, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2020.xlsx (incomplete, only models with no ICE/hybrid variant included)",
 { "Renault|ZOE": 267
 , "Tesla|Model 3": 80
 , "BMW|i3 BEV": 56
