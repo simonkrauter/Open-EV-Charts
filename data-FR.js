@@ -1235,6 +1235,24 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|iOn": 4
 });
 
+db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 62668
+});
+
+db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1586339557fdd064f408becd3e4d6cd093e807fa4d-barometre-mensuel-de-la-mobilite-electrique-mars-2020.pdf",
+{ "Renault|ZOE": 1814
+, "Tesla|Model 3": 1385
+, "Peugeot|e-208": 756
+, "DS Automobiles|DS 3 Crossback E-Tense": 210
+, "Mini|Cooper SE Electric": 179
+, "Nissan|Leaf": 154
+, "Kia|Niro EV": 152
+, "Hyundai|Kona Electric": 153
+, "Volkswagen|e-up!": 119
+, "Tesla|Model S": 111
+, "Citroën|Berlingo Electric": 4
+});
+
 
 // Template:
 
