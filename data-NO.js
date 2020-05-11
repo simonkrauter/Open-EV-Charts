@@ -1331,7 +1331,7 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 488
 , "Hyundai|Kona Electric": 477
 , "BMW|i3 BEV": 275
-, "Peugeot|e-208": 256
+, "Peugeot|e-208": 257
 , "Renault|ZOE": 230
 , "Volkswagen|e-up!": 226
 , "Škoda|Citigo-e": 209
