@@ -18,8 +18,8 @@ Electric car means pure battery electric car here.
 Database state
 --------------
 
-- China: data since 2018-01 collected, numbers per brand missing
-- United States: data since 2018-01 collected
+- China: no data source for 2020 found
+- United States: no data source for 2020 found
 - Germany: data since 2018-01 collected
 - United Kingdom: data since 2018-01 collected, data is per quarter
 - France: data since 2018-01 collected
