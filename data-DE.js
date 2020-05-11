@@ -1857,3 +1857,79 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 2
 , "Peugeot|e-208": 1
 });
+
+
+db.insert(db.countries.DE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen": 20741
+, "BMW": 12410
+, "Ford": 9311
+, "Audi": 8969
+, "Mercedes-Benz": 8508
+, "Škoda": 7227
+, "Opel": 5153
+, "Seat": 4827
+, "Renault": 4742
+, "Fiat": 3788
+, "Toyota": 3780
+, "Hyundai": 3253
+, "Kia": 3158
+, "Dacia": 3057
+, "Mitsubishi": 2641
+, "Volvo": 2462
+, "Peugeot": 2373
+, "Mini": 2248
+, "Citroën": 2202
+, "Mazda": 1370
+, "Porsche": 1326
+, "Nissan": 1086
+, "Land Rover": 963
+, "Suzuki": 912
+, "Tesla": 635
+, "Jeep": 603
+, "Jaguar": 602
+, "Honda": 380
+, "Smart": 265
+, "Subaru": 260
+, "Alfa Romeo": 207
+, "DS Automobiles": 164
+, "Lexus": 130
+, "SsangYong": 72
+, "Maserati": 27
+, "other": 988
+});
+
+db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen|e-Golf": 738
+, "Renault|ZOE": 627
+, "Tesla|Model 3": 519
+, "Volkswagen|e-up!": 319
+, "BMW|i3 BEV": 290
+, "Mini|Cooper SE Electric": 263
+, "Audi|e-tron": 253
+, "Hyundai|Kona Electric": 250
+, "Smart|Fortwo electric drive": 203
+, "Škoda|Citigo-e": 134
+, "Porsche|Taycan": 123
+, "Kia|Niro EV": 79
+, "Tesla|Model S": 72
+, "Nissan|Leaf": 71
+, "Opel|Corsa-e": 71
+, "Kia|Soul EV": 62
+, "Smart|Forfour electric drive": 61
+, "Hyundai|Ioniq Electric": 55
+, "Seat|Mii Electric": 55
+, "Opel|Ampera-e": 48
+, "Tesla|Model X": 44
+, "Volkswagen|e-Crafter": 42
+, "Nissan|e-NV200": 34
+, "Volkswagen|other": 32
+, "Volkswagen|E-Transporter": 29
+, "Jaguar|I-Pace": 24
+, "Mercedes-Benz|EQC": 23
+, "Peugeot|iOn": 7
+, "Mercedes-Benz|eVito": 3
+, "Citroën|C-Zero": 2
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Honda|e": 1
+});
+
