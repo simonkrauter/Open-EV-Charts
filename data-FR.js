@@ -702,7 +702,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155715869983878c91171338902e0fe0fb97a8c47a-immats-mai-2019.pdf",
-{ "Renault|ZOE": 1472
+{ "Renault|ZOE": 1543
 , "Nissan|Leaf": 347
 , "Tesla|Model 3": 251
 , "Kia|Niro EV": 239
@@ -720,10 +720,11 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model X": 21
 , "Citroën|E-Mehari": 16
 , "Volkswagen|e-up!": 12
-, "Citroën|Berlingo Electric": 10
+, "Citroën|Berlingo Electric": 36
 , "Kia|Soul EV": 10
-, "Peugeot|Partner Electric": 10
-, "Nissan|e-NV200": 6
+, "Peugeot|Partner Electric": 39
+, "Nissan|e-NV200": 64
+, "Renault|Kangoo Z.E.": 371
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#may (Unclear: Why is Tesla missing?)",
@@ -760,7 +761,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15598367646482fda3e8e139d80cbbc783c7550665-immats-juin-2019.pdf",
-{ "Renault|ZOE": 1331
+{ "Renault|ZOE": 1409
 , "Tesla|Model 3": 321
 , "Nissan|Leaf": 172
 , "BMW|i3 BEV": 160
@@ -779,9 +780,10 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Smart|Forfour electric drive": 15
 , "Audi|e-tron": 13
 , "Citroën|E-Mehari": 7
-, "Citroën|Berlingo Electric": 6
-, "Peugeot|Partner Electric": 6
-, "Nissan|e-NV200": 3
+, "Citroën|Berlingo Electric": 26
+, "Peugeot|Partner Electric": 61
+, "Nissan|e-NV200": 66
+, "Renault|Kangoo Z.E.": 297
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jun (Unclear: Why is Tesla missing?)",
@@ -819,16 +821,20 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
-{ "Renault|ZOE": 1845
+{ "Renault|ZOE": 2135
 , "Tesla|Model 3": 1097
 , "Nissan|Leaf": 332
 , "Hyundai|Kona Electric": 189
 , "BMW|i3 BEV": 179
-, "Kia|Niro EV": 156
+, "Kia|Niro EV": 159
 , "Tesla|Model S": 108
 , "Smart|Fortwo electric drive": 87
 , "Tesla|Model X": 80
 , "Citroën|C-Zero": 76
+, "Renault|Kangoo Z.E.": 392
+, "Nissan|e-NV200": 121
+, "Peugeot|Partner Electric": 52
+, "Citroën|Berlingo Electric": 41
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jul (Unclear: Why is Tesla missing?)",
@@ -875,6 +881,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 45
 , "Tesla|Model S": 35
 , "Smart|Forfour electric drive": 33
+, "Renault|Kangoo Z.E.": 322
 , "Nissan|e-NV200": 41
 , "Peugeot|Partner Electric": 25
 , "Citroën|Berlingo Electric": 23
@@ -925,6 +932,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 45
 , "Tesla|Model S": 35
 , "Smart|Forfour electric drive": 33
+, "Renault|Kangoo Z.E.": 322
 , "Nissan|e-NV200": 41
 , "Peugeot|Partner Electric": 25
 , "Citroën|Berlingo Electric": 23
@@ -975,6 +983,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 91
 , "Tesla|Model S": 70
 , "Smart|Forfour electric drive": 67
+, "Renault|Kangoo Z.E.": 644
 , "Nissan|e-NV200": 82
 , "Peugeot|Partner Electric": 51
 , "Citroën|Berlingo Electric": 46
@@ -1025,6 +1034,8 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 174
 , "Hyundai|Kona Electric": 122
 , "DS Automobiles|DS 3 Crossback E-Tense": 110
+, "Volkswagen|e-Golf": 105
+, "Renault|Kangoo Z.E.": 302
 , "Nissan|e-NV200": 121
 , "Peugeot|e-208": 54
 , "Citroën|Berlingo Electric": 42
@@ -1075,6 +1086,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 75
 , "Hyundai|Ioniq Electric": 32
 , "Audi|e-tron": 31
+, "Renault|Kangoo Z.E.": 277
 , "Peugeot|Partner Electric": 32
 , "Citroën|Berlingo Electric": 18
 });
@@ -1128,6 +1140,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 80
 , "Jaguar|I-Pace": 74
 , "Audi|e-tron": 53
+, "Renault|Kangoo Z.E.": 350
 , "Nissan|e-NV200": 105
 , "Citroën|Berlingo Electric": 25
 , "Peugeot|Partner Electric": 24
@@ -1179,6 +1192,7 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 137
 , "Škoda|Citigo-e": 124
 , "Tesla|Model 3": 124
+, "Renault|Kangoo Z.E.": 193
 , "Nissan|e-NV200": 82
 , "Citroën|Berlingo Electric": 38
 , "Peugeot|Partner Electric": 34
@@ -1229,6 +1243,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Opel|Corsa-e": 165
 , "Citroën|C-Zero": 162
 , "BMW|i3 BEV": 153
+, "Renault|Kangoo Z.E.": 313
 , "Nissan|e-NV200": 97
 , "Citroën|Berlingo Electric": 29
 , "Peugeot|Partner Electric": 18
@@ -1250,6 +1265,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 153
 , "Volkswagen|e-up!": 119
 , "Tesla|Model S": 111
+, "Renault|Kangoo Z.E.": 227
 , "Citroën|Berlingo Electric": 4
 });
 
