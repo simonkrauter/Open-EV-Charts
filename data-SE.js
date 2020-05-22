@@ -1140,3 +1140,16 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Volkswagen|e-Golf": 155
 });
 
+db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 18916
+});
+
+db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/sweden-april-2020.html",
+{ "Tesla|Model 3": 76
+, "Kia|Niro EV": 44
+, "Audi|e-tron": 146
+, "Renault|ZOE": 159
+, "Nissan|Leaf": 139
+, "Hyundai|Kona Electric": 76
+, "Tesla|Model S": 55
+});
