@@ -1581,7 +1581,7 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Škoda": 1608
 , "Renault": 1592
 , "Opel": 1578
-, "Tesla": 1398
+, "Tesla": 1399
 , "Volvo": 1096
 , "Nissan": 976
 , "Audi": 893
@@ -1610,16 +1610,16 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 });
 
 db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Tesla|Model 3": 1342
-, "Kia|Niro EV": 525
+{ "Tesla|Model 3": 1343
+, "Kia|Niro EV": 526
 , "Volkswagen|e-Golf": 398
 , "Opel|Ampera-e": 320
-, "Škoda|Citigo-e": 228
+, "Škoda|Citigo-e": 229
 , "Mini|Cooper SE Electric": 215
 , "Hyundai|Kona Electric": 180
 , "Nissan|Leaf": 125
 , "Volkswagen|e-up!": 88
-, "Renault|ZOE": 85
+, "Renault|ZOE": 86
 , "Mercedes-Benz|EQC": 67
 , "BMW|i3 BEV": 65
 , "Kia|Soul EV": 55
@@ -1630,12 +1630,12 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 28
 , "MG|ZS EV": 25
 , "Porsche|Taycan": 22
-, "Smart|Forfour electric drive": 8
 , "Smart|Fortwo electric drive": 8
-, "Peugeot|e-208": 3
+, "Smart|Forfour electric drive": 8
 , "Opel|Corsa-e": 3
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Peugeot|e-208": 3
 , "Jaguar|I-Pace": 2
-, "Honda|e": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Nissan|e-NV200": 1
+, "Honda|e": 1
 });
