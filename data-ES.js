@@ -1685,3 +1685,26 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 2
 , "Citroën|Berlingo Electric": 1
 });
+
+db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 4163
+});
+
+db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Smart|Forfour electric drive": 31
+, "Tesla|Model 3": 20
+, "Smart|Fortwo electric drive": 6
+, "Renault|ZOE": 6
+, "Porsche|Taycan": 4
+, "Mercedes-Benz|EQC": 3
+, "Tesla|Model S": 3
+, "Tesla|Model X": 3
+, "BMW|i3 BEV": 2
+, "Mini|Cooper SE Electric": 2
+, "Nissan|Leaf": 2
+, "Nissan|e-NV200": 1
+, "Audi|e-tron": 1
+, "Opel|Corsa-e": 1
+, "Jaguar|I-Pace": 1
+, "Peugeot|e-208": 1
+});
