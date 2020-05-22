@@ -1269,6 +1269,28 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 4
 });
 
+db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 20997
+});
+
+db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15888552657b04f6d7082af7596a357fe91565b4f2-barometre-mensuel-de-la-mobilite-electrique-avril-2020.pdf",
+{ "Peugeot|e-208": 360
+, "Renault|ZOE": 322
+, "Tesla|Model 3": 189
+, "Citroën|C-Zero": 89
+, "DS Automobiles|DS 3 Crossback E-Tense": 50
+, "Mini|Cooper SE Electric": 31
+, "Opel|Corsa-e": 26
+, "Peugeot|e-2008": 18
+, "Hyundai|Kona Electric": 16
+, "Tesla|Model S": 14
+, "Renault|Kangoo Z.E.": 35
+, "Citroën|Berlingo Electric": 33
+, "Mercedes-Benz|eVito": 6
+, "Nissan|e-NV200": 3
+, "Peugeot|Partner Electric": 2
+});
+
 
 // Template:
 
