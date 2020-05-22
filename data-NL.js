@@ -1639,3 +1639,36 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Honda|e": 1
 });
+
+db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 15373
+});
+
+db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Kia|Niro EV": 365
+, "Volkswagen|e-Golf": 199
+, "Tesla|Model 3": 189
+, "Hyundai|Kona Electric": 178
+, "Renault|ZOE": 83
+, "Nissan|Leaf": 76
+, "Mini|Cooper SE Electric": 73
+, "Hyundai|Ioniq Electric": 62
+, "MG|ZS EV": 45
+, "Škoda|Citigo-e": 39
+, "Kia|Soul EV": 38
+, "Volkswagen|e-up!": 37
+, "Audi|e-tron": 35
+, "Porsche|Taycan": 28
+, "Mercedes-Benz|EQC": 26
+, "BMW|i3 BEV": 23
+, "Nissan|e-NV200": 17
+, "Tesla|Model S": 10
+, "Seat|Mii Electric": 8
+, "Tesla|Model X": 8
+, "Smart|Forfour electric drive": 3
+, "Opel|Ampera-e": 3
+, "Jaguar|I-Pace": 3
+, "Opel|Corsa-e": 2
+, "Mercedes-Benz|eVito": 1
+, "Smart|Fortwo electric drive": 1
+});
