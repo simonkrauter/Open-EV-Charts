@@ -1933,3 +1933,76 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Honda|e": 1
 });
 
+db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Volkswagen": 29568
+, "Mercedes-Benz": 17134
+, "Audi": 13915
+, "Ford": 11156
+, "BMW": 10240
+, "Škoda": 9768
+, "Opel": 8742
+, "Fiat": 8609
+, "Renault": 6869
+, "Hyundai": 5749
+, "Seat": 5494
+, "Citroën": 4230
+, "Toyota": 4199
+, "Mitsubishi": 4139
+, "Peugeot": 3899
+, "Kia": 3612
+, "Dacia": 2856
+, "Volvo": 2840
+, "Mazda": 2734
+, "Mini": 1853
+, "Porsche": 1745
+, "Nissan": 1570
+, "Suzuki": 1273
+, "Land Rover": 1050
+, "Jeep": 748
+, "Honda": 554
+, "Jaguar": 500
+, "Subaru": 485
+, "Smart": 379
+, "Tesla": 312
+, "DS Automobiles": 200
+, "Lexus": 200
+, "Alfa Romeo": 178
+, "SsangYong": 160
+, "Maserati": 22
+, "other": 1166
+});
+
+db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Volkswagen|e-Golf": 1153
+, "Renault|ZOE": 896
+, "Audi|e-tron": 585
+, "Hyundai|Kona Electric": 371
+, "Volkswagen|e-up!": 330
+, "Smart|Fortwo electric drive": 289
+, "Tesla|Model 3": 244
+, "BMW|i3 BEV": 227
+, "Kia|Niro EV": 219
+, "Porsche|Taycan": 185
+, "Mini|Cooper SE Electric": 110
+, "Škoda|Citigo-e": 103
+, "Nissan|Leaf": 96
+, "Smart|Forfour electric drive": 89
+, "Hyundai|Ioniq Electric": 80
+, "Volkswagen|other": 73
+, "Seat|Mii Electric": 67
+, "Opel|Ampera-e": 65
+, "Kia|Soul EV": 58
+, "Volkswagen|e-Caddy": 52
+, "Mercedes-Benz|EQC": 44
+, "Jaguar|I-Pace": 34
+, "Tesla|Model S": 34
+, "Tesla|Model X": 34
+, "Opel|Corsa-e": 30
+, "Nissan|e-NV200": 19
+, "Honda|e": 11
+, "Peugeot|iOn": 7
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Mercedes-Benz|eVito": 5
+, "Citroën|C-Zero": 3
+, "Volkswagen|e-Crafter": 1
+});
