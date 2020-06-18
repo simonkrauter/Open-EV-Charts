@@ -1291,6 +1291,27 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 2
 });
 
+db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 96310
+});
+
+db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15919479677694f4a66316e53c8cdd9d9954bd611d-barometre-mensuel-de-la-mobilite-electrique-mai-2020.pdf",
+{ "Renault|ZOE": 1313
+, "Peugeot|e-208": 679
+, "Hyundai|Kona Electric": 351
+, "Citroën|C-Zero": 247
+, "Tesla|Model 3": 219
+, "Kia|Niro EV": 205
+, "Mini|Cooper SE Electric": 191
+, "Peugeot|e-2008": 151
+, "BMW|i3 BEV": 122
+, "Nissan|Leaf": 113
+, "Renault|Kangoo Z.E.": 128
+, "Nissan|e-NV200": 35
+, "Volkswagen|e-Crafter": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Seat|Mii Electric": 2
+});
 
 // Template:
 
