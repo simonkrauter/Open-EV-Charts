@@ -1447,8 +1447,8 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 402
 , "MG|ZS EV": 186
 , "Peugeot|e-208": 181
+, "Renault|ZOE": 142
 , "Kia|Soul EV": 142
-, "Renault|ZOE": 141
 , "Hyundai|Ioniq Electric": 116
 , "BMW|i3 BEV": 109
 , "Mercedes-Benz|EQC": 95
@@ -1460,8 +1460,8 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 25
 , "Opel|Corsa-e": 25
 , "Seat|Mii Electric": 24
+, "Kia|Niro EV": 22
 , "DS Automobiles|DS 3 Crossback E-Tense": 22
-, "Kia|Niro EV": 21
 , "Tesla|Model X": 14
 , "Mini|Cooper SE Electric": 12
 , "Maxus|EV80": 10
@@ -1471,9 +1471,9 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 4
 , "Volkswagen|e-Crafter": 2
 , "Honda|e": 2
-, "Citroën|C-Zero": 1
-, "Mitsubishi|i-MiEV": 1
 , "Peugeot|iOn": 1
+, "Mitsubishi|i-MiEV": 1
+, "Citroën|C-Zero": 1
 , "Citroën|Berlingo Electric": 1
 });
 
