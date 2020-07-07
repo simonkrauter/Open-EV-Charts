@@ -522,3 +522,70 @@ db.insert(db.countries.UK, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mercedes-Benz|eVito": 5
 , "Volkswagen|e-up!": 2
 });
+
+db.insert(db.countries.UK, "q2020-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/896250/veh0160.ods (per quarter)",
+{ "Volkswagen": 45684
+, "Ford": 44308
+, "BMW": 34531
+, "Mercedes-Benz": 34041
+, "Audi": 30806
+, "Toyota": 29707
+, "Vauxhall": 26957
+, "Nissan": 24098
+, "Kia": 22348
+, "Land Rover": 20495
+, "Škoda": 17400
+, "Seat": 15737
+, "Peugeot": 14994
+, "Hyundai": 13787
+, "Mini": 13028
+, "Volvo": 12245
+, "Renault": 10049
+, "Honda": 9817
+, "Citroën": 9187
+, "Jaguar": 8193
+, "Mazda": 7270
+, "Fiat": 6287
+, "Suzuki": 6257
+, "Tesla": 5700
+, "MG": 5487
+, "Dacia": 5046
+, "Lexus": 4488
+, "Mitsubishi": 3926
+, "Porsche": 2868
+, "Jeep": 1061
+, "DS Automobiles": 685
+, "Alfa Romeo": 678
+, "Abarth": 613
+, "SsangYong": 484
+, "Subaru": 401
+, "Smart": 248
+, "Maserati": 177
+, "Chevrolet": 58
+, "Dodge": 54
+, "Opel": 31
+, "Cadillac": 26
+, "Chrysler": 19
+, "Lincoln": 14
+, "Buick": 9
+, "Infiniti": 5
+, "Acura": 1
+, "other": 2294
+});
+
+db.insert(db.countries.UK, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/896250/veh0160.ods (per quarter)",
+{ "Tesla|Model 3": 5365
+, "Nissan|Leaf": 2659
+, "Volkswagen|e-Golf": 1205
+, "Jaguar|I-Pace": 1146
+, "BMW|i3 BEV": 920
+, "Audi|e-tron": 726
+, "Renault|ZOE": 266
+, "Tesla|Model X": 178
+, "Tesla|Model S": 155
+, "Mercedes-Benz|EQC": 122
+, "Volkswagen|e-up!": 91
+, "Nissan|e-NV200": 74
+, "Porsche|Taycan": 49
+, "Mitsubishi|i-MiEV": 1
+});
