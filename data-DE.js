@@ -2006,3 +2006,79 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 3
 , "Volkswagen|e-Crafter": 1
 });
+
+db.insert(db.countries.DE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Volkswagen": 39126
+, "Mercedes-Benz": 21970
+, "BMW": 18075
+, "Ford": 16145
+, "Audi": 15597
+, "Škoda": 13595
+, "Renault": 10642
+, "Opel": 9764
+, "Fiat": 9141
+, "Seat": 8993
+, "Hyundai": 6414
+, "Toyota": 4973
+, "Peugeot": 4815
+, "Mitsubishi": 4654
+, "Volvo": 4647
+, "Kia": 4110
+, "Citroën": 4008
+, "Dacia": 3452
+, "Mini": 3239
+, "Mazda": 2986
+, "Nissan": 2477
+, "Porsche": 2407
+, "Jeep": 1310
+, "Suzuki": 1212
+, "Honda": 1064
+, "Land Rover": 921
+, "Tesla": 841
+, "Smart": 580
+, "Jaguar": 520
+, "Subaru": 352
+, "Lexus": 241
+, "Alfa Romeo": 184
+, "DS Automobiles": 181
+, "SsangYong": 151
+, "Maserati": 61
+, "Polestar": 5
+, "other": 1419
+});
+
+db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=4",
+{ "Renault|ZOE": 1448
+, "Volkswagen|e-Golf": 1310
+, "Tesla|Model 3": 703
+, "Volkswagen|e-up!": 590
+, "Audi|e-tron": 525
+, "BMW|i3 BEV": 427
+, "Smart|Fortwo electric drive": 426
+, "Hyundai|Kona Electric": 381
+, "Škoda|Citigo-e": 255
+, "Porsche|Taycan": 246
+, "Kia|Soul EV": 199
+, "Volkswagen|other": 185
+, "Kia|Niro EV": 173
+, "Smart|Forfour electric drive": 153
+, "Mercedes-Benz|EQC": 136
+, "Mini|Cooper SE Electric": 110
+, "Seat|Mii Electric": 92
+, "Honda|e": 76
+, "Tesla|Model X": 72
+, "Hyundai|Ioniq Electric": 71
+, "Jaguar|I-Pace": 68
+, "Tesla|Model S": 66
+, "Opel|Ampera-e": 60
+, "Opel|Corsa-e": 59
+, "Nissan|Leaf": 49
+, "Peugeot|e-208": 22
+, "Peugeot|iOn": 17
+, "Mercedes-Benz|eVito": 13
+, "Citroën|C-Zero": 13
+, "Nissan|e-NV200": 9
+, "Polestar|2": 5
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Volkswagen|e-Crafter": 2
+});
