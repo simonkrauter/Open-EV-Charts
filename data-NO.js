@@ -132,7 +132,7 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 10
 , "Smart|Fortwo electric drive": 10
 , "Smart|Forfour electric drive": 5
-, "Chevrolet|Bolt EV": 3
+, "Chevrolet|Bolt": 3
 });
 
 db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -176,7 +176,7 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 15
 , "Citroën|Berlingo Electric": 10
 , "Smart|Forfour electric drive": 6
-, "Chevrolet|Bolt EV": 2
+, "Chevrolet|Bolt": 2
 });
 
 db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -221,7 +221,7 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Focus Electric": 11
 , "Mitsubishi|i-MiEV": 9
 , "Smart|Forfour electric drive": 4
-, "Chevrolet|Bolt EV": 2
+, "Chevrolet|Bolt": 2
 , "Jaguar|I-Pace": 1
 });
 
@@ -268,7 +268,7 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 14
 , "Smart|Fortwo electric drive": 13
 , "Smart|Forfour electric drive": 11
-, "Chevrolet|Bolt EV": 6
+, "Chevrolet|Bolt": 6
 });
 
 db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -313,7 +313,7 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Focus Electric": 9
 , "Citroën|C-Zero": 5
 , "Hyundai|Kona Electric": 3
-, "Chevrolet|Bolt EV": 3
+, "Chevrolet|Bolt": 3
 , "Jaguar|I-Pace": 1
 });
 
@@ -360,7 +360,7 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 16
 , "Ford|Focus Electric": 14
 , "Citroën|C-Zero": 8
-, "Chevrolet|Bolt EV": 6
+, "Chevrolet|Bolt": 6
 , "Smart|Forfour electric drive": 5
 , "Fiat|500e": 1
 });
@@ -409,7 +409,7 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 16
 , "Ford|Focus Electric": 12
 , "Smart|Fortwo electric drive": 12
-, "Chevrolet|Bolt EV": 3
+, "Chevrolet|Bolt": 3
 });
 
 db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -456,7 +456,7 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 8
 , "Ford|Focus Electric": 8
 , "Smart|Fortwo electric drive": 4
-, "Chevrolet|Bolt EV": 2
+, "Chevrolet|Bolt": 2
 });
 
 db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -503,7 +503,7 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 7
 , "Citroën|C-Zero": 5
 , "Ford|Focus Electric": 3
-, "Chevrolet|Bolt EV": 2
+, "Chevrolet|Bolt": 2
 , "Smart|Fortwo electric drive": 1
 });
 
@@ -552,7 +552,7 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 9
 , "Audi|e-tron": 7
 , "Smart|Forfour electric drive": 6
-, "Chevrolet|Bolt EV": 4
+, "Chevrolet|Bolt": 4
 , "Ford|Focus Electric": 1
 , "Maxus|EV80": 1
 });
@@ -809,7 +809,7 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Peugeot|iOn": 4
 , "Fiat|500e": 2
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -860,7 +860,7 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 4
 , "Smart|Forfour electric drive": 2
 , "Mitsubishi|i-MiEV": 2
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -965,7 +965,7 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 1
 , "Ford|Focus Electric": 1
 , "Maxus|EV80": 1
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1019,7 +1019,7 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 3
 , "Porsche|Taycan": 2
 , "Smart|Fortwo electric drive": 1
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1072,7 +1072,7 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 4
 , "Mitsubishi|i-MiEV": 3
 , "Volkswagen|e-Crafter": 3
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1239,7 +1239,7 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 3
 , "Mitsubishi|i-MiEV": 2
 , "Mercedes-Benz|eVito": 2
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 });
 
 db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1357,7 +1357,7 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Mitsubishi|i-MiEV": 2
 , "Smart|Forfour electric drive": 1
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 , "Honda|e": 1
 });
 

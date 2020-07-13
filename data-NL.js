@@ -276,7 +276,7 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 8
 , "Volkswagen|e-up!": 7
 , "Smart|Fortwo electric drive": 6
-, "Chevrolet|Bolt EV": 4
+, "Chevrolet|Bolt": 4
 , "Peugeot|iOn": 3
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
@@ -392,7 +392,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 4
 , "Volkswagen|e-up!": 2
 , "Kia|Soul EV": 1
-, "Chevrolet|Bolt EV": 1
+, "Chevrolet|Bolt": 1
 , "Citroën|Berlingo Electric": 1
 , "Citroën|C-Zero": 1
 });
@@ -511,7 +511,7 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Kia|Soul EV": 4
 , "Peugeot|iOn": 3
-, "Chevrolet|Bolt EV": 2
+, "Chevrolet|Bolt": 2
 , "Volkswagen|e-up!": 1
 });
 

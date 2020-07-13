@@ -48,7 +48,7 @@ db.insert(db.countries.US, "2018-01", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 1875
 , "Tesla|Model S": 800
 , "Tesla|Model X": 700
-, "Chevrolet|Bolt EV": 1177
+, "Chevrolet|Bolt": 1177
 , "Nissan|Leaf": 150
 , "Kia|Soul EV": 115
 , "Honda|Clarity BEV": 203
@@ -101,7 +101,7 @@ db.insert(db.countries.US, "2018-02", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 2485
 , "Tesla|Model S": 1125
 , "Tesla|Model X": 975
-, "Chevrolet|Bolt EV": 1424
+, "Chevrolet|Bolt": 1424
 , "Nissan|Leaf": 895
 , "Fiat|500e": 235
 , "Kia|Soul EV": 163
@@ -155,7 +155,7 @@ db.insert(db.countries.US, "2018-03", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 3820
 , "Tesla|Model S": 3375
 , "Tesla|Model X": 2825
-, "Chevrolet|Bolt EV": 1774
+, "Chevrolet|Bolt": 1774
 , "Nissan|Leaf": 1500
 , "Fiat|500e": 285
 , "Kia|Soul EV": 157
@@ -205,7 +205,7 @@ db.insert(db.countries.US, "2018-04", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 3750
 , "Tesla|Model S": 1250
 , "Tesla|Model X": 1025
-, "Chevrolet|Bolt EV": 1275
+, "Chevrolet|Bolt": 1275
 , "Nissan|Leaf": 1171
 , "Fiat|500e": 215
 , "Kia|Soul EV": 152
@@ -255,7 +255,7 @@ db.insert(db.countries.US, "2018-05", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 6000
 , "Tesla|Model S": 1520
 , "Tesla|Model X": 1450
-, "Chevrolet|Bolt EV": 1125
+, "Chevrolet|Bolt": 1125
 , "Nissan|Leaf": 1576
 , "Fiat|500e": 250
 , "Kia|Soul EV": 133
@@ -307,7 +307,7 @@ db.insert(db.countries.US, "2018-06", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 5902
 , "Tesla|Model S": 2750
 , "Tesla|Model X": 2550
-, "Chevrolet|Bolt EV": 1083
+, "Chevrolet|Bolt": 1083
 , "Nissan|Leaf": 1367
 , "Fiat|500e": 225
 , "Kia|Soul EV": 57
@@ -359,7 +359,7 @@ db.insert(db.countries.US, "2018-07", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 14250
 , "Tesla|Model S": 1200
 , "Tesla|Model X": 1325
-, "Chevrolet|Bolt EV": 1175
+, "Chevrolet|Bolt": 1175
 , "Nissan|Leaf": 1149
 , "Fiat|500e": 220
 , "Kia|Soul EV": 130
@@ -411,7 +411,7 @@ db.insert(db.countries.US, "2018-08", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 17800
 , "Tesla|Model S": 2625
 , "Tesla|Model X": 2750
-, "Chevrolet|Bolt EV": 1225
+, "Chevrolet|Bolt": 1225
 , "Nissan|Leaf": 1315
 , "Fiat|500e": 75
 , "Kia|Soul EV": 33
@@ -463,7 +463,7 @@ db.insert(db.countries.US, "2018-09", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 22250
 , "Tesla|Model S": 3750
 , "Tesla|Model X": 3975
-, "Chevrolet|Bolt EV": 1549
+, "Chevrolet|Bolt": 1549
 , "Nissan|Leaf": 1563
 , "Fiat|500e": 94
 , "Kia|Soul EV": 18
@@ -514,7 +514,7 @@ db.insert(db.countries.US, "2018-10", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 17750
 , "Tesla|Model S": 1350
 , "Tesla|Model X": 1225
-, "Chevrolet|Bolt EV": 2075
+, "Chevrolet|Bolt": 2075
 , "Nissan|Leaf": 1234
 , "Fiat|500e": 100
 , "Kia|Soul EV": 61
@@ -566,7 +566,7 @@ db.insert(db.countries.US, "2018-11", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 18650
 , "Tesla|Model S": 2750
 , "Tesla|Model X": 3200
-, "Chevrolet|Bolt EV": 2825
+, "Chevrolet|Bolt": 2825
 , "Nissan|Leaf": 1128
 , "Fiat|500e": 148
 , "Volkswagen|e-Golf": 230
@@ -619,7 +619,7 @@ db.insert(db.countries.US, "2018-12", db.dsTypes.ElectricCarsByModel, "https://i
 { "Tesla|Model 3": 25250
 , "Tesla|Model X": 4100
 , "Tesla|Model S": 3250
-, "Chevrolet|Bolt EV": 1412
+, "Chevrolet|Bolt": 1412
 , "Nissan|Leaf": 1667
 , "Fiat|500e": 193
 , "Volkswagen|e-Golf": 222
@@ -671,7 +671,7 @@ db.insert(db.countries.US, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-01", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/january-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 6500
 , "Tesla|Model X": 950
-, "Chevrolet|Bolt EV": 925
+, "Chevrolet|Bolt": 925
 , "Tesla|Model S": 875
 , "Nissan|Leaf": 717
 , "Jaguar|I-Pace": 210
@@ -721,7 +721,7 @@ db.insert(db.countries.US, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.goo
 
 db.insert(db.countries.US, "2019-02", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/february-2019-u-s-plug-in-ev-sales-report-card/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 5750
-, "Chevrolet|Bolt EV": 1225
+, "Chevrolet|Bolt": 1225
 , "Tesla|Model X": 1100
 , "Tesla|Model S": 800
 , "Nissan|Leaf": 654
@@ -774,7 +774,7 @@ db.insert(db.countries.US, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.goo
 
 db.insert(db.countries.US, "2019-03", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/347358/ev-sales-scorecard-april-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 10175
-, "Chevrolet|Bolt EV": 2166
+, "Chevrolet|Bolt": 2166
 , "Tesla|Model X": 2175
 , "Tesla|Model S": 2275
 , "Nissan|Leaf": 1314
@@ -827,7 +827,7 @@ db.insert(db.countries.US, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.goo
 
 db.insert(db.countries.US, "2019-04", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/347358/ev-sales-scorecard-april-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 10050
-, "Chevrolet|Bolt EV": 910
+, "Chevrolet|Bolt": 910
 , "Tesla|Model X": 1050
 , "Tesla|Model S": 825
 , "Nissan|Leaf": 951
@@ -881,7 +881,7 @@ db.insert(db.countries.US, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.goo
 
 db.insert(db.countries.US, "2019-05", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/352626/ev-sales-scorecard-may-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 13950
-, "Chevrolet|Bolt EV": 1396
+, "Chevrolet|Bolt": 1396
 , "Tesla|Model X": 1375
 , "Tesla|Model S": 1025
 , "Nissan|Leaf": 1216
@@ -937,7 +937,7 @@ db.insert(db.countries.US, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-06", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/357565/ev-sales-scorecard-june-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 21225
 , "Tesla|Model X": 2725
-, "Chevrolet|Bolt EV": 1659
+, "Chevrolet|Bolt": 1659
 , "Tesla|Model S": 1750
 , "Nissan|Leaf": 1156
 , "Volkswagen|e-Golf": 366
@@ -980,7 +980,7 @@ db.insert(db.countries.US, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-07", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/362819/ev-sales-scorecard-july-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 13450
 , "Tesla|Model X": 1225
-, "Chevrolet|Bolt EV": 985
+, "Chevrolet|Bolt": 985
 , "Tesla|Model S": 975
 , "Nissan|Leaf": 938
 , "Audi|e-tron": 678
@@ -1024,7 +1024,7 @@ db.insert(db.countries.US, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-08", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/368729/ev-sales-scorecard-august-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 12350
 , "Tesla|Model X": 1825
-, "Chevrolet|Bolt EV": 1720
+, "Chevrolet|Bolt": 1720
 , "Tesla|Model S": 1050
 , "Nissan|Leaf": 1117
 , "Volkswagen|e-Golf": 689
@@ -1077,7 +1077,7 @@ db.insert(db.countries.US, "2019-09", db.dsTypes.AllCarsByBrand, "http://www.goo
 db.insert(db.countries.US, "2019-09", db.dsTypes.ElectricCarsByModel, "https://insideevs.com/news/373812/ev-sales-scorecard-september-2019/ (incomplete, only models with no ICE/hybrid variant included)",
 { "Tesla|Model 3": 19100
 , "Tesla|Model X": 1675
-, "Chevrolet|Bolt EV": 2125
+, "Chevrolet|Bolt": 2125
 , "Tesla|Model S": 1100
 , "Nissan|Leaf": 1048
 , "Volkswagen|e-Golf": 554
@@ -1117,7 +1117,7 @@ db.insert(db.countries.US, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 
 db.insert(db.countries.US, "2019-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2019/11/10/teslas-77-7-of-us-electric-vehicle-sales/ (estimation)",
 { "Tesla|Model 3": 9000
-, "Chevrolet|Bolt EV": 1500
+, "Chevrolet|Bolt": 1500
 , "Tesla|Model X": 1400
 , "Tesla|Model S": 1000
 , "Nissan|Leaf": 887
@@ -1189,7 +1189,7 @@ db.insert(db.countries.US, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.US, "2019-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2020/01/16/tesla-gobbled-up-81-of-us-electric-vehicle-sales-in-2019/ (estimation)",
 { "Tesla|Model 3": 27000
 , "Tesla|Model X": 1500
-, "Chevrolet|Bolt EV": 1307
+, "Chevrolet|Bolt": 1307
 , "Nissan|Leaf": 1227
 , "Tesla|Model S": 1000
 , "Audi|e-tron": 746
