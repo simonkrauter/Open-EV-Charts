@@ -19,7 +19,7 @@ Database state
 --------------
 
 - China: no data source for 2020 found
-- United States: no data source for 2020 found
+- United States: data since 2018-01 collected EV models incomplete, only models with no ICE/hybrid variant included
 - Germany: data since 2018-01 collected
 - United Kingdom: data since 2018-01 collected, data is per quarter
 - France: data since 2018-01 collected
