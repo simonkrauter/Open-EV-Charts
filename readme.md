@@ -18,7 +18,7 @@ Electric car means pure battery electric car here.
 Database state
 --------------
 
-- China: no data source for 2020 found
+- China: data since 2018-01 collected, all car sales per brand missing
 - United States: data since 2018-01 collected, data is per quarter, EV models incomplete, only models with no ICE/hybrid variant included
 - Germany: data since 2018-01 collected
 - United Kingdom: data since 2018-01 collected, data is per quarter

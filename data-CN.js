@@ -529,8 +529,8 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|MG eZS EV": 4714
 });
 
-db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2020#jan TODO: numbers per brand wanted",
-{ "other": 1614000
+db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "https://carsalesbase.com/china-car-sales-analysis-january-2020/",
+{ "other": 1610000
 });
 
 db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
@@ -551,8 +551,8 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hozon|Neta N01": 1001
 });
 
-db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2020#feb TODO: numbers per brand wanted",
-{ "other": 224000
+db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "https://carsalesbase.com/china-car-sales-analysis-february-2020/",
+{ "other": 216500
 });
 
 db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
@@ -572,3 +572,71 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 470
 , "Changan|Eado EV": 408
 });
+
+db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5229825.html TODO: numbers per brand wanted",
+{ "other": 1043000
+});
+
+db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
+{ "Tesla|Model 3": 11280
+, "BYD|Qin Pro EV": 5271
+, "BAIC|EU-Series": 4450
+, "GAC|Aion S": 2957
+, "SAIC|MG eZS EV": 2531
+, "SAIC|Roewe Ei5 EV": 804
+, "BYD|Yuan / S2 EV": 2009
+, "Nio|ES6": 1479
+, "SAIC|Baojun E-Series EV": 1557
+, "Weltmeister|EX5": 1173
+, "Great Wall|Ora R1 EV": 1138
+, "BYD|e2": 1215
+, "Chery|eQ": 1073
+, "Changan|Eado EV": 692
+, "Hozon|Neta N01": 616
+});
+
+db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5230166.html TODO: numbers per brand wanted",
+{ "other": 1536000
+});
+
+db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
+{ "Tesla|Model 3": 4312
+, "BYD|Qin Pro EV": 5096
+, "GAC|Aion S": 3586
+, "BAIC|EU-Series": 482
+, "Nio|ES6": 2907
+, "SAIC|Baojun E-Series EV": 2042
+, "BYD|Yuan / S2 EV": 1591
+, "SAIC|Roewe Ei5 EV": 450
+, "Chery|eQ": 2299
+, "Great Wall|Ora R1 EV": 1760
+, "SAIC|MG eZS EV": 24
+, "Weltmeister|EX5": 1388
+, "BYD|e2": 1322
+, "Xiaopeng|Xpeng G3": 1008
+});
+
+db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5230713.html TODO: numbers per brand wanted",
+{ "other": 1674000
+});
+
+db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
+{ "Tesla|Model 3": 11468
+, "BYD|Qin Pro EV": 3201
+, "GAC|Aion S": 3892
+, "BAIC|EU-Series": 1506
+, "Nio|ES6": 2685
+, "SAIC|Baojun E-Series EV": 2447
+, "Chery|eQ": 2563
+, "BYD|Yuan / S2 EV": 1714
+, "Great Wall|Ora R1 EV": 2326
+, "SAIC|Roewe Ei5 EV": 1085
+, "Weltmeister|EX5": 1421
+, "BYD|e2": 1461
+, "Buick|Velite 6": 3526
+, "SAIC|MG eZS EV": 156
+, "Xiaopeng|Xpeng G3": 954
+, "Hozon|Neta N01": 984
+});
+
+
