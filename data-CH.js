@@ -1531,3 +1531,62 @@ db.insert(db.countries.CH, "2020-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 1
 });
+
+db.insert(db.countries.CH, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
+{ "Volkswagen": 2842
+, "Mercedes-Benz": 2304
+, "Škoda": 2015
+, "BMW": 1986
+, "Audi": 1554
+, "Renault": 1184
+, "Ford": 1144
+, "Seat": 1077
+, "Toyota": 990
+, "Volvo": 817
+, "Dacia": 622
+, "Opel": 612
+, "Suzuki": 593
+, "Mini": 577
+, "Fiat": 567
+, "Hyundai": 566
+, "Porsche": 493
+, "Citroën": 491
+, "Tesla": 489
+, "Peugeot": 482
+, "Jeep": 395
+, "Mazda": 374
+, "Kia": 373
+, "Mitsubishi": 365
+, "Nissan": 322
+, "Land Rover": 244
+, "Subaru": 240
+, "Alfa Romeo": 159
+, "Honda": 154
+, "Jaguar": 87
+, "Lexus": 68
+, "DS Automobiles": 65
+, "Smart": 46
+, "Maserati": 20
+, "Chevrolet": 5
+, "Cadillac": 4
+, "SsangYong": 2
+, "Dodge": 2
+, "Infiniti": 1
+, "other": 146
+});
+
+db.insert(db.countries.CH, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx (incomplete, only models with no ICE/hybrid variant included)",
+{ "Tesla|Model 3": 383
+, "Renault|ZOE": 279
+, "BMW|i3 BEV": 75
+, "Tesla|Model X": 71
+, "Porsche|Taycan": 55
+, "Audi|e-tron": 47
+, "Nissan|Leaf": 37
+, "Mercedes-Benz|EQC": 36
+, "Tesla|Model S": 35
+, "Jaguar|I-Pace": 14
+, "Mitsubishi|i-MiEV": 4
+, "Peugeot|iOn": 2
+, "Citroën|C-Zero": 2
+});
