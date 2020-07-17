@@ -40,9 +40,8 @@ db.insert(db.countries.US, "q2018-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Genesis": 4362
 , "Fiat": 4014
 , "Maserati": 2713
-, "Mercedes-AMG": 381
 , "Smart": 321
-, "Bentley": 160
+, "other": 541
 });
 
 db.insert(db.countries.US, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
@@ -89,8 +88,8 @@ db.insert(db.countries.US, "q2018-2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Fiat": 4271
 , "Genesis": 2900
 , "Maserati": 390
-, "Mercedes-AMG": 379
 , "Smart": 329
+, "other": 379
 });
 
 db.insert(db.countries.US, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
