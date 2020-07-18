@@ -1680,14 +1680,14 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
 { "Volkswagen|e-Golf": 220
 , "Kia|Niro EV": 215
-, "Hyundai|Kona Electric": 212
+, "Hyundai|Kona Electric": 213
 , "Tesla|Model 3": 157
 , "Nissan|Leaf": 154
 , "MG|ZS EV": 86
 , "BMW|i3 BEV": 61
 , "Kia|Soul EV": 50
 , "Renault|ZOE": 46
-, "Audi|e-tron": 45
+, "Audi|e-tron": 46
 , "Opel|Ampera-e": 31
 , "Porsche|Taycan": 19
 , "Mini|Cooper SE Electric": 19
