@@ -1512,6 +1512,7 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 190
 , "Volkswagen|e-up!": 185
 , "Renault|ZOE": 148
+, "Peugeot|e-2008": 139
 , "BMW|i3 BEV": 138
 , "Škoda|Citigo-e": 136
 , "Porsche|Taycan": 131
