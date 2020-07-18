@@ -284,6 +284,7 @@ db.insert(db.countries.US, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 3966
 , "Tesla|Model S": 3600
 , "Nissan|Leaf": 3323
+, "Audi|e-tron": 1835
 , "Jaguar|I-Pace": 701
 });
 
@@ -331,6 +332,7 @@ db.insert(db.countries.US, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 4725
 , "Tesla|Model S": 3125
 , "Nissan|Leaf": 3103
+, "Audi|e-tron": 1705
 , "Jaguar|I-Pace": 533
 });
 
@@ -377,6 +379,7 @@ db.insert(db.countries.US, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 3750
 , "Chevrolet|Bolt": 3307
 , "Nissan|Leaf": 3254
+, "Audi|e-tron": 1829
 , "Jaguar|I-Pace": 752
 , "Porsche|Taycan": 130
 });
@@ -399,7 +402,7 @@ db.insert(db.countries.US, "q2020-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mazda": 67670
 , "BMW": 62152
 , "Lexus": 56345
-, "Tesla": 52800
+, "Tesla": 54000
 , "Audi": 41371
 , "Mitsubishi": 35563
 , "Buick": 33870
@@ -410,6 +413,7 @@ db.insert(db.countries.US, "q2020-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Infiniti": 25556
 , "Volvo": 19485
 , "Porsche": 11984
+, "Jaguar": 7266
 , "Mini": 5236
 , "Genesis": 3955
 , "Alfa Romeo": 3702
@@ -422,6 +426,9 @@ db.insert(db.countries.US, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 4600
 , "Tesla|Model X": 3700
 , "Nissan|Leaf": 1958
+, "Audi|e-tron": 1711
+, "Tesla|Model Y": 1200
+, "Jaguar|I-Pace": 446
 , "Porsche|Taycan": 211
 });
 
