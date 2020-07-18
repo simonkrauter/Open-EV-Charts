@@ -1604,14 +1604,15 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 34
 , "Mercedes-Benz|EQC": 24
 , "Citroën|C-Zero": 24
+, "Peugeot|e-2008": 20
 , "Škoda|Citigo-e": 19
 , "Kia|Soul EV": 19
 , "DS Automobiles|DS 3 Crossback E-Tense": 17
-, "Nissan|e-NV200": 16
 , "Porsche|Taycan": 16
+, "Nissan|e-NV200": 16
 , "Hyundai|Ioniq Electric": 11
-, "Jaguar|I-Pace": 7
 , "Tesla|Model X": 7
+, "Jaguar|I-Pace": 7
 , "Peugeot|iOn": 6
 , "Tesla|Model S": 5
 , "Citroën|Berlingo Electric": 1
@@ -1669,20 +1670,21 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 21
 , "Mercedes-Benz|EQC": 19
 , "Tesla|Model X": 17
-, "Porsche|Taycan": 15
 , "Volkswagen|e-Golf": 15
+, "Porsche|Taycan": 15
 , "Kia|Niro EV": 14
 , "Mini|Cooper SE Electric": 13
 , "BMW|i3 BEV": 11
 , "Nissan|e-NV200": 9
+, "Opel|Corsa-e": 6
 , "Hyundai|Ioniq Electric": 6
 , "Citroën|C-Zero": 6
-, "Opel|Corsa-e": 6
-, "Audi|e-tron": 5
 , "Škoda|Citigo-e": 5
+, "Peugeot|e-2008": 5
+, "Audi|e-tron": 5
 , "Kia|Soul EV": 4
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Jaguar|I-Pace": 2
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Citroën|Berlingo Electric": 1
 });
 
@@ -1714,7 +1716,8 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Renault|ZOE": 45
+{ "Peugeot|e-2008": 50
+, "Renault|ZOE": 45
 , "Tesla|Model 3": 36
 , "Nissan|Leaf": 34
 , "Mini|Cooper SE Electric": 29
