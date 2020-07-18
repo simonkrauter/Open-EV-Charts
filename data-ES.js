@@ -1738,3 +1738,38 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 });
+
+db.insert(db.countries.ES, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 82651
+});
+
+db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Renault|ZOE": 118
+, "Peugeot|e-2008": 69
+, "Volkswagen|e-Golf": 52
+, "Peugeot|e-208": 45
+, "Hyundai|Kona Electric": 43
+, "BMW|i3 BEV": 42
+, "Mini|Cooper SE Electric": 40
+, "Kia|Niro EV": 37
+, "Smart|Forfour electric drive": 32
+, "Tesla|Model 3": 31
+, "Seat|Mii Electric": 31
+, "Opel|Corsa-e": 31
+, "Smart|Fortwo electric drive": 30
+, "Nissan|Leaf": 29
+, "Porsche|Taycan": 22
+, "Tesla|Model X": 17
+, "Tesla|Model S": 15
+, "Audi|e-tron": 14
+, "Kia|Soul EV": 11
+, "DS Automobiles|DS 3 Crossback E-Tense": 11
+, "Nissan|e-NV200": 10
+, "Mercedes-Benz|EQC": 9
+, "Škoda|Citigo-e": 5
+, "Hyundai|Ioniq Electric": 5
+, "Honda|e": 5
+, "Citroën|Berlingo Electric": 2
+, "Peugeot|iOn": 1
+, "Jaguar|I-Pace": 1
+});
