@@ -425,3 +425,52 @@ db.insert(db.countries.US, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Porsche|Taycan": 211
 });
 
+db.insert(db.countries.US, "q2020-2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
+{ "Ford": 411035
+, "Toyota": 347571
+, "Chevrolet": 330381
+, "Honda": 266044
+, "Jeep": 176713
+, "Nissan": 161317
+, "Hyundai": 139378
+, "Subaru": 136519
+, "Ram": 127682
+, "Kia": 125302
+, "GMC": 101759
+, "Volkswagen": 69933
+, "Mercedes-Benz": 69505
+, "Mazda": 61199
+, "BMW": 50956
+, "Lexus": 50458
+, "Dodge": 43756
+, "Tesla": 38800
+, "Buick": 35521
+, "Audi": 34839
+, "Acura": 27458
+, "Volvo": 23770
+, "Cadillac": 23297
+, "Lincoln": 21280
+, "Infiniti": 16097
+, "Land Rover": 14500
+, "Chrysler": 13857
+, "Mitsubishi": 12197
+, "Porsche": 12193
+, "Mini": 5288
+, "Jaguar": 4320
+, "Alfa Romeo": 3735
+, "Genesis": 3585
+, "Fiat": 1339
+});
+
+db.insert(db.countries.US, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
+{ "Tesla|Model Y": 16000
+, "Tesla|Model 3": 16000
+, "Tesla|Model X": 3600
+, "Tesla|Model S": 3200
+, "Chevrolet|Bolt": 2495
+, "Audi|e-tron": 1161
+, "Nissan|Leaf": 1050
+, "Porsche|Taycan": 818
+, "Jaguar|I-Pace": 600
+});
+
