@@ -639,4 +639,25 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hozon|Neta N01": 984
 });
 
+db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5231066.html TODO: numbers per brand wanted",
+{ "other": 1764000
+});
+
+db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
+{ "Tesla|Model 3": 15023
+, "BYD|Qin Pro EV": 4303
+, "GAC|Aion S": 3695
+, "SAIC|Baojun E-Series EV": 5875
+, "BAIC|EU-Series": 2339
+, "Nio|ES6": 2476
+, "Chery|eQ": 2632
+, "Great Wall|Ora R1 EV": 2601
+, "BYD|Yuan / S2 EV": 1823
+, "Weltmeister|EX5": 1990
+, "BYD|e2": 1517
+, "Buick|Velite 6": 792
+, "SAIC|Roewe Ei5 EV": 168
+, "SAIC|MG eZS EV": 1016
+, "BYD|Song Pro EV": 1086
+});
 
