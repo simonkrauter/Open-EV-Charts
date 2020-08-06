@@ -1677,7 +1677,7 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
 { "Renault|ZOE": 1798
 , "Volkswagen|e-Golf": 1120
-, "Audi|e-tron": 573
+, "Audi|e-tron": 572
 , "BMW|i3 BEV": 551
 , "Volkswagen|e-up!": 463
 , "Škoda|Citigo-e": 437
@@ -1693,20 +1693,20 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 84
 , "Nissan|e-NV200": 76
 , "Mercedes-Benz|EQC": 75
-, "Seat|Mii Electric": 70
 , "Tesla|Model S": 70
-, "DS Automobiles|DS 3 Crossback E-Tense": 64
+, "Seat|Mii Electric": 70
 , "Smart|Fortwo electric drive": 64
+, "DS Automobiles|DS 3 Crossback E-Tense": 64
 , "Volkswagen|e-Crafter": 46
-, "Citroën|C-Zero": 42
 , "Smart|Forfour electric drive": 42
+, "Citroën|C-Zero": 42
 , "Tesla|Model X": 40
 , "Kia|Niro EV": 32
 , "Mercedes-Benz|eVito": 15
 , "Mini|Cooper SE Electric": 12
 , "Peugeot|iOn": 11
-, "Honda|e": 7
 , "Mercedes-Benz|EQV": 7
+, "Honda|e": 7
 });
 
 db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
@@ -1754,7 +1754,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|ZOE": 1352
 , "Volkswagen|e-up!": 679
 , "Tesla|Model 3": 610
-, "Audi|e-tron": 602
+, "Audi|e-tron": 591
 , "BMW|i3 BEV": 480
 , "Smart|Fortwo electric drive": 387
 , "Hyundai|Kona Electric": 361
@@ -1766,7 +1766,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 151
 , "Opel|Ampera-e": 112
 , "Mercedes-Benz|EQC": 109
-, "Volkswagen|other": 91
+, "Volkswagen|other": 81
 , "Seat|Mii Electric": 68
 , "Kia|Niro EV": 67
 , "Jaguar|I-Pace": 58
@@ -1776,10 +1776,11 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 34
 , "Peugeot|iOn": 24
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
-, "Citroën|C-Zero": 11
 , "Opel|Corsa-e": 11
-, "Mercedes-Benz|eVito": 9
+, "Citroën|C-Zero": 11
+, "Volkswagen|E-Transporter": 10
 , "Peugeot|e-208": 9
+, "Mercedes-Benz|eVito": 9
 , "Mercedes-Benz|EQV": 1
 });
 
@@ -1827,7 +1828,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 2034
 , "Volkswagen|e-Golf": 1524
 , "Renault|ZOE": 945
-, "Audi|e-tron": 736
+, "Audi|e-tron": 721
 , "Volkswagen|e-up!": 662
 , "Opel|Corsa-e": 622
 , "BMW|i3 BEV": 551
@@ -1844,17 +1845,18 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Seat|Mii Electric": 110
 , "Tesla|Model X": 100
 , "Kia|Soul EV": 99
-, "Mercedes-Benz|EQC": 93
 , "Opel|Ampera-e": 93
+, "Mercedes-Benz|EQC": 93
 , "Kia|Niro EV": 85
 , "Nissan|e-NV200": 53
 , "Jaguar|I-Pace": 41
 , "Volkswagen|e-Crafter": 36
-, "Honda|e": 6
 , "Mercedes-Benz|eVito": 6
+, "Honda|e": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|iOn": 4
 , "Mercedes-Benz|EQV": 2
+, "Volkswagen|E-Transporter": 1
 , "Peugeot|e-208": 1
 });
 
@@ -1905,19 +1907,19 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 319
 , "BMW|i3 BEV": 290
 , "Mini|Cooper SE Electric": 263
-, "Audi|e-tron": 253
 , "Hyundai|Kona Electric": 250
+, "Audi|e-tron": 246
 , "Smart|Fortwo electric drive": 203
 , "Škoda|Citigo-e": 134
 , "Porsche|Taycan": 123
 , "Kia|Niro EV": 79
 , "Tesla|Model S": 72
-, "Nissan|Leaf": 71
 , "Opel|Corsa-e": 71
+, "Nissan|Leaf": 71
 , "Kia|Soul EV": 62
 , "Smart|Forfour electric drive": 61
-, "Hyundai|Ioniq Electric": 55
 , "Seat|Mii Electric": 55
+, "Hyundai|Ioniq Electric": 55
 , "Opel|Ampera-e": 48
 , "Tesla|Model X": 44
 , "Volkswagen|e-Crafter": 42
@@ -1928,8 +1930,8 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 23
 , "Peugeot|iOn": 7
 , "Mercedes-Benz|eVito": 3
-, "Citroën|C-Zero": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Citroën|C-Zero": 2
 , "Honda|e": 1
 });
 
@@ -1975,7 +1977,7 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
 { "Volkswagen|e-Golf": 1153
 , "Renault|ZOE": 896
-, "Audi|e-tron": 585
+, "Audi|e-tron": 583
 , "Hyundai|Kona Electric": 371
 , "Volkswagen|e-up!": 330
 , "Smart|Fortwo electric drive": 289
@@ -1994,15 +1996,15 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 58
 , "Volkswagen|e-Caddy": 52
 , "Mercedes-Benz|EQC": 44
-, "Jaguar|I-Pace": 34
-, "Tesla|Model S": 34
 , "Tesla|Model X": 34
+, "Tesla|Model S": 34
+, "Jaguar|I-Pace": 34
 , "Opel|Corsa-e": 30
 , "Nissan|e-NV200": 19
 , "Honda|e": 11
 , "Peugeot|iOn": 7
-, "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Mercedes-Benz|eVito": 5
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Citroën|C-Zero": 3
 , "Volkswagen|e-Crafter": 1
 });
@@ -2052,7 +2054,7 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 1310
 , "Tesla|Model 3": 703
 , "Volkswagen|e-up!": 590
-, "Audi|e-tron": 525
+, "Audi|e-tron": 520
 , "BMW|i3 BEV": 427
 , "Smart|Fortwo electric drive": 426
 , "Hyundai|Kona Electric": 381
@@ -2065,7 +2067,7 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 136
 , "Mini|Cooper SE Electric": 110
 , "Seat|Mii Electric": 92
-, "Honda|e": 76
+, "Honda|e": 75
 , "Tesla|Model X": 72
 , "Hyundai|Ioniq Electric": 71
 , "Jaguar|I-Pace": 68
@@ -2073,6 +2075,8 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 60
 , "Opel|Corsa-e": 59
 , "Nissan|Leaf": 49
+, "Mazda|other": 29
+, "Audi|other": 26
 , "Peugeot|e-208": 22
 , "Peugeot|iOn": 17
 , "Mercedes-Benz|eVito": 13
