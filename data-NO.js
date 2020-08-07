@@ -1537,29 +1537,92 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 1
 });
 
+db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Mercedes-Benz": 938
+, "Audi": 868
+, "Volvo": 806
+, "Volkswagen": 782
+, "Škoda": 763
+, "Toyota": 704
+, "Hyundai": 642
+, "BMW": 639
+, "Ford": 541
+, "Peugeot": 453
+, "MG": 337
+, "Mitsubishi": 317
+, "Nissan": 299
+, "Porsche": 222
+, "Opel": 173
+, "Mazda": 166
+, "Renault": 149
+, "Kia": 138
+, "Suzuki": 135
+, "Tesla": 30
+});
+
+db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Audi|e-tron": 698
+, "Mercedes-Benz|EQC": 655
+, "Hyundai|Kona Electric": 367
+, "MG|ZS EV": 315
+, "Hyundai|Ioniq Electric": 229
+, "Nissan|Leaf": 208
+, "Volkswagen|e-up!": 199
+, "Volkswagen|e-Golf": 184
+, "Seat|Mii Electric": 179
+, "Peugeot|e-208": 177
+, "Škoda|Citigo-e": 138
+, "Renault|ZOE": 124
+, "BMW|i3 BEV": 115
+, "Porsche|Taycan": 105
+, "Nissan|e-NV200": 91
+, "Peugeot|e-2008": 82
+, "Opel|Ampera-e": 51
+, "Kia|Soul EV": 47
+, "Opel|Corsa-e": 46
+, "Jaguar|I-Pace": 32
+, "Tesla|Model 3": 22
+, "Mini|Cooper SE Electric": 18
+, "Polestar|2": 17
+, "DS Automobiles|DS 3 Crossback E-Tense": 13
+, "Kia|Niro EV": 11
+, "Honda|e": 7
+, "Tesla|Model X": 4
+, "Tesla|Model S": 4
+, "Smart|Fortwo electric drive": 3
+, "Mitsubishi|i-MiEV": 3
+, "Maxus|EV80": 3
+, "Peugeot|iOn": 2
+, "Volkswagen|e-Crafter": 1
+, "Smart|Forfour electric drive": 1
+, "Mercedes-Benz|eVito": 1
+});
+
 
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-// { "Tesla":
-// , "Volkswagen":
-// , "Toyota":
-// , "BMW":
-// , "Volvo":
-// , "Hyundai":
-// , "Nissan":
-// , "Škoda":
-// , "Mitsubishi":
+// { "Mercedes-Benz":
 // , "Audi":
-// , "Jaguar":
-// , "Kia":
-// , "Peugeot":
+// , "Volvo":
+// , "Volkswagen":
+// , "Škoda":
+// , "Toyota":
+// , "Hyundai":
+// , "BMW":
 // , "Ford":
-// , "Mercedes-Benz":
-// , "Renault":
-// , "Suzuki":
-// , "Mazda":
+// , "Peugeot":
+// , "MG":
+// , "Mitsubishi":
+// , "Nissan":
+// , "Porsche":
 // , "Opel":
+// , "Mazda":
+// , "Renault":
+// , "Kia":
+// , "Suzuki":
+// , "Tesla":
+// , "Jaguar":
 // , "Citroën":
 // , "Seat":
 // });
