@@ -727,16 +727,28 @@ function renderSources(chartDiv, chartData) {
   sourcesDiv.appendChild(ol);
   const reversed = chartData.sources.reverse();
   for (const i in reversed) {
-    const parts = reversed[i].split(" ");
-    const url = parts.shift();
     const li = document.createElement("LI");
     ol.appendChild(li);
-    const link = document.createElement("A");
-    li.appendChild(link);
-    link.href = url;
-    link.target = "_blank";
-    link.appendChild(document.createTextNode(url));
-    if (parts.length > 0)
-      li.appendChild(document.createTextNode(" " + parts.join(" ")));
+    const parts = reversed[i].split(" ");
+    for (const j in parts) {
+      var part = parts[j];
+      if (j > 0) {
+        li.appendChild(document.createTextNode(" "));
+      }
+      if (part.includes("://")) {
+        const link = document.createElement("A");
+        li.appendChild(link);
+        if (part.endsWith(",")) {
+          part = part.substr(0, part.length - 1);
+          li.appendChild(document.createTextNode(","));
+        }
+        link.href = part;
+        link.target = "_blank";
+        link.appendChild(document.createTextNode(part));
+      } else {
+        li.appendChild(document.createTextNode(part));
+      }
+    }
+
   }
 }
