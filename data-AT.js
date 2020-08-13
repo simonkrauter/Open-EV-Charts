@@ -668,7 +668,8 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Suzuki": 540
 , "Volvo": 428
 , "Mitsubishi": 377
-, "other": 1957
+, "Tesla": 245
+, "other": 1712
 });
 
 db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
