@@ -57,7 +57,6 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 73
 , "Opel|Ampera-e": 67
 , "Tesla|Model S": 45
-, "Audi|e-tron": 18
 , "Tesla|Model X": 17
 , "Nissan|e-NV200": 15
 , "Nissan|Leaf": 11
@@ -121,7 +120,6 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 73
 , "Tesla|Model X": 51
 , "Mercedes-Benz|B-Klasse Electric Drive": 25
-, "Audi|e-tron": 10
 , "Citroën|C-Zero": 7
 , "Nissan|e-NV200": 6
 , "Ford|Focus Electric": 5
@@ -182,7 +180,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 124
 , "Hyundai|Ioniq Electric": 61
 , "Opel|Ampera-e": 57
-, "Audi|e-tron": 24
+, "Audi|other": 24
 , "Ford|Focus Electric": 10
 , "Mercedes-Benz|B-Klasse Electric Drive": 10
 , "Peugeot|iOn": 9
@@ -245,7 +243,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 96
 , "Volkswagen|e-up!": 95
 , "Tesla|Model S": 71
-, "Audi|e-tron": 41
+, "Audi|other": 41
 , "Tesla|Model X": 35
 , "Jaguar|I-Pace": 31
 , "Opel|Ampera-e": 26
@@ -311,7 +309,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 88
 , "Volkswagen|e-up!": 76
 , "Mercedes-Benz|B-Klasse Electric Drive": 34
-, "Audi|e-tron": 25
+, "Audi|other": 25
 , "Opel|Ampera-e": 23
 , "Nissan|e-NV200": 15
 , "Citroën|C-Zero": 12
@@ -375,7 +373,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 80
 , "Peugeot|iOn": 70
 , "Volkswagen|e-up!": 62
-, "Audi|e-tron": 39
+, "Audi|other": 39
 , "Nissan|e-NV200": 29
 , "Jaguar|I-Pace": 10
 , "Mercedes-Benz|B-Klasse Electric Drive": 8
@@ -441,7 +439,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 46
 , "Tesla|Model X": 44
 , "Porsche|other": 32
-, "Audi|e-tron": 30
+, "Audi|other": 30
 , "Citroën|C-Zero": 24
 , "Peugeot|iOn": 18
 , "Opel|Ampera-e": 15
@@ -504,7 +502,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 105
 , "Tesla|Model S": 47
 , "Tesla|Model X": 35
-, "Audi|e-tron": 25
+, "Audi|other": 25
 , "Opel|Ampera-e": 25
 , "Citroën|C-Zero": 6
 , "Nissan|e-NV200": 5
@@ -571,7 +569,6 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Forfour electric drive": 74
 , "Porsche|other": 32
 , "Nissan|e-NV200": 13
-, "Audi|e-tron": 11
 , "Opel|Ampera-e": 10
 , "Jaguar|I-Pace": 8
 , "Peugeot|iOn": 5
@@ -640,7 +637,6 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 20
 , "Opel|Ampera-e": 19
 , "Tesla|Model X": 15
-, "Audi|e-tron": 11
 , "Peugeot|iOn": 9
 , "Volkswagen|other": 8
 , "Citroën|C-Zero": 3
@@ -698,7 +694,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 360
 , "Smart|Fortwo electric drive": 296
 , "Hyundai|Ioniq Electric": 227
-, "Audi|e-tron": 220
+, "Audi|other": 220
 , "Smart|Forfour electric drive": 214
 , "Kia|Soul EV": 182
 , "Volkswagen|e-up!": 126
@@ -760,7 +756,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=6",
 { "Renault|ZOE": 944
 , "Volkswagen|e-Golf": 529
-, "Audi|e-tron": 528
+, "Audi|other": 528
 , "BMW|i3 BEV": 497
 , "Nissan|Leaf": 205
 , "Smart|Fortwo electric drive": 188
