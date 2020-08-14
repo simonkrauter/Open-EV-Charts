@@ -1963,7 +1963,8 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Alfa Romeo": 178
 , "SsangYong": 160
 , "Maserati": 22
-, "other": 1166
+, "Polestar": 2
+, "other": 1164
 });
 
 db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
