@@ -185,7 +185,6 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|B-Klasse Electric Drive": 10
 , "Peugeot|iOn": 9
 , "Citroën|C-Zero": 3
-, "Honda|e": 2
 , "Nissan|e-NV200": 1
 , "Volkswagen|other": 1
 });
@@ -250,7 +249,6 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 16
 , "Citroën|C-Zero": 12
 , "Peugeot|iOn": 7
-, "Honda|e": 3
 , "Ford|Focus Electric": 2
 });
 
@@ -640,7 +638,6 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 9
 , "Volkswagen|other": 8
 , "Citroën|C-Zero": 3
-, "Honda|e": 1
 , "Mercedes-Benz|eVito": 1
 , "Tesla|Model 3": 1
 });
@@ -776,7 +773,6 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 8
 , "Peugeot|iOn": 5
 , "Nissan|e-NV200": 4
-, "Honda|e": 1
 });
 
 db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=6",
@@ -983,7 +979,6 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 10
 , "Peugeot|iOn": 8
 , "Opel|Ampera-e": 6
-, "Honda|e": 1
 });
 
 db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=6",
@@ -1413,7 +1408,6 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 8
 , "Volkswagen|e-up!": 8
 , "Citroën|C-Zero": 7
-, "Honda|e": 2
 });
 
 db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=4",
@@ -1554,7 +1548,6 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 2
-, "Honda|e": 1
 });
 
 db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=4",
@@ -1698,7 +1691,6 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 12
 , "Peugeot|iOn": 11
 , "Mercedes-Benz|EQV": 7
-, "Honda|e": 7
 });
 
 db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
