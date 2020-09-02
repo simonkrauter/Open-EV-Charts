@@ -1112,7 +1112,6 @@ db.insert(db.countries.CH, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 15
 , "Infiniti": 12
 , "Chrysler": 4
-, "Toyota": -446
 , "other": 1358
 });
 
