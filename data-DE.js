@@ -2217,6 +2217,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 37
 , "Jaguar|I-Pace": 37
 , "Nissan|e-NV200": 36
+, "Mazda|MX-30": 32
 , "Mercedes-Benz|EQV": 23
 , "Peugeot|iOn": 19
 , "Honda|e": 18
@@ -2225,6 +2226,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 10
 , "Volkswagen|E-Transporter": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Opel|Zafira-e": 6
 , "Mercedes-Benz|eVito": 3
 , "Volkswagen|e-Crafter": 2
 , "Volkswagen|e-Caddy": 1
