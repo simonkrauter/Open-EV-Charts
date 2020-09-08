@@ -2148,3 +2148,84 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|eVito": 5
 , "Volkswagen|E-Transporter": 1
 });
+
+db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_08_xlsx.xlsx;?__blob=publicationFile&v=4",
+{ "Volkswagen": 43842
+, "Mercedes-Benz": 27906
+, "BMW": 21549
+, "Ford": 16783
+, "Audi": 16405
+, "Škoda": 15686
+, "Renault": 11435
+, "Hyundai": 10964
+, "Seat": 10907
+, "Opel": 9499
+, "Fiat": 7623
+, "Toyota": 7170
+, "Kia": 6185
+, "Peugeot": 4746
+, "Dacia": 4286
+, "Citroën": 4158
+, "Mini": 4070
+, "Mitsubishi": 3485
+, "Mazda": 3166
+, "Nissan": 2953
+, "Tesla": 2846
+, "Volvo": 2672
+, "Jeep": 1999
+, "Suzuki": 1867
+, "Porsche": 1712
+, "Smart": 1379
+, "Honda": 1060
+, "Land Rover": 701
+, "Subaru": 434
+, "Jaguar": 298
+, "Lexus": 263
+, "Alfa Romeo": 262
+, "DS Automobiles": 244
+, "Polestar": 239
+, "SsangYong": 183
+, "Maserati": 120
+, "other": 1947
+});
+
+db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_08_xlsx.xlsx;?__blob=publicationFile&v=4",
+{ "Tesla|Model 3": 2824
+, "Renault|ZOE": 2210
+, "Hyundai|Kona Electric": 1397
+, "Volkswagen|e-Golf": 1382
+, "Smart|Fortwo electric drive": 885
+, "Volkswagen|e-up!": 691
+, "Audi|e-tron": 679
+, "BMW|i3 BEV": 606
+, "Opel|Corsa-e": 560
+, "Kia|Niro EV": 545
+, "Smart|Forfour electric drive": 490
+, "Mini|Cooper SE Electric": 471
+, "Volkswagen|ID.3": 388
+, "Škoda|Citigo-e": 339
+, "Nissan|Leaf": 322
+, "Hyundai|Ioniq Electric": 313
+, "Kia|Soul EV": 292
+, "Peugeot|e-208": 265
+, "Polestar|2": 239
+, "Mercedes-Benz|EQC": 239
+, "Porsche|Taycan": 216
+, "Seat|Mii Electric": 86
+, "Peugeot|e-2008": 65
+, "Volkswagen|other": 52
+, "Opel|Ampera-e": 37
+, "Jaguar|I-Pace": 37
+, "Nissan|e-NV200": 36
+, "Mercedes-Benz|EQV": 23
+, "Peugeot|iOn": 19
+, "Honda|e": 18
+, "Tesla|Model S": 11
+, "Citroën|C-Zero": 11
+, "Tesla|Model X": 10
+, "Volkswagen|E-Transporter": 8
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Mercedes-Benz|eVito": 3
+, "Volkswagen|e-Crafter": 2
+, "Volkswagen|e-Caddy": 1
+});
