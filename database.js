@@ -772,7 +772,7 @@ var db = {
 
   fillMonthCategoryGaps: function(categories) {
     var i = 0;
-    while (i < categories.length - 2) {
+    while (i < categories.length - 1) {
       var year = parseInt(categories[i].substr(0, 4));
       var month = parseInt(categories[i].substr(5, 2));
       month++;
