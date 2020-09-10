@@ -1180,3 +1180,19 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|Leaf": 84
 , "Hyundai|Kona Electric": 100
 });
+
+// No source found for  2020-07
+
+db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/ TODO: numbers per brand wanted",
+{ "other": 26545
+});
+
+db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/sweden-august-2020.html",
+{ "Tesla|Model 3": 235
+, "Kia|Niro EV": 358
+, "Audi|e-tron": 233
+, "Renault|ZOE": 117
+, "Hyundai|Kona Electric": 230
+, "Nissan|Leaf": 181
+, "Volkswagen|e-Golf": 65
+});
