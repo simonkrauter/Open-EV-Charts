@@ -1744,3 +1744,39 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Honda|e": 1
 });
+
+db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.rvo.nl/sites/default/files/2020/08/Statistics%20Electric%20Vehicles%20and%20Charging%20in%20The%20Netherlands%20up%20to%20and%20including%20July%202020.pdf TODO: numbers per brand wanted",
+{ "other": 34853
+});
+
+db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Kia|Niro EV": 640
+, "MG|ZS EV": 501
+, "Volkswagen|e-Golf": 488
+, "Hyundai|Kona Electric": 367
+, "Renault|ZOE": 241
+, "Nissan|Leaf": 216
+, "Škoda|Citigo-e": 191
+, "Mini|Cooper SE Electric": 191
+, "Audi|e-tron": 173
+, "Opel|Corsa-e": 138
+, "Seat|Mii Electric": 114
+, "Volkswagen|e-up!": 85
+, "Porsche|Taycan": 83
+, "Kia|Soul EV": 61
+, "Peugeot|e-208": 57
+, "Mercedes-Benz|EQC": 53
+, "Hyundai|Ioniq Electric": 49
+, "BMW|i3 BEV": 41
+, "Peugeot|e-2008": 36
+, "Opel|Ampera-e": 34
+, "Tesla|Model 3": 31
+, "Honda|e": 17
+, "Polestar|2": 15
+, "Smart|Forfour electric drive": 13
+, "Mercedes-Benz|eVito": 11
+, "Smart|Fortwo electric drive": 9
+, "Tesla|Model X": 6
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Nissan|e-NV200": 2
+});
