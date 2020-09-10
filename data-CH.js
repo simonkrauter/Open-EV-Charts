@@ -4,8 +4,7 @@
 
 db.addCountry("CH", "Switzerland");
 
-// https://www.auto.swiss/statistiken/pw-zulassungen-nach-marken
-// https://www.auto.swiss/statistiken/pw-zulassungen-nach-modellen
+// https://www.auto.swiss/#statistics
 
 db.insert(db.countries.CH, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_1.xlsx",
 { "Alfa Romeo": 280
@@ -1704,4 +1703,66 @@ db.insert(db.countries.CH, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mitsubishi|i-MiEV": 7
 , "Jaguar|I-Pace": 7
 , "Tesla|Model X": 5
+});
+
+db.insert(db.countries.CH, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/09/ModellePW2020.xlsx",
+{ "Mercedes-Benz": 1702
+, "BMW": 1385
+, "Škoda": 1175
+, "Volkswagen": 1091
+, "Audi": 1087
+, "Renault": 919
+, "Ford": 821
+, "Toyota": 695
+, "Peugeot": 669
+, "Seat": 614
+, "Tesla": 586
+, "Volvo": 488
+, "Hyundai": 480
+, "Dacia": 439
+, "Citroën": 415
+, "Fiat": 413
+, "Mazda": 354
+, "Opel": 299
+, "Mini": 299
+, "Kia": 269
+, "Jeep": 258
+, "Porsche": 235
+, "Mitsubishi": 235
+, "Nissan": 230
+, "Honda": 223
+, "Suzuki": 191
+, "Land Rover": 139
+, "Alfa Romeo": 129
+, "Subaru": 87
+, "DS Automobiles": 63
+, "Jaguar": 51
+, "Lexus": 40
+, "Smart": 37
+, "Chevrolet": 8
+, "Maserati": 7
+, "Polestar": 5
+, "SsangYong": 3
+, "Cadillac": 3
+, "Dodge": 2
+, "other": 114
+});
+
+db.insert(db.countries.CH, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/wp-content/uploads/2020/09/ModellePW2020.xlsx",
+{ "Tesla|Model 3": 541
+, "Renault|ZOE": 220
+, "Audi|e-tron": 83
+, "Porsche|Taycan": 38
+, "Tesla|Model X": 32
+, "Mercedes-Benz|EQC": 31
+, "Honda|e": 31
+, "BMW|i3 BEV": 31
+, "Nissan|Leaf": 26
+, "Jaguar|I-Pace": 19
+, "Tesla|Model S": 13
+, "Mazda|MX-30": 13
+, "Polestar|2": 5
+, "Mitsubishi|i-MiEV": 3
+, "Citroën|C-Zero": 3
+, "Peugeot|iOn": 1
 });
