@@ -1713,7 +1713,7 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
 { "Tesla|Model 3": 716
-, "Kia|Niro EV": 544
+, "Kia|Niro EV": 545
 , "Hyundai|Kona Electric": 328
 , "Volkswagen|e-Golf": 300
 , "MG|ZS EV": 156
@@ -1725,9 +1725,9 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 52
 , "Mini|Cooper SE Electric": 47
 , "Porsche|Taycan": 46
-, "Audi|e-tron": 35
+, "Audi|e-tron": 36
 , "Opel|Ampera-e": 33
-, "Peugeot|e-208": 28
+, "Peugeot|e-208": 30
 , "Hyundai|Ioniq Electric": 25
 , "Tesla|Model X": 24
 , "Tesla|Model S": 22
@@ -1736,6 +1736,7 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 17
 , "Nissan|e-NV200": 11
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Peugeot|Partner Electric": 4
 , "Smart|Fortwo electric drive": 3
 , "Polestar|2": 2
 , "Volkswagen|e-Crafter": 1
