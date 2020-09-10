@@ -1,4 +1,4 @@
-// // Data sets for car sales in Austria
+// Data sets for car sales in Austria
 
 "use strict";
 
@@ -721,4 +721,43 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mercedes-Benz|EQC": 40
 , "Peugeot|e-208": 33
 , "BMW|i3 BEV": 33
+});
+
+db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=061766",
+{ "Volkswagen": 3452
+, "Škoda": 1532
+, "Ford": 1346
+, "Mercedes-Benz": 1313
+, "Hyundai": 1309
+, "Seat": 1222
+, "BMW": 1141
+, "Audi": 1113
+, "Renault": 1032
+, "Opel": 912
+, "Fiat": 804
+, "Peugeot": 724
+, "Kia": 693
+, "Mazda": 557
+, "Toyota": 464
+, "Citroën": 439
+, "Dacia": 430
+, "Suzuki": 420
+, "Nissan": 278
+, "Mini": 241
+, "Tesla": 191
+, "other": 1293
+});
+
+db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=061766",
+{ "Tesla|Model 3": 191
+, "Hyundai|Kona Electric": 148
+, "Renault|ZOE": 141
+, "Kia|Niro EV": 76
+, "Opel|Corsa-e": 75
+, "Audi|e-tron": 68
+, "Peugeot|e-208": 49
+, "BMW|i3 BEV": 40
+, "Volkswagen|e-Golf": 33
+, "Škoda|Citigo-e": 28
+, "Mini|Cooper SE Electric": 28
 });
