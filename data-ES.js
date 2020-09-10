@@ -1772,7 +1772,9 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 5
 , "Hyundai|Ioniq Electric": 5
 , "Honda|e": 5
+, "Peugeot|Partner Electric": 2
 , "Citroën|Berlingo Electric": 2
 , "Peugeot|iOn": 1
 , "Jaguar|I-Pace": 1
 });
+
