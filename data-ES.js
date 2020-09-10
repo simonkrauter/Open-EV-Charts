@@ -1778,3 +1778,38 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
+db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://countryeconomy.com/business/car-registrations/spainf TODO: numbers per brand wanted",
+{ "other": 117929
+});
+
+db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Peugeot|e-208": 269
+, "Seat|Mii Electric": 175
+, "Renault|ZOE": 163
+, "Kia|Niro EV": 124
+, "Hyundai|Kona Electric": 110
+, "Mini|Cooper SE Electric": 94
+, "Peugeot|e-2008": 90
+, "Volkswagen|e-Golf": 72
+, "Smart|Fortwo electric drive": 56
+, "Opel|Corsa-e": 50
+, "Nissan|Leaf": 50
+, "BMW|i3 BEV": 41
+, "Hyundai|Ioniq Electric": 40
+, "Smart|Forfour electric drive": 33
+, "Audi|e-tron": 29
+, "Škoda|Citigo-e": 24
+, "Honda|e": 21
+, "Mercedes-Benz|EQC": 19
+, "Kia|Soul EV": 18
+, "Porsche|Taycan": 16
+, "DS Automobiles|DS 3 Crossback E-Tense": 12
+, "Nissan|e-NV200": 10
+, "Jaguar|I-Pace": 9
+, "Tesla|Model X": 5
+, "Tesla|Model 3": 3
+, "Volkswagen|e-up!": 2
+, "Peugeot|iOn": 2
+, "Tesla|Model S": 1
+, "Citroën|Berlingo Electric": 1
+});
