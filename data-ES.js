@@ -1778,8 +1778,8 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://countryeconomy.com/business/car-registrations/spain TODO: numbers per brand wanted",
-{ "other": 117929
+db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 117928
 });
 
 db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
@@ -1814,7 +1814,7 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://countryeconomy.com/business/car-registrations/spain TODO: numbers per brand wanted",
+db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
 { "other": 66925
 });
 
