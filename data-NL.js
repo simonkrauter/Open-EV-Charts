@@ -1745,8 +1745,8 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 });
 
-db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.rvo.nl/sites/default/files/2020/08/Statistics%20Electric%20Vehicles%20and%20Charging%20in%20The%20Netherlands%20up%20to%20and%20including%20July%202020.pdf TODO: numbers per brand wanted",
-{ "other": 34853
+db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 34885
 });
 
 db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
