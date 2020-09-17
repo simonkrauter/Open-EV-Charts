@@ -1183,8 +1183,8 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 
 // No source found for electric car sales 2020-07
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/ TODO: numbers per brand wanted",
-{ "other": 26545
+db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 25522
 });
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/sweden-august-2020.html",
