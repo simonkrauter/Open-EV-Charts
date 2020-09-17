@@ -1335,6 +1335,49 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 10
 });
 
+db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 178980
+});
+
+db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Site/Article/?article_id=7905, http://ev-sales.blogspot.com/2020/09/france-august-2020.html",
+{ "Renault|ZOE": 4018
+, "Peugeot|e-208": 1326
+, "Hyundai|Kona Electric": 780
+, "Kia|Niro EV": 609
+, "Nissan|Leaf": 722
+, "Peugeot|e-2008": 445
+, "Volkswagen|e-up!": 309
+, "DS Automobiles|DS 3 Crossback E-Tense": 288
+, "Mini|Cooper SE Electric": 209
+, "Tesla|Model 3": 119
+, "Renault|Kangoo Z.E.": 137
+, "Citroën|Berlingo Electric": 45
+, "Volkswagen|e-Crafter": 41
+, "Nissan|e-NV200": 38
+});
+
+db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 103631
+});
+
+db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Site/Article/?article_id=7905, http://ev-sales.blogspot.com/2020/09/france-august-2020.html",
+{ "Renault|ZOE": 1618
+, "Peugeot|e-208": 697
+, "Tesla|Model 3": 261
+, "Hyundai|Kona Electric": 520
+, "Kia|Niro EV": 620
+, "Nissan|Leaf": 235
+, "DS Automobiles|DS 3 Crossback E-Tense": 106
+, "Citroën|C-Zero": 10
+, "Mini|Cooper SE Electric": 209
+, "Peugeot|e-2008": 202
+, "Volkswagen|e-up!": 133
+, "Renault|Kangoo Z.E.": 138
+, "Citroën|Berlingo Electric": 46
+, "Volkswagen|e-Crafter": 42
+, "Nissan|e-NV200": 39
+});
+
 // Template:
 
 // db.insert(db.countries.FR, "", db.dsTypes.ElectricCarsByModel, "",
