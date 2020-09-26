@@ -684,3 +684,25 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Song Pro EV": 1198
 });
 
+db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5231768.html TODO: numbers per brand wanted",
+{ "other": 1755000
+});
+
+db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
+{ "Tesla|Model 3": 11811
+, "BYD|Qin Pro EV": 2437
+, "GAC|Aion S": 4071
+, "SAIC|Baojun E-Series EV": 3312
+, "Wuling|Hongguang Mini EV": 9150
+, "Nio|ES6": 2840
+, "Great Wall|Ora R1 EV": 3748
+, "Chery|eQ": 3307
+, "BAIC|EU-Series": 1831
+, "BYD|Yuan / S2 EV": 1015
+, "Weltmeister|EX5": 2042
+, "BYD|e2": 1557
+, "SAIC|MG eZS EV": 1927
+, "Buick|Velite 6": 304
+, "BYD|Song Pro EV": 849
+, "SAIC|Roewe Ei5 EV": 23
+});
