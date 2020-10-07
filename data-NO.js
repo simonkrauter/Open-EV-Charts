@@ -1622,40 +1622,41 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 });
 
 db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com, https://ofv.no/registreringsstatistikk",
-{ "Audi|e-tron": 755
+{ "Audi|e-tron": 756
 , "Mercedes-Benz|EQC": 595
-, "Polestar|2": 492
-, "Volkswagen|e-Golf": 476
-, "Hyundai|Kona Electric": 401
-, "MG|ZS EV": 279
+, "Polestar|2": 494
+, "Volkswagen|e-Golf": 489
+, "Hyundai|Kona Electric": 408
+, "MG|ZS EV": 281
 , "Nissan|Leaf": 270
+, "Peugeot|e-208": 268
 , "Tesla|Model 3": 264
-, "Peugeot|e-208": 260
-, "Peugeot|e-2008": 233
+, "Peugeot|e-2008": 239
+, "Porsche|Taycan": 222
 , "Renault|ZOE": 221
-, "Hyundai|Ioniq Electric": 205
-, "Kia|Niro EV": 150
-, "BMW|i3 BEV": 150
-, "Porsche|Taycan": 134
-, "Škoda|Citigo-e": 122
-, "Volkswagen|e-up!": 122
+, "Hyundai|Ioniq Electric": 208
+, "BMW|i3 BEV": 152
+, "Kia|Niro EV": 151
+, "Škoda|Citigo-e": 125
+, "Volkswagen|e-up!": 124
 , "Opel|Corsa-e": 75
-, "Nissan|e-NV200": 74
-, "Kia|Soul EV": 63
-, "Mini|Cooper SE Electric": 49
+, "Nissan|e-NV200": 75
+, "Kia|Soul EV": 64
+, "Mini|Cooper SE Electric": 51
 , "Tesla|Model X": 45
 , "Tesla|Model S": 39
-, "Jaguar|I-Pace": 34
-, "DS Automobiles|DS 3 Crossback E-Tense": 29
-, "Seat|Mii Electric": 25
-, "Honda|e": 16
+, "Jaguar|I-Pace": 35
+, "DS Automobiles|DS 3 Crossback E-Tense": 31
+, "Seat|Mii Electric": 26
+, "Honda|e": 17
 , "Opel|Ampera-e": 14
 , "Maxus|EV80": 8
-, "Mercedes-Benz|eVito": 4
-, "Smart|Fortwo electric drive": 3
+, "Peugeot|Partner Electric": 5
+, "Mercedes-Benz|eVito": 5
+, "Smart|Fortwo electric drive": 4
 , "Mitsubishi|i-MiEV": 3
+, "Volkswagen|e-Crafter": 2
 , "Mercedes-Benz|EQV": 2
-, "Volkswagen|e-Crafter": 1
 , "Volkswagen|ID.3": 1
 , "Citroën|C-Zero": 1
 , "Citroën|Berlingo Electric": 1
