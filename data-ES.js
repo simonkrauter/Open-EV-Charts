@@ -1850,3 +1850,44 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Honda|e": 1
 });
+
+db.insert(db.countries.ES, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 70729
+});
+
+db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Tesla|Model 3": 253
+, "Renault|ZOE": 251
+, "Hyundai|Kona Electric": 190
+, "Volkswagen|ID.3": 165
+, "Nissan|Leaf": 118
+, "Seat|Mii Electric": 116
+, "Kia|Niro EV": 115
+, "Volkswagen|e-Golf": 91
+, "Volkswagen|e-up!": 77
+, "Mini|Cooper SE Electric": 67
+, "Škoda|Citigo-e": 64
+, "Peugeot|e-2008": 64
+, "Peugeot|e-208": 57
+, "BMW|i3 BEV": 46
+, "Smart|Fortwo electric drive": 42
+, "Mazda|MX-30": 39
+, "Tesla|Model X": 37
+, "Opel|Corsa-e": 35
+, "Smart|Forfour electric drive": 34
+, "Hyundai|Ioniq Electric": 25
+, "Mercedes-Benz|EQC": 24
+, "Kia|Soul EV": 22
+, "Tesla|Model S": 20
+, "Nissan|e-NV200": 20
+, "Porsche|Taycan": 19
+, "Audi|e-tron": 19
+, "DS Automobiles|DS 3 Crossback E-Tense": 13
+, "Mercedes-Benz|EQV": 11
+, "Honda|e": 8
+, "Jaguar|I-Pace": 7
+, "Peugeot|iOn": 6
+, "Peugeot|Partner Electric": 5
+, "Cupra|el-Born": 1
+});
+
