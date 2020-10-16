@@ -4,7 +4,7 @@
 
 db.addCountry("FR", "France");
 
-// http://www.avere-france.org/Site/Category/?arborescence_id=143
+// http://www.avere-france.org/Site/Category/?arborescence_id=247
 
 db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jan (Unclear: Why is Tesla missing?)",
 { "Peugeot": 31526
@@ -1376,6 +1376,27 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 46
 , "Volkswagen|e-Crafter": 42
 , "Nissan|e-NV200": 39
+});
+
+db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 168289
+});
+
+db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/160250351194dd331f23f5dee3187185b9047eb9e5-barometre-mensuel-de-la-mobilite-electrique-septembre-2020(5).pdf, http://ev-sales.blogspot.com/2020/10/france-september-2020.html",
+{ "Renault|ZOE": 3007
+, "Peugeot|e-208": 1291
+, "Tesla|Model 3": 1083
+, "Volkswagen|ID.3": 616
+, "Kia|Niro EV": 583
+, "Hyundai|Kona Electric": 559
+, "Opel|Corsa-e": 400
+, "Peugeot|e-2008": 376
+, "Mini|Cooper SE Electric": 239
+, "Nissan|Leaf": 217
+, "Renault|Kangoo Z.E.": 251
+, "DS Automobiles|DS 3 Crossback E-Tense": 175
+, "Nissan|e-NV200": 61
+, "Citroën|C-Zero": 1
 });
 
 // Template:
