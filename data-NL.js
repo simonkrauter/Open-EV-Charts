@@ -1792,7 +1792,7 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|ZOE": 290
 , "Volkswagen|e-Golf": 288
 , "Hyundai|Kona Electric": 276
-, "Audi|e-tron": 265
+, "Audi|e-tron": 266
 , "Peugeot|e-208": 229
 , "Nissan|Leaf": 220
 , "Opel|Corsa-e": 193
@@ -1809,7 +1809,7 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 27
 , "Polestar|2": 16
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
-, "Tesla|Model X": 5
+, "Tesla|Model X": 6
 , "Mercedes-Benz|eVito": 4
 , "Smart|Fortwo electric drive": 3
 , "Honda|e": 3
