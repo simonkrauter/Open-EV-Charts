@@ -1826,10 +1826,11 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 77
 , "Kia|Niro EV": 68
 , "Mazda|MX-30": 58
+, "Volkswagen|e-up!": 49
 , "Volkswagen|e-Golf": 49
 , "Mini|Cooper SE Electric": 48
+, "Peugeot|e-2008": 40
 , "Hyundai|Ioniq Electric": 36
-, "Peugeot|e-2008": 34
 , "Nissan|Leaf": 33
 , "Škoda|Citigo-e": 31
 , "Smart|Fortwo electric drive": 28
@@ -1846,7 +1847,6 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|iOn": 4
 , "Peugeot|Partner Electric": 2
-, "Volkswagen|e-up!": 1
 , "Tesla|Model X": 1
 , "Honda|e": 1
 });
