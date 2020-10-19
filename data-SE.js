@@ -1203,6 +1203,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/10/sweden-september-2020.html",
 { "Tesla|Model 3": 754
+, "Volkswagen|ID.3": 460
 , "Kia|Niro EV": 233
 , "Renault|ZOE": 211
 , "Audi|e-tron": 130
