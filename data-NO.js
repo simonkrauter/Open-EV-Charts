@@ -1685,31 +1685,31 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 188
 });
 
-db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com, https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
 { "Volkswagen|ID.3": 1989
 , "Tesla|Model 3": 1116
 , "Polestar|2": 937
-, "MG|ZS EV": 666
+, "MG|ZS EV": 672
 , "Audi|e-tron": 542
 , "Hyundai|Kona Electric": 484
 , "Nissan|Leaf": 473
-, "BMW|i3 BEV": 321
+, "BMW|i3 BEV": 322
 , "Volkswagen|e-Golf": 290
+, "Mercedes-Benz|EQC": 286
 , "Hyundai|Ioniq Electric": 282
-, "Mercedes-Benz|EQC": 280
 , "Peugeot|e-2008": 278
 , "Škoda|Citigo-e": 249
-, "Kia|Niro EV": 221
+, "Kia|Niro EV": 223
 , "Peugeot|e-208": 216
-, "Renault|ZOE": 185
+, "Renault|ZOE": 186
 , "Tesla|Model X": 181
 , "Tesla|Model S": 142
-, "Volkswagen|e-up!": 137
+, "Volkswagen|e-up!": 138
 , "Kia|Soul EV": 126
-, "Mazda|MX-30": 97
+, "Mazda|MX-30": 98
 , "Nissan|e-NV200": 91
+, "Porsche|Taycan": 82
 , "Opel|Corsa-e": 79
-, "Porsche|Taycan": 74
 , "Seat|Mii Electric": 67
 , "Honda|e": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 23
