@@ -1725,6 +1725,66 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 1
 });
 
+ db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Volkswagen": 2889
+, "Toyota": 1576
+, "BMW": 734
+, "Hyundai": 703
+, "Mercedes-Benz": 654
+, "Nissan": 639
+, "Volvo": 600
+, "Audi": 587
+, "MG": 586
+, "Peugeot": 544
+, "Mazda": 512
+, "Kia": 468
+, "Škoda": 452
+, "Polestar": 352
+, "Suzuki": 254
+, "Ford": 221
+, "Renault": 203
+, "Mitsubishi": 128
+, "Opel": 118
+, "Tesla": 95
+});
+
+db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Volkswagen|ID.3": 2469
+, "MG|ZS EV": 585
+, "Nissan|Leaf": 578
+, "Hyundai|Kona Electric": 517
+, "Audi|e-tron": 507
+, "BMW|i3 BEV": 371
+, "Polestar|2": 352
+, "Mercedes-Benz|EQC": 329
+, "Mazda|MX-30": 316
+, "Peugeot|e-2008": 244
+, "Kia|Niro EV": 242
+, "Škoda|Citigo-e": 214
+, "Kia|Soul EV": 164
+, "Hyundai|Ioniq Electric": 160
+, "Peugeot|e-208": 139
+, "Renault|ZOE": 119
+, "Opel|Corsa-e": 80
+, "Tesla|Model 3": 74
+, "Mini|Cooper SE Electric": 65
+, "Porsche|Taycan": 51
+, "Volkswagen|e-Golf": 46
+, "Nissan|e-NV200": 45
+, "Volkswagen|e-up!": 41
+, "Seat|Mii Electric": 37
+, "Jaguar|I-Pace": 29
+, "Maxus|EV80": 25
+, "Honda|e": 25
+, "DS Automobiles|DS 3 Crossback E-Tense": 21
+, "Tesla|Model X": 18
+, "Volkswagen|e-Crafter": 9
+, "Tesla|Model S": 3
+, "Mercedes-Benz|eVito": 3
+, "Mitsubishi|i-MiEV": 2
+, "Smart|Fortwo electric drive": 1
+, "Opel|Ampera-e": 1
+});
 
 // Template:
 
