@@ -1399,28 +1399,21 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|C-Zero": 1
 });
 
-// Template:
+db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 171050
+});
 
-// db.insert(db.countries.FR, "", db.dsTypes.ElectricCarsByModel, "",
-// { "Renault|ZOE":
-// , "Peugeot|e-208":
-// , "DS Automobiles|DS 3 Crossback E-Tense":
-// , "Kia|Niro EV":
-// , "Citroën|C-Zero":
-// , "Nissan|Leaf":
-// , "Hyundai|Kona Electric":
-// , "BMW|i3 BEV":
-// , "Škoda|Citigo-e":
-// , "Tesla|Model 3":
-// , "Nissan|e-NV200":
-// , "Citroën|Berlingo Electric":
-// , "Peugeot|Partner Electric":
-// , "Smart|Fortwo electric drive":
-// , "Volkswagen|e-Golf":
-// , "Hyundai|Ioniq Electric":
-// , "Audi|e-tron":
-// , "Tesla|Model S":
-// , "Tesla|Model X":
-// , "Jaguar|I-Pace":
-// , "Peugeot|iOn":
-// });
+db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/160502708592eb5ffee6ae2fec3ad71c777531578f-barometre-mensuel-de-la-mobilite-electrique-octobre-2020(8).pdf",
+{ "Renault|ZOE": 2609
+, "Peugeot|e-208": 2059
+, "Renault|Twingo Z.E.": 678
+, "Kia|Niro EV": 678
+, "Hyundai|Kona Electric": 627
+, "Volkswagen|ID.3": 524
+, "Peugeot|e-2008": 460
+, "Mini|Cooper SE Electric": 425
+, "Opel|Corsa-e": 316
+, "Nissan|Leaf": 181
+, "Volkswagen|e-Crafter": 52
+, "Nissan|e-NV200": 47
+});
