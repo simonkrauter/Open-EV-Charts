@@ -1211,3 +1211,19 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nissan|Leaf": 172
 , "Polestar|2": 582
 });
+
+db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 28147
+});
+
+db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/search/label/Sweden",
+{ "Tesla|Model 3": 34
+, "Kia|Niro EV": 235
+, "Renault|ZOE": 165
+, "Audi|e-tron": 132
+, "Nissan|Leaf": 189
+, "Hyundai|Kona Electric": 125
+, "Polestar|2": 274
+, "Volkswagen|e-Golf": 166
+});
+
