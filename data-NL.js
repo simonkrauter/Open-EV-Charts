@@ -1824,19 +1824,19 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Tesla|Model 3": 978
-, "Kia|Niro EV": 746
+{ "Tesla|Model 3": 979
+, "Kia|Niro EV": 748
 , "Volkswagen|ID.3": 610
 , "Polestar|2": 478
-, "Hyundai|Kona Electric": 395
+, "Hyundai|Kona Electric": 397
 , "Opel|Corsa-e": 313
 , "Škoda|Citigo-e": 288
-, "Peugeot|e-208": 226
+, "Peugeot|e-208": 229
 , "Mini|Cooper SE Electric": 222
 , "BMW|i3 BEV": 220
 , "Renault|ZOE": 215
 , "MG|ZS EV": 214
-, "Audi|e-tron": 202
+, "Audi|e-tron": 203
 , "Mazda|MX-30": 176
 , "Volkswagen|e-Golf": 144
 , "Nissan|Leaf": 126
@@ -1851,6 +1851,13 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 23
 , "Volkswagen|e-up!": 20
 , "Honda|e": 13
+, "Volkswagen|e-Crafter": 12
+, "Smart|Fortwo electric drive": 8
+, "Smart|Forfour electric drive": 5
+, "Mercedes-Benz|EQV": 2
+, "Nissan|e-NV200": 1
+, "Mercedes-Benz|eVito": 1
+});
 , "Volkswagen|e-Crafter": 10
 , "Smart|Fortwo electric drive": 8
 , "Smart|Forfour electric drive": 5
