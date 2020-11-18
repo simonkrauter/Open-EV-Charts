@@ -1858,10 +1858,46 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
 });
-, "Volkswagen|e-Crafter": 10
-, "Smart|Fortwo electric drive": 8
-, "Smart|Forfour electric drive": 5
-, "Mercedes-Benz|EQV": 2
-, "Nissan|e-NV200": 1
-, "Mercedes-Benz|eVito": 1
+
+db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 31988
 });
+
+db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Volkswagen|ID.3": 2789
+, "Kia|Niro EV": 746
+, "Polestar|2": 468
+, "Hyundai|Kona Electric": 392
+, "Mazda|MX-30": 355
+, "Opel|Corsa-e": 305
+, "Peugeot|e-208": 291
+, "Peugeot|e-2008": 255
+, "Audi|e-tron": 238
+, "MG|ZS EV": 201
+, "Škoda|Citigo-e": 184
+, "Renault|ZOE": 161
+, "Mini|Cooper SE Electric": 134
+, "Nissan|Leaf": 101
+, "BMW|i3 BEV": 87
+, "Seat|Mii Electric": 78
+, "Mercedes-Benz|EQC": 69
+, "Volkswagen|e-Golf": 61
+, "Kia|Soul EV": 48
+, "Hyundai|Ioniq Electric": 46
+, "DS Automobiles|DS 3 Crossback E-Tense": 40
+, "Tesla|Model 3": 35
+, "Smart|Forfour electric drive": 25
+, "Porsche|Taycan": 25
+, "Jaguar|I-Pace": 16
+, "Honda|e": 14
+, "Volkswagen|e-up!": 13
+, "Volkswagen|e-Crafter": 10
+, "Tesla|Model X": 10
+, "Smart|Fortwo electric drive": 8
+, "Nissan|e-NV200": 4
+, "Mercedes-Benz|eVito": 3
+, "Mercedes-Benz|EQV": 2
+, "Renault|Twingo Z.E.": 1
+, "Maxus|EV80": 1
+});
+
