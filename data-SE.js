@@ -1219,6 +1219,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/search/label/Sweden",
 { "Tesla|Model 3": 34
 , "Kia|Niro EV": 235
+, "Volkswagen|ID.3": 212
 , "Renault|ZOE": 165
 , "Audi|e-tron": 132
 , "Nissan|Leaf": 189
@@ -1226,4 +1227,3 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Polestar|2": 274
 , "Volkswagen|e-Golf": 166
 });
-
