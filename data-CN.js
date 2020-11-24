@@ -706,3 +706,26 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Song Pro EV": 849
 , "SAIC|Roewe Ei5 EV": 23
 });
+
+db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5232133.html TODO: numbers per brand wanted",
+{ "other": 2088000
+});
+
+db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html",
+{ "Wuling|Hongguang Mini EV": 14495
+, "Tesla|Model 3": 11329
+, "Great Wall|Ora R1 EV": 5141
+, "GAC|Aion S": 4548
+, "SAIC|Baojun E-Series EV": 4236
+, "Chery|eQ": 3823
+, "BYD|Han EV": 3624
+, "BYD|Qin Pro EV": 3474
+, "Nio|ES6": 3226
+, "SAIC|MG eZS EV": 2793
+, "Xiaopeng|Xpeng P7": 2573
+, "BAIC|EU-Series": 2195
+, "GAC|Aion V": 2183
+, "BYD|e2": 2113
+, "Changan|Eado EV": 2107
+, "Weltmeister|EX5": 2035
+});
