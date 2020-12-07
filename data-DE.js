@@ -2402,3 +2402,91 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Zafira-e": 4
 , "Peugeot|iOn": 2
 });
+
+db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx;jsessionid=6A049F3064E9E7CA16087B0B6DE251E7.live11294?__blob=publicationFile&v=3",
+{ "Volkswagen": 51087
+, "Mercedes-Benz": 32869
+, "BMW": 24532
+, "Ford": 19669
+, "Audi": 19149
+, "Opel": 18338
+, "Škoda": 17094
+, "Renault": 13775
+, "Hyundai": 9936
+, "Seat": 9291
+, "Toyota": 8498
+, "Fiat": 7577
+, "Mazda": 5928
+, "Peugeot": 5828
+, "Kia": 5600
+, "Dacia": 4702
+, "Volvo": 4615
+, "Citroën": 4487
+, "Mini": 3634
+, "Smart": 3018
+, "Nissan": 2975
+, "Mitsubishi": 2910
+, "Porsche": 2759
+, "Suzuki": 2316
+, "Tesla": 1680
+, "Jeep": 1449
+, "Land Rover": 1254
+, "Honda": 1043
+, "Jaguar": 483
+, "Subaru": 357
+, "Lexus": 332
+, "Alfa Romeo": 324
+, "DS Automobiles": 268
+, "SsangYong": 116
+, "Polestar": 114
+, "Maserati": 54
+, "Cadillac": 15
+, "other": 2074
+});
+
+db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx;jsessionid=6A049F3064E9E7CA16087B0B6DE251E7.live11294?__blob=publicationFile&v=3",
+{ "Renault|ZOE": 4287
+, "Hyundai|Kona Electric": 2471
+, "Volkswagen|ID.3": 2439
+, "Smart|Fortwo electric drive": 2386
+, "Volkswagen|e-Golf": 1941
+, "Volkswagen|e-up!": 1666
+, "Tesla|Model 3": 1617
+, "Opel|Corsa-e": 1465
+, "BMW|i3 BEV": 1299
+, "Mazda|MX-30": 1211
+, "Audi|e-tron": 871
+, "Smart|Forfour electric drive": 632
+, "Mini|Cooper SE Electric": 597
+, "Škoda|Citigo-e": 592
+, "Peugeot|e-208": 571
+, "Porsche|Taycan": 565
+, "Seat|Mii Electric": 538
+, "Nissan|Leaf": 508
+, "Mercedes-Benz|EQC": 505
+, "Peugeot|e-2008": 411
+, "Kia|Niro EV": 328
+, "Jaguar|I-Pace": 263
+, "Honda|e": 252
+, "Mercedes-Benz|EQV": 199
+, "Renault|Twingo Z.E.": 174
+, "Fiat|500e": 153
+, "Kia|Soul EV": 125
+, "Polestar|2": 112
+, "Hyundai|Ioniq Electric": 86
+, "Opel|Zafira-e": 81
+, "Audi|other": 42
+, "Mercedes-Benz|EQA": 33
+, "Tesla|Model S": 32
+, "Tesla|Model X": 31
+, "DS Automobiles|DS 3 Crossback E-Tense": 29
+, "BMW|iX3": 26
+, "Nissan|e-NV200": 25
+, "Volkswagen|ID.4": 22
+, "Citroën|C-Zero": 14
+, "Volkswagen|e-Caddy": 10
+, "Opel|Ampera-e": 10
+, "Mercedes-Benz|eVito": 10
+, "Volkswagen|E-Transporter": 8
+, "Peugeot|iOn": 5
+});
