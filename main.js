@@ -24,6 +24,7 @@ var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
 var activeShowAllOptionsParamName;
+var sortByName;
 
 setGlobalChartOptions();
 navigate();
@@ -36,6 +37,7 @@ function navigate(retainShowAllOptionsParamName) {
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
+  sortByName = false
 
   renderPage();
   logVisit();
@@ -254,7 +256,7 @@ function renderChart(chartIndex) {
   if (!isSingleChart)
     chartConfig.view = params.view.defaultOption;
 
-  const chartData = db.queryChartData(chartConfig);
+  const chartData = db.queryChartData(chartConfig, sortByName);
 
   const chartDiv = document.createElement("DIV");
   dynamicContent.appendChild(chartDiv);
@@ -570,7 +572,7 @@ function addPngExportButton(parent) {
   exportButton.title = "Export chart";
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
-    const chartData = db.queryChartData(chartConfigs[0]);
+    const chartData = db.queryChartData(chartConfigs[0], sortByName);
     const chartDiv = document.createElement("DIV");
     parent.appendChild(chartDiv);
 
@@ -672,6 +674,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   table.appendChild(row);
   var cell = document.createElement("TH");
   cell.appendChild(document.createTextNode(chartData.categoryTitle));
+  addThSortClickEvent(chartConfig, cell, 0);
   row.appendChild(cell);
   for (const i in chartData.series) {
     const series = chartData.series[i];
@@ -680,6 +683,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
     if (showHorizontalBars) {
       cell.colSpan = 2;
     }
+    addThSortClickEvent(chartConfig, cell, i + 1);
     row.appendChild(cell);
   }
 
@@ -697,7 +701,6 @@ function renderTable(chartConfig, chartDiv, chartData) {
       const val = series.data[i];
       if (val == null && val !== 0) {
         cell.appendChild(document.createTextNode("NA"));
-        // cell.style.textAlign = "center";
         cell.classList.add("NA");
       } else {
         cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
@@ -715,6 +718,17 @@ function renderTable(chartConfig, chartDiv, chartData) {
       barDiv.style.width = width + "px";
       row.appendChild(cell);
     }
+  }
+}
+
+function addThSortClickEvent(chartConfig, cell, columnIndex) {
+  if (columnIndex < 2 && [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty)) {
+    cell.addEventListener("click", function(event) {
+      event.preventDefault();
+      sortByName = columnIndex == 0;
+      renderPage();
+    });
+    cell.style.cursor = "pointer";
   }
 }
 

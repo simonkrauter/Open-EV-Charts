@@ -735,13 +735,13 @@ var db = {
     };
   },
 
-  getCategoriesFromDataSets: function(chartConfig, datasets) {
+  getCategoriesFromDataSets: function(chartConfig, datasets, sortByName = false) {
     // Sort categories and limit count
     var categories = datasets.categories;
     var seriesRows = datasets.seriesRows;
     var result = [];
     const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
-    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) || sortByName) {
       // Sort by name
       categories.sort();
     } else {
@@ -804,7 +804,7 @@ var db = {
     }
   },
 
-  queryChartData: function(chartConfig) {
+  queryChartData: function(chartConfig, sortByName = false) {
     // Returns the data for a spedific view
     var result = {};
     result.series = [];
@@ -813,12 +813,12 @@ var db = {
     if (chartConfig.metric == this.metrics.salesAll) {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
     } else if (chartConfig.metric == this.metrics.salesElectric) {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
     } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
@@ -859,7 +859,7 @@ var db = {
           }
         }
       }
-      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows});
+      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
     } else if (chartConfig.metric == this.metrics.shareElectric) {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       var chartConfigForSum = this.cloneObject(chartConfig);
@@ -868,7 +868,7 @@ var db = {
         chartConfigForSum.model = this.modelOptions.all;
       var datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets);
+      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
       var sums = {};
       const isSumPerSeries = [this.xProperties.model, this.xProperties.country].includes(chartConfig.xProperty) || (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all);
@@ -1000,4 +1000,3 @@ var db = {
     return result;
   }
 }
-
