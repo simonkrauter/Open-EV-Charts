@@ -965,7 +965,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && chartConfig.brand != this.brandOptions.combine && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
+    if (Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && (chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.combine) && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
