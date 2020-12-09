@@ -1749,26 +1749,26 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Volkswagen|ID.3": 2469
-, "MG|ZS EV": 585
-, "Nissan|Leaf": 578
-, "Hyundai|Kona Electric": 517
-, "Audi|e-tron": 507
-, "BMW|i3 BEV": 371
+{ "Volkswagen|ID.3": 2475
+, "MG|ZS EV": 586
+, "Nissan|Leaf": 579
+, "Hyundai|Kona Electric": 519
+, "Audi|e-tron": 513
+, "BMW|i3 BEV": 373
 , "Polestar|2": 352
-, "Mercedes-Benz|EQC": 329
-, "Mazda|MX-30": 316
-, "Peugeot|e-2008": 244
-, "Kia|Niro EV": 242
+, "Mercedes-Benz|EQC": 332
+, "Mazda|MX-30": 317
+, "Peugeot|e-2008": 246
+, "Kia|Niro EV": 244
 , "Škoda|Citigo-e": 214
 , "Kia|Soul EV": 164
 , "Hyundai|Ioniq Electric": 160
-, "Peugeot|e-208": 139
+, "Peugeot|e-208": 141
 , "Renault|ZOE": 119
-, "Opel|Corsa-e": 80
+, "Opel|Corsa-e": 81
 , "Tesla|Model 3": 74
-, "Mini|Cooper SE Electric": 65
-, "Porsche|Taycan": 51
+, "Mini|Cooper SE Electric": 66
+, "Porsche|Taycan": 62
 , "Volkswagen|e-Golf": 46
 , "Nissan|e-NV200": 45
 , "Volkswagen|e-up!": 41
