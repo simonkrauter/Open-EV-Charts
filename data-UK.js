@@ -547,7 +547,7 @@ db.insert(db.countries.UK, "q2020-1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 7270
 , "Fiat": 6287
 , "Suzuki": 6257
-, "Tesla": 5700
+, "Tesla": 5697
 , "MG": 5487
 , "Dacia": 5046
 , "Lexus": 4488
