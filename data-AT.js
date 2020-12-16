@@ -857,7 +857,8 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Volvo": 299
 , "Suzuki": 292
 , "Mini": 205
-, "other": 1331
+, "Tesla": 191
+, "other": 1140
 });
 
 db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
