@@ -1930,3 +1930,45 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 2
 , "Citroën|Berlingo Electric": 2
 });
+
+db.insert(db.countries.ES, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
+{ "other":  75708
+});
+
+db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+{ "Hyundai|Kona Electric": 277
+, "Renault|ZOE": 196
+, "Volkswagen|ID.3": 132
+, "Kia|Niro EV": 106
+, "Peugeot|e-208": 101
+, "Mazda|MX-30": 98
+, "Seat|Mii Electric": 96
+, "Volkswagen|e-Golf": 92
+, "Peugeot|e-2008": 89
+, "Nissan|Leaf": 84
+, "Mercedes-Benz|EQC": 81
+, "Mini|Cooper SE Electric": 76
+, "Volkswagen|e-up!": 59
+, "Smart|Fortwo electric drive": 52
+, "Tesla|Model 3": 43
+, "BMW|i3 BEV": 33
+, "Škoda|Citigo-e": 30
+, "Smart|Forfour electric drive": 29
+, "Opel|Corsa-e": 29
+, "Porsche|Taycan": 27
+, "Mercedes-Benz|EQV": 25
+, "Nissan|e-NV200": 23
+, "DS Automobiles|DS 3 Crossback E-Tense": 18
+, "Jaguar|I-Pace": 16
+, "Hyundai|Ioniq Electric": 16
+, "Kia|Soul EV": 15
+, "Audi|e-tron": 15
+, "Honda|e": 9
+, "Citroën|ë-C4": 9
+, "Tesla|Model S": 8
+, "Tesla|Model X": 4
+, "Cupra|el-Born": 4
+, "Fiat|500e": 2
+, "Renault|Twingo Z.E.": 1
+, "Citroën|Berlingo Electric": 1
+});
