@@ -1865,12 +1865,12 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
 { "Volkswagen|ID.3": 2789
-, "Kia|Niro EV": 746
+, "Kia|Niro EV": 749
 , "Polestar|2": 468
-, "Hyundai|Kona Electric": 392
+, "Hyundai|Kona Electric": 401
 , "Mazda|MX-30": 355
 , "Opel|Corsa-e": 305
-, "Peugeot|e-208": 291
+, "Peugeot|e-208": 292
 , "Peugeot|e-2008": 255
 , "Audi|e-tron": 238
 , "MG|ZS EV": 201
@@ -1900,4 +1900,3 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 1
 , "Maxus|EV80": 1
 });
-
