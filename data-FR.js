@@ -1417,3 +1417,23 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Crafter": 52
 , "Nissan|e-NV200": 47
 });
+
+db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 126047
+});
+
+db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/16076131731061bf930edb9ea8a6a642dae6cff744-barometre-des-immatriculations-novembre-2020(1).pdf, http://ev-sales.blogspot.com/2020/12/france-november-2020.html",
+{ "Renault|ZOE": 3029
+, "Peugeot|e-208": 1325
+, "Volkswagen|e-up!": 520
+, "Tesla|Model 3": 501
+, "Volkswagen|ID.3": 497
+, "Kia|Niro EV": 478
+, "Mini|Cooper SE Electric": 405
+, "Renault|Kangoo Z.E.": 360
+, "Hyundai|Kona Electric": 342
+, "Peugeot|e-2008": 342
+, "Fiat|500e": 307
+, "Nissan|e-NV200": 96
+, "Volkswagen|e-Crafter": 59
+});
