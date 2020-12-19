@@ -1905,17 +1905,18 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 33499
 });
 
-db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Volkswagen|ID.3": 1489
-, "Kia|Niro EV": 765
-, "Hyundai|Kona Electric": 518
+db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com, http://ev-sales.blogspot.com/2020/12/netherlands-november-2020.html",
+{ "Volkswagen|ID.3": 1499
+, "Volvo|XC40 Recharge": 825
+, "Kia|Niro EV": 767
+, "Hyundai|Kona Electric": 529
 , "Polestar|2": 500
 , "Audi|e-tron": 382
 , "Renault|ZOE": 270
 , "Peugeot|e-2008": 263
 , "Opel|Corsa-e": 258
 , "Škoda|Citigo-e": 232
-, "Mazda|MX-30": 211
+, "Mazda|MX-30": 212
 , "Peugeot|e-208": 201
 , "MG|ZS EV": 175
 , "Seat|Mii Electric": 173
