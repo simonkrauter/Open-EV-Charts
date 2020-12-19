@@ -416,7 +416,7 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model 3": 189
 , "Hyundai|Kona Electric": 174
 , "Opel|Corsa-e": 162
-, "Smart|Fortwo electic drive": 158
+, "Smart|Fortwo electric drive": 158
 , "Peugeot|e-208": 91
 , "Nissan|Leaf": 60
 , "Mini|Cooper SE Electric": 60
@@ -468,7 +468,7 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?attachment_id=3090",
 { "Tesla|Model 3": 880
 , "Renault|ZOE": 676
-, "Smart|Fortwo electic drive": 461
+, "Smart|Fortwo electric drive": 461
 , "Nissan|Leaf": 297
 , "Volkswagen|ID.3": 270
 , "Hyundai|Kona Electric": 168
@@ -518,7 +518,7 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?attachment_id=3125",
-{ "Smart|Fortwo electic drive": 571
+{ "Smart|Fortwo electric drive": 571
 , "Renault|ZOE": 304
 , "Hyundai|Kona Electric": 258
 , "Volkswagen|ID.3": 234

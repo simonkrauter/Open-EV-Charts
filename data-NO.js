@@ -1725,7 +1725,7 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 1
 });
 
- db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
 { "Volkswagen": 2889
 , "Toyota": 1576
 , "BMW": 734
