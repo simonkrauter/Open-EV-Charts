@@ -241,7 +241,7 @@ var db = {
     param.options[this.xProperties.year] = "Per Year";
     if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
       param.options[this.xProperties.country] = "Per Country";
-    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectric)
       param.options[this.xProperties.brand] = "Per Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       param.options[this.xProperties.model] = "Per Model";
