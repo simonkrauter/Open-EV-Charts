@@ -679,7 +679,12 @@ function renderTable(chartConfig, chartDiv, chartData) {
   for (const i in chartData.series) {
     const series = chartData.series[i];
     const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode(series.name));
+    var text = series.name;
+    if (text == "Value") {
+      const params = db.getChartParams(chartConfig);
+      text = params.metric.options[chartConfig.metric];
+    }
+    cell.appendChild(document.createTextNode(text));
     if (showHorizontalBars) {
       cell.colSpan = 2;
     }
