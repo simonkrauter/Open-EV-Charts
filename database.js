@@ -910,18 +910,20 @@ var db = {
       }
     }
 
-    if (chartConfig.xProperty == this.xProperties.country)
+    if (chartConfig.xProperty == this.xProperties.country) {
       result.categoryTitle = "Country";
-    else if (chartConfig.xProperty == this.xProperties.model)
+    } else if (chartConfig.xProperty == this.xProperties.model) {
       result.categoryTitle = "Model";
-    else if (chartConfig.xProperty == this.xProperties.brand)
+    } else if (chartConfig.xProperty == this.xProperties.brand) {
       result.categoryTitle = "Brand";
-    else {
-      result.categoryTitle = "Time Span";
-      if (chartConfig.xProperty == this.xProperties.month)
-        this.fillMonthCategoryGaps(result.categories);
-      else if (chartConfig.xProperty == this.xProperties.quarter)
-        this.fillQuarterCategoryGaps(result.categories);
+    } else if (chartConfig.xProperty == this.xProperties.month) {
+      result.categoryTitle = "Month";
+      this.fillMonthCategoryGaps(result.categories);
+    } else if (chartConfig.xProperty == this.xProperties.quarter) {
+      result.categoryTitle = "Quarter";
+      this.fillQuarterCategoryGaps(result.categories);
+    } else if (chartConfig.xProperty == this.xProperties.year) {
+      result.categoryTitle = "Year";
     }
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
