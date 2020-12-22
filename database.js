@@ -197,8 +197,8 @@ var db = {
     param.options[this.metrics.salesElectric] = "Absolute EV Sales";
     param.options[this.metrics.ratioElectric] = "Relative EV Sales";
     param.options[this.metrics.shareElectric] = "EV Market Split";
-    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
     param.options[this.metrics.salesAll] = "All Cars Sales";
+    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
     param.options[this.metrics.shareAll] = "All Cars Market Split";
     if (chartConfig == null || chartConfig.country != this.countryOptions.all)
       param.options[this.metrics.all] = "All Metrics";
