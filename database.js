@@ -193,19 +193,21 @@ var db = {
     var param = {};
     param.name = "metric";
     param.options = {};
+    param.options[this.metrics.salesElectric] = "Absolute EV Sales";
+    param.options[this.metrics.ratioElectric] = "Relative EV Sales";
+    param.options[this.metrics.shareElectric] = "EV Market Split";
+    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
+    param.options[this.metrics.salesAll] = "All Cars Sales";
     if (chartConfig == null || chartConfig.country != this.countryOptions.all)
       param.options[this.metrics.all] = "All Metrics";
-    param.options[this.metrics.salesAll] = "All Cars Sales";
-    param.options[this.metrics.salesElectric] = "EV Sales";
-    param.options[this.metrics.ratioElectric] = "EV Ratio";
-    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
-    param.options[this.metrics.shareElectric] = "EV Market Share";
     param.unfoldKey = this.metrics.all;
     param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
     param.showInTitle = true;
     param.showAsFilter = true;
     param.allowMultiSelection = true;
+    param.maxOptionsToShowAsButton = 4;
+    param.moreButtonText = "More Metrics";
     result[param.name] = param;
 
     // country
