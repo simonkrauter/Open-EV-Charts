@@ -216,7 +216,8 @@ var db = {
     var param = {};
     param.name = "country";
     param.options = {};
-    param.options[this.countryOptions.all] = "All Countries";
+    if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty != this.xProperties.brand))
+      param.options[this.countryOptions.all] = "All Countries";
     if (chartConfig == null || (chartConfig.country == this.countryOptions.all || chartConfig.country == null || chartConfig.country.split(",").length > 1))
       param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in this.countries)
@@ -471,6 +472,9 @@ var db = {
       chartConfig.metric = params.metric.defaultOption;
     if (chartConfig.metric == this.metrics.ratioElectricWithinBrand)
       chartConfig.model = this.modelOptions.combine;
+
+    if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
+      chartConfig.country = Object.keys(this.countries)[0];
 
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
       chartConfig.xProperty = params.xProperty.defaultOption;
