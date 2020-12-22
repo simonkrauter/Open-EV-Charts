@@ -132,6 +132,7 @@ var db = {
   , "ratioElectric": "electric-ratio"
   , "ratioElectricWithinBrand": "brand-electric-ratio"
   , "shareElectric": "electric-share"
+  , "shareAll": "all-share"
   },
 
   xProperties:
@@ -198,6 +199,7 @@ var db = {
     param.options[this.metrics.shareElectric] = "EV Market Split";
     param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
     param.options[this.metrics.salesAll] = "All Cars Sales";
+    param.options[this.metrics.shareAll] = "All Cars Market Split";
     if (chartConfig == null || chartConfig.country != this.countryOptions.all)
       param.options[this.metrics.all] = "All Metrics";
     param.unfoldKey = this.metrics.all;
@@ -350,7 +352,7 @@ var db = {
     }
     param.defaultOption = this.modelOptions.combine;
     param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
-    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && ![this.metrics.salesAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
+    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.model && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
     result[param.name] = param;
 
     // max series
@@ -862,13 +864,20 @@ var db = {
         }
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
-    } else if (chartConfig.metric == this.metrics.shareElectric) {
-      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
+    } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
       chartConfigForSum.brand = this.brandOptions.all;
       if (chartConfig.xProperty == this.xProperties.model)
         chartConfigForSum.model = this.modelOptions.all;
-      var datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+      var datasets;
+      var datasetsForSum;
+      if (chartConfig.metric == this.metrics.shareElectric) {
+        datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
+        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+      } else {
+        datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
+        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
+      }
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
