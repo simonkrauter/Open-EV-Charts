@@ -2403,7 +2403,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 2
 });
 
-db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx;jsessionid=6A049F3064E9E7CA16087B0B6DE251E7.live11294?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=3",
 { "Volkswagen": 51087
 , "Mercedes-Benz": 32869
 , "BMW": 24532
@@ -2444,7 +2444,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2074
 });
 
-db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx;jsessionid=6A049F3064E9E7CA16087B0B6DE251E7.live11294?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=3",
 { "Renault|ZOE": 4287
 , "Hyundai|Kona Electric": 2471
 , "Volkswagen|ID.3": 2439
