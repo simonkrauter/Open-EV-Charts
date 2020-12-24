@@ -533,8 +533,12 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     if (chartConfig.view == db.views.lineChart) {
       dataset.borderColor = colors[i];
       dataset.pointBackgroundColor = colors[i];
-    } else
+      if (series.name == db.totalSeriesName) {
+        dataset.hidden = true;
+      }
+    } else {
       dataset.backgroundColor = colors[i];
+    }
     chartOptions.data.datasets.push(dataset);
   }
   chartOptions.data.labels = chartData.categories;
@@ -640,7 +644,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   var nextUnusedIndex = 0;
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
-    if (seriesName == "Total" || seriesName == "Other")
+    if (seriesName == db.totalSeriesName || seriesName == "Other")
       colors.push("#000000");
     else {
       var index = colorIndexByBrand[seriesName];

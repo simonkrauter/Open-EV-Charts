@@ -3,6 +3,8 @@
 "use strict";
 
 var db = {
+  totalSeriesName: "Total",
+
   countries: {},
   // Code => ID
 
@@ -948,7 +950,7 @@ var db = {
     var seriesByName = {};
     var seriesNamesInOrder = [];
     var seriesSortValues = {};
-    var totalSeries = {name: "Total", data: []};
+    var totalSeries = {name: this.totalSeriesName, data: []};
     for (const seriesName in seriesRows) {
       seriesNamesInOrder.push(seriesName);
       var newSeries = {};
