@@ -752,3 +752,26 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion V": 2006
 , "Leapmotor|T03": 1681
 });
+
+db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5232645.html TODO: numbers per brand wanted",
+{ "other": 2297000
+});
+
+db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html",
+{ "Wuling|Hongguang Mini EV": 33094
+, "Tesla|Model 3": 21606
+, "Great Wall|Ora R1 EV": 9463
+, "BYD|Han EV": 7842
+, "SAIC|Baojun E-Series EV": 7824
+, "Chery|eQ": 6456
+, "GAC|Aion S": 5084
+, "BAIC|EU-Series": 4408
+, "BYD|Qin Pro EV": 4081
+, "SAIC|MG eZS EV": 3922
+, "Weltmeister|EX5": 3018
+, "Changan|Eado EV": 2741
+, "Xiaopeng|Xpeng P7": 2732
+, "BYD|e2": 2670
+, "FAW|Hongqi E-HS3": 2552
+, "Nio|ES6": 2386
+});
