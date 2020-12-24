@@ -529,3 +529,56 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-208": 100
 , "Peugeot|e-2008": 97
 });
+
+db.insert(db.countries.IT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20novembre%202020%20UNRAE%20marca_5fc65f1a3041f.pdf",
+{ "Fiat": 21342
+, "Volkswagen": 11882
+, "Renault": 9291
+, "Ford": 8311
+, "Peugeot": 7896
+, "Toyota": 7706
+, "Jeep/Dodge": 7022
+, "Citroën": 6840
+, "Dacia": 6188
+, "Audi": 5435
+, "BMW": 4884
+, "Opel": 4807
+, "Mercedes-Benz": 4238
+, "Suzuki": 3684
+, "Nissan": 2970
+, "Kia": 2804
+, "Hyundai": 2666
+, "Škoda": 2283
+, "Seat": 2140
+, "Mini": 2055
+, "Alfa Romeo": 1986
+, "Volvo": 1515
+, "Mazda": 888
+, "Land Rover": 869
+, "Smart": 728
+, "Honda": 587
+, "Porsche": 497
+, "Jaguar": 382
+, "Lexus": 358
+, "DS Automobiles": 355
+, "Tesla": 263
+, "Mitsubishi": 217
+, "Subaru": 204
+, "Maserati": 180
+, "SsangYong": 72
+, "Chevrolet": 1
+, "other": 4859
+});
+
+db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?attachment_id=3156",
+{ "Volkswagen|e-up!": 657
+, "Smart|Fortwo electric drive": 558
+, "Renault|ZOE": 554
+, "Fiat|500e": 513
+, "Renault|Twingo Z.E.": 411
+, "Tesla|Model 3": 243
+, "Mini|Cooper SE Electric": 233
+, "Peugeot|e-208": 223
+, "Hyundai|Kona Electric": 216
+, "Smart|Forfour electric drive": 170
+});
