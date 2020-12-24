@@ -290,4 +290,5 @@ a.export {
   font-size: 80%;
   right: 0;
   bottom: -6px;
+  cursor: pointer;
 }
