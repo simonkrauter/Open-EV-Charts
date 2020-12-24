@@ -325,9 +325,8 @@ var db = {
     var param = {};
     param.name = "brand";
     param.options = {};
-    if (chartConfig == null || chartConfig.xProperty != this.xProperties.model)
-      param.options[this.brandOptions.all] = "All Brands";
-    if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+    param.options[this.brandOptions.all] = "All Brands";
+    if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand && chartConfig.xProperty != this.xProperties.model))
       param.options[this.brandOptions.combine] = "Combine Brands";
     for (const i in this.brands) {
       const brand = this.brands[i];
