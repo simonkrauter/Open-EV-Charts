@@ -521,6 +521,7 @@ var db = {
             if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = k;
+              newConfig = this.makeChartConfigValid(newConfig);
               newResult.push(newConfig);
             }
           }
@@ -537,6 +538,7 @@ var db = {
                 continue;
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = values[i];
+              newConfig = this.makeChartConfigValid(newConfig);
               newResult.push(newConfig);
             }
           }
