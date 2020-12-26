@@ -4,37 +4,48 @@
 
 db.addCountry("FR", "France");
 
+// https://ccfa.fr/immatriculations-commandes/
 // http://www.avere-france.org/Site/Category/?arborescence_id=247
 
-db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jan (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 31526
-, "Citroën": 17292
-, "Opel": 5467
-, "DS Automobiles": 1460
+db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_01_vpfrance.pdf",
+{ "Peugeot": 31523
 , "Renault": 27282
+, "Citroën": 17292
 , "Dacia": 9888
 , "Volkswagen": 8656
-, "Audi": 3400
-, "Škoda": 2153
-, "Seat": 2116
-, "Porsche": 317
 , "Toyota": 7951
-, "Lexus": 523
 , "Ford": 6933
+, "Opel": 5467
 , "Fiat": 5219
-, "Jeep": 884
-, "Alfa Romeo": 592
-, "BMW": 3811
-, "Mini": 2095
-, "Kia": 3153
-, "Hyundai": 2461
 , "Nissan": 4631
-, "Infiniti": 69
+, "BMW": 3811
+, "Audi": 3400
+, "Kia": 3153
 , "Mercedes-Benz": 2888
-, "Smart": 415
+, "Hyundai": 2461
+, "Suzuki": 2192
+, "Škoda": 2153
+, "Seat": 2115
+, "Mini": 2095
+, "DS Automobiles": 1460
 , "Volvo": 1185
-, "other": 4467
+, "Jeep": 883
+, "Mazda": 656
+, "Honda": 622
+, "Alfa Romeo": 592
+, "Lexus": 523
+, "Land Rover": 464
+, "Smart": 415
+, "Porsche": 317
+, "Jaguar": 225
+, "Mitsubishi": 142
+, "Infiniti": 69
+, "Maserati": 48
+, "Subaru": 30
+, "SsangYong": 22
 , "Tesla": 12
+, "Chevrolet": 3
+, "other": 68
 });
 
 db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1520266815361253686bfda401bf217a7bc644eb32-Barometre%20janvier%202018.pdf",
@@ -58,35 +69,45 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model X": 3
 });
 
-db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#feb (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 31006
+db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_02_vpfrance.pdf",
+{ "Peugeot": 31003
+, "Renault": 30241
 , "Citroën": 16643
-, "Opel": 5718
-, "DS Automobiles": 1340
-, "Renault": 30242
-, "Dacia": 10081
 , "Volkswagen": 10916
-, "Audi": 4036
-, "Seat": 2256
-, "Škoda": 2189
-, "Porsche": 418
+, "Dacia": 10081
 , "Toyota": 7892
-, "Lexus": 464
-, "Fiat": 5912
-, "Jeep": 1048
-, "Alfa Romeo": 730
 , "Ford": 7249
+, "Fiat": 5912
+, "Opel": 5718
+, "Nissan": 5515
 , "BMW": 4842
-, "Mini": 1975
+, "Mercedes-Benz": 4826
+, "Audi": 4036
 , "Kia": 3723
 , "Hyundai": 2755
-, "Nissan": 5515
-, "Infiniti": 52
-, "Mercedes-Benz": 4826
-, "Smart": 398
+, "Suzuki": 2384
+, "Seat": 2255
+, "Škoda": 2189
+, "Mini": 1975
+, "DS Automobiles": 1340
 , "Volvo": 1325
+, "Jeep": 1048
+, "Honda": 816
+, "Mazda": 800
+, "Alfa Romeo": 730
+, "Land Rover": 558
+, "Lexus": 464
+, "Porsche": 418
+, "Smart": 398
+, "Jaguar": 379
+, "Mitsubishi": 161
+, "Infiniti": 52
+, "Tesla": 51
+, "Maserati": 47
+, "Subaru": 45
+, "SsangYong": 29
 , "Chevrolet": 13
-, "other": 5302
+, "other": 63
 });
 
 db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/france-february-2018.html (incomplete, missing i3 BEV)",
@@ -98,36 +119,45 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Citroën|C-Zero": 35
 });
 
-db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#mar (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 40528
+db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/05/2018_03_vpfrance.pdf",
+{ "Renault": 49166
+, "Peugeot": 40525
 , "Citroën": 21577
-, "Opel": 7363
-, "DS Automobiles": 2540
-, "Renault": 49171
-, "Dacia": 13921
 , "Volkswagen": 14504
-, "Audi": 5688
-, "Seat": 2963
-, "Škoda": 2821
-, "Porsche": 369
-, "Fiat": 8412
-, "Jeep": 1269
-, "Alfa Romeo": 967
+, "Dacia": 13921
 , "Ford": 10335
+, "Fiat": 8412
 , "Toyota": 8222
-, "Lexus": 531
+, "Nissan": 7402
+, "Opel": 7363
+, "Mercedes-Benz": 6406
+, "Audi": 5688
 , "BMW": 5670
-, "Mini": 2650
 , "Kia": 4439
 , "Hyundai": 3227
-, "Nissan": 7402
-, "Infiniti": 94
-, "Mercedes-Benz": 6406
-, "Smart": 606
+, "Seat": 2962
+, "Škoda": 2821
+, "Mini": 2650
+, "Suzuki": 2615
+, "DS Automobiles": 2540
 , "Volvo": 2069
+, "Mazda": 1496
+, "Jeep": 1269
+, "Honda": 1206
+, "Alfa Romeo": 967
+, "Land Rover": 789
+, "Smart": 606
+, "Lexus": 531
+, "Jaguar": 444
+, "Porsche": 369
+, "Mitsubishi": 277
+, "Tesla": 241
+, "Infiniti": 94
+, "Subaru": 66
+, "Maserati": 66
+, "SsangYong": 26
 , "Chevrolet": 10
-, "other": 7335
-, "Tesla": 162
+, "other": 132
 });
 
 db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/france-march-2018.html (incomplete, missing i3 BEV)",
@@ -140,36 +170,45 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 127
 });
 
-db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#apr (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 34576
+db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_04_vpfrance.pdf",
+{ "Peugeot": 34573
+, "Renault": 33721
 , "Citroën": 16991
-, "Opel": 6305
-, "DS Automobiles": 2630
-, "Renault": 33726
 , "Dacia": 14114
 , "Volkswagen": 12445
-, "Audi": 4942
-, "Škoda": 2635
-, "Seat": 2343
-, "Porsche": 380
-, "Fiat": 6961
-, "Jeep": 1297
-, "Alfa Romeo": 707
 , "Toyota": 8070
-, "Lexus": 574
+, "Ford": 7406
+, "Fiat": 6961
+, "Opel": 6305
+, "Audi": 4941
+, "Mercedes-Benz": 4773
+, "Nissan": 4604
+, "BMW": 4574
 , "Kia": 4288
 , "Hyundai": 3326
-, "Ford": 7406
-, "BMW": 4574
+, "Škoda": 2635
+, "DS Automobiles": 2630
+, "Suzuki": 2550
+, "Seat": 2342
 , "Mini": 1992
-, "Mercedes-Benz": 4773
-, "Smart": 538
-, "Nissan": 4604
-, "Infiniti": 72
+, "Jeep": 1297
 , "Volvo": 1252
+, "Mazda": 901
+, "Land Rover": 738
+, "Alfa Romeo": 707
+, "Lexus": 574
+, "Jaguar": 542
+, "Smart": 538
+, "Honda": 529
+, "Porsche": 380
+, "Mitsubishi": 244
+, "Infiniti": 72
+, "Subaru": 53
+, "Maserati": 53
+, "Tesla": 39
+, "SsangYong": 35
 , "Chevrolet": 6
-, "other": 5860
-, "Tesla": 23
+, "other": 189
 });
 
 db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/france-april-2018.html (incomplete, missing i3 BEV)",
@@ -182,36 +221,45 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Citroën|C-Zero": 42
 });
 
-db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#may (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 33081
+db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_05_vpfrance.pdf",
+{ "Renault": 36246
+, "Peugeot": 33079
 , "Citroën": 17164
-, "Opel": 7014
-, "DS Automobiles": 2240
-, "Renault": 36252
-, "Dacia": 13168
+, "Dacia": 13169
 , "Volkswagen": 12659
-, "Audi": 4769
-, "Škoda": 3025
-, "Seat": 2573
-, "Porsche": 385
-, "Fiat": 7397
-, "Jeep": 1577
-, "Alfa Romeo": 787
-, "Toyota": 7627
-, "Lexus": 507
 , "Ford": 7723
-, "BMW": 4993
-, "Mini": 2197
+, "Toyota": 7627
+, "Fiat": 7397
+, "Opel": 7014
 , "Mercedes-Benz": 6525
-, "Smart": 560
+, "Nissan": 5433
+, "BMW": 4993
+, "Audi": 4769
 , "Kia": 3627
 , "Hyundai": 3228
-, "Nissan": 5433
-, "Infiniti": 62
+, "Škoda": 3025
+, "Seat": 2573
+, "DS Automobiles": 2240
+, "Mini": 2197
+, "Suzuki": 2139
+, "Jeep": 1577
 , "Volvo": 1380
+, "Mazda": 1043
+, "Alfa Romeo": 787
+, "Land Rover": 686
+, "Honda": 666
+, "Smart": 560
+, "Lexus": 507
+, "Jaguar": 449
+, "Porsche": 385
+, "Mitsubishi": 287
+, "Tesla": 112
+, "Maserati": 67
+, "Infiniti": 62
+, "Subaru": 53
+, "SsangYong": 23
 , "Chevrolet": 8
-, "other": 5712
-, "Tesla": 63
+, "other": 223
 });
 
 db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/france-may-2018.html (incomplete, missing i3 BEV)",
@@ -224,36 +272,45 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 20
 });
 
-db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#jun (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 42885
+db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/07/2018_06_vpfrance.pdf",
+{ "Renault": 59497
+, "Peugeot": 42883
 , "Citroën": 24403
-, "Opel": 7284
-, "DS Automobiles": 3190
-, "Renault": 59504
 , "Dacia": 16551
-, "Volkswagen": 15881
-, "Audi": 5875
-, "Škoda": 3404
-, "Seat": 3391
-, "Porsche": 593
+, "Volkswagen": 15880
 , "Fiat": 10507
-, "Jeep": 1377
-, "Alfa Romeo": 1033
 , "Toyota": 9403
-, "Lexus": 522
-, "BMW": 5876
-, "Mini": 2849
+, "Opel": 7284
+, "Ford": 7274
+, "Nissan": 6612
+, "Audi": 5876
+, "BMW": 5875
+, "Mercedes-Benz": 5769
 , "Kia": 4357
 , "Hyundai": 3420
-, "Ford": 7274
-, "Mercedes-Benz": 5769
-, "Smart": 930
-, "Nissan": 6612
-, "Infiniti": 60
+, "Škoda": 3404
+, "Seat": 3391
+, "DS Automobiles": 3190
+, "Mini": 2849
+, "Suzuki": 2692
 , "Volvo": 1823
+, "Jeep": 1377
+, "Mazda": 1181
+, "Alfa Romeo": 1033
+, "Smart": 930
+, "Honda": 892
+, "Land Rover": 813
+, "Mitsubishi": 631
+, "Porsche": 593
+, "Jaguar": 584
+, "Lexus": 522
+, "Tesla": 173
+, "Subaru": 136
+, "Maserati": 67
+, "Infiniti": 60
+, "SsangYong": 30
 , "Chevrolet": 16
-, "other": 7405
-, "Tesla": 103
+, "other": 238
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
@@ -269,36 +326,45 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 
 // No source for 2018-07 found
 
-db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#aug (Unclear: Why is Tesla missing?)",
-{ "Renault": 27819
-, "Dacia": 11377
+db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/09/2018_08_vpfrance.pdf",
+{ "Renault": 27812
 , "Peugeot": 21026
 , "Citroën": 13694
-, "Opel": 3465
-, "DS Automobiles": 1143
+, "Dacia": 11377
 , "Volkswagen": 9868
-, "Audi": 5052
-, "Seat": 2715
-, "Škoda": 2394
-, "Porsche": 902
 , "Nissan": 9296
-, "Infiniti": 421
-, "Fiat": 5517
-, "Jeep": 1573
-, "Alfa Romeo": 1404
-, "Maserati": 45
 , "Toyota": 6057
-, "Lexus": 431
-, "BMW": 3782
-, "Mini": 1690
+, "Fiat": 5517
+, "Audi": 5052
 , "Ford": 4822
 , "Mercedes-Benz": 4180
-, "Smart": 551
+, "BMW": 3782
+, "Opel": 3465
+, "Seat": 2715
+, "Škoda": 2394
+, "Suzuki": 2345
 , "Kia": 2278
 , "Hyundai": 2123
+, "Mini": 1690
+, "Jeep": 1573
+, "Alfa Romeo": 1404
+, "DS Automobiles": 1143
 , "Volvo": 913
-, "other": 5823
-, "Tesla": 195
+, "Porsche": 902
+, "Mazda": 752
+, "Mitsubishi": 649
+, "Smart": 551
+, "Land Rover": 506
+, "Honda": 488
+, "Jaguar": 436
+, "Lexus": 431
+, "Infiniti": 421
+, "Subaru": 151
+, "Tesla": 64
+, "SsangYong": 52
+, "Maserati": 45
+, "Chevrolet": 2
+, "other": 414
 });
 
 db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/norway-august-2018.html (incomplete, missing i3 BEV)",
@@ -311,36 +377,45 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Kia|Soul EV": 168
 });
 
-db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#sep (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/10/2018_09_vpfrance.pdf",
 { "Peugeot": 29353
+, "Renault": 28109
 , "Citroën": 15751
-, "Opel": 6404
-, "DS Automobiles": 1636
-, "Renault": 28111
 , "Dacia": 9353
-, "Volkswagen": 6807
-, "Audi": 2444
-, "Škoda": 1955
-, "Seat": 1731
-, "Porsche": 124
 , "Toyota": 7128
-, "Lexus": 383
+, "Volkswagen": 6807
+, "Opel": 6404
+, "Mercedes-Benz": 5612
+, "Ford": 5095
+, "Fiat": 4940
 , "BMW": 4936
-, "Mini": 2067
 , "Kia": 3196
 , "Hyundai": 3021
-, "Mercedes-Benz": 5612
-, "Smart": 587
-, "Fiat": 4940
-, "Jeep": 491
-, "Alfa Romeo": 169
-, "Ford": 5095
+, "Audi": 2444
+, "Mini": 2067
+, "Škoda": 1955
+, "Seat": 1731
+, "DS Automobiles": 1636
 , "Volvo": 1596
+, "Suzuki": 1507
 , "Nissan": 1458
-, "Infiniti": 6
+, "Mazda": 993
+, "Honda": 601
+, "Smart": 587
+, "Jeep": 491
+, "Lexus": 383
+, "Mitsubishi": 346
+, "Jaguar": 319
+, "Land Rover": 301
+, "Tesla": 171
+, "Alfa Romeo": 169
+, "Porsche": 124
+, "Maserati": 34
+, "SsangYong": 18
+, "Subaru": 16
 , "Chevrolet": 8
-, "other": 4384
-, "Tesla": 107
+, "Infiniti": 6
+, "other": 188
 });
 
 db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (incomplete, missing i3 BEV)",
@@ -354,35 +429,45 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Citroën|C-Zero": 63
 });
 
-db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#oct (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/11/2018_10_vpfrance.pdf",
 { "Peugeot": 34962
+, "Renault": 29479
 , "Citroën": 18780
-, "Opel": 6420
-, "DS Automobiles": 1506
-, "Renault": 29484
 , "Dacia": 10138
-, "Volkswagen": 9244
-, "Audi": 2755
-, "Škoda": 2936
-, "Seat": 2461
-, "Porsche": 125
 , "Toyota": 9354
-, "Lexus": 486
-, "BMW": 5108
-, "Mini": 2795
+, "Volkswagen": 9244
 , "Ford": 7563
+, "Opel": 6420
 , "Mercedes-Benz": 6381
-, "Smart": 705
+, "Fiat": 5162
+, "BMW": 5108
 , "Kia": 3629
 , "Hyundai": 3201
-, "Fiat": 5162
-, "Jeep": 726
-, "Alfa Romeo": 246
+, "Škoda": 2936
+, "Mini": 2795
+, "Audi": 2755
 , "Nissan": 2652
-, "Infiniti": 10
+, "Seat": 2461
+, "Suzuki": 2240
 , "Volvo": 1832
-, "other": 5053
-, "Tesla": 23
+, "DS Automobiles": 1506
+, "Mazda": 811
+, "Jeep": 726
+, "Smart": 705
+, "Honda": 691
+, "Lexus": 486
+, "Mitsubishi": 476
+, "Jaguar": 329
+, "Land Rover": 317
+, "Alfa Romeo": 246
+, "Porsche": 125
+, "Maserati": 44
+, "Tesla": 30
+, "Subaru": 26
+, "SsangYong": 15
+, "Infiniti": 10
+, "Chevrolet": 2
+, "other": 161
 });
 
 db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (incomplete, missing i3 BEV)",
@@ -396,36 +481,45 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Citroën|C-Zero": 54
 });
 
-db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#nov (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/01/2018_11_vpfrance.pdf",
 { "Peugeot": 32820
+, "Renault": 25698
 , "Citroën": 17743
-, "Opel": 6096
-, "DS Automobiles": 1970
-, "Renault": 25699
-, "Dacia": 12351
 , "Volkswagen": 13146
-, "Audi": 3540
-, "Škoda": 2782
-, "Seat": 2600
-, "Porsche": 83
+, "Dacia": 12351
 , "Toyota": 8940
-, "Lexus": 536
-, "BMW": 4973
-, "Mini": 2594
 , "Mercedes-Benz": 6432
-, "Smart": 714
+, "Opel": 6096
+, "Ford": 6055
 , "Fiat": 5422
-, "Jeep": 686
-, "Alfa Romeo": 327
+, "BMW": 4973
+, "Audi": 3540
 , "Hyundai": 3130
 , "Kia": 3074
-, "Ford": 6055
+, "Škoda": 2782
+, "Seat": 2600
+, "Mini": 2594
 , "Nissan": 2421
-, "Infiniti": 8
+, "Suzuki": 2369
+, "DS Automobiles": 1970
 , "Volvo": 1800
-, "Chevrolet": 7
-, "other": 5653
+, "Mazda": 904
+, "Mitsubishi": 741
+, "Smart": 714
+, "Jeep": 686
+, "Honda": 578
+, "Lexus": 536
+, "Land Rover": 482
+, "Alfa Romeo": 327
+, "Jaguar": 202
 , "Tesla": 119
+, "Porsche": 83
+, "Subaru": 33
+, "Maserati": 28
+, "SsangYong": 18
+, "Infiniti": 8
+, "Chevrolet": 7
+, "other": 189
 });
 
 db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1547740964b4293d4c688a85f0f64776ee401217b3-Novembre%202018.pdf",
@@ -451,36 +545,45 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 4
 });
 
-db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2018#dec (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 27045
+db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/01/2018_12_vpfrance.pdf",
+{ "Renault": 31301
+, "Peugeot": 27045
 , "Citroën": 16228
-, "Opel": 4844
-, "DS Automobiles": 1701
-, "Renault": 31301
-, "Dacia": 9603
 , "Volkswagen": 13093
-, "Audi": 3967
-, "Škoda": 2760
-, "Seat": 3022
-, "Porsche": 230
+, "Dacia": 9603
 , "Toyota": 8085
-, "Lexus": 579
-, "Fiat": 4931
-, "Jeep": 671
-, "Alfa Romeo": 457
-, "BMW": 4944
-, "Mini": 2846
-, "Ford": 5940
-, "Kia": 3052
-, "Hyundai": 2528
 , "Mercedes-Benz": 7382
-, "Smart": 914
+, "Ford": 5940
+, "BMW": 4944
+, "Fiat": 4931
+, "Opel": 4844
+, "Audi": 3967
+, "Kia": 3052
+, "Seat": 3022
+, "Mini": 2846
+, "Škoda": 2760
 , "Nissan": 2619
-, "Infiniti": 14
+, "Hyundai": 2528
+, "Suzuki": 1849
 , "Volvo": 1721
+, "DS Automobiles": 1701
+, "Smart": 914
+, "Mazda": 857
+, "Jeep": 671
+, "Honda": 593
+, "Lexus": 579
+, "Land Rover": 507
+, "Alfa Romeo": 457
+, "Mitsubishi": 374
+, "Jaguar": 252
+, "Porsche": 230
+, "Tesla": 192
+, "Maserati": 34
+, "Subaru": 19
+, "Infiniti": 14
 , "Chevrolet": 8
-, "other": 4896
-, "Tesla": 99
+, "SsangYong": 6
+, "other": 326
 });
 
 db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (incomplete, missing i3 BEV)",
@@ -494,37 +597,45 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hyundai|Ioniq Electric": 47
 });
 
-db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jan (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 29652
+db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/02/2019_01_vpfrance.pdf",
+{ "Peugeot": 29651
+, "Renault": 26357
 , "Citroën": 17563
-, "Opel": 5882
-, "DS Automobiles": 1767
-, "Renault": 26363
-, "Dacia": 9350
 , "Volkswagen": 10141
-, "Audi": 3166
+, "Dacia": 9350
+, "Toyota": 8357
+, "Opel": 5882
+, "Ford": 5860
+, "Fiat": 4865
+, "Mercedes-Benz": 4224
+, "BMW": 3441
+, "Kia": 3364
+, "Audi": 3167
+, "Hyundai": 2785
+, "Nissan": 2546
+, "Suzuki": 2535
+, "Mini": 2251
 , "Škoda": 2185
 , "Seat": 2003
-, "Porsche": 243
-, "Toyota": 8357
-, "Lexus": 532
-, "Kia": 3364
-, "Hyundai": 2785
-, "Ford": 5860
-, "BMW": 3441
-, "Mini": 2251
-, "Fiat": 4865
-, "Jeep": 476
-, "Alfa Romeo": 254
-, "Mercedes-Benz": 4224
-, "Smart": 649
-, "Nissan": 2546
-, "Infiniti": 11
+, "DS Automobiles": 1767
 , "Volvo": 1574
+, "Mazda": 716
+, "Smart": 649
+, "Honda": 643
+, "Lexus": 532
+, "Jeep": 476
 , "Land Rover": 455
+, "Mitsubishi": 421
 , "Jaguar": 294
+, "Alfa Romeo": 253
+, "Porsche": 243
 , "Tesla": 32
-, "other": 4814
+, "Maserati": 28
+, "Subaru": 22
+, "Infiniti": 11
+, "SsangYong": 9
+, "Chevrolet": 3
+, "other": 424
 });
 
 db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15495492248cd691d9fa4f2bee8d93483d2fbf9f2a-Barometre%20janvier%20AvereFrance.pdf",
@@ -550,38 +661,45 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 7
 });
 
-db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#feb (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/03/2019_02_vpfrance.pdf",
 { "Peugeot": 31784
+, "Renault": 29797
 , "Citroën": 19986
-, "Opel": 7122
-, "DS Automobiles": 1684
-, "Renault": 29812
-, "Dacia": 10428
 , "Volkswagen": 11258
-, "Audi": 3766
-, "Seat": 2631
-, "Škoda": 2553
-, "Porsche": 133
+, "Dacia": 10428
 , "Toyota": 7833
-, "Lexus": 351
+, "Opel": 7122
 , "Ford": 6693
+, "Fiat": 5438
+, "Mercedes-Benz": 4941
+, "BMW": 3950
+, "Nissan": 3767
+, "Audi": 3766
 , "Kia": 3471
 , "Hyundai": 3129
-, "Fiat": 5438
-, "Jeep": 779
-, "Alfa Romeo": 266
-, "BMW": 3950
+, "Seat": 2631
+, "Škoda": 2553
+, "Suzuki": 2470
 , "Mini": 1943
-, "Mercedes-Benz": 4941
-, "Smart": 724
-, "Nissan": 3767
-, "Infiniti": 13
 , "Volvo": 1914
+, "DS Automobiles": 1684
+, "Mazda": 976
+, "Jeep": 779
+, "Honda": 733
+, "Smart": 724
 , "Land Rover": 461
-, "Jaguar": 241
-, "Chevrolet": 6
 , "Tesla": 445
-, "other": 5354
+, "Mitsubishi": 416
+, "Lexus": 351
+, "Alfa Romeo": 266
+, "Jaguar": 241
+, "Porsche": 133
+, "Maserati": 24
+, "Subaru": 20
+, "Infiniti": 13
+, "Chevrolet": 6
+, "SsangYong": 5
+, "other": 287
 });
 
 db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155186746334385712e0880d4efa60463604ed3785-immats-mars-2019.pdf",
@@ -610,37 +728,45 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 
 });
 
-db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#mar (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 37262
+db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/04/2019_03_vpfrance.pdf",
+{ "Renault": 45911
+, "Peugeot": 37262
 , "Citroën": 23677
-, "Opel": 7991
-, "DS Automobiles": 1986
-, "Renault": 45911
 , "Dacia": 15838
 , "Volkswagen": 15704
-, "Audi": 5700
-, "Škoda": 3268
-, "Seat": 3262
-, "Porsche": 278
 , "Ford": 9320
-, "Fiat": 7468
-, "Jeep": 1145
-, "Alfa Romeo": 387
 , "Toyota": 8237
-, "Lexus": 555
+, "Opel": 7991
+, "Fiat": 7468
+, "Mercedes-Benz": 6125
+, "Audi": 5700
+, "Nissan": 4958
+, "BMW": 4820
 , "Kia": 4283
 , "Hyundai": 3688
-, "BMW": 4820
+, "Škoda": 3268
+, "Seat": 3262
+, "Suzuki": 2729
 , "Mini": 2616
-, "Mercedes-Benz": 6125
-, "Smart": 653
-, "Nissan": 4958
-, "Infiniti": 17
+, "DS Automobiles": 1986
 , "Volvo": 1978
-, "Land Rover": 716
-, "Jaguar": 283
+, "Mazda": 1559
 , "Tesla": 1250
-, "other": 7682
+, "Jeep": 1145
+, "Honda": 1083
+, "Land Rover": 716
+, "Smart": 653
+, "Mitsubishi": 609
+, "Lexus": 555
+, "Alfa Romeo": 387
+, "Jaguar": 283
+, "Porsche": 278
+, "Maserati": 35
+, "Infiniti": 17
+, "Subaru": 13
+, "SsangYong": 10
+, "Chevrolet": 3
+, "other": 401
 });
 
 db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1554462213a58da558147631652560897fe8b30dee-immats-avril-2019.pdf",
@@ -668,37 +794,45 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#apr (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/05/2019_04_vpfrance.pdf",
 { "Peugeot": 34117
+, "Renault": 31494
 , "Citroën": 21874
-, "Opel": 6622
-, "DS Automobiles": 1948
-, "Renault": 31495
-, "Dacia": 12501
 , "Volkswagen": 12676
-, "Audi": 5043
-, "Seat": 3260
-, "Škoda": 3007
-, "Porsche": 352
+, "Dacia": 12501
 , "Toyota": 8222
-, "Lexus": 671
+, "Opel": 6622
 , "Fiat": 6476
-, "Jeep": 964
-, "Alfa Romeo": 292
+, "Ford": 6371
+, "Mercedes-Benz": 5503
+, "Audi": 5043
+, "BMW": 5037
 , "Kia": 4191
 , "Hyundai": 3317
-, "BMW": 5037
-, "Mini": 2371
-, "Ford": 6371
-, "Mercedes-Benz": 5504
-, "Smart": 551
 , "Nissan": 3315
-, "Infiniti": 20
+, "Seat": 3260
+, "Škoda": 3007
+, "Suzuki": 2662
+, "Mini": 2371
+, "DS Automobiles": 1948
 , "Volvo": 1527
+, "Jeep": 964
+, "Mazda": 887
 , "Land Rover": 677
+, "Lexus": 671
+, "Smart": 551
+, "Mitsubishi": 540
+, "Honda": 510
 , "Jaguar": 370
+, "Porsche": 352
 , "Tesla": 305
-, "other": 5415
+, "Alfa Romeo": 292
+, "Maserati": 38
+, "Subaru": 21
+, "Infiniti": 20
+, "Chevrolet": 10
+, "SsangYong": 9
+, "other": 444
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/155715869983878c91171338902e0fe0fb97a8c47a-immats-mai-2019.pdf",
@@ -727,37 +861,45 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Renault|Kangoo Z.E.": 371
 });
 
-db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#may (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 34838
+db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/06/2019_05_vpfrance.pdf",
+{ "Renault": 36026
+, "Peugeot": 34838
 , "Citroën": 21127
-, "Opel": 6809
-, "DS Automobiles": 2222
-, "Renault": 36026
 , "Dacia": 13002
 , "Volkswagen": 11487
-, "Audi": 5281
-, "Škoda": 3159
-, "Seat": 3024
-, "Porsche": 435
 , "Toyota": 8835
-, "Lexus": 573
 , "Fiat": 7615
-, "Jeep": 865
-, "Alfa Romeo": 289
+, "Opel": 6809
+, "Ford": 6541
+, "Mercedes-Benz": 6201
 , "BMW": 5568
-, "Mini": 1760
+, "Audi": 5281
 , "Kia": 3842
 , "Hyundai": 3354
-, "Mercedes-Benz": 6201
-, "Smart": 645
-, "Ford": 6541
+, "Škoda": 3159
 , "Nissan": 3110
-, "Infiniti": 7
+, "Seat": 3024
+, "DS Automobiles": 2222
+, "Suzuki": 2134
+, "Mini": 1760
 , "Volvo": 1454
+, "Mazda": 873
+, "Jeep": 865
+, "Smart": 645
 , "Land Rover": 621
-, "Jaguar": 308
-, "other": 4942
+, "Lexus": 573
+, "Honda": 554
+, "Mitsubishi": 498
+, "Porsche": 435
 , "Tesla": 413
+, "Jaguar": 308
+, "Alfa Romeo": 289
+, "Subaru": 42
+, "Maserati": 23
+, "Chevrolet": 12
+, "Infiniti": 7
+, "SsangYong": 6
+, "other": 395
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15598367646482fda3e8e139d80cbbc783c7550665-immats-juin-2019.pdf",
@@ -786,38 +928,45 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Renault|Kangoo Z.E.": 297
 });
 
-db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jun (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 36595
+db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/07/2019_06_vpfrance.pdf",
+{ "Renault": 51654
+, "Peugeot": 36595
 , "Citroën": 22876
-, "Opel": 6225
-, "DS Automobiles": 3592
-, "Renault": 51654
-, "Dacia": 15330
 , "Volkswagen": 15963
-, "Audi": 6905
-, "Seat": 3809
-, "Škoda": 3242
-, "Porsche": 658
-, "Fiat": 8717
-, "Jeep": 1398
-, "Alfa Romeo": 406
-, "Maserati": 27
+, "Dacia": 15330
 , "Toyota": 9912
-, "Lexus": 623
+, "Fiat": 8717
 , "Ford": 7856
-, "Kia": 3924
-, "Hyundai": 3502
+, "Audi": 6905
 , "Mercedes-Benz": 6527
-, "Smart": 657
+, "Opel": 6225
 , "BMW": 4321
-, "Mini": 2234
 , "Nissan": 4109
-, "Infiniti": 13
+, "Kia": 3924
+, "Seat": 3809
+, "DS Automobiles": 3591
+, "Hyundai": 3502
+, "Škoda": 3242
+, "Suzuki": 2633
+, "Mini": 2234
 , "Volvo": 1853
-, "Chevrolet": 5
-, "Cadillac": 3
+, "Jeep": 1398
 , "Tesla": 1285
-, "other": 299
+, "Mazda": 1172
+, "Land Rover": 739
+, "Honda": 734
+, "Mitsubishi": 710
+, "Porsche": 658
+, "Smart": 657
+, "Lexus": 623
+, "Alfa Romeo": 406
+, "Jaguar": 375
+, "Subaru": 30
+, "Maserati": 27
+, "SsangYong": 14
+, "Infiniti": 13
+, "Chevrolet": 5
+, "other": 340
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15627732242408730ad248ad4e4aa36fb14f5e0631-immats%20juin%202019.pdf",
@@ -837,40 +986,48 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 41
 });
 
-db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#jul (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/08/2019_07_vpfrance.pdf",
 { "Peugeot": 30807
+, "Renault": 23662
 , "Citroën": 19823
-, "Opel": 5206
-, "DS Automobiles": 2646
-, "Renault": 23664
-, "Dacia": 9927
 , "Volkswagen": 13056
-, "Audi": 5130
-, "Seat": 3329
-, "Škoda": 2947
-, "Porsche": 417
+, "Dacia": 9928
 , "Toyota": 9522
-, "Lexus": 741
+, "Ford": 6002
+, "Fiat": 5323
+, "Mercedes-Benz": 5269
+, "Opel": 5206
+, "Audi": 5130
+, "BMW": 4186
 , "Kia": 3859
 , "Hyundai": 3677
-, "Fiat": 5323
-, "Jeep": 1761
-, "Alfa Romeo": 308
-, "Maserati": 42
-, "BMW": 4188
-, "Mini": 2234
-, "Mercedes-Benz": 5269
-, "Smart": 888
-, "Ford": 6002
+, "Seat": 3329
 , "Nissan": 3150
-, "Infiniti": 54
+, "Škoda": 2947
+, "Suzuki": 2886
+, "DS Automobiles": 2646
+, "Mini": 2234
+, "Jeep": 1761
 , "Volvo": 1646
+, "Smart": 888
+, "Mazda": 845
+, "Lexus": 741
+, "Land Rover": 671
+, "Honda": 611
+, "Mitsubishi": 462
+, "Porsche": 417
+, "Tesla": 356
+, "Alfa Romeo": 308
+, "Jaguar": 266
+, "Subaru": 54
+, "Infiniti": 54
+, "Maserati": 42
+, "SsangYong": 12
 , "Chevrolet": 6
-, "Tesla": 294
-, "other": 385
+, "other": 443
 });
 
-db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
+db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because July and August are combined, halves are used)",
 { "Renault|ZOE": 1235
 , "Nissan|Leaf": 321
 , "Tesla|Model 3": 259
@@ -887,41 +1044,48 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 23
 });
 
-db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#aug (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 19696
-, "Citroën": 12911
-, "Opel": 3310
-, "DS Automobiles": 1501
+db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/09/2019_08_vpfrance.pdf",
+{ "Peugeot": 19695
 , "Renault": 18718
-, "Dacia": 8050
+, "Citroën": 12911
 , "Volkswagen": 8542
-, "Audi": 3807
-, "Seat": 2956
-, "Škoda": 2416
-, "Porsche": 287
-, "Mercedes-Benz": 4734
-, "Smart": 3193
+, "Dacia": 8050
 , "Toyota": 6784
-, "Lexus": 566
-, "Kia": 2721
-, "Hyundai": 2082
-, "BMW": 2961
-, "Mini": 1667
-, "Fiat": 3432
-, "Jeep": 815
-, "Alfa Romeo": 214
-, "Maserati": 29
+, "Suzuki": 5408
+, "Mercedes-Benz": 4734
 , "Ford": 4148
+, "Audi": 3807
+, "Fiat": 3432
+, "Opel": 3310
+, "Smart": 3193
 , "Nissan": 3182
-, "Infiniti": 22
+, "BMW": 2961
+, "Seat": 2956
+, "Kia": 2721
+, "Škoda": 2416
+, "Hyundai": 2082
+, "Mini": 1667
+, "DS Automobiles": 1501
+, "Mitsubishi": 1309
 , "Volvo": 954
+, "Jeep": 815
+, "Mazda": 751
+, "Honda": 599
+, "Lexus": 566
+, "Land Rover": 440
+, "Tesla": 293
+, "Porsche": 287
+, "Alfa Romeo": 214
+, "Jaguar": 156
+, "Subaru": 64
+, "Maserati": 29
+, "Infiniti": 22
+, "SsangYong": 12
 , "Chevrolet": 1
-, "Cadillac": 1
-, "Tesla": 294
-, "other": 408
+, "other": 527
 });
 
-db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because Juli and August are combined, halves are used)",
+db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1568280460e03fa2a94992bba0db1deea2e706abf8-immats-ete-2019.pdf (because July and August are combined, halves are used)",
 { "Renault|ZOE": 1235
 , "Nissan|Leaf": 321
 , "Tesla|Model 3": 259
@@ -938,38 +1102,44 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 23
 });
 
-db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#sep (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 30281
+db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/10/2019_09_vpfrance.pdf",
+{ "Renault": 36487
+, "Peugeot": 30281
 , "Citroën": 18710
-, "Opel": 6488
-, "DS Automobiles": 2142
-, "Renault": 36487
-, "Dacia": 9134
 , "Volkswagen": 10001
+, "Dacia": 9134
+, "Toyota": 8015
+, "Opel": 6488
+, "Ford": 5911
+, "Mercedes-Benz": 5450
+, "Fiat": 5348
+, "BMW": 4662
+, "Kia": 3542
+, "Hyundai": 3528
 , "Audi": 3107
 , "Škoda": 3042
 , "Seat": 2968
-, "Porsche": 370
-, "Toyota": 8015
-, "Lexus": 481
-, "Kia": 3542
-, "Hyundai": 3528
-, "BMW": 4662
-, "Mini": 2376
-, "Fiat": 5349
-, "Jeep": 672
-, "Alfa Romeo": 213
-, "Ford": 5911
-, "Mercedes-Benz": 5450
-, "Smart": 234
 , "Nissan": 2738
+, "Mini": 2376
+, "DS Automobiles": 2142
 , "Volvo": 2009
 , "Suzuki": 1207
+, "Mazda": 1191
+, "Tesla": 1165
+, "Honda": 696
+, "Jeep": 672
 , "Land Rover": 555
-, "Jaguar": 272
+, "Lexus": 481
+, "Porsche": 370
 , "Mitsubishi": 306
-, "Tesla": 588
-, "other": 43
+, "Jaguar": 272
+, "Smart": 234
+, "Alfa Romeo": 213
+, "Maserati": 12
+, "SsangYong": 10
+, "Subaru": 9
+, "Chevrolet": 2
+, "other": 266
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1570545565f08eb0fd30ec313709d8c39f8fe20075-immats-octobre-2019.pdf",
@@ -989,39 +1159,45 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 46
 });
 
-db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#oct (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 33775
+db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/11/2019_10_vpfrance.pdf",
+{ "Renault": 34667
+, "Peugeot": 33775
 , "Citroën": 21477
-, "Opel": 4241
-, "DS Automobiles": 2665
-, "Renault": 34667
 , "Dacia": 12431
-, "Volkswagen": 11939
-, "Audi": 4008
-, "Seat": 3422
-, "Škoda": 3030
-, "Porsche": 659
+, "Volkswagen": 11938
 , "Toyota": 10365
-, "Lexus": 540
-, "BMW": 5569
-, "Mini": 2547
+, "Ford": 6449
+, "BMW": 5568
+, "Fiat": 5555
+, "Mercedes-Benz": 5490
+, "Opel": 4241
+, "Audi": 4008
 , "Hyundai": 3981
 , "Kia": 3929
-, "Fiat": 5555
-, "Jeep": 935
-, "Alfa Romeo": 332
-, "Ford": 6449
-, "Mercedes-Benz": 5490
-, "Smart": 658
+, "Seat": 3422
 , "Nissan": 3296
-, "Infiniti": 16
+, "Škoda": 3030
+, "DS Automobiles": 2665
+, "Mini": 2547
 , "Volvo": 2009
 , "Suzuki": 1601
+, "Mazda": 942
+, "Jeep": 935
+, "Porsche": 659
+, "Smart": 658
 , "Land Rover": 658
-, "Jaguar": 277
 , "Mitsubishi": 541
-, "Tesla": 178
-, "other": 1749
+, "Lexus": 540
+, "Honda": 540
+, "Alfa Romeo": 332
+, "Jaguar": 277
+, "Tesla": 192
+, "Subaru": 37
+, "SsangYong": 26
+, "Maserati": 20
+, "Infiniti": 16
+, "Chevrolet": 1
+, "other": 169
 });
 
 db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/157313247269f0fce55475a3683d0110d1960f1837-barometre%20octobre%202019.pdf",
@@ -1042,37 +1218,45 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 23
 });
 
-db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#nov (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 31510
+db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/11/2019_11_vpfrance.pdf",
+{ "Renault": 32614
+, "Peugeot": 31509
 , "Citroën": 17181
-, "Opel": 3801
-, "DS Automobiles": 2011
-, "Renault": 32614
-, "Dacia": 9770
 , "Volkswagen": 12134
-, "Audi": 4710
-, "Škoda": 3276
-, "Seat": 3200
-, "Porsche": 616
+, "Dacia": 9770
 , "Toyota": 7749
-, "Lexus": 529
-, "BMW": 5884
-, "Mini": 1956
-, "Hyundai": 3600
-, "Kia": 3262
 , "Ford": 6259
-, "Mercedes-Benz": 6067
-, "Smart": 170
+, "Mercedes-Benz": 6065
+, "BMW": 5884
 , "Fiat": 4917
-, "Jeep": 723
-, "Alfa Romeo": 349
+, "Audi": 4710
+, "Opel": 3801
+, "Hyundai": 3600
 , "Nissan": 3392
-, "Infiniti": 7
+, "Škoda": 3276
+, "Kia": 3262
+, "Seat": 3200
+, "DS Automobiles": 2011
+, "Mini": 1956
 , "Volvo": 1731
-, "Land Rover": 657
+, "Suzuki": 1464
+, "Mazda": 1131
+, "Jeep": 723
+, "Mitsubishi": 685
+, "Land Rover": 656
+, "Porsche": 616
+, "Honda": 598
+, "Lexus": 529
+, "Alfa Romeo": 349
+, "Tesla": 271
 , "Jaguar": 183
-, "Tesla": 225
-, "other": 4477
+, "Smart": 170
+, "Subaru": 30
+, "Maserati": 28
+, "SsangYong": 11
+, "Infiniti": 7
+, "Chevrolet": 1
+, "other": 258
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1575639106b8246659af0aba2bf961bc2e285f68f8-barometre%20decembre%202019.pdf",
@@ -1091,42 +1275,45 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 18
 });
 
-db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2019#dec (Unclear: Why is Tesla missing?)",
-{ "Peugeot": 29268
+db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/01/2019_12_vpfrance.pdf",
+{ "Renault": 39747
+, "Peugeot": 29268
 , "Citroën": 17905
-, "Opel": 3204
-, "DS Automobiles": 2682
-, "Renault": 39747
-, "Dacia": 13215
 , "Volkswagen": 16205
-, "Audi": 6909
-, "Seat": 3284
-, "Škoda": 4373
-, "Porsche": 1124
-, "Toyota": 7899
-, "Lexus": 996
-, "Fiat": 6512
-, "Jeep": 1008
-, "Alfa Romeo": 628
-, "Maserati": 114
-, "BMW": 8353
-, "Mini": 3203
-, "Kia": 4668
-, "Hyundai": 3327
+, "Dacia": 13215
 , "Mercedes-Benz": 9685
-, "Smart": 1472
+, "BMW": 8353
+, "Toyota": 7899
 , "Ford": 7428
+, "Audi": 6909
+, "Fiat": 6512
 , "Nissan": 4750
-, "Infiniti": 36
-, "Suzuki": 3029
+, "Kia": 4668
+, "Škoda": 4373
+, "Hyundai": 3327
+, "Seat": 3284
+, "Opel": 3204
+, "Mini": 3203
 , "Volvo": 3047
-, "Land Rover": 1229
-, "Jaguar": 536
-, "Mitsubishi": 710
-, "Chevrolet": 2
-, "Cadillac": 1
+, "Suzuki": 3029
+, "DS Automobiles": 2682
+, "Mazda": 1553
+, "Smart": 1472
 , "Tesla": 1435
-, "other": 3210
+, "Land Rover": 1229
+, "Porsche": 1124
+, "Jeep": 1008
+, "Lexus": 997
+, "Honda": 895
+, "Mitsubishi": 710
+, "Alfa Romeo": 628
+, "Jaguar": 536
+, "Subaru": 168
+, "Maserati": 114
+, "Infiniti": 36
+, "SsangYong": 33
+, "Chevrolet": 2
+, "other": 561
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1578561037dfcf28d0734569a6a693bc8194de62bf-BILANANNUEL2019.pdf",
@@ -1147,15 +1334,15 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|iOn": 6
 });
 
-db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2020#jan (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/02/2020_01_vpfrance-1.pdf",
 { "Peugeot": 29246
-, "Renault": 23892
+, "Renault": 23884
 , "Citroën": 15634
 , "Toyota": 9716
 , "Volkswagen": 7040
 , "Dacia": 5852
 , "Opel": 4268
-, "Ford": 3918
+, "Ford": 3917
 , "BMW": 3285
 , "Nissan": 3277
 , "Fiat": 3095
@@ -1169,16 +1356,22 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 1431
 , "Mini": 1424
 , "Volvo": 771
+, "Mazda": 673
 , "Lexus": 523
 , "Land Rover": 444
+, "Honda": 418
 , "Porsche": 323
 , "Mitsubishi": 266
-, "Jeep": 240
+, "Jeep": 248
+, "Tesla": 170
 , "Alfa Romeo": 164
 , "Jaguar": 127
 , "Smart": 77
-, "Tesla": 124
-, "other": 1172
+, "Subaru": 4
+, "Maserati": 3
+, "SsangYong": 1
+, "Chevrolet": 1
+, "other": 26
 });
 
 db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15810701345ba87c5934635d85077d6afe8094f115-bilan_janvier_2020.pdf",
@@ -1198,10 +1391,10 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 34
 });
 
-db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_france_2020#feb (Unclear: Why is Tesla missing?)",
+db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/03/2020_02_vpfrance.pdf",
 { "Peugeot": 32326
 , "Renault": 28863
-, "Citroën": 18737
+, "Citroën": 18735
 , "Volkswagen": 9667
 , "Toyota": 8625
 , "Dacia": 7619
@@ -1214,12 +1407,14 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Fiat": 4089
 , "Hyundai": 4040
 , "Kia": 3644
-, "DS Automobiles": 3595
 , "Seat": 2893
 , "Škoda": 2726
 , "Mini": 1601
 , "Volvo": 1559
 , "Suzuki": 1558
+, "Tesla": 1047
+, "Mazda": 732
+, "Honda": 671
 , "Lexus": 667
 , "Land Rover": 652
 , "Jeep": 440
@@ -1228,8 +1423,9 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 270
 , "Alfa Romeo": 136
 , "Smart": 118
-, "Tesla": 1025
-, "other": 1513
+, "Subaru": 23
+, "Maserati": 3
+, "other": 6128
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1583508368d6ec42e0ea5eb1f7c37fcb43d7cfba48-bilan_fevrier_2020.pdf",
@@ -1250,8 +1446,44 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|iOn": 4
 });
 
-db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 62668
+db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/03/2020_03_vpfrance.pdf",
+{ "Renault": 14461
+, "Peugeot": 11381
+, "Citroën": 5390
+, "Toyota": 3545
+, "Dacia": 3107
+, "Volkswagen": 2955
+, "Kia": 2007
+, "Ford": 1857
+, "Mercedes-Benz": 1722
+, "Tesla": 1580
+, "Hyundai": 1572
+, "BMW": 1532
+, "Fiat": 1357
+, "Audi": 1345
+, "Mini": 1304
+, "DS Automobiles": 1241
+, "Nissan": 1235
+, "Opel": 829
+, "Škoda": 807
+, "Volvo": 775
+, "Seat": 603
+, "Mazda": 419
+, "Suzuki": 331
+, "Mitsubishi": 283
+, "Porsche": 237
+, "Jeep": 165
+, "Lexus": 154
+, "Land Rover": 129
+, "Honda": 113
+, "Alfa Romeo": 60
+, "Smart": 55
+, "Jaguar": 31
+, "Subaru": 6
+, "SsangYong": 6
+, "Maserati": 2
+, "Infiniti": 1
+, "other": 97
 });
 
 db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1586339557fdd064f408becd3e4d6cd093e807fa4d-barometre-mensuel-de-la-mobilite-electrique-mars-2020.pdf",
@@ -1269,8 +1501,41 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 4
 });
 
-db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 20997
+db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/05/2020_04_vpfrance.pdf",
+{ "Renault": 5910
+, "Peugeot": 5237
+, "Citroën": 3513
+, "Dacia": 1227
+, "Opel": 914
+, "Ford": 553
+, "Volkswagen": 511
+, "DS Automobiles": 434
+, "Fiat": 357
+, "BMW": 276
+, "Toyota": 274
+, "Škoda": 266
+, "Tesla": 216
+, "Audi": 183
+, "Mini": 170
+, "Kia": 152
+, "Hyundai": 113
+, "Seat": 109
+, "Mercedes-Benz": 101
+, "Suzuki": 84
+, "Volvo": 71
+, "Nissan": 71
+, "Jeep": 50
+, "Mazda": 45
+, "Porsche": 33
+, "Land Rover": 25
+, "Mitsubishi": 22
+, "Alfa Romeo": 19
+, "Jaguar": 14
+, "Lexus": 12
+, "Honda": 8
+, "Smart": 5
+, "SsangYong": 1
+, "other": 64
 });
 
 db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15888552657b04f6d7082af7596a357fe91565b4f2-barometre-mensuel-de-la-mobilite-electrique-avril-2020.pdf",
@@ -1291,8 +1556,42 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 2
 });
 
-db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 96310
+db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/06/2020_05_vpfrance.pdf",
+{ "Renault": 18041
+, "Peugeot": 15214
+, "Citroën": 9567
+, "Dacia": 6352
+, "Volkswagen": 6236
+, "Toyota": 6055
+, "Ford": 3431
+, "Mercedes-Benz": 3077
+, "Audi": 2952
+, "BMW": 2687
+, "Opel": 2595
+, "Kia": 2504
+, "Hyundai": 2336
+, "Fiat": 2247
+, "Škoda": 1987
+, "Mini": 1932
+, "Seat": 1727
+, "Nissan": 1634
+, "DS Automobiles": 1176
+, "Volvo": 1052
+, "Mazda": 615
+, "Suzuki": 611
+, "Porsche": 353
+, "Lexus": 273
+, "Jeep": 272
+, "Tesla": 269
+, "Land Rover": 268
+, "Honda": 252
+, "Mitsubishi": 210
+, "Alfa Romeo": 125
+, "Smart": 75
+, "Jaguar": 73
+, "Subaru": 3
+, "SsangYong": 2
+, "other": 115
 });
 
 db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/15919479677694f4a66316e53c8cdd9d9954bd611d-barometre-mensuel-de-la-mobilite-electrique-mai-2020.pdf",
@@ -1313,8 +1612,43 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Seat|Mii Electric": 2
 });
 
-db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 233814
+db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/07/2020_06_vpfrance.pdf",
+{ "Renault": 54961
+, "Peugeot": 34507
+, "Citroën": 20929
+, "Dacia": 16573
+, "Volkswagen": 13714
+, "Toyota": 11361
+, "Ford": 9810
+, "Mercedes-Benz": 9391
+, "BMW": 6156
+, "Audi": 6140
+, "Fiat": 5504
+, "Opel": 5341
+, "Kia": 5042
+, "Hyundai": 4413
+, "Suzuki": 4085
+, "Nissan": 3997
+, "Škoda": 3895
+, "Seat": 3844
+, "Mini": 2862
+, "DS Automobiles": 2174
+, "Volvo": 2129
+, "Mazda": 1302
+, "Lexus": 929
+, "Mitsubishi": 838
+, "Tesla": 728
+, "Porsche": 615
+, "Jeep": 607
+, "Land Rover": 544
+, "Honda": 521
+, "Alfa Romeo": 250
+, "Smart": 233
+, "Jaguar": 152
+, "Subaru": 9
+, "SsangYong": 9
+, "Maserati": 4
+, "other": 247
 });
 
 db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1594205177ec599f8e4fb76b7ada0373696c9cf556-barometre-mensuel-de-la-mobilite-electrique-juin-2020.pdf",
@@ -1335,8 +1669,43 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 10
 });
 
-db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 178980
+db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/08/2020_07_vpfrance.pdf",
+{ "Renault": 33481
+, "Peugeot": 32736
+, "Citroën": 15835
+, "Dacia": 11397
+, "Toyota": 10959
+, "Volkswagen": 9730
+, "Ford": 6278
+, "Fiat": 5252
+, "Kia": 5054
+, "Opel": 4579
+, "Audi": 4477
+, "Mercedes-Benz": 4430
+, "Hyundai": 4426
+, "Nissan": 4112
+, "BMW": 4104
+, "Škoda": 3586
+, "Seat": 3336
+, "Suzuki": 2605
+, "DS Automobiles": 2214
+, "Mini": 2114
+, "Volvo": 1999
+, "Mitsubishi": 1092
+, "Mazda": 873
+, "Jeep": 854
+, "Honda": 721
+, "Lexus": 694
+, "Porsche": 486
+, "Land Rover": 444
+, "Alfa Romeo": 219
+, "Smart": 174
+, "Tesla": 148
+, "Jaguar": 125
+, "SsangYong": 11
+, "Maserati": 8
+, "Subaru": 4
+, "other": 425
 });
 
 db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Site/Article/?article_id=7905, http://ev-sales.blogspot.com/2020/09/france-august-2020.html",
@@ -1356,8 +1725,43 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 38
 });
 
-db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 103631
+db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/09/2020_08_vpfrance.pdf",
+{ "Peugeot": 18997
+, "Renault": 14158
+, "Citroën": 11190
+, "Dacia": 7538
+, "Toyota": 6945
+, "Volkswagen": 4251
+, "Ford": 4072
+, "Mercedes-Benz": 3316
+, "Opel": 3188
+, "Fiat": 3072
+, "Kia": 3046
+, "Audi": 2990
+, "BMW": 2949
+, "Hyundai": 2899
+, "Seat": 2306
+, "Nissan": 2205
+, "Škoda": 1900
+, "Suzuki": 1520
+, "Mini": 1476
+, "Volvo": 1014
+, "DS Automobiles": 893
+, "Mazda": 555
+, "Honda": 545
+, "Mitsubishi": 532
+, "Jeep": 479
+, "Lexus": 377
+, "Tesla": 269
+, "Porsche": 249
+, "Land Rover": 162
+, "Alfa Romeo": 142
+, "Smart": 121
+, "Jaguar": 77
+, "SsangYong": 17
+, "Subaru": 12
+, "Maserati": 10
+, "other": 161
 });
 
 db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Site/Article/?article_id=7905, http://ev-sales.blogspot.com/2020/09/france-august-2020.html",
@@ -1378,8 +1782,43 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 39
 });
 
-db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 168289
+db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/10/2020_09_vpfrance.pdf",
+{ "Peugeot": 32308
+, "Renault": 30634
+, "Citroën": 16779
+, "Dacia": 12320
+, "Volkswagen": 9272
+, "Toyota": 8484
+, "Ford": 6160
+, "Mercedes-Benz": 5303
+, "Fiat": 4885
+, "Opel": 4430
+, "Audi": 4338
+, "BMW": 3998
+, "Kia": 3660
+, "Hyundai": 3337
+, "Nissan": 3093
+, "Škoda": 3081
+, "Seat": 2862
+, "Suzuki": 2249
+, "Mini": 1938
+, "DS Automobiles": 1599
+, "Volvo": 1433
+, "Tesla": 1267
+, "Mazda": 1179
+, "Jeep": 839
+, "Honda": 667
+, "Lexus": 442
+, "Mitsubishi": 401
+, "Land Rover": 359
+, "Porsche": 272
+, "Alfa Romeo": 262
+, "Smart": 180
+, "Jaguar": 66
+, "SsangYong": 16
+, "Subaru": 11
+, "Maserati": 9
+, "other": 157
 });
 
 db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/160250351194dd331f23f5dee3187185b9047eb9e5-barometre-mensuel-de-la-mobilite-electrique-septembre-2020(5).pdf, http://ev-sales.blogspot.com/2020/10/france-september-2020.html",
@@ -1399,8 +1838,43 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 171050
+db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/11/2020-10-vpfrance.pdf",
+{ "Peugeot": 34499
+, "Renault": 33043
+, "Citroën": 18881
+, "Volkswagen": 10620
+, "Dacia": 9535
+, "Toyota": 6939
+, "Mercedes-Benz": 5361
+, "Opel": 5097
+, "Audi": 4724
+, "Ford": 4696
+, "Kia": 4318
+, "Fiat": 4082
+, "BMW": 3979
+, "Hyundai": 3593
+, "Škoda": 3012
+, "Nissan": 3009
+, "Seat": 2448
+, "Suzuki": 2294
+, "Mini": 2262
+, "DS Automobiles": 1953
+, "Volvo": 1656
+, "Mazda": 881
+, "Honda": 769
+, "Jeep": 708
+, "Land Rover": 594
+, "Lexus": 500
+, "Porsche": 346
+, "Alfa Romeo": 283
+, "Mitsubishi": 227
+, "Smart": 192
+, "Tesla": 107
+, "Jaguar": 84
+, "SsangYong": 32
+, "Maserati": 11
+, "Subaru": 9
+, "other": 308
 });
 
 db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/160502708592eb5ffee6ae2fec3ad71c777531578f-barometre-mensuel-de-la-mobilite-electrique-octobre-2020(8).pdf",
@@ -1418,8 +1892,43 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 47
 });
 
-db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 126047
+db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/12/2020-11-vpfrance.pdf",
+{ "Peugeot": 25310
+, "Renault": 21271
+, "Citroën": 11485
+, "Volkswagen": 9298
+, "Toyota": 6932
+, "Dacia": 6653
+, "Mercedes-Benz": 4943
+, "BMW": 4127
+, "Audi": 4072
+, "Ford": 3646
+, "Fiat": 3080
+, "Kia": 3014
+, "Opel": 2981
+, "Škoda": 2510
+, "Nissan": 2081
+, "DS Automobiles": 1996
+, "Mini": 1975
+, "Seat": 1699
+, "Hyundai": 1578
+, "Volvo": 1460
+, "Suzuki": 1159
+, "Land Rover": 757
+, "Jeep": 632
+, "Mazda": 591
+, "Tesla": 537
+, "Porsche": 426
+, "Lexus": 357
+, "Honda": 352
+, "Alfa Romeo": 244
+, "Smart": 221
+, "Mitsubishi": 201
+, "Jaguar": 51
+, "SsangYong": 48
+, "Subaru": 11
+, "Maserati": 11
+, "other": 340
 });
 
 db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/16076131731061bf930edb9ea8a6a642dae6cff744-barometre-des-immatriculations-novembre-2020(1).pdf, http://ev-sales.blogspot.com/2020/12/france-november-2020.html",
