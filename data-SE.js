@@ -460,3 +460,18 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Polestar|2": 166
 , "Hyundai|Kona Electric": 84
 });
+
+db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 34974
+});
+
+db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/sweden-december-2020.html",
+{ "Volkswagen|ID.3": 2564
+, "Tesla|Model 3": 710
+, "Kia|Niro EV": 360
+, "Renault|ZOE": 253
+, "Audi|e-tron": 181
+, "Nissan|Leaf": 332
+, "Hyundai|Kona Electric": 368
+, "Polestar|2": 260
+});
