@@ -2482,12 +2482,14 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 29
 , "BMW|iX3": 26
 , "Nissan|e-NV200": 25
+, "Citroën|ë-Jumpy": 25
 , "Volkswagen|ID.4": 22
 , "Citroën|C-Zero": 14
 , "Volkswagen|e-Caddy": 10
 , "Opel|Ampera-e": 10
 , "Mercedes-Benz|eVito": 10
 , "Volkswagen|E-Transporter": 8
+, "Citroën|ë-C4": 7
 , "Peugeot|iOn": 5
 });
 
