@@ -1946,3 +1946,59 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 96
 , "Volkswagen|e-Crafter": 59
 });
+
+db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/01/2020-12-vpfrance.pdf",
+{ "Renault": 35923
+, "Peugeot": 30174
+, "Citroën": 14750
+, "Volkswagen": 14490
+, "Toyota": 9892
+, "Dacia": 8997
+, "Mercedes-Benz": 7654
+, "BMW": 6983
+, "Audi": 6428
+, "Ford": 5851
+, "Fiat": 5340
+, "Nissan": 3906
+, "Škoda": 3795
+, "Kia": 3680
+, "Hyundai": 3596
+, "Opel": 3363
+, "Mini": 2823
+, "Seat": 2517
+, "Volvo": 2493
+, "DS Automobiles": 2438
+, "Suzuki": 1724
+, "Porsche": 1109
+, "Jeep": 1087
+, "Land Rover": 1078
+, "Tesla": 1034
+, "Mazda": 1025
+, "Lexus": 985
+, "Honda": 765
+, "Mitsubishi": 643
+, "Alfa Romeo": 468
+, "Smart": 241
+, "Jaguar": 239
+, "Maserati": 74
+, "SsangYong": 34
+, "Subaru": 33
+, "other": 693
+});
+
+db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/161011498173a9d7b7d55aef7bdda9008a7e50cb38-barometre-des-immatriculations-decembre-2020(9).pdf",
+{ "Renault|ZOE": 6226
+, "Volkswagen|ID.3": 2550
+, "Dacia|Spring": 1721
+, "Fiat|500e": 1454
+, "Renault|Kangoo Z.E.": 1353
+, "Peugeot|e-208": 1314
+, "Tesla|Model 3": 878
+, "Kia|Niro EV": 601
+, "Volkswagen|e-up!": 525
+, "Hyundai|Kona Electric": 474
+, "Renault|Kangoo Z.E.": 462
+, "Volkswagen|e-Crafter": 66
+, "Citroën|ë-Jumpy": 52
+, "Nissan|e-NV200": 43
+});
