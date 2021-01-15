@@ -292,3 +292,10 @@ a.export {
   bottom: -6px;
   cursor: pointer;
 }
+
+.noData {
+  color: grey;
+  font-style: italic;
+  font-size: 110%;
+  padding-top: 5px;
+}

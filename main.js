@@ -273,7 +273,8 @@ function renderChart(chartIndex) {
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
     chartDiv.appendChild(div);
-    div.appendChild(document.createTextNode("No data"));
+    div.appendChild(document.createTextNode("No data available"));
+    div.classList.add("noData");
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
