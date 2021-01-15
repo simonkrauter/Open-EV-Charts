@@ -244,7 +244,7 @@ function renderFilterAsButtons(parentDiv, param) {
 function addSelectElement(parent, defaultOptionText) {
   var selectWrapper = document.createElement("DIV");
   parent.appendChild(selectWrapper);
-  selectWrapper.classList.add("select-wrapper");
+  selectWrapper.classList.add("selectWrapper");
   var select = document.createElement("SELECT");
   selectWrapper.appendChild(select);
   return select;
@@ -261,7 +261,7 @@ function renderChart(chartIndex) {
   const chartDiv = document.createElement("DIV");
   dynamicContent.appendChild(chartDiv);
   chartDiv.dataChartIndex = chartIndex;
-  chartDiv.classList.add("chart-tile");
+  chartDiv.classList.add("chartTile");
   if (isSingleChart)
     chartDiv.classList.add("single");
 
@@ -299,7 +299,7 @@ function renderChartTitle(chartDiv, chartConfig) {
     titleElem.title = "Show only this chart (bigger)";
   }
   chartDiv.appendChild(titleElem);
-  titleElem.classList.add("chart-title");
+  titleElem.classList.add("chartTitle");
   titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig)));
 
   if (!isSingleChart) {
@@ -312,7 +312,7 @@ function renderChartTitle(chartDiv, chartConfig) {
 function renderChartTabButtons(chartDiv) {
   const tabButtonsDiv = document.createElement("DIV");
   chartDiv.appendChild(tabButtonsDiv);
-  tabButtonsDiv.classList.add("tab-buttons");
+  tabButtonsDiv.classList.add("tabButtons");
   const params = db.getChartParams(chartSetConfig);
   const viewOptions = params.view.options;
   for (const i in viewOptions)
@@ -416,7 +416,7 @@ function createButton() {
 
 function createRemoveButton() {
   var removeButton = createButton();
-  removeButton.classList.add("remove-button");
+  removeButton.classList.add("removeButton");
   removeButton.title = "Remove";
   return removeButton;
 }

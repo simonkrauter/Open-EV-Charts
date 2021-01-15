@@ -40,7 +40,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a.button, .select-wrapper {
+a.button, .selectWrapper {
   border-radius: 2px;
   display: inline-block;
   margin-top: 6px;
@@ -51,7 +51,7 @@ a.button, .select-wrapper {
 }
 
 @media (min-width: 1150px) {
-  .filters > a.button, .filters > .select-wrapper {
+  .filters > a.button, .filters > .selectWrapper {
     margin-left: 12px;
     margin-right: 12px;
   }
@@ -62,7 +62,7 @@ a.button {
   color: white;
 }
 
-a.button.active, .select-wrapper, .horizontalBar {
+a.button.active, .selectWrapper, .horizontalBar {
   background: #2A81C9;
   color: white;
 }
@@ -71,7 +71,7 @@ a.button:hover  {
   background: #6B6B6B;
   text-decoration: none;
 }
-a.button.active:hover, .select-wrapper:hover  {
+a.button.active:hover, .selectWrapper:hover  {
   background: #4899DB;
   text-decoration: none;
 }
@@ -107,11 +107,11 @@ h1 sup {
   font-size: 45%;
 }
 
-.select-wrapper {
+.selectWrapper {
   position: relative;
 }
 
-.select-wrapper select {
+.selectWrapper select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -129,7 +129,7 @@ h1 sup {
   border-radius: inherit;
 }
 
-.select-wrapper::after {
+.selectWrapper::after {
   content: " ";
   position: absolute;
   width: 8px;
@@ -159,7 +159,7 @@ body.showFocus *:focus {
   font-size: 92%;
 }
 
-a.button.remove-button {
+a.button.removeButton {
   background: none;
   padding: 5px;
   padding-top: 0;
@@ -173,19 +173,19 @@ a.button.remove-button {
   vertical-align: top;
 }
 
-a.button.remove-button:hover {
+a.button.removeButton:hover {
   opacity: 1;
 }
 
-a.button.remove-button:after {
+a.button.removeButton:after {
   content: "\00d7";
 }
 
-.filters a.button.remove-button {
+.filters a.button.removeButton {
   padding-top: 6px;
 }
 
-.button.remove-button > i {
+.button.removeButton > i {
   padding: 5px;
 }
 
@@ -205,19 +205,19 @@ a.button.remove-button:after {
   text-align: left;
 }
 
-.chart-tile {
+.chartTile {
   display: inline-block;
   vertical-align: top;
   position: relative;
 }
 
-.chart-tile:not(.single) {
+.chartTile:not(.single) {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 20px;
 }
 
-.chart-title {
+.chartTitle {
   display: inline-block;
   padding: 3px;
   margin-right: 40px;
@@ -225,23 +225,23 @@ a.button.remove-button:after {
   white-space: nowrap;
 }
 
-.chart-tile .remove-button {
+.chartTile .removeButton {
   position: absolute;
   right: 0;
 }
 
-.tab-buttons {
+.tabButtons {
   margin-bottom: 5px;
 }
 
-.tab-buttons > * {
+.tabButtons > * {
   display: inline-block;
   padding: 3px;
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.tab-buttons > div {
+.tabButtons > div {
   font-weight: bold;
 }
 
