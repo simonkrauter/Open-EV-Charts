@@ -8,470 +8,825 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.sc
 { "other": 23815
 });
 
-db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/02/sweden-january-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/1",
 { "Renault|ZOE": 71
+, "BMW|i3 BEV": 36
 , "Volkswagen|e-Golf": 31
+, "Tesla|Model S": 15
+, "Volkswagen|e-up!": 13
+, "Hyundai|Ioniq Electric": 13
+, "Tesla|Model X": 4
+, "Nissan|e-NV200": 2
+, "Kia|Soul EV": 1
 });
 
 db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 27815
 });
 
-db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/sweden-february-2018.html (incomplete, missing i3 BEV)",
-{ "Renault|ZOE": 80
-, "Hyundai|Ioniq Electric": 97
-, "Volkswagen|e-Golf": 31
-, "Nissan|e-NV200": 49
+db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/2",
+{ "Hyundai|Ioniq Electric": 97
+, "Renault|ZOE": 80
+, "Nissan|Leaf": 54
+, "Volkswagen|e-Golf": 32
+, "BMW|i3 BEV": 23
+, "Tesla|Model S": 22
+, "Tesla|Model X": 7
+, "Volkswagen|e-up!": 2
+, "Kia|Soul EV": 1
 });
 
 db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 37957
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/sweden-march-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/3",
 { "Nissan|Leaf": 250
-, "Renault|ZOE": 85
-, "Hyundai|Ioniq Electric": 114
 , "Tesla|Model S": 146
-, "Volkswagen|e-Golf": 36
+, "Hyundai|Ioniq Electric": 116
+, "Renault|ZOE": 85
+, "BMW|i3 BEV": 53
+, "Tesla|Model X": 52
+, "Volkswagen|e-Golf": 37
+, "Volkswagen|e-up!": 7
+, "Kia|Soul EV": 2
+, "Volvo|XC40 Recharge pure electric": 1
+, "Citroën|ë-C4": 1
 });
 
 db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 35601
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/sweden-april-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/4",
 { "Nissan|Leaf": 139
 , "Renault|ZOE": 56
-, "Hyundai|Ioniq Electric": 28
 , "Tesla|Model S": 44
+, "BMW|i3 BEV": 43
+, "Hyundai|Ioniq Electric": 28
 , "Volkswagen|e-Golf": 27
+, "Tesla|Model X": 23
+, "Volkswagen|e-up!": 5
+, "Kia|Soul EV": 5
 });
 
 db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 39446
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/sweden-may-2018.html (incomplete, missing i3 BEV)",
-{ "Nissan|Leaf": 47
-, "Renault|ZOE": 51
-, "Hyundai|Ioniq Electric": 19
-, "Tesla|Model S": 29
+db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/5",
+{ "Renault|ZOE": 51
+, "Nissan|Leaf": 46
 , "Volkswagen|e-Golf": 40
+, "BMW|i3 BEV": 38
+, "Tesla|Model S": 29
+, "Kia|Soul EV": 21
+, "Tesla|Model X": 20
+, "Hyundai|Ioniq Electric": 19
+, "Volkswagen|e-up!": 11
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 67553
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/sweden-june-2018.html (incomplete, missing i3 BEV)",
-{ "Nissan|Leaf": 19
+db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/6",
+{ "Tesla|Model S": 82
+, "BMW|i3 BEV": 65
 , "Renault|ZOE": 43
-, "Tesla|Model S": 85
+, "Tesla|Model X": 34
+, "Volkswagen|e-Golf": 31
+, "Kia|Soul EV": 29
+, "Nissan|Leaf": 19
+, "Nissan|e-NV200": 13
 , "Hyundai|Ioniq Electric": 13
-, "Volkswagen|e-Golf": 30
 });
 
 db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 13798
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/sweden-july-2018.html (incomplete, missing i3 BEV)",
-{ "Nissan|Leaf": 62
-, "Renault|ZOE": 126
+db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/7",
+{ "Renault|ZOE": 126
+, "Nissan|e-NV200": 74
 , "Tesla|Model S": 65
-, "Hyundai|Ioniq Electric": 16
+, "Nissan|Leaf": 62
 , "Volkswagen|e-Golf": 54
+, "BMW|i3 BEV": 50
+, "Tesla|Model X": 31
+, "Kia|Soul EV": 26
+, "Hyundai|Ioniq Electric": 16
+, "Jaguar|I-Pace": 9
+, "Volkswagen|e-up!": 7
 });
 
-// No source found for electric car sales 2019-08
+db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 19886
+});
+
+db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/8",
+{ "Renault|ZOE": 155
+, "Nissan|Leaf": 121
+, "Tesla|Model S": 73
+, "Volkswagen|e-Golf": 53
+, "BMW|i3 BEV": 46
+, "Kia|Soul EV": 37
+, "Hyundai|Ioniq Electric": 25
+, "Tesla|Model X": 24
+, "Volkswagen|e-up!": 14
+, "Nissan|e-NV200": 8
+, "Jaguar|I-Pace": 1
+});
 
 db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 19886
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/sweden-september-2018.html (incomplete, missing i3 BEV)",
-{ "Nissan|Leaf": 168
-, "Renault|ZOE": 191
+db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/9",
+{ "Renault|ZOE": 191
 , "Tesla|Model S": 173
+, "Nissan|Leaf": 168
+, "Tesla|Model X": 42
+, "BMW|i3 BEV": 35
+, "Kia|Soul EV": 15
+, "Jaguar|I-Pace": 12
 , "Hyundai|Ioniq Electric": 11
 , "Volkswagen|e-Golf": 6
-, "Tesla|Model X": 42
+, "Nissan|e-NV200": 4
+, "Volkswagen|e-up!": 1
 });
 
 db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 24128
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/sweden-october-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/10",
 { "Renault|ZOE": 299
 , "Nissan|Leaf": 240
-, "Tesla|Model S": 44
 , "Hyundai|Ioniq Electric": 74
+, "BMW|i3 BEV": 69
+, "Tesla|Model S": 44
+, "Jaguar|I-Pace": 29
 , "Volkswagen|e-Golf": 12
 , "Tesla|Model X": 10
+, "Nissan|e-NV200": 6
+, "Kia|Soul EV": 6
+, "Hyundai|Kona Electric": 4
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 26357
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/sweden-november-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/11",
 { "Nissan|Leaf": 388
-, "Renault|ZOE": 166
-, "Tesla|Model S": 72
 , "Volkswagen|e-Golf": 225
+, "Renault|ZOE": 166
+, "BMW|i3 BEV": 92
+, "Kia|Niro EV": 84
 , "Hyundai|Ioniq Electric": 78
-, "Tesla|Model X": 12
+, "Tesla|Model S": 72
+, "Kia|Soul EV": 45
+, "Tesla|Model X": 25
+, "Jaguar|I-Pace": 17
+, "Volkswagen|e-up!": 7
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 23414
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/sweden-december-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2018/12",
 { "Nissan|Leaf": 343
 , "Renault|ZOE": 340
-, "Tesla|Model S": 107
+, "Tesla|Model S": 113
+, "Tesla|Model X": 68
+, "BMW|i3 BEV": 62
 , "Volkswagen|e-Golf": 61
+, "Kia|Soul EV": 40
 , "Hyundai|Ioniq Electric": 31
-, "Tesla|Model X": 66
+, "Kia|Niro EV": 15
+, "Volkswagen|e-up!": 10
+, "Jaguar|I-Pace": 10
+, "Hyundai|Kona Electric": 3
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 21117
 });
 
-db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/sweden-january-2019.html",
+db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/1",
 { "Nissan|Leaf": 264
 , "Renault|ZOE": 239
 , "Kia|Niro EV": 175
 , "Hyundai|Ioniq Electric": 101
-, "BMW|i3 BEV": 96
+, "BMW|i3 BEV": 95
 , "Kia|Soul EV": 53
 , "Hyundai|Kona Electric": 42
 , "Volkswagen|e-Golf": 37
+, "Tesla|Model S": 29
+, "Volkswagen|e-up!": 21
+, "Jaguar|I-Pace": 16
+, "Tesla|Model X": 8
+, "Nissan|e-NV200": 1
 });
 
 db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 23789
 });
 
-db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/sweden-february-2019.html",
+db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/2",
 { "Renault|ZOE": 236
+, "Kia|Niro EV": 164
 , "Nissan|Leaf": 153
-, "Kia|Niro EV": 163
 , "BMW|i3 BEV": 111
-, "Hyundai|Ioniq Electric": 27
-, "Hyundai|Kona Electric": 51
 , "Tesla|Model S": 52
+, "Hyundai|Kona Electric": 51
 , "Volkswagen|e-Golf": 35
+, "Hyundai|Ioniq Electric": 27
+, "Audi|e-tron": 17
+, "Volkswagen|e-up!": 11
+, "Jaguar|I-Pace": 11
+, "Nissan|e-NV200": 8
+, "Tesla|Model X": 7
 , "Kia|Soul EV": 5
+, "Peugeot|iOn": 1
 });
 
 db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 31079
 });
 
-db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/sweden-march-2018.html",
-{ "Tesla|Model 3": 1005
-, "Renault|ZOE": 194
+db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/3",
+{ "Tesla|Model 3": 997
 , "Kia|Niro EV": 296
+, "Renault|ZOE": 194
+, "BMW|i3 BEV": 146
 , "Nissan|Leaf": 134
-, "BMW|i3 BEV": 147
 , "Hyundai|Kona Electric": 90
-, "Hyundai|Ioniq Electric": 31
 , "Tesla|Model S": 72
+, "Audi|e-tron": 47
+, "Jaguar|I-Pace": 33
+, "Hyundai|Ioniq Electric": 30
+, "Tesla|Model X": 29
 , "Volkswagen|e-Golf": 22
+, "Volkswagen|e-up!": 8
+, "Nissan|e-NV200": 3
+, "Kia|Soul EV": 1
 });
 
 db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 31451
 });
 
-db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/sweden-april-2019.html",
+db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/4",
 { "Tesla|Model 3": 446
 , "Renault|ZOE": 204
 , "Kia|Niro EV": 174
 , "Nissan|Leaf": 113
 , "BMW|i3 BEV": 110
 , "Tesla|Model S": 90
-, "Hyundai|Kona Electric": 50
-, "Hyundai|Ioniq Electric": 22
 , "Volkswagen|e-Golf": 52
+, "Hyundai|Kona Electric": 50
 , "Audi|e-tron": 43
+, "Jaguar|I-Pace": 33
+, "Tesla|Model X": 23
+, "Hyundai|Ioniq Electric": 22
+, "Nissan|e-NV200": 6
+, "Kia|Soul EV": 5
+, "Volkswagen|e-up!": 2
 });
 
 db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 33250
 });
 
-db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/sweden-may-2019.html",
-{ "Tesla|Model 3": 198
-, "Renault|ZOE": 199
+db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/5",
+{ "Renault|ZOE": 199
+, "Tesla|Model 3": 198
 , "Kia|Niro EV": 140
-, "Nissan|Leaf": 17
 , "BMW|i3 BEV": 138
 , "Tesla|Model S": 112
+, "Kia|Soul EV": 112
+, "Audi|e-tron": 80
+, "Volkswagen|e-Golf": 62
+, "Tesla|Model X": 56
 , "Hyundai|Kona Electric": 51
 , "Hyundai|Ioniq Electric": 27
-, "Volkswagen|e-Golf": 62
-, "Audi|e-tron": 80
+, "Jaguar|I-Pace": 23
+, "Nissan|Leaf": 17
+, "Nissan|e-NV200": 8
+, "Volkswagen|e-up!": 5
+, "Opel|Corsa-e": 1
 });
 
 db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 33119
 });
 
-db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/sweden-june-2018.html",
+db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/6",
 { "Tesla|Model 3": 524
 , "Renault|ZOE": 229
-, "Kia|Niro EV": 166
-, "Nissan|Leaf": 79
-, "BMW|i3 BEV": 98
 , "Tesla|Model S": 209
-, "Hyundai|Kona Electric": 84
-, "Audi|e-tron": 75
+, "BMW|i3 BEV": 98
 , "Kia|Soul EV": 94
+, "Kia|Niro EV": 91
+, "Tesla|Model X": 86
+, "Hyundai|Kona Electric": 84
+, "Nissan|Leaf": 79
+, "Audi|e-tron": 75
 , "Volkswagen|e-Golf": 45
+, "Hyundai|Ioniq Electric": 28
+, "Jaguar|I-Pace": 9
+, "Volkswagen|e-up!": 6
+, "Nissan|e-NV200": 6
+, "Peugeot|iOn": 3
+, "Fiat|500e": 1
 });
 
-// No source found for electric car sales 2019-07
+db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 24951
+});
+
+db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/7",
+{ "Tesla|Model 3": 453
+, "Renault|ZOE": 122
+, "Nissan|Leaf": 84
+, "Tesla|Model S": 70
+, "BMW|i3 BEV": 67
+, "Tesla|Model X": 53
+, "Audi|e-tron": 49
+, "Kia|Soul EV": 48
+, "Hyundai|Ioniq Electric": 32
+, "Volkswagen|e-Golf": 30
+, "Hyundai|Kona Electric": 29
+, "Kia|Niro EV": 18
+, "Jaguar|I-Pace": 13
+, "Volkswagen|e-up!": 5
+, "Fiat|500e": 3
+, "Nissan|e-NV200": 2
+, "Opel|Corsa-e": 1
+});
 
 db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 30493
 });
 
-db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/sweden-july-2019.html",
+db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/8",
 { "Tesla|Model 3": 148
 , "Renault|ZOE": 138
-, "Kia|Niro EV": 32
 , "Nissan|Leaf": 119
-, "BMW|i3 BEV": 78
 , "Tesla|Model S": 117
-, "Hyundai|Kona Electric": 10
+, "BMW|i3 BEV": 78
 , "Audi|e-tron": 75
 , "Volkswagen|e-Golf": 63
-, "Kia|Soul EV": 28
+, "Tesla|Model X": 59
 , "Hyundai|Ioniq Electric": 55
+, "Kia|Niro EV": 32
+, "Kia|Soul EV": 28
+, "Jaguar|I-Pace": 11
+, "Hyundai|Kona Electric": 10
+, "Volkswagen|e-up!": 9
+, "Nissan|e-NV200": 8
 });
 
 db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 27728
 });
 
-db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/sweden-september-2019.html",
+db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/9",
 { "Tesla|Model 3": 716
-, "Renault|ZOE": 148
-, "Kia|Niro EV": 86
-, "Nissan|Leaf": 142
 , "Tesla|Model S": 197
-, "BMW|i3 BEV": 69
-, "Audi|e-tron": 87
+, "Renault|ZOE": 148
+, "Nissan|Leaf": 142
 , "Volkswagen|e-Golf": 132
-, "Hyundai|Kona Electric": 20
 , "Tesla|Model X": 89
+, "Audi|e-tron": 87
+, "Kia|Niro EV": 86
+, "BMW|i3 BEV": 69
+, "Hyundai|Ioniq Electric": 34
+, "Hyundai|Kona Electric": 20
+, "Jaguar|I-Pace": 13
+, "Kia|Soul EV": 6
+, "Nissan|e-NV200": 4
+, "Fiat|500e": 3
+, "Volkswagen|e-up!": 2
 });
 
 db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 30493
 });
 
-db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/sweden-october-2019.html",
-{ "Tesla|Model 3": 47
+db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/10",
+{ "Nissan|Leaf": 141
 , "Renault|ZOE": 128
 , "Kia|Niro EV": 104
-, "Nissan|Leaf": 141
-, "BMW|i3 BEV": 62
-, "Tesla|Model S": 15
 , "Audi|e-tron": 78
 , "Volkswagen|e-Golf": 69
+, "BMW|i3 BEV": 62
+, "Hyundai|Ioniq Electric": 61
+, "Tesla|Model 3": 47
 , "Hyundai|Kona Electric": 43
+, "Tesla|Model X": 21
+, "Jaguar|I-Pace": 17
+, "Tesla|Model S": 15
+, "Kia|Soul EV": 9
+, "Nissan|e-NV200": 6
+, "Fiat|500e": 2
+, "Volkswagen|e-up!": 1
 });
 
 db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 31126
 });
 
-db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/sweden-november-2019.html",
-{ "Tesla|Model 3": 75
+db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/11",
+{ "Nissan|Leaf": 224
+, "Hyundai|Ioniq Electric": 114
 , "Renault|ZOE": 113
-, "Nissan|Leaf": 224
-, "Kia|Niro EV": 63
-, "BMW|i3 BEV": 90
 , "Tesla|Model S": 104
-, "Audi|e-tron": 46
+, "BMW|i3 BEV": 90
+, "Tesla|Model 3": 75
+, "Kia|Niro EV": 63
+, "Tesla|Model X": 51
 , "Volkswagen|e-Golf": 47
+, "Audi|e-tron": 46
+, "Hyundai|Kona Electric": 42
+, "Kia|Soul EV": 31
+, "Jaguar|I-Pace": 23
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 48365
 });
 
-db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/sweden-december-2019.html",
-{ "Tesla|Model 3": 602
+db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2019/12",
+{ "Tesla|Model 3": 604
+, "Tesla|Model S": 288
+, "Tesla|Model X": 146
+, "Hyundai|Kona Electric": 117
+, "BMW|i3 BEV": 108
 , "Renault|ZOE": 86
 , "Nissan|Leaf": 71
-, "Tesla|Model S": 286
-, "Kia|Niro EV": 8
-, "BMW|i3 BEV": 108
+, "Hyundai|Ioniq Electric": 70
 , "Audi|e-tron": 47
+, "Volkswagen|e-Golf": 19
+, "Jaguar|I-Pace": 13
+, "Volkswagen|e-up!": 11
+, "Kia|Niro EV": 8
+, "Kia|Soul EV": 5
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 17790
 });
 
-db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/sweden-january-2020.html",
+db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/1",
 { "Kia|Niro EV": 282
 , "Renault|ZOE": 133
 , "Kia|Soul EV": 117
 , "Audi|e-tron": 116
 , "Nissan|Leaf": 89
-, "Tesla|Model S": 89
+, "Tesla|Model S": 83
 , "BMW|i3 BEV": 73
+, "Volkswagen|e-Golf": 67
+, "Tesla|Model 3": 67
+, "Hyundai|Ioniq Electric": 66
+, "Volkswagen|e-up!": 39
+, "Hyundai|Kona Electric": 30
+, "Tesla|Model X": 15
+, "Jaguar|I-Pace": 14
+, "Seat|Mii Electric": 5
+, "Nissan|e-NV200": 2
 });
 
 db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 22489
 });
 
-db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/sweden-february-2020.html",
+db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/2",
 { "Kia|Niro EV": 359
 , "Audi|e-tron": 208
 , "Renault|ZOE": 138
-, "Nissan|Leaf": 93
-, "Kia|Soul EV": 62
+, "Hyundai|Kona Electric": 101
 , "Tesla|Model 3": 98
+, "Nissan|Leaf": 93
+, "Volkswagen|e-Golf": 72
+, "Kia|Soul EV": 62
+, "BMW|i3 BEV": 61
+, "Hyundai|Ioniq Electric": 50
+, "Volkswagen|e-up!": 41
+, "Škoda|Citigo-e": 35
+, "Tesla|Model X": 21
+, "Tesla|Model S": 20
+, "Jaguar|I-Pace": 18
+, "Porsche|Taycan": 3
+, "Nissan|e-NV200": 3
 });
 
 db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 28535
 });
 
-db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/sweden-march-2020.html",
+db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/3",
 { "Tesla|Model 3": 1084
-, "Kia|Niro EV": 139
 , "Audi|e-tron": 315
 , "Renault|ZOE": 310
-, "Nissan|Leaf": 152
+, "Tesla|Model S": 179
 , "Volkswagen|e-Golf": 155
+, "Nissan|Leaf": 152
+, "Kia|Niro EV": 139
+, "Hyundai|Kona Electric": 134
+, "Tesla|Model X": 96
+, "BMW|i3 BEV": 84
+, "Volkswagen|e-up!": 60
+, "Hyundai|Ioniq Electric": 50
+, "Porsche|Taycan": 42
+, "Škoda|Citigo-e": 33
+, "Seat|Mii Electric": 22
+, "Kia|Soul EV": 22
+, "Nissan|e-NV200": 10
+, "Jaguar|I-Pace": 9
 });
 
 db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 19831
 });
 
-db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/sweden-april-2020.html",
-{ "Tesla|Model 3": 76
-, "Kia|Niro EV": 44
+db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/4",
+{ "Renault|ZOE": 159
 , "Audi|e-tron": 146
-, "Renault|ZOE": 159
 , "Nissan|Leaf": 139
+, "Tesla|Model 3": 76
 , "Hyundai|Kona Electric": 76
+, "BMW|i3 BEV": 64
+, "Volkswagen|e-up!": 62
 , "Tesla|Model S": 55
+, "Kia|Niro EV": 44
+, "Volkswagen|e-Golf": 38
+, "Hyundai|Ioniq Electric": 32
+, "Kia|Soul EV": 30
+, "Porsche|Taycan": 16
+, "Škoda|Citigo-e": 13
+, "Tesla|Model X": 10
+, "Seat|Mii Electric": 7
+, "Nissan|e-NV200": 5
+, "Jaguar|I-Pace": 5
 });
 
 db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 16899
 });
 
-db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/06/sweden-may-2020.html",
-{ "Tesla|Model 3": 69
-, "Audi|e-tron": 70
-, "Kia|Niro EV": 29
+db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/5",
+{ "Volkswagen|e-Golf": 135
+, "Hyundai|Kona Electric": 123
 , "Renault|ZOE": 98
 , "Nissan|Leaf": 90
-, "Volkswagen|e-Golf": 135
-, "Hyundai|Kona Electric": 123
+, "Audi|e-tron": 70
+, "Tesla|Model 3": 69
+, "BMW|i3 BEV": 52
+, "Kia|Niro EV": 29
+, "Tesla|Model S": 25
+, "Volkswagen|e-up!": 24
+, "Hyundai|Ioniq Electric": 24
+, "Kia|Soul EV": 18
+, "Tesla|Model X": 15
+, "Porsche|Taycan": 12
+, "Seat|Mii Electric": 9
+, "Nissan|e-NV200": 6
+, "Jaguar|I-Pace": 6
+, "Škoda|Citigo-e": 5
+, "Honda|e": 4
 });
 
 db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 26058
 });
 
-db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/07/sweden-june-2020.html",
+db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/6",
 { "Tesla|Model 3": 312
 , "Renault|ZOE": 299
 , "Audi|e-tron": 218
-, "Kia|Niro EV": 129
-, "Nissan|Leaf": 84
+, "Kia|Niro EV": 126
 , "Hyundai|Kona Electric": 100
+, "Tesla|Model S": 86
+, "Nissan|Leaf": 84
+, "Tesla|Model X": 68
+, "Volkswagen|e-Golf": 59
+, "Volkswagen|e-up!": 57
+, "BMW|i3 BEV": 57
+, "Porsche|Taycan": 37
+, "Hyundai|Ioniq Electric": 27
+, "Kia|Soul EV": 23
+, "Honda|e": 23
+, "Seat|Mii Electric": 20
+, "Škoda|Citigo-e": 14
+, "Peugeot|e-208": 9
+, "Polestar|2": 6
+, "Jaguar|I-Pace": 5
+, "Volkswagen|e-Caddy": 1
+, "Nissan|e-NV200": 1
 });
 
-// No source found for electric car sales 2020-07
+db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 23804
+});
+
+db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/7",
+{ "Kia|Niro EV": 229
+, "Audi|e-tron": 138
+, "Renault|ZOE": 136
+, "Volkswagen|e-Golf": 131
+, "Hyundai|Kona Electric": 122
+, "Porsche|Taycan": 88
+, "BMW|i3 BEV": 69
+, "Nissan|Leaf": 64
+, "Polestar|2": 50
+, "Volkswagen|e-up!": 48
+, "Hyundai|Ioniq Electric": 23
+, "Peugeot|e-2008": 19
+, "Kia|Soul EV": 19
+, "Seat|Mii Electric": 15
+, "Opel|Corsa-e": 7
+, "Jaguar|I-Pace": 7
+, "Škoda|Citigo-e": 5
+, "Tesla|Model 3": 5
+, "Peugeot|e-208": 5
+, "Tesla|Model X": 3
+, "Tesla|Model S": 2
+, "Honda|e": 2
+, "Tesla|Model Y": 1
+, "Nissan|e-NV200": 1
+});
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 26545
 });
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/sweden-august-2020.html",
-{ "Tesla|Model 3": 235
-, "Kia|Niro EV": 358
+db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/8",
+{ "Kia|Niro EV": 358
+, "Polestar|2": 268
+, "Tesla|Model 3": 235
 , "Audi|e-tron": 233
-, "Renault|ZOE": 117
 , "Hyundai|Kona Electric": 230
 , "Nissan|Leaf": 181
+, "Renault|ZOE": 117
+, "Porsche|Taycan": 78
 , "Volkswagen|e-Golf": 65
+, "BMW|i3 BEV": 48
+, "Volkswagen|e-up!": 39
+, "Hyundai|Ioniq Electric": 39
+, "Kia|Soul EV": 28
+, "Peugeot|e-208": 22
+, "Škoda|Citigo-e": 13
+, "Peugeot|e-2008": 12
+, "Honda|e": 10
+, "Seat|Mii Electric": 8
+, "Jaguar|I-Pace": 8
+, "Opel|Corsa-e": 5
+, "Tesla|Model S": 4
+, "Nissan|e-NV200": 4
+, "Volkswagen|e-Caddy": 1
 });
 
 db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 29791
 });
 
-db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/10/sweden-september-2020.html",
+db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/9",
 { "Tesla|Model 3": 754
+, "Polestar|2": 564
 , "Volkswagen|ID.3": 460
 , "Kia|Niro EV": 233
 , "Renault|ZOE": 211
-, "Audi|e-tron": 130
+, "Tesla|Model S": 189
 , "Hyundai|Kona Electric": 178
 , "Nissan|Leaf": 172
-, "Polestar|2": 582
+, "Audi|e-tron": 130
+, "Tesla|Model X": 115
+, "Mazda|MX-30": 75
+, "Volkswagen|e-Golf": 66
+, "BMW|i3 BEV": 64
+, "Volkswagen|e-up!": 63
+, "Peugeot|e-208": 42
+, "Škoda|Citigo-e": 36
+, "Peugeot|e-2008": 36
+, "Honda|e": 31
+, "Hyundai|Ioniq Electric": 28
+, "Kia|Soul EV": 26
+, "Opel|Corsa-e": 21
+, "Porsche|Taycan": 14
+, "Seat|Mii Electric": 9
+, "Jaguar|I-Pace": 6
+, "Nissan|e-NV200": 3
+, "Volkswagen|e-Caddy": 2
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 29037
 });
 
-db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/11/sweden-october-2020.html",
-{ "Tesla|Model 3": 34
+db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/10",
+{ "Polestar|2": 274
 , "Kia|Niro EV": 235
 , "Volkswagen|ID.3": 212
-, "Renault|ZOE": 165
-, "Audi|e-tron": 132
 , "Nissan|Leaf": 189
-, "Hyundai|Kona Electric": 125
-, "Polestar|2": 274
 , "Volkswagen|e-Golf": 166
+, "Renault|ZOE": 165
+, "Audi|e-tron": 151
+, "Hyundai|Kona Electric": 125
+, "Mazda|MX-30": 103
+, "BMW|i3 BEV": 70
+, "Honda|e": 57
+, "Peugeot|e-208": 56
+, "Peugeot|e-2008": 51
+, "Porsche|Taycan": 48
+, "Kia|Soul EV": 36
+, "Tesla|Model 3": 34
+, "Hyundai|Ioniq Electric": 34
+, "Volkswagen|e-up!": 30
+, "Opel|Corsa-e": 30
+, "Škoda|Citigo-e": 24
+, "Tesla|Model S": 12
+, "Tesla|Model X": 9
+, "Jaguar|I-Pace": 7
+, "Volkswagen|e-Caddy": 3
+, "Nissan|e-NV200": 2
+, "Volvo|XC40 Recharge pure electric": 1
+, "Seat|Mii Electric": 1
 });
 
 db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 27443
 });
 
-db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/12/sweden-november-2020.html",
-{ "Tesla|Model 3": 87
+db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/11",
+{ "Volkswagen|ID.3": 773
+, "Nissan|Leaf": 230
+, "Polestar|2": 166
+, "Audi|e-tron": 161
 , "Kia|Niro EV": 160
 , "Renault|ZOE": 142
-, "Audi|e-tron": 161
-, "Nissan|Leaf": 230
-, "Volkswagen|ID.3": 773
-, "Polestar|2": 166
+, "Mazda|MX-30": 101
+, "Tesla|Model 3": 87
+, "Peugeot|e-2008": 84
 , "Hyundai|Kona Electric": 84
+, "Volvo|XC40 Recharge pure electric": 80
+, "Porsche|Taycan": 74
+, "BMW|i3 BEV": 58
+, "Volkswagen|e-Golf": 48
+, "Peugeot|e-208": 47
+, "Tesla|Model S": 40
+, "Kia|Soul EV": 37
+, "Hyundai|Ioniq Electric": 34
+, "Jaguar|I-Pace": 28
+, "Volkswagen|e-up!": 19
+, "Tesla|Model X": 16
+, "Honda|e": 16
+, "Škoda|Citigo-e": 14
+, "Opel|Corsa-e": 4
+, "Nissan|e-NV200": 3
+, "Peugeot|iOn": 1
 });
 
 db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 34974
 });
 
-db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/sweden-december-2020.html",
-{ "Volkswagen|ID.3": 2564
-, "Tesla|Model 3": 710
-, "Kia|Niro EV": 360
-, "Renault|ZOE": 253
-, "Audi|e-tron": 181
-, "Nissan|Leaf": 332
+db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Month/2020/12",
+{ "Volkswagen|ID.3": 2569
+, "Tesla|Model 3": 736
 , "Hyundai|Kona Electric": 368
+, "Kia|Niro EV": 360
+, "Nissan|Leaf": 332
 , "Polestar|2": 260
+, "Renault|ZOE": 253
+, "Tesla|Model S": 199
+, "Audi|e-tron": 181
+, "Volvo|XC40 Recharge pure electric": 177
+, "Tesla|Model X": 129
+, "Mazda|MX-30": 104
+, "Volkswagen|e-up!": 97
+, "Honda|e": 78
+, "Peugeot|e-208": 70
+, "BMW|i3 BEV": 69
+, "Hyundai|Ioniq Electric": 64
+, "Kia|Soul EV": 57
+, "Peugeot|e-2008": 56
+, "Škoda|Citigo-e": 54
+, "Porsche|Taycan": 54
+, "Volkswagen|e-Golf": 46
+, "Jaguar|I-Pace": 39
+, "Volkswagen|e-Caddy": 26
+, "Fiat|500e": 17
+, "Opel|Corsa-e": 11
+, "Seat|Mii Electric": 3
+, "Nissan|e-NV200": 1
+, "Ford|Mustang Mach-E": 1
 });
