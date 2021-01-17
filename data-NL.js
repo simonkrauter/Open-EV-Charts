@@ -4,7 +4,7 @@
 
 db.addCountry("NL", "Netherlands");
 
-db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#jan",
+db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/januari/",
 { "Volkswagen": 10482
 , "Opel": 4873
 , "Renault": 3922
@@ -37,13 +37,13 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 125
 , "Lexus": 102
 , "DS Automobiles": 84
-, "Tesla": 78
+, "Tesla": 77
 , "Maserati": 17
 , "Infiniti": 7
-, "other": 120
+, "other": 126
 });
 
-db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/1",
 { "Volkswagen|e-Golf": 506
 , "Hyundai|Ioniq Electric": 324
 , "Opel|Ampera-e": 151
@@ -55,19 +55,20 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 11
 , "Smart|Fortwo electric drive": 9
 , "Smart|Forfour electric drive": 9
-, "Citroën|C-Zero": 7
+, "Peugeot|Partner Electric": 9
 , "Kia|Soul EV": 7
+, "Citroën|C-Zero": 7
 , "Citroën|Berlingo Electric": 2
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#feb",
+db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/februari/",
 { "Opel": 3133
 , "Renault": 3021
 , "Peugeot": 2776
 , "Kia": 2542
 , "Ford": 2367
-, "Volkswagen": 2304
+, "Volkswagen": 2311
 , "Toyota": 1921
 , "Škoda": 1841
 , "Hyundai": 1655
@@ -84,7 +85,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mitsubishi": 468
 , "Mini": 463
 , "Dacia": 339
-, "Tesla": 234
+, "Tesla": 233
 , "Land Rover": 144
 , "Smart": 133
 , "Porsche": 132
@@ -96,10 +97,13 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 49
 , "Subaru": 45
 , "Maserati": 7
-, "other": 172
+, "SsangYong": 3
+, "Infiniti": 2
+, "Chevrolet": 1
+, "other": 168
 });
 
-db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/2",
 { "Tesla|Model S": 168
 , "Nissan|Leaf": 150
 , "Volkswagen|e-Golf": 144
@@ -109,14 +113,15 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 82
 , "Tesla|Model X": 66
 , "Smart|Fortwo electric drive": 7
-, "Peugeot|iOn": 4
 , "Volkswagen|e-up!": 4
+, "Peugeot|iOn": 4
+, "Smart|Forfour electric drive": 1
+, "Peugeot|Partner Electric": 1
 , "Citroën|C-Zero": 1
 , "Citroën|Berlingo Electric": 1
-, "Smart|Forfour electric drive": 1
 });
 
-db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#mar",
+db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/maart/",
 { "Opel": 3867
 , "Volkswagen": 3547
 , "Renault": 3156
@@ -134,7 +139,7 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mazda": 1142
 , "Hyundai": 980
 , "Seat": 926
-, "Tesla": 875
+, "Tesla": 871
 , "Mitsubishi": 848
 , "Suzuki": 843
 , "Mini": 798
@@ -152,10 +157,10 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 38
 , "Maserati": 6
 , "Infiniti": 5
-, "other": 263
+, "other": 275
 });
 
-db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/3",
 { "Tesla|Model S": 592
 , "Nissan|Leaf": 322
 , "Tesla|Model X": 283
@@ -166,13 +171,14 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 63
 , "Smart|Forfour electric drive": 15
 , "Smart|Fortwo electric drive": 4
+, "Peugeot|Partner Electric": 3
 , "Volkswagen|e-up!": 2
-, "Citroën|C-Zero": 2
 , "Peugeot|iOn": 2
 , "Kia|Soul EV": 2
+, "Citroën|C-Zero": 2
 });
 
-db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#apr",
+db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/april/",
 { "Volkswagen": 3900
 , "Renault": 3568
 , "Peugeot": 2512
@@ -186,7 +192,7 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Citroën": 1183
 , "Volvo": 1182
 , "Audi": 1136
-, "Mercedes-Benz": 1079
+, "Mercedes-Benz": 1097
 , "Hyundai": 995
 , "Fiat": 805
 , "Seat": 753
@@ -202,14 +208,17 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 99
 , "DS Automobiles": 92
 , "Jaguar": 91
-, "Tesla": 77
+, "Tesla": 75
 , "Honda": 72
 , "Subaru": 65
 , "Lexus": 62
-, "other": 364
+, "Maserati": 3
+, "Infiniti": 2
+, "SsangYong": 1
+, "other": 359
 });
 
-db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/4",
 { "Nissan|Leaf": 266
 , "Volkswagen|e-Golf": 127
 , "Renault|ZOE": 111
@@ -221,11 +230,12 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 13
 , "Kia|Soul EV": 4
 , "Smart|Fortwo electric drive": 2
-, "Citroën|Berlingo Electric": 1
+, "Peugeot|Partner Electric": 1
 , "Citroën|C-Zero": 1
+, "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#may",
+db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/mei/",
 { "Volkswagen": 4381
 , "Renault": 3304
 , "Opel": 2887
@@ -247,7 +257,7 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 734
 , "Mini": 580
 , "Mitsubishi": 485
-, "Tesla": 428
+, "Tesla": 427
 , "Dacia": 366
 , "Smart": 169
 , "Porsche": 153
@@ -260,10 +270,12 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 63
 , "Subaru": 51
 , "Infiniti": 5
-, "other": 369
+, "Maserati": 4
+, "SsangYong": 1
+, "other": 364
 });
 
-db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/5",
 { "Nissan|Leaf": 264
 , "Tesla|Model S": 255
 , "Tesla|Model X": 173
@@ -276,13 +288,13 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 8
 , "Volkswagen|e-up!": 7
 , "Smart|Fortwo electric drive": 6
-, "Chevrolet|Bolt": 4
 , "Peugeot|iOn": 3
+, "Peugeot|Partner Electric": 3
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#jun",
+db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/juni/",
 { "Volkswagen": 5007
 , "Renault": 4841
 , "Opel": 4328
@@ -298,7 +310,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 1483
 , "Mercedes-Benz": 1426
 , "Mazda": 1162
-, "Tesla": 1122
+, "Tesla": 1125
 , "Audi": 1108
 , "Suzuki": 1031
 , "Seat": 963
@@ -316,10 +328,12 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Honda": 109
 , "Jaguar": 94
 , "Subaru": 58
-, "other": 278
+, "Maserati": 4
+, "Infiniti": 4
+, "other": 270
 });
 
-db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/6",
 { "Tesla|Model S": 647
 , "Tesla|Model X": 475
 , "Nissan|Leaf": 257
@@ -329,17 +343,18 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 109
 , "Opel|Ampera-e": 76
 , "Smart|Forfour electric drive": 12
+, "Peugeot|Partner Electric": 8
 , "Jaguar|I-Pace": 5
-, "Peugeot|iOn": 4
 , "Volkswagen|e-up!": 4
-, "Citroën|C-Zero": 3
-, "Nissan|e-NV200": 3
-, "Citroën|Berlingo Electric": 3
+, "Peugeot|iOn": 4
 , "Smart|Fortwo electric drive": 3
+, "Nissan|e-NV200": 3
+, "Citroën|C-Zero": 3
+, "Citroën|Berlingo Electric": 3
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#jul",
+db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/juli/",
 { "Volkswagen": 5251
 , "Renault": 3954
 , "Opel": 2811
@@ -362,22 +377,24 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mazda": 545
 , "Mini": 404
 , "Mitsubishi": 385
-, "Tesla": 236
+, "Tesla": 238
 , "Porsche": 169
 , "Land Rover": 153
 , "Honda": 110
 , "Alfa Romeo": 106
-, "Jaguar": 104
 , "Jeep": 104
+, "Jaguar": 104
 , "Smart": 86
 , "Subaru": 65
 , "Lexus": 58
 , "DS Automobiles": 28
 , "Infiniti": 6
-, "other": 211
+, "Maserati": 3
+, "SsangYong": 1
+, "other": 207
 });
 
-db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/7",
 { "Nissan|Leaf": 227
 , "Volkswagen|e-Golf": 178
 , "Tesla|Model S": 163
@@ -387,17 +404,16 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 73
 , "Opel|Ampera-e": 61
 , "Jaguar|I-Pace": 28
-, "Nissan|e-NV200": 6
 , "Smart|Forfour electric drive": 6
+, "Nissan|e-NV200": 6
 , "Smart|Fortwo electric drive": 4
 , "Volkswagen|e-up!": 2
 , "Kia|Soul EV": 1
-, "Chevrolet|Bolt": 1
-, "Citroën|Berlingo Electric": 1
 , "Citroën|C-Zero": 1
+, "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#aug",
+db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/augustus/",
 { "Renault": 6159
 , "Volkswagen": 5838
 , "Opel": 3054
@@ -418,7 +434,7 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mazda": 700
 , "Dacia": 662
 , "Seat": 629
-, "Tesla": 601
+, "Tesla": 600
 , "Mini": 530
 , "Mitsubishi": 462
 , "Porsche": 216
@@ -433,19 +449,18 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 33
 , "Maserati": 6
 , "Infiniti": 3
-, "Chrysler": 2
-, "other": 146
+, "other": 148
 });
 
-db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/8",
 { "Tesla|Model S": 401
 , "Nissan|Leaf": 331
 , "Tesla|Model X": 200
 , "Hyundai|Ioniq Electric": 168
 , "BMW|i3 BEV": 126
 , "Volkswagen|e-Golf": 109
-, "Hyundai|Kona Electric": 78
 , "Opel|Ampera-e": 78
+, "Hyundai|Kona Electric": 78
 , "Renault|ZOE": 32
 , "Nissan|e-NV200": 29
 , "Smart|Forfour electric drive": 24
@@ -453,16 +468,17 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 4
 , "Jaguar|I-Pace": 4
 , "Peugeot|iOn": 3
+, "Peugeot|Partner Electric": 1
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#sep",
+db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/september/",
 { "Opel": 3106
 , "BMW": 2091
 , "Peugeot": 2012
-, "Kia": 1910
 , "Toyota": 1910
-, "Tesla": 1646
+, "Kia": 1910
+, "Tesla": 1645
 , "Renault": 1503
 , "Volkswagen": 1476
 , "Volvo": 1363
@@ -491,10 +507,11 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 45
 , "DS Automobiles": 41
 , "Maserati": 5
-, "other": 91
+, "Infiniti": 1
+, "other": 90
 });
 
-db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/9",
 { "Tesla|Model S": 1052
 , "Tesla|Model X": 594
 , "Nissan|Leaf": 294
@@ -511,11 +528,10 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Kia|Soul EV": 4
 , "Peugeot|iOn": 3
-, "Chevrolet|Bolt": 2
 , "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.NL, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#oct",
+db.insert(db.countries.NL, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/oktober/",
 { "Volkswagen": 2914
 , "Peugeot": 2583
 , "Opel": 2287
@@ -550,10 +566,11 @@ db.insert(db.countries.NL, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 37
 , "Porsche": 36
 , "Maserati": 5
-, "other": 61
+, "Infiniti": 3
+, "other": 58
 });
 
-db.insert(db.countries.NL, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/10",
 { "Hyundai|Ioniq Electric": 390
 , "Nissan|Leaf": 359
 , "Tesla|Model S": 257
@@ -568,10 +585,11 @@ db.insert(db.countries.NL, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 13
 , "Nissan|e-NV200": 11
 , "Volkswagen|e-up!": 2
+, "Peugeot|Partner Electric": 1
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#nov",
+db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/november/",
 { "Volkswagen": 5108
 , "Opel": 2786
 , "Peugeot": 2586
@@ -589,7 +607,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Seat": 1024
 , "Audi": 868
 , "Suzuki": 738
-, "Tesla": 760
+, "Tesla": 736
 , "Jaguar": 667
 , "Mazda": 615
 , "Mini": 601
@@ -605,10 +623,12 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 51
 , "Subaru": 47
 , "DS Automobiles": 35
-, "other": 79
+, "Maserati": 4
+, "Infiniti": 2
+, "other": 73
 });
 
-db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/11",
 { "Nissan|Leaf": 671
 , "Jaguar|I-Pace": 606
 , "Tesla|Model S": 443
@@ -623,6 +643,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 16
 , "Kia|Niro EV": 15
 , "Kia|Soul EV": 10
+, "Peugeot|Partner Electric": 9
 , "Smart|Forfour electric drive": 8
 , "Smart|Fortwo electric drive": 5
 , "Citroën|Berlingo Electric": 3
@@ -630,44 +651,44 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.NL, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2018#dec",
-{ "Volkswagen": 901
+db.insert(db.countries.NL, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/december/",
+{ "Jaguar": 2651
+, "Tesla": 2214
 , "Renault": 1765
-, "Opel": 831
-, "Peugeot": 1173
-, "Kia": 598
-, "Ford": 995
 , "Toyota": 1438
-, "BMW": 611
-, "Škoda": 775
-, "Volvo": 482
+, "Peugeot": 1173
+, "Ford": 995
 , "Mercedes-Benz": 937
+, "Volkswagen": 901
+, "Opel": 831
 , "Nissan": 778
+, "Škoda": 775
 , "Hyundai": 705
+, "BMW": 611
+, "Kia": 598
 , "Citroën": 560
-, "Audi": 413
+, "Volvo": 482
 , "Suzuki": 427
-, "Seat": 171
 , "Mazda": 414
-, "Tesla": 2213
-, "Fiat": 230
-, "Mini": 91
-, "Mitsubishi": 191
-, "Jaguar": 2651
+, "Audi": 413
 , "Dacia": 269
-, "Land Rover": 44
+, "Fiat": 230
+, "Mitsubishi": 191
+, "Seat": 171
 , "Smart": 121
-, "Porsche": 14
-, "Alfa Romeo": 12
+, "Mini": 91
+, "Lexus": 54
+, "Land Rover": 44
+, "DS Automobiles": 39
 , "Honda": 37
 , "Jeep": 33
-, "Lexus": 54
-, "DS Automobiles": 39
 , "Subaru": 22
+, "Porsche": 14
+, "Alfa Romeo": 12
 , "other": 32
 });
 
-db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2018/12",
 { "Jaguar|I-Pace": 2618
 , "Tesla|Model S": 1557
 , "Tesla|Model X": 652
@@ -680,18 +701,19 @@ db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 76
 , "Kia|Niro EV": 40
 , "Opel|Ampera-e": 30
+, "Peugeot|Partner Electric": 11
 , "Nissan|e-NV200": 8
 , "Smart|Forfour electric drive": 5
 , "Tesla|Model 3": 4
-, "Citroën|Berlingo Electric": 3
 , "Peugeot|iOn": 3
-, "Kia|Soul EV": 2
-, "Maxus|EV80": 2
+, "Maxus|EV80": 3
+, "Citroën|Berlingo Electric": 3
 , "Volkswagen|e-up!": 2
+, "Kia|Soul EV": 2
 , "Smart|Fortwo electric drive": 1
 });
 
-db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#jan",
+db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/januari/",
 { "Volkswagen": 7312
 , "Opel": 3692
 , "Peugeot": 3479
@@ -722,14 +744,16 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 77
 , "DS Automobiles": 73
 , "Lexus": 67
+, "Tesla": 63
 , "Subaru": 63
-, "Tesla": 55
 , "Smart": 40
 , "Maserati": 8
-, "other": 156
+, "SsangYong": 1
+, "Infiniti": 1
+, "other": 154
 });
 
-db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/1",
 { "Volkswagen|e-Golf": 633
 , "Hyundai|Kona Electric": 532
 , "Nissan|Leaf": 397
@@ -744,16 +768,17 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 14
 , "Kia|Soul EV": 14
 , "Tesla|Model S": 10
-, "Smart|Fortwo electric drive": 5
 , "Tesla|Model X": 5
+, "Smart|Fortwo electric drive": 5
 , "Citroën|C-Zero": 4
 , "Peugeot|iOn": 3
+, "Peugeot|Partner Electric": 3
 , "Citroën|Berlingo Electric": 3
 , "Jaguar|I-Pace": 2
 , "Audi|e-tron": 2
 });
 
-db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#feb",
+db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/februari/",
 { "Volkswagen": 3208
 , "Peugeot": 2463
 , "Opel": 2462
@@ -773,7 +798,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mini": 678
 , "Seat": 601
 , "Suzuki": 597
-, "Tesla": 490
+, "Tesla": 489
 , "Mitsubishi": 487
 , "Fiat": 467
 , "Dacia": 207
@@ -787,10 +812,12 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 36
 , "DS Automobiles": 34
 , "Subaru": 28
-, "other": 165
+, "Maserati": 3
+, "SsangYong": 1
+, "other": 161
 });
 
-db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/2",
 { "Tesla|Model 3": 474
 , "Kia|Niro EV": 319
 , "Hyundai|Kona Electric": 311
@@ -810,14 +837,14 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#mar",
+db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/maart/",
 { "Volkswagen": 3185
 , "Peugeot": 3003
 , "Opel": 2948
 , "Toyota": 2547
 , "Kia": 2475
 , "Renault": 2307
-, "Tesla": 2202
+, "Tesla": 2209
 , "Ford": 2158
 , "BMW": 2020
 , "Mercedes-Benz": 1888
@@ -844,10 +871,11 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 66
 , "Smart": 41
 , "Subaru": 33
-, "other": 228
+, "Maserati": 4
+, "other": 224
 });
 
-db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/3",
 { "Tesla|Model 3": 2188
 , "Hyundai|Kona Electric": 378
 , "Kia|Niro EV": 326
@@ -866,10 +894,11 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 6
 , "Kia|Soul EV": 3
 , "Volkswagen|e-up!": 2
+, "Peugeot|Partner Electric": 1
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#apr",
+db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/april/",
 { "Volkswagen": 3616
 , "Peugeot": 2406
 , "BMW": 2206
@@ -889,7 +918,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 738
 , "Mini": 638
 , "Mazda": 523
-, "Tesla": 468
+, "Tesla": 471
 , "Fiat": 400
 , "Mitsubishi": 344
 , "Dacia": 230
@@ -903,10 +932,12 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 55
 , "Subaru": 45
 , "Smart": 24
-, "other": 438
+, "Maserati": 4
+, "Infiniti": 2
+, "other": 432
 });
 
-db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/4",
 { "Tesla|Model 3": 464
 , "Hyundai|Kona Electric": 361
 , "Kia|Niro EV": 355
@@ -920,16 +951,17 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 23
 , "Nissan|e-NV200": 13
 , "Jaguar|I-Pace": 12
-, "Tesla|Model S": 2
 , "Tesla|Model X": 2
+, "Tesla|Model S": 2
 , "Peugeot|iOn": 2
+, "Peugeot|Partner Electric": 2
 , "Citroën|C-Zero": 2
-, "Kia|Soul EV": 1
 , "Smart|Fortwo electric drive": 1
+, "Kia|Soul EV": 1
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#may",
+db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/mei/",
 { "Volkswagen": 4060
 , "Opel": 3131
 , "Peugeot": 2447
@@ -950,7 +982,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 793
 , "Mini": 558
 , "Mitsubishi": 470
-, "Tesla": 434
+, "Tesla": 439
 , "Dacia": 295
 , "Fiat": 293
 , "Jeep": 146
@@ -963,10 +995,11 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 68
 , "Subaru": 50
 , "Smart": 32
-, "other": 419
+, "Infiniti": 4
+, "other": 415
 });
 
-db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/5",
 { "Hyundai|Kona Electric": 427
 , "Tesla|Model 3": 414
 , "Kia|Niro EV": 370
@@ -983,18 +1016,19 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 11
 , "Tesla|Model X": 9
 , "Smart|Fortwo electric drive": 9
-, "Kia|Soul EV": 1
+, "Peugeot|Partner Electric": 3
 , "Volkswagen|e-up!": 1
+, "Kia|Soul EV": 1
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#jun",
+db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/juni/",
 { "Opel": 3921
 , "Volkswagen": 3618
 , "Toyota": 3100
 , "Peugeot": 3082
 , "Renault": 3054
-, "Tesla": 2580
+, "Tesla": 2586
 , "Ford": 2441
 , "BMW": 2028
 , "Kia": 1985
@@ -1020,14 +1054,14 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 79
 , "Alfa Romeo": 73
 , "Smart": 39
-, "Jaguar": 29
 , "Subaru": 29
+, "Jaguar": 29
 , "Maserati": 3
 , "Infiniti": 3
 , "other": 328
 });
 
-db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/6",
 { "Tesla|Model 3": 2482
 , "Hyundai|Kona Electric": 309
 , "Kia|Niro EV": 275
@@ -1047,10 +1081,11 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 11
 , "Smart|Fortwo electric drive": 10
 , "Volkswagen|e-up!": 9
+, "Peugeot|Partner Electric": 5
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#jul",
+db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/juli/",
 { "Volkswagen": 4885
 , "Opel": 2826
 , "Ford": 2235
@@ -1069,7 +1104,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 960
 , "Nissan": 836
 , "Mini": 645
-, "Tesla": 630
+, "Tesla": 629
 , "Mazda": 559
 , "Mitsubishi": 404
 , "Fiat": 255
@@ -1089,7 +1124,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "other": 229
 });
 
-db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/7",
 { "Tesla|Model 3": 591
 , "Hyundai|Kona Electric": 316
 , "Volkswagen|e-Golf": 229
@@ -1108,13 +1143,14 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 11
 , "Mercedes-Benz|EQC": 8
 , "Volkswagen|e-up!": 5
+, "Peugeot|Partner Electric": 3
 , "Citroën|Berlingo Electric": 3
 , "Smart|Fortwo electric drive": 2
-, "Kia|Soul EV": 1
 , "Volkswagen|e-Crafter": 1
+, "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#aug",
+db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/augustus/",
 { "Volkswagen": 4935
 , "Opel": 3072
 , "Toyota": 2221
@@ -1127,7 +1163,7 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "BMW": 1362
 , "Hyundai": 1267
 , "Renault": 1261
-, "Tesla": 1242
+, "Tesla": 1247
 , "Citroën": 1203
 , "Nissan": 1084
 , "Seat": 967
@@ -1153,7 +1189,7 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "other": 160
 });
 
-db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/8",
 { "Tesla|Model 3": 1175
 , "Hyundai|Kona Electric": 427
 , "BMW|i3 BEV": 247
@@ -1164,8 +1200,8 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 86
 , "Opel|Ampera-e": 64
 , "Renault|ZOE": 59
-, "Mercedes-Benz|eVito": 42
 , "Tesla|Model X": 42
+, "Mercedes-Benz|eVito": 42
 , "Jaguar|I-Pace": 32
 , "Tesla|Model S": 25
 , "Smart|Forfour electric drive": 11
@@ -1175,8 +1211,8 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 4
 });
 
-db.insert(db.countries.NL, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#sep",
-{ "Tesla": 5904
+db.insert(db.countries.NL, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/september/",
+{ "Tesla": 5890
 , "Opel": 3595
 , "Peugeot": 2631
 , "Toyota": 2585
@@ -1213,7 +1249,7 @@ db.insert(db.countries.NL, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "other": 89
 });
 
-db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/9",
 { "Tesla|Model 3": 5783
 , "Hyundai|Kona Electric": 518
 , "Kia|Niro EV": 300
@@ -1230,13 +1266,14 @@ db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 30
 , "Smart|Fortwo electric drive": 20
 , "Nissan|e-NV200": 5
-, "Kia|Soul EV": 4
 , "Mercedes-Benz|EQC": 4
+, "Kia|Soul EV": 4
+, "Peugeot|Partner Electric": 3
 , "Mercedes-Benz|eVito": 3
 , "Citroën|Berlingo Electric": 2
 });
 
-db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#oct",
+db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/oktober/",
 { "Volkswagen": 4498
 , "Peugeot": 2533
 , "Renault": 2390
@@ -1257,7 +1294,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mini": 572
 , "Suzuki": 565
 , "Mitsubishi": 356
-, "Tesla": 313
+, "Tesla": 322
 , "Porsche": 233
 , "Dacia": 224
 , "Fiat": 216
@@ -1267,14 +1304,15 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 70
 , "DS Automobiles": 34
 , "Jeep": 33
-, "Alfa Romeo": 26
 , "Smart": 26
+, "Alfa Romeo": 26
 , "Subaru": 19
+, "MG": 5
 , "Maserati": 3
-, "other": 86
+, "other": 81
 });
 
-db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/10",
 { "Hyundai|Kona Electric": 455
 , "Tesla|Model 3": 290
 , "Nissan|Leaf": 286
@@ -1293,15 +1331,16 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 10
 , "MG|ZS EV": 5
 , "Citroën|Berlingo Electric": 4
-, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Mercedes-Benz|EQC": 2
 , "Volkswagen|e-Crafter": 1
+, "Peugeot|Partner Electric": 1
 });
 
-db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#nov",
+db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/november/",
 { "Volkswagen": 4496
-, "Tesla": 4081
+, "Tesla": 4116
 , "Renault": 2553
 , "Kia": 2538
 , "Toyota": 2476
@@ -1338,7 +1377,7 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "other": 87
 });
 
-db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/11",
 { "Tesla|Model 3": 3945
 , "Hyundai|Kona Electric": 594
 , "Kia|Niro EV": 425
@@ -1356,53 +1395,54 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 15
 , "Mercedes-Benz|EQC": 14
 , "Smart|Fortwo electric drive": 11
-, "Kia|Soul EV": 10
 , "Nissan|e-NV200": 10
+, "Kia|Soul EV": 10
 , "Citroën|Berlingo Electric": 7
-, "Citroën|C-Zero": 2
+, "Peugeot|Partner Electric": 6
 , "Peugeot|iOn": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Citroën|C-Zero": 2
 });
 
-db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2019#dec",
-{ "Volkswagen": 2173
-, "Opel": 1209
-, "Tesla": 12482
-, "Peugeot": 1041
-, "Toyota": 2373
-, "Renault": 3155
-, "Ford": 1431
-, "Kia": 1097
-, "BMW": 1027
-, "Mercedes-Benz": 2005
-, "Škoda": 1213
-, "Hyundai": 2457
-, "Volvo": 499
+db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/december/",
+{ "Tesla": 12482
 , "Audi": 3201
-, "Citroën": 516
+, "Renault": 3155
+, "Hyundai": 2457
+, "Toyota": 2373
+, "Volkswagen": 2173
+, "Mercedes-Benz": 2005
 , "Nissan": 1626
 , "Mazda": 1586
-, "Seat": 179
-, "Suzuki": 236
-, "Mini": 158
-, "Mitsubishi": 240
-, "Fiat": 176
-, "Dacia": 355
-, "Honda": 68
-, "Jeep": 22
-, "Jaguar": 435
-, "Porsche": 13
-, "Land Rover": 37
-, "Lexus": 52
+, "Ford": 1431
+, "Škoda": 1213
+, "Opel": 1209
+, "Kia": 1097
+, "Peugeot": 1041
+, "BMW": 1027
 , "MG": 967
-, "DS Automobiles": 110
-, "Alfa Romeo": 28
+, "Citroën": 516
+, "Volvo": 499
+, "Jaguar": 435
+, "Dacia": 355
+, "Mitsubishi": 240
+, "Suzuki": 236
+, "Seat": 179
 , "Subaru": 178
+, "Fiat": 176
+, "Mini": 158
+, "DS Automobiles": 110
+, "Honda": 68
 , "Smart": 54
+, "Lexus": 52
+, "Land Rover": 37
+, "Alfa Romeo": 28
+, "Jeep": 22
+, "Porsche": 13
 , "other": 37
 });
 
-db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2019/12",
 { "Tesla|Model 3": 12053
 , "Audi|e-tron": 3048
 , "Nissan|Leaf": 1068
@@ -1423,50 +1463,51 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 26
 , "Nissan|e-NV200": 13
 , "Kia|Soul EV": 9
+, "Peugeot|Partner Electric": 8
 , "Citroën|Berlingo Electric": 7
 , "Mercedes-Benz|eVito": 5
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2020#jan",
-{ "Volkswagen": 6733
+db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/januari/",
+{ "Volkswagen": 6598
 , "BMW": 3005
-, "Peugeot": 2989
+, "Peugeot": 2974
 , "Kia": 2896
 , "Toyota": 2645
 , "Renault": 2598
-, "Ford": 2487
+, "Ford": 2490
 , "Opel": 2394
-, "Volvo": 2083
+, "Volvo": 2082
 , "Škoda": 1973
 , "Audi": 1861
 , "Seat": 1766
-, "Mercedes-Benz": 1657
+, "Mercedes-Benz": 1653
 , "Citroën": 1353
-, "Hyundai": 1196
+, "Hyundai": 1141
 , "Mini": 1019
 , "Nissan": 958
 , "Suzuki": 912
 , "Mazda": 755
 , "Mitsubishi": 684
-, "Fiat": 491
+, "Fiat": 494
 , "Porsche": 356
 , "Land Rover": 230
 , "Dacia": 206
 , "Honda": 166
-, "Tesla": 54
+, "Tesla": 165
 , "Lexus": 117
 , "MG": 110
 , "DS Automobiles": 107
-, "Jaguar": 88
+, "Jaguar": 87
 , "Subaru": 54
 , "Jeep": 42
 , "Alfa Romeo": 38
 , "Smart": 7
-, "other": 35
+, "other": 367
 });
 
-db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/1",
 { "Opel|Ampera-e": 312
 , "Volkswagen|e-Golf": 270
 , "Kia|Niro EV": 156
@@ -1488,56 +1529,55 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 13
 , "Nissan|e-NV200": 10
 , "Volkswagen|e-Crafter": 8
-, "Smart|Fortwo electric drive": 7
 , "Tesla|Model X": 7
+, "Smart|Fortwo electric drive": 7
 , "Mercedes-Benz|EQC": 5
 , "MG|ZS EV": 5
-, "Mini|Cooper SE Electric": 4
 , "Tesla|Model S": 4
 , "Jaguar|I-Pace": 3
 , "Mercedes-Benz|eVito": 1
 });
 
-db.insert(db.countries.NL, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2020#feb",
+db.insert(db.countries.NL, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/februari/",
 { "Kia": 2629
-, "Volkswagen": 2484
+, "Volkswagen": 2478
 , "Opel": 2124
-, "Peugeot": 2082
 , "Toyota": 2079
-, "Ford": 1788
+, "Peugeot": 2073
+, "Ford": 1781
 , "Renault": 1768
 , "BMW": 1766
-, "Mercedes-Benz": 1513
+, "Mercedes-Benz": 1503
 , "Škoda": 1319
-, "Hyundai": 1187
-, "Volvo": 1183
+, "Hyundai": 1185
+, "Volvo": 1182
 , "Citroën": 1169
-, "Mitsubishi": 907
+, "Mitsubishi": 893
 , "Nissan": 855
 , "Seat": 739
 , "Suzuki": 708
 , "Mini": 643
 , "Audi": 627
-, "Fiat": 607
+, "Fiat": 597
 , "Mazda": 537
 , "Porsche": 161
-, "Tesla": 142
+, "Tesla": 155
 , "Dacia": 147
 , "Land Rover": 114
 , "Honda": 87
 , "Jaguar": 65
 , "Lexus": 54
-, "DS Automobiles": 47
 , "Subaru": 47
+, "DS Automobiles": 47
 , "Jeep": 38
 , "Alfa Romeo": 32
-, "MG": 9
 , "Smart": 9
+, "MG": 9
 , "Maserati": 6
-, "other": 183
+, "other": 242
 });
 
-db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/2",
 { "Opel|Ampera-e": 647
 , "Kia|Niro EV": 481
 , "Volkswagen|e-Golf": 470
@@ -1555,50 +1595,49 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 30
 , "Porsche|Taycan": 22
 , "Audi|e-tron": 16
-, "Tesla|Model S": 10
 , "Tesla|Model X": 10
+, "Tesla|Model S": 10
 , "MG|ZS EV": 9
 , "Nissan|e-NV200": 7
-, "Smart|Forfour electric drive": 4
+, "Peugeot|Partner Electric": 6
 , "Smart|Fortwo electric drive": 4
-, "Mini|Cooper SE Electric": 3
+, "Smart|Forfour electric drive": 4
 , "Maxus|EV80": 2
 , "Jaguar|I-Pace": 2
+, "Volkswagen|e-Crafter": 1
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "Volkswagen|e-Crafter": 1
 });
 
-
-db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_netherlands_2020#mar",
-{ "Volkswagen": 2843
+db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/maart/",
+{ "Volkswagen": 2841
 , "Toyota": 2409
 , "Kia": 2324
-, "Peugeot": 2055
-, "Ford": 1708
-, "Mercedes-Benz": 1674
+, "Peugeot": 2032
+, "Ford": 1707
+, "Mercedes-Benz": 1665
 , "BMW": 1619
 , "Škoda": 1608
 , "Renault": 1592
 , "Opel": 1578
-, "Tesla": 1399
+, "Tesla": 1395
 , "Volvo": 1096
 , "Nissan": 976
 , "Audi": 893
-, "Citroën": 828
 , "Mini": 828
-, "Hyundai": 809
+, "Citroën": 828
+, "Hyundai": 803
 , "Seat": 655
 , "Mazda": 614
 , "Suzuki": 476
-, "Mitsubishi": 342
+, "Mitsubishi": 341
 , "Fiat": 213
 , "Porsche": 149
 , "Land Rover": 145
 , "Dacia": 130
 , "Honda": 90
 , "Lexus": 55
-, "Jaguar": 32
+, "Jaguar": 31
 , "DS Automobiles": 28
 , "MG": 25
 , "Jeep": 19
@@ -1606,16 +1645,15 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Alfa Romeo": 11
 , "Subaru": 9
 , "Maserati": 1
-, "other": 251
+, "other": 294
 });
 
-db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/3",
 { "Tesla|Model 3": 1343
 , "Kia|Niro EV": 526
 , "Volkswagen|e-Golf": 398
 , "Opel|Ampera-e": 320
 , "Škoda|Citigo-e": 229
-, "Mini|Cooper SE Electric": 215
 , "Hyundai|Kona Electric": 180
 , "Nissan|Leaf": 125
 , "Volkswagen|e-up!": 88
@@ -1626,32 +1664,66 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 36
 , "Audi|e-tron": 30
 , "Seat|Mii Electric": 29
-, "Tesla|Model S": 28
 , "Tesla|Model X": 28
+, "Tesla|Model S": 28
 , "MG|ZS EV": 25
 , "Porsche|Taycan": 22
 , "Smart|Fortwo electric drive": 8
 , "Smart|Forfour electric drive": 8
-, "Opel|Corsa-e": 3
 , "Peugeot|e-208": 3
+, "Opel|Corsa-e": 3
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Nissan|e-NV200": 1
 , "Honda|e": 1
 });
 
-db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 15373
+db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/april/",
+{ "Volkswagen": 1750
+, "Kia": 1642
+, "Peugeot": 1131
+, "Toyota": 1036
+, "Renault": 1026
+, "Ford": 985
+, "BMW": 828
+, "Škoda": 753
+, "Opel": 698
+, "Citroën": 683
+, "Hyundai": 598
+, "Mercedes-Benz": 510
+, "Audi": 486
+, "Nissan": 401
+, "Volvo": 386
+, "Mini": 345
+, "Mazda": 331
+, "Seat": 294
+, "Suzuki": 270
+, "Tesla": 209
+, "Fiat": 180
+, "Mitsubishi": 148
+, "Dacia": 103
+, "Land Rover": 73
+, "Porsche": 72
+, "MG": 45
+, "Honda": 43
+, "Lexus": 33
+, "Subaru": 22
+, "Jeep": 13
+, "Jaguar": 13
+, "Alfa Romeo": 11
+, "DS Automobiles": 9
+, "Polestar": 7
+, "Smart": 4
+, "other": 235
 });
 
-db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
-{ "Kia|Niro EV": 365
-, "Volkswagen|e-Golf": 199
+db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/4",
+{ "Kia|Niro EV": 366
+, "Volkswagen|e-Golf": 200
 , "Tesla|Model 3": 189
 , "Hyundai|Kona Electric": 178
 , "Renault|ZOE": 83
 , "Nissan|Leaf": 76
-, "Mini|Cooper SE Electric": 73
 , "Hyundai|Ioniq Electric": 62
 , "MG|ZS EV": 45
 , "Škoda|Citigo-e": 39
@@ -1663,21 +1735,56 @@ db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 23
 , "Nissan|e-NV200": 17
 , "Tesla|Model S": 10
-, "Seat|Mii Electric": 8
 , "Tesla|Model X": 8
+, "Seat|Mii Electric": 8
 , "Smart|Forfour electric drive": 3
 , "Opel|Ampera-e": 3
 , "Jaguar|I-Pace": 3
 , "Opel|Corsa-e": 2
-, "Mercedes-Benz|eVito": 1
 , "Smart|Fortwo electric drive": 1
+, "Mercedes-Benz|eVito": 1
 });
 
-db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 14934
+db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/mei/",
+{ "Kia": 1782
+, "Volkswagen": 1570
+, "Peugeot": 1175
+, "Renault": 934
+, "Opel": 900
+, "Ford": 856
+, "Toyota": 817
+, "BMW": 669
+, "Hyundai": 658
+, "Citroën": 645
+, "Škoda": 561
+, "Mercedes-Benz": 551
+, "Nissan": 448
+, "Volvo": 442
+, "Suzuki": 388
+, "Audi": 385
+, "Mazda": 324
+, "Seat": 268
+, "Mini": 234
+, "Tesla": 178
+, "Fiat": 165
+, "Mitsubishi": 137
+, "Dacia": 98
+, "Porsche": 97
+, "MG": 87
+, "Honda": 80
+, "Land Rover": 71
+, "Lexus": 38
+, "Jeep": 31
+, "DS Automobiles": 20
+, "Alfa Romeo": 19
+, "Jaguar": 15
+, "Subaru": 10
+, "Smart": 2
+, "Polestar": 1
+, "other": 278
 });
 
-db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/5",
 { "Volkswagen|e-Golf": 220
 , "Kia|Niro EV": 215
 , "Hyundai|Kona Electric": 213
@@ -1690,7 +1797,6 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 46
 , "Opel|Ampera-e": 31
 , "Porsche|Taycan": 19
-, "Mini|Cooper SE Electric": 19
 , "Hyundai|Ioniq Electric": 18
 , "Tesla|Model X": 10
 , "Tesla|Model S": 10
@@ -1707,11 +1813,47 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 });
 
-db.insert(db.countries.NL, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 24926
+db.insert(db.countries.NL, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/juni/",
+{ "Volkswagen": 2652
+, "Kia": 2389
+, "Opel": 2304
+, "Peugeot": 1949
+, "Ford": 1597
+, "Renault": 1423
+, "Škoda": 1411
+, "BMW": 1368
+, "Hyundai": 1071
+, "Volvo": 1063
+, "Citroën": 958
+, "Toyota": 879
+, "Tesla": 762
+, "Nissan": 640
+, "Mercedes-Benz": 623
+, "Audi": 484
+, "Seat": 473
+, "Fiat": 436
+, "Mazda": 347
+, "Suzuki": 345
+, "Mini": 316
+, "Dacia": 162
+, "Porsche": 161
+, "MG": 156
+, "Mitsubishi": 134
+, "Land Rover": 93
+, "Honda": 91
+, "DS Automobiles": 64
+, "Lexus": 58
+, "Jeep": 47
+, "Alfa Romeo": 32
+, "Jaguar": 23
+, "Subaru": 19
+, "Smart": 4
+, "Maserati": 3
+, "Polestar": 2
+, "other": 387
 });
 
-db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/6",
 { "Tesla|Model 3": 716
 , "Kia|Niro EV": 545
 , "Hyundai|Kona Electric": 328
@@ -1723,7 +1865,6 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 62
 , "Škoda|Citigo-e": 52
 , "Seat|Mii Electric": 52
-, "Mini|Cooper SE Electric": 47
 , "Porsche|Taycan": 46
 , "Audi|e-tron": 36
 , "Opel|Ampera-e": 33
@@ -1745,11 +1886,48 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 });
 
-db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 34885
+db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/juli/",
+{ "Volkswagen": 4075
+, "BMW": 2726
+, "Kia": 2511
+, "Škoda": 2380
+, "Peugeot": 2336
+, "Ford": 2101
+, "Renault": 1940
+, "Opel": 1832
+, "Volvo": 1656
+, "Toyota": 1519
+, "Mercedes-Benz": 1369
+, "Audi": 1213
+, "Hyundai": 1149
+, "Seat": 963
+, "Citroën": 958
+, "Nissan": 956
+, "Suzuki": 814
+, "Mini": 799
+, "Mazda": 656
+, "MG": 501
+, "Fiat": 447
+, "Mitsubishi": 415
+, "Porsche": 293
+, "Dacia": 236
+, "Honda": 147
+, "Land Rover": 105
+, "Jaguar": 62
+, "Lexus": 56
+, "Jeep": 54
+, "DS Automobiles": 46
+, "Alfa Romeo": 44
+, "Tesla": 36
+, "Subaru": 27
+, "Smart": 20
+, "Polestar": 17
+, "SsangYong": 4
+, "Maserati": 4
+, "other": 418
 });
 
-db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/7",
 { "Kia|Niro EV": 640
 , "MG|ZS EV": 501
 , "Volkswagen|e-Golf": 488
@@ -1757,7 +1935,6 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|ZOE": 241
 , "Nissan|Leaf": 216
 , "Škoda|Citigo-e": 191
-, "Mini|Cooper SE Electric": 191
 , "Audi|e-tron": 173
 , "Opel|Corsa-e": 138
 , "Seat|Mii Electric": 114
@@ -1781,11 +1958,47 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 });
 
-db.insert(db.countries.NL, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26461
+db.insert(db.countries.NL, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/augustus/",
+{ "Kia": 2457
+, "Peugeot": 2222
+, "Volkswagen": 2074
+, "Toyota": 1821
+, "Renault": 1516
+, "Opel": 1441
+, "BMW": 1337
+, "Ford": 1307
+, "Volvo": 1178
+, "Citroën": 1082
+, "Mercedes-Benz": 1070
+, "Nissan": 1033
+, "Audi": 1029
+, "Hyundai": 900
+, "Škoda": 848
+, "Seat": 668
+, "Tesla": 618
+, "Mini": 572
+, "Mazda": 567
+, "MG": 498
+, "Suzuki": 405
+, "Dacia": 322
+, "Fiat": 309
+, "Mitsubishi": 216
+, "Porsche": 167
+, "Land Rover": 109
+, "Honda": 109
+, "Jeep": 88
+, "DS Automobiles": 64
+, "Alfa Romeo": 43
+, "Lexus": 38
+, "Jaguar": 32
+, "Smart": 30
+, "Subaru": 21
+, "Polestar": 16
+, "Maserati": 3
+, "other": 251
 });
 
-db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/8",
 { "Tesla|Model 3": 609
 , "Kia|Niro EV": 602
 , "MG|ZS EV": 505
@@ -1797,7 +2010,6 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 220
 , "Opel|Corsa-e": 193
 , "Škoda|Citigo-e": 169
-, "Mini|Cooper SE Electric": 167
 , "Seat|Mii Electric": 89
 , "BMW|i3 BEV": 83
 , "Porsche|Taycan": 62
@@ -1819,11 +2031,47 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 29434
+db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/september/",
+{ "Volkswagen": 2472
+, "Kia": 2451
+, "Toyota": 2280
+, "Ford": 1871
+, "Peugeot": 1846
+, "Opel": 1845
+, "Renault": 1675
+, "BMW": 1508
+, "Mercedes-Benz": 1431
+, "Volvo": 1303
+, "Škoda": 1138
+, "Tesla": 1101
+, "Hyundai": 1022
+, "Audi": 921
+, "Mazda": 876
+, "Citroën": 863
+, "Suzuki": 637
+, "Nissan": 633
+, "Seat": 630
+, "Mini": 603
+, "Polestar": 478
+, "Fiat": 433
+, "Mitsubishi": 265
+, "Dacia": 229
+, "MG": 192
+, "Honda": 121
+, "Porsche": 106
+, "Jeep": 80
+, "DS Automobiles": 80
+, "Land Rover": 67
+, "Lexus": 58
+, "Alfa Romeo": 32
+, "Smart": 13
+, "Subaru": 6
+, "Jaguar": 5
+, "Maserati": 2
+, "other": 161
 });
 
-db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/9",
 { "Tesla|Model 3": 979
 , "Kia|Niro EV": 748
 , "Volkswagen|ID.3": 610
@@ -1832,7 +2080,6 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 313
 , "Škoda|Citigo-e": 288
 , "Peugeot|e-208": 229
-, "Mini|Cooper SE Electric": 222
 , "BMW|i3 BEV": 220
 , "Renault|ZOE": 215
 , "MG|ZS EV": 214
@@ -1859,11 +2106,46 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 });
 
-db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 31988
+db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/oktober/",
+{ "Volkswagen": 4989
+, "Toyota": 2366
+, "Kia": 2211
+, "Peugeot": 2089
+, "Renault": 1919
+, "Opel": 1856
+, "Ford": 1772
+, "BMW": 1677
+, "Škoda": 1389
+, "Mercedes-Benz": 1387
+, "Volvo": 1314
+, "Audi": 1207
+, "Hyundai": 1166
+, "Seat": 913
+, "Mazda": 902
+, "Citroën": 770
+, "Nissan": 608
+, "Mini": 605
+, "Polestar": 472
+, "Suzuki": 447
+, "Fiat": 434
+, "Mitsubishi": 274
+, "Dacia": 233
+, "MG": 201
+, "Porsche": 140
+, "Honda": 113
+, "Jeep": 96
+, "Land Rover": 73
+, "DS Automobiles": 62
+, "Lexus": 59
+, "Tesla": 46
+, "Smart": 32
+, "Jaguar": 21
+, "Subaru": 17
+, "Alfa Romeo": 6
+, "other": 122
 });
 
-db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/10",
 { "Volkswagen|ID.3": 2789
 , "Kia|Niro EV": 749
 , "Polestar|2": 468
@@ -1876,7 +2158,6 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 201
 , "Škoda|Citigo-e": 184
 , "Renault|ZOE": 161
-, "Mini|Cooper SE Electric": 134
 , "Nissan|Leaf": 101
 , "BMW|i3 BEV": 87
 , "Seat|Mii Electric": 78
@@ -1897,32 +2178,69 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 4
 , "Mercedes-Benz|eVito": 3
 , "Mercedes-Benz|EQV": 2
+, "Volvo|XC40 Recharge pure electric": 1
 , "Renault|Twingo Z.E.": 1
 , "Maxus|EV80": 1
+, "Citroën|ë-Jumpy": 1
 });
 
-db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 33499
+db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/november/",
+{ "Volkswagen": 3957
+, "Renault": 2540
+, "Peugeot": 2425
+, "Kia": 2402
+, "Toyota": 2298
+, "Volvo": 2136
+, "Opel": 2133
+, "Ford": 1984
+, "Škoda": 1806
+, "Audi": 1453
+, "Mercedes-Benz": 1368
+, "Citroën": 1106
+, "BMW": 1093
+, "Hyundai": 1092
+, "Seat": 969
+, "Mazda": 686
+, "Fiat": 565
+, "Suzuki": 523
+, "Polestar": 502
+, "Mitsubishi": 460
+, "Nissan": 386
+, "Mini": 322
+, "MG": 175
+, "Dacia": 162
+, "Tesla": 152
+, "Land Rover": 148
+, "Lexus": 128
+, "Jeep": 103
+, "Honda": 92
+, "DS Automobiles": 87
+, "Porsche": 74
+, "Jaguar": 35
+, "Smart": 29
+, "Subaru": 17
+, "Alfa Romeo": 11
+, "Maserati": 1
+, "other": 79
 });
 
-db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com, http://ev-sales.blogspot.com/2020/12/netherlands-november-2020.html",
-{ "Volkswagen|ID.3": 1499
-, "Volvo|XC40 Recharge": 825
-, "Kia|Niro EV": 767
-, "Hyundai|Kona Electric": 529
-, "Polestar|2": 500
-, "Audi|e-tron": 382
-, "Renault|ZOE": 270
-, "Peugeot|e-2008": 263
+db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/11",
+{ "Volkswagen|ID.3": 1491
+, "Volvo|XC40 Recharge pure electric": 826
+, "Kia|Niro EV": 769
+, "Hyundai|Kona Electric": 523
+, "Polestar|2": 504
+, "Audi|e-tron": 386
+, "Renault|ZOE": 271
+, "Peugeot|e-2008": 268
 , "Opel|Corsa-e": 258
 , "Škoda|Citigo-e": 232
-, "Mazda|MX-30": 212
+, "Mazda|MX-30": 211
 , "Peugeot|e-208": 201
 , "MG|ZS EV": 175
 , "Seat|Mii Electric": 173
 , "BMW|i3 BEV": 131
 , "Mercedes-Benz|EQC": 128
-, "Mini|Cooper SE Electric": 113
 , "Fiat|500e": 100
 , "Tesla|Model 3": 91
 , "Renault|Twingo Z.E.": 91
@@ -1937,10 +2255,10 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 27
 , "Mercedes-Benz|EQV": 17
 , "Volkswagen|e-up!": 16
+, "Volkswagen|e-Crafter": 15
 , "Smart|Fortwo electric drive": 15
 , "Smart|Forfour electric drive": 15
 , "Honda|e": 14
-, "Volkswagen|e-Crafter": 13
 , "Citroën|ë-C4": 6
 , "Nissan|e-NV200": 2
 , "Peugeot|Partner Electric": 1
