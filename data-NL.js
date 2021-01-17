@@ -2265,3 +2265,87 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Aiways|U5": 1
 });
+
+db.insert(db.countries.NL, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/december/",
+{ "Volkswagen": 9291
+, "Hyundai": 4920
+, "Tesla": 4149
+, "Toyota": 2697
+, "Audi": 2401
+, "Volvo": 2343
+, "Peugeot": 1870
+, "Renault": 1646
+, "Škoda": 1468
+, "Polestar": 1468
+, "Opel": 1356
+, "Kia": 1164
+, "Ford": 979
+, "Mercedes-Benz": 966
+, "Seat": 813
+, "Fiat": 692
+, "Citroën": 593
+, "Nissan": 586
+, "BMW": 554
+, "Mazda": 510
+, "Jaguar": 404
+, "Aiways": 383
+, "Mini": 354
+, "Lexus": 224
+, "MG": 181
+, "Suzuki": 180
+, "Honda": 116
+, "DS Automobiles": 112
+, "Mitsubishi": 94
+, "Porsche": 68
+, "Jeep": 62
+, "Land Rover": 40
+, "Dacia": 30
+, "Smart": 27
+, "Alfa Romeo": 22
+, "Subaru": 14
+, "SsangYong": 1
+, "other": 51
+});
+
+db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/12",
+{ "Volkswagen|ID.3": 6067
+, "Hyundai|Kona Electric": 4429
+, "Tesla|Model 3": 3942
+, "Volkswagen|ID.4": 2408
+, "Audi|e-tron": 2209
+, "Volvo|XC40 Recharge pure electric": 1770
+, "Polestar|2": 1467
+, "Kia|Niro EV": 667
+, "Fiat|500e": 485
+, "Peugeot|e-208": 469
+, "Peugeot|e-2008": 444
+, "Renault|ZOE": 412
+, "Jaguar|I-Pace": 403
+, "Aiways|U5": 383
+, "Seat|Mii Electric": 349
+, "BMW|i3 BEV": 347
+, "Nissan|Leaf": 313
+, "Škoda|Citigo-e": 300
+, "Opel|Corsa-e": 286
+, "Mercedes-Benz|EQC": 241
+, "Mazda|MX-30": 236
+, "Hyundai|Ioniq Electric": 210
+, "MG|ZS EV": 178
+, "Tesla|Model X": 106
+, "Tesla|Model S": 106
+, "Renault|Twingo Z.E.": 99
+, "Mercedes-Benz|eVito": 98
+, "Volkswagen|e-Golf": 89
+, "DS Automobiles|DS 3 Crossback E-Tense": 82
+, "Kia|Soul EV": 73
+, "Volkswagen|e-up!": 67
+, "Mercedes-Benz|EQV": 57
+, "Porsche|Taycan": 51
+, "Honda|e": 46
+, "Citroën|ë-C4": 32
+, "Smart|Forfour electric drive": 14
+, "Smart|Fortwo electric drive": 13
+, "Volkswagen|e-Crafter": 5
+, "Nissan|e-NV200": 2
+, "Citroën|ë-Jumpy": 2
+});
