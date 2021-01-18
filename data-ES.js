@@ -4,69 +4,69 @@
 
 db.addCountry("ES", "Spain");
 
-db.insert(db.countries.ES, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#jan",
-{ "Peugeot": 8401
-, "Volkswagen": 8387
-, "Renault": 6878
-, "Seat": 6627
-, "Hyundai": 6248
-, "Citroën": 5337
-, "Opel": 5256
-, "BMW": 5194
-, "Nissan": 4804
-, "Dacia": 4577
-, "Ford": 4477
-, "Toyota": 4463
-, "Mercedes-Benz": 4426
-, "Audi": 3724
-, "Kia": 3524
-, "Volvo": 2244
-, "Škoda": 2174
-, "Fiat": 1888
-, "Mazda": 1843
-, "Jeep": 1449
-, "Mini": 1403
-, "Mitsubishi": 925
-, "Smart": 871
-, "Suzuki": 837
-, "Honda": 771
-, "DS Automobiles": 503
-, "Lexus": 452
-, "Land Rover": 384
-, "Alfa Romeo": 292
-, "Porsche": 275
-, "SsangYong": 183
-, "Jaguar": 180
-, "Infiniti": 141
-, "Subaru": 78
+db.insert(db.countries.ES, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosenerotur.asp, https://www.km77.com/mercado/espana/2018/datosenerott.asp",
+{ "Volkswagen": 8909
+, "Seat": 8540
+, "Peugeot": 7518
+, "Opel": 6887
+, "Renault": 6166
+, "Audi": 5822
+, "Toyota": 4907
+, "Hyundai": 4804
+, "Citroën": 4686
+, "Nissan": 4588
+, "Mercedes-Benz": 4571
+, "Fiat": 4511
+, "Kia": 4480
+, "Ford": 4220
+, "BMW": 3894
+, "Dacia": 2967
+, "Škoda": 2309
+, "Mazda": 1555
+, "Mitsubishi": 1011
+, "Mini": 817
+, "Jeep": 796
+, "Land Rover": 786
+, "Lexus": 684
+, "Suzuki": 591
+, "Volvo": 516
+, "Honda": 491
+, "Smart": 412
+, "Alfa Romeo": 386
+, "Jaguar": 329
+, "SsangYong": 264
+, "Subaru": 239
+, "DS Automobiles": 236
+, "Porsche": 224
+, "Infiniti": 101
+, "Maserati": 33
 , "Tesla": 6
-, "Maserati": 19
-, "other": 23
+, "other": 28
 });
 
-db.insert(db.countries.ES, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/1",
 { "Renault|ZOE": 104
 , "Smart|Fortwo electric drive": 68
 , "Volkswagen|e-Golf": 46
 , "Nissan|Leaf": 37
 , "BMW|i3 BEV": 33
 , "Smart|Forfour electric drive": 26
+, "Peugeot|Partner Electric": 23
 , "Hyundai|Ioniq Electric": 22
 , "Nissan|e-NV200": 20
 , "Peugeot|iOn": 13
 , "Kia|Soul EV": 10
 , "Tesla|Model S": 4
 , "Citroën|C-Zero": 3
-, "Citroën|Berlingo Electric": 2
 , "Tesla|Model X": 2
+, "Citroën|Berlingo Electric": 2
 , "Volkswagen|e-up!": 1
-, "Citroën|E-Mehari": 1
 , "Opel|Ampera-e": 1
+, "Citroën|E-Mehari": 1
 });
 
-db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#feb",
-{ "Seat": 11063
-, "Opel": 8310
+db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2018/datosfebrerott.asp",
+{ "Opel": 8310
 , "Peugeot": 7876
 , "Volkswagen": 7471
 , "Renault": 7200
@@ -81,6 +81,7 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "BMW": 4640
 , "Mercedes-Benz": 4555
 , "Dacia": 4042
+, "Seat": 2576
 , "Škoda": 2564
 , "Mazda": 1804
 , "Volvo": 922
@@ -101,10 +102,10 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 142
 , "Maserati": 27
 , "Tesla": 20
-, "other": 31
+, "other": 59
 });
 
-db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/2",
 { "Renault|ZOE": 108
 , "BMW|i3 BEV": 64
 , "Smart|Forfour electric drive": 51
@@ -114,6 +115,7 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 15
 , "Tesla|Model S": 13
 , "Kia|Soul EV": 12
+, "Peugeot|Partner Electric": 9
 , "Tesla|Model X": 7
 , "Peugeot|iOn": 5
 , "Opel|Ampera-e": 3
@@ -122,12 +124,11 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 1
 });
 
-db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#mar",
+db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosmarzotur.asp, https://www.km77.com/mercado/espana/2018/datosmarzott.asp",
 { "Volkswagen": 9952
 , "Renault": 9346
 , "Peugeot": 9177
 , "Nissan": 9030
-, "Seat": 8708
 , "Opel": 8429
 , "Ford": 7740
 , "Fiat": 6919
@@ -139,7 +140,8 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mercedes-Benz": 4829
 , "BMW": 4749
 , "Dacia": 3826
-, "Škoda": 2658
+, "Škoda": 2925
+, "Seat": 2705
 , "Mazda": 1968
 , "Jeep": 1341
 , "Honda": 1304
@@ -157,12 +159,12 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 240
 , "Infiniti": 204
 , "Porsche": 166
-, "Tesla": 64
+, "Tesla": 62
 , "Maserati": 24
-, "other": 13
+, "other": 72
 });
 
-db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/3",
 { "Renault|ZOE": 150
 , "Nissan|Leaf": 91
 , "Volkswagen|e-Golf": 39
@@ -173,17 +175,17 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 32
 , "Citroën|Berlingo Electric": 32
 , "Hyundai|Ioniq Electric": 11
+, "Peugeot|Partner Electric": 9
 , "Kia|Soul EV": 6
 , "Citroën|C-Zero": 4
 , "Nissan|e-NV200": 3
-, "Citroën|E-Mehari": 2
-, "Opel|Ampera-e": 2
 , "Peugeot|iOn": 2
+, "Opel|Ampera-e": 2
+, "Citroën|E-Mehari": 2
 });
 
-db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#apr",
-{ "Seat": 10937
-, "Volkswagen": 9636
+db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosabriltur.asp, https://www.km77.com/mercado/espana/2018/datosabriltt.asp",
+{ "Volkswagen": 9636
 , "Peugeot": 9398
 , "Renault": 8168
 , "Toyota": 6819
@@ -198,6 +200,7 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "BMW": 4306
 , "Dacia": 4154
 , "Nissan": 4108
+, "Seat": 3300
 , "Škoda": 2439
 , "Mazda": 1934
 , "Jeep": 1414
@@ -218,10 +221,10 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 132
 , "Tesla": 31
 , "Maserati": 18
-, "other": 28
+, "other": 100
 });
 
-db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/4",
 { "Nissan|Leaf": 148
 , "Renault|ZOE": 96
 , "Smart|Fortwo electric drive": 48
@@ -229,6 +232,7 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 25
 , "Volkswagen|e-Golf": 22
 , "Tesla|Model S": 16
+, "Peugeot|Partner Electric": 16
 , "Tesla|Model X": 15
 , "Hyundai|Ioniq Electric": 13
 , "Citroën|E-Mehari": 10
@@ -241,47 +245,47 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 1
 });
 
-db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#may",
-{ "Seat": 11477
-, "Renault": 10958
-, "Volkswagen": 10239
-, "Opel": 10026
-, "Peugeot": 10010
-, "Fiat": 7429
-, "Citroën": 7326
-, "Kia": 6983
-, "Toyota": 6843
-, "Hyundai": 6790
-, "Ford": 6286
-, "Audi": 5368
-, "Dacia": 5081
+db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosmayotur.asp, https://www.km77.com/mercado/espana/2018/datosmayott.asp",
+{ "Renault": 10068
+, "Volkswagen": 9758
+, "Peugeot": 9570
+, "Opel": 7615
+, "Citroën": 7086
+, "Fiat": 7040
+, "Toyota": 6666
+, "Hyundai": 6407
+, "Kia": 6125
+, "Ford": 5893
+, "Audi": 5498
 , "Nissan": 4968
-, "BMW": 4615
-, "Mercedes-Benz": 4614
-, "Škoda": 3241
-, "Mazda": 1885
-, "Jeep": 1656
+, "Dacia": 4354
+, "Mercedes-Benz": 4216
+, "BMW": 4206
+, "Seat": 3300
+, "Škoda": 3169
+, "Mazda": 1950
+, "Jeep": 1414
 , "Mini": 1335
-, "Volvo": 1213
-, "Mitsubishi": 940
-, "Suzuki": 905
+, "Volvo": 1048
+, "Mitsubishi": 988
+, "Land Rover": 746
 , "Smart": 727
-, "Land Rover": 725
-, "Honda": 722
-, "Lexus": 670
-, "DS Automobiles": 501
-, "Jaguar": 486
-, "SsangYong": 350
-, "Alfa Romeo": 342
-, "Subaru": 310
-, "Porsche": 221
-, "Infiniti": 202
-, "Maserati": 26
-, "Tesla": 24
-, "other": 30
+, "Lexus": 616
+, "Honda": 582
+, "DS Automobiles": 556
+, "Suzuki": 502
+, "Jaguar": 398
+, "SsangYong": 345
+, "Alfa Romeo": 298
+, "Porsche": 230
+, "Infiniti": 187
+, "Subaru": 139
+, "Tesla": 22
+, "Maserati": 18
+, "other": 138
 });
 
-db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/5",
 { "Renault|ZOE": 74
 , "BMW|i3 BEV": 65
 , "Smart|Fortwo electric drive": 61
@@ -293,15 +297,15 @@ db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 10
 , "Tesla|Model S": 9
 , "Citroën|E-Mehari": 5
+, "Peugeot|Partner Electric": 3
 , "Citroën|C-Zero": 2
-, "Jaguar|I-Pace": 1
 , "Peugeot|iOn": 1
 , "Nissan|e-NV200": 1
+, "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#jun",
-{ "Volkswagen": 13353
-, "Seat": 11535
+db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosjuniotur.asp, https://www.km77.com/mercado/espana/2018/datosjuniott.asp",
+{ "Seat": 11535
 , "Renault": 11112
 , "Peugeot": 10644
 , "Opel": 8730
@@ -317,6 +321,7 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 4881
 , "BMW": 4770
 , "Škoda": 3852
+, "Volkswagen": 3618
 , "Mazda": 1941
 , "Jeep": 1637
 , "Volvo": 1606
@@ -335,11 +340,11 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 244
 , "Infiniti": 173
 , "Maserati": 54
-, "Tesla": 45
-, "other": 40
+, "Tesla": 43
+, "other": 178
 });
 
-db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/6",
 { "BMW|i3 BEV": 70
 , "Renault|ZOE": 69
 , "Nissan|Leaf": 64
@@ -352,15 +357,15 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 13
 , "Kia|Soul EV": 11
 , "Citroën|E-Mehari": 6
+, "Peugeot|Partner Electric": 5
 , "Citroën|C-Zero": 4
-, "Citroën|Berlingo Electric": 2
 , "Jaguar|I-Pace": 2
+, "Citroën|Berlingo Electric": 2
 , "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#jul",
+db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosjuliotur.asp, https://www.km77.com/mercado/espana/2018/datosjuliott.asp",
 { "Renault": 12288
-, "Volkswagen": 11372
 , "Seat": 9963
 , "Peugeot": 8228
 , "Nissan": 7952
@@ -373,6 +378,7 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Citroën": 5895
 , "Opel": 5726
 , "Dacia": 5302
+, "Volkswagen": 4238
 , "Mercedes-Benz": 3919
 , "BMW": 3362
 , "Škoda": 2760
@@ -394,11 +400,11 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "DS Automobiles": 259
 , "Infiniti": 138
 , "Maserati": 27
-, "Tesla": 16
-, "other": 49
+, "Tesla": 14
+, "other": 227
 });
 
-db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/7",
 { "Renault|ZOE": 106
 , "Nissan|Leaf": 85
 , "Volkswagen|e-Golf": 64
@@ -409,19 +415,18 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 10
 , "Kia|Soul EV": 10
 , "Nissan|e-NV200": 9
-, "Citroën|Berlingo Electric": 6
 , "Tesla|Model X": 6
+, "Citroën|Berlingo Electric": 6
 , "Peugeot|iOn": 3
 , "Citroën|C-Zero": 3
-, "Citroën|E-Mehari": 1
 , "Jaguar|I-Pace": 1
+, "Citroën|E-Mehari": 1
 });
 
-db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#aug",
+db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosagostotur.asp, https://www.km77.com/mercado/espana/2018/datosagostott.asp",
 { "Renault": 9516
 , "Kia": 9448
 , "Fiat": 7403
-, "Volkswagen": 6706
 , "Seat": 6478
 , "Nissan": 6151
 , "Hyundai": 5853
@@ -434,6 +439,7 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Dacia": 4216
 , "Mercedes-Benz": 3195
 , "BMW": 3033
+, "Volkswagen": 2759
 , "Jeep": 2261
 , "Škoda": 2086
 , "Mazda": 1875
@@ -443,8 +449,8 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 758
 , "Volvo": 714
 , "Honda": 664
+, "Subaru": 616
 , "Mini": 614
-, "Subaru": 597
 , "Suzuki": 533
 , "Lexus": 474
 , "SsangYong": 442
@@ -454,10 +460,10 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 150
 , "Maserati": 20
 , "Tesla": 14
-, "other": 42
+, "other": 270
 });
 
-db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/8",
 { "BMW|i3 BEV": 79
 , "Nissan|Leaf": 61
 , "Renault|ZOE": 39
@@ -471,17 +477,17 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 6
 , "Tesla|Model S": 5
 , "Citroën|Berlingo Electric": 4
+, "Peugeot|iOn": 3
 , "Opel|Ampera-e": 3
 , "Nissan|e-NV200": 3
-, "Peugeot|iOn": 3
 , "Hyundai|Kona Electric": 2
 , "Volkswagen|e-up!": 1
+, "Peugeot|Partner Electric": 1
 , "Citroën|E-Mehari": 1
 });
 
-db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#sep",
-{ "Seat": 6227
-, "Peugeot": 6213
+db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2018/datosseptiembrett.asp",
+{ "Peugeot": 6213
 , "Toyota": 4779
 , "Kia": 4386
 , "Opel": 4114
@@ -493,6 +499,7 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Renault": 3559
 , "Mercedes-Benz": 3211
 , "Dacia": 2743
+, "Seat": 2391
 , "Nissan": 2234
 , "Audi": 1498
 , "Mazda": 1489
@@ -505,21 +512,21 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Lexus": 490
 , "Honda": 473
 , "Smart": 318
-, "Suzuki": 314
 , "Land Rover": 293
 , "Jaguar": 259
+, "Suzuki": 248
 , "DS Automobiles": 236
 , "Alfa Romeo": 128
 , "Subaru": 107
 , "Infiniti": 87
 , "SsangYong": 75
 , "Porsche": 42
-, "Tesla": 40
+, "Tesla": 37
 , "Maserati": 22
-, "other": 30
+, "other": 300
 });
 
-db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/9",
 { "Nissan|Leaf": 138
 , "BMW|i3 BEV": 103
 , "Smart|Fortwo electric drive": 53
@@ -532,15 +539,15 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 15
 , "Jaguar|I-Pace": 10
 , "Nissan|e-NV200": 9
+, "Peugeot|Partner Electric": 6
 , "Citroën|Berlingo Electric": 5
 , "Kia|Soul EV": 4
 , "Citroën|E-Mehari": 1
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#oct",
+db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosoctubretur.asp, https://www.km77.com/mercado/espana/2018/datosoctubrett.asp",
 { "Peugeot": 7841
-, "Seat": 6927
 , "Volkswagen": 5943
 , "Toyota": 5702
 , "Renault": 5169
@@ -553,6 +560,7 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Dacia": 4491
 , "BMW": 4001
 , "Nissan": 3536
+, "Seat": 3203
 , "Fiat": 2745
 , "Škoda": 1895
 , "Audi": 1851
@@ -575,10 +583,10 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 63
 , "Maserati": 26
 , "Tesla": 20
-, "other": 109
+, "other": 409
 });
 
-db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/10",
 { "Nissan|Leaf": 149
 , "Renault|ZOE": 111
 , "Smart|Fortwo electric drive": 48
@@ -591,16 +599,16 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 21
 , "Nissan|e-NV200": 20
 , "Tesla|Model S": 13
+, "Peugeot|Partner Electric": 13
 , "Tesla|Model X": 7
 , "Citroën|Berlingo Electric": 6
 , "Citroën|C-Zero": 3
-, "Opel|Ampera-e": 1
 , "Peugeot|iOn": 1
+, "Opel|Ampera-e": 1
 });
 
-db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#nov",
-{ "Seat": 8569
-, "Peugeot": 7666
+db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2018/datosnoviembrett.asp",
+{ "Peugeot": 7666
 , "Volkswagen": 6865
 , "Renault": 5724
 , "Toyota": 5528
@@ -612,6 +620,7 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mercedes-Benz": 4231
 , "Dacia": 4059
 , "Nissan": 3812
+, "Seat": 3789
 , "BMW": 3182
 , "Audi": 2266
 , "Fiat": 2087
@@ -635,10 +644,10 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 44
 , "Maserati": 23
 , "Tesla": 21
-, "other": 35
+, "other": 524
 });
 
-db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/11",
 { "Renault|ZOE": 237
 , "Nissan|Leaf": 182
 , "Smart|Fortwo electric drive": 59
@@ -657,11 +666,10 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2018#dec",
+db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2018/datosdiciembrett.asp",
 { "Peugeot": 8401
-, "Volkswagen": 8387
 , "Renault": 6878
-, "Seat": 6627
+, "Seat": 6553
 , "Hyundai": 6248
 , "Citroën": 5337
 , "Opel": 5256
@@ -671,8 +679,9 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Ford": 4477
 , "Toyota": 4463
 , "Mercedes-Benz": 4426
-, "Audi": 3724
+, "Audi": 3772
 , "Kia": 3524
+, "Volkswagen": 2755
 , "Volvo": 2244
 , "Škoda": 2174
 , "Fiat": 1888
@@ -694,10 +703,10 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 78
 , "Tesla": 33
 , "Maserati": 19
-, "other": 23
+, "other": 621
 });
 
-db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2018/12",
 { "Smart|Forfour electric drive": 340
 , "Renault|ZOE": 295
 , "Smart|Fortwo electric drive": 254
@@ -709,16 +718,17 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 17
 , "Tesla|Model S": 16
 , "Nissan|e-NV200": 11
-, "Citroën|Berlingo Electric": 5
 , "Kia|Soul EV": 5
 , "Citroën|C-Zero": 5
+, "Citroën|Berlingo Electric": 5
 , "Jaguar|I-Pace": 4
-, "Opel|Ampera-e": 1
 , "Peugeot|iOn": 1
+, "Peugeot|Partner Electric": 1
+, "Opel|Ampera-e": 1
 });
 
-db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#jan",
-{ "Seat": 9089
+db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosenerotur.asp, https://www.km77.com/mercado/espana/2019/datosenerott.asp",
+{ "Seat": 9004
 , "Peugeot": 7541
 , "Volkswagen": 7211
 , "Toyota": 6074
@@ -754,10 +764,10 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 120
 , "Maserati": 19
 , "Tesla": 15
-, "other": 48
+, "other": 754
 });
 
-db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/1",
 { "Nissan|Leaf": 151
 , "Hyundai|Kona Electric": 127
 , "BMW|i3 BEV": 67
@@ -770,18 +780,18 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 19
 , "Hyundai|Ioniq Electric": 18
 , "Nissan|e-NV200": 11
-, "Tesla|Model S": 7
 , "Tesla|Model X": 7
+, "Tesla|Model S": 7
+, "Peugeot|Partner Electric": 6
 , "Kia|Soul EV": 3
 , "Peugeot|iOn": 2
 , "Tesla|Model 3": 1
 });
 
-db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#feb",
+db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2019/datosfebrerott.asp",
 { "Peugeot": 8602
-, "Seat": 8415
+, "Volkswagen": 7132
 , "Renault": 7041
-, "Volkswagen": 6699
 , "Opel": 6523
 , "Nissan": 5631
 , "Citroën": 5582
@@ -793,6 +803,7 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Ford": 4302
 , "Dacia": 4190
 , "Hyundai": 3867
+, "Seat": 3622
 , "BMW": 3387
 , "Škoda": 1952
 , "Jeep": 1580
@@ -806,18 +817,18 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Land Rover": 406
 , "Smart": 344
 , "Alfa Romeo": 335
-, "Jaguar": 288
 , "Subaru": 251
+, "Jaguar": 243
 , "SsangYong": 226
 , "DS Automobiles": 223
-, "Tesla": 212
+, "Tesla": 211
 , "Infiniti": 175
 , "Porsche": 79
 , "Maserati": 17
-, "other": 30
+, "other": 862
 });
 
-db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/2",
 { "Tesla|Model 3": 200
 , "Nissan|Leaf": 134
 , "Hyundai|Kona Electric": 93
@@ -835,16 +846,16 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 5
 , "Peugeot|iOn": 4
 , "Citroën|C-Zero": 4
+, "Peugeot|Partner Electric": 3
 , "Citroën|E-Mehari": 2
 , "Citroën|Berlingo Electric": 2
-, "Kia|Soul EV": 1
 , "Volkswagen|e-up!": 1
+, "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#mar",
+db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosmarzotur.asp, https://www.km77.com/mercado/espana/2019/datosmarzott.asp",
 { "Renault": 10225
 , "Peugeot": 9595
-, "Seat": 9030
 , "Volkswagen": 8598
 , "Citroën": 7638
 , "Opel": 7125
@@ -858,6 +869,7 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Hyundai": 4639
 , "Dacia": 4285
 , "Mercedes-Benz": 4275
+, "Seat": 3666
 , "Škoda": 2124
 , "Jeep": 2088
 , "Mazda": 1821
@@ -878,10 +890,10 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 189
 , "Infiniti": 78
 , "Maserati": 18
-, "other": 47
+, "other": 981
 });
 
-db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/3",
 { "Tesla|Model 3": 396
 , "Nissan|Leaf": 276
 , "BMW|i3 BEV": 118
@@ -892,21 +904,21 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|ZOE": 56
 , "Smart|Fortwo electric drive": 50
 , "Kia|Niro EV": 32
-, "Jaguar|I-Pace": 20
 , "Nissan|e-NV200": 20
+, "Jaguar|I-Pace": 20
 , "Tesla|Model X": 11
 , "Tesla|Model S": 7
 , "Hyundai|Ioniq Electric": 7
 , "Kia|Soul EV": 4
+, "Peugeot|Partner Electric": 3
 , "Peugeot|iOn": 2
 , "Volkswagen|e-up!": 1
-, "Citroën|C-Zero": 1
 , "Citroën|E-Mehari": 1
+, "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#apr",
-{ "Seat": 12261
-, "Renault": 9904
+db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosabriltur.asp, https://www.km77.com/mercado/espana/2019/datosabriltt.asp",
+{ "Renault": 9904
 , "Peugeot": 9461
 , "Volkswagen": 8961
 , "Hyundai": 7050
@@ -918,6 +930,7 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Audi": 4969
 , "Kia": 4802
 , "Dacia": 4695
+, "Seat": 4291
 , "BMW": 3932
 , "Fiat": 3805
 , "Nissan": 3611
@@ -932,8 +945,8 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Suzuki": 579
 , "Honda": 542
 , "Smart": 522
-, "DS Automobiles": 397
 , "SsangYong": 397
+, "DS Automobiles": 397
 , "Jaguar": 388
 , "Alfa Romeo": 303
 , "Porsche": 228
@@ -941,10 +954,10 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 153
 , "Tesla": 76
 , "Maserati": 31
-, "other": 40
+, "other": 1075
 });
 
-db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/4",
 { "Nissan|Leaf": 127
 , "Renault|ZOE": 82
 , "Hyundai|Kona Electric": 79
@@ -952,8 +965,8 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 51
 , "Smart|Forfour electric drive": 36
 , "Volkswagen|e-Golf": 32
-, "Kia|Niro EV": 30
 , "Smart|Fortwo electric drive": 30
+, "Kia|Niro EV": 30
 , "Nissan|e-NV200": 26
 , "Hyundai|Ioniq Electric": 19
 , "Tesla|Model S": 14
@@ -961,16 +974,16 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 11
 , "Jaguar|I-Pace": 6
 , "Kia|Soul EV": 5
+, "Peugeot|Partner Electric": 4
 , "Volkswagen|e-up!": 3
-, "Citroën|E-Mehari": 3
 , "Peugeot|iOn": 3
+, "Citroën|E-Mehari": 3
 , "Citroën|Berlingo Electric": 2
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#may",
-{ "Seat": 11642
-, "Peugeot": 9728
+db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosmayotur.asp, https://www.km77.com/mercado/espana/2019/datosmayott.asp",
+{ "Peugeot": 9728
 , "Renault": 8849
 , "Volkswagen": 8749
 , "Opel": 8071
@@ -983,7 +996,8 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "BMW": 5354
 , "Nissan": 5170
 , "Audi": 5085
-, "Kia": 5031
+, "Kia": 5024
+, "Seat": 4913
 , "Ford": 4683
 , "Škoda": 2719
 , "Mazda": 1933
@@ -1005,10 +1019,10 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 165
 , "Tesla": 152
 , "Maserati": 23
-, "other": 41
+, "other": 1194
 });
 
-db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/5",
 { "Nissan|Leaf": 206
 , "Tesla|Model 3": 122
 , "Renault|ZOE": 115
@@ -1028,19 +1042,20 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 3
 , "Volkswagen|e-up!": 2
 , "Kia|Soul EV": 2
+, "Peugeot|Partner Electric": 1
 });
 
-db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#jun",
-{ "Seat": 12656
-, "Volkswagen": 10873
+db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosjuniotur.asp, https://www.km77.com/mercado/espana/2019/datosjuniott.asp",
+{ "Volkswagen": 10873
 , "Renault": 10644
 , "Peugeot": 10266
 , "Opel": 9022
 , "Citroën": 7545
-, "Toyota": 6679
-, "Dacia": 5932
+, "Toyota": 6680
+, "Seat": 6118
 , "Fiat": 5716
 , "Kia": 5681
+, "Dacia": 5632
 , "Hyundai": 5349
 , "Audi": 4969
 , "Ford": 4887
@@ -1057,7 +1072,7 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 738
 , "Lexus": 655
 , "Honda": 643
-, "DS Automobiles": 616
+, "DS Automobiles": 633
 , "Land Rover": 508
 , "Alfa Romeo": 403
 , "Jaguar": 360
@@ -1067,10 +1082,10 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Porsche": 214
 , "Infiniti": 88
 , "Maserati": 26
-, "other": 43
+, "other": 1308
 });
 
-db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/6",
 { "Tesla|Model 3": 281
 , "Renault|ZOE": 158
 , "Nissan|Leaf": 129
@@ -1089,20 +1104,20 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Kia|Soul EV": 8
 , "Citroën|C-Zero": 6
-, "Citroën|Berlingo Electric": 2
 , "Volkswagen|e-up!": 2
+, "Citroën|Berlingo Electric": 2
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#jul",
-{ "Seat": 11882
-, "Peugeot": 8276
+db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosjuliotur.asp, https://www.km77.com/mercado/espana/2019/datosjuliott.asp",
+{ "Peugeot": 8276
 , "Volkswagen": 8063
 , "Opel": 7443
 , "Hyundai": 7249
 , "Renault": 6762
 , "Toyota": 6264
 , "Citroën": 6241
+, "Seat": 5751
 , "Dacia": 5518
 , "Fiat": 5466
 , "Ford": 5342
@@ -1131,10 +1146,10 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Tesla": 127
 , "Infiniti": 95
 , "Maserati": 25
-, "other": 42
+, "other": 1412
 });
 
-db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/7",
 { "Renault|ZOE": 123
 , "Hyundai|Kona Electric": 91
 , "Tesla|Model 3": 87
@@ -1151,18 +1166,18 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 19
 , "Kia|Soul EV": 15
 , "Audi|e-tron": 13
-, "Citroën|C-Zero": 5
 , "Citroën|E-Mehari": 5
+, "Citroën|C-Zero": 5
 , "Mercedes-Benz|EQC": 3
 , "Volkswagen|e-up!": 2
-, "Citroën|Berlingo Electric": 1
 , "Peugeot|iOn": 1
+, "Peugeot|Partner Electric": 1
+, "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#aug",
+db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosagostotur.asp, https://www.km77.com/mercado/espana/2019/datosagostott.asp",
 { "Volkswagen": 5524
 , "Peugeot": 5473
-, "Seat": 4817
 , "Toyota": 4665
 , "Dacia": 4411
 , "Renault": 4263
@@ -1171,11 +1186,12 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Kia": 3667
 , "Citroën": 3635
 , "Audi": 3232
-, "Ford": 3170
 , "Mercedes-Benz": 2936
 , "Nissan": 2881
+, "Ford": 2810
 , "BMW": 2635
 , "Fiat": 2199
+, "Seat": 1987
 , "Mitsubishi": 1969
 , "Škoda": 1962
 , "Jeep": 1832
@@ -1196,34 +1212,34 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Tesla": 99
 , "Infiniti": 73
 , "Maserati": 20
-, "other": 81
+, "other": 1536
 });
 
-db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/8",
 { "Renault|ZOE": 70
 , "Tesla|Model 3": 63
 , "Volkswagen|e-Golf": 56
 , "BMW|i3 BEV": 51
 , "Hyundai|Kona Electric": 48
-, "Kia|Niro EV": 37
 , "Nissan|Leaf": 37
+, "Kia|Niro EV": 37
 , "Smart|Forfour electric drive": 23
 , "Smart|Fortwo electric drive": 22
 , "Tesla|Model X": 19
 , "Tesla|Model S": 17
 , "Nissan|e-NV200": 13
 , "Hyundai|Ioniq Electric": 9
-, "Audi|e-tron": 7
 , "Mercedes-Benz|EQC": 7
+, "Audi|e-tron": 7
 , "Jaguar|I-Pace": 6
+, "Peugeot|Partner Electric": 3
 , "Volkswagen|e-up!": 2
 , "Kia|Soul EV": 1
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#sep",
-{ "Seat": 7003
-, "Renault": 6828
+db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2019/datosseptiembrett.asp",
+{ "Renault": 6828
 , "Volkswagen": 6422
 , "Peugeot": 6127
 , "Toyota": 5032
@@ -1235,6 +1251,7 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mercedes-Benz": 3506
 , "Nissan": 3292
 , "BMW": 3267
+, "Seat": 3250
 , "Dacia": 2926
 , "Audi": 2879
 , "Fiat": 2110
@@ -1258,10 +1275,10 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "SsangYong": 100
 , "Infiniti": 73
 , "Maserati": 19
-, "other": 26
+, "other": 1655
 });
 
-db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/9",
 { "Tesla|Model 3": 228
 , "Volkswagen|e-Golf": 131
 , "Nissan|Leaf": 105
@@ -1275,18 +1292,18 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 14
 , "Hyundai|Ioniq Electric": 11
 , "Kia|Soul EV": 10
-, "Audi|e-tron": 7
 , "Nissan|e-NV200": 7
+, "Audi|e-tron": 7
 , "Mercedes-Benz|EQC": 5
 , "Jaguar|I-Pace": 5
 , "Citroën|C-Zero": 4
 , "Volkswagen|e-up!": 2
 , "Peugeot|iOn": 2
+, "Peugeot|Partner Electric": 1
 });
 
-db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#oct",
-{ "Seat": 7810
-, "Volkswagen": 7739
+db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosoctubretur.asp, https://www.km77.com/mercado/espana/2019/datosoctubrett.asp",
+{ "Volkswagen": 7739
 , "Peugeot": 7692
 , "Toyota": 5816
 , "Kia": 5482
@@ -1298,8 +1315,9 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mercedes-Benz": 4141
 , "Opel": 4126
 , "BMW": 3910
+, "Seat": 3678
 , "Nissan": 3636
-, "Audi": 3305
+, "Audi": 3317
 , "Škoda": 2219
 , "Fiat": 2183
 , "Mazda": 2152
@@ -1321,10 +1339,10 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Infiniti": 65
 , "Tesla": 40
 , "Maserati": 9
-, "other": 31
+, "other": 1756
 });
 
-db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/10",
 { "Volkswagen|e-Golf": 160
 , "Renault|ZOE": 151
 , "Hyundai|Kona Electric": 90
@@ -1338,21 +1356,21 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour electric drive": 24
 , "Nissan|e-NV200": 19
 , "Audi|e-tron": 12
-, "Jaguar|I-Pace": 8
 , "Tesla|Model X": 8
+, "Jaguar|I-Pace": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
-, "Kia|Soul EV": 6
 , "Tesla|Model S": 6
-, "Mercedes-Benz|EQC": 4
+, "Kia|Soul EV": 6
 , "Peugeot|iOn": 4
-, "Citroën|C-Zero": 2
+, "Mercedes-Benz|EQC": 4
 , "Volkswagen|e-up!": 2
+, "Citroën|C-Zero": 2
+, "Peugeot|Partner Electric": 1
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#nov",
-{ "Seat": 8564
-, "Volkswagen": 6898
+db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2019/datosnoviembrett.asp",
+{ "Volkswagen": 6898
 , "Peugeot": 6869
 , "Toyota": 6588
 , "Kia": 5803
@@ -1364,6 +1382,7 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mercedes-Benz": 4172
 , "Opel": 3848
 , "BMW": 3802
+, "Seat": 3688
 , "Nissan": 3589
 , "Audi": 3326
 , "Mazda": 2587
@@ -1385,12 +1404,12 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 254
 , "SsangYong": 220
 , "Tesla": 87
-, "Infiniti": 44
+, "Infiniti": 52
 , "Maserati": 15
-, "other": 29
+, "other": 1864
 });
 
-db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/11",
 { "Smart|Forfour electric drive": 150
 , "BMW|i3 BEV": 118
 , "Nissan|Leaf": 88
@@ -1405,17 +1424,18 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 9
 , "Volkswagen|e-up!": 8
 , "Jaguar|I-Pace": 8
-, "Hyundai|Ioniq Electric": 7
 , "Tesla|Model S": 7
+, "Hyundai|Ioniq Electric": 7
 , "Mercedes-Benz|EQC": 6
 , "Kia|Niro EV": 3
-, "Kia|Soul EV": 2
 , "Peugeot|iOn": 2
+, "Kia|Soul EV": 2
+, "Peugeot|Partner Electric": 1
 , "Citroën|C-Zero": 1
 });
 
-db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2019#dec",
-{ "Seat": 8819
+db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2019/datosdiciembrett.asp",
+{ "Seat": 8769
 , "Volkswagen": 8590
 , "Peugeot": 8354
 , "Hyundai": 6102
@@ -1451,10 +1471,10 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Jaguar": 172
 , "Infiniti": 59
 , "Maserati": 8
-, "other": 61
+, "other": 1975
 });
 
-db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2019/12",
 { "Smart|Forfour electric drive": 173
 , "Tesla|Model 3": 164
 , "Smart|Fortwo electric drive": 148
@@ -1468,17 +1488,17 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 23
 , "Hyundai|Ioniq Electric": 14
 , "Jaguar|I-Pace": 10
-, "Mini|Cooper SE Electric": 6
 , "Mercedes-Benz|EQC": 5
 , "Audi|e-tron": 4
-, "Citroën|Berlingo Electric": 2
+, "Volkswagen|e-up!": 2
 , "Citroën|C-Zero": 2
+, "Citroën|Berlingo Electric": 2
+, "Peugeot|Partner Electric": 1
 , "Kia|Niro EV": 1
-, "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2020#jan",
-{ "Seat": 8187
+db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosenerotur.asp, https://www.km77.com/mercado/espana/2020/datosenerott.asp",
+{ "Seat": 8142
 , "Peugeot": 6874
 , "Volkswagen": 6706
 , "Toyota": 6426
@@ -1509,15 +1529,15 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Subaru": 222
 , "Jaguar": 198
 , "Porsche": 148
-, "Smart": 142
 , "SsangYong": 142
+, "Smart": 142
 , "Infiniti": 39
 , "Tesla": 32
 , "Maserati": 11
-, "other": 42
+, "other": 2065
 });
 
-db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/1",
 { "Renault|ZOE": 397
 , "Peugeot|e-208": 231
 , "Nissan|Leaf": 141
@@ -1529,35 +1549,35 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 66
 , "Audi|e-tron": 56
 , "Volkswagen|e-Golf": 45
-, "Mini|Cooper SE Electric": 26
 , "Hyundai|Ioniq Electric": 24
-, "Kia|Soul EV": 23
 , "Smart|Forfour electric drive": 23
+, "Kia|Soul EV": 23
 , "Tesla|Model 3": 18
 , "Nissan|e-NV200": 18
+, "Volkswagen|e-up!": 17
 , "Opel|Corsa-e": 16
 , "Škoda|Citigo-e": 11
 , "Mercedes-Benz|EQC": 10
 , "Tesla|Model X": 9
 , "Citroën|C-Zero": 8
 , "Tesla|Model S": 5
+, "Peugeot|Partner Electric": 4
 , "Jaguar|I-Pace": 4
-, "Citroën|Berlingo Electric": 3
 , "Peugeot|iOn": 3
-, "Volkswagen|e-up!": 1
+, "Citroën|Berlingo Electric": 3
 });
 
-db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2020#feb",
-{ "Seat": 8556
-, "Peugeot": 7812
-, "Volkswagen": 6880
+db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2020/datosfebrerott.asp",
+{ "Peugeot": 7812
+, "Volkswagen": 6939
 , "Renault": 6290
 , "Toyota": 6083
 , "Kia": 5954
-, "Citroën": 5570
 , "Audi": 4839
 , "Opel": 4748
 , "Nissan": 4342
+, "Seat": 4275
+, "Citroën": 4270
 , "Fiat": 4191
 , "Hyundai": 3869
 , "BMW": 3828
@@ -1565,8 +1585,8 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Ford": 3386
 , "Dacia": 2755
 , "Škoda": 2674
+, "Mazda": 1730
 , "Volvo": 1259
-, "Mazda": 1190
 , "Jeep": 1049
 , "Mini": 928
 , "Mitsubishi": 842
@@ -1584,19 +1604,19 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Smart": 102
 , "Maserati": 8
 , "Infiniti": 6
-, "other": 58
+, "other": 2211
 });
 
-db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/2",
 { "Renault|ZOE": 317
 , "Peugeot|e-208": 227
 , "Tesla|Model 3": 111
 , "Opel|Corsa-e": 95
 , "Nissan|Leaf": 92
 , "Volkswagen|e-Golf": 81
+, "Volkswagen|e-up!": 77
 , "Seat|Mii Electric": 74
 , "Smart|Fortwo electric drive": 57
-, "Mini|Cooper SE Electric": 56
 , "BMW|i3 BEV": 55
 , "Audi|e-tron": 51
 , "Smart|Forfour electric drive": 44
@@ -1615,12 +1635,12 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 7
 , "Peugeot|iOn": 6
 , "Tesla|Model S": 5
+, "Peugeot|Partner Electric": 5
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_spain_2020#mar",
-{ "Seat": 4917
-, "Toyota": 3152
+db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosmarzotur.asp, https://www.km77.com/mercado/espana/2020/datosmarzott.asp",
+{ "Seat": 6281
 , "Volkswagen": 2790
 , "Renault": 2761
 , "Hyundai": 2467
@@ -1632,6 +1652,7 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Fiat": 1257
 , "Audi": 1224
 , "Dacia": 1220
+, "Toyota": 1217
 , "BMW": 1101
 , "Ford": 1010
 , "Opel": 1002
@@ -1645,20 +1666,20 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ma
 , "Mitsubishi": 264
 , "Tesla": 260
 , "Suzuki": 209
-, "Honda": 166
 , "SsangYong": 166
+, "Honda": 166
 , "DS Automobiles": 144
 , "Porsche": 115
 , "Alfa Romeo": 111
 , "Subaru": 91
 , "Jaguar": 84
 , "Smart": 58
-, "Infiniti": 3
 , "Maserati": 3
-, "other": 31
+, "Infiniti": 3
+, "other": 2277
 });
 
-db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/3",
 { "Tesla|Model 3": 222
 , "Renault|ZOE": 95
 , "Nissan|Leaf": 77
@@ -1673,8 +1694,8 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 15
 , "Porsche|Taycan": 15
 , "Kia|Niro EV": 14
-, "Mini|Cooper SE Electric": 13
 , "BMW|i3 BEV": 11
+, "Volkswagen|e-up!": 10
 , "Nissan|e-NV200": 9
 , "Opel|Corsa-e": 6
 , "Hyundai|Ioniq Electric": 6
@@ -1685,44 +1706,113 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Peugeot|Partner Electric": 1
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 4163
+db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosabriltur.asp, https://www.km77.com/mercado/espana/2020/datosabriltt.asp",
+{ "Opel": 1052
+, "Citroën": 871
+, "Peugeot": 354
+, "Toyota": 339
+, "Ford": 248
+, "BMW": 147
+, "Fiat": 123
+, "Škoda": 109
+, "Mercedes-Benz": 97
+, "Hyundai": 89
+, "Land Rover": 77
+, "Dacia": 70
+, "Volkswagen": 61
+, "Renault": 59
+, "DS Automobiles": 59
+, "Nissan": 44
+, "Jeep": 44
+, "Smart": 37
+, "Kia": 31
+, "Tesla": 26
+, "Audi": 25
+, "Porsche": 24
+, "Seat": 22
+, "Alfa Romeo": 21
+, "Volvo": 20
+, "Mini": 19
+, "Suzuki": 15
+, "Mitsubishi": 12
+, "Subaru": 9
+, "Lexus": 6
+, "Honda": 6
+, "Jaguar": 5
+, "Mazda": 4
+, "SsangYong": 3
+, "other": 2280
 });
 
-db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/4",
 { "Smart|Forfour electric drive": 31
 , "Tesla|Model 3": 20
 , "Smart|Fortwo electric drive": 6
 , "Renault|ZOE": 6
 , "Porsche|Taycan": 4
-, "Mercedes-Benz|EQC": 3
-, "Tesla|Model S": 3
 , "Tesla|Model X": 3
-, "BMW|i3 BEV": 2
-, "Mini|Cooper SE Electric": 2
+, "Tesla|Model S": 3
+, "Mercedes-Benz|EQC": 3
 , "Nissan|Leaf": 2
-, "Nissan|e-NV200": 1
-, "Audi|e-tron": 1
-, "Opel|Corsa-e": 1
-, "Jaguar|I-Pace": 1
+, "BMW|i3 BEV": 2
 , "Peugeot|e-208": 1
+, "Opel|Corsa-e": 1
+, "Nissan|e-NV200": 1
+, "Jaguar|I-Pace": 1
+, "Audi|e-tron": 1
 });
 
-db.insert(db.countries.ES, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 34337
+db.insert(db.countries.ES, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosmayotur.asp, https://www.km77.com/mercado/espana/2020/datosmayott.asp",
+{ "Peugeot": 2881
+, "Volkswagen": 2721
+, "Renault": 2459
+, "Audi": 2330
+, "Toyota": 2282
+, "Dacia": 2260
+, "BMW": 1932
+, "Mercedes-Benz": 1702
+, "Citroën": 1673
+, "Ford": 1625
+, "Hyundai": 1353
+, "Kia": 1236
+, "Fiat": 1159
+, "Seat": 1152
+, "Nissan": 1105
+, "Opel": 943
+, "Škoda": 742
+, "Volvo": 637
+, "Mazda": 485
+, "Mini": 385
+, "Jeep": 310
+, "Land Rover": 297
+, "Lexus": 279
+, "DS Automobiles": 172
+, "Mitsubishi": 162
+, "Suzuki": 156
+, "Honda": 149
+, "Porsche": 138
+, "Alfa Romeo": 88
+, "Jaguar": 72
+, "SsangYong": 59
+, "Subaru": 53
+, "Tesla": 50
+, "Smart": 20
+, "Maserati": 1
+, "other": 2327
 });
 
-db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/5",
 { "Peugeot|e-2008": 50
 , "Renault|ZOE": 45
 , "Tesla|Model 3": 36
 , "Nissan|Leaf": 34
-, "Mini|Cooper SE Electric": 29
 , "Volkswagen|e-Golf": 22
 , "BMW|i3 BEV": 21
+, "Volkswagen|e-up!": 15
 , "Peugeot|e-208": 15
 , "Porsche|Taycan": 14
 , "Seat|Mii Electric": 13
@@ -1740,27 +1830,63 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Peugeot|Partner Electric": 1
 });
 
-db.insert(db.countries.ES, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 82651
+db.insert(db.countries.ES, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosjuniotur.asp, https://www.km77.com/mercado/espana/2020/datosjuniott.asp",
+{ "Volkswagen": 7774
+, "Peugeot": 6697
+, "Renault": 6311
+, "Toyota": 5339
+, "Citroën": 4546
+, "Hyundai": 4244
+, "Kia": 4226
+, "Mercedes-Benz": 4104
+, "Audi": 3883
+, "Dacia": 3611
+, "Ford": 3343
+, "BMW": 2965
+, "Fiat": 2952
+, "Seat": 2726
+, "Nissan": 2726
+, "Opel": 2700
+, "Škoda": 2277
+, "Volvo": 1861
+, "Mazda": 1080
+, "Jeep": 884
+, "Mini": 790
+, "Lexus": 594
+, "Land Rover": 572
+, "Suzuki": 553
+, "Mitsubishi": 413
+, "Honda": 370
+, "DS Automobiles": 365
+, "Alfa Romeo": 245
+, "Porsche": 235
+, "Jaguar": 159
+, "SsangYong": 156
+, "Subaru": 123
+, "Smart": 63
+, "Tesla": 62
+, "Maserati": 9
+, "other": 2458
 });
 
-db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/6",
 { "Renault|ZOE": 118
-, "Peugeot|e-2008": 69
+, "Peugeot|e-2008": 71
 , "Volkswagen|e-Golf": 52
 , "Peugeot|e-208": 45
 , "Hyundai|Kona Electric": 43
 , "BMW|i3 BEV": 42
-, "Mini|Cooper SE Electric": 40
 , "Kia|Niro EV": 37
 , "Smart|Forfour electric drive": 32
 , "Tesla|Model 3": 31
+, "Smart|Fortwo electric drive": 31
 , "Seat|Mii Electric": 31
 , "Opel|Corsa-e": 31
-, "Smart|Fortwo electric drive": 30
 , "Nissan|Leaf": 29
+, "Volkswagen|e-up!": 26
 , "Porsche|Taycan": 22
 , "Tesla|Model X": 17
 , "Tesla|Model S": 15
@@ -1778,18 +1904,54 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 117928
+db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosjuliotur.asp, https://www.km77.com/mercado/espana/2020/datosjuliott.asp",
+{ "Volkswagen": 9608
+, "Peugeot": 9144
+, "Renault": 8708
+, "Toyota": 8382
+, "Hyundai": 6753
+, "Kia": 6388
+, "Citroën": 6110
+, "Mercedes-Benz": 5915
+, "Ford": 5704
+, "Dacia": 5154
+, "BMW": 5022
+, "Audi": 4910
+, "Seat": 4297
+, "Nissan": 4128
+, "Fiat": 4119
+, "Opel": 3989
+, "Škoda": 2847
+, "Volvo": 2228
+, "Mazda": 2155
+, "Jeep": 1454
+, "Mini": 1081
+, "Lexus": 858
+, "Mitsubishi": 751
+, "Land Rover": 679
+, "Honda": 625
+, "Suzuki": 599
+, "DS Automobiles": 452
+, "Porsche": 303
+, "Alfa Romeo": 240
+, "SsangYong": 217
+, "Jaguar": 194
+, "Subaru": 184
+, "Smart": 84
+, "Infiniti": 24
+, "Maserati": 19
+, "Tesla": 9
+, "other": 2597
 });
 
-db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/7",
 { "Peugeot|e-208": 269
 , "Seat|Mii Electric": 175
 , "Renault|ZOE": 163
 , "Kia|Niro EV": 124
+, "Peugeot|e-2008": 117
 , "Hyundai|Kona Electric": 110
-, "Mini|Cooper SE Electric": 94
-, "Peugeot|e-2008": 90
+, "Volkswagen|e-up!": 74
 , "Volkswagen|e-Golf": 72
 , "Smart|Fortwo electric drive": 56
 , "Opel|Corsa-e": 50
@@ -1808,17 +1970,52 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 9
 , "Tesla|Model X": 5
 , "Tesla|Model 3": 3
-, "Volkswagen|e-up!": 2
 , "Peugeot|iOn": 2
 , "Tesla|Model S": 1
 , "Citroën|Berlingo Electric": 1
 });
 
-db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 66925
+db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosagostotur.asp, https://www.km77.com/mercado/espana/2020/datosagostott.asp",
+{ "Volkswagen": 5388
+, "Renault": 4731
+, "Toyota": 4725
+, "Kia": 4626
+, "Peugeot": 4584
+, "Hyundai": 3910
+, "Dacia": 3765
+, "BMW": 3127
+, "Nissan": 2803
+, "Citroën": 2802
+, "Audi": 2595
+, "Mercedes-Benz": 2530
+, "Ford": 2468
+, "Fiat": 2398
+, "Opel": 2293
+, "Škoda": 2141
+, "Seat": 1871
+, "Mazda": 1246
+, "Jeep": 1078
+, "Volvo": 911
+, "Mini": 568
+, "Lexus": 511
+, "Land Rover": 498
+, "Suzuki": 463
+, "Mitsubishi": 388
+, "Honda": 318
+, "SsangYong": 244
+, "Alfa Romeo": 237
+, "DS Automobiles": 229
+, "Tesla": 158
+, "Jaguar": 158
+, "Porsche": 156
+, "Subaru": 108
+, "Smart": 46
+, "Maserati": 7
+, "Chevrolet": 1
+, "other": 2673
 });
 
-db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/8",
 { "Renault|ZOE": 161
 , "Tesla|Model 3": 152
 , "Hyundai|Kona Electric": 126
@@ -1828,7 +2025,6 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 58
 , "Volkswagen|e-up!": 49
 , "Volkswagen|e-Golf": 49
-, "Mini|Cooper SE Electric": 48
 , "Peugeot|e-2008": 40
 , "Hyundai|Ioniq Electric": 36
 , "Nissan|Leaf": 33
@@ -1847,15 +2043,51 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|iOn": 4
 , "Peugeot|Partner Electric": 2
+, "Citroën|ë-C4": 2
 , "Tesla|Model X": 1
 , "Honda|e": 1
 });
 
-db.insert(db.countries.ES, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 70729
+db.insert(db.countries.ES, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2020/datosseptiembrett.asp",
+{ "Volkswagen": 5713
+, "Peugeot": 4865
+, "Toyota": 4742
+, "Kia": 4527
+, "Renault": 4523
+, "Hyundai": 4186
+, "Mercedes-Benz": 3457
+, "Citroën": 3380
+, "Nissan": 3329
+, "Ford": 3108
+, "Dacia": 3059
+, "BMW": 2843
+, "Audi": 2791
+, "Fiat": 2647
+, "Opel": 2202
+, "Seat": 1997
+, "Škoda": 1855
+, "Mazda": 1306
+, "Volvo": 1263
+, "Jeep": 1078
+, "Mini": 675
+, "Suzuki": 593
+, "Lexus": 568
+, "Honda": 550
+, "Land Rover": 417
+, "Mitsubishi": 405
+, "Tesla": 326
+, "DS Automobiles": 298
+, "Alfa Romeo": 200
+, "Porsche": 159
+, "SsangYong": 146
+, "Subaru": 143
+, "Jaguar": 99
+, "Smart": 81
+, "Maserati": 22
+, "other": 2803
 });
 
-db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/9",
 { "Tesla|Model 3": 253
 , "Renault|ZOE": 251
 , "Hyundai|Kona Electric": 190
@@ -1865,7 +2097,6 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 115
 , "Volkswagen|e-Golf": 91
 , "Volkswagen|e-up!": 77
-, "Mini|Cooper SE Electric": 67
 , "Škoda|Citigo-e": 64
 , "Peugeot|e-2008": 64
 , "Peugeot|e-208": 57
@@ -1888,19 +2119,54 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 7
 , "Peugeot|iOn": 6
 , "Peugeot|Partner Electric": 5
+, "Citroën|ë-C4": 4
 , "Cupra|el-Born": 1
 });
 
-db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 74228
+db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosoctubretur.asp, https://www.km77.com/mercado/espana/2020/datosoctubrett.asp",
+{ "Peugeot": 6073
+, "Volkswagen": 5475
+, "Toyota": 4838
+, "Renault": 4613
+, "Kia": 4300
+, "Dacia": 4054
+, "Hyundai": 3712
+, "Citroën": 3655
+, "Mercedes-Benz": 3567
+, "BMW": 3485
+, "Audi": 3404
+, "Seat": 3263
+, "Ford": 3008
+, "Nissan": 2765
+, "Škoda": 2255
+, "Fiat": 2210
+, "Opel": 2028
+, "Mazda": 1360
+, "Volvo": 1168
+, "Jeep": 983
+, "Mini": 982
+, "Lexus": 674
+, "DS Automobiles": 437
+, "Suzuki": 434
+, "Land Rover": 397
+, "Mitsubishi": 352
+, "Honda": 289
+, "SsangYong": 232
+, "Alfa Romeo": 227
+, "Porsche": 199
+, "Subaru": 167
+, "Jaguar": 110
+, "Smart": 80
+, "Tesla": 38
+, "Maserati": 15
+, "other": 2924
 });
 
-db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/10",
 { "Hyundai|Kona Electric": 272
 , "Renault|ZOE": 254
 , "Peugeot|e-2008": 138
 , "Volkswagen|ID.3": 133
-, "Mini|Cooper SE Electric": 122
 , "Peugeot|e-208": 116
 , "Seat|Mii Electric": 91
 , "Nissan|Leaf": 81
@@ -1931,11 +2197,46 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 2
 });
 
-db.insert(db.countries.ES, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
-{ "other":  75708
+db.insert(db.countries.ES, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2020/datosnoviembrett.asp",
+{ "Peugeot": 6068
+, "Volkswagen": 5324
+, "Toyota": 4903
+, "Kia": 4730
+, "Renault": 4706
+, "Hyundai": 4593
+, "Mercedes-Benz": 4224
+, "Dacia": 4139
+, "BMW": 3565
+, "Citroën": 3460
+, "Audi": 3091
+, "Ford": 3072
+, "Nissan": 2987
+, "Seat": 2674
+, "Opel": 2115
+, "Fiat": 1939
+, "Škoda": 1883
+, "Mazda": 1494
+, "Volvo": 1112
+, "Jeep": 1067
+, "Mini": 890
+, "Lexus": 695
+, "DS Automobiles": 564
+, "Land Rover": 509
+, "Suzuki": 401
+, "Honda": 379
+, "Mitsubishi": 331
+, "Alfa Romeo": 276
+, "Porsche": 213
+, "SsangYong": 163
+, "Jaguar": 158
+, "Subaru": 115
+, "Smart": 81
+, "Tesla": 55
+, "Maserati": 13
+, "other": 3272
 });
 
-db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com",
+db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2020/11",
 { "Hyundai|Kona Electric": 277
 , "Renault|ZOE": 196
 , "Volkswagen|ID.3": 132
@@ -1947,7 +2248,6 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 89
 , "Nissan|Leaf": 84
 , "Mercedes-Benz|EQC": 81
-, "Mini|Cooper SE Electric": 76
 , "Volkswagen|e-up!": 59
 , "Smart|Fortwo electric drive": 52
 , "Tesla|Model 3": 43
