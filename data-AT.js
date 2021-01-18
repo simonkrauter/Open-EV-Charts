@@ -873,3 +873,39 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 69
 , "Peugeot|e-2008": 68
 });
+
+db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+{ "Volkswagen": 3372
+, "Hyundai": 1777
+, "BMW": 1668
+, "Škoda": 1557
+, "Ford": 1432
+, "Renault": 1276
+, "Mercedes-Benz": 1171
+, "Seat": 1064
+, "Peugeot": 1034
+, "Fiat": 958
+, "Audi": 921
+, "Opel": 897
+, "Dacia": 829
+, "Tesla": 750
+, "Citroën": 678
+, "Toyota": 616
+, "Mazda": 556
+, "Suzuki": 473
+, "Kia": 407
+, "Nissan": 345
+, "other": 1991
+});
+
+db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+{ "Volkswagen|ID.3": 694
+, "Tesla|Model 3": 687
+, "Renault|ZOE": 289
+, "Seat|Mii Electric": 182
+, "Audi|e-tron": 137
+, "Fiat|500e": 134
+, "Hyundai|Kona Electric": 120
+, "Kia|Niro EV": 112
+, "Mazda|MX-30": 77
+});
