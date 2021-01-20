@@ -673,10 +673,16 @@ function renderTable(chartConfig, chartDiv, chartData) {
       showHorizontalBars = false;
     }
   }
+  const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
 
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
+  if (showRankColumn) {
+    const cell = document.createElement("TH");
+    cell.appendChild(document.createTextNode("#"));
+    row.appendChild(cell);
+  }
   var cell = document.createElement("TH");
   cell.appendChild(document.createTextNode(chartData.categoryTitle));
   addThSortClickEvent(chartConfig, cell, 0);
@@ -702,6 +708,12 @@ function renderTable(chartConfig, chartDiv, chartData) {
     const category = chartData.categories[i];
     const row = document.createElement("TR");
     table.appendChild(row);
+    if (showRankColumn) {
+      const cell = document.createElement("TD");
+      cell.appendChild(document.createTextNode(parseInt(i) + 1));
+      cell.style.textAlign = "right";
+      row.appendChild(cell);
+    }
     const cell = document.createElement("TD");
     cell.appendChild(document.createTextNode(category));
     row.appendChild(cell);
