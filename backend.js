@@ -843,6 +843,7 @@ var db = {
         if (!result.sources.includes(datasetsForRatio.sources[i]))
           result.sources.push(datasetsForRatio.sources[i]);
       }
+      var valueExists = false;
       for (const seriesName in seriesRows) {
         var valuesForRatio = {};
         for (const i in datasets.categories) {
@@ -867,12 +868,15 @@ var db = {
             var val = value / valuesForRatio[category] * 100;
             if (val > 100) {
               console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
-              val = null;
+              val = 100;
             }
             seriesRows[seriesName][category] = val;
+            valueExists = true;
           }
         }
       }
+      if (!valueExists)
+        seriesRows = [];
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
     } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
