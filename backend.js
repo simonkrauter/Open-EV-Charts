@@ -893,7 +893,8 @@ var db = {
         datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
       }
       seriesRows = datasets.seriesRows;
-      if (Object.keys(seriesRows).length == 1) {
+      const seriesRowsKeys = Object.keys(seriesRows);
+      if (seriesRowsKeys.length == 1 && seriesRowsKeys[0] == "other") {
         seriesRows = []; // market split with only 1 series is not useful
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
