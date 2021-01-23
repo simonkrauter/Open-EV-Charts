@@ -4,6 +4,8 @@
 
 db.addCountry("IT", "Italy");
 
+// http://www.unrae.it/dati-statistici/immatricolazioni
+
 db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20gennaio%202020_UNRAE_marca_5e384c4443c01.pdf",
 { "Fiat": 25360
 , "Volkswagen": 12737
@@ -581,4 +583,56 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-208": 223
 , "Hyundai|Kona Electric": 216
 , "Smart|Forfour electric drive": 170
+});
+
+db.insert(db.countries.IT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20dicembre%202020%20UNRAE%20marca_5ff32f37137c5.pdf",
+{ "Fiat": 19519
+, "Volkswagen": 12600
+, "Renault": 8651
+, "Toyota": 8043
+, "Peugeot": 7925
+, "Ford": 6759
+, "Jeep/Dodge": 5458
+, "Citroën": 5245
+, "Audi": 3770
+, "Opel": 3597
+, "Dacia": 3563
+, "BMW": 3525
+, "Mercedes-Benz": 3142
+, "Nissan": 2481
+, "Seat": 2408
+, "Suzuki": 2381
+, "Kia": 1916
+, "Škoda": 1742
+, "Hyundai": 1699
+, "Alfa Romeo": 1664
+, "Volvo": 1643
+, "Mini": 1193
+, "Tesla": 923
+, "Land Rover": 674
+, "Mazda": 606
+, "Smart": 527
+, "Porsche": 422
+, "DS Automobiles": 391
+, "Honda": 362
+, "Lexus": 353
+, "Jaguar": 231
+, "Subaru": 220
+, "Mitsubishi": 210
+, "Maserati": 139
+, "SsangYong": 79
+, "other": 5393
+});
+
+db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?attachment_id=3186",
+{ "Fiat|500e": 1549
+, "Renault|ZOE": 1153
+, "Tesla|Model 3": 851
+, "Renault|Twingo Z.E.": 683
+, "Smart|Fortwo electric drive": 477
+, "Volkswagen|ID.3": 449
+, "Volkswagen|e-up!": 366
+, "Hyundai|Kona Electric": 232
+, "Opel|Corsa-e": 194
+, "Nissan|Leaf": 177
 });
