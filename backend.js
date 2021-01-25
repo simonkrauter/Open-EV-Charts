@@ -814,6 +814,10 @@ var db = {
     }
   },
 
+  isSumPerSeries: function(chartConfig) {
+    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.country != this.countryOptions.all && !chartConfig.country.includes(",")) || chartConfig.xProperty == this.xProperties.model;
+  },
+
   queryChartData: function(chartConfig, sortByName = false) {
     // Returns the data for a spedific view
     var result = {};
@@ -876,9 +880,12 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
     } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
-      chartConfigForSum.brand = this.brandOptions.all;
-      if (chartConfig.xProperty == this.xProperties.model)
-        chartConfigForSum.model = this.modelOptions.all;
+      if (chartConfig.country != this.countryOptions.all) {
+        if (chartConfig.model == this.modelOptions.combine)
+          chartConfigForSum.brand = this.brandOptions.all;
+        else if (chartConfig.xProperty == this.xProperties.model)
+          chartConfigForSum.model = this.modelOptions.all;
+      }
       var datasets;
       var datasetsForSum;
       if (chartConfig.metric == this.metrics.shareElectric) {
@@ -895,8 +902,9 @@ var db = {
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
+
       var sums = {};
-      const isSumPerSeries = [this.xProperties.model, this.xProperties.country].includes(chartConfig.xProperty) || (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all);
+      const isSumPerSeries = this.isSumPerSeries(chartConfig);
       if (isSumPerSeries) {
         // sum per series
         for (const seriesName in datasets.seriesRows) {

@@ -516,7 +516,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       chartOptions.options.scales.xAxes[0].stacked = true;
       chartOptions.options.scales.yAxes[0].stacked = true;
     }
-    if ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && [db.brandOptions.all, db.brandOptions.combine].includes(chartConfig.brand) && ![db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty)) {
+    if ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && !db.isSumPerSeries(chartConfig)) {
       chartOptions.options.scales.yAxes[0].ticks.max = 100;
     }
     if (isSingleChart && window.innerWidth >= 1000) {
