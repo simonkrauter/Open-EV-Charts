@@ -720,13 +720,9 @@ var db = {
           seriesRows[seriesName][category] = value;
         if (!categories.includes(category))
           categories.push(category);
-      }
 
-      const sourceParts = dataset.source.split("; ");
-      for (const j in sourceParts) {
-        const sourcePart = sourceParts[j];
-        if (!sources.includes(sourcePart))
-          sources.push(sourcePart);
+        if (!sources.includes(dataset.source))
+          sources.push(dataset.source);
       }
     }
 
