@@ -775,3 +775,26 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "FAW|Hongqi E-HS3": 2552
 , "Nio|ES6": 2386
 });
+
+db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.just-auto.com/news/china-passenger-vehicle-sales-rise-7-in-december_id199621.aspx TODO: numbers per brand wanted",
+{ "other": 2290000
+});
+
+db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
+{ "Wuling|Hongguang Mini EV": 33489
+, "Tesla|Model 3": 23804
+, "Great Wall|Ora R1 EV": 10010
+, "BYD|Han EV": 9007
+, "SAIC|Baojun E-Series EV": 8992
+, "Chery|eQ": 7074
+, "GAC|Aion S": 5397
+, "SAIC|MG eZS EV": 4303
+, "BYD|Qin Pro EV": 3713
+, "Xiaopeng|Xpeng P7": 3691
+, "Leapmotor|T03": 2983
+, "SAIC|Roewe Ei5 EV": 2877
+, "Xiaopeng|Xpeng G3": 2618
+, "Changan|Benni EV": 2610
+, "Weltmeister|EX5": 2588
+, "Nio|ES6": 2505
+});
