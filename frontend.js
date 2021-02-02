@@ -78,12 +78,7 @@ function renderPage() {
 }
 
 function getChartConfigFromUrl() {
-  var hash = decodeURIComponent(location.hash.substr(1));
-
-  // backward compatibility to old format
-  const sets = hash.split(",");
-  hash = sets[0];
-
+  const hash = decodeURIComponent(location.hash.substr(1));
   return db.decodeChartConfigString(hash);
 }
 
