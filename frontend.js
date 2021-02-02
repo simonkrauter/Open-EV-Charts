@@ -783,3 +783,73 @@ function renderSources(chartDiv, chartData) {
 
   }
 }
+
+function startRandomTesting() {
+  var button = document.createElement("A");
+  button.href = "#";
+  button.innerHTML = "Randomize";
+  button.classList.add("button");
+  button.classList.add("active");
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+    randomizeChartConfig();
+  });
+  homeLink.parentNode.appendChild(button);
+  randomizeChartConfig();
+}
+
+function randomizeChartConfig() {
+  var chartConfig = db.decodeChartConfigString("");
+  const params = db.getChartParams();
+  for (const i in params) {
+    const param = params[i];
+    if (param.name == "view")
+      continue;
+    var optionKeys = [];
+    if (param.name == "metric") {
+      for (const j in param.options) {
+        if (j == db.metrics.all)
+          continue;
+        optionKeys.push(j);
+      }
+    } else if (param.name == "country") {
+      if (Math.random() < 0.2) {
+        optionKeys.push(db.countryOptions.all);
+      } else if (Math.random() < 0.2) {
+        optionKeys.push("DE,FR");
+        optionKeys.push("DE,FR,IT");
+        optionKeys.push("DE,FR,IT,UK");
+        optionKeys.push("US,CN");
+      } else {
+        for (const j in param.options) {
+          if ([db.countryOptions.all, db.countryOptions.combine].includes(j))
+            continue;
+          optionKeys.push(j);
+        }
+      }
+      if (Math.random() < 0.3) {
+        optionKeys.push(db.countryOptions.combine);
+      }
+    } else if (param.name == "xProperty") {
+      optionKeys = Object.keys(param.options);
+    } else if (param.name == "brand") {
+      if (Math.random() < 0.4)
+        optionKeys.push(db.brandOptions.all);
+      else if (Math.random() < 0.8)
+        optionKeys.push(db.brandOptions.combine);
+      else
+        optionKeys = Object.keys(param.options);
+    } else if (param.name == "model") {
+      if (Math.random() < 0.4)
+        optionKeys.push(db.modelOptions.all);
+      else if (Math.random() < 0.8)
+        optionKeys.push(db.modelOptions.combine);
+      else
+        optionKeys = Object.keys(param.options);
+    }
+    if (optionKeys.length > 0) {
+      chartConfig[param.name] = optionKeys[Math.floor(Math.random() * optionKeys.length)];
+    }
+  }
+  navigateToChartConfig(chartConfig);
+}
