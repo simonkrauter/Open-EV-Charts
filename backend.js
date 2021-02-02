@@ -815,7 +815,7 @@ var db = {
   },
 
   isSumPerSeries: function(chartConfig) {
-    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.country != this.countryOptions.all && !chartConfig.country.includes(",")) || chartConfig.xProperty == this.xProperties.model;
+    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all && chartConfig.country != this.countryOptions.all && !chartConfig.country.includes(",")) || chartConfig.xProperty == this.xProperties.model;
   },
 
   queryChartData: function(chartConfig, sortByName = false) {
