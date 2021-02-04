@@ -2308,24 +2308,24 @@ db.insert(db.countries.NL, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2020/12",
-{ "Volkswagen|ID.3": 6067
-, "Hyundai|Kona Electric": 4429
-, "Tesla|Model 3": 3942
+{ "Volkswagen|ID.3": 6074
+, "Hyundai|Kona Electric": 4431
+, "Tesla|Model 3": 3943
 , "Volkswagen|ID.4": 2408
-, "Audi|e-tron": 2209
-, "Volvo|XC40 Recharge pure electric": 1770
-, "Polestar|2": 1467
-, "Kia|Niro EV": 667
+, "Audi|e-tron": 2212
+, "Volvo|XC40 Recharge pure electric": 1769
+, "Polestar|2": 1471
+, "Kia|Niro EV": 686
 , "Fiat|500e": 485
 , "Peugeot|e-208": 469
-, "Peugeot|e-2008": 444
+, "Peugeot|e-2008": 445
 , "Renault|ZOE": 412
 , "Jaguar|I-Pace": 403
 , "Aiways|U5": 383
 , "Seat|Mii Electric": 349
 , "BMW|i3 BEV": 347
 , "Nissan|Leaf": 313
-, "Škoda|Citigo-e": 300
+, "Škoda|Citigo-e": 301
 , "Opel|Corsa-e": 286
 , "Mercedes-Benz|EQC": 241
 , "Mazda|MX-30": 236
@@ -2339,13 +2339,13 @@ db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 82
 , "Kia|Soul EV": 73
 , "Volkswagen|e-up!": 67
-, "Mercedes-Benz|EQV": 57
+, "Mercedes-Benz|EQV": 56
 , "Porsche|Taycan": 51
-, "Honda|e": 46
+, "Honda|e": 47
 , "Citroën|ë-C4": 32
 , "Smart|Forfour electric drive": 14
 , "Smart|Fortwo electric drive": 13
-, "Volkswagen|e-Crafter": 5
+, "Volkswagen|e-Crafter": 12
 , "Nissan|e-NV200": 2
 , "Citroën|ë-Jumpy": 2
 });
