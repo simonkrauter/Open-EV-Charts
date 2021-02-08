@@ -2587,7 +2587,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 2
 });
 
-db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01_xlsx.xlsx;?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01_xlsx.xlsx?__blob=publicationFile&v=3",
 { "Volkswagen": 34189
 , "Mercedes-Benz": 17912
 , "BMW": 16479
@@ -2628,7 +2628,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1272
 });
 
-db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01_xlsx.xlsx;?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01_xlsx.xlsx?__blob=publicationFile&v=3",
 { "Volkswagen|ID.3": 1799
 , "Volkswagen|e-up!": 1446
 , "Smart|Fortwo electric drive": 1271
