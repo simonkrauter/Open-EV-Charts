@@ -2489,6 +2489,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 10
 , "Mercedes-Benz|eVito": 10
 , "Volkswagen|E-Transporter": 8
+, "Peugeot|e-Expert": 7
 , "Citroën|ë-C4": 7
 , "Peugeot|iOn": 5
 });
@@ -2582,6 +2583,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 10
 , "Volkswagen|e-Caddy": 8
 , "Peugeot|iOn": 4
+, "Peugeot|e-Expert": 3
 , "Citroën|C-Zero": 2
 });
 
