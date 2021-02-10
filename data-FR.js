@@ -1991,7 +1991,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.3": 2550
 , "Dacia|Spring": 1721
 , "Fiat|500e": 1454
-, "Renault|Kangoo Z.E.": 1353
+, "Renault|Twingo Z.E.": 1353
 , "Peugeot|e-208": 1314
 , "Tesla|Model 3": 878
 , "Kia|Niro EV": 601
