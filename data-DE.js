@@ -1762,7 +1762,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Opel|Corsa-e": 11
 , "Citroën|C-Zero": 11
-, "Volkswagen|E-Transporter": 10
+, "Volkswagen|e-Transporter": 10
 , "Peugeot|e-208": 9
 , "Mercedes-Benz|eVito": 9
 , "Mercedes-Benz|EQV": 1
@@ -1840,7 +1840,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|iOn": 4
 , "Mercedes-Benz|EQV": 2
-, "Volkswagen|E-Transporter": 1
+, "Volkswagen|e-Transporter": 1
 , "Peugeot|e-208": 1
 });
 
@@ -1909,7 +1909,7 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Crafter": 42
 , "Nissan|e-NV200": 34
 , "Volkswagen|other": 32
-, "Volkswagen|E-Transporter": 29
+, "Volkswagen|e-Transporter": 29
 , "Jaguar|I-Pace": 24
 , "Mercedes-Benz|EQC": 23
 , "Peugeot|iOn": 7
@@ -2146,7 +2146,7 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 18
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Mercedes-Benz|eVito": 5
-, "Volkswagen|E-Transporter": 1
+, "Volkswagen|e-Transporter": 1
 });
 
 db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_08_xlsx.xlsx;?__blob=publicationFile&v=4",
@@ -2224,7 +2224,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 11
 , "Citroën|C-Zero": 11
 , "Tesla|Model X": 10
-, "Volkswagen|E-Transporter": 8
+, "Volkswagen|e-Transporter": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
 , "Opel|Zafira-e": 6
 , "Mercedes-Benz|eVito": 3
@@ -2397,7 +2397,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|eVito": 11
 , "Renault|Twingo Z.E.": 10
 , "Volkswagen|e-Caddy": 8
-, "Volkswagen|E-Transporter": 7
+, "Volkswagen|e-Transporter": 7
 , "Citroën|C-Zero": 7
 , "Opel|Zafira-e": 4
 , "Peugeot|iOn": 2
@@ -2489,7 +2489,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Caddy": 10
 , "Opel|Ampera-e": 10
 , "Mercedes-Benz|eVito": 10
-, "Volkswagen|E-Transporter": 8
+, "Volkswagen|e-Transporter": 8
 , "Peugeot|e-Expert": 7
 , "Citroën|ë-C4": 7
 , "Peugeot|iOn": 5
@@ -2576,7 +2576,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Jumpy": 50
 , "Mercedes-Benz|EQA": 37
 , "Nissan|e-NV200": 35
-, "Volkswagen|E-Transporter": 31
+, "Volkswagen|e-Transporter": 31
 , "DS Automobiles|DS 3 Crossback E-Tense": 30
 , "Opel|Mokka-e": 18
 , "Citroën|ë-C4": 12
@@ -2669,7 +2669,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Jumpy": 32
 , "Tesla|Model X": 21
 , "Mercedes-Benz|eVito": 20
-, "Volkswagen|E-Transporter": 17
+, "Volkswagen|e-Transporter": 17
 , "Peugeot|e-Expert": 15
 , "Mercedes-Benz|EQA": 13
 , "Tesla|Model S": 10
