@@ -763,7 +763,9 @@ var db = {
     const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
     if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) || sortByName) {
       // Sort by name
-      categories.sort();
+      categories.sort(function(a, b) {
+        return a.localeCompare(b);
+      });
     } else {
       // Sort by value
       categories.sort(function(a, b) {
