@@ -2485,6 +2485,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Jumpy": 25
 , "Volkswagen|ID.4": 22
 , "Citroën|C-Zero": 14
+, "Lexus|UX 300e": 12
 , "Volkswagen|e-Caddy": 10
 , "Opel|Ampera-e": 10
 , "Mercedes-Benz|eVito": 10
@@ -2582,6 +2583,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 10
 , "BMW|iX3": 10
 , "Volkswagen|e-Caddy": 8
+, "Lexus|UX 300e": 8
 , "Peugeot|iOn": 4
 , "Peugeot|e-Expert": 3
 , "Citroën|C-Zero": 2
