@@ -761,8 +761,11 @@ var db = {
     var seriesRows = datasets.seriesRows;
     var result = [];
     const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
-    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) || sortByName) {
-      // Sort by name
+    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+      // Numeric sort
+      categories.sort();
+    } else if (sortByName) {
+      // Alphabetic sort
       categories.sort(function(a, b) {
         return a.localeCompare(b);
       });
