@@ -924,13 +924,7 @@ function randomizeChartConfig() {
         optionKeys.push(db.modelOptions.combine);
       else
         optionKeys = Object.keys(param.options);
-    } else if (param.name == "view") {
-      for (const j in param.options) {
-        if (j == db.views.sources)
-          continue;
-        optionKeys.push(j);
-      }
-    } else if (param.name == "maxSeries") {
+    } else if (param.name == "view" || param.name == "maxSeries") {
       optionKeys = Object.keys(param.options);
     }
     if (optionKeys.length > 0) {
