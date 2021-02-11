@@ -732,8 +732,12 @@ var db = {
         if (!categories.includes(category))
           categories.push(category);
 
-        if (!sources.includes(dataset.source))
-          sources.push(dataset.source);
+        if (sources[dataset.source] == null) {
+          sources[dataset.source] = {};
+          sources[dataset.source].country = dataset.country;
+          sources[dataset.source].firstDate = dataset.monthString;
+        }
+        sources[dataset.source].lastDate = dataset.monthString;
       }
     }
 

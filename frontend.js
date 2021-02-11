@@ -278,7 +278,7 @@ function renderChart(chartIndex) {
     } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
-      renderSources(chartDiv, chartData);
+      renderSources(chartConfig, chartDiv, chartData);
   }
 
   return chartDiv;
@@ -816,38 +816,49 @@ function addThSortClickEvent(chartConfig, cell, columnIndex) {
   }
 }
 
-function renderSources(chartDiv, chartData) {
+function renderSources(chartConfig, chartDiv, chartData) {
   const sourcesDiv = document.createElement("DIV");
   chartDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
-  const ol = document.createElement("OL");
+  const ol = document.createElement("UL");
   sourcesDiv.appendChild(ol);
-  const reversed = chartData.sources.reverse();
-  for (const i in reversed) {
+  for (const key in chartData.sources) {
     const li = document.createElement("LI");
     ol.appendChild(li);
-    const parts = reversed[i].split(" ");
-    for (const j in parts) {
-      var part = parts[j];
-      if (j > 0) {
-        li.appendChild(document.createTextNode(" "));
-      }
-      if (part.includes("://")) {
-        const link = document.createElement("A");
-        li.appendChild(link);
-        if (part.endsWith(",")) {
-          part = part.substr(0, part.length - 1);
-          li.appendChild(document.createTextNode(","));
-        }
-        link.href = part;
-        link.target = "_blank";
-        link.appendChild(document.createTextNode(part));
-      } else {
-        li.appendChild(document.createTextNode(part));
+    {
+      const sourceInfo = chartData.sources[key];
+      if (chartConfig.country == db.countryOptions.all || chartConfig.country.includes(","))
+        li.appendChild(document.createTextNode(db.countryNames[sourceInfo.country]));
+      li.appendChild(document.createTextNode(" "));
+      li.appendChild(document.createTextNode(sourceInfo.firstDate));
+      if (sourceInfo.lastDate != sourceInfo.firstDate) {
+        li.appendChild(document.createTextNode("–"));
+        li.appendChild(document.createTextNode(sourceInfo.lastDate));
       }
     }
-
+    li.appendChild(document.createTextNode(": "));
+    {
+      const parts = key.split(" ");
+      for (const i in parts) {
+        var part = parts[i];
+        if (i > 0)
+          li.appendChild(document.createTextNode(" "));
+        if (part.includes("://")) {
+          const link = document.createElement("A");
+          li.appendChild(link);
+          if (part.endsWith(",")) {
+            part = part.substr(0, part.length - 1);
+            li.appendChild(document.createTextNode(","));
+          }
+          link.href = part;
+          link.target = "_blank";
+          link.appendChild(document.createTextNode(part));
+        } else {
+          li.appendChild(document.createTextNode(part));
+        }
+      }
+    }
   }
 }
 

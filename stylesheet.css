@@ -200,7 +200,7 @@ a.button.removeButton:after {
   display: inline-block;
 }
 
-.sources ol {
+.sources > * {
   margin: 2px;
   text-align: left;
 }
