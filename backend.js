@@ -343,7 +343,8 @@ var db = {
     var param = {};
     param.name = "model";
     param.options = {};
-    param.options[this.modelOptions.all] = "All Models";
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand)
+      param.options[this.modelOptions.all] = "All Models";
     param.options[this.modelOptions.combine] = "Combine Models";
     for (const i in this.models) {
       const parts = this.models[i].split("|", 2);
