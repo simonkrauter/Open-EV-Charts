@@ -868,8 +868,8 @@ function randomizeChartConfig() {
   const params = db.getChartParams();
   for (const i in params) {
     const param = params[i];
-    if (param.name == "view")
-      continue;
+    // if (param.name == "view")
+      // continue;
     var optionKeys = [];
     if (param.name == "metric") {
       for (const j in param.options) {
@@ -911,6 +911,14 @@ function randomizeChartConfig() {
         optionKeys.push(db.modelOptions.combine);
       else
         optionKeys = Object.keys(param.options);
+    } else if (param.name == "view") {
+      for (const j in param.options) {
+        if (j == db.views.sources)
+          continue;
+        optionKeys.push(j);
+      }
+    } else if (param.name == "maxSeries") {
+      optionKeys = Object.keys(param.options);
     }
     if (optionKeys.length > 0) {
       chartConfig[param.name] = optionKeys[Math.floor(Math.random() * optionKeys.length)];
