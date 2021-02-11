@@ -627,7 +627,7 @@ function getChartSeriesColors(chartConfig, chartData) {
 
   var colors = [];
   var usedIndexes = [];
-  if ((![db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && (chartConfig.model == db.modelOptions.combine)) || (chartConfig.metric == db.metrics.salesAll && chartConfig.xProperty == db.xProperties.brand)) {
+  if (![db.xProperties.brand, db.xProperties.model, db.xProperties.country].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
     for (const i in colorIndexByBrand)
       usedIndexes.push(colorIndexByBrand[i]);
   }
