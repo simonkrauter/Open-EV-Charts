@@ -860,8 +860,8 @@ var db = {
       seriesRows = datasets.seriesRows;
       result.sources = datasets.sources;
       for (const i in datasetsForRatio.sources) {
-        if (!result.sources.includes(datasetsForRatio.sources[i]))
-          result.sources.push(datasetsForRatio.sources[i]);
+        if (result.sources[i] == null)
+          result.sources[i] = datasetsForRatio.sources[i];
       }
       var valueExists = false;
       for (const seriesName in seriesRows) {
