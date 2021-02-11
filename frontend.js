@@ -668,7 +668,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   }
   const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
 
-  if (!showRankColumn && !showHorizontalBars && Object.keys(chartData.series).length >= 10) {
+  if (!showRankColumn && !showHorizontalBars && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10) {
     renderTableTransposed(chartConfig, chartDiv, chartData);
     return;
   }
