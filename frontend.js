@@ -656,8 +656,6 @@ function getChartSeriesColors(chartConfig, chartData) {
 }
 
 function renderTable(chartConfig, chartDiv, chartData) {
-  const table = document.createElement("TABLE");
-  chartDiv.appendChild(table);
   var showHorizontalBars = chartData.series.length == 1 && chartData.categories.length > 1;
   var maxValue = 0;
   if (showHorizontalBars) {
@@ -670,6 +668,14 @@ function renderTable(chartConfig, chartDiv, chartData) {
   }
   const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
 
+  if (!showRankColumn && !showHorizontalBars && Object.keys(chartData.series).length >= 10) {
+    renderTableTransposed(chartConfig, chartDiv, chartData);
+    return;
+  }
+
+  const table = document.createElement("TABLE");
+  chartDiv.appendChild(table);
+
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
@@ -678,10 +684,12 @@ function renderTable(chartConfig, chartDiv, chartData) {
     cell.appendChild(document.createTextNode("#"));
     row.appendChild(cell);
   }
-  var cell = document.createElement("TH");
-  cell.appendChild(document.createTextNode(chartData.categoryTitle));
-  addThSortClickEvent(chartConfig, cell, 0);
-  row.appendChild(cell);
+  {
+    const cell = document.createElement("TH");
+    cell.appendChild(document.createTextNode(chartData.categoryTitle));
+    addThSortClickEvent(chartConfig, cell, 0);
+    row.appendChild(cell);
+  }
   for (const i in chartData.series) {
     const series = chartData.series[i];
     const cell = document.createElement("TH");
@@ -713,17 +721,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
     cell.appendChild(document.createTextNode(category));
     row.appendChild(cell);
     for (const j in chartData.series) {
-      const series = chartData.series[j];
-      const cell = document.createElement("TD");
-      const val = series.data[i];
-      if (val == null && val !== 0) {
-        cell.appendChild(document.createTextNode("NA"));
-        cell.classList.add("NA");
-      } else {
-        cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
-        cell.style.textAlign = "right";
-      }
-      row.appendChild(cell);
+      renderTableValueCell(chartConfig, row, chartData.series[j].data[i]);
     }
     // add horizontal bar
     if (showHorizontalBars) {
@@ -736,6 +734,73 @@ function renderTable(chartConfig, chartDiv, chartData) {
       row.appendChild(cell);
     }
   }
+}
+
+function renderTableTransposed(chartConfig, chartDiv, chartData) {
+  const table = document.createElement("TABLE");
+  chartDiv.appendChild(table);
+
+  // Table head
+  const row = document.createElement("TR");
+  table.appendChild(row);
+  {
+    const cell = document.createElement("TH");
+    cell.appendChild(document.createTextNode("#"));
+    row.appendChild(cell);
+  }
+  {
+    const cell = document.createElement("TH");
+    if (chartConfig.model == db.modelOptions.all)
+      cell.appendChild(document.createTextNode("Model"));
+    else
+      cell.appendChild(document.createTextNode("Brand"));
+    addThSortClickEvent(chartConfig, cell, 0);
+    row.appendChild(cell);
+  }
+  for (const i in chartData.categories) {
+    const category = chartData.categories[i];
+    const cell = document.createElement("TH");
+    cell.appendChild(document.createTextNode(category));
+    addThSortClickEvent(chartConfig, cell, i + 1);
+    row.appendChild(cell);
+  }
+
+  // Table body
+  var index = 1;
+  for (const i in chartData.series) {
+    const series = chartData.series[i];
+    if (series.name == db.totalSeriesName)
+      continue;
+    const row = document.createElement("TR");
+    table.appendChild(row);
+    {
+      const cell = document.createElement("TD");
+      cell.appendChild(document.createTextNode(index));
+      cell.style.textAlign = "right";
+      row.appendChild(cell);
+    }
+    {
+      const cell = document.createElement("TD");
+      cell.appendChild(document.createTextNode(series.name));
+      row.appendChild(cell);
+    }
+    for (const j in chartData.categories) {
+      renderTableValueCell(chartConfig, row, series.data[j]);
+    }
+    index++;
+  }
+}
+
+function renderTableValueCell(chartConfig, row, val) {
+  const cell = document.createElement("TD");
+  if (val == null && val !== 0) {
+    cell.appendChild(document.createTextNode("NA"));
+    cell.classList.add("NA");
+  } else {
+    cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
+    cell.style.textAlign = "right";
+  }
+  row.appendChild(cell);
 }
 
 function addThSortClickEvent(chartConfig, cell, columnIndex) {
