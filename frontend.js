@@ -752,8 +752,10 @@ function renderTableTransposed(chartConfig, chartDiv, chartData) {
     const cell = document.createElement("TH");
     if (chartConfig.model == db.modelOptions.all)
       cell.appendChild(document.createTextNode("Model"));
-    else
+    else if (chartConfig.brand == db.brandOptions.all)
       cell.appendChild(document.createTextNode("Brand"));
+    else
+      cell.appendChild(document.createTextNode("Country"));
     addThSortClickEvent(chartConfig, cell, 0);
     row.appendChild(cell);
   }
