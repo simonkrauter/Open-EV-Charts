@@ -2002,3 +2002,61 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|ë-Jumpy": 52
 , "Nissan|e-NV200": 43
 });
+
+db.insert(db.countries.FR, "2021-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/02/2021-01-vpfrance.pdf",
+{ "Peugeot": 26063
+, "Renault": 18881
+, "Citroën": 12314
+, "Dacia": 11417
+, "Toyota": 9050
+, "Volkswagen": 7521
+, "Ford": 4343
+, "Kia": 3145
+, "Hyundai": 3102
+, "BMW": 3095
+, "Opel": 2913
+, "Audi": 2785
+, "Škoda": 2580
+, "Mercedes-Benz": 2486
+, "Fiat": 2328
+, "Seat": 2305
+, "Nissan": 2281
+, "Suzuki": 2080
+, "Mini": 1706
+, "DS Automobiles": 1634
+, "Volvo": 1143
+, "Mazda": 801
+, "Jeep": 447
+, "Lexus": 340
+, "Honda": 340
+, "Land Rover": 295
+, "Porsche": 228
+, "Smart": 109
+, "Mitsubishi": 92
+, "Tesla": 86
+, "Alfa Romeo": 79
+, "Jaguar": 61
+, "SsangYong": 13
+, "Maserati": 10
+, "Subaru": 1
+, "other": 306
+});
+
+db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1612448430b10b711437cc42c40123a8dbe2d70df1-barometre-des-immatriculations-janvier-2021(2).pdf",
+{ "Peugeot|e-208": 1458
+, "Renault|ZOE": 1162
+, "Kia|Niro EV": 748
+, "Renault|Kangoo Z.E.": 522
+, "Hyundai|Kona Electric": 475
+, "Fiat|500e": 382
+, "Renault|Twingo Z.E.": 370
+, "Peugeot|e-2008": 360
+, "Opel|Corsa-e": 281
+, "Mini|Cooper SE Electric": 172
+, "Volkswagen|ID.3": 142
+, "Nissan|e-NV200": 91
+, "Peugeot|e-Expert": 69
+, "Citroën|ë-Jumpy": 45
+, "Volkswagen|e-Crafter": 21
+, "Mercedes-Benz|eVito": 10
+});
