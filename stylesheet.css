@@ -285,12 +285,15 @@ tr:hover {
 }
 
 a.export {
-  position: absolute;
   color: #232323;
   font-size: 80%;
+  cursor: pointer;
+}
+
+a.pngExport {
+  position: absolute;
   right: 0;
   bottom: -6px;
-  cursor: pointer;
 }
 
 .noData {

@@ -569,6 +569,7 @@ function addPngExportButton(parent) {
   const exportButton = document.createElement("A");
   exportButton.appendChild(document.createTextNode("PNG"));
   exportButton.classList.add("export");
+  exportButton.classList.add("pngExport");
   exportButton.title = "Export chart";
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
@@ -664,16 +665,16 @@ function renderTable(chartConfig, chartDiv, chartData) {
   }
   const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
 
-  if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10)
-    renderTableTransposed(chartConfig, chartDiv, chartData);
-  else
-    renderTableNormal(chartConfig, chartDiv, chartData, horizontalBarMaxValue, showRankColumn);
-}
-
-function renderTableNormal(chartConfig, chartDiv, chartData, horizontalBarMaxValue, showRankColumn) {
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
 
+  if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10)
+    renderTableTransposed(chartConfig, table, chartData);
+  else
+    renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
+}
+
+function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn) {
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
@@ -734,10 +735,7 @@ function renderTableNormal(chartConfig, chartDiv, chartData, horizontalBarMaxVal
   }
 }
 
-function renderTableTransposed(chartConfig, chartDiv, chartData) {
-  const table = document.createElement("TABLE");
-  chartDiv.appendChild(table);
-
+function renderTableTransposed(chartConfig, table, chartData) {
   // Table head
   const row = document.createElement("TR");
   table.appendChild(row);
