@@ -794,7 +794,7 @@ function renderTableTransposed(chartConfig, chartDiv, chartData) {
 function renderTableValueCell(chartConfig, row, val) {
   const cell = document.createElement("TD");
   if (val == null && val !== 0) {
-    cell.appendChild(document.createTextNode("NA"));
+    cell.appendChild(document.createTextNode("–"));
     cell.classList.add("NA");
   } else {
     cell.appendChild(document.createTextNode(formatValue(chartConfig, val)));
