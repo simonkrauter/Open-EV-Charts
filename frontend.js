@@ -656,23 +656,21 @@ function getChartSeriesColors(chartConfig, chartData) {
 }
 
 function renderTable(chartConfig, chartDiv, chartData) {
-  var showHorizontalBars = chartData.series.length == 1 && chartData.categories.length > 1;
-  var maxValue = 0;
-  if (showHorizontalBars) {
+  var horizontalBarMaxValue = 0;
+  if (chartData.series.length == 1 && chartData.categories.length > 1) {
     for (const i in chartData.categories) {
-      maxValue = Math.max(maxValue, chartData.series[0].data[i]);
-    }
-    if (maxValue == 0) {
-      showHorizontalBars = false;
+      horizontalBarMaxValue = Math.max(horizontalBarMaxValue, chartData.series[0].data[i]);
     }
   }
   const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
 
-  if (!showRankColumn && !showHorizontalBars && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10) {
+  if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10)
     renderTableTransposed(chartConfig, chartDiv, chartData);
-    return;
-  }
+  else
+    renderTableNormal(chartConfig, chartDiv, chartData, horizontalBarMaxValue, showRankColumn);
+}
 
+function renderTableNormal(chartConfig, chartDiv, chartData, horizontalBarMaxValue, showRankColumn) {
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
 
@@ -699,7 +697,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
       text = params.metric.options[chartConfig.metric];
     }
     cell.appendChild(document.createTextNode(text));
-    if (showHorizontalBars) {
+    if (horizontalBarMaxValue != 0) {
       cell.colSpan = 2;
     }
     addThSortClickEvent(chartConfig, cell, i + 1);
@@ -724,12 +722,12 @@ function renderTable(chartConfig, chartDiv, chartData) {
       renderTableValueCell(chartConfig, row, chartData.series[j].data[i]);
     }
     // add horizontal bar
-    if (showHorizontalBars) {
+    if (horizontalBarMaxValue != 0) {
       const cell = document.createElement("TD");
       const barDiv = document.createElement("DIV");
       cell.appendChild(barDiv);
       barDiv.classList.add("horizontalBar");
-      const width = chartData.series[0].data[i] / maxValue * 300;
+      const width = chartData.series[0].data[i] / horizontalBarMaxValue * 300;
       barDiv.style.width = width + "px";
       row.appendChild(cell);
     }
