@@ -798,3 +798,26 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 2588
 , "Nio|ES6": 2505
 });
+
+db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.marketwatch.com/story/chinas-car-sales-rose-25-in-january-2021-02-08-6485132 TODO: numbers per brand wanted",
+{ "other": 2160000
+});
+
+db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
+{ "Wuling|Hongguang Mini EV": 36762
+, "Tesla|Model 3": 13843
+, "BYD|Han EV": 9298
+, "GAC|Aion S": 6092
+, "Great Wall|Ora Black Cat": 6090
+, "Chery|eQ": 5772
+, "SAIC|Roewe Clever EV": 5172
+, "Xiaopeng|Xpeng P7": 3710
+, "Changan|Benni EV": 3240
+, "Nio|EC6": 2845
+, "Nio|ES6": 2720
+, "Xiaopeng|Xpeng G3": 2305
+, "Great Wall|Ora White Cat EV": 2089
+, "Hozon|Neta V EV": 2076
+, "Weltmeister|EX5": 2014
+, "Nio|ES8": 1660
+});
