@@ -1981,6 +1981,7 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Maxus|EV80": 16
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Seat|Mii Electric": 11
+, "Peugeot|e-Expert": 4
 , "Volkswagen|e-Crafter": 3
 , "Mercedes-Benz|eVito": 3
 , "Honda|e": 3
