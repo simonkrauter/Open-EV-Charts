@@ -1988,6 +1988,73 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 1
 });
 
+db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Toyota": 1360
+, "Volvo": 1546
+, "BMW": 793
+, "Peugeot": 833
+, "Audi": 675
+, "Mercedes-Benz": 449
+, "Volkswagen": 470
+, "Kia": 459
+, "Polestar": 422
+, "Nissan": 433
+, "Hyundai": 425
+, "Škoda": 389
+, "MG": 264
+, "Mazda": 207
+, "Tesla": 345
+, "Ford": 206
+, "Lexus": 174
+, "Mitsubishi": 196
+, "Opel": 131
+, "Citroën": 136
+});
+
+db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Month/2021/2",
+{ "Audi|e-tron": 618
+, "Peugeot|e-2008": 433
+, "Polestar|2": 422
+, "Volvo|XC40 Recharge pure electric": 408
+, "Nissan|Leaf": 394
+, "Tesla|Model 3": 334
+, "Hyundai|Kona Electric": 332
+, "Kia|Niro EV": 254
+, "MG|ZS EV": 225
+, "Peugeot|e-208": 159
+, "Mercedes-Benz|EQC": 157
+, "Kia|Soul EV": 148
+, "BMW|i3 BEV": 139
+, "Volkswagen|ID.3": 128
+, "Opel|Corsa-e": 110
+, "Mazda|MX-30": 102
+, "Jaguar|I-Pace": 99
+, "Hyundai|Ioniq Electric": 92
+, "Renault|ZOE": 61
+, "Nissan|e-NV200": 61
+, "Volkswagen|e-up!": 56
+, "Maxus|E-Deliver 3": 56
+, "Fiat|500e": 46
+, "Porsche|Taycan": 41
+, "Škoda|Citigo-e": 40
+, "Citroën|ë-Jumpy": 37
+, "Mercedes-Benz|EQV": 31
+, "Maxus|EV80": 27
+, "Citroën|ë-C4": 25
+, "BMW|iX3": 17
+, "Volkswagen|e-Crafter": 14
+, "Opel|Vivaro-e": 13
+, "Peugeot|e-Expert": 12
+, "DS Automobiles|DS 3 Crossback E-Tense": 8
+, "Tesla|Model X": 6
+, "Honda|e": 6
+, "Tesla|Model S": 5
+, "Volkswagen|ID.4": 4
+, "Seat|Mii Electric": 4
+, "Mercedes-Benz|eVito": 3
+, "Mitsubishi|i-MiEV": 1
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
