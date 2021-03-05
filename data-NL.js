@@ -2427,3 +2427,78 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
+
+db.insert(db.countries.NL, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/februari/",
+{ "Kia": 1804
+, "Peugeot": 1753
+, "Volkswagen": 1612
+, "Toyota": 1545
+, "Ford": 1420
+, "Škoda": 1356
+, "Renault": 1325
+, "Volvo": 1203
+, "Opel": 1155
+, "BMW": 1143
+, "Mercedes-Benz": 1033
+, "Mazda": 944
+, "Citroën": 809
+, "Audi": 658
+, "Hyundai": 559
+, "Seat": 515
+, "Suzuki": 444
+, "Nissan": 437
+, "Fiat": 401
+, "Mini": 355
+, "Mitsubishi": 255
+, "Dacia": 197
+, "Porsche": 141
+, "Land Rover": 122
+, "Jeep": 107
+, "Polestar": 80
+, "Honda": 80
+, "Tesla": 39
+, "Lexus": 37
+, "DS Automobiles": 34
+, "Alfa Romeo": 31
+, "MG": 21
+, "Subaru": 18
+, "Jaguar": 15
+, "Smart": 10
+, "Maserati": 1
+, "other": 26
+});
+
+db.insert(db.countries.NL, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Month/2021/2",
+{ "Nissan|Leaf": 126
+, "Renault|ZOE": 120
+, "Volvo|XC40 Recharge pure electric": 114
+, "Kia|Niro EV": 87
+, "Peugeot|e-208": 81
+, "Peugeot|e-2008": 76
+, "Polestar|2": 74
+, "Opel|Corsa-e": 52
+, "Volkswagen|ID.4": 41
+, "BMW|i3 BEV": 38
+, "Tesla|Model 3": 37
+, "Porsche|Taycan": 28
+, "Fiat|500e": 28
+, "Citroën|ë-C4": 27
+, "Renault|Twingo Z.E.": 22
+, "Seat|Mii Electric": 20
+, "BMW|iX3": 20
+, "Hyundai|Kona Electric": 15
+, "Audi|e-tron": 13
+, "Kia|Soul EV": 11
+, "DS Automobiles|DS 3 Crossback E-Tense": 11
+, "Smart|Forfour electric drive": 8
+, "Volkswagen|ID.3": 6
+, "Nissan|e-NV200": 5
+, "MG|ZS EV": 5
+, "Hyundai|Ioniq Electric": 3
+, "Smart|Fortwo electric drive": 2
+, "Škoda|Citigo-e": 1
+, "Tesla|Model X": 1
+, "Opel|Mokka-e": 1
+, "Mercedes-Benz|EQC": 1
+, "Honda|e": 1
+});
