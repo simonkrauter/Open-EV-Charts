@@ -2347,43 +2347,42 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.ES, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosenerotur.asp, https://www.km77.com/mercado/espana/2021/datosenerott.asp",
-{ "Seat": 8142
-, "Peugeot": 6874
-, "Volkswagen": 6706
-, "Toyota": 6426
-, "Renault": 5044
-, "Citroën": 4685
-, "Audi": 4435
-, "Hyundai": 4414
-, "Opel": 4384
-, "Mercedes-Benz": 4278
-, "Kia": 3956
-, "Dacia": 3932
-, "Nissan": 3785
-, "BMW": 3451
-, "Ford": 2982
-, "Fiat": 2495
-, "Škoda": 2055
-, "Mazda": 1048
-, "Mini": 1024
-, "Lexus": 882
-, "Jeep": 859
-, "Volvo": 819
-, "Mitsubishi": 783
-, "Land Rover": 618
-, "DS Automobiles": 419
-, "Suzuki": 359
-, "Honda": 302
-, "Alfa Romeo": 265
-, "Subaru": 222
-, "Jaguar": 198
-, "Porsche": 148
-, "SsangYong": 142
-, "Smart": 142
-, "Infiniti": 39
-, "Tesla": 32
-, "Maserati": 11
-, "other": 674
+{ "Seat": 4524
+, "Peugeot": 3632
+, "Toyota": 3531
+, "Renault": 3483
+, "Dacia": 2374
+, "Hyundai": 2173
+, "Audi": 2015
+, "Citroën": 1962
+, "Mercedes-Benz": 1893
+, "Volkswagen": 1797
+, "Kia": 1790
+, "BMW": 1789
+, "Ford": 1597
+, "Nissan": 1501
+, "Opel": 1278
+, "Fiat": 1238
+, "Škoda": 1018
+, "Jeep": 671
+, "Volvo": 582
+, "Mazda": 553
+, "Mini": 346
+, "Suzuki": 212
+, "SsangYong": 177
+, "Lexus": 163
+, "Porsche": 157
+, "Mitsubishi": 147
+, "Alfa Romeo": 142
+, "DS Automobiles": 119
+, "Land Rover": 103
+, "Honda": 102
+, "Subaru": 71
+, "Tesla": 46
+, "Smart": 30
+, "Jaguar": 20
+, "Maserati": 12
+, "other": 1320
 });
 
 db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2021/1",
@@ -2409,6 +2408,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 7
 , "Tesla|Model X": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Peugeot|e-Expert": 4
 , "Tesla|Model S": 3
 , "Opel|Mokka-e": 3
 , "Mercedes-Benz|EQV": 3
