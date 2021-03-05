@@ -2422,3 +2422,81 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 1
 , "Mercedes-Benz|eSprinter": 1
 });
+
+db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2021/datosfebrerott.asp",
+{ "Peugeot": 6172
+, "Toyota": 4533
+, "Volkswagen": 4515
+, "Renault": 3746
+, "Citroën": 3240
+, "Kia": 3034
+, "BMW": 2679
+, "Audi": 2629
+, "Hyundai": 2505
+, "Škoda": 2458
+, "Seat": 2421
+, "Mercedes-Benz": 2150
+, "Nissan": 2109
+, "Ford": 2035
+, "Fiat": 1864
+, "Dacia": 1815
+, "Opel": 1784
+, "Jeep": 975
+, "Volvo": 922
+, "Mazda": 675
+, "Mini": 561
+, "Lexus": 340
+, "Suzuki": 320
+, "DS Automobiles": 211
+, "Mitsubishi": 205
+, "Land Rover": 190
+, "Alfa Romeo": 172
+, "Tesla": 164
+, "SsangYong": 154
+, "Subaru": 144
+, "Porsche": 140
+, "Honda": 130
+, "Jaguar": 65
+, "Smart": 40
+, "Maserati": 11
+, "other": 1989
+});
+
+db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Month/2021/2",
+{ "Tesla|Model 3": 162
+, "Peugeot|e-208": 93
+, "Kia|Niro EV": 81
+, "Nissan|Leaf": 79
+, "Peugeot|e-2008": 65
+, "Seat|Mii Electric": 51
+, "Renault|ZOE": 42
+, "Volkswagen|ID.3": 41
+, "Hyundai|Kona Electric": 38
+, "Nissan|e-NV200": 27
+, "Smart|Fortwo electric drive": 25
+, "Volkswagen|e-up!": 21
+, "Opel|Corsa-e": 18
+, "Peugeot|e-Expert": 17
+, "Porsche|Taycan": 16
+, "Fiat|500e": 16
+, "Citroën|ë-C4": 16
+, "Smart|Forfour electric drive": 15
+, "BMW|i3 BEV": 14
+, "Kia|Soul EV": 11
+, "Audi|e-tron": 11
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Škoda|Citigo-e": 4
+, "Opel|Vivaro-e": 4
+, "Hyundai|Ioniq Electric": 4
+, "Renault|Twingo Z.E.": 3
+, "Honda|e": 3
+, "BMW|iX3": 3
+, "Volkswagen|ID.4": 2
+, "Mercedes-Benz|eVito": 2
+, "Mercedes-Benz|EQC": 2
+, "Mazda|MX-30": 2
+, "Jaguar|I-Pace": 2
+, "Volkswagen|e-Golf": 1
+, "Tesla|Model X": 1
+, "Tesla|Model S": 1
+});
