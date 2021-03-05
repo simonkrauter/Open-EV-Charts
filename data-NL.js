@@ -2406,7 +2406,7 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 34
 , "Renault|Twingo Z.E.": 27
 , "Audi|e-tron": 27
-, "Fiat|500e": 22
+, "Fiat|500e": 23
 , "Mercedes-Benz|eVito": 18
 , "Škoda|Citigo-e": 17
 , "Hyundai|Kona Electric": 16
@@ -2419,10 +2419,10 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo electric drive": 4
 , "Seat|Mii Electric": 4
 , "Mercedes-Benz|EQV": 4
+, "Volkswagen|ID.3": 3
 , "Smart|Forfour electric drive": 3
 , "Nissan|e-NV200": 3
 , "Citroën|ë-C4": 3
-, "Volkswagen|ID.3": 2
 , "Tesla|Model S": 2
 , "Mercedes-Benz|EQC": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
