@@ -839,7 +839,32 @@ function renderTableTransposed(chartConfig, table, chartData) {
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     const cell = document.createElement("TD");
-    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+    if (columnTitle == "Model" && text != "Other") {
+      var newChartConfig = db.cloneObject(chartConfig);
+      const textParts = text.split("|", 2);
+      if (textParts.length > 1) {
+        newChartConfig.brand = textParts[0];
+        newChartConfig.model = textParts[1];
+      } else {
+        newChartConfig.model = text;
+      }
+      if (newChartConfig.xProperty == db.xProperties.model) {
+        newChartConfig.xProperty = "";
+        newChartConfig.timeSpan = "";
+      }
+      newChartConfig.view = null;
+      db.applyNewDefaultOptions(newChartConfig, chartConfig);
+      const a = document.createElement("A");
+      a.href = "#" + db.encodeChartConfig(newChartConfig);
+      a.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigateToChartConfig(newChartConfig);
+      });
+      a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+      cell.appendChild(a);
+    } else {
+      cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+    }
     row.appendChild(cell);
 }
 

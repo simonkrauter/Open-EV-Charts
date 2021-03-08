@@ -401,7 +401,7 @@ var db = {
         var values = chartConfig[param.name].split(",");
         for (const i in values) {
           if (values[i] != "")
-            parts.push(values[i]);
+            parts.push(this.formatForUrl(values[i]));
         }
       }
     }
