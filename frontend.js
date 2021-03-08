@@ -321,13 +321,12 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
   else
     button = document.createElement("A");
   tabButtonsDiv.appendChild(button);
-  var chartConfigChanged = db.cloneObject(chartSetConfig);
-  chartConfigChanged.view = key;
-  button.href = "#" + db.encodeChartConfig(chartConfigChanged);
+  var newChartConfig = db.cloneObject(chartSetConfig);
+  newChartConfig.view = key;
+  button.href = "#" + db.encodeChartConfig(newChartConfig);
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    chartSetConfig.view = key;
-    navigateToChartConfig(chartSetConfig);
+    navigateToChartConfig(newChartConfig);
   });
   button.appendChild(document.createTextNode(title));
 }
