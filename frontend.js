@@ -668,7 +668,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
 
-  if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && Object.keys(chartData.categories).length < 10)
+  if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && chartData.categories.length < 10)
     renderTableTransposed(chartConfig, table, chartData);
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
