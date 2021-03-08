@@ -519,12 +519,12 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     }
   }
 
-  // Convert chartData
+  // Take over data series
   const colors = getChartSeriesColors(chartConfig, chartData);
   for (const i in chartData.series) {
     const series = chartData.series[i];
     var dataset = {};
-    dataset.label = series.name;
+    dataset.label = db.formatSeriesNameAndCategory(series.name);
     dataset.data = series.data;
     if (chartConfig.view == db.views.lineChart) {
       dataset.borderColor = colors[i];
@@ -537,7 +537,12 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     }
     chartOptions.data.datasets.push(dataset);
   }
-  chartOptions.data.labels = chartData.categories;
+
+  // Take over categories
+  chartOptions.data.labels = [];
+  for (const i in chartData.categories) {
+    chartOptions.data.labels.push(db.formatSeriesNameAndCategory(chartData.categories[i]));
+  }
 
   const canvas = document.createElement("CANVAS");
   setChartSize(canvas);
@@ -736,7 +741,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   for (const i in chartData.series) {
     const series = chartData.series[i];
     const cell = document.createElement("TH");
-    var text = series.name;
+    var text = db.formatSeriesNameAndCategory(series.name);
     if (text == "Value") {
       const params = db.getChartParams(chartConfig);
       text = params.metric.options[chartConfig.metric];
@@ -760,9 +765,9 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
       cell.style.textAlign = "right";
       row.appendChild(cell);
     }
-    const cell = document.createElement("TD");
-    cell.appendChild(document.createTextNode(category));
-    row.appendChild(cell);
+
+    renderTableRowTextCell(chartConfig, row, chartData.categoryTitle, category);
+
     for (const j in chartData.series) {
       renderTableValueCell(chartConfig, row, chartData.series[j].data[i]);
     }
@@ -788,14 +793,16 @@ function renderTableTransposed(chartConfig, table, chartData) {
     cell.appendChild(document.createTextNode("#"));
     row.appendChild(cell);
   }
+  var columnTitle;
+  if (chartConfig.model == db.modelOptions.all)
+    columnTitle = "Model";
+  else if (chartConfig.brand == db.brandOptions.all)
+    columnTitle = "Brand";
+  else
+    columnTitle = "Country";
   {
     const cell = document.createElement("TH");
-    if (chartConfig.model == db.modelOptions.all)
-      cell.appendChild(document.createTextNode("Model"));
-    else if (chartConfig.brand == db.brandOptions.all)
-      cell.appendChild(document.createTextNode("Brand"));
-    else
-      cell.appendChild(document.createTextNode("Country"));
+    cell.appendChild(document.createTextNode(columnTitle));
     addThSortClickEvent(chartConfig, cell, 0);
     row.appendChild(cell);
   }
@@ -821,16 +828,20 @@ function renderTableTransposed(chartConfig, table, chartData) {
       cell.style.textAlign = "right";
       row.appendChild(cell);
     }
-    {
-      const cell = document.createElement("TD");
-      cell.appendChild(document.createTextNode(series.name));
-      row.appendChild(cell);
-    }
+
+    renderTableRowTextCell(chartConfig, row, columnTitle, series.name);
+
     for (const j in chartData.categories) {
       renderTableValueCell(chartConfig, row, series.data[j]);
     }
     index++;
   }
+}
+
+function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
+    const cell = document.createElement("TD");
+    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+    row.appendChild(cell);
 }
 
 function renderTableValueCell(chartConfig, row, val) {

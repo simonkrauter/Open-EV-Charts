@@ -127,6 +127,13 @@ var db = {
     return Math.ceil(month / 3);
   },
 
+  formatSeriesNameAndCategory: function(text) {
+    if (Number.isInteger(text))
+      return text;
+    else
+      return text.replace("|", " ");
+  },
+
   metrics:
   { "all": "all-metrics"
   , "salesAll": "all-sales"
@@ -693,13 +700,11 @@ var db = {
         if (filterModel != null && this.formatForUrl(model) != filterModel)
           continue;
 
-        var brandAndModel = brand;
-        if (model) {
-          if (filterBrand != null)
-            brandAndModel = model;
-          else
-            brandAndModel = brandAndModel + " " + model;
-        }
+        var brandAndModel;
+        if (model && filterBrand != null)
+          brandAndModel = model;
+        else
+          brandAndModel = dataKey; // keep "|" for later decoding
 
         const value = dataset.data[dataKey];
 
