@@ -805,6 +805,30 @@ var db = {
     return result;
   },
 
+  getCategoryTitle: function(chartConfig) {
+    if (chartConfig.xProperty == this.xProperties.country)
+      return "Country";
+    else if (chartConfig.xProperty == this.xProperties.model)
+      return "Model";
+    else if (chartConfig.xProperty == this.xProperties.brand)
+      return "Brand";
+    else if (chartConfig.xProperty == this.xProperties.month)
+      return "Month";
+    else if (chartConfig.xProperty == this.xProperties.quarter)
+      return "Quarter";
+    else if (chartConfig.xProperty == this.xProperties.year)
+      return "Year";
+  },
+
+  getSeriesNameColumnHeader: function(chartConfig) {
+    if (chartConfig.model == db.modelOptions.all)
+      return "Model";
+    else if (chartConfig.brand == db.brandOptions.all)
+      return "Brand";
+    else
+      return "Country";
+  },
+
   fillMonthCategoryGaps: function(categories) {
     var i = 0;
     while (i < categories.length - 1) {
@@ -966,22 +990,6 @@ var db = {
             seriesRows[seriesName][category] = value / sum * 100;
         }
       }
-    }
-
-    if (chartConfig.xProperty == this.xProperties.country) {
-      result.categoryTitle = "Country";
-    } else if (chartConfig.xProperty == this.xProperties.model) {
-      result.categoryTitle = "Model";
-    } else if (chartConfig.xProperty == this.xProperties.brand) {
-      result.categoryTitle = "Brand";
-    } else if (chartConfig.xProperty == this.xProperties.month) {
-      result.categoryTitle = "Month";
-      this.fillMonthCategoryGaps(result.categories);
-    } else if (chartConfig.xProperty == this.xProperties.quarter) {
-      result.categoryTitle = "Quarter";
-      this.fillQuarterCategoryGaps(result.categories);
-    } else if (chartConfig.xProperty == this.xProperties.year) {
-      result.categoryTitle = "Year";
     }
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')

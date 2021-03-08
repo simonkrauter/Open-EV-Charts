@@ -731,9 +731,10 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     cell.appendChild(document.createTextNode("#"));
     row.appendChild(cell);
   }
+  const columnTitle = db.getCategoryTitle(chartConfig);
   {
     const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode(chartData.categoryTitle));
+    cell.appendChild(document.createTextNode(columnTitle));
     addThSortClickEvent(chartConfig, cell, 0);
     row.appendChild(cell);
   }
@@ -765,7 +766,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
       row.appendChild(cell);
     }
 
-    renderTableRowTextCell(chartConfig, row, chartData.categoryTitle, category);
+    renderTableRowTextCell(chartConfig, row, columnTitle, category);
 
     for (const j in chartData.series) {
       renderTableValueCell(chartConfig, row, chartData.series[j].data[i]);
@@ -792,13 +793,7 @@ function renderTableTransposed(chartConfig, table, chartData) {
     cell.appendChild(document.createTextNode("#"));
     row.appendChild(cell);
   }
-  var columnTitle;
-  if (chartConfig.model == db.modelOptions.all)
-    columnTitle = "Model";
-  else if (chartConfig.brand == db.brandOptions.all)
-    columnTitle = "Brand";
-  else
-    columnTitle = "Country";
+  const columnTitle = db.getSeriesNameColumnHeader(chartConfig);
   {
     const cell = document.createElement("TH");
     cell.appendChild(document.createTextNode(columnTitle));
