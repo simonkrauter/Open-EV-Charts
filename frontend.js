@@ -672,6 +672,50 @@ function renderTable(chartConfig, chartDiv, chartData) {
     renderTableTransposed(chartConfig, table, chartData);
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
+
+  renderTableWikitextExportButton(chartDiv, table);
+}
+
+function renderTableWikitextExportButton(chartDiv, table) {
+  const containerDivId = "tableExportContainer";
+  const exportButton = document.createElement("A");
+  exportButton.appendChild(document.createTextNode("Wikitext"));
+  exportButton.classList.add("export");
+  exportButton.title = "Export table";
+  exportButton.addEventListener("click", function(event) {
+    event.preventDefault();
+    var containerDiv = document.getElementById(containerDivId);
+    if (containerDiv == null) {
+      containerDiv = document.createElement("DIV");
+      containerDiv.id = containerDivId;
+      const textarea = document.createElement("TEXTAREA");
+      containerDiv.appendChild(textarea);
+      const rows = table.childNodes;
+      var wikitext = "{| class=\"wikitable sortable\"\n";
+      for (var i = 0; i < rows.length; i++) {
+        wikitext += "|-\n";
+        const columns = rows[i].childNodes;
+        for (var j = 0; j < columns.length; j++) {
+          const cell = columns[j];
+          if (cell.tagName == "TH")
+            wikitext += "! ";
+          else
+            wikitext += "| ";
+          if (cell.classList.contains("NA"))
+            wikitext += "style=\"text-align:center;\" | ";
+          else if (cell.style.textAlign == "right")
+            wikitext += "style=\"text-align:right;\" | ";
+          wikitext += cell.innerHTML;
+          wikitext += "\n";
+        }
+      }
+      wikitext += "|}";
+      textarea.value = wikitext;
+      chartDiv.appendChild(containerDiv);
+    } else
+      chartDiv.removeChild(containerDiv);
+  });
+  chartDiv.appendChild(exportButton);
 }
 
 function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn) {

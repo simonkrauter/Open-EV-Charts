@@ -296,6 +296,11 @@ a.pngExport {
   bottom: -6px;
 }
 
+#tableExportContainer textarea {
+  width: 550px;
+  height: 250px;
+}
+
 .noData {
   color: grey;
   font-style: italic;
