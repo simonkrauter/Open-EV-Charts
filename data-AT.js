@@ -971,3 +971,41 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Opel|Corsa-e": 49
 , "Jaguar|I-Pace": 48
 });
+
+db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+{ "Volkswagen": 3132
+, "Škoda": 2008
+, "Seat": 1721
+, "Ford": 1348
+, "BMW": 1059
+, "Mercedes-Benz": 983
+, "Audi": 967
+, "Renault": 938
+, "Opel": 836
+, "Fiat": 724
+, "Peugeot": 667
+, "Dacia": 566
+, "Kia": 544
+, "Mazda": 520
+, "Hyundai": 504
+, "Suzuki": 468
+, "Toyota": 437
+, "Citroën": 411
+, "Tesla": 362
+, "Volvo": 292
+, "other": 1376
+});
+
+db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+{ "other": 462
+, "Tesla|Model 3": 362
+, "Volkswagen|ID.3": 260
+, "Fiat|500e": 152
+, "Kia|Niro EV": 123
+, "Renault|ZOE": 116
+, "Audi|e-tron": 101
+, "Opel|Corsa-e": 82
+, "Seat|Mii Electric": 64
+, "Peugeot|e-208": 55
+, "BMW|i3 BEV": 54
+});
