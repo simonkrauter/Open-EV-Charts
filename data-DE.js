@@ -2727,8 +2727,8 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|ZOE": 1424
 , "Hyundai|Kona Electric": 1315
 , "Smart|Fortwo electric drive": 1245
-, "Audi|e-tron": 1038
 , "BMW|i3 BEV": 849
+, "Audi|e-tron": 826
 , "Peugeot|e-208": 596
 , "Opel|Corsa-e": 592
 , "Mini|Cooper SE Electric": 585
@@ -2744,6 +2744,7 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 235
 , "Renault|Twingo Z.E.": 231
 , "Kia|Soul EV": 212
+, "Audi|e-tron GT": 212
 , "Mercedes-Benz|EQC": 197
 , "Hyundai|Ioniq Electric": 132
 , "Polestar|2": 103
