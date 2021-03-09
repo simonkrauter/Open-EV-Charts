@@ -2679,7 +2679,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 5
 });
 
-db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=5",
 { "Volkswagen": 40115
 , "Audi": 17054
 , "Mercedes-Benz": 16901
@@ -2720,7 +2720,7 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1084
 });
 
-db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=5",
 { "Volkswagen|e-up!": 2215
 , "Tesla|Model 3": 1910
 , "Volkswagen|ID.3": 1892
