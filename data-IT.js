@@ -648,3 +648,56 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 177
 , "other": 1124
 });
+
+db.insert(db.countries.IT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20gennaio%202021%20UNRAE%20marca_6018231ee6bef.pdf",
+{ "Fiat": 20191
+, "Volkswagen": 11157
+, "Peugeot": 9184
+, "Ford": 8933
+, "Toyota": 8547
+, "Citroën": 7121
+, "Renault": 6895
+, "Jeep": 5487
+, "BMW": 5457
+, "Opel": 5296
+, "Audi": 5184
+, "Dacia": 4962
+, "Mercedes-Benz": 4675
+, "Hyundai": 3472
+, "Suzuki": 3459
+, "Kia": 3179
+, "Škoda": 2762
+, "Nissan": 2442
+, "Seat": 1617
+, "Mini": 1605
+, "Volvo": 1558
+, "Mazda": 947
+, "Alfa Romeo": 935
+, "Land Rover": 759
+, "Porsche": 615
+, "Lexus": 459
+, "Honda": 457
+, "Smart": 449
+, "Mitsubishi": 327
+, "DS Automobiles": 281
+, "Jaguar": 173
+, "Subaru": 148
+, "Maserati": 141
+, "SsangYong": 72
+, "Tesla": 56
+, "other": 4999
+});
+
+db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3352",
+{ "Fiat|500e": 419
+, "Smart|Fortwo electric drive":  419
+, "Renault|ZOE": 255
+, "Opel|Corsa-e": 216
+, "Peugeot|e-208": 193
+, "Renault|Twingo Z.E.": 129
+, "Peugeot|e-2008": 128
+, "Volkswagen|e-up!": 111
+, "Hyundai|Kona Electric": 91
+, "Citroën|ë-C4": 75
+, "other": 458
+});
