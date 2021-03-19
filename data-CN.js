@@ -799,8 +799,8 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nio|ES6": 2505
 });
 
-db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.marketwatch.com/story/chinas-car-sales-rose-25-in-january-2021-02-08-6485132 TODO: numbers per brand wanted",
-{ "other": 2160000
+db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1621.html TODO: numbers per brand wanted",
+{ "other": 2045000
 });
 
 db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
