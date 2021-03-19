@@ -776,8 +776,8 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nio|ES6": 2386
 });
 
-db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.just-auto.com/news/china-passenger-vehicle-sales-rise-7-in-december_id199621.aspx TODO: numbers per brand wanted",
-{ "other": 2290000
+db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/31/id/50.html TODO: numbers per brand wanted",
+{ "other": 2375000
 });
 
 db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
