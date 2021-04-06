@@ -2136,6 +2136,81 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 1
 });
 
+db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 2181
+, "Toyota": 1536
+, "Volvo": 1438
+, "Volkswagen": 1313
+, "BMW": 1125
+, "Mercedes-Benz": 993
+, "Peugeot": 724
+, "Nissan": 658
+, "Audi": 519
+, "Škoda": 498
+, "Kia": 457
+, "Hyundai": 424
+, "MG": 412
+, "Polestar": 396
+, "Ford": 384
+, "Mitsubishi": 362
+, "Suzuki": 294
+, "Mazda": 227
+, "Opel": 194
+, "Lexus": 163
+});
+
+db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3",
+{ "Tesla|Model 3": 2169
+, "Volkswagen|ID.4": 852
+, "Nissan|Leaf": 612
+, "Mercedes-Benz|EQC": 585
+, "Volvo|XC40 Recharge pure electric": 540
+, "Audi|e-tron": 428
+, "Polestar|2": 396
+, "MG|ZS EV": 352
+, "Hyundai|Kona Electric": 345
+, "Peugeot|e-2008": 306
+, "Kia|Niro EV": 212
+, "BMW|i3 BEV": 187
+, "Peugeot|e-208": 134
+, "BMW|iX3": 115
+, "Opel|Corsa-e": 108
+, "Kia|Soul EV": 107
+, "Fiat|500e": 106
+, "Xiaopeng|Xpeng G3": 105
+, "Mazda|MX-30": 102
+, "Volkswagen|ID.3": 77
+, "Hyundai|Ioniq Electric": 75
+, "Škoda|Citigo-e": 74
+, "Renault|ZOE": 69
+, "Citroën|ë-Jumpy": 65
+, "Lexus|UX 300e": 63
+, "Porsche|Taycan": 61
+, "Nissan|e-NV200": 53
+, "Peugeot|e-Expert": 52
+, "Jaguar|I-Pace": 52
+, "Škoda|Enyaq": 48
+, "Volkswagen|e-up!": 47
+, "Audi|e-tron GT": 36
+, "Mini|Cooper SE Electric": 35
+, "Opel|Vivaro-e": 26
+, "Mercedes-Benz|EQV": 18
+, "Citroën|ë-C4": 16
+, "Seat|Mii Electric": 15
+, "Honda|e": 12
+, "Renault|Kangoo Z.E.": 10
+, "Opel|Zafira-e": 10
+, "Mercedes-Benz|EQA": 10
+, "Tesla|Model X": 6
+, "Tesla|Model S": 6
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
+, "Volkswagen|e-Crafter": 4
+, "Mercedes-Benz|eVito": 2
+, "Maxus|EV80": 2
+, "Mitsubishi|i-MiEV": 1
+, "Ford|Mustang Mach-E": 1
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
