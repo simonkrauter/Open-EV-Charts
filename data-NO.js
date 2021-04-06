@@ -1927,6 +1927,29 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 1
 });
 
+db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 4423
+, "Volkswagen": 2825
+, "Volvo": 1956
+, "BMW": 1603
+, "Toyota": 1382
+, "Mercedes-Benz": 846
+, "Škoda": 806
+, "Nissan": 718
+, "Polestar": 671
+, "Mazda": 589
+, "Hyundai": 564
+, "Audi": 531
+, "Peugeot": 436
+, "Kia": 378
+, "MG": 358
+, "Suzuki": 347
+, "Renault": 205
+, "Ford": 193
+, "Mitsubishi": 116
+, "Opel": 95
+});
+
 db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12",
 { "Tesla|Model 3": 4233
 , "Volkswagen|ID.3": 2303
@@ -1972,29 +1995,6 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 1
 , "Mitsubishi|i-MiEV": 1
 , "Chevrolet|Bolt": 1
-});
-
-db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Tesla": 4423
-, "Volkswagen": 2825
-, "Volvo": 1956
-, "BMW": 1603
-, "Toyota": 1382
-, "Mercedes-Benz": 846
-, "Škoda": 806
-, "Nissan": 718
-, "Polestar": 671
-, "Mazda": 589
-, "Hyundai": 564
-, "Audi": 531
-, "Peugeot": 436
-, "Kia": 378
-, "MG": 358
-, "Suzuki": 347
-, "Renault": 205
-, "Ford": 193
-, "Mitsubishi": 116
-, "Opel": 95
 });
 
 db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
