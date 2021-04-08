@@ -543,6 +543,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 11
 , "Peugeot|Partner Electric": 8
 , "Nissan|e-NV200": 4
+, "other": 828
 });
 
 db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/01/2018_12_vpfrance.pdf",
@@ -659,6 +660,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 10
 , "Citroën|E-Mehari": 8
 , "Citroën|Berlingo Electric": 7
+, "other": 514
 });
 
 db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/03/2019_02_vpfrance.pdf",
@@ -725,7 +727,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 6
 , "Citroën|E-Mehari": 5
 , "Citroën|Berlingo Electric": 3
-
+, "other": 665
 });
 
 db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/04/2019_03_vpfrance.pdf",
@@ -792,6 +794,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-up!": 9
 , "Citroën|Berlingo Electric": 7
 , "Kia|Soul EV": 1
+, "other": 798
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/05/2019_04_vpfrance.pdf",
@@ -859,6 +862,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 39
 , "Nissan|e-NV200": 64
 , "Renault|Kangoo Z.E.": 371
+, "other": 138
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/06/2019_05_vpfrance.pdf",
@@ -926,6 +930,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|Partner Electric": 61
 , "Nissan|e-NV200": 66
 , "Renault|Kangoo Z.E.": 297
+, "other": 122
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/07/2019_06_vpfrance.pdf",
@@ -984,6 +989,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 121
 , "Peugeot|Partner Electric": 52
 , "Citroën|Berlingo Electric": 41
+, "other": 430
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/08/2019_07_vpfrance.pdf",
@@ -1042,6 +1048,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 41
 , "Peugeot|Partner Electric": 25
 , "Citroën|Berlingo Electric": 23
+, "other": 428
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/09/2019_08_vpfrance.pdf",
@@ -1100,6 +1107,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 41
 , "Peugeot|Partner Electric": 25
 , "Citroën|Berlingo Electric": 23
+, "other": 428
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/10/2019_09_vpfrance.pdf",
@@ -1216,6 +1224,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-208": 54
 , "Citroën|Berlingo Electric": 42
 , "Peugeot|Partner Electric": 23
+, "other": 562
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/11/2019_11_vpfrance.pdf",
@@ -1273,6 +1282,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Renault|Kangoo Z.E.": 277
 , "Peugeot|Partner Electric": 32
 , "Citroën|Berlingo Electric": 18
+, "other": 276
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/01/2019_12_vpfrance.pdf",
@@ -1332,6 +1342,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 25
 , "Peugeot|Partner Electric": 24
 , "Peugeot|iOn": 6
+, "other": 299
 });
 
 db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/02/2020_01_vpfrance-1.pdf",
@@ -1389,6 +1400,7 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|e-NV200": 82
 , "Citroën|Berlingo Electric": 38
 , "Peugeot|Partner Electric": 34
+, "other": 734
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/03/2020_02_vpfrance.pdf",
@@ -1444,6 +1456,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 29
 , "Peugeot|Partner Electric": 18
 , "Peugeot|iOn": 4
+, "other": 1029
 });
 
 db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/03/2020_03_vpfrance.pdf",
@@ -1499,6 +1512,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 111
 , "Renault|Kangoo Z.E.": 227
 , "Citroën|Berlingo Electric": 4
+, "other": 668
 });
 
 db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/05/2020_04_vpfrance.pdf",
@@ -1554,6 +1568,7 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mercedes-Benz|eVito": 6
 , "Nissan|e-NV200": 3
 , "Peugeot|Partner Electric": 2
+, "other": 123
 });
 
 db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/06/2020_05_vpfrance.pdf",
@@ -1610,6 +1625,7 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Crafter": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Seat|Mii Electric": 2
+, "other": 746
 });
 
 db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/07/2020_06_vpfrance.pdf",
@@ -1667,6 +1683,7 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Crafter": 71
 , "Citroën|Berlingo Electric": 47
 , "Peugeot|Partner Electric": 10
+, "other": 1804
 });
 
 db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/08/2020_07_vpfrance.pdf",
@@ -1780,6 +1797,7 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|Berlingo Electric": 46
 , "Volkswagen|e-Crafter": 42
 , "Nissan|e-NV200": 39
+, "other": 714
 });
 
 db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/10/2020_09_vpfrance.pdf",
@@ -1836,6 +1854,7 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "DS Automobiles|DS 3 Crossback E-Tense": 175
 , "Nissan|e-NV200": 61
 , "Citroën|C-Zero": 1
+, "other": 1862
 });
 
 db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/11/2020-10-vpfrance.pdf",
@@ -1890,6 +1909,7 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 181
 , "Volkswagen|e-Crafter": 52
 , "Nissan|e-NV200": 47
+, "other": 2329
 });
 
 db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2020/12/2020-11-vpfrance.pdf",
@@ -1945,6 +1965,7 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Fiat|500e": 307
 , "Nissan|e-NV200": 96
 , "Volkswagen|e-Crafter": 59
+, "other": 2288
 });
 
 db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/01/2020-12-vpfrance.pdf",
@@ -2001,6 +2022,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Crafter": 66
 , "Citroën|ë-Jumpy": 52
 , "Nissan|e-NV200": 43
+, "other": 4363
 });
 
 db.insert(db.countries.FR, "2021-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/02/2021-01-vpfrance.pdf",
@@ -2059,6 +2081,7 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|ë-Jumpy": 45
 , "Volkswagen|e-Crafter": 21
 , "Mercedes-Benz|eVito": 10
+, "other": 1284
 });
 
 db.insert(db.countries.FR, "2021-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/03/2021-02-vpfrance.pdf",
@@ -2114,4 +2137,5 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Citroën|ë-Jumpy": 70
 , "Peugeot|e-Expert": 37
 , "Nissan|e-NV200": 33
+, "other": 1498
 });
