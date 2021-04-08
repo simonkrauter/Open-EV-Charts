@@ -7,7 +7,7 @@ db.addCountry("US", "United States");
 db.insert(db.countries.US, "q2018-1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
 { "Ford": 574332
 , "Toyota": 514289
-, "Chevrolet": 490919
+, "Chevrolet": 489852
 , "Nissan": 375116
 , "Honda": 329077
 , "Jeep": 228105
@@ -32,7 +32,7 @@ db.insert(db.countries.US, "q2018-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Land Rover": 24246
 , "Lincoln": 22462
 , "Volvo": 21895
-, "Tesla": 17982
+, "Tesla": 17980
 , "Porsche": 13954
 , "Mini": 10533
 , "Jaguar": 8049
@@ -55,32 +55,32 @@ db.insert(db.countries.US, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://a
 db.insert(db.countries.US, "q2018-2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
 { "Ford": 647113
 , "Toyota": 562118
+, "Chevrolet": 444759
 , "Honda": 386094
 , "Nissan": 333409
 , "Jeep": 266917
 , "Hyundai": 183173
-, "Chevrolet": 180634
 , "Subaru": 173157
 , "Kia": 166618
 , "Ram": 146687
 , "Dodge": 133962
+, "GMC": 113389
 , "Volkswagen": 88935
 , "Mercedes-Benz": 88404
 , "Mazda": 79929
 , "BMW": 79551
 , "Lexus": 70783
 , "Audi": 57890
-, "GMC": 46055
+, "Buick": 45311
 , "Chrysler": 42397
 , "Acura": 39239
+, "Cadillac": 33609
 , "Mitsubishi": 31565
 , "Infiniti": 30763
 , "Lincoln": 27807
 , "Volvo": 27539
 , "Tesla": 26732
 , "Land Rover": 20533
-, "Buick": 17590
-, "Cadillac": 16291
 , "Porsche": 15467
 , "Mini": 14776
 , "Jaguar": 6738
@@ -103,14 +103,15 @@ db.insert(db.countries.US, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://a
 db.insert(db.countries.US, "q2018-3", db.dsTypes.AllCarsByBrand, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
 { "Ford": 581928
 , "Toyota": 577945
+, "Chevrolet": 448901
 , "Honda": 377346
 , "Nissan": 310908
 , "Jeep": 251172
 , "Subaru": 180558
-, "Chevrolet": 165464
 , "Hyundai": 165006
 , "Kia": 158479
 , "Ram": 156320
+, "GMC": 119584
 , "Dodge": 108795
 , "Volkswagen": 93330
 , "Lexus": 78622
@@ -119,18 +120,17 @@ db.insert(db.countries.US, "q2018-3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mazda": 71198
 , "Tesla": 69925
 , "Audi": 59478
+, "Buick": 44034
 , "Acura": 41830
-, "GMC": 41584
 , "Chrysler": 38526
 , "Infiniti": 33079
+, "Cadillac": 30444
 , "Volvo": 26307
 , "Mitsubishi": 26071
 , "Lincoln": 25011
 , "Land Rover": 20354
 , "Mini": 16381
-, "Buick": 15101
 , "Porsche": 13205
-, "Cadillac": 12409
 , "Jaguar": 6389
 , "Alfa Romeo": 5895
 , "Fiat": 3799
@@ -149,14 +149,15 @@ db.insert(db.countries.US, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://a
 db.insert(db.countries.US, "q2018-4", db.dsTypes.AllCarsByBrand, "https://autocharts.info (incomplete, only models with no ICE/hybrid variant included)",
 { "Ford": 578262
 , "Toyota": 524818
+, "Chevrolet": 504856
 , "Honda": 353380
 , "Nissan": 325164
 , "Jeep": 227033
-, "Chevrolet": 188682
 , "Ram": 180707
 , "Subaru": 176717
 , "Hyundai": 174843
 , "Kia": 137631
+, "GMC": 123576
 , "Mercedes-Benz": 100353
 , "Dodge": 99596
 , "Volkswagen": 87836
@@ -165,17 +166,16 @@ db.insert(db.countries.US, "q2018-4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Tesla": 77525
 , "Mazda": 65203
 , "Audi": 55742
-, "GMC": 54203
 , "Acura": 44451
 , "Infiniti": 44031
+, "Buick": 44016
 , "Chrysler": 38808
+, "Cadillac": 29183
 , "Lincoln": 28307
 , "Land Rover": 27010
 , "Mitsubishi": 24676
 , "Volvo": 24634
-, "Buick": 17305
 , "Porsche": 14576
-, "Cadillac": 14001
 , "Mini": 9491
 , "Jaguar": 9307
 , "Alfa Romeo": 5640
@@ -307,7 +307,7 @@ db.insert(db.countries.US, "q2019-3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Lexus": 73816
 , "Mazda": 69612
 , "Audi": 57031
-, "Tesla": 54702
+, "Tesla": 54700
 , "Buick": 50614
 , "Cadillac": 39962
 , "Acura": 39046
@@ -411,6 +411,7 @@ db.insert(db.countries.US, "q2020-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Acura": 28531
 , "Lincoln": 25562
 , "Infiniti": 25556
+, "Land Rover": 20400
 , "Volvo": 19485
 , "Porsche": 11984
 , "Jaguar": 7266
@@ -556,11 +557,13 @@ db.insert(db.countries.US, "q2020-4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Volvo": 36526
 , "Chrysler": 34614
 , "Lincoln": 31008
+, "Land Rover": 27698
 , "Infiniti": 20482
 , "Porsche": 17561
 , "Mitsubishi": 14769
 , "Mini": 8549
 , "Alfa Romeo": 6092
+, "Jaguar": 5500
 , "Genesis": 5099
 , "Fiat": 735
 });
@@ -574,4 +577,5 @@ db.insert(db.countries.US, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|Leaf": 4635
 , "Audi|e-tron": 2034
 , "Porsche|Taycan": 1517
+, "Jaguar|I-Pace": 400
 });
