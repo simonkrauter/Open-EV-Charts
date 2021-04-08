@@ -25,6 +25,7 @@ var chartSetConfig;
 var chartConfigs;
 var activeShowAllOptionsParamName;
 var sortByName;
+var incompleteDataHints = [];
 
 setGlobalChartOptions();
 navigate();
@@ -262,8 +263,11 @@ function renderChart(chartIndex) {
 
   renderChartTitle(chartDiv, chartConfig);
 
-  if (isSingleChart)
+  if (isSingleChart) {
     renderChartTabButtons(chartDiv);
+    if (chartConfig.view != db.views.sources)
+      renderIncompleteDataHint(chartDiv, chartData);
+  }
 
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
@@ -312,6 +316,26 @@ function renderChartTabButtons(chartDiv) {
   const viewOptions = params.view.options;
   for (const i in viewOptions)
     renderChartTabButton(tabButtonsDiv, i, viewOptions[i]);
+}
+
+function renderIncompleteDataHint(chartDiv, chartData) {
+  incompleteDataHints = [];
+  const keyword = " (Incomplete: ";
+  for (const line in chartData.sources) {
+    const i = line.indexOf(keyword);
+    if (i == -1)
+      continue;
+    const text = line.substr(i + keyword.length, line.length - i - keyword.length - 1);
+    if (!incompleteDataHints.includes(text))
+      incompleteDataHints.push(text);
+  }
+
+  for (const i in incompleteDataHints) {
+    const div = document.createElement("DIV");
+    chartDiv.appendChild(div);
+    div.classList.add("incompleteDataHint");
+    div.appendChild(document.createTextNode("Data is incomplete: " + incompleteDataHints[i]));
+  }
 }
 
 function renderChartTabButton(tabButtonsDiv, key, title) {
@@ -554,7 +578,8 @@ function setChartSize(element) {
   const heightRatio = 0.6;
   var heightOffset = 290;
   if (isWidthEnoughForFilterAsButtons())
-    heightOffset = 300;
+    heightOffset += 10;
+  heightOffset += 20 * incompleteDataHints.length;
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;

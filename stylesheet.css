@@ -245,6 +245,12 @@ a.button.removeButton:after {
   font-weight: bold;
 }
 
+.incompleteDataHint {
+  font-size: 85%;
+  color: #565656;
+  margin-bottom: 5px;
+}
+
 table {
   border-collapse: collapse;
   margin: 2px;
