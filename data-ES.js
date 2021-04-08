@@ -102,7 +102,7 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 142
 , "Maserati": 27
 , "Tesla": 20
-, "other": 59
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/2",
@@ -162,7 +162,7 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 166
 , "Tesla": 62
 , "Maserati": 24
-, "other": 72
+, "other": 13
 });
 
 db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/3",
@@ -222,7 +222,7 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 132
 , "Tesla": 31
 , "Maserati": 18
-, "other": 100
+, "other": 28
 });
 
 db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/4",
@@ -283,7 +283,7 @@ db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 139
 , "Tesla": 22
 , "Maserati": 18
-, "other": 138
+, "other": 38
 });
 
 db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/5",
@@ -344,7 +344,7 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 173
 , "Maserati": 54
 , "Tesla": 43
-, "other": 178
+, "other": 40
 });
 
 db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/6",
@@ -405,7 +405,7 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 138
 , "Maserati": 27
 , "Tesla": 14
-, "other": 227
+, "other": 49
 });
 
 db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/7",
@@ -466,7 +466,7 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 150
 , "Maserati": 20
 , "Tesla": 14
-, "other": 270
+, "other": 43
 });
 
 db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/8",
@@ -529,7 +529,7 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 42
 , "Tesla": 37
 , "Maserati": 22
-, "other": 300
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/9",
@@ -590,7 +590,7 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 63
 , "Maserati": 26
 , "Tesla": 20
-, "other": 409
+, "other": 109
 });
 
 db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/10",
@@ -650,7 +650,7 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 44
 , "Maserati": 23
 , "Tesla": 21
-, "other": 524
+, "other": 115
 });
 
 db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/11",
@@ -710,7 +710,7 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 78
 , "Tesla": 33
 , "Maserati": 19
-, "other": 621
+, "other": 97
 });
 
 db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/12",
@@ -771,7 +771,7 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 120
 , "Maserati": 19
 , "Tesla": 15
-, "other": 754
+, "other": 133
 });
 
 db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/1",
@@ -832,7 +832,7 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 175
 , "Porsche": 79
 , "Maserati": 17
-, "other": 862
+, "other": 108
 });
 
 db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/2",
@@ -897,7 +897,7 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 189
 , "Infiniti": 78
 , "Maserati": 18
-, "other": 981
+, "other": 119
 });
 
 db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/3",
@@ -961,7 +961,7 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 153
 , "Tesla": 76
 , "Maserati": 31
-, "other": 1075
+, "other": 94
 });
 
 db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/4",
@@ -1026,7 +1026,7 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 165
 , "Tesla": 152
 , "Maserati": 23
-, "other": 1194
+, "other": 119
 });
 
 db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/5",
@@ -1089,7 +1089,7 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 214
 , "Infiniti": 88
 , "Maserati": 26
-, "other": 1308
+, "other": 114
 });
 
 db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/6",
@@ -1153,7 +1153,7 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 127
 , "Infiniti": 95
 , "Maserati": 25
-, "other": 1412
+, "other": 104
 });
 
 db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/7",
@@ -1219,7 +1219,7 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 99
 , "Infiniti": 73
 , "Maserati": 20
-, "other": 1536
+, "other": 124
 });
 
 db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/8",
@@ -1282,7 +1282,7 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "SsangYong": 100
 , "Infiniti": 73
 , "Maserati": 19
-, "other": 1655
+, "other": 119
 });
 
 db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/9",
@@ -1346,7 +1346,7 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 65
 , "Tesla": 40
 , "Maserati": 9
-, "other": 1756
+, "other": 101
 });
 
 db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/10",
@@ -1413,7 +1413,7 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 87
 , "Infiniti": 52
 , "Maserati": 15
-, "other": 1864
+, "other": 108
 });
 
 db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/11",
@@ -1478,7 +1478,7 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 172
 , "Infiniti": 59
 , "Maserati": 8
-, "other": 1975
+, "other": 111
 });
 
 db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/12",
@@ -1542,7 +1542,7 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 39
 , "Tesla": 32
 , "Maserati": 11
-, "other": 2065
+, "other": 90
 });
 
 db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/1",
@@ -1613,7 +1613,7 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 102
 , "Maserati": 8
 , "Infiniti": 6
-, "other": 2211
+, "other": 146
 });
 
 db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/2",
@@ -1686,7 +1686,7 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 58
 , "Maserati": 3
 , "Infiniti": 3
-, "other": 2277
+, "other": 66
 });
 
 db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/3",
@@ -1756,7 +1756,7 @@ db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 5
 , "Mazda": 4
 , "SsangYong": 3
-, "other": 2280
+, "other": 3
 });
 
 db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/4",
@@ -1814,7 +1814,7 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 50
 , "Smart": 20
 , "Maserati": 1
-, "other": 2327
+, "other": 47
 });
 
 db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/5",
@@ -1882,7 +1882,7 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 63
 , "Tesla": 62
 , "Maserati": 9
-, "other": 2458
+, "other": 131
 });
 
 db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/6",
@@ -1955,7 +1955,7 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 24
 , "Maserati": 19
 , "Tesla": 9
-, "other": 2597
+, "other": 139
 });
 
 db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/7",
@@ -2027,7 +2027,7 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 46
 , "Maserati": 7
 , "Chevrolet": 1
-, "other": 2673
+, "other": 76
 });
 
 db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/8",
@@ -2100,7 +2100,7 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 99
 , "Smart": 81
 , "Maserati": 22
-, "other": 2803
+, "other": 130
 });
 
 db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/9",
@@ -2176,7 +2176,7 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 80
 , "Tesla": 38
 , "Maserati": 15
-, "other": 2924
+, "other": 121
 });
 
 db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/10",
@@ -2251,7 +2251,7 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 81
 , "Tesla": 55
 , "Maserati": 13
-, "other": 3272
+, "other": 348
 });
 
 db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/11",
@@ -2328,7 +2328,7 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "SsangYong": 129
 , "Mini": 46
 , "Maserati": 15
-, "other": 3856
+, "other": 584
 });
 
 db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/12",
@@ -2402,7 +2402,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 30
 , "Jaguar": 20
 , "Maserati": 12
-, "other": 4592
+, "other": 736
 });
 
 db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/1",
@@ -2483,7 +2483,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 65
 , "Smart": 40
 , "Maserati": 11
-, "other": 5261
+, "other": 669
 });
 
 db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/2",
@@ -2567,7 +2567,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 112
 , "Smart": 80
 , "Maserati": 7
-, "other": 6060
+, "other": 799
 });
 
 db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/3",
@@ -2622,3 +2622,4 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 1
 , "Cupra|el-Born": 1
 });
+
