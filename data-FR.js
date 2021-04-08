@@ -110,7 +110,7 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 63
 });
 
-db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/france-february-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/france-february-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 1155
 , "Nissan|Leaf": 306
 , "Kia|Soul EV": 73
@@ -160,7 +160,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 132
 });
 
-db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/france-march-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/france-march-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 2245
 , "Nissan|Leaf": 719
 , "Kia|Soul EV": 59
@@ -211,7 +211,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 189
 });
 
-db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/france-april-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/france-april-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 961
 , "Nissan|Leaf": 375
 , "Kia|Soul EV": 70
@@ -262,7 +262,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 223
 });
 
-db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/france-may-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/france-may-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 1085
 , "Nissan|Leaf": 331
 , "Kia|Soul EV": 51
@@ -313,7 +313,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 238
 });
 
-db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/france-june-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 1928
 , "Nissan|Leaf": 469
 , "Smart|Fortwo electric drive": 95
@@ -367,7 +367,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 414
 });
 
-db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/norway-august-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/norway-august-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Nissan|Leaf": 1241
 , "Volkswagen|e-Golf": 764
 , "Tesla|Model X": 113
@@ -418,7 +418,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 188
 });
 
-db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/france-september-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 1482
 , "Nissan|Leaf": 390
 , "Smart|Fortwo electric drive": 81
@@ -470,7 +470,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 161
 });
 
-db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/france-october-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 1745
 , "Nissan|Leaf": 410
 , "Smart|Fortwo electric drive": 108
@@ -586,7 +586,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 326
 });
 
-db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (incomplete, missing i3 BEV)",
+db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/france-december-2018.html (Incomplete: BMW i3 BEV is not included.)",
 { "Renault|ZOE": 2558
 , "Nissan|Leaf": 447
 , "Smart|Fortwo electric drive": 339
