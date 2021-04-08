@@ -46,7 +46,7 @@ db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2559",
-{ "Renault|ZOE": 411
+{ "Renault|Zoé": 411
 , "Peugeot|e-208": 318
 , "Volkswagen|e-up!": 215
 , "Smart|Fortwo electric drive": 213
@@ -100,7 +100,7 @@ db.insert(db.countries.IT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2633",
-{ "Renault|ZOE": 387
+{ "Renault|Zoé": 387
 , "Volkswagen|e-up!": 341
 , "Peugeot|e-208": 287
 , "Smart|Fortwo electric drive": 286
@@ -157,7 +157,7 @@ db.insert(db.countries.IT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Tesla|Model 3": 358
 , "Smart|Fortwo electric drive": 128
 , "Volkswagen|e-up!": 70
-, "Renault|ZOE": 55
+, "Renault|Zoé": 55
 , "Tesla|Model S": 38
 , "Mini|Cooper SE Electric": 36
 , "Peugeot|e-208": 35
@@ -206,7 +206,7 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2741",
-{ "Renault|ZOE": 366
+{ "Renault|Zoé": 366
 , "Tesla|Model 3": 88
 , "Tesla|Model S": 10
 , "Opel|Corsa-e": 7
@@ -258,7 +258,7 @@ db.insert(db.countries.IT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2834",
-{ "Renault|ZOE": 529
+{ "Renault|Zoé": 529
 , "Smart|Fortwo electric drive": 308
 , "Volkswagen|e-up!": 299
 , "Opel|Corsa-e": 107
@@ -314,7 +314,7 @@ db.insert(db.countries.IT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2880",
 { "Tesla|Model 3": 317
-, "Renault|ZOE": 314
+, "Renault|Zoé": 314
 , "Smart|Fortwo electric drive": 260
 , "Volkswagen|e-up!": 235
 , "Peugeot|e-2008": 166
@@ -368,7 +368,7 @@ db.insert(db.countries.IT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3021",
 { "Smart|Fortwo electric drive": 350
-, "Renault|ZOE": 198
+, "Renault|Zoé": 198
 , "Opel|Corsa-e": 156
 , "Peugeot|e-208": 142
 , "Peugeot|e-2008": 104
@@ -420,7 +420,7 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 });
 
 db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3056",
-{ "Renault|ZOE": 506
+{ "Renault|Zoé": 506
 , "Volkswagen|e-up!": 201
 , "Tesla|Model 3": 189
 , "Hyundai|Kona Electric": 174
@@ -477,7 +477,7 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3080",
 { "Tesla|Model 3": 880
-, "Renault|ZOE": 676
+, "Renault|Zoé": 676
 , "Smart|Fortwo electric drive": 461
 , "Nissan|Leaf": 297
 , "Volkswagen|ID.3": 270
@@ -530,7 +530,7 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3122",
 { "Smart|Fortwo electric drive": 571
-, "Renault|ZOE": 304
+, "Renault|Zoé": 304
 , "Hyundai|Kona Electric": 258
 , "Volkswagen|ID.3": 234
 , "Volkswagen|e-up!": 198
@@ -585,7 +585,7 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3144",
 { "Volkswagen|e-up!": 657
 , "Smart|Fortwo electric drive": 558
-, "Renault|ZOE": 554
+, "Renault|Zoé": 554
 , "Fiat|500e": 513
 , "Renault|Twingo Z.E.": 411
 , "Tesla|Model 3": 243
@@ -637,7 +637,7 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3181",
 { "Fiat|500e": 1549
-, "Renault|ZOE": 1153
+, "Renault|Zoé": 1153
 , "Tesla|Model 3": 851
 , "Renault|Twingo Z.E.": 683
 , "Smart|Fortwo electric drive": 477
@@ -691,7 +691,7 @@ db.insert(db.countries.IT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3352",
 { "Fiat|500e": 419
 , "Smart|Fortwo electric drive": 419
-, "Renault|ZOE": 255
+, "Renault|Zoé": 255
 , "Opel|Corsa-e": 216
 , "Peugeot|e-208": 193
 , "Renault|Twingo Z.E.": 129
@@ -745,7 +745,7 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Fiat|500e": 583
 , "Smart|Fortwo electric drive": 545
 , "Renault|Twingo Z.E.": 386
-, "Renault|ZOE": 296
+, "Renault|Zoé": 296
 , "Tesla|Model 3": 278
 , "Peugeot|e-208": 184
 , "Peugeot|e-2008": 163

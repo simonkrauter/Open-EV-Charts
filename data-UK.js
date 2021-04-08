@@ -58,7 +58,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets
 db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 2015
 , "Tesla|Model S": 541
-, "Renault|ZOE": 429
+, "Renault|Zoé": 429
 , "Tesla|Model X": 293
 , "BMW|i3 BEV": 256
 , "Volkswagen|e-Golf": 134
@@ -123,7 +123,7 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://a
 { "Nissan|Leaf": 1501
 , "Tesla|Model S": 498
 , "Tesla|Model X": 422
-, "Renault|ZOE": 402
+, "Renault|Zoé": 402
 , "BMW|i3 BEV": 171
 , "Volkswagen|e-Golf": 156
 , "Kia|Soul EV": 96
@@ -186,7 +186,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 961
 , "Tesla|Model S": 498
-, "Renault|ZOE": 454
+, "Renault|Zoé": 454
 , "Tesla|Model X": 442
 , "BMW|i3 BEV": 363
 , "Volkswagen|e-Golf": 332
@@ -248,7 +248,7 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 939
-, "Renault|ZOE": 696
+, "Renault|Zoé": 696
 , "Jaguar|I-Pace": 534
 , "BMW|i3 BEV": 419
 , "Volkswagen|e-Golf": 358
@@ -315,7 +315,7 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
 , "BMW|i3 BEV": 794
-, "Renault|ZOE": 745
+, "Renault|Zoé": 745
 , "Tesla|Model X": 325
 , "Tesla|Model S": 320
 , "Audi|e-tron": 63
@@ -378,7 +378,7 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 { "Jaguar|I-Pace": 982
 , "BMW|i3 BEV": 969
 , "Volkswagen|e-Golf": 796
-, "Renault|ZOE": 773
+, "Renault|Zoé": 773
 , "Nissan|Leaf": 760
 , "Tesla|Model S": 456
 , "Audi|e-tron": 352
@@ -447,7 +447,7 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 1208
 , "BMW|i3 BEV": 1183
 , "Jaguar|I-Pace": 1171
-, "Renault|ZOE": 646
+, "Renault|Zoé": 646
 , "Tesla|Model X": 366
 , "Audi|e-tron": 333
 , "Tesla|Model S": 256
@@ -515,7 +515,7 @@ db.insert(db.countries.UK, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 1125
 , "Audi|e-tron": 364
 , "Tesla|Model X": 254
-, "Renault|ZOE": 216
+, "Renault|Zoé": 216
 , "Tesla|Model S": 201
 , "Mercedes-Benz|EQC": 103
 , "Nissan|e-NV200": 73
@@ -580,7 +580,7 @@ db.insert(db.countries.UK, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 1146
 , "BMW|i3 BEV": 920
 , "Audi|e-tron": 726
-, "Renault|ZOE": 266
+, "Renault|Zoé": 266
 , "Tesla|Model X": 178
 , "Tesla|Model S": 155
 , "Mercedes-Benz|EQC": 122
@@ -640,7 +640,7 @@ db.insert(db.countries.UK, "q2020-2", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/942253/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 4029
-, "Renault|ZOE": 1136
+, "Renault|Zoé": 1136
 , "Jaguar|I-Pace": 1030
 , "Nissan|Leaf": 773
 , "Audi|e-tron": 569
@@ -707,7 +707,7 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/942253/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 5988
-, "Renault|ZOE": 3072
+, "Renault|Zoé": 3072
 , "Audi|e-tron": 2309
 , "Nissan|Leaf": 2187
 , "Jaguar|I-Pace": 2032
