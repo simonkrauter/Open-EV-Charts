@@ -1000,6 +1000,12 @@ var db = {
       }
     }
 
+    // Fill gaps in month/quarters
+    if (chartConfig.xProperty == this.xProperties.month)
+      this.fillMonthCategoryGaps(result.categories);
+    else if (chartConfig.xProperty == this.xProperties.quarter)
+      this.fillQuarterCategoryGaps(result.categories);
+
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
     var seriesByName = {};
     var seriesNamesInOrder = [];
