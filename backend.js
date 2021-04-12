@@ -777,11 +777,19 @@ var db = {
     } else if (sortByName) {
       // Alphabetic sort
       categories.sort(function(a, b) {
+        if (a == "other")
+          return 1;
+        if (b == "other")
+          return -1;
         return a.localeCompare(b);
       });
     } else {
       // Sort by value
       categories.sort(function(a, b) {
+        if (a == "other")
+          return 1;
+        if (b == "other")
+          return -1;
         var valueA = 0;
         var valueB = 0;
         for (const seriesName in seriesRows) {
