@@ -753,3 +753,56 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 142
 , "Hyundai|Kona Electric": 134
 });
+
+db.insert(db.countries.IT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20marzo%202021%20UNRAE%20marca_6065db1d2665e.pdf",
+{ "Fiat": 26400
+, "Volkswagen": 13690
+, "Peugeot": 11446
+, "Ford": 10776
+, "Citroën": 8862
+, "Toyota": 8784
+, "Renault": 8706
+, "Opel": 7397
+, "Jeep": 7348
+, "Audi": 6427
+, "Mercedes-Benz": 5846
+, "BMW": 5745
+, "Dacia": 5524
+, "Hyundai": 4644
+, "Kia": 4165
+, "Suzuki": 3776
+, "Nissan": 3401
+, "Škoda": 2978
+, "Seat": 2717
+, "Mini": 2162
+, "Volvo": 1926
+, "Land Rover": 1771
+, "Mazda": 1463
+, "Tesla": 1366
+, "Alfa Romeo": 1240
+, "Smart": 847
+, "Jaguar": 669
+, "Porsche": 665
+, "Honda": 547
+, "Lexus": 490
+, "DS Automobiles": 436
+, "Mitsubishi": 380
+, "Subaru": 281
+, "Maserati": 227
+, "SsangYong": 73
+, "other": 6509
+});
+
+db.insert(db.countries.IT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3462",
+{ "Tesla|Model 3": 1363
+, "Fiat|500e": 1056
+, "Smart|Fortwo electric drive": 759
+, "Renault|Twingo Z.E.": 738
+, "Renault|Zoé": 721
+, "Peugeot|e-208": 381
+, "Peugeot|e-2008": 294
+, "Volkswagen|ID.3": 270
+, "Hyundai|Kona Electric": 217
+, "Nissan|Leaf": 216
+, "other": 1347
+});
