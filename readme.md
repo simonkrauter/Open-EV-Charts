@@ -1,37 +1,40 @@
 Open EV Charts
 ==============
 
-The purpose of this projects is to collect and visualize information about the adoption of electric cars.
+Open EV Charts is a collection of electric car (BEV) registration numbers with powerful visualization.<br>
+The main purpose is to track the adoption of electric cars over time, countries and brands.
 
-Viewable online version: https://open-ev-charts.org/
+Online version: https://open-ev-charts.org/
 
-What data is collected
-----------------------
-
-The database contains:
-
-- Monthly sales of all cars by brand and country.
-- Monthly sales of electric cars by model and country.
-
-Electric car means pure battery electric car here.
-
-Database state
---------------
-
-- China: data since 2018-01 collected, all car sales per brand missing
-- United States: data since 2018-01 collected, data is per quarter, EV models incomplete, only models with no ICE/hybrid variant included
-- Germany: data since 2018-01 collected
-- United Kingdom: data since 2018-01 collected, data is per quarter
-- France: data since 2018-01 collected
-- Italy: data since 2020-01 collected
-- Spain: data since 2018-01 collected
-- Netherlands: data since 2018-01 collected
-- Sweden: data since 2018-01 collected
-- Austria: data since 2019-01 collected
-- Switzerland: data since 2018-01 collected, EV models incomplete, only models with no ICE/hybrid variant included
-- Norway: data since 2018-01 collected
+Included countries
+------------------
+| Country        | Data included
+|----------------|-------------------------------------------------------
+| China          | since 2018-01, all car sales per brand missing
+| United States  | since 2018-01, data is per quarter, EV models incomplete, only models with no ICE/hybrid variant included
+| Germany        | since 2018-01
+| United Kingdom | since 2018-01, data is per quarter
+| France         | since 2018-01
+| Italy          | since 2020-01
+| Spain          | since 2018-01
+| Netherlands    | since 2018-01
+| Sweden         | since 2018-01
+| Austria        | since 2019-01
+| Switzerland    | since 2018-01, EV models incomplete, only models with no ICE/hybrid variant included
+| Norway         | since 2018-01
 
 Data sources for other countries wanted.
+
+Database structure
+------------------
+
+For each country there is a JavaScript file.<br>
+This file contains two data sets for each month/quarter:
+
+- Sales numbers of all cars by brand
+- Sales numbers of electric cars (BEV) by model
+
+In addition every data set has a source URL.
 
 Technology
 ----------
@@ -43,20 +46,15 @@ Technology
 Feeback
 -------
 
-Feeback of any kind is welcome. Possibilities to send feedback:
-- Mail: trustable@disroot.org
-- [GitHub issue](https://github.com/trustable-code/Open-EV-Charts/issues/new)
+Feeback of any kind is welcome:
+- Send an email to trustable@disroot.org
+- [Create a GitHub issue](https://github.com/trustable-code/Open-EV-Charts/issues/new)
 
 Contributing
 ------------
 
 Contributions of any kind are welcome. Feel free to submit pull requests and issues.<br>
-Especially you can help by adding data sets for more countries.<br>
-
-Requirements for data sets:
-- Data needs be entered in the correct format (see existing files).
-- Every data set needs a reputable source given as URL.
-- The source should provide continuous monthly data.
+Especially you can help by adding finding a data source for more countries.<br>
 
 [Tutorial for first GitHub contributions](https://github.com/firstcontributions/first-contributions/blob/master/README.md)
 
@@ -65,4 +63,4 @@ License
 
 Open EV Charts is FLOSS (free and open-source software).<br>
 All files in this repository are licensed under the [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0) (GPLv3).<br>
-Copyright 2019-2020 Simon Krauter
+Copyright 2019–2021 Simon Krauter
