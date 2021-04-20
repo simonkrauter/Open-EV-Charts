@@ -408,6 +408,20 @@ var db = {
     return parts.join(":");
   },
 
+  normalizeSearchString: function(s) {
+    s = s.replace(/-/g, "");
+    s = s.replace(/\./g, "");
+    s = s.replace(/ä/g, "ae");
+    s = s.replace(/ö/g, "oe");
+    s = s.replace(/ü/g, "ue");
+    s = s.replace(/ß/g, "ss");
+    s = s.replace(/é/g, "e");
+    s = s.replace(/ë/g, "e");
+    s = s.replace(/Š/g, "s");
+    s = s.toLowerCase();
+    return s;
+  },
+
   decodeChartConfigString: function(chartConfigString) {
     var parts = [];
     if (chartConfigString != "")
@@ -421,9 +435,16 @@ var db = {
       var selectedValues = [];
       for (const j in parts) {
         const part = parts[j];
-        if (part in param.options) {
-          if (!selectedValues.includes(part))
-            selectedValues.push(part);
+        var optionsKeyMatched = null;
+        for (const key in param.options) {
+          if (this.normalizeSearchString(key) == this.normalizeSearchString(part)) {
+            optionsKeyMatched = key;
+            break;
+          }
+        }
+        if (optionsKeyMatched != null) {
+          if (!selectedValues.includes(optionsKeyMatched))
+            selectedValues.push(optionsKeyMatched);
           if (!param.allowMultiSelection)
             break;
         } else if (param.name == "timeSpan" && Number.isInteger(parseInt(part[1])) && (part.startsWith("m") || part.startsWith("q") || part.startsWith("y"))) {
