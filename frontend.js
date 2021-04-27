@@ -734,7 +734,7 @@ function renderTableWikitextExportButton(chartDiv, table) {
             wikitext += "style=\"text-align:center;\" | ";
           else if (cell.style.textAlign == "right")
             wikitext += "style=\"text-align:right;\" | ";
-          wikitext += cell.innerHTML;
+          wikitext += cell.textContent;
           wikitext += "\n";
         }
       }
