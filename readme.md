@@ -22,6 +22,8 @@ Included countries
 | Austria        | since 2019-01
 | Switzerland    | since 2018-01, EV models incomplete, only models with no ICE/hybrid variant included
 | Norway         | since 2018-01
+| Finland        | since 2020-01
+| Ireland        | since 2020-01
 
 Data sources for other countries wanted.
 
