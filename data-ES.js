@@ -46,13 +46,13 @@ db.insert(db.countries.ES, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.km
 
 db.insert(db.countries.ES, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/1",
 { "Renault|Zoé": 104
-, "Smart|Fortwo electric drive": 68
+, "Smart|Fortwo ED": 68
 , "Renault|Kangoo Z.E.": 65
 , "Nissan|Leaf": 37
 , "Nissan|e-NV200": 34
 , "Peugeot|Partner Electric": 29
 , "Volkswagen|e-Golf": 28
-, "Smart|Forfour electric drive": 26
+, "Smart|Forfour ED": 26
 , "Hyundai|Ioniq Electric": 22
 , "BMW|i3 BEV": 22
 , "Peugeot|iOn": 13
@@ -109,9 +109,9 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Renault|Zoé": 112
 , "Renault|Kangoo Z.E.": 55
 , "BMW|i3 BEV": 55
-, "Smart|Forfour electric drive": 51
+, "Smart|Forfour ED": 51
 , "Nissan|Leaf": 44
-, "Smart|Fortwo electric drive": 37
+, "Smart|Fortwo ED": 37
 , "Volkswagen|e-Golf": 16
 , "Hyundai|Ioniq Electric": 15
 , "Tesla|Model S": 13
@@ -169,8 +169,8 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 { "Renault|Zoé": 150
 , "Nissan|Leaf": 91
 , "Renault|Kangoo Z.E.": 81
-, "Smart|Fortwo electric drive": 36
-, "Smart|Forfour electric drive": 33
+, "Smart|Fortwo ED": 36
+, "Smart|Forfour ED": 33
 , "Citroën|Berlingo Electric": 33
 , "Tesla|Model X": 32
 , "Tesla|Model S": 30
@@ -228,12 +228,12 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.km
 db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/4",
 { "Nissan|Leaf": 148
 , "Renault|Zoé": 96
-, "Smart|Fortwo electric drive": 48
+, "Smart|Fortwo ED": 48
 , "Nissan|e-NV200": 39
 , "Peugeot|Partner Electric": 38
 , "BMW|i3 BEV": 35
 , "Renault|Kangoo Z.E.": 30
-, "Smart|Forfour electric drive": 25
+, "Smart|Forfour ED": 25
 , "Citroën|Berlingo Electric": 20
 , "Volkswagen|e-Golf": 19
 , "Tesla|Model S": 16
@@ -288,10 +288,10 @@ db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.km
 
 db.insert(db.countries.ES, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/5",
 { "Renault|Zoé": 75
-, "Smart|Fortwo electric drive": 61
+, "Smart|Fortwo ED": 61
 , "Nissan|Leaf": 48
 , "BMW|i3 BEV": 45
-, "Smart|Forfour electric drive": 33
+, "Smart|Forfour ED": 33
 , "Nissan|e-NV200": 29
 , "Renault|Kangoo Z.E.": 24
 , "Tesla|Model X": 15
@@ -350,11 +350,11 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.km
 db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/6",
 { "Renault|Zoé": 69
 , "Nissan|Leaf": 64
-, "Smart|Fortwo electric drive": 51
+, "Smart|Fortwo ED": 51
 , "BMW|i3 BEV": 43
 , "Nissan|e-NV200": 37
 , "Renault|Kangoo Z.E.": 29
-, "Smart|Forfour electric drive": 27
+, "Smart|Forfour ED": 27
 , "Tesla|Model S": 25
 , "Peugeot|Partner Electric": 21
 , "Tesla|Model X": 18
@@ -413,9 +413,9 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 85
 , "Volkswagen|e-Golf": 53
 , "Renault|Kangoo Z.E.": 39
-, "Smart|Fortwo electric drive": 34
+, "Smart|Fortwo ED": 34
 , "BMW|i3 BEV": 32
-, "Smart|Forfour electric drive": 31
+, "Smart|Forfour ED": 31
 , "Nissan|e-NV200": 24
 , "Hyundai|Ioniq Electric": 11
 , "Kia|Soul EV": 10
@@ -477,8 +477,8 @@ db.insert(db.countries.ES, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 25
 , "Hyundai|Ioniq Electric": 25
 , "Volkswagen|e-Golf": 24
-, "Smart|Forfour electric drive": 16
-, "Smart|Fortwo electric drive": 12
+, "Smart|Forfour ED": 16
+, "Smart|Fortwo ED": 12
 , "Citroën|Berlingo Electric": 10
 , "Tesla|Model X": 9
 , "Citroën|C-Zero": 7
@@ -536,8 +536,8 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 { "Nissan|Leaf": 138
 , "BMW|i3 BEV": 93
 , "Renault|Kangoo Z.E.": 80
-, "Smart|Fortwo electric drive": 53
-, "Smart|Forfour electric drive": 41
+, "Smart|Fortwo ED": 53
+, "Smart|Forfour ED": 41
 , "Hyundai|Kona Electric": 38
 , "Renault|Zoé": 36
 , "Nissan|e-NV200": 24
@@ -597,10 +597,10 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 { "Nissan|Leaf": 149
 , "Renault|Zoé": 115
 , "Renault|Kangoo Z.E.": 74
-, "Smart|Fortwo electric drive": 48
+, "Smart|Fortwo ED": 48
 , "Citroën|Berlingo Electric": 43
 , "Nissan|e-NV200": 41
-, "Smart|Forfour electric drive": 38
+, "Smart|Forfour ED": 38
 , "BMW|i3 BEV": 36
 , "Hyundai|Kona Electric": 34
 , "Volkswagen|e-Golf": 29
@@ -658,9 +658,9 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 182
 , "Renault|Kangoo Z.E.": 83
 , "Nissan|e-NV200": 64
-, "Smart|Fortwo electric drive": 59
+, "Smart|Fortwo ED": 59
 , "BMW|i3 BEV": 43
-, "Smart|Forfour electric drive": 37
+, "Smart|Forfour ED": 37
 , "Hyundai|Kona Electric": 28
 , "Hyundai|Ioniq Electric": 26
 , "Volkswagen|e-Golf": 24
@@ -714,9 +714,9 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.km
 });
 
 db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/12",
-{ "Smart|Forfour electric drive": 340
+{ "Smart|Forfour ED": 340
 , "Renault|Zoé": 295
-, "Smart|Fortwo electric drive": 254
+, "Smart|Fortwo ED": 254
 , "Nissan|Leaf": 214
 , "Renault|Kangoo Z.E.": 141
 , "Nissan|e-NV200": 126
@@ -779,8 +779,8 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 127
 , "BMW|i3 BEV": 67
 , "Renault|Zoé": 56
-, "Smart|Fortwo electric drive": 50
-, "Smart|Forfour electric drive": 34
+, "Smart|Fortwo ED": 50
+, "Smart|Forfour ED": 34
 , "Citroën|Berlingo Electric": 33
 , "Volkswagen|e-Golf": 32
 , "Citroën|C-Zero": 20
@@ -839,9 +839,9 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model 3": 200
 , "Nissan|Leaf": 134
 , "Hyundai|Kona Electric": 93
-, "Smart|Forfour electric drive": 84
+, "Smart|Forfour ED": 84
 , "Renault|Zoé": 84
-, "Smart|Fortwo electric drive": 62
+, "Smart|Fortwo ED": 62
 , "BMW|i3 BEV": 54
 , "Volkswagen|e-Golf": 48
 , "Kia|Niro EV": 33
@@ -906,10 +906,10 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 118
 , "Volkswagen|e-Golf": 105
 , "Hyundai|Kona Electric": 86
-, "Smart|Forfour electric drive": 64
+, "Smart|Forfour ED": 64
 , "Audi|e-tron": 62
 , "Renault|Zoé": 56
-, "Smart|Fortwo electric drive": 50
+, "Smart|Fortwo ED": 50
 , "Kia|Niro EV": 32
 , "Nissan|e-NV200": 20
 , "Jaguar|I-Pace": 20
@@ -970,9 +970,9 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 79
 , "BMW|i3 BEV": 70
 , "Tesla|Model 3": 51
-, "Smart|Forfour electric drive": 36
+, "Smart|Forfour ED": 36
 , "Volkswagen|e-Golf": 32
-, "Smart|Fortwo electric drive": 30
+, "Smart|Fortwo ED": 30
 , "Kia|Niro EV": 30
 , "Nissan|e-NV200": 26
 , "Hyundai|Ioniq Electric": 19
@@ -1033,11 +1033,11 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 { "Nissan|Leaf": 206
 , "Tesla|Model 3": 122
 , "Renault|Zoé": 115
-, "Smart|Fortwo electric drive": 100
+, "Smart|Fortwo ED": 100
 , "Nissan|e-NV200": 95
 , "Hyundai|Kona Electric": 85
 , "BMW|i3 BEV": 65
-, "Smart|Forfour electric drive": 50
+, "Smart|Forfour ED": 50
 , "Volkswagen|e-Golf": 38
 , "Kia|Niro EV": 33
 , "Jaguar|I-Pace": 22
@@ -1098,9 +1098,9 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 129
 , "Hyundai|Kona Electric": 124
 , "BMW|i3 BEV": 101
-, "Smart|Forfour electric drive": 67
+, "Smart|Forfour ED": 67
 , "Volkswagen|e-Golf": 60
-, "Smart|Fortwo electric drive": 53
+, "Smart|Fortwo ED": 53
 , "Kia|Niro EV": 41
 , "Tesla|Model S": 39
 , "Tesla|Model X": 32
@@ -1164,8 +1164,8 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 68
 , "Volkswagen|e-Golf": 61
 , "Kia|Niro EV": 46
-, "Smart|Forfour electric drive": 36
-, "Smart|Fortwo electric drive": 28
+, "Smart|Forfour ED": 36
+, "Smart|Fortwo ED": 28
 , "Hyundai|Ioniq Electric": 22
 , "Nissan|e-NV200": 21
 , "Tesla|Model X": 20
@@ -1230,8 +1230,8 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 48
 , "Nissan|Leaf": 37
 , "Kia|Niro EV": 37
-, "Smart|Forfour electric drive": 23
-, "Smart|Fortwo electric drive": 22
+, "Smart|Forfour ED": 23
+, "Smart|Fortwo ED": 22
 , "Tesla|Model X": 19
 , "Tesla|Model S": 17
 , "Nissan|e-NV200": 13
@@ -1292,9 +1292,9 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoé": 52
 , "BMW|i3 BEV": 48
 , "Kia|Niro EV": 47
-, "Smart|Fortwo electric drive": 41
+, "Smart|Fortwo ED": 41
 , "Hyundai|Kona Electric": 39
-, "Smart|Forfour electric drive": 25
+, "Smart|Forfour ED": 25
 , "Tesla|Model X": 19
 , "Tesla|Model S": 14
 , "Hyundai|Ioniq Electric": 11
@@ -1356,11 +1356,11 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 82
 , "BMW|i3 BEV": 75
 , "Kia|Niro EV": 45
-, "Smart|Fortwo electric drive": 40
+, "Smart|Fortwo ED": 40
 , "Seat|Mii Electric": 30
 , "Hyundai|Ioniq Electric": 28
 , "Tesla|Model 3": 26
-, "Smart|Forfour electric drive": 24
+, "Smart|Forfour ED": 24
 , "Nissan|e-NV200": 19
 , "Audi|e-tron": 12
 , "Tesla|Model X": 8
@@ -1417,14 +1417,14 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.km
 });
 
 db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/11",
-{ "Smart|Forfour electric drive": 150
+{ "Smart|Forfour ED": 150
 , "BMW|i3 BEV": 118
 , "Nissan|Leaf": 88
 , "Volkswagen|e-Golf": 83
 , "Hyundai|Kona Electric": 77
 , "Tesla|Model 3": 69
 , "Renault|Zoé": 66
-, "Smart|Fortwo electric drive": 59
+, "Smart|Fortwo ED": 59
 , "Nissan|e-NV200": 18
 , "DS Automobiles|DS 3 Crossback E-Tense": 16
 , "Tesla|Model X": 11
@@ -1482,9 +1482,9 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.km
 });
 
 db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/12",
-{ "Smart|Forfour electric drive": 173
+{ "Smart|Forfour ED": 173
 , "Tesla|Model 3": 164
-, "Smart|Fortwo electric drive": 148
+, "Smart|Fortwo ED": 148
 , "Volkswagen|e-Golf": 136
 , "Nissan|Leaf": 87
 , "BMW|i3 BEV": 74
@@ -1549,7 +1549,7 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 { "Renault|Zoé": 397
 , "Peugeot|e-208": 231
 , "Nissan|Leaf": 141
-, "Smart|Fortwo electric drive": 117
+, "Smart|Fortwo ED": 117
 , "Hyundai|Kona Electric": 116
 , "Seat|Mii Electric": 100
 , "DS Automobiles|DS 3 Crossback E-Tense": 84
@@ -1559,7 +1559,7 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 45
 , "Mini|Cooper SE Electric": 26
 , "Hyundai|Ioniq Electric": 24
-, "Smart|Forfour electric drive": 23
+, "Smart|Forfour ED": 23
 , "Kia|Soul EV": 23
 , "Tesla|Model 3": 18
 , "Nissan|e-NV200": 18
@@ -1625,11 +1625,11 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 81
 , "Volkswagen|e-up!": 77
 , "Seat|Mii Electric": 74
-, "Smart|Fortwo electric drive": 57
+, "Smart|Fortwo ED": 57
 , "Mini|Cooper SE Electric": 56
 , "BMW|i3 BEV": 55
 , "Audi|e-tron": 51
-, "Smart|Forfour electric drive": 44
+, "Smart|Forfour ED": 44
 , "Kia|Niro EV": 42
 , "Hyundai|Kona Electric": 34
 , "Mercedes-Benz|EQC": 24
@@ -1695,9 +1695,9 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 77
 , "Seat|Mii Electric": 43
 , "Hyundai|Kona Electric": 41
-, "Smart|Fortwo electric drive": 33
+, "Smart|Fortwo ED": 33
 , "Peugeot|e-208": 27
-, "Smart|Forfour electric drive": 25
+, "Smart|Forfour ED": 25
 , "Tesla|Model S": 21
 , "Mercedes-Benz|EQC": 19
 , "Tesla|Model X": 17
@@ -1760,9 +1760,9 @@ db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.km
 });
 
 db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/4",
-{ "Smart|Forfour electric drive": 31
+{ "Smart|Forfour ED": 31
 , "Tesla|Model 3": 20
-, "Smart|Fortwo electric drive": 6
+, "Smart|Fortwo ED": 6
 , "Renault|Zoé": 6
 , "Porsche|Taycan": 4
 , "Tesla|Model X": 3
@@ -1829,9 +1829,9 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 15
 , "Porsche|Taycan": 14
 , "Seat|Mii Electric": 13
-, "Smart|Fortwo electric drive": 11
+, "Smart|Fortwo ED": 11
 , "Tesla|Model X": 9
-, "Smart|Forfour electric drive": 9
+, "Smart|Forfour ED": 9
 , "Nissan|e-NV200": 9
 , "Opel|Corsa-e": 8
 , "Kia|Niro EV": 8
@@ -1894,9 +1894,9 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 42
 , "Mini|Cooper SE Electric": 40
 , "Kia|Niro EV": 37
-, "Smart|Forfour electric drive": 32
+, "Smart|Forfour ED": 32
 , "Tesla|Model 3": 31
-, "Smart|Fortwo electric drive": 31
+, "Smart|Fortwo ED": 31
 , "Seat|Mii Electric": 31
 , "Opel|Corsa-e": 31
 , "Nissan|Leaf": 29
@@ -1968,12 +1968,12 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 94
 , "Volkswagen|e-up!": 74
 , "Volkswagen|e-Golf": 72
-, "Smart|Fortwo electric drive": 56
+, "Smart|Fortwo ED": 56
 , "Opel|Corsa-e": 50
 , "Nissan|Leaf": 50
 , "BMW|i3 BEV": 41
 , "Hyundai|Ioniq Electric": 40
-, "Smart|Forfour electric drive": 33
+, "Smart|Forfour ED": 33
 , "Audi|e-tron": 29
 , "Škoda|Citigo-e": 24
 , "Honda|e": 21
@@ -2045,10 +2045,10 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 36
 , "Nissan|Leaf": 33
 , "Škoda|Citigo-e": 31
-, "Smart|Fortwo electric drive": 28
+, "Smart|Fortwo ED": 28
 , "Opel|Corsa-e": 24
 , "BMW|i3 BEV": 21
-, "Smart|Forfour electric drive": 18
+, "Smart|Forfour ED": 18
 , "Audi|e-tron": 18
 , "Porsche|Taycan": 17
 , "Kia|Soul EV": 12
@@ -2118,11 +2118,11 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 64
 , "Peugeot|e-208": 57
 , "BMW|i3 BEV": 46
-, "Smart|Fortwo electric drive": 42
+, "Smart|Fortwo ED": 42
 , "Mazda|MX-30": 39
 , "Tesla|Model X": 37
 , "Opel|Corsa-e": 35
-, "Smart|Forfour electric drive": 34
+, "Smart|Forfour ED": 34
 , "Hyundai|Ioniq Electric": 25
 , "Mercedes-Benz|EQC": 24
 , "Kia|Soul EV": 22
@@ -2191,11 +2191,11 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 80
 , "Opel|Corsa-e": 74
 , "Volkswagen|e-Golf": 70
-, "Smart|Fortwo electric drive": 54
+, "Smart|Fortwo ED": 54
 , "Volkswagen|e-up!": 48
 , "Škoda|Citigo-e": 43
 , "Mazda|MX-30": 36
-, "Smart|Forfour electric drive": 30
+, "Smart|Forfour ED": 30
 , "DS Automobiles|DS 3 Crossback E-Tense": 28
 , "Audi|e-tron": 28
 , "BMW|i3 BEV": 24
@@ -2268,11 +2268,11 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 81
 , "Mini|Cooper SE Electric": 76
 , "Volkswagen|e-up!": 59
-, "Smart|Fortwo electric drive": 52
+, "Smart|Fortwo ED": 52
 , "Tesla|Model 3": 43
 , "BMW|i3 BEV": 33
 , "Škoda|Citigo-e": 30
-, "Smart|Forfour electric drive": 29
+, "Smart|Forfour ED": 29
 , "Opel|Corsa-e": 29
 , "Porsche|Taycan": 27
 , "Mercedes-Benz|EQV": 25
@@ -2335,9 +2335,9 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 { "Volkswagen|ID.3": 587
 , "Hyundai|Kona Electric": 578
 , "Renault|Zoé": 428
-, "Smart|Forfour electric drive": 327
+, "Smart|Forfour ED": 327
 , "Tesla|Model 3": 290
-, "Smart|Fortwo electric drive": 247
+, "Smart|Fortwo ED": 247
 , "Mercedes-Benz|EQV": 222
 , "Fiat|500e": 197
 , "Mini|Cooper SE Electric": 142
@@ -2417,13 +2417,13 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 27
 , "Opel|Corsa-e": 22
 , "Seat|Mii Electric": 19
-, "Smart|Forfour electric drive": 18
+, "Smart|Forfour ED": 18
 , "Volkswagen|e-up!": 16
 , "Citroën|ë-C4": 15
 , "Renault|Zoé": 14
 , "Fiat|500e": 14
 , "Volkswagen|ID.3": 12
-, "Smart|Fortwo electric drive": 12
+, "Smart|Fortwo ED": 12
 , "Kia|Soul EV": 10
 , "Nissan|e-NV200": 9
 , "BMW|i3 BEV": 9
@@ -2499,14 +2499,14 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 41
 , "Hyundai|Kona Electric": 38
 , "Nissan|e-NV200": 27
-, "Smart|Fortwo electric drive": 25
+, "Smart|Fortwo ED": 25
 , "Volkswagen|e-up!": 21
 , "Opel|Corsa-e": 18
 , "Peugeot|e-Expert": 17
 , "Porsche|Taycan": 16
 , "Fiat|500e": 16
 , "Citroën|ë-C4": 16
-, "Smart|Forfour electric drive": 15
+, "Smart|Forfour ED": 15
 , "Lexus|UX 300e": 15
 , "BMW|i3 BEV": 14
 , "Kia|Soul EV": 11
@@ -2584,7 +2584,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 63
 , "Renault|Kangoo Z.E.": 62
 , "Mercedes-Benz|EQA": 56
-, "Smart|Fortwo electric drive": 54
+, "Smart|Fortwo ED": 54
 , "Volkswagen|ID.3": 49
 , "Nissan|e-NV200": 48
 , "Opel|Mokka-e": 45
@@ -2593,7 +2593,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 36
 , "BMW|i3 BEV": 34
 , "Porsche|Taycan": 27
-, "Smart|Forfour electric drive": 26
+, "Smart|Forfour ED": 26
 , "Škoda|Citigo-e": 25
 , "BMW|iX3": 19
 , "Renault|Twingo Z.E.": 15

@@ -42,7 +42,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 18
 , "Tesla|Model S": 16
 , "Jaguar|I-Pace": 15
-, "Smart|Fortwo electric drive": 13
+, "Smart|Fortwo ED": 13
 });
 
 db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -387,7 +387,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 50
 , "Hyundai|Kona Electric": 48
 , "Hyundai|Ioniq Electric": 47
-, "Smart|Fortwo electric drive": 27
+, "Smart|Fortwo ED": 27
 , "Tesla|Model 3": 25
 , "Audi|e-tron": 24
 , "Kia|Soul EV": 23
