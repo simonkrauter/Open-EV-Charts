@@ -749,6 +749,9 @@ var db = {
             seriesName = brand;
         }
 
+        if (chartConfig.metric == this.metrics.ratioElectricWithinBrand && brand == "other")
+          continue;
+
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
         if (category in seriesRows[seriesName])
