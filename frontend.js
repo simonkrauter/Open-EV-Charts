@@ -530,7 +530,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     chartOptions.type = "line";
   } else {
     chartOptions.type = "bar";
-    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric != db.metrics.ratioElectric) {
+    if (chartConfig.brand == db.brandOptions.all || chartConfig.metric != db.metrics.ratioElectric || (chartConfig.metric == db.metrics.ratioElectric && chartConfig.model == db.modelOptions.all)) {
       chartOptions.options.scales.xAxes[0].stacked = true;
       chartOptions.options.scales.yAxes[0].stacked = true;
     }

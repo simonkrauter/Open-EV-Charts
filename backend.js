@@ -913,8 +913,11 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
     } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
+      var chartConfigForRatio = this.cloneObject(chartConfig);
+      if (chartConfig.metric == this.metrics.ratioElectric)
+        chartConfigForRatio.brand = this.brandOptions.all;
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-      var datasetsForRatio = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
+      var datasetsForRatio = this.queryDataSets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
       result.sources = datasets.sources;
       for (const i in datasetsForRatio.sources) {
@@ -927,12 +930,14 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.brand == this.brandOptions.all) {
+          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && !chartConfigForRatio.country.includes(",")) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
-          } else {
-            if (datasetsForRatio.seriesRows[seriesName])
+          }
+          else
+          {
+            if (datasetsForRatio.seriesRows[seriesName] != null)
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
           }
           valuesForRatio[category] = value;
