@@ -1000,7 +1000,7 @@ var db = {
           sums[seriesName] = sum;
         }
       } else {
-        // sum per categories
+        // sum per category
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var sum = 0;
@@ -1017,8 +1017,13 @@ var db = {
           var sum;
           if (isSumPerSeries)
             sum = sums[seriesName];
-          else
+          else if (!chartConfigForSum.country.includes(","))
             sum = sums[category];
+          else {
+            // sum per series and category
+            sum = this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
+          }
+
           if (sum == 0)
             seriesRows[seriesName][category] = 0;
           else
