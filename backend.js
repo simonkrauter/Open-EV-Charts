@@ -964,10 +964,8 @@ var db = {
     } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
       if (chartConfig.country != this.countryOptions.all) {
-        if (chartConfig.model == this.modelOptions.combine)
-          chartConfigForSum.brand = this.brandOptions.all;
-        else if (chartConfig.xProperty == this.xProperties.model)
-          chartConfigForSum.model = this.modelOptions.all;
+        chartConfigForSum.brand = this.brandOptions.all;
+        chartConfigForSum.model = this.modelOptions.all;
       }
       var datasets;
       var datasetsForSum;
