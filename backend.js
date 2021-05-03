@@ -550,6 +550,8 @@ var db = {
       yProperty = "brand";
     else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
+    else
+      return [chartConfig];
     var result = [];
     result.push(chartConfig);
     const params = this.getChartParams();
