@@ -530,7 +530,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     chartOptions.type = "line";
   } else {
     chartOptions.type = "bar";
-    if (chartConfig.brand == db.brandOptions.all || [db.metrics.salesAll, db.metrics.salesElectric, db.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) || (chartConfig.metric == db.metrics.ratioElectric && chartConfig.model == db.modelOptions.all) || ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && !chartConfig.country.includes(","))) {
+    if (chartConfig.brand == db.brandOptions.all || [db.metrics.salesAll, db.metrics.salesElectric, db.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) || (chartConfig.metric == db.metrics.ratioElectric && chartConfig.model == db.modelOptions.all) || ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && !chartConfig.country.includes(",") && chartConfig.country != db.countryOptions.all)) {
       chartOptions.options.scales.xAxes[0].stacked = true;
       chartOptions.options.scales.yAxes[0].stacked = true;
     }

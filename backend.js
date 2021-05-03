@@ -966,10 +966,8 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
     } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
-      if (chartConfig.country != this.countryOptions.all) {
-        chartConfigForSum.brand = this.brandOptions.all;
-        chartConfigForSum.model = this.modelOptions.all;
-      }
+      chartConfigForSum.brand = this.brandOptions.all;
+      chartConfigForSum.model = this.modelOptions.all;
       var datasets;
       var datasetsForSum;
       if (chartConfig.metric == this.metrics.shareElectric) {
@@ -1017,7 +1015,7 @@ var db = {
           var sum;
           if (isSumPerSeries)
             sum = sums[seriesName];
-          else if (!chartConfigForSum.country.includes(","))
+          else if (chartConfig.country != this.countryOptions.all && !chartConfigForSum.country.includes(","))
             sum = sums[category];
           else {
             // sum per series and category
