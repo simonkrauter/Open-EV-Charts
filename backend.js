@@ -380,7 +380,7 @@ var db = {
     param.name = "view";
     param.options = {};
     if (chartConfig == null || (
-      this.getNumberOfSeries(chartConfig) <= 3 &&
+      (this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig)) &&
       (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all || chartConfig.xProperty == this.xProperties.country)
     ))
       param.options[this.views.barChart] = "Bar Chart";
