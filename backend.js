@@ -901,10 +901,12 @@ var db = {
   },
 
   getNumberOfSeries: function(chartConfig) {
-    if (chartConfig.country == this.countryOptions.all) {
-      return Object.keys(this.countries).length;
-    } else if (chartConfig.country != null && !this.isCountryCombined(chartConfig)) {
-      return chartConfig.country.split(",").length;
+    if (chartConfig.xProperty != this.xProperties.country) {
+      if (chartConfig.country == this.countryOptions.all) {
+        return Object.keys(this.countries).length;
+      } else if (chartConfig.country != null && !this.isCountryCombined(chartConfig)) {
+        return chartConfig.country.split(",").length;
+      }
     }
     return 1;
   },
