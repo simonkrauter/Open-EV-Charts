@@ -899,6 +899,15 @@ var db = {
     return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
   },
 
+  isCountryCombined: function(chartConfig) {
+    var countryValues = chartConfig.country.split(",");
+    for (const i in countryValues) {
+      if (countryValues[i] == this.countryOptions.combine)
+        return true;
+    }
+    return false;
+  },
+
   isSumPerSeries: function(chartConfig) {
     return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all && !this.isMultiCountry(chartConfig)) || chartConfig.xProperty == this.xProperties.model;
   },
@@ -941,7 +950,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && !chartConfigForRatio.country.includes(",")) {
+          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && (!chartConfigForRatio.country.includes(",") || this.isCountryCombined(chartConfigForRatio))) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
