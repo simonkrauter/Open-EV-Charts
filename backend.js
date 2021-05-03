@@ -913,7 +913,7 @@ var db = {
   },
 
   isBarChartStacked: function(chartConfig) {
-    return chartConfig.brand == this.brandOptions.all || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && !this.isMultiCountry(chartConfig));
+    return chartConfig.brand == this.brandOptions.all || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (!this.isMultiCountry(chartConfig) || this.isCountryCombined(chartConfig)));
   },
 
   queryChartData: function(chartConfig, sortByName = false) {
@@ -1032,11 +1032,13 @@ var db = {
           var sum;
           if (isSumPerSeries)
             sum = sums[seriesName];
-          else if (!this.isMultiCountry(chartConfig))
+          else if (!this.isMultiCountry(chartConfig) || this.isCountryCombined(chartConfig))
             sum = sums[category];
           else {
             // sum per series and category
-            sum = this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
+            const rows = datasetsForSum.seriesRows[seriesName];
+            if(rows != null)
+              sum = this.getValue(rows[category], 0);
           }
 
           if (sum == 0)
