@@ -899,6 +899,10 @@ var db = {
     return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all && chartConfig.country != this.countryOptions.all && !chartConfig.country.includes(",")) || chartConfig.xProperty == this.xProperties.model;
   },
 
+  isBarChartStacked: function(chartConfig) {
+    return chartConfig.brand == this.brandOptions.all || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && !chartConfig.country.includes(",") && chartConfig.country != this.countryOptions.all);
+  },
+
   queryChartData: function(chartConfig, sortByName = false) {
     // Returns the data for a spedific view
     var result = {};
