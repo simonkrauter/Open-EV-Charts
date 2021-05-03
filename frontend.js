@@ -923,7 +923,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
     ol.appendChild(li);
     {
       const sourceInfo = chartData.sources[key];
-      if (chartConfig.country == db.countryOptions.all || chartConfig.country.includes(","))
+      if (db.isMultiCountry(chartConfig))
         li.appendChild(document.createTextNode(db.countryNames[sourceInfo.country]));
       li.appendChild(document.createTextNode(" "));
       li.appendChild(document.createTextNode(sourceInfo.firstDate));
