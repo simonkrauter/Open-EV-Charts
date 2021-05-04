@@ -14,6 +14,16 @@ input, select {
   font-family: inherit;
 }
 
+input[type=text] {
+  border: 0.12em solid white;
+  border-radius: 0.12em;
+}
+
+input[type=text]:focus {
+  border: 0.12em solid #EDDD00;
+  outline: none;
+}
+
 .title, .filters, th {
   background: #262626;
   color: white;
@@ -41,7 +51,7 @@ a:hover {
 }
 
 a.button, .selectWrapper {
-  border-radius: 2px;
+  border-radius: 0.12em;
   display: inline-block;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -147,7 +157,7 @@ select:focus {
   border: 0;
 }
 
-body.showFocus *:focus {
+body.showFocus *:not(input[type=text]):focus {
   outline: 3px solid #EDDD00;
 }
 
