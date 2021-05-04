@@ -61,7 +61,7 @@ var db = {
       , dsType: dsType
       , source: source
       , data: {}
-      }
+      };
       for (var key in data) {
         const val = Math.round(data[key] / 3);
         if (val > 0)
@@ -112,7 +112,7 @@ var db = {
   },
 
   cloneObject: function(obj) {
-    return JSON.parse(JSON.stringify(obj))
+    return JSON.parse(JSON.stringify(obj));
   },
 
   formatMonth: function(year, month) {
@@ -1146,4 +1146,4 @@ var db = {
 
     return result;
   }
-}
+};

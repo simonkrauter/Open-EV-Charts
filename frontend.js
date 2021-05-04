@@ -2,22 +2,22 @@
 
 document.onmousedown = function(event) {
   document.body.classList.remove("showFocus");
-}
+};
 
 document.onkeydown = function() {
   document.body.classList.add("showFocus");
-}
+};
 
 const dynamicContent = document.createElement("DIV");
 document.body.appendChild(dynamicContent);
 
 window.onhashchange = function() {
   navigate();
-}
+};
 
 window.onresize = function() {
   renderPage();
-}
+};
 
 const homeLink = document.getElementById("homeLink");
 homeLink.href = location.pathname + location.search;
@@ -46,7 +46,7 @@ function navigate(retainShowAllOptionsParamName) {
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
-  sortByName = false
+  sortByName = false;
 
   renderPage();
   logVisit();
@@ -532,7 +532,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
         }
       }
     }
-  }
+  };
 
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.type = "line";
