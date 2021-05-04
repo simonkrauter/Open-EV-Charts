@@ -2211,6 +2211,83 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 1
 });
 
+db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Volkswagen": 2429
+, "Toyota": 1629
+, "Volvo": 1338
+, "BMW": 883
+, "Škoda": 835
+, "Mercedes-Benz": 767
+, "Audi": 764
+, "Peugeot": 536
+, "Polestar": 469
+, "Ford": 403
+, "Suzuki": 385
+, "Hyundai": 360
+, "Nissan": 337
+, "Mazda": 324
+, "Kia": 286
+, "MG": 218
+, "Opel": 170
+, "Lexus": 104
+, "Mitsubishi": 88
+, "Tesla": 8
+});
+
+db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4",
+{ "Volkswagen|ID.4": 1824
+, "Audi|e-tron": 667
+, "Volvo|XC40 Recharge pure electric": 626
+, "Polestar|2": 469
+, "Mercedes-Benz|EQC": 378
+, "Škoda|Enyaq": 335
+, "Nissan|Leaf": 313
+, "Hyundai|Kona Electric": 254
+, "BMW|i3 BEV": 225
+, "Volkswagen|ID.3": 201
+, "MG|ZS EV": 172
+, "Peugeot|e-2008": 166
+, "Kia|Niro EV": 128
+, "Mercedes-Benz|EQA": 125
+, "Mazda|MX-30": 124
+, "BMW|iX3": 110
+, "Škoda|Citigo-e": 107
+, "Peugeot|e-208": 101
+, "Citroën|ë-Jumpy": 94
+, "Renault|Zoé": 86
+, "Kia|Soul EV": 84
+, "Hyundai|Ioniq Electric": 82
+, "Citroën|ë-C4": 72
+, "Peugeot|e-Expert": 71
+, "Nissan|e-NV200": 60
+, "Lexus|UX 300e": 50
+, "Porsche|Taycan": 49
+, "Opel|Corsa-e": 49
+, "Fiat|500e": 49
+, "Ford|Mustang Mach-E": 44
+, "Renault|Kangoo Z.E.": 37
+, "Volkswagen|e-up!": 31
+, "Jaguar|I-Pace": 31
+, "Opel|Vivaro-e": 27
+, "Xiaopeng|Xpeng G3": 26
+, "Mini|Cooper SE Electric": 25
+, "Opel|Mokka-e": 24
+, "Audi|e-tron GT": 20
+, "Honda|e": 15
+, "Mercedes-Benz|EQV": 14
+, "Seat|Mii Electric": 13
+, "Opel|Zafira-e": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 8
+, "Volkswagen|e-Crafter": 6
+, "Tesla|Model 3": 4
+, "Volkswagen|e-Golf": 2
+, "Nio|ES8": 2
+, "Tesla|Model X": 1
+, "Smart|Fortwo ED": 1
+, "Mitsubishi|i-MiEV": 1
+, "Mercedes-Benz|eSprinter": 1
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
