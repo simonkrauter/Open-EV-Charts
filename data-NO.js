@@ -2161,23 +2161,23 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 
 db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3",
 { "Tesla|Model 3": 2169
-, "Volkswagen|ID.4": 852
-, "Nissan|Leaf": 612
-, "Mercedes-Benz|EQC": 585
-, "Volvo|XC40 Recharge pure electric": 540
-, "Audi|e-tron": 428
+, "Volkswagen|ID.4": 856
+, "Nissan|Leaf": 615
+, "Mercedes-Benz|EQC": 588
+, "Volvo|XC40 Recharge pure electric": 544
+, "Audi|e-tron": 430
 , "Polestar|2": 396
-, "MG|ZS EV": 352
-, "Hyundai|Kona Electric": 345
+, "MG|ZS EV": 354
+, "Hyundai|Kona Electric": 346
 , "Peugeot|e-2008": 306
 , "Kia|Niro EV": 212
-, "BMW|i3 BEV": 187
-, "Peugeot|e-208": 134
+, "BMW|i3 BEV": 193
+, "Peugeot|e-208": 135
 , "BMW|iX3": 115
+, "Xiaopeng|Xpeng G3": 114
 , "Opel|Corsa-e": 108
 , "Kia|Soul EV": 107
-, "Fiat|500e": 106
-, "Xiaopeng|Xpeng G3": 105
+, "Fiat|500e": 107
 , "Mazda|MX-30": 102
 , "Volkswagen|ID.3": 77
 , "Hyundai|Ioniq Electric": 75
