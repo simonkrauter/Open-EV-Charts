@@ -1057,9 +1057,7 @@ var db = {
               sum = this.getValue(rows[category], 0);
           }
 
-          if (sum == 0)
-            seriesRows[seriesName][category] = 0;
-          else
+          if (sum != 0)
             seriesRows[seriesName][category] = value / sum * 100;
         }
       }
