@@ -198,6 +198,18 @@ var db = {
       return str.replace(/ /g, "-");
   },
 
+  isTimeXProperty: function(chartConfig) {
+    return [this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty);
+  },
+
+  isMultiCountry: function(chartConfig) {
+    return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
+  },
+
+  isSingleOrCombinedCountry: function(chartConfig) {
+    return !this.isMultiCountry(chartConfig) || chartConfig.country.split(",").includes(this.countryOptions.combine);
+  },
+
   getChartParams: function(chartConfig) {
     var result = {};
 
@@ -388,7 +400,7 @@ var db = {
       (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all || chartConfig.xProperty == this.xProperties.country)
     ))
       param.options[this.views.barChart] = "Bar Chart";
-    if (chartConfig == null || ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
+    if (chartConfig == null || (this.isTimeXProperty(chartConfig) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
       param.options[this.views.lineChart] = "Line Chart";
     param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
@@ -550,11 +562,11 @@ var db = {
 
   unfoldChartConfig: function(chartConfig) {
     var yProperty;
-    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.brand == this.brandOptions.all)
+    if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all)
       yProperty = "brand";
     else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
-    else if(![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
+    else if(!this.isTimeXProperty(chartConfig))
       return [chartConfig];
     var result = [];
     result.push(chartConfig);
@@ -804,7 +816,7 @@ var db = {
     var seriesRows = datasets.seriesRows;
     var result = [];
     const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
-    if ([this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+    if (this.isTimeXProperty(chartConfig)) {
       // Numeric sort
       categories.sort();
     } else if (sortByName) {
@@ -840,7 +852,7 @@ var db = {
       const category = categories[i];
       result.push(category);
       count++;
-      if (count == maxSeries && ![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty) && chartConfig.view != this.views.table)
+      if (count == maxSeries && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)
         break;
     }
     return result;
@@ -916,14 +928,6 @@ var db = {
       }
     }
     return 1;
-  },
-
-  isMultiCountry: function(chartConfig) {
-    return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
-  },
-
-  isSingleOrCombinedCountry: function(chartConfig) {
-    return !this.isMultiCountry(chartConfig) || chartConfig.country.split(",").includes(this.countryOptions.combine);
   },
 
   isSumPerSeries: function(chartConfig) {
