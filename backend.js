@@ -966,7 +966,7 @@ var db = {
         for (const i in datasets.categories) {
           const category = datasets.categories[i];
           var value = 0;
-          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && (!chartConfigForRatio.country.includes(",") || this.isCountryCombined(chartConfigForRatio))) {
+          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && (!this.isMultiCountry(chartConfigForRatio) || this.isCountryCombined(chartConfigForRatio))) {
             for (const seriesNameInner in datasetsForRatio.seriesRows) {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
