@@ -337,10 +337,12 @@ var db = {
     param.options[this.brandOptions.all] = "All Brands";
     if (chartConfig == null || ([this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric) && chartConfig.xProperty != this.xProperties.model))
       param.options[this.brandOptions.combine] = "Combine Brands";
-    for (const i in this.brands) {
-      const brand = this.brands[i];
-      if (brand != "other")
-        param.options[this.formatForUrl(brand)] = brand;
+    if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand) {
+      for (const i in this.brands) {
+        const brand = this.brands[i];
+        if (brand != "other")
+          param.options[this.formatForUrl(brand)] = brand;
+      }
     }
     param.excludeOnUnfoldAndTitle = [this.brandOptions.all, this.brandOptions.combine];
     param.defaultOption = this.brandOptions.all;
