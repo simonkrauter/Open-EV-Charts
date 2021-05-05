@@ -5,6 +5,8 @@
 var db = {
   totalSeriesName: "Total",
 
+  singleSeriesName: "Value",
+
   countries: {},
   // Code => ID
 
@@ -550,7 +552,7 @@ var db = {
       yProperty = "brand";
     else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
-    else
+    else if(![this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty))
       return [chartConfig];
     var result = [];
     result.push(chartConfig);
@@ -739,7 +741,7 @@ var db = {
         else if (chartConfig.xProperty == this.xProperties.model)
           category = brandAndModel;
 
-        var seriesName = "Value";
+        var seriesName = this.singleSeriesName;
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
         else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
@@ -949,7 +951,7 @@ var db = {
     } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
       var chartConfigForRatio = this.cloneObject(chartConfig);
       if (chartConfig.metric == this.metrics.ratioElectric)
-        chartConfigForRatio.brand = this.brandOptions.all;
+        chartConfigForRatio.brand = this.brandOptions.combine;
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       var datasetsForRatio = this.queryDataSets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
@@ -969,11 +971,10 @@ var db = {
               value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
             }
           }
-          else
-          {
-            if (datasetsForRatio.seriesRows[seriesName] != null)
-              value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
-          }
+          else if (datasetsForRatio.seriesRows[this.singleSeriesName] != null)
+            value = value + this.getValue(datasetsForRatio.seriesRows[this.singleSeriesName][category], 0);
+          else if (datasetsForRatio.seriesRows[seriesName] != null)
+            value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
           valuesForRatio[category] = value;
         }
         for (const i in datasets.categories) {
