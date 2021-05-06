@@ -241,7 +241,7 @@ var db = {
     param.options = {};
     if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty != this.xProperties.brand))
       param.options[this.countryOptions.all] = "All Countries";
-    if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (![this.metrics.shareAll].includes(chartConfig.metric) || chartConfig.xProperty != this.xProperties.brand))
+    if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (![this.metrics.shareAll].includes(chartConfig.metric) || chartConfig.xProperty == this.xProperties.brand))
       param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in this.countries)
       param.options[code] = this.countryNames[this.countries[code]];
@@ -500,16 +500,6 @@ var db = {
             chartConfig.country = countryValues[i];
             break;
           }
-        }
-      } else {
-        if (chartConfig.metric == this.metrics.shareAll && chartConfig.xProperty == this.xProperties.brand && countryValues.includes(this.countryOptions.combine)) {
-          // remove this.countryOptions.combine
-          var newCountryValues = [];
-          for (const i in countryValues) {
-            if (countryValues[i] != this.countryOptions.combine)
-              newCountryValues.push(countryValues[i]);
-          }
-          chartConfig.country = newCountryValues.join(",");
         }
       }
     }
