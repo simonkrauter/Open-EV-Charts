@@ -935,11 +935,11 @@ var db = {
   },
 
   isSumPerSeries: function(chartConfig) {
-    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all && !this.isMultiCountry(chartConfig)) || chartConfig.xProperty == this.xProperties.model;
+    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all) || chartConfig.xProperty == this.xProperties.model;
   },
 
   isBarChartStacked: function(chartConfig) {
-    return chartConfig.brand == this.brandOptions.all || [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isSingleOrCombinedCountry(chartConfig));
+    return (chartConfig.brand == this.brandOptions.all && ![this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && chartConfig.metric != this.metrics.ratioElectricWithinBrand) || [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isSingleOrCombinedCountry(chartConfig));
   },
 
   queryChartData: function(chartConfig, sortByName = false) {
