@@ -307,7 +307,7 @@ function renderChartTitle(chartDiv, chartConfig) {
   }
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
-  titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig)));
+  titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
 
   if (!isSingleChart) {
     var removeButton = createRemoveButton();
@@ -483,7 +483,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     options: {
       title: {
         display: isExport,
-        text: db.getChartTitle(chartConfig)
+        text: db.getChartTitle(chartConfig, isSingleChart)
       },
       scales: {
         xAxes: [{

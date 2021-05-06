@@ -582,6 +582,7 @@ var db = {
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = k;
               newConfig = this.makeChartConfigValid(newConfig);
+              newConfig.unfoldedByParam = param.name;
               newResult.push(newConfig);
             }
           }
@@ -599,6 +600,7 @@ var db = {
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = values[i];
               newConfig = this.makeChartConfigValid(newConfig);
+              newConfig.unfoldedByParam = param.name;
               newResult.push(newConfig);
             }
           }
@@ -609,7 +611,7 @@ var db = {
     return result;
   },
 
-  getChartTitle: function(chartConfig) {
+  getChartTitle: function(chartConfig, isSingleChart) {
     var title = "";
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -620,6 +622,8 @@ var db = {
       if (param.allowMultiSelection && value.includes(","))
         continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
+        continue;
+      if (!isSingleChart && chartConfig.unfoldedByParam != param.name)
         continue;
       if (title != "")
         title = title + " - ";
