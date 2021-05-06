@@ -395,12 +395,13 @@ var db = {
     var param = {};
     param.name = "view";
     param.options = {};
+    const allowLineChart = chartConfig == null || this.isTimeXProperty(chartConfig);
     if (chartConfig == null || (
       (this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig)) &&
       (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all || chartConfig.xProperty == this.xProperties.country)
-    ))
+    ) || !allowLineChart)
       param.options[this.views.barChart] = "Bar Chart";
-    if (chartConfig == null || (this.isTimeXProperty(chartConfig) && (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.all)))
+    if (allowLineChart)
       param.options[this.views.lineChart] = "Line Chart";
     param.options[this.views.table] = "Table";
     param.options[this.views.sources] = "Sources";
