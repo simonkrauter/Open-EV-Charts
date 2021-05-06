@@ -241,7 +241,7 @@ var db = {
     param.options = {};
     if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty != this.xProperties.brand))
       param.options[this.countryOptions.all] = "All Countries";
-    if (chartConfig == null || ((chartConfig.country == this.countryOptions.all || chartConfig.country == null || chartConfig.country.split(",").length > 1) && (![this.metrics.ratioElectricWithinBrand, this.metrics.shareAll].includes(chartConfig.metric) || chartConfig.xProperty != this.xProperties.brand)))
+    if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (![this.metrics.shareAll].includes(chartConfig.metric) || chartConfig.xProperty != this.xProperties.brand))
       param.options[this.countryOptions.combine] = "Combine Countries";
     for (const code in this.countries)
       param.options[code] = this.countryNames[this.countries[code]];
