@@ -553,7 +553,7 @@ var db = {
 
   unfoldChartConfig: function(chartConfig) {
     var yProperty;
-    if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all)
+    if ((this.isTimeXProperty(chartConfig) || (chartConfig.xProperty == this.xProperties.brand && chartConfig.metric == this.metrics.ratioElectricWithinBrand)) && chartConfig.brand == this.brandOptions.all)
       yProperty = "brand";
     else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
