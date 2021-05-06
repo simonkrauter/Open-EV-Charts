@@ -2264,6 +2264,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoé": 136
 , "Audi|e-tron": 95
 , "Mercedes-Benz|EQA": 91
+, "Polestar|2": 74
 , "Tesla|Model 3": 68
 , "BMW|i3 BEV": 67
 , "Škoda|Enyaq": 54
