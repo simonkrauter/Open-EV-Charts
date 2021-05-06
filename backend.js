@@ -1145,7 +1145,7 @@ var db = {
       }
     }
 
-    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0)
+    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinBrand)
       result.series.push(otherSeries);
 
     return result;
