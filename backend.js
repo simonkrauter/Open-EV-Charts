@@ -922,11 +922,14 @@ var db = {
       if (chartConfig.country == this.countryOptions.all) {
         return Object.keys(this.countries).length;
       } else if (chartConfig.country != null) {
-        var countryValues = chartConfig.country.split(",");
-        if (!countryValues.includes(this.countryOptions.combine)) {
+        const countryValues = chartConfig.country.split(",");
+        if (countryValues.length > 1 && !countryValues.includes(this.countryOptions.combine)) {
           return countryValues.length;
         }
       }
+    }
+    if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all) {
+      return this.brands.length;
     }
     return 1;
   },
