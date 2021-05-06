@@ -338,7 +338,7 @@ var db = {
       param.options[chartConfig.timeSpan] = text;
     }
     param.defaultOption = this.timeSpanOptions.last2y;
-    param.showInTitle = chartConfig == null || [this.xProperties.country, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
+    param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
     param.showAsFilter = true;
     result[param.name] = param;
 
