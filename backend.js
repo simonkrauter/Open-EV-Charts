@@ -347,7 +347,7 @@ var db = {
     param.name = "brand";
     param.options = {};
     param.options[this.brandOptions.all] = "All Brands";
-    if (chartConfig == null || ([this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric) && chartConfig.xProperty != this.xProperties.model))
+    if (chartConfig == null || ([this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric, this.metrics.all].includes(chartConfig.metric) && chartConfig.xProperty != this.xProperties.model))
       param.options[this.brandOptions.combine] = "Combine Brands";
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand) {
       for (const i in this.brands) {
