@@ -225,6 +225,7 @@ a.button.removeButton:after {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 20px;
+  min-width: 300px;
 }
 
 .chartTitle {
