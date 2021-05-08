@@ -237,6 +237,8 @@ function initTesting() {
 
   addNextPrevButton(div, 1);
 
+  addRandomTestingButton(div);
+
   const hash = decodeURIComponent(location.hash.substr(1));
   if (hash.length > 0) {
     const index = Object.values(testCases).indexOf(hash);
@@ -267,6 +269,75 @@ function loadTestCase() {
     history.pushState(null, null, "#" + testCases[testCaseNumber]);
     navigate();
   }
+}
+
+function addRandomTestingButton(div) {
+  var button = document.createElement("A");
+  button.href = "#";
+  button.innerHTML = "Randomize Chart Config";
+  button.style.fontSize = "40%";
+  button.style.fontWeight = "normal";
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+    randomizeChartConfig();
+  });
+  div.appendChild(button);
+}
+
+function randomizeChartConfig() {
+  var chartConfig = db.decodeChartConfigString("");
+  const params = db.getChartParams();
+  for (const i in params) {
+    const param = params[i];
+    var optionKeys = [];
+    if (param.name == "metric") {
+      for (const j in param.options) {
+        if (j == db.metrics.all)
+          continue;
+        optionKeys.push(j);
+      }
+    } else if (param.name == "country") {
+      if (Math.random() < 0.2) {
+        optionKeys.push(db.countryOptions.all);
+      } else if (Math.random() < 0.2) {
+        optionKeys.push("DE,FR");
+        optionKeys.push("DE,FR,IT");
+        optionKeys.push("DE,FR,IT,UK");
+        optionKeys.push("US,CN");
+      } else {
+        for (const j in param.options) {
+          if ([db.countryOptions.all, db.countryOptions.combine].includes(j))
+            continue;
+          optionKeys.push(j);
+        }
+      }
+      if (Math.random() < 0.3) {
+        optionKeys.push(db.countryOptions.combine);
+      }
+    } else if (param.name == "xProperty") {
+      optionKeys = Object.keys(param.options);
+    } else if (param.name == "brand") {
+      if (Math.random() < 0.4)
+        optionKeys.push(db.brandOptions.all);
+      else if (Math.random() < 0.8)
+        optionKeys.push(db.brandOptions.combine);
+      else
+        optionKeys = Object.keys(param.options);
+    } else if (param.name == "model") {
+      if (Math.random() < 0.4)
+        optionKeys.push(db.modelOptions.all);
+      else if (Math.random() < 0.8)
+        optionKeys.push(db.modelOptions.combine);
+      else
+        optionKeys = Object.keys(param.options);
+    } else if (param.name == "view" || param.name == "maxSeries") {
+      optionKeys = Object.keys(param.options);
+    }
+    if (optionKeys.length > 0) {
+      chartConfig[param.name] = optionKeys[Math.floor(Math.random() * optionKeys.length)];
+    }
+  }
+  navigateToChartConfig(chartConfig);
 }
 
 initTesting();
