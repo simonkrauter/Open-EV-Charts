@@ -532,6 +532,9 @@ var db = {
     if (!Object.keys(params.brand.options).includes(chartConfig.brand))
       chartConfig.brand = params.brand.defaultOption;
 
+    if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null && chartConfig.timeSpan.startsWith("m"))
+      chartConfig.timeSpan = params.timeSpan.defaultOption;
+
     params = this.getChartParams(chartConfig); // update
 
     if (!Object.keys(params.view.options).includes(chartConfig.view))
