@@ -931,6 +931,7 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 9
 , "Peugeot|e-208": 7
 , "Volkswagen|e-up!": 5
+, "Lexus|UX 300e": 4
 , "Audi|e-tron GT": 4
 , "Mercedes-Benz|eVito": 3
 , "Mercedes-Benz|EQV": 3
