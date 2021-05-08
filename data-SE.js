@@ -4,6 +4,8 @@
 
 db.addCountry("SE", "Sweden");
 
+// https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/#_Statisticalnews
+
 db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
 { "other": 23815
 });
@@ -942,4 +944,46 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "Honda|e": 1
 , "Citroën|ë-C4": 1
+});
+
+db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 23133
+});
+
+db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/4",
+{ "Volkswagen|ID.4": 1444
+, "Volkswagen|ID.3": 469
+, "Kia|Niro EV": 403
+, "Audi|e-tron": 347
+, "Polestar|2": 280
+, "Nissan|Leaf": 234
+, "Hyundai|Kona Electric": 191
+, "Volvo|XC40 Recharge pure electric": 161
+, "Škoda|Enyaq": 150
+, "Renault|Zoé": 138
+, "Peugeot|e-2008": 112
+, "Peugeot|e-208": 97
+, "Porsche|Taycan": 89
+, "Kia|Soul EV": 67
+, "BMW|i3 BEV": 67
+, "Opel|Corsa-e": 47
+, "Fiat|500e": 44
+, "Mazda|MX-30": 40
+, "Hyundai|Ioniq Electric": 38
+, "Seat|Mii Electric": 30
+, "Volkswagen|e-up!": 20
+, "Opel|Mokka-e": 19
+, "Citroën|ë-C4": 19
+, "Lexus|UX 300e": 16
+, "Audi|e-tron GT": 13
+, "Tesla|Model 3": 11
+, "Škoda|Citigo-e": 9
+, "Honda|e": 7
+, "Jaguar|I-Pace": 6
+, "Volkswagen|e-Golf": 3
+, "Peugeot|e-Expert": 3
+, "Mercedes-Benz|EQV": 3
+, "Nissan|e-NV200": 2
+, "Mercedes-Benz|eVito": 1
+, "Dacia|Spring": 1
 });
