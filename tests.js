@@ -195,10 +195,13 @@ var testCaseNumber = -1;
 function addNextPrevButton(div, inc) {
   var button = document.createElement("A");
   button.href = "#";
-  if (inc == 1)
+  if (inc == 1) {
     button.innerHTML = "+";
-  else
+    button.title = "Next test case";
+  } else {
     button.innerHTML = "−";
+    button.title = "Previous test case";
+  }
   button.classList.add("button");
   button.classList.add("active");
   button.addEventListener("click", function(event) {
@@ -220,6 +223,7 @@ function initTesting() {
   testCaseNumberInput = document.createElement("INPUT");
   testCaseNumberInput.type = "text";
   testCaseNumberInput.style.width = "2.2em";
+  testCaseNumberInput.title = "Test case number";
   testCaseNumberInput.addEventListener("keyup", function(event) {
     const parsed = parseInt(testCaseNumberInput.value);
     if (Number.isInteger(parsed))
