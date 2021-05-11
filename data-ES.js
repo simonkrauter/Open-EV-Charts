@@ -2596,14 +2596,16 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 26
 , "Škoda|Citigo-e": 25
 , "BMW|iX3": 19
+, "Toyota|Proace Electric": 17
 , "Renault|Twingo Z.E.": 15
 , "Kia|Soul EV": 12
 , "Citroën|ë-Jumpy": 11
 , "Mercedes-Benz|EQC": 10
 , "MG|ZS EV": 10
+, "Citroën|ë-SpaceTourer": 10
 , "Volkswagen|e-up!": 9
+, "Peugeot|e-Expert": 8
 , "Hyundai|Ioniq Electric": 8
-, "Peugeot|e-Expert": 7
 , "Lexus|UX 300e": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Citroën|Berlingo Electric": 6
