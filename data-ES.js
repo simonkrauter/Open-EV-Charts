@@ -2520,6 +2520,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 4
 , "Renault|Twingo Z.E.": 3
 , "Honda|e": 3
+, "Citroën|ë-SpaceTourer": 3
 , "BMW|iX3": 3
 , "Volkswagen|ID.4": 2
 , "Mercedes-Benz|eVito": 2
