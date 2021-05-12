@@ -2565,11 +2565,11 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/3",
-{ "Tesla|Model 3": 343
+{ "Tesla|Model 3": 344
 , "Volkswagen|ID.4": 247
 , "BMW|iX3": 160
 , "Volvo|XC40 Recharge pure electric": 157
-, "Kia|Niro EV": 152
+, "Kia|Niro EV": 153
 , "Nissan|Leaf": 133
 , "Polestar|2": 111
 , "Opel|Mokka-e": 83
