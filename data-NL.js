@@ -2607,3 +2607,88 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 1
 });
 
+db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/april/",
+{ "Kia": 2680
+, "Volkswagen": 2093
+, "Peugeot": 1766
+, "Toyota": 1686
+, "Škoda": 1435
+, "Ford": 1396
+, "Volvo": 1392
+, "BMW": 1280
+, "Renault": 1122
+, "Mercedes-Benz": 1055
+, "Opel": 950
+, "Audi": 817
+, "Hyundai": 783
+, "Citroën": 707
+, "Mazda": 590
+, "Suzuki": 581
+, "Seat": 476
+, "Nissan": 439
+, "Mini": 420
+, "Mitsubishi": 308
+, "Fiat": 244
+, "Dacia": 208
+, "Land Rover": 194
+, "Porsche": 135
+, "Jeep": 93
+, "Polestar": 78
+, "Honda": 58
+, "MG": 49
+, "Tesla": 37
+, "Subaru": 33
+, "Lexus": 32
+, "Jaguar": 31
+, "DS Automobiles": 24
+, "Smart": 15
+, "Alfa Romeo": 5
+, "Maserati": 1
+, "other": 633
+});
+
+db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/4",
+{ "Škoda|Enyaq": 362
+, "Kia|Niro EV": 358
+, "Volkswagen|ID.4": 292
+, "Volvo|XC40 Recharge pure electric": 172
+, "Peugeot|e-2008": 96
+, "Peugeot|e-208": 87
+, "Polestar|2": 78
+, "BMW|iX3": 78
+, "Mercedes-Benz|EQA": 68
+, "BMW|i3 BEV": 68
+, "Ford|Mustang Mach-E": 59
+, "Opel|Corsa-e": 57
+, "Audi|e-tron": 53
+, "Renault|Zoé": 52
+, "Nissan|Leaf": 48
+, "Citroën|ë-C4": 48
+, "Mini|Cooper SE Electric": 43
+, "Tesla|Model 3": 38
+, "Renault|Twingo Z.E.": 36
+, "MG|ZS EV": 36
+, "Porsche|Taycan": 33
+, "Fiat|500e": 31
+, "Audi|e-tron GT": 26
+, "Kia|Soul EV": 25
+, "Volkswagen|ID.3": 24
+, "Seat|Mii Electric": 17
+, "Opel|Mokka-e": 15
+, "Škoda|Citigo-e": 11
+, "Smart|Forfour ED": 11
+, "Mercedes-Benz|EQC": 9
+, "Mazda|MX-30": 8
+, "Hyundai|Ioniq Electric": 7
+, "Hyundai|Kona Electric": 5
+, "Smart|Fortwo ED": 4
+, "Volkswagen|e-up!": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Citroën|ë-Jumpy": 3
+, "Toyota|Proace Electric": 2
+, "Mercedes-Benz|eVito": 2
+, "Mercedes-Benz|EQV": 2
+, "Tesla|Model S": 1
+, "Peugeot|Partner Electric": 1
+, "Nissan|e-NV200": 1
+});
