@@ -766,7 +766,7 @@ var db = {
             seriesName = brand;
         }
 
-        if (chartConfig.metric == this.metrics.ratioElectricWithinBrand && brand == "other")
+        if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
         if (!(seriesName in seriesRows))
