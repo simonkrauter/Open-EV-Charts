@@ -2196,3 +2196,60 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-Expert": 34
 , "other": 3483
 });
+
+db.insert(db.countries.FR, "2021-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/05/2021-04-vpfrance.pdf",
+{ "Peugeot": 26142
+, "Renault": 21836
+, "Citroën": 14129
+, "Volkswagen": 9596
+, "Toyota": 8171
+, "Dacia": 8025
+, "Mercedes-Benz": 4888
+, "Audi": 4486
+, "BMW": 4476
+, "Hyundai": 3973
+, "Opel": 3865
+, "Ford": 3632
+, "Kia": 3630
+, "Fiat": 3470
+, "Škoda": 3093
+, "Seat": 2800
+, "Mini": 2654
+, "Nissan": 1967
+, "DS Automobiles": 1850
+, "Suzuki": 1767
+, "Volvo": 1626
+, "Mazda": 691
+, "Jeep": 668
+, "Land Rover": 607
+, "Lexus": 450
+, "Honda": 393
+, "Jaguar": 277
+, "Porsche": 264
+, "Tesla": 211
+, "Smart": 117
+, "Mitsubishi": 100
+, "Alfa Romeo": 50
+, "Maserati": 6
+, "Subaru": 5
+, "SsangYong": 5
+, "other": 506
+});
+
+db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1620715925f57576a0079ee3c733d9b277c83d17fb-Barom%C3%A8tre_immatriculations_Avere-France_avril_2021.pdf",
+{ "Peugeot|e-208": 1597
+, "Renault|Zoé": 1408
+, "Fiat|500e": 740
+, "Renault|Twingo Z.E.": 679
+, "Mini|Cooper SE Electric": 592
+, "Kia|Niro EV": 481
+, "Peugeot|e-2008": 427
+, "Hyundai|Kona Electric": 397
+, "Volkswagen|ID.3": 391
+, "Volkswagen|ID.4": 372
+, "Renault|Kangoo Z.E.": 323
+, "Citroën|ë-Jumpy": 121
+, "Peugeot|e-Expert": 35
+, "Nissan|e-NV200": 21
+, "other": 2834
+});
