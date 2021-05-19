@@ -548,3 +548,31 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 2
 });
 
+db.insert(db.countries.IE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 7164
+});
+
+db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/4",
+{ "Volkswagen|ID.4": 219
+, "Volkswagen|ID.3": 109
+, "Kia|Niro EV": 67
+, "Nissan|Leaf": 29
+, "Renault|Zoé": 28
+, "Hyundai|Kona Electric": 27
+, "Audi|e-tron": 27
+, "MG|ZS EV": 12
+, "Peugeot|e-208": 11
+, "Peugeot|e-2008": 11
+, "Tesla|Model 3": 10
+, "Mazda|MX-30": 7
+, "Jaguar|I-Pace": 7
+, "Porsche|Taycan": 6
+, "Hyundai|Ioniq Electric": 6
+, "Kia|Soul EV": 5
+, "Mercedes-Benz|EQC": 3
+, "Opel|Mokka-e": 2
+, "Nissan|e-NV200": 1
+, "Lexus|UX 300e": 1
+, "BMW|i3 BEV": 1
+, "Audi|e-tron GT": 1
+});
