@@ -383,12 +383,14 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 456
 , "Audi|e-tron": 352
 , "Tesla|Model X": 341
+, "Kia|Niro EV": 234
 , "Tesla|Model 3": 177
+, "Hyundai|Ioniq Electric": 66
 , "Nissan|e-NV200": 51
 , "Mercedes-Benz|eVito": 12
 , "Volkswagen|e-up!": 3
-, "Citroën|C-Zero": 1
 , "Tesla|Roadster": 1
+, "Citroën|C-Zero": 1
 });
 
 db.insert(db.countries.UK, "q2019-3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
