@@ -311,13 +311,15 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.AllCarsByBrand, "https://assets
 });
 
 db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
-{ "Volkswagen|e-Golf": 1579
-, "Nissan|Leaf": 1454
+{ "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
 , "BMW|i3 BEV": 794
 , "Renault|Zoé": 745
+, "Volkswagen|e-Golf": 521
 , "Tesla|Model X": 325
 , "Tesla|Model S": 320
+, "Kia|Niro EV": 205
+, "Hyundai|Ioniq Electric": 146
 , "Audi|e-tron": 63
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
