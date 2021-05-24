@@ -708,18 +708,29 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.AllCarsByBrand, "https://assets
 db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/942253/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 5988
 , "Renault|Zoé": 3072
+, "Kia|Niro EV": 2988
 , "Audi|e-tron": 2309
 , "Nissan|Leaf": 2187
 , "Jaguar|I-Pace": 2032
+, "MG|ZS EV": 1800
 , "BMW|i3 BEV": 1617
+, "Mini|Cooper SE Electric": 1273
+, "Hyundai|Ioniq Electric": 1195
 , "Porsche|Taycan": 909
 , "Volkswagen|e-Golf": 846
+, "Peugeot|e-208": 817
 , "Mercedes-Benz|EQC": 761
 , "Tesla|Model X": 604
 , "Honda|e": 556
+, "Peugeot|e-2008": 505
+, "Kia|Soul EV": 314
 , "Tesla|Model S": 285
+, "DS Automobiles|DS 3 Crossback E-Tense": 139
+, "Seat|Mii Electric": 117
+, "Škoda|Citigo-e": 115
 , "Volkswagen|e-up!": 86
 , "Nissan|e-NV200": 72
 , "Mercedes-Benz|eVito": 27
 , "Mitsubishi|i-MiEV": 1
+, "MG|MG5 EV": 1
 });
