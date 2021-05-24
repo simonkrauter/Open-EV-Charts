@@ -513,13 +513,18 @@ db.insert(db.countries.UK, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 1310
 , "BMW|i3 BEV": 1150
 , "Jaguar|I-Pace": 1125
+, "MG|ZS EV": 591
 , "Audi|e-tron": 364
 , "Tesla|Model X": 254
 , "Renault|Zoé": 216
 , "Tesla|Model S": 201
 , "Mercedes-Benz|EQC": 103
+, "Hyundai|Ioniq Electric": 89
 , "Nissan|e-NV200": 73
+, "Kia|Niro EV": 73
+, "Mini|Cooper SE Electric": 11
 , "Mercedes-Benz|eVito": 5
+, "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Volkswagen|e-up!": 2
 });
 
