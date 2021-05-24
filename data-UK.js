@@ -643,15 +643,25 @@ db.insert(db.countries.UK, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoé": 1136
 , "Jaguar|I-Pace": 1030
 , "Nissan|Leaf": 773
+, "Kia|Niro EV": 737
 , "Audi|e-tron": 569
+, "MG|ZS EV": 431
+, "Hyundai|Ioniq Electric": 408
 , "BMW|i3 BEV": 407
+, "Peugeot|e-208": 344
 , "Volkswagen|e-Golf": 263
+, "Peugeot|e-2008": 257
 , "Tesla|Model X": 254
+, "Mini|Cooper SE Electric": 241
 , "Porsche|Taycan": 216
 , "Tesla|Model S": 197
+, "Kia|Soul EV": 151
 , "Mercedes-Benz|EQC": 121
+, "DS Automobiles|DS 3 Crossback E-Tense": 42
 , "Volkswagen|e-up!": 36
+, "Škoda|Citigo-e": 35
 , "Nissan|e-NV200": 30
+, "Seat|Mii Electric": 20
 , "Honda|e": 4
 });
 
