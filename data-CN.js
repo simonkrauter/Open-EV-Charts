@@ -868,3 +868,26 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|Roewe Clever EV": 2486
 , "Weltmeister|EX5": 2482
 });
+
+db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1624.html TODO: numbers per brand wanted",
+{ "other": 1704000
+});
+
+db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html",
+{ "Wuling|Hongguang Mini EV": 29251
+, "Tesla|Model 3": 6264
+, "BYD|Han EV": 5746
+, "Tesla|Model Y": 5407
+, "GAC|Aion S": 5077
+, "Chery|eQ": 4917
+, "Great Wall|Ora Black Cat": 4613
+, "SAIC|Roewe Clever EV": 4130
+, "Hozon|Neta V EV": 3846
+, "Changan|Benni EV": 3828
+, "Nio|ES6": 3163
+, "Xiaopeng|Xpeng P7": 2995
+, "BYD|e2": 2973
+, "Leapmotor|T03": 2817
+, "Xiaopeng|Xpeng G3": 2610
+, "Nio|EC6": 2416
+});
