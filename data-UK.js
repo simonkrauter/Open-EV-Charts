@@ -451,10 +451,14 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 366
 , "Audi|e-tron": 333
 , "Tesla|Model S": 256
+, "Hyundai|Ioniq Electric": 172
+, "Kia|Niro EV": 169
 , "Nissan|e-NV200": 72
+, "MG|ZS EV": 66
 , "Mercedes-Benz|EQC": 48
-, "Peugeot|Partner Electric": 1
 , "Volkswagen|e-up!": 1
+, "Peugeot|Partner Electric": 1
+, "Mitsubishi|i-MiEV": 1
 });
 
 db.insert(db.countries.UK, "q2019-4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/882232/veh0160.ods (per quarter)",
