@@ -822,6 +822,7 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/985637/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 6968
+, "Volkswagen|ID.3": 4179
 , "Jaguar|I-Pace": 4093
 , "Nissan|Leaf": 2614
 , "Audi|e-tron": 2295
@@ -849,5 +850,6 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Škoda|Citigo-e": 59
 , "Ford|Mustang Mach-E": 37
 , "Volkswagen|e-up!": 32
+, "Citroën|ë-SpaceTourer": 2
 , "Lexus|UX 300e": 1
 });
