@@ -752,6 +752,7 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 846
 , "Peugeot|e-208": 817
 , "Mercedes-Benz|EQC": 761
+, "Volkswagen|ID.3": 657
 , "Tesla|Model X": 604
 , "Honda|e": 556
 , "Peugeot|e-2008": 505
@@ -763,6 +764,7 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-up!": 86
 , "Nissan|e-NV200": 72
 , "Mercedes-Benz|eVito": 27
+, "Citroën|ë-SpaceTourer": 2
 , "Mitsubishi|i-MiEV": 1
 , "MG|MG5 EV": 1
 });
