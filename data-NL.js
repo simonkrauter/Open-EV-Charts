@@ -2695,3 +2695,89 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 1
 , "Nissan|e-NV200": 1
 });
+
+db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/mei/",
+{ "Kia": 2262
+, "Škoda": 2176
+, "Volkswagen": 2155
+, "Toyota": 1860
+, "Peugeot": 1632
+, "Volvo": 1589
+, "Ford": 1565
+, "Renault": 1352
+, "BMW": 1316
+, "Opel": 1180
+, "Citroën": 921
+, "Audi": 917
+, "Mercedes-Benz": 859
+, "Hyundai": 713
+, "Seat": 688
+, "Suzuki": 585
+, "Mazda": 556
+, "Mini": 509
+, "Nissan": 492
+, "Fiat": 335
+, "Mitsubishi": 320
+, "Dacia": 218
+, "Porsche": 202
+, "Land Rover": 149
+, "MG": 100
+, "Jeep": 71
+, "Polestar": 63
+, "Tesla": 61
+, "Lexus": 61
+, "Honda": 51
+, "Jaguar": 28
+, "DS Automobiles": 25
+, "Alfa Romeo": 22
+, "Subaru": 11
+, "Smart": 11
+, "Maserati": 4
+, "other": 542
+});
+
+db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
+{ "Škoda|Enyaq": 848
+, "Ford|Mustang Mach-E": 402
+, "Kia|Niro EV": 345
+, "Volkswagen|ID.4": 219
+, "Volvo|XC40 Recharge pure electric": 200
+, "BMW|iX3": 114
+, "Peugeot|e-208": 109
+, "Peugeot|e-2008": 96
+, "Fiat|500e": 84
+, "Mini|Cooper SE Electric": 80
+, "Opel|Corsa-e": 75
+, "Citroën|ë-C4": 66
+, "Tesla|Model 3": 63
+, "Renault|Zoé": 62
+, "Polestar|2": 62
+, "Nissan|Leaf": 61
+, "Porsche|Taycan": 60
+, "Mercedes-Benz|EQA": 57
+, "MG|ZS EV": 55
+, "Opel|Mokka-e": 47
+, "Audi|e-tron": 45
+, "Seat|Mii Electric": 43
+, "Renault|Twingo Z.E.": 26
+, "BMW|i3 BEV": 19
+, "Audi|e-tron GT": 19
+, "Hyundai|Kona Electric": 14
+, "Hyundai|Ioniq Electric": 13
+, "Kia|Soul EV": 12
+, "Volkswagen|ID.3": 10
+, "Smart|Fortwo ED": 7
+, "Mercedes-Benz|EQC": 6
+, "Škoda|Citigo-e": 5
+, "Mercedes-Benz|EQV": 5
+, "Smart|Forfour ED": 4
+, "Mercedes-Benz|eVito": 4
+, "Mazda|MX-30": 4
+, "Toyota|Proace Electric": 2
+, "Peugeot|e-Expert": 2
+, "Honda|e": 2
+, "Volkswagen|e-up!": 1
+, "Jaguar|I-Pace": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "Citroën|ë-Jumpy": 1
+});
