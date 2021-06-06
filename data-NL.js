@@ -2443,6 +2443,7 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 3
 , "Citroën|ë-C4": 3
 , "Tesla|Model S": 2
+, "Peugeot|e-Traveller": 2
 , "Lexus|UX 300e": 2
 , "Mercedes-Benz|EQC": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
@@ -2596,6 +2597,7 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 11
 , "Hyundai|Ioniq Electric": 9
 , "Hyundai|Kona Electric": 6
+, "Peugeot|e-Traveller": 5
 , "Kia|Soul EV": 3
 , "Honda|e": 3
 , "Mercedes-Benz|EQV": 2
@@ -2689,6 +2691,7 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 2
 , "Mercedes-Benz|EQV": 2
 , "Tesla|Model S": 1
+, "Peugeot|e-Traveller": 1
 , "Peugeot|Partner Electric": 1
 , "Nissan|e-NV200": 1
 });
