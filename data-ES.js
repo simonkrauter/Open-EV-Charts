@@ -2443,6 +2443,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 2
 , "Honda|e": 2
 , "Volkswagen|e-Crafter": 1
+, "Peugeot|e-Traveller": 1
 , "Peugeot|Partner Electric": 1
 , "Mercedes-Benz|eSprinter": 1
 });
@@ -2530,6 +2531,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 1
 , "Tesla|Model X": 1
 , "Tesla|Model S": 1
+, "Peugeot|e-Traveller": 1
 });
 
 db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosmarzotur.asp, https://www.km77.com/mercado/espana/2021/datosmarzott.asp",
@@ -2613,6 +2615,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 6
 , "Jaguar|I-Pace": 5
 , "Honda|e": 5
+, "Peugeot|e-Traveller": 4
 , "Tesla|Model X": 2
 , "Mercedes-Benz|eVito": 2
 , "Mercedes-Benz|EQV": 2
@@ -2708,6 +2711,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Jaguar|I-Pace": 4
 , "Honda|e": 3
+, "Peugeot|e-Traveller": 2
 , "Citroën|ë-SpaceTourer": 2
 , "Citroën|ë-Jumpy": 2
 , "Volkswagen|e-Caddy": 1
