@@ -576,3 +576,33 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 1
 , "Audi|e-tron GT": 1
 });
+
+db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 5921
+});
+
+db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/5",
+{ "Volkswagen|ID.4": 116
+, "Volkswagen|ID.3": 85
+, "Kia|Niro EV": 64
+, "Tesla|Model 3": 53
+, "Škoda|Enyaq": 26
+, "Renault|Zoé": 24
+, "Hyundai|Kona Electric": 20
+, "Mercedes-Benz|EQA": 15
+, "Audi|e-tron": 13
+, "MG|ZS EV": 12
+, "Peugeot|e-2008": 11
+, "Porsche|Taycan": 10
+, "Nissan|Leaf": 10
+, "Peugeot|e-208": 9
+, "Opel|Corsa-e": 5
+, "Honda|e": 4
+, "Mercedes-Benz|EQC": 3
+, "Kia|Soul EV": 3
+, "Jaguar|I-Pace": 3
+, "Hyundai|Ioniq Electric": 3
+, "Mazda|MX-30": 2
+, "Lexus|UX 300e": 1
+, "BMW|i3 BEV": 1
+});
