@@ -891,3 +891,24 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Xiaopeng|Xpeng G3": 2610
 , "Nio|EC6": 2416
 });
+
+db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1625.html TODO: numbers per brand wanted",
+{ "other": 1646000
+});
+
+db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
+{ "Wuling|Hongguang Mini EV": 26742
+, "Tesla|Model Y": 12728
+, "Tesla|Model 3": 9208
+, "Changan|Benni EV": 8371
+, "BYD|Han EV": 5763
+, "Chery|eQ": 4931
+, "GAC|Aion S": 4905
+, "SAIC|Roewe Clever EV": 4431
+, "Xiaopeng|Xpeng P7": 3797
+, "Hozon|Neta V EV": 3409
+, "BYD|e2": 3195
+, "Leapmotor|T03": 3147
+, "Nio|ES6": 3019
+, "Weltmeister|EX5": 2375
+});
