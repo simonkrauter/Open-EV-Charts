@@ -35,7 +35,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 { "BMW|i3 BEV": 106
 , "Hyundai|Kona Electric": 84
 , "Volkswagen|e-Golf": 71
-, "Renault|Zoé": 65
+, "Renault|Zoe": 65
 , "Nissan|Leaf": 56
 , "Kia|Niro EV": 36
 , "Hyundai|Ioniq Electric": 27
@@ -75,7 +75,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 105
 , "Nissan|Leaf": 83
 , "Volkswagen|e-Golf": 81
-, "Renault|Zoé": 75
+, "Renault|Zoe": 75
 , "Kia|Niro EV": 47
 , "other": 43
 , "Hyundai|Ioniq Electric": 41
@@ -113,7 +113,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 107
 , "Volkswagen|e-Golf": 97
 , "other": 81
-, "Renault|Zoé": 79
+, "Renault|Zoe": 79
 , "Nissan|Leaf": 62
 , "Hyundai|Kona Electric": 62
 , "Audi|e-tron": 53
@@ -150,7 +150,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "Tesla|Model 3": 142
 , "other": 87
-, "Renault|Zoé": 82
+, "Renault|Zoe": 82
 , "Volkswagen|e-Golf": 78
 , "BMW|i3 BEV": 77
 , "Kia|Niro EV": 62
@@ -187,7 +187,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 });
 
 db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
-{ "Renault|Zoé": 133
+{ "Renault|Zoe": 133
 , "Tesla|Model 3": 127
 , "BMW|i3 BEV": 77
 , "other": 72
@@ -229,7 +229,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 99
 , "other": 86
 , "Tesla|Model S": 80
-, "Renault|Zoé": 72
+, "Renault|Zoe": 72
 , "Volkswagen|e-Golf": 58
 , "Hyundai|Kona Electric": 44
 , "Tesla|Model X": 43
@@ -271,7 +271,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Audi|e-tron": 78
 , "Kia|Niro EV": 67
 , "Volkswagen|e-Golf": 53
-, "Renault|Zoé": 52
+, "Renault|Zoe": 52
 , "Nissan|Leaf": 47
 , "Tesla|Model X": 30
 , "Tesla|Model S": 22
@@ -304,7 +304,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 
 db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "BMW|i3 BEV": 156
-, "Renault|Zoé": 133
+, "Renault|Zoe": 133
 , "Hyundai|Kona Electric": 114
 , "Tesla|Model 3": 83
 , "other": 82
@@ -343,7 +343,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "Tesla|Model 3": 387
 , "BMW|i3 BEV": 112
-, "Renault|Zoé": 88
+, "Renault|Zoe": 88
 , "other": 78
 , "Hyundai|Kona Electric": 76
 , "Nissan|Leaf": 60
@@ -382,7 +382,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "BMW|i3 BEV": 90
 , "other": 71
-, "Renault|Zoé": 58
+, "Renault|Zoe": 58
 , "Nissan|Leaf": 52
 , "Volkswagen|e-Golf": 50
 , "Hyundai|Kona Electric": 48
@@ -427,7 +427,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 36
 , "Hyundai|Ioniq Electric": 33
 , "other": 32
-, "Renault|Zoé": 25
+, "Renault|Zoe": 25
 , "Audi|e-tron": 21
 , "Tesla|Model X": 17
 });
@@ -459,7 +459,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 
 db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
 { "Tesla|Model 3": 216
-, "Renault|Zoé": 82
+, "Renault|Zoe": 82
 , "Volkswagen|e-Golf": 78
 , "BMW|i3 BEV": 67
 , "other": 61
@@ -497,7 +497,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 });
 
 db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
-{ "Renault|Zoé": 168
+{ "Renault|Zoe": 168
 , "other": 164
 , "BMW|i3 BEV": 63
 , "Hyundai|Kona Electric": 57
@@ -538,7 +538,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
 { "other": 230
 , "Tesla|Model 3": 219
-, "Renault|Zoé": 182
+, "Renault|Zoe": 182
 , "BMW|i3 BEV": 57
 , "Audi|e-tron": 52
 , "Škoda|Citigo-e": 48
@@ -576,7 +576,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
 { "Tesla|Model 3": 372
 , "other": 98
-, "Renault|Zoé": 74
+, "Renault|Zoe": 74
 , "BMW|i3 BEV": 33
 , "Audi|e-tron": 33
 , "Mini|Cooper SE Electric": 26
@@ -613,7 +613,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 
 db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
 { "Tesla|Model 3": 227
-, "Renault|Zoé": 93
+, "Renault|Zoe": 93
 , "other": 66
 , "BMW|i3 BEV": 42
 , "Kia|Niro EV": 36
@@ -651,7 +651,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 });
 
 db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
-{ "Renault|Zoé": 175
+{ "Renault|Zoe": 175
 , "other": 127
 , "Kia|Niro EV": 104
 , "Tesla|Model 3": 91
@@ -691,7 +691,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 
 db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
 { "Tesla|Model 3": 245
-, "Renault|Zoé": 219
+, "Renault|Zoe": 219
 , "other": 170
 , "Kia|Niro EV": 133
 , "Audi|e-tron": 60
@@ -729,7 +729,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 });
 
 db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
-{ "Renault|Zoé": 277
+{ "Renault|Zoe": 277
 , "other": 253
 , "Kia|Niro EV": 114
 , "Audi|e-tron": 92
@@ -771,7 +771,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 { "other": 250
 , "Tesla|Model 3": 191
 , "Hyundai|Kona Electric": 148
-, "Renault|Zoé": 141
+, "Renault|Zoe": 141
 , "Kia|Niro EV": 76
 , "Opel|Corsa-e": 75
 , "Audi|e-tron": 68
@@ -810,7 +810,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Tesla|Model 3": 546
 , "other": 369
 , "Volkswagen|ID.3": 251
-, "Renault|Zoé": 187
+, "Renault|Zoe": 187
 , "Hyundai|Kona Electric": 126
 , "Kia|Niro EV": 117
 , "Mazda|MX-30": 95
@@ -848,7 +848,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 { "other": 424
 , "Kia|Niro EV": 244
 , "Volkswagen|ID.3": 201
-, "Renault|Zoé": 137
+, "Renault|Zoe": 137
 , "Hyundai|Kona Electric": 108
 , "Opel|Corsa-e": 102
 , "BMW|i3 BEV": 101
@@ -887,7 +887,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Volkswagen|ID.3": 523
 , "other": 522
 , "Tesla|Model 3": 191
-, "Renault|Zoé": 129
+, "Renault|Zoe": 129
 , "Mazda|MX-30": 125
 , "Kia|Niro EV": 123
 , "Audi|e-tron": 113
@@ -925,7 +925,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 { "other": 830
 , "Volkswagen|ID.3": 694
 , "Tesla|Model 3": 687
-, "Renault|Zoé": 289
+, "Renault|Zoe": 289
 , "Seat|Mii Electric": 182
 , "Audi|e-tron": 137
 , "Fiat|500e": 134
@@ -961,7 +961,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
 { "other": 404
 , "Volkswagen|ID.3": 199
-, "Renault|Zoé": 196
+, "Renault|Zoe": 196
 , "Audi|e-tron": 135
 , "Tesla|Model 3": 94
 , "BMW|i3 BEV": 69
@@ -1002,7 +1002,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.3": 260
 , "Fiat|500e": 152
 , "Kia|Niro EV": 123
-, "Renault|Zoé": 116
+, "Renault|Zoe": 116
 , "Audi|e-tron": 101
 , "Opel|Corsa-e": 82
 , "Seat|Mii Electric": 64
@@ -1039,7 +1039,7 @@ db.insert(db.countries.AT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 714
 , "Volkswagen|ID.4": 419
 , "Volkswagen|ID.3": 242
-, "Renault|Zoé": 178
+, "Renault|Zoe": 178
 , "Hyundai|Kona Electric": 172
 , "Fiat|500e": 153
 , "Kia|Niro EV": 147
@@ -1079,7 +1079,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.4": 280
 , "Audi|e-tron": 159
 , "Fiat|500e": 144
-, "Renault|Zoé": 121
+, "Renault|Zoe": 121
 , "Seat|Mii Electric": 92
 , "Kia|Niro EV": 90
 , "Jaguar|I-Pace": 63

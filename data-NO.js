@@ -30,7 +30,7 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/1",
 { "BMW|i3 BEV": 614
 , "Volkswagen|e-Golf": 514
-, "Renault|Zoé": 334
+, "Renault|Zoe": 334
 , "Hyundai|Ioniq Electric": 170
 , "Kia|Soul EV": 120
 , "Tesla|Model S": 110
@@ -77,7 +77,7 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 472
 , "BMW|i3 BEV": 377
 , "Hyundai|Ioniq Electric": 177
-, "Renault|Zoé": 87
+, "Renault|Zoe": 87
 , "Kia|Soul EV": 76
 , "Volkswagen|e-up!": 61
 , "Tesla|Model X": 53
@@ -124,7 +124,7 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 676
 , "BMW|i3 BEV": 528
 , "Volkswagen|e-Golf": 433
-, "Renault|Zoé": 347
+, "Renault|Zoe": 347
 , "Hyundai|Ioniq Electric": 194
 , "Renault|Kangoo Z.E.": 121
 , "Kia|Soul EV": 94
@@ -170,7 +170,7 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 525
 , "Tesla|Model X": 416
 , "Tesla|Model S": 300
-, "Renault|Zoé": 250
+, "Renault|Zoe": 250
 , "Hyundai|Ioniq Electric": 138
 , "Kia|Soul EV": 137
 , "Opel|Ampera-e": 83
@@ -217,7 +217,7 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 272
 , "Tesla|Model X": 247
 , "Hyundai|Ioniq Electric": 180
-, "Renault|Zoé": 167
+, "Renault|Zoe": 167
 , "Opel|Ampera-e": 102
 , "Kia|Soul EV": 102
 , "Renault|Kangoo Z.E.": 42
@@ -264,7 +264,7 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 614
 , "Tesla|Model S": 467
 , "BMW|i3 BEV": 335
-, "Renault|Zoé": 183
+, "Renault|Zoe": 183
 , "Hyundai|Ioniq Electric": 182
 , "Opel|Ampera-e": 117
 , "Nissan|e-NV200": 103
@@ -314,7 +314,7 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 94
 , "Opel|Ampera-e": 89
 , "Kia|Soul EV": 74
-, "Renault|Zoé": 62
+, "Renault|Zoe": 62
 , "Tesla|Model X": 40
 , "Renault|Kangoo Z.E.": 39
 , "Peugeot|Partner Electric": 27
@@ -358,7 +358,7 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 { "Nissan|Leaf": 1242
 , "Volkswagen|e-Golf": 764
 , "BMW|i3 BEV": 473
-, "Renault|Zoé": 386
+, "Renault|Zoe": 386
 , "Hyundai|Kona Electric": 263
 , "Nissan|e-NV200": 205
 , "Opel|Ampera-e": 172
@@ -414,7 +414,7 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 151
 , "Volkswagen|e-Golf": 133
 , "Kia|Soul EV": 126
-, "Renault|Zoé": 123
+, "Renault|Zoe": 123
 , "Jaguar|I-Pace": 114
 , "Volkswagen|e-up!": 53
 , "Opel|Ampera-e": 48
@@ -458,7 +458,7 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 978
 , "BMW|i3 BEV": 525
 , "Jaguar|I-Pace": 441
-, "Renault|Zoé": 411
+, "Renault|Zoe": 411
 , "Hyundai|Ioniq Electric": 211
 , "Kia|Soul EV": 162
 , "Tesla|Model X": 118
@@ -506,7 +506,7 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 { "Nissan|Leaf": 1209
 , "Volkswagen|e-Golf": 886
 , "BMW|i3 BEV": 714
-, "Renault|Zoé": 464
+, "Renault|Zoe": 464
 , "Hyundai|Ioniq Electric": 358
 , "Jaguar|I-Pace": 335
 , "Tesla|Model X": 246
@@ -558,7 +558,7 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 719
 , "Tesla|Model S": 600
 , "BMW|i3 BEV": 448
-, "Renault|Zoé": 327
+, "Renault|Zoe": 327
 , "Hyundai|Ioniq Electric": 291
 , "Kia|Soul EV": 197
 , "Hyundai|Kona Electric": 196
@@ -610,7 +610,7 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 619
 , "Hyundai|Ioniq Electric": 347
 , "Hyundai|Kona Electric": 325
-, "Renault|Zoé": 155
+, "Renault|Zoe": 155
 , "Tesla|Model X": 150
 , "Nissan|e-NV200": 103
 , "Kia|Soul EV": 86
@@ -664,7 +664,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 396
 , "Jaguar|I-Pace": 391
 , "Hyundai|Ioniq Electric": 302
-, "Renault|Zoé": 208
+, "Renault|Zoe": 208
 , "Tesla|Model X": 141
 , "Kia|Niro EV": 133
 , "Nissan|e-NV200": 124
@@ -715,7 +715,7 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 680
 , "Nissan|Leaf": 618
 , "Jaguar|I-Pace": 442
-, "Renault|Zoé": 344
+, "Renault|Zoe": 344
 , "Tesla|Model X": 341
 , "Hyundai|Kona Electric": 331
 , "Hyundai|Ioniq Electric": 314
@@ -771,7 +771,7 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 306
 , "Hyundai|Ioniq Electric": 243
 , "Nissan|e-NV200": 227
-, "Renault|Zoé": 206
+, "Renault|Zoe": 206
 , "Volkswagen|e-up!": 105
 , "Kia|Niro EV": 77
 , "Opel|Ampera-e": 69
@@ -821,7 +821,7 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 510
 , "Nissan|Leaf": 390
 , "BMW|i3 BEV": 344
-, "Renault|Zoé": 268
+, "Renault|Zoe": 268
 , "Tesla|Model X": 258
 , "Hyundai|Kona Electric": 234
 , "Hyundai|Ioniq Electric": 216
@@ -877,7 +877,7 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 329
 , "Tesla|Model X": 314
 , "Hyundai|Kona Electric": 289
-, "Renault|Zoé": 265
+, "Renault|Zoe": 265
 , "Hyundai|Ioniq Electric": 197
 , "Nissan|e-NV200": 130
 , "Opel|Ampera-e": 83
@@ -927,7 +927,7 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 308
 , "Hyundai|Kona Electric": 290
 , "BMW|i3 BEV": 207
-, "Renault|Zoé": 189
+, "Renault|Zoe": 189
 , "Hyundai|Ioniq Electric": 176
 , "Tesla|Model S": 143
 , "Opel|Ampera-e": 140
@@ -980,7 +980,7 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 445
 , "BMW|i3 BEV": 394
 , "Jaguar|I-Pace": 236
-, "Renault|Zoé": 235
+, "Renault|Zoe": 235
 , "Hyundai|Kona Electric": 234
 , "Hyundai|Ioniq Electric": 193
 , "Volkswagen|e-up!": 167
@@ -1042,7 +1042,7 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 124
 , "Nissan|e-NV200": 106
 , "Tesla|Model S": 103
-, "Renault|Zoé": 101
+, "Renault|Zoe": 101
 , "Mercedes-Benz|EQC": 48
 , "Kia|Soul EV": 41
 , "Volkswagen|e-up!": 40
@@ -1096,7 +1096,7 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 121
 , "Nissan|e-NV200": 115
 , "Opel|Ampera-e": 113
-, "Renault|Zoé": 93
+, "Renault|Zoe": 93
 , "Volkswagen|e-up!": 53
 , "Kia|Soul EV": 49
 , "Renault|Kangoo Z.E.": 33
@@ -1158,7 +1158,7 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 27
 , "Tesla|Model S": 23
 , "Renault|Kangoo Z.E.": 20
-, "Renault|Zoé": 18
+, "Renault|Zoe": 18
 , "Citroën|Berlingo Electric": 15
 , "Smart|Fortwo ED": 12
 , "Citroën|C-Zero": 12
@@ -1216,7 +1216,7 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 16
 , "Mercedes-Benz|eVito": 10
 , "Volkswagen|e-Crafter": 9
-, "Renault|Zoé": 8
+, "Renault|Zoe": 8
 , "Peugeot|Partner Electric": 8
 , "Citroën|Berlingo Electric": 6
 , "Peugeot|iOn": 4
@@ -1254,7 +1254,7 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 
 db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/1",
 { "Audi|e-tron": 902
-, "Renault|Zoé": 533
+, "Renault|Zoe": 533
 , "Volkswagen|e-Golf": 497
 , "Hyundai|Kona Electric": 380
 , "Nissan|Leaf": 366
@@ -1321,7 +1321,7 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 365
 , "Hyundai|Kona Electric": 347
 , "BMW|i3 BEV": 309
-, "Renault|Zoé": 262
+, "Renault|Zoe": 262
 , "Hyundai|Ioniq Electric": 237
 , "Opel|Ampera-e": 230
 , "Nissan|e-NV200": 152
@@ -1383,7 +1383,7 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 518
 , "BMW|i3 BEV": 298
 , "Peugeot|e-208": 258
-, "Renault|Zoé": 242
+, "Renault|Zoe": 242
 , "Volkswagen|e-up!": 228
 , "Škoda|Citigo-e": 216
 , "Mercedes-Benz|EQC": 173
@@ -1445,7 +1445,7 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 243
 , "BMW|i3 BEV": 234
 , "Volkswagen|e-up!": 155
-, "Renault|Zoé": 153
+, "Renault|Zoe": 153
 , "Kia|Soul EV": 130
 , "Peugeot|e-208": 123
 , "Porsche|Taycan": 121
@@ -1502,7 +1502,7 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 408
 , "MG|ZS EV": 187
 , "Peugeot|e-208": 183
-, "Renault|Zoé": 148
+, "Renault|Zoe": 148
 , "Kia|Soul EV": 143
 , "Hyundai|Ioniq Electric": 117
 , "BMW|i3 BEV": 114
@@ -1569,7 +1569,7 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 190
 , "Volkswagen|e-up!": 186
 , "Porsche|Taycan": 172
-, "Renault|Zoé": 148
+, "Renault|Zoe": 148
 , "Peugeot|e-2008": 146
 , "Škoda|Citigo-e": 138
 , "BMW|i3 BEV": 138
@@ -1632,7 +1632,7 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 179
 , "Škoda|Citigo-e": 161
 , "Porsche|Taycan": 144
-, "Renault|Zoé": 128
+, "Renault|Zoe": 128
 , "BMW|i3 BEV": 117
 , "Nissan|e-NV200": 95
 , "Peugeot|e-2008": 86
@@ -1695,7 +1695,7 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 264
 , "Peugeot|e-2008": 239
 , "Porsche|Taycan": 222
-, "Renault|Zoé": 221
+, "Renault|Zoe": 221
 , "Hyundai|Ioniq Electric": 208
 , "BMW|i3 BEV": 152
 , "Kia|Niro EV": 151
@@ -1765,7 +1765,7 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 249
 , "Kia|Niro EV": 223
 , "Peugeot|e-208": 216
-, "Renault|Zoé": 186
+, "Renault|Zoe": 186
 , "Tesla|Model X": 181
 , "Tesla|Model S": 142
 , "Volkswagen|e-up!": 138
@@ -1830,7 +1830,7 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 164
 , "Hyundai|Ioniq Electric": 160
 , "Peugeot|e-208": 141
-, "Renault|Zoé": 119
+, "Renault|Zoe": 119
 , "Opel|Corsa-e": 81
 , "Tesla|Model 3": 74
 , "Mini|Cooper SE Electric": 66
@@ -1899,7 +1899,7 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 121
 , "Volkswagen|e-up!": 95
 , "Porsche|Taycan": 95
-, "Renault|Zoé": 92
+, "Renault|Zoe": 92
 , "Peugeot|e-208": 79
 , "Nissan|e-NV200": 70
 , "Renault|Kangoo Z.E.": 63
@@ -1972,7 +1972,7 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 131
 , "Porsche|Taycan": 122
 , "Tesla|Model X": 120
-, "Renault|Zoé": 114
+, "Renault|Zoe": 114
 , "Kia|Soul EV": 110
 , "Mercedes-Benz|EQV": 91
 , "Toyota|Proace Electric": 88
@@ -2046,7 +2046,7 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 99
 , "Jaguar|I-Pace": 77
 , "Nissan|e-NV200": 72
-, "Renault|Zoé": 70
+, "Renault|Zoe": 70
 , "Tesla|Model 3": 63
 , "Porsche|Taycan": 55
 , "Fiat|500e": 55
@@ -2115,7 +2115,7 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 99
 , "Hyundai|Ioniq Electric": 92
 , "Nissan|e-NV200": 62
-, "Renault|Zoé": 61
+, "Renault|Zoe": 61
 , "Volkswagen|e-up!": 56
 , "Renault|Kangoo Z.E.": 50
 , "Fiat|500e": 46
@@ -2189,7 +2189,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 77
 , "Hyundai|Ioniq Electric": 75
 , "Škoda|Citigo-e": 74
-, "Renault|Zoé": 69
+, "Renault|Zoe": 69
 , "Citroën|ë-Jumpy": 65
 , "Lexus|UX 300e": 63
 , "Porsche|Taycan": 61
@@ -2263,7 +2263,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 107
 , "Peugeot|e-208": 101
 , "Citroën|ë-Jumpy": 94
-, "Renault|Zoé": 86
+, "Renault|Zoe": 86
 , "Kia|Soul EV": 84
 , "Hyundai|Ioniq Electric": 82
 , "Citroën|ë-C4": 72
@@ -2346,7 +2346,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 91
 , "Mazda|MX-30": 91
 , "Mercedes-Benz|EQA": 90
-, "Renault|Zoé": 86
+, "Renault|Zoe": 86
 , "Citroën|ë-Jumpy": 86
 , "Škoda|Citigo-e": 79
 , "Hyundai|Ioniq Electric": 75

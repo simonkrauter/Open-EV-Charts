@@ -58,7 +58,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.AllCarsByBrand, "https://assets
 db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 2015
 , "Tesla|Model S": 541
-, "Renault|Zoé": 429
+, "Renault|Zoe": 429
 , "Tesla|Model X": 293
 , "BMW|i3 BEV": 256
 , "Volkswagen|e-Golf": 134
@@ -123,7 +123,7 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://a
 { "Nissan|Leaf": 1501
 , "Tesla|Model S": 498
 , "Tesla|Model X": 422
-, "Renault|Zoé": 402
+, "Renault|Zoe": 402
 , "BMW|i3 BEV": 171
 , "Volkswagen|e-Golf": 156
 , "Kia|Soul EV": 96
@@ -186,7 +186,7 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.AllCarsByBrand, "https://assets
 db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 961
 , "Tesla|Model S": 498
-, "Renault|Zoé": 454
+, "Renault|Zoe": 454
 , "Tesla|Model X": 442
 , "BMW|i3 BEV": 363
 , "Volkswagen|e-Golf": 332
@@ -248,7 +248,7 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Nissan|Leaf": 939
-, "Renault|Zoé": 696
+, "Renault|Zoe": 696
 , "Jaguar|I-Pace": 534
 , "BMW|i3 BEV": 419
 , "Volkswagen|e-Golf": 358
@@ -314,7 +314,7 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://a
 { "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
 , "BMW|i3 BEV": 794
-, "Renault|Zoé": 745
+, "Renault|Zoe": 745
 , "Volkswagen|e-Golf": 521
 , "Tesla|Model X": 325
 , "Tesla|Model S": 320
@@ -380,7 +380,7 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 { "Jaguar|I-Pace": 982
 , "BMW|i3 BEV": 969
 , "Volkswagen|e-Golf": 796
-, "Renault|Zoé": 773
+, "Renault|Zoe": 773
 , "Nissan|Leaf": 760
 , "Tesla|Model S": 456
 , "Audi|e-tron": 352
@@ -451,7 +451,7 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 1208
 , "BMW|i3 BEV": 1183
 , "Jaguar|I-Pace": 1171
-, "Renault|Zoé": 646
+, "Renault|Zoe": 646
 , "Tesla|Model X": 366
 , "Audi|e-tron": 333
 , "Tesla|Model S": 256
@@ -524,7 +524,7 @@ db.insert(db.countries.UK, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "MG|ZS EV": 591
 , "Audi|e-tron": 364
 , "Tesla|Model X": 254
-, "Renault|Zoé": 216
+, "Renault|Zoe": 216
 , "Tesla|Model S": 201
 , "Mercedes-Benz|EQC": 103
 , "Hyundai|Ioniq Electric": 89
@@ -598,7 +598,7 @@ db.insert(db.countries.UK, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 523
 , "Hyundai|Ioniq Electric": 434
 , "Mini|Cooper SE Electric": 409
-, "Renault|Zoé": 266
+, "Renault|Zoe": 266
 , "Kia|Soul EV": 217
 , "Tesla|Model X": 178
 , "Tesla|Model S": 155
@@ -662,7 +662,7 @@ db.insert(db.countries.UK, "q2020-2", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/942253/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 4029
-, "Renault|Zoé": 1136
+, "Renault|Zoe": 1136
 , "Jaguar|I-Pace": 1030
 , "Nissan|Leaf": 773
 , "Kia|Niro EV": 737
@@ -739,7 +739,7 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.AllCarsByBrand, "https://assets
 
 db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/942253/veh0160.ods (per quarter)",
 { "Tesla|Model 3": 5988
-, "Renault|Zoé": 3072
+, "Renault|Zoe": 3072
 , "Kia|Niro EV": 2988
 , "Audi|e-tron": 2309
 , "Nissan|Leaf": 2187
@@ -829,7 +829,7 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 2287
 , "Mercedes-Benz|EQC": 2094
 , "Porsche|Taycan": 1956
-, "Renault|Zoé": 1886
+, "Renault|Zoe": 1886
 , "MG|ZS EV": 1562
 , "BMW|i3 BEV": 1504
 , "Mini|Cooper SE Electric": 1427

@@ -13,7 +13,7 @@ db.insert(db.countries.DK, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 72
 , "Tesla|Model 3": 60
 , "Volkswagen|e-up!": 39
-, "Renault|Zoé": 36
+, "Renault|Zoe": 36
 , "Hyundai|Kona Electric": 30
 , "Audi|e-tron": 29
 , "Hyundai|Ioniq Electric": 25
@@ -37,7 +37,7 @@ db.insert(db.countries.DK, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Volkswagen|e-Golf": 128
 , "Hyundai|Kona Electric": 98
 , "Tesla|Model 3": 79
-, "Renault|Zoé": 36
+, "Renault|Zoe": 36
 , "Nissan|Leaf": 27
 , "Volkswagen|e-up!": 21
 , "Kia|Niro EV": 21
@@ -60,7 +60,7 @@ db.insert(db.countries.DK, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.DK, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2020/3",
 { "Tesla|Model 3": 728
 , "Volkswagen|e-Golf": 78
-, "Renault|Zoé": 56
+, "Renault|Zoe": 56
 , "Hyundai|Kona Electric": 50
 , "Audi|e-tron": 41
 , "Volkswagen|e-up!": 34
@@ -88,7 +88,7 @@ db.insert(db.countries.DK, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model 3": 86
 , "Volkswagen|e-Golf": 46
 , "Kia|Niro EV": 45
-, "Renault|Zoé": 34
+, "Renault|Zoe": 34
 , "Hyundai|Kona Electric": 28
 , "Volkswagen|e-up!": 18
 , "Audi|e-tron": 13
@@ -116,7 +116,7 @@ db.insert(db.countries.DK, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 46
 , "Kia|Niro EV": 45
 , "Audi|e-tron": 26
-, "Renault|Zoé": 21
+, "Renault|Zoe": 21
 , "Nissan|Leaf": 14
 , "Volkswagen|e-up!": 9
 , "MG|ZS EV": 8
@@ -143,7 +143,7 @@ db.insert(db.countries.DK, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 72
 , "Hyundai|Kona Electric": 62
 , "Audi|e-tron": 48
-, "Renault|Zoé": 38
+, "Renault|Zoe": 38
 , "Volkswagen|e-up!": 37
 , "Nissan|Leaf": 32
 , "MG|ZS EV": 22
@@ -169,7 +169,7 @@ db.insert(db.countries.DK, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.DK, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2020/7",
 { "Hyundai|Kona Electric": 98
 , "Kia|Niro EV": 49
-, "Renault|Zoé": 44
+, "Renault|Zoe": 44
 , "MG|ZS EV": 37
 , "Audi|e-tron": 36
 , "Volkswagen|e-Golf": 32
@@ -200,7 +200,7 @@ db.insert(db.countries.DK, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model 3": 262
 , "Hyundai|Kona Electric": 150
 , "Kia|Niro EV": 141
-, "Renault|Zoé": 62
+, "Renault|Zoe": 62
 , "Peugeot|e-208": 54
 , "MG|ZS EV": 43
 , "Audi|e-tron": 40
@@ -233,7 +233,7 @@ db.insert(db.countries.DK, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 534
 , "Hyundai|Kona Electric": 152
 , "Kia|Niro EV": 115
-, "Renault|Zoé": 92
+, "Renault|Zoe": 92
 , "Mazda|MX-30": 73
 , "Peugeot|e-2008": 54
 , "Nissan|Leaf": 54
@@ -270,7 +270,7 @@ db.insert(db.countries.DK, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 50
 , "Nissan|Leaf": 47
 , "Porsche|Taycan": 46
-, "Renault|Zoé": 43
+, "Renault|Zoe": 43
 , "Mercedes-Benz|EQC": 37
 , "MG|ZS EV": 34
 , "Hyundai|Ioniq Electric": 22
@@ -301,7 +301,7 @@ db.insert(db.countries.DK, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 285
 , "Hyundai|Kona Electric": 203
 , "Kia|Niro EV": 118
-, "Renault|Zoé": 92
+, "Renault|Zoe": 92
 , "Audi|e-tron": 68
 , "Volkswagen|e-up!": 66
 , "Peugeot|e-208": 64
@@ -335,7 +335,7 @@ db.insert(db.countries.DK, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model 3": 1462
 , "Volkswagen|ID.3": 703
 , "Nissan|Leaf": 195
-, "Renault|Zoé": 150
+, "Renault|Zoe": 150
 , "Hyundai|Kona Electric": 129
 , "Kia|Niro EV": 124
 , "Tesla|Model S": 110
@@ -370,7 +370,7 @@ db.insert(db.countries.DK, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2021/1",
-{ "Renault|Zoé": 100
+{ "Renault|Zoe": 100
 , "Volkswagen|ID.3": 90
 , "Audi|e-tron": 58
 , "Kia|Niro EV": 50
@@ -415,7 +415,7 @@ db.insert(db.countries.DK, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 11
 , "Porsche|Taycan": 9
 , "Nissan|Leaf": 9
-, "Renault|Zoé": 7
+, "Renault|Zoe": 7
 , "Peugeot|e-208": 7
 , "Peugeot|e-2008": 7
 , "Hyundai|Ioniq Electric": 7
@@ -443,7 +443,7 @@ db.insert(db.countries.DK, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 102
 , "Seat|Mii Electric": 91
 , "Nissan|Leaf": 91
-, "Renault|Zoé": 62
+, "Renault|Zoe": 62
 , "Fiat|500e": 56
 , "Citroën|ë-C4": 49
 , "Mercedes-Benz|EQC": 36
@@ -493,7 +493,7 @@ db.insert(db.countries.DK, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 11
 , "Audi|e-tron": 10
 , "BMW|iX3": 9
-, "Renault|Zoé": 8
+, "Renault|Zoe": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "Tesla|Model 3": 7
 , "Polestar|2": 5
@@ -523,7 +523,7 @@ db.insert(db.countries.DK, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 60
 , "Seat|Mii Electric": 53
 , "Mercedes-Benz|EQA": 36
-, "Renault|Zoé": 29
+, "Renault|Zoe": 29
 , "Peugeot|e-208": 29
 , "Mercedes-Benz|EQC": 25
 , "Porsche|Taycan": 24
