@@ -908,7 +908,7 @@ db.insert(db.countries.IT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-208": 283
 , "Renault|Zoé": 243
 , "Nissan|Leaf": 167
-, "VŠkoda|Enyaq": 157
+, "Škoda|Enyaq": 157
 , "Volkswagen|ID.4": 141
 , "other": 1090
 });
