@@ -2737,12 +2737,12 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
-{ "Škoda|Enyaq": 848
+{ "Škoda|Enyaq": 851
 , "Ford|Mustang Mach-E": 402
 , "Kia|Niro EV": 345
 , "Volkswagen|ID.4": 219
 , "Volvo|XC40 Recharge pure electric": 200
-, "BMW|iX3": 114
+, "BMW|iX3": 115
 , "Peugeot|e-208": 109
 , "Peugeot|e-2008": 96
 , "Fiat|500e": 84
@@ -2757,11 +2757,11 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 57
 , "MG|ZS EV": 55
 , "Opel|Mokka-e": 47
-, "Audi|e-tron": 45
+, "Audi|e-tron": 47
 , "Seat|Mii Electric": 43
 , "Renault|Twingo Z.E.": 26
+, "Audi|e-tron GT": 22
 , "BMW|i3 BEV": 19
-, "Audi|e-tron GT": 19
 , "Hyundai|Kona Electric": 14
 , "Hyundai|Ioniq Electric": 13
 , "Kia|Soul EV": 12
