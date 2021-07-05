@@ -2781,3 +2781,95 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-Jumpy": 1
 });
+
+db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/juni/",
+{ "Kia": 3162
+, "Volkswagen": 3078
+, "Toyota": 2389
+, "Renault": 2215
+, "Peugeot": 2163
+, "BMW": 1923
+, "Ford": 1546
+, "Volvo": 1526
+, "Opel": 1434
+, "Mercedes-Benz": 1127
+, "Audi": 1124
+, "Hyundai": 1115
+, "Citroën": 1078
+, "Nissan": 845
+, "Seat": 830
+, "Suzuki": 816
+, "Mazda": 668
+, "Mini": 576
+, "Fiat": 522
+, "Dacia": 478
+, "Tesla": 474
+, "Mitsubishi": 421
+, "MG": 321
+, "Porsche": 139
+, "Jeep": 117
+, "Land Rover": 106
+, "Polestar": 67
+, "Honda": 51
+, "Lexus": 46
+, "DS Automobiles": 37
+, "Alfa Romeo": 21
+, "Jaguar": 19
+, "Smart": 16
+, "Subaru": 14
+, "Maserati": 1
+, "Aiways": 1
+, "other": 2852
+});
+
+db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
+{ "Škoda|Enyaq": 874
+, "Kia|Niro EV": 615
+, "Ford|Mustang Mach-E": 550
+, "Tesla|Model 3": 475
+, "Volkswagen|ID.4": 402
+, "Renault|Zoe": 399
+, "BMW|iX3": 344
+, "MG|ZS EV": 273
+, "Volvo|XC40 Recharge pure electric": 210
+, "Mercedes-Benz|EQA": 168
+, "Renault|Twingo Z.E.": 142
+, "Peugeot|e-208": 141
+, "Fiat|500e": 116
+, "Peugeot|e-2008": 108
+, "Mini|Cooper SE Electric": 84
+, "Citroën|ë-C4": 78
+, "Nissan|Leaf": 76
+, "BMW|i3 BEV": 75
+, "Polestar|2": 66
+, "Audi|Q4 e-tron": 65
+, "Dacia|Spring": 54
+, "Kia|Soul EV": 52
+, "Hyundai|Kona Electric": 51
+, "Opel|Corsa-e": 46
+, "Seat|Mii Electric": 45
+, "Opel|Mokka-e": 45
+, "Audi|e-tron GT": 36
+, "Audi|e-tron": 35
+, "Porsche|Taycan": 27
+, "Toyota|Proace Electric": 25
+, "Volkswagen|ID.3": 24
+, "Mazda|MX-30": 21
+, "Hyundai|Ioniq 5": 21
+, "Peugeot|e-Expert": 17
+, "Volkswagen|e-up!": 14
+, "Hyundai|Ioniq Electric": 14
+, "Smart|Forfour ED": 12
+, "Mercedes-Benz|EQC": 9
+, "Smart|Fortwo ED": 5
+, "Škoda|Citigo-e": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Peugeot|e-Traveller": 2
+, "Nissan|e-NV200": 2
+, "Mercedes-Benz|eVito": 2
+, "Citroën|ë-Jumpy": 2
+, "Mercedes-Benz|EQV": 1
+, "Honda|e": 1
+, "Citroën|C-Zero": 1
+, "Aiways|U5": 1
+});
