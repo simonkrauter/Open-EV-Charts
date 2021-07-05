@@ -2377,6 +2377,86 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 });
 
+db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 3197
+, "Toyota": 1992
+, "Volkswagen": 1830
+, "Ford": 1637
+, "Škoda": 1483
+, "Volvo": 1481
+, "BMW": 1327
+, "Hyundai": 926
+, "Mercedes-Benz": 869
+, "Audi": 806
+, "Kia": 589
+, "Peugeot": 573
+, "Nissan": 561
+, "Suzuki": 378
+, "MG": 368
+, "Polestar": 340
+, "Mazda": 306
+, "Mitsubishi": 269
+, "Citroën": 228
+, "Opel": 185
+});
+
+db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6",
+{ "Tesla|Model 3": 3196
+, "Ford|Mustang Mach-E": 1277
+, "Škoda|Enyaq": 1115
+, "Volkswagen|ID.4": 872
+, "Volvo|XC40 Recharge pure electric": 562
+, "Nissan|Leaf": 534
+, "Mercedes-Benz|EQC": 482
+, "BMW|iX3": 468
+, "Hyundai|Kona Electric": 432
+, "Volkswagen|ID.3": 378
+, "Polestar|2": 340
+, "Audi|e-tron": 336
+, "MG|ZS EV": 335
+, "Kia|Niro EV": 278
+, "Hyundai|Ioniq 5": 219
+, "BMW|i3 BEV": 219
+, "Peugeot|e-2008": 191
+, "Audi|Q4 e-tron": 189
+, "Kia|Soul EV": 187
+, "Audi|e-tron GT": 174
+, "Citroën|ë-C4": 157
+, "Toyota|Proace Electric": 153
+, "Peugeot|e-208": 135
+, "Mazda|MX-30": 111
+, "Fiat|500e": 78
+, "Renault|Zoe": 76
+, "Hyundai|Ioniq Electric": 75
+, "Škoda|Citigo-e": 74
+, "Renault|Kangoo Z.E.": 74
+, "Lexus|UX 300e": 72
+, "Peugeot|e-Expert": 67
+, "Mercedes-Benz|EQA": 67
+, "Seat|Mii Electric": 61
+, "Opel|Corsa-e": 59
+, "Porsche|Taycan": 57
+, "Nissan|e-NV200": 56
+, "Opel|Mokka-e": 55
+, "Jaguar|I-Pace": 46
+, "Citroën|ë-Jumpy": 37
+, "Xiaopeng|Xpeng G3": 34
+, "Mini|Cooper SE Electric": 26
+, "Opel|Vivaro-e": 23
+, "Volkswagen|e-up!": 19
+, "Opel|Zafira-e": 19
+, "Honda|e": 15
+, "Peugeot|e-Traveller": 14
+, "DS Automobiles|DS 3 Crossback E-Tense": 11
+, "Mercedes-Benz|EQV": 8
+, "Maxus|EV80": 8
+, "Volkswagen|e-Crafter": 2
+, "Chevrolet|Bolt": 2
+, "Tesla|Model X": 1
+, "Smart|Fortwo ED": 1
+, "Mercedes-Benz|eVito": 1
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
