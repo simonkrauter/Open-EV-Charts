@@ -2322,25 +2322,25 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5",
-{ "Ford|Mustang Mach-E": 1383
-, "Škoda|Enyaq": 794
+{ "Ford|Mustang Mach-E": 1384
+, "Škoda|Enyaq": 795
 , "Volkswagen|ID.4": 774
-, "Volvo|XC40 Recharge pure electric": 593
+, "Volvo|XC40 Recharge pure electric": 595
 , "Tesla|Model 3": 504
-, "Mercedes-Benz|EQC": 491
-, "Audi|e-tron": 385
+, "Mercedes-Benz|EQC": 492
+, "Audi|e-tron": 447
 , "Nissan|Leaf": 285
 , "Peugeot|e-2008": 282
 , "Polestar|2": 280
 , "Hyundai|Kona Electric": 248
-, "Citroën|ë-C4": 244
+, "Citroën|ë-C4": 245
+, "Volkswagen|ID.3": 195
 , "MG|ZS EV": 195
-, "Volkswagen|ID.3": 194
 , "Kia|Soul EV": 182
 , "Kia|Niro EV": 166
 , "BMW|iX3": 159
-, "Toyota|Proace Electric": 154
-, "BMW|i3 BEV": 129
+, "Toyota|Proace Electric": 155
+, "BMW|i3 BEV": 130
 , "Peugeot|e-208": 111
 , "Renault|Kangoo Z.E.": 105
 , "Peugeot|e-Expert": 91
@@ -2351,21 +2351,21 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 79
 , "Hyundai|Ioniq Electric": 75
 , "Opel|Corsa-e": 66
-, "Hyundai|Ioniq 5": 62
+, "Hyundai|Ioniq 5": 63
 , "Opel|Vivaro-e": 60
+, "Audi|e-tron GT": 55
 , "Jaguar|I-Pace": 50
-, "Xiaopeng|Xpeng G3": 48
+, "Xiaopeng|Xpeng G3": 49
 , "Lexus|UX 300e": 46
 , "Fiat|500e": 43
 , "Nissan|e-NV200": 41
-, "Porsche|Taycan": 38
-, "Audi|e-tron GT": 29
+, "Porsche|Taycan": 39
 , "Opel|Mokka-e": 28
 , "Peugeot|e-Traveller": 21
 , "Mini|Cooper SE Electric": 21
 , "Honda|e": 17
 , "Volkswagen|e-up!": 14
-, "Mercedes-Benz|EQV": 13
+, "Mercedes-Benz|EQV": 14
 , "Opel|Zafira-e": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
 , "Maxus|EV80": 5
