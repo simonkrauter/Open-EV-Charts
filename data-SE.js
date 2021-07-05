@@ -1028,3 +1028,45 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Peugeot|e-Expert": 1
 });
+
+db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
+{ "other": 37638
+});
+
+db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/6",
+{ "MG|ZS EV": 1665
+, "Tesla|Model 3": 1499
+, "Volkswagen|ID.4": 1229
+, "Kia|Niro EV": 691
+, "Škoda|Enyaq": 640
+, "Volkswagen|ID.3": 475
+, "Polestar|2": 387
+, "Renault|Zoe": 217
+, "Nissan|Leaf": 208
+, "Ford|Mustang Mach-E": 166
+, "Volvo|XC40 Recharge pure electric": 134
+, "Audi|e-tron": 130
+, "Audi|Q4 e-tron": 114
+, "Peugeot|e-2008": 94
+, "Hyundai|Kona Electric": 80
+, "BMW|i3 BEV": 68
+, "Peugeot|e-208": 59
+, "Opel|Mokka-e": 59
+, "Fiat|500e": 59
+, "Mazda|MX-30": 43
+, "Hyundai|Ioniq Electric": 35
+, "Audi|e-tron GT": 34
+, "Porsche|Taycan": 27
+, "Kia|Soul EV": 27
+, "Opel|Corsa-e": 25
+, "Citroën|ë-C4": 18
+, "Lexus|UX 300e": 17
+, "Seat|Mii Electric": 16
+, "Honda|e": 14
+, "Mercedes-Benz|EQV": 7
+, "Volkswagen|e-up!": 5
+, "Peugeot|e-Expert": 5
+, "Škoda|Citigo-e": 2
+, "Nissan|e-NV200": 2
+, "Mercedes-Benz|eVito": 1
+});
