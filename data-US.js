@@ -612,6 +612,7 @@ db.insert(db.countries.US, "q2021-1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Genesis": 8231
 , "Mini": 6284
 , "Alfa Romeo": 4647
+, "Jaguar": 4048
 , "Fiat": 815
 });
 
@@ -625,4 +626,5 @@ db.insert(db.countries.US, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 700
 , "Tesla|Model S": 700
 , "Volkswagen|ID.4": 474
+, "Jaguar|I-Pace": 256
 });
