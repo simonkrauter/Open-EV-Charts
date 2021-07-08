@@ -2402,43 +2402,43 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6",
 { "Tesla|Model 3": 3196
-, "Ford|Mustang Mach-E": 1277
+, "Ford|Mustang Mach-E": 1288
 , "Škoda|Enyaq": 1115
 , "Volkswagen|ID.4": 872
-, "Volvo|XC40 Recharge pure electric": 562
-, "Nissan|Leaf": 534
-, "Mercedes-Benz|EQC": 482
+, "Volvo|XC40 Recharge pure electric": 564
+, "Nissan|Leaf": 539
+, "Mercedes-Benz|EQC": 485
 , "BMW|iX3": 468
-, "Hyundai|Kona Electric": 432
-, "Volkswagen|ID.3": 378
+, "Hyundai|Kona Electric": 433
+, "Volkswagen|ID.3": 380
 , "Polestar|2": 340
-, "Audi|e-tron": 336
-, "MG|ZS EV": 335
+, "Audi|e-tron": 338
+, "MG|ZS EV": 337
 , "Kia|Niro EV": 278
-, "Hyundai|Ioniq 5": 219
+, "Hyundai|Ioniq 5": 222
 , "BMW|i3 BEV": 219
 , "Peugeot|e-2008": 191
-, "Audi|Q4 e-tron": 189
-, "Kia|Soul EV": 187
-, "Audi|e-tron GT": 174
+, "Audi|Q4 e-tron": 190
+, "Kia|Soul EV": 189
+, "Audi|e-tron GT": 180
 , "Citroën|ë-C4": 157
-, "Toyota|Proace Electric": 153
+, "Toyota|Proace Electric": 154
 , "Peugeot|e-208": 135
-, "Mazda|MX-30": 111
+, "Mazda|MX-30": 112
 , "Fiat|500e": 78
 , "Renault|Zoe": 76
-, "Hyundai|Ioniq Electric": 75
+, "Hyundai|Ioniq Electric": 76
 , "Škoda|Citigo-e": 74
 , "Renault|Kangoo Z.E.": 74
-, "Lexus|UX 300e": 72
+, "Lexus|UX 300e": 73
 , "Peugeot|e-Expert": 67
 , "Mercedes-Benz|EQA": 67
 , "Seat|Mii Electric": 61
 , "Opel|Corsa-e": 59
 , "Porsche|Taycan": 57
+, "Opel|Mokka-e": 56
 , "Nissan|e-NV200": 56
-, "Opel|Mokka-e": 55
-, "Jaguar|I-Pace": 46
+, "Jaguar|I-Pace": 47
 , "Citroën|ë-Jumpy": 37
 , "Xiaopeng|Xpeng G3": 34
 , "Mini|Cooper SE Electric": 26
