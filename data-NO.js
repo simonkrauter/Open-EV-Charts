@@ -47,6 +47,7 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Ford|Focus Electric": 2
 , "Mitsubishi|i-MiEV": 1
+, "other": 5
 });
 
 db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -93,6 +94,7 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Smart|Forfour ED": 1
 , "Mitsubishi|i-MiEV": 1
+, "other": 2
 });
 
 db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -139,6 +141,7 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 5
 , "Chevrolet|Bolt": 3
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -185,6 +188,7 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 6
 , "Chevrolet|Bolt": 2
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -233,6 +237,7 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 4
 , "Chevrolet|Bolt": 2
 , "Jaguar|I-Pace": 1
+, "other": 4
 });
 
 db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -281,6 +286,7 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 13
 , "Smart|Forfour ED": 11
 , "Chevrolet|Bolt": 6
+, "other": 7
 });
 
 db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -329,6 +335,7 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 3
 , "Chevrolet|Bolt": 3
 , "Jaguar|I-Pace": 1
+, "other": 5
 });
 
 db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -379,6 +386,7 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 6
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 1
+, "other": 6
 });
 
 db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -428,6 +436,7 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 12
 , "Ford|Focus Electric": 12
 , "Chevrolet|Bolt": 3
+, "other": 7
 });
 
 db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -477,6 +486,7 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 8
 , "Smart|Fortwo ED": 4
 , "Chevrolet|Bolt": 2
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -527,6 +537,7 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Focus Electric": 3
 , "Chevrolet|Bolt": 2
 , "Smart|Fortwo ED": 1
+, "other": 1
 });
 
 db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -579,6 +590,7 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 4
 , "Maxus|EV80": 1
 , "Ford|Focus Electric": 1
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -631,6 +643,7 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 5
 , "Ford|Focus Electric": 5
 , "Maxus|EV80": 1
+, "other": 6
 });
 
 db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -683,6 +696,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 5
 , "Volkswagen|e-Crafter": 4
 , "Smart|Fortwo ED": 1
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -736,6 +750,7 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 5
 , "Maxus|EV80": 4
 , "Ford|Focus Electric": 1
+, "other": 10
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -789,6 +804,7 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 3
 , "Mitsubishi|i-MiEV": 3
 , "Ford|Focus Electric": 2
+, "other": 16
 });
 
 db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -842,6 +858,7 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 4
 , "Citroën|C-Zero": 4
 , "Chevrolet|Bolt": 1
+, "other": 44
 });
 
 db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -895,6 +912,7 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 2
 , "Mitsubishi|i-MiEV": 2
 , "Chevrolet|Bolt": 1
+, "other": 29
 });
 
 db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -948,6 +966,7 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 1
 , "Mercedes-Benz|eVito": 1
 , "Maxus|EV80": 1
+, "other": 52
 });
 
 db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1004,6 +1023,7 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Maxus|EV80": 1
 , "Ford|Focus Electric": 1
 , "Chevrolet|Bolt": 1
+, "other": 11
 });
 
 db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1060,6 +1080,7 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 2
 , "Smart|Fortwo ED": 1
 , "Chevrolet|Bolt": 1
+, "other": 2
 });
 
 db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1115,6 +1136,7 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 4
 , "Mitsubishi|i-MiEV": 3
 , "Chevrolet|Bolt": 1
+, "other": 3
 });
 
 db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1170,6 +1192,7 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Smart|Forfour ED": 1
 , "Mitsubishi|i-MiEV": 1
+, "other": 1
 });
 
 db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1227,6 +1250,7 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 2
 , "Smart|Fortwo ED": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 4
 });
 
 db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1289,6 +1313,7 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 2
 , "Mercedes-Benz|eVito": 2
 , "Chevrolet|Bolt": 1
+, "other": 5
 });
 
 db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1350,6 +1375,7 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Smart|Forfour ED": 1
 , "Mini|Cooper SE Electric": 1
+, "other": 2
 });
 
 db.insert(db.countries.NO, "2020-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1412,6 +1438,7 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 1
 , "Honda|e": 1
 , "Chevrolet|Bolt": 1
+, "other": 2
 });
 
 db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1470,6 +1497,7 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 1
 , "Citroën|C-Zero": 1
 , "Citroën|Berlingo Electric": 1
+, "other": 2
 });
 
 db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1532,6 +1560,7 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 , "Mitsubishi|i-MiEV": 1
 , "Citroën|C-Zero": 1
+, "other": 23
 });
 
 db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1594,6 +1623,7 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 3
 , "Smart|Forfour ED": 2
 , "Volkswagen|e-Crafter": 1
+, "other": 61
 });
 
 db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1658,6 +1688,7 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 1
 , "Mercedes-Benz|eVito": 1
 , "Chevrolet|Bolt": 1
+, "other": 8
 });
 
 db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1724,6 +1755,7 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 1
 , "Citroën|C-Zero": 1
 , "Citroën|Berlingo Electric": 1
+, "other": 25
 });
 
 db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1789,6 +1821,7 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 1
 , "Mitsubishi|i-MiEV": 1
 , "Chevrolet|Bolt": 1
+, "other": 182
 });
 
 db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1854,6 +1887,7 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 1
 , "Opel|Ampera-e": 1
 , "Chevrolet|Bolt": 1
+, "other": 251
 });
 
 db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1926,6 +1960,7 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 2
 , "Smart|Forfour ED": 1
 , "Chevrolet|Bolt": 1
+, "other": 191
 });
 
 db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -1998,6 +2033,7 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 1
 , "Mitsubishi|i-MiEV": 1
 , "Chevrolet|Bolt": 1
+, "other": 170
 });
 
 db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2068,6 +2104,7 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 3
 , "Honda|e": 3
 , "Opel|Ampera-e": 1
+, "other": 200
 });
 
 db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2140,6 +2177,7 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 3
 , "Xiaopeng|Xpeng G3": 2
 , "Mitsubishi|i-MiEV": 1
+, "other": 93
 });
 
 db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2217,6 +2255,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Maxus|EV80": 2
 , "Mitsubishi|i-MiEV": 1
 , "Ford|Mustang Mach-E": 1
+, "other": 99
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2296,6 +2335,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 1
 , "Mitsubishi|i-MiEV": 1
 , "Mercedes-Benz|eSprinter": 1
+, "other": 127
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2375,6 +2415,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 1
 , "Seat|Mii Electric": 1
 , "Mercedes-Benz|eVito": 1
+, "other": 131
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2455,6 +2496,7 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Smart|Fortwo ED": 1
 , "Mercedes-Benz|eVito": 1
+, "other": 119
 });
 
 // Template:
