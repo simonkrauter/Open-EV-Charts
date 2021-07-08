@@ -906,6 +906,7 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 2
 , "Tesla|Model X": 1
 , "Mercedes-Benz|eVito": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -943,6 +944,7 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 1
 , "Jaguar|I-Pace": 1
 , "Honda|e": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-C4": 1
 });
 
@@ -983,6 +985,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 3
 , "Peugeot|e-Expert": 3
 , "Mercedes-Benz|EQV": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
 , "Dacia|Spring": 1
@@ -1025,6 +1028,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 3
 , "Mercedes-Benz|EQV": 3
 , "MG|ZS EV": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 2
 , "Peugeot|e-Expert": 1
 });
@@ -1066,6 +1070,7 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 7
 , "Volkswagen|e-up!": 5
 , "Peugeot|e-Expert": 5
+, "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Škoda|Citigo-e": 2
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
