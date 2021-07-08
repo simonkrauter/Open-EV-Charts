@@ -20,6 +20,7 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 4
 , "Nissan|e-NV200": 2
 , "Kia|Soul EV": 1
+, "other": 1
 });
 
 db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -36,6 +37,7 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 7
 , "Volkswagen|e-up!": 2
 , "Kia|Soul EV": 1
+, "other": 7
 });
 
 db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -54,6 +56,7 @@ db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Volvo|XC40 Recharge pure electric": 1
 , "Citroën|ë-C4": 1
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -70,6 +73,7 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 23
 , "Volkswagen|e-up!": 5
 , "Kia|Soul EV": 5
+, "other": 3
 });
 
 db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -88,6 +92,7 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 11
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|EQC": 1
+, "other": 4
 });
 
 db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -104,6 +109,7 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 19
 , "Nissan|e-NV200": 13
 , "Hyundai|Ioniq Electric": 13
+, "other": 11
 });
 
 db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -122,6 +128,7 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 16
 , "Jaguar|I-Pace": 9
 , "Volkswagen|e-up!": 7
+, "other": 2
 });
 
 db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -140,6 +147,7 @@ db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 14
 , "Nissan|e-NV200": 8
 , "Jaguar|I-Pace": 1
+, "other": 6
 });
 
 db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -158,6 +166,7 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 6
 , "Nissan|e-NV200": 4
 , "Volkswagen|e-up!": 1
+, "other": 6
 });
 
 db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -176,6 +185,7 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Kia|Soul EV": 6
 , "Hyundai|Kona Electric": 4
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -195,6 +205,7 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 17
 , "Volkswagen|e-up!": 7
 , "Nissan|e-NV200": 2
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -215,6 +226,7 @@ db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 10
 , "Hyundai|Kona Electric": 3
 , "Nissan|e-NV200": 2
+, "other": 4
 });
 
 db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -236,6 +248,7 @@ db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 8
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|EQV": 1
+, "other": 9
 });
 
 db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -258,6 +271,7 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 7
 , "Kia|Soul EV": 5
 , "Peugeot|iOn": 1
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -280,6 +294,7 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 8
 , "Nissan|e-NV200": 3
 , "Kia|Soul EV": 1
+, "other": 19
 });
 
 db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -303,6 +318,7 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 5
 , "Volkswagen|e-up!": 2
 , "Mercedes-Benz|EQC": 1
+, "other": 15
 });
 
 db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -326,6 +342,7 @@ db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 8
 , "Volkswagen|e-up!": 5
 , "Opel|Corsa-e": 1
+, "other": 14
 });
 
 db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -350,6 +367,7 @@ db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Peugeot|iOn": 3
 , "Fiat|500e": 1
+, "other": 17
 });
 
 db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -374,6 +392,7 @@ db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 3
 , "Nissan|e-NV200": 2
 , "Opel|Corsa-e": 1
+, "other": 12
 });
 
 db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -396,6 +415,7 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 10
 , "Volkswagen|e-up!": 9
 , "Nissan|e-NV200": 8
+, "other": 14
 });
 
 db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -419,6 +439,7 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 4
 , "Fiat|500e": 3
 , "Volkswagen|e-up!": 2
+, "other": 5
 });
 
 db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -442,6 +463,7 @@ db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Fiat|500e": 2
 , "Volkswagen|e-up!": 1
+, "other": 7
 });
 
 db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -463,6 +485,7 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 31
 , "Jaguar|I-Pace": 23
 , "Nissan|e-NV200": 2
+, "other": 5
 });
 
 db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -485,6 +508,7 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 8
 , "Kia|Soul EV": 5
 , "Nissan|e-NV200": 2
+, "other": 11
 });
 
 db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -508,6 +532,7 @@ db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 14
 , "Seat|Mii Electric": 5
 , "Nissan|e-NV200": 2
+, "other": 27
 });
 
 db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -532,6 +557,7 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 18
 , "Porsche|Taycan": 3
 , "Nissan|e-NV200": 3
+, "other": 26
 });
 
 db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -558,6 +584,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "other": 101
 });
 
 db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -584,6 +611,7 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 5
 , "Jaguar|I-Pace": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 62
 });
 
 db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -610,6 +638,7 @@ db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 6
 , "Škoda|Citigo-e": 5
 , "Honda|e": 4
+, "other": 15
 });
 
 db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -639,6 +668,7 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 5
 , "Volkswagen|e-Caddy": 1
 , "Nissan|e-NV200": 1
+, "other": 35
 });
 
 db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -671,6 +701,7 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 1
 , "Nissan|e-NV200": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 104
 });
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -701,6 +732,7 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 4
 , "Nissan|e-NV200": 4
 , "Volkswagen|e-Caddy": 1
+, "other": 91
 });
 
 db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -736,6 +768,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 3
 , "Volkswagen|e-Caddy": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 110
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -771,6 +804,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Volvo|XC40 Recharge pure electric": 1
 , "Seat|Mii Electric": 1
+, "other": 149
 });
 
 db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -805,6 +839,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 4
 , "Nissan|e-NV200": 3
 , "Peugeot|iOn": 1
+, "other": 166
 });
 
 db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -842,6 +877,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 3
 , "Nissan|e-NV200": 1
 , "Ford|Mustang Mach-E": 1
+, "other": 195
 });
 
 db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -874,6 +910,7 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Seat|Mii Electric": 1
 , "Mercedes-Benz|eVito": 1
+, "other": 67
 });
 
 db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -911,6 +948,7 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 56
 });
 
 db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -950,6 +988,7 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-C4": 1
+, "other": 100
 });
 
 db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -993,6 +1032,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
 , "Dacia|Spring": 1
+, "other": 285
 });
 
 db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1035,6 +1075,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 2
 , "Peugeot|e-Expert": 1
+, "other": 219
 });
 
 db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1078,4 +1119,5 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 2
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
+, "other": 430
 });
