@@ -557,6 +557,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 22
 , "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
 });
 
 db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -582,6 +583,7 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 7
 , "Nissan|e-NV200": 5
 , "Jaguar|I-Pace": 5
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -668,6 +670,7 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 2
 , "Tesla|Model Y": 1
 , "Nissan|e-NV200": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -732,6 +735,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 4
 , "Nissan|e-NV200": 3
 , "Volkswagen|e-Caddy": 2
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
