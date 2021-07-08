@@ -2450,6 +2450,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 
 db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2021/datosfebrerott.asp",
 { "Peugeot": 6172
+, "Seat": 4923
 , "Toyota": 4533
 , "Volkswagen": 4515
 , "Renault": 3746
@@ -2459,7 +2460,6 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Audi": 2629
 , "Hyundai": 2505
 , "Škoda": 2458
-, "Seat": 2421
 , "Mercedes-Benz": 2150
 , "Nissan": 2109
 , "Ford": 2035
@@ -2550,9 +2550,9 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Opel": 3528
 , "Ford": 3257
 , "Škoda": 3132
+, "BMW": 3108
 , "Dacia": 2756
 , "Jeep": 1613
-, "BMW": 1536
 , "Volvo": 1503
 , "Mazda": 1103
 , "Mini": 718
@@ -2764,17 +2764,17 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 118
 , "Seat|Mii Electric": 111
 , "Volkswagen|ID.4": 102
+, "Peugeot|e-2008": 92
 , "Citroën|ë-C4": 92
 , "Dacia|Spring": 91
 , "Mini|Cooper SE Electric": 90
 , "Kia|Niro EV": 85
-, "Peugeot|e-2008": 84
 , "Hyundai|Kona Electric": 81
 , "Smart|Fortwo ED": 76
 , "Peugeot|e-208": 63
 , "Škoda|Enyaq": 60
 , "Volkswagen|ID.3": 59
-, "Renault|Kangoo Z.E.": 56
+, "Renault|Kangoo Z.E.": 58
 , "Fiat|500e": 54
 , "Mercedes-Benz|EQA": 53
 , "Opel|Corsa-e": 46
