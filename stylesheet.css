@@ -208,6 +208,7 @@ a.button.removeButton:after {
 
 .sources {
   display: inline-block;
+  margin-top: 5px;
 }
 
 .sources > * {
@@ -241,10 +242,6 @@ a.button.removeButton:after {
   right: 0;
 }
 
-.tabButtons {
-  margin-bottom: 5px;
-}
-
 .tabButtons > * {
   display: inline-block;
   padding: 3px;
@@ -265,6 +262,7 @@ a.button.removeButton:after {
 table {
   border-collapse: collapse;
   margin: 2px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }

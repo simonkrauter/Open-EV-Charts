@@ -463,16 +463,18 @@ function formatValue(chartConfig, value) {
 
 function setGlobalChartOptions() {
   const bodyStyle = window.getComputedStyle(document.body);
-  Chart.defaults.global.defaultFontColor = bodyStyle["color"];
-  Chart.defaults.global.defaultFontFamily = bodyStyle["font-family"];
-  Chart.defaults.global.animation.duration = 0;
-  Chart.defaults.global.title.fontSize = 20;
-  Chart.defaults.global.legend.position = "bottom";
-  Chart.defaults.global.legend.labels.boxWidth = 12;
-  Chart.defaults.global.plugins.datalabels.color = "white";
-  Chart.defaults.global.elements.line.fill = false;
-  Chart.defaults.global.elements.line.borderWidth = 3.5;
-  Chart.defaults.global.elements.line.tension = 0.2;
+  Chart.defaults.color = bodyStyle["color"];
+  Chart.defaults.font.family = bodyStyle["font-family"];
+  Chart.defaults.animation.duration = 0;
+  Chart.defaults.plugins.title.font.size = 20;
+  Chart.defaults.plugins.legend.position = "bottom";
+  Chart.defaults.plugins.legend.labels.boxWidth = 12;
+  Chart.defaults.plugins.legend.labels.usePointStyle = true;
+  Chart.defaults.plugins.legend.labels.pointStyle = "rect";
+  Chart.defaults.plugins.datalabels = {};
+  Chart.defaults.plugins.datalabels.color = "white";
+  Chart.defaults.elements.line.borderWidth = 3.5;
+  Chart.defaults.elements.line.tension = 0.2;
 }
 
 function renderChartView(chartConfig, chartData, chartDiv, isExport) {
@@ -481,49 +483,49 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       datasets: []
     },
     options: {
-      title: {
-        display: isExport,
-        text: db.getChartTitle(chartConfig, isSingleChart)
-      },
       scales: {
-        xAxes: [{
-          gridLines: {
+        x: {
+          grid: {
             display: false
           },
           ticks: {
             autoSkip: false
           }
-        }],
-        yAxes: [{
+        },
+        y: {
+          beginAtZero: true,
           ticks: {
-            beginAtZero: true,
             precision: 0,
             padding: 8,
             callback: function(value, index, values) {
               return formatValue(chartConfig, value);
             }
           },
-          gridLines: {
+          grid: {
             drawBorder: false,
             color: "rgba(0, 0, 0, 0.15)"
           }
-        }]
-      },
-      tooltips: {
-        callbacks: {
-          label: function(tooltipItem, data) {
-            var label = data.datasets[tooltipItem.datasetIndex].label || '';
-            if (label)
-              label += ': ';
-            label += formatValue(chartConfig, tooltipItem.yLabel);
-            return label;
-          }
         }
       },
-      legend: {
-        display: chartData.series.length > 1 || chartData.series[0].name != "Value"
-      },
       plugins: {
+        title: {
+          display: isExport,
+          text: db.getChartTitle(chartConfig)
+        },
+        legend: {
+          display: chartData.series.length > 1 || chartData.series[0].name != "Value"
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              var label = context.dataset.label || '';
+              if (label)
+                label += ': ';
+              label += formatValue(chartConfig, context.parsed.y);
+              return label;
+            }
+          }
+        },
         datalabels: {
           display: false,
           formatter: function(value, context) {
@@ -531,19 +533,20 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           }
         }
       }
-    }
-  };
+    },
+    plugins: [ChartDataLabels]
+  }
 
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.type = "line";
   } else {
     chartOptions.type = "bar";
     if (db.isBarChartStacked(chartConfig)) {
-      chartOptions.options.scales.xAxes[0].stacked = true;
-      chartOptions.options.scales.yAxes[0].stacked = true;
+      chartOptions.options.scales.x.stacked = true;
+      chartOptions.options.scales.y.stacked = true;
     }
     if ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && !db.isSumPerSeries(chartConfig) && chartConfig.brand == db.brandOptions.all) {
-      chartOptions.options.scales.yAxes[0].ticks.max = 100;
+      chartOptions.options.scales.y.max = 100;
     }
     if (isSingleChart && window.innerWidth >= 1000) {
       chartOptions.options.plugins.datalabels.display = "auto";
