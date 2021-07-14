@@ -2146,7 +2146,7 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 397
 , "Volkswagen|ID.3": 391
 , "Volkswagen|ID.4": 372
-, "other": 3537
+, "other": 2668
 });
 
 db.insert(db.countries.FR, "2021-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/06/2021-05-vpfrance.pdf",
@@ -2199,5 +2199,5 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-2008": 405
 , "Mini|Cooper SE Electric": 395
 , "Volkswagen|ID.3": 365
-, "other": 2985
+, "other": 2329
 });
