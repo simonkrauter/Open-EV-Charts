@@ -564,8 +564,10 @@ db.insert(db.countries.DK, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 2
 , "Ford|Mustang Mach-E": 2
 , "Škoda|Citigo-e": 1
+, "Toyota|Proace Electric": 1
 , "Smart|Fortwo ED": 1
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
 , "Honda|e": 1
+, "other": 23
 });
