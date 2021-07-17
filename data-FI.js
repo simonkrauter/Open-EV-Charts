@@ -37,6 +37,7 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 , "Kia|Soul EV": 1
 , "BMW|i3 BEV": 1
+, "other": 3
 });
 
 db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190417_PRPC_1903_FINAL.pdf TODO: numbers per brand wanted",
@@ -135,6 +136,7 @@ db.insert(db.countries.FI, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 3
 , "Volkswagen|e-up!": 2
 , "Volkswagen|e-Golf": 2
+, "other": 4
 });
 
 db.insert(db.countries.FI, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190918_PRPC_1907-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -155,6 +157,7 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 3
 , "Nissan|e-NV200": 1
 , "Kia|Soul EV": 1
+, "other": 1
 });
 
 db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191016_PRPC_1909_FINAL.pdf TODO: numbers per brand wanted",
@@ -250,6 +253,7 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 2
 , "BMW|i3 BEV": 2
 , "Kia|Soul EV": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.FI, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf TODO: numbers per brand wanted",
@@ -273,6 +277,7 @@ db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 3
 , "Tesla|Model S": 2
 , "Porsche|Taycan": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "BMW|i3 BEV": 1
 });
 
@@ -347,7 +352,9 @@ db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 4
 , "Renault|Zoe": 3
 , "Audi|e-tron": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "BMW|i3 BEV": 1
+, "other": 2
 });
 
 db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
@@ -374,6 +381,7 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 2
 , "Mini|Cooper SE Electric": 1
 , "Jaguar|I-Pace": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.FI, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -488,6 +496,7 @@ db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "BMW|i3 BEV": 2
 , "Mazda|MX-30": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 });
 
 db.insert(db.countries.FI, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
@@ -513,6 +522,7 @@ db.insert(db.countries.FI, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 3
 , "Porsche|Taycan": 3
 , "Opel|Corsa-e": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Volvo|XC40 Recharge pure electric": 1
 , "Nissan|e-NV200": 1
 , "Mazda|MX-30": 1
@@ -553,6 +563,8 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 2
 , "Volkswagen|e-Golf": 1
 , "Nissan|e-NV200": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 1
 });
 
 db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
@@ -583,6 +595,7 @@ db.insert(db.countries.FI, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "Kia|Soul EV": 2
 , "Mercedes-Benz|EQV": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "BMW|iX3": 1
 });
 
@@ -648,6 +661,8 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 1
 , "Mini|Cooper SE Electric": 1
 , "Mercedes-Benz|EQA": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 14
 });
 
 db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
@@ -684,6 +699,7 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Lexus|UX 300e": 1
 , "Citroën|ë-Jumpy": 1
+, "other": 2
 });
 
 db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
@@ -723,5 +739,7 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Lexus|UX 300e": 1
 , "Jaguar|I-Pace": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-Jumpy": 1
+, "other": 4
 });
