@@ -27,6 +27,7 @@ db.insert(db.countries.DK, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Nissan|e-NV200": 1
 , "Aiways|U5": 1
+, "other": 3
 });
 
 db.insert(db.countries.DK, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf TODO: numbers per brand wanted",
@@ -51,6 +52,7 @@ db.insert(db.countries.DK, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Mercedes-Benz|EQC": 3
 , "Nissan|e-NV200": 1
+, "other": 5
 });
 
 db.insert(db.countries.DK, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
@@ -78,6 +80,7 @@ db.insert(db.countries.DK, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 1
 , "Jaguar|I-Pace": 1
 , "Honda|e": 1
+, "other": 11
 });
 
 db.insert(db.countries.DK, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
@@ -104,6 +107,7 @@ db.insert(db.countries.DK, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Mercedes-Benz|EQC": 1
 , "Jaguar|I-Pace": 1
+, "other": 47
 });
 
 db.insert(db.countries.DK, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
@@ -132,6 +136,7 @@ db.insert(db.countries.DK, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Honda|e": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 9
 });
 
 db.insert(db.countries.DK, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
@@ -160,6 +165,7 @@ db.insert(db.countries.DK, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Jaguar|I-Pace": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 9
 });
 
 db.insert(db.countries.DK, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -190,6 +196,7 @@ db.insert(db.countries.DK, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 , "Polestar|2": 1
 , "Jaguar|I-Pace": 1
+, "other": 11
 });
 
 db.insert(db.countries.DK, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -222,6 +229,7 @@ db.insert(db.countries.DK, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Mercedes-Benz|EQV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 46
 });
 
 db.insert(db.countries.DK, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
@@ -254,6 +262,7 @@ db.insert(db.countries.DK, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Jaguar|I-Pace": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 69
 });
 
 db.insert(db.countries.DK, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
@@ -290,6 +299,7 @@ db.insert(db.countries.DK, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 1
 , "Polestar|2": 1
 , "Mercedes-Benz|EQV": 1
+, "other": 44
 });
 
 db.insert(db.countries.DK, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
@@ -325,6 +335,7 @@ db.insert(db.countries.DK, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 1
 , "Opel|Corsa-e": 1
 , "Kia|Soul EV": 1
+, "other": 41
 });
 
 db.insert(db.countries.DK, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf TODO: numbers per brand wanted",
@@ -363,6 +374,7 @@ db.insert(db.countries.DK, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
 , "Ford|Mustang Mach-E": 1
+, "other": 64
 });
 
 db.insert(db.countries.DK, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
@@ -396,6 +408,7 @@ db.insert(db.countries.DK, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 , "Mercedes-Benz|eVito": 1
 , "Honda|e": 1
+, "other": 41
 });
 
 db.insert(db.countries.DK, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf TODO: numbers per brand wanted",
@@ -429,6 +442,7 @@ db.insert(db.countries.DK, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 2
 , "Polestar|2": 1
 , "Mazda|MX-30": 1
+, "other": 13
 });
 
 db.insert(db.countries.DK, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf TODO: numbers per brand wanted",
@@ -456,6 +470,7 @@ db.insert(db.countries.DK, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 23
 , "MG|ZS EV": 21
 , "Kia|Soul EV": 11
+, "Peugeot|e-Traveller": 10
 , "Opel|Corsa-e": 10
 , "Mazda|MX-30": 7
 , "Škoda|Citigo-e": 5
@@ -467,6 +482,7 @@ db.insert(db.countries.DK, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "BMW|i3 BEV": 1
+, "other": 58
 });
 
 db.insert(db.countries.DK, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
@@ -507,6 +523,7 @@ db.insert(db.countries.DK, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Jaguar|I-Pace": 1
 , "BMW|i3 BEV": 1
+, "other": 39
 });
 
 db.insert(db.countries.DK, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
