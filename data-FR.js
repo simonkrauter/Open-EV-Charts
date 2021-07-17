@@ -2201,3 +2201,22 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.3": 365
 , "other": 2329
 });
+
+db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
+{ "other": 199508
+});
+
+db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/162564483784c9d19d43d09c56f37dadbaa1fd1974-Barom%C3%A8tre_immatriculations_Avere-France_juillet_2021.pdf, https://cleantechnica.com/2021/07/13/record-month-for-electric-vehicles-in-france-tesla-model-3-firmly-at-1/",
+{ "Tesla|Model 3": 5001
+, "Renault|Zoe": 3349
+, "Peugeot|e-208": 1900
+, "Fiat|500e": 1413
+, "Renault|Twingo Z.E.": 961
+, "Volkswagen|ID.3": 722
+, "Kia|Niro EV": 715
+, "Peugeot|e-2008": 624
+, "Dacia|Spring": 556
+, "Seat|Mii Electric": 531
+, "Hyundai|Kona Electric": 494
+, "other": 4633
+});
