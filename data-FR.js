@@ -2202,8 +2202,43 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 2329
 });
 
-db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
-{ "other": 199508
+db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/07/2021-06-vpfrance.pdf",
+{ "Renault": 36734
+, "Peugeot": 29806
+, "Citroën": 18714
+, "Dacia": 14910
+, "Volkswagen": 14889
+, "Toyota": 11458
+, "Audi": 6788
+, "Fiat": 5829
+, "Hyundai": 5023
+, "Opel": 5006
+, "Tesla": 5002
+, "Mercedes-Benz": 4776
+, "Kia": 4568
+, "Ford": 4359
+, "BMW": 4344
+, "Škoda": 3711
+, "Seat": 3617
+, "DS Automobiles": 3461
+, "Suzuki": 2801
+, "Mini": 2389
+, "Nissan": 2196
+, "Volvo": 1791
+, "Jeep": 1725
+, "Mazda": 1164
+, "Lexus": 702
+, "Honda": 575
+, "Land Rover": 561
+, "Porsche": 459
+, "Alfa Romeo": 227
+, "Jaguar": 226
+, "Mitsubishi": 202
+, "Smart": 151
+, "Maserati": 12
+, "SsangYong": 8
+, "Subaru": 6
+, "other": 1318
 });
 
 db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/162564483784c9d19d43d09c56f37dadbaa1fd1974-Barom%C3%A8tre_immatriculations_Avere-France_juillet_2021.pdf, https://cleantechnica.com/2021/07/13/record-month-for-electric-vehicles-in-france-tesla-model-3-firmly-at-1/",
