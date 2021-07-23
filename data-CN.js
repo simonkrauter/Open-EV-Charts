@@ -912,3 +912,27 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Nio|ES6": 3019
 , "Weltmeister|EX5": 2375
 });
+
+db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1626.html TODO: numbers per brand wanted",
+{ "other": 1569000
+});
+
+db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
+{ "Wuling|Hongguang Mini EV": 29143
+, "Tesla|Model 3": 16514
+, "Tesla|Model Y": 11623
+, "Great Wall|Ora Black Cat": 6508
+, "Changan|Benni EV": 6358
+, "GAC|Aion S": 5916
+, "BYD|Han EV": 5802
+, "Chery|eQ": 5417
+, "Xiaopeng|Xpeng P7": 4730
+, "SAIC|Roewe Clever EV": 4403
+, "BYD|Qin Plus EV": 4272
+, "Leapmotor|T03": 4029
+, "BYD|e2": 3972
+, "Nio|ES6": 3755
+, "Pocco|MeiMei": 3658
+, "Hozon|Neta V EV": 3533
+, "Dongfeng|Fengshen E70 EV": 3427
+});
