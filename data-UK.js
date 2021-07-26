@@ -853,3 +853,94 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Citroën|ë-SpaceTourer": 2
 , "Lexus|UX 300e": 1
 });
+
+db.insert(db.countries.UK, "q2021-1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/985637/veh0160.ods (per quarter)",
+{ "Volkswagen": 36764
+, "Ford": 36496
+, "BMW": 32221
+, "Mercedes-Benz": 32076
+, "Audi": 29573
+, "Toyota": 25865
+, "Vauxhall": 25010
+, "Nissan": 22016
+, "Land Rover": 20849
+, "Kia": 20195
+, "Peugeot": 15887
+, "Škoda": 14389
+, "Volvo": 14115
+, "Hyundai": 13497
+, "Seat": 11514
+, "Mini": 10786
+, "Citroën": 8652
+, "Renault": 8143
+, "Tesla": 7234
+, "MG": 6220
+, "Mazda": 5444
+, "Jaguar": 5312
+, "Honda": 4906
+, "Suzuki": 3907
+, "Lexus": 3417
+, "Fiat": 3395
+, "Dacia": 3267
+, "Porsche": 3061
+, "Mitsubishi": 1990
+, "Polestar": 922
+, "Jeep": 915
+, "Abarth": 520
+, "Subaru": 480
+, "DS Automobiles": 416
+, "Smart": 402
+, "Alfa Romeo": 376
+, "SsangYong": 241
+, "Maserati": 158
+, "Dodge": 75
+, "Chevrolet": 48
+, "Opel": 23
+, "Lincoln": 20
+, "Chrysler": 20
+, "Cadillac": 15
+, "Buick": 9
+, "Acura": 2
+, "other": 2996
+});
+
+db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/985637/veh0160.ods (per quarter)",
+{ "Tesla|Model 3": 7164
+, "Kia|Niro EV": 3268
+, "Nissan|Leaf": 2293
+, "Audi|e-tron": 1500
+, "MG|ZS EV": 1191
+, "Peugeot|e-2008": 1155
+, "Hyundai|Kona Electric": 1094
+, "Mercedes-Benz|EQC": 1059
+, "Peugeot|e-208": 968
+, "Hyundai|Ioniq Electric": 935
+, "Porsche|Taycan": 896
+, "MG|MG5 EV": 874
+, "Volkswagen|ID.3": 778
+, "BMW|i3 BEV": 768
+, "Jaguar|I-Pace": 740
+, "Renault|Zoe": 626
+, "Volkswagen|ID.4": 480
+, "Mazda|MX-30": 264
+, "Citroën|ë-C4": 230
+, "Kia|Soul EV": 217
+, "Seat|Mii Electric": 210
+, "Mercedes-Benz|EQA": 194
+, "Nissan|e-NV200": 177
+, "DS Automobiles|DS 3 Crossback E-Tense": 139
+, "Lexus|UX 300e": 117
+, "Honda|e": 95
+, "Tesla|Model X": 50
+, "Volkswagen|e-Golf": 45
+, "Mercedes-Benz|EQV": 40
+, "Škoda|Citigo-e": 33
+, "Mercedes-Benz|eVito": 29
+, "Peugeot|e-Traveller": 21
+, "Tesla|Model S": 18
+, "Volkswagen|e-up!": 16
+, "Audi|e-tron GT": 3
+, "Ford|Mustang Mach-E": 2
+, "Citroën|ë-SpaceTourer": 2
+, "Tesla|Roadster": 1
+});
