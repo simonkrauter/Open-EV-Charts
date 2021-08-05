@@ -2815,8 +2815,8 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 14
 , "Opel|Vivaro-e": 13
 , "Lexus|UX 300e": 13
+, "Citroën|ë-Jumpy": 12
 , "Toyota|Proace Electric": 10
-, "Citroën|ë-Jumpy": 10
 , "Smart|Forfour ED": 9
 , "Kia|Soul EV": 8
 , "Hyundai|Ioniq Electric": 8
@@ -2837,7 +2837,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 2
 , "Mercedes-Benz|eSprinter": 1
 , "Cupra|Born": 1
-, "other": 20
+, "other": 18
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuniotur.asp, https://www.km77.com/mercado/espana/2021/datosjuniott.asp",
