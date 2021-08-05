@@ -1023,6 +1023,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 13
 , "Tesla|Model 3": 11
 , "Škoda|Citigo-e": 9
+, "Toyota|Proace Electric": 7
 , "Honda|e": 7
 , "Jaguar|I-Pace": 6
 , "Volkswagen|e-Golf": 3
@@ -1032,7 +1033,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
 , "Dacia|Spring": 1
-, "other": 285
+, "other": 278
 });
 
 db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1073,9 +1074,10 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 3
 , "MG|ZS EV": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Toyota|Proace Electric": 2
 , "Nissan|e-NV200": 2
 , "Peugeot|e-Expert": 1
-, "other": 219
+, "other": 217
 });
 
 db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1114,10 +1116,12 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 14
 , "Mercedes-Benz|EQV": 7
 , "Volkswagen|e-up!": 5
+, "Toyota|Proace Electric": 5
 , "Peugeot|e-Expert": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Škoda|Citigo-e": 2
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
-, "other": 430
+, "other": 425
+});
 });
