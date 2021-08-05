@@ -2888,3 +2888,93 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 105
 });
 
+db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/juli/",
+{ "Kia": 2782
+, "Volkswagen": 2636
+, "Toyota": 2139
+, "Škoda": 1679
+, "BMW": 1632
+, "Peugeot": 1555
+, "Opel": 1449
+, "Ford": 1436
+, "Hyundai": 1275
+, "Audi": 1183
+, "Renault": 1142
+, "Mercedes-Benz": 1142
+, "Volvo": 1099
+, "Citroën": 871
+, "Seat": 706
+, "Nissan": 529
+, "Mazda": 525
+, "Mini": 481
+, "Suzuki": 450
+, "Dacia": 448
+, "Fiat": 317
+, "Mitsubishi": 291
+, "Porsche": 143
+, "Jeep": 77
+, "Land Rover": 69
+, "Polestar": 61
+, "Honda": 54
+, "Lexus": 38
+, "MG": 35
+, "DS Automobiles": 32
+, "Alfa Romeo": 22
+, "Jaguar": 15
+, "Smart": 14
+, "Subaru": 8
+, "Aiways": 7
+, "Tesla": 3
+, "Maserati": 2
+, "other": 536
+});
+
+db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/7",
+{ "Kia|Niro EV": 762
+, "Ford|Mustang Mach-E": 643
+, "Škoda|Enyaq": 408
+, "Volkswagen|ID.4": 235
+, "Nissan|Leaf": 185
+, "Mercedes-Benz|EQA": 165
+, "BMW|iX3": 163
+, "Volvo|XC40 Recharge pure electric": 128
+, "Peugeot|e-2008": 106
+, "Hyundai|Ioniq 5": 96
+, "Opel|Mokka-e": 86
+, "Renault|Zoe": 85
+, "Peugeot|e-208": 82
+, "Opel|Corsa-e": 79
+, "Audi|Q4 e-tron": 77
+, "Mini|Cooper SE Electric": 67
+, "Polestar|2": 60
+, "Mazda|MX-30": 57
+, "Seat|Mii Electric": 52
+, "Volkswagen|ID.3": 51
+, "Porsche|Taycan": 48
+, "Fiat|500e": 47
+, "Kia|Soul EV": 42
+, "Citroën|ë-Jumpy": 38
+, "Citroën|ë-C4": 30
+, "Toyota|Proace Electric": 29
+, "Audi|e-tron GT": 27
+, "Audi|e-tron": 21
+, "BMW|i3 BEV": 17
+, "Dacia|Spring": 15
+, "Mercedes-Benz|EQC": 14
+, "Hyundai|Ioniq Electric": 14
+, "Smart|Forfour ED": 12
+, "DS Automobiles|DS 3 Crossback E-Tense": 11
+, "Hyundai|Kona Electric": 10
+, "Mercedes-Benz|eVito": 8
+, "Aiways|U5": 7
+, "Renault|Twingo Z.E.": 5
+, "Nissan|e-NV200": 4
+, "Mercedes-Benz|EQV": 3
+, "MG|ZS EV": 3
+, "Smart|Fortwo ED": 2
+, "Škoda|Citigo-e": 1
+, "Peugeot|e-Expert": 1
+, "Lexus|UX 300e": 1
+, "Honda|e": 1
+, "other": 95
+});
