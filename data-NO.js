@@ -2499,6 +2499,84 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 119
 });
 
+db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Ford": 1091
+, "Volkswagen": 1031
+, "Toyota": 992
+, "Hyundai": 886
+, "Volvo": 877
+, "BMW": 825
+, "Škoda": 725
+, "Audi": 713
+, "Mercedes-Benz": 579
+, "Peugeot": 368
+, "Kia": 336
+, "Nissan": 261
+, "MG": 243
+, "Opel": 206
+, "Mazda": 171
+, "Polestar": 152
+, "Citroën": 137
+, "Suzuki": 124
+, "Mitsubishi": 115
+, "Tesla": 4
+});
+
+db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7",
+{ "Ford|Mustang Mach-E": 898
+, "Škoda|Enyaq": 558
+, "Volkswagen|ID.4": 439
+, "Hyundai|Ioniq 5": 432
+, "BMW|iX3": 340
+, "Audi|e-tron": 317
+, "Mercedes-Benz|EQC": 309
+, "Volvo|XC40 Recharge pure electric": 289
+, "Nissan|Leaf": 237
+, "Audi|Q4 e-tron": 237
+, "Volkswagen|ID.3": 234
+, "MG|ZS EV": 233
+, "Hyundai|Kona Electric": 220
+, "Kia|Niro EV": 157
+, "Polestar|2": 150
+, "Hyundai|Ioniq Electric": 136
+, "BMW|i3 BEV": 134
+, "Peugeot|e-2008": 132
+, "Opel|Mokka-e": 119
+, "Kia|Soul EV": 114
+, "Audi|e-tron GT": 114
+, "Citroën|ë-C4": 111
+, "Peugeot|e-208": 99
+, "Mercedes-Benz|EQA": 99
+, "Toyota|Proace Electric": 81
+, "Mazda|MX-30": 81
+, "Lexus|UX 300e": 75
+, "Renault|Zoe": 63
+, "Porsche|Taycan": 58
+, "Jaguar|I-Pace": 56
+, "Fiat|500e": 55
+, "Škoda|Citigo-e": 48
+, "Peugeot|e-Expert": 39
+, "Xiaopeng|Xpeng G3": 31
+, "Opel|Corsa-e": 30
+, "Nissan|e-NV200": 27
+, "Mini|Cooper SE Electric": 26
+, "Opel|Vivaro-e": 21
+, "Citroën|ë-Jumpy": 16
+, "Opel|Zafira-e": 12
+, "Peugeot|e-Traveller": 11
+, "Honda|e": 11
+, "Mercedes-Benz|EQV": 10
+, "Renault|Kangoo Z.E.": 6
+, "Volkswagen|e-Crafter": 5
+, "Tesla|Model 3": 4
+, "Volkswagen|e-up!": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Nio|ES8": 2
+, "Mercedes-Benz|eVito": 1
+, "Maxus|EV80": 1
+, "other": 41
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2522,4 +2600,5 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Ford":
 // , "Mitsubishi":
 // , "Opel":
+// , "Citroën":
 // });
