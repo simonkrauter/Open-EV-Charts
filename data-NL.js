@@ -2836,10 +2836,10 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
-{ "Škoda|Enyaq": 878
+{ "Škoda|Enyaq": 885
 , "Kia|Niro EV": 615
 , "Ford|Mustang Mach-E": 550
-, "Tesla|Model 3": 475
+, "Tesla|Model 3": 476
 , "Volkswagen|ID.4": 402
 , "Renault|Zoe": 399
 , "BMW|iX3": 344
@@ -2862,9 +2862,9 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 46
 , "Seat|Mii Electric": 45
 , "Opel|Mokka-e": 45
-, "Audi|e-tron GT": 36
-, "Audi|e-tron": 35
-, "Porsche|Taycan": 27
+, "Audi|e-tron GT": 39
+, "Audi|e-tron": 36
+, "Porsche|Taycan": 28
 , "Toyota|Proace Electric": 25
 , "Volkswagen|ID.3": 24
 , "Mazda|MX-30": 21
