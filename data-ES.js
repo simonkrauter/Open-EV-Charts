@@ -2151,7 +2151,7 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 6
 , "Peugeot|Partner Electric": 5
 , "Citroën|ë-C4": 4
-, "Cupra|el-Born": 1
+, "Cupra|Born": 1
 , "other": 1
 });
 
@@ -2304,7 +2304,7 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 6
 , "Citroën|ë-SpaceTourer": 5
 , "Tesla|Model X": 4
-, "Cupra|el-Born": 4
+, "Cupra|Born": 4
 , "Fiat|500e": 2
 , "Renault|Twingo Z.E.": 1
 , "Citroën|Berlingo Electric": 1
@@ -2650,7 +2650,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 1
 , "Maxus|EV80": 1
 , "Dacia|Spring": 1
-, "Cupra|el-Born": 1
+, "Cupra|Born": 1
 , "other": 13
 });
 
@@ -2742,7 +2742,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Caddy": 1
 , "Tesla|Model X": 1
 , "Mazda|MX-30": 1
-, "Cupra|el-Born": 1
+, "Cupra|Born": 1
 , "other": 21
 });
 
@@ -2836,7 +2836,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 2
 , "Audi|e-tron GT": 2
 , "Mercedes-Benz|eSprinter": 1
-, "Cupra|el-Born": 1
+, "Cupra|Born": 1
 , "other": 20
 });
 
