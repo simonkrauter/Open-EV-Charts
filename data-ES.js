@@ -2933,3 +2933,99 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 23
 });
 
+db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuliotur.asp, https://www.km77.com/mercado/espana/2021/datosjuliott.asp",
+{ "Seat": 8066
+, "Volkswagen": 6859
+, "Kia": 6456
+, "Toyota": 6386
+, "Hyundai": 5523
+, "Peugeot": 5479
+, "Citroën": 4703
+, "Opel": 4416
+, "Dacia": 3910
+, "Renault": 3857
+, "BMW": 3469
+, "Škoda": 3011
+, "Audi": 2998
+, "Mercedes-Benz": 2829
+, "Ford": 2167
+, "Fiat": 2136
+, "Nissan": 2049
+, "Volvo": 1554
+, "Jeep": 1310
+, "Mazda": 1279
+, "Mini": 848
+, "Lexus": 704
+, "Suzuki": 612
+, "DS Automobiles": 386
+, "Land Rover": 337
+, "Mitsubishi": 330
+, "Honda": 311
+, "Porsche": 231
+, "SsangYong": 228
+, "Alfa Romeo": 156
+, "Jaguar": 143
+, "Subaru": 137
+, "MG": 107
+, "Smart": 74
+, "Maserati": 23
+, "Tesla": 1
+, "other": 815
+});
+
+db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/7",
+{ "Kia|Niro EV": 162
+, "Mercedes-Benz|eVito": 129
+, "Volkswagen|ID.4": 99
+, "Hyundai|Kona Electric": 96
+, "Renault|Zoe": 94
+, "Fiat|500e": 90
+, "Volkswagen|ID.3": 88
+, "Mercedes-Benz|EQA": 72
+, "Renault|Kangoo Z.E.": 70
+, "Ford|Mustang Mach-E": 65
+, "Mini|Cooper SE Electric": 64
+, "Peugeot|e-2008": 48
+, "Opel|Corsa-e": 48
+, "Peugeot|e-208": 45
+, "BMW|i3 BEV": 45
+, "Smart|Fortwo ED": 40
+, "Volvo|XC40 Recharge pure electric": 39
+, "Opel|Mokka-e": 39
+, "Citroën|ë-C4": 39
+, "Nissan|e-NV200": 37
+, "Škoda|Enyaq": 35
+, "Smart|Forfour ED": 34
+, "Renault|Twingo Z.E.": 33
+, "Nissan|Leaf": 33
+, "Porsche|Taycan": 31
+, "Hyundai|Ioniq 5": 29
+, "Seat|Mii Electric": 27
+, "Mazda|MX-30": 25
+, "Volkswagen|e-Caddy": 22
+, "Toyota|Proace Electric": 19
+, "MG|ZS EV": 19
+, "Peugeot|e-Expert": 15
+, "Audi|Q4 e-tron": 15
+, "Kia|Soul EV": 14
+, "BMW|iX3": 14
+, "Hyundai|Ioniq Electric": 13
+, "Mercedes-Benz|EQC": 10
+, "Audi|e-tron GT": 9
+, "Volkswagen|e-up!": 8
+, "Jaguar|I-Pace": 6
+, "Cupra|Born": 5
+, "Audi|e-tron": 5
+, "Peugeot|e-Traveller": 4
+, "Lexus|UX 300e": 4
+, "DS Automobiles|DS 3 Crossback E-Tense": 4
+, "Volkswagen|e-Crafter": 3
+, "Mercedes-Benz|EQV": 3
+, "Dacia|Spring": 3
+, "Mercedes-Benz|eSprinter": 2
+, "Honda|e": 2
+, "Škoda|Citigo-e": 1
+, "Tesla|Model 3": 1
+, "Citroën|ë-Jumpy": 1
+, "other": 48
+});
