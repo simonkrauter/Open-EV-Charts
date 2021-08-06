@@ -3292,7 +3292,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 115
 , "Maserati": 90
 , "Cadillac": 5
-, "other": 2262
+, "other": 2062
 });
 
 db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=7",
