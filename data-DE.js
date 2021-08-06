@@ -4,6 +4,761 @@
 
 db.addCountry("DE", "Germany");
 
+db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=17",
+{ "Volkswagen": 49535
+, "Mercedes-Benz": 24372
+, "Audi": 21668
+, "BMW": 20387
+, "Opel": 17287
+, "Ford": 15841
+, "Škoda": 12712
+, "Renault": 7847
+, "Hyundai": 6379
+, "Seat": 6224
+, "Fiat": 5147
+, "Toyota": 5071
+, "Mazda": 4974
+, "Nissan": 4948
+, "Dacia": 4485
+, "Peugeot": 4345
+, "Kia": 3691
+, "Citroën": 3481
+, "Mitsubishi": 3124
+, "Mini": 3086
+, "Smart": 2487
+, "Volvo": 2283
+, "Suzuki": 2174
+, "Porsche": 2077
+, "Land Rover": 1655
+, "Honda": 1464
+, "Jeep": 850
+, "Jaguar": 689
+, "Subaru": 538
+, "Lexus": 315
+, "SsangYong": 289
+, "Alfa Romeo": 275
+, "DS Automobiles": 229
+, "Maserati": 167
+, "Tesla": 151
+, "Infiniti": 89
+, "Chevrolet": 80
+, "Cadillac": 40
+, "other": 943
+});
+
+db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=17",
+{ "BMW|i3 BEV": 244
+, "Renault|Zoe": 180
+, "Kia|Soul EV": 177
+, "Nissan|Leaf": 115
+, "Tesla|Model S": 96
+, "Volkswagen|e-up!": 93
+, "Mercedes-Benz|B-Klasse ED": 68
+, "Tesla|Model X": 55
+, "Peugeot|iOn": 54
+, "Hyundai|Ioniq Electric": 29
+, "Volkswagen|e-Golf": 21
+, "Nissan|e-NV200": 21
+, "Citroën|C-Zero": 18
+, "Opel|Ampera-e": 13
+, "Smart|Fortwo ED": 2
+, "other": 137
+});
+
+db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=8",
+{ "Volkswagen": 42557
+, "Audi": 24377
+, "Mercedes-Benz": 21765
+, "Opel": 18016
+, "Ford": 17934
+, "BMW": 17797
+, "Škoda": 14053
+, "Renault": 8769
+, "Hyundai": 7197
+, "Nissan": 6390
+, "Seat": 6328
+, "Toyota": 6272
+, "Fiat": 5512
+, "Mazda": 4919
+, "Kia": 4776
+, "Peugeot": 4216
+, "Citroën": 3852
+, "Dacia": 3804
+, "Suzuki": 3399
+, "Mitsubishi": 3343
+, "Mini": 2731
+, "Honda": 2383
+, "Porsche": 2285
+, "Smart": 2182
+, "Volvo": 2176
+, "Land Rover": 1587
+, "Jeep": 1033
+, "Subaru": 610
+, "Jaguar": 604
+, "Alfa Romeo": 430
+, "SsangYong": 283
+, "Lexus": 203
+, "Tesla": 202
+, "DS Automobiles": 185
+, "Maserati": 152
+, "Infiniti": 92
+, "Chevrolet": 44
+, "Cadillac": 40
+, "other": 1104
+});
+
+db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=8",
+{ "Renault|Zoe": 431
+, "Kia|Soul EV": 282
+, "BMW|i3 BEV": 168
+, "Tesla|Model S": 163
+, "Nissan|Leaf": 117
+, "Volkswagen|e-up!": 102
+, "Mercedes-Benz|B-Klasse ED": 61
+, "Tesla|Model X": 39
+, "Peugeot|iOn": 39
+, "Volkswagen|e-Golf": 29
+, "Citroën|C-Zero": 25
+, "Opel|Ampera-e": 15
+, "Nissan|e-NV200": 14
+, "Hyundai|Ioniq Electric": 12
+, "Mitsubishi|i-MiEV": 5
+, "Ford|Focus Electric": 5
+, "Smart|Fortwo ED": 1
+, "other": 38
+});
+
+db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=8",
+{ "Volkswagen": 63384
+, "Mercedes-Benz": 31256
+, "Audi": 29426
+, "BMW": 27787
+, "Opel": 27597
+, "Ford": 27219
+, "Škoda": 18832
+, "Renault": 15305
+, "Seat": 10958
+, "Hyundai": 10553
+, "Fiat": 9954
+, "Toyota": 9000
+, "Nissan": 8503
+, "Mazda": 7437
+, "Peugeot": 6561
+, "Citroën": 6210
+, "Kia": 5757
+, "Dacia": 5755
+, "Volvo": 4681
+, "Mitsubishi": 4494
+, "Mini": 4463
+, "Suzuki": 3828
+, "Porsche": 3493
+, "Smart": 3155
+, "Land Rover": 2897
+, "Honda": 2518
+, "Jaguar": 1511
+, "Jeep": 1484
+, "Subaru": 914
+, "Tesla": 670
+, "Alfa Romeo": 623
+, "DS Automobiles": 559
+, "Lexus": 351
+, "SsangYong": 309
+, "Maserati": 195
+, "Infiniti": 134
+, "Chevrolet": 65
+, "Cadillac": 32
+, "other": 1813
+});
+
+db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=8",
+{ "Renault|Zoe": 587
+, "Tesla|Model S": 457
+, "BMW|i3 BEV": 263
+, "Tesla|Model X": 213
+, "Nissan|Leaf": 145
+, "Volkswagen|e-up!": 127
+, "Kia|Soul EV": 97
+, "Mercedes-Benz|B-Klasse ED": 85
+, "Volkswagen|e-Golf": 45
+, "Opel|Ampera-e": 40
+, "Peugeot|iOn": 29
+, "Nissan|e-NV200": 27
+, "Hyundai|Ioniq Electric": 27
+, "Citroën|C-Zero": 17
+, "Smart|Fortwo ED": 7
+, "Mitsubishi|i-MiEV": 5
+, "other": 20
+});
+
+db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=15",
+{ "Volkswagen": 56506
+, "Mercedes-Benz": 27029
+, "Audi": 26781
+, "Ford": 21410
+, "BMW": 20114
+, "Opel": 19350
+, "Škoda": 15181
+, "Renault": 11289
+, "Fiat": 10572
+, "Hyundai": 8395
+, "Seat": 8104
+, "Toyota": 6622
+, "Dacia": 5269
+, "Kia": 5239
+, "Nissan": 4866
+, "Peugeot": 4828
+, "Citroën": 4338
+, "Mini": 3954
+, "Mitsubishi": 3933
+, "Suzuki": 3083
+, "Volvo": 3060
+, "Smart": 2938
+, "Porsche": 2906
+, "Land Rover": 2561
+, "Honda": 1500
+, "Jeep": 1281
+, "Jaguar": 965
+, "Subaru": 727
+, "Alfa Romeo": 610
+, "DS Automobiles": 243
+, "SsangYong": 229
+, "Lexus": 216
+, "Tesla": 197
+, "Infiniti": 153
+, "Maserati": 128
+, "Chevrolet": 63
+, "Cadillac": 13
+, "other": 6044
+});
+
+db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=15",
+{ "Renault|Zoe": 280
+, "Kia|Soul EV": 223
+, "BMW|i3 BEV": 222
+, "Volkswagen|e-Golf": 128
+, "Tesla|Model S": 124
+, "Mercedes-Benz|B-Klasse ED": 123
+, "Tesla|Model X": 73
+, "Hyundai|Ioniq Electric": 73
+, "Volkswagen|e-up!": 69
+, "Nissan|Leaf": 35
+, "Peugeot|iOn": 20
+, "Citroën|C-Zero": 16
+, "Nissan|e-NV200": 4
+, "Opel|Ampera-e": 3
+, "Ford|Focus Electric": 1
+, "other": 19
+});
+
+db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=6",
+{ "Volkswagen": 60339
+, "Mercedes-Benz": 31392
+, "Audi": 27080
+, "Ford": 23579
+, "BMW": 22610
+, "Opel": 22093
+, "Škoda": 18544
+, "Renault": 11817
+, "Fiat": 10635
+, "Hyundai": 10142
+, "Seat": 9563
+, "Toyota": 7608
+, "Dacia": 6785
+, "Nissan": 6294
+, "Peugeot": 5933
+, "Kia": 5918
+, "Mazda": 5879
+, "Citroën": 5002
+, "Mitsubishi": 4756
+, "Mini": 4466
+, "Volvo": 3720
+, "Smart": 3269
+, "Suzuki": 3143
+, "Porsche": 3129
+, "Land Rover": 2116
+, "Honda": 1736
+, "Jeep": 1146
+, "Jaguar": 935
+, "Subaru": 585
+, "Alfa Romeo": 570
+, "Tesla": 322
+, "Lexus": 314
+, "SsangYong": 292
+, "DS Automobiles": 272
+, "Maserati": 169
+, "Chevrolet": 169
+, "Infiniti": 118
+, "Cadillac": 62
+, "other": 1450
+});
+
+db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=6",
+{ "Renault|Zoe": 271
+, "Tesla|Model S": 206
+, "BMW|i3 BEV": 201
+, "Volkswagen|e-Golf": 132
+, "Hyundai|Ioniq Electric": 130
+, "Tesla|Model X": 116
+, "Kia|Soul EV": 108
+, "Volkswagen|e-up!": 96
+, "Nissan|Leaf": 68
+, "Mercedes-Benz|B-Klasse ED": 46
+, "Smart|Fortwo ED": 34
+, "Citroën|C-Zero": 25
+, "Peugeot|iOn": 20
+, "Nissan|e-NV200": 14
+, "Ford|Focus Electric": 12
+, "Smart|Forfour ED": 5
+, "Opel|Ampera-e": 2
+, "Mitsubishi|i-MiEV": 1
+, "other": 33
+});
+
+db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=4",
+{ "Volkswagen": 60555
+, "Mercedes-Benz": 31394
+, "Audi": 25153
+, "Opel": 23283
+, "BMW": 22713
+, "Ford": 22398
+, "Škoda": 19515
+, "Renault": 15679
+, "Seat": 11608
+, "Hyundai": 10509
+, "Fiat": 9108
+, "Toyota": 7405
+, "Peugeot": 6618
+, "Mazda": 6428
+, "Kia": 5777
+, "Citroën": 5448
+, "Nissan": 5386
+, "Dacia": 5355
+, "Mitsubishi": 5086
+, "Mini": 4754
+, "Volvo": 4036
+, "Suzuki": 3619
+, "Smart": 3413
+, "Porsche": 2628
+, "Land Rover": 2099
+, "Honda": 1531
+, "Jeep": 1172
+, "Jaguar": 754
+, "Alfa Romeo": 617
+, "Subaru": 603
+, "Tesla": 353
+, "SsangYong": 284
+, "Lexus": 228
+, "DS Automobiles": 228
+, "Maserati": 227
+, "Chevrolet": 165
+, "Infiniti": 119
+, "Cadillac": 63
+, "other": 1382
+});
+
+db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=4",
+{ "Renault|Zoe": 680
+, "Smart|Fortwo ED": 231
+, "BMW|i3 BEV": 219
+, "Tesla|Model S": 217
+, "Volkswagen|e-Golf": 177
+, "Tesla|Model X": 136
+, "Smart|Forfour ED": 134
+, "Kia|Soul EV": 104
+, "Volkswagen|e-up!": 81
+, "Hyundai|Ioniq Electric": 63
+, "Nissan|Leaf": 41
+, "Mercedes-Benz|B-Klasse ED": 33
+, "Citroën|C-Zero": 21
+, "Nissan|e-NV200": 15
+, "Peugeot|iOn": 10
+, "Opel|Ampera-e": 3
+, "Mitsubishi|i-MiEV": 3
+, "other": 28
+});
+
+db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=4",
+{ "Volkswagen": 49468
+, "Mercedes-Benz": 30046
+, "Audi": 26453
+, "BMW": 21416
+, "Ford": 20119
+, "Opel": 19430
+, "Škoda": 13770
+, "Renault": 11230
+, "Hyundai": 9057
+, "Seat": 8122
+, "Fiat": 7126
+, "Toyota": 6497
+, "Kia": 6257
+, "Peugeot": 5652
+, "Dacia": 5581
+, "Mazda": 5014
+, "Nissan": 4976
+, "Citroën": 4892
+, "Mini": 3865
+, "Mitsubishi": 3811
+, "Volvo": 3168
+, "Smart": 2982
+, "Suzuki": 2835
+, "Porsche": 2520
+, "Land Rover": 2038
+, "Honda": 1368
+, "Jeep": 982
+, "Alfa Romeo": 732
+, "Jaguar": 596
+, "Subaru": 457
+, "DS Automobiles": 267
+, "SsangYong": 252
+, "Tesla": 180
+, "Lexus": 165
+, "Chevrolet": 154
+, "Maserati": 139
+, "Infiniti": 90
+, "Cadillac": 62
+, "other": 1311
+});
+
+db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=4",
+{ "Renault|Zoe": 413
+, "Kia|Soul EV": 365
+, "BMW|i3 BEV": 205
+, "Smart|Fortwo ED": 134
+, "Volkswagen|e-Golf": 113
+, "Tesla|Model S": 102
+, "Hyundai|Ioniq Electric": 93
+, "Volkswagen|e-up!": 90
+, "Tesla|Model X": 78
+, "Nissan|Leaf": 44
+, "Mercedes-Benz|B-Klasse ED": 41
+, "Nissan|e-NV200": 25
+, "Smart|Forfour ED": 20
+, "Citroën|C-Zero": 20
+, "Peugeot|iOn": 18
+, "Ford|Focus Electric": 13
+, "Opel|Ampera-e": 1
+, "other": 45
+});
+
+db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=7",
+{ "Volkswagen": 43531
+, "Mercedes-Benz": 26679
+, "Audi": 19406
+, "BMW": 18713
+, "Opel": 18579
+, "Ford": 16586
+, "Škoda": 14624
+, "Seat": 8934
+, "Renault": 8848
+, "Hyundai": 8683
+, "Dacia": 6437
+, "Fiat": 6167
+, "Toyota": 6028
+, "Nissan": 5980
+, "Mazda": 5392
+, "Kia": 5302
+, "Peugeot": 4536
+, "Citroën": 3921
+, "Mitsubishi": 3512
+, "Suzuki": 3404
+, "Mini": 3152
+, "Smart": 2382
+, "Volvo": 2242
+, "Porsche": 1966
+, "Land Rover": 1756
+, "Honda": 1723
+, "Jeep": 985
+, "Jaguar": 639
+, "Alfa Romeo": 502
+, "Subaru": 458
+, "DS Automobiles": 322
+, "SsangYong": 282
+, "Lexus": 203
+, "Tesla": 198
+, "Maserati": 122
+, "Infiniti": 112
+, "Chevrolet": 90
+, "Cadillac": 33
+, "other": 1251
+});
+
+db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=7",
+{ "Volkswagen|e-Golf": 475
+, "Renault|Zoe": 423
+, "Kia|Soul EV": 372
+, "Smart|Fortwo ED": 180
+, "BMW|i3 BEV": 173
+, "Tesla|Model S": 120
+, "Tesla|Model X": 78
+, "Volkswagen|e-up!": 64
+, "Nissan|Leaf": 63
+, "Smart|Forfour ED": 52
+, "Hyundai|Ioniq Electric": 43
+, "Mercedes-Benz|B-Klasse ED": 29
+, "Nissan|e-NV200": 21
+, "Peugeot|iOn": 18
+, "Opel|Ampera-e": 14
+, "Citroën|C-Zero": 11
+, "Mitsubishi|i-MiEV": 2
+, "Ford|Focus Electric": 2
+, "other": 37
+});
+
+db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=4",
+{ "Volkswagen": 53268
+, "Mercedes-Benz": 28139
+, "BMW": 24812
+, "Opel": 21764
+, "Audi": 20614
+, "Škoda": 19484
+, "Ford": 18122
+, "Hyundai": 10889
+, "Renault": 9037
+, "Seat": 8497
+, "Toyota": 7449
+, "Mazda": 6886
+, "Fiat": 6411
+, "Nissan": 6051
+, "Kia": 5627
+, "Peugeot": 4722
+, "Mini": 4482
+, "Dacia": 4220
+, "Volvo": 3720
+, "Citroën": 3704
+, "Suzuki": 3669
+, "Mitsubishi": 3248
+, "Smart": 2666
+, "Porsche": 1934
+, "Land Rover": 1705
+, "Honda": 1449
+, "Subaru": 868
+, "Jeep": 843
+, "Jaguar": 704
+, "Alfa Romeo": 458
+, "Lexus": 355
+, "Tesla": 346
+, "DS Automobiles": 226
+, "SsangYong": 209
+, "Infiniti": 107
+, "Maserati": 85
+, "Chevrolet": 71
+, "Cadillac": 28
+, "other": 1166
+});
+
+db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=4",
+{ "Volkswagen|e-Golf": 494
+, "Renault|Zoe": 278
+, "Kia|Soul EV": 252
+, "Smart|Fortwo ED": 227
+, "Tesla|Model S": 226
+, "BMW|i3 BEV": 226
+, "Tesla|Model X": 120
+, "Smart|Forfour ED": 94
+, "Volkswagen|e-up!": 81
+, "Nissan|Leaf": 51
+, "Hyundai|Ioniq Electric": 47
+, "Mercedes-Benz|B-Klasse ED": 19
+, "Peugeot|iOn": 17
+, "Nissan|e-NV200": 16
+, "Opel|Ampera-e": 13
+, "Mitsubishi|i-MiEV": 9
+, "Citroën|C-Zero": 8
+, "Ford|Focus Electric": 1
+, "other": 68
+});
+
+db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=8",
+{ "Volkswagen": 50331
+, "Mercedes-Benz": 26625
+, "Audi": 21651
+, "Ford": 21277
+, "Opel": 19347
+, "BMW": 18734
+, "Škoda": 15817
+, "Renault": 10195
+, "Hyundai": 9518
+, "Seat": 9252
+, "Peugeot": 7052
+, "Toyota": 6734
+, "Kia": 5768
+, "Nissan": 5408
+, "Mazda": 5342
+, "Fiat": 4697
+, "Dacia": 4234
+, "Citroën": 4017
+, "Mini": 3717
+, "Smart": 3667
+, "Volvo": 3543
+, "Mitsubishi": 2991
+, "Suzuki": 2965
+, "Porsche": 2170
+, "Land Rover": 1868
+, "Honda": 1288
+, "Jeep": 1013
+, "Subaru": 581
+, "Jaguar": 485
+, "Alfa Romeo": 361
+, "DS Automobiles": 274
+, "SsangYong": 205
+, "Maserati": 172
+, "Tesla": 161
+, "Lexus": 145
+, "Infiniti": 92
+, "Chevrolet": 51
+, "Cadillac": 33
+, "other": 1074
+});
+
+db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=8",
+{ "Smart|Fortwo ED": 398
+, "Volkswagen|e-Golf": 389
+, "Kia|Soul EV": 380
+, "Renault|Zoe": 243
+, "BMW|i3 BEV": 221
+, "Tesla|Model S": 112
+, "Smart|Forfour ED": 106
+, "Nissan|Leaf": 57
+, "Volkswagen|e-up!": 53
+, "Tesla|Model X": 49
+, "Hyundai|Ioniq Electric": 47
+, "Opel|Ampera-e": 23
+, "Peugeot|iOn": 18
+, "Mercedes-Benz|B-Klasse ED": 10
+, "Nissan|e-NV200": 6
+, "Citroën|C-Zero": 6
+, "Mitsubishi|i-MiEV": 3
+, "other": 59
+});
+
+db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=8",
+{ "Volkswagen": 58209
+, "Mercedes-Benz": 28687
+, "Audi": 22949
+, "Ford": 21972
+, "BMW": 21960
+, "Opel": 19820
+, "Škoda": 17687
+, "Renault": 13136
+, "Seat": 12689
+, "Hyundai": 9257
+, "Peugeot": 8635
+, "Toyota": 6804
+, "Dacia": 5856
+, "Kia": 5430
+, "Mazda": 5376
+, "Fiat": 5281
+, "Nissan": 4992
+, "Citroën": 4389
+, "Smart": 3928
+, "Mini": 3812
+, "Volvo": 3686
+, "Suzuki": 3116
+, "Mitsubishi": 2884
+, "Porsche": 2443
+, "Land Rover": 1962
+, "Honda": 1618
+, "Jeep": 1349
+, "Jaguar": 737
+, "Subaru": 591
+, "Alfa Romeo": 578
+, "SsangYong": 319
+, "Lexus": 303
+, "DS Automobiles": 279
+, "Tesla": 262
+, "Maserati": 126
+, "Infiniti": 77
+, "Cadillac": 47
+, "Chevrolet": 35
+, "other": 1355
+});
+
+db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=8",
+{ "Smart|Fortwo ED": 621
+, "Volkswagen|e-Golf": 601
+, "Kia|Soul EV": 277
+, "BMW|i3 BEV": 276
+, "Renault|Zoe": 235
+, "Hyundai|Ioniq Electric": 225
+, "Tesla|Model S": 205
+, "Smart|Forfour ED": 187
+, "Volkswagen|e-up!": 114
+, "Tesla|Model X": 56
+, "Nissan|Leaf": 54
+, "Opel|Ampera-e": 48
+, "Nissan|e-NV200": 30
+, "Peugeot|iOn": 15
+, "Mini|Cooper SE Electric": 12
+, "Mercedes-Benz|B-Klasse ED": 7
+, "Citroën|C-Zero": 6
+, "Mitsubishi|i-MiEV": 5
+, "other": 57
+});
+
+db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=4",
+{ "Volkswagen": 46587
+, "BMW": 24821
+, "Ford": 20132
+, "Mercedes-Benz": 18804
+, "Audi": 17638
+, "Opel": 17149
+, "Škoda": 14011
+, "Renault": 12304
+, "Hyundai": 7939
+, "Seat": 7924
+, "Peugeot": 7832
+, "Toyota": 5596
+, "Mazda": 4988
+, "Dacia": 4897
+, "Volvo": 4542
+, "Kia": 4526
+, "Nissan": 4225
+, "Mini": 4224
+, "Fiat": 3714
+, "Smart": 3654
+, "Citroën": 3506
+, "Suzuki": 2930
+, "Mitsubishi": 2185
+, "Porsche": 1725
+, "Honda": 1621
+, "Land Rover": 1412
+, "Jeep": 1252
+, "Subaru": 508
+, "Jaguar": 368
+, "Alfa Romeo": 340
+, "Tesla": 290
+, "SsangYong": 279
+, "DS Automobiles": 225
+, "Lexus": 204
+, "Maserati": 156
+, "Infiniti": 47
+, "Cadillac": 43
+, "Chevrolet": 39
+, "other": 1313
+});
+
+db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=4",
+{ "Smart|Fortwo ED": 1152
+, "Volkswagen|e-Golf": 422
+, "BMW|i3 BEV": 373
+, "Renault|Zoe": 301
+, "Kia|Soul EV": 296
+, "Tesla|Model S": 213
+, "Smart|Forfour ED": 160
+, "Volkswagen|e-up!": 108
+, "Hyundai|Ioniq Electric": 92
+, "Tesla|Model X": 77
+, "Opel|Ampera-e": 56
+, "Nissan|Leaf": 51
+, "Mini|Cooper SE Electric": 39
+, "Mercedes-Benz|B-Klasse ED": 20
+, "Peugeot|iOn": 11
+, "Nissan|e-NV200": 9
+, "Citroën|C-Zero": 3
+, "Mitsubishi|i-MiEV": 2
+, "other": 27
+});
+
 db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=9",
 { "Volkswagen": 54348
 , "Mercedes-Benz": 26419
