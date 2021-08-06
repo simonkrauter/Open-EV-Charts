@@ -12,7 +12,7 @@ Included countries
 |----------------|-------------------------------------------------------
 | China          | since 2018-01, all car sales per brand missing
 | United States  | since 2018-01, data is per quarter, EV models incomplete, only models with no ICE/hybrid variant included
-| Germany        | since 2018-01
+| Germany        | since 2017-01
 | United Kingdom | since 2018-01, data is per quarter
 | France         | since 2018-01
 | Italy          | since 2020-01
