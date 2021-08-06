@@ -3239,6 +3239,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Zafira-e": 36
 , "Citroën|ë-Jumpy": 26
 , "Jaguar|I-Pace": 24
+, "Mercedes-Benz|EQS": 23
 , "Mercedes-Benz|eVito": 21
 , "DS Automobiles|DS 3 Crossback E-Tense": 19
 , "Peugeot|e-Expert": 14
@@ -3247,5 +3248,5 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Lexus|UX 300e": 7
 , "Volkswagen|e-Golf": 5
 , "Volkswagen|e-Transporter": 2
-, "other": 390
+, "other": 367
 });
