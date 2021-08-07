@@ -102,7 +102,6 @@ db.insert(db.countries.CH, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 9
 , "Tesla|Model S": 28
 , "Peugeot|iOn": 4
-, "Nissan|Leaf": 0
 , "Citroën|C-Zero": 4
 });
 
@@ -406,7 +405,6 @@ db.insert(db.countries.CH, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 32
 , "Peugeot|iOn": 1
 , "Nissan|Leaf": 58
-, "Citroën|C-Zero": 0
 });
 
 db.insert(db.countries.CH, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_9.xlsx",
@@ -557,7 +555,6 @@ db.insert(db.countries.CH, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 21
 , "Tesla|Model X": 22
 , "Tesla|Model S": 46
-, "Peugeot|iOn": 0
 , "Nissan|Leaf": 46
 , "Citroën|C-Zero": 5
 });
