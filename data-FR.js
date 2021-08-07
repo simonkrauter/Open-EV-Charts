@@ -474,7 +474,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Renault|Zoe": 1745
 , "Nissan|Leaf": 410
 , "Smart|Fortwo ED": 108
-, "Peugeot|iOn":  68
+, "Peugeot|iOn": 68
 , "Kia|Soul EV": 47
 , "Tesla|Model S": 23
 , "Hyundai|Ioniq Electric": 55
