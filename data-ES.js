@@ -2643,15 +2643,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 2
 , "Mercedes-Benz|eVito": 2
 , "Mercedes-Benz|EQV": 2
-, "Volkswagen|e-Crafter": 1
-, "Volkswagen|e-Caddy": 1
-, "Opel|Vivaro-e": 1
-, "Mercedes-Benz|eSprinter": 1
-, "Mazda|MX-30": 1
-, "Maxus|EV80": 1
-, "Dacia|Spring": 1
-, "Cupra|Born": 1
-, "other": 13
+, "other": 21
 });
 
 db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosabriltur.asp, https://www.km77.com/mercado/espana/2021/datosabriltt.asp",
@@ -2835,9 +2827,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 3
 , "Mercedes-Benz|EQV": 2
 , "Audi|e-tron GT": 2
-, "Mercedes-Benz|eSprinter": 1
-, "Cupra|Born": 1
-, "other": 18
+, "other": 20
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuniotur.asp, https://www.km77.com/mercado/espana/2021/datosjuniott.asp",
@@ -3024,8 +3014,5 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 3
 , "Mercedes-Benz|eSprinter": 2
 , "Honda|e": 2
-, "Škoda|Citigo-e": 1
-, "Tesla|Model 3": 1
-, "Citroën|ë-Jumpy": 1
-, "other": 48
+, "other": 51
 });

@@ -3713,10 +3713,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 12
 , "Volkswagen|e-Transporter": 2
 , "Opel|Ampera-e": 2
-, "Tesla|Model X": 1
-, "Tesla|Model S": 1
-, "Lexus|UX 300e": 1
-, "other": 408
+, "other": 411
 });
 
 db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=2",
@@ -3905,8 +3902,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|Proace Electric": 4
 , "Tesla|Model X": 4
 , "Lexus|UX 300e": 3
-, "Opel|Ampera-e": 1
-, "other": 180
+, "other": 181
 });
 
 db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
@@ -4001,7 +3997,5 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 14
 , "Volkswagen|e-Caddy": 10
 , "Lexus|UX 300e": 7
-, "Volkswagen|e-Golf": 5
-, "Volkswagen|e-Transporter": 2
-, "other": 367
+, "other": 374
 });

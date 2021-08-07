@@ -2253,9 +2253,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 4
 , "Mercedes-Benz|eVito": 2
 , "Maxus|EV80": 2
-, "Mitsubishi|i-MiEV": 1
-, "Ford|Mustang Mach-E": 1
-, "other": 99
+, "other": 101
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2331,11 +2329,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 4
 , "Volkswagen|e-Golf": 2
 , "Nio|ES8": 2
-, "Tesla|Model X": 1
-, "Smart|Fortwo ED": 1
-, "Mitsubishi|i-MiEV": 1
-, "Mercedes-Benz|eSprinter": 1
-, "other": 127
+, "other": 131
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2411,11 +2405,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Maxus|EV80": 5
 , "Audi|Q4 e-tron": 3
 , "Volkswagen|e-Crafter": 2
-, "Tesla|Model X": 1
-, "Smart|Fortwo ED": 1
-, "Seat|Mii Electric": 1
-, "Mercedes-Benz|eVito": 1
-, "other": 131
+, "other": 135
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2491,12 +2481,7 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Mercedes-Benz|EQV": 8
 , "Maxus|EV80": 8
-, "Volkswagen|e-Crafter": 2
-, "Chevrolet|Bolt": 2
-, "Tesla|Model X": 1
-, "Smart|Fortwo ED": 1
-, "Mercedes-Benz|eVito": 1
-, "other": 119
+, "other": 126
 });
 
 db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2572,9 +2557,7 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nio|ES8": 2
-, "Mercedes-Benz|eVito": 1
-, "Maxus|EV80": 1
-, "other": 41
+, "other": 43
 });
 
 // Template:
