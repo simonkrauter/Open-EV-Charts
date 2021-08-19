@@ -6,25 +6,25 @@ The main purpose is to track the adoption of electric cars over time, countries 
 
 Online version: https://open-ev-charts.org/
 
-Included countries
-------------------
-| Country        | Data included
+Database status
+---------------
+| Country        | Since | Interval | EV models  | All car sales
 |----------------|-------------------------------------------------------
-| China          | since 2018-01, all car sales per brand missing
-| United States  | since 2018-01, data is per quarter, EV models incomplete, only models with no ICE/hybrid variant included
-| Germany        | since 2017-01
-| United Kingdom | since 2018-01, data is per quarter
-| France         | since 2018-01
-| Italy          | since 2020-01
-| Spain          | since 2018-01
-| Netherlands    | since 2018-01
-| Sweden         | since 2018-01
-| Austria        | since 2019-01
-| Switzerland    | since 2018-01, EV models incomplete, only models with no ICE/hybrid variant included
-| Denmark        | since 2020-01
-| Norway         | since 2018-01
-| Finland        | since 2020-01
-| Ireland        | since 2020-01
+| China          | 2018  | Month    | Complete   | Total only
+| United States  | 2018  | Quarter  | Incomplete | Per brand
+| Germany        | 2017  | Month    | Complete   | Per brand
+| United Kingdom | 2018  | Quarter  | Complete   | Per brand
+| France         | 2018  | Month    | Complete   | Per brand
+| Italy          | 2020  | Month    | Complete   | Per brand
+| Spain          | 2018  | Month    | Complete   | Per brand
+| Netherlands    | 2018  | Month    | Complete   | Per brand
+| Sweden         | 2018  | Month    | Complete   | Total only
+| Austria        | 2019  | Month    | Complete   | Per brand
+| Switzerland    | 2018  | Month    | Incomplete | Per brand
+| Denmark        | 2020  | Month    | Complete   | Total only
+| Norway         | 2018  | Month    | Complete   | Per brand
+| Finland        | 2020  | Month    | Complete   | Total only
+| Ireland        | 2020  | Month    | Complete   | Total only
 
 Data sources for other countries wanted.
 
