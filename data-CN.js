@@ -957,3 +957,27 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Dongfeng|Fengshen E70 EV": 3427
 , "other": 65220
 });
+
+db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1627.html TODO: numbers per brand wanted",
+{ "other": 1551000
+});
+
+db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
+{ "Wuling|Hongguang Mini EV": 30706
+, "Changan|Benni EV": 8701
+, "Tesla|Model 3": 6601
+, "Xiaopeng|Xpeng P7": 6054
+, "BYD|Han EV": 5592
+, "GAC|Aion S": 5502
+, "BYD|Qin Plus EV": 5342
+, "SAIC|Roewe Clever EV": 5202
+, "Chery|eQ": 5065
+, "Hozon|Neta V EV": 4469
+, "Leapmotor|T03": 4283
+, "Volkswagen|ID.4": 3867
+, "BYD|Yuan EV": 3785
+, "Nio|ES6": 3669
+, "Weltmeister|EX5": 3373
+, "Letin|Mango": 3243
+, "other": 80666
+})
