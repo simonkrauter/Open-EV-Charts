@@ -9,7 +9,7 @@ Online version: https://open-ev-charts.org/
 Database status
 ---------------
 | Country        | Since | Interval | EV models  | All car sales
-|----------------|-------------------------------------------------------
+|----------------|-------|----------|------------|--------------
 | China          | 2018  | Month    | Complete   | Total only
 | United States  | 2018  | Quarter  | Incomplete | Per brand
 | Germany        | 2017  | Month    | Complete   | Per brand
