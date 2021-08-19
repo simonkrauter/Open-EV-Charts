@@ -89,22 +89,31 @@ var db = {
       });
     }
 
-    if (dsType == this.dsTypes.AllCarsByBrand || dsType == this.dsTypes.ElectricCarsByBrand) {
+    if (dsType == this.dsTypes.AllCarsByBrand) {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
-          this.brands.sort();
         }
       }
     }
     else if (dsType == this.dsTypes.ElectricCarsByModel) {
       for (const model in data) {
+        const parts = model.split("|", 2);
+        const brand = parts[0];
+        if (!this.brands.includes(brand)) {
+          this.brands.push(brand);
+        }
         if (!this.models.includes(model)) {
           this.models.push(model);
-          this.models.sort();
         }
       }
+      this.models.sort(function(a, b) {
+        return a.localeCompare(b);
+      });
     }
+    this.brands.sort(function(a, b) {
+      return a.localeCompare(b);
+    });
   },
 
   getValue: function(value, defaultValue) {
