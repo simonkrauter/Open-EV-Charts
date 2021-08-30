@@ -2255,3 +2255,56 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 494
 , "other": 4633
 });
+
+db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/08/2021-07-vp-france.pdf",
+{ "Peugeot": 21058
+, "Renault": 13236
+, "Citroën": 10260
+, "Dacia": 9000
+, "Volkswagen": 8782
+, "Toyota": 8595
+, "Hyundai": 3921
+, "Audi": 3830
+, "Mercedes-Benz": 3736
+, "Kia": 3570
+, "BMW": 3211
+, "Opel": 2922
+, "Fiat": 2631
+, "Ford": 2470
+, "Škoda": 2435
+, "Seat": 2330
+, "Nissan": 2083
+, "Mini": 2069
+, "DS Automobiles": 1697
+, "Suzuki": 1644
+, "Volvo": 1348
+, "Jeep": 1155
+, "Mazda": 676
+, "Land Rover": 413
+, "Lexus": 340
+, "Honda": 339
+, "Porsche": 294
+, "Mitsubishi": 187
+, "Jaguar": 158
+, "Smart": 135
+, "Alfa Romeo": 91
+, "Tesla": 43
+, "Maserati": 19
+, "Subaru": 7
+, "SsangYong": 3
+, "other": 1025
+});
+
+db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.avere-france.org/Uploads/Documents/1628232649048a652dde4139f2b44d6596de1eb1ec-barometre-avere-colombus-aout-2021(4).pdf",
+{ "Renault|Zoe": 1148
+, "Peugeot|e-208": 898
+, "Fiat|500e": 632
+, "Kia|Niro EV": 472
+, "Hyundai|Kona Electric": 451
+, "Renault|Twingo Z.E.": 425
+, "Mini|Cooper SE Electric": 341
+, "Peugeot|e-2008": 323
+, "Volkswagen|ID.3": 264
+, "MG|ZS EV": 231
+, "other": 2339
+});
