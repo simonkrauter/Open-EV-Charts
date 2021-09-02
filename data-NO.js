@@ -1779,6 +1779,7 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 250
 , "Renault": 206
 , "Opel": 188
+, "other": 746
 });
 
 db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/9",
@@ -1845,6 +1846,7 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 128
 , "Opel": 118
 , "Tesla": 95
+, "other": 633
 });
 
 db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/10",
@@ -1911,6 +1913,7 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 132
 , "Renault": 130
 , "Opel": 77
+, "other": 560
 });
 
 db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/11",
@@ -1984,6 +1987,7 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Ford": 193
 , "Mitsubishi": 116
 , "Opel": 95
+, "other": 1532
 });
 
 db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12",
@@ -2058,6 +2062,7 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 134
 , "Renault": 132
 , "Tesla": 108
+, "other": 624
 });
 
 db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/1",
@@ -2128,6 +2133,7 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Lexus": 174
 , "Citroën": 136
 , "Opel": 131
+, "other": 774
 });
 
 db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/2",
@@ -2201,6 +2207,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 227
 , "Opel": 194
 , "Lexus": 163
+, "other": 1023
 });
 
 db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3",
@@ -2277,6 +2284,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Lexus": 104
 , "Mitsubishi": 88
 , "Tesla": 8
+, "other": 833
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4",
@@ -2353,6 +2361,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 232
 , "Opel": 144
 , "Mitsubishi": 125
+, "other": 744
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5",
@@ -2429,6 +2438,7 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 269
 , "Citroën": 228
 , "Opel": 185
+, "other": 1047
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6",
@@ -2505,6 +2515,7 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 124
 , "Mitsubishi": 115
 , "Tesla": 4
+, "other": 671
 });
 
 db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7",
@@ -2581,6 +2592,7 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 251
 , "Suzuki": 180
 , "Mitsubishi": 162
+, "other": 907
 });
 
 db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8",
@@ -2660,4 +2672,5 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Mitsubishi":
 // , "Opel":
 // , "Citroën":
+// , "other":
 // });
