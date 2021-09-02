@@ -2560,6 +2560,82 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 43
 });
 
+db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 2083
+, "Volkswagen": 2028
+, "Audi": 1325
+, "Toyota": 1208
+, "Ford": 1140
+, "Hyundai": 1040
+, "Mercedes-Benz": 943
+, "BMW": 857
+, "Volvo": 698
+, "Peugeot": 664
+, "Škoda": 648
+, "Nissan": 510
+, "Citroën": 399
+, "Kia": 396
+, "MG": 346
+, "Opel": 343
+, "Polestar": 299
+, "Mazda": 251
+, "Suzuki": 180
+, "Mitsubishi": 162
+});
+
+db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8",
+{ "Tesla|Model Y": 1308
+, "Ford|Mustang Mach-E": 896
+, "Volkswagen|ID.4": 858
+, "Tesla|Model 3": 773
+, "Volkswagen|ID.3": 648
+, "Hyundai|Ioniq 5": 629
+, "Audi|Q4 e-tron": 587
+, "Audi|e-tron": 564
+, "Nissan|Leaf": 443
+, "Mercedes-Benz|EQC": 422
+, "Citroën|ë-C4": 341
+, "MG|ZS EV": 338
+, "Polestar|2": 298
+, "Škoda|Enyaq": 296
+, "Volvo|XC40 Recharge pure electric": 285
+, "Peugeot|e-2008": 262
+, "BMW|iX3": 250
+, "Hyundai|Kona Electric": 239
+, "Mercedes-Benz|EQA": 235
+, "Kia|Niro EV": 206
+, "BMW|i3 BEV": 200
+, "Toyota|Proace Electric": 199
+, "Škoda|Citigo-e": 175
+, "Mazda|MX-30": 155
+, "Peugeot|e-208": 154
+, "Porsche|Taycan": 143
+, "Kia|Soul EV": 133
+, "Peugeot|e-Expert": 112
+, "Opel|Mokka-e": 105
+, "Volkswagen|e-up!": 86
+, "Nissan|e-NV200": 84
+, "Audi|e-tron GT": 83
+, "Opel|Corsa-e": 82
+, "Hyundai|Ioniq Electric": 81
+, "Renault|Zoe": 71
+, "Jaguar|I-Pace": 65
+, "Opel|Vivaro-e": 51
+, "Lexus|UX 300e": 41
+, "Peugeot|e-Traveller": 39
+, "Fiat|500e": 39
+, "Citroën|ë-Jumpy": 39
+, "Mini|Cooper SE Electric": 32
+, "Nio|ES8": 18
+, "Xiaopeng|Xpeng G3": 17
+, "Honda|e": 10
+, "Renault|Kangoo Z.E.": 9
+, "Opel|Zafira-e": 9
+, "Mercedes-Benz|EQV": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "other": 131
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
