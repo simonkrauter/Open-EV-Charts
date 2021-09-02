@@ -2208,7 +2208,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 856
 , "Nissan|Leaf": 615
 , "Mercedes-Benz|EQC": 588
-, "Volvo|XC40 Recharge pure electric": 544
+, "Volvo|XC40 Recharge pure electric": 545
 , "Audi|e-tron": 430
 , "Polestar|2": 396
 , "MG|ZS EV": 354
@@ -2516,7 +2516,7 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 317
 , "Mercedes-Benz|EQC": 309
 , "Volvo|XC40 Recharge pure electric": 289
-, "Nissan|Leaf": 237
+, "Nissan|Leaf": 238
 , "Audi|Q4 e-tron": 237
 , "Volkswagen|ID.3": 234
 , "MG|ZS EV": 233
