@@ -2956,15 +2956,15 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 38
 , "Citroën|ë-C4": 30
 , "Toyota|Proace Electric": 29
-, "Audi|e-tron GT": 27
+, "Audi|e-tron GT": 29
 , "Audi|e-tron": 21
 , "BMW|i3 BEV": 17
 , "Dacia|Spring": 15
 , "Mercedes-Benz|EQC": 14
 , "Hyundai|Ioniq Electric": 14
 , "Smart|Forfour ED": 12
+, "Hyundai|Kona Electric": 11
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
-, "Hyundai|Kona Electric": 10
 , "Mercedes-Benz|eVito": 8
 , "Aiways|U5": 7
 , "Renault|Twingo Z.E.": 5
