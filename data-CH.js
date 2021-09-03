@@ -2483,3 +2483,74 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mitsubishi|i-MiEV": 1
 , "Citroën|C-Zero": 1
 });
+
+db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/09/ModellePW2021.xlsx",
+{ "Volkswagen": 1838
+, "Mercedes-Benz": 1410
+, "BMW": 1356
+, "Audi": 1243
+, "Škoda": 1164
+, "Toyota": 996
+, "Ford": 759
+, "Hyundai": 610
+, "Volvo": 479
+, "Suzuki": 468
+, "Dacia": 459
+, "Peugeot": 440
+, "Renault": 432
+, "Fiat": 430
+, "Opel": 315
+, "Mazda": 302
+, "Kia": 301
+, "Tesla": 283
+, "Mini": 279
+, "Citroën": 268
+, "Mitsubishi": 215
+, "Jeep": 198
+, "Porsche": 195
+, "Honda": 188
+, "Nissan": 186
+, "Land Rover": 126
+, "Subaru": 124
+, "Alfa Romeo": 67
+, "Jaguar": 64
+, "Polestar": 38
+, "DS Automobiles": 32
+, "Smart": 29
+, "Lexus": 28
+, "Maserati": 20
+, "Cadillac": 14
+, "Genesis": 12
+, "Dodge": 7
+, "Aiways": 4
+, "Chevrolet": 2
+, "SsangYong": 1
+, "other": 1074
+});
+
+db.insert(db.countries.CH, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/wp-content/uploads/2021/09/ModellePW2021.xlsx",
+{ "Volkswagen|ID.3": 289
+, "Škoda|Enyaq": 160
+, "Tesla|Model Y": 142
+, "Tesla|Model 3": 141
+, "Renault|Zoe": 98
+, "Audi|e-tron": 94
+, "Volkswagen|ID.4": 81
+, "Mercedes-Benz|EQC": 81
+, "Mercedes-Benz|EQA": 76
+, "Ford|Mustang Mach-E": 55
+, "Audi|e-tron GT": 52
+, "Polestar|2": 38
+, "Porsche|Taycan": 29
+, "Nissan|Leaf": 27
+, "BMW|i3 BEV": 25
+, "Jaguar|I-Pace": 23
+, "Mazda|MX-30": 17
+, "Honda|e": 12
+, "Mercedes-Benz|EQV": 10
+, "Mercedes-Benz|EQS": 8
+, "BMW|iX": 5
+, "Dacia|Spring": 4
+, "Aiways|U5": 4
+, "Mitsubishi|i-MiEV": 1
+});
