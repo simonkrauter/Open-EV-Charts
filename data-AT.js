@@ -1195,3 +1195,40 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|iX3": 72
 , "other": 782
 });
+
+db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+{ "Volkswagen": 3048
+, "Škoda": 1318
+, "BMW": 1107
+, "Audi": 1068
+, "Seat": 1043
+, "Ford": 955
+, "Mercedes-Benz": 945
+, "Fiat": 748
+, "Renault": 740
+, "Hyundai": 719
+, "Kia": 640
+, "Mazda": 597
+, "Peugeot": 511
+, "Suzuki": 510
+, "Toyota": 503
+, "Dacia": 501
+, "Opel": 442
+, "Tesla": 349
+, "Citroën": 313
+, "Mitsubishi": 247
+, "other": 1415
+});
+
+db.insert(db.countries.AT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+{ "Volkswagen|ID.3": 325
+, "Ford|Mustang Mach-E": 294
+, "Volkswagen|ID.4": 271
+, "Seat|Mii Electric": 248
+, "Tesla|Model Y": 235
+, "Škoda|Enyaq": 233
+, "Renault|Zoe": 179
+, "Hyundai|Ioniq Electric": 114
+, "Kia|Niro EV": 111
+, "other": 1076
+});
