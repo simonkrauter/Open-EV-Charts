@@ -598,6 +598,7 @@ db.insert(db.countries.UK, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 523
 , "Hyundai|Ioniq Electric": 434
 , "Mini|Cooper SE Electric": 409
+, "Vauxhall|Corsa-e": 359
 , "Renault|Zoe": 266
 , "Kia|Soul EV": 217
 , "Tesla|Model X": 178
@@ -667,6 +668,7 @@ db.insert(db.countries.UK, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|Leaf": 773
 , "Kia|Niro EV": 737
 , "Audi|e-tron": 569
+, "Vauxhall|Corsa-e": 529
 , "MG|ZS EV": 431
 , "Hyundai|Ioniq Electric": 408
 , "BMW|i3 BEV": 407
@@ -748,6 +750,7 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|i3 BEV": 1617
 , "Mini|Cooper SE Electric": 1273
 , "Hyundai|Ioniq Electric": 1195
+, "Vauxhall|Corsa-e": 1032
 , "Porsche|Taycan": 909
 , "Volkswagen|e-Golf": 846
 , "Peugeot|e-208": 817
@@ -758,12 +761,14 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|e-2008": 505
 , "Kia|Soul EV": 314
 , "Tesla|Model S": 285
+, "Polestar|2": 249
 , "DS Automobiles|DS 3 Crossback E-Tense": 139
 , "Seat|Mii Electric": 117
 , "Škoda|Citigo-e": 115
 , "Volkswagen|e-up!": 86
 , "Nissan|e-NV200": 72
 , "Mercedes-Benz|eVito": 27
+, "Vauxhall|Vivaro-e": 5
 , "Citroën|ë-SpaceTourer": 2
 , "Mitsubishi|i-MiEV": 1
 , "MG|MG5 EV": 1
@@ -834,8 +839,10 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|i3 BEV": 1504
 , "Mini|Cooper SE Electric": 1427
 , "Peugeot|e-2008": 1038
+, "Vauxhall|Corsa-e": 937
 , "Peugeot|e-208": 787
 , "Hyundai|Ioniq Electric": 698
+, "Polestar|2": 599
 , "Tesla|Model X": 493
 , "Honda|e": 436
 , "Volkswagen|e-Golf": 379
@@ -850,6 +857,8 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Škoda|Citigo-e": 59
 , "Ford|Mustang Mach-E": 37
 , "Volkswagen|e-up!": 32
+, "Vauxhall|Vivaro-e": 20
+, "Peugeot|e-Traveller": 3
 , "Citroën|ë-SpaceTourer": 2
 , "Lexus|UX 300e": 1
 });
@@ -909,12 +918,15 @@ db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 3268
 , "Nissan|Leaf": 2293
 , "Audi|e-tron": 1500
+, "Vauxhall|Corsa-e": 1231
 , "MG|ZS EV": 1191
 , "Peugeot|e-2008": 1155
 , "Hyundai|Kona Electric": 1094
 , "Mercedes-Benz|EQC": 1059
+, "Mini|Cooper SE Electric": 1020
 , "Peugeot|e-208": 968
 , "Hyundai|Ioniq Electric": 935
+, "Polestar|2": 922
 , "Porsche|Taycan": 896
 , "MG|MG5 EV": 874
 , "Volkswagen|ID.3": 778
@@ -923,11 +935,13 @@ db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoe": 626
 , "Volkswagen|ID.4": 480
 , "Mazda|MX-30": 264
+, "Vauxhall|Mokka-e": 250
 , "Citroën|ë-C4": 230
 , "Kia|Soul EV": 217
 , "Seat|Mii Electric": 210
 , "Mercedes-Benz|EQA": 194
 , "Nissan|e-NV200": 177
+, "Volvo|XC40 Recharge pure electric": 154
 , "DS Automobiles|DS 3 Crossback E-Tense": 139
 , "Lexus|UX 300e": 117
 , "Honda|e": 95
@@ -936,6 +950,7 @@ db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mercedes-Benz|EQV": 40
 , "Škoda|Citigo-e": 33
 , "Mercedes-Benz|eVito": 29
+, "Vauxhall|Vivaro-e": 24
 , "Peugeot|e-Traveller": 21
 , "Tesla|Model S": 18
 , "Volkswagen|e-up!": 16
