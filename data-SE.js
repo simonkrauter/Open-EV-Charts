@@ -109,7 +109,8 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 19
 , "Nissan|e-NV200": 13
 , "Hyundai|Ioniq Electric": 13
-, "other": 11
+, "Citroën|ë-C4": 1
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -166,7 +167,8 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 6
 , "Nissan|e-NV200": 4
 , "Volkswagen|e-up!": 1
-, "other": 6
+, "Mini|Cooper SE Electric": 1
+, "other": 5
 });
 
 db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -185,7 +187,8 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Kia|Soul EV": 6
 , "Hyundai|Kona Electric": 4
-, "other": 10
+, "Mini|Cooper SE Electric": 2
+, "other": 8
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -271,7 +274,8 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 7
 , "Kia|Soul EV": 5
 , "Peugeot|iOn": 1
-, "other": 10
+, "Mini|Cooper SE Electric": 1
+, "other": 9
 });
 
 db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -484,8 +488,9 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 42
 , "Kia|Soul EV": 31
 , "Jaguar|I-Pace": 23
+, "Mini|Cooper SE Electric": 4
 , "Nissan|e-NV200": 2
-, "other": 5
+, "other": 1
 });
 
 db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -532,7 +537,8 @@ db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 14
 , "Seat|Mii Electric": 5
 , "Nissan|e-NV200": 2
-, "other": 27
+, "Mini|Cooper SE Electric": 2
+, "other": 25
 });
 
 db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -555,9 +561,10 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 21
 , "Tesla|Model S": 20
 , "Jaguar|I-Pace": 18
+, "Mini|Cooper SE Electric": 15
 , "Porsche|Taycan": 3
 , "Nissan|e-NV200": 3
-, "other": 26
+, "other": 11
 });
 
 db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -576,6 +583,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 96
 , "BMW|i3 BEV": 84
 , "Volkswagen|e-up!": 60
+, "Mini|Cooper SE Electric": 50
 , "Hyundai|Ioniq Electric": 50
 , "Porsche|Taycan": 42
 , "Škoda|Citigo-e": 33
@@ -584,7 +592,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "other": 101
+, "other": 51
 });
 
 db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -604,6 +612,7 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 38
 , "Hyundai|Ioniq Electric": 32
 , "Kia|Soul EV": 30
+, "Mini|Cooper SE Electric": 25
 , "Porsche|Taycan": 16
 , "Škoda|Citigo-e": 13
 , "Tesla|Model X": 10
@@ -611,7 +620,7 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 5
 , "Jaguar|I-Pace": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 62
+, "other": 37
 });
 
 db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -637,8 +646,9 @@ db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Jaguar|I-Pace": 6
 , "Škoda|Citigo-e": 5
+, "Mini|Cooper SE Electric": 5
 , "Honda|e": 4
-, "other": 15
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -663,12 +673,13 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 23
 , "Seat|Mii Electric": 20
 , "Škoda|Citigo-e": 14
+, "Mini|Cooper SE Electric": 13
 , "Peugeot|e-208": 9
 , "Polestar|2": 6
 , "Jaguar|I-Pace": 5
 , "Volkswagen|e-Caddy": 1
 , "Nissan|e-NV200": 1
-, "other": 35
+, "other": 22
 });
 
 db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -686,6 +697,7 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 64
 , "Polestar|2": 50
 , "Volkswagen|e-up!": 48
+, "Mini|Cooper SE Electric": 31
 , "Hyundai|Ioniq Electric": 23
 , "Peugeot|e-2008": 19
 , "Kia|Soul EV": 19
@@ -701,7 +713,7 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 1
 , "Nissan|e-NV200": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 104
+, "other": 73
 });
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -721,6 +733,7 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 48
 , "Volkswagen|e-up!": 39
 , "Hyundai|Ioniq Electric": 39
+, "Mini|Cooper SE Electric": 34
 , "Kia|Soul EV": 28
 , "Peugeot|e-208": 22
 , "Škoda|Citigo-e": 13
@@ -732,7 +745,7 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 4
 , "Nissan|e-NV200": 4
 , "Volkswagen|e-Caddy": 1
-, "other": 91
+, "other": 57
 });
 
 db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -757,6 +770,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 42
 , "Škoda|Citigo-e": 36
 , "Peugeot|e-2008": 36
+, "Mini|Cooper SE Electric": 36
 , "Honda|e": 31
 , "Hyundai|Ioniq Electric": 28
 , "Kia|Soul EV": 26
@@ -768,7 +782,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 3
 , "Volkswagen|e-Caddy": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 110
+, "other": 74
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -790,6 +804,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 56
 , "Peugeot|e-2008": 51
 , "Porsche|Taycan": 48
+, "Mini|Cooper SE Electric": 48
 , "Kia|Soul EV": 36
 , "Tesla|Model 3": 34
 , "Hyundai|Ioniq Electric": 34
@@ -804,7 +819,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Volvo|XC40 Recharge pure electric": 1
 , "Seat|Mii Electric": 1
-, "other": 149
+, "other": 101
 });
 
 db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -827,6 +842,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 58
 , "Volkswagen|e-Golf": 48
 , "Peugeot|e-208": 47
+, "Mini|Cooper SE Electric": 44
 , "Tesla|Model S": 40
 , "Kia|Soul EV": 37
 , "Hyundai|Ioniq Electric": 34
@@ -839,7 +855,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 4
 , "Nissan|e-NV200": 3
 , "Peugeot|iOn": 1
-, "other": 166
+, "other": 122
 });
 
 db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -868,6 +884,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 56
 , "Škoda|Citigo-e": 54
 , "Porsche|Taycan": 54
+, "Mini|Cooper SE Electric": 50
 , "Volkswagen|e-Golf": 46
 , "Jaguar|I-Pace": 39
 , "Mercedes-Benz|EQV": 28
@@ -877,7 +894,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 3
 , "Nissan|e-NV200": 1
 , "Ford|Mustang Mach-E": 1
-, "other": 195
+, "other": 145
 });
 
 db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -900,6 +917,7 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 25
 , "Peugeot|e-208": 25
 , "Fiat|500e": 25
+, "Mini|Cooper SE Electric": 17
 , "Peugeot|e-2008": 12
 , "Opel|Corsa-e": 8
 , "Hyundai|Ioniq Electric": 5
@@ -910,7 +928,7 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Seat|Mii Electric": 1
 , "Mercedes-Benz|eVito": 1
-, "other": 67
+, "other": 50
 });
 
 db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -939,6 +957,8 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 10
 , "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 10
+, "BMW|iX3": 9
+, "Mini|Cooper SE Electric": 8
 , "Mazda|MX-30": 5
 , "Volkswagen|e-Golf": 3
 , "Seat|Mii Electric": 3
@@ -948,7 +968,7 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 56
+, "other": 39
 });
 
 db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -970,9 +990,11 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 34
 , "BMW|i3 BEV": 33
 , "Fiat|500e": 28
+, "Mini|Cooper SE Electric": 26
 , "Hyundai|Kona Electric": 26
 , "Mazda|MX-30": 18
 , "Peugeot|e-2008": 17
+, "BMW|iX3": 14
 , "Škoda|Citigo-e": 9
 , "Peugeot|e-208": 7
 , "Volkswagen|e-up!": 5
@@ -988,7 +1010,7 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-C4": 1
-, "other": 100
+, "other": 60
 });
 
 db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1011,6 +1033,8 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 89
 , "Kia|Soul EV": 67
 , "BMW|i3 BEV": 67
+, "Mini|Cooper SE Electric": 61
+, "BMW|iX3": 49
 , "Opel|Corsa-e": 47
 , "Fiat|500e": 44
 , "Mazda|MX-30": 40
@@ -1033,7 +1057,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
 , "Dacia|Spring": 1
-, "other": 278
+, "other": 168
 });
 
 db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1059,7 +1083,9 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 49
 , "Opel|Mokka-e": 44
 , "BMW|i3 BEV": 43
+, "Mini|Cooper SE Electric": 36
 , "Peugeot|e-2008": 34
+, "BMW|iX3": 34
 , "Hyundai|Ioniq Electric": 26
 , "Seat|Mii Electric": 19
 , "Audi|e-tron GT": 18
@@ -1077,7 +1103,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 2
 , "Nissan|e-NV200": 2
 , "Peugeot|e-Expert": 1
-, "other": 217
+, "other": 147
 });
 
 db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1095,9 +1121,11 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 217
 , "Nissan|Leaf": 208
 , "Ford|Mustang Mach-E": 166
+, "BMW|iX3": 147
 , "Volvo|XC40 Recharge pure electric": 134
 , "Audi|e-tron": 130
 , "Audi|Q4 e-tron": 114
+, "Mini|Cooper SE Electric": 97
 , "Peugeot|e-2008": 94
 , "Hyundai|Kona Electric": 80
 , "BMW|i3 BEV": 68
@@ -1122,7 +1150,7 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 2
 , "Nissan|e-NV200": 2
 , "Mercedes-Benz|eVito": 1
-, "other": 425
+, "other": 181
 });
 
 db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/transport-and-communications/road-traffic/registered-vehicles/pong/tables-and-graphs/registered-vehicles/",
@@ -1138,6 +1166,8 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 129
 , "Audi|Q4 e-tron": 99
 , "Nissan|Leaf": 92
+, "Mini|Cooper SE Electric": 68
+, "BMW|iX3": 65
 , "Peugeot|e-208": 62
 , "Peugeot|e-2008": 52
 , "BMW|i3 BEV": 51
@@ -1168,5 +1198,7 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|EQV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 223
+, "other": 90
+});
+
 });
