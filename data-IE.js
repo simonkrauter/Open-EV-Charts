@@ -272,6 +272,7 @@ db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 24
 , "Kia|Niro EV": 21
 , "Volkswagen|e-Golf": 20
+, "Mini|Cooper SE Electric": 19
 , "Hyundai|Ioniq Electric": 19
 , "Renault|Zoe": 18
 , "Peugeot|e-208": 12
@@ -279,7 +280,6 @@ db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 6
 , "Mercedes-Benz|EQC": 2
 , "Tesla|Model S": 1
-, "other": 19
 });
 
 db.insert(db.countries.IE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
@@ -292,11 +292,11 @@ db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 7
 , "Nissan|Leaf": 7
 , "Peugeot|e-208": 3
+, "Mini|Cooper SE Electric": 2
 , "Kia|Soul EV": 2
 , "Kia|Niro EV": 2
 , "Tesla|Model S": 1
 , "Opel|Corsa-e": 1
-, "other": 2
 });
 
 db.insert(db.countries.IE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
@@ -311,6 +311,7 @@ db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 13
 , "Hyundai|Kona Electric": 11
 , "Tesla|Model S": 5
+, "Mini|Cooper SE Electric": 5
 , "Kia|Soul EV": 4
 , "Audi|e-tron": 4
 , "Opel|Corsa-e": 3
@@ -319,7 +320,6 @@ db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Peugeot|e-208": 1
 , "Mercedes-Benz|EQC": 1
-, "other": 5
 });
 
 db.insert(db.countries.IE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
@@ -333,12 +333,12 @@ db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 6
 , "Nissan|Leaf": 5
 , "Hyundai|Kona Electric": 4
+, "Mini|Cooper SE Electric": 2
 , "Porsche|Taycan": 1
 , "Peugeot|e-208": 1
 , "Mercedes-Benz|EQC": 1
 , "Hyundai|Ioniq Electric": 1
 , "Audi|e-tron": 1
-, "other": 2
 });
 
 db.insert(db.countries.IE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -354,6 +354,7 @@ db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 47
 , "Volkswagen|e-Golf": 45
 , "Tesla|Model 3": 45
+, "Mini|Cooper SE Electric": 38
 , "Kia|Soul EV": 37
 , "Peugeot|e-208": 35
 , "Audi|e-tron": 31
@@ -364,7 +365,7 @@ db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Peugeot|e-2008": 1
 , "Jaguar|I-Pace": 1
-, "other": 39
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -382,13 +383,14 @@ db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 9
 , "Hyundai|Ioniq Electric": 9
 , "Audi|e-tron": 9
+, "Mini|Cooper SE Electric": 8
 , "Volkswagen|e-Golf": 6
 , "Porsche|Taycan": 6
 , "Peugeot|e-2008": 3
 , "BMW|i3 BEV": 2
 , "Tesla|Model S": 1
 , "Mercedes-Benz|EQC": 1
-, "other": 9
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
@@ -401,6 +403,7 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 56
 , "Kia|Niro EV": 52
 , "Nissan|Leaf": 51
+, "Mini|Cooper SE Electric": 21
 , "Renault|Zoe": 15
 , "Audi|e-tron": 13
 , "Peugeot|e-208": 9
@@ -413,7 +416,6 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Opel|Corsa-e": 3
 , "Peugeot|e-2008": 1
-, "other": 21
 });
 
 db.insert(db.countries.IE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
@@ -424,6 +426,7 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 { "Volkswagen|ID.3": 94
 , "Tesla|Model 3": 37
 , "Kia|Niro EV": 33
+, "Mini|Cooper SE Electric": 17
 , "Nissan|Leaf": 16
 , "Renault|Zoe": 14
 , "Hyundai|Kona Electric": 9
@@ -437,7 +440,6 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 2
 , "Jaguar|I-Pace": 1
 , "BMW|i3 BEV": 1
-, "other": 17
 });
 
 db.insert(db.countries.IE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
@@ -455,9 +457,10 @@ db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 2
 , "Hyundai|Kona Electric": 2
 , "Audi|e-tron": 2
+, "Mini|Cooper SE Electric": 1
 , "Hyundai|Ioniq Electric": 1
 , "Honda|e": 1
-, "other": 2
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf TODO: numbers per brand wanted",
@@ -473,8 +476,8 @@ db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 2
 , "Honda|e": 2
 , "Peugeot|e-208": 1
+, "Mini|Cooper SE Electric": 1
 , "Kia|Soul EV": 1
-, "other": 1
 });
 
 db.insert(db.countries.IE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
@@ -490,6 +493,7 @@ db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 61
 , "Hyundai|Ioniq Electric": 56
 , "Opel|Corsa-e": 52
+, "Mini|Cooper SE Electric": 44
 , "Peugeot|e-208": 33
 , "Audi|e-tron": 20
 , "MG|ZS EV": 19
@@ -502,7 +506,6 @@ db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Tesla|Model S": 2
 , "Tesla|Model X": 1
-, "other": 44
 });
 
 db.insert(db.countries.IE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf TODO: numbers per brand wanted",
@@ -522,6 +525,7 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 24
 , "Peugeot|e-208": 22
 , "MG|ZS EV": 18
+, "Mini|Cooper SE Electric": 13
 , "Hyundai|Ioniq Electric": 13
 , "Opel|Corsa-e": 9
 , "Lexus|UX 300e": 6
@@ -530,7 +534,7 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "BMW|i3 BEV": 3
 , "Honda|e": 2
-, "other": 15
+, "other": 2
 });
 
 db.insert(db.countries.IE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf TODO: numbers per brand wanted",
@@ -553,6 +557,7 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 7
 , "Porsche|Taycan": 5
 , "BMW|i3 BEV": 5
+, "Mini|Cooper SE Electric": 4
 , "Kia|Soul EV": 4
 , "Honda|e": 4
 , "Peugeot|e-208": 3
@@ -560,7 +565,6 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 2
 , "Mercedes-Benz|EQC": 2
 , "Lexus|UX 300e": 2
-, "other": 4
 });
 
 db.insert(db.countries.IE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
@@ -583,6 +587,7 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 7
 , "Porsche|Taycan": 6
 , "Hyundai|Ioniq Electric": 6
+, "Mini|Cooper SE Electric": 5
 , "Kia|Soul EV": 5
 , "Mercedes-Benz|EQC": 3
 , "Opel|Mokka-e": 2
@@ -590,7 +595,7 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 1
 , "BMW|i3 BEV": 1
 , "Audi|e-tron GT": 1
-, "other": 6
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
@@ -602,6 +607,7 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 85
 , "Kia|Niro EV": 64
 , "Tesla|Model 3": 53
+, "Mini|Cooper SE Electric": 27
 , "Škoda|Enyaq": 26
 , "Renault|Zoe": 24
 , "Hyundai|Kona Electric": 20
@@ -621,7 +627,7 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 2
 , "Lexus|UX 300e": 1
 , "BMW|i3 BEV": 1
-, "other": 48
+, "other": 21
 });
 
 db.insert(db.countries.IE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
@@ -635,6 +641,7 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 19
 , "Renault|Zoe": 18
 , "Škoda|Enyaq": 11
+, "Mini|Cooper SE Electric": 7
 , "MG|ZS EV": 7
 , "Audi|e-tron": 6
 , "Nissan|Leaf": 5
@@ -645,6 +652,7 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 2
 , "Hyundai|Ioniq Electric": 2
 , "Audi|e-tron GT": 2
+, "Audi|Q4 e-tron": 2
 , "Porsche|Taycan": 1
 , "Peugeot|e-208": 1
 , "Peugeot|e-2008": 1
@@ -653,5 +661,5 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "Honda|e": 1
 , "BMW|i3 BEV": 1
-, "other": 18
+, "other": 9
 });
