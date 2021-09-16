@@ -783,3 +783,41 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "other": 1
 });
+
+db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 7486
+});
+
+db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/7",
+{ "Volkswagen|ID.4": 210
+, "Škoda|Enyaq": 101
+, "Ford|Mustang Mach-E": 100
+, "Volkswagen|ID.3": 63
+, "Volvo|XC40 Recharge pure electric": 56
+, "Hyundai|Kona Electric": 34
+, "Peugeot|e-2008": 22
+, "Kia|Niro EV": 20
+, "Audi|e-tron": 17
+, "Audi|Q4 e-tron": 16
+, "Seat|Mii Electric": 13
+, "Volkswagen|e-up!": 12
+, "Mercedes-Benz|EQA": 11
+, "Polestar|2": 10
+, "Nissan|Leaf": 8
+, "Renault|Zoe": 7
+, "Peugeot|e-208": 7
+, "Porsche|Taycan": 6
+, "BMW|iX3": 6
+, "Hyundai|Ioniq Electric": 5
+, "Fiat|500e": 5
+, "Mini|Cooper SE Electric": 4
+, "Hyundai|Ioniq 5": 4
+, "Mercedes-Benz|EQC": 2
+, "Jaguar|I-Pace": 2
+, "Citroën|ë-C4": 2
+, "Tesla|Model 3": 1
+, "Opel|Mokka-e": 1
+, "Opel|Corsa-e": 1
+, "Mazda|MX-30": 1
+, "other": 2
+});
