@@ -3069,3 +3069,57 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 1
 , "other": 73
 });
+
+db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/09/2021-08-vp-france.pdf",
+{ "Renault": 12856
+, "Peugeot": 12493
+, "Citroën": 8917
+, "Dacia": 7820
+, "Toyota": 6581
+, "Volkswagen": 5933
+, "BMW": 2769
+, "Audi": 2717
+, "Tesla": 2658
+, "Hyundai": 2560
+, "Mercedes-Benz": 2321
+, "Kia": 2210
+, "Ford": 2155
+, "Opel": 2072
+, "Fiat": 1676
+, "Mini": 1585
+, "Škoda": 1517
+, "Suzuki": 1304
+, "Seat": 1255
+, "Nissan": 1137
+, "DS Automobiles": 1026
+, "Volvo": 730
+, "Jeep": 622
+, "Mazda": 530
+, "Honda": 293
+, "Lexus": 242
+, "Porsche": 229
+, "Land Rover": 228
+, "Mitsubishi": 102
+, "Jaguar": 60
+, "Smart": 55
+, "Alfa Romeo": 53
+, "Maserati": 5
+, "Subaru": 4
+, "SsangYong": 3
+, "other": 1347
+});
+
+db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/15/tesla-model-3-shines-in-france-as-plugin-vehicles-reach-20-market-share/",
+{ "Tesla|Model 3": 2541
+, "Renault|Zoe": 1177
+, "Peugeot|e-208": 1033
+, "MG|ZS EV": 659
+, "Fiat|500e": 503
+, "Volkswagen|ID.3": 388
+, "Mini|Cooper SE Electric": 382
+, "Renault|Twingo Z.E.": 335
+, "Hyundai|Kona Electric": 304
+, "Kia|Niro EV": 293
+, "Peugeot|e-2008": 215
+, "other": 2081
+});
