@@ -636,3 +636,54 @@ db.insert(db.countries.DK, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 1
 , "other": 12
 });
+
+db.insert(db.countries.DK, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 13402
+});
+
+db.insert(db.countries.DK, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2021/7",
+{ "Audi|Q4 e-tron": 149
+, "Volkswagen|ID.3": 143
+, "Volkswagen|ID.4": 132
+, "Škoda|Enyaq": 87
+, "Hyundai|Kona Electric": 87
+, "Ford|Mustang Mach-E": 78
+, "Mercedes-Benz|EQA": 70
+, "Hyundai|Ioniq 5": 53
+, "Peugeot|e-208": 50
+, "Kia|Niro EV": 46
+, "BMW|iX3": 46
+, "Seat|Mii Electric": 36
+, "Polestar|2": 33
+, "Fiat|500e": 29
+, "Mercedes-Benz|EQC": 27
+, "Volkswagen|e-up!": 25
+, "Peugeot|e-2008": 24
+, "Hyundai|Ioniq Electric": 21
+, "Citroën|ë-C4": 21
+, "MG|ZS EV": 17
+, "Audi|e-tron": 17
+, "Renault|Zoe": 14
+, "Nissan|Leaf": 14
+, "Mini|Cooper SE Electric": 14
+, "Porsche|Taycan": 13
+, "Volvo|XC40 Recharge pure electric": 11
+, "Audi|e-tron GT": 11
+, "Aiways|U5": 10
+, "Opel|Corsa-e": 8
+, "Jaguar|I-Pace": 7
+, "Mercedes-Benz|EQV": 6
+, "Opel|Mokka-e": 4
+, "Kia|Soul EV": 4
+, "Volkswagen|e-Golf": 3
+, "Volkswagen|e-Crafter": 3
+, "Tesla|Model 3": 3
+, "Škoda|Citigo-e": 2
+, "Toyota|Proace Electric": 2
+, "Mazda|MX-30": 2
+, "BMW|i3 BEV": 2
+, "Nissan|e-NV200": 1
+, "Mercedes-Benz|eVito": 1
+, "Citroën|ë-Jumpy": 1
+, "other": 15
+});
