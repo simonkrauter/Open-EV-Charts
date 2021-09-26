@@ -980,4 +980,28 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Weltmeister|EX5": 3373
 , "Letin|Mango": 3243
 , "other": 80666
-})
+});
+
+db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1628.html TODO: numbers per brand wanted",
+{ "other": 1552000
+});
+
+db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
+{ "Wuling|Hongguang Mini EV": 41118
+, "Tesla|Model Y": 11576
+, "SAIC|Roewe Clever EV": 8913
+, "BYD|Qin Plus EV": 7633
+, "Changan|Benni EV": 7358
+, "Great Wall|Ora Black Cat": 7013
+, "BYD|Han EV": 6198
+, "Xiaopeng|Xpeng P7": 6165
+, "Chery|eQ": 5375
+, "GAC|Aion S": 5238
+, "BYD|Yuan EV": 4782
+, "Volkswagen|ID.4": 4679
+, "Hozon|Neta V EV": 4611
+, "Leapmotor|T03": 4409
+, "Letin|Mango": 4372
+, "GAC|Aion Y": 4124
+, "other": 99236
+});
