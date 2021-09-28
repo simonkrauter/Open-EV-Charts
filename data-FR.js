@@ -3109,7 +3109,7 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 1347
 });
 
-db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/15/tesla-model-3-shines-in-france-as-plugin-vehicles-reach-20-market-share/",
+db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/8",
 { "Tesla|Model 3": 2541
 , "Renault|Zoe": 1177
 , "Peugeot|e-208": 1033
@@ -3120,6 +3120,42 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Renault|Twingo Z.E.": 335
 , "Hyundai|Kona Electric": 304
 , "Kia|Niro EV": 293
-, "Peugeot|e-2008": 215
-, "other": 2081
+, "Peugeot|e-2008": 212
+, "Dacia|Spring": 183
+, "Nissan|Leaf": 174
+, "Volkswagen|ID.4": 169
+, "Škoda|Enyaq": 167
+, "Opel|Corsa-e": 130
+, "Ford|Mustang Mach-E": 122
+, "Citroën|ë-C4": 120
+, "Tesla|Model Y": 117
+, "Hyundai|Ioniq 5": 114
+, "Volkswagen|e-up!": 102
+, "Mercedes-Benz|EQA": 76
+, "BMW|i3 BEV": 64
+, "DS Automobiles|DS 3 Crossback E-Tense": 48
+, "Smart|Fortwo ED": 47
+, "Opel|Mokka-e": 46
+, "BMW|iX3": 41
+, "Audi|e-tron": 38
+, "Aiways|U5": 38
+, "Audi|e-tron GT": 32
+, "Citroën|ë-Jumpy": 31
+, "Porsche|Taycan": 30
+, "Kia|Soul EV": 30
+, "Honda|e": 27
+, "Audi|Q4 e-tron": 22
+, "Mazda|MX-30": 18
+, "Hyundai|Ioniq Electric": 18
+, "Volvo|XC40 Recharge pure electric": 16
+, "Seat|Mii Electric": 13
+, "Mercedes-Benz|EQV": 10
+, "Smart|Forfour ED": 8
+, "Mercedes-Benz|EQC": 8
+, "Peugeot|e-Expert": 7
+, "Lexus|UX 300e": 5
+, "Jaguar|I-Pace": 4
+, "Opel|Zafira-e": 3
+, "Mercedes-Benz|eVito": 3
+, "other": 3
 });
