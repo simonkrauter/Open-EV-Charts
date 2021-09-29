@@ -62,6 +62,7 @@ db.insert(db.countries.UK, "q2018-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 293
 , "BMW|i3 BEV": 256
 , "Volkswagen|e-Golf": 134
+, "Hyundai|Ioniq Electric": 87
 , "Kia|Soul EV": 58
 , "Nissan|e-NV200": 9
 , "Volkswagen|e-up!": 4
@@ -128,8 +129,11 @@ db.insert(db.countries.UK, "q2018-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 156
 , "Kia|Soul EV": 96
 , "Jaguar|I-Pace": 92
+, "Hyundai|Ioniq Electric": 84
+, "Smart|Fortwo ED": 53
 , "Nissan|e-NV200": 16
 , "Volkswagen|e-up!": 13
+, "Smart|Forfour ED": 12
 , "Peugeot|iOn": 5
 });
 
@@ -192,6 +196,9 @@ db.insert(db.countries.UK, "q2018-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 332
 , "Jaguar|I-Pace": 211
 , "Kia|Soul EV": 181
+, "Hyundai|Ioniq Electric": 137
+, "Smart|Fortwo ED": 105
+, "Smart|Forfour ED": 25
 , "Nissan|e-NV200": 23
 , "Volkswagen|e-up!": 5
 });
@@ -254,7 +261,10 @@ db.insert(db.countries.UK, "q2018-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 358
 , "Tesla|Model S": 351
 , "Tesla|Model X": 322
+, "Hyundai|Ioniq Electric": 136
+, "Smart|Fortwo ED": 112
 , "Kia|Soul EV": 88
+, "Smart|Forfour ED": 74
 , "Nissan|e-NV200": 25
 , "Volkswagen|e-up!": 5
 , "Peugeot|iOn": 1
@@ -320,6 +330,8 @@ db.insert(db.countries.UK, "q2019-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 320
 , "Kia|Niro EV": 205
 , "Hyundai|Ioniq Electric": 146
+, "Smart|Fortwo ED": 112
+, "Smart|Forfour ED": 66
 , "Audi|e-tron": 63
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
@@ -389,6 +401,8 @@ db.insert(db.countries.UK, "q2019-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model 3": 177
 , "Hyundai|Ioniq Electric": 66
 , "Nissan|e-NV200": 51
+, "Smart|Forfour ED": 23
+, "Smart|Fortwo ED": 20
 , "Mercedes-Benz|eVito": 12
 , "Volkswagen|e-up!": 3
 , "Tesla|Roadster": 1
@@ -457,8 +471,10 @@ db.insert(db.countries.UK, "q2019-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 256
 , "Hyundai|Ioniq Electric": 172
 , "Kia|Niro EV": 169
+, "Smart|Fortwo ED": 136
 , "Nissan|e-NV200": 72
 , "MG|ZS EV": 66
+, "Smart|Forfour ED": 65
 , "Mercedes-Benz|EQC": 48
 , "Volkswagen|e-up!": 1
 , "Peugeot|Partner Electric": 1
@@ -526,10 +542,12 @@ db.insert(db.countries.UK, "q2019-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 254
 , "Renault|Zoe": 216
 , "Tesla|Model S": 201
+, "Smart|Fortwo ED": 120
 , "Mercedes-Benz|EQC": 103
 , "Hyundai|Ioniq Electric": 89
 , "Nissan|e-NV200": 73
 , "Kia|Niro EV": 73
+, "Smart|Forfour ED": 25
 , "Mini|Cooper SE Electric": 11
 , "Mercedes-Benz|eVito": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
@@ -603,7 +621,9 @@ db.insert(db.countries.UK, "q2020-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Soul EV": 217
 , "Tesla|Model X": 178
 , "Tesla|Model S": 155
+, "Smart|Forfour ED": 134
 , "Mercedes-Benz|EQC": 122
+, "Smart|Fortwo ED": 110
 , "Volkswagen|e-up!": 91
 , "Škoda|Citigo-e": 80
 , "DS Automobiles|DS 3 Crossback E-Tense": 79
@@ -681,6 +701,8 @@ db.insert(db.countries.UK, "q2020-2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 197
 , "Kia|Soul EV": 151
 , "Mercedes-Benz|EQC": 121
+, "Smart|Forfour ED": 110
+, "Smart|Fortwo ED": 69
 , "DS Automobiles|DS 3 Crossback E-Tense": 42
 , "Volkswagen|e-up!": 36
 , "Škoda|Citigo-e": 35
@@ -759,9 +781,11 @@ db.insert(db.countries.UK, "q2020-3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 604
 , "Honda|e": 556
 , "Peugeot|e-2008": 505
+, "Smart|Forfour ED": 340
 , "Kia|Soul EV": 314
 , "Tesla|Model S": 285
 , "Polestar|2": 249
+, "Smart|Fortwo ED": 242
 , "DS Automobiles|DS 3 Crossback E-Tense": 139
 , "Seat|Mii Electric": 117
 , "Škoda|Citigo-e": 115
@@ -849,7 +873,9 @@ db.insert(db.countries.UK, "q2020-4", db.dsTypes.ElectricCarsByModel, "https://a
 , "MG|MG5 EV": 273
 , "Tesla|Model S": 270
 , "Kia|Soul EV": 202
+, "Smart|Fortwo ED": 200
 , "DS Automobiles|DS 3 Crossback E-Tense": 190
+, "Smart|Forfour ED": 138
 , "Seat|Mii Electric": 111
 , "Nissan|e-NV200": 99
 , "Mercedes-Benz|EQV": 93
@@ -934,6 +960,7 @@ db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 740
 , "Renault|Zoe": 626
 , "Volkswagen|ID.4": 480
+, "Smart|Fortwo ED": 271
 , "Mazda|MX-30": 264
 , "Vauxhall|Mokka-e": 250
 , "Citroën|ë-C4": 230
@@ -943,6 +970,7 @@ db.insert(db.countries.UK, "q2021-1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 177
 , "Volvo|XC40 Recharge pure electric": 154
 , "DS Automobiles|DS 3 Crossback E-Tense": 139
+, "Smart|Forfour ED": 127
 , "Lexus|UX 300e": 117
 , "Honda|e": 95
 , "Tesla|Model X": 50
