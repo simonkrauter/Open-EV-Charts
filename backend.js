@@ -49,14 +49,14 @@ var db = {
   insert: function(country, dateString, dsType, source, data) {
     // Adds the data for one counry and one month or one quarter and one dataset type.
     // - country:     country enum value
-    // - dateString:  month in the form "2020-01" or quarter in the form "q2020-1"
+    // - dateString:  month in the form "2020-01" or quarter in the form "2020-Q1"
     // - dsType:      dataset dsType enum value
     // - source:      source URL
     // - data:        number of sales or
     //                object of brand -> number of sales or
     //                object of model -> number of sales
 
-    if (dateString.substr(0, 1) == 'q') {
+    if (dateString.substr(5, 1) == 'Q') {
       var dataset =
       { country: country
       , countryName: this.countryNames[country]
@@ -69,7 +69,7 @@ var db = {
         if (val > 0)
           dataset.data[key] = val;
       }
-      dataset.year = parseInt(dateString.substr(1, 4));
+      dataset.year = parseInt(dateString.substr(0, 4));
       dataset.month = 1 + (parseInt(dateString.substr(6, 1)) - 1) * 3;
       for (var i = 0; i < 3; i++) {
         dataset.monthString = this.formatMonth(dataset.year, dataset.month);
