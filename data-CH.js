@@ -1310,7 +1310,6 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 , "Mercedes-Benz|eVito": 1
 , "Kia|Soul EV": 1
-, "Smart|Forfour ED": -147
 , "other": 1
 });
 
