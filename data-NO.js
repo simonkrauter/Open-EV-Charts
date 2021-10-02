@@ -2648,6 +2648,85 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 131
 });
 
+db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 5782
+, "Volkswagen": 1444
+, "Hyundai": 1118
+, "Audi": 1106
+, "Toyota": 1073
+, "Škoda": 1000
+, "Ford": 865
+, "Volvo": 758
+, "BMW": 619
+, "Mercedes-Benz": 554
+, "Peugeot": 540
+, "Nissan": 466
+, "Mazda": 408
+, "Kia": 386
+, "Citroën": 336
+, "Suzuki": 217
+, "Opel": 215
+, "MG": 176
+, "Mitsubishi": 121
+, "Polestar": 80
+, "other": 728
+});
+
+db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/9",
+{ "Tesla|Model Y": 3564
+, "Tesla|Model 3": 2218
+, "Škoda|Enyaq": 778
+, "Audi|e-tron": 667
+, "Volkswagen|ID.4": 655
+, "Hyundai|Ioniq 5": 650
+, "Ford|Mustang Mach-E": 593
+, "Volkswagen|ID.3": 455
+, "Nissan|Leaf": 409
+, "Audi|Q4 e-tron": 342
+, "Hyundai|Kona Electric": 299
+, "Citroën|ë-C4": 289
+, "Mazda|MX-30": 263
+, "Peugeot|e-2008": 250
+, "Toyota|Proace Electric": 231
+, "Kia|Niro EV": 214
+, "Volvo|XC40 Recharge pure electric": 181
+, "Mercedes-Benz|EQC": 161
+, "BMW|i3 BEV": 158
+, "MG|ZS EV": 155
+, "BMW|iX3": 129
+, "Peugeot|e-208": 125
+, "Opel|Mokka-e": 119
+, "Škoda|Citigo-e": 110
+, "Mercedes-Benz|EQA": 108
+, "Kia|Soul EV": 97
+, "Polestar|2": 80
+, "Hyundai|Ioniq Electric": 77
+, "Volkswagen|e-up!": 74
+, "Porsche|Taycan": 74
+, "Lexus|UX 300e": 72
+, "Peugeot|e-Expert": 57
+, "Renault|Zoe": 54
+, "Audi|e-tron GT": 52
+, "Jaguar|I-Pace": 49
+, "Opel|Corsa-e": 47
+, "Fiat|500e": 46
+, "Nissan|e-NV200": 43
+, "Citroën|ë-Jumpy": 36
+, "Opel|Vivaro-e": 35
+, "Honda|e": 26
+, "Mini|Cooper SE Electric": 16
+, "Renault|Kangoo Z.E.": 14
+, "Mercedes-Benz|EQV": 14
+, "Xiaopeng|Xpeng G3": 13
+, "Peugeot|e-Traveller": 11
+, "Opel|Zafira-e": 11
+, "Mercedes-Benz|eVito": 10
+, "Nio|ES8": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 8
+, "other": 159
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
