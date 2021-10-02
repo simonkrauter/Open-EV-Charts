@@ -2596,36 +2596,36 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 });
 
 db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8",
-{ "Tesla|Model Y": 1308
-, "Ford|Mustang Mach-E": 896
-, "Volkswagen|ID.4": 858
-, "Tesla|Model 3": 773
-, "Volkswagen|ID.3": 648
+{ "Tesla|Model Y": 1309
+, "Ford|Mustang Mach-E": 907
+, "Volkswagen|ID.4": 861
+, "Tesla|Model 3": 774
+, "Volkswagen|ID.3": 649
 , "Hyundai|Ioniq 5": 629
-, "Audi|Q4 e-tron": 587
-, "Audi|e-tron": 564
-, "Nissan|Leaf": 443
-, "Mercedes-Benz|EQC": 422
-, "Citroën|ë-C4": 341
+, "Audi|Q4 e-tron": 589
+, "Audi|e-tron": 565
+, "Nissan|Leaf": 444
+, "Mercedes-Benz|EQC": 423
+, "Citroën|ë-C4": 342
 , "MG|ZS EV": 338
-, "Polestar|2": 298
+, "Polestar|2": 299
 , "Škoda|Enyaq": 296
 , "Volvo|XC40 Recharge pure electric": 285
 , "Peugeot|e-2008": 262
 , "BMW|iX3": 250
 , "Hyundai|Kona Electric": 239
-, "Mercedes-Benz|EQA": 235
-, "Kia|Niro EV": 206
-, "BMW|i3 BEV": 200
+, "Mercedes-Benz|EQA": 237
+, "Kia|Niro EV": 207
+, "BMW|i3 BEV": 201
 , "Toyota|Proace Electric": 199
 , "Škoda|Citigo-e": 175
+, "Peugeot|e-208": 155
 , "Mazda|MX-30": 155
-, "Peugeot|e-208": 154
-, "Porsche|Taycan": 143
-, "Kia|Soul EV": 133
+, "Porsche|Taycan": 144
+, "Kia|Soul EV": 134
 , "Peugeot|e-Expert": 112
-, "Opel|Mokka-e": 105
-, "Volkswagen|e-up!": 86
+, "Opel|Mokka-e": 107
+, "Volkswagen|e-up!": 87
 , "Nissan|e-NV200": 84
 , "Audi|e-tron GT": 83
 , "Opel|Corsa-e": 82
@@ -2633,10 +2633,10 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 71
 , "Jaguar|I-Pace": 65
 , "Opel|Vivaro-e": 51
-, "Lexus|UX 300e": 41
+, "Lexus|UX 300e": 42
+, "Citroën|ë-Jumpy": 40
 , "Peugeot|e-Traveller": 39
 , "Fiat|500e": 39
-, "Citroën|ë-Jumpy": 39
 , "Mini|Cooper SE Electric": 32
 , "Nio|ES8": 18
 , "Xiaopeng|Xpeng G3": 17
