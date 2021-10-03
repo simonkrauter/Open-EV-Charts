@@ -2040,29 +2040,29 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 170
 });
 
-db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Toyota": 1318
+db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Toyota": 1866
 , "BMW": 1073
 , "Volvo": 1060
+, "Mercedes-Benz": 984
+, "Volkswagen": 976
+, "Peugeot": 955
 , "Audi": 813
-, "Peugeot": 775
-, "Mercedes-Benz": 745
-, "Volkswagen": 537
+, "Ford": 546
+, "Nissan": 462
 , "Polestar": 444
 , "Kia": 416
-, "Nissan": 395
-, "MG": 298
 , "Škoda": 298
+, "MG": 298
 , "Hyundai": 271
+, "Citroën": 262
 , "Mazda": 249
-, "Ford": 168
+, "Opel": 209
 , "Lexus": 156
-, "Opel": 152
-, "Citroën": 135
-, "Mitsubishi": 134
+, "Mitsubishi": 141
 , "Renault": 132
 , "Tesla": 108
-, "other": 624
+, "other": 5
 });
 
 db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/1",
@@ -2112,28 +2112,28 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 200
 });
 
-db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Volvo": 1546
-, "Toyota": 1360
-, "Peugeot": 833
+db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Toyota": 1919
+, "Volvo": 1546
+, "Peugeot": 1091
+, "Volkswagen": 1023
 , "BMW": 793
+, "Mercedes-Benz": 717
 , "Audi": 675
-, "Volkswagen": 470
+, "Ford": 567
+, "Nissan": 514
 , "Kia": 459
-, "Mercedes-Benz": 449
-, "Nissan": 433
 , "Hyundai": 425
 , "Polestar": 422
+, "Citroën": 394
 , "Škoda": 389
 , "Tesla": 345
 , "MG": 264
+, "Opel": 211
 , "Mazda": 207
-, "Ford": 206
-, "Mitsubishi": 196
+, "Mitsubishi": 204
 , "Lexus": 174
-, "Citroën": 136
-, "Opel": 131
-, "other": 774
+, "other": 1089
 });
 
 db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/2",
@@ -2186,28 +2186,28 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 93
 });
 
-db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Tesla": 2181
-, "Toyota": 1536
+db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Toyota": 2352
+, "Tesla": 2181
+, "Volkswagen": 1849
 , "Volvo": 1438
-, "Volkswagen": 1313
+, "Mercedes-Benz": 1368
 , "BMW": 1125
-, "Mercedes-Benz": 993
-, "Peugeot": 724
-, "Nissan": 658
+, "Peugeot": 1063
+, "Ford": 818
+, "Nissan": 729
 , "Audi": 519
 , "Škoda": 498
 , "Kia": 457
 , "Hyundai": 424
 , "MG": 412
 , "Polestar": 396
-, "Ford": 384
 , "Mitsubishi": 362
 , "Suzuki": 294
+, "Opel": 286
 , "Mazda": 227
-, "Opel": 194
 , "Lexus": 163
-, "other": 1023
+, "other": 1724
 });
 
 db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3",
@@ -2263,28 +2263,28 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 101
 });
 
-db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Volkswagen": 2429
-, "Toyota": 1629
+db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Volkswagen": 3219
+, "Toyota": 2325
 , "Volvo": 1338
+, "Mercedes-Benz": 1107
 , "BMW": 883
 , "Škoda": 835
-, "Mercedes-Benz": 767
+, "Ford": 803
+, "Peugeot": 798
 , "Audi": 764
-, "Peugeot": 536
 , "Polestar": 469
-, "Ford": 403
+, "Nissan": 419
 , "Suzuki": 385
 , "Hyundai": 360
-, "Nissan": 337
 , "Mazda": 324
 , "Kia": 286
+, "Opel": 255
 , "MG": 218
-, "Opel": 170
 , "Lexus": 104
-, "Mitsubishi": 88
-, "Tesla": 8
-, "other": 833
+, "Mitsubishi": 103
+, "Tesla": 4
+, "other": 1643
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4",
@@ -2340,28 +2340,28 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 131
 });
 
-db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Toyota": 1745
-, "Ford": 1587
-, "Volkswagen": 1337
+db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Toyota": 2295
+, "Ford": 1866
+, "Volkswagen": 1815
 , "Škoda": 1256
 , "Volvo": 1161
-, "Mercedes-Benz": 875
+, "Mercedes-Benz": 1143
+, "Peugeot": 850
 , "BMW": 722
-, "Peugeot": 598
 , "Audi": 577
+, "Citroën": 551
 , "Hyundai": 541
-, "Tesla": 505
+, "Tesla": 504
 , "Kia": 409
-, "Citroën": 348
+, "Nissan": 366
 , "Suzuki": 337
-, "Nissan": 299
 , "Polestar": 280
+, "Opel": 265
 , "MG": 241
 , "Mazda": 232
-, "Opel": 144
-, "Mitsubishi": 125
-, "other": 744
+, "Mitsubishi": 140
+, "other": 1411
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5",
@@ -2417,28 +2417,28 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 135
 });
 
-db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
 { "Tesla": 3197
-, "Toyota": 1992
-, "Volkswagen": 1830
-, "Ford": 1637
+, "Toyota": 2633
+, "Volkswagen": 2543
+, "Ford": 2116
 , "Škoda": 1483
 , "Volvo": 1481
 , "BMW": 1327
+, "Mercedes-Benz": 1150
 , "Hyundai": 926
-, "Mercedes-Benz": 869
+, "Peugeot": 848
 , "Audi": 806
+, "Nissan": 643
 , "Kia": 589
-, "Peugeot": 573
-, "Nissan": 561
+, "Citroën": 401
 , "Suzuki": 378
 , "MG": 368
 , "Polestar": 340
 , "Mazda": 306
-, "Mitsubishi": 269
-, "Citroën": 228
-, "Opel": 185
-, "other": 1047
+, "Opel": 282
+, "Mitsubishi": 282
+, "other": 1779
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6",
@@ -2494,28 +2494,28 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 126
 });
 
-db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Ford": 1091
-, "Volkswagen": 1031
-, "Toyota": 992
+db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Volkswagen": 1357
+, "Toyota": 1334
+, "Ford": 1287
 , "Hyundai": 886
 , "Volvo": 877
 , "BMW": 825
+, "Mercedes-Benz": 801
 , "Škoda": 725
 , "Audi": 713
-, "Mercedes-Benz": 579
-, "Peugeot": 368
+, "Peugeot": 512
 , "Kia": 336
-, "Nissan": 261
+, "Nissan": 293
+, "Opel": 273
 , "MG": 243
-, "Opel": 206
+, "Citroën": 204
 , "Mazda": 171
 , "Polestar": 152
-, "Citroën": 137
+, "Mitsubishi": 133
 , "Suzuki": 124
-, "Mitsubishi": 115
 , "Tesla": 4
-, "other": 671
+, "other": 1126
 });
 
 db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7",
@@ -2571,28 +2571,28 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 43
 });
 
-db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-{ "Tesla": 2083
-, "Volkswagen": 2028
+db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
+{ "Volkswagen": 2765
+, "Tesla": 2083
+, "Toyota": 1809
+, "Ford": 1490
 , "Audi": 1325
-, "Toyota": 1208
-, "Ford": 1140
+, "Mercedes-Benz": 1302
 , "Hyundai": 1040
-, "Mercedes-Benz": 943
+, "Peugeot": 989
 , "BMW": 857
 , "Volvo": 698
-, "Peugeot": 664
 , "Škoda": 648
-, "Nissan": 510
-, "Citroën": 399
+, "Nissan": 572
+, "Citroën": 559
+, "Opel": 483
 , "Kia": 396
 , "MG": 346
-, "Opel": 343
 , "Polestar": 299
 , "Mazda": 251
+, "Mitsubishi": 196
 , "Suzuki": 180
-, "Mitsubishi": 162
-, "other": 907
+, "other": 1305
 });
 
 db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8",
@@ -2648,28 +2648,28 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 131
 });
 
-db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk (Personbiler+Varebiler)",
 { "Tesla": 5782
-, "Volkswagen": 1444
+, "Volkswagen": 1906
+, "Toyota": 1647
+, "Ford": 1293
 , "Hyundai": 1118
 , "Audi": 1106
-, "Toyota": 1073
 , "Škoda": 1000
-, "Ford": 865
+, "Mercedes-Benz": 928
+, "Peugeot": 767
 , "Volvo": 758
 , "BMW": 619
-, "Mercedes-Benz": 554
-, "Peugeot": 540
-, "Nissan": 466
+, "Nissan": 532
+, "Citroën": 439
 , "Mazda": 408
 , "Kia": 386
-, "Citroën": 336
+, "Opel": 309
 , "Suzuki": 217
-, "Opel": 215
 , "MG": 176
-, "Mitsubishi": 121
+, "Mitsubishi": 140
 , "Polestar": 80
-, "other": 728
+, "other": 1122
 });
 
 db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/9",
@@ -2725,31 +2725,3 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "other": 159
 });
-
-
-// Template:
-
-// db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
-// { "Tesla":
-// , "Volkswagen":
-// , "Volvo":
-// , "BMW":
-// , "Toyota":
-// , "Mercedes-Benz":
-// , "Škoda":
-// , "Nissan":
-// , "Polestar":
-// , "Mazda":
-// , "Hyundai":
-// , "Audi":
-// , "Peugeot":
-// , "Kia":
-// , "MG":
-// , "Suzuki":
-// , "Renault":
-// , "Ford":
-// , "Mitsubishi":
-// , "Opel":
-// , "Citroën":
-// , "other":
-// });
