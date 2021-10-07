@@ -665,12 +665,12 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 319
 , "Lexus": 303
 , "DS Automobiles": 279
-, "Tesla": 262
+, "Tesla": 261
 , "Maserati": 126
 , "Infiniti": 77
 , "Cadillac": 47
 , "Chevrolet": 35
-, "other": 1355
+, "other": 1356
 });
 
 db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=8",
@@ -3652,7 +3652,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Suzuki": 1304
 , "Honda": 732
 , "Jaguar": 703
-, "Tesla": 484
+, "Tesla": 482
 , "Subaru": 434
 , "Alfa Romeo": 268
 , "Lexus": 200
@@ -3661,7 +3661,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "SsangYong": 149
 , "Maserati": 51
 , "Cadillac": 20
-, "other": 1715
+, "other": 1717
 });
 
 db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
