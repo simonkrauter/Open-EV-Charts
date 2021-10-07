@@ -331,7 +331,7 @@ var db = {
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.year) {
       // single year
       var year = latestYear;
-      for (var i = 0; i < 3; i++) {
+      for (var i = 0; i < 4; i++) {
         param.options["y" + year] = year;
         year--;
       }
