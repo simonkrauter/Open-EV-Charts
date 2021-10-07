@@ -3070,3 +3070,98 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 1
 , "other": 79
 });
+
+db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/september/",
+{ "Kia": 2464
+, "Volkswagen": 2137
+, "Toyota": 2054
+, "BMW": 1555
+, "Ford": 1521
+, "Peugeot": 1375
+, "Opel": 1300
+, "Škoda": 1288
+, "Hyundai": 1156
+, "Renault": 1001
+, "Mercedes-Benz": 856
+, "Audi": 850
+, "Volvo": 827
+, "Mazda": 794
+, "Tesla": 793
+, "Citroën": 619
+, "Nissan": 511
+, "Seat": 489
+, "Suzuki": 385
+, "Fiat": 339
+, "Mitsubishi": 311
+, "Mini": 273
+, "Dacia": 243
+, "Polestar": 172
+, "Porsche": 129
+, "Land Rover": 125
+, "MG": 100
+, "Jeep": 68
+, "Honda": 66
+, "Lexus": 47
+, "DS Automobiles": 35
+, "Smart": 12
+, "Alfa Romeo": 8
+, "Jaguar": 7
+, "Subaru": 6
+, "Maserati": 3
+, "Aiways": 2
+, "other": 742
+});
+
+db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/9",
+{ "Kia|Niro EV": 576
+, "Škoda|Enyaq": 546
+, "Tesla|Model 3": 446
+, "Tesla|Model Y": 347
+, "Volkswagen|ID.4": 296
+, "BMW|iX3": 272
+, "Audi|Q4 e-tron": 193
+, "Polestar|2": 171
+, "Hyundai|Kona Electric": 168
+, "Ford|Mustang Mach-E": 164
+, "Volkswagen|ID.3": 156
+, "Mazda|MX-30": 147
+, "Nissan|Leaf": 141
+, "Peugeot|e-208": 128
+, "Fiat|500e": 128
+, "Opel|Mokka-e": 117
+, "Volvo|XC40 Recharge pure electric": 98
+, "Mercedes-Benz|EQA": 94
+, "Peugeot|e-2008": 85
+, "Renault|Zoe": 84
+, "MG|ZS EV": 80
+, "Mini|Cooper SE Electric": 75
+, "Opel|Corsa-e": 73
+, "Audi|e-tron": 73
+, "BMW|i3 BEV": 71
+, "Hyundai|Ioniq 5": 69
+, "Citroën|ë-Jumpy": 69
+, "Hyundai|Ioniq Electric": 63
+, "Porsche|Taycan": 53
+, "Kia|Soul EV": 43
+, "Citroën|ë-C4": 27
+, "Mercedes-Benz|EQC": 25
+, "Audi|e-tron GT": 25
+, "Seat|Mii Electric": 16
+, "Peugeot|e-Expert": 11
+, "Volkswagen|e-up!": 10
+, "Mercedes-Benz|EQV": 9
+, "Smart|Fortwo ED": 8
+, "Lexus|UX 300e": 7
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Renault|Twingo Z.E.": 6
+, "Dacia|Spring": 6
+, "Toyota|Proace Electric": 5
+, "Mercedes-Benz|eVito": 5
+, "Smart|Forfour ED": 4
+, "Honda|e": 3
+, "BMW|iX": 3
+, "Peugeot|e-Traveller": 2
+, "Aiways|U5": 2
+, "Jaguar|I-Pace": 1
+, "other": 24
+});
