@@ -4,7 +4,7 @@
 
 db.addCountry("NO", "Norway");
 
-db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar",
 { "Volkswagen": 1384
 , "Toyota": 1153
 , "BMW": 1123
@@ -25,9 +25,10 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 168
 , "Mitsubishi": 119
 , "Subaru": 70
+, "other": 329
 });
 
-db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/1",
+db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar",
 { "BMW|i3 BEV": 614
 , "Volkswagen|e-Golf": 514
 , "Renault|Zoe": 334
@@ -35,22 +36,18 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 120
 , "Tesla|Model S": 110
 , "Tesla|Model X": 105
-, "Nissan|e-NV200": 52
 , "Nissan|Leaf": 45
 , "Volkswagen|e-up!": 43
 , "Opel|Ampera-e": 28
-, "Peugeot|Partner Electric": 15
 , "Smart|Fortwo ED": 12
-, "Renault|Kangoo Z.E.": 6
-, "Citroën|Berlingo Electric": 5
 , "Smart|Forfour ED": 2
 , "Peugeot|iOn": 2
 , "Ford|Focus Electric": 2
 , "Mitsubishi|i-MiEV": 1
-, "other": 5
+, "other": 26
 });
 
-db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar",
 { "Volkswagen": 1271
 , "Toyota": 1086
 , "BMW": 975
@@ -71,9 +68,10 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Tesla": 81
 , "Citroën": 115
 , "Subaru": 121
+, "other": 419
 });
 
-db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/2",
+db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar",
 { "Nissan|Leaf": 781
 , "Volkswagen|e-Golf": 472
 , "BMW|i3 BEV": 377
@@ -82,22 +80,18 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 76
 , "Volkswagen|e-up!": 61
 , "Tesla|Model X": 53
-, "Peugeot|Partner Electric": 35
 , "Tesla|Model S": 28
 , "Peugeot|iOn": 27
-, "Renault|Kangoo Z.E.": 24
 , "Ford|Focus Electric": 21
 , "Opel|Ampera-e": 15
-, "Nissan|e-NV200": 15
 , "Smart|Fortwo ED": 10
-, "Citroën|Berlingo Electric": 10
 , "Citroën|C-Zero": 4
 , "Smart|Forfour ED": 1
 , "Mitsubishi|i-MiEV": 1
-, "other": 2
+, "other": 9
 });
 
-db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars",
 { "Volkswagen": 1353
 , "Nissan": 2333
 , "Toyota": 1037
@@ -118,9 +112,10 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 181
 , "Citroën": 186
 , "Subaru": 139
+, "other": 568
 });
 
-db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/3",
+db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars",
 { "Nissan|Leaf": 2172
 , "Tesla|Model X": 727
 , "Tesla|Model S": 676
@@ -128,23 +123,19 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 433
 , "Renault|Zoe": 347
 , "Hyundai|Ioniq Electric": 194
-, "Renault|Kangoo Z.E.": 121
 , "Kia|Soul EV": 94
 , "Opel|Ampera-e": 48
-, "Peugeot|Partner Electric": 47
 , "Mitsubishi|i-MiEV": 38
 , "Volkswagen|e-up!": 29
 , "Peugeot|iOn": 25
 , "Ford|Focus Electric": 20
-, "Nissan|e-NV200": 18
 , "Smart|Fortwo ED": 10
-, "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 5
 , "Chevrolet|Bolt": 3
-, "other": 3
+, "other": 17
 });
 
-db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april",
 { "Volkswagen": 1970
 , "Toyota": 1434
 , "Nissan": 1149
@@ -165,9 +156,10 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 196
 , "Citroën": 206
 , "Subaru": 267
+, "other": 418
 });
 
-db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/4",
+db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april",
 { "Nissan|Leaf": 997
 , "Volkswagen|e-Golf": 538
 , "BMW|i3 BEV": 525
@@ -177,21 +169,18 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 138
 , "Kia|Soul EV": 137
 , "Opel|Ampera-e": 83
-, "Renault|Kangoo Z.E.": 69
-, "Peugeot|Partner Electric": 40
 , "Ford|Focus Electric": 32
 , "Mitsubishi|i-MiEV": 31
 , "Volkswagen|e-up!": 25
 , "Peugeot|iOn": 25
 , "Citroën|C-Zero": 19
 , "Smart|Fortwo ED": 15
-, "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 6
 , "Chevrolet|Bolt": 2
-, "other": 3
+, "other": 27
 });
 
-db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai",
 { "Volkswagen": 1929
 , "Toyota": 1639
 , "Nissan": 824
@@ -212,9 +201,10 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 237
 , "Citroën": 150
 , "Subaru": 110
+, "other": 457
 });
 
-db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/5",
+db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai",
 { "Nissan|Leaf": 644
 , "Volkswagen|e-Golf": 622
 , "BMW|i3 BEV": 407
@@ -224,23 +214,19 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 167
 , "Opel|Ampera-e": 102
 , "Kia|Soul EV": 102
-, "Renault|Kangoo Z.E.": 42
-, "Nissan|e-NV200": 42
 , "Citroën|C-Zero": 38
 , "Peugeot|iOn": 30
 , "Volkswagen|e-up!": 26
-, "Peugeot|Partner Electric": 22
-, "Citroën|Berlingo Electric": 13
 , "Smart|Fortwo ED": 12
 , "Ford|Focus Electric": 11
 , "Mitsubishi|i-MiEV": 9
 , "Smart|Forfour ED": 4
 , "Chevrolet|Bolt": 2
 , "Jaguar|I-Pace": 1
-, "other": 4
+, "other": 36
 });
 
-db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni",
 { "Volkswagen": 2238
 , "Toyota": 1561
 , "Nissan": 1346
@@ -261,9 +247,10 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 289
 , "Citroën": 194
 , "Subaru": 151
+, "other": 587
 });
 
-db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/6",
+db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni",
 { "Nissan|Leaf": 1152
 , "Tesla|Model X": 645
 , "Volkswagen|e-Golf": 614
@@ -272,24 +259,20 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 183
 , "Hyundai|Ioniq Electric": 182
 , "Opel|Ampera-e": 117
-, "Nissan|e-NV200": 103
-, "Renault|Kangoo Z.E.": 87
 , "Kia|Soul EV": 62
-, "Peugeot|Partner Electric": 45
 , "Volkswagen|e-up!": 25
 , "Peugeot|iOn": 22
 , "Citroën|C-Zero": 20
 , "Ford|Focus Electric": 18
 , "Mitsubishi|i-MiEV": 17
 , "Hyundai|Kona Electric": 16
-, "Citroën|Berlingo Electric": 14
 , "Smart|Fortwo ED": 13
 , "Smart|Forfour ED": 11
 , "Chevrolet|Bolt": 6
-, "other": 7
+, "other": 68
 });
 
-db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2",
 { "Volkswagen": 1519
 , "Toyota": 1112
 , "Nissan": 1157
@@ -310,24 +293,21 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 141
 , "Citroën": 130
 , "Subaru": 211
+, "other": 433
 });
 
-db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/7",
+db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2",
 { "Nissan|Leaf": 980
 , "Volkswagen|e-Golf": 413
 , "BMW|i3 BEV": 284
 , "Hyundai|Ioniq Electric": 175
-, "Nissan|e-NV200": 94
 , "Opel|Ampera-e": 89
 , "Kia|Soul EV": 74
 , "Renault|Zoe": 62
 , "Tesla|Model X": 40
-, "Renault|Kangoo Z.E.": 39
-, "Peugeot|Partner Electric": 27
 , "Volkswagen|e-up!": 25
 , "Tesla|Model S": 24
 , "Mitsubishi|i-MiEV": 16
-, "Citroën|Berlingo Electric": 15
 , "Smart|Fortwo ED": 13
 , "Peugeot|iOn": 13
 , "Ford|Focus Electric": 9
@@ -335,10 +315,10 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 3
 , "Chevrolet|Bolt": 3
 , "Jaguar|I-Pace": 1
-, "other": 5
+, "other": 64
 });
 
-db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2018",
 { "Volkswagen": 2568
 , "Toyota": 1484
 , "Nissan": 1722
@@ -359,37 +339,34 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 189
 , "Citroën": 142
 , "Subaru": 173
+, "other": 743
 });
 
-db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/8",
+db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2018",
 { "Nissan|Leaf": 1242
 , "Volkswagen|e-Golf": 764
 , "BMW|i3 BEV": 473
 , "Renault|Zoe": 386
 , "Hyundai|Kona Electric": 263
-, "Nissan|e-NV200": 205
 , "Opel|Ampera-e": 172
 , "Kia|Soul EV": 169
 , "Hyundai|Ioniq Electric": 159
 , "Tesla|Model X": 113
 , "Tesla|Model S": 82
-, "Renault|Kangoo Z.E.": 79
 , "Volkswagen|e-up!": 63
-, "Peugeot|Partner Electric": 51
 , "Smart|Fortwo ED": 32
 , "Peugeot|iOn": 29
 , "Mitsubishi|i-MiEV": 25
 , "Jaguar|I-Pace": 24
-, "Citroën|Berlingo Electric": 16
 , "Ford|Focus Electric": 14
 , "Citroën|C-Zero": 8
 , "Chevrolet|Bolt": 6
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 1
-, "other": 6
+, "other": 128
 });
 
-db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2018",
 { "Volkswagen": 534
 , "Toyota": 1116
 , "Nissan": 1158
@@ -410,25 +387,22 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 166
 , "Citroën": 123
 , "Subaru": 118
+, "other": 483
 });
 
-db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/9",
+db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2018",
 { "Tesla|Model X": 1234
 , "Nissan|Leaf": 1072
 , "Tesla|Model S": 782
 , "BMW|i3 BEV": 458
 , "Hyundai|Ioniq Electric": 288
 , "Hyundai|Kona Electric": 180
-, "Nissan|e-NV200": 151
 , "Volkswagen|e-Golf": 133
 , "Kia|Soul EV": 126
 , "Renault|Zoe": 123
 , "Jaguar|I-Pace": 114
 , "Volkswagen|e-up!": 53
 , "Opel|Ampera-e": 48
-, "Citroën|Berlingo Electric": 40
-, "Peugeot|Partner Electric": 37
-, "Renault|Kangoo Z.E.": 31
 , "Smart|Forfour ED": 29
 , "Peugeot|iOn": 25
 , "Mitsubishi|i-MiEV": 21
@@ -436,10 +410,10 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 12
 , "Ford|Focus Electric": 12
 , "Chevrolet|Bolt": 3
-, "other": 7
+, "other": 81
 });
 
-db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2018",
 { "Volkswagen": 1639
 , "Toyota": 1206
 , "Nissan": 1367
@@ -460,9 +434,10 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 234
 , "Citroën": 108
 , "Subaru": 162
+, "other": 861
 });
 
-db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/10",
+db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2018",
 { "Nissan|Leaf": 1293
 , "Volkswagen|e-Golf": 978
 , "BMW|i3 BEV": 525
@@ -471,13 +446,9 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 211
 , "Kia|Soul EV": 162
 , "Tesla|Model X": 118
-, "Nissan|e-NV200": 86
 , "Tesla|Model S": 84
 , "Volkswagen|e-up!": 66
-, "Citroën|Berlingo Electric": 62
 , "Hyundai|Kona Electric": 54
-, "Renault|Kangoo Z.E.": 30
-, "Peugeot|Partner Electric": 27
 , "Peugeot|iOn": 23
 , "Opel|Ampera-e": 23
 , "Smart|Forfour ED": 18
@@ -486,10 +457,10 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 8
 , "Smart|Fortwo ED": 4
 , "Chevrolet|Bolt": 2
-, "other": 3
+, "other": 63
 });
 
-db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2",
 { "Volkswagen": 1776
 , "Toyota": 1032
 , "Nissan": 1267
@@ -510,9 +481,10 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 195
 , "Subaru": 116
 , "Citroën": 113
+, "other": 769
 });
 
-db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/11",
+db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2",
 { "Nissan|Leaf": 1209
 , "Volkswagen|e-Golf": 886
 , "BMW|i3 BEV": 714
@@ -525,22 +497,17 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 154
 , "Hyundai|Kona Electric": 130
 , "Volkswagen|e-up!": 90
-, "Renault|Kangoo Z.E.": 77
-, "Peugeot|Partner Electric": 68
-, "Nissan|e-NV200": 67
-, "Citroën|Berlingo Electric": 23
 , "Smart|Forfour ED": 21
 , "Mitsubishi|i-MiEV": 21
 , "Peugeot|iOn": 12
-, "Volkswagen|e-Crafter": 7
 , "Citroën|C-Zero": 5
 , "Ford|Focus Electric": 3
 , "Chevrolet|Bolt": 2
 , "Smart|Fortwo ED": 1
-, "other": 1
+, "other": 52
 });
 
-db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2",
 { "Volkswagen": 1890
 , "Toyota": 849
 , "Nissan": 762
@@ -561,9 +528,10 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 124
 , "Subaru": 97
 , "Citroën": 69
+, "other": 576
 });
 
-db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/12",
+db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2",
 { "Tesla|Model X": 1037
 , "Volkswagen|e-Golf": 870
 , "Nissan|Leaf": 719
@@ -575,25 +543,19 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 196
 , "Jaguar|I-Pace": 165
 , "Volkswagen|e-up!": 123
-, "Nissan|e-NV200": 87
-, "Renault|Kangoo Z.E.": 81
-, "Peugeot|Partner Electric": 47
 , "Kia|Niro EV": 34
 , "Citroën|C-Zero": 23
-, "Citroën|Berlingo Electric": 23
 , "Opel|Ampera-e": 17
 , "Peugeot|iOn": 16
 , "Mitsubishi|i-MiEV": 16
-, "Volkswagen|e-Crafter": 9
 , "Audi|e-tron": 7
 , "Smart|Forfour ED": 6
 , "Chevrolet|Bolt": 4
-, "Maxus|EV80": 1
 , "Ford|Focus Electric": 1
-, "other": 3
+, "other": 49
 });
 
-db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2019",
 { "Volkswagen": 1388
 , "BMW": 1044
 , "Toyota": 871
@@ -614,9 +576,10 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 124
 , "Jaguar": 101
 , "Mini": 86
+, "other": 347
 });
 
-db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/1",
+db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2019",
 { "Nissan|Leaf": 674
 , "Volkswagen|e-Golf": 666
 , "BMW|i3 BEV": 619
@@ -624,29 +587,23 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 325
 , "Renault|Zoe": 155
 , "Tesla|Model X": 150
-, "Nissan|e-NV200": 103
 , "Kia|Soul EV": 86
 , "Volkswagen|e-up!": 80
 , "Jaguar|I-Pace": 79
-, "Peugeot|Partner Electric": 48
 , "Opel|Ampera-e": 48
 , "Kia|Niro EV": 27
-, "Citroën|Berlingo Electric": 25
 , "Tesla|Model S": 19
 , "Tesla|Model 3": 17
-, "Renault|Kangoo Z.E.": 17
 , "Citroën|C-Zero": 17
 , "Peugeot|iOn": 12
 , "Mitsubishi|i-MiEV": 11
-, "Volkswagen|e-Crafter": 10
 , "Audi|e-tron": 8
 , "Smart|Forfour ED": 5
 , "Ford|Focus Electric": 5
-, "Maxus|EV80": 1
-, "other": 6
+, "other": 57
 });
 
-db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2019-1-1",
 { "Volkswagen": 1702
 , "Toyota": 1069
 , "BMW": 769
@@ -667,9 +624,10 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 197
 , "Opel": 175
 , "Citroën": 218
+, "other": 428
 });
 
-db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/2",
+db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2019-1-1",
 { "Tesla|Model 3": 791
 , "Volkswagen|e-Golf": 780
 , "Nissan|Leaf": 508
@@ -680,26 +638,20 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 208
 , "Tesla|Model X": 141
 , "Kia|Niro EV": 133
-, "Nissan|e-NV200": 124
 , "Audi|e-tron": 110
 , "Tesla|Model S": 84
 , "Volkswagen|e-up!": 81
 , "Opel|Ampera-e": 62
 , "Kia|Soul EV": 28
-, "Peugeot|Partner Electric": 27
-, "Citroën|Berlingo Electric": 14
-, "Maxus|EV80": 10
-, "Renault|Kangoo Z.E.": 8
 , "Peugeot|iOn": 8
 , "Smart|Forfour ED": 7
 , "Citroën|C-Zero": 7
 , "Mitsubishi|i-MiEV": 5
-, "Volkswagen|e-Crafter": 4
 , "Smart|Fortwo ED": 1
-, "other": 3
+, "other": 59
 });
 
-db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2019-1",
 { "Tesla": 5831
 , "Volkswagen": 1647
 , "Toyota": 1168
@@ -720,9 +672,10 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 196
 , "Opel": 226
 , "Citroën": 127
+, "other": 421
 });
 
-db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/3",
+db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2019-1",
 { "Tesla|Model 3": 5315
 , "Volkswagen|e-Golf": 894
 , "BMW|i3 BEV": 784
@@ -733,27 +686,21 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 341
 , "Hyundai|Kona Electric": 331
 , "Hyundai|Ioniq Electric": 314
-, "Nissan|e-NV200": 263
 , "Kia|Niro EV": 187
 , "Tesla|Model S": 166
 , "Opel|Ampera-e": 65
 , "Volkswagen|e-up!": 51
 , "Mitsubishi|i-MiEV": 38
-, "Renault|Kangoo Z.E.": 34
-, "Peugeot|Partner Electric": 18
 , "Kia|Soul EV": 16
-, "Volkswagen|e-Crafter": 11
-, "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 9
 , "Citroën|C-Zero": 9
 , "Peugeot|iOn": 8
 , "Smart|Fortwo ED": 5
-, "Maxus|EV80": 4
 , "Ford|Focus Electric": 1
-, "other": 10
+, "other": 114
 });
 
-db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2019-1-1",
 { "Tesla": 812
 , "Volkswagen": 1927
 , "Toyota": 1002
@@ -774,9 +721,10 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 280
 , "Opel": 192
 , "Citroën": 125
+, "other": 453
 });
 
-db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/4",
+db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2019-1-1",
 { "Volkswagen|e-Golf": 911
 , "Tesla|Model 3": 720
 , "BMW|i3 BEV": 467
@@ -785,29 +733,23 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 350
 , "Hyundai|Kona Electric": 306
 , "Hyundai|Ioniq Electric": 243
-, "Nissan|e-NV200": 227
 , "Renault|Zoe": 206
 , "Volkswagen|e-up!": 105
 , "Kia|Niro EV": 77
 , "Opel|Ampera-e": 69
 , "Tesla|Model X": 68
-, "Peugeot|Partner Electric": 34
 , "Kia|Soul EV": 24
 , "Tesla|Model S": 23
-, "Renault|Kangoo Z.E.": 18
-, "Citroën|Berlingo Electric": 9
 , "Peugeot|iOn": 8
-, "Maxus|EV80": 7
-, "Volkswagen|e-Crafter": 6
 , "Citroën|C-Zero": 5
 , "Smart|Forfour ED": 4
 , "Smart|Fortwo ED": 3
 , "Mitsubishi|i-MiEV": 3
 , "Ford|Focus Electric": 2
-, "other": 16
+, "other": 111
 });
 
-db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2019",
 { "Tesla": 1010
 , "Volkswagen": 1692
 , "Toyota": 2048
@@ -828,9 +770,10 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 270
 , "Opel": 184
 , "Citroën": 151
+, "other": 631
 });
 
-db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/5",
+db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2019",
 { "Volkswagen|e-Golf": 780
 , "Tesla|Model 3": 705
 , "Audi|e-tron": 530
@@ -841,27 +784,21 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 258
 , "Hyundai|Kona Electric": 234
 , "Hyundai|Ioniq Electric": 216
-, "Nissan|e-NV200": 209
 , "Kia|Niro EV": 84
 , "Volkswagen|e-up!": 71
 , "Opel|Ampera-e": 58
 , "Tesla|Model S": 47
-, "Renault|Kangoo Z.E.": 46
 , "Kia|Soul EV": 43
-, "Peugeot|Partner Electric": 30
 , "Smart|Fortwo ED": 11
 , "Smart|Forfour ED": 6
-, "Maxus|EV80": 6
-, "Citroën|Berlingo Electric": 6
-, "Volkswagen|e-Crafter": 5
 , "Mitsubishi|i-MiEV": 5
 , "Peugeot|iOn": 4
 , "Citroën|C-Zero": 4
 , "Chevrolet|Bolt": 1
-, "other": 44
+, "other": 86
 });
 
-db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2019-1",
 { "Tesla": 3763
 , "Volkswagen": 1825
 , "Toyota": 1750
@@ -882,9 +819,10 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 258
 , "Opel": 259
 , "Citroën": 144
+, "other": 560
 });
 
-db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/6",
+db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2019-1",
 { "Tesla|Model 3": 3012
 , "Volkswagen|e-Golf": 798
 , "Audi|e-tron": 574
@@ -896,26 +834,20 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 289
 , "Renault|Zoe": 265
 , "Hyundai|Ioniq Electric": 197
-, "Nissan|e-NV200": 130
 , "Opel|Ampera-e": 83
-, "Renault|Kangoo Z.E.": 67
 , "Volkswagen|e-up!": 48
 , "Kia|Niro EV": 44
 , "Kia|Soul EV": 43
-, "Peugeot|Partner Electric": 19
-, "Maxus|EV80": 8
-, "Volkswagen|e-Crafter": 7
 , "Mercedes-Benz|EQC": 7
 , "Citroën|C-Zero": 7
 , "Smart|Fortwo ED": 4
-, "Citroën|Berlingo Electric": 4
 , "Smart|Forfour ED": 2
 , "Mitsubishi|i-MiEV": 2
 , "Chevrolet|Bolt": 1
-, "other": 29
+, "other": 47
 });
 
-db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2019-1-1",
 { "Tesla": 493
 , "Volkswagen": 1334
 , "Toyota": 1218
@@ -936,9 +868,10 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 91
 , "Opel": 231
 , "Citroën": 165
+, "other": 387
 });
 
-db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/7",
+db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2019-1-1",
 { "Nissan|Leaf": 585
 , "Volkswagen|e-Golf": 571
 , "Audi|e-tron": 511
@@ -950,26 +883,19 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 143
 , "Opel|Ampera-e": 140
 , "Jaguar|I-Pace": 128
-, "Nissan|e-NV200": 91
 , "Volkswagen|e-up!": 63
 , "Tesla|Model X": 41
 , "Kia|Soul EV": 36
 , "Kia|Niro EV": 24
-, "Peugeot|Partner Electric": 12
-, "Citroën|Berlingo Electric": 11
-, "Renault|Kangoo Z.E.": 4
 , "Peugeot|iOn": 4
 , "Citroën|C-Zero": 4
 , "Smart|Fortwo ED": 3
 , "Smart|Forfour ED": 2
-, "Volkswagen|e-Crafter": 1
 , "Mitsubishi|i-MiEV": 1
-, "Mercedes-Benz|eVito": 1
-, "Maxus|EV80": 1
-, "other": 52
+, "other": 58
 });
 
-db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2019",
 { "Tesla": 831
 , "Volkswagen": 2284
 , "Toyota": 1331
@@ -990,9 +916,10 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 220
 , "Opel": 285
 , "Citroën": 152
+, "other": 590
 });
 
-db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/8",
+db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2019",
 { "Volkswagen|e-Golf": 1083
 , "Tesla|Model 3": 649
 , "Nissan|Leaf": 548
@@ -1005,28 +932,21 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 167
 , "Opel|Ampera-e": 156
 , "Tesla|Model X": 122
-, "Nissan|e-NV200": 120
 , "Tesla|Model S": 59
 , "Kia|Soul EV": 45
-, "Renault|Kangoo Z.E.": 37
 , "Peugeot|iOn": 31
-, "Citroën|Berlingo Electric": 15
-, "Mercedes-Benz|eVito": 14
 , "Citroën|C-Zero": 14
 , "Smart|Fortwo ED": 11
 , "Kia|Niro EV": 11
 , "Smart|Forfour ED": 9
-, "Peugeot|Partner Electric": 8
 , "Mercedes-Benz|EQC": 4
 , "Mitsubishi|i-MiEV": 3
-, "Volkswagen|e-Crafter": 2
-, "Maxus|EV80": 1
 , "Ford|Focus Electric": 1
 , "Chevrolet|Bolt": 1
-, "other": 11
+, "other": 62
 });
 
-db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2019",
 { "Tesla": 2763
 , "Volkswagen": 1019
 , "Toyota": 1196
@@ -1047,9 +967,10 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 197
 , "Mazda": 127
 , "Citroën": 99
+, "other": 345
 });
 
-db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/9",
+db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2019",
 { "Tesla|Model 3": 2342
 , "Volkswagen|e-Golf": 645
 , "Nissan|Leaf": 585
@@ -1060,30 +981,23 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 185
 , "Jaguar|I-Pace": 180
 , "Opel|Ampera-e": 124
-, "Nissan|e-NV200": 106
 , "Tesla|Model S": 103
 , "Renault|Zoe": 101
 , "Mercedes-Benz|EQC": 48
 , "Kia|Soul EV": 41
 , "Volkswagen|e-up!": 40
-, "Peugeot|Partner Electric": 25
 , "Kia|Niro EV": 24
-, "Renault|Kangoo Z.E.": 19
-, "Mercedes-Benz|eVito": 15
-, "Maxus|EV80": 14
 , "Peugeot|iOn": 12
 , "Citroën|C-Zero": 12
-, "Citroën|Berlingo Electric": 10
 , "Smart|Forfour ED": 6
 , "Mitsubishi|i-MiEV": 5
-, "Volkswagen|e-Crafter": 3
 , "Porsche|Taycan": 2
 , "Smart|Fortwo ED": 1
 , "Chevrolet|Bolt": 1
-, "other": 2
+, "other": 50
 });
 
-db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2019-1",
 { "Tesla": 168
 , "Volkswagen": 1543
 , "Toyota": 1314
@@ -1104,9 +1018,10 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 159
 , "Mazda": 167
 , "Citroën": 99
+, "other": 424
 });
 
-db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/10",
+db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2019-1",
 { "Audi|e-tron": 873
 , "Volkswagen|e-Golf": 740
 , "Nissan|Leaf": 518
@@ -1115,31 +1030,25 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 175
 , "Hyundai|Kona Electric": 123
 , "Tesla|Model 3": 121
-, "Nissan|e-NV200": 115
 , "Opel|Ampera-e": 113
 , "Renault|Zoe": 93
 , "Volkswagen|e-up!": 53
 , "Kia|Soul EV": 49
-, "Renault|Kangoo Z.E.": 33
 , "Kia|Niro EV": 33
 , "Tesla|Model X": 29
-, "Citroën|Berlingo Electric": 22
-, "Maxus|EV80": 19
 , "Tesla|Model S": 18
-, "Peugeot|Partner Electric": 18
 , "Peugeot|iOn": 12
 , "Citroën|C-Zero": 11
-, "Mercedes-Benz|eVito": 8
 , "Mercedes-Benz|EQC": 7
 , "Smart|Fortwo ED": 5
-, "Volkswagen|e-Crafter": 4
 , "Smart|Forfour ED": 4
 , "Mitsubishi|i-MiEV": 3
 , "Chevrolet|Bolt": 1
-, "other": 3
+, "other": 31
+
 });
 
-db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2019",
 { "Volkswagen": 1335
 , "Tesla": 543
 , "Toyota": 1152
@@ -1160,9 +1069,10 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 167
 , "Suzuki": 93
 , "Citroën": 100
+, "other": 451
 });
 
-db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/11",
+db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2019",
 { "Volkswagen|e-Golf": 807
 , "Nissan|Leaf": 547
 , "Audi|e-tron": 518
@@ -1171,31 +1081,24 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 323
 , "Hyundai|Kona Electric": 216
 , "Jaguar|I-Pace": 151
-, "Nissan|e-NV200": 92
 , "Opel|Ampera-e": 89
 , "Tesla|Model X": 68
 , "Kia|Soul EV": 56
-, "Peugeot|Partner Electric": 31
 , "Kia|Niro EV": 31
-, "Mercedes-Benz|eVito": 27
 , "Tesla|Model S": 23
-, "Renault|Kangoo Z.E.": 20
 , "Renault|Zoe": 18
-, "Citroën|Berlingo Electric": 15
 , "Smart|Fortwo ED": 12
 , "Citroën|C-Zero": 12
 , "Peugeot|iOn": 11
-, "Maxus|EV80": 9
 , "Volkswagen|e-up!": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
-, "Volkswagen|e-Crafter": 2
 , "Mercedes-Benz|EQC": 2
 , "Smart|Forfour ED": 1
 , "Mitsubishi|i-MiEV": 1
-, "other": 1
+, "other": 5
 });
 
-db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2019",
 { "Volkswagen": 1253
 , "Tesla": 1399
 , "Toyota": 766
@@ -1216,16 +1119,16 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 220
 , "Suzuki": 169
 , "Citroën": 109
+, "other": 659
 });
 
-db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/12",
+db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2019",
 { "Tesla|Model 3": 1251
 , "Volkswagen|e-Golf": 525
 , "Nissan|Leaf": 307
 , "Hyundai|Kona Electric": 305
 , "Audi|e-tron": 282
 , "BMW|i3 BEV": 150
-, "Nissan|e-NV200": 131
 , "Tesla|Model X": 117
 , "Jaguar|I-Pace": 111
 , "Hyundai|Ioniq Electric": 109
@@ -1233,15 +1136,9 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 45
 , "Kia|Niro EV": 44
 , "Tesla|Model S": 30
-, "Renault|Kangoo Z.E.": 23
-, "Maxus|EV80": 23
 , "Citroën|C-Zero": 20
 , "Mercedes-Benz|EQC": 16
-, "Mercedes-Benz|eVito": 10
-, "Volkswagen|e-Crafter": 9
 , "Renault|Zoe": 8
-, "Peugeot|Partner Electric": 8
-, "Citroën|Berlingo Electric": 6
 , "Peugeot|iOn": 4
 , "Mini|Cooper SE Electric": 4
 , "MG|ZS EV": 3
@@ -1250,10 +1147,10 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 2
 , "Smart|Fortwo ED": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 4
+, "other": 34
 });
 
-db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2020",
 { "Toyota": 1148
 , "Audi": 999
 , "Volkswagen": 995
@@ -1274,15 +1171,15 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 127
 , "Subaru": 118
 , "Jaguar": 115
+, "other": 522
 });
 
-db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/1",
+db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2020",
 { "Audi|e-tron": 902
 , "Renault|Zoe": 533
 , "Volkswagen|e-Golf": 497
 , "Hyundai|Kona Electric": 380
 , "Nissan|Leaf": 366
-, "Nissan|e-NV200": 242
 , "Hyundai|Ioniq Electric": 211
 , "BMW|i3 BEV": 200
 , "Seat|Mii Electric": 178
@@ -1294,14 +1191,10 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 72
 , "Mercedes-Benz|EQC": 67
 , "Volkswagen|e-up!": 40
-, "Renault|Kangoo Z.E.": 38
-, "Citroën|Berlingo Electric": 37
 , "Tesla|Model X": 18
-, "Peugeot|Partner Electric": 15
 , "Smart|Fortwo ED": 14
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
 , "Smart|Forfour ED": 13
-, "Maxus|EV80": 12
 , "Peugeot|e-208": 11
 , "Tesla|Model S": 10
 , "Porsche|Taycan": 10
@@ -1309,14 +1202,12 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 7
 , "Peugeot|iOn": 5
 , "Mini|Cooper SE Electric": 5
-, "Volkswagen|e-Crafter": 3
 , "Mitsubishi|i-MiEV": 2
-, "Mercedes-Benz|eVito": 2
 , "Chevrolet|Bolt": 1
-, "other": 5
+, "other": 93
 });
 
-db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2020",
 { "Volkswagen": 1311
 , "Audi": 1243
 , "Toyota": 914
@@ -1337,9 +1228,10 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 132
 , "Seat": 62
 , "Subaru": 107
+, "other": 670
 });
 
-db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/2",
+db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2020",
 { "Audi|e-tron": 1171
 , "Volkswagen|e-Golf": 755
 , "Nissan|Leaf": 484
@@ -1349,7 +1241,6 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 262
 , "Hyundai|Ioniq Electric": 237
 , "Opel|Ampera-e": 230
-, "Nissan|e-NV200": 152
 , "Peugeot|e-208": 146
 , "Škoda|Citigo-e": 140
 , "Kia|Niro EV": 128
@@ -1360,25 +1251,19 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 53
 , "Mercedes-Benz|EQC": 43
 , "Porsche|Taycan": 41
-, "Renault|Kangoo Z.E.": 27
-, "Maxus|EV80": 23
 , "Tesla|Model X": 19
-, "Peugeot|Partner Electric": 18
 , "DS Automobiles|DS 3 Crossback E-Tense": 15
 , "Tesla|Model S": 11
-, "Volkswagen|e-Crafter": 8
 , "Peugeot|iOn": 6
-, "Citroën|Berlingo Electric": 6
-, "Mercedes-Benz|eVito": 4
 , "Smart|Fortwo ED": 2
 , "Mitsubishi|i-MiEV": 2
 , "Citroën|C-Zero": 2
 , "Smart|Forfour ED": 1
 , "Mini|Cooper SE Electric": 1
-, "other": 2
+, "other": 38
 });
 
-db.insert(db.countries.NO, "2020-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2020",
 { "Audi": 1785
 , "Volkswagen": 1489
 , "Toyota": 799
@@ -1399,9 +1284,10 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Seat": 124
 , "Mazda": 120
 , "Jaguar": 72
+, "other": 749
 });
 
-db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/3",
+db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2020",
 { "Audi|e-tron": 1681
 , "Tesla|Model 3": 997
 , "Volkswagen|e-Golf": 650
@@ -1416,32 +1302,25 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 171
 , "Hyundai|Ioniq Electric": 165
 , "Kia|Soul EV": 134
-, "Nissan|e-NV200": 133
 , "Seat|Mii Electric": 123
 , "Kia|Niro EV": 123
 , "Tesla|Model X": 98
 , "Porsche|Taycan": 95
 , "Jaguar|I-Pace": 71
 , "Opel|Ampera-e": 68
-, "Renault|Kangoo Z.E.": 55
 , "Tesla|Model S": 37
 , "Mini|Cooper SE Electric": 24
 , "DS Automobiles|DS 3 Crossback E-Tense": 20
-, "Volkswagen|e-Crafter": 15
-, "Maxus|EV80": 13
-, "Peugeot|Partner Electric": 7
-, "Citroën|Berlingo Electric": 7
 , "Smart|Fortwo ED": 5
-, "Mercedes-Benz|eVito": 5
 , "Peugeot|iOn": 2
 , "Mitsubishi|i-MiEV": 2
 , "Smart|Forfour ED": 1
 , "Honda|e": 1
 , "Chevrolet|Bolt": 1
-, "other": 2
+, "other": 39
 });
 
-db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2020",
 { "Volkswagen": 1155
 , "Audi": 921
 , "Toyota": 544
@@ -1462,9 +1341,10 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 100
 , "Seat": 59
 , "Porsche": 156
+, "other": 459
 });
 
-db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/4",
+db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2020",
 { "Audi|e-tron": 832
 , "Volkswagen|e-Golf": 498
 , "Nissan|Leaf": 349
@@ -1476,7 +1356,6 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 130
 , "Peugeot|e-208": 123
 , "Porsche|Taycan": 121
-, "Nissan|e-NV200": 113
 , "Škoda|Citigo-e": 84
 , "MG|ZS EV": 75
 , "Seat|Mii Electric": 59
@@ -1487,20 +1366,15 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 40
 , "Kia|Niro EV": 34
 , "Tesla|Model X": 23
-, "Peugeot|Partner Electric": 19
 , "DS Automobiles|DS 3 Crossback E-Tense": 16
-, "Renault|Kangoo Z.E.": 8
-, "Volkswagen|e-Crafter": 7
 , "Tesla|Model S": 7
-, "Maxus|EV80": 5
 , "Opel|Corsa-e": 3
 , "Smart|Forfour ED": 1
 , "Citroën|C-Zero": 1
-, "Citroën|Berlingo Electric": 1
-, "other": 2
+, "other": 34
 });
 
-db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2020",
 { "Volkswagen": 1225
 , "Toyota": 828
 , "Audi": 638
@@ -1521,9 +1395,10 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Porsche": 104
 , "Suzuki": 100
 , "Tesla": 26
+, "other": 375
 });
 
-db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/5",
+db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2020",
 { "Volkswagen|e-Golf": 610
 , "Audi|e-tron": 579
 , "Hyundai|Kona Electric": 443
@@ -1536,7 +1411,6 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 114
 , "Mercedes-Benz|EQC": 98
 , "Opel|Ampera-e": 80
-, "Nissan|e-NV200": 69
 , "Porsche|Taycan": 54
 , "Jaguar|I-Pace": 51
 , "Volkswagen|e-up!": 35
@@ -1547,23 +1421,17 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 22
 , "Tesla|Model X": 19
 , "Mini|Cooper SE Electric": 15
-, "Maxus|EV80": 14
-, "Renault|Kangoo Z.E.": 10
 , "Tesla|Model 3": 8
-, "Mercedes-Benz|eVito": 6
 , "Tesla|Model S": 4
 , "Smart|Fortwo ED": 4
-, "Peugeot|Partner Electric": 4
-, "Volkswagen|e-Crafter": 2
 , "Honda|e": 2
-, "Citroën|Berlingo Electric": 2
 , "Peugeot|iOn": 1
 , "Mitsubishi|i-MiEV": 1
 , "Citroën|C-Zero": 1
-, "other": 23
+, "other": 19
 });
 
-db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2020",
 { "Volkswagen": 1367
 , "Volvo": 1266
 , "Toyota": 913
@@ -1584,9 +1452,10 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Porsche": 216
 , "Mazda": 183
 , "Renault": 171
+, "other": 590
 });
 
-db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/6",
+db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2020",
 { "Volkswagen|e-Golf": 707
 , "Hyundai|Kona Electric": 535
 , "Tesla|Model 3": 527
@@ -1602,17 +1471,13 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 146
 , "Škoda|Citigo-e": 138
 , "BMW|i3 BEV": 138
-, "Nissan|e-NV200": 119
 , "Peugeot|e-208": 116
 , "Opel|Ampera-e": 92
 , "Seat|Mii Electric": 89
 , "Jaguar|I-Pace": 72
-, "Renault|Kangoo Z.E.": 51
-, "Peugeot|Partner Electric": 36
 , "Opel|Corsa-e": 31
 , "Kia|Niro EV": 28
 , "Tesla|Model X": 23
-, "Maxus|EV80": 21
 , "DS Automobiles|DS 3 Crossback E-Tense": 20
 , "Honda|e": 18
 , "Mini|Cooper SE Electric": 11
@@ -1620,13 +1485,11 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 6
 , "Polestar|2": 5
 , "Mitsubishi|i-MiEV": 3
-, "Mercedes-Benz|eVito": 3
 , "Smart|Forfour ED": 2
-, "Volkswagen|e-Crafter": 1
-, "other": 61
+, "other": 80
 });
 
-db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2020",
 { "Mercedes-Benz": 938
 , "Audi": 868
 , "Volvo": 806
@@ -1647,9 +1510,10 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 138
 , "Suzuki": 135
 , "Tesla": 30
+, "other": 670
 });
 
-db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/7",
+db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2020",
 { "Audi|e-tron": 775
 , "Mercedes-Benz|EQC": 698
 , "Hyundai|Kona Electric": 383
@@ -1664,7 +1528,6 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 144
 , "Renault|Zoe": 128
 , "BMW|i3 BEV": 117
-, "Nissan|e-NV200": 95
 , "Peugeot|e-2008": 86
 , "Kia|Soul EV": 54
 , "Opel|Ampera-e": 52
@@ -1674,24 +1537,19 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 18
 , "Polestar|2": 17
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
-, "Renault|Kangoo Z.E.": 13
 , "Kia|Niro EV": 11
 , "Tesla|Model X": 7
 , "Honda|e": 7
-, "Peugeot|Partner Electric": 5
 , "Tesla|Model S": 4
-, "Maxus|EV80": 4
 , "Smart|Fortwo ED": 3
 , "Mitsubishi|i-MiEV": 3
 , "Peugeot|iOn": 2
-, "Volkswagen|e-Crafter": 1
 , "Smart|Forfour ED": 1
-, "Mercedes-Benz|eVito": 1
 , "Chevrolet|Bolt": 1
-, "other": 8
+, "other": 29
 });
 
-db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2020",
 { "Volkswagen": 1112
 , "Audi": 861
 , "Mercedes-Benz": 849
@@ -1712,9 +1570,10 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 196
 , "Mazda": 146
 , "Suzuki": 135
+, "other": 1057
 });
 
-db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/8",
+db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2020",
 { "Audi|e-tron": 756
 , "Mercedes-Benz|EQC": 595
 , "Polestar|2": 494
@@ -1733,7 +1592,6 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 125
 , "Volkswagen|e-up!": 124
 , "Opel|Corsa-e": 75
-, "Nissan|e-NV200": 75
 , "Kia|Soul EV": 64
 , "Mini|Cooper SE Electric": 51
 , "Tesla|Model X": 45
@@ -1741,24 +1599,18 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 35
 , "DS Automobiles|DS 3 Crossback E-Tense": 31
 , "Seat|Mii Electric": 26
-, "Renault|Kangoo Z.E.": 19
 , "Honda|e": 17
 , "Opel|Ampera-e": 14
-, "Maxus|EV80": 13
-, "Peugeot|Partner Electric": 5
-, "Mercedes-Benz|eVito": 5
 , "Smart|Fortwo ED": 4
 , "Mitsubishi|i-MiEV": 3
-, "Volkswagen|e-Crafter": 2
 , "Mercedes-Benz|EQV": 2
 , "Chevrolet|Bolt": 2
 , "Volkswagen|ID.3": 1
 , "Citroën|C-Zero": 1
-, "Citroën|Berlingo Electric": 1
-, "other": 25
+, "other": 27
 });
 
-db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2020",
 { "Volkswagen": 2736
 , "Toyota": 1516
 , "Tesla": 1439
@@ -1782,7 +1634,7 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 746
 });
 
-db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/9",
+db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2020",
 { "Volkswagen|ID.3": 1989
 , "Tesla|Model 3": 1116
 , "Polestar|2": 937
@@ -1804,28 +1656,22 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 138
 , "Kia|Soul EV": 126
 , "Mazda|MX-30": 98
-, "Nissan|e-NV200": 91
 , "Porsche|Taycan": 82
 , "Opel|Corsa-e": 79
 , "Seat|Mii Electric": 67
-, "Renault|Kangoo Z.E.": 35
 , "Honda|e": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 23
 , "Jaguar|I-Pace": 21
-, "Maxus|EV80": 11
 , "Mini|Cooper SE Electric": 8
-, "Volkswagen|e-Crafter": 7
-, "Peugeot|Partner Electric": 4
-, "Mercedes-Benz|eVito": 4
 , "Smart|Forfour ED": 2
 , "Smart|Fortwo ED": 1
 , "Opel|Ampera-e": 1
 , "Mitsubishi|i-MiEV": 1
 , "Chevrolet|Bolt": 1
-, "other": 182
+, "other": 19
 });
 
-db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2020",
 { "Volkswagen": 2889
 , "Toyota": 1576
 , "BMW": 734
@@ -1849,7 +1695,7 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 633
 });
 
-db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/10",
+db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2020",
 { "Volkswagen|ID.3": 2475
 , "MG|ZS EV": 586
 , "Nissan|Leaf": 579
@@ -1858,7 +1704,7 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 373
 , "Polestar|2": 352
 , "Mercedes-Benz|EQC": 332
-, "Mazda|MX-30": 317
+, "Mazda|MX-30": 318
 , "Peugeot|e-2008": 246
 , "Kia|Niro EV": 244
 , "Škoda|Citigo-e": 214
@@ -1870,29 +1716,23 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 74
 , "Mini|Cooper SE Electric": 66
 , "Porsche|Taycan": 62
-, "Renault|Kangoo Z.E.": 50
 , "Volkswagen|e-Golf": 46
-, "Nissan|e-NV200": 45
 , "Volkswagen|e-up!": 41
 , "Seat|Mii Electric": 37
 , "Jaguar|I-Pace": 29
-, "Maxus|EV80": 25
 , "Honda|e": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 21
 , "Tesla|Model X": 18
 , "Lexus|UX 300e": 12
-, "Volkswagen|e-Crafter": 9
 , "Tesla|Model S": 3
-, "Peugeot|e-Expert": 3
-, "Mercedes-Benz|eVito": 3
 , "Mitsubishi|i-MiEV": 2
 , "Smart|Fortwo ED": 1
 , "Opel|Ampera-e": 1
 , "Chevrolet|Bolt": 1
-, "other": 251
+, "other": 18
 });
 
-db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2020",
 { "Toyota": 1753
 , "Volkswagen": 1753
 , "BMW": 1198
@@ -1916,7 +1756,7 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 560
 });
 
-db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/11",
+db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2020",
 { "Volkswagen|ID.3": 986
 , "MG|ZS EV": 644
 , "Audi|e-tron": 569
@@ -1938,35 +1778,26 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 95
 , "Renault|Zoe": 92
 , "Peugeot|e-208": 79
-, "Nissan|e-NV200": 70
-, "Renault|Kangoo Z.E.": 63
 , "Seat|Mii Electric": 59
 , "Lexus|UX 300e": 49
 , "Tesla|Model X": 46
 , "Opel|Corsa-e": 42
-, "Peugeot|e-Expert": 33
-, "Citroën|ë-Jumpy": 28
 , "Mini|Cooper SE Electric": 25
 , "Honda|e": 24
-, "Maxus|EV80": 22
 , "DS Automobiles|DS 3 Crossback E-Tense": 21
 , "Volkswagen|e-Golf": 19
-, "Toyota|Proace Electric": 16
 , "Mercedes-Benz|EQV": 14
 , "Tesla|Model S": 13
-, "Volkswagen|e-Crafter": 7
 , "Mitsubishi|i-MiEV": 5
-, "Mercedes-Benz|eVito": 5
 , "Citroën|ë-C4": 4
 , "Xiaopeng|Xpeng G3": 3
 , "Smart|Fortwo ED": 2
-, "Opel|Vivaro-e": 2
 , "Smart|Forfour ED": 1
 , "Chevrolet|Bolt": 1
-, "other": 191
+, "other": 30
 });
 
-db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2020",
 { "Tesla": 4423
 , "Volkswagen": 2825
 , "Volvo": 1956
@@ -1990,7 +1821,7 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1532
 });
 
-db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12",
+db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2020",
 { "Tesla|Model 3": 4233
 , "Volkswagen|ID.3": 2303
 , "Volvo|XC40 Recharge pure electric": 791
@@ -2014,33 +1845,24 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 114
 , "Kia|Soul EV": 110
 , "Mercedes-Benz|EQV": 91
-, "Toyota|Proace Electric": 88
 , "Xiaopeng|Xpeng G3": 83
 , "Opel|Corsa-e": 72
 , "Tesla|Model S": 71
 , "Honda|e": 71
-, "Renault|Kangoo Z.E.": 63
-, "Nissan|e-NV200": 63
 , "DS Automobiles|DS 3 Crossback E-Tense": 49
 , "Seat|Mii Electric": 36
 , "Lexus|UX 300e": 35
-, "Citroën|ë-Jumpy": 26
 , "Mini|Cooper SE Electric": 20
 , "Ford|Mustang Mach-E": 19
-, "Peugeot|e-Expert": 15
 , "Fiat|500e": 13
-, "Opel|Vivaro-e": 11
-, "Mercedes-Benz|eVito": 10
 , "Volkswagen|e-Golf": 8
-, "Maxus|EV80": 4
-, "Volkswagen|e-Crafter": 1
 , "Peugeot|e-Traveller": 1
 , "Mitsubishi|i-MiEV": 1
 , "Chevrolet|Bolt": 1
-, "other": 170
+, "other": 79
 });
 
-db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2021",
 { "Toyota": 1318
 , "BMW": 1073
 , "Volvo": 1060
@@ -2065,7 +1887,7 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 624
 });
 
-db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/1",
+db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2021",
 { "Audi|e-tron": 734
 , "Peugeot|e-2008": 485
 , "Volvo|XC40 Recharge pure electric": 475
@@ -2074,7 +1896,6 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 334
 , "MG|ZS EV": 273
 , "Kia|Niro EV": 272
-, "Toyota|Proace Electric": 219
 , "Mazda|MX-30": 182
 , "Peugeot|e-208": 159
 , "BMW|i3 BEV": 159
@@ -2086,33 +1907,25 @@ db.insert(db.countries.NO, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 105
 , "Lexus|UX 300e": 99
 , "Jaguar|I-Pace": 77
-, "Nissan|e-NV200": 72
 , "Renault|Zoe": 70
 , "Tesla|Model 3": 63
 , "Porsche|Taycan": 55
 , "Fiat|500e": 55
 , "Citroën|ë-C4": 47
 , "Škoda|Citigo-e": 45
-, "Opel|Vivaro-e": 33
 , "Tesla|Model S": 25
-, "Citroën|ë-Jumpy": 23
 , "Mini|Cooper SE Electric": 21
 , "Tesla|Model X": 20
 , "Mercedes-Benz|EQV": 20
-, "Maxus|EV80": 16
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Seat|Mii Electric": 11
-, "Renault|Kangoo Z.E.": 10
 , "Xiaopeng|Xpeng G3": 9
-, "Peugeot|e-Expert": 4
-, "Volkswagen|e-Crafter": 3
-, "Mercedes-Benz|eVito": 3
 , "Honda|e": 3
 , "Opel|Ampera-e": 1
-, "other": 200
+, "other": 96
 });
 
-db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2021",
 { "Volvo": 1546
 , "Toyota": 1360
 , "Peugeot": 833
@@ -2136,7 +1949,7 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 774
 });
 
-db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/2",
+db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2021",
 { "Audi|e-tron": 618
 , "Peugeot|e-2008": 433
 , "Polestar|2": 422
@@ -2148,7 +1961,6 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 225
 , "Peugeot|e-208": 159
 , "Mercedes-Benz|EQC": 157
-, "Toyota|Proace Electric": 149
 , "Kia|Soul EV": 148
 , "BMW|i3 BEV": 139
 , "Volkswagen|ID.3": 128
@@ -2157,21 +1969,14 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 102
 , "Jaguar|I-Pace": 99
 , "Hyundai|Ioniq Electric": 92
-, "Nissan|e-NV200": 62
 , "Renault|Zoe": 61
 , "Volkswagen|e-up!": 56
-, "Renault|Kangoo Z.E.": 50
 , "Fiat|500e": 46
 , "Porsche|Taycan": 41
 , "Škoda|Citigo-e": 40
-, "Citroën|ë-Jumpy": 37
 , "Mercedes-Benz|EQV": 31
-, "Maxus|EV80": 27
 , "Citroën|ë-C4": 25
 , "BMW|iX3": 17
-, "Volkswagen|e-Crafter": 14
-, "Opel|Vivaro-e": 13
-, "Peugeot|e-Expert": 12
 , "Mini|Cooper SE Electric": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "Tesla|Model X": 6
@@ -2180,13 +1985,12 @@ db.insert(db.countries.NO, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 5
 , "Volkswagen|ID.4": 4
 , "Seat|Mii Electric": 4
-, "Mercedes-Benz|eVito": 3
 , "Xiaopeng|Xpeng G3": 2
 , "Mitsubishi|i-MiEV": 1
-, "other": 93
+, "other": 47
 });
 
-db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2021",
 { "Tesla": 2181
 , "Toyota": 1536
 , "Volvo": 1438
@@ -2210,7 +2014,7 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1023
 });
 
-db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3",
+db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2021",
 { "Tesla|Model 3": 2169
 , "Volkswagen|ID.4": 856
 , "Nissan|Leaf": 615
@@ -2221,7 +2025,6 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 354
 , "Hyundai|Kona Electric": 346
 , "Peugeot|e-2008": 306
-, "Toyota|Proace Electric": 301
 , "Kia|Niro EV": 212
 , "BMW|i3 BEV": 193
 , "Peugeot|e-208": 135
@@ -2235,35 +2038,29 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 75
 , "Škoda|Citigo-e": 74
 , "Renault|Zoe": 69
-, "Citroën|ë-Jumpy": 65
 , "Lexus|UX 300e": 63
 , "Porsche|Taycan": 61
-, "Nissan|e-NV200": 53
-, "Peugeot|e-Expert": 52
 , "Jaguar|I-Pace": 52
 , "Škoda|Enyaq": 48
 , "Volkswagen|e-up!": 47
 , "Audi|e-tron GT": 36
 , "Mini|Cooper SE Electric": 35
-, "Opel|Vivaro-e": 26
 , "Mercedes-Benz|EQV": 18
 , "Citroën|ë-C4": 16
 , "Seat|Mii Electric": 15
 , "Honda|e": 12
-, "Renault|Kangoo Z.E.": 10
 , "Opel|Zafira-e": 10
 , "Mercedes-Benz|EQA": 10
 , "Peugeot|e-Traveller": 8
 , "Tesla|Model X": 6
 , "Tesla|Model S": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
-, "Volkswagen|e-Crafter": 4
-, "Mercedes-Benz|eVito": 2
-, "Maxus|EV80": 2
-, "other": 101
+, "Mitsubishi|i-MiEV": 1
+, "Ford|Mustang Mach-E": 1
+, "other": 81
 });
 
-db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2021",
 { "Volkswagen": 2429
 , "Toyota": 1629
 , "Volvo": 1338
@@ -2287,7 +2084,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 833
 });
 
-db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4",
+db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2021",
 { "Volkswagen|ID.4": 1824
 , "Audi|e-tron": 667
 , "Volvo|XC40 Recharge pure electric": 626
@@ -2295,7 +2092,6 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 378
 , "Škoda|Enyaq": 336
 , "Nissan|Leaf": 313
-, "Toyota|Proace Electric": 298
 , "Hyundai|Kona Electric": 254
 , "BMW|i3 BEV": 225
 , "Volkswagen|ID.3": 201
@@ -2307,22 +2103,17 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 110
 , "Škoda|Citigo-e": 107
 , "Peugeot|e-208": 101
-, "Citroën|ë-Jumpy": 94
 , "Renault|Zoe": 86
 , "Kia|Soul EV": 84
 , "Hyundai|Ioniq Electric": 82
 , "Citroën|ë-C4": 72
-, "Peugeot|e-Expert": 71
-, "Nissan|e-NV200": 60
 , "Lexus|UX 300e": 50
 , "Porsche|Taycan": 49
 , "Opel|Corsa-e": 49
 , "Fiat|500e": 49
 , "Ford|Mustang Mach-E": 44
-, "Renault|Kangoo Z.E.": 37
 , "Volkswagen|e-up!": 31
 , "Jaguar|I-Pace": 31
-, "Opel|Vivaro-e": 27
 , "Xiaopeng|Xpeng G3": 26
 , "Mini|Cooper SE Electric": 25
 , "Peugeot|e-Traveller": 24
@@ -2333,14 +2124,16 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 13
 , "Opel|Zafira-e": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
-, "Volkswagen|e-Crafter": 6
 , "Tesla|Model 3": 4
 , "Volkswagen|e-Golf": 2
 , "Nio|ES8": 2
-, "other": 131
+, "Tesla|Model X": 1
+, "Smart|Fortwo ED": 1
+, "Mitsubishi|i-MiEV": 1
+, "other": 87
 });
 
-db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2021",
 { "Toyota": 1745
 , "Ford": 1587
 , "Volkswagen": 1337
@@ -2364,7 +2157,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 744
 });
 
-db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5",
+db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2021",
 { "Ford|Mustang Mach-E": 1384
 , "Škoda|Enyaq": 795
 , "Volkswagen|ID.4": 774
@@ -2382,26 +2175,20 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 182
 , "Kia|Niro EV": 166
 , "BMW|iX3": 159
-, "Toyota|Proace Electric": 155
 , "BMW|i3 BEV": 130
 , "Peugeot|e-208": 111
-, "Renault|Kangoo Z.E.": 105
-, "Peugeot|e-Expert": 91
 , "Mazda|MX-30": 91
 , "Mercedes-Benz|EQA": 90
 , "Renault|Zoe": 86
-, "Citroën|ë-Jumpy": 86
 , "Škoda|Citigo-e": 79
 , "Hyundai|Ioniq Electric": 75
 , "Opel|Corsa-e": 66
 , "Hyundai|Ioniq 5": 63
-, "Opel|Vivaro-e": 60
 , "Audi|e-tron GT": 55
 , "Jaguar|I-Pace": 50
 , "Xiaopeng|Xpeng G3": 49
 , "Lexus|UX 300e": 46
 , "Fiat|500e": 43
-, "Nissan|e-NV200": 41
 , "Porsche|Taycan": 39
 , "Opel|Mokka-e": 28
 , "Peugeot|e-Traveller": 21
@@ -2411,13 +2198,14 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 14
 , "Opel|Zafira-e": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
-, "Maxus|EV80": 5
 , "Audi|Q4 e-tron": 3
-, "Volkswagen|e-Crafter": 2
-, "other": 135
+, "Tesla|Model X": 1
+, "Smart|Fortwo ED": 1
+, "Seat|Mii Electric": 1
+, "other": 55
 });
 
-db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021",
 { "Tesla": 3197
 , "Toyota": 1992
 , "Volkswagen": 1830
@@ -2441,7 +2229,7 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1047
 });
 
-db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6",
+db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2021",
 { "Tesla|Model 3": 3196
 , "Ford|Mustang Mach-E": 1288
 , "Škoda|Enyaq": 1115
@@ -2463,38 +2251,34 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 189
 , "Audi|e-tron GT": 180
 , "Citroën|ë-C4": 157
-, "Toyota|Proace Electric": 154
 , "Peugeot|e-208": 135
 , "Mazda|MX-30": 112
 , "Fiat|500e": 78
 , "Renault|Zoe": 76
 , "Hyundai|Ioniq Electric": 76
 , "Škoda|Citigo-e": 74
-, "Renault|Kangoo Z.E.": 74
 , "Lexus|UX 300e": 73
-, "Peugeot|e-Expert": 67
 , "Mercedes-Benz|EQA": 67
 , "Seat|Mii Electric": 61
 , "Opel|Corsa-e": 59
 , "Porsche|Taycan": 57
 , "Opel|Mokka-e": 56
-, "Nissan|e-NV200": 56
 , "Jaguar|I-Pace": 47
-, "Citroën|ë-Jumpy": 37
 , "Xiaopeng|Xpeng G3": 34
 , "Mini|Cooper SE Electric": 26
-, "Opel|Vivaro-e": 23
 , "Volkswagen|e-up!": 19
 , "Opel|Zafira-e": 19
 , "Honda|e": 15
 , "Peugeot|e-Traveller": 14
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Mercedes-Benz|EQV": 8
-, "Maxus|EV80": 8
-, "other": 126
+, "Chevrolet|Bolt": 2
+, "Tesla|Model X": 1
+, "Smart|Fortwo ED": 1
+, "other": 82
 });
 
-db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2021",
 { "Ford": 1091
 , "Volkswagen": 1031
 , "Toyota": 992
@@ -2518,7 +2302,7 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 671
 });
 
-db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7",
+db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2021",
 { "Ford|Mustang Mach-E": 898
 , "Škoda|Enyaq": 558
 , "Volkswagen|ID.4": 439
@@ -2543,7 +2327,6 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 111
 , "Peugeot|e-208": 99
 , "Mercedes-Benz|EQA": 99
-, "Toyota|Proace Electric": 81
 , "Mazda|MX-30": 81
 , "Lexus|UX 300e": 75
 , "Renault|Zoe": 63
@@ -2551,19 +2334,13 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 56
 , "Fiat|500e": 55
 , "Škoda|Citigo-e": 48
-, "Peugeot|e-Expert": 39
 , "Xiaopeng|Xpeng G3": 31
 , "Opel|Corsa-e": 30
-, "Nissan|e-NV200": 27
 , "Mini|Cooper SE Electric": 26
-, "Opel|Vivaro-e": 21
-, "Citroën|ë-Jumpy": 16
 , "Opel|Zafira-e": 12
 , "Peugeot|e-Traveller": 11
 , "Honda|e": 11
 , "Mercedes-Benz|EQV": 10
-, "Renault|Kangoo Z.E.": 6
-, "Volkswagen|e-Crafter": 5
 , "Tesla|Model 3": 4
 , "Volkswagen|e-up!": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
@@ -2571,7 +2348,7 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 43
 });
 
-db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2021",
 { "Tesla": 2083
 , "Volkswagen": 2028
 , "Audi": 1325
@@ -2595,7 +2372,7 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 907
 });
 
-db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8",
+db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2021",
 { "Tesla|Model Y": 1309
 , "Ford|Mustang Mach-E": 907
 , "Volkswagen|ID.4": 861
@@ -2617,38 +2394,35 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 237
 , "Kia|Niro EV": 207
 , "BMW|i3 BEV": 201
-, "Toyota|Proace Electric": 199
 , "Škoda|Citigo-e": 175
 , "Peugeot|e-208": 155
 , "Mazda|MX-30": 155
 , "Porsche|Taycan": 144
 , "Kia|Soul EV": 134
-, "Peugeot|e-Expert": 112
 , "Opel|Mokka-e": 107
 , "Volkswagen|e-up!": 87
-, "Nissan|e-NV200": 84
 , "Audi|e-tron GT": 83
 , "Opel|Corsa-e": 82
 , "Hyundai|Ioniq Electric": 81
 , "Renault|Zoe": 71
 , "Jaguar|I-Pace": 65
-, "Opel|Vivaro-e": 51
 , "Lexus|UX 300e": 42
-, "Citroën|ë-Jumpy": 40
 , "Peugeot|e-Traveller": 39
 , "Fiat|500e": 39
 , "Mini|Cooper SE Electric": 32
 , "Nio|ES8": 18
 , "Xiaopeng|Xpeng G3": 17
 , "Honda|e": 10
-, "Renault|Kangoo Z.E.": 9
 , "Opel|Zafira-e": 9
 , "Mercedes-Benz|EQV": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
-, "other": 131
+, "Smart|Fortwo ED": 1
+, "Smart|Forfour ED": 1
+, "Mercedes-Benz|EQS": 1
+, "other": 141
 });
 
-db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2021",
 { "Tesla": 5782
 , "Volkswagen": 1444
 , "Hyundai": 1118
@@ -2672,58 +2446,54 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 728
 });
 
-db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/9",
+db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2021",
 { "Tesla|Model Y": 3564
 , "Tesla|Model 3": 2218
-, "Škoda|Enyaq": 778
-, "Audi|e-tron": 667
-, "Volkswagen|ID.4": 655
-, "Hyundai|Ioniq 5": 650
-, "Ford|Mustang Mach-E": 593
-, "Volkswagen|ID.3": 455
-, "Nissan|Leaf": 409
-, "Audi|Q4 e-tron": 342
+, "Škoda|Enyaq": 787
+, "Audi|e-tron": 672
+, "Volkswagen|ID.4": 659
+, "Hyundai|Ioniq 5": 652
+, "Ford|Mustang Mach-E": 600
+, "Volkswagen|ID.3": 456
+, "Nissan|Leaf": 410
+, "Audi|Q4 e-tron": 343
 , "Hyundai|Kona Electric": 299
-, "Citroën|ë-C4": 289
-, "Mazda|MX-30": 263
+, "Citroën|ë-C4": 290
+, "Mazda|MX-30": 267
 , "Peugeot|e-2008": 250
-, "Toyota|Proace Electric": 231
 , "Kia|Niro EV": 214
-, "Volvo|XC40 Recharge pure electric": 181
+, "Volvo|XC40 Recharge pure electric": 182
 , "Mercedes-Benz|EQC": 161
 , "BMW|i3 BEV": 158
 , "MG|ZS EV": 155
-, "BMW|iX3": 129
+, "BMW|iX3": 131
 , "Peugeot|e-208": 125
 , "Opel|Mokka-e": 119
-, "Škoda|Citigo-e": 110
-, "Mercedes-Benz|EQA": 108
-, "Kia|Soul EV": 97
+, "Škoda|Citigo-e": 111
+, "Mercedes-Benz|EQA": 109
+, "Kia|Soul EV": 98
+, "Porsche|Taycan": 80
 , "Polestar|2": 80
 , "Hyundai|Ioniq Electric": 77
 , "Volkswagen|e-up!": 74
-, "Porsche|Taycan": 74
 , "Lexus|UX 300e": 72
-, "Peugeot|e-Expert": 57
 , "Renault|Zoe": 54
-, "Audi|e-tron GT": 52
+, "Audi|e-tron GT": 53
 , "Jaguar|I-Pace": 49
 , "Opel|Corsa-e": 47
-, "Fiat|500e": 46
-, "Nissan|e-NV200": 43
-, "Citroën|ë-Jumpy": 36
-, "Opel|Vivaro-e": 35
+, "Fiat|500e": 47
 , "Honda|e": 26
 , "Mini|Cooper SE Electric": 16
-, "Renault|Kangoo Z.E.": 14
 , "Mercedes-Benz|EQV": 14
 , "Xiaopeng|Xpeng G3": 13
 , "Peugeot|e-Traveller": 11
 , "Opel|Zafira-e": 11
-, "Mercedes-Benz|eVito": 10
 , "Nio|ES8": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
-, "other": 159
+, "Smart|Fortwo ED": 4
+, "Mercedes-Benz|EQS": 3
+, "BMW|iX": 1
+, "other": 167
 });
 
 
