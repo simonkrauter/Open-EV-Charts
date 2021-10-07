@@ -608,6 +608,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mitsubishi": 28231
 , "Volvo": 27239
 , "Lincoln": 26410
+, "Land Rover": 21019
 , "Infiniti": 19071
 , "Porsche": 17369
 , "Genesis": 8231
