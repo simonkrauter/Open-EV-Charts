@@ -4180,10 +4180,9 @@ db.insert(db.countries.DE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX": 34
 , "Jaguar|I-Pace": 33
 , "Dacia|Spring": 31
+, "Mercedes-Benz|EQB": 25
 , "Volkswagen|e-Golf": 17
 , "Volkswagen|e-Transporter": 16
 , "Citroën|ë-Jumpy": 15
-, "Peugeot|e-Expert": 14
-, "DS Automobiles|DS 3 Crossback E-Tense": 14
-, "other": 830
+, "other": 833
 });
