@@ -188,7 +188,7 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Volvo": 845
 , "Škoda": 696
 , "Mercedes-Benz": 815
-, "Tesla": 520
+, "Tesla": 519
 , "Ford": 539
 , "Peugeot": 556
 , "Audi": 607
@@ -201,7 +201,7 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 237
 , "Citroën": 150
 , "Subaru": 110
-, "other": 457
+, "other": 458
 });
 
 db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai",
@@ -233,7 +233,7 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "BMW": 1454
 , "Volvo": 1040
 , "Mercedes-Benz": 1025
-, "Tesla": 1114
+, "Tesla": 1112
 , "Škoda": 689
 , "Ford": 543
 , "Peugeot": 512
@@ -247,7 +247,7 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 289
 , "Citroën": 194
 , "Subaru": 151
-, "other": 587
+, "other": 589
 });
 
 db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni",
@@ -326,7 +326,7 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Volvo": 475
 , "Škoda": 1002
 , "Mercedes-Benz": 307
-, "Tesla": 196
+, "Tesla": 195
 , "Audi": 831
 , "Ford": 494
 , "Peugeot": 537
@@ -339,7 +339,7 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 189
 , "Citroën": 142
 , "Subaru": 173
-, "other": 743
+, "other": 744
 });
 
 db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2018",
@@ -372,7 +372,7 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 1158
 , "BMW": 728
 , "Volvo": 964
-, "Tesla": 2018
+, "Tesla": 2016
 , "Škoda": 288
 , "Mercedes-Benz": 415
 , "Audi": 130
@@ -387,7 +387,7 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 166
 , "Citroën": 123
 , "Subaru": 118
-, "other": 483
+, "other": 485
 });
 
 db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2018",
@@ -513,7 +513,7 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 762
 , "BMW": 1026
 , "Volvo": 1302
-, "Tesla": 1638
+, "Tesla": 1637
 , "Škoda": 869
 , "Mercedes-Benz": 403
 , "Peugeot": 218
@@ -528,7 +528,7 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 124
 , "Subaru": 97
 , "Citroën": 69
-, "other": 576
+, "other": 577
 });
 
 db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2",
@@ -569,14 +569,14 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 267
 , "Mercedes-Benz": 235
 , "Suzuki": 207
-, "Tesla": 187
+, "Tesla": 186
 , "Mazda": 171
 , "Renault": 171
 , "Audi": 161
 , "Opel": 124
 , "Jaguar": 101
 , "Mini": 86
-, "other": 347
+, "other": 348
 });
 
 db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2019",
@@ -610,7 +610,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Hyundai": 775
 , "Volvo": 693
 , "Nissan": 604
-, "Tesla": 1018
+, "Tesla": 1016
 , "Mitsubishi": 616
 , "Škoda": 473
 , "Peugeot": 363
@@ -624,7 +624,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 197
 , "Opel": 175
 , "Citroën": 218
-, "other": 428
+, "other": 430
 });
 
 db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2019-1-1",
@@ -652,7 +652,7 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2019-1",
-{ "Tesla": 5831
+{ "Tesla": 5822
 , "Volkswagen": 1647
 , "Toyota": 1168
 , "BMW": 1165
@@ -672,7 +672,7 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 196
 , "Opel": 226
 , "Citroën": 127
-, "other": 421
+, "other": 430
 });
 
 db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2019-1",
@@ -701,7 +701,7 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2019-1-1",
-{ "Tesla": 812
+{ "Tesla": 811
 , "Volkswagen": 1927
 , "Toyota": 1002
 , "BMW": 845
@@ -721,7 +721,7 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 280
 , "Opel": 192
 , "Citroën": 125
-, "other": 453
+, "other": 454
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2019-1-1",
@@ -799,7 +799,7 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2019-1",
-{ "Tesla": 3763
+{ "Tesla": 3760
 , "Volkswagen": 1825
 , "Toyota": 1750
 , "BMW": 801
@@ -819,7 +819,7 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 258
 , "Opel": 259
 , "Citroën": 144
-, "other": 560
+, "other": 563
 });
 
 db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2019-1",
@@ -848,7 +848,7 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2019-1-1",
-{ "Tesla": 493
+{ "Tesla": 492
 , "Volkswagen": 1334
 , "Toyota": 1218
 , "BMW": 573
@@ -868,7 +868,7 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 91
 , "Opel": 231
 , "Citroën": 165
-, "other": 387
+, "other": 388
 });
 
 db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2019-1-1",
@@ -896,7 +896,7 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2019",
-{ "Tesla": 831
+{ "Tesla": 830
 , "Volkswagen": 2284
 , "Toyota": 1331
 , "BMW": 805
@@ -916,7 +916,7 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 220
 , "Opel": 285
 , "Citroën": 152
-, "other": 590
+, "other": 591
 });
 
 db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2019",
@@ -1100,7 +1100,7 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 
 db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2019",
 { "Volkswagen": 1253
-, "Tesla": 1399
+, "Tesla": 1398
 , "Toyota": 766
 , "BMW": 855
 , "Volvo": 1260
@@ -1119,7 +1119,7 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 220
 , "Suzuki": 169
 , "Citroën": 109
-, "other": 659
+, "other": 660
 });
 
 db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2019",
@@ -1330,7 +1330,7 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Škoda": 506
 , "Nissan": 406
 , "Mercedes-Benz": 576
-, "Tesla": 73
+, "Tesla": 74
 , "Kia": 208
 , "Peugeot": 296
 , "Mitsubishi": 103
@@ -1341,7 +1341,7 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 100
 , "Seat": 59
 , "Porsche": 156
-, "other": 459
+, "other": 458
 });
 
 db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2020",
@@ -1394,8 +1394,8 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 162
 , "Porsche": 104
 , "Suzuki": 100
-, "Tesla": 26
-, "other": 375
+, "Tesla": 31
+, "other": 370
 });
 
 db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2020",
@@ -1438,7 +1438,7 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Hyundai": 889
 , "Škoda": 873
 , "Mercedes-Benz": 596
-, "Tesla": 558
+, "Tesla": 560
 , "Peugeot": 557
 , "Audi": 539
 , "BMW": 452
@@ -1452,7 +1452,7 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Porsche": 216
 , "Mazda": 183
 , "Renault": 171
-, "other": 590
+, "other": 588
 });
 
 db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2020",
@@ -1509,8 +1509,8 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 149
 , "Kia": 138
 , "Suzuki": 135
-, "Tesla": 30
-, "other": 670
+, "Tesla": 33
+, "other": 667
 });
 
 db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2020",
@@ -1798,7 +1798,7 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2020",
-{ "Tesla": 4423
+{ "Tesla": 4424
 , "Volkswagen": 2825
 , "Volvo": 1956
 , "BMW": 1603
@@ -1818,7 +1818,7 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Ford": 193
 , "Mitsubishi": 116
 , "Opel": 95
-, "other": 1532
+, "other": 1531
 });
 
 db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2020",
@@ -2080,8 +2080,8 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 170
 , "Lexus": 104
 , "Mitsubishi": 88
-, "Tesla": 8
-, "other": 833
+, "Tesla": 5
+, "other": 836
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2021",
