@@ -578,6 +578,7 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Audi|e-tron": 2034
 , "Porsche|Taycan": 1517
 , "Jaguar|I-Pace": 400
+, "Ford|Mustang Mach-E": 3
 });
 
 db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -620,6 +621,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 { "Tesla|Model Y": 44000
 , "Tesla|Model 3": 25000
 , "Chevrolet|Bolt": 9025
+, "Ford|Mustang Mach-E": 6614
 , "Audi|e-tron": 4325
 , "Nissan|Leaf": 2925
 , "Porsche|Taycan": 2009
@@ -670,6 +672,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 { "Tesla|Model Y": 45000
 , "Tesla|Model 3": 30000
 , "Chevrolet|Bolt": 11263
+, "Ford|Mustang Mach-E": 6361
 , "Volkswagen|ID.4": 5757
 , "Nissan|Leaf": 4804
 , "Porsche|Taycan": 3359
