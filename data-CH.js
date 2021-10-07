@@ -753,7 +753,7 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BMW": 1880
 , "Seat": 1387
 , "Ford": 1299
-, "Tesla": 1243
+, "Tesla": 1242
 , "Renault": 1084
 , "Toyota": 919
 , "Peugeot": 827
@@ -786,7 +786,7 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 15
 , "Cadillac": 9
 , "Chrysler": 3
-, "other": 194
+, "other": 195
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/3",
@@ -836,7 +836,7 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 695
 , "Dacia": 686
 , "Nissan": 553
-, "Tesla": 538
+, "Tesla": 535
 , "Mini": 538
 , "Mazda": 538
 , "Jeep": 526
@@ -858,7 +858,7 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 14
 , "Cadillac": 12
 , "Chrysler": 6
-, "other": 179
+, "other": 182
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/4",
@@ -1183,7 +1183,7 @@ db.insert(db.countries.CH, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 1125
 , "Seat": 986
 , "Renault": 899
-, "Tesla": 834
+, "Tesla": 835
 , "Peugeot": 778
 , "Hyundai": 743
 , "Citroën": 709
@@ -1213,7 +1213,7 @@ db.insert(db.countries.CH, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 15
 , "Infiniti": 12
 , "Chrysler": 4
-, "other": 1358
+, "other": 1357
 });
 
 db.insert(db.countries.CH, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/9",
@@ -1271,7 +1271,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 276
 , "Honda": 265
 , "Land Rover": 237
-, "Tesla": 189
+, "Tesla": 187
 , "Subaru": 177
 , "Jaguar": 107
 , "Smart": 105
@@ -1284,6 +1284,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 9
 , "Chrysler": 4
 , "Cadillac": 4
+, "other": 2
 });
 
 db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/10",
@@ -1392,7 +1393,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 1556
 , "Seat": 1499
 , "Renault": 1395
-, "Tesla": 1322
+, "Tesla": 1321
 , "Suzuki": 1288
 , "Toyota": 1199
 , "Hyundai": 1098
@@ -1424,7 +1425,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 10
 , "Cadillac": 7
 , "Chrysler": 2
-, "other": 81
+, "other": 82
 });
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/12",
@@ -2076,7 +2077,7 @@ db.insert(db.countries.CH, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Škoda": 1717
 , "Volkswagen": 1546
 , "Audi": 1160
-, "Tesla": 1144
+, "Tesla": 1142
 , "Renault": 1051
 , "Ford": 959
 , "Seat": 926
@@ -2109,7 +2110,7 @@ db.insert(db.countries.CH, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "SsangYong": 2
 , "Polestar": 1
 , "Chevrolet": 1
-, "other": 130
+, "other": 132
 });
 
 db.insert(db.countries.CH, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/9",
@@ -2341,7 +2342,7 @@ db.insert(db.countries.CH, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BMW": 3058
 , "Mercedes-Benz": 2382
 , "Škoda": 2069
-, "Tesla": 1810
+, "Tesla": 1809
 , "Audi": 1808
 , "Ford": 1221
 , "Renault": 1154
@@ -2376,7 +2377,7 @@ db.insert(db.countries.CH, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 15
 , "Chevrolet": 12
 , "Chrysler": 1
-, "other": 250
+, "other": 251
 });
 
 db.insert(db.countries.CH, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/12",
@@ -2457,7 +2458,7 @@ db.insert(db.countries.CH, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 141
 , "Subaru": 109
 , "Alfa Romeo": 100
-, "Tesla": 63
+, "Tesla": 62
 , "Jaguar": 50
 , "Polestar": 44
 , "Lexus": 44
@@ -2468,7 +2469,7 @@ db.insert(db.countries.CH, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 1
 , "Dodge": 1
 , "Chevrolet": 1
-, "other": 1078
+, "other": 1079
 });
 
 db.insert(db.countries.CH, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/1",
@@ -2749,7 +2750,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 140
 , "Jaguar": 125
 , "Polestar": 74
-, "Tesla": 70
+, "Tesla": 61
 , "Lexus": 36
 , "Smart": 31
 , "DS Automobiles": 28
@@ -2759,7 +2760,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Chevrolet": 3
 , "Dodge": 2
 , "Aiways": 1
-, "other": 1477
+, "other": 1486
 });
 
 db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/4",
@@ -2915,7 +2916,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 2042
 , "Audi": 1957
 , "Škoda": 1757
-, "Tesla": 1297
+, "Tesla": 1296
 , "Toyota": 1018
 , "Ford": 916
 , "Renault": 907
@@ -2950,7 +2951,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "SsangYong": 2
 , "Chevrolet": 1
 , "Aiways": 1
-, "other": 1679
+, "other": 1680
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/6",
@@ -3038,7 +3039,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 41
 , "Maserati": 29
 , "DS Automobiles": 24
-, "Tesla": 19
+, "Tesla": 17
 , "Genesis": 18
 , "Smart": 17
 , "Dodge": 12
@@ -3046,7 +3047,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 8
 , "Chevrolet": 5
 , "SsangYong": 2
-, "other": 1247
+, "other": 1245
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/7",
