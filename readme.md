@@ -8,6 +8,7 @@ Online version: https://open-ev-charts.org/
 
 Database status
 ---------------
+
 | Country        | Since | Interval | EV models  | All car sales
 |----------------|-------|----------|------------|--------------
 | China          | 2018  | Month    | Complete   | Total only
@@ -34,10 +35,10 @@ Database structure
 For each country there is a JavaScript file.<br>
 This file contains two data sets for each month/quarter:
 
-- Sales numbers of all cars by brand
-- Sales numbers of electric cars (BEV) by model (limited to top 50 models)
+- Number of all cars by brand
+- Number of electric cars (BEV) by model (limited to top 50 models)
 
-In addition every data set has a source URL.
+In addition every data set has one or multiple source URLs.
 
 Technology
 ----------
