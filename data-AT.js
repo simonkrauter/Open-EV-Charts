@@ -219,9 +219,9 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 793
 , "Suzuki": 789
 , "Toyota": 642
-, "Tesla": 426
+, "Tesla": 469
 , "Nissan": 419
-, "other": 2394
+, "other": 2351
 });
 
 db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -259,8 +259,8 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 647
 , "Mini": 528
 , "Volvo": 478
-, "Tesla": 133
-, "other": 2360
+, "Tesla": 163
+, "other": 2330
 });
 
 db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -375,8 +375,8 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Volvo": 417
 , "Suzuki": 382
 , "Nissan": 319
-, "Tesla": 46
-, "other": 1809
+, "Tesla": 25
+, "other": 1830
 });
 
 db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -414,8 +414,8 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 446
 , "Volvo": 361
 , "Mitsubishi": 275
-, "Tesla": 102
-, "other": 1210
+, "Tesla": 119
+, "other": 1193
 });
 
 db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -453,8 +453,8 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Toyota": 503
 , "Nissan": 373
 , "Volvo": 351
-, "Tesla": 256
-, "other": 1143
+, "Tesla": 281
+, "other": 1118
 });
 
 db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
@@ -911,14 +911,14 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Audi": 921
 , "Opel": 897
 , "Dacia": 829
-, "Tesla": 750
+, "Tesla": 687
 , "Citroën": 678
 , "Toyota": 616
 , "Mazda": 556
 , "Suzuki": 473
 , "Kia": 407
 , "Nissan": 345
-, "other": 1991
+, "other": 2054
 });
 
 db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
@@ -955,7 +955,8 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Citroën": 192
 , "Suzuki": 191
 , "Mini": 122
-, "other": 843
+, "Tesla": 94
+, "other": 749
 });
 
 db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
@@ -1107,7 +1108,8 @@ db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "Dacia": 387
 , "Volvo": 259
 , "Mini": 230
-, "other": 1598
+, "Tesla": 170
+, "other": 1428
 });
 
 db.insert(db.countries.AT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
