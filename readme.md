@@ -35,7 +35,7 @@ For each country there is a JavaScript file.<br>
 This file contains two data sets for each month/quarter:
 
 - Sales numbers of all cars by brand
-- Sales numbers of electric cars (BEV) by model
+- Sales numbers of electric cars (BEV) by model (limited to top 50 models)
 
 In addition every data set has a source URL.
 
