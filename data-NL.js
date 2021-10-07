@@ -3021,14 +3021,14 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/8",
 { "Kia|Niro EV": 754
-, "Škoda|Enyaq": 472
+, "Škoda|Enyaq": 477
 , "Ford|Mustang Mach-E": 436
 , "Volkswagen|ID.4": 179
 , "BMW|iX3": 178
 , "Volkswagen|ID.3": 148
 , "Mazda|MX-30": 137
 , "Mini|Cooper SE Electric": 132
-, "Tesla|Model Y": 127
+, "Tesla|Model Y": 129
 , "Peugeot|e-208": 120
 , "Volvo|XC40 Recharge pure electric": 106
 , "Mercedes-Benz|EQA": 106
@@ -3046,16 +3046,16 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 58
 , "Kia|Soul EV": 52
 , "Mercedes-Benz|EQC": 42
+, "Audi|e-tron GT": 41
 , "Fiat|500e": 37
-, "Audi|e-tron GT": 36
-, "Porsche|Taycan": 30
+, "Porsche|Taycan": 32
 , "Hyundai|Ioniq Electric": 29
 , "BMW|i3 BEV": 25
+, "MG|ZS EV": 15
 , "Mercedes-Benz|eVito": 13
 , "DS Automobiles|DS 3 Crossback E-Tense": 13
 , "Mercedes-Benz|EQV": 12
-, "MG|ZS EV": 11
-, "Citroën|ë-C4": 11
+, "Citroën|ë-C4": 12
 , "Volkswagen|e-up!": 8
 , "Renault|Twingo Z.E.": 8
 , "Citroën|ë-Jumpy": 8
