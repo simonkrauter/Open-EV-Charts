@@ -257,9 +257,6 @@ function addSelectElement(parent, defaultOptionText) {
 function renderChart(chartIndex) {
   var chartConfig = chartConfigs[chartIndex];
   const params = db.getChartParams(chartConfig);
-  if (!isSingleChart)
-    chartConfig.view = params.view.defaultOption;
-
   const chartData = db.queryChartData(chartConfig, sortByName);
 
   const chartDiv = document.createElement("DIV");
@@ -271,11 +268,11 @@ function renderChart(chartIndex) {
 
   renderChartTitle(chartDiv, chartConfig);
 
-  if (isSingleChart) {
+  if (isSingleChart || chartConfig.view != params.view.defaultOption)
     renderChartTabButtons(chartDiv);
-    if (chartConfig.view != db.views.sources)
-      renderIncompleteDataHint(chartDiv, chartData);
-  }
+
+  if (isSingleChart && chartConfig.view != db.views.sources)
+    renderIncompleteDataHint(chartDiv, chartData);
 
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
