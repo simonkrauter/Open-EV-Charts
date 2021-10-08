@@ -867,16 +867,21 @@ function renderTableTransposed(chartConfig, table, chartData) {
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     const cell = document.createElement("TD");
-    if (columnTitle == "Model" && text != "Other") {
+    if (["Country", "Brand", "Model"].includes(columnTitle) && text.toLowerCase() != "other") {
       var newChartConfig = db.cloneObject(chartConfig);
       const textParts = text.split("|", 2);
       if (textParts.length > 1) {
         newChartConfig.brand = textParts[0];
         newChartConfig.model = textParts[1];
       } else {
-        newChartConfig.model = text;
+        const countryId = db.countryNames.indexOf(text);
+        if (countryId != -1) {
+          newChartConfig.country = Object.keys(db.countries)[countryId];
+        } else {
+          newChartConfig.model = text;
+        }
       }
-      if (newChartConfig.xProperty == db.xProperties.model) {
+      if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
         newChartConfig.xProperty = "";
         newChartConfig.timeSpan = "";
       }
