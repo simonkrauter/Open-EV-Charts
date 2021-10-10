@@ -1071,3 +1071,57 @@ db.insert(db.countries.IT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mini|Cooper SE Electric": 91
 , "other": 847
 });
+
+db.insert(db.countries.IT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20settembre%202021_6156e1371a0e2.pdf",
+{ "Fiat": 13169
+, "Volkswagen": 9446
+, "Dacia": 7219
+, "Renault": 6404
+, "Ford": 5856
+, "Toyota": 5555
+, "Jeep": 4960
+, "Kia": 4768
+, "Hyundai": 4169
+, "Peugeot": 4112
+, "Suzuki": 3669
+, "Citroën": 3499
+, "BMW": 3461
+, "Opel": 3284
+, "Audi": 3096
+, "Mercedes-Benz": 3080
+, "Nissan": 2308
+, "Tesla": 1429
+, "Seat": 1352
+, "Mazda": 1306
+, "Land Rover": 1175
+, "Škoda": 1151
+, "Volvo": 1002
+, "Alfa Romeo": 939
+, "Mini": 824
+, "Honda": 656
+, "Smart": 545
+, "DS Automobiles": 423
+, "Mitsubishi": 361
+, "Lexus": 338
+, "Jaguar": 315
+, "Porsche": 236
+, "Subaru": 176
+, "Maserati": 135
+, "SsangYong": 67
+, "MG": 50
+, "other": 4640
+});
+
+db.insert(db.countries.IT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3732",
+{ "Dacia|Spring": 1876
+, "Fiat|500e": 1289
+, "Tesla|Model 3": 999
+, "Smart|Fortwo ED": 477
+, "Tesla|Model Y": 430
+, "Renault|Zoe": 408
+, "Volkswagen|ID.3": 356
+, "Opel|Corsa-e": 230
+, "Volkswagen|e-up!": 214
+, "Peugeot|e-2008": 206
+, "other": 2007
+});
