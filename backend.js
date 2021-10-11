@@ -10,8 +10,14 @@ var db = {
   countries: {},
   // Code => ID
 
-  countryNames: [],
+  countriesCodes: {},
+  // ID => Code
+
+  countryNames: {},
   // ID => Name
+
+  countryNamesReverse: {},
+  // Name => ID
 
   dsTypes:
   { "AllCarsByBrand": 1
@@ -41,9 +47,11 @@ var db = {
   // Format: e.g. "Tesla|Model 3"
 
   addCountry: function(code, name) {
-    const id = Object.keys(this.countries).length;
+    const id = Object.keys(this.countries).length + 1;
     this.countries[code] = id;
-    this.countryNames.push(name);
+    this.countriesCodes[id] = code;
+    this.countryNames[id] = name;
+    this.countryNamesReverse[name] = id;
   },
 
   insert: function(country, dateString, dsType, source, data) {

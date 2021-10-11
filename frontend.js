@@ -874,9 +874,9 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
         newChartConfig.brand = textParts[0];
         newChartConfig.model = textParts[1];
       } else {
-        const countryId = db.countryNames.indexOf(text);
-        if (countryId != -1) {
-          newChartConfig.country = Object.keys(db.countries)[countryId];
+        const countryId = db.countryNamesReverse[text];
+        if (countryId != null) {
+          newChartConfig.country = db.countriesCodes[countryId];
         } else {
           newChartConfig.model = text;
         }
