@@ -737,3 +737,53 @@ db.insert(db.countries.DK, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 1
 , "other": 14
 });
+
+db.insert(db.countries.DK, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 14221
+});
+
+db.insert(db.countries.DK, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2021/9",
+{ "Tesla|Model Y": 449
+, "Tesla|Model 3": 299
+, "Volkswagen|ID.4": 293
+, "Audi|Q4 e-tron": 222
+, "Renault|Zoe": 184
+, "Hyundai|Kona Electric": 183
+, "Volkswagen|ID.3": 168
+, "Škoda|Enyaq": 162
+, "Hyundai|Ioniq 5": 131
+, "Polestar|2": 127
+, "Ford|Mustang Mach-E": 122
+, "Volkswagen|e-up!": 121
+, "Kia|Niro EV": 80
+, "Mercedes-Benz|EQA": 78
+, "Mazda|MX-30": 64
+, "Aiways|U5": 59
+, "Fiat|500e": 44
+, "Mercedes-Benz|EQC": 41
+, "Hyundai|Ioniq Electric": 40
+, "Nissan|Leaf": 37
+, "MG|ZS EV": 35
+, "Peugeot|e-2008": 34
+, "BMW|iX3": 30
+, "Seat|Mii Electric": 27
+, "Porsche|Taycan": 22
+, "Peugeot|e-208": 19
+, "Opel|Mokka-e": 19
+, "Citroën|ë-C4": 18
+, "Audi|e-tron": 13
+, "Volvo|XC40 Recharge pure electric": 10
+, "Toyota|Proace Electric": 8
+, "Opel|Corsa-e": 8
+, "BMW|i3 BEV": 7
+, "Kia|Soul EV": 6
+, "Mercedes-Benz|EQV": 5
+, "Mini|Cooper SE Electric": 4
+, "Mercedes-Benz|EQS": 4
+, "Lexus|UX 300e": 3
+, "Volkswagen|e-Golf": 2
+, "Audi|e-tron GT": 2
+, "Jaguar|I-Pace": 1
+, "Honda|e": 1
+, "other": 7
+});
