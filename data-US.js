@@ -4,7 +4,7 @@
 
 db.addCountry("US", "United States");
 
-db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 574332
 , "Toyota": 514289
 , "Chevrolet": 489852
@@ -52,7 +52,7 @@ db.insert(db.countries.US, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|Leaf": 2545
 });
 
-db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 647113
 , "Toyota": 562118
 , "Chevrolet": 444759
@@ -100,7 +100,7 @@ db.insert(db.countries.US, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 3483
 });
 
-db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 581928
 , "Toyota": 577945
 , "Chevrolet": 448901
@@ -146,7 +146,7 @@ db.insert(db.countries.US, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 3949
 });
 
-db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 578262
 , "Toyota": 524818
 , "Chevrolet": 504856
@@ -193,7 +193,7 @@ db.insert(db.countries.US, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 393
 });
 
-db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 557884
 , "Toyota": 481073
 , "Chevrolet": 451742
@@ -240,7 +240,7 @@ db.insert(db.countries.US, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 608
 });
 
-db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 613098
 , "Toyota": 543905
 , "Chevrolet": 486884
@@ -288,7 +288,7 @@ db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 701
 });
 
-db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Toyota": 560478
 , "Ford": 548070
 , "Chevrolet": 505913
@@ -336,7 +336,7 @@ db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 533
 });
 
-db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 565373
 , "Toyota": 515455
 , "Chevrolet": 497500
@@ -384,7 +384,7 @@ db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Porsche|Taycan": 130
 });
 
-db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 489051
 , "Toyota": 439402
 , "Chevrolet": 429529
@@ -433,7 +433,7 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Porsche|Taycan": 211
 });
 
-db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 411035
 , "Toyota": 347571
 , "Chevrolet": 330381
@@ -482,7 +482,7 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 600
 });
 
-db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 521530
 , "Toyota": 483164
 , "Chevrolet": 449134
@@ -531,7 +531,7 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 500
 });
 
-db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Toyota": 567761
 , "Chevrolet": 520989
 , "Ford": 507579
@@ -581,7 +581,7 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Ford|Mustang Mach-E": 3
 });
 
-db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Toyota": 517017
 , "Ford": 492271
 , "Chevrolet": 463913
@@ -632,7 +632,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 256
 });
 
-db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Toyota": 573109
 , "Ford": 448745
 , "Honda": 435923
@@ -683,7 +683,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 358
 });
 
-db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Toyota": 433299
 , "Ford": 380606
 , "Honda": 307359
