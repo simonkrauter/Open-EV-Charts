@@ -2472,9 +2472,9 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 111
 , "Mercedes-Benz|EQA": 109
 , "Kia|Soul EV": 98
+, "Hyundai|Ioniq Electric": 82
 , "Porsche|Taycan": 80
 , "Polestar|2": 80
-, "Hyundai|Ioniq Electric": 77
 , "Volkswagen|e-up!": 74
 , "Lexus|UX 300e": 72
 , "Renault|Zoe": 54
@@ -2493,7 +2493,7 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 4
 , "Mercedes-Benz|EQS": 3
 , "BMW|iX": 1
-, "other": 167
+, "other": 162
 });
 
 
