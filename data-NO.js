@@ -2496,6 +2496,81 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 162
 });
 
+ db.insert(db.countries.NO, "2021-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
+{ "Volkswagen": 1472
+, "Audi": 1022
+, "Volvo": 997
+, "Škoda": 933
+, "Toyota": 885
+, "Hyundai": 878
+, "Ford": 522
+, "BMW": 521
+, "Mercedes-Benz": 440
+, "Polestar": 405
+, "Kia": 397
+, "Nissan": 374
+, "Peugeot": 331
+, "Suzuki": 284
+, "Mazda": 255
+, "Citroën": 221
+, "Opel": 207
+, "Mitsubishi": 138
+, "MG": 101
+, "Tesla": 56
+, "other": 1140
+});
+
+db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
+{ "Volkswagen|ID.4": 912
+, "Škoda|Enyaq": 757
+, "Audi|Q4 e-tron": 647
+, "Hyundai|Ioniq 5": 582
+, "Volvo|XC40 Recharge pure electric": 465
+, "Polestar|2": 404
+, "Nissan|Leaf": 353
+, "Audi|e-tron": 305
+, "Volkswagen|ID.3": 298
+, "Ford|Mustang Mach-E": 222
+, "Mazda|MX-30": 206
+, "Kia|Soul EV": 204
+, "Mercedes-Benz|EQA": 194
+, "Hyundai|Kona Electric": 187
+, "Porsche|Taycan": 181
+, "Citroën|ë-C4": 168
+, "BMW|i3 BEV": 138
+, "Opel|Mokka-e": 121
+, "Peugeot|e-2008": 119
+, "Škoda|Citigo-e": 86
+, "Mercedes-Benz|EQC": 81
+, "Kia|EV6": 78
+, "Peugeot|e-208": 76
+, "BMW|iX3": 75
+, "Kia|Niro EV": 71
+, "Volkswagen|e-up!": 67
+, "Lexus|UX 300e": 67
+, "Opel|Corsa-e": 54
+, "Tesla|Model 3": 53
+, "Renault|Zoe": 53
+, "Audi|e-tron GT": 46
+, "Fiat|500e": 41
+, "Xiaopeng|Xpeng G3": 40
+, "MG|ZS EV": 39
+, "Mini|Cooper SE Electric": 37
+, "Jaguar|I-Pace": 31
+, "Honda|e": 31
+, "Peugeot|e-Traveller": 21
+, "Hyundai|Ioniq Electric": 17
+, "Opel|Zafira-e": 12
+, "Nio|ES8": 10
+, "Mercedes-Benz|EQV": 10
+, "DS Automobiles|DS 3 Crossback E-Tense": 10
+, "Mercedes-Benz|EQS": 5
+, "Tesla|Model Y": 2
+, "Smart|Fortwo ED": 2
+, "Mitsubishi|i-MiEV": 2
+, "Tesla|Model S": 1
+, "other": 535
+});
 
 // Template:
 
