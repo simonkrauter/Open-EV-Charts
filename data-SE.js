@@ -1296,7 +1296,9 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 2
 , "Jaguar|I-Pace": 2
 , "Volkswagen|e-Caddy": 1
+, "Opel|Zafira-e": 1
 , "Nissan|e-NV200": 1
 , "BMW|iX": 1
-, "other": 67
+, "other": 66
+});
 });
