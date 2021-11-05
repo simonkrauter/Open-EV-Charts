@@ -37,10 +37,10 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 125
 , "Lexus": 102
 , "DS Automobiles": 84
-, "Tesla": 77
+, "Tesla": 78
 , "Maserati": 17
 , "Infiniti": 7
-, "other": 126
+, "other": 125
 });
 
 db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/1",
@@ -86,7 +86,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 468
 , "Mini": 463
 , "Dacia": 339
-, "Tesla": 233
+, "Tesla": 234
 , "Land Rover": 144
 , "Smart": 133
 , "Porsche": 132
@@ -101,7 +101,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "SsangYong": 3
 , "Infiniti": 2
 , "Chevrolet": 1
-, "other": 168
+, "other": 167
 });
 
 db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/2",
@@ -140,7 +140,7 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 1142
 , "Hyundai": 980
 , "Seat": 926
-, "Tesla": 871
+, "Tesla": 875
 , "Mitsubishi": 848
 , "Suzuki": 843
 , "Mini": 798
@@ -158,7 +158,7 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 38
 , "Maserati": 6
 , "Infiniti": 5
-, "other": 275
+, "other": 271
 });
 
 db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/3",
@@ -210,14 +210,14 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 99
 , "DS Automobiles": 92
 , "Jaguar": 91
-, "Tesla": 75
+, "Tesla": 77
 , "Honda": 72
 , "Subaru": 65
 , "Lexus": 62
 , "Maserati": 3
 , "Infiniti": 2
 , "SsangYong": 1
-, "other": 359
+, "other": 357
 });
 
 db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/4",
@@ -260,7 +260,7 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Suzuki": 734
 , "Mini": 580
 , "Mitsubishi": 485
-, "Tesla": 427
+, "Tesla": 428
 , "Dacia": 366
 , "Smart": 169
 , "Porsche": 153
@@ -275,7 +275,7 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 5
 , "Maserati": 4
 , "SsangYong": 1
-, "other": 364
+, "other": 363
 });
 
 db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/5",
@@ -314,7 +314,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Hyundai": 1483
 , "Mercedes-Benz": 1426
 , "Mazda": 1162
-, "Tesla": 1125
+, "Tesla": 1122
 , "Audi": 1108
 , "Suzuki": 1031
 , "Seat": 963
@@ -334,7 +334,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 58
 , "Maserati": 4
 , "Infiniti": 4
-, "other": 270
+, "other": 273
 });
 
 db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/6",
@@ -381,7 +381,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 545
 , "Mini": 404
 , "Mitsubishi": 385
-, "Tesla": 238
+, "Tesla": 236
 , "Porsche": 169
 , "Land Rover": 153
 , "Honda": 110
@@ -395,7 +395,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Infiniti": 6
 , "Maserati": 3
 , "SsangYong": 1
-, "other": 207
+, "other": 209
 });
 
 db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/7",
@@ -439,7 +439,7 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 700
 , "Dacia": 662
 , "Seat": 629
-, "Tesla": 600
+, "Tesla": 601
 , "Mini": 530
 , "Mitsubishi": 462
 , "Porsche": 216
@@ -454,7 +454,7 @@ db.insert(db.countries.NL, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "DS Automobiles": 33
 , "Maserati": 6
 , "Infiniti": 3
-, "other": 148
+, "other": 147
 });
 
 db.insert(db.countries.NL, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/8",
@@ -483,7 +483,7 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 2012
 , "Toyota": 1910
 , "Kia": 1910
-, "Tesla": 1645
+, "Tesla": 1646
 , "Renault": 1503
 , "Volkswagen": 1476
 , "Volvo": 1363
@@ -513,7 +513,7 @@ db.insert(db.countries.NL, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "DS Automobiles": 41
 , "Maserati": 5
 , "Infiniti": 1
-, "other": 90
+, "other": 89
 });
 
 db.insert(db.countries.NL, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/9",
@@ -613,7 +613,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 1024
 , "Audi": 868
 , "Suzuki": 738
-, "Tesla": 736
+, "Tesla": 760
 , "Jaguar": 667
 , "Mazda": 615
 , "Mini": 601
@@ -631,7 +631,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "DS Automobiles": 35
 , "Maserati": 4
 , "Infiniti": 2
-, "other": 73
+, "other": 49
 });
 
 db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/11",
@@ -750,13 +750,13 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 77
 , "DS Automobiles": 73
 , "Lexus": 67
-, "Tesla": 63
+, "Tesla": 55
 , "Subaru": 63
 , "Smart": 40
 , "Maserati": 8
 , "SsangYong": 1
 , "Infiniti": 1
-, "other": 154
+, "other": 162
 });
 
 db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/1",
@@ -804,7 +804,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 678
 , "Seat": 601
 , "Suzuki": 597
-, "Tesla": 489
+, "Tesla": 490
 , "Mitsubishi": 487
 , "Fiat": 467
 , "Dacia": 207
@@ -820,7 +820,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 28
 , "Maserati": 3
 , "SsangYong": 1
-, "other": 161
+, "other": 160
 });
 
 db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/2",
@@ -850,7 +850,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 2547
 , "Kia": 2475
 , "Renault": 2307
-, "Tesla": 2209
+, "Tesla": 2202
 , "Ford": 2158
 , "BMW": 2020
 , "Mercedes-Benz": 1888
@@ -878,7 +878,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 41
 , "Subaru": 33
 , "Maserati": 4
-, "other": 224
+, "other": 231
 });
 
 db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/3",
@@ -924,7 +924,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Suzuki": 738
 , "Mini": 638
 , "Mazda": 523
-, "Tesla": 471
+, "Tesla": 468
 , "Fiat": 400
 , "Mitsubishi": 344
 , "Dacia": 230
@@ -940,7 +940,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 24
 , "Maserati": 4
 , "Infiniti": 2
-, "other": 432
+, "other": 435
 });
 
 db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/4",
@@ -988,7 +988,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Suzuki": 793
 , "Mini": 558
 , "Mitsubishi": 470
-, "Tesla": 439
+, "Tesla": 434
 , "Dacia": 295
 , "Fiat": 293
 , "Jeep": 146
@@ -1002,7 +1002,7 @@ db.insert(db.countries.NL, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 50
 , "Smart": 32
 , "Infiniti": 4
-, "other": 415
+, "other": 420
 });
 
 db.insert(db.countries.NL, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/5",
@@ -1034,7 +1034,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 3100
 , "Peugeot": 3082
 , "Renault": 3054
-, "Tesla": 2586
+, "Tesla": 2580
 , "Ford": 2441
 , "BMW": 2028
 , "Kia": 1985
@@ -1064,7 +1064,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 29
 , "Maserati": 3
 , "Infiniti": 3
-, "other": 328
+, "other": 334
 });
 
 db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/6",
@@ -1110,7 +1110,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Suzuki": 960
 , "Nissan": 836
 , "Mini": 645
-, "Tesla": 629
+, "Tesla": 630
 , "Mazda": 559
 , "Mitsubishi": 404
 , "Fiat": 255
@@ -1127,7 +1127,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 16
 , "Maserati": 3
 , "Infiniti": 2
-, "other": 229
+, "other": 228
 });
 
 db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/7",
@@ -1169,7 +1169,7 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BMW": 1362
 , "Hyundai": 1267
 , "Renault": 1261
-, "Tesla": 1247
+, "Tesla": 1242
 , "Citroën": 1203
 , "Nissan": 1084
 , "Seat": 967
@@ -1192,7 +1192,7 @@ db.insert(db.countries.NL, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 16
 , "Maserati": 5
 , "Infiniti": 3
-, "other": 160
+, "other": 165
 });
 
 db.insert(db.countries.NL, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/8",
@@ -1300,7 +1300,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 572
 , "Suzuki": 565
 , "Mitsubishi": 356
-, "Tesla": 322
+, "Tesla": 313
 , "Porsche": 233
 , "Dacia": 224
 , "Fiat": 216
@@ -1315,7 +1315,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 19
 , "MG": 5
 , "Maserati": 3
-, "other": 81
+, "other": 90
 });
 
 db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/10",
@@ -1346,7 +1346,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 
 db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/november/",
 { "Volkswagen": 4496
-, "Tesla": 4116
+, "Tesla": 4081
 , "Renault": 2553
 , "Kia": 2538
 , "Toyota": 2476
@@ -1380,7 +1380,7 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 26
 , "Subaru": 22
 , "Infiniti": 1
-, "other": 87
+, "other": 122
 });
 
 db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/11",
@@ -1501,7 +1501,7 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 230
 , "Dacia": 206
 , "Honda": 166
-, "Tesla": 165
+, "Tesla": 54
 , "Lexus": 117
 , "MG": 110
 , "DS Automobiles": 107
@@ -1510,7 +1510,7 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 42
 , "Alfa Romeo": 38
 , "Smart": 7
-, "other": 367
+, "other": 478
 });
 
 db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/1",
@@ -1568,7 +1568,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 597
 , "Mazda": 537
 , "Porsche": 161
-, "Tesla": 155
+, "Tesla": 142
 , "Dacia": 147
 , "Land Rover": 114
 , "Honda": 87
@@ -1581,7 +1581,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 9
 , "MG": 9
 , "Maserati": 6
-, "other": 242
+, "other": 255
 });
 
 db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/2",
@@ -1628,7 +1628,7 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Škoda": 1608
 , "Renault": 1592
 , "Opel": 1578
-, "Tesla": 1395
+, "Tesla": 1399
 , "Volvo": 1096
 , "Nissan": 976
 , "Audi": 893
@@ -1653,7 +1653,7 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 11
 , "Subaru": 9
 , "Maserati": 1
-, "other": 294
+, "other": 290
 });
 
 db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/3",
@@ -1707,7 +1707,7 @@ db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 331
 , "Seat": 294
 , "Suzuki": 270
-, "Tesla": 209
+, "Tesla": 207
 , "Fiat": 180
 , "Mitsubishi": 148
 , "Dacia": 103
@@ -1723,7 +1723,7 @@ db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "DS Automobiles": 9
 , "Polestar": 7
 , "Smart": 4
-, "other": 235
+, "other": 237
 });
 
 db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/4",
@@ -1775,7 +1775,7 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 324
 , "Seat": 268
 , "Mini": 234
-, "Tesla": 178
+, "Tesla": 177
 , "Fiat": 165
 , "Mitsubishi": 137
 , "Dacia": 98
@@ -1791,7 +1791,7 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 10
 , "Smart": 2
 , "Polestar": 1
-, "other": 278
+, "other": 279
 });
 
 db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/5",
@@ -1930,13 +1930,13 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 54
 , "DS Automobiles": 46
 , "Alfa Romeo": 44
-, "Tesla": 36
+, "Tesla": 37
 , "Subaru": 27
 , "Smart": 20
 , "Polestar": 17
 , "SsangYong": 4
 , "Maserati": 4
-, "other": 418
+, "other": 417
 });
 
 db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/7",
@@ -1988,10 +1988,10 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Hyundai": 900
 , "Škoda": 848
 , "Seat": 668
-, "Tesla": 618
+, "Tesla": 619
 , "Mini": 572
 , "Mazda": 567
-, "MG": 498
+, "MG": 505
 , "Suzuki": 405
 , "Dacia": 322
 , "Fiat": 309
@@ -2008,7 +2008,7 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 21
 , "Polestar": 16
 , "Maserati": 3
-, "other": 251
+, "other": 243
 });
 
 db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/8",
@@ -2057,7 +2057,7 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 1431
 , "Volvo": 1303
 , "Škoda": 1138
-, "Tesla": 1101
+, "Tesla": 1104
 , "Hyundai": 1022
 , "Audi": 921
 , "Mazda": 876
@@ -2070,7 +2070,7 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 433
 , "Mitsubishi": 265
 , "Dacia": 229
-, "MG": 192
+, "MG": 214
 , "Honda": 121
 , "Porsche": 106
 , "Jeep": 80
@@ -2082,7 +2082,7 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 6
 , "Jaguar": 5
 , "Maserati": 2
-, "other": 161
+, "other": 136
 });
 
 db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/9",
@@ -2152,12 +2152,12 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 73
 , "DS Automobiles": 62
 , "Lexus": 59
-, "Tesla": 46
+, "Tesla": 45
 , "Smart": 32
 , "Jaguar": 21
 , "Subaru": 17
 , "Alfa Romeo": 6
-, "other": 122
+, "other": 123
 });
 
 db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/10",
@@ -2226,7 +2226,7 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 322
 , "MG": 175
 , "Dacia": 162
-, "Tesla": 152
+, "Tesla": 150
 , "Land Rover": 148
 , "Lexus": 128
 , "Jeep": 103
@@ -2239,7 +2239,7 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 17
 , "Alfa Romeo": 11
 , "Maserati": 1
-, "other": 34
+, "other": 36
 });
 
 db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/11",
@@ -2290,7 +2290,7 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 db.insert(db.countries.NL, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/december/",
 { "Volkswagen": 9291
 , "Hyundai": 4920
-, "Tesla": 4149
+, "Tesla": 4155
 , "Toyota": 2697
 , "Audi": 2401
 , "Volvo": 2343
@@ -2325,7 +2325,7 @@ db.insert(db.countries.NL, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 22
 , "Subaru": 14
 , "SsangYong": 1
-, "other": 51
+, "other": 45
 });
 
 db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/12",
