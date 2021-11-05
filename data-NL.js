@@ -2821,7 +2821,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 321
 , "Porsche": 139
 , "Jeep": 117
-, "Land Rover": 106
+, "Land Rover": 108
 , "Polestar": 67
 , "Honda": 51
 , "Lexus": 46
@@ -2832,7 +2832,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 14
 , "Maserati": 1
 , "Aiways": 1
-, "other": 428
+, "other": 426
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
@@ -3114,16 +3114,16 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/9",
 { "Kia|Niro EV": 576
-, "Škoda|Enyaq": 546
-, "Tesla|Model 3": 446
+, "Škoda|Enyaq": 552
+, "Tesla|Model 3": 447
 , "Tesla|Model Y": 347
-, "Volkswagen|ID.4": 296
+, "Volkswagen|ID.4": 297
 , "BMW|iX3": 272
-, "Audi|Q4 e-tron": 193
+, "Audi|Q4 e-tron": 204
 , "Polestar|2": 171
 , "Hyundai|Kona Electric": 168
 , "Ford|Mustang Mach-E": 164
-, "Volkswagen|ID.3": 156
+, "Volkswagen|ID.3": 160
 , "Mazda|MX-30": 147
 , "Nissan|Leaf": 141
 , "Peugeot|e-208": 128
@@ -3131,12 +3131,12 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 117
 , "Volvo|XC40 Recharge pure electric": 98
 , "Mercedes-Benz|EQA": 94
-, "Peugeot|e-2008": 85
+, "Peugeot|e-2008": 87
 , "Renault|Zoe": 84
 , "MG|ZS EV": 80
+, "Audi|e-tron": 78
 , "Mini|Cooper SE Electric": 75
 , "Opel|Corsa-e": 73
-, "Audi|e-tron": 73
 , "BMW|i3 BEV": 71
 , "Hyundai|Ioniq 5": 69
 , "Citroën|ë-Jumpy": 69
@@ -3144,8 +3144,8 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 53
 , "Kia|Soul EV": 43
 , "Citroën|ë-C4": 27
+, "Audi|e-tron GT": 27
 , "Mercedes-Benz|EQC": 25
-, "Audi|e-tron GT": 25
 , "Seat|Mii Electric": 16
 , "Peugeot|e-Expert": 11
 , "Volkswagen|e-up!": 10
