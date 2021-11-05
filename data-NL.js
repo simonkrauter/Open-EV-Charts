@@ -3165,3 +3165,96 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "other": 24
 });
+
+db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/oktober/",
+{ "Kia": 2439
+, "Volkswagen": 2315
+, "Peugeot": 1698
+, "Toyota": 1547
+, "Ford": 1529
+, "Opel": 1528
+, "Hyundai": 1452
+, "Renault": 1411
+, "Volvo": 1145
+, "Škoda": 1088
+, "BMW": 1012
+, "Audi": 998
+, "Mercedes-Benz": 751
+, "Citroën": 717
+, "Mazda": 505
+, "Seat": 416
+, "Mini": 381
+, "Fiat": 350
+, "Mitsubishi": 345
+, "Suzuki": 326
+, "Polestar": 303
+, "Dacia": 280
+, "Nissan": 257
+, "Porsche": 150
+, "Land Rover": 103
+, "MG": 86
+, "Jeep": 79
+, "Honda": 75
+, "Tesla": 63
+, "Lexus": 32
+, "Smart": 31
+, "DS Automobiles": 31
+, "Jaguar": 13
+, "Subaru": 8
+, "Alfa Romeo": 7
+, "Maserati": 1
+, "other": 768
+});
+
+db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/10",
+{ "Kia|Niro EV": 658
+, "Škoda|Enyaq": 525
+, "Volkswagen|ID.4": 462
+, "Audi|Q4 e-tron": 380
+, "Polestar|2": 301
+, "Kia|EV6": 285
+, "Volkswagen|ID.3": 243
+, "Peugeot|e-208": 205
+, "Peugeot|e-2008": 191
+, "BMW|iX3": 187
+, "Ford|Mustang Mach-E": 186
+, "Opel|Corsa-e": 176
+, "Hyundai|Ioniq 5": 143
+, "Mercedes-Benz|EQA": 140
+, "Mini|Cooper SE Electric": 123
+, "Volvo|XC40 Recharge pure electric": 117
+, "Opel|Mokka-e": 112
+, "Mazda|MX-30": 98
+, "Hyundai|Kona Electric": 94
+, "Fiat|500e": 85
+, "Porsche|Taycan": 74
+, "Audi|e-tron": 68
+, "Hyundai|Ioniq Electric": 66
+, "Renault|Zoe": 63
+, "MG|ZS EV": 59
+, "Tesla|Model 3": 54
+, "Seat|Mii Electric": 50
+, "BMW|i3 BEV": 44
+, "BMW|iX": 37
+, "Citroën|ë-C4": 35
+, "Kia|Soul EV": 29
+, "Mercedes-Benz|eVito": 27
+, "Dacia|Spring": 21
+, "Audi|e-tron GT": 20
+, "Mercedes-Benz|EQS": 18
+, "Volkswagen|e-up!": 17
+, "Smart|Fortwo ED": 16
+, "Smart|Forfour ED": 15
+, "Renault|Twingo Z.E.": 15
+, "Mercedes-Benz|EQV": 15
+, "Nissan|Leaf": 14
+, "Cupra|Born": 11
+, "Mercedes-Benz|EQC": 10
+, "Peugeot|e-Expert": 9
+, "Citroën|ë-Jumpy": 9
+, "Tesla|Model Y": 8
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Opel|Combo-e": 5
+, "Lexus|UX 300e": 5
+, "other": 24
+});
