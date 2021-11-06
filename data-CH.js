@@ -3293,5 +3293,6 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 5
 , "Volkswagen|e-Crafter": 4
 , "Peugeot|e-Traveller": 4
-, "other": 44
+, "Opel|Zafira-e": 4
+, "other": 40
 });
