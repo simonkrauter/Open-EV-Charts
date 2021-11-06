@@ -3296,3 +3296,100 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 4
 , "other": 40
 });
+
+db.insert(db.countries.CH, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/11/ModellePW2021.xlsx",
+{ "Mercedes-Benz": 1472
+, "BMW": 1422
+, "Volkswagen": 1410
+, "Škoda": 1205
+, "Audi": 832
+, "Hyundai": 759
+, "Toyota": 748
+, "Renault": 577
+, "Ford": 522
+, "Volvo": 477
+, "Suzuki": 447
+, "Fiat": 388
+, "Kia": 377
+, "Opel": 360
+, "Mini": 355
+, "Dacia": 353
+, "Porsche": 338
+, "Peugeot": 326
+, "Mazda": 265
+, "Nissan": 224
+, "Citroën": 210
+, "Honda": 186
+, "Mitsubishi": 185
+, "Land Rover": 185
+, "Subaru": 161
+, "Jeep": 153
+, "Alfa Romeo": 106
+, "Polestar": 71
+, "Tesla": 58
+, "Jaguar": 58
+, "DS Automobiles": 57
+, "Smart": 52
+, "Lexus": 44
+, "Maserati": 27
+, "SsangYong": 6
+, "Genesis": 5
+, "Chevrolet": 4
+, "Dodge": 3
+, "Cadillac": 1
+, "Aiways": 1
+, "other": 630
+});
+
+db.insert(db.countries.CH, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/10",
+{ "Škoda|Enyaq": 302
+, "Hyundai|Ioniq 5": 170
+, "Fiat|500e": 114
+, "Renault|Zoe": 107
+, "Mercedes-Benz|EQA": 102
+, "Volkswagen|ID.4": 101
+, "Volkswagen|ID.3": 99
+, "Audi|Q4 e-tron": 93
+, "Volvo|XC40 Recharge pure electric": 91
+, "Mini|Cooper SE Electric": 76
+, "Hyundai|Kona Electric": 75
+, "Polestar|2": 71
+, "BMW|i3 BEV": 58
+, "Porsche|Taycan": 51
+, "Smart|Fortwo ED": 48
+, "Tesla|Model 3": 47
+, "Volkswagen|e-up!": 44
+, "Audi|e-tron": 38
+, "Dacia|Spring": 37
+, "Peugeot|e-208": 36
+, "Nissan|Leaf": 34
+, "Audi|e-tron GT": 34
+, "Mercedes-Benz|EQC": 30
+, "BMW|iX3": 27
+, "Opel|Corsa-e": 26
+, "Kia|Niro EV": 26
+, "Renault|Twingo Z.E.": 25
+, "Seat|Mii Electric": 18
+, "Renault|Kangoo Z.E.": 18
+, "Citroën|ë-C4": 18
+, "Peugeot|e-Expert": 17
+, "Mercedes-Benz|EQS": 17
+, "Opel|Mokka-e": 16
+, "Ford|Mustang Mach-E": 15
+, "Jaguar|I-Pace": 14
+, "Honda|e": 14
+, "Citroën|ë-Jumpy": 14
+, "Peugeot|e-2008": 13
+, "Tesla|Model Y": 10
+, "DS Automobiles|DS 3 Crossback E-Tense": 10
+, "Škoda|Citigo-e": 9
+, "Mercedes-Benz|EQV": 8
+, "Kia|EV6": 8
+, "Toyota|Proace Electric": 6
+, "Opel|Vivaro-e": 6
+, "Nissan|e-NV200": 6
+, "Kia|Soul EV": 6
+, "Volkswagen|e-Transporter": 5
+, "Peugeot|e-Traveller": 5
+, "other": 69
+});
