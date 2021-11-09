@@ -3088,7 +3088,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 14
 , "Seat|Mii Electric": 13
 , "Porsche|Taycan": 13
-, "Mazda|MX-30": 10
+, "Mazda|MX-30": 11
 , "Peugeot|e-Expert": 9
 , "Nissan|e-NV200": 8
 , "Mercedes-Benz|EQC": 8
@@ -3106,7 +3106,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Citroën|ë-Jumpy": 2
-, "other": 39
+, "other": 38
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2021/datosseptiembrett.asp",
