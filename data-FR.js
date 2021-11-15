@@ -2971,12 +2971,10 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 12
 , "Citroën|ë-Jumpy": 11
 , "Opel|Zafira-e": 6
+, "Peugeot|e-Rifter": 5
 , "Jaguar|I-Pace": 3
 , "Škoda|Citigo-e": 2
-, "Toyota|Proace Electric": 1
-, "Tesla|Model X": 1
-, "Mercedes-Benz|eVito": 1
-, "other": 10
+, "other": 8
 });
 
 db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/08/2021-07-vp-france.pdf",
@@ -3042,6 +3040,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 96
 , "Kia|Soul EV": 90
 , "BMW|i3 BEV": 81
+, "Peugeot|e-Rifter": 69
 , "Dacia|Spring": 65
 , "BMW|iX3": 57
 , "Porsche|Taycan": 53
@@ -3067,7 +3066,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 3
 , "Jaguar|I-Pace": 3
 , "Škoda|Citigo-e": 1
-, "other": 73
+, "other": 4
 });
 
 db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/09/2021-08-vp-france.pdf",
@@ -3157,7 +3156,8 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 4
 , "Opel|Zafira-e": 3
 , "Mercedes-Benz|eVito": 3
-, "other": 3
+, "Peugeot|e-Rifter": 2
+, "other": 1
 });
 
 db.insert(db.countries.FR, "2021-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/10/2021-09-vp-france.pdf",
@@ -3247,8 +3247,9 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 11
 , "Mercedes-Benz|EQV": 11
 , "Opel|Zafira-e": 10
+, "Peugeot|e-Rifter": 9
 , "Lexus|UX 300e": 8
 , "Toyota|Proace Electric": 6
-, "Mercedes-Benz|eVito": 4
-, "other": 14
+, "other": 9
+});
 });
