@@ -3252,4 +3252,96 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 6
 , "other": 9
 });
+
+db.insert(db.countries.FR, "2021-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/11/2021-10-vp-france.pdf",
+{ "Peugeot": 21538
+, "Renault": 20442
+, "Citroën": 11909
+, "Dacia": 9800
+, "Toyota": 6631
+, "Volkswagen": 5840
+, "Kia": 4078
+, "Mercedes-Benz": 4009
+, "Hyundai": 3972
+, "BMW": 3094
+, "Fiat": 3067
+, "Audi": 2907
+, "Ford": 2290
+, "Nissan": 1908
+, "Škoda": 1877
+, "Opel": 1702
+, "Suzuki": 1655
+, "Mini": 1623
+, "DS Automobiles": 1584
+, "Seat": 1381
+, "Volvo": 1189
+, "Tesla": 977
+, "Jeep": 952
+, "Mazda": 713
+, "Land Rover": 494
+, "Honda": 473
+, "Lexus": 365
+, "Porsche": 327
+, "Mitsubishi": 189
+, "Smart": 167
+, "Alfa Romeo": 91
+, "Jaguar": 54
+, "Maserati": 9
+, "SsangYong": 8
+, "Subaru": 2
+, "other": 1202
+});
+
+db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/10",
+{ "Renault|Zoe": 2348
+, "Dacia|Spring": 2204
+, "Peugeot|e-208": 1732
+, "Tesla|Model 3": 951
+, "Renault|Twingo Z.E.": 903
+, "Fiat|500e": 875
+, "Peugeot|e-2008": 655
+, "Kia|Niro EV": 530
+, "Mini|Cooper SE Electric": 466
+, "Hyundai|Kona Electric": 463
+, "Volkswagen|ID.3": 448
+, "Kia|EV6": 408
+, "Volkswagen|ID.4": 399
+, "Citroën|ë-C4": 342
+, "Škoda|Enyaq": 292
+, "Nissan|Leaf": 288
+, "Hyundai|Ioniq 5": 207
+, "Opel|Corsa-e": 154
+, "Smart|Fortwo ED": 139
+, "BMW|i3 BEV": 135
+, "MG|ZS EV": 125
+, "DS Automobiles|DS 3 Crossback E-Tense": 122
+, "Mercedes-Benz|EQA": 116
+, "Mazda|MX-30": 115
+, "Volkswagen|e-up!": 108
+, "Opel|Mokka-e": 101
+, "Audi|Q4 e-tron": 90
+, "Porsche|Taycan": 85
+, "Citroën|Berlingo Electric": 80
+, "Kia|Soul EV": 60
+, "Honda|e": 49
+, "Citroën|ë-Jumpy": 41
+, "Seat|Mii Electric": 40
+, "Volvo|XC40 Recharge pure electric": 38
+, "Ford|Mustang Mach-E": 32
+, "Peugeot|e-Expert": 30
+, "Hyundai|Ioniq Electric": 29
+, "Smart|Forfour ED": 28
+, "Tesla|Model Y": 26
+, "Peugeot|e-Rifter": 23
+, "Audi|e-tron GT": 22
+, "Audi|e-tron": 21
+, "Mercedes-Benz|EQC": 20
+, "Aiways|U5": 20
+, "Mercedes-Benz|EQS": 17
+, "BMW|iX3": 14
+, "Mercedes-Benz|EQV": 12
+, "Renault|Megane E-Tech": 9
+, "Lexus|UX 300e": 6
+, "Opel|Combo-e": 4
+, "other": 160
 });
