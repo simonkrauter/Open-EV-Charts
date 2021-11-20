@@ -735,9 +735,10 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 3
 , "Porsche|Taycan": 3
 , "Tesla|Model 3": 2
+, "Opel|Vivaro-e": 2
 , "Peugeot|e-Expert": 1
 , "Honda|e": 1
-, "other": 5
+, "other": 3
 });
 
 db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
