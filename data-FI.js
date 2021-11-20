@@ -647,6 +647,7 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 13
 , "Porsche|Taycan": 12
 , "Peugeot|e-2008": 12
+, "Opel|Zafira-e": 11
 , "Hyundai|Kona Electric": 9
 , "BMW|iX3": 9
 , "Peugeot|e-208": 8
@@ -662,7 +663,7 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 1
 , "Mercedes-Benz|EQA": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 14
+, "other": 3
 });
 
 db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
@@ -695,11 +696,12 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "Citroën|ë-C4": 3
 , "Peugeot|e-Expert": 1
+, "Opel|Zafira-e": 1
 , "Opel|Corsa-e": 1
 , "Mercedes-Benz|EQV": 1
 , "Lexus|UX 300e": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 2
+, "other": 1
 });
 
 db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
@@ -736,12 +738,13 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 3
 , "Mazda|MX-30": 2
 , "Peugeot|e-Expert": 1
+, "Opel|Zafira-e": 1
 , "Mercedes-Benz|eVito": 1
 , "Lexus|UX 300e": 1
 , "Jaguar|I-Pace": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 4
+, "other": 3
 });
 
 db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
@@ -777,11 +780,11 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 2
 , "Lexus|UX 300e": 2
 , "BMW|i3 BEV": 2
+, "Opel|Zafira-e": 1
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|EQV": 1
 , "Mazda|MX-30": 1
 , "Jaguar|I-Pace": 1
-, "other": 1
 });
 
 db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
