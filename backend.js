@@ -46,6 +46,52 @@ var db = {
   // All car models used in the datasets.
   // Format: e.g. "Tesla|Model 3"
 
+  companies: {
+    "Stellantis": ["Abarth", "Alfa Romeo", "Chrysler", "Citroën", "Dodge", "DS Automobiles", "Fiat", "Jeep", "Jeep/Dodge", "Maserati", "Vauxhall", "Opel", "Peugeot", "Ram"],
+    "Honda": ["Acura", "Honda"],
+    "Aiways": ["Aiways"],
+    "Volkswagen Group": ["Audi", "Cupra", "Seat", "Škoda", "Volkswagen", "Porsche"],
+    "BAIC Group": ["BAIC"], // Chinese state owned
+    "FAW Group": ["Besturn", "FAW", "Haima"],
+    "BMW": ["BMW", "Mini"],
+    "Bollore": ["Bollore"],
+    "General Motors": ["Buick", "Chevrolet", "GMC"],
+    "BYD": ["BYD", "Cadillac"],
+    "Changan": ["Changan"], // Chinese state owned
+    "Chery": ["Chery"], // Chinese state owned
+    "Renault Group": ["Dacia", "Renault"],
+    "Dongfeng": ["Dongfeng"], // Chinese state owned
+    "Ford": ["Ford", "Lincoln"],
+    "GAIG": ["GAC", "GAC Toyota"], // Chinese state owned, GAC Toyota is 50% owned by Toyota.
+    "Geely": ["Geely", "Zhidou", "Volvo", "Polestar"], // Privately owned
+    "Hyundai": ["Genesis", "Hyundai", "Kia"],
+    "Great Wall": ["Great Wall"],
+    "Zhāng Xiùgēn": ["Hawtai"], // Privately owned
+    "Hozon": ["Hozon"],
+    "Nissan": ["Infiniti", "Nissan"],
+    "JAC": ["JAC"], // Chinese state owned
+    "Tata Group": ["Jaguar", "Land Rover"],
+    "JMCG": ["JMC"],
+    "Leapmotor": ["Leapmotor"], // Unknown owner
+    "Levdeo": ["Letin"],
+    "Toyota": ["Lexus", "Toyota", "Suzuki"],
+    "Lifan": ["Lifan"],
+    "SAIC": ["SAIC", "Maxus", "MG"], // Chinese state owned
+    "Daimler AG": ["Smart", "Mercedes-Benz"],
+    "SsangYong": ["SsangYong"],
+    "Subaru Corporation": ["Subaru"],
+    "Tesla": ["Tesla"],
+    "WM Motor Technology": ["Weltmeister"],
+    "Wuling": ["Wuling"],
+    "XPeng": ["Xiaopeng"],
+    "Fujian Motors": ["Yudo"],
+    "Zotye": ["Zotye"],
+    "Mitsubishi": ["Mitsubishi"],
+    "Nio": ["Nio"],
+    "Pocco": ["Pocco"], // unknown to me...
+    "Mazda": ["Mazda"],
+  },
+
   addCountry: function(code, name) {
     const id = Object.keys(this.countries).length + 1;
     this.countries[code] = id;
@@ -170,6 +216,7 @@ var db = {
   , "country": "country"
   , "brand": "brand"
   , "model": "model"
+  , "company": "company"
   },
 
   timeSpanOptions:
@@ -188,6 +235,7 @@ var db = {
   brandOptions:
   { "all": "all-brands"
   , "combine": "combine-brands"
+  , "company": "combine-companies"
   },
 
   modelOptions:
@@ -364,8 +412,10 @@ var db = {
     param.name = "brand";
     param.options = {};
     param.options[this.brandOptions.all] = "All Brands";
-    if (chartConfig == null || (![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && chartConfig.xProperty != this.xProperties.model))
+    if (chartConfig == null || (![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && chartConfig.xProperty != this.xProperties.model)) {
       param.options[this.brandOptions.combine] = "Combine Brands";
+      param.options[this.brandOptions.company] = "Combine Companies";
+    }
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.brand) {
       for (const i in this.brands) {
         const brand = this.brands[i];
@@ -373,7 +423,7 @@ var db = {
           param.options[this.formatForUrl(brand)] = brand;
       }
     }
-    param.excludeOnUnfoldAndTitle = [this.brandOptions.all, this.brandOptions.combine];
+    param.excludeOnUnfoldAndTitle = [this.brandOptions.all, this.brandOptions.combine, this.brandOptions.company];
     param.defaultOption = this.brandOptions.all;
     param.showInTitle = true;
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.brand;
@@ -395,7 +445,7 @@ var db = {
     }
     param.defaultOption = this.modelOptions.combine;
     param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
-    param.showAsFilter = chartConfig == null || (![this.xProperties.model, this.xProperties.brand].includes(chartConfig.xProperty) && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
+    param.showAsFilter = chartConfig == null || (![this.xProperties.model, this.xProperties.brand].includes(chartConfig.xProperty) && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && [this.brandOptions.combine, this.brandOptions.company].includes(chartConfig.brand));
     result[param.name] = param;
 
     // max series
@@ -415,7 +465,10 @@ var db = {
     const allowLineChart = chartConfig == null || this.isTimeXProperty(chartConfig);
     if (chartConfig == null || (
       (this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig)) &&
-      (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all || chartConfig.xProperty == this.xProperties.country)
+      (chartConfig.metric != this.metrics.ratioElectric || 
+        ![this.brandOptions.company, this.brandOptions.combine].includes(chartConfig.brand) || 
+        chartConfig.country != this.countryOptions.all || 
+        chartConfig.xProperty == this.xProperties.country)
     ) || !allowLineChart)
       param.options[this.views.barChart] = "Bar Chart";
     if (allowLineChart)
@@ -531,7 +584,7 @@ var db = {
       chartConfig.country = this.countryOptions.all;
     if (chartConfig.xProperty == this.xProperties.brand)
       chartConfig.brand = this.brandOptions.all;
-    if (chartConfig.brand == this.brandOptions.combine && chartConfig.model == this.modelOptions.all)
+    if ([this.brandOptions.combine, this.brandOptions.company].includes(chartConfig.brand) && chartConfig.model == this.modelOptions.all)
       chartConfig.model = this.modelOptions.combine;
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
@@ -575,6 +628,8 @@ var db = {
     var yProperty;
     if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all)
       yProperty = "brand";
+    else if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.company)
+      yProperty = "company";
     else if (chartConfig.model != this.modelOptions.all)
       yProperty = "country";
     else if(!this.isTimeXProperty(chartConfig))
@@ -654,7 +709,7 @@ var db = {
     }
 
     var filterBrand = null;
-    if (![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
+    if (![this.brandOptions.combine, this.brandOptions.all, this.brandOptions.company].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
     var filterModel = null;
     if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
@@ -748,6 +803,7 @@ var db = {
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
+        const company = this.brandToCompany(brand);
         const model = dataKeyParts[1];
 
         if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
@@ -767,17 +823,23 @@ var db = {
           category = brand;
         else if (chartConfig.xProperty == this.xProperties.model)
           category = brandAndModel;
+        else if (chartConfig.xProperty == this.xProperties.company)
+          category = company
 
         var seriesName = this.singleSeriesName;
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
-        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
+        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && ![this.brandOptions.combine, this.brandOptions.company].includes(chartConfig.brand)) {
           if (chartConfig.brand == this.brandOptions.all)
             seriesName = brandAndModel;
+          else if (chartConfig.brand == this.brandOptions.company)
+            seriesName = company
           else if (model)
             seriesName = model;
-        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
-          if (chartConfig.brand != this.brandOptions.all)
+        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.brand, this.xProperties.model, this.xProperties.company].includes(chartConfig.xProperty)) {
+          if (chartConfig.brand == this.brandOptions.company)
+            seriesName = company
+          else if (chartConfig.brand != this.brandOptions.all)
             seriesName = brandAndModel;
           else
             seriesName = brand;
@@ -1164,5 +1226,11 @@ var db = {
       result.series.push(otherSeries);
 
     return result;
+  },
+
+  brandToCompany: function(brand) {
+    let company = Object.keys(this.companies)
+      .find(k => this.companies[k].find(aBrand => aBrand === brand));
+    return company ?? "other";
   }
 };
