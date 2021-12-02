@@ -2520,29 +2520,29 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1140
 });
 
-db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
-{ "Volkswagen|ID.4": 912
-, "Škoda|Enyaq": 757
-, "Audi|Q4 e-tron": 647
-, "Hyundai|Ioniq 5": 582
-, "Volvo|XC40 Recharge pure electric": 465
-, "Polestar|2": 404
+db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/10 (includes commercial vehicles)",
+{ "Volkswagen|ID.4": 913
+, "Škoda|Enyaq": 760
+, "Audi|Q4 e-tron": 649
+, "Hyundai|Ioniq 5": 585
+, "Volvo|XC40 Recharge pure electric": 468
+, "Polestar|2": 405
 , "Nissan|Leaf": 353
 , "Audi|e-tron": 305
-, "Volkswagen|ID.3": 298
-, "Ford|Mustang Mach-E": 222
-, "Mazda|MX-30": 206
-, "Kia|Soul EV": 204
-, "Mercedes-Benz|EQA": 194
-, "Hyundai|Kona Electric": 187
-, "Porsche|Taycan": 181
-, "Citroën|ë-C4": 168
+, "Volkswagen|ID.3": 300
+, "Ford|Mustang Mach-E": 227
+, "Mazda|MX-30": 209
+, "Kia|Soul EV": 205
+, "Porsche|Taycan": 201
+, "Mercedes-Benz|EQA": 197
+, "Hyundai|Kona Electric": 188
+, "Citroën|ë-C4": 169
 , "BMW|i3 BEV": 138
-, "Opel|Mokka-e": 121
+, "Opel|Mokka-e": 124
 , "Peugeot|e-2008": 119
-, "Škoda|Citigo-e": 86
-, "Mercedes-Benz|EQC": 81
-, "Kia|EV6": 78
+, "Škoda|Citigo-e": 87
+, "Mercedes-Benz|EQC": 82
+, "Kia|EV6": 79
 , "Peugeot|e-208": 76
 , "BMW|iX3": 75
 , "Kia|Niro EV": 71
@@ -2552,8 +2552,8 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 53
 , "Renault|Zoe": 53
 , "Audi|e-tron GT": 46
+, "Xiaopeng|Xpeng G3": 41
 , "Fiat|500e": 41
-, "Xiaopeng|Xpeng G3": 40
 , "MG|ZS EV": 39
 , "Mini|Cooper SE Electric": 37
 , "Jaguar|I-Pace": 31
@@ -2565,11 +2565,14 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Mercedes-Benz|EQS": 5
+, "Peugeot|e-Rifter": 3
 , "Tesla|Model Y": 2
 , "Smart|Fortwo ED": 2
 , "Mitsubishi|i-MiEV": 2
 , "Tesla|Model S": 1
-, "other": 535
+, "other": 518
+});
+
 db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
 { "Tesla": 1784
 , "Volkswagen": 1274
@@ -2594,7 +2597,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1722
 });
 
-db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/11",
+db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/11 (includes commercial vehicles)",
 { "Tesla|Model Y": 1013
 , "Tesla|Model 3": 770
 , "Volkswagen|ID.4": 719
