@@ -2570,6 +2570,82 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 2
 , "Tesla|Model S": 1
 , "other": 535
+db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+{ "Tesla": 1784
+, "Volkswagen": 1274
+, "Audi": 1053
+, "Hyundai": 1015
+, "Volvo": 957
+, "Toyota": 956
+, "Škoda": 811
+, "Mercedes-Benz": 748
+, "BMW": 744
+, "Ford": 699
+, "Nissan": 674
+, "Kia": 648
+, "Peugeot": 545
+, "Polestar": 502
+, "Mazda": 249
+, "Citroën": 231
+, "Opel": 187
+, "Suzuki": 176
+, "MG": 151
+, "Mitsubishi": 148
+, "other": 1722
+});
+
+db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/11",
+{ "Tesla|Model Y": 1013
+, "Tesla|Model 3": 770
+, "Volkswagen|ID.4": 719
+, "Audi|Q4 e-tron": 660
+, "Nissan|Leaf": 655
+, "Polestar|2": 501
+, "Ford|Mustang Mach-E": 489
+, "Škoda|Enyaq": 488
+, "Hyundai|Ioniq 5": 475
+, "Porsche|Taycan": 417
+, "Volvo|XC40 Recharge pure electric": 372
+, "Hyundai|Kona Electric": 368
+, "Mercedes-Benz|EQA": 329
+, "Audi|e-tron": 327
+, "Peugeot|e-2008": 281
+, "Kia|Niro EV": 244
+, "Volkswagen|ID.3": 224
+, "Mazda|MX-30": 214
+, "Citroën|ë-C4": 176
+, "Kia|Soul EV": 160
+, "Mercedes-Benz|EQC": 155
+, "BMW|i3 BEV": 154
+, "Škoda|Citigo-e": 145
+, "Kia|EV6": 109
+, "Peugeot|e-208": 107
+, "Opel|Mokka-e": 101
+, "BMW|iX": 97
+, "Volkswagen|e-up!": 92
+, "Nio|ES8": 92
+, "BMW|iX3": 89
+, "Jaguar|I-Pace": 74
+, "Xiaopeng|Xpeng G3": 70
+, "Renault|Zoe": 60
+, "Opel|Corsa-e": 49
+, "Hyundai|Ioniq Electric": 40
+, "Audi|e-tron GT": 39
+, "Mini|Cooper SE Electric": 36
+, "MG|ZS EV": 36
+, "Lexus|UX 300e": 35
+, "Honda|e": 31
+, "Fiat|500e": 29
+, "Peugeot|e-Traveller": 27
+, "Mercedes-Benz|EQV": 11
+, "DS Automobiles|DS 3 Crossback E-Tense": 11
+, "Opel|Zafira-e": 10
+, "Mercedes-Benz|EQS": 9
+, "Peugeot|e-Rifter": 4
+, "Smart|Fortwo ED": 1
+, "Smart|Forfour ED": 1
+, "Opel|Combo-e": 1
+, "other": 735
 });
 
 // Template:
