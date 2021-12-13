@@ -3311,6 +3311,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 288
 , "Hyundai|Ioniq 5": 207
 , "Opel|Corsa-e": 154
+, "MG|Marvel R": 144
 , "Smart|Fortwo ED": 139
 , "BMW|i3 BEV": 135
 , "MG|ZS EV": 125
@@ -3342,6 +3343,5 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 12
 , "Renault|Megane E-Tech": 9
 , "Lexus|UX 300e": 6
-, "Opel|Combo-e": 4
-, "other": 160
+, "other": 20
 });
