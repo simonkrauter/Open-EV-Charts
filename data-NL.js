@@ -3208,26 +3208,26 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/10",
 { "Kia|Niro EV": 658
-, "Škoda|Enyaq": 525
-, "Volkswagen|ID.4": 462
-, "Audi|Q4 e-tron": 380
+, "Škoda|Enyaq": 537
+, "Volkswagen|ID.4": 464
+, "Audi|Q4 e-tron": 382
 , "Polestar|2": 301
 , "Kia|EV6": 285
 , "Volkswagen|ID.3": 243
-, "Peugeot|e-208": 205
-, "Peugeot|e-2008": 191
+, "Peugeot|e-208": 208
+, "Peugeot|e-2008": 192
 , "BMW|iX3": 187
 , "Ford|Mustang Mach-E": 186
 , "Opel|Corsa-e": 176
-, "Hyundai|Ioniq 5": 143
+, "Hyundai|Ioniq 5": 147
 , "Mercedes-Benz|EQA": 140
 , "Mini|Cooper SE Electric": 123
 , "Volvo|XC40 Recharge pure electric": 117
 , "Opel|Mokka-e": 112
 , "Mazda|MX-30": 98
 , "Hyundai|Kona Electric": 94
-, "Fiat|500e": 85
-, "Porsche|Taycan": 74
+, "Fiat|500e": 86
+, "Porsche|Taycan": 75
 , "Audi|e-tron": 68
 , "Hyundai|Ioniq Electric": 66
 , "Renault|Zoe": 63
@@ -3255,6 +3255,7 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 8
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
 , "Opel|Combo-e": 5
+, "MG|Marvel R": 5
 , "Lexus|UX 300e": 5
-, "other": 24
+, "other": 19
 });
