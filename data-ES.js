@@ -3239,7 +3239,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 20
 , "Maserati": 17
 , "Aiways": 1
-, "other": 1238
+, "other": 1217
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10",
@@ -3292,5 +3292,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 5
 , "Mazda|MX-30": 5
 , "Audi|e-tron GT": 5
-, "other": 57
+, "MG|Marvel R": 4
+, "other": 53
+});
 });
