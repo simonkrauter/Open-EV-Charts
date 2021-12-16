@@ -3295,4 +3295,96 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 4
 , "other": 53
 });
+
+db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2021/datosnoviembrett.asp",
+{ "Peugeot": 5797
+, "Hyundai": 5725
+, "Toyota": 5439
+, "Kia": 5142
+, "Renault": 3936
+, "Citroën": 3860
+, "Volkswagen": 3847
+, "Seat": 3817
+, "Dacia": 3811
+, "BMW": 2773
+, "Mercedes-Benz": 2509
+, "Audi": 2413
+, "Nissan": 2313
+, "Ford": 1839
+, "Opel": 1524
+, "Fiat": 1509
+, "Škoda": 1227
+, "Mazda": 1185
+, "Volvo": 962
+, "Jeep": 938
+, "Mini": 667
+, "DS Automobiles": 492
+, "Mitsubishi": 467
+, "Lexus": 450
+, "Tesla": 358
+, "Suzuki": 323
+, "Alfa Romeo": 293
+, "Honda": 268
+, "Porsche": 265
+, "Land Rover": 170
+, "MG": 157
+, "Subaru": 138
+, "Smart": 112
+, "SsangYong": 106
+, "Jaguar": 69
+, "Maserati": 13
+, "other": 1485
+});
+
+db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/11",
+{ "Tesla|Model 3": 239
+, "Peugeot|e-208": 225
+, "Kia|Niro EV": 209
+, "Renault|Zoe": 150
+, "Fiat|500e": 120
+, "Mini|Cooper SE Electric": 108
+, "Volkswagen|ID.3": 104
+, "Tesla|Model Y": 102
+, "Volkswagen|ID.4": 95
+, "Hyundai|Kona Electric": 92
+, "Kia|EV6": 87
+, "Škoda|Enyaq": 86
+, "Mercedes-Benz|EQA": 84
+, "Renault|Kangoo Z.E.": 76
+, "Hyundai|Ioniq 5": 73
+, "Cupra|Born": 73
+, "Smart|Fortwo ED": 68
+, "Nissan|Leaf": 67
+, "Peugeot|e-2008": 65
+, "Renault|Twingo Z.E.": 63
+, "Dacia|Spring": 62
+, "Citroën|Berlingo Electric": 62
+, "Citroën|ë-C4": 55
+, "Opel|Mokka-e": 52
+, "Audi|Q4 e-tron": 49
+, "Smart|Forfour ED": 42
+, "Opel|Combo-e": 40
+, "Porsche|Taycan": 38
+, "Ford|Mustang Mach-E": 37
+, "BMW|iX": 31
+, "Opel|Corsa-e": 29
+, "Hyundai|Ioniq Electric": 26
+, "Mercedes-Benz|eVito": 25
+, "BMW|i3 BEV": 23
+, "Peugeot|e-Rifter": 22
+, "MG|ZS EV": 22
+, "Peugeot|e-Expert": 21
+, "Toyota|Proace Electric": 19
+, "Volvo|XC40 Recharge pure electric": 18
+, "Citroën|ë-Jumpy": 15
+, "Lexus|UX 300e": 11
+, "Nissan|e-NV200": 10
+, "Mercedes-Benz|EQC": 9
+, "MG|Marvel R": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 9
+, "Audi|e-tron": 9
+, "Mercedes-Benz|EQV": 8
+, "Peugeot|e-Traveller": 7
+, "BMW|iX3": 7
+, "other": 74
 });
