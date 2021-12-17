@@ -818,6 +818,7 @@ db.insert(db.countries.DK, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 23
 , "Opel|Mokka-e": 23
 , "Mini|Cooper SE Electric": 23
+, "Cupra|Born": 23
 , "Peugeot|e-2008": 22
 , "Tesla|Model 3": 19
 , "Hyundai|Ioniq Electric": 18
@@ -827,6 +828,7 @@ db.insert(db.countries.DK, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 11
 , "Audi|e-tron": 9
 , "Mercedes-Benz|EQS": 7
+, "MG|Marvel R": 7
 , "Toyota|Proace Electric": 5
 , "Kia|Soul EV": 5
 , "Honda|e": 5
@@ -836,5 +838,5 @@ db.insert(db.countries.DK, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 2
 , "Peugeot|e-Traveller": 1
 , "BMW|iX": 1
-, "other": 46
+, "other": 16
 });
