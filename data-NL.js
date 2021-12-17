@@ -2969,6 +2969,7 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 7
 , "Renault|Twingo Z.E.": 5
 , "Nissan|e-NV200": 4
+, "MG|Marvel R": 4
 , "Mercedes-Benz|EQV": 3
 , "MG|ZS EV": 3
 , "Smart|Fortwo ED": 2
@@ -2976,7 +2977,7 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 1
 , "Lexus|UX 300e": 1
 , "Honda|e": 1
-, "other": 95
+, "other": 91
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/augustus/",
