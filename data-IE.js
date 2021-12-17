@@ -787,6 +787,7 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/10",
 { "Volkswagen|ID.4": 80
 , "Volkswagen|ID.3": 61
+, "MG|MG5 EV": 60
 , "Nissan|Leaf": 42
 , "Škoda|Enyaq": 38
 , "MG|ZS EV": 34
@@ -816,5 +817,4 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 , "Jaguar|I-Pace": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 60
 });
