@@ -782,10 +782,11 @@ db.insert(db.countries.DK, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 4
 , "Lexus|UX 300e": 3
 , "Volkswagen|e-Golf": 2
+, "Mercedes-Benz|eVito": 2
 , "Audi|e-tron GT": 2
 , "Jaguar|I-Pace": 1
 , "Honda|e": 1
-, "other": 7
+, "other": 5
 });
 
 db.insert(db.countries.DK, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211118_PRPC_2110_FINAL.pdf TODO: numbers per brand wanted",
