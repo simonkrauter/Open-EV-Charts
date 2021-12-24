@@ -1054,3 +1054,27 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Hozon|Neta V EV": 5178
 , "other": 113713
 });
+
+db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1631.html TODO: numbers per brand wanted",
+{ "other": 2192000
+});
+
+db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
+{ "Wuling|Hongguang Mini EV": 40395
+, "Tesla|Model Y": 23117
+, "BYD|Qin Plus EV": 10097
+, "BYD|Han EV": 10021
+, "BYD|Dolphin": 8800
+, "Tesla|Model 3": 8615
+, "Great Wall|Ora Good Cat EV": 8429
+, "Chery|eQ": 8362
+, "Volkswagen|ID.4": 8316
+, "GAC|Aion S": 7884
+, "Xiaopeng|Xpeng P7": 7839
+, "Hozon|Neta V EV": 7027
+, "BYD|Yuan EV": 6489
+, "Changan|Benni EV": 6440
+, "Xiaopeng|Xpeng G5": 5620
+, "SAIC|Roewe Clever EV": 5370
+, "other": 155979
+});
