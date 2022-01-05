@@ -2574,7 +2574,7 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 436
 });
 
-db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2021",
 { "Tesla": 1784
 , "Volkswagen": 1274
 , "Audi": 1053
