@@ -3355,3 +3355,97 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 4
 , "other": 29
 });
+
+db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/december/",
+{ "Volkswagen": 4613
+, "Kia": 2756
+, "Hyundai": 2463
+, "Audi": 1969
+, "Tesla": 1882
+, "Volvo": 1870
+, "Renault": 1856
+, "Škoda": 1849
+, "Toyota": 1846
+, "Ford": 1780
+, "Peugeot": 1679
+, "BMW": 1622
+, "Opel": 1345
+, "Polestar": 1060
+, "Citroën": 1043
+, "Mercedes-Benz": 836
+, "Mini": 498
+, "Nissan": 476
+, "Fiat": 431
+, "Dacia": 344
+, "Suzuki": 319
+, "Seat": 298
+, "Mazda": 196
+, "Mitsubishi": 188
+, "Porsche": 142
+, "MG": 84
+, "Jeep": 64
+, "Honda": 58
+, "Land Rover": 35
+, "Smart": 24
+, "Lexus": 17
+, "SsangYong": 8
+, "DS Automobiles": 8
+, "Alfa Romeo": 6
+, "Subaru": 5
+, "Jaguar": 5
+, "Maserati": 1
+, "other": 2032
+});
+
+db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/12",
+{ "Škoda|Enyaq": 1433
+, "Ford|Mustang Mach-E": 1249
+, "Volkswagen|ID.4": 1210
+, "Audi|Q4 e-tron": 1149
+, "Cupra|Born": 1136
+, "Volvo|XC40 Recharge pure electric": 1069
+, "Polestar|2": 1061
+, "Volkswagen|ID.3": 985
+, "Tesla|Model 3": 975
+, "Hyundai|Ioniq 5": 904
+, "Tesla|Model Y": 902
+, "Kia|EV6": 885
+, "BMW|iX3": 867
+, "Kia|Niro EV": 852
+, "Audi|e-tron": 521
+, "Peugeot|e-208": 498
+, "Hyundai|Kona Electric": 492
+, "Opel|Corsa-e": 478
+, "Peugeot|e-2008": 470
+, "Renault|Zoe": 370
+, "Mini|Cooper SE Electric": 362
+, "Mercedes-Benz|EQA": 300
+, "Renault|Twingo Z.E.": 240
+, "BMW|iX": 230
+, "Nissan|Leaf": 221
+, "Opel|Mokka-e": 212
+, "Volkswagen|e-up!": 169
+, "BMW|i3 BEV": 160
+, "Seat|Mii Electric": 143
+, "Citroën|ë-C4": 138
+, "Porsche|Taycan": 122
+, "Fiat|500e": 80
+, "MG|ZS EV": 75
+, "Dacia|Spring": 68
+, "Mercedes-Benz|eVito": 52
+, "Audi|e-tron GT": 51
+, "Hyundai|Ioniq Electric": 40
+, "Mercedes-Benz|EQC": 33
+, "Mercedes-Benz|EQS": 28
+, "Mazda|MX-30": 23
+, "Kia|Soul EV": 20
+, "Citroën|ë-Jumpy": 20
+, "Toyota|Proace Electric": 16
+, "Smart|Forfour ED": 16
+, "Mercedes-Benz|EQV": 15
+, "BMW|i4": 15
+, "Smart|Fortwo ED": 9
+, "Honda|e": 9
+, "Opel|Vivaro-e": 4
+, "other": 392
+});
