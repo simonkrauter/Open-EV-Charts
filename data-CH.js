@@ -3012,6 +3012,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BMW": 1707
 , "Škoda": 1477
 , "Audi": 1375
+, "Seat": 1118
 , "Toyota": 990
 , "Ford": 722
 , "Hyundai": 670
@@ -3047,7 +3048,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 8
 , "Chevrolet": 5
 , "SsangYong": 2
-, "other": 1245
+, "other": 129
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/7",
@@ -3108,6 +3109,7 @@ db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 1243
 , "Škoda": 1164
 , "Toyota": 996
+, "Seat": 934
 , "Ford": 759
 , "Hyundai": 610
 , "Volvo": 479
@@ -3142,7 +3144,7 @@ db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Aiways": 4
 , "Chevrolet": 2
 , "SsangYong": 1
-, "other": 1074
+, "other": 140
 });
 
 db.insert(db.countries.CH, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/8",
@@ -3209,6 +3211,7 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 980
 , "Renault": 811
 , "Hyundai": 747
+, "Seat": 705
 , "Ford": 649
 , "Suzuki": 608
 , "Volvo": 594
@@ -3240,7 +3243,7 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Aiways": 5
 , "SsangYong": 4
 , "Dodge": 1
-, "other": 827
+, "other": 122
 });
 
 db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/9",
@@ -3307,6 +3310,7 @@ db.insert(db.countries.CH, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Toyota": 748
 , "Renault": 577
 , "Ford": 522
+, "Seat": 502
 , "Volvo": 477
 , "Suzuki": 447
 , "Fiat": 388
@@ -3338,7 +3342,7 @@ db.insert(db.countries.CH, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dodge": 3
 , "Cadillac": 1
 , "Aiways": 1
-, "other": 630
+, "other": 128
 });
 
 db.insert(db.countries.CH, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/10",
@@ -3406,6 +3410,7 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Hyundai": 775
 , "Toyota": 770
 , "Dacia": 738
+, "Seat": 655
 , "Volvo": 648
 , "Ford": 582
 , "Citroën": 495
@@ -3436,7 +3441,7 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 4
 , "SsangYong": 2
 , "Aiways": 2
-, "other": 754
+, "other": 99
 });
 
 db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/11",
@@ -3500,6 +3505,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 1862
 , "BMW": 1848
 , "Tesla": 1409
+, "Seat": 1405
 , "Renault": 1152
 , "Hyundai": 889
 , "Volvo": 877
@@ -3534,7 +3540,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Genesis": 18
 , "Chrysler": 5
 , "SsangYong": 3
-, "other": 1638
+, "other": 233
 });
 
 db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/12",
