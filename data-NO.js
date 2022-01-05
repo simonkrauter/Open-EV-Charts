@@ -2649,6 +2649,85 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 680
 });
 
+db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2021",
+{ "Tesla": 4347
+, "Volkswagen": 1761
+, "BMW": 1630
+, "Volvo": 1396
+, "Toyota": 1113
+, "Mercedes-Benz": 1039
+, "Audi": 982
+, "Škoda": 980
+, "Hyundai": 783
+, "Nissan": 743
+, "Kia": 737
+, "Ford": 698
+, "Suzuki": 519
+, "Peugeot": 476
+, "Mitsubishi": 335
+, "Polestar": 320
+, "MG": 293
+, "Opel": 287
+, "Citroën": 192
+, "Mazda": 108
+, "other": 1828
+});
+
+db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2021",
+{ "Tesla|Model Y": 2378
+, "Tesla|Model 3": 1968
+, "Volkswagen|ID.4": 718
+, "BMW|iX": 709
+, "Nissan|Leaf": 682
+, "Audi|Q4 e-tron": 568
+, "Škoda|Enyaq": 528
+, "Porsche|Taycan": 507
+, "Hyundai|Ioniq 5": 441
+, "Volkswagen|e-up!": 344
+, "Mercedes-Benz|EQA": 336
+, "Audi|e-tron": 324
+, "Ford|Mustang Mach-E": 319
+, "Polestar|2": 317
+, "Kia|Soul EV": 300
+, "Volvo|XC40 Recharge pure electric": 278
+, "Volkswagen|ID.3": 249
+, "Mercedes-Benz|EQC": 244
+, "Kia|Niro EV": 244
+, "Hyundai|Kona Electric": 177
+, "Škoda|Citigo-e": 164
+, "Peugeot|e-2008": 159
+, "MG|ZS EV": 155
+, "Opel|Corsa-e": 128
+, "BMW|iX3": 127
+, "Peugeot|e-208": 121
+, "Opel|Mokka-e": 101
+, "Kia|EV6": 101
+, "Citroën|ë-C4": 88
+, "MG|Marvel R": 79
+, "Nio|ES8": 67
+, "Jaguar|I-Pace": 63
+, "Mazda|MX-30": 60
+, "Renault|Zoe": 55
+, "BMW|i3 BEV": 39
+, "Lexus|UX 300e": 38
+, "Hyundai|Ioniq Electric": 37
+, "Xiaopeng|Xpeng G3": 32
+, "Mini|Cooper SE Electric": 32
+, "Honda|e": 26
+, "Opel|Zafira-e": 22
+, "Audi|e-tron GT": 21
+, "DS Automobiles|DS 3 Crossback E-Tense": 19
+, "Peugeot|e-Traveller": 18
+, "Cupra|Born": 17
+, "Mercedes-Benz|EQV": 12
+, "Opel|Combo-e": 8
+, "Fiat|500e": 7
+, "Mercedes-Benz|EQB": 2
+, "Smart|Forfour ED": 1
+, "other": 373
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
