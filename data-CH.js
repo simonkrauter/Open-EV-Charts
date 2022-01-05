@@ -3389,9 +3389,10 @@ db.insert(db.countries.CH, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 6
 , "Nissan|e-NV200": 6
 , "Kia|Soul EV": 6
+, "Cupra|Born": 6
 , "Volkswagen|e-Transporter": 5
 , "Peugeot|e-Traveller": 5
-, "other": 69
+, "other": 63
 });
 
 db.insert(db.countries.CH, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/12/ModellePW2021.xlsx",
@@ -3455,6 +3456,7 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 87
 , "Audi|e-tron": 84
 , "Porsche|Taycan": 73
+, "Cupra|Born": 73
 , "Hyundai|Kona Electric": 65
 , "Audi|e-tron GT": 61
 , "BMW|i3 BEV": 59
@@ -3488,5 +3490,5 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 8
 , "Peugeot|e-Traveller": 8
 , "Mercedes-Benz|eVito": 7
-, "other": 154
+, "other": 81
 });
