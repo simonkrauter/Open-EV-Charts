@@ -2494,7 +2494,8 @@ db.insert(db.countries.NL, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 15
 , "Smart": 10
 , "Maserati": 1
-, "other": 203
+, "Cupra": 1
+, "other": 202
 });
 
 db.insert(db.countries.NL, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/2",
@@ -2654,9 +2655,10 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 31
 , "DS Automobiles": 24
 , "Smart": 15
+, "Cupra": 11
 , "Alfa Romeo": 5
 , "Maserati": 1
-, "other": 633
+, "other": 622
 });
 
 db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/4",
@@ -2744,7 +2746,8 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 11
 , "Smart": 11
 , "Maserati": 4
-, "other": 542
+, "Cupra": 2
+, "other": 540
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
@@ -2830,9 +2833,10 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 19
 , "Smart": 16
 , "Subaru": 14
+, "Cupra": 12
 , "Maserati": 1
 , "Aiways": 1
-, "other": 426
+, "other": 414
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
@@ -2920,13 +2924,14 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 35
 , "DS Automobiles": 32
 , "Alfa Romeo": 22
+, "Cupra": 16
 , "Jaguar": 15
 , "Smart": 14
 , "Subaru": 8
 , "Aiways": 7
 , "Tesla": 3
 , "Maserati": 2
-, "other": 536
+, "other": 520
 });
 
 db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/7",
@@ -3012,12 +3017,13 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 37
 , "DS Automobiles": 31
 , "MG": 23
+, "Cupra": 16
 , "Alfa Romeo": 15
 , "Jaguar": 9
 , "Smart": 7
 , "Subaru": 4
 , "Maserati": 2
-, "other": 585
+, "other": 569
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/8",
@@ -3104,13 +3110,14 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 66
 , "Lexus": 47
 , "DS Automobiles": 35
+, "Cupra": 26
 , "Smart": 12
 , "Alfa Romeo": 8
 , "Jaguar": 7
 , "Subaru": 6
 , "Maserati": 3
 , "Aiways": 2
-, "other": 742
+, "other": 716
 });
 
 db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/9",
@@ -3200,11 +3207,12 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 32
 , "Smart": 31
 , "DS Automobiles": 31
+, "Cupra": 27
 , "Jaguar": 13
 , "Subaru": 8
 , "Alfa Romeo": 7
 , "Maserati": 1
-, "other": 768
+, "other": 741
 });
 
 db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/10",
@@ -3288,6 +3296,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 246
 , "Porsche": 134
 , "Jeep": 86
+, "Cupra": 79
 , "Honda": 74
 , "Land Rover": 70
 , "MG": 59
@@ -3299,7 +3308,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 8
 , "Maserati": 2
 , "Aiways": 1
-, "other": 849
+, "other": 770
 });
 
 db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/11",
@@ -3370,6 +3379,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 1679
 , "BMW": 1622
 , "Opel": 1345
+, "Cupra": 1137
 , "Polestar": 1060
 , "Citroën": 1043
 , "Mercedes-Benz": 836
@@ -3394,7 +3404,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 5
 , "Jaguar": 5
 , "Maserati": 1
-, "other": 2032
+, "other": 895
 });
 
 db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/12",
