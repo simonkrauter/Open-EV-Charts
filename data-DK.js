@@ -684,8 +684,9 @@ db.insert(db.countries.DK, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 2
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
+, "MG|Marvel R": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 15
+, "other": 14
 });
 
 db.insert(db.countries.DK, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
