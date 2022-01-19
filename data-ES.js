@@ -2406,6 +2406,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Opel": 1278
 , "Fiat": 1238
 , "Škoda": 1018
+, "Cupra": 685
 , "Jeep": 671
 , "Volvo": 582
 , "Mazda": 553
@@ -2492,6 +2493,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jeep": 975
 , "Volvo": 922
 , "Mazda": 675
+, "Cupra": 617
 , "Mini": 561
 , "Lexus": 340
 , "Suzuki": 320
@@ -2507,7 +2509,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 65
 , "Smart": 40
 , "Maserati": 11
-, "other": 669
+, "other": 52
 });
 
 db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/2",
@@ -2579,6 +2581,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jeep": 1613
 , "Volvo": 1503
 , "Mazda": 1103
+, "Cupra": 747
 , "Mini": 718
 , "Lexus": 515
 , "Suzuki": 514
@@ -2594,7 +2597,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 112
 , "Smart": 80
 , "Maserati": 7
-, "other": 799
+, "other": 52
 });
 
 db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/3",
@@ -2668,6 +2671,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jeep": 1254
 , "Mazda": 1113
 , "Mini": 926
+, "Cupra": 719
 , "Lexus": 463
 , "Land Rover": 437
 , "DS Automobiles": 348
@@ -2682,7 +2686,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 83
 , "Tesla": 24
 , "Maserati": 16
-, "other": 784
+, "other": 65
 });
 
 db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/4",
@@ -2756,6 +2760,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Ford": 3116
 , "Dacia": 2369
 , "Nissan": 2353
+, "Cupra": 1760
 , "Volvo": 1544
 , "Mazda": 1377
 , "Mini": 986
@@ -2774,7 +2779,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 167
 , "Smart": 85
 , "Maserati": 11
-, "other": 1827
+, "other": 67
 });
 
 db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/5",
@@ -2851,6 +2856,7 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Volvo": 1650
 , "Mazda": 1545
 , "Jeep": 1538
+, "Cupra": 904
 , "Lexus": 842
 , "Mini": 811
 , "Suzuki": 674
@@ -2866,7 +2872,7 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 139
 , "Smart": 138
 , "Maserati": 8
-, "other": 1004
+, "other": 100
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/6",
@@ -2945,6 +2951,7 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jeep": 1310
 , "Mazda": 1279
 , "Mini": 848
+, "Cupra": 743
 , "Lexus": 704
 , "Suzuki": 612
 , "DS Automobiles": 386
@@ -2960,7 +2967,7 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 74
 , "Maserati": 23
 , "Tesla": 1
-, "other": 815
+, "other": 72
 });
 
 db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/7",
@@ -3054,7 +3061,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "MG": 48
 , "Smart": 31
 , "Maserati": 9
-, "other": 705
+, "other": 94
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/8",
@@ -3115,8 +3122,8 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Hyundai": 4559
 , "Peugeot": 4085
 , "Renault": 3556
+, "Toyota": 3308
 , "Volkswagen": 3297
-, "Toyota": 3135
 , "BMW": 3057
 , "Citroën": 2977
 , "Fiat": 2856
@@ -3130,6 +3137,7 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Mazda": 1331
 , "Volvo": 1118
 , "Jeep": 959
+, "Cupra": 918
 , "Tesla": 816
 , "Lexus": 538
 , "Mini": 519
@@ -3146,7 +3154,7 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "MG": 78
 , "Jaguar": 76
 , "Maserati": 22
-, "other": 1048
+, "other": 130
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/9",
@@ -3205,9 +3213,9 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 { "Hyundai": 5844
 , "Peugeot": 5547
 , "Kia": 5254
-, "Toyota": 3603
 , "Renault": 3434
-, "Volkswagen": 3379
+, "Volkswagen": 3376
+, "Toyota": 3198
 , "Citroën": 3080
 , "Seat": 3058
 , "Dacia": 2488
@@ -3220,6 +3228,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Škoda": 1604
 , "Fiat": 1478
 , "Mazda": 1174
+, "Cupra": 1072
 , "Volvo": 1065
 , "Jeep": 670
 , "Mini": 532
@@ -3239,7 +3248,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 20
 , "Maserati": 17
 , "Aiways": 1
-, "other": 1217
+, "other": 144
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10",
@@ -3313,6 +3322,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Ford": 1839
 , "Opel": 1524
 , "Fiat": 1509
+, "Cupra": 1254
 , "Škoda": 1227
 , "Mazda": 1185
 , "Volvo": 962
@@ -3333,7 +3343,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "SsangYong": 106
 , "Jaguar": 69
 , "Maserati": 13
-, "other": 1485
+, "other": 231
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/11",
