@@ -2972,9 +2972,10 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 11
 , "Opel|Zafira-e": 6
 , "Peugeot|e-Rifter": 5
+, "MG|Marvel R": 3
 , "Jaguar|I-Pace": 3
 , "Škoda|Citigo-e": 2
-, "other": 8
+, "other": 5
 });
 
 db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/08/2021-07-vp-france.pdf",
@@ -3429,12 +3430,11 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 26
 , "Mercedes-Benz|EQC": 23
 , "Peugeot|e-Rifter": 20
+, "BMW|i4": 20
 , "Cupra|Born": 19
 , "Hyundai|Ioniq Electric": 18
 , "BMW|iX3": 18
 , "Smart|Forfour ED": 17
 , "Mercedes-Benz|EQV": 14
-, "Opel|Zafira-e": 9
-, "MG|ZS EV": 9
-, "other": 53
+, "other": 51
 });
