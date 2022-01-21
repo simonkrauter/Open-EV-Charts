@@ -178,6 +178,8 @@ var db = {
   , "last6m": "6m"
   , "last1y": "1y"
   , "last2y": "2y"
+  , "last3y": "3y"
+  , "last4y": "4y"
   },
 
   countryOptions:
@@ -304,6 +306,8 @@ var db = {
     if (chartConfig == null || ![this.xProperties.year].includes(chartConfig.xProperty))
       param.options[this.timeSpanOptions.last1y] = "Last Year";
     param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
+    param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
+    param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
     var currentDate = new Date();
     var latestYear = 1900 + currentDate.getYear();
     var latestMonth = 1 + currentDate.getMonth();
