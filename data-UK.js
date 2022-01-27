@@ -919,6 +919,7 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Dacia": 3267
 , "Porsche": 3061
 , "Mitsubishi": 1990
+, "Cupra": 924
 , "Polestar": 922
 , "Jeep": 915
 , "Abarth": 520
@@ -936,7 +937,7 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Cadillac": 15
 , "Buick": 9
 , "Acura": 2
-, "other": 2996
+, "other": 2072
 });
 
 db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/985637/veh0160.ods (per quarter)",
@@ -1018,6 +1019,7 @@ db.insert(db.countries.UK, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Dacia": 3597
 , "Porsche": 2981
 , "Mitsubishi": 2428
+, "Cupra": 2238
 , "Jeep": 1321
 , "Abarth": 752
 , "Polestar": 720
@@ -1037,7 +1039,7 @@ db.insert(db.countries.UK, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Buick": 5
 , "Infiniti": 1
 , "Acura": 1
-, "other": 4391
+, "other": 2153
 });
 
 db.insert(db.countries.UK, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1021022/veh0160.ods (per quarter)",
