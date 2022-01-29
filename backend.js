@@ -891,9 +891,9 @@ var db = {
   },
 
   getSeriesNameColumnHeader: function(chartConfig) {
-    if (chartConfig.model == db.modelOptions.all)
+    if (chartConfig.model == this.modelOptions.all)
       return "Model";
-    else if (chartConfig.brand == db.brandOptions.all)
+    else if (chartConfig.brand == this.brandOptions.all)
       return "Brand";
     else
       return "Country";
