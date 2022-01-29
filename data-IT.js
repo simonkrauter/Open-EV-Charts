@@ -1233,3 +1233,58 @@ db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.4": 222
 , "other": 2406
 });
+
+db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02 Marca_Dicembre 2021_61d31b0a26b92.pdf",
+{ "Fiat": 13503
+, "Volkswagen": 7555
+, "Toyota": 6029
+, "Peugeot": 5418
+, "Renault": 4760
+, "Dacia": 4644
+, "Jeep": 3840
+, "Ford": 3715
+, "BMW": 3138
+, "Audi": 2998
+, "Citroën": 2908
+, "Mercedes-Benz": 2749
+, "Hyundai": 2376
+, "Opel": 2312
+, "Kia": 2080
+, "Mini": 1829
+, "Nissan": 1666
+, "Suzuki": 1482
+, "Škoda": 1331
+, "Seat": 1258
+, "Alfa Romeo": 973
+, "Porsche": 867
+, "Volvo": 802
+, "Tesla": 633
+, "Mazda": 538
+, "DS Automobiles": 523
+, "Cupra": 501
+, "Land Rover": 487
+, "Smart": 476
+, "Lexus": 335
+, "Honda": 321
+, "Subaru": 251
+, "MG": 250
+, "Mitsubishi": 157
+, "Maserati": 146
+, "Jaguar": 141
+, "SsangYong": 54
+, "other": 3633
+});
+
+db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07 Top 10 per alimentazione_Dicembre 2021_61d31a534d7a8.pdf",
+{ "Fiat|500e": 887
+, "Dacia|Spring": 805
+, "Renault|Twingo Z.E.": 519
+, "Volkswagen|e-up!": 459
+, "Smart|Fortwo ED": 440
+, "Tesla|Model 3": 418
+, "Volkswagen|ID.3": 260
+, "Tesla|Model Y": 215
+, "Peugeot|e-208": 184
+, "Volkswagen|ID.4": 179
+, "other": 1839
+});
