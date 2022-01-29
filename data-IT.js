@@ -1180,7 +1180,7 @@ db.insert(db.countries.IT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1676
 });
 
-db.insert(db.countries.IT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02 Marca Novembre 2021_61a757558ab06.pdf",
+db.insert(db.countries.IT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20Novembre%202021_61a757558ab06.pdf",
 { "Fiat": 15251
 , "Volkswagen": 8723
 , "Toyota": 6437
@@ -1234,7 +1234,7 @@ db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 2406
 });
 
-db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02 Marca_Dicembre 2021_61d31b0a26b92.pdf",
+db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca_Dicembre%202021_61d31b0a26b92.pdf",
 { "Fiat": 13503
 , "Volkswagen": 7555
 , "Toyota": 6029
