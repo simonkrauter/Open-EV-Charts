@@ -1275,7 +1275,7 @@ db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 3633
 });
 
-db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07 Top 10 per alimentazione_Dicembre 2021_61d31a534d7a8.pdf",
+db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione_Dicembre%202021_61d31a534d7a8.pdf",
 { "Fiat|500e": 887
 , "Dacia|Spring": 805
 , "Renault|Twingo Z.E.": 519
