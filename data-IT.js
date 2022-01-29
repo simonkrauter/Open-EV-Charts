@@ -45,7 +45,7 @@ db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5534
 });
 
-db.insert(db.countries.IT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2559",
+db.insert(db.countries.IT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20gennaio%202020_%20UNRAE_Top%20ten%20per%20alimentazione_5e384af489aaa.pdf",
 { "Renault|Zoe": 411
 , "Peugeot|e-208": 318
 , "Volkswagen|e-up!": 215
@@ -99,7 +99,7 @@ db.insert(db.countries.IT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 6448
 });
 
-db.insert(db.countries.IT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2633",
+db.insert(db.countries.IT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20febbraio%202020_UNRAE%20Top%2010%20alimentazione_5e5d243e7deff.pdf",
 { "Renault|Zoe": 387
 , "Volkswagen|e-up!": 341
 , "Peugeot|e-208": 287
@@ -153,7 +153,7 @@ db.insert(db.countries.IT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 713
 });
 
-db.insert(db.countries.IT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2704",
+db.insert(db.countries.IT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20marzo_UNRAE%20Top%2010%20alimentazione_5e84a144b5847.pdf",
 { "Tesla|Model 3": 358
 , "Smart|Fortwo ED": 128
 , "Volkswagen|e-up!": 70
@@ -205,17 +205,17 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 142
 });
 
-db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2741",
+db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/aprile%20Top%2010%20alimentazione_5eb017f9dcddb.pdf",
 { "Renault|Zoe": 366
 , "Tesla|Model 3": 88
 , "Tesla|Model S": 10
 , "Opel|Corsa-e": 7
-, "Peugeot|e-208": 6
 , "Tesla|Model X": 6
-, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Peugeot|e-208": 6
 , "Volkswagen|e-up!": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Audi|e-tron": 2
-, "other": 9
+, "other": 7
 });
 
 db.insert(db.countries.IT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20maggio%202020_UNRAE%20marca_5ed50c192c549.pdf",
@@ -257,7 +257,7 @@ db.insert(db.countries.IT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 2856
 });
 
-db.insert(db.countries.IT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2834",
+db.insert(db.countries.IT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/maggio%20Top%2010%20alimentazione_5ed5061f56ab3.pdf",
 { "Renault|Zoe": 529
 , "Smart|Fortwo ED": 308
 , "Volkswagen|e-up!": 299
@@ -312,7 +312,7 @@ db.insert(db.countries.IT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4115
 });
 
-db.insert(db.countries.IT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=2880",
+db.insert(db.countries.IT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/giugno%202020_UNRAE_Top%2010%20alimentazione_5efc8ad723c0f.pdf",
 { "Tesla|Model 3": 317
 , "Renault|Zoe": 314
 , "Smart|Fortwo ED": 260
@@ -366,7 +366,7 @@ db.insert(db.countries.IT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4313
 });
 
-db.insert(db.countries.IT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3021",
+db.insert(db.countries.IT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20luglio%20Top%2010%20per%20alimentazione_5f280b700672d.pdf",
 { "Smart|Fortwo ED": 350
 , "Renault|Zoe": 198
 , "Opel|Corsa-e": 156
@@ -419,7 +419,7 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 2705
 });
 
-db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3056",
+db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/agosto%20Top%2010%20per%20alimentazione_5f4e4e8147454.pdf",
 { "Renault|Zoe": 506
 , "Volkswagen|e-up!": 201
 , "Tesla|Model 3": 189
@@ -432,7 +432,6 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-Golf": 29
 , "other": 247
 });
-
 
 db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20settembre%202020%20UNRAE%20marca_5f75eb60adc52.pdf",
 { "Fiat": 23134
@@ -475,7 +474,7 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5420
 });
 
-db.insert(db.countries.IT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3080",
+db.insert(db.countries.IT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/settembre%20Top%2010%20per%20alimentazione_5f75debcb4b24.pdf",
 { "Tesla|Model 3": 880
 , "Renault|Zoe": 676
 , "Smart|Fortwo ED": 461
@@ -528,7 +527,7 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5534
 });
 
-db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3122",
+db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20ottobre%202020%20UNRAE%20Top%2010%20per%20alimentazione_5fa01edbc205c.pdf",
 { "Smart|Fortwo ED": 571
 , "Renault|Zoe": 304
 , "Hyundai|Kona Electric": 258
@@ -582,7 +581,7 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4859
 });
 
-db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3144",
+db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/novembre%20Top%2010%20per%20alimentazione_5fc64c8b18558.pdf",
 { "Volkswagen|e-up!": 657
 , "Smart|Fortwo ED": 558
 , "Renault|Zoe": 554
@@ -635,7 +634,7 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5393
 });
 
-db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3181",
+db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20dicembre%20Top%2010%20per%20alimentazione_5ff32ed50d06c.pdf",
 { "Fiat|500e": 1549
 , "Renault|Zoe": 1153
 , "Tesla|Model 3": 851
@@ -688,9 +687,9 @@ db.insert(db.countries.IT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4999
 });
 
-db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3352",
-{ "Fiat|500e": 419
-, "Smart|Fortwo ED": 419
+db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/gennaio%202021_%20UNRAE%20Top%20ten%20per%20alimentazione_601821e524cfc.pdf",
+{ "Smart|Fortwo ED": 419
+, "Fiat|500e": 419
 , "Renault|Zoe": 255
 , "Opel|Corsa-e": 216
 , "Peugeot|e-208": 193
@@ -741,7 +740,7 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5076
 });
 
-db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3425",
+db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/febbraio%20Top%2010%20per%20alimentazione_603cfea9edb94.pdf",
 { "Fiat|500e": 583
 , "Smart|Fortwo ED": 545
 , "Renault|Twingo Z.E.": 386
@@ -752,6 +751,7 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Opel|Corsa-e": 157
 , "Nissan|Leaf": 142
 , "Hyundai|Kona Electric": 134
+, "other": 589
 });
 
 db.insert(db.countries.IT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20marzo%202021%20UNRAE%20marca_6065db1d2665e.pdf",
@@ -793,7 +793,7 @@ db.insert(db.countries.IT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 6509
 });
 
-db.insert(db.countries.IT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3462",
+db.insert(db.countries.IT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20marzo%202021%20UNRAE%20Top%2010%20per%20alimentazione_6065c0aa1a619.pdf",
 { "Tesla|Model 3": 1363
 , "Fiat|500e": 1056
 , "Smart|Fortwo ED": 759
@@ -846,7 +846,7 @@ db.insert(db.countries.IT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 6465
 });
 
-db.insert(db.countries.IT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3535",
+db.insert(db.countries.IT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20aprile%202021_60900cb9c02fa.pdf",
 { "Fiat|500e": 1062
 , "Smart|Fortwo ED": 601
 , "Renault|Twingo Z.E.": 528
@@ -899,7 +899,7 @@ db.insert(db.countries.IT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 6415
 });
 
-db.insert(db.countries.IT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3573",
+db.insert(db.countries.IT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20maggio%202021_60b6173455395.pdf",
 { "Fiat|500e": 1030
 , "Smart|Fortwo ED": 641
 , "Renault|Twingo Z.E.": 513
@@ -952,7 +952,7 @@ db.insert(db.countries.IT, "2021-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 6125
 });
 
-db.insert(db.countries.IT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3600",
+db.insert(db.countries.IT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20giugno%202021_60dde79684a99.pdf",
 { "Tesla|Model 3": 984
 , "Fiat|500e": 955
 , "Renault|Twingo Z.E.": 829
@@ -1005,7 +1005,7 @@ db.insert(db.countries.IT, "2021-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4844
 });
 
-db.insert(db.countries.IT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3668",
+db.insert(db.countries.IT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20luglio%202021_6107ca5800fe2.pdf",
 { "Fiat|500e": 883
 , "Renault|Twingo Z.E.": 629
 , "Volkswagen|e-up!": 374
@@ -1058,7 +1058,7 @@ db.insert(db.countries.IT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 3015
 });
 
-db.insert(db.countries.IT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3704",
+db.insert(db.countries.IT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20agosto%202021_612f55224438d.pdf",
 { "Fiat|500e": 578
 , "Volkswagen|e-up!": 324
 , "Tesla|Model 3": 308
@@ -1112,7 +1112,7 @@ db.insert(db.countries.IT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4640
 });
 
-db.insert(db.countries.IT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3732",
+db.insert(db.countries.IT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20settembre%202021_6156dc959e628.pdf",
 { "Dacia|Spring": 1876
 , "Fiat|500e": 1289
 , "Tesla|Model 3": 999
@@ -1166,7 +1166,7 @@ db.insert(db.countries.IT, "2021-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 4974
 });
 
-db.insert(db.countries.IT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3801",
+db.insert(db.countries.IT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Ottobre%202021_618129e4bb290.pdf",
 { "Dacia|Spring": 1777
 , "Fiat|500e": 1060
 , "Smart|Fortwo ED": 621
@@ -1220,7 +1220,7 @@ db.insert(db.countries.IT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5420
 });
 
-db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://www.opportunityenergy.org/?p=3827",
+db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Novembre%202021_61a7810980607.pdf",
 { "Fiat|500e": 946
 , "Renault|Twingo Z.E.": 656
 , "Volkswagen|e-up!": 570
