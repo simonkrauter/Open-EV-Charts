@@ -2676,7 +2676,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1828
 });
 
-db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2021",
+db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desmber_2021",
 { "Tesla|Model Y": 2378
 , "Tesla|Model 3": 1968
 , "Volkswagen|ID.4": 718
