@@ -2646,6 +2646,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Opel|Zafira-e": 10
 , "Mercedes-Benz|EQS": 9
+, "Opel|Combo-e": 5
 , "Peugeot|e-Rifter": 4
 , "BMW|i4": 2
 , "other": 583
