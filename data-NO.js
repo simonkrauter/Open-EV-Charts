@@ -2729,6 +2729,81 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 395
 });
 
+db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2022",
+{ "Audi": 952
+, "Hyundai": 704
+, "Volkswagen": 659
+, "Kia": 616
+, "Toyota": 576
+, "BMW": 574
+, "Mercedes-Benz": 498
+, "Škoda": 460
+, "Ford": 389
+, "Volvo": 336
+, "Peugeot": 273
+, "Polestar": 261
+, "Nissan": 243
+, "Porsche": 185
+, "Hongqi": 175
+, "Opel": 147
+, "Suzuki": 110
+, "BYD": 96
+, "Mazda": 74
+, "other": 629
+});
+
+db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2022",
+{ "Audi|Q4 e-tron": 641
+, "Hyundai|Ioniq 5": 476
+, "BMW|iX": 441
+, "Škoda|Enyaq": 389
+, "Volkswagen|ID.4": 388
+, "Kia|EV6": 355
+, "Ford|Mustang Mach-E": 351
+, "Audi|e-tron": 285
+, "Polestar|2": 261
+, "Nissan|Leaf": 231
+, "Mercedes-Benz|EQA": 189
+, "Mercedes-Benz|EQC": 183
+, "Peugeot|e-2008": 178
+, "Porsche|Taycan": 177
+, "Kia|Niro EV": 152
+, "Hyundai|Kona Electric": 152
+, "Volkswagen|ID.3": 124
+, "Kia|Soul EV": 96
+, "Lexus|UX 300e": 90
+, "Opel|Mokka-e": 85
+, "Volvo|XC40 Recharge pure electric": 73
+, "Hyundai|Ioniq Electric": 73
+, "Mazda|MX-30": 67
+, "Cupra|Born": 64
+, "Nio|ES8": 55
+, "Peugeot|e-208": 50
+, "Opel|Corsa-e": 49
+, "Xiaopeng|Xpeng G3": 45
+, "Citroën|ë-C4": 45
+, "BMW|iX3": 44
+, "Mercedes-Benz|EQB": 41
+, "Jaguar|I-Pace": 33
+, "Mini|Cooper SE Electric": 32
+, "Tesla|Model 3": 29
+, "BMW|i3 BEV": 25
+, "BMW|i4": 24
+, "Renault|Zoe": 22
+, "Opel|Combo-e": 21
+, "Volkswagen|e-up!": 18
+, "Tesla|Model Y": 16
+, "Peugeot|e-Traveller": 14
+, "Fiat|500e": 14
+, "Audi|e-tron GT": 11
+, "Honda|e": 8
+, "Mercedes-Benz|EQV": 7
+, "Opel|Zafira-e": 5
+, "MG|ZS EV": 4
+, "Peugeot|e-Rifter": 3
+, "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "other": 521
+});
 
 // Template:
 
@@ -2754,5 +2829,8 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Mitsubishi":
 // , "Opel":
 // , "Citroën":
+// , "Porsche":
+// , "Hongqi":
+// , "BYD":
 // , "other":
 // });
