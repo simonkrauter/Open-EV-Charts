@@ -2406,6 +2406,7 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 81
 , "Renault|Zoe": 71
 , "Jaguar|I-Pace": 65
+, "BYD|Tang": 61
 , "Lexus|UX 300e": 42
 , "Peugeot|e-Traveller": 39
 , "Fiat|500e": 39
@@ -2419,7 +2420,7 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 1
 , "Smart|Forfour ED": 1
 , "Mercedes-Benz|EQS": 1
-, "other": 141
+, "other": 57
 });
 
 db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2021",
@@ -2482,6 +2483,7 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 49
 , "Opel|Corsa-e": 47
 , "Fiat|500e": 47
+, "BYD|Tang": 39
 , "Honda|e": 26
 , "Mini|Cooper SE Electric": 16
 , "Mercedes-Benz|EQV": 14
@@ -2493,7 +2495,7 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 4
 , "Mercedes-Benz|EQS": 3
 , "BMW|iX": 1
-, "other": 162
+, "other": 110
 });
 
 db.insert(db.countries.NO, "2021-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
@@ -2527,6 +2529,7 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 585
 , "Volvo|XC40 Recharge pure electric": 468
 , "Polestar|2": 405
+, "BYD|Tang": 363
 , "Nissan|Leaf": 353
 , "Audi|e-tron": 305
 , "Volkswagen|ID.3": 300
@@ -2566,12 +2569,9 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Mercedes-Benz|EQS": 5
+, "Hongqi|E-HS9": 4
 , "Peugeot|e-Rifter": 3
-, "Tesla|Model Y": 2
-, "Smart|Fortwo ED": 2
-, "Mitsubishi|i-MiEV": 2
-, "Tesla|Model S": 1
-, "other": 436
+, "other": 114
 });
 
 db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2021",
@@ -2609,6 +2609,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 488
 , "Hyundai|Ioniq 5": 475
 , "Porsche|Taycan": 431
+, "BYD|Tang": 400
 , "Volvo|XC40 Recharge pure electric": 373
 , "Hyundai|Kona Electric": 368
 , "Mercedes-Benz|EQA": 330
@@ -2648,8 +2649,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 9
 , "Opel|Combo-e": 5
 , "Peugeot|e-Rifter": 4
-, "BMW|i4": 2
-, "other": 583
+, "other": 185
 });
 
 db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2021",
@@ -2696,6 +2696,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 249
 , "Mercedes-Benz|EQC": 244
 , "Kia|Niro EV": 244
+, "BYD|Tang": 204
 , "Hyundai|Kona Electric": 177
 , "Škoda|Citigo-e": 164
 , "Peugeot|e-2008": 159
@@ -2719,14 +2720,14 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 26
 , "BMW|i4": 24
 , "Opel|Zafira-e": 22
+, "Hongqi|E-HS9": 21
 , "Audi|e-tron GT": 21
 , "DS Automobiles|DS 3 Crossback E-Tense": 19
 , "Peugeot|e-Traveller": 18
 , "Cupra|Born": 17
 , "Mercedes-Benz|EQV": 12
 , "Opel|Combo-e": 8
-, "Fiat|500e": 7
-, "other": 395
+, "other": 177
 });
 
 db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2022",
@@ -2767,10 +2768,12 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 183
 , "Peugeot|e-2008": 178
 , "Porsche|Taycan": 177
+, "Hongqi|E-HS9": 172
 , "Kia|Niro EV": 152
 , "Hyundai|Kona Electric": 152
 , "Volkswagen|ID.3": 124
 , "Kia|Soul EV": 96
+, "BYD|Tang": 96
 , "Lexus|UX 300e": 90
 , "Opel|Mokka-e": 85
 , "Volvo|XC40 Recharge pure electric": 73
@@ -2800,9 +2803,7 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 7
 , "Opel|Zafira-e": 5
 , "MG|ZS EV": 4
-, "Peugeot|e-Rifter": 3
-, "DS Automobiles|DS 3 Crossback E-Tense": 3
-, "other": 521
+, "other": 323
 });
 
 // Template:
