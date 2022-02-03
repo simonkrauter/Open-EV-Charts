@@ -2649,7 +2649,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 9
 , "Opel|Combo-e": 5
 , "Peugeot|e-Rifter": 4
-, "other": 185
+, "other": 138
 });
 
 db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2021",
@@ -2727,7 +2727,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 17
 , "Mercedes-Benz|EQV": 12
 , "Opel|Combo-e": 8
-, "other": 177
+, "other": 134
 });
 
 db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2022",
@@ -2803,7 +2803,7 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 7
 , "Opel|Zafira-e": 5
 , "MG|ZS EV": 4
-, "other": 323
+, "other": 259
 });
 
 // Template:
