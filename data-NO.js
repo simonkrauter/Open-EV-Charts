@@ -2717,6 +2717,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng G3": 32
 , "Mini|Cooper SE Electric": 32
 , "Honda|e": 26
+, "BMW|i4": 24
 , "Opel|Zafira-e": 22
 , "Audi|e-tron GT": 21
 , "DS Automobiles|DS 3 Crossback E-Tense": 19
@@ -2725,9 +2726,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 12
 , "Opel|Combo-e": 8
 , "Fiat|500e": 7
-, "Mercedes-Benz|EQB": 2
-, "Smart|Forfour ED": 1
-, "other": 373
+, "other": 395
 });
 
 
