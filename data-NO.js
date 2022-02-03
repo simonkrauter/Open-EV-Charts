@@ -2601,34 +2601,35 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2021",
 { "Tesla|Model Y": 1013
 , "Tesla|Model 3": 770
-, "Volkswagen|ID.4": 719
-, "Audi|Q4 e-tron": 660
+, "Volkswagen|ID.4": 725
+, "Audi|Q4 e-tron": 661
 , "Nissan|Leaf": 655
-, "Polestar|2": 501
-, "Ford|Mustang Mach-E": 489
+, "Polestar|2": 502
+, "Ford|Mustang Mach-E": 491
 , "Škoda|Enyaq": 488
 , "Hyundai|Ioniq 5": 475
-, "Porsche|Taycan": 417
-, "Volvo|XC40 Recharge pure electric": 372
+, "Porsche|Taycan": 431
+, "Volvo|XC40 Recharge pure electric": 373
 , "Hyundai|Kona Electric": 368
-, "Mercedes-Benz|EQA": 329
+, "Mercedes-Benz|EQA": 330
 , "Audi|e-tron": 327
 , "Peugeot|e-2008": 281
-, "Kia|Niro EV": 244
+, "Kia|Niro EV": 245
 , "Volkswagen|ID.3": 224
-, "Mazda|MX-30": 214
+, "Mazda|MX-30": 215
 , "Citroën|ë-C4": 176
 , "Kia|Soul EV": 160
-, "Mercedes-Benz|EQC": 155
+, "Mercedes-Benz|EQC": 158
 , "BMW|i3 BEV": 154
-, "Škoda|Citigo-e": 145
-, "Kia|EV6": 109
-, "Peugeot|e-208": 107
+, "Škoda|Citigo-e": 147
+, "Kia|EV6": 110
+, "Peugeot|e-208": 108
 , "Opel|Mokka-e": 101
+, "MG|Marvel R": 101
 , "BMW|iX": 97
 , "Volkswagen|e-up!": 92
 , "Nio|ES8": 92
-, "BMW|iX3": 89
+, "BMW|iX3": 90
 , "Jaguar|I-Pace": 74
 , "Xiaopeng|Xpeng G3": 70
 , "Renault|Zoe": 60
@@ -2646,7 +2647,8 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 10
 , "Mercedes-Benz|EQS": 9
 , "Peugeot|e-Rifter": 4
-, "other": 680
+, "BMW|i4": 2
+, "other": 583
 });
 
 db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2021",
