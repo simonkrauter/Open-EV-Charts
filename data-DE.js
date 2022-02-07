@@ -4364,7 +4364,7 @@ db.insert(db.countries.DE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 190
 , "Kia|Soul EV": 179
 , "Hyundai|Ioniq Electric": 178
-, "BMW|other": 152
+, "BMW|i4": 152
 , "Audi|e-tron GT": 132
 , "Mercedes-Benz|EQS": 125
 , "Volvo|XC40 Recharge pure electric": 124
@@ -4459,7 +4459,7 @@ db.insert(db.countries.DE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 214
 , "Citroën|ë-C4": 188
 , "Mercedes-Benz|EQS": 155
-, "Volvo|other": 135
+, "Volvo|C40 Recharge pure electric": 135
 , "Kia|Soul EV": 123
 , "Mercedes-Benz|EQB": 120
 , "Mercedes-Benz|EQV": 115
