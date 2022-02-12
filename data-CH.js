@@ -3483,9 +3483,9 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 21
 , "Peugeot|e-Expert": 17
 , "Peugeot|e-2008": 17
+, "Toyota|Proace Electric": 16
 , "Citroën|ë-Jumpy": 16
 , "Honda|e": 15
-, "Toyota|Proace Electric": 14
 , "Opel|Mokka-e": 13
 , "Opel|Corsa-e": 13
 , "Opel|Combo-e": 13
@@ -3493,9 +3493,9 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 11
 , "Opel|Vivaro-e": 10
 , "Škoda|Citigo-e": 8
+, "Volvo|C40 Recharge pure electric": 8
 , "Peugeot|e-Traveller": 8
-, "Mercedes-Benz|eVito": 7
-, "other": 81
+, "other": 78
 });
 
 db.insert(db.countries.CH, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/01/ModellePW2021.xlsx",
@@ -3562,6 +3562,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 100
 , "Dacia|Spring": 98
 , "BMW|i3 BEV": 92
+, "Volvo|C40 Recharge pure electric": 80
 , "BMW|iX": 80
 , "Mini|Cooper SE Electric": 79
 , "Renault|Kangoo Z.E.": 77
@@ -3578,9 +3579,9 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 33
 , "Nissan|e-NV200": 32
 , "Opel|Mokka-e": 28
+, "Toyota|Proace Electric": 27
 , "Kia|Niro EV": 27
 , "Citroën|ë-C4": 21
-, "Toyota|Proace Electric": 20
 , "Opel|Vivaro-e": 17
 , "Honda|e": 16
 , "Volkswagen|e-Crafter": 15
@@ -3593,7 +3594,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 9
 , "Mercedes-Benz|eVito": 8
 , "Mercedes-Benz|EQV": 6
-, "other": 214
+, "other": 127
 });
 
 db.insert(db.countries.CH, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/02/ModellePW2022.xlsx",
