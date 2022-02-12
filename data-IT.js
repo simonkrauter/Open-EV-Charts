@@ -1288,3 +1288,88 @@ db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|ID.4": 179
 , "other": 1839
 });
+
+db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20Gennaio%202022_61f94c3262901.pdf",
+{ "Fiat": 16024
+, "Ford": 8168
+, "Volkswagen": 7859
+, "Toyota": 7575
+, "Dacia": 7082
+, "Peugeot": 6639
+, "Renault": 5415
+, "Jeep": 4515
+, "BMW": 4285
+, "Opel": 3609
+, "Citroën": 3460
+, "Kia": 3147
+, "Mercedes-Benz": 3142
+, "Hyundai": 3141
+, "Audi": 2985
+, "Suzuki": 2625
+, "Mini": 1871
+, "Nissan": 1841
+, "Škoda": 1781
+, "Seat": 1031
+, "Volvo": 961
+, "Mazda": 806
+, "Porsche": 699
+, "Alfa Romeo": 696
+, "Honda": 574
+, "Land Rover": 566
+, "DS Automobiles": 383
+, "Cupra": 372
+, "Lexus": 296
+, "Smart": 266
+, "MG": 266
+, "Subaru": 159
+, "Jaguar": 128
+, "Maserati": 105
+, "Mitsubishi": 93
+, "SsangYong": 48
+, "Tesla": 32
+, "other": 5169
+});
+
+db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/08 Imm BEV modello gennaio 2022_61f95d655bfcc.pdf",
+{ "Dacia|Spring": 656
+, "Fiat|500e": 548
+, "Renault|Twingo Z.E.": 298
+, "Smart|Fortwo ED": 230
+, "Renault|Zoe": 228
+, "Peugeot|e-208": 178
+, "Peugeot|e-2008": 159
+, "Volkswagen|ID.3": 113
+, "Opel|Corsa-e": 83
+, "Ford|Mustang Mach-E": 71
+, "Mini|Cooper SE Electric": 67
+, "Porsche|Taycan": 65
+, "Hyundai|Kona Electric": 65
+, "Audi|Q4 e-tron": 60
+, "Volkswagen|ID.4": 52
+, "Hyundai|Ioniq 5": 52
+, "Opel|Mokka-e": 48
+, "BMW|i3 BEV": 45
+, "Kia|Niro EV": 44
+, "Volvo|C40 Recharge pure electric": 41
+, "Smart|Forfour ED": 36
+, "Škoda|Enyaq": 33
+, "Volkswagen|e-up!": 32
+, "Audi|e-tron": 32
+, "Mercedes-Benz|EQA": 31
+, "DS Automobiles|DS 3 Crossback E-Tense": 31
+, "Citroën|ë-C4": 31
+, "BMW|iX3": 31
+, "Kia|EV6": 30
+, "Nissan|Leaf": 29
+, "MG|ZS EV": 29
+, "Volvo|XC40 Recharge pure electric": 28
+, "BMW|iX": 23
+, "Tesla|Model 3": 21
+, "Lexus|UX 300e": 19
+, "MG|Marvel R": 14
+, "Audi|e-tron GT": 14
+, "Mazda|MX-30": 12
+, "Kia|Soul EV": 12
+, "Tesla|Model Y": 11
+, "other": 56
+});
