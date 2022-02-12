@@ -2410,10 +2410,11 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 21
 , "Tesla": 16
 , "DS Automobiles": 13
+, "Cupra": 8
 , "Smart": 7
 , "SsangYong": 1
 , "Maserati": 1
-, "other": 180
+, "other": 172
 });
 
 db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/1",
@@ -2493,9 +2494,9 @@ db.insert(db.countries.NL, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 18
 , "Jaguar": 15
 , "Smart": 10
+, "Cupra": 2
 , "Maserati": 1
-, "Cupra": 1
-, "other": 202
+, "other": 201
 });
 
 db.insert(db.countries.NL, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/2",
@@ -2569,10 +2570,11 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 39
 , "DS Automobiles": 31
 , "Jaguar": 24
+, "Cupra": 11
 , "Subaru": 5
 , "Alfa Romeo": 4
 , "Maserati": 2
-, "other": 362
+, "other": 351
 });
 
 db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/3",
@@ -2654,11 +2656,11 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 32
 , "Jaguar": 31
 , "DS Automobiles": 24
+, "Cupra": 23
 , "Smart": 15
-, "Cupra": 11
 , "Alfa Romeo": 5
 , "Maserati": 1
-, "other": 622
+, "other": 610
 });
 
 db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/4",
@@ -2704,9 +2706,8 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 2
 , "Tesla|Model S": 1
 , "Peugeot|e-Traveller": 1
-, "Peugeot|Partner Electric": 1
 , "Nissan|e-NV200": 1
-, "other": 8
+, "other": 9
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/mei/",
@@ -2745,9 +2746,9 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 22
 , "Subaru": 11
 , "Smart": 11
+, "Cupra": 5
 , "Maserati": 4
-, "Cupra": 2
-, "other": 540
+, "other": 537
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
@@ -2831,12 +2832,12 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "DS Automobiles": 37
 , "Alfa Romeo": 21
 , "Jaguar": 19
+, "Cupra": 18
 , "Smart": 16
 , "Subaru": 14
-, "Cupra": 12
 , "Maserati": 1
 , "Aiways": 1
-, "other": 414
+, "other": 408
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
@@ -2924,14 +2925,14 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 35
 , "DS Automobiles": 32
 , "Alfa Romeo": 22
-, "Cupra": 16
+, "Cupra": 19
 , "Jaguar": 15
 , "Smart": 14
 , "Subaru": 8
 , "Aiways": 7
 , "Tesla": 3
 , "Maserati": 2
-, "other": 520
+, "other": 517
 });
 
 db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/7",
@@ -3017,13 +3018,13 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 37
 , "DS Automobiles": 31
 , "MG": 23
-, "Cupra": 16
+, "Cupra": 21
 , "Alfa Romeo": 15
 , "Jaguar": 9
 , "Smart": 7
 , "Subaru": 4
 , "Maserati": 2
-, "other": 569
+, "other": 564
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/8",
@@ -3166,12 +3167,12 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 5
 , "Mercedes-Benz|eVito": 5
 , "Smart|Forfour ED": 4
+, "Xiaopeng|Xpeng P7": 3
 , "Honda|e": 3
 , "BMW|iX": 3
 , "Peugeot|e-Traveller": 2
 , "Aiways|U5": 2
-, "Jaguar|I-Pace": 1
-, "other": 24
+, "other": 22
 });
 
 db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/oktober/",
@@ -3361,8 +3362,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 8
 , "Citroën|ë-Jumpy": 7
 , "Mercedes-Benz|eVito": 5
-, "MG|Marvel R": 4
-, "other": 29
+, "other": 33
 });
 
 db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/december/",
@@ -3408,27 +3408,28 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/12",
-{ "Škoda|Enyaq": 1433
+{ "Škoda|Enyaq": 1441
 , "Ford|Mustang Mach-E": 1249
-, "Volkswagen|ID.4": 1210
-, "Audi|Q4 e-tron": 1149
+, "Volkswagen|ID.4": 1215
+, "Audi|Q4 e-tron": 1155
 , "Cupra|Born": 1136
 , "Volvo|XC40 Recharge pure electric": 1069
 , "Polestar|2": 1061
-, "Volkswagen|ID.3": 985
-, "Tesla|Model 3": 975
-, "Hyundai|Ioniq 5": 904
-, "Tesla|Model Y": 902
-, "Kia|EV6": 885
-, "BMW|iX3": 867
-, "Kia|Niro EV": 852
-, "Audi|e-tron": 521
+, "Volkswagen|ID.3": 986
+, "Tesla|Model 3": 976
+, "Hyundai|Ioniq 5": 920
+, "Tesla|Model Y": 903
+, "Kia|EV6": 890
+, "BMW|iX3": 868
+, "Kia|Niro EV": 853
+, "Audi|e-tron": 524
 , "Peugeot|e-208": 498
-, "Hyundai|Kona Electric": 492
+, "Hyundai|Kona Electric": 493
 , "Opel|Corsa-e": 478
 , "Peugeot|e-2008": 470
 , "Renault|Zoe": 370
 , "Mini|Cooper SE Electric": 362
+, "Volvo|C40 Recharge pure electric": 353
 , "Mercedes-Benz|EQA": 300
 , "Renault|Twingo Z.E.": 240
 , "BMW|iX": 230
@@ -3438,7 +3439,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 160
 , "Seat|Mii Electric": 143
 , "Citroën|ë-C4": 138
-, "Porsche|Taycan": 122
+, "Porsche|Taycan": 123
 , "Fiat|500e": 80
 , "MG|ZS EV": 75
 , "Dacia|Spring": 68
@@ -3456,8 +3457,8 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 15
 , "Smart|Fortwo ED": 9
 , "Honda|e": 9
-, "Opel|Vivaro-e": 4
-, "other": 392
+, "SsangYong|Korando e-Motion": 8
+, "other": 35
 });
 
 db.insert(db.countries.NL, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/januari/",
