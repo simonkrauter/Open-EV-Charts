@@ -2821,6 +2821,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 7
 , "BMW|iX3": 6
+, "Maxus|e Deliver": 4
 , "MG|ZS EV": 4
 , "Ford|Mustang Mach-E": 4
 , "Citroën|ë-SpaceTourer": 4
@@ -2832,7 +2833,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 3
 , "Mercedes-Benz|EQV": 2
 , "Audi|e-tron GT": 2
-, "other": 20
+, "other": 16
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuniotur.asp, https://www.km77.com/mercado/espana/2021/datosjuniott.asp",
@@ -3002,6 +3003,7 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Caddy": 22
 , "Toyota|Proace Electric": 19
 , "MG|ZS EV": 19
+, "Maxus|e Deliver": 16
 , "Peugeot|e-Expert": 15
 , "Audi|Q4 e-tron": 15
 , "Kia|Soul EV": 14
@@ -3019,9 +3021,7 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 3
 , "Mercedes-Benz|EQV": 3
 , "Dacia|Spring": 3
-, "Mercedes-Benz|eSprinter": 2
-, "Honda|e": 2
-, "other": 51
+, "other": 39
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosagostotur.asp, https://www.km77.com/mercado/espana/2021/datosagostott.asp",
@@ -3045,13 +3045,14 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Mazda": 947
 , "Jeep": 699
 , "Volvo": 687
+, "Cupra": 614
 , "Lexus": 525
 , "Mini": 441
 , "Suzuki": 352
 , "Mitsubishi": 268
 , "SsangYong": 262
 , "Land Rover": 223
-, "Tesla": 197
+, "Tesla": 194
 , "DS Automobiles": 187
 , "Honda": 178
 , "Alfa Romeo": 109
@@ -3096,6 +3097,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 13
 , "Porsche|Taycan": 13
 , "Mazda|MX-30": 11
+, "Maxus|e Deliver": 11
 , "Peugeot|e-Expert": 9
 , "Nissan|e-NV200": 8
 , "Mercedes-Benz|EQC": 8
@@ -3113,7 +3115,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Citroën|ë-Jumpy": 2
-, "other": 38
+, "other": 27
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2021/datosseptiembrett.asp",
@@ -3122,8 +3124,8 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Hyundai": 4559
 , "Peugeot": 4085
 , "Renault": 3556
-, "Toyota": 3308
 , "Volkswagen": 3297
+, "Toyota": 3135
 , "BMW": 3057
 , "Citroën": 2977
 , "Fiat": 2856
@@ -3200,22 +3202,23 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 8
 , "Seat|Mii Electric": 7
 , "Mercedes-Benz|EQC": 7
+, "Maxus|e Deliver": 7
 , "Citroën|ë-SpaceTourer": 7
 , "Audi|e-tron": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Mercedes-Benz|eVito": 4
 , "Lexus|UX 300e": 4
 , "Honda|e": 4
-, "other": 43
+, "other": 36
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosoctubretur.asp, https://www.km77.com/mercado/espana/2021/datosoctubrett.asp",
 { "Hyundai": 5844
 , "Peugeot": 5547
 , "Kia": 5254
+, "Toyota": 3603
 , "Renault": 3434
-, "Volkswagen": 3376
-, "Toyota": 3198
+, "Volkswagen": 3379
 , "Citroën": 3080
 , "Seat": 3058
 , "Dacia": 2488
@@ -3248,7 +3251,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 20
 , "Maserati": 17
 , "Aiways": 1
-, "other": 144
+, "other": 145
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10",
@@ -3295,14 +3298,14 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
 , "Citroën|ë-Jumpy": 8
+, "Maxus|e Deliver": 7
 , "Citroën|ë-SpaceTourer": 7
 , "Peugeot|e-Traveller": 6
 , "Citroën|Berlingo Electric": 6
 , "Mercedes-Benz|EQS": 5
 , "Mazda|MX-30": 5
 , "Audi|e-tron GT": 5
-, "MG|Marvel R": 4
-, "other": 53
+, "other": 50
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2021/datosnoviembrett.asp",
@@ -3387,6 +3390,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 19
 , "Volvo|XC40 Recharge pure electric": 18
 , "Citroën|ë-Jumpy": 15
+, "Maxus|e Deliver": 12
 , "Lexus|UX 300e": 11
 , "Nissan|e-NV200": 10
 , "Mercedes-Benz|EQC": 9
@@ -3396,7 +3400,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Peugeot|e-Traveller": 7
 , "BMW|iX3": 7
-, "other": 74
+, "other": 62
 });
 
 db.insert(db.countries.ES, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2021/datosdiciembrett.asp",
@@ -3462,9 +3466,9 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 66
 , "Peugeot|e-208": 65
 , "Audi|Q4 e-tron": 61
+, "Citroën|Berlingo Electric": 60
 , "Ford|Mustang Mach-E": 58
-, "Nissan|e-NV200": 54
-, "Citroën|Berlingo Electric": 54
+, "Nissan|e-NV200": 55
 , "Tesla|Model Y": 52
 , "Citroën|ë-C4": 51
 , "Cupra|Born": 49
@@ -3473,6 +3477,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 42
 , "Peugeot|e-Rifter": 39
 , "Porsche|Taycan": 36
+, "Volvo|C40 Recharge pure electric": 34
 , "Opel|Mokka-e": 33
 , "Honda|e": 26
 , "Toyota|Proace Electric": 25
@@ -3490,8 +3495,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 11
 , "Mercedes-Benz|EQV": 10
 , "BMW|iX3": 10
-, "Mercedes-Benz|eSprinter": 9
-, "other": 116
+, "other": 84
 });
 
 db.insert(db.countries.ES, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosenerotur.asp, https://www.km77.com/mercado/espana/2022/datosenerott.asp",
@@ -3579,12 +3583,6 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Combo-e": 8
 , "Lexus|UX 300e": 8
 , "Peugeot|e-Expert": 6
-, "Tesla|Model Y": 5
-, "Mazda|MX-30": 5
-, "Hyundai|Ioniq Electric": 5
-, "DS Automobiles|DS 3 Crossback E-Tense": 5
-, "Citroën|ë-Jumpy": 5
-, "BMW|iX3": 5
-, "Audi|e-tron": 5
-, "other": 44
+, "Peugeot|Partner Electric": 6
+, "other": 73
 });
