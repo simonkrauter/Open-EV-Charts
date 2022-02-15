@@ -1385,3 +1385,41 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Dacia|Spring": 136
 , "other": 1502
 });
+
+db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Volkswagen": 2704
+, "Škoda": 1610
+, "Audi": 1251
+, "BMW": 983
+, "Mercedes-Benz": 794
+, "Ford": 782
+, "Toyota": 707
+, "Peugeot": 689
+, "Dacia": 667
+, "Kia": 577
+, "Seat": 564
+, "Renault": 552
+, "Hyundai": 494
+, "Cupra": 381
+, "Fiat": 351
+, "Volvo": 321
+, "Opel": 318
+, "Mazda": 311
+, "Suzuki": 245
+, "Citroën": 222
+, "other": 1096
+});
+
+db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Cupra|Born": 266
+, "Audi|Q4 e-tron": 156
+, "Škoda|Enyaq": 132
+, "Ford|Mustang Mach-E": 119
+, "Kia|EV6": 103
+, "Renault|Zoe": 89
+, "Volkswagen|ID.3": 88
+, "Volkswagen|ID.4": 83
+, "Audi|e-tron": 79
+, "BMW|i3 BEV": 67
+, "other": 831
+});
