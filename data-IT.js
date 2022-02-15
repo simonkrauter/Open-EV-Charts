@@ -1330,7 +1330,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5169
 });
 
-db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/08 Imm BEV modello gennaio 2022_61f95d655bfcc.pdf",
+db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/08%20Imm%20BEV%20modello%20gennaio%202022_61f95d655bfcc.pdf",
 { "Dacia|Spring": 656
 , "Fiat|500e": 548
 , "Renault|Twingo Z.E.": 298
