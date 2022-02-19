@@ -856,9 +856,7 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 1
 });
 
-db.insert(db.countries.IE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 106
-});
+// We have no reasonable number for 2021-12. https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf gives 106, which is less than the sum of EVs.
 
 db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/12",
 { "Tesla|Model 3": 87
