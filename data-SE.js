@@ -1373,6 +1373,7 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 169
 , "Peugeot|e-2008": 144
 , "Tesla|Model 3": 118
+, "Volvo|C40 Recharge pure electric": 113
 , "Hyundai|Ioniq 5": 106
 , "BMW|i3 BEV": 105
 , "Mini|Cooper SE Electric": 104
@@ -1407,7 +1408,7 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 3
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "other": 213
+, "other": 19
 });
 
 db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
@@ -1434,6 +1435,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 110
 , "Peugeot|e-2008": 107
 , "Audi|e-tron": 102
+, "Volvo|C40 Recharge pure electric": 90
 , "Hyundai|Kona Electric": 76
 , "BMW|iX": 73
 , "Cupra|Born": 66
@@ -1462,7 +1464,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 4
 , "Toyota|Proace Electric": 3
 , "Opel|Combo-e": 2
-, "other": 102
+, "other": 12
 });
 
 db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
