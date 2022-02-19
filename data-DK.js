@@ -956,3 +956,57 @@ db.insert(db.countries.DK, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 1
 , "other": 10
 });
+
+db.insert(db.countries.DK, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 9406
+});
+
+db.insert(db.countries.DK, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2022/1",
+{ "Kia|EV6": 233
+, "Audi|Q4 e-tron": 120
+, "Hyundai|Ioniq 5": 118
+, "Renault|Zoe": 99
+, "Volkswagen|e-up!": 92
+, "Volkswagen|ID.4": 89
+, "Peugeot|e-208": 89
+, "Hyundai|Kona Electric": 86
+, "Ford|Mustang Mach-E": 85
+, "Škoda|Enyaq": 76
+, "Cupra|Born": 74
+, "Polestar|2": 46
+, "Volvo|XC40 Recharge pure electric": 45
+, "Mercedes-Benz|EQA": 44
+, "Dacia|Spring": 39
+, "Kia|Niro EV": 37
+, "Volkswagen|ID.3": 29
+, "Mini|Cooper SE Electric": 25
+, "Mercedes-Benz|EQB": 25
+, "Aiways|U5": 22
+, "Peugeot|e-2008": 21
+, "Porsche|Taycan": 20
+, "Citroën|ë-C4": 18
+, "Fiat|500e": 17
+, "DS Automobiles|DS 3 Crossback E-Tense": 17
+, "Opel|Mokka-e": 12
+, "Audi|e-tron": 10
+, "MG|ZS EV": 8
+, "Opel|Corsa-e": 6
+, "Nissan|Leaf": 6
+, "Mercedes-Benz|EQC": 6
+, "Tesla|Model 3": 5
+, "Tesla|Model Y": 4
+, "Peugeot|e-Traveller": 4
+, "Mercedes-Benz|EQS": 4
+, "Toyota|Proace Electric": 3
+, "Opel|Combo-e": 3
+, "Mercedes-Benz|eVito": 3
+, "Kia|Soul EV": 3
+, "BMW|iX3": 3
+, "MG|Marvel R": 2
+, "BMW|i4": 2
+, "Audi|e-tron GT": 2
+, "Maxus|e Deliver": 1
+, "Honda|e": 1
+, "BMW|iX": 1
+, "other": 15
+});
