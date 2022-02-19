@@ -891,14 +891,10 @@ db.insert(db.countries.DK, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 5
 , "Toyota|Proace Electric": 4
 , "Mercedes-Benz|eVito": 3
+, "Xiaopeng|Xpeng P7": 2
 , "Volkswagen|e-Golf": 2
 , "Lexus|UX 300e": 2
-, "Volkswagen|e-Crafter": 1
-, "Seat|Mii Electric": 1
-, "Opel|Combo-e": 1
-, "Mercedes-Benz|EQS": 1
-, "MG|Marvel R": 1
-, "other": 21
+, "other": 24
 });
 
 db.insert(db.countries.DK, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
@@ -952,9 +948,10 @@ db.insert(db.countries.DK, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 3
 , "Nissan|e-NV200": 3
 , "Mazda|MX-30": 2
+, "Xiaopeng|Xpeng P5": 1
 , "Citroën|ë-Jumpy": 1
 , "BMW|i3 BEV": 1
-, "other": 10
+, "other": 9
 });
 
 db.insert(db.countries.DK, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
