@@ -993,6 +993,7 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 6
 , "Audi|e-tron": 6
 , "Mercedes-Benz|EQA": 3
+, "Volvo|C40 Recharge pure electric": 2
 , "Opel|Combo-e": 2
 , "Tesla|Model Y": 1
 , "Seat|Mii Electric": 1
@@ -1001,7 +1002,7 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 7
+, "other": 5
 });
 
 db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
@@ -1025,6 +1026,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 31
 , "Volkswagen|e-up!": 30
 , "Volvo|XC40 Recharge pure electric": 28
+, "Volvo|C40 Recharge pure electric": 28
 , "Volkswagen|ID.3": 27
 , "Peugeot|e-Expert": 25
 , "Kia|EV6": 23
@@ -1053,7 +1055,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 1
 , "Jaguar|I-Pace": 1
 , "Citroën|Berlingo Electric": 1
-, "other": 32
+, "other": 4
 });
 
 db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
