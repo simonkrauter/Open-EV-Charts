@@ -740,7 +740,7 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 2
 , "Peugeot|e-Expert": 1
 , "Honda|e": 1
-, "other": 1
+, "Citroën|ë-SpaceTourer": 1
 });
 
 db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
