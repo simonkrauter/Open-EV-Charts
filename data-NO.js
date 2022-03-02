@@ -2807,6 +2807,83 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 23
 });
 
+db.insert(db.countries.NO, "2022-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2022",
+{ "Audi": 766
+, "Hyundai": 629
+, "Toyota": 611
+, "BMW": 604
+, "Škoda": 549
+, "Kia": 546
+, "Mercedes-Benz": 537
+, "Volvo": 498
+, "Ford": 418
+, "Volkswagen": 407
+, "Polestar": 387
+, "Peugeot": 255
+, "Nissan": 232
+, "Hongqi": 205
+, "Suzuki": 201
+, "Porsche": 198
+, "Opel": 160
+, "Xiaopeng": 141
+, "Lexus": 108
+, "BYD": 90
+, "other": 605
+});
+
+db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2022",
+{ "Hyundai|Ioniq 5": 455
+, "BMW|iX": 425
+, "Audi|Q4 e-tron": 388
+, "Polestar|2": 386
+, "Škoda|Enyaq": 357
+, "Ford|Mustang Mach-E": 349
+, "Audi|e-tron": 339
+, "Nissan|Leaf": 215
+, "Volkswagen|ID.4": 212
+, "Mercedes-Benz|EQC": 210
+, "Hongqi|E-HS9": 204
+, "Kia|Soul EV": 193
+, "Kia|EV6": 189
+, "Volvo|C40 Recharge pure electric": 182
+, "Porsche|Taycan": 172
+, "Kia|Niro EV": 160
+, "Volvo|XC40 Recharge pure electric": 149
+, "Mercedes-Benz|EQA": 129
+, "Hyundai|Kona Electric": 124
+, "Peugeot|e-2008": 122
+, "Xiaopeng|Xpeng P7": 94
+, "Nio|ES8": 91
+, "BYD|Tang": 89
+, "Opel|Mokka-e": 82
+, "BMW|iX3": 59
+, "Lexus|UX 300e": 52
+, "MG|Marvel R": 49
+, "MG|ZS EV": 44
+, "Xiaopeng|Xpeng G3": 42
+, "Opel|Corsa-e": 41
+, "Hyundai|Ioniq Electric": 41
+, "Volkswagen|ID.3": 39
+, "Cupra|Born": 39
+, "Mazda|MX-30": 36
+, "Mercedes-Benz|EQB": 35
+, "BMW|i3 BEV": 33
+, "Peugeot|e-Traveller": 30
+, "Peugeot|e-208": 29
+, "Citroën|ë-C4": 27
+, "Mini|Cooper SE Electric": 25
+, "Maxus|e Deliver": 23
+, "Jaguar|I-Pace": 23
+, "Opel|Combo-e": 17
+, "Renault|Zoe": 15
+, "Audi|e-tron GT": 15
+, "Mercedes-Benz|EQV": 13
+, "Tesla|Model 3": 11
+, "Opel|Zafira-e": 11
+, "Mercedes-Benz|EQS": 11
+, "other": 84
+});
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
