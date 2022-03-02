@@ -1102,3 +1102,27 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "GAC|Aion Y": 6020
 , "other": 172939
 });
+
+db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1867.html TODO: numbers per brand wanted",
+{ "other": 2186000
+});
+
+db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
+{ "Wuling|Hongguang Mini EV": 26682
+, "Tesla|Model Y": 16358
+, "BYD|Dolphin": 10602
+, "BYD|Han EV": 10051
+, "Chery|QQ Ice Cream": 9984
+, "Changan|Benni EV": 9852
+, "Chery|eQ1": 9412
+, "Great Wall|Ora Good Cat EV": 9020
+, "BYD|Qin Plus EV": 7086
+, "GAC|Aion S": 7049
+, "Xiaopeng|Xpeng P7": 6707
+, "BYD|Yuan Pro": 6596
+, "Hozon|Neta V EV": 6482
+, "GAC|Aion Y": 6415
+, "Volkswagen|ID.4": 6294
+, "Leapmotor|T03": 6007
+, "other": 129583
+});
