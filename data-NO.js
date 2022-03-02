@@ -2641,15 +2641,15 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 36
 , "Lexus|UX 300e": 35
 , "Honda|e": 31
+, "Xiaopeng|Xpeng P7": 30
 , "Fiat|500e": 29
 , "Peugeot|e-Traveller": 27
 , "Mercedes-Benz|EQV": 11
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Opel|Zafira-e": 10
 , "Mercedes-Benz|EQS": 9
-, "Opel|Combo-e": 5
-, "Peugeot|e-Rifter": 4
-, "other": 138
+, "Volvo|C40 Recharge pure electric": 7
+, "other": 110
 });
 
 db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2021",
@@ -2719,6 +2719,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 32
 , "Honda|e": 26
 , "BMW|i4": 24
+, "Volvo|C40 Recharge pure electric": 23
 , "Opel|Zafira-e": 22
 , "Hongqi|E-HS9": 21
 , "Audi|e-tron GT": 21
@@ -2726,8 +2727,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 18
 , "Cupra|Born": 17
 , "Mercedes-Benz|EQV": 12
-, "Opel|Combo-e": 8
-, "other": 134
+, "other": 119
 });
 
 db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2022",
@@ -2786,7 +2786,6 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 49
 , "Xiaopeng|Xpeng G3": 45
 , "Citroën|ë-C4": 45
-, "Maxus|e Deliver": 44
 , "BMW|iX3": 44
 , "Mercedes-Benz|EQB": 41
 , "Jaguar|I-Pace": 33
@@ -2804,7 +2803,8 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 11
 , "Honda|e": 8
 , "Mercedes-Benz|EQV": 7
-, "other": 23
+, "Opel|Zafira-e": 5
+, "other": 62
 });
 
 db.insert(db.countries.NO, "2022-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2022",
@@ -2872,7 +2872,6 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 29
 , "Citroën|ë-C4": 27
 , "Mini|Cooper SE Electric": 25
-, "Maxus|e Deliver": 23
 , "Jaguar|I-Pace": 23
 , "Opel|Combo-e": 17
 , "Renault|Zoe": 15
@@ -2881,7 +2880,9 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 11
 , "Opel|Zafira-e": 11
 , "Mercedes-Benz|EQS": 11
-, "other": 84
+, "Honda|e": 10
+, "Fiat|500e": 10
+, "other": 87
 });
 
 // Template:
