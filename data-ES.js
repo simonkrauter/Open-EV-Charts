@@ -59,7 +59,6 @@ db.insert(db.countries.ES, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 2
 , "Volkswagen|e-up!": 1
 , "Citroën|E-Mehari": 1
-, "other": 14
 });
 
 db.insert(db.countries.ES, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2018/datosfebrerott.asp",
@@ -116,7 +115,6 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 5
 , "Citroën|C-Zero": 2
 , "Citroën|E-Mehari": 1
-, "other": 2
 });
 
 db.insert(db.countries.ES, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosmarzotur.asp, https://www.km77.com/mercado/espana/2018/datosmarzott.asp",
@@ -173,7 +171,6 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Citroën|E-Mehari": 3
 , "Peugeot|iOn": 2
-, "other": 2
 });
 
 db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosabriltur.asp, https://www.km77.com/mercado/espana/2018/datosabriltt.asp",
@@ -231,7 +228,6 @@ db.insert(db.countries.ES, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 6
 , "Jaguar|I-Pace": 5
 , "Volkswagen|e-up!": 2
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosmayotur.asp, https://www.km77.com/mercado/espana/2018/datosmayott.asp",
@@ -346,7 +342,6 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Jaguar|I-Pace": 2
 , "Volkswagen|e-up!": 1
-, "other": 2
 });
 
 db.insert(db.countries.ES, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosjuliotur.asp, https://www.km77.com/mercado/espana/2018/datosjuliott.asp",
@@ -404,7 +399,6 @@ db.insert(db.countries.ES, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 3
 , "Jaguar|I-Pace": 1
 , "Citroën|E-Mehari": 1
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosagostotur.asp, https://www.km77.com/mercado/espana/2018/datosagostott.asp",
@@ -522,7 +516,6 @@ db.insert(db.countries.ES, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Citroën|E-Mehari": 1
 , "Citroën|C-Zero": 1
-, "other": 3
 });
 
 db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosoctubretur.asp, https://www.km77.com/mercado/espana/2018/datosoctubrett.asp",
@@ -580,7 +573,6 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 13
 , "Tesla|Model X": 7
 , "Citroën|C-Zero": 3
-, "other": 2
 });
 
 db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2018/datosnoviembrett.asp",
@@ -696,7 +688,6 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 5
 , "Jaguar|I-Pace": 4
 , "Peugeot|iOn": 1
-, "other": 3
 });
 
 db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosenerotur.asp, https://www.km77.com/mercado/espana/2019/datosenerott.asp",
@@ -756,7 +747,6 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 3
 , "Peugeot|iOn": 2
 , "Tesla|Model 3": 1
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2019/datosfebrerott.asp",
@@ -1071,7 +1061,6 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 6
 , "Volkswagen|e-up!": 2
 , "Peugeot|iOn": 1
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosjuliotur.asp, https://www.km77.com/mercado/espana/2019/datosjuliott.asp",
@@ -1390,7 +1379,6 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2019/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2019/datosdiciembrett.asp",
@@ -1522,7 +1510,6 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 5
 , "Jaguar|I-Pace": 4
 , "Peugeot|iOn": 3
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2020/datosfebrerott.asp",
@@ -1594,7 +1581,6 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 7
 , "Peugeot|iOn": 6
 , "Tesla|Model S": 5
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosmarzotur.asp, https://www.km77.com/mercado/espana/2020/datosmarzott.asp",
@@ -2078,7 +2064,6 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 6
 , "Citroën|ë-C4": 4
 , "Cupra|Born": 1
-, "other": 1
 });
 
 db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosoctubretur.asp, https://www.km77.com/mercado/espana/2020/datosoctubrett.asp",
@@ -2231,7 +2216,6 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 4
 , "Fiat|500e": 2
 , "Renault|Twingo Z.E.": 1
-, "other": 11
 });
 
 db.insert(db.countries.ES, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2020/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2020/datosdiciembrett.asp",
@@ -2308,7 +2292,6 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 13
 , "Peugeot|e-Traveller": 8
 , "Citroën|ë-SpaceTourer": 1
-, "other": 20
 });
 
 db.insert(db.countries.ES, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosenerotur.asp, https://www.km77.com/mercado/espana/2021/datosenerott.asp",
@@ -2383,7 +2366,6 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 2
 , "Honda|e": 2
 , "Peugeot|e-Traveller": 1
-, "other": 6
 });
 
 db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2021/datosfebrerott.asp",
@@ -2464,7 +2446,6 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Tesla|Model S": 1
 , "Peugeot|e-Traveller": 1
-, "other": 6
 });
 
 db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosmarzotur.asp, https://www.km77.com/mercado/espana/2021/datosmarzott.asp",
@@ -2550,7 +2531,6 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 1
 , "Dacia|Spring": 1
 , "Cupra|Born": 1
-, "other": 12
 });
 
 db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosabriltur.asp, https://www.km77.com/mercado/espana/2021/datosabriltt.asp",
@@ -2636,7 +2616,6 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Mazda|MX-30": 1
 , "Cupra|Born": 1
-, "other": 21
 });
 
 db.insert(db.countries.ES, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosmayotur.asp, https://www.km77.com/mercado/espana/2021/datosmayott.asp",
@@ -2723,7 +2702,6 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 2
 , "Audi|e-tron GT": 2
 , "Cupra|Born": 1
-, "other": 14
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuniotur.asp, https://www.km77.com/mercado/espana/2021/datosjuniott.asp",
@@ -2809,7 +2787,6 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Volvo|XC40 Recharge pure electric": 1
 , "Peugeot|e-Traveller": 1
-, "other": 23
 });
 
 db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuliotur.asp, https://www.km77.com/mercado/espana/2021/datosjuliott.asp",
@@ -2899,7 +2876,6 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 2
 , "Škoda|Citigo-e": 1
 , "Tesla|Model 3": 1
-, "other": 32
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosagostotur.asp, https://www.km77.com/mercado/espana/2021/datosagostott.asp",
@@ -2991,7 +2967,6 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Combo-e": 1
 , "Lexus|UX 300e": 1
 , "Citroën|ë-SpaceTourer": 1
-, "other": 21
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2021/datosseptiembrett.asp",
@@ -3085,7 +3060,7 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 3
 , "Volkswagen|e-Golf": 2
 , "Peugeot|e-Rifter": 2
-, "other": 13
+, "other": 3
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosoctubretur.asp, https://www.km77.com/mercado/espana/2021/datosoctubrett.asp",
@@ -3181,7 +3156,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 3
 , "Tesla|Model S": 2
 , "Honda|e": 2
-, "other": 21
+, "other": 3
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2021/datosnoviembrett.asp",
@@ -3276,7 +3251,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 3
 , "Citroën|ë-SpaceTourer": 3
 , "Kia|Soul EV": 2
-, "other": 23
+, "other": 2
 });
 
 db.insert(db.countries.ES, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2021/datosdiciembrett.asp",
@@ -3369,7 +3344,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 3
 , "MG|Marvel R": 3
 , "Audi|e-tron GT": 3
-, "other": 45
+, "other": 11
 });
 
 db.insert(db.countries.ES, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosenerotur.asp, https://www.km77.com/mercado/espana/2022/datosenerott.asp",
