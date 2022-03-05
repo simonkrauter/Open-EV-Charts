@@ -1449,6 +1449,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-up!": 48
 , "BMW|iX3": 48
 , "MG|ZS EV": 47
+, "Toyota|Proace Electric": 43
 , "Kia|EV6": 43
 , "BMW|iX": 39
 , "DS Automobiles|DS 3 Crossback E-Tense": 33
@@ -1460,6 +1461,8 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 19
 , "Cupra|Born": 16
 , "Mercedes-Benz|EQC": 15
+, "Citroën|Berlingo Electric": 15
 , "Peugeot|e-Rifter": 11
 , "Jaguar|I-Pace": 11
+, "other": 54
 });
