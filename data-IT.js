@@ -1330,7 +1330,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5169
 });
 
-db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/08%20Imm%20BEV%20modello%20gennaio%202022_61f95d655bfcc.pdf",
+db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/1",
 { "Dacia|Spring": 656
 , "Fiat|500e": 548
 , "Renault|Twingo Z.E.": 298
@@ -1371,7 +1371,6 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mazda|MX-30": 12
 , "Kia|Soul EV": 12
 , "Tesla|Model Y": 11
-, "other": 56
 });
 
 db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20Febbraio%202022_621e27a7f3bbf.pdf",
@@ -1415,54 +1414,53 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 5800
 });
 
-db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/08%20Imm%20BEV%20modello%20febbraio%202022_621e383971ffa.pdf",
-{ "Fiat|500e": 1057
-, "Dacia|Spring": 717
-, "Smart|Fortwo ED": 527
-, "Renault|Twingo Z.E.": 386
-, "Renault|Zoe": 373
-, "Peugeot|e-208": 271
-, "Volkswagen|ID.3": 265
-, "Peugeot|e-2008": 256
-, "Tesla|Model Y": 234
-, "Audi|Q4 e-tron": 172
-, "Hyundai|Kona Electric": 166
-, "Mini|Cooper SE Electric": 147
-, "Volkswagen|ID.4": 146
-, "Ford|Mustang Mach-E": 126
-, "Nissan|Leaf": 125
-, "Opel|Corsa-e": 119
-, "Porsche|Taycan": 116
-, "Hyundai|Ioniq 5": 110
+db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/2",
+{ "Fiat|500e": 509
+, "Smart|Fortwo ED": 297
+, "Tesla|Model Y": 223
+, "Volkswagen|ID.3": 152
+, "Renault|Zoe": 145
+, "Audi|Q4 e-tron": 112
 , "BMW|i4": 107
-, "Opel|Mokka-e": 106
-, "BMW|i3 BEV": 98
-, "Mercedes-Benz|EQA": 93
-, "Citroën|ë-C4": 85
-, "Tesla|Model 3": 77
-, "Kia|Niro EV": 74
-, "Volvo|XC40 Recharge pure electric": 68
-, "Škoda|Enyaq": 67
-, "Volvo|C40 Recharge pure electric": 67
-, "Smart|Forfour ED": 61
-, "Audi|e-tron": 55
-, "Volkswagen|e-up!": 48
-, "BMW|iX3": 48
-, "MG|ZS EV": 47
+, "Hyundai|Kona Electric": 101
+, "Peugeot|e-2008": 97
+, "Nissan|Leaf": 96
+, "Volkswagen|ID.4": 94
+, "Peugeot|e-208": 93
+, "Renault|Twingo Z.E.": 88
+, "Mini|Cooper SE Electric": 80
+, "Mercedes-Benz|EQA": 62
+, "Dacia|Spring": 61
+, "Opel|Mokka-e": 58
+, "Hyundai|Ioniq 5": 58
+, "Tesla|Model 3": 56
+, "Ford|Mustang Mach-E": 55
+, "Citroën|ë-C4": 54
+, "BMW|i3 BEV": 53
+, "Porsche|Taycan": 51
 , "Toyota|Proace Electric": 43
-, "Kia|EV6": 43
-, "BMW|iX": 39
-, "DS Automobiles|DS 3 Crossback E-Tense": 33
-, "Mazda|MX-30": 27
-, "MG|Marvel R": 27
-, "Audi|e-tron GT": 24
+, "Volvo|XC40 Recharge pure electric": 40
+, "Opel|Corsa-e": 36
+, "Škoda|Enyaq": 34
+, "Kia|Niro EV": 30
+, "Volvo|C40 Recharge pure electric": 26
+, "Smart|Forfour ED": 25
+, "Audi|e-tron": 23
 , "Mercedes-Benz|EQB": 22
-, "Lexus|UX 300e": 20
-, "Kia|Soul EV": 19
+, "MG|ZS EV": 18
+, "BMW|iX3": 17
+, "Volkswagen|e-up!": 16
 , "Cupra|Born": 16
+, "BMW|iX": 16
 , "Mercedes-Benz|EQC": 15
+, "Mazda|MX-30": 15
 , "Citroën|Berlingo Electric": 15
+, "MG|Marvel R": 13
+, "Kia|EV6": 13
 , "Peugeot|e-Rifter": 11
 , "Jaguar|I-Pace": 11
-, "other": 54
+, "Audi|e-tron GT": 10
+, "Kia|Soul EV": 7
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Lexus|UX 300e": 1
 });
