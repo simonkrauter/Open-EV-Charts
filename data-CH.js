@@ -3690,3 +3690,100 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 7
 , "other": 68
 });
+
+db.insert(db.countries.CH, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/03/ModellePW2022.xlsx",
+{ "Škoda": 1954
+, "Volkswagen": 1719
+, "Mercedes-Benz": 1453
+, "BMW": 1361
+, "Audi": 1247
+, "Toyota": 1039
+, "Peugeot": 707
+, "Hyundai": 707
+, "Seat": 619
+, "Ford": 573
+, "Volvo": 528
+, "Mazda": 476
+, "Renault": 464
+, "Citroën": 418
+, "Opel": 396
+, "Tesla": 374
+, "Kia": 363
+, "Mini": 362
+, "Dacia": 322
+, "Porsche": 310
+, "Honda": 239
+, "Suzuki": 234
+, "Fiat": 211
+, "Mitsubishi": 151
+, "Subaru": 144
+, "Jeep": 122
+, "Land Rover": 88
+, "DS Automobiles": 81
+, "Nissan": 68
+, "Polestar": 64
+, "Lexus": 60
+, "Jaguar": 56
+, "Alfa Romeo": 46
+, "Maserati": 22
+, "Genesis": 20
+, "Smart": 18
+, "SsangYong": 4
+, "Aiways": 3
+, "Dodge": 1
+, "Cadillac": 1
+, "other": 85
+});
+
+db.insert(db.countries.CH, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/2",
+{ "Tesla|Model Y": 246
+, "Audi|Q4 e-tron": 169
+, "Hyundai|Ioniq 5": 159
+, "Škoda|Enyaq": 158
+, "Tesla|Model 3": 128
+, "BMW|i3 BEV": 92
+, "Hyundai|Kona Electric": 87
+, "Fiat|500e": 86
+, "Peugeot|e-208": 83
+, "Mercedes-Benz|EQB": 72
+, "Volkswagen|ID.4": 66
+, "Volvo|XC40 Recharge pure electric": 64
+, "Polestar|2": 64
+, "Volkswagen|ID.3": 59
+, "Porsche|Taycan": 58
+, "Renault|Zoe": 56
+, "Mercedes-Benz|EQA": 55
+, "Citroën|ë-C4": 51
+, "Volvo|C40 Recharge pure electric": 48
+, "Mini|Cooper SE Electric": 46
+, "Audi|e-tron": 46
+, "Ford|Mustang Mach-E": 41
+, "Renault|Twingo Z.E.": 37
+, "Peugeot|e-2008": 36
+, "Cupra|Born": 33
+, "Dacia|Spring": 32
+, "Opel|Corsa-e": 28
+, "Kia|EV6": 28
+, "Audi|e-tron GT": 27
+, "BMW|iX": 24
+, "Toyota|Proace Electric": 22
+, "Opel|Mokka-e": 22
+, "Citroën|Berlingo Electric": 22
+, "BMW|iX3": 20
+, "Mercedes-Benz|EQC": 18
+, "Citroën|ë-Jumpy": 18
+, "Mercedes-Benz|EQS": 17
+, "Kia|Niro EV": 16
+, "DS Automobiles|DS 3 Crossback E-Tense": 16
+, "Smart|Fortwo ED": 14
+, "Opel|Vivaro-e": 14
+, "Jaguar|I-Pace": 13
+, "Peugeot|e-Expert": 12
+, "Honda|e": 12
+, "Nissan|e-NV200": 11
+, "Mercedes-Benz|EQV": 10
+, "Volkswagen|e-up!": 9
+, "Peugeot|Partner Electric": 9
+, "Škoda|Citigo-e": 8
+, "other": 71
+});
