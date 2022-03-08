@@ -3668,6 +3668,7 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 26
 , "BMW|i3 BEV": 26
 , "Toyota|Proace Electric": 24
+, "Peugeot|Partner Electric": 23
 , "Renault|Twingo Z.E.": 22
 , "Renault|Kangoo Z.E.": 22
 , "Peugeot|e-Rifter": 21
@@ -3687,8 +3688,5 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 8
 , "Nissan|e-NV200": 7
 , "Honda|e": 7
-, "Opel|Zafira-e": 6
-, "Mercedes-Benz|eVito": 6
-, "Mercedes-Benz|EQS": 6
-, "other": 73
+, "other": 68
 });
