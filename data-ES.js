@@ -3436,7 +3436,7 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 3
 , "Kia|Soul EV": 2
 , "Honda|e": 2
-, "other": 18
+, "other": 6
 });
 
 db.insert(db.countries.ES, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2022/datosfebrerott.asp",
