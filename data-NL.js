@@ -3509,10 +3509,10 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 180
 , "Hyundai|Kona Electric": 161
 , "Peugeot|e-2008": 138
-, "Porsche|Taycan": 132
+, "Porsche|Taycan": 133
 , "Kia|EV6": 109
 , "Citroën|ë-C4": 106
-, "Škoda|Enyaq": 97
+, "Škoda|Enyaq": 98
 , "Fiat|500e": 97
 , "Renault|Twingo Z.E.": 94
 , "BMW|iX3": 90
@@ -3522,13 +3522,13 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 68
 , "Hyundai|Ioniq 5": 68
 , "Mercedes-Benz|EQA": 58
+, "Audi|Q4 e-tron": 57
 , "Renault|Zoe": 55
 , "Nissan|Leaf": 54
-, "Audi|Q4 e-tron": 53
 , "Ford|Mustang Mach-E": 52
 , "BMW|iX": 50
 , "BMW|i3 BEV": 34
-, "Audi|e-tron": 30
+, "Audi|e-tron": 31
 , "Volvo|C40 Recharge pure electric": 26
 , "Audi|e-tron GT": 23
 , "Mercedes-Benz|eVito": 21
@@ -3551,5 +3551,6 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 4
 , "Mercedes-Benz|EQC": 3
 , "Peugeot|e-Rifter": 2
-, "other": 13
+, "Citroën|Berlingo Electric": 2
+, "other": 12
 });
