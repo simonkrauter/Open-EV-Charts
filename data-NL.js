@@ -3554,3 +3554,97 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 2
 , "other": 12
 });
+
+db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/februari/",
+{ "Kia": 2500
+, "Toyota": 1958
+, "Peugeot": 1717
+, "BMW": 1571
+, "Hyundai": 1480
+, "Volkswagen": 1288
+, "Škoda": 1215
+, "Volvo": 1176
+, "Renault": 1144
+, "Ford": 1124
+, "Mercedes-Benz": 1000
+, "Opel": 904
+, "Audi": 803
+, "Citroën": 736
+, "Mazda": 506
+, "Nissan": 502
+, "Mini": 464
+, "Suzuki": 422
+, "Fiat": 325
+, "Seat": 232
+, "Porsche": 204
+, "Dacia": 204
+, "Mitsubishi": 122
+, "Polestar": 113
+, "Honda": 112
+, "Land Rover": 100
+, "Tesla": 83
+, "MG": 77
+, "Jeep": 64
+, "DS Automobiles": 49
+, "Lexus": 48
+, "Alfa Romeo": 24
+, "Smart": 18
+, "Jaguar": 16
+, "Cupra": 8
+, "Subaru": 1
+, "Maserati": 1
+, "other": 549
+});
+
+db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/2",
+{ "Kia|Niro EV": 301
+, "Audi|Q4 e-tron": 252
+, "Škoda|Enyaq": 228
+, "Volkswagen|ID.4": 212
+, "Peugeot|e-208": 188
+, "Volkswagen|ID.3": 177
+, "Kia|EV6": 160
+, "Volvo|XC40 Recharge pure electric": 142
+, "Citroën|ë-C4": 131
+, "Hyundai|Ioniq 5": 126
+, "Mini|Cooper SE Electric": 121
+, "Fiat|500e": 119
+, "Polestar|2": 113
+, "Hyundai|Kona Electric": 108
+, "BMW|i3 BEV": 96
+, "Peugeot|e-2008": 86
+, "Mercedes-Benz|EQA": 76
+, "BMW|iX3": 74
+, "Opel|Corsa-e": 66
+, "Tesla|Model Y": 61
+, "Ford|Mustang Mach-E": 58
+, "MG|ZS EV": 55
+, "Renault|Zoe": 54
+, "Renault|Twingo Z.E.": 52
+, "Nissan|Leaf": 51
+, "Porsche|Taycan": 48
+, "Volvo|C40 Recharge pure electric": 44
+, "Opel|Mokka-e": 42
+, "Mercedes-Benz|EQS": 41
+, "BMW|iX": 41
+, "Mercedes-Benz|EQB": 31
+, "Audi|e-tron": 20
+, "Mercedes-Benz|EQV": 19
+, "Toyota|Proace Electric": 18
+, "Tesla|Model 3": 17
+, "MG|Marvel R": 16
+, "Kia|Soul EV": 15
+, "Smart|Forfour ED": 13
+, "DS Automobiles|DS 3 Crossback E-Tense": 12
+, "BMW|i4": 10
+, "Audi|e-tron GT": 10
+, "Mercedes-Benz|eVito": 7
+, "Mercedes-Benz|EQC": 7
+, "Opel|Vivaro-e": 6
+, "Dacia|Spring": 6
+, "Smart|Fortwo ED": 5
+, "Opel|Combo-e": 5
+, "Hyundai|Ioniq Electric": 3
+, "Citroën|Berlingo Electric": 3
+, "other": 16
+});
