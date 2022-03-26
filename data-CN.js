@@ -1126,3 +1126,27 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|T03": 6007
 , "other": 129583
 });
+
+db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1868.html TODO: numbers per brand wanted",
+{ "other": 1487000
+});
+
+db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
+{ "Wuling|Hongguang Mini EV": 26116
+, "Tesla|Model Y": 18593
+, "BYD|Han EV": 8942
+, "BYD|Dolphin": 8565
+, "BYD|Qin Plus EV": 8264
+, "Chery|QQ Ice Cream": 6442
+, "Changan|Benni EV": 5560
+, "Tesla|Model 3": 4607
+, "BYD|Yuan Plus": 4517
+, "BYD|Yuan Pro": 4436
+, "Hozon|Neta V EV": 4073
+, "Great Wall|Ora Good Cat EV": 4066
+, "Chery|eQ1": 3735
+, "Volkswagen|ID.4": 3731
+, "BYD|Song Pro EV": 3699
+, "Xiaopeng|Xpeng P7": 3537
+, "other": 104167
+});
