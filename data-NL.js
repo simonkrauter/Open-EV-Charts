@@ -3647,4 +3647,96 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "Citroën|Berlingo Electric": 3
 , "other": 16
+db.insert(db.countries.NL, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/maart/",
+{ "Kia": 2474
+, "BMW": 1712
+, "Peugeot": 1635
+, "Volkswagen": 1623
+, "Toyota": 1531
+, "Volvo": 1502
+, "Škoda": 1381
+, "Audi": 1282
+, "Hyundai": 1229
+, "Mercedes-Benz": 1216
+, "Nissan": 1048
+, "Ford": 1023
+, "Renault": 941
+, "Fiat": 743
+, "Opel": 669
+, "Mini": 658
+, "Citroën": 550
+, "Suzuki": 534
+, "Tesla": 468
+, "Mazda": 400
+, "Seat": 305
+, "Porsche": 247
+, "Dacia": 237
+, "Polestar": 180
+, "Mitsubishi": 146
+, "MG": 141
+, "Land Rover": 132
+, "Honda": 127
+, "DS Automobiles": 85
+, "Cupra": 77
+, "Jeep": 63
+, "Lexus": 30
+, "Smart": 15
+, "Jaguar": 15
+, "Alfa Romeo": 11
+, "Subaru": 7
+, "Maserati": 3
+, "other": 519
+});
+
+db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/3",
+{ "Škoda|Enyaq": 484
+, "Audi|Q4 e-tron": 415
+, "Fiat|500e": 389
+, "Kia|Niro EV": 295
+, "Tesla|Model Y": 275
+, "Kia|EV6": 266
+, "Volvo|XC40 Recharge pure electric": 207
+, "Volkswagen|ID.4": 203
+, "Tesla|Model 3": 197
+, "BMW|iX3": 190
+, "Polestar|2": 180
+, "Peugeot|e-208": 180
+, "Mini|Cooper SE Electric": 180
+, "Volkswagen|ID.3": 179
+, "Nissan|Leaf": 173
+, "Peugeot|e-2008": 170
+, "Hyundai|Ioniq 5": 148
+, "Hyundai|Kona Electric": 124
+, "MG|ZS EV": 120
+, "BMW|i4": 102
+, "BMW|iX": 97
+, "Renault|Zoe": 91
+, "Citroën|ë-Jumpy": 87
+, "Opel|Corsa-e": 85
+, "Citroën|ë-C4": 73
+, "Renault|Twingo Z.E.": 69
+, "Cupra|Born": 67
+, "Porsche|Taycan": 63
+, "Audi|e-tron": 63
+, "Ford|Mustang Mach-E": 62
+, "Volvo|C40 Recharge pure electric": 61
+, "Opel|Mokka-e": 57
+, "Mercedes-Benz|EQS": 46
+, "BMW|i3 BEV": 40
+, "Mercedes-Benz|EQB": 33
+, "Mercedes-Benz|EQA": 32
+, "Mercedes-Benz|EQV": 24
+, "Audi|e-tron GT": 17
+, "Dacia|Spring": 15
+, "Mercedes-Benz|eVito": 14
+, "Mercedes-Benz|EQC": 12
+, "Kia|Soul EV": 11
+, "Smart|Fortwo ED": 9
+, "Renault|Megane E-Tech": 8
+, "MG|MG5 EV": 8
+, "MG|Marvel R": 7
+, "Smart|Forfour ED": 6
+, "Opel|Combo-e": 6
+, "DS Automobiles|DS 3 Crossback E-Tense": 6
+, "other": 21
 });
