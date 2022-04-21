@@ -1575,9 +1575,10 @@ db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 13
 , "Cupra|Born": 12
 , "Citroën|ë-Jumpy": 11
+, "BMW|i4": 11
 , "Mercedes-Benz|EQS": 10
 , "Mazda|MX-30": 8
 , "Peugeot|Partner Electric": 5
 , "Opel|Vivaro-e": 4
-, "other": 30
+, "other": 19
 });
