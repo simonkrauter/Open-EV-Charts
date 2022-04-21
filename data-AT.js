@@ -1461,3 +1461,41 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Ford|Mustang Mach-E": 63
 , "other": 858
 });
+
+db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Volkswagen": 2570
+, "Škoda": 1549
+, "BMW": 1494
+, "Audi": 1289
+, "Mercedes-Benz": 1241
+, "Ford": 1049
+, "Seat": 1005
+, "Renault": 972
+, "Mazda": 971
+, "Tesla": 970
+, "Kia": 865
+, "Toyota": 843
+, "Hyundai": 813
+, "Peugeot": 719
+, "Opel": 701
+, "Dacia": 521
+, "Cupra": 432
+, "Citroën": 396
+, "Fiat": 333
+, "Suzuki": 317
+, "other": 1603
+});
+
+db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Tesla|Model Y": 655
+, "Tesla|Model 3": 315
+, "Škoda|Enyaq": 175
+, "Cupra|Born": 146
+, "BMW|i3 BEV": 145
+, "Audi|Q4 e-tron": 113
+, "Ford|Mustang Mach-E": 112
+, "Kia|EV6": 89
+, "Audi|e-tron": 81
+, "Kia|Niro EV": 80
+, "other": 1128
+});
