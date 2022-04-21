@@ -2885,6 +2885,85 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 87
 });
 
+db.insert(db.countries.NO, "2022-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2022",
+{ "Tesla": 5002
+, "Volkswagen": 1498
+, "Audi": 1069
+, "Hyundai": 965
+, "BMW": 956
+, "Mercedes-Benz": 829
+, "Volvo": 806
+, "Polestar": 549
+, "Kia": 522
+, "Toyota": 458
+, "Ford": 385
+, "Nissan": 366
+, "Peugeot": 347
+, "Škoda": 330
+, "Suzuki": 301
+, "Hongqi": 204
+, "Porsche": 193
+, "Citroën": 187
+, "Opel": 175
+, "Lexus": 130
+, "other": 966
+});
+
+db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2022",
+{ "Tesla|Model Y": 3303
+, "Tesla|Model 3": 1694
+, "Volkswagen|ID.4": 1104
+, "Audi|Q4 e-tron": 658
+, "Hyundai|Ioniq 5": 590
+, "BMW|iX": 554
+, "Polestar|2": 544
+, "Audi|e-tron": 354
+, "Volvo|XC40 Recharge pure electric": 350
+, "Nissan|Leaf": 327
+, "Ford|Mustang Mach-E": 311
+, "Hyundai|Kona Electric": 274
+, "Kia|Niro EV": 242
+, "Mercedes-Benz|EQA": 238
+, "Mercedes-Benz|EQC": 203
+, "Hongqi|E-HS9": 199
+, "Volvo|C40 Recharge pure electric": 177
+, "Kia|Soul EV": 176
+, "Peugeot|e-2008": 175
+, "Škoda|Enyaq": 173
+, "Citroën|ë-C4": 158
+, "Volkswagen|ID.3": 156
+, "Porsche|Taycan": 156
+, "BMW|i4": 131
+, "Opel|Mokka-e": 122
+, "Mercedes-Benz|EQB": 111
+, "BYD|Tang": 104
+, "Nio|ES8": 99
+, "MG|ZS EV": 90
+, "Peugeot|e-208": 80
+, "Mercedes-Benz|EQS": 78
+, "BMW|i3 BEV": 78
+, "Kia|EV6": 77
+, "Hyundai|Ioniq Electric": 75
+, "Lexus|UX 300e": 71
+, "MG|Marvel R": 67
+, "Xiaopeng|Xpeng G3": 57
+, "Mazda|MX-30": 54
+, "Cupra|Born": 50
+, "BMW|iX3": 48
+, "Mini|Cooper SE Electric": 36
+, "Renault|Zoe": 30
+, "Opel|Corsa-e": 27
+, "Opel|Combo-e": 27
+, "Jaguar|I-Pace": 25
+, "Fiat|500e": 20
+, "Peugeot|e-Rifter": 18
+, "Mercedes-Benz|EQV": 18
+, "Audi|e-tron GT": 15
+, "DS Automobiles|DS 3 Crossback E-Tense": 14
+, "other": 245
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
@@ -2912,5 +2991,6 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Porsche":
 // , "Hongqi":
 // , "BYD":
+// , "Lexus":
 // , "other":
 // });
