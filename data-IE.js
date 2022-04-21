@@ -953,7 +953,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 6
 , "Mazda|MX-30": 6
 , "BMW|iX3": 6
-, "Tesla|Model X": 4
+, "Tesla|Model Y": 4
 , "Porsche|Taycan": 4
 , "Peugeot|e-Expert": 4
 , "Mercedes-Benz|EQS": 4
