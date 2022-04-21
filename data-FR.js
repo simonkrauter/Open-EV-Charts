@@ -3569,7 +3569,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 747
 });
 
-db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2022/02/barometre-avere-colombus-fevrier-20223.pdf",
+db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/1",
 { "Dacia|Spring": 1494
 , "Renault|Zoe": 1362
 , "Peugeot|e-208": 1183
@@ -3580,5 +3580,46 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 392
 , "Kia|EV6": 351
 , "Mini|Cooper SE Electric": 333
-, "other": 2671
+, "Citroën|ë-C4": 235
+, "Nissan|Leaf": 206
+, "Hyundai|Ioniq 5": 202
+, "Volkswagen|ID.3": 186
+, "Opel|Mokka-e": 161
+, "Audi|Q4 e-tron": 133
+, "Škoda|Enyaq": 113
+, "Volkswagen|e-up!": 89
+, "Smart|Fortwo ED": 87
+, "BMW|i3 BEV": 85
+, "Mazda|MX-30": 76
+, "Opel|Corsa-e": 73
+, "Cupra|Born": 62
+, "Porsche|Taycan": 54
+, "Mercedes-Benz|EQA": 53
+, "Volkswagen|ID.4": 49
+, "Kia|Soul EV": 39
+, "Ford|Mustang Mach-E": 39
+, "Audi|e-tron GT": 39
+, "Peugeot|e-Rifter": 38
+, "Tesla|Model 3": 37
+, "Renault|Megane E-Tech": 36
+, "Audi|e-tron": 35
+, "Lexus|UX 300e": 33
+, "Volvo|C40 Recharge pure electric": 31
+, "Volvo|XC40 Recharge pure electric": 22
+, "Citroën|ë-Jumpy": 18
+, "Hyundai|Ioniq Electric": 17
+, "Honda|e": 16
+, "BMW|iX3": 16
+, "BMW|iX": 16
+, "Opel|Combo-e": 13
+, "Mercedes-Benz|EQC": 13
+, "Aiways|U5": 13
+, "Peugeot|e-Expert": 12
+, "Mercedes-Benz|EQV": 12
+, "Tesla|Model Y": 11
+, "Smart|Forfour ED": 10
+, "Opel|Zafira-e": 8
+, "Mercedes-Benz|EQS": 3
+, "other": 280
+});
 });
