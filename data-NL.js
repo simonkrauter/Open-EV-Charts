@@ -3597,8 +3597,8 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/2",
-{ "Kia|Niro EV": 301
-, "Audi|Q4 e-tron": 252
+{ "Kia|Niro EV": 302
+, "Audi|Q4 e-tron": 254
 , "Škoda|Enyaq": 228
 , "Volkswagen|ID.4": 212
 , "Peugeot|e-208": 188
@@ -3638,15 +3638,17 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "BMW|i4": 10
 , "Audi|e-tron GT": 10
+, "Dacia|Spring": 8
 , "Mercedes-Benz|eVito": 7
 , "Mercedes-Benz|EQC": 7
 , "Opel|Vivaro-e": 6
-, "Dacia|Spring": 6
 , "Smart|Fortwo ED": 5
 , "Opel|Combo-e": 5
 , "Hyundai|Ioniq Electric": 3
 , "Citroën|Berlingo Electric": 3
-, "other": 16
+, "other": 17
+});
+
 db.insert(db.countries.NL, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/maart/",
 { "Kia": 2474
 , "BMW": 1712
