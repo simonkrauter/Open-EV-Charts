@@ -2963,6 +2963,84 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 245
 });
 
+db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2022",
+{ "Volvo": 1007
+, "Volkswagen": 830
+, "BMW": 800
+, "Toyota": 773
+, "Hyundai": 632
+, "Kia": 589
+, "Škoda": 584
+, "Audi": 549
+, "Mercedes-Benz": 483
+, "Ford": 452
+, "Polestar": 332
+, "Suzuki": 292
+, "Peugeot": 273
+, "Opel": 250
+, "Nissan": 235
+, "MG": 220
+, "Citroën": 170
+, "Hongqi": 155
+, "Porsche": 128
+, "Tesla":  83
+, "other": 888
+});
+
+db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/4 (includes commercial vehicles)",
+{ "Volvo|XC40 Recharge pure electric": 560
+, "Škoda|Enyaq": 474
+, "Volkswagen|ID.4": 429
+, "BMW|iX": 333
+, "Polestar|2": 327
+, "Ford|Mustang Mach-E": 301
+, "Audi|e-tron": 298
+, "Hyundai|Ioniq 5": 288
+, "Kia|Niro EV": 245
+, "Hyundai|Kona Electric": 220
+, "Nissan|Leaf": 211
+, "Audi|Q4 e-tron": 189
+, "Opel|Mokka-e": 178
+, "Kia|Soul EV": 157
+, "Volvo|C40 Recharge pure electric": 156
+, "Kia|EV6": 143
+, "Citroën|ë-C4": 143
+, "Hongqi|E-HS9": 142
+, "Xiaopeng|Xpeng G3": 126
+, "Mercedes-Benz|EQC": 124
+, "BMW|i4": 115
+, "Peugeot|e-2008": 108
+, "MG|ZS EV": 108
+, "BMW|iX3": 106
+, "BMW|i3 BEV": 106
+, "Mercedes-Benz|EQS": 100
+, "BYD|Tang": 100
+, "Peugeot|e-208": 95
+, "Nio|ES8": 82
+, "Porsche|Taycan": 80
+, "Mercedes-Benz|EQA": 66
+, "MG|Marvel R": 66
+, "Hyundai|Ioniq Electric": 64
+, "Fiat|500e": 57
+, "Volkswagen|ID.3": 56
+, "Mercedes-Benz|EQB": 53
+, "Mazda|MX-30": 53
+, "Tesla|Model Y": 45
+, "MG|MG5 EV": 44
+, "Renault|Zoe": 41
+, "Tesla|Model 3": 38
+, "Opel|Corsa-e": 36
+, "Lexus|UX 300e": 35
+, "Opel|Combo-e": 28
+, "Jaguar|I-Pace": 27
+, "Mini|Cooper SE Electric": 23
+, "Volkswagen|e-up!": 18
+, "Xiaopeng|Xpeng P7": 15
+, "Opel|Zafira-e": 15
+, "Honda|e": 15
+, "other": 368
+});
+
 
 // Template:
 
