@@ -3711,7 +3711,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 124
 , "MG|ZS EV": 120
 , "BMW|i4": 102
-, "BMW|iX": 97
+, "BMW|iX": 98
 , "Renault|Zoe": 91
 , "Citroën|ë-Jumpy": 87
 , "Opel|Corsa-e": 85
