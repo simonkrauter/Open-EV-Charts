@@ -3742,3 +3742,98 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "other": 21
 });
+
+db.insert(db.countries.NL, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/april/",
+{ "Kia": 2430
+, "Toyota": 1655
+, "Volkswagen": 1512
+, "Škoda": 1498
+, "Peugeot": 1407
+, "Hyundai": 1249
+, "Volvo": 1186
+, "BMW": 1115
+, "Ford": 1110
+, "Mercedes-Benz": 1033
+, "Audi": 817
+, "Renault": 751
+, "Citroën": 705
+, "Opel": 537
+, "Suzuki": 455
+, "Nissan": 427
+, "Seat": 386
+, "Fiat": 379
+, "Mazda": 345
+, "Mini": 281
+, "Dacia": 253
+, "Cupra": 228
+, "MG": 213
+, "Polestar": 211
+, "Mitsubishi": 193
+, "Porsche": 168
+, "Land Rover": 141
+, "Honda": 116
+, "DS Automobiles": 49
+, "Jeep": 43
+, "Tesla": 28
+, "Smart": 28
+, "Lexus": 28
+, "Jaguar": 28
+, "Alfa Romeo": 10
+, "Subaru": 4
+, "SsangYong": 2
+, "other": 1066
+});
+
+db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/4",
+{ "Škoda|Enyaq": 868
+, "Kia|EV6": 345
+, "Peugeot|e-208": 324
+, "Kia|Niro EV": 260
+, "Polestar|2": 210
+, "Fiat|500e": 188
+, "Cupra|Born": 188
+, "Volkswagen|ID.4": 176
+, "Volvo|XC40 Recharge pure electric": 172
+, "Audi|Q4 e-tron": 171
+, "Hyundai|Ioniq 5": 119
+, "BMW|iX3": 112
+, "MG|MG5 EV": 111
+, "Citroën|ë-C4": 105
+, "Ford|Mustang Mach-E": 91
+, "Hyundai|Kona Electric": 78
+, "Volkswagen|ID.3": 75
+, "Renault|Zoe": 70
+, "Dacia|Spring": 70
+, "Audi|e-tron": 65
+, "Mercedes-Benz|EQA": 64
+, "BMW|iX": 64
+, "BMW|i4": 64
+, "Peugeot|e-2008": 63
+, "MG|ZS EV": 56
+, "Citroën|ë-Jumpy": 56
+, "Volvo|C40 Recharge pure electric": 47
+, "Opel|Corsa-e": 46
+, "Mini|Cooper SE Electric": 41
+, "Renault|Twingo Z.E.": 40
+, "Mercedes-Benz|EQS": 39
+, "MG|Marvel R": 39
+, "Porsche|Taycan": 33
+, "Mercedes-Benz|EQB": 33
+, "Mercedes-Benz|EQE": 23
+, "BMW|i3 BEV": 23
+, "Nissan|Leaf": 21
+, "Smart|Forfour ED": 20
+, "Tesla|Model Y": 19
+, "Kia|Soul EV": 17
+, "Volkswagen|ID.5": 13
+, "Opel|Mokka-e": 12
+, "Audi|e-tron GT": 11
+, "Mercedes-Benz|EQV": 10
+, "Opel|Vivaro-e": 9
+, "Mercedes-Benz|eVito": 9
+, "Smart|Fortwo ED": 8
+, "Toyota|Proace Electric": 6
+, "Peugeot|e-Rifter": 5
+, "Tesla|Model 3": 4
+, "other": 24
+});
