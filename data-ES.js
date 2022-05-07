@@ -3628,3 +3628,98 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 4
 , "other": 9
 });
+
+db.insert(db.countries.ES, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosabriltur.asp, https://www.km77.com/mercado/espana/2022/datosabriltt.asp",
+{ "Volkswagen": 6534
+, "Toyota": 5738
+, "Seat": 5283
+, "Kia": 4957
+, "Hyundai": 4856
+, "Citroën": 4344
+, "Peugeot": 4217
+, "Renault": 3347
+, "Dacia": 3245
+, "Audi": 3175
+, "BMW": 2920
+, "Mercedes-Benz": 2718
+, "Ford": 2135
+, "Fiat": 2099
+, "Škoda": 2029
+, "Opel": 1509
+, "Nissan": 1468
+, "Cupra": 1288
+, "Volvo": 1066
+, "Mazda": 977
+, "Jeep": 803
+, "MG": 773
+, "Mini": 583
+, "DS Automobiles": 523
+, "Honda": 352
+, "Mitsubishi": 324
+, "Land Rover": 318
+, "Alfa Romeo": 253
+, "Suzuki": 223
+, "Lexus": 211
+, "Porsche": 152
+, "SsangYong": 151
+, "Subaru": 110
+, "Smart": 66
+, "Jaguar": 66
+, "Tesla": 26
+, "Maserati": 17
+, "other": 255
+});
+
+db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/4 (includes commercial vehicles)",
+{ "Citroën|ë-C4": 204
+, "Kia|Niro EV": 146
+, "Hyundai|Ioniq 5": 111
+, "Dacia|Spring": 108
+, "Kia|EV6": 101
+, "Fiat|500e": 99
+, "Mini|Cooper SE Electric": 79
+, "Hyundai|Kona Electric": 63
+, "Peugeot|e-208": 59
+, "Smart|Fortwo ED": 53
+, "Mercedes-Benz|EQV": 52
+, "Mercedes-Benz|EQA": 51
+, "Peugeot|e-2008": 46
+, "Mercedes-Benz|EQB": 44
+, "Ford|Mustang Mach-E": 44
+, "Renault|Zoe": 42
+, "BMW|i3 BEV": 42
+, "Nissan|Leaf": 40
+, "Škoda|Enyaq": 37
+, "Volkswagen|ID.4": 34
+, "Opel|Corsa-e": 34
+, "Volvo|XC40 Recharge pure electric": 33
+, "Audi|Q4 e-tron": 29
+, "BMW|iX": 24
+, "Volkswagen|ID.3": 23
+, "Tesla|Model Y": 22
+, "Renault|Twingo Z.E.": 22
+, "Opel|Mokka-e": 22
+, "Opel|Combo-e": 22
+, "Cupra|Born": 22
+, "BMW|i4": 20
+, "Hyundai|Ioniq Electric": 19
+, "Volvo|C40 Recharge pure electric": 16
+, "MG|ZS EV": 16
+, "Porsche|Taycan": 15
+, "Smart|Forfour ED": 13
+, "MG|Marvel R": 13
+, "Peugeot|e-Rifter": 8
+, "Mercedes-Benz|EQS": 8
+, "Lexus|UX 300e": 8
+, "BMW|iX3": 8
+, "Audi|e-tron": 8
+, "Audi|e-tron GT": 5
+, "Tesla|Model 3": 4
+, "MG|MG5 EV": 4
+, "Jaguar|I-Pace": 4
+, "Honda|e": 4
+, "Mercedes-Benz|EQE": 3
+, "Mercedes-Benz|EQC": 3
+, "Citroën|ë-SpaceTourer": 3
+, "other": 8
+});
