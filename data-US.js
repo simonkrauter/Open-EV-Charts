@@ -787,5 +787,6 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Ioniq 5": 153
 , "Audi|Q4 e-tron": 63
 , "Mazda|MX-30": 61
+, "Volvo|C40 Recharge": 42
 , "Chevrolet|Bolt": 24
 });
