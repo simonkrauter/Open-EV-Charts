@@ -3604,7 +3604,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 36
 , "Audi|e-tron": 35
 , "Lexus|UX 300e": 33
-, "Volvo|C40 Recharge pure electric": 31
+, "Volvo|C40 Recharge": 31
 , "Volvo|XC40 Recharge pure electric": 22
 , "Citroën|ë-Jumpy": 18
 , "Hyundai|Ioniq Electric": 17
@@ -3692,7 +3692,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 38
 , "Audi|e-tron GT": 37
 , "Audi|e-tron": 36
-, "Volvo|C40 Recharge pure electric": 34
+, "Volvo|C40 Recharge": 34
 , "Ford|Mustang Mach-E": 33
 , "Porsche|Taycan": 29
 , "Renault|Megane E-Tech": 23

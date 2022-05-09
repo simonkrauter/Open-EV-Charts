@@ -4459,7 +4459,7 @@ db.insert(db.countries.DE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 214
 , "Citroën|ë-C4": 188
 , "Mercedes-Benz|EQS": 155
-, "Volvo|C40 Recharge pure electric": 135
+, "Volvo|C40 Recharge": 135
 , "Kia|Soul EV": 123
 , "Mercedes-Benz|EQB": 120
 , "Mercedes-Benz|EQV": 115
@@ -4554,7 +4554,7 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 165
 , "Mercedes-Benz|EQS": 147
 , "Tesla|Model Y": 142
-, "Volvo|C40 Recharge pure electric": 108
+, "Volvo|C40 Recharge": 108
 , "Cupra|Born": 102
 , "Kia|Soul EV": 99
 , "Hyundai|Ioniq Electric": 89
@@ -4659,7 +4659,7 @@ db.insert(db.countries.DE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|MX-30": 94
 , "Cupra|Born": 75
 , "Mercedes-Benz|eVito": 60
-, "Volvo|C40 Recharge pure electric": 52
+, "Volvo|C40 Recharge": 52
 , "Opel|Zafira-e": 47
 , "Honda|e": 45
 , "Citroën|Berlingo Electric": 29
@@ -4758,7 +4758,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 61
 , "Peugeot|e-Rifter": 57
 , "Honda|e": 53
-, "Volvo|C40 Recharge pure electric": 52
+, "Volvo|C40 Recharge": 52
 , "other": 556
 });
 

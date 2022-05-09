@@ -3324,7 +3324,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 42
 , "Peugeot|e-Rifter": 39
 , "Porsche|Taycan": 36
-, "Volvo|C40 Recharge pure electric": 34
+, "Volvo|C40 Recharge": 34
 , "Opel|Mokka-e": 33
 , "Honda|e": 26
 , "BMW|iX": 22
@@ -3408,7 +3408,7 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 47
 , "Porsche|Taycan": 42
 , "Škoda|Enyaq": 38
-, "Volvo|C40 Recharge pure electric": 35
+, "Volvo|C40 Recharge": 35
 , "Peugeot|e-2008": 34
 , "Opel|Corsa-e": 34
 , "Opel|Mokka-e": 32
@@ -3512,7 +3512,7 @@ db.insert(db.countries.ES, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 25
 , "MG|ZS EV": 25
 , "BMW|iX": 25
-, "Volvo|C40 Recharge pure electric": 23
+, "Volvo|C40 Recharge": 23
 , "Lexus|UX 300e": 16
 , "BMW|iX3": 14
 , "Porsche|Taycan": 13
@@ -3614,7 +3614,7 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 16
 , "Smart|Forfour ED": 15
 , "MG|ZS EV": 15
-, "Volvo|C40 Recharge pure electric": 13
+, "Volvo|C40 Recharge": 13
 , "Audi|e-tron": 13
 , "Mercedes-Benz|EQS": 12
 , "Renault|Megane E-Tech": 11
@@ -3703,7 +3703,7 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 22
 , "BMW|i4": 20
 , "Hyundai|Ioniq Electric": 19
-, "Volvo|C40 Recharge pure electric": 16
+, "Volvo|C40 Recharge": 16
 , "MG|ZS EV": 16
 , "Porsche|Taycan": 15
 , "Smart|Forfour ED": 13

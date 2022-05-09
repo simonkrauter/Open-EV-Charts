@@ -3429,7 +3429,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 470
 , "Renault|Zoe": 370
 , "Mini|Cooper SE Electric": 362
-, "Volvo|C40 Recharge pure electric": 353
+, "Volvo|C40 Recharge": 353
 , "Mercedes-Benz|EQA": 300
 , "Renault|Twingo Z.E.": 240
 , "BMW|iX": 230
@@ -3529,7 +3529,7 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 50
 , "BMW|i3 BEV": 34
 , "Audi|e-tron": 31
-, "Volvo|C40 Recharge pure electric": 26
+, "Volvo|C40 Recharge": 26
 , "Audi|e-tron GT": 23
 , "Mercedes-Benz|eVito": 21
 , "Opel|Vivaro-e": 19
@@ -3623,7 +3623,7 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 52
 , "Nissan|Leaf": 51
 , "Porsche|Taycan": 48
-, "Volvo|C40 Recharge pure electric": 44
+, "Volvo|C40 Recharge": 44
 , "Opel|Mokka-e": 42
 , "Mercedes-Benz|EQS": 41
 , "BMW|iX": 41
@@ -3721,7 +3721,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 63
 , "Audi|e-tron": 63
 , "Ford|Mustang Mach-E": 62
-, "Volvo|C40 Recharge pure electric": 61
+, "Volvo|C40 Recharge": 61
 , "Opel|Mokka-e": 57
 , "Mercedes-Benz|EQS": 46
 , "BMW|i3 BEV": 40
@@ -3811,7 +3811,7 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 63
 , "MG|ZS EV": 56
 , "Citroën|ë-Jumpy": 56
-, "Volvo|C40 Recharge pure electric": 47
+, "Volvo|C40 Recharge": 47
 , "Opel|Corsa-e": 46
 , "Mini|Cooper SE Electric": 41
 , "Renault|Twingo Z.E.": 40

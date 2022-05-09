@@ -1350,7 +1350,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 48
 , "BMW|i3 BEV": 45
 , "Kia|Niro EV": 44
-, "Volvo|C40 Recharge pure electric": 41
+, "Volvo|C40 Recharge": 41
 , "Smart|Forfour ED": 36
 , "Škoda|Enyaq": 33
 , "Volkswagen|e-up!": 32
@@ -1443,7 +1443,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 36
 , "Škoda|Enyaq": 34
 , "Kia|Niro EV": 30
-, "Volvo|C40 Recharge pure electric": 26
+, "Volvo|C40 Recharge": 26
 , "Smart|Forfour ED": 25
 , "Audi|e-tron": 23
 , "Mercedes-Benz|EQB": 22
@@ -1540,7 +1540,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 33
 , "Hyundai|Ioniq 5": 32
 , "Opel|Mokka-e": 29
-, "Volvo|C40 Recharge pure electric": 27
+, "Volvo|C40 Recharge": 27
 , "Cupra|Born": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 23
 , "Kia|EV6": 19
@@ -1619,7 +1619,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 41
 , "Mercedes-Benz|EQB": 36
 , "Porsche|Taycan": 34
-, "Volvo|C40 Recharge pure electric": 31
+, "Volvo|C40 Recharge": 31
 , "Kia|EV6": 31
 , "Audi|e-tron": 30
 , "Kia|Niro EV": 28

@@ -2648,7 +2648,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Opel|Zafira-e": 10
 , "Mercedes-Benz|EQS": 9
-, "Volvo|C40 Recharge pure electric": 7
+, "Volvo|C40 Recharge": 7
 , "other": 110
 });
 
@@ -2719,7 +2719,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 32
 , "Honda|e": 26
 , "BMW|i4": 24
-, "Volvo|C40 Recharge pure electric": 23
+, "Volvo|C40 Recharge": 23
 , "Opel|Zafira-e": 22
 , "Hongqi|E-HS9": 21
 , "Audi|e-tron GT": 21
@@ -2769,7 +2769,7 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 179
 , "Peugeot|e-2008": 178
 , "Hongqi|E-HS9": 174
-, "Volvo|C40 Recharge pure electric": 169
+, "Volvo|C40 Recharge": 169
 , "Kia|Niro EV": 153
 , "Hyundai|Kona Electric": 152
 , "Volkswagen|ID.3": 124
@@ -2845,7 +2845,7 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hongqi|E-HS9": 205
 , "Kia|Soul EV": 193
 , "Kia|EV6": 190
-, "Volvo|C40 Recharge pure electric": 185
+, "Volvo|C40 Recharge": 185
 , "Porsche|Taycan": 180
 , "Kia|Niro EV": 160
 , "Volvo|XC40 Recharge pure electric": 149
@@ -2926,7 +2926,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 238
 , "Mercedes-Benz|EQC": 203
 , "Hongqi|E-HS9": 199
-, "Volvo|C40 Recharge pure electric": 177
+, "Volvo|C40 Recharge": 177
 , "Kia|Soul EV": 176
 , "Peugeot|e-2008": 175
 , "Škoda|Enyaq": 173
@@ -3002,7 +3002,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 189
 , "Opel|Mokka-e": 178
 , "Kia|Soul EV": 157
-, "Volvo|C40 Recharge pure electric": 156
+, "Volvo|C40 Recharge": 156
 , "Kia|EV6": 143
 , "Citroën|ë-C4": 143
 , "Hongqi|E-HS9": 142

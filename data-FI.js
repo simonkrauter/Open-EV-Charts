@@ -993,7 +993,7 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 6
 , "Audi|e-tron": 6
 , "Mercedes-Benz|EQA": 3
-, "Volvo|C40 Recharge pure electric": 2
+, "Volvo|C40 Recharge": 2
 , "Opel|Combo-e": 2
 , "Tesla|Model Y": 1
 , "Seat|Mii Electric": 1
@@ -1026,7 +1026,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 31
 , "Volkswagen|e-up!": 30
 , "Volvo|XC40 Recharge pure electric": 28
-, "Volvo|C40 Recharge pure electric": 28
+, "Volvo|C40 Recharge": 28
 , "Volkswagen|ID.3": 27
 , "Peugeot|e-Expert": 25
 , "Kia|EV6": 23
@@ -1065,7 +1065,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/1",
 { "Hyundai|Ioniq 5": 137
 , "Kia|EV6": 82
-, "Volvo|C40 Recharge pure electric": 71
+, "Volvo|C40 Recharge": 71
 , "Volkswagen|ID.4": 69
 , "Škoda|Enyaq": 68
 , "Nissan|Leaf": 58
@@ -1119,7 +1119,7 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 47
 , "Kia|Niro EV": 43
 , "Škoda|Enyaq": 42
-, "Volvo|C40 Recharge pure electric": 38
+, "Volvo|C40 Recharge": 38
 , "Hyundai|Ioniq 5": 34
 , "Volvo|XC40 Recharge pure electric": 30
 , "Tesla|Model Y": 30
@@ -1174,7 +1174,7 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 42
 , "Škoda|Enyaq": 34
 , "Mercedes-Benz|EQS": 34
-, "Volvo|C40 Recharge pure electric": 33
+, "Volvo|C40 Recharge": 33
 , "Opel|Mokka-e": 32
 , "BMW|i4": 31
 , "Kia|Niro EV": 29
