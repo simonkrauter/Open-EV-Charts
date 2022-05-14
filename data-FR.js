@@ -3661,7 +3661,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 852
 });
 
-db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/2",
+db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/2, https://www.avere-france.org/wp-content/uploads/2022/04/barometre-avere-colombus-mars-2022-1.pdf",
 { "Tesla|Model 3": 2717
 , "Dacia|Spring": 1348
 , "Renault|Zoe": 1088
@@ -3712,5 +3712,5 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 5
 , "Opel|Zafira-e": 3
 , "Opel|Combo-e": 2
-, "other": 368
+, "other": 491
 });
