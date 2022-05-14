@@ -1499,3 +1499,41 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Niro EV": 80
 , "other": 1128
 });
+
+db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Volkswagen": 2204
+, "BMW": 1500
+, "Škoda": 1389
+, "Audi": 1228
+, "Mercedes-Benz": 1018
+, "Ford": 948
+, "Seat": 865
+, "Kia": 839
+, "Toyota": 778
+, "Renault": 776
+, "Hyundai": 733
+, "Mazda": 460
+, "Cupra": 454
+, "Dacia": 435
+, "Opel": 380
+, "Peugeot": 278
+, "Suzuki": 219
+, "Volvo": 213
+, "Fiat": 195
+, "Mitsubishi": 183
+, "other": 1269
+});
+
+db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+{ "Cupra|Born": 144
+, "Škoda|Enyaq": 104
+, "Ford|Mustang Mach-E": 99
+, "BMW|i3 BEV": 98
+, "Kia|EV6": 93
+, "Renault|Zoe": 85
+, "Volkswagen|ID.3": 81
+, "Audi|e-tron": 78
+, "Dacia|Spring": 76
+, "Fiat|500e": 73
+, "other": 918
+});
