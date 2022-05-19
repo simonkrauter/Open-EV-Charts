@@ -1109,11 +1109,12 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 8
 , "Renault|Megane E-Tech": 6
 , "Mercedes-Benz|EQV": 6
+, "MG|MG5 EV": 6
 , "Opel|Combo-e": 5
 , "MG|Marvel R": 5
 , "BMW|iX": 4
 , "Volkswagen|ID.5": 2
 , "Toyota|Proace Electric": 2
 , "Mercedes-Benz|eVito": 2
-, "other": 31
+, "other": 25
 });
