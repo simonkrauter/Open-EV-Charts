@@ -3766,3 +3766,54 @@ db.insert(db.countries.FR, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 513
 , "other": 5188
 });
+
+db.insert(db.countries.FR, "2022-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/05/2022-04-vp-france.pdf",
+{ "Peugeot": 17708
+, "Renault": 14920
+, "Citroën": 9333
+, "Dacia": 8550
+, "Volkswagen": 6603
+, "Toyota": 6506
+, "Ford": 4027
+, "Kia": 3960
+, "BMW": 3642
+, "Hyundai": 3638
+, "Mercedes-Benz": 3496
+, "Fiat": 3411
+, "Audi": 3098
+, "Nissan": 2908
+, "Opel": 2605
+, "Škoda": 2553
+, "DS Automobiles": 1869
+, "Mini": 1502
+, "Suzuki": 1333
+, "Seat": 1183
+, "Volvo": 811
+, "Mazda": 483
+, "Honda": 471
+, "Jeep": 412
+, "Land Rover": 346
+, "Mitsubishi": 258
+, "Lexus": 226
+, "Porsche": 171
+, "Alfa Romeo": 148
+, "Tesla": 97
+, "Smart": 93
+, "Jaguar": 77
+, "Maserati": 10
+, "SsangYong": 2
+, "other": 2272
+});
+
+db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-la-hausse-des-immatriculations-sest-poursuivie-en-avril-2022-bientot-900-000-vehicules-electriques-et-hybrides-rechargeables-en-circulation/",
+{ "Fiat|500e": 1737
+, "Dacia|Spring": 1568
+, "Peugeot|e-208": 1375
+, "Renault|Zoe": 1052
+, "Renault|Twingo Z.E.": 948
+, "Peugeot|e-2008": 722
+, "Kia|Niro EV": 516
+, "Hyundai|Kona Electric": 455
+, "Citroën|ë-C4": 448
+, "other": 3871
+});
