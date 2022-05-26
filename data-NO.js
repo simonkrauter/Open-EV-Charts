@@ -2983,7 +2983,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 170
 , "Hongqi": 155
 , "Porsche": 128
-, "Tesla":  83
+, "Tesla": 83
 , "other": 888
 });
 
