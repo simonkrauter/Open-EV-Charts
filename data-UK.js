@@ -1159,10 +1159,10 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Ford|Mustang Mach-E": 1691
 , "Nissan|Leaf": 1609
 , "Hyundai|Kona Electric": 1519
+, "Vauxhall|Corsa-e": 1390
 , "MG|ZS EV": 1390
 , "Volkswagen|ID.4": 1364
 , "Škoda|Enyaq": 1321
-, "Vauxhall|Corsa-e": 1240
 , "Peugeot|e-208": 1233
 , "Audi|Q4 e-tron": 1171
 , "Peugeot|e-2008": 1103
