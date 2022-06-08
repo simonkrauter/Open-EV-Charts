@@ -4857,3 +4857,99 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|eVito": 53
 , "other": 550
 });
+
+db.insert(db.countries.DE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen": 38782
+, "Mercedes-Benz": 18008
+, "BMW": 17158
+, "Audi": 16287
+, "Opel": 13057
+, "Ford": 12153
+, "Škoda": 10645
+, "Seat": 9510
+, "Hyundai": 8503
+, "Fiat": 6833
+, "Kia": 6582
+, "Toyota": 6516
+, "Renault": 5979
+, "Citroën": 4136
+, "Dacia": 3620
+, "Mini": 3473
+, "Peugeot": 3183
+, "Mitsubishi": 2852
+, "Volvo": 2775
+, "Porsche": 2485
+, "Nissan": 2457
+, "Mazda": 1950
+, "Smart": 1275
+, "Land Rover": 1118
+, "Jeep": 1095
+, "Suzuki": 953
+, "Honda": 878
+, "MG": 818
+, "Polestar": 460
+, "Tesla": 293
+, "Jaguar": 245
+, "Subaru": 230
+, "Alfa Romeo": 226
+, "Lexus": 136
+, "SsangYong": 132
+, "DS Automobiles": 128
+, "Maserati": 54
+, "Cadillac": 24
+, "other": 2190
+});
+
+db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3",
+{ "Opel|Corsa-e": 1889
+, "Volkswagen|ID.4/ID.5": 1849
+, "Fiat|500e": 1834
+, "Volkswagen|ID.3": 1356
+, "Dacia|Spring": 1326
+, "Hyundai|Kona Electric": 1323
+, "Škoda|Enyaq": 1173
+, "Audi|e-tron": 1147
+, "Smart|Fortwo ED": 1135
+, "Volkswagen|e-up!": 1123
+, "Hyundai|Ioniq 5": 1043
+, "Renault|Twingo Z.E.": 989
+, "Mini|Cooper SE Electric": 970
+, "Audi|Q4 e-tron": 914
+, "Renault|Zoe": 839
+, "Cupra|Born": 835
+, "Peugeot|e-208": 756
+, "Citroën|ë-C4": 555
+, "Mercedes-Benz|EQB": 472
+, "Mercedes-Benz|EQE": 470
+, "Mercedes-Benz|EQA": 461
+, "Polestar|2": 454
+, "Kia|Niro EV": 452
+, "BMW|i3 BEV": 451
+, "Kia|EV6": 409
+, "Porsche|Taycan": 387
+, "Ford|Mustang Mach-E": 334
+, "BMW|iX": 311
+, "Nissan|Leaf": 307
+, "BMW|iX3": 304
+, "Peugeot|e-2008": 292
+, "Opel|Mokka-e": 288
+, "BMW|i4": 277
+, "Audi|e-tron GT": 227
+, "MG|ZS EV": 218
+, "Tesla|Model 3": 181
+, "Mercedes-Benz|EQS": 179
+, "Smart|Forfour ED": 140
+, "Mercedes-Benz|EQC": 131
+, "Mercedes-Benz|EQV": 125
+, "Tesla|Model Y": 112
+, "Kia|Soul EV": 101
+, "Honda|e": 93
+, "Hyundai|Ioniq Electric": 85
+, "Mazda|MX-30": 82
+, "Citroën|Berlingo Electric": 55
+, "MG|MG5 EV": 54
+, "Volvo|XC40 Recharge pure electric": 50
+, "Mercedes-Benz|eVito": 43
+, "MG|Marvel R": 38
+, "other": 539
+});
