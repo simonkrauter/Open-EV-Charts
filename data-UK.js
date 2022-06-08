@@ -4,7 +4,7 @@
 
 db.addCountry("UK", "United Kingdom");
 
-// source: https://www.gov.uk/government/statistical-data-sets/all-vehicles-veh01#registered-for-the-first-time
+// source: https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files
 
 db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods (per quarter)",
 { "Ford": 82658
@@ -1195,5 +1195,112 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|iX": 19
 , "Škoda|Citigo-e": 8
 , "Tesla|Model S": 2
+, "other": 3
+});
+
+db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1077523/df_VEH0160_UK.csv (per quarter)",
+{ "Volkswagen": 27305
+, "BMW": 23556
+, "Audi": 22061
+, "Toyota": 20753
+, "Mercedes-Benz": 19918
+, "Vauxhall": 19194
+, "Nissan": 17600
+, "Ford": 17582
+, "Hyundai": 16786
+, "Kia": 16735
+, "Mini": 14968
+, "Peugeot": 14888
+, "Tesla": 12713
+, "Volvo": 12042
+, "Škoda": 8952
+, "MG": 7683
+, "Land Rover": 7387
+, "Renault": 6939
+, "Citroën": 5900
+, "Porsche": 5750
+, "Seat": 5537
+, "Honda": 4957
+, "Dacia": 4288
+, "Fiat": 4196
+, "Mazda": 4107
+, "Jaguar": 3449
+, "Suzuki": 3085
+, "Cupra": 2156
+, "Lexus": 1878
+, "Polestar": 1669
+, "Subaru": 683
+, "Jeep": 673
+, "DS Automobiles": 636
+, "Smart": 481
+, "Alfa Romeo": 468
+, "SsangYong": 411
+, "Abarth": 309
+, "Maserati": 236
+, "Mitsubishi": 118
+, "Chevrolet": 88
+, "Dodge": 79
+, "Genesis": 40
+, "Opel": 24
+, "Cadillac": 23
+, "Chrysler": 18
+, "Buick": 16
+, "Lincoln": 15
+, "Infiniti": 3
+, "Acura": 1
+, "other": 1973
+});
+
+db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1077523/df_VEH0160_UK.csv (per quarter)",
+{ "Tesla|Model 3": 12707
+, "Kia|Niro EV": 3274
+, "Mini|Cooper SE Electric": 3203
+, "Nissan|Leaf": 2904
+, "Volkswagen|ID.3": 2597
+, "Audi|Q4 e-tron": 2435
+, "BMW|iX3": 2208
+, "Hyundai|Kona Electric": 2132
+, "Mercedes-Benz|EQA": 2055
+, "Audi|e-tron": 1814
+, "Polestar|2": 1668
+, "Hyundai|Ioniq Electric": 1658
+, "Porsche|Taycan": 1653
+, "Škoda|Enyaq": 1541
+, "Volkswagen|ID.4": 1530
+, "Jaguar|I-Pace": 1519
+, "Renault|Zoe": 1506
+, "MG|MG5 EV": 1498
+, "MG|ZS EV": 1448
+, "Vauxhall|Corsa-e": 1424
+, "Peugeot|e-2008": 1320
+, "Mercedes-Benz|EQC": 1215
+, "Fiat|500e": 1165
+, "Peugeot|e-208": 1122
+, "BMW|i3 BEV": 1045
+, "Volkswagen|e-up!": 961
+, "Kia|EV6": 920
+, "Vauxhall|Mokka-e": 914
+, "Volvo|XC40 Recharge pure electric": 856
+, "Ford|Mustang Mach-E": 669
+, "Lexus|UX 300e": 650
+, "Mazda|MX-30": 612
+, "Citroën|ë-C4": 489
+, "BMW|iX": 380
+, "Vauxhall|Vivaro-e": 304
+, "Smart|Forfour ED": 298
+, "DS Automobiles|DS 3 Crossback E-Tense": 246
+, "Mercedes-Benz|EQV": 204
+, "Smart|Fortwo ED": 178
+, "Audi|e-tron GT": 156
+, "Honda|e": 117
+, "Seat|Mii Electric": 116
+, "BMW|i4": 94
+, "Kia|Soul EV": 84
+, "Hyundai|Ioniq 5": 75
+, "Nissan|e-NV200": 59
+, "Mercedes-Benz|eVito": 46
+, "Citroën|ë-SpaceTourer": 28
+, "Peugeot|e-Traveller": 15
+, "Mercedes-Benz|EQS": 7
 , "other": 3
 });
