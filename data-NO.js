@@ -3013,7 +3013,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 108
 , "BMW|iX3": 106
 , "BMW|i3 BEV": 106
-, "Mercedes-Benz|EQS": 100
+, "Mercedes-Benz|EQS": 101
 , "BYD|Tang": 100
 , "Peugeot|e-208": 95
 , "Nio|ES8": 82
@@ -3038,7 +3038,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng P7": 15
 , "Opel|Zafira-e": 15
 , "Honda|e": 15
-, "other": 368
+, "other": 367
 });
 
 
