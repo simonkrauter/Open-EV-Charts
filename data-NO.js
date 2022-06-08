@@ -2940,7 +2940,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|ES8": 99
 , "MG|ZS EV": 90
 , "Peugeot|e-208": 80
-, "Mercedes-Benz|EQS": 78
+, "Mercedes-Benz|EQS": 79
 , "BMW|i3 BEV": 78
 , "Kia|EV6": 77
 , "Hyundai|Ioniq Electric": 75
@@ -2960,7 +2960,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 18
 , "Audi|e-tron GT": 15
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
-, "other": 245
+, "other": 244
 });
 
 db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2022",
