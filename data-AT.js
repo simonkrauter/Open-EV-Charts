@@ -2135,3 +2135,59 @@ db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 73
 , "other": 918
 });
+
+db.insert(db.countries.AT, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
+{ "Volkswagen": 2309
+, "Škoda": 1508
+, "BMW": 1263
+, "Seat": 1156
+, "Audi": 1106
+, "Ford": 1055
+, "Hyundai": 989
+, "Mercedes-Benz": 885
+, "Toyota": 807
+, "Kia": 788
+, "Renault": 625
+, "Cupra": 611
+, "Mazda": 439
+, "Peugeot": 433
+, "Opel": 399
+, "Dacia": 361
+, "Fiat": 327
+, "Suzuki": 245
+, "Volvo": 237
+, "Nissan": 224
+, "Citroën": 193
+, "Mitsubishi": 168
+, "Mini": 165
+, "Honda": 117
+, "Porsche": 111
+, "Jeep": 106
+, "Land Rover": 85
+, "Polestar": 82
+, "MG": 81
+, "Subaru": 37
+, "DS Automobiles": 33
+, "Tesla": 30
+, "Lexus": 30
+, "Jaguar": 18
+, "Smart": 9
+, "Maserati": 1
+, "Chrysler": 1
+, "Chevrolet": 1
+, "other": 72
+});
+
+db.insert(db.countries.AT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
+{ "Cupra|Born": 250
+, "Renault|Zoe": 151
+, "Škoda|Enyaq": 127
+, "Ford|Mustang Mach-E": 101
+, "Audi|Q4 e-tron": 82
+, "BMW|iX3": 81
+, "Polestar|2": 80
+, "Fiat|500e": 79
+, "BMW|i3 BEV": 77
+, "Kia|EV6": 76
+, "other": 960
+});
