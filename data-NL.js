@@ -3785,30 +3785,30 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/4",
-{ "Škoda|Enyaq": 868
+{ "Škoda|Enyaq": 870
 , "Kia|EV6": 345
 , "Peugeot|e-208": 324
-, "Kia|Niro EV": 260
+, "Kia|Niro EV": 261
 , "Polestar|2": 210
+, "Cupra|Born": 190
 , "Fiat|500e": 188
-, "Cupra|Born": 188
 , "Volkswagen|ID.4": 176
 , "Volvo|XC40 Recharge pure electric": 172
-, "Audi|Q4 e-tron": 171
+, "Audi|Q4 e-tron": 172
 , "Hyundai|Ioniq 5": 119
 , "BMW|iX3": 112
 , "MG|MG5 EV": 111
 , "Citroën|ë-C4": 105
-, "Ford|Mustang Mach-E": 91
+, "Ford|Mustang Mach-E": 92
 , "Hyundai|Kona Electric": 78
-, "Volkswagen|ID.3": 75
+, "Volkswagen|ID.3": 76
 , "Renault|Zoe": 70
 , "Dacia|Spring": 70
 , "Audi|e-tron": 65
+, "Peugeot|e-2008": 64
 , "Mercedes-Benz|EQA": 64
 , "BMW|iX": 64
 , "BMW|i4": 64
-, "Peugeot|e-2008": 63
 , "MG|ZS EV": 56
 , "Citroën|ë-Jumpy": 56
 , "Volvo|C40 Recharge": 47
