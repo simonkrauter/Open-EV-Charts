@@ -4,9 +4,9 @@
 
 db.addCountry("AT", "Austria");
 
-// http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/verkehr/strasse/kraftfahrzeuge_-_neuzulassungen/index.html
+// https://www.statistik.at/statistiken/tourismus-und-verkehr/fahrzeuge/kfz-neuzulassungen
 
-db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 4384
 , "Škoda": 2380
 , "Seat": 2303
@@ -31,7 +31,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1550
 });
 
-db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "BMW|i3 BEV": 106
 , "Hyundai|Kona Electric": 84
 , "Volkswagen|e-Golf": 71
@@ -45,7 +45,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Smart|Fortwo ED": 13
 });
 
-db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 4435
 , "Škoda": 2198
 , "Seat": 1634
@@ -70,7 +70,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1636
 });
 
-db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 136
 , "BMW|i3 BEV": 105
 , "Nissan|Leaf": 83
@@ -84,7 +84,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 20
 });
 
-db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 5233
 , "Škoda": 2490
 , "Seat": 1919
@@ -108,7 +108,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2578
 });
 
-db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 703
 , "BMW|i3 BEV": 107
 , "Volkswagen|e-Golf": 97
@@ -122,7 +122,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model X": 24
 });
 
-db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 4939
 , "Škoda": 2655
 , "Seat": 2041
@@ -147,7 +147,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2219
 });
 
-db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 142
 , "other": 87
 , "Renault|Zoe": 82
@@ -161,7 +161,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 29
 });
 
-db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 4498
 , "Škoda": 2990
 , "Seat": 2120
@@ -186,7 +186,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2106
 });
 
-db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Renault|Zoe": 133
 , "Tesla|Model 3": 127
 , "BMW|i3 BEV": 77
@@ -200,7 +200,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 27
 });
 
-db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 5735
 , "Škoda": 2805
 , "Seat": 2279
@@ -224,7 +224,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2351
 });
 
-db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 346
 , "BMW|i3 BEV": 99
 , "other": 86
@@ -238,7 +238,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Niro EV": 30
 });
 
-db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 5524
 , "Škoda": 2490
 , "Seat": 1917
@@ -263,7 +263,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2330
 });
 
-db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 111
 , "other": 87
 , "Hyundai|Kona Electric": 85
@@ -277,7 +277,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model S": 22
 });
 
-db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 4640
 , "Škoda": 2362
 , "Hyundai": 2079
@@ -302,7 +302,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2094
 });
 
-db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "BMW|i3 BEV": 156
 , "Renault|Zoe": 133
 , "Hyundai|Kona Electric": 114
@@ -316,7 +316,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 23
 });
 
-db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 2417
 , "Škoda": 1706
 , "Renault": 1388
@@ -340,7 +340,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1818
 });
 
-db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 387
 , "BMW|i3 BEV": 112
 , "Renault|Zoe": 88
@@ -354,7 +354,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Niro EV": 24
 });
 
-db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 3881
 , "BMW": 1889
 , "Škoda": 1779
@@ -379,7 +379,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1830
 });
 
-db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "BMW|i3 BEV": 90
 , "other": 71
 , "Renault|Zoe": 58
@@ -393,7 +393,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 23
 });
 
-db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 3541
 , "Škoda": 1890
 , "BMW": 1747
@@ -418,7 +418,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1193
 });
 
-db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Hyundai|Kona Electric": 194
 , "BMW|i3 BEV": 116
 , "Volkswagen|e-Golf": 67
@@ -432,7 +432,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model X": 17
 });
 
-db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Volkswagen": 3421
 , "BMW": 1556
 , "Škoda": 1539
@@ -457,7 +457,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1118
 });
 
-db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=120255",
+db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 216
 , "Renault|Zoe": 82
 , "Volkswagen|e-Golf": 78
@@ -471,7 +471,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Kia|Soul EV": 19
 });
 
-db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3884
 , "Škoda": 2055
 , "Seat": 2019
@@ -496,7 +496,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1361
 });
 
-db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Renault|Zoe": 168
 , "other": 164
 , "BMW|i3 BEV": 63
@@ -510,7 +510,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Audi|e-tron": 24
 });
 
-db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3307
 , "Škoda": 2058
 , "Seat": 1598
@@ -535,7 +535,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1244
 });
 
-db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "other": 230
 , "Tesla|Model 3": 219
 , "Renault|Zoe": 182
@@ -549,7 +549,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Kona Electric": 29
 });
 
-db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 1587
 , "Škoda": 1197
 , "BMW": 745
@@ -573,7 +573,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 949
 });
 
-db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Tesla|Model 3": 372
 , "other": 98
 , "Renault|Zoe": 74
@@ -587,7 +587,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Seat|Mii Electric": 21
 });
 
-db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 1651
 , "Škoda": 1467
 , "BMW": 855
@@ -611,7 +611,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 760
 });
 
-db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Tesla|Model 3": 227
 , "Renault|Zoe": 93
 , "other": 66
@@ -625,7 +625,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Nissan|Leaf": 9
 });
 
-db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 2656
 , "Škoda": 1739
 , "Seat": 1403
@@ -650,7 +650,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1177
 });
 
-db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Renault|Zoe": 175
 , "other": 127
 , "Kia|Niro EV": 104
@@ -664,7 +664,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Porsche|Taycan": 24
 });
 
-db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 4307
 , "Škoda": 3030
 , "Renault": 1946
@@ -689,7 +689,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1712
 });
 
-db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Tesla|Model 3": 245
 , "Renault|Zoe": 219
 , "other": 170
@@ -703,7 +703,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Seat|Mii Electric": 27
 });
 
-db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3860
 , "Škoda": 2688
 , "Seat": 1743
@@ -728,7 +728,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1584
 });
 
-db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Renault|Zoe": 277
 , "other": 253
 , "Kia|Niro EV": 114
@@ -742,7 +742,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 33
 });
 
-db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=061766",
+db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3452
 , "Škoda": 1532
 , "Ford": 1346
@@ -767,7 +767,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1293
 });
 
-db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=061766",
+db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "other": 250
 , "Tesla|Model 3": 191
 , "Hyundai|Kona Electric": 148
@@ -782,7 +782,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mini|Cooper SE Electric": 28
 });
 
-db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3217
 , "Škoda": 1966
 , "Hyundai": 1582
@@ -806,7 +806,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1871
 });
 
-db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Tesla|Model 3": 546
 , "other": 369
 , "Volkswagen|ID.3": 251
@@ -820,7 +820,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Volkswagen|e-up!": 61
 });
 
-db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3413
 , "Škoda": 2602
 , "Seat": 1579
@@ -844,7 +844,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1380
 });
 
-db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "other": 424
 , "Kia|Niro EV": 244
 , "Volkswagen|ID.3": 201
@@ -858,7 +858,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Hyundai|Ioniq Electric": 58
 });
 
-db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3566
 , "BMW": 1753
 , "Škoda": 1711
@@ -883,7 +883,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1140
 });
 
-db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen|ID.3": 523
 , "other": 522
 , "Tesla|Model 3": 191
@@ -897,7 +897,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-2008": 68
 });
 
-db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Volkswagen": 3372
 , "Hyundai": 1777
 , "BMW": 1668
@@ -921,7 +921,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2054
 });
 
-db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=122580",
+db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "other": 830
 , "Volkswagen|ID.3": 694
 , "Tesla|Model 3": 687
@@ -934,7 +934,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mazda|MX-30": 77
 });
 
-db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 2809
 , "Seat": 1559
 , "Škoda": 1324
@@ -959,7 +959,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 749
 });
 
-db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "other": 404
 , "Volkswagen|ID.3": 199
 , "Renault|Zoe": 196
@@ -973,7 +973,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Jaguar|I-Pace": 48
 });
 
-db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 3132
 , "Škoda": 2008
 , "Seat": 1721
@@ -997,7 +997,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1376
 });
 
-db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "other": 462
 , "Tesla|Model 3": 362
 , "Volkswagen|ID.3": 260
@@ -1011,7 +1011,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 54
 });
 
-db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 4256
 , "Škoda": 2403
 , "Seat": 1894
@@ -1035,7 +1035,7 @@ db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 2300
 });
 
-db.insert(db.countries.AT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Tesla|Model 3": 1127
 , "other": 714
 , "Volkswagen|ID.4": 419
@@ -1049,7 +1049,7 @@ db.insert(db.countries.AT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-2008": 62
 });
 
-db.insert(db.countries.AT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 3899
 , "Škoda": 2236
 , "Seat": 1701
@@ -1073,7 +1073,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1353
 });
 
-db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "other": 690
 , "Volkswagen|ID.3": 363
 , "Škoda|Enyaq": 339
@@ -1087,7 +1087,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "BMW|i3 BEV": 63
 });
 
-db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 3596
 , "Škoda": 2248
 , "BMW": 1561
@@ -1112,7 +1112,7 @@ db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1428
 });
 
-db.insert(db.countries.AT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "other": 782
 , "Volkswagen|ID.3": 379
 , "Škoda|Enyaq": 378
@@ -1124,7 +1124,7 @@ db.insert(db.countries.AT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Seat|Mii Electric": 79
 });
 
-db.insert(db.countries.AT, "2021-06", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 4022
 , "Škoda": 2358
 , "Seat": 1880
@@ -1148,7 +1148,7 @@ db.insert(db.countries.AT, "2021-06", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1838
 });
 
-db.insert(db.countries.AT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Tesla|Model 3": 806
 , "Škoda|Enyaq": 313
 , "Volkswagen|ID.4": 309
@@ -1160,7 +1160,7 @@ db.insert(db.countries.AT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1001
 });
 
-db.insert(db.countries.AT, "2021-07", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 3113
 , "Škoda": 1659
 , "BMW": 1415
@@ -1184,7 +1184,7 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1228
 });
 
-db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen|ID.3": 181
 , "Volkswagen|ID.4": 159
 , "Renault|Zoe": 139
@@ -1198,7 +1198,7 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 782
 });
 
-db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 3048
 , "Škoda": 1318
 , "BMW": 1107
@@ -1222,7 +1222,7 @@ db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1415
 });
 
-db.insert(db.countries.AT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen|ID.3": 325
 , "Ford|Mustang Mach-E": 294
 , "Volkswagen|ID.4": 271
@@ -1235,7 +1235,7 @@ db.insert(db.countries.AT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1076
 });
 
-db.insert(db.countries.AT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 2396
 , "Škoda": 1351
 , "Hyundai": 1325
@@ -1259,7 +1259,7 @@ db.insert(db.countries.AT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1323
 });
 
-db.insert(db.countries.AT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Škoda|Enyaq": 404
 , "Tesla|Model 3": 385
 , "Tesla|Model Y": 372
@@ -1273,7 +1273,7 @@ db.insert(db.countries.AT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1119
 });
 
-db.insert(db.countries.AT, "2021-10", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 1684
 , "Škoda": 1077
 , "Hyundai": 1003
@@ -1297,7 +1297,7 @@ db.insert(db.countries.AT, "2021-10", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1102
 });
 
-db.insert(db.countries.AT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Hyundai|Ioniq Electric": 222
 , "Volkswagen|ID.4": 192
 , "Škoda|Enyaq": 188
@@ -1311,7 +1311,7 @@ db.insert(db.countries.AT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 927
 });
 
-db.insert(db.countries.AT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Škoda": 2106
 , "Volkswagen": 1963
 , "BMW": 1456
@@ -1334,7 +1334,7 @@ db.insert(db.countries.AT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1642
 });
 
-db.insert(db.countries.AT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Tesla|Model Y": 313
 , "Audi|Q4 e-tron": 225
 , "Škoda|Enyaq": 220
@@ -1348,7 +1348,7 @@ db.insert(db.countries.AT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1538
 });
 
-db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Volkswagen": 2048
 , "Škoda": 1720
 , "Hyundai": 1663
@@ -1372,7 +1372,7 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1400
 });
 
-db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=125345",
+db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Hyundai|Ioniq Electric": 277
 , "Mini|Cooper SE Electric": 233
 , "Tesla|Model 3": 230
@@ -1386,7 +1386,7 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1502
 });
 
-db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Volkswagen": 2704
 , "Škoda": 1610
 , "Audi": 1251
@@ -1410,7 +1410,7 @@ db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1096
 });
 
-db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Cupra|Born": 266
 , "Audi|Q4 e-tron": 156
 , "Škoda|Enyaq": 132
@@ -1424,7 +1424,7 @@ db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 831
 });
 
-db.insert(db.countries.AT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Volkswagen": 1691
 , "Škoda": 1631
 , "Audi": 1123
@@ -1448,7 +1448,7 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1443
 });
 
-db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Tesla|Model Y": 367
 , "Cupra|Born": 169
 , "Audi|Q4 e-tron": 126
@@ -1462,7 +1462,7 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 858
 });
 
-db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Volkswagen": 2570
 , "Škoda": 1549
 , "BMW": 1494
@@ -1486,7 +1486,7 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1603
 });
 
-db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Tesla|Model Y": 655
 , "Tesla|Model 3": 315
 , "Škoda|Enyaq": 175
@@ -1500,7 +1500,7 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "http://ww
 , "other": 1128
 });
 
-db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Volkswagen": 2204
 , "BMW": 1500
 , "Škoda": 1389
@@ -1524,7 +1524,7 @@ db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "http://www.sta
 , "other": 1269
 });
 
-db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_NATIVE_FILE&RevisionSelectionMethod=LatestReleased&dDocName=127591",
+db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/KfzNeuzulassungenJaennerBisMai2022.ods",
 { "Cupra|Born": 144
 , "Škoda|Enyaq": 104
 , "Ford|Mustang Mach-E": 99
