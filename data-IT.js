@@ -1641,6 +1641,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 13
 , "MG|Marvel R": 12
 , "Volkswagen|e-up!": 11
+, "Volkswagen|ID.5": 11
 , "Citroën|ë-C4": 10
 , "MG|ZS EV": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
@@ -1648,7 +1649,5 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 6
 , "Jaguar|I-Pace": 5
 , "BMW|iX3": 5
-, "Mercedes-Benz|EQC": 4
-, "Audi|e-tron GT": 4
-, "other": 55
+, "other": 52
 });
