@@ -1694,6 +1694,5 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Citroën|Berlingo Electric": 7
-, "Citroën|ë-Jumpy": 6
-, "other": 37
+, "other": 43
 });
