@@ -3817,3 +3817,54 @@ db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C4": 448
 , "other": 3871
 });
+
+db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/06/2022-05-vp-france.pdf",
+{ "Renault": 22969
+, "Peugeot": 20741
+, "Dacia": 9781
+, "Citroën": 8672
+, "Volkswagen": 7352
+, "Toyota": 7205
+, "Hyundai": 4714
+, "Mercedes-Benz": 4245
+, "BMW": 4220
+, "Fiat": 4213
+, "Audi": 4147
+, "Ford": 4123
+, "Opel": 3883
+, "Kia": 3680
+, "Škoda": 2350
+, "Nissan": 2264
+, "Mini": 2210
+, "DS Automobiles": 1789
+, "Suzuki": 1200
+, "Seat": 1175
+, "Jeep": 633
+, "Volvo": 580
+, "Mazda": 561
+, "Honda": 523
+, "Mitsubishi": 282
+, "Lexus": 248
+, "Land Rover": 208
+, "Porsche": 171
+, "Tesla": 152
+, "Smart": 117
+, "Jaguar": 100
+, "Alfa Romeo": 97
+, "Maserati": 5
+, "other": 2211
+});
+
+db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-mai-2022-la-barre-des-900-000-vehicules-electrifies-rechargeables-a-ete-franchie/",
+{ "Fiat|500e": 2129
+, "Peugeot|e-208": 1668
+, "Renault|Twingo Z.E.": 1500
+, "Renault|Zoe": 1447
+, "Dacia|Spring": 1357
+, "Renault|Megane E-Tech": 758
+, "Mini|Cooper SE Electric": 733
+, "Hyundai|Kona Electric": 634
+, "Peugeot|e-2008": 561
+, "Citroën|ë-C4": 369
+, "other": 4089
+});
