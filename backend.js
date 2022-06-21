@@ -736,14 +736,12 @@ var db = {
         category = dataset.monthString;
       else if (chartConfig.xProperty == this.xProperties.quarter) {
         category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-        if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric)) {
-          if (!(dataset.country in valuesCountPerCountry))
-            valuesCountPerCountry[dataset.country] = {};
-          if (category in valuesCountPerCountry[dataset.country])
-            valuesCountPerCountry[dataset.country][category]++;
-          else
-            valuesCountPerCountry[dataset.country][category] = 1;
-        }
+        if (!(dataset.country in valuesCountPerCountry))
+          valuesCountPerCountry[dataset.country] = {};
+        if (category in valuesCountPerCountry[dataset.country])
+          valuesCountPerCountry[dataset.country][category]++;
+        else
+          valuesCountPerCountry[dataset.country][category] = 1;
       } else if (chartConfig.xProperty == this.xProperties.year)
         category = dataset.year;
       else if (chartConfig.xProperty == this.xProperties.country)
