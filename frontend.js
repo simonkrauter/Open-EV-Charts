@@ -272,7 +272,7 @@ function renderChart(chartIndex) {
     renderChartTabButtons(chartDiv);
 
   if (isSingleChart && chartConfig.view != db.views.sources)
-    renderIncompleteDataHint(chartDiv, chartData);
+    renderIncompleteDataHint(chartDiv, chartConfig, chartData);
 
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
@@ -323,8 +323,10 @@ function renderChartTabButtons(chartDiv) {
     renderChartTabButton(tabButtonsDiv, i, viewOptions[i]);
 }
 
-function renderIncompleteDataHint(chartDiv, chartData) {
+function renderIncompleteDataHint(chartDiv, chartConfig, chartData) {
   incompleteDataHints = [];
+
+  // parsing of general hints
   const keyword = " (Incomplete: ";
   for (const line in chartData.sources) {
     const i = line.indexOf(keyword);
@@ -335,6 +337,17 @@ function renderIncompleteDataHint(chartDiv, chartData) {
       incompleteDataHints.push(text);
   }
 
+  // looking for 'AllCarsByBrand not per brand'
+  if (chartConfig.metric == db.metrics.salesAll) {
+    for (const line in chartData.sources) {
+      if (line.includes("TODO: numbers per brand wanted")) {
+        incompleteDataHints.push("All cars sales data per brand is not available.");
+        break;
+      }
+    }
+  }
+
+  // render
   for (const i in incompleteDataHints) {
     const div = document.createElement("DIV");
     chartDiv.appendChild(div);
