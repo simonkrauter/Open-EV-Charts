@@ -1198,3 +1198,25 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaopeng|Xpeng P5": 3564
 , "other": 85381
 });
+
+db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1871.html TODO: numbers per brand wanted",
+{ "other": 1623000
+});
+
+db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
+{ "Wuling|Hongguang Mini EV": 34037
+, "BYD|Yuan Plus": 11500
+, "GAC|Aion S": 10503
+, "Chery|eQ1": 9754
+, "Chery|QQ Ice Cream": 9243
+, "Changan|Benni EV": 8485
+, "GAC|Aion Y": 8289
+, "Hozon|Neta V EV": 7884
+, "BYD|Dolphin": 9430
+, "SAIC|Roewe Clever EV": 6263
+, "Tesla|Model Y": 5875
+, "Leapmotor|T03": 5724
+, "Volkswagen|ID.4": 5661
+, "Great Wall|Ora Black Cat": 5333
+, "other": 235309
+});
