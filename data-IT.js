@@ -1746,3 +1746,97 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 7
 , "other": 46
 });
+
+db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Giugno%202022_62befaffac56a.pdf",
+{ "Fiat": 16812
+, "Volkswagen": 10249
+, "Peugeot": 9560
+, "Dacia": 9301
+, "Toyota": 8392
+, "Citroën": 5899
+, "Renault": 5754
+, "Opel": 5227
+, "Jeep": 5125
+, "Audi": 4408
+, "BMW": 4060
+, "Ford": 4028
+, "Mercedes-Benz": 3929
+, "Hyundai": 3918
+, "Kia": 3613
+, "Nissan": 2951
+, "Škoda": 2324
+, "Cupra": 1721
+, "Seat": 1533
+, "Suzuki": 1509
+, "Alfa Romeo": 1435
+, "Tesla": 1143
+, "Volvo": 1080
+, "Mini": 1075
+, "Land Rover": 804
+, "Smart": 754
+, "DS Automobiles": 653
+, "MG": 619
+, "Honda": 590
+, "Porsche": 581
+, "Mazda": 534
+, "Maserati": 274
+, "Jaguar": 207
+, "Lexus": 187
+, "Mitsubishi": 168
+, "Subaru": 146
+, "SsangYong": 30
+, "other": 6616
+});
+
+db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/6",
+{ "Fiat|500e": 781
+, "Tesla|Model Y": 769
+, "Smart|Fortwo ED": 723
+, "Tesla|Model 3": 374
+, "Renault|Twingo Z.E.": 271
+, "Peugeot|e-208": 222
+, "Renault|Zoe": 217
+, "Renault|Megane E-Tech": 189
+, "Peugeot|e-2008": 177
+, "Volkswagen|ID.3": 170
+, "Dacia|Spring": 165
+, "Škoda|Enyaq": 163
+, "Mercedes-Benz|EQA": 163
+, "Mini|Cooper SE Electric": 140
+, "Volkswagen|ID.4": 136
+, "Cupra|Born": 134
+, "Nissan|Leaf": 115
+, "Hyundai|Kona Electric": 113
+, "Volkswagen|e-up!": 101
+, "Audi|Q4 e-tron": 93
+, "Opel|Mokka-e": 82
+, "Opel|Corsa-e": 64
+, "BMW|i3 BEV": 50
+, "Volkswagen|ID.5": 46
+, "Porsche|Taycan": 45
+, "Ford|Mustang Mach-E": 45
+, "Citroën|ë-C4": 44
+, "MG|Marvel R": 43
+, "MG|ZS EV": 42
+, "Mercedes-Benz|EQB": 33
+, "Smart|Forfour ED": 31
+, "BMW|iX": 30
+, "Toyota|Proace Electric": 29
+, "Kia|Niro EV": 29
+, "Audi|e-tron": 28
+, "Honda|e": 27
+, "DS Automobiles|DS 3 Crossback E-Tense": 26
+, "Mazda|MX-30": 22
+, "BMW|i4": 19
+, "Kia|EV6": 18
+, "Volvo|C40 Recharge": 17
+, "Aiways|U5": 16
+, "Mercedes-Benz|EQE": 15
+, "MG|MG5 EV": 14
+, "Jaguar|I-Pace": 13
+, "Subaru|Solterra": 12
+, "Hyundai|Ioniq 5": 11
+, "BMW|iX3": 10
+, "Peugeot|e-Rifter": 7
+, "other": 87
+});
