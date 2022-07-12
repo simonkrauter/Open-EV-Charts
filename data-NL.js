@@ -3894,13 +3894,13 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 143
 , "Volkswagen|ID.3": 140
 , "Cupra|Born": 138
-, "Volkswagen|ID.4": 130
+, "Volkswagen|ID.4": 131
 , "Mini|Cooper SE Electric": 128
 , "Peugeot|e-2008": 102
 , "Audi|e-tron": 86
 , "Mercedes-Benz|EQA": 82
 , "MG|ZS EV": 82
-, "Hyundai|Ioniq 5": 79
+, "Hyundai|Ioniq 5": 80
 , "Renault|Zoe": 70
 , "Ford|Mustang Mach-E": 66
 , "BMW|iX": 65
