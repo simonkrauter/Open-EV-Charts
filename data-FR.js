@@ -5,6 +5,7 @@
 db.addCountry("FR", "France");
 
 // https://ccfa.fr/immatriculations-commandes/
+// https://www.avere-france.org/publications/?publication-type%5B%5D=barometres-immatriculations
 
 db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_01_vpfrance.pdf",
 { "Peugeot": 31523
@@ -3867,4 +3868,56 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 561
 , "Citroën|ë-C4": 369
 , "other": 4089
+});
+
+db.insert(db.countries.FR, "2022-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/07/2022-06-vp-france.pdf",
+{ "Renault": 36443
+, "Peugeot": 28360
+, "Dacia": 17278
+, "Citroën": 13217
+, "Volkswagen": 9103
+, "Toyota": 8715
+, "Mercedes-Benz": 5426
+, "Opel": 4731
+, "Hyundai": 4475
+, "Fiat": 4379
+, "Audi": 4166
+, "BMW": 4092
+, "Kia": 4053
+, "Ford": 3537
+, "Tesla": 3011
+, "Škoda": 2930
+, "Nissan": 2601
+, "DS Automobiles": 2030
+, "Mini": 1905
+, "Suzuki": 1498
+, "Seat": 1400
+, "Volvo": 922
+, "Jeep": 773
+, "Mazda": 694
+, "Honda": 569
+, "Land Rover": 459
+, "Porsche": 424
+, "Alfa Romeo": 305
+, "Lexus": 203
+, "Mitsubishi": 190
+, "Jaguar": 169
+, "Smart": 117
+, "Maserati": 9
+, "SsangYong": 1
+, "other": 2900
+});
+
+db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-des-immatriculations-de-vehicules-100-electriques-en-hausse-de-28-sur-le-premier-semestre-2022/",
+{ "Peugeot|e-208": 2860
+, "Renault|Twingo Z.E.": 2158
+, "Renault|Zoe": 2048
+, "Tesla|Model Y": 1964
+, "Renault|Megane E-Tech": 1854
+, "Fiat|500e": 1843
+, "Dacia|Spring": 1325
+, "Tesla|Model 3": 1047
+, "Hyundai|Kona Electric": 618
+, "Citroën|ë-C4": 568
+, "other": 5603
 });
