@@ -52,7 +52,7 @@ Feeback
 
 Feeback of any kind is welcome:
 - Send an email to trustable@disroot.org
-- [Create a GitHub issue](https://github.com/trustable-code/Open-EV-Charts/issues/new)
+- [Create a GitHub issue](https://github.com/simonkrauter/Open-EV-Charts/issues/new)
 
 Contributing
 ------------
