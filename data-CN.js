@@ -395,7 +395,7 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Xiaopeng|Xpeng G3": 2237
 , "Great Wall|Ora iQ5 EV": 564
 , "BAIC|EC-Series": 4744
-, "Dongfeng|Fengshen E70 EV": 3525
+, "Dongfeng|E70 EV": 3525
 });
 
 db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#jul TODO: numbers per brand wanted",
@@ -954,7 +954,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Nio|ES6": 3755
 , "Pocco|MeiMei": 3658
 , "Hozon|Neta V EV": 3533
-, "Dongfeng|Fengshen E70 EV": 3427
+, "Dongfeng|E70 EV": 3427
 , "other": 65220
 });
 
