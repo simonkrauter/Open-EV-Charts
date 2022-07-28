@@ -807,7 +807,8 @@ var db = {
     }
 
     // Remove last quarter if it is incomplete
-    if (Object.keys(valuesCountPerCountry).length > 0) {
+    if (this.isTimeXProperty(chartConfig) && Object.keys(valuesCountPerCountry).length > 0) {
+      categories.sort();
       const lastCategory = categories[categories.length - 1];
       for (const i in valuesCountPerCountry) {
         const valueCountPerCategory = valuesCountPerCountry[i];
