@@ -1220,3 +1220,26 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Great Wall|Ora Black Cat": 5333
 , "other": 235309
 });
+
+db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1872.html TODO: numbers per brand wanted",
+{ "other": 2222000
+});
+
+db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
+{ "Tesla|Model Y": 52150
+, "Wuling|Hongguang Mini EV": 46249
+, "Tesla|Model 3": 25788
+, "BYD|Yuan Plus": 16704
+, "GAC|Aion Y": 11801
+, "Volkswagen|ID.4": 10711
+, "BYD|Dolphin": 10376
+, "Changan|Benni EV": 10161
+, "Chery|eQ1": 9692
+, "Chery|QQ Ice Cream": 9663
+, "Hozon|Neta V EV": 9147
+, "GAC|Aion S": 8903
+, "Great Wall|Ora Good Cat EV": 8275
+, "Xiaopeng|Xpeng P7": 8045
+, "Dongfeng|E-Series": 7536
+, "other": 243639
+});
