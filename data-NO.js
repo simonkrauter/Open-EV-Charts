@@ -3119,7 +3119,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 431
 });
 
-db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021-2",
+db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021-2-2",
 { "Tesla": 2682
 , "Volkswagen": 1867
 , "Škoda": 1274
