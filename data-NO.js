@@ -3197,6 +3197,82 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 463
 });
 
+db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2022",
+{ "Volkswagen": 1196
+, "Škoda": 807
+, "Toyota": 744
+, "Hyundai": 519
+, "MG": 457
+, "Audi": 403
+, "Mercedes-Benz": 309
+, "BMW": 293
+, "Ford": 275
+, "Volvo": 249
+, "BYD": 238
+, "Kia": 214
+, "Peugeot": 211
+, "Citroën": 203
+, "Suzuki": 184
+, "Nissan": 120
+, "Opel": 101
+, "Porsche": 91
+, "Polestar": 74
+, "Tesla": 1
+, "other": 173
+});
+
+db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles)",
+{ "Škoda|Enyaq": 654
+, "Volkswagen|ID.4": 637
+, "Hyundai|Ioniq 5": 275
+, "MG|ZS EV": 268
+, "Audi|e-tron": 242
+, "BYD|Tang": 229
+, "Volkswagen|ID.5": 227
+, "Ford|Mustang Mach-E": 220
+, "Citroën|ë-C4": 159
+, "Kia|EV6": 142
+, "Audi|Q4 e-tron": 126
+, "BMW|iX": 115
+, "Nissan|Leaf": 113
+, "Hyundai|Kona Electric": 110
+, "Volkswagen|ID.3": 105
+, "MG|Marvel R": 101
+, "Hyundai|Ioniq Electric": 93
+, "Mercedes-Benz|EQB": 89
+, "MG|MG5 EV": 86
+, "Polestar|2": 73
+, "Peugeot|e-208": 70
+, "Cupra|Born": 70
+, "BMW|i4": 64
+, "Porsche|Taycan": 56
+, "Renault|Megane E-Tech": 46
+, "Peugeot|e-2008": 46
+, "Mazda|MX-30": 43
+, "Tesla|Model Y": 38
+, "Opel|Corsa-e": 38
+, "Nio|ES8": 37
+, "Mercedes-Benz|EQA": 33
+, "Volvo|XC40 Recharge pure electric": 31
+, "Mercedes-Benz|EQE": 30
+, "Mercedes-Benz|EQC": 23
+, "Hongqi|E-HS9": 23
+, "Mini|Cooper SE Electric": 22
+, "Lexus|UX 300e": 21
+, "Mercedes-Benz|EQV": 20
+, "BMW|i3 BEV": 18
+, "Opel|Combo-e": 15
+, "Renault|Zoe": 14
+, "Xiaopeng|Xpeng P7": 13
+, "Opel|Mokka-e": 13
+, "Jaguar|I-Pace": 13
+, "Kia|Niro EV": 11
+, "Mercedes-Benz|EQS": 10
+, "Kia|Soul EV": 9
+, "other": 59
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
