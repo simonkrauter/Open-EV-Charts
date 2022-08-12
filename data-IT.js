@@ -1840,3 +1840,98 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 7
 , "other": 87
 });
+
+db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Luglio%202022_62e7d48f1cccf.pdf",
+{ "Fiat": 15300
+, "Volkswagen": 9847
+, "Toyota": 8119
+, "Renault": 6134
+, "Ford": 5536
+, "Peugeot": 5256
+, "Dacia": 5154
+, "Citroën": 5116
+, "Audi": 4750
+, "Jeep": 4124
+, "Mercedes-Benz": 3830
+, "Opel": 3615
+, "Hyundai": 3560
+, "Kia": 3442
+, "BMW": 3164
+, "Škoda": 2314
+, "Nissan": 1958
+, "Alfa Romeo": 1446
+, "Seat": 1366
+, "Suzuki": 1311
+, "Volvo": 1287
+, "Mini": 1242
+, "Cupra": 907
+, "Land Rover": 837
+, "Porsche": 669
+, "Mazda": 571
+, "Honda": 534
+, "MG": 519
+, "DS Automobiles": 430
+, "Mitsubishi": 394
+, "Smart": 311
+, "Maserati": 311
+, "Jaguar": 180
+, "Lexus": 142
+, "Subaru": 115
+, "Tesla": 37
+, "SsangYong": 20
+, "other": 5732
+});
+
+db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/7",
+{ "Fiat|500e": 779
+, "Smart|Fortwo ED": 304
+, "Renault|Twingo Z.E.": 263
+, "Renault|Megane E-Tech": 234
+, "Peugeot|e-208": 188
+, "Cupra|Born": 126
+, "Peugeot|e-2008": 104
+, "Mini|Cooper SE Electric": 98
+, "Ford|Mustang Mach-E": 97
+, "Opel|Mokka-e": 94
+, "Renault|Zoe": 91
+, "Volkswagen|ID.3": 88
+, "Hyundai|Kona Electric": 87
+, "Mercedes-Benz|EQA": 81
+, "Audi|Q4 e-tron": 79
+, "Volkswagen|ID.4": 68
+, "Opel|Corsa-e": 62
+, "BMW|i3 BEV": 61
+, "Porsche|Taycan": 59
+, "Nissan|Leaf": 58
+, "Škoda|Enyaq": 54
+, "Dacia|Spring": 52
+, "Audi|e-tron": 42
+, "Toyota|Proace Electric": 37
+, "Tesla|Model Y": 37
+, "Citroën|ë-C4": 37
+, "Mercedes-Benz|EQB": 34
+, "BMW|i4": 32
+, "Volkswagen|ID.5": 31
+, "BMW|iX": 27
+, "MG|ZS EV": 24
+, "Kia|EV6": 22
+, "Volkswagen|e-up!": 20
+, "Volvo|C40 Recharge": 15
+, "BMW|iX3": 14
+, "Mercedes-Benz|EQE": 13
+, "Aiways|U5": 13
+, "Jaguar|I-Pace": 9
+, "Smart|Forfour ED": 7
+, "Mazda|MX-30": 7
+, "Mercedes-Benz|EQS": 6
+, "Mercedes-Benz|EQC": 6
+, "Kia|Niro EV": 6
+, "Audi|e-tron GT": 6
+, "Honda|e": 5
+, "MG|Marvel R": 4
+, "Hyundai|Ioniq 5": 4
+, "DS Automobiles|DS 3 Crossback E-Tense": 4
+, "Opel|Combo-e": 3
+, "Lexus|UX 300e": 3
+, "other": 36
+});
