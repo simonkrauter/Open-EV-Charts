@@ -3983,7 +3983,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 323
 , "Audi|Q4 e-tron": 297
 , "Kia|Niro EV": 292
-, "Cupra|Born": 261
+, "Cupra|Born": 264
 , "Polestar|2": 216
 , "Dacia|Spring": 202
 , "BMW|iX3": 199
@@ -4014,7 +4014,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 46
 , "MG|Marvel R": 42
 , "Mercedes-Benz|EQS": 41
-, "Porsche|Taycan": 39
+, "Porsche|Taycan": 40
 , "Citroën|Berlingo Electric": 38
 , "Fiat|E-Ulysse": 30
 , "Kia|Soul EV": 28
@@ -4025,5 +4025,5 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Subaru|Solterra": 11
-, "other": 107
+, "other": 109
 });
