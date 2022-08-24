@@ -1243,3 +1243,25 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Dongfeng|E-Series": 7536
 , "other": 243639
 });
+
+db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1873.html TODO: numbers per brand wanted",
+{ "other": 2174000
+});
+
+db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
+{ "Wuling|Hongguang Mini EV": 37128
+, "BYD|Dolphin": 20493
+, "BYD|Yuan Plus": 19239
+, "GAC|Aion Y": 12530
+, "Volkswagen|ID.4": 11414
+, "Chery|eQ1": 11202
+, "Chery|QQ Ice Cream": 9381
+, "Changan|Benni EV": 8726
+, "Tesla|Model Y": 7640
+, "Hozon|Neta V EV": 7585
+, "Dongfeng|E-Series": 7583
+, "GAC|Aion S": 6864
+, "Leapmotor|C11": 6582
+, "Great Wall|Ora Good Cat EV": 8519
+, "other": 259914
+});
