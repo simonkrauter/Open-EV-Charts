@@ -3921,3 +3921,55 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C4": 568
 , "other": 5603
 });
+
+db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/08/2022-07-vp-france.pdf",
+{ "Peugeot": 17537
+, "Renault": 15149
+, "Citroën": 9480
+, "Dacia": 9438
+, "Toyota": 7772
+, "Volkswagen": 6580
+, "Hyundai": 4742
+, "Fiat": 3551
+, "Kia": 3481
+, "Mercedes-Benz": 3413
+, "Audi": 3183
+, "BMW": 3149
+, "Opel": 2988
+, "Ford": 2611
+, "Mini": 2103
+, "Škoda": 2044
+, "Nissan": 1547
+, "DS Automobiles": 1538
+, "Volvo": 1402
+, "Seat": 967
+, "Suzuki": 829
+, "Jeep": 521
+, "Land Rover": 432
+, "Mazda": 346
+, "Honda": 328
+, "Porsche": 285
+, "Alfa Romeo": 256
+, "Mitsubishi": 182
+, "Lexus": 157
+, "Jaguar": 93
+, "Tesla": 79
+, "Smart": 70
+, "Maserati": 15
+, "SsangYong": 3
+, "other": 1272
+});
+
+db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-les-immatriculations-de-vehicules-100-electriques-en-hausse-de-62-par-rapport-a-lan-passe/",
+{ "Renault|Megane E-Tech": 1937
+, "Peugeot|e-208": 1379
+, "Renault|Zoe": 953
+, "Fiat|500e": 938
+, "Peugeot|e-2008": 876
+, "Renault|Twingo Z.E.": 818
+, "Hyundai|Kona Electric": 711
+, "Dacia|Spring": 661
+, "Citroën|ë-C4": 348
+, "Opel|Mokka-e": 310
+, "other": 3805
+});
