@@ -3153,7 +3153,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 342
 , "Hyundai|Kona Electric": 308
 , "BMW|i4": 299
-, "Hyundai|Ioniq 5": 271
+, "Hyundai|Ioniq 5": 272
 , "BYD|Tang": 244
 , "Citroën|ë-C4": 230
 , "MG|Marvel R": 212
@@ -3194,7 +3194,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng P7": 19
 , "Mercedes-Benz|EQE": 19
 , "Fiat|500e": 19
-, "other": 463
+, "other": 462
 });
 
 db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2022",
