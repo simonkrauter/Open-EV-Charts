@@ -1299,8 +1299,8 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Ioniq 5": 75
 , "Nissan|e-NV200": 59
 , "Mercedes-Benz|eVito": 46
+, "Volvo|C40 Recharge": 29
 , "Citroën|ë-SpaceTourer": 28
 , "Peugeot|e-Traveller": 15
-, "Mercedes-Benz|EQS": 7
-, "other": 3
+, "other": 10
 });
