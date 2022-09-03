@@ -3007,7 +3007,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 143
 , "Hongqi|E-HS9": 142
 , "Xiaopeng|Xpeng G3": 126
-, "Mercedes-Benz|EQC": 124
+, "Mercedes-Benz|EQC": 125
 , "BMW|i4": 115
 , "Peugeot|e-2008": 108
 , "MG|ZS EV": 108
@@ -3038,7 +3038,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng P7": 15
 , "Opel|Zafira-e": 15
 , "Honda|e": 15
-, "other": 367
+, "other": 366
 });
 
 db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2022",
