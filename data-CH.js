@@ -3684,11 +3684,12 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eSprinter": 11
 , "Opel|Vivaro-e": 10
 , "Tesla|Model Y": 9
+, "JAC|iEV7 S/E": 9
 , "Tesla|Model 3": 8
 , "Peugeot|e-Traveller": 8
 , "Nissan|e-NV200": 7
 , "Honda|e": 7
-, "other": 68
+, "other": 59
 });
 
 db.insert(db.countries.CH, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/03/ModellePW2022.xlsx",
@@ -3782,10 +3783,11 @@ db.insert(db.countries.CH, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 12
 , "Nissan|e-NV200": 11
 , "Mercedes-Benz|EQV": 10
+, "JAC|iEV7 S/E": 10
 , "Volkswagen|e-up!": 9
 , "Peugeot|Partner Electric": 9
 , "Škoda|Citigo-e": 8
-, "other": 71
+, "other": 61
 });
 
 db.insert(db.countries.CH, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/04/ModellePW2022.xlsx",
@@ -3883,8 +3885,8 @@ db.insert(db.countries.CH, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 13
 , "Nissan|Leaf": 11
 , "Kia|Soul EV": 11
-, "Nissan|e-NV200": 9
-, "other": 103
+, "JAC|iEV7 S/E": 11
+, "other": 101
 });
 
 db.insert(db.countries.CH, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/05/ModellePW2022.xlsx",
@@ -3972,6 +3974,7 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 17
 , "Smart|Fortwo ED": 15
 , "Opel|Mokka-e": 13
+, "Fiat|E-Scudo": 13
 , "Peugeot|e-Expert": 12
 , "Nissan|Leaf": 12
 , "Mercedes-Benz|EQS": 12
@@ -3983,7 +3986,7 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 7
 , "Kia|Soul EV": 7
 , "Citroën|Berlingo Electric": 7
-, "other": 87
+, "other": 74
 });
 
 db.insert(db.countries.CH, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/06/ModellePW2022.xlsx",
@@ -4080,10 +4083,10 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 11
 , "Opel|Mokka-e": 10
 , "Honda|e": 10
+, "Fiat|E-Scudo": 10
 , "Opel|Zafira-e": 8
 , "Peugeot|e-2008": 7
-, "Peugeot|e-Rifter": 6
-, "other": 90
+, "other": 86
 });
 
 db.insert(db.countries.CH, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/07/ModellePW2022.xlsx",
