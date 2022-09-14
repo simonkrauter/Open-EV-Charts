@@ -4008,3 +4008,99 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 6
 , "other": 36
 });
+
+db.insert(db.countries.ES, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosagostotur.asp, https://www.km77.com/mercado/espana/2022/datosagostott.asp",
+{ "Toyota": 4939
+, "Kia": 4544
+, "Hyundai": 4422
+, "Volkswagen": 3907
+, "Peugeot": 3036
+, "Dacia": 2772
+, "Mercedes-Benz": 2629
+, "Citroën": 2542
+, "Ford": 2312
+, "Audi": 2306
+, "Renault": 1970
+, "BMW": 1967
+, "Seat": 1966
+, "Opel": 1898
+, "Škoda": 1691
+, "Nissan": 1319
+, "Fiat": 1303
+, "Mazda": 874
+, "Volvo": 700
+, "MG": 673
+, "Cupra": 588
+, "Mini": 549
+, "Suzuki": 366
+, "Lexus": 335
+, "Jeep": 285
+, "SsangYong": 224
+, "Mitsubishi": 222
+, "Alfa Romeo": 217
+, "DS Automobiles": 212
+, "Honda": 179
+, "Land Rover": 178
+, "Porsche": 103
+, "Subaru": 77
+, "Tesla": 52
+, "Jaguar": 47
+, "Maserati": 26
+, "Aiways": 12
+, "Smart": 9
+, "Polestar": 8
+, "other": 448
+});
+
+db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/8 (includes commercial vehicles)",
+{ "Dacia|Spring": 153
+, "Kia|Niro EV": 92
+, "Mini|Cooper SE Electric": 79
+, "Cupra|Born": 67
+, "Citroën|ë-C4": 61
+, "Hyundai|Kona Electric": 57
+, "Mercedes-Benz|EQA": 54
+, "Fiat|500e": 53
+, "Volvo|C40 Recharge": 50
+, "Opel|Mokka-e": 50
+, "Škoda|Enyaq": 47
+, "Kia|EV6": 46
+, "Tesla|Model Y": 41
+, "Mercedes-Benz|EQB": 37
+, "BMW|iX": 37
+, "Peugeot|e-208": 36
+, "Peugeot|e-Rifter": 34
+, "Peugeot|e-2008": 34
+, "Audi|Q4 e-tron": 31
+, "Volkswagen|ID.4": 28
+, "Volkswagen|ID.3": 27
+, "Volkswagen|ID.5": 24
+, "Opel|Combo-e": 24
+, "Opel|Corsa-e": 23
+, "Ford|Mustang Mach-E": 22
+, "Nissan|Leaf": 20
+, "Renault|Zoe": 16
+, "BMW|i4": 15
+, "BMW|iX3": 14
+, "Renault|Twingo Z.E.": 13
+, "Renault|Megane E-Tech": 13
+, "MG|Marvel R": 12
+, "Hyundai|Ioniq 5": 12
+, "Aiways|U5": 12
+, "Tesla|Model 3": 11
+, "Mercedes-Benz|EQE": 10
+, "Audi|e-tron": 10
+, "Volvo|XC40 Recharge pure electric": 9
+, "Porsche|Taycan": 9
+, "Polestar|2": 8
+, "Mercedes-Benz|EQC": 8
+, "MG|ZS EV": 7
+, "Smart|Fortwo ED": 5
+, "Smart|Forfour ED": 4
+, "Mercedes-Benz|EQS": 4
+, "Mazda|MX-30": 4
+, "Honda|e": 4
+, "Audi|e-tron GT": 4
+, "Jaguar|I-Pace": 3
+, "other": 15
+});
