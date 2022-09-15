@@ -3551,8 +3551,9 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 4
 , "Mercedes-Benz|EQC": 3
 , "Peugeot|e-Rifter": 2
+, "JAC|iEV7 S/E": 2
 , "Citroën|Berlingo Electric": 2
-, "other": 12
+, "other": 10
 });
 
 db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/februari/",
