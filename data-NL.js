@@ -4071,8 +4071,8 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/7",
-{ "Škoda|Enyaq": 541
-, "Kia|EV6": 370
+{ "Škoda|Enyaq": 543
+, "Kia|EV6": 371
 , "Citroën|ë-C4": 312
 , "Hyundai|Ioniq 5": 263
 , "Peugeot|e-208": 260
@@ -4081,24 +4081,24 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron": 183
 , "Kia|Niro EV": 181
 , "Volkswagen|ID.4": 173
-, "Renault|Megane E-Tech": 156
+, "Renault|Megane E-Tech": 157
 , "Opel|Corsa-e": 138
 , "Opel|Mokka-e": 135
 , "BMW|i4": 132
 , "Cupra|Born": 124
 , "Fiat|500e": 123
+, "Audi|Q4 e-tron": 114
 , "Hyundai|Kona Electric": 113
-, "Audi|Q4 e-tron": 113
 , "Mini|Cooper SE Electric": 95
 , "Tesla|Model Y": 94
 , "Ford|Mustang Mach-E": 84
-, "Volkswagen|ID.5": 65
+, "Volkswagen|ID.5": 66
 , "Toyota|Proace Electric": 65
 , "Polestar|2": 61
 , "Citroën|ë-Jumpy": 61
 , "BMW|iX3": 61
 , "Dacia|Spring": 56
-, "Porsche|Taycan": 53
+, "Porsche|Taycan": 54
 , "Mercedes-Benz|EQA": 52
 , "Renault|Twingo Z.E.": 48
 , "Opel|Vivaro-e": 45
