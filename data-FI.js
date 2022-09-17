@@ -1371,3 +1371,54 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "other": 35
 });
+
+db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 5503
+});
+
+db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/7",
+{ "Škoda|Enyaq": 108
+, "Volkswagen|ID.5": 89
+, "Volkswagen|ID.4": 89
+, "BMW|i4": 47
+, "Ford|Mustang Mach-E": 41
+, "Volkswagen|ID.3": 39
+, "Kia|EV6": 30
+, "Tesla|Model Y": 27
+, "Audi|e-tron": 27
+, "Peugeot|e-2008": 25
+, "Volkswagen|e-up!": 23
+, "Nissan|Leaf": 21
+, "Audi|Q4 e-tron": 19
+, "Peugeot|e-208": 18
+, "Volvo|XC40 Recharge pure electric": 17
+, "Polestar|2": 17
+, "Fiat|500e": 17
+, "Mercedes-Benz|EQA": 15
+, "Cupra|Born": 15
+, "Mercedes-Benz|EQS": 14
+, "Porsche|Taycan": 13
+, "Renault|Megane E-Tech": 12
+, "Citroën|ë-C4": 12
+, "BMW|iX": 12
+, "Hyundai|Kona Electric": 11
+, "Mini|Cooper SE Electric": 10
+, "Mercedes-Benz|EQE": 10
+, "Toyota|Proace Electric": 9
+, "Mercedes-Benz|EQB": 9
+, "Hyundai|Ioniq 5": 9
+, "Opel|Mokka-e": 8
+, "Kia|Niro EV": 6
+, "Volvo|C40 Recharge": 5
+, "Mercedes-Benz|EQC": 4
+, "BMW|iX3": 2
+, "Tesla|Model 3": 1
+, "Peugeot|e-Rifter": 1
+, "Opel|Corsa-e": 1
+, "Opel|Combo-e": 1
+, "Lexus|UX 300e": 1
+, "Jaguar|I-Pace": 1
+, "Hyundai|Ioniq Electric": 1
+, "Honda|e": 1
+, "other": 18
+});
