@@ -1064,7 +1064,8 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 1
 , "Opel|Zafira-e": 1
 , "Opel|Mokka-e": 1
-, "other": 18
+, "Opel|Combo-e": 1
+, "other": 17
 });
 
 db.insert(db.countries.IE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf TODO: numbers per brand wanted",
