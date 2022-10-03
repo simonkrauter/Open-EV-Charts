@@ -3149,7 +3149,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 1024
 , "BMW|iX": 471
 , "Audi|e-tron": 417
-, "Audi|Q4 e-tron": 361
+, "Audi|Q4 e-tron": 362
 , "Ford|Mustang Mach-E": 342
 , "Hyundai|Kona Electric": 308
 , "BMW|i4": 299
@@ -3194,7 +3194,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng P7": 19
 , "Mercedes-Benz|EQE": 19
 , "Fiat|500e": 19
-, "other": 462
+, "other": 461
 });
 
 db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juli-2022",
