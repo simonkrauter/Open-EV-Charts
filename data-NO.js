@@ -3310,7 +3310,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 272
 , "Hyundai|Ioniq 5": 265
 , "Audi|Q4 e-tron": 181
-, "Mercedes-Benz|EQC": 173
+, "Mercedes-Benz|EQC": 174
 , "BYD|Tang": 173
 , "MG|ZS EV": 162
 , "Ford|Mustang Mach-E": 160
@@ -3347,7 +3347,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 17
 , "Mercedes-Benz|EQV": 13
 , "Volvo|C40 Recharge": 12
-, "other": 56
+, "other": 55
 });
 
 
