@@ -4217,3 +4217,99 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 5
 , "other": 48
 });
+
+db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/september/",
+{ "Kia": 2711
+, "Volkswagen": 2393
+, "Toyota": 1741
+, "Renault": 1594
+, "Peugeot": 1594
+, "Hyundai": 1483
+, "Ford": 1459
+, "Škoda": 1312
+, "BMW": 1270
+, "Mercedes-Benz": 1131
+, "Volvo": 1024
+, "Audi": 853
+, "Opel": 841
+, "Mazda": 729
+, "Tesla": 646
+, "Nissan": 512
+, "Suzuki": 468
+, "Dacia": 441
+, "Citroën": 371
+, "Mini": 320
+, "Fiat": 317
+, "Mitsubishi": 306
+, "Seat": 267
+, "Cupra": 207
+, "MG": 177
+, "Polestar": 125
+, "Porsche": 109
+, "Land Rover": 104
+, "Honda": 89
+, "DS Automobiles": 50
+, "Alfa Romeo": 38
+, "Jeep": 36
+, "Lexus": 29
+, "BYD": 28
+, "Jaguar": 27
+, "Smart": 9
+, "Subaru": 3
+, "Maserati": 3
+, "other": 975
+});
+
+db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/9",
+{ "Tesla|Model Y": 563
+, "Škoda|Enyaq": 483
+, "BMW|i4": 396
+, "Volvo|XC40 Recharge pure electric": 334
+, "Kia|Niro EV": 296
+, "Volkswagen|ID.4": 265
+, "Kia|EV6": 245
+, "Peugeot|e-208": 238
+, "Peugeot|e-2008": 187
+, "Audi|e-tron": 184
+, "Mini|Cooper SE Electric": 147
+, "BMW|iX3": 137
+, "Dacia|Spring": 133
+, "Polestar|2": 125
+, "Citroën|ë-C4": 124
+, "Cupra|Born": 123
+, "Volkswagen|ID.5": 106
+, "Volvo|C40 Recharge": 104
+, "Volkswagen|ID.3": 101
+, "Opel|Mokka-e": 98
+, "Nissan|Ariya": 98
+, "Renault|Twingo Z.E.": 97
+, "MG|ZS EV": 96
+, "Nissan|Leaf": 92
+, "Mercedes-Benz|EQA": 90
+, "Tesla|Model 3": 87
+, "Hyundai|Ioniq 5": 87
+, "Mercedes-Benz|EQB": 84
+, "Audi|Q4 e-tron": 84
+, "Renault|Megane E-Tech": 74
+, "MG|Marvel R": 66
+, "Mazda|MX-30": 64
+, "Renault|Zoe": 58
+, "Fiat|500e": 55
+, "Ford|Mustang Mach-E": 51
+, "Fiat|E-Ulysse": 50
+, "BMW|iX": 50
+, "Opel|Corsa-e": 44
+, "Hyundai|Kona Electric": 42
+, "Mercedes-Benz|EQE": 40
+, "Mercedes-Benz|EQS": 34
+, "Mercedes-Benz|EQC": 29
+, "Opel|Vivaro-e": 25
+, "Kia|Soul EV": 18
+, "BYD|Yuan Plus": 14
+, "BYD|Tang": 11
+, "Porsche|Taycan": 10
+, "MG|MG5 EV": 9
+, "Audi|e-tron GT": 8
+, "Peugeot|e-Expert": 7
+, "other": 64
+});
