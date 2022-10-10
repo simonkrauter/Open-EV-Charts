@@ -4167,24 +4167,24 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/8",
 { "Škoda|Enyaq": 442
 , "Kia|Niro EV": 319
-, "Peugeot|e-208": 310
-, "Kia|EV6": 278
+, "Peugeot|e-208": 311
+, "Kia|EV6": 279
 , "Peugeot|e-2008": 262
 , "Audi|e-tron": 262
 , "Volvo|XC40 Recharge pure electric": 252
 , "Volkswagen|ID.3": 236
 , "Hyundai|Ioniq 5": 224
 , "Volkswagen|ID.4": 211
-, "Mini|Cooper SE Electric": 191
+, "Mini|Cooper SE Electric": 192
 , "Cupra|Born": 190
 , "Dacia|Spring": 181
 , "Opel|Corsa-e": 161
 , "Citroën|ë-C4": 152
 , "Opel|Mokka-e": 146
-, "BMW|i4": 140
+, "BMW|i4": 141
 , "BMW|iX3": 138
 , "Volkswagen|ID.5": 128
-, "Fiat|500e": 123
+, "Fiat|500e": 124
 , "BMW|iX": 106
 , "Hyundai|Kona Electric": 99
 , "Tesla|Model Y": 97
@@ -4197,8 +4197,8 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 58
 , "Renault|Zoe": 56
 , "Mercedes-Benz|EQE": 51
+, "Porsche|Taycan": 50
 , "Ford|Mustang Mach-E": 50
-, "Porsche|Taycan": 49
 , "Mercedes-Benz|EQA": 47
 , "Mercedes-Benz|EQS": 46
 , "Tesla|Model 3": 45
