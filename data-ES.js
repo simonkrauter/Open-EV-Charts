@@ -4104,3 +4104,100 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 3
 , "other": 15
 });
+
+db.insert(db.countries.ES, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2022/datosseptiembrett.asp",
+{ "Kia": 46685
+, "Toyota": 5656
+, "Hyundai": 4553
+, "Volkswagen": 4535
+, "Renault": 4302
+, "Peugeot": 4251
+, "Citroën": 4048
+, "Mercedes-Benz": 3640
+, "Dacia": 3012
+, "Audi": 2969
+, "Seat": 2474
+, "BMW": 2458
+, "Fiat": 2422
+, "Škoda": 2084
+, "Ford": 2078
+, "Opel": 2033
+, "Nissan": 1528
+, "Cupra": 1260
+, "Mazda": 1076
+, "Tesla": 1052
+, "Volvo": 871
+, "Mini": 758
+, "Lexus": 550
+, "MG": 444
+, "Suzuki": 399
+, "Honda": 382
+, "Jeep": 372
+, "DS Automobiles": 314
+, "Alfa Romeo": 253
+, "Land Rover": 238
+, "Porsche": 211
+, "Mitsubishi": 201
+, "SsangYong": 141
+, "Subaru": 118
+, "Jaguar": 51
+, "Maserati": 27
+, "Smart": 16
+, "Aiways": 12
+, "Polestar": 7
+, "other": 695
+});
+
+db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/9 (includes commercial vehicles)",
+{ "Tesla|Model 3": 715
+, "Tesla|Model Y": 337
+, "Fiat|500e": 329
+, "Dacia|Spring": 135
+, "Volvo|XC40 Recharge pure electric": 134
+, "Mini|Cooper SE Electric": 100
+, "Hyundai|Kona Electric": 93
+, "Mercedes-Benz|EQB": 81
+, "Mercedes-Benz|EQA": 75
+, "Opel|Corsa-e": 74
+, "Renault|Zoe": 73
+, "Kia|Niro EV": 72
+, "MG|ZS EV": 65
+, "Kia|EV6": 63
+, "Renault|Twingo Z.E.": 58
+, "Volkswagen|ID.5": 57
+, "Cupra|Born": 54
+, "Citroën|ë-C4": 51
+, "Audi|Q4 e-tron": 47
+, "Volkswagen|ID.4": 45
+, "Škoda|Enyaq": 43
+, "Peugeot|e-208": 42
+, "Nissan|Ariya": 41
+, "Renault|Megane E-Tech": 40
+, "Hyundai|Ioniq 5": 37
+, "BMW|iX": 35
+, "Opel|Mokka-e": 34
+, "BMW|i4": 32
+, "MG|Marvel R": 29
+, "Volvo|C40 Recharge": 26
+, "Volkswagen|ID.3": 24
+, "Peugeot|e-2008": 24
+, "Audi|e-tron": 21
+, "Nissan|Leaf": 20
+, "Ford|Mustang Mach-E": 20
+, "Opel|Combo-e": 19
+, "BMW|i3 BEV": 18
+, "SsangYong|Korando e-Motion": 13
+, "Peugeot|e-Rifter": 13
+, "Porsche|Taycan": 12
+, "MG|MG4 EV": 12
+, "Aiways|U5": 12
+, "Smart|Fortwo ED": 11
+, "Mercedes-Benz|EQS": 11
+, "Mercedes-Benz|EQC": 9
+, "Mazda|MX-30": 8
+, "BMW|iX3": 8
+, "Polestar|2": 7
+, "Mercedes-Benz|EQE": 6
+, "Jaguar|I-Pace": 6
+, "other": 28
+});
