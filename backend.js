@@ -720,7 +720,7 @@ var db = {
     var seriesRows = {};
     var sources = [];
     var categories = [];
-    var valuesCountPerCountry = {};
+    var monthCountPerSeriesAndQuarter = {};
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -734,19 +734,14 @@ var db = {
       var category = "";
       if (chartConfig.xProperty == this.xProperties.month)
         category = dataset.monthString;
-      else if (chartConfig.xProperty == this.xProperties.quarter) {
+      else if (chartConfig.xProperty == this.xProperties.quarter)
         category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-        if (!(dataset.country in valuesCountPerCountry))
-          valuesCountPerCountry[dataset.country] = {};
-        if (category in valuesCountPerCountry[dataset.country])
-          valuesCountPerCountry[dataset.country][category]++;
-        else
-          valuesCountPerCountry[dataset.country][category] = 1;
-      } else if (chartConfig.xProperty == this.xProperties.year)
+      else if (chartConfig.xProperty == this.xProperties.year)
         category = dataset.year;
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
+      var isFirstValidDataset = true;
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
@@ -785,6 +780,16 @@ var db = {
             seriesName = brand;
         }
 
+        if (isFirstValidDataset && chartConfig.xProperty == this.xProperties.quarter) {
+          const quarter = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
+          if (!(seriesName in monthCountPerSeriesAndQuarter))
+            monthCountPerSeriesAndQuarter[seriesName] = {};
+          if (quarter in monthCountPerSeriesAndQuarter[seriesName])
+            monthCountPerSeriesAndQuarter[seriesName][quarter]++;
+          else
+            monthCountPerSeriesAndQuarter[seriesName][quarter] = 1;
+        }
+
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
@@ -803,18 +808,19 @@ var db = {
           sources[dataset.source].firstDate = dataset.monthString;
         }
         sources[dataset.source].lastDate = dataset.monthString;
+
+        isFirstValidDataset = false;
       }
     }
 
     // Remove last quarter if it is incomplete
-    if (this.isTimeXProperty(chartConfig) && Object.keys(valuesCountPerCountry).length > 0) {
+    if (chartConfig.xProperty == this.xProperties.quarter) {
       categories.sort();
-      const lastCategory = categories[categories.length - 1];
-      for (const i in valuesCountPerCountry) {
-        const valueCountPerCategory = valuesCountPerCountry[i];
-        if (valueCountPerCategory[lastCategory] != 3) {
-          categories.pop();
-          break;
+      const lastQuarter = categories[categories.length - 1];
+      for (const seriesName in monthCountPerSeriesAndQuarter) {
+        const monthCountPerQuarter = monthCountPerSeriesAndQuarter[seriesName];
+        if (monthCountPerQuarter[lastQuarter] != 3) {
+          delete seriesRows[seriesName][lastQuarter];
         }
       }
     }
