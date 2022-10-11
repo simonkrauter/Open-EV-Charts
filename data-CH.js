@@ -4379,3 +4379,103 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 8
 , "other": 158
 });
+
+db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/10/ModellePW2022.xlsx",
+{ "Volkswagen": 2052
+, "Mercedes-Benz": 1946
+, "Tesla": 1796
+, "BMW": 1676
+, "Škoda": 1483
+, "Audi": 1434
+, "Toyota": 1098
+, "Ford": 970
+, "Seat": 881
+, "Dacia": 856
+, "Renault": 688
+, "Kia": 645
+, "Hyundai": 561
+, "Peugeot": 551
+, "Mazda": 462
+, "Fiat": 417
+, "Volvo": 392
+, "Mini": 379
+, "Opel": 371
+, "Porsche": 364
+, "Suzuki": 303
+, "Citroën": 212
+, "Mitsubishi": 182
+, "Honda": 170
+, "Jeep": 144
+, "Nissan": 143
+, "Alfa Romeo": 129
+, "Subaru": 114
+, "Land Rover": 109
+, "Jaguar": 66
+, "Polestar": 56
+, "Genesis": 50
+, "Maserati": 37
+, "Lexus": 37
+, "DS Automobiles": 28
+, "Smart": 14
+, "SsangYong": 12
+, "Aiways": 7
+, "Cadillac": 6
+, "Chevrolet": 3
+, "Dodge": 2
+, "Chrysler": 2
+, "other": 100
+});
+
+db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/9",
+{ "Tesla|Model Y": 979
+, "Tesla|Model 3": 817
+, "Škoda|Enyaq": 238
+, "Renault|Megane E-Tech": 190
+, "Audi|Q4 e-tron": 153
+, "Volkswagen|ID.3": 132
+, "Cupra|Born": 126
+, "Volkswagen|ID.4": 125
+, "Fiat|500e": 117
+, "Volvo|C40 Recharge": 94
+, "Mercedes-Benz|EQA": 87
+, "Audi|e-tron": 74
+, "BMW|i3 BEV": 67
+, "Dacia|Spring": 60
+, "Polestar|2": 56
+, "Ford|Mustang Mach-E": 55
+, "BMW|i4": 55
+, "BMW|iX": 54
+, "Renault|Twingo Z.E.": 51
+, "Kia|Niro EV": 49
+, "Opel|Mokka-e": 47
+, "Mercedes-Benz|EQC": 43
+, "Volkswagen|ID.5": 41
+, "BMW|iX3": 38
+, "Citroën|Berlingo Electric": 37
+, "Mercedes-Benz|EQB": 36
+, "Mini|Cooper SE Electric": 31
+, "Opel|Vivaro-e": 30
+, "Hyundai|Kona Electric": 30
+, "Toyota|Proace Electric": 28
+, "Hyundai|Ioniq 5": 27
+, "Peugeot|e-208": 26
+, "Mercedes-Benz|eVito": 25
+, "Peugeot|e-Expert": 22
+, "Renault|Zoe": 21
+, "Renault|Kangoo Z.E.": 19
+, "Nissan|Ariya": 18
+, "Peugeot|e-2008": 17
+, "Mercedes-Benz|EQS": 17
+, "Mercedes-Benz|EQE": 17
+, "Subaru|Solterra": 16
+, "Opel|Combo-e": 16
+, "Kia|EV6": 16
+, "Volkswagen|e-up!": 15
+, "Volvo|XC40 Recharge pure electric": 14
+, "Smart|Fortwo ED": 11
+, "Citroën|ë-Jumpy": 11
+, "Nissan|Leaf": 10
+, "Porsche|Taycan": 9
+, "Opel|Corsa-e": 9
+, "other": 124
+});
