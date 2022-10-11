@@ -816,7 +816,7 @@ var db = {
       const lastQuarter = categories[categories.length - 1];
       for (const seriesName in monthsPerSeriesAndQuarter) {
         const monthsPerQuarter = monthsPerSeriesAndQuarter[seriesName];
-        if (monthsPerQuarter[lastQuarter] && monthsPerQuarter[lastQuarter].length != 3) {
+        if (monthsPerQuarter[lastQuarter] && monthsPerQuarter[lastQuarter].length != 3 && seriesRows[seriesName]) {
           delete seriesRows[seriesName][lastQuarter];
         }
       }
