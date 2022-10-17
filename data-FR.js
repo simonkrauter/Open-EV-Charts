@@ -4025,3 +4025,54 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 398
 , "other": 4260
 });
+
+db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/10/2022-09-vp-france.pdf",
+{ "Peugeot": 23534
+, "Renault": 22240
+, "Citroën": 12521
+, "Dacia": 12213
+, "Toyota": 9589
+, "Volkswagen": 7873
+, "Ford": 5187
+, "Mercedes-Benz": 4665
+, "Kia": 4232
+, "Audi": 4067
+, "Hyundai": 3765
+, "BMW": 3601
+, "Tesla": 3463
+, "Opel": 3236
+, "Škoda": 3052
+, "Fiat": 2786
+, "Mini": 1965
+, "Nissan": 1958
+, "DS Automobiles": 1901
+, "Volvo": 1367
+, "Suzuki": 1134
+, "Mazda": 877
+, "Seat": 643
+, "Honda": 505
+, "Land Rover": 497
+, "Alfa Romeo": 356
+, "Jeep": 341
+, "Porsche": 258
+, "Lexus": 223
+, "Mitsubishi": 206
+, "Smart": 142
+, "Jaguar": 106
+, "Maserati": 17
+, "other": 2630
+});
+
+db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-septembre-2022-les-vehicules-electriques-et-hybrides-rechargeables-se-sont-octroyes-pres-de-21-de-parts-de-marche/",
+{ "Renault|Megane E-Tech": 2897
+, "Tesla|Model 3": 2202
+, "Dacia|Spring": 2170
+, "Peugeot|e-208": 2129
+, "Renault|Twingo Z.E.": 1387
+, "Fiat|500e": 1269
+, "Tesla|Model Y": 1261
+, "Renault|Zoe": 1117
+, "Peugeot|e-2008": 867
+, "Volkswagen|ID.3": 632
+, "other": 6550
+});
