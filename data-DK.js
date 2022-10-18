@@ -1388,10 +1388,10 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 12
 , "Citroën|Berlingo Electric": 10
 , "Mercedes-Benz|eVito": 9
-, "Toyota|Proace Electric": 8
 , "Fiat|500e": 8
 , "MG|Marvel R": 7
 , "Citroën|ë-C4": 6
+, "Toyota|Proace Electric": 5
 , "Opel|Zafira-e": 5
 , "Opel|Corsa-e": 4
 , "Audi|e-tron GT": 4
