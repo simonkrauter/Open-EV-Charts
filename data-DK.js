@@ -1329,9 +1329,9 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 10
 , "Mini|Cooper SE Electric": 10
 , "Volkswagen|e-up!": 8
+, "Toyota|Proace Electric": 8
 , "BMW|iX": 8
 , "Mercedes-Benz|EQS": 7
-, "Toyota|Proace Electric": 5
 , "Mercedes-Benz|eVito": 5
 , "MG|Marvel R": 4
 , "Audi|e-tron GT": 4
