@@ -1287,3 +1287,25 @@ db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Zeekr|001": 7166
 , "other": 267406
 });
+
+db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1875.html TODO: numbers per brand wanted",
+{ "other": 2332000
+});
+
+db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
+{ "Tesla|Model Y": 46694
+, "Wuling|Hongguang Mini EV": 37416
+, "Tesla|Model 3": 30919
+, "BYD|Dolphin": 24956
+, "BYD|Yuan Plus": 23069
+, "GAC|Aion S": 13522
+, "GAC|Aion Y": 13408
+, "Hozon|Neta V EV": 11935
+, "Changan|Lumin": 10010
+, "Chery|eQ1": 9288
+, "Chery|QQ Ice Cream": 8650
+, "Zeekr|001": 8276
+, "BYD|Seal": 7473
+, "Geely|Geometry A": 7293
+, "other": 353411
+});
