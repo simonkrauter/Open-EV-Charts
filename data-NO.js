@@ -2930,7 +2930,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 176
 , "Peugeot|e-2008": 175
 , "Škoda|Enyaq": 173
-, "Citroën|ë-C4": 158
+, "Citroën|ë-C4": 159
 , "Volkswagen|ID.3": 156
 , "Porsche|Taycan": 156
 , "BMW|i4": 131
@@ -2960,7 +2960,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 18
 , "Audi|e-tron GT": 15
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
-, "other": 244
+, "other": 243
 });
 
 db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2022",
