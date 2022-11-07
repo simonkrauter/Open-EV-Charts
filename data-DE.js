@@ -5336,3 +5336,99 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i7": 67
 , "other": 788
 });
+
+db.insert(db.countries.DE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2",
+{ "Volkswagen": 41159
+, "Mercedes-Benz": 21303
+, "Audi": 17228
+, "BMW": 15032
+, "Ford": 11887
+, "Škoda": 11555
+, "Opel": 9762
+, "Seat": 8383
+, "Hyundai": 8166
+, "Toyota": 7086
+, "Renault": 5851
+, "Fiat": 5664
+, "Kia": 5656
+, "Dacia": 4026
+, "Mazda": 3438
+, "Volvo": 3320
+, "Tesla": 3185
+, "Peugeot": 3178
+, "Mini": 3176
+, "Mitsubishi": 2327
+, "Porsche": 2242
+, "Citroën": 2140
+, "Nissan": 2095
+, "MG": 2032
+, "Polestar": 1073
+, "Land Rover": 939
+, "Jeep": 912
+, "Suzuki": 806
+, "Smart": 656
+, "Honda": 583
+, "DS Automobiles": 509
+, "Alfa Romeo": 435
+, "Subaru": 225
+, "Lexus": 188
+, "Jaguar": 187
+, "SsangYong": 132
+, "Maserati": 96
+, "Cadillac": 33
+, "other": 1977
+});
+
+db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2",
+{ "Fiat|500e": 2363
+, "Volkswagen|ID.3": 2160
+, "Volkswagen|ID.4/ID.5": 2115
+, "Tesla|Model Y": 1622
+, "Tesla|Model 3": 1563
+, "Opel|Mokka-e": 1531
+, "Audi|e-tron": 1141
+, "Cupra|Born": 1140
+, "Hyundai|Kona Electric": 1108
+, "Hyundai|Ioniq 5": 1100
+, "Škoda|Enyaq": 1098
+, "Volkswagen|e-up!": 1093
+, "Renault|Megane E-Tech": 1076
+, "Polestar|2": 1073
+, "Audi|Q4 e-tron": 1031
+, "Mini|Cooper SE Electric": 1019
+, "Peugeot|e-208": 781
+, "Mercedes-Benz|EQA": 780
+, "Renault|Zoe": 779
+, "Dacia|Spring": 736
+, "Smart|Fortwo ED": 650
+, "Mercedes-Benz|EQB": 650
+, "MG|MG5 EV": 579
+, "Renault|Twingo Z.E.": 550
+, "Mercedes-Benz|EQC": 524
+, "Ford|Mustang Mach-E": 518
+, "Volvo|XC40 Recharge pure electric": 459
+, "MG|MG4 EV": 433
+, "BMW|i4": 403
+, "BMW|i3 BEV": 355
+, "Volvo|C40 Recharge": 347
+, "BMW|iX3": 332
+, "BMW|iX": 319
+, "Porsche|Taycan": 308
+, "Peugeot|e-2008": 301
+, "Mercedes-Benz|EQE": 300
+, "Mazda|MX-30": 295
+, "MG|Marvel R": 287
+, "Opel|Corsa-e": 270
+, "Kia|Niro EV": 264
+, "Kia|EV6": 255
+, "Nissan|Leaf": 216
+, "MG|ZS EV": 212
+, "Nissan|Ariya": 189
+, "Mercedes-Benz|EQS": 176
+, "Mercedes-Benz|EQV": 161
+, "Citroën|ë-C4": 161
+, "Audi|e-tron GT": 103
+, "DS Automobiles|DS 3 Crossback E-Tense": 69
+, "Kia|Soul EV": 61
+, "other": 721
+});
