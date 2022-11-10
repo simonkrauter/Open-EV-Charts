@@ -1240,7 +1240,7 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 9
 , "Kia|Niro EV": 9
 , "Volkswagen|e-up!": 7
-, "Renault|Megane E-Tech": 7
+, "Renault|Mégane E-Tech Electric": 7
 , "Volkswagen|ID.3": 6
 , "Opel|Mokka-e": 6
 , "Cupra|Born": 6
@@ -1398,7 +1398,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 15
 , "Mercedes-Benz|EQS": 14
 , "Porsche|Taycan": 13
-, "Renault|Megane E-Tech": 12
+, "Renault|Mégane E-Tech Electric": 12
 , "Citroën|ë-C4": 12
 , "BMW|iX": 12
 , "Hyundai|Kona Electric": 11
@@ -1458,7 +1458,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 13
 , "Mercedes-Benz|EQC": 13
 , "Jaguar|I-Pace": 6
-, "Renault|Megane E-Tech": 5
+, "Renault|Mégane E-Tech Electric": 5
 , "Hyundai|Kona Electric": 4
 , "Renault|Zoe": 3
 , "Kia|Niro EV": 3
@@ -1496,7 +1496,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 35
 , "Audi|Q4 e-tron": 34
 , "Volkswagen|ID.3": 33
-, "Renault|Megane E-Tech": 31
+, "Renault|Mégane E-Tech Electric": 31
 , "BMW|iX": 28
 , "Nissan|Ariya": 24
 , "Hyundai|Ioniq 5": 22

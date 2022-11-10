@@ -3343,7 +3343,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 17
 , "BMW|iX3": 14
 , "Mercedes-Benz|EQV": 12
-, "Renault|Megane E-Tech": 9
+, "Renault|Mégane E-Tech Electric": 9
 , "Lexus|UX 300e": 6
 , "other": 20
 });
@@ -3519,7 +3519,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 42
 , "Mercedes-Benz|EQC": 40
 , "Cupra|Born": 40
-, "Renault|Megane E-Tech": 36
+, "Renault|Mégane E-Tech Electric": 36
 , "BMW|i4": 35
 , "Peugeot|e-Rifter": 24
 , "Peugeot|e-Expert": 24
@@ -3602,7 +3602,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 39
 , "Peugeot|e-Rifter": 38
 , "Tesla|Model 3": 37
-, "Renault|Megane E-Tech": 36
+, "Renault|Mégane E-Tech Electric": 36
 , "Audi|e-tron": 35
 , "Lexus|UX 300e": 33
 , "Volvo|C40 Recharge": 31
@@ -3696,7 +3696,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 34
 , "Ford|Mustang Mach-E": 33
 , "Porsche|Taycan": 29
-, "Renault|Megane E-Tech": 23
+, "Renault|Mégane E-Tech Electric": 23
 , "Honda|e": 22
 , "Peugeot|e-Expert": 20
 , "Mercedes-Benz|EQS": 20
@@ -3862,7 +3862,7 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 1500
 , "Renault|Zoe": 1447
 , "Dacia|Spring": 1357
-, "Renault|Megane E-Tech": 758
+, "Renault|Mégane E-Tech Electric": 758
 , "Mini|Cooper SE Electric": 733
 , "Hyundai|Kona Electric": 634
 , "Peugeot|e-2008": 561
@@ -3913,7 +3913,7 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 2158
 , "Renault|Zoe": 2048
 , "Tesla|Model Y": 1964
-, "Renault|Megane E-Tech": 1854
+, "Renault|Mégane E-Tech Electric": 1854
 , "Fiat|500e": 1843
 , "Dacia|Spring": 1325
 , "Tesla|Model 3": 1047
@@ -3961,7 +3961,7 @@ db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 });
 
 db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-les-immatriculations-de-vehicules-100-electriques-en-hausse-de-62-par-rapport-a-lan-passe/",
-{ "Renault|Megane E-Tech": 1937
+{ "Renault|Mégane E-Tech Electric": 1937
 , "Peugeot|e-208": 1379
 , "Renault|Zoe": 953
 , "Fiat|500e": 938
@@ -4013,7 +4013,7 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 });
 
 db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-aout-2022-les-vehicules-electriques-et-hybrides-rechargeables-se-sont-octroyes-plus-de-18-de-parts-de-marche/",
-{ "Renault|Megane E-Tech": 1521
+{ "Renault|Mégane E-Tech Electric": 1521
 , "Fiat|500e": 1325
 , "Dacia|Spring": 988
 , "Peugeot|e-208": 889
@@ -4064,7 +4064,7 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 });
 
 db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-septembre-2022-les-vehicules-electriques-et-hybrides-rechargeables-se-sont-octroyes-pres-de-21-de-parts-de-marche/",
-{ "Renault|Megane E-Tech": 2897
+{ "Renault|Mégane E-Tech Electric": 2897
 , "Tesla|Model 3": 2202
 , "Dacia|Spring": 2170
 , "Peugeot|e-208": 2129
@@ -4117,7 +4117,7 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 
 db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-nous-y-sommes-plus-d1-million-de-vehicules-electriques-et-hybrides-rechargeables-circulent-en-france/",
 { "Peugeot|e-208": 2350
-, "Renault|Megane E-Tech": 2109
+, "Renault|Mégane E-Tech Electric": 2109
 , "Fiat|500e": 1276
 , "Tesla|Model 3": 1256
 , "Renault|Twingo Z.E.": 810

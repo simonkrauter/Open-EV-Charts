@@ -3246,7 +3246,7 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 70
 , "BMW|i4": 64
 , "Porsche|Taycan": 56
-, "Renault|Megane E-Tech": 46
+, "Renault|Mégane E-Tech Electric": 46
 , "Peugeot|e-2008": 46
 , "Mazda|MX-30": 43
 , "Tesla|Model Y": 38
@@ -3327,7 +3327,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 88
 , "MG|Marvel R": 78
 , "Porsche|Taycan": 76
-, "Renault|Megane E-Tech": 72
+, "Renault|Mégane E-Tech Electric": 72
 , "MG|MG5 EV": 67
 , "Opel|Corsa-e": 62
 , "Mercedes-Benz|EQE": 59
@@ -3412,7 +3412,7 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 65
 , "Opel|Combo-e": 57
 , "Opel|Mokka-e": 52
-, "Renault|Megane E-Tech": 51
+, "Renault|Mégane E-Tech Electric": 51
 , "Nissan|Ariya": 46
 , "Lexus|UX 300e": 42
 , "Porsche|Taycan": 39
@@ -3472,7 +3472,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 188
 , "BMW|iX3": 187
 , "Subaru|Solterra": 179
-, "Renault|Megane E-Tech": 177
+, "Renault|Mégane E-Tech Electric": 177
 , "Mazda|MX-30": 172
 , "Ford|Mustang Mach-E": 168
 , "Volkswagen|ID. Buzz": 149

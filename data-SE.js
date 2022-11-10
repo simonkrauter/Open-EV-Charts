@@ -1834,7 +1834,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 114
 , "Audi|e-tron": 109
 , "BMW|i4": 106
-, "Renault|Megane E-Tech": 98
+, "Renault|Mégane E-Tech Electric": 98
 , "Hyundai|Kona Electric": 93
 , "Volkswagen|ID.3": 91
 , "Kia|Niro EV": 91
@@ -1908,7 +1908,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 39
 , "Kia|Soul EV": 38
 , "Fiat|500e": 38
-, "Renault|Megane E-Tech": 34
+, "Renault|Mégane E-Tech Electric": 34
 , "Hyundai|Kona Electric": 34
 , "Mercedes-Benz|EQE": 31
 , "Porsche|Taycan": 27
@@ -1968,7 +1968,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 39
 , "Mercedes-Benz|EQC": 38
 , "Opel|Mokka-e": 29
-, "Renault|Megane E-Tech": 27
+, "Renault|Mégane E-Tech Electric": 27
 , "Renault|Kangoo Z.E.": 27
 , "Kia|Soul EV": 27
 , "Opel|Vivaro-e": 26

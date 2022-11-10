@@ -1300,7 +1300,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 9
 , "Mercedes-Benz|EQE": 7
 , "Ford|Mustang Mach-E": 6
-, "Renault|Megane E-Tech": 4
+, "Renault|Mégane E-Tech Electric": 4
 , "Opel|Mokka-e": 4
 , "MG|MG5 EV": 4
 , "Audi|Q4 e-tron": 4

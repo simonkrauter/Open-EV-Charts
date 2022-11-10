@@ -3981,7 +3981,7 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 10
 , "Opel|Zafira-e": 9
 , "Tesla|Model 3": 8
-, "Renault|Megane E-Tech": 8
+, "Renault|Mégane E-Tech Electric": 8
 , "Peugeot|e-Rifter": 7
 , "Peugeot|Partner Electric": 7
 , "Kia|Soul EV": 7
@@ -4143,7 +4143,7 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 173
 , "Audi|e-tron": 129
 , "Fiat|500e": 127
-, "Renault|Megane E-Tech": 111
+, "Renault|Mégane E-Tech Electric": 111
 , "Audi|Q4 e-tron": 101
 , "Volkswagen|ID.3": 100
 , "Hyundai|Ioniq 5": 87
@@ -4246,7 +4246,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 61
 , "Mercedes-Benz|EQA": 58
 , "Mercedes-Benz|eVito": 55
-, "Renault|Megane E-Tech": 52
+, "Renault|Mégane E-Tech Electric": 52
 , "Volkswagen|ID.3": 48
 , "Polestar|2": 47
 , "Citroën|ë-C4": 43
@@ -4338,7 +4338,7 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 123
 , "Volkswagen|ID.4": 116
 , "BMW|iX": 106
-, "Renault|Megane E-Tech": 98
+, "Renault|Mégane E-Tech Electric": 98
 , "Ford|Mustang Mach-E": 68
 , "Volkswagen|ID.3": 60
 , "Hyundai|Ioniq 5": 55
@@ -4430,7 +4430,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 979
 , "Tesla|Model 3": 817
 , "Škoda|Enyaq": 238
-, "Renault|Megane E-Tech": 190
+, "Renault|Mégane E-Tech Electric": 190
 , "Audi|Q4 e-tron": 153
 , "Volkswagen|ID.3": 132
 , "Cupra|Born": 126

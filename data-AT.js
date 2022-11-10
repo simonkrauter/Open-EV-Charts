@@ -2241,7 +2241,7 @@ db.insert(db.countries.AT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 214
 , "Škoda|Enyaq": 181
 , "Renault|Zoe": 117
-, "Renault|Megane E-Tech": 93
+, "Renault|Mégane E-Tech Electric": 93
 , "BMW|iX3": 91
 , "Hyundai|Ioniq 5": 88
 , "Volkswagen|ID.3": 87
@@ -2462,7 +2462,7 @@ db.insert(db.countries.AT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 101
 , "BMW|iX3": 82
 , "Audi|Q4 e-tron": 81
-, "Renault|Megane E-Tech": 78
+, "Renault|Mégane E-Tech Electric": 78
 , "Mercedes-Benz|EQC": 67
 , "other": 1038
 });
