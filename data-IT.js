@@ -2121,3 +2121,97 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 7
 , "other": 27
 });
+
+db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Ottobre%202022_6362879f08071.pdf",
+{ "Fiat": 13377
+, "Toyota": 9032
+, "Volkswagen": 8633
+, "Ford": 6611
+, "Renault": 5838
+, "Audi": 5438
+, "Citroën": 5374
+, "Peugeot": 5118
+, "Jeep": 4984
+, "Dacia": 4889
+, "BMW": 4814
+, "Mercedes-Benz": 4455
+, "Kia": 4058
+, "Hyundai": 3693
+, "Opel": 3435
+, "Mini": 1999
+, "Škoda": 1835
+, "Nissan": 1778
+, "Suzuki": 1729
+, "Alfa Romeo": 1642
+, "MG": 1482
+, "Volvo": 1475
+, "Cupra": 1028
+, "Seat": 838
+, "Mazda": 797
+, "Land Rover": 728
+, "Honda": 708
+, "Porsche": 576
+, "Smart": 470
+, "DS Automobiles": 470
+, "Maserati": 356
+, "Lexus": 245
+, "Jaguar": 177
+, "Mitsubishi": 114
+, "Subaru": 109
+, "Tesla": 30
+, "SsangYong": 18
+, "other": 7474
+});
+
+db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/10",
+{ "Smart|Fortwo ED": 468
+, "Renault|Twingo Z.E.": 419
+, "Fiat|500e": 398
+, "Peugeot|e-208": 281
+, "Mini|Cooper SE Electric": 198
+, "Renault|Megane E-Tech": 164
+, "Volkswagen|ID.3": 137
+, "Peugeot|e-2008": 117
+, "Audi|Q4 e-tron": 117
+, "Cupra|Born": 99
+, "BMW|i4": 92
+, "Volvo|XC40 Recharge pure electric": 84
+, "Volkswagen|ID.4": 69
+, "Mercedes-Benz|EQA": 66
+, "Opel|Corsa-e": 53
+, "Hyundai|Kona Electric": 49
+, "Nissan|Leaf": 47
+, "Ford|Mustang Mach-E": 47
+, "Renault|Zoe": 46
+, "BMW|iX3": 45
+, "Mercedes-Benz|EQB": 44
+, "Opel|Mokka-e": 43
+, "Volkswagen|ID.5": 36
+, "Porsche|Taycan": 35
+, "Dacia|Spring": 35
+, "Audi|e-tron": 34
+, "BMW|i3 BEV": 33
+, "Tesla|Model Y": 31
+, "BMW|iX": 31
+, "Škoda|Enyaq": 29
+, "MG|MG4 EV": 29
+, "Volvo|C40 Recharge": 28
+, "Kia|Niro EV": 28
+, "Toyota|Proace Electric": 25
+, "Nissan|Ariya": 21
+, "MG|Marvel R": 21
+, "Citroën|ë-C4": 21
+, "Mercedes-Benz|EQE": 18
+, "Kia|EV6": 17
+, "Polestar|2": 16
+, "Hyundai|Ioniq 5": 14
+, "Mercedes-Benz|EQC": 11
+, "Mazda|MX-30": 11
+, "MG|ZS EV": 10
+, "Mercedes-Benz|EQS": 6
+, "Lexus|UX 300e": 6
+, "Subaru|Solterra": 5
+, "Peugeot|e-Rifter": 5
+, "MG|MG5 EV": 5
+, "other": 24
+});
