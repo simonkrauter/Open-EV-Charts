@@ -4076,3 +4076,55 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 632
 , "other": 6550
 });
+
+db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/11/2022-10-vp-france.pdf",
+{ "Peugeot": 21106
+, "Renault": 18364
+, "Toyota": 10288
+, "Citroën": 10267
+, "Dacia": 10157
+, "Volkswagen": 8502
+, "Kia": 4292
+, "Mercedes-Benz": 4102
+, "Hyundai": 3868
+, "Audi": 3652
+, "Ford": 3498
+, "BMW": 3482
+, "Fiat": 2798
+, "Opel": 2643
+, "Nissan": 2202
+, "Škoda": 1908
+, "Tesla": 1790
+, "Mini": 1615
+, "DS Automobiles": 1462
+, "Volvo": 1301
+, "Suzuki": 1046
+, "Seat": 956
+, "Mazda": 563
+, "Honda": 408
+, "Land Rover": 403
+, "Jeep": 373
+, "Alfa Romeo": 363
+, "Porsche": 330
+, "Lexus": 250
+, "Mitsubishi": 190
+, "Jaguar": 101
+, "Smart": 96
+, "Maserati": 33
+, "Subaru": 1
+, "other": 2589
+});
+
+db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-nous-y-sommes-plus-d1-million-de-vehicules-electriques-et-hybrides-rechargeables-circulent-en-france/",
+{ "Peugeot|e-208": 2350
+, "Renault|Megane E-Tech": 2109
+, "Fiat|500e": 1276
+, "Tesla|Model 3": 1256
+, "Renault|Twingo Z.E.": 810
+, "Peugeot|e-2008": 642
+, "Renault|Zoe": 635
+, "Volkswagen|ID.3": 602
+, "Hyundai|Kona Electric": 551
+, "Dacia|Spring": 550
+, "other": 6080
+});
