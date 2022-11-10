@@ -4261,7 +4261,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/9",
-{ "Tesla|Model Y": 563
+{ "Tesla|Model Y": 564
 , "Škoda|Enyaq": 483
 , "BMW|i4": 396
 , "Volvo|XC40 Recharge pure electric": 334
@@ -4272,7 +4272,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 187
 , "Audi|e-tron": 184
 , "Mini|Cooper SE Electric": 147
-, "BMW|iX3": 137
+, "BMW|iX3": 138
 , "Dacia|Spring": 133
 , "Polestar|2": 125
 , "Citroën|ë-C4": 124
@@ -4283,14 +4283,14 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 98
 , "Nissan|Ariya": 98
 , "Renault|Twingo Z.E.": 97
-, "MG|ZS EV": 96
+, "MG|ZS EV": 97
 , "Nissan|Leaf": 92
 , "Mercedes-Benz|EQA": 90
 , "Tesla|Model 3": 87
 , "Hyundai|Ioniq 5": 87
 , "Mercedes-Benz|EQB": 84
 , "Audi|Q4 e-tron": 84
-, "Renault|Megane E-Tech": 74
+, "Renault|Megane E-Tech": 79
 , "MG|Marvel R": 66
 , "Mazda|MX-30": 64
 , "Renault|Zoe": 58
@@ -4311,5 +4311,5 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 9
 , "Audi|e-tron GT": 8
 , "Peugeot|e-Expert": 7
-, "other": 64
+, "other": 69
 });
