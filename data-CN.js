@@ -1309,3 +1309,24 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Geely|Geometry A": 7293
 , "other": 353411
 });
+
+db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1876.html TODO: numbers per brand wanted",
+{ "other": 2231000
+});
+
+db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
+{ "Wuling|Hongguang Mini EV": 41255
+, "BYD|Yuan Plus": 26648
+, "BYD|Dolphin": 25240
+, "GAC|Aion S": 14507
+, "Tesla|Model Y": 14391
+, "GAC|Aion Y": 14391
+, "Changan|Lumin": 12009
+, "Hozon|Neta V EV": 11721
+, "BYD|Seal": 11267
+, "Zeekr|001": 10119
+, "Chery|eQ1": 9938
+, "Changan|Benni EV": 8835
+, "Dongfeng|E-Series": 8315
+, "other": 282184
+});
