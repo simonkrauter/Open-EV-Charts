@@ -2707,7 +2707,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 101
 , "Kia|EV6": 101
 , "Citroën|ë-C4": 88
-, "MG|Marvel R": 79
+, "MG|Marvel R": 80
 , "Nio|ES8": 67
 , "Jaguar|I-Pace": 63
 , "Mazda|MX-30": 60
@@ -2727,7 +2727,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 18
 , "Cupra|Born": 17
 , "Mercedes-Benz|EQV": 12
-, "other": 119
+, "other": 118
 });
 
 db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2022",
@@ -3014,7 +3014,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 106
 , "BMW|i3 BEV": 106
 , "Mercedes-Benz|EQS": 101
-, "BYD|Tang": 100
+, "BYD|Tang": 101
 , "Peugeot|e-208": 95
 , "Nio|ES8": 82
 , "Porsche|Taycan": 80
@@ -3038,7 +3038,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xiaopeng|Xpeng P7": 15
 , "Opel|Zafira-e": 15
 , "Honda|e": 15
-, "other": 366
+, "other": 365
 });
 
 db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2022",
