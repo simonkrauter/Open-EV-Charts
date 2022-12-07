@@ -2987,7 +2987,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 888
 });
 
-db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/4 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2022",
 { "Volvo|XC40 Recharge pure electric": 560
 , "Škoda|Enyaq": 474
 , "Volkswagen|ID.4": 429
@@ -3065,7 +3065,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1149
 });
 
-db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/5 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2022",
 { "Volkswagen|ID.4": 880
 , "Polestar|2": 465
 , "BMW|iX": 459
@@ -3143,7 +3143,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1115
 });
 
-db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/6 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2021-2-2",
 { "Tesla|Model Y": 2531
 , "Volkswagen|ID.4": 1219
 , "Škoda|Enyaq": 1024
@@ -3221,7 +3221,7 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 173
 });
 
-db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2022",
 { "Škoda|Enyaq": 654
 , "Volkswagen|ID.4": 637
 , "Hyundai|Ioniq 5": 275
@@ -3296,7 +3296,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 856
 });
 
-db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/8 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2022",
 { "Volkswagen|ID.4": 1451
 , "Škoda|Enyaq": 707
 , "Tesla|Model 3": 506
@@ -3374,7 +3374,7 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 974
 });
 
-db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/9 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2022",
 { "Tesla|Model Y": 3063
 , "Volkswagen|ID.4": 903
 , "Škoda|Enyaq": 620
@@ -3452,7 +3452,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 1051
 });
 
-db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/10 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2022",
 { "Volkswagen|ID.4": 995
 , "Škoda|Enyaq": 733
 , "BMW|iX": 538
@@ -3506,7 +3506,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 461
 });
 
-db.insert(db.countries.NO, "2022-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+db.insert(db.countries.NO, "2022-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2022-2",
 { "Tesla": 3226
 , "BMW": 2205
 , "Volkswagen": 2195
