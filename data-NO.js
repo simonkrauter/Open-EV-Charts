@@ -3581,7 +3581,7 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 29
 , "Mini|Cooper SE Electric": 27
 , "BMW|i7": 24
-, "other": 4171
+, "other": 573
 });
 
 
