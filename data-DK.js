@@ -891,7 +891,7 @@ db.insert(db.countries.DK, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 5
 , "Toyota|Proace Electric": 4
 , "Mercedes-Benz|eVito": 3
-, "Xiaopeng|Xpeng P7": 2
+, "Xpeng|P7": 2
 , "Volkswagen|e-Golf": 2
 , "Lexus|UX 300e": 2
 , "other": 24
@@ -948,7 +948,7 @@ db.insert(db.countries.DK, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 3
 , "Nissan|e-NV200": 3
 , "Mazda|MX-30": 2
-, "Xiaopeng|Xpeng P5": 1
+, "Xpeng|P5": 1
 , "Citroën|ë-Jumpy": 1
 , "BMW|i3 BEV": 1
 , "other": 9
@@ -1502,7 +1502,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 8
 , "Toyota|Proace Electric": 6
 , "Porsche|Taycan": 5
-, "Xiaopeng|Xpeng P7": 4
+, "Xpeng|P7": 4
 , "BYD|Yuan Plus": 4
 , "Aiways|U5": 4
 , "Hyundai|Ioniq 5": 3

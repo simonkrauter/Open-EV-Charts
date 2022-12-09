@@ -371,7 +371,7 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JMC|E200": 500
 , "Changan|Eado EV": 1892
 , "Tesla|Model 3": 2000
-, "Xiaopeng|Xpeng G3": 2704
+, "Xpeng|G3": 2704
 , "BYD|Qin Pro EV": 2936
 });
 
@@ -392,7 +392,7 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 7340
 , "Tesla|Model 3": 6500
 , "BYD|Qin Pro EV": 3016
-, "Xiaopeng|Xpeng G3": 2237
+, "Xpeng|G3": 2237
 , "Great Wall|Ora iQ5 EV": 564
 , "BAIC|EC-Series": 4744
 , "Dongfeng|E70 EV": 3525
@@ -413,7 +413,7 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 682
 , "Tesla|Model 3": 1800
 , "BYD|Qin Pro EV": 1200
-, "Xiaopeng|Xpeng G3": 1515
+, "Xpeng|G3": 1515
 , "BAIC|EC-Series": 1935
 , "Great Wall|Ora iQ5 EV": 394
 , "BAIC|EX-Series": 1631
@@ -438,7 +438,7 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model 3": 1500
 , "BAIC|EC-Series": 2692
 , "BYD|Qin Pro EV": 1470
-, "Xiaopeng|Xpeng G3": 306
+, "Xpeng|G3": 306
 });
 
 db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#sep TODO: numbers per brand wanted",
@@ -460,7 +460,7 @@ db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JAC|iEV E-Series": 225
 , "BAIC|EC-Series": 1352
 , "GAC|Aion S": 4006
-, "Xiaopeng|Xpeng G3": 2185
+, "Xpeng|G3": 2185
 });
 
 db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#oct TODO: numbers per brand wanted",
@@ -482,7 +482,7 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 4217
 , "JAC|iEV E-Series": 120
 , "BAIC|EC-Series": 926
-, "Xiaopeng|Xpeng G3": 505
+, "Xpeng|G3": 505
 , "other": 23732
 });
 
@@ -619,7 +619,7 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|MG eZS EV": 24
 , "Weltmeister|EX5": 1388
 , "BYD|e2": 1322
-, "Xiaopeng|Xpeng G3": 1008
+, "Xpeng|G3": 1008
 , "other": 16277
 });
 
@@ -642,7 +642,7 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 1461
 , "Buick|Velite 6": 3526
 , "SAIC|MG eZS EV": 156
-, "Xiaopeng|Xpeng G3": 954
+, "Xpeng|G3": 954
 , "Hozon|Neta N01": 984
 , "other": 13853
 });
@@ -733,7 +733,7 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Qin Pro EV": 3474
 , "Nio|ES6": 3226
 , "SAIC|MG eZS EV": 2793
-, "Xiaopeng|Xpeng P7": 2573
+, "Xpeng|P7": 2573
 , "BAIC|EU-Series": 2195
 , "GAC|Aion V": 2183
 , "BYD|e2": 2113
@@ -760,7 +760,7 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 3003
 , "Nio|ES6": 2695
 , "BYD|e2": 2598
-, "Xiaopeng|Xpeng P7": 2104
+, "Xpeng|P7": 2104
 , "GAC|Aion V": 2006
 , "Leapmotor|T03": 1681
 , "other": 30055
@@ -783,7 +783,7 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|MG eZS EV": 3922
 , "Weltmeister|EX5": 3018
 , "Changan|Eado EV": 2741
-, "Xiaopeng|Xpeng P7": 2732
+, "Xpeng|P7": 2732
 , "BYD|e2": 2670
 , "FAW|Hongqi E-HS3": 2552
 , "Nio|ES6": 2386
@@ -804,10 +804,10 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 5397
 , "SAIC|MG eZS EV": 4303
 , "BYD|Qin Pro EV": 3713
-, "Xiaopeng|Xpeng P7": 3691
+, "Xpeng|P7": 3691
 , "Leapmotor|T03": 2983
 , "SAIC|Roewe Ei5 EV": 2877
-, "Xiaopeng|Xpeng G3": 2618
+, "Xpeng|G3": 2618
 , "Changan|Benni EV": 2610
 , "Weltmeister|EX5": 2588
 , "Nio|ES6": 2505
@@ -826,11 +826,11 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Great Wall|Ora Black Cat": 6090
 , "Chery|eQ": 5772
 , "SAIC|Roewe Clever EV": 5172
-, "Xiaopeng|Xpeng P7": 3710
+, "Xpeng|P7": 3710
 , "Changan|Benni EV": 3240
 , "Nio|EC6": 2845
 , "Nio|ES6": 2720
-, "Xiaopeng|Xpeng G3": 2305
+, "Xpeng|G3": 2305
 , "Great Wall|Ora White Cat EV": 2089
 , "Hozon|Neta V EV": 2076
 , "Weltmeister|EX5": 2014
@@ -855,7 +855,7 @@ db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hozon|Neta V EV": 2002
 , "Nio|ES8": 1600
 , "Great Wall|Ora Good Cat EV": 1534
-, "Xiaopeng|Xpeng P7": 1409
+, "Xpeng|P7": 1409
 , "Chery|eQ": 1391
 , "Great Wall|Ora White Cat EV": 1269
 , "BMW|iX3": 1216
@@ -878,7 +878,7 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BMW|iX3": 3519
 , "Hozon|Neta V EV": 3206
 , "Nio|ES6": 3164
-, "Xiaopeng|Xpeng P7": 2855
+, "Xpeng|P7": 2855
 , "Leapmotor|T03": 2827
 , "BYD|D1": 2796
 , "Nio|EC6": 2649
@@ -903,10 +903,10 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hozon|Neta V EV": 3846
 , "Changan|Benni EV": 3828
 , "Nio|ES6": 3163
-, "Xiaopeng|Xpeng P7": 2995
+, "Xpeng|P7": 2995
 , "BYD|e2": 2973
 , "Leapmotor|T03": 2817
-, "Xiaopeng|Xpeng G3": 2610
+, "Xpeng|G3": 2610
 , "Nio|EC6": 2416
 , "other": 49675
 });
@@ -924,7 +924,7 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|eQ": 4931
 , "GAC|Aion S": 4905
 , "SAIC|Roewe Clever EV": 4431
-, "Xiaopeng|Xpeng P7": 3797
+, "Xpeng|P7": 3797
 , "Hozon|Neta V EV": 3409
 , "BYD|e2": 3195
 , "Leapmotor|T03": 3147
@@ -946,7 +946,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "GAC|Aion S": 5916
 , "BYD|Han EV": 5802
 , "Chery|eQ": 5417
-, "Xiaopeng|Xpeng P7": 4730
+, "Xpeng|P7": 4730
 , "SAIC|Roewe Clever EV": 4403
 , "BYD|Qin Plus EV": 4272
 , "Leapmotor|T03": 4029
@@ -966,7 +966,7 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 { "Wuling|Hongguang Mini EV": 30706
 , "Changan|Benni EV": 8701
 , "Tesla|Model 3": 6601
-, "Xiaopeng|Xpeng P7": 6054
+, "Xpeng|P7": 6054
 , "BYD|Han EV": 5592
 , "GAC|Aion S": 5502
 , "BYD|Qin Plus EV": 5342
@@ -994,7 +994,7 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 7358
 , "Great Wall|Ora Black Cat": 7013
 , "BYD|Han EV": 6198
-, "Xiaopeng|Xpeng P7": 6165
+, "Xpeng|P7": 6165
 , "Chery|eQ": 5375
 , "GAC|Aion S": 5238
 , "BYD|Yuan EV": 4782
@@ -1018,7 +1018,7 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 7968
 , "BYD|Han EV": 7796
 , "GAC|Aion S": 7679
-, "Xiaopeng|Xpeng P7": 7512
+, "Xpeng|P7": 7512
 , "Volkswagen|ID.4": 7047
 , "Chery|eQ": 7033
 , "SAIC|Roewe Clever EV": 6602
@@ -1047,7 +1047,7 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|eQ": 6850
 , "BYD|Yuan EV": 6507
 , "Changan|Benni EV": 6382
-, "Xiaopeng|Xpeng P7": 6044
+, "Xpeng|P7": 6044
 , "BYD|Dolphin": 6018
 , "Pocco|DuoDuo": 5627
 , "Sehol|E10X": 5322
@@ -1070,11 +1070,11 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|eQ": 8362
 , "Volkswagen|ID.4": 8316
 , "GAC|Aion S": 7884
-, "Xiaopeng|Xpeng P7": 7839
+, "Xpeng|P7": 7839
 , "Hozon|Neta V EV": 7027
 , "BYD|Yuan EV": 6489
 , "Changan|Benni EV": 6440
-, "Xiaopeng|Xpeng G5": 5620
+, "Xpeng|G5": 5620
 , "SAIC|Roewe Clever EV": 5370
 , "other": 155979
 });
@@ -1096,7 +1096,7 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan EV": 8577
 , "Chery|QQ Ice Cream": 8390
 , "Great Wall|Ora Black Cat": 8056
-, "Xiaopeng|Xpeng P7": 7459
+, "Xpeng|P7": 7459
 , "BYD|Qin Plus EV": 7001
 , "GAC|Aion S": 6409
 , "GAC|Aion Y": 6020
@@ -1118,7 +1118,7 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Great Wall|Ora Good Cat EV": 9020
 , "BYD|Qin Plus EV": 7086
 , "GAC|Aion S": 7049
-, "Xiaopeng|Xpeng P7": 6707
+, "Xpeng|P7": 6707
 , "BYD|Yuan Pro": 6596
 , "Hozon|Neta V EV": 6482
 , "GAC|Aion Y": 6415
@@ -1147,7 +1147,7 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|eQ1": 3735
 , "Volkswagen|ID.4": 3731
 , "BYD|Song Pro EV": 3699
-, "Xiaopeng|Xpeng P7": 3537
+, "Xpeng|P7": 3537
 , "other": 104167
 });
 
@@ -1165,7 +1165,7 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 10178
 , "BYD|Yuan Plus": 10025
 , "GAC|Aion Y": 9501
-, "Xiaopeng|Xpeng P7": 9183
+, "Xpeng|P7": 9183
 , "BYD|Qin Plus EV": 8692
 , "Chery|eQ1": 8240
 , "Hozon|Neta V EV": 8122
@@ -1194,8 +1194,8 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Pro": 5068
 , "BYD|Song Pro EV": 4927
 , "Dongfeng|E-Series": 4306
-, "Xiaopeng|Xpeng P7": 3714
-, "Xiaopeng|Xpeng P5": 3564
+, "Xpeng|P7": 3714
+, "Xpeng|P5": 3564
 , "other": 85381
 });
 
@@ -1239,7 +1239,7 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Hozon|Neta V EV": 9147
 , "GAC|Aion S": 8903
 , "Great Wall|Ora Good Cat EV": 8275
-, "Xiaopeng|Xpeng P7": 8045
+, "Xpeng|P7": 8045
 , "Dongfeng|E-Series": 7536
 , "other": 243639
 });

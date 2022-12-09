@@ -3167,7 +3167,7 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 5
 , "Mercedes-Benz|eVito": 5
 , "Smart|Forfour ED": 4
-, "Xiaopeng|Xpeng P7": 3
+, "Xpeng|P7": 3
 , "Honda|e": 3
 , "BMW|iX": 3
 , "Peugeot|e-Traveller": 2
@@ -3930,7 +3930,7 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 8
 , "Smart|Fortwo ED": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
-, "Xiaopeng|Xpeng P5": 5
+, "Xpeng|P5": 5
 , "other": 20
 });
 
@@ -4160,7 +4160,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 14
 , "BYD": 4
 , "Maserati": 3
-, "Xiaopeng": 1
+, "Xpeng": 1
 , "other": 661
 });
 
@@ -4353,7 +4353,7 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 9
 , "Maserati": 5
 , "SsangYong": 4
-, "Xiaopeng": 1
+, "Xpeng": 1
 , "Subaru": 1
 , "other": 854
 });
