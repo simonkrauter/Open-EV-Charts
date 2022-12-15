@@ -2466,3 +2466,60 @@ db.insert(db.countries.AT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 67
 , "other": 1038
 });
+
+db.insert(db.countries.AT, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisNovember2022.ods",
+{ "Volkswagen": 2812
+, "BMW": 1709
+, "Škoda": 1306
+, "Toyota": 979
+, "Seat": 919
+, "Hyundai": 873
+, "Ford": 865
+, "Audi": 829
+, "Mercedes-Benz": 810
+, "Renault": 769
+, "Peugeot": 688
+, "Kia": 652
+, "Dacia": 553
+, "Opel": 525
+, "Tesla": 506
+, "Fiat": 393
+, "Citroën": 392
+, "Mazda": 386
+, "Cupra": 347
+, "Volvo": 315
+, "MG": 215
+, "Suzuki": 209
+, "Nissan": 195
+, "Mini": 164
+, "Mitsubishi": 141
+, "Porsche": 96
+, "Honda": 93
+, "Jeep": 81
+, "Polestar": 71
+, "Land Rover": 54
+, "Jaguar": 22
+, "Subaru": 19
+, "DS Automobiles": 16
+, "Lexus": 9
+, "Maserati": 5
+, "Smart": 4
+, "Chevrolet": 2
+, "Chrysler": 1
+, "Cadillac": 1
+, "other": 152
+});
+
+db.insert(db.countries.AT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisNovember2022.ods",
+{ "Volkswagen|ID.4": 633
+, "Tesla|Model Y": 444
+, "Volkswagen|ID.3": 208
+, "Škoda|Enyaq": 195
+, "Hyundai|Ioniq 5": 163
+, "Cupra|Born": 127
+, "Audi|Q4 e-tron": 107
+, "Renault|Mégane E-Tech Electric": 103
+, "Volkswagen|ID.5": 98
+, "BMW|iX3": 97
+, "other": 1255
+});
