@@ -3156,7 +3156,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 3
 , "Tesla|Model S": 2
 , "Honda|e": 2
-, "other": 3
+, "other": 5
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2021/datosnoviembrett.asp",
@@ -3236,6 +3236,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 22
 , "Volvo|XC40 Recharge pure electric": 18
 , "Lexus|UX 300e": 11
+, "Volkswagen|e-Transporter": 10
 , "Mercedes-Benz|EQC": 9
 , "MG|Marvel R": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
@@ -3250,8 +3251,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 4
 , "Mazda|MX-30": 3
 , "Citroën|ë-SpaceTourer": 3
-, "Kia|Soul EV": 2
-, "other": 2
+, "other": 4
 });
 
 db.insert(db.countries.ES, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2021/datosdiciembrett.asp",
@@ -3329,6 +3329,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 26
 , "BMW|iX": 22
 , "MG|ZS EV": 19
+, "Volkswagen|e-Transporter": 18
 , "Opel|Combo-e": 16
 , "Hyundai|Ioniq Electric": 15
 , "DS Automobiles|DS 3 Crossback E-Tense": 15
@@ -3721,7 +3722,7 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 3
 , "Mercedes-Benz|EQC": 3
 , "Citroën|ë-SpaceTourer": 3
-, "other": 8
+, "other": 9
 });
 
 db.insert(db.countries.ES, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosmayotur.asp, https://www.km77.com/mercado/espana/2022/datosmayott.asp",
@@ -3815,7 +3816,7 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 4
 , "Volkswagen|ID.5": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
-, "other": 9
+, "other": 10
 });
 
 db.insert(db.countries.ES, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosjuniotur.asp, https://www.km77.com/mercado/espana/2022/datosjuniott.asp",
