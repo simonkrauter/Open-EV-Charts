@@ -4106,7 +4106,7 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.ES, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2022/datosseptiembrett.asp",
-{ "Kia": 46685
+{ "Kia": 5735
 , "Toyota": 5656
 , "Hyundai": 4553
 , "Volkswagen": 4535
@@ -4129,7 +4129,7 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Volvo": 871
 , "Mini": 758
 , "Lexus": 550
-, "MG": 444
+, "MG": 458
 , "Suzuki": 399
 , "Honda": 382
 , "Jeep": 372
