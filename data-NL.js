@@ -4372,23 +4372,23 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 300
 , "BMW|i4": 295
 , "Volkswagen|ID.4": 289
-, "Kia|EV6": 279
+, "Kia|EV6": 280
 , "Peugeot|e-208": 268
 , "Škoda|Enyaq": 267
-, "Polestar|2": 253
+, "Polestar|2": 254
 , "Hyundai|Ioniq 5": 244
 , "Kia|Niro EV": 239
-, "BMW|iX3": 229
+, "BMW|iX3": 230
 , "Renault|Mégane E-Tech Electric": 226
 , "Citroën|ë-C4": 226
-, "Volkswagen|ID.3": 200
+, "Volkswagen|ID.3": 201
 , "Audi|Q4 e-tron": 199
 , "Mini|Cooper SE Electric": 173
 , "Volvo|C40 Recharge": 172
 , "Fiat|500e": 172
 , "Audi|e-tron": 150
 , "Opel|Corsa-e": 148
-, "Cupra|Born": 144
+, "Cupra|Born": 146
 , "Volkswagen|ID.5": 108
 , "Peugeot|e-2008": 102
 , "Nissan|Leaf": 97
@@ -4417,5 +4417,5 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 11
 , "Toyota|Proace Electric": 10
 , "Audi|e-tron GT": 9
-, "other": 61
+, "other": 63
 });
