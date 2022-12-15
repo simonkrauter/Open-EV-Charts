@@ -4128,3 +4128,55 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 550
 , "other": 6080
 });
+
+db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/11/2022-10-vp-france.pdf",
+{ "Peugeot": 21510
+, "Renault": 18788
+, "Dacia": 10493
+, "Citroën": 10397
+, "Toyota": 10041
+, "Volkswagen": 9355
+, "Tesla": 5753
+, "BMW": 4333
+, "Ford": 4223
+, "Kia": 4108
+, "Mercedes-Benz": 4076
+, "Audi": 4024
+, "Hyundai": 3777
+, "Mini": 2744
+, "Fiat": 2511
+, "Škoda": 2331
+, "Opel": 2056
+, "Nissan": 1992
+, "DS Automobiles": 1550
+, "Volvo": 1413
+, "Seat": 917
+, "Suzuki": 887
+, "Mazda": 459
+, "Honda": 429
+, "Porsche": 420
+, "Lexus": 363
+, "Land Rover": 362
+, "Alfa Romeo": 343
+, "Jeep": 267
+, "Mitsubishi": 248
+, "Smart": 142
+, "Jaguar": 64
+, "Maserati": 23
+, "Subaru": 1
+, "other": 3578
+});
+
+db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-plus-d1-vehicule-neuf-sur-5-etait-en-novembre-2022-electrique-ou-hybride-rechargeable/",
+{ "Tesla|Model Y": 2891
+, "Tesla|Model 3": 2809
+, "Dacia|Spring": 1954
+, "Renault|Mégane E-Tech Electric": 1783
+, "Peugeot|e-208": 1428
+, "Mini|Cooper SE Electric": 760
+, "Fiat|500e": 683
+, "Hyundai|Kona Electric": 571
+, "Volkswagen|ID.3": 559
+, "Peugeot|e-2008": 531
+, "other": 6305
+});
