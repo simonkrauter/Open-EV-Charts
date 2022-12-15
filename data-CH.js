@@ -4591,3 +4591,103 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 8
 , "other": 105
 });
+
+db.insert(db.countries.CH, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/12/ModellePW2022.xlsx",
+{ "Volkswagen": 2714
+, "BMW": 1956
+, "Audi": 1808
+, "Škoda": 1594
+, "Mercedes-Benz": 1571
+, "Toyota": 1209
+, "Ford": 957
+, "Seat": 881
+, "Renault": 870
+, "Tesla": 800
+, "Dacia": 723
+, "Hyundai": 643
+, "Volvo": 552
+, "Opel": 506
+, "Kia": 488
+, "Peugeot": 454
+, "Fiat": 378
+, "Citroën": 376
+, "Porsche": 342
+, "Mini": 319
+, "Mazda": 314
+, "Suzuki": 304
+, "Honda": 278
+, "Nissan": 199
+, "Alfa Romeo": 156
+, "Land Rover": 153
+, "Mitsubishi": 143
+, "Subaru": 134
+, "Jeep": 130
+, "Genesis": 65
+, "Maserati": 61
+, "Polestar": 54
+, "DS Automobiles": 52
+, "Lexus": 37
+, "Jaguar": 37
+, "Smart": 22
+, "SsangYong": 19
+, "Chevrolet": 7
+, "Cadillac": 3
+, "Dodge": 2
+, "Chrysler": 2
+, "Aiways": 2
+, "other": 91
+});
+
+db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/11",
+{ "Tesla|Model Y": 736
+, "Škoda|Enyaq": 524
+, "Volkswagen|ID. Buzz": 322
+, "Volkswagen|ID.3": 234
+, "Renault|Mégane E-Tech Electric": 215
+, "Hyundai|Ioniq 5": 203
+, "Volkswagen|ID.4": 181
+, "Audi|Q4 e-tron": 169
+, "Cupra|Born": 143
+, "Mercedes-Benz|EQA": 131
+, "Fiat|500e": 124
+, "BMW|i4": 88
+, "Porsche|Taycan": 86
+, "Volvo|C40 Recharge": 83
+, "BMW|iX": 72
+, "Peugeot|e-208": 71
+, "Subaru|Solterra": 70
+, "Ford|Mustang Mach-E": 68
+, "Volkswagen|ID.5": 63
+, "Tesla|Model 3": 61
+, "Opel|Mokka-e": 57
+, "Dacia|Spring": 56
+, "Polestar|2": 54
+, "Volvo|XC40 Recharge pure electric": 44
+, "Toyota|bZ4X": 44
+, "Audi|e-tron GT": 42
+, "Audi|e-tron": 38
+, "Mercedes-Benz|EQB": 37
+, "Hyundai|Kona Electric": 35
+, "Mercedes-Benz|EQC": 32
+, "Toyota|Proace Electric": 27
+, "Citroën|ë-C4": 25
+, "Smart|Fortwo ED": 22
+, "Mercedes-Benz|EQE": 22
+, "Citroën|ë-Jumpy": 22
+, "Renault|Twingo Z.E.": 20
+, "Opel|Vivaro-e": 20
+, "Mini|Cooper SE Electric": 20
+, "Kia|Niro EV": 20
+, "Citroën|Berlingo Electric": 20
+, "Volkswagen|e-up!": 19
+, "Renault|Kangoo Z.E.": 19
+, "Peugeot|e-Expert": 19
+, "Peugeot|Partner Electric": 17
+, "Renault|Zoe": 15
+, "Kia|EV6": 15
+, "Opel|Corsa-e": 13
+, "Opel|Combo-e": 13
+, "Nissan|Ariya": 13
+, "Honda|e": 13
+, "other": 273
+});
