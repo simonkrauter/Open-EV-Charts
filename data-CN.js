@@ -1330,3 +1330,25 @@ db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Dongfeng|E-Series": 8315
 , "other": 282184
 });
+
+db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1877.html TODO: numbers per brand wanted",
+{ "other": 2075000
+});
+
+db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
+{ "Tesla|Model Y": 52424
+, "Wuling|Hongguang Mini EV": 31982
+, "BYD|Dolphin": 26029
+, "BYD|Yuan Plus": 26004
+, "BYD|Seal": 15356
+, "GAC|Aion S": 15323
+, "GAC|Aion Y": 11560
+, "Hozon|Neta V EV": 11263
+, "Changan|Lumin": 11020
+, "Zeekr|001": 11011
+, "Tesla|Model 3": 10069
+, "Changan|Benni EV": 8915
+, "Dongfeng|E-Series": 8312
+, "SAIC|Roewe Clever EV": 8100
+, "other": 271382
+});
