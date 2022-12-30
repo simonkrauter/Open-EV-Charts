@@ -61,7 +61,7 @@ function navigateToChartConfig(chartConfig, retainShowAllOptionsParamName) {
 function logVisit() {
   if (location.hostname == "open-ev-charts.org") {
     let r = new XMLHttpRequest();
-    r.open("GET", "https://nexunity.org/pageview-logger/open-ev-charts.org/?action=log&url=" + encodeURIComponent(location.href) + "&referrer=" + encodeURIComponent(document.referrer));
+    r.open("GET", "https://webstats.open-ev-charts.org/?action=log&url=" + encodeURIComponent(location.href) + "&referrer=" + encodeURIComponent(document.referrer));
     r.send();
   }
 }
