@@ -4,6 +4,276 @@
 
 db.addCountry("NO", "Norway");
 
+db.insert(db.countries.NO, "2017-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-januar-1",
+{ "other": 13055
+});
+
+db.insert(db.countries.NO, "2017-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-1",
+{ "BMW|i3 BEV": 622
+, "Nissan|Leaf": 352
+, "Renault|Zoe": 240
+, "Tesla|Model X": 238
+, "Volkswagen|e-Golf": 235
+, "Hyundai|Ioniq Electric": 166
+, "Tesla|Model S": 129
+, "Kia|Soul EV": 85
+, "Volkswagen|e-up!": 77
+, "Mitsubishi|i-MiEV": 30
+, "Peugeot|iOn": 20
+, "Citroën|C-Zero": 6
+, "Ford|Focus Electric": 2
+, "other": 93
+});
+
+db.insert(db.countries.NO, "2017-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-februar-1",
+{ "other": 11788
+});
+
+db.insert(db.countries.NO, "2017-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-1",
+{ "BMW|i3 BEV": 497
+, "Nissan|Leaf": 408
+, "Renault|Zoe": 279
+, "Volkswagen|e-Golf": 224
+, "Volkswagen|e-up!": 66
+, "Tesla|Model S": 55
+, "Kia|Soul EV": 54
+, "Tesla|Model X": 43
+, "Hyundai|Ioniq Electric": 26
+, "Peugeot|iOn": 24
+, "Mitsubishi|i-MiEV": 19
+, "Ford|Focus Electric": 6
+, "Citroën|C-Zero": 6
+, "other": 157
+});
+
+db.insert(db.countries.NO, "2017-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mars-1",
+{ "other": 13398
+});
+
+db.insert(db.countries.NO, "2017-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-1",
+{ "Nissan|Leaf": 499
+, "Tesla|Model X": 446
+, "BMW|i3 BEV": 394
+, "Renault|Zoe": 322
+, "Tesla|Model S": 297
+, "Volkswagen|e-Golf": 247
+, "Hyundai|Ioniq Electric": 215
+, "Volkswagen|e-up!": 66
+, "Kia|Soul EV": 47
+, "Mitsubishi|i-MiEV": 32
+, "Peugeot|iOn": 22
+, "Citroën|C-Zero": 6
+, "Ford|Focus Electric": 4
+, "other": 237
+});
+
+db.insert(db.countries.NO, "2017-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-april-1",
+{ "other": 11339
+});
+
+db.insert(db.countries.NO, "2017-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-1",
+{ "BMW|i3 BEV": 426
+, "Volkswagen|e-Golf": 409
+, "Nissan|Leaf": 287
+, "Hyundai|Ioniq Electric": 138
+, "Renault|Zoe": 74
+, "Volkswagen|e-up!": 53
+, "Tesla|Model S": 42
+, "Tesla|Model X": 33
+, "Opel|Ampera-e": 15
+, "Kia|Soul EV": 15
+, "Peugeot|iOn": 14
+, "Mitsubishi|i-MiEV": 10
+, "Citroën|C-Zero": 9
+, "Ford|Focus Electric": 5
+, "other": 157
+});
+
+db.insert(db.countries.NO, "2017-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mai-1",
+{ "other": 14175
+});
+
+db.insert(db.countries.NO, "2017-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-1",
+{ "Volkswagen|e-Golf": 457
+, "BMW|i3 BEV": 410
+, "Nissan|Leaf": 273
+, "Opel|Ampera-e": 230
+, "Hyundai|Ioniq Electric": 152
+, "Tesla|Model X": 138
+, "Renault|Zoe": 108
+, "Tesla|Model S": 88
+, "Volkswagen|e-up!": 55
+, "Kia|Soul EV": 29
+, "Citroën|C-Zero": 16
+, "Peugeot|iOn": 14
+, "Mitsubishi|i-MiEV": 8
+, "Ford|Focus Electric": 4
+, "other": 195
+});
+
+db.insert(db.countries.NO, "2017-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juni-1",
+{ "other": 14228
+});
+
+db.insert(db.countries.NO, "2017-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-1",
+{ "Volkswagen|e-Golf": 874
+, "Tesla|Model X": 609
+, "Renault|Zoe": 428
+, "BMW|i3 BEV": 420
+, "Opel|Ampera-e": 389
+, "Nissan|Leaf": 384
+, "Tesla|Model S": 242
+, "Hyundai|Ioniq Electric": 182
+, "Kia|Soul EV": 82
+, "Volkswagen|e-up!": 61
+, "Smart|Fortwo ED": 13
+, "Peugeot|iOn": 10
+, "Citroën|C-Zero": 10
+, "Mitsubishi|i-MiEV": 9
+, "Ford|Focus Electric": 3
+, "Smart|Forfour ED": 2
+, "other": 230
+});
+
+db.insert(db.countries.NO, "2017-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juli",
+{ "other": 11476
+});
+
+db.insert(db.countries.NO, "2017-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli",
+{ "Nissan|Leaf": 334
+, "BMW|i3 BEV": 277
+, "Renault|Zoe": 250
+, "Opel|Ampera-e": 200
+, "Volkswagen|e-Golf": 140
+, "Hyundai|Ioniq Electric": 135
+, "Tesla|Model X": 103
+, "Kia|Soul EV": 71
+, "Tesla|Model S": 57
+, "Volkswagen|e-up!": 41
+, "Ford|Focus Electric": 26
+, "Smart|Fortwo ED": 10
+, "Mitsubishi|i-MiEV": 5
+, "Peugeot|iOn": 2
+, "Smart|Forfour ED": 1
+, "Citroën|C-Zero": 1
+, "other": 171
+});
+
+db.insert(db.countries.NO, "2017-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-august",
+{ "other": 13415
+});
+
+db.insert(db.countries.NO, "2017-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august",
+{ "Volkswagen|e-Golf": 996
+, "BMW|i3 BEV": 390
+, "Nissan|Leaf": 264
+, "Hyundai|Ioniq Electric": 200
+, "Renault|Zoe": 141
+, "Tesla|Model S": 106
+, "Kia|Soul EV": 106
+, "Tesla|Model X": 88
+, "Volkswagen|e-up!": 80
+, "Opel|Ampera-e": 61
+, "Peugeot|iOn": 32
+, "Ford|Focus Electric": 28
+, "Mitsubishi|i-MiEV": 18
+, "Smart|Fortwo ED": 11
+, "Citroën|C-Zero": 4
+, "Smart|Forfour ED": 2
+, "other": 257
+});
+
+db.insert(db.countries.NO, "2017-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-september",
+{ "other": 13484
+});
+
+db.insert(db.countries.NO, "2017-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september",
+{ "Tesla|Model S": 1007
+, "Tesla|Model X": 996
+, "Volkswagen|e-Golf": 949
+, "BMW|i3 BEV": 312
+, "Nissan|Leaf": 112
+, "Volkswagen|e-up!": 83
+, "Hyundai|Ioniq Electric": 76
+, "Kia|Soul EV": 58
+, "Renault|Zoe": 38
+, "Mitsubishi|i-MiEV": 34
+, "Opel|Ampera-e": 28
+, "Peugeot|iOn": 27
+, "Smart|Fortwo ED": 13
+, "Ford|Focus Electric": 11
+, "Smart|Forfour ED": 4
+, "other": 108
+});
+
+db.insert(db.countries.NO, "2017-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-oktober",
+{ "other": 12472
+});
+
+db.insert(db.countries.NO, "2017-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober",
+{ "Volkswagen|e-Golf": 1168
+, "BMW|i3 BEV": 417
+, "Nissan|Leaf": 269
+, "Tesla|Model S": 162
+, "Hyundai|Ioniq Electric": 160
+, "Volkswagen|e-up!": 137
+, "Tesla|Model X": 130
+, "Kia|Soul EV": 57
+, "Mitsubishi|i-MiEV": 37
+, "Opel|Ampera-e": 35
+, "Smart|Fortwo ED": 18
+, "Renault|Zoe": 18
+, "Smart|Forfour ED": 15
+, "Ford|Focus Electric": 2
+, "Peugeot|iOn": 1
+, "other": 39
+});
+
+db.insert(db.countries.NO, "2017-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-november",
+{ "other": 13743
+});
+
+db.insert(db.countries.NO, "2017-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november",
+{ "Tesla|Model S": 501
+, "Tesla|Model X": 495
+, "Volkswagen|e-Golf": 358
+, "BMW|i3 BEV": 358
+, "Hyundai|Ioniq Electric": 230
+, "Renault|Zoe": 213
+, "Nissan|Leaf": 148
+, "Kia|Soul EV": 124
+, "Volkswagen|e-up!": 103
+, "Opel|Ampera-e": 84
+, "Mitsubishi|i-MiEV": 42
+, "Smart|Fortwo ED": 18
+, "Smart|Forfour ED": 13
+, "Peugeot|iOn": 3
+, "Ford|Focus Electric": 2
+, "other": 15
+});
+
+db.insert(db.countries.NO, "2017-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-desember",
+{ "other": 16077
+});
+
+db.insert(db.countries.NO, "2017-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2017/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember",
+{ "Tesla|Model X": 1429
+, "Tesla|Model S": 1026
+, "Volkswagen|e-Golf": 581
+, "BMW|i3 BEV": 512
+, "Renault|Zoe": 422
+, "Hyundai|Ioniq Electric": 160
+, "Kia|Soul EV": 91
+, "Opel|Ampera-e": 79
+, "Nissan|Leaf": 46
+, "Volkswagen|e-up!": 44
+, "Smart|Fortwo ED": 15
+, "Mitsubishi|i-MiEV": 6
+, "Smart|Forfour ED": 2
+, "Ford|Focus Electric": 1
+, "other": 25
+});
+
 db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar",
 { "Volkswagen": 1384
 , "Toyota": 1153
