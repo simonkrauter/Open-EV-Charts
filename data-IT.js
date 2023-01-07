@@ -214,7 +214,7 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Peugeot|e-208": 6
 , "Volkswagen|e-up!": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
-, "Audi|e-tron": 2
+, "Audi|Q8 e-tron": 2
 , "other": 7
 });
 
@@ -375,7 +375,7 @@ db.insert(db.countries.IT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Mini|Cooper SE Electric": 99
 , "Volkswagen|e-up!": 85
 , "Smart|Forfour ED": 70
-, "Audi|e-tron": 68
+, "Audi|Q8 e-tron": 68
 , "Hyundai|Kona Electric": 45
 , "other": 291
 });
@@ -1354,7 +1354,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 36
 , "Škoda|Enyaq": 33
 , "Volkswagen|e-up!": 32
-, "Audi|e-tron": 32
+, "Audi|Q8 e-tron": 32
 , "Mercedes-Benz|EQA": 31
 , "DS Automobiles|DS 3 Crossback E-Tense": 31
 , "Citroën|ë-C4": 31
@@ -1445,7 +1445,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 30
 , "Volvo|C40 Recharge": 26
 , "Smart|Forfour ED": 25
-, "Audi|e-tron": 23
+, "Audi|Q8 e-tron": 23
 , "Mercedes-Benz|EQB": 22
 , "MG|ZS EV": 18
 , "BMW|iX3": 17
@@ -1530,7 +1530,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 52
 , "BMW|i4": 51
 , "Renault|Twingo Z.E.": 49
-, "Audi|e-tron": 48
+, "Audi|Q8 e-tron": 48
 , "BMW|i3 BEV": 47
 , "Porsche|Taycan": 46
 , "Škoda|Enyaq": 41
@@ -1621,7 +1621,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 34
 , "Volvo|C40 Recharge": 31
 , "Kia|EV6": 31
-, "Audi|e-tron": 30
+, "Audi|Q8 e-tron": 30
 , "Kia|Niro EV": 28
 , "Cupra|Born": 28
 , "Volvo|XC40 Recharge pure electric": 27
@@ -1725,7 +1725,7 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 29
 , "Mercedes-Benz|EQB": 28
 , "Smart|Forfour ED": 26
-, "Audi|e-tron": 22
+, "Audi|Q8 e-tron": 22
 , "Volkswagen|ID.5": 21
 , "Mercedes-Benz|EQE": 21
 , "Mazda|MX-30": 20
@@ -1823,7 +1823,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 30
 , "Toyota|Proace Electric": 29
 , "Kia|Niro EV": 29
-, "Audi|e-tron": 28
+, "Audi|Q8 e-tron": 28
 , "Honda|e": 27
 , "DS Automobiles|DS 3 Crossback E-Tense": 26
 , "Mazda|MX-30": 22
@@ -1905,7 +1905,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 58
 , "Škoda|Enyaq": 54
 , "Dacia|Spring": 52
-, "Audi|e-tron": 42
+, "Audi|Q8 e-tron": 42
 , "Toyota|Proace Electric": 37
 , "Tesla|Model Y": 37
 , "Citroën|ë-C4": 37
@@ -1996,7 +1996,7 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 67
 , "Opel|Mokka-e": 47
 , "Nissan|Leaf": 40
-, "Audi|e-tron": 39
+, "Audi|Q8 e-tron": 39
 , "Volvo|C40 Recharge": 37
 , "Škoda|Enyaq": 34
 , "Volkswagen|ID.5": 34
@@ -2094,7 +2094,7 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 65
 , "Mercedes-Benz|EQB": 62
 , "Nissan|Leaf": 60
-, "Audi|e-tron": 53
+, "Audi|Q8 e-tron": 53
 , "BMW|iX3": 46
 , "MG|Marvel R": 40
 , "Ford|Mustang Mach-E": 36
@@ -2189,7 +2189,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 36
 , "Porsche|Taycan": 35
 , "Dacia|Spring": 35
-, "Audi|e-tron": 34
+, "Audi|Q8 e-tron": 34
 , "BMW|i3 BEV": 33
 , "Tesla|Model Y": 31
 , "BMW|iX": 31
@@ -2294,7 +2294,7 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 25
 , "Kia|Niro EV": 25
 , "MG|Marvel R": 24
-, "Audi|e-tron": 21
+, "Audi|Q8 e-tron": 21
 , "Polestar|2": 20
 , "Volvo|C40 Recharge": 18
 , "Toyota|Proace Electric": 17

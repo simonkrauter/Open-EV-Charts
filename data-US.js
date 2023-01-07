@@ -284,7 +284,7 @@ db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 3966
 , "Tesla|Model S": 3600
 , "Nissan|Leaf": 3323
-, "Audi|e-tron": 1835
+, "Audi|Q8 e-tron": 1835
 , "Jaguar|I-Pace": 701
 });
 
@@ -332,7 +332,7 @@ db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 4725
 , "Tesla|Model S": 3125
 , "Nissan|Leaf": 3103
-, "Audi|e-tron": 1705
+, "Audi|Q8 e-tron": 1705
 , "Jaguar|I-Pace": 533
 });
 
@@ -379,7 +379,7 @@ db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 3750
 , "Chevrolet|Bolt": 3307
 , "Nissan|Leaf": 3254
-, "Audi|e-tron": 1829
+, "Audi|Q8 e-tron": 1829
 , "Jaguar|I-Pace": 752
 , "Porsche|Taycan": 130
 });
@@ -427,7 +427,7 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 4600
 , "Tesla|Model X": 3700
 , "Nissan|Leaf": 1958
-, "Audi|e-tron": 1711
+, "Audi|Q8 e-tron": 1711
 , "Tesla|Model Y": 1200
 , "Jaguar|I-Pace": 446
 , "Porsche|Taycan": 211
@@ -476,7 +476,7 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 3600
 , "Tesla|Model S": 3200
 , "Chevrolet|Bolt": 2495
-, "Audi|e-tron": 1161
+, "Audi|Q8 e-tron": 1161
 , "Nissan|Leaf": 1050
 , "Porsche|Taycan": 818
 , "Jaguar|I-Pace": 600
@@ -525,7 +525,7 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 5682
 , "Tesla|Model X": 3700
 , "Tesla|Model S": 3700
-, "Audi|e-tron": 2296
+, "Audi|Q8 e-tron": 2296
 , "Nissan|Leaf": 1916
 , "Porsche|Taycan": 1858
 , "Jaguar|I-Pace": 500
@@ -575,7 +575,7 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 6400
 , "Tesla|Model S": 6400
 , "Nissan|Leaf": 4635
-, "Audi|e-tron": 2034
+, "Audi|Q8 e-tron": 2034
 , "Porsche|Taycan": 1517
 , "Jaguar|I-Pace": 400
 , "Ford|Mustang Mach-E": 3
@@ -623,7 +623,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model 3": 25000
 , "Chevrolet|Bolt": 9025
 , "Ford|Mustang Mach-E": 6614
-, "Audi|e-tron": 4325
+, "Audi|Q8 e-tron": 4325
 , "Nissan|Leaf": 2925
 , "Porsche|Taycan": 2009
 , "Tesla|Model X": 700
@@ -677,7 +677,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID.4": 5757
 , "Nissan|Leaf": 4804
 , "Porsche|Taycan": 3359
-, "Audi|e-tron": 1647
+, "Audi|Q8 e-tron": 1647
 , "Tesla|Model X": 800
 , "Tesla|Model S": 800
 , "Jaguar|I-Pace": 358
@@ -730,7 +730,7 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|Leaf": 2344
 , "Porsche|Taycan": 1861
 , "Audi|e-tron GT": 462
-, "Audi|e-tron": 447
+, "Audi|Q8 e-tron": 447
 , "Jaguar|I-Pace": 201
 , "Tesla|Model X": 100
 });
@@ -779,7 +779,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Ford|Mustang Mach-E": 8285
 , "Volkswagen|ID.4": 4464
 , "Nissan|Leaf": 4164
-, "Audi|e-tron": 2364
+, "Audi|Q8 e-tron": 2364
 , "Porsche|Taycan": 1518
 , "Tesla|Model X": 1000
 , "Audi|e-tron GT": 765
@@ -839,7 +839,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
 , "Kia|EV6": 4720
-, "Audi|e-tron": 3938
+, "Audi|Q8 e-tron": 3938
 , "Nissan|Leaf": 3251
 , "Porsche|Taycan": 2525
 , "Polestar|2": 2200
@@ -898,7 +898,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 4872
 , "Hyundai|Ioniq 5": 4800
 , "Tesla|Model X": 3999
-, "Audi|e-tron": 2249
+, "Audi|Q8 e-tron": 2249
 , "Polestar|2": 2200
 , "BMW|iX": 1726
 , "Porsche|Taycan": 1325

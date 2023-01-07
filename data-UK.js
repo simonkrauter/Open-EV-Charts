@@ -335,7 +335,7 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Ioniq Electric": 146
 , "Smart|Fortwo ED": 112
 , "Smart|Forfour ED": 66
-, "Audi|e-tron": 63
+, "Audi|Q8 e-tron": 63
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
 , "Peugeot|iOn": 1
@@ -398,7 +398,7 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoe": 773
 , "Nissan|Leaf": 760
 , "Tesla|Model S": 456
-, "Audi|e-tron": 352
+, "Audi|Q8 e-tron": 352
 , "Tesla|Model X": 341
 , "Hyundai|Kona Electric": 238
 , "Kia|Niro EV": 234
@@ -471,7 +471,7 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 1171
 , "Renault|Zoe": 646
 , "Tesla|Model X": 366
-, "Audi|e-tron": 333
+, "Audi|Q8 e-tron": 333
 , "Tesla|Model S": 256
 , "Hyundai|Kona Electric": 185
 , "Hyundai|Ioniq Electric": 172
@@ -542,7 +542,7 @@ db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|i3 BEV": 1150
 , "Jaguar|I-Pace": 1125
 , "MG|ZS EV": 591
-, "Audi|e-tron": 364
+, "Audi|Q8 e-tron": 364
 , "Tesla|Model X": 254
 , "Renault|Zoe": 216
 , "Hyundai|Kona Electric": 208
@@ -617,7 +617,7 @@ db.insert(db.countries.UK, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 1146
 , "BMW|i3 BEV": 920
 , "Peugeot|e-208": 792
-, "Audi|e-tron": 726
+, "Audi|Q8 e-tron": 726
 , "Kia|Niro EV": 523
 , "Hyundai|Ioniq Electric": 434
 , "Mini|Cooper SE Electric": 409
@@ -693,7 +693,7 @@ db.insert(db.countries.UK, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 1030
 , "Nissan|Leaf": 773
 , "Kia|Niro EV": 737
-, "Audi|e-tron": 569
+, "Audi|Q8 e-tron": 569
 , "Vauxhall|Corsa-e": 529
 , "MG|ZS EV": 431
 , "Hyundai|Ioniq Electric": 408
@@ -773,7 +773,7 @@ db.insert(db.countries.UK, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoe": 3072
 , "Kia|Niro EV": 2988
 , "Hyundai|Kona Electric": 2471
-, "Audi|e-tron": 2309
+, "Audi|Q8 e-tron": 2309
 , "Nissan|Leaf": 2187
 , "Jaguar|I-Pace": 2032
 , "MG|ZS EV": 1800
@@ -861,7 +861,7 @@ db.insert(db.countries.UK, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID.3": 4179
 , "Jaguar|I-Pace": 4093
 , "Nissan|Leaf": 2614
-, "Audi|e-tron": 2295
+, "Audi|Q8 e-tron": 2295
 , "Kia|Niro EV": 2287
 , "Mercedes-Benz|EQC": 2094
 , "Porsche|Taycan": 1956
@@ -951,7 +951,7 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 { "Tesla|Model 3": 7164
 , "Kia|Niro EV": 3268
 , "Nissan|Leaf": 2293
-, "Audi|e-tron": 1500
+, "Audi|Q8 e-tron": 1500
 , "Vauxhall|Corsa-e": 1231
 , "MG|ZS EV": 1191
 , "Peugeot|e-2008": 1155
@@ -1054,7 +1054,7 @@ db.insert(db.countries.UK, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 2500
 , "Hyundai|Kona Electric": 2452
 , "Nissan|Leaf": 2263
-, "Audi|e-tron": 2104
+, "Audi|Q8 e-tron": 2104
 , "Renault|Zoe": 1836
 , "Vauxhall|Corsa-e": 1561
 , "Mini|Cooper SE Electric": 1351
@@ -1157,7 +1157,7 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 3228
 , "Mercedes-Benz|EQA": 2058
 , "Hyundai|Ioniq Electric": 2015
-, "Audi|e-tron": 1979
+, "Audi|Q8 e-tron": 1979
 , "Renault|Zoe": 1782
 , "Jaguar|I-Pace": 1729
 , "Ford|Mustang Mach-E": 1691
@@ -1267,7 +1267,7 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|iX3": 2208
 , "Hyundai|Kona Electric": 2132
 , "Mercedes-Benz|EQA": 2055
-, "Audi|e-tron": 1814
+, "Audi|Q8 e-tron": 1814
 , "Polestar|2": 1668
 , "Hyundai|Ioniq Electric": 1658
 , "Porsche|Taycan": 1653
@@ -1393,7 +1393,7 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|e-208": 945
 , "MG|ZS EV": 945
 , "Vauxhall|Corsa-e": 918
-, "Audi|e-tron": 886
+, "Audi|Q8 e-tron": 886
 , "BMW|iX": 869
 , "Citroën|ë-C4": 573
 , "Volvo|C40 Recharge": 461
@@ -1479,7 +1479,7 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|Corsa-e": 1778
 , "Fiat|500e": 1756
 , "MG|ZS EV": 1642
-, "Audi|e-tron": 1616
+, "Audi|Q8 e-tron": 1616
 , "Peugeot|e-208": 1582
 , "Citroën|ë-C4": 1518
 , "Mini|Cooper SE Electric": 1514
@@ -1592,7 +1592,7 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Kona Electric": 1677
 , "Škoda|Enyaq": 1500
 , "Renault|Zoe": 1395
-, "Audi|e-tron": 1375
+, "Audi|Q8 e-tron": 1375
 , "Jaguar|I-Pace": 1367
 , "BMW|i4": 1274
 , "Peugeot|e-2008": 1256
