@@ -3506,7 +3506,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 461
 });
 
-db.insert(db.countries.NO, "2022-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2022-2",
+db.insert(db.countries.NO, "2022-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2022-2-2",
 { "Tesla": 3226
 , "BMW": 2205
 , "Volkswagen": 2195
