@@ -23,7 +23,7 @@ Database status
 | Austria        | 2019  | Month    | Complete   | Per brand
 | Switzerland    | 2018  | Month    | Incomplete | Per brand
 | Denmark        | 2020  | Month    | Complete   | Total only
-| Norway         | 2018  | Month    | Complete   | Per brand
+| Norway         | 2017  | Month    | Complete   | Per brand
 | Finland        | 2020  | Month    | Complete   | Total only
 | Ireland        | 2020  | Month    | Complete   | Total only
 
