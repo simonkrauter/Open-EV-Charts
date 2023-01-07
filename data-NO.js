@@ -3584,6 +3584,83 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 573
 });
 
+db.insert(db.countries.NO, "2022-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember_2022",
+{ "Tesla": 5405
+, "Volvo": 4217
+, "Volkswagen": 4145
+, "BMW": 3587
+, "Mercedes-Benz": 3218
+, "Toyota": 2518
+, "Audi": 2090
+, "Škoda": 1810
+, "Hyundai": 1352
+, "Ford": 1261
+, "Polestar": 1173
+, "MG": 1067
+, "Kia": 984
+, "BYD": 935
+, "Nissan": 826
+, "Porsche": 667
+, "Peugeot": 489
+, "Suzuki": 450
+, "Mazda": 278
+, "other": 3025
+});
+
+db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember_2022",
+{ "Tesla|Model Y": 4518
+, "Volkswagen|ID.4": 2027
+, "Volvo|XC40 Recharge pure electric": 1823
+, "Škoda|Enyaq": 1307
+, "Mercedes-Benz|EQC": 1267
+, "BMW|i4": 1230
+, "Polestar|2": 1156
+, "BMW|iX": 1152
+, "Volvo|C40 Recharge": 1147
+, "Ford|Mustang Mach-E": 1098
+, "Hyundai|Ioniq 5": 1039
+, "Audi|Q4 e-tron": 929
+, "Audi|Q8 e-tron": 915
+, "Mercedes-Benz|EQA": 759
+, "Volkswagen|ID.5": 727
+, "Volkswagen|ID. Buzz": 673
+, "BYD|Yuan Plus": 576
+, "Volkswagen|ID.3": 546
+, "Hongqi|E-HS9": 536
+, "Nissan|Leaf": 524
+, "Porsche|Taycan": 495
+, "Kia|EV6": 485
+, "BMW|iX1": 402
+, "MG|Marvel R": 401
+, "Mercedes-Benz|EQB": 393
+, "Tesla|Model X": 382
+, "Tesla|Model S": 382
+, "MG|ZS EV": 380
+, "BMW|iX3": 333
+, "BYD|Han EV": 294
+, "Kia|Niro EV": 271
+, "Peugeot|e-2008": 262
+, "Renault|Mégane E-Tech Electric": 225
+, "Toyota|bZ4X": 203
+, "Mercedes-Benz|EQE": 202
+, "Hyundai|Kona Electric": 196
+, "Nissan|Ariya": 184
+, "Citroën|ë-C4": 172
+, "MG|MG5 EV": 130
+, "MG|MG4 EV": 128
+, "Nio|ES8": 114
+, "Tesla|Model 3": 113
+, "Xpeng|P7": 111
+, "Mercedes-Benz|EQS": 109
+, "Subaru|Solterra": 107
+, "Peugeot|e-208": 92
+, "Audi|e-tron GT": 74
+, "BMW|i7": 71
+, "Jaguar|I-Pace": 67
+, "Kia|Soul EV": 59
+, "other": 1928
+});
+
 
 // Template:
 
