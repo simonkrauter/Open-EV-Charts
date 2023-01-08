@@ -3721,7 +3721,7 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 8
 , "Audi|e-tron GT": 5
 , "Tesla|Model 3": 4
-, "MG|MG5 EV": 4
+, "Roewe|Ei5": 4
 , "Jaguar|I-Pace": 4
 , "Honda|e": 4
 , "Mercedes-Benz|EQE": 3
@@ -4000,7 +4000,7 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 15
 , "Polestar|2": 13
 , "Opel|Combo-e": 13
-, "MG|MG5 EV": 13
+, "Roewe|Ei5": 13
 , "MG|Marvel R": 12
 , "Audi|e-tron GT": 11
 , "Mercedes-Benz|EQV": 10

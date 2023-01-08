@@ -4947,7 +4947,7 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 85
 , "Mazda|MX-30": 82
 , "Citroën|Berlingo Electric": 55
-, "MG|MG5 EV": 54
+, "Roewe|Ei5": 54
 , "Volvo|XC40 Recharge pure electric": 50
 , "Mercedes-Benz|eVito": 43
 , "MG|Marvel R": 38
@@ -5040,7 +5040,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 166
 , "Mercedes-Benz|EQV": 155
 , "Hyundai|Ioniq Electric": 109
-, "MG|MG5 EV": 99
+, "Roewe|Ei5": 99
 , "Kia|Soul EV": 78
 , "Citroën|Berlingo Electric": 78
 , "Jaguar|I-Pace": 55
@@ -5216,7 +5216,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 422
 , "Mercedes-Benz|EQC": 398
 , "Renault|Mégane E-Tech Electric": 396
-, "MG|MG5 EV": 394
+, "Roewe|Ei5": 394
 , "Mercedes-Benz|EQA": 356
 , "BMW|iX3": 343
 , "Nissan|Leaf": 326
@@ -5296,7 +5296,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 1253
 , "BMW|i3 BEV": 1126
 , "Audi|Q8 e-tron": 1073
-, "MG|MG5 EV": 1013
+, "Roewe|Ei5": 1013
 , "Škoda|Enyaq": 1001
 , "Audi|Q4 e-tron": 995
 , "Opel|Mokka-e": 936
@@ -5402,7 +5402,7 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 736
 , "Smart|Fortwo ED": 650
 , "Mercedes-Benz|EQB": 650
-, "MG|MG5 EV": 579
+, "Roewe|Ei5": 579
 , "Renault|Twingo Z.E.": 550
 , "Mercedes-Benz|EQC": 524
 , "Ford|Mustang Mach-E": 518
@@ -5520,7 +5520,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 257
 , "Audi|e-tron GT": 229
 , "BMW|iX3": 208
-, "MG|MG5 EV": 193
+, "Roewe|Ei5": 193
 , "Mercedes-Benz|EQS": 148
 , "Hyundai|other": 148
 , "BMW|i3 BEV": 148
@@ -5616,7 +5616,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 435
 , "Citroën|ë-C4": 346
 , "Tesla|Model S": 340
-, "MG|MG5 EV": 329
+, "Roewe|Ei5": 329
 , "Opel|Combo-e": 311
 , "Nissan|Leaf": 305
 , "Citroën|Berlingo Electric": 290

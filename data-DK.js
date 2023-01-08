@@ -1109,7 +1109,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 8
 , "Renault|Mégane E-Tech Electric": 6
 , "Mercedes-Benz|EQV": 6
-, "MG|MG5 EV": 6
+, "Roewe|Ei5": 6
 , "Opel|Combo-e": 5
 , "MG|Marvel R": 5
 , "BMW|iX": 4
@@ -1155,7 +1155,7 @@ db.insert(db.countries.DK, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 12
 , "Peugeot|e-2008": 12
 , "Tesla|Model Y": 10
-, "MG|MG5 EV": 8
+, "Roewe|Ei5": 8
 , "Tesla|Model 3": 7
 , "Porsche|Taycan": 7
 , "BMW|iX": 7
@@ -1230,7 +1230,7 @@ db.insert(db.countries.DK, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 2
 , "Jaguar|I-Pace": 2
 , "Volkswagen|e-Golf": 1
-, "MG|MG5 EV": 1
+, "Roewe|Ei5": 1
 , "BMW|i3 BEV": 1
 , "other": 40
 });
@@ -1283,7 +1283,7 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 7
 , "Lexus|UX 300e": 6
 , "Citroën|Berlingo Electric": 6
-, "MG|MG5 EV": 5
+, "Roewe|Ei5": 5
 , "Opel|Mokka-e": 4
 , "other": 45
 });
@@ -1325,7 +1325,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 12
 , "BMW|iX3": 12
 , "Opel|Corsa-e": 11
-, "MG|MG5 EV": 11
+, "Roewe|Ei5": 11
 , "Porsche|Taycan": 10
 , "Mini|Cooper SE Electric": 10
 , "Volkswagen|e-up!": 8
@@ -1385,7 +1385,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 14
 , "Volvo|C40 Recharge": 12
 , "Porsche|Taycan": 12
-, "MG|MG5 EV": 12
+, "Roewe|Ei5": 12
 , "Citroën|Berlingo Electric": 10
 , "Mercedes-Benz|eVito": 9
 , "Fiat|500e": 8
@@ -1435,7 +1435,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 22
 , "Mazda|MX-30": 18
 , "MG|MG4 EV": 17
-, "MG|MG5 EV": 14
+, "Roewe|Ei5": 14
 , "MG|Marvel R": 13
 , "Mini|Cooper SE Electric": 12
 , "Nissan|Leaf": 10
@@ -1490,7 +1490,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 18
 , "Citroën|ë-C4": 16
 , "Renault|Zoe": 13
-, "MG|MG5 EV": 13
+, "Roewe|Ei5": 13
 , "Dacia|Spring": 13
 , "Toyota|bZ4X": 11
 , "Tesla|Model 3": 11
@@ -1556,7 +1556,7 @@ db.insert(db.countries.DK, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 11
 , "Opel|Mokka-e": 8
 , "Toyota|bZ4X": 7
-, "MG|MG5 EV": 7
+, "Roewe|Ei5": 7
 , "Dacia|Spring": 6
 , "Toyota|Proace Electric": 5
 , "Mercedes-Benz|eVito": 5

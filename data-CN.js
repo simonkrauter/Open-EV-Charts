@@ -19,7 +19,7 @@ db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Trumpchi GE3": 536
 , "Zotye|E200": 501
 , "Tesla|Model X": 500
-, "SAIC|Roewe eRX5 BEV": 482
+, "Roewe|eRX5 BEV": 482
 , "Geely|Emgrand EV": 466
 , "Yudo|Pi1": 356
 });
@@ -38,7 +38,7 @@ db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Zhidou|D2 EV": 893
 , "GAC|Trumpchi GE3": 442
 , "Hawtai|EV160": 335
-, "SAIC|Roewe eRX5 BEV": 374
+, "Roewe|eRX5 BEV": 374
 , "JMC|E100": 504
 , "SAIC|Wuling E100": 601
 , "Zotye|E200": 107
@@ -61,7 +61,7 @@ db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Zotye|E200": 1532
 , "Tesla|Model X": 1500
 , "SAIC|Wuling E100": 901
-, "SAIC|Roewe eRX5 BEV": 627
+, "Roewe|eRX5 BEV": 627
 , "Hawtai|xEV260": 1350
 });
 
@@ -105,7 +105,7 @@ db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 4034
 , "Haima|Aishang EV": 3278
 , "Zotye|E200": 1703
-, "SAIC|Roewe Ei5 EV": 2996
+, "Roewe|Ei5": 2996
 , "Tesla|Model X": 1500
 , "Hawtai|xEV260": 1559
 });
@@ -123,7 +123,7 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 4434
 , "Geely|Emgrand EV": 2433
 , "SAIC|Baojun E100": 873
-, "SAIC|Roewe Ei5 EV": 4661
+, "Roewe|Ei5": 4661
 , "Hawtai|EV160": 2965
 , "BAIC|EU-Series": 3944
 , "Zotye|E200": 1497
@@ -144,7 +144,7 @@ db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 3665
 , "Geely|Emgrand EV": 2500
 , "Zhidou|D2 EV": 343
-, "SAIC|Roewe Ei5 EV": 2939
+, "Roewe|Ei5": 2939
 , "Hawtai|EV160": 3113
 , "SAIC|Baojun E100": 602
 , "Zotye|E200": 1919
@@ -164,7 +164,7 @@ db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 4647
 , "BAIC|EX-Series": 3162
 , "JMC|E200": 1128
-, "SAIC|Roewe Ei5 EV": 3959
+, "Roewe|Ei5": 3959
 , "Hawtai|EV160": 3984
 , "BAIC|EU-Series": 2988
 , "Zhidou|D2 EV": 345
@@ -187,7 +187,7 @@ db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 3193
 , "Hawtai|EV160": 4780
 , "JMC|E200": 2139
-, "SAIC|Roewe Ei5 EV": 2561
+, "Roewe|Ei5": 2561
 , "BAIC|EU-Series": 4138
 , "BYD|Yuan EV": 5008
 , "Zhidou|D2 EV": 10
@@ -210,7 +210,7 @@ db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 2471
 , "JMC|E200": 4195
 , "BAIC|EU-Series": 4075
-, "SAIC|Roewe Ei5 EV": 2337
+, "Roewe|Ei5": 2337
 , "BYD|Yuan EV": 5803
 , "SAIC|Baojun E100": 3126
 , "Zotye|E200": 2050
@@ -233,7 +233,7 @@ db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JMC|E200": 3372
 , "BAIC|EX-Series": 1161
 , "BAIC|EU-Series": 2941
-, "SAIC|Roewe Ei5 EV": 1143
+, "Roewe|Ei5": 1143
 , "SAIC|Baojun E100": 5155
 , "Zotye|E200": 1904
 , "Hawtai|xEV": 3257
@@ -255,7 +255,7 @@ db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JMC|E200": 4846
 , "Geely|Emgrand EV": 2808
 , "Hawtai|EV160": 680
-, "SAIC|Roewe Ei5 EV": 3301
+, "Roewe|Ei5": 3301
 , "SAIC|Baojun E100": 4692
 , "Dongfeng|Junfeng Skio": 4104
 , "Zotye|E200": 2293
@@ -272,7 +272,7 @@ db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e5": 3968
 , "BAIC|EU-Series": 3895
 , "Chery|eQ": 3375
-, "SAIC|Roewe Ei5 EV": 2999
+, "Roewe|Ei5": 2999
 , "Geely|Emgrand GSE EV": 2808
 , "JMC|E200": 2763
 , "JAC|iEV E-Series": 2745
@@ -296,7 +296,7 @@ db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 3895
 , "BYD|e5": 2476
 , "BAIC|EU-Series": 2465
-, "SAIC|Roewe Ei5 EV": 2369
+, "Roewe|Ei5": 2369
 , "JMC|E200": 2226
 , "JAC|iEV E-Series": 1170
 , "Geely|Emgrand GSE EV": 1034
@@ -318,7 +318,7 @@ db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 4207
 , "SAIC|Baojun E100": 961
 , "Chery|eQ": 2838
-, "SAIC|Roewe Ei5 EV": 3219
+, "Roewe|Ei5": 3219
 , "Great Wall|Ora R1 EV": 4002
 , "JMC|E200": 2295
 , "JAC|iEV E-Series": 2698
@@ -340,7 +340,7 @@ db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e5": 4602
 , "Geely|Emgrand EV": 5225
 , "Chery|eQ": 4129
-, "SAIC|Roewe Ei5 EV": 4003
+, "Roewe|Ei5": 4003
 , "SAIC|Baojun E-Series EV": 1488
 , "Great Wall|Ora R1 EV": 3505
 , "JAC|iEV E-Series": 3002
@@ -362,7 +362,7 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 7079
 , "BYD|e5": 3173
 , "Geely|Emgrand EV": 3348
-, "SAIC|Roewe Ei5 EV": 5488
+, "Roewe|Ei5": 5488
 , "Chery|eQ": 3818
 , "Great Wall|Ora R1 EV": 3790
 , "JAC|iEV E-Series": 4505
@@ -384,7 +384,7 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Yuan EV": 6566
 , "BYD|e5": 3793
 , "Geely|Emgrand EV": 4465
-, "SAIC|Roewe Ei5 EV": 4377
+, "Roewe|Ei5": 4377
 , "Chery|eQ": 4965
 , "Great Wall|Ora R1 EV": 3198
 , "JAC|iEV E-Series": 3294
@@ -408,7 +408,7 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e5": 126
 , "Chery|eQ": 2405
 , "SAIC|Baojun E-Series EV": 6328
-, "SAIC|Roewe Ei5 EV": 668
+, "Roewe|Ei5": 668
 , "Great Wall|Ora R1 EV": 1677
 , "Changan|Eado EV": 682
 , "Tesla|Model 3": 1800
@@ -430,7 +430,7 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e5": 1963
 , "Chery|eQ": 2345
 , "Geely|Emgrand EV": 2330
-, "SAIC|Roewe Ei5 EV": 197
+, "Roewe|Ei5": 197
 , "Great Wall|Ora R1 EV": 1108
 , "Changan|Eado EV": 1075
 , "JAC|iEV E-Series": 228
@@ -452,7 +452,7 @@ db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 2584
 , "BYD|e5": 221
 , "Geely|Emgrand EV": 430
-, "SAIC|Roewe Ei5 EV": 185
+, "Roewe|Ei5": 185
 , "Great Wall|Ora R1 EV": 1710
 , "Tesla|Model 3": 4200
 , "Changan|Eado EV": 483
@@ -474,7 +474,7 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 2415
 , "BYD|e5": 196
 , "Geely|Emgrand EV": 545
-, "SAIC|Roewe Ei5 EV": 837
+, "Roewe|Ei5": 837
 , "Great Wall|Ora R1 EV": 1618
 , "Tesla|Model 3": 500
 , "Changan|Eado EV": 917
@@ -498,7 +498,7 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 2104
 , "BYD|e5": 121
 , "Great Wall|Ora R1 EV": 2001
-, "SAIC|Roewe Ei5 EV": 2001
+, "Roewe|Ei5": 2001
 , "Tesla|Model 3": 4658
 , "GAC|Aion S": 5538
 , "Changan|Eado EV": 1914
@@ -519,7 +519,7 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|Baojun E-Series EV": 8352
 , "Chery|eQ": 5510
 , "GAC|Aion S": 8460
-, "SAIC|Roewe Ei5 EV": 5457
+, "Roewe|Ei5": 5457
 , "Tesla|Model 3": 4800
 , "BYD|e5": 589
 , "Geely|Emgrand EV": 155
@@ -538,7 +538,7 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "https://carsal
 
 db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
 { "Tesla|Model 3": 3183
-, "SAIC|Roewe Ei5 EV": 3068
+, "Roewe|Ei5": 3068
 , "GAC|Aion S": 2648
 , "Besturn|B30 EV": 2161
 , "BAIC|EU-Series": 1966
@@ -562,7 +562,7 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "https://carsal
 db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
 { "Tesla|Model 3": 2284
 , "GAC|Aion S": 1433
-, "SAIC|Roewe Ei5 EV": 277
+, "Roewe|Ei5": 277
 , "BYD|Qin Pro EV": 1477
 , "BAIC|EU-Series": 979
 , "Besturn|B30 EV": 371
@@ -588,7 +588,7 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 4450
 , "GAC|Aion S": 2957
 , "SAIC|MG eZS EV": 2531
-, "SAIC|Roewe Ei5 EV": 804
+, "Roewe|Ei5": 804
 , "BYD|Yuan EV": 2009
 , "Nio|ES6": 1479
 , "SAIC|Baojun E-Series EV": 1557
@@ -613,7 +613,7 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nio|ES6": 2907
 , "SAIC|Baojun E-Series EV": 2042
 , "BYD|Yuan EV": 1591
-, "SAIC|Roewe Ei5 EV": 450
+, "Roewe|Ei5": 450
 , "Chery|eQ": 2299
 , "Great Wall|Ora R1 EV": 1760
 , "SAIC|MG eZS EV": 24
@@ -637,7 +637,7 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 2563
 , "BYD|Yuan EV": 1714
 , "Great Wall|Ora R1 EV": 2326
-, "SAIC|Roewe Ei5 EV": 1085
+, "Roewe|Ei5": 1085
 , "Weltmeister|EX5": 1421
 , "BYD|e2": 1461
 , "Buick|Velite 6": 3526
@@ -664,7 +664,7 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 1990
 , "BYD|e2": 1517
 , "Buick|Velite 6": 792
-, "SAIC|Roewe Ei5 EV": 168
+, "Roewe|Ei5": 168
 , "SAIC|MG eZS EV": 1016
 , "BYD|Song Pro EV": 1086
 , "other": 24988
@@ -689,7 +689,7 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 1534
 , "SAIC|MG eZS EV": 1752
 , "Buick|Velite 6": 521
-, "SAIC|Roewe Ei5 EV": 410
+, "Roewe|Ei5": 410
 , "BYD|Song Pro EV": 1198
 , "other": 27148
 });
@@ -714,7 +714,7 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "SAIC|MG eZS EV": 1927
 , "Buick|Velite 6": 304
 , "BYD|Song Pro EV": 849
-, "SAIC|Roewe Ei5 EV": 23
+, "Roewe|Ei5": 23
 , "other": 30506
 });
 
@@ -756,7 +756,7 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 4630
 , "SAIC|MG eZS EV": 3796
 , "BYD|Qin Pro EV": 3526
-, "SAIC|Roewe Clever EV": 3054
+, "Roewe|Clever EV": 3054
 , "Weltmeister|EX5": 3003
 , "Nio|ES6": 2695
 , "BYD|e2": 2598
@@ -806,7 +806,7 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Qin Pro EV": 3713
 , "Xpeng|P7": 3691
 , "Leapmotor|T03": 2983
-, "SAIC|Roewe Ei5 EV": 2877
+, "Roewe|Ei5": 2877
 , "Xpeng|G3": 2618
 , "Changan|Benni EV": 2610
 , "Weltmeister|EX5": 2588
@@ -825,7 +825,7 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 6092
 , "Great Wall|Ora Black Cat": 6090
 , "Chery|eQ": 5772
-, "SAIC|Roewe Clever EV": 5172
+, "Roewe|Clever EV": 5172
 , "Xpeng|P7": 3710
 , "Changan|Benni EV": 3240
 , "Nio|EC6": 2845
@@ -882,7 +882,7 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Leapmotor|T03": 2827
 , "BYD|D1": 2796
 , "Nio|EC6": 2649
-, "SAIC|Roewe Clever EV": 2486
+, "Roewe|Clever EV": 2486
 , "Weltmeister|EX5": 2482
 , "other": 40196
 });
@@ -899,7 +899,7 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 5077
 , "Chery|eQ": 4917
 , "Great Wall|Ora Black Cat": 4613
-, "SAIC|Roewe Clever EV": 4130
+, "Roewe|Clever EV": 4130
 , "Hozon|Neta V EV": 3846
 , "Changan|Benni EV": 3828
 , "Nio|ES6": 3163
@@ -923,7 +923,7 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 5763
 , "Chery|eQ": 4931
 , "GAC|Aion S": 4905
-, "SAIC|Roewe Clever EV": 4431
+, "Roewe|Clever EV": 4431
 , "Xpeng|P7": 3797
 , "Hozon|Neta V EV": 3409
 , "BYD|e2": 3195
@@ -947,7 +947,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 5802
 , "Chery|eQ": 5417
 , "Xpeng|P7": 4730
-, "SAIC|Roewe Clever EV": 4403
+, "Roewe|Clever EV": 4403
 , "BYD|Qin Plus EV": 4272
 , "Leapmotor|T03": 4029
 , "BYD|e2": 3972
@@ -970,7 +970,7 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 5592
 , "GAC|Aion S": 5502
 , "BYD|Qin Plus EV": 5342
-, "SAIC|Roewe Clever EV": 5202
+, "Roewe|Clever EV": 5202
 , "Chery|eQ": 5065
 , "Hozon|Neta V EV": 4469
 , "Leapmotor|T03": 4283
@@ -989,7 +989,7 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "http://en.caam
 db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
 { "Wuling|Hongguang Mini EV": 41118
 , "Tesla|Model Y": 11576
-, "SAIC|Roewe Clever EV": 8913
+, "Roewe|Clever EV": 8913
 , "BYD|Qin Plus EV": 7633
 , "Changan|Benni EV": 7358
 , "Great Wall|Ora Black Cat": 7013
@@ -1021,7 +1021,7 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|P7": 7512
 , "Volkswagen|ID.4": 7047
 , "Chery|eQ": 7033
-, "SAIC|Roewe Clever EV": 6602
+, "Roewe|Clever EV": 6602
 , "Letin|Mango": 6056
 , "BYD|Yuan EV": 5372
 , "Great Wall|Ora Black Cat": 5327
@@ -1043,7 +1043,7 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "GAC|Aion S": 8020
 , "Great Wall|Ora Good Cat EV": 7845
 , "Volkswagen|ID.4": 7430
-, "SAIC|Roewe Clever EV": 6851
+, "Roewe|Clever EV": 6851
 , "Chery|eQ": 6850
 , "BYD|Yuan EV": 6507
 , "Changan|Benni EV": 6382
@@ -1075,7 +1075,7 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan EV": 6489
 , "Changan|Benni EV": 6440
 , "Xpeng|G5": 5620
-, "SAIC|Roewe Clever EV": 5370
+, "Roewe|Clever EV": 5370
 , "other": 155979
 });
 
@@ -1213,7 +1213,7 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "GAC|Aion Y": 8289
 , "Hozon|Neta V EV": 7884
 , "BYD|Dolphin": 9430
-, "SAIC|Roewe Clever EV": 6263
+, "Roewe|Clever EV": 6263
 , "Tesla|Model Y": 5875
 , "Leapmotor|T03": 5724
 , "Volkswagen|ID.4": 5661
@@ -1349,6 +1349,6 @@ db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 10069
 , "Changan|Benni EV": 8915
 , "Dongfeng|E-Series": 8312
-, "SAIC|Roewe Clever EV": 8100
+, "Roewe|Clever EV": 8100
 , "other": 271382
 });

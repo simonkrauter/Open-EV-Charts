@@ -1731,7 +1731,7 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 20
 , "BMW|iX3": 19
 , "BMW|i4": 19
-, "MG|MG5 EV": 17
+, "Roewe|Ei5": 17
 , "Lexus|UX 300e": 15
 , "Tesla|Model Y": 14
 , "Hyundai|Ioniq 5": 12
@@ -1832,7 +1832,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 17
 , "Aiways|U5": 16
 , "Mercedes-Benz|EQE": 15
-, "MG|MG5 EV": 14
+, "Roewe|Ei5": 14
 , "Jaguar|I-Pace": 13
 , "Subaru|Solterra": 12
 , "Hyundai|Ioniq 5": 11
@@ -2212,7 +2212,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 6
 , "Subaru|Solterra": 5
 , "Peugeot|e-Rifter": 5
-, "MG|MG5 EV": 5
+, "Roewe|Ei5": 5
 , "other": 24
 });
 

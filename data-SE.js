@@ -1691,7 +1691,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 11
 , "Honda|e": 11
 , "Mercedes-Benz|eSprinter": 10
-, "MG|MG5 EV": 10
+, "Roewe|Ei5": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Citroën|Berlingo Electric": 7
 , "other": 43
@@ -1729,7 +1729,7 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 76
 , "Fiat|500e": 70
 , "Mazda|MX-30": 63
-, "MG|MG5 EV": 61
+, "Roewe|Ei5": 61
 , "Mercedes-Benz|EQB": 56
 , "Volkswagen|ID.5": 53
 , "Volvo|C40 Recharge": 50
@@ -1784,7 +1784,7 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 92
 , "Peugeot|e-2008": 92
 , "Volvo|XC40 Recharge pure electric": 90
-, "MG|MG5 EV": 72
+, "Roewe|Ei5": 72
 , "Nissan|Leaf": 68
 , "Ford|Mustang Mach-E": 68
 , "Mini|Cooper SE Electric": 67
@@ -1822,7 +1822,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 336
 , "Škoda|Enyaq": 243
 , "Ford|Mustang Mach-E": 227
-, "MG|MG5 EV": 217
+, "Roewe|Ei5": 217
 , "MG|Marvel R": 158
 , "Cupra|Born": 148
 , "BMW|iX": 146
@@ -1881,7 +1881,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 379
 , "Tesla|Model Y": 245
 , "Tesla|Model 3": 213
-, "MG|MG5 EV": 190
+, "Roewe|Ei5": 190
 , "Peugeot|e-2008": 186
 , "Cupra|Born": 185
 , "Volkswagen|ID.5": 180
@@ -1948,7 +1948,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 180
 , "Cupra|Born": 164
 , "MG|ZS EV": 148
-, "MG|MG5 EV": 148
+, "Roewe|Ei5": 148
 , "Audi|Q4 e-tron": 145
 , "Mercedes-Benz|EQB": 138
 , "Ford|Mustang Mach-E": 138
@@ -2006,7 +2006,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 191
 , "Mercedes-Benz|EQB": 176
 , "Renault|Mégane E-Tech Electric": 171
-, "MG|MG5 EV": 155
+, "Roewe|Ei5": 155
 , "Hyundai|Kona Electric": 135
 , "BMW|i4": 108
 , "Peugeot|e-208": 96
@@ -2073,7 +2073,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 92
 , "BYD|Yuan Plus": 83
 , "Subaru|Solterra": 74
-, "MG|MG5 EV": 69
+, "Roewe|Ei5": 69
 , "Fiat|500e": 66
 , "Porsche|Taycan": 63
 , "Hyundai|Ioniq 5": 60

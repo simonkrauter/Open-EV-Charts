@@ -3745,7 +3745,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 11
 , "Smart|Fortwo ED": 9
 , "Renault|Mégane E-Tech Electric": 8
-, "MG|MG5 EV": 8
+, "Roewe|Ei5": 8
 , "MG|Marvel R": 7
 , "Smart|Forfour ED": 6
 , "Opel|Combo-e": 6
@@ -3807,7 +3807,7 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 172
 , "Hyundai|Ioniq 5": 119
 , "BMW|iX3": 112
-, "MG|MG5 EV": 111
+, "Roewe|Ei5": 111
 , "Citroën|ë-C4": 105
 , "Ford|Mustang Mach-E": 92
 , "Hyundai|Kona Electric": 78
@@ -3933,7 +3933,7 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 16
 , "Mercedes-Benz|EQV": 14
 , "Mazda|MX-30": 12
-, "MG|MG5 EV": 11
+, "Roewe|Ei5": 11
 , "Audi|e-tron GT": 11
 , "Mercedes-Benz|eVito": 8
 , "BMW|i3 BEV": 8
@@ -4019,7 +4019,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 78
 , "Mercedes-Benz|EQB": 70
 , "Toyota|Proace Electric": 55
-, "MG|MG5 EV": 54
+, "Roewe|Ei5": 54
 , "Mercedes-Benz|EQA": 52
 , "Volkswagen|ID.5": 46
 , "MG|Marvel R": 42
@@ -4218,7 +4218,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 19
 , "Kia|Soul EV": 13
 , "MG|Marvel R": 9
-, "MG|MG5 EV": 9
+, "Roewe|Ei5": 9
 , "Toyota|Proace Electric": 8
 , "Mercedes-Benz|EQV": 8
 , "Mazda|MX-30": 8
@@ -4317,7 +4317,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 14
 , "BYD|Tang": 11
 , "Porsche|Taycan": 10
-, "MG|MG5 EV": 9
+, "Roewe|Ei5": 9
 , "Audi|e-tron GT": 8
 , "Peugeot|e-Expert": 7
 , "other": 69

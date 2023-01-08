@@ -534,7 +534,7 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "BMW|i3 BEV": 3
 , "Honda|e": 2
-, "MG|MG5 EV": 1
+, "Roewe|Ei5": 1
 , "other": 1
 });
 
@@ -611,7 +611,7 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 27
 , "Škoda|Enyaq": 26
 , "Renault|Zoe": 24
-, "MG|MG5 EV": 21
+, "Roewe|Ei5": 21
 , "Hyundai|Kona Electric": 20
 , "Mercedes-Benz|EQA": 15
 , "Audi|Q8 e-tron": 13
@@ -642,7 +642,7 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 19
 , "Renault|Zoe": 18
 , "Škoda|Enyaq": 11
-, "MG|MG5 EV": 9
+, "Roewe|Ei5": 9
 , "Mini|Cooper SE Electric": 7
 , "MG|ZS EV": 7
 , "Audi|Q8 e-tron": 6
@@ -686,7 +686,7 @@ db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 27
 , "Peugeot|e-208": 25
 , "Opel|Corsa-e": 25
-, "MG|MG5 EV": 24
+, "Roewe|Ei5": 24
 , "Mercedes-Benz|EQA": 21
 , "Volvo|XC40 Recharge pure electric": 19
 , "Opel|Mokka-e": 19
@@ -737,7 +737,7 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Tesla|Model 3": 2
 , "Opel|Vivaro-e": 2
-, "MG|MG5 EV": 2
+, "Roewe|Ei5": 2
 , "Peugeot|e-Expert": 1
 , "Honda|e": 1
 , "Citroën|ë-SpaceTourer": 1
@@ -767,7 +767,7 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 11
 , "Citroën|ë-C4": 11
 , "Ford|Mustang Mach-E": 9
-, "MG|MG5 EV": 7
+, "Roewe|Ei5": 7
 , "Honda|e": 6
 , "Opel|Mokka-e": 4
 , "Opel|Corsa-e": 4
@@ -789,7 +789,7 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/10",
 { "Volkswagen|ID.4": 80
 , "Volkswagen|ID.3": 61
-, "MG|MG5 EV": 60
+, "Roewe|Ei5": 60
 , "Nissan|Leaf": 42
 , "Škoda|Enyaq": 38
 , "MG|ZS EV": 34
@@ -838,7 +838,7 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 8
 , "Nissan|Leaf": 7
 , "Jaguar|I-Pace": 7
-, "MG|MG5 EV": 6
+, "Roewe|Ei5": 6
 , "Peugeot|e-208": 4
 , "Mercedes-Benz|EQA": 3
 , "Mazda|MX-30": 3
@@ -863,7 +863,7 @@ db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 9
 , "Volkswagen|ID.4": 6
 , "Volkswagen|ID.3": 2
-, "MG|MG5 EV": 2
+, "Roewe|Ei5": 2
 , "Hyundai|Kona Electric": 2
 , "Hyundai|Ioniq 5": 2
 , "Honda|e": 2
@@ -894,7 +894,7 @@ db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 56
 , "Mercedes-Benz|EQA": 55
 , "Opel|Corsa-e": 50
-, "MG|MG5 EV": 47
+, "Roewe|Ei5": 47
 , "Peugeot|e-208": 45
 , "Audi|Q8 e-tron": 44
 , "Kia|Soul EV": 40
@@ -944,7 +944,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 17
 , "Fiat|500e": 16
 , "BMW|i4": 16
-, "MG|MG5 EV": 15
+, "Roewe|Ei5": 15
 , "Mercedes-Benz|EQC": 9
 , "MG|ZS EV": 9
 , "Audi|e-tron GT": 9
@@ -1004,7 +1004,7 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 7
 , "Porsche|Taycan": 6
 , "Honda|e": 6
-, "MG|MG5 EV": 4
+, "Roewe|Ei5": 4
 , "Citroën|ë-SpaceTourer": 4
 , "Jaguar|I-Pace": 3
 , "BMW|i3 BEV": 3
@@ -1036,7 +1036,7 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 30
 , "Audi|Q8 e-tron": 28
 , "BMW|iX": 25
-, "MG|MG5 EV": 24
+, "Roewe|Ei5": 24
 , "BMW|iX3": 22
 , "Mercedes-Benz|EQA": 21
 , "Citroën|ë-C4": 21
@@ -1092,7 +1092,7 @@ db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 11
 , "Jaguar|I-Pace": 11
 , "Audi|Q8 e-tron": 10
-, "MG|MG5 EV": 8
+, "Roewe|Ei5": 8
 , "Mini|Cooper SE Electric": 7
 , "Mercedes-Benz|EQB": 7
 , "Mercedes-Benz|EQC": 6
@@ -1124,7 +1124,7 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/6",
 { "Volkswagen|ID.4": 28
 , "Volkswagen|ID.3": 27
-, "MG|MG5 EV": 20
+, "Roewe|Ei5": 20
 , "Škoda|Enyaq": 13
 , "Polestar|2": 12
 , "Nissan|Leaf": 9
@@ -1174,7 +1174,7 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 87
 , "Peugeot|e-208": 67
 , "Nissan|Leaf": 66
-, "MG|MG5 EV": 58
+, "Roewe|Ei5": 58
 , "Hyundai|Kona Electric": 54
 , "Opel|Mokka-e": 46
 , "Audi|Q8 e-tron": 42
@@ -1228,7 +1228,7 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 43
 , "MG|ZS EV": 43
 , "Nissan|Leaf": 40
-, "MG|MG5 EV": 40
+, "Roewe|Ei5": 40
 , "Audi|Q8 e-tron": 36
 , "Nissan|Ariya": 34
 , "BMW|iX3": 34
@@ -1302,7 +1302,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 6
 , "Renault|Mégane E-Tech Electric": 4
 , "Opel|Mokka-e": 4
-, "MG|MG5 EV": 4
+, "Roewe|Ei5": 4
 , "Audi|Q4 e-tron": 4
 , "Mercedes-Benz|EQC": 3
 , "Citroën|ë-SpaceTourer": 3

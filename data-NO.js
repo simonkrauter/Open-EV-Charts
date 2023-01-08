@@ -3296,7 +3296,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 53
 , "Mazda|MX-30": 53
 , "Tesla|Model Y": 45
-, "MG|MG5 EV": 44
+, "Roewe|Ei5": 44
 , "Renault|Zoe": 41
 , "Tesla|Model 3": 38
 , "Opel|Corsa-e": 36
@@ -3370,7 +3370,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|ES8": 77
 , "Opel|Corsa-e": 76
 , "Peugeot|e-208": 73
-, "MG|MG5 EV": 72
+, "Roewe|Ei5": 72
 , "Hyundai|Ioniq Electric": 72
 , "Mercedes-Benz|EQC": 71
 , "Mercedes-Benz|EQB": 70
@@ -3453,7 +3453,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 55
 , "Renault|Zoe": 50
 , "Toyota|bZ4X": 47
-, "MG|MG5 EV": 45
+, "Roewe|Ei5": 45
 , "BMW|i3 BEV": 44
 , "Kia|Soul EV": 42
 , "Mercedes-Benz|EQS": 39
@@ -3510,7 +3510,7 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 101
 , "Hyundai|Ioniq Electric": 93
 , "Mercedes-Benz|EQB": 89
-, "MG|MG5 EV": 86
+, "Roewe|Ei5": 86
 , "Polestar|2": 73
 , "Peugeot|e-208": 70
 , "Cupra|Born": 70
@@ -3598,7 +3598,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 78
 , "Porsche|Taycan": 76
 , "Renault|Mégane E-Tech Electric": 72
-, "MG|MG5 EV": 67
+, "Roewe|Ei5": 67
 , "Opel|Corsa-e": 62
 , "Mercedes-Benz|EQE": 59
 , "Opel|Mokka-e": 56
@@ -3675,7 +3675,7 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hongqi|E-HS9": 108
 , "BYD|Tang": 95
 , "BMW|i4": 95
-, "MG|MG5 EV": 84
+, "Roewe|Ei5": 84
 , "Nio|ES8": 83
 , "Mercedes-Benz|EQE": 79
 , "Cupra|Born": 73
@@ -3764,7 +3764,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 39
 , "Mercedes-Benz|EQE": 36
 , "Opel|Mokka-e": 30
-, "MG|MG5 EV": 26
+, "Roewe|Ei5": 26
 , "Jaguar|I-Pace": 23
 , "Peugeot|e-208": 22
 , "Opel|Combo-e": 20
@@ -3834,7 +3834,7 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 88
 , "Mazda|MX-30": 87
 , "MG|ZS EV": 87
-, "MG|MG5 EV": 75
+, "Roewe|Ei5": 75
 , "MG|MG4 EV": 70
 , "Citroën|ë-C4": 69
 , "Mercedes-Benz|EQS": 60
@@ -3916,7 +3916,7 @@ db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 196
 , "Nissan|Ariya": 184
 , "Citroën|ë-C4": 172
-, "MG|MG5 EV": 130
+, "Roewe|Ei5": 130
 , "MG|MG4 EV": 128
 , "Nio|ES8": 114
 , "Tesla|Model 3": 113
