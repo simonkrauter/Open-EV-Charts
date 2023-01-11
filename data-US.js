@@ -833,22 +833,25 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.go
 db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
 { "Tesla|Model Y": 53000
 , "Tesla|Model 3": 49900
-, "Ford|Mustang Mach-E": 8984
+, "Ford|Mustang Mach-E": 10941
 , "Tesla|Model S": 8800
 , "Hyundai|Ioniq 5": 7448
+, "Kia|EV6": 7287
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
-, "Kia|EV6": 4720
 , "Audi|Q8 e-tron": 3938
 , "Nissan|Leaf": 3251
 , "Porsche|Taycan": 2525
 , "Polestar|2": 2200
 , "Volkswagen|ID.4": 1659
+, "Volvo|C40 Recharge": 1427
 , "BMW|iX": 1081
-, "Volvo|C40 Recharge": 1076
 , "Audi|e-tron GT": 839
+, "Rivian|R1T": 700
+, "Lucid|Air": 500
 , "Toyota|bZ4X": 232
 , "Mazda|MX-30": 136
+, "Jaguar|I-Pace": 121
 });
 
 db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
@@ -897,16 +900,21 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 6657
 , "Kia|EV6": 4872
 , "Hyundai|Ioniq 5": 4800
+, "Rivian|R1T": 4400
 , "Tesla|Model X": 3999
 , "Audi|Q8 e-tron": 2249
 , "Polestar|2": 2200
 , "BMW|iX": 1726
+, "Rivian|EDV": 1699
 , "Porsche|Taycan": 1325
 , "Nissan|Leaf": 1276
+, "Mercedes-Benz|EQB": 739
 , "Audi|Q4 e-tron": 732
 , "Lucid|Air": 599
 , "Audi|e-tron GT": 576
 , "Volvo|C40 Recharge": 326
+, "Mercedes-Benz|EQS": 277
+, "Jaguar|I-Pace": 104
 , "Mazda|MX-30": 8
 });
 
