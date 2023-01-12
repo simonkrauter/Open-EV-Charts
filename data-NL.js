@@ -3744,8 +3744,8 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 12
 , "Kia|Soul EV": 11
 , "Smart|Fortwo ED": 9
-, "Renault|Mégane E-Tech Electric": 8
 , "Roewe|Ei5": 8
+, "Renault|Mégane E-Tech Electric": 8
 , "MG|Marvel R": 7
 , "Smart|Forfour ED": 6
 , "Opel|Combo-e": 6
@@ -4217,8 +4217,8 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 24
 , "Fiat|E-Ulysse": 19
 , "Kia|Soul EV": 13
-, "MG|Marvel R": 9
 , "Roewe|Ei5": 9
+, "MG|Marvel R": 9
 , "Toyota|Proace Electric": 8
 , "Mercedes-Benz|EQV": 8
 , "Mazda|MX-30": 8
@@ -4464,7 +4464,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/11",
-{ "Škoda|Enyaq": 521
+{ "Škoda|Enyaq": 523
 , "Volvo|XC40 Recharge pure electric": 479
 , "Peugeot|e-208": 371
 , "BMW|i4": 307
@@ -4481,7 +4481,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 208
 , "Peugeot|e-2008": 190
 , "Volvo|C40 Recharge": 158
-, "Volkswagen|ID.3": 155
+, "Volkswagen|ID.3": 156
 , "Volkswagen|ID.5": 140
 , "Opel|Mokka-e": 133
 , "Mini|Cooper SE Electric": 133
@@ -4491,7 +4491,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 96
 , "BMW|iX": 96
 , "Renault|Twingo Z.E.": 94
-, "Toyota|bZ4X": 88
+, "Toyota|bZ4X": 89
 , "Fiat|500e": 83
 , "BYD|Yuan Plus": 83
 , "Hyundai|Kona Electric": 75
