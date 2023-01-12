@@ -2211,8 +2211,8 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 6
 , "Lexus|UX 300e": 6
 , "Subaru|Solterra": 5
-, "Peugeot|e-Rifter": 5
 , "Roewe|Ei5": 5
+, "Peugeot|e-Rifter": 5
 , "other": 24
 });
 
@@ -2294,6 +2294,7 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 25
 , "Kia|Niro EV": 25
 , "MG|Marvel R": 24
+, "Fiat|E-Doblò": 22
 , "Audi|Q8 e-tron": 21
 , "Polestar|2": 20
 , "Volvo|C40 Recharge": 18
@@ -2307,5 +2308,5 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 10
 , "Audi|e-tron GT": 10
 , "Citroën|ë-SpaceTourer": 9
-, "other": 95
+, "other": 40
 });
