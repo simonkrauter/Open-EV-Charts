@@ -720,7 +720,7 @@ var db = {
     var seriesRows = {};
     var sources = [];
     var categories = [];
-    var monthsPerSeriesAndQuarter = {};
+    var monthsPerCountryAndTimeSpan = {};
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -779,14 +779,18 @@ var db = {
             seriesName = brand;
         }
 
-        if (chartConfig.xProperty == this.xProperties.quarter) {
-          const quarter = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-          if (!(seriesName in monthsPerSeriesAndQuarter))
-            monthsPerSeriesAndQuarter[seriesName] = {};
-          if (!(quarter in monthsPerSeriesAndQuarter[seriesName]))
-            monthsPerSeriesAndQuarter[seriesName][quarter] = [];
-          if (!monthsPerSeriesAndQuarter[seriesName][quarter].includes(dataset.monthString))
-            monthsPerSeriesAndQuarter[seriesName][quarter].push(dataset.monthString);
+        if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+          var timeSpan;
+          if (chartConfig.xProperty == this.xProperties.quarter)
+            timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
+          else
+            timeSpan = dataset.year;
+          if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
+            monthsPerCountryAndTimeSpan[dataset.countryName] = {};
+          if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
+            monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan] = [];
+          if (!monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].includes(dataset.monthString))
+            monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
         }
 
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
@@ -810,27 +814,15 @@ var db = {
       }
     }
 
-    // Remove last quarter if it is incomplete
-    if (chartConfig.xProperty == this.xProperties.quarter) {
-      categories.sort();
-      const lastQuarter = categories[categories.length - 1];
-      for (const seriesName in monthsPerSeriesAndQuarter) {
-        const monthsPerQuarter = monthsPerSeriesAndQuarter[seriesName];
-        if (monthsPerQuarter[lastQuarter] && monthsPerQuarter[lastQuarter].length != 3 && seriesRows[seriesName]) {
-          delete seriesRows[seriesName][lastQuarter];
-        }
-      }
-    }
-
     return {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: this.getHints(chartConfig, sources)
+      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan)
     };
   },
 
-  getHints: function(chartConfig, sources) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan) {
     var hints = [];
 
     // parsing of general hints
@@ -859,6 +851,27 @@ var db = {
           text = text + "All cars sales data per brand is not available.";
           if (!hints.includes(text))
             hints.push(text);
+        }
+      }
+    }
+
+    // add hints for incomplete year or quarter
+    if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+      categories.sort();
+      const lastTimeSpan = categories[categories.length - 1];
+      var expectedNumberOfMonth;
+      if (chartConfig.xProperty == this.xProperties.quarter)
+        expectedNumberOfMonth = 3;
+      else
+        expectedNumberOfMonth = 12;
+      for (const countryName in monthsPerCountryAndTimeSpan) {
+        const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
+        if (monthsPerQuarter[lastTimeSpan] && monthsPerQuarter[lastTimeSpan].length != expectedNumberOfMonth) {
+          var hint = ""
+          if (this.isMultiCountry(chartConfig))
+            hint = hint + countryName + " ";
+          hint = hint + lastTimeSpan + " is incomplete.";
+          hints.push(hint);
         }
       }
     }
