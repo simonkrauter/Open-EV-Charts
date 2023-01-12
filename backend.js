@@ -825,8 +825,36 @@ var db = {
     return {
       seriesRows: seriesRows,
       sources: sources,
-      categories: categories
+      categories: categories,
+      hints: this.getHints(chartConfig, sources)
     };
+  },
+
+  getHints: function(chartConfig, sources) {
+    var hints = [];
+
+    // parsing of general hints
+    const keyword = " (Incomplete: ";
+    for (const line in sources) {
+      const i = line.indexOf(keyword);
+      if (i == -1)
+        continue;
+      const text = line.substr(i + keyword.length, line.length - i - keyword.length - 1);
+      if (!hints.includes(text))
+        hints.push(text);
+    }
+
+    // looking for 'AllCarsByBrand not per brand'
+    if (chartConfig.metric == this.metrics.salesAll) {
+      for (const line in sources) {
+        if (line.includes("TODO: numbers per brand wanted")) {
+          hints.push("All cars sales data per brand is not available.");
+          break;
+        }
+      }
+    }
+
+    return hints;
   },
 
   getCategoriesFromDataSets: function(chartConfig, datasets, sortByName = false) {
@@ -971,11 +999,13 @@ var db = {
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
+      result.hints = datasets.hints;
     } else if (chartConfig.metric == this.metrics.salesElectric) {
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       seriesRows = datasets.seriesRows;
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
+      result.hints = datasets.hints;
     } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
       var chartConfigForRatio = this.cloneObject(chartConfig);
       if (chartConfig.metric == this.metrics.ratioElectric)
@@ -988,6 +1018,7 @@ var db = {
         if (result.sources[i] == null)
           result.sources[i] = datasetsForRatio.sources[i];
       }
+      result.hints = datasets.hints;
       var valueExists = false;
       for (const seriesName in seriesRows) {
         var valuesForRatio = {};
@@ -1044,6 +1075,7 @@ var db = {
       }
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
+      result.hints = datasets.hints;
 
       var sums = {};
       const isSumPerSeries = this.isSumPerSeries(chartConfig);

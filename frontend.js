@@ -324,42 +324,18 @@ function renderChartTabButtons(chartDiv) {
 }
 
 function renderHints(chartDiv, chartConfig, chartData) {
-  var hints = [];
-
-  // parsing of general hints
-  const keyword = " (Incomplete: ";
-  for (const line in chartData.sources) {
-    const i = line.indexOf(keyword);
-    if (i == -1)
-      continue;
-    const text = line.substr(i + keyword.length, line.length - i - keyword.length - 1);
-    if (!hints.includes(text))
-      hints.push(text);
-  }
-
-  // looking for 'AllCarsByBrand not per brand'
-  if (chartConfig.metric == db.metrics.salesAll) {
-    for (const line in chartData.sources) {
-      if (line.includes("TODO: numbers per brand wanted")) {
-        hints.push("All cars sales data per brand is not available.");
-        break;
-      }
-    }
-  }
-
-  // render
   hintsDiv = document.createElement("DIV");
-  if (hints.length > 0) {
+  if (chartData.hints.length > 0) {
     chartDiv.appendChild(hintsDiv);
     hintsDiv.classList.add("hints");
-    if (hints.length == 1) {
+    if (chartData.hints.length == 1) {
       hintsDiv.appendChild(document.createTextNode("Hint: "));
     } else {
       hintsDiv.appendChild(document.createTextNode("Hints: "));
       hintsDiv.appendChild(document.createElement("BR"));
     }
-    for (const i in hints) {
-      hintsDiv.appendChild(document.createTextNode(hints[i]));
+    for (const i in chartData.hints) {
+      hintsDiv.appendChild(document.createTextNode(chartData.hints[i]));
       hintsDiv.appendChild(document.createElement("BR"));
     }
   }
