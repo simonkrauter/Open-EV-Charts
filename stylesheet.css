@@ -253,16 +253,21 @@ a.button.removeButton:after {
   font-weight: bold;
 }
 
-.incompleteDataHint {
+.hints {
+  display: inline-block;
   font-size: 85%;
   color: #565656;
-  margin-bottom: 5px;
+  padding: 3px 5px;
+  text-align: left;
+  border: 1px solid #565656;
+  border-radius: 0.12em;
+  margin: 5px;
 }
 
 table {
   border-collapse: collapse;
   margin: 2px;
-  margin-top: 5px;
+  margin-top: 8px;
   margin-left: auto;
   margin-right: auto;
 }

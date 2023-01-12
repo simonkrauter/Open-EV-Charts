@@ -349,12 +349,19 @@ function renderHints(chartDiv, chartConfig, chartData) {
 
   // render
   hintsDiv = document.createElement("DIV");
-  chartDiv.appendChild(hintsDiv);
-  for (const i in hints) {
-    const div = document.createElement("DIV");
-    hintsDiv.appendChild(div);
-    div.classList.add("incompleteDataHint");
-    div.appendChild(document.createTextNode("Data is incomplete: " + hints[i]));
+  if (hints.length > 0) {
+    chartDiv.appendChild(hintsDiv);
+    hintsDiv.classList.add("hints");
+    if (hints.length == 1) {
+      hintsDiv.appendChild(document.createTextNode("Hint: "));
+    } else {
+      hintsDiv.appendChild(document.createTextNode("Hints: "));
+      hintsDiv.appendChild(document.createElement("BR"));
+    }
+    for (const i in hints) {
+      hintsDiv.appendChild(document.createTextNode(hints[i]));
+      hintsDiv.appendChild(document.createElement("BR"));
+    }
   }
 }
 
