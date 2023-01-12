@@ -4516,3 +4516,100 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 11
 , "other": 125
 });
+
+db.insert(db.countries.NL, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/december/",
+{ "Volkswagen": 3144
+, "Tesla": 2728
+, "Toyota": 2499
+, "Audi": 2407
+, "Renault": 2386
+, "Kia": 2343
+, "BMW": 1929
+, "Volvo": 1127
+, "Peugeot": 1066
+, "Hyundai": 1046
+, "Cupra": 962
+, "Škoda": 934
+, "Ford": 928
+, "Nissan": 796
+, "Dacia": 746
+, "Mercedes-Benz": 738
+, "Opel": 733
+, "Mazda": 558
+, "Polestar": 552
+, "Seat": 449
+, "Citroën": 426
+, "Mini": 369
+, "Fiat": 304
+, "MG": 221
+, "Suzuki": 165
+, "Mitsubishi": 147
+, "Porsche": 89
+, "Land Rover": 67
+, "BYD": 51
+, "Honda": 42
+, "DS Automobiles": 34
+, "Lexus": 32
+, "Jeep": 29
+, "Alfa Romeo": 13
+, "Smart": 7
+, "Jaguar": 5
+, "Subaru": 4
+, "SsangYong": 2
+, "Maserati": 1
+, "other": 821
+});
+
+db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/12",
+{ "Tesla|Model Y": 2313
+, "Audi|Q4 e-tron": 1035
+, "Cupra|Born": 935
+, "Audi|Q8 e-tron": 843
+, "Volkswagen|ID.5": 761
+, "Volkswagen|ID.4": 752
+, "BMW|i4": 596
+, "Volvo|XC40 Recharge pure electric": 563
+, "Polestar|2": 554
+, "Škoda|Enyaq": 519
+, "Volkswagen|ID.3": 482
+, "Kia|Niro EV": 390
+, "BMW|iX3": 315
+, "Tesla|Model 3": 313
+, "Kia|EV6": 287
+, "Dacia|Spring": 234
+, "Hyundai|Ioniq 5": 228
+, "Peugeot|e-208": 209
+, "Volvo|C40 Recharge": 202
+, "BMW|iX": 164
+, "Renault|Mégane E-Tech Electric": 129
+, "Peugeot|e-2008": 120
+, "Nissan|Leaf": 94
+, "Renault|Zoe": 91
+, "Mini|Cooper SE Electric": 88
+, "Ford|Mustang Mach-E": 80
+, "Tesla|Model S": 71
+, "Roewe|Ei5": 65
+, "Porsche|Taycan": 65
+, "Opel|Corsa-e": 65
+, "Mercedes-Benz|EQA": 64
+, "MG|ZS EV": 60
+, "Mercedes-Benz|EQE": 55
+, "Volkswagen|ID. Buzz": 52
+, "MG|Marvel R": 52
+, "Mercedes-Benz|EQB": 49
+, "BYD|Yuan Plus": 49
+, "BMW|i7": 49
+, "Tesla|Model X": 48
+, "Opel|Mokka-e": 47
+, "Citroën|ë-Jumpy": 45
+, "Nissan|Ariya": 40
+, "Citroën|ë-C4": 40
+, "MG|MG4 EV": 38
+, "Hyundai|Kona Electric": 38
+, "Mercedes-Benz|EQS": 35
+, "BMW|iX1": 35
+, "Renault|Twingo Z.E.": 29
+, "Mercedes-Benz|EQV": 29
+, "Fiat|E-Ulysse": 29
+, "other": 197
+});
