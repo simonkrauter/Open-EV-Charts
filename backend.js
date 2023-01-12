@@ -835,21 +835,30 @@ var db = {
 
     // parsing of general hints
     const keyword = " (Incomplete: ";
-    for (const line in sources) {
-      const i = line.indexOf(keyword);
+    for (const key in sources) {
+      const i = key.indexOf(keyword);
       if (i == -1)
         continue;
-      const text = line.substr(i + keyword.length, line.length - i - keyword.length - 1);
+      const sourceInfo = sources[key];
+      var text = "";
+      if (this.isMultiCountry(chartConfig))
+        text = text + this.countryNames[sourceInfo.country] + ": ";
+      text = text + key.substr(i + keyword.length, key.length - i - keyword.length - 1);
       if (!hints.includes(text))
         hints.push(text);
     }
 
     // looking for 'AllCarsByBrand not per brand'
     if (chartConfig.metric == this.metrics.salesAll) {
-      for (const line in sources) {
-        if (line.includes("TODO: numbers per brand wanted")) {
-          hints.push("All cars sales data per brand is not available.");
-          break;
+      for (const key in sources) {
+        if (key.includes("TODO: numbers per brand wanted")) {
+          const sourceInfo = sources[key];
+          var text = "";
+          if (this.isMultiCountry(chartConfig))
+            text = text + this.countryNames[sourceInfo.country] + ": ";
+          text = text + "All cars sales data per brand is not available.";
+          if (!hints.includes(text))
+            hints.push(text);
         }
       }
     }
