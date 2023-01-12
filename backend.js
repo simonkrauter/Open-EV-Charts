@@ -827,30 +827,30 @@ var db = {
 
     // parsing of general hints
     const keyword = " (Incomplete: ";
-    for (const key in sources) {
-      const i = key.indexOf(keyword);
+    for (const text in sources) {
+      const i = text.indexOf(keyword);
       if (i == -1)
         continue;
-      const sourceInfo = sources[key];
-      var text = "";
+      const sourceInfo = sources[text];
+      var hint = "";
       if (this.isMultiCountry(chartConfig))
-        text = text + this.countryNames[sourceInfo.country] + ": ";
-      text = text + key.substr(i + keyword.length, key.length - i - keyword.length - 1);
-      if (!hints.includes(text))
-        hints.push(text);
+        hint = hint + this.countryNames[sourceInfo.country] + ": ";
+      hint = hint + text.substr(i + keyword.length, text.length - i - keyword.length - 1);
+      if (!hints.includes(hint))
+        hints.push(hint);
     }
 
     // looking for 'AllCarsByBrand not per brand'
     if (chartConfig.metric == this.metrics.salesAll) {
-      for (const key in sources) {
-        if (key.includes("TODO: numbers per brand wanted")) {
-          const sourceInfo = sources[key];
-          var text = "";
+      for (const text in sources) {
+        if (text.includes("TODO: numbers per brand wanted")) {
+          const sourceInfo = sources[text];
+          var hint = "";
           if (this.isMultiCountry(chartConfig))
-            text = text + this.countryNames[sourceInfo.country] + ": ";
-          text = text + "All cars sales data per brand is not available.";
-          if (!hints.includes(text))
-            hints.push(text);
+            hint = hint + this.countryNames[sourceInfo.country] + ": ";
+          hint = hint + "All cars sales data per brand is not available.";
+          if (!hints.includes(hint))
+            hints.push(hint);
         }
       }
     }
