@@ -33,7 +33,7 @@ var chartSetConfig;
 var chartConfigs;
 var activeShowAllOptionsParamName;
 var sortByName;
-var incompleteDataHints = [];
+var hintsDiv;
 
 setGlobalChartOptions();
 navigate();
@@ -272,7 +272,7 @@ function renderChart(chartIndex) {
     renderChartTabButtons(chartDiv);
 
   if (isSingleChart && chartConfig.view != db.views.sources)
-    renderIncompleteDataHint(chartDiv, chartConfig, chartData);
+    renderHints(chartDiv, chartConfig, chartData);
 
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
@@ -323,8 +323,8 @@ function renderChartTabButtons(chartDiv) {
     renderChartTabButton(tabButtonsDiv, i, viewOptions[i]);
 }
 
-function renderIncompleteDataHint(chartDiv, chartConfig, chartData) {
-  incompleteDataHints = [];
+function renderHints(chartDiv, chartConfig, chartData) {
+  var hints = [];
 
   // parsing of general hints
   const keyword = " (Incomplete: ";
@@ -333,26 +333,28 @@ function renderIncompleteDataHint(chartDiv, chartConfig, chartData) {
     if (i == -1)
       continue;
     const text = line.substr(i + keyword.length, line.length - i - keyword.length - 1);
-    if (!incompleteDataHints.includes(text))
-      incompleteDataHints.push(text);
+    if (!hints.includes(text))
+      hints.push(text);
   }
 
   // looking for 'AllCarsByBrand not per brand'
   if (chartConfig.metric == db.metrics.salesAll) {
     for (const line in chartData.sources) {
       if (line.includes("TODO: numbers per brand wanted")) {
-        incompleteDataHints.push("All cars sales data per brand is not available.");
+        hints.push("All cars sales data per brand is not available.");
         break;
       }
     }
   }
 
   // render
-  for (const i in incompleteDataHints) {
+  hintsDiv = document.createElement("DIV");
+  chartDiv.appendChild(hintsDiv);
+  for (const i in hints) {
     const div = document.createElement("DIV");
-    chartDiv.appendChild(div);
+    hintsDiv.appendChild(div);
     div.classList.add("incompleteDataHint");
-    div.appendChild(document.createTextNode("Data is incomplete: " + incompleteDataHints[i]));
+    div.appendChild(document.createTextNode("Data is incomplete: " + hints[i]));
   }
 }
 
@@ -600,7 +602,7 @@ function setChartSize(element) {
   var heightOffset = 290;
   if (isWidthEnoughForFilterAsButtons())
     heightOffset += 10;
-  heightOffset += 20 * incompleteDataHints.length;
+  heightOffset += hintsDiv.offsetHeight;
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;
