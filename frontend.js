@@ -68,6 +68,7 @@ function logVisit() {
 
 function renderPage() {
   dynamicContent.innerHTML = "";
+  hintsDiv = null;
 
   renderFilters();
 
@@ -324,8 +325,8 @@ function renderChartTabButtons(chartDiv) {
 }
 
 function renderHints(chartDiv, chartConfig, chartData) {
-  hintsDiv = document.createElement("DIV");
   if (chartData.hints.length > 0) {
+    hintsDiv = document.createElement("DIV");
     chartDiv.appendChild(hintsDiv);
     hintsDiv.classList.add("hints");
     if (chartData.hints.length == 1) {
@@ -585,7 +586,8 @@ function setChartSize(element) {
   var heightOffset = 290;
   if (isWidthEnoughForFilterAsButtons())
     heightOffset += 10;
-  heightOffset += hintsDiv.offsetHeight;
+  if (hintsDiv != null)
+    heightOffset += hintsDiv.offsetHeight;
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;
