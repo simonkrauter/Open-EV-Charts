@@ -1,5 +1,7 @@
 "use strict";
 
+db.finalizeDataLoading();
+
 document.onmousedown = function(event) {
   document.body.classList.remove("showFocus");
 };

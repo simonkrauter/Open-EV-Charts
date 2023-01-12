@@ -115,10 +115,16 @@ var db = {
           this.models.push(model);
         }
       }
-      this.models.sort(function(a, b) {
-        return a.localeCompare(b);
-      });
     }
+  },
+
+  finalizeDataLoading: function() {
+    // This should be called once after all country data files are loaded.
+
+    // Sort lists, which are used in UI
+    this.models.sort(function(a, b) {
+      return a.localeCompare(b);
+    });
     this.brands.sort(function(a, b) {
       return a.localeCompare(b);
     });
