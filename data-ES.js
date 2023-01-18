@@ -3998,9 +3998,9 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 19
 , "Volvo|C40 Recharge": 15
 , "Aiways|U5": 15
+, "Roewe|Ei5": 13
 , "Polestar|2": 13
 , "Opel|Combo-e": 13
-, "Roewe|Ei5": 13
 , "MG|Marvel R": 12
 , "Audi|e-tron GT": 11
 , "Mercedes-Benz|EQV": 10
@@ -4311,6 +4311,7 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Hyundai": 4912
 , "Volkswagen": 3980
 , "Peugeot": 3959
+, "Citroën": 3946
 , "Seat": 3774
 , "Mercedes-Benz": 3519
 , "BMW": 3157
@@ -4320,7 +4321,6 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Fiat": 2649
 , "Opel": 2033
 , "Škoda": 1875
-, "Citroën": 1746
 , "Nissan": 1560
 , "MG": 1314
 , "Mazda": 1258
@@ -4344,7 +4344,7 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Maserati": 36
 , "Polestar": 35
 , "Aiways": 17
-, "other": 280
+, "other": 281
 });
 
 db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/11 (includes commercial vehicles)",
