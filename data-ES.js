@@ -4398,3 +4398,99 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 6
 , "other": 29
 });
+
+db.insert(db.countries.ES, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2022/datosdiciembrett.asp",
+{ "Volkswagen": 5647
+, "Toyota": 5509
+, "Kia": 5360
+, "Renault": 5129
+, "Hyundai": 4439
+, "Dacia": 4146
+, "Peugeot": 4086
+, "Audi": 3934
+, "Citroën": 3610
+, "Seat": 3528
+, "BMW": 3236
+, "Škoda": 2926
+, "Mercedes-Benz": 2890
+, "Opel": 2458
+, "Ford": 2256
+, "Nissan": 1841
+, "Mazda": 1807
+, "Fiat": 1600
+, "Volvo": 1594
+, "Mini": 1110
+, "Jeep": 899
+, "Cupra": 872
+, "MG": 728
+, "Tesla": 601
+, "Lexus": 489
+, "DS Automobiles": 432
+, "Alfa Romeo": 401
+, "Suzuki": 380
+, "Porsche": 357
+, "Land Rover": 319
+, "Mitsubishi": 236
+, "Honda": 134
+, "Subaru": 114
+, "SsangYong": 113
+, "Polestar": 67
+, "Smart": 62
+, "Jaguar": 47
+, "Maserati": 30
+, "Aiways": 17
+, "other": 422
+});
+
+db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/12 (includes commercial vehicles)",
+{ "Tesla|Model 3": 285
+, "Tesla|Model Y": 264
+, "Fiat|500e": 206
+, "Volvo|XC40 Recharge pure electric": 192
+, "Mini|Cooper SE Electric": 176
+, "Volkswagen|ID.4": 152
+, "MG|MG4 EV": 118
+, "Dacia|Spring": 105
+, "Citroën|ë-C4": 103
+, "Renault|Mégane E-Tech Electric": 97
+, "Opel|Corsa-e": 89
+, "Cupra|Born": 85
+, "Peugeot|e-208": 84
+, "Peugeot|e-Rifter": 72
+, "Opel|Mokka-e": 70
+, "Mercedes-Benz|EQB": 68
+, "Mercedes-Benz|EQA": 68
+, "Polestar|2": 67
+, "Volkswagen|ID.5": 65
+, "Kia|EV6": 64
+, "Peugeot|e-2008": 63
+, "Smart|Fortwo ED": 62
+, "MG|Marvel R": 59
+, "Hyundai|Ioniq 5": 56
+, "Audi|Q4 e-tron": 53
+, "Porsche|Taycan": 47
+, "Hyundai|Kona Electric": 46
+, "Volkswagen|ID.3": 44
+, "Renault|Zoe": 38
+, "MG|ZS EV": 38
+, "Kia|Niro EV": 38
+, "Ford|Mustang Mach-E": 38
+, "Audi|Q8 e-tron": 36
+, "Nissan|Ariya": 34
+, "Renault|Twingo Z.E.": 33
+, "Nissan|Leaf": 32
+, "Mercedes-Benz|EQE": 32
+, "BMW|iX3": 32
+, "BMW|i4": 32
+, "Škoda|Enyaq": 31
+, "Tesla|Model S": 29
+, "Opel|Combo-e": 29
+, "BMW|iX": 27
+, "Tesla|Model X": 23
+, "Aiways|U5": 17
+, "Volkswagen|ID. Buzz": 16
+, "Volvo|C40 Recharge": 15
+, "BMW|i7": 11
+, "BMW|i3 BEV": 8
+, "other": 53
+});
