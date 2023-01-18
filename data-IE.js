@@ -1227,8 +1227,8 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 48
 , "Volkswagen|ID.5": 43
 , "MG|ZS EV": 43
-, "Nissan|Leaf": 40
 , "Roewe|Ei5": 40
+, "Nissan|Leaf": 40
 , "Audi|Q8 e-tron": 36
 , "Nissan|Ariya": 34
 , "BMW|iX3": 34
@@ -1300,9 +1300,9 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 9
 , "Mercedes-Benz|EQE": 7
 , "Ford|Mustang Mach-E": 6
+, "Roewe|Ei5": 4
 , "Renault|Mégane E-Tech Electric": 4
 , "Opel|Mokka-e": 4
-, "Roewe|Ei5": 4
 , "Audi|Q4 e-tron": 4
 , "Mercedes-Benz|EQC": 3
 , "Citroën|ë-SpaceTourer": 3
