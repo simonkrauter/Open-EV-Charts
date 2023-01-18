@@ -1690,8 +1690,8 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 13
 , "Mercedes-Benz|EQC": 11
 , "Honda|e": 11
-, "Mercedes-Benz|eSprinter": 10
 , "Roewe|Ei5": 10
+, "Mercedes-Benz|eSprinter": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Citroën|Berlingo Electric": 7
 , "other": 43
@@ -1947,8 +1947,8 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 183
 , "Mazda|MX-30": 180
 , "Cupra|Born": 164
-, "MG|ZS EV": 148
 , "Roewe|Ei5": 148
+, "MG|ZS EV": 148
 , "Audi|Q4 e-tron": 145
 , "Mercedes-Benz|EQB": 138
 , "Ford|Mustang Mach-E": 138
