@@ -1509,6 +1509,7 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 17
 , "Fiat|500e": 13
 , "Citroën|ë-Jumpy": 13
+, "Ora|Good Cat": 12
 , "Opel|Vivaro-e": 11
 , "Mercedes-Benz|EQC": 10
 , "Mercedes-Benz|eVito": 9
@@ -1520,9 +1521,7 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 7
 , "Volkswagen|ID.5": 6
 , "Peugeot|Partner Electric": 6
-, "Tesla|Model 3": 5
-, "Renault|Kangoo Z.E.": 5
-, "other": 43
+, "other": 41
 });
 
 db.insert(db.countries.SE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf TODO: numbers per brand wanted",
@@ -2131,6 +2130,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 155
 , "Porsche|Taycan": 142
 , "Mercedes-Benz|EQA": 140
+, "Ora|Good Cat": 134
 , "Mini|Cooper SE Electric": 132
 , "BMW|iX1": 126
 , "Mercedes-Benz|EQB": 99
@@ -2149,7 +2149,5 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 52
 , "Opel|Mokka-e": 39
 , "Citroën|ë-C4": 35
-, "Mercedes-Benz|EQC": 26
-, "Audi|e-tron GT": 26
-, "other": 422
+, "other": 340
 });
