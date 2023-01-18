@@ -1402,3 +1402,36 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 1
 , "other": 5
 });
+
+db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 209
+});
+
+db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/12",
+{ "Volkswagen|ID.4": 21
+, "Toyota|bZ4X": 15
+, "Porsche|Taycan": 9
+, "Polestar|2": 5
+, "Renault|Mégane E-Tech Electric": 3
+, "MG|ZS EV": 3
+, "Kia|Niro EV": 3
+, "BMW|iX": 3
+, "Škoda|Enyaq": 2
+, "Volkswagen|ID.3": 2
+, "Tesla|Model 3": 2
+, "Ora|Good Cat": 2
+, "Nissan|Leaf": 2
+, "Ford|Mustang Mach-E": 2
+, "BMW|i4": 2
+, "Volvo|C40 Recharge": 1
+, "Volkswagen|ID.5": 1
+, "Renault|Zoe": 1
+, "Peugeot|e-208": 1
+, "Mini|Cooper SE Electric": 1
+, "Mercedes-Benz|EQE": 1
+, "Mercedes-Benz|EQB": 1
+, "Mercedes-Benz|EQA": 1
+, "Hyundai|Ioniq 5": 1
+, "Cupra|Born": 1
+, "other": 2
+});
