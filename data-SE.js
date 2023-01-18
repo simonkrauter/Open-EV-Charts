@@ -2062,6 +2062,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Mégane E-Tech Electric": 237
 , "Audi|Q4 e-tron": 227
 , "Peugeot|e-208": 185
+, "Roewe|Ei5": 179
 , "Mini|Cooper SE Electric": 179
 , "BMW|iX": 147
 , "BMW|i4": 129
@@ -2073,7 +2074,6 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 92
 , "BYD|Yuan Plus": 83
 , "Subaru|Solterra": 74
-, "Roewe|Ei5": 69
 , "Fiat|500e": 66
 , "Porsche|Taycan": 63
 , "Hyundai|Ioniq 5": 60
@@ -2093,5 +2093,5 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 18
 , "Aiways|U5": 17
 , "Peugeot|e-Expert": 16
-, "other": 306
+, "other": 196
 });
