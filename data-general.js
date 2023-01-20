@@ -70,8 +70,7 @@ var companyGroups = {
     , "Volkswagen"
     ],
   "Toyota Motor Corporation":
-    [ "GAC Toyota"
-    , "Lexus"
+    [ "Lexus"
     , "Suzuki"
     , "Toyota"
     ],
