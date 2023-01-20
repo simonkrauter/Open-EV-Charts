@@ -120,5 +120,6 @@ var companyGroups = {
     , "MG"
     , "Roewe"
     , "SAIC"
+    , "Wuling"
     ]
 };
