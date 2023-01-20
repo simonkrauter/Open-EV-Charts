@@ -629,7 +629,7 @@ function addPngExportButton(parent) {
 function getChartSeriesColors(chartConfig, chartData) {
   var colors = [];
   var usedIndexes = [];
-  if (![db.xProperties.brand, db.xProperties.model, db.xProperties.country].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
+  if ([db.xProperties.month, db.xProperties.quarter, db.xProperties.year].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
     for (const i in colorIndexByBrand)
       usedIndexes.push(colorIndexByBrand[i]);
   }

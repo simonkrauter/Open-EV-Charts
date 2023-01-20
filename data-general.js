@@ -40,3 +40,85 @@ var colorIndexByBrand =
 , "Audi": 6
 , "Peugeot": 9
 };
+
+// Company goups, sorted by all car sales
+var companyGroups = {
+  "Stellantis":
+    [ "Abarth"
+    , "Alfa Romeo"
+    , "Chrysler"
+    , "Citroën"
+    , "Dodge"
+    , "DS Automobiles"
+    , "FCA"
+    , "Fiat"
+    , "Jeep"
+    , "Jeep/Dodge"
+    , "Maserati"
+    , "Opel"
+    , "Peugeot"
+    , "PSA"
+    , "Ram"
+    , "Vauxhall"
+    ],
+  "Volkswagen Group":
+    [ "Audi"
+    , "Cupra"
+    , "Porsche"
+    , "Seat"
+    , "Škoda"
+    , "Volkswagen"
+    ],
+  "Toyota Motor Corporation":
+    [ "GAC Toyota"
+    , "Lexus"
+    , "Suzuki"
+    , "Toyota"
+    ],
+  "General Motors":
+    [ "Buick"
+    , "Cadillac"
+    , "Chevrolet"
+    , "GMC"
+    ],
+  "Ford Motor Company":
+    [ "Ford"
+    , "Lincoln"
+    ],
+  "Hyundai Motor Group":
+    [ "Genesis"
+    , "Hyundai"
+    , "Kia"
+    ],
+  "Renault-Nissan-Mitsubishi":
+    [ "Dacia"
+    , "Infiniti"
+    , "Mitsubishi"
+    , "Nissan"
+    , "Renault"
+    ],
+  "Honda Motor":
+    [ "Acura"
+    , "Honda"
+    ],
+  "BMW Group":
+    [ "BMW"
+    , "Mini"
+    ],
+  "Geely Holding Group":
+    [ "Geely"
+    , "Polestar"
+    , "Volvo"
+    , "Zeekr"
+    ],
+  "Jaguar Land Rover":
+    [ "Jaguar"
+    , "Land Rover"
+    ],
+  "SAIC Motor":
+    [ "Maxus"
+    , "MG"
+    , "Roewe"
+    , "SAIC"
+    ]
+};
