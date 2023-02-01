@@ -1352,3 +1352,24 @@ db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Roewe|Clever EV": 8100
 , "other": 271382
 });
+
+db.insert(db.countries.CN, "2022-12", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1878.html TODO: numbers per brand wanted",
+{ "other": 2265000
+});
+
+db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/02/01/plugin-electric-vehicles-get-30-share-of-auto-market-in-another-record-month-in-china/",
+{ "Wuling|Hongguang Mini EV": 34523
+, "Tesla|Model Y": 29387
+, "BYD|Dolphin": 36074
+, "BYD|Yuan Plus": 22599
+, "BYD|Seal": 15378
+, "GAC|Aion Y": 14311
+, "GAC|Aion S": 13832
+, "Changan|Lumin": 13757
+, "Tesla|Model 3": 12539
+, "Zeekr|001": 11337
+, "Dongfeng|E-Series": 9075
+, "BAIC|EU-Series": 8840
+, "Volkswagen|ID.4": 8733
+, "other": 240615
+});
