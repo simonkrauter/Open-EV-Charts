@@ -3129,8 +3129,8 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 59
 , "Lexus|UX 300e": 52
 , "MG|Marvel R": 49
+, "Xpeng|G3": 44
 , "MG|ZS EV": 44
-, "Xpeng|G3": 42
 , "Opel|Corsa-e": 42
 , "Hyundai|Ioniq Electric": 41
 , "Volkswagen|ID.3": 39
@@ -3152,7 +3152,7 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 11
 , "Honda|e": 10
 , "Fiat|500e": 10
-, "other": 63
+, "other": 61
 });
 
 db.insert(db.countries.NO, "2022-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2022",
@@ -3384,9 +3384,9 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 24
 , "Jaguar|I-Pace": 24
 , "Honda|e": 21
+, "Xpeng|G3": 16
 , "Audi|e-tron GT": 14
-, "Xpeng|P7": 13
-, "other": 431
+, "other": 428
 });
 
 db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021-2-2",
