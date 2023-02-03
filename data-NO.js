@@ -3931,6 +3931,76 @@ db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1848
 });
 
+db.insert(db.countries.NO, "2023-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2023",
+{ "Volkswagen": 463
+, "Toyota": 369
+, "Volvo": 205
+, "Škoda": 166
+, "Mazda": 132
+, "Audi": 97
+, "Nissan": 62
+, "Peugeot": 58
+, "Mercedes-Benz": 36
+, "Hyundai": 34
+, "Opel": 26
+, "Kia": 25
+, "MG": 25
+, "Lexus": 23
+, "Suzuki": 23
+, "Tesla": 21
+, "Citroën": 18
+, "Cupra": 9
+, "Ford": 9
+, "BYD": 8
+, "Porsche": 8
+, "other": 43
+});
+
+db.insert(db.countries.NO, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2023",
+{ "Volkswagen|ID. Buzz": 210
+, "Volkswagen|ID.4": 204
+, "Škoda|Enyaq": 122
+, "Mazda|MX-30": 119
+, "Volkswagen|ID.3": 109
+, "Toyota|bZ4X": 92
+, "Volvo|XC40 Recharge pure electric": 62
+, "Audi|Q8 e-tron": 58
+, "Volvo|C40 Recharge": 46
+, "Peugeot|e-2008": 44
+, "Nissan|Leaf": 44
+, "Audi|Q4 e-tron": 33
+, "Hyundai|Kona Electric": 28
+, "Volkswagen|ID.5": 23
+, "Tesla|Model S": 15
+, "Opel|Mokka-e": 13
+, "Citroën|ë-C4": 13
+, "Kia|Niro EV": 11
+, "Nissan|Ariya": 10
+, "Roewe|Ei5": 9
+, "Opel|Corsa-e": 9
+, "MG|Marvel R": 9
+, "Cupra|Born": 9
+, "BYD|Yuan Plus": 8
+, "Renault|Mégane E-Tech Electric": 7
+, "Opel|Combo-e": 7
+, "Lexus|UX 300e": 6
+, "Hyundai|Ioniq 5": 6
+, "Mercedes-Benz|EQA": 5
+, "Fiat|500e": 5
+, "Tesla|Model X": 4
+, "Peugeot|e-208": 4
+, "Mercedes-Benz|EQB": 4
+, "MG|ZS EV": 4
+, "Ford|Mustang Mach-E": 4
+, "Subaru|Solterra": 3
+, "MG|MG4 EV": 3
+, "Honda|e": 3
+, "Nio|ET7": 2
+, "Mercedes-Benz|EQE": 2
+, "Mercedes-Benz|EQC": 2
+, "Kia|EV6": 2
+, "BMW|iX1": 2
+});
 
 // Template:
 
