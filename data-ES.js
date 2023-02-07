@@ -4492,5 +4492,5 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 15
 , "BMW|i7": 11
 , "BMW|i3 BEV": 8
-, "other": 53
+, "other": 55
 });
