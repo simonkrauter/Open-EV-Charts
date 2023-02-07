@@ -4564,12 +4564,12 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 2313
 , "Audi|Q4 e-tron": 1035
 , "Cupra|Born": 935
-, "Audi|Q8 e-tron": 843
+, "Audi|Q8 e-tron": 844
 , "Volkswagen|ID.5": 761
-, "Volkswagen|ID.4": 752
+, "Volkswagen|ID.4": 756
 , "BMW|i4": 596
-, "Volvo|XC40 Recharge pure electric": 563
-, "Polestar|2": 554
+, "Volvo|XC40 Recharge pure electric": 564
+, "Polestar|2": 556
 , "Škoda|Enyaq": 519
 , "Volkswagen|ID.3": 482
 , "Kia|Niro EV": 390
