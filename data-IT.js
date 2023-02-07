@@ -2405,3 +2405,90 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Doblò": 7
 , "other": 205
 });
+
+db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Gennaio%202023_63da853aee5fb.pdf",
+{ "Fiat": 17929
+, "Volkswagen": 11003
+, "Toyota": 9206
+, "Dacia": 8671
+, "Renault": 6926
+, "Jeep": 6571
+, "Ford": 6460
+, "Peugeot": 5199
+, "Citroën": 4655
+, "Audi": 4610
+, "BMW": 4417
+, "Mercedes-Benz": 4281
+, "Hyundai": 3989
+, "Kia": 3680
+, "Opel": 3183
+, "Škoda": 2548
+, "Nissan": 2491
+, "Suzuki": 2349
+, "Mazda": 2125
+, "Alfa Romeo": 1784
+, "Mini": 1609
+, "MG": 1392
+, "Volvo": 1322
+, "Land Rover": 871
+, "Cupra": 836
+, "Seat": 831
+, "Porsche": 672
+, "DS Automobiles": 577
+, "Honda": 483
+, "Smart": 370
+, "Tesla": 326
+, "Maserati": 321
+, "Lexus": 224
+, "Subaru": 175
+, "Mitsubishi": 108
+, "Jaguar": 107
+, "SsangYong": 39
+, "other": 5961
+});
+
+db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1",
+{ "Fiat|500e": 540
+, "Smart|Fortwo ED": 369
+, "Renault|Twingo Z.E.": 212
+, "Audi|Q4 e-tron": 186
+, "Tesla|Model Y": 147
+, "Volkswagen|ID.3": 135
+, "Peugeot|e-208": 128
+, "Dacia|Spring": 128
+, "MG|Marvel R": 100
+, "Tesla|Model S": 98
+, "MG|MG4 EV": 77
+, "BMW|iX1": 72
+, "Mini|Cooper SE Electric": 60
+, "Renault|Mégane E-Tech Electric": 52
+, "Peugeot|e-2008": 52
+, "Tesla|Model X": 51
+, "Cupra|Born": 51
+, "Volvo|XC40 Recharge pure electric": 50
+, "BMW|iX3": 50
+, "Hyundai|Ioniq 5": 46
+, "BMW|i4": 44
+, "Nissan|Leaf": 40
+, "Opel|Corsa-e": 39
+, "Mazda|MX-30": 39
+, "Hyundai|Kona Electric": 37
+, "Citroën|ë-C4": 37
+, "Mercedes-Benz|EQA": 35
+, "Porsche|Taycan": 33
+, "Opel|Mokka-e": 33
+, "Volkswagen|ID.4": 30
+, "Tesla|Model 3": 30
+, "Volkswagen|ID. Buzz": 28
+, "Ford|Mustang Mach-E": 28
+, "BMW|iX": 25
+, "Škoda|Enyaq": 24
+, "Kia|EV6": 22
+, "Audi|e-tron GT": 18
+, "Kia|Niro EV": 17
+, "Nissan|Ariya": 12
+, "Volvo|C40 Recharge": 11
+, "Roewe|Ei5": 11
+, "MG|ZS EV": 11
+, "Fiat|E-Doblò": 10
+});
