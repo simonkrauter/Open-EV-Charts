@@ -500,8 +500,10 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             }
           },
           grid: {
-            drawBorder: false,
             color: "rgba(0, 0, 0, 0.15)"
+          },
+          border: {
+           display: false
           }
         }
       },
