@@ -4788,3 +4788,100 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 16
 , "other": 581
 });
+
+db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/02/ModellePW2023-1.xlsx",
+{ "Volkswagen": 1742
+, "Škoda": 1623
+, "Audi": 1384
+, "BMW": 1358
+, "Mercedes-Benz": 1314
+, "Toyota": 1172
+, "Seat": 778
+, "Renault": 674
+, "Hyundai": 626
+, "Ford": 626
+, "Dacia": 549
+, "Volvo": 541
+, "Peugeot": 498
+, "Porsche": 485
+, "Kia": 483
+, "Mazda": 301
+, "Opel": 230
+, "Suzuki": 227
+, "Mini": 213
+, "Fiat": 189
+, "Citroën": 176
+, "Honda": 152
+, "Land Rover": 136
+, "Tesla": 115
+, "Jeep": 115
+, "Mitsubishi": 96
+, "Nissan": 89
+, "Alfa Romeo": 86
+, "Subaru": 67
+, "Maserati": 55
+, "Polestar": 50
+, "DS Automobiles": 42
+, "Genesis": 41
+, "Lexus": 34
+, "SsangYong": 22
+, "Jaguar": 18
+, "Smart": 13
+, "Chevrolet": 4
+, "Aiways": 4
+, "Cadillac": 3
+, "other": 106
+});
+
+db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1",
+{ "Škoda|Enyaq": 338
+, "Audi|Q4 e-tron": 203
+, "Hyundai|Ioniq 5": 184
+, "Volkswagen|ID.4": 178
+, "Cupra|Born": 139
+, "Mercedes-Benz|EQA": 134
+, "Volkswagen|ID.3": 128
+, "Volvo|C40 Recharge": 105
+, "Renault|Zoe": 101
+, "Renault|Mégane E-Tech Electric": 92
+, "Peugeot|e-208": 91
+, "Ford|Mustang Mach-E": 75
+, "Porsche|Taycan": 74
+, "Tesla|Model Y": 73
+, "Audi|Q8 e-tron": 60
+, "Opel|Mokka-e": 58
+, "Toyota|bZ4X": 54
+, "Polestar|2": 50
+, "Fiat|500e": 50
+, "BMW|i4": 46
+, "Citroën|ë-C4": 43
+, "Renault|Twingo Z.E.": 42
+, "Dacia|Spring": 34
+, "BMW|iX": 29
+, "Toyota|Proace Electric": 28
+, "Audi|e-tron GT": 28
+, "Tesla|Model S": 25
+, "Volkswagen|ID. Buzz": 24
+, "Citroën|Berlingo Electric": 23
+, "Mercedes-Benz|EQC": 22
+, "Opel|Combo-e": 21
+, "Kia|Niro EV": 21
+, "BMW|iX3": 21
+, "Peugeot|e-Expert": 20
+, "Mercedes-Benz|EQS": 20
+, "Citroën|ë-Jumpy": 20
+, "Mercedes-Benz|EQE": 19
+, "Volkswagen|ID.5": 17
+, "Peugeot|Partner Electric": 15
+, "Mercedes-Benz|EQB": 15
+, "Volkswagen|e-up!": 14
+, "Subaru|Solterra": 14
+, "Mini|Cooper SE Electric": 14
+, "BMW|iX1": 14
+, "Volvo|XC40 Recharge pure electric": 13
+, "Smart|Fortwo ED": 13
+, "Opel|Vivaro-e": 13
+, "Genesis|GV60": 12
+, "Nissan|Ariya": 11
+, "other": 191
+});
