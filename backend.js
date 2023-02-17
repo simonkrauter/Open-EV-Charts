@@ -756,6 +756,7 @@ var db = {
     var sources = [];
     var categories = [];
     var monthsPerCountryAndTimeSpan = {};
+    var maxRowsReachedAndModelNotFound = false;
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -776,6 +777,7 @@ var db = {
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
+      var datasetUsed = false;
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
@@ -848,6 +850,10 @@ var db = {
           sources[dataset.source].firstDate = dataset.monthString;
         }
         sources[dataset.source].lastDate = dataset.monthString;
+        datasetUsed = true;
+      }
+      if (Object.keys(dataset.data).length == 51 && !datasetUsed) {
+        maxRowsReachedAndModelNotFound = true;
       }
     }
 
@@ -855,11 +861,11 @@ var db = {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan)
+      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound)
     };
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound) {
     var hints = [];
 
     // parsing of general hints
@@ -914,6 +920,11 @@ var db = {
           hints.push(hint);
         }
       }
+    }
+
+    // add hint when there are potentially missing low number entries
+    if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model)) {
+      hints.push("Low number entries could be missing, because data is limited to top 50 models per month.");
     }
 
     return hints;
