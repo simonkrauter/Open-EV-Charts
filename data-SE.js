@@ -2205,5 +2205,5 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Mercedes-Benz|EQS SUV": 8
 , "BYD|Han EV": 8
-, "other": 87
+, "other": 54
 });
