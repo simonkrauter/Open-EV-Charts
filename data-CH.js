@@ -2627,8 +2627,9 @@ db.insert(db.countries.CH, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 3
 , "Smart|Forfour ED": 2
 , "Tesla|Model S": 1
+, "Renault|Master E-Tech": 1
 , "Mercedes-Benz|eSprinter": 1
-, "other": 14
+, "other": 13
 });
 
 db.insert(db.countries.CH, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/04/ModellePW2021.xlsx",
@@ -2714,6 +2715,7 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 11
 , "Kia|Soul EV": 9
 , "Aiways|U5": 9
+, "Renault|Master E-Tech": 7
 , "Mercedes-Benz|EQV": 7
 , "Peugeot|e-Expert": 6
 , "Smart|Forfour ED": 5
@@ -2721,14 +2723,10 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 5
 , "Volkswagen|e-Transporter": 4
 , "Toyota|Proace Electric": 4
+, "Maxus|EV30": 4
 , "Peugeot|e-Traveller": 3
 , "Hyundai|Ioniq Electric": 3
-, "Tesla|Model X": 2
-, "Mazda|MX-30": 2
-, "Maxus|EV80": 2
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Mitsubishi|i-MiEV": 1
-, "other": 18
+, "other": 16
 });
 
 db.insert(db.countries.CH, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/05/ModellePW2021.xlsx",
@@ -2804,12 +2802,13 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Kangoo Z.E.": 20
 , "Honda|e": 17
 , "Peugeot|e-2008": 13
-, "Maxus|e Deliver": 12
+, "Maxus|EV30": 12
 , "Jaguar|I-Pace": 12
 , "Nissan|e-NV200": 11
 , "Citroën|ë-C4": 11
 , "Toyota|Proace Electric": 10
 , "Mercedes-Benz|EQV": 10
+, "Renault|Master E-Tech": 9
 , "Kia|Soul EV": 7
 , "Peugeot|e-Expert": 6
 , "Opel|Vivaro-e": 6
@@ -2822,7 +2821,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eSprinter": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Citroën|ë-Jumpy": 3
-, "other": 24
+, "other": 15
 });
 
 db.insert(db.countries.CH, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/06/ModellePW2021.xlsx",
@@ -2906,11 +2905,12 @@ db.insert(db.countries.CH, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 14
 , "Nissan|e-NV200": 12
 , "Škoda|Citigo-e": 11
+, "Renault|Master E-Tech": 11
 , "Smart|Forfour ED": 10
 , "Mercedes-Benz|EQV": 10
-, "Maxus|e Deliver": 10
 , "Peugeot|e-2008": 9
 , "Mazda|MX-30": 9
+, "Maxus|eDeliver 9": 7
 , "Kia|Soul EV": 7
 , "Mercedes-Benz|eSprinter": 5
 , "Hyundai|Ioniq Electric": 4
@@ -2918,9 +2918,8 @@ db.insert(db.countries.CH, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Transporter": 3
 , "Peugeot|e-Expert": 3
 , "Opel|Ampera-e": 3
-, "Mercedes-Benz|eVito": 2
-, "Dacia|Spring": 2
-, "other": 32
+, "Maxus|EV30": 3
+, "other": 25
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/07/ModellePW2021.xlsx",
@@ -3014,10 +3013,10 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 6
 , "Opel|Vivaro-e": 5
 , "Mercedes-Benz|EQV": 5
-, "Maxus|e Deliver": 4
 , "Mercedes-Benz|eVito": 3
+, "Maxus|EV30": 3
 , "Citroën|ë-Jumpy": 3
-, "other": 25
+, "other": 26
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/08/ModellePW2021.xlsx",
@@ -3106,15 +3105,15 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 9
 , "Mercedes-Benz|EQV": 9
 , "Dacia|Spring": 8
-, "Maxus|e Deliver": 7
 , "Smart|Forfour ED": 6
 , "Opel|Vivaro-e": 5
 , "Opel|Ampera-e": 5
+, "Maxus|EV30": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|e-Traveller": 4
 , "Opel|Mokka-e": 4
 , "Mercedes-Benz|eSprinter": 4
-, "other": 49
+, "other": 51
 });
 
 db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/09/ModellePW2021.xlsx",
@@ -3308,7 +3307,7 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 7
 , "Toyota|Proace Electric": 6
 , "Opel|Vivaro-e": 6
-, "Maxus|e Deliver": 6
+, "Maxus|eDeliver 9": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Aiways|U5": 5
 , "other": 30
@@ -4286,6 +4285,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 19
 , "Nissan|Leaf": 19
 , "Volvo|C40 Recharge": 15
+, "Ford|E-Transit": 15
 , "Opel|Vivaro-e": 12
 , "Mercedes-Benz|EQE": 9
 , "Jaguar|I-Pace": 9
@@ -4294,7 +4294,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 8
 , "Honda|e": 8
 , "Citroën|Berlingo Electric": 8
-, "other": 116
+, "other": 101
 });
 
 db.insert(db.countries.CH, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/09/ModellePW2022.xlsx",
@@ -4375,6 +4375,7 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 21
 , "Opel|Mokka-e": 20
 , "Mercedes-Benz|EQB": 20
+, "Ford|E-Transit": 20
 , "Volkswagen|e-up!": 19
 , "Renault|Kangoo Z.E.": 18
 , "Mercedes-Benz|eVito": 17
@@ -4385,12 +4386,12 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 15
 , "Citroën|Berlingo Electric": 13
 , "Volvo|C40 Recharge": 11
-, "Maxus|e Deliver": 11
 , "Smart|Fortwo ED": 9
 , "Renault|Twingo Z.E.": 9
+, "Maxus|EV30": 8
 , "Jaguar|I-Pace": 8
 , "Citroën|ë-C4": 8
-, "other": 158
+, "other": 141
 });
 
 db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/10/ModellePW2022.xlsx",
@@ -4660,6 +4661,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 63
 , "Tesla|Model 3": 61
 , "Opel|Mokka-e": 57
+, "Renault|Master E-Tech": 56
 , "Dacia|Spring": 56
 , "Polestar|2": 54
 , "Volvo|XC40 Recharge pure electric": 44
@@ -4672,6 +4674,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 32
 , "Toyota|Proace Electric": 27
 , "Citroën|ë-C4": 25
+, "Ford|E-Transit": 23
 , "Smart|Fortwo ED": 22
 , "Mercedes-Benz|EQE": 22
 , "Citroën|ë-Jumpy": 22
@@ -4686,7 +4689,8 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 17
 , "Renault|Zoe": 15
 , "Kia|EV6": 15
-, "other": 282
+, "Fiat|E-Doblò": 15
+, "other": 188
 });
 
 db.insert(db.countries.CH, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -4748,8 +4752,10 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 180
 , "Tesla|Model S": 180
 , "Hyundai|Ioniq 5": 178
+, "Renault|Master E-Tech": 176
 , "Audi|Q8 e-tron": 161
 , "Volkswagen|ID. Buzz": 159
+, "Ford|E-Transit": 156
 , "Polestar|2": 145
 , "BMW|i4": 141
 , "Fiat|500e": 127
@@ -4784,9 +4790,7 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 18
 , "Toyota|Proace Electric": 18
 , "Kia|EV6": 18
-, "Opel|Zafira-e": 17
-, "Nissan|e-NV200": 16
-, "other": 581
+, "other": 282
 });
 
 db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/02/ModellePW2023-1.xlsx",
@@ -4872,6 +4876,7 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Jumpy": 20
 , "Mercedes-Benz|EQE": 19
 , "Volkswagen|ID.5": 17
+, "Nissan|Townstar EV": 16
 , "Peugeot|Partner Electric": 15
 , "Mercedes-Benz|EQB": 15
 , "Volkswagen|e-up!": 14
@@ -4882,6 +4887,5 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 13
 , "Opel|Vivaro-e": 13
 , "Genesis|GV60": 12
-, "Nissan|Ariya": 11
-, "other": 191
+, "other": 186
 });
