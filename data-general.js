@@ -120,5 +120,9 @@ var companyGroups = {
     , "Roewe"
     , "SAIC"
     , "Wuling"
+    ],
+  "Dongfeng Motor":
+    [ "Dongfeng"
+    , "DFSK"
     ]
 };
