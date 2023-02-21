@@ -1690,3 +1690,59 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 2
 , "other": 19
 });
+
+db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
+{ "other": 7175
+});
+
+db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
+{ "Škoda|Enyaq": 189
+, "Volkswagen|ID.4": 174
+, "Volvo|XC40 Recharge pure electric": 140
+, "Polestar|2": 118
+, "Nissan|Leaf": 111
+, "Hyundai|Ioniq 5": 101
+, "Volvo|C40 Recharge": 99
+, "BMW|i4": 80
+, "Mercedes-Benz|EQA": 68
+, "Volkswagen|ID.5": 62
+, "Audi|Q4 e-tron": 62
+, "Volkswagen|ID.3": 59
+, "Peugeot|e-2008": 43
+, "Kia|EV6": 36
+, "Mercedes-Benz|EQE": 35
+, "BMW|iX": 35
+, "Tesla|Model Y": 33
+, "Audi|Q8 e-tron": 32
+, "Mercedes-Benz|EQC": 27
+, "Toyota|bZ4X": 26
+, "Opel|Corsa-e": 26
+, "BMW|iX1": 26
+, "Mercedes-Benz|EQB": 24
+, "Porsche|Taycan": 22
+, "Mercedes-Benz|EQS": 22
+, "Cupra|Born": 22
+, "Kia|Niro EV": 21
+, "Ford|Mustang Mach-E": 20
+, "Renault|Megane E-Tech": 17
+, "Nissan|Ariya": 14
+, "BMW|iX3": 13
+, "Tesla|Model 3": 11
+, "Peugeot|e-208": 10
+, "Subaru|Solterra": 9
+, "Volkswagen|e-up!": 7
+, "Toyota|Proace Electric": 7
+, "Fiat|500e": 6
+, "Peugeot|e-Rifter": 4
+, "Kia|Soul EV": 4
+, "Tesla|Model S": 3
+, "Citroën|ë-C4": 3
+, "Citroën|Berlingo Electric": 3
+, "BMW|i7": 3
+, "Tesla|Model X": 2
+, "Opel|Combo-e": 2
+, "Mini|Cooper SE Electric": 2
+, "Mercedes-Benz|EQV": 2
+, "Hyundai|Kona Electric": 2
+, "other": 25
+});
