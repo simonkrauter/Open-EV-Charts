@@ -4837,7 +4837,7 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 106
 });
 
-db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1",
+db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Škoda|Enyaq": 338
 , "Audi|Q4 e-tron": 203
 , "Hyundai|Ioniq 5": 184
@@ -4862,22 +4862,15 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 42
 , "Dacia|Spring": 34
 , "BMW|iX": 29
-, "Toyota|Proace Electric": 28
 , "Audi|e-tron GT": 28
 , "Tesla|Model S": 25
-, "Volkswagen|ID. Buzz": 24
-, "Citroën|Berlingo Electric": 23
 , "Mercedes-Benz|EQC": 22
 , "Opel|Combo-e": 21
 , "Kia|Niro EV": 21
 , "BMW|iX3": 21
-, "Peugeot|e-Expert": 20
 , "Mercedes-Benz|EQS": 20
-, "Citroën|ë-Jumpy": 20
 , "Mercedes-Benz|EQE": 19
 , "Volkswagen|ID.5": 17
-, "Nissan|Townstar EV": 16
-, "Peugeot|Partner Electric": 15
 , "Mercedes-Benz|EQB": 15
 , "Volkswagen|e-up!": 14
 , "Subaru|Solterra": 14
@@ -4885,7 +4878,13 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 14
 , "Volvo|XC40 Recharge pure electric": 13
 , "Smart|Fortwo ED": 13
-, "Opel|Vivaro-e": 13
 , "Genesis|GV60": 12
-, "other": 186
+, "Nissan|Ariya": 11
+, "Tesla|Model X": 10
+, "Kia|EV6": 10
+, "Peugeot|e-2008": 9
+, "Opel|Corsa-e": 8
+, "BMW|i7": 8
+, "Tesla|Model 3": 7
+, "other": 93
 });
