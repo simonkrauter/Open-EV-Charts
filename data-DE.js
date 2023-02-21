@@ -5011,7 +5011,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 891
 , "Cupra|Born": 888
 , "Peugeot|e-208": 871
-, "Renault|Mégane E-Tech Electric": 864
+, "Renault|Megane E-Tech": 864
 , "Renault|Twingo Z.E.": 816
 , "Opel|Mokka-e": 810
 , "Tesla|Model 3": 764
@@ -5109,7 +5109,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 936
 , "Mini|Cooper SE Electric": 911
 , "Škoda|Enyaq": 821
-, "Renault|Mégane E-Tech Electric": 752
+, "Renault|Megane E-Tech": 752
 , "Peugeot|e-208": 748
 , "Renault|Zoe": 598
 , "Ford|Mustang Mach-E": 549
@@ -5215,7 +5215,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 435
 , "Ford|Mustang Mach-E": 422
 , "Mercedes-Benz|EQC": 398
-, "Renault|Mégane E-Tech Electric": 396
+, "Renault|Megane E-Tech": 396
 , "Roewe|Ei5": 394
 , "Mercedes-Benz|EQA": 356
 , "BMW|iX3": 343
@@ -5303,7 +5303,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 908
 , "Volkswagen|e-up!": 718
 , "Opel|Corsa-e": 676
-, "Renault|Mégane E-Tech Electric": 670
+, "Renault|Megane E-Tech": 670
 , "Polestar|2": 667
 , "Mercedes-Benz|EQA": 618
 , "Kia|Niro EV": 571
@@ -5392,7 +5392,7 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 1100
 , "Škoda|Enyaq": 1098
 , "Volkswagen|e-up!": 1093
-, "Renault|Mégane E-Tech Electric": 1076
+, "Renault|Megane E-Tech": 1076
 , "Polestar|2": 1073
 , "Audi|Q4 e-tron": 1031
 , "Mini|Cooper SE Electric": 1019
@@ -5484,7 +5484,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 2089
 , "Dacia|Spring": 2035
 , "Opel|Mokka-e": 2031
-, "Renault|Mégane E-Tech Electric": 1728
+, "Renault|Megane E-Tech": 1728
 , "Polestar|2": 1669
 , "Hyundai|Kona Electric": 1647
 , "Audi|Q4 e-tron": 1498
@@ -5582,7 +5582,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 3403
 , "Hyundai|Kona Electric": 3352
 , "Opel|Mokka-e": 3303
-, "Renault|Mégane E-Tech Electric": 2970
+, "Renault|Megane E-Tech": 2970
 , "Hyundai|Ioniq 5": 2832
 , "Volkswagen|e-up!": 2240
 , "Audi|Q8 e-tron": 2230
@@ -5705,7 +5705,7 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 121
 , "Volkswagen|ID. Buzz": 118
 , "Toyota|bZ4X": 116
-, "Renault|Mégane E-Tech Electric": 101
+, "Renault|Megane E-Tech": 101
 , "Tesla|Model S": 96
 , "Opel|Corsa-e": 76
 , "BMW|i7": 76

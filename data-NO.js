@@ -3516,7 +3516,7 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 70
 , "BMW|i4": 64
 , "Porsche|Taycan": 56
-, "Renault|Mégane E-Tech Electric": 46
+, "Renault|Megane E-Tech": 46
 , "Peugeot|e-2008": 46
 , "Mazda|MX-30": 43
 , "Tesla|Model Y": 38
@@ -3597,7 +3597,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 88
 , "MG|Marvel R": 78
 , "Porsche|Taycan": 76
-, "Renault|Mégane E-Tech Electric": 72
+, "Renault|Megane E-Tech": 72
 , "Roewe|Ei5": 67
 , "Opel|Corsa-e": 62
 , "Mercedes-Benz|EQE": 59
@@ -3682,7 +3682,7 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 65
 , "Opel|Combo-e": 57
 , "Opel|Mokka-e": 52
-, "Renault|Mégane E-Tech Electric": 51
+, "Renault|Megane E-Tech": 51
 , "Nissan|Ariya": 46
 , "Lexus|UX 300e": 42
 , "Porsche|Taycan": 39
@@ -3742,7 +3742,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 188
 , "BMW|iX3": 187
 , "Subaru|Solterra": 179
-, "Renault|Mégane E-Tech Electric": 177
+, "Renault|Megane E-Tech": 177
 , "Mazda|MX-30": 172
 , "Ford|Mustang Mach-E": 168
 , "Volkswagen|ID. Buzz": 149
@@ -3819,7 +3819,7 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 301
 , "MG|Marvel R": 299
 , "Ford|Mustang Mach-E": 259
-, "Renault|Mégane E-Tech Electric": 249
+, "Renault|Megane E-Tech": 249
 , "Mercedes-Benz|EQA": 234
 , "Volkswagen|ID. Buzz": 215
 , "Kia|EV6": 208
@@ -3910,7 +3910,7 @@ db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Han EV": 294
 , "Kia|Niro EV": 271
 , "Peugeot|e-2008": 262
-, "Renault|Mégane E-Tech Electric": 225
+, "Renault|Megane E-Tech": 225
 , "Toyota|bZ4X": 203
 , "Mercedes-Benz|EQE": 202
 , "Hyundai|Kona Electric": 196
@@ -3981,7 +3981,7 @@ db.insert(db.countries.NO, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 9
 , "Cupra|Born": 9
 , "BYD|Yuan Plus": 8
-, "Renault|Mégane E-Tech Electric": 7
+, "Renault|Megane E-Tech": 7
 , "Opel|Combo-e": 7
 , "Lexus|UX 300e": 6
 , "Hyundai|Ioniq 5": 6

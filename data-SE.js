@@ -1691,7 +1691,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eSprinter": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Citroën|Berlingo Electric": 7
-, "Renault|Mégane E-Tech Electric": 6
+, "Renault|Megane E-Tech": 6
 , "Citroën|ë-Jumpy": 6
 , "other": 9
 });
@@ -1834,7 +1834,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 114
 , "Audi|Q8 e-tron": 109
 , "BMW|i4": 106
-, "Renault|Mégane E-Tech Electric": 98
+, "Renault|Megane E-Tech": 98
 , "Hyundai|Kona Electric": 93
 , "Volkswagen|ID.3": 91
 , "Kia|Niro EV": 91
@@ -1908,7 +1908,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 39
 , "Kia|Soul EV": 38
 , "Fiat|500e": 38
-, "Renault|Mégane E-Tech Electric": 34
+, "Renault|Megane E-Tech": 34
 , "Hyundai|Kona Electric": 34
 , "Mercedes-Benz|EQE": 31
 , "Porsche|Taycan": 27
@@ -1970,7 +1970,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 39
 , "Mercedes-Benz|EQC": 38
 , "Opel|Mokka-e": 29
-, "Renault|Mégane E-Tech Electric": 27
+, "Renault|Megane E-Tech": 27
 , "Renault|Kangoo Z.E.": 27
 , "Kia|Soul EV": 27
 , "Opel|Vivaro-e": 26
@@ -2006,7 +2006,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 195
 , "Mini|Cooper SE Electric": 191
 , "Mercedes-Benz|EQB": 176
-, "Renault|Mégane E-Tech Electric": 171
+, "Renault|Megane E-Tech": 171
 , "Roewe|Ei5": 155
 , "Hyundai|Kona Electric": 135
 , "BMW|i4": 108
@@ -2060,7 +2060,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID. Buzz": 294
 , "MG|ZS EV": 273
 , "Volkswagen|ID.3": 240
-, "Renault|Mégane E-Tech Electric": 237
+, "Renault|Megane E-Tech": 237
 , "Audi|Q4 e-tron": 227
 , "Peugeot|e-208": 185
 , "Roewe|Ei5": 179
@@ -2116,7 +2116,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 441
 , "Roewe|Ei5": 403
 , "Volkswagen|ID.3": 399
-, "Renault|Mégane E-Tech Electric": 375
+, "Renault|Megane E-Tech": 375
 , "Peugeot|e-2008": 369
 , "Ford|Mustang Mach-E": 326
 , "Audi|Q4 e-tron": 291
@@ -2177,7 +2177,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 73
 , "BMW|iX": 69
 , "Volkswagen|ID.3": 59
-, "Renault|Mégane E-Tech Electric": 57
+, "Renault|Megane E-Tech": 57
 , "Peugeot|e-208": 57
 , "MG|Marvel R": 55
 , "MG|ZS EV": 49

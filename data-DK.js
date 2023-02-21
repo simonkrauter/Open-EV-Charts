@@ -1108,7 +1108,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 9
 , "BMW|iX3": 8
 , "Roewe|Ei5": 6
-, "Renault|Mégane E-Tech Electric": 6
+, "Renault|Megane E-Tech": 6
 , "Mercedes-Benz|EQV": 6
 , "Opel|Combo-e": 5
 , "MG|Marvel R": 5
@@ -1169,7 +1169,7 @@ db.insert(db.countries.DK, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 3
 , "Mercedes-Benz|EQV": 3
 , "Citroën|Berlingo Electric": 3
-, "Renault|Mégane E-Tech Electric": 2
+, "Renault|Megane E-Tech": 2
 , "BMW|i3 BEV": 2
 , "Škoda|Citigo-e": 1
 , "Volkswagen|ID.5": 1
@@ -1304,7 +1304,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 55
 , "Audi|Q8 e-tron": 53
 , "Peugeot|e-2008": 38
-, "Renault|Mégane E-Tech Electric": 33
+, "Renault|Megane E-Tech": 33
 , "BMW|i4": 32
 , "Polestar|2": 31
 , "Kia|EV6": 31
@@ -1368,7 +1368,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 47
 , "Mercedes-Benz|EQB": 45
 , "BMW|i4": 45
-, "Renault|Mégane E-Tech Electric": 44
+, "Renault|Megane E-Tech": 44
 , "Kia|Niro EV": 43
 , "Hyundai|Ioniq 5": 40
 , "Renault|Zoe": 39
@@ -1431,7 +1431,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 28
 , "BMW|iX": 28
 , "Volvo|C40 Recharge": 27
-, "Renault|Mégane E-Tech Electric": 24
+, "Renault|Megane E-Tech": 24
 , "Fiat|500e": 22
 , "Mazda|MX-30": 18
 , "MG|MG4 EV": 17
@@ -1470,7 +1470,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 76
 , "Mercedes-Benz|EQE": 72
 , "Mercedes-Benz|EQB": 72
-, "Renault|Mégane E-Tech Electric": 67
+, "Renault|Megane E-Tech": 67
 , "Hyundai|Kona Electric": 67
 , "Mercedes-Benz|EQA": 65
 , "Volvo|C40 Recharge": 62
@@ -1519,7 +1519,7 @@ db.insert(db.countries.DK, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 366
 , "Volkswagen|ID.5": 307
 , "Škoda|Enyaq": 219
-, "Renault|Mégane E-Tech Electric": 147
+, "Renault|Megane E-Tech": 147
 , "BMW|iX3": 143
 , "Audi|Q4 e-tron": 123
 , "Volvo|XC40 Recharge pure electric": 121
@@ -1594,7 +1594,7 @@ db.insert(db.countries.DK, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 72
 , "Hyundai|Ioniq 5": 71
 , "Tesla|Model 3": 69
-, "Renault|Mégane E-Tech Electric": 66
+, "Renault|Megane E-Tech": 66
 , "Volkswagen|ID.3": 54
 , "Mercedes-Benz|EQC": 51
 , "Mercedes-Benz|EQE": 50

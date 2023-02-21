@@ -1240,7 +1240,7 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 9
 , "Kia|Niro EV": 9
 , "Volkswagen|e-up!": 7
-, "Renault|Mégane E-Tech Electric": 7
+, "Renault|Megane E-Tech": 7
 , "Volkswagen|ID.3": 6
 , "Opel|Mokka-e": 6
 , "Cupra|Born": 6
@@ -1398,7 +1398,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 15
 , "Mercedes-Benz|EQS": 14
 , "Porsche|Taycan": 13
-, "Renault|Mégane E-Tech Electric": 12
+, "Renault|Megane E-Tech": 12
 , "Citroën|ë-C4": 12
 , "BMW|iX": 12
 , "Hyundai|Kona Electric": 11
@@ -1458,7 +1458,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 13
 , "Mercedes-Benz|EQC": 13
 , "Jaguar|I-Pace": 6
-, "Renault|Mégane E-Tech Electric": 5
+, "Renault|Megane E-Tech": 5
 , "Hyundai|Kona Electric": 4
 , "Renault|Zoe": 3
 , "Kia|Niro EV": 3
@@ -1496,7 +1496,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 35
 , "Audi|Q4 e-tron": 34
 , "Volkswagen|ID.3": 33
-, "Renault|Mégane E-Tech Electric": 31
+, "Renault|Megane E-Tech": 31
 , "BMW|iX": 28
 , "Nissan|Ariya": 24
 , "Hyundai|Ioniq 5": 22
@@ -1543,7 +1543,7 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 83
 , "Nissan|Leaf": 69
 , "Volkswagen|ID.3": 57
-, "Renault|Mégane E-Tech Electric": 57
+, "Renault|Megane E-Tech": 57
 , "Volkswagen|ID.5": 53
 , "Toyota|bZ4X": 42
 , "Kia|Niro EV": 31
@@ -1598,7 +1598,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 93
 , "Volkswagen|ID.5": 76
 , "Volvo|C40 Recharge": 73
-, "Renault|Mégane E-Tech Electric": 48
+, "Renault|Megane E-Tech": 48
 , "Tesla|Model 3": 45
 , "Audi|Q4 e-tron": 35
 , "Volkswagen|ID.3": 34
@@ -1660,7 +1660,7 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 40
 , "Audi|Q4 e-tron": 40
 , "Nissan|Ariya": 31
-, "Renault|Mégane E-Tech Electric": 29
+, "Renault|Megane E-Tech": 29
 , "BMW|iX": 27
 , "Kia|Niro EV": 26
 , "Tesla|Model 3": 21

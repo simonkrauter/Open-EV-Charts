@@ -3623,7 +3623,7 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 13
 , "Audi|Q8 e-tron": 13
 , "Mercedes-Benz|EQS": 12
-, "Renault|Mégane E-Tech Electric": 11
+, "Renault|Megane E-Tech": 11
 , "MG|Marvel R": 8
 , "Peugeot|e-Rifter": 7
 , "Mazda|MX-30": 6
@@ -3873,7 +3873,7 @@ db.insert(db.countries.ES, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 249
 , "Citroën|ë-C4": 198
 , "Peugeot|e-2008": 140
-, "Renault|Mégane E-Tech Electric": 100
+, "Renault|Megane E-Tech": 100
 , "Hyundai|Ioniq 5": 100
 , "Cupra|Born": 96
 , "Opel|Corsa-e": 93
@@ -3967,7 +3967,7 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 { "Citroën|ë-C4": 165
 , "Dacia|Spring": 163
 , "Hyundai|Kona Electric": 126
-, "Renault|Mégane E-Tech Electric": 113
+, "Renault|Megane E-Tech": 113
 , "Cupra|Born": 105
 , "Peugeot|e-2008": 101
 , "Fiat|500e": 100
@@ -4089,7 +4089,7 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 15
 , "BMW|iX3": 14
 , "Renault|Twingo Z.E.": 13
-, "Renault|Mégane E-Tech Electric": 13
+, "Renault|Megane E-Tech": 13
 , "MG|Marvel R": 12
 , "Hyundai|Ioniq 5": 12
 , "Aiways|U5": 12
@@ -4178,7 +4178,7 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 43
 , "Peugeot|e-208": 42
 , "Nissan|Ariya": 41
-, "Renault|Mégane E-Tech Electric": 40
+, "Renault|Megane E-Tech": 40
 , "Hyundai|Ioniq 5": 37
 , "BMW|iX": 35
 , "Opel|Mokka-e": 34
@@ -4270,7 +4270,7 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 72
 , "Kia|EV6": 68
 , "BMW|iX": 66
-, "Renault|Mégane E-Tech Electric": 58
+, "Renault|Megane E-Tech": 58
 , "BMW|i4": 55
 , "Ford|Mustang Mach-E": 51
 , "Tesla|Model Y": 48
@@ -4352,7 +4352,7 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 203
 , "Hyundai|Kona Electric": 134
 , "Opel|Corsa-e": 133
-, "Renault|Mégane E-Tech Electric": 121
+, "Renault|Megane E-Tech": 121
 , "Volkswagen|ID.4": 120
 , "Citroën|ë-C4": 111
 , "Dacia|Spring": 110
@@ -4452,7 +4452,7 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 118
 , "Dacia|Spring": 105
 , "Citroën|ë-C4": 103
-, "Renault|Mégane E-Tech Electric": 97
+, "Renault|Megane E-Tech": 97
 , "Opel|Corsa-e": 89
 , "Cupra|Born": 85
 , "Peugeot|e-208": 84
@@ -4562,7 +4562,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 55
 , "Mercedes-Benz|EQB": 54
 , "BMW|iX3": 51
-, "Renault|Mégane E-Tech Electric": 44
+, "Renault|Megane E-Tech": 44
 , "Opel|Mokka-e": 38
 , "Hyundai|Kona Electric": 34
 , "MG|ZS EV": 33

@@ -1301,7 +1301,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 7
 , "Ford|Mustang Mach-E": 6
 , "Roewe|Ei5": 4
-, "Renault|Mégane E-Tech Electric": 4
+, "Renault|Megane E-Tech": 4
 , "Opel|Mokka-e": 4
 , "Audi|Q4 e-tron": 4
 , "Mercedes-Benz|EQC": 3
@@ -1368,7 +1368,7 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 { "Toyota|bZ4X": 122
 , "Volkswagen|ID.4": 46
 , "Nissan|Leaf": 23
-, "Renault|Mégane E-Tech Electric": 11
+, "Renault|Megane E-Tech": 11
 , "Hyundai|Kona Electric": 11
 , "Cupra|Born": 11
 , "Porsche|Taycan": 10
@@ -1412,7 +1412,7 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 15
 , "Porsche|Taycan": 9
 , "Polestar|2": 5
-, "Renault|Mégane E-Tech Electric": 3
+, "Renault|Megane E-Tech": 3
 , "MG|ZS EV": 3
 , "Kia|Niro EV": 3
 , "BMW|iX": 3
