@@ -884,7 +884,7 @@ var db = {
     }
 
     // looking for 'AllCarsByBrand not per brand'
-    if (chartConfig.metric == this.metrics.salesAll) {
+    if (chartConfig.metric == this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine) {
       for (const text in sources) {
         if (text.includes("TODO: numbers per brand wanted")) {
           const sourceInfo = sources[text];
