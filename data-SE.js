@@ -2153,11 +2153,11 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 42
 });
 
-db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 14601
+db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/press#/pressreleases/antalet-nyregistrerade-personbilar-minskade-kraftigt-i-januari-3231131 TODO: numbers per brand wanted",
+{ "other": 15282
 });
 
-db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
+db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2023/1, https://www.trafa.se/press#/pressreleases/antalet-nyregistrerade-personbilar-minskade-kraftigt-i-januari-3231131",
 { "Volvo|XC40 Recharge pure electric": 700
 , "Kia|EV6": 426
 , "Volvo|C40 Recharge": 373
@@ -2206,5 +2206,5 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Mercedes-Benz|EQS SUV": 8
 , "BYD|Han EV": 8
-, "other": 54
+, "other": 185
 });
