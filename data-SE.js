@@ -4,11 +4,11 @@
 
 db.addCountry("SE", "Sweden");
 
-db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180215_PRPC_1801_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 22980
+db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23815
 });
 
-db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/1",
+db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 71
 , "BMW|i3 BEV": 36
 , "Volkswagen|e-Golf": 31
@@ -21,11 +21,11 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180315_PRPC_1802_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 27211
+db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 27815
 });
 
-db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/2",
+db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Hyundai|Ioniq Electric": 97
 , "Renault|Zoe": 80
 , "Nissan|Leaf": 54
@@ -38,11 +38,11 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 6
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180418_PRPC_1803_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 37206
+db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 37957
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/3",
+db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 250
 , "Tesla|Model S": 146
 , "Hyundai|Ioniq Electric": 116
@@ -56,11 +56,11 @@ db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 1
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180517_PRPC_1804_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 37687
+db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 35601
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/4",
+db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 139
 , "Renault|Zoe": 56
 , "Tesla|Model S": 44
@@ -73,11 +73,11 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 7
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180615_PRPC_1805_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
 { "other": 39446
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/5",
+db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 51
 , "Nissan|Leaf": 46
 , "Volkswagen|e-Golf": 40
@@ -92,11 +92,11 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 15
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180717_PRPC_1806_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 66244
+db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 67553
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/6",
+db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model S": 82
 , "BMW|i3 BEV": 65
 , "Renault|Zoe": 43
@@ -110,11 +110,11 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 7
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 12504
+db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 13798
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/7",
+db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 126
 , "Nissan|e-NV200": 74
 , "Tesla|Model S": 65
@@ -129,11 +129,11 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 13
 });
 
-db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 24670
+db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 25765
 });
 
-db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/8",
+db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 155
 , "Nissan|Leaf": 121
 , "Tesla|Model S": 73
@@ -148,11 +148,11 @@ db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 8
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20191017_PRPC_1809_FINAL-1.pdf TODO: numbers per brand wanted",
-{ "other": 19111
+db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 19886
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/9",
+db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 191
 , "Tesla|Model S": 173
 , "Nissan|Leaf": 168
@@ -168,11 +168,11 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 8
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20181115_PRPC_1810_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 23088
+db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 24128
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/10",
+db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 299
 , "Nissan|Leaf": 240
 , "Hyundai|Ioniq Electric": 74
@@ -188,11 +188,11 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 11
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20181214_PRPC_1811_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25813
+db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 26357
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/11",
+db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 388
 , "Volkswagen|e-Golf": 225
 , "Renault|Zoe": 166
@@ -208,11 +208,11 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 10
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20190115_PRPC_1812_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 23000
+db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23414
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/12",
+db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 343
 , "Renault|Zoe": 340
 , "Tesla|Model S": 113
@@ -228,11 +228,11 @@ db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 });
 
-db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190215_PRPC_1901_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 20478
+db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 21117
 });
 
-db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/1",
+db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 264
 , "Renault|Zoe": 239
 , "Kia|Niro EV": 175
@@ -250,11 +250,11 @@ db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 21
 });
 
-db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190315_PRPC_1902_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 23146
+db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23789
 });
 
-db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/2",
+db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 236
 , "Kia|Niro EV": 164
 , "Nissan|Leaf": 153
@@ -274,11 +274,11 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 12
 });
 
-db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190417_PRPC_1903_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 30256
+db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 31079
 });
 
-db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/3",
+db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 997
 , "Kia|Niro EV": 296
 , "Renault|Zoe": 194
@@ -297,11 +297,11 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190517_PRPC_1904_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 30253
+db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 31451
 });
 
-db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/4",
+db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 446
 , "Renault|Zoe": 204
 , "Kia|Niro EV": 174
@@ -321,11 +321,11 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 3
 });
 
-db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190618_PRPC_1905_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 31919
+db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 33250
 });
 
-db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/5",
+db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 199
 , "Tesla|Model 3": 198
 , "Kia|Niro EV": 140
@@ -345,11 +345,11 @@ db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 26
 });
 
-db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190717_PRPC_1906_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 31830
+db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 33119
 });
 
-db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/6",
+db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 524
 , "Renault|Zoe": 229
 , "Tesla|Model S": 209
@@ -370,11 +370,11 @@ db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 25
 });
 
-db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190918_PRPC_1907-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 23657
+db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 24951
 });
 
-db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/7",
+db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 453
 , "Renault|Zoe": 122
 , "Nissan|Leaf": 84
@@ -395,11 +395,11 @@ db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190918_PRPC_1907-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 29477
+db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 30493
 });
 
-db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/8",
+db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 148
 , "Renault|Zoe": 138
 , "Nissan|Leaf": 119
@@ -418,11 +418,11 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 21
 });
 
-db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191016_PRPC_1909_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26758
+db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 27728
 });
 
-db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/9",
+db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 716
 , "Tesla|Model S": 197
 , "Renault|Zoe": 148
@@ -442,11 +442,11 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 16
 });
 
-db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191119_PRPC_1910_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 29631
+db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 30493
 });
 
-db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/10",
+db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 141
 , "Renault|Zoe": 128
 , "Kia|Niro EV": 104
@@ -466,11 +466,11 @@ db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 44
 });
 
-db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191217_PRPC_1911_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 30502
+db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 31126
 });
 
-db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/11",
+db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Nissan|Leaf": 224
 , "Hyundai|Ioniq Electric": 114
 , "Renault|Zoe": 113
@@ -489,11 +489,11 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 32
 });
 
-db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200116_PRPC_1912_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 48129
+db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 48365
 });
 
-db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/12",
+db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 604
 , "Tesla|Model S": 288
 , "Tesla|Model X": 146
@@ -512,11 +512,11 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 33
 });
 
-db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 16798
+db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 17790
 });
 
-db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/1",
+db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 282
 , "Renault|Zoe": 133
 , "Kia|Soul EV": 117
@@ -537,11 +537,11 @@ db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 68
 });
 
-db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21694
+db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 22489
 });
 
-db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/2",
+db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 359
 , "Audi|Q8 e-tron": 208
 , "Renault|Zoe": 138
@@ -563,11 +563,11 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 32
 });
 
-db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 27649
+db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 28535
 });
 
-db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/3",
+db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 1084
 , "Audi|Q8 e-tron": 315
 , "Renault|Zoe": 310
@@ -591,11 +591,11 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 67
 });
 
-db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 18916
+db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 19831
 });
 
-db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/4",
+db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Renault|Zoe": 159
 , "Audi|Q8 e-tron": 146
 , "Nissan|Leaf": 139
@@ -619,11 +619,11 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 46
 });
 
-db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 15881
+db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 16899
 });
 
-db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/5",
+db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|e-Golf": 135
 , "Hyundai|Kona Electric": 123
 , "Renault|Zoe": 98
@@ -647,11 +647,11 @@ db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 22
 });
 
-db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 24747
+db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 26058
 });
 
-db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/6",
+db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 312
 , "Renault|Zoe": 299
 , "Audi|Q8 e-tron": 218
@@ -678,11 +678,11 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 61
 });
 
-db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25522
+db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23804
 });
 
-db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/7",
+db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 229
 , "Audi|Q8 e-tron": 138
 , "Renault|Zoe": 136
@@ -712,11 +712,11 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 86
 });
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25522
+db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 26545
 });
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/8",
+db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 358
 , "Polestar|2": 268
 , "Tesla|Model 3": 235
@@ -744,11 +744,11 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 80
 });
 
-db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 28719
+db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 29791
 });
 
-db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/9",
+db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 754
 , "Polestar|2": 564
 , "Volkswagen|ID.3": 460
@@ -781,11 +781,11 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 109
 });
 
-db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 28147
+db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 29037
 });
 
-db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/10",
+db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Polestar|2": 274
 , "Kia|Niro EV": 235
 , "Volkswagen|ID.3": 212
@@ -818,11 +818,11 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 169
 });
 
-db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26571
+db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 27443
 });
 
-db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/11",
+db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.3": 773
 , "Nissan|Leaf": 230
 , "Polestar|2": 166
@@ -854,11 +854,11 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 149
 });
 
-db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 34662
+db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 34974
 });
 
-db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/12",
+db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.3": 2569
 , "Tesla|Model 3": 736
 , "Hyundai|Kona Electric": 368
@@ -893,11 +893,11 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 120
 });
 
-db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 20573
+db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 21476
 });
 
-db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/1",
+db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 230
 , "Polestar|2": 150
 , "Nissan|Leaf": 120
@@ -927,11 +927,11 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 105
 });
 
-db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf TODO: numbers per brand wanted",
-{ "other": 22837
+db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23586
 });
 
-db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/2",
+db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 165
 , "Polestar|2": 151
 , "Volkswagen|ID.3": 148
@@ -967,11 +967,11 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 61
 });
 
-db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 47460
+db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 48723
 });
 
-db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/3",
+db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model 3": 1192
 , "Kia|Niro EV": 322
 , "Nissan|Leaf": 156
@@ -1009,11 +1009,11 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 76
 });
 
-db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21873
+db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23133
 });
 
-db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/4",
+db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 1444
 , "Volkswagen|ID.3": 469
 , "Kia|Niro EV": 403
@@ -1056,11 +1056,11 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 187
 });
 
-db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 24327
+db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 25713
 });
 
-db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/5",
+db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 693
 , "Kia|Niro EV": 430
 , "Škoda|Enyaq": 364
@@ -1102,11 +1102,11 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 170
 });
 
-db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
-{ "other": 36095
+db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 37638
 });
 
-db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/6",
+db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "MG|ZS EV": 1665
 , "Tesla|Model 3": 1499
 , "Volkswagen|ID.4": 1229
@@ -1149,11 +1149,11 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 200
 });
 
-db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 16778
+db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 18110
 });
 
-db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/7",
+db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 587
 , "Volkswagen|ID.3": 206
 , "Ford|Mustang Mach-E": 177
@@ -1197,11 +1197,11 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 111
 });
 
-db.insert(db.countries.SE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 19808
+db.insert(db.countries.SE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 20925
 });
 
-db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/8",
+db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 731
 , "Volkswagen|ID.4": 553
 , "MG|ZS EV": 465
@@ -1246,11 +1246,11 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 197
 });
 
-db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 22634
+db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23745
 });
 
-db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/9",
+db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model Y": 1213
 , "Kia|Niro EV": 858
 , "MG|ZS EV": 854
@@ -1300,11 +1300,11 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 66
 });
 
-db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211118_PRPC_2110_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 19962
+db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 20916
 });
 
-db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/10",
+db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 640
 , "Škoda|Enyaq": 380
 , "Polestar|2": 379
@@ -1355,11 +1355,11 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 90
 });
 
-db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21056
+db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 22093
 });
 
-db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/11",
+db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 583
 , "Nissan|Leaf": 448
 , "Polestar|2": 443
@@ -1408,14 +1408,14 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 3
 , "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "other": 19
+, "other": 100
 });
 
-db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 27605
+db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 28255
 });
 
-db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/12",
+db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model Y": 1532
 , "Volkswagen|ID.4": 1103
 , "Renault|Zoe": 1030
@@ -1464,14 +1464,14 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 4
 , "Toyota|Proace Electric": 3
 , "Opel|Combo-e": 2
-, "other": 12
+, "other": 50
 });
 
-db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 19893
+db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 20527
 });
 
-db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/1",
+db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 996
 , "Volkswagen|ID.4": 684
 , "Volvo|XC40 Recharge pure electric": 469
@@ -1522,14 +1522,13 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Kangoo Z.E.": 5
 , "Tesla|Model 3": 3
 , "Nissan|e-NV200": 3
-, "other": 26
 });
 
-db.insert(db.countries.SE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21136
+db.insert(db.countries.SE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 21917
 });
 
-db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/2",
+db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 711
 , "Tesla|Model Y": 583
 , "Polestar|2": 436
@@ -1579,14 +1578,13 @@ db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 8
 , "Peugeot|Partner Electric": 5
 , "Opel|Vivaro-e": 4
-, "other": 41
 });
 
-db.insert(db.countries.SE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 28710
+db.insert(db.countries.SE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 29893
 });
 
-db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/3",
+db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model Y": 1365
 , "Tesla|Model 3": 991
 , "Volkswagen|ID.4": 907
@@ -1637,14 +1635,14 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 10
 , "Mercedes-Benz|eSprinter": 9
 , "Citroën|ë-Jumpy": 9
-, "other": 79
+, "other": 3
 });
 
-db.insert(db.countries.SE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21942
+db.insert(db.countries.SE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23050
 });
 
-db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/4",
+db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Kia|Niro EV": 670
 , "Polestar|2": 497
 , "Volvo|XC40 Recharge pure electric": 447
@@ -1695,14 +1693,14 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 7
 , "Renault|Mégane E-Tech Electric": 6
 , "Citroën|ë-Jumpy": 6
-, "other": 50
+, "other": 9
 });
 
-db.insert(db.countries.SE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26413
+db.insert(db.countries.SE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 27736
 });
 
-db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/5",
+db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 658
 , "Kia|Niro EV": 562
 , "Škoda|Enyaq": 391
@@ -1753,14 +1751,14 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
 , "Honda|e": 9
 , "DFSK|Seres 3": 9
-, "other": 72
+, "other": 99
 });
 
-db.insert(db.countries.SE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26088
+db.insert(db.countries.SE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 27374
 });
 
-db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/6",
+db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Tesla|Model Y": 1877
 , "Volkswagen|ID.4": 759
 , "Kia|Niro EV": 703
@@ -1811,14 +1809,14 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 16
 , "Toyota|Proace Electric": 14
 , "Citroën|Berlingo Electric": 13
-, "other": 112
+, "other": 31
 });
 
-db.insert(db.countries.SE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 17834
+db.insert(db.countries.SE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 18789
 });
 
-db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/7",
+db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 516
 , "MG|ZS EV": 411
 , "Kia|EV6": 336
@@ -1868,14 +1866,14 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 9
 , "Opel|Vivaro-e": 8
 , "Citroën|Berlingo Electric": 8
-, "other": 63
+, "other": 39
 });
 
-db.insert(db.countries.SE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 20576
+db.insert(db.countries.SE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 21493
 });
 
-db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/8",
+db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 654
 , "Nissan|Leaf": 528
 , "MG|ZS EV": 487
@@ -1926,14 +1924,14 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 5
 , "Renault|Kangoo Z.E.": 5
 , "Lexus|UX 300e": 5
-, "other": 55
+, "other": 40
 });
 
-db.insert(db.countries.SE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 22048
+db.insert(db.countries.SE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23047
 });
 
-db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/9",
+db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volkswagen|ID.4": 595
 , "Volvo|XC40 Recharge pure electric": 567
 , "Kia|Niro EV": 555
@@ -1984,14 +1982,13 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 15
 , "Citroën|Berlingo Electric": 14
 , "Mercedes-Benz|eVito": 9
-, "other": 87
 });
 
-db.insert(db.countries.SE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 22383
+db.insert(db.countries.SE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 23220
 });
 
-db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/10",
+db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volvo|XC40 Recharge pure electric": 1127
 , "Volkswagen|ID.4": 617
 , "Kia|Niro EV": 463
@@ -2039,14 +2036,14 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|E-Transit": 11
 , "MG|MG4 EV": 7
 , "Peugeot|Partner Electric": 6
-, "other": 95
+, "other": 118
 });
 
-db.insert(db.countries.SE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25588
+db.insert(db.countries.SE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 26295
 });
 
-db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/11",
+db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volvo|XC40 Recharge pure electric": 1627
 , "Volkswagen|ID.4": 912
 , "Volvo|C40 Recharge": 878
@@ -2097,14 +2094,13 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 18
 , "Aiways|U5": 17
 , "Peugeot|e-Expert": 16
-, "other": 215
 });
 
-db.insert(db.countries.SE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 35476
+db.insert(db.countries.SE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
+{ "other": 35879
 });
 
-db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/12",
+db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2022/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
 { "Volvo|XC40 Recharge pure electric": 2614
 , "Volkswagen|ID.4": 1721
 , "Volvo|C40 Recharge": 1349
@@ -2154,7 +2150,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 52
 , "Opel|Mokka-e": 39
 , "Citroën|ë-C4": 35
-, "other": 351
+, "other": 42
 });
 
 db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
