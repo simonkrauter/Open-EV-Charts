@@ -1150,12 +1150,11 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 2
 , "Jaguar|I-Pace": 2
 , "Peugeot|e-Expert": 1
-, "Maxus|e Deliver": 1
 , "Lexus|UX 300e": 1
 , "Kia|Soul EV": 1
 , "Hyundai|Ioniq Electric": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 3
+, "other": 4
 });
 
 db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf TODO: numbers per brand wanted",
