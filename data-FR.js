@@ -4232,3 +4232,56 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|MG4 EV": 729
 , "other": 9019
 });
+
+db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/02/2023-01-vp-france.pdf",
+{ "Peugeot": 17683
+, "Renault": 17097
+, "Dacia": 11538
+, "Toyota": 8671
+, "Volkswagen": 8249
+, "Citroën": 8205
+, "Kia": 3428
+, "Hyundai": 3214
+, "BMW": 3081
+, "Ford": 3009
+, "Audi": 2873
+, "Opel": 2860
+, "Fiat": 2354
+, "Nissan": 2337
+, "Škoda": 2235
+, "Mercedes-Benz": 2210
+, "DS Automobiles": 2002
+, "MG": 1742
+, "Mini": 1449
+, "Seat": 1303
+, "Suzuki": 1157
+, "Volvo": 1090
+, "Tesla": 741
+, "Mazda": 450
+, "Jeep": 429
+, "Cupra": 387
+, "Land Rover": 361
+, "Lexus": 294
+, "Honda": 267
+, "Alfa Romeo": 245
+, "Mitsubishi": 207
+, "Porsche": 184
+, "Smart": 82
+, "Jaguar": 27
+, "Maserati": 3
+, "other": 475
+});
+
+db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/02/barometre-avere-colombus-fevrier-2023.pdf",
+{ "Dacia|Spring": 1911
+, "Fiat|500e": 1598
+, "Renault|Mégane E-Tech Electric": 1506
+, "Peugeot|e-208": 1336
+, "MG|MG4 EV": 686
+, "Renault|Zoe": 646
+, "Renault|Twingo Z.E.": 543
+, "Peugeot|e-2008": 441
+, "Tesla|Model Y": 424
+, "Hyundai|Kona Electric": 282
+, "other": 5256
+});
