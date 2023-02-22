@@ -2447,7 +2447,7 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 5961
 });
 
-db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1",
+db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Fiat|500e": 540
 , "Smart|Fortwo ED": 369
 , "Renault|Twingo Z.E.": 212
@@ -2491,4 +2491,5 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Roewe|Ei5": 11
 , "MG|ZS EV": 11
 , "Fiat|E-Doblò": 10
+, "other": 114
 });
