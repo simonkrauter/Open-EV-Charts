@@ -4034,8 +4034,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 17
 , "Mercedes-Benz|EQV": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
-, "Subaru|Solterra": 11
-, "other": 109
+, "other": 120
 });
 
 db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/juli/",
@@ -4661,7 +4660,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/1",
 { "Tesla|Model Y": 492
-, "Volvo|XC40 Recharge pure electric": 421
+, "Volvo|XC40 Recharge pure electric": 422
 , "Peugeot|e-208": 256
 , "Peugeot|e-2008": 240
 , "Renault|Megane E-Tech": 236
@@ -4670,7 +4669,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 185
 , "Hyundai|Ioniq 5": 184
 , "Porsche|Taycan": 177
-, "Kia|Niro EV": 152
+, "Kia|Niro EV": 155
 , "Škoda|Enyaq": 126
 , "Volvo|C40 Recharge": 118
 , "Renault|Twingo Z.E.": 106
@@ -4709,5 +4708,5 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 25
 , "BMW|i7": 25
 , "Roewe|Ei5": 23
-, "other": 240
+, "other": 241
 });
