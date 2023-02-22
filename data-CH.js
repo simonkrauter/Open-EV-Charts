@@ -54,6 +54,7 @@ db.insert(db.countries.CH, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 2
 , "Nissan|Leaf": 1
+, "other": 47
 });
 
 db.insert(db.countries.CH, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_2.xlsx",
@@ -103,6 +104,7 @@ db.insert(db.countries.CH, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 28
 , "Peugeot|iOn": 4
 , "Citroën|C-Zero": 4
+, "other": 77
 });
 
 db.insert(db.countries.CH, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_3.xlsx",
@@ -153,6 +155,7 @@ db.insert(db.countries.CH, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 3
 , "Nissan|Leaf": 58
 , "Citroën|C-Zero": 1
+, "other": 336
 });
 
 db.insert(db.countries.CH, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_4.xlsx",
@@ -203,6 +206,7 @@ db.insert(db.countries.CH, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 1
 , "Nissan|Leaf": 25
 , "Citroën|C-Zero": 4
+, "other": 128
 });
 
 db.insert(db.countries.CH, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_5.xlsx",
@@ -254,6 +258,7 @@ db.insert(db.countries.CH, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 2
 , "Nissan|Leaf": 15
 , "Citroën|C-Zero": 3
+, "other": 98
 });
 
 db.insert(db.countries.CH, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_6.xlsx",
@@ -304,6 +309,7 @@ db.insert(db.countries.CH, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 1
 , "Nissan|Leaf": 25
 , "Citroën|C-Zero": 2
+, "other": 274
 });
 
 db.insert(db.countries.CH, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_7.xlsx",
@@ -355,6 +361,7 @@ db.insert(db.countries.CH, "2018-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 3
 , "Nissan|Leaf": 21
 , "Citroën|C-Zero": 5
+, "other": 91
 });
 
 db.insert(db.countries.CH, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_8.xlsx",
@@ -405,6 +412,7 @@ db.insert(db.countries.CH, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 32
 , "Peugeot|iOn": 1
 , "Nissan|Leaf": 58
+, "other": 154
 });
 
 db.insert(db.countries.CH, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_9.xlsx",
@@ -456,6 +464,7 @@ db.insert(db.countries.CH, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 3
 , "Nissan|Leaf": 66
 , "Citroën|C-Zero": 2
+, "other": 275
 });
 
 db.insert(db.countries.CH, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_10.xlsx",
@@ -507,6 +516,7 @@ db.insert(db.countries.CH, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 5
 , "Nissan|Leaf": 57
 , "Citroën|C-Zero": 1
+, "other": 143
 });
 
 db.insert(db.countries.CH, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_11.xlsx",
@@ -557,6 +567,7 @@ db.insert(db.countries.CH, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 46
 , "Nissan|Leaf": 46
 , "Citroën|C-Zero": 5
+, "other": 192
 });
 
 db.insert(db.countries.CH, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_12.xlsx",
@@ -608,6 +619,7 @@ db.insert(db.countries.CH, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|iOn": 47
 , "Nissan|Leaf": 56
 , "Citroën|C-Zero": 4
+, "other": 314
 });
 
 db.insert(db.countries.CH, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -1456,6 +1468,7 @@ db.insert(db.countries.CH, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 , "Mitsubishi|i-MiEV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 8
 });
 
 db.insert(db.countries.CH, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
@@ -1526,6 +1539,7 @@ db.insert(db.countries.CH, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|iEV7 S/E": 3
 , "Kia|Soul EV": 2
 , "Mitsubishi|i-MiEV": 1
+, "other": 8
 });
 
 db.insert(db.countries.CH, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
@@ -1597,6 +1611,7 @@ db.insert(db.countries.CH, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 4
 , "Honda|e": 2
 , "Citroën|C-Zero": 1
+, "other": 15
 });
 
 db.insert(db.countries.CH, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
@@ -1670,6 +1685,7 @@ db.insert(db.countries.CH, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 1
 , "Citroën|E-Mehari": 1
 , "Citroën|C-Zero": 1
+, "other": 5
 });
 
 db.insert(db.countries.CH, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
@@ -1740,6 +1756,7 @@ db.insert(db.countries.CH, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 1
 , "Peugeot|e-2008": 1
+, "other": 7
 });
 
 db.insert(db.countries.CH, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2020.xlsx",
@@ -1815,6 +1832,7 @@ db.insert(db.countries.CH, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Citroën|C-Zero": 2
 , "Opel|Ampera-e": 1
+, "other": 13
 });
 
 db.insert(db.countries.CH, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/08/ModellePW2020.xlsx",
@@ -1889,6 +1907,7 @@ db.insert(db.countries.CH, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "Seat|Mii Electric": 2
 , "Opel|Ampera-e": 1
+, "other": 10
 });
 
 db.insert(db.countries.CH, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/09/ModellePW2020.xlsx",
@@ -1966,6 +1985,7 @@ db.insert(db.countries.CH, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 1
 , "Opel|Ampera-e": 1
 , "Kia|Soul EV": 1
+, "other": 15
 });
 
 db.insert(db.countries.CH, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/10/ModellePW2020.xlsx",
@@ -2046,6 +2066,7 @@ db.insert(db.countries.CH, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 1
 , "Peugeot|iOn": 1
 , "Mercedes-Benz|EQV": 1
+, "other": 28
 });
 
 
@@ -2129,6 +2150,7 @@ db.insert(db.countries.CH, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Peugeot|iOn": 1
 , "Mitsubishi|i-MiEV": 1
+, "other": 15
 });
 
 db.insert(db.countries.CH, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/12/ModellePW2020.xlsx",
@@ -2212,6 +2234,7 @@ db.insert(db.countries.CH, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 3
 , "Citroën|C-Zero": 3
 , "Mitsubishi|i-MiEV": 1
+, "other": 22
 });
 
 db.insert(db.countries.CH, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/01/ModellePW2020.xlsx",
@@ -2295,6 +2318,7 @@ db.insert(db.countries.CH, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Transporter": 1
 , "Peugeot|e-Traveller": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 45
 });
 
 db.insert(db.countries.CH, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/02/ModellePW2021.xlsx",
@@ -2379,6 +2403,7 @@ db.insert(db.countries.CH, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Citroën|ë-C4": 1
 , "Citroën|C-Zero": 1
+, "other": 5
 });
 
 db.insert(db.countries.CH, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/03/ModellePW2021.xlsx",
@@ -2465,6 +2490,7 @@ db.insert(db.countries.CH, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 3
 , "Smart|Forfour ED": 2
 , "Tesla|Model S": 1
+, "other": 7
 });
 
 db.insert(db.countries.CH, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/04/ModellePW2021.xlsx",
@@ -2556,6 +2582,7 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Mitsubishi|i-MiEV": 1
+, "other": 11
 });
 
 db.insert(db.countries.CH, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/05/ModellePW2021.xlsx",
@@ -2646,6 +2673,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 2
 , "DFSK|Seres 3": 1
 , "Aiways|U5": 1
+, "other": 10
 });
 
 db.insert(db.countries.CH, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/06/ModellePW2021.xlsx",
@@ -2736,6 +2764,7 @@ db.insert(db.countries.CH, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 2
 , "Peugeot|e-Traveller": 1
 , "Citroën|C-Zero": 1
+, "other": 9
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/07/ModellePW2021.xlsx",
@@ -2830,6 +2859,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 1
 , "Citroën|C-Zero": 1
 , "Aiways|U5": 1
+, "other": 18
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/08/ModellePW2021.xlsx",
@@ -2928,6 +2958,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 , "Mitsubishi|i-MiEV": 1
 , "Citroën|C-Zero": 1
+, "other": 9
 });
 
 db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/09/ModellePW2021.xlsx",
@@ -3025,6 +3056,7 @@ db.insert(db.countries.CH, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 1
 , "Mitsubishi|i-MiEV": 1
 , "Lexus|UX 300e": 1
+, "other": 11
 });
 
 db.insert(db.countries.CH, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/10/ModellePW2021.xlsx",
@@ -3123,6 +3155,7 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 1
 , "Dacia|Spring": 1
 , "BMW|iX": 1
+, "other": 19
 });
 
 db.insert(db.countries.CH, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/11/ModellePW2021.xlsx",
@@ -3220,7 +3253,7 @@ db.insert(db.countries.CH, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 3
 , "Opel|Zafira-e": 2
 , "Lexus|UX 300e": 2
-, "other": 5
+, "other": 16
 });
 
 db.insert(db.countries.CH, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/12/ModellePW2021.xlsx",
@@ -3318,7 +3351,7 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Opel|Zafira-e": 5
 , "Mazda|MX-30": 5
-, "other": 6
+, "other": 23
 });
 
 db.insert(db.countries.CH, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/01/ModellePW2021.xlsx",
@@ -3416,7 +3449,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Peugeot|e-Traveller": 2
-, "other": 4
+, "other": 31
 });
 
 db.insert(db.countries.CH, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/02/ModellePW2022.xlsx",
@@ -3511,7 +3544,7 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Volkswagen|e-Transporter": 2
 , "Mercedes-Benz|EQV": 2
-, "other": 6
+, "other": 58
 });
 
 db.insert(db.countries.CH, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/03/ModellePW2022.xlsx",
@@ -3609,7 +3642,7 @@ db.insert(db.countries.CH, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Renault|Megane E-Tech": 3
 , "Aiways|U5": 3
-, "other": 9
+, "other": 69
 });
 
 db.insert(db.countries.CH, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/04/ModellePW2022.xlsx",
@@ -3708,7 +3741,7 @@ db.insert(db.countries.CH, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Combo-e": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Aiways|U5": 6
-, "other": 22
+, "other": 127
 });
 
 db.insert(db.countries.CH, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/05/ModellePW2022.xlsx",
@@ -3808,7 +3841,7 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Transporter": 5
 , "Opel|Combo-e": 5
 , "Mercedes-Benz|EQV": 4
-, "other": 12
+, "other": 63
 });
 
 db.insert(db.countries.CH, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/06/ModellePW2022.xlsx",
@@ -3908,7 +3941,7 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 5
 , "Opel|Combo-e": 4
 , "Lexus|UX 300e": 3
-, "other": 10
+, "other": 75
 });
 
 db.insert(db.countries.CH, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/07/ModellePW2022.xlsx",
@@ -4007,7 +4040,7 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 10
 , "Opel|Combo-e": 7
 , "Aiways|U5": 6
-, "other": 19
+, "other": 128
 });
 
 db.insert(db.countries.CH, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/08/ModellePW2022.xlsx",
@@ -4106,7 +4139,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Aiways|U5": 5
-, "other": 17
+, "other": 66
 });
 
 db.insert(db.countries.CH, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/09/ModellePW2022.xlsx",
@@ -4206,7 +4239,7 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 4
 , "Volvo|XC40 Recharge pure electric": 3
 , "Peugeot|e-Rifter": 3
-, "other": 10
+, "other": 66
 });
 
 db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/10/ModellePW2022.xlsx",
@@ -4305,7 +4338,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 7
 , "Jaguar|I-Pace": 6
 , "Opel|Zafira-e": 5
-, "other": 26
+, "other": 130
 });
 
 db.insert(db.countries.CH, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/11/ModellePW2022.xlsx",
@@ -4405,7 +4438,7 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 6
 , "Mazda|MX-30": 5
 , "Peugeot|e-Rifter": 4
-, "other": 12
+, "other": 70
 });
 
 db.insert(db.countries.CH, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/12/ModellePW2022.xlsx",
@@ -4505,7 +4538,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 11
 , "BMW|i7": 8
 , "BMW|i3 BEV": 7
-, "other": 27
+, "other": 130
 });
 
 db.insert(db.countries.CH, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -4603,7 +4636,7 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 14
 , "Nissan|Ariya": 11
 , "Hyundai|Kona Electric": 11
-, "other": 61
+, "other": 226
 });
 
 db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/02/ModellePW2023-1.xlsx",
