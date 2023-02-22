@@ -874,6 +874,8 @@ var db = {
       const i = text.indexOf(keyword);
       if (i == -1)
         continue;
+      if (text.includes("not listed by name") && chartConfig.xProperty != this.xProperties.model)
+        continue;
       const sourceInfo = sources[text];
       var hint = "";
       if (this.isMultiCountry(chartConfig))
@@ -916,6 +918,10 @@ var db = {
           var hint = ""
           if (this.isMultiCountry(chartConfig))
             hint = hint + countryName + " ";
+          if (chartConfig.xProperty == this.xProperties.year)
+            hint = hint + "Year ";
+          else
+            hint = hint + "Quarter ";
           hint = hint + lastTimeSpan + " is incomplete.";
           hints.push(hint);
         }
