@@ -4658,7 +4658,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 1037
 });
 
-db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/1",
+db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Tesla|Model Y": 492
 , "Volvo|XC40 Recharge pure electric": 422
 , "Peugeot|e-208": 256
@@ -4708,5 +4708,5 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 25
 , "BMW|i7": 25
 , "Roewe|Ei5": 23
-, "other": 241
+, "other": 342
 });
