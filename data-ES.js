@@ -4589,7 +4589,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "other": 653
 });
 
-db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/1 (includes commercial vehicles)",
+db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Dacia|Spring": 282
 , "Tesla|Model Y": 233
 , "Fiat|500e": 231
@@ -4639,5 +4639,5 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 9
 , "Mercedes-Benz|EQS": 9
 , "Roewe|Ei5": 8
-, "other": 46
+, "other": 68
 });
