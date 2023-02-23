@@ -529,6 +529,8 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
         datalabels: {
           display: false,
           formatter: function(value, context) {
+            if (value === 0)
+              return "";
             return formatValue(chartConfig, value);
           }
         }
