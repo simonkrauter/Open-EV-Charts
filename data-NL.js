@@ -1932,11 +1932,11 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Alfa Romeo": 44
 , "Tesla": 37
 , "Subaru": 27
-, "Smart": 20
+, "Smart": 22
 , "Polestar": 17
 , "SsangYong": 4
 , "Maserati": 4
-, "other": 417
+, "other": 415
 });
 
 db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2020/7",
