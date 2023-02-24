@@ -920,7 +920,8 @@ function renderSources(chartConfig, chartDiv, chartData) {
         var part = parts[i];
         if (i > 0)
           li.appendChild(document.createTextNode(" "));
-        if (part.includes("://")) {
+        const protSep = part.search("://");
+        if (protSep != -1) {
           const link = document.createElement("A");
           li.appendChild(link);
           if (part.endsWith(",")) {
@@ -929,7 +930,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
           }
           link.href = part;
           link.target = "_blank";
-          link.appendChild(document.createTextNode(part));
+          link.appendChild(document.createTextNode(part.substr(protSep + 3)));
         } else {
           li.appendChild(document.createTextNode(part));
         }
