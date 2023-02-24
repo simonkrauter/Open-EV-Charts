@@ -2896,7 +2896,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Lexus": 41
 , "Maserati": 29
 , "DS Automobiles": 24
-, "Tesla": 17
+, "Tesla": 19
 , "Genesis": 18
 , "Smart": 17
 , "Dodge": 12
@@ -2904,7 +2904,7 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 8
 , "Chevrolet": 5
 , "SsangYong": 2
-, "other": 129
+, "other": 127
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/7 (includes commercial vehicles)",
