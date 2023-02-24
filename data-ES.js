@@ -3139,10 +3139,10 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "MG": 96
 , "Jaguar": 78
 , "DFSK": 21
-, "Tesla": 20
+, "Tesla": 22
 , "Maserati": 17
 , "Aiways": 1
-, "other": 124
+, "other": 122
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10 (includes commercial vehicles)",
