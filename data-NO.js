@@ -3329,10 +3329,10 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "BYD": 265
 , "Tesla": 229
 , "Nissan": 217
-, "Opel": 177
+, "Opel": 222
 , "Hongqi": 140
 , "Porsche": 114
-, "other": 1149
+, "other": 1104
 });
 
 db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2022",
@@ -3405,12 +3405,12 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 332
 , "Citroën": 291
 , "Suzuki": 239
-, "Opel": 221
+, "Opel": 256
 , "Nissan": 186
 , "Polestar": 168
 , "Porsche": 159
 , "Hongqi": 100
-, "other": 1115
+, "other": 1080
 });
 
 db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2021-2-2",
@@ -3485,8 +3485,8 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 101
 , "Porsche": 91
 , "Polestar": 74
-, "Tesla": 1
-, "other": 385
+, "Tesla": 38
+, "other": 348
 });
 
 db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2022",
@@ -3638,9 +3638,9 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 178
 , "Suzuki": 137
 , "BYD": 99
-, "Opel": 99
+, "Opel": 128
 , "Porsche": 79
-, "other": 974
+, "other": 945
 });
 
 db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2022",
@@ -3941,7 +3941,7 @@ db.insert(db.countries.NO, "2023-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 58
 , "Mercedes-Benz": 36
 , "Hyundai": 34
-, "Opel": 26
+, "Opel": 29
 , "Kia": 25
 , "MG": 25
 , "Lexus": 23
@@ -3952,7 +3952,7 @@ db.insert(db.countries.NO, "2023-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Ford": 9
 , "BYD": 8
 , "Porsche": 8
-, "other": 43
+, "other": 40
 });
 
 db.insert(db.countries.NO, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2023",
