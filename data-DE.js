@@ -4718,7 +4718,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 1113
 , "Mini|Cooper SE Electric": 1050
 , "Škoda|Enyaq": 1027
-, "Volkswagen|ID.4/ID.5": 1026
+, "Volkswagen|ID.4": 973
 , "Smart|Fortwo ED": 945
 , "Smart|Forfour ED": 849
 , "Audi|Q4 e-tron": 790
@@ -4758,8 +4758,8 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 61
 , "Peugeot|e-Rifter": 57
 , "Honda|e": 53
-, "Volvo|C40 Recharge": 52
-, "other": 556
+, "Volkswagen|ID.5": 53
+, "other": 608
 });
 
 db.insert(db.countries.DE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3",
@@ -4804,7 +4804,7 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2332
 });
 
-db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/05/19/mitsubishi-tops-ev-sales-in-germany-in-april/",
 { "Fiat|500e": 1827
 , "BMW|i3 BEV": 1180
 , "Hyundai|Kona Electric": 1117
@@ -4812,8 +4812,8 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 1007
 , "Smart|Fortwo ED": 947
 , "Opel|Corsa-e": 859
-, "Volkswagen|ID.4/ID.5": 814
 , "Renault|Zoe": 742
+, "Volkswagen|ID.4": 730
 , "Peugeot|e-208": 672
 , "Mercedes-Benz|EQB": 612
 , "Kia|Niro EV": 554
@@ -4850,12 +4850,12 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 116
 , "Honda|e": 112
 , "Volvo|XC40 Recharge pure electric": 94
+, "Volkswagen|ID.5": 84
 , "MG|Marvel R": 79
 , "Audi|other": 68
 , "Mazda|MX-30": 56
 , "Citroën|Berlingo Electric": 56
-, "Mercedes-Benz|eVito": 53
-, "other": 550
+, "other": 603
 });
 
 db.insert(db.countries.DE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3",
@@ -4900,10 +4900,10 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2190
 });
 
-db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/06/18/ford-tops-ev-sales-in-germany-in-may-yes-ford/",
 { "Opel|Corsa-e": 1889
-, "Volkswagen|ID.4/ID.5": 1849
 , "Fiat|500e": 1834
+, "Volkswagen|ID.4": 1665
 , "Volkswagen|ID.3": 1356
 , "Dacia|Spring": 1326
 , "Hyundai|Kona Electric": 1323
@@ -4936,6 +4936,7 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i4": 277
 , "Audi|e-tron GT": 227
 , "MG|ZS EV": 218
+, "Volkswagen|ID.5": 184
 , "Tesla|Model 3": 181
 , "Mercedes-Benz|EQS": 179
 , "Smart|Forfour ED": 140
@@ -4950,8 +4951,7 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Roewe|Ei5": 54
 , "Volvo|XC40 Recharge pure electric": 50
 , "Mercedes-Benz|eVito": 43
-, "MG|Marvel R": 38
-, "other": 539
+, "other": 577
 });
 
 db.insert(db.countries.DE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_06.xlsx?__blob=publicationFile&v=4",
@@ -4996,14 +4996,14 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2488
 });
 
-db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_06.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_06.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/07/23/26-of-new-car-sales-in-germany-have-a-plug-14-fully-electric/",
 { "Fiat|500e": 2973
 , "Tesla|Model Y": 2144
 , "Volkswagen|e-up!": 1765
 , "Volkswagen|ID.3": 1620
 , "Opel|Corsa-e": 1501
-, "Volkswagen|ID.4/ID.5": 1410
 , "Hyundai|Kona Electric": 1242
+, "Volkswagen|ID.4": 1200
 , "Škoda|Enyaq": 1144
 , "Renault|Zoe": 1095
 , "Mini|Cooper SE Electric": 1093
@@ -5033,6 +5033,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|ZS EV": 258
 , "Polestar|2": 239
 , "BMW|iX3": 227
+, "Volkswagen|ID.5": 210
 , "Audi|e-tron GT": 204
 , "Nissan|Leaf": 185
 , "Mercedes-Benz|EQS": 185
@@ -5046,8 +5047,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 55
 , "Mazda|MX-30": 53
 , "Opel|Combo-e": 44
-, "Honda|e": 44
-, "other": 675
+, "other": 719
 });
 
 db.insert(db.countries.DE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_07.xlsx?__blob=publicationFile&v=3",
@@ -5092,9 +5092,9 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 5426
 });
 
-db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_07.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_07.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/08/21/14-of-new-car-sales-in-germany-fully-electric-26-have-a-plug/",
 { "Fiat|500e": 2170
-, "Volkswagen|ID.4/ID.5": 1600
+, "Volkswagen|ID.4": 1440
 , "Opel|Corsa-e": 1406
 , "Volkswagen|ID.3": 1383
 , "Volkswagen|e-up!": 1297
@@ -5127,6 +5127,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQA": 183
 , "Smart|Fortwo ED": 172
 , "BMW|iX3": 167
+, "Volkswagen|ID.5": 160
 , "Mercedes-Benz|EQB": 158
 , "Hyundai|Ioniq Electric": 151
 , "Tesla|Model 3": 147
@@ -5141,9 +5142,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 67
 , "BMW|i7": 61
 , "MG|Marvel R": 59
-, "Opel|Zafira-e": 45
-, "Citroën|Berlingo Electric": 45
-, "other": 1002
+, "other": 1092
 });
 
 db.insert(db.countries.DE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_08.xlsx?__blob=publicationFile&v=2",
@@ -5188,13 +5187,13 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2106
 });
 
-db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_08.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_08.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/09/18/16-of-new-car-sales-in-germany-fully-electric-28-have-a-plug/",
 { "Tesla|Model Y": 4216
-, "Volkswagen|ID.4/ID.5": 1601
 , "Fiat|500e": 1527
 , "Volkswagen|ID.3": 1489
 , "Dacia|Spring": 1447
 , "Audi|Q4 e-tron": 1332
+, "Volkswagen|ID.4": 1301
 , "BMW|i3 BEV": 1262
 , "Cupra|Born": 1257
 , "Mini|Cooper SE Electric": 1110
@@ -5220,6 +5219,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQA": 356
 , "BMW|iX3": 343
 , "Nissan|Leaf": 326
+, "Volkswagen|ID.5": 300
 , "Mercedes-Benz|EQS": 297
 , "BMW|i4": 289
 , "Polestar|2": 237
@@ -5238,8 +5238,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "DS Automobiles|DS 3 Crossback E-Tense": 59
 , "Mazda|MX-30": 58
 , "Hyundai|other": 58
-, "Opel|Zafira-e": 49
-, "other": 587
+, "other": 636
 });
 
 db.insert(db.countries.DE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_09.xlsx?__blob=publicationFile&v=3",
@@ -5284,10 +5283,10 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1846
 });
 
-db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_09.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_09.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/10/16/19-of-new-car-sales-in-germany-fully-electric-32-have-a-plug/",
 { "Tesla|Model Y": 9846
 , "Tesla|Model 3": 3878
-, "Volkswagen|ID.4/ID.5": 2441
+, "Volkswagen|ID.4": 1941
 , "Fiat|500e": 1881
 , "Volkswagen|ID.3": 1686
 , "Hyundai|Ioniq 5": 1453
@@ -5309,6 +5308,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 571
 , "Mercedes-Benz|EQC": 537
 , "Mercedes-Benz|EQB": 536
+, "Volkswagen|ID.5": 500
 , "Peugeot|e-208": 489
 , "Ford|Mustang Mach-E": 439
 , "BMW|iX3": 425
@@ -5379,10 +5379,10 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1977
 });
 
-db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/11/19/ford-has-1-plugin-vehicle-in-germany-in-october/",
 { "Fiat|500e": 2363
 , "Volkswagen|ID.3": 2160
-, "Volkswagen|ID.4/ID.5": 2115
+, "Volkswagen|ID.4": 1701
 , "Tesla|Model Y": 1622
 , "Tesla|Model 3": 1563
 , "Opel|Mokka-e": 1531
@@ -5408,6 +5408,7 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 518
 , "Volvo|XC40 Recharge pure electric": 459
 , "MG|MG4 EV": 433
+, "Volkswagen|ID.5": 414
 , "BMW|i4": 403
 , "BMW|i3 BEV": 355
 , "Volvo|C40 Recharge": 347
@@ -5429,8 +5430,7 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C4": 161
 , "Audi|e-tron GT": 103
 , "DS Automobiles|DS 3 Crossback E-Tense": 69
-, "Kia|Soul EV": 61
-, "other": 721
+, "other": 782
 });
 
 db.insert(db.countries.DE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_11.xlsx?__blob=publicationFile&v=4",
@@ -5475,12 +5475,12 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2143
 });
 
-db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_11.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_11.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/12/30/open-the-floodgates-record-electric-car-sales-month-in-germany-22-of-new-cars-fully-electric-39-have-a-plug/",
 { "Tesla|Model 3": 6811
 , "Fiat|500e": 3904
 , "Tesla|Model Y": 3867
 , "Volkswagen|ID.3": 3619
-, "Volkswagen|ID.4/ID.5": 2871
+, "Volkswagen|ID.4": 2097
 , "Cupra|Born": 2089
 , "Dacia|Spring": 2035
 , "Opel|Mokka-e": 2031
@@ -5499,6 +5499,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 943
 , "Porsche|Taycan": 813
 , "Mercedes-Benz|EQB": 777
+, "Volkswagen|ID.5": 774
 , "Mercedes-Benz|EQC": 671
 , "Volvo|XC40 Recharge pure electric": 656
 , "Renault|Zoe": 646
@@ -5525,8 +5526,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 148
 , "BMW|i3 BEV": 148
 , "Mercedes-Benz|EQV": 118
-, "DS Automobiles|DS 3 Crossback E-Tense": 114
-, "other": 1516
+, "other": 1630
 });
 
 db.insert(db.countries.DE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_12.xlsx?__blob=publicationFile&v=3",
@@ -5571,12 +5571,12 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 6546
 });
 
-db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_12.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_12.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/01/20/31-of-new-vehicle-sales-plugin-sales-in-germany-in-2022/",
 { "Tesla|Model 3": 9566
 , "Tesla|Model Y": 7382
-, "Volkswagen|ID.4/ID.5": 7191
 , "Volkswagen|ID.3": 6865
 , "Fiat|500e": 6512
+, "Volkswagen|ID.4": 5193
 , "Opel|Corsa-e": 4112
 , "Dacia|Spring": 4058
 , "Cupra|Born": 3403
@@ -5588,6 +5588,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 2230
 , "Audi|Q4 e-tron": 2208
 , "Renault|Twingo Z.E.": 2119
+, "Volkswagen|ID.5": 1998
 , "Peugeot|e-208": 1904
 , "Smart|Fortwo ED": 1745
 , "Mini|Cooper SE Electric": 1607
@@ -5621,8 +5622,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 305
 , "Citroën|Berlingo Electric": 290
 , "Mercedes-Benz|EQS": 249
-, "Mercedes-Benz|EQV": 224
-, "other": 4871
+, "other": 5095
 });
 
 db.insert(db.countries.DE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_01.xlsx?__blob=publicationFile&v=2",
@@ -5668,15 +5668,16 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1841
 });
 
-db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_01.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_01.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/02/23/the-battle-for-germany-begins-tesla-leads-on-models-brand-volkswagen-group-1st-among-oems/",
 { "Tesla|Model Y": 3708
-, "Volkswagen|ID.4/ID.5": 1471
 , "Audi|Q8 e-tron": 1131
+, "Volkswagen|ID.4": 838
 , "Volkswagen|ID.3": 805
 , "Audi|Q4 e-tron": 738
 , "Škoda|Enyaq": 729
 , "Smart|Fortwo ED": 721
 , "Dacia|Spring": 669
+, "Volkswagen|ID.5": 633
 , "Porsche|Taycan": 534
 , "Mazda|MX-30": 499
 , "Hyundai|Ioniq 5": 403
@@ -5718,6 +5719,5 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C4": 54
 , "Tesla|Model X": 48
 , "BYD|Yuan Plus": 48
-, "Roewe|Ei5": 44
-, "other": 485
+, "other": 529
 });
