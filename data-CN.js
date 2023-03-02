@@ -1373,3 +1373,22 @@ db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|ID.4": 8733
 , "other": 240615
 });
+
+db.insert(db.countries.CN, "2023-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2026.html TODO: numbers per brand wanted",
+{ "other": 1469000
+});
+
+db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/03/02/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january-2/",
+{ "BYD|Yuan Plus": 18142
+, "BYD|Dolphin": 17289
+, "Wuling|Hongguang Mini EV": 16416
+, "Tesla|Model Y": 14184
+, "Tesla|Model 3": 12569
+, "BYD|Seal": 6618
+, "Nio|ET5": 5795
+, "GAC|Aion S": 5091
+, "GAC|Aion Y": 4792
+, "Changan|Lumin": 4711
+, "Changan|Benni EV": 4683
+, "other": 139440
+});
