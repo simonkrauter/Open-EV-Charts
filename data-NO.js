@@ -4001,6 +4001,84 @@ db.insert(db.countries.NO, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 71
 });
 
+db.insert(db.countries.NO, "2023-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2023",
+{ "Tesla": 1551
+, "Volkswagen": 1326
+, "Toyota": 1027
+, "Volvo": 701
+, "Škoda": 358
+, "Audi": 299
+, "Peugeot": 291
+, "Hyundai": 251
+, "Mercedes-Benz": 237
+, "BMW": 213
+, "Ford": 172
+, "Nissan": 153
+, "MG": 145
+, "Lexus": 116
+, "Opel": 110
+, "Polestar": 104
+, "Citroën": 49
+, "Kia": 43
+, "Suzuki": 39
+, "Mazda": 36
+, "other": 218
+});
+
+db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/2 (includes commercial vehicles)",
+{ "Tesla|Model Y": 1269
+, "Toyota|bZ4X": 543
+, "Volkswagen|ID.3": 530
+, "Volkswagen|ID.4": 478
+, "Volvo|XC40 Recharge pure electric": 383
+, "Tesla|Model 3": 272
+, "Škoda|Enyaq": 264
+, "Peugeot|e-2008": 228
+, "Audi|Q4 e-tron": 190
+, "Hyundai|Kona Electric": 126
+, "Volvo|C40 Recharge": 125
+, "Hyundai|Ioniq 5": 111
+, "Polestar|2": 104
+, "Nissan|Leaf": 94
+, "Audi|Q8 e-tron": 89
+, "Volkswagen|ID.5": 85
+, "BMW|iX1": 84
+, "Mercedes-Benz|EQA": 84
+, "Opel|Mokka-e": 71
+, "MG|Marvel R": 70
+, "Ford|Mustang Mach-E": 68
+, "Lexus|UX 300e": 54
+, "BMW|i4": 51
+, "Nissan|Ariya": 51
+, "Mercedes-Benz|EQB": 50
+, "MG|MG4 EV": 47
+, "Mercedes-Benz|EQS": 39
+, "Peugeot|e-208": 28
+, "Cupra|Born": 24
+, "Nio|ES7": 23
+, "Fiat|500e": 22
+, "Renault|Megane E-Tech": 22
+, "BMW|iX3": 21
+, "MG|ZS EV": 20
+, "Opel|Corsa-e": 20
+, "Kia|Niro EV": 17
+, "BYD|Yuan Plus": 14
+, "Citroën|ë-C4": 14
+, "Jaguar|I-Pace": 14
+, "BMW|iX": 13
+, "Hyundai|Ioniq 6": 12
+, "Mini|Cooper SE Electric": 12
+, "BYD|Han EV": 11
+, "Porsche|Taycan": 11
+, "Mazda|MX-30": 10
+, "Opel|Combo-e": 10
+, "Mercedes-Benz|EQC": 9
+, "Maxus|Euniq 6": 7
+, "Roewe|Ei5": 7
+, "other": 282
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
