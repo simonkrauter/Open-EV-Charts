@@ -1481,11 +1481,11 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 13
 , "Citroën|ë-C4": 10
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
-, "Opel|Zafira-e": 3
-, "Mercedes-Benz|EQC": 3
 , "Mazda|MX-30": 3
+, "Mercedes-Benz|EQC": 3
+, "Opel|Zafira-e": 3
 , "Subaru|Solterra": 2
-, "Tesla|Model 3": 1
-, "Opel|Corsa-e": 1
 , "Honda|e": 1
+, "Opel|Corsa-e": 1
+, "Tesla|Model 3": 1
 });
