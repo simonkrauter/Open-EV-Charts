@@ -122,5 +122,9 @@ var companyGroups = {
   "Dongfeng Motor":
     [ "Dongfeng"
     , "DFSK"
+    ],
+  "GAC Group":
+    [ "Aion"
+    , "Trumpchi"
     ]
 };
