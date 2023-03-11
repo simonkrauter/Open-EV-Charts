@@ -113,7 +113,8 @@ var companyGroups = {
     , "Land Rover"
     ],
   "SAIC Motor":
-    [ "Maxus"
+    [ "Baojun"
+    , "Maxus"
     , "MG"
     , "Roewe"
     , "SAIC"
