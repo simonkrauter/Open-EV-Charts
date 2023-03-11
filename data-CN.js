@@ -528,7 +528,7 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 1484
 , "BAIC|EX-Series": 756
 , "JAC|iEV E-Series": 269
-, "SAIC|MG eZS EV": 4714
+, "MG|ZS EV": 4714
 , "other": 50699
 });
 
@@ -544,7 +544,7 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 1966
 , "BYD|Qin EV": 1690
 , "Nio|ES6": 1493
-, "SAIC|MG eZS EV": 1429
+, "MG|ZS EV": 1429
 , "Baojun|E-Series": 1417
 , "Ora|R1": 1295
 , "GAC Toyota|Leahead iA5": 1236
@@ -567,7 +567,7 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 979
 , "Besturn|B30 EV": 371
 , "Nio|ES6": 671
-, "SAIC|MG eZS EV": 334
+, "MG|ZS EV": 334
 , "Baojun|E-Series": 335
 , "BYD|Yuan EV": 505
 , "Weltmeister|EX5": 567
@@ -587,7 +587,7 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Qin Pro EV": 5271
 , "BAIC|EU-Series": 4450
 , "GAC|Aion S": 2957
-, "SAIC|MG eZS EV": 2531
+, "MG|ZS EV": 2531
 , "Roewe|Ei5": 804
 , "BYD|Yuan EV": 2009
 , "Nio|ES6": 1479
@@ -616,7 +616,7 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Roewe|Ei5": 450
 , "Chery|eQ": 2299
 , "Ora|R1": 1760
-, "SAIC|MG eZS EV": 24
+, "MG|ZS EV": 24
 , "Weltmeister|EX5": 1388
 , "BYD|e2": 1322
 , "Xpeng|G3": 1008
@@ -641,7 +641,7 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 1421
 , "BYD|e2": 1461
 , "Buick|Velite 6": 3526
-, "SAIC|MG eZS EV": 156
+, "MG|ZS EV": 156
 , "Xpeng|G3": 954
 , "Hozon|Neta N01": 984
 , "other": 13853
@@ -665,7 +665,7 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 1517
 , "Buick|Velite 6": 792
 , "Roewe|Ei5": 168
-, "SAIC|MG eZS EV": 1016
+, "MG|ZS EV": 1016
 , "BYD|Song Pro EV": 1086
 , "other": 24988
 });
@@ -687,7 +687,7 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 1984
 , "Wuling|Hongguang Mini EV": 7348
 , "BYD|e2": 1534
-, "SAIC|MG eZS EV": 1752
+, "MG|ZS EV": 1752
 , "Buick|Velite 6": 521
 , "Roewe|Ei5": 410
 , "BYD|Song Pro EV": 1198
@@ -711,7 +711,7 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Yuan EV": 1015
 , "Weltmeister|EX5": 2042
 , "BYD|e2": 1557
-, "SAIC|MG eZS EV": 1927
+, "MG|ZS EV": 1927
 , "Buick|Velite 6": 304
 , "BYD|Song Pro EV": 849
 , "Roewe|Ei5": 23
@@ -732,7 +732,7 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Han EV": 3624
 , "BYD|Qin Pro EV": 3474
 , "Nio|ES6": 3226
-, "SAIC|MG eZS EV": 2793
+, "MG|ZS EV": 2793
 , "Xpeng|P7": 2573
 , "BAIC|EU-Series": 2195
 , "GAC|Aion V": 2183
@@ -754,7 +754,7 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|Han EV": 5055
 , "Chery|eQ": 4745
 , "GAC|Aion S": 4630
-, "SAIC|MG eZS EV": 3796
+, "MG|ZS EV": 3796
 , "BYD|Qin Pro EV": 3526
 , "Roewe|Clever EV": 3054
 , "Weltmeister|EX5": 3003
@@ -780,7 +780,7 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "GAC|Aion S": 5084
 , "BAIC|EU-Series": 4408
 , "BYD|Qin Pro EV": 4081
-, "SAIC|MG eZS EV": 3922
+, "MG|ZS EV": 3922
 , "Weltmeister|EX5": 3018
 , "Changan|Eado EV": 2741
 , "Xpeng|P7": 2732
@@ -802,7 +802,7 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Baojun|E-Series": 8992
 , "Chery|eQ": 7074
 , "GAC|Aion S": 5397
-, "SAIC|MG eZS EV": 4303
+, "MG|ZS EV": 4303
 , "BYD|Qin Pro EV": 3713
 , "Xpeng|P7": 3691
 , "Leapmotor|T03": 2983

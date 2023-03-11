@@ -117,7 +117,6 @@ var companyGroups = {
     , "Maxus"
     , "MG"
     , "Roewe"
-    , "SAIC"
     , "Wuling"
     ],
   "Dongfeng Motor":
