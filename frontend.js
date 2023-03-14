@@ -755,6 +755,8 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     row.appendChild(cell);
   }
 
+  const maxBarWidth = Math.min(300, window.innerWidth - 180);
+
   // Table body
   for (const i in chartData.categories) {
     const category = chartData.categories[i];
@@ -778,7 +780,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
       const barDiv = document.createElement("DIV");
       cell.appendChild(barDiv);
       barDiv.classList.add("horizontalBar");
-      const width = chartData.series[0].data[i] / horizontalBarMaxValue * 300;
+      const width = chartData.series[0].data[i] / horizontalBarMaxValue * maxBarWidth;
       barDiv.style.width = width + "px";
       row.appendChild(cell);
     }
