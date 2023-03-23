@@ -403,7 +403,7 @@ var db = {
     param.name = "brand";
     param.options = {};
     param.options[this.brandOptions.all] = "All Brands";
-    if (chartConfig == null || (![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)))
+    if (chartConfig == null || (![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)))
       param.options[this.brandOptions.combine] = "Combine Brands";
     if (chartConfig == null || ![this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty)) {
       for (const i in this.brands) {
