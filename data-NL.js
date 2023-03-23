@@ -2569,14 +2569,14 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 71
 , "Honda": 62
 , "MG": 57
-, "Smart": 39
+, "Smart": 43
 , "DS Automobiles": 31
 , "Jaguar": 24
 , "Cupra": 11
 , "Subaru": 5
 , "Alfa Romeo": 4
 , "Maserati": 2
-, "other": 351
+, "other": 347
 });
 
 db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/3",
