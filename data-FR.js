@@ -4285,3 +4285,56 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 282
 , "other": 5256
 });
+
+db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/03/2023-02-vp-france.pdf",
+{ "Peugeot": 20057
+, "Renault": 18478
+, "Dacia": 11900
+, "Citroën": 9136
+, "Volkswagen": 8521
+, "Toyota": 8312
+, "Ford": 3974
+, "Hyundai": 3828
+, "BMW": 3697
+, "Audi": 3691
+, "Kia": 3428
+, "Tesla": 3376
+, "Mercedes-Benz": 3351
+, "Opel": 3266
+, "Nissan": 2944
+, "Škoda": 2935
+, "Fiat": 2454
+, "DS Automobiles": 2035
+, "Mini": 1806
+, "Seat": 1529
+, "MG": 1472
+, "Suzuki": 1233
+, "Volvo": 1076
+, "Cupra": 646
+, "Mazda": 538
+, "Land Rover": 428
+, "Jeep": 390
+, "Alfa Romeo": 278
+, "Honda": 246
+, "Lexus": 238
+, "Porsche": 232
+, "Mitsubishi": 210
+, "Smart": 65
+, "Jaguar": 62
+, "Maserati": 11
+, "other": 393
+});
+
+db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/03/Barometre-immatriculations-Avere-France-fevrier-2023.pdf",
+{ "Dacia|Spring": 2872
+, "Tesla|Model Y": 2485
+, "Peugeot|e-208": 2092
+, "Fiat|500e": 1919
+, "Renault|Megane E-Tech": 1069
+, "MG|MG4 EV": 1004
+, "Tesla|Model 3": 872
+, "Renault|Zoe": 795
+, "Renault|Twingo Z.E.": 779
+, "Hyundai|Kona Electric": 522
+, "other": 5186
+});
