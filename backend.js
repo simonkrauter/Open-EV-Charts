@@ -395,7 +395,7 @@ var db = {
     }
     param.defaultOption = this.timeSpanOptions.last2y;
     param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
-    param.showAsFilter = true;
+    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.year;
     result[param.name] = param;
 
     // brand
