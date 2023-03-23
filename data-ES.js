@@ -4437,7 +4437,7 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 18
 , "Aiways|U5": 17
 , "Volvo|C40 Recharge": 17
-, "DS Automobiles|DS 3 Crossback E-Tense": 12
+, "DS Automobiles|DS 3 Crossback E-Tense": 13
 , "Opel|Combo-e": 12
 , "Renault|Twingo Z.E.": 12
 , "BMW|i7": 10
@@ -4500,8 +4500,8 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 176
 , "Volkswagen|ID.4": 152
 , "MG|MG4 EV": 118
+, "Citroën|ë-C4": 115
 , "Dacia|Spring": 105
-, "Citroën|ë-C4": 103
 , "Renault|Megane E-Tech": 97
 , "Opel|Corsa-e": 89
 , "Cupra|Born": 85
@@ -4593,13 +4593,13 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 { "Dacia|Spring": 282
 , "Tesla|Model Y": 233
 , "Fiat|500e": 231
+, "Citroën|ë-C4": 169
 , "Ford|Mustang Mach-E": 164
 , "MG|MG4 EV": 130
 , "Volvo|XC40 Recharge pure electric": 121
 , "Cupra|Born": 109
-, "Citroën|ë-C4": 104
 , "Peugeot|e-2008": 101
-, "Opel|Corsa-e": 99
+, "Opel|Corsa-e": 100
 , "Peugeot|e-Rifter": 89
 , "Tesla|Model 3": 84
 , "Mini|Cooper SE Electric": 83
@@ -4638,6 +4638,6 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 12
 , "Mercedes-Benz|EQS": 9
 , "Volkswagen|ID.3": 9
+, "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "Roewe|Ei5": 8
-, "other": 68
 });
