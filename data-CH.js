@@ -4038,9 +4038,10 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 10
 , "Mercedes-Benz|EQV": 10
 , "Opel|Zafira-e": 10
+, "Subaru|Solterra": 8
+, "Genesis|G80": 7
 , "Opel|Combo-e": 7
-, "Aiways|U5": 6
-, "other": 128
+, "other": 119
 });
 
 db.insert(db.countries.CH, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/08/ModellePW2022.xlsx",
@@ -4234,12 +4235,12 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 7
 , "Peugeot|e-2008": 7
 , "Genesis|GV60": 6
+, "Genesis|GV70": 6
 , "Nissan|Leaf": 6
 , "Kia|Soul EV": 5
 , "Audi|e-tron GT": 4
-, "Peugeot|e-Rifter": 3
-, "Volvo|XC40 Recharge pure electric": 3
-, "other": 66
+, "Genesis|G80": 4
+, "other": 62
 });
 
 db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/10/ModellePW2022.xlsx",
@@ -4330,6 +4331,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 14
 , "Genesis|GV60": 12
 , "Smart|Fortwo ED": 11
+, "Genesis|GV70": 10
 , "Nissan|Leaf": 10
 , "Opel|Corsa-e": 9
 , "Porsche|Taycan": 9
@@ -4338,7 +4340,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 7
 , "Jaguar|I-Pace": 6
 , "Opel|Zafira-e": 5
-, "other": 130
+, "other": 120
 });
 
 db.insert(db.countries.CH, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/11/ModellePW2022.xlsx",
@@ -4431,14 +4433,14 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 12
 , "BMW|i3 BEV": 11
 , "Volkswagen|e-up!": 10
+, "Genesis|GV70": 9
 , "Peugeot|e-2008": 8
 , "Jaguar|I-Pace": 7
 , "Opel|Combo-e": 7
 , "Opel|Corsa-e": 7
 , "Tesla|Model 3": 6
 , "Mazda|MX-30": 5
-, "Peugeot|e-Rifter": 4
-, "other": 70
+, "other": 65
 });
 
 db.insert(db.countries.CH, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2022/12/ModellePW2022.xlsx",
@@ -4633,10 +4635,11 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 18
 , "Opel|Zafira-e": 17
 , "Fiat|E-Doblò": 15
+, "Genesis|GV70": 14
 , "Toyota|bZ4X": 14
 , "Hyundai|Kona Electric": 11
 , "Nissan|Ariya": 11
-, "other": 226
+, "other": 212
 });
 
 db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/02/ModellePW2023-1.xlsx",
@@ -4719,12 +4722,14 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 17
 , "Mercedes-Benz|EQB": 15
 , "BMW|iX1": 14
+, "Genesis|G80": 14
 , "Mini|Cooper SE Electric": 14
 , "Subaru|Solterra": 14
 , "Volkswagen|e-up!": 14
 , "Smart|Fortwo ED": 13
 , "Volvo|XC40 Recharge pure electric": 13
 , "Genesis|GV60": 12
+, "Genesis|GV70": 11
 , "Nissan|Ariya": 11
 , "Kia|EV6": 10
 , "Tesla|Model X": 10
@@ -4732,5 +4737,5 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 8
 , "Opel|Corsa-e": 8
 , "Tesla|Model 3": 7
-, "other": 35
+, "other": 68
 });
