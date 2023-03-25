@@ -1695,7 +1695,7 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 7175
 });
 
-db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1",
+db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Škoda|Enyaq": 189
 , "Volkswagen|ID.4": 174
 , "Volvo|XC40 Recharge pure electric": 140
