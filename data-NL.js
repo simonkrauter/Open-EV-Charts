@@ -4710,3 +4710,100 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Roewe|Ei5": 23
 , "other": 342
 });
+
+db.insert(db.countries.NL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/februari/",
+{ "Kia": 2295
+, "Hyundai": 1975
+, "Volkswagen": 1820
+, "Ford": 1785
+, "Toyota": 1742
+, "Renault": 1709
+, "Peugeot": 1642
+, "Opel": 1512
+, "Volvo": 1475
+, "BMW": 1255
+, "Škoda": 1160
+, "Mercedes-Benz": 1041
+, "Mazda": 943
+, "Audi": 905
+, "Tesla": 725
+, "Nissan": 708
+, "Citroën": 571
+, "Dacia": 532
+, "Seat": 506
+, "Suzuki": 364
+, "Fiat": 334
+, "MG": 327
+, "Mitsubishi": 325
+, "Mini": 274
+, "Land Rover": 193
+, "Porsche": 169
+, "Cupra": 110
+, "Polestar": 88
+, "BYD": 85
+, "Jeep": 72
+, "DS Automobiles": 55
+, "Honda": 42
+, "Lexus": 29
+, "Jaguar": 17
+, "Alfa Romeo": 16
+, "Hongqi": 11
+, "Smart": 4
+, "Maserati": 2
+, "SsangYong": 2
+, "Subaru": 2
+, "other": 1306
+});
+
+db.insert(db.countries.NL, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/2",
+{ "Tesla|Model Y": 658
+, "Volvo|XC40 Recharge pure electric": 520
+, "Renault|Megane E-Tech": 386
+, "Škoda|Enyaq": 366
+, "Peugeot|e-208": 319
+, "Volkswagen|ID.3": 318
+, "Hyundai|Ioniq 5": 253
+, "Audi|Q4 e-tron": 229
+, "Kia|EV6": 229
+, "Peugeot|e-2008": 228
+, "Kia|Niro EV": 206
+, "Opel|Mokka-e": 195
+, "Opel|Corsa-e": 191
+, "Volkswagen|ID.4": 186
+, "Volvo|C40 Recharge": 180
+, "Fiat|500e": 167
+, "Hyundai|Kona Electric": 157
+, "BMW|i4": 155
+, "BMW|iX3": 146
+, "BMW|iX1": 132
+, "MG|MG4 EV": 115
+, "Dacia|Spring": 103
+, "Polestar|2": 87
+, "BYD|Yuan Plus": 86
+, "Mercedes-Benz|EQA": 79
+, "Renault|Zoe": 71
+, "Mercedes-Benz|EQB": 70
+, "MG|ZS EV": 68
+, "Mini|Cooper SE Electric": 67
+, "Cupra|Born": 64
+, "Mercedes-Benz|EQE": 63
+, "Porsche|Taycan": 60
+, "Hyundai|Ioniq 6": 58
+, "Renault|Twingo Z.E.": 57
+, "Roewe|Ei5": 47
+, "Audi|Q8 e-tron": 45
+, "Tesla|Model 3": 45
+, "Nissan|Leaf": 44
+, "Citroën|ë-C4": 40
+, "Mercedes-Benz|EQS": 37
+, "Volkswagen|ID.5": 35
+, "BMW|iX": 28
+, "Nissan|Ariya": 27
+, "MG|Marvel R": 24
+, "Mercedes-Benz|eVito": 24
+, "Mercedes-Benz|EQC": 22
+, "Volkswagen|ID. Buzz": 22
+, "Mercedes-Benz|EQV": 19
+, "Ford|Mustang Mach-E": 17
+, "other": 147
+});
