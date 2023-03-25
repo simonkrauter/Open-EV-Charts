@@ -2200,11 +2200,12 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 15
 , "Kia|Soul EV": 12
 , "Hyundai|Kona Electric": 11
+, "BMW|i7": 10
 , "Ora|Good Cat": 10
 , "BYD|Yuan Plus": 9
 , "BYD|Han EV": 8
 , "Mercedes-Benz|EQS SUV": 8
 , "Mercedes-Benz|EQV": 8
 , "Mercedes-Benz|eSprinter": 8
-, "other": 185
+, "other": 175
 });
