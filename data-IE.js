@@ -1383,6 +1383,7 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 5
 , "Audi|Q8 e-tron": 4
 , "BMW|i4": 4
+, "BMW|i7": 4
 , "MG|ZS EV": 3
 , "Mercedes-Benz|EQE": 3
 , "BMW|iX3": 2
@@ -1400,7 +1401,7 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 1
 , "Peugeot|e-Rifter": 1
 , "Volvo|XC40 Recharge pure electric": 1
-, "other": 5
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf TODO: numbers per brand wanted",
@@ -1417,6 +1418,7 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 3
 , "Renault|Megane E-Tech": 3
 , "BMW|i4": 2
+, "BMW|i7": 2
 , "Ford|Mustang Mach-E": 2
 , "Nissan|Leaf": 2
 , "Ora|Good Cat": 2
@@ -1433,7 +1435,6 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 , "Volkswagen|ID.5": 1
 , "Volvo|C40 Recharge": 1
-, "other": 2
 });
 
 db.insert(db.countries.IE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
