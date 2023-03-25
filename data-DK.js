@@ -1626,7 +1626,7 @@ db.insert(db.countries.DK, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 10403
 });
 
-db.insert(db.countries.DK, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
+db.insert(db.countries.DK, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/1",
 { "Tesla|Model Y": 481
 , "Volkswagen|ID.4": 169
 , "Nissan|Ariya": 163
