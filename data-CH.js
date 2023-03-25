@@ -4739,3 +4739,102 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 7
 , "other": 68
 });
+
+db.insert(db.countries.CH, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/03/ModellePW2023.xlsx",
+{ "Volkswagen": 1870
+, "Audi": 1524
+, "Škoda": 1507
+, "Mercedes-Benz": 1456
+, "BMW": 1393
+, "Toyota": 1006
+, "Seat": 949
+, "Ford": 866
+, "Dacia": 739
+, "Volvo": 646
+, "Renault": 539
+, "Hyundai": 475
+, "Kia": 460
+, "Peugeot": 401
+, "Porsche": 399
+, "Fiat": 251
+, "Jeep": 249
+, "Mazda": 244
+, "Mini": 244
+, "Suzuki": 233
+, "Opel": 231
+, "Honda": 204
+, "Citroën": 195
+, "Tesla": 195
+, "Land Rover": 144
+, "Nissan": 135
+, "Mitsubishi": 92
+, "Subaru": 89
+, "Alfa Romeo": 53
+, "Polestar": 51
+, "DS Automobiles": 44
+, "Jaguar": 37
+, "Maserati": 37
+, "Genesis": 35
+, "Lexus": 33
+, "Smart": 15
+, "SsangYong": 15
+, "Aiways": 7
+, "Chevrolet": 6
+, "Cadillac": 5
+, "Chrysler": 1
+, "other": 123
+});
+
+db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/2 (includes commercial vehicles)",
+{ "Volvo|XC40 Recharge pure electric": 269
+, "Audi|Q4 e-tron": 264
+, "Škoda|Enyaq": 201
+, "Tesla|Model Y": 190
+, "Volkswagen|ID.3": 171
+, "Fiat|500e": 135
+, "Cupra|Born": 112
+, "Hyundai|Ioniq 5": 110
+, "Mercedes-Benz|EQA": 97
+, "Volkswagen|ID.4": 82
+, "Volvo|C40 Recharge": 58
+, "Peugeot|e-208": 56
+, "Renault|Megane E-Tech": 53
+, "Polestar|2": 51
+, "BMW|iX1": 41
+, "BMW|i4": 40
+, "Dacia|Spring": 38
+, "Volkswagen|ID.5": 38
+, "Porsche|Taycan": 36
+, "Renault|Zoe": 36
+, "Ford|Mustang Mach-E": 35
+, "Opel|Mokka-e": 33
+, "Mini|Cooper SE Electric": 24
+, "Toyota|bZ4X": 23
+, "Kia|EV6": 22
+, "Citroën|ë-C4": 21
+, "Opel|Combo-e": 20
+, "BMW|iX3": 18
+, "Mercedes-Benz|EQC": 18
+, "Audi|Q8 e-tron": 17
+, "BMW|iX": 17
+, "Mercedes-Benz|EQB": 15
+, "Subaru|Solterra": 15
+, "Kia|Niro EV": 14
+, "Mercedes-Benz|EQS": 14
+, "Opel|Corsa-e": 14
+, "Renault|Twingo Z.E.": 14
+, "Smart|Fortwo ED": 14
+, "Volkswagen|e-up!": 14
+, "Mercedes-Benz|EQV": 13
+, "Genesis|GV60": 12
+, "Peugeot|e-2008": 11
+, "Nissan|Ariya": 10
+, "Genesis|GV70": 9
+, "Mercedes-Benz|EQE": 8
+, "Aiways|U5": 7
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "Nissan|Leaf": 7
+, "Audi|e-tron GT": 6
+, "Honda|e": 6
+, "other": 62
+});
