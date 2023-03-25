@@ -2209,3 +2209,60 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eSprinter": 8
 , "other": 175
 });
+
+db.insert(db.countries.SE, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/press#/pressreleases/antalet-nyregistrerade-personbilar-minskade-i-februari-3237010 TODO: numbers per brand wanted",
+{ "other": 19040
+});
+
+db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2023/2, https://www.trafa.se/press#/pressreleases/antalet-nyregistrerade-personbilar-minskade-i-februari-3237010",
+{ "Volvo|XC40 Recharge pure electric": 795
+, "Volkswagen|ID.4": 717
+, "Tesla|Model Y": 309
+, "Kia|EV6": 301
+, "Kia|Niro EV": 252
+, "Škoda|Enyaq": 249
+, "Volkswagen|ID.3": 225
+, "Roewe|Ei5": 219
+, "Polestar|2": 204
+, "Tesla|Model 3": 197
+, "Volvo|C40 Recharge": 187
+, "Audi|Q4 e-tron": 186
+, "BMW|i4": 152
+, "Peugeot|e-208": 152
+, "BMW|iX3": 123
+, "BMW|iX1": 121
+, "Mercedes-Benz|EQE": 116
+, "Hyundai|Ioniq 5": 113
+, "BYD|Yuan Plus": 111
+, "MG|MG4 EV": 105
+, "Peugeot|e-2008": 99
+, "MG|ZS EV": 97
+, "Nissan|Leaf": 86
+, "Volkswagen|ID.5": 84
+, "Volkswagen|ID. Buzz": 82
+, "Cupra|Born": 81
+, "Toyota|Proace Electric": 75
+, "Mini|Cooper SE Electric": 66
+, "Mercedes-Benz|EQB": 64
+, "Renault|Kangoo Z.E.": 64
+, "Audi|Q8 e-tron": 60
+, "Renault|Megane E-Tech": 54
+, "Mazda|MX-30": 52
+, "Porsche|Taycan": 51
+, "BMW|iX": 46
+, "Opel|Mokka-e": 43
+, "Mercedes-Benz|EQA": 42
+, "MG|Marvel R": 37
+, "Ford|E-Transit": 28
+, "Nissan|Ariya": 23
+, "Peugeot|e-Expert": 21
+, "BYD|Han EV": 20
+, "Maxus|Euniq 6": 18
+, "Subaru|Solterra": 18
+, "Fiat|500e": 17
+, "Ford|Mustang Mach-E": 15
+, "Kia|Soul EV": 15
+, "Nissan|Townstar EV": 15
+, "Renault|Zoe": 15
+, "Citroën|ë-C4": 14
+});
