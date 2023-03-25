@@ -2985,13 +2985,13 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 4
 , "MG|ZS EV": 3
 , "Mercedes-Benz|EQV": 3
+, "JAC|iEV7 S/E": 2
 , "Smart|Fortwo ED": 2
 , "Honda|e": 1
-, "JAC|iEV7 S/E": 1
 , "Lexus|UX 300e": 1
 , "Peugeot|e-Expert": 1
 , "Škoda|Citigo-e": 1
-, "other": 90
+, "other": 89
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/augustus/",
@@ -4214,6 +4214,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 34
 , "Opel|Vivaro-e": 32
 , "Volvo|C40 Recharge": 24
+, "Fiat|E-Ducato": 20
 , "Fiat|E-Ulysse": 19
 , "Kia|Soul EV": 13
 , "MG|Marvel R": 9
@@ -4222,8 +4223,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Toyota|Proace Electric": 8
 , "BMW|i3 BEV": 6
-, "Audi|e-tron GT": 5
-, "other": 48
+, "other": 33
 });
 
 db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/september/",
@@ -4316,10 +4316,10 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 14
 , "BYD|Tang": 11
 , "Porsche|Taycan": 10
+, "Fiat|E-Ducato": 9
 , "Roewe|Ei5": 9
 , "Audi|e-tron GT": 8
-, "Peugeot|e-Expert": 7
-, "other": 69
+, "other": 67
 });
 
 db.insert(db.countries.NL, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/oktober/",
