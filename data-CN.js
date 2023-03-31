@@ -1392,3 +1392,28 @@ db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 4683
 , "other": 139440
 });
+
+db.insert(db.countries.CN, "2023-02", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2025.html TODO: numbers per brand wanted",
+{ "other": 1653000
+});
+
+db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/03/29/33-plugin-vehicle-market-share-in-china-february-2023-sales-report/",
+{ "Wuling|Hongguang Mini EV": 30267
+, "Tesla|Model Y": 25526
+, "BYD|Dolphin": 22682
+, "BYD|Yuan Plus": 20279
+, "Aion|S": 16827
+, "Aion|Y": 12996
+, "Changan|Lumin": 9105
+, "BYD|Qin Pro EV": 8434
+, "Tesla|Model 3": 8397
+, "BYD|Seal": 7754
+, "BYD|Song Pro EV": 7222
+, "Geely|Panda Mini EV": 6661
+, "Nio|ET5": 6471
+, "BYD|Han EV": 5622
+, "Hozon|Neta V": 5013
+, "BYD|Tang EV": 1246
+, "Denza|D9 EV": 310
+, "other": 168848
+});
