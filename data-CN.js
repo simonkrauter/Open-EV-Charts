@@ -832,7 +832,7 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nio|ES6": 2720
 , "Xpeng|G3": 2305
 , "Ora|White Cat": 2089
-, "Hozon|Neta V EV": 2076
+, "Hozon|Neta V": 2076
 , "Weltmeister|EX5": 2014
 , "Nio|ES8": 1660
 , "other": 37462
@@ -852,7 +852,7 @@ db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Aion|S": 2724
 , "Nio|ES6": 2252
 , "Nio|EC6": 2038
-, "Hozon|Neta V EV": 2002
+, "Hozon|Neta V": 2002
 , "Nio|ES8": 1600
 , "Ora|Good Cat": 1534
 , "Xpeng|P7": 1409
@@ -876,7 +876,7 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 4708
 , "Changan|Benni EV": 4076
 , "BMW|iX3": 3519
-, "Hozon|Neta V EV": 3206
+, "Hozon|Neta V": 3206
 , "Nio|ES6": 3164
 , "Xpeng|P7": 2855
 , "Leapmotor|T03": 2827
@@ -900,7 +900,7 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 4917
 , "Ora|Black Cat": 4613
 , "Roewe|Clever EV": 4130
-, "Hozon|Neta V EV": 3846
+, "Hozon|Neta V": 3846
 , "Changan|Benni EV": 3828
 , "Nio|ES6": 3163
 , "Xpeng|P7": 2995
@@ -925,7 +925,7 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 4905
 , "Roewe|Clever EV": 4431
 , "Xpeng|P7": 3797
-, "Hozon|Neta V EV": 3409
+, "Hozon|Neta V": 3409
 , "BYD|e2": 3195
 , "Leapmotor|T03": 3147
 , "Nio|ES6": 3019
@@ -953,7 +953,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|e2": 3972
 , "Nio|ES6": 3755
 , "Pocco|MeiMei": 3658
-, "Hozon|Neta V EV": 3533
+, "Hozon|Neta V": 3533
 , "Dongfeng|E70 EV": 3427
 , "other": 65220
 });
@@ -972,7 +972,7 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin Plus EV": 5342
 , "Roewe|Clever EV": 5202
 , "Chery|eQ": 5065
-, "Hozon|Neta V EV": 4469
+, "Hozon|Neta V": 4469
 , "Leapmotor|T03": 4283
 , "Volkswagen|ID.4": 3867
 , "BYD|Yuan EV": 3785
@@ -999,7 +999,7 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 5238
 , "BYD|Yuan EV": 4782
 , "Volkswagen|ID.4": 4679
-, "Hozon|Neta V EV": 4611
+, "Hozon|Neta V": 4611
 , "Leapmotor|T03": 4409
 , "Letin|Mango": 4372
 , "Aion|Y": 4124
@@ -1027,7 +1027,7 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Ora|Black Cat": 5327
 , "Ora|Good Cat": 5085
 , "Nio|ES6": 5009
-, "Hozon|Neta V EV": 5009
+, "Hozon|Neta V": 5009
 , "other": 118457
 });
 
@@ -1051,7 +1051,7 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 6018
 , "Pocco|DuoDuo": 5627
 , "Sehol|E10X": 5322
-, "Hozon|Neta V EV": 5178
+, "Hozon|Neta V": 5178
 , "other": 113713
 });
 
@@ -1071,7 +1071,7 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|ID.4": 8316
 , "Aion|S": 7884
 , "Xpeng|P7": 7839
-, "Hozon|Neta V EV": 7027
+, "Hozon|Neta V": 7027
 , "BYD|Yuan EV": 6489
 , "Changan|Benni EV": 6440
 , "Xpeng|G5": 5620
@@ -1120,7 +1120,7 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 7049
 , "Xpeng|P7": 6707
 , "BYD|Yuan Pro": 6596
-, "Hozon|Neta V EV": 6482
+, "Hozon|Neta V": 6482
 , "Aion|Y": 6415
 , "Volkswagen|ID.4": 6294
 , "Leapmotor|T03": 6007
@@ -1142,7 +1142,7 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 4607
 , "BYD|Yuan Plus": 4517
 , "BYD|Yuan Pro": 4436
-, "Hozon|Neta V EV": 4073
+, "Hozon|Neta V": 4073
 , "Ora|Good Cat": 4066
 , "Chery|eQ1": 3735
 , "Volkswagen|ID.4": 3731
@@ -1168,7 +1168,7 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|P7": 9183
 , "BYD|Qin Plus EV": 8692
 , "Chery|eQ1": 8240
-, "Hozon|Neta V EV": 8122
+, "Hozon|Neta V": 8122
 , "Aion|S": 6798
 , "Ora|Black Cat": 6612
 , "Ora|Good Cat": 6342
@@ -1189,7 +1189,7 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|QQ Ice Cream": 7078
 , "Changan|Benni EV": 6692
 , "Chery|eQ1": 6086
-, "Hozon|Neta V EV": 5694
+, "Hozon|Neta V": 5694
 , "Aion|Y": 5261
 , "BYD|Yuan Pro": 5068
 , "BYD|Song Pro EV": 4927
@@ -1211,7 +1211,7 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|QQ Ice Cream": 9243
 , "Changan|Benni EV": 8485
 , "Aion|Y": 8289
-, "Hozon|Neta V EV": 7884
+, "Hozon|Neta V": 7884
 , "BYD|Dolphin": 9430
 , "Roewe|Clever EV": 6263
 , "Tesla|Model Y": 5875
@@ -1236,7 +1236,7 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 10161
 , "Chery|eQ1": 9692
 , "Chery|QQ Ice Cream": 9663
-, "Hozon|Neta V EV": 9147
+, "Hozon|Neta V": 9147
 , "Aion|S": 8903
 , "Ora|Good Cat": 8275
 , "Xpeng|P7": 8045
@@ -1258,7 +1258,7 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|QQ Ice Cream": 9381
 , "Changan|Benni EV": 8726
 , "Tesla|Model Y": 7640
-, "Hozon|Neta V EV": 7585
+, "Hozon|Neta V": 7585
 , "Dongfeng|E-Series": 7583
 , "Aion|S": 6864
 , "Leapmotor|C11": 6582
@@ -1277,7 +1277,7 @@ db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Plus": 18006
 , "Aion|S": 11683
 , "Aion|Y": 11012
-, "Hozon|Neta V EV": 10236
+, "Hozon|Neta V": 10236
 , "Chery|eQ1": 10037
 , "Volkswagen|ID.4": 9519
 , "Chery|QQ Ice Cream": 8616
@@ -1300,7 +1300,7 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Plus": 23069
 , "Aion|S": 13522
 , "Aion|Y": 13408
-, "Hozon|Neta V EV": 11935
+, "Hozon|Neta V": 11935
 , "Changan|Lumin": 10010
 , "Chery|eQ1": 9288
 , "Chery|QQ Ice Cream": 8650
@@ -1322,7 +1322,7 @@ db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model Y": 14391
 , "Aion|Y": 14391
 , "Changan|Lumin": 12009
-, "Hozon|Neta V EV": 11721
+, "Hozon|Neta V": 11721
 , "BYD|Seal": 11267
 , "Zeekr|001": 10119
 , "Chery|eQ1": 9938
@@ -1343,7 +1343,7 @@ db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seal": 15356
 , "Aion|S": 15323
 , "Aion|Y": 11560
-, "Hozon|Neta V EV": 11263
+, "Hozon|Neta V": 11263
 , "Changan|Lumin": 11020
 , "Zeekr|001": 11011
 , "Tesla|Model 3": 10069
