@@ -2677,7 +2677,7 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 81
 , "Renault|Zoe": 71
 , "Jaguar|I-Pace": 65
-, "BYD|Tang": 61
+, "BYD|Tang EV": 61
 , "Lexus|UX 300e": 42
 , "Fiat|500e": 39
 , "Peugeot|e-Traveller": 39
@@ -2754,7 +2754,7 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 49
 , "Fiat|500e": 47
 , "Opel|Corsa-e": 47
-, "BYD|Tang": 39
+, "BYD|Tang EV": 39
 , "Honda|e": 26
 , "Mini|Cooper SE Electric": 16
 , "Mercedes-Benz|EQV": 14
@@ -2800,7 +2800,7 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 585
 , "Volvo|XC40 Recharge pure electric": 468
 , "Polestar|2": 405
-, "BYD|Tang": 363
+, "BYD|Tang EV": 363
 , "Nissan|Leaf": 353
 , "Audi|Q8 e-tron": 305
 , "Volkswagen|ID.3": 300
@@ -2880,7 +2880,7 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 488
 , "Hyundai|Ioniq 5": 475
 , "Porsche|Taycan": 431
-, "BYD|Tang": 400
+, "BYD|Tang EV": 400
 , "Volvo|XC40 Recharge pure electric": 373
 , "Hyundai|Kona Electric": 368
 , "Mercedes-Benz|EQA": 330
@@ -2967,7 +2967,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 249
 , "Kia|Niro EV": 244
 , "Mercedes-Benz|EQC": 244
-, "BYD|Tang": 204
+, "BYD|Tang EV": 204
 , "Hyundai|Kona Electric": 177
 , "Škoda|Citigo-e": 164
 , "Peugeot|e-2008": 159
@@ -3044,7 +3044,7 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 153
 , "Hyundai|Kona Electric": 152
 , "Volkswagen|ID.3": 124
-, "BYD|Tang": 96
+, "BYD|Tang EV": 96
 , "Kia|Soul EV": 96
 , "Lexus|UX 300e": 90
 , "Opel|Mokka-e": 85
@@ -3125,7 +3125,7 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 122
 , "Xpeng|P7": 96
 , "Nio|ES8": 91
-, "BYD|Tang": 89
+, "BYD|Tang EV": 89
 , "Opel|Mokka-e": 82
 , "BMW|iX3": 59
 , "Lexus|UX 300e": 52
@@ -3207,7 +3207,7 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 131
 , "Opel|Mokka-e": 122
 , "Mercedes-Benz|EQB": 111
-, "BYD|Tang": 104
+, "BYD|Tang EV": 104
 , "Nio|ES8": 99
 , "MG|ZS EV": 90
 , "Peugeot|e-208": 80
@@ -3283,7 +3283,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 108
 , "BMW|i3 BEV": 106
 , "BMW|iX3": 106
-, "BYD|Tang": 101
+, "BYD|Tang EV": 101
 , "Mercedes-Benz|EQS": 101
 , "Peugeot|e-208": 95
 , "Nio|ES8": 82
@@ -3346,7 +3346,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 290
 , "Audi|Q8 e-tron": 276
 , "Škoda|Enyaq": 269
-, "BYD|Tang": 255
+, "BYD|Tang EV": 255
 , "MG|Marvel R": 255
 , "Tesla|Model Y": 223
 , "Hyundai|Kona Electric": 209
@@ -3424,7 +3424,7 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 308
 , "BMW|i4": 299
 , "Hyundai|Ioniq 5": 272
-, "BYD|Tang": 244
+, "BYD|Tang EV": 244
 , "Citroën|ë-C4": 230
 , "MG|Marvel R": 212
 , "Kia|EV6": 200
@@ -3495,7 +3495,7 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 275
 , "MG|ZS EV": 268
 , "Audi|Q8 e-tron": 242
-, "BYD|Tang": 229
+, "BYD|Tang EV": 229
 , "Volkswagen|ID.5": 227
 , "Ford|Mustang Mach-E": 220
 , "Citroën|ë-C4": 159
@@ -3580,7 +3580,7 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 265
 , "Audi|Q4 e-tron": 181
 , "Mercedes-Benz|EQC": 174
-, "BYD|Tang": 173
+, "BYD|Tang EV": 173
 , "MG|ZS EV": 162
 , "Citroën|ë-C4": 160
 , "Ford|Mustang Mach-E": 160
@@ -3673,7 +3673,7 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 112
 , "Hongqi|E-HS9": 108
 , "BMW|i4": 95
-, "BYD|Tang": 95
+, "BYD|Tang EV": 95
 , "Mercedes-Benz|EQE": 88
 , "Roewe|Ei5": 84
 , "Nio|ES8": 83
@@ -3746,7 +3746,7 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 168
 , "Hongqi|E-HS9": 137
 , "MG|Marvel R": 137
-, "BYD|Tang": 124
+, "BYD|Tang EV": 124
 , "Maxus|Euniq 6": 123
 , "Kia|EV6": 110
 , "Mercedes-Benz|EQA": 107
@@ -3839,7 +3839,7 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 60
 , "Peugeot|e-2008": 56
 , "Maxus|Euniq 6": 55
-, "BYD|Tang": 54
+, "BYD|Tang EV": 54
 , "Opel|Mokka-e": 53
 , "BYD|Han EV": 43
 , "Kia|Niro EV": 37

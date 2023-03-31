@@ -4119,7 +4119,7 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 22
 , "Mercedes-Benz|EQS": 19
 , "Mercedes-Benz|EQV": 17
-, "BYD|Tang": 15
+, "BYD|Tang EV": 15
 , "Kia|Soul EV": 15
 , "Mercedes-Benz|EQC": 15
 , "Audi|e-tron GT": 13
@@ -4314,7 +4314,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 25
 , "Kia|Soul EV": 18
 , "BYD|Yuan Plus": 14
-, "BYD|Tang": 11
+, "BYD|Tang EV": 11
 , "Porsche|Taycan": 10
 , "Fiat|E-Ducato": 9
 , "Roewe|Ei5": 9

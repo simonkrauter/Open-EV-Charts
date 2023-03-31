@@ -2089,7 +2089,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 30
 , "Opel|Mokka-e": 27
 , "Mercedes-Benz|EQC": 24
-, "BYD|Tang": 21
+, "BYD|Tang EV": 21
 , "Tesla|Model 3": 20
 , "Mercedes-Benz|EQS": 18
 , "Aiways|U5": 17

@@ -1504,7 +1504,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 4
 , "BYD|Yuan Plus": 4
 , "Xpeng|P7": 4
-, "BYD|Tang": 3
+, "BYD|Tang EV": 3
 , "Hyundai|Ioniq 5": 3
 , "other": 29
 });
