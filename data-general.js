@@ -126,5 +126,9 @@ var companyGroups = {
   "GAC Group":
     [ "Aion"
     , "Trumpchi"
+    ],
+  "BYD Auto":
+    [ "BYD"
+    , "Denza"
     ]
 };
