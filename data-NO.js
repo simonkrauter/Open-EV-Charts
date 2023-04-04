@@ -4079,6 +4079,84 @@ db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 282
 });
 
+db.insert(db.countries.NO, "2023-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2023",
+{ "Tesla": 7899
+, "Toyota": 2498
+, "Volkswagen": 1700
+, "Volvo": 1263
+, "Nissan": 693
+, "Hyundai": 612
+, "BMW": 580
+, "Mercedes-Benz": 558
+, "Peugeot": 545
+, "Škoda": 522
+, "Ford": 490
+, "Audi": 417
+, "Opel": 219
+, "Kia": 202
+, "MG": 187
+, "Citroën": 121
+, "Lexus": 99
+, "Nio": 94
+, "Polestar": 89
+, "Mazda": 66
+, "Suzuki": 59
+, "other": 453
+});
+
+db.insert(db.countries.NO, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2023",
+{ "Tesla|Model Y": 7436
+, "Toyota|bZ4X": 1016
+, "Volvo|XC40 Recharge pure electric": 864
+, "Volkswagen|ID.4": 654
+, "Volkswagen|ID.3": 590
+, "Tesla|Model 3": 453
+, "Nissan|Leaf": 427
+, "Škoda|Enyaq": 380
+, "Ford|Mustang Mach-E": 370
+, "Peugeot|e-208": 330
+, "Audi|Q4 e-tron": 255
+, "Hyundai|Kona Electric": 255
+, "Nissan|Ariya": 226
+, "BMW|i4": 223
+, "BMW|iX1": 222
+, "Mercedes-Benz|EQA": 219
+, "Hyundai|Ioniq 6": 198
+, "Volkswagen|ID.5": 160
+, "Opel|Corsa-e": 150
+, "Hyundai|Ioniq 5": 143
+, "Audi|Q8 e-tron": 141
+, "Mercedes-Benz|EQB": 128
+, "Volvo|C40 Recharge": 126
+, "Peugeot|e-2008": 95
+, "Citroën|ë-C4": 93
+, "Polestar|2": 87
+, "Kia|EV6": 78
+, "Kia|Niro EV": 76
+, "MG|MG4 EV": 67
+, "MG|Marvel R": 65
+, "Mercedes-Benz|EQS": 60
+, "Fiat|500e": 50
+, "Nio|ET5": 41
+, "Roewe|Ei5": 37
+, "Renault|Megane E-Tech": 36
+, "Cupra|Born": 34
+, "Lexus|UX 300e": 34
+, "Nio|ES8": 33
+, "Mercedes-Benz|EQC": 32
+, "BYD|Han EV": 29
+, "Maxus|Euniq 6": 29
+, "BYD|Yuan Plus": 27
+, "Opel|Mokka-e": 27
+, "BMW|iX3": 21
+, "Opel|Combo-e": 20
+, "Mercedes-Benz|EQE": 19
+, "Nio|ES7": 17
+, "Kia|Soul EV": 16
+, "Porsche|Taycan": 16
+, "other": 706
+});
+
 
 // Template:
 
