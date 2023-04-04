@@ -313,7 +313,7 @@ a.export {
 a.pngExport {
   position: absolute;
   right: 0;
-  bottom: -6px;
+  bottom: -10px;
 }
 
 #tableExportContainer textarea {
