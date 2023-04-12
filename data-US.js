@@ -842,16 +842,21 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 7287
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
+, "Genesis|GV80": 4346
+, "Genesis|GV70": 4199
 , "Audi|Q8 e-tron": 3938
 , "Nissan|Leaf": 3251
 , "Porsche|Taycan": 2525
 , "Polestar|2": 2200
 , "Volkswagen|ID.4": 1659
 , "Volvo|C40 Recharge": 1427
+, "Genesis|G80": 1127
 , "BMW|iX": 1081
 , "Audi|e-tron GT": 839
 , "Rivian|R1T": 700
 , "Lucid|Air": 500
+, "GMC|Hummer EV": 273
+, "Genesis|GV60": 233
 , "Toyota|bZ4X": 232
 , "Mazda|MX-30": 136
 , "Jaguar|I-Pace": 121
@@ -901,6 +906,8 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 10414
 , "Tesla|Model S": 8000
 , "Volkswagen|ID.4": 6657
+, "Genesis|GV80": 5014
+, "Genesis|GV70": 4994
 , "Kia|EV6": 4872
 , "Hyundai|Ioniq 5": 4800
 , "Rivian|R1T": 4400
@@ -911,12 +918,15 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|EDV": 1699
 , "Porsche|Taycan": 1325
 , "Nissan|Leaf": 1276
+, "Genesis|G80": 920
+, "Genesis|GV60": 807
 , "Mercedes-Benz|EQB": 739
 , "Audi|Q4 e-tron": 732
 , "Lucid|Air": 599
 , "Audi|e-tron GT": 576
+, "GMC|Hummer EV": 410
 , "Volvo|C40 Recharge": 326
-, "Mercedes-Benz|EQS": 277
+, "Mercedes-Benz|EQS SUV": 277
 , "Jaguar|I-Pace": 104
 , "Mazda|MX-30": 8
 });
@@ -965,6 +975,8 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 11369
 , "Tesla|Model X": 9800
 , "Tesla|Model S": 8800
+, "Genesis|GV70": 5834
+, "Genesis|GV80": 4902
 , "Hyundai|Ioniq 5": 4490
 , "Volkswagen|ID.4": 4056
 , "Rivian|R1T": 3900
@@ -976,12 +988,15 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 1529
 , "Volvo|C40 Recharge": 1403
 , "Rivian|EDV": 1300
+, "Genesis|G80": 1030
 , "Toyota|bZ4X": 985
 , "Subaru|Solterra": 919
 , "Lucid|Air": 850
 , "Rivian|R1S": 800
+, "Genesis|GV60": 550
 , "Audi|e-tron GT": 314
 , "Nissan|Ariya": 201
+, "GMC|Hummer EV": 72
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/",
