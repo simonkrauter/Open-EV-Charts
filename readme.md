@@ -11,17 +11,17 @@ Database status
 
 | Country        | Since | Interval | EV models  | All car sales
 |----------------|-------|----------|------------|--------------
-| China          | 2018  | Month    | Complete   | Total only
+| China          | 2018  | Month    | Top 20     | Total only
 | United States  | 2018  | Quarter  | Incomplete | Per brand
 | Germany        | 2017  | Month    | Complete   | Per brand
 | United Kingdom | 2018  | Quarter  | Complete   | Per brand
-| France         | 2018  | Month    | Complete   | Per brand
+| France         | 2018  | Month    | Top 10     | Per brand
 | Italy          | 2020  | Month    | Complete   | Per brand
 | Spain          | 2018  | Month    | Complete   | Per brand
 | Netherlands    | 2018  | Month    | Complete   | Per brand
-| Sweden         | 2018  | Month    | Complete   | Total only
-| Austria        | 2019  | Month    | Complete   | Per brand
-| Switzerland    | 2018  | Month    | Incomplete | Per brand
+| Sweden         | 2018  | Month    | Complete   | Per brand
+| Austria        | 2019  | Month    | Top 10     | Per brand
+| Switzerland    | 2018  | Month    | Complete   | Per brand
 | Denmark        | 2020  | Month    | Complete   | Total only
 | Norway         | 2017  | Month    | Complete   | Per brand
 | Finland        | 2020  | Month    | Complete   | Total only
