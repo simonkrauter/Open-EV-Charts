@@ -2587,3 +2587,96 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 11
 , "Subaru|Solterra": 11
 });
+
+db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202023_642ad178ad402.pdf",
+{ "Fiat": 17379
+, "Volkswagen": 11710
+, "Peugeot": 10589
+, "Toyota": 9861
+, "Ford": 9798
+, "Dacia": 8082
+, "Jeep": 7998
+, "Renault": 7323
+, "Citroën": 7280
+, "Opel": 6911
+, "Audi": 6868
+, "BMW": 6128
+, "Nissan": 5226
+, "Mercedes-Benz": 5175
+, "Hyundai": 4951
+, "Kia": 4768
+, "Suzuki": 3509
+, "Škoda": 3214
+, "Alfa Romeo": 2992
+, "Tesla": 2911
+, "MG": 2378
+, "Mini": 2069
+, "Cupra": 1840
+, "Mazda": 1616
+, "Volvo": 1578
+, "Seat": 1514
+, "DS Automobiles": 828
+, "Porsche": 787
+, "Land Rover": 743
+, "Honda": 632
+, "Smart": 554
+, "Maserati": 469
+, "Subaru": 395
+, "Mitsubishi": 292
+, "Lexus": 291
+, "Jaguar": 130
+, "SsangYong": 30
+, "other": 9475
+});
+
+db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3",
+{ "Tesla|Model Y": 1697
+, "Tesla|Model 3": 1123
+, "Smart|Fortwo ED": 554
+, "Fiat|500e": 452
+, "Dacia|Spring": 366
+, "MG|MG4 EV": 284
+, "Renault|Megane E-Tech": 279
+, "Peugeot|e-208": 269
+, "Volkswagen|ID.3": 220
+, "Renault|Twingo Z.E.": 215
+, "Audi|Q4 e-tron": 208
+, "Toyota|Proace Electric": 144
+, "Mercedes-Benz|EQA": 138
+, "Polestar|2": 137
+, "Mini|Cooper SE Electric": 135
+, "BMW|iX1": 132
+, "Cupra|Born": 131
+, "Citroën|ë-C4": 121
+, "Renault|Zoe": 103
+, "Mercedes-Benz|EQB": 97
+, "Fiat|E-Doblò": 96
+, "Opel|Corsa-e": 89
+, "Ford|Mustang Mach-E": 85
+, "Peugeot|e-2008": 83
+, "BMW|i4": 81
+, "Audi|Q8 e-tron": 77
+, "Volkswagen|ID. Buzz": 76
+, "Opel|Mokka-e": 75
+, "Hyundai|Kona Electric": 68
+, "BMW|iX": 65
+, "Volkswagen|ID.4": 64
+, "MG|Marvel R": 58
+, "Tesla|Model S": 57
+, "Volvo|XC40 Recharge pure electric": 52
+, "BMW|iX3": 42
+, "Jeep|Avenger EV": 40
+, "Tesla|Model X": 34
+, "Roewe|Ei5": 33
+, "Fiat|E-Ulysse": 32
+, "Nissan|Leaf": 32
+, "Škoda|Enyaq": 32
+, "Volkswagen|ID.5": 31
+, "Volvo|C40 Recharge": 30
+, "Mercedes-Benz|EQE": 27
+, "Citroën|Berlingo Electric": 23
+, "Mazda|MX-30": 21
+, "Hyundai|Ioniq 5": 20
+, "Jaguar|I-Pace": 19
+, "MG|ZS EV": 19
+});
