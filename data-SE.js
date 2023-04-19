@@ -4,63 +4,203 @@
 
 db.addCountry("SE", "Sweden");
 
-db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23815
+db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4744
+, "Volkswagen": 3436
+, "Toyota": 1531
+, "Kia": 1438
+, "Škoda": 1399
+, "BMW": 1336
+, "Mercedes-Benz": 1200
+, "Audi": 1190
+, "Peugeot": 824
+, "Ford": 752
+, "Nissan": 737
+, "Subaru": 456
+, "Seat": 409
+, "Renault": 403
+, "Opel": 377
+, "Mazda": 331
+, "Dacia": 285
+, "Hyundai": 244
+, "Mini": 232
+, "Suzuki": 225
+, "Honda": 220
+, "Mitsubishi": 216
+, "Citroën": 182
+, "Fiat": 182
+, "Porsche": 145
+, "Lexus": 131
+, "SsangYong": 63
+, "Jeep": 50
+, "Alfa Romeo": 30
+, "Jaguar": 30
+, "DS Automobiles": 27
+, "Land Rover": 26
+, "Tesla": 19
+, "Chevrolet": 6
+, "Maserati": 5
+, "Cadillac": 2
+, "other": 97
 });
 
-db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 71
 , "BMW|i3 BEV": 36
 , "Volkswagen|e-Golf": 31
 , "Tesla|Model S": 15
-, "Volkswagen|e-up!": 13
 , "Hyundai|Ioniq Electric": 13
+, "Volkswagen|e-up!": 13
 , "Tesla|Model X": 4
-, "Nissan|e-NV200": 2
 , "Kia|Soul EV": 1
-, "other": 5
+, "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 27815
+db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 6700
+, "Volkswagen": 3927
+, "Kia": 1701
+, "Toyota": 1650
+, "Audi": 1546
+, "BMW": 1477
+, "Mercedes-Benz": 1360
+, "Škoda": 1325
+, "Peugeot": 910
+, "Nissan": 813
+, "Ford": 650
+, "Renault": 625
+, "Seat": 571
+, "Opel": 501
+, "Hyundai": 442
+, "Subaru": 362
+, "Mazda": 348
+, "Dacia": 322
+, "Mitsubishi": 307
+, "Fiat": 287
+, "Citroën": 263
+, "Honda": 247
+, "Mini": 193
+, "Suzuki": 190
+, "Porsche": 122
+, "Lexus": 93
+, "Jeep": 68
+, "SsangYong": 30
+, "Tesla": 29
+, "Land Rover": 25
+, "Alfa Romeo": 22
+, "Jaguar": 16
+, "Chevrolet": 4
+, "Cadillac": 3
+, "Maserati": 3
+, "other": 78
 });
 
-db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Hyundai|Ioniq Electric": 97
 , "Renault|Zoe": 80
 , "Nissan|Leaf": 54
-, "Volkswagen|e-Golf": 32
+, "Volkswagen|e-Golf": 31
 , "BMW|i3 BEV": 23
 , "Tesla|Model S": 22
 , "Tesla|Model X": 7
-, "Volkswagen|e-up!": 2
+, "Volkswagen|e-up!": 3
 , "Kia|Soul EV": 1
-, "other": 6
+, "NEVS|9-3EV": 1
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 37957
+db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 8719
+, "Volkswagen": 5340
+, "Toyota": 2376
+, "Kia": 2130
+, "Mercedes-Benz": 2027
+, "BMW": 1978
+, "Škoda": 1757
+, "Audi": 1715
+, "Nissan": 1364
+, "Hyundai": 1157
+, "Ford": 1037
+, "Peugeot": 935
+, "Renault": 909
+, "Seat": 670
+, "Citroën": 606
+, "Opel": 582
+, "Fiat": 578
+, "Mazda": 461
+, "Subaru": 420
+, "Honda": 379
+, "Mitsubishi": 379
+, "Dacia": 325
+, "Mini": 268
+, "Tesla": 198
+, "Suzuki": 194
+, "Porsche": 182
+, "Lexus": 144
+, "SsangYong": 93
+, "Jeep": 91
+, "Alfa Romeo": 41
+, "Land Rover": 31
+, "Jaguar": 25
+, "Chevrolet": 5
+, "Cadillac": 2
+, "Maserati": 2
+, "Smart": 2
+, "other": 83
 });
 
-db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 250
 , "Tesla|Model S": 146
-, "Hyundai|Ioniq Electric": 116
+, "Hyundai|Ioniq Electric": 114
 , "Renault|Zoe": 85
 , "BMW|i3 BEV": 53
 , "Tesla|Model X": 52
-, "Volkswagen|e-Golf": 37
+, "Volkswagen|e-Golf": 36
 , "Volkswagen|e-up!": 7
 , "Kia|Soul EV": 2
-, "Volvo|XC40 Recharge pure electric": 1
-, "Citroën|ë-C4": 1
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 35601
+db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 7313
+, "Volkswagen": 5351
+, "Kia": 2110
+, "Toyota": 2077
+, "Mercedes-Benz": 1999
+, "BMW": 1652
+, "Škoda": 1649
+, "Audi": 1569
+, "Peugeot": 1238
+, "Nissan": 1118
+, "Fiat": 1029
+, "Renault": 995
+, "Seat": 699
+, "Opel": 698
+, "Ford": 681
+, "Subaru": 519
+, "Mazda": 511
+, "Citroën": 414
+, "Hyundai": 399
+, "Dacia": 343
+, "Mini": 309
+, "Porsche": 268
+, "Honda": 232
+, "Mitsubishi": 230
+, "Suzuki": 188
+, "Lexus": 143
+, "SsangYong": 89
+, "Alfa Romeo": 83
+, "Tesla": 67
+, "Jeep": 62
+, "Land Rover": 41
+, "Jaguar": 27
+, "Chevrolet": 15
+, "Maserati": 5
+, "DS Automobiles": 2
+, "Cadillac": 1
+, "other": 77
 });
 
-db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 139
 , "Renault|Zoe": 56
 , "Tesla|Model S": 44
@@ -68,18 +208,54 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 28
 , "Volkswagen|e-Golf": 27
 , "Tesla|Model X": 23
-, "Volkswagen|e-up!": 5
 , "Kia|Soul EV": 5
-, "other": 7
+, "Volkswagen|e-up!": 5
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 39446
+db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 6544
+, "Volkswagen": 5920
+, "Kia": 2405
+, "Toyota": 2194
+, "BMW": 2191
+, "Mercedes-Benz": 2029
+, "Škoda": 1978
+, "Renault": 1951
+, "Audi": 1718
+, "Fiat": 1360
+, "Peugeot": 1134
+, "Ford": 961
+, "Nissan": 914
+, "Seat": 815
+, "Opel": 653
+, "Mazda": 571
+, "Subaru": 559
+, "Dacia": 536
+, "Hyundai": 441
+, "Mitsubishi": 373
+, "Alfa Romeo": 358
+, "Citroën": 348
+, "Suzuki": 302
+, "Honda": 291
+, "Mini": 279
+, "Porsche": 221
+, "Lexus": 155
+, "SsangYong": 90
+, "Land Rover": 77
+, "Jeep": 69
+, "Tesla": 49
+, "Jaguar": 47
+, "Chevrolet": 27
+, "Cadillac": 7
+, "Maserati": 5
+, "DS Automobiles": 1
+, "Smart": 1
+, "other": 111
 });
 
-db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 51
-, "Nissan|Leaf": 46
+, "Nissan|Leaf": 47
 , "Volkswagen|e-Golf": 40
 , "BMW|i3 BEV": 38
 , "Tesla|Model S": 29
@@ -87,36 +263,105 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 20
 , "Hyundai|Ioniq Electric": 19
 , "Volkswagen|e-up!": 11
+, "NEVS|9-3EV": 4
 , "Nissan|e-NV200": 2
-, "Mercedes-Benz|EQC": 1
-, "other": 15
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 67553
+db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 14695
+, "Volkswagen": 10273
+, "BMW": 3650
+, "Toyota": 3379
+, "Fiat": 3054
+, "Renault": 3017
+, "Nissan": 2798
+, "Audi": 2797
+, "Mercedes-Benz": 2710
+, "Kia": 2410
+, "Škoda": 2345
+, "Peugeot": 2064
+, "Ford": 1996
+, "Opel": 1178
+, "Mazda": 1132
+, "Dacia": 1017
+, "Subaru": 1016
+, "Mitsubishi": 962
+, "Hyundai": 931
+, "Citroën": 907
+, "Seat": 895
+, "Honda": 473
+, "Mini": 438
+, "Suzuki": 410
+, "Porsche": 271
+, "Jeep": 250
+, "Alfa Romeo": 240
+, "Lexus": 236
+, "Chevrolet": 139
+, "Tesla": 124
+, "Jaguar": 96
+, "Land Rover": 92
+, "Cadillac": 34
+, "SsangYong": 15
+, "Maserati": 10
+, "DS Automobiles": 2
+, "other": 172
 });
 
-db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
-{ "Tesla|Model S": 82
-, "BMW|i3 BEV": 65
+db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model S": 85
+, "BMW|i3 BEV": 63
 , "Renault|Zoe": 43
-, "Tesla|Model X": 34
-, "Volkswagen|e-Golf": 31
+, "Tesla|Model X": 39
+, "Volkswagen|e-Golf": 30
 , "Kia|Soul EV": 29
 , "Nissan|Leaf": 19
-, "Nissan|e-NV200": 13
 , "Hyundai|Ioniq Electric": 13
-, "Citroën|ë-C4": 1
-, "other": 7
+, "NEVS|9-3EV": 8
+, "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 13798
+db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 2414
+, "Volvo": 1462
+, "Kia": 1440
+, "Toyota": 858
+, "Audi": 783
+, "Škoda": 742
+, "Mercedes-Benz": 650
+, "BMW": 579
+, "Nissan": 413
+, "Ford": 388
+, "Peugeot": 340
+, "Seat": 316
+, "Renault": 238
+, "Fiat": 227
+, "Citroën": 203
+, "Honda": 155
+, "Mini": 139
+, "Opel": 125
+, "Hyundai": 107
+, "Porsche": 106
+, "Mazda": 102
+, "Tesla": 96
+, "Mitsubishi": 82
+, "Suzuki": 80
+, "Lexus": 73
+, "Subaru": 66
+, "Dacia": 60
+, "Chevrolet": 59
+, "Cadillac": 37
+, "Alfa Romeo": 25
+, "Jeep": 24
+, "Jaguar": 19
+, "Land Rover": 13
+, "DS Automobiles": 1
+, "Maserati": 1
+, "Smart": 1
+, "other": 79
 });
 
-db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 126
-, "Nissan|e-NV200": 74
 , "Tesla|Model S": 65
 , "Nissan|Leaf": 62
 , "Volkswagen|e-Golf": 54
@@ -126,33 +371,104 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 16
 , "Jaguar|I-Pace": 9
 , "Volkswagen|e-up!": 7
-, "other": 13
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 25765
+db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 6040
+, "Volvo": 3082
+, "Kia": 1939
+, "Audi": 1924
+, "Toyota": 1495
+, "Mercedes-Benz": 1281
+, "BMW": 1222
+, "Škoda": 1168
+, "Seat": 784
+, "Nissan": 699
+, "Peugeot": 666
+, "Renault": 627
+, "Ford": 561
+, "Citroën": 366
+, "Dacia": 356
+, "Fiat": 271
+, "Porsche": 255
+, "Honda": 233
+, "Mini": 230
+, "Opel": 228
+, "Mazda": 220
+, "Subaru": 155
+, "Suzuki": 153
+, "Lexus": 144
+, "Mitsubishi": 130
+, "Hyundai": 108
+, "Tesla": 99
+, "Jeep": 66
+, "Land Rover": 34
+, "Jaguar": 18
+, "Chevrolet": 17
+, "Alfa Romeo": 16
+, "Cadillac": 5
+, "SsangYong": 2
+, "other": 76
 });
 
-db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 155
 , "Nissan|Leaf": 121
-, "Tesla|Model S": 73
+, "Tesla|Model S": 75
 , "Volkswagen|e-Golf": 53
 , "BMW|i3 BEV": 46
 , "Kia|Soul EV": 37
 , "Hyundai|Ioniq Electric": 25
 , "Tesla|Model X": 24
 , "Volkswagen|e-up!": 14
-, "Nissan|e-NV200": 8
+, "Nissan|e-NV200": 5
 , "Jaguar|I-Pace": 1
-, "other": 8
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 19886
+db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3301
+, "Kia": 2101
+, "Volkswagen": 1881
+, "Mercedes-Benz": 1378
+, "Toyota": 1370
+, "BMW": 1067
+, "Audi": 917
+, "Škoda": 873
+, "Renault": 728
+, "Ford": 597
+, "Peugeot": 588
+, "Citroën": 572
+, "Fiat": 416
+, "Seat": 358
+, "Mitsubishi": 327
+, "Nissan": 308
+, "Mini": 284
+, "Mazda": 266
+, "Subaru": 248
+, "Opel": 243
+, "Tesla": 215
+, "Honda": 189
+, "Suzuki": 176
+, "Dacia": 157
+, "Lexus": 110
+, "Hyundai": 103
+, "Jeep": 75
+, "Porsche": 66
+, "Land Rover": 55
+, "Jaguar": 40
+, "Alfa Romeo": 10
+, "Chevrolet": 6
+, "Cadillac": 3
+, "DS Automobiles": 3
+, "Maserati": 2
+, "SsangYong": 2
+, "Dodge": 1
+, "Smart": 1
+, "other": 73
 });
 
-db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 191
 , "Tesla|Model S": 173
 , "Nissan|Leaf": 168
@@ -164,15 +480,48 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 6
 , "Nissan|e-NV200": 4
 , "Volkswagen|e-up!": 1
-, "Mini|Cooper SE Electric": 1
-, "other": 8
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 24128
+db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3883
+, "Volkswagen": 2971
+, "Kia": 2002
+, "Toyota": 1786
+, "BMW": 1704
+, "Mercedes-Benz": 1478
+, "Škoda": 1143
+, "Ford": 938
+, "Audi": 905
+, "Renault": 886
+, "Peugeot": 736
+, "Nissan": 456
+, "Opel": 418
+, "Mitsubishi": 414
+, "Mini": 396
+, "Mazda": 381
+, "Seat": 379
+, "Subaru": 369
+, "Hyundai": 287
+, "Fiat": 264
+, "Citroën": 242
+, "Honda": 233
+, "Suzuki": 184
+, "Dacia": 152
+, "Lexus": 106
+, "Jeep": 77
+, "Jaguar": 71
+, "Tesla": 54
+, "Porsche": 52
+, "Land Rover": 51
+, "Alfa Romeo": 15
+, "Chevrolet": 3
+, "Cadillac": 2
+, "Maserati": 1
+, "Smart": 1
+, "other": 48
 });
 
-db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 299
 , "Nissan|Leaf": 240
 , "Hyundai|Ioniq Electric": 74
@@ -181,18 +530,53 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 29
 , "Volkswagen|e-Golf": 12
 , "Tesla|Model X": 10
-, "Nissan|e-NV200": 6
 , "Kia|Soul EV": 6
+, "Nissan|e-NV200": 6
 , "Hyundai|Kona Electric": 4
-, "Mini|Cooper SE Electric": 2
-, "other": 11
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 26357
+db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4943
+, "Volkswagen": 3236
+, "Kia": 1907
+, "BMW": 1832
+, "Toyota": 1734
+, "Mercedes-Benz": 1697
+, "Škoda": 1614
+, "Renault": 1000
+, "Audi": 950
+, "Peugeot": 768
+, "Opel": 712
+, "Ford": 695
+, "Nissan": 613
+, "Seat": 582
+, "Subaru": 442
+, "Mitsubishi": 437
+, "Fiat": 321
+, "Mini": 306
+, "Mazda": 305
+, "Hyundai": 233
+, "Suzuki": 208
+, "Honda": 205
+, "Dacia": 203
+, "Citroën": 194
+, "Alfa Romeo": 110
+, "Lexus": 107
+, "Jaguar": 100
+, "Jeep": 99
+, "Tesla": 97
+, "Land Rover": 36
+, "Porsche": 31
+, "Cadillac": 6
+, "Chevrolet": 2
+, "Smart": 2
+, "DS Automobiles": 1
+, "Maserati": 1
+, "other": 82
 });
 
-db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 388
 , "Volkswagen|e-Golf": 225
 , "Renault|Zoe": 166
@@ -204,35 +588,105 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 25
 , "Jaguar|I-Pace": 17
 , "Volkswagen|e-up!": 7
-, "Nissan|e-NV200": 2
-, "other": 10
+, "other": 2
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23414
+db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4557
+, "Volkswagen": 2682
+, "Renault": 1988
+, "Kia": 1462
+, "Audi": 1455
+, "Toyota": 1345
+, "Mercedes-Benz": 1324
+, "BMW": 1291
+, "Škoda": 1172
+, "Ford": 795
+, "Peugeot": 548
+, "Nissan": 546
+, "Mitsubishi": 480
+, "Seat": 438
+, "Dacia": 327
+, "Subaru": 272
+, "Fiat": 227
+, "Mazda": 224
+, "Honda": 218
+, "Suzuki": 205
+, "Tesla": 181
+, "Mini": 177
+, "Hyundai": 170
+, "Jeep": 144
+, "Lexus": 143
+, "Jaguar": 142
+, "Citroën": 141
+, "Porsche": 114
+, "Land Rover": 85
+, "Opel": 48
+, "Alfa Romeo": 30
+, "Chevrolet": 6
+, "Cadillac": 2
+, "DS Automobiles": 1
+, "Smart": 1
+, "other": 58
 });
 
-db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2018/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 343
 , "Renault|Zoe": 340
 , "Tesla|Model S": 113
 , "Tesla|Model X": 68
-, "BMW|i3 BEV": 62
+, "BMW|i3 BEV": 61
 , "Volkswagen|e-Golf": 61
 , "Kia|Soul EV": 40
 , "Hyundai|Ioniq Electric": 31
 , "Kia|Niro EV": 15
-, "Volkswagen|e-up!": 10
 , "Jaguar|I-Pace": 10
+, "Volkswagen|e-up!": 10
 , "Hyundai|Kona Electric": 3
 , "Nissan|e-NV200": 2
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 21117
+db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4073
+, "Volkswagen": 2691
+, "Kia": 1571
+, "BMW": 1504
+, "Toyota": 1203
+, "Mercedes-Benz": 1196
+, "Škoda": 1090
+, "Audi": 868
+, "Ford": 789
+, "Peugeot": 616
+, "Renault": 598
+, "Nissan": 529
+, "Mitsubishi": 527
+, "Seat": 498
+, "Hyundai": 377
+, "Citroën": 271
+, "Mazda": 253
+, "Subaru": 247
+, "Honda": 201
+, "Mini": 197
+, "Dacia": 182
+, "Suzuki": 159
+, "Fiat": 135
+, "Lexus": 131
+, "Jeep": 122
+, "Jaguar": 109
+, "Porsche": 89
+, "Alfa Romeo": 61
+, "Land Rover": 60
+, "Tesla": 37
+, "Opel": 11
+, "Chevrolet": 5
+, "Smart": 3
+, "Cadillac": 1
+, "Maserati": 1
+, "other": 69
 });
 
-db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 264
 , "Renault|Zoe": 239
 , "Kia|Niro EV": 175
@@ -246,40 +700,106 @@ db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 16
 , "Tesla|Model X": 8
 , "Nissan|e-NV200": 1
-, "Mercedes-Benz|EQV": 1
-, "other": 21
+, "other": 3
 });
 
-db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23789
+db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4507
+, "Volkswagen": 3700
+, "Kia": 1889
+, "Mercedes-Benz": 1472
+, "Škoda": 1399
+, "BMW": 1325
+, "Audi": 1310
+, "Toyota": 1030
+, "Renault": 668
+, "Peugeot": 632
+, "Nissan": 629
+, "Seat": 625
+, "Mitsubishi": 598
+, "Ford": 501
+, "Hyundai": 402
+, "Dacia": 293
+, "Mini": 257
+, "Mazda": 251
+, "Subaru": 244
+, "Fiat": 232
+, "Honda": 220
+, "Suzuki": 141
+, "Opel": 126
+, "Jaguar": 102
+, "Citroën": 100
+, "Lexus": 95
+, "Porsche": 78
+, "Land Rover": 74
+, "Jeep": 59
+, "Tesla": 59
+, "Alfa Romeo": 42
+, "Chevrolet": 11
+, "Cadillac": 1
+, "DS Automobiles": 1
+, "other": 73
 });
 
-db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 236
-, "Kia|Niro EV": 164
+, "Kia|Niro EV": 163
 , "Nissan|Leaf": 153
 , "BMW|i3 BEV": 111
 , "Tesla|Model S": 52
 , "Hyundai|Kona Electric": 51
 , "Volkswagen|e-Golf": 35
 , "Hyundai|Ioniq Electric": 27
-, "Audi|Q8 e-tron": 17
-, "Volkswagen|e-up!": 11
+, "Audi|Q8 e-tron": 25
 , "Jaguar|I-Pace": 11
+, "Volkswagen|e-up!": 11
 , "Nissan|e-NV200": 8
 , "Tesla|Model X": 7
 , "Kia|Soul EV": 5
 , "Peugeot|iOn": 1
-, "Mini|Cooper SE Electric": 1
-, "other": 12
 });
 
-db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 31079
+db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5419
+, "Volkswagen": 3623
+, "Kia": 2245
+, "Mercedes-Benz": 2124
+, "Audi": 2007
+, "Toyota": 1790
+, "Škoda": 1624
+, "BMW": 1615
+, "Renault": 1122
+, "Tesla": 1106
+, "Mitsubishi": 814
+, "Ford": 766
+, "Seat": 760
+, "Peugeot": 605
+, "Hyundai": 584
+, "Nissan": 575
+, "Fiat": 430
+, "Mazda": 418
+, "Dacia": 334
+, "Mini": 326
+, "Honda": 314
+, "Subaru": 309
+, "Suzuki": 190
+, "Opel": 178
+, "Porsche": 161
+, "Citroën": 155
+, "Lexus": 141
+, "Jaguar": 136
+, "Jeep": 94
+, "Land Rover": 91
+, "Alfa Romeo": 55
+, "Chevrolet": 18
+, "DS Automobiles": 9
+, "Cadillac": 4
+, "Smart": 1
+, "other": 112
 });
 
-db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
-{ "Tesla|Model 3": 997
+db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model 3": 1005
 , "Kia|Niro EV": 296
 , "Renault|Zoe": 194
 , "BMW|i3 BEV": 146
@@ -288,20 +808,54 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 72
 , "Audi|Q8 e-tron": 47
 , "Jaguar|I-Pace": 33
-, "Hyundai|Ioniq Electric": 30
+, "Hyundai|Ioniq Electric": 31
 , "Tesla|Model X": 29
 , "Volkswagen|e-Golf": 22
 , "Volkswagen|e-up!": 8
 , "Nissan|e-NV200": 3
 , "Kia|Soul EV": 1
-, "other": 5
 });
 
-db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 31451
+db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5768
+, "Volkswagen": 3714
+, "Mercedes-Benz": 2831
+, "Kia": 2182
+, "BMW": 1815
+, "Toyota": 1807
+, "Audi": 1562
+, "Škoda": 1510
+, "Ford": 840
+, "Renault": 821
+, "Seat": 788
+, "Fiat": 773
+, "Peugeot": 718
+, "Nissan": 573
+, "Tesla": 559
+, "Mazda": 440
+, "Subaru": 371
+, "Mini": 367
+, "Mitsubishi": 359
+, "Hyundai": 338
+, "Dacia": 318
+, "Opel": 247
+, "Honda": 242
+, "Porsche": 240
+, "Citroën": 219
+, "Suzuki": 194
+, "Jaguar": 185
+, "Lexus": 174
+, "Jeep": 75
+, "Land Rover": 55
+, "Alfa Romeo": 27
+, "DS Automobiles": 17
+, "Chevrolet": 16
+, "Cadillac": 4
+, "Maserati": 1
+, "other": 96
 });
 
-db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 446
 , "Renault|Zoe": 204
 , "Kia|Niro EV": 174
@@ -317,21 +871,55 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Kia|Soul EV": 5
 , "Volkswagen|e-up!": 2
-, "Mercedes-Benz|EQC": 1
-, "other": 3
 });
 
-db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 33250
+db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 6235
+, "Volkswagen": 3556
+, "Kia": 2308
+, "Toyota": 2231
+, "BMW": 2067
+, "Audi": 1929
+, "Škoda": 1685
+, "Mercedes-Benz": 1331
+, "Renault": 1261
+, "Ford": 897
+, "Peugeot": 884
+, "Seat": 862
+, "Fiat": 802
+, "Citroën": 550
+, "Nissan": 516
+, "Opel": 516
+, "Subaru": 447
+, "Mitsubishi": 435
+, "Mazda": 431
+, "Hyundai": 412
+, "Dacia": 399
+, "Tesla": 366
+, "Mini": 324
+, "Lexus": 264
+, "Honda": 244
+, "Suzuki": 228
+, "Porsche": 222
+, "Jaguar": 136
+, "Jeep": 75
+, "Alfa Romeo": 73
+, "Land Rover": 61
+, "Chevrolet": 31
+, "DS Automobiles": 20
+, "Dodge": 1
+, "Maserati": 1
+, "Smart": 1
+, "other": 117
 });
 
-db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 199
 , "Tesla|Model 3": 198
 , "Kia|Niro EV": 140
 , "BMW|i3 BEV": 138
-, "Tesla|Model S": 112
 , "Kia|Soul EV": 112
+, "Tesla|Model S": 112
 , "Audi|Q8 e-tron": 80
 , "Volkswagen|e-Golf": 62
 , "Tesla|Model X": 56
@@ -341,15 +929,49 @@ db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 17
 , "Nissan|e-NV200": 8
 , "Volkswagen|e-up!": 5
-, "Opel|Corsa-e": 1
-, "other": 26
 });
 
-db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 33119
+db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5691
+, "Volkswagen": 3402
+, "Kia": 2504
+, "Toyota": 2222
+, "Audi": 2143
+, "Renault": 1967
+, "BMW": 1724
+, "Škoda": 1712
+, "Mercedes-Benz": 1328
+, "Tesla": 819
+, "Seat": 799
+, "Dacia": 797
+, "Ford": 787
+, "Peugeot": 753
+, "Fiat": 718
+, "Nissan": 574
+, "Mitsubishi": 514
+, "Mazda": 470
+, "Hyundai": 464
+, "Mini": 361
+, "Opel": 310
+, "Subaru": 305
+, "Honda": 241
+, "Citroën": 225
+, "Porsche": 225
+, "Suzuki": 214
+, "Jaguar": 143
+, "Lexus": 111
+, "Jeep": 85
+, "Land Rover": 71
+, "Alfa Romeo": 26
+, "Chevrolet": 17
+, "DS Automobiles": 16
+, "Cadillac": 3
+, "Smart": 2
+, "Maserati": 1
+, "other": 84
 });
 
-db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 524
 , "Renault|Zoe": 229
 , "Tesla|Model S": 209
@@ -363,18 +985,52 @@ db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 45
 , "Hyundai|Ioniq Electric": 28
 , "Jaguar|I-Pace": 9
-, "Volkswagen|e-up!": 6
 , "Nissan|e-NV200": 6
+, "Volkswagen|e-up!": 6
+, "Mercedes-Benz|EQC": 5
 , "Peugeot|iOn": 3
-, "Fiat|500e": 1
-, "other": 25
+, "other": 2
 });
 
-db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 24951
+db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4232
+, "Volkswagen": 2766
+, "Kia": 1929
+, "Toyota": 1720
+, "Škoda": 1418
+, "BMW": 1188
+, "Mercedes-Benz": 1068
+, "Audi": 1026
+, "Seat": 843
+, "Peugeot": 841
+, "Fiat": 620
+, "Tesla": 576
+, "Ford": 567
+, "Renault": 518
+, "Nissan": 512
+, "Mitsubishi": 445
+, "Citroën": 438
+, "Hyundai": 436
+, "Mazda": 357
+, "Opel": 312
+, "Subaru": 308
+, "Mini": 272
+, "Dacia": 208
+, "Suzuki": 208
+, "Honda": 202
+, "Porsche": 157
+, "Lexus": 133
+, "Jaguar": 96
+, "Jeep": 61
+, "Land Rover": 46
+, "Alfa Romeo": 36
+, "Chevrolet": 15
+, "DS Automobiles": 13
+, "Smart": 2
+, "other": 84
 });
 
-db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 453
 , "Renault|Zoe": 122
 , "Nissan|Leaf": 84
@@ -382,24 +1038,56 @@ db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 67
 , "Tesla|Model X": 53
 , "Audi|Q8 e-tron": 49
-, "Kia|Soul EV": 48
+, "Kia|Soul EV": 47
 , "Hyundai|Ioniq Electric": 32
 , "Volkswagen|e-Golf": 30
 , "Hyundai|Kona Electric": 29
 , "Kia|Niro EV": 18
 , "Jaguar|I-Pace": 13
 , "Volkswagen|e-up!": 5
-, "Fiat|500e": 3
+, "Mercedes-Benz|EQC": 2
 , "Nissan|e-NV200": 2
-, "Opel|Corsa-e": 1
-, "other": 4
 });
 
-db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 30493
+db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 4405
+, "Volvo": 4142
+, "Kia": 2255
+, "Toyota": 2189
+, "Audi": 1779
+, "Škoda": 1682
+, "Mercedes-Benz": 1563
+, "BMW": 1552
+, "Seat": 1144
+, "Nissan": 857
+, "Peugeot": 856
+, "Dacia": 775
+, "Renault": 763
+, "Ford": 586
+, "Fiat": 542
+, "Hyundai": 521
+, "Mazda": 441
+, "Mitsubishi": 427
+, "Subaru": 389
+, "Citroën": 370
+, "Mini": 324
+, "Tesla": 324
+, "Opel": 245
+, "Honda": 218
+, "Suzuki": 214
+, "Lexus": 188
+, "Porsche": 187
+, "Jeep": 106
+, "Land Rover": 78
+, "Chevrolet": 73
+, "Jaguar": 73
+, "Alfa Romeo": 64
+, "DS Automobiles": 19
+, "Cadillac": 15
+, "other": 111
 });
 
-db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 148
 , "Renault|Zoe": 138
 , "Nissan|Leaf": 119
@@ -413,16 +1101,50 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 28
 , "Jaguar|I-Pace": 11
 , "Hyundai|Kona Electric": 10
+, "Mercedes-Benz|EQC": 10
 , "Volkswagen|e-up!": 9
 , "Nissan|e-NV200": 8
-, "other": 21
 });
 
-db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 27728
+db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4268
+, "Volkswagen": 4111
+, "Kia": 2182
+, "Toyota": 1914
+, "BMW": 1600
+, "Mercedes-Benz": 1457
+, "Audi": 1363
+, "Škoda": 1225
+, "Tesla": 1002
+, "Hyundai": 717
+, "Ford": 698
+, "Renault": 675
+, "Nissan": 646
+, "Peugeot": 571
+, "Mazda": 540
+, "Seat": 521
+, "Fiat": 429
+, "Mitsubishi": 413
+, "Mini": 338
+, "Citroën": 323
+, "Subaru": 269
+, "Suzuki": 235
+, "Lexus": 216
+, "Honda": 202
+, "Opel": 194
+, "Dacia": 185
+, "Porsche": 134
+, "Jeep": 79
+, "Land Rover": 77
+, "Jaguar": 51
+, "Alfa Romeo": 22
+, "DS Automobiles": 22
+, "Chevrolet": 1
+, "Dodge": 1
+, "other": 76
 });
 
-db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 716
 , "Tesla|Model S": 197
 , "Renault|Zoe": 148
@@ -432,21 +1154,53 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 87
 , "Kia|Niro EV": 86
 , "BMW|i3 BEV": 69
-, "Hyundai|Ioniq Electric": 34
+, "Hyundai|Ioniq Electric": 35
 , "Hyundai|Kona Electric": 20
 , "Jaguar|I-Pace": 13
 , "Kia|Soul EV": 6
+, "Mercedes-Benz|EQC": 5
 , "Nissan|e-NV200": 4
-, "Fiat|500e": 3
 , "Volkswagen|e-up!": 2
-, "other": 16
 });
 
-db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 30493
+db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5215
+, "Volkswagen": 4939
+, "Kia": 2474
+, "Toyota": 2349
+, "BMW": 1802
+, "Audi": 1693
+, "Mercedes-Benz": 1609
+, "Škoda": 1270
+, "Nissan": 778
+, "Seat": 730
+, "Ford": 703
+, "Peugeot": 689
+, "Hyundai": 647
+, "Mazda": 559
+, "Mitsubishi": 522
+, "Renault": 487
+, "Fiat": 435
+, "Subaru": 390
+, "Opel": 358
+, "Mini": 338
+, "Porsche": 281
+, "Honda": 211
+, "Citroën": 205
+, "Suzuki": 190
+, "Lexus": 183
+, "Jeep": 102
+, "Alfa Romeo": 95
+, "Land Rover": 85
+, "Tesla": 83
+, "Dacia": 79
+, "Jaguar": 42
+, "DS Automobiles": 8
+, "Chevrolet": 1
+, "other": 78
 });
 
-db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 141
 , "Renault|Zoe": 128
 , "Kia|Niro EV": 104
@@ -461,16 +1215,48 @@ db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 15
 , "Kia|Soul EV": 9
 , "Nissan|e-NV200": 6
-, "Fiat|500e": 2
+, "Mercedes-Benz|EQC": 5
 , "Volkswagen|e-up!": 1
-, "other": 44
 });
 
-db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 31126
+db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5435
+, "Volkswagen": 5361
+, "Toyota": 2215
+, "Kia": 2027
+, "BMW": 1959
+, "Audi": 1906
+, "Mercedes-Benz": 1466
+, "Škoda": 1417
+, "Peugeot": 955
+, "Renault": 825
+, "Seat": 730
+, "Hyundai": 693
+, "Ford": 683
+, "Nissan": 630
+, "Mazda": 621
+, "Mitsubishi": 493
+, "Fiat": 401
+, "Subaru": 372
+, "Mini": 333
+, "Honda": 249
+, "Suzuki": 240
+, "Tesla": 230
+, "Dacia": 218
+, "Porsche": 217
+, "Lexus": 197
+, "Opel": 136
+, "Citroën": 134
+, "Alfa Romeo": 92
+, "Jeep": 82
+, "Land Rover": 71
+, "Jaguar": 36
+, "DS Automobiles": 10
+, "Smart": 1
+, "other": 66
 });
 
-db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Nissan|Leaf": 224
 , "Hyundai|Ioniq Electric": 114
 , "Renault|Zoe": 113
@@ -486,14 +1272,49 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 23
 , "Mini|Cooper SE Electric": 4
 , "Nissan|e-NV200": 2
-, "other": 32
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 48365
+db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 10297
+, "Volkswagen": 6677
+, "BMW": 2750
+, "Nissan": 2546
+, "Audi": 2336
+, "Mercedes-Benz": 2255
+, "Renault": 2240
+, "Toyota": 2222
+, "Škoda": 2030
+, "Kia": 1887
+, "Peugeot": 1771
+, "Subaru": 1676
+, "Ford": 1364
+, "Tesla": 1038
+, "Mazda": 1025
+, "Seat": 894
+, "Hyundai": 813
+, "Dacia": 660
+, "Mitsubishi": 612
+, "Fiat": 521
+, "Lexus": 370
+, "Suzuki": 353
+, "Opel": 332
+, "Mini": 329
+, "Honda": 311
+, "Porsche": 284
+, "Citroën": 133
+, "Jeep": 111
+, "Land Rover": 90
+, "Alfa Romeo": 55
+, "Jaguar": 51
+, "DS Automobiles": 32
+, "Smart": 3
+, "Maserati": 2
+, "Chevrolet": 1
+, "other": 57
 });
 
-db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2019/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 604
 , "Tesla|Model S": 288
 , "Tesla|Model X": 146
@@ -505,18 +1326,51 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 47
 , "Volkswagen|e-Golf": 19
 , "Jaguar|I-Pace": 13
+, "Mercedes-Benz|EQC": 11
 , "Volkswagen|e-up!": 11
 , "Kia|Niro EV": 8
 , "Kia|Soul EV": 5
 , "Nissan|e-NV200": 2
-, "other": 33
 });
 
-db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 17790
+db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 2853
+, "Volvo": 2793
+, "Kia": 1959
+, "Mercedes-Benz": 1144
+, "Toyota": 1101
+, "Audi": 1097
+, "BMW": 1077
+, "Škoda": 781
+, "Seat": 620
+, "Mitsubishi": 439
+, "Hyundai": 399
+, "Renault": 384
+, "Peugeot": 371
+, "Ford": 228
+, "Fiat": 203
+, "Opel": 179
+, "Mini": 177
+, "Tesla": 165
+, "Porsche": 126
+, "Nissan": 114
+, "Honda": 88
+, "Lexus": 86
+, "Citroën": 85
+, "Dacia": 68
+, "Suzuki": 65
+, "Subaru": 56
+, "Land Rover": 40
+, "Alfa Romeo": 23
+, "Jaguar": 22
+, "Jeep": 22
+, "Mazda": 7
+, "DS Automobiles": 3
+, "Polestar": 1
+, "other": 22
 });
 
-db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 282
 , "Renault|Zoe": 133
 , "Kia|Soul EV": 117
@@ -524,24 +1378,56 @@ db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 89
 , "Tesla|Model S": 83
 , "BMW|i3 BEV": 73
-, "Volkswagen|e-Golf": 67
 , "Tesla|Model 3": 67
+, "Volkswagen|e-Golf": 67
 , "Hyundai|Ioniq Electric": 66
 , "Volkswagen|e-up!": 39
 , "Hyundai|Kona Electric": 30
+, "Mercedes-Benz|EQC": 25
 , "Tesla|Model X": 15
 , "Jaguar|I-Pace": 14
 , "Seat|Mii Electric": 5
-, "Nissan|e-NV200": 2
 , "Mini|Cooper SE Electric": 2
-, "other": 68
+, "Nissan|e-NV200": 2
 });
 
-db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 22489
+db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4654
+, "Volkswagen": 3171
+, "Kia": 2191
+, "Toyota": 1684
+, "Audi": 1406
+, "Mercedes-Benz": 1405
+, "BMW": 1324
+, "Škoda": 1229
+, "Seat": 652
+, "Peugeot": 536
+, "Hyundai": 429
+, "Renault": 422
+, "Mitsubishi": 367
+, "Ford": 275
+, "Fiat": 259
+, "Mini": 220
+, "Nissan": 182
+, "Opel": 139
+, "Tesla": 139
+, "Citroën": 137
+, "Porsche": 137
+, "Dacia": 112
+, "Honda": 105
+, "Suzuki": 101
+, "Land Rover": 92
+, "Lexus": 89
+, "Jeep": 54
+, "Subaru": 42
+, "Alfa Romeo": 39
+, "Mazda": 36
+, "Jaguar": 34
+, "DS Automobiles": 8
+, "other": 24
 });
 
-db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 359
 , "Audi|Q8 e-tron": 208
 , "Renault|Zoe": 138
@@ -558,16 +1444,52 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 20
 , "Jaguar|I-Pace": 18
 , "Mini|Cooper SE Electric": 15
-, "Porsche|Taycan": 3
+, "Mercedes-Benz|EQC": 11
 , "Nissan|e-NV200": 3
+, "Porsche|Taycan": 3
+});
+
+db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5177
+, "Volkswagen": 3739
+, "Kia": 2497
+, "Audi": 2226
+, "Toyota": 1764
+, "BMW": 1675
+, "Mercedes-Benz": 1618
+, "Škoda": 1376
+, "Tesla": 1359
+, "Renault": 832
+, "Seat": 688
+, "Peugeot": 675
+, "Hyundai": 584
+, "Mitsubishi": 523
+, "Ford": 487
+, "Nissan": 343
+, "Porsche": 311
+, "Mini": 291
+, "Fiat": 276
+, "Dacia": 186
+, "Citroën": 183
+, "Suzuki": 164
+, "Lexus": 123
+, "Subaru": 102
+, "Opel": 96
+, "Land Rover": 78
+, "Honda": 72
+, "Mazda": 58
+, "DS Automobiles": 40
+, "Jaguar": 31
+, "Jeep": 22
+, "Alfa Romeo": 13
+, "Polestar": 4
+, "Dodge": 2
+, "Maserati": 1
+, "Smart": 1
 , "other": 32
 });
 
-db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 28535
-});
-
-db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 1084
 , "Audi|Q8 e-tron": 315
 , "Renault|Zoe": 310
@@ -579,33 +1501,71 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 96
 , "BMW|i3 BEV": 84
 , "Volkswagen|e-up!": 60
-, "Mini|Cooper SE Electric": 50
 , "Hyundai|Ioniq Electric": 50
+, "Mercedes-Benz|EQC": 50
+, "Mini|Cooper SE Electric": 50
 , "Porsche|Taycan": 42
 , "Škoda|Citigo-e": 33
-, "Seat|Mii Electric": 22
 , "Kia|Soul EV": 22
+, "Seat|Mii Electric": 22
 , "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 9
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "other": 67
+, "DS Automobiles|DS 3 Crossback E-Tense": 7
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 19831
+db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3082
+, "Volkswagen": 2678
+, "Mercedes-Benz": 1417
+, "Kia": 1334
+, "BMW": 1327
+, "Toyota": 1263
+, "Audi": 1248
+, "Škoda": 991
+, "Renault": 640
+, "Seat": 631
+, "Fiat": 593
+, "Peugeot": 566
+, "Ford": 512
+, "Hyundai": 423
+, "Nissan": 345
+, "Mini": 284
+, "Mitsubishi": 167
+, "Porsche": 154
+, "Dacia": 147
+, "Tesla": 141
+, "Citroën": 139
+, "Subaru": 123
+, "Mazda": 118
+, "Land Rover": 115
+, "Suzuki": 112
+, "Lexus": 104
+, "Opel": 87
+, "Honda": 61
+, "Jaguar": 19
+, "DS Automobiles": 18
+, "Jeep": 10
+, "Alfa Romeo": 2
+, "Chevrolet": 2
+, "Dodge": 1
+, "Polestar": 1
+, "Smart": 1
+, "other": 60
 });
 
-db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Renault|Zoe": 159
 , "Audi|Q8 e-tron": 146
 , "Nissan|Leaf": 139
-, "Tesla|Model 3": 76
 , "Hyundai|Kona Electric": 76
+, "Tesla|Model 3": 76
 , "BMW|i3 BEV": 64
 , "Volkswagen|e-up!": 62
 , "Tesla|Model S": 55
 , "Kia|Niro EV": 44
 , "Volkswagen|e-Golf": 38
+, "Mercedes-Benz|EQC": 36
 , "Hyundai|Ioniq Electric": 32
 , "Kia|Soul EV": 30
 , "Mini|Cooper SE Electric": 25
@@ -613,17 +1573,51 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 13
 , "Tesla|Model X": 10
 , "Seat|Mii Electric": 7
-, "Nissan|e-NV200": 5
 , "Jaguar|I-Pace": 5
+, "Nissan|e-NV200": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 46
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 16899
+db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 2536
+, "Volkswagen": 1738
+, "Kia": 1577
+, "Audi": 1102
+, "Mercedes-Benz": 1077
+, "Toyota": 1063
+, "BMW": 1041
+, "Škoda": 796
+, "Seat": 545
+, "Renault": 528
+, "Peugeot": 511
+, "Ford": 462
+, "Fiat": 433
+, "Hyundai": 422
+, "Nissan": 242
+, "Opel": 234
+, "Citroën": 226
+, "Mini": 208
+, "Mitsubishi": 155
+, "Mazda": 124
+, "Dacia": 120
+, "Porsche": 117
+, "Tesla": 109
+, "Lexus": 100
+, "Honda": 81
+, "Land Rover": 76
+, "Suzuki": 75
+, "Subaru": 74
+, "Jeep": 30
+, "Jaguar": 19
+, "DS Automobiles": 12
+, "Alfa Romeo": 11
+, "Chevrolet": 2
+, "Dodge": 1
+, "other": 34
 });
 
-db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|e-Golf": 135
 , "Hyundai|Kona Electric": 123
 , "Renault|Zoe": 98
@@ -633,25 +1627,60 @@ db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 52
 , "Kia|Niro EV": 29
 , "Tesla|Model S": 25
-, "Volkswagen|e-up!": 24
 , "Hyundai|Ioniq Electric": 24
+, "Volkswagen|e-up!": 24
 , "Kia|Soul EV": 18
 , "Tesla|Model X": 15
 , "Porsche|Taycan": 12
+, "Mercedes-Benz|EQC": 10
 , "Seat|Mii Electric": 9
-, "Nissan|e-NV200": 6
 , "Jaguar|I-Pace": 6
-, "Škoda|Citigo-e": 5
+, "Nissan|e-NV200": 6
 , "Mini|Cooper SE Electric": 5
+, "Škoda|Citigo-e": 5
 , "Honda|e": 4
-, "other": 22
+, "other": 5
 });
 
-db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 26058
+db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5829
+, "Volkswagen": 3460
+, "Audi": 1727
+, "Kia": 1663
+, "BMW": 1372
+, "Škoda": 1271
+, "Mercedes-Benz": 1117
+, "Toyota": 1067
+, "Renault": 944
+, "Peugeot": 913
+, "Fiat": 597
+, "Ford": 584
+, "Seat": 532
+, "Tesla": 466
+, "Hyundai": 445
+, "Porsche": 298
+, "Mitsubishi": 277
+, "Citroën": 267
+, "Mini": 240
+, "Opel": 233
+, "Nissan": 215
+, "Suzuki": 183
+, "Honda": 182
+, "Dacia": 172
+, "Mazda": 139
+, "Lexus": 115
+, "Subaru": 102
+, "Land Rover": 95
+, "Jeep": 46
+, "Jaguar": 21
+, "DS Automobiles": 18
+, "Polestar": 12
+, "Alfa Romeo": 9
+, "Smart": 3
+, "other": 133
 });
 
-db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 312
 , "Renault|Zoe": 299
 , "Audi|Q8 e-tron": 218
@@ -661,64 +1690,137 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 84
 , "Tesla|Model X": 68
 , "Volkswagen|e-Golf": 59
-, "Volkswagen|e-up!": 57
 , "BMW|i3 BEV": 57
+, "Volkswagen|e-up!": 57
 , "Porsche|Taycan": 37
+, "Volvo|other": 30
 , "Hyundai|Ioniq Electric": 27
-, "Kia|Soul EV": 23
 , "Honda|e": 23
+, "Kia|Soul EV": 23
 , "Seat|Mii Electric": 20
+, "Mercedes-Benz|EQC": 19
 , "Škoda|Citigo-e": 14
 , "Mini|Cooper SE Electric": 13
 , "Peugeot|e-208": 9
 , "Polestar|2": 6
 , "Jaguar|I-Pace": 5
-, "Volkswagen|e-Caddy": 1
 , "Nissan|e-NV200": 1
-, "other": 61
+, "Volkswagen|e-Caddy": 1
+, "other": 3
 });
 
-db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23804
+db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4623
+, "Volkswagen": 3015
+, "Kia": 2436
+, "Toyota": 1342
+, "Škoda": 1329
+, "Mercedes-Benz": 1214
+, "BMW": 1188
+, "Audi": 1155
+, "Peugeot": 893
+, "Ford": 593
+, "Seat": 581
+, "Renault": 535
+, "Fiat": 526
+, "Hyundai": 473
+, "Citroën": 409
+, "Porsche": 339
+, "Nissan": 334
+, "Mini": 224
+, "Mitsubishi": 176
+, "Opel": 164
+, "Dacia": 156
+, "Mazda": 152
+, "Jeep": 123
+, "Honda": 120
+, "Suzuki": 110
+, "Lexus": 108
+, "Subaru": 87
+, "Land Rover": 55
+, "Polestar": 50
+, "Jaguar": 29
+, "Alfa Romeo": 20
+, "DS Automobiles": 14
+, "Tesla": 11
+, "Dodge": 4
+, "SsangYong": 3
+, "other": 127
 });
 
-db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 229
 , "Audi|Q8 e-tron": 138
 , "Renault|Zoe": 136
 , "Volkswagen|e-Golf": 131
 , "Hyundai|Kona Electric": 122
 , "Porsche|Taycan": 88
+, "Mercedes-Benz|EQC": 72
 , "BMW|i3 BEV": 69
 , "Nissan|Leaf": 64
 , "Polestar|2": 50
 , "Volkswagen|e-up!": 48
 , "Mini|Cooper SE Electric": 31
 , "Hyundai|Ioniq Electric": 23
-, "Peugeot|e-2008": 19
 , "Kia|Soul EV": 19
+, "Peugeot|e-2008": 19
 , "Seat|Mii Electric": 15
-, "Opel|Corsa-e": 7
 , "Jaguar|I-Pace": 7
-, "Škoda|Citigo-e": 5
-, "Tesla|Model 3": 5
+, "Opel|Corsa-e": 7
 , "Peugeot|e-208": 5
+, "Tesla|Model 3": 5
+, "Škoda|Citigo-e": 5
 , "Tesla|Model X": 3
-, "Tesla|Model S": 2
 , "Honda|e": 2
-, "Tesla|Model Y": 1
-, "Nissan|e-NV200": 1
+, "Tesla|Model S": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 86
+, "Nissan|e-NV200": 1
+, "Tesla|Model Y": 1
+, "other": 10
 });
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 26545
+db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 3736
+, "Volvo": 3424
+, "Kia": 2819
+, "Toyota": 2500
+, "Audi": 1580
+, "Mercedes-Benz": 1523
+, "BMW": 1223
+, "Škoda": 1035
+, "Peugeot": 877
+, "Hyundai": 791
+, "Seat": 767
+, "Renault": 761
+, "Ford": 733
+, "Fiat": 518
+, "Nissan": 417
+, "Citroën": 369
+, "Polestar": 284
+, "Tesla": 239
+, "Mini": 223
+, "Mazda": 212
+, "Porsche": 205
+, "Suzuki": 162
+, "Dacia": 159
+, "Mitsubishi": 150
+, "Jeep": 140
+, "Honda": 139
+, "Lexus": 113
+, "Subaru": 111
+, "Opel": 79
+, "Land Rover": 58
+, "Jaguar": 31
+, "DS Automobiles": 20
+, "Alfa Romeo": 19
+, "SsangYong": 17
+, "Dodge": 1
+, "other": 87
 });
 
-db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 358
-, "Polestar|2": 268
+, "Polestar|2": 284
 , "Tesla|Model 3": 235
 , "Audi|Q8 e-tron": 233
 , "Hyundai|Kona Electric": 230
@@ -726,31 +1828,66 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 117
 , "Porsche|Taycan": 78
 , "Volkswagen|e-Golf": 65
+, "Mercedes-Benz|EQC": 57
 , "BMW|i3 BEV": 48
-, "Volkswagen|e-up!": 39
 , "Hyundai|Ioniq Electric": 39
+, "Volkswagen|e-up!": 39
 , "Mini|Cooper SE Electric": 34
 , "Kia|Soul EV": 28
 , "Peugeot|e-208": 22
 , "Škoda|Citigo-e": 13
 , "Peugeot|e-2008": 12
 , "Honda|e": 10
-, "Seat|Mii Electric": 8
 , "Jaguar|I-Pace": 8
+, "Seat|Mii Electric": 8
 , "Opel|Corsa-e": 5
-, "Tesla|Model S": 4
 , "Nissan|e-NV200": 4
+, "Tesla|Model S": 4
 , "Volkswagen|e-Caddy": 1
-, "other": 80
+, "other": 2
 });
 
-db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 29791
+db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4606
+, "Volkswagen": 3575
+, "Toyota": 2948
+, "Kia": 2331
+, "Mercedes-Benz": 1819
+, "Audi": 1709
+, "BMW": 1392
+, "Škoda": 1310
+, "Tesla": 1058
+, "Renault": 879
+, "Peugeot": 871
+, "Seat": 849
+, "Hyundai": 656
+, "Ford": 645
+, "Nissan": 612
+, "Polestar": 583
+, "Citroën": 374
+, "Fiat": 290
+, "Mazda": 281
+, "Mini": 264
+, "Suzuki": 257
+, "Mitsubishi": 220
+, "Dacia": 182
+, "Honda": 176
+, "Subaru": 139
+, "Lexus": 134
+, "Porsche": 125
+, "Opel": 119
+, "Jeep": 89
+, "Land Rover": 65
+, "Jaguar": 26
+, "Alfa Romeo": 17
+, "DS Automobiles": 13
+, "Dodge": 2
+, "other": 103
 });
 
-db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 754
-, "Polestar|2": 564
+, "Polestar|2": 582
 , "Volkswagen|ID.3": 460
 , "Kia|Niro EV": 233
 , "Renault|Zoe": 211
@@ -760,13 +1897,14 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 130
 , "Tesla|Model X": 115
 , "Mazda|MX-30": 75
+, "Mercedes-Benz|EQC": 74
 , "Volkswagen|e-Golf": 66
 , "BMW|i3 BEV": 64
 , "Volkswagen|e-up!": 63
 , "Peugeot|e-208": 42
-, "Škoda|Citigo-e": 36
-, "Peugeot|e-2008": 36
 , "Mini|Cooper SE Electric": 36
+, "Peugeot|e-2008": 36
+, "Škoda|Citigo-e": 36
 , "Honda|e": 31
 , "Hyundai|Ioniq Electric": 28
 , "Kia|Soul EV": 26
@@ -775,17 +1913,53 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 9
 , "Jaguar|I-Pace": 6
 , "Mercedes-Benz|EQV": 4
+, "NEVS|9-3EV": 4
 , "Nissan|e-NV200": 3
 , "Volkswagen|e-Caddy": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 109
+, "other": 3
 });
 
-db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 29037
+db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5139
+, "Volkswagen": 4515
+, "Toyota": 2693
+, "Kia": 2314
+, "Audi": 1808
+, "Mercedes-Benz": 1806
+, "BMW": 1384
+, "Škoda": 1207
+, "Peugeot": 990
+, "Seat": 715
+, "Nissan": 659
+, "Hyundai": 611
+, "Renault": 600
+, "Ford": 380
+, "Fiat": 366
+, "Citroën": 306
+, "Mazda": 295
+, "Suzuki": 294
+, "Mini": 293
+, "Polestar": 276
+, "Subaru": 243
+, "Honda": 195
+, "Mitsubishi": 186
+, "Opel": 181
+, "Dacia": 163
+, "Porsche": 147
+, "Lexus": 97
+, "Jeep": 76
+, "Tesla": 55
+, "Land Rover": 40
+, "Alfa Romeo": 21
+, "DS Automobiles": 13
+, "Jaguar": 11
+, "Chevrolet": 3
+, "Smart": 1
+, "other": 64
 });
 
-db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Polestar|2": 274
 , "Kia|Niro EV": 235
 , "Volkswagen|ID.3": 212
@@ -795,44 +1969,82 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 151
 , "Hyundai|Kona Electric": 125
 , "Mazda|MX-30": 103
+, "Mercedes-Benz|EQC": 98
 , "BMW|i3 BEV": 70
 , "Honda|e": 57
 , "Peugeot|e-208": 56
-, "Peugeot|e-2008": 51
-, "Porsche|Taycan": 48
+, "Peugeot|e-2008": 53
+, "Volvo|other": 53
 , "Mini|Cooper SE Electric": 48
+, "Porsche|Taycan": 48
 , "Kia|Soul EV": 36
-, "Tesla|Model 3": 34
 , "Hyundai|Ioniq Electric": 34
-, "Volkswagen|e-up!": 30
+, "Tesla|Model 3": 34
 , "Opel|Corsa-e": 30
+, "Volkswagen|e-up!": 30
 , "Škoda|Citigo-e": 24
 , "Tesla|Model S": 12
 , "Tesla|Model X": 9
 , "Jaguar|I-Pace": 7
-, "Volkswagen|e-Caddy": 3
 , "Mercedes-Benz|EQV": 3
+, "Volkswagen|e-Caddy": 3
 , "Nissan|e-NV200": 2
-, "Volvo|XC40 Recharge pure electric": 1
 , "Seat|Mii Electric": 1
-, "other": 169
+, "Volvo|XC40 Recharge pure electric": 1
+, "other": 1
 });
 
-db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 27443
+db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4842
+, "Volkswagen": 4411
+, "Toyota": 2695
+, "BMW": 1922
+, "Kia": 1705
+, "Mercedes-Benz": 1693
+, "Audi": 1618
+, "Peugeot": 923
+, "Škoda": 888
+, "Renault": 613
+, "Seat": 586
+, "Nissan": 572
+, "Hyundai": 517
+, "Ford": 422
+, "Mitsubishi": 389
+, "Subaru": 339
+, "Mini": 320
+, "Mazda": 274
+, "Citroën": 269
+, "Porsche": 225
+, "Polestar": 167
+, "Fiat": 159
+, "Opel": 147
+, "Suzuki": 143
+, "Tesla": 143
+, "Dacia": 126
+, "Honda": 110
+, "Lexus": 93
+, "Land Rover": 63
+, "Jeep": 58
+, "Jaguar": 30
+, "Alfa Romeo": 15
+, "DS Automobiles": 12
+, "Chevrolet": 3
+, "Smart": 1
+, "other": 78
 });
 
-db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.3": 773
 , "Nissan|Leaf": 230
 , "Polestar|2": 166
 , "Audi|Q8 e-tron": 161
 , "Kia|Niro EV": 160
 , "Renault|Zoe": 142
+, "Mercedes-Benz|EQC": 119
 , "Mazda|MX-30": 101
 , "Tesla|Model 3": 87
-, "Peugeot|e-2008": 84
 , "Hyundai|Kona Electric": 84
+, "Peugeot|e-2008": 84
 , "Volvo|XC40 Recharge pure electric": 80
 , "Porsche|Taycan": 74
 , "BMW|i3 BEV": 58
@@ -845,20 +2057,55 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 29
 , "Jaguar|I-Pace": 28
 , "Volkswagen|e-up!": 19
-, "Tesla|Model X": 16
 , "Honda|e": 16
+, "Tesla|Model X": 16
 , "Škoda|Citigo-e": 14
 , "Opel|Corsa-e": 4
 , "Nissan|e-NV200": 3
+, "NEVS|9-3EV": 2
 , "Peugeot|iOn": 1
-, "other": 149
+, "other": 8
 });
 
-db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 34974
+db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5986
+, "Volkswagen": 5926
+, "BMW": 2801
+, "Toyota": 2597
+, "Kia": 2365
+, "Mercedes-Benz": 2337
+, "Škoda": 2183
+, "Audi": 1375
+, "Tesla": 1064
+, "Seat": 1048
+, "Renault": 958
+, "Peugeot": 892
+, "Hyundai": 723
+, "Ford": 578
+, "Nissan": 534
+, "Mitsubishi": 491
+, "Mini": 313
+, "Polestar": 262
+, "Subaru": 240
+, "Suzuki": 236
+, "Opel": 221
+, "Mazda": 211
+, "Jeep": 184
+, "Citroën": 183
+, "Porsche": 182
+, "Fiat": 160
+, "Lexus": 154
+, "Honda": 153
+, "Dacia": 124
+, "Jaguar": 42
+, "DS Automobiles": 26
+, "Land Rover": 24
+, "Alfa Romeo": 21
+, "Chevrolet": 6
+, "other": 62
 });
 
-db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2020/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.3": 2569
 , "Tesla|Model 3": 736
 , "Hyundai|Kona Electric": 368
@@ -869,6 +2116,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 199
 , "Audi|Q8 e-tron": 181
 , "Volvo|XC40 Recharge pure electric": 177
+, "Mercedes-Benz|EQC": 140
 , "Tesla|Model X": 129
 , "Mazda|MX-30": 104
 , "Volkswagen|e-up!": 97
@@ -878,8 +2126,8 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 64
 , "Kia|Soul EV": 57
 , "Peugeot|e-2008": 56
-, "Škoda|Citigo-e": 54
 , "Porsche|Taycan": 54
+, "Škoda|Citigo-e": 54
 , "Mini|Cooper SE Electric": 50
 , "Volkswagen|e-Golf": 46
 , "Jaguar|I-Pace": 39
@@ -888,16 +2136,50 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 17
 , "Opel|Corsa-e": 11
 , "Seat|Mii Electric": 3
-, "Nissan|e-NV200": 1
 , "Ford|Mustang Mach-E": 1
-, "other": 120
+, "Nissan|e-NV200": 1
+, "other": 5
 });
 
-db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 21476
+db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4237
+, "Volkswagen": 2717
+, "Kia": 2001
+, "Toyota": 1808
+, "Mercedes-Benz": 1537
+, "BMW": 1367
+, "Audi": 1185
+, "Škoda": 922
+, "Seat": 716
+, "Peugeot": 596
+, "Nissan": 562
+, "Hyundai": 396
+, "Renault": 341
+, "Opel": 290
+, "Ford": 247
+, "Citroën": 208
+, "Subaru": 163
+, "Porsche": 154
+, "Polestar": 150
+, "Fiat": 133
+, "Mini": 129
+, "Lexus": 117
+, "Mazda": 112
+, "Mitsubishi": 91
+, "Dacia": 78
+, "Suzuki": 72
+, "Honda": 70
+, "Land Rover": 43
+, "Tesla": 33
+, "Jeep": 28
+, "DS Automobiles": 19
+, "Jaguar": 3
+, "Alfa Romeo": 1
+, "Chevrolet": 1
+, "other": 46
 });
 
-db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/1, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 230
 , "Polestar|2": 150
 , "Nissan|Leaf": 120
@@ -907,31 +2189,68 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 44
 , "Kia|Soul EV": 43
 , "Volvo|XC40 Recharge pure electric": 38
+, "Mercedes-Benz|EQC": 33
 , "Tesla|Model 3": 32
 , "Hyundai|Kona Electric": 30
 , "BMW|i3 BEV": 28
-, "Volkswagen|ID.3": 25
-, "Peugeot|e-208": 25
 , "Fiat|500e": 25
+, "Peugeot|e-208": 25
+, "Volkswagen|ID.3": 25
 , "Mini|Cooper SE Electric": 17
 , "Peugeot|e-2008": 12
 , "Opel|Corsa-e": 8
 , "Hyundai|Ioniq Electric": 5
 , "Volkswagen|e-Golf": 3
-, "Volkswagen|e-up!": 2
-, "Nissan|e-NV200": 2
 , "Honda|e": 2
-, "Tesla|Model X": 1
-, "Seat|Mii Electric": 1
+, "Nissan|e-NV200": 2
+, "Volkswagen|e-up!": 2
 , "Mercedes-Benz|eVito": 1
-, "other": 105
+, "Seat|Mii Electric": 1
+, "Tesla|Model X": 1
+, "other": 17
 });
 
-db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23586
+db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 5163
+, "Volkswagen": 2861
+, "Kia": 2206
+, "Toyota": 2019
+, "Mercedes-Benz": 1530
+, "BMW": 1319
+, "Audi": 1095
+, "Škoda": 1012
+, "Seat": 787
+, "Peugeot": 713
+, "Hyundai": 471
+, "Nissan": 469
+, "Renault": 395
+, "Ford": 341
+, "Citroën": 321
+, "Opel": 292
+, "Subaru": 191
+, "Porsche": 181
+, "Mitsubishi": 179
+, "Fiat": 168
+, "Polestar": 153
+, "Mazda": 140
+, "Tesla": 134
+, "Mini": 128
+, "Suzuki": 108
+, "Lexus": 100
+, "Dacia": 90
+, "Honda": 70
+, "Land Rover": 38
+, "Jeep": 27
+, "Jaguar": 19
+, "DS Automobiles": 18
+, "Alfa Romeo": 12
+, "Chevrolet": 3
+, "Cadillac": 1
+, "Dodge": 1
+, "other": 82
 });
 
-db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/2, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 165
 , "Polestar|2": 151
 , "Volkswagen|ID.3": 148
@@ -942,36 +2261,74 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 67
 , "Renault|Zoe": 54
 , "Kia|Soul EV": 44
-, "Porsche|Taycan": 34
 , "Hyundai|Kona Electric": 34
+, "Porsche|Taycan": 34
 , "BMW|i3 BEV": 27
-, "Volkswagen|ID.4": 26
 , "Opel|Corsa-e": 26
+, "Volkswagen|ID.4": 26
 , "Fiat|500e": 21
+, "Mercedes-Benz|EQC": 21
 , "Hyundai|Ioniq Electric": 13
 , "Škoda|Citigo-e": 11
-, "Peugeot|e-208": 10
-, "Nissan|e-NV200": 10
 , "Jaguar|I-Pace": 10
+, "Nissan|e-NV200": 10
+, "Peugeot|e-208": 10
 , "BMW|iX3": 9
 , "Mini|Cooper SE Electric": 8
 , "Mazda|MX-30": 5
-, "Volkswagen|e-Golf": 3
 , "Seat|Mii Electric": 3
-, "Volkswagen|e-up!": 2
-, "Mercedes-Benz|EQV": 2
+, "Volkswagen|e-Golf": 3
 , "Honda|e": 2
-, "Tesla|Model X": 1
-, "Mercedes-Benz|eVito": 1
+, "Mercedes-Benz|EQV": 2
+, "NEVS|9-3EV": 2
+, "Volkswagen|e-up!": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 61
+, "Mercedes-Benz|eVito": 1
+, "Tesla|Model X": 1
+, "other": 16
 });
 
-db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 48723
+db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 11866
+, "Volkswagen": 4651
+, "Toyota": 3649
+, "Kia": 3580
+, "BMW": 2601
+, "Mercedes-Benz": 2517
+, "Audi": 2031
+, "Škoda": 1815
+, "Peugeot": 1495
+, "Seat": 1478
+, "Nissan": 1254
+, "Tesla": 1192
+, "Renault": 1129
+, "Fiat": 1064
+, "Ford": 1020
+, "Hyundai": 984
+, "Citroën": 616
+, "Opel": 579
+, "Mazda": 547
+, "Subaru": 537
+, "Mitsubishi": 458
+, "Mini": 386
+, "Porsche": 344
+, "Dacia": 328
+, "Suzuki": 288
+, "Lexus": 278
+, "Honda": 171
+, "Polestar": 129
+, "Jeep": 105
+, "Land Rover": 104
+, "DS Automobiles": 40
+, "Jaguar": 25
+, "Alfa Romeo": 22
+, "Chevrolet": 5
+, "Maserati": 5
+, "Cadillac": 3
+, "other": 164
 });
 
-db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/3, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model 3": 1192
 , "Kia|Niro EV": 322
 , "Nissan|Leaf": 156
@@ -983,11 +2340,13 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 66
 , "Porsche|Taycan": 44
 , "Kia|Soul EV": 39
+, "Mercedes-Benz|EQC": 34
 , "Opel|Corsa-e": 34
 , "BMW|i3 BEV": 33
 , "Fiat|500e": 28
 , "Hyundai|Kona Electric": 26
 , "Mini|Cooper SE Electric": 26
+, "Mercedes-Benz|EQA": 19
 , "Mazda|MX-30": 18
 , "Peugeot|e-2008": 17
 , "BMW|iX3": 14
@@ -1006,14 +2365,50 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 , "Jaguar|I-Pace": 1
 , "Volkswagen|e-Golf": 1
-, "other": 76
+, "other": 7
 });
 
-db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23133
+db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 3464
+, "Volvo": 2592
+, "Kia": 2118
+, "Toyota": 2013
+, "Audi": 1891
+, "Mercedes-Benz": 1642
+, "BMW": 1300
+, "Škoda": 873
+, "Peugeot": 831
+, "Seat": 689
+, "Hyundai": 652
+, "Nissan": 394
+, "Renault": 357
+, "Citroën": 340
+, "Fiat": 329
+, "Mini": 325
+, "Ford": 324
+, "Opel": 320
+, "Polestar": 280
+, "Porsche": 245
+, "Dacia": 165
+, "Suzuki": 160
+, "Subaru": 101
+, "Lexus": 76
+, "Mazda": 72
+, "Honda": 69
+, "Mitsubishi": 42
+, "Land Rover": 39
+, "Jaguar": 24
+, "DS Automobiles": 16
+, "Tesla": 11
+, "Jeep": 7
+, "Alfa Romeo": 5
+, "Chevrolet": 4
+, "Dodge": 2
+, "Maserati": 1
+, "other": 98
 });
 
-db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/4, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 1444
 , "Volkswagen|ID.3": 469
 , "Kia|Niro EV": 403
@@ -1025,11 +2420,13 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 150
 , "Renault|Zoe": 138
 , "Peugeot|e-2008": 112
+, "Mercedes-Benz|EQC": 101
 , "Peugeot|e-208": 97
 , "Porsche|Taycan": 89
 , "BMW|i3 BEV": 67
 , "Kia|Soul EV": 67
 , "Mini|Cooper SE Electric": 61
+, "Mercedes-Benz|EQA": 57
 , "BMW|iX3": 49
 , "Opel|Corsa-e": 47
 , "Fiat|500e": 44
@@ -1053,14 +2450,50 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Dacia|Spring": 1
 , "Mercedes-Benz|eVito": 1
-, "other": 187
+, "other": 10
 });
 
-db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 25713
+db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 3541
+, "Volvo": 2681
+, "Toyota": 2353
+, "Kia": 2127
+, "Audi": 1727
+, "Mercedes-Benz": 1623
+, "BMW": 1459
+, "Škoda": 1428
+, "Peugeot": 1008
+, "Seat": 839
+, "Hyundai": 676
+, "Fiat": 573
+, "Renault": 526
+, "Ford": 402
+, "Opel": 380
+, "Citroën": 370
+, "Mini": 345
+, "Nissan": 330
+, "Polestar": 277
+, "Porsche": 241
+, "Dacia": 234
+, "Tesla": 228
+, "Suzuki": 166
+, "Mazda": 163
+, "Lexus": 109
+, "Subaru": 109
+, "Honda": 86
+, "Land Rover": 40
+, "Jeep": 38
+, "Jaguar": 35
+, "Mitsubishi": 27
+, "MG": 15
+, "DS Automobiles": 12
+, "Alfa Romeo": 10
+, "Chevrolet": 4
+, "Dodge": 1
+, "other": 144
 });
 
-db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/5, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 693
 , "Kia|Niro EV": 430
 , "Škoda|Enyaq": 364
@@ -1074,14 +2507,17 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 91
 , "Mazda|MX-30": 75
 , "Peugeot|e-208": 72
+, "Mercedes-Benz|EQC": 68
 , "Fiat|500e": 65
 , "Porsche|Taycan": 62
 , "Kia|Soul EV": 49
+, "Mercedes-Benz|EQA": 44
 , "Opel|Mokka-e": 44
 , "BMW|i3 BEV": 43
 , "Mini|Cooper SE Electric": 36
 , "BMW|iX3": 34
 , "Peugeot|e-2008": 34
+, "Volvo|other": 33
 , "Hyundai|Ioniq Electric": 26
 , "Seat|Mii Electric": 19
 , "Audi|e-tron GT": 18
@@ -1099,14 +2535,52 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Toyota|Proace Electric": 2
 , "Peugeot|e-Expert": 1
-, "other": 170
+, "other": 2
 });
 
-db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 37638
+db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 5368
+, "Volvo": 5295
+, "Kia": 2939
+, "Toyota": 2757
+, "Škoda": 1967
+, "Audi": 1962
+, "MG": 1685
+, "Mercedes-Benz": 1665
+, "BMW": 1606
+, "Tesla": 1499
+, "Peugeot": 1400
+, "Hyundai": 973
+, "Seat": 959
+, "Renault": 923
+, "Ford": 880
+, "Fiat": 579
+, "Citroën": 467
+, "Opel": 396
+, "Polestar": 388
+, "Nissan": 349
+, "Mini": 334
+, "Subaru": 220
+, "Dacia": 205
+, "Porsche": 200
+, "Mazda": 188
+, "Suzuki": 171
+, "Lexus": 157
+, "Honda": 126
+, "Mitsubishi": 56
+, "Alfa Romeo": 40
+, "Jeep": 37
+, "Land Rover": 32
+, "DS Automobiles": 25
+, "Jaguar": 14
+, "Chevrolet": 6
+, "Dodge": 1
+, "Maserati": 1
+, "Smart": 1
+, "other": 224
 });
 
-db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/6, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "MG|ZS EV": 1665
 , "Tesla|Model 3": 1499
 , "Volkswagen|ID.4": 1229
@@ -1123,7 +2597,9 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 114
 , "Mini|Cooper SE Electric": 97
 , "Peugeot|e-2008": 94
+, "Mercedes-Benz|EQC": 87
 , "Hyundai|Kona Electric": 80
+, "Mercedes-Benz|EQA": 76
 , "BMW|i3 BEV": 68
 , "Fiat|500e": 59
 , "Opel|Mokka-e": 59
@@ -1146,14 +2622,49 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 2
 , "Škoda|Citigo-e": 2
 , "Mercedes-Benz|eVito": 1
-, "other": 200
+, "other": 18
 });
 
-db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 18110
+db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 2210
+, "Kia": 2053
+, "Volvo": 1883
+, "Toyota": 1625
+, "Audi": 929
+, "BMW": 904
+, "Mercedes-Benz": 885
+, "Peugeot": 754
+, "Škoda": 668
+, "Seat": 599
+, "Hyundai": 509
+, "Ford": 483
+, "Fiat": 469
+, "Citroën": 421
+, "Opel": 316
+, "Renault": 284
+, "Nissan": 281
+, "Subaru": 230
+, "MG": 201
+, "Dacia": 171
+, "Mini": 156
+, "Porsche": 151
+, "Mazda": 126
+, "Suzuki": 122
+, "Lexus": 111
+, "Honda": 57
+, "Land Rover": 27
+, "Polestar": 27
+, "Alfa Romeo": 25
+, "Jeep": 22
+, "Jaguar": 17
+, "DS Automobiles": 13
+, "Tesla": 6
+, "Chevrolet": 2
+, "Mitsubishi": 1
+, "other": 40
 });
 
-db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/7, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 587
 , "Volkswagen|ID.3": 206
 , "Ford|Mustang Mach-E": 177
@@ -1167,12 +2678,14 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 62
 , "Peugeot|e-2008": 52
 , "BMW|i3 BEV": 51
+, "Mercedes-Benz|EQA": 49
 , "Audi|Q8 e-tron": 48
 , "Fiat|500e": 47
 , "Mazda|MX-30": 45
 , "Citroën|ë-C4": 40
 , "Volvo|XC40 Recharge pure electric": 40
 , "Renault|Zoe": 38
+, "Mercedes-Benz|EQC": 35
 , "Audi|e-tron GT": 33
 , "Hyundai|Kona Electric": 33
 , "Porsche|Taycan": 31
@@ -1194,14 +2707,51 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Peugeot|e-Expert": 1
 , "Volkswagen|e-up!": 1
-, "other": 111
+, "other": 6
 });
 
-db.insert(db.countries.SE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 20925
+db.insert(db.countries.SE, "2021-08", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 2558
+, "Kia": 2338
+, "Toyota": 1771
+, "Volvo": 1555
+, "BMW": 1190
+, "Ford": 1069
+, "Mercedes-Benz": 1044
+, "Audi": 1027
+, "Škoda": 784
+, "Hyundai": 690
+, "Peugeot": 688
+, "Seat": 585
+, "MG": 517
+, "Dacia": 480
+, "Renault": 464
+, "Fiat": 383
+, "Opel": 354
+, "Nissan": 342
+, "Citroën": 311
+, "Mazda": 270
+, "Tesla": 249
+, "Subaru": 182
+, "Mini": 173
+, "Porsche": 138
+, "Suzuki": 116
+, "Lexus": 112
+, "Polestar": 107
+, "Honda": 73
+, "Land Rover": 37
+, "Alfa Romeo": 33
+, "Jeep": 17
+, "Jaguar": 15
+, "DS Automobiles": 10
+, "Chevrolet": 2
+, "Cadillac": 1
+, "Dodge": 1
+, "Smart": 1
+, "other": 121
 });
 
-db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/8, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 731
 , "Volkswagen|ID.4": 553
 , "MG|ZS EV": 465
@@ -1221,8 +2771,10 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 83
 , "BMW|i3 BEV": 79
 , "BMW|iX3": 79
+, "Mercedes-Benz|EQC": 73
 , "Fiat|500e": 68
 , "Kia|Soul EV": 68
+, "Mercedes-Benz|EQA": 67
 , "Hyundai|Ioniq 5": 60
 , "Porsche|Taycan": 49
 , "Audi|e-tron GT": 45
@@ -1231,6 +2783,7 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 32
 , "Opel|Mokka-e": 32
 , "Citroën|ë-C4": 29
+, "Volvo|other": 27
 , "Hyundai|Ioniq Electric": 23
 , "Toyota|Proace Electric": 14
 , "Seat|Mii Electric": 12
@@ -1243,14 +2796,50 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Peugeot|e-Expert": 1
 , "Volkswagen|e-up!": 1
-, "other": 197
+, "other": 5
 });
 
-db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 23745
+db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Kia": 2869
+, "Volkswagen": 2530
+, "Volvo": 2085
+, "Tesla": 1979
+, "Toyota": 1421
+, "Ford": 1170
+, "Mercedes-Benz": 1058
+, "Audi": 985
+, "BMW": 974
+, "MG": 970
+, "Škoda": 880
+, "Hyundai": 800
+, "Peugeot": 564
+, "Seat": 501
+, "Renault": 481
+, "Nissan": 422
+, "Opel": 384
+, "Fiat": 331
+, "Subaru": 318
+, "Citroën": 307
+, "Mazda": 270
+, "Suzuki": 192
+, "Polestar": 189
+, "Dacia": 168
+, "Lexus": 115
+, "Honda": 98
+, "Mini": 96
+, "Porsche": 91
+, "Land Rover": 53
+, "Jeep": 25
+, "DS Automobiles": 19
+, "Jaguar": 15
+, "Alfa Romeo": 12
+, "Cadillac": 3
+, "Chevrolet": 3
+, "Maserati": 1
+, "other": 255
 });
 
-db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/9, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 1213
 , "Kia|Niro EV": 858
 , "MG|ZS EV": 854
@@ -1280,6 +2869,7 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 34
 , "Opel|Mokka-e": 30
 , "Porsche|Taycan": 30
+, "Volvo|other": 30
 , "Citroën|ë-C4": 27
 , "Peugeot|e-208": 27
 , "Audi|e-tron GT": 20
@@ -1297,14 +2887,51 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Opel|Zafira-e": 1
 , "Volkswagen|e-Caddy": 1
-, "other": 66
+, "other": 4
 });
 
-db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 20916
+db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3074
+, "Kia": 2571
+, "Volkswagen": 2219
+, "Toyota": 1476
+, "Mercedes-Benz": 1082
+, "BMW": 920
+, "Ford": 890
+, "Škoda": 878
+, "Hyundai": 812
+, "Audi": 781
+, "Peugeot": 548
+, "MG": 531
+, "Renault": 496
+, "Nissan": 476
+, "Seat": 411
+, "Polestar": 379
+, "Opel": 346
+, "Subaru": 272
+, "Citroën": 247
+, "Fiat": 199
+, "Suzuki": 192
+, "Mazda": 188
+, "Mini": 162
+, "Porsche": 154
+, "Dacia": 135
+, "Lexus": 107
+, "Honda": 77
+, "Tesla": 36
+, "Land Rover": 35
+, "Jeep": 26
+, "DS Automobiles": 22
+, "Jaguar": 17
+, "Mitsubishi": 8
+, "Alfa Romeo": 6
+, "Chevrolet": 5
+, "Maserati": 2
+, "Cadillac": 1
+, "other": 181
 });
 
-db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/10, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 640
 , "Škoda|Enyaq": 380
 , "Polestar|2": 379
@@ -1352,14 +2979,50 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 2
 , "Mercedes-Benz|eVito": 1
 , "Opel|Zafira-e": 1
-, "other": 90
+, "other": 29
 });
 
-db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 22093
+db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3334
+, "Kia": 2679
+, "Volkswagen": 2251
+, "Toyota": 1407
+, "BMW": 1262
+, "Ford": 1168
+, "Mercedes-Benz": 1060
+, "Renault": 807
+, "Škoda": 800
+, "Hyundai": 729
+, "Peugeot": 694
+, "Nissan": 597
+, "Audi": 591
+, "Polestar": 443
+, "Seat": 333
+, "Opel": 328
+, "MG": 308
+, "Citroën": 303
+, "Tesla": 299
+, "Mini": 238
+, "Porsche": 185
+, "Suzuki": 179
+, "Subaru": 173
+, "Fiat": 172
+, "Mazda": 121
+, "Dacia": 107
+, "Honda": 76
+, "Lexus": 53
+, "Cupra": 43
+, "DS Automobiles": 34
+, "Land Rover": 16
+, "Jaguar": 10
+, "Jeep": 8
+, "Mitsubishi": 7
+, "Chevrolet": 4
+, "Cadillac": 1
+, "other": 236
 });
 
-db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/11, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 583
 , "Nissan|Leaf": 448
 , "Polestar|2": 443
@@ -1408,14 +3071,53 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Combo-e": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Jaguar|I-Pace": 2
-, "other": 100
+, "other": 19
 });
 
-db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx TODO: numbers per brand wanted",
-{ "other": 28255
+db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 4455
+, "Volkswagen": 3534
+, "Tesla": 2414
+, "Kia": 2386
+, "Toyota": 1625
+, "Ford": 1571
+, "Renault": 1532
+, "BMW": 1303
+, "Hyundai": 1131
+, "Mercedes-Benz": 1092
+, "Nissan": 889
+, "Audi": 860
+, "Škoda": 811
+, "Peugeot": 553
+, "Seat": 354
+, "Polestar": 342
+, "Citroën": 328
+, "Porsche": 307
+, "Mini": 292
+, "MG": 281
+, "Dacia": 231
+, "Suzuki": 224
+, "Subaru": 206
+, "Opel": 145
+, "Honda": 101
+, "Fiat": 91
+, "Lexus": 91
+, "Cupra": 66
+, "Mazda": 65
+, "Land Rover": 64
+, "Jeep": 24
+, "DS Automobiles": 23
+, "Chevrolet": 12
+, "Cadillac": 11
+, "Alfa Romeo": 5
+, "Jaguar": 5
+, "Mitsubishi": 3
+, "Maserati": 1
+, "Smart": 1
+, "other": 176
 });
 
-db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SE/Brands/Month/2021/12, https://www.trafa.se/link/edf4fd90390247cd9bde205620369e4e.aspx",
+db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 1532
 , "Volkswagen|ID.4": 1103
 , "Renault|Zoe": 1030
@@ -1464,7 +3166,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 4
 , "Toyota|Proace Electric": 3
 , "Opel|Combo-e": 2
-, "other": 50
+, "other": 12
 });
 
 db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
