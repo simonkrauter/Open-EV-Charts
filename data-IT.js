@@ -2629,7 +2629,7 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 9475
 });
 
-db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3",
+db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3, https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
 { "Tesla|Model Y": 1697
 , "Tesla|Model 3": 1123
 , "Smart|Fortwo ED": 554
