@@ -1052,6 +1052,7 @@ db.insert(db.countries.DK, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 6
 , "Audi|e-tron GT": 5
 , "BMW|iX3": 5
+, "Maxus|Euniq 5": 5
 , "Mercedes-Benz|EQS": 5
 , "BMW|i4": 3
 , "Kia|Soul EV": 3
@@ -1061,7 +1062,7 @@ db.insert(db.countries.DK, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Jaguar|I-Pace": 1
 , "Volkswagen|e-Golf": 1
-, "other": 18
+, "other": 13
 });
 
 db.insert(db.countries.DK, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf TODO: numbers per brand wanted",
@@ -1107,6 +1108,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 9
 , "Audi|e-tron GT": 9
 , "BMW|iX3": 8
+, "Maxus|Euniq 5": 6
 , "Mercedes-Benz|EQV": 6
 , "Renault|Megane E-Tech": 6
 , "Roewe|Ei5": 6
@@ -1117,7 +1119,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 2
 , "Toyota|Proace Electric": 2
 , "Volkswagen|ID.5": 2
-, "other": 21
+, "other": 15
 });
 
 db.insert(db.countries.DK, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf TODO: numbers per brand wanted",
@@ -1224,12 +1226,13 @@ db.insert(db.countries.DK, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Audi|e-tron GT": 6
 , "Citroën|Berlingo Electric": 4
+, "Maxus|Euniq 5": 4
 , "Tesla|Model Y": 4
 , "Toyota|Proace Electric": 4
 , "Opel|Combo-e": 3
 , "Jaguar|I-Pace": 2
 , "Lexus|UX 300e": 2
-, "other": 14
+, "other": 10
 });
 
 db.insert(db.countries.DK, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf TODO: numbers per brand wanted",
@@ -1281,9 +1284,10 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 7
 , "Citroën|Berlingo Electric": 6
 , "Lexus|UX 300e": 6
+, "Maxus|Euniq 5": 5
 , "Roewe|Ei5": 5
 , "Opel|Mokka-e": 4
-, "other": 27
+, "other": 22
 });
 
 db.insert(db.countries.DK, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -1337,9 +1341,10 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 3
 , "Jaguar|I-Pace": 3
 , "Kia|Niro EV": 3
+, "Maxus|Euniq 5": 3
 , "Tesla|Model 3": 3
 , "Mazda|MX-30": 2
-, "other": 19
+, "other": 16
 });
 
 db.insert(db.countries.DK, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
@@ -1389,13 +1394,14 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 9
 , "Fiat|500e": 8
 , "MG|Marvel R": 7
+, "Maxus|Euniq 5": 7
 , "Citroën|ë-C4": 6
 , "Opel|Zafira-e": 5
 , "Toyota|Proace Electric": 5
 , "Audi|e-tron GT": 4
 , "Opel|Corsa-e": 4
 , "Citroën|ë-SpaceTourer": 3
-, "other": 29
+, "other": 22
 });
 
 db.insert(db.countries.DK, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf TODO: numbers per brand wanted",
@@ -1448,9 +1454,10 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 4
 , "Mercedes-Benz|eVito": 4
 , "Citroën|Berlingo Electric": 3
+, "Maxus|Euniq 5": 3
 , "Opel|Combo-e": 3
 , "Opel|Zafira-e": 3
-, "other": 34
+, "other": 31
 });
 
 db.insert(db.countries.DK, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf TODO: numbers per brand wanted",
