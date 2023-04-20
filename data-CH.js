@@ -4847,7 +4847,7 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Škoda": 1697
 , "Toyota": 1304
 , "Tesla": 1252
-, "Seat": 1145
+, "Seat": 1146
 , "Ford": 1096
 , "Dacia": 932
 , "Hyundai": 865
@@ -4882,7 +4882,6 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Chevrolet": 8
 , "Aiways": 5
 , "Chrysler": 1
-, "Cupra": 1
 , "Dodge": 1
 , "other": 143
 });
