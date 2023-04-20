@@ -4686,7 +4686,7 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 106
 });
 
-db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1 (includes commercial vehicles)",
+db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Škoda|Enyaq": 338
 , "Audi|Q4 e-tron": 203
 , "Hyundai|Ioniq 5": 184
@@ -4785,7 +4785,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 123
 });
 
-db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/2 (includes commercial vehicles)",
+db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/2 (includes commercial vehicles), https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
 { "Volvo|XC40 Recharge pure electric": 269
 , "Audi|Q4 e-tron": 264
 , "Škoda|Enyaq": 201
