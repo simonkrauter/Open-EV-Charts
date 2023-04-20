@@ -93,8 +93,8 @@ db.insert(db.countries.DK, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.DK, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2020/4",
 { "Tesla|Model 3": 86
 , "Volkswagen|e-Golf": 46
-, "Mini|Cooper SE Electric": 45
 , "Kia|Niro EV": 45
+, "Mini|Cooper SE Electric": 45
 , "Renault|Zoe": 34
 , "Hyundai|Kona Electric": 28
 , "Volkswagen|e-up!": 18
@@ -103,14 +103,14 @@ db.insert(db.countries.DK, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 9
 , "Hyundai|Ioniq Electric": 8
 , "Tesla|Model S": 6
-, "Tesla|Model X": 4
 , "Porsche|Taycan": 4
-, "Kia|Soul EV": 3
+, "Tesla|Model X": 4
 , "BMW|i3 BEV": 3
-, "Škoda|Citigo-e": 2
+, "Kia|Soul EV": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Mercedes-Benz|EQC": 1
+, "Škoda|Citigo-e": 2
 , "Jaguar|I-Pace": 1
+, "Mercedes-Benz|EQC": 1
 , "other": 2
 });
 
@@ -127,20 +127,20 @@ db.insert(db.countries.DK, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 21
 , "Nissan|Leaf": 14
 , "Volkswagen|e-up!": 9
-, "MG|ZS EV": 8
 , "Hyundai|Ioniq Electric": 8
-, "Škoda|Citigo-e": 6
+, "MG|ZS EV": 8
 , "Tesla|Model S": 6
-, "Mini|Cooper SE Electric": 4
+, "Škoda|Citigo-e": 6
 , "Jaguar|I-Pace": 4
-, "Tesla|Model X": 3
-, "Seat|Mii Electric": 3
-, "Kia|Soul EV": 3
+, "Mini|Cooper SE Electric": 4
 , "BMW|i3 BEV": 3
-, "Porsche|Taycan": 2
+, "Kia|Soul EV": 3
+, "Seat|Mii Electric": 3
+, "Tesla|Model X": 3
 , "Mercedes-Benz|EQC": 2
-, "Honda|e": 1
+, "Porsche|Taycan": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "Honda|e": 1
 , "other": 5
 });
 
@@ -160,17 +160,17 @@ db.insert(db.countries.DK, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 21
 , "Honda|e": 18
 , "Tesla|Model X": 16
-, "Tesla|Model S": 14
 , "Porsche|Taycan": 14
+, "Tesla|Model S": 14
 , "Seat|Mii Electric": 13
-, "Škoda|Citigo-e": 12
 , "Hyundai|Ioniq Electric": 12
+, "Škoda|Citigo-e": 12
 , "BMW|i3 BEV": 7
 , "Mini|Cooper SE Electric": 5
 , "Kia|Soul EV": 3
 , "Mercedes-Benz|EQC": 2
-, "Jaguar|I-Pace": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "Jaguar|I-Pace": 1
 , "other": 4
 });
 
@@ -189,20 +189,20 @@ db.insert(db.countries.DK, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 23
 , "Volkswagen|e-up!": 20
 , "Tesla|Model 3": 19
-, "Škoda|Citigo-e": 18
 , "Mercedes-Benz|EQC": 18
+, "Škoda|Citigo-e": 18
 , "Seat|Mii Electric": 17
 , "Hyundai|Ioniq Electric": 15
 , "Mini|Cooper SE Electric": 9
 , "BMW|i3 BEV": 6
-, "Kia|Soul EV": 5
 , "Honda|e": 5
+, "Kia|Soul EV": 5
 , "Nissan|e-NV200": 4
-, "Volkswagen|e-Crafter": 1
-, "Tesla|Model X": 1
-, "Tesla|Model S": 1
-, "Polestar|2": 1
 , "Jaguar|I-Pace": 1
+, "Polestar|2": 1
+, "Tesla|Model S": 1
+, "Tesla|Model X": 1
+, "Volkswagen|e-Crafter": 1
 , "other": 2
 });
 
@@ -221,22 +221,22 @@ db.insert(db.countries.DK, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 40
 , "Peugeot|e-2008": 38
 , "Porsche|Taycan": 33
-, "Nissan|Leaf": 25
 , "Mercedes-Benz|EQC": 25
+, "Nissan|Leaf": 25
 , "Hyundai|Ioniq Electric": 18
-, "Volkswagen|e-up!": 16
 , "Seat|Mii Electric": 16
+, "Volkswagen|e-up!": 16
 , "Volkswagen|e-Golf": 15
 , "Škoda|Citigo-e": 9
 , "BMW|i3 BEV": 7
 , "Honda|e": 4
 , "Jaguar|I-Pace": 3
-, "Tesla|Model X": 2
 , "Kia|Soul EV": 2
-, "Tesla|Model S": 1
-, "Opel|Corsa-e": 1
-, "Mercedes-Benz|EQV": 1
+, "Tesla|Model X": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "Mercedes-Benz|EQV": 1
+, "Opel|Corsa-e": 1
+, "Tesla|Model S": 1
 , "other": 4
 });
 
@@ -252,15 +252,15 @@ db.insert(db.countries.DK, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 92
 , "Mazda|MX-30": 73
 , "Mini|Cooper SE Electric": 57
-, "Peugeot|e-2008": 54
 , "Nissan|Leaf": 54
+, "Peugeot|e-2008": 54
 , "Tesla|Model X": 44
 , "MG|ZS EV": 40
 , "Volkswagen|e-up!": 38
 , "Tesla|Model S": 37
 , "Porsche|Taycan": 35
-, "Peugeot|e-208": 34
 , "Mercedes-Benz|EQC": 34
+, "Peugeot|e-208": 34
 , "Audi|Q8 e-tron": 29
 , "Seat|Mii Electric": 28
 , "Hyundai|Ioniq Electric": 21
@@ -294,21 +294,21 @@ db.insert(db.countries.DK, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 34
 , "Hyundai|Ioniq Electric": 22
 , "Tesla|Model 3": 21
-, "Volkswagen|e-up!": 17
 , "Seat|Mii Electric": 17
+, "Volkswagen|e-up!": 17
 , "Honda|e": 11
 , "Škoda|Citigo-e": 10
 , "Jaguar|I-Pace": 9
-, "Kia|Soul EV": 8
 , "BMW|i3 BEV": 8
+, "Kia|Soul EV": 8
 , "Volkswagen|e-Golf": 5
 , "Tesla|Model X": 4
 , "Tesla|Model S": 3
-, "Nissan|e-NV200": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Smart|Fortwo ED": 1
-, "Polestar|2": 1
+, "Nissan|e-NV200": 2
 , "Mercedes-Benz|EQV": 1
+, "Polestar|2": 1
+, "Smart|Fortwo ED": 1
 , "other": 5
 });
 
@@ -326,11 +326,11 @@ db.insert(db.countries.DK, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 66
 , "Peugeot|e-208": 64
 , "Porsche|Taycan": 50
-, "Seat|Mii Electric": 49
 , "Jaguar|I-Pace": 49
-, "Peugeot|e-2008": 47
-, "Mercedes-Benz|EQC": 47
+, "Seat|Mii Electric": 49
 , "MG|ZS EV": 47
+, "Mercedes-Benz|EQC": 47
+, "Peugeot|e-2008": 47
 , "Nissan|Leaf": 41
 , "Tesla|Model S": 39
 , "Mazda|MX-30": 38
@@ -343,9 +343,9 @@ db.insert(db.countries.DK, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Nissan|e-NV200": 2
-, "Volkswagen|e-Golf": 1
-, "Opel|Corsa-e": 1
 , "Kia|Soul EV": 1
+, "Opel|Corsa-e": 1
+, "Volkswagen|e-Golf": 1
 , "other": 14
 });
 
@@ -364,10 +364,10 @@ db.insert(db.countries.DK, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 109
 , "Audi|Q8 e-tron": 90
 , "Fiat|500e": 84
-, "Tesla|Model X": 72
 , "Mazda|MX-30": 72
-, "Mercedes-Benz|EQC": 58
+, "Tesla|Model X": 72
 , "MG|ZS EV": 58
+, "Mercedes-Benz|EQC": 58
 , "Volkswagen|e-up!": 54
 , "Peugeot|e-208": 52
 , "Opel|Corsa-e": 46
@@ -379,13 +379,13 @@ db.insert(db.countries.DK, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 25
 , "Hyundai|Ioniq Electric": 20
 , "BMW|i3 BEV": 17
-, "Škoda|Citigo-e": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Volkswagen|e-Crafter": 1
-, "Polestar|2": 1
-, "Nissan|e-NV200": 1
-, "Mercedes-Benz|eVito": 1
+, "Škoda|Citigo-e": 2
 , "Ford|Mustang Mach-E": 1
+, "Mercedes-Benz|eVito": 1
+, "Nissan|e-NV200": 1
+, "Polestar|2": 1
+, "Volkswagen|e-Crafter": 1
 , "other": 34
 });
 
@@ -401,26 +401,26 @@ db.insert(db.countries.DK, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 40
 , "Hyundai|Kona Electric": 24
 , "Fiat|500e": 22
-, "Seat|Mii Electric": 21
 , "Mini|Cooper SE Electric": 21
+, "Seat|Mii Electric": 21
 , "Mercedes-Benz|EQC": 20
 , "Tesla|Model 3": 18
-, "Peugeot|e-208": 15
 , "MG|ZS EV": 15
-, "Opel|Corsa-e": 12
+, "Peugeot|e-208": 15
 , "BMW|i3 BEV": 12
+, "Opel|Corsa-e": 12
 , "Peugeot|e-2008": 10
 , "Hyundai|Ioniq Electric": 9
 , "Volkswagen|e-up!": 6
 , "Nissan|Leaf": 3
-, "Mazda|MX-30": 2
-, "Jaguar|I-Pace": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Škoda|Citigo-e": 1
-, "Volkswagen|e-Crafter": 1
-, "Tesla|Model S": 1
-, "Mercedes-Benz|eVito": 1
+, "Jaguar|I-Pace": 2
+, "Mazda|MX-30": 2
 , "Honda|e": 1
+, "Mercedes-Benz|eVito": 1
+, "Tesla|Model S": 1
+, "Volkswagen|e-Crafter": 1
+, "Škoda|Citigo-e": 1
 , "other": 20
 });
 
@@ -438,24 +438,24 @@ db.insert(db.countries.DK, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 21
 , "MG|ZS EV": 16
 , "Mercedes-Benz|EQC": 14
-, "Mini|Cooper SE Electric": 11
 , "Audi|Q8 e-tron": 11
-, "Porsche|Taycan": 9
+, "Mini|Cooper SE Electric": 11
 , "Nissan|Leaf": 9
-, "Renault|Zoe": 7
-, "Peugeot|e-208": 7
-, "Peugeot|e-2008": 7
+, "Porsche|Taycan": 9
 , "Hyundai|Ioniq Electric": 7
+, "Peugeot|e-2008": 7
+, "Peugeot|e-208": 7
+, "Renault|Zoe": 7
 , "Škoda|Citigo-e": 5
-, "Volkswagen|e-up!": 4
 , "Tesla|Model 3": 4
-, "Kia|Soul EV": 3
+, "Volkswagen|e-up!": 4
 , "Jaguar|I-Pace": 3
-, "Ford|Mustang Mach-E": 2
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Kia|Soul EV": 3
 , "BMW|iX3": 2
-, "Polestar|2": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 2
+, "Ford|Mustang Mach-E": 2
 , "Mazda|MX-30": 1
+, "Polestar|2": 1
 , "other": 2
 });
 
