@@ -591,6 +591,9 @@ var db = {
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null && chartConfig.timeSpan.startsWith("m"))
       chartConfig.timeSpan = params.timeSpan.defaultOption;
 
+    if (chartConfig.xProperty == this.xProperties.year)
+      chartConfig.timeSpan = params.timeSpan.defaultOption;
+
     params = this.getChartParams(chartConfig); // update
 
     if (!Object.keys(params.view.options).includes(chartConfig.view))
@@ -702,7 +705,7 @@ var db = {
     var filterYearLast = null;
     var filterMonthFirst = null;
     var filterMonthLast = null;
-    if (chartConfig.timeSpan != this.timeSpanOptions.all) {
+    if (chartConfig.timeSpan != this.timeSpanOptions.all && chartConfig.xProperty != this.xProperties.year) {
       if (chartConfig.timeSpan.startsWith("y")) {
         filterYearFirst = parseInt(chartConfig.timeSpan.substr(1));
         filterMonthFirst = 1;
