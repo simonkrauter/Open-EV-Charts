@@ -3186,7 +3186,7 @@ db.insert(db.countries.NL, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 1
 , "JAC|iEV7 S/E": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 2
+, "other": 22
 });
 
 db.insert(db.countries.NL, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/februari/",
@@ -3265,7 +3265,7 @@ db.insert(db.countries.NL, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 1
 , "Mercedes-Benz|EQC": 1
 , "Honda|e": 1
-, "other": 2
+, "other": 27
 });
 
 db.insert(db.countries.NL, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/maart/",
@@ -3352,7 +3352,7 @@ db.insert(db.countries.NL, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 1
 , "Volkswagen|e-Crafter": 1
 , "Volkswagen|e-up!": 1
-, "other": 8
+, "other": 56
 });
 
 db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/april/",
@@ -3442,7 +3442,7 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 1
 , "Peugeot|e-Traveller": 1
 , "Tesla|Model S": 1
-, "other": 5
+, "other": 58
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/mei/",
@@ -3531,7 +3531,7 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Jaguar|I-Pace": 1
 , "Volkswagen|e-up!": 1
-, "other": 21
+, "other": 96
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/juni/",
@@ -3627,7 +3627,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 1
 , "Honda|e": 1
 , "Mercedes-Benz|EQV": 1
-, "other": 102
+, "other": 234
 });
 
 db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/juli/",
@@ -3721,7 +3721,7 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 1
 , "Peugeot|e-Expert": 1
 , "Škoda|Citigo-e": 1
-, "other": 89
+, "other": 180
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/augustus/",
@@ -3815,7 +3815,7 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 , "JAC|iEV7 S/E": 1
 , "Jaguar|I-Pace": 1
-, "other": 78
+, "other": 174
 });
 
 db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/september/",
@@ -3911,7 +3911,7 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|P7": 3
 , "Aiways|U5": 2
 , "Peugeot|e-Traveller": 2
-, "other": 22
+, "other": 138
 });
 
 db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/oktober/",
@@ -4006,7 +4006,7 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 5
 , "MG|Marvel R": 5
 , "Opel|Combo-e": 5
-, "other": 19
+, "other": 142
 });
 
 db.insert(db.countries.NL, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/november/",
@@ -4101,7 +4101,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 8
 , "Citroën|ë-Jumpy": 7
 , "Mercedes-Benz|eVito": 5
-, "other": 33
+, "other": 200
 });
 
 db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/december/",
@@ -4197,7 +4197,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 9
 , "Smart|Fortwo ED": 9
 , "SsangYong|Korando e-Motion": 8
-, "other": 35
+, "other": 495
 });
 
 db.insert(db.countries.NL, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/januari/",
