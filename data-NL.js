@@ -62,6 +62,7 @@ db.insert(db.countries.NL, "2017-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 5
 , "Opel|Ampera-e": 2
 , "Volkswagen|e-Golf": 2
+, "other": 8
 });
 
 db.insert(db.countries.NL, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/februari/",
@@ -123,6 +124,7 @@ db.insert(db.countries.NL, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 1
 , "Opel|Ampera-e": 1
 , "Tesla|Model 3": 1
+, "other": 8
 });
 
 db.insert(db.countries.NL, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/maart/",
@@ -180,6 +182,7 @@ db.insert(db.countries.NL, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 2
 , "Kia|Soul EV": 1
 , "Peugeot|iOn": 1
+, "other": 12
 });
 
 db.insert(db.countries.NL, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/april/",
@@ -236,6 +239,7 @@ db.insert(db.countries.NL, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 9
 , "Chevrolet|Bolt": 2
 , "Nissan|e-NV200": 1
+, "other": 6
 });
 
 db.insert(db.countries.NL, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/mei/",
@@ -293,7 +297,7 @@ db.insert(db.countries.NL, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 1
 , "Ford|Focus Electric": 1
 , "Kia|Soul EV": 1
-, "other": 1
+, "other": 9
 });
 
 db.insert(db.countries.NL, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/juni/",
@@ -356,7 +360,7 @@ db.insert(db.countries.NL, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 1
 , "Opel|Ampera-e": 1
 , "Peugeot|iOn": 1
-, "other": 2
+, "other": 15
 });
 
 db.insert(db.countries.NL, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/juli/",
@@ -417,6 +421,7 @@ db.insert(db.countries.NL, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 2
 , "Peugeot|iOn": 1
 , "Smart|Forfour ED": 1
+, "other": 6
 });
 
 db.insert(db.countries.NL, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/augustus/",
@@ -477,7 +482,7 @@ db.insert(db.countries.NL, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
 , "Tesla|Model 3": 1
-, "other": 1
+, "other": 11
 });
 
 db.insert(db.countries.NL, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/september/",
@@ -539,6 +544,7 @@ db.insert(db.countries.NL, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Citroën|Berlingo Electric": 1
 , "Peugeot|Partner Electric": 1
+, "other": 16
 });
 
 db.insert(db.countries.NL, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/oktober/",
@@ -599,6 +605,7 @@ db.insert(db.countries.NL, "2017-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Citroën|C-Zero": 1
 , "Mitsubishi|i-MiEV": 1
+, "other": 11
 });
 
 db.insert(db.countries.NL, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/november/",
@@ -658,6 +665,7 @@ db.insert(db.countries.NL, "2017-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 1
 , "Nissan|e-NV200": 1
 , "Peugeot|iOn": 1
+, "other": 15
 });
 
 db.insert(db.countries.NL, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/december/",
@@ -714,6 +722,7 @@ db.insert(db.countries.NL, "2017-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 1
 , "Kia|Soul EV": 1
 , "Mercedes-Benz|EQB": 1
+, "other": 16
 });
 
 db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/januari/",
