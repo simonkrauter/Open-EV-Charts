@@ -2264,6 +2264,7 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 4
 , "Jaguar|I-Pace": 3
 , "Mercedes-Benz|eVito": 1
+, "other": 16
 });
 
 db.insert(db.countries.NL, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/februari/",
@@ -2336,6 +2337,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Crafter": 1
 , "Mercedes-Benz|eVito": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 30
 });
 
 db.insert(db.countries.NL, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/maart/",
@@ -2406,6 +2408,7 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
 , "Nissan|e-NV200": 1
 , "Honda|e": 1
+, "other": 42
 });
 
 db.insert(db.countries.NL, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/april/",
@@ -2474,6 +2477,7 @@ db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 2
 , "Smart|Fortwo ED": 1
 , "Mercedes-Benz|eVito": 1
+, "other": 17
 });
 
 db.insert(db.countries.NL, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/mei/",
@@ -2543,6 +2547,7 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
 , "Honda|e": 1
+, "other": 15
 });
 
 db.insert(db.countries.NL, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/juni/",
@@ -2617,6 +2622,7 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 1
 , "Mercedes-Benz|eVito": 1
 , "Honda|e": 1
+, "other": 30
 });
 
 db.insert(db.countries.NL, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/juli/",
@@ -2690,6 +2696,7 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 2
+, "other": 41
 });
 
 db.insert(db.countries.NL, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/augustus/",
@@ -2764,6 +2771,7 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 2
 , "Jaguar|I-Pace": 2
 , "Nissan|e-NV200": 1
+, "other": 46
 });
 
 db.insert(db.countries.NL, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/september/",
@@ -2840,6 +2848,7 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 2
 , "Nissan|e-NV200": 1
 , "Mercedes-Benz|eVito": 1
+, "other": 66
 });
 
 db.insert(db.countries.NL, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/oktober/",
@@ -2919,7 +2928,7 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 1
 , "Maxus|EV80": 1
 , "Citroën|ë-Jumpy": 1
-, "other": 2
+, "other": 80
 });
 
 db.insert(db.countries.NL, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/november/",
@@ -3005,7 +3014,7 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 1
 , "Mercedes-Benz|eVito": 1
 , "Aiways|U5": 1
-, "other": 1
+, "other": 82
 });
 
 db.insert(db.countries.NL, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2020/december/",
@@ -3093,7 +3102,7 @@ db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 3
 , "Nissan|e-NV200": 2
 , "Citroën|ë-Jumpy": 2
-, "other": 42
+, "other": 358
 });
 
 db.insert(db.countries.NL, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2021/januari/",
