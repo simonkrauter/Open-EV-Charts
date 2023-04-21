@@ -4,11 +4,44 @@
 
 db.addCountry("IE", "Ireland");
 
-db.insert(db.countries.IE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190215_PRPC_1901_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 32343
+db.insert(db.countries.IE, "2019-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 3794
+, "Volkswagen": 3214
+, "Ford": 3151
+, "Toyota": 2810
+, "Nissan": 2630
+, "Škoda": 2396
+, "Renault": 2201
+, "Kia": 1757
+, "Peugeot": 1532
+, "Opel": 1175
+, "Audi": 1058
+, "Seat": 1013
+, "Dacia": 890
+, "BMW": 766
+, "Mercedes-Benz": 761
+, "Mazda": 598
+, "Volvo": 470
+, "Honda": 427
+, "Suzuki": 383
+, "Land Rover": 343
+, "Mitsubishi": 260
+, "Citroën": 146
+, "Lexus": 138
+, "Fiat": 123
+, "Jaguar": 122
+, "Mini": 119
+, "Subaru": 29
+, "Jeep": 15
+, "Alfa Romeo": 13
+, "Tesla": 13
+, "SsangYong": 12
+, "DS Automobiles": 5
+, "Porsche": 3
+, "other": 3
 });
 
-db.insert(db.countries.IE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/1",
+db.insert(db.countries.IE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 302
 , "Nissan|Leaf": 294
 , "Renault|Zoe": 77
@@ -21,11 +54,43 @@ db.insert(db.countries.IE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190315_PRPC_1902_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 15100
+db.insert(db.countries.IE, "2019-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 2074
+, "Škoda": 1539
+, "Hyundai": 1442
+, "Toyota": 1369
+, "Nissan": 1051
+, "Renault": 1010
+, "Ford": 951
+, "Kia": 946
+, "Audi": 666
+, "Peugeot": 606
+, "Seat": 581
+, "Mercedes-Benz": 512
+, "BMW": 401
+, "Mazda": 296
+, "Opel": 278
+, "Dacia": 273
+, "Volvo": 186
+, "Land Rover": 147
+, "Suzuki": 146
+, "Honda": 131
+, "Mitsubishi": 129
+, "Citroën": 78
+, "Jaguar": 60
+, "Lexus": 59
+, "Mini": 49
+, "Fiat": 28
+, "DS Automobiles": 24
+, "Subaru": 16
+, "Jeep": 6
+, "SsangYong": 6
+, "Porsche": 4
+, "Tesla": 4
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/2",
+db.insert(db.countries.IE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 119
 , "Nissan|Leaf": 105
 , "BMW|i3 BEV": 33
@@ -33,35 +98,98 @@ db.insert(db.countries.IE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 13
 , "Renault|Zoe": 9
 , "Jaguar|I-Pace": 8
-, "Tesla|Model X": 2
 , "Tesla|Model S": 2
-, "Nissan|e-NV200": 1
+, "Tesla|Model X": 2
+, "other": 2
+});
+
+db.insert(db.countries.IE, "2019-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1851
+, "Toyota": 1747
+, "Ford": 1623
+, "Hyundai": 1424
+, "Škoda": 1388
+, "Nissan": 1251
+, "Kia": 1034
+, "Renault": 880
+, "Audi": 699
+, "BMW": 664
+, "Peugeot": 660
+, "Mercedes-Benz": 591
+, "Seat": 546
+, "Dacia": 440
+, "Opel": 428
+, "Citroën": 229
+, "Volvo": 188
+, "Honda": 184
+, "Suzuki": 171
+, "Mazda": 151
+, "Land Rover": 130
+, "Mitsubishi": 97
+, "Fiat": 78
+, "Mini": 69
+, "Jaguar": 53
+, "Lexus": 43
+, "Jeep": 27
+, "Subaru": 10
+, "Porsche": 9
+, "Alfa Romeo": 7
+, "DS Automobiles": 5
+, "Tesla": 5
+, "SsangYong": 4
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190417_PRPC_1903_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 16703
-});
-
-db.insert(db.countries.IE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/3",
+db.insert(db.countries.IE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Nissan|Leaf": 133
 , "Hyundai|Kona Electric": 93
 , "Volkswagen|e-Golf": 25
 , "Hyundai|Ioniq Electric": 15
-, "Renault|Zoe": 13
 , "BMW|i3 BEV": 13
+, "Renault|Zoe": 13
 , "Audi|Q8 e-tron": 7
 , "Jaguar|I-Pace": 6
 , "Tesla|Model S": 4
-, "Tesla|Model X": 1
 , "Kia|Niro EV": 1
+, "Tesla|Model X": 1
 });
 
-db.insert(db.countries.IE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190517_PRPC_1904_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 8913
+db.insert(db.countries.IE, "2019-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 1312
+, "Volkswagen": 1044
+, "Nissan": 838
+, "Hyundai": 623
+, "Škoda": 582
+, "Ford": 572
+, "Peugeot": 489
+, "Renault": 431
+, "BMW": 411
+, "Kia": 361
+, "Seat": 326
+, "Audi": 297
+, "Dacia": 255
+, "Opel": 248
+, "Mercedes-Benz": 212
+, "Volvo": 135
+, "Mitsubishi": 128
+, "Land Rover": 107
+, "Mazda": 83
+, "Honda": 78
+, "Suzuki": 66
+, "Citroën": 62
+, "Lexus": 55
+, "Jaguar": 49
+, "Mini": 46
+, "Fiat": 36
+, "Jeep": 23
+, "Tesla": 12
+, "Porsche": 10
+, "Subaru": 7
+, "Alfa Romeo": 4
+, "SsangYong": 2
 });
 
-db.insert(db.countries.IE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/4",
+db.insert(db.countries.IE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 124
 , "Nissan|Leaf": 70
 , "Volkswagen|e-Golf": 30
@@ -75,11 +203,41 @@ db.insert(db.countries.IE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 3
 });
 
-db.insert(db.countries.IE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190618_PRPC_1905_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 6324
+db.insert(db.countries.IE, "2019-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 803
+, "Toyota": 608
+, "BMW": 597
+, "Ford": 425
+, "Škoda": 412
+, "Kia": 411
+, "Hyundai": 407
+, "Opel": 386
+, "Peugeot": 356
+, "Renault": 328
+, "Nissan": 233
+, "Audi": 225
+, "Seat": 207
+, "Mercedes-Benz": 201
+, "Dacia": 162
+, "Volvo": 98
+, "Suzuki": 73
+, "Mazda": 64
+, "Land Rover": 59
+, "Mitsubishi": 55
+, "Honda": 48
+, "Citroën": 42
+, "Jaguar": 31
+, "Lexus": 27
+, "Mini": 22
+, "Fiat": 13
+, "Porsche": 11
+, "Subaru": 6
+, "Alfa Romeo": 4
+, "Jeep": 4
+, "Tesla": 2
 });
 
-db.insert(db.countries.IE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/5",
+db.insert(db.countries.IE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 77
 , "Nissan|Leaf": 42
 , "Volkswagen|e-Golf": 13
@@ -93,11 +251,40 @@ db.insert(db.countries.IE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.IE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190717_PRPC_1906_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 1406
+db.insert(db.countries.IE, "2019-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 205
+, "Opel": 183
+, "Volkswagen": 174
+, "Hyundai": 164
+, "Škoda": 135
+, "Peugeot": 81
+, "Ford": 65
+, "Nissan": 59
+, "Renault": 53
+, "Kia": 43
+, "BMW": 36
+, "Seat": 30
+, "Audi": 25
+, "Land Rover": 22
+, "Suzuki": 20
+, "Dacia": 17
+, "Mercedes-Benz": 15
+, "Mazda": 12
+, "Mini": 12
+, "Tesla": 10
+, "Honda": 9
+, "Citroën": 8
+, "Volvo": 7
+, "Mitsubishi": 6
+, "Fiat": 5
+, "Jaguar": 3
+, "Lexus": 3
+, "Porsche": 3
+, "Alfa Romeo": 2
+, "DS Automobiles": 1
 });
 
-db.insert(db.countries.IE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/6",
+db.insert(db.countries.IE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 13
 , "Kia|Soul EV": 9
 , "Nissan|Leaf": 7
@@ -112,11 +299,44 @@ db.insert(db.countries.IE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.IE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190918_PRPC_1907-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 24681
+db.insert(db.countries.IE, "2019-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 3148
+, "Volkswagen": 2803
+, "Hyundai": 2378
+, "Škoda": 1933
+, "Ford": 1699
+, "Nissan": 1643
+, "Kia": 1354
+, "Renault": 1315
+, "Peugeot": 1309
+, "Opel": 1100
+, "Seat": 975
+, "Audi": 972
+, "Dacia": 693
+, "BMW": 532
+, "Mercedes-Benz": 517
+, "Mazda": 510
+, "Honda": 316
+, "Volvo": 240
+, "Suzuki": 221
+, "Citroën": 206
+, "Land Rover": 161
+, "Mitsubishi": 157
+, "Mini": 123
+, "Lexus": 114
+, "Fiat": 84
+, "Jaguar": 84
+, "Jeep": 27
+, "Subaru": 19
+, "Porsche": 14
+, "Tesla": 14
+, "SsangYong": 11
+, "Alfa Romeo": 5
+, "DS Automobiles": 3
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/7",
+db.insert(db.countries.IE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Nissan|Leaf": 293
 , "Hyundai|Kona Electric": 169
 , "Renault|Zoe": 92
@@ -127,16 +347,48 @@ db.insert(db.countries.IE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 15
 , "Audi|Q8 e-tron": 13
 , "Tesla|Model X": 8
-, "Tesla|Model S": 6
 , "Jaguar|I-Pace": 6
-, "Nissan|e-NV200": 1
+, "Tesla|Model S": 6
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20190918_PRPC_1907-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 5121
+db.insert(db.countries.IE, "2019-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 639
+, "Škoda": 448
+, "Ford": 424
+, "Hyundai": 406
+, "Toyota": 397
+, "Audi": 386
+, "Kia": 280
+, "Peugeot": 277
+, "Seat": 215
+, "Nissan": 214
+, "BMW": 213
+, "Mercedes-Benz": 208
+, "Opel": 150
+, "Dacia": 127
+, "Renault": 118
+, "Honda": 73
+, "Mazda": 70
+, "Land Rover": 64
+, "Citroën": 60
+, "Mitsubishi": 57
+, "Suzuki": 55
+, "Volvo": 49
+, "Jaguar": 38
+, "Lexus": 33
+, "Fiat": 25
+, "Mini": 25
+, "SsangYong": 12
+, "Jeep": 11
+, "Porsche": 4
+, "Alfa Romeo": 3
+, "Subaru": 3
+, "Tesla": 3
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/8",
+db.insert(db.countries.IE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 52
 , "Nissan|Leaf": 37
 , "Renault|Zoe": 22
@@ -151,11 +403,39 @@ db.insert(db.countries.IE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 });
 
-db.insert(db.countries.IE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191016_PRPC_1909_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 3419
+db.insert(db.countries.IE, "2019-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 543
+, "Ford": 445
+, "Toyota": 226
+, "BMW": 209
+, "Škoda": 209
+, "Kia": 172
+, "Peugeot": 168
+, "Mercedes-Benz": 165
+, "Hyundai": 152
+, "Opel": 146
+, "Nissan": 136
+, "Audi": 131
+, "Seat": 108
+, "Renault": 105
+, "Dacia": 78
+, "Citroën": 74
+, "Mazda": 65
+, "Volvo": 62
+, "Suzuki": 57
+, "Land Rover": 44
+, "Honda": 42
+, "Mini": 24
+, "Tesla": 17
+, "Lexus": 15
+, "Mitsubishi": 10
+, "Jaguar": 5
+, "Porsche": 4
+, "Fiat": 3
+, "Subaru": 3
 });
 
-db.insert(db.countries.IE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/9",
+db.insert(db.countries.IE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Nissan|Leaf": 34
 , "Hyundai|Kona Electric": 20
 , "Volkswagen|e-Golf": 14
@@ -168,11 +448,40 @@ db.insert(db.countries.IE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 2
 });
 
-db.insert(db.countries.IE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191119_PRPC_1910_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 2180
+db.insert(db.countries.IE, "2019-10", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 276
+, "Škoda": 185
+, "Hyundai": 183
+, "Toyota": 178
+, "Ford": 176
+, "BMW": 138
+, "Nissan": 122
+, "Audi": 117
+, "Peugeot": 105
+, "Opel": 103
+, "Kia": 85
+, "Mercedes-Benz": 84
+, "Renault": 70
+, "Seat": 54
+, "Dacia": 51
+, "Land Rover": 44
+, "Volvo": 41
+, "Tesla": 33
+, "Mini": 27
+, "Suzuki": 19
+, "Citroën": 17
+, "Honda": 15
+, "Mazda": 14
+, "Lexus": 13
+, "Jaguar": 12
+, "Mitsubishi": 6
+, "Fiat": 5
+, "Porsche": 4
+, "Alfa Romeo": 1
+, "Jeep": 1
 });
 
-db.insert(db.countries.IE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/10",
+db.insert(db.countries.IE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Hyundai|Kona Electric": 79
 , "Nissan|Leaf": 54
 , "Volkswagen|e-Golf": 33
@@ -189,11 +498,39 @@ db.insert(db.countries.IE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 1
 });
 
-db.insert(db.countries.IE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20191217_PRPC_1911_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 759
+db.insert(db.countries.IE, "2019-11", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 137
+, "Toyota": 96
+, "Škoda": 70
+, "Volkswagen": 64
+, "Ford": 57
+, "Hyundai": 57
+, "Renault": 39
+, "Peugeot": 35
+, "BMW": 28
+, "Dacia": 28
+, "Seat": 26
+, "Mercedes-Benz": 23
+, "Nissan": 21
+, "Land Rover": 13
+, "Volvo": 13
+, "Kia": 9
+, "Mazda": 7
+, "Audi": 5
+, "Mitsubishi": 5
+, "Opel": 5
+, "Suzuki": 5
+, "Citroën": 4
+, "Mini": 4
+, "Honda": 3
+, "Subaru": 3
+, "Fiat": 1
+, "Jeep": 1
+, "Lexus": 1
+, "Porsche": 1
 });
 
-db.insert(db.countries.IE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/11",
+db.insert(db.countries.IE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 131
 , "Hyundai|Kona Electric": 34
 , "Nissan|Leaf": 13
@@ -205,11 +542,29 @@ db.insert(db.countries.IE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 });
 
-db.insert(db.countries.IE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200116_PRPC_1912_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 224
+db.insert(db.countries.IE, "2019-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Ford": 47
+, "Toyota": 27
+, "Hyundai": 23
+, "Volkswagen": 23
+, "Mercedes-Benz": 22
+, "Tesla": 20
+, "Peugeot": 16
+, "BMW": 15
+, "Seat": 6
+, "Nissan": 5
+, "Dacia": 4
+, "Land Rover": 3
+, "Mini": 3
+, "Škoda": 3
+, "Jaguar": 2
+, "Mazda": 2
+, "Audi": 1
+, "Kia": 1
+, "Volvo": 1
 });
 
-db.insert(db.countries.IE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2019/12",
+db.insert(db.countries.IE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 20
 , "Hyundai|Kona Electric": 4
 , "Nissan|Leaf": 4
@@ -217,11 +572,42 @@ db.insert(db.countries.IE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 1
 });
 
-db.insert(db.countries.IE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 31206
+db.insert(db.countries.IE, "2020-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 4304
+, "Hyundai": 3365
+, "Volkswagen": 3198
+, "Škoda": 2467
+, "Ford": 2341
+, "Nissan": 2170
+, "Renault": 1756
+, "Kia": 1690
+, "Peugeot": 1339
+, "Seat": 1171
+, "Audi": 1074
+, "Mercedes-Benz": 944
+, "BMW": 843
+, "Dacia": 684
+, "Mazda": 575
+, "Opel": 480
+, "Volvo": 387
+, "Land Rover": 330
+, "Suzuki": 317
+, "Honda": 308
+, "Citroën": 242
+, "Lexus": 166
+, "Mitsubishi": 118
+, "Mini": 110
+, "Jaguar": 74
+, "Fiat": 63
+, "Tesla": 56
+, "Porsche": 41
+, "Subaru": 27
+, "Alfa Romeo": 5
+, "SsangYong": 4
+, "Jeep": 1
 });
 
-db.insert(db.countries.IE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/1",
+db.insert(db.countries.IE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Nissan|Leaf": 291
 , "Hyundai|Kona Electric": 194
 , "Hyundai|Ioniq Electric": 90
@@ -235,15 +621,46 @@ db.insert(db.countries.IE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 6
 , "Tesla|Model X": 4
 , "Tesla|Model S": 3
-, "Nissan|e-NV200": 2
 , "Mercedes-Benz|EQC": 2
+, "other": 2
 });
 
-db.insert(db.countries.IE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 13884
+db.insert(db.countries.IE, "2020-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1801
+, "Škoda": 1426
+, "Toyota": 1221
+, "Hyundai": 1093
+, "Kia": 897
+, "Nissan": 783
+, "Ford": 662
+, "Peugeot": 648
+, "Seat": 612
+, "Audi": 602
+, "Renault": 574
+, "BMW": 459
+, "Mercedes-Benz": 430
+, "Opel": 408
+, "Dacia": 335
+, "Land Rover": 240
+, "Mazda": 160
+, "Tesla": 150
+, "Volvo": 138
+, "Honda": 102
+, "Citroën": 97
+, "Suzuki": 71
+, "Lexus": 56
+, "Mitsubishi": 55
+, "Jaguar": 43
+, "Mini": 40
+, "Subaru": 10
+, "Fiat": 9
+, "Porsche": 7
+, "SsangYong": 5
+, "Alfa Romeo": 2
+, "Jeep": 2
 });
 
-db.insert(db.countries.IE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/2",
+db.insert(db.countries.IE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 147
 , "Nissan|Leaf": 68
 , "Hyundai|Kona Electric": 59
@@ -261,11 +678,41 @@ db.insert(db.countries.IE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.IE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 6152
+db.insert(db.countries.IE, "2020-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 723
+, "Toyota": 687
+, "Hyundai": 544
+, "Škoda": 491
+, "Ford": 456
+, "Peugeot": 394
+, "Kia": 353
+, "BMW": 334
+, "Nissan": 285
+, "Audi": 269
+, "Mercedes-Benz": 205
+, "Seat": 182
+, "Opel": 181
+, "Land Rover": 148
+, "Tesla": 139
+, "Renault": 102
+, "Volvo": 77
+, "Mitsubishi": 71
+, "Honda": 59
+, "Dacia": 57
+, "Suzuki": 57
+, "Mazda": 42
+, "Citroën": 41
+, "Mini": 41
+, "Lexus": 25
+, "Jaguar": 20
+, "Porsche": 7
+, "Subaru": 7
+, "Fiat": 6
+, "SsangYong": 3
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/3",
+db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 138
 , "Hyundai|Kona Electric": 43
 , "Nissan|Leaf": 39
@@ -282,11 +729,36 @@ db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 });
 
-db.insert(db.countries.IE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 344
+db.insert(db.countries.IE, "2020-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 60
+, "Hyundai": 47
+, "Renault": 42
+, "Ford": 23
+, "Peugeot": 23
+, "Nissan": 16
+, "Volvo": 16
+, "Tesla": 14
+, "Kia": 13
+, "Mercedes-Benz": 12
+, "Škoda": 11
+, "BMW": 10
+, "Volkswagen": 10
+, "Land Rover": 7
+, "Opel": 7
+, "Seat": 7
+, "Dacia": 6
+, "Audi": 5
+, "Citroën": 3
+, "Suzuki": 3
+, "Honda": 2
+, "Mini": 2
+, "Fiat": 1
+, "Mazda": 1
+, "Mitsubishi": 1
+, "SsangYong": 1
 });
 
-db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/4",
+db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 13
 , "Hyundai|Kona Electric": 12
 , "Nissan|Leaf": 7
@@ -299,11 +771,39 @@ db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 });
 
-db.insert(db.countries.IE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 1746
+db.insert(db.countries.IE, "2020-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 249
+, "BMW": 165
+, "Hyundai": 134
+, "Toyota": 132
+, "Škoda": 122
+, "Kia": 97
+, "Renault": 97
+, "Ford": 93
+, "Nissan": 76
+, "Peugeot": 76
+, "Audi": 67
+, "Tesla": 56
+, "Mercedes-Benz": 54
+, "Opel": 53
+, "Dacia": 48
+, "Seat": 45
+, "Land Rover": 43
+, "Volvo": 35
+, "Mazda": 16
+, "Mini": 15
+, "Suzuki": 15
+, "Citroën": 11
+, "Honda": 10
+, "Lexus": 9
+, "Jaguar": 8
+, "Mitsubishi": 7
+, "Fiat": 5
+, "Jeep": 2
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/5",
+db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 50
 , "Kia|Niro EV": 16
 , "Volkswagen|e-Golf": 15
@@ -322,11 +822,40 @@ db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.IE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 1009
+db.insert(db.countries.IE, "2020-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 244
+, "Hyundai": 79
+, "Audi": 74
+, "Škoda": 74
+, "Toyota": 66
+, "Peugeot": 56
+, "Renault": 56
+, "Ford": 52
+, "Nissan": 35
+, "BMW": 33
+, "Kia": 32
+, "Seat": 31
+, "Opel": 24
+, "Mercedes-Benz": 22
+, "Land Rover": 21
+, "Volvo": 20
+, "Dacia": 18
+, "Suzuki": 12
+, "Mazda": 10
+, "Honda": 8
+, "Jaguar": 7
+, "Tesla": 7
+, "Lexus": 6
+, "Citroën": 5
+, "Fiat": 5
+, "Mini": 4
+, "Porsche": 2
+, "Mitsubishi": 1
+, "SsangYong": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/6",
+db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 7
 , "Volkswagen|e-Golf": 7
 , "Kia|Niro EV": 6
@@ -341,11 +870,42 @@ db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 1
 });
 
-db.insert(db.countries.IE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21185
+db.insert(db.countries.IE, "2020-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 2652
+, "Toyota": 2406
+, "Ford": 1940
+, "Hyundai": 1879
+, "Škoda": 1716
+, "Peugeot": 1256
+, "Nissan": 1239
+, "Kia": 1193
+, "Renault": 880
+, "Audi": 861
+, "Seat": 825
+, "Mercedes-Benz": 713
+, "BMW": 711
+, "Opel": 535
+, "Dacia": 424
+, "Mazda": 306
+, "Volvo": 263
+, "Citroën": 256
+, "Suzuki": 232
+, "Honda": 186
+, "Land Rover": 168
+, "Mini": 103
+, "Lexus": 82
+, "Mitsubishi": 80
+, "Jaguar": 76
+, "Fiat": 64
+, "Tesla": 55
+, "Porsche": 32
+, "SsangYong": 21
+, "Alfa Romeo": 7
+, "Jeep": 6
+, "Subaru": 4
 });
 
-db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/7",
+db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Renault|Zoe": 112
 , "Kia|Niro EV": 109
 , "Nissan|Leaf": 106
@@ -368,11 +928,42 @@ db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 4859
+db.insert(db.countries.IE, "2020-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 626
+, "Kia": 472
+, "Hyundai": 437
+, "Škoda": 414
+, "Ford": 357
+, "Peugeot": 302
+, "Toyota": 302
+, "Mercedes-Benz": 239
+, "Audi": 210
+, "Renault": 208
+, "Seat": 192
+, "Nissan": 185
+, "BMW": 131
+, "Opel": 103
+, "Dacia": 93
+, "Suzuki": 75
+, "Volvo": 74
+, "Citroën": 65
+, "Mazda": 61
+, "Honda": 58
+, "Land Rover": 45
+, "Tesla": 28
+, "Mitsubishi": 26
+, "Fiat": 23
+, "Lexus": 21
+, "Mini": 17
+, "Jaguar": 16
+, "Porsche": 10
+, "SsangYong": 7
+, "Subaru": 5
+, "Alfa Romeo": 3
+, "Jeep": 3
 });
 
-db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/8",
+db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Kia|Niro EV": 65
 , "Kia|Soul EV": 53
 , "Hyundai|Kona Electric": 35
@@ -393,11 +984,42 @@ db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 5669
+db.insert(db.countries.IE, "2020-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 729
+, "Ford": 675
+, "Toyota": 666
+, "Kia": 332
+, "Škoda": 325
+, "Peugeot": 324
+, "Audi": 310
+, "Nissan": 281
+, "Hyundai": 278
+, "BMW": 248
+, "Mercedes-Benz": 204
+, "Renault": 179
+, "Seat": 178
+, "Tesla": 175
+, "Opel": 105
+, "Suzuki": 99
+, "Dacia": 87
+, "Volvo": 87
+, "Citroën": 73
+, "Honda": 57
+, "Mazda": 52
+, "Mini": 51
+, "Land Rover": 44
+, "Fiat": 24
+, "Lexus": 23
+, "Mitsubishi": 16
+, "Jaguar": 9
+, "Porsche": 8
+, "SsangYong": 8
+, "Jeep": 2
+, "Alfa Romeo": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/9",
+db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.3": 235
 , "Tesla|Model 3": 162
 , "Hyundai|Kona Electric": 56
@@ -418,11 +1040,41 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 1
 });
 
-db.insert(db.countries.IE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 2297
+db.insert(db.countries.IE, "2020-10", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 288
+, "Škoda": 217
+, "Kia": 173
+, "Peugeot": 159
+, "Hyundai": 150
+, "Audi": 126
+, "Ford": 126
+, "Nissan": 126
+, "BMW": 120
+, "Dacia": 107
+, "Toyota": 107
+, "Renault": 88
+, "Seat": 66
+, "Volvo": 66
+, "Mercedes-Benz": 65
+, "Tesla": 44
+, "Citroën": 39
+, "Suzuki": 38
+, "Land Rover": 33
+, "Mini": 30
+, "Opel": 27
+, "Honda": 24
+, "Mazda": 20
+, "Fiat": 15
+, "Jaguar": 11
+, "Lexus": 11
+, "Mitsubishi": 11
+, "SsangYong": 4
+, "Porsche": 3
+, "Alfa Romeo": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/10",
+db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.3": 94
 , "Tesla|Model 3": 37
 , "Kia|Niro EV": 33
@@ -442,11 +1094,41 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.IE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 913
+db.insert(db.countries.IE, "2020-11", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Škoda": 140
+, "Hyundai": 94
+, "Volkswagen": 86
+, "Renault": 74
+, "Peugeot": 68
+, "Toyota": 65
+, "Audi": 62
+, "BMW": 58
+, "Ford": 38
+, "Mercedes-Benz": 33
+, "Nissan": 23
+, "Kia": 21
+, "Seat": 21
+, "Land Rover": 17
+, "Lexus": 15
+, "Mini": 13
+, "Dacia": 12
+, "Opel": 10
+, "Volvo": 10
+, "Mazda": 9
+, "Citroën": 8
+, "Honda": 8
+, "Suzuki": 6
+, "Tesla": 6
+, "Jaguar": 5
+, "Fiat": 4
+, "Alfa Romeo": 2
+, "SsangYong": 2
+, "Jeep": 1
+, "Mitsubishi": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/11",
+db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.3": 23
 , "Renault|Zoe": 10
 , "Kia|Niro EV": 5
@@ -463,11 +1145,40 @@ db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 601
+db.insert(db.countries.IE, "2020-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 85
+, "Hyundai": 80
+, "Mercedes-Benz": 53
+, "Tesla": 50
+, "Citroën": 35
+, "Nissan": 35
+, "Honda": 32
+, "Ford": 29
+, "MG": 25
+, "Seat": 22
+, "Peugeot": 21
+, "BMW": 16
+, "Subaru": 15
+, "Škoda": 15
+, "Opel": 12
+, "Land Rover": 11
+, "Renault": 11
+, "Volvo": 11
+, "Mini": 6
+, "Alfa Romeo": 5
+, "Audi": 5
+, "Jaguar": 5
+, "Mazda": 5
+, "Toyota": 5
+, "Dacia": 3
+, "Lexus": 3
+, "Cupra": 2
+, "Kia": 2
+, "Jeep": 1
+, "Suzuki": 1
 });
 
-db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2020/12",
+db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 45
 , "MG|ZS EV": 20
 , "Volkswagen|ID.3": 6
@@ -480,18 +1191,52 @@ db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 1
 });
 
-db.insert(db.countries.IE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25157
+db.insert(db.countries.IE, "2021-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 3775
+, "Hyundai": 2719
+, "Volkswagen": 2544
+, "Ford": 2290
+, "Škoda": 2071
+, "Nissan": 1463
+, "Kia": 1436
+, "Peugeot": 1384
+, "Renault": 1171
+, "Seat": 932
+, "Mercedes-Benz": 708
+, "Audi": 695
+, "BMW": 685
+, "Dacia": 652
+, "Opel": 641
+, "Citroën": 358
+, "Suzuki": 338
+, "Volvo": 292
+, "Mazda": 283
+, "Honda": 135
+, "Mini": 125
+, "Mitsubishi": 110
+, "Land Rover": 99
+, "Lexus": 96
+, "Fiat": 48
+, "MG": 24
+, "Cupra": 20
+, "SsangYong": 17
+, "Tesla": 10
+, "Jaguar": 9
+, "Porsche": 5
+, "Subaru": 2
+, "Alfa Romeo": 1
+, "Jeep": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/1",
+db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Nissan|Leaf": 200
 , "Volkswagen|ID.3": 125
 , "Kia|Niro EV": 122
 , "Hyundai|Kona Electric": 96
 , "Renault|Zoe": 83
 , "Peugeot|e-2008": 61
-, "Hyundai|Ioniq Electric": 56
+, "Hyundai|Ioniq Electric": 53
 , "Opel|Corsa-e": 52
 , "Mini|Cooper SE Electric": 44
 , "Peugeot|e-208": 33
@@ -508,26 +1253,59 @@ db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.IE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf TODO: numbers per brand wanted",
-{ "other": 13785
+db.insert(db.countries.IE, "2021-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 1768
+, "Volkswagen": 1436
+, "Hyundai": 1411
+, "Škoda": 1380
+, "Ford": 1024
+, "Kia": 896
+, "Peugeot": 784
+, "Audi": 676
+, "Mercedes-Benz": 577
+, "BMW": 549
+, "Renault": 520
+, "Seat": 492
+, "Nissan": 491
+, "Dacia": 247
+, "Opel": 204
+, "Volvo": 185
+, "Land Rover": 170
+, "Tesla": 170
+, "Honda": 166
+, "Mazda": 140
+, "Lexus": 74
+, "Suzuki": 68
+, "Citroën": 51
+, "Porsche": 50
+, "Mini": 48
+, "Mitsubishi": 28
+, "Fiat": 20
+, "MG": 19
+, "Jaguar": 17
+, "Cupra": 16
+, "SsangYong": 15
+, "Alfa Romeo": 2
+, "Subaru": 2
+, "other": 2
 });
 
-db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/2",
-{ "Volkswagen|ID.3": 193
-, "Tesla|Model 3": 171
-, "Kia|Niro EV": 100
-, "Nissan|Leaf": 89
+db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.3": 191
+, "Tesla|Model 3": 170
+, "Kia|Niro EV": 98
+, "Nissan|Leaf": 88
 , "Audi|Q8 e-tron": 30
 , "Porsche|Taycan": 28
-, "Hyundai|Kona Electric": 26
 , "Mazda|MX-30": 26
+, "Hyundai|Kona Electric": 25
 , "Peugeot|e-2008": 24
 , "Renault|Zoe": 24
 , "Peugeot|e-208": 22
 , "MG|ZS EV": 18
 , "Hyundai|Ioniq Electric": 13
 , "Mini|Cooper SE Electric": 13
-, "Opel|Corsa-e": 9
+, "Opel|Corsa-e": 8
 , "Lexus|UX 300e": 6
 , "Jaguar|I-Pace": 5
 , "Mercedes-Benz|EQC": 5
@@ -538,24 +1316,57 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 9230
+db.insert(db.countries.IE, "2021-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1257
+, "Hyundai": 860
+, "Škoda": 784
+, "Toyota": 773
+, "Ford": 680
+, "BMW": 580
+, "Kia": 542
+, "Renault": 468
+, "Nissan": 412
+, "Peugeot": 389
+, "Seat": 366
+, "Audi": 358
+, "Mercedes-Benz": 352
+, "Dacia": 259
+, "Opel": 195
+, "Tesla": 150
+, "Volvo": 141
+, "Suzuki": 130
+, "Mazda": 124
+, "Land Rover": 86
+, "Citroën": 74
+, "Mini": 60
+, "Honda": 31
+, "Fiat": 26
+, "Lexus": 19
+, "Porsche": 18
+, "MG": 14
+, "Mitsubishi": 14
+, "Jaguar": 11
+, "Cupra": 9
+, "SsangYong": 7
+, "Alfa Romeo": 1
+, "Jeep": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/3",
-{ "Volkswagen|ID.4": 411
-, "Nissan|Leaf": 156
+db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 407
+, "Nissan|Leaf": 151
 , "Tesla|Model 3": 148
-, "Hyundai|Kona Electric": 75
-, "Volkswagen|ID.3": 61
+, "Hyundai|Kona Electric": 74
+, "Volkswagen|ID.3": 60
 , "Kia|Niro EV": 48
 , "Hyundai|Ioniq Electric": 30
 , "Renault|Zoe": 22
-, "Audi|Q8 e-tron": 20
+, "Audi|Q8 e-tron": 18
 , "MG|ZS EV": 12
 , "Mazda|MX-30": 11
 , "Peugeot|e-2008": 11
-, "Opel|Corsa-e": 7
+, "Opel|Corsa-e": 6
 , "BMW|i3 BEV": 5
 , "Porsche|Taycan": 5
 , "Honda|e": 4
@@ -563,24 +1374,56 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 4
 , "Jaguar|I-Pace": 3
 , "Peugeot|e-208": 3
+, "Audi|e-tron GT": 2
 , "Lexus|UX 300e": 2
 , "Mercedes-Benz|EQC": 2
 , "Tesla|Model S": 2
 });
 
-db.insert(db.countries.IE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 7164
+db.insert(db.countries.IE, "2021-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 999
+, "Toyota": 741
+, "Škoda": 709
+, "Hyundai": 579
+, "Audi": 563
+, "Peugeot": 518
+, "Ford": 505
+, "Kia": 427
+, "BMW": 378
+, "Seat": 288
+, "Mercedes-Benz": 245
+, "Renault": 209
+, "Opel": 154
+, "Nissan": 152
+, "Dacia": 133
+, "Volvo": 120
+, "Land Rover": 93
+, "Mazda": 72
+, "Suzuki": 52
+, "Mini": 39
+, "Jaguar": 32
+, "Honda": 28
+, "Lexus": 22
+, "Fiat": 14
+, "Cupra": 13
+, "Porsche": 13
+, "SsangYong": 13
+, "MG": 12
+, "Tesla": 10
+, "Mitsubishi": 8
+, "Citroën": 4
+, "Alfa Romeo": 2
 });
 
-db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/4",
+db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 219
-, "Volkswagen|ID.3": 109
+, "Volkswagen|ID.3": 108
 , "Kia|Niro EV": 67
 , "Nissan|Leaf": 29
 , "Renault|Zoe": 28
-, "Audi|Q8 e-tron": 27
-, "Hyundai|Kona Electric": 27
-, "MG|ZS EV": 12
+, "Audi|Q8 e-tron": 26
+, "Hyundai|Kona Electric": 24
+, "MG|ZS EV": 11
 , "Peugeot|e-2008": 11
 , "Peugeot|e-208": 11
 , "Tesla|Model 3": 10
@@ -595,30 +1438,64 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 1
 , "BMW|i3 BEV": 1
 , "Lexus|UX 300e": 1
-, "Nissan|e-NV200": 1
+, "Mercedes-Benz|EQV": 1
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 5921
+db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 793
+, "Toyota": 747
+, "Škoda": 562
+, "Hyundai": 464
+, "Kia": 453
+, "Ford": 441
+, "Peugeot": 353
+, "BMW": 317
+, "Seat": 210
+, "Audi": 207
+, "Mercedes-Benz": 166
+, "Renault": 155
+, "Dacia": 141
+, "Nissan": 132
+, "Opel": 128
+, "Suzuki": 96
+, "Volvo": 95
+, "Mini": 65
+, "MG": 58
+, "Honda": 56
+, "Land Rover": 53
+, "Tesla": 53
+, "Mazda": 41
+, "Jaguar": 33
+, "Lexus": 20
+, "Cupra": 19
+, "Porsche": 19
+, "Fiat": 16
+, "Citroën": 5
+, "Mitsubishi": 5
+, "DS Automobiles": 4
+, "SsangYong": 3
+, "Alfa Romeo": 2
+, "Jeep": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/5",
-{ "Volkswagen|ID.4": 116
+db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 115
 , "Volkswagen|ID.3": 85
-, "Kia|Niro EV": 64
+, "Kia|Niro EV": 63
 , "Tesla|Model 3": 53
 , "Mini|Cooper SE Electric": 27
-, "Škoda|Enyaq": 26
+, "Škoda|Enyaq": 25
 , "Renault|Zoe": 24
 , "Roewe|Ei5": 21
 , "Hyundai|Kona Electric": 20
-, "Mercedes-Benz|EQA": 15
-, "Audi|Q8 e-tron": 13
-, "MG|ZS EV": 12
+, "Mercedes-Benz|EQA": 14
+, "Audi|Q8 e-tron": 12
+, "MG|ZS EV": 11
 , "Peugeot|e-2008": 11
-, "Nissan|Leaf": 10
 , "Porsche|Taycan": 10
+, "Nissan|Leaf": 9
 , "Peugeot|e-208": 9
 , "Opel|Corsa-e": 5
 , "Honda|e": 4
@@ -631,11 +1508,43 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 1
 });
 
-db.insert(db.countries.IE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
-{ "other": 2764
+db.insert(db.countries.IE, "2021-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 658
+, "Toyota": 294
+, "Tesla": 198
+, "BMW": 197
+, "Kia": 197
+, "Škoda": 195
+, "Hyundai": 186
+, "Ford": 140
+, "Audi": 111
+, "Peugeot": 110
+, "Volvo": 89
+, "Nissan": 74
+, "Mercedes-Benz": 46
+, "Opel": 35
+, "Seat": 34
+, "Renault": 29
+, "Honda": 26
+, "Mini": 25
+, "MG": 21
+, "Suzuki": 21
+, "Dacia": 20
+, "Land Rover": 12
+, "Lexus": 11
+, "Fiat": 7
+, "Mazda": 6
+, "Jaguar": 5
+, "DS Automobiles": 4
+, "Mitsubishi": 3
+, "Alfa Romeo": 2
+, "Jeep": 2
+, "Porsche": 2
+, "Citroën": 1
+, "Cupra": 1
 });
 
-db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/6",
+db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 198
 , "Volkswagen|ID.4": 42
 , "Volkswagen|ID.3": 40
@@ -665,32 +1574,66 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 1
 });
 
-db.insert(db.countries.IE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 26433
+db.insert(db.countries.IE, "2021-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 3450
+, "Hyundai": 3358
+, "Volkswagen": 3296
+, "Škoda": 2238
+, "Kia": 1507
+, "Ford": 1462
+, "Nissan": 1439
+, "Seat": 1229
+, "Peugeot": 1226
+, "Audi": 1086
+, "Renault": 1036
+, "Opel": 961
+, "BMW": 940
+, "Mercedes-Benz": 602
+, "Dacia": 505
+, "Mazda": 407
+, "Suzuki": 314
+, "Volvo": 236
+, "Honda": 183
+, "Land Rover": 158
+, "Mini": 132
+, "MG": 124
+, "Citroën": 118
+, "Lexus": 99
+, "Mitsubishi": 98
+, "Cupra": 65
+, "Fiat": 54
+, "Jaguar": 46
+, "Porsche": 35
+, "SsangYong": 25
+, "Jeep": 14
+, "Subaru": 13
+, "DS Automobiles": 12
+, "Alfa Romeo": 5
+, "other": 4
 });
 
-db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/7",
+db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 350
-, "Volkswagen|ID.3": 342
-, "Kia|Niro EV": 218
-, "Renault|Zoe": 211
-, "Nissan|Leaf": 113
+, "Volkswagen|ID.3": 340
+, "Kia|Niro EV": 216
+, "Renault|Zoe": 210
+, "Nissan|Leaf": 112
 , "Hyundai|Kona Electric": 86
 , "Škoda|Enyaq": 85
-, "MG|ZS EV": 65
+, "MG|ZS EV": 64
 , "Peugeot|e-2008": 47
-, "Hyundai|Ioniq Electric": 46
+, "Hyundai|Ioniq Electric": 43
 , "Mini|Cooper SE Electric": 36
-, "Audi|Q8 e-tron": 32
 , "Mazda|MX-30": 30
+, "Audi|Q8 e-tron": 29
 , "Audi|Q4 e-tron": 27
 , "Opel|Corsa-e": 25
 , "Peugeot|e-208": 25
 , "Roewe|Ei5": 24
 , "Mercedes-Benz|EQA": 21
+, "Audi|e-tron GT": 19
 , "Opel|Mokka-e": 19
 , "Volvo|XC40 Recharge pure electric": 19
-, "Audi|e-tron GT": 16
 , "Kia|Soul EV": 16
 , "Porsche|Taycan": 13
 , "Citroën|ë-C4": 11
@@ -699,18 +1642,54 @@ db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 5
 , "BMW|i3 BEV": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
+, "Hyundai|Ioniq 5": 3
 , "Mercedes-Benz|EQC": 1
 , "Peugeot|e-Expert": 1
 });
 
-db.insert(db.countries.IE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 6007
+db.insert(db.countries.IE, "2021-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Kia": 708
+, "Volkswagen": 690
+, "Toyota": 538
+, "Hyundai": 529
+, "Škoda": 434
+, "BMW": 313
+, "Ford": 299
+, "Seat": 277
+, "Nissan": 266
+, "Audi": 255
+, "Peugeot": 242
+, "Renault": 242
+, "Opel": 241
+, "Mercedes-Benz": 182
+, "Suzuki": 115
+, "Dacia": 100
+, "Citroën": 98
+, "Volvo": 90
+, "Honda": 72
+, "Land Rover": 58
+, "Mazda": 57
+, "Mini": 34
+, "MG": 33
+, "Lexus": 16
+, "Mitsubishi": 16
+, "Cupra": 14
+, "Alfa Romeo": 11
+, "Fiat": 8
+, "Jaguar": 6
+, "Porsche": 5
+, "DS Automobiles": 3
+, "Jeep": 3
+, "SsangYong": 3
+, "Subaru": 3
+, "Tesla": 2
+, "other": 3
 });
 
-db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/8",
-{ "Volkswagen|ID.3": 142
-, "Kia|Niro EV": 135
-, "Volkswagen|ID.4": 113
+db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.3": 140
+, "Kia|Niro EV": 134
+, "Volkswagen|ID.4": 112
 , "Audi|Q4 e-tron": 69
 , "BMW|iX3": 47
 , "Nissan|Leaf": 44
@@ -718,8 +1697,8 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 39
 , "Škoda|Enyaq": 34
 , "MG|ZS EV": 24
-, "Hyundai|Ioniq Electric": 20
-, "Peugeot|e-2008": 15
+, "Hyundai|Ioniq Electric": 19
+, "Peugeot|e-2008": 14
 , "Mini|Cooper SE Electric": 11
 , "Peugeot|e-208": 10
 , "Citroën|ë-C4": 9
@@ -732,7 +1711,7 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 6
 , "BMW|i3 BEV": 4
 , "Jaguar|I-Pace": 4
-, "Opel|Corsa-e": 4
+, "Opel|Corsa-e": 3
 , "Porsche|Taycan": 3
 , "Volvo|XC40 Recharge pure electric": 3
 , "Opel|Vivaro-e": 2
@@ -743,20 +1722,54 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 1
 });
 
-db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 4411
+db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 491
+, "Toyota": 445
+, "Hyundai": 421
+, "Ford": 358
+, "Škoda": 285
+, "BMW": 278
+, "Nissan": 260
+, "Kia": 256
+, "Peugeot": 199
+, "Audi": 167
+, "Tesla": 166
+, "Renault": 165
+, "Mercedes-Benz": 138
+, "Land Rover": 133
+, "Seat": 108
+, "Opel": 101
+, "Suzuki": 92
+, "Citroën": 74
+, "Dacia": 56
+, "Volvo": 55
+, "Honda": 47
+, "Mini": 31
+, "MG": 26
+, "Mazda": 22
+, "Lexus": 20
+, "Cupra": 16
+, "SsangYong": 9
+, "Porsche": 6
+, "DS Automobiles": 5
+, "Fiat": 5
+, "Jaguar": 4
+, "Mitsubishi": 4
+, "Jeep": 3
+, "Alfa Romeo": 2
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/9",
+db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 166
 , "Volkswagen|ID.3": 98
 , "Volkswagen|ID.4": 83
-, "Kia|Niro EV": 54
+, "Kia|Niro EV": 53
 , "BMW|iX3": 51
-, "Nissan|Leaf": 50
+, "Nissan|Leaf": 49
 , "Audi|Q4 e-tron": 36
-, "Hyundai|Ioniq Electric": 34
-, "Škoda|Enyaq": 30
+, "Hyundai|Ioniq Electric": 33
+, "Škoda|Enyaq": 29
 , "Peugeot|e-208": 20
 , "Hyundai|Ioniq 5": 18
 , "MG|ZS EV": 17
@@ -779,14 +1792,46 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Jaguar|I-Pace": 1
 , "Mazda|MX-30": 1
-, "Peugeot|e-Expert": 1
 });
 
-db.insert(db.countries.IE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211118_PRPC_2110_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 2680
+db.insert(db.countries.IE, "2021-10", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 303
+, "Škoda": 231
+, "Toyota": 197
+, "Peugeot": 189
+, "Mercedes-Benz": 175
+, "Kia": 169
+, "Ford": 167
+, "Hyundai": 165
+, "BMW": 160
+, "Nissan": 122
+, "MG": 100
+, "Audi": 92
+, "Opel": 89
+, "Volvo": 74
+, "Renault": 73
+, "Seat": 66
+, "Dacia": 60
+, "Citroën": 44
+, "Suzuki": 37
+, "Land Rover": 26
+, "Mazda": 26
+, "Mini": 23
+, "Honda": 22
+, "Porsche": 19
+, "Lexus": 11
+, "Cupra": 8
+, "DS Automobiles": 7
+, "Fiat": 5
+, "Jeep": 5
+, "SsangYong": 5
+, "Alfa Romeo": 4
+, "Subaru": 4
+, "Jaguar": 1
+, "Tesla": 1
 });
 
-db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/10",
+db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 80
 , "Volkswagen|ID.3": 61
 , "Roewe|Ei5": 60
@@ -798,44 +1843,77 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 17
 , "Peugeot|e-2008": 17
 , "Hyundai|Ioniq 5": 14
-, "Peugeot|e-208": 14
-, "Kia|Niro EV": 13
+, "Peugeot|e-208": 13
+, "Kia|Niro EV": 12
 , "Mazda|MX-30": 10
 , "Porsche|Taycan": 9
 , "Kia|Soul EV": 8
-, "BMW|iX3": 7
 , "Mercedes-Benz|EQA": 7
+, "BMW|iX3": 6
 , "Citroën|ë-C4": 6
 , "Opel|Mokka-e": 6
 , "Mini|Cooper SE Electric": 5
 , "Volvo|XC40 Recharge pure electric": 5
-, "Audi|e-tron GT": 3
+, "Audi|e-tron GT": 4
 , "Hyundai|Ioniq Electric": 3
-, "Audi|Q8 e-tron": 2
 , "Honda|e": 2
 , "Opel|Corsa-e": 2
 , "Peugeot|e-Expert": 2
+, "Audi|Q8 e-tron": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Jaguar|I-Pace": 1
 , "Renault|Zoe": 1
 , "Tesla|Model 3": 1
 });
 
-db.insert(db.countries.IE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 1122
+db.insert(db.countries.IE, "2021-11", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 241
+, "Škoda": 124
+, "Volkswagen": 123
+, "Mercedes-Benz": 68
+, "Peugeot": 67
+, "BMW": 54
+, "Ford": 48
+, "Kia": 43
+, "Opel": 43
+, "Hyundai": 40
+, "Audi": 33
+, "Nissan": 31
+, "Renault": 29
+, "MG": 20
+, "Suzuki": 20
+, "Volvo": 19
+, "Citroën": 18
+, "Tesla": 16
+, "Dacia": 14
+, "Honda": 9
+, "Mini": 8
+, "Jaguar": 7
+, "Land Rover": 7
+, "Seat": 7
+, "SsangYong": 7
+, "Mazda": 6
+, "Porsche": 5
+, "Fiat": 4
+, "Jeep": 2
+, "Lexus": 2
+, "Subaru": 2
+, "Alfa Romeo": 1
+, "Cupra": 1
+, "DS Automobiles": 1
 });
 
-db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/11",
+db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.3": 21
 , "Peugeot|e-2008": 19
 , "Volkswagen|ID.4": 18
 , "Tesla|Model 3": 16
 , "BMW|iX": 15
-, "Škoda|Enyaq": 15
+, "Škoda|Enyaq": 13
 , "Kia|EV6": 12
 , "MG|ZS EV": 12
 , "Audi|Q4 e-tron": 10
-, "Ford|Mustang Mach-E": 8
+, "Ford|Mustang Mach-E": 7
 , "Jaguar|I-Pace": 7
 , "Nissan|Leaf": 7
 , "Roewe|Ei5": 6
@@ -843,22 +1921,55 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 3
 , "Mazda|MX-30": 3
 , "Mercedes-Benz|EQA": 3
-, "Honda|e": 2
 , "Hyundai|Ioniq 5": 2
 , "Mini|Cooper SE Electric": 2
-, "Opel|Corsa-e": 2
 , "Volvo|XC40 Recharge pure electric": 2
 , "Audi|Q8 e-tron": 1
 , "Audi|e-tron GT": 1
 , "Citroën|ë-C4": 1
+, "Honda|e": 1
 , "Hyundai|Ioniq Electric": 1
 , "Kia|Soul EV": 1
+, "Opel|Corsa-e": 1
 , "Opel|Vivaro-e": 1
 });
 
-// We have no reasonable number for 2021-12. https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf gives 106, which is less than the sum of EVs.
+db.insert(db.countries.IE, "2021-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 87
+, "Toyota": 84
+, "Ford": 38
+, "Volkswagen": 27
+, "Škoda": 19
+, "Honda": 17
+, "MG": 15
+, "Nissan": 12
+, "Peugeot": 12
+, "Renault": 9
+, "Hyundai": 8
+, "Subaru": 8
+, "BMW": 6
+, "Citroën": 6
+, "Alfa Romeo": 5
+, "Volvo": 5
+, "Mercedes-Benz": 4
+, "Jaguar": 3
+, "Audi": 2
+, "Cupra": 2
+, "Dacia": 2
+, "Kia": 2
+, "Land Rover": 2
+, "Mini": 2
+, "Opel": 2
+, "Suzuki": 2
+, "DS Automobiles": 1
+, "Fiat": 1
+, "Lexus": 1
+, "Mazda": 1
+, "Porsche": 1
+, "Seat": 1
+});
 
-db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2021/12",
+db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Tesla|Model 3": 87
 , "MG|ZS EV": 9
 , "Volkswagen|ID.4": 6
@@ -875,120 +1986,220 @@ db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 1
 });
 
-db.insert(db.countries.IE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 25043
+db.insert(db.countries.IE, "2022-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 5037
+, "Hyundai": 3616
+, "Volkswagen": 1738
+, "Škoda": 1712
+, "Kia": 1515
+, "Nissan": 1463
+, "Ford": 1345
+, "Renault": 1221
+, "Peugeot": 1022
+, "BMW": 881
+, "Dacia": 828
+, "Audi": 731
+, "Opel": 682
+, "Mercedes-Benz": 639
+, "Volvo": 483
+, "Citroën": 380
+, "Seat": 373
+, "Mazda": 301
+, "Suzuki": 169
+, "Lexus": 149
+, "Mini": 131
+, "Land Rover": 120
+, "Porsche": 113
+, "MG": 95
+, "Honda": 94
+, "Cupra": 92
+, "Jaguar": 26
+, "Tesla": 22
+, "Fiat": 21
+, "DS Automobiles": 20
+, "SsangYong": 3
+, "Alfa Romeo": 2
 });
 
-db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/1",
-{ "Hyundai|Ioniq 5": 459
-, "Nissan|Leaf": 304
+db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq 5": 454
+, "Nissan|Leaf": 303
 , "Kia|EV6": 302
-, "Volkswagen|ID.4": 258
+, "Volkswagen|ID.4": 257
 , "Kia|Niro EV": 170
-, "Hyundai|Kona Electric": 136
+, "Hyundai|Kona Electric": 135
 , "Peugeot|e-2008": 108
-, "Škoda|Enyaq": 97
+, "Škoda|Enyaq": 96
 , "Volkswagen|ID.3": 69
 , "Audi|Q4 e-tron": 65
 , "Renault|Zoe": 61
 , "Porsche|Taycan": 56
-, "Mercedes-Benz|EQA": 55
+, "Mercedes-Benz|EQA": 54
 , "Opel|Corsa-e": 50
 , "Roewe|Ei5": 47
-, "Peugeot|e-208": 45
-, "Audi|Q8 e-tron": 44
-, "Kia|Soul EV": 40
-, "Volvo|XC40 Recharge pure electric": 36
+, "Peugeot|e-208": 44
+, "Audi|Q8 e-tron": 40
+, "Kia|Soul EV": 39
+, "Audi|e-tron GT": 37
 , "Mini|Cooper SE Electric": 34
-, "Audi|e-tron GT": 33
 , "Mazda|MX-30": 31
-, "BMW|iX": 30
+, "BMW|iX": 29
+, "Volvo|XC40 Recharge pure electric": 25
 , "Citroën|ë-C4": 23
-, "Jaguar|I-Pace": 23
+, "Jaguar|I-Pace": 22
 , "Tesla|Model 3": 22
-, "Opel|Mokka-e": 20
 , "Ford|Mustang Mach-E": 19
+, "Opel|Mokka-e": 19
 , "MG|ZS EV": 18
 , "BMW|iX3": 16
-, "Mercedes-Benz|EQC": 10
+, "Volvo|C40 Recharge": 11
 , "BMW|i3 BEV": 9
 , "Fiat|500e": 8
+, "Mercedes-Benz|EQB": 7
 , "Honda|e": 5
-, "Peugeot|e-Expert": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
+, "Mercedes-Benz|EQC": 3
+, "Peugeot|e-Expert": 3
 , "Citroën|ë-SpaceTourer": 1
 , "Mercedes-Benz|EQS": 1
 });
 
-db.insert(db.countries.IE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 11986
+db.insert(db.countries.IE, "2022-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 1717
+, "Toyota": 1661
+, "Kia": 1249
+, "Škoda": 1105
+, "Volkswagen": 823
+, "Peugeot": 674
+, "Audi": 646
+, "Ford": 613
+, "Nissan": 452
+, "Mercedes-Benz": 448
+, "BMW": 434
+, "Renault": 356
+, "Seat": 225
+, "Tesla": 203
+, "Volvo": 199
+, "Mazda": 191
+, "Dacia": 174
+, "Opel": 150
+, "Suzuki": 144
+, "Citroën": 126
+, "Lexus": 69
+, "Mini": 63
+, "Honda": 56
+, "Fiat": 46
+, "Land Rover": 41
+, "Cupra": 33
+, "MG": 31
+, "Porsche": 23
+, "DS Automobiles": 12
+, "Alfa Romeo": 3
+, "Jaguar": 3
+, "SsangYong": 3
+, "Jeep": 1
 });
 
-db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/2",
-{ "Hyundai|Ioniq 5": 366
+db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq 5": 364
 , "Tesla|Model 3": 199
-, "Volkswagen|ID.4": 192
+, "Volkswagen|ID.4": 191
 , "Kia|EV6": 152
 , "Nissan|Leaf": 144
 , "Kia|Niro EV": 117
-, "Hyundai|Kona Electric": 61
+, "Hyundai|Kona Electric": 60
 , "Peugeot|e-2008": 34
-, "Audi|Q8 e-tron": 33
-, "Volvo|XC40 Recharge pure electric": 30
+, "Audi|Q8 e-tron": 31
 , "Mini|Cooper SE Electric": 28
 , "Volkswagen|ID.3": 27
 , "Mercedes-Benz|EQA": 23
 , "Peugeot|e-208": 23
+, "Volvo|XC40 Recharge pure electric": 22
 , "Audi|Q4 e-tron": 19
 , "Renault|Zoe": 18
 , "BMW|iX": 17
 , "BMW|i4": 16
 , "Fiat|500e": 16
 , "Roewe|Ei5": 15
-, "Audi|e-tron GT": 9
+, "Audi|e-tron GT": 10
 , "MG|ZS EV": 9
 , "Mercedes-Benz|EQC": 9
 , "Kia|Soul EV": 8
+, "Volvo|C40 Recharge": 8
 , "BMW|iX3": 6
 , "Mazda|MX-30": 6
 , "Mercedes-Benz|EQB": 6
-, "Škoda|Enyaq": 6
+, "Škoda|Enyaq": 5
 , "Ford|Mustang Mach-E": 4
 , "Mercedes-Benz|EQS": 4
 , "Peugeot|e-Expert": 4
 , "Porsche|Taycan": 4
-, "Tesla|Model Y": 4
+, "Tesla|Model X": 4
 , "BMW|i3 BEV": 3
 , "Jaguar|I-Pace": 2
 , "Opel|Mokka-e": 2
+, "Citroën|Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 1
+});
+
+db.insert(db.countries.IE, "2022-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 2734
+, "Hyundai": 1525
+, "Kia": 1104
+, "Volkswagen": 934
+, "Ford": 829
+, "Peugeot": 786
+, "Škoda": 728
+, "BMW": 607
+, "Mercedes-Benz": 537
+, "Audi": 512
+, "Tesla": 434
+, "Nissan": 377
+, "Opel": 287
+, "Renault": 264
+, "Suzuki": 191
+, "Seat": 163
+, "Dacia": 129
+, "Volvo": 124
+, "Citroën": 108
+, "Mazda": 108
+, "Fiat": 94
+, "Cupra": 90
+, "Lexus": 53
+, "Land Rover": 48
+, "Honda": 45
+, "Mini": 43
+, "Jaguar": 24
+, "Porsche": 12
+, "MG": 6
+, "DS Automobiles": 3
+, "Jeep": 3
+, "SsangYong": 2
+, "Alfa Romeo": 1
 , "other": 2
 });
 
-db.insert(db.countries.IE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 12904
-});
-
-db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/3",
-{ "Volkswagen|ID.4": 293
+db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 292
 , "Tesla|Model 3": 269
 , "Hyundai|Ioniq 5": 254
-, "Tesla|Model Y": 165
-, "Kia|EV6": 144
-, "Nissan|Leaf": 103
+, "Tesla|Model X": 165
+, "Kia|EV6": 143
+, "Nissan|Leaf": 102
 , "Hyundai|Kona Electric": 81
 , "Kia|Niro EV": 62
 , "Renault|Zoe": 62
-, "Peugeot|e-2008": 50
+, "Peugeot|e-2008": 49
 , "Peugeot|e-208": 44
-, "Volkswagen|ID.3": 40
+, "Volkswagen|ID.3": 39
 , "Audi|Q4 e-tron": 37
 , "Mercedes-Benz|EQA": 35
 , "BMW|iX": 28
-, "Volvo|XC40 Recharge pure electric": 27
-, "Audi|Q8 e-tron": 24
+, "Audi|Q8 e-tron": 22
 , "BMW|i4": 22
+, "Volvo|XC40 Recharge pure electric": 22
 , "Mini|Cooper SE Electric": 21
 , "Fiat|500e": 18
 , "Mazda|MX-30": 14
@@ -1004,55 +2215,92 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 7
 , "Honda|e": 6
 , "Porsche|Taycan": 6
+, "Volvo|C40 Recharge": 5
 , "Citroën|ë-SpaceTourer": 4
 , "Roewe|Ei5": 4
+, "Audi|e-tron GT": 3
 , "BMW|i3 BEV": 3
+, "Citroën|Berlingo Electric": 3
 , "Jaguar|I-Pace": 3
-, "Audi|e-tron GT": 2
+, "Opel|Vivaro-e": 3
 , "Citroën|ë-C4": 2
-, "Opel|Vivaro-e": 2
-, "Peugeot|e-Expert": 2
 , "BMW|iX3": 1
 , "MG|ZS EV": 1
-, "other": 5
+, "Peugeot|e-Expert": 1
+, "other": 2
 });
 
-db.insert(db.countries.IE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 7863
+db.insert(db.countries.IE, "2022-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 1237
+, "Volkswagen": 922
+, "Toyota": 910
+, "Kia": 701
+, "Škoda": 515
+, "Audi": 472
+, "Ford": 401
+, "Mercedes-Benz": 383
+, "BMW": 341
+, "Peugeot": 317
+, "Opel": 236
+, "Nissan": 207
+, "Renault": 204
+, "Seat": 167
+, "Dacia": 128
+, "Volvo": 106
+, "Citroën": 95
+, "Suzuki": 92
+, "Cupra": 87
+, "MG": 65
+, "Mini": 56
+, "Mazda": 42
+, "Jaguar": 34
+, "Fiat": 28
+, "Honda": 26
+, "Land Rover": 25
+, "Lexus": 20
+, "Porsche": 13
+, "Tesla": 13
+, "DS Automobiles": 4
+, "Jeep": 4
+, "SsangYong": 4
+, "Alfa Romeo": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/4",
-{ "Volkswagen|ID.4": 279
+db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 276
 , "Kia|EV6": 121
 , "Hyundai|Kona Electric": 102
+, "BMW|i4": 70
 , "Volkswagen|ID.3": 65
 , "Nissan|Leaf": 64
-, "BMW|i4": 60
 , "Kia|Niro EV": 58
 , "Hyundai|Ioniq 5": 53
 , "Hyundai|Ioniq Electric": 44
 , "Renault|Zoe": 44
 , "Škoda|Enyaq": 36
-, "Peugeot|e-208": 30
+, "Peugeot|e-208": 29
 , "Audi|Q8 e-tron": 28
 , "BMW|iX": 25
 , "Roewe|Ei5": 24
 , "BMW|iX3": 22
-, "Citroën|ë-C4": 21
-, "Mercedes-Benz|EQA": 21
+, "Citroën|ë-C4": 20
 , "Mini|Cooper SE Electric": 20
+, "Mercedes-Benz|EQA": 19
 , "Jaguar|I-Pace": 17
-, "Audi|Q4 e-tron": 16
-, "Volvo|XC40 Recharge pure electric": 16
+, "Audi|Q4 e-tron": 15
 , "Ford|Mustang Mach-E": 14
 , "Mercedes-Benz|EQB": 11
+, "Volvo|XC40 Recharge pure electric": 11
 , "Fiat|500e": 9
 , "MG|ZS EV": 9
 , "Tesla|Model 3": 9
 , "Audi|e-tron GT": 6
+, "Citroën|Berlingo Electric": 6
 , "Opel|Corsa-e": 6
 , "Peugeot|e-2008": 5
 , "Porsche|Taycan": 5
+, "Volvo|C40 Recharge": 5
 , "Cupra|Born": 4
 , "Mercedes-Benz|EQS": 4
 , "Tesla|Model X": 4
@@ -1060,68 +2308,137 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 3
 , "Kia|Soul EV": 2
 , "Mercedes-Benz|EQC": 2
+, "Mercedes-Benz|EQE": 2
 , "Volkswagen|ID.5": 2
 , "Opel|Combo-e": 1
 , "Opel|Mokka-e": 1
+, "Opel|Vivaro-e": 1
 , "Opel|Zafira-e": 1
 , "Peugeot|e-Expert": 1
-, "other": 17
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 5286
+db.insert(db.countries.IE, "2022-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 822
+, "Toyota": 694
+, "Hyundai": 487
+, "Škoda": 405
+, "BMW": 381
+, "Kia": 337
+, "Dacia": 261
+, "Nissan": 260
+, "Peugeot": 252
+, "Mercedes-Benz": 244
+, "Ford": 220
+, "Audi": 199
+, "Opel": 186
+, "Citroën": 81
+, "Seat": 79
+, "Suzuki": 75
+, "Volvo": 47
+, "Cupra": 44
+, "Mini": 40
+, "Mazda": 27
+, "Renault": 24
+, "Land Rover": 23
+, "MG": 19
+, "Honda": 15
+, "Jaguar": 14
+, "DS Automobiles": 10
+, "Lexus": 10
+, "Porsche": 10
+, "SsangYong": 10
+, "Fiat": 7
+, "Jeep": 5
+, "Tesla": 3
+, "Alfa Romeo": 2
+, "Polestar": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/5",
+db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.3": 127
 , "Volkswagen|ID.4": 115
+, "BMW|i4": 62
 , "Nissan|Leaf": 47
-, "BMW|i4": 41
 , "BMW|iX3": 41
 , "Opel|Corsa-e": 35
 , "Hyundai|Ioniq Electric": 33
 , "Škoda|Enyaq": 26
 , "Kia|EV6": 22
 , "Citroën|ë-C4": 20
-, "Hyundai|Kona Electric": 19
 , "Peugeot|e-208": 19
+, "Hyundai|Kona Electric": 18
 , "BMW|iX": 17
-, "Volkswagen|ID.5": 16
+, "Volkswagen|ID.5": 15
 , "Audi|Q4 e-tron": 14
-, "Volvo|XC40 Recharge pure electric": 13
 , "Jaguar|I-Pace": 11
 , "Kia|Niro EV": 11
 , "Audi|Q8 e-tron": 10
+, "Volvo|C40 Recharge": 9
 , "Roewe|Ei5": 8
 , "Mercedes-Benz|EQB": 7
 , "Mini|Cooper SE Electric": 7
-, "Audi|e-tron GT": 6
 , "Mercedes-Benz|EQA": 6
 , "Mercedes-Benz|EQC": 6
+, "Audi|e-tron GT": 5
+, "Citroën|Berlingo Electric": 5
 , "MG|ZS EV": 5
 , "Fiat|500e": 4
 , "Ford|Mustang Mach-E": 4
 , "Porsche|Taycan": 4
+, "Volvo|XC40 Recharge pure electric": 4
 , "Cupra|Born": 3
 , "Honda|e": 3
 , "Mercedes-Benz|EQS": 3
 , "BMW|i3 BEV": 2
 , "Hyundai|Ioniq 5": 2
 , "Mercedes-Benz|EQE": 2
+, "Opel|Vivaro-e": 2
 , "Opel|Zafira-e": 2
 , "Peugeot|e-2008": 2
 , "Tesla|Model X": 2
 , "Peugeot|e-Expert": 1
 , "Polestar|2": 1
 , "Tesla|Model 3": 1
-, "other": 26
 });
 
-db.insert(db.countries.IE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 2153
+db.insert(db.countries.IE, "2022-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 591
+, "Renault": 260
+, "Toyota": 229
+, "Volkswagen": 180
+, "Dacia": 159
+, "Škoda": 154
+, "Ford": 95
+, "Mercedes-Benz": 66
+, "Audi": 55
+, "Peugeot": 54
+, "Kia": 45
+, "Nissan": 41
+, "Opel": 29
+, "MG": 27
+, "Suzuki": 23
+, "Volvo": 23
+, "BMW": 22
+, "Citroën": 19
+, "Seat": 13
+, "Polestar": 12
+, "Land Rover": 11
+, "Mini": 10
+, "Fiat": 6
+, "Honda": 6
+, "Mazda": 6
+, "Porsche": 4
+, "Tesla": 4
+, "DS Automobiles": 3
+, "Cupra": 2
+, "Jaguar": 2
+, "SsangYong": 2
+, "Lexus": 1
 });
 
-db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/6",
+db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 28
 , "Volkswagen|ID.3": 27
 , "Roewe|Ei5": 20
@@ -1141,7 +2458,6 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 3
 , "Tesla|Model 3": 3
 , "Toyota|bZ4X": 3
-, "Audi|Q8 e-tron": 2
 , "BMW|iX": 2
 , "BMW|iX3": 2
 , "Citroën|ë-C4": 2
@@ -1151,36 +2467,73 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 2
 , "Peugeot|e-2008": 2
 , "Porsche|Taycan": 2
-, "Volvo|XC40 Recharge pure electric": 2
+, "Volvo|C40 Recharge": 2
+, "Audi|Q8 e-tron": 1
+, "Audi|e-tron GT": 1
+, "Citroën|Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Mercedes-Benz|EQS": 1
 , "Mini|Cooper SE Electric": 1
+, "Opel|Vivaro-e": 1
 , "Tesla|Model X": 1
+});
+
+db.insert(db.countries.IE, "2022-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 3518
+, "Toyota": 3412
+, "Hyundai": 2423
+, "Škoda": 1614
+, "Kia": 1594
+, "Dacia": 1072
+, "Peugeot": 908
+, "Audi": 867
+, "BMW": 842
+, "Opel": 690
+, "Mercedes-Benz": 681
+, "Renault": 659
+, "Nissan": 658
+, "Volvo": 495
+, "Ford": 494
+, "Seat": 381
+, "Citroën": 250
+, "Suzuki": 245
+, "Mazda": 215
+, "MG": 160
+, "Cupra": 152
+, "Land Rover": 133
+, "Mini": 74
+, "Honda": 72
+, "SsangYong": 61
+, "Fiat": 51
+, "DS Automobiles": 40
+, "Porsche": 39
+, "Lexus": 37
+, "Jaguar": 24
+, "Polestar": 20
+, "Jeep": 14
+, "Subaru": 7
+, "Alfa Romeo": 1
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 21849
-});
-
-db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/7",
-{ "Volkswagen|ID.4": 703
-, "Volkswagen|ID.3": 396
-, "Volvo|XC40 Recharge pure electric": 178
+db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 699
+, "Volkswagen|ID.3": 395
+, "Volvo|XC40 Recharge pure electric": 174
 , "Škoda|Enyaq": 168
-, "Kia|EV6": 116
+, "Kia|EV6": 115
 , "Renault|Zoe": 107
 , "Volkswagen|ID.5": 98
 , "MG|ZS EV": 87
-, "Peugeot|e-208": 67
 , "Nissan|Leaf": 66
-, "Roewe|Ei5": 58
+, "Peugeot|e-208": 66
+, "Roewe|Ei5": 57
 , "Hyundai|Kona Electric": 54
+, "BMW|i4": 49
 , "Opel|Mokka-e": 46
 , "Audi|Q8 e-tron": 42
 , "Mercedes-Benz|EQB": 41
 , "Fiat|500e": 40
-, "BMW|i4": 38
 , "Peugeot|e-2008": 35
 , "BMW|iX": 30
 , "Hyundai|Ioniq Electric": 30
@@ -1203,6 +2556,8 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-SpaceTourer": 5
 , "Mercedes-Benz|EQC": 5
 , "Mercedes-Benz|EQE": 5
+, "Citroën|Berlingo Electric": 4
+, "Opel|Vivaro-e": 3
 , "Peugeot|e-Expert": 3
 , "Kia|Niro EV": 2
 , "Kia|Soul EV": 2
@@ -1210,34 +2565,69 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Opel|Combo-e": 1
-, "other": 23
+, "other": 8
 });
 
-db.insert(db.countries.IE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 8139
+db.insert(db.countries.IE, "2022-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1431
+, "Škoda": 705
+, "Toyota": 663
+, "Kia": 632
+, "Renault": 563
+, "Audi": 436
+, "Hyundai": 397
+, "Ford": 395
+, "Opel": 390
+, "Peugeot": 353
+, "Nissan": 335
+, "Mercedes-Benz": 311
+, "Dacia": 261
+, "BMW": 231
+, "Citroën": 148
+, "Suzuki": 148
+, "Seat": 114
+, "Mazda": 107
+, "MG": 84
+, "Fiat": 76
+, "Mini": 71
+, "Volvo": 71
+, "Tesla": 48
+, "Lexus": 41
+, "Cupra": 37
+, "Polestar": 25
+, "Land Rover": 16
+, "DS Automobiles": 15
+, "Honda": 15
+, "Jaguar": 14
+, "Jeep": 7
+, "Porsche": 7
+, "SsangYong": 3
+, "Alfa Romeo": 2
+, "Subaru": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/8",
-{ "Volkswagen|ID.4": 526
+db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 522
 , "Volkswagen|ID.3": 111
 , "Škoda|Enyaq": 110
 , "Kia|EV6": 57
-, "Hyundai|Kona Electric": 55
-, "Peugeot|e-2008": 51
+, "Hyundai|Kona Electric": 54
+, "Peugeot|e-2008": 50
 , "Tesla|Model 3": 48
 , "MG|ZS EV": 43
 , "Volkswagen|ID.5": 43
-, "Nissan|Leaf": 40
 , "Roewe|Ei5": 40
-, "Audi|Q8 e-tron": 36
+, "Nissan|Leaf": 39
+, "Audi|Q8 e-tron": 35
 , "BMW|iX3": 34
-, "Nissan|Ariya": 34
-, "Polestar|2": 26
+, "Nissan|Ariya": 33
+, "Polestar|2": 25
 , "Mercedes-Benz|EQB": 23
 , "Mini|Cooper SE Electric": 23
 , "Volvo|XC40 Recharge pure electric": 23
-, "Fiat|500e": 22
 , "Opel|Mokka-e": 22
+, "Fiat|500e": 21
 , "BMW|iX": 18
 , "Jaguar|I-Pace": 11
 , "Cupra|Born": 10
@@ -1247,37 +2637,72 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 9
 , "Kia|Niro EV": 8
 , "Mercedes-Benz|EQS": 8
-, "BMW|i4": 5
+, "BMW|i4": 6
 , "Volvo|C40 Recharge": 4
 , "Ford|Mustang Mach-E": 3
+, "Audi|e-tron GT": 2
 , "Kia|Soul EV": 2
 , "Mercedes-Benz|EQC": 2
 , "Opel|Corsa-e": 2
 , "Peugeot|e-Expert": 2
-, "Audi|e-tron GT": 1
 , "BMW|i3 BEV": 1
+, "Citroën|Berlingo Electric": 1
 , "Citroën|ë-C4": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Hyundai|Ioniq 5": 1
+, "Opel|Vivaro-e": 1
 , "Opel|Zafira-e": 1
 , "Peugeot|e-Rifter": 1
 , "Porsche|Taycan": 1
 , "Renault|Zoe": 1
-, "other": 6
+, "other": 4
 });
 
-db.insert(db.countries.IE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 6328
+db.insert(db.countries.IE, "2022-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 938
+, "Kia": 570
+, "Tesla": 566
+, "Ford": 479
+, "Hyundai": 449
+, "Škoda": 425
+, "Toyota": 316
+, "Mercedes-Benz": 261
+, "Audi": 255
+, "BMW": 213
+, "Renault": 212
+, "Nissan": 189
+, "Dacia": 183
+, "Peugeot": 177
+, "Citroën": 168
+, "Opel": 165
+, "Volvo": 145
+, "Suzuki": 128
+, "Mazda": 80
+, "Seat": 80
+, "Cupra": 76
+, "Mini": 69
+, "Lexus": 39
+, "Polestar": 25
+, "Honda": 20
+, "Fiat": 19
+, "Jaguar": 17
+, "Land Rover": 15
+, "Porsche": 14
+, "MG": 11
+, "DS Automobiles": 6
+, "SsangYong": 4
+, "Alfa Romeo": 2
+, "Jeep": 2
 });
 
-db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/9",
-{ "Tesla|Model 3": 472
-, "Volkswagen|ID.4": 384
-, "Kia|Niro EV": 138
+db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 471
+, "Volkswagen|ID.4": 383
+, "Kia|Niro EV": 135
 , "Škoda|Enyaq": 102
 , "Tesla|Model Y": 95
 , "Hyundai|Kona Electric": 94
-, "Volvo|XC40 Recharge pure electric": 72
+, "Volvo|XC40 Recharge pure electric": 71
 , "Cupra|Born": 53
 , "Volkswagen|ID.3": 48
 , "Volkswagen|ID.5": 35
@@ -1287,9 +2712,9 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 29
 , "Polestar|2": 25
 , "BMW|iX": 23
-, "BMW|iX3": 22
+, "BMW|iX3": 21
 , "Mercedes-Benz|EQB": 19
-, "Audi|Q8 e-tron": 18
+, "Audi|Q8 e-tron": 17
 , "Jaguar|I-Pace": 15
 , "Mercedes-Benz|EQA": 12
 , "Mercedes-Benz|EQS": 11
@@ -1309,17 +2734,52 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 3
 , "BMW|i3 BEV": 2
 , "Audi|e-tron GT": 1
+, "Citroën|Berlingo Electric": 1
 , "Honda|e": 1
 , "Hyundai|Ioniq 5": 1
-, "other": 2
+, "Opel|Vivaro-e": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 2622
+db.insert(db.countries.IE, "2022-10", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 421
+, "Renault": 244
+, "Škoda": 184
+, "Kia": 182
+, "Hyundai": 167
+, "Ford": 147
+, "Mercedes-Benz": 144
+, "Dacia": 140
+, "Audi": 122
+, "Toyota": 103
+, "BMW": 92
+, "Nissan": 91
+, "Peugeot": 86
+, "Volvo": 75
+, "Mini": 61
+, "Citroën": 57
+, "Suzuki": 48
+, "Seat": 34
+, "Cupra": 33
+, "Mazda": 29
+, "Opel": 29
+, "Polestar": 25
+, "Porsche": 20
+, "Tesla": 18
+, "Honda": 12
+, "Land Rover": 12
+, "MG": 12
+, "Jaguar": 8
+, "Fiat": 6
+, "Lexus": 6
+, "DS Automobiles": 3
+, "SsangYong": 3
+, "Jeep": 2
+, "Alfa Romeo": 1
 });
 
-db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/10",
-{ "Volkswagen|ID.4": 155
+db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 153
 , "Kia|Niro EV": 85
 , "Hyundai|Kona Electric": 71
 , "Nissan|Leaf": 49
@@ -1328,16 +2788,16 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 38
 , "Volvo|XC40 Recharge pure electric": 36
 , "Polestar|2": 25
-, "Volkswagen|ID.5": 24
+, "Volkswagen|ID.5": 23
 , "Nissan|Ariya": 16
 , "Tesla|Model 3": 15
 , "Hyundai|Ioniq 5": 12
 , "Mercedes-Benz|EQE": 12
 , "Volkswagen|ID.3": 12
 , "Cupra|Born": 10
-, "BMW|iX": 9
 , "MG|ZS EV": 9
 , "Audi|Q4 e-tron": 8
+, "BMW|iX": 8
 , "Kia|EV6": 7
 , "Mercedes-Benz|EQA": 7
 , "Audi|Q8 e-tron": 6
@@ -1353,18 +2813,50 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 3
 , "Tesla|Model Y": 3
 , "BMW|i4": 1
+, "Citroën|Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Honda|e": 1
 , "Mercedes-Benz|EQV": 1
 , "Opel|Zafira-e": 1
-, "other": 1
 });
 
-db.insert(db.countries.IE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 982
+db.insert(db.countries.IE, "2022-11", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 255
+, "Volkswagen": 122
+, "Hyundai": 70
+, "Škoda": 63
+, "Mercedes-Benz": 48
+, "Dacia": 46
+, "Ford": 39
+, "BMW": 36
+, "Nissan": 36
+, "Peugeot": 36
+, "Audi": 33
+, "Renault": 30
+, "Suzuki": 25
+, "Citroën": 16
+, "Seat": 15
+, "Mini": 14
+, "Porsche": 13
+, "Cupra": 12
+, "Kia": 10
+, "Opel": 10
+, "Polestar": 10
+, "Land Rover": 7
+, "Volvo": 7
+, "Lexus": 6
+, "Mazda": 6
+, "Tesla": 5
+, "MG": 4
+, "Jeep": 3
+, "DS Automobiles": 2
+, "Fiat": 2
+, "Honda": 2
+, "Jaguar": 1
+, "Subaru": 1
 });
 
-db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/11",
+db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Toyota|bZ4X": 122
 , "Volkswagen|ID.4": 46
 , "Nissan|Leaf": 23
@@ -1381,9 +2873,9 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 6
 , "Hyundai|Ioniq 5": 5
 , "Tesla|Model 3": 5
-, "Audi|Q8 e-tron": 4
 , "BMW|i4": 4
 , "BMW|i7": 4
+, "Audi|Q8 e-tron": 3
 , "MG|ZS EV": 3
 , "Mercedes-Benz|EQE": 3
 , "BMW|iX3": 2
@@ -1394,6 +2886,7 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 2
 , "Volkswagen|ID.3": 2
 , "Audi|Q4 e-tron": 1
+, "Audi|e-tron GT": 1
 , "Fiat|500e": 1
 , "Kia|EV6": 1
 , "Mercedes-Benz|EQC": 1
@@ -1404,11 +2897,37 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 209
+db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 37
+, "Volkswagen": 35
+, "Hyundai": 30
+, "Ford": 15
+, "Porsche": 12
+, "BMW": 8
+, "Dacia": 8
+, "Škoda": 8
+, "Mercedes-Benz": 7
+, "Suzuki": 6
+, "Audi": 5
+, "Polestar": 5
+, "Renault": 4
+, "Citroën": 3
+, "Kia": 3
+, "MG": 3
+, "Opel": 3
+, "Cupra": 2
+, "Nissan": 2
+, "Ora": 2
+, "Peugeot": 2
+, "Seat": 2
+, "Tesla": 2
+, "Volvo": 2
+, "Fiat": 1
+, "Mini": 1
+, "SsangYong": 1
 });
 
-db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2022/12",
+db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 21
 , "Toyota|bZ4X": 15
 , "Porsche|Taycan": 9
@@ -1437,19 +2956,54 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 1
 });
 
-db.insert(db.countries.IE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 27318
+db.insert(db.countries.IE, "2023-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 4437
+, "Hyundai": 3700
+, "Volkswagen": 2547
+, "Škoda": 2062
+, "Kia": 1681
+, "Ford": 1514
+, "Dacia": 1404
+, "Peugeot": 1163
+, "Audi": 1138
+, "BMW": 1012
+, "Renault": 927
+, "Nissan": 870
+, "Mercedes-Benz": 787
+, "Opel": 786
+, "Seat": 612
+, "Suzuki": 532
+, "Volvo": 365
+, "Citroën": 327
+, "Mazda": 289
+, "Cupra": 235
+, "Mini": 153
+, "Porsche": 152
+, "Land Rover": 135
+, "Lexus": 113
+, "MG": 92
+, "Fiat": 68
+, "DS Automobiles": 61
+, "Honda": 50
+, "Polestar": 36
+, "Alfa Romeo": 23
+, "Jaguar": 23
+, "Jeep": 21
+, "Subaru": 5
+, "SsangYong": 3
+, "Tesla": 1
+, "other": 2
 });
 
-db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
-{ "Hyundai|Ioniq 5": 582
-, "Hyundai|Kona Electric": 276
-, "Volkswagen|ID.4": 261
+db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq 5": 581
+, "Hyundai|Kona Electric": 275
+, "Volkswagen|ID.4": 260
 , "Kia|EV6": 252
-, "BMW|i4": 249
+, "BMW|i4": 248
 , "Kia|Niro EV": 185
-, "Nissan|Leaf": 163
-, "Škoda|Enyaq": 127
+, "Nissan|Leaf": 162
+, "Škoda|Enyaq": 126
 , "Renault|Megane E-Tech": 107
 , "Toyota|bZ4X": 106
 , "Cupra|Born": 104
@@ -1458,7 +3012,7 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 89
 , "Volkswagen|ID.5": 89
 , "Porsche|Taycan": 79
-, "Nissan|Ariya": 75
+, "Nissan|Ariya": 74
 , "MG|MG4 EV": 62
 , "Audi|Q4 e-tron": 61
 , "Mini|Cooper SE Electric": 57
@@ -1470,9 +3024,9 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 36
 , "Volvo|C40 Recharge": 29
 , "Volkswagen|ID.3": 26
-, "Mercedes-Benz|EQS": 25
 , "Volvo|XC40 Recharge pure electric": 25
 , "Mercedes-Benz|EQB": 24
+, "Mercedes-Benz|EQS": 24
 , "Audi|Q8 e-tron": 23
 , "Ford|Mustang Mach-E": 22
 , "BMW|iX1": 18
@@ -1481,6 +3035,7 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 14
 , "Mercedes-Benz|EQA": 13
 , "Citroën|ë-C4": 10
+, "Citroën|ë-SpaceTourer": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Mazda|MX-30": 3
 , "Mercedes-Benz|EQC": 3
@@ -1488,35 +3043,71 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 2
 , "Honda|e": 1
 , "Opel|Corsa-e": 1
+, "Peugeot|e-Expert": 1
 , "Tesla|Model 3": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 13120
+db.insert(db.countries.IE, "2023-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 1711
+, "Volkswagen": 1416
+, "Hyundai": 1406
+, "Škoda": 1228
+, "Kia": 1183
+, "Ford": 678
+, "BMW": 640
+, "Audi": 617
+, "Dacia": 605
+, "Peugeot": 507
+, "Nissan": 407
+, "Seat": 388
+, "Renault": 342
+, "Mercedes-Benz": 327
+, "Volvo": 244
+, "Cupra": 209
+, "Opel": 191
+, "Mazda": 177
+, "Suzuki": 162
+, "Mini": 97
+, "Land Rover": 93
+, "Lexus": 85
+, "Citroën": 83
+, "Fiat": 82
+, "Porsche": 52
+, "MG": 46
+, "Polestar": 42
+, "Honda": 33
+, "DS Automobiles": 30
+, "Ora": 11
+, "Jaguar": 10
+, "Subaru": 7
+, "SsangYong": 3
+, "Alfa Romeo": 1
+, "Tesla": 1
 });
 
-db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2023/2 (includes commercial vehicles), https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
+db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 535
 , "Hyundai|Ioniq 5": 369
-, "Audi|Q4 e-tron": 112
-, "Volkswagen|ID.3": 111
+, "Audi|Q4 e-tron": 111
+, "Volkswagen|ID.3": 109
 , "Škoda|Enyaq": 103
-, "Nissan|Leaf": 86
-, "Cupra|Born": 84
-, "Hyundai|Kona Electric": 62
+, "Nissan|Leaf": 85
+, "Cupra|Born": 80
+, "Hyundai|Kona Electric": 61
 , "Kia|Niro EV": 60
 , "Mini|Cooper SE Electric": 58
 , "Opel|Mokka-e": 55
 , "Kia|EV6": 50
 , "Polestar|2": 42
-, "Volvo|XC40 Recharge pure electric": 42
+, "Volvo|XC40 Recharge pure electric": 41
 , "MG|MG4 EV": 40
 , "BMW|i4": 36
 , "BMW|iX3": 36
 , "Peugeot|e-208": 30
 , "Volkswagen|ID.5": 29
 , "Toyota|bZ4X": 28
-, "Volvo|C40 Recharge": 23
+, "Volvo|C40 Recharge": 22
 , "Ford|Mustang Mach-E": 17
 , "Porsche|Taycan": 17
 , "BMW|iX1": 16
@@ -1534,6 +3125,7 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 8
 , "Volkswagen|e-up!": 8
 , "Subaru|Solterra": 7
+, "Citroën|ë-SpaceTourer": 6
 , "Mercedes-Benz|EQC": 6
 , "Nissan|Ariya": 6
 , "Mercedes-Benz|EQS": 4
@@ -1545,20 +3137,57 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 1
 , "Roewe|Ei5": 1
 , "Tesla|Model 3": 1
+, "other": 1
 });
 
-db.insert(db.countries.IE, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 17645
+db.insert(db.countries.IE, "2023-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 2345
+, "Volkswagen": 2328
+, "Škoda": 1962
+, "Kia": 1280
+, "Ford": 1084
+, "Nissan": 997
+, "Hyundai": 869
+, "Audi": 829
+, "Tesla": 676
+, "Renault": 611
+, "BMW": 607
+, "Peugeot": 532
+, "Dacia": 482
+, "Seat": 426
+, "Mercedes-Benz": 416
+, "Opel": 360
+, "Volvo": 360
+, "Suzuki": 294
+, "Mazda": 266
+, "Cupra": 158
+, "Citroën": 134
+, "MG": 110
+, "Mini": 81
+, "Lexus": 73
+, "Polestar": 71
+, "Land Rover": 55
+, "Fiat": 47
+, "SsangYong": 42
+, "DS Automobiles": 36
+, "Honda": 32
+, "Porsche": 23
+, "Jeep": 18
+, "Jaguar": 16
+, "Subaru": 6
+, "Alfa Romeo": 5
+, "Ora": 2
+, "other": 7
 });
 
-db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IE/Brands/Month/2023/3 (includes commercial vehicles)",
-{ "Volkswagen|ID.4": 666
+db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 662
 , "Tesla|Model Y": 488
 , "Škoda|Enyaq": 250
-, "Volkswagen|ID.3": 240
+, "Volkswagen|ID.3": 239
 , "Tesla|Model 3": 188
 , "Audi|Q4 e-tron": 125
-, "Toyota|bZ4X": 123
+, "Toyota|bZ4X": 122
 , "Renault|Megane E-Tech": 112
 , "Hyundai|Kona Electric": 111
 , "Kia|Niro EV": 111
@@ -1569,7 +3198,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 66
 , "Nissan|Leaf": 58
 , "MG|MG4 EV": 47
-, "Mini|Cooper SE Electric": 39
+, "Mini|Cooper SE Electric": 37
 , "BMW|iX3": 35
 , "Hyundai|Ioniq 6": 35
 , "BMW|i4": 34
@@ -1593,11 +3222,13 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 9
 , "BMW|i7": 7
 , "Honda|e": 7
+, "Maxus|Mifa 9": 6
 , "Mazda|MX-30": 4
+, "Citroën|ë-SpaceTourer": 3
 , "Fiat|500e": 3
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
 , "Opel|Combo-e": 2
 , "Ora|Good Cat": 2
-, "other": 10
+, "other": 8
 });
