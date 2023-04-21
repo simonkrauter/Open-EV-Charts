@@ -221,8 +221,8 @@ db.insert(db.countries.NL, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 39
 , "Infiniti": 11
 , "Maserati": 9
-, "Chevrolet": 1
-, "other": 296
+, "Chevrolet": 2
+, "other": 295
 });
 
 db.insert(db.countries.NL, "2017-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/4",
