@@ -155,6 +155,7 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 3
 , "Renault|Zoe": 3
 , "Kia|Soul EV": 1
+, "Nissan|e-NV200": 1
 , "other": 1
 });
 
@@ -246,6 +247,7 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 11
 , "Seat|Mii Electric": 5
 , "Mercedes-Benz|EQC": 4
+, "Nissan|e-NV200": 3
 , "Tesla|Model X": 3
 , "BMW|i3 BEV": 2
 , "Jaguar|I-Pace": 2
