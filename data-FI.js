@@ -1056,7 +1056,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2534/January_2022.xlsx",
 { "Toyota": 1708
 , "Volvo": 743
 , "Kia": 630
@@ -1137,7 +1137,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 10
 });
 
-db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2568/February_2022.xlsx",
 { "Toyota": 1132
 , "Volvo": 641
 , "Kia": 582
@@ -1220,7 +1220,7 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2582/March_2022.xlsx",
 { "Toyota": 1309
 , "Volvo": 646
 , "Kia": 580
@@ -1304,7 +1304,7 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 12
 });
 
-db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2591/April_2022.xlsx",
 { "Toyota": 1137
 , "Kia": 549
 , "Volvo": 505
@@ -1385,7 +1385,7 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 12
 });
 
-db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2594/May_2022.xlsx",
 { "Toyota": 1506
 , "Kia": 742
 , "Volkswagen": 731
@@ -1470,7 +1470,7 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 16
 });
 
-db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2613/June_2022.xlsx",
 { "Toyota": 1194
 , "Volkswagen": 763
 , "Kia": 686
@@ -1554,7 +1554,7 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 20
 });
 
-db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2620/July_2022.xlsx",
 { "Toyota": 920
 , "Volkswagen": 689
 , "Kia": 531
@@ -1635,7 +1635,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 24
 });
 
-db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2624/August_2022.xlsx",
 { "Toyota": 1021
 , "Volkswagen": 762
 , "Škoda": 687
@@ -1718,7 +1718,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 28
 });
 
-db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2631/September_2022.xlsx",
 { "Toyota": 988
 , "Škoda": 729
 , "Kia": 694
@@ -1802,7 +1802,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 19
 });
 
-db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2634/October_2022.xlsx",
 { "Toyota": 1128
 , "Volvo": 792
 , "Škoda": 649
@@ -1885,7 +1885,7 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 45
 });
 
-db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2640/November_2022.xlsx",
 { "Toyota": 1240
 , "Volvo": 710
 , "Škoda": 537
@@ -1971,7 +1971,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 30
 });
 
-db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2653/December_2022.xlsx",
 { "Toyota": 1175
 , "Volkswagen": 632
 , "Tesla": 546
@@ -2056,7 +2056,7 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 22
 });
 
-db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2664/January_2023.xlsx",
 { "Toyota": 1564
 , "Volvo": 650
 , "Volkswagen": 621
@@ -2142,7 +2142,7 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 25
 });
 
-db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2679/February_2023.xlsx",
 { "Toyota": 784
 , "Škoda": 617
 , "Volvo": 616
@@ -2226,7 +2226,7 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 25
 });
 
-db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
+db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2737/March_2023.xlsx",
 { "Toyota": 1150
 , "Tesla": 897
 , "Volkswagen": 792
