@@ -1,7 +1,7 @@
 Open EV Charts
 ==============
 
-Open EV Charts is a collection of electric car (BEV) registration numbers with powerful visualization.<br>
+Open EV Charts is a collection of battery electric passenger car registration numbers with powerful visualization.<br>
 The main purpose is to track the adoption of electric cars over time, countries and brands.
 
 Online version: https://open-ev-charts.org/
@@ -35,8 +35,8 @@ Database structure
 For each country there is a JavaScript file.<br>
 This file contains two data sets for each month/quarter:
 
-- Number of all passenger cars by brand
-- Number of electric passenger cars by model (limited to top 50 models)
+- Number of registrations of new all passenger cars by brand
+- Number of registrations of new battery electric passenger cars by model (limited to top 50 models)
 
 In addition every data set has one or multiple source URLs.
 
