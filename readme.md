@@ -18,7 +18,7 @@ Database status
 | France         | 2018  | Month    | Top 10     | Per brand
 | Italy          | 2020  | Month    | Complete   | Per brand
 | Spain          | 2018  | Month    | Complete   | Per brand
-| Netherlands    | 2018  | Month    | Complete   | Per brand
+| Netherlands    | 2017  | Month    | Complete   | Per brand
 | Sweden         | 2018  | Month    | Complete   | Per brand
 | Austria        | 2019  | Month    | Top 10     | Per brand
 | Switzerland    | 2018  | Month    | Complete   | Per brand

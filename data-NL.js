@@ -4,6 +4,718 @@
 
 db.addCountry("NL", "Netherlands");
 
+db.insert(db.countries.NL, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/januari/",
+{ "Volkswagen": 8464
+, "Opel": 3996
+, "Kia": 3351
+, "Renault": 3213
+, "Peugeot": 3145
+, "Ford": 2969
+, "BMW": 2469
+, "Toyota": 2125
+, "Volvo": 2110
+, "Audi": 2029
+, "Hyundai": 1814
+, "Škoda": 1732
+, "Suzuki": 1714
+, "Mercedes-Benz": 1712
+, "Citroën": 1687
+, "Nissan": 1390
+, "Mazda": 1198
+, "Seat": 1127
+, "Fiat": 1079
+, "Mitsubishi": 769
+, "Mini": 718
+, "Dacia": 413
+, "Land Rover": 380
+, "Porsche": 357
+, "Jaguar": 241
+, "Honda": 210
+, "Alfa Romeo": 196
+, "Subaru": 140
+, "Lexus": 127
+, "DS Automobiles": 126
+, "Tesla": 115
+, "Smart": 111
+, "Infiniti": 85
+, "Jeep": 63
+, "Maserati": 29
+, "SsangYong": 4
+, "Cadillac": 1
+, "Chevrolet": 1
+, "other": 126
+});
+
+db.insert(db.countries.NL, "2017-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/1",
+{ "Renault|Zoe": 112
+, "BMW|i3 BEV": 83
+, "Hyundai|Ioniq Electric": 71
+, "Tesla|Model S": 65
+, "Nissan|Leaf": 51
+, "Tesla|Model X": 49
+, "Kia|Soul EV": 11
+, "Nissan|e-NV200": 11
+, "Fiat|500e": 10
+, "Citroën|C-Zero": 8
+, "Mercedes-Benz|EQB": 7
+, "Volkswagen|e-up!": 7
+, "Peugeot|iOn": 5
+, "Opel|Ampera-e": 2
+, "Volkswagen|e-Golf": 2
+});
+
+db.insert(db.countries.NL, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/februari/",
+{ "Renault": 2989
+, "Peugeot": 2594
+, "Opel": 2344
+, "Toyota": 2155
+, "Kia": 2112
+, "Volkswagen": 2023
+, "Ford": 2002
+, "Citroën": 1469
+, "Hyundai": 1407
+, "BMW": 1339
+, "Nissan": 1334
+, "Mercedes-Benz": 1248
+, "Škoda": 1241
+, "Audi": 1151
+, "Volvo": 1084
+, "Fiat": 1056
+, "Mazda": 947
+, "Suzuki": 729
+, "Seat": 705
+, "Mini": 368
+, "Dacia": 357
+, "Mitsubishi": 285
+, "Tesla": 191
+, "Land Rover": 151
+, "Smart": 119
+, "Jaguar": 117
+, "Alfa Romeo": 115
+, "DS Automobiles": 112
+, "Porsche": 110
+, "Honda": 103
+, "Subaru": 84
+, "Lexus": 57
+, "Jeep": 45
+, "Infiniti": 9
+, "Maserati": 6
+, "SsangYong": 1
+, "other": 170
+});
+
+db.insert(db.countries.NL, "2017-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/2",
+{ "Tesla|Model S": 141
+, "Renault|Zoe": 96
+, "BMW|i3 BEV": 79
+, "Nissan|Leaf": 67
+, "Tesla|Model X": 34
+, "Mercedes-Benz|EQB": 16
+, "Hyundai|Ioniq Electric": 14
+, "Volkswagen|e-up!": 14
+, "Fiat|500e": 11
+, "Kia|Soul EV": 4
+, "Volkswagen|e-Golf": 4
+, "Nissan|e-NV200": 3
+, "Chevrolet|Bolt": 2
+, "Citroën|C-Zero": 2
+, "Peugeot|iOn": 2
+, "Citroën|E-Mehari": 1
+, "Opel|Ampera-e": 1
+, "Tesla|Model 3": 1
+});
+
+db.insert(db.countries.NL, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/maart/",
+{ "Opel": 3950
+, "Renault": 3707
+, "Peugeot": 2581
+, "Volkswagen": 2318
+, "Ford": 2220
+, "Kia": 1934
+, "Toyota": 1844
+, "BMW": 1784
+, "Mercedes-Benz": 1536
+, "Nissan": 1481
+, "Citroën": 1441
+, "Audi": 1364
+, "Škoda": 1342
+, "Volvo": 1173
+, "Fiat": 1155
+, "Mazda": 924
+, "Suzuki": 920
+, "Hyundai": 886
+, "Seat": 769
+, "Mini": 565
+, "Mitsubishi": 565
+, "Tesla": 368
+, "Dacia": 308
+, "Honda": 272
+, "Alfa Romeo": 194
+, "Land Rover": 164
+, "DS Automobiles": 163
+, "Smart": 157
+, "Jaguar": 150
+, "Porsche": 129
+, "Lexus": 83
+, "Jeep": 53
+, "Subaru": 40
+, "Infiniti": 11
+, "Maserati": 7
+, "SsangYong": 1
+, "other": 230
+});
+
+db.insert(db.countries.NL, "2017-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/3",
+{ "Tesla|Model S": 213
+, "Tesla|Model X": 141
+, "Renault|Zoe": 92
+, "BMW|i3 BEV": 90
+, "Hyundai|Ioniq Electric": 81
+, "Nissan|Leaf": 79
+, "Volkswagen|e-up!": 19
+, "Mercedes-Benz|EQB": 11
+, "Nissan|e-NV200": 10
+, "Fiat|500e": 7
+, "Volkswagen|e-Golf": 5
+, "Chevrolet|Bolt": 2
+, "Kia|Soul EV": 1
+, "Peugeot|iOn": 1
+});
+
+db.insert(db.countries.NL, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/april/",
+{ "Renault": 3223
+, "Volkswagen": 2890
+, "Opel": 2208
+, "Peugeot": 2191
+, "Ford": 1901
+, "Kia": 1734
+, "Toyota": 1686
+, "BMW": 1389
+, "Volvo": 1228
+, "Mercedes-Benz": 1223
+, "Citroën": 1169
+, "Škoda": 1107
+, "Audi": 1051
+, "Hyundai": 827
+, "Fiat": 812
+, "Suzuki": 740
+, "Seat": 723
+, "Nissan": 691
+, "Mazda": 423
+, "Mini": 411
+, "Dacia": 291
+, "Mitsubishi": 243
+, "Land Rover": 167
+, "Alfa Romeo": 125
+, "Porsche": 122
+, "Jaguar": 87
+, "Tesla": 79
+, "Honda": 73
+, "Smart": 60
+, "Lexus": 45
+, "DS Automobiles": 43
+, "Subaru": 42
+, "Jeep": 39
+, "Infiniti": 11
+, "Maserati": 9
+, "Chevrolet": 1
+, "other": 296
+});
+
+db.insert(db.countries.NL, "2017-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/4",
+{ "BMW|i3 BEV": 95
+, "Renault|Zoe": 56
+, "Hyundai|Ioniq Electric": 52
+, "Tesla|Model S": 46
+, "Tesla|Model X": 34
+, "Volkswagen|e-Golf": 20
+, "Nissan|Leaf": 18
+, "Mercedes-Benz|EQB": 10
+, "Opel|Ampera-e": 10
+, "Volkswagen|e-up!": 10
+, "Fiat|500e": 9
+, "Chevrolet|Bolt": 2
+, "Nissan|e-NV200": 1
+});
+
+db.insert(db.countries.NL, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/mei/",
+{ "Volkswagen": 3996
+, "Renault": 3783
+, "Peugeot": 2674
+, "Opel": 2662
+, "Toyota": 2300
+, "Ford": 2028
+, "Kia": 1903
+, "Škoda": 1591
+, "BMW": 1538
+, "Volvo": 1537
+, "Audi": 1323
+, "Hyundai": 1300
+, "Mercedes-Benz": 1298
+, "Citroën": 1177
+, "Nissan": 1049
+, "Suzuki": 981
+, "Fiat": 937
+, "Mazda": 693
+, "Seat": 687
+, "Mini": 561
+, "Dacia": 470
+, "Tesla": 231
+, "Alfa Romeo": 169
+, "Land Rover": 141
+, "Jaguar": 127
+, "Smart": 124
+, "Porsche": 123
+, "DS Automobiles": 88
+, "Jeep": 85
+, "Lexus": 51
+, "Subaru": 31
+, "Infiniti": 12
+, "Maserati": 9
+, "Chevrolet": 1
+, "other": 804
+});
+
+db.insert(db.countries.NL, "2017-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/5",
+{ "Tesla|Model S": 124
+, "Tesla|Model X": 93
+, "Hyundai|Ioniq Electric": 78
+, "Renault|Zoe": 71
+, "Volkswagen|e-Golf": 54
+, "BMW|i3 BEV": 48
+, "Nissan|Leaf": 26
+, "Volkswagen|e-up!": 9
+, "Mercedes-Benz|EQB": 8
+, "Fiat|500e": 5
+, "Nissan|e-NV200": 4
+, "Chevrolet|Bolt": 2
+, "Citroën|E-Mehari": 2
+, "Citroën|C-Zero": 1
+, "Ford|Focus Electric": 1
+, "Kia|Soul EV": 1
+, "other": 1
+});
+
+db.insert(db.countries.NL, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/juni/",
+{ "Volkswagen": 4446
+, "Renault": 4405
+, "Opel": 3955
+, "Peugeot": 3164
+, "Toyota": 2263
+, "Ford": 2207
+, "BMW": 2153
+, "Kia": 1828
+, "Nissan": 1813
+, "Škoda": 1521
+, "Mercedes-Benz": 1480
+, "Citroën": 1317
+, "Volvo": 1313
+, "Audi": 1232
+, "Mazda": 1131
+, "Hyundai": 1004
+, "Fiat": 984
+, "Suzuki": 879
+, "Seat": 764
+, "Mini": 654
+, "Dacia": 549
+, "Mitsubishi": 418
+, "Tesla": 324
+, "Smart": 215
+, "Alfa Romeo": 181
+, "Honda": 153
+, "Porsche": 150
+, "Land Rover": 140
+, "Jaguar": 117
+, "Lexus": 83
+, "Jeep": 77
+, "DS Automobiles": 76
+, "Subaru": 47
+, "Maserati": 11
+, "Infiniti": 8
+, "Chevrolet": 2
+, "SsangYong": 1
+, "other": 244
+});
+
+db.insert(db.countries.NL, "2017-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/6",
+{ "Tesla|Model S": 199
+, "Renault|Zoe": 176
+, "Tesla|Model X": 123
+, "Volkswagen|e-Golf": 104
+, "Hyundai|Ioniq Electric": 85
+, "BMW|i3 BEV": 66
+, "Nissan|Leaf": 25
+, "Kia|Soul EV": 20
+, "Smart|Fortwo ED": 11
+, "Smart|Forfour ED": 10
+, "Volkswagen|e-up!": 10
+, "Fiat|500e": 9
+, "Citroën|C-Zero": 7
+, "Mercedes-Benz|EQB": 7
+, "Nissan|e-NV200": 2
+, "Citroën|E-Mehari": 1
+, "Opel|Ampera-e": 1
+, "Peugeot|iOn": 1
+, "other": 2
+});
+
+db.insert(db.countries.NL, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/juli/",
+{ "Volkswagen": 4043
+, "Opel": 2768
+, "Peugeot": 2522
+, "Renault": 2267
+, "Toyota": 2084
+, "Ford": 2031
+, "Kia": 1971
+, "Hyundai": 1478
+, "Škoda": 1419
+, "Mercedes-Benz": 1360
+, "Audi": 1351
+, "BMW": 1331
+, "Citroën": 1200
+, "Volvo": 1063
+, "Suzuki": 837
+, "Nissan": 753
+, "Fiat": 737
+, "Seat": 667
+, "Mazda": 560
+, "Mini": 474
+, "Dacia": 332
+, "Mitsubishi": 308
+, "Land Rover": 160
+, "Smart": 135
+, "DS Automobiles": 104
+, "Alfa Romeo": 101
+, "Porsche": 93
+, "Jaguar": 79
+, "Lexus": 78
+, "Tesla": 78
+, "Honda": 77
+, "Jeep": 42
+, "Subaru": 27
+, "Infiniti": 12
+, "Maserati": 2
+, "Chevrolet": 1
+, "other": 190
+});
+
+db.insert(db.countries.NL, "2017-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/7",
+{ "BMW|i3 BEV": 79
+, "Renault|Zoe": 47
+, "Hyundai|Ioniq Electric": 45
+, "Nissan|Leaf": 42
+, "Volkswagen|e-Golf": 40
+, "Tesla|Model S": 39
+, "Tesla|Model X": 39
+, "Opel|Ampera-e": 21
+, "Fiat|500e": 12
+, "Mercedes-Benz|EQB": 12
+, "Citroën|C-Zero": 6
+, "Kia|Soul EV": 5
+, "Volkswagen|e-up!": 5
+, "Nissan|e-NV200": 2
+, "Smart|Fortwo ED": 2
+, "Peugeot|iOn": 1
+, "Smart|Forfour ED": 1
+});
+
+db.insert(db.countries.NL, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/augustus/",
+{ "Renault": 3042
+, "Volkswagen": 2670
+, "Peugeot": 2349
+, "Opel": 2038
+, "Toyota": 1943
+, "Kia": 1827
+, "Ford": 1599
+, "BMW": 1435
+, "Hyundai": 1326
+, "Škoda": 1232
+, "Mercedes-Benz": 1205
+, "Audi": 1097
+, "Citroën": 975
+, "Nissan": 803
+, "Suzuki": 803
+, "Fiat": 738
+, "Mazda": 734
+, "Seat": 697
+, "Volvo": 633
+, "Mitsubishi": 398
+, "Mini": 393
+, "Tesla": 257
+, "Dacia": 244
+, "Smart": 204
+, "Land Rover": 156
+, "Alfa Romeo": 125
+, "Porsche": 93
+, "Jeep": 92
+, "Jaguar": 76
+, "Lexus": 73
+, "DS Automobiles": 57
+, "Subaru": 43
+, "Infiniti": 7
+, "Maserati": 3
+, "Chevrolet": 1
+, "other": 216
+});
+
+db.insert(db.countries.NL, "2017-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/8",
+{ "Tesla|Model S": 154
+, "Hyundai|Ioniq Electric": 106
+, "Tesla|Model X": 93
+, "Renault|Zoe": 83
+, "Volkswagen|e-Golf": 69
+, "BMW|i3 BEV": 47
+, "Opel|Ampera-e": 28
+, "Nissan|Leaf": 8
+, "Nissan|e-NV200": 6
+, "Smart|Forfour ED": 5
+, "Fiat|500e": 4
+, "Mercedes-Benz|EQB": 4
+, "Peugeot|iOn": 4
+, "Smart|Fortwo ED": 4
+, "Volkswagen|e-up!": 4
+, "Kia|Soul EV": 2
+, "Citroën|C-Zero": 1
+, "Tesla|Model 3": 1
+, "other": 1
+});
+
+db.insert(db.countries.NL, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/september/",
+{ "Volkswagen": 3833
+, "Opel": 3725
+, "Renault": 3098
+, "Peugeot": 3028
+, "Kia": 1992
+, "Toyota": 1979
+, "Škoda": 1736
+, "BMW": 1726
+, "Mercedes-Benz": 1494
+, "Ford": 1418
+, "Nissan": 1260
+, "Citroën": 1163
+, "Mazda": 1153
+, "Hyundai": 1053
+, "Suzuki": 1031
+, "Audi": 1012
+, "Fiat": 1007
+, "Volvo": 851
+, "Seat": 714
+, "Tesla": 554
+, "Mini": 547
+, "Mitsubishi": 306
+, "Dacia": 214
+, "Smart": 195
+, "Land Rover": 130
+, "Alfa Romeo": 128
+, "Jaguar": 107
+, "Honda": 92
+, "Porsche": 80
+, "DS Automobiles": 74
+, "Jeep": 69
+, "Lexus": 67
+, "Subaru": 43
+, "Infiniti": 5
+, "Maserati": 4
+, "other": 76
+});
+
+db.insert(db.countries.NL, "2017-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/9",
+{ "Tesla|Model S": 313
+, "Tesla|Model X": 245
+, "Volkswagen|e-Golf": 141
+, "BMW|i3 BEV": 99
+, "Renault|Zoe": 60
+, "Hyundai|Ioniq Electric": 58
+, "Nissan|Leaf": 38
+, "Opel|Ampera-e": 19
+, "Smart|Forfour ED": 11
+, "Volkswagen|e-up!": 10
+, "Kia|Soul EV": 5
+, "Nissan|e-NV200": 5
+, "Smart|Fortwo ED": 5
+, "Fiat|500e": 4
+, "Chevrolet|Bolt": 2
+, "Mercedes-Benz|EQB": 2
+, "Peugeot|iOn": 2
+, "Citroën|Berlingo Electric": 1
+, "Peugeot|Partner Electric": 1
+});
+
+db.insert(db.countries.NL, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/oktober/",
+{ "Volkswagen": 4002
+, "Renault": 4001
+, "Peugeot": 2990
+, "Opel": 2836
+, "Ford": 2483
+, "Kia": 1916
+, "Toyota": 1811
+, "BMW": 1571
+, "Škoda": 1483
+, "Mercedes-Benz": 1476
+, "Audi": 1430
+, "Volvo": 1300
+, "Citroën": 1258
+, "Hyundai": 1256
+, "Suzuki": 1067
+, "Fiat": 997
+, "Nissan": 900
+, "Seat": 834
+, "Dacia": 598
+, "Mazda": 595
+, "Mini": 570
+, "Mitsubishi": 442
+, "Smart": 187
+, "Tesla": 175
+, "Alfa Romeo": 165
+, "Land Rover": 142
+, "Jaguar": 126
+, "Jeep": 103
+, "Porsche": 80
+, "Honda": 79
+, "Lexus": 73
+, "Subaru": 59
+, "DS Automobiles": 55
+, "Infiniti": 8
+, "Maserati": 5
+, "other": 57
+});
+
+db.insert(db.countries.NL, "2017-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/10",
+{ "Volkswagen|e-Golf": 179
+, "Tesla|Model S": 114
+, "BMW|i3 BEV": 113
+, "Hyundai|Ioniq Electric": 105
+, "Tesla|Model X": 58
+, "Renault|Zoe": 50
+, "Opel|Ampera-e": 44
+, "Smart|Forfour ED": 17
+, "Nissan|Leaf": 11
+, "Volkswagen|e-up!": 11
+, "Smart|Fortwo ED": 8
+, "Nissan|e-NV200": 5
+, "Fiat|500e": 2
+, "Kia|Soul EV": 2
+, "Peugeot|Partner Electric": 2
+, "Peugeot|iOn": 2
+, "Citroën|C-Zero": 1
+, "Mitsubishi|i-MiEV": 1
+});
+
+db.insert(db.countries.NL, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/november/",
+{ "Renault": 4564
+, "Volkswagen": 3974
+, "Opel": 3398
+, "Peugeot": 2890
+, "Ford": 2322
+, "Toyota": 2285
+, "Kia": 2028
+, "Škoda": 1867
+, "BMW": 1489
+, "Volvo": 1435
+, "Audi": 1354
+, "Citroën": 1166
+, "Mercedes-Benz": 1092
+, "Hyundai": 1070
+, "Seat": 856
+, "Nissan": 825
+, "Suzuki": 817
+, "Mazda": 757
+, "Mini": 633
+, "Fiat": 577
+, "Mitsubishi": 565
+, "Dacia": 431
+, "Tesla": 346
+, "Alfa Romeo": 159
+, "Land Rover": 128
+, "Smart": 124
+, "Honda": 105
+, "Jaguar": 103
+, "Lexus": 74
+, "Porsche": 70
+, "Jeep": 57
+, "Subaru": 52
+, "DS Automobiles": 48
+, "Infiniti": 5
+, "Maserati": 5
+, "other": 42
+});
+
+db.insert(db.countries.NL, "2017-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/11",
+{ "Volkswagen|e-Golf": 300
+, "Tesla|Model S": 221
+, "Tesla|Model X": 126
+, "BMW|i3 BEV": 72
+, "Opel|Ampera-e": 62
+, "Renault|Zoe": 62
+, "Hyundai|Ioniq Electric": 53
+, "Volkswagen|e-up!": 23
+, "Nissan|Leaf": 21
+, "Smart|Forfour ED": 11
+, "Smart|Fortwo ED": 5
+, "Fiat|500e": 2
+, "Kia|Soul EV": 2
+, "Chevrolet|Bolt": 1
+, "Citroën|Berlingo Electric": 1
+, "Nissan|e-NV200": 1
+, "Peugeot|iOn": 1
+});
+
+db.insert(db.countries.NL, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/december/",
+{ "Renault": 2402
+, "Peugeot": 1600
+, "Toyota": 1578
+, "Opel": 998
+, "Volkswagen": 990
+, "Hyundai": 965
+, "Ford": 893
+, "Nissan": 848
+, "Mercedes-Benz": 787
+, "Kia": 685
+, "BMW": 668
+, "Tesla": 599
+, "Citroën": 589
+, "Volvo": 541
+, "Mazda": 494
+, "Fiat": 480
+, "Suzuki": 367
+, "Škoda": 339
+, "Dacia": 237
+, "Mini": 234
+, "Audi": 232
+, "Seat": 206
+, "Mitsubishi": 195
+, "Lexus": 120
+, "Smart": 105
+, "Alfa Romeo": 62
+, "Jaguar": 55
+, "DS Automobiles": 52
+, "Jeep": 47
+, "Land Rover": 46
+, "Porsche": 30
+, "Honda": 27
+, "Subaru": 24
+, "Infiniti": 2
+, "other": 31
+});
+
+db.insert(db.countries.NL, "2017-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/12",
+{ "Tesla|Model S": 402
+, "Tesla|Model X": 192
+, "Renault|Zoe": 141
+, "BMW|i3 BEV": 70
+, "Hyundai|Ioniq Electric": 70
+, "Volkswagen|e-Golf": 61
+, "Opel|Ampera-e": 44
+, "Nissan|Leaf": 9
+, "Smart|Fortwo ED": 9
+, "Peugeot|Partner Electric": 8
+, "Volkswagen|e-up!": 6
+, "Smart|Forfour ED": 5
+, "Fiat|500e": 1
+, "Kia|Soul EV": 1
+, "Mercedes-Benz|EQB": 1
+});
+
 db.insert(db.countries.NL, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/januari/",
 { "Volkswagen": 10482
 , "Opel": 4873
