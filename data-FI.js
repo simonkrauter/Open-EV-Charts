@@ -1092,7 +1092,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 118
 });
 
-db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/1",
+db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Hyundai|Ioniq 5": 137
 , "Kia|EV6": 82
 , "Volvo|C40 Recharge": 71
@@ -1134,7 +1134,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "Peugeot|e-Expert": 1
 , "Renault|Zoe": 1
-, "other": 5
+, "other": 10
 });
 
 db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1174,7 +1174,7 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 107
 });
 
-db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/2",
+db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Kia|EV6": 113
 , "Polestar|2": 57
 , "Audi|Q4 e-tron": 55
@@ -1217,7 +1217,7 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "Lexus|UX 300e": 1
 , "Peugeot|e-Expert": 1
-, "other": 4
+, "other": 5
 });
 
 db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1254,7 +1254,7 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 171
 });
 
-db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/3",
+db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 257
 , "Tesla|Model 3": 163
 , "Nissan|Leaf": 79
@@ -1301,7 +1301,7 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Mini|Cooper SE Electric": 1
 , "Opel|Combo-e": 1
-, "other": 10
+, "other": 12
 });
 
 db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1338,7 +1338,7 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 143
 });
 
-db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/4",
+db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Polestar|2": 127
 , "Nissan|Leaf": 74
 , "Škoda|Enyaq": 57
@@ -1382,7 +1382,7 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Mercedes-Benz|eVito": 1
 , "Peugeot|e-Expert": 1
-, "other": 10
+, "other": 12
 });
 
 db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1419,7 +1419,7 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 265
 });
 
-db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/5",
+db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Škoda|Enyaq": 128
 , "Volkswagen|ID.4": 117
 , "Polestar|2": 78
@@ -1467,7 +1467,7 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Opel|Combo-e": 1
 , "Tesla|Model 3": 1
-, "other": 8
+, "other": 16
 });
 
 db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1504,7 +1504,7 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 263
 });
 
-db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/6",
+db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Renault|Zoe": 149
 , "Škoda|Enyaq": 138
 , "Tesla|Model Y": 110
@@ -1551,7 +1551,7 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Nissan|e-NV200": 1
 , "Opel|Zafira-e": 1
-, "other": 35
+, "other": 20
 });
 
 db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1588,7 +1588,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 174
 });
 
-db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/7",
+db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Škoda|Enyaq": 108
 , "Volkswagen|ID.4": 89
 , "Volkswagen|ID.5": 89
@@ -1632,7 +1632,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Peugeot|e-Rifter": 1
 , "Tesla|Model 3": 1
-, "other": 18
+, "other": 24
 });
 
 db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1669,7 +1669,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 149
 });
 
-db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/8",
+db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Škoda|Enyaq": 149
 , "Nissan|Leaf": 139
 , "Volvo|XC40 Recharge pure electric": 133
@@ -1715,7 +1715,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 1
 , "Tesla|Model 3": 1
 , "Toyota|Proace Electric": 1
-, "other": 13
+, "other": 28
 });
 
 db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1752,7 +1752,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 131
 });
 
-db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/9",
+db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 131
 , "Volvo|XC40 Recharge pure electric": 131
 , "BMW|i4": 119
@@ -1799,7 +1799,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "Mazda|MX-30": 1
 , "Peugeot|e-Rifter": 1
-, "other": 12
+, "other": 19
 });
 
 db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1836,7 +1836,7 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 142
 });
 
-db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/10",
+db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "BMW|i4": 120
 , "Volkswagen|ID.4": 102
 , "Škoda|Enyaq": 99
@@ -1882,7 +1882,7 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Subaru|Solterra": 1
 , "Toyota|Proace Electric": 1
-, "other": 35
+, "other": 45
 });
 
 db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -1919,7 +1919,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 112
 });
 
-db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/11",
+db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Polestar|2": 172
 , "Tesla|Model Y": 145
 , "Škoda|Enyaq": 132
@@ -1968,7 +1968,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 1
 , "Peugeot|e-2008": 1
 , "Renault|Zoe": 1
-, "other": 24
+, "other": 30
 });
 
 db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -2007,7 +2007,7 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 69
 });
 
-db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/12",
+db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 354
 , "Nissan|Leaf": 145
 , "Polestar|2": 144
@@ -2053,7 +2053,7 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 2
 , "Peugeot|e-Rifter": 2
 , "Peugeot|e-Traveller": 2
-, "other": 19
+, "other": 22
 });
 
 db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/en/statistics/new_registrations/monthly",
@@ -2090,7 +2090,7 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 123
 });
 
-db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
+db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Škoda|Enyaq": 189
 , "Volkswagen|ID.4": 174
 , "Volvo|XC40 Recharge pure electric": 140
@@ -2176,7 +2176,7 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 101
 });
 
-db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/2, https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
+db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 291
 , "Škoda|Enyaq": 145
 , "Volvo|XC40 Recharge pure electric": 141
@@ -2260,7 +2260,7 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 140
 });
 
-db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/3",
+db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 720
 , "Volkswagen|ID.4": 273
 , "Tesla|Model 3": 170
