@@ -4292,7 +4292,7 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 2
 , "JAC|iEV7 S/E": 2
 , "Peugeot|e-Rifter": 2
-, "other": 10
+, "other": 57
 });
 
 db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/februari/",
@@ -4386,7 +4386,7 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 5
 , "Citroën|Berlingo Electric": 3
 , "Hyundai|Ioniq Electric": 3
-, "other": 17
+, "other": 82
 });
 
 db.insert(db.countries.NL, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/maart/",
@@ -4480,7 +4480,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Opel|Combo-e": 6
 , "Smart|Forfour ED": 6
-, "other": 21
+, "other": 124
 });
 
 db.insert(db.countries.NL, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/april/",
@@ -4575,7 +4575,7 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 6
 , "Peugeot|e-Rifter": 5
 , "Tesla|Model 3": 4
-, "other": 24
+, "other": 110
 });
 
 db.insert(db.countries.NL, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/mei/",
@@ -4670,7 +4670,7 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Xpeng|P5": 5
-, "other": 20
+, "other": 111
 });
 
 db.insert(db.countries.NL, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/juni/",
@@ -4764,7 +4764,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 17
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Mercedes-Benz|EQV": 12
-, "other": 120
+, "other": 253
 });
 
 db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/juli/",
@@ -4858,7 +4858,7 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 11
 , "Tesla|Model 3": 7
 , "MG|Marvel R": 6
-, "other": 18
+, "other": 108
 });
 
 db.insert(db.countries.NL, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/augustus/",
@@ -4953,7 +4953,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Toyota|Proace Electric": 8
 , "BMW|i3 BEV": 6
-, "other": 33
+, "other": 137
 });
 
 db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/september/",
@@ -5049,7 +5049,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ducato": 9
 , "Roewe|Ei5": 9
 , "Audi|e-tron GT": 8
-, "other": 67
+, "other": 176
 });
 
 db.insert(db.countries.NL, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/oktober/",
@@ -5146,7 +5146,7 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 11
 , "Toyota|Proace Electric": 10
 , "Audi|e-tron GT": 9
-, "other": 63
+, "other": 179
 });
 
 db.insert(db.countries.NL, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/november/",
@@ -5243,7 +5243,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 13
 , "Audi|e-tron GT": 11
 , "Subaru|Solterra": 11
-, "other": 125
+, "other": 251
 });
 
 db.insert(db.countries.NL, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/december/",
@@ -5340,7 +5340,7 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 29
 , "Mercedes-Benz|EQV": 29
 , "Renault|Twingo Z.E.": 29
-, "other": 197
+, "other": 444
 });
 
 db.insert(db.countries.NL, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/januari/",
