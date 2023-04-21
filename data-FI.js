@@ -4,6 +4,543 @@
 
 db.addCountry("FI", "Finland");
 
+db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1828/January_2018.xlsx",
+{ "Toyota": 1948
+, "Škoda": 1448
+, "Volkswagen": 1435
+, "Volvo": 1050
+, "Ford": 1020
+, "Audi": 856
+, "Nissan": 811
+, "Kia": 741
+, "Opel": 733
+, "BMW": 658
+, "Mercedes-Benz": 623
+, "Hyundai": 389
+, "Peugeot": 342
+, "Honda": 225
+, "Seat": 214
+, "Citroën": 180
+, "Mazda": 167
+, "Suzuki": 136
+, "Subaru": 86
+, "Dacia": 80
+, "Mitsubishi": 61
+, "Renault": 47
+, "Land Rover": 39
+, "Lexus": 35
+, "Porsche": 31
+, "Mini": 27
+, "Fiat": 25
+, "Jaguar": 22
+, "Tesla": 17
+, "other": 133
+});
+
+db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model S": 16
+, "Volkswagen|e-Golf": 8
+, "Nissan|Leaf": 2
+, "Renault|Zoe": 2
+, "BMW|i3 BEV": 1
+, "Hyundai|Ioniq Electric": 1
+, "Kia|Soul EV": 1
+, "Tesla|Model X": 1
+});
+
+db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1837/February_2018.xlsx",
+{ "Toyota": 1256
+, "Volkswagen": 1014
+, "Škoda": 810
+, "Ford": 744
+, "Volvo": 630
+, "Opel": 601
+, "Nissan": 589
+, "Kia": 483
+, "Mercedes-Benz": 416
+, "Audi": 389
+, "Hyundai": 383
+, "BMW": 331
+, "Peugeot": 246
+, "Seat": 156
+, "Honda": 147
+, "Suzuki": 128
+, "Mazda": 108
+, "Citroën": 104
+, "Renault": 93
+, "Subaru": 89
+, "Dacia": 78
+, "Mitsubishi": 45
+, "Land Rover": 28
+, "Mini": 22
+, "Lexus": 20
+, "Porsche": 17
+, "Jaguar": 16
+, "Fiat": 11
+, "Tesla": 4
+, "other": 148
+});
+
+db.insert(db.countries.FI, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 23
+, "Volkswagen|e-Golf": 8
+, "Tesla|Model S": 2
+, "Tesla|Model X": 2
+, "Hyundai|Ioniq Electric": 1
+, "Renault|Zoe": 1
+});
+
+db.insert(db.countries.FI, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1848/March_2018-2.xlsx",
+{ "Toyota": 1384
+, "Škoda": 1325
+, "Volkswagen": 1276
+, "Ford": 958
+, "Nissan": 855
+, "Volvo": 845
+, "Opel": 616
+, "Mercedes-Benz": 545
+, "Kia": 543
+, "Audi": 470
+, "BMW": 423
+, "Hyundai": 393
+, "Seat": 298
+, "Peugeot": 288
+, "Honda": 195
+, "Dacia": 187
+, "Suzuki": 182
+, "Citroën": 169
+, "Mazda": 139
+, "Renault": 133
+, "Subaru": 80
+, "Mitsubishi": 72
+, "Lexus": 40
+, "Land Rover": 37
+, "Tesla": 36
+, "Mini": 34
+, "Jaguar": 17
+, "Porsche": 15
+, "Fiat": 14
+, "other": 152
+});
+
+db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 43
+, "Tesla|Model S": 29
+, "Volkswagen|e-Golf": 11
+, "Hyundai|Ioniq Electric": 7
+, "Tesla|Model X": 7
+, "BMW|i3 BEV": 3
+, "Kia|Soul EV": 2
+});
+
+db.insert(db.countries.FI, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1871/April_2018.xlsx",
+{ "Toyota": 1402
+, "Volkswagen": 1171
+, "Ford": 947
+, "Škoda": 931
+, "Volvo": 891
+, "Opel": 595
+, "Nissan": 556
+, "Kia": 537
+, "Mercedes-Benz": 530
+, "Audi": 500
+, "Hyundai": 461
+, "BMW": 374
+, "Peugeot": 282
+, "Citroën": 264
+, "Renault": 242
+, "Seat": 222
+, "Dacia": 189
+, "Suzuki": 176
+, "Honda": 140
+, "Mazda": 131
+, "Mitsubishi": 95
+, "Subaru": 92
+, "Porsche": 28
+, "Mini": 27
+, "Lexus": 25
+, "Jaguar": 23
+, "Land Rover": 17
+, "Tesla": 8
+, "Fiat": 6
+, "other": 182
+});
+
+db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 40
+, "Hyundai|Ioniq Electric": 9
+, "Tesla|Model S": 5
+, "Renault|Zoe": 4
+, "Volkswagen|e-Golf": 4
+, "Tesla|Model X": 3
+, "BMW|i3 BEV": 1
+});
+
+db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1881/May_2018.xlsx",
+{ "Toyota": 1590
+, "Volkswagen": 1589
+, "Škoda": 1151
+, "Ford": 962
+, "Volvo": 882
+, "Opel": 763
+, "Kia": 626
+, "Mercedes-Benz": 622
+, "Nissan": 562
+, "Audi": 517
+, "BMW": 433
+, "Hyundai": 378
+, "Peugeot": 342
+, "Renault": 330
+, "Seat": 262
+, "Dacia": 209
+, "Honda": 170
+, "Citroën": 152
+, "Mazda": 147
+, "Suzuki": 138
+, "Subaru": 136
+, "Mitsubishi": 97
+, "Lexus": 39
+, "Fiat": 31
+, "Jaguar": 25
+, "Mini": 23
+, "Land Rover": 22
+, "Porsche": 17
+, "Tesla": 12
+, "Alfa Romeo": 11
+, "other": 244
+});
+
+db.insert(db.countries.FI, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Hyundai|Ioniq Electric": 13
+, "Tesla|Model S": 9
+, "Volkswagen|e-Golf": 7
+, "Nissan|Leaf": 6
+, "Renault|Zoe": 5
+, "Tesla|Model X": 3
+});
+
+db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1889/June_2018.xlsx",
+{ "Volkswagen": 1377
+, "Toyota": 1361
+, "Škoda": 1149
+, "Ford": 856
+, "Mercedes-Benz": 685
+, "Opel": 655
+, "Volvo": 648
+, "Nissan": 631
+, "BMW": 515
+, "Audi": 509
+, "Kia": 493
+, "Hyundai": 410
+, "Seat": 369
+, "Peugeot": 283
+, "Renault": 241
+, "Honda": 195
+, "Mazda": 178
+, "Dacia": 170
+, "Citroën": 129
+, "Mitsubishi": 120
+, "Subaru": 100
+, "Suzuki": 85
+, "Mini": 42
+, "Jaguar": 34
+, "Lexus": 30
+, "Fiat": 27
+, "Tesla": 23
+, "Porsche": 19
+, "Land Rover": 14
+, "other": 304
+});
+
+db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model S": 17
+, "Nissan|Leaf": 14
+, "Renault|Zoe": 11
+, "Volkswagen|e-Golf": 11
+, "Tesla|Model X": 6
+, "Hyundai|Ioniq Electric": 4
+, "Jaguar|I-Pace": 2
+, "BMW|i3 BEV": 1
+, "Kia|Soul EV": 1
+, "Nissan|e-NV200": 1
+});
+
+db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1905/July_2018.xlsx",
+{ "Toyota": 1293
+, "Volkswagen": 1179
+, "Škoda": 888
+, "Volvo": 661
+, "Opel": 618
+, "Kia": 584
+, "Ford": 581
+, "Nissan": 580
+, "BMW": 435
+, "Mercedes-Benz": 389
+, "Audi": 356
+, "Peugeot": 240
+, "Renault": 210
+, "Hyundai": 204
+, "Seat": 179
+, "Mazda": 167
+, "Dacia": 151
+, "Suzuki": 121
+, "Citroën": 119
+, "Honda": 111
+, "Subaru": 101
+, "Mitsubishi": 88
+, "Mini": 38
+, "Porsche": 33
+, "Fiat": 24
+, "Jaguar": 18
+, "Lexus": 18
+, "Land Rover": 16
+, "Tesla": 12
+, "other": 165
+});
+
+db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 10
+, "Tesla|Model S": 9
+, "Renault|Zoe": 7
+, "Volkswagen|e-Golf": 4
+, "Tesla|Model X": 3
+, "BMW|i3 BEV": 2
+, "other": 3
+});
+
+db.insert(db.countries.FI, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1907/August_2018.xlsx",
+{ "Nissan": 1649
+, "Toyota": 1284
+, "Volkswagen": 1050
+, "Škoda": 864
+, "Opel": 721
+, "Ford": 699
+, "Volvo": 696
+, "Kia": 681
+, "Audi": 508
+, "Hyundai": 432
+, "Mercedes-Benz": 415
+, "Renault": 372
+, "Seat": 321
+, "Peugeot": 312
+, "BMW": 288
+, "Mazda": 263
+, "Dacia": 233
+, "Citroën": 207
+, "Subaru": 166
+, "Suzuki": 157
+, "Honda": 153
+, "Mitsubishi": 137
+, "Porsche": 109
+, "Fiat": 42
+, "Mini": 33
+, "Lexus": 29
+, "Land Rover": 21
+, "Alfa Romeo": 13
+, "Jaguar": 13
+, "Tesla": 4
+, "other": 132
+});
+
+db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 20
+, "Hyundai|Ioniq Electric": 16
+, "Volkswagen|e-Golf": 13
+, "BMW|i3 BEV": 6
+, "Renault|Zoe": 4
+, "Tesla|Model X": 3
+, "Jaguar|I-Pace": 2
+, "Nissan|e-NV200": 2
+, "Kia|Soul EV": 1
+, "Tesla|Model S": 1
+});
+
+db.insert(db.countries.FI, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1912/September_2018.xlsx",
+{ "Toyota": 1063
+, "Volvo": 678
+, "Škoda": 634
+, "Volkswagen": 455
+, "Kia": 431
+, "Mercedes-Benz": 427
+, "Ford": 395
+, "Nissan": 312
+, "Hyundai": 283
+, "BMW": 269
+, "Opel": 219
+, "Audi": 182
+, "Mazda": 145
+, "Seat": 143
+, "Peugeot": 140
+, "Honda": 131
+, "Citroën": 96
+, "Renault": 93
+, "Suzuki": 66
+, "Mitsubishi": 64
+, "Subaru": 62
+, "Dacia": 49
+, "Jaguar": 18
+, "Mini": 18
+, "Lexus": 16
+, "Tesla": 16
+, "Porsche": 12
+, "Land Rover": 9
+, "Fiat": 8
+, "Alfa Romeo": 3
+, "other": 91
+});
+
+db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 27
+, "Volkswagen|e-Golf": 18
+, "Hyundai|Ioniq Electric": 10
+, "Tesla|Model S": 8
+, "Tesla|Model X": 8
+, "BMW|i3 BEV": 4
+, "Kia|Soul EV": 3
+, "Renault|Zoe": 2
+, "Jaguar|I-Pace": 1
+, "Nissan|e-NV200": 1
+, "Volkswagen|e-up!": 1
+});
+
+db.insert(db.countries.FI, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1927/October_2018.xlsx",
+{ "Toyota": 1106
+, "Volvo": 901
+, "Škoda": 883
+, "Volkswagen": 693
+, "Mercedes-Benz": 558
+, "Ford": 500
+, "Kia": 435
+, "Nissan": 278
+, "BMW": 263
+, "Opel": 253
+, "Renault": 251
+, "Audi": 245
+, "Hyundai": 243
+, "Peugeot": 182
+, "Seat": 169
+, "Honda": 134
+, "Mazda": 125
+, "Citroën": 119
+, "Subaru": 113
+, "Dacia": 109
+, "Mitsubishi": 80
+, "Suzuki": 66
+, "Mini": 28
+, "Land Rover": 21
+, "Jaguar": 16
+, "Lexus": 14
+, "Porsche": 10
+, "Fiat": 9
+, "Alfa Romeo": 6
+, "Tesla": 4
+, "other": 121
+});
+
+db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 14
+, "Hyundai|Ioniq Electric": 12
+, "Volkswagen|e-Golf": 11
+, "Hyundai|Kona Electric": 7
+, "Renault|Zoe": 6
+, "Tesla|Model S": 4
+, "Kia|Soul EV": 2
+, "BMW|i3 BEV": 1
+, "Jaguar|I-Pace": 1
+});
+
+db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1937/November_2018.xlsx",
+{ "Toyota": 1039
+, "Volkswagen": 1000
+, "Škoda": 905
+, "Volvo": 718
+, "Ford": 645
+, "Renault": 514
+, "Mercedes-Benz": 494
+, "Kia": 468
+, "Opel": 358
+, "Nissan": 293
+, "BMW": 278
+, "Hyundai": 263
+, "Audi": 222
+, "Peugeot": 222
+, "Dacia": 211
+, "Seat": 167
+, "Mitsubishi": 136
+, "Mazda": 131
+, "Subaru": 128
+, "Citroën": 111
+, "Honda": 88
+, "Suzuki": 79
+, "Lexus": 20
+, "Mini": 18
+, "Tesla": 12
+, "Land Rover": 10
+, "Jaguar": 9
+, "Fiat": 6
+, "Porsche": 6
+, "other": 111
+});
+
+db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Nissan|Leaf": 30
+, "BMW|i3 BEV": 16
+, "Volkswagen|e-Golf": 9
+, "Hyundai|Ioniq Electric": 8
+, "Hyundai|Kona Electric": 8
+, "Tesla|Model S": 6
+, "Tesla|Model X": 6
+, "Renault|Zoe": 4
+, "Jaguar|I-Pace": 3
+, "Kia|Soul EV": 2
+});
+
+db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1948/December_2018.xlsx",
+{ "Volkswagen": 1027
+, "Škoda": 705
+, "Renault": 653
+, "Volvo": 595
+, "Ford": 425
+, "Toyota": 306
+, "Dacia": 271
+, "Mercedes-Benz": 267
+, "Kia": 247
+, "BMW": 195
+, "Hyundai": 191
+, "Audi": 161
+, "Nissan": 153
+, "Peugeot": 146
+, "Opel": 142
+, "Seat": 129
+, "Citroën": 80
+, "Mitsubishi": 80
+, "Subaru": 80
+, "Mazda": 69
+, "Honda": 59
+, "Suzuki": 46
+, "Tesla": 24
+, "Lexus": 22
+, "Jaguar": 15
+, "Mini": 15
+, "Land Rover": 8
+, "Porsche": 3
+, "Fiat": 1
+, "other": 44
+});
+
+db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volkswagen|e-Golf": 24
+, "Nissan|Leaf": 14
+, "Tesla|Model S": 12
+, "Tesla|Model X": 12
+, "Renault|Zoe": 9
+, "Hyundai|Ioniq Electric": 7
+, "Jaguar|I-Pace": 3
+, "Hyundai|Kona Electric": 2
+, "BMW|i3 BEV": 1
+, "Nissan|e-NV200": 1
+});
+
 db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1955/January_2019.xlsx",
 { "Toyota": 1603
 , "Škoda": 1566
