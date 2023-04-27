@@ -909,8 +909,13 @@ var db = {
     // add hints for incomplete year or quarter
     if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       categories.sort();
+      const currentDate = new Date();
+      const currentYear = currentDate.getFullYear();
+      const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + currentDate.getMonth()));
       for (const i in categories) {
         const timeSpan = categories[i];
+        if (timeSpan == currentYear || timeSpan == currentQuarter)
+          continue;
         var expectedNumberOfMonth;
         if (chartConfig.xProperty == this.xProperties.quarter)
           expectedNumberOfMonth = 3;
