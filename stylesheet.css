@@ -44,6 +44,7 @@ input[type=text]:focus {
 a, a:visited {
   color: #0067CE;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -262,6 +263,46 @@ a.button.removeButton:after {
   border: 1px solid #565656;
   border-radius: 0.12em;
   margin: 5px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  box-sizing: border-box;
+}
+
+.hints > a {
+  display: block;
+  text-align: center;
+  padding-bottom: 3px;
+  border-color: inherit;
+  padding: 0;
+}
+.hints > a.expand {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px;
+  background: linear-gradient(rgba(255, 255, 255, 0), white 70%, white);
+}
+
+.hints > a > div {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-width: 3px;
+  border-color: inherit;
+  border-left-style: solid;
+  border-bottom-style: solid;
+}
+
+.hints > a.expand > div {
+  transform: rotate(-45deg);
+  margin-bottom: 2px;
+}
+
+.hints > a.collapse > div {
+  transform: rotate(135deg);
+  margin-bottom: -6px;
 }
 
 table {

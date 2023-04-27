@@ -30,12 +30,15 @@ homeLink.addEventListener("click", function(event) {
   navigate();
 });
 
+const maxHintsHeight = 75;
+
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
 var activeShowAllOptionsParamName;
 var sortByName;
 var hintsDiv;
+var isHintsDivExpanded;
 
 setGlobalChartOptions();
 navigate();
@@ -49,6 +52,7 @@ function navigate(retainShowAllOptionsParamName) {
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
   sortByName = false;
+  isHintsDivExpanded = false;
 
   renderPage();
   logVisit();
@@ -341,6 +345,39 @@ function renderHints(chartDiv, chartConfig, chartData) {
       hintsDiv.appendChild(document.createTextNode(chartData.hints[i]));
       hintsDiv.appendChild(document.createElement("BR"));
     }
+    // collapse hints
+    if (hintsDiv.offsetHeight > maxHintsHeight) {
+      // expand button
+      var expandHintsButton = document.createElement("A");
+      expandHintsButton.classList.add("expand");
+      expandHintsButton.appendChild(document.createElement("DIV"));
+      expandHintsButton.title = "Expand Hints";
+      expandHintsButton.addEventListener("click", function(event) {
+        hintsDiv.style.maxHeight = "";
+        expandHintsButton.style.display = "none";
+        collapseHintsButton.style.display = "";
+        isHintsDivExpanded = true;
+      });
+      hintsDiv.appendChild(expandHintsButton);
+      // collapse button
+      var collapseHintsButton = document.createElement("A");
+      collapseHintsButton.classList.add("collapse");
+      collapseHintsButton.appendChild(document.createElement("DIV"));
+      collapseHintsButton.title = "Collapse Hints";
+      collapseHintsButton.addEventListener("click", function(event) {
+        hintsDiv.style.maxHeight = maxHintsHeight + "px";
+        collapseHintsButton.style.display = "none";
+        expandHintsButton.style.display = "";
+        isHintsDivExpanded = false;
+      });
+      hintsDiv.appendChild(collapseHintsButton);
+      if (isHintsDivExpanded) {
+        expandHintsButton.style.display = "none";
+      } else {
+        collapseHintsButton.style.display = "none";
+        hintsDiv.style.maxHeight = maxHintsHeight + "px";
+      }
+    }
   }
 }
 
@@ -593,7 +630,7 @@ function setChartSize(element) {
   if (isWidthEnoughForFilterAsButtons())
     heightOffset += 10;
   if (hintsDiv != null)
-    heightOffset += hintsDiv.offsetHeight;
+    heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 2;
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;
