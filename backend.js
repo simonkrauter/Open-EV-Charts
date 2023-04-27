@@ -344,17 +344,17 @@ var db = {
     param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
     param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
     var currentDate = new Date();
-    var latestYear = 1900 + currentDate.getYear();
-    var latestMonth = 1 + currentDate.getMonth();
-    latestMonth--;
-    if (latestMonth < 1) {
-      latestMonth = 12;
-      latestYear--;
+    var currentYear = currentDate.getFullYear();
+    var currentMonth = 1 + currentDate.getMonth();
+    currentMonth--;
+    if (currentMonth < 1) {
+      currentMonth = 12;
+      currentYear--;
     }
     if (chartConfig == null || ![this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       // single month
-      var year = latestYear;
-      var month = latestMonth;
+      var year = currentYear;
+      var month = currentMonth;
       for (var i = 0; i < 4; i++) {
         param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
         month--;
@@ -364,8 +364,8 @@ var db = {
         }
       }
       // single quarter
-      var year = latestYear;
-      var quarter = this.monthToQuarter(latestMonth);
+      var year = currentYear;
+      var quarter = this.monthToQuarter(currentMonth);
       for (var i = 0; i < 4; i++) {
         param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
         quarter--;
@@ -377,7 +377,7 @@ var db = {
     }
     if (chartConfig == null || chartConfig.xProperty != this.xProperties.year) {
       // single year
-      var year = latestYear;
+      var year = currentYear;
       for (var i = 0; i < 4; i++) {
         param.options["y" + year] = year;
         year--;
@@ -723,21 +723,21 @@ var db = {
         filterMonthLast = filterMonthFirst;
       } else if (chartConfig.timeSpan.endsWith("y") || chartConfig.timeSpan.endsWith("m")) {
         var currentDate = new Date();
-        var latestYear = 1900 + currentDate.getYear();
-        var latestMonth = 1 + currentDate.getMonth();
-        latestMonth--;
-        if (latestMonth < 1) {
-          latestMonth = 12;
-          latestYear--;
+        var currentYear = currentDate.getFullYear();
+        var currentMonth = 1 + currentDate.getMonth();
+        currentMonth--;
+        if (currentMonth < 1) {
+          currentMonth = 12;
+          currentYear--;
         }
-        filterYearLast = latestYear;
-        filterMonthLast = latestMonth;
+        filterYearLast = currentYear;
+        filterMonthLast = currentMonth;
         const quantity = parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
         if (chartConfig.timeSpan.endsWith("y")) {
           if (chartConfig.xProperty == this.xProperties.year) {
             filterMonthFirst = 1;
           } else {
-            filterYearFirst = latestYear - quantity;
+            filterYearFirst = currentYear - quantity;
             filterMonthFirst = filterMonthLast + 1;
             if (filterMonthFirst > 12) {
               filterYearFirst++;
@@ -745,8 +745,8 @@ var db = {
             }
           }
         } else if (chartConfig.timeSpan.endsWith("m")) {
-          filterYearFirst = latestYear;
-          filterMonthFirst = latestMonth - quantity + 1;
+          filterYearFirst = currentYear;
+          filterMonthFirst = currentMonth - quantity + 1;
           if (filterMonthFirst < 1) {
             filterYearFirst--;
             filterMonthFirst = filterMonthFirst + 12;
