@@ -909,24 +909,26 @@ var db = {
     // add hints for incomplete year or quarter
     if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       categories.sort();
-      const lastTimeSpan = categories[categories.length - 1];
-      var expectedNumberOfMonth;
-      if (chartConfig.xProperty == this.xProperties.quarter)
-        expectedNumberOfMonth = 3;
-      else
-        expectedNumberOfMonth = 12;
-      for (const countryName in monthsPerCountryAndTimeSpan) {
-        const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
-        if (monthsPerQuarter[lastTimeSpan] && monthsPerQuarter[lastTimeSpan].length != expectedNumberOfMonth) {
-          var hint = ""
-          if (this.isMultiCountry(chartConfig))
-            hint = hint + countryName + " ";
-          if (chartConfig.xProperty == this.xProperties.year)
-            hint = hint + "Year ";
-          else
-            hint = hint + "Quarter ";
-          hint = hint + lastTimeSpan + " is incomplete.";
-          hints.push(hint);
+      for (const i in categories) {
+        const timeSpan = categories[i];
+        var expectedNumberOfMonth;
+        if (chartConfig.xProperty == this.xProperties.quarter)
+          expectedNumberOfMonth = 3;
+        else
+          expectedNumberOfMonth = 12;
+        for (const countryName in monthsPerCountryAndTimeSpan) {
+          const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
+          if (monthsPerQuarter[timeSpan] && monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
+            var hint = ""
+            if (this.isMultiCountry(chartConfig))
+              hint = hint + countryName + " ";
+            if (chartConfig.xProperty == this.xProperties.year)
+              hint = hint + "Year ";
+            else
+              hint = hint + "Quarter ";
+            hint = hint + timeSpan + " is incomplete.";
+            hints.push(hint);
+          }
         }
       }
     }
