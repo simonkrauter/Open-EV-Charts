@@ -1417,3 +1417,28 @@ db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Denza|D9 EV": 310
 , "other": 168848
 });
+
+db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2024.html TODO: numbers per brand wanted",
+{ "other": 2017000
+});
+
+db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/",
+{ "Tesla|Model Y": 54937
+, "BYD|Qin Pro EV": 40215
+, "BYD|Song Pro EV": 40114
+, "BYD|Yuan Plus": 27907
+, "BYD|Dolphin": 27687
+, "Aion|S": 26392
+, "Wuling|Hongguang Mini EV": 23159
+, "Tesla|Model 3": 21726
+, "Aion|Y": 13267
+, "Geely|Panda Mini EV": 10550
+, "Changan|Lumin": 10217
+, "BAIC|EU-Series": 8135
+, "BYD|Han EV": 7655
+, "Denza|D9 EV": 1007
+, "BYD|Tang EV": 822
+, "Buick|Velite 6": 1797
+, "Nio|ET5": 6437
+, "other": 162056
+});
