@@ -4603,3 +4603,103 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model S": 14
 , "other": 203
 });
+
+db.insert(db.countries.SE, "2023-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3012
+, "Volkswagen": 2515
+, "Toyota": 1701
+, "Kia": 1633
+, "Audi": 1486
+, "BMW": 1325
+, "Mercedes-Benz": 1291
+, "Škoda": 988
+, "Ford": 771
+, "Tesla": 742
+, "Renault": 533
+, "Peugeot": 516
+, "Hyundai": 403
+, "Nissan": 332
+, "Porsche": 323
+, "Cupra": 263
+, "MG": 252
+, "Subaru": 237
+, "Seat": 205
+, "Citroën": 203
+, "Fiat": 202
+, "Lexus": 184
+, "Mini": 169
+, "Roewe": 165
+, "Dacia": 155
+, "Opel": 133
+, "Polestar": 120
+, "Mazda": 91
+, "Suzuki": 84
+, "Mitsubishi": 72
+, "BYD": 63
+, "Honda": 53
+, "Alfa Romeo": 36
+, "Jeep": 24
+, "Land Rover": 20
+, "Nio": 14
+, "Ora": 12
+, "Chevrolet": 9
+, "DS Automobiles": 7
+, "Cadillac": 2
+, "Hongqi": 2
+, "Jaguar": 1
+, "Smart": 1
+, "other": 236
+});
+
+db.insert(db.countries.SE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo|XC40 Recharge pure electric": 695
+, "Volkswagen|ID.4": 661
+, "Tesla|Model Y": 652
+, "Škoda|Enyaq": 346
+, "Kia|Niro EV": 326
+, "Volkswagen|ID.3": 325
+, "Kia|EV6": 322
+, "BMW|i4": 314
+, "Volvo|C40 Recharge": 261
+, "Renault|Megane E-Tech": 235
+, "Audi|Q4 e-tron": 193
+, "Toyota|bZ4X": 190
+, "Roewe|Ei5": 165
+, "Audi|Q8 e-tron": 151
+, "Volkswagen|ID.5": 149
+, "Nissan|Leaf": 144
+, "BMW|iX1": 140
+, "Polestar|2": 120
+, "MG|MG4 EV": 115
+, "Cupra|Born": 113
+, "Mercedes-Benz|EQA": 92
+, "Volkswagen|ID. Buzz": 83
+, "Citroën|ë-C4": 77
+, "MG|Marvel R": 74
+, "Mercedes-Benz|EQE": 73
+, "BMW|iX3": 68
+, "Mercedes-Benz|EQB": 61
+, "Tesla|Model 3": 61
+, "BYD|Yuan Plus": 60
+, "MG|ZS EV": 58
+, "Mini|Cooper SE Electric": 56
+, "Porsche|Taycan": 56
+, "Hyundai|Ioniq 5": 49
+, "BMW|iX": 39
+, "Opel|Corsa-e": 37
+, "Peugeot|e-208": 37
+, "Mercedes-Benz|EQS": 28
+, "Peugeot|e-2008": 22
+, "Hyundai|Kona Electric": 21
+, "Renault|Zoe": 21
+, "Tesla|Model X": 21
+, "Nissan|Ariya": 19
+, "Volvo|other": 17
+, "Ford|Mustang Mach-E": 15
+, "Lexus|RZ": 12
+, "Ora|Good Cat": 12
+, "Peugeot|e-Expert": 12
+, "Opel|Mokka-e": 10
+, "Subaru|Solterra": 10
+, "other": 110
+});
