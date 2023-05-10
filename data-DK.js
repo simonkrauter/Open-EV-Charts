@@ -1111,7 +1111,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Maxus|Euniq 5": 6
 , "Mercedes-Benz|EQV": 6
 , "Renault|Megane E-Tech": 6
-, "Roewe|Ei5": 6
+, "MG|MG5 EV": 6
 , "MG|Marvel R": 5
 , "Opel|Combo-e": 5
 , "BMW|iX": 4
@@ -1158,7 +1158,7 @@ db.insert(db.countries.DK, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 12
 , "Volkswagen|e-up!": 12
 , "Tesla|Model Y": 10
-, "Roewe|Ei5": 8
+, "MG|MG5 EV": 8
 , "Audi|e-tron GT": 7
 , "BMW|iX": 7
 , "Porsche|Taycan": 7
@@ -1285,7 +1285,7 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 6
 , "Lexus|UX 300e": 6
 , "Maxus|Euniq 5": 5
-, "Roewe|Ei5": 5
+, "MG|MG5 EV": 5
 , "Opel|Mokka-e": 4
 , "other": 22
 });
@@ -1327,7 +1327,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 12
 , "Mercedes-Benz|EQV": 12
 , "Opel|Corsa-e": 11
-, "Roewe|Ei5": 11
+, "MG|MG5 EV": 11
 , "Mini|Cooper SE Electric": 10
 , "Porsche|Taycan": 10
 , "BMW|iX": 8
@@ -1388,7 +1388,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 16
 , "Mercedes-Benz|EQV": 14
 , "Porsche|Taycan": 12
-, "Roewe|Ei5": 12
+, "MG|MG5 EV": 12
 , "Volvo|C40 Recharge": 12
 , "Citroën|Berlingo Electric": 10
 , "Mercedes-Benz|eVito": 9
@@ -1440,7 +1440,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 22
 , "Mazda|MX-30": 18
 , "MG|MG4 EV": 17
-, "Roewe|Ei5": 14
+, "MG|MG5 EV": 14
 , "MG|Marvel R": 13
 , "Mini|Cooper SE Electric": 12
 , "Mercedes-Benz|EQS": 10
@@ -1497,7 +1497,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 16
 , "Dacia|Spring": 13
 , "Renault|Zoe": 13
-, "Roewe|Ei5": 13
+, "MG|MG5 EV": 13
 , "Tesla|Model 3": 11
 , "Toyota|bZ4X": 11
 , "Nio|ET7": 10
@@ -1562,7 +1562,7 @@ db.insert(db.countries.DK, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 11
 , "Maxus|Euniq 6": 8
 , "Opel|Mokka-e": 8
-, "Roewe|Ei5": 7
+, "MG|MG5 EV": 7
 , "Toyota|bZ4X": 7
 , "Dacia|Spring": 6
 , "BMW|i3 BEV": 5

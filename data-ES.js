@@ -3760,7 +3760,7 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 5
 , "Honda|e": 4
 , "Jaguar|I-Pace": 4
-, "Roewe|Ei5": 4
+, "MG|MG5 EV": 4
 , "Tesla|Model 3": 4
 , "DFSK|Seres 3": 3
 , "Mercedes-Benz|EQC": 3
@@ -4043,7 +4043,7 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 15
 , "Opel|Combo-e": 13
 , "Polestar|2": 13
-, "Roewe|Ei5": 13
+, "MG|MG5 EV": 13
 , "MG|Marvel R": 12
 , "Audi|e-tron GT": 11
 , "Mercedes-Benz|EQV": 10
@@ -4639,7 +4639,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 9
 , "Volkswagen|ID.3": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
-, "Roewe|Ei5": 8
+, "MG|MG5 EV": 8
 });
 
 db.insert(db.countries.ES, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2023/datosfebrerott.asp",
@@ -4734,7 +4734,7 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 13
 , "DS Automobiles|DS 3 Crossback E-Tense": 11
 , "Fiat|E-Doblò": 9
-, "Roewe|Ei5": 8
+, "MG|MG5 EV": 8
 , "Mazda|MX-30": 7
 , "Renault|Twingo Z.E.": 7
 });
