@@ -2210,8 +2210,8 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 10
 , "Lexus|UX 300e": 6
 , "Mercedes-Benz|EQS": 6
-, "Peugeot|e-Rifter": 5
 , "MG|MG5 EV": 5
+, "Peugeot|e-Rifter": 5
 , "Subaru|Solterra": 5
 , "other": 24
 });
@@ -2487,8 +2487,8 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 18
 , "Kia|Niro EV": 17
 , "Nissan|Ariya": 12
-, "MG|ZS EV": 11
 , "MG|MG5 EV": 11
+, "MG|ZS EV": 11
 , "Volvo|C40 Recharge": 11
 , "Fiat|E-Doblò": 10
 , "other": 114
