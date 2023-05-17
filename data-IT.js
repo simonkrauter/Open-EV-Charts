@@ -2680,3 +2680,99 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 19
 , "MG|ZS EV": 19
 });
+
+db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Aprile%202023_64512d2f52fa6.pdf",
+{ "Fiat": 15359
+, "Volkswagen": 11644
+, "Peugeot": 7622
+, "Ford": 7381
+, "Dacia": 6437
+, "Audi": 6415
+, "Renault": 6164
+, "Jeep": 6025
+, "Toyota": 6023
+, "BMW": 5062
+, "Opel": 4070
+, "Kia": 3855
+, "Mercedes-Benz": 3796
+, "Hyundai": 3727
+, "Citroën": 3029
+, "MG": 3029
+, "Škoda": 2882
+, "Suzuki": 2714
+, "Alfa Romeo": 2380
+, "Nissan": 1481
+, "Mini": 1346
+, "Volvo": 1214
+, "Cupra": 1034
+, "Seat": 877
+, "Mazda": 742
+, "Tesla": 740
+, "DS Automobiles": 630
+, "Porsche": 573
+, "Land Rover": 512
+, "Smart": 365
+, "Maserati": 324
+, "Honda": 311
+, "Lexus": 296
+, "Subaru": 214
+, "Jaguar": 127
+, "Polestar": 96
+, "Mitsubishi": 43
+, "SsangYong": 14
+, "other": 7252
+});
+
+db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
+{ "Tesla|Model Y": 480
+, "Fiat|500e": 372
+, "Smart|Fortwo ED": 365
+, "MG|MG4 EV": 228
+, "Tesla|Model 3": 224
+, "Dacia|Spring": 148
+, "Renault|Twingo Z.E.": 144
+, "Renault|Megane E-Tech": 143
+, "Audi|Q4 e-tron": 129
+, "Peugeot|e-208": 129
+, "Mini|Cooper SE Electric": 120
+, "Opel|Mokka-e": 105
+, "Volkswagen|ID.4": 97
+, "Polestar|2": 96
+, "Volkswagen|ID.5": 88
+, "Opel|Corsa-e": 73
+, "Volkswagen|ID.3": 70
+, "Volvo|XC40 Recharge pure electric": 70
+, "Hyundai|Kona Electric": 68
+, "Cupra|Born": 67
+, "Mercedes-Benz|EQA": 54
+, "BMW|i4": 53
+, "BMW|iX1": 52
+, "Kia|Niro EV": 51
+, "Peugeot|e-2008": 49
+, "Citroën|ë-C4": 45
+, "Ford|Mustang Mach-E": 37
+, "Renault|Zoe": 32
+, "BMW|iX": 30
+, "BMW|iX3": 26
+, "Hyundai|Ioniq 6": 26
+, "Škoda|Enyaq": 23
+, "Porsche|Taycan": 22
+, "Audi|Q8 e-tron": 20
+, "Tesla|Model S": 20
+, "MG|MG5 EV": 19
+, "Volkswagen|ID. Buzz": 18
+, "Volvo|C40 Recharge": 17
+, "Kia|EV6": 16
+, "Tesla|Model X": 16
+, "Hyundai|Ioniq 5": 15
+, "Mercedes-Benz|EQE": 14
+, "MG|Marvel R": 13
+, "Nissan|Ariya": 13
+, "Nissan|Leaf": 13
+, "Toyota|Proace Electric": 13
+, "Fiat|E-Doblò": 12
+, "Mercedes-Benz|EQB": 11
+, "Mercedes-Benz|EQS": 11
+, "Subaru|Solterra": 9
+, "other": 19
+});
