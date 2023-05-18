@@ -4474,8 +4474,8 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 12
 , "Kia|Soul EV": 11
 , "Smart|Fortwo ED": 9
-, "Renault|Megane E-Tech": 8
 , "MG|MG5 EV": 8
+, "Renault|Megane E-Tech": 8
 , "MG|Marvel R": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Opel|Combo-e": 6
@@ -4947,8 +4947,8 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ducato": 20
 , "Fiat|E-Ulysse": 19
 , "Kia|Soul EV": 13
-, "MG|Marvel R": 9
 , "MG|MG5 EV": 9
+, "MG|Marvel R": 9
 , "Mazda|MX-30": 8
 , "Mercedes-Benz|EQV": 8
 , "Toyota|Proace Electric": 8
@@ -5317,9 +5317,9 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 88
 , "Ford|Mustang Mach-E": 80
 , "Tesla|Model S": 71
+, "MG|MG5 EV": 65
 , "Opel|Corsa-e": 65
 , "Porsche|Taycan": 65
-, "MG|MG5 EV": 65
 , "Mercedes-Benz|EQA": 64
 , "MG|ZS EV": 60
 , "Mercedes-Benz|EQE": 55
