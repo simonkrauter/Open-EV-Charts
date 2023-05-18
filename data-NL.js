@@ -5496,7 +5496,7 @@ db.insert(db.countries.NL, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 229
 , "Kia|EV6": 229
 , "Peugeot|e-2008": 228
-, "Kia|Niro EV": 206
+, "Kia|Niro EV": 207
 , "Opel|Mokka-e": 195
 , "Opel|Corsa-e": 191
 , "Volkswagen|ID.4": 186
@@ -5535,7 +5535,7 @@ db.insert(db.countries.NL, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID. Buzz": 22
 , "Mercedes-Benz|EQV": 19
 , "Ford|Mustang Mach-E": 17
-, "other": 147
+, "other": 146
 });
 
 db.insert(db.countries.NL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/maart/",
@@ -5590,17 +5590,17 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 759
 , "Renault|Megane E-Tech": 710
 , "Peugeot|e-208": 669
-, "Volkswagen|ID.3": 502
+, "Volkswagen|ID.3": 503
 , "Volkswagen|ID.4": 402
 , "Audi|Q4 e-tron": 395
 , "Opel|Corsa-e": 381
 , "Hyundai|Ioniq 5": 364
 , "Kia|Niro EV": 361
-, "BMW|i4": 337
+, "BMW|i4": 338
 , "Škoda|Enyaq": 334
 , "Peugeot|e-2008": 308
+, "Kia|EV6": 296
 , "BMW|iX1": 292
-, "Kia|EV6": 291
 , "Volvo|C40 Recharge": 266
 , "Citroën|ë-C4": 258
 , "Opel|Mokka-e": 244
@@ -5608,8 +5608,8 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 206
 , "Dacia|Spring": 187
 , "Mini|Cooper SE Electric": 151
+, "MG|MG5 EV": 148
 , "MG|ZS EV": 148
-, "MG|MG5 EV": 143
 , "MG|MG4 EV": 142
 , "BYD|Yuan Plus": 134
 , "Polestar|2": 134
@@ -5629,11 +5629,11 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 43
 , "BMW|iX": 41
 , "Mercedes-Benz|EQS": 41
-, "Volkswagen|ID. Buzz": 39
-, "Audi|Q8 e-tron": 30
+, "Volkswagen|ID. Buzz": 41
+, "Audi|Q8 e-tron": 31
 , "Tesla|Model S": 29
 , "Ford|Mustang Mach-E": 28
 , "Renault|Twingo Z.E.": 28
 , "Opel|Vivaro-e": 26
-, "other": 236
+, "other": 221
 });
