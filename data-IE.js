@@ -3768,3 +3768,96 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Ora|Good Cat": 2
 , "other": 8
 });
+
+db.insert(db.countries.IE, "2023-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1146
+, "Toyota": 957
+, "Kia": 872
+, "Škoda": 715
+, "Dacia": 566
+, "Opel": 511
+, "Hyundai": 505
+, "Ford": 406
+, "Peugeot": 386
+, "Audi": 370
+, "BMW": 339
+, "Mercedes-Benz": 254
+, "Nissan": 247
+, "Seat": 227
+, "Tesla": 224
+, "Volvo": 212
+, "Citroën": 139
+, "Cupra": 129
+, "Renault": 121
+, "MG": 98
+, "Suzuki": 97
+, "Land Rover": 57
+, "Porsche": 52
+, "Lexus": 51
+, "Mini": 49
+, "Mazda": 39
+, "Polestar": 31
+, "Fiat": 30
+, "Honda": 22
+, "BYD": 21
+, "Alfa Romeo": 11
+, "DS Automobiles": 11
+, "Ora": 8
+, "Subaru": 5
+, "Jaguar": 4
+, "Jeep": 2
+, "SsangYong": 2
+});
+
+db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 255
+, "Tesla|Model Y": 222
+, "Škoda|Enyaq": 174
+, "Kia|EV6": 140
+, "Volkswagen|ID.3": 89
+, "Hyundai|Ioniq 6": 86
+, "Toyota|bZ4X": 76
+, "Kia|Niro EV": 62
+, "Audi|Q4 e-tron": 54
+, "Peugeot|e-2008": 46
+, "Hyundai|Kona Electric": 43
+, "Volvo|XC40 Recharge pure electric": 43
+, "MG|ZS EV": 42
+, "Renault|Megane E-Tech": 39
+, "Cupra|Born": 36
+, "Nissan|Leaf": 34
+, "Polestar|2": 31
+, "MG|MG5 EV": 29
+, "BMW|iX1": 25
+, "BYD|Yuan Plus": 21
+, "Opel|Corsa-e": 19
+, "Hyundai|Ioniq 5": 18
+, "Mercedes-Benz|EQA": 17
+, "BMW|i4": 16
+, "Citroën|ë-C4": 16
+, "Fiat|500e": 16
+, "Mercedes-Benz|EQE": 16
+, "MG|MG4 EV": 14
+, "Porsche|Taycan": 14
+, "Mercedes-Benz|EQB": 13
+, "Volkswagen|ID.5": 13
+, "Volvo|C40 Recharge": 13
+, "Audi|Q8 e-tron": 12
+, "Mini|Cooper SE Electric": 12
+, "BMW|iX3": 11
+, "BMW|iX": 10
+, "Peugeot|e-208": 9
+, "Renault|Zoe": 9
+, "Ora|Good Cat": 8
+, "Volkswagen|e-up!": 8
+, "Nissan|Ariya": 7
+, "Opel|Mokka-e": 7
+, "Audi|e-tron GT": 5
+, "Citroën|Berlingo Electric": 4
+, "Jaguar|I-Pace": 4
+, "Subaru|Solterra": 4
+, "Ford|Mustang Mach-E": 3
+, "Mazda|MX-30": 3
+, "Mercedes-Benz|EQS SUV": 3
+, "other": 10
+});
