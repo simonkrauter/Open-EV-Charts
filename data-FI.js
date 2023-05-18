@@ -4,6 +4,9 @@
 
 db.addCountry("FI", "Finland");
 
+// https://www.aut.fi/en/statistics/new_registrations/monthly
+// https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars
+
 db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1828/January_2018.xlsx",
 { "Toyota": 1948
 , "Škoda": 1448
@@ -3926,4 +3929,85 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 2
 , "Volkswagen|e-up!": 2
 , "other": 19
+});
+
+db.insert(db.countries.FI, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2761/April_2023.xlsx",
+{ "Toyota": 1251
+, "Volkswagen": 821
+, "Volvo": 792
+, "Mercedes-Benz": 581
+, "Škoda": 551
+, "Kia": 549
+, "BMW": 417
+, "Audi": 400
+, "Ford": 275
+, "Nissan": 243
+, "Tesla": 226
+, "Hyundai": 216
+, "Opel": 87
+, "Citroën": 80
+, "Renault": 79
+, "Peugeot": 74
+, "Polestar": 74
+, "Dacia": 64
+, "Mazda": 63
+, "Suzuki": 57
+, "Mitsubishi": 51
+, "Cupra": 48
+, "Land Rover": 41
+, "Lexus": 32
+, "Seat": 32
+, "Honda": 21
+, "Subaru": 16
+, "Fiat": 11
+, "Porsche": 11
+, "DS Automobiles": 1
+, "other": 140
+});
+
+db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volkswagen|ID.4": 226
+, "Škoda|Enyaq": 210
+, "Tesla|Model Y": 202
+, "Audi|Q4 e-tron": 147
+, "Volvo|XC40 Recharge pure electric": 140
+, "Volkswagen|ID.3": 137
+, "Volvo|C40 Recharge": 124
+, "BMW|i4": 99
+, "Toyota|bZ4X": 77
+, "Polestar|2": 74
+, "Nissan|Leaf": 71
+, "Hyundai|Ioniq 5": 68
+, "Audi|Q8 e-tron": 62
+, "Mercedes-Benz|EQE": 60
+, "Nissan|Ariya": 60
+, "Volkswagen|ID.5": 59
+, "Kia|EV6": 52
+, "Hyundai|Kona Electric": 44
+, "Renault|Megane E-Tech": 42
+, "Mercedes-Benz|EQA": 38
+, "BMW|iX1": 32
+, "Mercedes-Benz|EQS": 28
+, "Cupra|Born": 27
+, "Kia|Niro EV": 24
+, "Hyundai|Ioniq 6": 23
+, "Mercedes-Benz|EQB": 21
+, "Mercedes-Benz|EQC": 21
+, "Tesla|Model 3": 21
+, "BMW|iX": 18
+, "Citroën|ë-C4": 15
+, "Ford|Mustang Mach-E": 15
+, "Opel|Mokka-e": 13
+, "Peugeot|e-208": 12
+, "Fiat|500e": 9
+, "Porsche|Taycan": 9
+, "Opel|Corsa-e": 8
+, "Toyota|Proace Electric": 5
+, "Subaru|Solterra": 4
+, "Mini|Cooper SE Electric": 3
+, "BMW|i7": 2
+, "BMW|iX3": 2
+, "Opel|Combo-e": 2
+, "Tesla|Model X": 2
+, "other": 39
 });
