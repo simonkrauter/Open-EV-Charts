@@ -786,41 +786,7 @@ var db = {
         const brand = dataKeyParts[0];
         const model = dataKeyParts[1];
 
-        if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
-          continue;
-        if (filterModel != null && this.formatForUrl(model) != filterModel)
-          continue;
-
-        var brandAndModel;
-        if (model && filterBrand != null)
-          brandAndModel = model;
-        else
-          brandAndModel = dataKey; // keep "|" for later decoding
-
-        const value = dataset.data[dataKey];
-
-        if (chartConfig.xProperty == this.xProperties.company)
-          category = this.companiesByBrand[brand];
-        else if (chartConfig.xProperty == this.xProperties.brand)
-          category = brand;
-        else if (chartConfig.xProperty == this.xProperties.model)
-          category = brandAndModel;
-
-        var seriesName = this.singleSeriesName;
-        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
-          seriesName = dataset.countryName;
-        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
-          if (chartConfig.brand == this.brandOptions.all)
-            seriesName = brandAndModel;
-          else if (model)
-            seriesName = model;
-        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
-          if (chartConfig.brand != this.brandOptions.all)
-            seriesName = brandAndModel;
-          else
-            seriesName = brand;
-        }
-
+        // add entry to monthsPerCountryAndTimeSpan
         if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
           var timeSpan;
           if (chartConfig.xProperty == this.xProperties.quarter)
@@ -835,24 +801,58 @@ var db = {
             monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
         }
 
+        // apply filters
+        if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
+          continue;
+        if (filterModel != null && this.formatForUrl(model) != filterModel)
+          continue;
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
+        // set category
+        if (chartConfig.xProperty == this.xProperties.company)
+          category = this.companiesByBrand[brand];
+        else if (chartConfig.xProperty == this.xProperties.brand)
+          category = brand;
+        else if (chartConfig.xProperty == this.xProperties.model) {
+          if (chartConfig.brand == this.brandOptions.all)
+            category = dataKey;
+          else
+            category = model;
+        }
+
+        // set seriesName
+        var seriesName = this.singleSeriesName;
+        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
+          seriesName = dataset.countryName;
+        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
+          if (chartConfig.brand == this.brandOptions.all)
+            seriesName = dataKey;
+          else if (model)
+            seriesName = model;
+        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
+          if (chartConfig.brand == this.brandOptions.all)
+            seriesName = brand;
+          else
+            seriesName = dataKey;
+        }
+
+        // add entries to seriesRows, categories and sources
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
         if (category in seriesRows[seriesName])
-          seriesRows[seriesName][category] += value;
+          seriesRows[seriesName][category] += dataset.data[dataKey];
         else
-          seriesRows[seriesName][category] = value;
+          seriesRows[seriesName][category] = dataset.data[dataKey];
         if (!categories.includes(category))
           categories.push(category);
-
         if (sources[dataset.source] == null) {
           sources[dataset.source] = {};
           sources[dataset.source].country = dataset.country;
           sources[dataset.source].firstDate = dataset.monthString;
         }
         sources[dataset.source].lastDate = dataset.monthString;
+
         datasetUsed = true;
       }
       if (Object.keys(dataset.data).length == 51 && !datasetUsed) {
