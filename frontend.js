@@ -751,17 +751,20 @@ function generateWikitext(rows) {
     const columns = rows[i].childNodes;
     for (var j = 0; j < columns.length; j++) {
       const cell = columns[j];
-      if (cell.tagName == "TH")
-        result += "! ";
-      else {
-        result += "| ";
-        if (cell.classList.contains("NA"))
-          result += "style=\"text-align:center;\" | ";
-        else if (cell.style.textAlign != "right")
-          result += "style=\"text-align:left;\" | ";
+      const content = cell.textContent;
+      if (content != "") {
+        if (cell.tagName == "TH")
+          result += "! ";
+        else {
+          result += "| ";
+          if (cell.classList.contains("NA"))
+            result += "style=\"text-align:center;\" | ";
+          else if (cell.style.textAlign != "right")
+            result += "style=\"text-align:left;\" | ";
+        }
+        result += content;
+        result += "\n";
       }
-      result += cell.textContent;
-      result += "\n";
     }
   }
   result += "|}";
