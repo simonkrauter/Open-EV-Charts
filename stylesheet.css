@@ -349,6 +349,8 @@ a.export {
   color: #232323;
   font-size: 80%;
   cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a.pngExport {

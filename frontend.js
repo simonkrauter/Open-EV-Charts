@@ -716,6 +716,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
 
+  renderTableExportButton(chartDiv, table, "CSV");
   renderTableExportButton(chartDiv, table, "Wikitext");
 }
 
@@ -736,12 +737,34 @@ function renderTableExportButton(chartDiv, table, format) {
       const textarea = document.createElement("TEXTAREA");
       containerDiv.appendChild(textarea);
       const rows = table.childNodes;
-      textarea.value = generateWikitext(rows);
+      if (format == "CSV")
+        textarea.value = generateCsv(rows);
+      else
+        textarea.value = generateWikitext(rows);
       chartDiv.appendChild(containerDiv);
       currentExportFormat = format;
     }
   });
   chartDiv.appendChild(exportButton);
+}
+
+function generateCsv(rows) {
+  var result = "";
+  for (var i = 0; i < rows.length; i++) {
+    if (i > 0)
+      result += "\n";
+    const columns = rows[i].childNodes;
+    for (var j = 0; j < columns.length; j++) {
+      const content = columns[j].textContent;
+      if (content != "") {
+        if (j > 0)
+          result += ";";
+        if (content != "–")
+          result += content.replaceAll(",", "").replaceAll(".", "");
+      }
+    }
+  }
+  return result;
 }
 
 function generateWikitext(rows) {
