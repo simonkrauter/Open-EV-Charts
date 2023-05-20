@@ -54,6 +54,7 @@ function navigate(retainShowAllOptionsParamName) {
   isSingleChart = chartConfigs.length == 1;
   sortByName = false;
   isHintsDivExpanded = false;
+  currentExportFormat = null;
 
   renderPage();
   logVisit();
@@ -755,12 +756,17 @@ function generateCsv(rows) {
       result += "\n";
     const columns = rows[i].childNodes;
     for (var j = 0; j < columns.length; j++) {
-      const content = columns[j].textContent;
+      const cell = columns[j];
+      const content = cell.textContent;
       if (content != "") {
         if (j > 0)
           result += ";";
-        if (content != "–")
-          result += content.replaceAll(",", "").replaceAll(".", "");
+        if (!cell.classList.contains("NA")) {
+          if (cell.style.textAlign == "right")
+            result += content.replaceAll(",", "").replaceAll(".", "");
+          else
+            result += content;
+        }
       }
     }
   }
