@@ -39,6 +39,7 @@ var activeShowAllOptionsParamName;
 var sortByName;
 var hintsDiv;
 var isHintsDivExpanded;
+var currentExportFormat;
 
 setGlobalChartOptions();
 navigate();
@@ -715,50 +716,56 @@ function renderTable(chartConfig, chartDiv, chartData) {
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
 
-  renderTableWikitextExportButton(chartDiv, table);
+  renderTableExportButton(chartDiv, table, "Wikitext");
 }
 
-function renderTableWikitextExportButton(chartDiv, table) {
+function renderTableExportButton(chartDiv, table, format) {
   const containerDivId = "tableExportContainer";
   const exportButton = document.createElement("A");
-  exportButton.appendChild(document.createTextNode("Wikitext"));
+  exportButton.appendChild(document.createTextNode(format));
   exportButton.classList.add("export");
-  exportButton.title = "Export table";
+  exportButton.title = "Export table as " + format;
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
     var containerDiv = document.getElementById(containerDivId);
-    if (containerDiv == null) {
+    if (containerDiv != null)
+      chartDiv.removeChild(containerDiv);
+    if (currentExportFormat != format) {
       containerDiv = document.createElement("DIV");
       containerDiv.id = containerDivId;
       const textarea = document.createElement("TEXTAREA");
       containerDiv.appendChild(textarea);
       const rows = table.childNodes;
-      var wikitext = "{| class=\"wikitable sortable\" style=\"text-align:right;\"\n";
-      for (var i = 0; i < rows.length; i++) {
-        wikitext += "|-\n";
-        const columns = rows[i].childNodes;
-        for (var j = 0; j < columns.length; j++) {
-          const cell = columns[j];
-          if (cell.tagName == "TH")
-            wikitext += "! ";
-          else {
-            wikitext += "| ";
-            if (cell.classList.contains("NA"))
-              wikitext += "style=\"text-align:center;\" | ";
-            else if (cell.style.textAlign != "right")
-              wikitext += "style=\"text-align:left;\" | ";
-          }
-          wikitext += cell.textContent;
-          wikitext += "\n";
-        }
-      }
-      wikitext += "|}";
-      textarea.value = wikitext;
+      textarea.value = generateWikitext(rows);
       chartDiv.appendChild(containerDiv);
-    } else
-      chartDiv.removeChild(containerDiv);
+      currentExportFormat = format;
+    }
   });
   chartDiv.appendChild(exportButton);
+}
+
+function generateWikitext(rows) {
+  var result = "{| class=\"wikitable sortable\" style=\"text-align:right;\"\n";
+  for (var i = 0; i < rows.length; i++) {
+    result += "|-\n";
+    const columns = rows[i].childNodes;
+    for (var j = 0; j < columns.length; j++) {
+      const cell = columns[j];
+      if (cell.tagName == "TH")
+        result += "! ";
+      else {
+        result += "| ";
+        if (cell.classList.contains("NA"))
+          result += "style=\"text-align:center;\" | ";
+        else if (cell.style.textAlign != "right")
+          result += "style=\"text-align:left;\" | ";
+      }
+      result += cell.textContent;
+      result += "\n";
+    }
+  }
+  result += "|}";
+  return result;
 }
 
 function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn) {
