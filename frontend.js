@@ -733,7 +733,7 @@ function renderTableWikitextExportButton(chartDiv, table) {
       const textarea = document.createElement("TEXTAREA");
       containerDiv.appendChild(textarea);
       const rows = table.childNodes;
-      var wikitext = "{| class=\"wikitable sortable\"\n";
+      var wikitext = "{| class=\"wikitable sortable\" style=\"text-align:right;\"\n";
       for (var i = 0; i < rows.length; i++) {
         wikitext += "|-\n";
         const columns = rows[i].childNodes;
@@ -741,12 +741,13 @@ function renderTableWikitextExportButton(chartDiv, table) {
           const cell = columns[j];
           if (cell.tagName == "TH")
             wikitext += "! ";
-          else
+          else {
             wikitext += "| ";
-          if (cell.classList.contains("NA"))
-            wikitext += "style=\"text-align:center;\" | ";
-          else if (cell.style.textAlign == "right")
-            wikitext += "style=\"text-align:right;\" | ";
+            if (cell.classList.contains("NA"))
+              wikitext += "style=\"text-align:center;\" | ";
+            else if (cell.style.textAlign != "right")
+              wikitext += "style=\"text-align:left;\" | ";
+          }
           wikitext += cell.textContent;
           wikitext += "\n";
         }
