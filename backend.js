@@ -83,7 +83,7 @@ var db = {
           dataset.data[key] = val;
       }
       dataset.year = parseInt(dateString.substr(0, 4));
-      dataset.month = 1 + (parseInt(dateString.substr(6, 1)) - 1) * 3;
+      dataset.month = this.quarterToMonth(parseInt(dateString.substr(6, 1)));
       for (var i = 0; i < 3; i++) {
         dataset.monthString = this.formatMonth(dataset.year, dataset.month);
         this.datasets.push(this.cloneObject(dataset));
@@ -176,6 +176,10 @@ var db = {
 
   monthToQuarter: function(month) {
     return Math.ceil(month / 3);
+  },
+
+  quarterToMonth: function(quarter) {
+    return 1 + (quarter - 1) * 3;
   },
 
   formatSeriesNameAndCategory: function(text) {
@@ -713,7 +717,7 @@ var db = {
         filterMonthLast = 12;
       } else if (chartConfig.timeSpan.startsWith("q")) {
         filterYearFirst = parseInt(chartConfig.timeSpan.substr(1, 4));
-        filterMonthFirst = 1 + (parseInt(chartConfig.timeSpan.substr(6, 1)) - 1) * 3;
+        filterMonthFirst = this.quarterToMonth(parseInt(chartConfig.timeSpan.substr(6, 1)));
         filterYearLast = filterYearFirst;
         filterMonthLast = filterMonthFirst + 2;
       } else if (chartConfig.timeSpan.startsWith("m")) {
