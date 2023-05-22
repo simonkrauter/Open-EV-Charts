@@ -740,6 +740,8 @@ var db = {
         if (chartConfig.timeSpan.endsWith("y")) {
           filterYearFirst = currentYear - quantity;
           filterMonthFirst = filterMonthLast + 1;
+          if (chartConfig.xProperty == this.xProperties.quarter)
+            filterMonthFirst = this.quarterToMonth(this.monthToQuarter(filterMonthFirst)); // round to quarter
           if (filterMonthFirst > 12) {
             filterYearFirst++;
             filterMonthFirst = filterMonthFirst - 12;
