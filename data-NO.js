@@ -41,8 +41,8 @@ db.insert(db.countries.NO, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 26
 , "Peugeot|iOn": 24
 , "Mitsubishi|i-MiEV": 19
-, "Ford|Focus Electric": 6
 , "Citroën|C-Zero": 6
+, "Ford|Focus Electric": 6
 , "other": 157
 });
 
@@ -80,8 +80,8 @@ db.insert(db.countries.NO, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 53
 , "Tesla|Model S": 42
 , "Tesla|Model X": 33
-, "Opel|Ampera-e": 15
 , "Kia|Soul EV": 15
+, "Opel|Ampera-e": 15
 , "Peugeot|iOn": 14
 , "Mitsubishi|i-MiEV": 10
 , "Citroën|C-Zero": 9
