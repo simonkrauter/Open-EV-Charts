@@ -53,7 +53,7 @@ db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 115
 , "Tesla|Model S": 96
 , "Volkswagen|e-up!": 93
-, "Mercedes-Benz|B-Klasse ED": 68
+, "Mercedes-Benz|B250e": 68
 , "Tesla|Model X": 55
 , "Peugeot|iOn": 54
 , "Hyundai|Ioniq Electric": 29
@@ -114,7 +114,7 @@ db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model S": 163
 , "Nissan|Leaf": 117
 , "Volkswagen|e-up!": 102
-, "Mercedes-Benz|B-Klasse ED": 61
+, "Mercedes-Benz|B250e": 61
 , "Tesla|Model X": 39
 , "Peugeot|iOn": 39
 , "Volkswagen|e-Golf": 29
@@ -178,7 +178,7 @@ db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 145
 , "Volkswagen|e-up!": 127
 , "Kia|Soul EV": 97
-, "Mercedes-Benz|B-Klasse ED": 85
+, "Mercedes-Benz|B250e": 85
 , "Volkswagen|e-Golf": 45
 , "Opel|Ampera-e": 40
 , "Peugeot|iOn": 29
@@ -237,7 +237,7 @@ db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 222
 , "Volkswagen|e-Golf": 128
 , "Tesla|Model S": 124
-, "Mercedes-Benz|B-Klasse ED": 123
+, "Mercedes-Benz|B250e": 123
 , "Tesla|Model X": 73
 , "Hyundai|Ioniq Electric": 73
 , "Volkswagen|e-up!": 69
@@ -302,7 +302,7 @@ db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 108
 , "Volkswagen|e-up!": 96
 , "Nissan|Leaf": 68
-, "Mercedes-Benz|B-Klasse ED": 46
+, "Mercedes-Benz|B250e": 46
 , "Smart|Fortwo ED": 34
 , "Citroën|C-Zero": 25
 , "Peugeot|iOn": 20
@@ -368,7 +368,7 @@ db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 81
 , "Hyundai|Ioniq Electric": 63
 , "Nissan|Leaf": 41
-, "Mercedes-Benz|B-Klasse ED": 33
+, "Mercedes-Benz|B250e": 33
 , "Citroën|C-Zero": 21
 , "Nissan|e-NV200": 15
 , "Peugeot|iOn": 10
@@ -430,7 +430,7 @@ db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 90
 , "Tesla|Model X": 78
 , "Nissan|Leaf": 44
-, "Mercedes-Benz|B-Klasse ED": 41
+, "Mercedes-Benz|B250e": 41
 , "Nissan|e-NV200": 25
 , "Smart|Forfour ED": 20
 , "Citroën|C-Zero": 20
@@ -494,7 +494,7 @@ db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 63
 , "Smart|Forfour ED": 52
 , "Hyundai|Ioniq Electric": 43
-, "Mercedes-Benz|B-Klasse ED": 29
+, "Mercedes-Benz|B250e": 29
 , "Nissan|e-NV200": 21
 , "Peugeot|iOn": 18
 , "Opel|Ampera-e": 14
@@ -558,7 +558,7 @@ db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 81
 , "Nissan|Leaf": 51
 , "Hyundai|Ioniq Electric": 47
-, "Mercedes-Benz|B-Klasse ED": 19
+, "Mercedes-Benz|B250e": 19
 , "Peugeot|iOn": 17
 , "Nissan|e-NV200": 16
 , "Opel|Ampera-e": 13
@@ -624,7 +624,7 @@ db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 47
 , "Opel|Ampera-e": 23
 , "Peugeot|iOn": 18
-, "Mercedes-Benz|B-Klasse ED": 10
+, "Mercedes-Benz|B250e": 10
 , "Nissan|e-NV200": 6
 , "Citroën|C-Zero": 6
 , "Mitsubishi|i-MiEV": 3
@@ -689,7 +689,7 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|e-NV200": 30
 , "Peugeot|iOn": 15
 , "Mini|Cooper SE Electric": 12
-, "Mercedes-Benz|B-Klasse ED": 7
+, "Mercedes-Benz|B250e": 7
 , "Citroën|C-Zero": 6
 , "Mitsubishi|i-MiEV": 5
 , "other": 57
@@ -751,7 +751,7 @@ db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Ampera-e": 56
 , "Nissan|Leaf": 51
 , "Mini|Cooper SE Electric": 39
-, "Mercedes-Benz|B-Klasse ED": 20
+, "Mercedes-Benz|B250e": 20
 , "Peugeot|iOn": 11
 , "Nissan|e-NV200": 9
 , "Citroën|C-Zero": 3
@@ -815,7 +815,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model X": 17
 , "Nissan|e-NV200": 15
 , "Nissan|Leaf": 11
-, "Mercedes-Benz|B-Klasse ED": 3
+, "Mercedes-Benz|B250e": 3
 , "Tesla|Model 3": 1
 , "other": 1
 });
@@ -874,7 +874,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 101
 , "Volkswagen|e-up!": 73
 , "Tesla|Model X": 51
-, "Mercedes-Benz|B-Klasse ED": 25
+, "Mercedes-Benz|B250e": 25
 , "Citroën|C-Zero": 7
 , "Nissan|e-NV200": 6
 , "Ford|Focus Electric": 5
@@ -936,7 +936,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 61
 , "Opel|Ampera-e": 57
 , "Ford|Focus Electric": 10
-, "Mercedes-Benz|B-Klasse ED": 10
+, "Mercedes-Benz|B250e": 10
 , "Peugeot|iOn": 9
 , "Citroën|C-Zero": 3
 , "Nissan|e-NV200": 1
@@ -1060,7 +1060,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 98
 , "Tesla|Model X": 88
 , "Volkswagen|e-up!": 76
-, "Mercedes-Benz|B-Klasse ED": 34
+, "Mercedes-Benz|B250e": 34
 , "Audi|other": 25
 , "Opel|Ampera-e": 23
 , "Nissan|e-NV200": 15
@@ -1128,7 +1128,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 39
 , "Nissan|e-NV200": 29
 , "Jaguar|I-Pace": 10
-, "Mercedes-Benz|B-Klasse ED": 8
+, "Mercedes-Benz|B250e": 8
 , "Citroën|C-Zero": 7
 , "Opel|Ampera-e": 7
 , "Kia|Niro EV": 2
