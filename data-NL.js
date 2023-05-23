@@ -57,7 +57,7 @@ db.insert(db.countries.NL, "2017-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 11
 , "Fiat|500e": 10
 , "Citroën|C-Zero": 8
-, "Mercedes-Benz|EQB": 7
+, "Mercedes-Benz|B250e": 7
 , "Volkswagen|e-up!": 7
 , "Peugeot|iOn": 5
 , "Opel|Ampera-e": 2
@@ -111,7 +111,7 @@ db.insert(db.countries.NL, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 79
 , "Nissan|Leaf": 67
 , "Tesla|Model X": 34
-, "Mercedes-Benz|EQB": 16
+, "Mercedes-Benz|B250e": 16
 , "Hyundai|Ioniq Electric": 14
 , "Volkswagen|e-up!": 14
 , "Fiat|500e": 11
@@ -175,7 +175,7 @@ db.insert(db.countries.NL, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 81
 , "Nissan|Leaf": 79
 , "Volkswagen|e-up!": 19
-, "Mercedes-Benz|EQB": 11
+, "Mercedes-Benz|B250e": 11
 , "Nissan|e-NV200": 10
 , "Fiat|500e": 7
 , "Volkswagen|e-Golf": 5
@@ -233,7 +233,7 @@ db.insert(db.countries.NL, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 34
 , "Volkswagen|e-Golf": 20
 , "Nissan|Leaf": 18
-, "Mercedes-Benz|EQB": 10
+, "Mercedes-Benz|B250e": 10
 , "Opel|Ampera-e": 10
 , "Volkswagen|e-up!": 10
 , "Fiat|500e": 9
