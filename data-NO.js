@@ -98,6 +98,7 @@ db.insert(db.countries.NO, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 410
 , "Nissan|Leaf": 273
 , "Opel|Ampera-e": 230
+, "Mercedes-Benz|B250e": 177
 , "Hyundai|Ioniq Electric": 152
 , "Tesla|Model X": 138
 , "Renault|Zoe": 108
@@ -108,7 +109,7 @@ db.insert(db.countries.NO, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 14
 , "Mitsubishi|i-MiEV": 8
 , "Ford|Focus Electric": 4
-, "other": 195
+, "other": 18
 });
 
 db.insert(db.countries.NO, "2017-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juni-1",
@@ -123,6 +124,7 @@ db.insert(db.countries.NO, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 389
 , "Nissan|Leaf": 384
 , "Tesla|Model S": 242
+, "Mercedes-Benz|B250e": 210
 , "Hyundai|Ioniq Electric": 182
 , "Kia|Soul EV": 82
 , "Volkswagen|e-up!": 61
@@ -132,7 +134,7 @@ db.insert(db.countries.NO, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 9
 , "Ford|Focus Electric": 3
 , "Smart|Forfour ED": 2
-, "other": 230
+, "other": 20
 });
 
 db.insert(db.countries.NO, "2017-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juli",
@@ -144,6 +146,7 @@ db.insert(db.countries.NO, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 277
 , "Renault|Zoe": 250
 , "Opel|Ampera-e": 200
+, "Mercedes-Benz|B250e": 157
 , "Volkswagen|e-Golf": 140
 , "Hyundai|Ioniq Electric": 135
 , "Tesla|Model X": 103
@@ -156,7 +159,7 @@ db.insert(db.countries.NO, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Citroën|C-Zero": 1
 , "Smart|Forfour ED": 1
-, "other": 171
+, "other": 14
 });
 
 db.insert(db.countries.NO, "2017-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-august",
@@ -167,6 +170,7 @@ db.insert(db.countries.NO, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 { "Volkswagen|e-Golf": 996
 , "BMW|i3 BEV": 390
 , "Nissan|Leaf": 264
+, "Mercedes-Benz|B250e": 231
 , "Hyundai|Ioniq Electric": 200
 , "Renault|Zoe": 141
 , "Kia|Soul EV": 106
@@ -180,7 +184,7 @@ db.insert(db.countries.NO, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 11
 , "Citroën|C-Zero": 4
 , "Smart|Forfour ED": 2
-, "other": 257
+, "other": 26
 });
 
 db.insert(db.countries.NO, "2017-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-september",
@@ -193,6 +197,7 @@ db.insert(db.countries.NO, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 949
 , "BMW|i3 BEV": 312
 , "Nissan|Leaf": 112
+, "Mercedes-Benz|B250e": 84
 , "Volkswagen|e-up!": 83
 , "Hyundai|Ioniq Electric": 76
 , "Kia|Soul EV": 58
@@ -203,7 +208,7 @@ db.insert(db.countries.NO, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 13
 , "Ford|Focus Electric": 11
 , "Smart|Forfour ED": 4
-, "other": 108
+, "other": 24
 });
 
 db.insert(db.countries.NO, "2017-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-oktober",
@@ -221,12 +226,13 @@ db.insert(db.countries.NO, "2017-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 57
 , "Mitsubishi|i-MiEV": 37
 , "Opel|Ampera-e": 35
+, "Mercedes-Benz|B250e": 22
 , "Renault|Zoe": 18
 , "Smart|Fortwo ED": 18
 , "Smart|Forfour ED": 15
 , "Ford|Focus Electric": 2
 , "Peugeot|iOn": 1
-, "other": 39
+, "other": 17
 });
 
 db.insert(db.countries.NO, "2017-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-november",
@@ -247,9 +253,10 @@ db.insert(db.countries.NO, "2017-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 42
 , "Smart|Fortwo ED": 18
 , "Smart|Forfour ED": 13
+, "Mercedes-Benz|B250e": 4
 , "Peugeot|iOn": 3
 , "Ford|Focus Electric": 2
-, "other": 15
+, "other": 11
 });
 
 db.insert(db.countries.NO, "2017-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-desember",
@@ -269,9 +276,10 @@ db.insert(db.countries.NO, "2017-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 44
 , "Smart|Fortwo ED": 15
 , "Mitsubishi|i-MiEV": 6
+, "Mercedes-Benz|B250e": 2
 , "Smart|Forfour ED": 2
 , "Ford|Focus Electric": 1
-, "other": 25
+, "other": 23
 });
 
 db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar",
@@ -310,11 +318,12 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 43
 , "Opel|Ampera-e": 28
 , "Smart|Fortwo ED": 12
+, "Mercedes-Benz|B250e": 3
 , "Ford|Focus Electric": 2
 , "Peugeot|iOn": 2
 , "Smart|Forfour ED": 2
 , "Mitsubishi|i-MiEV": 1
-, "other": 26
+, "other": 23
 });
 
 db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar",
@@ -356,9 +365,10 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 15
 , "Smart|Fortwo ED": 10
 , "Citroën|C-Zero": 4
+, "Mercedes-Benz|B250e": 1
 , "Mitsubishi|i-MiEV": 1
 , "Smart|Forfour ED": 1
-, "other": 9
+, "other": 8
 });
 
 db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars",
@@ -402,7 +412,8 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 10
 , "Smart|Forfour ED": 5
 , "Chevrolet|Bolt": 3
-, "other": 17
+, "Mercedes-Benz|B250e": 1
+, "other": 16
 });
 
 db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april",
@@ -633,7 +644,8 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 6
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 1
-, "other": 128
+, "JAC|iEV7 S/E": 1
+, "other": 127
 });
 
 db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2018",
@@ -680,7 +692,8 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Focus Electric": 12
 , "Smart|Fortwo ED": 12
 , "Chevrolet|Bolt": 3
-, "other": 81
+, "Mercedes-Benz|B250e": 1
+, "other": 80
 });
 
 db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2018",
