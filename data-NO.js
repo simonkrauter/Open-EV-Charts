@@ -18,11 +18,12 @@ db.insert(db.countries.NO, "2017-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 129
 , "Kia|Soul EV": 85
 , "Volkswagen|e-up!": 77
+, "Mercedes-Benz|B250e": 70
 , "Mitsubishi|i-MiEV": 30
 , "Peugeot|iOn": 20
 , "Citroën|C-Zero": 6
 , "Ford|Focus Electric": 2
-, "other": 93
+, "other": 23
 });
 
 db.insert(db.countries.NO, "2017-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-februar-1",
@@ -34,6 +35,7 @@ db.insert(db.countries.NO, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 408
 , "Renault|Zoe": 279
 , "Volkswagen|e-Golf": 224
+, "Mercedes-Benz|B250e": 129
 , "Volkswagen|e-up!": 66
 , "Tesla|Model S": 55
 , "Kia|Soul EV": 54
@@ -43,7 +45,7 @@ db.insert(db.countries.NO, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 19
 , "Citroën|C-Zero": 6
 , "Ford|Focus Electric": 6
-, "other": 157
+, "other": 28
 });
 
 db.insert(db.countries.NO, "2017-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mars-1",
@@ -57,6 +59,7 @@ db.insert(db.countries.NO, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 322
 , "Tesla|Model S": 297
 , "Volkswagen|e-Golf": 247
+, "Mercedes-Benz|B250e": 217
 , "Hyundai|Ioniq Electric": 215
 , "Volkswagen|e-up!": 66
 , "Kia|Soul EV": 47
@@ -64,7 +67,7 @@ db.insert(db.countries.NO, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 22
 , "Citroën|C-Zero": 6
 , "Ford|Focus Electric": 4
-, "other": 237
+, "other": 20
 });
 
 db.insert(db.countries.NO, "2017-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-april-1",
@@ -75,6 +78,7 @@ db.insert(db.countries.NO, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 { "BMW|i3 BEV": 426
 , "Volkswagen|e-Golf": 409
 , "Nissan|Leaf": 287
+, "Mercedes-Benz|B250e": 141
 , "Hyundai|Ioniq Electric": 138
 , "Renault|Zoe": 74
 , "Volkswagen|e-up!": 53
@@ -86,7 +90,7 @@ db.insert(db.countries.NO, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 10
 , "Citroën|C-Zero": 9
 , "Ford|Focus Electric": 5
-, "other": 157
+, "other": 16
 });
 
 db.insert(db.countries.NO, "2017-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mai-1",
