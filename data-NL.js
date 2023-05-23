@@ -289,7 +289,7 @@ db.insert(db.countries.NL, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 48
 , "Nissan|Leaf": 26
 , "Volkswagen|e-up!": 9
-, "Mercedes-Benz|EQB": 8
+, "Mercedes-Benz|B250e": 8
 , "Fiat|500e": 5
 , "Nissan|e-NV200": 4
 , "Chevrolet|Bolt": 2
@@ -355,7 +355,7 @@ db.insert(db.countries.NL, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 10
 , "Fiat|500e": 9
 , "Citroën|C-Zero": 7
-, "Mercedes-Benz|EQB": 7
+, "Mercedes-Benz|B250e": 7
 , "Nissan|e-NV200": 2
 , "Citroën|E-Mehari": 1
 , "Opel|Ampera-e": 1
@@ -413,7 +413,7 @@ db.insert(db.countries.NL, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 39
 , "Opel|Ampera-e": 21
 , "Fiat|500e": 12
-, "Mercedes-Benz|EQB": 12
+, "Mercedes-Benz|B250e": 12
 , "Citroën|C-Zero": 6
 , "Kia|Soul EV": 5
 , "Volkswagen|e-up!": 5
@@ -475,7 +475,7 @@ db.insert(db.countries.NL, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 4
-, "Mercedes-Benz|EQB": 4
+, "Mercedes-Benz|B250e": 4
 , "Peugeot|iOn": 4
 , "Smart|Fortwo ED": 4
 , "Volkswagen|e-up!": 4
@@ -540,7 +540,7 @@ db.insert(db.countries.NL, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 5
 , "Fiat|500e": 4
 , "Chevrolet|Bolt": 2
-, "Mercedes-Benz|EQB": 2
+, "Mercedes-Benz|B250e": 2
 , "Peugeot|iOn": 2
 , "Citroën|Berlingo Electric": 1
 , "Peugeot|Partner Electric": 1
@@ -721,7 +721,7 @@ db.insert(db.countries.NL, "2017-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 1
 , "Kia|Soul EV": 1
-, "Mercedes-Benz|EQB": 1
+, "Mercedes-Benz|B250e": 1
 , "other": 16
 });
 
@@ -780,8 +780,8 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 7
 , "Kia|Soul EV": 7
 , "Citroën|Berlingo Electric": 2
+, "Mercedes-Benz|B250e": 2
 , "Peugeot|iOn": 1
-, "other": 2
 });
 
 db.insert(db.countries.NL, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/februari/",
@@ -898,7 +898,7 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Peugeot|iOn": 2
 , "Volkswagen|e-up!": 2
-, "other": 1
+, "Mercedes-Benz|B250e": 1
 });
 
 db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/april/",
@@ -955,8 +955,9 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 2
 , "Citroën|Berlingo Electric": 1
 , "Citroën|C-Zero": 1
+, "Mercedes-Benz|B250e": 1
 , "Peugeot|Partner Electric": 1
-, "other": 10
+, "other": 9
 });
 
 db.insert(db.countries.NL, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2018/mei/",
