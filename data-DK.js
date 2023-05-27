@@ -1797,7 +1797,7 @@ db.insert(db.countries.DK, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.DK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf TODO: numbers per brand wanted",
-{ "other": 17960
+{ "other": 12066
 });
 
 db.insert(db.countries.DK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/4",
