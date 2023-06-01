@@ -666,7 +666,7 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Buick|Velite 6": 792
 , "MG|MG5 EV": 168
 , "MG|ZS EV": 1016
-, "BYD|Song Pro EV": 1086
+, "BYD|Song EV": 1086
 , "other": 24988
 });
 
@@ -690,7 +690,7 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|ZS EV": 1752
 , "Buick|Velite 6": 521
 , "MG|MG5 EV": 410
-, "BYD|Song Pro EV": 1198
+, "BYD|Song EV": 1198
 , "other": 27148
 });
 
@@ -713,7 +713,7 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 1557
 , "MG|ZS EV": 1927
 , "Buick|Velite 6": 304
-, "BYD|Song Pro EV": 849
+, "BYD|Song EV": 849
 , "MG|MG5 EV": 23
 , "other": 30506
 });
@@ -1146,7 +1146,7 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Ora|Good Cat": 4066
 , "Chery|eQ1": 3735
 , "Volkswagen|ID.4": 3731
-, "BYD|Song Pro EV": 3699
+, "BYD|Song EV": 3699
 , "Xpeng|P7": 3537
 , "other": 104167
 });
@@ -1192,7 +1192,7 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Hozon|Neta V": 5694
 , "Aion|Y": 5261
 , "BYD|Yuan Pro": 5068
-, "BYD|Song Pro EV": 4927
+, "BYD|Song EV": 4927
 , "Dongfeng|E-Series": 4306
 , "Xpeng|P7": 3714
 , "Xpeng|P5": 3564
@@ -1408,7 +1408,7 @@ db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin Pro EV": 8434
 , "Tesla|Model 3": 8397
 , "BYD|Seal": 7754
-, "BYD|Song Pro EV": 7222
+, "BYD|Song EV": 7222
 , "Geely|Panda Mini EV": 6661
 , "Nio|ET5": 6471
 , "BYD|Han EV": 5622
@@ -1425,7 +1425,7 @@ db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "http://en.caam
 db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/",
 { "Tesla|Model Y": 54937
 , "BYD|Qin Pro EV": 40215
-, "BYD|Song Pro EV": 40114
+, "BYD|Song EV": 40114
 , "BYD|Yuan Plus": 27907
 , "BYD|Dolphin": 27687
 , "Aion|S": 26392
@@ -1461,7 +1461,7 @@ db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin Plus EV": 8718
 , "Changan|Lumin": 7759
 , "Ora|Good Cat": 7097
-, "BYD|Song Pro EV": 4600
+, "BYD|Song EV": 4600
 , "Changan|Shenlan SL03": 1528
 , "Denza|D9 EV": 1010
 , "BYD|Tang EV": 776
