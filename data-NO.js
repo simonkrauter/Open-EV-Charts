@@ -4043,7 +4043,7 @@ db.insert(db.countries.NO, "2023-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 218
 });
 
-db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/2 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2023",
 { "Tesla|Model Y": 1269
 , "Toyota|bZ4X": 543
 , "Volkswagen|ID.3": 530
@@ -4198,7 +4198,7 @@ db.insert(db.countries.NO, "2023-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 375
 });
 
-db.insert(db.countries.NO, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/4 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2023",
 { "Tesla|Model Y": 918
 , "Volkswagen|ID.4": 581
 , "Volvo|XC40 Recharge pure electric": 429
@@ -4276,7 +4276,7 @@ db.insert(db.countries.NO, "2023-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "other": 475
 });
 
-db.insert(db.countries.NO, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/5 (includes commercial vehicles)",
+db.insert(db.countries.NO, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2023",
 { "Tesla|Model Y": 2688
 , "Volkswagen|ID.4": 705
 , "BMW|iX1": 550
