@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("FR", "France");
-
 // https://ccfa.fr/immatriculations-commandes/
 // https://www.avere-france.org/publications/?publication-type%5B%5D=barometres-immatriculations
 

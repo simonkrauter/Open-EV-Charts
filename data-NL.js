@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("NL", "Netherlands");
-
 db.insert(db.countries.NL, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2017/januari/",
 { "Volkswagen": 8464
 , "Opel": 3996

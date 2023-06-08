@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("UK", "United Kingdom");
-
 // source: https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files
 
 db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",

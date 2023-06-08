@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("ES", "Spain");
-
 db.insert(db.countries.ES, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosenerotur.asp, https://www.km77.com/mercado/espana/2018/datosenerott.asp",
 { "Volkswagen": 8909
 , "Seat": 8540

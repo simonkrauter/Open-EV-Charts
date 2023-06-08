@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("DE", "Germany");
-
 db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=17",
 { "Volkswagen": 49535
 , "Mercedes-Benz": 24372

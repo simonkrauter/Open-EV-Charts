@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("AT", "Austria");
-
 // https://www.statistik.at/statistiken/tourismus-und-verkehr/fahrzeuge/kfz-neuzulassungen
 
 db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",

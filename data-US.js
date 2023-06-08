@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("US", "United States");
-
 db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
 { "Ford": 574332
 , "Toyota": 514289

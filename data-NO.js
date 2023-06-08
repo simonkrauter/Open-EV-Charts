@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("NO", "Norway");
-
 db.insert(db.countries.NO, "2017-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-januar-1",
 { "other": 13055
 });

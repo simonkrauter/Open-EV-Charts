@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("CH", "Switzerland");
-
 // https://www.auto.swiss/#statistics
 
 db.insert(db.countries.CH, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Marken/auto-schweiz_PW_2018_1.xlsx",

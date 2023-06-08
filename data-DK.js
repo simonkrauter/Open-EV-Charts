@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("DK", "Denmark");
-
 db.insert(db.countries.DK, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf TODO: numbers per brand wanted",
 { "other": 18671
 });

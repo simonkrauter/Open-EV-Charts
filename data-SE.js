@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("SE", "Sweden");
-
 db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volvo": 4744
 , "Volkswagen": 3436

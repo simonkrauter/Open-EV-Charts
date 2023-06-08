@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("IT", "Italy");
-
 // http://www.unrae.it/dati-statistici/immatricolazioni
 
 db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20gennaio%202020_UNRAE_marca_5e384c4443c01.pdf",

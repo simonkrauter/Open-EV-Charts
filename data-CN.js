@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("CN", "China");
-
 db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#jan TODO: numbers per brand wanted",
 { "other": 2456200
 });

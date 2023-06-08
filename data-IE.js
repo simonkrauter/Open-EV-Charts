@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("IE", "Ireland");
-
 db.insert(db.countries.IE, "2018-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
 { "Toyota": 4380
 , "Hyundai": 3925

@@ -67,11 +67,6 @@ var db = {
     }
   },
 
-  addCountry: function(code, name) {
-    // Adds a country to the list of countries with data
-    this.countriesWithData.push(this.countries[code]);
-  },
-
   insert: function(country, dateString, dsType, source, data) {
     // Adds the data for one counry and one month or one quarter and one dataset type.
     // - country:     country enum value
@@ -81,6 +76,9 @@ var db = {
     // - data:        number of sales or
     //                object of brand -> number of sales or
     //                object of model -> number of sales
+
+    if (!this.countriesWithData.includes(country))
+      this.countriesWithData.push(country);
 
     if (dateString.substr(5, 1) == 'Q') {
       var dataset =

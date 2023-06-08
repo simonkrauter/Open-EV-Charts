@@ -2,8 +2,6 @@
 
 "use strict";
 
-db.addCountry("FI", "Finland");
-
 // https://www.aut.fi/en/statistics/new_registrations/monthly
 // https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars
 
