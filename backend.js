@@ -697,7 +697,7 @@ var db = {
       if (!isSingleChart && chartConfig.unfoldedByParam != param.name)
         continue;
       if (title != "")
-        title = title + " - ";
+        title = title + " – ";
       title = title + param.options[value];
     }
     return title;
