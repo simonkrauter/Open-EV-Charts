@@ -2,6 +2,45 @@
 
 "use strict";
 
+const countryNamesByCode =
+// Regular countries:
+{ "AR": "Argentina"
+, "AT": "Austria"
+, "AU": "Australia"
+, "BR": "Brazil"
+, "CA": "Canada"
+, "CH": "Switzerland"
+, "CN": "China"
+, "CZ": "Czech Republic"
+, "DE": "Germany"
+, "DK": "Denmark"
+, "ES": "Spain"
+, "FI": "Finland"
+, "FR": "France"
+, "ID": "Indonesia"
+, "IE": "Ireland"
+, "IN": "India"
+, "IT": "Italy"
+, "JP": "Japan"
+, "KR": "South Korea"
+, "MX": "Mexico"
+, "NL": "Netherlands"
+, "NO": "Norway"
+, "RO": "Romania"
+, "RU": "Russia"
+, "SA": "Saudi Arabia"
+, "SE": "Sweden"
+, "TR": "Turkey"
+, "UK": "United Kingdom"
+, "US": "United States"
+, "ZA": "South Africa"
+// Mixed countries:
+, "EU": "Europe"
+, "CN/DE": "China / Germany"
+, "US/EU": "United States / Europe"
+, "JP/EU": "Japan / Europe"
+};
+
 const colorSet =
 [ "#E83835"
 , "#1469AA"

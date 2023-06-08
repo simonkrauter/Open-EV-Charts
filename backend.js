@@ -19,6 +19,9 @@ var db = {
   countryNamesReverse: {},
   // Name => ID
 
+  countriesWithData: [],
+  // List of IDs
+
   dsTypes:
   { "AllCarsByBrand": 1
   , "ElectricCarsByModel": 2
@@ -51,12 +54,22 @@ var db = {
   // All car models used in the datasets.
   // Format: e.g. "Tesla|Model 3"
 
+  initialize: function() {
+    // fill country variables
+    var id = 0;
+    for (const code in countryNamesByCode) {
+      const name = countryNamesByCode[code];
+      this.countries[code] = id;
+      this.countriesCodes[id] = code;
+      this.countryNames[id] = name;
+      this.countryNamesReverse[name] = id;
+      id++;
+    }
+  },
+
   addCountry: function(code, name) {
-    const id = Object.keys(this.countries).length + 1;
-    this.countries[code] = id;
-    this.countriesCodes[id] = code;
-    this.countryNames[id] = name;
-    this.countryNamesReverse[name] = id;
+    // Adds a country to the list of countries with data
+    this.countriesWithData.push(this.countries[code]);
   },
 
   insert: function(country, dateString, dsType, source, data) {
@@ -299,8 +312,10 @@ var db = {
       param.options[this.countryOptions.all] = "All Countries";
     if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand))
       param.options[this.countryOptions.combine] = "Combine Countries";
-    for (const code in this.countries)
-      param.options[code] = this.countryNames[this.countries[code]];
+    for (const i in this.countriesWithData) {
+      const id = this.countriesWithData[i];
+      param.options[db.countriesCodes[id]] = this.countryNames[id];
+    }
     param.unfoldKey = this.countryOptions.all;
     param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
     param.noMultiSelectOptions = [this.countryOptions.all];
@@ -584,7 +599,7 @@ var db = {
       chartConfig.model = this.modelOptions.combine;
 
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
-      chartConfig.country = Object.keys(this.countries)[0];
+      chartConfig.country = db.countriesCodes[this.countriesWithData[0]];
 
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
       chartConfig.xProperty = params.xProperty.defaultOption;
@@ -694,8 +709,10 @@ var db = {
     var filterCountryIds = [];
     if (chartConfig.country != this.countryOptions.all) {
       for (const i in countryValues) {
-        if (this.countries[countryValues[i]])
-          filterCountryIds.push(this.countries[countryValues[i]]);
+        const code = countryValues[i];
+        const id = this.countries[code]
+        if (id && db.countriesWithData.includes(id))
+          filterCountryIds.push(id);
       }
     }
 
@@ -1059,7 +1076,7 @@ var db = {
   getNumberOfSeries: function(chartConfig) {
     if (chartConfig.xProperty != this.xProperties.country) {
       if (chartConfig.country == this.countryOptions.all) {
-        return Object.keys(this.countries).length;
+        return this.countriesWithData.length;
       } else if (chartConfig.country != null) {
         const countryValues = chartConfig.country.split(",");
         if (countryValues.length > 1 && !countryValues.includes(this.countryOptions.combine)) {
@@ -1297,3 +1314,5 @@ var db = {
     return result;
   }
 };
+
+db.initialize();
