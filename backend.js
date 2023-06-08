@@ -170,7 +170,7 @@ var db = {
   },
 
   getValue: function(value, defaultValue) {
-    if (typeof(value) == "undefined")
+    if (value === undefined)
       return defaultValue;
     return value;
   },

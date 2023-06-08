@@ -45,7 +45,7 @@ setGlobalChartOptions();
 navigate();
 
 function navigate(retainShowAllOptionsParamName) {
-  if (typeof(retainShowAllOptionsParamName) == "undefined" || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
+  if (retainShowAllOptionsParamName === undefined || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
   chartSetConfig = getChartConfigFromUrl();
