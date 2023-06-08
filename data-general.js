@@ -2,7 +2,7 @@
 
 "use strict";
 
-var colorSet =
+const colorSet =
 [ "#E83835"
 , "#1469AA"
 , "#43A047"
@@ -25,7 +25,7 @@ var colorSet =
 , "#FFBB68"
 ];
 
-var colorIndexByBrand =
+const colorIndexByBrand =
 { "Tesla": 0
 , "Nissan": 7
 , "Chevrolet": 5
@@ -42,7 +42,7 @@ var colorIndexByBrand =
 };
 
 // Company goups, sorted by all car sales
-var companyGroups = {
+const companyGroups = {
   "Stellantis":
     [ "Abarth"
     , "Alfa Romeo"
