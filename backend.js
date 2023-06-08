@@ -77,7 +77,7 @@ var db = {
       , source: source
       , data: {}
       };
-      for (var key in data) {
+      for (const key in data) {
         const val = Math.round(data[key] / 3);
         if (val > 0)
           dataset.data[key] = val;

@@ -677,10 +677,10 @@ function getChartSeriesColors(chartConfig, chartData) {
       usedIndexes.push(colorIndexByBrand[i]);
   }
   var unusedColors = [];
-  for (var i in colorSet) {
-    i = parseInt(i);
-    if (!usedIndexes.includes(i))
-      unusedColors.push(colorSet[i]);
+  for (const iStr in colorSet) {
+    const iInt = parseInt(iStr);
+    if (!usedIndexes.includes(iInt))
+      unusedColors.push(colorSet[iInt]);
   }
   var nextUnusedIndex = 0;
   for (const i in chartData.series) {
