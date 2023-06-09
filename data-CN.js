@@ -783,7 +783,7 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 2741
 , "Xpeng|P7": 2732
 , "BYD|e2": 2670
-, "FAW|Hongqi E-HS3": 2552
+, "Hongqi|E-HS3": 2552
 , "Nio|ES6": 2386
 , "other": 45505
 });
