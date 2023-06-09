@@ -832,7 +832,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     row.appendChild(cell);
   }
 
-  const maxBarWidth = Math.min(300, window.innerWidth - 180);
+  const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
 
   // Table body
   for (const i in chartData.categories) {
@@ -914,6 +914,7 @@ function renderTableTransposed(chartConfig, table, chartData) {
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   const cell = document.createElement("TD");
+  cell.style.maxWidth = Math.max(100, window.innerWidth - 170) + "px";
   if (["Country", "Brand", "Model"].includes(columnTitle) && text.toLowerCase() != "other") {
     var newChartConfig = db.cloneObject(chartConfig);
     const textParts = text.split("|", 2);

@@ -329,6 +329,8 @@ th {
 
 td {
   text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 tr:hover {
