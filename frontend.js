@@ -913,39 +913,39 @@ function renderTableTransposed(chartConfig, table, chartData) {
 }
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
-    const cell = document.createElement("TD");
-    if (["Country", "Brand", "Model"].includes(columnTitle) && text.toLowerCase() != "other") {
-      var newChartConfig = db.cloneObject(chartConfig);
-      const textParts = text.split("|", 2);
-      if (textParts.length > 1) {
-        newChartConfig.brand = textParts[0];
-        newChartConfig.model = textParts[1];
-      } else {
-        const countryId = db.countryNamesReverse[text];
-        if (countryId != null) {
-          newChartConfig.country = db.countriesCodes[countryId];
-        } else {
-          newChartConfig.model = text;
-        }
-      }
-      if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
-        newChartConfig.xProperty = "";
-        newChartConfig.timeSpan = "";
-      }
-      newChartConfig.view = null;
-      db.applyNewDefaultOptions(newChartConfig, chartConfig);
-      const a = document.createElement("A");
-      a.href = "#" + db.encodeChartConfig(newChartConfig);
-      a.addEventListener("click", function(event) {
-        event.preventDefault();
-        navigateToChartConfig(newChartConfig);
-      });
-      a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
-      cell.appendChild(a);
+  const cell = document.createElement("TD");
+  if (["Country", "Brand", "Model"].includes(columnTitle) && text.toLowerCase() != "other") {
+    var newChartConfig = db.cloneObject(chartConfig);
+    const textParts = text.split("|", 2);
+    if (textParts.length > 1) {
+      newChartConfig.brand = textParts[0];
+      newChartConfig.model = textParts[1];
     } else {
-      cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+      const countryId = db.countryNamesReverse[text];
+      if (countryId != null) {
+        newChartConfig.country = db.countriesCodes[countryId];
+      } else {
+        newChartConfig.model = text;
+      }
     }
-    row.appendChild(cell);
+    if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
+      newChartConfig.xProperty = "";
+      newChartConfig.timeSpan = "";
+    }
+    newChartConfig.view = null;
+    db.applyNewDefaultOptions(newChartConfig, chartConfig);
+    const a = document.createElement("A");
+    a.href = "#" + db.encodeChartConfig(newChartConfig);
+    a.addEventListener("click", function(event) {
+      event.preventDefault();
+      navigateToChartConfig(newChartConfig);
+    });
+    a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+    cell.appendChild(a);
+  } else {
+    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+  }
+  row.appendChild(cell);
 }
 
 function renderTableValueCell(chartConfig, row, val) {
