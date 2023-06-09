@@ -694,9 +694,17 @@ var db = {
         continue;
       if (!isSingleChart && chartConfig.unfoldedByParam != param.name)
         continue;
-      if (title != "")
-        title = title + " – ";
-      title = title + param.options[value];
+      if (param.name == "country") {
+        // Prepend the country
+        if (title != "")
+          title = " – " + title;
+        title = param.options[value] + title;
+      } else {
+        // Append other parameters
+        if (title != "")
+          title = title + " – ";
+        title = title + param.options[value];
+      }
     }
     return title;
   },
