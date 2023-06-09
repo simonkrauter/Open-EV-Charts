@@ -313,7 +313,16 @@ function renderChartTitle(chartDiv, chartConfig) {
   }
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
-  titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
+
+  const span = document.createElement("SPAN");
+  span.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
+  if (db.isMultiCountry(chartConfig)) {
+    titleElem.appendChild(span);
+  } else {
+    const flagContainer = createCountryFlagContainer(chartConfig.country);
+    titleElem.appendChild(flagContainer);
+    flagContainer.appendChild(span);
+  }
 
   if (!isSingleChart) {
     var removeButton = createRemoveButton();
@@ -915,38 +924,62 @@ function renderTableTransposed(chartConfig, table, chartData) {
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   const cell = document.createElement("TD");
   cell.style.maxWidth = Math.max(100, window.innerWidth - 170) + "px";
-  if (["Country", "Brand", "Model"].includes(columnTitle) && text.toLowerCase() != "other") {
-    var newChartConfig = db.cloneObject(chartConfig);
-    const textParts = text.split("|", 2);
-    if (textParts.length > 1) {
-      newChartConfig.brand = textParts[0];
-      newChartConfig.model = textParts[1];
-    } else {
-      const countryId = db.countryNamesReverse[text];
-      if (countryId != null) {
-        newChartConfig.country = db.countriesCodes[countryId];
-      } else {
-        newChartConfig.model = text;
-      }
-    }
-    if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
-      newChartConfig.xProperty = "";
-      newChartConfig.timeSpan = "";
-    }
-    newChartConfig.view = null;
-    db.applyNewDefaultOptions(newChartConfig, chartConfig);
-    const a = document.createElement("A");
-    a.href = "#" + db.encodeChartConfig(newChartConfig);
-    a.addEventListener("click", function(event) {
-      event.preventDefault();
-      navigateToChartConfig(newChartConfig);
-    });
-    a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
-    cell.appendChild(a);
-  } else {
-    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
-  }
   row.appendChild(cell);
+  var addFlag = false;
+  var countryCode;
+  if (columnTitle == "Country") {
+    addFlag = true;
+    const countryId = db.countryNamesReverse[text];
+    countryCode = db.countriesCodes[countryId];
+  } else if (columnTitle == "Company" || columnTitle == "Brand") {
+    addFlag = true;
+    countryCode = getCountryCodeForCompany(text);
+  } else if (columnTitle == "Model") {
+    addFlag = true;
+    const parts = text.split("|", 2);
+    const brand = parts[0];
+    countryCode = getCountryCodeForCompany(brand);
+  }
+  if (addFlag) {
+    const flagContainer = createCountryFlagContainer(countryCode, true);
+    cell.appendChild(flagContainer);
+    if (text.toLowerCase() != "other") {
+      // add text as link
+      var newChartConfig = db.cloneObject(chartConfig);
+      const textParts = text.split("|", 2);
+      if (textParts.length > 1) {
+        newChartConfig.brand = textParts[0];
+        newChartConfig.model = textParts[1];
+      } else {
+        const countryId = db.countryNamesReverse[text];
+        if (countryId != null) {
+          newChartConfig.country = db.countriesCodes[countryId];
+        } else {
+          newChartConfig.model = text;
+        }
+      }
+      if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
+        newChartConfig.xProperty = "";
+        newChartConfig.timeSpan = "";
+      }
+      newChartConfig.view = null;
+      db.applyNewDefaultOptions(newChartConfig, chartConfig);
+      const a = document.createElement("A");
+      a.href = "#" + db.encodeChartConfig(newChartConfig);
+      a.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigateToChartConfig(newChartConfig);
+      });
+      a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+      flagContainer.appendChild(a);
+    } else {
+      // add text without link
+      const span = document.createElement("SPAN");
+      span.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+      flagContainer.appendChild(span);
+    }
+  } else
+    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
 }
 
 function renderTableValueCell(chartConfig, row, val) {
@@ -1017,4 +1050,48 @@ function renderSources(chartConfig, chartDiv, chartData) {
       }
     }
   }
+}
+
+function getCountryCodeForCompany(companyOrBrand) {
+  var countryCode = brandCountries[companyOrBrand];
+  if (countryCode === undefined) {
+    countryCode = companyGroupCountries[companyOrBrand];
+    if (countryCode === undefined) {
+      const company = db.companiesByBrand[companyOrBrand];
+      if (company)
+        countryCode = companyGroupCountries[company];
+    }
+  }
+  return countryCode;
+}
+
+function createCountryFlagContainer(countryCode, inTable = false) {
+  const countryFlagWidth = 24;
+  const countryFlagHeight = 16;
+  const countryFlagSpriteColumns = 5;
+
+  // create container
+  const flagContainer = document.createElement("SPAN");
+  flagContainer.classList.add("flagContainer");
+  const flag = document.createElement("SPAN");
+  if (countryCode || inTable) {
+    flag.style.width = countryFlagWidth + "px";
+    flag.style.height = countryFlagHeight + "px";
+    flag.style.marginTop = -countryFlagHeight / 2 + "px"; // vertical aligment
+  }
+  flagContainer.appendChild(flag);
+
+  // add flag
+  const countryId = db.countries[countryCode];
+  if (countryCode && countryId) {
+    flag.classList.add("nonEmpty");
+    flag.title = countryNamesByCode[countryCode];
+    const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;
+    const backgroundYPos = Math.floor(countryId / countryFlagSpriteColumns) * -countryFlagHeight;
+    flag.style.backgroundImage = "url('country-flags.png')";
+    flag.style.backgroundPosition = backgroundXPos + "px " + backgroundYPos + "px";
+    flag.style.backgroundSize = countryFlagSpriteColumns * 100 + "%";
+  }
+
+  return flagContainer;
 }

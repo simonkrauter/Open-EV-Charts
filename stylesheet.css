@@ -371,3 +371,18 @@ a.pngExport {
   font-size: 110%;
   padding-top: 5px;
 }
+
+span.flagContainer {
+  position: relative;
+}
+span.flagContainer > *:first-child {
+  position: absolute;
+  top: 50%; /* vertical aligment */
+}
+span.flagContainer > *:nth-child(2) {
+  display: inline-block;
+  margin-left: 29px; /* width of flag plus spacing */
+}
+span.flagContainer > .nonEmpty:first-child {
+  outline: 1px solid #DEDEDE;
+}
