@@ -169,5 +169,9 @@ const companyGroups = {
   "BYD Auto":
     [ "BYD"
     , "Denza"
+    ],
+  "FAW Group":
+    [ "Besturn"
+    , "Hongqi"
     ]
 };
