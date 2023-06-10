@@ -4009,3 +4009,90 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 2
 , "other": 39
 });
+
+db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2767/May_2023.xlsx",
+{ "Toyota": 1707
+, "Volkswagen": 1047
+, "Škoda": 1045
+, "Volvo": 852
+, "Kia": 564
+, "Mercedes-Benz": 549
+, "Tesla": 532
+, "BMW": 521
+, "Audi": 441
+, "Opel": 319
+, "Ford": 221
+, "Nissan": 214
+, "Hyundai": 192
+, "Peugeot": 142
+, "Citroën": 130
+, "Polestar": 114
+, "Mazda": 99
+, "Renault": 94
+, "Suzuki": 76
+, "Dacia": 75
+, "Land Rover": 56
+, "Mitsubishi": 55
+, "Lexus": 46
+, "Cupra": 39
+, "Seat": 28
+, "Porsche": 19
+, "Mini": 17
+, "Subaru": 14
+, "Honda": 13
+, "Fiat": 3
+, "other": 211
+});
+
+db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model Y": 443
+, "Škoda|Enyaq": 348
+, "Volkswagen|ID.4": 244
+, "BMW|i4": 205
+, "Volvo|XC40 Recharge pure electric": 197
+, "Audi|Q4 e-tron": 187
+, "Volvo|C40 Recharge": 168
+, "Toyota|bZ4X": 142
+, "Opel|Mokka-e": 129
+, "Volkswagen|ID.3": 126
+, "Polestar|2": 114
+, "Hyundai|Kona Electric": 87
+, "Nissan|Ariya": 80
+, "Citroën|ë-C4": 72
+, "Mercedes-Benz|EQE": 67
+, "Audi|Q8 e-tron": 49
+, "Mercedes-Benz|EQA": 45
+, "Tesla|Model 3": 43
+, "Nissan|Leaf": 40
+, "Volkswagen|ID.5": 39
+, "Tesla|Model S": 38
+, "Peugeot|e-208": 36
+, "Opel|Corsa-e": 35
+, "Renault|Megane E-Tech": 34
+, "Mercedes-Benz|EQS": 33
+, "BMW|iX1": 30
+, "Cupra|Born": 23
+, "BMW|iX": 19
+, "Hyundai|Ioniq 5": 19
+, "Kia|EV6": 17
+, "Mercedes-Benz|EQB": 15
+, "Ford|Mustang Mach-E": 13
+, "Mercedes-Benz|EQC": 11
+, "Porsche|Taycan": 11
+, "Hyundai|Ioniq 6": 9
+, "Kia|Niro EV": 9
+, "Tesla|Model X": 8
+, "BMW|i7": 7
+, "Citroën|Berlingo Electric": 7
+, "BMW|iX3": 6
+, "Peugeot|e-2008": 6
+, "Renault|Zoe": 5
+, "Mini|Cooper SE Electric": 4
+, "Toyota|Proace Electric": 4
+, "BYD|Han EV": 3
+, "Citroën|ë-SpaceTourer": 2
+, "Fiat|500e": 2
+, "Jeep|Avenger EV": 2
+, "Peugeot|e-Rifter": 2
+, "other": 40
+});
