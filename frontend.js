@@ -314,15 +314,10 @@ function renderChartTitle(chartDiv, chartConfig) {
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
 
-  const span = document.createElement("SPAN");
-  span.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
-  if (db.isMultiCountry(chartConfig)) {
-    titleElem.appendChild(span);
-  } else {
-    const flagContainer = createCountryFlagContainer(chartConfig.country);
-    titleElem.appendChild(flagContainer);
-    flagContainer.appendChild(span);
-  }
+  if (db.isMultiCountry(chartConfig))
+    titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
+  else
+    titleElem.appendChild(createCountryFlagContainer(chartConfig.country, db.getChartTitle(chartConfig, isSingleChart)));
 
   if (!isSingleChart) {
     var removeButton = createRemoveButton();
@@ -941,10 +936,9 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     countryCode = getCountryCodeForCompany(brand);
   }
   if (addFlag) {
-    const flagContainer = createCountryFlagContainer(countryCode, true);
-    cell.appendChild(flagContainer);
+    var containerElement;
     if (text.toLowerCase() != "other") {
-      // add text as link
+      // content as link
       var newChartConfig = db.cloneObject(chartConfig);
       const textParts = text.split("|", 2);
       if (textParts.length > 1) {
@@ -964,20 +958,18 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       }
       newChartConfig.view = null;
       db.applyNewDefaultOptions(newChartConfig, chartConfig);
-      const a = document.createElement("A");
-      a.href = "#" + db.encodeChartConfig(newChartConfig);
-      a.addEventListener("click", function(event) {
+      containerElement = document.createElement("A");
+      containerElement.href = "#" + db.encodeChartConfig(newChartConfig);
+      containerElement.addEventListener("click", function(event) {
         event.preventDefault();
         navigateToChartConfig(newChartConfig);
       });
-      a.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
-      flagContainer.appendChild(a);
     } else {
-      // add text without link
-      const span = document.createElement("SPAN");
-      span.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
-      flagContainer.appendChild(span);
+      // content without link
+      containerElement = document.createElement("SPAN");
     }
+    cell.appendChild(containerElement);
+    containerElement.appendChild(createCountryFlagContainer(countryCode, db.formatSeriesNameAndCategory(text), true));
   } else
     cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
 }
@@ -1065,7 +1057,7 @@ function getCountryCodeForCompany(companyOrBrand) {
   return countryCode;
 }
 
-function createCountryFlagContainer(countryCode, inTable = false) {
+function createCountryFlagContainer(countryCode, text, inTable = false) {
   const countryFlagWidth = 24;
   const countryFlagHeight = 16;
   const countryFlagSpriteColumns = 5;
@@ -1092,6 +1084,12 @@ function createCountryFlagContainer(countryCode, inTable = false) {
     flag.style.backgroundPosition = backgroundXPos + "px " + backgroundYPos + "px";
     flag.style.backgroundSize = countryFlagSpriteColumns * 100 + "%";
   }
+
+  // add text
+  const textSpan = document.createElement("SPAN");
+  textSpan.appendChild(document.createTextNode(text));
+  textSpan.style.marginLeft = (countryFlagWidth + 5) + "px";
+  flagContainer.appendChild(textSpan);
 
   return flagContainer;
 }

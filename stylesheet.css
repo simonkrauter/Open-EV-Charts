@@ -381,7 +381,6 @@ span.flagContainer > *:first-child {
 }
 span.flagContainer > *:nth-child(2) {
   display: inline-block;
-  margin-left: 29px; /* width of flag plus spacing */
 }
 span.flagContainer > .nonEmpty:first-child {
   outline: 1px solid #DEDEDE;
