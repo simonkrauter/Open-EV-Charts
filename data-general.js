@@ -66,29 +66,36 @@ const colorSet =
 ];
 
 const colorIndexByCompanyGroup =
-{ "Tesla": 0
-, "General Motors": 5
-, "Stellantis": 3
-, "Volkswagen Group": 1
+{ "Volkswagen Group": 1
+, "Renault-Nissan-Mitsubishi": 3
 , "BMW Group": 4
-, "Hyundai Motor Group": 11
+, "General Motors": 5
+, "Stellantis": 9
+, "Hyundai Motor Group": 10
 , "Toyota Motor Corporation": 12
+, "Geely Holding Group": 16
+, "Ford Motor Company": 17
 };
 
 const colorIndexByBrand =
 { "Tesla": 0
-, "Nissan": 7
-, "Chevrolet": 5
-, "Renault": 3
 , "Volkswagen": 1
 , "Smart": 2
+, "Renault": 3
 , "BMW": 4
+, "Chevrolet": 5
+, "Audi": 6
+, "Mercedes-Benz": 7
+, "Jaguar": 8
+, "Peugeot": 9
 , "Kia": 10
 , "Hyundai": 11
-, "Jaguar": 8
-, "Audi": 6
-, "Peugeot": 9
 , "Toyota": 12
+, "Fiat": 13
+, "Opel": 14
+, "Škoda": 15
+, "Volvo": 16
+, "Ford": 17
 };
 
 // Company goups, sorted by all car sales
