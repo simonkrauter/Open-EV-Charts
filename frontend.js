@@ -674,34 +674,42 @@ function addPngExportButton(parent) {
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
-  var colors = [];
-  var usedIndexes = [];
-  if ([db.xProperties.month, db.xProperties.quarter, db.xProperties.year].includes(chartConfig.xProperty) && chartConfig.brand == db.brandOptions.all && chartConfig.model == db.modelOptions.combine) {
-    for (const i in colorIndexByBrand)
-      usedIndexes.push(colorIndexByBrand[i]);
-  }
-  var unusedColors = [];
-  for (const iStr in colorSet) {
-    const iInt = parseInt(iStr);
-    if (!usedIndexes.includes(iInt))
-      unusedColors.push(colorSet[iInt]);
-  }
-  var nextUnusedIndex = 0;
+  var result = [];
+  // assign static colors
+  var seriesIndexesWithDynamicColor = [];
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
     if (seriesName == db.totalSeriesName || seriesName == "Other")
-      colors.push("#000000");
+      result.push("#000000");
     else {
-      var index = colorIndexByBrand[seriesName];
-      if (index != null)
-        colors.push(colorSet[index % colorSet.length]);
-      else {
-        colors.push(unusedColors[nextUnusedIndex % unusedColors.length]);
-        nextUnusedIndex++;
-      }
+      var colorIndex = colorIndexByCompanyGroup[seriesName];
+      if (colorIndex === undefined)
+        colorIndex = colorIndexByBrand[seriesName];
+      if (colorIndex === undefined)
+        seriesIndexesWithDynamicColor.push(parseInt(i));
+      result.push(colorSet[colorIndex]);
     }
   }
-  return colors;
+  if (seriesIndexesWithDynamicColor.length == 0)
+    return result;
+  // assign dynamic colors
+  var dynamicColorSeriesIndex = 0;
+  for (const i in colorSet) {
+    const color = colorSet[i];
+    if (result.includes(color))
+      continue;
+    result[seriesIndexesWithDynamicColor[dynamicColorSeriesIndex]] = color;
+    dynamicColorSeriesIndex++;
+    if (dynamicColorSeriesIndex == seriesIndexesWithDynamicColor.length)
+      return result;
+  }
+  var colorIndex = 0;
+  while (dynamicColorSeriesIndex < seriesIndexesWithDynamicColor.length) {
+    result[seriesIndexesWithDynamicColor[dynamicColorSeriesIndex]] = colorSet[colorIndex % colorSet.length];
+    dynamicColorSeriesIndex++;
+    colorIndex++;
+  }
+  return result;
 }
 
 function renderTable(chartConfig, chartDiv, chartData) {

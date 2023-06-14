@@ -65,6 +65,16 @@ const colorSet =
 , "#FFBB68"
 ];
 
+const colorIndexByCompanyGroup =
+{ "Tesla": 0
+, "General Motors": 5
+, "Stellantis": 3
+, "Volkswagen Group": 1
+, "BMW Group": 4
+, "Hyundai Motor Group": 11
+, "Toyota Motor Corporation": 12
+};
+
 const colorIndexByBrand =
 { "Tesla": 0
 , "Nissan": 7
@@ -75,10 +85,10 @@ const colorIndexByBrand =
 , "BMW": 4
 , "Kia": 10
 , "Hyundai": 11
-, "Fiat": 18
 , "Jaguar": 8
 , "Audi": 6
 , "Peugeot": 9
+, "Toyota": 12
 };
 
 // Company goups, sorted by all car sales
