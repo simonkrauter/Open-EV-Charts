@@ -711,7 +711,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
       horizontalBarMaxValue = Math.max(horizontalBarMaxValue, chartData.series[0].data[i]);
     }
   }
-  const showRankColumn = [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty);
+  const showRankColumn = !db.isTimeXProperty(chartConfig);
 
   const table = document.createElement("TABLE");
   chartDiv.appendChild(table);
@@ -952,7 +952,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
           newChartConfig.model = text;
         }
       }
-      if ([db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(newChartConfig.xProperty)) {
+      if (!db.isTimeXProperty(newChartConfig)) {
         newChartConfig.xProperty = "";
         newChartConfig.timeSpan = "";
       }
@@ -987,7 +987,7 @@ function renderTableValueCell(chartConfig, row, val) {
 }
 
 function addThSortClickEvent(chartConfig, cell, columnIndex) {
-  if (columnIndex < 2 && [db.xProperties.country, db.xProperties.brand, db.xProperties.model].includes(chartConfig.xProperty)) {
+  if (columnIndex < 2 && !db.isTimeXProperty(chartConfig)) {
     cell.addEventListener("click", function(event) {
       event.preventDefault();
       sortByName = columnIndex == 0;
