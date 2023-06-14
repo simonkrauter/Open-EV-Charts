@@ -451,7 +451,7 @@ var db = {
     }
     param.defaultOption = this.modelOptions.combine;
     param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
-    param.showAsFilter = chartConfig == null || (![, this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
+    param.showAsFilter = chartConfig == null || (![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
     result[param.name] = param;
 
     // max series
