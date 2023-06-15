@@ -905,7 +905,7 @@ var db = {
   getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound) {
     var hints = [];
 
-    // parsing of general hints
+    // parse general hints
     const keyword = " (Incomplete: ";
     for (const text in sources) {
       const i = text.indexOf(keyword);
@@ -922,7 +922,7 @@ var db = {
         hints.push(hint);
     }
 
-    // looking for 'AllCarsByBrand not per brand'
+    // parse 'AllCarsByBrand not per brand'
     if (chartConfig.metric == this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine) {
       for (const text in sources) {
         if (text.includes("TODO: numbers per brand wanted")) {
@@ -940,7 +940,7 @@ var db = {
       }
     }
 
-    // add hints for incomplete year or quarter
+    // incomplete year or quarter
     if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
       categories.sort();
       const currentDate = new Date();
@@ -956,15 +956,11 @@ var db = {
         if (timeSpan == currentYear || timeSpan == currentQuarter)
           continue;
         for (const countryName in monthsPerCountryAndTimeSpan) {
-          const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
-          if (monthsPerQuarter[timeSpan] && monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
+          const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+          if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth) {
             var hint = ""
             if (this.isMultiCountry(chartConfig))
-              hint = hint + countryName + " ";
-            if (chartConfig.xProperty == this.xProperties.year)
-              hint = hint + "Year ";
-            else
-              hint = hint + "Quarter ";
+              hint = hint + countryName + ": ";
             hint = hint + timeSpan + " is incomplete.";
             hints.push(hint);
           }
@@ -972,7 +968,7 @@ var db = {
       }
     }
 
-    // add hint when there are potentially missing low number entries
+    // potentially missing low number entries
     if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model)) {
       hints.push("Low number entries could be missing, because data is limited to top 50 models per month.");
     }
