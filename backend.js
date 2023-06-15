@@ -536,6 +536,7 @@ var db = {
         for (const key in param.options) {
           if (this.normalizeSearchString(key) == this.normalizeSearchString(part)) {
             optionsKeyMatched = key;
+            delete parts[j]; // avoid using a part twice
             break;
           }
         }
