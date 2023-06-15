@@ -40,6 +40,9 @@ var db = {
   // - data:        object of brand -> number of sales or
   //                object of model -> number of sales
 
+  companyGroupNamesForUrl: [],
+  // List of company group names.
+
   companiesByBrand: {},
   // Brand -> company.
 
@@ -139,11 +142,12 @@ var db = {
 
     // Process company groups
     var brandsInAGroup = [];
-    for (const group in companyGroups) {
-      this.companies.push(group);
-      const brands = companyGroups[group];
+    for (const groupName in companyGroups) {
+      this.companyGroupNamesForUrl.push(this.formatForUrl(groupName));
+      this.companies.push(groupName);
+      const brands = companyGroups[groupName];
       for (const i in brands) {
-        this.companiesByBrand[brands[i]] = group;
+        this.companiesByBrand[brands[i]] = groupName;
         brandsInAGroup.push(brands[i]);
       }
     }
