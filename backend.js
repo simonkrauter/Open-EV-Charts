@@ -942,15 +942,15 @@ var db = {
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
       const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + currentDate.getMonth()));
+      var expectedNumberOfMonth;
+      if (chartConfig.xProperty == this.xProperties.quarter)
+        expectedNumberOfMonth = 3;
+      else
+        expectedNumberOfMonth = 12;
       for (const i in categories) {
         const timeSpan = categories[i];
         if (timeSpan == currentYear || timeSpan == currentQuarter)
           continue;
-        var expectedNumberOfMonth;
-        if (chartConfig.xProperty == this.xProperties.quarter)
-          expectedNumberOfMonth = 3;
-        else
-          expectedNumberOfMonth = 12;
         for (const countryName in monthsPerCountryAndTimeSpan) {
           const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
           if (monthsPerQuarter[timeSpan] && monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
