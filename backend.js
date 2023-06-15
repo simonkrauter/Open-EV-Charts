@@ -821,12 +821,14 @@ var db = {
         const model = dataKeyParts[1];
 
         // add entry to monthsPerCountryAndTimeSpan
-        if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+        if (this.isTimeXProperty(chartConfig)) {
           var timeSpan;
-          if (chartConfig.xProperty == this.xProperties.quarter)
+          if (chartConfig.xProperty == this.xProperties.year)
+            timeSpan = dataset.year;
+          else if (chartConfig.xProperty == this.xProperties.quarter)
             timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
           else
-            timeSpan = dataset.year;
+            timeSpan = dataset.monthString;
           if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
             monthsPerCountryAndTimeSpan[dataset.countryName] = {};
           if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
@@ -963,6 +965,20 @@ var db = {
               hint = hint + countryName + ": ";
             hint = hint + timeSpan + " is incomplete.";
             hints.push(hint);
+          }
+        }
+      }
+    }
+
+    // missing month/quarter/year
+    if (this.isTimeXProperty(chartConfig) && this.isCombinedCountry(chartConfig)) {
+      categories.sort();
+      for (const i in categories) {
+        const timeSpan = categories[i];
+        for (const countryName in monthsPerCountryAndTimeSpan) {
+          const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+          if (monthsPerTimeSpan[timeSpan] === undefined) {
+            hints.push(countryName + ": " + timeSpan + " is missing.");
           }
         }
       }
