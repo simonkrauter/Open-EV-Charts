@@ -277,8 +277,12 @@ var db = {
     return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
   },
 
+  isCombinedCountry: function(chartConfig) {
+    return chartConfig.country.split(",").includes(this.countryOptions.combine);
+  },
+
   isSingleOrCombinedCountry: function(chartConfig) {
-    return !this.isMultiCountry(chartConfig) || chartConfig.country.split(",").includes(this.countryOptions.combine);
+    return !this.isMultiCountry(chartConfig) || this.isCombinedCountry(chartConfig);
   },
 
   getChartParams: function(chartConfig) {
