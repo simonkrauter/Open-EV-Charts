@@ -1178,7 +1178,15 @@ var db = {
   },
 
   isBarChartStacked: function(chartConfig) {
-    return (chartConfig.brand == this.brandOptions.all && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && chartConfig.metric != this.metrics.ratioElectricWithinBrand) || [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric) || (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all) || ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isSingleOrCombinedCountry(chartConfig));
+    if (chartConfig.brand == this.brandOptions.all && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && chartConfig.metric != this.metrics.ratioElectricWithinBrand)
+      return true;
+    if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
+      return true;
+    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all)
+      return true;
+    if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isSingleOrCombinedCountry(chartConfig))
+      return true;
+    return false;
   },
 
   queryChartData: function(chartConfig, sortByName = false) {
