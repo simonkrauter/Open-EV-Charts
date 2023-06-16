@@ -230,7 +230,6 @@ function initTesting() {
       testCaseNumber = parsed;
     else
       testCaseNumber = -1;
-    console.log(testCaseNumber);
     loadTestCase();
   });
   div.appendChild(testCaseNumberInput);
