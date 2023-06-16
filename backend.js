@@ -314,8 +314,7 @@ var db = {
     var param = {};
     param.name = "country";
     param.options = {};
-    if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinBrand || chartConfig.xProperty == this.xProperties.brand))
-      param.options[this.countryOptions.all] = "All Countries";
+    param.options[this.countryOptions.all] = "All Countries";
     if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand))
       param.options[this.countryOptions.combine] = "Combine Countries";
     for (const i in this.countriesWithData) {
