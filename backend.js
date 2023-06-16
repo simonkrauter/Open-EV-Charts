@@ -476,10 +476,7 @@ var db = {
     param.name = "view";
     param.options = {};
     const allowLineChart = chartConfig == null || this.isTimeXProperty(chartConfig);
-    if (chartConfig == null || (
-      (this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig)) &&
-      (chartConfig.metric != this.metrics.ratioElectric || chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.all || chartConfig.xProperty == this.xProperties.country)
-    ) || !allowLineChart)
+    if (this.isBarChartAllowed(chartConfig) || !allowLineChart)
       param.options[this.views.barChart] = "Bar Chart";
     if (allowLineChart)
       param.options[this.views.lineChart] = "Line Chart";
@@ -489,6 +486,14 @@ var db = {
     result[param.name] = param;
 
     return result;
+  },
+
+  isBarChartAllowed: function(chartConfig) {
+    if (chartConfig == null)
+      return true;
+    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.brand == this.brandOptions.combine && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
+      return false;
+    return this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig);
   },
 
   encodeChartConfig: function(chartConfig) {
