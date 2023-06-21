@@ -5033,3 +5033,101 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 11
 , "other": 145
 });
+
+db.insert(db.countries.CH, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/06/ModellePW2023.xlsx",
+{ "Volkswagen": 2232
+, "Škoda": 2106
+, "Audi": 1793
+, "BMW": 1748
+, "Mercedes-Benz": 1601
+, "Seat": 1037
+, "Toyota": 989
+, "Ford": 941
+, "Tesla": 919
+, "Hyundai": 711
+, "Renault": 695
+, "Dacia": 582
+, "Volvo": 535
+, "Kia": 484
+, "Opel": 461
+, "Peugeot": 453
+, "Suzuki": 426
+, "Nissan": 418
+, "Mini": 414
+, "Fiat": 413
+, "Porsche": 365
+, "Mazda": 355
+, "Citroën": 227
+, "Jeep": 178
+, "Alfa Romeo": 175
+, "Subaru": 172
+, "Honda": 158
+, "Mitsubishi": 153
+, "Land Rover": 139
+, "Polestar": 104
+, "Genesis": 89
+, "DS Automobiles": 72
+, "Lexus": 71
+, "Maserati": 52
+, "Jaguar": 33
+, "Smart": 29
+, "SsangYong": 19
+, "JAC": 17
+, "Cadillac": 10
+, "Chevrolet": 5
+, "Aiways": 4
+, "Dodge": 3
+, "other": 183
+});
+
+db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/5 (includes commercial vehicles)",
+{ "Tesla|Model Y": 576
+, "Škoda|Enyaq": 365
+, "Audi|Q4 e-tron": 256
+, "Volkswagen|ID.3": 220
+, "Cupra|Born": 172
+, "Tesla|Model 3": 158
+, "Fiat|500e": 152
+, "Audi|Q8 e-tron": 147
+, "Volkswagen|ID.4": 140
+, "BMW|iX1": 138
+, "Volvo|XC40 Recharge pure electric": 126
+, "Mercedes-Benz|EQA": 123
+, "Hyundai|Ioniq 5": 119
+, "Polestar|2": 104
+, "Tesla|Model S": 102
+, "Renault|Megane E-Tech": 94
+, "Tesla|Model X": 81
+, "Ford|Mustang Mach-E": 74
+, "Toyota|bZ4X": 74
+, "BMW|i4": 57
+, "Hyundai|Kona Electric": 57
+, "Renault|Zoe": 55
+, "Volkswagen|ID.5": 51
+, "Volvo|C40 Recharge": 51
+, "Mini|Cooper SE Electric": 49
+, "Porsche|Taycan": 40
+, "BMW|iX": 39
+, "Genesis|GV60": 31
+, "Mercedes-Benz|EQS": 31
+, "Mercedes-Benz|EQB": 30
+, "Subaru|Solterra": 30
+, "Kia|EV6": 29
+, "Opel|Mokka-e": 28
+, "Mercedes-Benz|EQC": 27
+, "Peugeot|e-208": 27
+, "Genesis|GV70": 25
+, "Smart|Fortwo ED": 25
+, "Opel|Corsa-e": 24
+, "Hyundai|Ioniq 6": 21
+, "Volkswagen|e-up!": 20
+, "Peugeot|e-2008": 18
+, "Citroën|ë-C4": 17
+, "Kia|Niro EV": 17
+, "Opel|Combo-e": 17
+, "Honda|e": 16
+, "Mercedes-Benz|EQE": 15
+, "Renault|Twingo Z.E.": 15
+, "Audi|e-tron GT": 11
+, "other": 219
+});
