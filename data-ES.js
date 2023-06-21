@@ -112,6 +112,7 @@ db.insert(db.countries.ES, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 7
 , "Peugeot|iOn": 5
 , "Citroën|C-Zero": 2
+, "Mercedes-Benz|B250e": 2
 , "Citroën|E-Mehari": 1
 });
 
@@ -169,6 +170,7 @@ db.insert(db.countries.ES, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Citroën|E-Mehari": 3
 , "Peugeot|iOn": 2
+, "Mercedes-Benz|B250e": 1
 });
 
 db.insert(db.countries.ES, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2018/datosabriltur.asp, https://www.km77.com/mercado/espana/2018/datosabriltt.asp",
@@ -339,6 +341,7 @@ db.insert(db.countries.ES, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 6
 , "Citroën|C-Zero": 4
 , "Jaguar|I-Pace": 2
+, "Mercedes-Benz|B250e": 1
 , "Volkswagen|e-up!": 1
 });
 
@@ -687,6 +690,7 @@ db.insert(db.countries.ES, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 5
 , "Kia|Soul EV": 5
 , "Jaguar|I-Pace": 4
+, "Mercedes-Benz|B250e": 1
 , "Peugeot|iOn": 1
 });
 
