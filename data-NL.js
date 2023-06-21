@@ -5684,7 +5684,7 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
 { "Peugeot|e-208": 570
-, "Volvo|XC40 Recharge pure electric": 506
+, "Volvo|XC40 Recharge pure electric": 511
 , "Tesla|Model Y": 435
 , "Renault|Megane E-Tech": 429
 , "Volkswagen|ID.4": 398
@@ -5694,7 +5694,7 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 309
 , "Tesla|Model 3": 294
 , "Audi|Q4 e-tron": 255
-, "Škoda|Enyaq": 234
+, "Škoda|Enyaq": 237
 , "Opel|Mokka-e": 231
 , "BMW|iX1": 203
 , "Peugeot|e-2008": 201
@@ -5733,5 +5733,5 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 24
 , "Aiways|U5": 20
 , "Fiat|E-Ulysse": 20
-, "other": 234
+, "other": 226
 });
