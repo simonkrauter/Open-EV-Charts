@@ -4328,6 +4328,84 @@ db.insert(db.countries.NO, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 877
 });
 
+db.insert(db.countries.NO, "2023-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2023",
+{ "Tesla": 3450
+, "Volkswagen": 2146
+, "Toyota": 1511
+, "Škoda": 1006
+, "BMW": 814
+, "Volvo": 785
+, "Audi": 762
+, "Hyundai": 610
+, "Mercedes-Benz": 566
+, "Ford": 541
+, "Kia": 511
+, "Nissan": 413
+, "Peugeot": 395
+, "MG": 370
+, "Opel": 368
+, "Suzuki": 224
+, "Citroën": 131
+, "Polestar": 126
+, "Lexus": 105
+, "Mazda": 89
+, "other": 643
+});
+
+db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2023",
+{ "Tesla|Model Y": 3125
+, "Volkswagen|ID.4": 1127
+, "Škoda|Enyaq": 788
+, "Volvo|XC40 Recharge pure electric": 412
+, "Audi|Q4 e-tron": 372
+, "Ford|Mustang Mach-E": 368
+, "Audi|Q8 e-tron": 318
+, "Kia|EV6": 314
+, "Hyundai|Kona Electric": 294
+, "BMW|iX1": 291
+, "Tesla|Model 3": 288
+, "Volkswagen|ID.5": 267
+, "Volkswagen|ID.3": 248
+, "MG|MG4 EV": 242
+, "Nissan|Ariya": 238
+, "Hyundai|Ioniq 5": 227
+, "BMW|i4": 222
+, "Toyota|bZ4X": 220
+, "Mercedes-Benz|EQA": 188
+, "Opel|Corsa-e": 172
+, "Nissan|Leaf": 156
+, "Peugeot|e-2008": 156
+, "Opel|Mokka-e": 151
+, "Kia|Niro EV": 136
+, "Citroën|ë-C4": 113
+, "Cupra|Born": 95
+, "Mercedes-Benz|EQE": 86
+, "Hyundai|Ioniq 6": 82
+, "Peugeot|e-208": 81
+, "BMW|iX3": 79
+, "MG|ZS EV": 74
+, "Volvo|C40 Recharge": 63
+, "BYD|Tang EV": 58
+, "Nio|ES8": 54
+, "Subaru|Solterra": 51
+, "Mercedes-Benz|EQS": 48
+, "Renault|Megane E-Tech": 47
+, "Mercedes-Benz|EQB": 46
+, "Mazda|MX-30": 45
+, "BMW|iX": 44
+, "MG|Marvel R": 42
+, "Fiat|500e": 36
+, "Maxus|T90 EV": 36
+, "Mercedes-Benz|EQC": 36
+, "Opel|Combo-e": 28
+, "BYD|Yuan Plus": 25
+, "Mini|Cooper SE Electric": 23
+, "Kia|Soul EV": 21
+, "Polestar|2": 21
+, "Tesla|Model X": 19
+, "other": 1128
+});
+
 
 // Template:
 
