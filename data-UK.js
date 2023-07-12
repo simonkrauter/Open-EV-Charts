@@ -4,6 +4,273 @@
 
 // source: https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files
 
+db.insert(db.countries.UK, "2017-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Ford": 105346
+, "Vauxhall": 66794
+, "Volkswagen": 60563
+, "Mercedes-Benz": 54787
+, "Nissan": 53914
+, "BMW": 49847
+, "Audi": 47989
+, "Toyota": 35856
+, "Land Rover": 30186
+, "Kia": 29676
+, "Peugeot": 28317
+, "Hyundai": 27830
+, "Renault": 25343
+, "Škoda": 22407
+, "Citroën": 18346
+, "Honda": 17944
+, "Fiat": 17683
+, "Mini": 17214
+, "Seat": 16850
+, "Mazda": 15339
+, "Suzuki": 13930
+, "Volvo": 13734
+, "Jaguar": 13477
+, "Dacia": 8181
+, "Mitsubishi": 5203
+, "Lexus": 3910
+, "Porsche": 3868
+, "Smart": 3216
+, "DS Automobiles": 3198
+, "Jeep": 2593
+, "Alfa Romeo": 1757
+, "Tesla": 1413
+, "SsangYong": 1341
+, "Infiniti": 1298
+, "Abarth": 1282
+, "MG": 1113
+, "Subaru": 1056
+, "Maserati": 655
+, "Chevrolet": 78
+, "Dodge": 45
+, "Opel": 35
+, "Chrysler": 33
+, "Cadillac": 16
+, "Buick": 12
+, "Lincoln": 12
+, "Acura": 4
+, "other": 2907
+});
+
+db.insert(db.countries.UK, "2017-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Nissan|Leaf": 2482
+, "Tesla|Model S": 786
+, "Tesla|Model X": 627
+, "Renault|Zoe": 344
+, "BMW|i3 BEV": 227
+, "Kia|Soul EV": 54
+, "Hyundai|Ioniq Electric": 43
+, "Nissan|e-NV200": 36
+, "Peugeot|iOn": 4
+, "Volkswagen|e-Golf": 4
+, "Volkswagen|e-up!": 2
+});
+
+db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Ford": 63724
+, "Volkswagen": 48199
+, "Vauxhall": 45400
+, "Mercedes-Benz": 44112
+, "BMW": 43396
+, "Audi": 42156
+, "Nissan": 32210
+, "Hyundai": 22231
+, "Toyota": 21902
+, "Kia": 21005
+, "Škoda": 20293
+, "Peugeot": 19205
+, "Mini": 17762
+, "Land Rover": 16359
+, "Renault": 15843
+, "Seat": 12724
+, "Honda": 11627
+, "Citroën": 11580
+, "Fiat": 11177
+, "Volvo": 11009
+, "Suzuki": 7867
+, "Jaguar": 7630
+, "Mazda": 7577
+, "Dacia": 6106
+, "Porsche": 3958
+, "Mitsubishi": 3901
+, "Smart": 2775
+, "Lexus": 2548
+, "DS Automobiles": 1935
+, "Jeep": 1081
+, "Alfa Romeo": 1019
+, "Abarth": 981
+, "MG": 977
+, "SsangYong": 884
+, "Infiniti": 861
+, "Tesla": 849
+, "Subaru": 566
+, "Maserati": 334
+, "Chevrolet": 90
+, "Dodge": 51
+, "Opel": 38
+, "Chrysler": 31
+, "Cadillac": 14
+, "Buick": 10
+, "Lincoln": 7
+, "Acura": 4
+, "DFSK": 1
+, "other": 2352
+});
+
+db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Nissan|Leaf": 1385
+, "Tesla|Model X": 448
+, "Tesla|Model S": 401
+, "Renault|Zoe": 285
+, "BMW|i3 BEV": 242
+, "Hyundai|Ioniq Electric": 116
+, "Kia|Soul EV": 35
+, "Nissan|e-NV200": 33
+, "Smart|Forfour ED": 11
+, "Smart|Fortwo ED": 11
+, "Volkswagen|e-Golf": 6
+, "Ford|Focus Electric": 5
+, "Peugeot|iOn": 5
+, "Citroën|C-Zero": 4
+, "Volkswagen|e-up!": 3
+});
+
+db.insert(db.countries.UK, "2017-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Ford": 66286
+, "Volkswagen": 57538
+, "Vauxhall": 49199
+, "Audi": 48979
+, "Mercedes-Benz": 48083
+, "BMW": 45442
+, "Nissan": 43035
+, "Toyota": 29286
+, "Kia": 26107
+, "Hyundai": 25156
+, "Land Rover": 21688
+, "Škoda": 20637
+, "Peugeot": 20375
+, "Renault": 17983
+, "Mini": 16823
+, "Honda": 15705
+, "Seat": 14787
+, "Citroën": 13718
+, "Volvo": 12169
+, "Suzuki": 11838
+, "Mazda": 11409
+, "Fiat": 9829
+, "Jaguar": 9089
+, "Dacia": 6608
+, "Lexus": 3971
+, "Mitsubishi": 3966
+, "Porsche": 3488
+, "Smart": 2758
+, "DS Automobiles": 2679
+, "Jeep": 1746
+, "MG": 1383
+, "Alfa Romeo": 1356
+, "Tesla": 1263
+, "Abarth": 1203
+, "Infiniti": 956
+, "Subaru": 844
+, "SsangYong": 741
+, "Maserati": 351
+, "Chevrolet": 76
+, "Dodge": 67
+, "Opel": 36
+, "Chrysler": 28
+, "Cadillac": 24
+, "Buick": 15
+, "Lincoln": 12
+, "Acura": 4
+, "other": 2337
+});
+
+db.insert(db.countries.UK, "2017-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Nissan|Leaf": 1431
+, "Tesla|Model S": 674
+, "Tesla|Model X": 589
+, "Renault|Zoe": 326
+, "BMW|i3 BEV": 197
+, "Volkswagen|e-Golf": 49
+, "Nissan|e-NV200": 47
+, "Kia|Soul EV": 40
+, "Smart|Fortwo ED": 34
+, "Hyundai|Ioniq Electric": 25
+, "Smart|Forfour ED": 16
+, "Volkswagen|e-up!": 4
+, "Peugeot|iOn": 2
+, "Citroën|C-Zero": 1
+});
+
+db.insert(db.countries.UK, "2017-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Ford": 53694
+, "Volkswagen": 43409
+, "BMW": 37606
+, "Audi": 36617
+, "Mercedes-Benz": 35025
+, "Vauxhall": 33968
+, "Nissan": 24417
+, "Hyundai": 18080
+, "Toyota": 18019
+, "Kia": 16707
+, "Mini": 16390
+, "Land Rover": 16108
+, "Škoda": 15890
+, "Peugeot": 14662
+, "Seat": 11930
+, "Renault": 10594
+, "Volvo": 9664
+, "Honda": 9279
+, "Citroën": 7975
+, "Jaguar": 6713
+, "Suzuki": 6650
+, "Fiat": 6065
+, "Mazda": 5446
+, "Dacia": 4043
+, "Mitsubishi": 3415
+, "Porsche": 3239
+, "Lexus": 2277
+, "Smart": 1541
+, "DS Automobiles": 1254
+, "Tesla": 1231
+, "MG": 1139
+, "Alfa Romeo": 1024
+, "Abarth": 928
+, "Jeep": 918
+, "Subaru": 682
+, "SsangYong": 584
+, "Infiniti": 424
+, "Maserati": 411
+, "Chevrolet": 73
+, "Dodge": 44
+, "Opel": 35
+, "Chrysler": 25
+, "Cadillac": 20
+, "Lincoln": 18
+, "Buick": 15
+, "Acura": 6
+, "other": 2044
+});
+
+db.insert(db.countries.UK, "2017-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+{ "Tesla|Model S": 779
+, "Tesla|Model X": 452
+, "Nissan|Leaf": 369
+, "BMW|i3 BEV": 315
+, "Renault|Zoe": 220
+, "Kia|Soul EV": 86
+, "Smart|Fortwo ED": 71
+, "Hyundai|Ioniq Electric": 66
+, "Smart|Forfour ED": 45
+, "Volkswagen|e-Golf": 33
+, "Nissan|e-NV200": 16
+, "Volkswagen|e-up!": 12
+, "Peugeot|iOn": 5
+, "Citroën|C-Zero": 2
+});
+
 db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 82658
 , "Volkswagen": 57865
