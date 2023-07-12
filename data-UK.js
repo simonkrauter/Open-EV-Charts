@@ -270,7 +270,7 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 68668
 , "Volkswagen": 60350
 , "Vauxhall": 55300
@@ -320,7 +320,7 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2857
 });
 
-db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
 , "BMW|i3 BEV": 794
@@ -332,14 +332,15 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Niro EV": 205
 , "Hyundai|Ioniq Electric": 146
 , "Smart|Fortwo ED": 112
-, "Smart|Forfour ED": 66
+, "Smart|Forfour ED": 68
 , "Audi|Q8 e-tron": 63
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
+, "Mini|Cooper SE Electric": 4
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 60619
 , "Volkswagen": 52274
 , "BMW": 43617
@@ -356,7 +357,7 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Seat": 17207
 , "Mini": 15156
 , "Volvo": 13890
-, "Renault": 12896
+, "Renault": 12897
 , "Citroën": 11839
 , "Honda": 9811
 , "Jaguar": 8735
@@ -386,10 +387,10 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Chrysler": 22
 , "Buick": 14
 , "Acura": 3
-, "other": 2603
+, "other": 2602
 });
 
-db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Jaguar|I-Pace": 982
 , "BMW|i3 BEV": 969
 , "Volkswagen|e-Golf": 796
@@ -407,11 +408,12 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Fortwo ED": 20
 , "Mercedes-Benz|eVito": 12
 , "Volkswagen|e-up!": 3
-, "Tesla|Roadster": 1
 , "Citroën|C-Zero": 1
+, "Mini|Cooper SE Electric": 1
+, "Tesla|Roadster": 1
 });
 
-db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 60883
 , "Mercedes-Benz": 47760
 , "Volkswagen": 46964
@@ -427,7 +429,7 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mini": 17535
 , "Seat": 17215
 , "Škoda": 17146
-, "Renault": 15866
+, "Renault": 15871
 , "Volvo": 14546
 , "Citroën": 13062
 , "Mazda": 12017
@@ -436,7 +438,7 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Suzuki": 9410
 , "Fiat": 7226
 , "Dacia": 6762
-, "Tesla": 5970
+, "Tesla": 5974
 , "Lexus": 5415
 , "Mitsubishi": 3881
 , "Porsche": 3343
@@ -458,10 +460,11 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 27
 , "Buick": 6
 , "Acura": 2
-, "other": 2491
+, "DFSK": 2
+, "other": 2484
 });
 
-db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5350
 , "Nissan|Leaf": 1386
 , "Volkswagen|e-Golf": 1208
@@ -479,11 +482,13 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "MG|ZS EV": 66
 , "Smart|Forfour ED": 65
 , "Mercedes-Benz|EQC": 48
-, "Volkswagen|e-up!": 1
+, "Mini|Cooper SE Electric": 4
 , "Mitsubishi|i-MiEV": 1
+, "Peugeot|Partner Electric": 1
+, "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/882232/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 48841
 , "Volkswagen": 44604
 , "BMW": 38077
@@ -533,7 +538,7 @@ db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2293
 });
 
-db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/882232/veh0160.ods",
+db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5122
 , "Nissan|Leaf": 1683
 , "Volkswagen|e-Golf": 1310
@@ -548,10 +553,10 @@ db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Fortwo ED": 120
 , "Mercedes-Benz|EQC": 103
 , "Hyundai|Ioniq Electric": 89
-, "Nissan|e-NV200": 73
 , "Kia|Niro EV": 73
+, "Nissan|e-NV200": 73
 , "Smart|Forfour ED": 25
-, "Mini|Cooper SE Electric": 11
+, "Mini|Cooper SE Electric": 12
 , "Mercedes-Benz|eVito": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Volkswagen|e-up!": 2
