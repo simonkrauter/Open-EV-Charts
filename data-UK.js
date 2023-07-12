@@ -4,7 +4,7 @@
 
 // source: https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files
 
-db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 82658
 , "Volkswagen": 57865
 , "Vauxhall": 54282
@@ -53,7 +53,7 @@ db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2486
 });
 
-db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 2015
 , "Tesla|Model S": 541
 , "Renault|Zoe": 429
@@ -62,13 +62,15 @@ db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-Golf": 134
 , "Hyundai|Ioniq Electric": 87
 , "Kia|Soul EV": 58
+, "Smart|Forfour ED": 51
+, "Smart|Fortwo ED": 17
 , "Nissan|e-NV200": 9
 , "Volkswagen|e-up!": 4
 , "Jaguar|I-Pace": 3
 , "Peugeot|iOn": 1
 });
 
-db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 64040
 , "Volkswagen": 56061
 , "BMW": 45284
@@ -118,7 +120,7 @@ db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 2701
 });
 
-db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1501
 , "Tesla|Model S": 498
 , "Tesla|Model X": 422
@@ -128,14 +130,14 @@ db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Soul EV": 96
 , "Jaguar|I-Pace": 92
 , "Hyundai|Ioniq Electric": 84
-, "Smart|Fortwo ED": 53
+, "Smart|Fortwo ED": 54
+, "Smart|Forfour ED": 28
 , "Nissan|e-NV200": 16
 , "Volkswagen|e-up!": 13
-, "Smart|Forfour ED": 12
 , "Peugeot|iOn": 5
 });
 
-db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 61289
 , "Mercedes-Benz": 46605
 , "Vauxhall": 45693
@@ -168,7 +170,7 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jeep": 1499
 , "Abarth": 1461
 , "Subaru": 1197
-, "Tesla": 939
+, "Tesla": 942
 , "Alfa Romeo": 932
 , "DS Automobiles": 719
 , "SsangYong": 655
@@ -182,10 +184,11 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 22
 , "Buick": 11
 , "Acura": 2
-, "other": 2742
+, "DFSK": 1
+, "other": 2741
 });
 
-db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 961
 , "Tesla|Model S": 498
 , "Renault|Zoe": 454
@@ -202,7 +205,7 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-up!": 5
 });
 
-db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Ford": 49064
 , "Volkswagen": 45713
 , "BMW": 36106
@@ -235,7 +238,7 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jeep": 1304
 , "Abarth": 1100
 , "Alfa Romeo": 786
-, "Tesla": 672
+, "Tesla": 675
 , "Subaru": 637
 , "DS Automobiles": 561
 , "SsangYong": 475
@@ -252,7 +255,7 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "other": 1956
 });
 
-db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/853465/veh0160.ods",
+db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 939
 , "Renault|Zoe": 696
 , "Jaguar|I-Pace": 534
@@ -264,7 +267,7 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Ioniq Electric": 136
 , "Smart|Fortwo ED": 112
 , "Kia|Soul EV": 88
-, "Smart|Forfour ED": 74
+, "Smart|Forfour ED": 75
 , "Nissan|e-NV200": 25
 , "Volkswagen|e-up!": 5
 , "Peugeot|iOn": 1
