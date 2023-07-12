@@ -14,7 +14,7 @@ Database status
 | China          | 2018  | Month    | Top 20     | Total only
 | United States  | 2018  | Quarter  | Incomplete | Per brand
 | Germany        | 2017  | Month    | Complete   | Per brand
-| United Kingdom | 2018  | Quarter  | Complete   | Per brand
+| United Kingdom | 2017  | Quarter  | Complete   | Per brand
 | France         | 2018  | Month    | Top 10     | Per brand
 | Italy          | 2020  | Month    | Complete   | Per brand
 | Spain          | 2018  | Month    | Complete   | Per brand
