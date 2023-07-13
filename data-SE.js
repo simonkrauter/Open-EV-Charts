@@ -4788,3 +4788,100 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 13
 , "other": 181
 });
+
+db.insert(db.countries.SE, "2023-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen": 3489
+, "Volvo": 3271
+, "Tesla": 3034
+, "Toyota": 2342
+, "Kia": 2167
+, "Audi": 1859
+, "Mercedes-Benz": 1531
+, "Škoda": 1444
+, "BMW": 1278
+, "Renault": 705
+, "Peugeot": 658
+, "Citroën": 527
+, "Hyundai": 497
+, "Ford": 466
+, "Polestar": 450
+, "Nissan": 420
+, "MG": 414
+, "Opel": 349
+, "Dacia": 348
+, "Cupra": 308
+, "BYD": 307
+, "Porsche": 307
+, "Subaru": 250
+, "Lexus": 242
+, "Fiat": 229
+, "Seat": 202
+, "Mazda": 176
+, "Mitsubishi": 170
+, "Suzuki": 160
+, "Mini": 159
+, "Honda": 62
+, "DS Automobiles": 40
+, "Ora": 29
+, "Nio": 24
+, "Jeep": 18
+, "Land Rover": 14
+, "Hongqi": 11
+, "Chevrolet": 6
+, "Alfa Romeo": 5
+, "Jaguar": 5
+, "other": 310
+});
+
+db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 2377
+, "Volkswagen|ID.4": 972
+, "Kia|EV6": 608
+, "Volvo|XC40 Recharge pure electric": 502
+, "Škoda|Enyaq": 479
+, "Tesla|Model 3": 464
+, "BMW|i4": 458
+, "Polestar|2": 450
+, "Audi|Q4 e-tron": 433
+, "Kia|Niro EV": 351
+, "BYD|Yuan Plus": 302
+, "Volkswagen|ID.5": 280
+, "MG|MG4 EV": 272
+, "Volvo|C40 Recharge": 243
+, "Volkswagen|ID.3": 224
+, "Audi|Q8 e-tron": 175
+, "Nissan|Leaf": 162
+, "Mercedes-Benz|EQE": 157
+, "Toyota|bZ4X": 148
+, "Mercedes-Benz|EQB": 145
+, "Cupra|Born": 128
+, "Tesla|Model S": 110
+, "Mercedes-Benz|EQA": 102
+, "BMW|iX1": 99
+, "MG|ZS EV": 95
+, "Citroën|ë-C4": 89
+, "Volkswagen|ID. Buzz": 86
+, "Tesla|Model X": 83
+, "BMW|iX": 80
+, "BMW|iX3": 80
+, "Ford|Mustang Mach-E": 77
+, "Opel|Corsa-e": 74
+, "Porsche|Taycan": 70
+, "Mini|Cooper SE Electric": 62
+, "Hyundai|Kona Electric": 41
+, "Nissan|Ariya": 37
+, "MG|MG5 EV": 33
+, "Opel|Mokka-e": 29
+, "Ora|Good Cat": 29
+, "Fiat|500e": 22
+, "Mercedes-Benz|EQV": 20
+, "Lexus|RZ": 18
+, "Peugeot|e-208": 18
+, "Renault|Megane E-Tech": 16
+, "Subaru|Solterra": 16
+, "Mercedes-Benz|EQS": 15
+, "Nio|ET7": 15
+, "Audi|e-tron GT": 14
+, "MG|Marvel R": 13
+, "other": 183
+});
