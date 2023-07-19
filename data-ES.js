@@ -3009,7 +3009,6 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 2
 , "Volkswagen|e-up!": 2
 , "Lexus|UX 300e": 1
-, "Opel|Combo-e": 1
 , "Volkswagen|e-Caddy": 1
 , "Volkswagen|e-Golf": 1
 });
@@ -3105,7 +3104,6 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 3
 , "Mercedes-Benz|EQS": 3
 , "Peugeot|e-Traveller": 3
-, "Peugeot|e-Rifter": 2
 , "Volkswagen|e-Golf": 2
 , "other": 3
 });
@@ -3186,7 +3184,6 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 20
 , "Mercedes-Benz|EQV": 20
 , "Tesla|Model 3": 17
-, "Peugeot|e-Rifter": 15
 , "Ford|Mustang Mach-E": 11
 , "Lexus|UX 300e": 11
 , "Mercedes-Benz|EQC": 11
@@ -3276,7 +3273,6 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 52
 , "Audi|Q4 e-tron": 49
 , "Smart|Forfour ED": 42
-, "Opel|Combo-e": 40
 , "Porsche|Taycan": 38
 , "Ford|Mustang Mach-E": 37
 , "BMW|iX": 31
@@ -3284,7 +3280,6 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 26
 , "BMW|i3 BEV": 23
 , "MG|ZS EV": 22
-, "Peugeot|e-Rifter": 22
 , "Volvo|XC40 Recharge pure electric": 18
 , "Lexus|UX 300e": 11
 , "Volkswagen|e-Transporter": 10
@@ -3375,7 +3370,6 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 49
 , "Smart|Forfour ED": 43
 , "BMW|i3 BEV": 42
-, "Peugeot|e-Rifter": 39
 , "Porsche|Taycan": 36
 , "Volvo|C40 Recharge": 34
 , "Opel|Mokka-e": 33
@@ -3383,7 +3377,6 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 22
 , "MG|ZS EV": 19
 , "Volkswagen|e-Transporter": 18
-, "Opel|Combo-e": 16
 , "DS Automobiles|DS 3 Crossback E-Tense": 15
 , "Hyundai|Ioniq Electric": 15
 , "Audi|Q8 e-tron": 14
@@ -3398,7 +3391,10 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 3
 , "MG|Marvel R": 3
 , "Volkswagen|e-Golf": 3
-, "other": 10
+, "Mazda|MX-30": 2
+, "Opel|Zafira-e": 2
+, "Peugeot|e-Traveller": 2
+, "other": 4
 });
 
 db.insert(db.countries.ES, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosenerotur.asp, https://www.km77.com/mercado/espana/2022/datosenerott.asp",
@@ -3475,12 +3471,10 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 18
 , "MG|ZS EV": 16
 , "Mercedes-Benz|EQC": 13
-, "Peugeot|e-Rifter": 13
 , "Jaguar|I-Pace": 10
 , "MG|Marvel R": 9
 , "Volvo|XC40 Recharge pure electric": 9
 , "Lexus|UX 300e": 8
-, "Opel|Combo-e": 8
 , "Audi|Q8 e-tron": 5
 , "BMW|iX3": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
@@ -3549,12 +3543,10 @@ db.insert(db.countries.ES, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 101
 , "Kia|EV6": 91
 , "Renault|Zoe": 80
-, "Peugeot|e-Rifter": 75
 , "Mercedes-Benz|EQA": 74
 , "Volkswagen|ID.4": 71
 , "Mini|Cooper SE Electric": 69
 , "Smart|Fortwo ED": 63
-, "Opel|Combo-e": 57
 , "BMW|i4": 51
 , "Audi|Q4 e-tron": 45
 , "Cupra|Born": 42
@@ -3587,7 +3579,10 @@ db.insert(db.countries.ES, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 6
 , "Kia|Soul EV": 4
 , "MG|Marvel R": 4
-, "other": 16
+, "Audi|e-tron GT": 3
+, "Mazda|MX-30": 3
+, "Peugeot|e-Traveller": 3
+, "other": 7
 });
 
 db.insert(db.countries.ES, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosmarzotur.asp, https://www.km77.com/mercado/espana/2022/datosmarzott.asp",
@@ -3646,7 +3641,6 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 64
 , "Peugeot|e-2008": 63
 , "Volkswagen|ID.4": 57
-, "Opel|Combo-e": 56
 , "Nissan|Leaf": 55
 , "Dacia|Spring": 54
 , "Opel|Mokka-e": 52
@@ -3676,12 +3670,14 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 12
 , "Renault|Megane E-Tech": 11
 , "MG|Marvel R": 8
-, "Peugeot|e-Rifter": 7
 , "DFSK|Seres 3": 6
 , "Mazda|MX-30": 6
 , "Honda|e": 5
 , "Peugeot|e-Traveller": 5
-, "other": 21
+, "Audi|e-tron GT": 4
+, "Mercedes-Benz|EQV": 4
+, "Volkswagen|ID.5": 4
+, "other": 9
 });
 
 db.insert(db.countries.ES, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosabriltur.asp, https://www.km77.com/mercado/espana/2022/datosabriltt.asp",
@@ -3754,7 +3750,6 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 24
 , "Volkswagen|ID.3": 23
 , "Cupra|Born": 22
-, "Opel|Combo-e": 22
 , "Opel|Mokka-e": 22
 , "Renault|Twingo Z.E.": 22
 , "Tesla|Model Y": 22
@@ -3769,7 +3764,6 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 8
 , "Lexus|UX 300e": 8
 , "Mercedes-Benz|EQS": 8
-, "Peugeot|e-Rifter": 8
 , "Audi|e-tron GT": 5
 , "Honda|e": 4
 , "Jaguar|I-Pace": 4
@@ -3778,7 +3772,9 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "DFSK|Seres 3": 3
 , "Mercedes-Benz|EQC": 3
 , "Mercedes-Benz|EQE": 3
-, "other": 9
+, "SsangYong|Korando e-Motion": 2
+, "Volkswagen|ID.5": 2
+, "other": 5
 });
 
 db.insert(db.countries.ES, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosmayotur.asp, https://www.km77.com/mercado/espana/2022/datosmayott.asp",
@@ -3850,11 +3846,9 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 34
 , "Volkswagen|ID.3": 32
 , "Škoda|Enyaq": 32
-, "Peugeot|e-Rifter": 26
 , "Hyundai|Ioniq Electric": 24
 , "Volvo|C40 Recharge": 24
 , "BMW|iX": 23
-, "Opel|Combo-e": 21
 , "Renault|Twingo Z.E.": 20
 , "Dacia|Spring": 18
 , "BMW|iX3": 17
@@ -3875,7 +3869,9 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 4
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Volkswagen|ID.5": 3
-, "other": 8
+, "Jaguar|I-Pace": 2
+, "Tesla|Model Y": 2
+, "other": 4
 });
 
 db.insert(db.countries.ES, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosjuniotur.asp, https://www.km77.com/mercado/espana/2022/datosjuniott.asp",
@@ -3972,9 +3968,9 @@ db.insert(db.countries.ES, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 8
 , "DFSK|Seres 3": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
-, "Peugeot|e-Rifter": 6
 , "Aiways|U5": 5
-, "other": 20
+, "Honda|e": 4
+, "other": 12
 });
 
 db.insert(db.countries.ES, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosjuliotur.asp, https://www.km77.com/mercado/espana/2022/datosjuliott.asp",
@@ -4051,14 +4047,12 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 27
 , "Smart|Fortwo ED": 26
 , "Mercedes-Benz|EQE": 24
-, "Peugeot|e-Rifter": 23
 , "Volkswagen|ID.5": 21
 , "Porsche|Taycan": 19
 , "Renault|Twingo Z.E.": 19
 , "Aiways|U5": 15
 , "Volvo|C40 Recharge": 15
 , "MG|MG5 EV": 13
-, "Opel|Combo-e": 13
 , "Polestar|2": 13
 , "MG|Marvel R": 12
 , "Audi|e-tron GT": 11
@@ -4071,7 +4065,10 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 7
 , "BMW|i3 BEV": 6
 , "Mercedes-Benz|EQC": 6
-, "other": 40
+, "BMW|iX": 5
+, "Tesla|Model 3": 5
+, "Volvo|XC40 Recharge pure electric": 5
+, "other": 25
 });
 
 db.insert(db.countries.ES, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosagostotur.asp, https://www.km77.com/mercado/espana/2022/datosagostott.asp",
@@ -4136,11 +4133,9 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 37
 , "Peugeot|e-208": 36
 , "Peugeot|e-2008": 34
-, "Peugeot|e-Rifter": 34
 , "Audi|Q4 e-tron": 31
 , "Volkswagen|ID.4": 28
 , "Volkswagen|ID.3": 27
-, "Opel|Combo-e": 24
 , "Volkswagen|ID.5": 24
 , "Opel|Corsa-e": 23
 , "Ford|Mustang Mach-E": 22
@@ -4252,9 +4247,7 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 21
 , "Ford|Mustang Mach-E": 20
 , "Nissan|Leaf": 20
-, "Opel|Combo-e": 19
 , "BMW|i3 BEV": 18
-, "Peugeot|e-Rifter": 13
 , "SsangYong|Korando e-Motion": 13
 , "Aiways|U5": 12
 , "MG|MG4 EV": 12
@@ -4266,7 +4259,10 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 8
 , "Mercedes-Benz|EQE": 7
 , "Polestar|2": 7
-, "other": 37
+, "DFSK|Seres 3": 6
+, "Jaguar|I-Pace": 6
+, "Smart|Forfour ED": 5
+, "other": 20
 });
 
 db.insert(db.countries.ES, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosoctubretur.asp, https://www.km77.com/mercado/espana/2022/datosoctubrett.asp",
@@ -4342,7 +4338,6 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 44
 , "Audi|Q4 e-tron": 41
 , "Polestar|2": 40
-, "Peugeot|e-Rifter": 32
 , "Smart|Fortwo ED": 31
 , "Audi|Q8 e-tron": 30
 , "Volvo|C40 Recharge": 28
@@ -4358,12 +4353,13 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 17
 , "Mercedes-Benz|EQE": 17
 , "BMW|iX3": 15
-, "Opel|Combo-e": 13
 , "Mercedes-Benz|EQS": 10
 , "Mercedes-Benz|EQC": 8
 , "Aiways|U5": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
-, "other": 34
+, "BMW|i7": 4
+, "DFSK|Seres 3": 4
+, "other": 26
 });
 
 db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2022/datosnoviembrett.asp",
@@ -4448,21 +4444,21 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 31
 , "Fiat|E-Doblò": 26
 , "Mercedes-Benz|EQE": 26
-, "Peugeot|e-Rifter": 25
 , "Volkswagen|ID.3": 23
 , "Nissan|Leaf": 18
 , "Volkswagen|ID.5": 18
 , "Aiways|U5": 17
 , "Volvo|C40 Recharge": 17
 , "DS Automobiles|DS 3 Crossback E-Tense": 13
-, "Opel|Combo-e": 12
 , "Renault|Twingo Z.E.": 12
 , "BMW|i7": 10
 , "Mercedes-Benz|EQS": 9
 , "DFSK|Seres 3": 8
 , "Nissan|Ariya": 8
 , "Mazda|MX-30": 6
-, "other": 22
+, "BMW|i3 BEV": 5
+, "Mercedes-Benz|EQC": 5
+, "other": 12
 });
 
 db.insert(db.countries.ES, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2022/datosdiciembrett.asp",
@@ -4523,7 +4519,6 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 89
 , "Cupra|Born": 85
 , "Peugeot|e-208": 84
-, "Peugeot|e-Rifter": 72
 , "Opel|Mokka-e": 70
 , "Mercedes-Benz|EQA": 68
 , "Mercedes-Benz|EQB": 68
@@ -4550,7 +4545,6 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 32
 , "Nissan|Leaf": 32
 , "Škoda|Enyaq": 31
-, "Opel|Combo-e": 29
 , "Tesla|Model S": 29
 , "BMW|iX": 27
 , "Tesla|Model X": 23
@@ -4559,7 +4553,10 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 11
 , "BMW|i3 BEV": 8
 , "Fiat|E-Doblò": 8
-, "other": 60
+, "DFSK|Seres 3": 7
+, "Mercedes-Benz|EQC": 7
+, "Mercedes-Benz|EQV": 7
+, "other": 41
 });
 
 db.insert(db.countries.ES, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosenerotur.asp, https://www.km77.com/mercado/espana/2023/datosenerott.asp",
