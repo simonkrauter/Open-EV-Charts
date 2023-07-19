@@ -4974,9 +4974,9 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 1160
 , "Jeep": 1047
 , "Volvo": 1007
+, "Suzuki": 969
 , "Mini": 869
 , "Lexus": 835
-, "Suzuki": 657
 , "Mitsubishi": 394
 , "DS Automobiles": 358
 , "Porsche": 312
