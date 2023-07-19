@@ -4494,3 +4494,56 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 491
 , "other": 7747
 });
+
+db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/07/2023_06_VP_france.pdf",
+{ "Renault": 33345
+, "Peugeot": 25396
+, "Dacia": 15460
+, "Citroën": 12629
+, "Volkswagen": 11884
+, "Toyota": 11540
+, "Tesla": 8516
+, "Hyundai": 5750
+, "Kia": 5458
+, "Opel": 5416
+, "Ford": 5410
+, "BMW": 5249
+, "Audi": 4946
+, "Mercedes-Benz": 4729
+, "Fiat": 4496
+, "MG": 4084
+, "Nissan": 3876
+, "Škoda": 3138
+, "Mini": 2650
+, "DS Automobiles": 2595
+, "Suzuki": 2235
+, "Volvo": 1853
+, "Seat": 1700
+, "Cupra": 1501
+, "Mazda": 1294
+, "Jeep": 1134
+, "Lexus": 754
+, "Land Rover": 659
+, "Alfa Romeo": 536
+, "Honda": 381
+, "Porsche": 364
+, "Mitsubishi": 350
+, "Jaguar": 132
+, "Smart": 91
+, "Maserati": 12
+, "other": 1284
+});
+
+db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/07/barometre-avere-colombus-juin-2023-2.pdf",
+{ "Tesla|Model Y": 4335
+, "Tesla|Model 3": 3966
+, "Fiat|500e": 2781
+, "MG|MG4 EV": 2511
+, "Dacia|Spring": 2490
+, "Renault|Megane E-Tech": 2377
+, "Peugeot|e-208": 1889
+, "Kia|Niro EV": 885
+, "Mini|Cooper SE Electric": 880
+, "Renault|Twingo Z.E.": 823
+, "other": 10343
+});
