@@ -5143,9 +5143,9 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|ET7": 15
 , "BYD|Yuan Plus": 12
 , "MG|ZS EV": 11
-, "Toyota|Proace Electric": 10
 , "Audi|e-tron GT": 9
-, "other": 179
+, "Toyota|Proace Electric": 8
+, "other": 181
 });
 
 db.insert(db.countries.NL, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/november/",
@@ -5789,7 +5789,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 592
 , "Opel|Corsa-e": 536
 , "Škoda|Enyaq": 490
-, "Kia|Niro EV": 346
+, "Kia|Niro EV": 348
 , "BMW|iX1": 342
 , "BMW|i4": 322
 , "Opel|Mokka-e": 320
@@ -5803,7 +5803,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 228
 , "Volvo|C40 Recharge": 223
 , "Hyundai|Kona Electric": 213
-, "Kia|EV6": 206
+, "Kia|EV6": 207
 , "Hyundai|Ioniq 5": 189
 , "Hyundai|Ioniq 6": 173
 , "Citroën|ë-C4": 165
@@ -5813,7 +5813,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 113
 , "Mercedes-Benz|EQA": 109
 , "BMW|iX3": 108
-, "Audi|Q8 e-tron": 103
+, "Audi|Q8 e-tron": 107
 , "Cupra|Born": 94
 , "MG|MG5 EV": 75
 , "Dacia|Spring": 73
@@ -5831,5 +5831,5 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 42
 , "Aiways|U5": 41
 , "Opel|Vivaro-e": 40
-, "other": 366
+, "other": 359
 });
