@@ -5833,3 +5833,104 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 40
 , "other": 359
 });
+
+db.insert(db.countries.NL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/juni/",
+{ "Volkswagen": 4283
+, "Kia": 3268
+, "Peugeot": 2904
+, "Tesla": 2724
+, "Renault": 2523
+, "Toyota": 2460
+, "BMW": 2285
+, "Opel": 2020
+, "Hyundai": 1951
+, "Škoda": 1869
+, "MG": 1374
+, "Mercedes-Benz": 1327
+, "Audi": 1286
+, "Ford": 1200
+, "Volvo": 1154
+, "Mazda": 1030
+, "Citroën": 845
+, "Nissan": 759
+, "Mini": 734
+, "Suzuki": 733
+, "Dacia": 641
+, "Fiat": 613
+, "Seat": 429
+, "Mitsubishi": 402
+, "Land Rover": 269
+, "Polestar": 228
+, "Jeep": 223
+, "Porsche": 193
+, "DS Automobiles": 129
+, "BYD": 123
+, "Cupra": 119
+, "Alfa Romeo": 88
+, "Lexus": 75
+, "Honda": 64
+, "Nio": 22
+, "Smart": 16
+, "Jaguar": 15
+, "Maserati": 8
+, "Abarth": 6
+, "SsangYong": 3
+, "Subaru": 3
+, "Hongqi": 2
+, "Aiways": 1
+, "other": 965
+});
+
+db.insert(db.countries.NL, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/6, https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
+{ "Tesla|Model Y": 1784
+, "Peugeot|e-208": 1165
+, "Tesla|Model 3": 860
+, "Škoda|Enyaq": 589
+, "MG|ZS EV": 541
+, "MG|MG4 EV": 497
+, "Volkswagen|ID.4": 478
+, "Volkswagen|ID.3": 442
+, "Opel|Corsa-e": 426
+, "BMW|i4": 425
+, "Volvo|XC40 Recharge pure electric": 378
+, "Peugeot|e-2008": 346
+, "BMW|iX1": 339
+, "Kia|Niro EV": 308
+, "Citroën|ë-C4": 307
+, "Opel|Mokka-e": 278
+, "Renault|Megane E-Tech": 257
+, "Kia|EV6": 247
+, "MG|MG5 EV": 232
+, "Polestar|2": 228
+, "Hyundai|Kona Electric": 224
+, "Audi|Q8 e-tron": 218
+, "Audi|Q4 e-tron": 213
+, "Mini|Cooper SE Electric": 210
+, "Hyundai|Ioniq 5": 194
+, "Citroën|ë-Jumpy": 169
+, "BMW|iX3": 153
+, "Fiat|500e": 143
+, "Volvo|C40 Recharge": 136
+, "Dacia|Spring": 127
+, "BYD|Yuan Plus": 116
+, "Hyundai|Ioniq 6": 116
+, "Mercedes-Benz|EQA": 109
+, "Mercedes-Benz|EQB": 106
+, "Toyota|bZ4X": 104
+, "Mercedes-Benz|EQE": 97
+, "Renault|Twingo Z.E.": 96
+, "Opel|Vivaro-e": 90
+, "Volkswagen|ID.5": 86
+, "Cupra|Born": 84
+, "Porsche|Taycan": 66
+, "Renault|Zoe": 62
+, "BMW|iX": 58
+, "Mercedes-Benz|EQS": 54
+, "DS Automobiles|DS 3 Crossback E-Tense": 53
+, "Jeep|Avenger EV": 51
+, "Nissan|Leaf": 50
+, "Tesla|Model X": 45
+, "Mazda|MX-30": 44
+, "Volkswagen|e-up!": 42
+, "other": 449
+});
