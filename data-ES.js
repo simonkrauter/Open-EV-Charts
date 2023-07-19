@@ -4614,14 +4614,12 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 109
 , "Peugeot|e-2008": 101
 , "Opel|Corsa-e": 100
-, "Peugeot|e-Rifter": 89
 , "Tesla|Model 3": 84
 , "Mini|Cooper SE Electric": 83
 , "Audi|Q4 e-tron": 82
 , "Hyundai|Ioniq 5": 80
 , "Mercedes-Benz|EQA": 59
 , "Smart|Fortwo ED": 58
-, "Opel|Combo-e": 56
 , "Kia|EV6": 55
 , "MG|Marvel R": 55
 , "Mercedes-Benz|EQB": 54
@@ -4654,6 +4652,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 9
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "MG|MG5 EV": 8
+, "other": 139
 });
 
 db.insert(db.countries.ES, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2023/datosfebrerott.asp",
@@ -4706,7 +4705,6 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 254
 , "Dacia|Spring": 159
 , "Citroën|ë-C4": 136
-, "Peugeot|e-Rifter": 129
 , "Audi|Q4 e-tron": 125
 , "Cupra|Born": 121
 , "Peugeot|e-208": 119
@@ -4721,7 +4719,6 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 51
 , "Ford|Mustang Mach-E": 49
 , "Mercedes-Benz|EQA": 48
-, "Opel|Combo-e": 43
 , "Volvo|C40 Recharge": 42
 , "BMW|iX3": 41
 , "Mercedes-Benz|EQB": 40
@@ -4751,6 +4748,8 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 8
 , "Mazda|MX-30": 7
 , "Renault|Twingo Z.E.": 7
+, "Mercedes-Benz|EQV": 5
+, "other": 20
 });
 
 db.insert(db.countries.ES, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosmarzotur.asp, https://www.km77.com/mercado/espana/2023/datosmarzott.asp",
@@ -4806,7 +4805,6 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 201
 , "Dacia|Spring": 176
 , "Peugeot|e-208": 168
-, "Peugeot|e-Rifter": 164
 , "Cupra|Born": 161
 , "Audi|Q4 e-tron": 160
 , "Kia|Niro EV": 127
@@ -4825,7 +4823,6 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 53
 , "BMW|iX1": 52
 , "Mercedes-Benz|EQB": 48
-, "Opel|Combo-e": 42
 , "Opel|Mokka-e": 42
 , "Polestar|2": 42
 , "Toyota|bZ4X": 41
@@ -4848,6 +4845,9 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 18
 , "MG|ZS EV": 18
 , "Porsche|Taycan": 18
+, "Subaru|Solterra": 12
+, "Volkswagen|ID.5": 12
+, "other": 56
 });
 
 db.insert(db.countries.ES, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosabriltur.asp, https://www.km77.com/mercado/espana/2023/datosabriltt.asp",
@@ -4911,7 +4911,6 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 72
 , "Mercedes-Benz|EQB": 70
 , "Opel|Corsa-e": 67
-, "Peugeot|e-Rifter": 67
 , "Polestar|2": 60
 , "Volkswagen|ID.3": 60
 , "Renault|Zoe": 58
@@ -4931,7 +4930,6 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 33
 , "BMW|iX1": 32
 , "Porsche|Taycan": 31
-, "Opel|Combo-e": 27
 , "Toyota|bZ4X": 19
 , "Ford|Mustang Mach-E": 18
 , "Mercedes-Benz|EQE": 18
@@ -4945,6 +4943,8 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 9
 , "MG|MG5 EV": 8
 , "Mercedes-Benz|EQS": 8
+, "Honda|e": 7
+, "other": 40
 });
 
 db.insert(db.countries.ES, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosmayotur.asp, https://www.km77.com/mercado/espana/2023/datosmayott.asp",
@@ -5019,13 +5019,11 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 60
 , "BMW|i4": 58
 , "MG|ZS EV": 57
-, "Peugeot|e-Rifter": 56
 , "Volkswagen|ID.5": 51
 , "Ford|Mustang Mach-E": 47
 , "Hyundai|Ioniq 5": 43
 , "Smart|Fortwo ED": 42
 , "Volkswagen|ID.3": 40
-, "Opel|Combo-e": 38
 , "BMW|iX": 32
 , "Audi|Q8 e-tron": 30
 , "MG|Marvel R": 30
@@ -5042,4 +5040,9 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 19
 , "Nissan|Ariya": 17
 , "BMW|iX3": 15
+, "Nissan|Leaf": 14
+, "Smart|1": 14
+, "Hyundai|Ioniq 6": 11
+, "other": 54
+});
 });
