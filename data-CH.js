@@ -4710,7 +4710,6 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 22
 , "BMW|iX3": 21
 , "Kia|Niro EV": 21
-, "Opel|Combo-e": 21
 , "Mercedes-Benz|EQS": 20
 , "Mercedes-Benz|EQE": 19
 , "Volkswagen|ID.5": 17
@@ -4729,9 +4728,10 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 10
 , "Peugeot|e-2008": 9
 , "BMW|i7": 8
+, "JAC|e-JS4": 8
 , "Opel|Corsa-e": 8
 , "Tesla|Model 3": 7
-, "other": 68
+, "other": 81
 });
 
 db.insert(db.countries.CH, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/03/ModellePW2023.xlsx",
@@ -4806,7 +4806,6 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 23
 , "Kia|EV6": 22
 , "Citroën|ë-C4": 21
-, "Opel|Combo-e": 20
 , "BMW|iX3": 18
 , "Mercedes-Benz|EQC": 18
 , "Audi|Q8 e-tron": 17
@@ -4819,6 +4818,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 14
 , "Smart|Fortwo ED": 14
 , "Volkswagen|e-up!": 14
+, "JAC|e-JS4": 13
 , "Mercedes-Benz|EQV": 13
 , "Genesis|GV60": 12
 , "Peugeot|e-2008": 11
@@ -4830,7 +4830,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 7
 , "Audi|e-tron GT": 6
 , "Honda|e": 6
-, "other": 62
+, "other": 69
 });
 
 db.insert(db.countries.CH, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/04/ModellePW2023.xlsx",
@@ -4923,15 +4923,15 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 29
 , "Mercedes-Benz|EQE": 29
 , "Mercedes-Benz|EQB": 28
-, "Opel|Combo-e": 28
 , "Polestar|2": 26
 , "Porsche|Taycan": 26
 , "Fiat|E-Doblò": 24
+, "JAC|e-JS4": 23
 , "Opel|Mokka-e": 23
 , "Audi|e-tron GT": 18
 , "Subaru|Solterra": 18
 , "Nissan|Leaf": 16
-, "other": 159
+, "other": 164
 });
 
 db.insert(db.countries.CH, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/05/ModellePW2023.xlsx",
@@ -5022,12 +5022,11 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 16
 , "Mini|Cooper SE Electric": 16
 , "Genesis|GV70": 14
-, "Opel|Combo-e": 14
 , "Mercedes-Benz|EQV": 13
 , "Audi|e-tron GT": 12
 , "Mercedes-Benz|EQE": 12
 , "Volkswagen|e-up!": 11
-, "other": 145
+, "other": 159
 });
 
 db.insert(db.countries.CH, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/06/ModellePW2023.xlsx",
@@ -5119,8 +5118,8 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 20
 , "Peugeot|e-2008": 18
 , "Citroën|ë-C4": 17
+, "JAC|e-JS4": 17
 , "Kia|Niro EV": 17
-, "Opel|Combo-e": 17
 , "Honda|e": 16
 , "Mercedes-Benz|EQE": 15
 , "Renault|Twingo Z.E.": 15
