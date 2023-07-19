@@ -2448,7 +2448,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 774
 , "Volvo|XC40 Recharge pure electric": 595
 , "Tesla|Model 3": 504
-, "Mercedes-Benz|EQC": 492
+, "Mercedes-Benz|EQC": 493
 , "Audi|Q8 e-tron": 447
 , "Nissan|Leaf": 285
 , "Peugeot|e-2008": 282
@@ -2488,7 +2488,7 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 1
 , "Smart|Fortwo ED": 1
 , "Tesla|Model X": 1
-, "other": 53
+, "other": 52
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021",
@@ -2856,8 +2856,7 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|ES8": 10
 , "Mercedes-Benz|EQS": 5
 , "Hongqi|E-HS9": 4
-, "Peugeot|e-Rifter": 3
-, "other": 75
+, "other": 78
 });
 
 db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2021",
