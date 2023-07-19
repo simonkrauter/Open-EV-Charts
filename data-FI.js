@@ -4096,3 +4096,91 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 2
 , "other": 40
 });
+
+db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2775/June_2023.xlsx",
+{ "Toyota": 1509
+, "Škoda": 923
+, "Volkswagen": 902
+, "Tesla": 899
+, "Kia": 684
+, "Volvo": 626
+, "Mercedes-Benz": 585
+, "BMW": 448
+, "Opel": 396
+, "Audi": 352
+, "Citroën": 206
+, "Nissan": 203
+, "Ford": 196
+, "Peugeot": 168
+, "Hyundai": 150
+, "Mazda": 81
+, "Dacia": 66
+, "Seat": 65
+, "Polestar": 60
+, "Renault": 59
+, "Suzuki": 59
+, "Cupra": 57
+, "Fiat": 47
+, "Mitsubishi": 47
+, "Lexus": 41
+, "Land Rover": 33
+, "Subaru": 22
+, "Mini": 19
+, "Porsche": 16
+, "Honda": 15
+, "DS Automobiles": 5
+, "other": 224
+});
+
+db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/6",
+{ "Tesla|Model Y": 677
+, "Škoda|Enyaq": 224
+, "Volkswagen|ID.4": 190
+, "BMW|i4": 187
+, "Tesla|Model 3": 155
+, "Volvo|XC40 Recharge pure electric": 133
+, "Toyota|bZ4X": 128
+, "Opel|Mokka-e": 125
+, "Audi|Q4 e-tron": 113
+, "Opel|Corsa-e": 107
+, "Volvo|C40 Recharge": 88
+, "Citroën|ë-C4": 79
+, "Peugeot|e-2008": 67
+, "Mercedes-Benz|EQE": 60
+, "Polestar|2": 60
+, "Volkswagen|ID.3": 58
+, "Hyundai|Kona Electric": 51
+, "Mercedes-Benz|EQB": 44
+, "Audi|Q8 e-tron": 43
+, "Tesla|Model S": 43
+, "Volkswagen|ID.5": 39
+, "Kia|EV6": 32
+, "BMW|iX1": 28
+, "Nissan|Leaf": 25
+, "Mercedes-Benz|EQA": 24
+, "Tesla|Model X": 24
+, "Kia|Niro EV": 23
+, "Mercedes-Benz|EQS": 23
+, "Cupra|Born": 22
+, "Hyundai|Ioniq 5": 21
+, "Peugeot|e-208": 20
+, "Nissan|Ariya": 16
+, "Ford|Mustang Mach-E": 15
+, "Fiat|500e": 12
+, "Porsche|Taycan": 12
+, "Hyundai|Ioniq 6": 11
+, "Mercedes-Benz|EQC": 11
+, "Renault|Megane E-Tech": 10
+, "BMW|iX": 9
+, "Subaru|Solterra": 7
+, "BMW|iX3": 6
+, "Toyota|Proace Electric": 6
+, "BYD|Han EV": 5
+, "Citroën|Berlingo Electric": 5
+, "Mini|Cooper SE Electric": 5
+, "Volkswagen|e-up!": 4
+, "BMW|i7": 3
+, "BYD|Tang EV": 3
+, "Lexus|UX 300e": 2
+, "other": 36
+});
