@@ -4323,7 +4323,7 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 393
 });
 
-db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/03/Barometre-immatriculations-Avere-France-fevrier-2023.pdf",
+db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/03/Barometre-immatriculations-Avere-France-fevrier-2023.pdf, https://cleantechnica.com/2023/03/04/frances-plugin-evs-hit-24-in-february-dacia-spring-still-boss/",
 { "Dacia|Spring": 2872
 , "Tesla|Model Y": 2485
 , "Peugeot|e-208": 2092
@@ -4334,7 +4334,17 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 795
 , "Renault|Twingo Z.E.": 779
 , "Hyundai|Kona Electric": 522
-, "other": 5186
+, "Volkswagen|ID.3": 445
+, "Mini|Cooper SE Electric": 344
+, "Opel|Corsa-e": 290
+, "Peugeot|e-2008": 279
+, "Kia|Niro EV": 260
+, "Volvo|XC40 Recharge pure electric": 252
+, "Kia|EV6": 227
+, "Škoda|Enyaq": 221
+, "Audi|Q4 e-tron": 215
+, "Hyundai|Ioniq 5": 192
+, "other": 2461
 });
 
 db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2023-03-vp-france.pdf",
@@ -4376,7 +4386,7 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 484
 });
 
-db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/04/barometre-avere-colombus-mars-2023-2.pdf",
+db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/04/barometre-avere-colombus-mars-2023-2.pdf, https://cleantechnica.com/2023/04/03/french-ev-market-record-high-in-march-tesla-model-y-4th-overall-auto/",
 { "Tesla|Model Y": 6455
 , "Dacia|Spring": 3481
 , "Peugeot|e-208": 3256
@@ -4387,7 +4397,17 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 923
 , "Renault|Twingo Z.E.": 873
 , "Peugeot|e-2008": 693
-, "other": 8043
+, "Hyundai|Kona Electric": 650
+, "Opel|Corsa-e": 571
+, "Citroën|ë-C4": 468
+, "Volkswagen|ID.3": 409
+, "Mini|Cooper SE Electric": 349
+, "Cupra|Born": 321
+, "Volkswagen|e-up!": 321
+, "Volvo|XC40 Recharge pure electric": 288
+, "Volkswagen|ID.4": 286
+, "Audi|Q4 e-tron": 268
+, "other": 4112
 });
 
 db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2023_04_VP_france.pdf",
@@ -4429,7 +4449,7 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 466
 });
 
-db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/05/barometre-avere-colombus-avril-2023.pdf",
+db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/05/barometre-avere-colombus-avril-2023.pdf, https://cleantechnica.com/2023/05/02/france-in-april-bevs-up-phevs-down-spring-is-sprung/",
 { "Dacia|Spring": 2432
 , "Peugeot|e-208": 1563
 , "Fiat|500e": 1365
@@ -4440,7 +4460,18 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 618
 , "Renault|Zoe": 567
 , "Mini|Cooper SE Electric": 502
-, "other": 6129
+, "Volkswagen|ID.3": 439
+, "Opel|Corsa-e": 415
+, "Tesla|Model 3": 389
+, "Renault|Twingo Z.E.": 368
+, "Kia|Niro EV": 331
+, "Volkswagen|ID.4": 323
+, "Škoda|Enyaq": 250
+, "Kia|EV6": 238
+, "MG|ZS EV": 233
+, "Citroën|ë-C4": 205
+, "Volvo|XC40 Recharge pure electric": 170
+, "other": 2768
 });
 
 db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/06/2023_05_VP_france.pdf",
@@ -4481,7 +4512,7 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 10902
 });
 
-db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/06/barometre-avere-colombus-mai-2023-1.pdf",
+db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/06/barometre-avere-colombus-mai-2023-1.pdf, https://cleantechnica.com/2023/06/04/france-plugins-up-new-stellantis-bevs/",
 { "Tesla|Model Y": 2709
 , "Fiat|500e": 2601
 , "Peugeot|e-208": 1914
@@ -4492,7 +4523,17 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 574
 , "Peugeot|e-2008": 563
 , "Opel|Corsa-e": 491
-, "other": 7747
+, "Renault|Zoe": 491
+, "Kia|Niro EV": 481
+, "Hyundai|Kona Electric": 464
+, "Volkswagen|ID.4": 441
+, "MG|ZS EV": 399
+, "Volkswagen|ID.3": 371
+, "Jeep|Avenger EV": 334
+, "Volvo|XC40 Recharge pure electric": 316
+, "Škoda|Enyaq": 309
+, "Renault|Twingo Z.E.": 303
+, "other": 3838
 });
 
 db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/07/2023_06_VP_france.pdf",
@@ -4534,7 +4575,7 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 1284
 });
 
-db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/07/barometre-avere-colombus-juin-2023-2.pdf",
+db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/07/barometre-avere-colombus-juin-2023-2.pdf, https://cleantechnica.com/2023/07/24/100-electric-vehicles-now-equal-18-of-new-car-sales-in-france/",
 { "Tesla|Model Y": 4335
 , "Tesla|Model 3": 3966
 , "Fiat|500e": 2781
@@ -4545,5 +4586,9 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 885
 , "Mini|Cooper SE Electric": 880
 , "Renault|Twingo Z.E.": 823
-, "other": 10343
+, "MG|ZS EV": 741
+, "Volkswagen|ID.3": 740
+, "Peugeot|e-2008": 645
+, "Volvo|XC40 Recharge pure electric": 143
+, "other": 8074
 });
