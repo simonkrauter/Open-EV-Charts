@@ -963,6 +963,11 @@ var db = {
   getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound) {
     var hints = [];
 
+    // missing countries
+    if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric) && this.isCombinedCountry(chartConfig)) {
+      hints.push("Those are not the 'worldwide' numbers, because several countries are missing.");
+    }
+
     // parse general hints
     const keyword = " (Incomplete: ";
     for (const text in sources) {
