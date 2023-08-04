@@ -939,23 +939,23 @@ var db = {
     if (date < currentDate)
       return;
 
-    // Remove last month/quarter/year if it is incomplete
-    var expectedNumberOfMonth;
-    if (chartConfig.xProperty == this.xProperties.year)
-      expectedNumberOfMonth = 12;
-    else if (chartConfig.xProperty == this.xProperties.quarter)
-      expectedNumberOfMonth = 3;
-    else
-      expectedNumberOfMonth = 1;
-    for (const countryName in monthsPerCountryAndTimeSpan) {
-      const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
-      if (monthsPerQuarter[timeSpan] === undefined || monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
-        // Remove time span from all series and from categories
-        for (const seriesName in seriesRows) {
-          delete seriesRows[seriesName][timeSpan];
+    // Remove last month/quarter if it is incomplete
+    if (chartConfig.xProperty != this.xProperties.year) {
+      var expectedNumberOfMonth;
+      if (chartConfig.xProperty == this.xProperties.quarter)
+        expectedNumberOfMonth = 3;
+      else
+        expectedNumberOfMonth = 1;
+      for (const countryName in monthsPerCountryAndTimeSpan) {
+        const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
+        if (monthsPerQuarter[timeSpan] === undefined || monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
+          // Remove time span from all series and from categories
+          for (const seriesName in seriesRows) {
+            delete seriesRows[seriesName][timeSpan];
+          }
+          categories.pop();
+          return;
         }
-        categories.pop();
-        return;
       }
     }
   },
