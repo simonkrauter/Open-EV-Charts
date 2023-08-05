@@ -860,6 +860,8 @@ var db = {
           else
             category = model;
         }
+        if (category == "other")
+          category = "Other";
 
         // set seriesName
         var seriesName = this.singleSeriesName;
