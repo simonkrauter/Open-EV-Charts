@@ -900,7 +900,7 @@ var db = {
       }
     }
 
-    this.removeLastIncompleteTimeSpan(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+    this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
     return {
       seriesRows: seriesRows,
@@ -910,8 +910,8 @@ var db = {
     };
   },
 
-  removeLastIncompleteTimeSpan: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
-    if (!this.isTimeXProperty(chartConfig))
+  removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
+    if (![this.xProperties.month, this.xProperties.quarter].includes(chartConfig.xProperty))
       return;
     if ( ![this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
       return;
@@ -932,30 +932,26 @@ var db = {
       const year = parts[0];
       const quarter = parts[1].substr(1);
       date = new Date(year, this.quarterToMonth(quarter) + 2, 16); // end of quarter plus 15 days
-    } else if (chartConfig.xProperty == this.xProperties.year) {
-      date = new Date(timeSpan, 12, 16); // end of year plus 15 days
     }
     const currentDate = new Date();
     if (date < currentDate)
       return;
 
     // Remove last month/quarter if it is incomplete
-    if (chartConfig.xProperty != this.xProperties.year) {
-      var expectedNumberOfMonth;
-      if (chartConfig.xProperty == this.xProperties.quarter)
-        expectedNumberOfMonth = 3;
-      else
-        expectedNumberOfMonth = 1;
-      for (const countryName in monthsPerCountryAndTimeSpan) {
-        const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
-        if (monthsPerQuarter[timeSpan] === undefined || monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
-          // Remove time span from all series and from categories
-          for (const seriesName in seriesRows) {
-            delete seriesRows[seriesName][timeSpan];
-          }
-          categories.pop();
-          return;
+    var expectedNumberOfMonth;
+    if (chartConfig.xProperty == this.xProperties.month)
+      expectedNumberOfMonth = 1;
+    else if (chartConfig.xProperty == this.xProperties.quarter)
+      expectedNumberOfMonth = 3;
+    for (const countryName in monthsPerCountryAndTimeSpan) {
+      const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
+      if (monthsPerQuarter[timeSpan] === undefined || monthsPerQuarter[timeSpan].length != expectedNumberOfMonth) {
+        // Remove time span from all series and from categories
+        for (const seriesName in seriesRows) {
+          delete seriesRows[seriesName][timeSpan];
         }
+        categories.pop();
+        return;
       }
     }
   },
