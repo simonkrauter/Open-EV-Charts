@@ -338,17 +338,17 @@ var db = {
     var param = {};
     param.name = "xProperty";
     param.options = {};
-    param.options[this.xProperties.month] = "Per Month";
-    param.options[this.xProperties.quarter] = "Per Quarter";
-    param.options[this.xProperties.year] = "Per Year";
+    param.options[this.xProperties.month] = "By Month";
+    param.options[this.xProperties.quarter] = "By Quarter";
+    param.options[this.xProperties.year] = "By Year";
     if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
-      param.options[this.xProperties.country] = "Per Country";
+      param.options[this.xProperties.country] = "By Country";
     if (chartConfig == null || ![this.metrics.ratioElectric, this.metrics.shareElectric, , this.metrics.shareAll].includes(chartConfig.metric))
-      param.options[this.xProperties.company] = "Per Company";
+      param.options[this.xProperties.company] = "By Company";
     if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectric)
-      param.options[this.xProperties.brand] = "Per Brand";
+      param.options[this.xProperties.brand] = "By Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
-      param.options[this.xProperties.model] = "Per Model";
+      param.options[this.xProperties.model] = "By Model";
     param.defaultOption = this.xProperties.month;
     param.showAsFilter = true;
     result[param.name] = param;
