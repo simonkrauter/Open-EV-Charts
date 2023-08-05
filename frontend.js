@@ -590,7 +590,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       chartOptions.options.scales.x.stacked = true;
       chartOptions.options.scales.y.stacked = true;
     }
-    if ([db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric) && !db.isSumPerSeries(chartConfig) && chartConfig.brand == db.brandOptions.all) {
+    if (db.isYAxisPercent(chartConfig)) {
       chartOptions.options.scales.y.max = 100;
     }
     if (isSingleChart && window.innerWidth >= 1000) {

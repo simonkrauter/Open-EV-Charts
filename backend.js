@@ -1190,6 +1190,10 @@ var db = {
     return false;
   },
 
+  isYAxisPercent: function(chartConfig) {
+    return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && !this.isSumPerSeries(chartConfig) && chartConfig.brand == this.brandOptions.all;
+  },
+
   queryChartData: function(chartConfig, sortByName = false) {
     // Returns the data for a spedific view
     var result = {};
