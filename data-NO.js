@@ -4356,17 +4356,17 @@ db.insert(db.countries.NO, "2023-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 
 db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2023",
 { "Tesla|Model Y": 3125
-, "Volkswagen|ID.4": 1127
-, "Škoda|Enyaq": 788
+, "Volkswagen|ID.4": 1130
+, "Škoda|Enyaq": 793
 , "Volvo|XC40 Recharge pure electric": 412
-, "Audi|Q4 e-tron": 372
+, "Audi|Q4 e-tron": 373
 , "Ford|Mustang Mach-E": 368
 , "Audi|Q8 e-tron": 318
 , "Kia|EV6": 314
 , "Hyundai|Kona Electric": 294
 , "BMW|iX1": 291
 , "Tesla|Model 3": 288
-, "Volkswagen|ID.5": 267
+, "Volkswagen|ID.5": 274
 , "Volkswagen|ID.3": 248
 , "MG|MG4 EV": 242
 , "Nissan|Ariya": 238
@@ -4374,22 +4374,22 @@ db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 222
 , "Toyota|bZ4X": 220
 , "Mercedes-Benz|EQA": 188
-, "Opel|Corsa-e": 172
+, "Opel|Corsa-e": 184
+, "Peugeot|e-2008": 157
 , "Nissan|Leaf": 156
-, "Peugeot|e-2008": 156
 , "Opel|Mokka-e": 151
 , "Kia|Niro EV": 136
 , "Citroën|ë-C4": 113
+, "Peugeot|e-208": 100
 , "Cupra|Born": 95
-, "Mercedes-Benz|EQE": 86
+, "Mercedes-Benz|EQE": 87
 , "Hyundai|Ioniq 6": 82
-, "Peugeot|e-208": 81
 , "BMW|iX3": 79
 , "MG|ZS EV": 74
 , "Volvo|C40 Recharge": 63
+, "Subaru|Solterra": 61
 , "BYD|Tang EV": 58
 , "Nio|ES8": 54
-, "Subaru|Solterra": 51
 , "Mercedes-Benz|EQS": 48
 , "Renault|Megane E-Tech": 47
 , "Mercedes-Benz|EQB": 46
@@ -4405,7 +4405,7 @@ db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 21
 , "Tesla|Model X": 19
 , "Tesla|Model S": 16
-, "other": 1140
+, "other": 1081
 });
 
 
