@@ -1063,18 +1063,18 @@ var db = {
     } else if (sortByName) {
       // Alphabetic sort
       categories.sort(function(a, b) {
-        if (a == "other")
+        if (a == "Other")
           return 1;
-        if (b == "other")
+        if (b == "Other")
           return -1;
         return a.localeCompare(b);
       });
     } else {
       // Sort by value
       categories.sort(function(a, b) {
-        if (a == "other")
+        if (a == "Other")
           return 1;
-        if (b == "other")
+        if (b == "Other")
           return -1;
         var valueA = 0;
         var valueB = 0;
