@@ -506,8 +506,11 @@ var db = {
       if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl) {
         var values = chartConfig[param.name].split(",");
         for (const i in values) {
-          if (values[i] != "")
-            parts.push(this.formatForUrl(values[i]));
+          if (values[i] != "") {
+            const encoded = this.formatForUrl(values[i]);
+            if (!parts.includes(encoded))
+              parts.push(encoded);
+          }
         }
       }
     }
