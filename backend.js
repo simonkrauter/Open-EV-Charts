@@ -54,10 +54,16 @@ var db = {
   // List of brands used in the datasets.
   // Sorted alphabetical.
 
+  brandsUrlEncoded: [],
+  // List of brands used in the datasets, URL-encoded.
+
   models: [],
   // List of electric car models used in the datasets.
   // Format: e.g. "Tesla|Model 3".
   // Sorted alphabetical.
+
+  modelsUrlEncoded: [],
+  // List of electric car models used in the datasets, URL-encoded.
 
   initialize: function() {
     // fill country variables
@@ -122,6 +128,7 @@ var db = {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
+          this.brandsUrlEncoded.push(this.formatForUrl(brand));
         }
       }
     }
@@ -131,9 +138,11 @@ var db = {
         const brand = parts[0];
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
+          this.brandsUrlEncoded.push(this.formatForUrl(brand));
         }
         if (!this.models.includes(model)) {
           this.models.push(model);
+          this.modelsUrlEncoded.push(this.formatForUrl(model));
         }
       }
     }
