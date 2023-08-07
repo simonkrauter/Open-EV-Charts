@@ -41,21 +41,23 @@ var db = {
   //                object of model -> number of sales
 
   companyGroupNamesForUrl: [],
-  // List of company group names.
+  // List of company group names, URL-encoded.
 
   companiesByBrand: {},
   // Brand -> company.
 
   companies: [],
-  // Company groups and brands which do not belong to a company group.
+  // List of company groups and brands which do not belong to a company group.
+  // Sorted alphabetical.
 
   brands: [],
-  // All car brands used in the datasets.
-  // Format: e.g. "Tesla"
+  // List of brands used in the datasets.
+  // Sorted alphabetical.
 
   models: [],
-  // All car models used in the datasets.
-  // Format: e.g. "Tesla|Model 3"
+  // List of electric car models used in the datasets.
+  // Format: e.g. "Tesla|Model 3".
+  // Sorted alphabetical.
 
   initialize: function() {
     // fill country variables
