@@ -40,7 +40,7 @@ var db = {
   // - data:        object of brand -> number of sales or
   //                object of model -> number of sales
 
-  companyGroupNamesForUrl: [],
+  companyGroupNamesUrlEncoded: [],
   // List of company group names, URL-encoded.
 
   companiesByBrand: {},
@@ -145,7 +145,7 @@ var db = {
     // Process company groups
     var brandsInAGroup = [];
     for (const groupName in companyGroups) {
-      this.companyGroupNamesForUrl.push(this.formatForUrl(groupName));
+      this.companyGroupNamesUrlEncoded.push(this.formatForUrl(groupName));
       this.companies.push(groupName);
       const brands = companyGroups[groupName];
       for (const i in brands) {
