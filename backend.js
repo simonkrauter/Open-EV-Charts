@@ -356,70 +356,69 @@ var db = {
     // time span
     var param = {};
     param.name = "timeSpan";
+    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.year;
     param.options = {};
     param.options[this.timeSpanOptions.all] = "All Time";
-    if (chartConfig == null || ![this.xProperties.year, this.xProperties.quarter].includes(chartConfig.xProperty)) {
-      param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
-      param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
-    }
-    if (chartConfig == null || ![this.xProperties.year].includes(chartConfig.xProperty))
+    if (chartConfig != null && param.showAsFilter) {
+      if (chartConfig.xProperty != this.xProperties.quarter) {
+        param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
+        param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
+      }
       param.options[this.timeSpanOptions.last1y] = "Last Year";
-    param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
-    param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
-    param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
-    var currentDate = new Date();
-    var currentYear = currentDate.getFullYear();
-    var currentMonth = 1 + currentDate.getMonth();
-    currentMonth--;
-    if (currentMonth < 1) {
-      currentMonth = 12;
-      currentYear--;
-    }
-    if (chartConfig == null || ![this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
-      // single month
-      var year = currentYear;
-      var month = currentMonth;
-      for (var i = 0; i < 4; i++) {
-        param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
-        month--;
-        if (month < 1) {
-          month = 12;
-          year--;
+      param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
+      param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
+      param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
+      var currentDate = new Date();
+      var currentYear = currentDate.getFullYear();
+      var currentMonth = 1 + currentDate.getMonth();
+      currentMonth--;
+      if (currentMonth < 1) {
+        currentMonth = 12;
+        currentYear--;
+      }
+      if (chartConfig.xProperty != this.xProperties.quarter) {
+        // single month
+        var year = currentYear;
+        var month = currentMonth;
+        for (var i = 0; i < 4; i++) {
+          param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
+          month--;
+          if (month < 1) {
+            month = 12;
+            year--;
+          }
+        }
+        // single quarter
+        var year = currentYear;
+        var quarter = this.monthToQuarter(currentMonth);
+        for (var i = 0; i < 4; i++) {
+          param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
+          quarter--;
+          if (quarter < 1) {
+            quarter = 4;
+            year--;
+          }
         }
       }
-      // single quarter
-      var year = currentYear;
-      var quarter = this.monthToQuarter(currentMonth);
-      for (var i = 0; i < 4; i++) {
-        param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
-        quarter--;
-        if (quarter < 1) {
-          quarter = 4;
-          year--;
-        }
-      }
-    }
-    if (chartConfig == null || chartConfig.xProperty != this.xProperties.year) {
       // single year
       var year = currentYear;
       for (var i = 0; i <= 4; i++) {
         param.options["y" + year] = year;
         year--;
       }
-    }
-    if (chartConfig != null && chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null) {
       // Allow to select a time spans which is not included in the suggested options
-      var text = chartConfig.timeSpan.substr(1);
-      if (chartConfig.timeSpan.startsWith("q")) {
-        const year = chartConfig.timeSpan.substr(1, 4);
-        const quarter = chartConfig.timeSpan.substr(6, 1);
-        text = this.formatQuarter(year, quarter);
+      if (chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null) {
+        var text = chartConfig.timeSpan.substr(1);
+        if (chartConfig.timeSpan.startsWith("q")) {
+          const year = chartConfig.timeSpan.substr(1, 4);
+          const quarter = chartConfig.timeSpan.substr(6, 1);
+          text = this.formatQuarter(year, quarter);
+        }
+        param.options[chartConfig.timeSpan] = text;
       }
-      param.options[chartConfig.timeSpan] = text;
     }
     param.defaultOption = this.timeSpanOptions.last2y;
     param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
-    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.year;
     result[param.name] = param;
 
     // brand
