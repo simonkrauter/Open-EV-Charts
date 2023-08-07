@@ -541,9 +541,10 @@ var db = {
       var selectedValues = [];
       for (const j in parts) {
         const part = parts[j];
+        const partNormalized = this.normalizeSearchString(part);
         var optionsKeyMatched = null;
         for (const key in param.options) {
-          if (this.normalizeSearchString(key) == this.normalizeSearchString(part)) {
+          if (this.normalizeSearchString(key) == partNormalized) {
             optionsKeyMatched = key;
             delete parts[j]; // avoid using a part twice
             break;
