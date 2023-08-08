@@ -1283,12 +1283,15 @@ var db = {
       chartConfigForSum.model = this.modelOptions.all;
       var datasets;
       var datasetsForSum;
+      const isSumPerSeries = this.isSumPerSeries(chartConfig);
       if (chartConfig.metric == this.metrics.shareElectric) {
         datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+        if (!isSumPerSeries)
+          datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
       } else {
         datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
-        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
+        if (!isSumPerSeries)
+          datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
       }
       seriesRows = datasets.seriesRows;
       const seriesRowsKeys = Object.keys(seriesRows);
@@ -1300,7 +1303,6 @@ var db = {
       result.hints = datasets.hints;
 
       var sums = {};
-      const isSumPerSeries = this.isSumPerSeries(chartConfig);
       if (isSumPerSeries) {
         // sum per series
         for (const seriesName in datasets.seriesRows) {
