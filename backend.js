@@ -50,6 +50,9 @@ var db = {
   // List of company groups and brands which do not belong to a company group.
   // Sorted alphabetical.
 
+  companiesUrlEncoded: [],
+  // List of company groups and brands which do not belong to a company group, URL-encoded.
+
   brands: [],
   // List of brands used in the datasets.
   // Sorted alphabetical.
@@ -156,6 +159,7 @@ var db = {
     for (const groupName in companyGroups) {
       this.companyGroupNamesUrlEncoded.push(this.formatForUrl(groupName));
       this.companies.push(groupName);
+      this.companiesUrlEncoded.push(this.formatForUrl(groupName));
       const brands = companyGroups[groupName];
       for (const i in brands) {
         this.companiesByBrand[brands[i]] = groupName;
@@ -166,6 +170,7 @@ var db = {
       const brand = this.brands[i];
       if (!brandsInAGroup.includes(brand)) {
         this.companies.push(brand);
+        this.companiesUrlEncoded.push(this.formatForUrl(brand));
         this.companiesByBrand[brand] = brand;
       }
     }
