@@ -1211,7 +1211,10 @@ var db = {
     return false;
   },
 
-    return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && !this.isSumPerSeries(chartConfig) && chartConfig.brand == this.brandOptions.all;
+  isYAxisPercent: function(chartConfig) {
+    return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric);
+  },
+
   isYAxis100Percent: function(chartConfig) {
   },
 

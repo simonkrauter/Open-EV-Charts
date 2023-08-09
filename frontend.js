@@ -489,7 +489,7 @@ function createRemoveButton() {
 }
 
 function formatValue(chartConfig, value) {
-  if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinBrand, db.metrics.shareElectric, db.metrics.shareAll].includes(chartConfig.metric)) {
+  if (db.isYAxisPercent(chartConfig)) {
     if (chartConfig.view == db.views.table)
       return value.toFixed(1).toLocaleString() + " %";
     else
