@@ -590,7 +590,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       chartOptions.options.scales.x.stacked = true;
       chartOptions.options.scales.y.stacked = true;
     }
-    if (db.isYAxisPercent(chartConfig)) {
+    if (db.isYAxis100Percent(chartConfig)) {
       chartOptions.options.scales.y.max = 100;
     }
     if (isSingleChart && window.innerWidth >= 1000) {
