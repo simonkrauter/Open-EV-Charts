@@ -221,9 +221,6 @@ a.button.removeButton:after {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  padding: 3px;
-  font-size: 118%;
-  white-space: nowrap;
 }
 
 .chartTile:not(.single) {
@@ -236,6 +233,13 @@ a.button.removeButton:after {
 .chartTile .removeButton {
   position: absolute;
   right: 0;
+}
+
+.chartTitle {
+  display: inline-block;
+  padding: 3px;
+  font-size: 120%;
+  white-space: nowrap;
 }
 
 .tabButtons > * {
