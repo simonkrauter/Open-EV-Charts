@@ -221,6 +221,9 @@ a.button.removeButton:after {
   display: inline-block;
   vertical-align: top;
   position: relative;
+  padding: 3px;
+  font-size: 118%;
+  white-space: nowrap;
 }
 
 .chartTile:not(.single) {
@@ -228,13 +231,6 @@ a.button.removeButton:after {
   margin-right: 15px;
   margin-bottom: 20px;
   min-width: 300px;
-}
-
-.chartTitle {
-  display: inline-block;
-  padding: 3px;
-  font-size: 118%;
-  white-space: nowrap;
 }
 
 .chartTile .removeButton {
