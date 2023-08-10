@@ -40,6 +40,10 @@ var db = {
   // - data:        object of brand -> number of sales or
   //                object of model -> number of sales
 
+  companyGroupNames: [],
+  // List of company group names.
+  // Sorted alphabetical.
+
   companyGroupNamesUrlEncoded: [],
   // List of company group names, URL-encoded.
 
@@ -157,6 +161,7 @@ var db = {
     // Process company groups
     var brandsInAGroup = [];
     for (const groupName in companyGroups) {
+      this.companyGroupNames.push(groupName);
       this.companyGroupNamesUrlEncoded.push(this.formatForUrl(groupName));
       this.companies.push(groupName);
       this.companiesUrlEncoded.push(this.formatForUrl(groupName));
@@ -183,6 +188,9 @@ var db = {
       return a.localeCompare(b);
     });
     this.companies.sort(function(a, b) {
+      return a.localeCompare(b);
+    });
+    this.companyGroupNames.sort(function(a, b) {
       return a.localeCompare(b);
     });
   },
