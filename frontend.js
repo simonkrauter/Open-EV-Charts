@@ -6,8 +6,12 @@ document.onmousedown = function(event) {
   document.body.classList.remove("showFocus");
 };
 
-document.onkeydown = function() {
+document.onkeydown = function(event) {
   document.body.classList.add("showFocus");
+  if (screenshotMode && (event.key === "Escape" || event.key === "Esc")) {
+    screenshotMode = false;
+    renderPage();
+  }
 };
 
 const dynamicContent = document.createElement("DIV");
@@ -34,6 +38,7 @@ homeLink.addEventListener("click", function(event) {
 
 const maxHintsHeight = 75;
 
+var screenshotMode;
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
@@ -50,6 +55,7 @@ function navigate(retainShowAllOptionsParamName) {
   if (retainShowAllOptionsParamName === undefined || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
+  screenshotMode = false;
   chartSetConfig = getChartConfigFromUrl();
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
@@ -80,7 +86,26 @@ function renderPage() {
   dynamicContent.innerHTML = "";
   hintsDiv = null;
 
-  renderFilters();
+  if (screenshotMode)
+    document.body.classList.add("screenshotMode");
+  else
+    document.body.classList.remove("screenshotMode");
+
+  if (screenshotMode) {
+    const div = document.createElement("DIV");
+    div.classList.add("screenshotModeBanner");
+    const exitButton = document.createElement("A");
+    exitButton.addEventListener("click", function(event) {
+      event.preventDefault();
+      screenshotMode = false;
+      renderPage();
+    });
+    exitButton.appendChild(document.createTextNode("Exit Screenshot Mode"));
+    div.appendChild(exitButton);
+    dynamicContent.appendChild(div);
+  } else {
+    renderFilters();
+  }
 
   // Prevent displaying of too many charts at one
   var maxVisibleCharts = 4;
@@ -266,7 +291,7 @@ function addSelectElement(parent, defaultOptionText) {
 }
 
 function renderChart(chartIndex) {
-  var chartConfig = chartConfigs[chartIndex];
+  const chartConfig = chartConfigs[chartIndex];
   const params = db.getChartParams(chartConfig);
   const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
 
@@ -279,10 +304,10 @@ function renderChart(chartIndex) {
 
   renderChartTitle(chartDiv, chartConfig);
 
-  if (isSingleChart || chartConfig.view != params.view.defaultOption)
+  if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !screenshotMode)
     renderChartTabButtons(chartDiv);
 
-  if (isSingleChart && chartConfig.view != db.views.sources)
+  if (isSingleChart && chartConfig.view != db.views.sources && !screenshotMode)
     renderHints(chartDiv, chartConfig, chartData);
 
   if (chartData.series.length == 0) {
@@ -293,12 +318,21 @@ function renderChart(chartIndex) {
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
-      if (isSingleChart)
+      if (isSingleChart && !screenshotMode) {
         addPngExportButton(chartDiv);
+        addScreenshotModeButton(chartDiv);
+      }
     } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
       renderSources(chartConfig, chartDiv, chartData);
+  }
+
+  if (screenshotMode) {
+    const div = document.createElement("DIV");
+    div.classList.add("sourceUrl");
+    div.appendChild(document.createTextNode("Source: " + location.href));
+    chartDiv.appendChild(div);
   }
 
   return chartDiv;
@@ -635,19 +669,31 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
 
 function setChartSize(element) {
   const heightRatio = 0.6;
-  var heightOffset = 290;
-  if (isWidthEnoughForFilterAsButtons())
-    heightOffset += 10;
-  if (hintsDiv != null)
-    heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 2;
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;
-  var wantedWith = Math.min(window.innerWidth - 2, (window.innerHeight - heightOffset) / heightRatio);
+  var heightOffset;
+  if (screenshotMode) {
+    heightOffset = 150;
+  } else {
+    heightOffset = homeLink.parentNode.parentNode.offsetHeight + 205;
+    if (isWidthEnoughForFilterAsButtons())
+      heightOffset += 10;
+    if (hintsDiv != null)
+      heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
+  }
+  var widthOffset;
+  if (screenshotMode)
+    widthOffset = 70;
+  else
+    widthOffset = 10;
+  var wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart) {
     wantedWith = wantedWith / 2.33;
     wantedWith = Math.min(wantedWith, maxWidthMultiChart);
   }
+  if (screenshotMode)
+    wantedWith = Math.min(wantedWith, 1000);
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minHeight);
   element.style.width = width + "px";
@@ -674,6 +720,19 @@ function addPngExportButton(parent) {
     parent.removeChild(chartDiv);
   });
   parent.appendChild(exportButton);
+}
+
+function addScreenshotModeButton(parent) {
+  const button = document.createElement("A");
+  button.appendChild(document.createTextNode("Screenshot Mode"));
+  button.classList.add("export");
+  button.classList.add("screenshotModeButton");
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+    screenshotMode = true;
+    renderPage();
+  });
+  parent.appendChild(button);
 }
 
 function getChartSeriesColors(chartConfig, chartData) {

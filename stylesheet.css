@@ -9,6 +9,10 @@ body {
   min-width: 400px;
 }
 
+body.screenshotMode {
+  background: #262626;
+}
+
 input, select {
   font-size: inherit;
   font-family: inherit;
@@ -24,7 +28,7 @@ input[type=text]:focus {
   outline: none;
 }
 
-.title, .filters, th {
+.title, .filters, th, .screenshotModeBanner {
   background: #262626;
   color: white;
 }
@@ -35,10 +39,21 @@ input[type=text]:focus {
   position: relative;
 }
 
+.screenshotMode .title {
+  display: none;
+}
+
 .title > div {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.screenshotModeBanner > a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  font-size: 110%;
 }
 
 a, a:visited {
@@ -223,6 +238,14 @@ a.button.removeButton:after {
   position: relative;
 }
 
+.screenshotMode .chartTile {
+  background: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .chartTile:not(.single) {
   margin-left: 15px;
   margin-right: 15px;
@@ -360,8 +383,20 @@ a.export {
 
 a.pngExport {
   position: absolute;
+  right: 120px;
+  bottom: -15px;
+}
+
+a.screenshotModeButton {
+  position: absolute;
   right: 0;
-  bottom: -10px;
+  bottom: -15px;
+}
+
+.sourceUrl {
+  margin-top: 5px;
+  color: #474747;
+  font-size: 85%;
 }
 
 #tableExportContainer textarea {
