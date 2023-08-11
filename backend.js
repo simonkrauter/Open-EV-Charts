@@ -566,16 +566,6 @@ var db = {
     return result;
   },
 
-  isBarChartAllowed: function(chartConfig) {
-    if (chartConfig == null)
-      return true;
-    if (chartConfig.metric == this.metrics.all)
-      return true;
-    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.detailLevel == this.detailLevels.total && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
-      return false;
-    return this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig);
-  },
-
   encodeChartConfig: function(chartConfig) {
     chartConfig = this.makeChartConfigValid(chartConfig);
     var parts = [];
@@ -1332,6 +1322,16 @@ var db = {
       }
     }
     return 1;
+  },
+
+  isBarChartAllowed: function(chartConfig) {
+    if (chartConfig == null)
+      return true;
+    if (chartConfig.metric == this.metrics.all)
+      return true;
+    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.detailLevel == this.detailLevels.total && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
+      return false;
+    return this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig);
   },
 
   isBarChartStacked: function(chartConfig) {
