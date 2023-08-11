@@ -135,7 +135,7 @@ var db = {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
-          this.brandsUrlEncoded.push(this.formatForUrl(brand));
+          this.brandsUrlEncoded.push(this.urlEncode(brand));
         }
       }
     }
@@ -145,11 +145,11 @@ var db = {
         const brand = parts[0];
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
-          this.brandsUrlEncoded.push(this.formatForUrl(brand));
+          this.brandsUrlEncoded.push(this.urlEncode(brand));
         }
         if (!this.models.includes(model)) {
           this.models.push(model);
-          this.modelsUrlEncoded.push(this.formatForUrl(model));
+          this.modelsUrlEncoded.push(this.urlEncode(model));
         }
       }
     }
@@ -162,9 +162,9 @@ var db = {
     var brandsInAGroup = [];
     for (const groupName in companyGroups) {
       this.companyGroupNames.push(groupName);
-      this.companyGroupNamesUrlEncoded.push(this.formatForUrl(groupName));
+      this.companyGroupNamesUrlEncoded.push(this.urlEncode(groupName));
       this.companies.push(groupName);
-      this.companiesUrlEncoded.push(this.formatForUrl(groupName));
+      this.companiesUrlEncoded.push(this.urlEncode(groupName));
       const brands = companyGroups[groupName];
       for (const i in brands) {
         this.companiesByBrand[brands[i]] = groupName;
@@ -175,7 +175,7 @@ var db = {
       const brand = this.brands[i];
       if (!brandsInAGroup.includes(brand)) {
         this.companies.push(brand);
-        this.companiesUrlEncoded.push(this.formatForUrl(brand));
+        this.companiesUrlEncoded.push(this.urlEncode(brand));
         this.companiesByBrand[brand] = brand;
       }
     }
@@ -297,7 +297,7 @@ var db = {
   , "top30": 30
   },
 
-  formatForUrl: function(str) {
+  urlEncode: function(str) {
     if (str)
       return str.replace(/ /g, "-");
   },
@@ -484,13 +484,13 @@ var db = {
       if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand) {
         for (const i in this.companyGroupNames) {
           const company = this.companyGroupNames[i];
-          param.options[this.formatForUrl(company)] = company;
+          param.options[this.urlEncode(company)] = company;
         }
       } else {
         for (const i in this.companies) {
           const company = this.companies[i];
           if (company != "other")
-            param.options[this.formatForUrl(company)] = company;
+            param.options[this.urlEncode(company)] = company;
         }
       }
     }
@@ -511,8 +511,8 @@ var db = {
         const brand = this.brands[i];
         if (brand == "other")
           continue;
-        if (chartConfig == null || chartConfig.company == this.companyOptions.all || chartConfig.company == this.formatForUrl(this.companiesByBrand[brand]))
-          param.options[this.formatForUrl(brand)] = brand;
+        if (chartConfig == null || chartConfig.company == this.companyOptions.all || chartConfig.company == this.urlEncode(this.companiesByBrand[brand]))
+          param.options[this.urlEncode(brand)] = brand;
       }
     }
     param.defaultOption = this.brandOptions.all;
@@ -532,7 +532,7 @@ var db = {
         const brand = parts[0];
         const model = parts[1];
         if (chartConfig.brand == brand || chartConfig.company == brand)
-          param.options[this.formatForUrl(model)] = model;
+          param.options[this.urlEncode(model)] = model;
       }
     }
     param.defaultOption = this.modelOptions.all;
@@ -586,7 +586,7 @@ var db = {
         var values = chartConfig[param.name].split(",");
         for (const i in values) {
           if (values[i] != "") {
-            const encoded = this.formatForUrl(values[i]);
+            const encoded = this.urlEncode(values[i]);
             if (!parts.includes(encoded))
               parts.push(encoded);
           }
@@ -640,7 +640,7 @@ var db = {
         else
           parts.push(this.detailLevels.brand);
         if (brand in this.companiesByBrand) {
-          const company = this.formatForUrl(this.companiesByBrand[brand]);
+          const company = this.urlEncode(this.companiesByBrand[brand]);
           if (company != brand)
             parts.push(company);
         }
@@ -986,11 +986,11 @@ var db = {
         }
 
         // apply filters
-        if (filterCompany != null && this.formatForUrl(company) != filterCompany)
+        if (filterCompany != null && this.urlEncode(company) != filterCompany)
           continue;
-        if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
+        if (filterBrand != null && this.urlEncode(brand) != filterBrand)
           continue;
-        if (filterModel != null && this.formatForUrl(model) != filterModel)
+        if (filterModel != null && this.urlEncode(model) != filterModel)
           continue;
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
