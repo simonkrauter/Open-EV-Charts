@@ -176,6 +176,15 @@ function renderFilterAsDropDown(parentDiv, param) {
     option.selected = optionKey == selectedKey;
     select.appendChild(option);
   }
+
+  // mark it as new feature
+  if (["detailLevel", "company"].includes(param.name)) {
+    const span = document.createElement("SPAN");
+    span.classList.add("newFeatureIndicator");
+    span.appendChild(document.createTextNode("New"));
+    span.title = "Recently added feature";
+    select.parentNode.appendChild(span);
+  }
 }
 
 function renderFilterAsButtons(parentDiv, param) {
@@ -709,6 +718,13 @@ function addScreenshotModeButton(parent) {
     renderPage();
   });
   parent.appendChild(button);
+
+  // mark it as new feature
+  const span = document.createElement("SPAN");
+  span.classList.add("newFeatureIndicator");
+  span.appendChild(document.createTextNode("New"));
+  span.title = "Recently added feature";
+  button.appendChild(span);
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
