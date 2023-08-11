@@ -266,7 +266,7 @@ function addSelectElement(parent, defaultOptionText) {
 function renderChart(chartIndex) {
   var chartConfig = chartConfigs[chartIndex];
   const params = db.getChartParams(chartConfig);
-  const chartData = db.queryChartData(chartConfig, sortByName);
+  const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
 
   const chartDiv = document.createElement("DIV");
   dynamicContent.appendChild(chartDiv);
@@ -659,7 +659,7 @@ function addPngExportButton(parent) {
   exportButton.title = "Export chart";
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
-    const chartData = db.queryChartData(chartConfigs[0], sortByName);
+    const chartData = db.queryChartData(chartConfigs[0], sortByName, isSingleChart);
     const chartDiv = document.createElement("DIV");
     parent.appendChild(chartDiv);
 
