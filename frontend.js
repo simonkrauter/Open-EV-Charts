@@ -552,6 +552,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           }
         }
       },
+      responsive: false,
       plugins: {
         title: {
           display: isExport,
