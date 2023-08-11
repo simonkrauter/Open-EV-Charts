@@ -233,7 +233,7 @@ var db = {
   , "salesAll": "all-sales"
   , "salesElectric": "electric-sales"
   , "ratioElectric": "electric-ratio"
-  , "ratioElectricWithinBrand": "brand-electric-ratio"
+  , "ratioElectricWithinCompanyOrBrand": "brand-electric-ratio"
   , "shareElectric": "electric-share"
   , "shareAll": "all-share"
   },
@@ -263,14 +263,23 @@ var db = {
   , "combine": "combine-countries"
   },
 
+  detailLevels:
+  { "total": "total"
+  , "company": "split-companies"
+  , "brand": "split-brands"
+  , "model": "split-models"
+  },
+
+  companyOptions:
+  { "all": "all-companies"
+  },
+
   brandOptions:
   { "all": "all-brands"
-  , "combine": "combine-brands"
   },
 
   modelOptions:
   { "all": "all-models"
-  , "combine": "combine-models"
   },
 
   views:
@@ -297,6 +306,10 @@ var db = {
     return [this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty);
   },
 
+  isCompanyBrandModelXProperty: function(chartConfig) {
+    return [this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
+  },
+
   isMultiCountry: function(chartConfig) {
     return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
   },
@@ -320,7 +333,7 @@ var db = {
     param.options[this.metrics.ratioElectric] = "Relative EV Sales";
     param.options[this.metrics.shareElectric] = "EV Market Split";
     param.options[this.metrics.salesAll] = "All Cars Sales";
-    param.options[this.metrics.ratioElectricWithinBrand] = "EV Ratio within Brand";
+    param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
     param.options[this.metrics.shareAll] = "All Cars Market Split";
     if (chartConfig == null || chartConfig.country != this.countryOptions.all)
       param.options[this.metrics.all] = "All Metrics";
@@ -367,7 +380,7 @@ var db = {
     param.options[this.xProperties.year] = "By Year";
     if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
       param.options[this.xProperties.country] = "By Country";
-    if (chartConfig == null || ![this.metrics.ratioElectric, this.metrics.shareElectric, , this.metrics.shareAll].includes(chartConfig.metric))
+    if (chartConfig == null || ![this.metrics.ratioElectric].includes(chartConfig.metric))
       param.options[this.xProperties.company] = "By Company";
     if (chartConfig == null || chartConfig.metric != this.metrics.ratioElectric)
       param.options[this.xProperties.brand] = "By Brand";
@@ -445,43 +458,86 @@ var db = {
     param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
     result[param.name] = param;
 
+    // company/brand/model detail level
+    var param = {};
+    param.name = "detailLevel";
+    param.showAsFilter = chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig);
+    param.options = {};
+    if (chartConfig == null || ![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
+      param.options[this.detailLevels.total] = "Total";
+    if (chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig)) {
+      param.options[this.detailLevels.company] = "Split Companies";
+      param.options[this.detailLevels.brand] = "Split Brands";
+      if (chartConfig == null || ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
+        param.options[this.detailLevels.model] = "Split Models";
+    }
+    param.defaultOption = this.detailLevels.company;
+    result[param.name] = param;
+
+    // company
+    var param = {};
+    param.name = "company";
+    param.options = {};
+    param.options[this.companyOptions.all] = "All Companies";
+    param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.company && chartConfig.detailLevel != this.detailLevels.total);
+    if (chartConfig != null && param.showAsFilter) {
+      if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand) {
+        for (const i in this.companyGroupNames) {
+          const company = this.companyGroupNames[i];
+          param.options[this.formatForUrl(company)] = company;
+        }
+      } else {
+        for (const i in this.companies) {
+          const company = this.companies[i];
+          if (company != "other")
+            param.options[this.formatForUrl(company)] = company;
+        }
+      }
+    }
+    param.defaultOption = this.companyOptions.all;
+    param.excludeOnUnfoldAndTitle = [this.companyOptions.all];
+    param.showInTitle = chartConfig == null || ((chartConfig.brand == this.brandOptions.all || chartConfig.company == chartConfig.brand) && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
+    result[param.name] = param;
+
     // brand
+    const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
     var param = {};
     param.name = "brand";
+    param.showAsFilter = chartConfig == null || (([this.detailLevels.brand, this.detailLevels.model].includes(chartConfig.detailLevel) || chartConfig.xProperty == this.xProperties.model) && chartConfig.company != this.companyOptions.all && filterContainsMultipleBrands);
     param.options = {};
     param.options[this.brandOptions.all] = "All Brands";
-    if (chartConfig == null || (![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)))
-      param.options[this.brandOptions.combine] = "Combine Brands";
-    if (chartConfig == null || ![this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty)) {
+    if (chartConfig != null && (param.showAsFilter || !filterContainsMultipleBrands)) {
       for (const i in this.brands) {
         const brand = this.brands[i];
-        if (brand != "other")
+        if (brand == "other")
+          continue;
+        if (chartConfig == null || chartConfig.company == this.companyOptions.all || chartConfig.company == this.formatForUrl(this.companiesByBrand[brand]))
           param.options[this.formatForUrl(brand)] = brand;
       }
     }
-    param.excludeOnUnfoldAndTitle = [this.brandOptions.all, this.brandOptions.combine];
     param.defaultOption = this.brandOptions.all;
-    param.showInTitle = true;
-    param.showAsFilter = chartConfig == null || ![this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty);
+    param.excludeOnUnfoldAndTitle = [this.brandOptions.all];
+    param.showInTitle = chartConfig == null || (chartConfig.brand != chartConfig.company && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
     result[param.name] = param;
 
     // model
     var param = {};
     param.name = "model";
+    param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.brand != this.brandOptions.all || !filterContainsMultipleBrands));
     param.options = {};
-    if (chartConfig == null || ![this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty))
-      param.options[this.modelOptions.all] = "All Models";
-    param.options[this.modelOptions.combine] = "Combine Models";
-    for (const i in this.models) {
-      const parts = this.models[i].split("|", 2);
-      const brand = parts[0];
-      const model = parts[1];
-      if (chartConfig == null || chartConfig.brand == brand)
-        param.options[this.formatForUrl(model)] = model;
+    param.options[this.modelOptions.all] = "All Models";
+    if (chartConfig != null && param.showAsFilter) {
+      for (const i in this.models) {
+        const parts = this.models[i].split("|", 2);
+        const brand = parts[0];
+        const model = parts[1];
+        if (chartConfig.brand == brand || chartConfig.company == brand)
+          param.options[this.formatForUrl(model)] = model;
+      }
     }
-    param.defaultOption = this.modelOptions.combine;
-    param.showInTitle = chartConfig == null || ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model);
-    param.showAsFilter = chartConfig == null || (![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric) && chartConfig.brand != this.brandOptions.combine);
+    param.defaultOption = this.modelOptions.all;
+    param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
+    param.showInTitle = true;
     result[param.name] = param;
 
     // max series
@@ -514,7 +570,9 @@ var db = {
   isBarChartAllowed: function(chartConfig) {
     if (chartConfig == null)
       return true;
-    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.brand == this.brandOptions.combine && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
+    if (chartConfig.metric == this.metrics.all)
+      return true;
+    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.detailLevel == this.detailLevels.total && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
       return false;
     return this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig);
   },
@@ -555,8 +613,40 @@ var db = {
 
   decodeChartConfigString: function(chartConfigString) {
     var parts = [];
-    if (chartConfigString != "")
-      parts = chartConfigString.split(":");
+    if (chartConfigString != "") {
+      const partsRaw = chartConfigString.split(":");
+      // process strings for backward compatibility
+      var containsDetailLevel = false;
+      var brand = "";
+      var model = "";
+      for (const i in partsRaw) {
+        var part = partsRaw[i];
+        if (part == "combine-brands")
+          part = this.detailLevels.total;
+        else if (part == "all-models")
+          part = this.detailLevels.model;
+        else if (part in this.detailLevels)
+          containsDetailLevel = true;
+        else if (!containsDetailLevel && brand == "" && this.brandsUrlEncoded.includes(part))
+          brand = part;
+        else if (!containsDetailLevel && brand != "" && model == "" && this.modelsUrlEncoded.includes(brand + "|" + part))
+          model = part;
+        parts.push(part);
+      }
+      if (!containsDetailLevel && brand != "") {
+        if (model != "")
+          parts.push(this.detailLevels.model);
+        else if (this.companiesUrlEncoded.includes(brand))
+          parts.push(this.detailLevels.company);
+        else
+          parts.push(this.detailLevels.brand);
+        if (brand in this.companiesByBrand) {
+          const company = this.formatForUrl(this.companiesByBrand[brand]);
+          if (company != brand)
+            parts.push(company);
+        }
+      }
+    }
     var result = {};
     var params = this.getChartParams();
     for (const i in params) {
@@ -625,16 +715,14 @@ var db = {
 
     if (chartConfig.xProperty == this.xProperties.country)
       chartConfig.country = this.countryOptions.all;
+    if (chartConfig.xProperty == this.xProperties.company)
+      chartConfig.company = this.companyOptions.all;
     if (chartConfig.xProperty == this.xProperties.brand)
       chartConfig.brand = this.brandOptions.all;
-    if (chartConfig.brand == this.brandOptions.combine && chartConfig.model == this.modelOptions.all)
-      chartConfig.model = this.modelOptions.combine;
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
     if (chartConfig.metric == this.metrics.all && chartConfig.country == this.countryOptions.all)
       chartConfig.metric = params.metric.defaultOption;
-    if (chartConfig.metric == this.metrics.ratioElectricWithinBrand)
-      chartConfig.model = this.modelOptions.combine;
 
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
       chartConfig.country = db.countriesCodes[this.countriesWithData[0]];
@@ -642,8 +730,12 @@ var db = {
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
+    if (!Object.keys(params.company.options).includes(chartConfig.company))
+      chartConfig.company = params.company.defaultOption;
     if (!Object.keys(params.brand.options).includes(chartConfig.brand))
       chartConfig.brand = params.brand.defaultOption;
+    if (!Object.keys(params.model.options).includes(chartConfig.model))
+      chartConfig.model = params.model.defaultOption;
 
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null && chartConfig.timeSpan.startsWith("m"))
       chartConfig.timeSpan = params.timeSpan.defaultOption;
@@ -655,6 +747,10 @@ var db = {
 
     if (!Object.keys(params.view.options).includes(chartConfig.view))
       chartConfig.view = params.view.defaultOption;
+
+    // set brand if selected company is not a group
+    if (chartConfig.company != this.companyOptions.all && !this.companyGroupNamesUrlEncoded.includes(chartConfig.company))
+      chartConfig.brand = chartConfig.company;
 
     return chartConfig;
   },
@@ -671,12 +767,16 @@ var db = {
   },
 
   unfoldChartConfig: function(chartConfig) {
+    if (!this.isTimeXProperty(chartConfig))
+      return [chartConfig];
     var yProperty;
-    if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all)
+    if (chartConfig.detailLevel == this.detailLevels.company && chartConfig.company == this.companyOptions.all)
+      yProperty = "company";
+    else if (chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand == this.brandOptions.all)
       yProperty = "brand";
-    else if (chartConfig.model != this.modelOptions.all)
-      yProperty = "country";
-    else if(!this.isTimeXProperty(chartConfig))
+    else if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
+      yProperty = "model";
+    else
       return [chartConfig];
     var result = [];
     result.push(chartConfig);
@@ -721,7 +821,7 @@ var db = {
   },
 
   getChartTitle: function(chartConfig, isSingleChart) {
-    var title = "";
+    var parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
       const param = params[i];
@@ -734,19 +834,31 @@ var db = {
         continue;
       if (!isSingleChart && chartConfig.unfoldedByParam != param.name)
         continue;
-      if (param.name == "country") {
-        // Prepend the country
-        if (title != "")
-          title = " – " + title;
-        title = param.options[value] + title;
-      } else {
-        // Append other parameters
-        if (title != "")
-          title = title + " – ";
-        title = title + param.options[value];
+      var text = param.options[value];
+      if (param.name == "metric") {
+        if (value == this.metrics.ratioElectricWithinCompanyOrBrand) {
+          if (chartConfig.xProperty != this.xProperties.brand && chartConfig.detailLevel == this.detailLevels.company)
+            text = "EV Ratio within Company";
+          else
+            text = "EV Ratio within Brand";
+        }
+        if (this.combineMetricAndCompanyOrBrandInTitle(chartConfig)) {
+          if (chartConfig.brand == this.brandOptions.all)
+            text = text + " within " + params.company.options[chartConfig.company];
+          else
+            text = text + " within " + params.brand.options[chartConfig.brand];
+        }
       }
+      if (param.name == "country")
+        parts.unshift(text);
+      else
+        parts.push(text);
     }
-    return title;
+    return parts.join(" – ");
+  },
+
+  combineMetricAndCompanyOrBrandInTitle: function(chartConfig) {
+    return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
 
   queryDataSets: function(chartConfig, dsType) {
@@ -762,11 +874,14 @@ var db = {
       }
     }
 
+    var filterCompany = null;
+    if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
+      filterCompany = chartConfig.company;
     var filterBrand = null;
-    if (![this.brandOptions.combine, this.brandOptions.all].includes(chartConfig.brand) && chartConfig.xProperty != this.xProperties.brand)
+    if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
     var filterModel = null;
-    if (![this.modelOptions.combine, this.modelOptions.all].includes(chartConfig.model) && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
+    if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
       filterModel = chartConfig.model;
     var filterYearFirst = null;
     var filterYearLast = null;
@@ -850,6 +965,7 @@ var db = {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
         const model = dataKeyParts[1];
+        const company = this.companiesByBrand[brand];
 
         // add entry to monthsPerCountryAndTimeSpan
         if (this.isTimeXProperty(chartConfig)) {
@@ -869,16 +985,18 @@ var db = {
         }
 
         // apply filters
+        if (filterCompany != null && this.formatForUrl(company) != filterCompany)
+          continue;
         if (filterBrand != null && this.formatForUrl(brand) != filterBrand)
           continue;
         if (filterModel != null && this.formatForUrl(model) != filterModel)
           continue;
-        if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
+        if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
         // set category
         if (chartConfig.xProperty == this.xProperties.company)
-          category = this.companiesByBrand[brand];
+          category = company;
         else if (chartConfig.xProperty == this.xProperties.brand)
           category = brand;
         else if (chartConfig.xProperty == this.xProperties.model) {
@@ -894,16 +1012,17 @@ var db = {
         var seriesName = this.singleSeriesName;
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
-        else if (filterModel == null && chartConfig.model != this.modelOptions.combine && chartConfig.xProperty != this.xProperties.model && chartConfig.brand != this.brandOptions.combine) {
-          if (chartConfig.brand == this.brandOptions.all)
-            seriesName = dataKey;
-          else if (model)
-            seriesName = model;
-        } else if (filterBrand == null && chartConfig.brand != this.brandOptions.combine && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) {
-          if (chartConfig.brand == this.brandOptions.all)
+        else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
+          if (chartConfig.detailLevel == this.detailLevels.company && filterCompany == null)
+            seriesName = company;
+          else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrand == null)
             seriesName = brand;
-          else
-            seriesName = dataKey;
+          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null) {
+            if (chartConfig.brand == this.brandOptions.all)
+              seriesName = dataKey;
+            else
+              seriesName = model;
+          }
         }
 
         // add entries to seriesRows, categories and sources
@@ -1011,14 +1130,14 @@ var db = {
     }
 
     // parse 'AllCarsByBrand not per brand'
-    if (chartConfig.metric == this.metrics.salesAll && chartConfig.brand != this.brandOptions.combine) {
+    if (chartConfig.metric == this.metrics.salesAll && chartConfig.detailLevel != this.detailLevels.total) {
       for (const text in sources) {
         if (text.includes("TODO: numbers per brand wanted")) {
           const sourceInfo = sources[text];
           var hint = "";
           if (this.isMultiCountry(chartConfig))
             hint = hint + this.countryNames[sourceInfo.country] + ": ";
-          if (chartConfig.xProperty == this.xProperties.company)
+          if (chartConfig.detailLevel == this.detailLevels.company || chartConfig.xProperty == this.xProperties.company)
             hint = hint + "All cars sales data per company is not available.";
           else
             hint = hint + "All cars sales data per brand is not available.";
@@ -1071,7 +1190,7 @@ var db = {
     }
 
     // potentially missing low number entries
-    if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && ![this.modelOptions.all, this.modelOptions.combine].includes(chartConfig.model)) {
+    if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && chartConfig.model != this.modelOptions.all) {
       hints.push("Low number entries could be missing, because data is limited to top 50 models per month.");
     }
 
@@ -1144,10 +1263,12 @@ var db = {
   },
 
   getSeriesNameColumnHeader: function(chartConfig) {
-    if (chartConfig.model == this.modelOptions.all)
-      return "Model";
-    else if (chartConfig.brand == this.brandOptions.all)
+    if (chartConfig.detailLevel == this.detailLevels.company)
+      return "Company";
+    else if (chartConfig.detailLevel == this.detailLevels.brand)
       return "Brand";
+    else if (chartConfig.detailLevel == this.detailLevels.model)
+      return "Model";
     else
       return "Country";
   },
@@ -1197,33 +1318,53 @@ var db = {
         }
       }
     }
-    if (this.isTimeXProperty(chartConfig) && chartConfig.brand == this.brandOptions.all) {
-      return this.brands.length;
+    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.company && chartConfig.company == this.companyOptions.all) {
+      return this.companies.length;
+    }
+    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand == this.brandOptions.all) {
+      if (chartConfig.company == this.companyOptions.all) {
+        return this.brands.length;
+      } else {
+        const i = this.companyGroupNamesUrlEncoded.indexOf(chartConfig.company);
+        if (i != -1)
+          return this.companyGroupNames.length;
+      }
     }
     return 1;
   },
 
-  isSumPerSeries: function(chartConfig) {
-    return (chartConfig.xProperty == this.xProperties.brand && chartConfig.model != this.modelOptions.all) || chartConfig.xProperty == this.xProperties.model;
-  },
-
   isBarChartStacked: function(chartConfig) {
-    if (chartConfig.brand == this.brandOptions.all && ![this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty) && chartConfig.metric != this.metrics.ratioElectricWithinBrand)
-      return true;
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       return true;
-    if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.model == this.modelOptions.all)
-      return true;
-    if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isSingleOrCombinedCountry(chartConfig))
-      return true;
+    if (![this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
+      return false;
+    if (this.isCompanyBrandModelXProperty(chartConfig))
+      return false;
+    if (chartConfig.detailLevel == this.detailLevels.company)
+      return chartConfig.company == this.companyOptions.all;
+    if (chartConfig.detailLevel == this.detailLevels.brand)
+      return chartConfig.brand == this.brandOptions.all;
+    if (chartConfig.detailLevel == this.detailLevels.model)
+      return chartConfig.model == this.modelOptions.all;
     return false;
   },
 
   isYAxisPercent: function(chartConfig) {
-    return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric);
+    return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric);
   },
 
   isYAxis100Percent: function(chartConfig) {
+    if (![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
+      return false;
+    if (this.isCompanyBrandModelXProperty(chartConfig))
+      return false;
+    if (chartConfig.detailLevel == this.detailLevels.company)
+      return chartConfig.company == this.companyOptions.all;
+    if (chartConfig.detailLevel == this.detailLevels.brand)
+      return chartConfig.brand == this.brandOptions.all;
+    if (chartConfig.detailLevel == this.detailLevels.model)
+      return chartConfig.model == this.modelOptions.all;
+    return false;
   },
 
   queryChartData: function(chartConfig, sortByName, isSingleChart) {
@@ -1244,10 +1385,14 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
       result.sources = datasets.sources;
       result.hints = datasets.hints;
-    } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinBrand].includes(chartConfig.metric)) {
+    } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric)) {
       var chartConfigForRatio = this.cloneObject(chartConfig);
-      if (chartConfig.metric == this.metrics.ratioElectric)
-        chartConfigForRatio.brand = this.brandOptions.combine;
+      if (chartConfig.metric == this.metrics.ratioElectric) {
+        chartConfigForRatio.detailLevel = this.detailLevels.total;
+        chartConfigForRatio.company = this.companyOptions.all;
+        chartConfigForRatio.brand = this.brandOptions.all;
+        chartConfigForRatio.model = this.modelOptions.all;
+      }
       var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
       var datasetsForRatio = this.queryDataSets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
       seriesRows = datasets.seriesRows;
@@ -1295,19 +1440,21 @@ var db = {
       result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
     } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       var chartConfigForSum = this.cloneObject(chartConfig);
-      chartConfigForSum.brand = this.brandOptions.all;
-      chartConfigForSum.model = this.modelOptions.all;
+      if (this.isTimeXProperty(chartConfig)) {
+        if (chartConfig.detailLevel == this.detailLevels.company)
+          chartConfigForSum.company = this.companyOptions.all;
+        if (chartConfig.detailLevel == this.detailLevels.brand || chartConfig.brand == chartConfig.company)
+          chartConfigForSum.brand = this.brandOptions.all;
+        chartConfigForSum.model = this.modelOptions.all;
+      }
       var datasets;
       var datasetsForSum;
-      const isSumPerSeries = this.isSumPerSeries(chartConfig);
       if (chartConfig.metric == this.metrics.shareElectric) {
         datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-        if (!isSumPerSeries)
-          datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
       } else {
         datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
-        if (!isSumPerSeries)
-          datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
+        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
       }
       seriesRows = datasets.seriesRows;
       const seriesRowsKeys = Object.keys(seriesRows);
@@ -1319,13 +1466,14 @@ var db = {
       result.hints = datasets.hints;
 
       var sums = {};
+      const isSumPerSeries = this.isCompanyBrandModelXProperty(chartConfig);
       if (isSumPerSeries) {
         // sum per series
         for (const seriesName in datasets.seriesRows) {
           var sum = 0;
-          for (const i in datasets.categories) {
-            const category = datasets.categories[i];
-            sum = sum + this.getValue(datasets.seriesRows[seriesName][category], 0);
+          for (const i in datasetsForSum.categories) {
+            const category = datasetsForSum.categories[i];
+            sum = sum + this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
           }
           sums[seriesName] = sum;
         }
@@ -1409,7 +1557,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (isSingleChart && Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && (chartConfig.brand != this.brandOptions.combine || chartConfig.country != this.countryOptions.combine) && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
+    if (isSingleChart && Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
@@ -1438,7 +1586,7 @@ var db = {
       }
     }
 
-    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
+    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
       result.series.push(otherSeries);
 
     return result;
