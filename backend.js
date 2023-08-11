@@ -537,7 +537,6 @@ var db = {
     }
     param.defaultOption = this.modelOptions.all;
     param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
-    param.showInTitle = true;
     result[param.name] = param;
 
     // max series
@@ -848,6 +847,8 @@ var db = {
           else
             text = text + " within " + params.brand.options[chartConfig.brand];
         }
+      } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all) {
+        text = text + " " + params.model.options[chartConfig.model];
       }
       if (param.name == "country")
         parts.unshift(text);
