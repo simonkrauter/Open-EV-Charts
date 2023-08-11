@@ -381,12 +381,6 @@ a.export {
   margin-right: 5px;
 }
 
-a.pngExport {
-  position: absolute;
-  right: 120px;
-  bottom: -15px;
-}
-
 a.screenshotModeButton {
   position: absolute;
   right: 0;

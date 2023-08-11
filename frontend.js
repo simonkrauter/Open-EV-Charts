@@ -318,10 +318,8 @@ function renderChart(chartIndex) {
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
-      if (isSingleChart && !screenshotMode) {
-        addPngExportButton(chartDiv);
+      if (isSingleChart && !screenshotMode)
         addScreenshotModeButton(chartDiv);
-      }
     } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
@@ -698,28 +696,6 @@ function setChartSize(element) {
   const height = Math.max(width * heightRatio, minHeight);
   element.style.width = width + "px";
   element.style.height = height + "px";
-}
-
-function addPngExportButton(parent) {
-  const exportButton = document.createElement("A");
-  exportButton.appendChild(document.createTextNode("PNG"));
-  exportButton.classList.add("export");
-  exportButton.classList.add("pngExport");
-  exportButton.title = "Export chart";
-  exportButton.addEventListener("click", function(event) {
-    event.preventDefault();
-    const chartData = db.queryChartData(chartConfigs[0], sortByName, isSingleChart);
-    const chartDiv = document.createElement("DIV");
-    parent.appendChild(chartDiv);
-
-    const chart = renderChartView(chartConfigs[0], chartData, chartDiv, true);
-    var url = chart.toBase64Image();
-    var win = window.open("about:blank");
-    win.document.write("<img src=\"" + url + "\" />");
-
-    parent.removeChild(chartDiv);
-  });
-  parent.appendChild(exportButton);
 }
 
 function addScreenshotModeButton(parent) {
