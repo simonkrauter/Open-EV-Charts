@@ -230,6 +230,10 @@ a.button.removeButton:after {
   min-width: 300px;
 }
 
+canvas {
+  margin:0 auto;
+}
+
 .chartTile .removeButton {
   position: absolute;
   right: 0;
