@@ -486,12 +486,20 @@ var testCaseNumber = -1;
 function addNextPrevButton(div, inc) {
   var button = document.createElement("A");
   button.href = "#";
+  button.style.padding = "0.6em";
+  button.style.textDecoration = "none";
   if (inc == 1) {
-    button.innerHTML = "+";
+    button.innerHTML = "+1";
     button.title = "Next test case";
-  } else {
-    button.innerHTML = "−";
+  } else if (inc == -1) {
+    button.innerHTML = "−1";
     button.title = "Previous test case";
+  } else if (inc == 5) {
+    button.innerHTML = "+5";
+    button.title = "Go 5 test cases forward";
+  } else if (inc == -5) {
+    button.innerHTML = "−5";
+    button.title = "Go 5 test cases backward";
   }
   button.classList.add("button");
   button.classList.add("active");
@@ -505,15 +513,23 @@ function addNextPrevButton(div, inc) {
 }
 
 function initTesting() {
-  var div = document.createElement("A");
+  var div = document.createElement("DIV");
   div.style.marginLeft = "1em";
-  homeLink.parentNode.appendChild(div);
+  div.style.fontSize = "130%";
+  homeLink.parentNode.parentNode.appendChild(div);
+  div.appendChild(document.createTextNode("Test case:"));
+  div.appendChild(document.createElement("BR"));
 
+  addNextPrevButton(div, -5);
   addNextPrevButton(div, -1);
 
   testCaseNumberInput = document.createElement("INPUT");
   testCaseNumberInput.type = "text";
-  testCaseNumberInput.style.width = "2.2em";
+  testCaseNumberInput.style.fontSize = "200%";
+  testCaseNumberInput.style.verticalAlign = "bottom";
+  testCaseNumberInput.style.width = "2.7em";
+  testCaseNumberInput.style.marginLeft = "0.2em";
+  testCaseNumberInput.style.marginRight = "0.2em";
   testCaseNumberInput.title = "Test case number";
   testCaseNumberInput.addEventListener("keyup", function(event) {
     const parsed = parseInt(testCaseNumberInput.value);
@@ -526,6 +542,7 @@ function initTesting() {
   div.appendChild(testCaseNumberInput);
 
   addNextPrevButton(div, 1);
+  addNextPrevButton(div, 5);
 
   addRandomTestingButton(div);
 
@@ -561,12 +578,12 @@ function loadTestCase() {
   }
 }
 
-function addRandomTestingButton(div) {
+function addRandomTestingButton(parent) {
+  var div = document.createElement("DIV");
+  parent.parentNode.appendChild(div);
   var button = document.createElement("A");
   button.href = "#";
   button.innerHTML = "Randomize Chart Config";
-  button.style.fontSize = "40%";
-  button.style.fontWeight = "normal";
   button.addEventListener("click", function(event) {
     event.preventDefault();
     randomizeChartConfig();
