@@ -69,9 +69,8 @@ function navigate(retainShowAllOptionsParamName) {
   logVisit();
 }
 
-function navigateToChartConfig(chartConfig, retainShowAllOptionsParamName) {
-  const hash = "#" + db.encodeChartConfig(chartConfig);
-  history.pushState(null, null, hash);
+function navigateToHash(hash, retainShowAllOptionsParamName) {
+  history.pushState(null, null, "#" + hash);
   navigate(retainShowAllOptionsParamName);
 }
 
@@ -163,7 +162,7 @@ function renderFilterAsDropDown(parentDiv, param) {
   var select = addSelectElement(parentDiv);
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
-    navigateToChartConfig(chartSetConfig);
+    navigateToHash(db.encodeChartConfig(chartSetConfig));
   });
   for (const optionKey in param.options) {
     var option = document.createElement("OPTION");
@@ -265,7 +264,7 @@ function renderFilterAsButtons(parentDiv, param) {
 
       db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
       chartSetConfig = newChartConfig;
-      navigateToChartConfig(chartSetConfig, param.name);
+      navigateToHash(db.encodeChartConfig(chartSetConfig), param.name);
     });
   }
 
@@ -438,7 +437,7 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
   button.href = "#" + db.encodeChartConfig(newChartConfig);
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    navigateToChartConfig(newChartConfig);
+    navigateToHash(db.encodeChartConfig(newChartConfig));
   });
   button.appendChild(document.createTextNode(title));
 }
@@ -480,7 +479,7 @@ function chartRemoveClick(event) {
   }
 
   chartSetConfig[currentParam.name] = newValues.join(",");
-  navigateToChartConfig(chartSetConfig);
+  navigateToHash(db.encodeChartConfig(chartSetConfig));
 }
 
 function addShowAllChartsButton() {
@@ -1020,7 +1019,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       containerElement.href = "#" + db.encodeChartConfig(newChartConfig);
       containerElement.addEventListener("click", function(event) {
         event.preventDefault();
-        navigateToChartConfig(newChartConfig);
+        navigateToHash(db.encodeChartConfig(newChartConfig));
       });
     } else {
       // content without link
