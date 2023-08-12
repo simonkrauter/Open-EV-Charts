@@ -55,8 +55,9 @@ function navigate(retainShowAllOptionsParamName) {
   if (retainShowAllOptionsParamName === undefined || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
+  const hash = decodeURIComponent(location.hash.substr(1));
   screenshotMode = false;
-  chartSetConfig = getChartConfigFromUrl();
+  chartSetConfig = db.decodeChartConfigString(hash);
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
@@ -107,7 +108,7 @@ function renderPage() {
     renderFilters();
   }
 
-  // Prevent displaying of too many charts at one
+  // Prevent displaying of too many charts at once
   var maxVisibleCharts = 4;
   if (isWidthEnoughForFilterAsButtons())
     maxVisibleCharts = 6;
@@ -120,11 +121,6 @@ function renderPage() {
 
   if (chartConfigs.length > maxVisibleCharts)
     addShowAllChartsButton();
-}
-
-function getChartConfigFromUrl() {
-  const hash = decodeURIComponent(location.hash.substr(1));
-  return db.decodeChartConfigString(hash);
 }
 
 function renderFilters() {
