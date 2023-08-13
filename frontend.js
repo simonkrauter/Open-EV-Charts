@@ -38,6 +38,7 @@ homeLink.addEventListener("click", function(event) {
 
 const maxHintsHeight = 75;
 
+var currentHash;
 var screenshotMode;
 var isSingleChart;
 var chartSetConfig;
@@ -55,9 +56,9 @@ function navigate(retainShowAllOptionsParamName) {
   if (retainShowAllOptionsParamName === undefined || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
-  const hash = decodeURIComponent(location.hash.substr(1));
+  currentHash = decodeURIComponent(location.hash.substr(1));
   screenshotMode = false;
-  chartSetConfig = db.decodeChartConfigString(hash);
+  chartSetConfig = db.decodeChartConfigString(currentHash);
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
