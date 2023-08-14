@@ -33,6 +33,7 @@ var db = {
   // - country:     country enum value
   // - countryName: country display name
   // - monthString: month in the form "2020-01"
+  // - perQuarter:  boolean
   // - year:        integer
   // - month:       integer 1..12
   // - dsType:      dataset dsType enum value
@@ -105,6 +106,7 @@ var db = {
       , dsType: dsType
       , source: source
       , data: {}
+      , perQuarter: true
       };
       for (const key in data) {
         const val = Math.round(data[key] / 3);
