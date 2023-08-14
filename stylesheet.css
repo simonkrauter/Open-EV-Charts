@@ -262,6 +262,10 @@ canvas {
   right: 0;
 }
 
+div:not(.chartTile) > .chartTitle {
+  margin-top: 6px;
+}
+
 .chartTitle {
   display: inline-block;
   padding: 3px;

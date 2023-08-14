@@ -87,6 +87,11 @@ function renderPage() {
   dynamicContent.innerHTML = "";
   hintsDiv = null;
 
+  if (currentHash.startsWith("status")) {
+    renderStatusPage();
+    return;
+  }
+
   if (screenshotMode)
     document.body.classList.add("screenshotMode");
   else
@@ -1150,4 +1155,183 @@ function createCountryFlagContainer(countryCode, text, inTable = false) {
   flagContainer.appendChild(textSpan);
 
   return flagContainer;
+}
+
+function renderStatusPage() {
+  // title
+  const titleElem = document.createElement("DIV");
+  dynamicContent.appendChild(titleElem);
+  titleElem.classList.add("chartTitle");
+  titleElem.appendChild(document.createTextNode("Status"));
+
+  // set active tab
+  const tabs =
+  { "status": "Countries"
+  };
+  if (!(currentHash in tabs))
+    currentHash = Object.keys(tabs)[0];
+
+  // tab buttons
+  const tabButtonsDiv = document.createElement("DIV");
+  dynamicContent.appendChild(tabButtonsDiv);
+  tabButtonsDiv.classList.add("tabButtons");
+  for (const hash in tabs) {
+    var button;
+    if (hash == currentHash)
+      button = document.createElement("DIV");
+    else
+      button = document.createElement("A");
+    tabButtonsDiv.appendChild(button);
+    button.href = "#" + hash;
+    button.addEventListener("click", function(event) {
+      event.preventDefault();
+      navigateToHash(hash);
+    });
+    button.appendChild(document.createTextNode(tabs[hash]));
+  }
+
+  // content
+  if (currentHash == "status")
+    renderCountriesStatusPage();
+}
+
+function renderCountriesStatusPage() {
+  const table = document.createElement("TABLE");
+  dynamicContent.appendChild(table);
+  const tr = document.createElement("TR");
+  table.appendChild(tr);
+  const columns = ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market"];
+  for (const i in columns) {
+    const th = document.createElement("TH");
+    tr.appendChild(th);
+    th.appendChild(document.createTextNode(columns[i]));
+  }
+  for (const i in db.countriesWithData) {
+    const countryId = db.countriesWithData[i];
+    const countryCode = db.countriesCodes[countryId];
+    const countryName = db.countryNames[countryId];
+    // collect data from the first dataset
+    var firstMonthString = "";
+    for (const j in db.datasets) {
+      const dataset = db.datasets[j];
+      if (dataset.country != countryId)
+        continue;
+      firstMonthString = dataset.monthString;
+      break;
+    }
+    // collect data from the latest AllCarsByBrand dataset
+    var lastMonthString = "";
+    var lastPerQuarter = false;
+    var allCarDataByBrand = false;
+    for (var j = db.datasets.length - 1; j >= 0; j--) {
+      const dataset = db.datasets[j];
+      if (dataset.country != countryId)
+        continue;
+      if (dataset.dsType != db.dsTypes.AllCarsByBrand)
+        continue;
+      lastMonthString = dataset.monthString;
+      lastPerQuarter = dataset.perQuarter;
+      allCarDataByBrand = Object.keys(dataset.data).length > 1;
+      break;
+    }
+    // collect data from the latest ElectricCarsByModel dataset
+    var latestEvDataset;
+    for (var j = db.datasets.length - 1; j >= 0; j--) {
+      const dataset = db.datasets[j];
+      if (dataset.country != countryId)
+        continue;
+      if (dataset.dsType != db.dsTypes.ElectricCarsByModel)
+        continue;
+      latestEvDataset = dataset;
+      break;
+    }
+    // collect data from the latest 24 datasets
+    var allCarSalesSum = 0;
+    var evSalesSum = 0;
+    var salesMonthCount = 0;
+    for (var j = db.datasets.length - 1; j >= 0; j--) {
+      const dataset = db.datasets[j];
+      if (dataset.country != countryId)
+        continue;
+      for (const dataKey in dataset.data) {
+        if (dataset.dsType == db.dsTypes.AllCarsByBrand)
+          allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
+        else if (dataset.dsType == db.dsTypes.ElectricCarsByModel)
+          evSalesSum = evSalesSum + dataset.data[dataKey];
+      }
+      if (dataset.dsType == db.dsTypes.AllCarsByBrand)
+        salesMonthCount++;
+      if (salesMonthCount == 24)
+        break;
+    }
+    const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
+    const evSalesPerYear = evSalesSum / salesMonthCount * 12;
+    const tr = document.createElement("TR");
+    table.appendChild(tr);
+    // name
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      const span = document.createElement("SPAN");
+      td.appendChild(span);
+      span.appendChild(createCountryFlagContainer(countryCode, countryName, true));
+    }
+    // available data
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      td.appendChild(document.createTextNode(firstMonthString + " – " + lastMonthString));
+      td.style.textAlign = "center";
+    }
+    // interval
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      if (lastPerQuarter)
+        td.appendChild(document.createTextNode("Quarter"));
+      else
+        td.appendChild(document.createTextNode("Month"));
+    }
+    // all car data
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      if (allCarDataByBrand)
+        td.appendChild(document.createTextNode("By brand"));
+      else
+        td.appendChild(document.createTextNode("Total only"));
+    }
+    // ev data
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      const latestEvDatasetLength = Object.keys(latestEvDataset.data).length;
+      if (latestEvDatasetLength >= 47)
+        td.appendChild(document.createTextNode("Top 50 models"));
+      else if (latestEvDatasetLength >= 20)
+        td.appendChild(document.createTextNode("Top 20 models"));
+      else if (latestEvDatasetLength >= 10)
+        td.appendChild(document.createTextNode("Top 10 models"));
+      if (latestEvDataset.source.includes("Incomplete")) {
+        const span = document.createElement("SPAN");
+        span.title = latestEvDataset.source;
+        span.appendChild(document.createTextNode(", incomplete"));
+        td.appendChild(span);
+      }
+    }
+    // car market size
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      td.appendChild(document.createTextNode((Math.round(allCarSalesPerYear / 1000) * 1000).toLocaleString()));
+      td.style.textAlign = "right";
+    }
+    // ev market size
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      td.appendChild(document.createTextNode((Math.round(evSalesPerYear / 1000) * 1000).toLocaleString()));
+      td.style.textAlign = "right";
+    }
+  }
 }
