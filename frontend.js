@@ -432,21 +432,16 @@ function renderHints(chartDiv, chartConfig, chartData) {
 }
 
 function renderChartTabButton(tabButtonsDiv, key, title) {
-  var button;
-  if (chartSetConfig.view == key)
-    button = document.createElement("DIV");
-  else
-    button = document.createElement("A");
-  tabButtonsDiv.appendChild(button);
-  var newChartConfig = db.cloneObject(chartSetConfig);
-  newChartConfig.view = key;
-  const hash = db.encodeChartConfig(newChartConfig);
-  button.href = "#" + hash;
-  button.addEventListener("click", function(event) {
-    event.preventDefault();
-    navigateToHash(hash);
-  });
-  button.appendChild(document.createTextNode(title));
+  var element;
+  if (chartSetConfig.view == key) {
+    element = document.createElement("DIV");
+  } else {
+    var newChartConfig = db.cloneObject(chartSetConfig);
+    newChartConfig.view = key;
+    element = createLinkToHash(db.encodeChartConfig(newChartConfig));
+  }
+  tabButtonsDiv.appendChild(element);
+  element.appendChild(document.createTextNode(title));
 }
 
 function chartRemoveClick(event) {
@@ -506,6 +501,16 @@ function showAllChartsButtonClick(event) {
       nodes[i].style.display = "";
   }
   event.target.style.display = "none";
+}
+
+function createLinkToHash(hash) {
+  const a = document.createElement("A");
+  a.href = "#" + hash;
+  a.addEventListener("click", function(event) {
+    event.preventDefault();
+    navigateToHash(hash);
+  });
+  return a;
 }
 
 function createButton() {
@@ -1028,13 +1033,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       }
       newChartConfig.view = null;
       db.applyNewDefaultOptions(newChartConfig, chartConfig);
-      const hash = db.encodeChartConfig(newChartConfig);
-      containerElement = document.createElement("A");
-      containerElement.href = "#" + hash;
-      containerElement.addEventListener("click", function(event) {
-        event.preventDefault();
-        navigateToHash(hash);
-      });
+      containerElement = createLinkToHash(db.encodeChartConfig(newChartConfig));
     } else {
       // content without link
       containerElement = document.createElement("SPAN");
@@ -1184,18 +1183,13 @@ function renderStatusPage() {
   dynamicContent.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tabButtons");
   for (const hash in tabs) {
-    var button;
+    var element;
     if (hash == currentHash)
-      button = document.createElement("DIV");
+      element = document.createElement("DIV");
     else
-      button = document.createElement("A");
-    tabButtonsDiv.appendChild(button);
-    button.href = "#" + hash;
-    button.addEventListener("click", function(event) {
-      event.preventDefault();
-      navigateToHash(hash);
-    });
-    button.appendChild(document.createTextNode(tabs[hash]));
+      element = createLinkToHash(hash);
+    tabButtonsDiv.appendChild(element);
+    element.appendChild(document.createTextNode(tabs[hash]));
   }
 
   // content
@@ -1280,14 +1274,8 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      const hash = db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all});
-      const a = document.createElement("A");
+      const a = createLinkToHash(db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all}));
       td.appendChild(a);
-      a.href = "#" + hash;
-      a.addEventListener("click", function(event) {
-        event.preventDefault();
-        navigateToHash(hash);
-      });
       a.appendChild(createCountryFlagContainer(countryCode, countryName, true));
     }
     // available data
