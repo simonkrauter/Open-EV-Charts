@@ -684,23 +684,23 @@ var db = {
   makeChartConfigValid: function(chartConfig) {
     var params = this.getChartParams(chartConfig);
 
-    if (chartConfig.country) {
-      var countryValues = chartConfig.country.split(",");
-      if (!countryValues.includes(this.countryOptions.all)) {
-        var singleCountryCount = 0;
+    var countryValues = [];
+    if (chartConfig.country)
+      countryValues = chartConfig.country.split(",");
+    if (!countryValues.includes(this.countryOptions.all)) {
+      var singleCountryCount = 0;
+      for (const i in countryValues) {
+        if (countryValues[i] != this.countryOptions.combine)
+          singleCountryCount++;
+      }
+      if (singleCountryCount == 0) {
+        countryValues.push(this.countryOptions.all);
+        chartConfig.country = countryValues.join(",");
+      } else if (singleCountryCount == 1 && countryValues.length > 0) {
         for (const i in countryValues) {
-          if (countryValues[i] != this.countryOptions.combine)
-            singleCountryCount++;
-        }
-        if (singleCountryCount == 0) {
-          countryValues.push(this.countryOptions.all);
-          chartConfig.country = countryValues.join(",");
-        } else if (singleCountryCount == 1 && countryValues.length > 0) {
-          for (const i in countryValues) {
-            if (countryValues[i] != this.countryOptions.combine) {
-              chartConfig.country = countryValues[i];
-              break;
-            }
+          if (countryValues[i] != this.countryOptions.combine) {
+            chartConfig.country = countryValues[i];
+            break;
           }
         }
       }
