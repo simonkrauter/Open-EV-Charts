@@ -1006,14 +1006,20 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       var newChartConfig = db.cloneObject(chartConfig);
       const textParts = text.split("|", 2);
       if (textParts.length > 1) {
-        newChartConfig.brand = textParts[0];
-        newChartConfig.model = textParts[1];
+        newChartConfig.company = db.urlEncode(db.companiesByBrand[textParts[0]]);
+        newChartConfig.brand = db.urlEncode(textParts[0]);
+        newChartConfig.model = db.urlEncode(textParts[1]);
+        newChartConfig.detailLevel = db.detailLevels.model;
       } else {
         const countryId = db.countryNamesReverse[text];
         if (countryId != null) {
           newChartConfig.country = db.countriesCodes[countryId];
+        } else if (text in companyGroups) {
+          newChartConfig.company = db.urlEncode(text);
         } else {
-          newChartConfig.model = text;
+          newChartConfig.company = db.urlEncode(db.companiesByBrand[text]);
+          newChartConfig.brand = db.urlEncode(text);
+          newChartConfig.detailLevel = db.detailLevels.brand;
         }
       }
       if (!db.isTimeXProperty(newChartConfig)) {
