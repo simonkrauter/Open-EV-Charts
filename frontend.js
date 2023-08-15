@@ -1272,9 +1272,15 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      const span = document.createElement("SPAN");
-      td.appendChild(span);
-      span.appendChild(createCountryFlagContainer(countryCode, countryName, true));
+      const hash = db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all});
+      const a = document.createElement("A");
+      td.appendChild(a);
+      a.href = "#" + hash;
+      a.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigateToHash(hash);
+      });
+      a.appendChild(createCountryFlagContainer(countryCode, countryName, true));
     }
     // available data
     {
