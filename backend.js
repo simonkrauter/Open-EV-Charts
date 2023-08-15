@@ -578,14 +578,16 @@ var db = {
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
       const param = params[i];
-      if (chartConfig[param.name] != param.defaultOption || param.alwaysAddToUrl) {
-        var values = chartConfig[param.name].split(",");
-        for (const i in values) {
-          if (values[i] != "") {
-            const encoded = this.urlEncode(values[i]);
-            if (!parts.includes(encoded))
-              parts.push(encoded);
-          }
+      if (chartConfig[param.name] == param.defaultOption && !param.alwaysAddToUrl)
+        continue;
+      if (!(param.name in chartConfig))
+        continue;
+      const values = chartConfig[param.name].split(",");
+      for (const i in values) {
+        if (values[i] != "") {
+          const encoded = this.urlEncode(values[i]);
+          if (!parts.includes(encoded))
+            parts.push(encoded);
         }
       }
     }
