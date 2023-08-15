@@ -440,10 +440,11 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
   tabButtonsDiv.appendChild(button);
   var newChartConfig = db.cloneObject(chartSetConfig);
   newChartConfig.view = key;
-  button.href = "#" + db.encodeChartConfig(newChartConfig);
+  const hash = db.encodeChartConfig(newChartConfig);
+  button.href = "#" + hash;
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    navigateToHash(db.encodeChartConfig(newChartConfig));
+    navigateToHash(hash);
   });
   button.appendChild(document.createTextNode(title));
 }
@@ -1021,11 +1022,12 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       }
       newChartConfig.view = null;
       db.applyNewDefaultOptions(newChartConfig, chartConfig);
+      const hash = db.encodeChartConfig(newChartConfig);
       containerElement = document.createElement("A");
-      containerElement.href = "#" + db.encodeChartConfig(newChartConfig);
+      containerElement.href = "#" + hash;
       containerElement.addEventListener("click", function(event) {
         event.preventDefault();
-        navigateToHash(db.encodeChartConfig(newChartConfig));
+        navigateToHash(hash);
       });
     } else {
       // content without link
