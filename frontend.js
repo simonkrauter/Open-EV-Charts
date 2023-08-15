@@ -991,12 +991,12 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     countryCode = db.countriesCodes[countryId];
   } else if (columnTitle == "Company" || columnTitle == "Brand") {
     addFlag = true;
-    countryCode = getCountryCodeForCompany(text);
+    countryCode = getCountryCodeForCompanyOrBrand(text);
   } else if (columnTitle == "Model") {
     addFlag = true;
     const parts = text.split("|", 2);
     const brand = parts[0];
-    countryCode = getCountryCodeForCompany(brand);
+    countryCode = getCountryCodeForCompanyOrBrand(brand);
   }
   if (addFlag) {
     var containerElement;
@@ -1107,7 +1107,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
   }
 }
 
-function getCountryCodeForCompany(companyOrBrand) {
+function getCountryCodeForCompanyOrBrand(companyOrBrand) {
   var countryCode = brandCountries[companyOrBrand];
   if (countryCode === undefined) {
     countryCode = companyGroupCountries[companyOrBrand];
