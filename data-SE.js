@@ -103,7 +103,7 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model X": 7
 , "Volkswagen|e-up!": 3
 , "Kia|Soul EV": 1
-, "NEVS|9-3EV": 1
+, "other": 1
 });
 
 db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -261,8 +261,8 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model X": 20
 , "Hyundai|Ioniq Electric": 19
 , "Volkswagen|e-up!": 11
-, "NEVS|9-3EV": 4
 , "Nissan|e-NV200": 2
+, "other": 4
 });
 
 db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -314,8 +314,8 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|Soul EV": 29
 , "Nissan|Leaf": 19
 , "Hyundai|Ioniq Electric": 13
-, "NEVS|9-3EV": 8
 , "Nissan|e-NV200": 1
+, "other": 8
 });
 
 db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1911,11 +1911,10 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Seat|Mii Electric": 9
 , "Jaguar|I-Pace": 6
 , "Mercedes-Benz|EQV": 4
-, "NEVS|9-3EV": 4
 , "Nissan|e-NV200": 3
 , "Volkswagen|e-Caddy": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
-, "other": 3
+, "other": 7
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2060,9 +2059,8 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Škoda|Citigo-e": 14
 , "Opel|Corsa-e": 4
 , "Nissan|e-NV200": 3
-, "NEVS|9-3EV": 2
 , "Peugeot|iOn": 1
-, "other": 8
+, "other": 10
 });
 
 db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2278,12 +2276,11 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|e-Golf": 3
 , "Honda|e": 2
 , "Mercedes-Benz|EQV": 2
-, "NEVS|9-3EV": 2
 , "Volkswagen|e-up!": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Mercedes-Benz|eVito": 1
 , "Tesla|Model X": 1
-, "other": 16
+, "other": 18
 });
 
 db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",

@@ -246,7 +246,6 @@ const brandCountries =
 , "Mazda": "JP"
 , "Mercedes-Benz": "DE"
 , "Mitsubishi": "JP"
-, "NEVS": "SE"
 , "Nio": "CN"
 , "Nissan": "JP"
 , "Opel": "DE"
