@@ -1178,6 +1178,7 @@ function renderStatusPage() {
   const tabs =
   { "status": "Countries"
   , "status:companies": "Companies and Brands"
+  , "status:models": "EV Models"
   };
   if (!(currentHash in tabs))
     currentHash = Object.keys(tabs)[0];
@@ -1201,6 +1202,8 @@ function renderStatusPage() {
     renderCountriesStatusPage();
   else if (currentHash == "status:companies")
     renderCompaniesStatusPage();
+  else if (currentHash == "status:models")
+    renderModelsStatusPage();
 }
 
 function renderCountriesStatusPage() {
@@ -1359,6 +1362,8 @@ function renderCompaniesStatusPage() {
   }
   for (const i in db.companies) {
     const company = db.companies[i];
+    if (company == "other")
+      continue;
     const firstTr = document.createElement("TR");
     table.appendChild(firstTr);
     // company
@@ -1401,7 +1406,71 @@ function renderCompaniesStatusPage() {
   }
 }
 
-function addEvSalesTd(tr, brand) {
+function renderModelsStatusPage() {
+  const table = document.createElement("TABLE");
+  dynamicContent.appendChild(table);
+  {
+    const tr = document.createElement("TR");
+    table.appendChild(tr);
+    const columns = ["Brand", "Model", "Annual EV Sales"];
+    for (const i in columns) {
+      const th = document.createElement("TH");
+      tr.appendChild(th);
+      th.appendChild(document.createTextNode(columns[i]));
+    }
+  }
+  for (const i in db.brands) {
+    const brand = db.brands[i];
+    if (brand == "other")
+      continue;
+    var models = [];
+    for (const j in db.models) {
+      const parts = db.models[j].split("|", 2);
+      if (parts[0] != brand)
+        continue;
+      if (parts[1] == "other")
+        continue;
+      models.push(parts[1]);
+    }
+    if (models.length == 0)
+      continue;
+    const firstTr = document.createElement("TR");
+    table.appendChild(firstTr);
+    // brand
+    const brandTd = document.createElement("TD");
+    firstTr.appendChild(brandTd);
+    {
+      const countryCode = getCountryCodeForCompanyOrBrand(brand);
+      const span = document.createElement("SPAN");
+      brandTd.appendChild(span);
+      span.appendChild(createCountryFlagContainer(countryCode, brand, true));
+    }
+    // models
+    brandTd.rowSpan = models.length;
+    var tr = firstTr;
+    for (var j = 0; j < models.length; j++) {
+      const model = models[j];
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      var newChartConfig = {};
+      newChartConfig.metric = db.metrics.salesElectric;
+      newChartConfig.company = db.urlEncode(db.companiesByBrand[brand]);
+      newChartConfig.brand = db.urlEncode(brand);
+      newChartConfig.model = db.urlEncode(model);
+      newChartConfig.detailLevel = db.detailLevels.model;
+      const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
+      td.appendChild(a);
+      a.appendChild(document.createTextNode(model));
+      addEvSalesTd(tr, brand, brand + "|" + model);
+      if (j < models.length - 1) {
+        tr = document.createElement("TR");
+        table.appendChild(tr);
+      }
+    }
+  }
+}
+
+function addEvSalesTd(tr, brand, brandAndModel = null) {
   var total = 0;
   for (const i in db.countriesWithData) {
     const curCountryId = db.countriesWithData[i];
@@ -1414,9 +1483,14 @@ function addEvSalesTd(tr, brand) {
       if (dataset.country != curCountryId)
         continue;
       for (const dataKey in dataset.data) {
-        const dataKeyParts = dataKey.split("|", 2);
-        if (dataKeyParts[0] != brand)
-          continue;
+        if (brandAndModel != null) {
+          if (dataKey != brandAndModel)
+            continue;
+        } else {
+          const dataKeyParts = dataKey.split("|", 2);
+          if (dataKeyParts[0] != brand)
+            continue;
+        }
         sum = sum + dataset.data[dataKey];
       }
       monthCount++;
