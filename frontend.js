@@ -339,7 +339,10 @@ function renderChart(chartIndex) {
   if (screenshotMode) {
     const div = document.createElement("DIV");
     div.classList.add("sourceUrl");
-    div.appendChild(document.createTextNode("Source: " + location.href));
+    var url = location.href;
+    if (url.startsWith("https://"))
+      url = url.substr(8);
+    div.appendChild(document.createTextNode("Source: " + url));
     chartDiv.appendChild(div);
   }
 
