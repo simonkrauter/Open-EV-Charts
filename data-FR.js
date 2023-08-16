@@ -60,11 +60,11 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 16
 , "Volkswagen|e-up!": 14
 , "Citroën|Berlingo Electric": 14
-, "Bollore|Bluecar": 10
 , "Tesla|Model S": 9
 , "Nissan|e-NV200": 7
 , "Citroën|E-Mehari": 7
 , "Tesla|Model X": 3
+, "other": 10
 });
 
 db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_02_vpfrance.pdf",
@@ -186,8 +186,8 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 33
 , "Volkswagen|e-up!": 30
 , "Citroën|E-Mehari": 25
-, "Bollore|Bluecar": 14
 , "Nissan|e-NV200": 2
+, "other": 14
 });
 
 db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_04_vpfrance.pdf",
@@ -250,7 +250,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 12
 , "Nissan|e-NV200": 8
 , "Citroën|Berlingo Electric": 3
-, "Bollore|Bluecar": 1
+, "other": 1
 });
 
 db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/06/2018_05_vpfrance.pdf",
@@ -305,7 +305,6 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 49
 , "Volkswagen|e-Golf": 41
 , "Citroën|C-Zero": 37
-, "Bollore|Bluecar": 27
 , "Hyundai|Ioniq Electric": 20
 , "Citroën|E-Mehari": 15
 , "Volkswagen|e-up!": 14
@@ -313,7 +312,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 9
 , "Peugeot|Partner Electric": 8
 , "Nissan|e-NV200": 5
-, "other": 1
+, "other": 28
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/07/2018_06_vpfrance.pdf",
@@ -374,10 +373,9 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 18
 , "Kia|Soul EV": 18
 , "Citroën|Berlingo Electric": 10
-, "Bollore|Bluecar": 10
 , "Nissan|e-NV200": 8
 , "Jaguar|I-Pace": 1
-, "other": 1
+, "other": 11
 });
 
 db.insert(db.countries.FR, "2018-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/08/2018_07_vpfrance.pdf",
@@ -434,13 +432,13 @@ db.insert(db.countries.FR, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 29
 , "Hyundai|Ioniq Electric": 29
 , "Tesla|Model X": 19
-, "Bollore|Bluecar": 19
 , "Citroën|E-Mehari": 16
 , "Citroën|Berlingo Electric": 14
 , "Volkswagen|e-up!": 5
 , "Peugeot|Partner Electric": 5
 , "Nissan|e-NV200": 4
 , "Jaguar|I-Pace": 4
+, "other": 19
 });
 
 db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2018/09/2018_08_vpfrance.pdf",
@@ -751,12 +749,12 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 47
 , "Volkswagen|e-up!": 45
 , "Kia|Soul EV": 26
-, "Bollore|Bluecar": 23
 , "Nissan|e-NV200": 18
 , "Citroën|E-Mehari": 14
 , "Citroën|Berlingo Electric": 14
 , "Peugeot|Partner Electric": 12
 , "Jaguar|I-Pace": 9
+, "other": 23
 });
 
 db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/02/2019_01_vpfrance.pdf",

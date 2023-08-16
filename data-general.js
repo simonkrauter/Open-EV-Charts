@@ -214,7 +214,6 @@ const brandCountries =
 , "Alfa Romeo": "IT"
 , "Audi": "DE"
 , "BAIC": "CN"
-, "Bollore": "FR"
 , "Changan": "CN"
 , "Chery": "CN"
 , "Chrysler": "US"
