@@ -1069,6 +1069,8 @@ var db = {
       return;
     if (!this.isCombinedCountry(chartConfig))
       return;
+    if (categories.length == 0)
+      return;
     categories.sort();
     const timeSpan = categories[categories.length - 1];
 
