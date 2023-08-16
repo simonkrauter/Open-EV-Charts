@@ -264,7 +264,6 @@ const brandCountries =
 , "Volvo": "SE"
 , "Weltmeister": "CN"
 , "Xpeng": "CN"
-, "Yudo": "CN"
 , "Zhidou": "CN"
 , "Zotye": "CN"
 };

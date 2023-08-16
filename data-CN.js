@@ -19,7 +19,7 @@ db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 500
 , "Roewe|eRX5 BEV": 482
 , "Geely|Emgrand EV": 466
-, "Yudo|Pi1": 356
+, "other": 356
 });
 
 db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#feb TODO: numbers per brand wanted",
