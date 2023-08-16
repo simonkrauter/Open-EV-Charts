@@ -1003,12 +1003,8 @@ var db = {
           category = company;
         else if (chartConfig.xProperty == this.xProperties.brand)
           category = brand;
-        else if (chartConfig.xProperty == this.xProperties.model) {
-          if (chartConfig.brand == this.brandOptions.all)
-            category = dataKey;
-          else
-            category = model;
-        }
+        else if (chartConfig.xProperty == this.xProperties.model)
+          category = dataKey;
         if (category == "other")
           category = "Other";
 
@@ -1021,12 +1017,8 @@ var db = {
             seriesName = company;
           else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrand == null)
             seriesName = brand;
-          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null) {
-            if (chartConfig.brand == this.brandOptions.all)
-              seriesName = dataKey;
-            else
-              seriesName = model;
-          }
+          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null)
+            seriesName = dataKey;
         }
 
         // add entries to seriesRows, categories and sources
