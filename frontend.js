@@ -1174,6 +1174,7 @@ function renderStatusPage() {
   // set active tab
   const tabs =
   { "status": "Countries"
+  , "status:companies": "Companies and Brands"
   };
   if (!(currentHash in tabs))
     currentHash = Object.keys(tabs)[0];
@@ -1195,6 +1196,8 @@ function renderStatusPage() {
   // content
   if (currentHash == "status")
     renderCountriesStatusPage();
+  else if (currentHash == "status:companies")
+    renderCompaniesStatusPage();
 }
 
 function renderCountriesStatusPage() {
@@ -1336,4 +1339,97 @@ function renderCountriesStatusPage() {
       td.style.textAlign = "right";
     }
   }
+}
+
+function renderCompaniesStatusPage() {
+  const table = document.createElement("TABLE");
+  dynamicContent.appendChild(table);
+  {
+    const tr = document.createElement("TR");
+    table.appendChild(tr);
+    const columns = ["Company", "Brand", "Annual EV Sales"];
+    for (const i in columns) {
+      const th = document.createElement("TH");
+      tr.appendChild(th);
+      th.appendChild(document.createTextNode(columns[i]));
+    }
+  }
+  for (const i in db.companies) {
+    const company = db.companies[i];
+    const firstTr = document.createElement("TR");
+    table.appendChild(firstTr);
+    // company
+    const companyTd = document.createElement("TD");
+    firstTr.appendChild(companyTd);
+    {
+      const countryCode = getCountryCodeForCompanyOrBrand(company);
+      const a = createLinkToHash(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": db.urlEncode(company)}));
+      companyTd.appendChild(a);
+      a.appendChild(createCountryFlagContainer(countryCode, company, true));
+    }
+    // brands
+    if (company in companyGroups) {
+      const brands = companyGroups[company];
+      companyTd.rowSpan = brands.length;
+      var tr = firstTr;
+      for (const j in brands) {
+        const td = document.createElement("TD");
+        tr.appendChild(td);
+        const brand = brands[j];
+        const countryCode = getCountryCodeForCompanyOrBrand(brand);
+        var newChartConfig = {};
+        newChartConfig.metric = db.metrics.salesElectric;
+        newChartConfig.company = db.urlEncode(company);
+        newChartConfig.brand = db.urlEncode(brand);
+        newChartConfig.detailLevel = db.detailLevels.brand;
+        const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
+        td.appendChild(a);
+        a.appendChild(createCountryFlagContainer(countryCode, brand, true));
+        addEvSalesTd(tr, brand);
+        if (j < brands.length - 1) {
+          tr = document.createElement("TR");
+          table.appendChild(tr);
+        }
+      }
+    } else {
+      companyTd.colSpan = 2;
+      addEvSalesTd(firstTr, company);
+    }
+  }
+}
+
+function addEvSalesTd(tr, brand) {
+  var total = 0;
+  for (const i in db.countriesWithData) {
+    const curCountryId = db.countriesWithData[i];
+    var sum = 0;
+    var monthCount = 0;
+    for (var j = db.datasets.length - 1; j >= 0; j--) {
+      const dataset = db.datasets[j];
+      if (dataset.dsType != db.dsTypes.ElectricCarsByModel)
+        continue;
+      if (dataset.country != curCountryId)
+        continue;
+      for (const dataKey in dataset.data) {
+        const dataKeyParts = dataKey.split("|", 2);
+        if (dataKeyParts[0] != brand)
+          continue;
+        sum = sum + dataset.data[dataKey];
+      }
+      monthCount++;
+      if (monthCount == 12)
+        break;
+    }
+    if (monthCount != 0)
+      total = total + sum / monthCount * 12;
+  }
+  const td = document.createElement("TD");
+  tr.appendChild(td);
+  if (total == 0)
+    td.appendChild(document.createTextNode("–"));
+  else if (total > 1000)
+    td.appendChild(document.createTextNode((Math.round(total / 100) * 100).toLocaleString()));
+  else
+    td.appendChild(document.createTextNode((Math.round(total)).toLocaleString()));
+  td.style.textAlign = "right";
 }
