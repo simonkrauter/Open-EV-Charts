@@ -490,13 +490,12 @@ db.insert(db.countries.DK, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 5
 , "Mercedes-Benz|EQV": 4
 , "Aiways|U5": 3
-, "DFSK|Seres 3": 3
 , "BMW|iX3": 2
 , "BMW|i3 BEV": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Mercedes-Benz|eVito": 1
 , "Volkswagen|e-Golf": 1
-, "other": 27
+, "other": 30
 });
 
 db.insert(db.countries.DK, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.be/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",

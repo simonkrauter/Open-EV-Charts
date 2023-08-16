@@ -176,10 +176,6 @@ const companyGroups = {
     , "Roewe"
     , "Wuling"
     ],
-  "Dongfeng Motor":
-    [ "Dongfeng"
-    , "DFSK"
-    ],
   "GAC Group":
     [ "Aion"
     , "Trumpchi"
@@ -207,7 +203,6 @@ const companyGroupCountries =
 , "Geely Holding Group": "CN"
 , "Jaguar Land Rover": "UK"
 , "SAIC Motor": "CN"
-, "Dongfeng Motor": "CN"
 , "GAC Group": "CN"
 , "BYD Auto": "CN"
 , "FAW Group": "CN"
@@ -227,6 +222,7 @@ const brandCountries =
 , "Cupra": "FR"
 , "Dacia": "RO"
 , "Dodge": "US"
+, "Dongfeng": "CN"
 , "DS Automobiles": "FR"
 , "Fiat": "IT"
 , "GAC Toyota": "CN"

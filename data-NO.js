@@ -2484,11 +2484,10 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 12
 , "DS Automobiles|DS 3 Crossback E-Tense": 9
 , "Audi|Q4 e-tron": 3
-, "DFSK|Seres 3": 2
 , "Seat|Mii Electric": 1
 , "Smart|Fortwo ED": 1
 , "Tesla|Model X": 1
-, "other": 52
+, "other": 54
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2021",
@@ -3242,9 +3241,8 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 20
 , "Mercedes-Benz|EQV": 18
 , "Audi|e-tron GT": 15
-, "DFSK|Seres 3": 15
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
-, "other": 242
+, "other": 257
 });
 
 db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2022",

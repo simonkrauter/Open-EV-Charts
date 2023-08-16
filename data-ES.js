@@ -557,8 +557,7 @@ db.insert(db.countries.ES, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 63
 , "Maserati": 26
 , "Tesla": 20
-, "DFSK": 1
-, "other": 23
+, "other": 24
 });
 
 db.insert(db.countries.ES, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/10 (includes commercial vehicles)",
@@ -615,8 +614,7 @@ db.insert(db.countries.ES, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 44
 , "Maserati": 23
 , "Tesla": 21
-, "DFSK": 1
-, "other": 34
+, "other": 35
 });
 
 db.insert(db.countries.ES, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2018/11 (includes commercial vehicles)",
@@ -732,8 +730,7 @@ db.insert(db.countries.ES, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 85
 , "Maserati": 19
 , "Tesla": 15
-, "DFSK": 1
-, "other": 47
+, "other": 48
 });
 
 db.insert(db.countries.ES, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/1 (includes commercial vehicles)",
@@ -792,8 +789,7 @@ db.insert(db.countries.ES, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 79
 , "Cupra": 78
 , "Maserati": 17
-, "DFSK": 1
-, "other": 29
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/2 (includes commercial vehicles)",
@@ -856,8 +852,7 @@ db.insert(db.countries.ES, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 78
 , "Cupra": 72
 , "Maserati": 18
-, "DFSK": 7
-, "other": 40
+, "other": 47
 });
 
 db.insert(db.countries.ES, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/3 (includes commercial vehicles)",
@@ -920,8 +915,7 @@ db.insert(db.countries.ES, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 76
 , "Cupra": 63
 , "Maserati": 31
-, "DFSK": 10
-, "other": 21
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/4 (includes commercial vehicles)",
@@ -984,8 +978,7 @@ db.insert(db.countries.ES, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 152
 , "Cupra": 78
 , "Maserati": 23
-, "DFSK": 5
-, "other": 36
+, "other": 41
 });
 
 db.insert(db.countries.ES, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/5 (includes commercial vehicles)",
@@ -1047,8 +1040,7 @@ db.insert(db.countries.ES, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 88
 , "Cupra": 71
 , "Maserati": 26
-, "DFSK": 4
-, "other": 39
+, "other": 43
 });
 
 db.insert(db.countries.ES, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/6 (includes commercial vehicles)",
@@ -1111,8 +1103,7 @@ db.insert(db.countries.ES, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 95
 , "Cupra": 62
 , "Maserati": 25
-, "DFSK": 3
-, "other": 39
+, "other": 42
 });
 
 db.insert(db.countries.ES, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/7 (includes commercial vehicles)",
@@ -1176,8 +1167,7 @@ db.insert(db.countries.ES, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 73
 , "Cupra": 43
 , "Maserati": 20
-, "DFSK": 6
-, "other": 75
+, "other": 81
 });
 
 db.insert(db.countries.ES, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/8 (includes commercial vehicles)",
@@ -1239,8 +1229,7 @@ db.insert(db.countries.ES, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 93
 , "Infiniti": 73
 , "Maserati": 19
-, "DFSK": 8
-, "other": 18
+, "other": 26
 });
 
 db.insert(db.countries.ES, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/9 (includes commercial vehicles)",
@@ -1303,8 +1292,7 @@ db.insert(db.countries.ES, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Infiniti": 65
 , "Tesla": 40
 , "Maserati": 9
-, "DFSK": 8
-, "other": 23
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/10 (includes commercial vehicles)",
@@ -1369,8 +1357,7 @@ db.insert(db.countries.ES, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 79
 , "Infiniti": 52
 , "Maserati": 15
-, "DFSK": 7
-, "other": 22
+, "other": 29
 });
 
 db.insert(db.countries.ES, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/11 (includes commercial vehicles)",
@@ -1433,9 +1420,8 @@ db.insert(db.countries.ES, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 172
 , "Infiniti": 59
 , "Cupra": 50
-, "DFSK": 9
 , "Maserati": 8
-, "other": 52
+, "other": 61
 });
 
 db.insert(db.countries.ES, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2019/12 (includes commercial vehicles)",
@@ -1496,9 +1482,8 @@ db.insert(db.countries.ES, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 45
 , "Infiniti": 39
 , "Tesla": 32
-, "DFSK": 11
 , "Maserati": 11
-, "other": 32
+, "other": 43
 });
 
 db.insert(db.countries.ES, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/1 (includes commercial vehicles)",
@@ -1567,8 +1552,7 @@ db.insert(db.countries.ES, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 88
 , "Maserati": 8
 , "Infiniti": 6
-, "DFSK": 4
-, "other": 54
+, "other": 58
 });
 
 db.insert(db.countries.ES, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/2 (includes commercial vehicles)",
@@ -1639,8 +1623,7 @@ db.insert(db.countries.ES, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 35
 , "Infiniti": 3
 , "Maserati": 3
-, "DFSK": 2
-, "other": 29
+, "other": 31
 });
 
 db.insert(db.countries.ES, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/3 (includes commercial vehicles)",
@@ -1708,8 +1691,7 @@ db.insert(db.countries.ES, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Mazda": 4
 , "SsangYong": 3
 , "Cupra": 1
-, "DFSK": 1
-, "other": 1
+, "other": 2
 });
 
 db.insert(db.countries.ES, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/4 (includes commercial vehicles)",
@@ -1766,9 +1748,8 @@ db.insert(db.countries.ES, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 50
 , "Cupra": 35
 , "Smart": 20
-, "DFSK": 3
 , "Maserati": 1
-, "other": 9
+, "other": 12
 });
 
 db.insert(db.countries.ES, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/5 (includes commercial vehicles)",
@@ -1835,9 +1816,8 @@ db.insert(db.countries.ES, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 63
 , "Tesla": 62
 , "Maserati": 9
-, "DFSK": 7
 , "JAC": 1
-, "other": 21
+, "other": 28
 });
 
 db.insert(db.countries.ES, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/6 (includes commercial vehicles)",
@@ -1907,9 +1887,8 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 84
 , "Infiniti": 24
 , "Maserati": 19
-, "DFSK": 10
 , "Tesla": 9
-, "other": 34
+, "other": 44
 });
 
 db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/7 (includes commercial vehicles)",
@@ -1978,10 +1957,9 @@ db.insert(db.countries.ES, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 108
 , "Smart": 46
 , "Cupra": 43
-, "DFSK": 16
 , "Maserati": 7
 , "Chevrolet": 1
-, "other": 17
+, "other": 33
 });
 
 db.insert(db.countries.ES, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/8 (includes commercial vehicles)",
@@ -2053,8 +2031,7 @@ db.insert(db.countries.ES, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Cupra": 91
 , "Smart": 81
 , "Maserati": 22
-, "DFSK": 19
-, "other": 20
+, "other": 39
 });
 
 db.insert(db.countries.ES, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/9 (includes commercial vehicles)",
@@ -2129,8 +2106,7 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 80
 , "Tesla": 38
 , "Maserati": 15
-, "DFSK": 9
-, "other": 26
+, "other": 35
 });
 
 db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/10 (includes commercial vehicles)",
@@ -2203,9 +2179,8 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 115
 , "Smart": 81
 , "Tesla": 55
-, "DFSK": 17
 , "Maserati": 13
-, "other": 24
+, "other": 41
 });
 
 db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/11 (includes commercial vehicles)",
@@ -2281,9 +2256,8 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Porsche": 261
 , "Subaru": 180
 , "SsangYong": 129
-, "DFSK": 19
 , "Maserati": 15
-, "other": 25
+, "other": 44
 });
 
 db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/12 (includes commercial vehicles)",
@@ -2358,8 +2332,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 30
 , "Jaguar": 20
 , "Maserati": 12
-, "DFSK": 11
-, "other": 40
+, "other": 51
 });
 
 db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/1 (includes commercial vehicles)",
@@ -2434,9 +2407,8 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 40
 , "MG": 21
 , "Maserati": 11
-, "DFSK": 8
 , "JAC": 1
-, "other": 22
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/2 (includes commercial vehicles)",
@@ -2515,10 +2487,9 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 112
 , "Smart": 80
 , "MG": 17
-, "DFSK": 15
 , "Maserati": 7
 , "JAC": 3
-, "other": 17
+, "other": 32
 });
 
 db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/3 (includes commercial vehicles)",
@@ -2557,13 +2528,13 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 5
 , "Jaguar|I-Pace": 5
 , "Peugeot|e-Traveller": 4
-, "DFSK|Seres 3": 2
 , "Mercedes-Benz|EQV": 2
 , "Tesla|Model X": 2
 , "Cupra|Born": 1
 , "Dacia|Spring": 1
 , "Mazda|MX-30": 1
 , "Volkswagen|e-Caddy": 1
+, "other": 2
 });
 
 db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosabriltur.asp, https://www.km77.com/mercado/espana/2021/datosabriltt.asp",
@@ -2601,11 +2572,10 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 108
 , "Alfa Romeo": 107
 , "Smart": 83
-, "DFSK": 26
 , "Tesla": 24
 , "Maserati": 16
 , "MG": 11
-, "other": 28
+, "other": 54
 });
 
 db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/4 (includes commercial vehicles)",
@@ -2642,7 +2612,6 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 5
 , "Mercedes-Benz|EQV": 5
 , "Škoda|Citigo-e": 5
-, "DFSK|Seres 3": 4
 , "Jaguar|I-Pace": 4
 , "Kia|Soul EV": 4
 , "Honda|e": 3
@@ -2651,6 +2620,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 1
 , "Tesla|Model X": 1
 , "Volkswagen|e-Caddy": 1
+, "other": 4
 });
 
 db.insert(db.countries.ES, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosmayotur.asp, https://www.km77.com/mercado/espana/2021/datosmayott.asp",
@@ -2689,10 +2659,9 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 180
 , "Jaguar": 167
 , "Smart": 85
-, "DFSK": 24
 , "MG": 15
 , "Maserati": 11
-, "other": 28
+, "other": 52
 });
 
 db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/5 (includes commercial vehicles)",
@@ -2738,7 +2707,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 2
 , "Mercedes-Benz|EQV": 2
 , "Cupra|Born": 1
-, "DFSK|Seres 3": 1
+, "other": 1
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuniotur.asp, https://www.km77.com/mercado/espana/2021/datosjuniott.asp",
@@ -2778,10 +2747,9 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 139
 , "Smart": 138
 , "MG": 31
-, "DFSK": 26
 , "Maserati": 8
 , "JAC": 1
-, "other": 42
+, "other": 68
 });
 
 db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/6 (includes commercial vehicles)",
@@ -2817,7 +2785,6 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 9
 , "Renault|Twingo Z.E.": 9
 , "Audi|e-tron GT": 8
-, "DFSK|Seres 3": 8
 , "Jaguar|I-Pace": 8
 , "Audi|Q8 e-tron": 7
 , "MG|ZS EV": 7
@@ -2828,6 +2795,7 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Peugeot|e-Traveller": 1
 , "Volvo|XC40 Recharge pure electric": 1
+, "other": 8
 });
 
 db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosjuliotur.asp, https://www.km77.com/mercado/espana/2021/datosjuliott.asp",
@@ -2867,9 +2835,8 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "MG": 107
 , "Smart": 74
 , "Maserati": 23
-, "DFSK": 22
 , "Tesla": 1
-, "other": 50
+, "other": 72
 });
 
 db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/7 (includes commercial vehicles)",
@@ -2915,10 +2882,10 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Traveller": 4
 , "Dacia|Spring": 3
 , "Mercedes-Benz|EQV": 3
-, "DFSK|Seres 3": 2
 , "Honda|e": 2
 , "Tesla|Model 3": 1
 , "Škoda|Citigo-e": 1
+, "other": 2
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosagostotur.asp, https://www.km77.com/mercado/espana/2021/datosagostott.asp",
@@ -2958,10 +2925,9 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 64
 , "MG": 48
 , "Smart": 31
-, "DFSK": 20
 , "Maserati": 9
 , "JAC": 1
-, "other": 73
+, "other": 93
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/8 (includes commercial vehicles)",
@@ -3002,7 +2968,6 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 6
 , "Jaguar|I-Pace": 5
 , "Mercedes-Benz|EQV": 5
-, "DFSK|Seres 3": 4
 , "Honda|e": 3
 , "Smart|Forfour ED": 3
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
@@ -3011,6 +2976,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 1
 , "Volkswagen|e-Caddy": 1
 , "Volkswagen|e-Golf": 1
+, "other": 4
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2021/datosseptiembrett.asp",
@@ -3051,9 +3017,8 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "MG": 78
 , "Jaguar": 76
 , "Maserati": 22
-, "DFSK": 15
 , "JAC": 1
-, "other": 114
+, "other": 129
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/9 (includes commercial vehicles)",
@@ -3100,12 +3065,11 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 4
 , "Lexus|UX 300e": 4
 , "Audi|e-tron GT": 3
-, "DFSK|Seres 3": 3
 , "Jaguar|I-Pace": 3
 , "Mercedes-Benz|EQS": 3
 , "Peugeot|e-Traveller": 3
 , "Volkswagen|e-Golf": 2
-, "other": 3
+, "other": 6
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosoctubretur.asp, https://www.km77.com/mercado/espana/2021/datosoctubrett.asp",
@@ -3144,12 +3108,11 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 128
 , "MG": 96
 , "Jaguar": 78
-, "DFSK": 21
 , "Tesla": 22
 , "Maserati": 17
 , "Aiways": 1
 , "JAC": 1
-, "other": 121
+, "other": 142
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10 (includes commercial vehicles)",
@@ -3193,7 +3156,6 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 9
 , "Peugeot|e-Traveller": 6
 , "Audi|e-tron GT": 5
-, "DFSK|Seres 3": 5
 , "Mazda|MX-30": 5
 , "Mercedes-Benz|EQS": 5
 , "MG|Marvel R": 4
@@ -3202,7 +3164,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 3
 , "Honda|e": 2
 , "Tesla|Model S": 2
-, "other": 5
+, "other": 10
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2021/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2021/datosnoviembrett.asp",
@@ -3242,10 +3204,9 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 112
 , "SsangYong": 106
 , "Jaguar": 69
-, "DFSK": 28
 , "Maserati": 13
 , "JAC": 1
-, "other": 202
+, "other": 230
 });
 
 db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/11 (includes commercial vehicles)",
@@ -3336,11 +3297,10 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 155
 , "Subaru": 132
 , "Jaguar": 97
-, "DFSK": 52
 , "SsangYong": 51
 , "Maserati": 26
 , "JAC": 1
-, "other": 111
+, "other": 163
 });
 
 db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/12 (includes commercial vehicles)",
@@ -3435,8 +3395,7 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 31
 , "Tesla": 10
 , "Maserati": 8
-, "DFSK": 6
-, "other": 148
+, "other": 154
 });
 
 db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/1 (includes commercial vehicles)",
@@ -3525,11 +3484,10 @@ db.insert(db.countries.ES, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 99
 , "Jaguar": 79
 , "Smart": 71
-, "DFSK": 16
 , "Aiways": 9
 , "Maserati": 9
 , "JAC": 1
-, "other": 114
+, "other": 130
 });
 
 db.insert(db.countries.ES, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/2 (includes commercial vehicles)",
@@ -3622,9 +3580,8 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 78
 , "Smart": 56
 , "Jaguar": 50
-, "DFSK": 15
 , "Maserati": 15
-, "other": 156
+, "other": 171
 });
 
 db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/3 (includes commercial vehicles)",
@@ -3670,14 +3627,13 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 12
 , "Renault|Megane E-Tech": 11
 , "MG|Marvel R": 8
-, "DFSK|Seres 3": 6
 , "Mazda|MX-30": 6
 , "Honda|e": 5
 , "Peugeot|e-Traveller": 5
 , "Audi|e-tron GT": 4
 , "Mercedes-Benz|EQV": 4
 , "Volkswagen|ID.5": 4
-, "other": 9
+, "other": 15
 });
 
 db.insert(db.countries.ES, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosabriltur.asp, https://www.km77.com/mercado/espana/2022/datosabriltt.asp",
@@ -3717,10 +3673,9 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 66
 , "Smart": 66
 , "Tesla": 26
-, "DFSK": 22
 , "Maserati": 17
 , "JAC": 1
-, "other": 232
+, "other": 254
 });
 
 db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/4 (includes commercial vehicles)",
@@ -3769,12 +3724,11 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 4
 , "MG|MG5 EV": 4
 , "Tesla|Model 3": 4
-, "DFSK|Seres 3": 3
 , "Mercedes-Benz|EQC": 3
 , "Mercedes-Benz|EQE": 3
 , "SsangYong|Korando e-Motion": 2
 , "Volkswagen|ID.5": 2
-, "other": 5
+, "other": 8
 });
 
 db.insert(db.countries.ES, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosmayotur.asp, https://www.km77.com/mercado/espana/2022/datosmayott.asp",
@@ -3813,12 +3767,11 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 89
 , "Jaguar": 67
 , "Smart": 67
-, "DFSK": 14
 , "Maserati": 11
 , "JAC": 2
 , "Tesla": 2
 , "Aiways": 1
-, "other": 157
+, "other": 171
 });
 
 db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/5 (includes commercial vehicles)",
@@ -3865,13 +3818,12 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 8
 , "Mazda|MX-30": 8
 , "Honda|e": 7
-, "DFSK|Seres 3": 5
 , "Lexus|UX 300e": 4
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Volkswagen|ID.5": 3
 , "Jaguar|I-Pace": 2
 , "Tesla|Model Y": 2
-, "other": 4
+, "other": 9
 });
 
 db.insert(db.countries.ES, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosjuniotur.asp, https://www.km77.com/mercado/espana/2022/datosjuniott.asp",
@@ -3911,12 +3863,11 @@ db.insert(db.countries.ES, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 123
 , "Smart": 85
 , "Jaguar": 79
-, "DFSK": 23
 , "Polestar": 18
 , "Maserati": 17
 , "Aiways": 5
 , "JAC": 1
-, "other": 336
+, "other": 359
 });
 
 db.insert(db.countries.ES, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/6 (includes commercial vehicles)",
@@ -3966,11 +3917,10 @@ db.insert(db.countries.ES, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 10
 , "Lexus|UX 300e": 8
 , "Mercedes-Benz|EQS": 8
-, "DFSK|Seres 3": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Aiways|U5": 5
 , "Honda|e": 4
-, "other": 12
+, "other": 19
 });
 
 db.insert(db.countries.ES, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosjuliotur.asp, https://www.km77.com/mercado/espana/2022/datosjuliott.asp",
@@ -4013,9 +3963,8 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 33
 , "Aiways": 15
 , "Polestar": 13
-, "DFSK": 10
 , "JAC": 1
-, "other": 429
+, "other": 439
 });
 
 db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/7 (includes commercial vehicles)",
@@ -4108,11 +4057,10 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Tesla": 52
 , "Jaguar": 47
 , "Maserati": 26
-, "DFSK": 15
 , "Aiways": 12
 , "Smart": 9
 , "Polestar": 8
-, "other": 433
+, "other": 448
 });
 
 db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/8 (includes commercial vehicles)",
@@ -4155,7 +4103,6 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 9
 , "Mercedes-Benz|EQC": 8
 , "Polestar|2": 8
-, "DFSK|Seres 3": 7
 , "MG|ZS EV": 7
 , "Smart|Fortwo ED": 5
 , "Audi|e-tron GT": 4
@@ -4164,7 +4111,7 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 4
 , "Smart|Forfour ED": 4
 , "Jaguar|I-Pace": 3
-, "other": 14
+, "other": 21
 });
 
 db.insert(db.countries.ES, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2022/datosseptiembrett.asp",
@@ -4204,11 +4151,10 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 118
 , "Jaguar": 51
 , "Maserati": 27
-, "DFSK": 17
 , "Smart": 16
 , "Aiways": 12
 , "Polestar": 7
-, "other": 678
+, "other": 695
 });
 
 db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/9 (includes commercial vehicles)",
@@ -4259,10 +4205,9 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 8
 , "Mercedes-Benz|EQE": 7
 , "Polestar|2": 7
-, "DFSK|Seres 3": 6
 , "Jaguar|I-Pace": 6
 , "Smart|Forfour ED": 5
-, "other": 20
+, "other": 26
 });
 
 db.insert(db.countries.ES, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosoctubretur.asp, https://www.km77.com/mercado/espana/2022/datosoctubrett.asp",
@@ -4304,9 +4249,8 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 56
 , "Polestar": 40
 , "Smart": 32
-, "DFSK": 13
 , "Aiways": 6
-, "other": 257
+, "other": 270
 });
 
 db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/10 (includes commercial vehicles)",
@@ -4358,8 +4302,7 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 6
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "BMW|i7": 4
-, "DFSK|Seres 3": 4
-, "other": 26
+, "other": 30
 });
 
 db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2022/datosnoviembrett.asp",
@@ -4401,10 +4344,9 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 41
 , "Maserati": 36
 , "Polestar": 35
-, "DFSK": 19
 , "Aiways": 17
 , "JAC": 1
-, "other": 261
+, "other": 280
 });
 
 db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/11 (includes commercial vehicles)",
@@ -4453,12 +4395,11 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 12
 , "BMW|i7": 10
 , "Mercedes-Benz|EQS": 9
-, "DFSK|Seres 3": 8
 , "Nissan|Ariya": 8
 , "Mazda|MX-30": 6
 , "BMW|i3 BEV": 5
 , "Mercedes-Benz|EQC": 5
-, "other": 12
+, "other": 20
 });
 
 db.insert(db.countries.ES, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2022/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2022/datosdiciembrett.asp",
@@ -4500,9 +4441,8 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 62
 , "Jaguar": 47
 , "Maserati": 30
-, "DFSK": 23
 , "Aiways": 17
-, "other": 399
+, "other": 422
 });
 
 db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2022/12 (includes commercial vehicles)",
@@ -4553,10 +4493,9 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 11
 , "BMW|i3 BEV": 8
 , "Fiat|E-Doblò": 8
-, "DFSK|Seres 3": 7
 , "Mercedes-Benz|EQC": 7
 , "Mercedes-Benz|EQV": 7
-, "other": 41
+, "other": 48
 });
 
 db.insert(db.countries.ES, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosenerotur.asp, https://www.km77.com/mercado/espana/2023/datosenerott.asp",
@@ -4598,9 +4537,8 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 58
 , "Maserati": 54
 , "Polestar": 25
-, "DFSK": 15
 , "Aiways": 3
-, "other": 653
+, "other": 668
 });
 
 db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
@@ -4692,11 +4630,10 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Honda": 150
 , "Jaguar": 62
 , "Smart": 31
-, "DFSK": 28
 , "Maserati": 28
 , "Polestar": 22
 , "Aiways": 2
-, "other": 552
+, "other": 580
 });
 
 db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/2 (includes commercial vehicles), https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
@@ -4791,10 +4728,9 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Maserati": 58
 , "Polestar": 42
 , "Smart": 38
-, "DFSK": 27
 , "BYD": 24
 , "Aiways": 6
-, "other": 1293
+, "other": 1320
 });
 
 db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/3 (includes commercial vehicles), https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
@@ -4889,9 +4825,8 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 49
 , "Jaguar": 41
 , "Maserati": 30
-, "DFSK": 23
 , "BYD": 2
-, "other": 596
+, "other": 619
 });
 
 db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/4 (includes commercial vehicles), https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
@@ -4987,9 +4922,8 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 56
 , "Maserati": 38
 , "BYD": 28
-, "DFSK": 20
 , "Aiways": 2
-, "other": 1028
+, "other": 1048
 });
 
 db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/5 (includes commercial vehicles), https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
@@ -5084,10 +5018,9 @@ db.insert(db.countries.ES, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Honda": 187
 , "Jaguar": 69
 , "BYD": 63
-, "DFSK": 44
 , "Maserati": 37
 , "Smart": 28
-, "other": 1099
+, "other": 1143
 });
 
 db.insert(db.countries.ES, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/6 (includes commercial vehicles), https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",

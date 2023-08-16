@@ -115,8 +115,7 @@ db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Buick": 10
 , "Lincoln": 7
 , "Acura": 4
-, "DFSK": 1
-, "other": 2352
+, "other": 2353
 });
 
 db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -451,8 +450,7 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 22
 , "Buick": 11
 , "Acura": 2
-, "DFSK": 1
-, "other": 2741
+, "other": 2742
 });
 
 db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -730,8 +728,7 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 27
 , "Buick": 6
 , "Acura": 2
-, "DFSK": 2
-, "other": 2484
+, "other": 2486
 });
 
 db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -878,9 +875,8 @@ db.insert(db.countries.UK, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 14
 , "Buick": 9
 , "Infiniti": 5
-, "DFSK": 3
 , "Acura": 1
-, "other": 2291
+, "other": 2294
 });
 
 db.insert(db.countries.UK, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -1039,8 +1035,7 @@ db.insert(db.countries.UK, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Cadillac": 14
 , "Buick": 11
 , "Infiniti": 8
-, "DFSK": 2
-, "other": 2191
+, "other": 2193
 });
 
 db.insert(db.countries.UK, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -1422,10 +1417,9 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Lincoln": 16
 , "Cadillac": 14
 , "Buick": 10
-, "DFSK": 6
 , "Infiniti": 4
 , "Acura": 3
-, "other": 1983
+, "other": 1989
 });
 
 db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -1527,10 +1521,9 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Chrysler": 18
 , "Buick": 16
 , "Lincoln": 15
-, "DFSK": 12
 , "Infiniti": 3
 , "Acura": 1
-, "other": 1961
+, "other": 1973
 });
 
 db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
@@ -1743,9 +1736,8 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Chrysler": 14
 , "Lincoln": 5
 , "Buick": 3
-, "DFSK": 3
 , "Acura": 1
-, "other": 2225
+, "other": 2228
 });
 
 db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",

@@ -2730,9 +2730,8 @@ db.insert(db.countries.AT, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 5
 , "Chrysler": 4
 , "Chevrolet": 3
-, "DFSK": 1
 , "Hongqi": 1
-, "other": 227
+, "other": 228
 });
 
 db.insert(db.countries.AT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMaerz2023.ods",
@@ -2843,9 +2842,8 @@ db.insert(db.countries.AT, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Lexus": 18
 , "Maserati": 9
 , "Chevrolet": 3
-, "DFSK": 3
 , "Smart": 3
-, "other": 106
+, "other": 109
 });
 
 db.insert(db.countries.AT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMai2023.ods",

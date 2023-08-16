@@ -2670,8 +2670,7 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|i-MiEV": 2
 , "Tesla|Model S": 2
 , "Aiways|U5": 1
-, "DFSK|Seres 3": 1
-, "other": 10
+, "other": 11
 });
 
 db.insert(db.countries.CH, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/06/ModellePW2021.xlsx",
