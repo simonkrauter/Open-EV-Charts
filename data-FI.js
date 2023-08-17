@@ -4132,7 +4132,7 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 224
 });
 
-db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/6",
+db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 677
 , "Škoda|Enyaq": 224
 , "Volkswagen|ID.4": 190
