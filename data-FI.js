@@ -4184,3 +4184,88 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|UX 300e": 2
 , "other": 36
 });
+
+db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2779/July_2023.xlsx",
+{ "Toyota": 1237
+, "Škoda": 702
+, "Kia": 581
+, "Volkswagen": 555
+, "Volvo": 466
+, "Mercedes-Benz": 461
+, "BMW": 370
+, "Audi": 236
+, "Ford": 200
+, "Peugeot": 193
+, "Hyundai": 182
+, "Opel": 172
+, "Nissan": 139
+, "Tesla": 120
+, "Citroën": 64
+, "Cupra": 59
+, "Polestar": 56
+, "Lexus": 54
+, "Land Rover": 53
+, "Mazda": 49
+, "Suzuki": 46
+, "Dacia": 45
+, "Mitsubishi": 40
+, "Renault": 36
+, "Seat": 30
+, "Mini": 27
+, "Fiat": 26
+, "Subaru": 25
+, "Honda": 10
+, "Porsche": 10
+, "other": 153
+});
+
+db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Škoda|Enyaq": 182
+, "Peugeot|e-2008": 137
+, "BMW|i4": 136
+, "Volkswagen|ID.4": 131
+, "Opel|Mokka-e": 124
+, "Mercedes-Benz|EQE": 88
+, "Audi|Q4 e-tron": 86
+, "Kia|EV6": 69
+, "Tesla|Model Y": 61
+, "Polestar|2": 56
+, "Tesla|Model 3": 51
+, "Toyota|bZ4X": 50
+, "Citroën|ë-C4": 40
+, "Kia|Niro EV": 40
+, "Audi|Q8 e-tron": 37
+, "Mercedes-Benz|EQA": 34
+, "Volkswagen|ID.3": 31
+, "Volvo|C40 Recharge": 26
+, "Fiat|500e": 24
+, "Mercedes-Benz|EQB": 22
+, "Volkswagen|ID.5": 21
+, "Hyundai|Kona Electric": 18
+, "Volvo|XC40 Recharge pure electric": 18
+, "Ford|Mustang Mach-E": 16
+, "Mini|Cooper SE Electric": 15
+, "Cupra|Born": 14
+, "Hyundai|Ioniq 5": 13
+, "Nissan|Leaf": 13
+, "Hyundai|Ioniq 6": 11
+, "Mercedes-Benz|EQS": 11
+, "Subaru|Solterra": 11
+, "BMW|iX": 10
+, "Nissan|Ariya": 10
+, "BMW|iX1": 8
+, "Porsche|Taycan": 7
+, "BMW|i7": 6
+, "Peugeot|e-208": 6
+, "Toyota|Proace Electric": 6
+, "Opel|Corsa-e": 4
+, "Renault|Megane E-Tech": 4
+, "Tesla|Model S": 4
+, "Tesla|Model X": 4
+, "Mercedes-Benz|EQC": 3
+, "Volkswagen|e-up!": 3
+, "BYD|Han EV": 2
+, "Lexus|UX 300e": 2
+, "Mercedes-Benz|eVito": 2
+, "other": 35
+});
