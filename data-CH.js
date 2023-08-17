@@ -5074,7 +5074,7 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 183
 });
 
-db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/5 (includes commercial vehicles)",
+db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/5 (includes commercial vehicles), https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
 { "Tesla|Model Y": 576
 , "Škoda|Enyaq": 365
 , "Audi|Q4 e-tron": 256
@@ -5173,7 +5173,7 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 184
 });
 
-db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/6 (includes commercial vehicles)",
+db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/6 (includes commercial vehicles), https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
 { "Tesla|Model Y": 948
 , "Škoda|Enyaq": 370
 , "Tesla|Model 3": 321
