@@ -4039,3 +4039,96 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 1
 , "Peugeot|e-208": 1
 });
+
+db.insert(db.countries.IE, "2023-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 4043
+, "Hyundai": 3446
+, "Volkswagen": 3161
+, "Škoda": 1954
+, "Kia": 1738
+, "Renault": 1400
+, "Nissan": 1347
+, "Audi": 1121
+, "Peugeot": 1115
+, "Ford": 1051
+, "Dacia": 893
+, "MG": 721
+, "BMW": 697
+, "Seat": 586
+, "Cupra": 506
+, "Mercedes-Benz": 472
+, "Opel": 449
+, "Volvo": 449
+, "Suzuki": 349
+, "Mazda": 293
+, "Citroën": 231
+, "BYD": 207
+, "Fiat": 202
+, "Land Rover": 177
+, "Lexus": 147
+, "Mini": 97
+, "Porsche": 83
+, "DS Automobiles": 50
+, "Tesla": 41
+, "Honda": 33
+, "Polestar": 28
+, "Jeep": 10
+, "Jaguar": 8
+, "Ora": 4
+, "Alfa Romeo": 2
+, "SsangYong": 2
+, "Subaru": 2
+, "other": 2
+});
+
+db.insert(db.countries.IE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "MG|MG4 EV": 565
+, "Volkswagen|ID.4": 558
+, "Škoda|Enyaq": 275
+, "BYD|Yuan Plus": 207
+, "Cupra|Born": 199
+, "Hyundai|Ioniq 5": 183
+, "Kia|EV6": 166
+, "Hyundai|Kona Electric": 145
+, "Renault|Megane E-Tech": 144
+, "Hyundai|Ioniq 6": 141
+, "Toyota|bZ4X": 125
+, "Volkswagen|ID.3": 122
+, "Audi|Q4 e-tron": 105
+, "Kia|Niro EV": 89
+, "Volvo|XC40 Recharge pure electric": 86
+, "Volkswagen|ID.5": 77
+, "MG|ZS EV": 71
+, "Peugeot|e-2008": 71
+, "Volkswagen|e-up!": 71
+, "MG|MG5 EV": 67
+, "Nissan|Leaf": 60
+, "BMW|i4": 58
+, "Audi|Q8 e-tron": 46
+, "Porsche|Taycan": 46
+, "BMW|iX1": 36
+, "BMW|iX3": 36
+, "Mercedes-Benz|EQE": 34
+, "Mercedes-Benz|EQB": 32
+, "Tesla|Model Y": 31
+, "Polestar|2": 28
+, "Mercedes-Benz|EQA": 24
+, "Peugeot|e-208": 23
+, "Renault|Zoe": 23
+, "BMW|iX": 20
+, "Opel|Mokka-e": 18
+, "Audi|e-tron GT": 15
+, "Citroën|ë-C4": 14
+, "Mini|Cooper SE Electric": 14
+, "Citroën|Berlingo Electric": 12
+, "Mercedes-Benz|EQE SUV": 11
+, "Mercedes-Benz|EQS SUV": 11
+, "Volvo|C40 Recharge": 10
+, "Mercedes-Benz|EQS": 8
+, "Nissan|Ariya": 8
+, "Tesla|Model 3": 8
+, "BMW|i7": 7
+, "Fiat|500e": 6
+, "Jaguar|I-Pace": 5
+, "other": 36
+});
