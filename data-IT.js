@@ -1436,11 +1436,11 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 54
 , "BMW|i3 BEV": 53
 , "Porsche|Taycan": 51
-, "Toyota|Proace Electric": 43
 , "Volvo|XC40 Recharge pure electric": 40
 , "Opel|Corsa-e": 36
 , "Škoda|Enyaq": 34
 , "Kia|Niro EV": 30
+, "Toyota|Proace City Electric": 28
 , "Volvo|C40 Recharge": 26
 , "Smart|Forfour ED": 25
 , "Audi|Q8 e-tron": 23
@@ -1453,6 +1453,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 15
 , "Mazda|MX-30": 15
 , "Mercedes-Benz|EQC": 15
+, "Toyota|Proace Electric": 15
 , "Kia|EV6": 13
 , "MG|Marvel R": 13
 , "Jaguar|I-Pace": 11
@@ -1535,9 +1536,9 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 40
 , "MG|ZS EV": 37
 , "BMW|iX": 35
-, "Toyota|Proace Electric": 33
 , "Hyundai|Ioniq 5": 32
 , "Opel|Mokka-e": 29
+, "Toyota|Proace Electric": 27
 , "Volvo|C40 Recharge": 27
 , "Cupra|Born": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 23
@@ -1553,6 +1554,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 7
 , "Citroën|Berlingo Electric": 6
 , "Jaguar|I-Pace": 6
+, "Toyota|Proace City Electric": 6
 , "other": 40
 });
 
@@ -1630,7 +1632,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 20
 , "Opel|Mokka-e": 20
 , "Honda|e": 18
-, "Toyota|Proace Electric": 18
+, "Toyota|Proace Electric": 17
 , "Kia|Soul EV": 15
 , "Mercedes-Benz|EQV": 15
 , "Renault|Megane E-Tech": 15
@@ -1647,7 +1649,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 6
 , "BMW|iX3": 5
 , "Jaguar|I-Pace": 5
-, "other": 52
+, "other": 53
 });
 
 db.insert(db.countries.IT, "2022-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Maggio%202022_629775401787e.pdf",
@@ -1739,10 +1741,9 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-SpaceTourer": 10
 , "Volvo|XC40 Recharge pure electric": 9
 , "Peugeot|e-Rifter": 8
-, "Toyota|Proace Electric": 8
 , "Audi|e-tron GT": 7
 , "Mercedes-Benz|EQC": 7
-, "other": 46
+, "other": 54
 });
 
 db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Giugno%202022_62befaffac56a.pdf",
@@ -1820,11 +1821,11 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 31
 , "BMW|iX": 30
 , "Kia|Niro EV": 29
-, "Toyota|Proace Electric": 29
 , "Audi|Q8 e-tron": 28
 , "Honda|e": 27
 , "DS Automobiles|DS 3 Crossback E-Tense": 26
 , "Mazda|MX-30": 22
+, "Toyota|Proace Electric": 21
 , "BMW|i4": 19
 , "Kia|EV6": 18
 , "Volvo|C40 Recharge": 17
@@ -1835,6 +1836,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 12
 , "Hyundai|Ioniq 5": 11
 , "BMW|iX3": 10
+, "Toyota|Proace City Electric": 8
 , "Peugeot|e-Rifter": 7
 , "other": 87
 });
@@ -1906,14 +1908,15 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 42
 , "Citroën|ë-C4": 37
 , "Tesla|Model Y": 37
-, "Toyota|Proace Electric": 37
 , "Mercedes-Benz|EQB": 34
 , "BMW|i4": 32
 , "Volkswagen|ID.5": 31
 , "BMW|iX": 27
 , "MG|ZS EV": 24
 , "Kia|EV6": 22
+, "Toyota|Proace Electric": 22
 , "Volkswagen|e-up!": 20
+, "Toyota|Proace City Electric": 15
 , "Volvo|C40 Recharge": 15
 , "BMW|iX3": 14
 , "Aiways|U5": 13
@@ -1929,9 +1932,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Hyundai|Ioniq 5": 4
 , "MG|Marvel R": 4
-, "Lexus|UX 300e": 3
-, "Opel|Combo-e": 3
-, "other": 36
+, "other": 42
 });
 
 db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Agosto%202022_6310a8afd3969.pdf",
@@ -2008,13 +2009,14 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 22
 , "Citroën|ë-C4": 17
 , "Mercedes-Benz|EQB": 17
-, "Toyota|Proace Electric": 16
 , "Mercedes-Benz|EQC": 13
 , "BMW|iX3": 12
 , "Kia|EV6": 12
+, "Toyota|Proace Electric": 10
 , "Mazda|MX-30": 8
 , "Mercedes-Benz|EQE": 6
 , "Smart|Forfour ED": 6
+, "Toyota|Proace City Electric": 6
 , "Volkswagen|e-up!": 6
 , "Hyundai|Ioniq 5": 5
 , "Kia|Niro EV": 4
@@ -2106,7 +2108,6 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 20
 , "Porsche|Taycan": 18
 , "Smart|Forfour ED": 17
-, "Toyota|Proace Electric": 16
 , "MG|ZS EV": 15
 , "MG|MG4 EV": 14
 , "Mercedes-Benz|EQE": 14
@@ -2116,8 +2117,8 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 12
 , "Hyundai|Ioniq 5": 9
 , "Lexus|UX 300e": 9
-, "Volkswagen|e-up!": 7
-, "other": 27
+, "Toyota|Proace City Electric": 9
+, "other": 41
 });
 
 db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Ottobre%202022_6362879f08071.pdf",
@@ -2195,10 +2196,10 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 29
 , "Kia|Niro EV": 28
 , "Volvo|C40 Recharge": 28
-, "Toyota|Proace Electric": 25
 , "Citroën|ë-C4": 21
 , "MG|Marvel R": 21
 , "Nissan|Ariya": 21
+, "Toyota|Proace City Electric": 20
 , "Mercedes-Benz|EQE": 18
 , "Kia|EV6": 17
 , "Polestar|2": 16
@@ -2211,6 +2212,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 5
 , "Peugeot|e-Rifter": 5
 , "Subaru|Solterra": 5
+, "Toyota|Proace Electric": 5
 , "other": 24
 });
 
@@ -2297,16 +2299,16 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 20
 , "Volvo|C40 Recharge": 18
 , "BMW|iX3": 17
-, "Toyota|Proace Electric": 17
 , "Mercedes-Benz|EQC": 16
 , "MG|ZS EV": 15
 , "Kia|EV6": 13
 , "Mercedes-Benz|EQE": 11
+, "Toyota|Proace City Electric": 11
 , "Volkswagen|ID. Buzz": 11
 , "Audi|e-tron GT": 10
 , "Citroën|ë-C4": 10
 , "Citroën|ë-SpaceTourer": 9
-, "other": 40
+, "other": 46
 });
 
 db.insert(db.countries.IT, "2022-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Dicembre%202022_63b3ce802469b.pdf",
@@ -2382,9 +2384,9 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 38
 , "BMW|iX1": 36
 , "Kia|EV6": 29
-, "Toyota|Proace Electric": 27
 , "Opel|Corsa-e": 26
 , "Škoda|Enyaq": 25
+, "Toyota|Proace Electric": 24
 , "MG|Marvel R": 23
 , "Mercedes-Benz|EQE": 23
 , "Polestar|2": 22
@@ -2401,7 +2403,7 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 11
 , "Hyundai|Kona Electric": 9
 , "Fiat|E-Doblò": 7
-, "other": 205
+, "other": 208
 });
 
 db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Gennaio%202023_63da853aee5fb.pdf",
@@ -2572,7 +2574,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 23
 , "Mercedes-Benz|EQE": 22
 , "Volvo|C40 Recharge": 22
-, "Toyota|Proace Electric": 19
+, "Toyota|Proace City Electric": 19
 , "Volkswagen|ID. Buzz": 19
 , "Hyundai|Ioniq 5": 14
 , "Mercedes-Benz|EQS": 14
@@ -2639,13 +2641,13 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 220
 , "Renault|Twingo Z.E.": 215
 , "Audi|Q4 e-tron": 208
-, "Toyota|Proace Electric": 144
 , "Mercedes-Benz|EQA": 138
 , "Polestar|2": 137
 , "Mini|Cooper SE Electric": 135
 , "BMW|iX1": 132
 , "Cupra|Born": 131
 , "Citroën|ë-C4": 121
+, "Toyota|Proace City Electric": 115
 , "Renault|Zoe": 103
 , "Mercedes-Benz|EQB": 97
 , "Fiat|E-Doblò": 96
@@ -2671,6 +2673,7 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 32
 , "Volkswagen|ID.5": 31
 , "Volvo|C40 Recharge": 30
+, "Toyota|Proace Electric": 29
 , "Mercedes-Benz|EQE": 27
 , "Citroën|Berlingo Electric": 23
 , "Mazda|MX-30": 21
@@ -2767,12 +2770,12 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 13
 , "Nissan|Ariya": 13
 , "Nissan|Leaf": 13
-, "Toyota|Proace Electric": 13
 , "Fiat|E-Doblò": 12
 , "Mercedes-Benz|EQB": 11
 , "Mercedes-Benz|EQS": 11
 , "Subaru|Solterra": 9
-, "other": 19
+, "Toyota|Proace City Electric": 9
+, "other": 23
 });
 
 db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Maggio%202023_6478b30f87cc6.pdf",
