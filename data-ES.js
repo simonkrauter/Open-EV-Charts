@@ -5128,7 +5128,7 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "other": 743
 });
 
-db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/7 (includes commercial vehicles)",
+db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/7 (includes commercial vehicles), https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
 { "Tesla|Model 3": 430
 , "Tesla|Model Y": 304
 , "MG|MG4 EV": 286
