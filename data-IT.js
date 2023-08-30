@@ -3012,7 +3012,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 7140
 });
 
-db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7",
+db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
 { "Tesla|Model Y": 399
 , "Fiat|500e": 332
 , "Smart|Fortwo ED": 317
