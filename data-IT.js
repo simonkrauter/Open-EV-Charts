@@ -2969,3 +2969,99 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 10
 , "other": 117
 });
+
+db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Luglio%202023_64c8de6ccdfd3.pdf",
+{ "Fiat": 14341
+, "Volkswagen": 9229
+, "Dacia": 7108
+, "Audi": 5932
+, "Renault": 5877
+, "Ford": 5613
+, "Peugeot": 5530
+, "Jeep": 5466
+, "BMW": 5161
+, "Toyota": 3996
+, "Mercedes-Benz": 3970
+, "Kia": 3886
+, "Hyundai": 3881
+, "Citroën": 3772
+, "Suzuki": 2977
+, "Opel": 2914
+, "Škoda": 2898
+, "Nissan": 2816
+, "MG": 2468
+, "Alfa Romeo": 2264
+, "Mini": 1916
+, "Cupra": 1640
+, "Volvo": 1475
+, "Mazda": 1316
+, "Seat": 1024
+, "Land Rover": 942
+, "Porsche": 624
+, "DS Automobiles": 555
+, "Honda": 481
+, "Tesla": 478
+, "Smart": 375
+, "Maserati": 334
+, "Subaru": 238
+, "Lexus": 216
+, "Jaguar": 181
+, "Mitsubishi": 77
+, "Polestar": 66
+, "SsangYong": 30
+, "other": 7140
+});
+
+db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7",
+{ "Tesla|Model Y": 399
+, "Fiat|500e": 332
+, "Smart|Fortwo ED": 317
+, "MG|MG4 EV": 222
+, "Peugeot|e-208": 220
+, "Dacia|Spring": 208
+, "Renault|Megane E-Tech": 179
+, "Opel|Corsa-e": 163
+, "Jeep|Avenger EV": 127
+, "Mini|Cooper SE Electric": 93
+, "Volkswagen|ID.4": 90
+, "Hyundai|Kona Electric": 88
+, "MG|ZS EV": 86
+, "Audi|Q4 e-tron": 85
+, "Renault|Twingo Z.E.": 84
+, "Volkswagen|ID.3": 83
+, "BMW|iX1": 79
+, "Mercedes-Benz|EQA": 71
+, "Audi|Q8 e-tron": 69
+, "Citroën|ë-C4": 68
+, "Tesla|Model 3": 67
+, "Polestar|2": 66
+, "MG|Marvel R": 63
+, "Porsche|Taycan": 63
+, "BMW|i4": 60
+, "Ford|Mustang Mach-E": 59
+, "Smart|1": 58
+, "Škoda|Enyaq": 54
+, "Peugeot|e-2008": 46
+, "Cupra|Born": 42
+, "Mercedes-Benz|EQB": 33
+, "Mercedes-Benz|EQE": 30
+, "BMW|iX3": 25
+, "Citroën|ë-SpaceTourer": 25
+, "Volvo|XC40 Recharge pure electric": 25
+, "MG|MG5 EV": 24
+, "Opel|Mokka-e": 22
+, "Volkswagen|ID.5": 22
+, "BYD|Yuan Plus": 21
+, "Renault|Zoe": 21
+, "Nissan|Ariya": 20
+, "BMW|iX": 19
+, "Kia|EV6": 18
+, "Nissan|Leaf": 17
+, "Volkswagen|ID. Buzz": 17
+, "Volvo|C40 Recharge": 14
+, "Kia|Niro EV": 12
+, "Opel|Zafira-e": 11
+, "DS Automobiles|DS 3 Crossback E-Tense": 8
+, "Fiat|E-Doblò": 7
+, "other": 59
+});
