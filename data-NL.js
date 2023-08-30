@@ -4763,7 +4763,8 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 17
 , "DS Automobiles|DS 3 Crossback E-Tense": 12
 , "Mercedes-Benz|EQV": 12
-, "other": 253
+, "Subaru|Solterra": 11
+, "other": 242
 });
 
 db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2022/juli/",
