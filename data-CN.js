@@ -530,8 +530,8 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 50699
 });
 
-db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "https://carsalesbase.com/china-car-sales-analysis-january-2020/",
-{ "other": 1610000
+db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html TODO: numbers per brand wanted",
+{ "other": 1509717
 });
 
 db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
@@ -550,11 +550,11 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 1028
 , "Weltmeister|EX5": 1027
 , "Hozon|Neta N01": 1001
-, "other": 11186
+, "other": 7535
 });
 
-db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "https://carsalesbase.com/china-car-sales-analysis-february-2020/",
-{ "other": 216500
+db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html TODO: numbers per brand wanted",
+{ "other": 224077
 });
 
 db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
@@ -573,11 +573,11 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 305
 , "Chery|eQ": 470
 , "Changan|Eado EV": 408
-, "other": 1239
+, "other": 1179
 });
 
-db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5229825.html TODO: numbers per brand wanted",
-{ "other": 1043000
+db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html TODO: numbers per brand wanted",
+{ "other": 1037829
 });
 
 db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
@@ -596,11 +596,11 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 1073
 , "Changan|Eado EV": 692
 , "Hozon|Neta N01": 616
-, "other": 11819
+, "other": 9642
 });
 
-db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5230166.html TODO: numbers per brand wanted",
-{ "other": 1536000
+db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html TODO: numbers per brand wanted",
+{ "other": 1503555
 });
 
 db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
@@ -618,11 +618,11 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Weltmeister|EX5": 1388
 , "BYD|e2": 1322
 , "Xpeng|G3": 1008
-, "other": 16277
+, "other": 13648
 });
 
-db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5230713.html TODO: numbers per brand wanted",
-{ "other": 1674000
+db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html TODO: numbers per brand wanted",
+{ "other": 1635760
 });
 
 db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
@@ -642,11 +642,11 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|ZS EV": 156
 , "Xpeng|G3": 954
 , "Hozon|Neta N01": 984
-, "other": 13853
+, "other": 10501
 });
 
-db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5231066.html TODO: numbers per brand wanted",
-{ "other": 1764000
+db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html TODO: numbers per brand wanted",
+{ "other": 1631279
 });
 
 db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
@@ -665,11 +665,11 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|MG5 EV": 168
 , "MG|ZS EV": 1016
 , "BYD|Song EV": 1086
-, "other": 24988
+, "other": 16957
 });
 
-db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5231592.html TODO: numbers per brand wanted",
-{ "other": 1665000
+db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html TODO: numbers per brand wanted",
+{ "other": 1643229
 });
 
 db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html",
@@ -689,11 +689,11 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Buick|Velite 6": 521
 , "MG|MG5 EV": 410
 , "BYD|Song EV": 1198
-, "other": 27148
+, "other": 23306
 });
 
-db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5231768.html TODO: numbers per brand wanted",
-{ "other": 1755000
+db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html TODO: numbers per brand wanted",
+{ "other": 1729715
 });
 
 db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
@@ -713,11 +713,11 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Buick|Velite 6": 304
 , "BYD|Song EV": 849
 , "MG|MG5 EV": 23
-, "other": 30506
+, "other": 26262
 });
 
-db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5232133.html TODO: numbers per brand wanted",
-{ "other": 2088000
+db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html TODO: numbers per brand wanted",
+{ "other": 2050124
 });
 
 db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html",
@@ -737,11 +737,11 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 2113
 , "Changan|Eado EV": 2107
 , "Weltmeister|EX5": 2035
-, "other": 34505
+, "other": 28643
 });
 
-db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5232360.html TODO: numbers per brand wanted",
-{ "other": 2110000
+db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html TODO: numbers per brand wanted",
+{ "other": 2070469
 });
 
 db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html",
@@ -761,11 +761,11 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Xpeng|P7": 2104
 , "Aion|V": 2006
 , "Leapmotor|T03": 1681
-, "other": 30055
+, "other": 23592
 });
 
-db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.caam.org.cn/chn/21/cate_463/con_5232645.html TODO: numbers per brand wanted",
-{ "other": 2297000
+db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html TODO: numbers per brand wanted",
+{ "other": 2269949
 });
 
 db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html",
@@ -785,11 +785,11 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BYD|e2": 2670
 , "Hongqi|E-HS3": 2552
 , "Nio|ES6": 2386
-, "other": 45505
+, "other": 37230
 });
 
-db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/31/id/50.html TODO: numbers per brand wanted",
-{ "other": 2375000
+db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html TODO: numbers per brand wanted",
+{ "other": 2349468
 });
 
 db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
@@ -809,11 +809,11 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Benni EV": 2610
 , "Weltmeister|EX5": 2588
 , "Nio|ES6": 2505
-, "other": 40589
+, "other": 32435
 });
 
-db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1621.html TODO: numbers per brand wanted",
-{ "other": 2045000
+db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html TODO: numbers per brand wanted",
+{ "other": 1950403
 });
 
 db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
@@ -833,11 +833,11 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Hozon|Neta V": 2076
 , "Weltmeister|EX5": 2014
 , "Nio|ES8": 1660
-, "other": 37462
+, "other": 51461
 });
 
-db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1622.html TODO: numbers per brand wanted",
-{ "other": 1156000
+db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html TODO: numbers per brand wanted",
+{ "other": 1094330
 });
 
 db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html",
@@ -857,11 +857,11 @@ db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 1391
 , "Ora|White Cat": 1269
 , "BMW|iX3": 1216
-, "other": 18845
+, "other": 26616
 });
 
-db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1623.html TODO: numbers per brand wanted",
-{ "other": 1874000
+db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html TODO: numbers per brand wanted",
+{ "other": 1816550
 });
 
 db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html",
@@ -882,11 +882,11 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Nio|EC6": 2649
 , "Roewe|Clever EV": 2486
 , "Weltmeister|EX5": 2482
-, "other": 40196
+, "other": 60152
 });
 
-db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1624.html TODO: numbers per brand wanted",
-{ "other": 1704000
+db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html TODO: numbers per brand wanted",
+{ "other": 1657279
 });
 
 db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html",
@@ -906,11 +906,11 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Leapmotor|T03": 2817
 , "Xpeng|G3": 2610
 , "Nio|EC6": 2416
-, "other": 49675
+, "other": 66369
 });
 
-db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1625.html TODO: numbers per brand wanted",
-{ "other": 1646000
+db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/ TODO: numbers per brand wanted",
+{ "other": 1499443
 });
 
 db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
@@ -928,11 +928,11 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|T03": 3147
 , "Nio|ES6": 3019
 , "Weltmeister|EX5": 2375
-, "other": 58703
+, "other": 66215
 });
 
-db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1626.html TODO: numbers per brand wanted",
-{ "other": 1569000
+db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/ TODO: numbers per brand wanted",
+{ "other": 1483660
 });
 
 db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
@@ -953,11 +953,11 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Pocco|MeiMei": 3658
 , "Hozon|Neta V": 3533
 , "Dongfeng|E70 EV": 3427
-, "other": 65220
+, "other": 81869
 });
 
-db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1627.html TODO: numbers per brand wanted",
-{ "other": 1551000
+db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/ TODO: numbers per brand wanted",
+{ "other": 1458406
 });
 
 db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
@@ -977,11 +977,11 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Nio|ES6": 3669
 , "Weltmeister|EX5": 3373
 , "Letin|Mango": 3243
-, "other": 80666
+, "other": 95987
 });
 
-db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1628.html TODO: numbers per brand wanted",
-{ "other": 1552000
+db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/ TODO: numbers per brand wanted",
+{ "other": 1425509
 });
 
 db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
@@ -1001,11 +1001,11 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|T03": 4409
 , "Letin|Mango": 4372
 , "Aion|Y": 4124
-, "other": 99236
+, "other": 112558
 });
 
-db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1629.html TODO: numbers per brand wanted",
-{ "other": 1751000
+db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/ TODO: numbers per brand wanted",
+{ "other": 1680955
 });
 
 db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
@@ -1026,11 +1026,11 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Ora|Good Cat": 5085
 , "Nio|ES6": 5009
 , "Hozon|Neta V": 5009
-, "other": 118457
+, "other": 149710
 });
 
-db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1630.html TODO: numbers per brand wanted",
-{ "other": 2007000
+db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/ TODO: numbers per brand wanted",
+{ "other": 1923628
 });
 
 db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
@@ -1050,11 +1050,11 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Pocco|DuoDuo": 5627
 , "Sehol|E10X": 5322
 , "Hozon|Neta V": 5178
-, "other": 113713
+, "other": 140644
 });
 
-db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1631.html TODO: numbers per brand wanted",
-{ "other": 2192000
+db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/ TODO: numbers per brand wanted",
+{ "other": 2058515
 });
 
 db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
@@ -1074,11 +1074,11 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 6440
 , "Xpeng|G5": 5620
 , "Roewe|Clever EV": 5370
-, "other": 155979
+, "other": 182593
 });
 
-db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/52/id/1632.html TODO: numbers per brand wanted",
-{ "other": 2422000
+db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/ TODO: numbers per brand wanted",
+{ "other": 2263821
 });
 
 db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
@@ -1098,11 +1098,11 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin Plus EV": 7001
 , "Aion|S": 6409
 , "Aion|Y": 6020
-, "other": 172939
+, "other": 73888
 });
 
-db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1867.html TODO: numbers per brand wanted",
-{ "other": 2186000
+db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/ TODO: numbers per brand wanted",
+{ "other": 2126382
 });
 
 db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
@@ -1122,11 +1122,11 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|Y": 6415
 , "Volkswagen|ID.4": 6294
 , "Leapmotor|T03": 6007
-, "other": 129583
+, "other": 130411
 });
 
-db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1868.html TODO: numbers per brand wanted",
-{ "other": 1487000
+db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/ TODO: numbers per brand wanted",
+{ "other": 1413872
 });
 
 db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
@@ -1146,11 +1146,11 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|ID.4": 3731
 , "BYD|Song EV": 3699
 , "Xpeng|P7": 3537
-, "other": 104167
+, "other": 99780
 });
 
-db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1869.html TODO: numbers per brand wanted",
-{ "other": 1864000
+db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/ TODO: numbers per brand wanted",
+{ "other": 1711746
 });
 
 db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
@@ -1170,11 +1170,11 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 6798
 , "Ora|Black Cat": 6612
 , "Ora|Good Cat": 6342
-, "other": 162212
+, "other": 141394
 });
 
-db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1870.html TODO: numbers per brand wanted",
-{ "other": 965000
+db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/ TODO: numbers per brand wanted",
+{ "other": 871209
 });
 
 db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
@@ -1194,11 +1194,11 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Dongfeng|E-Series": 4306
 , "Xpeng|P7": 3714
 , "Xpeng|P5": 3564
-, "other": 85381
+, "other": 70695
 });
 
-db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1871.html TODO: numbers per brand wanted",
-{ "other": 1623000
+db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/ TODO: numbers per brand wanted",
+{ "other": 1263254
 });
 
 db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
@@ -1216,11 +1216,11 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|T03": 5724
 , "Volkswagen|ID.4": 5661
 , "Ora|Black Cat": 5333
-, "other": 235309
+, "other": 161584
 });
 
-db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1872.html TODO: numbers per brand wanted",
-{ "other": 2222000
+db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/ TODO: numbers per brand wanted",
+{ "other": 1960819
 });
 
 db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
@@ -1239,11 +1239,11 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Ora|Good Cat": 8275
 , "Xpeng|P7": 8045
 , "Dongfeng|E-Series": 7536
-, "other": 243639
+, "other": 199567
 });
 
-db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1873.html TODO: numbers per brand wanted",
-{ "other": 2174000
+db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/ TODO: numbers per brand wanted",
+{ "other": 1817502
 });
 
 db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
@@ -1261,11 +1261,11 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 6864
 , "Leapmotor|C11": 6582
 , "Ora|Good Cat": 8519
-, "other": 259914
+, "other": 199895
 });
 
-db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1874.html TODO: numbers per brand wanted",
-{ "other": 2125000
+db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/ TODO: numbers per brand wanted",
+{ "other": 1803891
 });
 
 db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
@@ -1283,11 +1283,11 @@ db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Lumin": 8492
 , "Ora|Good Cat": 7594
 , "Zeekr|001": 7166
-, "other": 267406
+, "other": 209078
 });
 
-db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1875.html TODO: numbers per brand wanted",
-{ "other": 2332000
+db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/ TODO: numbers per brand wanted",
+{ "other": 1770531
 });
 
 db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
@@ -1305,11 +1305,11 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Zeekr|001": 8276
 , "BYD|Seal": 7473
 , "Geely|Geometry A": 7293
-, "other": 353411
+, "other": 221715
 });
 
-db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1876.html TODO: numbers per brand wanted",
-{ "other": 2231000
+db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/ TODO: numbers per brand wanted",
+{ "other": 1811385
 });
 
 db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
@@ -1326,11 +1326,11 @@ db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|eQ1": 9938
 , "Changan|Benni EV": 8835
 , "Dongfeng|E-Series": 8315
-, "other": 282184
+, "other": 202236
 });
 
-db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1877.html TODO: numbers per brand wanted",
-{ "other": 2075000
+db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/ TODO: numbers per brand wanted",
+{ "other": 1735238
 });
 
 db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
@@ -1348,11 +1348,11 @@ db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 8915
 , "Dongfeng|E-Series": 8312
 , "Roewe|Clever EV": 8100
-, "other": 271382
+, "other": 199905
 });
 
-db.insert(db.countries.CN, "2022-12", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/58/id/1878.html TODO: numbers per brand wanted",
-{ "other": 2265000
+db.insert(db.countries.CN, "2022-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/02/01/plugin-electric-vehicles-get-30-share-of-auto-market-in-another-record-month-in-china/ TODO: numbers per brand wanted",
+{ "other": 2058998
 });
 
 db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/02/01/plugin-electric-vehicles-get-30-share-of-auto-market-in-another-record-month-in-china/",
@@ -1369,11 +1369,11 @@ db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "Dongfeng|E-Series": 9075
 , "BAIC|EU-Series": 8840
 , "Volkswagen|ID.4": 8733
-, "other": 240615
+, "other": 236652
 });
 
-db.insert(db.countries.CN, "2023-01", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2026.html TODO: numbers per brand wanted",
-{ "other": 1469000
+db.insert(db.countries.CN, "2023-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/03/02/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january-2/ TODO: numbers per brand wanted",
+{ "other": 1319231
 });
 
 db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/03/02/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january-2/",
@@ -1388,11 +1388,11 @@ db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|Y": 4792
 , "Changan|Lumin": 4711
 , "Changan|Benni EV": 4683
-, "other": 139440
+, "other": 113979
 });
 
-db.insert(db.countries.CN, "2023-02", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2025.html TODO: numbers per brand wanted",
-{ "other": 1653000
+db.insert(db.countries.CN, "2023-02", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/03/29/33-plugin-vehicle-market-share-in-china-february-2023-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1384848
 });
 
 db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/03/29/33-plugin-vehicle-market-share-in-china-february-2023-sales-report/",
@@ -1413,11 +1413,11 @@ db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Hozon|Neta V": 5013
 , "BYD|Tang EV": 1246
 , "Denza|D9 EV": 310
-, "other": 168848
+, "other": 109855
 });
 
-db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2024.html TODO: numbers per brand wanted",
-{ "other": 2017000
+db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1470588
 });
 
 db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/",
@@ -1438,11 +1438,11 @@ db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Tang EV": 822
 , "Buick|Velite 6": 1797
 , "Nio|ET5": 6437
-, "other": 162056
+, "other": 30917
 });
 
-db.insert(db.countries.CN, "2023-04", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2023.html TODO: numbers per brand wanted",
-{ "other": 1811000
+db.insert(db.countries.CN, "2023-04", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/05/31/35-plugin-vehicle-market-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1714286
 });
 
 db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/05/31/35-plugin-vehicle-market-share-in-china-china-ev-sales-report/",
@@ -1463,11 +1463,11 @@ db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Shenlan SL03": 1528
 , "Denza|D9 EV": 1010
 , "BYD|Tang EV": 776
-, "other": 211602
+, "other": 188391
 });
 
-db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2022.html TODO: numbers per brand wanted",
-{ "other": 2051000
+db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/ TODO: numbers per brand wanted",
+{ "other": 1714286
 });
 
 db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
@@ -1485,11 +1485,11 @@ db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 11454
 , "Changan|Lumin": 8491
 , "BYD|Seal": 8062
-, "other": 182662
+, "other": 101851
 });
 
-db.insert(db.countries.CN, "2023-06", db.dsTypes.AllCarsByBrand, "http://en.caam.org.cn/Index/show/catid/64/id/2021.html TODO: numbers per brand wanted",
-{ "other": 2268000
+db.insert(db.countries.CN, "2023-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/08/02/38-plugin-vehicle-market-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1842105
 });
 
 db.insert(db.countries.CN, "2023-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/08/02/38-plugin-vehicle-market-share-in-china-china-ev-sales-report/",
@@ -1509,5 +1509,5 @@ db.insert(db.countries.CN, "2023-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 2203
 , "Denza|D9 EV": 867
 , "BYD|Tang EV": 643
-, "other": 295134
+, "other": 188660
 });
