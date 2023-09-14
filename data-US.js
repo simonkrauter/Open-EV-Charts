@@ -792,7 +792,13 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Chevrolet|Bolt": 24
 });
 
-// No source found for 2022-Q1
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "Calculated from yearly data from https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
+{ "other": 3092998
+});
+
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "Calculated from yearly data from https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
+{ "other": 221216
+});
 
 db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
 { "Toyota": 416834
