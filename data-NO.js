@@ -4485,6 +4485,85 @@ db.insert(db.countries.NO, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 736
 });
 
+db.insert(db.countries.NO, "2023-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-august-2023",
+{ "Tesla": 1704
+, "Toyota": 1315
+, "Volkswagen": 1200
+, "Škoda": 911
+, "BMW": 574
+, "Volvo": 570
+, "Nissan": 536
+, "Mercedes-Benz": 498
+, "Polestar": 444
+, "Ford": 421
+, "Audi": 420
+, "Hyundai": 395
+, "MG": 332
+, "Opel": 248
+, "Peugeot": 227
+, "Kia": 215
+, "Citroën": 170
+, "Mazda": 153
+, "Lexus": 127
+, "Suzuki": 85
+, "other": 538
+});
+
+db.insert(db.countries.NO, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2023",
+{ "Tesla|Model Y": 1450
+, "Škoda|Enyaq": 733
+, "Volkswagen|ID.4": 693
+, "Toyota|bZ4X": 402
+, "Ford|Mustang Mach-E": 347
+, "Nissan|Ariya": 312
+, "Hyundai|Kona Electric": 249
+, "Tesla|Model 3": 233
+, "Volkswagen|ID.3": 215
+, "BMW|i4": 206
+, "Nissan|Leaf": 203
+, "Audi|Q4 e-tron": 194
+, "Audi|Q8 e-tron": 191
+, "MG|MG4 EV": 182
+, "BMW|iX1": 157
+, "Mercedes-Benz|EQE": 145
+, "Citroën|ë-C4": 140
+, "Kia|EV6": 120
+, "Opel|Mokka-e": 117
+, "Mercedes-Benz|EQA": 115
+, "Mazda|MX-30": 106
+, "Volvo|XC40 Recharge pure electric": 104
+, "Opel|Corsa-e": 103
+, "Peugeot|e-2008": 103
+, "Hyundai|Ioniq 5": 89
+, "MG|ZS EV": 86
+, "BMW|iX": 69
+, "Peugeot|e-208": 67
+, "Volkswagen|ID.5": 65
+, "Subaru|Solterra": 52
+, "Hyundai|Ioniq 6": 50
+, "Mini|Cooper SE Electric": 49
+, "MG|Marvel R": 48
+, "Lexus|RZ": 45
+, "Renault|Megane E-Tech": 44
+, "Mercedes-Benz|EQC": 43
+, "Kia|Niro EV": 38
+, "Mercedes-Benz|EQS": 37
+, "BYD|Tang EV": 35
+, "Lexus|UX 300e": 35
+, "Mercedes-Benz|EQB": 34
+, "BYD|Yuan Plus": 31
+, "Volvo|C40 Recharge": 27
+, "BMW|iX3": 24
+, "Porsche|Taycan": 24
+, "Maxus|Euniq 6": 22
+, "Xpeng|P7": 22
+, "Fiat|E-Doblò": 20
+, "Kia|Soul EV": 18
+, "Nio|ES8": 17
+, "other": 1339
+});
+
+
 
 // Template:
 
