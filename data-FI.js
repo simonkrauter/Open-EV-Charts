@@ -4273,3 +4273,86 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 2
 , "other": 27
 });
+
+db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2787/August_2023.xlsx",
+{ "Toyota": 1132
+, "Peugeot": 719
+, "Kia": 671
+, "Škoda": 670
+, "Volkswagen": 625
+, "Tesla": 573
+, "Volvo": 500
+, "BMW": 442
+, "Mercedes-Benz": 429
+, "Audi": 281
+, "Hyundai": 274
+, "Ford": 245
+, "Nissan": 230
+, "Citroën": 106
+, "Mazda": 97
+, "Polestar": 97
+, "Dacia": 75
+, "Land Rover": 74
+, "Opel": 59
+, "Lexus": 58
+, "Suzuki": 46
+, "Mitsubishi": 43
+, "Renault": 40
+, "Mini": 32
+, "Cupra": 29
+, "Seat": 29
+, "Honda": 19
+, "Fiat": 10
+, "Subaru": 10
+, "Porsche": 5
+, "other": 203
+});
+
+db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Peugeot|e-2008": 654
+, "Tesla|Model Y": 450
+, "Škoda|Enyaq": 156
+, "BMW|i4": 126
+, "Tesla|Model 3": 121
+, "Volkswagen|ID.4": 115
+, "Audi|Q4 e-tron": 105
+, "Mercedes-Benz|EQE": 100
+, "Polestar|2": 97
+, "Kia|EV6": 91
+, "Hyundai|Ioniq 5": 60
+, "Mercedes-Benz|EQA": 50
+, "Kia|Niro EV": 49
+, "Nissan|Leaf": 49
+, "Volkswagen|ID.3": 49
+, "Hyundai|Kona Electric": 42
+, "Audi|Q8 e-tron": 40
+, "Toyota|bZ4X": 38
+, "Volkswagen|ID.5": 38
+, "Volvo|XC40 Recharge pure electric": 34
+, "Mercedes-Benz|EQB": 31
+, "Mercedes-Benz|EQS": 29
+, "Volvo|C40 Recharge": 27
+, "Mini|Cooper SE Electric": 26
+, "BMW|iX1": 23
+, "Citroën|ë-C4": 23
+, "Nissan|Ariya": 19
+, "Hyundai|Ioniq 6": 18
+, "Ford|Mustang Mach-E": 14
+, "Renault|Megane E-Tech": 11
+, "Cupra|Born": 10
+, "Lexus|RZ": 9
+, "BMW|iX": 8
+, "Opel|Mokka-e": 8
+, "BYD|Han EV": 6
+, "Fiat|500e": 6
+, "Mercedes-Benz|EQC": 5
+, "BYD|Tang EV": 4
+, "Citroën|Berlingo Electric": 4
+, "Peugeot|e-208": 4
+, "Porsche|Taycan": 4
+, "Peugeot|e-Rifter": 3
+, "Subaru|Solterra": 2
+, "Tesla|Model S": 2
+, "Volkswagen|e-up!": 2
+, "other": 50
+});
