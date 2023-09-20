@@ -2869,9 +2869,7 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 20
 , "Hyundai|Ioniq 5": 17
 , "Citroën|ë-SpaceTourer": 16
-, "Kia|Niro EV": 15
-, "MG|Marvel R": 15
-, "other": 77
+, "other": 107
 });
 
 db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Giugno%202023_64a2d3b0bb224.pdf",
