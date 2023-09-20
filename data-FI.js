@@ -4000,6 +4000,7 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 9
 , "Porsche|Taycan": 9
 , "Opel|Corsa-e": 8
+, "Lexus|RZ": 6
 , "Toyota|Proace Electric": 5
 , "Subaru|Solterra": 4
 , "Mini|Cooper SE Electric": 3
@@ -4007,7 +4008,7 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 2
 , "Opel|Combo-e": 2
 , "Tesla|Model X": 2
-, "other": 39
+, "other": 33
 });
 
 db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2767/May_2023.xlsx",
@@ -4087,6 +4088,7 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 6
 , "Peugeot|e-2008": 6
 , "Renault|Zoe": 5
+, "Lexus|RZ": 4
 , "Mini|Cooper SE Electric": 4
 , "Toyota|Proace Electric": 4
 , "BYD|Han EV": 3
@@ -4094,7 +4096,7 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 2
 , "Jeep|Avenger EV": 2
 , "Peugeot|e-Rifter": 2
-, "other": 40
+, "other": 36
 });
 
 db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2775/June_2023.xlsx",
@@ -4172,6 +4174,7 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 11
 , "Renault|Megane E-Tech": 10
 , "BMW|iX": 9
+, "Lexus|RZ": 9
 , "Subaru|Solterra": 7
 , "BMW|iX3": 6
 , "Toyota|Proace Electric": 6
@@ -4182,7 +4185,7 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 3
 , "BYD|Tang EV": 3
 , "Lexus|UX 300e": 2
-, "other": 36
+, "other": 27
 });
 
 db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2779/July_2023.xlsx",
@@ -4254,6 +4257,7 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 10
 , "Nissan|Ariya": 10
 , "BMW|iX1": 8
+, "Lexus|RZ": 8
 , "Porsche|Taycan": 7
 , "BMW|i7": 6
 , "Peugeot|e-208": 6
@@ -4267,5 +4271,5 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Han EV": 2
 , "Lexus|UX 300e": 2
 , "Mercedes-Benz|eVito": 2
-, "other": 35
+, "other": 27
 });
