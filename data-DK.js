@@ -1967,8 +1967,8 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
-{ "Tesla|Model Y": 572
-, "Škoda|Enyaq": 355
+{ "Tesla|Model Y": 574
+, "Škoda|Enyaq": 359
 , "Tesla|Model 3": 254
 , "Audi|Q4 e-tron": 202
 , "Volkswagen|ID.4": 201
@@ -1983,14 +1983,14 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 72
 , "Kia|EV6": 66
 , "Renault|Megane E-Tech": 64
+, "MG|MG4 EV": 63
 , "Hyundai|Ioniq 5": 61
-, "MG|MG4 EV": 60
 , "MG|Marvel R": 57
 , "Hyundai|Kona Electric": 54
 , "Volvo|XC40 Recharge pure electric": 51
 , "BMW|iX3": 48
 , "Kia|Niro EV": 48
-, "Volkswagen|ID.5": 36
+, "Volkswagen|ID.5": 40
 , "Audi|Q8 e-tron": 35
 , "BMW|iX": 32
 , "MG|MG5 EV": 32
@@ -2017,5 +2017,4 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 8
 , "Citroën|ë-Jumpy": 7
 , "Porsche|Taycan": 7
-, "other": 3
 });
