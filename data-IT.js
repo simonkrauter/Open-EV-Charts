@@ -3063,3 +3063,96 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Doblò": 7
 , "other": 59
 });
+
+db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Agosto%202023_64f1c3708072b.pdf",
+{ "Fiat": 8542
+, "Volkswagen": 5565
+, "Toyota": 4884
+, "Dacia": 4255
+, "Ford": 3948
+, "Peugeot": 3859
+, "Audi": 3529
+, "Jeep": 3381
+, "Renault": 3367
+, "Citroën": 3203
+, "BMW": 2961
+, "Kia": 2737
+, "Hyundai": 2570
+, "Mercedes-Benz": 2520
+, "Opel": 2470
+, "Nissan": 2373
+, "Tesla": 2129
+, "Škoda": 1944
+, "Suzuki": 1496
+, "MG": 1481
+, "Cupra": 1064
+, "Alfa Romeo": 1046
+, "Mini": 968
+, "Volvo": 719
+, "Seat": 566
+, "Mazda": 550
+, "Land Rover": 503
+, "Porsche": 392
+, "Honda": 385
+, "DS Automobiles": 324
+, "Smart": 161
+, "Maserati": 142
+, "Lexus": 140
+, "Subaru": 123
+, "Jaguar": 99
+, "Mitsubishi": 61
+, "SsangYong": 13
+, "Polestar": 8
+, "other": 5278
+});
+
+db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
+{ "Tesla|Model 3": 1192
+, "Tesla|Model Y": 931
+, "Renault|Megane E-Tech": 172
+, "Fiat|500e": 135
+, "Smart|Fortwo ED": 129
+, "Audi|Q4 e-tron": 114
+, "Dacia|Spring": 108
+, "Ford|Mustang Mach-E": 106
+, "BMW|iX1": 90
+, "Hyundai|Kona Electric": 74
+, "Opel|Corsa-e": 73
+, "Mini|Cooper SE Electric": 60
+, "MG|MG4 EV": 58
+, "Volkswagen|ID.3": 56
+, "Peugeot|e-2008": 53
+, "Peugeot|e-208": 50
+, "Jeep|Avenger EV": 47
+, "Citroën|ë-C4": 46
+, "BMW|i4": 40
+, "Cupra|Born": 37
+, "Volkswagen|ID.4": 35
+, "Smart|1": 32
+, "Porsche|Taycan": 23
+, "Renault|Twingo Z.E.": 23
+, "Aiways|U5": 22
+, "Mercedes-Benz|EQE": 22
+, "Volvo|C40 Recharge": 22
+, "Škoda|Enyaq": 22
+, "BMW|iX": 21
+, "Nissan|Leaf": 21
+, "Opel|Mokka-e": 19
+, "Mercedes-Benz|EQA": 17
+, "Mercedes-Benz|EQB": 16
+, "BYD|Yuan Plus": 14
+, "Audi|Q8 e-tron": 13
+, "Hyundai|Ioniq 6": 13
+, "BMW|iX3": 12
+, "Volkswagen|ID.5": 12
+, "Volvo|XC40 Recharge pure electric": 12
+, "Opel|Combo-e": 11
+, "Volkswagen|ID. Buzz": 11
+, "Kia|Niro EV": 10
+, "Polestar|2": 8
+, "Hyundai|Ioniq 5": 7
+, "DS Automobiles|DS 3 Crossback E-Tense": 6
+, "Fiat|E-Doblò": 5
+, "Renault|Zoe": 5
+, "other": 50
+});
