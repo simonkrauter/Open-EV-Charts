@@ -1259,7 +1259,7 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Hozon|Neta V": 7585
 , "Dongfeng|E-Series": 7583
 , "Aion|S": 6864
-, "Leapmotor|C11": 6582
+, "Leapmotor|C11 EV": 6582
 , "Ora|Good Cat": 8519
 , "other": 199895
 });
@@ -1555,7 +1555,7 @@ db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 10405
 , "BYD|Song EV": 9043
 , "BYD|Tang EV": 922
-, "Leapmotor|C11": 6602
+, "Leapmotor|C11 EV": 6602
 , "Denza|D9 EV": 301
 , "other": 215271
 });
