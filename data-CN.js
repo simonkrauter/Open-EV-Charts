@@ -1535,3 +1535,27 @@ db.insert(db.countries.CN, "2023-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Tang EV": 219
 , "other": 203344
 });
+
+db.insert(db.countries.CN, "2023-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/10/02/39-plugin-vehicle-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1923077
+});
+
+db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/10/02/39-plugin-vehicle-share-in-china-china-ev-sales-report/",
+{ "Tesla|Model Y": 51117
+, "BYD|Seagull": 34841
+, "BYD|Dolphin": 31096
+, "Aion|Y": 26713
+, "BYD|Yuan Plus": 24272
+, "Aion|S": 22648
+, "Wuling|Hongguang Mini EV": 15858
+, "Wuling|Bingo": 13892
+, "Tesla|Model 3": 13577
+, "Changan|Lumin": 11788
+, "BYD|Qin Plus EV": 11654
+, "BYD|Han EV": 10405
+, "BYD|Song EV": 9043
+, "BYD|Tang EV": 922
+, "Leapmotor|C11": 6602
+, "Denza|D9 EV": 301
+, "other": 215271
+});
