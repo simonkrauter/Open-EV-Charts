@@ -473,10 +473,18 @@ const testCases =
 , 6118: "all-share:brand:DE:ES:Volkswagen-Group"
 , 6119: "all-share:brand:Volkswagen-Group"
 
-, 7000: "electric-sales:DE:combine-brands"
-, 7001: "electric-sales:DE:Audi"
-, 7002: "electric-sales:DE:Renault:all-models"
-, 7003: "electric-sales:DE:Renault:Zoe"
+, 7000: "all-metrics:DE"
+, 7001: "all-metrics:DE:split-brands"
+, 7002: "all-metrics:DE:split-models"
+, 7003: "all-metrics:DE:total"
+, 7004: "all-metrics:DE:company"
+, 7005: "all-metrics:DE:brand"
+, 7006: "all-metrics:DE:ES"
+
+, 8000: "electric-sales:DE:combine-brands"
+, 8001: "electric-sales:DE:Audi"
+, 8002: "electric-sales:DE:Renault:all-models"
+, 8003: "electric-sales:DE:Renault:Zoe"
 };
 
 const testCaseNumbers = Object.keys(testCases);

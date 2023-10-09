@@ -337,8 +337,7 @@ var db = {
     param.options[this.metrics.salesAll] = "All Cars Sales";
     param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
     param.options[this.metrics.shareAll] = "All Cars Market Split";
-    if (chartConfig == null || chartConfig.country != this.countryOptions.all)
-      param.options[this.metrics.all] = "All Metrics";
+    param.options[this.metrics.all] = "All Metrics";
     param.unfoldKey = this.metrics.all;
     param.defaultOption = this.metrics.ratioElectric;
     param.alwaysAddToUrl = true;
@@ -678,6 +677,8 @@ var db = {
       params = this.getChartParams(result);
     }
 
+    result.unfoldedByParams = [];
+
     return this.makeChartConfigValid(result);
   },
 
@@ -720,8 +721,6 @@ var db = {
       chartConfig.brand = this.brandOptions.all;
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
-    if (chartConfig.metric == this.metrics.all && chartConfig.country == this.countryOptions.all)
-      chartConfig.metric = params.metric.defaultOption;
 
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
       chartConfig.country = db.countriesCodes[this.countriesWithData[0]];
@@ -769,38 +768,30 @@ var db = {
   },
 
   unfoldChartConfig: function(chartConfig) {
-    if (!this.isTimeXProperty(chartConfig))
-      return [chartConfig];
-    var yProperty;
-    if (chartConfig.detailLevel == this.detailLevels.company && chartConfig.company == this.companyOptions.all)
-      yProperty = "company";
-    else if (chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand == this.brandOptions.all)
-      yProperty = "brand";
-    else if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
-      yProperty = "model";
-    else
-      return [chartConfig];
     var result = [];
+    var unfoldedByParams = [];
     result.push(chartConfig);
     const params = this.getChartParams();
     for (const i in params) {
       const param = params[i];
-      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey && yProperty != param.name) {
+      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey) {
         var newResult = [];
         for (const j in result) {
           for (const k in param.options) {
             if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
+              if (!unfoldedByParams.includes(param.name))
+                unfoldedByParams.push(param.name);
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = k;
               newConfig = this.makeChartConfigValid(newConfig);
-              newConfig.unfoldedByParam = param.name;
+              newConfig.unfoldedByParams = unfoldedByParams;
               newResult.push(newConfig);
             }
           }
         }
         result = newResult;
       }
-      if (param.allowMultiSelection && yProperty != param.name) {
+      if (param.allowMultiSelection) {
         const values = chartConfig[param.name].split(",");
         if (values.length > 1 && (!param.disableUnfoldOption || !values.includes(param.disableUnfoldOption))) {
           var newResult = [];
@@ -808,10 +799,12 @@ var db = {
             for (const i in values) {
               if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[i]))
                 continue;
+              if (!unfoldedByParams.includes(param.name))
+                unfoldedByParams.push(param.name);
               var newConfig = this.cloneObject(result[j]);
               newConfig[param.name] = values[i];
               newConfig = this.makeChartConfigValid(newConfig);
-              newConfig.unfoldedByParam = param.name;
+              newConfig.unfoldedByParams = unfoldedByParams;
               newResult.push(newConfig);
             }
           }
@@ -834,7 +827,7 @@ var db = {
         continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
-      if (!isSingleChart && chartConfig.unfoldedByParam != param.name)
+      if (!isSingleChart && !chartConfig.unfoldedByParams.includes(param.name))
         continue;
       var text = param.options[value];
       if (param.name == "metric") {
