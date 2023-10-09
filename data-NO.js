@@ -4554,13 +4554,13 @@ db.insert(db.countries.NO, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 31
 , "Volvo|C40 Recharge": 27
 , "BMW|iX3": 24
+, "Fisker|Ocean": 24
 , "Porsche|Taycan": 24
 , "Maxus|Euniq 6": 22
 , "Xpeng|P7": 22
 , "Fiat|E-Doblò": 20
 , "Kia|Soul EV": 18
-, "Nio|ES8": 17
-, "other": 1339
+, "other": 1332
 });
 
 
