@@ -1146,3 +1146,72 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "GMC|Hummer EV": 63
 , "Mazda|MX-30": 51
 });
+
+db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/",
+{ "Toyota": 508482
+, "Ford": 476725
+, "Chevrolet": 450912
+, "Honda": 296310
+, "Kia": 210341
+, "Hyundai": 200534
+, "Nissan": 200333
+, "Subaru": 162013
+, "Tesla": 154999
+, "Jeep": 154620
+, "GMC": 142769
+, "Ram": 134378
+, "Mazda": 88834
+, "BMW": 83954
+, "Volkswagen": 77048
+, "Lexus": 74896
+, "Audi": 59262
+, "Dodge": 46217
+, "Buick": 43799
+, "Chrysler": 42315
+, "Acura": 36893
+, "Cadillac": 35639
+, "Volvo": 32375
+, "Mitsubishi": 22196
+, "Lincoln": 20383
+, "Genesis": 19427
+, "Rivian": 19400
+, "Infiniti": 17164
+, "Mini": 7901
+, "Alfa Romeo": 2890
+, "Polestar": 2100
+, "Fiat": 145
+, "other": 837
+});
+
+db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
+{ "Tesla|Model Y": 93999
+, "Tesla|Model 3": 52000
+, "Chevrolet|Bolt": 15834
+, "Ford|Mustang Mach-E": 14842
+, "Hyundai|Ioniq 5": 11665
+, "Rivian|R1S": 11001
+, "Rivian|R1T": 8199
+, "Genesis|GV70": 6970
+, "Kia|EV6": 6470
+, "Tesla|Model X": 5600
+, "BMW|iX": 5541
+, "Genesis|GV80": 5428
+, "Audi|Q8 e-tron": 5095
+, "Hyundai|Ioniq 6": 5073
+, "Nissan|Ariya": 4504
+, "Tesla|Model S": 3400
+, "Audi|Q4 e-tron": 3280
+, "Toyota|bZ4X": 2827
+, "Polestar|2": 2100
+, "Subaru|Solterra": 1673
+, "Nissan|Leaf": 1569
+, "Lexus|RZ": 1394
+, "Genesis|G80": 1357
+, "Volvo|C40 Recharge": 1253
+, "GMC|Hummer EV": 1167
+, "Genesis|GV60": 898
+, "Lucid|Air": 800
+, "Audi|e-tron GT": 638
+, "Rivian|EDV": 200
+, "Mazda|MX-30": 34
+});
