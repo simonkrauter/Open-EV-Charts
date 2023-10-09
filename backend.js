@@ -937,6 +937,7 @@ var db = {
     var categories = [];
     var monthsPerCountryAndTimeSpan = {};
     var maxRowsReachedAndModelNotFound = false;
+    var nonMonthlyCountries = [];
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -1035,6 +1036,9 @@ var db = {
       if (Object.keys(dataset.data).length == 51 && !datasetUsed) {
         maxRowsReachedAndModelNotFound = true;
       }
+      if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country)) {
+        nonMonthlyCountries.push(dataset.country);
+      }
     }
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
@@ -1043,7 +1047,7 @@ var db = {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound)
+      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound, nonMonthlyCountries)
     };
   },
 
@@ -1095,7 +1099,7 @@ var db = {
     }
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound, nonMonthlyCountries) {
     var hints = [];
 
     // missing countries
@@ -1183,6 +1187,18 @@ var db = {
     // potentially missing low number entries
     if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && chartConfig.model != this.modelOptions.all) {
       hints.push("Low number entries could be missing, because data is limited to top 50 models per month.");
+    }
+
+    // monthly data is not available
+    if (chartConfig.xProperty == this.xProperties.month) {
+      for (const i in nonMonthlyCountries) {
+        var hint = "Monthly data is not available.";
+        if (this.isMultiCountry(chartConfig)) {
+          const countryId = nonMonthlyCountries[i];
+          hint = this.countryNames[countryId] + ": " + hint;
+        }
+        hints.push(hint);
+      }
     }
 
     return hints;
