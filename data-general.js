@@ -224,6 +224,7 @@ const brandCountries =
 , "Dongfeng": "CN"
 , "DS Automobiles": "FR"
 , "Fiat": "IT"
+, "Fisker": "US"
 , "GAC Toyota": "CN"
 , "Haima": "CN"
 , "Hawtai": "CN"
