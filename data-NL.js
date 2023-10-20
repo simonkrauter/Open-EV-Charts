@@ -5996,7 +5996,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 228
 , "Tesla|Model 3": 224
 , "Renault|Megane E-Tech": 188
-, "Audi|Q8 e-tron": 174
+, "Audi|Q8 e-tron": 175
 , "Audi|Q4 e-tron": 165
 , "Volkswagen|ID.3": 161
 , "Polestar|2": 154
@@ -6033,7 +6033,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 26
 , "Mercedes-Benz|EQS": 24
 , "Volkswagen|ID.5": 23
-, "other": 510
+, "other": 509
 });
 
 db.insert(db.countries.NL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/augustus/",
@@ -6089,8 +6089,8 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 751
 , "Kia|Niro EV": 519
 , "Peugeot|e-208": 518
-, "Škoda|Enyaq": 497
-, "BMW|iX1": 325
+, "Škoda|Enyaq": 501
+, "BMW|iX1": 326
 , "MG|MG4 EV": 302
 , "Volkswagen|ID.3": 268
 , "Volkswagen|ID.4": 260
@@ -6105,7 +6105,7 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 172
 , "Cupra|Born": 168
 , "Jeep|Avenger EV": 155
-, "Audi|Q8 e-tron": 149
+, "Audi|Q8 e-tron": 150
 , "Dacia|Spring": 132
 , "Opel|Mokka-e": 116
 , "Volvo|C40 Recharge": 109
@@ -6132,6 +6132,7 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 34
 , "Opel|Vivaro-e": 31
 , "Fiat|E-Ulysse": 29
+, "Volkswagen|ID. Buzz": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 24
-, "other": 313
+, "other": 282
 });
