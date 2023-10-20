@@ -5169,17 +5169,17 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 19
 , "Mercedes-Benz|EQS": 18
 , "Volvo|C40 Recharge": 18
+, "Lexus|RZ": 17
 , "BYD|Yuan Plus": 15
 , "BMW|iX3": 14
 , "Renault|Zoe": 13
 , "Hyundai|Ioniq 6": 11
+, "Opel|Mokka-e": 11
 , "Volkswagen|ID.5": 9
 , "Fiat|E-Doblò": 8
 , "Opel|Corsa-e": 8
-, "Opel|Mokka-e": 8
 , "Nissan|Ariya": 7
-, "DS Automobiles|DS 3 Crossback E-Tense": 6
-, "other": 72
+, "other": 58
 });
 
 db.insert(db.countries.ES, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosagostotur.asp, https://www.km77.com/mercado/espana/2023/datosagostott.asp",
@@ -5250,6 +5250,7 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 36
 , "Fiat|500e": 36
 , "Ford|Mustang Mach-E": 36
+, "Opel|Mokka-e": 36
 , "MG|ZS EV": 33
 , "Kia|EV6": 32
 , "Volvo|XC40 Recharge pure electric": 31
@@ -5262,10 +5263,9 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 18
 , "BYD|Yuan Plus": 17
 , "Volvo|C40 Recharge": 16
+, "Opel|Corsa-e": 14
 , "Hyundai|Kona Electric": 13
 , "Nissan|Leaf": 13
-, "Opel|Mokka-e": 13
-, "Opel|Corsa-e": 12
 , "Porsche|Taycan": 12
 , "Audi|Q8 e-tron": 9
 , "Nissan|Ariya": 9
@@ -5276,5 +5276,5 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 7
 , "Peugeot|e-308": 7
 , "SsangYong|Korando e-Motion": 6
-, "other": 64
+, "other": 39
 });
