@@ -1366,8 +1366,6 @@ var db = {
   isBarChartStacked: function(chartConfig) {
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       return true;
-    if (![this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
-      return false;
     if (this.isCompanyBrandModelXProperty(chartConfig))
       return false;
     if (chartConfig.detailLevel == this.detailLevels.company)
