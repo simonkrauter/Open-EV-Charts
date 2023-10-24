@@ -768,6 +768,19 @@ var db = {
   },
 
   unfoldChartConfig: function(chartConfig) {
+    if (chartConfig.metric != this.metrics.all) {
+      if (!this.isTimeXProperty(chartConfig))
+        return [chartConfig];
+      if (chartConfig.detailLevel == this.detailLevels.total)
+        return [chartConfig];
+      if (chartConfig.detailLevel == this.detailLevels.company && chartConfig.company != this.companyOptions.all)
+        return [chartConfig];
+      if (chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand != this.brandOptions.all)
+        return [chartConfig];
+      if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model != this.modelOptions.all)
+        return [chartConfig];
+    }
+
     var result = [];
     var unfoldedByParams = [];
     result.push(chartConfig);
