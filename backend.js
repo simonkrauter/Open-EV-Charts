@@ -796,13 +796,13 @@ var db = {
         if (values.length > 1 && (!param.disableUnfoldOption || !values.includes(param.disableUnfoldOption))) {
           var newResult = [];
           for (const j in result) {
-            for (const i in values) {
-              if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[i]))
+            for (const k in values) {
+              if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[k]))
                 continue;
               if (!unfoldedByParams.includes(param.name))
                 unfoldedByParams.push(param.name);
               var newConfig = this.cloneObject(result[j]);
-              newConfig[param.name] = values[i];
+              newConfig[param.name] = values[k];
               newConfig = this.makeChartConfigValid(newConfig);
               newConfig.unfoldedByParams = unfoldedByParams;
               newResult.push(newConfig);
