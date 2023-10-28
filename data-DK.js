@@ -1967,8 +1967,8 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
-{ "Tesla|Model Y": 574
-, "Škoda|Enyaq": 359
+{ "Tesla|Model Y": 575
+, "Škoda|Enyaq": 366
 , "Tesla|Model 3": 254
 , "Audi|Q4 e-tron": 202
 , "Volkswagen|ID.4": 201
@@ -1980,28 +1980,29 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 86
 , "BMW|i4": 84
 , "Volkswagen|ID.3": 81
+, "MG|MG4 EV": 72
 , "Nissan|Ariya": 72
 , "Kia|EV6": 66
 , "Renault|Megane E-Tech": 64
-, "MG|MG4 EV": 63
 , "Hyundai|Ioniq 5": 61
 , "MG|Marvel R": 57
 , "Hyundai|Kona Electric": 54
-, "Volvo|XC40 Recharge pure electric": 51
+, "Volvo|XC40 Recharge pure electric": 52
 , "BMW|iX3": 48
 , "Kia|Niro EV": 48
-, "Volkswagen|ID.5": 40
-, "Audi|Q8 e-tron": 35
+, "Volkswagen|ID.5": 41
+, "Audi|Q8 e-tron": 36
 , "BMW|iX": 32
 , "MG|MG5 EV": 32
 , "Peugeot|e-208": 32
 , "BYD|Yuan Plus": 26
+, "Mercedes-Benz|EQE": 26
 , "Mazda|MX-30": 25
-, "Mercedes-Benz|EQE": 25
 , "Peugeot|e-2008": 25
 , "Mercedes-Benz|EQB": 23
 , "MG|ZS EV": 21
 , "Volvo|C40 Recharge": 21
+, "Fisker|Ocean": 20
 , "Opel|Vivaro-e": 20
 , "Citroën|ë-C4": 17
 , "Jeep|Avenger EV": 16
@@ -2015,8 +2016,6 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 8
 , "Mercedes-Benz|EQS": 8
 , "Toyota|Proace Electric": 8
-, "Citroën|ë-Jumpy": 7
-, "Porsche|Taycan": 7
 });
 
 db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf TODO: numbers per brand wanted",
@@ -2024,32 +2023,33 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/8",
-{ "Tesla|Model Y": 1033
+{ "Tesla|Model Y": 1039
+, "Škoda|Enyaq": 367
 , "Tesla|Model 3": 366
-, "Škoda|Enyaq": 362
 , "Audi|Q4 e-tron": 271
 , "Polestar|2": 261
 , "Ford|Mustang Mach-E": 170
 , "Volkswagen|ID.4": 170
-, "Volkswagen|ID. Buzz": 119
+, "Volkswagen|ID. Buzz": 120
 , "BMW|iX1": 115
 , "Cupra|Born": 114
 , "BMW|i4": 108
+, "BMW|iX3": 105
 , "Nissan|Ariya": 105
-, "BMW|iX3": 104
 , "MG|MG4 EV": 101
 , "Toyota|bZ4X": 100
 , "Volvo|XC40 Recharge pure electric": 87
+, "Fisker|Ocean": 86
 , "Mercedes-Benz|EQA": 82
+, "Kia|Niro EV": 81
 , "Kia|EV6": 80
-, "Kia|Niro EV": 80
 , "Volkswagen|ID.3": 72
 , "Mercedes-Benz|EQE": 66
 , "Renault|Megane E-Tech": 64
 , "BMW|iX": 60
+, "Volkswagen|ID.5": 59
 , "Mercedes-Benz|EQB": 55
-, "Volkswagen|ID.5": 55
-, "Audi|Q8 e-tron": 51
+, "Audi|Q8 e-tron": 52
 , "Hyundai|Kona Electric": 51
 , "Hyundai|Ioniq 5": 46
 , "Mercedes-Benz|eCitan": 46
@@ -2072,6 +2072,4 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 13
 , "Mercedes-Benz|eVito": 12
 , "JAC|e-JS4": 11
-, "Citroën|ë-Jumpy": 10
-, "Jeep|Avenger EV": 10
 });
