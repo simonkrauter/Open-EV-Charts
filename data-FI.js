@@ -4354,3 +4354,92 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 2
 , "other": 43
 });
+
+db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2799/September_2023.xlsx",
+{ "Tesla": 1202
+, "Toyota": 1037
+, "Škoda": 692
+, "Kia": 621
+, "Volvo": 505
+, "Mercedes-Benz": 464
+, "Volkswagen": 456
+, "BMW": 401
+, "Nissan": 278
+, "Audi": 255
+, "Ford": 230
+, "Hyundai": 170
+, "Opel": 151
+, "Peugeot": 144
+, "Mazda": 80
+, "Polestar": 76
+, "Cupra": 69
+, "Dacia": 66
+, "Renault": 62
+, "Suzuki": 61
+, "Mitsubishi": 46
+, "Land Rover": 44
+, "Citroën": 32
+, "Lexus": 32
+, "Seat": 32
+, "Fiat": 28
+, "Subaru": 26
+, "Porsche": 21
+, "Honda": 20
+, "DS Automobiles": 17
+, "Mini": 9
+, "other": 154
+});
+
+db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Škoda|Enyaq": 181
+, "Volvo|XC40 Recharge pure electric": 139
+, "BMW|i4": 136
+, "Volvo|C40 Recharge": 111
+, "Volkswagen|ID.4": 102
+, "Audi|Q4 e-tron": 93
+, "Kia|EV6": 88
+, "Polestar|2": 76
+, "Mercedes-Benz|EQA": 67
+, "Mercedes-Benz|EQE": 66
+, "Kia|Niro EV": 58
+, "Mercedes-Benz|EQB": 56
+, "Cupra|Born": 45
+, "Nissan|Ariya": 45
+, "Opel|Mokka-e": 44
+, "Peugeot|e-2008": 44
+, "Tesla|Model 3": 41
+, "Hyundai|Ioniq 5": 32
+, "Nissan|Leaf": 31
+, "Volkswagen|ID.5": 30
+, "Audi|Q8 e-tron": 28
+, "Fiat|500e": 28
+, "BMW|iX1": 26
+, "Toyota|bZ4X": 23
+, "Volkswagen|ID.3": 23
+, "Tesla|Model S": 20
+, "Hyundai|Kona Electric": 19
+, "Mercedes-Benz|EQS": 17
+, "Renault|Megane E-Tech": 16
+, "Citroën|ë-C4": 15
+, "Ford|Mustang Mach-E": 14
+, "Hyundai|Ioniq 6": 10
+, "BMW|iX": 9
+, "Peugeot|e-Rifter": 9
+, "BYD|Han EV": 8
+, "BYD|Yuan Plus": 8
+, "Peugeot|e-308": 7
+, "Tesla|Model X": 7
+, "BMW|iX3": 6
+, "BYD|Tang EV": 6
+, "Lexus|RZ": 4
+, "Opel|Zafira-e": 4
+, "Peugeot|e-208": 4
+, "Porsche|Taycan": 4
+, "Subaru|Solterra": 4
+, "Volkswagen|e-up!": 4
+, "BMW|i5": 3
+, "Citroën|ë-SpaceTourer": 3
+, "Mercedes-Benz|EQC": 3
+, "Opel|Combo-e": 3
+, "other": 1182
+});
