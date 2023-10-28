@@ -4092,11 +4092,7 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 4
 , "Toyota|Proace Electric": 4
 , "BYD|Han EV": 3
-, "Citroën|ë-SpaceTourer": 2
-, "Fiat|500e": 2
-, "Jeep|Avenger EV": 2
-, "Peugeot|e-Rifter": 2
-, "other": 36
+, "other": 44
 });
 
 db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2775/June_2023.xlsx",
@@ -4266,12 +4262,13 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 4
 , "Tesla|Model S": 4
 , "Tesla|Model X": 4
+, "BYD|Yuan Plus": 3
 , "Mercedes-Benz|EQC": 3
 , "Volkswagen|e-up!": 3
 , "BYD|Han EV": 2
 , "Lexus|UX 300e": 2
 , "Mercedes-Benz|eVito": 2
-, "other": 27
+, "other": 24
 });
 
 db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2787/August_2023.xlsx",
@@ -4343,6 +4340,7 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|RZ": 9
 , "BMW|iX": 8
 , "Opel|Mokka-e": 8
+, "BYD|Yuan Plus": 7
 , "BYD|Han EV": 6
 , "Fiat|500e": 6
 , "Mercedes-Benz|EQC": 5
@@ -4354,5 +4352,5 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 2
 , "Tesla|Model S": 2
 , "Volkswagen|e-up!": 2
-, "other": 50
+, "other": 43
 });
