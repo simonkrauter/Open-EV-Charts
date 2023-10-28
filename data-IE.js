@@ -4225,3 +4225,94 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQV": 2
 , "other": 17
 });
+
+db.insert(db.countries.IE, "2023-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Kia": 709
+, "Toyota": 520
+, "Volkswagen": 471
+, "Škoda": 411
+, "Tesla": 402
+, "BMW": 372
+, "Ford": 370
+, "Hyundai": 246
+, "Audi": 243
+, "Peugeot": 199
+, "Suzuki": 191
+, "Cupra": 155
+, "Dacia": 141
+, "Renault": 129
+, "Seat": 126
+, "MG": 125
+, "Mercedes-Benz": 118
+, "Opel": 97
+, "Mazda": 80
+, "Nissan": 75
+, "Volvo": 67
+, "Mini": 65
+, "BYD": 61
+, "Citroën": 57
+, "Land Rover": 55
+, "Fiat": 41
+, "Lexus": 34
+, "Polestar": 30
+, "Porsche": 18
+, "Honda": 14
+, "Alfa Romeo": 11
+, "Jaguar": 11
+, "Jeep": 4
+, "SsangYong": 3
+, "DS Automobiles": 1
+, "Subaru": 1
+, "other": 1
+});
+
+db.insert(db.countries.IE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model Y": 228
+, "Tesla|Model 3": 174
+, "Volkswagen|ID.4": 106
+, "MG|MG4 EV": 84
+, "Cupra|Born": 78
+, "Kia|EV6": 67
+, "Škoda|Enyaq": 67
+, "BYD|Yuan Plus": 53
+, "Volkswagen|ID.3": 49
+, "Kia|Niro EV": 47
+, "Peugeot|e-2008": 43
+, "Fiat|500e": 37
+, "Polestar|2": 30
+, "BMW|iX3": 26
+, "Peugeot|e-208": 26
+, "Audi|Q4 e-tron": 25
+, "MG|ZS EV": 25
+, "Volkswagen|e-up!": 24
+, "Mini|Cooper SE Electric": 23
+, "BMW|i4": 21
+, "Volvo|XC40 Recharge pure electric": 21
+, "BMW|i5": 17
+, "Citroën|ë-C4": 17
+, "Opel|Corsa-e": 17
+, "Hyundai|Kona Electric": 16
+, "Hyundai|Ioniq 5": 14
+, "MG|MG5 EV": 14
+, "Toyota|bZ4X": 13
+, "Audi|Q8 e-tron": 12
+, "BMW|iX1": 12
+, "Ford|Mustang Mach-E": 10
+, "BYD|Dolphin": 8
+, "Porsche|Taycan": 8
+, "Volkswagen|ID.5": 8
+, "Renault|Megane E-Tech": 7
+, "Mercedes-Benz|EQA": 6
+, "Hyundai|Ioniq 6": 5
+, "Jaguar|I-Pace": 5
+, "Opel|Mokka-e": 5
+, "Audi|e-tron GT": 4
+, "Mercedes-Benz|EQE": 4
+, "Mercedes-Benz|EQS SUV": 4
+, "Nissan|Ariya": 4
+, "BMW|iX": 3
+, "Jeep|Avenger EV": 3
+, "Nissan|Leaf": 3
+, "Opel|Zafira-e": 3
+, "other": 13
+});
