@@ -768,7 +768,7 @@ var db = {
   },
 
   unfoldChartConfig: function(chartConfig) {
-    if (chartConfig.metric != this.metrics.all) {
+    if (chartConfig.metric != this.metrics.all && !chartConfig.metric.includes(",")) {
       if (!this.isTimeXProperty(chartConfig))
         return [chartConfig];
       if (chartConfig.detailLevel == this.detailLevels.total)
