@@ -4438,8 +4438,5 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 4
 , "Subaru|Solterra": 4
 , "Volkswagen|e-up!": 4
-, "BMW|i5": 3
-, "Citroën|ë-SpaceTourer": 3
-, "Mercedes-Benz|EQC": 3
-, "other": 51
+, "other": 60
 });
