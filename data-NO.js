@@ -4638,6 +4638,83 @@ db.insert(db.countries.NO, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1123
 });
 
+db.insert(db.countries.NO, "2023-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2023-2",
+{ "Toyota": 1126
+, "Volvo": 737
+, "Tesla": 678
+, "Škoda": 671
+, "Hyundai": 646
+, "Volkswagen": 602
+, "Nissan": 525
+, "Mercedes-Benz": 503
+, "BMW": 474
+, "Ford": 369
+, "MG": 360
+, "Audi": 317
+, "Citroën": 137
+, "Opel": 132
+, "Lexus": 120
+, "Peugeot": 113
+, "Mazda": 110
+, "Kia": 108
+, "Polestar": 84
+, "Suzuki": 74
+, "other": 1039
+});
+
+db.insert(db.countries.NO, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2023-2",
+{ "Tesla|Model Y": 647
+, "Toyota|bZ4X": 522
+, "Škoda|Enyaq": 519
+, "Hyundai|Kona Electric": 434
+, "Ford|Mustang Mach-E": 328
+, "Volkswagen|ID.4": 274
+, "Nissan|Ariya": 271
+, "Nissan|Leaf": 232
+, "Audi|Q4 e-tron": 231
+, "Volkswagen|ID.3": 190
+, "Mercedes-Benz|EQC": 183
+, "BMW|iX1": 174
+, "BYD|Tang EV": 142
+, "Subaru|Solterra": 140
+, "MG|ZS EV": 134
+, "Citroën|ë-C4": 129
+, "MG|MG4 EV": 124
+, "Opel|Mokka-e": 120
+, "Hyundai|Ioniq 5": 113
+, "Mercedes-Benz|EQA": 97
+, "Hyundai|Ioniq 6": 91
+, "Mazda|MX-30": 88
+, "Peugeot|e-2008": 85
+, "BMW|i4": 83
+, "Mercedes-Benz|EQE": 80
+, "Xpeng|G9": 78
+, "Lexus|RZ": 67
+, "MG|Marvel R": 66
+, "Audi|Q8 e-tron": 57
+, "Porsche|Taycan": 52
+, "Kia|EV6": 47
+, "Mini|Cooper SE Electric": 47
+, "BYD|Yuan Plus": 45
+, "Volkswagen|ID.5": 45
+, "BMW|iX": 44
+, "Jeep|Avenger EV": 44
+, "Fisker|Ocean": 41
+, "Mercedes-Benz|EQB": 40
+, "Fiat|500e": 32
+, "Volvo|XC40 Recharge pure electric": 30
+, "MG|MG5 EV": 26
+, "Tesla|Model 3": 26
+, "BMW|i5": 25
+, "Kia|Niro EV": 25
+, "Lexus|UX 300e": 25
+, "Renault|Megane E-Tech": 25
+, "BMW|iX3": 22
+, "Honda|e:Ny1": 21
+, "BYD|Han EV": 20
+, "Maxus|Euniq 6": 19
+, "other": 1116
+});
 
 // Template:
 
