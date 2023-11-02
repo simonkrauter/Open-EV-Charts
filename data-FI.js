@@ -4391,7 +4391,8 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
-{ "Škoda|Enyaq": 181
+{ "Tesla|Model Y": 1134
+, "Škoda|Enyaq": 181
 , "Volvo|XC40 Recharge pure electric": 139
 , "BMW|i4": 136
 , "Volvo|C40 Recharge": 111
@@ -4440,6 +4441,5 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i5": 3
 , "Citroën|ë-SpaceTourer": 3
 , "Mercedes-Benz|EQC": 3
-, "Opel|Combo-e": 3
-, "other": 1182
+, "other": 51
 });
