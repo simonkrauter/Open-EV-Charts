@@ -387,7 +387,7 @@ var db = {
       param.options[this.xProperties.brand] = "By Brand";
     if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       param.options[this.xProperties.model] = "By Model";
-    param.defaultOption = this.xProperties.month;
+    param.defaultOption = this.xProperties.quarter;
     param.showAsFilter = true;
     result[param.name] = param;
 
@@ -398,7 +398,7 @@ var db = {
     param.options = {};
     param.options[this.timeSpanOptions.all] = "All Time";
     this.setTimeSpanParamOptions(param, chartConfig);
-    param.defaultOption = this.timeSpanOptions.last2y;
+    param.defaultOption = this.timeSpanOptions.last3y;
     param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
     result[param.name] = param;
 
