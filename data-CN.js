@@ -1559,3 +1559,26 @@ db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Denza|D9 EV": 301
 , "other": 215271
 });
+
+db.insert(db.countries.CN, "2023-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/11/05/25-bev-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+{ "other": 2097297
+});
+
+db.insert(db.countries.CN, "2023-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/11/05/25-bev-share-in-china-china-ev-sales-report/",
+{ "Tesla|Model Y": 41428
+, "BYD|Seagull": 35011
+, "BYD|Yuan Plus": 28727
+, "Aion|Y": 26969
+, "BYD|Dolphin": 24282
+, "Aion|S": 21546
+, "Wuling|Bingo": 19606
+, "Wuling|Hongguang Mini EV": 16146
+, "Changan|Lumin": 14146
+, "BYD|Qin Plus EV": 11837
+, "BYD|Han EV": 10412
+, "BYD|Song EV": 10072
+, "Geely|Panda Mini EV": 10221
+, "BYD|Tang EV": 1249
+, "Denza|D9 EV": 313
+, "other": 252359
+});
