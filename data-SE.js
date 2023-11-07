@@ -5181,3 +5181,106 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Subaru|Solterra": 13
 , "other": 163
 });
+
+db.insert(db.countries.SE, "2023-10", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3708
+, "Volkswagen": 2732
+, "Kia": 2629
+, "Toyota": 1975
+, "Audi": 1753
+, "Mercedes-Benz": 1610
+, "Škoda": 1412
+, "BMW": 1342
+, "Tesla": 721
+, "Nissan": 641
+, "Ford": 570
+, "Peugeot": 530
+, "MG": 471
+, "Hyundai": 467
+, "Renault": 457
+, "BYD": 405
+, "Cupra": 405
+, "Subaru": 319
+, "Porsche": 262
+, "Polestar": 257
+, "Opel": 246
+, "Mazda": 240
+, "Citroën": 219
+, "Dacia": 192
+, "Mini": 174
+, "Lexus": 171
+, "Suzuki": 170
+, "Seat": 159
+, "Ora": 141
+, "Mitsubishi": 126
+, "Fiat": 122
+, "Honda": 105
+, "Land Rover": 32
+, "Nio": 28
+, "Xpeng": 27
+, "Alfa Romeo": 15
+, "Hongqi": 11
+, "Jaguar": 10
+, "DS Automobiles": 6
+, "Chevrolet": 3
+, "Jeep": 2
+, "SsangYong": 2
+, "Cadillac": 1
+, "Maserati": 1
+, "Smart": 1
+, "other": 146
+});
+
+db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen|ID.4": 994
+, "Volvo|XC40 Recharge pure electric": 916
+, "Škoda|Enyaq": 808
+, "Kia|Niro EV": 661
+, "Tesla|Model Y": 621
+, "Audi|Q4 e-tron": 562
+, "BYD|Yuan Plus": 401
+, "BMW|i4": 362
+, "Nissan|Leaf": 302
+, "Kia|EV6": 296
+, "Audi|Q8 e-tron": 273
+, "Polestar|2": 257
+, "MG|MG4 EV": 255
+, "Volvo|C40 Recharge": 255
+, "Mercedes-Benz|EQE": 244
+, "Volkswagen|ID.3": 178
+, "Mercedes-Benz|EQB": 152
+, "Ora|Good Cat": 141
+, "Hyundai|Ioniq 5": 139
+, "BMW|iX1": 99
+, "Volkswagen|ID.5": 96
+, "BMW|i5": 94
+, "Mini|Cooper SE Electric": 92
+, "Mercedes-Benz|EQA": 86
+, "Toyota|bZ4X": 85
+, "Volkswagen|ID. Buzz": 84
+, "Tesla|Model 3": 82
+, "MG|ZS EV": 79
+, "Cupra|Born": 74
+, "MG|Marvel R": 62
+, "MG|MG5 EV": 57
+, "Volvo|other": 55
+, "Renault|Megane E-Tech": 50
+, "BMW|iX3": 43
+, "Nissan|Ariya": 41
+, "BMW|iX": 34
+, "Porsche|Taycan": 34
+, "Xpeng|G9": 25
+, "Hyundai|Ioniq 6": 23
+, "Hyundai|Kona Electric": 23
+, "Peugeot|e-208": 22
+, "Honda|e:Ny1": 17
+, "Kia|EV9": 16
+, "Fiat|500e": 13
+, "Nio|ET5": 13
+, "Tesla|Model X": 12
+, "Hongqi|E-HS9": 11
+, "Lotus|Eletre": 10
+, "Mercedes-Benz|EQS": 10
+, "Renault|Zoe": 9
+, "other": 140
+});
