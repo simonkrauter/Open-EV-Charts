@@ -4440,3 +4440,88 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 4
 , "other": 60
 });
+
+db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2805/October_2023.xlsx",
+{ "Toyota": 903
+, "Škoda": 695
+, "Kia": 598
+, "Volvo": 577
+, "Volkswagen": 420
+, "BMW": 394
+, "Mercedes-Benz": 365
+, "Peugeot": 364
+, "Audi": 299
+, "Hyundai": 247
+, "Nissan": 195
+, "Mazda": 151
+, "Tesla": 149
+, "Ford": 132
+, "Citroën": 121
+, "Opel": 96
+, "Cupra": 61
+, "Renault": 61
+, "Mitsubishi": 56
+, "Dacia": 55
+, "Porsche": 53
+, "Polestar": 38
+, "Suzuki": 37
+, "Land Rover": 33
+, "Seat": 31
+, "Subaru": 30
+, "Mini": 25
+, "Lexus": 23
+, "Honda": 17
+, "Fiat": 4
+, "other": 221
+});
+
+db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Peugeot|e-2008": 267
+, "Škoda|Enyaq": 258
+, "Volvo|XC40 Recharge pure electric": 165
+, "BMW|i4": 158
+, "Audi|Q4 e-tron": 157
+, "Tesla|Model Y": 137
+, "Hyundai|Ioniq 5": 87
+, "Volvo|C40 Recharge": 82
+, "Volkswagen|ID.4": 76
+, "Mercedes-Benz|EQA": 70
+, "Kia|EV6": 66
+, "Mercedes-Benz|EQE": 49
+, "Audi|Q8 e-tron": 46
+, "Mercedes-Benz|EQB": 46
+, "Cupra|Born": 44
+, "Kia|Niro EV": 41
+, "Polestar|2": 38
+, "Volkswagen|ID.5": 38
+, "Volkswagen|ID.3": 37
+, "BMW|iX1": 36
+, "Nissan|Leaf": 34
+, "Nissan|Ariya": 32
+, "BMW|i5": 30
+, "Citroën|ë-C4": 28
+, "Hyundai|Kona Electric": 25
+, "Opel|Mokka-e": 23
+, "Mini|Cooper SE Electric": 16
+, "Toyota|bZ4X": 15
+, "BYD|Yuan Plus": 14
+, "Ford|Mustang Mach-E": 14
+, "Hyundai|Ioniq 6": 14
+, "Renault|Megane E-Tech": 12
+, "Mercedes-Benz|EQS": 11
+, "Porsche|Taycan": 11
+, "Subaru|Solterra": 10
+, "Peugeot|e-308": 8
+, "SsangYong|Korando e-Motion": 8
+, "BYD|Tang EV": 6
+, "BYD|Han EV": 5
+, "Tesla|Model 3": 5
+, "BMW|iX": 4
+, "Tesla|Model S": 4
+, "BMW|iX3": 3
+, "Kia|Soul EV": 3
+, "Lexus|RZ": 3
+, "Peugeot|e-208": 3
+, "Tesla|Model X": 3
+, "other": 60
+});
