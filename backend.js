@@ -1366,14 +1366,16 @@ var db = {
   isBarChartStacked: function(chartConfig) {
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       return true;
-    if (this.isCompanyBrandModelXProperty(chartConfig))
-      return false;
-    if (chartConfig.detailLevel == this.detailLevels.company)
-      return chartConfig.company == this.companyOptions.all;
-    if (chartConfig.detailLevel == this.detailLevels.brand)
-      return chartConfig.brand == this.brandOptions.all;
-    if (chartConfig.detailLevel == this.detailLevels.model)
-      return chartConfig.model == this.modelOptions.all;
+    if ([this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
+      if (this.isCompanyBrandModelXProperty(chartConfig))
+        return false;
+      if (chartConfig.detailLevel == this.detailLevels.company)
+        return chartConfig.company == this.companyOptions.all;
+      if (chartConfig.detailLevel == this.detailLevels.brand)
+        return chartConfig.brand == this.brandOptions.all;
+      if (chartConfig.detailLevel == this.detailLevels.model)
+        return chartConfig.model == this.modelOptions.all;
+    }
     return false;
   },
 
