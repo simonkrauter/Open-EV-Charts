@@ -251,7 +251,8 @@ var db = {
   },
 
   timeSpanOptions:
-  { "all": "all-time"
+  { "auto": "auto"
+  , "all": "all-time"
   , "last3m": "3m"
   , "last6m": "6m"
   , "last1y": "1y"
@@ -396,9 +397,10 @@ var db = {
     param.name = "timeSpan";
     param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.year;
     param.options = {};
+    param.options[this.timeSpanOptions.auto] = "Auto Time Span";
     param.options[this.timeSpanOptions.all] = "All Time";
     this.setTimeSpanParamOptions(param, chartConfig);
-    param.defaultOption = this.timeSpanOptions.last3y;
+    param.defaultOption = this.timeSpanOptions.auto;
     param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
     result[param.name] = param;
 
@@ -571,6 +573,18 @@ var db = {
     }
   },
 
+  getRealTimeSpan: function(chartConfig) {
+    if (chartConfig.timeSpan == this.timeSpanOptions.auto) {
+      if (chartConfig.xProperty == this.xProperties.year)
+        return this.timeSpanOptions.all;
+      else if (chartConfig.xProperty == this.xProperties.quarter)
+        return this.timeSpanOptions.last3y;
+      else
+        return this.timeSpanOptions.last2y;
+    }
+    return chartConfig.timeSpan;
+  },
+
   encodeChartConfig: function(chartConfig) {
     chartConfig = this.makeChartConfigValid(chartConfig);
     var parts = [];
@@ -741,9 +755,6 @@ var db = {
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null && chartConfig.timeSpan.startsWith("m"))
       chartConfig.timeSpan = params.timeSpan.defaultOption;
 
-    if (chartConfig.xProperty == this.xProperties.year)
-      chartConfig.timeSpan = params.timeSpan.defaultOption;
-
     params = this.getChartParams(chartConfig); // update
 
     if (!Object.keys(params.view.options).includes(chartConfig.view))
@@ -858,6 +869,9 @@ var db = {
         }
       } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all) {
         text = text + " " + params.model.options[chartConfig.model];
+      } else if (param.name == "timeSpan") {
+        const timeSpan = this.getRealTimeSpan(chartConfig);
+        text = param.options[timeSpan];
       }
       if (param.name == "country")
         parts.unshift(text);
@@ -897,49 +911,52 @@ var db = {
     var filterYearLast = null;
     var filterMonthFirst = null;
     var filterMonthLast = null;
-    if (chartConfig.timeSpan != this.timeSpanOptions.all && chartConfig.xProperty != this.xProperties.year) {
-      if (chartConfig.timeSpan.startsWith("y")) {
-        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1));
-        filterMonthFirst = 1;
-        filterYearLast = filterYearFirst;
-        filterMonthLast = 12;
-      } else if (chartConfig.timeSpan.startsWith("q")) {
-        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1, 4));
-        filterMonthFirst = this.quarterToMonth(parseInt(chartConfig.timeSpan.substr(6, 1)));
-        filterYearLast = filterYearFirst;
-        filterMonthLast = filterMonthFirst + 2;
-      } else if (chartConfig.timeSpan.startsWith("m")) {
-        filterYearFirst = parseInt(chartConfig.timeSpan.substr(1, 4));
-        filterMonthFirst = parseInt(chartConfig.timeSpan.substr(6, 2));
-        filterYearLast = filterYearFirst;
-        filterMonthLast = filterMonthFirst;
-      } else if (chartConfig.timeSpan.endsWith("y") || chartConfig.timeSpan.endsWith("m")) {
-        var currentDate = new Date();
-        var currentYear = currentDate.getFullYear();
-        var currentMonth = 1 + currentDate.getMonth();
-        currentMonth--;
-        if (currentMonth < 1) {
-          currentMonth = 12;
-          currentYear--;
-        }
-        filterYearLast = currentYear;
-        filterMonthLast = currentMonth;
-        const quantity = parseInt(chartConfig.timeSpan.substr(0, chartConfig.timeSpan.length - 1));
-        if (chartConfig.timeSpan.endsWith("y")) {
-          filterYearFirst = currentYear - quantity;
-          filterMonthFirst = filterMonthLast + 1;
-          if (chartConfig.xProperty == this.xProperties.quarter)
-            filterMonthFirst = this.quarterToMonth(this.monthToQuarter(filterMonthFirst)); // round to quarter
-          if (filterMonthFirst > 12) {
-            filterYearFirst++;
-            filterMonthFirst = filterMonthFirst - 12;
+    {
+      const timeSpan = this.getRealTimeSpan(chartConfig);
+      if (timeSpan != this.timeSpanOptions.all) {
+        if (timeSpan.startsWith("y")) {
+          filterYearFirst = parseInt(timeSpan.substr(1));
+          filterMonthFirst = 1;
+          filterYearLast = filterYearFirst;
+          filterMonthLast = 12;
+        } else if (timeSpan.startsWith("q")) {
+          filterYearFirst = parseInt(timeSpan.substr(1, 4));
+          filterMonthFirst = this.quarterToMonth(parseInt(timeSpan.substr(6, 1)));
+          filterYearLast = filterYearFirst;
+          filterMonthLast = filterMonthFirst + 2;
+        } else if (timeSpan.startsWith("m")) {
+          filterYearFirst = parseInt(timeSpan.substr(1, 4));
+          filterMonthFirst = parseInt(timeSpan.substr(6, 2));
+          filterYearLast = filterYearFirst;
+          filterMonthLast = filterMonthFirst;
+        } else if (timeSpan.endsWith("y") || timeSpan.endsWith("m")) {
+          var currentDate = new Date();
+          var currentYear = currentDate.getFullYear();
+          var currentMonth = 1 + currentDate.getMonth();
+          currentMonth--;
+          if (currentMonth < 1) {
+            currentMonth = 12;
+            currentYear--;
           }
-        } else if (chartConfig.timeSpan.endsWith("m")) {
-          filterYearFirst = currentYear;
-          filterMonthFirst = currentMonth - quantity + 1;
-          if (filterMonthFirst < 1) {
-            filterYearFirst--;
-            filterMonthFirst = filterMonthFirst + 12;
+          filterYearLast = currentYear;
+          filterMonthLast = currentMonth;
+          const quantity = parseInt(timeSpan.substr(0, timeSpan.length - 1));
+          if (timeSpan.endsWith("y")) {
+            filterYearFirst = currentYear - quantity;
+            filterMonthFirst = filterMonthLast + 1;
+            if (chartConfig.xProperty == this.xProperties.quarter)
+              filterMonthFirst = this.quarterToMonth(this.monthToQuarter(filterMonthFirst)); // round to quarter
+            if (filterMonthFirst > 12) {
+              filterYearFirst++;
+              filterMonthFirst = filterMonthFirst - 12;
+            }
+          } else if (timeSpan.endsWith("m")) {
+            filterYearFirst = currentYear;
+            filterMonthFirst = currentMonth - quantity + 1;
+            if (filterMonthFirst < 1) {
+              filterYearFirst--;
+              filterMonthFirst = filterMonthFirst + 12;
+            }
           }
         }
       }
