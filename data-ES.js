@@ -5266,6 +5266,7 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 14
 , "Hyundai|Kona Electric": 13
 , "Nissan|Leaf": 13
+, "Mercedes-Benz|eCitan": 12
 , "Porsche|Taycan": 12
 , "Audi|Q8 e-tron": 9
 , "Nissan|Ariya": 9
@@ -5275,8 +5276,7 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 8
 , "Mercedes-Benz|EQV": 7
 , "Peugeot|e-308": 7
-, "SsangYong|Korando e-Motion": 6
-, "other": 39
+, "other": 33
 });
 
 db.insert(db.countries.ES, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2023/datosseptiembrett.asp",
@@ -5354,10 +5354,10 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 41
 , "Kia|EV6": 37
 , "Renault|Zoe": 37
+, "Mercedes-Benz|eCitan": 36
 , "Volvo|XC40 Recharge pure electric": 36
 , "BYD|Yuan Plus": 32
 , "BMW|iX3": 31
-, "Mercedes-Benz|eCitan": 31
 , "Mercedes-Benz|EQS": 28
 , "Hyundai|Ioniq 5": 26
 , "Audi|Q8 e-tron": 25
@@ -5374,5 +5374,5 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 13
 , "BYD|Dolphin": 12
 , "Tesla|Model X": 11
-, "other": 241
+, "other": 236
 });
