@@ -5376,3 +5376,101 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 11
 , "other": 236
 });
+
+db.insert(db.countries.ES, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2023/datosoctubretur.asp, https://www.km77.com/mercado/espana/2023/datosoctubrett.asp",
+{ "Toyota": 7007
+, "Kia": 5608
+, "Hyundai": 5272
+, "Dacia": 4855
+, "Volkswagen": 4416
+, "Renault": 4325
+, "Peugeot": 4194
+, "Mercedes-Benz": 4052
+, "Seat": 3749
+, "Citroën": 3369
+, "Audi": 3365
+, "MG": 2976
+, "BMW": 2767
+, "Škoda": 2357
+, "Fiat": 2344
+, "Nissan": 2277
+, "Ford": 2257
+, "Opel": 2128
+, "Cupra": 1548
+, "Volvo": 1374
+, "Mazda": 1233
+, "Jeep": 1092
+, "Tesla": 754
+, "Mini": 694
+, "Lexus": 613
+, "Suzuki": 479
+, "Porsche": 460
+, "Smart": 307
+, "Honda": 286
+, "Mitsubishi": 271
+, "Land Rover": 256
+, "DS Automobiles": 247
+, "Alfa Romeo": 210
+, "SsangYong": 174
+, "BYD": 117
+, "Subaru": 117
+, "Jaguar": 72
+, "Aiways": 46
+, "Maserati": 39
+, "Polestar": 15
+, "Xpeng": 1
+, "other": 169
+});
+
+db.insert(db.countries.ES, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2023/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
+{ "Tesla|Model 3": 624
+, "Kia|Niro EV": 362
+, "MG|MG4 EV": 273
+, "Smart|1": 266
+, "Cupra|Born": 237
+, "Audi|Q4 e-tron": 218
+, "Mercedes-Benz|EQA": 209
+, "Dacia|Spring": 203
+, "Volkswagen|ID.4": 194
+, "Kia|EV6": 188
+, "Fiat|500e": 180
+, "Mini|Cooper SE Electric": 149
+, "Renault|Megane E-Tech": 137
+, "Mercedes-Benz|EQE": 128
+, "Tesla|Model Y": 120
+, "Peugeot|e-208": 98
+, "Peugeot|e-2008": 92
+, "Kia|EV9": 90
+, "BMW|iX1": 86
+, "BYD|Yuan Plus": 85
+, "Jeep|Avenger EV": 75
+, "Volvo|XC40 Recharge pure electric": 73
+, "Citroën|ë-C4": 71
+, "Volvo|C40 Recharge": 69
+, "BMW|i4": 66
+, "Opel|Mokka-e": 63
+, "Hyundai|Kona Electric": 60
+, "MG|ZS EV": 59
+, "Ford|Mustang Mach-E": 54
+, "Mercedes-Benz|EQB": 52
+, "Volkswagen|ID.3": 52
+, "Aiways|U5": 44
+, "Porsche|Taycan": 44
+, "Renault|Zoe": 42
+, "Smart|Fortwo ED": 41
+, "Audi|Q8 e-tron": 31
+, "Mercedes-Benz|eCitan": 28
+, "Fiat|E-Doblò": 25
+, "Renault|Twingo Z.E.": 23
+, "BMW|iX3": 22
+, "Hyundai|Ioniq 5": 22
+, "MG|Marvel R": 22
+, "Mazda|MX-30": 22
+, "BYD|Dolphin": 21
+, "Nissan|Ariya": 21
+, "Škoda|Enyaq": 18
+, "Toyota|bZ4X": 16
+, "Volkswagen|ID.5": 16
+, "Polestar|2": 15
+, "Opel|Corsa-e": 14
+});
