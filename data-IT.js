@@ -2556,7 +2556,6 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 60
 , "Volvo|XC40 Recharge pure electric": 58
 , "Peugeot|e-2008": 57
-, "Ford|Mustang Mach-E": 55
 , "DS Automobiles|DS 3 Crossback E-Tense": 50
 , "BMW|i4": 48
 , "MG|Marvel R": 48
@@ -2586,6 +2585,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 11
 , "Fiat|E-Ulysse": 11
 , "Subaru|Solterra": 11
+, "Mercedes-Benz|EQC": 10
 });
 
 db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202023_642ad178ad402.pdf",
@@ -3041,6 +3041,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 54
 , "Peugeot|e-2008": 46
 , "Cupra|Born": 42
+, "Fiat|600e": 37
 , "Mercedes-Benz|EQB": 33
 , "Mercedes-Benz|EQE": 30
 , "BMW|iX3": 25
@@ -3060,8 +3061,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 12
 , "Opel|Zafira-e": 11
 , "DS Automobiles|DS 3 Crossback E-Tense": 8
-, "Fiat|E-Doblò": 7
-, "other": 59
+, "other": 29
 });
 
 db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Agosto%202023_64f1c3708072b.pdf",
@@ -3152,9 +3152,10 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 8
 , "Hyundai|Ioniq 5": 7
 , "DS Automobiles|DS 3 Crossback E-Tense": 6
+, "Fiat|600e": 5
 , "Fiat|E-Doblò": 5
 , "Renault|Zoe": 5
-, "other": 50
+, "other": 45
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Settembre%202023_651a9f6eedac7.pdf",
