@@ -6197,10 +6197,10 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 273
 , "MG|ZS EV": 262
 , "Jeep|Avenger EV": 259
-, "Audi|Q4 e-tron": 255
+, "Audi|Q4 e-tron": 256
 , "Kia|EV6": 231
 , "BMW|i4": 213
-, "Audi|Q8 e-tron": 200
+, "Audi|Q8 e-tron": 204
 , "Opel|Corsa-e": 196
 , "BMW|iX3": 185
 , "Renault|Megane E-Tech": 184
@@ -6220,8 +6220,8 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 89
 , "Cupra|Born": 82
 , "Toyota|bZ4X": 80
+, "Nissan|Ariya": 79
 , "Hyundai|Ioniq 6": 78
-, "Nissan|Ariya": 78
 , "Opel|Astra Electric": 76
 , "Opel|Vivaro-e": 74
 , "Volkswagen|ID.5": 51
@@ -6236,5 +6236,5 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 28
 , "Renault|Twingo Z.E.": 27
 , "Citroën|ë-Jumpy": 26
-, "other": 412
+, "other": 406
 });
