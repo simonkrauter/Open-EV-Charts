@@ -742,8 +742,8 @@ var db = {
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
-    if (chartConfig.detailLevel == this.detailLevels.brand && chartConfig.company == chartConfig.brand)
-      chartConfig.detailLevel = this.detailLevels.company;
+    if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
+      chartConfig.detailLevel = params.detailLevel.defaultOption;
 
     if (!Object.keys(params.company.options).includes(chartConfig.company))
       chartConfig.company = params.company.defaultOption;
