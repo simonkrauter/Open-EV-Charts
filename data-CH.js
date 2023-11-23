@@ -5527,3 +5527,103 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 16
 , "other": 238
 });
+
+db.insert(db.countries.CH, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/11/ModellePW2023.xlsx",
+{ "Volkswagen": 2428
+, "Škoda": 1823
+, "BMW": 1703
+, "Audi": 1701
+, "Mercedes-Benz": 1605
+, "Toyota": 1017
+, "Volvo": 887
+, "Seat": 823
+, "Ford": 768
+, "Dacia": 666
+, "Hyundai": 663
+, "Renault": 597
+, "Kia": 541
+, "Porsche": 416
+, "Peugeot": 406
+, "Mazda": 389
+, "Opel": 382
+, "Fiat": 366
+, "Suzuki": 340
+, "Tesla": 310
+, "Citroën": 277
+, "Subaru": 257
+, "Mini": 253
+, "Nissan": 244
+, "Honda": 237
+, "Jeep": 206
+, "Mitsubishi": 160
+, "Land Rover": 153
+, "Alfa Romeo": 98
+, "Smart": 95
+, "Lexus": 83
+, "DS Automobiles": 64
+, "Polestar": 58
+, "Genesis": 54
+, "Jaguar": 46
+, "SsangYong": 31
+, "Maserati": 28
+, "JAC": 18
+, "Chevrolet": 8
+, "Dodge": 6
+, "Cadillac": 2
+, "Aiways": 1
+, "other": 145
+});
+
+db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
+{ "Škoda|Enyaq": 628
+, "Audi|Q4 e-tron": 521
+, "Volvo|XC40 Recharge pure electric": 293
+, "Tesla|Model Y": 254
+, "Volkswagen|ID.3": 191
+, "BMW|iX1": 187
+, "Volvo|C40 Recharge": 165
+, "Cupra|Born": 164
+, "Volkswagen|ID.4": 143
+, "Mercedes-Benz|EQA": 115
+, "Ford|Mustang Mach-E": 113
+, "Fiat|500e": 106
+, "Audi|Q8 e-tron": 85
+, "Renault|Megane E-Tech": 78
+, "Smart|1": 77
+, "Mercedes-Benz|EQE": 67
+, "Jeep|Avenger EV": 66
+, "Volkswagen|ID.5": 60
+, "Polestar|2": 57
+, "Dacia|Spring": 54
+, "Hyundai|Kona Electric": 54
+, "Toyota|bZ4X": 48
+, "BMW|i4": 47
+, "Nissan|Ariya": 46
+, "Porsche|Taycan": 45
+, "Hyundai|Ioniq 5": 43
+, "Kia|Niro EV": 43
+, "Opel|Mokka-e": 36
+, "BMW|i5": 34
+, "Peugeot|e-208": 33
+, "Renault|Twingo Z.E.": 33
+, "Renault|Zoe": 33
+, "Subaru|Solterra": 25
+, "Volkswagen|e-up!": 25
+, "Kia|EV6": 24
+, "Mercedes-Benz|EQS": 24
+, "Tesla|Model S": 24
+, "Tesla|Model X": 23
+, "Mercedes-Benz|EQB": 22
+, "Honda|e:Ny1": 20
+, "Peugeot|e-2008": 20
+, "BMW|iX": 19
+, "Audi|e-tron GT": 18
+, "JAC|e-JS4": 17
+, "Smart|Fortwo ED": 17
+, "Genesis|GV60": 16
+, "Hyundai|Ioniq 6": 16
+, "Mercedes-Benz|EQC": 16
+, "Mini|Cooper SE Electric": 16
+, "BMW|iX3": 15
+, "other": 229
+});
