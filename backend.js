@@ -1133,7 +1133,7 @@ var db = {
     var hints = [];
 
     // missing countries
-    if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric) && this.isCombinedCountry(chartConfig)) {
+    if (chartConfig.country.includes(this.countryOptions.all) && this.isCombinedCountry(chartConfig)) {
       hints.push("Those are not the 'worldwide' numbers, because several countries are missing.");
     }
 
