@@ -4789,8 +4789,7 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 896
 });
 
-
-db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/11/barometre-avere-colombus-octobre_2023_.pdf",
+db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/11/barometre-avere-colombus-octobre_2023_.pdf, https://cleantechnica.com/2023/11/29/27-of-new-cars-in-france-now-plugin-electric-cars/",
 { "Dacia|Spring": 3291
 , "Fiat|500e": 1887
 , "MG|MG4 EV": 1864
@@ -4801,5 +4800,7 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 1063
 , "Renault|Twingo Z.E.": 752
 , "Kia|Niro EV": 610
-, "other": 9896
+, "Cupra|Born": 551
+, "BMW|iX1": 511
+, "other": 8834
 });
