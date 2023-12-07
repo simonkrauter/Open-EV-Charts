@@ -161,6 +161,7 @@ const companyGroups = {
     ],
   "Geely Holding Group":
     [ "Geely"
+    , "Lotus"
     , "Polestar"
     , "Volvo"
     , "Zeekr"
@@ -237,6 +238,7 @@ const brandCountries =
 , "Leapmotor": "CN"
 , "Letin": "CN"
 , "Lifan": "CN"
+, "Lotus": "UK"
 , "Lucid": "US"
 , "Maserati": "IT"
 , "Mazda": "JP"
