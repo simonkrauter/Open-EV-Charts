@@ -3756,7 +3756,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|e-tron GT": 9
 , "BMW|i7": 7
 , "Honda|e": 7
-, "Maxus|Mifa 9": 6
+, "Maxus|other": 6
 , "Mazda|MX-30": 4
 , "Citroën|ë-SpaceTourer": 3
 , "Fiat|500e": 3

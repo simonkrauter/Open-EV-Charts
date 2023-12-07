@@ -1049,7 +1049,7 @@ db.insert(db.countries.DK, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 6
 , "Audi|e-tron GT": 5
 , "BMW|iX3": 5
-, "Maxus|Euniq 5": 5
+, "Maxus|other": 5
 , "Mercedes-Benz|EQS": 5
 , "BMW|i4": 3
 , "Kia|Soul EV": 3
@@ -1106,7 +1106,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 9
 , "BMW|iX3": 8
 , "MG|MG5 EV": 6
-, "Maxus|Euniq 5": 6
+, "Maxus|other": 6
 , "Mercedes-Benz|EQV": 6
 , "Renault|Megane E-Tech": 6
 , "MG|Marvel R": 5
@@ -1223,7 +1223,7 @@ db.insert(db.countries.DK, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 8
 , "Audi|e-tron GT": 6
 , "Citroën|Berlingo Electric": 4
-, "Maxus|Euniq 5": 4
+, "Maxus|other": 4
 , "Tesla|Model Y": 4
 , "Toyota|Proace Electric": 4
 , "Opel|Combo-e": 3
@@ -1282,7 +1282,7 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 6
 , "Lexus|UX 300e": 6
 , "MG|MG5 EV": 5
-, "Maxus|Euniq 5": 5
+, "Maxus|other": 5
 , "Opel|Mokka-e": 4
 , "other": 22
 });
@@ -1338,7 +1338,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 3
 , "Jaguar|I-Pace": 3
 , "Kia|Niro EV": 3
-, "Maxus|Euniq 5": 3
+, "Maxus|other": 3
 , "Tesla|Model 3": 3
 , "Mazda|MX-30": 2
 , "other": 16
@@ -1391,7 +1391,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 9
 , "Fiat|500e": 8
 , "MG|Marvel R": 7
-, "Maxus|Euniq 5": 7
+, "Maxus|other": 7
 , "Citroën|ë-C4": 6
 , "Opel|Zafira-e": 5
 , "Toyota|Proace Electric": 5
@@ -1451,7 +1451,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 4
 , "Mercedes-Benz|eVito": 4
 , "Citroën|Berlingo Electric": 3
-, "Maxus|Euniq 5": 3
+, "Maxus|other": 3
 , "Opel|Combo-e": 3
 , "Opel|Zafira-e": 3
 , "other": 31
@@ -2068,7 +2068,7 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 18
 , "Maxus|Euniq 6": 17
 , "Peugeot|e-2008": 15
-, "Ford|E-Transit": 13
+, "Ford|other": 13
 , "Hyundai|Ioniq 6": 13
 , "Mercedes-Benz|eVito": 12
 , "JAC|e-JS4": 11
@@ -2125,7 +2125,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hongqi|E-HS9": 17
 , "Mini|Cooper SE Electric": 15
 , "Tesla|Model 3": 15
-, "Maxus|EV30": 12
+, "Maxus|other": 12
 , "Mercedes-Benz|eVito": 12
 , "Tesla|Model S": 12
 , "Opel|Vivaro-e": 11

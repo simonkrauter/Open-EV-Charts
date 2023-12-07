@@ -1432,7 +1432,7 @@ db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 5
 , "Tesla|Model 3": 4
 , "Citroën|Berlingo Electric": 3
-, "Maxus|EV80": 3
+, "Maxus|other": 3
 , "Peugeot|iOn": 3
 , "Kia|Soul EV": 2
 , "Volkswagen|e-up!": 2
@@ -2332,7 +2332,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 4
 , "Mini|Cooper SE Electric": 3
 , "Jaguar|I-Pace": 2
-, "Maxus|EV80": 2
+, "Maxus|other": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Mercedes-Benz|eVito": 1
 , "Volkswagen|e-Crafter": 1
@@ -2924,7 +2924,7 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 3
 , "Mercedes-Benz|EQV": 2
 , "Citroën|ë-Jumpy": 1
-, "Maxus|EV80": 1
+, "Maxus|other": 1
 , "Renault|Twingo Z.E.": 1
 , "Volvo|XC40 Recharge pure electric": 1
 , "other": 80
@@ -4944,7 +4944,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 34
 , "Opel|Vivaro-e": 32
 , "Volvo|C40 Recharge": 24
-, "Fiat|E-Ducato": 20
+, "Fiat|other": 20
 , "Fiat|E-Ulysse": 19
 , "Kia|Soul EV": 13
 , "MG|MG5 EV": 9
@@ -5046,7 +5046,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 14
 , "BYD|Tang EV": 11
 , "Porsche|Taycan": 10
-, "Fiat|E-Ducato": 9
+, "Fiat|other": 9
 , "MG|MG5 EV": 9
 , "Audi|e-tron GT": 8
 , "other": 176
@@ -6337,6 +6337,6 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 29
 , "Opel|Mokka-e": 29
 , "BMW|iX": 27
-, "Lotus|Eletre": 26
+, "Lotus|other": 26
 , "other": 305
 });

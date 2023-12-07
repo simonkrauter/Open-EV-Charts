@@ -3940,7 +3940,7 @@ db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 109
 , "Subaru|Solterra": 107
 , "Peugeot|e-208": 92
-, "Maxus|T90 EV": 75
+, "Maxus|other": 75
 , "Audi|e-tron GT": 74
 , "BMW|i7": 71
 , "Jaguar|I-Pace": 67
@@ -4073,7 +4073,7 @@ db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 39
 , "Peugeot|e-208": 28
 , "Cupra|Born": 24
-, "Nio|ES7": 23
+, "Nio|other": 23
 , "Fiat|500e": 22
 , "Renault|Megane E-Tech": 22
 , "BMW|iX3": 21
@@ -4166,7 +4166,7 @@ db.insert(db.countries.NO, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 27
 , "BMW|iX3": 21
 , "Mercedes-Benz|EQE": 19
-, "Nio|ES7": 17
+, "Nio|other": 17
 , "Kia|Soul EV": 16
 , "Porsche|Taycan": 16
 , "BMW|iX": 15
@@ -4243,7 +4243,7 @@ db.insert(db.countries.NO, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 18
 , "Maxus|Euniq 6": 17
 , "BYD|Han EV": 16
-, "Maxus|T90 EV": 16
+, "Maxus|other": 16
 , "Peugeot|e-2008": 16
 , "JAC|e-JS4": 15
 , "Subaru|Solterra": 15
@@ -4398,7 +4398,7 @@ db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 44
 , "MG|Marvel R": 42
 , "Fiat|500e": 36
-, "Maxus|T90 EV": 36
+, "Maxus|other": 36
 , "Mercedes-Benz|EQC": 36
 , "BYD|Yuan Plus": 25
 , "Mini|Cooper SE Electric": 23

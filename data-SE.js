@@ -4483,7 +4483,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 15
 , "Citroën|ë-C4": 13
 , "Hyundai|Kona Electric": 12
-, "Nio|ES7": 12
+, "Nio|other": 12
 , "Tesla|Model S": 12
 , "Opel|Corsa-e": 11
 , "other": 110
@@ -5279,7 +5279,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nio|ET5": 13
 , "Tesla|Model X": 12
 , "Hongqi|E-HS9": 11
-, "Lotus|Eletre": 10
+, "Lotus|other": 10
 , "Mercedes-Benz|EQS": 10
 , "Renault|Zoe": 9
 , "other": 140
