@@ -993,7 +993,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   }
   if (addFlag) {
     var containerElement;
-    if (text.toLowerCase() != "other") {
+    if (text != "Other" && !text.endsWith("|other")) {
       // content as link
       var newChartConfig = db.cloneObject(chartConfig);
       const textParts = text.split("|", 2);
