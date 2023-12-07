@@ -1246,19 +1246,17 @@ var db = {
     } else if (sortByName) {
       // Alphabetic sort
       categories.sort(function(a, b) {
-        if (a == "Other")
-          return 1;
-        if (b == "Other")
-          return -1;
+        const order = db.specialSortCompare(a, b)
+        if (order != 0)
+          return order;
         return a.localeCompare(b);
       });
     } else {
       // Sort by value
       categories.sort(function(a, b) {
-        if (a == "Other")
-          return 1;
-        if (b == "Other")
-          return -1;
+        const order = db.specialSortCompare(a, b)
+        if (order != 0)
+          return order;
         var valueA = 0;
         var valueB = 0;
         for (const seriesName in seriesRows) {
@@ -1280,6 +1278,18 @@ var db = {
         break;
     }
     return result;
+  },
+
+  specialSortCompare: function(a, b) {
+    if (a == "Other")
+      return 1;
+    if (b == "Other")
+      return -1;
+    if (a.endsWith("|other") && !b.endsWith("|other"))
+      return 1;
+    if (b.endsWith("|other") && !a.endsWith("|other"))
+      return -1;
+    return 0;
   },
 
   getCategoryTitle: function(chartConfig) {
