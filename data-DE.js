@@ -2,7 +2,7 @@
 
 "use strict";
 
-db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=17",
+db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 49535
 , "Mercedes-Benz": 24372
 , "Audi": 21668
@@ -44,7 +44,7 @@ db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 943
 });
 
-db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=17",
+db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=2",
 { "BMW|i3 BEV": 244
 , "Renault|Zoe": 180
 , "Kia|Soul EV": 177
@@ -63,7 +63,7 @@ db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 137
 });
 
-db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 42557
 , "Audi": 24377
 , "Mercedes-Benz": 21765
@@ -105,7 +105,7 @@ db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1104
 });
 
-db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 431
 , "Kia|Soul EV": 282
 , "BMW|i3 BEV": 168
@@ -126,7 +126,7 @@ db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 38
 });
 
-db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 63384
 , "Mercedes-Benz": 31256
 , "Audi": 29426
@@ -168,7 +168,7 @@ db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1813
 });
 
-db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 587
 , "Tesla|Model S": 457
 , "BMW|i3 BEV": 263
@@ -188,7 +188,7 @@ db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 20
 });
 
-db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=15",
+db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 56506
 , "Mercedes-Benz": 27029
 , "Audi": 26781
@@ -229,7 +229,7 @@ db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 6044
 });
 
-db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=15",
+db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 280
 , "Kia|Soul EV": 223
 , "BMW|i3 BEV": 222
@@ -248,7 +248,7 @@ db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 19
 });
 
-db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 60339
 , "Mercedes-Benz": 31392
 , "Audi": 27080
@@ -290,7 +290,7 @@ db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1450
 });
 
-db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 271
 , "Tesla|Model S": 206
 , "BMW|i3 BEV": 201
@@ -312,7 +312,7 @@ db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 33
 });
 
-db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 60555
 , "Mercedes-Benz": 31394
 , "Audi": 25153
@@ -354,7 +354,7 @@ db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1382
 });
 
-db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 680
 , "Smart|Fortwo ED": 231
 , "BMW|i3 BEV": 219
@@ -375,7 +375,7 @@ db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 28
 });
 
-db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 49468
 , "Mercedes-Benz": 30046
 , "Audi": 26453
@@ -417,7 +417,7 @@ db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1311
 });
 
-db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 413
 , "Kia|Soul EV": 365
 , "BMW|i3 BEV": 205
@@ -438,7 +438,7 @@ db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 45
 });
 
-db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 43531
 , "Mercedes-Benz": 26679
 , "Audi": 19406
@@ -480,7 +480,7 @@ db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1251
 });
 
-db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 475
 , "Renault|Zoe": 423
 , "Kia|Soul EV": 372
@@ -502,7 +502,7 @@ db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 37
 });
 
-db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 53268
 , "Mercedes-Benz": 28139
 , "BMW": 24812
@@ -544,7 +544,7 @@ db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1166
 });
 
-db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 494
 , "Renault|Zoe": 278
 , "Kia|Soul EV": 252
@@ -566,7 +566,7 @@ db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 68
 });
 
-db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 50331
 , "Mercedes-Benz": 26625
 , "Audi": 21651
@@ -608,7 +608,7 @@ db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1074
 });
 
-db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=2",
 { "Smart|Fortwo ED": 398
 , "Volkswagen|e-Golf": 389
 , "Kia|Soul EV": 380
@@ -629,7 +629,7 @@ db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 59
 });
 
-db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 58209
 , "Mercedes-Benz": 28687
 , "Audi": 22949
@@ -671,7 +671,7 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1356
 });
 
-db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=8",
+db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=2",
 { "Smart|Fortwo ED": 621
 , "Volkswagen|e-Golf": 601
 , "Kia|Soul EV": 277
@@ -693,7 +693,7 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 57
 });
 
-db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 46587
 , "BMW": 24821
 , "Ford": 20132
@@ -735,7 +735,7 @@ db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1313
 });
 
-db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2017_monatlich/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=2",
 { "Smart|Fortwo ED": 1152
 , "Volkswagen|e-Golf": 422
 , "BMW|i3 BEV": 373
@@ -757,7 +757,7 @@ db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 27
 });
 
-db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=9",
+db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 54348
 , "Mercedes-Benz": 26419
 , "Audi": 21032
@@ -799,7 +799,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1429
 });
 
-db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=9",
+db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=2",
 { "Smart|Fortwo ED": 729
 , "Kia|Soul EV": 450
 , "Volkswagen|e-Golf": 450
@@ -818,7 +818,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 1
 });
 
-db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_02_xls.xls?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_02_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen": 47822
 , "Audi": 23510
 , "Mercedes-Benz": 21910
@@ -860,7 +860,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1681
 });
 
-db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_02_xls.xls?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_02_xls.xls?__blob=publicationFile&v=3",
 { "Smart|Fortwo ED": 510
 , "Renault|Zoe": 475
 , "Volkswagen|e-Golf": 465
@@ -878,7 +878,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Focus Electric": 5
 });
 
-db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_03_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_03_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 64496
 , "Mercedes-Benz": 29583
 , "Ford": 26890
@@ -920,7 +920,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1974
 });
 
-db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_03_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_03_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 534
 , "Renault|Zoe": 523
 , "Smart|Forfour ED": 457
@@ -941,7 +941,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 25
 });
 
-db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 64769
 , "Mercedes-Benz": 29112
 , "Audi": 26392
@@ -983,7 +983,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1561
 });
 
-db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=2",
 { "Kia|Soul EV": 721
 , "Volkswagen|e-Golf": 456
 , "Renault|Zoe": 422
@@ -1004,7 +1004,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Focus Electric": 2
 });
 
-db.insert(db.countries.DE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_05_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_05_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen": 63835
 , "Mercedes-Benz": 27214
 , "Audi": 26971
@@ -1046,7 +1046,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1485
 });
 
-db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_05_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_05_xls.xls?__blob=publicationFile&v=3",
 { "Renault|Zoe": 507
 , "Volkswagen|e-Golf": 366
 , "Kia|Soul EV": 231
@@ -1068,7 +1068,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 2
 });
 
-db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_06_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_06_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen": 66389
 , "Mercedes-Benz": 28376
 , "Audi": 27775
@@ -1110,7 +1110,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1605
 });
 
-db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_06_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_06_xls.xls?__blob=publicationFile&v=3",
 { "Renault|Zoe": 465
 , "BMW|i3 BEV": 399
 , "Smart|Forfour ED": 310
@@ -1133,7 +1133,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 2
 });
 
-db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_07_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_07_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen": 66367
 , "Audi": 33562
 , "Mercedes-Benz": 25377
@@ -1175,7 +1175,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2054
 });
 
-db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_07_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_07_xls.xls?__blob=publicationFile&v=3",
 { "Kia|Soul EV": 423
 , "Smart|Fortwo ED": 387
 , "Renault|Zoe": 320
@@ -1198,7 +1198,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 2
 });
 
-db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_08_xls.xls?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_08_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 63623
 , "Audi": 28198
 , "Mercedes-Benz": 23764
@@ -1240,7 +1240,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2349
 });
 
-db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_08_xls.xls?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_08_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 421
 , "Kia|Soul EV": 339
 , "Smart|Fortwo ED": 334
@@ -1262,7 +1262,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 1
 });
 
-db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
 { "BMW": 24524
 , "Mercedes-Benz": 22379
 , "Opel": 20337
@@ -1304,7 +1304,7 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1103
 });
 
-db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 432
 , "Renault|Zoe": 328
 , "BMW|i3 BEV": 282
@@ -1328,7 +1328,7 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 3
 });
 
-db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_10_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_10_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen": 40811
 , "Mercedes-Benz": 31737
 , "BMW": 23521
@@ -1370,7 +1370,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1321
 });
 
-db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_10_xls.xls?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_10_xls.xls?__blob=publicationFile&v=3",
 { "Volkswagen|e-Golf": 784
 , "Renault|Zoe": 609
 , "Smart|Fortwo ED": 402
@@ -1394,7 +1394,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 8
 });
 
-db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_11_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_11_xls.xls?__blob=publicationFile&v=2",
 { "Volkswagen": 49253
 , "Mercedes-Benz": 30416
 , "BMW": 24476
@@ -1436,7 +1436,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1290
 });
 
-db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_11_xls.xls?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_11_xls.xls?__blob=publicationFile&v=2",
 { "Renault|Zoe": 1047
 , "Volkswagen|e-Golf": 858
 , "Nissan|Leaf": 366
@@ -1460,7 +1460,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 9
 });
 
-db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 41527
 , "BMW": 24859
 , "Mercedes-Benz": 22876
@@ -1502,7 +1502,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1004
 });
 
-db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2018_monatlich/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 944
 , "Volkswagen|e-Golf": 529
 , "Audi|other": 528
@@ -1527,7 +1527,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 12
 });
 
-db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 50823
 , "Mercedes-Benz": 25292
 , "Audi": 21814
@@ -1569,7 +1569,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1042
 });
 
-db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 799
 , "Volkswagen|e-Golf": 746
 , "BMW|i3 BEV": 645
@@ -1596,7 +1596,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 9
 });
 
-db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 49965
 , "Mercedes-Benz": 24380
 , "Audi": 24050
@@ -1638,7 +1638,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1249
 });
 
-db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 959
 , "Renault|Zoe": 782
 , "BMW|i3 BEV": 628
@@ -1663,7 +1663,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 29
 });
 
-db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 62627
 , "Audi": 29751
 , "Mercedes-Benz": 28054
@@ -1705,7 +1705,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1637
 });
 
-db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 2224
 , "Renault|Zoe": 1136
 , "BMW|i3 BEV": 708
@@ -1732,7 +1732,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 12
 });
 
-db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 57526
 , "Mercedes-Benz": 29590
 , "BMW": 24748
@@ -1774,7 +1774,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1658
 });
 
-db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 939
 , "BMW|i3 BEV": 734
 , "Tesla|Model 3": 514
@@ -1804,7 +1804,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Vivaro-e": 2
 });
 
-db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 60906
 , "Mercedes-Benz": 29793
 , "BMW": 26995
@@ -1846,7 +1846,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1457
 });
 
-db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 875
 , "BMW|i3 BEV": 861
 , "Smart|Fortwo ED": 495
@@ -1876,7 +1876,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 1
 });
 
-db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 62347
 , "BMW": 25602
 , "Ford": 25060
@@ -1918,7 +1918,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1398
 });
 
-db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 1336
 , "Renault|Zoe": 1020
 , "BMW|i3 BEV": 702
@@ -1948,7 +1948,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 1
 });
 
-db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 61783
 , "Mercedes-Benz": 31072
 , "Audi": 28862
@@ -1990,7 +1990,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1841
 });
 
-db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 1007
 , "BMW|i3 BEV": 961
 , "Renault|Zoe": 910
@@ -2020,7 +2020,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 90
 });
 
-db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 52754
 , "Mercedes-Benz": 28990
 , "Audi": 25227
@@ -2062,7 +2062,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2168
 });
 
-db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=2",
 { "BMW|i3 BEV": 987
 , "Renault|Zoe": 777
 , "Hyundai|Kona Electric": 441
@@ -2091,7 +2091,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 138
 });
 
-db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 39750
 , "Mercedes-Benz": 26853
 , "BMW": 19881
@@ -2132,7 +2132,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1152
 });
 
-db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 1516
 , "BMW|i3 BEV": 863
 , "Renault|Zoe": 634
@@ -2161,7 +2161,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 162
 });
 
-db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 56877
 , "Mercedes-Benz": 33606
 , "BMW": 24319
@@ -2201,7 +2201,7 @@ db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1210
 });
 
-db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=2",
 { "BMW|i3 BEV": 858
 , "Smart|Fortwo ED": 746
 , "Volkswagen|e-Golf": 723
@@ -2232,7 +2232,7 @@ db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 121
 });
 
-db.insert(db.countries.DE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_11_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_11_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 62642
 , "Mercedes-Benz": 32690
 , "BMW": 24874
@@ -2273,7 +2273,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1297
 });
 
-db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_11_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_11_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 925
 , "Smart|Fortwo ED": 828
 , "BMW|i3 BEV": 545
@@ -2304,7 +2304,7 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 186
 });
 
-db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 49518
 , "BMW": 27544
 , "Mercedes-Benz": 24796
@@ -2344,7 +2344,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1112
 });
 
-db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019_monatlich/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 926
 , "Renault|Zoe": 780
 , "Volkswagen|e-Golf": 764
@@ -2373,7 +2373,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 193
 });
 
-db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 48744
 , "Mercedes-Benz": 26034
 , "Audi": 22066
@@ -2413,7 +2413,7 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1147
 });
 
-db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 1798
 , "Volkswagen|e-Golf": 1120
 , "Audi|Q8 e-tron": 572
@@ -2448,7 +2448,7 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 121
 });
 
-db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 44405
 , "Mercedes-Benz": 23577
 , "Audi": 19172
@@ -2488,7 +2488,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1246
 });
 
-db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 1475
 , "Renault|Zoe": 1352
 , "Volkswagen|e-up!": 679
@@ -2524,7 +2524,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 134
 });
 
-db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 40643
 , "Mercedes-Benz": 20132
 , "BMW": 20047
@@ -2564,7 +2564,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1303
 });
 
-db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 2034
 , "Volkswagen|e-Golf": 1524
 , "Renault|Zoe": 945
@@ -2601,7 +2601,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 210
 });
 
-db.insert(db.countries.DE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 20741
 , "BMW": 12410
 , "Ford": 9311
@@ -2640,7 +2640,7 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 988
 });
 
-db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 738
 , "Renault|Zoe": 627
 , "Tesla|Model 3": 519
@@ -2675,7 +2675,7 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 138
 });
 
-db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 29568
 , "Mercedes-Benz": 17134
 , "Audi": 13915
@@ -2715,7 +2715,7 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1164
 });
 
-db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-Golf": 1153
 , "Renault|Zoe": 896
 , "Audi|Q8 e-tron": 583
@@ -2751,7 +2751,7 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 61
 });
 
-db.insert(db.countries.DE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 39126
 , "Mercedes-Benz": 21970
 , "BMW": 18075
@@ -2791,7 +2791,7 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1419
 });
 
-db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 1448
 , "Volkswagen|e-Golf": 1310
 , "Tesla|Model 3": 703
@@ -2828,7 +2828,7 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 159
 });
 
-db.insert(db.countries.DE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_07_xlsx.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_07_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 59714
 , "Mercedes-Benz": 34393
 , "BMW": 28272
@@ -2868,7 +2868,7 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2081
 });
 
-db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_07_xlsx.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_07_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 2851
 , "Volkswagen|e-Golf": 2633
 , "Hyundai|Kona Electric": 1688
@@ -2904,7 +2904,7 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 243
 });
 
-db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_08_xlsx.xlsx;?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_08_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 43842
 , "Mercedes-Benz": 27906
 , "BMW": 21549
@@ -2944,7 +2944,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1947
 });
 
-db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_08_xlsx.xlsx;?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_08_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 2824
 , "Renault|Zoe": 2210
 , "Hyundai|Kona Electric": 1397
@@ -2988,7 +2988,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 259
 });
 
-db.insert(db.countries.DE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_09_xlsx.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_09_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 40398
 , "Mercedes-Benz": 27360
 , "BMW": 20267
@@ -3028,7 +3028,7 @@ db.insert(db.countries.DE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1432
 });
 
-db.insert(db.countries.DE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_09_xlsx.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_09_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 3603
 , "Tesla|Model 3": 2776
 , "Volkswagen|ID.3": 1771
@@ -3071,7 +3071,7 @@ db.insert(db.countries.DE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 268
 });
 
-db.insert(db.countries.DE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_10_xlsx.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_10_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 47204
 , "Mercedes-Benz": 32698
 , "Audi": 20922
@@ -3112,7 +3112,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2108
 });
 
-db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_10_xlsx.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_10_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 5010
 , "Volkswagen|ID.3": 2647
 , "Hyundai|Kona Electric": 1932
@@ -3158,7 +3158,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 199
 });
 
-db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 51087
 , "Mercedes-Benz": 32869
 , "BMW": 24532
@@ -3199,7 +3199,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2074
 });
 
-db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Renault|Zoe": 4287
 , "Hyundai|Kona Electric": 2471
 , "Volkswagen|ID.3": 2439
@@ -3250,7 +3250,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 314
 });
 
-db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 60140
 , "Mercedes-Benz": 30604
 , "BMW": 26684
@@ -3291,7 +3291,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2062
 });
 
-db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2020_monatlich/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|ID.3": 7144
 , "Renault|Zoe": 5349
 , "Tesla|Model 3": 3293
@@ -3345,7 +3345,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 258
 });
 
-db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 34189
 , "Mercedes-Benz": 17912
 , "BMW": 16479
@@ -3386,7 +3386,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1272
 });
 
-db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|ID.3": 1799
 , "Volkswagen|e-up!": 1446
 , "Smart|Fortwo ED": 1271
@@ -3435,7 +3435,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 275
 });
 
-db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 40115
 , "Audi": 17054
 , "Mercedes-Benz": 16901
@@ -3476,7 +3476,7 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1084
 });
 
-db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen|e-up!": 2215
 , "Tesla|Model 3": 1910
 , "Volkswagen|ID.3": 1892
@@ -3526,7 +3526,7 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 107
 });
 
-db.insert(db.countries.DE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_03.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_03.xlsx?__blob=publicationFile&v=2",
 { "Volkswagen": 56550
 , "Mercedes-Benz": 27520
 , "BMW": 23445
@@ -3567,7 +3567,7 @@ db.insert(db.countries.DE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1783
 });
 
-db.insert(db.countries.DE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_03.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_03.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model 3": 3699
 , "Volkswagen|e-up!": 3599
 , "Hyundai|Kona Electric": 3237
@@ -3619,7 +3619,7 @@ db.insert(db.countries.DE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 314
 });
 
-db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
 { "Volkswagen": 43230
 , "Mercedes-Benz": 21992
 , "BMW": 20441
@@ -3660,7 +3660,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1717
 });
 
-db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
+db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
 { "Volkswagen|e-up!": 2604
 , "Volkswagen|ID.3": 2264
 , "Smart|Fortwo ED": 1652
@@ -3712,7 +3712,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 411
 });
 
-db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=5",
 { "Volkswagen": 45243
 , "BMW": 19668
 , "Audi": 18561
@@ -3753,7 +3753,7 @@ db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1639
 });
 
-db.insert(db.countries.DE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=2",
+db.insert(db.countries.DE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=5",
 { "Volkswagen|e-up!": 2819
 , "Tesla|Model 3": 2744
 , "Volkswagen|ID.3": 2252
@@ -3806,7 +3806,7 @@ db.insert(db.countries.DE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 214
 });
 
-db.insert(db.countries.DE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_06.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_06.xlsx?__blob=publicationFile&v=4",
 { "Volkswagen": 57159
 , "BMW": 21847
 , "Audi": 20124
@@ -3847,7 +3847,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1607
 });
 
-db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_06.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_06.xlsx?__blob=publicationFile&v=4",
 { "Tesla|Model 3": 4462
 , "Volkswagen|e-up!": 2788
 , "Volkswagen|ID.3": 2448
@@ -3901,7 +3901,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 181
 });
 
-db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
 { "Volkswagen": 49808
 , "Mercedes-Benz": 21456
 , "BMW": 20437
@@ -3942,7 +3942,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 1898
 });
 
-db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
+db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
 { "Volkswagen|e-up!": 2556
 , "Volkswagen|ID.3": 2180
 , "Renault|Zoe": 1320
@@ -3996,7 +3996,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 374
 });
 
-db.insert(db.countries.DE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_08.xlsx?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_08.xlsx?__blob=publicationFile&v=8",
 { "Volkswagen": 36223
 , "BMW": 16137
 , "Audi": 14375
@@ -4037,7 +4037,7 @@ db.insert(db.countries.DE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2507
 });
 
-db.insert(db.countries.DE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_08.xlsx?__blob=publicationFile&v=7",
+db.insert(db.countries.DE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_08.xlsx?__blob=publicationFile&v=8",
 { "Volkswagen|ID.3": 3750
 , "Tesla|Model 3": 2946
 , "Volkswagen|e-up!": 2411
@@ -4089,7 +4089,7 @@ db.insert(db.countries.DE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 723
 });
 
-db.insert(db.countries.DE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_09.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_09.xlsx?__blob=publicationFile&v=5",
 { "Volkswagen": 31002
 , "BMW": 16487
 , "Mercedes-Benz": 13734
@@ -4130,7 +4130,7 @@ db.insert(db.countries.DE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 2270
 });
 
-db.insert(db.countries.DE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/Statistik/Fahrzeuge/FZ/2021_monatlich/FZ10/fz10_2021_09.xlsx?__blob=publicationFile&v=5",
+db.insert(db.countries.DE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_09.xlsx?__blob=publicationFile&v=5",
 { "Tesla|Model 3": 6828
 , "Volkswagen|ID.3": 2694
 , "Škoda|Enyaq": 2027
