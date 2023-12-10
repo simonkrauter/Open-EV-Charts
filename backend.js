@@ -752,8 +752,13 @@ var db = {
     if (!Object.keys(params.model.options).includes(chartConfig.model))
       chartConfig.model = params.model.defaultOption;
 
-    if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null && chartConfig.timeSpan.startsWith("m"))
-      chartConfig.timeSpan = params.timeSpan.defaultOption;
+    if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
+      if (chartConfig.timeSpan.startsWith("m")
+        || (chartConfig.timeSpan.startsWith("q") && chartConfig.xProperty != this.xProperties.month)
+        || (chartConfig.timeSpan.startsWith("y") && chartConfig.xProperty == this.xProperties.year)) {
+        chartConfig.timeSpan = params.timeSpan.defaultOption;
+      }
+    }
 
     params = this.getChartParams(chartConfig); // update
 
