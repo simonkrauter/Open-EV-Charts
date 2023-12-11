@@ -1319,14 +1319,14 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      td.appendChild(document.createTextNode((Math.round(allCarSalesPerYear / 1000) * 1000).toLocaleString()));
+      td.appendChild(document.createTextNode(formatIntForStatusTable(allCarSalesPerYear)));
       td.style.textAlign = "right";
     }
     // ev market size
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      td.appendChild(document.createTextNode((Math.round(evSalesPerYear / 1000) * 1000).toLocaleString()));
+      td.appendChild(document.createTextNode(formatIntForStatusTable(evSalesPerYear)));
       td.style.textAlign = "right";
     }
   }
@@ -1487,11 +1487,16 @@ function addEvSalesTd(tr, brand, brandAndModel = null) {
   }
   const td = document.createElement("TD");
   tr.appendChild(td);
-  if (total == 0)
-    td.appendChild(document.createTextNode("–"));
-  else if (total > 1000)
-    td.appendChild(document.createTextNode((Math.round(total / 100) * 100).toLocaleString()));
-  else
-    td.appendChild(document.createTextNode((Math.round(total)).toLocaleString()));
+  td.appendChild(document.createTextNode(formatIntForStatusTable(total)));
   td.style.textAlign = "right";
+}
+
+function formatIntForStatusTable(val) {
+  if (val == 0)
+    return "–";
+  if (val > 10000)
+    val = Math.round(val / 1000) * 1000;
+  else if (val > 1000)
+    val = Math.round(val / 100) * 100;
+  return val.toLocaleString();
 }
