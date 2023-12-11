@@ -2,8 +2,8 @@
 
 "use strict";
 
-db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#jan TODO: numbers per brand wanted",
-{ "other": 2456200
+db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html TODO: numbers per brand wanted",
+{ "other": 2148098
 });
 
 db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html",
@@ -15,11 +15,11 @@ db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 500
 , "Roewe|eRX5 BEV": 482
 , "Geely|Emgrand EV": 466
-, "other": 3500
+, "other": 13281
 });
 
-db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#feb TODO: numbers per brand wanted",
-{ "other": 1475500
+db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html TODO: numbers per brand wanted",
+{ "other": 2247241
 });
 
 db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html",
@@ -30,11 +30,11 @@ db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Geely|Emgrand EV": 581
 , "Roewe|eRX5 BEV": 374
 , "Baojun|E-Series": 601
-, "other": 3875
+, "other": 11956
 });
 
 db.insert(db.countries.CN, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#mar TODO: numbers per brand wanted",
-{ "other": 2168600
+{ "other": 1863346
 });
 
 db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/china-march-2018.html",
@@ -47,11 +47,11 @@ db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model X": 1500
 , "Baojun|E-Series": 901
 , "Roewe|eRX5 BEV": 627
-, "other": 9333
+, "other": 27172
 });
 
-db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#apr TODO: numbers per brand wanted",
-{ "other": 1914400
+db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html TODO: numbers per brand wanted",
+{ "other": 1648810
 });
 
 db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html",
@@ -64,11 +64,11 @@ db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ1": 3199
 , "Tesla|Model X": 700
 , "Changan|Benni EV": 1170
-, "other": 12855
+, "other": 33552
 });
 
-db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#may TODO: numbers per brand wanted",
-{ "other": 1889400
+db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html TODO: numbers per brand wanted",
+{ "other": 1632554
 });
 
 db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html",
@@ -82,11 +82,11 @@ db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 4034
 , "MG|MG5 EV": 2996
 , "Tesla|Model X": 1500
-, "other": 16173
+, "other": 44335
 });
 
-db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#jun TODO: numbers per brand wanted",
-{ "other": 1874200
+db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html TODO: numbers per brand wanted",
+{ "other": 2161956
 });
 
 db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html",
@@ -100,11 +100,11 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|MG5 EV": 4661
 , "BAIC|EU-Series": 3944
 , "Tesla|Model X": 2350
-, "other": 8101
+, "other": 27743
 });
 
-db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#jul TODO: numbers per brand wanted",
-{ "other": 1589500
+db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html TODO: numbers per brand wanted",
+{ "other": 1652383
 });
 
 db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html",
@@ -118,11 +118,11 @@ db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Baojun|E-Series": 602
 , "BAIC|EU-Series": 1618
 , "Tesla|Model X": 1600
-, "other": 7496
+, "other": 23353
 });
 
-db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#aug TODO: numbers per brand wanted",
-{ "other": 1789900
+db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html TODO: numbers per brand wanted",
+{ "other": 1536716
 });
 
 db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html",
@@ -136,11 +136,11 @@ db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 2988
 , "Baojun|E-Series": 745
 , "BYD|Yuan EV": 4487
-, "other": 9052
+, "other": 32265
 });
 
-db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#sep TODO: numbers per brand wanted",
-{ "other": 2060500
+db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html TODO: numbers per brand wanted",
+{ "other": 1733350
 });
 
 db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html",
@@ -154,11 +154,11 @@ db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EU-Series": 4138
 , "BYD|Yuan EV": 5008
 , "Baojun|E-Series": 1043
-, "other": 10250
+, "other": 34773
 });
 
-db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#oct TODO: numbers per brand wanted",
-{ "other": 2046800
+db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html TODO: numbers per brand wanted",
+{ "other": 1777736
 });
 
 db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html",
@@ -172,11 +172,11 @@ db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|MG5 EV": 2337
 , "BYD|Yuan EV": 5803
 , "Baojun|E-Series": 3126
-, "other": 14289
+, "other": 50618
 });
 
-db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#nov TODO: numbers per brand wanted",
-{ "other": 2173500
+db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html TODO: numbers per brand wanted",
+{ "other": 1909420
 });
 
 db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html",
@@ -191,11 +191,11 @@ db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|MG5 EV": 1143
 , "Baojun|E-Series": 5155
 , "Dongfeng|Junfeng Skio": 4142
-, "other": 10516
+, "other": 43633
 });
 
-db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#dec TODO: numbers per brand wanted",
-{ "other": 2233100
+db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html TODO: numbers per brand wanted",
+{ "other": 1933288
 });
 
 db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html",
@@ -210,11 +210,11 @@ db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "MG|MG5 EV": 3301
 , "Baojun|E-Series": 4692
 , "Dongfeng|Junfeng Skio": 4104
-, "other": 9698
+, "other": 50956
 });
 
-db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#jan TODO: numbers per brand wanted",
-{ "other": 2021100
+db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html TODO: numbers per brand wanted",
+{ "other": 1958363
 });
 
 db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html",
@@ -230,11 +230,11 @@ db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eulove EV": 2049
 , "Ora|iQ": 2036
 , "Nio|ES8": 1803
-, "other": 7696
+, "other": 18114
 });
 
-db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#feb TODO: numbers per brand wanted",
-{ "other": 1219500
+db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html TODO: numbers per brand wanted",
+{ "other": 1206898
 });
 
 db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html",
@@ -251,11 +251,11 @@ db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Ora|iQ": 1443
 , "Changan|Eulove EV": 1000
 , "Nio|ES8": 654
-, "other": 2643
+, "other": 8294
 });
 
-db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#mar TODO: numbers per brand wanted",
-{ "other": 2019400
+db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html TODO: numbers per brand wanted",
+{ "other": 1857068
 });
 
 db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html",
@@ -272,11 +272,11 @@ db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 3426
 , "Geely|Emgrand GSE EV": 1518
 , "Tesla|Model 3": 5300
-, "other": 5788
+, "other": 18834
 });
 
-db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#apr TODO: numbers per brand wanted",
-{ "other": 1574900
+db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html TODO: numbers per brand wanted",
+{ "other": 1579325
 });
 
 db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html",
@@ -294,11 +294,11 @@ db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Changan|Eado EV": 647
 , "Geely|Emgrand GSE EV": 177
 , "Nio|ES8": 1508
-, "other": 1887
+, "other": 10597
 });
 
-db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#may TODO: numbers per brand wanted",
-{ "other": 1561200
+db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html TODO: numbers per brand wanted",
+{ "other": 1542952
 });
 
 db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html",
@@ -316,11 +316,11 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Tesla|Model 3": 2000
 , "Xpeng|G3": 2704
 , "BYD|Qin Pro EV": 2936
-, "other": 500
+, "other": 9809
 });
 
-db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#jun TODO: numbers per brand wanted",
-{ "other": 1728000
+db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html TODO: numbers per brand wanted",
+{ "other": 1693408
 });
 
 db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html",
@@ -340,10 +340,11 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Ora|iQ": 564
 , "BAIC|EC-Series": 4744
 , "Dongfeng|E70 EV": 3525
+, "other": 15535
 });
 
-db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#jul TODO: numbers per brand wanted",
-{ "other": 1528000
+db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html TODO: numbers per brand wanted",
+{ "other": 1490059
 });
 
 db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html",
@@ -361,10 +362,11 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EC-Series": 1935
 , "Ora|iQ": 394
 , "BAIC|EX-Series": 1631
+, "other": 6842
 });
 
-db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#aug TODO: numbers per brand wanted",
-{ "other": 1653000
+db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html TODO: numbers per brand wanted",
+{ "other": 1932259
 });
 
 db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html",
@@ -383,10 +385,11 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EC-Series": 2692
 , "BYD|Qin Pro EV": 1470
 , "Xpeng|G3": 306
+, "other": 8342
 });
 
-db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#sep TODO: numbers per brand wanted",
-{ "other": 1931000
+db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html TODO: numbers per brand wanted",
+{ "other": 1876993
 });
 
 db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html",
@@ -405,10 +408,11 @@ db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EC-Series": 1352
 , "Aion|S": 4006
 , "Xpeng|G3": 2185
+, "other": 7261
 });
 
-db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#oct TODO: numbers per brand wanted",
-{ "other": 1928000
+db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html TODO: numbers per brand wanted",
+{ "other": 1885316
 });
 
 db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html",
@@ -427,11 +431,11 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JAC|iEV E-Series": 120
 , "BAIC|EC-Series": 926
 , "Xpeng|G3": 505
-, "other": 23732
+, "other": 33709
 });
 
-db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#nov TODO: numbers per brand wanted",
-{ "other": 2057000
+db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html TODO: numbers per brand wanted",
+{ "other": 2031801
 });
 
 db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
@@ -450,11 +454,11 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JAC|iEV E-Series": 123
 , "BAIC|EC-Series": 662
 , "BYD|Qin Pro EV": 1623
-, "other": 30901
+, "other": 44699
 });
 
-db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2019#dec TODO: numbers per brand wanted",
-{ "other": 2213000
+db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html TODO: numbers per brand wanted",
+{ "other": 2145559
 });
 
 db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html",
@@ -473,7 +477,7 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 756
 , "JAC|iEV E-Series": 269
 , "MG|ZS EV": 4714
-, "other": 50699
+, "other": 75298
 });
 
 db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html TODO: numbers per brand wanted",
