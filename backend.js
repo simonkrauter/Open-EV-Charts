@@ -449,7 +449,7 @@ var db = {
     const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
     var param = {};
     param.name = "brand";
-    param.showAsFilter = chartConfig == null || (([this.detailLevels.brand, this.detailLevels.model].includes(chartConfig.detailLevel) || chartConfig.xProperty == this.xProperties.model) && chartConfig.company != this.companyOptions.all && filterContainsMultipleBrands);
+    param.showAsFilter = chartConfig == null || (([this.detailLevels.brand, this.detailLevels.model].includes(chartConfig.detailLevel) || chartConfig.xProperty == this.xProperties.model) && filterContainsMultipleBrands);
     param.options = {};
     param.options[this.brandOptions.all] = "All Brands";
     if (chartConfig != null && (param.showAsFilter || !filterContainsMultipleBrands)) {
