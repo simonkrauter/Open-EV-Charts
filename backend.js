@@ -585,8 +585,8 @@ var db = {
     return chartConfig.timeSpan;
   },
 
-  encodeChartConfig: function(chartConfig) {
-    chartConfig = this.makeChartConfigValid(chartConfig);
+  encodeChartConfig: function(chartConfig, changedParamName = null) {
+    chartConfig = this.makeChartConfigValid(chartConfig, changedParamName);
     var parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -696,7 +696,7 @@ var db = {
     return this.makeChartConfigValid(result);
   },
 
-  makeChartConfigValid: function(chartConfig) {
+  makeChartConfigValid: function(chartConfig, changedParamName = null) {
     var params = this.getChartParams(chartConfig);
 
     var countryValues = [];

@@ -168,7 +168,7 @@ function renderFilterAsDropDown(parentDiv, param) {
   var select = addSelectElement(parentDiv);
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
-    navigateToHash(db.encodeChartConfig(chartSetConfig));
+    navigateToHash(db.encodeChartConfig(chartSetConfig, param.name));
   });
   for (const optionKey in param.options) {
     var option = document.createElement("OPTION");
