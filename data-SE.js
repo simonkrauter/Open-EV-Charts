@@ -5394,3 +5394,112 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|Soul EV": 10
 , "other": 209
 });
+
+db.insert(db.countries.SE, "2023-12", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 6091
+, "Volkswagen": 3148
+, "Kia": 2228
+, "Audi": 2205
+, "Toyota": 2024
+, "Tesla": 1789
+, "Škoda": 1505
+, "BMW": 1366
+, "Mercedes-Benz": 1355
+, "Renault": 770
+, "Ford": 674
+, "Nissan": 644
+, "Cupra": 584
+, "Peugeot": 474
+, "Hyundai": 468
+, "Dacia": 462
+, "Polestar": 358
+, "Lexus": 285
+, "Opel": 279
+, "Citroën": 272
+, "Subaru": 247
+, "Mazda": 235
+, "BYD": 234
+, "Seat": 230
+, "MG": 222
+, "Porsche": 206
+, "Mini": 179
+, "Suzuki": 171
+, "Ora": 170
+, "Xpeng": 73
+, "Fiat": 72
+, "Honda": 50
+, "Land Rover": 16
+, "Mitsubishi": 16
+, "Hongqi": 11
+, "Nio": 8
+, "Maxus": 7
+, "Alfa Romeo": 6
+, "Jeep": 5
+, "Lamborghini": 5
+, "Chevrolet": 3
+, "Ferrari": 3
+, "DS Automobiles": 2
+, "Bentley": 1
+, "Iveco": 1
+, "Jaguar": 1
+, "Lotus": 1
+, "MAN": 1
+, "Smart": 1
+, "other": 116
+});
+
+db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volkswagen|ID.4": 1371
+, "Tesla|Model Y": 1098
+, "Škoda|Enyaq": 931
+, "Volvo|XC40 Recharge pure electric": 798
+, "Audi|Q4 e-tron": 655
+, "Tesla|Model 3": 630
+, "Volvo|C40 Recharge": 436
+, "BMW|i4": 369
+, "Polestar|2": 358
+, "Volkswagen|ID.3": 330
+, "Nissan|Leaf": 320
+, "Kia|EV9": 313
+, "Audi|Q8 e-tron": 268
+, "Kia|EV6": 256
+, "Kia|Niro EV": 249
+, "Mercedes-Benz|EQE": 228
+, "BMW|iX1": 211
+, "BYD|Yuan Plus": 211
+, "Volkswagen|ID.5": 211
+, "Ora|Good Cat": 170
+, "Hyundai|Ioniq 5": 159
+, "Cupra|Born": 128
+, "MG|MG4 EV": 106
+, "Mercedes-Benz|EQA": 106
+, "BMW|iX": 103
+, "Renault|Megane E-Tech": 103
+, "Mini|Cooper SE Electric": 102
+, "Volvo|EX30": 81
+, "Volkswagen|ID. Buzz": 80
+, "Porsche|Taycan": 73
+, "Xpeng|G9": 69
+, "Toyota|bZ4X": 67
+, "Mercedes-Benz|EQB": 60
+, "Hyundai|Kona Electric": 58
+, "Nissan|Ariya": 56
+, "MG|ZS EV": 55
+, "MG|MG5 EV": 50
+, "BMW|iX3": 46
+, "Volkswagen|ID.7": 44
+, "BMW|i5": 43
+, "Tesla|Model S": 31
+, "Tesla|Model X": 30
+, "Mazda|MX-30": 24
+, "Mercedes-Benz|eVito": 17
+, "Fiat|500e": 16
+, "Audi|e-tron GT": 13
+, "BYD|Seal": 12
+, "Ford|Mustang Mach-E": 12
+, "Hyundai|Ioniq 6": 12
+, "Kia|Soul EV": 10
+, "Mercedes-Benz|EQS": 10
+, "Peugeot|e-Rifter": 10
+, "other": 188
+});
