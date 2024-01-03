@@ -4716,6 +4716,85 @@ db.insert(db.countries.NO, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1116
 });
 
+db.insert(db.countries.NO, "2023-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2023",
+{ "Tesla": 1688
+, "Toyota": 1559
+, "Škoda": 726
+, "Volvo": 700
+, "Nissan": 601
+, "Hyundai": 599
+, "Mercedes-Benz": 543
+, "Volkswagen": 512
+, "Ford": 379
+, "BMW": 375
+, "MG": 357
+, "BYD": 308
+, "Audi": 259
+, "Mazda": 184
+, "Kia": 147
+, "Lexus": 128
+, "Polestar": 103
+, "Peugeot": 63
+, "Citroën": 59
+, "Opel": 34
+, "other": 1024
+});
+
+db.insert(db.countries.NO, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2023",
+{ "Tesla|Model Y": 1496
+, "Škoda|Enyaq": 556
+, "Toyota|bZ4X": 534
+, "Hyundai|Kona Electric": 448
+, "Ford|Mustang Mach-E": 335
+, "Nissan|Leaf": 322
+, "Xpeng|G9": 298
+, "Nissan|Ariya": 259
+, "Mercedes-Benz|EQC": 228
+, "Volkswagen|ID.4": 218
+, "Tesla|Model 3": 177
+, "Audi|Q4 e-tron": 167
+, "BYD|Tang EV": 143
+, "MG|MG4 EV": 143
+, "Mazda|MX-30": 139
+, "BMW|iX1": 137
+, "Volkswagen|ID.3": 119
+, "MG|Marvel R": 103
+, "MG|ZS EV": 101
+, "Subaru|Solterra": 95
+, "BYD|Han EV": 85
+, "Mercedes-Benz|EQE": 84
+, "Mercedes-Benz|EQA": 77
+, "Hyundai|Ioniq 5": 76
+, "Volkswagen|ID.7": 71
+, "Fiat|500e": 70
+, "Audi|Q8 e-tron": 68
+, "BYD|Yuan Plus": 62
+, "BMW|i4": 57
+, "Citroën|ë-C4": 55
+, "Lexus|RZ": 55
+, "BMW|iX": 54
+, "Hyundai|Ioniq 6": 54
+, "Lexus|UX 300e": 50
+, "Nio|ES8": 47
+, "Kia|EV6": 46
+, "Mercedes-Benz|EQB": 45
+, "Jeep|Avenger EV": 43
+, "Peugeot|e-2008": 43
+, "Fisker|Ocean": 33
+, "Mini|Cooper SE Electric": 33
+, "Kia|EV9": 32
+, "Kia|Niro EV": 32
+, "Renault|Megane E-Tech": 31
+, "BMW|iX3": 29
+, "Volkswagen|ID.5": 29
+, "JAC|e-JS4": 28
+, "Mercedes-Benz|EQS": 26
+, "Maxus|Euniq 6": 20
+, "Volvo|XC40 Recharge pure electric": 20
+, "other": 969
+});
+
+
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
