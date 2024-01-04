@@ -4485,3 +4485,51 @@ db.insert(db.countries.IE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|e-up!": 1
 , "other": 1
 });
+
+db.insert(db.countries.IE, "2023-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 137
+, "Mercedes-Benz": 54
+, "Ford": 28
+, "Toyota": 23
+, "Kia": 22
+, "Škoda": 22
+, "BMW": 16
+, "Citroën": 7
+, "Mini": 7
+, "Volkswagen": 6
+, "BYD": 5
+, "Hyundai": 4
+, "Seat": 4
+, "Dacia": 2
+, "Peugeot": 2
+, "Honda": 1
+, "Maxus": 1
+, "Mazda": 1
+, "Polestar": 1
+, "Suzuki": 1
+, "Volvo": 1
+});
+
+db.insert(db.countries.IE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model Y": 116
+, "Tesla|Model 3": 19
+, "Kia|EV6": 17
+, "Škoda|Enyaq": 15
+, "Mini|Cooper SE Electric": 5
+, "BMW|i4": 4
+, "BMW|iX1": 4
+, "BYD|Yuan Plus": 4
+, "BMW|iX3": 2
+, "Citroën|Berlingo Electric": 2
+, "BYD|Seal": 1
+, "Citroën|ë-SpaceTourer": 1
+, "Ford|Mustang Mach-E": 1
+, "Kia|Niro EV": 1
+, "Mercedes-Benz|EQE SUV": 1
+, "Peugeot|e-2008": 1
+, "Polestar|2": 1
+, "Tesla|Model S": 1
+, "Tesla|Model X": 1
+, "Volkswagen|ID.4": 1
+, "other": 1
+});
