@@ -1966,7 +1966,7 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 11239
 });
 
-db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
+db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7",
 { "Tesla|Model Y": 576
 , "Škoda|Enyaq": 376
 , "Tesla|Model 3": 255
@@ -2082,7 +2082,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 14885
 });
 
-db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
+db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/9",
 { "Tesla|Model Y": 2394
 , "Ford|Mustang Mach-E": 343
 , "Škoda|Enyaq": 339
