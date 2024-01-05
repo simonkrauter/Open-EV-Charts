@@ -1431,13 +1431,7 @@ var db = {
       return false;
     if (this.isCompanyBrandModelXProperty(chartConfig))
       return false;
-    if (chartConfig.detailLevel == this.detailLevels.company)
-      return chartConfig.company == this.companyOptions.all;
-    if (chartConfig.detailLevel == this.detailLevels.brand)
-      return chartConfig.brand == this.brandOptions.all;
-    if (chartConfig.detailLevel == this.detailLevels.model)
-      return chartConfig.model == this.modelOptions.all;
-    return false;
+    return chartConfig.company == this.companyOptions.all && chartConfig.brand == this.brandOptions.all && chartConfig.model == this.modelOptions.all;
   },
 
   queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, result) {
@@ -1598,10 +1592,8 @@ var db = {
     // Queries the data for one chart for the metrics shareElectric and shareAll
     var chartConfigForSum = this.cloneObject(chartConfig);
     if (this.isTimeXProperty(chartConfig)) {
-      if (chartConfig.detailLevel == this.detailLevels.company)
-        chartConfigForSum.company = this.companyOptions.all;
-      if (chartConfig.detailLevel == this.detailLevels.brand || chartConfig.brand == chartConfig.company)
-        chartConfigForSum.brand = this.brandOptions.all;
+      chartConfigForSum.company = this.companyOptions.all;
+      chartConfigForSum.brand = this.brandOptions.all;
       chartConfigForSum.model = this.modelOptions.all;
     }
     var datasets;
