@@ -1968,19 +1968,19 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
 { "Tesla|Model Y": 576
-, "Škoda|Enyaq": 371
-, "Tesla|Model 3": 254
+, "Škoda|Enyaq": 376
+, "Tesla|Model 3": 255
 , "Audi|Q4 e-tron": 203
-, "Volkswagen|ID.4": 201
+, "Volkswagen|ID.4": 202
 , "Polestar|2": 178
 , "Ford|Mustang Mach-E": 121
-, "Volkswagen|ID. Buzz": 104
+, "Volkswagen|ID. Buzz": 105
 , "BMW|iX1": 94
 , "Cupra|Born": 88
+, "BMW|i4": 86
 , "Toyota|bZ4X": 86
-, "BMW|i4": 85
 , "Volkswagen|ID.3": 82
-, "MG|MG4 EV": 74
+, "MG|MG4 EV": 75
 , "Nissan|Ariya": 72
 , "Kia|EV6": 66
 , "Renault|Megane E-Tech": 64
@@ -1988,27 +1988,27 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 57
 , "Hyundai|Kona Electric": 54
 , "Volvo|XC40 Recharge pure electric": 52
-, "BMW|iX3": 49
+, "BMW|iX3": 51
 , "Kia|Niro EV": 48
-, "Volkswagen|ID.5": 41
+, "Volkswagen|ID.5": 43
 , "Audi|Q8 e-tron": 38
 , "BMW|iX": 32
 , "MG|MG5 EV": 32
 , "Peugeot|e-208": 32
+, "Mercedes-Benz|EQE": 28
 , "BYD|Yuan Plus": 26
-, "Mercedes-Benz|EQE": 26
 , "Mazda|MX-30": 25
 , "Peugeot|e-2008": 25
 , "Mercedes-Benz|EQB": 23
+, "Volvo|C40 Recharge": 22
 , "MG|ZS EV": 21
-, "Volvo|C40 Recharge": 21
 , "Fisker|Ocean": 20
 , "Opel|Vivaro-e": 20
 , "Citroën|ë-C4": 17
 , "Jeep|Avenger EV": 16
+, "Mercedes-Benz|EQA": 16
 , "Fiat|500e": 15
 , "Maxus|Euniq 6": 15
-, "Mercedes-Benz|EQA": 15
 , "Mercedes-Benz|eVito": 12
 , "Opel|Corsa-e": 12
 , "Peugeot|e-Expert": 11
@@ -2016,6 +2016,9 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 8
 , "Mercedes-Benz|EQS": 8
 , "Toyota|Proace Electric": 8
+, "Citroën|ë-Jumpy": 7
+, "Mini|Cooper SE Electric": 7
+, "Porsche|Taycan": 7
 });
 
 db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf TODO: numbers per brand wanted",
