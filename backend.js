@@ -197,7 +197,7 @@ var db = {
     });
   },
 
-  getValue: function(value, defaultValue) {
+  getValueOrDefault: function(value, defaultValue) {
     if (value === undefined)
       return defaultValue;
     return value;
@@ -894,7 +894,7 @@ var db = {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
 
-  queryDataSets: function(chartConfig, dsType) {
+  queryDatasets: function(chartConfig, dsType) {
     // Returns datasets for chart
     const countryValues = chartConfig.country.split(",");
     var filterCountryIds = [];
@@ -1243,7 +1243,7 @@ var db = {
     return hints;
   },
 
-  getCategoriesFromDataSets: function(chartConfig, datasets, sortByName = false) {
+  getCategoriesFromDatasets: function(chartConfig, datasets, sortByName = false) {
     // Sort categories and limit count
     var categories = datasets.categories;
     var seriesRows = datasets.seriesRows;
@@ -1286,6 +1286,13 @@ var db = {
       if (count == maxSeries && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)
         break;
     }
+
+    // Fill gaps in month/quarters
+    if (chartConfig.xProperty == this.xProperties.month)
+      this.fillMonthCategoryGaps(result);
+    else if (chartConfig.xProperty == this.xProperties.quarter)
+      this.fillQuarterCategoryGaps(result);
+
     return result;
   },
 
@@ -1433,156 +1440,11 @@ var db = {
     return false;
   },
 
-  queryChartData: function(chartConfig, sortByName, isSingleChart) {
-    // Returns the data for a spedific view
-    var result = {};
-    result.series = [];
-
-    var seriesRows;
-    if (chartConfig.metric == this.metrics.salesAll) {
-      var datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
-      seriesRows = datasets.seriesRows;
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
-      result.sources = datasets.sources;
-      result.hints = datasets.hints;
-    } else if (chartConfig.metric == this.metrics.salesElectric) {
-      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-      seriesRows = datasets.seriesRows;
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
-      result.sources = datasets.sources;
-      result.hints = datasets.hints;
-    } else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric)) {
-      var chartConfigForRatio = this.cloneObject(chartConfig);
-      if (chartConfig.metric == this.metrics.ratioElectric) {
-        chartConfigForRatio.detailLevel = this.detailLevels.total;
-        chartConfigForRatio.company = this.companyOptions.all;
-        chartConfigForRatio.brand = this.brandOptions.all;
-        chartConfigForRatio.model = this.modelOptions.all;
-      }
-      var datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-      var datasetsForRatio = this.queryDataSets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
-      seriesRows = datasets.seriesRows;
-      result.sources = datasets.sources;
-      for (const i in datasetsForRatio.sources) {
-        if (result.sources[i] == null)
-          result.sources[i] = datasetsForRatio.sources[i];
-      }
-      result.hints = datasets.hints;
-      var valueExists = false;
-      for (const seriesName in seriesRows) {
-        var valuesForRatio = {};
-        for (const i in datasets.categories) {
-          const category = datasets.categories[i];
-          var value = 0;
-          if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && this.isSingleOrCombinedCountry(chartConfigForRatio)) {
-            for (const seriesNameInner in datasetsForRatio.seriesRows) {
-              value = value + this.getValue(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
-            }
-          }
-          else if (datasetsForRatio.seriesRows[this.singleSeriesName] != null)
-            value = value + this.getValue(datasetsForRatio.seriesRows[this.singleSeriesName][category], 0);
-          else if (datasetsForRatio.seriesRows[seriesName] != null)
-            value = value + this.getValue(datasetsForRatio.seriesRows[seriesName][category], 0);
-          valuesForRatio[category] = value;
-        }
-        for (const i in datasets.categories) {
-          const category = datasets.categories[i];
-          var value = this.getValue(seriesRows[seriesName][category], null);
-          if (valuesForRatio[category] == 0)
-            seriesRows[seriesName][category] = null;
-          else {
-            var val = value / valuesForRatio[category] * 100;
-            if (val > 100) {
-              console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
-              val = 100;
-            }
-            seriesRows[seriesName][category] = val;
-            valueExists = true;
-          }
-        }
-      }
-      if (!valueExists)
-        seriesRows = [];
-      result.categories = this.getCategoriesFromDataSets(chartConfig, {"categories": datasets.categories, "seriesRows": seriesRows}, sortByName);
-    } else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
-      var chartConfigForSum = this.cloneObject(chartConfig);
-      if (this.isTimeXProperty(chartConfig)) {
-        if (chartConfig.detailLevel == this.detailLevels.company)
-          chartConfigForSum.company = this.companyOptions.all;
-        if (chartConfig.detailLevel == this.detailLevels.brand || chartConfig.brand == chartConfig.company)
-          chartConfigForSum.brand = this.brandOptions.all;
-        chartConfigForSum.model = this.modelOptions.all;
-      }
-      var datasets;
-      var datasetsForSum;
-      if (chartConfig.metric == this.metrics.shareElectric) {
-        datasets = this.queryDataSets(chartConfig, this.dsTypes.ElectricCarsByModel);
-        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
-      } else {
-        datasets = this.queryDataSets(chartConfig, this.dsTypes.AllCarsByBrand);
-        datasetsForSum = this.queryDataSets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
-      }
-      seriesRows = datasets.seriesRows;
-      const seriesRowsKeys = Object.keys(seriesRows);
-      if (seriesRowsKeys.length == 1 && seriesRowsKeys[0] == "other") {
-        seriesRows = []; // market split with only 1 series is not useful
-      }
-      result.categories = this.getCategoriesFromDataSets(chartConfig, datasets, sortByName);
-      result.sources = datasets.sources;
-      result.hints = datasets.hints;
-
-      var sums = {};
-      const isSumPerSeries = this.isCompanyBrandModelXProperty(chartConfig);
-      if (isSumPerSeries) {
-        // sum per series
-        for (const seriesName in datasets.seriesRows) {
-          var sum = 0;
-          for (const i in datasetsForSum.categories) {
-            const category = datasetsForSum.categories[i];
-            sum = sum + this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
-          }
-          sums[seriesName] = sum;
-        }
-      } else {
-        // sum per category
-        for (const i in datasets.categories) {
-          const category = datasets.categories[i];
-          var sum = 0;
-          for (const seriesName in datasetsForSum.seriesRows) {
-            sum = sum + this.getValue(datasetsForSum.seriesRows[seriesName][category], 0);
-          }
-          sums[category] = sum;
-        }
-      }
-      for (const seriesName in seriesRows) {
-        for (const i in datasets.categories) {
-          const category = datasets.categories[i];
-          var value = this.getValue(seriesRows[seriesName][category], null);
-          var sum;
-          if (isSumPerSeries)
-            sum = sums[seriesName];
-          else if (this.isSingleOrCombinedCountry(chartConfig))
-            sum = sums[category];
-          else {
-            // sum per series and category
-            const rows = datasetsForSum.seriesRows[seriesName];
-            if (rows != null)
-              sum = this.getValue(rows[category], 0);
-          }
-
-          if (sum != 0)
-            seriesRows[seriesName][category] = value / sum * 100;
-        }
-      }
-    }
-
-    // Fill gaps in month/quarters
-    if (chartConfig.xProperty == this.xProperties.month)
-      this.fillMonthCategoryGaps(result.categories);
-    else if (chartConfig.xProperty == this.xProperties.quarter)
-      this.fillQuarterCategoryGaps(result.categories);
+  queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, result) {
+    // Creates the chart series based on 'seriesRows' and assigns them to 'result'
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
+    result.series = [];
     var seriesByName = {};
     var seriesNamesInOrder = [];
     var seriesSortValues = {};
@@ -1595,7 +1457,7 @@ var db = {
 
       for (const i in result.categories) {
         const category = result.categories[i];
-        var value = this.getValue(seriesRows[seriesName][category], null);
+        var value = this.getValueOrDefault(seriesRows[seriesName][category], null);
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
@@ -1654,8 +1516,168 @@ var db = {
 
     if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
       result.series.push(otherSeries);
+  },
 
+  queryChartData_absolute: function(chartConfig, sortByName, isSingleChart) {
+    // Queries the data for one chart for the metrics salesAll and salesElectric
+    var datasets;
+    if (chartConfig.metric == this.metrics.salesAll)
+      datasets = this.queryDatasets(chartConfig, this.dsTypes.AllCarsByBrand);
+    else
+      datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
+    var seriesRows = datasets.seriesRows;
+    var result = {};
+    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
+    result.sources = datasets.sources;
+    result.hints = datasets.hints;
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
     return result;
+  },
+
+  queryChartData_ratio: function(chartConfig, sortByName, isSingleChart) {
+    // Queries the data for one chart for the metrics ratioElectric and ratioElectricWithinCompanyOrBrand
+    var chartConfigForRatio = this.cloneObject(chartConfig);
+    if (chartConfig.metric == this.metrics.ratioElectric) {
+      chartConfigForRatio.detailLevel = this.detailLevels.total;
+      chartConfigForRatio.company = this.companyOptions.all;
+      chartConfigForRatio.brand = this.brandOptions.all;
+      chartConfigForRatio.model = this.modelOptions.all;
+    }
+    var datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
+    var datasetsForRatio = this.queryDatasets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
+    var seriesRows = datasets.seriesRows;
+    var result = {};
+    result.sources = datasets.sources;
+    for (const i in datasetsForRatio.sources) {
+      if (result.sources[i] == null)
+        result.sources[i] = datasetsForRatio.sources[i];
+    }
+    result.hints = datasets.hints;
+    var valueExists = false;
+    for (const seriesName in seriesRows) {
+      var valuesForRatio = {};
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
+        var value = 0;
+        if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && this.isSingleOrCombinedCountry(chartConfigForRatio)) {
+          for (const seriesNameInner in datasetsForRatio.seriesRows) {
+            value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
+          }
+        }
+        else if (datasetsForRatio.seriesRows[this.singleSeriesName] != null)
+          value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[this.singleSeriesName][category], 0);
+        else if (datasetsForRatio.seriesRows[seriesName] != null)
+          value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[seriesName][category], 0);
+        valuesForRatio[category] = value;
+      }
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
+        var value = this.getValueOrDefault(seriesRows[seriesName][category], null);
+        if (valuesForRatio[category] == 0)
+          seriesRows[seriesName][category] = null;
+        else {
+          var val = value / valuesForRatio[category] * 100;
+          if (val > 100) {
+            console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
+            val = 100;
+          }
+          seriesRows[seriesName][category] = val;
+          valueExists = true;
+        }
+      }
+    }
+    if (!valueExists)
+      seriesRows = [];
+    datasets.seriesRows = seriesRows;
+    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
+    return result;
+  },
+
+  queryChartData_share: function(chartConfig, sortByName, isSingleChart) {
+    // Queries the data for one chart for the metrics shareElectric and shareAll
+    var chartConfigForSum = this.cloneObject(chartConfig);
+    if (this.isTimeXProperty(chartConfig)) {
+      if (chartConfig.detailLevel == this.detailLevels.company)
+        chartConfigForSum.company = this.companyOptions.all;
+      if (chartConfig.detailLevel == this.detailLevels.brand || chartConfig.brand == chartConfig.company)
+        chartConfigForSum.brand = this.brandOptions.all;
+      chartConfigForSum.model = this.modelOptions.all;
+    }
+    var datasets;
+    var datasetsForSum;
+    if (chartConfig.metric == this.metrics.shareElectric) {
+      datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+    } else {
+      datasets = this.queryDatasets(chartConfig, this.dsTypes.AllCarsByBrand);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
+    }
+    var seriesRows = datasets.seriesRows;
+    const seriesRowsKeys = Object.keys(seriesRows);
+    if (seriesRowsKeys.length == 1 && seriesRowsKeys[0] == "other") {
+      seriesRows = []; // market split with only 1 series is not useful
+    }
+    var result = {};
+    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
+    result.sources = datasets.sources;
+    result.hints = datasets.hints;
+
+    var sums = {};
+    const isSumPerSeries = this.isCompanyBrandModelXProperty(chartConfig);
+    if (isSumPerSeries) {
+      // sum per series
+      for (const seriesName in datasets.seriesRows) {
+        var sum = 0;
+        for (const i in datasetsForSum.categories) {
+          const category = datasetsForSum.categories[i];
+          sum = sum + this.getValueOrDefault(datasetsForSum.seriesRows[seriesName][category], 0);
+        }
+        sums[seriesName] = sum;
+      }
+    } else {
+      // sum per category
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
+        var sum = 0;
+        for (const seriesName in datasetsForSum.seriesRows) {
+          sum = sum + this.getValueOrDefault(datasetsForSum.seriesRows[seriesName][category], 0);
+        }
+        sums[category] = sum;
+      }
+    }
+    for (const seriesName in seriesRows) {
+      for (const i in datasets.categories) {
+        const category = datasets.categories[i];
+        var value = this.getValueOrDefault(seriesRows[seriesName][category], null);
+        var sum;
+        if (isSumPerSeries)
+          sum = sums[seriesName];
+        else if (this.isSingleOrCombinedCountry(chartConfig))
+          sum = sums[category];
+        else {
+          // sum per series and category
+          const rows = datasetsForSum.seriesRows[seriesName];
+          if (rows != null)
+            sum = this.getValueOrDefault(rows[category], 0);
+        }
+
+        if (sum != 0)
+          seriesRows[seriesName][category] = value / sum * 100;
+      }
+    }
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
+    return result;
+  },
+
+  queryChartData: function(chartConfig, sortByName, isSingleChart) {
+    // Queries the data for one chart
+    if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
+      return this.queryChartData_absolute(chartConfig, sortByName, isSingleChart);
+    if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
+      return this.queryChartData_ratio(chartConfig, sortByName, isSingleChart);
+    if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
+      return this.queryChartData_share(chartConfig, sortByName, isSingleChart);
   }
 };
 
