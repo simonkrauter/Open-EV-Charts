@@ -4530,4 +4530,93 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 2
 , "other": 50
 });
+
+db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2814/November_2023.xlsx",
+{ "Toyota": 1147
+, "Škoda": 998
+, "Volvo": 620
+, "Kia": 485
+, "Volkswagen": 455
+, "Tesla": 432
+, "Mercedes-Benz": 375
+, "BMW": 356
+, "Hyundai": 279
+, "Audi": 196
+, "Nissan": 176
+, "Ford": 129
+, "Peugeot": 119
+, "Citroën": 82
+, "Mazda": 82
+, "Suzuki": 78
+, "Polestar": 71
+, "Renault": 68
+, "Opel": 67
+, "Dacia": 58
+, "Mitsubishi": 54
+, "Seat": 40
+, "Cupra": 36
+, "Land Rover": 36
+, "Lexus": 27
+, "Subaru": 22
+, "Mini": 21
+, "Porsche": 17
+, "Honda": 12
+, "other": 135
+});
+
+db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model Y": 304
+, "Škoda|Enyaq": 301
+, "Volvo|XC40 Recharge pure electric": 186
+, "Volvo|C40 Recharge": 139
+, "Tesla|Model 3": 118
+, "BMW|i4": 113
+, "Hyundai|Ioniq 5": 113
+, "Audi|Q4 e-tron": 72
+, "Polestar|2": 71
+, "Mercedes-Benz|EQB": 62
+, "Hyundai|Kona Electric": 55
+, "Mercedes-Benz|EQA": 55
+, "Toyota|bZ4X": 55
+, "Volkswagen|ID.4": 53
+, "Volkswagen|ID.3": 46
+, "Kia|EV6": 44
+, "Mercedes-Benz|EQE": 42
+, "Kia|Niro EV": 37
+, "BMW|iX1": 31
+, "Volkswagen|ID.7": 30
+, "Opel|Astra Electric": 24
+, "Peugeot|e-2008": 24
+, "Mercedes-Benz|EQS": 23
+, "Nissan|Leaf": 23
+, "Audi|Q8 e-tron": 22
+, "BMW|i5": 22
+, "Cupra|Born": 20
+, "Nissan|Ariya": 16
+, "Volkswagen|ID.5": 15
+, "BMW|iX": 14
+, "Mini|Cooper SE Electric": 14
+, "Ford|Mustang Mach-E": 13
+, "Porsche|Taycan": 13
+, "Hyundai|Ioniq 6": 10
+, "Peugeot|e-308": 10
+, "Kia|EV9": 9
+, "Renault|Megane E-Tech": 8
+, "BYD|Dolphin": 7
+, "Jeep|Avenger EV": 6
+, "BMW|iX3": 5
+, "BYD|Yuan Plus": 5
+, "Citroën|ë-C4": 5
+, "Peugeot|e-Rifter": 5
+, "Tesla|Model S": 5
+, "Tesla|Model X": 5
+, "Lexus|RZ": 4
+, "Subaru|Solterra": 4
+, "Opel|Zafira-e": 3
+, "SsangYong|Korando e-Motion": 3
+, "Honda|e:Ny1": 2
+, "Mercedes-Benz|EQC": 2
+, "Peugeot|e-Expert": 2
+, "Toyota|Proace Electric": 2
+, "other": 38
 });
