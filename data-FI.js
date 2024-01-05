@@ -4523,5 +4523,11 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Lexus|RZ": 3
 , "Peugeot|e-208": 3
 , "Tesla|Model X": 3
-, "other": 60
+, "Fiat|500e": 2
+, "Jeep|Avenger EV": 2
+, "Kia|EV9": 2
+, "Opel|Corsa-e": 2
+, "Toyota|Proace Electric": 2
+, "other": 50
+});
 });
