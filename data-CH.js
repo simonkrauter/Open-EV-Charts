@@ -5627,3 +5627,113 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 15
 , "other": 229
 });
+
+db.insert(db.countries.CH, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
+{ "Volkswagen": 2483
+, "BMW": 2038
+, "Škoda": 1978
+, "Audi": 1767
+, "Mercedes-Benz": 1605
+, "Toyota": 1154
+, "Renault": 846
+, "Seat": 828
+, "Hyundai": 798
+, "Tesla": 792
+, "Dacia": 737
+, "Ford": 669
+, "Opel": 660
+, "Volvo": 617
+, "Kia": 614
+, "Fiat": 457
+, "Peugeot": 446
+, "Citroën": 348
+, "Suzuki": 340
+, "Mazda": 328
+, "Mini": 300
+, "Porsche": 264
+, "Mitsubishi": 260
+, "Jeep": 247
+, "Honda": 192
+, "Nissan": 181
+, "Land Rover": 178
+, "Subaru": 137
+, "Lexus": 118
+, "Smart": 89
+, "Alfa Romeo": 82
+, "Genesis": 57
+, "DS Automobiles": 54
+, "Polestar": 46
+, "Jaguar": 38
+, "SsangYong": 31
+, "Ferrari": 27
+, "Maserati": 25
+, "Bentley": 15
+, "Lamborghini": 15
+, "Aiways": 13
+, "JAC": 13
+, "Alpine": 11
+, "Chevrolet": 9
+, "Dodge": 8
+, "Aston Martin": 7
+, "Cadillac": 6
+, "Lucid": 5
+, "MAN": 5
+, "Lotus": 4
+, "Rolls-Royce": 4
+, "other": 59
+});
+
+db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
+{ "Škoda|Enyaq": 536
+, "Audi|Q4 e-tron": 433
+, "Tesla|Model Y": 425
+, "Tesla|Model 3": 288
+, "Volkswagen|ID.3": 215
+, "Cupra|Born": 154
+, "Volkswagen|ID.4": 146
+, "BMW|iX1": 138
+, "Volvo|XC40 Recharge pure electric": 112
+, "Fiat|500e": 111
+, "Audi|Q8 e-tron": 103
+, "Renault|Megane E-Tech": 103
+, "Mercedes-Benz|EQA": 99
+, "Opel|Mokka-e": 88
+, "Kia|Niro EV": 86
+, "Hyundai|Kona Electric": 74
+, "Kia|EV9": 73
+, "Smart|1": 66
+, "Tesla|Model S": 64
+, "Dacia|Spring": 63
+, "Volkswagen|ID.5": 62
+, "BMW|i4": 58
+, "Ford|Mustang Mach-E": 56
+, "Hyundai|Ioniq 5": 55
+, "Toyota|bZ4X": 54
+, "Citroën|ë-C4": 51
+, "Polestar|2": 46
+, "Renault|Twingo Z.E.": 46
+, "BMW|iX": 45
+, "BMW|iX3": 45
+, "Renault|Zoe": 43
+, "Volvo|C40 Recharge": 43
+, "Mercedes-Benz|EQE": 40
+, "Porsche|Taycan": 36
+, "Opel|Corsa-e": 32
+, "Jeep|Avenger EV": 30
+, "Hyundai|Ioniq 6": 29
+, "Peugeot|e-208": 26
+, "Mercedes-Benz|EQS": 25
+, "Genesis|GV60": 24
+, "Volkswagen|ID.7": 24
+, "Smart|Fortwo ED": 22
+, "Mercedes-Benz|EQB": 21
+, "Volkswagen|e-up!": 21
+, "BMW|i5": 18
+, "Nissan|Ariya": 18
+, "Genesis|GV70": 16
+, "Kia|EV6": 16
+, "Peugeot|e-308": 16
+, "Lexus|RZ": 15
+, "Mini|Cooper SE Electric": 15
+, "other": 323
+});
