@@ -2027,17 +2027,17 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/8",
 { "Tesla|Model Y": 1039
-, "Škoda|Enyaq": 368
+, "Škoda|Enyaq": 372
 , "Tesla|Model 3": 366
 , "Audi|Q4 e-tron": 271
 , "Polestar|2": 261
 , "Ford|Mustang Mach-E": 170
 , "Volkswagen|ID.4": 170
-, "Volkswagen|ID. Buzz": 120
+, "Volkswagen|ID. Buzz": 121
 , "BMW|iX1": 115
 , "Cupra|Born": 114
-, "BMW|i4": 108
-, "BMW|iX3": 105
+, "BMW|i4": 109
+, "BMW|iX3": 108
 , "Nissan|Ariya": 105
 , "MG|MG4 EV": 101
 , "Toyota|bZ4X": 100
@@ -2049,8 +2049,8 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 72
 , "Mercedes-Benz|EQE": 66
 , "Renault|Megane E-Tech": 64
+, "Volkswagen|ID.5": 61
 , "BMW|iX": 60
-, "Volkswagen|ID.5": 59
 , "Mercedes-Benz|EQB": 55
 , "Audi|Q8 e-tron": 52
 , "Hyundai|Kona Electric": 51
@@ -2071,10 +2071,11 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 18
 , "Maxus|Euniq 6": 17
 , "Peugeot|e-2008": 15
-, "Ford|other": 13
 , "Hyundai|Ioniq 6": 13
 , "Mercedes-Benz|eVito": 12
 , "JAC|e-JS4": 11
+, "Citroën|ë-Jumpy": 10
+, "Jeep|Avenger EV": 10
 });
 
 db.insert(db.countries.DK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf TODO: numbers per brand wanted",
