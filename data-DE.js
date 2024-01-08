@@ -6700,3 +6700,111 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 140
 , "other": 2295
 });
+
+db.insert(db.countries.DE, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_12.xlsx?__blob=publicationFile&v=2",
+{ "Volkswagen": 45166
+, "BMW": 23883
+, "Mercedes-Benz": 19946
+, "Audi": 19881
+, "Škoda": 14352
+, "Opel": 12742
+, "Hyundai": 9272
+, "Renault": 9023
+, "Ford": 7703
+, "Seat": 6716
+, "Fiat": 6195
+, "Volvo": 6057
+, "Dacia": 5969
+, "Cupra": 5693
+, "Toyota": 5583
+, "Kia": 4948
+, "Mazda": 4226
+, "Mini": 4142
+, "Tesla": 4001
+, "Peugeot": 3138
+, "Citroën": 2589
+, "MG": 2577
+, "Nissan": 2412
+, "Suzuki": 2207
+, "Mitsubishi": 2049
+, "Jeep": 1980
+, "Porsche": 1828
+, "Smart": 1763
+, "Land Rover": 855
+, "BYD": 701
+, "Alfa Romeo": 518
+, "Honda": 499
+, "Ora": 383
+, "Polestar": 265
+, "Lexus": 264
+, "DS Automobiles": 227
+, "Subaru": 227
+, "Jaguar": 198
+, "SsangYong": 118
+, "Genesis": 109
+, "MAN": 72
+, "Ferrari": 55
+, "Lamborghini": 50
+, "Maserati": 46
+, "Fisker": 44
+, "Iveco": 44
+, "Nio": 39
+, "Rolls-Royce": 38
+, "Alpine": 37
+, "Bentley": 33
+, "other": 1020
+});
+
+db.insert(db.countries.DE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_12.xlsx?__blob=publicationFile&v=2",
+{ "Volkswagen|ID.4/ID.5": 3456
+, "BMW|i4": 3222
+, "Škoda|Enyaq": 3185
+, "Fiat|500e": 3001
+, "BMW|iX1": 2730
+, "Tesla|Model Y": 2721
+, "Cupra|Born": 2524
+, "Opel|Corsa-e": 2287
+, "MG|MG4 EV": 1775
+, "Mini|Cooper SE Electric": 1714
+, "Volkswagen|ID.3": 1573
+, "Opel|Mokka-e": 1423
+, "Audi|Q4 e-tron": 1365
+, "Audi|Q8 e-tron": 1289
+, "BMW|iX": 1219
+, "Jeep|Avenger EV": 1203
+, "Dacia|Spring": 1137
+, "Tesla|Model 3": 1131
+, "Mercedes-Benz|EQA": 945
+, "Hyundai|Kona Electric": 936
+, "Smart|1": 914
+, "Hyundai|Ioniq 5": 887
+, "Mercedes-Benz|EQE": 843
+, "Smart|Fortwo ED": 822
+, "BMW|iX3": 704
+, "Renault|Twingo Z.E.": 593
+, "Renault|Zoe": 572
+, "Kia|Niro EV": 571
+, "Volkswagen|e-up!": 565
+, "Volvo|XC40 Recharge pure electric": 561
+, "BYD|Yuan Plus": 555
+, "Kia|EV6": 547
+, "Porsche|Taycan": 491
+, "Mercedes-Benz|EQB": 441
+, "Hyundai|Ioniq 6": 399
+, "Ora|Good Cat": 383
+, "Renault|Megane E-Tech": 327
+, "Volvo|C40 Recharge": 316
+, "Volkswagen|ID. Buzz": 296
+, "Volkswagen|ID.7": 291
+, "Polestar|2": 265
+, "MG|ZS EV": 252
+, "Audi|e-tron GT": 230
+, "BMW|i5": 208
+, "Mercedes-Benz|EQS": 207
+, "MG|MG5 EV": 201
+, "Ford|Mustang Mach-E": 178
+, "Toyota|bZ4X": 176
+, "Opel|Combo-e": 172
+, "BMW|i7": 171
+, "other": 2674
+});
