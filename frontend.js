@@ -901,7 +901,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     table.appendChild(row);
     if (showRankColumn) {
       const cell = document.createElement("TD");
-      if (horizontalBarMaxValue != 0 && category != "Other" && !category.endsWith("|other"))
+      if (category != "Other" && !category.endsWith("|other"))
         cell.appendChild(document.createTextNode(parseInt(i) + 1));
       cell.style.textAlign = "right";
       row.appendChild(cell);
