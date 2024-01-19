@@ -6452,3 +6452,109 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo Z.E.": 31
 , "other": 414
 });
+
+db.insert(db.countries.NL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/december/",
+{ "Volkswagen": 2699
+, "Tesla": 2385
+, "Toyota": 2333
+, "Kia": 2120
+, "BMW": 2050
+, "Renault": 1772
+, "Volvo": 1687
+, "Audi": 1241
+, "Škoda": 1201
+, "MG": 848
+, "Mercedes-Benz": 812
+, "Ford": 776
+, "Dacia": 769
+, "Mazda": 726
+, "Opel": 626
+, "Hyundai": 547
+, "Mini": 460
+, "Suzuki": 415
+, "Nissan": 402
+, "Peugeot": 383
+, "Seat": 344
+, "Jeep": 295
+, "Mitsubishi": 203
+, "Fiat": 172
+, "Cupra": 168
+, "Polestar": 157
+, "BYD": 137
+, "Citroën": 118
+, "Xpeng": 115
+, "Zeekr": 95
+, "Land Rover": 84
+, "Smart": 65
+, "Lynk & Co": 60
+, "Honda": 56
+, "Aiways": 46
+, "Lexus": 29
+, "Nio": 28
+, "Subaru": 26
+, "Porsche": 22
+, "Alfa Romeo": 15
+, "Lotus": 11
+, "DS Automobiles": 7
+, "Hongqi": 5
+, "Abarth": 3
+, "Jaguar": 3
+, "Lucid": 3
+, "Alpine": 2
+, "SsangYong": 1
+, "other": 55
+});
+
+db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
+{ "Tesla|Model Y": 1507
+, "Tesla|Model 3": 796
+, "Volvo|XC40 Recharge pure electric": 767
+, "MG|MG4 EV": 576
+, "Volkswagen|ID.4": 555
+, "BMW|iX1": 554
+, "BMW|i4": 416
+, "Kia|Niro EV": 411
+, "Opel|Corsa-e": 353
+, "Jeep|Avenger EV": 285
+, "Volkswagen|ID.3": 269
+, "Volkswagen|ID.5": 260
+, "Volvo|C40 Recharge": 251
+, "Renault|Megane E-Tech": 229
+, "Kia|EV6": 223
+, "Dacia|Spring": 193
+, "MG|ZS EV": 183
+, "Polestar|2": 156
+, "BMW|iX3": 150
+, "Mini|Cooper SE Electric": 149
+, "Audi|Q8 e-tron": 145
+, "Mercedes-Benz|EQB": 130
+, "Škoda|Enyaq": 130
+, "BMW|iX": 124
+, "Xpeng|G9": 112
+, "BYD|Yuan Plus": 109
+, "Hyundai|Kona Electric": 101
+, "BMW|i5": 95
+, "Mercedes-Benz|EQA": 95
+, "Cupra|Born": 90
+, "Mercedes-Benz|eVito": 86
+, "Toyota|bZ4X": 83
+, "Zeekr|001": 80
+, "Mercedes-Benz|EQE": 79
+, "Kia|EV9": 75
+, "Volvo|EX30": 74
+, "Volkswagen|ID. Buzz": 71
+, "Nissan|Leaf": 65
+, "Nissan|Ariya": 62
+, "MG|MG5 EV": 61
+, "Peugeot|e-2008": 59
+, "Peugeot|e-208": 59
+, "Audi|Q4 e-tron": 58
+, "Hyundai|Ioniq 6": 55
+, "Hyundai|Ioniq 5": 49
+, "Aiways|U5": 46
+, "Smart|1": 45
+, "Tesla|Model X": 44
+, "Opel|Vivaro-e": 43
+, "Tesla|Model S": 43
+, "other": 474
+});
