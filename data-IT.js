@@ -3155,7 +3155,12 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|600e": 5
 , "Fiat|E-Doblò": 5
 , "Renault|Zoe": 5
-, "other": 45
+, "Citroën|ë-SpaceTourer": 4
+, "Kia|EV6": 4
+, "Mazda|MX-30": 4
+, "Mercedes-Benz|EQS SUV": 4
+, "Tesla|Model S": 4
+, "other": 25
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Settembre%202023_651a9f6eedac7.pdf",
@@ -3346,5 +3351,7 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 16
 , "DS Automobiles|DS 3 Crossback E-Tense": 14
 , "Nissan|Ariya": 14
-, "other": 427
+, "BMW|iX3": 13
+, "Hyundai|Ioniq 6": 13
+, "other": 401
 });
