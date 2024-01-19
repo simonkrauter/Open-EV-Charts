@@ -6134,7 +6134,9 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 29
 , "Volkswagen|ID. Buzz": 25
 , "DS Automobiles|DS 3 Crossback E-Tense": 24
-, "other": 282
+, "Renault|Twingo Z.E.": 23
+, "Renault|Zoe": 23
+, "other": 236
 });
 
 db.insert(db.countries.NL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/september/",
@@ -6337,6 +6339,6 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 29
 , "Opel|Mokka-e": 29
 , "BMW|iX": 27
-, "Lotus|other": 26
-, "other": 305
+, "Volkswagen|ID. Buzz": 19
+, "other": 321
 });
