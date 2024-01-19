@@ -5525,7 +5525,9 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 17
 , "Smart|Fortwo ED": 17
 , "Mini|Cooper SE Electric": 16
-, "other": 238
+, "Audi|e-tron GT": 13
+, "Mercedes-Benz|eCitan": 13
+, "other": 212
 });
 
 db.insert(db.countries.CH, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
