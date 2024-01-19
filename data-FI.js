@@ -4268,7 +4268,10 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Han EV": 2
 , "Lexus|UX 300e": 2
 , "Mercedes-Benz|eVito": 2
-, "other": 24
+, "BMW|iX3": 1
+, "Jaguar|I-Pace": 1
+, "Jeep|Avenger EV": 1
+, "other": 21
 });
 
 db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2787/August_2023.xlsx",
@@ -4345,14 +4348,21 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 6
 , "Mercedes-Benz|EQC": 5
 , "BYD|Tang EV": 4
-, "Citroën|Berlingo Electric": 4
 , "Peugeot|e-208": 4
 , "Porsche|Taycan": 4
 , "Peugeot|e-Rifter": 3
 , "Subaru|Solterra": 2
 , "Tesla|Model S": 2
 , "Volkswagen|e-up!": 2
-, "other": 43
+, "BMW|iX3": 1
+, "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "Jaguar|I-Pace": 1
+, "Kia|Soul EV": 1
+, "Mazda|MX-30": 1
+, "Mercedes-Benz|EQV": 1
+, "Opel|Corsa-e": 1
+, "Toyota|Proace Electric": 1
+, "other": 39
 });
 
 db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2799/September_2023.xlsx",
@@ -4438,7 +4448,11 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 4
 , "Subaru|Solterra": 4
 , "Volkswagen|e-up!": 4
-, "other": 60
+, "BMW|i5": 3
+, "Citroën|ë-SpaceTourer": 3
+, "Mercedes-Benz|EQC": 3
+, "Opel|Combo-e": 3
+, "other": 48
 });
 
 db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2805/October_2023.xlsx",
