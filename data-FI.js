@@ -4634,3 +4634,93 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 2
 , "other": 38
 });
+
+db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2825/December_2023.xlsx",
+{ "Toyota": 846
+, "Škoda": 821
+, "Tesla": 677
+, "Volvo": 559
+, "BMW": 398
+, "Volkswagen": 389
+, "Kia": 334
+, "Mercedes-Benz": 246
+, "Hyundai": 213
+, "Audi": 189
+, "Nissan": 134
+, "Ford": 108
+, "Mazda": 106
+, "Polestar": 94
+, "Cupra": 73
+, "Dacia": 66
+, "Peugeot": 63
+, "Citroën": 57
+, "Opel": 47
+, "Renault": 43
+, "Land Rover": 39
+, "Mitsubishi": 37
+, "Suzuki": 30
+, "Seat": 26
+, "Mini": 23
+, "Subaru": 19
+, "Lexus": 18
+, "Fiat": 17
+, "Porsche": 10
+, "Honda": 1
+, "other": 117
+});
+
+db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/12",
+{ "Tesla|Model Y": 452
+, "Tesla|Model 3": 216
+, "Volvo|XC40 Recharge pure electric": 172
+, "Škoda|Enyaq": 151
+, "BMW|i4": 134
+, "Polestar|2": 94
+, "Volvo|C40 Recharge": 94
+, "Volkswagen|ID.4": 60
+, "Hyundai|Kona Electric": 55
+, "Audi|Q4 e-tron": 53
+, "Hyundai|Ioniq 5": 41
+, "BMW|iX1": 39
+, "Mercedes-Benz|EQE": 31
+, "Cupra|Born": 29
+, "Audi|Q8 e-tron": 27
+, "Kia|EV6": 27
+, "Mercedes-Benz|EQB": 26
+, "Volkswagen|ID.7": 26
+, "BMW|iX": 25
+, "BYD|Yuan Plus": 24
+, "Volvo|EX30": 24
+, "Nissan|Leaf": 21
+, "Volkswagen|ID.5": 21
+, "Kia|Niro EV": 20
+, "Volkswagen|ID.3": 19
+, "Mercedes-Benz|EQA": 18
+, "Fiat|500e": 17
+, "Kia|EV9": 17
+, "BMW|iX3": 12
+, "Toyota|bZ4X": 12
+, "BMW|i5": 11
+, "Mini|Cooper SE Electric": 10
+, "Nissan|Ariya": 9
+, "BYD|Dolphin": 8
+, "Renault|Megane E-Tech": 8
+, "Ford|Mustang Mach-E": 7
+, "Opel|Astra Electric": 7
+, "Mercedes-Benz|EQS": 6
+, "Porsche|Taycan": 6
+, "Tesla|Model X": 6
+, "Subaru|Solterra": 5
+, "Mazda|MX-30": 4
+, "Mercedes-Benz|EQC": 4
+, "Peugeot|e-2008": 4
+, "Jeep|Avenger EV": 3
+, "Lexus|UX 300e": 3
+, "Tesla|Model S": 3
+, "Toyota|Proace Electric": 3
+, "Citroën|ë-C4": 2
+, "Hyundai|Ioniq 6": 2
+, "Jaguar|I-Pace": 2
+, "Kia|Soul EV": 2
+, "other": 31
+});
