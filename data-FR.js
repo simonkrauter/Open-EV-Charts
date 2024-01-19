@@ -4804,3 +4804,58 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 511
 , "other": 8834
 });
+
+db.insert(db.countries.FR, "2023-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/12/2023_11_VP_france.pdf",
+{ "Renault": 21481
+, "Peugeot": 17957
+, "Dacia": 12182
+, "Toyota": 10823
+, "Volkswagen": 10117
+, "Citroën": 9957
+, "Tesla": 9389
+, "BMW": 5962
+, "Mercedes-Benz": 5214
+, "Kia": 4400
+, "Audi": 4394
+, "Ford": 4346
+, "Hyundai": 3963
+, "Škoda": 3882
+, "Fiat": 3449
+, "Opel": 3387
+, "Nissan": 3206
+, "Mini": 2868
+, "MG": 2679
+, "Suzuki": 1922
+, "Seat": 1602
+, "Cupra": 1463
+, "Volvo": 1373
+, "DS Automobiles": 1353
+, "Mazda": 897
+, "Honda": 610
+, "Lexus": 609
+, "Land Rover": 584
+, "Jeep": 540
+, "Alfa Romeo": 338
+, "Mitsubishi": 272
+, "Alpine": 255
+, "Smart": 248
+, "Porsche": 216
+, "Jaguar": 70
+, "Ferrari": 29
+, "Maserati": 14
+, "other": 660
+});
+
+db.insert(db.countries.FR, "2023-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/12/Barometre-immatriculation-Novembre-2023.pdf",
+{ "Tesla|Model 3": 6081
+, "Tesla|Model Y":3218
+, "Dacia|Spring": 2557
+, "MG|MG4 EV": 1871
+, "Fiat|500e": 1762
+, "Renault|Megane E-Tech": 1642
+, "Renault|Twingo Z.E.": 1059
+, "Peugeot|e-208": 993
+, "Mini|Cooper SE Electric": 811
+, "Kia|Niro EV": 717
+, "other": 10064
+});
