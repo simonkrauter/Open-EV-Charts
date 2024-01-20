@@ -1031,12 +1031,10 @@ var db = {
 
         datasetUsed = true;
       }
-      if (Object.keys(dataset.data).length == 51 && !datasetUsed) {
+      if (Object.keys(dataset.data).length >= 51 && !datasetUsed)
         maxRowsReachedAndModelNotFound = true;
-      }
-      if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country)) {
+      if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
-      }
     }
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
