@@ -305,8 +305,20 @@ var db = {
       return str.replace(/ /g, "-");
   },
 
+  isByMonth: function(chartConfig) {
+    return chartConfig.xProperty == this.xProperties.month;
+  },
+
+  isByQuarter: function(chartConfig) {
+    return chartConfig.xProperty == this.xProperties.quarter;
+  },
+
+  isByYear: function(chartConfig) {
+    return chartConfig.xProperty == this.xProperties.year;
+  },
+
   isTimeXProperty: function(chartConfig) {
-    return [this.xProperties.month, this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty);
+    return this.isByMonth(chartConfig) || this.isByQuarter(chartConfig) || this.isByYear(chartConfig);
   },
 
   isCompanyBrandModelXProperty: function(chartConfig) {
@@ -395,7 +407,7 @@ var db = {
     // time span
     var param = {};
     param.name = "timeSpan";
-    param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.year;
+    param.showAsFilter = chartConfig == null || !this.isByYear(chartConfig);
     param.options = {};
     param.options[this.timeSpanOptions.auto] = "Auto Time Span";
     param.options[this.timeSpanOptions.all] = "All Time";
@@ -515,7 +527,7 @@ var db = {
   setTimeSpanParamOptions: function(param, chartConfig) {
     if (chartConfig == null || !param.showAsFilter)
       return;
-    if (chartConfig.xProperty != this.xProperties.quarter) {
+    if (!this.isByQuarter(chartConfig)) {
       param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
       param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
     }
@@ -531,7 +543,7 @@ var db = {
       currentMonth = 12;
       currentYear--;
     }
-    if (chartConfig.xProperty != this.xProperties.quarter) {
+    if (!this.isByQuarter(chartConfig)) {
       // single month
       var year = currentYear;
       var month = currentMonth;
@@ -575,9 +587,9 @@ var db = {
 
   getRealTimeSpan: function(chartConfig) {
     if (chartConfig.timeSpan == this.timeSpanOptions.auto) {
-      if (chartConfig.xProperty == this.xProperties.year)
+      if (this.isByYear(chartConfig))
         return this.timeSpanOptions.all;
-      else if (chartConfig.xProperty == this.xProperties.quarter)
+      else if (this.isByQuarter(chartConfig))
         return this.timeSpanOptions.last3y;
       else
         return this.timeSpanOptions.last2y;
@@ -754,8 +766,8 @@ var db = {
 
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
       if (chartConfig.timeSpan.startsWith("m")
-        || (chartConfig.timeSpan.startsWith("q") && chartConfig.xProperty != this.xProperties.month)
-        || (chartConfig.timeSpan.startsWith("y") && chartConfig.xProperty == this.xProperties.year)) {
+        || (chartConfig.timeSpan.startsWith("q") && !isByMonth(chartConfig))
+        || (chartConfig.timeSpan.startsWith("y") && this.isByYear(chartConfig))) {
         chartConfig.timeSpan = params.timeSpan.defaultOption;
       }
     }
@@ -953,7 +965,7 @@ var db = {
           if (timeSpan.endsWith("y")) {
             filterYearFirst = currentYear - quantity;
             filterMonthFirst = filterMonthLast + 1;
-            if (chartConfig.xProperty == this.xProperties.quarter)
+            if (this.isByQuarter(chartConfig))
               filterMonthFirst = this.quarterToMonth(this.monthToQuarter(filterMonthFirst)); // round to quarter
             if (filterMonthFirst > 12) {
               filterYearFirst++;
@@ -988,11 +1000,11 @@ var db = {
         continue;
 
       var category = "";
-      if (chartConfig.xProperty == this.xProperties.month)
+      if (this.isByMonth(chartConfig))
         category = dataset.monthString;
-      else if (chartConfig.xProperty == this.xProperties.quarter)
+      else if (this.isByQuarter(chartConfig))
         category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-      else if (chartConfig.xProperty == this.xProperties.year)
+      else if (this.isByYear(chartConfig))
         category = dataset.year;
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
@@ -1007,9 +1019,9 @@ var db = {
         // add entry to monthsPerCountryAndTimeSpan
         if (this.isTimeXProperty(chartConfig)) {
           var timeSpan;
-          if (chartConfig.xProperty == this.xProperties.year)
+          if (this.isByYear(chartConfig))
             timeSpan = dataset.year;
-          else if (chartConfig.xProperty == this.xProperties.quarter)
+          else if (this.isByQuarter(chartConfig))
             timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
           else
             timeSpan = dataset.monthString;
@@ -1091,7 +1103,7 @@ var db = {
   },
 
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
-    if (![this.xProperties.month, this.xProperties.quarter].includes(chartConfig.xProperty))
+    if (!this.isByMonth(chartConfig) && !this.isByQuarter(chartConfig))
       return;
     if ( ![this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
       return;
@@ -1104,12 +1116,12 @@ var db = {
 
     // Check if the end of the time span is more than 15 days ago
     var date;
-    if (chartConfig.xProperty == this.xProperties.month) {
+    if (this.isByMonth(chartConfig)) {
       const parts = timeSpan.split("-", 2);
       const year = parts[0];
       const month = parts[1];
       date = new Date(year, month, 16); // end of month plus 15 days
-    } else if (chartConfig.xProperty == this.xProperties.quarter) {
+    } else if (this.isByQuarter(chartConfig)) {
       const parts = timeSpan.split(" ", 2);
       const year = parts[0];
       const quarter = parts[1].substr(1);
@@ -1121,9 +1133,9 @@ var db = {
 
     // Remove last month/quarter if it is incomplete
     var expectedNumberOfMonth;
-    if (chartConfig.xProperty == this.xProperties.month)
+    if (this.isByMonth(chartConfig))
       expectedNumberOfMonth = 1;
-    else if (chartConfig.xProperty == this.xProperties.quarter)
+    else if (this.isByQuarter(chartConfig))
       expectedNumberOfMonth = 3;
     for (const countryName in monthsPerCountryAndTimeSpan) {
       const monthsPerQuarter = monthsPerCountryAndTimeSpan[countryName];
@@ -1182,13 +1194,13 @@ var db = {
     }
 
     // incomplete year or quarter
-    if ([this.xProperties.quarter, this.xProperties.year].includes(chartConfig.xProperty)) {
+    if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
       categories.sort();
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
       const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + currentDate.getMonth()));
       var expectedNumberOfMonth;
-      if (chartConfig.xProperty == this.xProperties.quarter)
+      if (this.isByQuarter(chartConfig))
         expectedNumberOfMonth = 3;
       else
         expectedNumberOfMonth = 12;
@@ -1229,7 +1241,7 @@ var db = {
     }
 
     // monthly data is not available
-    if (chartConfig.xProperty == this.xProperties.month) {
+    if (this.isByMonth(chartConfig)) {
       for (const i in nonMonthlyCountries) {
         var hint = "Monthly data is not available.";
         if (this.isMultiCountry(chartConfig)) {
@@ -1288,9 +1300,9 @@ var db = {
     }
 
     // Fill gaps in month/quarters
-    if (chartConfig.xProperty == this.xProperties.month)
+    if (this.isByMonth(chartConfig))
       this.fillMonthCategoryGaps(result);
-    else if (chartConfig.xProperty == this.xProperties.quarter)
+    else if (this.isByQuarter(chartConfig))
       this.fillQuarterCategoryGaps(result);
 
     return result;
@@ -1317,11 +1329,11 @@ var db = {
       return "Brand";
     else if (chartConfig.xProperty == this.xProperties.company)
       return "Company";
-    else if (chartConfig.xProperty == this.xProperties.month)
+    else if (this.isByMonth(chartConfig))
       return "Month";
-    else if (chartConfig.xProperty == this.xProperties.quarter)
+    else if (this.isByQuarter(chartConfig))
       return "Quarter";
-    else if (chartConfig.xProperty == this.xProperties.year)
+    else if (this.isByYear(chartConfig))
       return "Year";
   },
 
