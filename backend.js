@@ -928,60 +928,7 @@ var db = {
     var filterModel = null;
     if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
       filterModel = chartConfig.model;
-    var filterYearFirst = null;
-    var filterYearLast = null;
-    var filterMonthFirst = null;
-    var filterMonthLast = null;
-    {
-      const timeSpan = this.getRealTimeSpan(chartConfig);
-      if (timeSpan != this.timeSpanOptions.all) {
-        if (timeSpan.startsWith("y")) {
-          filterYearFirst = parseInt(timeSpan.substr(1));
-          filterMonthFirst = 1;
-          filterYearLast = filterYearFirst;
-          filterMonthLast = 12;
-        } else if (timeSpan.startsWith("q")) {
-          filterYearFirst = parseInt(timeSpan.substr(1, 4));
-          filterMonthFirst = this.quarterToMonth(parseInt(timeSpan.substr(6, 1)));
-          filterYearLast = filterYearFirst;
-          filterMonthLast = filterMonthFirst + 2;
-        } else if (timeSpan.startsWith("m")) {
-          filterYearFirst = parseInt(timeSpan.substr(1, 4));
-          filterMonthFirst = parseInt(timeSpan.substr(6, 2));
-          filterYearLast = filterYearFirst;
-          filterMonthLast = filterMonthFirst;
-        } else if (timeSpan.endsWith("y") || timeSpan.endsWith("m")) {
-          var currentDate = new Date();
-          var currentYear = currentDate.getFullYear();
-          var currentMonth = 1 + currentDate.getMonth();
-          currentMonth--;
-          if (currentMonth < 1) {
-            currentMonth = 12;
-            currentYear--;
-          }
-          filterYearLast = currentYear;
-          filterMonthLast = currentMonth;
-          const quantity = parseInt(timeSpan.substr(0, timeSpan.length - 1));
-          if (timeSpan.endsWith("y")) {
-            filterYearFirst = currentYear - quantity;
-            filterMonthFirst = filterMonthLast + 1;
-            if (this.isByQuarter(chartConfig))
-              filterMonthFirst = this.quarterToMonth(this.monthToQuarter(filterMonthFirst)); // round to quarter
-            if (filterMonthFirst > 12) {
-              filterYearFirst++;
-              filterMonthFirst = filterMonthFirst - 12;
-            }
-          } else if (timeSpan.endsWith("m")) {
-            filterYearFirst = currentYear;
-            filterMonthFirst = currentMonth - quantity + 1;
-            if (filterMonthFirst < 1) {
-              filterYearFirst--;
-              filterMonthFirst = filterMonthFirst + 12;
-            }
-          }
-        }
-      }
-    }
+    const dateFilters = this.queryDatasets_getDateFilters(chartConfig);
 
     var seriesRows = {};
     var sources = [];
@@ -996,7 +943,7 @@ var db = {
         continue;
       if (dataset.dsType != dsType)
         continue;
-      if (filterYearFirst != null && (dataset.year < filterYearFirst || dataset.year > filterYearLast || (dataset.year == filterYearFirst && dataset.month < filterMonthFirst) || (dataset.year == filterYearLast && dataset.month > filterMonthLast)))
+      if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
         continue;
 
       var category = "";
@@ -1100,6 +1047,59 @@ var db = {
       categories: categories,
       hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound, nonMonthlyCountries)
     };
+  },
+
+  queryDatasets_getDateFilters: function(chartConfig) {
+    var dateFilters = {};
+    const timeSpan = this.getRealTimeSpan(chartConfig);
+    if (timeSpan != this.timeSpanOptions.all) {
+      if (timeSpan.startsWith("y")) {
+        dateFilters.firstYear = parseInt(timeSpan.substr(1));
+        dateFilters.firstMonth = 1;
+        dateFilters.lastYear = dateFilters.firstYear;
+        dateFilters.lastMonth = 12;
+      } else if (timeSpan.startsWith("q")) {
+        dateFilters.firstYear = parseInt(timeSpan.substr(1, 4));
+        dateFilters.firstMonth = this.quarterToMonth(parseInt(timeSpan.substr(6, 1)));
+        dateFilters.lastYear = dateFilters.firstYear;
+        dateFilters.lastMonth = dateFilters.firstMonth + 2;
+      } else if (timeSpan.startsWith("m")) {
+        dateFilters.firstYear = parseInt(timeSpan.substr(1, 4));
+        dateFilters.firstMonth = parseInt(timeSpan.substr(6, 2));
+        dateFilters.lastYear = dateFilters.firstYear;
+        dateFilters.lastMonth = dateFilters.firstMonth;
+      } else if (timeSpan.endsWith("y") || timeSpan.endsWith("m")) {
+        var currentDate = new Date();
+        var currentYear = currentDate.getFullYear();
+        var currentMonth = 1 + currentDate.getMonth();
+        currentMonth--;
+        if (currentMonth < 1) {
+          currentMonth = 12;
+          currentYear--;
+        }
+        dateFilters.lastYear = currentYear;
+        dateFilters.lastMonth = currentMonth;
+        const quantity = parseInt(timeSpan.substr(0, timeSpan.length - 1));
+        if (timeSpan.endsWith("y")) {
+          dateFilters.firstYear = currentYear - quantity;
+          dateFilters.firstMonth = dateFilters.lastMonth + 1;
+          if (this.isByQuarter(chartConfig))
+            dateFilters.firstMonth = this.quarterToMonth(this.monthToQuarter(dateFilters.firstMonth)); // round to quarter
+          if (dateFilters.firstMonth > 12) {
+            dateFilters.firstYear++;
+            dateFilters.firstMonth = dateFilters.firstMonth - 12;
+          }
+        } else if (timeSpan.endsWith("m")) {
+          dateFilters.firstYear = currentYear;
+          dateFilters.firstMonth = currentMonth - quantity + 1;
+          if (dateFilters.firstMonth < 1) {
+            dateFilters.firstYear--;
+            dateFilters.firstMonth = dateFilters.firstMonth + 12;
+          }
+        }
+      }
+    }
+    return dateFilters;
   },
 
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
