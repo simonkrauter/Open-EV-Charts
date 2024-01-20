@@ -406,6 +406,7 @@ var db = {
       param.options[this.xProperties.model] = "By Model";
     param.defaultOption = this.xProperties.quarter;
     param.showAsFilter = true;
+    param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
     result[param.name] = param;
 
     // time span
