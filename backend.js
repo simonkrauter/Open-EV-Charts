@@ -766,7 +766,7 @@ var db = {
 
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
       if (chartConfig.timeSpan.startsWith("m")
-        || (chartConfig.timeSpan.startsWith("q") && !isByMonth(chartConfig))
+        || (chartConfig.timeSpan.startsWith("q") && !this.isByMonth(chartConfig))
         || (chartConfig.timeSpan.startsWith("y") && this.isByYear(chartConfig))) {
         chartConfig.timeSpan = params.timeSpan.defaultOption;
       }
