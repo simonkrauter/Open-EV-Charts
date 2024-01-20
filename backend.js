@@ -242,6 +242,8 @@ var db = {
 
   xProperties:
   { "month": "month"
+  , "monthAvg3": "3-month-avg"
+  , "monthAvg12": "12-month-avg"
   , "quarter": "quarter"
   , "year": "year"
   , "country": "country"
@@ -306,7 +308,7 @@ var db = {
   },
 
   isByMonth: function(chartConfig) {
-    return chartConfig.xProperty == this.xProperties.month;
+    return [this.xProperties.month, this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
   isByQuarter: function(chartConfig) {
@@ -390,6 +392,8 @@ var db = {
     param.name = "xProperty";
     param.options = {};
     param.options[this.xProperties.month] = "By Month";
+    param.options[this.xProperties.monthAvg3] = "3-month Average";
+    param.options[this.xProperties.monthAvg12] = "12-month Average";
     param.options[this.xProperties.quarter] = "By Quarter";
     param.options[this.xProperties.year] = "By Year";
     if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
@@ -1096,8 +1100,15 @@ var db = {
           }
         }
       }
+      // Expand range to include data necessary for calculation of trailing average
+      if (this.isTimeSpanExtendedForAverageCalculation(chartConfig))
+        dateFilters.firstYear = dateFilters.firstYear - 1;
     }
     return dateFilters;
+  },
+
+  isTimeSpanExtendedForAverageCalculation: function(chartConfig) {
+    return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
@@ -1239,7 +1250,7 @@ var db = {
     }
 
     // monthly data is not available
-    if (this.isByMonth(chartConfig)) {
+    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty)) {
       for (const i in nonMonthlyCountries) {
         var hint = "Monthly data is not available.";
         if (this.isMultiCountry(chartConfig)) {
@@ -1447,6 +1458,8 @@ var db = {
   queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, result) {
     // Creates the chart series based on 'seriesRows' and assigns them to 'result'
 
+    const isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
+
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
     result.series = [];
     var seriesByName = {};
@@ -1458,10 +1471,16 @@ var db = {
       var newSeries = {};
       newSeries.name = seriesName;
       newSeries.data = [];
+      var averageCalculationList = [];
 
       for (const i in result.categories) {
         const category = result.categories[i];
-        var value = this.getValueOrDefault(seriesRows[seriesName][category], null);
+        const value = this.queryChartData_calculateAverageValue(chartConfig, seriesRows[seriesName][category], averageCalculationList);
+
+        // Skip first 12 months which were included for calculation of trailing average
+        if (isTimeSpanExtendedForAverageCalculation && i < 12)
+          continue;
+
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
@@ -1520,6 +1539,36 @@ var db = {
 
     if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
       result.series.push(otherSeries);
+
+    // Remove additional categories which were included for calculation of trailing average
+    if (isTimeSpanExtendedForAverageCalculation)
+      result.categories.splice(0, 12);
+  },
+
+  queryChartData_calculateAverageValue: function(chartConfig, rawValue, averageCalculationList) {
+    const value = this.getValueOrDefault(rawValue, null);
+    var averageLength = 0;
+    if (chartConfig.xProperty == this.xProperties.monthAvg3)
+      averageLength = 3
+    else if (chartConfig.xProperty == this.xProperties.monthAvg12)
+      averageLength = 12
+    else
+      return value;
+
+    averageCalculationList.push(value);
+    if (averageCalculationList.length > averageLength)
+      averageCalculationList.shift();
+    if (value === null)
+      return null;
+    var sum = 0;
+    var count = 0;
+    for (const i in averageCalculationList) {
+      if (averageCalculationList[i] != null) {
+        sum = sum + averageCalculationList[i];
+        count++;
+      }
+    }
+    return sum / count;
   },
 
   queryChartData_absolute: function(chartConfig, sortByName, isSingleChart) {
