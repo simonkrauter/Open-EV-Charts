@@ -969,11 +969,11 @@ var db = {
         const company = this.companiesByBrand[brand];
 
         // add entry to monthsPerCountryAndTimeSpan
-        if (this.isTimeXProperty(chartConfig)) {
+        if (this.isTimeXProperty(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
           var timeSpan;
-          if (this.isByYear(chartConfig))
+          if (this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("y"))
             timeSpan = dataset.year;
-          else if (this.isByQuarter(chartConfig))
+          else if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
             timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
           else
             timeSpan = dataset.monthString;
@@ -1204,22 +1204,22 @@ var db = {
     }
 
     // incomplete year or quarter
-    if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
-      categories.sort();
+    if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+      if (this.isTimeXProperty(chartConfig))
+        categories.sort();
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
       const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + currentDate.getMonth()));
       var expectedNumberOfMonth;
-      if (this.isByQuarter(chartConfig))
+      if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
         expectedNumberOfMonth = 3;
       else
         expectedNumberOfMonth = 12;
-      for (const i in categories) {
-        const timeSpan = categories[i];
-        if (timeSpan == currentYear || timeSpan == currentQuarter)
-          continue;
-        for (const countryName in monthsPerCountryAndTimeSpan) {
-          const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+      for (const countryName in monthsPerCountryAndTimeSpan) {
+        const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+        for (const timeSpan in monthsPerTimeSpan) {
+          if (timeSpan == currentYear || timeSpan == currentQuarter)
+            continue;
           if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth) {
             var hint = ""
             if (this.isMultiCountry(chartConfig))
