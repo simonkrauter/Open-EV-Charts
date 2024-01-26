@@ -4249,7 +4249,7 @@ db.insert(db.countries.NO, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 15
 , "Lexus|RZ": 14
 , "Cupra|Born": 12
-, "other": 93
+, "other": 553
 });
 
 db.insert(db.countries.NO, "2023-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2023",
