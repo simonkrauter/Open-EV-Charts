@@ -261,6 +261,8 @@ var db = {
   , "last2y": "2y"
   , "last3y": "3y"
   , "last4y": "4y"
+  , "last5y": "5y"
+  , "last6y": "6y"
   },
 
   countryOptions:
@@ -540,6 +542,8 @@ var db = {
     param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
     param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
     param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
+    param.options[this.timeSpanOptions.last5y] = "Last 5 Years";
+    param.options[this.timeSpanOptions.last6y] = "Last 6 Years";
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
     var currentMonth = 1 + currentDate.getMonth();
