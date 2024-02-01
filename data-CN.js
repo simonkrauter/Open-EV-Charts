@@ -1553,3 +1553,27 @@ db.insert(db.countries.CN, "2023-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 7343
 , "other": 235892
 });
+
+db.insert(db.countries.CN, "2023-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/01/31/25-of-new-car-sales-in-china-were-100-electric-in-2023/ TODO: numbers per brand wanted",
+{ "other": 2376923
+});
+
+db.insert(db.countries.CN, "2023-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/01/31/25-of-new-car-sales-in-china-were-100-electric-in-2023/",
+{ "Tesla|Model Y": 60055
+, "BYD|Seagull": 41012
+, "BYD|Yuan Plus": 30799
+, "Wuling|Bingo": 27458
+, "BYD|Dolphin": 26814
+, "Wuling|Hongguang Mini EV": 25015
+, "Aion|Y": 22678
+, "Tesla|Model 3": 15750
+, "Aion|S": 15216
+, "BYD|Song EV": 14011
+, "Volkswagen|ID.3": 13201
+, "BAIC|EU-Series": 12811
+, "Geely|Panda Mini EV": 12538
+, "BYD|Qin Plus EV": 11963
+, "BYD|Han EV": 8356
+, "BYD|Tang EV": 1051
+, "other": 279272
+});
