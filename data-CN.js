@@ -349,7 +349,7 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "JMC|E200": 500
 , "Changan|Eado EV": 1892
 , "Tesla|Model 3": 2000
-, "BYD|Qin Pro EV": 2936
+, "BYD|Qin EV": 2936
 , "other": 12013
 });
 
@@ -369,7 +369,7 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Baojun|E-Series": 4556
 , "Changan|Eado EV": 7340
 , "Tesla|Model 3": 6500
-, "BYD|Qin Pro EV": 3016
+, "BYD|Qin EV": 3016
 , "Great Wall Motor|Ora iQ": 564
 , "BAIC|EC-Series": 4744
 , "other": 21297
@@ -389,7 +389,7 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Great Wall Motor|Ora R1": 1677
 , "Changan|Eado EV": 682
 , "Tesla|Model 3": 1800
-, "BYD|Qin Pro EV": 1200
+, "BYD|Qin EV": 1200
 , "BAIC|EC-Series": 1935
 , "Great Wall Motor|Ora iQ": 394
 , "BAIC|EX-Series": 1631
@@ -414,7 +414,7 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 6568
 , "Tesla|Model 3": 1500
 , "BAIC|EC-Series": 2692
-, "BYD|Qin Pro EV": 1470
+, "BYD|Qin EV": 1470
 , "other": 8648
 });
 
@@ -481,7 +481,7 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "BAIC|EX-Series": 22
 , "JAC|iEV E-Series": 123
 , "BAIC|EC-Series": 662
-, "BYD|Qin Pro EV": 1623
+, "BYD|Qin EV": 1623
 , "other": 44699
 });
 
@@ -535,7 +535,7 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 { "Tesla|Model 3": 2284
 , "Aion|S": 1433
 , "MG|MG5 EV": 277
-, "BYD|Qin Pro EV": 1477
+, "BYD|Qin EV": 1477
 , "BAIC|EU-Series": 979
 , "Nio|ES6": 671
 , "MG|ZS EV": 334
@@ -554,7 +554,7 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
 { "Tesla|Model 3": 11280
-, "BYD|Qin Pro EV": 5271
+, "BYD|Qin EV": 5271
 , "BAIC|EU-Series": 4450
 , "Aion|S": 2957
 , "MG|ZS EV": 2531
@@ -575,7 +575,7 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
 { "Tesla|Model 3": 4312
-, "BYD|Qin Pro EV": 5096
+, "BYD|Qin EV": 5096
 , "Aion|S": 3586
 , "BAIC|EU-Series": 482
 , "Nio|ES6": 2907
@@ -595,7 +595,7 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
 { "Tesla|Model 3": 11468
-, "BYD|Qin Pro EV": 3201
+, "BYD|Qin EV": 3201
 , "Aion|S": 3892
 , "BAIC|EU-Series": 1506
 , "Nio|ES6": 2685
@@ -615,7 +615,7 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
 { "Tesla|Model 3": 15023
-, "BYD|Qin Pro EV": 4303
+, "BYD|Qin EV": 4303
 , "Aion|S": 3695
 , "Baojun|E-Series": 5875
 , "BAIC|EU-Series": 2339
@@ -636,7 +636,7 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html",
 { "Tesla|Model 3": 11575
-, "BYD|Qin Pro EV": 3400
+, "BYD|Qin EV": 3400
 , "Aion|S": 3685
 , "Baojun|E-Series": 3416
 , "Nio|ES6": 2610
@@ -658,7 +658,7 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
 { "Tesla|Model 3": 11811
-, "BYD|Qin Pro EV": 2437
+, "BYD|Qin EV": 2437
 , "Aion|S": 4071
 , "Baojun|E-Series": 3312
 , "Wuling|Hongguang Mini EV": 9150
@@ -686,7 +686,7 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Baojun|E-Series": 4236
 , "Chery|eQ": 3823
 , "BYD|Han EV": 3624
-, "BYD|Qin Pro EV": 3474
+, "BYD|Qin EV": 3474
 , "Nio|ES6": 3226
 , "MG|ZS EV": 2793
 , "BAIC|EU-Series": 2195
@@ -709,7 +709,7 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 4745
 , "Aion|S": 4630
 , "MG|ZS EV": 3796
-, "BYD|Qin Pro EV": 3526
+, "BYD|Qin EV": 3526
 , "Nio|ES6": 2695
 , "BYD|e2": 2598
 , "Aion|V": 2006
@@ -729,7 +729,7 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 6456
 , "Aion|S": 5084
 , "BAIC|EU-Series": 4408
-, "BYD|Qin Pro EV": 4081
+, "BYD|Qin EV": 4081
 , "MG|ZS EV": 3922
 , "Changan|Eado EV": 2741
 , "BYD|e2": 2670
@@ -750,7 +750,7 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "Chery|eQ": 7074
 , "Aion|S": 5397
 , "MG|ZS EV": 4303
-, "BYD|Qin Pro EV": 3713
+, "BYD|Qin EV": 3713
 , "MG|MG5 EV": 2877
 , "Changan|Benni EV": 2610
 , "Nio|ES6": 2505
@@ -867,7 +867,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 5916
 , "BYD|Han EV": 5802
 , "Chery|eQ": 5417
-, "BYD|Qin Plus EV": 4272
+, "BYD|Qin EV": 4272
 , "BYD|e2": 3972
 , "Nio|ES6": 3755
 , "other": 105649
@@ -883,7 +883,7 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 6601
 , "BYD|Han EV": 5592
 , "Aion|S": 5502
-, "BYD|Qin Plus EV": 5342
+, "BYD|Qin EV": 5342
 , "Chery|eQ": 5065
 , "Volkswagen|ID.4": 3867
 , "BYD|Yuan EV": 3785
@@ -898,7 +898,7 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "https://cleant
 db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
 { "Wuling|Hongguang Mini EV": 41118
 , "Tesla|Model Y": 11576
-, "BYD|Qin Plus EV": 7633
+, "BYD|Qin EV": 7633
 , "Changan|Benni EV": 7358
 , "Great Wall Motor|Ora Black Cat": 7013
 , "BYD|Han EV": 6198
@@ -918,7 +918,7 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 { "Wuling|Hongguang Mini EV": 35169
 , "Tesla|Model Y": 33033
 , "Tesla|Model 3": 19120
-, "BYD|Qin Plus EV": 8396
+, "BYD|Qin EV": 8396
 , "Changan|Benni EV": 7968
 , "BYD|Han EV": 7796
 , "Aion|S": 7679
@@ -938,7 +938,7 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsByBrand, "https://cleant
 db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
 { "Wuling|Hongguang Mini EV": 39128
 , "Tesla|Model Y": 13303
-, "BYD|Qin Plus EV": 8405
+, "BYD|Qin EV": 8405
 , "BYD|Han EV": 8287
 , "Aion|S": 8020
 , "Great Wall Motor|Ora 03": 7845
@@ -957,7 +957,7 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsByBrand, "https://cleant
 db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
 { "Wuling|Hongguang Mini EV": 40395
 , "Tesla|Model Y": 23117
-, "BYD|Qin Plus EV": 10097
+, "BYD|Qin EV": 10097
 , "BYD|Han EV": 10021
 , "BYD|Dolphin": 8800
 , "Tesla|Model 3": 8615
@@ -987,7 +987,7 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan EV": 8577
 , "Chery|QQ Ice Cream": 8390
 , "Great Wall Motor|Ora Black Cat": 8056
-, "BYD|Qin Plus EV": 7001
+, "BYD|Qin EV": 7001
 , "Aion|S": 6409
 , "Aion|Y": 6020
 , "other": 81347
@@ -1006,7 +1006,7 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Benni EV": 9852
 , "Chery|eQ1": 9412
 , "Great Wall Motor|Ora 03": 9020
-, "BYD|Qin Plus EV": 7086
+, "BYD|Qin EV": 7086
 , "Aion|S": 7049
 , "BYD|Yuan Pro": 6596
 , "Aion|Y": 6415
@@ -1023,7 +1023,7 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model Y": 18593
 , "BYD|Han EV": 8942
 , "BYD|Dolphin": 8565
-, "BYD|Qin Plus EV": 8264
+, "BYD|Qin EV": 8264
 , "Chery|QQ Ice Cream": 6442
 , "Changan|Benni EV": 5560
 , "Tesla|Model 3": 4607
@@ -1050,7 +1050,7 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 10178
 , "BYD|Yuan Plus": 10025
 , "Aion|Y": 9501
-, "BYD|Qin Plus EV": 8692
+, "BYD|Qin EV": 8692
 , "Chery|eQ1": 8240
 , "Aion|S": 6798
 , "Great Wall Motor|Ora Black Cat": 6612
@@ -1067,7 +1067,7 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 12040
 , "BYD|Han EV": 10225
 , "BYD|Yuan Plus": 10100
-, "BYD|Qin Plus EV": 7827
+, "BYD|Qin EV": 7827
 , "Chery|QQ Ice Cream": 7078
 , "Changan|Benni EV": 6692
 , "Chery|eQ1": 6086
@@ -1260,7 +1260,7 @@ db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 16827
 , "Aion|Y": 12996
 , "Changan|Lumin": 9105
-, "BYD|Qin Pro EV": 8434
+, "BYD|Qin EV": 8434
 , "Tesla|Model 3": 8397
 , "BYD|Seal": 7754
 , "BYD|Song EV": 7222
@@ -1277,7 +1277,7 @@ db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "https://cleant
 
 db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/",
 { "Tesla|Model Y": 54937
-, "BYD|Qin Pro EV": 40215
+, "BYD|Qin EV": 40215
 , "BYD|Song EV": 40114
 , "BYD|Yuan Plus": 27907
 , "BYD|Dolphin": 27687
@@ -1309,7 +1309,7 @@ db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 7756
 , "Tesla|Model 3": 13796
 , "Geely|Panda Mini EV": 10615
-, "BYD|Qin Plus EV": 8718
+, "BYD|Qin EV": 8718
 , "Changan|Lumin": 7759
 , "Great Wall Motor|Ora 03": 7097
 , "BYD|Song EV": 4600
@@ -1323,7 +1323,7 @@ db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "https://cleant
 });
 
 db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
-{ "BYD|Qin Plus EV": 42887
+{ "BYD|Qin EV": 42887
 , "BYD|Song EV": 37610
 , "Tesla|Model Y": 31054
 , "BYD|Dolphin": 30441
@@ -1355,7 +1355,7 @@ db.insert(db.countries.CN, "2023-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seagull": 16560
 , "Wuling|Hongguang Mini EV": 13763
 , "Changan|Lumin": 12640
-, "BYD|Qin Plus EV": 11420
+, "BYD|Qin EV": 11420
 , "BYD|Han EV": 11033
 , "BAIC|EU-Series": 9295
 , "BYD|Song EV": 2203
@@ -1377,7 +1377,7 @@ db.insert(db.countries.CN, "2023-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Hongguang Mini EV": 15485
 , "Aion|Y": 15404
 , "Changan|Lumin": 15262
-, "BYD|Qin Plus EV": 11455
+, "BYD|Qin EV": 11455
 , "BYD|Han EV": 11634
 , "Nio|ES6": 10252
 , "BYD|Song EV": 7590
@@ -1401,7 +1401,7 @@ db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 13892
 , "Tesla|Model 3": 13577
 , "Changan|Lumin": 11788
-, "BYD|Qin Plus EV": 11654
+, "BYD|Qin EV": 11654
 , "BYD|Han EV": 10405
 , "BYD|Song EV": 9043
 , "BYD|Tang EV": 922
@@ -1422,7 +1422,7 @@ db.insert(db.countries.CN, "2023-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 19606
 , "Wuling|Hongguang Mini EV": 16146
 , "Changan|Lumin": 14146
-, "BYD|Qin Plus EV": 11837
+, "BYD|Qin EV": 11837
 , "BYD|Han EV": 10412
 , "BYD|Song EV": 10072
 , "Geely|Panda Mini EV": 10221
@@ -1447,7 +1447,7 @@ db.insert(db.countries.CN, "2023-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|ID.3": 11812
 , "Aion|S": 11730
 , "BYD|Song EV": 10982
-, "BYD|Qin Plus EV": 9383
+, "BYD|Qin EV": 9383
 , "BYD|Han EV": 9290
 , "BYD|Tang EV": 1638
 , "other": 251473
@@ -1469,7 +1469,7 @@ db.insert(db.countries.CN, "2023-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Geely|Panda Mini EV": 15188
 , "Changan|Lumin": 14923
 , "Volkswagen|ID.3": 12040
-, "BYD|Qin Plus EV": 11900
+, "BYD|Qin EV": 11900
 , "Aion|S": 11728
 , "BYD|Song EV": 11079
 , "BYD|Han EV": 7343
@@ -1494,7 +1494,7 @@ db.insert(db.countries.CN, "2023-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volkswagen|ID.3": 13201
 , "BAIC|EU-Series": 12811
 , "Geely|Panda Mini EV": 12538
-, "BYD|Qin Plus EV": 11963
+, "BYD|Qin EV": 11963
 , "BYD|Han EV": 8356
 , "BYD|Tang EV": 1051
 , "other": 279272
