@@ -3451,7 +3451,7 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Opel": 3
 , "Cupra": 2
 , "Nissan": 2
-, "Ora": 2
+, "Great Wall Motor": 2
 , "Peugeot": 2
 , "Seat": 2
 , "Tesla": 2
@@ -3474,7 +3474,7 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|i7": 2
 , "Ford|Mustang Mach-E": 2
 , "Nissan|Leaf": 2
-, "Ora|Good Cat": 2
+, "Great Wall Motor|Ora 03": 2
 , "Tesla|Model 3": 2
 , "Volkswagen|ID.3": 2
 , "Škoda|Enyaq": 2
@@ -3612,7 +3612,7 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Polestar": 42
 , "Honda": 33
 , "DS Automobiles": 30
-, "Ora": 11
+, "Great Wall Motor": 11
 , "Jaguar": 10
 , "Subaru": 7
 , "SsangYong": 3
@@ -3648,7 +3648,7 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQE": 16
 , "BMW|iX": 15
 , "Mercedes-Benz|EQB": 14
-, "Ora|Good Cat": 11
+, "Great Wall Motor|Ora 03": 11
 , "Peugeot|e-2008": 11
 , "BMW|i7": 10
 , "Mazda|MX-30": 9
@@ -3710,7 +3710,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Jaguar": 16
 , "Subaru": 6
 , "Alfa Romeo": 5
-, "Ora": 2
+, "Great Wall Motor": 2
 , "other": 7
 });
 
@@ -3763,7 +3763,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
 , "Opel|Combo-e": 2
-, "Ora|Good Cat": 2
+, "Great Wall Motor|Ora 03": 2
 , "other": 8
 });
 
@@ -3800,7 +3800,7 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "BYD": 21
 , "Alfa Romeo": 11
 , "DS Automobiles": 11
-, "Ora": 8
+, "Great Wall Motor": 8
 , "Subaru": 5
 , "Jaguar": 4
 , "Jeep": 2
@@ -3846,7 +3846,7 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|iX": 10
 , "Peugeot|e-208": 9
 , "Renault|Zoe": 9
-, "Ora|Good Cat": 8
+, "Great Wall Motor|Ora 03": 8
 , "Volkswagen|e-up!": 8
 , "Nissan|Ariya": 7
 , "Opel|Mokka-e": 7
@@ -3897,7 +3897,7 @@ db.insert(db.countries.IE, "2023-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Subaru": 6
 , "Jaguar": 5
 , "SsangYong": 3
-, "Ora": 2
+, "Great Wall Motor": 2
 });
 
 db.insert(db.countries.IE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3980,7 +3980,7 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 6
 , "Honda": 3
 , "Lexus": 3
-, "Ora": 3
+, "Great Wall Motor": 3
 , "Subaru": 3
 , "Alfa Romeo": 2
 , "DS Automobiles": 2
@@ -4018,7 +4018,7 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|iX1": 3
 , "Kia|EV6": 3
 , "Mercedes-Benz|EQB": 3
-, "Ora|Good Cat": 3
+, "Great Wall Motor|Ora 03": 3
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
 , "Citroën|Berlingo Electric": 2
@@ -4074,7 +4074,7 @@ db.insert(db.countries.IE, "2023-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Polestar": 28
 , "Jeep": 10
 , "Jaguar": 8
-, "Ora": 4
+, "Great Wall Motor": 4
 , "Alfa Romeo": 2
 , "SsangYong": 2
 , "Subaru": 2
@@ -4351,7 +4351,7 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "DS Automobiles": 3
 , "Jaguar": 3
 , "Jeep": 2
-, "Ora": 2
+, "Great Wall Motor": 2
 });
 
 db.insert(db.countries.IE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4390,7 +4390,7 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Ford|Mustang Mach-E": 2
 , "Jeep|Avenger EV": 2
 , "Mercedes-Benz|EQB": 2
-, "Ora|Good Cat": 2
+, "Great Wall Motor|Ora 03": 2
 , "Volvo|C40 Recharge": 2
 , "Audi|e-tron GT": 1
 , "BMW|i7": 1

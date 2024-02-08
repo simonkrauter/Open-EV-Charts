@@ -5909,7 +5909,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 214
 , "Volvo|C40 Recharge": 204
 , "Audi|e-tron GT": 180
-, "Ora|Good Cat": 162
+, "Great Wall Motor|Ora 03": 162
 , "other": 1677
 });
 
@@ -6005,7 +6005,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 132
 , "Citroën|Berlingo Electric": 130
 , "Tesla|Model S": 103
-, "Ora|Good Cat": 101
+, "Great Wall Motor|Ora 03": 101
 , "Tesla|Model X": 93
 , "Nissan|Ariya": 69
 , "other": 1006
@@ -6105,7 +6105,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 293
 , "Renault|Twingo Z.E.": 237
 , "Volvo|C40 Recharge": 176
-, "Ora|Good Cat": 155
+, "Great Wall Motor|Ora 03": 155
 , "MG|MG5 EV": 138
 , "other": 1752
 });
@@ -6205,7 +6205,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 229
 , "Opel|Astra Electric": 215
 , "Audi|e-tron GT": 188
-, "Ora|Good Cat": 187
+, "Great Wall Motor|Ora 03": 187
 , "other": 2422
 });
 
@@ -6365,7 +6365,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 2852
 , "Opel|Mokka-e": 2697
 , "Audi|Q4 e-tron": 2265
-, "Ora|Good Cat": 2207
+, "Great Wall Motor|Ora 03": 2207
 , "Hyundai|Ioniq 5": 2190
 , "Mercedes-Benz|EQA": 2182
 , "Kia|EV6": 2156
@@ -6481,7 +6481,7 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 374
 , "BMW|i4": 346
 , "Porsche|Taycan": 338
-, "Ora|Good Cat": 329
+, "Great Wall Motor|Ora 03": 329
 , "Kia|Niro EV": 318
 , "Jeep|Avenger EV": 274
 , "Hyundai|Ioniq 6": 263
@@ -6577,7 +6577,7 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 426
 , "Porsche|Taycan": 416
 , "Mercedes-Benz|EQB": 414
-, "Ora|Good Cat": 411
+, "Great Wall Motor|Ora 03": 411
 , "Smart|1": 396
 , "Volkswagen|ID. Buzz": 375
 , "Hyundai|Kona Electric": 357
@@ -6682,7 +6682,7 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 441
 , "Renault|Megane E-Tech": 440
 , "BMW|iX3": 432
-, "Ora|Good Cat": 417
+, "Great Wall Motor|Ora 03": 417
 , "Porsche|Taycan": 379
 , "Kia|EV9": 313
 , "Hyundai|Ioniq 6": 311
@@ -6734,7 +6734,7 @@ db.insert(db.countries.DE, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "BYD": 701
 , "Alfa Romeo": 518
 , "Honda": 499
-, "Ora": 383
+, "Great Wall Motor": 383
 , "Polestar": 265
 , "Lexus": 264
 , "DS Automobiles": 227
@@ -6791,7 +6791,7 @@ db.insert(db.countries.DE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 491
 , "Mercedes-Benz|EQB": 441
 , "Hyundai|Ioniq 6": 399
-, "Ora|Good Cat": 383
+, "Great Wall Motor|Ora 03": 383
 , "Renault|Megane E-Tech": 327
 , "Volvo|C40 Recharge": 316
 , "Volkswagen|ID. Buzz": 296

@@ -248,7 +248,7 @@ const brandCountries =
 , "Nio": "CN"
 , "Nissan": "JP"
 , "Opel": "DE"
-, "Ora": "CN"
+, "Great Wall Motor": "CN"
 , "Peugeot": "FR"
 , "Pocco": "CN"
 , "Polestar": "SE"
