@@ -974,9 +974,12 @@ function renderTableTransposed(chartConfig, table, chartData) {
 }
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
+  // add TD
   const cell = document.createElement("TD");
   cell.style.maxWidth = Math.max(100, window.innerWidth - 170) + "px";
   row.appendChild(cell);
+
+  // check column title
   var addFlag = false;
   var countryCode;
   if (columnTitle == "Country") {
@@ -992,44 +995,49 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     const brand = parts[0];
     countryCode = getCountryCodeForCompanyOrBrand(brand);
   }
-  if (addFlag) {
-    var containerElement;
-    if (text != "Other" && !text.endsWith("|other")) {
-      // content as link
-      var newChartConfig = db.cloneObject(chartConfig);
-      const textParts = text.split("|", 2);
-      if (textParts.length > 1) {
-        newChartConfig.company = db.urlEncode(db.companiesByBrand[textParts[0]]);
-        newChartConfig.brand = db.urlEncode(textParts[0]);
-        newChartConfig.model = db.urlEncode(textParts[1]);
-        newChartConfig.detailLevel = db.detailLevels.model;
-      } else {
-        const countryId = db.countryNamesReverse[text];
-        if (countryId != null) {
-          newChartConfig.country = db.countriesCodes[countryId];
-        } else if (text in companyGroups) {
-          newChartConfig.company = db.urlEncode(text);
-        } else {
-          newChartConfig.company = db.urlEncode(db.companiesByBrand[text]);
-          newChartConfig.brand = db.urlEncode(text);
-          newChartConfig.detailLevel = db.detailLevels.brand;
-        }
-      }
-      if (!db.isTimeXProperty(newChartConfig)) {
-        newChartConfig.xProperty = "";
-        newChartConfig.timeSpan = "";
-      }
-      newChartConfig.view = null;
-      db.applyNewDefaultOptions(newChartConfig, chartConfig);
-      containerElement = createLinkToHash(db.encodeChartConfig(newChartConfig));
+
+  // set link url
+  var hasLink = false;
+  var newChartConfig = db.cloneObject(chartConfig);
+  if (addFlag && text != "Other" && !text.endsWith("|other")) {
+    hasLink = true;
+    const textParts = text.split("|", 2);
+    if (textParts.length > 1) {
+      newChartConfig.company = db.urlEncode(db.companiesByBrand[textParts[0]]);
+      newChartConfig.brand = db.urlEncode(textParts[0]);
+      newChartConfig.model = db.urlEncode(textParts[1]);
+      newChartConfig.detailLevel = db.detailLevels.model;
     } else {
-      // content without link
-      containerElement = document.createElement("SPAN");
+      const countryId = db.countryNamesReverse[text];
+      if (countryId != null) {
+        newChartConfig.country = db.countriesCodes[countryId];
+      } else if (text in companyGroups) {
+        newChartConfig.company = db.urlEncode(text);
+      } else {
+        newChartConfig.company = db.urlEncode(db.companiesByBrand[text]);
+        newChartConfig.brand = db.urlEncode(text);
+        newChartConfig.detailLevel = db.detailLevels.brand;
+      }
     }
-    cell.appendChild(containerElement);
+    if (!db.isTimeXProperty(newChartConfig)) {
+      newChartConfig.xProperty = "";
+      newChartConfig.timeSpan = "";
+    }
+    newChartConfig.view = null;
+    db.applyNewDefaultOptions(newChartConfig, chartConfig);
+  }
+
+  // add cell content
+  var containerElement;
+  if (hasLink)
+    containerElement = createLinkToHash(db.encodeChartConfig(newChartConfig));
+  else
+    containerElement = document.createElement("SPAN");
+  cell.appendChild(containerElement);
+  if (addFlag)
     containerElement.appendChild(createCountryFlagContainer(countryCode, db.formatSeriesNameAndCategory(text), true));
-  } else
-    cell.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+  else
+    containerElement.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
 }
 
 function renderTableValueCell(chartConfig, row, val) {
