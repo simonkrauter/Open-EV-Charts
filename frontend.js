@@ -1033,6 +1033,13 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     hasLink = true;
     newChartConfig.xProperty = db.xProperties.month;
     newChartConfig.timeSpan = db.unformatQuarter(text);
+  } else if (columnTitle == "Month") {
+    hasLink = true;
+    if (chartConfig.metric == db.metrics.salesAll)
+      newChartConfig.xProperty = db.xProperties.company;
+    else
+      newChartConfig.xProperty = db.xProperties.model;
+    newChartConfig.timeSpan = "m" + text;
   }
 
   // add cell content
