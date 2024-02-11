@@ -1025,6 +1025,14 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     }
     newChartConfig.view = null;
     db.applyNewDefaultOptions(newChartConfig, chartConfig);
+  } else if (columnTitle == "Year") {
+    hasLink = true;
+    newChartConfig.xProperty = db.xProperties.month;
+    newChartConfig.timeSpan = "y" + text;
+  } else if (columnTitle == "Quarter") {
+    hasLink = true;
+    newChartConfig.xProperty = db.xProperties.month;
+    newChartConfig.timeSpan = db.unformatQuarter(text);
   }
 
   // add cell content
