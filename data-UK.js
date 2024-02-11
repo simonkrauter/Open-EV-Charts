@@ -1943,7 +1943,7 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Maserati": 108
 , "Chevrolet": 97
 , "Mitsubishi": 70
-, "Great Wall Motor": 68
+, "GWM": 68
 , "Dodge": 54
 , "Opel": 24
 , "Cadillac": 12
@@ -2046,7 +2046,7 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Alfa Romeo": 385
 , "Genesis": 361
 , "Maserati": 318
-, "Great Wall Motor": 214
+, "GWM": 214
 , "Abarth": 102
 , "Mitsubishi": 80
 , "Smart": 72
@@ -2107,7 +2107,7 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID. Buzz": 309
 , "Vauxhall|Vivaro-e": 269
 , "Genesis|GV60": 240
-, "Great Wall Motor|Ora 03": 214
+, "GWM|Ora 03": 214
 , "Toyota|bZ4X": 210
 , "Lexus|UX 300e": 201
 , "Mercedes-Benz|EQS": 163
@@ -2156,7 +2156,7 @@ db.insert(db.countries.UK, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Maserati": 230
 , "Abarth": 189
 , "Smart": 88
-, "Great Wall Motor": 84
+, "GWM": 84
 , "Mitsubishi": 78
 , "BYD": 74
 , "Chevrolet": 53
@@ -2263,7 +2263,7 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "SsangYong": 406
 , "Abarth": 388
 , "Bentley": 379
-, "Great Wall Motor": 370
+, "GWM": 370
 , "BYD": 337
 , "Ferrari": 267
 , "Aston Martin": 256
@@ -2318,7 +2318,7 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|e-208": 533
 , "MG|MG5 EV": 441
 , "Vauxhall|Vivaro-e": 407
-, "Great Wall Motor|Ora 03": 370
+, "GWM|Ora 03": 370
 , "Volkswagen|ID. Buzz": 358
 , "Nissan|Ariya": 350
 , "Mazda|MX-30": 315

@@ -4222,7 +4222,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 193
 , "Lexus": 178
 , "Opel": 154
-, "Great Wall Motor": 146
+, "GWM": 146
 , "Citroën": 139
 , "Subaru": 127
 , "Suzuki": 102
@@ -4267,7 +4267,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model X": 187
 , "BMW|i4": 172
 , "Tesla|Model 3": 157
-, "Great Wall Motor|Ora 03": 146
+, "GWM|Ora 03": 146
 , "Hyundai|Ioniq 5": 145
 , "Porsche|Taycan": 142
 , "Mercedes-Benz|EQA": 140
@@ -4327,7 +4327,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 25
 , "Land Rover": 23
 , "BYD": 18
-, "Great Wall Motor": 10
+, "GWM": 10
 , "Chevrolet": 5
 , "Alfa Romeo": 4
 , "Jaguar": 4
@@ -4380,7 +4380,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|Soul EV": 12
 , "Hyundai|Kona Electric": 11
 , "BMW|i7": 10
-, "Great Wall Motor|Ora 03": 10
+, "GWM|Ora 03": 10
 , "BYD|Yuan Plus": 9
 , "Mercedes-Benz|EQV": 9
 , "BYD|Han EV": 8
@@ -4430,7 +4430,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Hongqi": 4
 , "Jeep": 3
 , "Chevrolet": 2
-, "Great Wall Motor": 2
+, "GWM": 2
 , "Cadillac": 1
 , "other": 183
 });
@@ -4526,7 +4526,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 33
 , "Nio": 23
 , "Hongqi": 19
-, "Great Wall Motor": 11
+, "GWM": 11
 , "Jaguar": 10
 , "Jeep": 5
 , "Chevrolet": 3
@@ -4624,7 +4624,7 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 24
 , "Land Rover": 20
 , "Nio": 14
-, "Great Wall Motor": 12
+, "GWM": 12
 , "Chevrolet": 9
 , "DS Automobiles": 7
 , "Cadillac": 2
@@ -4679,7 +4679,7 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|Ariya": 19
 , "Ford|Mustang Mach-E": 15
 , "Lexus|RZ": 12
-, "Great Wall Motor|Ora 03": 12
+, "GWM|Ora 03": 12
 , "Peugeot|e-Expert": 12
 , "Opel|Mokka-e": 10
 , "Subaru|Solterra": 10
@@ -4725,7 +4725,7 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Alfa Romeo": 35
 , "Nio": 20
 , "Land Rover": 17
-, "Great Wall Motor": 12
+, "GWM": 12
 , "Chevrolet": 10
 , "Hongqi": 4
 , "Jaguar": 1
@@ -4819,7 +4819,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 159
 , "Honda": 62
 , "DS Automobiles": 40
-, "Great Wall Motor": 29
+, "GWM": 29
 , "Nio": 24
 , "Jeep": 18
 , "Land Rover": 14
@@ -4869,7 +4869,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|Ariya": 37
 , "MG|MG5 EV": 33
 , "Opel|Mokka-e": 29
-, "Great Wall Motor|Ora 03": 29
+, "GWM|Ora 03": 29
 , "Fiat|500e": 22
 , "Mercedes-Benz|EQV": 20
 , "Lexus|RZ": 18
@@ -4916,7 +4916,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 70
 , "Mitsubishi": 58
 , "Land Rover": 20
-, "Great Wall Motor": 19
+, "GWM": 19
 , "DS Automobiles": 7
 , "Alfa Romeo": 6
 , "Nio": 6
@@ -4970,7 +4970,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Peugeot|e-208": 27
 , "Kia|Soul EV": 22
 , "Peugeot|e-2008": 21
-, "Great Wall Motor|Ora 03": 19
+, "GWM|Ora 03": 19
 , "Tesla|Model S": 17
 , "MG|ZS EV": 16
 , "MG|Marvel R": 13
@@ -5012,7 +5012,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 130
 , "Suzuki": 124
 , "Honda": 109
-, "Great Wall Motor": 67
+, "GWM": 67
 , "Nio": 27
 , "Mitsubishi": 25
 , "Xpeng": 25
@@ -5054,7 +5054,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX3": 81
 , "Mini|Cooper SE Electric": 77
 , "Volkswagen|ID.5": 70
-, "Great Wall Motor|Ora 03": 67
+, "GWM|Ora 03": 67
 , "Mercedes-Benz|EQA": 62
 , "Volkswagen|ID. Buzz": 59
 , "BMW|iX": 58
@@ -5111,7 +5111,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 156
 , "Honda": 123
 , "Suzuki": 114
-, "Great Wall Motor": 100
+, "GWM": 100
 , "Xpeng": 52
 , "DS Automobiles": 27
 , "Land Rover": 22
@@ -5154,7 +5154,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX1": 122
 , "Hyundai|Ioniq 5": 115
 , "Toyota|bZ4X": 113
-, "Great Wall Motor|Ora 03": 100
+, "GWM|Ora 03": 100
 , "BMW|iX3": 93
 , "Mercedes-Benz|EQA": 91
 , "Volkswagen|ID. Buzz": 89
@@ -5211,7 +5211,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Lexus": 171
 , "Suzuki": 170
 , "Seat": 159
-, "Great Wall Motor": 141
+, "GWM": 141
 , "Mitsubishi": 126
 , "Fiat": 122
 , "Honda": 105
@@ -5249,7 +5249,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQE": 244
 , "Volkswagen|ID.3": 178
 , "Mercedes-Benz|EQB": 152
-, "Great Wall Motor|Ora 03": 141
+, "GWM|Ora 03": 141
 , "Hyundai|Ioniq 5": 139
 , "BMW|iX1": 99
 , "Volkswagen|ID.5": 96
@@ -5314,7 +5314,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 184
 , "Porsche": 137
 , "Opel": 130
-, "Great Wall Motor": 128
+, "GWM": 128
 , "Fiat": 104
 , "Honda": 83
 , "Xpeng": 56
@@ -5362,7 +5362,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.3": 195
 , "Mercedes-Benz|EQE": 137
 , "Mini|Cooper SE Electric": 135
-, "Great Wall Motor|Ora 03": 128
+, "GWM|Ora 03": 128
 , "Mercedes-Benz|EQA": 125
 , "Mercedes-Benz|EQB": 97
 , "Cupra|Born": 96
@@ -5424,7 +5424,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 206
 , "Mini": 179
 , "Suzuki": 171
-, "Great Wall Motor": 170
+, "GWM": 170
 , "Xpeng": 73
 , "Fiat": 72
 , "Honda": 50
@@ -5468,7 +5468,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX1": 211
 , "BYD|Yuan Plus": 211
 , "Volkswagen|ID.5": 211
-, "Great Wall Motor|Ora 03": 170
+, "GWM|Ora 03": 170
 , "Hyundai|Ioniq 5": 159
 , "Cupra|Born": 128
 , "MG|MG4 EV": 106
