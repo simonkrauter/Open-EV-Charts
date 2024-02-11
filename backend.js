@@ -215,6 +215,12 @@ var db = {
     return year + " Q" + quarter;
   },
 
+  unformatQuarter: function(text) {
+    // Converts "2024 Q1" to "q2024-1"
+    const parts = text.split(" ");
+    return "q" + parts[0] + "-" + parts[1].substr(1);
+  },
+
   monthToQuarter: function(month) {
     return Math.ceil(month / 3);
   },
