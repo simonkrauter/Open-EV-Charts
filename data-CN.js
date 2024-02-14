@@ -101,19 +101,18 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsByBrand, "http://ev-sale
 });
 
 db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html",
-{ "BAIC|EC-Series": 3
-, "JAC|iEV7 S/E": 1637
-, "BYD|e5": 4047
-, "JMC|E200": 3638
-, "BAIC|EX-Series": 5708
-, "Chery|eQ": 4434
-, "Geely|Emgrand EV": 2433
-, "Baojun|E-Series": 873
+{ "BAIC|EX-Series": 5708
 , "MG|MG5 EV": 4661
-, "Hawtai|EV160": 2965
+, "Chery|eQ": 4434
+, "BYD|e5": 4047
 , "BAIC|EU-Series": 3944
+, "JMC|E200": 3638
+, "Hawtai|EV160": 2965
+, "Geely|Emgrand EV": 2433
 , "Tesla|Model X": 2350
-, "other": 21140
+, "JAC|iEV7 S/E": 1637
+, "Baojun|E-Series": 873
+, "other": 21143
 });
 
 db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html TODO: numbers per brand wanted",
@@ -467,22 +466,21 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsByBrand, "http://ev-sale
 });
 
 db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
-{ "BAIC|EU-Series": 6258
+{ "Baojun|E-Series": 9809
+, "BAIC|EU-Series": 6258
+, "Aion|S": 5538
+, "Tesla|Model 3": 4658
 , "BYD|Yuan EV": 2399
-, "Baojun|E-Series": 9809
-, "Chery|eQ": 1861
 , "Geely|Emgrand EV": 2104
-, "BYD|e5": 121
 , "GWM|Ora R1": 2001
 , "MG|MG5 EV": 2001
-, "Tesla|Model 3": 4658
-, "Aion|S": 5538
 , "Changan|Eado EV": 1914
-, "BAIC|EX-Series": 22
-, "JAC|iEV E-Series": 123
-, "BAIC|EC-Series": 662
+, "Chery|eQ": 1861
 , "BYD|Qin EV": 1623
-, "other": 44699
+, "BAIC|EC-Series": 662
+, "JAC|iEV E-Series": 123
+, "BYD|e5": 121
+, "other": 44721
 });
 
 db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html TODO: numbers per brand wanted",
@@ -658,20 +656,19 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://ev-sale
 
 db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
 { "Tesla|Model 3": 11811
-, "BYD|Qin EV": 2437
-, "Aion|S": 4071
-, "Baojun|E-Series": 3312
 , "Wuling|Hongguang Mini EV": 9150
-, "Nio|ES6": 2840
+, "Aion|S": 4071
 , "GWM|Ora R1": 3748
+, "Baojun|E-Series": 3312
 , "Chery|eQ": 3307
-, "BAIC|EU-Series": 1831
-, "BYD|Yuan EV": 1015
-, "BYD|e2": 1557
+, "Nio|ES6": 2840
+, "BYD|Qin EV": 2437
 , "MG|ZS EV": 1927
+, "BAIC|EU-Series": 1831
+, "BYD|e2": 1557
+, "BYD|Yuan EV": 1015
 , "BYD|Song EV": 849
-, "MG|MG5 EV": 23
-, "other": 28608
+, "other": 28631
 });
 
 db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html TODO: numbers per brand wanted",
@@ -1380,10 +1377,9 @@ db.insert(db.countries.CN, "2023-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 11455
 , "BYD|Han EV": 11634
 , "Nio|ES6": 10252
-, "BYD|Song EV": 7590
 , "Volkswagen|ID.3": 9093
-, "BYD|Tang EV": 219
-, "other": 203982
+, "BYD|Song EV": 7590
+, "other": 204001
 });
 
 db.insert(db.countries.CN, "2023-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/10/02/39-plugin-vehicle-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
