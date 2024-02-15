@@ -1490,6 +1490,8 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
     const dataset = db.datasets[j];
     if (model != null && dataset.dsType != db.dsTypes.ElectricCarsByModel)
       continue;
+    if (firstMonthString != "" && dataset.monthString >= firstMonthString && lastMonthString != "" && dataset.monthString <= lastMonthString)
+      continue;
     for (const key in dataset.data) {
       const parts = key.split("|", 2);
       if (parts[0] != brand)
