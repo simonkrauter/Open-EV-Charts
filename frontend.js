@@ -1361,7 +1361,7 @@ function renderCompaniesStatusPage() {
   {
     const tr = document.createElement("TR");
     table.appendChild(tr);
-    const columns = ["Company", "Brand", "Annual All Cars Sales", "Annual EV Sales"];
+    const columns = ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual EV Sales"];
     for (const i in columns) {
       const th = document.createElement("TH");
       tr.appendChild(th);
@@ -1401,6 +1401,7 @@ function renderCompaniesStatusPage() {
         const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
         td.appendChild(a);
         a.appendChild(createCountryFlagContainer(countryCode, brand, true));
+        addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
         addAnnualSalesTd(tr, db.dsTypes.AllCarsByBrand, brand);
         addAnnualSalesTd(tr, db.dsTypes.ElectricCarsByModel, brand);
         if (j < brands.length - 1) {
@@ -1410,6 +1411,7 @@ function renderCompaniesStatusPage() {
       }
     } else {
       companyTd.colSpan = 2;
+      addBrandOrModelAvailableDataTimeSpanTd(firstTr, company);
       addAnnualSalesTd(firstTr, db.dsTypes.AllCarsByBrand, company);
       addAnnualSalesTd(firstTr, db.dsTypes.ElectricCarsByModel, company);
     }
@@ -1422,7 +1424,7 @@ function renderModelsStatusPage() {
   {
     const tr = document.createElement("TR");
     table.appendChild(tr);
-    const columns = ["Brand", "Model", "Annual EV Sales"];
+    const columns = ["Brand", "Model", "Available Data", "Annual EV Sales"];
     for (const i in columns) {
       const th = document.createElement("TH");
       tr.appendChild(th);
@@ -1471,6 +1473,7 @@ function renderModelsStatusPage() {
       const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
       td.appendChild(a);
       a.appendChild(document.createTextNode(model));
+      addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model);
       addAnnualSalesTd(tr, db.dsTypes.ElectricCarsByModel, brand, brand + "|" + model);
       if (j < models.length - 1) {
         tr = document.createElement("TR");
@@ -1478,6 +1481,32 @@ function renderModelsStatusPage() {
       }
     }
   }
+}
+
+function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
+  var firstMonthString = "";
+  var lastMonthString = "";
+  for (const j in db.datasets) {
+    const dataset = db.datasets[j];
+    if (model != null && dataset.dsType != db.dsTypes.ElectricCarsByModel)
+      continue;
+    for (const key in dataset.data) {
+      const parts = key.split("|", 2);
+      if (parts[0] != brand)
+        continue;
+      if (model != null && parts[1] != model)
+        continue;
+      if (firstMonthString == "" || dataset.monthString < firstMonthString)
+        firstMonthString = dataset.monthString;
+      if (lastMonthString == "" || dataset.monthString > lastMonthString)
+        lastMonthString = dataset.monthString;
+      break;
+    }
+  }
+  const td = document.createElement("TD");
+  tr.appendChild(td);
+  td.appendChild(document.createTextNode(firstMonthString + " – " + lastMonthString));
+  td.style.textAlign = "center";
 }
 
 function addAnnualSalesTd(tr, dsType, brand, brandAndModel = null) {
