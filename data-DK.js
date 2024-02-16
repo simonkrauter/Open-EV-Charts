@@ -1030,7 +1030,7 @@ db.insert(db.countries.DK, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 21
 , "Mini|Cooper SE Electric": 19
 , "Renault|Zoe": 19
-, "Citroën|Berlingo Electric": 17
+, "Citroën|ë-Berlingo Electric": 17
 , "Dacia|Spring": 17
 , "Kia|Niro EV": 16
 , "Opel|Corsa-e": 16
@@ -1084,7 +1084,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 51
 , "Peugeot|e-208": 48
 , "Volkswagen|e-up!": 45
-, "Citroën|Berlingo Electric": 44
+, "Citroën|ë-Berlingo Electric": 44
 , "Nissan|Leaf": 44
 , "Peugeot|e-2008": 44
 , "Volkswagen|ID.4": 44
@@ -1167,7 +1167,7 @@ db.insert(db.countries.DK, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 4
 , "MG|Marvel R": 4
 , "Maxus|Euniq 6": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Mercedes-Benz|EQV": 3
 , "Toyota|Proace Electric": 3
 , "BMW|i3 BEV": 2
@@ -1222,7 +1222,7 @@ db.insert(db.countries.DK, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 8
 , "Mercedes-Benz|EQV": 8
 , "Audi|e-tron GT": 6
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Maxus|other": 4
 , "Tesla|Model Y": 4
 , "Toyota|Proace Electric": 4
@@ -1279,7 +1279,7 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 10
 , "Peugeot|e-2008": 9
 , "Mini|Cooper SE Electric": 7
-, "Citroën|Berlingo Electric": 6
+, "Citroën|ë-Berlingo Electric": 6
 , "Lexus|UX 300e": 6
 , "MG|MG5 EV": 5
 , "Maxus|other": 5
@@ -1335,7 +1335,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 5
 , "Audi|e-tron GT": 4
 , "MG|Marvel R": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Jaguar|I-Pace": 3
 , "Kia|Niro EV": 3
 , "Maxus|other": 3
@@ -1387,7 +1387,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 12
 , "Porsche|Taycan": 12
 , "Volvo|C40 Recharge": 12
-, "Citroën|Berlingo Electric": 10
+, "Citroën|ë-Berlingo Electric": 10
 , "Mercedes-Benz|eVito": 9
 , "Fiat|500e": 8
 , "MG|Marvel R": 7
@@ -1450,7 +1450,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 5
 , "Aiways|U5": 4
 , "Mercedes-Benz|eVito": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Maxus|other": 3
 , "Opel|Combo-e": 3
 , "Opel|Zafira-e": 3

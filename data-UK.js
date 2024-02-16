@@ -1238,7 +1238,7 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Seat|Mii Electric": 116
 , "BMW|i4": 94
 , "Kia|Soul EV": 84
-, "Citroën|Berlingo Electric": 71
+, "Citroën|ë-Berlingo Electric": 71
 , "Nissan|e-NV200": 59
 , "Mercedes-Benz|eVito": 46
 , "other": 111
@@ -1330,7 +1330,7 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|Combo-e": 108
 , "Cupra|Born": 104
 , "Nissan|e-NV200": 60
-, "Citroën|Berlingo Electric": 46
+, "Citroën|ë-Berlingo Electric": 46
 , "Peugeot|e-Rifter": 37
 , "Mercedes-Benz|eVito": 35
 , "other": 23
@@ -1517,7 +1517,7 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Genesis|GV60": 189
 , "Smart|Forfour ED": 157
 , "Honda|e": 101
-, "Citroën|Berlingo Electric": 93
+, "Citroën|ë-Berlingo Electric": 93
 , "Smart|Fortwo ED": 63
 , "Renault|Megane E-Tech": 50
 , "Vauxhall|Combo-e": 47
@@ -1612,7 +1612,7 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Genesis|GV60": 346
 , "Toyota|bZ4X": 268
 , "Mercedes-Benz|EQE": 174
-, "Citroën|Berlingo Electric": 173
+, "Citroën|ë-Berlingo Electric": 173
 , "Mazda|MX-30": 167
 , "Smart|Fortwo ED": 158
 , "Mercedes-Benz|EQS": 154
@@ -1700,7 +1700,7 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID.5": 650
 , "Ford|Mustang Mach-E": 636
 , "Citroën|ë-C4": 532
-, "Citroën|Berlingo Electric": 500
+, "Citroën|ë-Berlingo Electric": 500
 , "Fiat|500e": 416
 , "Mercedes-Benz|EQE": 369
 , "Renault|Zoe": 331
@@ -1808,7 +1808,7 @@ db.insert(db.countries.UK, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Citroën|ë-C4": 417
 , "Mercedes-Benz|EQE": 337
 , "Volkswagen|ID. Buzz": 305
-, "Citroën|Berlingo Electric": 298
+, "Citroën|ë-Berlingo Electric": 298
 , "Genesis|GV60": 241
 , "Toyota|bZ4X": 197
 , "Mazda|MX-30": 150
@@ -1914,7 +1914,7 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mazda|MX-30": 315
 , "BYD|Yuan Plus": 310
 , "Renault|Zoe": 227
-, "Citroën|Berlingo Electric": 178
+, "Citroën|ë-Berlingo Electric": 178
 , "Jeep|Avenger EV": 165
 , "Vauxhall|Astra Electric": 162
 , "BMW|i7": 159

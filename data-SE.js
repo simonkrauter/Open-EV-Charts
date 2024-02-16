@@ -3438,7 +3438,7 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Opel|Zafira-e": 9
 , "Mazda|MX-30": 7
 , "Toyota|Proace Electric": 7
-, "Citroën|Berlingo Electric": 6
+, "Citroën|ë-Berlingo Electric": 6
 , "other": 34
 });
 
@@ -3621,7 +3621,7 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|e-tron GT": 18
 , "Mercedes-Benz|EQS": 16
 , "Mercedes-Benz|EQV": 13
-, "Citroën|Berlingo Electric": 12
+, "Citroën|ë-Berlingo Electric": 12
 , "Toyota|Proace Electric": 12
 , "Lexus|UX 300e": 11
 , "DS Automobiles|DS 3 Crossback E-Tense": 10
@@ -3812,7 +3812,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Lexus|UX 300e": 11
 , "Audi|e-tron GT": 10
 , "BMW|iX3": 10
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Mercedes-Benz|EQV": 7
 , "Mercedes-Benz|eVito": 5
 , "Honda|e": 4
@@ -3904,7 +3904,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Ioniq 5": 24
 , "Volvo|C40 Recharge": 24
 , "Toyota|Proace Electric": 19
-, "Citroën|Berlingo Electric": 13
+, "Citroën|ë-Berlingo Electric": 13
 , "Mazda|MX-30": 10
 , "Lexus|UX 300e": 5
 , "Renault|Zoe": 5
@@ -4001,7 +4001,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 15
 , "Porsche|Taycan": 7
 , "MG|MG4 EV": 6
-, "Citroën|Berlingo Electric": 5
+, "Citroën|ë-Berlingo Electric": 5
 , "DS Automobiles|DS 3 Crossback E-Tense": 5
 , "Peugeot|e-Rifter": 4
 , "Lexus|UX 300e": 3

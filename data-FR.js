@@ -59,7 +59,7 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 27
 , "Volkswagen|e-Golf": 16
 , "Volkswagen|e-up!": 14
-, "Citroën|Berlingo Electric": 14
+, "Citroën|ë-Berlingo Electric": 14
 , "Tesla|Model S": 9
 , "Nissan|e-NV200": 7
 , "Citroën|E-Mehari": 7
@@ -120,7 +120,7 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 35
 , "Hyundai|Ioniq Electric": 22
 , "Volkswagen|e-Golf": 20
-, "Citroën|Berlingo Electric": 14
+, "Citroën|ë-Berlingo Electric": 14
 , "Tesla|Model X": 13
 , "Smart|Forfour ED": 11
 , "Citroën|E-Mehari": 11
@@ -183,7 +183,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 46
 , "Volkswagen|e-Golf": 36
 , "Smart|Fortwo ED": 33
-, "Citroën|Berlingo Electric": 33
+, "Citroën|ë-Berlingo Electric": 33
 , "Volkswagen|e-up!": 30
 , "Citroën|E-Mehari": 25
 , "Nissan|e-NV200": 2
@@ -249,7 +249,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 15
 , "Smart|Forfour ED": 12
 , "Nissan|e-NV200": 8
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "other": 1
 });
 
@@ -308,7 +308,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 20
 , "Citroën|E-Mehari": 15
 , "Volkswagen|e-up!": 14
-, "Citroën|Berlingo Electric": 14
+, "Citroën|ë-Berlingo Electric": 14
 , "Smart|Forfour ED": 9
 , "Peugeot|Partner Electric": 8
 , "Nissan|e-NV200": 5
@@ -372,7 +372,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 21
 , "Volkswagen|e-up!": 18
 , "Kia|Soul EV": 18
-, "Citroën|Berlingo Electric": 10
+, "Citroën|ë-Berlingo Electric": 10
 , "Nissan|e-NV200": 8
 , "Jaguar|I-Pace": 1
 , "other": 11
@@ -433,7 +433,7 @@ db.insert(db.countries.FR, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 29
 , "Tesla|Model X": 19
 , "Citroën|E-Mehari": 16
-, "Citroën|Berlingo Electric": 14
+, "Citroën|ë-Berlingo Electric": 14
 , "Volkswagen|e-up!": 5
 , "Peugeot|Partner Electric": 5
 , "Nissan|e-NV200": 4
@@ -498,7 +498,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 19
 , "Nissan|e-NV200": 13
 , "Jaguar|I-Pace": 13
-, "Citroën|Berlingo Electric": 10
+, "Citroën|ë-Berlingo Electric": 10
 , "Volkswagen|e-up!": 8
 , "Peugeot|Partner Electric": 8
 });
@@ -560,7 +560,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 22
 , "Jaguar|I-Pace": 16
 , "Volkswagen|e-up!": 12
-, "Citroën|Berlingo Electric": 12
+, "Citroën|ë-Berlingo Electric": 12
 , "Volkswagen|e-Golf": 6
 , "Nissan|e-NV200": 6
 });
@@ -621,7 +621,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 32
 , "Tesla|Model S": 23
 , "Citroën|E-Mehari": 23
-, "Citroën|Berlingo Electric": 17
+, "Citroën|ë-Berlingo Electric": 17
 , "Volkswagen|e-up!": 16
 , "Peugeot|Partner Electric": 12
 , "Tesla|Model X": 7
@@ -687,7 +687,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 26
 , "Hyundai|Kona Electric": 22
 , "Citroën|E-Mehari": 19
-, "Citroën|Berlingo Electric": 11
+, "Citroën|ë-Berlingo Electric": 11
 , "Peugeot|Partner Electric": 8
 , "Nissan|e-NV200": 4
 , "other": 1
@@ -751,7 +751,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 26
 , "Nissan|e-NV200": 18
 , "Citroën|E-Mehari": 14
-, "Citroën|Berlingo Electric": 14
+, "Citroën|ë-Berlingo Electric": 14
 , "Peugeot|Partner Electric": 12
 , "Jaguar|I-Pace": 9
 , "other": 23
@@ -818,7 +818,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 11
 , "Peugeot|Partner Electric": 10
 , "Citroën|E-Mehari": 8
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 });
 
 db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/03/2019_02_vpfrance.pdf",
@@ -884,7 +884,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 11
 , "Nissan|e-NV200": 6
 , "Citroën|E-Mehari": 5
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 });
 
 db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/04/2019_03_vpfrance.pdf",
@@ -949,7 +949,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 21
 , "Volkswagen|e-up!": 9
 , "Nissan|e-NV200": 9
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Kia|Soul EV": 1
 });
 
@@ -1015,7 +1015,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 12
 , "Peugeot|Partner Electric": 10
 , "Kia|Soul EV": 10
-, "Citroën|Berlingo Electric": 10
+, "Citroën|ë-Berlingo Electric": 10
 , "Nissan|e-NV200": 6
 });
 
@@ -1081,7 +1081,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 13
 , "Citroën|E-Mehari": 7
 , "Peugeot|Partner Electric": 6
-, "Citroën|Berlingo Electric": 6
+, "Citroën|ë-Berlingo Electric": 6
 , "Nissan|e-NV200": 3
 });
 
@@ -1149,7 +1149,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 12
 , "Peugeot|Partner Electric": 8
 , "Mercedes-Benz|EQC": 6
-, "Citroën|Berlingo Electric": 6
+, "Citroën|ë-Berlingo Electric": 6
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/08/2019_07_vpfrance.pdf",
@@ -1215,7 +1215,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 13
 , "Nissan|e-NV200": 11
 , "Citroën|E-Mehari": 8
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Peugeot|Partner Electric": 5
 });
 
@@ -1281,7 +1281,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 10
 , "Volkswagen|e-up!": 6
 , "Nissan|e-NV200": 5
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2019/10/2019_09_vpfrance.pdf",
@@ -1345,7 +1345,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|E-Mehari": 9
 , "Peugeot|Partner Electric": 7
 , "Nissan|e-NV200": 6
-, "Citroën|Berlingo Electric": 5
+, "Citroën|ë-Berlingo Electric": 5
 , "Volkswagen|e-up!": 2
 , "Mercedes-Benz|EQC": 1
 });
@@ -1413,7 +1413,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 12
 , "Volkswagen|e-up!": 10
 , "Tesla|Model X": 9
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Tesla|Model S": 5
 , "Citroën|E-Mehari": 4
 , "Peugeot|Partner Electric": 2
@@ -1481,7 +1481,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 10
 , "Volkswagen|e-up!": 3
 , "Citroën|E-Mehari": 2
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "Peugeot|Partner Electric": 1
 , "Kia|Soul EV": 1
 });
@@ -1548,7 +1548,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 12
 , "Kia|Niro EV": 7
 , "Citroën|E-Mehari": 5
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Peugeot|e-2008": 1
 , "Peugeot|Partner Electric": 1
 , "Kia|Soul EV": 1
@@ -1618,7 +1618,7 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 21
 , "Tesla|Model X": 15
 , "Smart|Forfour ED": 14
-, "Citroën|Berlingo Electric": 8
+, "Citroën|ë-Berlingo Electric": 8
 , "Nissan|e-NV200": 7
 , "Peugeot|iOn": 6
 , "Volkswagen|e-up!": 4
@@ -1689,7 +1689,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 17
 , "Tesla|Model X": 14
 , "Nissan|e-NV200": 14
-, "Citroën|Berlingo Electric": 11
+, "Citroën|ë-Berlingo Electric": 11
 , "Jaguar|I-Pace": 9
 , "Tesla|Model S": 8
 , "Citroën|E-Mehari": 8
@@ -1765,7 +1765,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Honda|e": 3
 , "Jaguar|I-Pace": 2
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "Citroën|E-Mehari": 1
 });
 
@@ -1962,7 +1962,7 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 11
 , "Jaguar|I-Pace": 11
 , "Seat|Mii Electric": 9
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Peugeot|Partner Electric": 2
 , "Peugeot|iOn": 1
 });
@@ -2039,7 +2039,7 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 5
 , "Peugeot|iOn": 2
 , "Mercedes-Benz|eVito": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Aiways|U5": 1
 });
 
@@ -2791,7 +2791,7 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 3
 , "Tesla|Model X": 2
 , "Opel|Zafira-e": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 });
 
 db.insert(db.countries.FR, "2021-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2021/06/2021-05-vpfrance.pdf",
@@ -2963,7 +2963,7 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 28
 , "Nissan|e-NV200": 27
 , "Aiways|U5": 27
-, "Citroën|Berlingo Electric": 23
+, "Citroën|ë-Berlingo Electric": 23
 , "Hyundai|Ioniq Electric": 19
 , "Smart|Forfour ED": 12
 , "Citroën|ë-Jumpy": 11
@@ -3047,7 +3047,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 43
 , "Volvo|XC40 Recharge pure electric": 33
 , "Smart|Fortwo ED": 31
-, "Citroën|Berlingo Electric": 31
+, "Citroën|ë-Berlingo Electric": 31
 , "Audi|e-tron GT": 30
 , "Peugeot|e-Expert": 23
 , "Mazda|MX-30": 23
@@ -3234,7 +3234,7 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Aiways|U5": 32
 , "Seat|Mii Electric": 30
 , "MG|ZS EV": 26
-, "Citroën|Berlingo Electric": 21
+, "Citroën|ë-Berlingo Electric": 21
 , "Audi|e-tron GT": 21
 , "Smart|Forfour ED": 19
 , "Mercedes-Benz|EQC": 17
@@ -3320,7 +3320,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 101
 , "Audi|Q4 e-tron": 90
 , "Porsche|Taycan": 85
-, "Citroën|Berlingo Electric": 80
+, "Citroën|ë-Berlingo Electric": 80
 , "Kia|Soul EV": 60
 , "Honda|e": 49
 , "Citroën|ë-Jumpy": 41
@@ -3424,7 +3424,7 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 31
 , "Peugeot|e-Expert": 30
 , "Audi|e-tron GT": 28
-, "Citroën|Berlingo Electric": 26
+, "Citroën|ë-Berlingo Electric": 26
 , "Mercedes-Benz|EQC": 23
 , "Peugeot|e-Rifter": 20
 , "BMW|i4": 20
@@ -3522,7 +3522,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 24
 , "Smart|Forfour ED": 17
 , "Seat|Mii Electric": 15
-, "Citroën|Berlingo Electric": 15
+, "Citroën|ë-Berlingo Electric": 15
 , "MG|Marvel R": 14
 , "Jaguar|I-Pace": 12
 , "other": 169

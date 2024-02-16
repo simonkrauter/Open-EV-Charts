@@ -2672,7 +2672,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|i3 BEV": 3
 , "Jaguar|I-Pace": 2
 , "Opel|Mokka-e": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "other": 1
@@ -2754,7 +2754,7 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|MG5 EV": 4
 , "Audi|e-tron GT": 3
 , "BMW|i3 BEV": 3
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Jaguar|I-Pace": 3
 , "Opel|Vivaro-e": 3
 , "Citroën|ë-C4": 2
@@ -2830,7 +2830,7 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|ZS EV": 9
 , "Tesla|Model 3": 9
 , "Audi|e-tron GT": 6
-, "Citroën|Berlingo Electric": 6
+, "Citroën|ë-Berlingo Electric": 6
 , "Opel|Corsa-e": 6
 , "Peugeot|e-2008": 5
 , "Porsche|Taycan": 5
@@ -2916,7 +2916,7 @@ db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 6
 , "Mercedes-Benz|EQC": 6
 , "Audi|e-tron GT": 5
-, "Citroën|Berlingo Electric": 5
+, "Citroën|ë-Berlingo Electric": 5
 , "MG|ZS EV": 5
 , "Fiat|500e": 4
 , "Ford|Mustang Mach-E": 4
@@ -3004,7 +3004,7 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|C40 Recharge": 2
 , "Audi|Q8 e-tron": 1
 , "Audi|e-tron GT": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Mercedes-Benz|EQS": 1
 , "Mini|Cooper SE Electric": 1
@@ -3090,7 +3090,7 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Citroën|ë-SpaceTourer": 5
 , "Mercedes-Benz|EQC": 5
 , "Mercedes-Benz|EQE": 5
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Opel|Vivaro-e": 3
 , "Peugeot|e-Expert": 3
 , "Kia|Niro EV": 2
@@ -3180,7 +3180,7 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Opel|Corsa-e": 2
 , "Peugeot|e-Expert": 2
 , "BMW|i3 BEV": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|ë-C4": 1
 , "DS Automobiles|DS 3 Crossback E-Tense": 1
 , "Hyundai|Ioniq 5": 1
@@ -3268,7 +3268,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQC": 3
 , "BMW|i3 BEV": 2
 , "Audi|e-tron GT": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Honda|e": 1
 , "Hyundai|Ioniq 5": 1
 , "Opel|Vivaro-e": 1
@@ -3347,7 +3347,7 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-2008": 3
 , "Tesla|Model Y": 3
 , "BMW|i4": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Honda|e": 1
 , "Mercedes-Benz|EQV": 1
@@ -3851,7 +3851,7 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Ariya": 7
 , "Opel|Mokka-e": 7
 , "Audi|e-tron GT": 5
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Jaguar|I-Pace": 4
 , "Subaru|Solterra": 4
 , "Ford|Mustang Mach-E": 3
@@ -3932,7 +3932,7 @@ db.insert(db.countries.IE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.5": 10
 , "Audi|Q8 e-tron": 9
 , "Audi|e-tron GT": 8
-, "Citroën|Berlingo Electric": 8
+, "Citroën|ë-Berlingo Electric": 8
 , "Mercedes-Benz|EQB": 8
 , "BMW|iX": 5
 , "BMW|iX3": 5
@@ -4021,7 +4021,7 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "GWM|Ora 03": 3
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "Mercedes-Benz|EQE": 2
 , "Mercedes-Benz|EQV": 2
 , "Opel|Mokka-e": 2
@@ -4120,7 +4120,7 @@ db.insert(db.countries.IE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|e-tron GT": 15
 , "Citroën|ë-C4": 14
 , "Mini|Cooper SE Electric": 14
-, "Citroën|Berlingo Electric": 12
+, "Citroën|ë-Berlingo Electric": 12
 , "Mercedes-Benz|EQE SUV": 11
 , "Mercedes-Benz|EQS SUV": 11
 , "Volvo|C40 Recharge": 10
@@ -4383,7 +4383,7 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.5": 6
 , "Porsche|Taycan": 4
 , "Renault|Megane E-Tech": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "BMW|iX": 2
 , "BMW|iX1": 2
 , "Citroën|ë-C4": 2
@@ -4520,7 +4520,7 @@ db.insert(db.countries.IE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|iX1": 4
 , "BYD|Yuan Plus": 4
 , "BMW|iX3": 2
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "BYD|Seal": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Ford|Mustang Mach-E": 1

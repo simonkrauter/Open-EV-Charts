@@ -2667,7 +2667,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Mercedes-Benz|EQB": 2
 , "Mercedes-Benz|EQC": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Jaguar|I-Pace": 1
 , "Mercedes-Benz|EQS": 1
 , "Mercedes-Benz|eVito": 1
@@ -2742,7 +2742,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 5
 , "BMW|i4": 4
 , "Peugeot|e-2008": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Citroën|ë-C4": 3
 , "Lexus|UX 300e": 3
 , "Mercedes-Benz|EQS": 3
@@ -3157,7 +3157,7 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 7
 , "Mini|Cooper SE Electric": 6
 , "BMW|iX3": 4
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Mercedes-Benz|EQC": 4
 , "BMW|i3 BEV": 3
 , "Peugeot|e-Rifter": 3
@@ -3322,7 +3322,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 5
 , "Hyundai|Kona Electric": 4
 , "BMW|iX3": 3
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Citroën|ë-C4": 3
 , "Kia|Niro EV": 3
 , "Renault|Zoe": 3
@@ -3406,7 +3406,7 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 8
 , "Mini|Cooper SE Electric": 6
 , "Opel|Corsa-e": 5
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Peugeot|e-Traveller": 3
 , "BMW|iX3": 2
 , "Citroën|ë-SpaceTourer": 2
@@ -3581,7 +3581,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 2
 , "Mercedes-Benz|eVito": 2
 , "Toyota|Proace Electric": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Lexus|UX 300e": 1
 , "Mazda|MX-30": 1
 , "Opel|Zafira-e": 1
@@ -3750,7 +3750,7 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 4
 , "Peugeot|e-Rifter": 4
 , "BMW|i7": 3
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Citroën|ë-C4": 3
 , "Tesla|Model S": 3
 , "Hyundai|Kona Electric": 2
@@ -3833,7 +3833,7 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 5
 , "Opel|Mokka-e": 5
 , "Renault|Megane E-Tech": 5
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "Fiat|500e": 4
 , "Opel|Zafira-e": 3
 , "Citroën|ë-C4": 2
@@ -3917,7 +3917,7 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 8
 , "Fiat|500e": 6
 , "BMW|iX3": 5
-, "Citroën|Berlingo Electric": 5
+, "Citroën|ë-Berlingo Electric": 5
 , "Jaguar|I-Pace": 4
 , "Tesla|Model S": 4
 , "Mini|Cooper SE Electric": 3
@@ -4084,7 +4084,7 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 9
 , "Tesla|Model X": 8
 , "BMW|i7": 7
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "BMW|iX3": 6
 , "Peugeot|e-2008": 6
 , "Renault|Zoe": 5
@@ -4175,7 +4175,7 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 6
 , "Toyota|Proace Electric": 6
 , "BYD|Han EV": 5
-, "Citroën|Berlingo Electric": 5
+, "Citroën|ë-Berlingo Electric": 5
 , "Mini|Cooper SE Electric": 5
 , "Volkswagen|e-up!": 4
 , "BMW|i7": 3

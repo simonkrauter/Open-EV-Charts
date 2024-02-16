@@ -3932,7 +3932,7 @@ db.insert(db.countries.DE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 125
 , "Volvo|XC40 Recharge pure electric": 124
 , "Citroën|ë-C4": 121
-, "Citroën|Berlingo Electric": 81
+, "Citroën|ë-Berlingo Electric": 81
 , "Seat|Mii Electric": 61
 , "Mercedes-Benz|eVito": 56
 , "Jaguar|I-Pace": 51
@@ -4125,7 +4125,7 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 60
 , "Opel|Zafira-e": 40
 , "Toyota|Proace Electric": 38
-, "Citroën|Berlingo Electric": 37
+, "Citroën|ë-Berlingo Electric": 37
 , "Peugeot|e-Rifter": 31
 , "Volkswagen|other": 53
 , "Mercedes-Benz|other": 27
@@ -4222,7 +4222,7 @@ db.insert(db.countries.DE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|C40 Recharge": 52
 , "Opel|Zafira-e": 47
 , "Honda|e": 45
-, "Citroën|Berlingo Electric": 29
+, "Citroën|ë-Berlingo Electric": 29
 , "Volkswagen|other": 53
 , "Hyundai|other": 39
 , "Audi|other": 37
@@ -4315,7 +4315,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 145
 , "Mercedes-Benz|EQV": 134
 , "Mazda|MX-30": 121
-, "Citroën|Berlingo Electric": 103
+, "Citroën|ë-Berlingo Electric": 103
 , "Opel|Combo-e": 61
 , "Audi|other": 61
 , "Peugeot|e-Rifter": 57
@@ -4408,7 +4408,7 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|XC40 Recharge pure electric": 94
 , "Volkswagen|ID.5": 84
 , "MG|Marvel R": 79
-, "Citroën|Berlingo Electric": 56
+, "Citroën|ë-Berlingo Electric": 56
 , "Mazda|MX-30": 56
 , "Mercedes-Benz|eVito": 53
 , "Opel|other": 74
@@ -4503,7 +4503,7 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Honda|e": 93
 , "Hyundai|Ioniq Electric": 85
 , "Mazda|MX-30": 82
-, "Citroën|Berlingo Electric": 55
+, "Citroën|ë-Berlingo Electric": 55
 , "MG|MG5 EV": 54
 , "Volvo|XC40 Recharge pure electric": 50
 , "Mercedes-Benz|eVito": 43
@@ -4601,7 +4601,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 155
 , "Hyundai|Ioniq Electric": 109
 , "MG|MG5 EV": 99
-, "Citroën|Berlingo Electric": 78
+, "Citroën|ë-Berlingo Electric": 78
 , "Kia|Soul EV": 78
 , "Jaguar|I-Pace": 55
 , "Mazda|MX-30": 53
@@ -4706,7 +4706,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 67
 , "BMW|i7": 61
 , "MG|Marvel R": 59
-, "Citroën|Berlingo Electric": 45
+, "Citroën|ë-Berlingo Electric": 45
 , "Opel|Zafira-e": 45
 , "Volkswagen|other": 84
 , "Audi|other": 70
@@ -5210,7 +5210,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|MG5 EV": 329
 , "Opel|Combo-e": 311
 , "Nissan|Leaf": 305
-, "Citroën|Berlingo Electric": 290
+, "Citroën|ë-Berlingo Electric": 290
 , "Mercedes-Benz|EQS": 249
 , "Mercedes-Benz|other": 305
 , "BMW|other": 249
@@ -5634,7 +5634,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 223
 , "Porsche|Taycan": 205
 , "Nissan|Leaf": 132
-, "Citroën|Berlingo Electric": 130
+, "Citroën|ë-Berlingo Electric": 130
 , "Tesla|Model S": 103
 , "GWM|Ora 03": 101
 , "Tesla|Model X": 93
@@ -5736,7 +5736,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 388
 , "Citroën|ë-C4": 375
 , "Mercedes-Benz|EQS": 359
-, "Citroën|Berlingo Electric": 351
+, "Citroën|ë-Berlingo Electric": 351
 , "Volkswagen|ID. Buzz": 347
 , "Renault|Megane E-Tech": 345
 , "Hyundai|Ioniq 6": 338
@@ -5852,7 +5852,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|MX-30": 352
 , "Volvo|XC40 Recharge pure electric": 352
 , "Mercedes-Benz|EQS": 261
-, "Citroën|Berlingo Electric": 252
+, "Citroën|ë-Berlingo Electric": 252
 , "Renault|Zoe": 234
 , "Toyota|bZ4X": 233
 , "Mercedes-Benz|EQC": 229
@@ -6080,7 +6080,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|MX-30": 459
 , "Nissan|Leaf": 439
 , "Volvo|C40 Recharge": 406
-, "Citroën|Berlingo Electric": 369
+, "Citroën|ë-Berlingo Electric": 369
 , "Opel|Combo-e": 290
 , "Mercedes-Benz|other": 623
 , "MG|other": 528
@@ -6190,7 +6190,7 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 169
 , "Volvo|XC40 Recharge pure electric": 165
 , "Opel|Astra Electric": 162
-, "Citroën|Berlingo Electric": 146
+, "Citroën|ë-Berlingo Electric": 146
 , "Tesla|Model 3": 130
 , "Tesla|Model S": 110
 , "Toyota|bZ4X": 107

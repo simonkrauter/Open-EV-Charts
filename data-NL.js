@@ -540,7 +540,7 @@ db.insert(db.countries.NL, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Chevrolet|Bolt": 2
 , "Mercedes-Benz|B250e": 2
 , "Peugeot|iOn": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Peugeot|Partner Electric": 1
 , "other": 16
 });
@@ -660,7 +660,7 @@ db.insert(db.countries.NL, "2017-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 2
 , "Kia|Soul EV": 2
 , "Chevrolet|Bolt": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Nissan|e-NV200": 1
 , "Peugeot|iOn": 1
 , "other": 15
@@ -777,7 +777,7 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 9
 , "Citroën|C-Zero": 7
 , "Kia|Soul EV": 7
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "Mercedes-Benz|B250e": 2
 , "Peugeot|iOn": 1
 });
@@ -835,7 +835,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 7
 , "Peugeot|iOn": 4
 , "Volkswagen|e-up!": 4
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|C-Zero": 1
 , "Peugeot|Partner Electric": 1
 , "Smart|Forfour ED": 1
@@ -951,7 +951,7 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 13
 , "Kia|Soul EV": 4
 , "Smart|Fortwo ED": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|C-Zero": 1
 , "Mercedes-Benz|B250e": 1
 , "Peugeot|Partner Electric": 1
@@ -1071,7 +1071,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 5
 , "Peugeot|iOn": 4
 , "Volkswagen|e-up!": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Citroën|C-Zero": 3
 , "Nissan|e-NV200": 3
 , "Smart|Fortwo ED": 3
@@ -1133,7 +1133,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 4
 , "Volkswagen|e-up!": 2
 , "Chevrolet|Bolt": 1
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Citroën|C-Zero": 1
 , "Kia|Soul EV": 1
 });
@@ -1372,7 +1372,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 9
 , "Smart|Forfour ED": 8
 , "Smart|Fortwo ED": 5
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Tesla|Model 3": 2
 , "Peugeot|iOn": 1
 });
@@ -1431,7 +1431,7 @@ db.insert(db.countries.NL, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 8
 , "Smart|Forfour ED": 5
 , "Tesla|Model 3": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Maxus|other": 3
 , "Peugeot|iOn": 3
 , "Kia|Soul EV": 2
@@ -1497,7 +1497,7 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 5
 , "Tesla|Model X": 5
 , "Citroën|C-Zero": 4
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Peugeot|Partner Electric": 3
 , "Peugeot|iOn": 3
 , "Audi|Q8 e-tron": 2
@@ -1620,7 +1620,7 @@ db.insert(db.countries.NL, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 6
 , "Kia|Soul EV": 3
 , "Volkswagen|e-up!": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Peugeot|Partner Electric": 1
 });
 
@@ -1682,7 +1682,7 @@ db.insert(db.countries.NL, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Tesla|Model S": 2
 , "Tesla|Model X": 2
-, "Citroën|Berlingo Electric": 1
+, "Citroën|ë-Berlingo Electric": 1
 , "Kia|Soul EV": 1
 , "Smart|Fortwo ED": 1
 });
@@ -1869,7 +1869,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 11
 , "Mercedes-Benz|EQC": 8
 , "Volkswagen|e-up!": 5
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Peugeot|Partner Electric": 3
 , "Smart|Fortwo ED": 2
 , "Kia|Soul EV": 1
@@ -1996,7 +1996,7 @@ db.insert(db.countries.NL, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 4
 , "Mercedes-Benz|eVito": 3
 , "Peugeot|Partner Electric": 3
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 });
 
 db.insert(db.countries.NL, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2019/oktober/",
@@ -2056,7 +2056,7 @@ db.insert(db.countries.NL, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 12
 , "Tesla|Model S": 10
 , "MG|ZS EV": 5
-, "Citroën|Berlingo Electric": 4
+, "Citroën|ë-Berlingo Electric": 4
 , "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Nissan|e-NV200": 3
 , "Mercedes-Benz|EQC": 2
@@ -2123,7 +2123,7 @@ db.insert(db.countries.NL, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 11
 , "Kia|Soul EV": 10
 , "Nissan|e-NV200": 10
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Peugeot|Partner Electric": 6
 , "Citroën|C-Zero": 2
 , "DS Automobiles|DS 3 Crossback E-Tense": 2
@@ -2190,7 +2190,7 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 13
 , "Kia|Soul EV": 9
 , "Peugeot|Partner Electric": 8
-, "Citroën|Berlingo Electric": 7
+, "Citroën|ë-Berlingo Electric": 7
 , "Mercedes-Benz|eVito": 5
 , "Peugeot|iOn": 1
 });
@@ -2247,7 +2247,7 @@ db.insert(db.countries.NL, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 41
 , "Audi|Q8 e-tron": 37
 , "Opel|Corsa-e": 36
-, "Citroën|Berlingo Electric": 31
+, "Citroën|ë-Berlingo Electric": 31
 , "DS Automobiles|DS 3 Crossback E-Tense": 28
 , "Hyundai|Ioniq Electric": 26
 , "Seat|Mii Electric": 22
@@ -4288,7 +4288,7 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 4
 , "Volkswagen|ID.3": 4
 , "Mercedes-Benz|EQC": 3
-, "Citroën|Berlingo Electric": 2
+, "Citroën|ë-Berlingo Electric": 2
 , "JAC|iEV7 S/E": 2
 , "Peugeot|e-Rifter": 2
 , "other": 57
@@ -4383,7 +4383,7 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Vivaro-e": 6
 , "Opel|Combo-e": 5
 , "Smart|Fortwo ED": 5
-, "Citroën|Berlingo Electric": 3
+, "Citroën|ë-Berlingo Electric": 3
 , "Hyundai|Ioniq Electric": 3
 , "other": 82
 });
@@ -4754,7 +4754,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 42
 , "Mercedes-Benz|EQS": 41
 , "Porsche|Taycan": 40
-, "Citroën|Berlingo Electric": 38
+, "Citroën|ë-Berlingo Electric": 38
 , "Fiat|E-Ulysse": 30
 , "Kia|Soul EV": 28
 , "Peugeot|e-Expert": 27
