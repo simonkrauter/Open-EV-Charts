@@ -69,27 +69,20 @@ db.insert(db.countries.IT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 4273
 , "Nissan": 3709
 , "Hyundai": 3555
-, "Suzuki": 3207
 , "Seat": 2883
 , "Škoda": 2807
-, "Alfa Romeo": 1903
 , "Mini": 1792
 , "Volvo": 1409
 , "Land Rover": 1160
 , "Mazda": 1042
 , "Honda": 759
-, "DS Automobiles": 691
 , "Porsche": 636
 , "Mitsubishi": 559
-, "Lexus": 557
 , "Jaguar": 436
 , "Smart": 333
 , "Subaru": 273
 , "Tesla": 258
-, "Maserati": 152
-, "SsangYong": 137
-, "Infiniti": 2
-, "other": 6448
+, "other": 13097
 });
 
 db.insert(db.countries.IT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20febbraio%202020_UNRAE%20Top%2010%20alimentazione_5e5d243e7deff.pdf",
@@ -115,7 +108,6 @@ db.insert(db.countries.IT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mercedes-Benz": 1591
 , "Peugeot": 1496
 , "Dacia": 1215
-, "Suzuki": 1208
 , "Audi": 1208
 , "Toyota": 1126
 , "Jeep/Dodge": 1070
@@ -130,20 +122,15 @@ db.insert(db.countries.IT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Tesla": 424
 , "Mini": 349
 , "Seat": 283
-, "Alfa Romeo": 271
 , "Porsche": 216
 , "Jaguar": 170
 , "Smart": 165
 , "Mazda": 147
 , "Honda": 142
 , "Mitsubishi": 118
-, "Lexus": 92
 , "Subaru": 87
-, "DS Automobiles": 79
-, "Maserati": 29
-, "SsangYong": 17
-, "Infiniti": 2
-, "other": 713
+, "GWM": 18
+, "other": 2393
 });
 
 db.insert(db.countries.IT, "2020-03", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20marzo_UNRAE%20Top%2010%20alimentazione_5e84a144b5847.pdf",
@@ -168,7 +155,6 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Citroën": 272
 , "Opel": 259
 , "Ford": 222
-, "Alfa Romeo": 147
 , "Volkswagen": 138
 , "Tesla": 104
 , "BMW": 93
@@ -176,26 +162,23 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 69
 , "Toyota": 52
 , "Mercedes-Benz": 51
-, "DS Automobiles": 51
 , "Land Rover": 48
 , "Škoda": 45
 , "Hyundai": 37
 , "Seat": 36
-, "Suzuki": 23
 , "Kia": 23
 , "Nissan": 18
 , "Honda": 16
 , "Volvo": 13
 , "Jaguar": 11
 , "Porsche": 10
-, "Subaru": 8
 , "Mini": 8
+, "Subaru": 8
 , "Mazda": 7
 , "Mitsubishi": 6
-, "Lexus": 2
-, "SsangYong": 1
+, "GWM": 3
 , "Smart": 1
-, "other": 142
+, "other": 363
 });
 
 db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/aprile%20Top%2010%20alimentazione_5eb017f9dcddb.pdf",
@@ -225,29 +208,24 @@ db.insert(db.countries.IT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Audi": 3841
 , "BMW": 3810
 , "Mercedes-Benz": 3562
-, "Suzuki": 2867
 , "Kia": 2445
 , "Hyundai": 2358
 , "Škoda": 1910
 , "Nissan": 1644
 , "Seat": 1600
 , "Volvo": 1538
-, "Alfa Romeo": 1172
 , "Mini": 1167
 , "Land Rover": 985
 , "Mazda": 713
 , "Porsche": 549
 , "Honda": 389
 , "Smart": 362
-, "Lexus": 337
-, "DS Automobiles": 331
 , "Mitsubishi": 237
 , "Jaguar": 216
 , "Subaru": 173
-, "Maserati": 88
 , "Tesla": 80
-, "SsangYong": 45
-, "other": 2856
+, "GWM": 61
+, "other": 7635
 });
 
 db.insert(db.countries.IT, "2020-05", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/maggio%20Top%2010%20alimentazione_5ed5061f56ab3.pdf",
@@ -278,7 +256,6 @@ db.insert(db.countries.IT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mercedes-Benz": 4988
 , "Opel": 4817
 , "BMW": 4627
-, "Suzuki": 3301
 , "Hyundai": 2990
 , "Kia": 2989
 , "Škoda": 2555
@@ -286,23 +263,17 @@ db.insert(db.countries.IT, "2020-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Nissan": 2132
 , "Volvo": 1907
 , "Mini": 1667
-, "Alfa Romeo": 1525
 , "Land Rover": 1120
 , "Mazda": 1021
 , "Porsche": 693
 , "Honda": 642
-, "Lexus": 395
-, "DS Automobiles": 384
 , "Tesla": 382
 , "Mitsubishi": 342
 , "Smart": 317
 , "Jaguar": 257
 , "Subaru": 221
-, "Maserati": 144
-, "SsangYong": 118
-, "Infiniti": 1
-, "Chevrolet": 1
-, "other": 4115
+, "GWM": 45
+, "other": 9939
 });
 
 db.insert(db.countries.IT, "2020-06", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/giugno%202020_UNRAE_Top%2010%20alimentazione_5efc8ad723c0f.pdf",
@@ -338,25 +309,19 @@ db.insert(db.countries.IT, "2020-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Škoda": 2618
 , "Seat": 2510
 , "Nissan": 2221
-, "Suzuki": 2129
 , "Volvo": 2104
 , "Mini": 1921
-, "Alfa Romeo": 1724
 , "Land Rover": 1214
 , "Mazda": 951
 , "Porsche": 846
 , "Honda": 639
-, "Lexus": 511
-, "DS Automobiles": 480
 , "Smart": 420
 , "Mitsubishi": 369
 , "Jaguar": 358
 , "Subaru": 197
-, "SsangYong": 157
-, "Maserati": 129
+, "GWM": 53
 , "Tesla": 52
-, "Infiniti": 1
-, "other": 4313
+, "other": 9391
 });
 
 db.insert(db.countries.IT, "2020-07", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20luglio%20Top%2010%20per%20alimentazione_5f280b700672d.pdf",
@@ -390,10 +355,8 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Kia": 2552
 , "BMW": 2539
 , "Nissan": 2080
-, "Suzuki": 1865
 , "Škoda": 1648
 , "Seat": 1568
-, "Alfa Romeo": 1326
 , "Volvo": 1115
 , "Mini": 934
 , "Mazda": 722
@@ -401,15 +364,12 @@ db.insert(db.countries.IT, "2020-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Honda": 411
 , "Mitsubishi": 286
 , "Porsche": 274
-, "DS Automobiles": 259
-, "Lexus": 236
 , "Tesla": 195
 , "Smart": 184
 , "Jaguar": 155
-, "SsangYong": 117
 , "Subaru": 87
-, "Maserati": 38
-, "other": 2705
+, "GWM": 24
+, "other": 6522
 });
 
 db.insert(db.countries.IT, "2020-08", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/agosto%20Top%2010%20per%20alimentazione_5f4e4e8147454.pdf",
@@ -437,7 +397,6 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 7022
 , "Citroën": 6304
 , "Mercedes-Benz": 5568
-, "Suzuki": 4966
 , "Opel": 4963
 , "BMW": 4819
 , "Kia": 4428
@@ -445,7 +404,6 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Audi": 4005
 , "Nissan": 3597
 , "Škoda": 2937
-, "Alfa Romeo": 2073
 , "Mini": 2008
 , "Seat": 1975
 , "Volvo": 1766
@@ -455,16 +413,11 @@ db.insert(db.countries.IT, "2020-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Tesla": 956
 , "Mitsubishi": 593
 , "Smart": 554
-, "DS Automobiles": 499
-, "Lexus": 389
 , "Jaguar": 364
 , "Porsche": 283
 , "Subaru": 196
-, "Maserati": 167
-, "SsangYong": 111
-, "Infiniti": 1
-, "Chevrolet": 1
-, "other": 5420
+, "GWM": 50
+, "other": 13577
 });
 
 db.insert(db.countries.IT, "2020-09", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/settembre%20Top%2010%20per%20alimentazione_5f75debcb4b24.pdf",
@@ -495,7 +448,6 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Audi": 5618
 , "Dacia": 5557
 , "BMW": 5291
-, "Suzuki": 4951
 , "Kia": 4262
 , "Hyundai": 4067
 , "Nissan": 3469
@@ -503,21 +455,17 @@ db.insert(db.countries.IT, "2020-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Seat": 2339
 , "Volvo": 1892
 , "Mini": 1883
-, "Alfa Romeo": 1598
 , "Land Rover": 1377
 , "Mazda": 1307
 , "Honda": 1000
 , "Smart": 682
 , "Porsche": 630
-, "DS Automobiles": 492
-, "Lexus": 440
 , "Mitsubishi": 399
 , "Jaguar": 359
 , "Subaru": 279
-, "Maserati": 150
-, "SsangYong": 109
 , "Tesla": 64
-, "other": 5534
+, "GWM": 18
+, "other": 13256
 });
 
 db.insert(db.countries.IT, "2020-10", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20ottobre%202020%20UNRAE%20Top%2010%20per%20alimentazione_5fa01edbc205c.pdf",
@@ -548,14 +496,12 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "BMW": 4884
 , "Opel": 4807
 , "Mercedes-Benz": 4238
-, "Suzuki": 3684
 , "Nissan": 2970
 , "Kia": 2804
 , "Hyundai": 2666
 , "Škoda": 2283
 , "Seat": 2140
 , "Mini": 2055
-, "Alfa Romeo": 1986
 , "Volvo": 1515
 , "Mazda": 888
 , "Land Rover": 869
@@ -563,15 +509,11 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Honda": 587
 , "Porsche": 497
 , "Jaguar": 382
-, "Lexus": 358
-, "DS Automobiles": 355
 , "Tesla": 263
 , "Mitsubishi": 217
 , "Subaru": 204
-, "Maserati": 180
-, "SsangYong": 72
-, "Chevrolet": 1
-, "other": 4859
+, "GWM": 28
+, "other": 11467
 });
 
 db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/novembre%20Top%2010%20per%20alimentazione_5fc64c8b18558.pdf",
@@ -604,11 +546,9 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mercedes-Benz": 3142
 , "Nissan": 2481
 , "Seat": 2408
-, "Suzuki": 2381
 , "Kia": 1916
 , "Škoda": 1742
 , "Hyundai": 1699
-, "Alfa Romeo": 1664
 , "Volvo": 1643
 , "Mini": 1193
 , "Tesla": 923
@@ -616,15 +556,12 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mazda": 606
 , "Smart": 527
 , "Porsche": 422
-, "DS Automobiles": 391
 , "Honda": 362
-, "Lexus": 353
 , "Jaguar": 231
 , "Subaru": 220
 , "Mitsubishi": 210
-, "Maserati": 139
-, "SsangYong": 79
-, "other": 5393
+, "GWM": 38
+, "other": 10362
 });
 
 db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20dicembre%20Top%2010%20per%20alimentazione_5ff32ed50d06c.pdf",
@@ -656,7 +593,6 @@ db.insert(db.countries.IT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 4962
 , "Mercedes-Benz": 4675
 , "Hyundai": 3472
-, "Suzuki": 3459
 , "Kia": 3179
 , "Škoda": 2762
 , "Nissan": 2442
@@ -664,20 +600,16 @@ db.insert(db.countries.IT, "2021-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mini": 1605
 , "Volvo": 1558
 , "Mazda": 947
-, "Alfa Romeo": 935
 , "Land Rover": 759
 , "Porsche": 615
-, "Lexus": 459
 , "Honda": 457
 , "Smart": 449
 , "Mitsubishi": 327
-, "DS Automobiles": 281
 , "Jaguar": 173
 , "Subaru": 148
-, "Maserati": 141
-, "SsangYong": 72
 , "Tesla": 56
-, "other": 4999
+, "GWM": 50
+, "other": 10296
 });
 
 db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/gennaio%202021_%20UNRAE%20Top%20ten%20per%20alimentazione_601821e524cfc.pdf",
@@ -705,7 +637,6 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Renault": 6577
 , "Jeep": 5601
 , "Audi": 5554
-, "Suzuki": 4955
 , "BMW": 4922
 , "Dacia": 4508
 , "Mercedes-Benz": 3875
@@ -718,19 +649,15 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mini": 1428
 , "Mazda": 1195
 , "Land Rover": 932
-, "Alfa Romeo": 865
 , "Honda": 652
 , "Smart": 601
 , "Porsche": 545
-, "Lexus": 492
 , "Mitsubishi": 361
-, "DS Automobiles": 361
 , "Jaguar": 303
 , "Tesla": 281
 , "Subaru": 187
-, "Maserati": 106
-, "SsangYong": 71
-, "other": 5076
+, "GWM": 64
+, "other": 11862
 });
 
 db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/febbraio%20Top%2010%20per%20alimentazione_603cfea9edb94.pdf",
@@ -763,7 +690,6 @@ db.insert(db.countries.IT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 5524
 , "Hyundai": 4644
 , "Kia": 4165
-, "Suzuki": 3776
 , "Nissan": 3401
 , "Škoda": 2978
 , "Seat": 2717
@@ -772,18 +698,14 @@ db.insert(db.countries.IT, "2021-03", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Land Rover": 1771
 , "Mazda": 1463
 , "Tesla": 1366
-, "Alfa Romeo": 1240
 , "Smart": 847
 , "Jaguar": 669
 , "Porsche": 665
 , "Honda": 547
-, "Lexus": 490
-, "DS Automobiles": 436
 , "Mitsubishi": 380
 , "Subaru": 281
-, "Maserati": 227
-, "SsangYong": 73
-, "other": 6509
+, "GWM": 85
+, "other": 12666
 });
 
 db.insert(db.countries.IT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20marzo%202021%20UNRAE%20Top%2010%20per%20alimentazione_6065c0aa1a619.pdf",
@@ -814,7 +736,6 @@ db.insert(db.countries.IT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "BMW": 4973
 , "Mercedes-Benz": 4886
 , "Dacia": 4581
-, "Suzuki": 4253
 , "Kia": 3754
 , "Hyundai": 3325
 , "Škoda": 2634
@@ -824,19 +745,16 @@ db.insert(db.countries.IT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mini": 1868
 , "Land Rover": 1683
 , "Mazda": 1157
-, "Alfa Romeo": 970
 , "Smart": 650
 , "Honda": 620
 , "Jaguar": 569
 , "Porsche": 457
 , "Mitsubishi": 412
-, "DS Automobiles": 411
-, "Lexus": 374
+, "Cupra": 367
 , "Subaru": 203
-, "Maserati": 100
-, "SsangYong": 53
+, "GWM": 76
 , "Tesla": 22
-, "other": 6465
+, "other": 12183
 });
 
 db.insert(db.countries.IT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20aprile%202021_60900cb9c02fa.pdf",
@@ -869,27 +787,23 @@ db.insert(db.countries.IT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Dacia": 4555
 , "Hyundai": 3922
 , "Kia": 3800
-, "Suzuki": 3631
 , "Škoda": 2851
 , "Nissan": 2314
 , "Volvo": 2231
 , "Seat": 2070
 , "Mini": 1808
 , "Land Rover": 1230
-, "Alfa Romeo": 1113
 , "Mazda": 996
+, "Cupra": 784
 , "Smart": 700
 , "Honda": 605
 , "Porsche": 522
 , "Mitsubishi": 499
 , "Jaguar": 485
-, "DS Automobiles": 444
 , "Tesla": 426
-, "Lexus": 371
 , "Subaru": 217
-, "Maserati": 148
-, "SsangYong": 104
-, "other": 6415
+, "GWM": 96
+, "other": 11346
 });
 
 db.insert(db.countries.IT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20maggio%202021_60b6173455395.pdf",
@@ -922,27 +836,23 @@ db.insert(db.countries.IT, "2021-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "BMW": 4891
 , "Mercedes-Benz": 4624
 , "Kia": 4057
-, "Suzuki": 3383
 , "Seat": 3002
 , "Škoda": 2910
 , "Volvo": 2615
 , "Nissan": 2080
 , "Mini": 1791
-, "Alfa Romeo": 1096
 , "Mazda": 1081
 , "Tesla": 984
 , "Land Rover": 966
 , "Smart": 731
+, "Cupra": 688
 , "Honda": 529
-, "Lexus": 504
-, "DS Automobiles": 502
 , "Porsche": 497
 , "Jaguar": 438
 , "Mitsubishi": 381
 , "Subaru": 189
-, "Maserati": 172
-, "SsangYong": 113
-, "other": 6125
+, "GWM": 78
+, "other": 11129
 });
 
 db.insert(db.countries.IT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20giugno%202021_60dde79684a99.pdf",
@@ -975,27 +885,22 @@ db.insert(db.countries.IT, "2021-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Kia": 3518
 , "Citroën": 3411
 , "Opel": 3245
-, "Suzuki": 3025
 , "Škoda": 2095
 , "Nissan": 2035
 , "Seat": 1426
 , "Volvo": 1389
 , "Mini": 1374
 , "Mazda": 1012
-, "Alfa Romeo": 938
 , "Land Rover": 898
+, "Cupra": 601
 , "Honda": 462
 , "Porsche": 428
 , "Smart": 402
-, "DS Automobiles": 395
 , "Jaguar": 368
-, "Lexus": 339
 , "Mitsubishi": 285
 , "Subaru": 192
-, "Maserati": 160
-, "SsangYong": 57
-, "Tesla": 9
-, "other": 4844
+, "GWM": 82
+, "other": 9084
 });
 
 db.insert(db.countries.IT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20luglio%202021_6107ca5800fe2.pdf",
@@ -1025,7 +930,6 @@ db.insert(db.countries.IT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Audi": 2425
 , "Hyundai": 2305
 , "BMW": 2262
-, "Suzuki": 1754
 , "Citroën": 1730
 , "Mercedes-Benz": 1643
 , "Nissan": 1541
@@ -1035,20 +939,17 @@ db.insert(db.countries.IT, "2021-08", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mini": 700
 , "Volvo": 638
 , "Mazda": 606
-, "Alfa Romeo": 472
 , "Land Rover": 395
+, "Cupra": 350
 , "Tesla": 308
 , "Honda": 302
-, "DS Automobiles": 257
 , "Mitsubishi": 212
 , "Smart": 171
-, "Porsche": 145
 , "Jaguar": 145
-, "Lexus": 144
+, "Porsche": 145
 , "Subaru": 107
-, "Maserati": 62
-, "SsangYong": 47
-, "other": 3015
+, "GWM": 57
+, "other": 5344
 });
 
 db.insert(db.countries.IT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20agosto%202021_612f55224438d.pdf",
@@ -1076,7 +977,6 @@ db.insert(db.countries.IT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Kia": 4768
 , "Hyundai": 4169
 , "Peugeot": 4112
-, "Suzuki": 3669
 , "Citroën": 3499
 , "BMW": 3461
 , "Opel": 3284
@@ -1089,20 +989,17 @@ db.insert(db.countries.IT, "2021-09", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Land Rover": 1175
 , "Škoda": 1151
 , "Volvo": 1002
-, "Alfa Romeo": 939
 , "Mini": 824
 , "Honda": 656
 , "Smart": 545
-, "DS Automobiles": 423
+, "Cupra": 465
 , "Mitsubishi": 361
-, "Lexus": 338
 , "Jaguar": 315
 , "Porsche": 236
 , "Subaru": 176
-, "Maserati": 135
-, "SsangYong": 67
+, "GWM": 68
 , "MG": 50
-, "other": 4640
+, "other": 9678
 });
 
 db.insert(db.countries.IT, "2021-09", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20settembre%202021_6156dc959e628.pdf",
@@ -1133,7 +1030,6 @@ db.insert(db.countries.IT, "2021-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Citroën": 3739
 , "Jeep": 3705
 , "Mercedes-Benz": 3664
-, "Suzuki": 3393
 , "Audi": 2986
 , "Opel": 2496
 , "Nissan": 2132
@@ -1143,20 +1039,17 @@ db.insert(db.countries.IT, "2021-10", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Seat": 975
 , "Škoda": 868
 , "Land Rover": 863
-, "Alfa Romeo": 757
 , "Honda": 704
 , "Smart": 682
+, "Cupra": 618
 , "Porsche": 595
-, "Lexus": 401
-, "DS Automobiles": 401
 , "Mitsubishi": 329
 , "Subaru": 223
 , "Jaguar": 190
 , "MG": 140
-, "Maserati": 126
 , "Tesla": 89
-, "SsangYong": 67
-, "other": 4974
+, "GWM": 51
+, "other": 9450
 });
 
 db.insert(db.countries.IT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Ottobre%202021_618129e4bb290.pdf",
@@ -1189,28 +1082,24 @@ db.insert(db.countries.IT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Opel": 3356
 , "Audi": 3290
 , "Mercedes-Benz": 3232
-, "Suzuki": 2497
 , "Nissan": 2350
 , "Mini": 1643
 , "Seat": 1476
 , "Volvo": 1420
 , "Škoda": 1348
-, "Alfa Romeo": 954
 , "Mazda": 873
+, "Cupra": 707
 , "Porsche": 669
 , "Smart": 624
 , "Land Rover": 583
 , "Honda": 538
-, "Lexus": 450
 , "Tesla": 438
-, "DS Automobiles": 378
 , "MG": 256
 , "Subaru": 222
 , "Jaguar": 219
 , "Mitsubishi": 213
-, "Maserati": 121
-, "SsangYong": 37
-, "other": 5420
+, "GWM": 31
+, "other": 9119
 });
 
 db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Novembre%202021_61a7810980607.pdf",
@@ -1245,27 +1134,22 @@ db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Kia": 2080
 , "Mini": 1829
 , "Nissan": 1666
-, "Suzuki": 1482
 , "Škoda": 1331
 , "Seat": 1258
-, "Alfa Romeo": 973
 , "Porsche": 867
 , "Volvo": 802
 , "Tesla": 633
 , "Mazda": 538
-, "DS Automobiles": 523
 , "Cupra": 501
 , "Land Rover": 487
 , "Smart": 476
-, "Lexus": 335
 , "Honda": 321
 , "Subaru": 251
 , "MG": 250
 , "Mitsubishi": 157
-, "Maserati": 146
 , "Jaguar": 141
-, "SsangYong": 54
-, "other": 3633
+, "GWM": 11
+, "other": 7135
 });
 
 db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione_Dicembre%202021_61d31a534d7a8.pdf",
@@ -1298,7 +1182,6 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Mercedes-Benz": 3142
 , "Hyundai": 3141
 , "Audi": 2985
-, "Suzuki": 2625
 , "Mini": 1871
 , "Nissan": 1841
 , "Škoda": 1781
@@ -1306,21 +1189,17 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Volvo": 961
 , "Mazda": 806
 , "Porsche": 699
-, "Alfa Romeo": 696
 , "Honda": 574
 , "Land Rover": 566
-, "DS Automobiles": 383
 , "Cupra": 372
-, "Lexus": 296
-, "Smart": 266
 , "MG": 266
+, "Smart": 266
 , "Subaru": 159
 , "Jaguar": 128
-, "Maserati": 105
 , "Mitsubishi": 93
-, "SsangYong": 48
 , "Tesla": 32
-, "other": 5169
+, "GWM": 18
+, "other": 9304
 });
 
 db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/1",
@@ -1382,7 +1261,6 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Hyundai": 3630
 , "Kia": 3608
 , "Mercedes-Benz": 3399
-, "Suzuki": 2411
 , "Nissan": 2180
 , "Škoda": 1988
 , "Mini": 1664
@@ -1390,21 +1268,16 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "Volvo": 1031
 , "Mazda": 941
 , "Honda": 719
-, "Alfa Romeo": 640
-, "DS Automobiles": 465
 , "Cupra": 460
 , "MG": 433
 , "Land Rover": 409
-, "Lexus": 382
 , "Porsche": 349
 , "Smart": 322
 , "Tesla": 279
 , "Mitsubishi": 196
 , "Subaru": 172
 , "Jaguar": 168
-, "Maserati": 128
-, "SsangYong": 50
-, "other": 5800
+, "other": 9876
 });
 
 db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/2",
@@ -1476,7 +1349,6 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "BMW": 4100
 , "Hyundai": 2905
 , "Nissan": 2537
-, "Suzuki": 2114
 , "Škoda": 1848
 , "Seat": 1412
 , "Volvo": 1226
@@ -1484,20 +1356,15 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Tesla": 1056
 , "Mazda": 966
 , "Cupra": 815
-, "Alfa Romeo": 813
 , "Porsche": 738
-, "DS Automobiles": 657
 , "Honda": 609
 , "MG": 542
 , "Land Rover": 449
-, "Lexus": 393
 , "Smart": 373
 , "Jaguar": 286
 , "Mitsubishi": 203
 , "Subaru": 156
-, "Maserati": 133
-, "SsangYong": 58
-, "other": 5355
+, "other": 9523
 });
 
 db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/3",
@@ -1572,26 +1439,20 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Škoda": 2062
 , "Nissan": 1814
 , "Mini": 1135
-, "Suzuki": 1106
 , "Cupra": 1077
 , "Land Rover": 1008
 , "Honda": 1001
-, "Alfa Romeo": 932
 , "Volvo": 920
 , "Seat": 860
 , "Mazda": 761
-, "DS Automobiles": 525
 , "MG": 524
 , "Smart": 427
 , "Porsche": 338
 , "Jaguar": 255
 , "Mitsubishi": 244
-, "Lexus": 239
 , "Subaru": 145
-, "Maserati": 105
-, "SsangYong": 38
 , "Tesla": 27
-, "other": 4389
+, "other": 7334
 });
 
 db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/4",
@@ -1668,24 +1529,18 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 1773
 , "Cupra": 1549
 , "Volvo": 1547
-, "Suzuki": 1254
 , "Mini": 1167
-, "Alfa Romeo": 1159
 , "Honda": 827
 , "Land Rover": 738
 , "Mazda": 678
-, "DS Automobiles": 527
 , "Porsche": 523
 , "Smart": 476
 , "Mitsubishi": 321
-, "Lexus": 307
 , "MG": 274
 , "Jaguar": 255
-, "Maserati": 135
 , "Subaru": 99
-, "SsangYong": 33
 , "Tesla": 14
-, "other": 6699
+, "other": 10114
 });
 
 db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/5",
@@ -1761,25 +1616,19 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Škoda": 2324
 , "Cupra": 1721
 , "Seat": 1533
-, "Suzuki": 1509
-, "Alfa Romeo": 1435
 , "Tesla": 1143
 , "Volvo": 1080
 , "Mini": 1075
 , "Land Rover": 804
 , "Smart": 754
-, "DS Automobiles": 653
 , "MG": 619
 , "Honda": 590
 , "Porsche": 581
 , "Mazda": 534
-, "Maserati": 274
 , "Jaguar": 207
-, "Lexus": 187
 , "Mitsubishi": 168
 , "Subaru": 146
-, "SsangYong": 30
-, "other": 6616
+, "other": 10704
 });
 
 db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/6",
@@ -1854,9 +1703,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "BMW": 3164
 , "Škoda": 2314
 , "Nissan": 1958
-, "Alfa Romeo": 1446
 , "Seat": 1366
-, "Suzuki": 1311
 , "Volvo": 1287
 , "Mini": 1242
 , "Cupra": 907
@@ -1865,16 +1712,12 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mazda": 571
 , "Honda": 534
 , "MG": 519
-, "DS Automobiles": 430
 , "Mitsubishi": 394
 , "Smart": 311
-, "Maserati": 311
 , "Jaguar": 180
-, "Lexus": 142
 , "Subaru": 115
 , "Tesla": 37
-, "SsangYong": 20
-, "other": 5732
+, "other": 9392
 });
 
 db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/7",
@@ -1949,8 +1792,6 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Škoda": 1596
 , "Nissan": 1417
 , "Mini": 929
-, "Suzuki": 867
-, "Alfa Romeo": 810
 , "Volvo": 673
 , "Cupra": 563
 , "Land Rover": 547
@@ -1959,16 +1800,12 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "MG": 392
 , "Honda": 343
 , "Porsche": 272
-, "Lexus": 233
-, "Maserati": 177
-, "DS Automobiles": 164
 , "Mitsubishi": 142
 , "Smart": 134
 , "Jaguar": 115
 , "Subaru": 103
 , "Tesla": 100
-, "SsangYong": 12
-, "other": 5353
+, "other": 7616
 });
 
 db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/8",
@@ -2040,8 +1877,6 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Jeep": 2896
 , "Škoda": 2538
 , "Nissan": 2254
-, "Suzuki": 2253
-, "Alfa Romeo": 1564
 , "Mini": 1395
 , "Volvo": 1346
 , "Cupra": 1275
@@ -2051,16 +1886,12 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 748
 , "Honda": 742
 , "Porsche": 655
-, "DS Automobiles": 486
 , "MG": 484
-, "Maserati": 419
 , "Smart": 325
-, "Lexus": 253
 , "Jaguar": 243
 , "Subaru": 182
 , "Mitsubishi": 87
-, "SsangYong": 31
-, "other": 6980
+, "other": 11986
 });
 
 db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/9",
@@ -2135,8 +1966,6 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mini": 1999
 , "Škoda": 1835
 , "Nissan": 1778
-, "Suzuki": 1729
-, "Alfa Romeo": 1642
 , "MG": 1482
 , "Volvo": 1475
 , "Cupra": 1028
@@ -2146,15 +1975,11 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Honda": 708
 , "Porsche": 576
 , "Smart": 470
-, "DS Automobiles": 470
-, "Maserati": 356
-, "Lexus": 245
 , "Jaguar": 177
 , "Mitsubishi": 114
 , "Subaru": 109
 , "Tesla": 30
-, "SsangYong": 18
-, "other": 7474
+, "other": 11934
 });
 
 db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/10",
@@ -2229,9 +2054,7 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Opel": 2516
 , "Mini": 2439
 , "Škoda": 2291
-, "Suzuki": 2180
 , "Nissan": 1859
-, "Alfa Romeo": 1586
 , "Volvo": 1526
 , "Tesla": 1108
 , "MG": 1078
@@ -2240,16 +2063,12 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Porsche": 810
 , "Cupra": 749
 , "Land Rover": 650
-, "DS Automobiles": 615
 , "Honda": 540
 , "Smart": 472
-, "Maserati": 413
-, "Lexus": 301
 , "Subaru": 199
 , "Jaguar": 112
 , "Mitsubishi": 67
-, "SsangYong": 14
-, "other": 7784
+, "other": 12893
 });
 
 db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/11",
@@ -2323,28 +2142,22 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Hyundai": 3178
 , "Opel": 2611
 , "Nissan": 2193
-, "Suzuki": 2190
 , "Škoda": 2002
 , "Mini": 1750
-, "Alfa Romeo": 1664
 , "Volvo": 1523
 , "Seat": 1260
 , "Porsche": 1208
 , "Cupra": 947
 , "Mazda": 786
 , "MG": 761
-, "DS Automobiles": 665
 , "Tesla": 566
 , "Land Rover": 467
 , "Smart": 450
-, "Maserati": 377
 , "Honda": 324
-, "Lexus": 268
 , "Mitsubishi": 205
 , "Subaru": 128
 , "Jaguar": 43
-, "SsangYong": 15
-, "other": 5349
+, "other": 10528
 });
 
 db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/12",
@@ -2419,9 +2232,7 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Opel": 3183
 , "Škoda": 2548
 , "Nissan": 2491
-, "Suzuki": 2349
 , "Mazda": 2125
-, "Alfa Romeo": 1784
 , "Mini": 1609
 , "MG": 1392
 , "Volvo": 1322
@@ -2429,17 +2240,13 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Cupra": 836
 , "Seat": 831
 , "Porsche": 672
-, "DS Automobiles": 577
 , "Honda": 483
 , "Smart": 370
 , "Tesla": 326
-, "Maserati": 321
-, "Lexus": 224
 , "Subaru": 175
 , "Mitsubishi": 108
 , "Jaguar": 107
-, "SsangYong": 39
-, "other": 5961
+, "other": 11255
 });
 
 db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
@@ -2507,9 +2314,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Hyundai": 3624
 , "Nissan": 3364
 , "Škoda": 2682
-, "Suzuki": 2520
 , "Mini": 1767
-, "Alfa Romeo": 1757
 , "Volvo": 1476
 , "Mazda": 1335
 , "Tesla": 1313
@@ -2517,17 +2322,13 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 1105
 , "MG": 1028
 , "Land Rover": 888
-, "DS Automobiles": 644
 , "Porsche": 639
 , "Honda": 473
 , "Smart": 409
-, "Maserati": 261
 , "Subaru": 185
-, "Lexus": 181
 , "Mitsubishi": 128
 , "Jaguar": 107
-, "SsangYong": 41
-, "other": 6320
+, "other": 11724
 });
 
 db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/2, https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
@@ -2600,9 +2401,7 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mercedes-Benz": 5175
 , "Hyundai": 4951
 , "Kia": 4768
-, "Suzuki": 3509
 , "Škoda": 3214
-, "Alfa Romeo": 2992
 , "Tesla": 2911
 , "MG": 2378
 , "Mini": 2069
@@ -2610,18 +2409,14 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mazda": 1616
 , "Volvo": 1578
 , "Seat": 1514
-, "DS Automobiles": 828
 , "Porsche": 787
 , "Land Rover": 743
 , "Honda": 632
 , "Smart": 554
-, "Maserati": 469
 , "Subaru": 395
 , "Mitsubishi": 292
-, "Lexus": 291
 , "Jaguar": 130
-, "SsangYong": 30
-, "other": 9475
+, "other": 17594
 });
 
 db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3, https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
@@ -2695,8 +2490,6 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Citroën": 3029
 , "MG": 3029
 , "Škoda": 2882
-, "Suzuki": 2714
-, "Alfa Romeo": 2380
 , "Nissan": 1481
 , "Mini": 1346
 , "Volvo": 1214
@@ -2704,19 +2497,15 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 877
 , "Mazda": 742
 , "Tesla": 740
-, "DS Automobiles": 630
 , "Porsche": 573
 , "Land Rover": 512
 , "Smart": 365
-, "Maserati": 324
 , "Honda": 311
-, "Lexus": 296
 , "Subaru": 214
 , "Jaguar": 127
 , "Polestar": 96
 , "Mitsubishi": 43
-, "SsangYong": 14
-, "other": 7252
+, "other": 13610
 });
 
 db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
@@ -2789,10 +2578,8 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Hyundai": 4353
 , "Mercedes-Benz": 4233
 , "Citroën": 3994
-, "Suzuki": 3915
 , "MG": 3027
 , "Škoda": 3013
-, "Alfa Romeo": 2677
 , "Nissan": 2253
 , "Volvo": 2093
 , "Mini": 1996
@@ -2800,19 +2587,15 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Tesla": 1477
 , "Seat": 1308
 , "Mazda": 1138
-, "DS Automobiles": 1031
 , "Land Rover": 859
 , "Porsche": 686
-, "Lexus": 570
 , "Honda": 473
 , "Smart": 405
-, "Maserati": 373
 , "Jaguar": 228
 , "Subaru": 207
 , "Polestar": 91
 , "Mitsubishi": 84
-, "SsangYong": 14
-, "other": 9226
+, "other": 17806
 });
 
 db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/5, https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
@@ -2884,9 +2667,7 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Kia": 4081
 , "Opel": 3989
 , "MG": 3371
-, "Suzuki": 3128
 , "Škoda": 3105
-, "Alfa Romeo": 3019
 , "Nissan": 3007
 , "Volvo": 1818
 , "Tesla": 1751
@@ -2895,18 +2676,14 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 1275
 , "Mazda": 1159
 , "Land Rover": 1128
-, "DS Automobiles": 682
 , "Porsche": 491
 , "Honda": 476
-, "Maserati": 475
-, "Lexus": 395
 , "Smart": 365
 , "Subaru": 288
 , "Jaguar": 255
 , "Polestar": 124
 , "Mitsubishi": 80
-, "SsangYong": 17
-, "other": 7535
+, "other": 15251
 });
 
 db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/6, https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
@@ -2978,12 +2755,10 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Kia": 3886
 , "Hyundai": 3881
 , "Citroën": 3772
-, "Suzuki": 2977
 , "Opel": 2914
 , "Škoda": 2898
 , "Nissan": 2816
 , "MG": 2468
-, "Alfa Romeo": 2264
 , "Mini": 1916
 , "Cupra": 1640
 , "Volvo": 1475
@@ -2991,18 +2766,14 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Seat": 1024
 , "Land Rover": 942
 , "Porsche": 624
-, "DS Automobiles": 555
 , "Honda": 481
 , "Tesla": 478
 , "Smart": 375
-, "Maserati": 334
 , "Subaru": 238
-, "Lexus": 216
 , "Jaguar": 181
 , "Mitsubishi": 77
 , "Polestar": 66
-, "SsangYong": 30
-, "other": 7140
+, "other": 13516
 });
 
 db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
@@ -3078,10 +2849,8 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Nissan": 2373
 , "Tesla": 2129
 , "Škoda": 1944
-, "Suzuki": 1496
 , "MG": 1481
 , "Cupra": 1064
-, "Alfa Romeo": 1046
 , "Mini": 968
 , "Volvo": 719
 , "Seat": 566
@@ -3089,16 +2858,12 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Land Rover": 503
 , "Porsche": 392
 , "Honda": 385
-, "DS Automobiles": 324
 , "Smart": 161
-, "Maserati": 142
-, "Lexus": 140
 , "Subaru": 123
 , "Jaguar": 99
 , "Mitsubishi": 61
-, "SsangYong": 13
 , "Polestar": 8
-, "other": 5278
+, "other": 8439
 });
 
 db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
@@ -3174,11 +2939,9 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Kia": 4146
 , "Hyundai": 4042
 , "Opel": 3840
-, "Suzuki": 3549
 , "Nissan": 3474
 , "Škoda": 3067
 , "MG": 2875
-, "Alfa Romeo": 2187
 , "Cupra": 1847
 , "Mazda": 1376
 , "Volvo": 1317
@@ -3188,16 +2951,12 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Honda": 909
 , "Tesla": 906
 , "Porsche": 693
-, "DS Automobiles": 487
-, "Lexus": 486
 , "Smart": 466
-, "Maserati": 364
 , "Jaguar": 202
 , "Subaru": 153
 , "Polestar": 134
 , "Mitsubishi": 53
-, "SsangYong": 53
-, "other": 5832
+, "other": 12958
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
@@ -3269,12 +3028,10 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mercedes-Benz": 4685
 , "Hyundai": 4323
 , "Kia": 4251
-, "Suzuki": 3645
 , "Nissan": 3543
 , "Opel": 3288
 , "MG": 2811
 , "Škoda": 2688
-, "Alfa Romeo": 2434
 , "Cupra": 1640
 , "Mazda": 1620
 , "Volvo": 1338
@@ -3285,15 +3042,11 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Honda": 932
 , "Tesla": 908
 , "Smart": 681
-, "DS Automobiles": 464
-, "Lexus": 354
-, "Maserati": 309
 , "Subaru": 227
 , "Jaguar": 162
 , "Mitsubishi": 55
 , "Polestar": 38
-, "SsangYong": 29
-, "other": 7145
+, "other": 14380
 });
 
 db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/10, https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
@@ -3370,8 +3123,6 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Škoda": 3254
 , "MG": 3080
 , "Opel": 3025
-, "Suzuki": 2954
-, "Alfa Romeo": 2728
 , "Tesla": 2710
 , "Mini": 1638
 , "Seat": 1459
@@ -3382,18 +3133,11 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 872
 , "Porsche": 616
 , "Smart": 600
-, "DS Automobiles": 456
-, "Lexus": 334
-, "Maserati": 273
 , "Subaru": 251
 , "Jaguar": 113
 , "Mitsubishi": 40
-, "Ferrari": 32
 , "Polestar": 28
-, "Lamborghini": 25
-, "SsangYong": 25
-, "Aston Martin": 12
-, "other": 7791
+, "other": 14630
 });
 
 db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/11, https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
@@ -3470,10 +3214,8 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Kia": 2781
 , "Škoda": 2380
 , "Opel": 2123
-, "Suzuki": 2028
 , "Seat": 1913
 , "Cupra": 1569
-, "Alfa Romeo": 1514
 , "Mini": 1348
 , "Volvo": 1344
 , "Tesla": 983
@@ -3482,19 +3224,10 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 578
 , "Land Rover": 514
 , "Honda": 508
-, "DS Automobiles": 316
-, "Lexus": 276
-, "Maserati": 195
 , "Subaru": 180
 , "Jaguar": 42
-, "Lamborghini": 27
-, "Ferrari": 25
 , "Mitsubishi": 22
-, "SsangYong": 19
-, "Lotus": 11
-, "Polestar": 5
-, "Aston Martin": 1
-, "other": 5943
+, "other": 10360
 });
 
 db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
