@@ -4,7 +4,7 @@
 
 // source: https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files
 
-db.insert(db.countries.UK, "2017-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 105346
 , "Vauxhall": 66794
 , "Volkswagen": 60563
@@ -25,50 +25,35 @@ db.insert(db.countries.UK, "2017-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mini": 17214
 , "Seat": 16850
 , "Mazda": 15339
-, "Suzuki": 13930
 , "Volvo": 13734
 , "Jaguar": 13477
 , "Dacia": 8181
 , "Mitsubishi": 5203
-, "Lexus": 3910
 , "Porsche": 3868
 , "Smart": 3216
-, "DS Automobiles": 3198
 , "Jeep": 2593
-, "Alfa Romeo": 1757
 , "Tesla": 1413
-, "SsangYong": 1341
-, "Infiniti": 1298
-, "Abarth": 1282
 , "MG": 1113
 , "Subaru": 1056
-, "Maserati": 655
-, "Chevrolet": 78
-, "Dodge": 45
-, "Opel": 35
-, "Chrysler": 33
-, "Cadillac": 16
-, "Buick": 12
-, "Lincoln": 12
-, "Acura": 4
-, "other": 2907
+, "other": 30513
 });
 
-db.insert(db.countries.UK, "2017-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 2482
 , "Tesla|Model S": 786
 , "Tesla|Model X": 627
 , "Renault|Zoe": 344
 , "BMW|i3 BEV": 227
+, "Mercedes-Benz|B250e": 63
 , "Kia|Soul EV": 54
 , "Hyundai|Ioniq Electric": 43
 , "Nissan|e-NV200": 36
 , "Peugeot|iOn": 4
 , "Volkswagen|e-Golf": 4
-, "Volkswagen|e-up!": 2
+, "other": 2
 });
 
-db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 63724
 , "Volkswagen": 48199
 , "Vauxhall": 45400
@@ -89,42 +74,28 @@ db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Citroën": 11580
 , "Fiat": 11177
 , "Volvo": 11009
-, "Suzuki": 7867
 , "Jaguar": 7630
 , "Mazda": 7577
 , "Dacia": 6106
 , "Porsche": 3958
 , "Mitsubishi": 3901
 , "Smart": 2775
-, "Lexus": 2548
-, "DS Automobiles": 1935
 , "Jeep": 1081
-, "Alfa Romeo": 1019
-, "Abarth": 981
 , "MG": 977
-, "SsangYong": 884
-, "Infiniti": 861
 , "Tesla": 849
 , "Subaru": 566
-, "Maserati": 334
 , "Chevrolet": 90
-, "Dodge": 51
-, "Opel": 38
-, "Chrysler": 31
-, "Cadillac": 14
-, "Buick": 10
-, "Lincoln": 7
-, "Acura": 4
-, "other": 2353
+, "other": 18937
 });
 
-db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1385
 , "Tesla|Model X": 448
 , "Tesla|Model S": 401
 , "Renault|Zoe": 285
 , "BMW|i3 BEV": 242
 , "Hyundai|Ioniq Electric": 116
+, "Mercedes-Benz|B250e": 49
 , "Kia|Soul EV": 35
 , "Nissan|e-NV200": 33
 , "Smart|Forfour ED": 11
@@ -136,7 +107,7 @@ db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-up!": 3
 });
 
-db.insert(db.countries.UK, "2017-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 66286
 , "Volkswagen": 57538
 , "Vauxhall": 49199
@@ -156,37 +127,22 @@ db.insert(db.countries.UK, "2017-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Seat": 14787
 , "Citroën": 13718
 , "Volvo": 12169
-, "Suzuki": 11838
 , "Mazda": 11409
 , "Fiat": 9829
 , "Jaguar": 9089
 , "Dacia": 6608
-, "Lexus": 3971
 , "Mitsubishi": 3966
 , "Porsche": 3488
 , "Smart": 2758
-, "DS Automobiles": 2679
 , "Jeep": 1746
 , "MG": 1383
-, "Alfa Romeo": 1356
 , "Tesla": 1263
-, "Abarth": 1203
-, "Infiniti": 956
 , "Subaru": 844
-, "SsangYong": 741
-, "Maserati": 351
 , "Chevrolet": 76
-, "Dodge": 67
-, "Opel": 36
-, "Chrysler": 28
-, "Cadillac": 24
-, "Buick": 15
-, "Lincoln": 12
-, "Acura": 4
-, "other": 2337
+, "other": 25618
 });
 
-db.insert(db.countries.UK, "2017-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1431
 , "Tesla|Model S": 674
 , "Tesla|Model X": 589
@@ -197,13 +153,14 @@ db.insert(db.countries.UK, "2017-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Soul EV": 40
 , "Smart|Fortwo ED": 34
 , "Hyundai|Ioniq Electric": 25
+, "Mercedes-Benz|B250e": 18
 , "Smart|Forfour ED": 16
 , "Volkswagen|e-up!": 4
 , "Peugeot|iOn": 2
-, "Citroën|C-Zero": 1
+, "other": 1
 });
 
-db.insert(db.countries.UK, "2017-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 53694
 , "Volkswagen": 43409
 , "BMW": 37606
@@ -224,36 +181,21 @@ db.insert(db.countries.UK, "2017-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Honda": 9279
 , "Citroën": 7975
 , "Jaguar": 6713
-, "Suzuki": 6650
 , "Fiat": 6065
 , "Mazda": 5446
 , "Dacia": 4043
 , "Mitsubishi": 3415
 , "Porsche": 3239
-, "Lexus": 2277
 , "Smart": 1541
-, "DS Automobiles": 1254
 , "Tesla": 1231
 , "MG": 1139
-, "Alfa Romeo": 1024
-, "Abarth": 928
 , "Jeep": 918
 , "Subaru": 682
-, "SsangYong": 584
-, "Infiniti": 424
-, "Maserati": 411
 , "Chevrolet": 73
-, "Dodge": 44
-, "Opel": 35
-, "Chrysler": 25
-, "Cadillac": 20
-, "Lincoln": 18
-, "Buick": 15
-, "Acura": 6
-, "other": 2044
+, "other": 15759
 });
 
-db.insert(db.countries.UK, "2017-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2017-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model S": 779
 , "Tesla|Model X": 452
 , "Nissan|Leaf": 369
@@ -267,10 +209,11 @@ db.insert(db.countries.UK, "2017-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 16
 , "Volkswagen|e-up!": 12
 , "Peugeot|iOn": 5
+, "Mercedes-Benz|B250e": 3
 , "Citroën|C-Zero": 2
 });
 
-db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 82658
 , "Volkswagen": 57865
 , "Vauxhall": 54282
@@ -292,34 +235,19 @@ db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 14289
 , "Volvo": 11771
 , "Fiat": 11611
-, "Suzuki": 11283
 , "Jaguar": 10210
 , "Dacia": 7176
 , "Mitsubishi": 6101
 , "Porsche": 4176
-, "Lexus": 4093
-, "DS Automobiles": 2092
 , "Smart": 2075
 , "MG": 1816
 , "Jeep": 1761
-, "Abarth": 1512
-, "Alfa Romeo": 1497
 , "Subaru": 1097
-, "SsangYong": 861
 , "Tesla": 834
-, "Maserati": 441
-, "Infiniti": 312
-, "Chevrolet": 69
-, "Dodge": 56
-, "Opel": 25
-, "Cadillac": 20
-, "Chrysler": 20
-, "Lincoln": 18
-, "Buick": 3
-, "other": 2486
+, "other": 24788
 });
 
-db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 2015
 , "Tesla|Model S": 541
 , "Renault|Zoe": 429
@@ -333,10 +261,11 @@ db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 9
 , "Volkswagen|e-up!": 4
 , "Jaguar|I-Pace": 3
-, "Peugeot|iOn": 1
+, "Mercedes-Benz|B250e": 2
+, "other": 1
 });
 
-db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 64040
 , "Volkswagen": 56061
 , "BMW": 45284
@@ -356,37 +285,22 @@ db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Citroën": 13484
 , "Volvo": 12026
 , "Honda": 11678
-, "Suzuki": 9120
 , "Jaguar": 8775
 , "Fiat": 8457
 , "Mazda": 7852
 , "Dacia": 6423
 , "Porsche": 4936
 , "Mitsubishi": 4223
-, "Lexus": 2833
 , "MG": 2535
 , "Jeep": 1792
-, "DS Automobiles": 1789
 , "Smart": 1756
-, "Abarth": 1492
-, "Alfa Romeo": 1116
 , "Tesla": 921
 , "Subaru": 788
-, "SsangYong": 753
-, "Maserati": 316
-, "Infiniti": 241
 , "Chevrolet": 78
-, "Dodge": 72
-, "Opel": 36
-, "Chrysler": 23
-, "Cadillac": 20
-, "Lincoln": 18
-, "Buick": 17
-, "Acura": 1
-, "other": 2701
+, "other": 20548
 });
 
-db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1501
 , "Tesla|Model S": 498
 , "Tesla|Model X": 422
@@ -403,7 +317,7 @@ db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Peugeot|iOn": 5
 });
 
-db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 61289
 , "Mercedes-Benz": 46605
 , "Vauxhall": 45693
@@ -423,37 +337,22 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Seat": 14640
 , "Volvo": 14026
 , "Citroën": 13420
-, "Suzuki": 11872
 , "Mazda": 10962
 , "Jaguar": 10819
 , "Fiat": 9307
 , "Mitsubishi": 5741
 , "Dacia": 4613
-, "Lexus": 3743
 , "MG": 2484
 , "Smart": 2357
 , "Porsche": 1908
 , "Jeep": 1499
-, "Abarth": 1461
 , "Subaru": 1197
 , "Tesla": 942
-, "Alfa Romeo": 932
-, "DS Automobiles": 719
-, "SsangYong": 655
-, "Maserati": 308
-, "Infiniti": 122
 , "Chevrolet": 74
-, "Dodge": 74
-, "Chrysler": 35
-, "Cadillac": 25
-, "Opel": 25
-, "Lincoln": 22
-, "Buick": 11
-, "Acura": 2
-, "other": 2742
+, "other": 22748
 });
 
-db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 961
 , "Tesla|Model S": 498
 , "Renault|Zoe": 454
@@ -470,7 +369,7 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|e-up!": 5
 });
 
-db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 49064
 , "Volkswagen": 45713
 , "BMW": 36106
@@ -493,34 +392,19 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Citroën": 8116
 , "Mazda": 7007
 , "Fiat": 6603
-, "Suzuki": 6147
 , "Dacia": 5917
 , "Mitsubishi": 5568
 , "MG": 2407
 , "Porsche": 1962
-, "Lexus": 1769
 , "Smart": 1406
 , "Jeep": 1304
-, "Abarth": 1100
-, "Alfa Romeo": 786
 , "Tesla": 675
 , "Subaru": 637
-, "DS Automobiles": 561
-, "SsangYong": 475
-, "Maserati": 287
-, "Infiniti": 91
-, "Dodge": 73
 , "Chevrolet": 72
-, "Opel": 31
-, "Chrysler": 25
-, "Lincoln": 18
-, "Cadillac": 15
-, "Buick": 14
-, "Acura": 2
-, "other": 1956
+, "other": 13350
 });
 
-db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 939
 , "Renault|Zoe": 696
 , "Jaguar|I-Pace": 534
@@ -535,10 +419,10 @@ db.insert(db.countries.UK, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 75
 , "Nissan|e-NV200": 25
 , "Volkswagen|e-up!": 5
-, "Peugeot|iOn": 1
+, "other": 1
 });
 
-db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 68668
 , "Volkswagen": 60350
 , "Vauxhall": 55300
@@ -559,36 +443,20 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Volvo": 16349
 , "Honda": 15683
 , "Mazda": 13154
-, "Suzuki": 11974
 , "Jaguar": 11555
 , "Fiat": 11041
 , "Dacia": 10863
 , "Mitsubishi": 5786
-, "Lexus": 4412
 , "MG": 3122
 , "Porsche": 2549
 , "Smart": 1710
 , "Jeep": 1604
-, "Abarth": 1223
 , "Subaru": 1074
-, "Alfa Romeo": 1070
-, "DS Automobiles": 975
-, "SsangYong": 730
 , "Tesla": 646
-, "Maserati": 307
-, "Infiniti": 95
-, "Chevrolet": 67
-, "Dodge": 63
-, "Opel": 30
-, "Chrysler": 26
-, "Cadillac": 17
-, "Lincoln": 16
-, "Buick": 12
-, "Acura": 4
-, "other": 2857
+, "other": 23878
 });
 
-db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Nissan|Leaf": 1454
 , "Jaguar|I-Pace": 917
 , "BMW|i3 BEV": 794
@@ -605,10 +473,10 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
 , "Mini|Cooper SE Electric": 4
-, "Peugeot|iOn": 1
+, "other": 1
 });
 
-db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 60619
 , "Volkswagen": 52274
 , "BMW": 43617
@@ -630,35 +498,20 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Honda": 9811
 , "Jaguar": 8735
 , "Mazda": 8494
-, "Suzuki": 8334
 , "Dacia": 7649
 , "Fiat": 6901
 , "Porsche": 4514
 , "Mitsubishi": 4304
 , "MG": 3294
-, "Lexus": 3020
 , "Jeep": 1741
 , "Smart": 1443
 , "Tesla": 976
-, "Alfa Romeo": 886
-, "DS Automobiles": 757
 , "Subaru": 664
-, "Abarth": 639
-, "SsangYong": 380
-, "Maserati": 262
-, "Infiniti": 105
 , "Chevrolet": 85
-, "Dodge": 61
-, "Opel": 38
-, "Lincoln": 28
-, "Cadillac": 23
-, "Chrysler": 22
-, "Buick": 14
-, "Acura": 3
-, "other": 2602
+, "other": 17174
 });
 
-db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Jaguar|I-Pace": 982
 , "BMW|i3 BEV": 969
 , "Volkswagen|e-Golf": 796
@@ -675,13 +528,10 @@ db.insert(db.countries.UK, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 23
 , "Smart|Fortwo ED": 20
 , "Mercedes-Benz|eVito": 12
-, "Volkswagen|e-up!": 3
-, "Citroën|C-Zero": 1
-, "Mini|Cooper SE Electric": 1
-, "Tesla|Roadster": 1
+, "other": 6
 });
 
-db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 60883
 , "Mercedes-Benz": 47760
 , "Volkswagen": 46964
@@ -703,35 +553,20 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 12017
 , "Honda": 11306
 , "Jaguar": 9900
-, "Suzuki": 9410
 , "Fiat": 7226
 , "Dacia": 6762
 , "Tesla": 5974
-, "Lexus": 5415
 , "Mitsubishi": 3881
 , "Porsche": 3343
 , "MG": 3137
 , "Jeep": 1714
-, "DS Automobiles": 1012
-, "Abarth": 990
-, "Alfa Romeo": 978
 , "Subaru": 834
 , "Smart": 693
-, "SsangYong": 557
-, "Maserati": 237
 , "Chevrolet": 103
-, "Infiniti": 87
-, "Dodge": 51
-, "Chrysler": 36
-, "Opel": 32
-, "Cadillac": 30
-, "Lincoln": 27
-, "Buick": 6
-, "Acura": 2
-, "other": 2486
+, "other": 21356
 });
 
-db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5350
 , "Nissan|Leaf": 1386
 , "Volkswagen|e-Golf": 1208
@@ -749,13 +584,10 @@ db.insert(db.countries.UK, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "MG|ZS EV": 66
 , "Smart|Forfour ED": 65
 , "Mercedes-Benz|EQC": 48
-, "Mini|Cooper SE Electric": 4
-, "Mitsubishi|i-MiEV": 1
-, "Peugeot|Partner Electric": 1
-, "Volkswagen|e-up!": 1
+, "other": 7
 });
 
-db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 48841
 , "Volkswagen": 44604
 , "BMW": 38077
@@ -780,32 +612,16 @@ db.insert(db.countries.UK, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Dacia": 5593
 , "Tesla": 5577
 , "Porsche": 5393
-, "Suzuki": 5330
 , "Fiat": 5148
 , "MG": 3763
-, "Lexus": 2891
 , "Mitsubishi": 2735
-, "DS Automobiles": 1490
 , "Jeep": 1373
 , "Subaru": 1135
-, "Alfa Romeo": 650
-, "Abarth": 553
-, "SsangYong": 284
-, "Maserati": 193
 , "Smart": 151
-, "Dodge": 67
-, "Chevrolet": 43
-, "Opel": 24
-, "Chrysler": 22
-, "Lincoln": 21
-, "Infiniti": 19
-, "Cadillac": 16
-, "Buick": 9
-, "Acura": 1
-, "other": 2293
+, "other": 13906
 });
 
-db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5122
 , "Nissan|Leaf": 1683
 , "Volkswagen|e-Golf": 1310
@@ -824,12 +640,10 @@ db.insert(db.countries.UK, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 73
 , "Smart|Forfour ED": 25
 , "Mini|Cooper SE Electric": 12
-, "Mercedes-Benz|eVito": 5
-, "DS Automobiles|DS 3 Crossback E-Tense": 4
-, "Volkswagen|e-up!": 2
+, "other": 7
 });
 
-db.insert(db.countries.UK, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 45684
 , "Ford": 44308
 , "BMW": 34531
@@ -852,34 +666,19 @@ db.insert(db.countries.UK, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jaguar": 8193
 , "Mazda": 7270
 , "Fiat": 6287
-, "Suzuki": 6257
 , "Tesla": 5700
 , "MG": 5487
 , "Dacia": 5046
-, "Lexus": 4488
 , "Mitsubishi": 3926
 , "Porsche": 2868
 , "Jeep": 1061
-, "DS Automobiles": 685
-, "Alfa Romeo": 678
-, "Abarth": 613
-, "SsangYong": 484
 , "Subaru": 401
 , "Smart": 248
-, "Maserati": 177
 , "Chevrolet": 58
-, "Dodge": 54
-, "Opel": 31
-, "Cadillac": 26
-, "Chrysler": 19
-, "Lincoln": 14
-, "Buick": 9
-, "Infiniti": 5
-, "Acura": 1
-, "other": 2294
+, "other": 15835
 });
 
-db.insert(db.countries.UK, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5365
 , "Nissan|Leaf": 2659
 , "MG|ZS EV": 1795
@@ -902,14 +701,13 @@ db.insert(db.countries.UK, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Fortwo ED": 110
 , "Volkswagen|e-up!": 91
 , "Škoda|Citigo-e": 80
-, "DS Automobiles|DS 3 Crossback E-Tense": 79
 , "Nissan|e-NV200": 74
 , "Seat|Mii Electric": 57
 , "Porsche|Taycan": 49
-, "Mitsubishi|i-MiEV": 1
+, "other": 1
 });
 
-db.insert(db.countries.UK, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 16044
 , "Volkswagen": 14014
 , "Toyota": 12756
@@ -935,29 +733,15 @@ db.insert(db.countries.UK, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Fiat": 2219
 , "Honda": 1877
 , "Mazda": 1594
-, "Suzuki": 1528
-, "Lexus": 1497
 , "Porsche": 1335
 , "Mitsubishi": 869
 , "Jeep": 547
-, "Alfa Romeo": 305
-, "Abarth": 284
-, "DS Automobiles": 201
-, "SsangYong": 186
 , "Smart": 181
 , "Subaru": 87
-, "Maserati": 63
-, "Dodge": 19
-, "Chevrolet": 14
-, "Opel": 9
-, "Cadillac": 7
-, "Chrysler": 7
-, "Lincoln": 3
-, "Infiniti": 1
-, "other": 786
+, "other": 4910
 });
 
-db.insert(db.countries.UK, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 4029
 , "Renault|Zoe": 1136
 , "Jaguar|I-Pace": 1030
@@ -980,15 +764,14 @@ db.insert(db.countries.UK, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mercedes-Benz|EQC": 121
 , "Smart|Forfour ED": 110
 , "Smart|Fortwo ED": 69
-, "DS Automobiles|DS 3 Crossback E-Tense": 42
 , "Volkswagen|e-up!": 36
 , "Škoda|Citigo-e": 35
 , "Nissan|e-NV200": 30
 , "Seat|Mii Electric": 20
-, "Honda|e": 4
+, "other": 4
 });
 
-db.insert(db.countries.UK, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 58730
 , "Volkswagen": 52331
 , "Audi": 40157
@@ -1010,35 +793,20 @@ db.insert(db.countries.UK, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Citroën": 10681
 , "Mazda": 10186
 , "Dacia": 8974
-, "Suzuki": 8662
 , "Jaguar": 8103
 , "Fiat": 7568
 , "Tesla": 6877
 , "MG": 6573
-, "Lexus": 5378
 , "Porsche": 4703
 , "Mitsubishi": 3101
 , "Jeep": 1855
-, "Abarth": 922
-, "DS Automobiles": 889
-, "Alfa Romeo": 633
-, "SsangYong": 615
 , "Smart": 585
 , "Subaru": 557
 , "Polestar": 252
-, "Maserati": 204
-, "Dodge": 52
-, "Chevrolet": 39
-, "Lincoln": 19
-, "Chrysler": 18
-, "Opel": 17
-, "Cadillac": 14
-, "Buick": 11
-, "Infiniti": 8
-, "other": 2193
+, "other": 19674
 });
 
-db.insert(db.countries.UK, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 5988
 , "Renault|Zoe": 3072
 , "Kia|Niro EV": 2988
@@ -1064,19 +832,15 @@ db.insert(db.countries.UK, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 285
 , "Polestar|2": 249
 , "Smart|Fortwo ED": 242
-, "DS Automobiles|DS 3 Crossback E-Tense": 139
 , "Seat|Mii Electric": 117
 , "Škoda|Citigo-e": 115
 , "Volkswagen|e-up!": 86
 , "Nissan|e-NV200": 72
 , "Mercedes-Benz|eVito": 27
-, "Vauxhall|Vivaro-e": 5
-, "Citroën|ë-SpaceTourer": 2
-, "MG|MG5 EV": 1
-, "Mitsubishi|i-MiEV": 1
+, "other": 9
 });
 
-db.insert(db.countries.UK, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 38103
 , "Ford": 35314
 , "BMW": 31129
@@ -1102,33 +866,18 @@ db.insert(db.countries.UK, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "MG": 4210
 , "Mazda": 4066
 , "Fiat": 3616
-, "Suzuki": 3325
 , "Dacia": 2440
-, "Lexus": 2394
 , "Mitsubishi": 1569
 , "Jeep": 1350
-, "Alfa Romeo": 620
-, "DS Automobiles": 615
 , "Polestar": 599
-, "Abarth": 482
 , "Subaru": 454
 , "Smart": 341
-, "SsangYong": 200
-, "Maserati": 173
 , "Cupra": 162
-, "Dodge": 67
 , "Chevrolet": 40
-, "Opel": 25
-, "Cadillac": 21
-, "Lincoln": 15
-, "Chrysler": 12
-, "Buick": 9
-, "Acura": 7
-, "Infiniti": 2
-, "other": 1972
+, "other": 9939
 });
 
-db.insert(db.countries.UK, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 6968
 , "Volkswagen|ID.3": 4179
 , "Jaguar|I-Pace": 4093
@@ -1154,7 +903,6 @@ db.insert(db.countries.UK, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 270
 , "Kia|Soul EV": 202
 , "Smart|Fortwo ED": 200
-, "DS Automobiles|DS 3 Crossback E-Tense": 190
 , "Smart|Forfour ED": 138
 , "Seat|Mii Electric": 111
 , "Nissan|e-NV200": 99
@@ -1163,12 +911,10 @@ db.insert(db.countries.UK, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Škoda|Citigo-e": 59
 , "Ford|Mustang Mach-E": 39
 , "Volkswagen|e-up!": 32
-, "Vauxhall|Vivaro-e": 20
-, "Citroën|ë-SpaceTourer": 2
-, "Lexus|UX 300e": 1
+, "other": 26
 });
 
-db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 36764
 , "Ford": 36496
 , "BMW": 32221
@@ -1192,8 +938,6 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 5444
 , "Jaguar": 5312
 , "Honda": 4906
-, "Suzuki": 3907
-, "Lexus": 3417
 , "Fiat": 3395
 , "Dacia": 3267
 , "Porsche": 3061
@@ -1201,25 +945,13 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Cupra": 924
 , "Polestar": 922
 , "Jeep": 915
-, "Abarth": 520
 , "Subaru": 480
-, "DS Automobiles": 416
 , "Smart": 402
-, "Alfa Romeo": 376
-, "SsangYong": 241
-, "Maserati": 158
-, "Dodge": 75
 , "Chevrolet": 48
-, "Opel": 23
-, "Chrysler": 20
-, "Lincoln": 20
-, "Cadillac": 15
-, "Buick": 9
-, "Acura": 2
-, "other": 2072
+, "other": 11271
 });
 
-db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 7164
 , "Kia|Niro EV": 3268
 , "Nissan|Leaf": 2293
@@ -1249,9 +981,7 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mercedes-Benz|EQA": 194
 , "Nissan|e-NV200": 177
 , "Volvo|XC40 Recharge pure electric": 154
-, "DS Automobiles|DS 3 Crossback E-Tense": 139
 , "Smart|Forfour ED": 127
-, "Lexus|UX 300e": 117
 , "Honda|e": 95
 , "Tesla|Model X": 50
 , "Volkswagen|e-Golf": 45
@@ -1259,15 +989,13 @@ db.insert(db.countries.UK, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Škoda|Citigo-e": 33
 , "Mercedes-Benz|eVito": 29
 , "Vauxhall|Vivaro-e": 24
+, "Peugeot|e-Traveller": 21
 , "Tesla|Model S": 18
 , "Volkswagen|e-up!": 16
-, "Citroën|ë-SpaceTourer": 2
-, "Ford|Mustang Mach-E": 2
-, "Fiat|500e": 1
-, "Tesla|Roadster": 1
+, "other": 6
 });
 
-db.insert(db.countries.UK, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 49560
 , "Ford": 38866
 , "Audi": 38541
@@ -1291,36 +1019,20 @@ db.insert(db.countries.UK, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Tesla": 7541
 , "MG": 7468
 , "Jaguar": 6867
-, "Suzuki": 6859
 , "Fiat": 6578
-, "Lexus": 3767
 , "Dacia": 3597
 , "Porsche": 2981
 , "Mitsubishi": 2428
 , "Cupra": 2238
 , "Jeep": 1321
-, "Abarth": 752
 , "Polestar": 720
 , "Subaru": 608
-, "Alfa Romeo": 448
-, "DS Automobiles": 442
 , "Smart": 397
-, "SsangYong": 377
-, "Maserati": 185
 , "Chevrolet": 49
-, "Dodge": 49
-, "Genesis": 28
-, "Opel": 25
-, "Chrysler": 19
-, "Cadillac": 9
-, "Lincoln": 9
-, "Buick": 5
-, "Acura": 1
-, "Infiniti": 1
-, "other": 2153
+, "other": 15129
 });
 
-db.insert(db.countries.UK, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 7536
 , "Volkswagen|ID.3": 3631
 , "Kia|Niro EV": 2500
@@ -1356,20 +1068,14 @@ db.insert(db.countries.UK, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Fortwo ED": 230
 , "Smart|Forfour ED": 165
 , "Volkswagen|e-up!": 133
-, "DS Automobiles|DS 3 Crossback E-Tense": 116
-, "Lexus|UX 300e": 111
 , "Nissan|e-NV200": 87
 , "Mercedes-Benz|EQV": 85
 , "Vauxhall|Vivaro-e": 35
 , "Mercedes-Benz|eVito": 31
-, "Škoda|Citigo-e": 13
-, "Citroën|ë-SpaceTourer": 5
-, "Volkswagen|e-Golf": 5
-, "Tesla|Model S": 3
-, "Tesla|Model X": 1
+, "other": 43
 });
 
-db.insert(db.countries.UK, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 36530
 , "Toyota": 32766
 , "Kia": 28802
@@ -1392,37 +1098,22 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Tesla": 7382
 , "Renault": 7338
 , "Citroën": 7304
-, "Suzuki": 7149
 , "Fiat": 6400
 , "Dacia": 6353
-, "Lexus": 4873
 , "Jaguar": 3882
 , "Porsche": 2331
 , "Cupra": 2270
 , "Jeep": 1775
 , "Subaru": 987
-, "DS Automobiles": 870
 , "Polestar": 784
-, "Abarth": 698
 , "Mitsubishi": 640
-, "SsangYong": 510
-, "Alfa Romeo": 468
 , "Smart": 263
-, "Maserati": 207
 , "Genesis": 70
-, "Dodge": 67
 , "Chevrolet": 60
-, "Opel": 26
-, "Chrysler": 18
-, "Lincoln": 16
-, "Cadillac": 14
-, "Buick": 10
-, "Infiniti": 4
-, "Acura": 3
-, "other": 1989
+, "other": 16922
 });
 
-db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 7379
 , "Volkswagen|ID.3": 3978
 , "Kia|Niro EV": 3228
@@ -1456,24 +1147,18 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volvo|XC40 Recharge pure electric": 367
 , "Kia|Soul EV": 328
 , "Volkswagen|e-up!": 273
-, "DS Automobiles|DS 3 Crossback E-Tense": 270
 , "Honda|e": 251
-, "Lexus|UX 300e": 199
 , "Mercedes-Benz|EQV": 160
 , "Smart|Fortwo ED": 159
 , "Smart|Forfour ED": 100
 , "Nissan|e-NV200": 75
 , "Vauxhall|Vivaro-e": 49
+, "Peugeot|e-Traveller": 35
 , "Mercedes-Benz|eVito": 27
-, "BMW|iX": 19
-, "Škoda|Citigo-e": 8
-, "Tesla|Model S": 2
-, "Citroën|ë-SpaceTourer": 1
-, "Mercedes-Benz|EQS": 1
-, "Tesla|Model X": 1
+, "other": 32
 });
 
-db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 27305
 , "BMW": 23556
 , "Audi": 22061
@@ -1500,33 +1185,18 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Fiat": 4196
 , "Mazda": 4107
 , "Jaguar": 3449
-, "Suzuki": 3085
 , "Cupra": 2156
-, "Lexus": 1878
 , "Polestar": 1669
 , "Subaru": 683
 , "Jeep": 673
-, "DS Automobiles": 636
 , "Smart": 481
-, "Alfa Romeo": 468
-, "SsangYong": 411
-, "Abarth": 309
-, "Maserati": 236
 , "Mitsubishi": 118
 , "Chevrolet": 88
-, "Dodge": 79
 , "Genesis": 40
-, "Opel": 24
-, "Cadillac": 23
-, "Chrysler": 18
-, "Buick": 16
-, "Lincoln": 15
-, "Infiniti": 3
-, "Acura": 1
-, "other": 1973
+, "other": 9175
 });
 
-db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 12707
 , "Kia|Niro EV": 3274
 , "Mini|Cooper SE Electric": 3203
@@ -1557,13 +1227,11 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|EV6": 920
 , "Volvo|XC40 Recharge pure electric": 856
 , "Ford|Mustang Mach-E": 669
-, "Lexus|UX 300e": 650
 , "Mazda|MX-30": 612
 , "Citroën|ë-C4": 489
 , "BMW|iX": 380
 , "Vauxhall|Vivaro-e": 304
 , "Smart|Forfour ED": 298
-, "DS Automobiles|DS 3 Crossback E-Tense": 248
 , "Mercedes-Benz|EQV": 204
 , "Smart|Fortwo ED": 178
 , "Honda|e": 117
@@ -1573,14 +1241,10 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Citroën|Berlingo Electric": 71
 , "Nissan|e-NV200": 59
 , "Mercedes-Benz|eVito": 46
-, "Volvo|C40 Recharge": 29
-, "Citroën|ë-SpaceTourer": 28
-, "Vauxhall|Combo-e": 18
-, "Peugeot|e-Rifter": 11
-, "other": 18
+, "other": 111
 });
 
-db.insert(db.countries.UK, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Kia": 32060
 , "Toyota": 31028
 , "Ford": 30260
@@ -1605,36 +1269,20 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 6794
 , "Fiat": 6077
 , "Dacia": 5386
-, "Suzuki": 5375
 , "Porsche": 4336
 , "Jaguar": 3454
-, "Lexus": 3166
 , "Cupra": 1901
 , "Polestar": 1441
-, "DS Automobiles": 707
 , "Jeep": 657
-, "Alfa Romeo": 454
 , "Smart": 440
 , "Subaru": 438
-, "SsangYong": 406
-, "Abarth": 280
-, "Maserati": 201
 , "Mitsubishi": 112
 , "Genesis": 90
 , "Chevrolet": 66
-, "Dodge": 58
-, "Cadillac": 21
-, "Chrysler": 21
-, "Opel": 15
-, "Lincoln": 12
-, "Buick": 7
-, "Infiniti": 4
-, "Acura": 2
-, "BYD": 2
-, "other": 2325
+, "other": 13056
 });
 
-db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model 3": 7797
 , "Tesla|Model Y": 7779
 , "Kia|Niro EV": 3849
@@ -1675,9 +1323,7 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 236
 , "Mazda|MX-30": 201
 , "Smart|Fortwo ED": 196
-, "DS Automobiles|DS 3 Crossback E-Tense": 195
 , "Mercedes-Benz|EQV": 170
-, "Lexus|UX 300e": 148
 , "Honda|e": 135
 , "Vauxhall|Vivaro-e": 123
 , "Mercedes-Benz|EQS": 120
@@ -1685,10 +1331,12 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Cupra|Born": 104
 , "Nissan|e-NV200": 60
 , "Citroën|Berlingo Electric": 46
-, "other": 123
+, "Peugeot|e-Rifter": 37
+, "Mercedes-Benz|eVito": 35
+, "other": 23
 });
 
-db.insert(db.countries.UK, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Ford": 31502
 , "Volkswagen": 30301
 , "Audi": 26877
@@ -1713,34 +1361,20 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Tesla": 5730
 , "Fiat": 5400
 , "Mazda": 4988
-, "Suzuki": 4577
 , "Porsche": 4146
 , "Jaguar": 3497
 , "Cupra": 3167
-, "Lexus": 1741
 , "Polestar": 1394
-, "DS Automobiles": 868
 , "Jeep": 804
-, "Abarth": 701
-, "Alfa Romeo": 422
-, "SsangYong": 382
 , "Smart": 361
 , "Subaru": 354
-, "Maserati": 227
 , "Genesis": 211
 , "Mitsubishi": 81
 , "Chevrolet": 59
-, "Dodge": 44
-, "Opel": 24
-, "Cadillac": 19
-, "Chrysler": 14
-, "Lincoln": 5
-, "Buick": 3
-, "Acura": 1
-, "other": 2228
+, "other": 11256
 });
 
-db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model Y": 4234
 , "Kia|Niro EV": 3043
 , "Hyundai|Ioniq Electric": 2504
@@ -1787,14 +1421,18 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Fortwo ED": 147
 , "Mercedes-Benz|EQE": 104
 , "Volkswagen|e-up!": 96
-, "Lexus|UX 300e": 88
 , "Vauxhall|Vivaro-e": 87
-, "DS Automobiles|DS 3 Crossback E-Tense": 81
 , "Mercedes-Benz|EQV": 76
-, "other": 277
+, "Mercedes-Benz|eVito": 49
+, "Genesis|GV60": 47
+, "Citroën|other": 52
+, "Peugeot|other": 47
+, "Vauxhall|other": 41
+, "Nissan|other": 35
+, "other": 14
 });
 
-db.insert(db.countries.UK, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 37276
 , "Ford": 34455
 , "Toyota": 32814
@@ -1819,35 +1457,20 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Mazda": 7113
 , "Cupra": 5436
 , "Seat": 4229
-, "Suzuki": 4156
 , "Fiat": 4075
 , "Porsche": 3639
 , "Jaguar": 3555
-, "Lexus": 2383
-, "DS Automobiles": 1182
 , "Polestar": 1095
 , "Jeep": 707
-, "Alfa Romeo": 555
 , "Subaru": 517
-, "SsangYong": 436
 , "Genesis": 267
 , "Smart": 221
-, "Maserati": 166
-, "Abarth": 112
 , "Mitsubishi": 92
 , "Chevrolet": 54
-, "Dodge": 51
-, "Opel": 22
-, "Chrysler": 18
-, "Buick": 7
-, "Cadillac": 7
-, "Lincoln": 7
-, "Acura": 4
-, "Infiniti": 2
-, "other": 1783
+, "other": 10891
 });
 
-db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model Y": 8644
 , "Kia|Niro EV": 2475
 , "Nissan|Leaf": 2415
@@ -1888,7 +1511,6 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volvo|XC40 Recharge pure electric": 418
 , "Mercedes-Benz|EQS": 290
 , "Volvo|C40 Recharge": 273
-, "DS Automobiles|DS 3 Crossback E-Tense": 266
 , "Mercedes-Benz|EQE": 239
 , "Kia|Soul EV": 234
 , "Mazda|MX-30": 198
@@ -1897,11 +1519,15 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Honda|e": 101
 , "Citroën|Berlingo Electric": 93
 , "Smart|Fortwo ED": 63
-, "Lexus|UX 300e": 58
-, "other": 281
+, "Renault|Megane E-Tech": 50
+, "Vauxhall|Combo-e": 47
+, "Vauxhall|other": 42
+, "Peugeot|other": 33
+, "Mercedes-Benz|other": 30
+, "other": 84
 });
 
-db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 40641
 , "Ford": 32463
 , "Audi": 30389
@@ -1928,33 +1554,19 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Seat": 5201
 , "Fiat": 4332
 , "Cupra": 3917
-, "Lexus": 3482
 , "Polestar": 3420
-, "Suzuki": 3308
 , "Jaguar": 2164
-, "DS Automobiles": 940
 , "Subaru": 620
 , "Jeep": 538
 , "Genesis": 435
-, "Abarth": 434
-, "SsangYong": 330
-, "Alfa Romeo": 305
 , "Smart": 187
-, "Maserati": 108
 , "Chevrolet": 97
 , "Mitsubishi": 70
 , "GWM": 68
-, "Dodge": 54
-, "Opel": 24
-, "Cadillac": 12
-, "Chrysler": 9
-, "Lincoln": 6
-, "Buick": 2
-, "Infiniti": 2
-, "other": 1945
+, "other": 10961
 });
 
-db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162962/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model Y": 14897
 , "Tesla|Model 3": 7514
 , "Nissan|Leaf": 3911
@@ -1999,16 +1611,20 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID. Buzz": 361
 , "Genesis|GV60": 346
 , "Toyota|bZ4X": 268
-, "DS Automobiles|DS 3 Crossback E-Tense": 177
 , "Mercedes-Benz|EQE": 174
 , "Citroën|Berlingo Electric": 173
 , "Mazda|MX-30": 167
 , "Smart|Fortwo ED": 158
 , "Mercedes-Benz|EQS": 154
-, "other": 708
+, "Subaru|Solterra": 126
+, "Vauxhall|other": 151
+, "BMW|other": 71
+, "GWM|other": 68
+, "Mercedes-Benz|other": 50
+, "other": 133
 });
 
-db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1178602/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 42065
 , "Ford": 36824
 , "Toyota": 34736
@@ -2032,37 +1648,21 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Honda": 8672
 , "Renault": 8584
 , "Dacia": 7532
-, "Suzuki": 6907
 , "Porsche": 6103
 , "Fiat": 5962
 , "Cupra": 5283
 , "Polestar": 3521
 , "Jaguar": 3429
-, "Lexus": 2577
 , "Jeep": 1063
-, "DS Automobiles": 802
 , "Subaru": 667
-, "SsangYong": 419
-, "Alfa Romeo": 385
 , "Genesis": 361
-, "Maserati": 318
 , "GWM": 214
-, "Abarth": 102
 , "Mitsubishi": 80
 , "Smart": 72
-, "Dodge": 49
-, "Chevrolet": 40
-, "BYD": 34
-, "Opel": 15
-, "Cadillac": 11
-, "Chrysler": 10
-, "Lincoln": 6
-, "Buick": 4
-, "Acura": 3
-, "other": 2536
+, "other": 14218
 });
 
-db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1178602/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model Y": 9952
 , "MG|MG4 EV": 5235
 , "Audi|Q4 e-tron": 4220
@@ -2109,14 +1709,23 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Genesis|GV60": 240
 , "GWM|Ora 03": 214
 , "Toyota|bZ4X": 210
-, "Lexus|UX 300e": 201
 , "Mercedes-Benz|EQS": 163
 , "Mazda|MX-30": 157
 , "Kia|Soul EV": 129
-, "other": 821
+, "Volkswagen|e-up!": 108
+, "Peugeot|other": 82
+, "BMW|other": 76
+, "Vauxhall|other": 66
+, "Smart|other": 64
+, "Genesis|other": 62
+, "Citroën|other": 55
+, "Honda|other": 54
+, "Subaru|other": 50
+, "Mercedes-Benz|other": 47
+, "other": 38
 });
 
-db.insert(db.countries.UK, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6537da845e47a5000d989907/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Volkswagen": 39755
 , "Ford": 36284
 , "Audi": 35751
@@ -2142,35 +1751,21 @@ db.insert(db.countries.UK, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Seat": 6224
 , "Cupra": 6132
 , "Citroën": 6047
-, "Suzuki": 5361
-, "Lexus": 4166
 , "Jaguar": 3574
 , "Fiat": 3473
 , "Polestar": 3342
-, "DS Automobiles": 732
 , "Subaru": 636
 , "Jeep": 618
 , "Genesis": 452
-, "SsangYong": 445
-, "Alfa Romeo": 363
-, "Maserati": 230
-, "Abarth": 189
 , "Smart": 88
 , "GWM": 84
 , "Mitsubishi": 78
 , "BYD": 74
 , "Chevrolet": 53
-, "Dodge": 27
-, "Chrysler": 17
-, "Opel": 15
-, "Cadillac": 9
-, "Buick": 2
-, "Acura": 1
-, "Lincoln": 1
-, "other": 2735
+, "other": 14293
 });
 
-db.insert(db.countries.UK, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6537da845e47a5000d989907/df_VEH0160_UK.csv",
+db.insert(db.countries.UK, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
 { "Tesla|Model Y": 9598
 , "MG|MG4 EV": 5597
 , "Polestar|2": 3342
@@ -2216,12 +1811,21 @@ db.insert(db.countries.UK, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Citroën|Berlingo Electric": 298
 , "Genesis|GV60": 241
 , "Toyota|bZ4X": 197
-, "Lexus|RZ": 182
 , "Mazda|MX-30": 150
 , "BMW|i7": 136
 , "Mercedes-Benz|EQS": 125
 , "Volkswagen|e-up!": 119
-, "other": 917
+, "Citroën|ë-SpaceTourer": 113
+, "Smart|other": 85
+, "GWM|other": 84
+, "Vauxhall|other": 81
+, "Genesis|other": 71
+, "Kia|other": 67
+, "BYD|other": 65
+, "Peugeot|other": 57
+, "Mercedes-Benz|other": 51
+, "Tesla|other": 51
+, "other": 259
 });
 
 db.insert(db.countries.UK, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -2244,38 +1848,24 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Land Rover": 11962
 , "Mini": 10206
 , "Mazda": 8873
-, "Suzuki": 8580
 , "Seat": 8421
 , "Citroën": 8159
 , "Cupra": 7333
 , "Honda": 7064
 , "Dacia": 6051
 , "Porsche": 5481
-, "Lexus": 5292
 , "Fiat": 4912
 , "Jaguar": 3506
 , "Polestar": 3253
 , "Subaru": 859
 , "Jeep": 838
-, "Alfa Romeo": 454
-, "DS Automobiles": 449
-, "Lotus": 437
-, "SsangYong": 406
-, "Abarth": 388
-, "Bentley": 379
 , "GWM": 370
 , "BYD": 337
-, "Ferrari": 267
-, "Aston Martin": 256
 , "Genesis": 228
-, "Maserati": 187
 , "Smart": 187
-, "Lamborghini": 178
-, "Rolls-Royce": 126
 , "Mitsubishi": 79
-, "Alpine": 76
 , "Chevrolet": 66
-, "other": 878
+, "other": 18353
 });
 
 db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -2290,7 +1880,7 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Volkswagen|ID.4": 3119
 , "Škoda|Enyaq": 2279
 , "MG|ZS EV": 2228
-, "Audi|Q8 e-tron": 2178
+, "Audi|Q8 e-tron": 2187
 , "Volkswagen|ID.3": 2103
 , "Kia|EV6": 2102
 , "Cupra|Born": 2096
@@ -2326,8 +1916,20 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoe": 227
 , "Citroën|Berlingo Electric": 178
 , "Jeep|Avenger EV": 165
-, "Lexus|RZ": 161
+, "Vauxhall|Astra Electric": 162
 , "BMW|i7": 159
 , "Mercedes-Benz|EQS": 154
-, "other": 1295
+, "Genesis|other": 183
+, "Smart|other": 176
+, "Kia|other": 117
+, "Toyota|other": 117
+, "Peugeot|other": 111
+, "BMW|other": 107
+, "Vauxhall|other": 102
+, "Subaru|other": 75
+, "Volkswagen|other": 61
+, "Citroën|other": 54
+, "Honda|other": 54
+, "Tesla|other": 53
+, "other": 225
 });
