@@ -11,7 +11,6 @@ db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jeep": 228105
 , "Hyundai": 144244
 , "Subaru": 140702
-, "GMC": 131344
 , "Kia": 126945
 , "Ram": 113654
 , "Mercedes-Benz": 86279
@@ -28,7 +27,7 @@ db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 8049
 , "Genesis": 4362
 , "Fiat": 4014
-, "other": 427076
+, "other": 558420
 });
 
 db.insert(db.countries.US, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -50,7 +49,6 @@ db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Subaru": 173157
 , "Kia": 166618
 , "Ram": 146687
-, "GMC": 113389
 , "Volkswagen": 88935
 , "Mercedes-Benz": 88404
 , "Mazda": 79929
@@ -65,7 +63,7 @@ db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 6738
 , "Fiat": 4271
 , "Genesis": 2900
-, "other": 431442
+, "other": 544831
 });
 
 db.insert(db.countries.US, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -87,7 +85,6 @@ db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 165006
 , "Kia": 158479
 , "Ram": 156320
-, "GMC": 119584
 , "Volkswagen": 93330
 , "Mercedes-Benz": 77656
 , "BMW": 71679
@@ -102,7 +99,7 @@ db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 6389
 , "Fiat": 3799
 , "Genesis": 1647
-, "other": 406545
+, "other": 526129
 });
 
 db.insert(db.countries.US, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -124,7 +121,6 @@ db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Subaru": 176717
 , "Hyundai": 174843
 , "Kia": 137631
-, "GMC": 123576
 , "Mercedes-Benz": 100353
 , "Volkswagen": 87836
 , "BMW": 85949
@@ -139,7 +135,7 @@ db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 9307
 , "Fiat": 3437
 , "Genesis": 1031
-, "other": 419035
+, "other": 542611
 });
 
 db.insert(db.countries.US, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -162,7 +158,6 @@ db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 147585
 , "Ram": 137013
 , "Kia": 136596
-, "GMC": 125579
 , "Volkswagen": 85872
 , "Mercedes-Benz": 78667
 , "BMW": 73888
@@ -177,7 +172,7 @@ db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 8905
 , "Genesis": 4203
 , "Fiat": 2214
-, "other": 396851
+, "other": 522430
 });
 
 db.insert(db.countries.US, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -200,7 +195,6 @@ db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 185743
 , "Subaru": 182771
 , "Kia": 168248
-, "GMC": 151701
 , "Volkswagen": 98736
 , "BMW": 82551
 , "Mercedes-Benz": 80463
@@ -215,7 +209,7 @@ db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 6060
 , "Genesis": 5805
 , "Fiat": 2889
-, "other": 411530
+, "other": 563231
 });
 
 db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -239,7 +233,6 @@ db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Ram": 179200
 , "Hyundai": 173028
 , "Kia": 158754
-, "GMC": 140790
 , "Volkswagen": 93547
 , "Mercedes-Benz": 89636
 , "BMW": 75987
@@ -254,7 +247,7 @@ db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 6150
 , "Genesis": 4902
 , "Fiat": 2361
-, "other": 394381
+, "other": 535171
 });
 
 db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -278,7 +271,6 @@ db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 182415
 , "Subaru": 174788
 , "Kia": 151015
-, "GMC": 146880
 , "Mercedes-Benz": 103363
 , "BMW": 92399
 , "Volkswagen": 85167
@@ -293,7 +285,7 @@ db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 8339
 , "Genesis": 6327
 , "Fiat": 1740
-, "other": 414485
+, "other": 561365
 });
 
 db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -318,7 +310,6 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Kia": 137945
 , "Hyundai": 130875
 , "Subaru": 130591
-, "GMC": 118718
 , "Mercedes-Benz": 75266
 , "Volkswagen": 75065
 , "Mazda": 67670
@@ -333,7 +324,7 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 5236
 , "Genesis": 3955
 , "Fiat": 1128
-, "other": 322490
+, "other": 441208
 });
 
 db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -359,7 +350,6 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Subaru": 136519
 , "Ram": 127682
 , "Kia": 125302
-, "GMC": 101759
 , "Volkswagen": 69933
 , "Mercedes-Benz": 69505
 , "Mazda": 61199
@@ -374,7 +364,7 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 4320
 , "Genesis": 3585
 , "Fiat": 1339
-, "other": 235459
+, "other": 337218
 });
 
 db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -400,7 +390,6 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 170828
 , "Subaru": 169446
 , "Kia": 165013
-, "GMC": 132746
 , "Volkswagen": 84514
 , "Mazda": 74411
 , "Mercedes-Benz": 69631
@@ -415,7 +404,7 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 4700
 , "Genesis": 3745
 , "Fiat": 1102
-, "other": 350868
+, "other": 483614
 });
 
 db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -440,7 +429,6 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Ram": 181295
 , "Hyundai": 178844
 , "Subaru": 175382
-, "GMC": 162090
 , "Kia": 157745
 , "BMW": 98750
 , "Volkswagen": 94122
@@ -456,7 +444,7 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 5500
 , "Genesis": 5099
 , "Fiat": 735
-, "other": 376555
+, "other": 538645
 });
 
 db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -483,7 +471,6 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Ram": 162921
 , "Subaru": 160426
 , "Kia": 153637
-, "GMC": 149500
 , "Mercedes-Benz": 90032
 , "Volkswagen": 88186
 , "Mazda": 78794
@@ -498,7 +485,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 6284
 , "Jaguar": 4048
 , "Fiat": 815
-, "other": 348807
+, "other": 498307
 });
 
 db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -526,7 +513,6 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Kia": 206457
 , "Ram": 187750
 , "Subaru": 160824
-, "GMC": 153026
 , "Volkswagen": 113624
 , "Mazda": 105909
 , "BMW": 96561
@@ -541,7 +527,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 9340
 , "Jaguar": 4883
 , "Fiat": 892
-, "other": 351347
+, "other": 504373
 });
 
 db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -570,7 +556,6 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 155955
 , "Ram": 144741
 , "Tesla": 99100
-, "GMC": 97257
 , "Mazda": 84046
 , "Volkswagen": 79314
 , "BMW": 75620
@@ -584,7 +569,7 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 6444
 , "Jaguar": 3121
 , "Fiat": 400
-, "other": 312894
+, "other": 410151
 });
 
 db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -613,7 +598,6 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Hyundai": 150769
 , "Kia": 140386
 , "Subaru": 121008
-, "GMC": 100917
 , "BMW": 93033
 , "Volkswagen": 85338
 , "Tesla": 78696
@@ -627,7 +611,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Genesis": 15301
 , "Mini": 13100
 , "Jaguar": 5097
-, "other": 267393
+, "other": 368310
 });
 
 db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -636,6 +620,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Ford|Mustang Mach-E": 8285
 , "Genesis|GV70": 5461
 , "Genesis|GV80": 4852
+, "Volvo|XC40 Recharge pure electric": 4713
 , "Volkswagen|ID.4": 4464
 , "Nissan|Leaf": 4164
 , "Tesla|Model S": 3699
@@ -652,7 +637,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 });
 
 db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "Calculated from yearly data from https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-brand/ TODO: numbers per brand wanted",
-{ "other": 3961354
+{ "other": 3524572
 });
 
 db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/04/27/us-electric-vehicle-sales-up-66-in-1st-quarter/ TODO: numbers per model wanted",
@@ -660,30 +645,32 @@ db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://c
 });
 
 db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
-{ "Toyota": 416834
+{ "Ford": 453579
+, "Toyota": 416834
 , "Chevrolet": 383816
-, "Ford": 309291
 , "Honda": 215165
 , "Jeep": 186662
 , "Hyundai": 184191
+, "Kia": 172847
 , "Nissan": 172620
 , "Ram": 137873
-, "GMC": 132057
 , "Subaru": 131449
 , "Tesla": 118700
-, "Kia": 107206
+, "Mercedes-Benz": 98809
 , "BMW": 78903
 , "Volkswagen": 77289
 , "Mazda": 60535
 , "Audi": 49642
+, "Volvo": 27828
 , "Mitsubishi": 21871
 , "Porsche": 19489
-, "Volvo": 19394
 , "Genesis": 13945
+, "Land Rover": 10471
 , "Mini": 5129
 , "Polestar": 2300
+, "Jaguar": 1950
 , "Rivian": 700
-, "other": 258765
+, "other": 397716
 });
 
 db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -695,6 +682,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 7287
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
+, "Volvo|XC40 Recharge pure electric": 4834
 , "Genesis|GV80": 4346
 , "Genesis|GV70": 4199
 , "Audi|Q8 e-tron": 3938
@@ -707,12 +695,11 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX": 1081
 , "Audi|e-tron GT": 839
 , "Rivian|R1T": 700
-, "GMC|Hummer EV": 273
 , "Genesis|GV60": 233
 , "Toyota|bZ4X": 232
 , "Mazda|MX-30": 136
 , "Jaguar|I-Pace": 121
-, "other": 500
+, "other": 773
 });
 
 db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
@@ -726,8 +713,8 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Nissan": 142848
 , "Ram": 139295
 , "Subaru": 137320
-, "GMC": 120512
 , "Tesla": 113998
+, "Mercedes-Benz": 86412
 , "Volkswagen": 86079
 , "BMW": 78029
 , "Mazda": 72589
@@ -736,10 +723,12 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Mitsubishi": 16781
 , "Porsche": 16580
 , "Genesis": 15131
+, "Land Rover": 11532
 , "Mini": 7177
 , "Rivian": 6099
+, "Jaguar": 2359
 , "Polestar": 2300
-, "other": 268438
+, "other": 388950
 });
 
 db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -755,6 +744,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 4800
 , "Rivian|R1T": 4400
 , "Tesla|Model X": 3999
+, "Volvo|XC40 Recharge pure electric": 2998
 , "Audi|Q8 e-tron": 2249
 , "Polestar|2": 2200
 , "BMW|iX": 1726
@@ -766,11 +756,10 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 739
 , "Audi|Q4 e-tron": 732
 , "Audi|e-tron GT": 576
-, "GMC|Hummer EV": 410
 , "Volvo|C40 Recharge": 326
 , "Mercedes-Benz|EQS SUV": 277
 , "Jaguar|I-Pace": 104
-, "other": 607
+, "other": 1017
 });
 
 db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
@@ -782,7 +771,6 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Nissan": 177442
 , "Kia": 175401
 , "Subaru": 155466
-, "GMC": 143656
 , "Jeep": 143320
 , "Tesla": 140000
 , "Ram": 129874
@@ -797,7 +785,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Rivian": 6000
 , "Polestar": 2100
 , "Land Rover": 1118
-, "other": 263016
+, "other": 406672
 });
 
 db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -807,6 +795,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 11369
 , "Tesla|Model X": 9800
 , "Tesla|Model S": 8800
+, "Volvo|XC40 Recharge pure electric": 6739
 , "Genesis|GV70": 5834
 , "Genesis|GV80": 4902
 , "Hyundai|Ioniq 5": 4490
@@ -841,7 +830,6 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Tesla": 170002
 , "Jeep": 153530
 , "Subaru": 143376
-, "GMC": 130608
 , "Ram": 128722
 , "Mazda": 90074
 , "BMW": 81877
@@ -855,7 +843,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Rivian": 4201
 , "Polestar": 2999
 , "Jaguar": 2584
-, "other": 296814
+, "other": 427422
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -864,6 +852,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Bolt": 19700
 , "Tesla|Model S": 16000
 , "Volkswagen|ID.4": 9758
+, "Volvo|XC40 Recharge pure electric": 6083
 , "Tesla|Model X": 6001
 , "Hyundai|Ioniq 5": 5736
 , "Ford|Mustang Mach-E": 5407
@@ -886,7 +875,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Genesis|GV60": 512
 , "Rivian|R1S": 225
 , "Hyundai|Ioniq 6": 222
-, "other": 905
+, "other": 1090
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/",
@@ -900,7 +889,6 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Jeep": 181288
 , "Tesla": 172999
 , "Subaru": 159674
-, "GMC": 156019
 , "Ram": 142014
 , "Mercedes-Benz": 95670
 , "Mazda": 95399
@@ -912,7 +900,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Genesis": 17210
 , "Rivian": 12601
 , "Mini": 7585
-, "other": 351593
+, "other": 507612
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -923,6 +911,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 7905
 , "Genesis|GV70": 6331
 , "Rivian|R1S": 6110
+, "Volvo|XC40 Recharge pure electric": 6067
 , "Tesla|Model X": 5900
 , "Kia|EV6": 4936
 , "Rivian|R1T": 4362
@@ -959,7 +948,6 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Subaru": 162013
 , "Tesla": 154999
 , "Jeep": 154620
-, "GMC": 142769
 , "Ram": 134378
 , "Mazda": 88834
 , "BMW": 83954
@@ -971,7 +959,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.go
 , "Rivian": 19400
 , "Mini": 7901
 , "Polestar": 2100
-, "other": 321178
+, "other": 463947
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -982,6 +970,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 11665
 , "Rivian|R1S": 11001
 , "Rivian|R1T": 8199
+, "Volvo|XC40 Recharge pure electric": 7478
 , "Genesis|GV70": 6970
 , "Kia|EV6": 6470
 , "Tesla|Model X": 5600
@@ -998,9 +987,8 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 1569
 , "Genesis|G80": 1357
 , "Volvo|C40 Recharge": 1253
-, "GMC|Hummer EV": 1167
 , "Genesis|GV60": 898
 , "Audi|e-tron GT": 638
 , "Rivian|EDV": 200
-, "other": 2228
+, "other": 3395
 });
