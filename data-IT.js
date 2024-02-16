@@ -5,42 +5,37 @@
 // http://www.unrae.it/dati-statistici/immatricolazioni
 
 db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20gennaio%202020_UNRAE_marca_5e384c4443c01.pdf",
-{ "Fiat": 25360
-, "Volkswagen": 12737
-, "Ford": 10285
-, "Renault": 9124
-, "Peugeot": 8648
-, "Toyota": 8294
-, "Citroën": 7931
-, "Jeep/Dodge": 6262
-, "Opel": 6136
-, "Mercedes-Benz": 5719
-, "Audi": 5618
-, "Dacia": 5557
-, "BMW": 5291
-, "Suzuki": 4951
-, "Kia": 4262
-, "Hyundai": 4067
-, "Nissan": 3469
-, "Škoda": 2733
-, "Seat": 2339
-, "Volvo": 1892
-, "Mini": 1883
-, "Alfa Romeo": 1598
-, "Land Rover": 1377
-, "Mazda": 1307
-, "Honda": 1000
-, "Smart": 682
-, "Porsche": 630
-, "DS Automobiles": 492
-, "Lexus": 440
-, "Mitsubishi": 399
-, "Jaguar": 359
-, "Subaru": 279
-, "Maserati": 150
-, "SsangYong": 109
-, "Tesla": 64
-, "other": 5534
+{ "Fiat": 25842
+, "Volkswagen": 15003
+, "Peugeot": 9858
+, "Ford": 9106
+, "Citroën": 8805
+, "Opel": 7869
+, "Renault": 7419
+, "Toyota": 7183
+, "Jeep/Dodge": 5987
+, "Dacia": 5649
+, "BMW": 5347
+, "Audi": 5004
+, "Kia": 4435
+, "Mercedes-Benz": 4140
+, "Hyundai": 3679
+, "Nissan": 3326
+, "Škoda": 2625
+, "Seat": 2113
+, "Land Rover": 1823
+, "Mini": 1596
+, "Volvo": 1469
+, "Mazda": 1228
+, "Honda": 733
+, "Mitsubishi": 686
+, "Porsche": 624
+, "Jaguar": 592
+, "Smart": 301
+, "Subaru": 146
+, "Tesla": 97
+, "GWM": 20
+, "other": 12823
 });
 
 db.insert(db.countries.IT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/06%20gennaio%202020_%20UNRAE_Top%20ten%20per%20alimentazione_5e384af489aaa.pdf",
