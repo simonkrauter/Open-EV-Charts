@@ -22,21 +22,16 @@ db.insert(db.countries.IE, "2018-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 417
 , "Citroën": 367
 , "Honda": 366
-, "Suzuki": 362
 , "Land Rover": 285
 , "Mitsubishi": 215
 , "Fiat": 162
-, "Lexus": 145
 , "Mini": 140
 , "Jaguar": 127
 , "Subaru": 52
 , "Porsche": 23
-, "Alfa Romeo": 21
-, "SsangYong": 21
 , "Jeep": 14
 , "Tesla": 12
-, "DS Automobiles": 6
-, "other": 2
+, "other": 557
 });
 
 db.insert(db.countries.IE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -69,20 +64,16 @@ db.insert(db.countries.IE, "2018-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 186
 , "Honda": 150
 , "Land Rover": 145
-, "Suzuki": 127
 , "Mitsubishi": 102
 , "Mini": 99
 , "Citroën": 89
 , "Jaguar": 87
-, "Lexus": 57
 , "Fiat": 50
 , "Tesla": 19
 , "Subaru": 17
-, "Alfa Romeo": 12
-, "SsangYong": 9
 , "Porsche": 7
-, "DS Automobiles": 2
 , "Jeep": 2
+, "other": 207
 });
 
 db.insert(db.countries.IE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -117,19 +108,15 @@ db.insert(db.countries.IE, "2018-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 252
 , "Volvo": 228
 , "Land Rover": 167
-, "Suzuki": 147
 , "Jaguar": 105
 , "Mitsubishi": 86
 , "Fiat": 69
-, "Lexus": 59
 , "Mini": 35
 , "Subaru": 28
 , "Jeep": 16
 , "Tesla": 14
-, "Alfa Romeo": 8
 , "Porsche": 7
-, "SsangYong": 7
-, "DS Automobiles": 1
+, "other": 222
 });
 
 db.insert(db.countries.IE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -164,17 +151,14 @@ db.insert(db.countries.IE, "2018-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Fiat": 76
 , "Citroën": 62
 , "Honda": 60
-, "Suzuki": 55
 , "Jaguar": 45
 , "Mini": 36
 , "Mitsubishi": 28
-, "Lexus": 22
 , "Tesla": 21
 , "Subaru": 15
 , "Jeep": 14
-, "Alfa Romeo": 8
 , "Porsche": 6
-, "SsangYong": 4
+, "other": 89
 });
 
 db.insert(db.countries.IE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -206,20 +190,17 @@ db.insert(db.countries.IE, "2018-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 97
 , "Land Rover": 72
 , "Mazda": 65
-, "Suzuki": 64
 , "Honda": 59
 , "Fiat": 57
 , "Jaguar": 52
 , "Mitsubishi": 40
 , "Citroën": 39
 , "Mini": 22
-, "Lexus": 11
 , "Porsche": 10
 , "Jeep": 9
-, "SsangYong": 8
 , "Tesla": 8
-, "Alfa Romeo": 7
 , "Subaru": 7
+, "other": 90
 });
 
 db.insert(db.countries.IE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -243,7 +224,6 @@ db.insert(db.countries.IE, "2018-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Hyundai": 47
 , "Mercedes-Benz": 41
 , "Seat": 34
-, "Suzuki": 30
 , "Dacia": 29
 , "BMW": 26
 , "Volvo": 25
@@ -257,14 +237,10 @@ db.insert(db.countries.IE, "2018-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 9
 , "Fiat": 8
 , "Mitsubishi": 5
-, "SsangYong": 5
 , "Subaru": 5
 , "Tesla": 5
-, "Lexus": 4
-, "Alfa Romeo": 2
 , "Porsche": 2
-, "DS Automobiles": 1
-, "other": 2
+, "other": 44
 });
 
 db.insert(db.countries.IE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -296,22 +272,17 @@ db.insert(db.countries.IE, "2018-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 469
 , "Volvo": 358
 , "Honda": 245
-, "Suzuki": 201
 , "Citroën": 194
 , "Fiat": 169
 , "Mitsubishi": 169
 , "Land Rover": 132
-, "Lexus": 128
 , "Mini": 122
 , "Jaguar": 114
 , "Subaru": 32
 , "Tesla": 22
 , "Jeep": 21
-, "Alfa Romeo": 20
-, "SsangYong": 15
 , "Porsche": 6
-, "DS Automobiles": 3
-, "Smart": 1
+, "other": 368
 });
 
 db.insert(db.countries.IE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -340,24 +311,20 @@ db.insert(db.countries.IE, "2018-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 166
 , "Opel": 135
 , "Dacia": 123
-, "Suzuki": 113
 , "Mazda": 100
 , "Volvo": 98
 , "Honda": 85
 , "Mitsubishi": 52
 , "Citroën": 45
 , "Land Rover": 44
-, "Lexus": 38
 , "Jaguar": 32
 , "Fiat": 29
 , "Subaru": 17
 , "Mini": 14
 , "Tesla": 9
 , "Jeep": 8
-, "Alfa Romeo": 4
-, "SsangYong": 4
 , "Porsche": 3
-, "other": 3
+, "other": 162
 });
 
 db.insert(db.countries.IE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -382,7 +349,6 @@ db.insert(db.countries.IE, "2018-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Kia": 155
 , "Toyota": 143
 , "Audi": 128
-, "Suzuki": 122
 , "Dacia": 114
 , "Opel": 110
 , "Renault": 108
@@ -397,14 +363,11 @@ db.insert(db.countries.IE, "2018-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 24
 , "Jaguar": 21
 , "Fiat": 15
-, "Lexus": 11
 , "Subaru": 9
-, "SsangYong": 5
 , "Tesla": 5
 , "Jeep": 3
 , "Porsche": 2
-, "Alfa Romeo": 1
-, "DS Automobiles": 1
+, "other": 140
 });
 
 db.insert(db.countries.IE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -434,7 +397,6 @@ db.insert(db.countries.IE, "2018-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Renault": 50
 , "Mercedes-Benz": 49
 , "Volvo": 48
-, "Suzuki": 45
 , "Mazda": 34
 , "Mitsubishi": 32
 , "Honda": 30
@@ -445,11 +407,10 @@ db.insert(db.countries.IE, "2018-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Fiat": 10
 , "Jaguar": 10
 , "Subaru": 9
-, "Lexus": 7
 , "Porsche": 5
 , "Jeep": 4
-, "SsangYong": 1
 , "Tesla": 1
+, "other": 53
 });
 
 db.insert(db.countries.IE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -469,7 +430,6 @@ db.insert(db.countries.IE, "2018-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Opel": 49
 , "Škoda": 28
 , "Seat": 26
-, "Suzuki": 19
 , "Nissan": 17
 , "Mini": 16
 , "Dacia": 15
@@ -483,15 +443,13 @@ db.insert(db.countries.IE, "2018-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Honda": 9
 , "Renault": 7
 , "Mazda": 6
-, "Alfa Romeo": 4
 , "Citroën": 4
 , "Subaru": 3
 , "Jaguar": 2
-, "Lexus": 2
 , "Porsche": 2
-, "SsangYong": 2
 , "Jeep": 1
 , "Tesla": 1
+, "other": 27
 });
 
 db.insert(db.countries.IE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -525,8 +483,8 @@ db.insert(db.countries.IE, "2018-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Porsche": 1
 , "Renault": 1
 , "Subaru": 1
-, "Suzuki": 1
 , "Volvo": 1
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -557,22 +515,16 @@ db.insert(db.countries.IE, "2019-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 598
 , "Volvo": 470
 , "Honda": 427
-, "Suzuki": 383
 , "Land Rover": 343
 , "Mitsubishi": 260
 , "Citroën": 146
-, "Lexus": 138
 , "Fiat": 123
 , "Jaguar": 122
 , "Mini": 119
 , "Subaru": 29
 , "Jeep": 15
-, "Alfa Romeo": 13
 , "Tesla": 13
-, "SsangYong": 12
-, "DS Automobiles": 5
-, "Porsche": 3
-, "other": 3
+, "other": 557
 });
 
 db.insert(db.countries.IE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -607,21 +559,17 @@ db.insert(db.countries.IE, "2019-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 273
 , "Volvo": 186
 , "Land Rover": 147
-, "Suzuki": 146
 , "Honda": 131
 , "Mitsubishi": 129
 , "Citroën": 78
 , "Jaguar": 60
-, "Lexus": 59
 , "Mini": 49
 , "Fiat": 28
-, "DS Automobiles": 24
 , "Subaru": 16
 , "Jeep": 6
-, "SsangYong": 6
 , "Porsche": 4
 , "Tesla": 4
-, "other": 1
+, "other": 236
 });
 
 db.insert(db.countries.IE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -656,22 +604,17 @@ db.insert(db.countries.IE, "2019-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 229
 , "Volvo": 188
 , "Honda": 184
-, "Suzuki": 171
 , "Mazda": 151
 , "Land Rover": 130
 , "Mitsubishi": 97
 , "Fiat": 78
 , "Mini": 69
 , "Jaguar": 53
-, "Lexus": 43
 , "Jeep": 27
 , "Subaru": 10
 , "Porsche": 9
-, "Alfa Romeo": 7
-, "DS Automobiles": 5
 , "Tesla": 5
-, "SsangYong": 4
-, "other": 1
+, "other": 231
 });
 
 db.insert(db.countries.IE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -709,9 +652,7 @@ db.insert(db.countries.IE, "2019-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 107
 , "Mazda": 83
 , "Honda": 78
-, "Suzuki": 66
 , "Citroën": 62
-, "Lexus": 55
 , "Jaguar": 49
 , "Mini": 46
 , "Fiat": 36
@@ -719,8 +660,7 @@ db.insert(db.countries.IE, "2019-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Tesla": 12
 , "Porsche": 10
 , "Subaru": 7
-, "Alfa Romeo": 4
-, "SsangYong": 2
+, "other": 127
 });
 
 db.insert(db.countries.IE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -754,21 +694,19 @@ db.insert(db.countries.IE, "2019-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 201
 , "Dacia": 162
 , "Volvo": 98
-, "Suzuki": 73
 , "Mazda": 64
 , "Land Rover": 59
 , "Mitsubishi": 55
 , "Honda": 48
 , "Citroën": 42
 , "Jaguar": 31
-, "Lexus": 27
 , "Mini": 22
 , "Fiat": 13
 , "Porsche": 11
 , "Subaru": 6
-, "Alfa Romeo": 4
 , "Jeep": 4
 , "Tesla": 2
+, "other": 104
 });
 
 db.insert(db.countries.IE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -800,7 +738,6 @@ db.insert(db.countries.IE, "2019-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Seat": 30
 , "Audi": 25
 , "Land Rover": 22
-, "Suzuki": 20
 , "Dacia": 17
 , "Mercedes-Benz": 15
 , "Mazda": 12
@@ -812,10 +749,8 @@ db.insert(db.countries.IE, "2019-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mitsubishi": 6
 , "Fiat": 5
 , "Jaguar": 3
-, "Lexus": 3
 , "Porsche": 3
-, "Alfa Romeo": 2
-, "DS Automobiles": 1
+, "other": 26
 });
 
 db.insert(db.countries.IE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -852,22 +787,17 @@ db.insert(db.countries.IE, "2019-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 510
 , "Honda": 316
 , "Volvo": 240
-, "Suzuki": 221
 , "Citroën": 206
 , "Land Rover": 161
 , "Mitsubishi": 157
 , "Mini": 123
-, "Lexus": 114
 , "Fiat": 84
 , "Jaguar": 84
 , "Jeep": 27
 , "Subaru": 19
 , "Porsche": 14
 , "Tesla": 14
-, "SsangYong": 11
-, "Alfa Romeo": 5
-, "DS Automobiles": 3
-, "other": 1
+, "other": 355
 });
 
 db.insert(db.countries.IE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -907,19 +837,15 @@ db.insert(db.countries.IE, "2019-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 64
 , "Citroën": 60
 , "Mitsubishi": 57
-, "Suzuki": 55
 , "Volvo": 49
 , "Jaguar": 38
-, "Lexus": 33
 , "Fiat": 25
 , "Mini": 25
-, "SsangYong": 12
 , "Jeep": 11
 , "Porsche": 4
-, "Alfa Romeo": 3
 , "Subaru": 3
 , "Tesla": 3
-, "other": 1
+, "other": 104
 });
 
 db.insert(db.countries.IE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -956,17 +882,16 @@ db.insert(db.countries.IE, "2019-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 74
 , "Mazda": 65
 , "Volvo": 62
-, "Suzuki": 57
 , "Land Rover": 44
 , "Honda": 42
 , "Mini": 24
 , "Tesla": 17
-, "Lexus": 15
 , "Mitsubishi": 10
 , "Jaguar": 5
 , "Porsche": 4
 , "Fiat": 3
 , "Subaru": 3
+, "other": 72
 });
 
 db.insert(db.countries.IE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1002,17 +927,15 @@ db.insert(db.countries.IE, "2019-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 41
 , "Tesla": 33
 , "Mini": 27
-, "Suzuki": 19
 , "Citroën": 17
 , "Honda": 15
 , "Mazda": 14
-, "Lexus": 13
 , "Jaguar": 12
 , "Mitsubishi": 6
 , "Fiat": 5
 , "Porsche": 4
-, "Alfa Romeo": 1
 , "Jeep": 1
+, "other": 33
 });
 
 db.insert(db.countries.IE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1053,15 +976,14 @@ db.insert(db.countries.IE, "2019-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Audi": 5
 , "Mitsubishi": 5
 , "Opel": 5
-, "Suzuki": 5
 , "Citroën": 4
 , "Mini": 4
 , "Honda": 3
 , "Subaru": 3
 , "Fiat": 1
 , "Jeep": 1
-, "Lexus": 1
 , "Porsche": 1
+, "other": 6
 });
 
 db.insert(db.countries.IE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1125,10 +1047,8 @@ db.insert(db.countries.IE, "2020-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Opel": 480
 , "Volvo": 387
 , "Land Rover": 330
-, "Suzuki": 317
 , "Honda": 308
 , "Citroën": 242
-, "Lexus": 166
 , "Mitsubishi": 118
 , "Mini": 110
 , "Jaguar": 74
@@ -1136,9 +1056,7 @@ db.insert(db.countries.IE, "2020-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Tesla": 56
 , "Porsche": 41
 , "Subaru": 27
-, "Alfa Romeo": 5
-, "SsangYong": 4
-, "Jeep": 1
+, "other": 493
 });
 
 db.insert(db.countries.IE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1181,17 +1099,14 @@ db.insert(db.countries.IE, "2020-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 138
 , "Honda": 102
 , "Citroën": 97
-, "Suzuki": 71
-, "Lexus": 56
 , "Mitsubishi": 55
 , "Jaguar": 43
 , "Mini": 40
 , "Subaru": 10
 , "Fiat": 9
 , "Porsche": 7
-, "SsangYong": 5
-, "Alfa Romeo": 2
 , "Jeep": 2
+, "other": 134
 });
 
 db.insert(db.countries.IE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1233,17 +1148,14 @@ db.insert(db.countries.IE, "2020-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mitsubishi": 71
 , "Honda": 59
 , "Dacia": 57
-, "Suzuki": 57
 , "Mazda": 42
 , "Citroën": 41
 , "Mini": 41
-, "Lexus": 25
 , "Jaguar": 20
 , "Porsche": 7
 , "Subaru": 7
 , "Fiat": 6
-, "SsangYong": 3
-, "other": 1
+, "other": 86
 });
 
 db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1283,13 +1195,12 @@ db.insert(db.countries.IE, "2020-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 6
 , "Audi": 5
 , "Citroën": 3
-, "Suzuki": 3
 , "Honda": 2
 , "Mini": 2
 , "Fiat": 1
 , "Mazda": 1
 , "Mitsubishi": 1
-, "SsangYong": 1
+, "other": 4
 });
 
 db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1326,15 +1237,14 @@ db.insert(db.countries.IE, "2020-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 35
 , "Mazda": 16
 , "Mini": 15
-, "Suzuki": 15
 , "Citroën": 11
 , "Honda": 10
-, "Lexus": 9
 , "Jaguar": 8
 , "Mitsubishi": 7
 , "Fiat": 5
 , "Jeep": 2
 , "Subaru": 1
+, "other": 24
 });
 
 db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1374,19 +1284,17 @@ db.insert(db.countries.IE, "2020-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 21
 , "Volvo": 20
 , "Dacia": 18
-, "Suzuki": 12
 , "Mazda": 10
 , "Honda": 8
 , "Jaguar": 7
 , "Tesla": 7
-, "Lexus": 6
 , "Citroën": 5
 , "Fiat": 5
 , "Mini": 4
 , "Porsche": 2
 , "Mitsubishi": 1
-, "SsangYong": 1
 , "Subaru": 1
+, "other": 19
 });
 
 db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1423,20 +1331,17 @@ db.insert(db.countries.IE, "2020-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 306
 , "Volvo": 263
 , "Citroën": 256
-, "Suzuki": 232
 , "Honda": 186
 , "Land Rover": 168
 , "Mini": 103
-, "Lexus": 82
 , "Mitsubishi": 80
 , "Jaguar": 76
 , "Fiat": 64
 , "Tesla": 55
 , "Porsche": 32
-, "SsangYong": 21
-, "Alfa Romeo": 7
 , "Jeep": 6
 , "Subaru": 4
+, "other": 342
 });
 
 db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1478,7 +1383,6 @@ db.insert(db.countries.IE, "2020-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "BMW": 131
 , "Opel": 103
 , "Dacia": 93
-, "Suzuki": 75
 , "Volvo": 74
 , "Citroën": 65
 , "Mazda": 61
@@ -1487,14 +1391,12 @@ db.insert(db.countries.IE, "2020-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Tesla": 28
 , "Mitsubishi": 26
 , "Fiat": 23
-, "Lexus": 21
 , "Mini": 17
 , "Jaguar": 16
 , "Porsche": 10
-, "SsangYong": 7
 , "Subaru": 5
-, "Alfa Romeo": 3
 , "Jeep": 3
+, "other": 106
 });
 
 db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1534,7 +1436,6 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Seat": 178
 , "Tesla": 175
 , "Opel": 105
-, "Suzuki": 99
 , "Dacia": 87
 , "Volvo": 87
 , "Citroën": 73
@@ -1543,14 +1444,12 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mini": 51
 , "Land Rover": 44
 , "Fiat": 24
-, "Lexus": 23
 , "Mitsubishi": 16
 , "Jaguar": 9
 , "Porsche": 8
-, "SsangYong": 8
 , "Jeep": 2
-, "Alfa Romeo": 1
 , "Subaru": 1
+, "other": 131
 });
 
 db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1592,7 +1491,6 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 65
 , "Tesla": 44
 , "Citroën": 39
-, "Suzuki": 38
 , "Land Rover": 33
 , "Mini": 30
 , "Opel": 27
@@ -1600,12 +1498,10 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 20
 , "Fiat": 15
 , "Jaguar": 11
-, "Lexus": 11
 , "Mitsubishi": 11
-, "SsangYong": 4
 , "Porsche": 3
-, "Alfa Romeo": 1
 , "Subaru": 1
+, "other": 54
 });
 
 db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1643,7 +1539,6 @@ db.insert(db.countries.IE, "2020-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Kia": 21
 , "Seat": 21
 , "Land Rover": 17
-, "Lexus": 15
 , "Mini": 13
 , "Dacia": 12
 , "Opel": 10
@@ -1651,15 +1546,13 @@ db.insert(db.countries.IE, "2020-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 9
 , "Citroën": 8
 , "Honda": 8
-, "Suzuki": 6
 , "Tesla": 6
 , "Jaguar": 5
 , "Fiat": 4
-, "Alfa Romeo": 2
-, "SsangYong": 2
 , "Jeep": 1
 , "Mitsubishi": 1
 , "Subaru": 1
+, "other": 25
 });
 
 db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1699,17 +1592,15 @@ db.insert(db.countries.IE, "2020-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Renault": 11
 , "Volvo": 11
 , "Mini": 6
-, "Alfa Romeo": 5
 , "Audi": 5
 , "Jaguar": 5
 , "Mazda": 5
 , "Toyota": 5
 , "Dacia": 3
-, "Lexus": 3
 , "Cupra": 2
 , "Kia": 2
 , "Jeep": 1
-, "Suzuki": 1
+, "other": 9
 });
 
 db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1742,25 +1633,19 @@ db.insert(db.countries.IE, "2021-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 652
 , "Opel": 641
 , "Citroën": 358
-, "Suzuki": 338
 , "Volvo": 292
 , "Mazda": 283
 , "Honda": 135
 , "Mini": 125
 , "Mitsubishi": 110
 , "Land Rover": 99
-, "Lexus": 96
 , "Fiat": 48
 , "MG": 24
 , "Cupra": 20
-, "SsangYong": 17
 , "Tesla": 10
 , "Jaguar": 9
 , "Porsche": 5
-, "Subaru": 2
-, "Alfa Romeo": 1
-, "Jeep": 1
-, "other": 1
+, "other": 456
 });
 
 db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1808,8 +1693,6 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Tesla": 170
 , "Honda": 166
 , "Mazda": 140
-, "Lexus": 74
-, "Suzuki": 68
 , "Citroën": 51
 , "Porsche": 50
 , "Mini": 48
@@ -1818,10 +1701,8 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "MG": 19
 , "Jaguar": 17
 , "Cupra": 16
-, "SsangYong": 15
-, "Alfa Romeo": 2
 , "Subaru": 2
-, "other": 2
+, "other": 161
 });
 
 db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1868,23 +1749,19 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Opel": 195
 , "Tesla": 150
 , "Volvo": 141
-, "Suzuki": 130
 , "Mazda": 124
 , "Land Rover": 86
 , "Citroën": 74
 , "Mini": 60
 , "Honda": 31
 , "Fiat": 26
-, "Lexus": 19
 , "Porsche": 18
 , "MG": 14
 , "Mitsubishi": 14
 , "Jaguar": 11
 , "Cupra": 9
-, "SsangYong": 7
-, "Alfa Romeo": 1
 , "Jeep": 1
-, "other": 1
+, "other": 158
 });
 
 db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1933,20 +1810,17 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 120
 , "Land Rover": 93
 , "Mazda": 72
-, "Suzuki": 52
 , "Mini": 39
 , "Jaguar": 32
 , "Honda": 28
-, "Lexus": 22
 , "Fiat": 14
 , "Cupra": 13
 , "Porsche": 13
-, "SsangYong": 13
 , "MG": 12
 , "Tesla": 10
 , "Mitsubishi": 8
 , "Citroën": 4
-, "Alfa Romeo": 2
+, "other": 89
 });
 
 db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -1992,7 +1866,6 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 141
 , "Nissan": 132
 , "Opel": 128
-, "Suzuki": 96
 , "Volvo": 95
 , "Mini": 65
 , "MG": 58
@@ -2001,17 +1874,14 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Tesla": 53
 , "Mazda": 41
 , "Jaguar": 33
-, "Lexus": 20
 , "Cupra": 19
 , "Porsche": 19
 , "Fiat": 16
 , "Citroën": 5
 , "Mitsubishi": 5
-, "DS Automobiles": 4
-, "SsangYong": 3
-, "Alfa Romeo": 2
 , "Jeep": 1
 , "Subaru": 1
+, "other": 125
 });
 
 db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2062,20 +1932,17 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Honda": 26
 , "Mini": 25
 , "MG": 21
-, "Suzuki": 21
 , "Dacia": 20
 , "Land Rover": 12
-, "Lexus": 11
 , "Fiat": 7
 , "Mazda": 6
 , "Jaguar": 5
-, "DS Automobiles": 4
 , "Mitsubishi": 3
-, "Alfa Romeo": 2
 , "Jeep": 2
 , "Porsche": 2
 , "Citroën": 1
 , "Cupra": 1
+, "other": 38
 });
 
 db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2125,25 +1992,20 @@ db.insert(db.countries.IE, "2021-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 602
 , "Dacia": 505
 , "Mazda": 407
-, "Suzuki": 314
 , "Volvo": 236
 , "Honda": 183
 , "Land Rover": 158
 , "Mini": 132
 , "MG": 124
 , "Citroën": 118
-, "Lexus": 99
 , "Mitsubishi": 98
 , "Cupra": 65
 , "Fiat": 54
 , "Jaguar": 46
 , "Porsche": 35
-, "SsangYong": 25
 , "Jeep": 14
 , "Subaru": 13
-, "DS Automobiles": 12
-, "Alfa Romeo": 5
-, "other": 4
+, "other": 459
 });
 
 db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2196,7 +2058,6 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Renault": 242
 , "Opel": 241
 , "Mercedes-Benz": 182
-, "Suzuki": 115
 , "Dacia": 100
 , "Citroën": 98
 , "Volvo": 90
@@ -2205,19 +2066,15 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 57
 , "Mini": 34
 , "MG": 33
-, "Lexus": 16
 , "Mitsubishi": 16
 , "Cupra": 14
-, "Alfa Romeo": 11
 , "Fiat": 8
 , "Jaguar": 6
 , "Porsche": 5
-, "DS Automobiles": 3
 , "Jeep": 3
-, "SsangYong": 3
 , "Subaru": 3
 , "Tesla": 2
-, "other": 3
+, "other": 151
 });
 
 db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2273,7 +2130,6 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 133
 , "Seat": 108
 , "Opel": 101
-, "Suzuki": 92
 , "Citroën": 74
 , "Dacia": 56
 , "Volvo": 55
@@ -2281,17 +2137,13 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mini": 31
 , "MG": 26
 , "Mazda": 22
-, "Lexus": 20
 , "Cupra": 16
-, "SsangYong": 9
 , "Porsche": 6
-, "DS Automobiles": 5
 , "Fiat": 5
 , "Jaguar": 4
 , "Mitsubishi": 4
 , "Jeep": 3
-, "Alfa Romeo": 2
-, "other": 1
+, "other": 129
 });
 
 db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2347,22 +2199,18 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Seat": 66
 , "Dacia": 60
 , "Citroën": 44
-, "Suzuki": 37
 , "Land Rover": 26
 , "Mazda": 26
 , "Mini": 23
 , "Honda": 22
 , "Porsche": 19
-, "Lexus": 11
 , "Cupra": 8
-, "DS Automobiles": 7
 , "Fiat": 5
 , "Jeep": 5
-, "SsangYong": 5
-, "Alfa Romeo": 4
 , "Subaru": 4
 , "Jaguar": 1
 , "Tesla": 1
+, "other": 64
 });
 
 db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2415,7 +2263,6 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Nissan": 31
 , "Renault": 29
 , "MG": 20
-, "Suzuki": 20
 , "Volvo": 19
 , "Citroën": 18
 , "Tesla": 16
@@ -2425,16 +2272,13 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Jaguar": 7
 , "Land Rover": 7
 , "Seat": 7
-, "SsangYong": 7
 , "Mazda": 6
 , "Porsche": 5
 , "Fiat": 4
 , "Jeep": 2
-, "Lexus": 2
 , "Subaru": 2
-, "Alfa Romeo": 1
 , "Cupra": 1
-, "DS Automobiles": 1
+, "other": 31
 });
 
 db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2483,7 +2327,6 @@ db.insert(db.countries.IE, "2021-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Subaru": 8
 , "BMW": 6
 , "Citroën": 6
-, "Alfa Romeo": 5
 , "Volvo": 5
 , "Mercedes-Benz": 4
 , "Jaguar": 3
@@ -2494,13 +2337,11 @@ db.insert(db.countries.IE, "2021-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 2
 , "Mini": 2
 , "Opel": 2
-, "Suzuki": 2
-, "DS Automobiles": 1
 , "Fiat": 1
-, "Lexus": 1
 , "Mazda": 1
 , "Porsche": 1
 , "Seat": 1
+, "other": 9
 });
 
 db.insert(db.countries.IE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2539,8 +2380,6 @@ db.insert(db.countries.IE, "2022-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 380
 , "Seat": 373
 , "Mazda": 301
-, "Suzuki": 169
-, "Lexus": 149
 , "Mini": 131
 , "Land Rover": 120
 , "Porsche": 113
@@ -2550,9 +2389,7 @@ db.insert(db.countries.IE, "2022-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Jaguar": 26
 , "Tesla": 22
 , "Fiat": 21
-, "DS Automobiles": 20
-, "SsangYong": 3
-, "Alfa Romeo": 2
+, "other": 343
 });
 
 db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2617,9 +2454,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 191
 , "Dacia": 174
 , "Opel": 150
-, "Suzuki": 144
 , "Citroën": 126
-, "Lexus": 69
 , "Mini": 63
 , "Honda": 56
 , "Fiat": 46
@@ -2627,11 +2462,8 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Cupra": 33
 , "MG": 31
 , "Porsche": 23
-, "DS Automobiles": 12
-, "Alfa Romeo": 3
 , "Jaguar": 3
-, "SsangYong": 3
-, "Jeep": 1
+, "other": 232
 });
 
 db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2693,7 +2525,6 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Nissan": 377
 , "Opel": 287
 , "Renault": 264
-, "Suzuki": 191
 , "Seat": 163
 , "Dacia": 129
 , "Volvo": 124
@@ -2701,18 +2532,14 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 108
 , "Fiat": 94
 , "Cupra": 90
-, "Lexus": 53
 , "Land Rover": 48
 , "Honda": 45
 , "Mini": 43
 , "Jaguar": 24
 , "Porsche": 12
 , "MG": 6
-, "DS Automobiles": 3
 , "Jeep": 3
-, "SsangYong": 2
-, "Alfa Romeo": 1
-, "other": 2
+, "other": 252
 });
 
 db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2782,7 +2609,6 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 128
 , "Volvo": 106
 , "Citroën": 95
-, "Suzuki": 92
 , "Cupra": 87
 , "MG": 65
 , "Mini": 56
@@ -2791,14 +2617,10 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Fiat": 28
 , "Honda": 26
 , "Land Rover": 25
-, "Lexus": 20
 , "Porsche": 13
 , "Tesla": 13
-, "DS Automobiles": 4
 , "Jeep": 4
-, "SsangYong": 4
-, "Alfa Romeo": 1
-, "other": 1
+, "other": 122
 });
 
 db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2868,7 +2690,6 @@ db.insert(db.countries.IE, "2022-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Opel": 186
 , "Citroën": 81
 , "Seat": 79
-, "Suzuki": 75
 , "Volvo": 47
 , "Cupra": 44
 , "Mini": 40
@@ -2878,16 +2699,13 @@ db.insert(db.countries.IE, "2022-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "MG": 19
 , "Honda": 15
 , "Jaguar": 14
-, "DS Automobiles": 10
-, "Lexus": 10
 , "Porsche": 10
-, "SsangYong": 10
 , "Fiat": 7
 , "Jeep": 5
 , "Tesla": 3
-, "Alfa Romeo": 2
 , "Polestar": 1
 , "Subaru": 1
+, "other": 107
 });
 
 db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -2952,7 +2770,6 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Nissan": 41
 , "Opel": 29
 , "MG": 27
-, "Suzuki": 23
 , "Volvo": 23
 , "BMW": 22
 , "Citroën": 19
@@ -2965,11 +2782,9 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mazda": 6
 , "Porsche": 4
 , "Tesla": 4
-, "DS Automobiles": 3
 , "Cupra": 2
 , "Jaguar": 2
-, "SsangYong": 2
-, "Lexus": 1
+, "other": 29
 });
 
 db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3030,24 +2845,19 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Ford": 494
 , "Seat": 381
 , "Citroën": 250
-, "Suzuki": 245
 , "Mazda": 215
 , "MG": 160
 , "Cupra": 152
 , "Land Rover": 133
 , "Mini": 74
 , "Honda": 72
-, "SsangYong": 61
 , "Fiat": 51
-, "DS Automobiles": 40
 , "Porsche": 39
-, "Lexus": 37
 , "Jaguar": 24
 , "Polestar": 20
 , "Jeep": 14
 , "Subaru": 7
-, "Alfa Romeo": 1
-, "other": 1
+, "other": 385
 });
 
 db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3118,7 +2928,6 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 261
 , "BMW": 231
 , "Citroën": 148
-, "Suzuki": 148
 , "Seat": 114
 , "Mazda": 107
 , "MG": 84
@@ -3126,19 +2935,15 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mini": 71
 , "Volvo": 71
 , "Tesla": 48
-, "Lexus": 41
 , "Cupra": 37
 , "Polestar": 25
 , "Land Rover": 16
-, "DS Automobiles": 15
 , "Honda": 15
 , "Jaguar": 14
 , "Jeep": 7
 , "Porsche": 7
-, "SsangYong": 3
-, "Alfa Romeo": 2
 , "Subaru": 1
-, "other": 1
+, "other": 210
 });
 
 db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3210,12 +3015,10 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 168
 , "Opel": 165
 , "Volvo": 145
-, "Suzuki": 128
 , "Mazda": 80
 , "Seat": 80
 , "Cupra": 76
 , "Mini": 69
-, "Lexus": 39
 , "Polestar": 25
 , "Honda": 20
 , "Fiat": 19
@@ -3223,10 +3026,8 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Land Rover": 15
 , "Porsche": 14
 , "MG": 11
-, "DS Automobiles": 6
-, "SsangYong": 4
-, "Alfa Romeo": 2
 , "Jeep": 2
+, "other": 179
 });
 
 db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3292,7 +3093,6 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 75
 , "Mini": 61
 , "Citroën": 57
-, "Suzuki": 48
 , "Seat": 34
 , "Cupra": 33
 , "Mazda": 29
@@ -3305,11 +3105,8 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "MG": 12
 , "Jaguar": 8
 , "Fiat": 6
-, "Lexus": 6
-, "DS Automobiles": 3
-, "SsangYong": 3
 , "Jeep": 2
-, "Alfa Romeo": 1
+, "other": 61
 });
 
 db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3367,7 +3164,6 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Peugeot": 36
 , "Audi": 33
 , "Renault": 30
-, "Suzuki": 25
 , "Citroën": 16
 , "Seat": 15
 , "Mini": 14
@@ -3378,16 +3174,15 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Polestar": 10
 , "Land Rover": 7
 , "Volvo": 7
-, "Lexus": 6
 , "Mazda": 6
 , "Tesla": 5
 , "MG": 4
 , "Jeep": 3
-, "DS Automobiles": 2
 , "Fiat": 2
 , "Honda": 2
 , "Jaguar": 1
 , "Subaru": 1
+, "other": 33
 });
 
 db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3441,7 +3236,6 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 8
 , "Škoda": 8
 , "Mercedes-Benz": 7
-, "Suzuki": 6
 , "Audi": 5
 , "Polestar": 5
 , "Renault": 4
@@ -3450,15 +3244,15 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "MG": 3
 , "Opel": 3
 , "Cupra": 2
-, "Nissan": 2
 , "GWM": 2
+, "Nissan": 2
 , "Peugeot": 2
 , "Seat": 2
 , "Tesla": 2
 , "Volvo": 2
 , "Fiat": 1
 , "Mini": 1
-, "SsangYong": 1
+, "other": 7
 });
 
 db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3506,7 +3300,6 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 787
 , "Opel": 786
 , "Seat": 612
-, "Suzuki": 532
 , "Volvo": 365
 , "Citroën": 327
 , "Mazda": 289
@@ -3514,19 +3307,14 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mini": 153
 , "Porsche": 152
 , "Land Rover": 135
-, "Lexus": 113
 , "MG": 92
 , "Fiat": 68
-, "DS Automobiles": 61
 , "Honda": 50
 , "Polestar": 36
-, "Alfa Romeo": 23
 , "Jaguar": 23
 , "Jeep": 21
 , "Subaru": 5
-, "SsangYong": 3
-, "Tesla": 1
-, "other": 2
+, "other": 735
 });
 
 db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3601,23 +3389,18 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Cupra": 209
 , "Opel": 191
 , "Mazda": 177
-, "Suzuki": 162
 , "Mini": 97
 , "Land Rover": 93
-, "Lexus": 85
 , "Citroën": 83
 , "Fiat": 82
 , "Porsche": 52
 , "MG": 46
 , "Polestar": 42
 , "Honda": 33
-, "DS Automobiles": 30
 , "GWM": 11
 , "Jaguar": 10
 , "Subaru": 7
-, "SsangYong": 3
-, "Alfa Romeo": 1
-, "Tesla": 1
+, "other": 282
 });
 
 db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3692,26 +3475,21 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 416
 , "Opel": 360
 , "Volvo": 360
-, "Suzuki": 294
 , "Mazda": 266
 , "Cupra": 158
 , "Citroën": 134
 , "MG": 110
 , "Mini": 81
-, "Lexus": 73
 , "Polestar": 71
 , "Land Rover": 55
 , "Fiat": 47
-, "SsangYong": 42
-, "DS Automobiles": 36
 , "Honda": 32
 , "Porsche": 23
 , "Jeep": 18
 , "Jaguar": 16
 , "Subaru": 6
-, "Alfa Romeo": 5
 , "GWM": 2
-, "other": 7
+, "other": 457
 });
 
 db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3788,23 +3566,19 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Cupra": 129
 , "Renault": 121
 , "MG": 98
-, "Suzuki": 97
 , "Land Rover": 57
 , "Porsche": 52
-, "Lexus": 51
 , "Mini": 49
 , "Mazda": 39
 , "Polestar": 31
 , "Fiat": 30
 , "Honda": 22
 , "BYD": 21
-, "Alfa Romeo": 11
-, "DS Automobiles": 11
 , "GWM": 8
 , "Subaru": 5
 , "Jaguar": 4
 , "Jeep": 2
-, "SsangYong": 2
+, "other": 172
 });
 
 db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3878,7 +3652,6 @@ db.insert(db.countries.IE, "2023-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 180
 , "Nissan": 172
 , "Seat": 170
-, "Suzuki": 165
 , "MG": 128
 , "Citroën": 123
 , "Cupra": 99
@@ -3888,16 +3661,13 @@ db.insert(db.countries.IE, "2023-05", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Fiat": 41
 , "Mazda": 32
 , "Porsche": 29
-, "Lexus": 27
 , "Honda": 20
 , "Polestar": 20
 , "Jeep": 9
-, "DS Automobiles": 8
-, "Alfa Romeo": 6
 , "Subaru": 6
 , "Jaguar": 5
-, "SsangYong": 3
 , "GWM": 2
+, "other": 209
 });
 
 db.insert(db.countries.IE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -3960,7 +3730,6 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Audi": 62
 , "BMW": 62
 , "Mercedes-Benz": 61
-, "Suzuki": 48
 , "MG": 44
 , "Kia": 43
 , "Peugeot": 40
@@ -3978,15 +3747,12 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Polestar": 8
 , "Porsche": 7
 , "Land Rover": 6
-, "Honda": 3
-, "Lexus": 3
 , "GWM": 3
+, "Honda": 3
 , "Subaru": 3
-, "Alfa Romeo": 2
-, "DS Automobiles": 2
 , "Chevrolet": 1
 , "Jaguar": 1
-, "SsangYong": 1
+, "other": 56
 });
 
 db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4059,26 +3825,20 @@ db.insert(db.countries.IE, "2023-07", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Mercedes-Benz": 472
 , "Opel": 449
 , "Volvo": 449
-, "Suzuki": 349
 , "Mazda": 293
 , "Citroën": 231
 , "BYD": 207
 , "Fiat": 202
 , "Land Rover": 177
-, "Lexus": 147
 , "Mini": 97
 , "Porsche": 83
-, "DS Automobiles": 50
 , "Tesla": 41
 , "Honda": 33
 , "Polestar": 28
 , "Jeep": 10
 , "Jaguar": 8
 , "GWM": 4
-, "Alfa Romeo": 2
-, "SsangYong": 2
-, "Subaru": 2
-, "other": 2
+, "other": 554
 });
 
 db.insert(db.countries.IE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4148,7 +3908,6 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Renault": 230
 , "Peugeot": 219
 , "Mercedes-Benz": 172
-, "Suzuki": 172
 , "Dacia": 163
 , "Seat": 160
 , "Mazda": 109
@@ -4158,7 +3917,6 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 79
 , "BYD": 77
 , "Land Rover": 68
-, "Lexus": 61
 , "Mini": 35
 , "Polestar": 23
 , "Honda": 22
@@ -4166,11 +3924,8 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Porsche": 20
 , "Jeep": 10
 , "Jaguar": 8
-, "DS Automobiles": 7
 , "Subaru": 5
-, "Alfa Romeo": 3
-, "SsangYong": 3
-, "other": 5
+, "other": 251
 });
 
 db.insert(db.countries.IE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4237,7 +3992,6 @@ db.insert(db.countries.IE, "2023-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Hyundai": 246
 , "Audi": 243
 , "Peugeot": 199
-, "Suzuki": 191
 , "Cupra": 155
 , "Dacia": 141
 , "Renault": 129
@@ -4253,17 +4007,13 @@ db.insert(db.countries.IE, "2023-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 57
 , "Land Rover": 55
 , "Fiat": 41
-, "Lexus": 34
 , "Polestar": 30
 , "Porsche": 18
 , "Honda": 14
-, "Alfa Romeo": 11
 , "Jaguar": 11
 , "Jeep": 4
-, "SsangYong": 3
-, "DS Automobiles": 1
 , "Subaru": 1
-, "other": 1
+, "other": 241
 });
 
 db.insert(db.countries.IE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4330,7 +4080,6 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Ford": 85
 , "Peugeot": 80
 , "Mercedes-Benz": 69
-, "Suzuki": 69
 , "Volvo": 50
 , "Dacia": 43
 , "BYD": 40
@@ -4344,14 +4093,13 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Nissan": 26
 , "Seat": 26
 , "Cupra": 19
-, "Lexus": 15
 , "Mazda": 14
 , "Polestar": 8
 , "Honda": 6
-, "DS Automobiles": 3
 , "Jaguar": 3
-, "Jeep": 2
 , "GWM": 2
+, "Jeep": 2
+, "other": 87
 });
 
 db.insert(db.countries.IE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4415,7 +4163,6 @@ db.insert(db.countries.IE, "2023-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "BYD": 40
 , "Kia": 35
 , "BMW": 31
-, "Suzuki": 27
 , "Hyundai": 24
 , "Mercedes-Benz": 21
 , "Audi": 19
@@ -4435,9 +4182,8 @@ db.insert(db.countries.IE, "2023-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Porsche": 5
 , "Opel": 2
 , "Honda": 1
-, "Lexus": 1
-, "SsangYong": 1
 , "Subaru": 1
+, "other": 29
 });
 
 db.insert(db.countries.IE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -4503,11 +4249,10 @@ db.insert(db.countries.IE, "2023-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Dacia": 2
 , "Peugeot": 2
 , "Honda": 1
-, "Maxus": 1
 , "Mazda": 1
 , "Polestar": 1
-, "Suzuki": 1
 , "Volvo": 1
+, "other": 2
 });
 
 db.insert(db.countries.IE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
