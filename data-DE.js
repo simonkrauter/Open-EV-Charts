@@ -5479,9 +5479,9 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 
 db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_03.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model Y": 5701
-, "Volkswagen|ID.4/ID.5": 3212
 , "Volkswagen|ID.3": 2582
 , "Tesla|Model 3": 2560
+, "Volkswagen|ID.4": 2412
 , "Audi|Q4 e-tron": 1649
 , "Fiat|500e": 1534
 , "Smart|Fortwo ED": 1495
@@ -5494,6 +5494,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 975
 , "BMW|iX1": 975
 , "Mercedes-Benz|EQB": 838
+, "Volkswagen|ID.5": 800
 , "Volvo|XC40 Recharge pure electric": 789
 , "Polestar|2": 756
 , "Hyundai|Ioniq 5": 697
@@ -5527,8 +5528,8 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 214
 , "Volvo|C40 Recharge": 204
 , "Audi|e-tron GT": 180
-, "GWM|Ora 03": 162
 , "Mercedes-Benz|other": 178
+, "GWM|other": 162
 , "MG|other": 159
 , "Citroën|other": 149
 , "Tesla|other": 129
@@ -5698,7 +5699,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 
 db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_05.xlsx?__blob=publicationFile&v=2",
 { "Tesla|Model Y": 4240
-, "Volkswagen|ID.4/ID.5": 3720
+, "Volkswagen|ID.4": 2721
 , "Volkswagen|ID.3": 2185
 , "Škoda|Enyaq": 1692
 , "Audi|Q4 e-tron": 1644
@@ -5709,6 +5710,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 1184
 , "Smart|Fortwo ED": 1126
 , "Cupra|Born": 1108
+, "Volkswagen|ID.5": 999
 , "Hyundai|Kona Electric": 986
 , "MG|MG4 EV": 941
 , "Hyundai|Ioniq 5": 909
@@ -5746,13 +5748,12 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 237
 , "Volvo|C40 Recharge": 176
 , "GWM|Ora 03": 155
-, "MG|MG5 EV": 138
+, "MG|other": 226
 , "Tesla|other": 182
 , "Nissan|other": 176
 , "Mercedes-Benz|other": 169
 , "Audi|other": 150
 , "Peugeot|other": 96
-, "MG|other": 88
 , "Opel|other": 81
 , "Genesis|other": 73
 , "BYD|other": 54
