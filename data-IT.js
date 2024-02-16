@@ -45,11 +45,10 @@ db.insert(db.countries.IT, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Smart|Fortwo ED": 213
 , "Hyundai|Kona Electric": 149
 , "Volkswagen|e-Golf": 112
-, "DS Automobiles|DS 3 Crossback E-Tense": 79
 , "Nissan|Leaf": 66
 , "Smart|Forfour ED": 65
 , "Tesla|Model 3": 63
-, "other": 252
+, "other": 331
 });
 
 db.insert(db.countries.IT, "2020-02", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20febbraio%202020_UNRAE%20marca_5e5d2590ca8f9.pdf",
@@ -92,11 +91,10 @@ db.insert(db.countries.IT, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Smart|Fortwo ED": 286
 , "Tesla|Model 3": 236
 , "Nissan|Leaf": 234
-, "Volkswagen|e-Golf": 123
 , "Mini|Cooper SE Electric": 123
+, "Volkswagen|e-Golf": 123
 , "Opel|Corsa-e": 117
-, "DS Automobiles|DS 3 Crossback E-Tense": 72
-, "other": 324
+, "other": 396
 });
 
 db.insert(db.countries.IT, "2020-03", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20marzo%202020_UNRAE%20marca_5e84a46dd200e.pdf",
@@ -186,12 +184,11 @@ db.insert(db.countries.IT, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model 3": 88
 , "Tesla|Model S": 10
 , "Opel|Corsa-e": 7
-, "Tesla|Model X": 6
 , "Peugeot|e-208": 6
+, "Tesla|Model X": 6
 , "Volkswagen|e-up!": 3
-, "DS Automobiles|DS 3 Crossback E-Tense": 3
 , "Audi|Q8 e-tron": 2
-, "other": 7
+, "other": 10
 });
 
 db.insert(db.countries.IT, "2020-05", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20maggio%202020_UNRAE%20marca_5ed50c192c549.pdf",
@@ -1229,7 +1226,6 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 32
 , "BMW|iX3": 31
 , "Citroën|ë-C4": 31
-, "DS Automobiles|DS 3 Crossback E-Tense": 31
 , "Mercedes-Benz|EQA": 31
 , "Kia|EV6": 30
 , "MG|ZS EV": 29
@@ -1237,12 +1233,12 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 28
 , "BMW|iX": 23
 , "Tesla|Model 3": 21
-, "Lexus|UX 300e": 19
 , "Audi|e-tron GT": 14
 , "MG|Marvel R": 14
 , "Kia|Soul EV": 12
 , "Mazda|MX-30": 12
 , "Tesla|Model Y": 11
+, "other": 50
 });
 
 db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20Febbraio%202022_621e27a7f3bbf.pdf",
@@ -1328,8 +1324,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 11
 , "Audi|e-tron GT": 10
 , "Kia|Soul EV": 7
-, "DS Automobiles|DS 3 Crossback E-Tense": 2
-, "Lexus|UX 300e": 1
+, "other": 3
 });
 
 db.insert(db.countries.IT, "2022-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202022_6246de835759c.pdf",
@@ -1403,12 +1398,10 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 27
 , "Volvo|C40 Recharge": 27
 , "Cupra|Born": 25
-, "DS Automobiles|DS 3 Crossback E-Tense": 23
 , "Kia|EV6": 19
 , "Volkswagen|e-up!": 18
 , "Mercedes-Benz|EQS": 17
 , "Mercedes-Benz|EQC": 14
-, "Lexus|UX 300e": 13
 , "BMW|iX3": 11
 , "MG|Marvel R": 11
 , "Kia|Soul EV": 10
@@ -1417,7 +1410,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|Berlingo Electric": 6
 , "Jaguar|I-Pace": 6
 , "Toyota|Proace City Electric": 6
-, "other": 40
+, "other": 76
 });
 
 db.insert(db.countries.IT, "2022-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Aprile%202022_626fd61c67f03.pdf",
@@ -1500,12 +1493,14 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 11
 , "Citroën|ë-C4": 10
 , "MG|ZS EV": 9
-, "DS Automobiles|DS 3 Crossback E-Tense": 8
 , "Mercedes-Benz|EQS": 6
 , "Peugeot|e-Rifter": 6
 , "BMW|iX3": 5
 , "Jaguar|I-Pace": 5
-, "other": 53
+, "Audi|e-tron GT": 4
+, "Mercedes-Benz|EQC": 4
+, "Tesla|other": 2
+, "other": 51
 });
 
 db.insert(db.countries.IT, "2022-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Maggio%202022_629775401787e.pdf",
@@ -1582,10 +1577,8 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 19
 , "BMW|iX3": 19
 , "MG|MG5 EV": 17
-, "Lexus|UX 300e": 15
 , "Tesla|Model Y": 14
 , "Hyundai|Ioniq 5": 12
-, "Aiways|U5": 11
 , "Mercedes-Benz|EQS": 11
 , "Peugeot|e-Traveller": 11
 , "Citroën|ë-SpaceTourer": 10
@@ -1593,7 +1586,13 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 8
 , "Audi|e-tron GT": 7
 , "Mercedes-Benz|EQC": 7
-, "other": 54
+, "Mercedes-Benz|EQV": 5
+, "Toyota|Proace Electric": 5
+, "Honda|e": 3
+, "Jaguar|I-Pace": 3
+, "Opel|Combo-e": 3
+, "Toyota|Proace City Electric": 3
+, "other": 58
 });
 
 db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Giugno%202022_62befaffac56a.pdf",
@@ -1667,13 +1666,11 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 29
 , "Audi|Q8 e-tron": 28
 , "Honda|e": 27
-, "DS Automobiles|DS 3 Crossback E-Tense": 26
 , "Mazda|MX-30": 22
 , "Toyota|Proace Electric": 21
 , "BMW|i4": 19
 , "Kia|EV6": 18
 , "Volvo|C40 Recharge": 17
-, "Aiways|U5": 16
 , "Mercedes-Benz|EQE": 15
 , "MG|MG5 EV": 14
 , "Jaguar|I-Pace": 13
@@ -1682,7 +1679,11 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 10
 , "Toyota|Proace City Electric": 8
 , "Peugeot|e-Rifter": 7
-, "other": 87
+, "Audi|e-tron GT": 6
+, "Volvo|XC40 Recharge pure electric": 6
+, "Mercedes-Benz|other": 15
+, "Kia|other": 5
+, "other": 97
 });
 
 db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Luglio%202022_62e7d48f1cccf.pdf",
@@ -1757,7 +1758,6 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace City Electric": 15
 , "Volvo|C40 Recharge": 15
 , "BMW|iX3": 14
-, "Aiways|U5": 13
 , "Mercedes-Benz|EQE": 13
 , "Jaguar|I-Pace": 9
 , "Mazda|MX-30": 7
@@ -1767,10 +1767,13 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 6
 , "Mercedes-Benz|EQS": 6
 , "Honda|e": 5
-, "DS Automobiles|DS 3 Crossback E-Tense": 4
 , "Hyundai|Ioniq 5": 4
 , "MG|Marvel R": 4
-, "other": 42
+, "Opel|Combo-e": 3
+, "Citroën|Berlingo Electric": 2
+, "Kia|Soul EV": 2
+, "Peugeot|e-Rifter": 2
+, "other": 50
 });
 
 db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Agosto%202022_6310a8afd3969.pdf",
@@ -1928,7 +1931,6 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 35
 , "Citroën|ë-C4": 28
 , "Škoda|Enyaq": 28
-, "Aiways|U5": 27
 , "Mazda|MX-30": 25
 , "Nissan|Ariya": 22
 , "Kia|EV6": 20
@@ -1942,9 +1944,15 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 12
 , "Mercedes-Benz|EQS": 12
 , "Hyundai|Ioniq 5": 9
-, "Lexus|UX 300e": 9
 , "Toyota|Proace City Electric": 9
-, "other": 41
+, "Toyota|Proace Electric": 7
+, "Volkswagen|e-up!": 7
+, "MG|MG5 EV": 4
+, "Audi|other": 3
+, "Honda|other": 3
+, "Jaguar|other": 3
+, "Mercedes-Benz|other": 3
+, "other": 47
 });
 
 db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Ottobre%202022_6362879f08071.pdf",
@@ -2027,13 +2035,15 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 11
 , "Mercedes-Benz|EQC": 11
 , "MG|ZS EV": 10
-, "Lexus|UX 300e": 6
 , "Mercedes-Benz|EQS": 6
 , "MG|MG5 EV": 5
 , "Peugeot|e-Rifter": 5
 , "Subaru|Solterra": 5
 , "Toyota|Proace Electric": 5
-, "other": 24
+, "Audi|e-tron GT": 3
+, "Mercedes-Benz|EQV": 3
+, "Smart|other": 2
+, "other": 22
 });
 
 db.insert(db.countries.IT, "2022-11", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Novembre%202022_6388b6e495397.pdf",
@@ -2122,7 +2132,13 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 10
 , "Citroën|ë-C4": 10
 , "Citroën|ë-SpaceTourer": 9
-, "other": 46
+, "Mercedes-Benz|other": 13
+, "Mazda|other": 7
+, "Toyota|other": 6
+, "MG|other": 4
+, "Citroën|other": 3
+, "Fiat|other": 3
+, "other": 10
 });
 
 db.insert(db.countries.IT, "2022-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Dicembre%202022_63b3ce802469b.pdf",
@@ -2202,7 +2218,6 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 17
 , "Ford|Mustang Mach-E": 17
 , "Kia|Niro EV": 17
-, "Lexus|UX 300e": 17
 , "Audi|e-tron GT": 16
 , "Hyundai|Ioniq 5": 16
 , "MG|ZS EV": 15
@@ -2211,7 +2226,14 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 11
 , "Hyundai|Kona Electric": 9
 , "Fiat|E-Doblò": 7
-, "other": 208
+, "Mercedes-Benz|EQS": 5
+, "BMW|other": 7
+, "Citroën|other": 4
+, "Honda|other": 4
+, "MG|other": 4
+, "Peugeot|other": 4
+, "Toyota|other": 3
+, "other": 194
 });
 
 db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Gennaio%202023_63da853aee5fb.pdf",
@@ -2352,7 +2374,6 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 60
 , "Volvo|XC40 Recharge pure electric": 58
 , "Peugeot|e-2008": 57
-, "DS Automobiles|DS 3 Crossback E-Tense": 50
 , "BMW|i4": 48
 , "MG|Marvel R": 48
 , "Fiat|E-Doblò": 42
@@ -2382,6 +2403,10 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Ulysse": 11
 , "Subaru|Solterra": 11
 , "Mercedes-Benz|EQC": 10
+, "Mazda|MX-30": 8
+, "MG|other": 12
+, "Tesla|other": 5
+, "other": 5
 });
 
 db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202023_642ad178ad402.pdf",
@@ -2470,6 +2495,14 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 20
 , "Jaguar|I-Pace": 19
 , "MG|ZS EV": 19
+, "Kia|other": 36
+, "Mercedes-Benz|other": 29
+, "Honda|other": 18
+, "Nissan|other": 15
+, "Peugeot|other": 13
+, "BMW|other": 12
+, "Porsche|other": 12
+, "Audi|other": 8
 });
 
 db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Aprile%202023_64512d2f52fa6.pdf",
@@ -2559,7 +2592,13 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 11
 , "Subaru|Solterra": 9
 , "Toyota|Proace City Electric": 9
-, "other": 23
+, "MG|other": 7
+, "Jaguar|other": 6
+, "Citroën|other": 5
+, "Mazda|other": 5
+, "BMW|other": 4
+, "Toyota|other": 4
+, "Fiat|other": 3
 });
 
 db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Maggio%202023_6478b30f87cc6.pdf",
@@ -2638,7 +2677,6 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 28
 , "Mercedes-Benz|EQE": 26
 , "Fiat|E-Doblò": 25
-, "Lexus|RZ": 24
 , "Mercedes-Benz|EQB": 24
 , "Nissan|Leaf": 24
 , "MG|ZS EV": 23
@@ -2647,7 +2685,17 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 20
 , "Hyundai|Ioniq 5": 17
 , "Citroën|ë-SpaceTourer": 16
-, "other": 107
+, "Kia|Niro EV": 15
+, "MG|Marvel R": 15
+, "Smart|1": 15
+, "Mercedes-Benz|other": 16
+, "Toyota|other": 9
+, "Citroën|other": 8
+, "Fiat|other": 8
+, "Nissan|other": 6
+, "Jaguar|other": 5
+, "BMW|other": 4
+, "other": 30
 });
 
 db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Giugno%202023_64a2d3b0bb224.pdf",
@@ -2737,7 +2785,12 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 10
 , "Fiat|E-Doblò": 10
 , "Kia|Niro EV": 10
-, "other": 117
+, "Citroën|other": 13
+, "Toyota|other": 12
+, "Hyundai|other": 7
+, "Mercedes-Benz|other": 4
+, "Nissan|other": 4
+, "other": 77
 });
 
 db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Luglio%202023_64c8de6ccdfd3.pdf",
@@ -2826,8 +2879,12 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|C40 Recharge": 14
 , "Kia|Niro EV": 12
 , "Opel|Zafira-e": 11
-, "DS Automobiles|DS 3 Crossback E-Tense": 8
-, "other": 29
+, "Fiat|E-Doblò": 7
+, "Tesla|other": 12
+, "Mercedes-Benz|other": 9
+, "Hyundai|other": 7
+, "Citroën|other": 6
+, "Toyota|other": 6
 });
 
 db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Agosto%202023_64f1c3708072b.pdf",
@@ -2891,7 +2948,6 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|1": 32
 , "Porsche|Taycan": 23
 , "Renault|Twingo Z.E.": 23
-, "Aiways|U5": 22
 , "Mercedes-Benz|EQE": 22
 , "Volvo|C40 Recharge": 22
 , "Škoda|Enyaq": 22
@@ -2911,7 +2967,6 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 10
 , "Polestar|2": 8
 , "Hyundai|Ioniq 5": 7
-, "DS Automobiles|DS 3 Crossback E-Tense": 6
 , "Fiat|600e": 5
 , "Fiat|E-Doblò": 5
 , "Renault|Zoe": 5
@@ -2920,7 +2975,8 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 4
 , "Mercedes-Benz|EQS SUV": 4
 , "Tesla|Model S": 4
-, "other": 25
+, "BMW|other": 3
+, "other": 50
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Settembre%202023_651a9f6eedac7.pdf",
@@ -3010,7 +3066,14 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 11
 , "Nissan|Ariya": 11
 , "Hyundai|Ioniq 6": 10
-, "other": 16
+, "Citroën|other": 15
+, "Kia|other": 14
+, "Toyota|other": 10
+, "MG|other": 7
+, "Mazda|other": 7
+, "Hyundai|other": 6
+, "BMW|other": 5
+, "Fiat|other": 3
 });
 
 db.insert(db.countries.IT, "2023-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Ottobre%202023_65439ec121bb0.pdf",
@@ -3097,11 +3160,20 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 18
 , "BYD|Dolphin": 16
 , "Tesla|Model S": 16
-, "DS Automobiles|DS 3 Crossback E-Tense": 14
 , "Nissan|Ariya": 14
 , "BMW|iX3": 13
 , "Hyundai|Ioniq 6": 13
-, "other": 401
+, "Toyota|other": 29
+, "Citroën|other": 13
+, "MG|other": 11
+, "Audi|other": 10
+, "Mercedes-Benz|other": 7
+, "Tesla|other": 6
+, "Hyundai|other": 5
+, "Fiat|other": 4
+, "BYD|other": 3
+, "Honda|other": 3
+, "other": 324
 });
 
 db.insert(db.countries.IT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Novembre%202023_6569e73bc87bd.pdf",
@@ -3192,7 +3264,17 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 12
 , "MG|Marvel R": 10
 , "Mercedes-Benz|eCitan": 10
-, "other": 206
+, "Kia|other": 15
+, "Mercedes-Benz|other": 13
+, "Toyota|other": 12
+, "Hyundai|other": 10
+, "MG|other": 10
+, "Citroën|other": 9
+, "Opel|other": 8
+, "Nissan|other": 6
+, "Audi|other": 5
+, "BMW|other": 4
+, "other": 114
 });
 
 db.insert(db.countries.IT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Dicembre%202023_659430b321a77.pdf",
@@ -3282,5 +3364,18 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 16
 , "BMW|i5": 15
 , "Kia|EV6": 15
-, "other": 202
+, "Mercedes-Benz|other": 39
+, "MG|other": 28
+, "Kia|other": 12
+, "Audi|other": 10
+, "Hyundai|other": 10
+, "Citroën|other": 9
+, "Fiat|other": 7
+, "Renault|other": 7
+, "Toyota|other": 6
+, "BMW|other": 5
+, "BYD|other": 5
+, "Polestar|other": 5
+, "Subaru|other": 5
+, "other": 54
 });
