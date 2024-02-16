@@ -2356,44 +2356,38 @@ db.insert(db.countries.AT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 });
 
 db.insert(db.countries.AT, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
-{ "Volkswagen": 2704
-, "Škoda": 1610
-, "Audi": 1251
-, "BMW": 983
-, "Mercedes-Benz": 794
-, "Ford": 782
-, "Toyota": 707
-, "Peugeot": 689
-, "Dacia": 667
-, "Kia": 577
-, "Seat": 564
-, "Renault": 552
-, "Hyundai": 494
-, "Cupra": 381
-, "Fiat": 351
-, "Volvo": 321
-, "Opel": 318
-, "Mazda": 311
-, "Suzuki": 245
-, "Citroën": 222
-, "Mini": 167
-, "Porsche": 164
-, "Nissan": 161
-, "Jeep": 103
-, "Mitsubishi": 94
-, "Land Rover": 85
-, "Honda": 70
-, "MG": 67
-, "Subaru": 34
-, "Tesla": 28
-, "Jaguar": 25
-, "Polestar": 20
-, "Lexus": 18
-, "DS Automobiles": 11
-, "Smart": 6
-, "Maserati": 1
-, "Chevrolet": 1
-, "other": 41
+{ "Volkswagen": 3026
+, "Škoda": 1878
+, "BMW": 1516
+, "Tesla": 1473
+, "Hyundai": 1298
+, "Mercedes-Benz": 1152
+, "Ford": 1130
+, "Kia": 813
+, "Seat": 812
+, "Audi": 777
+, "Toyota": 735
+, "Cupra": 716
+, "Renault": 686
+, "Dacia": 681
+, "Peugeot": 609
+, "Mazda": 607
+, "Opel": 458
+, "Fiat": 381
+, "Citroën": 287
+, "Mitsubishi": 279
+, "Volvo": 178
+, "Nissan": 175
+, "Mini": 168
+, "Honda": 99
+, "Porsche": 99
+, "Jeep": 69
+, "MG": 66
+, "Land Rover": 49
+, "Polestar": 48
+, "Jaguar": 35
+, "Subaru": 18
+, "other": 417
 });
 
 db.insert(db.countries.AT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
