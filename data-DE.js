@@ -6595,7 +6595,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 4226
 });
 
-db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_01.xlsx?__blob=publicationFile&v=4",
+db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_01.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2024/02/17/germany-ev-sales-report-back-to-the-past/",
 { "Tesla|Model Y": 2393
 , "Škoda|Enyaq": 1457
 , "Audi|Q4 e-tron": 1424
@@ -6603,11 +6603,11 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQA": 803
 , "Mercedes-Benz|EQE": 776
 , "Audi|Q8 e-tron": 759
-, "Volkswagen|ID.4/ID.5": 751
 , "Fiat|500e": 735
 , "Tesla|Model 3": 695
 , "Smart|Fortwo ED": 686
 , "Volkswagen|ID.3": 507
+, "Volkswagen|ID.4": 504
 , "Volvo|EX30": 494
 , "Renault|Megane E-Tech": 471
 , "Mercedes-Benz|EQB": 375
@@ -6626,6 +6626,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|XC40 Recharge pure electric": 270
 , "Porsche|Taycan": 266
 , "MG|MG4 EV": 249
+, "Volkswagen|ID.5": 247
 , "Volkswagen|ID. Buzz": 222
 , "Kia|Niro EV": 218
 , "MG|MG5 EV": 205
@@ -6645,11 +6646,11 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 99
 , "Volvo|C40 Recharge": 97
 , "Mercedes-Benz|eCitan": 85
-, "Audi|e-tron GT": 82
 , "Opel|other": 159
 , "BYD|other": 139
 , "Nissan|other": 136
 , "Peugeot|other": 134
+, "Audi|other": 124
 , "Renault|other": 121
 , "Mercedes-Benz|other": 115
 , "Porsche|other": 82
@@ -6658,7 +6659,6 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|other": 64
 , "MG|other": 62
 , "Fiat|other": 52
-, "Audi|other": 42
 , "Kia|other": 38
 , "GWM|other": 22
 , "Nio|other": 21
