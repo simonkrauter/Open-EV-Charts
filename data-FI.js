@@ -23,19 +23,17 @@ db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 214
 , "Citroën": 180
 , "Mazda": 167
-, "Suzuki": 136
 , "Subaru": 86
 , "Dacia": 80
 , "Mitsubishi": 61
 , "Renault": 47
 , "Land Rover": 39
-, "Lexus": 35
 , "Porsche": 31
 , "Mini": 27
 , "Fiat": 25
 , "Jaguar": 22
 , "Tesla": 17
-, "other": 133
+, "other": 304
 });
 
 db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -65,7 +63,6 @@ db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 246
 , "Seat": 156
 , "Honda": 147
-, "Suzuki": 128
 , "Mazda": 108
 , "Citroën": 104
 , "Renault": 93
@@ -74,12 +71,11 @@ db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 45
 , "Land Rover": 28
 , "Mini": 22
-, "Lexus": 20
 , "Porsche": 17
 , "Jaguar": 16
 , "Fiat": 11
 , "Tesla": 4
-, "other": 148
+, "other": 296
 });
 
 db.insert(db.countries.FI, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -108,20 +104,18 @@ db.insert(db.countries.FI, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 288
 , "Honda": 195
 , "Dacia": 187
-, "Suzuki": 182
 , "Citroën": 169
 , "Mazda": 139
 , "Renault": 133
 , "Subaru": 80
 , "Mitsubishi": 72
-, "Lexus": 40
 , "Land Rover": 37
 , "Tesla": 36
 , "Mini": 34
 , "Jaguar": 17
 , "Porsche": 15
 , "Fiat": 14
-, "other": 152
+, "other": 374
 });
 
 db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -152,19 +146,17 @@ db.insert(db.countries.FI, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 242
 , "Seat": 222
 , "Dacia": 189
-, "Suzuki": 176
 , "Honda": 140
 , "Mazda": 131
 , "Mitsubishi": 95
 , "Subaru": 92
 , "Porsche": 28
 , "Mini": 27
-, "Lexus": 25
 , "Jaguar": 23
 , "Land Rover": 17
 , "Tesla": 8
 , "Fiat": 6
-, "other": 182
+, "other": 383
 });
 
 db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -197,18 +189,15 @@ db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 170
 , "Citroën": 152
 , "Mazda": 147
-, "Suzuki": 138
 , "Subaru": 136
 , "Mitsubishi": 97
-, "Lexus": 39
 , "Fiat": 31
 , "Jaguar": 25
 , "Mini": 23
 , "Land Rover": 22
 , "Porsche": 17
 , "Tesla": 12
-, "Alfa Romeo": 11
-, "other": 244
+, "other": 432
 });
 
 db.insert(db.countries.FI, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -229,7 +218,7 @@ db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 655
 , "Volvo": 648
 , "Nissan": 631
-, "BMW": 515
+, "BMW": 525
 , "Audi": 509
 , "Kia": 493
 , "Hyundai": 410
@@ -242,15 +231,13 @@ db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 129
 , "Mitsubishi": 120
 , "Subaru": 100
-, "Suzuki": 85
 , "Mini": 42
 , "Jaguar": 34
-, "Lexus": 30
 , "Fiat": 27
 , "Tesla": 23
 , "Porsche": 19
 , "Land Rover": 14
-, "other": 304
+, "other": 409
 });
 
 db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -275,7 +262,7 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 584
 , "Ford": 581
 , "Nissan": 580
-, "BMW": 435
+, "BMW": 441
 , "Mercedes-Benz": 389
 , "Audi": 356
 , "Peugeot": 240
@@ -284,7 +271,6 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 179
 , "Mazda": 167
 , "Dacia": 151
-, "Suzuki": 121
 , "Citroën": 119
 , "Honda": 111
 , "Subaru": 101
@@ -293,10 +279,9 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 33
 , "Fiat": 24
 , "Jaguar": 18
-, "Lexus": 18
 , "Land Rover": 16
 , "Tesla": 12
-, "other": 165
+, "other": 298
 });
 
 db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -329,18 +314,15 @@ db.insert(db.countries.FI, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 233
 , "Citroën": 207
 , "Subaru": 166
-, "Suzuki": 157
 , "Honda": 153
 , "Mitsubishi": 137
 , "Porsche": 109
 , "Fiat": 42
 , "Mini": 33
-, "Lexus": 29
 , "Land Rover": 21
-, "Alfa Romeo": 13
 , "Jaguar": 13
 , "Tesla": 4
-, "other": 132
+, "other": 331
 });
 
 db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -375,19 +357,16 @@ db.insert(db.countries.FI, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 131
 , "Citroën": 96
 , "Renault": 93
-, "Suzuki": 66
 , "Mitsubishi": 64
 , "Subaru": 62
 , "Dacia": 49
 , "Jaguar": 18
 , "Mini": 18
-, "Lexus": 16
 , "Tesla": 16
 , "Porsche": 12
 , "Land Rover": 9
 , "Fiat": 8
-, "Alfa Romeo": 3
-, "other": 91
+, "other": 176
 });
 
 db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -426,16 +405,13 @@ db.insert(db.countries.FI, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 113
 , "Dacia": 109
 , "Mitsubishi": 80
-, "Suzuki": 66
 , "Mini": 28
 , "Land Rover": 21
 , "Jaguar": 16
-, "Lexus": 14
 , "Porsche": 10
 , "Fiat": 9
-, "Alfa Romeo": 6
 , "Tesla": 4
-, "other": 121
+, "other": 207
 });
 
 db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -460,8 +436,8 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 494
 , "Kia": 468
 , "Opel": 358
+, "BMW": 299
 , "Nissan": 293
-, "BMW": 278
 , "Hyundai": 263
 , "Audi": 222
 , "Peugeot": 222
@@ -472,15 +448,13 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 128
 , "Citroën": 111
 , "Honda": 88
-, "Suzuki": 79
-, "Lexus": 20
 , "Mini": 18
 , "Tesla": 12
 , "Land Rover": 10
 , "Jaguar": 9
 , "Fiat": 6
 , "Porsche": 6
-, "other": 111
+, "other": 189
 });
 
 db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -506,7 +480,7 @@ db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 271
 , "Mercedes-Benz": 267
 , "Kia": 247
-, "BMW": 195
+, "BMW": 196
 , "Hyundai": 191
 , "Audi": 161
 , "Nissan": 153
@@ -518,15 +492,13 @@ db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 80
 , "Mazda": 69
 , "Honda": 59
-, "Suzuki": 46
 , "Tesla": 24
-, "Lexus": 22
 , "Jaguar": 15
 , "Mini": 15
 , "Land Rover": 8
 , "Porsche": 3
 , "Fiat": 1
-, "other": 44
+, "other": 111
 });
 
 db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -552,7 +524,7 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 638
 , "Mercedes-Benz": 617
 , "Nissan": 551
-, "BMW": 379
+, "BMW": 391
 , "Hyundai": 350
 , "Audi": 318
 , "Peugeot": 294
@@ -562,19 +534,15 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 145
 , "Honda": 140
 , "Mazda": 137
-, "Suzuki": 114
 , "Subaru": 94
 , "Dacia": 69
 , "Jaguar": 29
-, "Lexus": 27
 , "Land Rover": 21
 , "Mini": 19
 , "Tesla": 16
-, "Alfa Romeo": 5
 , "Fiat": 5
 , "Porsche": 5
-, "DS Automobiles": 1
-, "other": 111
+, "other": 246
 });
 
 db.insert(db.countries.FI, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -600,7 +568,7 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 412
 , "Hyundai": 352
 , "Nissan": 319
-, "BMW": 231
+, "BMW": 232
 , "Audi": 199
 , "Seat": 198
 , "Mitsubishi": 175
@@ -608,18 +576,16 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 104
 , "Honda": 96
 , "Mazda": 85
-, "Suzuki": 85
 , "Subaru": 70
 , "Renault": 65
 , "Dacia": 54
 , "Tesla": 40
-, "Lexus": 31
 , "Jaguar": 23
 , "Mini": 23
 , "Land Rover": 20
 , "Jeep": 8
 , "Fiat": 7
-, "other": 141
+, "other": 256
 });
 
 db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -647,7 +613,7 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 570
 , "Kia": 515
 , "Mercedes-Benz": 513
-, "BMW": 409
+, "BMW": 413
 , "Audi": 377
 , "Opel": 322
 , "Hyundai": 319
@@ -656,7 +622,6 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 175
 , "Peugeot": 171
 , "Tesla": 153
-, "Suzuki": 146
 , "Mazda": 115
 , "Dacia": 112
 , "Honda": 112
@@ -664,11 +629,10 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 62
 , "Jaguar": 23
 , "Land Rover": 23
-, "Lexus": 19
 , "Mini": 19
 , "Fiat": 13
 , "Porsche": 12
-, "other": 156
+, "other": 317
 });
 
 db.insert(db.countries.FI, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -702,24 +666,22 @@ db.insert(db.countries.FI, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 342
 , "Hyundai": 330
 , "Audi": 325
-, "BMW": 242
+, "BMW": 251
 , "Citroën": 183
 , "Seat": 174
 , "Mitsubishi": 170
 , "Mazda": 160
 , "Renault": 154
 , "Honda": 135
-, "Suzuki": 113
 , "Tesla": 97
 , "Dacia": 83
 , "Subaru": 68
 , "Land Rover": 57
-, "Lexus": 41
 , "Jaguar": 40
 , "Mini": 18
 , "Porsche": 16
 , "Fiat": 6
-, "other": 235
+, "other": 380
 });
 
 db.insert(db.countries.FI, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -749,7 +711,7 @@ db.insert(db.countries.FI, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 561
 , "Nissan": 535
 , "Audi": 425
-, "BMW": 401
+, "BMW": 404
 , "Renault": 365
 , "Hyundai": 285
 , "Seat": 260
@@ -758,17 +720,15 @@ db.insert(db.countries.FI, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 185
 , "Mazda": 157
 , "Honda": 108
-, "Suzuki": 102
 , "Dacia": 80
 , "Subaru": 79
-, "Lexus": 51
 , "Tesla": 42
 , "Land Rover": 35
 , "Jaguar": 24
 , "Mini": 18
 , "Porsche": 15
 , "Fiat": 12
-, "other": 290
+, "other": 440
 });
 
 db.insert(db.countries.FI, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -799,23 +759,21 @@ db.insert(db.countries.FI, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 327
 , "Hyundai": 294
 , "Seat": 288
-, "BMW": 238
+, "BMW": 239
 , "Peugeot": 178
 , "Tesla": 171
 , "Citroën": 166
 , "Mitsubishi": 160
 , "Mazda": 111
 , "Dacia": 110
-, "Suzuki": 83
 , "Honda": 42
 , "Subaru": 40
 , "Land Rover": 31
 , "Mini": 23
-, "Lexus": 22
 , "Jaguar": 21
 , "Porsche": 15
 , "Fiat": 3
-, "other": 214
+, "other": 318
 });
 
 db.insert(db.countries.FI, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -853,18 +811,16 @@ db.insert(db.countries.FI, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 161
 , "Citroën": 152
 , "Mazda": 107
-, "Suzuki": 88
 , "Tesla": 68
 , "Honda": 63
 , "Dacia": 60
 , "Subaru": 60
 , "Jaguar": 33
 , "Mini": 28
-, "Lexus": 27
 , "Land Rover": 23
 , "Fiat": 9
 , "Porsche": 9
-, "other": 215
+, "other": 330
 });
 
 db.insert(db.countries.FI, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -893,26 +849,24 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Hyundai": 512
 , "Mercedes-Benz": 507
 , "Opel": 374
-, "BMW": 312
+, "BMW": 318
 , "Peugeot": 307
 , "Renault": 291
 , "Audi": 277
 , "Seat": 261
 , "Mitsubishi": 235
 , "Citroën": 213
-, "Suzuki": 120
 , "Mazda": 108
 , "Dacia": 103
 , "Honda": 96
 , "Subaru": 55
 , "Tesla": 53
-, "Lexus": 47
 , "Mini": 27
 , "Land Rover": 25
 , "Jaguar": 11
 , "Porsche": 10
 , "Fiat": 6
-, "other": 214
+, "other": 375
 });
 
 db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -943,7 +897,7 @@ db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 413
 , "Hyundai": 383
 , "Nissan": 365
-, "BMW": 290
+, "BMW": 293
 , "Audi": 239
 , "Mitsubishi": 171
 , "Citroën": 169
@@ -953,16 +907,14 @@ db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 134
 , "Peugeot": 109
 , "Renault": 107
-, "Suzuki": 90
 , "Honda": 52
-, "Lexus": 38
 , "Subaru": 35
 , "Land Rover": 25
 , "Mini": 17
 , "Jaguar": 11
 , "Fiat": 10
 , "Porsche": 2
-, "other": 82
+, "other": 207
 });
 
 db.insert(db.countries.FI, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -999,17 +951,15 @@ db.insert(db.countries.FI, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 156
 , "Peugeot": 149
 , "Mitsubishi": 129
-, "Suzuki": 110
 , "Subaru": 59
 , "Honda": 56
 , "Porsche": 51
-, "Lexus": 37
 , "Mini": 25
 , "Land Rover": 17
 , "Jaguar": 15
 , "Fiat": 9
 , "Tesla": 7
-, "other": 129
+, "other": 276
 });
 
 db.insert(db.countries.FI, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1046,17 +996,15 @@ db.insert(db.countries.FI, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 144
 , "Seat": 139
 , "Mitsubishi": 133
-, "Suzuki": 97
 , "Subaru": 63
 , "Honda": 39
 , "Porsche": 39
-, "Lexus": 26
 , "Mini": 20
 , "Land Rover": 18
 , "Tesla": 14
 , "Jaguar": 7
 , "Fiat": 2
-, "other": 84
+, "other": 207
 });
 
 db.insert(db.countries.FI, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1083,7 +1031,7 @@ db.insert(db.countries.FI, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 417
 , "Dacia": 381
 , "Opel": 373
-, "BMW": 297
+, "BMW": 298
 , "Hyundai": 295
 , "Audi": 246
 , "Seat": 232
@@ -1093,16 +1041,14 @@ db.insert(db.countries.FI, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 137
 , "Tesla": 107
 , "Mitsubishi": 75
-, "Suzuki": 58
 , "Subaru": 30
 , "Porsche": 25
 , "Honda": 22
-, "Lexus": 22
 , "Mini": 18
 , "Land Rover": 16
 , "Jaguar": 4
 , "Fiat": 3
-, "other": 50
+, "other": 129
 });
 
 db.insert(db.countries.FI, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1141,8 +1087,6 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 79
 , "Mazda": 78
 , "Honda": 72
-, "Suzuki": 67
-, "Lexus": 55
 , "Porsche": 38
 , "Dacia": 36
 , "Tesla": 27
@@ -1150,8 +1094,7 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 23
 , "Jaguar": 9
 , "Fiat": 4
-, "DS Automobiles": 3
-, "other": 141
+, "other": 266
 });
 
 db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1192,20 +1135,16 @@ db.insert(db.countries.FI, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 161
 , "Seat": 149
 , "Renault": 118
-, "Suzuki": 107
 , "Mazda": 87
 , "Honda": 65
-, "Lexus": 32
 , "Subaru": 27
 , "Dacia": 26
 , "Mini": 19
 , "Land Rover": 18
-, "DS Automobiles": 11
 , "Porsche": 11
-, "SsangYong": 10
 , "Jaguar": 6
 , "Tesla": 6
-, "other": 158
+, "other": 318
 });
 
 db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1249,19 +1188,15 @@ db.insert(db.countries.FI, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 165
 , "Peugeot": 152
 , "Mazda": 96
-, "Suzuki": 92
 , "Dacia": 74
 , "Honda": 57
 , "Land Rover": 29
-, "Lexus": 29
 , "Subaru": 28
 , "Mini": 24
 , "Porsche": 21
-, "DS Automobiles": 10
 , "Jaguar": 9
-, "SsangYong": 8
 , "Fiat": 4
-, "other": 190
+, "other": 329
 });
 
 db.insert(db.countries.FI, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1305,18 +1240,14 @@ db.insert(db.countries.FI, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 75
 , "Mazda": 72
 , "Honda": 62
-, "Suzuki": 60
 , "Dacia": 49
 , "Tesla": 43
 , "Porsche": 36
 , "Subaru": 25
-, "Lexus": 24
 , "Land Rover": 23
 , "Mini": 19
 , "Jaguar": 5
-, "SsangYong": 4
-, "DS Automobiles": 3
-, "other": 185
+, "other": 276
 });
 
 db.insert(db.countries.FI, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1359,21 +1290,17 @@ db.insert(db.countries.FI, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 122
 , "Mitsubishi": 120
 , "Seat": 98
-, "Suzuki": 85
 , "Mazda": 67
 , "Dacia": 55
 , "Honda": 41
 , "Subaru": 26
 , "Tesla": 26
-, "Lexus": 23
 , "Mini": 22
 , "Porsche": 15
 , "Fiat": 11
 , "Land Rover": 11
-, "DS Automobiles": 6
 , "Jaguar": 2
-, "SsangYong": 2
-, "other": 216
+, "other": 332
 });
 
 db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1405,7 +1332,7 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 681
 , "Ford": 577
 , "Mercedes-Benz": 408
-, "BMW": 315
+, "BMW": 320
 , "Hyundai": 281
 , "Audi": 275
 , "Opel": 250
@@ -1415,21 +1342,17 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 177
 , "Mitsubishi": 148
 , "Seat": 123
-, "Suzuki": 119
 , "Mazda": 89
 , "Dacia": 72
 , "Tesla": 57
 , "Honda": 40
 , "Porsche": 32
 , "Subaru": 24
-, "Lexus": 23
 , "Land Rover": 18
 , "Mini": 11
 , "Fiat": 10
-, "SsangYong": 10
 , "Jaguar": 2
-, "DS Automobiles": 1
-, "other": 327
+, "other": 475
 });
 
 db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1473,20 +1396,16 @@ db.insert(db.countries.FI, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 169
 , "Renault": 169
 , "Seat": 169
-, "Suzuki": 100
 , "Mazda": 84
 , "Dacia": 71
 , "Honda": 60
 , "Mini": 40
 , "Subaru": 37
 , "Porsche": 33
-, "Lexus": 13
 , "Fiat": 12
 , "Land Rover": 11
-, "DS Automobiles": 4
-, "SsangYong": 4
 , "Tesla": 1
-, "other": 281
+, "other": 402
 });
 
 db.insert(db.countries.FI, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1529,7 +1448,6 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 145
 , "Mitsubishi": 136
 , "Citroën": 108
-, "Suzuki": 100
 , "Dacia": 90
 , "Mazda": 70
 , "Honda": 58
@@ -1537,13 +1455,10 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 38
 , "Mini": 32
 , "Tesla": 32
-, "Lexus": 23
-, "DS Automobiles": 14
 , "Fiat": 14
 , "Jaguar": 10
 , "Land Rover": 6
-, "SsangYong": 5
-, "other": 205
+, "other": 347
 });
 
 db.insert(db.countries.FI, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1590,18 +1505,15 @@ db.insert(db.countries.FI, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 122
 , "Citroën": 113
 , "Mazda": 106
-, "Suzuki": 103
 , "Dacia": 100
 , "Honda": 47
 , "Subaru": 27
 , "Porsche": 24
 , "Mini": 21
 , "Land Rover": 19
-, "Lexus": 18
 , "Fiat": 10
 , "Jaguar": 5
-, "DS Automobiles": 4
-, "other": 166
+, "other": 291
 });
 
 db.insert(db.countries.FI, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1648,21 +1560,18 @@ db.insert(db.countries.FI, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 219
 , "Citroën": 177
 , "Mitsubishi": 106
-, "Suzuki": 91
 , "Seat": 75
 , "Mazda": 68
 , "Honda": 44
 , "Dacia": 42
 , "Subaru": 33
 , "Mini": 29
-, "Lexus": 23
 , "Porsche": 23
 , "Fiat": 22
 , "Tesla": 21
 , "Land Rover": 14
-, "DS Automobiles": 3
 , "Jaguar": 2
-, "other": 123
+, "other": 240
 });
 
 db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1710,19 +1619,15 @@ db.insert(db.countries.FI, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 111
 , "Seat": 94
 , "Mitsubishi": 90
-, "Suzuki": 85
 , "Mazda": 65
 , "Subaru": 37
 , "Honda": 32
 , "Mini": 32
 , "Land Rover": 19
 , "Fiat": 18
-, "Lexus": 13
 , "Tesla": 12
 , "Porsche": 11
-, "SsangYong": 11
-, "DS Automobiles": 7
-, "other": 107
+, "other": 223
 });
 
 db.insert(db.countries.FI, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1772,17 +1677,14 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 109
 , "Mitsubishi": 86
 , "Mazda": 65
-, "Suzuki": 62
 , "Honda": 48
 , "Jaguar": 34
 , "Subaru": 29
 , "Mini": 21
 , "Land Rover": 15
 , "Porsche": 14
-, "Lexus": 13
 , "Fiat": 11
-, "DS Automobiles": 2
-, "other": 92
+, "other": 169
 });
 
 db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1838,9 +1740,7 @@ db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 187
 , "Citroën": 116
 , "Mazda": 85
-, "Suzuki": 71
 , "Mitsubishi": 66
-, "Lexus": 39
 , "Subaru": 34
 , "Fiat": 28
 , "Cupra": 27
@@ -1850,7 +1750,7 @@ db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 9
 , "Jeep": 8
 , "Tesla": 7
-, "other": 142
+, "other": 252
 });
 
 db.insert(db.countries.FI, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1898,7 +1798,6 @@ db.insert(db.countries.FI, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 226
 , "Seat": 165
 , "Dacia": 84
-, "Suzuki": 79
 , "Mazda": 74
 , "Mitsubishi": 70
 , "Renault": 68
@@ -1907,12 +1806,11 @@ db.insert(db.countries.FI, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 29
 , "Mini": 24
 , "Honda": 23
-, "Lexus": 20
 , "Fiat": 18
 , "Porsche": 18
 , "Cupra": 14
 , "Jeep": 9
-, "other": 224
+, "other": 323
 });
 
 db.insert(db.countries.FI, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -1960,7 +1858,6 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 261
 , "Seat": 228
 , "Mitsubishi": 156
-, "Suzuki": 97
 , "Renault": 96
 , "Mazda": 76
 , "Dacia": 61
@@ -1971,10 +1868,8 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 34
 , "Mini": 29
 , "Fiat": 27
-, "Lexus": 25
-, "DS Automobiles": 16
 , "Jeep": 10
-, "other": 277
+, "other": 415
 });
 
 db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2026,7 +1921,6 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 245
 , "Opel": 171
 , "Renault": 127
-, "Suzuki": 104
 , "Mitsubishi": 86
 , "Dacia": 76
 , "Mazda": 67
@@ -2035,12 +1929,11 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 37
 , "Cupra": 36
 , "Honda": 29
-, "Lexus": 28
 , "Subaru": 18
 , "Fiat": 17
 , "Jeep": 10
 , "Tesla": 7
-, "other": 269
+, "other": 401
 });
 
 db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2095,7 +1988,6 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 247
 , "Renault": 169
 , "Mazda": 105
-, "Suzuki": 92
 , "Mitsubishi": 81
 , "Porsche": 38
 , "Mini": 32
@@ -2105,10 +1997,9 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 25
 , "Fiat": 24
 , "Land Rover": 21
-, "Lexus": 20
 , "Tesla": 19
 , "Jeep": 10
-, "other": 412
+, "other": 524
 });
 
 db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2166,7 +2057,6 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 217
 , "Opel": 196
 , "Renault": 191
-, "Suzuki": 184
 , "Seat": 147
 , "Citroën": 136
 , "Mitsubishi": 115
@@ -2175,13 +2065,12 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 56
 , "Porsche": 35
 , "Mini": 34
-, "Lexus": 32
 , "Honda": 31
 , "Cupra": 29
 , "Jeep": 21
 , "Subaru": 20
 , "Land Rover": 16
-, "other": 404
+, "other": 620
 });
 
 db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2239,7 +2128,6 @@ db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 111
 , "Renault": 104
 , "Seat": 104
-, "Suzuki": 101
 , "Dacia": 90
 , "Mazda": 85
 , "Subaru": 37
@@ -2247,13 +2135,11 @@ db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 33
 , "Porsche": 21
 , "Cupra": 20
-, "Lexus": 20
 , "Honda": 17
 , "Mini": 15
 , "Jeep": 9
-, "DS Automobiles": 6
 , "Tesla": 1
-, "other": 337
+, "other": 464
 });
 
 db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2310,19 +2196,16 @@ db.insert(db.countries.FI, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 98
 , "Renault": 93
 , "Mazda": 90
-, "Suzuki": 90
 , "Fiat": 43
 , "Mini": 32
 , "Cupra": 28
 , "Porsche": 27
-, "Lexus": 25
 , "Subaru": 25
 , "Land Rover": 24
 , "Honda": 19
 , "Tesla": 17
 , "Jeep": 7
-, "DS Automobiles": 3
-, "other": 358
+, "other": 476
 });
 
 db.insert(db.countries.FI, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2383,21 +2266,18 @@ db.insert(db.countries.FI, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 122
 , "Mazda": 104
 , "Seat": 82
-, "Suzuki": 82
 , "Mitsubishi": 67
 , "Peugeot": 55
 , "Dacia": 53
 , "Subaru": 26
 , "Honda": 25
-, "Lexus": 17
 , "Fiat": 16
 , "Mini": 16
 , "Land Rover": 13
 , "Porsche": 13
 , "Cupra": 11
 , "Jeep": 8
-, "DS Automobiles": 6
-, "other": 148
+, "other": 253
 });
 
 db.insert(db.countries.FI, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2454,7 +2334,6 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 103
 , "Mitsubishi": 102
 , "Seat": 65
-, "Suzuki": 61
 , "Subaru": 46
 , "Land Rover": 43
 , "Fiat": 30
@@ -2462,11 +2341,10 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 26
 , "Porsche": 24
 , "Honda": 22
-, "Lexus": 11
 , "Cupra": 7
 , "Jeep": 7
 , "Tesla": 3
-, "other": 219
+, "other": 291
 });
 
 db.insert(db.countries.FI, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2531,7 +2409,6 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 127
 , "Mazda": 119
 , "Mitsubishi": 86
-, "Suzuki": 74
 , "Seat": 61
 , "Polestar": 50
 , "Tesla": 48
@@ -2543,8 +2420,7 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 15
 , "Honda": 13
 , "Cupra": 9
-, "Lexus": 9
-, "other": 156
+, "other": 239
 });
 
 db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2610,7 +2486,6 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 191
 , "Citroën": 121
 , "Dacia": 99
-, "Suzuki": 83
 , "Seat": 72
 , "Mazda": 69
 , "Cupra": 65
@@ -2622,8 +2497,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 27
 , "Honda": 17
 , "Subaru": 17
-, "Lexus": 5
-, "other": 129
+, "other": 217
 });
 
 db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2696,9 +2570,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 75
 , "Mitsubishi": 61
 , "Porsche": 56
-, "Suzuki": 43
 , "Land Rover": 37
-, "Lexus": 35
 , "Cupra": 31
 , "Polestar": 26
 , "Fiat": 22
@@ -2706,9 +2578,8 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 21
 , "Mini": 21
 , "Subaru": 20
-, "DS Automobiles": 9
 , "Jaguar": 8
-, "other": 118
+, "other": 205
 });
 
 db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2777,20 +2648,17 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 57
 , "Mitsubishi": 50
 , "Seat": 46
-, "Suzuki": 44
 , "Subaru": 39
 , "Land Rover": 38
 , "Tesla": 35
 , "Porsche": 34
-, "Lexus": 24
 , "Fiat": 20
 , "Mini": 20
 , "Cupra": 16
 , "Jeep": 16
 , "Honda": 12
-, "DS Automobiles": 10
 , "Jaguar": 4
-, "other": 107
+, "other": 185
 });
 
 db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2860,17 +2728,15 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 72
 , "Mazda": 65
 , "Renault": 63
-, "Suzuki": 60
 , "Cupra": 54
 , "Fiat": 44
 , "Porsche": 43
 , "Land Rover": 39
-, "Lexus": 32
 , "Seat": 30
 , "Honda": 20
 , "Subaru": 20
 , "Mini": 8
-, "other": 171
+, "other": 263
 });
 
 db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -2942,19 +2808,17 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 85
 , "Mitsubishi": 78
 , "Citroën": 76
-, "Suzuki": 55
 , "Porsche": 42
 , "Mazda": 40
 , "Cupra": 34
 , "Land Rover": 23
 , "Seat": 21
 , "Honda": 17
-, "Lexus": 17
 , "Subaru": 17
 , "Mini": 15
 , "Fiat": 14
 , "Tesla": 12
-, "other": 143
+, "other": 215
 });
 
 db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3025,17 +2889,15 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 78
 , "Mazda": 63
 , "Cupra": 57
-, "Suzuki": 41
 , "Porsche": 36
 , "Seat": 31
 , "Land Rover": 27
 , "Subaru": 25
-, "Lexus": 23
 , "Honda": 19
 , "Mini": 18
 , "Fiat": 14
 , "Tesla": 11
-, "other": 265
+, "other": 329
 });
 
 db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3112,15 +2974,13 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 67
 , "Mazda": 48
 , "Seat": 45
-, "Suzuki": 44
 , "Honda": 30
 , "Polestar": 30
 , "Porsche": 29
 , "Fiat": 19
 , "Mini": 14
-, "Lexus": 11
 , "Subaru": 10
-, "other": 263
+, "other": 318
 });
 
 db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3190,7 +3050,6 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 115
 , "Nissan": 114
 , "Mitsubishi": 98
-, "Suzuki": 66
 , "Opel": 52
 , "Mazda": 47
 , "Cupra": 34
@@ -3203,8 +3062,7 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 17
 , "Mini": 15
 , "Subaru": 13
-, "Lexus": 10
-, "other": 174
+, "other": 250
 });
 
 db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3269,7 +3127,6 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 186
 , "Hyundai": 168
 , "Citroën": 146
-, "Suzuki": 115
 , "Renault": 105
 , "Mitsubishi": 92
 , "Dacia": 91
@@ -3283,9 +3140,8 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 26
 , "Polestar": 23
 , "Seat": 23
-, "Lexus": 12
 , "Land Rover": 10
-, "other": 149
+, "other": 276
 });
 
 db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3355,7 +3211,6 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 113
 , "Hyundai": 111
 , "Opel": 100
-, "Suzuki": 81
 , "Mitsubishi": 77
 , "Mazda": 73
 , "Polestar": 59
@@ -3363,12 +3218,11 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 38
 , "Honda": 37
 , "Fiat": 26
-, "Lexus": 22
 , "Subaru": 20
 , "Mini": 19
 , "Land Rover": 12
 , "Porsche": 9
-, "other": 131
+, "other": 234
 });
 
 db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3439,12 +3293,10 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 90
 , "Dacia": 84
 , "Opel": 80
-, "Suzuki": 68
 , "Mazda": 53
 , "Mitsubishi": 42
 , "Seat": 27
 , "Cupra": 26
-, "Lexus": 25
 , "Honda": 20
 , "Mini": 15
 , "Subaru": 15
@@ -3452,7 +3304,7 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 9
 , "Fiat": 5
 , "Tesla": 5
-, "other": 142
+, "other": 235
 });
 
 db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3522,20 +3374,18 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 117
 , "Peugeot": 98
 , "Mazda": 84
-, "Suzuki": 78
 , "Hyundai": 77
 , "Dacia": 62
 , "Mitsubishi": 40
 , "Subaru": 31
 , "Honda": 30
-, "Lexus": 27
 , "Seat": 25
 , "Porsche": 22
 , "Mini": 16
 , "Land Rover": 13
 , "Fiat": 10
 , "Cupra": 8
-, "other": 112
+, "other": 217
 });
 
 db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3611,19 +3461,16 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 87
 , "Mazda": 64
 , "Porsche": 50
-, "Suzuki": 46
 , "Honda": 25
 , "Mitsubishi": 23
-, "DS Automobiles": 21
 , "Mini": 20
-, "Lexus": 19
 , "Subaru": 16
 , "Cupra": 11
 , "Land Rover": 9
 , "Seat": 9
 , "Fiat": 7
 , "Jeep": 3
-, "other": 69
+, "other": 155
 });
 
 db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3691,22 +3538,19 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 124
 , "Peugeot": 118
 , "Polestar": 118
-, "Suzuki": 106
 , "Mazda": 96
 , "Dacia": 80
 , "Renault": 74
 , "Mitsubishi": 64
 , "Tesla": 49
-, "Lexus": 35
 , "Honda": 33
 , "Cupra": 30
 , "Porsche": 29
 , "Subaru": 28
 , "Seat": 21
 , "Land Rover": 19
-, "DS Automobiles": 9
 , "Mini": 7
-, "other": 123
+, "other": 273
 });
 
 db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3781,18 +3625,15 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 78
 , "Renault": 72
 , "Citroën": 70
-, "Suzuki": 47
 , "Mitsubishi": 36
 , "Subaru": 32
 , "Cupra": 30
 , "Honda": 25
 , "Porsche": 25
 , "Land Rover": 19
-, "Lexus": 18
 , "Seat": 16
 , "Fiat": 8
-, "DS Automobiles": 6
-, "other": 101
+, "other": 172
 });
 
 db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3864,7 +3705,6 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 97
 , "Dacia": 69
 , "Mitsubishi": 64
-, "Suzuki": 54
 , "Cupra": 53
 , "Renault": 43
 , "Land Rover": 33
@@ -3872,11 +3712,9 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 26
 , "Polestar": 23
 , "Porsche": 22
-, "DS Automobiles": 19
 , "Fiat": 19
-, "Lexus": 17
 , "Honda": 15
-, "other": 140
+, "other": 230
 });
 
 db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -3949,18 +3787,15 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 74
 , "Dacia": 64
 , "Mazda": 63
-, "Suzuki": 57
 , "Mitsubishi": 51
 , "Cupra": 48
 , "Land Rover": 41
-, "Lexus": 32
 , "Seat": 32
 , "Honda": 21
 , "Subaru": 16
 , "Fiat": 11
 , "Porsche": 11
-, "DS Automobiles": 1
-, "other": 140
+, "other": 230
 });
 
 db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4030,11 +3865,9 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 114
 , "Mazda": 99
 , "Renault": 94
-, "Suzuki": 76
 , "Dacia": 75
 , "Land Rover": 56
 , "Mitsubishi": 55
-, "Lexus": 46
 , "Cupra": 39
 , "Seat": 28
 , "Porsche": 19
@@ -4042,7 +3875,7 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 14
 , "Honda": 13
 , "Fiat": 3
-, "other": 211
+, "other": 333
 });
 
 db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4116,18 +3949,15 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 65
 , "Polestar": 60
 , "Renault": 59
-, "Suzuki": 59
 , "Cupra": 57
 , "Fiat": 47
 , "Mitsubishi": 47
-, "Lexus": 41
 , "Land Rover": 33
 , "Subaru": 22
 , "Mini": 19
 , "Porsche": 16
 , "Honda": 15
-, "DS Automobiles": 5
-, "other": 224
+, "other": 329
 });
 
 db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/6, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4202,10 +4032,8 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 64
 , "Cupra": 59
 , "Polestar": 56
-, "Lexus": 54
 , "Land Rover": 53
 , "Mazda": 49
-, "Suzuki": 46
 , "Dacia": 45
 , "Mitsubishi": 40
 , "Renault": 36
@@ -4215,7 +4043,7 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 25
 , "Honda": 10
 , "Porsche": 10
-, "other": 153
+, "other": 253
 });
 
 db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4294,8 +4122,6 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 75
 , "Land Rover": 74
 , "Opel": 59
-, "Lexus": 58
-, "Suzuki": 46
 , "Mitsubishi": 43
 , "Renault": 40
 , "Mini": 32
@@ -4305,7 +4131,7 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 10
 , "Subaru": 10
 , "Porsche": 5
-, "other": 203
+, "other": 307
 });
 
 db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/8, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4385,19 +4211,16 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 69
 , "Dacia": 66
 , "Renault": 62
-, "Suzuki": 61
 , "Mitsubishi": 46
 , "Land Rover": 44
 , "Citroën": 32
-, "Lexus": 32
 , "Seat": 32
 , "Fiat": 28
 , "Subaru": 26
 , "Porsche": 21
 , "Honda": 20
-, "DS Automobiles": 17
 , "Mini": 9
-, "other": 154
+, "other": 264
 });
 
 db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4478,15 +4301,13 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 55
 , "Porsche": 53
 , "Polestar": 38
-, "Suzuki": 37
 , "Land Rover": 33
 , "Seat": 31
 , "Subaru": 30
 , "Mini": 25
-, "Lexus": 23
 , "Honda": 17
 , "Fiat": 4
-, "other": 221
+, "other": 281
 });
 
 db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4561,7 +4382,6 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 119
 , "Citroën": 82
 , "Mazda": 82
-, "Suzuki": 78
 , "Polestar": 71
 , "Renault": 68
 , "Opel": 67
@@ -4570,12 +4390,11 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 40
 , "Cupra": 36
 , "Land Rover": 36
-, "Lexus": 27
 , "Subaru": 22
 , "Mini": 21
 , "Porsche": 17
 , "Honda": 12
-, "other": 135
+, "other": 240
 });
 
 db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/11, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
@@ -4658,15 +4477,13 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 43
 , "Land Rover": 39
 , "Mitsubishi": 37
-, "Suzuki": 30
 , "Seat": 26
 , "Mini": 23
 , "Subaru": 19
-, "Lexus": 18
 , "Fiat": 17
 , "Porsche": 10
 , "Honda": 1
-, "other": 117
+, "other": 165
 });
 
 db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/12",
