@@ -3269,8 +3269,8 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 101
 , "Porsche": 91
 , "Polestar": 74
-, "Tesla": 38
-, "other": 532
+, "Tesla": 45
+, "other": 525
 });
 
 db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2022",
