@@ -5617,11 +5617,11 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 109
 , "Honda": 91
 , "BYD": 37
-, "Nio": 28
+, "Nio": 36
 , "Smart": 20
 , "Jaguar": 8
 , "Subaru": 4
-, "other": 1149
+, "other": 1141
 });
 
 db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
