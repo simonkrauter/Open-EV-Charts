@@ -49,11 +49,11 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 40
 , "Smart|Forfour ED": 27
 , "Volkswagen|e-Golf": 16
-, "Volkswagen|e-up!": 14
 , "Citroën|ë-Berlingo Electric": 14
+, "Volkswagen|e-up!": 14
 , "Tesla|Model S": 9
-, "Nissan|e-NV200": 7
 , "Citroën|E-Mehari": 7
+, "Nissan|e-NV200": 7
 , "Tesla|Model X": 3
 , "other": 10
 });
@@ -105,8 +105,8 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 20
 , "Citroën|ë-Berlingo Electric": 14
 , "Tesla|Model X": 13
-, "Smart|Forfour ED": 11
 , "Citroën|E-Mehari": 11
+, "Smart|Forfour ED": 11
 , "Nissan|e-NV200": 6
 , "Volkswagen|e-up!": 5
 });
@@ -157,12 +157,11 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 59
 , "Citroën|C-Zero": 46
 , "Volkswagen|e-Golf": 36
-, "Smart|Fortwo ED": 33
 , "Citroën|ë-Berlingo Electric": 33
+, "Smart|Fortwo ED": 33
 , "Volkswagen|e-up!": 30
 , "Citroën|E-Mehari": 25
-, "Nissan|e-NV200": 2
-, "other": 14
+, "other": 16
 });
 
 db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2018_04_vpfrance.pdf",
@@ -209,11 +208,11 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 42
 , "Volkswagen|e-Golf": 28
 , "Tesla|Model S": 23
-, "Volkswagen|e-up!": 20
 , "Jaguar|I-Pace": 20
+, "Volkswagen|e-up!": 20
 , "Tesla|Model X": 16
-, "Peugeot|Partner Electric": 15
 , "Citroën|E-Mehari": 15
+, "Peugeot|Partner Electric": 15
 , "Smart|Forfour ED": 12
 , "Nissan|e-NV200": 8
 , "Citroën|ë-Berlingo Electric": 3
@@ -258,16 +257,16 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 331
 , "BMW|i3 BEV": 117
 , "Smart|Fortwo ED": 68
-, "Tesla|Model S": 63
 , "Peugeot|iOn": 63
+, "Tesla|Model S": 63
 , "Kia|Soul EV": 51
 , "Tesla|Model X": 49
 , "Volkswagen|e-Golf": 41
 , "Citroën|C-Zero": 37
 , "Hyundai|Ioniq Electric": 20
 , "Citroën|E-Mehari": 15
-, "Volkswagen|e-up!": 14
 , "Citroën|ë-Berlingo Electric": 14
+, "Volkswagen|e-up!": 14
 , "Smart|Forfour ED": 9
 , "Peugeot|Partner Electric": 8
 , "Nissan|e-NV200": 5
@@ -321,12 +320,11 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 35
 , "Peugeot|Partner Electric": 22
 , "Hyundai|Ioniq Electric": 21
-, "Volkswagen|e-up!": 18
 , "Kia|Soul EV": 18
+, "Volkswagen|e-up!": 18
 , "Citroën|ë-Berlingo Electric": 10
 , "Nissan|e-NV200": 8
-, "Jaguar|I-Pace": 1
-, "other": 11
+, "other": 12
 });
 
 db.insert(db.countries.FR, "2018-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2018_07_vpfrance.pdf",
@@ -370,17 +368,17 @@ db.insert(db.countries.FR, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 60
 , "Citroën|C-Zero": 45
 , "Smart|Forfour ED": 33
-, "Volkswagen|e-Golf": 31
 , "Kia|Soul EV": 31
-, "Tesla|Model S": 29
+, "Volkswagen|e-Golf": 31
 , "Hyundai|Ioniq Electric": 29
+, "Tesla|Model S": 29
 , "Tesla|Model X": 19
 , "Citroën|E-Mehari": 16
 , "Citroën|ë-Berlingo Electric": 14
-, "Volkswagen|e-up!": 5
 , "Peugeot|Partner Electric": 5
-, "Nissan|e-NV200": 4
+, "Volkswagen|e-up!": 5
 , "Jaguar|I-Pace": 4
+, "Nissan|e-NV200": 4
 , "other": 19
 });
 
@@ -431,11 +429,11 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 26
 , "Volkswagen|e-Golf": 22
 , "Citroën|E-Mehari": 19
-, "Nissan|e-NV200": 13
 , "Jaguar|I-Pace": 13
+, "Nissan|e-NV200": 13
 , "Citroën|ë-Berlingo Electric": 10
-, "Volkswagen|e-up!": 8
 , "Peugeot|Partner Electric": 8
+, "Volkswagen|e-up!": 8
 });
 
 db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2018_09_vpfrance.pdf",
@@ -474,22 +472,22 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/9",
 { "Renault|Zoe": 1482
 , "Nissan|Leaf": 390
-, "Tesla|Model S": 107
 , "BMW|i3 BEV": 107
+, "Tesla|Model S": 107
 , "Peugeot|iOn": 85
 , "Smart|Fortwo ED": 81
-, "Tesla|Model X": 64
 , "Hyundai|Ioniq Electric": 64
+, "Tesla|Model X": 64
 , "Citroën|C-Zero": 63
 , "Kia|Soul EV": 44
 , "Peugeot|Partner Electric": 29
 , "Smart|Forfour ED": 24
 , "Citroën|E-Mehari": 22
 , "Jaguar|I-Pace": 16
-, "Volkswagen|e-up!": 12
 , "Citroën|ë-Berlingo Electric": 12
-, "Volkswagen|e-Golf": 6
+, "Volkswagen|e-up!": 12
 , "Nissan|e-NV200": 6
+, "Volkswagen|e-Golf": 6
 });
 
 db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2018_10_vpfrance.pdf",
@@ -538,13 +536,13 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 40
 , "Hyundai|Kona Electric": 36
 , "Smart|Forfour ED": 32
-, "Tesla|Model S": 23
 , "Citroën|E-Mehari": 23
+, "Tesla|Model S": 23
 , "Citroën|ë-Berlingo Electric": 17
 , "Volkswagen|e-up!": 16
 , "Peugeot|Partner Electric": 12
-, "Tesla|Model X": 7
 , "Nissan|e-NV200": 7
+, "Tesla|Model X": 7
 });
 
 db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2018_11_vpfrance.pdf",
@@ -644,8 +642,8 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 216
 , "Kia|Niro EV": 175
 , "BMW|i3 BEV": 144
-, "Tesla|Model S": 99
 , "Peugeot|iOn": 99
+, "Tesla|Model S": 99
 , "Tesla|Model X": 93
 , "Volkswagen|e-Golf": 60
 , "Citroën|C-Zero": 53
@@ -758,17 +756,17 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 87
 , "Hyundai|Kona Electric": 79
 , "Jaguar|I-Pace": 47
-, "Volkswagen|e-Golf": 42
 , "Peugeot|iOn": 42
+, "Volkswagen|e-Golf": 42
 , "Smart|Forfour ED": 41
 , "Hyundai|Ioniq Electric": 34
 , "Tesla|Model S": 33
 , "Citroën|C-Zero": 22
 , "Volkswagen|e-up!": 15
-, "Kia|Soul EV": 14
 , "Audi|Q8 e-tron": 14
-, "Tesla|Model X": 11
+, "Kia|Soul EV": 14
 , "Peugeot|Partner Electric": 11
+, "Tesla|Model X": 11
 , "Nissan|e-NV200": 6
 , "Citroën|E-Mehari": 5
 , "Citroën|ë-Berlingo Electric": 3
@@ -825,10 +823,10 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 37
 , "Citroën|E-Mehari": 27
 , "Smart|Forfour ED": 21
-, "Volkswagen|e-up!": 9
 , "Nissan|e-NV200": 9
+, "Volkswagen|e-up!": 9
 , "Citroën|ë-Berlingo Electric": 7
-, "Kia|Soul EV": 1
+, "other": 1
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2019_04_vpfrance.pdf",
@@ -873,8 +871,8 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 161
 , "Smart|Fortwo ED": 110
 , "Peugeot|iOn": 58
-, "Jaguar|I-Pace": 53
 , "Citroën|C-Zero": 53
+, "Jaguar|I-Pace": 53
 , "Smart|Forfour ED": 51
 , "Hyundai|Ioniq Electric": 47
 , "Volkswagen|e-Golf": 38
@@ -883,9 +881,9 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 21
 , "Citroën|E-Mehari": 16
 , "Volkswagen|e-up!": 12
-, "Peugeot|Partner Electric": 10
-, "Kia|Soul EV": 10
 , "Citroën|ë-Berlingo Electric": 10
+, "Kia|Soul EV": 10
+, "Peugeot|Partner Electric": 10
 , "Nissan|e-NV200": 6
 });
 
@@ -936,14 +934,14 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 39
 , "Peugeot|iOn": 32
 , "Kia|Soul EV": 30
-, "Volkswagen|e-Golf": 28
 , "Hyundai|Ioniq Electric": 28
+, "Volkswagen|e-Golf": 28
 , "Volkswagen|e-up!": 24
 , "Smart|Forfour ED": 15
 , "Audi|Q8 e-tron": 13
 , "Citroën|E-Mehari": 7
-, "Peugeot|Partner Electric": 6
 , "Citroën|ë-Berlingo Electric": 6
+, "Peugeot|Partner Electric": 6
 , "Nissan|e-NV200": 3
 });
 
@@ -1002,8 +1000,8 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 17
 , "Nissan|e-NV200": 12
 , "Peugeot|Partner Electric": 8
-, "Mercedes-Benz|EQC": 6
 , "Citroën|ë-Berlingo Electric": 6
+, "Mercedes-Benz|EQC": 6
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2019_07_vpfrance.pdf",
@@ -1055,8 +1053,8 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 28
 , "Mercedes-Benz|EQC": 25
 , "Jaguar|I-Pace": 24
-, "Tesla|Model S": 23
 , "Hyundai|Ioniq Electric": 23
+, "Tesla|Model S": 23
 , "Volkswagen|e-up!": 17
 , "Peugeot|iOn": 13
 , "Nissan|e-NV200": 11
@@ -1109,8 +1107,8 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 47
 , "Smart|Forfour ED": 39
 , "Volkswagen|e-Golf": 33
-, "Tesla|Model X": 32
 , "Kia|Soul EV": 32
+, "Tesla|Model X": 32
 , "Citroën|C-Zero": 26
 , "Peugeot|iOn": 23
 , "Audi|Q8 e-tron": 20
@@ -1176,8 +1174,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 7
 , "Nissan|e-NV200": 6
 , "Citroën|ë-Berlingo Electric": 5
-, "Volkswagen|e-up!": 2
-, "Mercedes-Benz|EQC": 1
+, "other": 3
 });
 
 db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2019_10_vpfrance.pdf",
@@ -1222,15 +1219,14 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 178
 , "Hyundai|Ioniq Electric": 174
 , "Hyundai|Kona Electric": 122
-, "DS Automobiles|DS 3 Crossback E-Tense": 110
 , "Volkswagen|e-Golf": 105
 , "Smart|Forfour ED": 98
 , "Kia|Soul EV": 79
 , "Peugeot|e-208": 50
 , "Peugeot|iOn": 42
 , "Jaguar|I-Pace": 24
-, "Citroën|C-Zero": 23
 , "Audi|Q8 e-tron": 23
+, "Citroën|C-Zero": 23
 , "Mercedes-Benz|EQC": 19
 , "Nissan|e-NV200": 12
 , "Volkswagen|e-up!": 10
@@ -1238,7 +1234,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Berlingo Electric": 7
 , "Tesla|Model S": 5
 , "Citroën|E-Mehari": 4
-, "Peugeot|Partner Electric": 2
+, "other": 112
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2019_11_vpfrance.pdf",
@@ -1284,20 +1280,19 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 75
 , "Nissan|e-NV200": 43
 , "Hyundai|Ioniq Electric": 32
-, "Smart|Forfour ED": 31
 , "Audi|Q8 e-tron": 31
+, "Smart|Forfour ED": 31
 , "Tesla|Model X": 25
 , "Jaguar|I-Pace": 22
-, "Tesla|Model S": 21
-, "Peugeot|iOn": 21
 , "Citroën|C-Zero": 21
+, "Peugeot|iOn": 21
+, "Tesla|Model S": 21
 , "Kia|Niro EV": 19
 , "Mercedes-Benz|EQC": 10
 , "Volkswagen|e-up!": 3
 , "Citroën|E-Mehari": 2
 , "Citroën|ë-Berlingo Electric": 2
-, "Peugeot|Partner Electric": 1
-, "Kia|Soul EV": 1
+, "other": 2
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2019_12_vpfrance.pdf",
@@ -1345,8 +1340,8 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 74
 , "Audi|Q8 e-tron": 53
 , "Hyundai|Kona Electric": 41
-, "Smart|Forfour ED": 28
 , "Mercedes-Benz|EQC": 28
+, "Smart|Forfour ED": 28
 , "Volkswagen|e-up!": 27
 , "Nissan|e-NV200": 26
 , "Hyundai|Ioniq Electric": 14
@@ -1355,10 +1350,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 7
 , "Citroën|E-Mehari": 5
 , "Citroën|ë-Berlingo Electric": 3
-, "Peugeot|e-2008": 1
-, "Peugeot|Partner Electric": 1
-, "Kia|Soul EV": 1
-, "DS Automobiles|DS 3 Crossback E-Tense": 1
+, "other": 4
 });
 
 db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_01_vpfrance-1.pdf",
@@ -1396,14 +1388,13 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/1",
 { "Renault|Zoe": 5331
 , "Peugeot|e-208": 2537
-, "DS Automobiles|DS 3 Crossback E-Tense": 597
 , "Kia|Niro EV": 429
 , "Citroën|C-Zero": 414
 , "Nissan|Leaf": 360
 , "Hyundai|Kona Electric": 248
 , "BMW|i3 BEV": 137
-, "Škoda|Citigo-e": 124
 , "Tesla|Model 3": 124
+, "Škoda|Citigo-e": 124
 , "Seat|Mii Electric": 116
 , "Kia|Soul EV": 99
 , "Hyundai|Ioniq Electric": 91
@@ -1412,15 +1403,14 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 52
 , "Citroën|E-Mehari": 34
 , "Tesla|Model S": 31
-, "Mercedes-Benz|EQC": 21
 , "Audi|Q8 e-tron": 21
+, "Mercedes-Benz|EQC": 21
 , "Tesla|Model X": 15
 , "Smart|Forfour ED": 14
 , "Citroën|ë-Berlingo Electric": 8
 , "Nissan|e-NV200": 7
 , "Peugeot|iOn": 6
-, "Volkswagen|e-up!": 4
-, "Peugeot|Partner Electric": 3
+, "other": 604
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_02_vpfrance.pdf",
@@ -1460,7 +1450,6 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Renault|Zoe": 3076
 , "Peugeot|e-208": 2495
 , "Tesla|Model 3": 1025
-, "DS Automobiles|DS 3 Crossback E-Tense": 517
 , "Hyundai|Kona Electric": 414
 , "Nissan|Leaf": 283
 , "Kia|Niro EV": 278
@@ -1475,19 +1464,19 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 78
 , "Volkswagen|e-Golf": 77
 , "Mercedes-Benz|EQC": 37
-, "Seat|Mii Electric": 34
 , "Mini|Cooper SE Electric": 34
+, "Seat|Mii Electric": 34
 , "Škoda|Citigo-e": 27
 , "Porsche|Taycan": 25
 , "Smart|Forfour ED": 23
 , "Peugeot|iOn": 17
-, "Tesla|Model X": 14
 , "Nissan|e-NV200": 14
+, "Tesla|Model X": 14
 , "Citroën|ë-Berlingo Electric": 11
 , "Jaguar|I-Pace": 9
-, "Tesla|Model S": 8
 , "Citroën|E-Mehari": 8
-, "Peugeot|Partner Electric": 2
+, "Tesla|Model S": 8
+, "other": 519
 });
 
 db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_03_vpfrance.pdf",
@@ -1526,7 +1515,6 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 { "Renault|Zoe": 1744
 , "Tesla|Model 3": 1385
 , "Peugeot|e-208": 756
-, "DS Automobiles|DS 3 Crossback E-Tense": 210
 , "Mini|Cooper SE Electric": 179
 , "Nissan|Leaf": 154
 , "Kia|Niro EV": 152
@@ -1550,9 +1538,8 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 8
 , "Nissan|e-NV200": 6
 , "Honda|e": 3
-, "Jaguar|I-Pace": 2
-, "Citroën|ë-Berlingo Electric": 2
-, "Citroën|E-Mehari": 1
+, "Citroën|other": 3
+, "other": 212
 });
 
 db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_04_vpfrance.pdf",
@@ -1592,12 +1579,12 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 322
 , "Tesla|Model 3": 189
 , "Citroën|C-Zero": 89
-, "DS Automobiles|DS 3 Crossback E-Tense": 50
 , "Mini|Cooper SE Electric": 31
 , "Opel|Corsa-e": 26
 , "Peugeot|e-2008": 18
 , "Hyundai|Kona Electric": 16
 , "Tesla|Model S": 14
+, "other": 50
 });
 
 db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_05_vpfrance.pdf",
@@ -1644,7 +1631,6 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 122
 , "Nissan|Leaf": 113
 , "Volkswagen|e-up!": 106
-, "DS Automobiles|DS 3 Crossback E-Tense": 103
 , "Opel|Corsa-e": 87
 , "Smart|Fortwo ED": 68
 , "Hyundai|Ioniq Electric": 59
@@ -1657,14 +1643,10 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 14
 , "Mercedes-Benz|EQC": 10
 , "Škoda|Citigo-e": 8
-, "Smart|Forfour ED": 7
 , "Seat|Mii Electric": 7
-, "Peugeot|iOn": 2
-, "Jaguar|I-Pace": 2
-, "Peugeot|Partner Electric": 1
-, "Nissan|e-NV200": 1
-, "MG|ZS EV": 1
-, "Citroën|E-Mehari": 1
+, "Smart|Forfour ED": 7
+, "Peugeot|other": 3
+, "other": 108
 });
 
 db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_06_vpfrance.pdf",
@@ -1710,7 +1692,6 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 406
 , "Volkswagen|e-up!": 397
 , "Opel|Corsa-e": 300
-, "DS Automobiles|DS 3 Crossback E-Tense": 252
 , "BMW|i3 BEV": 249
 , "Smart|Fortwo ED": 198
 , "Mini|Cooper SE Electric": 172
@@ -1724,15 +1705,13 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 46
 , "Mercedes-Benz|EQC": 38
 , "Škoda|Citigo-e": 36
-, "Smart|Forfour ED": 34
 , "Honda|e": 34
+, "Smart|Forfour ED": 34
 , "Citroën|E-Mehari": 14
-, "Nissan|e-NV200": 11
 , "Jaguar|I-Pace": 11
+, "Nissan|e-NV200": 11
 , "Seat|Mii Electric": 9
-, "Citroën|ë-Berlingo Electric": 4
-, "Peugeot|Partner Electric": 2
-, "Peugeot|iOn": 1
+, "other": 259
 });
 
 db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_07_vpfrance.pdf",
@@ -1775,7 +1754,6 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 609
 , "Peugeot|e-2008": 445
 , "Volkswagen|e-up!": 309
-, "DS Automobiles|DS 3 Crossback E-Tense": 288
 , "MG|ZS EV": 224
 , "BMW|i3 BEV": 195
 , "Mini|Cooper SE Electric": 174
@@ -1798,10 +1776,7 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 10
 , "Jaguar|I-Pace": 8
 , "Tesla|Model S": 5
-, "Peugeot|iOn": 2
-, "Mercedes-Benz|eVito": 2
-, "Citroën|ë-Berlingo Electric": 1
-, "Aiways|U5": 1
+, "other": 294
 });
 
 db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_08_vpfrance.pdf",
@@ -1849,7 +1824,6 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 157
 , "Audi|Q8 e-tron": 145
 , "Volkswagen|e-up!": 133
-, "DS Automobiles|DS 3 Crossback E-Tense": 106
 , "BMW|i3 BEV": 93
 , "Smart|Fortwo ED": 90
 , "Hyundai|Ioniq Electric": 77
@@ -1857,8 +1831,8 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 72
 , "Kia|Soul EV": 50
 , "Smart|Forfour ED": 31
-, "Porsche|Taycan": 27
 , "Mercedes-Benz|EQC": 27
+, "Porsche|Taycan": 27
 , "Škoda|Citigo-e": 26
 , "Nissan|e-NV200": 19
 , "Citroën|ë-C4": 14
@@ -1867,12 +1841,9 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 7
 , "Peugeot|e-Expert": 6
 , "Tesla|Model S": 5
-, "Tesla|Model X": 3
 , "Citroën|ë-Jumpy": 3
-, "Jaguar|I-Pace": 2
-, "Peugeot|iOn": 1
-, "Mazda|MX-30": 1
-, "Citroën|E-Mehari": 1
+, "Tesla|Model X": 3
+, "other": 111
 });
 
 db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020_09_vpfrance.pdf",
@@ -1920,7 +1891,6 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 217
 , "Mazda|MX-30": 203
 , "BMW|i3 BEV": 178
-, "DS Automobiles|DS 3 Crossback E-Tense": 175
 , "Smart|Fortwo ED": 152
 , "Kia|Soul EV": 143
 , "Volkswagen|e-Golf": 114
@@ -1933,19 +1903,14 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 62
 , "Honda|e": 57
 , "Porsche|Taycan": 47
-, "Seat|Mii Electric": 43
 , "MG|ZS EV": 43
+, "Seat|Mii Electric": 43
 , "Citroën|ë-C4": 30
 , "Smart|Forfour ED": 28
 , "Peugeot|e-Expert": 10
-, "Nissan|e-NV200": 6
 , "Mercedes-Benz|EQV": 6
-, "Jaguar|I-Pace": 3
-, "Citroën|ë-Jumpy": 3
-, "Renault|Twingo Z.E.": 1
-, "Peugeot|iOn": 1
-, "Citroën|C-Zero": 1
-, "Aiways|U5": 1
+, "Nissan|e-NV200": 6
+, "other": 185
 });
 
 db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020-10-vpfrance.pdf",
@@ -1983,8 +1948,8 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/10",
 { "Renault|Zoe": 2507
 , "Peugeot|e-208": 1988
-, "Renault|Twingo Z.E.": 678
 , "Kia|Niro EV": 678
+, "Renault|Twingo Z.E.": 678
 , "Hyundai|Kona Electric": 627
 , "Volkswagen|ID.3": 524
 , "Peugeot|e-2008": 460
@@ -1992,7 +1957,6 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 316
 , "Nissan|Leaf": 181
 , "BMW|i3 BEV": 168
-, "DS Automobiles|DS 3 Crossback E-Tense": 166
 , "Smart|Fortwo ED": 160
 , "Mazda|MX-30": 131
 , "MG|ZS EV": 114
@@ -2009,14 +1973,11 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 38
 , "Smart|Forfour ED": 32
 , "Mercedes-Benz|EQC": 19
-, "Tesla|Model X": 18
 , "Citroën|ë-Jumpy": 18
+, "Tesla|Model X": 18
 , "Tesla|Model S": 16
 , "Jaguar|I-Pace": 6
-, "Peugeot|e-Expert": 5
-, "Nissan|e-NV200": 5
-, "Mercedes-Benz|EQV": 5
-, "Citroën|C-Zero": 3
+, "other": 184
 });
 
 db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020-11-vpfrance.pdf",
@@ -2059,8 +2020,8 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 497
 , "Kia|Niro EV": 478
 , "Mini|Cooper SE Electric": 405
-, "Peugeot|e-2008": 342
 , "Hyundai|Kona Electric": 342
+, "Peugeot|e-2008": 342
 , "Fiat|500e": 307
 , "Renault|Twingo Z.E.": 230
 , "Opel|Corsa-e": 222
@@ -2071,7 +2032,6 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 112
 , "Citroën|ë-C4": 101
 , "Seat|Mii Electric": 81
-, "DS Automobiles|DS 3 Crossback E-Tense": 81
 , "Mercedes-Benz|EQV": 63
 , "MG|ZS EV": 58
 , "Honda|e": 46
@@ -2079,18 +2039,16 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 42
 , "Smart|Forfour ED": 39
 , "Mercedes-Benz|EQC": 32
-, "Porsche|Taycan": 25
 , "Audi|Q8 e-tron": 25
+, "Porsche|Taycan": 25
 , "Volkswagen|e-Golf": 21
-, "Tesla|Model X": 20
 , "Nissan|e-NV200": 20
+, "Tesla|Model X": 20
 , "Tesla|Model S": 16
-, "Peugeot|e-Expert": 9
-, "Jaguar|I-Pace": 9
 , "Citroën|ë-Jumpy": 9
-, "Lexus|UX 300e": 2
-, "Dacia|Spring": 1
-, "Citroën|C-Zero": 1
+, "Jaguar|I-Pace": 9
+, "Peugeot|e-Expert": 9
+, "other": 85
 });
 
 db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2020-12-vpfrance.pdf",
@@ -2146,16 +2104,14 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 210
 , "BMW|i3 BEV": 207
 , "Porsche|Taycan": 167
-, "DS Automobiles|DS 3 Crossback E-Tense": 165
 , "Audi|Q8 e-tron": 140
-, "Volvo|XC40 Recharge pure electric": 134
 , "Citroën|ë-C4": 134
+, "Volvo|XC40 Recharge pure electric": 134
 , "Mercedes-Benz|EQV": 115
-, "Aiways|U5": 98
 , "Mazda|MX-30": 97
 , "Seat|Mii Electric": 81
-, "Škoda|Citigo-e": 79
 , "Tesla|Model X": 79
+, "Škoda|Citigo-e": 79
 , "Jaguar|I-Pace": 78
 , "Tesla|Model S": 77
 , "Kia|Soul EV": 61
@@ -2166,12 +2122,8 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 22
 , "Opel|Zafira-e": 21
 , "Ford|Mustang Mach-E": 20
-, "Nissan|e-NV200": 8
-, "Citroën|ë-Jumpy": 6
-, "Citroën|C-Zero": 6
-, "Peugeot|e-Expert": 4
-, "Citroën|E-Mehari": 1
-, "other": 1
+, "Citroën|other": 13
+, "other": 276
 });
 
 db.insert(db.countries.FR, "2021-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-01-vpfrance.pdf",
@@ -2219,7 +2171,6 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 142
 , "Nissan|Leaf": 141
 , "Citroën|ë-C4": 121
-, "DS Automobiles|DS 3 Crossback E-Tense": 118
 , "BMW|i3 BEV": 103
 , "Kia|Soul EV": 98
 , "Smart|Fortwo ED": 96
@@ -2230,25 +2181,19 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 36
 , "Audi|Q8 e-tron": 32
 , "Mazda|MX-30": 29
-, "Volvo|XC40 Recharge pure electric": 27
 , "Hyundai|Ioniq Electric": 27
-, "Porsche|Taycan": 19
+, "Volvo|XC40 Recharge pure electric": 27
 , "Mercedes-Benz|EQC": 19
-, "Aiways|U5": 19
-, "Škoda|Citigo-e": 13
+, "Porsche|Taycan": 19
 , "Smart|Forfour ED": 13
-, "Tesla|Model X": 11
+, "Škoda|Citigo-e": 13
 , "Peugeot|e-Expert": 11
+, "Tesla|Model X": 11
 , "Ford|Mustang Mach-E": 10
 , "Citroën|ë-Jumpy": 9
 , "Mercedes-Benz|EQV": 7
 , "Jaguar|I-Pace": 5
-, "Tesla|Model S": 2
-, "Nissan|e-NV200": 2
-, "BMW|iX3": 2
-, "Opel|Zafira-e": 1
-, "Mercedes-Benz|eVito": 1
-, "Lexus|UX 300e": 1
+, "other": 146
 });
 
 db.insert(db.countries.FR, "2021-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-02-vpfrance.pdf",
@@ -2297,7 +2242,6 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 203
 , "Mini|Cooper SE Electric": 146
 , "BMW|i3 BEV": 125
-, "DS Automobiles|DS 3 Crossback E-Tense": 111
 , "Volkswagen|e-up!": 97
 , "Citroën|ë-C4": 88
 , "Kia|Soul EV": 84
@@ -2308,27 +2252,18 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 27
 , "Porsche|Taycan": 24
 , "Mazda|MX-30": 23
-, "Lexus|UX 300e": 21
-, "Aiways|U5": 20
 , "Mercedes-Benz|EQC": 18
 , "Hyundai|Ioniq Electric": 15
 , "Volkswagen|ID.4": 14
 , "Volvo|XC40 Recharge pure electric": 11
 , "Honda|e": 10
-, "Škoda|Citigo-e": 8
-, "Tesla|Model X": 8
 , "Smart|Forfour ED": 8
+, "Tesla|Model X": 8
+, "Škoda|Citigo-e": 8
 , "BMW|iX3": 7
 , "Citroën|ë-Jumpy": 5
-, "Peugeot|e-Expert": 3
-, "Nissan|e-NV200": 3
-, "Jaguar|I-Pace": 3
-, "Mercedes-Benz|eVito": 2
-, "Mercedes-Benz|EQV": 2
-, "Volkswagen|e-Golf": 1
-, "Tesla|Model S": 1
-, "Opel|Zafira-e": 1
-, "Mercedes-Benz|EQA": 1
+, "Mercedes-Benz|other": 5
+, "other": 164
 });
 
 db.insert(db.countries.FR, "2021-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-03-vpfrance.pdf",
@@ -2376,7 +2311,6 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE Electric": 499
 , "Hyundai|Kona Electric": 409
 , "Volkswagen|ID.4": 408
-, "DS Automobiles|DS 3 Crossback E-Tense": 287
 , "Volkswagen|e-up!": 286
 , "Citroën|ë-C4": 237
 , "Dacia|Spring": 229
@@ -2391,25 +2325,17 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 41
 , "Hyundai|Ioniq Electric": 32
 , "Mazda|MX-30": 31
-, "Smart|Forfour ED": 30
 , "Honda|e": 30
-, "Lexus|UX 300e": 20
+, "Smart|Forfour ED": 30
 , "Citroën|ë-Jumpy": 19
 , "Volvo|XC40 Recharge pure electric": 18
 , "Toyota|Proace Electric": 16
 , "Mercedes-Benz|EQC": 15
 , "Peugeot|e-Expert": 13
-, "Aiways|U5": 13
 , "Audi|e-tron GT": 11
-, "Nissan|e-NV200": 8
 , "Mercedes-Benz|EQV": 8
-, "Škoda|Citigo-e": 7
-, "Jaguar|I-Pace": 5
-, "Volkswagen|e-Golf": 3
-, "Tesla|Model X": 3
-, "Opel|Zafira-e": 2
-, "Ford|Mustang Mach-E": 1
-, "other": 1
+, "Nissan|e-NV200": 8
+, "other": 342
 });
 
 db.insert(db.countries.FR, "2021-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-04-vpfrance.pdf",
@@ -2461,12 +2387,11 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 209
 , "Opel|Corsa-e": 186
 , "BMW|i3 BEV": 157
-, "DS Automobiles|DS 3 Crossback E-Tense": 144
 , "Škoda|Enyaq": 134
 , "Volkswagen|e-up!": 113
 , "Smart|Fortwo ED": 99
-, "Mercedes-Benz|EQA": 96
 , "Hyundai|Ioniq Electric": 96
+, "Mercedes-Benz|EQA": 96
 , "Opel|Mokka-e": 86
 , "Kia|Soul EV": 76
 , "MG|ZS EV": 67
@@ -2478,21 +2403,14 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 25
 , "Audi|Q8 e-tron": 22
 , "Peugeot|e-Expert": 19
-, "Lexus|UX 300e": 19
 , "Smart|Forfour ED": 18
 , "Mercedes-Benz|EQC": 17
-, "Citroën|ë-Jumpy": 14
 , "Audi|e-tron GT": 14
-, "Aiways|U5": 14
+, "Citroën|ë-Jumpy": 14
 , "Mercedes-Benz|EQV": 9
 , "Škoda|Citigo-e": 8
 , "Ford|Mustang Mach-E": 7
-, "Jaguar|I-Pace": 4
-, "Toyota|Proace Electric": 3
-, "Nissan|e-NV200": 3
-, "Tesla|Model X": 2
-, "Opel|Zafira-e": 1
-, "Citroën|ë-Berlingo Electric": 1
+, "other": 191
 });
 
 db.insert(db.countries.FR, "2021-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-05-vpfrance.pdf",
@@ -2548,7 +2466,6 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 121
 , "Smart|Fortwo ED": 94
 , "MG|ZS EV": 86
-, "DS Automobiles|DS 3 Crossback E-Tense": 80
 , "Mercedes-Benz|EQA": 76
 , "Porsche|Taycan": 56
 , "Opel|Mokka-e": 53
@@ -2563,18 +2480,11 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 24
 , "Audi|e-tron GT": 23
 , "BMW|iX3": 20
-, "Aiways|U5": 19
-, "Honda|e": 15
 , "Citroën|ë-Jumpy": 15
+, "Honda|e": 15
 , "Mercedes-Benz|EQC": 13
 , "Mercedes-Benz|EQV": 11
-, "Lexus|UX 300e": 7
-, "Jaguar|I-Pace": 4
-, "Nissan|e-NV200": 3
-, "Škoda|Citigo-e": 1
-, "Toyota|Proace Electric": 1
-, "Mercedes-Benz|eVito": 1
-, "other": 4
+, "other": 120
 });
 
 db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-06-vpfrance.pdf",
@@ -2622,7 +2532,6 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 531
 , "Hyundai|Kona Electric": 494
 , "Volkswagen|ID.4": 387
-, "DS Automobiles|DS 3 Crossback E-Tense": 381
 , "Nissan|Leaf": 371
 , "Mini|Cooper SE Electric": 357
 , "Opel|Corsa-e": 342
@@ -2640,26 +2549,19 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 82
 , "Porsche|Taycan": 71
 , "BMW|iX3": 65
-, "Lexus|UX 300e": 62
 , "Volvo|XC40 Recharge pure electric": 61
 , "Opel|Mokka-e": 57
 , "Audi|Q8 e-tron": 48
 , "Peugeot|e-Expert": 34
 , "Audi|e-tron GT": 32
-, "Mercedes-Benz|EQC": 28
 , "Honda|e": 28
+, "Mercedes-Benz|EQC": 28
 , "Nissan|e-NV200": 27
-, "Aiways|U5": 27
 , "Citroën|ë-Berlingo Electric": 23
 , "Hyundai|Ioniq Electric": 19
 , "Smart|Forfour ED": 12
 , "Citroën|ë-Jumpy": 11
-, "Opel|Zafira-e": 6
-, "Peugeot|e-Rifter": 5
-, "MG|Marvel R": 3
-, "Jaguar|I-Pace": 3
-, "Škoda|Citigo-e": 2
-, "other": 5
+, "other": 494
 });
 
 db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-07-vp-france.pdf",
@@ -2712,10 +2614,9 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 126
 , "Škoda|Enyaq": 124
 , "Ford|Mustang Mach-E": 112
-, "Volkswagen|e-up!": 105
 , "Mercedes-Benz|EQA": 105
+, "Volkswagen|e-up!": 105
 , "Smart|Forfour ED": 104
-, "DS Automobiles|DS 3 Crossback E-Tense": 96
 , "Kia|Soul EV": 90
 , "BMW|i3 BEV": 81
 , "Peugeot|e-Rifter": 69
@@ -2726,25 +2627,20 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 50
 , "Tesla|Model 3": 43
 , "Volvo|XC40 Recharge pure electric": 33
-, "Smart|Fortwo ED": 31
 , "Citroën|ë-Berlingo Electric": 31
+, "Smart|Fortwo ED": 31
 , "Audi|e-tron GT": 30
-, "Peugeot|e-Expert": 23
 , "Mazda|MX-30": 23
-, "Lexus|UX 300e": 21
+, "Peugeot|e-Expert": 23
 , "Audi|Q8 e-tron": 19
 , "Citroën|ë-Jumpy": 18
 , "Seat|Mii Electric": 17
-, "Hyundai|Ioniq Electric": 16
 , "Honda|e": 16
-, "Aiways|U5": 16
-, "Mercedes-Benz|EQV": 11
+, "Hyundai|Ioniq Electric": 16
 , "Mercedes-Benz|EQC": 11
+, "Mercedes-Benz|EQV": 11
 , "Nissan|e-NV200": 6
-, "Opel|Zafira-e": 3
-, "Jaguar|I-Pace": 3
-, "Škoda|Citigo-e": 1
-, "other": 4
+, "other": 144
 });
 
 db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-08-vp-france.pdf",
@@ -2803,32 +2699,25 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 102
 , "Mercedes-Benz|EQA": 76
 , "BMW|i3 BEV": 64
-, "DS Automobiles|DS 3 Crossback E-Tense": 48
 , "Smart|Fortwo ED": 47
 , "Opel|Mokka-e": 46
 , "BMW|iX3": 41
 , "Audi|Q8 e-tron": 38
-, "Aiways|U5": 38
 , "Audi|e-tron GT": 32
 , "Citroën|ë-Jumpy": 31
-, "Porsche|Taycan": 30
 , "Kia|Soul EV": 30
+, "Porsche|Taycan": 30
 , "Honda|e": 27
 , "Audi|Q4 e-tron": 22
-, "Mazda|MX-30": 18
 , "Hyundai|Ioniq Electric": 18
+, "Mazda|MX-30": 18
 , "Volvo|XC40 Recharge pure electric": 16
 , "Seat|Mii Electric": 13
 , "Mercedes-Benz|EQV": 10
-, "Smart|Forfour ED": 8
 , "Mercedes-Benz|EQC": 8
+, "Smart|Forfour ED": 8
 , "Peugeot|e-Expert": 7
-, "Lexus|UX 300e": 5
-, "Jaguar|I-Pace": 4
-, "Opel|Zafira-e": 3
-, "Mercedes-Benz|eVito": 3
-, "Peugeot|e-Rifter": 2
-, "other": 1
+, "other": 104
 });
 
 db.insert(db.countries.FR, "2021-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-09-vp-france.pdf",
@@ -2884,37 +2773,33 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 189
 , "BMW|i3 BEV": 186
 , "Hyundai|Ioniq 5": 184
-, "DS Automobiles|DS 3 Crossback E-Tense": 182
 , "Mazda|MX-30": 151
-, "Smart|Fortwo ED": 119
 , "Opel|Mokka-e": 119
+, "Smart|Fortwo ED": 119
 , "Mercedes-Benz|EQA": 80
-, "Audi|Q8 e-tron": 78
 , "Audi|Q4 e-tron": 78
+, "Audi|Q8 e-tron": 78
 , "Ford|Mustang Mach-E": 70
 , "Porsche|Taycan": 55
-, "Kia|Soul EV": 44
 , "Hyundai|Ioniq Electric": 44
+, "Kia|Soul EV": 44
 , "Volvo|XC40 Recharge pure electric": 37
 , "BMW|iX3": 36
-, "Aiways|U5": 32
 , "Seat|Mii Electric": 30
 , "MG|ZS EV": 26
-, "Citroën|ë-Berlingo Electric": 21
 , "Audi|e-tron GT": 21
+, "Citroën|ë-Berlingo Electric": 21
 , "Smart|Forfour ED": 19
 , "Mercedes-Benz|EQC": 17
 , "Kia|EV6": 15
 , "BMW|iX": 14
-, "Honda|e": 13
 , "Citroën|ë-Jumpy": 13
-, "Peugeot|e-Expert": 11
+, "Honda|e": 13
 , "Mercedes-Benz|EQV": 11
+, "Peugeot|e-Expert": 11
 , "Opel|Zafira-e": 10
 , "Peugeot|e-Rifter": 9
-, "Lexus|UX 300e": 8
-, "Toyota|Proace Electric": 6
-, "other": 9
+, "other": 237
 });
 
 db.insert(db.countries.FR, "2021-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-10-vp-france.pdf",
@@ -2972,7 +2857,6 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 139
 , "BMW|i3 BEV": 135
 , "MG|ZS EV": 125
-, "DS Automobiles|DS 3 Crossback E-Tense": 122
 , "Mercedes-Benz|EQA": 116
 , "Mazda|MX-30": 115
 , "Volkswagen|e-up!": 108
@@ -2994,13 +2878,11 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 22
 , "Audi|Q8 e-tron": 21
 , "Mercedes-Benz|EQC": 20
-, "Aiways|U5": 20
 , "Mercedes-Benz|EQS": 17
 , "BMW|iX3": 14
 , "Mercedes-Benz|EQV": 12
 , "Renault|Megane E-Tech": 9
-, "Lexus|UX 300e": 6
-, "other": 20
+, "other": 168
 });
 
 db.insert(db.countries.FR, "2021-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2021-11-vp-france.pdf",
@@ -3063,29 +2945,30 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 120
 , "Audi|Q4 e-tron": 105
 , "Volkswagen|e-up!": 101
-, "DS Automobiles|DS 3 Crossback E-Tense": 90
 , "Ford|Mustang Mach-E": 75
 , "Kia|Soul EV": 56
 , "Porsche|Taycan": 51
-, "Honda|e": 45
 , "Audi|Q8 e-tron": 45
+, "Honda|e": 45
 , "Seat|Mii Electric": 40
 , "Citroën|ë-Jumpy": 38
 , "MG|Marvel R": 32
-, "Aiways|U5": 32
 , "Volvo|XC40 Recharge pure electric": 31
 , "Peugeot|e-Expert": 30
 , "Audi|e-tron GT": 28
 , "Citroën|ë-Berlingo Electric": 26
 , "Mercedes-Benz|EQC": 23
-, "Peugeot|e-Rifter": 20
 , "BMW|i4": 20
+, "Peugeot|e-Rifter": 20
 , "Cupra|Born": 19
-, "Hyundai|Ioniq Electric": 18
 , "BMW|iX3": 18
+, "Hyundai|Ioniq Electric": 18
 , "Smart|Forfour ED": 17
 , "Mercedes-Benz|EQV": 14
-, "other": 51
+, "MG|ZS EV": 9
+, "Opel|Zafira-e": 9
+, "Mercedes-Benz|other": 9
+, "other": 146
 });
 
 db.insert(db.countries.FR, "2021-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/01/2021-12-vp-france.pdf",
@@ -3133,8 +3016,8 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 677
 , "Kia|EV6": 599
 , "Peugeot|e-2008": 497
-, "Volkswagen|ID.4": 471
 , "Hyundai|Kona Electric": 471
+, "Volkswagen|ID.4": 471
 , "Kia|Niro EV": 449
 , "Škoda|Enyaq": 422
 , "Tesla|Model Y": 292
@@ -3146,32 +3029,32 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 179
 , "Mercedes-Benz|EQA": 173
 , "Opel|Mokka-e": 154
-, "DS Automobiles|DS 3 Crossback E-Tense": 147
 , "Opel|Corsa-e": 126
 , "Porsche|Taycan": 121
 , "Smart|Fortwo ED": 113
+, "Volvo|C40 Recharge": 104
 , "Ford|Mustang Mach-E": 95
 , "Honda|e": 71
-, "Lexus|UX 300e": 67
 , "Kia|Soul EV": 63
 , "Audi|Q8 e-tron": 51
 , "BMW|iX3": 47
 , "BMW|iX": 44
 , "Audi|e-tron GT": 43
 , "Volvo|XC40 Recharge pure electric": 42
-, "Mercedes-Benz|EQC": 40
 , "Cupra|Born": 40
+, "Mercedes-Benz|EQC": 40
 , "Renault|Megane E-Tech": 36
 , "BMW|i4": 35
-, "Peugeot|e-Rifter": 24
-, "Peugeot|e-Expert": 24
 , "Hyundai|Ioniq Electric": 24
+, "Peugeot|e-Expert": 24
+, "Peugeot|e-Rifter": 24
 , "Smart|Forfour ED": 17
-, "Seat|Mii Electric": 15
 , "Citroën|ë-Berlingo Electric": 15
+, "Seat|Mii Electric": 15
 , "MG|Marvel R": 14
 , "Jaguar|I-Pace": 12
-, "other": 169
+, "Mercedes-Benz|other": 24
+, "other": 255
 });
 
 db.insert(db.countries.FR, "2022-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/02/2022-01-vp-france.pdf",
@@ -3223,6 +3106,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 186
 , "Opel|Mokka-e": 161
 , "Audi|Q4 e-tron": 133
+, "MG|ZS EV": 116
 , "Škoda|Enyaq": 113
 , "Volkswagen|e-up!": 89
 , "Smart|Fortwo ED": 87
@@ -3233,31 +3117,31 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 54
 , "Mercedes-Benz|EQA": 53
 , "Volkswagen|ID.4": 49
-, "Kia|Soul EV": 39
-, "Ford|Mustang Mach-E": 39
 , "Audi|e-tron GT": 39
+, "Ford|Mustang Mach-E": 39
+, "Kia|Soul EV": 39
 , "Peugeot|e-Rifter": 38
 , "Tesla|Model 3": 37
 , "Renault|Megane E-Tech": 36
 , "Audi|Q8 e-tron": 35
-, "Lexus|UX 300e": 33
 , "Volvo|C40 Recharge": 31
 , "Volvo|XC40 Recharge pure electric": 22
+, "Citroën|ë-Berlingo Electric": 21
+, "MG|Marvel R": 19
 , "Citroën|ë-Jumpy": 18
 , "Hyundai|Ioniq Electric": 17
-, "Honda|e": 16
-, "BMW|iX3": 16
 , "BMW|iX": 16
-, "Opel|Combo-e": 13
+, "BMW|iX3": 16
+, "Honda|e": 16
 , "Mercedes-Benz|EQC": 13
-, "Aiways|U5": 13
-, "Peugeot|e-Expert": 12
+, "Opel|Combo-e": 13
 , "Mercedes-Benz|EQV": 12
+, "Peugeot|e-Expert": 12
 , "Tesla|Model Y": 11
 , "Smart|Forfour ED": 10
 , "Opel|Zafira-e": 8
-, "Mercedes-Benz|EQS": 3
-, "other": 280
+, "Toyota|other": 6
+, "other": 167
 });
 
 db.insert(db.countries.FR, "2022-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/03/2022-02-vp-france.pdf",
@@ -3310,6 +3194,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 223
 , "BMW|i3 BEV": 206
 , "Opel|Mokka-e": 187
+, "MG|ZS EV": 165
 , "Audi|Q4 e-tron": 130
 , "Volkswagen|ID.3": 128
 , "Škoda|Enyaq": 116
@@ -3319,31 +3204,28 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 75
 , "Volkswagen|e-up!": 52
 , "BMW|iX3": 45
+, "MG|Marvel R": 45
 , "Volkswagen|ID.4": 38
-, "Lexus|UX 300e": 38
 , "Audi|e-tron GT": 37
 , "Audi|Q8 e-tron": 36
 , "Volvo|C40 Recharge": 34
+, "Citroën|ë-Berlingo Electric": 33
 , "Ford|Mustang Mach-E": 33
+, "BMW|i4": 32
 , "Porsche|Taycan": 29
 , "Renault|Megane E-Tech": 23
 , "Honda|e": 22
-, "Peugeot|e-Expert": 20
 , "Mercedes-Benz|EQS": 20
+, "Peugeot|e-Expert": 20
 , "Mercedes-Benz|EQC": 14
 , "Mazda|MX-30": 13
 , "BMW|iX": 12
-, "Jaguar|I-Pace": 11
 , "Hyundai|Ioniq Electric": 11
+, "Jaguar|I-Pace": 11
 , "Smart|Forfour ED": 9
-, "Aiways|U5": 9
 , "Mercedes-Benz|EQV": 8
 , "Kia|Niro EV": 7
-, "Peugeot|e-Rifter": 5
-, "Citroën|ë-Jumpy": 5
-, "Opel|Zafira-e": 3
-, "Opel|Combo-e": 2
-, "other": 491
+, "other": 278
 });
 
 db.insert(db.countries.FR, "2022-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/04/2022-03-vp-france.pdf",
@@ -3378,7 +3260,7 @@ db.insert(db.countries.FR, "2022-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 6792
 });
 
-db.insert(db.countries.FR, "2022-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2022/04/barometre-avere-colombus-avril-2022-1.pdf",
+db.insert(db.countries.FR, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/3",
 { "Tesla|Model 3": 3882
 , "Dacia|Spring": 2111
 , "Peugeot|e-208": 1842
@@ -3389,7 +3271,36 @@ db.insert(db.countries.FR, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 584
 , "Citroën|ë-C4": 560
 , "Hyundai|Kona Electric": 513
-, "other": 5188
+, "Peugeot|e-2008": 502
+, "Kia|EV6": 498
+, "Volkswagen|e-up!": 490
+, "BMW|i3 BEV": 380
+, "Hyundai|Ioniq 5": 287
+, "Nissan|Leaf": 227
+, "Audi|Q4 e-tron": 216
+, "Škoda|Enyaq": 190
+, "Hyundai|Ioniq Electric": 171
+, "Smart|Fortwo ED": 163
+, "Volkswagen|ID.3": 145
+, "Mercedes-Benz|EQA": 90
+, "BMW|i4": 89
+, "Volkswagen|ID.4": 82
+, "Audi|Q8 e-tron": 70
+, "MG|MG5 EV": 69
+, "Ford|Mustang Mach-E": 67
+, "BMW|iX3": 59
+, "Porsche|Taycan": 51
+, "Mercedes-Benz|EQB": 43
+, "Renault|Megane E-Tech": 42
+, "Audi|e-tron GT": 36
+, "Opel|Combo-e": 23
+, "Smart|Forfour ED": 23
+, "Mazda|MX-30": 22
+, "Mercedes-Benz|EQS": 18
+, "BMW|iX": 14
+, "Mercedes-Benz|EQC": 11
+, "Jaguar|I-Pace": 10
+, "other": 1100
 });
 
 db.insert(db.countries.FR, "2022-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/05/2022-04-vp-france.pdf",
@@ -3424,7 +3335,7 @@ db.insert(db.countries.FR, "2022-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5860
 });
 
-db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-la-hausse-des-immatriculations-sest-poursuivie-en-avril-2022-bientot-900-000-vehicules-electriques-et-hybrides-rechargeables-en-circulation/",
+db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/4",
 { "Fiat|500e": 1737
 , "Dacia|Spring": 1568
 , "Peugeot|e-208": 1375
@@ -3434,7 +3345,37 @@ db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 516
 , "Hyundai|Kona Electric": 455
 , "Citroën|ë-C4": 448
-, "other": 3871
+, "Kia|EV6": 403
+, "Volkswagen|e-up!": 270
+, "Hyundai|Ioniq 5": 262
+, "Nissan|Leaf": 185
+, "Škoda|Enyaq": 175
+, "BMW|i3 BEV": 155
+, "Mercedes-Benz|EQA": 106
+, "Audi|Q4 e-tron": 100
+, "Hyundai|Ioniq Electric": 94
+, "Tesla|Model Y": 87
+, "Renault|Megane E-Tech": 86
+, "Smart|Fortwo ED": 78
+, "Volkswagen|ID.4": 73
+, "Volkswagen|ID.3": 60
+, "Ford|Mustang Mach-E": 55
+, "Audi|Q8 e-tron": 42
+, "MG|MG5 EV": 41
+, "BMW|iX3": 40
+, "Porsche|Taycan": 37
+, "BMW|i4": 32
+, "Audi|e-tron GT": 22
+, "Mercedes-Benz|EQB": 22
+, "BMW|iX": 20
+, "Mazda|MX-30": 15
+, "Opel|Combo-e": 15
+, "Smart|Forfour ED": 15
+, "Jaguar|I-Pace": 11
+, "Mercedes-Benz|EQS": 10
+, "Tesla|Model 3": 10
+, "Mercedes-Benz|EQC": 9
+, "other": 1341
 });
 
 db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/06/2022-05-vp-france.pdf",
@@ -3469,7 +3410,7 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5550
 });
 
-db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-mai-2022-la-barre-des-900-000-vehicules-electrifies-rechargeables-a-ete-franchie/",
+db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/5",
 { "Fiat|500e": 2129
 , "Peugeot|e-208": 1668
 , "Renault|Twingo Z.E.": 1500
@@ -3480,7 +3421,36 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 634
 , "Peugeot|e-2008": 561
 , "Citroën|ë-C4": 369
-, "other": 4089
+, "Volkswagen|e-up!": 250
+, "Kia|EV6": 184
+, "Audi|Q4 e-tron": 179
+, "Škoda|Enyaq": 178
+, "Volkswagen|ID.3": 170
+, "Mercedes-Benz|EQA": 163
+, "Hyundai|Ioniq Electric": 157
+, "Nissan|Leaf": 152
+, "Hyundai|Ioniq 5": 134
+, "Volkswagen|ID.4": 130
+, "Tesla|Model 3": 111
+, "Smart|Fortwo ED": 102
+, "Ford|Mustang Mach-E": 82
+, "BMW|i3 BEV": 78
+, "MG|MG5 EV": 58
+, "BMW|i4": 56
+, "BMW|iX3": 45
+, "Porsche|Taycan": 43
+, "Tesla|Model Y": 40
+, "Audi|Q8 e-tron": 36
+, "Mercedes-Benz|EQB": 35
+, "Audi|e-tron GT": 32
+, "BMW|iX": 26
+, "Mercedes-Benz|EQV": 15
+, "Opel|Combo-e": 15
+, "Smart|Forfour ED": 15
+, "Mazda|MX-30": 11
+, "Mercedes-Benz|EQC": 9
+, "Mercedes-Benz|EQS": 9
+, "other": 1574
 });
 
 db.insert(db.countries.FR, "2022-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/07/2022-06-vp-france.pdf",
@@ -3515,7 +3485,7 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 6946
 });
 
-db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-des-immatriculations-de-vehicules-100-electriques-en-hausse-de-28-sur-le-premier-semestre-2022/",
+db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/6",
 { "Peugeot|e-208": 2860
 , "Renault|Twingo Z.E.": 2158
 , "Renault|Zoe": 2048
@@ -3526,7 +3496,34 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 1047
 , "Hyundai|Kona Electric": 618
 , "Citroën|ë-C4": 568
-, "other": 5603
+, "Peugeot|e-2008": 502
+, "Volkswagen|e-up!": 321
+, "Volkswagen|ID.3": 318
+, "Škoda|Enyaq": 294
+, "Hyundai|Ioniq 5": 274
+, "Volkswagen|ID.4": 245
+, "Hyundai|Ioniq Electric": 191
+, "Audi|Q4 e-tron": 153
+, "Kia|EV6": 151
+, "Nissan|Leaf": 130
+, "Mercedes-Benz|EQA": 107
+, "Smart|Fortwo ED": 96
+, "MG|MG5 EV": 84
+, "Audi|Q8 e-tron": 76
+, "Ford|Mustang Mach-E": 64
+, "Audi|e-tron GT": 63
+, "BMW|i4": 53
+, "Porsche|Taycan": 48
+, "Mercedes-Benz|EQB": 46
+, "BMW|iX3": 45
+, "BMW|i3 BEV": 41
+, "BMW|iX": 39
+, "Mazda|MX-30": 24
+, "Opel|Combo-e": 21
+, "Smart|Forfour ED": 21
+, "Mercedes-Benz|EQV": 18
+, "Mercedes-Benz|other": 12
+, "other": 2166
 });
 
 db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/08/2022-07-vp-france.pdf",
@@ -3561,10 +3558,10 @@ db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4070
 });
 
-db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-les-immatriculations-de-vehicules-100-electriques-en-hausse-de-62-par-rapport-a-lan-passe/",
+db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/7",
 { "Renault|Megane E-Tech": 1937
 , "Peugeot|e-208": 1379
-, "Renault|Zoe": 953
+, "Renault|Zoe": 1073
 , "Fiat|500e": 938
 , "Peugeot|e-2008": 876
 , "Renault|Twingo Z.E.": 818
@@ -3572,7 +3569,34 @@ db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 661
 , "Citroën|ë-C4": 348
 , "Opel|Mokka-e": 310
-, "other": 3805
+, "Volkswagen|ID.4": 262
+, "Škoda|Enyaq": 256
+, "Volkswagen|ID.3": 197
+, "Volkswagen|e-up!": 185
+, "Hyundai|Ioniq 5": 143
+, "Audi|Q4 e-tron": 134
+, "Kia|EV6": 134
+, "BMW|i3 BEV": 111
+, "Nissan|Leaf": 110
+, "Hyundai|Ioniq Electric": 103
+, "Mercedes-Benz|EQA": 88
+, "Tesla|Model Y": 75
+, "MG|MG5 EV": 73
+, "Smart|Fortwo ED": 55
+, "Ford|Mustang Mach-E": 53
+, "Porsche|Taycan": 50
+, "BMW|i4": 46
+, "Audi|e-tron GT": 44
+, "Audi|Q8 e-tron": 40
+, "BMW|iX3": 23
+, "Mercedes-Benz|EQB": 15
+, "Opel|Combo-e": 15
+, "Smart|Forfour ED": 15
+, "BMW|iX": 11
+, "Mercedes-Benz|EQC": 8
+, "Mercedes-Benz|EQS": 7
+, "Mercedes-Benz|EQV": 7
+, "other": 1425
 });
 
 db.insert(db.countries.FR, "2022-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/09/2022-08-vp-france.pdf",
@@ -3607,7 +3631,7 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3766
 });
 
-db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-aout-2022-les-vehicules-electriques-et-hybrides-rechargeables-se-sont-octroyes-plus-de-18-de-parts-de-marche/",
+db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/8",
 { "Renault|Megane E-Tech": 1521
 , "Fiat|500e": 1325
 , "Dacia|Spring": 988
@@ -3618,7 +3642,35 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 465
 , "Renault|Zoe": 438
 , "Kia|Niro EV": 398
-, "other": 4260
+, "Volkswagen|ID.4": 327
+, "Nissan|Leaf": 301
+, "Volkswagen|ID.3": 288
+, "Tesla|Model 3": 255
+, "MG|MG5 EV": 190
+, "Volkswagen|e-up!": 158
+, "Škoda|Enyaq": 156
+, "Kia|EV6": 151
+, "Ford|Mustang Mach-E": 114
+, "BMW|i3 BEV": 101
+, "Audi|Q4 e-tron": 91
+, "BMW|i4": 61
+, "Hyundai|Ioniq Electric": 57
+, "Mercedes-Benz|EQA": 57
+, "Smart|Fortwo ED": 47
+, "BMW|iX3": 35
+, "Hyundai|Ioniq 5": 31
+, "Mercedes-Benz|EQB": 30
+, "Mazda|MX-30": 29
+, "Audi|Q8 e-tron": 24
+, "Mercedes-Benz|EQC": 18
+, "Audi|e-tron GT": 16
+, "Porsche|Taycan": 14
+, "Opel|Combo-e": 12
+, "Smart|Forfour ED": 12
+, "BMW|iX": 11
+, "Mercedes-Benz|EQS": 10
+, "Mercedes-Benz|EQV": 8
+, "other": 1656
 });
 
 db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/10/2022-09-vp-france.pdf",
@@ -3653,7 +3705,7 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 6261
 });
 
-db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-en-septembre-2022-les-vehicules-electriques-et-hybrides-rechargeables-se-sont-octroyes-pres-de-21-de-parts-de-marche/",
+db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/9",
 { "Renault|Megane E-Tech": 2897
 , "Tesla|Model 3": 2202
 , "Dacia|Spring": 2170
@@ -3664,7 +3716,32 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 1117
 , "Peugeot|e-2008": 867
 , "Volkswagen|ID.3": 632
-, "other": 6550
+, "Hyundai|Kona Electric": 583
+, "Volkswagen|ID.4": 393
+, "Škoda|Enyaq": 272
+, "BMW|i3 BEV": 192
+, "Nissan|Leaf": 177
+, "Volkswagen|e-up!": 170
+, "MG|MG5 EV": 158
+, "Audi|Q4 e-tron": 142
+, "Kia|EV6": 134
+, "Smart|Fortwo ED": 123
+, "Hyundai|Ioniq Electric": 110
+, "Mercedes-Benz|EQA": 106
+, "BMW|i4": 100
+, "Mazda|MX-30": 93
+, "BMW|iX3": 65
+, "Ford|Mustang Mach-E": 53
+, "Mercedes-Benz|EQB": 46
+, "Audi|Q8 e-tron": 39
+, "Hyundai|Ioniq 5": 37
+, "Audi|e-tron GT": 30
+, "BMW|iX": 30
+, "Mercedes-Benz|EQC": 28
+, "Opel|Combo-e": 19
+, "Smart|Forfour ED": 19
+, "Mercedes-Benz|EQS": 14
+, "other": 3417
 });
 
 db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/11/2022-10-vp-france.pdf",
@@ -3699,7 +3776,7 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5744
 });
 
-db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-nous-y-sommes-plus-d1-million-de-vehicules-electriques-et-hybrides-rechargeables-circulent-en-france/",
+db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/10",
 { "Peugeot|e-208": 2350
 , "Renault|Megane E-Tech": 2109
 , "Fiat|500e": 1276
@@ -3710,7 +3787,32 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 602
 , "Hyundai|Kona Electric": 551
 , "Dacia|Spring": 550
-, "other": 6080
+, "Tesla|Model Y": 534
+, "Volkswagen|ID.4": 278
+, "Volkswagen|e-up!": 246
+, "Nissan|Leaf": 202
+, "BMW|i4": 195
+, "Audi|Q4 e-tron": 168
+, "Kia|EV6": 160
+, "Škoda|Enyaq": 147
+, "Mercedes-Benz|EQA": 132
+, "MG|MG5 EV": 114
+, "Hyundai|Ioniq Electric": 102
+, "Smart|Fortwo ED": 88
+, "Hyundai|Ioniq 5": 85
+, "Mazda|MX-30": 61
+, "BMW|i3 BEV": 54
+, "Ford|Mustang Mach-E": 52
+, "Mercedes-Benz|EQB": 52
+, "BMW|iX": 31
+, "Audi|Q8 e-tron": 30
+, "Audi|e-tron GT": 19
+, "Mercedes-Benz|EQV": 17
+, "Porsche|Taycan": 17
+, "Mercedes-Benz|EQS": 16
+, "BMW|iX3": 15
+, "Mercedes-Benz|EQC": 14
+, "other": 3251
 });
 
 db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/12/2022-11-vp-france.pdf",
@@ -3745,7 +3847,7 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 6745
 });
 
-db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/publication/barometre-plus-d1-vehicule-neuf-sur-5-etait-en-novembre-2022-electrique-ou-hybride-rechargeable/",
+db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/11",
 { "Tesla|Model Y": 2891
 , "Tesla|Model 3": 2809
 , "Dacia|Spring": 1954
@@ -3753,10 +3855,40 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-208": 1428
 , "Mini|Cooper SE Electric": 760
 , "Fiat|500e": 683
+, "Renault|Zoe": 625
 , "Hyundai|Kona Electric": 571
 , "Volkswagen|ID.3": 559
 , "Peugeot|e-2008": 531
-, "other": 6305
+, "Renault|Twingo Z.E.": 343
+, "Volkswagen|ID.4": 313
+, "MG|MG5 EV": 282
+, "Kia|EV6": 257
+, "Volkswagen|e-up!": 257
+, "Audi|Q4 e-tron": 241
+, "Škoda|Enyaq": 207
+, "Nissan|Leaf": 179
+, "Hyundai|Ioniq 5": 136
+, "BMW|i4": 132
+, "Smart|Fortwo ED": 128
+, "Mercedes-Benz|EQA": 124
+, "Porsche|Taycan": 105
+, "Audi|Q8 e-tron": 67
+, "Ford|Mustang Mach-E": 48
+, "Mercedes-Benz|EQB": 40
+, "Audi|e-tron GT": 38
+, "Hyundai|Ioniq Electric": 38
+, "BMW|iX": 37
+, "Tesla|Model S": 35
+, "Mazda|MX-30": 27
+, "Mercedes-Benz|EQV": 22
+, "Tesla|Model X": 18
+, "BMW|iX3": 17
+, "Mercedes-Benz|EQC": 17
+, "Opel|Combo-e": 14
+, "Smart|Forfour ED": 14
+, "Mercedes-Benz|EQS": 12
+, "BMW|i3 BEV": 11
+, "other": 2521
 });
 
 db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/01/2022-12-vp-france.pdf",
@@ -3791,7 +3923,7 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 8849
 });
 
-db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/01/barometre-avere-colombus-janvier-2023.pdf",
+db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/12",
 { "Dacia|Spring": 2800
 , "Tesla|Model 3": 2675
 , "Renault|Megane E-Tech": 2534
@@ -3801,8 +3933,36 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 840
 , "Renault|Twingo Z.E.": 800
 , "Fiat|500e": 750
-, "MG|MG4 EV": 729
-, "other": 9019
+, "MG|ZS EV": 729
+, "Renault|Zoe": 654
+, "Hyundai|Kona Electric": 584
+, "Volkswagen|ID.4": 567
+, "Peugeot|e-2008": 502
+, "Hyundai|Ioniq 5": 324
+, "Nissan|Leaf": 318
+, "Volkswagen|e-up!": 304
+, "Audi|Q4 e-tron": 282
+, "Mercedes-Benz|EQA": 231
+, "Kia|EV6": 223
+, "Škoda|Enyaq": 217
+, "BMW|i4": 172
+, "MG|MG5 EV": 170
+, "Porsche|Taycan": 156
+, "Tesla|Model S": 151
+, "Smart|Fortwo ED": 133
+, "Audi|Q8 e-tron": 105
+, "Tesla|Model X": 97
+, "Audi|e-tron GT": 89
+, "BMW|iX3": 89
+, "BMW|iX": 69
+, "Mercedes-Benz|EQB": 64
+, "Hyundai|Ioniq Electric": 55
+, "Ford|Mustang Mach-E": 44
+, "Mercedes-Benz|EQV": 35
+, "Mercedes-Benz|EQC": 25
+, "BMW|i7": 24
+, "Mercedes-Benz|EQS": 20
+, "other": 3315
 });
 
 db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/02/2023-01-vp-france.pdf",
@@ -3839,7 +3999,7 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4176
 });
 
-db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/02/barometre-avere-colombus-fevrier-2023.pdf",
+db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/1",
 { "Dacia|Spring": 1911
 , "Fiat|500e": 1598
 , "Renault|Megane E-Tech": 1506
@@ -3850,7 +4010,34 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 441
 , "Tesla|Model Y": 424
 , "Hyundai|Kona Electric": 282
-, "other": 5256
+, "Tesla|Model 3": 278
+, "Volkswagen|ID.3": 243
+, "Kia|EV6": 237
+, "Audi|Q4 e-tron": 230
+, "Hyundai|Ioniq 5": 218
+, "Škoda|Enyaq": 171
+, "MG|MG5 EV": 138
+, "Volkswagen|e-up!": 130
+, "Volkswagen|ID.4": 119
+, "Mercedes-Benz|EQA": 116
+, "Nissan|Leaf": 115
+, "Smart|Fortwo ED": 79
+, "BMW|iX1": 78
+, "BMW|i4": 76
+, "BMW|iX3": 74
+, "Ford|Mustang Mach-E": 68
+, "Mazda|MX-30": 41
+, "BMW|iX": 40
+, "Audi|Q8 e-tron": 32
+, "Tesla|Model S": 28
+, "Audi|e-tron GT": 23
+, "Mercedes-Benz|EQB": 21
+, "Porsche|Taycan": 21
+, "Mercedes-Benz|EQV": 14
+, "Tesla|Model X": 11
+, "Mercedes-Benz|EQC": 10
+, "Mercedes-Benz|EQS": 10
+, "other": 2635
 });
 
 db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/03/2023-02-vp-france.pdf",
@@ -3887,7 +4074,7 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4188
 });
 
-db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/03/Barometre-immatriculations-Avere-France-fevrier-2023.pdf, https://cleantechnica.com/2023/03/04/frances-plugin-evs-hit-24-in-february-dacia-spring-still-boss/",
+db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/2",
 { "Dacia|Spring": 2872
 , "Tesla|Model Y": 2485
 , "Peugeot|e-208": 2092
@@ -3899,16 +4086,31 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo Z.E.": 779
 , "Hyundai|Kona Electric": 522
 , "Volkswagen|ID.3": 445
-, "Mini|Cooper SE Electric": 344
-, "Opel|Corsa-e": 290
-, "Peugeot|e-2008": 279
-, "Kia|Niro EV": 260
-, "Volvo|XC40 Recharge pure electric": 252
 , "Kia|EV6": 227
 , "Škoda|Enyaq": 221
 , "Audi|Q4 e-tron": 215
 , "Hyundai|Ioniq 5": 192
-, "other": 2461
+, "Volkswagen|ID.4": 167
+, "Volkswagen|e-up!": 118
+, "MG|MG5 EV": 103
+, "Mercedes-Benz|EQA": 91
+, "BMW|i4": 88
+, "BMW|iX1": 88
+, "Ford|Mustang Mach-E": 79
+, "Nissan|Leaf": 67
+, "Smart|Fortwo ED": 59
+, "Mercedes-Benz|EQB": 36
+, "Porsche|Taycan": 36
+, "BMW|iX": 32
+, "BMW|iX3": 32
+, "Mercedes-Benz|EQS": 28
+, "Audi|Q8 e-tron": 19
+, "Audi|e-tron GT": 17
+, "Mazda|MX-30": 14
+, "Mercedes-Benz|EQV": 14
+, "Tesla|Model X": 14
+, "Mercedes-Benz|EQC": 13
+, "other": 2771
 });
 
 db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2023-03-vp-france.pdf",
@@ -3945,7 +4147,7 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5495
 });
 
-db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/04/barometre-avere-colombus-mars-2023-2.pdf, https://cleantechnica.com/2023/04/03/french-ev-market-record-high-in-march-tesla-model-y-4th-overall-auto/",
+db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/3",
 { "Tesla|Model Y": 6455
 , "Dacia|Spring": 3481
 , "Peugeot|e-208": 3256
@@ -3956,17 +4158,33 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 923
 , "Renault|Twingo Z.E.": 873
 , "Peugeot|e-2008": 693
-, "Hyundai|Kona Electric": 650
-, "Opel|Corsa-e": 571
-, "Citroën|ë-C4": 468
+, "Volkswagen|e-up!": 435
 , "Volkswagen|ID.3": 409
-, "Mini|Cooper SE Electric": 349
-, "Cupra|Born": 321
-, "Volkswagen|e-up!": 321
-, "Volvo|XC40 Recharge pure electric": 288
 , "Volkswagen|ID.4": 286
 , "Audi|Q4 e-tron": 268
-, "other": 4112
+, "Škoda|Enyaq": 216
+, "Hyundai|Ioniq 5": 204
+, "Kia|EV6": 196
+, "BMW|i4": 185
+, "Audi|Q8 e-tron": 171
+, "Nissan|Leaf": 163
+, "BMW|iX1": 160
+, "Tesla|Model S": 158
+, "MG|MG5 EV": 135
+, "Mercedes-Benz|EQA": 128
+, "Smart|Fortwo ED": 108
+, "Ford|Mustang Mach-E": 107
+, "BMW|iX3": 98
+, "Tesla|Model X": 89
+, "Mazda|MX-30": 48
+, "Mercedes-Benz|EQB": 48
+, "BMW|iX": 41
+, "Audi|e-tron GT": 37
+, "Porsche|Taycan": 34
+, "Mercedes-Benz|EQS": 20
+, "Mercedes-Benz|EQV": 20
+, "Mercedes-Benz|EQC": 16
+, "other": 4263
 });
 
 db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2023_04_VP_france.pdf",
@@ -4003,7 +4221,7 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5030
 });
 
-db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/05/barometre-avere-colombus-avril-2023.pdf, https://cleantechnica.com/2023/05/02/france-in-april-bevs-up-phevs-down-spring-is-sprung/",
+db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/4",
 { "Dacia|Spring": 2432
 , "Peugeot|e-208": 1563
 , "Fiat|500e": 1365
@@ -4015,17 +4233,33 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 567
 , "Mini|Cooper SE Electric": 502
 , "Volkswagen|ID.3": 439
-, "Opel|Corsa-e": 415
 , "Tesla|Model 3": 389
-, "Renault|Twingo Z.E.": 368
-, "Kia|Niro EV": 331
 , "Volkswagen|ID.4": 323
-, "Škoda|Enyaq": 250
+, "Škoda|Enyaq": 251
 , "Kia|EV6": 238
-, "MG|ZS EV": 233
-, "Citroën|ë-C4": 205
-, "Volvo|XC40 Recharge pure electric": 170
-, "other": 2768
+, "Audi|Q4 e-tron": 187
+, "Volkswagen|e-up!": 185
+, "Hyundai|Ioniq 5": 160
+, "Ford|Mustang Mach-E": 124
+, "Mercedes-Benz|EQA": 118
+, "BMW|iX1": 113
+, "BMW|i4": 92
+, "Smart|Fortwo ED": 90
+, "Nissan|Leaf": 77
+, "BMW|iX3": 56
+, "Porsche|Taycan": 55
+, "Tesla|Model X": 55
+, "Audi|Q8 e-tron": 50
+, "MG|MG5 EV": 47
+, "Tesla|Model S": 47
+, "Mercedes-Benz|EQB": 39
+, "Mazda|MX-30": 34
+, "Mercedes-Benz|EQS": 24
+, "BMW|iX": 23
+, "Mercedes-Benz|EQV": 21
+, "Audi|e-tron GT": 19
+, "Mercedes-Benz|EQC": 10
+, "other": 2863
 });
 
 db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/06/2023_05_VP_france.pdf",
@@ -4061,7 +4295,7 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 15508
 });
 
-db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/06/barometre-avere-colombus-mai-2023-1.pdf, https://cleantechnica.com/2023/06/04/france-plugins-up-new-stellantis-bevs/",
+db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/5",
 { "Tesla|Model Y": 2709
 , "Fiat|500e": 2601
 , "Peugeot|e-208": 1914
@@ -4072,17 +4306,32 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 574
 , "Peugeot|e-2008": 563
 , "Opel|Corsa-e": 491
-, "Renault|Zoe": 491
-, "Kia|Niro EV": 481
-, "Hyundai|Kona Electric": 464
 , "Volkswagen|ID.4": 441
-, "MG|ZS EV": 399
 , "Volkswagen|ID.3": 371
-, "Jeep|Avenger EV": 334
-, "Volvo|XC40 Recharge pure electric": 316
 , "Škoda|Enyaq": 309
-, "Renault|Twingo Z.E.": 303
-, "other": 3838
+, "Volkswagen|e-up!": 277
+, "Audi|Q4 e-tron": 233
+, "Kia|EV6": 208
+, "BMW|iX1": 185
+, "Mercedes-Benz|EQA": 179
+, "Hyundai|Ioniq 5": 174
+, "BMW|i4": 134
+, "Tesla|Model S": 103
+, "Ford|Mustang Mach-E": 101
+, "Tesla|Model X": 89
+, "Nissan|Leaf": 65
+, "Audi|Q8 e-tron": 63
+, "Smart|Fortwo ED": 53
+, "Mercedes-Benz|EQB": 51
+, "BMW|iX3": 48
+, "Porsche|Taycan": 40
+, "MG|MG5 EV": 36
+, "Audi|e-tron GT": 32
+, "Mercedes-Benz|EQV": 26
+, "BMW|iX": 24
+, "Mazda|MX-30": 16
+, "Mercedes-Benz|EQS": 14
+, "other": 4475
 });
 
 db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/07/2023_06_VP_france.pdf",
@@ -4119,7 +4368,7 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 7416
 });
 
-db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/07/barometre-avere-colombus-juin-2023-2.pdf, https://cleantechnica.com/2023/07/24/100-electric-vehicles-now-equal-18-of-new-car-sales-in-france/",
+db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/6",
 { "Tesla|Model Y": 4335
 , "Tesla|Model 3": 3966
 , "Fiat|500e": 2781
@@ -4130,11 +4379,31 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 885
 , "Mini|Cooper SE Electric": 880
 , "Renault|Twingo Z.E.": 823
-, "MG|ZS EV": 741
 , "Volkswagen|ID.3": 740
-, "Peugeot|e-2008": 645
-, "Volvo|XC40 Recharge pure electric": 143
-, "other": 8074
+, "Volkswagen|ID.4": 391
+, "Kia|EV6": 381
+, "Škoda|Enyaq": 359
+, "Ford|Mustang Mach-E": 259
+, "Audi|Q4 e-tron": 257
+, "Hyundai|Ioniq 5": 241
+, "Mercedes-Benz|EQA": 238
+, "Volkswagen|e-up!": 232
+, "BMW|iX1": 227
+, "BMW|i4": 198
+, "MG|MG5 EV": 198
+, "Nissan|Leaf": 137
+, "Porsche|Taycan": 112
+, "Tesla|Model S": 108
+, "Tesla|Model X": 107
+, "Audi|Q8 e-tron": 97
+, "Mercedes-Benz|EQB": 80
+, "Smart|Fortwo ED": 78
+, "Mazda|MX-30": 58
+, "BMW|iX": 41
+, "BMW|iX3": 38
+, "Audi|e-tron GT": 36
+, "Mercedes-Benz|EQV": 18
+, "other": 5712
 });
 
 db.insert(db.countries.FR, "2023-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/08/2023_07_VP_france.pdf",
@@ -4171,7 +4440,7 @@ db.insert(db.countries.FR, "2023-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5005
 });
 
-db.insert(db.countries.FR, "2023-07", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/08/barometre-avere-colombus-juillet-2023-1.pdf",
+db.insert(db.countries.FR, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/7",
 { "Dacia|Spring": 2127
 , "Tesla|Model Y": 1631
 , "Fiat|500e": 1251
@@ -4182,7 +4451,33 @@ db.insert(db.countries.FR, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE Electric": 621
 , "Renault|Twingo Z.E.": 525
 , "Kia|Niro EV": 443
-, "other": 5955
+, "Škoda|Enyaq": 394
+, "Volkswagen|ID.4": 310
+, "Volkswagen|ID.3": 300
+, "BMW|iX1": 275
+, "Kia|EV6": 257
+, "Audi|Q4 e-tron": 226
+, "Volkswagen|e-up!": 217
+, "Ford|Mustang Mach-E": 183
+, "BMW|i4": 152
+, "BMW|iX3": 144
+, "Mercedes-Benz|EQA": 132
+, "Hyundai|Ioniq 5": 122
+, "Audi|Q8 e-tron": 80
+, "Nissan|Leaf": 67
+, "Mercedes-Benz|EQB": 54
+, "Smart|Fortwo ED": 47
+, "Audi|e-tron GT": 38
+, "Mercedes-Benz|EQC": 36
+, "Porsche|Taycan": 35
+, "BMW|iX": 34
+, "Mazda|MX-30": 30
+, "MG|MG5 EV": 20
+, "Tesla|Model S": 20
+, "Tesla|Model X": 18
+, "Jaguar|I-Pace": 16
+, "Mercedes-Benz|EQV": 14
+, "other": 2734
 });
 
 db.insert(db.countries.FR, "2023-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/09/2023_08_VP_france.pdf",
@@ -4219,7 +4514,7 @@ db.insert(db.countries.FR, "2023-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4360
 });
 
-db.insert(db.countries.FR, "2023-08", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/09/barometre-avere-colombus-aout-2023.pdf",
+db.insert(db.countries.FR, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/8",
 { "Tesla|Model Y": 3051
 , "Tesla|Model 3": 2258
 , "Peugeot|e-208": 1915
@@ -4229,8 +4524,32 @@ db.insert(db.countries.FR, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Megane E-Tech": 791
 , "Mini|Cooper SE Electric": 503
 , "Renault|Twingo Z.E.": 414
+, "BMW|iX1": 341
 , "Kia|Niro EV": 341
-, "other": 5798
+, "BMW|iX3": 289
+, "Volkswagen|ID.3": 285
+, "Škoda|Enyaq": 279
+, "Volkswagen|ID.4": 196
+, "Kia|EV6": 179
+, "Ford|Mustang Mach-E": 172
+, "Audi|Q4 e-tron": 151
+, "BMW|i4": 128
+, "MG|MG5 EV": 88
+, "Volkswagen|e-up!": 84
+, "Hyundai|Ioniq 5": 75
+, "Mercedes-Benz|EQA": 75
+, "Audi|Q8 e-tron": 60
+, "BMW|iX": 55
+, "Nissan|Leaf": 48
+, "Mercedes-Benz|EQB": 39
+, "Audi|e-tron GT": 32
+, "Porsche|Taycan": 31
+, "Smart|Fortwo ED": 31
+, "Tesla|Model X": 31
+, "Tesla|Model S": 25
+, "Mazda|MX-30": 16
+, "Mercedes-Benz|EQV": 16
+, "other": 3072
 });
 
 db.insert(db.countries.FR, "2023-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/10/2023_09_VP_france.pdf",
@@ -4267,7 +4586,7 @@ db.insert(db.countries.FR, "2023-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 5802
 });
 
-db.insert(db.countries.FR, "2023-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/10/barometre-avere-colombus-septembre-2023-1.pdf",
+db.insert(db.countries.FR, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/9",
 { "Tesla|Model Y": 5035
 , "Peugeot|e-208": 3924
 , "Dacia|Spring": 2514
@@ -4278,7 +4597,33 @@ db.insert(db.countries.FR, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 623
 , "Citroën|ë-C4": 596
 , "MG|ZS EV": 585
-, "other": 10315
+, "Škoda|Enyaq": 454
+, "Audi|Q4 e-tron": 423
+, "Tesla|Model 3": 385
+, "Volkswagen|ID.3": 342
+, "Volkswagen|ID.4": 313
+, "BMW|iX3": 306
+, "Ford|Mustang Mach-E": 292
+, "Kia|EV6": 275
+, "BMW|iX1": 274
+, "Volkswagen|e-up!": 251
+, "Mercedes-Benz|EQA": 225
+, "MG|MG5 EV": 178
+, "BMW|i4": 159
+, "Hyundai|Ioniq 5": 93
+, "Audi|Q8 e-tron": 92
+, "Tesla|Model S": 89
+, "Nissan|Leaf": 85
+, "Mercedes-Benz|EQB": 74
+, "Tesla|Model X": 48
+, "Audi|e-tron GT": 43
+, "BMW|iX": 42
+, "Mazda|MX-30": 41
+, "Smart|Fortwo ED": 38
+, "Mercedes-Benz|EQV": 24
+, "Porsche|Taycan": 22
+, "BMW|i7": 20
+, "other": 5727
 });
 
 db.insert(db.countries.FR, "2023-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/11/2023_10_VP_france.pdf",
@@ -4367,7 +4712,7 @@ db.insert(db.countries.FR, "2023-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 
 db.insert(db.countries.FR, "2023-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2023/12/Barometre-immatriculation-Novembre-2023.pdf",
 { "Tesla|Model 3": 6081
-, "Tesla|Model Y":3218
+, "Tesla|Model Y": 3218
 , "Dacia|Spring": 2557
 , "MG|MG4 EV": 1871
 , "Fiat|500e": 1762
