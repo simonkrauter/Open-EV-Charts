@@ -2774,8 +2774,8 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 128
 , "MG": 96
 , "Jaguar": 78
-, "Tesla": 20
-, "other": 1982
+, "Tesla": 22
+, "other": 1980
 });
 
 db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/10 (includes commercial vehicles)",
