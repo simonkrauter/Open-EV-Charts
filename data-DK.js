@@ -1974,7 +1974,7 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 376
 , "Tesla|Model 3": 255
 , "Audi|Q4 e-tron": 204
-, "Volkswagen|ID.4": 202
+, "Volkswagen|ID.4": 201
 , "Polestar|2": 178
 , "Ford|Mustang Mach-E": 121
 , "Volkswagen|ID. Buzz": 105
@@ -2123,7 +2123,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 237
 , "Volvo|XC40 Recharge pure electric": 192
 , "Audi|Q4 e-tron": 188
-, "Volkswagen|ID.4": 176
+, "Volkswagen|ID.4": 175
 , "Volkswagen|ID. Buzz": 160
 , "Mercedes-Benz|EQA": 140
 , "BMW|iX1": 139
@@ -2190,7 +2190,7 @@ db.insert(db.countries.DK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 673
 , "Škoda|Enyaq": 364
 , "Volvo|XC40 Recharge pure electric": 296
-, "Volkswagen|ID.4": 246
+, "Volkswagen|ID.4": 245
 , "Ford|Mustang Mach-E": 216
 , "Audi|Q4 e-tron": 198
 , "Volkswagen|ID. Buzz": 190
@@ -2339,14 +2339,14 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ac
 
 db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/12",
 { "Tesla|Model Y": 2938
-, "Tesla|Model 3": 1102
+, "Tesla|Model 3": 1105
 , "Volkswagen|ID. Buzz": 616
 , "BMW|i4": 416
 , "Polestar|2": 384
-, "Volvo|XC40 Recharge pure electric": 291
+, "Volvo|XC40 Recharge pure electric": 298
 , "Mercedes-Benz|EQE": 264
 , "BMW|i5": 262
-, "Škoda|Enyaq": 252
+, "Škoda|Enyaq": 258
 , "Mercedes-Benz|EQA": 245
 , "Volkswagen|ID.4": 230
 , "Volkswagen|ID.3": 204
@@ -2357,18 +2357,18 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 132
 , "Cupra|Born": 129
 , "Hyundai|Kona Electric": 118
-, "BMW|iX1": 114
+, "BMW|iX1": 115
 , "Renault|Megane E-Tech": 112
 , "Toyota|bZ4X": 105
 , "BMW|iX": 102
+, "BMW|iX3": 85
 , "BYD|Dolphin": 85
-, "BMW|iX3": 84
+, "Volvo|C40 Recharge": 63
 , "Hyundai|Ioniq 5": 62
 , "Mercedes-Benz|eVito": 59
 , "Mazda|MX-30": 56
 , "Audi|Q8 e-tron": 54
-, "MG|MG4 EV": 51
-, "Volvo|C40 Recharge": 49
+, "MG|MG4 EV": 52
 , "Volkswagen|ID.5": 47
 , "Kia|EV9": 44
 , "Jeep|Avenger EV": 37
