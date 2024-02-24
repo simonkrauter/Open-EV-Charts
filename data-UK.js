@@ -1315,7 +1315,7 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|iX": 869
 , "Citroën|ë-C4": 573
 , "Volvo|XC40 Recharge pure electric": 478
-, "Volvo|C40 Recharge": 461
+, "Volvo|EC40": 461
 , "Mercedes-Benz|EQB": 448
 , "BMW|i4": 432
 , "Volkswagen|e-up!": 395
@@ -1416,7 +1416,7 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Honda|e": 195
 , "Mercedes-Benz|EQS": 183
 , "Toyota|bZ4X": 170
-, "Volvo|C40 Recharge": 165
+, "Volvo|EC40": 165
 , "Volkswagen|ID.5": 162
 , "Smart|Fortwo ED": 147
 , "Mercedes-Benz|EQE": 104
@@ -1510,7 +1510,7 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "MG|MG4 EV": 521
 , "Volvo|XC40 Recharge pure electric": 418
 , "Mercedes-Benz|EQS": 290
-, "Volvo|C40 Recharge": 273
+, "Volvo|EC40": 273
 , "Mercedes-Benz|EQE": 239
 , "Kia|Soul EV": 234
 , "Mazda|MX-30": 198
@@ -1596,7 +1596,7 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Kona Electric": 1353
 , "Mercedes-Benz|EQA": 1255
 , "Renault|Megane E-Tech": 1180
-, "Volvo|C40 Recharge": 1015
+, "Volvo|EC40": 1015
 , "Vauxhall|Corsa-e": 977
 , "Ford|Mustang Mach-E": 955
 , "Nissan|Ariya": 888
@@ -1693,7 +1693,7 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|Corsa-e": 927
 , "Nissan|Ariya": 913
 , "Peugeot|e-208": 880
-, "Volvo|C40 Recharge": 869
+, "Volvo|EC40": 869
 , "Mercedes-Benz|EQB": 777
 , "MG|MG5 EV": 742
 , "Renault|Megane E-Tech": 740
@@ -1792,7 +1792,7 @@ db.insert(db.countries.UK, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mini|Cooper SE Electric": 1251
 , "Nissan|Leaf": 1223
 , "Vauxhall|Corsa-e": 1092
-, "Volvo|C40 Recharge": 1048
+, "Volvo|EC40": 1048
 , "Mercedes-Benz|EQC": 942
 , "Jaguar|I-Pace": 935
 , "Volkswagen|ID.5": 864
@@ -1901,7 +1901,7 @@ db.insert(db.countries.UK, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|Corsa-e": 785
 , "Jaguar|I-Pace": 768
 , "Citroën|ë-C4": 652
-, "Volvo|C40 Recharge": 637
+, "Volvo|EC40": 637
 , "Mercedes-Benz|EQE": 617
 , "Peugeot|e-2008": 615
 , "Fiat|500e": 600

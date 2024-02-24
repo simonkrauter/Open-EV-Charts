@@ -690,7 +690,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 2525
 , "Polestar|2": 2200
 , "Volkswagen|ID.4": 1659
-, "Volvo|C40 Recharge": 1427
+, "Volvo|EC40": 1427
 , "Genesis|G80": 1127
 , "BMW|iX": 1081
 , "Audi|e-tron GT": 839
@@ -756,7 +756,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 739
 , "Audi|Q4 e-tron": 732
 , "Audi|e-tron GT": 576
-, "Volvo|C40 Recharge": 326
+, "Volvo|EC40": 326
 , "Mercedes-Benz|EQS SUV": 277
 , "Jaguar|I-Pace": 104
 , "other": 1017
@@ -807,7 +807,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|2": 2079
 , "BMW|iX": 1673
 , "Audi|Q8 e-tron": 1529
-, "Volvo|C40 Recharge": 1403
+, "Volvo|EC40": 1403
 , "Rivian|EDV": 1300
 , "Genesis|G80": 1030
 , "Toyota|bZ4X": 985
@@ -868,7 +868,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 1698
 , "Audi|Q8 e-tron": 1535
 , "Subaru|Solterra": 1359
-, "Volvo|C40 Recharge": 1165
+, "Volvo|EC40": 1165
 , "Genesis|G80": 1009
 , "Audi|e-tron GT": 726
 , "Rivian|EDV": 526
@@ -917,7 +917,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|R1T": 4362
 , "Genesis|GV80": 4316
 , "BMW|iX": 4135
-, "Volvo|C40 Recharge": 3368
+, "Volvo|EC40": 3368
 , "Tesla|Model S": 3100
 , "Mercedes-Benz|EQS SUV": 3077
 , "Hyundai|Ioniq 6": 3023
@@ -986,7 +986,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 1673
 , "Nissan|Leaf": 1569
 , "Genesis|G80": 1357
-, "Volvo|C40 Recharge": 1253
+, "Volvo|EC40": 1253
 , "Genesis|GV60": 898
 , "Audi|e-tron GT": 638
 , "Rivian|EDV": 200

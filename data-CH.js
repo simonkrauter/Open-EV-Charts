@@ -2922,7 +2922,7 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|iEV7 S/E": 12
 , "Mercedes-Benz|EQV": 11
 , "Peugeot|e-Traveller": 8
-, "Volvo|C40 Recharge": 8
+, "Volvo|EC40": 8
 , "Škoda|Citigo-e": 8
 , "Smart|Forfour ED": 6
 , "Mazda|MX-30": 5
@@ -2988,7 +2988,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 98
 , "BMW|i3 BEV": 92
 , "BMW|iX": 80
-, "Volvo|C40 Recharge": 80
+, "Volvo|EC40": 80
 , "Mini|Cooper SE Electric": 79
 , "Porsche|Taycan": 75
 , "Nissan|Leaf": 72
@@ -3065,7 +3065,7 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 83
 , "Peugeot|e-208": 79
 , "Fiat|500e": 75
-, "Volvo|C40 Recharge": 73
+, "Volvo|EC40": 73
 , "Audi|Q8 e-tron": 61
 , "Mercedes-Benz|EQA": 59
 , "Volkswagen|ID.4": 57
@@ -3162,7 +3162,7 @@ db.insert(db.countries.CH, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 56
 , "Mercedes-Benz|EQA": 55
 , "Citroën|ë-C4": 51
-, "Volvo|C40 Recharge": 48
+, "Volvo|EC40": 48
 , "Audi|Q8 e-tron": 46
 , "Mini|Cooper SE Electric": 46
 , "Ford|Mustang Mach-E": 41
@@ -3246,7 +3246,7 @@ db.insert(db.countries.CH, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 89
 , "Volvo|XC40 Recharge pure electric": 87
 , "Dacia|Spring": 84
-, "Volvo|C40 Recharge": 77
+, "Volvo|EC40": 77
 , "Audi|Q8 e-tron": 76
 , "Ford|Mustang Mach-E": 66
 , "Polestar|2": 66
@@ -3328,7 +3328,7 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 92
 , "Audi|Q8 e-tron": 89
 , "Škoda|Enyaq": 87
-, "Volvo|C40 Recharge": 86
+, "Volvo|EC40": 86
 , "Kia|EV6": 80
 , "BMW|i3 BEV": 68
 , "Dacia|Spring": 62
@@ -3429,7 +3429,7 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|XC40 Recharge pure electric": 63
 , "Porsche|Taycan": 56
 , "BMW|i4": 55
-, "Volvo|C40 Recharge": 54
+, "Volvo|EC40": 54
 , "Kia|EV6": 50
 , "Mini|Cooper SE Electric": 49
 , "BMW|iX3": 46
@@ -3528,7 +3528,7 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 32
 , "Kia|Niro EV": 32
 , "Mini|Cooper SE Electric": 31
-, "Volvo|C40 Recharge": 29
+, "Volvo|EC40": 29
 , "Peugeot|e-208": 28
 , "Opel|Mokka-e": 27
 , "Smart|Fortwo ED": 25
@@ -3626,7 +3626,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 19
 , "Tesla|Model 3": 19
 , "Volvo|XC40 Recharge pure electric": 19
-, "Volvo|C40 Recharge": 15
+, "Volvo|EC40": 15
 , "Jaguar|I-Pace": 9
 , "Mercedes-Benz|EQE": 9
 , "Honda|e": 8
@@ -3716,7 +3716,7 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 17
 , "Hyundai|Kona Electric": 15
 , "Mercedes-Benz|EQE": 15
-, "Volvo|C40 Recharge": 11
+, "Volvo|EC40": 11
 , "Renault|Twingo Z.E.": 9
 , "Smart|Fortwo ED": 9
 , "Citroën|ë-C4": 8
@@ -3783,7 +3783,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 126
 , "Volkswagen|ID.4": 125
 , "Fiat|500e": 117
-, "Volvo|C40 Recharge": 94
+, "Volvo|EC40": 94
 , "Mercedes-Benz|EQA": 87
 , "Audi|Q8 e-tron": 74
 , "BMW|i3 BEV": 67
@@ -3885,7 +3885,7 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 41
 , "Peugeot|e-208": 38
 , "Mercedes-Benz|EQC": 37
-, "Volvo|C40 Recharge": 34
+, "Volvo|EC40": 34
 , "Volvo|XC40 Recharge pure electric": 34
 , "Renault|Twingo Z.E.": 33
 , "BMW|iX": 31
@@ -3973,7 +3973,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 124
 , "BMW|i4": 88
 , "Porsche|Taycan": 86
-, "Volvo|C40 Recharge": 83
+, "Volvo|EC40": 83
 , "BMW|iX": 72
 , "Peugeot|e-208": 71
 , "Subaru|Solterra": 70
@@ -4072,7 +4072,7 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 145
 , "BMW|i4": 141
 , "Fiat|500e": 127
-, "Volvo|C40 Recharge": 115
+, "Volvo|EC40": 115
 , "BMW|iX": 104
 , "Dacia|Spring": 101
 , "Tesla|Model X": 92
@@ -4161,7 +4161,7 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 139
 , "Mercedes-Benz|EQA": 134
 , "Volkswagen|ID.3": 128
-, "Volvo|C40 Recharge": 105
+, "Volvo|EC40": 105
 , "Renault|Zoe": 101
 , "Renault|Megane E-Tech": 92
 , "Peugeot|e-208": 91
@@ -4264,7 +4264,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 110
 , "Mercedes-Benz|EQA": 97
 , "Volkswagen|ID.4": 82
-, "Volvo|C40 Recharge": 58
+, "Volvo|EC40": 58
 , "Peugeot|e-208": 56
 , "Renault|Megane E-Tech": 53
 , "Polestar|2": 51
@@ -4365,7 +4365,7 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 93
 , "Audi|Q8 e-tron": 87
 , "Ford|Mustang Mach-E": 82
-, "Volvo|C40 Recharge": 82
+, "Volvo|EC40": 82
 , "BMW|i4": 69
 , "Renault|Zoe": 63
 , "Mercedes-Benz|EQC": 57
@@ -4463,7 +4463,7 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 94
 , "Renault|Megane E-Tech": 86
 , "Polestar|2": 65
-, "Volvo|C40 Recharge": 64
+, "Volvo|EC40": 64
 , "Ford|Mustang Mach-E": 59
 , "Toyota|bZ4X": 58
 , "Volkswagen|ID.5": 57
@@ -4571,7 +4571,7 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 57
 , "Renault|Zoe": 55
 , "Volkswagen|ID.5": 51
-, "Volvo|C40 Recharge": 51
+, "Volvo|EC40": 51
 , "Mini|Cooper SE Electric": 49
 , "Porsche|Taycan": 40
 , "BMW|iX": 39
@@ -4670,7 +4670,7 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 88
 , "Hyundai|Ioniq 5": 85
 , "BMW|i4": 81
-, "Volvo|C40 Recharge": 81
+, "Volvo|EC40": 81
 , "Polestar|2": 79
 , "Kia|Niro EV": 61
 , "Tesla|Model X": 58
@@ -4768,7 +4768,7 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 92
 , "Ford|Mustang Mach-E": 84
 , "Renault|Megane E-Tech": 82
-, "Volvo|C40 Recharge": 78
+, "Volvo|EC40": 78
 , "Toyota|bZ4X": 76
 , "Hyundai|Kona Electric": 71
 , "Kia|EV6": 71
@@ -4881,7 +4881,7 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 40
 , "Volkswagen|ID.5": 39
 , "BMW|iX3": 35
-, "Volvo|C40 Recharge": 33
+, "Volvo|EC40": 33
 , "Citroën|ë-C4": 32
 , "Peugeot|e-2008": 32
 , "Opel|Mokka-e": 29
@@ -4968,7 +4968,7 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 149
 , "Fiat|500e": 145
 , "Tesla|Model S": 125
-, "Volvo|C40 Recharge": 106
+, "Volvo|EC40": 106
 , "Volkswagen|ID.4": 105
 , "Kia|EV6": 97
 , "Audi|Q8 e-tron": 90
@@ -5065,7 +5065,7 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 254
 , "Volkswagen|ID.3": 191
 , "BMW|iX1": 187
-, "Volvo|C40 Recharge": 165
+, "Volvo|EC40": 165
 , "Cupra|Born": 164
 , "Volkswagen|ID.4": 143
 , "Mercedes-Benz|EQA": 115
@@ -5193,7 +5193,7 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 45
 , "BMW|iX3": 45
 , "Renault|Zoe": 43
-, "Volvo|C40 Recharge": 43
+, "Volvo|EC40": 43
 , "Mercedes-Benz|EQE": 40
 , "Porsche|Taycan": 36
 , "Opel|Corsa-e": 32
@@ -5298,7 +5298,7 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 54
 , "Renault|Twingo Z.E.": 52
 , "Mercedes-Benz|EQE": 49
-, "Volvo|C40 Recharge": 48
+, "Volvo|EC40": 48
 , "Tesla|Model S": 46
 , "Subaru|Solterra": 44
 , "Kia|Niro EV": 41

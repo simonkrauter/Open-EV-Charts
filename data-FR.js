@@ -3032,7 +3032,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 126
 , "Porsche|Taycan": 121
 , "Smart|Fortwo ED": 113
-, "Volvo|C40 Recharge": 104
+, "Volvo|EC40": 104
 , "Ford|Mustang Mach-E": 95
 , "Honda|e": 71
 , "Kia|Soul EV": 63
@@ -3124,7 +3124,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 37
 , "Renault|Megane E-Tech": 36
 , "Audi|Q8 e-tron": 35
-, "Volvo|C40 Recharge": 31
+, "Volvo|EC40": 31
 , "Volvo|XC40 Recharge pure electric": 22
 , "Citroën|ë-Berlingo Electric": 21
 , "MG|Marvel R": 19
@@ -3208,7 +3208,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 38
 , "Audi|e-tron GT": 37
 , "Audi|Q8 e-tron": 36
-, "Volvo|C40 Recharge": 34
+, "Volvo|EC40": 34
 , "Citroën|ë-Berlingo Electric": 33
 , "Ford|Mustang Mach-E": 33
 , "BMW|i4": 32
