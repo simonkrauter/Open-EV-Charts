@@ -69,12 +69,9 @@ const colorIndexByCompanyGroup =
 { "Volkswagen Group": 1
 , "Renault-Nissan-Mitsubishi": 3
 , "BMW Group": 4
-, "General Motors": 5
 , "Stellantis": 9
 , "Hyundai Motor Group": 10
-, "Toyota Motor Corporation": 12
 , "Geely Holding Group": 16
-, "Ford Motor Company": 17
 };
 
 const colorIndexByBrand =
@@ -101,16 +98,10 @@ const colorIndexByBrand =
 // Company goups, sorted by all car sales
 const companyGroups = {
   "Stellantis":
-    [ "Abarth"
-    , "Alfa Romeo"
-    , "Chrysler"
-    , "Citroën"
-    , "Dodge"
-    , "DS Automobiles"
+    [ "Citroën"
     , "Fiat"
     , "Jeep"
     , "Jeep/Dodge"
-    , "Maserati"
     , "Opel"
     , "Peugeot"
     , "Ram"
@@ -124,21 +115,6 @@ const companyGroups = {
     , "Škoda"
     , "Volkswagen"
     ],
-  "Toyota Motor Corporation":
-    [ "Lexus"
-    , "Suzuki"
-    , "Toyota"
-    ],
-  "General Motors":
-    [ "Buick"
-    , "Cadillac"
-    , "Chevrolet"
-    , "GMC"
-    ],
-  "Ford Motor Company":
-    [ "Ford"
-    , "Lincoln"
-    ],
   "Hyundai Motor Group":
     [ "Genesis"
     , "Hyundai"
@@ -146,14 +122,9 @@ const companyGroups = {
     ],
   "Renault-Nissan-Mitsubishi":
     [ "Dacia"
-    , "Infiniti"
     , "Mitsubishi"
     , "Nissan"
     , "Renault"
-    ],
-  "Honda Motor":
-    [ "Acura"
-    , "Honda"
     ],
   "BMW Group":
     [ "BMW"
@@ -161,11 +132,8 @@ const companyGroups = {
     ],
   "Geely Holding Group":
     [ "Geely"
-    , "Lotus"
-    , "Lynk & Co"
     , "Polestar"
     , "Volvo"
-    , "Zeekr"
     ],
   "Jaguar Land Rover":
     [ "Jaguar"
@@ -173,75 +141,41 @@ const companyGroups = {
     ],
   "SAIC Motor":
     [ "Baojun"
-    , "Maxus"
     , "MG"
-    , "Roewe"
     , "Wuling"
-    ],
-  "GAC Group":
-    [ "Aion"
-    , "Trumpchi"
-    ],
-  "BYD Auto":
-    [ "BYD"
-    , "Denza"
-    ],
-  "FAW Group":
-    [ "Besturn"
-    , "Hongqi"
     ]
 };
 
 const companyGroupCountries =
 { "Stellantis": "US/EU"
 , "Volkswagen Group": "EU"
-, "Toyota Motor Corporation": "JP"
-, "General Motors": "US"
-, "Ford Motor Company": "US"
 , "Hyundai Motor Group": "KR"
 , "Renault-Nissan-Mitsubishi": "JP/EU"
-, "Honda Motor": "JP"
 , "BMW Group": "DE"
 , "Geely Holding Group": "CN"
 , "Jaguar Land Rover": "UK"
 , "SAIC Motor": "CN"
-, "GAC Group": "CN"
-, "BYD Auto": "CN"
-, "FAW Group": "CN"
 };
 
 const brandCountries =
-{ "Abarth": "IT"
-, "Aiways": "CN"
-, "Alfa Romeo": "IT"
+{ "Aion": "CN"
 , "Audi": "DE"
 , "BAIC": "CN"
+, "BYD": "CN"
 , "Changan": "CN"
 , "Chery": "CN"
-, "Chrysler": "US"
+, "Chevrolet": "US"
 , "Citroën": "FR"
 , "Cupra": "FR"
 , "Dacia": "RO"
-, "Dodge": "US"
-, "Dongfeng": "CN"
-, "DS Automobiles": "FR"
 , "Fiat": "IT"
-, "Fisker": "US"
-, "GAC Toyota": "CN"
-, "Haima": "CN"
+, "Ford": "US"
 , "Hawtai": "CN"
-, "Hozon": "CN"
-, "Infiniti": "JP"
+, "Honda": "JP"
 , "JAC": "CN"
 , "Jeep": "US"
 , "Jeep/Dodge": "US"
 , "JMC": "CN"
-, "Leapmotor": "CN"
-, "Letin": "CN"
-, "Lifan": "CN"
-, "Lotus": "UK"
-, "Lucid": "US"
-, "Maserati": "IT"
 , "Mazda": "JP"
 , "Mercedes-Benz": "DE"
 , "Mitsubishi": "JP"
@@ -250,24 +184,18 @@ const brandCountries =
 , "Opel": "DE"
 , "GWM": "CN"
 , "Peugeot": "FR"
-, "Pocco": "CN"
 , "Polestar": "SE"
 , "Porsche": "DE"
 , "Ram": "UK"
 , "Renault": "FR"
 , "Rivian": "US"
 , "Seat": "ES"
-, "Sehol": "CN"
 , "Škoda": "CZ"
 , "Smart": "CN/DE"
-, "SsangYong": "KR"
 , "Subaru": "JP"
 , "Tesla": "US"
+, "Toyota": "JP"
 , "Vauxhall": "UK"
 , "Volkswagen": "DE"
 , "Volvo": "SE"
-, "Weltmeister": "CN"
-, "Xpeng": "CN"
-, "Zhidou": "CN"
-, "Zotye": "CN"
 };
