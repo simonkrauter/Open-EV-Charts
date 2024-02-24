@@ -2106,7 +2106,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 167
 , "Audi|Q8 e-tron": 140
 , "Citroën|ë-C4": 134
-, "Volvo|XC40 Recharge pure electric": 134
+, "Volvo|EX40": 134
 , "Mercedes-Benz|EQV": 115
 , "Mazda|MX-30": 97
 , "Seat|Mii Electric": 81
@@ -2182,7 +2182,7 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 32
 , "Mazda|MX-30": 29
 , "Hyundai|Ioniq Electric": 27
-, "Volvo|XC40 Recharge pure electric": 27
+, "Volvo|EX40": 27
 , "Mercedes-Benz|EQC": 19
 , "Porsche|Taycan": 19
 , "Smart|Forfour ED": 13
@@ -2255,7 +2255,7 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 18
 , "Hyundai|Ioniq Electric": 15
 , "Volkswagen|ID.4": 14
-, "Volvo|XC40 Recharge pure electric": 11
+, "Volvo|EX40": 11
 , "Honda|e": 10
 , "Smart|Forfour ED": 8
 , "Tesla|Model X": 8
@@ -2328,7 +2328,7 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 30
 , "Smart|Forfour ED": 30
 , "Citroën|ë-Jumpy": 19
-, "Volvo|XC40 Recharge pure electric": 18
+, "Volvo|EX40": 18
 , "Toyota|Proace Electric": 16
 , "Mercedes-Benz|EQC": 15
 , "Peugeot|e-Expert": 13
@@ -2400,7 +2400,7 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 55
 , "Mazda|MX-30": 49
 , "Seat|Mii Electric": 30
-, "Volvo|XC40 Recharge pure electric": 25
+, "Volvo|EX40": 25
 , "Audi|Q8 e-tron": 22
 , "Peugeot|e-Expert": 19
 , "Smart|Forfour ED": 18
@@ -2475,7 +2475,7 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 35
 , "Dacia|Spring": 33
 , "Peugeot|e-Expert": 29
-, "Volvo|XC40 Recharge pure electric": 28
+, "Volvo|EX40": 28
 , "Audi|Q8 e-tron": 26
 , "Smart|Forfour ED": 24
 , "Audi|e-tron GT": 23
@@ -2549,7 +2549,7 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 82
 , "Porsche|Taycan": 71
 , "BMW|iX3": 65
-, "Volvo|XC40 Recharge pure electric": 61
+, "Volvo|EX40": 61
 , "Opel|Mokka-e": 57
 , "Audi|Q8 e-tron": 48
 , "Peugeot|e-Expert": 34
@@ -2626,7 +2626,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 51
 , "Audi|Q4 e-tron": 50
 , "Tesla|Model 3": 43
-, "Volvo|XC40 Recharge pure electric": 33
+, "Volvo|EX40": 33
 , "Citroën|ë-Berlingo Electric": 31
 , "Smart|Fortwo ED": 31
 , "Audi|e-tron GT": 30
@@ -2711,7 +2711,7 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 22
 , "Hyundai|Ioniq Electric": 18
 , "Mazda|MX-30": 18
-, "Volvo|XC40 Recharge pure electric": 16
+, "Volvo|EX40": 16
 , "Seat|Mii Electric": 13
 , "Mercedes-Benz|EQV": 10
 , "Mercedes-Benz|EQC": 8
@@ -2783,7 +2783,7 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 55
 , "Hyundai|Ioniq Electric": 44
 , "Kia|Soul EV": 44
-, "Volvo|XC40 Recharge pure electric": 37
+, "Volvo|EX40": 37
 , "BMW|iX3": 36
 , "Seat|Mii Electric": 30
 , "MG|ZS EV": 26
@@ -2868,7 +2868,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 49
 , "Citroën|ë-Jumpy": 41
 , "Seat|Mii Electric": 40
-, "Volvo|XC40 Recharge pure electric": 38
+, "Volvo|EX40": 38
 , "Ford|Mustang Mach-E": 32
 , "Peugeot|e-Expert": 30
 , "Hyundai|Ioniq Electric": 29
@@ -2953,7 +2953,7 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 40
 , "Citroën|ë-Jumpy": 38
 , "MG|Marvel R": 32
-, "Volvo|XC40 Recharge pure electric": 31
+, "Volvo|EX40": 31
 , "Peugeot|e-Expert": 30
 , "Audi|e-tron GT": 28
 , "Citroën|ë-Berlingo Electric": 26
@@ -3040,7 +3040,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 47
 , "BMW|iX": 44
 , "Audi|e-tron GT": 43
-, "Volvo|XC40 Recharge pure electric": 42
+, "Volvo|EX40": 42
 , "Cupra|Born": 40
 , "Mercedes-Benz|EQC": 40
 , "Renault|Megane E-Tech": 36
@@ -3125,7 +3125,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 36
 , "Audi|Q8 e-tron": 35
 , "Volvo|EC40": 31
-, "Volvo|XC40 Recharge pure electric": 22
+, "Volvo|EX40": 22
 , "Citroën|ë-Berlingo Electric": 21
 , "MG|Marvel R": 19
 , "Citroën|ë-Jumpy": 18
@@ -3198,7 +3198,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 130
 , "Volkswagen|ID.3": 128
 , "Škoda|Enyaq": 116
-, "Volvo|XC40 Recharge pure electric": 106
+, "Volvo|EX40": 106
 , "Mercedes-Benz|EQA": 105
 , "Opel|Corsa-e": 84
 , "Smart|Fortwo ED": 75

@@ -1827,7 +1827,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model 3": 87
 , "Hyundai|Kona Electric": 84
 , "Peugeot|e-2008": 84
-, "Volvo|XC40 Recharge pure electric": 80
+, "Volvo|EX40": 80
 , "Porsche|Taycan": 74
 , "BMW|i3 BEV": 58
 , "Volkswagen|e-Golf": 48
@@ -1892,7 +1892,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 253
 , "Tesla|Model S": 199
 , "Audi|Q8 e-tron": 181
-, "Volvo|XC40 Recharge pure electric": 177
+, "Volvo|EX40": 177
 , "Mercedes-Benz|EQC": 140
 , "Tesla|Model X": 129
 , "Mazda|MX-30": 104
@@ -1957,7 +1957,7 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|Taycan": 49
 , "Škoda|Citigo-e": 44
 , "Kia|Soul EV": 43
-, "Volvo|XC40 Recharge pure electric": 38
+, "Volvo|EX40": 38
 , "Mercedes-Benz|EQC": 33
 , "Tesla|Model 3": 32
 , "Hyundai|Kona Electric": 30
@@ -2021,7 +2021,7 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|Q8 e-tron": 145
 , "Tesla|Model 3": 133
 , "Nissan|Leaf": 117
-, "Volvo|XC40 Recharge pure electric": 72
+, "Volvo|EX40": 72
 , "Peugeot|e-2008": 67
 , "Renault|Zoe": 54
 , "Kia|Soul EV": 44
@@ -2094,7 +2094,7 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.4": 87
 , "Renault|Zoe": 73
 , "Audi|Q8 e-tron": 66
-, "Volvo|XC40 Recharge pure electric": 66
+, "Volvo|EX40": 66
 , "Porsche|Taycan": 44
 , "Kia|Soul EV": 39
 , "Mercedes-Benz|EQC": 34
@@ -2162,7 +2162,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Polestar|2": 280
 , "Nissan|Leaf": 234
 , "Hyundai|Kona Electric": 191
-, "Volvo|XC40 Recharge pure electric": 161
+, "Volvo|EX40": 161
 , "Škoda|Enyaq": 150
 , "Renault|Zoe": 138
 , "Peugeot|e-2008": 112
@@ -2240,7 +2240,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model 3": 228
 , "Nissan|Leaf": 215
 , "Renault|Zoe": 132
-, "Volvo|XC40 Recharge pure electric": 131
+, "Volvo|EX40": 131
 , "Hyundai|Kona Electric": 91
 , "Mazda|MX-30": 75
 , "Peugeot|e-208": 72
@@ -2319,7 +2319,7 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|Leaf": 208
 , "Ford|Mustang Mach-E": 166
 , "BMW|iX3": 147
-, "Volvo|XC40 Recharge pure electric": 134
+, "Volvo|EX40": 134
 , "Audi|Q8 e-tron": 130
 , "Audi|Q4 e-tron": 114
 , "Mini|Cooper SE Electric": 97
@@ -2401,7 +2401,7 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Fiat|500e": 47
 , "Mazda|MX-30": 45
 , "Citroën|ë-C4": 40
-, "Volvo|XC40 Recharge pure electric": 40
+, "Volvo|EX40": 40
 , "Renault|Zoe": 38
 , "Mercedes-Benz|EQC": 35
 , "Audi|e-tron GT": 33
@@ -2485,7 +2485,7 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|Taycan": 49
 , "Audi|e-tron GT": 45
 , "Peugeot|e-208": 45
-, "Volvo|XC40 Recharge pure electric": 41
+, "Volvo|EX40": 41
 , "Opel|Corsa-e": 32
 , "Opel|Mokka-e": 32
 , "Citroën|ë-C4": 29
@@ -2558,7 +2558,7 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX3": 45
 , "Kia|Soul EV": 45
 , "Opel|Corsa-e": 44
-, "Volvo|XC40 Recharge pure electric": 38
+, "Volvo|EX40": 38
 , "Mini|Cooper SE Electric": 37
 , "Hyundai|Ioniq 5": 36
 , "Hyundai|Ioniq Electric": 34
@@ -2621,7 +2621,7 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "MG|ZS EV": 275
 , "Volkswagen|ID.3": 270
 , "Ford|Mustang Mach-E": 246
-, "Volvo|XC40 Recharge pure electric": 145
+, "Volvo|EX40": 145
 , "BMW|i3 BEV": 130
 , "Hyundai|Ioniq 5": 107
 , "Audi|Q8 e-tron": 105
@@ -2717,7 +2717,7 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Kona Electric": 80
 , "MG|ZS EV": 71
 , "Audi|Q8 e-tron": 70
-, "Volvo|XC40 Recharge pure electric": 68
+, "Volvo|EX40": 68
 , "BMW|iX3": 66
 , "Mercedes-Benz|EQA": 63
 , "Kia|Soul EV": 56
@@ -2794,7 +2794,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Škoda|Enyaq": 283
 , "Kia|EV6": 231
 , "BMW|i3 BEV": 184
-, "Volvo|XC40 Recharge pure electric": 177
+, "Volvo|EX40": 177
 , "Porsche|Taycan": 152
 , "Mini|Cooper SE Electric": 133
 , "Peugeot|e-208": 110
@@ -2865,7 +2865,7 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://mobili
 db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 996
 , "Volkswagen|ID.4": 683
-, "Volvo|XC40 Recharge pure electric": 467
+, "Volvo|EX40": 467
 , "Kia|EV6": 293
 , "Nissan|Leaf": 255
 , "Polestar|2": 247
@@ -2947,7 +2947,7 @@ db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model Y": 583
 , "Polestar|2": 436
 , "Volkswagen|ID.4": 433
-, "Volvo|XC40 Recharge pure electric": 303
+, "Volvo|EX40": 303
 , "BMW|i3 BEV": 285
 , "Škoda|Enyaq": 211
 , "Audi|Q4 e-tron": 209
@@ -3035,7 +3035,7 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model 3": 990
 , "Volkswagen|ID.4": 906
 , "Kia|Niro EV": 773
-, "Volvo|XC40 Recharge pure electric": 596
+, "Volvo|EX40": 596
 , "Polestar|2": 505
 , "Nissan|Leaf": 402
 , "BMW|i3 BEV": 373
@@ -3121,7 +3121,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.AllCarsByBrand, "https://mobili
 db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Kia|Niro EV": 670
 , "Polestar|2": 496
-, "Volvo|XC40 Recharge pure electric": 447
+, "Volvo|EX40": 447
 , "Kia|EV6": 420
 , "Volkswagen|ID.4": 420
 , "Nissan|Leaf": 391
@@ -3211,7 +3211,7 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://m
 { "Volkswagen|ID.4": 658
 , "Kia|Niro EV": 564
 , "Škoda|Enyaq": 391
-, "Volvo|XC40 Recharge pure electric": 318
+, "Volvo|EX40": 318
 , "Polestar|2": 315
 , "Tesla|Model Y": 312
 , "Kia|EV6": 296
@@ -3320,7 +3320,7 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 94
 , "Peugeot|e-2008": 92
 , "Volkswagen|ID.5": 92
-, "Volvo|XC40 Recharge pure electric": 89
+, "Volvo|EX40": 89
 , "MG|MG5 EV": 72
 , "Ford|Mustang Mach-E": 68
 , "Nissan|Leaf": 68
@@ -3412,7 +3412,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Zoe": 66
 , "Opel|Mokka-e": 61
 , "Mercedes-Benz|EQB": 58
-, "Volvo|XC40 Recharge pure electric": 47
+, "Volvo|EX40": 47
 , "Fiat|500e": 37
 , "Kia|Soul EV": 23
 , "Mercedes-Benz|EQC": 20
@@ -3498,7 +3498,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX3": 44
 , "Mercedes-Benz|EQA": 41
 , "Mercedes-Benz|EQS": 41
-, "Volvo|XC40 Recharge pure electric": 39
+, "Volvo|EX40": 39
 , "Fiat|500e": 38
 , "Kia|Soul EV": 38
 , "Hyundai|Kona Electric": 35
@@ -3555,7 +3555,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.AllCarsByBrand, "https://mobili
 
 db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 595
-, "Volvo|XC40 Recharge pure electric": 566
+, "Volvo|EX40": 566
 , "Kia|Niro EV": 555
 , "Škoda|Enyaq": 516
 , "Tesla|Model 3": 484
@@ -3645,7 +3645,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 1127
+{ "Volvo|EX40": 1127
 , "Volkswagen|ID.4": 618
 , "Kia|Niro EV": 463
 , "Nissan|Leaf": 460
@@ -3735,7 +3735,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 1627
+{ "Volvo|EX40": 1627
 , "Volkswagen|ID.4": 911
 , "Volvo|EC40": 874
 , "Polestar|2": 612
@@ -3830,7 +3830,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 2616
+{ "Volvo|EX40": 2616
 , "Volkswagen|ID.4": 1729
 , "Volvo|EC40": 1349
 , "Tesla|Model Y": 1090
@@ -3925,7 +3925,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 698
+{ "Volvo|EX40": 698
 , "Kia|EV6": 425
 , "Volvo|EC40": 372
 , "Volkswagen|ID.4": 276
@@ -4020,7 +4020,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 794
+{ "Volvo|EX40": 794
 , "Volkswagen|ID.4": 718
 , "Tesla|Model Y": 306
 , "Kia|EV6": 300
@@ -4120,7 +4120,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.AllCarsByBrand, "https://mobili
 
 db.insert(db.countries.SE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 3202
-, "Volvo|XC40 Recharge pure electric": 1255
+, "Volvo|EX40": 1255
 , "Volkswagen|ID.4": 898
 , "Tesla|Model 3": 712
 , "Kia|EV6": 563
@@ -4219,7 +4219,7 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.AllCarsByBrand, "https://mobili
 });
 
 db.insert(db.countries.SE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
-{ "Volvo|XC40 Recharge pure electric": 695
+{ "Volvo|EX40": 695
 , "Volkswagen|ID.4": 661
 , "Tesla|Model Y": 652
 , "Škoda|Enyaq": 346
@@ -4320,7 +4320,7 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.AllCarsByBrand, "https://mobili
 
 db.insert(db.countries.SE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 1903
-, "Volvo|XC40 Recharge pure electric": 1041
+, "Volvo|EX40": 1041
 , "Volkswagen|ID.4": 837
 , "Polestar|2": 695
 , "Volvo|EC40": 556
@@ -4423,7 +4423,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://m
 { "Tesla|Model Y": 2377
 , "Volkswagen|ID.4": 972
 , "Kia|EV6": 608
-, "Volvo|XC40 Recharge pure electric": 502
+, "Volvo|EX40": 502
 , "Škoda|Enyaq": 479
 , "Tesla|Model 3": 464
 , "BMW|i4": 458
@@ -4535,7 +4535,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQE": 186
 , "MG|MG4 EV": 151
 , "Audi|Q8 e-tron": 144
-, "Volvo|XC40 Recharge pure electric": 141
+, "Volvo|EX40": 141
 , "Tesla|Model 3": 104
 , "Opel|Corsa-e": 100
 , "Volvo|EC40": 97
@@ -4631,7 +4631,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Škoda|Enyaq": 595
 , "BMW|i4": 497
 , "Audi|Q4 e-tron": 479
-, "Volvo|XC40 Recharge pure electric": 434
+, "Volvo|EX40": 434
 , "Kia|EV6": 350
 , "MG|MG4 EV": 345
 , "Polestar|2": 343
@@ -4728,7 +4728,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.AllCarsByBrand, "https://mobili
 db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 3050
 , "Volkswagen|ID.4": 1229
-, "Volvo|XC40 Recharge pure electric": 896
+, "Volvo|EX40": 896
 , "Škoda|Enyaq": 708
 , "BYD|Yuan Plus": 598
 , "MG|MG4 EV": 451
@@ -4825,7 +4825,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.AllCarsByBrand, "https://mobili
 
 db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Volkswagen|ID.4": 994
-, "Volvo|XC40 Recharge pure electric": 916
+, "Volvo|EX40": 916
 , "Škoda|Enyaq": 808
 , "Kia|Niro EV": 661
 , "Tesla|Model Y": 621
@@ -4927,7 +4927,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.AllCarsByBrand, "https://mobili
 
 db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
 { "Tesla|Model Y": 1236
-, "Volvo|XC40 Recharge pure electric": 972
+, "Volvo|EX40": 972
 , "Volkswagen|ID.4": 887
 , "Škoda|Enyaq": 751
 , "Audi|Q4 e-tron": 513
@@ -5030,7 +5030,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://m
 { "Volkswagen|ID.4": 1371
 , "Tesla|Model Y": 1098
 , "Škoda|Enyaq": 931
-, "Volvo|XC40 Recharge pure electric": 798
+, "Volvo|EX40": 798
 , "Audi|Q4 e-tron": 655
 , "Tesla|Model 3": 630
 , "Volvo|EC40": 436

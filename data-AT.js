@@ -2766,7 +2766,7 @@ db.insert(db.countries.AT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 159
 , "BMW|iX1": 150
 , "BMW|i4": 135
-, "Volvo|XC40 Recharge pure electric": 127
+, "Volvo|EX40": 127
 , "Kia|EV6": 118
 , "other": 1668
 });
