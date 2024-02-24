@@ -2282,10 +2282,10 @@ db.insert(db.countries.CH, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 152
 , "Jaguar": 125
 , "Polestar": 74
-, "Tesla": 70
+, "Tesla": 63
 , "Smart": 31
 , "Chevrolet": 3
-, "other": 1129
+, "other": 1136
 });
 
 db.insert(db.countries.CH, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/4 (includes commercial vehicles)",
