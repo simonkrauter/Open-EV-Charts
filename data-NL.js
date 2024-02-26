@@ -6118,3 +6118,110 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 6
 , "other": 289
 });
+
+db.insert(db.countries.NL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/januari/",
+{ "Toyota": 2896
+, "Hyundai": 2687
+, "Škoda": 2629
+, "Volkswagen": 2534
+, "Volvo": 2315
+, "Kia": 2080
+, "BMW": 1973
+, "Tesla": 1610
+, "Audi": 1553
+, "Peugeot": 1417
+, "Renault": 1307
+, "Mercedes-Benz": 1220
+, "Opel": 909
+, "Ford": 853
+, "Seat": 795
+, "Mazda": 695
+, "Dacia": 549
+, "Mitsubishi": 524
+, "Land Rover": 504
+, "Jeep": 502
+, "Mini": 481
+, "Nissan": 459
+, "Citroën": 424
+, "Fiat": 326
+, "Porsche": 278
+, "BYD": 192
+, "Honda": 155
+, "MG": 146
+, "Cupra": 134
+, "Polestar": 113
+, "Smart": 83
+, "Nio": 40
+, "Jaguar": 25
+, "Subaru": 17
+, "other": 2052
+});
+
+db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/1",
+{ "Tesla|Model Y": 1147
+, "Volvo|EX40": 1103
+, "Tesla|Model 3": 461
+, "Jeep|Avenger EV": 427
+, "Škoda|Enyaq": 354
+, "Audi|Q8 e-tron": 345
+, "Volvo|EC40": 255
+, "BMW|iX1": 242
+, "BMW|i4": 235
+, "Hyundai|Kona Electric": 221
+, "Peugeot|e-208": 207
+, "Renault|Megane E-Tech": 181
+, "Peugeot|e-2008": 177
+, "Audi|Q4 e-tron": 175
+, "Kia|EV6": 169
+, "Kia|Niro EV": 147
+, "BYD|Yuan Plus": 141
+, "Kia|EV9": 130
+, "Hyundai|Ioniq 5": 123
+, "Polestar|2": 113
+, "Mercedes-Benz|EQE": 111
+, "Hyundai|Ioniq 6": 106
+, "BMW|i5": 104
+, "MG|MG4 EV": 103
+, "Volvo|EX30": 101
+, "Mercedes-Benz|EQB": 97
+, "Cupra|Born": 93
+, "Opel|Corsa-e": 80
+, "Smart|1": 73
+, "Toyota|bZ4X": 72
+, "BMW|iX3": 70
+, "Opel|Mokka-e": 65
+, "Dacia|Spring": 64
+, "Mercedes-Benz|EQA": 64
+, "Citroën|ë-C4": 60
+, "Porsche|Taycan": 55
+, "Nissan|Ariya": 53
+, "Nissan|Leaf": 47
+, "Mercedes-Benz|EQS": 46
+, "Ford|Mustang Mach-E": 41
+, "BYD|Seal": 39
+, "BMW|iX": 38
+, "Volkswagen|ID.7": 37
+, "Renault|Zoe": 35
+, "Fiat|500e": 34
+, "MG|ZS EV": 27
+, "Volkswagen|ID.3": 27
+, "Peugeot|e-308": 26
+, "Mercedes-Benz|eVito": 25
+, "Mercedes-Benz|EQV": 24
+, "Volkswagen|other": 41
+, "Nio|other": 40
+, "Fiat|other": 36
+, "Opel|other": 27
+, "Peugeot|other": 15
+, "Renault|other": 14
+, "MG|other": 13
+, "Mini|other": 13
+, "BYD|other": 12
+, "BMW|other": 11
+, "Tesla|other": 11
+, "Toyota|other": 11
+, "Smart|other": 10
+, "Kia|other": 8
+, "Mercedes-Benz|other": 5
+, "other": 276
+});
