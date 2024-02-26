@@ -1199,7 +1199,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 9304
 });
 
-db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/1",
+db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/1, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20gennaio%202022_61f95d655bfcc.pdf",
 { "Dacia|Spring": 656
 , "Fiat|500e": 548
 , "Renault|Twingo Z.E.": 298
@@ -1238,7 +1238,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 12
 , "Mazda|MX-30": 12
 , "Tesla|Model Y": 11
-, "other": 50
+, "other": 106
 });
 
 db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unrae.it/files/02%20Marca%20Febbraio%202022_621e27a7f3bbf.pdf",
@@ -1276,7 +1276,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 , "other": 9876
 });
 
-db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/2",
+db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/2, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20febbraio%202022_621e383971ffa.pdf",
 { "Fiat|500e": 509
 , "Smart|Fortwo ED": 297
 , "Tesla|Model Y": 223
@@ -1324,7 +1324,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 11
 , "Audi|e-tron GT": 10
 , "Kia|Soul EV": 7
-, "other": 3
+, "other": 1
 });
 
 db.insert(db.countries.IT, "2022-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202022_6246de835759c.pdf",
@@ -1362,7 +1362,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 9523
 });
 
-db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/3",
+db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/3, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20marzo%202022_624700a442340.pdf",
 { "Tesla|Model Y": 678
 , "Dacia|Spring": 517
 , "Fiat|500e": 495
@@ -1410,7 +1410,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Berlingo Electric": 6
 , "Jaguar|I-Pace": 6
 , "Toyota|Proace City Electric": 6
-, "other": 76
+, "other": 83
 });
 
 db.insert(db.countries.IT, "2022-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Aprile%202022_626fd61c67f03.pdf",
@@ -1448,7 +1448,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 7334
 });
 
-db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/4",
+db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/4, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20aprile%202022_626fd77b43e96.pdf",
 { "Fiat|500e": 497
 , "Smart|Fortwo ED": 405
 , "Dacia|Spring": 372
@@ -1500,7 +1500,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 4
 , "Mercedes-Benz|EQC": 4
 , "Tesla|other": 2
-, "other": 51
+, "other": 15
 });
 
 db.insert(db.countries.IT, "2022-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Maggio%202022_629775401787e.pdf",
@@ -1538,7 +1538,7 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 10114
 });
 
-db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/5",
+db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/5, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20maggio%202022_6297748832842.pdf",
 { "Fiat|500e": 749
 , "Smart|Fortwo ED": 450
 , "Peugeot|e-208": 297
@@ -1592,7 +1592,7 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 3
 , "Opel|Combo-e": 3
 , "Toyota|Proace City Electric": 3
-, "other": 58
+, "other": 7
 });
 
 db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Giugno%202022_62befaffac56a.pdf",
@@ -1630,7 +1630,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 10704
 });
 
-db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/6",
+db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/6, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20giugno%202022_62befa8632478.pdf",
 { "Fiat|500e": 781
 , "Tesla|Model Y": 769
 , "Smart|Fortwo ED": 723
@@ -1683,7 +1683,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 6
 , "Mercedes-Benz|other": 15
 , "Kia|other": 5
-, "other": 97
+, "other": 119
 });
 
 db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Luglio%202022_62e7d48f1cccf.pdf",
@@ -1721,7 +1721,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 9392
 });
 
-db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/7",
+db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/7, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20luglio%202022_63106fb3ba497.pdf",
 { "Fiat|500e": 779
 , "Smart|Fortwo ED": 304
 , "Renault|Twingo Z.E.": 263
@@ -1773,7 +1773,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Berlingo Electric": 2
 , "Kia|Soul EV": 2
 , "Peugeot|e-Rifter": 2
-, "other": 50
+, "other": 40
 });
 
 db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02_Marca%20Agosto%202022_6310a8afd3969.pdf",
@@ -1811,7 +1811,7 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 7616
 });
 
-db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/8",
+db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/8, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20agosto%202022_6310a7596a640.pdf",
 { "Fiat|500e": 360
 , "Smart|Fortwo ED": 128
 , "Renault|Twingo Z.E.": 114
@@ -1859,7 +1859,7 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 3
 , "Mercedes-Benz|EQV": 3
 , "MG|Marvel R": 2
-, "other": 26
+, "other": 27
 });
 
 db.insert(db.countries.IT, "2022-09", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Settembre%202022_633eebf0d59b6.pdf",
@@ -1897,7 +1897,7 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 11986
 });
 
-db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/9",
+db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/9, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Settembre%202022_633eeb6988111.pdf",
 { "Tesla|Model Y": 968
 , "Fiat|500e": 470
 , "Smart|Fortwo ED": 308
@@ -1952,7 +1952,7 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 3
 , "Jaguar|other": 3
 , "Mercedes-Benz|other": 3
-, "other": 47
+, "other": 36
 });
 
 db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Ottobre%202022_6362879f08071.pdf",
@@ -1990,7 +1990,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 11934
 });
 
-db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/10",
+db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/10, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Ottobre%202022_6362872f6bb24.pdf",
 { "Smart|Fortwo ED": 468
 , "Renault|Twingo Z.E.": 419
 , "Fiat|500e": 398
@@ -2043,7 +2043,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 3
 , "Mercedes-Benz|EQV": 3
 , "Smart|other": 2
-, "other": 22
+, "other": 44
 });
 
 db.insert(db.countries.IT, "2022-11", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Novembre%202022_6388b6e495397.pdf",
@@ -2081,7 +2081,7 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 12893
 });
 
-db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/11",
+db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/11, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Novembre%202022_6388b2ce3d93c.pdf",
 { "Tesla|Model Y": 1008
 , "Smart|Fortwo ED": 471
 , "Fiat|500e": 396
@@ -2138,7 +2138,6 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 4
 , "Citroën|other": 3
 , "Fiat|other": 3
-, "other": 10
 });
 
 db.insert(db.countries.IT, "2022-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Dicembre%202022_63b3ce802469b.pdf",
@@ -2176,7 +2175,7 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 10528
 });
 
-db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/12",
+db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/12, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Dicembre%202022_63b310f8e52b4.pdf",
 { "Smart|Fortwo ED": 447
 , "Tesla|Model Y": 412
 , "Fiat|500e": 303
@@ -2233,7 +2232,7 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 4
 , "Peugeot|other": 4
 , "Toyota|other": 3
-, "other": 194
+, "other": 108
 });
 
 db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Gennaio%202023_63da853aee5fb.pdf",
@@ -2271,7 +2270,7 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 11255
 });
 
-db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
+db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Gennaio%202023_63da7aa161aca.pdf",
 { "Fiat|500e": 540
 , "Smart|Fortwo ED": 369
 , "Renault|Twingo Z.E.": 212
@@ -2315,7 +2314,7 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 11
 , "Volvo|EC40": 11
 , "Fiat|E-Doblò": 10
-, "other": 114
+, "other": 124
 });
 
 db.insert(db.countries.IT, "2023-02", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Febbraio%202023_63ff72e39b529.pdf",
@@ -2353,7 +2352,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 11724
 });
 
-db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/2, https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
+db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/2, https://www.unrae.it/dati-statistici/immatricolazioni/6194/immatricolazioni-bev-per-modello-febbraio-2023",
 { "Tesla|Model Y": 1116
 , "Fiat|500e": 538
 , "Smart|Fortwo ED": 409
@@ -2406,7 +2405,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 8
 , "MG|other": 12
 , "Tesla|other": 5
-, "other": 5
+, "other": 62
 });
 
 db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo%202023_642ad178ad402.pdf",
@@ -2444,7 +2443,7 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 17594
 });
 
-db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3, https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
+db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Marzo%202023_6501bbc93a92a.pdf",
 { "Tesla|Model Y": 1697
 , "Tesla|Model 3": 1123
 , "Smart|Fortwo ED": 554
@@ -2541,7 +2540,7 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 13610
 });
 
-db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
+db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/4, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Aprile%202023_6501bbaa04e9b.pdf",
 { "Tesla|Model Y": 480
 , "Fiat|500e": 372
 , "Smart|Fortwo ED": 365
@@ -2599,6 +2598,7 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 4
 , "Toyota|other": 4
 , "Fiat|other": 3
+, "other": 3
 });
 
 db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Maggio%202023_6478b30f87cc6.pdf",
@@ -2637,7 +2637,7 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 17806
 });
 
-db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/5, https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
+db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/5, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Maggio%202023_6501bd550b9fe.pdf",
 { "Tesla|Model Y": 726
 , "Tesla|Model 3": 662
 , "Fiat|500e": 516
@@ -2695,7 +2695,7 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 6
 , "Jaguar|other": 5
 , "BMW|other": 4
-, "other": 30
+, "other": 63
 });
 
 db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Giugno%202023_64a2d3b0bb224.pdf",
@@ -2734,7 +2734,7 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 15251
 });
 
-db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/6, https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
+db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/6, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Giugno%202023_6501bb7057f3c.pdf",
 { "Tesla|Model 3": 1010
 , "Tesla|Model Y": 667
 , "Fiat|500e": 452
@@ -2790,7 +2790,7 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 7
 , "Mercedes-Benz|other": 4
 , "Nissan|other": 4
-, "other": 77
+, "other": 89
 });
 
 db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Luglio%202023_64c8de6ccdfd3.pdf",
@@ -2829,7 +2829,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 13516
 });
 
-db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
+db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/7, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Luglio%202023_6501bb523891d.pdf",
 { "Tesla|Model Y": 399
 , "Fiat|500e": 332
 , "Smart|Fortwo ED": 317
@@ -2885,6 +2885,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 7
 , "Citroën|other": 6
 , "Toyota|other": 6
+, "other": 56
 });
 
 db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Agosto%202023_64f1c3708072b.pdf",
@@ -2923,7 +2924,7 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 8439
 });
 
-db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
+db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/8, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Agosto%202023_6501a8538ebcf.pdf",
 { "Tesla|Model 3": 1192
 , "Tesla|Model Y": 931
 , "Renault|Megane E-Tech": 172
@@ -2976,7 +2977,7 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS SUV": 4
 , "Tesla|Model S": 4
 , "BMW|other": 3
-, "other": 50
+, "other": 76
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Settembre%202023_651a9f6eedac7.pdf",
@@ -3015,7 +3016,7 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 12958
 });
 
-db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
+db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/9, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Settembre%202023_651aa0088a4bd.pdf",
 { "Tesla|Model Y": 803
 , "Smart|Fortwo ED": 412
 , "Volkswagen|ID.3": 282
@@ -3112,7 +3113,7 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 14380
 });
 
-db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/10, https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
+db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/10, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Ottobre%202023_6543b1ed0340b.pdf",
 { "Tesla|Model 3": 537
 , "Smart|Fortwo ED": 513
 , "Tesla|Model Y": 349
@@ -3173,7 +3174,7 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 4
 , "BYD|other": 3
 , "Honda|other": 3
-, "other": 324
+, "other": 377
 });
 
 db.insert(db.countries.IT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Novembre%202023_6569e73bc87bd.pdf",
@@ -3212,7 +3213,7 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "other": 14630
 });
 
-db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/11, https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
+db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/11, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Novembre%202023_6569e7e84f220.pdf",
 { "Tesla|Model 3": 1956
 , "Tesla|Model Y": 703
 , "Dacia|Spring": 509
@@ -3274,7 +3275,7 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 6
 , "Audi|other": 5
 , "BMW|other": 4
-, "other": 114
+, "other": 126
 });
 
 db.insert(db.countries.IT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Dicembre%202023_659430b321a77.pdf",
@@ -3312,7 +3313,7 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.un
 , "other": 10360
 });
 
-db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
+db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/12, https://www.unrae.it/files/08%20Imm%20BEV%20modello_Dicembre_2023_65b920b84bf0e.pdf",
 { "Tesla|Model Y": 569
 , "Fiat|500e": 566
 , "Audi|Q4 e-tron": 424
@@ -3377,7 +3378,7 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 5
 , "Polestar|other": 5
 , "Subaru|other": 5
-, "other": 54
+, "other": 88
 });
 
 db.insert(db.countries.IT, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Gennaio%202024_65bb99ab90866.pdf",
