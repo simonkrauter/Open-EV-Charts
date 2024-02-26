@@ -3379,3 +3379,89 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 5
 , "other": 54
 });
+
+db.insert(db.countries.IT, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Gennaio%202024_65bb99ab90866.pdf",
+{ "Fiat": 15893
+, "Dacia": 10319
+, "Toyota": 10086
+, "Volkswagen": 9384
+, "Peugeot": 8265
+, "Jeep": 7281
+, "Citroën": 6527
+, "Audi": 6515
+, "BMW": 6239
+, "Ford": 6204
+, "Renault": 5844
+, "Opel": 4852
+, "Hyundai": 4040
+, "Nissan": 3972
+, "Kia": 3721
+, "Mercedes-Benz": 2985
+, "Škoda": 2877
+, "MG": 2838
+, "Mazda": 1682
+, "Volvo": 1660
+, "Mini": 1273
+, "Land Rover": 1087
+, "Seat": 1051
+, "Cupra": 1021
+, "Porsche": 762
+, "Honda": 656
+, "Tesla": 404
+, "Smart": 257
+, "Jaguar": 138
+, "Subaru": 133
+, "Mitsubishi": 104
+, "other": 13876
+});
+
+db.insert(db.countries.IT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/1, https://www.unrae.it/files/08%20Imm%20BEV%20modello_Gennaio%202024_65bb9a44e9bc8.pdf",
+{ "Jeep|Avenger EV": 327
+, "Tesla|Model Y": 306
+, "Fiat|500e": 234
+, "Dacia|Spring": 174
+, "Smart|Fortwo ED": 151
+, "Peugeot|e-208": 119
+, "Tesla|Model 3": 84
+, "Smart|1": 83
+, "Audi|Q4 e-tron": 75
+, "BMW|iX1": 75
+, "Fiat|600e": 74
+, "Citroën|ë-C4": 64
+, "Ford|Mustang Mach-E": 62
+, "Volkswagen|ID.3": 57
+, "Opel|Corsa-e": 49
+, "Opel|Mokka-e": 47
+, "MG|MG4 EV": 43
+, "Peugeot|e-2008": 43
+, "Renault|Twingo Z.E.": 40
+, "BMW|iX": 39
+, "Volvo|EX30": 39
+, "Mercedes-Benz|EQA": 37
+, "Audi|Q8 e-tron": 36
+, "Nissan|Leaf": 36
+, "Hyundai|Kona Electric": 35
+, "Kia|EV6": 32
+, "Volvo|EX40": 32
+, "Škoda|Enyaq": 30
+, "Renault|Megane E-Tech": 29
+, "BMW|i4": 28
+, "Nissan|Ariya": 26
+, "Volvo|EC40": 26
+, "BYD|Dolphin": 25
+, "Smart|3": 23
+, "Porsche|Taycan": 21
+, "Renault|Zoe": 21
+, "BMW|iX2": 20
+, "Cupra|Born": 20
+, "Peugeot|e-308": 19
+, "BYD|Yuan Plus": 18
+, "Audi|e-tron GT": 13
+, "Hyundai|Ioniq 6": 12
+, "Mercedes-Benz|EQB": 12
+, "Kia|EV9": 11
+, "Mercedes-Benz|EQE SUV": 11
+, "Mini|Cooper SE Electric": 11
+, "Hyundai|Ioniq 5": 10
+, "other": 205
+});
