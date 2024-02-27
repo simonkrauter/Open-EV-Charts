@@ -5330,3 +5330,105 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 4
 , "other": 168
 });
+
+db.insert(db.countries.CH, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/02/ModellePW2024.xlsx",
+{ "BMW": 1529
+, "Škoda": 1503
+, "Volkswagen": 1313
+, "Mercedes-Benz": 1090
+, "Audi": 1079
+, "Toyota": 890
+, "Volvo": 689
+, "Ford": 581
+, "Porsche": 493
+, "Opel": 478
+, "Dacia": 454
+, "Peugeot": 451
+, "Hyundai": 391
+, "Kia": 387
+, "Renault": 363
+, "Seat": 355
+, "Tesla": 327
+, "Citroën": 278
+, "Fiat": 267
+, "Honda": 252
+, "Mazda": 245
+, "Mitsubishi": 188
+, "Mini": 177
+, "Land Rover": 153
+, "Subaru": 152
+, "Jeep": 148
+, "Cupra": 91
+, "Nissan": 85
+, "Smart": 80
+, "Genesis": 51
+, "Polestar": 31
+, "JAC": 26
+, "Jaguar": 24
+, "other": 615
+});
+
+db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
+{ "Škoda|Enyaq": 339
+, "Tesla|Model Y": 250
+, "Volvo|EX30": 153
+, "Audi|Q4 e-tron": 87
+, "BMW|iX1": 71
+, "BMW|iX": 55
+, "Hyundai|Kona Electric": 55
+, "Kia|Niro EV": 55
+, "Smart|1": 55
+, "Tesla|Model 3": 53
+, "Volkswagen|ID.3": 53
+, "Volvo|EX40": 52
+, "BMW|i4": 49
+, "Toyota|bZ4X": 47
+, "Kia|EV9": 45
+, "Jeep|Avenger EV": 42
+, "Kia|EV6": 42
+, "Mercedes-Benz|EQA": 40
+, "Ford|Mustang Mach-E": 39
+, "Hyundai|Ioniq 5": 34
+, "Audi|Q8 e-tron": 31
+, "Polestar|2": 31
+, "Fiat|500e": 30
+, "Renault|Megane E-Tech": 30
+, "Fiat|600e": 29
+, "BMW|iX3": 26
+, "Mercedes-Benz|EQE": 23
+, "Volkswagen|ID.4": 23
+, "BMW|i5": 22
+, "Dacia|Spring": 21
+, "Nissan|Ariya": 21
+, "Peugeot|e-308": 20
+, "Porsche|Taycan": 20
+, "Smart|3": 20
+, "Volvo|EC40": 20
+, "Renault|Zoe": 19
+, "Cupra|Born": 17
+, "Peugeot|e-2008": 17
+, "Genesis|GV60": 16
+, "Hyundai|Ioniq 6": 16
+, "Peugeot|e-208": 16
+, "Genesis|GV70": 14
+, "Tesla|Model X": 14
+, "Mercedes-Benz|EQS": 13
+, "Volkswagen|ID.5": 12
+, "Volkswagen|e-up!": 10
+, "Opel|Astra Electric": 9
+, "Tesla|Model S": 9
+, "Honda|e:Ny1": 8
+, "Mercedes-Benz|EQB": 8
+, "Opel|other": 9
+, "BMW|other": 8
+, "Mercedes-Benz|other": 7
+, "Citroën|other": 5
+, "Smart|other": 5
+, "Honda|other": 3
+, "Nissan|other": 3
+, "Volkswagen|other": 3
+, "Fiat|other": 2
+, "Genesis|other": 2
+, "Renault|other": 2
+, "other": 134
+});
