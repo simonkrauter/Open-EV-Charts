@@ -5088,3 +5088,105 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "MG|other": 7
 , "other": 158
 });
+
+db.insert(db.countries.SE, "2024-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3079
+, "Volkswagen": 1999
+, "Toyota": 1709
+, "Kia": 1172
+, "Audi": 1106
+, "Mercedes-Benz": 1082
+, "BMW": 824
+, "Tesla": 730
+, "Škoda": 676
+, "Peugeot": 510
+, "Ford": 485
+, "Subaru": 348
+, "Nissan": 347
+, "MG": 325
+, "Hyundai": 242
+, "Polestar": 232
+, "Porsche": 226
+, "Renault": 202
+, "Opel": 187
+, "Mazda": 162
+, "Dacia": 155
+, "Cupra": 154
+, "Seat": 146
+, "Citroën": 134
+, "Mini": 72
+, "Honda": 67
+, "BYD": 63
+, "Mitsubishi": 58
+, "GWM": 29
+, "Fiat": 25
+, "Land Rover": 16
+, "Jaguar": 6
+, "Nio": 3
+, "Chevrolet": 2
+, "other": 591
+});
+
+db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 577
+, "Volvo|EX40": 567
+, "Volvo|EC40": 344
+, "Volkswagen|ID.4": 288
+, "Audi|Q4 e-tron": 286
+, "Volvo|EX30": 274
+, "Polestar|2": 232
+, "Nissan|Leaf": 164
+, "Kia|EV9": 160
+, "Tesla|Model 3": 142
+, "BMW|i4": 140
+, "Volkswagen|ID.3": 140
+, "Mercedes-Benz|EQE": 125
+, "Škoda|Enyaq": 118
+, "Mercedes-Benz|EQB": 101
+, "Kia|EV6": 95
+, "Audi|Q8 e-tron": 92
+, "Mercedes-Benz|EQA": 89
+, "Kia|Niro EV": 62
+, "Hyundai|Ioniq 5": 55
+, "Toyota|bZ4X": 55
+, "Cupra|Born": 54
+, "BYD|Yuan Plus": 38
+, "BMW|iX": 36
+, "Nissan|Ariya": 36
+, "BMW|i5": 35
+, "MG|MG4 EV": 34
+, "BMW|iX3": 31
+, "Volkswagen|ID. Buzz": 30
+, "GWM|Ora 03": 29
+, "Mini|Cooper SE Electric": 25
+, "Volkswagen|ID.7": 25
+, "Hyundai|Kona Electric": 22
+, "MG|MG5 EV": 20
+, "Porsche|Taycan": 18
+, "BMW|iX1": 17
+, "Mercedes-Benz|eVito": 13
+, "Ford|Mustang Mach-E": 12
+, "Peugeot|e-Rifter": 12
+, "BYD|Dolphin": 11
+, "Volkswagen|ID.5": 9
+, "Citroën|ë-Berlingo Electric": 8
+, "BYD|Seal": 7
+, "MG|ZS EV": 6
+, "Tesla|Model X": 6
+, "BYD|Tang EV": 5
+, "Opel|Corsa-e": 5
+, "Peugeot|e-208": 5
+, "Peugeot|e-Expert": 5
+, "Renault|Megane E-Tech": 5
+, "Tesla|Model S": 5
+, "Volvo|other": 28
+, "Fiat|other": 4
+, "Hyundai|other": 4
+, "MG|other": 4
+, "BMW|other": 3
+, "Mercedes-Benz|other": 3
+, "Nio|other": 3
+, "Renault|other": 3
+, "Subaru|other": 3
+, "other": 189
+});
