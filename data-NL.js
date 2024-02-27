@@ -6157,7 +6157,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 2052
 });
 
-db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/1",
+db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/1, https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
 { "Tesla|Model Y": 1147
 , "Volvo|EX40": 1103
 , "Tesla|Model 3": 461
