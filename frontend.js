@@ -1037,9 +1037,10 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     hasLink = true;
     if (chartConfig.metric == db.metrics.salesAll)
       newChartConfig.xProperty = db.xProperties.company;
-    else
+    else {
       newChartConfig.xProperty = db.xProperties.model;
-    newChartConfig.metric = db.metrics.salesElectric;
+      newChartConfig.metric = db.metrics.salesElectric;
+    }
     newChartConfig.timeSpan = "m" + text;
   }
 
