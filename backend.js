@@ -930,7 +930,7 @@ var db = {
     if (chartConfig.country != this.countryOptions.all) {
       for (const i in countryValues) {
         const code = countryValues[i];
-        const id = this.countries[code]
+        const id = this.countries[code];
         if (id && db.countriesWithData.includes(id))
           filterCountryIds.push(id);
       }
