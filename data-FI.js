@@ -4533,3 +4533,95 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "other": 34
 });
+
+db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2840/January_2024.xlsx",
+{ "Toyota": 1524
+, "Škoda": 740
+, "Volvo": 661
+, "Kia": 476
+, "Volkswagen": 421
+, "Mercedes-Benz": 419
+, "BMW": 386
+, "Nissan": 346
+, "Hyundai": 269
+, "Audi": 267
+, "Tesla": 169
+, "Ford": 127
+, "Citroën": 74
+, "Mazda": 63
+, "Mitsubishi": 62
+, "BYD": 43
+, "Renault": 33
+, "Dacia": 32
+, "Polestar": 30
+, "Opel": 29
+, "Porsche": 28
+, "Cupra": 26
+, "Peugeot": 25
+, "Subaru": 23
+, "Land Rover": 22
+, "Honda": 17
+, "Mini": 16
+, "Seat": 16
+, "Jeep": 8
+, "other": 237
+});
+
+db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/1",
+{ "Volvo|EX40": 207
+, "Tesla|Model Y": 123
+, "Hyundai|Ioniq 5": 122
+, "Audi|Q4 e-tron": 104
+, "Škoda|Enyaq": 89
+, "Volvo|EC40": 84
+, "BMW|i4": 71
+, "Volkswagen|ID.7": 60
+, "Tesla|Model 3": 45
+, "Kia|EV6": 44
+, "Kia|EV9": 41
+, "Mercedes-Benz|EQA": 41
+, "Volvo|EX30": 41
+, "Mercedes-Benz|EQE": 39
+, "Hyundai|Kona Electric": 37
+, "Mercedes-Benz|EQB": 34
+, "Toyota|bZ4X": 34
+, "Nissan|Ariya": 32
+, "Polestar|2": 30
+, "Audi|Q8 e-tron": 21
+, "Nissan|Leaf": 21
+, "BYD|Yuan Plus": 20
+, "BMW|iX": 19
+, "Kia|Niro EV": 19
+, "Volkswagen|ID.4": 19
+, "BMW|i5": 16
+, "Cupra|Born": 15
+, "BYD|Dolphin": 14
+, "Volkswagen|ID.3": 13
+, "BMW|iX1": 12
+, "Hyundai|Ioniq 6": 11
+, "Porsche|Taycan": 9
+, "Jeep|Avenger EV": 8
+, "Mini|Cooper SE Electric": 7
+, "Subaru|Solterra": 7
+, "Volkswagen|ID.5": 7
+, "Ford|Mustang Mach-E": 6
+, "Mercedes-Benz|EQS": 6
+, "BYD|Seal": 4
+, "BMW|iX3": 3
+, "BYD|Tang EV": 3
+, "Citroën|ë-C4": 3
+, "Renault|Megane E-Tech": 3
+, "BYD|Han EV": 2
+, "Fiat|500e": 2
+, "Peugeot|e-308": 2
+, "BMW|i7": 1
+, "Honda|e:Ny1": 1
+, "Kia|Soul EV": 1
+, "Mercedes-Benz|eVito": 1
+, "Opel|Zafira-e": 1
+, "Peugeot|e-208": 1
+, "Peugeot|e-Rifter": 1
+, "Tesla|Model S": 1
+, "Toyota|Proace Electric": 1
+, "other": 28
+});
