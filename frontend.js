@@ -61,6 +61,15 @@ function navigate(retainShowAllOptionsParamName) {
   chartSetConfig = db.decodeChartConfigString(currentHash);
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
+  if (currentHash == "") {
+    // Add an extra chart on the home page
+    var config = db.decodeChartConfigString("");
+    config.xProperty = db.xProperties.monthAvg12;
+    config.detailLevel = db.detailLevels.total;
+    config.unfoldedByParams.push("xProperty"); // make title visible
+    config = db.makeChartConfigValid(config);
+    chartConfigs.unshift(config);
+  }
   isSingleChart = chartConfigs.length == 1;
   sortByName = false;
   isHintsDivExpanded = false;
