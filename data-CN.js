@@ -1495,3 +1495,26 @@ db.insert(db.countries.CN, "2023-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Tang EV": 1051
 , "other": 279272
 });
+
+db.insert(db.countries.CN, "2024-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/02/27/geely-aito-who-shine-in-china-in-rising-18-market-share-in-january/ TODO: numbers per brand wanted",
+{ "other": 2087500
+});
+
+db.insert(db.countries.CN, "2024-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/02/27/geely-aito-who-shine-in-china-in-rising-18-market-share-in-january/",
+{ "Tesla|Model Y": 29912
+, "BYD|Seagull": 28050
+, "BYD|Yuan Plus": 16831
+, "BYD|Dolphin": 16386
+, "Changan|Lumin": 16041
+, "Wuling|Hongguang Mini EV": 15520
+, "Wuling|Bingo": 11746
+, "Geely|Panda Mini EV": 11092
+, "Aion|Y": 10079
+, "Tesla|Model 3": 9969
+, "Aion|S": 9534
+, "BYD|Song EV": 6562
+, "BYD|Qin EV": 4613
+, "BYD|Han EV": 2601
+, "BYD|Tang EV": 811
+, "other": 186003
+});
