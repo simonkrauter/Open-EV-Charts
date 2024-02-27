@@ -352,10 +352,11 @@ function renderChartTitle(chartDiv, chartConfig) {
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
 
+  const title = db.getChartTitle(chartConfig, isSingleChart);
   if (db.isMultiCountry(chartConfig))
-    titleElem.appendChild(document.createTextNode(db.getChartTitle(chartConfig, isSingleChart)));
+    titleElem.appendChild(document.createTextNode(title));
   else
-    titleElem.appendChild(createCountryFlagContainer(chartConfig.country, db.getChartTitle(chartConfig, isSingleChart)));
+    titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title));
 
   if (!isSingleChart) {
     var removeButton = createRemoveButton();
