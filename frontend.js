@@ -313,6 +313,7 @@ function renderChart(chartIndex) {
     chartDiv.classList.add("single");
 
   renderChartTitle(chartDiv, chartConfig);
+  renderChartSubTitle(chartDiv, chartConfig);
 
   if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !screenshotMode)
     renderChartTabButtons(chartDiv);
@@ -372,6 +373,18 @@ function renderChartTitle(chartDiv, chartConfig) {
     chartDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartRemoveClick);
   }
+}
+
+function renderChartSubTitle(chartDiv, chartConfig) {
+  const subTitle = db.getChartSubTitle(chartConfig, screenshotMode);
+  if (subTitle == "")
+    return;
+  var titleElem = document.createElement("DIV");
+  chartDiv.appendChild(titleElem);
+  titleElem.classList.add("chartSubTitle");
+
+  // if (db.isMultiCountry(chartConfig))
+  titleElem.appendChild(document.createTextNode(subTitle));
 }
 
 function renderChartTabButtons(chartDiv) {

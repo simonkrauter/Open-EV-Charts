@@ -919,6 +919,36 @@ var db = {
     return parts.join(" – ");
   },
 
+  getChartSubTitle: function(chartConfig, screenshotMode) {
+    var parts = [];
+    if (screenshotMode && this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
+      const countryValues = chartConfig.country.split(",");
+      var countrieNames = [];
+      if (countryValues.includes(this.countryOptions.all)) {
+        for (const i in this.countriesWithData) {
+          const id = this.countriesWithData[i];
+          countrieNames.push(this.countryNames[id]);
+        }
+      } else {
+        for (const i in countryValues) {
+          const code = countryValues[i];
+          const id = this.countries[code];
+          if (id != null)
+            countrieNames.push(this.countryNames[id]);
+        }
+      }
+      const count = countrieNames.length;
+      const maxDisplayCount = 8;
+      if (count > maxDisplayCount) {
+        countrieNames = countrieNames.slice(0, maxDisplayCount - 1);
+        const moreCountriesCount = count - maxDisplayCount + 1;
+        countrieNames.push("+" + moreCountriesCount + " countries");
+      }
+      parts.push(countrieNames.join(", "));
+    }
+    return parts.join(" – ");
+  },
+
   combineMetricAndCompanyOrBrandInTitle: function(chartConfig) {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
