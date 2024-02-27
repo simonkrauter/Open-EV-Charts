@@ -2340,13 +2340,13 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/12",
 { "Tesla|Model Y": 2938
 , "Tesla|Model 3": 1105
-, "Volkswagen|ID. Buzz": 616
+, "Volkswagen|ID. Buzz": 618
 , "BMW|i4": 416
 , "Polestar|2": 384
 , "Volvo|EX40": 298
 , "Mercedes-Benz|EQE": 264
 , "BMW|i5": 262
-, "Škoda|Enyaq": 258
+, "Škoda|Enyaq": 259
 , "Mercedes-Benz|EQA": 245
 , "Volkswagen|ID.4": 230
 , "Volkswagen|ID.3": 204
@@ -2363,7 +2363,7 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 102
 , "BMW|iX3": 85
 , "BYD|Dolphin": 85
-, "Volvo|EC40": 63
+, "Volvo|EC40": 65
 , "Hyundai|Ioniq 5": 62
 , "Mercedes-Benz|eVito": 59
 , "Mazda|MX-30": 56
