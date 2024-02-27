@@ -1039,6 +1039,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       newChartConfig.xProperty = db.xProperties.company;
     else
       newChartConfig.xProperty = db.xProperties.model;
+    newChartConfig.metric = db.metrics.salesElectric;
     newChartConfig.timeSpan = "m" + text;
   }
 
