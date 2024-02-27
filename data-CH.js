@@ -5317,5 +5317,16 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 26
 , "Mercedes-Benz|EQC": 25
 , "Mercedes-Benz|EQS": 25
-, "other": 334
+, "BMW|other": 28
+, "Opel|other": 26
+, "Mercedes-Benz|other": 21
+, "Honda|other": 20
+, "Audi|other": 19
+, "Peugeot|other": 16
+, "Nissan|other": 12
+, "Mini|other": 10
+, "Jaguar|other": 6
+, "Kia|other": 4
+, "Volvo|other": 4
+, "other": 168
 });
