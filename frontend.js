@@ -1289,7 +1289,7 @@ function renderCountriesStatusPage() {
       latestEvDataset = dataset;
       break;
     }
-    // collect data from the latest 24 datasets
+    // collect data from the latest 12 datasets
     var allCarSalesSum = 0;
     var evSalesSum = 0;
     var salesMonthCount = 0;
@@ -1305,7 +1305,7 @@ function renderCountriesStatusPage() {
       }
       if (dataset.dsType == db.dsTypes.AllCarsByBrand)
         salesMonthCount++;
-      if (salesMonthCount == 24)
+      if (salesMonthCount == 12)
         break;
     }
     const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
