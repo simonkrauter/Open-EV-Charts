@@ -1244,7 +1244,7 @@ function renderCountriesStatusPage() {
   dynamicContent.appendChild(table);
   const tr = document.createElement("TR");
   table.appendChild(tr);
-  const columns = ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market"];
+  const columns = ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"];
   for (const i in columns) {
     const th = document.createElement("TH");
     tr.appendChild(th);
@@ -1375,6 +1375,14 @@ function renderCountriesStatusPage() {
       const td = document.createElement("TD");
       tr.appendChild(td);
       td.appendChild(document.createTextNode(formatIntForStatusTable(evSalesPerYear)));
+      td.style.textAlign = "right";
+    }
+    // relative ev sales
+    {
+      const td = document.createElement("TD");
+      tr.appendChild(td);
+      const val = evSalesPerYear / allCarSalesPerYear * 100;
+      td.appendChild(document.createTextNode(val.toFixed(1).toLocaleString() + " %"));
       td.style.textAlign = "right";
     }
   }
