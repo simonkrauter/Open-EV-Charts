@@ -1974,7 +1974,7 @@ db.insert(db.countries.ES, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 4
 , "Tesla|Model X": 4
 , "Fiat|500e": 2
-, "Renault|Twingo Z.E.": 1
+, "Renault|Twingo E-Tech": 1
 , "other": 18
 });
 
@@ -2031,7 +2031,7 @@ db.insert(db.countries.ES, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 83
 , "Jaguar|I-Pace": 61
 , "Seat|Mii Electric": 60
-, "Renault|Twingo Z.E.": 56
+, "Renault|Twingo E-Tech": 56
 , "Peugeot|e-2008": 54
 , "Honda|e": 52
 , "BMW|i3 BEV": 38
@@ -2110,7 +2110,7 @@ db.insert(db.countries.ES, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 3
 , "Honda|e": 2
 , "Jaguar|I-Pace": 2
-, "Renault|Twingo Z.E.": 2
+, "Renault|Twingo E-Tech": 2
 , "Peugeot|e-Traveller": 1
 , "other": 5
 });
@@ -2176,7 +2176,7 @@ db.insert(db.countries.ES, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Citigo-e": 4
 , "BMW|iX3": 3
 , "Honda|e": 3
-, "Renault|Twingo Z.E.": 3
+, "Renault|Twingo E-Tech": 3
 , "Jaguar|I-Pace": 2
 , "Mazda|MX-30": 2
 , "Mercedes-Benz|EQC": 2
@@ -2247,7 +2247,7 @@ db.insert(db.countries.ES, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 26
 , "Škoda|Citigo-e": 25
 , "BMW|iX3": 19
-, "Renault|Twingo Z.E.": 15
+, "Renault|Twingo E-Tech": 15
 , "Kia|Soul EV": 12
 , "MG|ZS EV": 10
 , "Mercedes-Benz|EQC": 10
@@ -2301,7 +2301,7 @@ db.insert(db.countries.ES, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 { "Seat|Mii Electric": 151
 , "Kia|Niro EV": 112
 , "Volkswagen|ID.4": 108
-, "Renault|Twingo Z.E.": 106
+, "Renault|Twingo E-Tech": 106
 , "Peugeot|e-2008": 84
 , "Citroën|ë-C4": 67
 , "Smart|Fortwo ED": 67
@@ -2400,7 +2400,7 @@ db.insert(db.countries.ES, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 28
 , "Volkswagen|e-up!": 19
 , "Mercedes-Benz|EQC": 14
-, "Renault|Twingo Z.E.": 14
+, "Renault|Twingo E-Tech": 14
 , "Smart|Forfour ED": 9
 , "Hyundai|Ioniq Electric": 8
 , "Kia|Soul EV": 8
@@ -2485,7 +2485,7 @@ db.insert(db.countries.ES, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 15
 , "Hyundai|Ioniq Electric": 11
 , "Kia|Soul EV": 9
-, "Renault|Twingo Z.E.": 9
+, "Renault|Twingo E-Tech": 9
 , "Audi|e-tron GT": 8
 , "Jaguar|I-Pace": 8
 , "Audi|Q8 e-tron": 7
@@ -2551,7 +2551,7 @@ db.insert(db.countries.ES, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 35
 , "Smart|Forfour ED": 34
 , "Nissan|Leaf": 33
-, "Renault|Twingo Z.E.": 33
+, "Renault|Twingo E-Tech": 33
 , "Porsche|Taycan": 31
 , "Hyundai|Ioniq 5": 29
 , "Seat|Mii Electric": 27
@@ -2644,7 +2644,7 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30": 11
 , "Mercedes-Benz|EQC": 8
 , "BMW|iX3": 7
-, "Renault|Twingo Z.E.": 7
+, "Renault|Twingo E-Tech": 7
 , "Audi|Q8 e-tron": 6
 , "Audi|e-tron GT": 6
 , "Volvo|EX40": 6
@@ -2730,7 +2730,7 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 18
 , "MG|ZS EV": 17
 , "Hyundai|Ioniq Electric": 15
-, "Renault|Twingo Z.E.": 10
+, "Renault|Twingo E-Tech": 10
 , "Audi|Q8 e-tron": 7
 , "Mercedes-Benz|EQC": 7
 , "Seat|Mii Electric": 7
@@ -2812,7 +2812,7 @@ db.insert(db.countries.ES, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 17
 , "Ford|Mustang Mach-E": 11
 , "Mercedes-Benz|EQC": 11
-, "Renault|Twingo Z.E.": 11
+, "Renault|Twingo E-Tech": 11
 , "Jaguar|I-Pace": 9
 , "Kia|Soul EV": 9
 , "Peugeot|e-Traveller": 6
@@ -2882,7 +2882,7 @@ db.insert(db.countries.ES, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 68
 , "Nissan|Leaf": 67
 , "Peugeot|e-2008": 65
-, "Renault|Twingo Z.E.": 63
+, "Renault|Twingo E-Tech": 63
 , "Dacia|Spring": 62
 , "Citroën|ë-C4": 55
 , "Opel|Mokka-e": 52
@@ -2955,7 +2955,7 @@ db.insert(db.countries.ES, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 204
 , "Mini|Cooper SE Electric": 163
 , "Hyundai|Kona Electric": 136
-, "Renault|Twingo Z.E.": 136
+, "Renault|Twingo E-Tech": 136
 , "Volkswagen|ID.3": 133
 , "Volkswagen|ID.4": 130
 , "Smart|Fortwo ED": 112
@@ -3044,7 +3044,7 @@ db.insert(db.countries.ES, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 70
 , "Mercedes-Benz|EQB": 69
 , "Mercedes-Benz|EQA": 68
-, "Renault|Twingo Z.E.": 68
+, "Renault|Twingo E-Tech": 68
 , "Citroën|ë-C4": 62
 , "Ford|Mustang Mach-E": 57
 , "Audi|Q4 e-tron": 55
@@ -3147,7 +3147,7 @@ db.insert(db.countries.ES, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 36
 , "Ford|Mustang Mach-E": 32
 , "Nissan|Leaf": 30
-, "Renault|Twingo Z.E.": 26
+, "Renault|Twingo E-Tech": 26
 , "BMW|iX": 25
 , "MG|ZS EV": 25
 , "Opel|Corsa-e": 25
@@ -3227,7 +3227,7 @@ db.insert(db.countries.ES, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 54
 , "Opel|Mokka-e": 52
 , "Peugeot|e-208": 51
-, "Renault|Twingo Z.E.": 50
+, "Renault|Twingo E-Tech": 50
 , "Volvo|EX40": 48
 , "Ford|Mustang Mach-E": 42
 , "Smart|Fortwo ED": 41
@@ -3324,7 +3324,7 @@ db.insert(db.countries.ES, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 23
 , "Cupra|Born": 22
 , "Opel|Mokka-e": 22
-, "Renault|Twingo Z.E.": 22
+, "Renault|Twingo E-Tech": 22
 , "Tesla|Model Y": 22
 , "BMW|i4": 20
 , "Hyundai|Ioniq Electric": 19
@@ -3414,7 +3414,7 @@ db.insert(db.countries.ES, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 24
 , "Volvo|EC40": 24
 , "BMW|iX": 23
-, "Renault|Twingo Z.E.": 20
+, "Renault|Twingo E-Tech": 20
 , "Dacia|Spring": 18
 , "BMW|iX3": 17
 , "Porsche|Taycan": 16
@@ -3501,7 +3501,7 @@ db.insert(db.countries.ES, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 43
 , "Volkswagen|ID.4": 37
 , "Audi|Q4 e-tron": 36
-, "Renault|Twingo Z.E.": 34
+, "Renault|Twingo E-Tech": 34
 , "Mercedes-Benz|EQB": 33
 , "Volkswagen|ID.5": 33
 , "Nissan|Leaf": 30
@@ -3596,7 +3596,7 @@ db.insert(db.countries.ES, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 24
 , "Volkswagen|ID.5": 21
 , "Porsche|Taycan": 19
-, "Renault|Twingo Z.E.": 19
+, "Renault|Twingo E-Tech": 19
 , "Volvo|EC40": 15
 , "MG|MG5 EV": 13
 , "Polestar|2": 13
@@ -3686,7 +3686,7 @@ db.insert(db.countries.ES, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 15
 , "BMW|iX3": 14
 , "Renault|Megane E-Tech": 13
-, "Renault|Twingo Z.E.": 13
+, "Renault|Twingo E-Tech": 13
 , "Hyundai|Ioniq 5": 12
 , "MG|Marvel R": 12
 , "Mercedes-Benz|EQE": 11
@@ -3766,7 +3766,7 @@ db.insert(db.countries.ES, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 72
 , "MG|ZS EV": 65
 , "Kia|EV6": 63
-, "Renault|Twingo Z.E.": 58
+, "Renault|Twingo E-Tech": 58
 , "Volkswagen|ID.5": 57
 , "Cupra|Born": 54
 , "Citroën|ë-C4": 51
@@ -3878,7 +3878,7 @@ db.insert(db.countries.ES, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 27
 , "MG|MG4 EV": 26
 , "Nissan|Leaf": 24
-, "Renault|Twingo Z.E.": 23
+, "Renault|Twingo E-Tech": 23
 , "Volkswagen|ID.3": 23
 , "Porsche|Taycan": 22
 , "BMW|i3 BEV": 21
@@ -3978,7 +3978,7 @@ db.insert(db.countries.ES, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 18
 , "Volkswagen|ID.5": 18
 , "Volvo|EC40": 17
-, "Renault|Twingo Z.E.": 12
+, "Renault|Twingo E-Tech": 12
 , "BMW|i7": 10
 , "Mercedes-Benz|EQS": 9
 , "Nissan|Ariya": 8
@@ -4062,7 +4062,7 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 36
 , "Nissan|Ariya": 34
 , "Mercedes-Benz|EQE": 33
-, "Renault|Twingo Z.E.": 33
+, "Renault|Twingo E-Tech": 33
 , "BMW|i4": 32
 , "BMW|iX3": 32
 , "Nissan|Leaf": 32
@@ -4164,7 +4164,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 18
 , "Audi|Q8 e-tron": 15
 , "BMW|iX": 15
-, "Renault|Twingo Z.E.": 15
+, "Renault|Twingo E-Tech": 15
 , "Fiat|E-Doblò": 12
 , "Volkswagen|ID.5": 12
 , "Volvo|EC40": 12
@@ -4262,7 +4262,7 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|E-Doblò": 9
 , "MG|MG5 EV": 8
 , "Mazda|MX-30": 7
-, "Renault|Twingo Z.E.": 7
+, "Renault|Twingo E-Tech": 7
 , "Cupra|Tavascan": 6
 , "Mercedes-Benz|EQV": 5
 , "BMW|i7": 4
@@ -4439,7 +4439,7 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 45
 , "Smart|Fortwo ED": 44
 , "MG|Marvel R": 43
-, "Renault|Twingo Z.E.": 43
+, "Renault|Twingo E-Tech": 43
 , "BMW|i4": 41
 , "Mercedes-Benz|EQA": 40
 , "Volkswagen|ID.4": 38
@@ -4549,7 +4549,7 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 30
 , "Tesla|Model X": 28
 , "Hyundai|Kona Electric": 27
-, "Renault|Twingo Z.E.": 27
+, "Renault|Twingo E-Tech": 27
 , "Mercedes-Benz|EQE": 26
 , "BYD|Yuan Plus": 24
 , "Renault|Zoe": 24
@@ -4640,7 +4640,7 @@ db.insert(db.countries.ES, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 63
 , "Volvo|EC40": 58
 , "Cupra|Born": 57
-, "Renault|Twingo Z.E.": 57
+, "Renault|Twingo E-Tech": 57
 , "Škoda|Enyaq": 56
 , "BMW|i4": 50
 , "Ford|Mustang Mach-E": 45
@@ -4746,7 +4746,7 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 32
 , "Porsche|Taycan": 31
 , "BMW|iX": 28
-, "Renault|Twingo Z.E.": 27
+, "Renault|Twingo E-Tech": 27
 , "MG|Marvel R": 25
 , "Hyundai|Ioniq 5": 24
 , "Audi|Q8 e-tron": 22
@@ -4854,7 +4854,7 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 22
 , "Renault|Megane E-Tech": 22
 , "BMW|iX3": 21
-, "Renault|Twingo Z.E.": 18
+, "Renault|Twingo E-Tech": 18
 , "BYD|Yuan Plus": 17
 , "Volvo|EC40": 16
 , "Opel|Corsa-e": 14
@@ -4961,7 +4961,7 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 24
 , "Porsche|Taycan": 23
 , "Polestar|2": 21
-, "Renault|Twingo Z.E.": 21
+, "Renault|Twingo E-Tech": 21
 , "BMW|i5": 15
 , "Fiat|E-Doblò": 14
 , "Tesla|Model S": 13
@@ -5059,7 +5059,7 @@ db.insert(db.countries.ES, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 31
 , "Mercedes-Benz|eCitan": 28
 , "Fiat|E-Doblò": 25
-, "Renault|Twingo Z.E.": 23
+, "Renault|Twingo E-Tech": 23
 , "BMW|iX3": 22
 , "Hyundai|Ioniq 5": 22
 , "MG|Marvel R": 22
@@ -5165,7 +5165,7 @@ db.insert(db.countries.ES, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 24
 , "Opel|Mokka-e": 22
 , "Peugeot|e-308": 22
-, "Renault|Twingo Z.E.": 22
+, "Renault|Twingo E-Tech": 22
 , "Mazda|MX-30": 20
 , "Nissan|Leaf": 20
 , "Škoda|Enyaq": 20
@@ -5273,7 +5273,7 @@ db.insert(db.countries.ES, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 22
 , "Nissan|Ariya": 18
 , "Toyota|bZ4X": 17
-, "Renault|Twingo Z.E.": 16
+, "Renault|Twingo E-Tech": 16
 , "Hyundai|Ioniq 6": 14
 , "Mercedes-Benz|EQV": 14
 , "MG|other": 19

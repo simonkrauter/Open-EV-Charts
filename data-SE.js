@@ -4874,7 +4874,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|e-tron GT": 7
 , "Ford|Mustang Mach-E": 6
 , "Nio|ET7": 6
-, "Renault|Kangoo Z.E.": 6
+, "Renault|Kangoo E-Tech": 6
 , "Tesla|Model S": 6
 , "Volvo|other": 55
 , "Nio|other": 9

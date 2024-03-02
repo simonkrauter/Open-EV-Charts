@@ -2165,7 +2165,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "BYD|Dolphin": 9
 , "Mercedes-Benz|EQS": 9
-, "Renault|Kangoo Z.E.": 9
+, "Renault|Kangoo E-Tech": 9
 , "Opel|Corsa-e": 8
 , "Toyota|Proace Electric": 8
 , "Peugeot|other": 17

@@ -518,7 +518,7 @@ db.insert(db.countries.IT, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Smart|Fortwo ED": 558
 , "Renault|Zoe": 554
 , "Fiat|500e": 513
-, "Renault|Twingo Z.E.": 411
+, "Renault|Twingo E-Tech": 411
 , "Tesla|Model 3": 243
 , "Mini|Cooper SE Electric": 233
 , "Peugeot|e-208": 223
@@ -565,7 +565,7 @@ db.insert(db.countries.IT, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Fiat|500e": 1549
 , "Renault|Zoe": 1153
 , "Tesla|Model 3": 851
-, "Renault|Twingo Z.E.": 683
+, "Renault|Twingo E-Tech": 683
 , "Smart|Fortwo ED": 477
 , "Volkswagen|ID.3": 449
 , "Volkswagen|e-up!": 366
@@ -615,7 +615,7 @@ db.insert(db.countries.IT, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Renault|Zoe": 255
 , "Opel|Corsa-e": 216
 , "Peugeot|e-208": 193
-, "Renault|Twingo Z.E.": 129
+, "Renault|Twingo E-Tech": 129
 , "Peugeot|e-2008": 128
 , "Volkswagen|e-up!": 111
 , "Hyundai|Kona Electric": 91
@@ -660,7 +660,7 @@ db.insert(db.countries.IT, "2021-02", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-02", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/febbraio%20Top%2010%20per%20alimentazione_603cfea9edb94.pdf",
 { "Fiat|500e": 583
 , "Smart|Fortwo ED": 545
-, "Renault|Twingo Z.E.": 386
+, "Renault|Twingo E-Tech": 386
 , "Renault|Zoe": 296
 , "Tesla|Model 3": 278
 , "Peugeot|e-208": 184
@@ -709,7 +709,7 @@ db.insert(db.countries.IT, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Tesla|Model 3": 1363
 , "Fiat|500e": 1056
 , "Smart|Fortwo ED": 759
-, "Renault|Twingo Z.E.": 738
+, "Renault|Twingo E-Tech": 738
 , "Renault|Zoe": 721
 , "Peugeot|e-208": 381
 , "Peugeot|e-2008": 294
@@ -757,7 +757,7 @@ db.insert(db.countries.IT, "2021-04", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-04", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20aprile%202021_60900cb9c02fa.pdf",
 { "Fiat|500e": 1062
 , "Smart|Fortwo ED": 601
-, "Renault|Twingo Z.E.": 528
+, "Renault|Twingo E-Tech": 528
 , "Renault|Zoe": 421
 , "Volkswagen|ID.4": 330
 , "Peugeot|e-208": 308
@@ -806,7 +806,7 @@ db.insert(db.countries.IT, "2021-05", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-05", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20maggio%202021_60b6173455395.pdf",
 { "Fiat|500e": 1030
 , "Smart|Fortwo ED": 641
-, "Renault|Twingo Z.E.": 513
+, "Renault|Twingo E-Tech": 513
 , "Volkswagen|ID.3": 473
 , "Tesla|Model 3": 425
 , "Peugeot|e-208": 283
@@ -855,7 +855,7 @@ db.insert(db.countries.IT, "2021-06", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-06", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20giugno%202021_60dde79684a99.pdf",
 { "Tesla|Model 3": 984
 , "Fiat|500e": 955
-, "Renault|Twingo Z.E.": 829
+, "Renault|Twingo E-Tech": 829
 , "Dacia|Spring": 618
 , "Smart|Fortwo ED": 615
 , "Volkswagen|ID.3": 398
@@ -902,7 +902,7 @@ db.insert(db.countries.IT, "2021-07", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2021-07", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20luglio%202021_6107ca5800fe2.pdf",
 { "Fiat|500e": 883
-, "Renault|Twingo Z.E.": 629
+, "Renault|Twingo E-Tech": 629
 , "Volkswagen|e-up!": 374
 , "Smart|Fortwo ED": 348
 , "Volkswagen|ID.3": 309
@@ -955,7 +955,7 @@ db.insert(db.countries.IT, "2021-08", db.dsTypes.ElectricCarsByModel, "http://ww
 , "Tesla|Model 3": 308
 , "Volkswagen|ID.3": 281
 , "Renault|Zoe": 214
-, "Renault|Twingo Z.E.": 196
+, "Renault|Twingo E-Tech": 196
 , "Smart|Fortwo ED": 152
 , "Volkswagen|ID.4": 135
 , "Ford|Mustang Mach-E": 121
@@ -1053,7 +1053,7 @@ db.insert(db.countries.IT, "2021-10", db.dsTypes.ElectricCarsByModel, "http://ww
 { "Dacia|Spring": 1777
 , "Fiat|500e": 1060
 , "Smart|Fortwo ED": 621
-, "Renault|Twingo Z.E.": 532
+, "Renault|Twingo E-Tech": 532
 , "Renault|Zoe": 341
 , "Peugeot|e-2008": 301
 , "Volkswagen|ID.3": 266
@@ -1101,7 +1101,7 @@ db.insert(db.countries.IT, "2021-11", db.dsTypes.AllCarsByBrand, "http://www.unr
 
 db.insert(db.countries.IT, "2021-11", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Novembre%202021_61a7810980607.pdf",
 { "Fiat|500e": 946
-, "Renault|Twingo Z.E.": 656
+, "Renault|Twingo E-Tech": 656
 , "Volkswagen|e-up!": 570
 , "Smart|Fortwo ED": 543
 , "Dacia|Spring": 416
@@ -1152,7 +1152,7 @@ db.insert(db.countries.IT, "2021-12", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2021-12", db.dsTypes.ElectricCarsByModel, "http://www.unrae.it/files/07%20Top%2010%20per%20alimentazione_Dicembre%202021_61d31a534d7a8.pdf",
 { "Fiat|500e": 887
 , "Dacia|Spring": 805
-, "Renault|Twingo Z.E.": 519
+, "Renault|Twingo E-Tech": 519
 , "Volkswagen|e-up!": 459
 , "Smart|Fortwo ED": 440
 , "Tesla|Model 3": 418
@@ -1202,7 +1202,7 @@ db.insert(db.countries.IT, "2022-01", db.dsTypes.AllCarsByBrand, "http://www.unr
 db.insert(db.countries.IT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/1, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20gennaio%202022_61f95d655bfcc.pdf",
 { "Dacia|Spring": 656
 , "Fiat|500e": 548
-, "Renault|Twingo Z.E.": 298
+, "Renault|Twingo E-Tech": 298
 , "Smart|Fortwo ED": 230
 , "Renault|Zoe": 228
 , "Peugeot|e-208": 178
@@ -1289,7 +1289,7 @@ db.insert(db.countries.IT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 96
 , "Volkswagen|ID.4": 94
 , "Peugeot|e-208": 93
-, "Renault|Twingo Z.E.": 88
+, "Renault|Twingo E-Tech": 88
 , "Mini|Cooper SE Electric": 80
 , "Mercedes-Benz|EQA": 62
 , "Dacia|Spring": 61
@@ -1385,7 +1385,7 @@ db.insert(db.countries.IT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 54
 , "Citroën|ë-C4": 52
 , "BMW|i4": 51
-, "Renault|Twingo Z.E.": 49
+, "Renault|Twingo E-Tech": 49
 , "Audi|Q8 e-tron": 48
 , "BMW|i3 BEV": 47
 , "Porsche|Taycan": 46
@@ -1460,7 +1460,7 @@ db.insert(db.countries.IT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 83
 , "Opel|Corsa-e": 83
 , "Peugeot|e-208": 83
-, "Renault|Twingo Z.E.": 66
+, "Renault|Twingo E-Tech": 66
 , "Ford|Mustang Mach-E": 64
 , "Škoda|Enyaq": 61
 , "Audi|Q4 e-tron": 60
@@ -1542,7 +1542,7 @@ db.insert(db.countries.IT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 { "Fiat|500e": 749
 , "Smart|Fortwo ED": 450
 , "Peugeot|e-208": 297
-, "Renault|Twingo Z.E.": 275
+, "Renault|Twingo E-Tech": 275
 , "Dacia|Spring": 269
 , "Peugeot|e-2008": 219
 , "Mini|Cooper SE Electric": 177
@@ -1635,7 +1635,7 @@ db.insert(db.countries.IT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model Y": 769
 , "Smart|Fortwo ED": 723
 , "Tesla|Model 3": 374
-, "Renault|Twingo Z.E.": 271
+, "Renault|Twingo E-Tech": 271
 , "Peugeot|e-208": 222
 , "Renault|Zoe": 217
 , "Renault|Megane E-Tech": 189
@@ -1724,7 +1724,7 @@ db.insert(db.countries.IT, "2022-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 db.insert(db.countries.IT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/7, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20luglio%202022_63106fb3ba497.pdf",
 { "Fiat|500e": 779
 , "Smart|Fortwo ED": 304
-, "Renault|Twingo Z.E.": 263
+, "Renault|Twingo E-Tech": 263
 , "Renault|Megane E-Tech": 234
 , "Peugeot|e-208": 188
 , "Cupra|Born": 126
@@ -1814,7 +1814,7 @@ db.insert(db.countries.IT, "2022-08", db.dsTypes.AllCarsByBrand, "https://unrae.
 db.insert(db.countries.IT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/8, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20agosto%202022_6310a7596a640.pdf",
 { "Fiat|500e": 360
 , "Smart|Fortwo ED": 128
-, "Renault|Twingo Z.E.": 114
+, "Renault|Twingo E-Tech": 114
 , "Opel|Corsa-e": 113
 , "Volkswagen|ID.3": 101
 , "Tesla|Model Y": 100
@@ -1902,7 +1902,7 @@ db.insert(db.countries.IT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 470
 , "Smart|Fortwo ED": 308
 , "Tesla|Model 3": 238
-, "Renault|Twingo Z.E.": 233
+, "Renault|Twingo E-Tech": 233
 , "Opel|Mokka-e": 210
 , "Volkswagen|ID.4": 201
 , "Opel|Corsa-e": 184
@@ -1992,7 +1992,7 @@ db.insert(db.countries.IT, "2022-10", db.dsTypes.AllCarsByBrand, "https://unrae.
 
 db.insert(db.countries.IT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2022/10, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Ottobre%202022_6362872f6bb24.pdf",
 { "Smart|Fortwo ED": 468
-, "Renault|Twingo Z.E.": 419
+, "Renault|Twingo E-Tech": 419
 , "Fiat|500e": 398
 , "Peugeot|e-208": 281
 , "Mini|Cooper SE Electric": 198
@@ -2085,7 +2085,7 @@ db.insert(db.countries.IT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 1008
 , "Smart|Fortwo ED": 471
 , "Fiat|500e": 396
-, "Renault|Twingo Z.E.": 393
+, "Renault|Twingo E-Tech": 393
 , "Dacia|Spring": 351
 , "Peugeot|e-208": 237
 , "Mini|Cooper SE Electric": 224
@@ -2179,7 +2179,7 @@ db.insert(db.countries.IT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 { "Smart|Fortwo ED": 447
 , "Tesla|Model Y": 412
 , "Fiat|500e": 303
-, "Renault|Twingo Z.E.": 273
+, "Renault|Twingo E-Tech": 273
 , "Dacia|Spring": 231
 , "Volkswagen|ID.4": 192
 , "Peugeot|e-208": 183
@@ -2273,7 +2273,7 @@ db.insert(db.countries.IT, "2023-01", db.dsTypes.AllCarsByBrand, "https://unrae.
 db.insert(db.countries.IT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/1, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Gennaio%202023_63da7aa161aca.pdf",
 { "Fiat|500e": 540
 , "Smart|Fortwo ED": 369
-, "Renault|Twingo Z.E.": 212
+, "Renault|Twingo E-Tech": 212
 , "Audi|Q4 e-tron": 186
 , "Tesla|Model Y": 147
 , "Volkswagen|ID.3": 135
@@ -2357,7 +2357,7 @@ db.insert(db.countries.IT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 538
 , "Smart|Fortwo ED": 409
 , "Renault|Megane E-Tech": 403
-, "Renault|Twingo Z.E.": 203
+, "Renault|Twingo E-Tech": 203
 , "Tesla|Model 3": 192
 , "Peugeot|e-208": 158
 , "Audi|Q4 e-tron": 147
@@ -2453,7 +2453,7 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 279
 , "Peugeot|e-208": 269
 , "Volkswagen|ID.3": 220
-, "Renault|Twingo Z.E.": 215
+, "Renault|Twingo E-Tech": 215
 , "Audi|Q4 e-tron": 208
 , "Mercedes-Benz|EQA": 138
 , "Polestar|2": 137
@@ -2547,7 +2547,7 @@ db.insert(db.countries.IT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 228
 , "Tesla|Model 3": 224
 , "Dacia|Spring": 148
-, "Renault|Twingo Z.E.": 144
+, "Renault|Twingo E-Tech": 144
 , "Renault|Megane E-Tech": 143
 , "Audi|Q4 e-tron": 129
 , "Peugeot|e-208": 129
@@ -2654,7 +2654,7 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 154
 , "Renault|Megane E-Tech": 112
 , "Mini|Cooper SE Electric": 99
-, "Renault|Twingo Z.E.": 93
+, "Renault|Twingo E-Tech": 93
 , "Opel|Mokka-e": 92
 , "Polestar|2": 91
 , "Volkswagen|ID.3": 86
@@ -2740,7 +2740,7 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 452
 , "Smart|Fortwo ED": 350
 , "Opel|Corsa-e": 305
-, "Renault|Twingo Z.E.": 303
+, "Renault|Twingo E-Tech": 303
 , "Jeep|Avenger EV": 285
 , "Peugeot|e-208": 193
 , "MG|MG4 EV": 165
@@ -2844,7 +2844,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 88
 , "MG|ZS EV": 86
 , "Audi|Q4 e-tron": 85
-, "Renault|Twingo Z.E.": 84
+, "Renault|Twingo E-Tech": 84
 , "Volkswagen|ID.3": 83
 , "BMW|iX1": 79
 , "Mercedes-Benz|EQA": 71
@@ -2948,7 +2948,7 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 35
 , "Smart|1": 32
 , "Porsche|Taycan": 23
-, "Renault|Twingo Z.E.": 23
+, "Renault|Twingo E-Tech": 23
 , "Mercedes-Benz|EQE": 22
 , "Volvo|EC40": 22
 , "Škoda|Enyaq": 22
@@ -3037,7 +3037,7 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 103
 , "MG|MG4 EV": 85
 , "Mercedes-Benz|EQB": 84
-, "Renault|Twingo Z.E.": 81
+, "Renault|Twingo E-Tech": 81
 , "Audi|Q8 e-tron": 68
 , "Mercedes-Benz|EQE SUV": 68
 , "Volkswagen|ID.4": 60
@@ -3126,7 +3126,7 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|Avenger EV": 188
 , "Smart|1": 168
 , "Fiat|500e": 144
-, "Renault|Twingo Z.E.": 140
+, "Renault|Twingo E-Tech": 140
 , "Renault|Megane E-Tech": 122
 , "Hyundai|Kona Electric": 121
 , "Opel|Corsa-e": 104
@@ -3234,7 +3234,7 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 113
 , "Volkswagen|ID.5": 111
 , "Renault|Megane E-Tech": 104
-, "Renault|Twingo Z.E.": 99
+, "Renault|Twingo E-Tech": 99
 , "Hyundai|Kona Electric": 97
 , "Škoda|Enyaq": 88
 , "Mini|Cooper SE Electric": 87
@@ -3250,7 +3250,7 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-308": 46
 , "Peugeot|e-2008": 39
 , "BMW|iX3": 38
-, "Renault|Kangoo Z.E.": 34
+, "Renault|Kangoo E-Tech": 34
 , "Audi|Q8 e-tron": 33
 , "Nissan|Ariya": 32
 , "Tesla|Model S": 31
@@ -3337,7 +3337,7 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 117
 , "Volvo|EX30": 114
 , "BMW|i4": 106
-, "Renault|Twingo Z.E.": 100
+, "Renault|Twingo E-Tech": 100
 , "Ford|Mustang Mach-E": 90
 , "Hyundai|Kona Electric": 82
 , "Mercedes-Benz|EQB": 79
@@ -3435,7 +3435,7 @@ db.insert(db.countries.IT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 47
 , "MG|MG4 EV": 43
 , "Peugeot|e-2008": 43
-, "Renault|Twingo Z.E.": 40
+, "Renault|Twingo E-Tech": 40
 , "BMW|iX": 39
 , "Volvo|EX30": 39
 , "Mercedes-Benz|EQA": 37
