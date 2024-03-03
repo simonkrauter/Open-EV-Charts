@@ -749,7 +749,7 @@ db.insert(db.countries.DK, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 69
 });
 
-db.insert(db.countries.DK, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211118_PRPC_2110_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf TODO: numbers per brand wanted",
 { "other": 12666
 });
 
