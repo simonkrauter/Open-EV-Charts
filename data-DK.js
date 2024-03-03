@@ -2037,7 +2037,7 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 2
 });
 
-db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf TODO: numbers per brand wanted",
 { "other": 13556
 });
 
