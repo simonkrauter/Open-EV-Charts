@@ -711,7 +711,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 74
 , "BMW|i3 BEV": 33
 , "Audi|Q8 e-tron": 33
-, "Mini|Cooper SE Electric": 26
+, "Mini|Cooper SE": 26
 , "Kia|Niro EV": 26
 , "Nissan|Leaf": 25
 , "Tesla|Model S": 23
@@ -957,7 +957,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 40
 , "Volkswagen|e-Golf": 33
 , "Škoda|Citigo-e": 28
-, "Mini|Cooper SE Electric": 28
+, "Mini|Cooper SE": 28
 });
 
 db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1740,7 +1740,7 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
 { "Hyundai|Ioniq Electric": 277
-, "Mini|Cooper SE Electric": 233
+, "Mini|Cooper SE": 233
 , "Tesla|Model 3": 230
 , "Tesla|Model Y": 226
 , "Renault|Zoe": 224

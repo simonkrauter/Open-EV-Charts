@@ -1166,7 +1166,7 @@ db.insert(db.countries.IE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|Niro EV": 21
 , "Volkswagen|e-Golf": 20
 , "Hyundai|Ioniq Electric": 19
-, "Mini|Cooper SE Electric": 19
+, "Mini|Cooper SE": 19
 , "Renault|Zoe": 18
 , "Peugeot|e-208": 12
 , "Audi|Q8 e-tron": 7
@@ -1211,7 +1211,7 @@ db.insert(db.countries.IE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-208": 3
 , "Kia|Niro EV": 2
 , "Kia|Soul EV": 2
-, "Mini|Cooper SE Electric": 2
+, "Mini|Cooper SE": 2
 , "Opel|Corsa-e": 1
 , "Tesla|Model S": 1
 });
@@ -1254,7 +1254,7 @@ db.insert(db.countries.IE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Leaf": 13
 , "Renault|Zoe": 13
 , "Hyundai|Kona Electric": 11
-, "Mini|Cooper SE Electric": 5
+, "Mini|Cooper SE": 5
 , "Tesla|Model S": 5
 , "Audi|Q8 e-tron": 4
 , "Kia|Soul EV": 4
@@ -1304,7 +1304,7 @@ db.insert(db.countries.IE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|Zoe": 6
 , "Nissan|Leaf": 5
 , "Hyundai|Kona Electric": 4
-, "Mini|Cooper SE Electric": 2
+, "Mini|Cooper SE": 2
 , "Audi|Q8 e-tron": 1
 , "Hyundai|Ioniq Electric": 1
 , "Mercedes-Benz|EQC": 1
@@ -1353,7 +1353,7 @@ db.insert(db.countries.IE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Ioniq Electric": 47
 , "Tesla|Model 3": 45
 , "Volkswagen|e-Golf": 45
-, "Mini|Cooper SE Electric": 38
+, "Mini|Cooper SE": 38
 , "Kia|Soul EV": 37
 , "Peugeot|e-208": 35
 , "Audi|Q8 e-tron": 31
@@ -1410,7 +1410,7 @@ db.insert(db.countries.IE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q8 e-tron": 9
 , "Hyundai|Ioniq Electric": 9
 , "Opel|Corsa-e": 9
-, "Mini|Cooper SE Electric": 8
+, "Mini|Cooper SE": 8
 , "Porsche|Taycan": 6
 , "Volkswagen|e-Golf": 6
 , "Peugeot|e-2008": 3
@@ -1458,7 +1458,7 @@ db.insert(db.countries.IE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Kona Electric": 56
 , "Kia|Niro EV": 52
 , "Nissan|Leaf": 51
-, "Mini|Cooper SE Electric": 21
+, "Mini|Cooper SE": 21
 , "Renault|Zoe": 15
 , "Audi|Q8 e-tron": 13
 , "Peugeot|e-208": 9
@@ -1508,7 +1508,7 @@ db.insert(db.countries.IE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://s
 { "Volkswagen|ID.3": 94
 , "Tesla|Model 3": 37
 , "Kia|Niro EV": 33
-, "Mini|Cooper SE Electric": 17
+, "Mini|Cooper SE": 17
 , "Nissan|Leaf": 16
 , "Renault|Zoe": 14
 , "Hyundai|Kona Electric": 9
@@ -1568,7 +1568,7 @@ db.insert(db.countries.IE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Tesla|Model S": 2
 , "Honda|e": 1
 , "Hyundai|Ioniq Electric": 1
-, "Mini|Cooper SE Electric": 1
+, "Mini|Cooper SE": 1
 , "other": 1
 });
 
@@ -1612,7 +1612,7 @@ db.insert(db.countries.IE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|Zoe": 2
 , "Volkswagen|e-Golf": 2
 , "Kia|Soul EV": 1
-, "Mini|Cooper SE Electric": 1
+, "Mini|Cooper SE": 1
 , "Peugeot|e-208": 1
 });
 
@@ -1657,7 +1657,7 @@ db.insert(db.countries.IE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-2008": 61
 , "Hyundai|Ioniq Electric": 53
 , "Opel|Corsa-e": 52
-, "Mini|Cooper SE Electric": 44
+, "Mini|Cooper SE": 44
 , "Peugeot|e-208": 33
 , "Audi|Q8 e-tron": 20
 , "Kia|Soul EV": 19
@@ -1719,7 +1719,7 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-208": 22
 , "MG|ZS EV": 18
 , "Hyundai|Ioniq Electric": 13
-, "Mini|Cooper SE Electric": 13
+, "Mini|Cooper SE": 13
 , "Opel|Corsa-e": 8
 , "Jaguar|I-Pace": 5
 , "Mercedes-Benz|EQC": 5
@@ -1781,7 +1781,7 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Porsche|Taycan": 5
 , "Honda|e": 4
 , "Kia|Soul EV": 4
-, "Mini|Cooper SE Electric": 4
+, "Mini|Cooper SE": 4
 , "Jaguar|I-Pace": 3
 , "Peugeot|e-208": 3
 , "Audi|e-tron GT": 2
@@ -1839,7 +1839,7 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Ioniq Electric": 6
 , "Porsche|Taycan": 6
 , "Kia|Soul EV": 5
-, "Mini|Cooper SE Electric": 5
+, "Mini|Cooper SE": 5
 , "Mercedes-Benz|EQC": 3
 , "Opel|Mokka-e": 2
 , "Audi|e-tron GT": 1
@@ -1887,7 +1887,7 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.3": 85
 , "Kia|Niro EV": 63
 , "Tesla|Model 3": 53
-, "Mini|Cooper SE Electric": 27
+, "Mini|Cooper SE": 27
 , "Škoda|Enyaq": 25
 , "Renault|Zoe": 24
 , "MG|MG5 EV": 21
@@ -1952,7 +1952,7 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Škoda|Enyaq": 11
 , "MG|MG5 EV": 9
 , "MG|ZS EV": 7
-, "Mini|Cooper SE Electric": 7
+, "Mini|Cooper SE": 7
 , "Audi|Q8 e-tron": 6
 , "Mercedes-Benz|EQA": 5
 , "Nissan|Leaf": 5
@@ -2017,7 +2017,7 @@ db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|ZS EV": 64
 , "Peugeot|e-2008": 47
 , "Hyundai|Ioniq Electric": 43
-, "Mini|Cooper SE Electric": 36
+, "Mini|Cooper SE": 36
 , "Mazda|MX-30": 30
 , "Audi|Q8 e-tron": 29
 , "Audi|Q4 e-tron": 27
@@ -2087,7 +2087,7 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|ZS EV": 24
 , "Hyundai|Ioniq Electric": 19
 , "Peugeot|e-2008": 14
-, "Mini|Cooper SE Electric": 11
+, "Mini|Cooper SE": 11
 , "Peugeot|e-208": 10
 , "Citroën|ë-C4": 9
 , "Kia|Soul EV": 9
@@ -2159,7 +2159,7 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|Zoe": 15
 , "Mercedes-Benz|EQA": 13
 , "Peugeot|e-2008": 13
-, "Mini|Cooper SE Electric": 12
+, "Mini|Cooper SE": 12
 , "Citroën|ë-C4": 11
 , "Kia|Soul EV": 11
 , "Ford|Mustang Mach-E": 9
@@ -2231,7 +2231,7 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|iX3": 6
 , "Citroën|ë-C4": 6
 , "Opel|Mokka-e": 6
-, "Mini|Cooper SE Electric": 5
+, "Mini|Cooper SE": 5
 , "Volvo|EX40": 5
 , "Audi|e-tron GT": 4
 , "Hyundai|Ioniq Electric": 3
@@ -2297,7 +2297,7 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mazda|MX-30": 3
 , "Mercedes-Benz|EQA": 3
 , "Hyundai|Ioniq 5": 2
-, "Mini|Cooper SE Electric": 2
+, "Mini|Cooper SE": 2
 , "Volvo|EX40": 2
 , "Audi|Q8 e-tron": 1
 , "Audi|e-tron GT": 1
@@ -2409,7 +2409,7 @@ db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q8 e-tron": 40
 , "Kia|Soul EV": 39
 , "Audi|e-tron GT": 37
-, "Mini|Cooper SE Electric": 34
+, "Mini|Cooper SE": 34
 , "Mazda|MX-30": 31
 , "BMW|iX": 29
 , "Volvo|EX40": 25
@@ -2471,7 +2471,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Kona Electric": 60
 , "Peugeot|e-2008": 34
 , "Audi|Q8 e-tron": 31
-, "Mini|Cooper SE Electric": 28
+, "Mini|Cooper SE": 28
 , "Volkswagen|ID.3": 27
 , "Mercedes-Benz|EQA": 23
 , "Peugeot|e-208": 23
@@ -2555,7 +2555,7 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q8 e-tron": 22
 , "BMW|i4": 22
 , "Volvo|EX40": 22
-, "Mini|Cooper SE Electric": 21
+, "Mini|Cooper SE": 21
 , "Fiat|500e": 18
 , "Mazda|MX-30": 14
 , "Opel|Mokka-e": 13
@@ -2635,7 +2635,7 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|MG5 EV": 24
 , "BMW|iX3": 22
 , "Citroën|ë-C4": 20
-, "Mini|Cooper SE Electric": 20
+, "Mini|Cooper SE": 20
 , "Mercedes-Benz|EQA": 19
 , "Jaguar|I-Pace": 17
 , "Audi|Q4 e-tron": 15
@@ -2724,7 +2724,7 @@ db.insert(db.countries.IE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|EC40": 9
 , "MG|MG5 EV": 8
 , "Mercedes-Benz|EQB": 7
-, "Mini|Cooper SE Electric": 7
+, "Mini|Cooper SE": 7
 , "Mercedes-Benz|EQA": 6
 , "Mercedes-Benz|EQC": 6
 , "Audi|e-tron GT": 5
@@ -2816,7 +2816,7 @@ db.insert(db.countries.IE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Citroën|ë-Berlingo Electric": 1
 , "Citroën|ë-SpaceTourer": 1
 , "Mercedes-Benz|EQS": 1
-, "Mini|Cooper SE Electric": 1
+, "Mini|Cooper SE": 1
 , "Opel|Vivaro-e": 1
 , "Tesla|Model X": 1
 });
@@ -2888,7 +2888,7 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Ioniq 5": 15
 , "Honda|e": 12
 , "Opel|Corsa-e": 11
-, "Mini|Cooper SE Electric": 10
+, "Mini|Cooper SE": 10
 , "Audi|e-tron GT": 6
 , "Porsche|Taycan": 6
 , "Citroën|ë-SpaceTourer": 5
@@ -2954,7 +2954,7 @@ db.insert(db.countries.IE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Ariya": 33
 , "Polestar|2": 25
 , "Mercedes-Benz|EQB": 23
-, "Mini|Cooper SE Electric": 23
+, "Mini|Cooper SE": 23
 , "Volvo|EX40": 23
 , "Opel|Mokka-e": 22
 , "Fiat|500e": 21
@@ -3031,7 +3031,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Cupra|Born": 53
 , "Volkswagen|ID.3": 48
 , "Volkswagen|ID.5": 35
-, "Mini|Cooper SE Electric": 34
+, "Mini|Cooper SE": 34
 , "Kia|EV6": 33
 , "Peugeot|e-2008": 33
 , "Nissan|Leaf": 29
@@ -3106,7 +3106,7 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Leaf": 49
 , "Škoda|Enyaq": 42
 , "BMW|iX3": 38
-, "Mini|Cooper SE Electric": 38
+, "Mini|Cooper SE": 38
 , "Volvo|EX40": 36
 , "Polestar|2": 25
 , "Volkswagen|ID.5": 23
@@ -3185,7 +3185,7 @@ db.insert(db.countries.IE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Polestar|2": 10
 , "Porsche|Taycan": 10
 , "BMW|iX": 9
-, "Mini|Cooper SE Electric": 9
+, "Mini|Cooper SE": 9
 , "Škoda|Enyaq": 9
 , "Volkswagen|ID.5": 8
 , "Peugeot|e-208": 7
@@ -3267,7 +3267,7 @@ db.insert(db.countries.IE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 1
 , "Mercedes-Benz|EQB": 1
 , "Mercedes-Benz|EQE": 1
-, "Mini|Cooper SE Electric": 1
+, "Mini|Cooper SE": 1
 , "Peugeot|e-208": 1
 , "Renault|Zoe": 1
 , "Volkswagen|ID.5": 1
@@ -3327,7 +3327,7 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Ariya": 74
 , "MG|MG4 EV": 62
 , "Audi|Q4 e-tron": 61
-, "Mini|Cooper SE Electric": 57
+, "Mini|Cooper SE": 57
 , "Mercedes-Benz|EQE": 53
 , "BMW|iX": 51
 , "Peugeot|e-2008": 50
@@ -3398,7 +3398,7 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Cupra|Born": 80
 , "Hyundai|Kona Electric": 61
 , "Kia|Niro EV": 60
-, "Mini|Cooper SE Electric": 58
+, "Mini|Cooper SE": 58
 , "Opel|Mokka-e": 55
 , "Kia|EV6": 50
 , "Polestar|2": 42
@@ -3490,7 +3490,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.5": 66
 , "Nissan|Leaf": 58
 , "MG|MG4 EV": 47
-, "Mini|Cooper SE Electric": 37
+, "Mini|Cooper SE": 37
 , "BMW|iX3": 35
 , "Hyundai|Ioniq 6": 35
 , "BMW|i4": 34
@@ -3595,7 +3595,7 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.5": 13
 , "Volvo|EC40": 13
 , "Audi|Q8 e-tron": 12
-, "Mini|Cooper SE Electric": 12
+, "Mini|Cooper SE": 12
 , "BMW|iX3": 11
 , "BMW|iX": 10
 , "Peugeot|e-208": 9
@@ -3671,7 +3671,7 @@ db.insert(db.countries.IE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|ZS EV": 54
 , "Kia|EV6": 51
 , "MG|MG4 EV": 50
-, "Mini|Cooper SE Electric": 43
+, "Mini|Cooper SE": 43
 , "Peugeot|e-2008": 33
 , "Hyundai|Ioniq 6": 30
 , "Cupra|Born": 28
@@ -3768,7 +3768,7 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Polestar|2": 8
 , "Cupra|Born": 7
 , "MG|MG5 EV": 7
-, "Mini|Cooper SE Electric": 6
+, "Mini|Cooper SE": 6
 , "Peugeot|e-2008": 6
 , "Volkswagen|ID.5": 6
 , "Fiat|500e": 5
@@ -3874,7 +3874,7 @@ db.insert(db.countries.IE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Opel|Mokka-e": 18
 , "Audi|e-tron GT": 15
 , "Citroën|ë-C4": 15
-, "Mini|Cooper SE Electric": 14
+, "Mini|Cooper SE": 14
 , "Citroën|ë-Berlingo Electric": 12
 , "Mercedes-Benz|EQE SUV": 11
 , "Mercedes-Benz|EQS SUV": 11
@@ -3965,7 +3965,7 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Citroën|ë-C4": 7
 , "Jaguar|I-Pace": 7
 , "Mercedes-Benz|EQE": 7
-, "Mini|Cooper SE Electric": 7
+, "Mini|Cooper SE": 7
 , "Opel|Mokka-e": 7
 , "Mercedes-Benz|EQA": 5
 , "Mercedes-Benz|EQB": 5
@@ -4046,7 +4046,7 @@ db.insert(db.countries.IE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q4 e-tron": 25
 , "MG|ZS EV": 25
 , "Volkswagen|e-up!": 24
-, "Mini|Cooper SE Electric": 23
+, "Mini|Cooper SE": 23
 , "BMW|i4": 21
 , "Volvo|EX40": 21
 , "BMW|i5": 17
@@ -4132,7 +4132,7 @@ db.insert(db.countries.IE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|i4": 21
 , "Audi|Q4 e-tron": 17
 , "Škoda|Enyaq": 17
-, "Mini|Cooper SE Electric": 16
+, "Mini|Cooper SE": 16
 , "Volkswagen|ID.3": 16
 , "Volvo|EX40": 16
 , "Kia|EV6": 14
@@ -4216,7 +4216,7 @@ db.insert(db.countries.IE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Škoda|Enyaq": 8
 , "BMW|i4": 7
 , "Peugeot|e-Rifter": 7
-, "Mini|Cooper SE Electric": 6
+, "Mini|Cooper SE": 6
 , "BMW|iX3": 5
 , "BYD|Seal": 5
 , "Kia|EV6": 4
@@ -4279,7 +4279,7 @@ db.insert(db.countries.IE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Tesla|Model 3": 19
 , "Kia|EV6": 17
 , "Škoda|Enyaq": 15
-, "Mini|Cooper SE Electric": 5
+, "Mini|Cooper SE": 5
 , "BMW|i4": 4
 , "BMW|iX1": 4
 , "BYD|Yuan Plus": 4
@@ -4383,7 +4383,7 @@ db.insert(db.countries.IE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Fiat|500e": 13
 , "Jeep|Avenger EV": 12
 , "GWM|Ora 03": 11
-, "Mini|Cooper SE Electric": 11
+, "Mini|Cooper SE": 11
 , "Mercedes-Benz|EQS SUV": 10
 , "Opel|other": 17
 , "Citroën|other": 13
