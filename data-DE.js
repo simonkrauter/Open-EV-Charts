@@ -5515,7 +5515,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID. Buzz": 350
 , "Mercedes-Benz|EQS": 329
 , "Peugeot|e-2008": 315
-, "Smart|1": 313
+, "Smart|Hashtag 1": 313
 , "Tesla|Model S": 313
 , "BMW|iX3": 290
 , "Volkswagen|e-up!": 290
@@ -5620,7 +5620,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 6": 319
 , "Kia|Niro EV": 314
 , "Mercedes-Benz|EQE": 308
-, "Smart|1": 304
+, "Smart|Hashtag 1": 304
 , "Volkswagen|e-up!": 297
 , "Peugeot|e-2008": 289
 , "Volkswagen|ID. Buzz": 286
@@ -5725,7 +5725,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 545
 , "Audi|Q8 e-tron": 530
 , "Opel|Mokka-e": 528
-, "Smart|1": 497
+, "Smart|Hashtag 1": 497
 , "BMW|iX3": 492
 , "Volkswagen|e-up!": 475
 , "Kia|EV6": 471
@@ -5827,7 +5827,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Megane E-Tech": 918
 , "Dacia|Spring": 907
 , "BMW|i4": 903
-, "Smart|1": 899
+, "Smart|Hashtag 1": 899
 , "Hyundai|Ioniq 5": 876
 , "Ford|Mustang Mach-E": 870
 , "Volkswagen|e-up!": 868
@@ -5957,7 +5957,7 @@ db.insert(db.countries.DE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|MX-30": 525
 , "Peugeot|e-2008": 520
 , "Mercedes-Benz|EQE": 501
-, "Smart|1": 487
+, "Smart|Hashtag 1": 487
 , "Peugeot|e-208": 468
 , "MG|ZS EV": 458
 , "BMW|iX": 395
@@ -6054,7 +6054,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 1910
 , "MG|MG4 EV": 1840
 , "Kia|Niro EV": 1801
-, "Smart|1": 1795
+, "Smart|Hashtag 1": 1795
 , "Jeep|Avenger EV": 1608
 , "Renault|Megane E-Tech": 1438
 , "Hyundai|Ioniq 6": 1411
@@ -6166,7 +6166,7 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo E-Tech": 513
 , "Polestar|2": 506
 , "Volkswagen|ID.5": 500
-, "Smart|1": 435
+, "Smart|Hashtag 1": 435
 , "Audi|Q8 e-tron": 433
 , "Hyundai|Kona Electric": 421
 , "Volkswagen|ID. Buzz": 403
@@ -6283,7 +6283,7 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 416
 , "Mercedes-Benz|EQB": 414
 , "GWM|Ora 03": 411
-, "Smart|1": 396
+, "Smart|Hashtag 1": 396
 , "Volkswagen|ID. Buzz": 375
 , "Hyundai|Kona Electric": 357
 , "Volkswagen|e-up!": 338
@@ -6392,7 +6392,7 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 700
 , "Volkswagen|ID. Buzz": 652
 , "BMW|iX": 622
-, "Smart|1": 613
+, "Smart|Hashtag 1": 613
 , "Volkswagen|ID.7": 564
 , "Kia|EV6": 560
 , "Volvo|EX40": 556
@@ -6504,7 +6504,7 @@ db.insert(db.countries.DE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 1131
 , "Mercedes-Benz|EQA": 945
 , "Hyundai|Kona Electric": 936
-, "Smart|1": 914
+, "Smart|Hashtag 1": 914
 , "Hyundai|Ioniq 5": 887
 , "Mercedes-Benz|EQE": 843
 , "Smart|Fortwo ED": 822
@@ -6616,7 +6616,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 358
 , "Kia|EV6": 344
 , "Hyundai|Kona Electric": 340
-, "Smart|1": 340
+, "Smart|Hashtag 1": 340
 , "Mini|Cooper SE": 330
 , "Dacia|Spring": 299
 , "Citroën|ë-C4": 297
@@ -6634,7 +6634,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 198
 , "Hyundai|Ioniq 6": 182
 , "Toyota|bZ4X": 155
-, "Smart|3": 154
+, "Smart|Hashtag 3": 154
 , "Jeep|Avenger EV": 151
 , "Peugeot|e-208": 148
 , "Kia|EV9": 147

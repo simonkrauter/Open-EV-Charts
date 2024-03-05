@@ -5886,7 +5886,7 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 29
 , "BMW|iX": 27
 , "Volkswagen|ID. Buzz": 19
-, "Smart|1": 14
+, "Smart|Hashtag 1": 14
 , "Nio|other": 38
 , "Mercedes-Benz|other": 33
 , "Tesla|other": 21
@@ -6093,7 +6093,7 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 58
 , "Hyundai|Ioniq 6": 55
 , "Hyundai|Ioniq 5": 49
-, "Smart|1": 45
+, "Smart|Hashtag 1": 45
 , "Tesla|Model X": 44
 , "Opel|Vivaro-e": 43
 , "Tesla|Model S": 43
@@ -6186,7 +6186,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 97
 , "Cupra|Born": 93
 , "Opel|Corsa-e": 80
-, "Smart|1": 73
+, "Smart|Hashtag 1": 73
 , "Toyota|bZ4X": 72
 , "BMW|iX3": 70
 , "Opel|Mokka-e": 65

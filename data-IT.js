@@ -2687,7 +2687,7 @@ db.insert(db.countries.IT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-SpaceTourer": 16
 , "Kia|Niro EV": 15
 , "MG|Marvel R": 15
-, "Smart|1": 15
+, "Smart|Hashtag 1": 15
 , "Mercedes-Benz|other": 16
 , "Toyota|other": 9
 , "Citroën|other": 8
@@ -2779,7 +2779,7 @@ db.insert(db.countries.IT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 19
 , "Kia|EV6": 17
 , "Mercedes-Benz|EQV": 16
-, "Smart|1": 15
+, "Smart|Hashtag 1": 15
 , "Volvo|EC40": 13
 , "BMW|iX3": 12
 , "Audi|e-tron GT": 10
@@ -2856,7 +2856,7 @@ db.insert(db.countries.IT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 63
 , "BMW|i4": 60
 , "Ford|Mustang Mach-E": 59
-, "Smart|1": 58
+, "Smart|Hashtag 1": 58
 , "Škoda|Enyaq": 54
 , "Peugeot|e-2008": 46
 , "Cupra|Born": 42
@@ -2946,7 +2946,7 @@ db.insert(db.countries.IT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 40
 , "Cupra|Born": 37
 , "Volkswagen|ID.4": 35
-, "Smart|1": 32
+, "Smart|Hashtag 1": 32
 , "Porsche|Taycan": 23
 , "Renault|Twingo E-Tech": 23
 , "Mercedes-Benz|EQE": 22
@@ -3043,7 +3043,7 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 60
 , "Citroën|ë-C4": 58
 , "Porsche|Taycan": 57
-, "Smart|1": 53
+, "Smart|Hashtag 1": 53
 , "Škoda|Enyaq": 50
 , "BMW|iX": 48
 , "Honda|e:Ny1": 44
@@ -3124,7 +3124,7 @@ db.insert(db.countries.IT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 221
 , "Audi|Q4 e-tron": 189
 , "Jeep|Avenger EV": 188
-, "Smart|1": 168
+, "Smart|Hashtag 1": 168
 , "Fiat|500e": 144
 , "Renault|Twingo E-Tech": 140
 , "Renault|Megane E-Tech": 122
@@ -3222,7 +3222,7 @@ db.insert(db.countries.IT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|Avenger EV": 246
 , "MG|MG4 EV": 216
 , "Audi|Q4 e-tron": 202
-, "Smart|1": 177
+, "Smart|Hashtag 1": 177
 , "BMW|iX1": 167
 , "Fiat|600e": 164
 , "Peugeot|e-208": 157
@@ -3325,7 +3325,7 @@ db.insert(db.countries.IT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 222
 , "BMW|iX1": 194
 , "Mercedes-Benz|EQA": 179
-, "Smart|1": 169
+, "Smart|Hashtag 1": 169
 , "Dacia|Spring": 167
 , "Porsche|Taycan": 163
 , "Citroën|ë-C4": 154
@@ -3424,7 +3424,7 @@ db.insert(db.countries.IT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 151
 , "Peugeot|e-208": 119
 , "Tesla|Model 3": 84
-, "Smart|1": 83
+, "Smart|Hashtag 1": 83
 , "Audi|Q4 e-tron": 75
 , "BMW|iX1": 75
 , "Fiat|600e": 74
@@ -3450,7 +3450,7 @@ db.insert(db.countries.IT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 26
 , "Volvo|EC40": 26
 , "BYD|Dolphin": 25
-, "Smart|3": 23
+, "Smart|Hashtag 3": 23
 , "Porsche|Taycan": 21
 , "Renault|Zoe": 21
 , "BMW|iX2": 20

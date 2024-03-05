@@ -4699,7 +4699,7 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Genesis|GV70": 19
 , "Smart|Fortwo ED": 19
 , "Opel|Mokka-e": 18
-, "Smart|1": 15
+, "Smart|Hashtag 1": 15
 , "BMW|iX3": 14
 , "Dacia|Spring": 13
 , "Mini|Cooper SE": 13
@@ -4795,7 +4795,7 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 15
 , "Renault|Zoe": 14
 , "Tesla|Model X": 13
-, "Smart|1": 12
+, "Smart|Hashtag 1": 12
 , "Mini|Cooper SE": 11
 , "JAC|e-JS4": 10
 , "Opel|Mokka-e": 10
@@ -4861,7 +4861,7 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 174
 , "Kia|EV6": 155
 , "Cupra|Born": 144
-, "Smart|1": 144
+, "Smart|Hashtag 1": 144
 , "Fiat|500e": 141
 , "Mercedes-Benz|EQA": 138
 , "Volkswagen|ID.4": 135
@@ -4963,7 +4963,7 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 232
 , "Mercedes-Benz|EQA": 191
 , "Volvo|EX40": 162
-, "Smart|1": 160
+, "Smart|Hashtag 1": 160
 , "BMW|iX1": 149
 , "Cupra|Born": 149
 , "Fiat|500e": 145
@@ -5073,7 +5073,7 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 106
 , "Audi|Q8 e-tron": 85
 , "Renault|Megane E-Tech": 78
-, "Smart|1": 77
+, "Smart|Hashtag 1": 77
 , "Mercedes-Benz|EQE": 67
 , "Jeep|Avenger EV": 66
 , "Volkswagen|ID.5": 60
@@ -5179,7 +5179,7 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 86
 , "Hyundai|Kona Electric": 74
 , "Kia|EV9": 73
-, "Smart|1": 66
+, "Smart|Hashtag 1": 66
 , "Tesla|Model S": 64
 , "Dacia|Spring": 63
 , "Volkswagen|ID.5": 62
@@ -5286,7 +5286,7 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 99
 , "Volkswagen|ID.7": 90
 , "Volkswagen|e-up!": 85
-, "Smart|1": 84
+, "Smart|Hashtag 1": 84
 , "BMW|i4": 82
 , "JAC|e-JS4": 78
 , "Hyundai|Kona Electric": 77
@@ -5377,7 +5377,7 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 55
 , "Hyundai|Kona Electric": 55
 , "Kia|Niro EV": 55
-, "Smart|1": 55
+, "Smart|Hashtag 1": 55
 , "Tesla|Model 3": 53
 , "Volkswagen|ID.3": 53
 , "Volvo|EX40": 52
@@ -5402,7 +5402,7 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 21
 , "Peugeot|e-308": 20
 , "Porsche|Taycan": 20
-, "Smart|3": 20
+, "Smart|Hashtag 3": 20
 , "Volvo|EC40": 20
 , "Renault|Zoe": 19
 , "Cupra|Born": 17

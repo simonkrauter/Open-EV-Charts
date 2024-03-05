@@ -4787,7 +4787,7 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 10
 , "Nio|EL6": 9
 , "Subaru|Solterra": 9
-, "Smart|1": 8
+, "Smart|Hashtag 1": 8
 , "Honda|e": 7
 , "Opel|Astra Electric": 7
 , "BMW|other": 6
