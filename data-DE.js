@@ -2682,7 +2682,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jaguar|I-Pace": 37
 , "Opel|Ampera-e": 37
 , "Nissan|e-NV200": 36
-, "Mazda|MX-30": 32
+, "Mazda|MX-30 BEV": 32
 , "Mercedes-Benz|EQV": 23
 , "Peugeot|iOn": 19
 , "Honda|e": 18
@@ -2742,7 +2742,7 @@ db.insert(db.countries.DE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 834
 , "Škoda|Citigo-e": 669
 , "Kia|Niro EV": 610
-, "Mazda|MX-30": 548
+, "Mazda|MX-30 BEV": 548
 , "Smart|Forfour ED": 432
 , "Mini|Cooper SE": 388
 , "Mercedes-Benz|EQC": 349
@@ -2816,7 +2816,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Forfour ED": 595
 , "Škoda|Citigo-e": 493
 , "Peugeot|e-208": 488
-, "Mazda|MX-30": 453
+, "Mazda|MX-30 BEV": 453
 , "Kia|Niro EV": 421
 , "Mercedes-Benz|EQC": 421
 , "Porsche|Taycan": 373
@@ -2888,7 +2888,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 1617
 , "Opel|Corsa-e": 1465
 , "BMW|i3 BEV": 1299
-, "Mazda|MX-30": 1211
+, "Mazda|MX-30 BEV": 1211
 , "Audi|Q8 e-tron": 871
 , "Smart|Forfour ED": 632
 , "Mini|Cooper SE": 597
@@ -2966,7 +2966,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up!": 2196
 , "Smart|Fortwo ED": 2120
 , "Volkswagen|e-Golf": 1652
-, "Mazda|MX-30": 1509
+, "Mazda|MX-30 BEV": 1509
 , "Opel|Corsa-e": 1299
 , "BMW|i3 BEV": 1240
 , "Nissan|Leaf": 963
@@ -3063,7 +3063,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 140
 , "Polestar|2": 135
 , "Mini|Cooper SE": 129
-, "Mazda|MX-30": 126
+, "Mazda|MX-30 BEV": 126
 , "Hyundai|Ioniq Electric": 104
 , "Citroën|ë-C4": 103
 , "Volvo|EX40": 86
@@ -3148,7 +3148,7 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 197
 , "Hyundai|Ioniq Electric": 132
 , "Polestar|2": 103
-, "Mazda|MX-30": 70
+, "Mazda|MX-30 BEV": 70
 , "Citroën|ë-C4": 62
 , "Mercedes-Benz|EQV": 52
 , "Opel|Mokka-e": 46
@@ -3224,7 +3224,7 @@ db.insert(db.countries.DE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo E-Tech": 356
 , "Peugeot|e-2008": 328
 , "Mercedes-Benz|EQA": 293
-, "Mazda|MX-30": 210
+, "Mazda|MX-30 BEV": 210
 , "Polestar|2": 207
 , "Hyundai|Ioniq Electric": 204
 , "Kia|Soul EV": 199
@@ -3311,7 +3311,7 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 210
 , "Audi|e-tron GT": 193
 , "Polestar|2": 154
-, "Mazda|MX-30": 146
+, "Mazda|MX-30 BEV": 146
 , "Audi|Q4 e-tron": 130
 , "BMW|iX3": 123
 , "Citroën|ë-C4": 115
@@ -3392,7 +3392,7 @@ db.insert(db.countries.DE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Citigo-e": 288
 , "Peugeot|e-2008": 277
 , "BMW|iX3": 261
-, "Mazda|MX-30": 252
+, "Mazda|MX-30 BEV": 252
 , "Mercedes-Benz|EQA": 231
 , "Mercedes-Benz|EQC": 221
 , "Audi|e-tron GT": 217
@@ -3478,7 +3478,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 384
 , "Dacia|Spring": 372
 , "Peugeot|e-2008": 324
-, "Mazda|MX-30": 315
+, "Mazda|MX-30 BEV": 315
 , "Hyundai|Ioniq Electric": 306
 , "Škoda|Citigo-e": 305
 , "Porsche|Taycan": 299
@@ -3561,7 +3561,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQC": 438
 , "Peugeot|e-2008": 382
 , "Porsche|Taycan": 362
-, "Mazda|MX-30": 346
+, "Mazda|MX-30 BEV": 346
 , "BMW|iX3": 309
 , "Hyundai|Ioniq Electric": 274
 , "Škoda|Citigo-e": 241
@@ -3645,7 +3645,7 @@ db.insert(db.countries.DE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo E-Tech": 418
 , "Seat|Mii Electric": 418
 , "Ford|Mustang Mach-E": 411
-, "Mazda|MX-30": 409
+, "Mazda|MX-30 BEV": 409
 , "BMW|iX3": 386
 , "Mercedes-Benz|EQC": 367
 , "Kia|Soul EV": 358
@@ -3729,7 +3729,7 @@ db.insert(db.countries.DE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 570
 , "Opel|Mokka-e": 565
 , "Renault|Twingo E-Tech": 513
-, "Mazda|MX-30": 477
+, "Mazda|MX-30 BEV": 477
 , "Mini|Cooper SE": 471
 , "Smart|Forfour ED": 444
 , "Nissan|Leaf": 415
@@ -3824,7 +3824,7 @@ db.insert(db.countries.DE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 422
 , "Dacia|Spring": 421
 , "Peugeot|e-2008": 380
-, "Mazda|MX-30": 371
+, "Mazda|MX-30 BEV": 371
 , "Polestar|2": 325
 , "Honda|e": 312
 , "BMW|iX3": 276
@@ -3913,7 +3913,7 @@ db.insert(db.countries.DE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 619
 , "Kia|Niro EV": 523
 , "Porsche|Taycan": 508
-, "Mazda|MX-30": 407
+, "Mazda|MX-30 BEV": 407
 , "Ford|Mustang Mach-E": 395
 , "BMW|iX": 360
 , "Peugeot|e-2008": 357
@@ -4014,7 +4014,7 @@ db.insert(db.countries.DE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 348
 , "Kia|EV6": 340
 , "Kia|Niro EV": 325
-, "Mazda|MX-30": 299
+, "Mazda|MX-30 BEV": 299
 , "Hyundai|Ioniq Electric": 263
 , "Mercedes-Benz|EQC": 256
 , "BMW|iX": 239
@@ -4107,7 +4107,7 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 231
 , "Mercedes-Benz|EQC": 226
 , "BMW|iX3": 199
-, "Mazda|MX-30": 184
+, "Mazda|MX-30 BEV": 184
 , "Citroën|ë-C4": 182
 , "Audi|e-tron GT": 178
 , "Polestar|2": 172
@@ -4216,7 +4216,7 @@ db.insert(db.countries.DE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 127
 , "Mercedes-Benz|EQV": 126
 , "Hyundai|Ioniq Electric": 108
-, "Mazda|MX-30": 94
+, "Mazda|MX-30 BEV": 94
 , "Cupra|Born": 75
 , "Mercedes-Benz|eVito": 60
 , "Volvo|EC40": 52
@@ -4314,7 +4314,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|ZS EV": 152
 , "Kia|Soul EV": 145
 , "Mercedes-Benz|EQV": 134
-, "Mazda|MX-30": 121
+, "Mazda|MX-30 BEV": 121
 , "Citroën|ë-Berlingo Electric": 103
 , "Opel|Combo-e": 61
 , "Audi|other": 61
@@ -4409,7 +4409,7 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.5": 84
 , "MG|Marvel R": 79
 , "Citroën|ë-Berlingo Electric": 56
-, "Mazda|MX-30": 56
+, "Mazda|MX-30 BEV": 56
 , "Mercedes-Benz|eVito": 53
 , "Opel|other": 74
 , "Audi|other": 68
@@ -4502,7 +4502,7 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Soul EV": 101
 , "Honda|e": 93
 , "Hyundai|Ioniq Electric": 85
-, "Mazda|MX-30": 82
+, "Mazda|MX-30 BEV": 82
 , "Citroën|ë-Berlingo Electric": 55
 , "MG|MG5 EV": 54
 , "Volvo|EX40": 50
@@ -4604,7 +4604,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Berlingo Electric": 78
 , "Kia|Soul EV": 78
 , "Jaguar|I-Pace": 55
-, "Mazda|MX-30": 53
+, "Mazda|MX-30 BEV": 53
 , "Honda|e": 44
 , "Opel|Combo-e": 44
 , "Volkswagen|other": 48
@@ -4803,7 +4803,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Fortwo ED": 83
 , "Audi|e-tron GT": 79
 , "Hyundai|Ioniq Electric": 61
-, "Mazda|MX-30": 58
+, "Mazda|MX-30 BEV": 58
 , "Opel|Zafira-e": 49
 , "Volvo|EC40": 48
 , "Hyundai|other": 58
@@ -4887,7 +4887,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 425
 , "Renault|Zoe": 420
 , "Renault|Twingo E-Tech": 397
-, "Mazda|MX-30": 383
+, "Mazda|MX-30 BEV": 383
 , "Mercedes-Benz|EQE": 354
 , "Kia|EV6": 351
 , "Volvo|EX40": 345
@@ -4995,7 +4995,7 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 308
 , "Peugeot|e-2008": 301
 , "Mercedes-Benz|EQE": 300
-, "Mazda|MX-30": 295
+, "Mazda|MX-30 BEV": 295
 , "MG|Marvel R": 287
 , "Opel|Corsa-e": 270
 , "Kia|Niro EV": 264
@@ -5094,7 +5094,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 431
 , "BMW|iX": 429
 , "Ford|Mustang Mach-E": 387
-, "Mazda|MX-30": 386
+, "Mazda|MX-30 BEV": 386
 , "Peugeot|e-2008": 380
 , "Nissan|Leaf": 364
 , "Kia|EV6": 360
@@ -5279,7 +5279,7 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 669
 , "Volkswagen|ID.5": 633
 , "Porsche|Taycan": 534
-, "Mazda|MX-30": 499
+, "Mazda|MX-30 BEV": 499
 , "Hyundai|Ioniq 5": 403
 , "Tesla|Model 3": 389
 , "Fiat|500e": 376
@@ -5410,7 +5410,7 @@ db.insert(db.countries.DE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo E-Tech": 218
 , "Volkswagen|e-up!": 193
 , "Mercedes-Benz|EQS": 174
-, "Mazda|MX-30": 165
+, "Mazda|MX-30 BEV": 165
 , "Dacia|Spring": 164
 , "Mercedes-Benz|EQV": 164
 , "Renault|Megane E-Tech": 158
@@ -5524,7 +5524,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C4": 274
 , "MG|MG5 EV": 227
 , "Nissan|Leaf": 227
-, "Mazda|MX-30": 221
+, "Mazda|MX-30 BEV": 221
 , "Toyota|bZ4X": 214
 , "Volvo|EC40": 204
 , "Audi|e-tron GT": 180
@@ -5625,7 +5625,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 289
 , "Volkswagen|ID. Buzz": 286
 , "Renault|Twingo E-Tech": 284
-, "Mazda|MX-30": 264
+, "Mazda|MX-30 BEV": 264
 , "BMW|iX3": 263
 , "Mercedes-Benz|EQS": 258
 , "Renault|Megane E-Tech": 252
@@ -5740,7 +5740,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID. Buzz": 347
 , "Renault|Megane E-Tech": 345
 , "Hyundai|Ioniq 6": 338
-, "Mazda|MX-30": 324
+, "Mazda|MX-30 BEV": 324
 , "Mercedes-Benz|EQC": 323
 , "Jeep|Avenger EV": 313
 , "Toyota|bZ4X": 310
@@ -5849,7 +5849,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 400
 , "BMW|iX3": 397
 , "BMW|iX": 373
-, "Mazda|MX-30": 352
+, "Mazda|MX-30 BEV": 352
 , "Volvo|EX40": 352
 , "Mercedes-Benz|EQS": 261
 , "Citroën|ë-Berlingo Electric": 252
@@ -5954,7 +5954,7 @@ db.insert(db.countries.DE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 569
 , "BMW|iX3": 545
 , "Volkswagen|ID. Buzz": 536
-, "Mazda|MX-30": 525
+, "Mazda|MX-30 BEV": 525
 , "Peugeot|e-2008": 520
 , "Mercedes-Benz|EQE": 501
 , "Smart|Hashtag 1": 487
@@ -6077,7 +6077,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 503
 , "Porsche|Taycan": 475
 , "Ford|Mustang Mach-E": 466
-, "Mazda|MX-30": 459
+, "Mazda|MX-30 BEV": 459
 , "Nissan|Leaf": 439
 , "Volvo|EC40": 406
 , "Citroën|ë-Berlingo Electric": 369
@@ -6304,7 +6304,7 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Zafira-e": 168
 , "Nissan|Ariya": 160
 , "Volkswagen|ID.5": 150
-, "Mazda|MX-30": 145
+, "Mazda|MX-30 BEV": 145
 , "Mercedes-Benz|eCitan": 140
 , "Nio|other": 289
 , "Peugeot|other": 266

@@ -1002,7 +1002,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 187
 , "Hyundai|Kona Electric": 126
 , "Kia|Niro EV": 117
-, "Mazda|MX-30": 95
+, "Mazda|MX-30 BEV": 95
 , "Opel|Corsa-e": 67
 , "BMW|i3 BEV": 65
 , "Seat|Mii Electric": 62
@@ -1055,7 +1055,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i3 BEV": 101
 , "Audi|Q8 e-tron": 78
 , "Peugeot|e-208": 65
-, "Mazda|MX-30": 60
+, "Mazda|MX-30 BEV": 60
 , "Hyundai|Ioniq Electric": 58
 });
 
@@ -1099,7 +1099,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 522
 , "Tesla|Model 3": 191
 , "Renault|Zoe": 129
-, "Mazda|MX-30": 125
+, "Mazda|MX-30 BEV": 125
 , "Kia|Niro EV": 123
 , "Audi|Q8 e-tron": 113
 , "Hyundai|Kona Electric": 104
@@ -1154,7 +1154,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 134
 , "Hyundai|Kona Electric": 120
 , "Kia|Niro EV": 112
-, "Mazda|MX-30": 77
+, "Mazda|MX-30 BEV": 77
 });
 
 db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",

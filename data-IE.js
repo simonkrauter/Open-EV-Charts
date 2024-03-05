@@ -1712,7 +1712,7 @@ db.insert(db.countries.IE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Nissan|Leaf": 88
 , "Audi|Q8 e-tron": 30
 , "Porsche|Taycan": 28
-, "Mazda|MX-30": 26
+, "Mazda|MX-30 BEV": 26
 , "Hyundai|Kona Electric": 25
 , "Peugeot|e-2008": 24
 , "Renault|Zoe": 24
@@ -1774,7 +1774,7 @@ db.insert(db.countries.IE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|Zoe": 22
 , "Audi|Q8 e-tron": 18
 , "MG|ZS EV": 12
-, "Mazda|MX-30": 11
+, "Mazda|MX-30 BEV": 11
 , "Peugeot|e-2008": 11
 , "Opel|Corsa-e": 6
 , "BMW|i3 BEV": 5
@@ -1835,7 +1835,7 @@ db.insert(db.countries.IE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-208": 11
 , "Tesla|Model 3": 10
 , "Jaguar|I-Pace": 7
-, "Mazda|MX-30": 7
+, "Mazda|MX-30 BEV": 7
 , "Hyundai|Ioniq Electric": 6
 , "Porsche|Taycan": 6
 , "Kia|Soul EV": 5
@@ -1905,7 +1905,7 @@ db.insert(db.countries.IE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Jaguar|I-Pace": 3
 , "Kia|Soul EV": 3
 , "Mercedes-Benz|EQC": 3
-, "Mazda|MX-30": 2
+, "Mazda|MX-30 BEV": 2
 , "BMW|i3 BEV": 1
 , "other": 1
 });
@@ -1960,7 +1960,7 @@ db.insert(db.countries.IE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|e-tron GT": 2
 , "Hyundai|Ioniq Electric": 2
 , "Hyundai|Kona Electric": 2
-, "Mazda|MX-30": 2
+, "Mazda|MX-30 BEV": 2
 , "Opel|Corsa-e": 2
 , "BMW|i3 BEV": 1
 , "Honda|e": 1
@@ -2018,7 +2018,7 @@ db.insert(db.countries.IE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-2008": 47
 , "Hyundai|Ioniq Electric": 43
 , "Mini|Cooper SE": 36
-, "Mazda|MX-30": 30
+, "Mazda|MX-30 BEV": 30
 , "Audi|Q8 e-tron": 29
 , "Audi|Q4 e-tron": 27
 , "Opel|Corsa-e": 25
@@ -2095,7 +2095,7 @@ db.insert(db.countries.IE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|e-tron GT": 7
 , "Hyundai|Kona Electric": 7
 , "Audi|Q8 e-tron": 6
-, "Mazda|MX-30": 6
+, "Mazda|MX-30 BEV": 6
 , "Mercedes-Benz|EQA": 6
 , "BMW|i3 BEV": 4
 , "Jaguar|I-Pace": 4
@@ -2173,7 +2173,7 @@ db.insert(db.countries.IE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q8 e-tron": 1
 , "Audi|e-tron GT": 1
 , "Jaguar|I-Pace": 1
-, "Mazda|MX-30": 1
+, "Mazda|MX-30 BEV": 1
 , "other": 1
 });
 
@@ -2224,7 +2224,7 @@ db.insert(db.countries.IE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Ioniq 5": 14
 , "Peugeot|e-208": 13
 , "Kia|Niro EV": 12
-, "Mazda|MX-30": 10
+, "Mazda|MX-30 BEV": 10
 , "Porsche|Taycan": 9
 , "Kia|Soul EV": 8
 , "Mercedes-Benz|EQA": 7
@@ -2294,7 +2294,7 @@ db.insert(db.countries.IE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "MG|MG5 EV": 6
 , "Peugeot|e-208": 4
 , "Kia|Niro EV": 3
-, "Mazda|MX-30": 3
+, "Mazda|MX-30 BEV": 3
 , "Mercedes-Benz|EQA": 3
 , "Hyundai|Ioniq 5": 2
 , "Mini|Cooper SE": 2
@@ -2410,7 +2410,7 @@ db.insert(db.countries.IE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|Soul EV": 39
 , "Audi|e-tron GT": 37
 , "Mini|Cooper SE": 34
-, "Mazda|MX-30": 31
+, "Mazda|MX-30 BEV": 31
 , "BMW|iX": 29
 , "Volvo|EX40": 25
 , "Citroën|ë-C4": 23
@@ -2488,7 +2488,7 @@ db.insert(db.countries.IE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|Soul EV": 8
 , "Volvo|EC40": 8
 , "BMW|iX3": 6
-, "Mazda|MX-30": 6
+, "Mazda|MX-30 BEV": 6
 , "Mercedes-Benz|EQB": 6
 , "Škoda|Enyaq": 5
 , "Ford|Mustang Mach-E": 4
@@ -2557,7 +2557,7 @@ db.insert(db.countries.IE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|EX40": 22
 , "Mini|Cooper SE": 21
 , "Fiat|500e": 18
-, "Mazda|MX-30": 14
+, "Mazda|MX-30 BEV": 14
 , "Opel|Mokka-e": 13
 , "Cupra|Born": 12
 , "Mercedes-Benz|EQC": 11
@@ -2655,7 +2655,7 @@ db.insert(db.countries.IE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQS": 4
 , "Tesla|Model X": 4
 , "Honda|e": 3
-, "Mazda|MX-30": 3
+, "Mazda|MX-30 BEV": 3
 , "Kia|Soul EV": 2
 , "Mercedes-Benz|EQC": 2
 , "Mercedes-Benz|EQE": 2
@@ -2899,7 +2899,7 @@ db.insert(db.countries.IE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|e-Expert": 3
 , "Kia|Niro EV": 2
 , "Kia|Soul EV": 2
-, "Mazda|MX-30": 2
+, "Mazda|MX-30 BEV": 2
 , "other": 11
 });
 
@@ -3044,7 +3044,7 @@ db.insert(db.countries.IE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 12
 , "Mercedes-Benz|EQS": 11
 , "Fiat|500e": 10
-, "Mazda|MX-30": 9
+, "Mazda|MX-30 BEV": 9
 , "Nissan|Ariya": 9
 , "Renault|Zoe": 9
 , "Volvo|EC40": 9
@@ -3123,7 +3123,7 @@ db.insert(db.countries.IE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 7
 , "Audi|Q8 e-tron": 6
 , "Jaguar|I-Pace": 6
-, "Mazda|MX-30": 6
+, "Mazda|MX-30 BEV": 6
 , "Porsche|Taycan": 6
 , "Renault|Zoe": 6
 , "Volvo|EC40": 5
@@ -3348,7 +3348,7 @@ db.insert(db.countries.IE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQA": 13
 , "Citroën|ë-C4": 10
 , "Citroën|ë-SpaceTourer": 5
-, "Mazda|MX-30": 3
+, "Mazda|MX-30 BEV": 3
 , "Mercedes-Benz|EQC": 3
 , "Opel|Zafira-e": 3
 , "Subaru|Solterra": 2
@@ -3419,7 +3419,7 @@ db.insert(db.countries.IE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "GWM|Ora 03": 11
 , "Peugeot|e-2008": 11
 , "BMW|i7": 10
-, "Mazda|MX-30": 9
+, "Mazda|MX-30 BEV": 9
 , "Renault|Zoe": 9
 , "Audi|e-tron GT": 8
 , "Fiat|500e": 8
@@ -3514,7 +3514,7 @@ db.insert(db.countries.IE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|e-tron GT": 9
 , "BMW|i7": 7
 , "Honda|e": 7
-, "Mazda|MX-30": 4
+, "Mazda|MX-30 BEV": 4
 , "Citroën|ë-SpaceTourer": 3
 , "Fiat|500e": 3
 , "Porsche|Taycan": 3
@@ -3609,7 +3609,7 @@ db.insert(db.countries.IE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Jaguar|I-Pace": 4
 , "Subaru|Solterra": 4
 , "Ford|Mustang Mach-E": 3
-, "Mazda|MX-30": 3
+, "Mazda|MX-30 BEV": 3
 , "Mercedes-Benz|EQS SUV": 3
 , "Opel|Zafira-e": 2
 , "Peugeot|e-Rifter": 2
@@ -3796,7 +3796,7 @@ db.insert(db.countries.IE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Honda|e": 1
 , "Jaguar|I-Pace": 1
 , "Kia|Niro EV": 1
-, "Mazda|MX-30": 1
+, "Mazda|MX-30 BEV": 1
 , "Mercedes-Benz|EQA": 1
 , "Peugeot|e-208": 1
 });
@@ -3977,7 +3977,7 @@ db.insert(db.countries.IE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "BMW|i7": 3
 , "Mercedes-Benz|EQS SUV": 3
 , "Tesla|Model X": 3
-, "Mazda|MX-30": 2
+, "Mazda|MX-30 BEV": 2
 , "Mercedes-Benz|EQV": 2
 , "Citroën|ë-Berlingo Electric": 1
 , "Honda|e": 1

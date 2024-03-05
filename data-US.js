@@ -632,7 +632,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 600
 , "Hyundai|Ioniq 5": 153
 , "Audi|Q4 e-tron": 63
-, "Mazda|MX-30": 61
+, "Mazda|MX-30 BEV": 61
 , "other": 66
 });
 
@@ -697,7 +697,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|R1T": 700
 , "Genesis|GV60": 233
 , "Toyota|bZ4X": 232
-, "Mazda|MX-30": 136
+, "Mazda|MX-30 BEV": 136
 , "Jaguar|I-Pace": 121
 , "other": 773
 });
