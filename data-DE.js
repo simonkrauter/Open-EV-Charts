@@ -6665,3 +6665,116 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 12
 , "other": 299
 });
+
+db.insert(db.countries.DE, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_02.xlsx?__blob=publicationFile&v=2",
+{ "Volkswagen": 40361
+, "Mercedes-Benz": 20070
+, "BMW": 16096
+, "Škoda": 15848
+, "Audi": 14274
+, "Opel": 11571
+, "Seat": 8319
+, "Ford": 7699
+, "Hyundai": 6954
+, "Toyota": 6616
+, "Tesla": 6038
+, "Dacia": 5851
+, "Kia": 5667
+, "Volvo": 5469
+, "Fiat": 5150
+, "Peugeot": 4704
+, "Porsche": 4296
+, "Citroën": 3641
+, "Cupra": 3442
+, "Mazda": 3313
+, "Mini": 2655
+, "Renault": 2575
+, "Mitsubishi": 2555
+, "Suzuki": 2443
+, "Nissan": 2372
+, "MG": 1986
+, "Smart": 1205
+, "Land Rover": 1010
+, "Jeep": 936
+, "Honda": 503
+, "Subaru": 351
+, "GWM": 166
+, "Polestar": 164
+, "Jaguar": 125
+, "BYD": 94
+, "Genesis": 44
+, "Nio": 27
+, "other": 2798
+});
+
+db.insert(db.countries.DE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_02.xlsx?__blob=publicationFile&v=2",
+{ "Tesla|Model Y": 5408
+, "MG|MG4 EV": 1504
+, "Škoda|Enyaq": 1260
+, "Volkswagen|ID.4/ID.5": 1227
+, "Cupra|Born": 972
+, "Dacia|Spring": 944
+, "Audi|Q4 e-tron": 889
+, "Volkswagen|ID.3": 872
+, "Mercedes-Benz|EQE": 776
+, "BMW|i4": 774
+, "Smart|Fortwo ED": 766
+, "Mercedes-Benz|EQA": 722
+, "BMW|iX1": 685
+, "Hyundai|Ioniq 5": 591
+, "Volvo|EX30": 566
+, "Tesla|Model 3": 550
+, "Kia|EV6": 530
+, "Volvo|EX40": 522
+, "Audi|Q8 e-tron": 510
+, "Hyundai|Kona Electric": 472
+, "Mercedes-Benz|EQB": 371
+, "BMW|iX": 359
+, "Smart|Hashtag 1": 344
+, "Kia|Niro EV": 341
+, "BMW|i5": 323
+, "Volkswagen|ID. Buzz": 285
+, "Opel|Corsa-e": 241
+, "Mercedes-Benz|EQS": 231
+, "BMW|iX3": 217
+, "Porsche|Taycan": 199
+, "Hyundai|Ioniq 6": 184
+, "MG|MG5 EV": 173
+, "Peugeot|e-208": 172
+, "Polestar|2": 164
+, "Volvo|EC40": 159
+, "Fiat|500e": 149
+, "Toyota|bZ4X": 143
+, "Renault|Zoe": 131
+, "Renault|Megane E-Tech": 118
+, "Mini|Cooper SE": 115
+, "Audi|e-tron GT": 114
+, "GWM|Ora 03": 106
+, "Peugeot|e-2008": 106
+, "Ford|Mustang Mach-E": 100
+, "Opel|Astra Electric": 100
+, "Kia|EV9": 99
+, "Smart|Hashtag 3": 95
+, "Volkswagen|ID.7": 95
+, "BMW|i7": 83
+, "MG|ZS EV": 77
+, "Mercedes-Benz|other": 139
+, "Opel|other": 107
+, "Nissan|other": 101
+, "BYD|other": 94
+, "Tesla|other": 80
+, "Renault|other": 76
+, "Ford|other": 75
+, "Volkswagen|other": 74
+, "Citroën|other": 71
+, "Peugeot|other": 71
+, "Fiat|other": 69
+, "Jeep|other": 61
+, "Audi|other": 57
+, "BMW|other": 37
+, "Kia|other": 36
+, "MG|other": 27
+, "Nio|other": 27
+, "Subaru|other": 23
+, "other": 309
+});
