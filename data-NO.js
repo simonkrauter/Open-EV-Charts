@@ -4705,7 +4705,7 @@ db.insert(db.countries.NO, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|EL6": 11
 , "Nio|ET5": 11
 , "Peugeot|e-Traveller": 11
-, "Opel|other": 12
+, "Opel|other": 14
 , "MG|other": 10
 , "Mercedes-Benz|other": 10
 , "Volvo|other": 9
@@ -4713,7 +4713,7 @@ db.insert(db.countries.NO, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 6
 , "Honda|other": 5
 , "Tesla|other": 5
-, "other": 1914
+, "other": 1912
 });
 
 db.insert(db.countries.NO, "2024-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2024",
@@ -4761,6 +4761,7 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 44
 , "BMW|iX1": 41
 , "BYD|Han EV": 41
+, "Opel|Astra Electric": 39
 , "BMW|i4": 36
 , "Volkswagen|ID.3": 34
 , "Jeep|Avenger EV": 33
@@ -4788,8 +4789,7 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|EL6": 9
 , "Subaru|Solterra": 9
 , "Smart|Hashtag 1": 8
-, "Honda|e": 7
-, "Opel|Astra Electric": 7
+, "Honda|other": 7
 , "BMW|other": 6
 , "Volvo|other": 5
 , "Kia|other": 4
@@ -4800,7 +4800,7 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 3
 , "BYD|other": 3
 , "Mini|other": 3
-, "other": 1042
+, "other": 1010
 });
 
 
