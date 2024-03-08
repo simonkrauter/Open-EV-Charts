@@ -29,10 +29,10 @@ db.insert(db.countries.IS, "2017-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 194
 });
 
-db.insert(db.countries.IS, "2017-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170419_PRPC_1703_FINAL.pdf",
+db.insert(db.countries.IS, "2017-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 11
 , "Opel|Corsa-e": 1
-, "other": 3
+, "other": 27
 });
 
 db.insert(db.countries.IS, "2017-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170316_PRPC_1702_FINAL.pdf",
@@ -65,11 +65,11 @@ db.insert(db.countries.IS, "2017-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 183
 });
 
-db.insert(db.countries.IS, "2017-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170316_PRPC_1702_FINAL.pdf",
+db.insert(db.countries.IS, "2017-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 8
 , "Opel|Corsa-e": 3
 , "Renault|Zoe": 2
-, "other": 3
+, "other": 28
 });
 
 db.insert(db.countries.IS, "2017-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170419_PRPC_1703_FINAL.pdf",
@@ -102,10 +102,11 @@ db.insert(db.countries.IS, "2017-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 246
 });
 
-db.insert(db.countries.IS, "2017-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170419_PRPC_1703_FINAL.pdf",
+db.insert(db.countries.IS, "2017-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 20
 , "Renault|Zoe": 14
 , "Opel|Corsa-e": 1
+, "other": 55
 });
 
 db.insert(db.countries.IS, "2017-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170516_PRPC_1704_FINAL.pdf",
@@ -140,12 +141,12 @@ db.insert(db.countries.IS, "2017-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 312
 });
 
-db.insert(db.countries.IS, "2017-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170516_PRPC_1704_FINAL.pdf",
+db.insert(db.countries.IS, "2017-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 13
 , "Opel|Corsa-e": 2
 , "Renault|Zoe": 2
 , "Tesla|Model X": 1
-, "other": 1
+, "other": 31
 });
 
 db.insert(db.countries.IS, "2017-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170615_PRPC_1705_FINAL2.pdf",
@@ -179,11 +180,11 @@ db.insert(db.countries.IS, "2017-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 607
 });
 
-db.insert(db.countries.IS, "2017-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170615_PRPC_1705_FINAL2.pdf",
+db.insert(db.countries.IS, "2017-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 12
 , "Tesla|Model S": 3
 , "Tesla|Model X": 2
-, "other": 2
+, "other": 32
 });
 
 db.insert(db.countries.IS, "2017-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170713_PRPC_1706_FINAL.pdf",
@@ -216,11 +217,11 @@ db.insert(db.countries.IS, "2017-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 515
 });
 
-db.insert(db.countries.IS, "2017-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170713_PRPC_1706_FINAL.pdf",
+db.insert(db.countries.IS, "2017-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 19
 , "Renault|Zoe": 18
 , "Opel|Corsa-e": 10
-, "other": 6
+, "other": 89
 });
 
 db.insert(db.countries.IS, "2017-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170914_PRPC_1708-07_FINAL-1.pdf",
@@ -254,14 +255,14 @@ db.insert(db.countries.IS, "2017-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 314
 });
 
-db.insert(db.countries.IS, "2017-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170914_PRPC_1708-07_FINAL-1.pdf",
+db.insert(db.countries.IS, "2017-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Opel|Corsa-e": 13
 , "Renault|Zoe": 12
 , "Nissan|Leaf": 8
 , "Opel|Ampera-e": 2
 , "Tesla|Model S": 2
 , "Tesla|Model X": 2
-, "other": 11
+, "other": 90
 });
 
 db.insert(db.countries.IS, "2017-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170914_PRPC_1708-07_FINAL-1.pdf",
@@ -294,10 +295,11 @@ db.insert(db.countries.IS, "2017-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 243
 });
 
-db.insert(db.countries.IS, "2017-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20170914_PRPC_1708-07_FINAL-1.pdf",
+db.insert(db.countries.IS, "2017-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 12
 , "Renault|Zoe": 7
 , "Opel|Corsa-e": 4
+, "other": 36
 });
 
 db.insert(db.countries.IS, "2017-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171017_PRPC_1709_FINAL.pdf",
@@ -332,11 +334,12 @@ db.insert(db.countries.IS, "2017-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 222
 });
 
-db.insert(db.countries.IS, "2017-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171017_PRPC_1709_FINAL.pdf",
+db.insert(db.countries.IS, "2017-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 21
 , "Renault|Zoe": 9
 , "Mini|Cooper SE": 2
 , "Opel|Corsa-e": 2
+, "other": 53
 });
 
 db.insert(db.countries.IS, "2017-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171116_PRPC_1710_FINAL.pdf",
@@ -371,13 +374,13 @@ db.insert(db.countries.IS, "2017-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 177
 });
 
-db.insert(db.countries.IS, "2017-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171116_PRPC_1710_FINAL.pdf",
+db.insert(db.countries.IS, "2017-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 17
 , "Opel|Corsa-e": 4
 , "Mini|Cooper SE": 3
 , "Renault|Zoe": 3
 , "Tesla|Model X": 1
-, "other": 2
+, "other": 49
 });
 
 db.insert(db.countries.IS, "2017-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171214_PRPC_1711_FINAL.pdf",
@@ -410,10 +413,11 @@ db.insert(db.countries.IS, "2017-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 214
 });
 
-db.insert(db.countries.IS, "2017-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20171214_PRPC_1711_FINAL.pdf",
+db.insert(db.countries.IS, "2017-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 6
 , "Mini|Cooper SE": 4
 , "Renault|Zoe": 3
+, "other": 20
 });
 
 db.insert(db.countries.IS, "2017-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180117_PRPC_1712_FINAL.pdf",
@@ -445,12 +449,12 @@ db.insert(db.countries.IS, "2017-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 155
 });
 
-db.insert(db.countries.IS, "2017-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180117_PRPC_1712_FINAL.pdf",
+db.insert(db.countries.IS, "2017-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 10
 , "Mini|Cooper SE": 2
 , "Renault|Zoe": 2
 , "Opel|Corsa-e": 1
-, "other": 1
+, "other": 26
 });
 
 db.insert(db.countries.IS, "2018-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180215_PRPC_1801_FINAL.pdf",
@@ -483,11 +487,12 @@ db.insert(db.countries.IS, "2018-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 252
 });
 
-db.insert(db.countries.IS, "2018-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180215_PRPC_1801_FINAL.pdf",
+db.insert(db.countries.IS, "2018-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Opel|Corsa-e": 7
 , "Renault|Zoe": 5
 , "Nissan|Leaf": 2
 , "Tesla|Model S": 2
+, "other": 9
 });
 
 db.insert(db.countries.IS, "2018-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180315_PRPC_1802_FINAL.pdf",
@@ -520,11 +525,11 @@ db.insert(db.countries.IS, "2018-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 178
 });
 
-db.insert(db.countries.IS, "2018-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180315_PRPC_1802_FINAL.pdf",
+db.insert(db.countries.IS, "2018-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Renault|Zoe": 6
 , "Nissan|Leaf": 2
 , "Mini|Cooper SE": 1
-, "other": 4
+, "other": 11
 });
 
 db.insert(db.countries.IS, "2018-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180418_PRPC_1803_FINAL.pdf",
@@ -558,12 +563,12 @@ db.insert(db.countries.IS, "2018-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 252
 });
 
-db.insert(db.countries.IS, "2018-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180418_PRPC_1803_FINAL.pdf",
+db.insert(db.countries.IS, "2018-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 19
 , "Mini|Cooper SE": 4
 , "Opel|Corsa-e": 3
 , "Renault|Zoe": 3
-, "other": 4
+, "other": 23
 });
 
 db.insert(db.countries.IS, "2018-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180517_PRPC_1804_FINAL.pdf",
@@ -597,11 +602,12 @@ db.insert(db.countries.IS, "2018-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 239
 });
 
-db.insert(db.countries.IS, "2018-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180517_PRPC_1804_FINAL.pdf",
+db.insert(db.countries.IS, "2018-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 5
 , "Mini|Cooper SE": 4
 , "Opel|Corsa-e": 2
 , "Renault|Zoe": 1
+, "other": 7
 });
 
 db.insert(db.countries.IS, "2018-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180615_PRPC_1805_FINAL.pdf",
@@ -636,10 +642,11 @@ db.insert(db.countries.IS, "2018-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 302
 });
 
-db.insert(db.countries.IS, "2018-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180615_PRPC_1805_FINAL.pdf",
+db.insert(db.countries.IS, "2018-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 50
 , "Renault|Zoe": 6
 , "Mini|Cooper SE": 2
+, "other": 33
 });
 
 db.insert(db.countries.IS, "2018-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180717_PRPC_1806_FINAL.pdf",
@@ -673,12 +680,12 @@ db.insert(db.countries.IS, "2018-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 329
 });
 
-db.insert(db.countries.IS, "2018-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180717_PRPC_1806_FINAL.pdf",
+db.insert(db.countries.IS, "2018-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 29
 , "Opel|Corsa-e": 16
 , "Mini|Cooper SE": 4
 , "Renault|Zoe": 3
-, "other": 4
+, "other": 36
 });
 
 db.insert(db.countries.IS, "2018-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf",
@@ -713,14 +720,14 @@ db.insert(db.countries.IS, "2018-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 185
 });
 
-db.insert(db.countries.IS, "2018-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf",
+db.insert(db.countries.IS, "2018-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 32
 , "Renault|Zoe": 9
 , "Mini|Cooper SE": 3
 , "MG|MG4 EV": 1
 , "Opel|Corsa-e": 1
 , "Tesla|Model S": 1
-, "other": 2
+, "other": 30
 });
 
 db.insert(db.countries.IS, "2018-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf",
@@ -753,12 +760,12 @@ db.insert(db.countries.IS, "2018-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 237
 });
 
-db.insert(db.countries.IS, "2018-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20180919_PRPC_1807-08_FINAL.pdf",
+db.insert(db.countries.IS, "2018-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 30
 , "Renault|Zoe": 6
 , "Mini|Cooper SE": 4
 , "Opel|Corsa-e": 1
-, "other": 1
+, "other": 25
 });
 
 db.insert(db.countries.IS, "2018-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191017_PRPC_1809_FINAL-1.pdf",
@@ -791,11 +798,11 @@ db.insert(db.countries.IS, "2018-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 126
 });
 
-db.insert(db.countries.IS, "2018-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191017_PRPC_1809_FINAL-1.pdf",
+db.insert(db.countries.IS, "2018-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 35
 , "Mini|Cooper SE": 6
 , "Renault|Zoe": 4
-, "other": 6
+, "other": 35
 });
 
 db.insert(db.countries.IS, "2018-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20181115_PRPC_1810_FINAL.pdf",
@@ -828,11 +835,11 @@ db.insert(db.countries.IS, "2018-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 113
 });
 
-db.insert(db.countries.IS, "2018-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20181115_PRPC_1810_FINAL.pdf",
+db.insert(db.countries.IS, "2018-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 40
 , "Renault|Zoe": 5
 , "Mini|Cooper SE": 3
-, "other": 7
+, "other": 38
 });
 
 db.insert(db.countries.IS, "2018-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20181214_PRPC_1811_FINAL.pdf",
@@ -864,10 +871,10 @@ db.insert(db.countries.IS, "2018-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 106
 });
 
-db.insert(db.countries.IS, "2018-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20181214_PRPC_1811_FINAL.pdf",
+db.insert(db.countries.IS, "2018-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 51
 , "Renault|Zoe": 8
-, "other": 1
+, "other": 35
 });
 
 db.insert(db.countries.IS, "2018-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190115_PRPC_1812_FINAL.pdf",
@@ -899,11 +906,12 @@ db.insert(db.countries.IS, "2018-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 51
 });
 
-db.insert(db.countries.IS, "2018-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190115_PRPC_1812_FINAL.pdf",
+db.insert(db.countries.IS, "2018-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 33
 , "Renault|Zoe": 5
 , "Mini|Cooper SE": 3
 , "Opel|Corsa-e": 1
+, "other": 24
 });
 
 db.insert(db.countries.IS, "2019-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190215_PRPC_1901_FINAL.pdf",
@@ -934,10 +942,11 @@ db.insert(db.countries.IS, "2019-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 85
 });
 
-db.insert(db.countries.IS, "2019-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190215_PRPC_1901_FINAL.pdf",
+db.insert(db.countries.IS, "2019-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 49
 , "Renault|Zoe": 7
 , "Mini|Cooper SE": 1
+, "other": 60
 });
 
 db.insert(db.countries.IS, "2019-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190315_PRPC_1902_FINAL.pdf",
@@ -969,10 +978,11 @@ db.insert(db.countries.IS, "2019-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 74
 });
 
-db.insert(db.countries.IS, "2019-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190315_PRPC_1902_FINAL.pdf",
+db.insert(db.countries.IS, "2019-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 16
 , "Renault|Zoe": 4
 , "Mini|Cooper SE": 1
+, "other": 22
 });
 
 db.insert(db.countries.IS, "2019-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190417_PRPC_1903_FINAL.pdf",
@@ -1004,11 +1014,11 @@ db.insert(db.countries.IS, "2019-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 102
 });
 
-db.insert(db.countries.IS, "2019-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190417_PRPC_1903_FINAL.pdf",
+db.insert(db.countries.IS, "2019-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 17
 , "Renault|Zoe": 7
 , "Tesla|Model 3": 4
-, "other": 1
+, "other": 31
 });
 
 db.insert(db.countries.IS, "2019-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190517_PRPC_1904_FINAL.pdf",
@@ -1041,11 +1051,11 @@ db.insert(db.countries.IS, "2019-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 145
 });
 
-db.insert(db.countries.IS, "2019-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190517_PRPC_1904_FINAL.pdf",
+db.insert(db.countries.IS, "2019-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 11
 , "Renault|Zoe": 7
 , "Tesla|Model 3": 5
-, "other": 1
+, "other": 26
 });
 
 db.insert(db.countries.IS, "2019-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190618_PRPC_1905_FINAL.pdf",
@@ -1080,12 +1090,13 @@ db.insert(db.countries.IS, "2019-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 226
 });
 
-db.insert(db.countries.IS, "2019-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190618_PRPC_1905_FINAL.pdf",
+db.insert(db.countries.IS, "2019-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Jaguar|I-Pace": 24
 , "Nissan|Leaf": 19
 , "Renault|Zoe": 7
 , "Mini|Cooper SE": 4
 , "Tesla|Model X": 1
+, "other": 58
 });
 
 db.insert(db.countries.IS, "2019-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190717_PRPC_1906_FINAL.pdf",
@@ -1118,13 +1129,14 @@ db.insert(db.countries.IS, "2019-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 151
 });
 
-db.insert(db.countries.IS, "2019-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190717_PRPC_1906_FINAL.pdf",
+db.insert(db.countries.IS, "2019-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 8
 , "Jaguar|I-Pace": 8
 , "Nissan|Leaf": 4
 , "Renault|Zoe": 4
 , "Mini|Cooper SE": 3
 , "Tesla|Model 3": 1
+, "other": 29
 });
 
 db.insert(db.countries.IS, "2019-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190918_PRPC_1907-08_FINAL.pdf",
@@ -1157,7 +1169,7 @@ db.insert(db.countries.IS, "2019-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 130
 });
 
-db.insert(db.countries.IS, "2019-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190918_PRPC_1907-08_FINAL.pdf",
+db.insert(db.countries.IS, "2019-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 24
 , "Audi|Q8 e-tron": 17
 , "Tesla|Model 3": 12
@@ -1165,6 +1177,7 @@ db.insert(db.countries.IS, "2019-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 2
 , "Opel|Ampera-e": 2
 , "Tesla|Model S": 1
+, "other": 67
 });
 
 db.insert(db.countries.IS, "2019-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190918_PRPC_1907-08_FINAL.pdf",
@@ -1197,7 +1210,7 @@ db.insert(db.countries.IS, "2019-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 75
 });
 
-db.insert(db.countries.IS, "2019-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190918_PRPC_1907-08_FINAL.pdf",
+db.insert(db.countries.IS, "2019-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Mercedes-Benz|EQC": 15
 , "Nissan|Leaf": 12
 , "Opel|Ampera-e": 8
@@ -1207,7 +1220,7 @@ db.insert(db.countries.IS, "2019-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 3
 , "Peugeot|iOn": 1
 , "Renault|Zoe": 1
-, "other": 1
+, "other": 60
 });
 
 db.insert(db.countries.IS, "2019-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191016_PRPC_1909_FINAL.pdf",
@@ -1240,7 +1253,7 @@ db.insert(db.countries.IS, "2019-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 110
 });
 
-db.insert(db.countries.IS, "2019-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191016_PRPC_1909_FINAL.pdf",
+db.insert(db.countries.IS, "2019-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 19
 , "Jaguar|I-Pace": 4
 , "Tesla|Model 3": 4
@@ -1249,7 +1262,7 @@ db.insert(db.countries.IS, "2019-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Zoe": 3
 , "Audi|Q8 e-tron": 2
 , "Tesla|Model X": 1
-, "other": 2
+, "other": 45
 });
 
 db.insert(db.countries.IS, "2019-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191119_PRPC_1910_FINAL.pdf",
@@ -1283,7 +1296,7 @@ db.insert(db.countries.IS, "2019-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 80
 });
 
-db.insert(db.countries.IS, "2019-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191119_PRPC_1910_FINAL.pdf",
+db.insert(db.countries.IS, "2019-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 8
 , "Tesla|Model 3": 7
 , "Nissan|Leaf": 6
@@ -1292,6 +1305,7 @@ db.insert(db.countries.IS, "2019-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Jaguar|I-Pace": 2
 , "Mini|Cooper SE": 1
 , "Tesla|Model S": 1
+, "other": 35
 });
 
 db.insert(db.countries.IS, "2019-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191217_PRPC_1911_FINAL.pdf",
@@ -1325,7 +1339,7 @@ db.insert(db.countries.IS, "2019-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 79
 });
 
-db.insert(db.countries.IS, "2019-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20191217_PRPC_1911_FINAL.pdf",
+db.insert(db.countries.IS, "2019-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 13
 , "Opel|Ampera-e": 4
 , "Audi|Q8 e-tron": 3
@@ -1335,6 +1349,7 @@ db.insert(db.countries.IS, "2019-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 1
 , "Opel|Corsa-e": 1
 , "Tesla|Model 3": 1
+, "other": 31
 });
 
 db.insert(db.countries.IS, "2019-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20200116_PRPC_1912_FINAL.pdf",
@@ -1365,12 +1380,13 @@ db.insert(db.countries.IS, "2019-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 62
 });
 
-db.insert(db.countries.IS, "2019-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20200116_PRPC_1912_FINAL.pdf",
+db.insert(db.countries.IS, "2019-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Mercedes-Benz|EQC": 8
 , "Audi|Q8 e-tron": 6
 , "Nissan|Leaf": 4
 , "Jaguar|I-Pace": 2
 , "Opel|Ampera-e": 1
+, "other": 22
 });
 
 db.insert(db.countries.IS, "2020-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf",
@@ -1404,7 +1420,7 @@ db.insert(db.countries.IS, "2020-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 66
 });
 
-db.insert(db.countries.IS, "2020-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf",
+db.insert(db.countries.IS, "2020-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 29
 , "Nissan|Leaf": 14
 , "Mercedes-Benz|EQC": 9
@@ -1413,7 +1429,7 @@ db.insert(db.countries.IS, "2020-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Opel|Ampera-e": 4
 , "Mini|Cooper SE": 2
 , "Tesla|Model 3": 1
-, "other": 1
+, "other": 37
 });
 
 db.insert(db.countries.IS, "2020-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf",
@@ -1446,7 +1462,7 @@ db.insert(db.countries.IS, "2020-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 64
 });
 
-db.insert(db.countries.IS, "2020-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf",
+db.insert(db.countries.IS, "2020-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 25
 , "Renault|Zoe": 12
 , "Nissan|Leaf": 11
@@ -1455,6 +1471,7 @@ db.insert(db.countries.IS, "2020-02", db.dsTypes.ElectricCarsByModel, "https://b
 , "Opel|Ampera-e": 5
 , "Jaguar|I-Pace": 3
 , "Mini|Cooper SE": 1
+, "other": 36
 });
 
 db.insert(db.countries.IS, "2020-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf",
@@ -1488,7 +1505,7 @@ db.insert(db.countries.IS, "2020-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 99
 });
 
-db.insert(db.countries.IS, "2020-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf",
+db.insert(db.countries.IS, "2020-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 399
 , "Audi|Q8 e-tron": 38
 , "Nissan|Leaf": 10
@@ -1499,6 +1516,7 @@ db.insert(db.countries.IS, "2020-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "Tesla|Model S": 2
 , "Tesla|Model X": 2
 , "Mini|Cooper SE": 1
+, "other": 226
 });
 
 db.insert(db.countries.IS, "2020-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf",
@@ -1532,7 +1550,7 @@ db.insert(db.countries.IS, "2020-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 48
 });
 
-db.insert(db.countries.IS, "2020-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf",
+db.insert(db.countries.IS, "2020-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 32
 , "Audi|Q8 e-tron": 9
 , "Opel|Ampera-e": 6
@@ -1543,6 +1561,7 @@ db.insert(db.countries.IS, "2020-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQC": 1
 , "Renault|Zoe": 1
 , "Tesla|Model S": 1
+, "other": 30
 });
 
 db.insert(db.countries.IS, "2020-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf",
@@ -1578,7 +1597,7 @@ db.insert(db.countries.IS, "2020-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 62
 });
 
-db.insert(db.countries.IS, "2020-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf",
+db.insert(db.countries.IS, "2020-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 12
 , "Opel|Ampera-e": 10
 , "Nissan|Leaf": 8
@@ -1589,7 +1608,7 @@ db.insert(db.countries.IS, "2020-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Porsche|Taycan": 1
 , "Renault|Zoe": 1
 , "Tesla|Model S": 1
-, "other": 1
+, "other": 24
 });
 
 db.insert(db.countries.IS, "2020-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf",
@@ -1625,7 +1644,7 @@ db.insert(db.countries.IS, "2020-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 116
 });
 
-db.insert(db.countries.IS, "2020-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf",
+db.insert(db.countries.IS, "2020-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 19
 , "Nissan|Leaf": 11
 , "Mercedes-Benz|EQC": 8
@@ -1636,6 +1655,7 @@ db.insert(db.countries.IS, "2020-06", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|MG4 EV": 1
 , "Porsche|Taycan": 1
 , "Tesla|Model S": 1
+, "other": 25
 });
 
 db.insert(db.countries.IS, "2020-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
@@ -1671,7 +1691,7 @@ db.insert(db.countries.IS, "2020-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 163
 });
 
-db.insert(db.countries.IS, "2020-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
+db.insert(db.countries.IS, "2020-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 28
 , "MG|ZS EV": 14
 , "Mercedes-Benz|EQC": 8
@@ -1680,6 +1700,7 @@ db.insert(db.countries.IS, "2020-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 2
 , "Renault|Zoe": 2
 , "Tesla|Model X": 2
+, "other": 31
 });
 
 db.insert(db.countries.IS, "2020-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
@@ -1713,7 +1734,7 @@ db.insert(db.countries.IS, "2020-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 42
 });
 
-db.insert(db.countries.IS, "2020-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
+db.insert(db.countries.IS, "2020-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "MG|ZS EV": 16
 , "Audi|Q8 e-tron": 15
 , "Nissan|Leaf": 5
@@ -1722,6 +1743,7 @@ db.insert(db.countries.IS, "2020-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Porsche|Taycan": 4
 , "Mercedes-Benz|EQC": 3
 , "Renault|Zoe": 2
+, "other": 25
 });
 
 db.insert(db.countries.IS, "2020-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf",
@@ -1755,7 +1777,7 @@ db.insert(db.countries.IS, "2020-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 65
 });
 
-db.insert(db.countries.IS, "2020-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf",
+db.insert(db.countries.IS, "2020-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 289
 , "Volkswagen|ID.3": 42
 , "Nissan|Leaf": 31
@@ -1768,6 +1790,7 @@ db.insert(db.countries.IS, "2020-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Jaguar|I-Pace": 3
 , "Porsche|Taycan": 2
 , "Mini|Cooper SE": 1
+, "other": 209
 });
 
 db.insert(db.countries.IS, "2020-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf",
@@ -1800,7 +1823,7 @@ db.insert(db.countries.IS, "2020-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 68
 });
 
-db.insert(db.countries.IS, "2020-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf",
+db.insert(db.countries.IS, "2020-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 23
 , "Audi|Q8 e-tron": 22
 , "Volkswagen|ID.3": 15
@@ -1812,6 +1835,7 @@ db.insert(db.countries.IS, "2020-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Zoe": 1
 , "Tesla|Model S": 1
 , "Tesla|Model X": 1
+, "other": 45
 });
 
 db.insert(db.countries.IS, "2020-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf",
@@ -1844,7 +1868,7 @@ db.insert(db.countries.IS, "2020-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 81
 });
 
-db.insert(db.countries.IS, "2020-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf",
+db.insert(db.countries.IS, "2020-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 32
 , "Nissan|Leaf": 24
 , "Volkswagen|ID.3": 15
@@ -1856,7 +1880,7 @@ db.insert(db.countries.IS, "2020-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 1
 , "Tesla|Model S": 1
 , "Tesla|Model X": 1
-, "other": 2
+, "other": 53
 });
 
 db.insert(db.countries.IS, "2020-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf",
@@ -1888,7 +1912,7 @@ db.insert(db.countries.IS, "2020-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 126
 });
 
-db.insert(db.countries.IS, "2020-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf",
+db.insert(db.countries.IS, "2020-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 71
 , "Volkswagen|ID.3": 52
 , "Nissan|Leaf": 37
@@ -1898,7 +1922,7 @@ db.insert(db.countries.IS, "2020-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "Tesla|Model S": 3
 , "Tesla|Model X": 3
 , "Renault|Zoe": 1
-, "other": 2
+, "other": 90
 });
 
 db.insert(db.countries.IS, "2021-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf",
@@ -1932,7 +1956,7 @@ db.insert(db.countries.IS, "2021-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 97
 });
 
-db.insert(db.countries.IS, "2021-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf",
+db.insert(db.countries.IS, "2021-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 19
 , "Audi|Q8 e-tron": 13
 , "Jaguar|I-Pace": 9
@@ -1945,7 +1969,7 @@ db.insert(db.countries.IS, "2021-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|B250e": 1
 , "Porsche|Taycan": 1
 , "Renault|Zoe": 1
-, "other": 2
+, "other": 53
 });
 
 db.insert(db.countries.IS, "2021-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf",
@@ -1980,7 +2004,7 @@ db.insert(db.countries.IS, "2021-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 54
 });
 
-db.insert(db.countries.IS, "2021-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf",
+db.insert(db.countries.IS, "2021-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 23
 , "Nissan|Leaf": 15
 , "Mercedes-Benz|EQC": 14
@@ -1993,6 +2017,7 @@ db.insert(db.countries.IS, "2021-02", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 1
 , "Porsche|Taycan": 1
 , "Tesla|Model X": 1
+, "other": 64
 });
 
 db.insert(db.countries.IS, "2021-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf",
@@ -2028,7 +2053,7 @@ db.insert(db.countries.IS, "2021-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 66
 });
 
-db.insert(db.countries.IS, "2021-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf",
+db.insert(db.countries.IS, "2021-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 104
 , "Volkswagen|ID.4": 34
 , "Nissan|Leaf": 27
@@ -2042,7 +2067,7 @@ db.insert(db.countries.IS, "2021-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQC": 1
 , "Porsche|Taycan": 1
 , "Renault|Zoe": 1
-, "other": 2
+, "other": 139
 });
 
 db.insert(db.countries.IS, "2021-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf",
@@ -2077,7 +2102,7 @@ db.insert(db.countries.IS, "2021-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 68
 });
 
-db.insert(db.countries.IS, "2021-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf",
+db.insert(db.countries.IS, "2021-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Audi|Q8 e-tron": 15
 , "Mercedes-Benz|EQA": 15
 , "Nissan|Leaf": 13
@@ -2090,7 +2115,7 @@ db.insert(db.countries.IS, "2021-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQC": 2
 , "Mini|Cooper SE": 1
 , "Tesla|Model 3": 1
-, "other": 2
+, "other": 65
 });
 
 db.insert(db.countries.IS, "2021-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf",
@@ -2125,7 +2150,7 @@ db.insert(db.countries.IS, "2021-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 76
 });
 
-db.insert(db.countries.IS, "2021-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf",
+db.insert(db.countries.IS, "2021-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Nissan|Leaf": 28
 , "Škoda|Enyaq": 23
 , "Volkswagen|ID.3": 16
@@ -2140,6 +2165,7 @@ db.insert(db.countries.IS, "2021-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Jaguar|I-Pace": 4
 , "Mini|Cooper SE": 4
 , "Audi|e-tron GT": 1
+, "other": 96
 });
 
 db.insert(db.countries.IS, "2021-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf",
@@ -2175,7 +2201,7 @@ db.insert(db.countries.IS, "2021-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 117
 });
 
-db.insert(db.countries.IS, "2021-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf",
+db.insert(db.countries.IS, "2021-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model 3": 172
 , "MG|ZS EV": 22
 , "Škoda|Enyaq": 22
@@ -2192,7 +2218,7 @@ db.insert(db.countries.IS, "2021-06", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|e-tron GT": 1
 , "Ford|Mustang Mach-E": 1
 , "Jaguar|I-Pace": 1
-, "other": 1
+, "other": 206
 });
 
 db.insert(db.countries.IS, "2021-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
@@ -2225,7 +2251,7 @@ db.insert(db.countries.IS, "2021-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 90
 });
 
-db.insert(db.countries.IS, "2021-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
+db.insert(db.countries.IS, "2021-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Škoda|Enyaq": 20
 , "Volkswagen|ID.4": 14
 , "Nissan|Leaf": 11
@@ -2238,7 +2264,7 @@ db.insert(db.countries.IS, "2021-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|ZS EV": 3
 , "Porsche|Taycan": 3
 , "Volkswagen|ID.3": 3
-, "other": 6
+, "other": 72
 });
 
 db.insert(db.countries.IS, "2021-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
@@ -2272,7 +2298,7 @@ db.insert(db.countries.IS, "2021-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 55
 });
 
-db.insert(db.countries.IS, "2021-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
+db.insert(db.countries.IS, "2021-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Volkswagen|ID.4": 30
 , "Tesla|Model Y": 20
 , "Volkswagen|ID.3": 17
@@ -2290,7 +2316,7 @@ db.insert(db.countries.IS, "2021-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Citroën|ë-C4": 2
 , "Mini|Cooper SE": 2
 , "MG|MG4 EV": 1
-, "other": 2
+, "other": 102
 });
 
 db.insert(db.countries.IS, "2021-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf",
@@ -2324,7 +2350,7 @@ db.insert(db.countries.IS, "2021-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 53
 });
 
-db.insert(db.countries.IS, "2021-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf",
+db.insert(db.countries.IS, "2021-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 284
 , "Tesla|Model 3": 116
 , "Nissan|Leaf": 27
@@ -2340,7 +2366,7 @@ db.insert(db.countries.IS, "2021-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|ZS EV": 4
 , "Mini|Cooper SE": 4
 , "Renault|Zoe": 3
-, "other": 6
+, "other": 380
 });
 
 db.insert(db.countries.IS, "2021-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf",
@@ -2374,7 +2400,7 @@ db.insert(db.countries.IS, "2021-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 18
 });
 
-db.insert(db.countries.IS, "2021-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf",
+db.insert(db.countries.IS, "2021-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Volkswagen|ID.4": 35
 , "Škoda|Enyaq": 20
 , "Hyundai|Ioniq 5": 16
@@ -2392,7 +2418,7 @@ db.insert(db.countries.IS, "2021-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Porsche|Taycan": 1
 , "Renault|Zoe": 1
 , "Tesla|Model 3": 1
-, "other": 2
+, "other": 99
 });
 
 db.insert(db.countries.IS, "2021-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf",
@@ -2428,7 +2454,7 @@ db.insert(db.countries.IS, "2021-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 29
 });
 
-db.insert(db.countries.IS, "2021-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf",
+db.insert(db.countries.IS, "2021-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 42
 , "MG|Marvel R": 29
 , "Tesla|Model 3": 24
@@ -2452,7 +2478,7 @@ db.insert(db.countries.IS, "2021-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.3": 2
 , "Audi|e-tron GT": 1
 , "Mercedes-Benz|EQS": 1
-, "other": 5
+, "other": 191
 });
 
 db.insert(db.countries.IS, "2021-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf",
@@ -2487,7 +2513,7 @@ db.insert(db.countries.IS, "2021-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 20
 });
 
-db.insert(db.countries.IS, "2021-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf",
+db.insert(db.countries.IS, "2021-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 191
 , "Tesla|Model 3": 47
 , "Ford|Mustang Mach-E": 40
@@ -2508,7 +2534,7 @@ db.insert(db.countries.IS, "2021-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "Jaguar|I-Pace": 1
 , "Renault|Zoe": 1
 , "Volvo|EC40": 1
-, "other": 3
+, "other": 307
 });
 
 db.insert(db.countries.IS, "2022-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf",
@@ -2544,7 +2570,7 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 43
 });
 
-db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf",
+db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Kia|EV6": 68
 , "Škoda|Enyaq": 29
 , "Nissan|Leaf": 24
@@ -2567,7 +2593,7 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQS": 1
 , "Renault|Zoe": 1
 , "Volkswagen|ID.3": 1
-, "other": 3
+, "other": 116
 });
 
 db.insert(db.countries.IS, "2022-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf",
@@ -2600,7 +2626,7 @@ db.insert(db.countries.IS, "2022-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 18
 });
 
-db.insert(db.countries.IS, "2022-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf",
+db.insert(db.countries.IS, "2022-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 90
 , "Kia|EV6": 43
 , "Citroën|ë-C4": 21
@@ -2623,7 +2649,7 @@ db.insert(db.countries.IS, "2022-02", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|Marvel R": 1
 , "Mercedes-Benz|EQS": 1
 , "Porsche|Taycan": 1
-, "other": 1
+, "other": 120
 });
 
 db.insert(db.countries.IS, "2022-03", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf",
@@ -2658,7 +2684,7 @@ db.insert(db.countries.IS, "2022-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 93
 });
 
-db.insert(db.countries.IS, "2022-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf",
+db.insert(db.countries.IS, "2022-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 178
 , "Kia|EV6": 63
 , "Tesla|Model 3": 62
@@ -2683,7 +2709,7 @@ db.insert(db.countries.IS, "2022-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|Marvel R": 1
 , "Renault|Zoe": 1
 , "Volkswagen|ID.4": 1
-, "other": 4
+, "other": 254
 });
 
 db.insert(db.countries.IS, "2022-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf",
@@ -2719,7 +2745,7 @@ db.insert(db.countries.IS, "2022-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 84
 });
 
-db.insert(db.countries.IS, "2022-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf",
+db.insert(db.countries.IS, "2022-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Hyundai|Ioniq 5": 30
 , "Polestar|2": 26
 , "Kia|EV6": 24
@@ -2745,7 +2771,7 @@ db.insert(db.countries.IS, "2022-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQS": 1
 , "Mini|Cooper SE": 1
 , "Renault|Zoe": 1
-, "other": 3
+, "other": 91
 });
 
 db.insert(db.countries.IS, "2022-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf",
@@ -2781,7 +2807,7 @@ db.insert(db.countries.IS, "2022-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 170
 });
 
-db.insert(db.countries.IS, "2022-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf",
+db.insert(db.countries.IS, "2022-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Hyundai|Ioniq 5": 63
 , "Škoda|Enyaq": 38
 , "Nissan|Leaf": 26
@@ -2805,7 +2831,7 @@ db.insert(db.countries.IS, "2022-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Tesla|Model Y": 2
 , "Mercedes-Benz|EQE": 1
 , "Mini|Cooper SE": 1
-, "other": 16
+, "other": 152
 });
 
 db.insert(db.countries.IS, "2022-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf",
@@ -2840,7 +2866,7 @@ db.insert(db.countries.IS, "2022-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 305
 });
 
-db.insert(db.countries.IS, "2022-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf",
+db.insert(db.countries.IS, "2022-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Polestar|2": 55
 , "Volkswagen|ID.4": 39
 , "Škoda|Enyaq": 39
@@ -2864,7 +2890,7 @@ db.insert(db.countries.IS, "2022-06", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.5": 2
 , "MG|Marvel R": 1
 , "Mercedes-Benz|EQS": 1
-, "other": 22
+, "other": 160
 });
 
 db.insert(db.countries.IS, "2022-07", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
@@ -2898,7 +2924,7 @@ db.insert(db.countries.IS, "2022-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 161
 });
 
-db.insert(db.countries.IS, "2022-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
+db.insert(db.countries.IS, "2022-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Polestar|2": 54
 , "Škoda|Enyaq": 48
 , "Volkswagen|ID.4": 32
@@ -2924,7 +2950,7 @@ db.insert(db.countries.IS, "2022-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|Marvel R": 1
 , "Mercedes-Benz|EQS": 1
 , "Renault|Zoe": 1
-, "other": 7
+, "other": 139
 });
 
 db.insert(db.countries.IS, "2022-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
@@ -2958,7 +2984,7 @@ db.insert(db.countries.IS, "2022-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 20
 });
 
-db.insert(db.countries.IS, "2022-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
+db.insert(db.countries.IS, "2022-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "MG|ZS EV": 39
 , "Škoda|Enyaq": 36
 , "BMW|iX": 22
@@ -2981,7 +3007,7 @@ db.insert(db.countries.IS, "2022-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Nissan|Leaf": 1
 , "Polestar|2": 1
 , "Porsche|Taycan": 1
-, "other": 5
+, "other": 105
 });
 
 db.insert(db.countries.IS, "2022-09", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf",
@@ -3016,7 +3042,7 @@ db.insert(db.countries.IS, "2022-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 66
 });
 
-db.insert(db.countries.IS, "2022-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf",
+db.insert(db.countries.IS, "2022-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 247
 , "MG|ZS EV": 62
 , "Tesla|Model 3": 59
@@ -3039,7 +3065,7 @@ db.insert(db.countries.IS, "2022-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Ford|Mustang Mach-E": 1
 , "Mercedes-Benz|EQE": 1
 , "Volkswagen|ID.3": 1
-, "other": 32
+, "other": 279
 });
 
 db.insert(db.countries.IS, "2022-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf",
@@ -3075,7 +3101,7 @@ db.insert(db.countries.IS, "2022-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 66
 });
 
-db.insert(db.countries.IS, "2022-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf",
+db.insert(db.countries.IS, "2022-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Polestar|2": 48
 , "MG|ZS EV": 39
 , "Volkswagen|ID.4": 23
@@ -3102,7 +3128,7 @@ db.insert(db.countries.IS, "2022-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Jaguar|I-Pace": 1
 , "Mini|Cooper SE": 1
 , "Subaru|Solterra": 1
-, "other": 4
+, "other": 116
 });
 
 db.insert(db.countries.IS, "2022-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf",
@@ -3136,7 +3162,7 @@ db.insert(db.countries.IS, "2022-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 65
 });
 
-db.insert(db.countries.IS, "2022-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf",
+db.insert(db.countries.IS, "2022-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 273
 , "Polestar|2": 130
 , "Citroën|ë-C4": 21
@@ -3164,7 +3190,7 @@ db.insert(db.countries.IS, "2022-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQE": 1
 , "Mini|Cooper SE": 1
 , "Tesla|Model 3": 1
-, "other": 4
+, "other": 276
 });
 
 db.insert(db.countries.IS, "2022-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf",
@@ -3199,7 +3225,7 @@ db.insert(db.countries.IS, "2022-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 78
 });
 
-db.insert(db.countries.IS, "2022-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf",
+db.insert(db.countries.IS, "2022-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
 { "Tesla|Model Y": 213
 , "Tesla|Model 3": 89
 , "Polestar|2": 55
@@ -3236,7 +3262,7 @@ db.insert(db.countries.IS, "2022-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|e-tron GT": 1
 , "Ford|Mustang Mach-E": 1
 , "Jaguar|I-Pace": 1
-, "other": 28
+, "other": 400
 });
 
 db.insert(db.countries.IS, "2023-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
