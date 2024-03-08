@@ -207,6 +207,7 @@ const brandCountries =
 , "Škoda": "CZ"
 , "Smart": "CN/DE"
 , "Subaru": "JP"
+, "Suzuki": "JP"
 , "Tesla": "US"
 , "Toyota": "JP"
 , "Vauxhall": "UK"
