@@ -620,7 +620,6 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Ford|Mustang Mach-E": 8285
 , "Genesis|GV70": 5461
 , "Genesis|GV80": 4852
-, "Volvo|EX40": 4713
 , "Volkswagen|ID.4": 4464
 , "Nissan|Leaf": 4164
 , "Tesla|Model S": 3699
@@ -632,7 +631,6 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 600
 , "Hyundai|Ioniq 5": 153
 , "Audi|Q4 e-tron": 63
-, "Mazda|MX-30 BEV": 61
 , "other": 66
 });
 
@@ -682,7 +680,6 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 7287
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
-, "Volvo|EX40": 4834
 , "Genesis|GV80": 4346
 , "Genesis|GV70": 4199
 , "Audi|Q8 e-tron": 3938
@@ -697,7 +694,6 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|R1T": 700
 , "Genesis|GV60": 233
 , "Toyota|bZ4X": 232
-, "Mazda|MX-30 BEV": 136
 , "Jaguar|I-Pace": 121
 , "other": 773
 });
@@ -744,7 +740,6 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 4800
 , "Rivian|R1T": 4400
 , "Tesla|Model X": 3999
-, "Volvo|EX40": 2998
 , "Audi|Q8 e-tron": 2249
 , "Polestar|2": 2200
 , "BMW|iX": 1726
@@ -759,7 +754,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 326
 , "Mercedes-Benz|EQS SUV": 277
 , "Jaguar|I-Pace": 104
-, "other": 1017
+, "other": 1009
 });
 
 db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
@@ -795,7 +790,6 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 11369
 , "Tesla|Model X": 9800
 , "Tesla|Model S": 8800
-, "Volvo|EX40": 6739
 , "Genesis|GV70": 5834
 , "Genesis|GV80": 4902
 , "Hyundai|Ioniq 5": 4490
@@ -852,7 +846,6 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Bolt": 19700
 , "Tesla|Model S": 16000
 , "Volkswagen|ID.4": 9758
-, "Volvo|EX40": 6083
 , "Tesla|Model X": 6001
 , "Hyundai|Ioniq 5": 5736
 , "Ford|Mustang Mach-E": 5407
@@ -875,7 +868,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Genesis|GV60": 512
 , "Rivian|R1S": 225
 , "Hyundai|Ioniq 6": 222
-, "other": 1090
+, "other": 1075
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/",
@@ -911,7 +904,6 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 7905
 , "Genesis|GV70": 6331
 , "Rivian|R1S": 6110
-, "Volvo|EX40": 6067
 , "Tesla|Model X": 5900
 , "Kia|EV6": 4936
 , "Rivian|R1T": 4362
@@ -934,7 +926,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 1060
 , "Genesis|GV60": 808
 , "Subaru|Solterra": 574
-, "other": 1647
+, "other": 1596
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2023-us-vehicle-sales-figures-by-model/",
@@ -970,7 +962,6 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 11665
 , "Rivian|R1S": 11001
 , "Rivian|R1T": 8199
-, "Volvo|EX40": 7478
 , "Genesis|GV70": 6970
 , "Kia|EV6": 6470
 , "Tesla|Model X": 5600
@@ -990,5 +981,5 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Genesis|GV60": 898
 , "Audi|e-tron GT": 638
 , "Rivian|EDV": 200
-, "other": 3395
+, "other": 3361
 });
