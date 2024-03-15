@@ -25,6 +25,7 @@ db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3086
 , "Smart": 2487
 , "Volvo": 2283
+, "Suzuki": 2174
 , "Porsche": 2077
 , "Land Rover": 1655
 , "Honda": 1464
@@ -33,7 +34,7 @@ db.insert(db.countries.DE, "2017-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 538
 , "Tesla": 151
 , "Chevrolet": 80
-, "other": 4521
+, "other": 2347
 });
 
 db.insert(db.countries.DE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_01_xls.xls?__blob=publicationFile&v=2",
@@ -75,6 +76,7 @@ db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Peugeot": 4216
 , "Citroën": 3852
 , "Dacia": 3804
+, "Suzuki": 3399
 , "Mitsubishi": 3343
 , "Mini": 2731
 , "Honda": 2383
@@ -87,7 +89,7 @@ db.insert(db.countries.DE, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 604
 , "Tesla": 202
 , "Chevrolet": 44
-, "other": 5888
+, "other": 2489
 });
 
 db.insert(db.countries.DE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_02_xls.xls?__blob=publicationFile&v=2",
@@ -135,6 +137,7 @@ db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 4681
 , "Mitsubishi": 4494
 , "Mini": 4463
+, "Suzuki": 3828
 , "Porsche": 3493
 , "Smart": 3155
 , "Land Rover": 2897
@@ -144,7 +147,7 @@ db.insert(db.countries.DE, "2017-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 914
 , "Tesla": 670
 , "Chevrolet": 65
-, "other": 7844
+, "other": 4016
 });
 
 db.insert(db.countries.DE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_03_xls.xls?__blob=publicationFile&v=2",
@@ -190,6 +193,7 @@ db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 4338
 , "Mini": 3954
 , "Mitsubishi": 3933
+, "Suzuki": 3083
 , "Volvo": 3060
 , "Smart": 2938
 , "Porsche": 2906
@@ -200,7 +204,7 @@ db.insert(db.countries.DE, "2017-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 727
 , "Tesla": 197
 , "Chevrolet": 63
-, "other": 6092
+, "other": 3009
 });
 
 db.insert(db.countries.DE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_04_xls.xls?__blob=publicationFile&v=2",
@@ -247,6 +251,7 @@ db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 4466
 , "Volvo": 3720
 , "Smart": 3269
+, "Suzuki": 3143
 , "Porsche": 3129
 , "Land Rover": 2116
 , "Honda": 1736
@@ -255,7 +260,7 @@ db.insert(db.countries.DE, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 585
 , "Tesla": 322
 , "Chevrolet": 169
-, "other": 6390
+, "other": 3247
 });
 
 db.insert(db.countries.DE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_05_xls.xls?__blob=publicationFile&v=2",
@@ -304,6 +309,7 @@ db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 5086
 , "Mini": 4754
 , "Volvo": 4036
+, "Suzuki": 3619
 , "Smart": 3413
 , "Porsche": 2628
 , "Land Rover": 2099
@@ -313,7 +319,7 @@ db.insert(db.countries.DE, "2017-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 603
 , "Tesla": 353
 , "Chevrolet": 165
-, "other": 6767
+, "other": 3148
 });
 
 db.insert(db.countries.DE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_06_xls.xls?__blob=publicationFile&v=2",
@@ -362,6 +368,7 @@ db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 3811
 , "Volvo": 3168
 , "Smart": 2982
+, "Suzuki": 2835
 , "Porsche": 2520
 , "Land Rover": 2038
 , "Honda": 1368
@@ -370,7 +377,7 @@ db.insert(db.countries.DE, "2017-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 457
 , "Tesla": 180
 , "Chevrolet": 154
-, "other": 5853
+, "other": 3018
 });
 
 db.insert(db.countries.DE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_07_xls.xls?__blob=publicationFile&v=2",
@@ -417,6 +424,7 @@ db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Peugeot": 4536
 , "Citroën": 3921
 , "Mitsubishi": 3512
+, "Suzuki": 3404
 , "Mini": 3152
 , "Smart": 2382
 , "Volvo": 2242
@@ -428,7 +436,7 @@ db.insert(db.countries.DE, "2017-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 458
 , "Tesla": 198
 , "Chevrolet": 90
-, "other": 6231
+, "other": 2827
 });
 
 db.insert(db.countries.DE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_08_xls.xls?__blob=publicationFile&v=2",
@@ -478,6 +486,7 @@ db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Dacia": 4220
 , "Volvo": 3720
 , "Citroën": 3704
+, "Suzuki": 3669
 , "Mitsubishi": 3248
 , "Smart": 2666
 , "Porsche": 1934
@@ -488,7 +497,7 @@ db.insert(db.countries.DE, "2017-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 704
 , "Tesla": 346
 , "Chevrolet": 71
-, "other": 6303
+, "other": 2634
 });
 
 db.insert(db.countries.DE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_09_xls.xls?__blob=publicationFile&v=2",
@@ -537,6 +546,7 @@ db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3667
 , "Volvo": 3543
 , "Mitsubishi": 2991
+, "Suzuki": 2965
 , "Porsche": 2170
 , "Land Rover": 1868
 , "Honda": 1288
@@ -545,7 +555,7 @@ db.insert(db.countries.DE, "2017-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 485
 , "Tesla": 161
 , "Chevrolet": 51
-, "other": 5321
+, "other": 2356
 });
 
 db.insert(db.countries.DE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_10_xls.xls?__blob=publicationFile&v=2",
@@ -593,6 +603,7 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3928
 , "Mini": 3812
 , "Volvo": 3686
+, "Suzuki": 3116
 , "Mitsubishi": 2884
 , "Porsche": 2443
 , "Land Rover": 1962
@@ -602,7 +613,7 @@ db.insert(db.countries.DE, "2017-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 591
 , "Tesla": 262
 , "Chevrolet": 35
-, "other": 6200
+, "other": 3084
 });
 
 db.insert(db.countries.DE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_11_xls.xls?__blob=publicationFile&v=2",
@@ -651,6 +662,7 @@ db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Fiat": 3714
 , "Smart": 3654
 , "Citroën": 3506
+, "Suzuki": 2930
 , "Mitsubishi": 2185
 , "Porsche": 1725
 , "Honda": 1621
@@ -660,7 +672,7 @@ db.insert(db.countries.DE, "2017-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 368
 , "Tesla": 290
 , "Chevrolet": 39
-, "other": 5537
+, "other": 2607
 });
 
 db.insert(db.countries.DE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2017_12_xls.xls?__blob=publicationFile&v=2",
@@ -710,6 +722,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3048
 , "Porsche": 2854
 , "Volvo": 2711
+, "Suzuki": 2502
 , "Land Rover": 2087
 , "Honda": 1651
 , "Jeep": 1206
@@ -717,7 +730,7 @@ db.insert(db.countries.DE, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 551
 , "Tesla": 63
 , "Chevrolet": 59
-, "other": 5302
+, "other": 2800
 });
 
 db.insert(db.countries.DE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_01_xls.xls?__blob=publicationFile&v=2",
@@ -762,6 +775,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Kia": 4795
 , "Citroën": 4579
 , "Mitsubishi": 3572
+, "Suzuki": 3406
 , "Smart": 2964
 , "Mini": 2950
 , "Volvo": 2687
@@ -773,7 +787,7 @@ db.insert(db.countries.DE, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 460
 , "Tesla": 175
 , "Chevrolet": 75
-, "other": 6420
+, "other": 3014
 });
 
 db.insert(db.countries.DE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_02_xls.xls?__blob=publicationFile&v=3",
@@ -820,6 +834,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 5894
 , "Kia": 5877
 , "Mini": 4657
+, "Suzuki": 3971
 , "Smart": 3652
 , "Volvo": 3519
 , "Honda": 3083
@@ -830,7 +845,7 @@ db.insert(db.countries.DE, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 664
 , "Tesla": 428
 , "Chevrolet": 90
-, "other": 7877
+, "other": 3906
 });
 
 db.insert(db.countries.DE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_03_xls.xls?__blob=publicationFile&v=2",
@@ -881,6 +896,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 3450
 , "Mitsubishi": 3449
 , "Porsche": 3074
+, "Suzuki": 2910
 , "Honda": 1977
 , "Land Rover": 1412
 , "Jeep": 1316
@@ -888,7 +904,7 @@ db.insert(db.countries.DE, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 669
 , "Chevrolet": 106
 , "Tesla": 106
-, "other": 5907
+, "other": 2997
 });
 
 db.insert(db.countries.DE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_04_xls.xls?__blob=publicationFile&v=2",
@@ -941,6 +957,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 3606
 , "Smart": 3251
 , "Volvo": 3129
+, "Suzuki": 3003
 , "Porsche": 2984
 , "Honda": 1888
 , "Jeep": 1479
@@ -949,7 +966,7 @@ db.insert(db.countries.DE, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 622
 , "Tesla": 200
 , "Chevrolet": 143
-, "other": 6189
+, "other": 3186
 });
 
 db.insert(db.countries.DE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_05_xls.xls?__blob=publicationFile&v=3",
@@ -1003,6 +1020,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 4452
 , "Smart": 3974
 , "Porsche": 3568
+, "Suzuki": 3070
 , "Land Rover": 1731
 , "Jeep": 1671
 , "Honda": 1545
@@ -1010,7 +1028,7 @@ db.insert(db.countries.DE, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 695
 , "Tesla": 282
 , "Chevrolet": 115
-, "other": 6559
+, "other": 3489
 });
 
 db.insert(db.countries.DE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_06_xls.xls?__blob=publicationFile&v=3",
@@ -1063,6 +1081,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 3930
 , "Mini": 3676
 , "Nissan": 3663
+, "Suzuki": 2879
 , "Jeep": 1404
 , "Honda": 1236
 , "Land Rover": 982
@@ -1070,7 +1089,7 @@ db.insert(db.countries.DE, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 672
 , "Chevrolet": 136
 , "Tesla": 95
-, "other": 6537
+, "other": 3658
 });
 
 db.insert(db.countries.DE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_07_xls.xls?__blob=publicationFile&v=3",
@@ -1119,6 +1138,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 5137
 , "Nissan": 4525
 , "Mini": 3525
+, "Suzuki": 3286
 , "Porsche": 3161
 , "Smart": 3150
 , "Volvo": 2779
@@ -1129,7 +1149,7 @@ db.insert(db.countries.DE, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 797
 , "Chevrolet": 82
 , "Tesla": 82
-, "other": 7428
+, "other": 4142
 });
 
 db.insert(db.countries.DE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_08_xls.xls?__blob=publicationFile&v=2",
@@ -1177,6 +1197,7 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3972
 , "Seat": 3836
 , "Volvo": 3291
+, "Suzuki": 3104
 , "Smart": 2273
 , "Dacia": 2083
 , "Jeep": 1515
@@ -1187,7 +1208,7 @@ db.insert(db.countries.DE, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 473
 , "Tesla": 185
 , "Chevrolet": 45
-, "other": 5194
+, "other": 2090
 });
 
 db.insert(db.countries.DE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_09_xls.xls?__blob=publicationFile&v=2",
@@ -1237,6 +1258,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 4270
 , "Citroën": 3908
 , "Dacia": 3612
+, "Suzuki": 3049
 , "Nissan": 2616
 , "Honda": 1411
 , "Land Rover": 1203
@@ -1246,7 +1268,7 @@ db.insert(db.countries.DE, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 526
 , "Chevrolet": 123
 , "Tesla": 62
-, "other": 5427
+, "other": 2378
 });
 
 db.insert(db.countries.DE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_10_xls.xls?__blob=publicationFile&v=3",
@@ -1295,6 +1317,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 3767
 , "Smart": 3723
 , "Citroën": 3566
+, "Suzuki": 3258
 , "Nissan": 2660
 , "Jeep": 1481
 , "Land Rover": 1422
@@ -1304,7 +1327,7 @@ db.insert(db.countries.DE, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 483
 , "Tesla": 122
 , "Chevrolet": 60
-, "other": 5683
+, "other": 2425
 });
 
 db.insert(db.countries.DE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_11_xls.xls?__blob=publicationFile&v=2",
@@ -1352,6 +1375,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Fiat": 4472
 , "Kia": 4367
 , "Citroën": 3285
+, "Suzuki": 3092
 , "Mitsubishi": 2701
 , "Nissan": 2571
 , "Smart": 2347
@@ -1363,7 +1387,7 @@ db.insert(db.countries.DE, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 380
 , "Tesla": 105
 , "Chevrolet": 84
-, "other": 5121
+, "other": 2029
 });
 
 db.insert(db.countries.DE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2018_12_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1416,6 +1440,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3744
 , "Mitsubishi": 3290
 , "Smart": 3279
+, "Suzuki": 2965
 , "Nissan": 2879
 , "Land Rover": 1831
 , "Porsche": 1318
@@ -1425,7 +1450,7 @@ db.insert(db.countries.DE, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 543
 , "Tesla": 137
 , "Chevrolet": 72
-, "other": 5115
+, "other": 2150
 });
 
 db.insert(db.countries.DE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_01_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1478,6 +1503,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3705
 , "Volvo": 3431
 , "Mini": 3301
+, "Suzuki": 3190
 , "Nissan": 2897
 , "Porsche": 1456
 , "Honda": 1278
@@ -1487,7 +1513,7 @@ db.insert(db.countries.DE, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 642
 , "Subaru": 547
 , "Chevrolet": 85
-, "other": 5342
+, "other": 2152
 });
 
 db.insert(db.countries.DE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_02_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1538,6 +1564,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 4905
 , "Nissan": 4774
 , "Mini": 4690
+, "Suzuki": 4431
 , "Smart": 4113
 , "Porsche": 2723
 , "Tesla": 2367
@@ -1547,7 +1574,7 @@ db.insert(db.countries.DE, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 987
 , "Subaru": 514
 , "Chevrolet": 115
-, "other": 7362
+, "other": 2931
 });
 
 db.insert(db.countries.DE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_03_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1602,6 +1629,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3697
 , "Nissan": 3366
 , "Porsche": 3093
+, "Suzuki": 2591
 , "Land Rover": 1665
 , "Honda": 1408
 , "Jeep": 1293
@@ -1609,7 +1637,7 @@ db.insert(db.countries.DE, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 575
 , "Subaru": 497
 , "Chevrolet": 178
-, "other": 5507
+, "other": 2916
 });
 
 db.insert(db.countries.DE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_04_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1665,6 +1693,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3780
 , "Porsche": 3101
 , "Nissan": 3027
+, "Suzuki": 2980
 , "Land Rover": 1536
 , "Jeep": 1449
 , "Honda": 1257
@@ -1672,7 +1701,7 @@ db.insert(db.countries.DE, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 433
 , "Subaru": 428
 , "Chevrolet": 185
-, "other": 5854
+, "other": 2874
 });
 
 db.insert(db.countries.DE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_05_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1726,6 +1755,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 4693
 , "Mini": 4253
 , "Mitsubishi": 4187
+, "Suzuki": 3625
 , "Smart": 3526
 , "Nissan": 3340
 , "Porsche": 2420
@@ -1736,7 +1766,7 @@ db.insert(db.countries.DE, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 732
 , "Subaru": 343
 , "Chevrolet": 191
-, "other": 6526
+, "other": 2901
 });
 
 db.insert(db.countries.DE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_06_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1792,6 +1822,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3735
 , "Mitsubishi": 3709
 , "Porsche": 3070
+, "Suzuki": 2883
 , "Nissan": 2870
 , "Honda": 1417
 , "Land Rover": 1411
@@ -1800,7 +1831,7 @@ db.insert(db.countries.DE, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 607
 , "Subaru": 457
 , "Chevrolet": 247
-, "other": 5960
+, "other": 3077
 });
 
 db.insert(db.countries.DE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_07_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1856,6 +1887,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3940
 , "Porsche": 3392
 , "Volvo": 2995
+, "Suzuki": 2847
 , "Nissan": 2601
 , "Land Rover": 1679
 , "Jeep": 1425
@@ -1864,7 +1896,7 @@ db.insert(db.countries.DE, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 514
 , "Subaru": 462
 , "Chevrolet": 300
-, "other": 6437
+, "other": 3590
 });
 
 db.insert(db.countries.DE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_08_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1919,6 +1951,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Peugeot": 3855
 , "Citroën": 3679
 , "Nissan": 3154
+, "Suzuki": 2904
 , "Smart": 2826
 , "Dacia": 2744
 , "Porsche": 2512
@@ -1928,7 +1961,7 @@ db.insert(db.countries.DE, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Land Rover": 1053
 , "Jaguar": 501
 , "Subaru": 389
-, "other": 5076
+, "other": 2172
 });
 
 db.insert(db.countries.DE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_09_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -1985,13 +2018,14 @@ db.insert(db.countries.DE, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 3346
 , "Dacia": 2889
 , "Nissan": 2692
+, "Suzuki": 2360
 , "Land Rover": 1459
 , "Jeep": 1158
 , "Honda": 1117
 , "Jaguar": 567
 , "Subaru": 372
 , "Tesla": 293
-, "other": 4750
+, "other": 2390
 });
 
 db.insert(db.countries.DE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_10_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2047,13 +2081,14 @@ db.insert(db.countries.DE, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 3490
 , "Porsche": 2866
 , "Nissan": 2692
+, "Suzuki": 2089
 , "Jeep": 1285
 , "Land Rover": 1267
 , "Honda": 919
 , "Jaguar": 741
 , "Subaru": 418
 , "Tesla": 280
-, "other": 4620
+, "other": 2531
 });
 
 db.insert(db.countries.DE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_11_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2096,6 +2131,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Renault": 11010
 , "Dacia": 8144
 , "Seat": 7858
+, "Suzuki": 7751
 , "Mazda": 7133
 , "Fiat": 6330
 , "Peugeot": 6078
@@ -2114,7 +2150,7 @@ db.insert(db.countries.DE, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Land Rover": 1106
 , "Subaru": 634
 , "Jaguar": 555
-, "other": 10336
+, "other": 2585
 });
 
 db.insert(db.countries.DE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2019_12_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2170,13 +2206,14 @@ db.insert(db.countries.DE, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2983
 , "Porsche": 2012
 , "Land Rover": 1591
+, "Suzuki": 1304
 , "Jeep": 1028
 , "Honda": 958
 , "Jaguar": 887
 , "Subaru": 372
 , "Tesla": 367
 , "Smart": 108
-, "other": 3679
+, "other": 2375
 });
 
 db.insert(db.countries.DE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_01_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2236,6 +2273,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mazda": 3515
 , "Nissan": 3330
 , "Mini": 2792
+, "Suzuki": 2082
 , "Porsche": 1734
 , "Jeep": 1108
 , "Land Rover": 868
@@ -2244,7 +2282,7 @@ db.insert(db.countries.DE, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 685
 , "Jaguar": 667
 , "Subaru": 449
-, "other": 4250
+, "other": 2168
 });
 
 db.insert(db.countries.DE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_02_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2305,6 +2343,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mazda": 3048
 , "Citroën": 3033
 , "Tesla": 2263
+, "Suzuki": 1976
 , "Porsche": 1941
 , "Land Rover": 1244
 , "Jeep": 950
@@ -2312,7 +2351,7 @@ db.insert(db.countries.DE, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 719
 , "Smart": 641
 , "Subaru": 522
-, "other": 4118
+, "other": 2142
 });
 
 db.insert(db.countries.DE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_03_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2372,13 +2411,14 @@ db.insert(db.countries.DE, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 1326
 , "Nissan": 1086
 , "Land Rover": 963
+, "Suzuki": 912
 , "Tesla": 635
 , "Jeep": 603
 , "Jaguar": 602
 , "Honda": 380
 , "Smart": 265
 , "Subaru": 260
-, "other": 2500
+, "other": 1588
 });
 
 db.insert(db.countries.DE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_04_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2438,6 +2478,7 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 1853
 , "Porsche": 1745
 , "Nissan": 1570
+, "Suzuki": 1273
 , "Land Rover": 1050
 , "Jeep": 748
 , "Honda": 554
@@ -2445,7 +2486,7 @@ db.insert(db.countries.DE, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 485
 , "Smart": 379
 , "Tesla": 312
-, "other": 3199
+, "other": 1926
 });
 
 db.insert(db.countries.DE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_05_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2507,13 +2548,14 @@ db.insert(db.countries.DE, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2477
 , "Porsche": 2407
 , "Jeep": 1310
+, "Suzuki": 1212
 , "Honda": 1064
 , "Land Rover": 921
 , "Tesla": 841
 , "Smart": 580
 , "Jaguar": 520
 , "Subaru": 352
-, "other": 3454
+, "other": 2242
 });
 
 db.insert(db.countries.DE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_06_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2576,6 +2618,7 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mazda": 3848
 , "Nissan": 3473
 , "Porsche": 3143
+, "Suzuki": 2135
 , "Jeep": 1854
 , "Smart": 1806
 , "Honda": 1290
@@ -2583,7 +2626,7 @@ db.insert(db.countries.DE, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 749
 , "Jaguar": 470
 , "Tesla": 203
-, "other": 5289
+, "other": 3154
 });
 
 db.insert(db.countries.DE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_07_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2645,6 +2688,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 2846
 , "Volvo": 2672
 , "Jeep": 1999
+, "Suzuki": 1867
 , "Porsche": 1712
 , "Smart": 1379
 , "Honda": 1060
@@ -2652,7 +2696,7 @@ db.insert(db.countries.DE, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 434
 , "Jaguar": 298
 , "Polestar": 239
-, "other": 4886
+, "other": 3019
 });
 
 db.insert(db.countries.DE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_08_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2717,6 +2761,7 @@ db.insert(db.countries.DE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 3628
 , "Mitsubishi": 3518
 , "Tesla": 3065
+, "Suzuki": 2866
 , "Porsche": 2016
 , "Jeep": 1788
 , "Smart": 1661
@@ -2726,7 +2771,7 @@ db.insert(db.countries.DE, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 532
 , "Polestar": 149
 , "Cupra": 40
-, "other": 5278
+, "other": 2412
 });
 
 db.insert(db.countries.DE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_09_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2791,6 +2836,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2711
 , "Nissan": 2616
 , "Smart": 2441
+, "Suzuki": 2272
 , "Land Rover": 1245
 , "Jeep": 1131
 , "Honda": 1081
@@ -2799,7 +2845,7 @@ db.insert(db.countries.DE, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 411
 , "Tesla": 252
 , "Polestar": 176
-, "other": 4854
+, "other": 2582
 });
 
 db.insert(db.countries.DE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_10_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2867,6 +2913,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2975
 , "Mitsubishi": 2910
 , "Porsche": 2759
+, "Suzuki": 2316
 , "Tesla": 1680
 , "Jeep": 1449
 , "Land Rover": 1254
@@ -2875,7 +2922,7 @@ db.insert(db.countries.DE, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 483
 , "Subaru": 357
 , "Polestar": 114
-, "other": 4977
+, "other": 2661
 });
 
 db.insert(db.countries.DE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_11_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -2947,6 +2994,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 3078
 , "Porsche": 2813
 , "Mitsubishi": 2469
+, "Suzuki": 2200
 , "Jeep": 1719
 , "Honda": 1399
 , "Land Rover": 1265
@@ -2954,7 +3002,7 @@ db.insert(db.countries.DE, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Cupra": 579
 , "Subaru": 353
 , "Polestar": 340
-, "other": 5136
+, "other": 2936
 });
 
 db.insert(db.countries.DE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2020_12_xlsx.xlsx?__blob=publicationFile&v=2",
@@ -3027,6 +3075,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 1406
 , "Mazda": 1398
 , "Cupra": 1191
+, "Suzuki": 819
 , "Jeep": 793
 , "Land Rover": 634
 , "Tesla": 453
@@ -3034,7 +3083,7 @@ db.insert(db.countries.DE, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 196
 , "Subaru": 157
 , "Polestar": 136
-, "other": 2734
+, "other": 1915
 });
 
 db.insert(db.countries.DE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_01.xlsx?__blob=publicationFile&v=2",
@@ -3111,13 +3160,14 @@ db.insert(db.countries.DE, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 1550
 , "Mazda": 1421
 , "Land Rover": 1071
+, "Suzuki": 993
 , "Cupra": 804
 , "Jeep": 701
 , "Jaguar": 367
 , "Subaru": 306
 , "Honda": 288
 , "Polestar": 104
-, "other": 2824
+, "other": 1831
 });
 
 db.insert(db.countries.DE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_02.xlsx?__blob=publicationFile&v=2",
@@ -3189,6 +3239,7 @@ db.insert(db.countries.DE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 3008
 , "Mitsubishi": 2889
 , "Smart": 2592
+, "Suzuki": 2315
 , "Cupra": 1683
 , "Land Rover": 1650
 , "Jeep": 1293
@@ -3196,7 +3247,7 @@ db.insert(db.countries.DE, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Honda": 594
 , "Subaru": 471
 , "Polestar": 208
-, "other": 5226
+, "other": 2911
 });
 
 db.insert(db.countries.DE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_03.xlsx?__blob=publicationFile&v=2",
@@ -3272,13 +3323,14 @@ db.insert(db.countries.DE, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2014
 , "Land Rover": 1616
 , "Jeep": 1458
+, "Suzuki": 1304
 , "Cupra": 1155
 , "Honda": 732
 , "Jaguar": 703
 , "Tesla": 484
 , "Subaru": 434
 , "Polestar": 154
-, "other": 3897
+, "other": 2593
 });
 
 db.insert(db.countries.DE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_04.xlsx?__blob=publicationFile&v=6",
@@ -3357,6 +3409,7 @@ db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Dacia": 2629
 , "Smart": 2200
 , "Nissan": 1973
+, "Suzuki": 1941
 , "Cupra": 1508
 , "Jeep": 1051
 , "Land Rover": 949
@@ -3364,7 +3417,7 @@ db.insert(db.countries.DE, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 490
 , "Jaguar": 383
 , "Polestar": 181
-, "other": 4436
+, "other": 2495
 });
 
 db.insert(db.countries.DE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_05.xlsx?__blob=publicationFile&v=5",
@@ -3437,6 +3490,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 4466
 , "Mini": 4121
 , "Dacia": 4051
+, "Suzuki": 3757
 , "Volvo": 3680
 , "Mitsubishi": 3665
 , "Porsche": 2625
@@ -3449,7 +3503,7 @@ db.insert(db.countries.DE, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 491
 , "Jaguar": 449
 , "Polestar": 152
-, "other": 6375
+, "other": 2618
 });
 
 db.insert(db.countries.DE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_06.xlsx?__blob=publicationFile&v=4",
@@ -3521,6 +3575,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 3566
 , "Mazda": 3351
 , "Porsche": 2579
+, "Suzuki": 1997
 , "Nissan": 1978
 , "Cupra": 1514
 , "Smart": 1263
@@ -3531,7 +3586,7 @@ db.insert(db.countries.DE, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 373
 , "Jaguar": 361
 , "Polestar": 185
-, "other": 4758
+, "other": 2761
 });
 
 db.insert(db.countries.DE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_07.xlsx?__blob=publicationFile&v=3",
@@ -3608,6 +3663,7 @@ db.insert(db.countries.DE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Dacia": 3195
 , "Citroën": 2925
 , "Peugeot": 2921
+, "Suzuki": 2562
 , "Mini": 2375
 , "Volvo": 2292
 , "Cupra": 2063
@@ -3620,7 +3676,7 @@ db.insert(db.countries.DE, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 309
 , "Jaguar": 240
 , "Polestar": 172
-, "other": 5860
+, "other": 3298
 });
 
 db.insert(db.countries.DE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_08.xlsx?__blob=publicationFile&v=8",
@@ -3690,6 +3746,7 @@ db.insert(db.countries.DE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Fiat": 6205
 , "Seat": 5985
 , "Mazda": 4417
+, "Suzuki": 4299
 , "Mitsubishi": 3593
 , "Volvo": 3269
 , "Dacia": 2978
@@ -3706,7 +3763,7 @@ db.insert(db.countries.DE, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 409
 , "Polestar": 311
 , "Jaguar": 209
-, "other": 7617
+, "other": 3318
 });
 
 db.insert(db.countries.DE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_09.xlsx?__blob=publicationFile&v=5",
@@ -3787,6 +3844,7 @@ db.insert(db.countries.DE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 2430
 , "Nissan": 1550
 , "Tesla": 1469
+, "Suzuki": 1450
 , "Jeep": 1182
 , "Cupra": 1119
 , "Land Rover": 865
@@ -3794,7 +3852,7 @@ db.insert(db.countries.DE, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 435
 , "Polestar": 325
 , "Jaguar": 185
-, "other": 4685
+, "other": 3235
 });
 
 db.insert(db.countries.DE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_10.xlsx?__blob=publicationFile&v=2",
@@ -3875,6 +3933,7 @@ db.insert(db.countries.DE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2460
 , "Mazda": 2421
 , "Citroën": 2357
+, "Suzuki": 1913
 , "Nissan": 1517
 , "Cupra": 1460
 , "Jeep": 1145
@@ -3884,7 +3943,7 @@ db.insert(db.countries.DE, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 454
 , "Jaguar": 260
 , "Polestar": 234
-, "other": 4544
+, "other": 2631
 });
 
 db.insert(db.countries.DE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_11.xlsx?__blob=publicationFile&v=3",
@@ -3964,6 +4023,7 @@ db.insert(db.countries.DE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 5011
 , "Kia": 4863
 , "Peugeot": 4620
+, "Suzuki": 4016
 , "Mini": 3978
 , "Porsche": 3759
 , "Mitsubishi": 3525
@@ -3979,7 +4039,7 @@ db.insert(db.countries.DE, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 469
 , "Subaru": 342
 , "Jaguar": 267
-, "other": 7514
+, "other": 3498
 });
 
 db.insert(db.countries.DE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2021_12.xlsx?__blob=publicationFile&v=5",
@@ -4066,6 +4126,7 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 1336
 , "Smart": 1192
 , "Jeep": 1156
+, "Suzuki": 852
 , "Land Rover": 623
 , "Honda": 545
 , "Tesla": 419
@@ -4073,7 +4134,7 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 179
 , "MG": 179
 , "Polestar": 174
-, "other": 3316
+, "other": 2464
 });
 
 db.insert(db.countries.DE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_01.xlsx?__blob=publicationFile&v=4",
@@ -4163,13 +4224,14 @@ db.insert(db.countries.DE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 1885
 , "Smart": 1313
 , "Jeep": 1065
+, "Suzuki": 756
 , "MG": 650
 , "Honda": 607
 , "Land Rover": 557
 , "Subaru": 385
 , "Polestar": 364
 , "Jaguar": 329
-, "other": 3369
+, "other": 2613
 });
 
 db.insert(db.countries.DE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_02.xlsx?__blob=publicationFile&v=6",
@@ -4260,6 +4322,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2948
 , "Nissan": 2864
 , "Smart": 1794
+, "Suzuki": 1543
 , "Jeep": 1392
 , "Land Rover": 940
 , "Honda": 852
@@ -4267,7 +4330,7 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 571
 , "MG": 542
 , "Jaguar": 353
-, "other": 4865
+, "other": 3322
 });
 
 db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_03.xlsx?__blob=publicationFile&v=4",
@@ -4352,12 +4415,13 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jeep": 1285
 , "Land Rover": 1200
 , "MG": 1065
+, "Suzuki": 831
 , "Honda": 719
 , "Tesla": 650
 , "Polestar": 467
 , "Subaru": 325
 , "Jaguar": 302
-, "other": 3934
+, "other": 3103
 });
 
 db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/05/19/mitsubishi-tops-ev-sales-in-germany-in-april/",
@@ -4447,13 +4511,14 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 1275
 , "Land Rover": 1118
 , "Jeep": 1095
+, "Suzuki": 953
 , "Honda": 878
 , "MG": 818
 , "Polestar": 460
 , "Tesla": 293
 , "Jaguar": 245
 , "Subaru": 230
-, "other": 3843
+, "other": 2890
 });
 
 db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/06/18/ford-tops-ev-sales-in-germany-in-may-yes-ford/",
@@ -4545,6 +4610,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2258
 , "Volvo": 2188
 , "Jeep": 1233
+, "Suzuki": 1223
 , "Land Rover": 1077
 , "MG": 927
 , "Honda": 662
@@ -4552,7 +4618,7 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 301
 , "Jaguar": 255
 , "Polestar": 241
-, "other": 4831
+, "other": 3608
 });
 
 db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_06.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/07/23/26-of-new-car-sales-in-germany-have-a-plug-14-fully-electric/",
@@ -4643,6 +4709,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2708
 , "Volvo": 2618
 , "Mitsubishi": 2047
+, "Suzuki": 1934
 , "Nissan": 1803
 , "Land Rover": 1411
 , "Mazda": 1295
@@ -4654,7 +4721,7 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 232
 , "Polestar": 194
 , "Smart": 189
-, "other": 8372
+, "other": 6438
 });
 
 db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_07.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/08/21/14-of-new-car-sales-in-germany-fully-electric-26-have-a-plug/",
@@ -4745,6 +4812,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 1799
 , "Nissan": 1584
 , "Land Rover": 1336
+, "Suzuki": 997
 , "MG": 888
 , "Jeep": 645
 , "Honda": 515
@@ -4752,7 +4820,7 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 244
 , "Polestar": 241
 , "Smart": 130
-, "other": 4102
+, "other": 3105
 });
 
 db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_08.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/09/18/16-of-new-car-sales-in-germany-fully-electric-28-have-a-plug/",
@@ -4845,6 +4913,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 2358
 , "Mitsubishi": 2110
 , "Nissan": 2045
+, "Suzuki": 1894
 , "MG": 1760
 , "Land Rover": 1030
 , "Honda": 736
@@ -4853,7 +4922,7 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 345
 , "Subaru": 283
 , "Jaguar": 216
-, "other": 4885
+, "other": 2991
 });
 
 db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_09.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/10/16/19-of-new-car-sales-in-germany-fully-electric-32-have-a-plug/",
@@ -4950,11 +5019,12 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 1073
 , "Land Rover": 939
 , "Jeep": 912
+, "Suzuki": 806
 , "Smart": 656
 , "Honda": 583
 , "Subaru": 225
 , "Jaguar": 187
-, "other": 4176
+, "other": 3370
 });
 
 db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/11/19/ford-has-1-plugin-vehicle-in-germany-in-october/",
@@ -5048,6 +5118,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2532
 , "Citroën": 2275
 , "Jeep": 2133
+, "Suzuki": 2064
 , "Polestar": 1669
 , "MG": 1637
 , "Smart": 1440
@@ -5055,7 +5126,7 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Honda": 564
 , "Subaru": 339
 , "Jaguar": 242
-, "other": 5893
+, "other": 3829
 });
 
 db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_11.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/12/30/open-the-floodgates-record-electric-car-sales-month-in-germany-22-of-new-cars-fully-electric-39-have-a-plug/",
@@ -5153,12 +5224,13 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2724
 , "Citroën": 2663
 , "Smart": 1943
+, "Suzuki": 1730
 , "Land Rover": 991
 , "Polestar": 887
 , "Honda": 635
 , "Jaguar": 273
 , "Subaru": 255
-, "other": 10367
+, "other": 8637
 });
 
 db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_12.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/01/20/31-of-new-vehicle-sales-plugin-sales-in-germany-in-2022/",
@@ -5252,6 +5324,7 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 2269
 , "Volvo": 2233
 , "Nissan": 1998
+, "Suzuki": 1809
 , "Cupra": 1749
 , "Mini": 1594
 , "Land Rover": 1140
@@ -5265,7 +5338,7 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 154
 , "Genesis": 81
 , "BYD": 50
-, "other": 4683
+, "other": 2874
 });
 
 db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_01.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/02/23/the-battle-for-germany-begins-tesla-leads-on-models-brand-volkswagen-group-1st-among-oems/",
@@ -5359,6 +5432,7 @@ db.insert(db.countries.DE, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Cupra": 2735
 , "Porsche": 2580
 , "Nissan": 2460
+, "Suzuki": 2121
 , "MG": 1330
 , "Land Rover": 907
 , "Smart": 846
@@ -5369,7 +5443,7 @@ db.insert(db.countries.DE, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 254
 , "Polestar": 125
 , "Genesis": 95
-, "other": 5107
+, "other": 2986
 });
 
 db.insert(db.countries.DE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_02.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/03/22/tesla-model-y-2-best-selling-automobile-in-germany/",
@@ -5462,6 +5536,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Cupra": 4127
 , "Citroën": 4028
 , "Porsche": 3548
+, "Suzuki": 3283
 , "MG": 2010
 , "Smart": 1809
 , "Mitsubishi": 1658
@@ -5474,7 +5549,7 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 164
 , "Nio": 122
 , "Genesis": 68
-, "other": 7456
+, "other": 4173
 });
 
 db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_03.xlsx?__blob=publicationFile&v=2",
@@ -5574,6 +5649,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 1560
 , "Mitsubishi": 1400
 , "MG": 1163
+, "Suzuki": 1119
 , "Land Rover": 818
 , "Jeep": 590
 , "Polestar": 544
@@ -5584,7 +5660,7 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Genesis": 80
 , "BYD": 47
 , "Nio": 25
-, "other": 4397
+, "other": 3278
 });
 
 db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_04.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/05/26/the-battle-for-germanys-ev-market-part-iv-tesla-model-y-vs-volkswagen-meb-family/",
@@ -5684,6 +5760,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "MG": 1780
 , "Smart": 1623
 , "Mitsubishi": 1538
+, "Suzuki": 1478
 , "Jeep": 960
 , "Land Rover": 884
 , "Polestar": 629
@@ -5694,7 +5771,7 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Genesis": 114
 , "BYD": 54
 , "Nio": 44
-, "other": 5217
+, "other": 3739
 });
 
 db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_05.xlsx?__blob=publicationFile&v=2",
@@ -5792,6 +5869,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 3417
 , "Nissan": 2757
 , "MG": 2633
+, "Suzuki": 1751
 , "Smart": 1706
 , "Mitsubishi": 1532
 , "Land Rover": 1470
@@ -5804,7 +5882,7 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nio": 145
 , "Genesis": 103
 , "BYD": 63
-, "other": 5944
+, "other": 4193
 });
 
 db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_06.xlsx?__blob=publicationFile&v=7, https://cleantechnica.com/2023/07/24/the-battle-for-germanys-ev-market-part-vi-tesla-model-y-vs-volkswagen-meb-family/",
@@ -5904,6 +5982,7 @@ db.insert(db.countries.DE, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 2801
 , "Nissan": 2478
 , "MG": 2239
+, "Suzuki": 2160
 , "Jeep": 1618
 , "Land Rover": 1459
 , "Smart": 1393
@@ -5916,7 +5995,7 @@ db.insert(db.countries.DE, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 221
 , "Genesis": 90
 , "Nio": 44
-, "other": 6373
+, "other": 4213
 });
 
 db.insert(db.countries.DE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_07.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2023/08/26/the-battle-for-germanys-ev-market-part-vii-vw-id-4-wins-in-july/",
@@ -6015,6 +6094,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Volvo": 3312
 , "Smart": 2947
 , "Nissan": 2742
+, "Suzuki": 2735
 , "MG": 2454
 , "Porsche": 2311
 , "GWM": 2211
@@ -6028,7 +6108,7 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nio": 411
 , "Jaguar": 242
 , "Genesis": 128
-, "other": 6869
+, "other": 4134
 });
 
 db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_08.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/09/20/the-battle-for-germanys-ev-market-part-viii-early-christmas-edition/",
@@ -6126,6 +6206,7 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mini": 3517
 , "Volvo": 3194
 , "Nissan": 2875
+, "Suzuki": 2852
 , "Porsche": 2280
 , "Mitsubishi": 2100
 , "Jeep": 1383
@@ -6140,7 +6221,7 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "BYD": 196
 , "Nio": 80
 , "Genesis": 56
-, "other": 5930
+, "other": 3078
 });
 
 db.insert(db.countries.DE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_09.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/10/24/the-battle-for-germanys-ev-market-part-ix-das-hangover-edition/",
@@ -6241,6 +6322,7 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Porsche": 2755
 , "MG": 2113
 , "Mitsubishi": 1753
+, "Suzuki": 1722
 , "Jeep": 1401
 , "Land Rover": 1207
 , "Smart": 887
@@ -6252,7 +6334,7 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 272
 , "BYD": 226
 , "Genesis": 127
-, "other": 4708
+, "other": 2986
 });
 
 db.insert(db.countries.DE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_10.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2023/12/20/the-battle-for-germanys-ev-market-part-xi-bmw-shines/",
@@ -6354,6 +6436,7 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nissan": 2744
 , "Mitsubishi": 2515
 , "Porsche": 2331
+, "Suzuki": 1884
 , "MG": 1673
 , "Jeep": 1579
 , "Smart": 1339
@@ -6366,7 +6449,7 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 205
 , "Genesis": 123
 , "Nio": 50
-, "other": 4887
+, "other": 3003
 });
 
 db.insert(db.countries.DE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_11.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/12/20/the-battle-for-germanys-ev-market-part-xi-bmw-shines/",
@@ -6466,6 +6549,7 @@ db.insert(db.countries.DE, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Citroën": 2589
 , "MG": 2577
 , "Nissan": 2412
+, "Suzuki": 2207
 , "Mitsubishi": 2049
 , "Jeep": 1980
 , "Porsche": 1828
@@ -6479,7 +6563,7 @@ db.insert(db.countries.DE, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 198
 , "Genesis": 109
 , "Nio": 39
-, "other": 4751
+, "other": 2544
 });
 
 db.insert(db.countries.DE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_12.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2024/01/21/25-of-new-vehicle-sales-plugin-sales-in-germany-in-2023/",
@@ -6581,6 +6665,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 2348
 , "Mini": 2158
 , "Smart": 1180
+, "Suzuki": 1153
 , "Jeep": 1147
 , "Land Rover": 1038
 , "MG": 896
@@ -6592,7 +6677,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 90
 , "Genesis": 36
 , "Nio": 27
-, "other": 4226
+, "other": 3073
 });
 
 db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_01.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2024/02/17/germany-ev-sales-report-back-to-the-past/",
