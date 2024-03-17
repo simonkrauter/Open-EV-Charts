@@ -983,3 +983,41 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|EDV": 200
 , "other": 3361
 });
+
+db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
+{ "other": 3908114
+});
+
+db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/01/14/us-ev-market-grows-29-in-4th-quarter-tesla-holds-56-market-share/",
+{ "Tesla|Model Y": 105000
+, "Tesla|Model 3": 47000
+, "Chevrolet|Bolt": 12551
+, "Ford|F-150 Lightning": 11905
+, "Ford|Mustang Mach-E": 11889
+, "Tesla|Model X": 11000
+, "Volkswagen|ID.4": 10634
+, "Hyundai|Ioniq 5": 8612
+, "Tesla|Model S": 7500
+, "BMW|iX": 5274
+, "Mercedes-Benz|EQB": 5093
+, "Hyundai|Ioniq 6": 4681
+, "Mercedes-Benz|EQE SUV": 4271
+, "Kia|EV6": 4081
+, "Audi|Q8 e-tron": 3835
+, "Nissan|Ariya": 3765
+, "Subaru|Solterra": 3109
+, "Toyota|bZ4X": 2843
+, "Audi|Q4 e-tron": 2798
+, "Ford|E-Transit": 2143
+, "Mercedes-Benz|EQS SUV": 1903
+, "Porsche|Taycan": 1497
+, "Nissan|Leaf": 1348
+, "Mercedes-Benz|EQE": 1049
+, "Audi|e-tron GT": 778
+, "Chevrolet|Blazer EV": 463
+, "Chevrolet|Silverado EV": 443
+, "Tesla|Cybertruck": 190
+, "Rivian|other": 13972
+, "Volvo|other": 550
+, "other": 12936
+});
