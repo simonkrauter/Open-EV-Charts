@@ -991,7 +991,7 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.ma
 db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/01/14/us-ev-market-grows-29-in-4th-quarter-tesla-holds-56-market-share/",
 { "Tesla|Model Y": 105000
 , "Tesla|Model 3": 47000
-, "Chevrolet|Bolt": 12551
+, "Chevrolet|Bolt/Bolt EUV": 12551
 , "Ford|F-150 Lightning": 11905
 , "Ford|Mustang Mach-E": 11889
 , "Tesla|Model X": 11000
