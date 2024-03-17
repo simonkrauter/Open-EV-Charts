@@ -634,44 +634,35 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "other": 66
 });
 
-db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "Calculated from yearly data from https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-brand/ TODO: numbers per brand wanted",
-{ "other": 3524572
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+{ "other": 3310906
 });
 
-db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/04/27/us-electric-vehicle-sales-up-66-in-1st-quarter/ TODO: numbers per model wanted",
-{ "other": 148633
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220604220702/https://cleantechnica.com/2022/04/12/tesla-model-3-model-y-score-100000-us-sales-in-1st-quarter-of-2022/",
+{ "Tesla|Model Y": 50834
+, "Tesla|Model 3": 46800
+, "Tesla|Model S": 7424
+, "Tesla|Model X": 7000
+, "Ford|Mustang Mach-E": 6734
+, "Hyundai|Ioniq 5": 6244
+, "Kia|EV6": 5281
+, "Nissan|Leaf": 4371
+, "Volkswagen|ID.4": 2755
+, "Audi|Q8 e-tron": 2680
+, "Mercedes-Benz|EQS": 2091
+, "Porsche|Taycan": 1925
+, "Rivian|R1T": 1227
+, "Audi|e-tron GT": 572
+, "Chevrolet|Bolt/Bolt EUV": 358
+, "BMW|iX": 347
+, "other": 1990
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
-{ "Ford": 453579
-, "Toyota": 416834
-, "Chevrolet": 383816
-, "Honda": 215165
-, "Jeep": 186662
-, "Hyundai": 184191
-, "Kia": 172847
-, "Nissan": 172620
-, "Ram": 137873
-, "Subaru": 131449
-, "Tesla": 118700
-, "Mercedes-Benz": 98809
-, "BMW": 78903
-, "Volkswagen": 77289
-, "Mazda": 60535
-, "Audi": 49642
-, "Volvo": 27828
-, "Mitsubishi": 21871
-, "Porsche": 19489
-, "Genesis": 13945
-, "Land Rover": 10471
-, "Mini": 5129
-, "Polestar": 2300
-, "Jaguar": 1950
-, "Rivian": 700
-, "other": 397716
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+{ "other": 3519313
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.), https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/",
 { "Tesla|Model Y": 53000
 , "Tesla|Model 3": 49900
 , "Ford|Mustang Mach-E": 10941
@@ -694,40 +685,13 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|R1T": 700
 , "Genesis|GV60": 233
 , "Toyota|bZ4X": 232
-, "Jaguar|I-Pace": 121
-, "other": 773
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
-{ "Ford": 441487
-, "Toyota": 411957
-, "Chevrolet": 371415
-, "Honda": 200258
-, "Hyundai": 184431
-, "Kia": 181168
-, "Jeep": 161348
-, "Nissan": 142848
-, "Ram": 139295
-, "Subaru": 137320
-, "Tesla": 113998
-, "Mercedes-Benz": 86412
-, "Volkswagen": 86079
-, "BMW": 78029
-, "Mazda": 72589
-, "Audi": 38667
-, "Volvo": 21631
-, "Mitsubishi": 16781
-, "Porsche": 16580
-, "Genesis": 15131
-, "Land Rover": 11532
-, "Mini": 7177
-, "Rivian": 6099
-, "Jaguar": 2359
-, "Polestar": 2300
-, "other": 388950
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+{ "other": 3417470
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.), https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/",
 { "Tesla|Model Y": 54000
 , "Tesla|Model 3": 47999
 , "Chevrolet|Bolt": 14709
@@ -754,63 +718,39 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 326
 , "Mercedes-Benz|EQS SUV": 277
 , "Jaguar|I-Pace": 104
-, "other": 1009
+, "other": 19180
 });
 
-db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/",
-{ "Ford": 459175
-, "Toyota": 456555
-, "Chevrolet": 415025
-, "Honda": 227596
-, "Hyundai": 195967
-, "Nissan": 177442
-, "Kia": 175401
-, "Subaru": 155466
-, "Jeep": 143320
-, "Tesla": 140000
-, "Ram": 129874
-, "BMW": 100899
-, "Mazda": 79517
-, "Audi": 54052
-, "Volvo": 29822
-, "Volkswagen": 22302
-, "Mitsubishi": 20755
-, "Genesis": 15399
-, "Mini": 10319
-, "Rivian": 6000
-, "Polestar": 2100
-, "Land Rover": 1118
-, "other": 406672
+db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+{ "other": 3610729
 });
 
-db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.)",
-{ "Tesla|Model Y": 63800
-, "Tesla|Model 3": 57600
-, "Chevrolet|Bolt": 16108
+db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
+{ "Tesla|Model Y": 84000
+, "Tesla|Model 3": 54000
+, "Chevrolet|Bolt/Bolt EUV": 16108
 , "Ford|Mustang Mach-E": 11369
-, "Tesla|Model X": 9800
-, "Tesla|Model S": 8800
-, "Genesis|GV70": 5834
-, "Genesis|GV80": 4902
+, "Volkswagen|ID.4": 9439
+, "Tesla|Model X": 7000
+, "Ford|F-150 Lightning": 6857
+, "Tesla|Model S": 5000
 , "Hyundai|Ioniq 5": 4490
-, "Volkswagen|ID.4": 4056
-, "Rivian|R1T": 3900
+, "Mercedes-Benz|EQS": 4339
 , "Nissan|Leaf": 3127
 , "Kia|EV6": 2934
+, "BMW|iX": 2510
+, "Ford|E-Transit": 2113
 , "Audi|Q4 e-tron": 2413
-, "Polestar|2": 2079
-, "BMW|iX": 1673
-, "Audi|Q8 e-tron": 1529
-, "Volvo|EC40": 1403
-, "Rivian|EDV": 1300
-, "Genesis|G80": 1030
-, "Toyota|bZ4X": 985
+, "Porsche|Taycan": 1497
+, "Audi|Q8 e-tron": 1530
+, "Toyota|bZ4X": 988
+, "Mercedes-Benz|EQB": 933
 , "Subaru|Solterra": 919
-, "Rivian|R1S": 800
-, "Genesis|GV60": 550
+, "Mercedes-Benz|EQE": 384
 , "Audi|e-tron GT": 314
-, "Nissan|Ariya": 201
-, "other": 922
+, "Rivian|other": 8054
+, "Volvo|other": 2725
+, "other": 2093
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
