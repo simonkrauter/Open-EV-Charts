@@ -1213,8 +1213,12 @@ var db = {
     // parse general hints
     const keyword = " (Incomplete: ";
     for (const text in sources) {
-      const i = text.indexOf(keyword);
+      var i = text.indexOf(keyword);
       if (i == -1)
+        continue;
+      i = i + keyword.length;
+      const j = text.indexOf(")", i)
+      if (j == -1)
         continue;
       if (text.includes("not listed by name") && chartConfig.xProperty != this.xProperties.model)
         continue;
@@ -1222,7 +1226,7 @@ var db = {
       var hint = "";
       if (this.isMultiCountry(chartConfig))
         hint = hint + this.countryNames[sourceInfo.country] + ": ";
-      hint = hint + text.substr(i + keyword.length, text.length - i - keyword.length - 1);
+      hint = hint + text.substr(i, j - i);
       if (!hints.includes(hint))
         hints.push(hint);
     }
