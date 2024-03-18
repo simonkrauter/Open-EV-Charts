@@ -5190,3 +5190,104 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Subaru|other": 3
 , "other": 189
 });
+
+db.insert(db.countries.SE, "2024-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3670
+, "Toyota": 1760
+, "Volkswagen": 1693
+, "Kia": 1412
+, "Tesla": 1058
+, "Audi": 983
+, "Mercedes-Benz": 965
+, "BMW": 956
+, "Škoda": 852
+, "Peugeot": 753
+, "Ford": 418
+, "Subaru": 367
+, "Nissan": 330
+, "Polestar": 300
+, "Cupra": 271
+, "Renault": 266
+, "Hyundai": 265
+, "Porsche": 253
+, "Suzuki": 243
+, "Seat": 218
+, "Citroën": 189
+, "Mazda": 183
+, "Dacia": 174
+, "Opel": 125
+, "MG": 100
+, "Fiat": 87
+, "Mitsubishi": 79
+, "Mini": 61
+, "BYD": 58
+, "Honda": 52
+, "Land Rover": 27
+, "Nio": 16
+, "GWM": 7
+, "Chevrolet": 3
+, "Jaguar": 3
+, "other": 569
+});
+
+db.insert(db.countries.SE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 997
+, "Volvo|EX40": 561
+, "Volvo|EX30": 360
+, "Polestar|2": 300
+, "Volvo|EC40": 242
+, "Volkswagen|ID.4": 220
+, "Audi|Q4 e-tron": 218
+, "Kia|EV6": 184
+, "Škoda|Enyaq": 184
+, "BMW|i4": 155
+, "Kia|EV9": 149
+, "Cupra|Born": 123
+, "Nissan|Leaf": 106
+, "Mercedes-Benz|EQE": 102
+, "Audi|Q8 e-tron": 86
+, "Toyota|bZ4X": 82
+, "Volkswagen|ID.3": 82
+, "MG|MG4 EV": 75
+, "Kia|Niro EV": 71
+, "Tesla|Model 3": 58
+, "Mercedes-Benz|EQA": 54
+, "Volkswagen|ID.5": 53
+, "BMW|iX1": 47
+, "BMW|iX": 45
+, "Mercedes-Benz|EQB": 45
+, "Nissan|Ariya": 37
+, "Volkswagen|ID. Buzz": 33
+, "BMW|iX3": 32
+, "Hyundai|Ioniq 5": 32
+, "BMW|i5": 28
+, "BYD|Yuan Plus": 24
+, "Hyundai|Kona Electric": 20
+, "BYD|Dolphin": 18
+, "MG|ZS EV": 16
+, "BYD|Seal": 14
+, "Volkswagen|ID.7": 13
+, "Ford|Mustang Mach-E": 12
+, "Porsche|Taycan": 12
+, "Peugeot|e-Rifter": 11
+, "Renault|Megane E-Tech": 10
+, "Hyundai|Ioniq 6": 9
+, "Nio|ET7": 9
+, "MG|MG5 EV": 8
+, "Mercedes-Benz|eVito": 8
+, "Mini|Cooper SE": 8
+, "Citroën|ë-Berlingo Electric": 7
+, "GWM|Ora 03": 7
+, "Peugeot|e-308": 7
+, "Peugeot|e-208": 6
+, "Subaru|Solterra": 5
+, "Toyota|Proace City Electric": 5
+, "Volvo|other": 22
+, "Nio|other": 7
+, "Mercedes-Benz|other": 5
+, "Audi|other": 3
+, "Opel|other": 3
+, "Peugeot|other": 3
+, "Tesla|other": 3
+, "other": 175
+});
