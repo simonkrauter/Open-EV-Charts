@@ -2444,64 +2444,65 @@ db.insert(db.countries.IT, "2023-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 });
 
 db.insert(db.countries.IT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/3, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Marzo%202023_6501bbc93a92a.pdf",
-{ "Tesla|Model Y": 1697
-, "Tesla|Model 3": 1123
-, "Smart|Fortwo ED": 554
-, "Fiat|500e": 452
-, "Dacia|Spring": 366
-, "MG|MG4 EV": 284
-, "Renault|Megane E-Tech": 279
-, "Peugeot|e-208": 269
-, "Volkswagen|ID.3": 220
-, "Renault|Twingo E-Tech": 215
-, "Audi|Q4 e-tron": 208
-, "Mercedes-Benz|EQA": 138
-, "Polestar|2": 137
-, "Mini|Cooper SE": 135
-, "BMW|iX1": 132
-, "Cupra|Born": 131
-, "Citroën|ë-C4": 121
-, "Toyota|Proace City Electric": 115
-, "Renault|Zoe": 103
-, "Mercedes-Benz|EQB": 97
-, "Fiat|E-Doblò": 96
-, "Opel|Corsa-e": 89
-, "Ford|Mustang Mach-E": 85
-, "Peugeot|e-2008": 83
-, "BMW|i4": 81
-, "Audi|Q8 e-tron": 77
-, "Volkswagen|ID. Buzz": 76
-, "Opel|Mokka-e": 75
-, "Hyundai|Kona Electric": 68
-, "BMW|iX": 65
-, "Volkswagen|ID.4": 64
-, "MG|Marvel R": 58
-, "Tesla|Model S": 57
-, "Volvo|EX40": 52
-, "BMW|iX3": 42
-, "Jeep|Avenger EV": 40
-, "Tesla|Model X": 34
-, "MG|MG5 EV": 33
-, "Fiat|E-Ulysse": 32
-, "Nissan|Leaf": 32
-, "Škoda|Enyaq": 32
-, "Volkswagen|ID.5": 31
-, "Volvo|EC40": 30
-, "Toyota|Proace Electric": 29
-, "Mercedes-Benz|EQE": 27
-, "Citroën|ë-Berlingo Electric": 23
-, "Mazda|MX-30 BEV": 21
-, "Hyundai|Ioniq 5": 20
-, "Jaguar|I-Pace": 19
-, "MG|ZS EV": 19
-, "Kia|other": 36
-, "Mercedes-Benz|other": 29
-, "Honda|other": 18
-, "Nissan|other": 15
-, "Peugeot|other": 13
-, "BMW|other": 12
-, "Porsche|other": 12
-, "Audi|other": 8
+{ "Tesla|Model Y": 1654
+, "Tesla|Model 3": 1094
+, "Smart|Fortwo ED": 540
+, "Fiat|500e": 440
+, "Dacia|Spring": 356
+, "MG|MG4 EV": 276
+, "Renault|Megane E-Tech": 271
+, "Peugeot|e-208": 262
+, "Volkswagen|ID.3": 214
+, "Renault|Twingo E-Tech": 209
+, "Audi|Q4 e-tron": 202
+, "Mercedes-Benz|EQA": 134
+, "Polestar|2": 133
+, "Mini|Cooper SE": 131
+, "BMW|iX1": 128
+, "Cupra|Born": 127
+, "Citroën|ë-C4": 117
+, "Toyota|Proace City Electric": 112
+, "Renault|Zoe": 100
+, "Mercedes-Benz|EQB": 94
+, "Fiat|E-Doblò": 93
+, "Opel|Corsa-e": 86
+, "Ford|Mustang Mach-E": 82
+, "Peugeot|e-2008": 80
+, "BMW|i4": 78
+, "Audi|Q8 e-tron": 75
+, "Volkswagen|ID. Buzz": 74
+, "Opel|Mokka-e": 73
+, "Hyundai|Kona Electric": 66
+, "BMW|iX": 63
+, "Volkswagen|ID.4": 62
+, "MG|Marvel R": 56
+, "Tesla|Model S": 55
+, "Volvo|EX40": 50
+, "BMW|iX3": 40
+, "Jeep|Avenger EV": 38
+, "Tesla|Model X": 33
+, "MG|MG5 EV": 32
+, "Fiat|E-Ulysse": 31
+, "Nissan|Leaf": 31
+, "Škoda|Enyaq": 31
+, "Volkswagen|ID.5": 30
+, "Volvo|EC40": 29
+, "Toyota|Proace Electric": 28
+, "Mercedes-Benz|EQE": 26
+, "Citroën|ë-Berlingo Electric": 22
+, "Mazda|MX-30 BEV": 20
+, "Hyundai|Ioniq 5": 19
+, "Jaguar|I-Pace": 18
+, "MG|ZS EV": 18
+, "Kia|other": 35
+, "Mercedes-Benz|other": 28
+, "Honda|other": 17
+, "Nissan|other": 14
+, "Peugeot|other": 12
+, "BMW|other": 11
+, "Porsche|other": 11
+, "Audi|other": 7
+, "other": 29
 });
 
 db.insert(db.countries.IT, "2023-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Aprile%202023_64512d2f52fa6.pdf",
@@ -3017,64 +3018,64 @@ db.insert(db.countries.IT, "2023-09", db.dsTypes.AllCarsByBrand, "https://unrae.
 });
 
 db.insert(db.countries.IT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2023/9, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Settembre%202023_651aa0088a4bd.pdf",
-{ "Tesla|Model Y": 803
-, "Smart|Fortwo ED": 412
-, "Volkswagen|ID.3": 282
-, "Fiat|500e": 281
-, "Ford|Mustang Mach-E": 212
-, "Cupra|Born": 203
-, "Audi|Q4 e-tron": 165
-, "Hyundai|Kona Electric": 149
-, "Mercedes-Benz|EQA": 149
-, "BMW|iX1": 135
-, "Polestar|2": 134
-, "Renault|Megane E-Tech": 131
-, "Opel|Corsa-e": 123
-, "Mini|Cooper SE": 115
-, "Dacia|Spring": 109
-, "Peugeot|e-208": 107
-, "Jeep|Avenger EV": 105
-, "Peugeot|e-2008": 103
-, "MG|MG4 EV": 85
-, "Mercedes-Benz|EQB": 84
-, "Renault|Twingo E-Tech": 81
-, "Audi|Q8 e-tron": 68
-, "Mercedes-Benz|EQE SUV": 68
-, "Volkswagen|ID.4": 60
-, "Citroën|ë-C4": 58
-, "Porsche|Taycan": 57
-, "Smart|Hashtag 1": 53
-, "Škoda|Enyaq": 50
-, "BMW|iX": 48
-, "Honda|e:Ny1": 44
-, "Tesla|Model S": 41
-, "BMW|i4": 37
-, "Nissan|Leaf": 37
-, "Volvo|EC40": 35
-, "Volvo|EX40": 35
-, "Tesla|Model 3": 33
-, "Tesla|Model X": 30
-, "Audi|e-tron GT": 25
-, "Volkswagen|ID.5": 23
-, "BMW|i5": 20
-, "Opel|Combo-e": 19
-, "Opel|Mokka-e": 19
-, "BYD|Han EV": 15
-, "Mercedes-Benz|EQS SUV": 14
-, "Volkswagen|ID. Buzz": 14
-, "Renault|Zoe": 13
-, "Peugeot|e-Traveller": 12
-, "BMW|iX3": 11
-, "Nissan|Ariya": 11
-, "Hyundai|Ioniq 6": 10
-, "Citroën|other": 15
-, "Kia|other": 14
-, "Toyota|other": 10
-, "MG|other": 7
-, "Mazda|other": 7
-, "Hyundai|other": 6
-, "BMW|other": 5
-, "Fiat|other": 3
+{ "Tesla|Model Y": 802
+, "Smart|Fortwo ED": 411
+, "Volkswagen|ID.3": 281
+, "Fiat|500e": 280
+, "Ford|Mustang Mach-E": 211
+, "Cupra|Born": 202
+, "Audi|Q4 e-tron": 164
+, "Hyundai|Kona Electric": 148
+, "Mercedes-Benz|EQA": 148
+, "BMW|iX1": 134
+, "Polestar|2": 133
+, "Renault|Megane E-Tech": 130
+, "Opel|Corsa-e": 122
+, "Mini|Cooper SE": 114
+, "Dacia|Spring": 108
+, "Peugeot|e-208": 106
+, "Jeep|Avenger EV": 104
+, "Peugeot|e-2008": 102
+, "MG|MG4 EV": 84
+, "Mercedes-Benz|EQB": 83
+, "Renault|Twingo E-Tech": 80
+, "Audi|Q8 e-tron": 67
+, "Mercedes-Benz|EQE SUV": 67
+, "Volkswagen|ID.4": 59
+, "Citroën|ë-C4": 57
+, "Porsche|Taycan": 56
+, "Smart|Hashtag 1": 52
+, "Škoda|Enyaq": 49
+, "BMW|iX": 47
+, "Honda|e:Ny1": 43
+, "Tesla|Model S": 40
+, "BMW|i4": 36
+, "Nissan|Leaf": 36
+, "Volvo|EC40": 34
+, "Volvo|EX40": 34
+, "Tesla|Model 3": 32
+, "Tesla|Model X": 29
+, "Audi|e-tron GT": 24
+, "Volkswagen|ID.5": 22
+, "BMW|i5": 19
+, "Opel|Combo-e": 18
+, "Opel|Mokka-e": 18
+, "BYD|Han EV": 14
+, "Mercedes-Benz|EQS SUV": 13
+, "Volkswagen|ID. Buzz": 13
+, "Renault|Zoe": 12
+, "Peugeot|e-Traveller": 11
+, "BMW|iX3": 10
+, "Nissan|Ariya": 10
+, "Hyundai|Ioniq 6": 9
+, "Citroën|other": 14
+, "Kia|other": 13
+, "Toyota|other": 9
+, "MG|other": 6
+, "Mazda|other": 6
+, "Hyundai|other": 5
+, "BMW|other": 4
+, "other": 59
 });
 
 db.insert(db.countries.IT, "2023-10", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Ottobre%202023_65439ec121bb0.pdf",
