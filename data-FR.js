@@ -21,6 +21,7 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Kia": 3153
 , "Mercedes-Benz": 2888
 , "Hyundai": 2461
+, "Suzuki": 2192
 , "Škoda": 2153
 , "Seat": 2115
 , "Mini": 2095
@@ -34,7 +35,7 @@ db.insert(db.countries.FR, "2018-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 225
 , "Mitsubishi": 142
 , "Subaru": 30
-, "other": 4989
+, "other": 2797
 });
 
 db.insert(db.countries.FR, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/1",
@@ -74,6 +75,7 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Audi": 4036
 , "Kia": 3723
 , "Hyundai": 2755
+, "Suzuki": 2384
 , "Seat": 2255
 , "Škoda": 2189
 , "Mini": 1975
@@ -88,7 +90,7 @@ db.insert(db.countries.FR, "2018-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 161
 , "Tesla": 51
 , "Subaru": 45
-, "other": 5122
+, "other": 2738
 });
 
 db.insert(db.countries.FR, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/2",
@@ -130,6 +132,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2962
 , "Škoda": 2821
 , "Mini": 2650
+, "Suzuki": 2615
 , "Volvo": 2069
 , "Mazda": 1496
 , "Jeep": 1269
@@ -141,7 +144,7 @@ db.insert(db.countries.FR, "2018-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 277
 , "Tesla": 241
 , "Subaru": 66
-, "other": 6981
+, "other": 4366
 });
 
 db.insert(db.countries.FR, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/3",
@@ -181,6 +184,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Kia": 4288
 , "Hyundai": 3326
 , "Škoda": 2635
+, "Suzuki": 2550
 , "Seat": 2342
 , "Mini": 1992
 , "Jeep": 1297
@@ -194,7 +198,7 @@ db.insert(db.countries.FR, "2018-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 244
 , "Subaru": 53
 , "Tesla": 39
-, "other": 6816
+, "other": 4266
 });
 
 db.insert(db.countries.FR, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/4",
@@ -238,6 +242,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3025
 , "Seat": 2573
 , "Mini": 2197
+, "Suzuki": 2139
 , "Jeep": 1577
 , "Volvo": 1380
 , "Mazda": 1043
@@ -249,7 +254,7 @@ db.insert(db.countries.FR, "2018-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 287
 , "Tesla": 112
 , "Subaru": 53
-, "other": 6056
+, "other": 3917
 });
 
 db.insert(db.countries.FR, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/5",
@@ -292,6 +297,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3404
 , "Seat": 3391
 , "Mini": 2849
+, "Suzuki": 2692
 , "Volvo": 1823
 , "Jeep": 1377
 , "Mazda": 1181
@@ -303,7 +309,7 @@ db.insert(db.countries.FR, "2018-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 584
 , "Tesla": 173
 , "Subaru": 136
-, "other": 7848
+, "other": 5156
 });
 
 db.insert(db.countries.FR, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/6",
@@ -345,6 +351,7 @@ db.insert(db.countries.FR, "2018-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Hyundai": 3122
 , "Seat": 3052
 , "Škoda": 2369
+, "Suzuki": 2359
 , "Mini": 1628
 , "Jeep": 1593
 , "Volvo": 1453
@@ -357,7 +364,7 @@ db.insert(db.countries.FR, "2018-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 419
 , "Subaru": 92
 , "Tesla": 48
-, "other": 6926
+, "other": 4567
 });
 
 db.insert(db.countries.FR, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/7",
@@ -398,6 +405,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 3465
 , "Seat": 2715
 , "Škoda": 2394
+, "Suzuki": 2345
 , "Kia": 2278
 , "Hyundai": 2123
 , "Mini": 1690
@@ -412,7 +420,7 @@ db.insert(db.countries.FR, "2018-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 436
 , "Subaru": 151
 , "Tesla": 64
-, "other": 6257
+, "other": 3912
 });
 
 db.insert(db.countries.FR, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/8",
@@ -455,6 +463,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 1955
 , "Seat": 1731
 , "Volvo": 1596
+, "Suzuki": 1507
 , "Nissan": 1458
 , "Mazda": 993
 , "Honda": 601
@@ -466,7 +475,7 @@ db.insert(db.countries.FR, "2018-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 171
 , "Porsche": 124
 , "Subaru": 16
-, "other": 3949
+, "other": 2442
 });
 
 db.insert(db.countries.FR, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/9",
@@ -509,6 +518,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Audi": 2755
 , "Nissan": 2652
 , "Seat": 2461
+, "Suzuki": 2240
 , "Volvo": 1832
 , "Mazda": 811
 , "Jeep": 726
@@ -520,7 +530,7 @@ db.insert(db.countries.FR, "2018-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 125
 , "Tesla": 30
 , "Subaru": 26
-, "other": 4710
+, "other": 2470
 });
 
 db.insert(db.countries.FR, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/10",
@@ -564,6 +574,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2600
 , "Mini": 2594
 , "Nissan": 2421
+, "Suzuki": 2369
 , "Volvo": 1800
 , "Mazda": 904
 , "Mitsubishi": 741
@@ -575,7 +586,7 @@ db.insert(db.countries.FR, "2018-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 119
 , "Porsche": 83
 , "Subaru": 33
-, "other": 5452
+, "other": 3083
 });
 
 db.insert(db.countries.FR, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/11",
@@ -621,6 +632,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 2760
 , "Nissan": 2619
 , "Hyundai": 2528
+, "Suzuki": 1849
 , "Volvo": 1721
 , "Smart": 914
 , "Mazda": 857
@@ -632,7 +644,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 230
 , "Tesla": 192
 , "Subaru": 19
-, "other": 4974
+, "other": 3125
 });
 
 db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/12",
@@ -674,6 +686,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Audi": 3167
 , "Hyundai": 2785
 , "Nissan": 2546
+, "Suzuki": 2535
 , "Mini": 2251
 , "Škoda": 2185
 , "Seat": 2003
@@ -688,7 +701,7 @@ db.insert(db.countries.FR, "2019-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 243
 , "Tesla": 32
 , "Subaru": 22
-, "other": 5562
+, "other": 3027
 });
 
 db.insert(db.countries.FR, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/1",
@@ -732,6 +745,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Hyundai": 3129
 , "Seat": 2631
 , "Škoda": 2553
+, "Suzuki": 2470
 , "Mini": 1943
 , "Volvo": 1914
 , "Mazda": 976
@@ -744,7 +758,7 @@ db.insert(db.countries.FR, "2019-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 241
 , "Porsche": 133
 , "Subaru": 20
-, "other": 5106
+, "other": 2636
 });
 
 db.insert(db.countries.FR, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/2",
@@ -790,6 +804,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Hyundai": 3688
 , "Škoda": 3268
 , "Seat": 3262
+, "Suzuki": 2729
 , "Mini": 2616
 , "Volvo": 1978
 , "Mazda": 1559
@@ -801,7 +816,7 @@ db.insert(db.countries.FR, "2019-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 609
 , "Jaguar": 283
 , "Porsche": 278
-, "other": 6136
+, "other": 3407
 });
 
 db.insert(db.countries.FR, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/3",
@@ -847,6 +862,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3315
 , "Seat": 3260
 , "Škoda": 3007
+, "Suzuki": 2662
 , "Mini": 2371
 , "Volvo": 1527
 , "Jeep": 964
@@ -859,7 +875,7 @@ db.insert(db.countries.FR, "2019-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 352
 , "Tesla": 305
 , "Subaru": 21
-, "other": 6094
+, "other": 3432
 });
 
 db.insert(db.countries.FR, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/4",
@@ -905,6 +921,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3159
 , "Nissan": 3110
 , "Seat": 3024
+, "Suzuki": 2134
 , "Mini": 1760
 , "Volvo": 1454
 , "Mazda": 873
@@ -917,7 +934,7 @@ db.insert(db.countries.FR, "2019-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 413
 , "Jaguar": 308
 , "Subaru": 42
-, "other": 5661
+, "other": 3527
 });
 
 db.insert(db.countries.FR, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/5",
@@ -963,6 +980,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 3809
 , "Hyundai": 3502
 , "Škoda": 3242
+, "Suzuki": 2633
 , "Mini": 2234
 , "Volvo": 1853
 , "Jeep": 1398
@@ -975,7 +993,7 @@ db.insert(db.countries.FR, "2019-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 657
 , "Jaguar": 375
 , "Subaru": 30
-, "other": 7652
+, "other": 5019
 });
 
 db.insert(db.countries.FR, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/6",
@@ -1022,6 +1040,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 3329
 , "Nissan": 3150
 , "Škoda": 2947
+, "Suzuki": 2886
 , "Mini": 2234
 , "Jeep": 1761
 , "Volvo": 1646
@@ -1034,7 +1053,7 @@ db.insert(db.countries.FR, "2019-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 356
 , "Jaguar": 266
 , "Subaru": 54
-, "other": 7138
+, "other": 4252
 });
 
 db.insert(db.countries.FR, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/7",
@@ -1070,6 +1089,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Volkswagen": 8542
 , "Dacia": 8050
 , "Toyota": 6784
+, "Suzuki": 5408
 , "Mercedes-Benz": 4734
 , "Ford": 4148
 , "Audi": 3807
@@ -1093,7 +1113,7 @@ db.insert(db.countries.FR, "2019-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 287
 , "Jaguar": 156
 , "Subaru": 64
-, "other": 8280
+, "other": 2872
 });
 
 db.insert(db.countries.FR, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/8",
@@ -1140,6 +1160,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 2738
 , "Mini": 2376
 , "Volvo": 2009
+, "Suzuki": 1207
 , "Mazda": 1191
 , "Tesla": 1165
 , "Honda": 696
@@ -1149,7 +1170,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 306
 , "Jaguar": 272
 , "Smart": 234
-, "other": 4342
+, "other": 3135
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/9",
@@ -1197,6 +1218,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3030
 , "Mini": 2547
 , "Volvo": 2009
+, "Suzuki": 1601
 , "Mazda": 942
 , "Jeep": 935
 , "Porsche": 659
@@ -1207,7 +1229,7 @@ db.insert(db.countries.FR, "2019-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 277
 , "Tesla": 192
 , "Subaru": 37
-, "other": 5370
+, "other": 3769
 });
 
 db.insert(db.countries.FR, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/10",
@@ -1257,6 +1279,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 3200
 , "Mini": 1956
 , "Volvo": 1731
+, "Suzuki": 1464
 , "Mazda": 1131
 , "Jeep": 723
 , "Mitsubishi": 685
@@ -1267,7 +1290,7 @@ db.insert(db.countries.FR, "2019-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 183
 , "Smart": 170
 , "Subaru": 30
-, "other": 4658
+, "other": 3194
 });
 
 db.insert(db.countries.FR, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/11",
@@ -1315,6 +1338,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 3204
 , "Mini": 3203
 , "Volvo": 3047
+, "Suzuki": 3029
 , "Mazda": 1553
 , "Smart": 1472
 , "Tesla": 1435
@@ -1325,7 +1349,7 @@ db.insert(db.countries.FR, "2019-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 710
 , "Jaguar": 536
 , "Subaru": 168
-, "other": 8082
+, "other": 5053
 });
 
 db.insert(db.countries.FR, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/12",
@@ -1371,6 +1395,7 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mercedes-Benz": 2412
 , "Seat": 2332
 , "Škoda": 2310
+, "Suzuki": 1431
 , "Mini": 1424
 , "Volvo": 771
 , "Mazda": 673
@@ -1382,7 +1407,7 @@ db.insert(db.countries.FR, "2020-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 170
 , "Jaguar": 127
 , "Smart": 77
-, "other": 4622
+, "other": 3191
 });
 
 db.insert(db.countries.FR, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/1",
@@ -1433,6 +1458,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 2726
 , "Mini": 1601
 , "Volvo": 1559
+, "Suzuki": 1558
 , "Tesla": 1047
 , "Mazda": 732
 , "Honda": 671
@@ -1443,7 +1469,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 270
 , "Smart": 118
 , "Subaru": 23
-, "other": 8492
+, "other": 4465
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/2",
@@ -1501,6 +1527,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Volvo": 775
 , "Seat": 603
 , "Mazda": 419
+, "Suzuki": 331
 , "Mitsubishi": 283
 , "Porsche": 237
 , "Jeep": 165
@@ -1508,7 +1535,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 113
 , "Smart": 55
 , "Jaguar": 31
-, "other": 1898
+, "other": 1567
 });
 
 db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/3",
@@ -1561,6 +1588,7 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Hyundai": 113
 , "Seat": 109
 , "Mercedes-Benz": 101
+, "Suzuki": 84
 , "Nissan": 71
 , "Volvo": 71
 , "Jeep": 50
@@ -1571,7 +1599,7 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 14
 , "Honda": 8
 , "Smart": 5
-, "other": 614
+, "other": 530
 });
 
 db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/4",
@@ -1608,6 +1636,7 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1634
 , "Volvo": 1052
 , "Mazda": 615
+, "Suzuki": 611
 , "Porsche": 353
 , "Jeep": 272
 , "Tesla": 269
@@ -1616,7 +1645,7 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 210
 , "Smart": 75
 , "Jaguar": 73
-, "other": 2305
+, "other": 1694
 });
 
 db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/5",
@@ -1664,6 +1693,7 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 5341
 , "Kia": 5042
 , "Hyundai": 4413
+, "Suzuki": 4085
 , "Nissan": 3997
 , "Škoda": 3895
 , "Seat": 3844
@@ -1678,7 +1708,7 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 521
 , "Smart": 233
 , "Jaguar": 152
-, "other": 7707
+, "other": 3622
 });
 
 db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/6",
@@ -1732,6 +1762,7 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "BMW": 4104
 , "Škoda": 3586
 , "Seat": 3336
+, "Suzuki": 2605
 , "Mini": 2114
 , "Volvo": 1999
 , "Mitsubishi": 1092
@@ -1743,7 +1774,7 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 174
 , "Tesla": 148
 , "Jaguar": 125
-, "other": 6180
+, "other": 3575
 });
 
 db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/7",
@@ -1797,6 +1828,7 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2306
 , "Nissan": 2205
 , "Škoda": 1900
+, "Suzuki": 1520
 , "Mini": 1476
 , "Volvo": 1014
 , "Mazda": 555
@@ -1809,7 +1841,7 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 121
 , "Jaguar": 77
 , "Subaru": 12
-, "other": 3120
+, "other": 1600
 });
 
 db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/8",
@@ -1864,6 +1896,7 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3093
 , "Škoda": 3081
 , "Seat": 2862
+, "Suzuki": 2249
 , "Mini": 1938
 , "Volvo": 1433
 , "Tesla": 1267
@@ -1875,7 +1908,7 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 272
 , "Smart": 180
 , "Jaguar": 66
-, "other": 4745
+, "other": 2496
 });
 
 db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/9",
@@ -1931,6 +1964,7 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3012
 , "Nissan": 3009
 , "Seat": 2448
+, "Suzuki": 2294
 , "Mini": 2262
 , "Volvo": 1656
 , "Mazda": 881
@@ -1942,7 +1976,7 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 192
 , "Tesla": 107
 , "Jaguar": 84
-, "other": 5390
+, "other": 3096
 });
 
 db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/10",
@@ -2000,6 +2034,7 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 1699
 , "Hyundai": 1578
 , "Volvo": 1460
+, "Suzuki": 1159
 , "Land Rover": 757
 , "Jeep": 632
 , "Mazda": 591
@@ -2009,7 +2044,7 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 221
 , "Mitsubishi": 201
 , "Jaguar": 51
-, "other": 4166
+, "other": 3007
 });
 
 db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/11",
@@ -2071,6 +2106,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mini": 2823
 , "Seat": 2517
 , "Volvo": 2493
+, "Suzuki": 1724
 , "Porsche": 1109
 , "Jeep": 1087
 , "Land Rover": 1078
@@ -2081,7 +2117,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 241
 , "Jaguar": 239
 , "Subaru": 33
-, "other": 6416
+, "other": 4692
 });
 
 db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/12",
@@ -2144,6 +2180,7 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Fiat": 2328
 , "Seat": 2305
 , "Nissan": 2281
+, "Suzuki": 2080
 , "Mini": 1706
 , "Volvo": 1143
 , "Mazda": 801
@@ -2155,7 +2192,7 @@ db.insert(db.countries.FR, "2021-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 92
 , "Tesla": 86
 , "Jaguar": 61
-, "other": 4463
+, "other": 2383
 });
 
 db.insert(db.countries.FR, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/1",
@@ -2214,6 +2251,7 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Fiat": 2630
 , "Škoda": 2559
 , "Seat": 2286
+, "Suzuki": 1899
 , "Mini": 1677
 , "Volvo": 1218
 , "Tesla": 1175
@@ -2225,7 +2263,7 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 128
 , "Jaguar": 106
 , "Smart": 88
-, "other": 4474
+, "other": 2575
 });
 
 db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/2",
@@ -2286,6 +2324,7 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3257
 , "Seat": 3119
 , "Mini": 3016
+, "Suzuki": 2614
 , "Volvo": 1724
 , "Jeep": 1276
 , "Mazda": 1018
@@ -2295,7 +2334,7 @@ db.insert(db.countries.FR, "2021-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 234
 , "Mitsubishi": 206
 , "Jaguar": 148
-, "other": 6411
+, "other": 3797
 });
 
 db.insert(db.countries.FR, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/3",
@@ -2357,6 +2396,7 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2800
 , "Mini": 2654
 , "Nissan": 1967
+, "Suzuki": 1767
 , "Volvo": 1626
 , "Mazda": 691
 , "Jeep": 668
@@ -2367,7 +2407,7 @@ db.insert(db.countries.FR, "2021-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 211
 , "Smart": 117
 , "Mitsubishi": 100
-, "other": 4639
+, "other": 2872
 });
 
 db.insert(db.countries.FR, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/4",
@@ -2432,6 +2472,7 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2832
 , "Tesla": 2111
 , "Mini": 2096
+, "Suzuki": 1577
 , "Volvo": 1541
 , "Nissan": 1408
 , "Jeep": 834
@@ -2442,7 +2483,7 @@ db.insert(db.countries.FR, "2021-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 220
 , "Smart": 118
 , "Mitsubishi": 79
-, "other": 5087
+, "other": 3510
 });
 
 db.insert(db.countries.FR, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/5",
@@ -2505,6 +2546,7 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "BMW": 4344
 , "Škoda": 3711
 , "Seat": 3617
+, "Suzuki": 2801
 , "Mini": 2389
 , "Nissan": 2196
 , "Volvo": 1791
@@ -2516,7 +2558,7 @@ db.insert(db.countries.FR, "2021-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 226
 , "Mitsubishi": 202
 , "Smart": 151
-, "other": 8535
+, "other": 5734
 });
 
 db.insert(db.countries.FR, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/6",
@@ -2583,6 +2625,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Seat": 2330
 , "Nissan": 2083
 , "Mini": 2069
+, "Suzuki": 1644
 , "Volvo": 1348
 , "Jeep": 1155
 , "Mazda": 676
@@ -2593,7 +2636,7 @@ db.insert(db.countries.FR, "2021-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 158
 , "Smart": 135
 , "Tesla": 43
-, "other": 4826
+, "other": 3182
 });
 
 db.insert(db.countries.FR, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/7",
@@ -2661,6 +2704,7 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Fiat": 1676
 , "Mini": 1585
 , "Škoda": 1517
+, "Suzuki": 1304
 , "Seat": 1255
 , "Nissan": 1137
 , "Volvo": 730
@@ -2672,7 +2716,7 @@ db.insert(db.countries.FR, "2021-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 102
 , "Jaguar": 60
 , "Smart": 55
-, "other": 3984
+, "other": 2680
 });
 
 db.insert(db.countries.FR, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/8",
@@ -2737,6 +2781,7 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 3030
 , "Mercedes-Benz": 3009
 , "Nissan": 2031
+, "Suzuki": 1894
 , "Seat": 1876
 , "Škoda": 1870
 , "Mini": 1401
@@ -2749,7 +2794,7 @@ db.insert(db.countries.FR, "2021-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 141
 , "Smart": 138
 , "Jaguar": 44
-, "other": 5024
+, "other": 3130
 });
 
 db.insert(db.countries.FR, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/9",
@@ -2819,6 +2864,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1908
 , "Škoda": 1877
 , "Opel": 1702
+, "Suzuki": 1655
 , "Mini": 1623
 , "Seat": 1381
 , "Volvo": 1189
@@ -2831,7 +2877,7 @@ db.insert(db.countries.FR, "2021-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 189
 , "Smart": 167
 , "Jaguar": 54
-, "other": 4916
+, "other": 3261
 });
 
 db.insert(db.countries.FR, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/10",
@@ -2904,6 +2950,7 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1967
 , "Mini": 1918
 , "Škoda": 1856
+, "Suzuki": 1678
 , "Volvo": 1315
 , "Seat": 1196
 , "Jeep": 755
@@ -2914,7 +2961,7 @@ db.insert(db.countries.FR, "2021-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 322
 , "Smart": 160
 , "Jaguar": 96
-, "other": 5136
+, "other": 3458
 });
 
 db.insert(db.countries.FR, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/11",
@@ -2991,6 +3038,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Volvo": 2638
 , "Nissan": 2560
 , "Škoda": 2546
+, "Suzuki": 1994
 , "Seat": 1690
 , "Porsche": 1229
 , "Jeep": 970
@@ -3001,7 +3049,7 @@ db.insert(db.countries.FR, "2021-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 219
 , "Smart": 130
 , "Subaru": 23
-, "other": 6573
+, "other": 4579
 });
 
 db.insert(db.countries.FR, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/12",
@@ -3075,6 +3123,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Fiat": 1787
 , "Škoda": 1784
 , "Nissan": 1732
+, "Suzuki": 1437
 , "Seat": 1412
 , "Volvo": 758
 , "Mazda": 543
@@ -3086,7 +3135,7 @@ db.insert(db.countries.FR, "2022-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 97
 , "Tesla": 48
 , "Jaguar": 36
-, "other": 4151
+, "other": 2714
 });
 
 db.insert(db.countries.FR, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/1",
@@ -3163,6 +3212,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 2175
 , "Škoda": 2126
 , "Mini": 2039
+, "Suzuki": 1579
 , "Seat": 1452
 , "Volvo": 1048
 , "Honda": 520
@@ -3173,7 +3223,7 @@ db.insert(db.countries.FR, "2022-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 117
 , "Smart": 84
 , "Jaguar": 68
-, "other": 4536
+, "other": 2957
 });
 
 db.insert(db.countries.FR, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/2, https://www.avere-france.org/wp-content/uploads/2022/04/barometre-avere-colombus-mars-2022-1.pdf",
@@ -3247,6 +3297,7 @@ db.insert(db.countries.FR, "2022-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3032
 , "Škoda": 3032
 , "Mini": 2068
+, "Suzuki": 2008
 , "Seat": 1551
 , "Volvo": 1389
 , "Mazda": 783
@@ -3257,7 +3308,7 @@ db.insert(db.countries.FR, "2022-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 186
 , "Jaguar": 128
 , "Mitsubishi": 119
-, "other": 6792
+, "other": 4784
 });
 
 db.insert(db.countries.FR, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/3",
@@ -3321,6 +3372,7 @@ db.insert(db.countries.FR, "2022-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 2605
 , "Škoda": 2553
 , "Mini": 1502
+, "Suzuki": 1333
 , "Seat": 1183
 , "Volvo": 811
 , "Mazda": 483
@@ -3332,7 +3384,7 @@ db.insert(db.countries.FR, "2022-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 97
 , "Smart": 93
 , "Jaguar": 77
-, "other": 5860
+, "other": 4527
 });
 
 db.insert(db.countries.FR, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/4",
@@ -3396,6 +3448,7 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 2350
 , "Nissan": 2264
 , "Mini": 2210
+, "Suzuki": 1200
 , "Seat": 1175
 , "Jeep": 633
 , "Volvo": 580
@@ -3407,7 +3460,7 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 152
 , "Smart": 117
 , "Jaguar": 100
-, "other": 5550
+, "other": 4350
 });
 
 db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/5",
@@ -3472,6 +3525,7 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 2930
 , "Nissan": 2601
 , "Mini": 1905
+, "Suzuki": 1498
 , "Seat": 1400
 , "Volvo": 922
 , "Jeep": 773
@@ -3482,7 +3536,7 @@ db.insert(db.countries.FR, "2022-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 190
 , "Jaguar": 169
 , "Smart": 117
-, "other": 6946
+, "other": 5448
 });
 
 db.insert(db.countries.FR, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/6",
@@ -3546,6 +3600,7 @@ db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1547
 , "Volvo": 1402
 , "Seat": 967
+, "Suzuki": 829
 , "Jeep": 521
 , "Land Rover": 432
 , "Mazda": 346
@@ -3555,7 +3610,7 @@ db.insert(db.countries.FR, "2022-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 93
 , "Tesla": 79
 , "Smart": 70
-, "other": 4070
+, "other": 3241
 });
 
 db.insert(db.countries.FR, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/7",
@@ -3619,6 +3674,7 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1520
 , "Tesla": 957
 , "Volvo": 820
+, "Suzuki": 791
 , "Seat": 656
 , "Mazda": 560
 , "Land Rover": 308
@@ -3628,7 +3684,7 @@ db.insert(db.countries.FR, "2022-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 147
 , "Jaguar": 84
 , "Smart": 59
-, "other": 3766
+, "other": 2975
 });
 
 db.insert(db.countries.FR, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/8",
@@ -3693,6 +3749,7 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mini": 1965
 , "Nissan": 1958
 , "Volvo": 1367
+, "Suzuki": 1134
 , "Mazda": 877
 , "Seat": 643
 , "Honda": 505
@@ -3702,7 +3759,7 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 206
 , "Smart": 142
 , "Jaguar": 106
-, "other": 6261
+, "other": 5127
 });
 
 db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/9",
@@ -3764,6 +3821,7 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 1790
 , "Mini": 1615
 , "Volvo": 1301
+, "Suzuki": 1046
 , "Seat": 956
 , "Mazda": 563
 , "Honda": 408
@@ -3773,7 +3831,7 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 190
 , "Jaguar": 101
 , "Smart": 96
-, "other": 5744
+, "other": 4698
 });
 
 db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/10",
@@ -3836,6 +3894,7 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 1992
 , "Volvo": 1413
 , "Seat": 917
+, "Suzuki": 887
 , "Mazda": 459
 , "Honda": 429
 , "Porsche": 420
@@ -3844,7 +3903,7 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 248
 , "Smart": 142
 , "Jaguar": 64
-, "other": 6745
+, "other": 5858
 });
 
 db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/11",
@@ -3912,6 +3971,7 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 2395
 , "Volvo": 1704
 , "Seat": 1372
+, "Suzuki": 1008
 , "Porsche": 997
 , "Mazda": 677
 , "Land Rover": 594
@@ -3920,7 +3980,7 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 192
 , "Smart": 138
 , "Jaguar": 67
-, "other": 8849
+, "other": 7841
 });
 
 db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/12",
@@ -3985,6 +4045,7 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "MG": 1742
 , "Mini": 1449
 , "Seat": 1303
+, "Suzuki": 1157
 , "Volvo": 1090
 , "Tesla": 741
 , "Mazda": 450
@@ -3996,7 +4057,7 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 184
 , "Smart": 82
 , "Jaguar": 27
-, "other": 4176
+, "other": 3019
 });
 
 db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/1",
@@ -4063,6 +4124,7 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mini": 1806
 , "Seat": 1529
 , "MG": 1472
+, "Suzuki": 1233
 , "Volvo": 1076
 , "Cupra": 646
 , "Mazda": 538
@@ -4073,7 +4135,7 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 210
 , "Smart": 65
 , "Jaguar": 62
-, "other": 4188
+, "other": 2955
 });
 
 db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/2",
@@ -4138,6 +4200,7 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 3050
 , "Seat": 2005
 , "MG": 1958
+, "Suzuki": 1767
 , "Mazda": 1522
 , "Cupra": 1380
 , "Volvo": 1305
@@ -4148,7 +4211,7 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 172
 , "Jaguar": 132
 , "Smart": 109
-, "other": 5495
+, "other": 3728
 });
 
 db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/3",
@@ -4210,6 +4273,7 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Opel": 3053
 , "Škoda": 2910
 , "Fiat": 2708
+, "Suzuki": 1888
 , "Tesla": 1824
 , "Mini": 1789
 , "Seat": 1744
@@ -4224,7 +4288,7 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 211
 , "Smart": 91
 , "Jaguar": 62
-, "other": 5030
+, "other": 3142
 });
 
 db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/4",
@@ -4275,6 +4339,7 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Peugeot": 22325
 , "Dacia": 12504
 , "Volkswagen": 9889
+, "Citroën": 9849
 , "Toyota": 7508
 , "BMW": 4615
 , "Ford": 4047
@@ -4289,6 +4354,7 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Škoda": 2837
 , "MG": 2484
 , "Mini": 2066
+, "Suzuki": 1785
 , "Seat": 1423
 , "Cupra": 1238
 , "Volvo": 1181
@@ -4300,7 +4366,7 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 149
 , "Smart": 90
 , "Jaguar": 66
-, "other": 15508
+, "other": 3874
 });
 
 db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/5",
@@ -4365,6 +4431,7 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3876
 , "Škoda": 3138
 , "Mini": 2650
+, "Suzuki": 2235
 , "Volvo": 1853
 , "Seat": 1700
 , "Cupra": 1501
@@ -4376,7 +4443,7 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 350
 , "Jaguar": 132
 , "Smart": 91
-, "other": 7416
+, "other": 5181
 });
 
 db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/6",
@@ -4438,6 +4505,7 @@ db.insert(db.countries.FR, "2023-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 2717
 , "Nissan": 2444
 , "Mini": 2237
+, "Suzuki": 1781
 , "Cupra": 1527
 , "MG": 1427
 , "Seat": 1331
@@ -4450,7 +4518,7 @@ db.insert(db.countries.FR, "2023-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 183
 , "Porsche": 146
 , "Jaguar": 97
-, "other": 5005
+, "other": 3224
 });
 
 db.insert(db.countries.FR, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/7",
@@ -4516,6 +4584,7 @@ db.insert(db.countries.FR, "2023-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "MG": 2332
 , "Mini": 1804
 , "Nissan": 1740
+, "Suzuki": 1516
 , "Seat": 753
 , "Cupra": 738
 , "Volvo": 563
@@ -4527,7 +4596,7 @@ db.insert(db.countries.FR, "2023-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 184
 , "Porsche": 110
 , "Jaguar": 55
-, "other": 4360
+, "other": 2844
 });
 
 db.insert(db.countries.FR, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/8",
@@ -4590,6 +4659,7 @@ db.insert(db.countries.FR, "2023-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Fiat": 3731
 , "MG": 3335
 , "Nissan": 2457
+, "Suzuki": 2142
 , "Mini": 1911
 , "Cupra": 1479
 , "Volvo": 1280
@@ -4602,7 +4672,7 @@ db.insert(db.countries.FR, "2023-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 203
 , "Smart": 169
 , "Jaguar": 119
-, "other": 5802
+, "other": 3660
 });
 
 db.insert(db.countries.FR, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/9",
@@ -4669,6 +4739,7 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 3262
 , "MG": 2589
 , "Mini": 2528
+, "Suzuki": 1994
 , "Cupra": 1714
 , "Volvo": 1323
 , "Seat": 1312
@@ -4680,7 +4751,7 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 267
 , "Mitsubishi": 248
 , "Jaguar": 81
-, "other": 5373
+, "other": 3379
 });
 
 db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/10",
@@ -4744,6 +4815,7 @@ db.insert(db.countries.FR, "2023-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3206
 , "Mini": 2868
 , "MG": 2679
+, "Suzuki": 1922
 , "Seat": 1602
 , "Cupra": 1463
 , "Volvo": 1373
@@ -4755,7 +4827,7 @@ db.insert(db.countries.FR, "2023-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 248
 , "Porsche": 216
 , "Jaguar": 70
-, "other": 5180
+, "other": 3258
 });
 
 db.insert(db.countries.FR, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/11",
@@ -4820,6 +4892,7 @@ db.insert(db.countries.FR, "2023-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 3786
 , "Opel": 3599
 , "Mini": 3516
+, "Suzuki": 2446
 , "Seat": 2061
 , "Volvo": 1983
 , "Cupra": 1657
@@ -4831,7 +4904,7 @@ db.insert(db.countries.FR, "2023-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 250
 , "Mitsubishi": 191
 , "Jaguar": 105
-, "other": 6777
+, "other": 4331
 });
 
 db.insert(db.countries.FR, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/12",
@@ -4893,6 +4966,7 @@ db.insert(db.countries.FR, "2024-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Audi": 2723
 , "Nissan": 2351
 , "Mercedes-Benz": 1850
+, "Suzuki": 1798
 , "Škoda": 1763
 , "Mini": 1478
 , "MG": 1269
@@ -4908,7 +4982,7 @@ db.insert(db.countries.FR, "2024-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 319
 , "Mitsubishi": 291
 , "Jaguar": 32
-, "other": 5073
+, "other": 3275
 });
 
 db.insert(db.countries.FR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/02/barometre-avere-colombus-janvier-2024-2.pdf",
