@@ -3891,7 +3891,7 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2521
 });
 
-db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/01/2022-12-vp-france.pdf",
+db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2022/12/2022-12-vp-france.pdf",
 { "Renault": 23974
 , "Peugeot": 19423
 , "Dacia": 15018
@@ -3965,7 +3965,7 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 3315
 });
 
-db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/02/2023-01-vp-france.pdf",
+db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/01/2023-01-vp-france.pdf",
 { "Peugeot": 17683
 , "Renault": 17097
 , "Dacia": 11538
@@ -4042,7 +4042,7 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2110
 });
 
-db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/03/2023-02-vp-france.pdf",
+db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/02/2023-02-vp-france.pdf",
 { "Peugeot": 20057
 , "Renault": 18478
 , "Dacia": 11900
@@ -4117,7 +4117,7 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2223
 });
 
-db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/04/2023-03-vp-france.pdf",
+db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2023/03/2023_03_VP_france.pdf",
 { "Peugeot": 29158
 , "Renault": 27172
 , "Citroën": 16444
