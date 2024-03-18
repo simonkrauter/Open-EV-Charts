@@ -662,7 +662,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.ma
 { "other": 3519313
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.), https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/",
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/, https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/",
 { "Tesla|Model Y": 53000
 , "Tesla|Model 3": 49900
 , "Ford|Mustang Mach-E": 10941
@@ -691,7 +691,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.ma
 { "other": 3417470
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/ (Incomplete: EV models with ICE/hybrid variant are not included.), https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/",
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.goodcarbadcar.net/2022-us-vehicle-sales-figures-by-model/, https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/",
 { "Tesla|Model Y": 54000
 , "Tesla|Model 3": 47999
 , "Chevrolet|Bolt": 14709
