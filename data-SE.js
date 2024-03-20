@@ -22,6 +22,7 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 285
 , "Hyundai": 244
 , "Mini": 232
+, "Suzuki": 225
 , "Honda": 220
 , "Mitsubishi": 216
 , "Citroën": 182
@@ -32,7 +33,7 @@ db.insert(db.countries.SE, "2018-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 26
 , "Tesla": 19
 , "Chevrolet": 6
-, "other": 512
+, "other": 287
 });
 
 db.insert(db.countries.SE, "2018-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -71,13 +72,14 @@ db.insert(db.countries.SE, "2018-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 263
 , "Honda": 247
 , "Mini": 193
+, "Suzuki": 190
 , "Porsche": 122
 , "Jeep": 68
 , "Tesla": 29
 , "Land Rover": 25
 , "Jaguar": 16
 , "Chevrolet": 4
-, "other": 381
+, "other": 191
 });
 
 db.insert(db.countries.SE, "2018-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -118,12 +120,13 @@ db.insert(db.countries.SE, "2018-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 325
 , "Mini": 268
 , "Tesla": 198
+, "Suzuki": 194
 , "Porsche": 182
 , "Jeep": 91
 , "Land Rover": 31
 , "Jaguar": 25
 , "Chevrolet": 5
-, "other": 530
+, "other": 336
 });
 
 db.insert(db.countries.SE, "2018-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -163,12 +166,13 @@ db.insert(db.countries.SE, "2018-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 268
 , "Honda": 232
 , "Mitsubishi": 230
+, "Suzuki": 188
 , "Tesla": 67
 , "Jeep": 62
 , "Land Rover": 41
 , "Jaguar": 27
 , "Chevrolet": 15
-, "other": 568
+, "other": 380
 });
 
 db.insert(db.countries.SE, "2018-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -205,6 +209,7 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Hyundai": 441
 , "Mitsubishi": 373
 , "Citroën": 348
+, "Suzuki": 302
 , "Honda": 291
 , "Mini": 279
 , "Porsche": 221
@@ -213,7 +218,7 @@ db.insert(db.countries.SE, "2018-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 49
 , "Jaguar": 47
 , "Chevrolet": 27
-, "other": 1004
+, "other": 702
 });
 
 db.insert(db.countries.SE, "2018-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -254,13 +259,14 @@ db.insert(db.countries.SE, "2018-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 895
 , "Honda": 473
 , "Mini": 438
+, "Suzuki": 410
 , "Porsche": 271
 , "Jeep": 250
 , "Chevrolet": 139
 , "Tesla": 124
 , "Jaguar": 96
 , "Land Rover": 92
-, "other": 1098
+, "other": 688
 });
 
 db.insert(db.countries.SE, "2018-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -300,13 +306,14 @@ db.insert(db.countries.SE, "2018-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 106
 , "Tesla": 96
 , "Mitsubishi": 82
+, "Suzuki": 80
 , "Subaru": 66
 , "Dacia": 60
 , "Chevrolet": 59
 , "Jeep": 24
 , "Jaguar": 19
 , "Land Rover": 13
-, "other": 253
+, "other": 173
 });
 
 db.insert(db.countries.SE, "2018-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -346,6 +353,7 @@ db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 230
 , "Opel": 228
 , "Subaru": 155
+, "Suzuki": 153
 , "Mitsubishi": 130
 , "Hyundai": 108
 , "Tesla": 99
@@ -353,7 +361,7 @@ db.insert(db.countries.SE, "2018-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 34
 , "Jaguar": 18
 , "Chevrolet": 17
-, "other": 353
+, "other": 200
 });
 
 db.insert(db.countries.SE, "2018-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -393,6 +401,7 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 243
 , "Tesla": 215
 , "Honda": 189
+, "Suzuki": 176
 , "Dacia": 157
 , "Hyundai": 103
 , "Jeep": 75
@@ -400,7 +409,7 @@ db.insert(db.countries.SE, "2018-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 55
 , "Jaguar": 40
 , "Chevrolet": 6
-, "other": 363
+, "other": 187
 });
 
 db.insert(db.countries.SE, "2018-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -440,6 +449,7 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Fiat": 264
 , "Citroën": 242
 , "Honda": 233
+, "Suzuki": 184
 , "Dacia": 152
 , "Jeep": 77
 , "Jaguar": 71
@@ -447,7 +457,7 @@ db.insert(db.countries.SE, "2018-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 52
 , "Land Rover": 51
 , "Chevrolet": 3
-, "other": 319
+, "other": 135
 });
 
 db.insert(db.countries.SE, "2018-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -486,6 +496,7 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Fiat": 321
 , "Mini": 306
 , "Hyundai": 233
+, "Suzuki": 208
 , "Honda": 205
 , "Dacia": 203
 , "Citroën": 194
@@ -494,7 +505,7 @@ db.insert(db.countries.SE, "2018-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 97
 , "Land Rover": 36
 , "Porsche": 31
-, "other": 482
+, "other": 274
 });
 
 db.insert(db.countries.SE, "2018-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -532,6 +543,7 @@ db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mazda": 252
 , "Fiat": 227
 , "Honda": 218
+, "Suzuki": 205
 , "Tesla": 181
 , "Mini": 177
 , "Hyundai": 170
@@ -542,7 +554,7 @@ db.insert(db.countries.SE, "2018-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 85
 , "Opel": 48
 , "Chevrolet": 6
-, "other": 412
+, "other": 207
 });
 
 db.insert(db.countries.SE, "2018-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -584,6 +596,7 @@ db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 201
 , "Mini": 197
 , "Dacia": 182
+, "Suzuki": 159
 , "Fiat": 135
 , "Jeep": 122
 , "Jaguar": 109
@@ -593,7 +606,7 @@ db.insert(db.countries.SE, "2019-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 11
 , "Chevrolet": 5
 , "Smart": 3
-, "other": 377
+, "other": 218
 });
 
 db.insert(db.countries.SE, "2019-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -635,6 +648,7 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 244
 , "Fiat": 232
 , "Honda": 220
+, "Suzuki": 141
 , "Opel": 126
 , "Jaguar": 102
 , "Citroën": 100
@@ -643,7 +657,7 @@ db.insert(db.countries.SE, "2019-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 59
 , "Tesla": 59
 , "Chevrolet": 11
-, "other": 326
+, "other": 185
 });
 
 db.insert(db.countries.SE, "2019-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -687,6 +701,7 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 326
 , "Honda": 314
 , "Subaru": 309
+, "Suzuki": 190
 , "Opel": 178
 , "Porsche": 161
 , "Citroën": 155
@@ -694,7 +709,7 @@ db.insert(db.countries.SE, "2019-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 94
 , "Land Rover": 91
 , "Chevrolet": 18
-, "other": 463
+, "other": 273
 });
 
 db.insert(db.countries.SE, "2019-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -741,11 +756,12 @@ db.insert(db.countries.SE, "2019-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 242
 , "Porsche": 240
 , "Citroën": 219
+, "Suzuki": 194
 , "Jaguar": 185
 , "Jeep": 75
 , "Land Rover": 55
 , "Chevrolet": 16
-, "other": 485
+, "other": 291
 });
 
 db.insert(db.countries.SE, "2019-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -791,12 +807,13 @@ db.insert(db.countries.SE, "2019-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 366
 , "Mini": 324
 , "Honda": 244
+, "Suzuki": 228
 , "Porsche": 222
 , "Jaguar": 136
 , "Jeep": 75
 , "Land Rover": 61
 , "Chevrolet": 31
-, "other": 684
+, "other": 456
 });
 
 db.insert(db.countries.SE, "2019-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -843,11 +860,12 @@ db.insert(db.countries.SE, "2019-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 241
 , "Citroën": 225
 , "Porsche": 225
+, "Suzuki": 214
 , "Jaguar": 143
 , "Jeep": 85
 , "Land Rover": 71
 , "Chevrolet": 17
-, "other": 412
+, "other": 198
 });
 
 db.insert(db.countries.SE, "2019-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -895,13 +913,14 @@ db.insert(db.countries.SE, "2019-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 308
 , "Mini": 272
 , "Dacia": 208
+, "Suzuki": 208
 , "Honda": 202
 , "Porsche": 157
 , "Jaguar": 96
 , "Jeep": 61
 , "Land Rover": 46
 , "Chevrolet": 15
-, "other": 430
+, "other": 222
 });
 
 db.insert(db.countries.SE, "2019-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -948,12 +967,13 @@ db.insert(db.countries.SE, "2019-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 324
 , "Opel": 245
 , "Honda": 218
+, "Suzuki": 214
 , "Porsche": 187
 , "Jeep": 106
 , "Land Rover": 78
 , "Chevrolet": 73
 , "Jaguar": 73
-, "other": 567
+, "other": 353
 });
 
 db.insert(db.countries.SE, "2019-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -997,6 +1017,7 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 338
 , "Citroën": 323
 , "Subaru": 269
+, "Suzuki": 235
 , "Honda": 202
 , "Opel": 194
 , "Dacia": 185
@@ -1004,7 +1025,7 @@ db.insert(db.countries.SE, "2019-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 79
 , "Land Rover": 77
 , "Jaguar": 51
-, "other": 531
+, "other": 296
 });
 
 db.insert(db.countries.SE, "2019-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1050,12 +1071,13 @@ db.insert(db.countries.SE, "2019-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 281
 , "Honda": 211
 , "Citroën": 205
+, "Suzuki": 190
 , "Jeep": 102
 , "Land Rover": 85
 , "Tesla": 83
 , "Dacia": 79
 , "Jaguar": 42
-, "other": 523
+, "other": 333
 });
 
 db.insert(db.countries.SE, "2019-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1098,6 +1120,7 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 372
 , "Mini": 333
 , "Honda": 249
+, "Suzuki": 240
 , "Tesla": 230
 , "Dacia": 218
 , "Porsche": 217
@@ -1106,7 +1129,7 @@ db.insert(db.countries.SE, "2019-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 82
 , "Land Rover": 71
 , "Jaguar": 36
-, "other": 581
+, "other": 341
 });
 
 db.insert(db.countries.SE, "2019-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1149,6 +1172,7 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 660
 , "Mitsubishi": 612
 , "Fiat": 521
+, "Suzuki": 353
 , "Opel": 332
 , "Mini": 329
 , "Honda": 311
@@ -1157,7 +1181,7 @@ db.insert(db.countries.SE, "2019-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 111
 , "Land Rover": 90
 , "Jaguar": 51
-, "other": 851
+, "other": 498
 });
 
 db.insert(db.countries.SE, "2019-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1203,12 +1227,13 @@ db.insert(db.countries.SE, "2020-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 88
 , "Citroën": 85
 , "Dacia": 68
+, "Suzuki": 65
 , "Subaru": 56
 , "Land Rover": 40
 , "Jaguar": 22
 , "Jeep": 22
 , "Mazda": 7
-, "other": 200
+, "other": 135
 });
 
 db.insert(db.countries.SE, "2020-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1256,12 +1281,13 @@ db.insert(db.countries.SE, "2020-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 137
 , "Dacia": 112
 , "Honda": 105
+, "Suzuki": 101
 , "Land Rover": 92
 , "Jeep": 54
 , "Subaru": 42
 , "Mazda": 36
 , "Jaguar": 34
-, "other": 261
+, "other": 160
 });
 
 db.insert(db.countries.SE, "2020-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1308,6 +1334,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Fiat": 276
 , "Dacia": 186
 , "Citroën": 183
+, "Suzuki": 164
 , "Subaru": 102
 , "Opel": 96
 , "Land Rover": 78
@@ -1316,7 +1343,7 @@ db.insert(db.countries.SE, "2020-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 31
 , "Jeep": 22
 , "Polestar": 4
-, "other": 375
+, "other": 211
 });
 
 db.insert(db.countries.SE, "2020-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1368,12 +1395,13 @@ db.insert(db.countries.SE, "2020-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 123
 , "Mazda": 119
 , "Land Rover": 115
+, "Suzuki": 112
 , "Opel": 87
 , "Honda": 61
 , "Jaguar": 19
 , "Jeep": 10
 , "Chevrolet": 2
-, "other": 298
+, "other": 186
 });
 
 db.insert(db.countries.SE, "2020-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1426,11 +1454,12 @@ db.insert(db.countries.SE, "2020-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 109
 , "Honda": 81
 , "Land Rover": 76
+, "Suzuki": 75
 , "Subaru": 74
 , "Jeep": 30
 , "Jaguar": 19
 , "Chevrolet": 2
-, "other": 232
+, "other": 157
 });
 
 db.insert(db.countries.SE, "2020-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1480,6 +1509,7 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 240
 , "Opel": 233
 , "Nissan": 215
+, "Suzuki": 183
 , "Honda": 182
 , "Dacia": 172
 , "Mazda": 141
@@ -1489,7 +1519,7 @@ db.insert(db.countries.SE, "2020-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 21
 , "Polestar": 12
 , "Smart": 3
-, "other": 456
+, "other": 273
 });
 
 db.insert(db.countries.SE, "2020-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1546,12 +1576,13 @@ db.insert(db.countries.SE, "2020-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mazda": 156
 , "Jeep": 123
 , "Honda": 120
+, "Suzuki": 110
 , "Subaru": 87
 , "Land Rover": 55
 , "Polestar": 50
 , "Jaguar": 29
 , "Tesla": 11
-, "other": 382
+, "other": 272
 });
 
 db.insert(db.countries.SE, "2020-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1607,6 +1638,7 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 223
 , "Mazda": 212
 , "Porsche": 205
+, "Suzuki": 162
 , "Dacia": 159
 , "Mitsubishi": 150
 , "Jeep": 140
@@ -1615,7 +1647,7 @@ db.insert(db.countries.SE, "2020-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 79
 , "Land Rover": 58
 , "Jaguar": 31
-, "other": 419
+, "other": 257
 });
 
 db.insert(db.countries.SE, "2020-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1668,6 +1700,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Fiat": 290
 , "Mazda": 283
 , "Mini": 264
+, "Suzuki": 257
 , "Mitsubishi": 220
 , "Dacia": 182
 , "Honda": 176
@@ -1677,7 +1710,7 @@ db.insert(db.countries.SE, "2020-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 89
 , "Land Rover": 65
 , "Jaguar": 26
-, "other": 524
+, "other": 267
 });
 
 db.insert(db.countries.SE, "2020-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1732,6 +1765,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Fiat": 366
 , "Citroën": 306
 , "Mazda": 297
+, "Suzuki": 294
 , "Mini": 293
 , "Polestar": 276
 , "Subaru": 243
@@ -1745,7 +1779,7 @@ db.insert(db.countries.SE, "2020-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 40
 , "Jaguar": 11
 , "Chevrolet": 3
-, "other": 488
+, "other": 194
 });
 
 db.insert(db.countries.SE, "2020-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1805,6 +1839,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Polestar": 167
 , "Fiat": 159
 , "Opel": 147
+, "Suzuki": 143
 , "Tesla": 143
 , "Dacia": 126
 , "Honda": 110
@@ -1812,7 +1847,7 @@ db.insert(db.countries.SE, "2020-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 58
 , "Jaguar": 30
 , "Chevrolet": 3
-, "other": 339
+, "other": 196
 });
 
 db.insert(db.countries.SE, "2020-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1868,6 +1903,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 313
 , "Polestar": 262
 , "Subaru": 240
+, "Suzuki": 236
 , "Opel": 221
 , "Mazda": 217
 , "Jeep": 184
@@ -1879,7 +1915,7 @@ db.insert(db.countries.SE, "2020-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 42
 , "Land Rover": 24
 , "Chevrolet": 6
-, "other": 493
+, "other": 257
 });
 
 db.insert(db.countries.SE, "2020-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -1940,12 +1976,13 @@ db.insert(db.countries.SE, "2021-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mazda": 112
 , "Mitsubishi": 91
 , "Dacia": 78
+, "Suzuki": 72
 , "Honda": 70
 , "Land Rover": 43
 , "Tesla": 33
 , "Jeep": 28
 , "Jaguar": 3
-, "other": 256
+, "other": 184
 });
 
 db.insert(db.countries.SE, "2021-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2005,13 +2042,14 @@ db.insert(db.countries.SE, "2021-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mazda": 143
 , "Tesla": 134
 , "Mini": 128
+, "Suzuki": 108
 , "Dacia": 90
 , "Honda": 70
 , "Land Rover": 38
 , "Jeep": 27
 , "Jaguar": 19
 , "Chevrolet": 3
-, "other": 319
+, "other": 211
 });
 
 db.insert(db.countries.SE, "2021-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2076,13 +2114,14 @@ db.insert(db.countries.SE, "2021-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 386
 , "Porsche": 344
 , "Dacia": 328
+, "Suzuki": 288
 , "Honda": 171
 , "Polestar": 129
 , "Jeep": 105
 , "Land Rover": 104
 , "Jaguar": 25
 , "Chevrolet": 5
-, "other": 785
+, "other": 497
 });
 
 db.insert(db.countries.SE, "2021-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2142,6 +2181,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Polestar": 280
 , "Porsche": 245
 , "Dacia": 165
+, "Suzuki": 160
 , "Subaru": 101
 , "Mazda": 73
 , "Honda": 69
@@ -2151,7 +2191,7 @@ db.insert(db.countries.SE, "2021-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 11
 , "Jeep": 7
 , "Chevrolet": 4
-, "other": 357
+, "other": 197
 });
 
 db.insert(db.countries.SE, "2021-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2218,6 +2258,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 241
 , "Dacia": 234
 , "Tesla": 228
+, "Suzuki": 166
 , "Mazda": 165
 , "Subaru": 109
 , "Honda": 86
@@ -2227,7 +2268,7 @@ db.insert(db.countries.SE, "2021-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mitsubishi": 27
 , "MG": 15
 , "Chevrolet": 4
-, "other": 440
+, "other": 274
 });
 
 db.insert(db.countries.SE, "2021-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2298,13 +2339,14 @@ db.insert(db.countries.SE, "2021-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 205
 , "Porsche": 200
 , "Mazda": 189
+, "Suzuki": 171
 , "Honda": 126
 , "Mitsubishi": 56
 , "Jeep": 37
 , "Land Rover": 32
 , "Jaguar": 14
 , "Chevrolet": 6
-, "other": 619
+, "other": 448
 });
 
 db.insert(db.countries.SE, "2021-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2372,6 +2414,7 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 156
 , "Porsche": 151
 , "Mazda": 127
+, "Suzuki": 122
 , "Honda": 57
 , "Land Rover": 27
 , "Polestar": 27
@@ -2379,7 +2422,7 @@ db.insert(db.countries.SE, "2021-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 17
 , "Tesla": 6
 , "Chevrolet": 2
-, "other": 311
+, "other": 189
 });
 
 db.insert(db.countries.SE, "2021-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2448,13 +2491,14 @@ db.insert(db.countries.SE, "2021-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 182
 , "Mini": 173
 , "Porsche": 138
+, "Suzuki": 116
 , "Polestar": 107
 , "Honda": 73
 , "Land Rover": 37
 , "Jeep": 17
 , "Jaguar": 15
 , "Chevrolet": 2
-, "other": 392
+, "other": 276
 });
 
 db.insert(db.countries.SE, "2021-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2522,6 +2566,7 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 318
 , "Citroën": 307
 , "Mazda": 275
+, "Suzuki": 192
 , "Polestar": 189
 , "Dacia": 168
 , "Honda": 98
@@ -2531,7 +2576,7 @@ db.insert(db.countries.SE, "2021-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 25
 , "Jaguar": 15
 , "Chevrolet": 3
-, "other": 592
+, "other": 400
 });
 
 db.insert(db.countries.SE, "2021-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2598,6 +2643,7 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 272
 , "Citroën": 247
 , "Fiat": 199
+, "Suzuki": 192
 , "Mazda": 188
 , "Mini": 162
 , "Porsche": 154
@@ -2609,7 +2655,7 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 17
 , "Mitsubishi": 8
 , "Chevrolet": 5
-, "other": 511
+, "other": 319
 });
 
 db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2680,6 +2726,7 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 299
 , "Mini": 238
 , "Porsche": 185
+, "Suzuki": 179
 , "Subaru": 173
 , "Fiat": 172
 , "Mazda": 123
@@ -2691,7 +2738,7 @@ db.insert(db.countries.SE, "2021-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 8
 , "Mitsubishi": 7
 , "Chevrolet": 4
-, "other": 501
+, "other": 322
 });
 
 db.insert(db.countries.SE, "2021-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2766,6 +2813,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 292
 , "MG": 281
 , "Dacia": 231
+, "Suzuki": 224
 , "Subaru": 206
 , "Opel": 145
 , "Honda": 101
@@ -2777,7 +2825,7 @@ db.insert(db.countries.SE, "2021-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 12
 , "Jaguar": 5
 , "Mitsubishi": 3
-, "other": 531
+, "other": 307
 });
 
 db.insert(db.countries.SE, "2021-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2850,6 +2898,7 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 213
 , "Mini": 194
 , "Porsche": 169
+, "Suzuki": 128
 , "Mitsubishi": 92
 , "Subaru": 88
 , "Honda": 67
@@ -2859,7 +2908,7 @@ db.insert(db.countries.SE, "2022-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Cupra": 20
 , "Jeep": 11
 , "Tesla": 11
-, "other": 447
+, "other": 319
 });
 
 db.insert(db.countries.SE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -2931,6 +2980,7 @@ db.insert(db.countries.SE, "2022-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 231
 , "Citroën": 207
 , "Mini": 197
+, "Suzuki": 175
 , "Honda": 130
 , "Fiat": 105
 , "Mazda": 92
@@ -2939,7 +2989,7 @@ db.insert(db.countries.SE, "2022-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 31
 , "Cupra": 12
 , "Jaguar": 7
-, "other": 469
+, "other": 294
 });
 
 db.insert(db.countries.SE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3018,6 +3068,7 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 268
 , "Mini": 265
 , "Dacia": 254
+, "Suzuki": 213
 , "Citroën": 166
 , "Honda": 134
 , "Mazda": 120
@@ -3027,7 +3078,7 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mitsubishi": 52
 , "Jaguar": 9
 , "Chevrolet": 6
-, "other": 570
+, "other": 357
 });
 
 db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3106,6 +3157,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 231
 , "Mazda": 175
 , "Mini": 165
+, "Suzuki": 165
 , "Subaru": 159
 , "Cupra": 133
 , "Honda": 119
@@ -3115,7 +3167,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 9
 , "Tesla": 9
 , "Chevrolet": 8
-, "other": 595
+, "other": 430
 });
 
 db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3198,13 +3250,14 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Cupra": 205
 , "Mazda": 199
 , "Honda": 180
+, "Suzuki": 173
 , "Opel": 123
 , "Mitsubishi": 55
 , "Land Rover": 54
 , "Jeep": 44
 , "Jaguar": 35
 , "Chevrolet": 6
-, "other": 728
+, "other": 555
 });
 
 db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3284,6 +3337,7 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 193
 , "Mini": 174
 , "Cupra": 171
+, "Suzuki": 130
 , "Mazda": 118
 , "Subaru": 98
 , "Mitsubishi": 91
@@ -3292,7 +3346,7 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 46
 , "Jaguar": 12
 , "Chevrolet": 11
-, "other": 513
+, "other": 383
 });
 
 db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3371,6 +3425,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Cupra": 148
 , "Polestar": 129
 , "Subaru": 129
+, "Suzuki": 76
 , "Tesla": 69
 , "Honda": 39
 , "Land Rover": 25
@@ -3378,7 +3433,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 22
 , "Chevrolet": 9
 , "Jaguar": 5
-, "other": 378
+, "other": 302
 });
 
 db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3458,13 +3513,14 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Cupra": 187
 , "Subaru": 167
 , "Porsche": 156
+, "Suzuki": 127
 , "Polestar": 119
 , "Honda": 88
 , "Jeep": 26
 , "Land Rover": 22
 , "Mitsubishi": 13
 , "Jaguar": 7
-, "other": 501
+, "other": 374
 });
 
 db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3543,6 +3599,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 211
 , "Cupra": 166
 , "Subaru": 162
+, "Suzuki": 136
 , "Honda": 130
 , "Porsche": 125
 , "Land Rover": 63
@@ -3550,7 +3607,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 11
 , "Jeep": 10
 , "Jaguar": 4
-, "other": 555
+, "other": 419
 });
 
 db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3633,6 +3690,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Subaru": 168
 , "Porsche": 150
 , "Opel": 101
+, "Suzuki": 101
 , "Citroën": 88
 , "Honda": 83
 , "Mitsubishi": 44
@@ -3641,7 +3699,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 18
 , "Jaguar": 6
 , "Chevrolet": 3
-, "other": 444
+, "other": 343
 });
 
 db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3723,6 +3781,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 175
 , "Dacia": 175
 , "Seat": 142
+, "Suzuki": 105
 , "BYD": 104
 , "Opel": 93
 , "Honda": 62
@@ -3731,7 +3790,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 14
 , "Chevrolet": 9
 , "Jaguar": 5
-, "other": 615
+, "other": 510
 });
 
 db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3820,13 +3879,14 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 146
 , "Citroën": 139
 , "Subaru": 127
+, "Suzuki": 102
 , "Honda": 90
 , "Fiat": 76
 , "Mitsubishi": 45
 , "Land Rover": 27
 , "Jeep": 9
 , "Chevrolet": 6
-, "other": 729
+, "other": 627
 });
 
 db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -3912,6 +3972,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 106
 , "Opel": 101
 , "Polestar": 97
+, "Suzuki": 70
 , "Cupra": 53
 , "Mitsubishi": 43
 , "Fiat": 36
@@ -3921,7 +3982,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 10
 , "Chevrolet": 5
 , "Jaguar": 4
-, "other": 395
+, "other": 325
 });
 
 db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4008,6 +4069,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 143
 , "BYD": 131
 , "Cupra": 116
+, "Suzuki": 69
 , "Mitsubishi": 47
 , "Honda": 46
 , "Land Rover": 27
@@ -4016,7 +4078,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 3
 , "Chevrolet": 2
 , "GWM": 2
-, "other": 473
+, "other": 404
 });
 
 db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4107,6 +4169,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 219
 , "Dacia": 200
 , "Fiat": 162
+, "Suzuki": 85
 , "Honda": 81
 , "BYD": 58
 , "Mitsubishi": 48
@@ -4115,7 +4178,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 11
 , "Jaguar": 10
 , "Jeep": 5
-, "other": 628
+, "other": 543
 });
 
 db.insert(db.countries.SE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4207,6 +4270,7 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 133
 , "Polestar": 120
 , "Mazda": 91
+, "Suzuki": 84
 , "Mitsubishi": 72
 , "BYD": 63
 , "Honda": 53
@@ -4215,7 +4279,7 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nio": 14
 , "GWM": 12
 , "Chevrolet": 9
-, "other": 553
+, "other": 469
 });
 
 db.insert(db.countries.SE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4308,6 +4372,7 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 175
 , "BYD": 145
 , "Mazda": 129
+, "Suzuki": 118
 , "Mitsubishi": 67
 , "Honda": 61
 , "Jeep": 52
@@ -4315,7 +4380,7 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 17
 , "GWM": 12
 , "Chevrolet": 10
-, "other": 781
+, "other": 663
 });
 
 db.insert(db.countries.SE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4408,6 +4473,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 202
 , "Mazda": 176
 , "Mitsubishi": 170
+, "Suzuki": 160
 , "Mini": 159
 , "Honda": 62
 , "GWM": 29
@@ -4416,7 +4482,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 14
 , "Chevrolet": 6
 , "Jaguar": 5
-, "other": 768
+, "other": 608
 });
 
 db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4510,6 +4576,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 147
 , "Mazda": 109
 , "Seat": 97
+, "Suzuki": 74
 , "Honda": 70
 , "Mitsubishi": 58
 , "Land Rover": 20
@@ -4518,7 +4585,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 5
 , "Jeep": 4
 , "Chevrolet": 2
-, "other": 409
+, "other": 335
 });
 
 db.insert(db.countries.SE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4614,6 +4681,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 185
 , "Dacia": 149
 , "Mini": 130
+, "Suzuki": 124
 , "Honda": 109
 , "GWM": 67
 , "Nio": 27
@@ -4622,7 +4690,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 17
 , "Chevrolet": 9
 , "Jaguar": 6
-, "other": 695
+, "other": 571
 });
 
 db.insert(db.countries.SE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4715,6 +4783,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 163
 , "Mini": 156
 , "Honda": 123
+, "Suzuki": 114
 , "GWM": 100
 , "Land Rover": 22
 , "Mitsubishi": 13
@@ -4722,7 +4791,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 6
 , "Jeep": 5
 , "Jaguar": 3
-, "other": 670
+, "other": 556
 });
 
 db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4811,6 +4880,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 219
 , "Dacia": 192
 , "Mini": 174
+, "Suzuki": 170
 , "Seat": 159
 , "GWM": 141
 , "Mitsubishi": 126
@@ -4820,7 +4890,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nio": 28
 , "Jaguar": 10
 , "Chevrolet": 3
-, "other": 553
+, "other": 383
 });
 
 db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -4907,6 +4977,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Polestar": 305
 , "Subaru": 276
 , "Dacia": 242
+, "Suzuki": 229
 , "Mazda": 224
 , "Citroën": 218
 , "Mini": 212
@@ -4922,7 +4993,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 7
 , "Chevrolet": 5
 , "JAC": 3
-, "other": 708
+, "other": 479
 });
 
 db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5015,6 +5086,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "MG": 222
 , "Porsche": 206
 , "Mini": 179
+, "Suzuki": 171
 , "GWM": 170
 , "Fiat": 72
 , "Honda": 50
@@ -5023,7 +5095,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nio": 8
 , "Jeep": 5
 , "Chevrolet": 3
-, "other": 685
+, "other": 514
 });
 
 db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5114,6 +5186,7 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Cupra": 154
 , "Seat": 146
 , "Citroën": 134
+, "Suzuki": 84
 , "Mini": 72
 , "Honda": 67
 , "BYD": 63
@@ -5124,7 +5197,7 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jaguar": 6
 , "Nio": 3
 , "Chevrolet": 2
-, "other": 591
+, "other": 507
 });
 
 db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
