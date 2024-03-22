@@ -5397,7 +5397,7 @@ db.insert(db.countries.ES, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.km
 , "other": 1670
 });
 
-db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/1 (includes commercial vehicles)",
+db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
 { "Tesla|Model 3": 737
 , "Tesla|Model Y": 343
 , "MG|MG4 EV": 167
