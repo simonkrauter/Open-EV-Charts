@@ -1337,7 +1337,7 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 63
 , "Tesla": 55
 , "Smart": 40
-, "other": 400
+, "other": 416
 });
 
 db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/1",
