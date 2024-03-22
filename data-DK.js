@@ -1589,7 +1589,7 @@ db.insert(db.countries.DK, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 10403
 });
 
-db.insert(db.countries.DK, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/1",
+db.insert(db.countries.DK, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "Tesla|Model Y": 481
 , "Volkswagen|ID.4": 169
 , "Nissan|Ariya": 163
@@ -1651,7 +1651,7 @@ db.insert(db.countries.DK, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 11597
 });
 
-db.insert(db.countries.DK, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/2",
+db.insert(db.countries.DK, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/2, https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
 { "Tesla|Model Y": 1018
 , "Volkswagen|ID.4": 188
 , "Volvo|EX40": 170
@@ -1713,7 +1713,7 @@ db.insert(db.countries.DK, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 17960
 });
 
-db.insert(db.countries.DK, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/3",
+db.insert(db.countries.DK, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/3, https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
 { "Tesla|Model Y": 3203
 , "Tesla|Model 3": 443
 , "Renault|Megane E-Tech": 244
@@ -1772,7 +1772,7 @@ db.insert(db.countries.DK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 12066
 });
 
-db.insert(db.countries.DK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/4",
+db.insert(db.countries.DK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
 { "Tesla|Model Y": 626
 , "Tesla|Model 3": 289
 , "Volkswagen|ID.4": 223
@@ -1839,7 +1839,7 @@ db.insert(db.countries.DK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 14012
 });
 
-db.insert(db.countries.DK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/5",
+db.insert(db.countries.DK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/5, https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
 { "Tesla|Model Y": 1164
 , "Tesla|Model 3": 252
 , "Volkswagen|ID.4": 235
@@ -1904,7 +1904,7 @@ db.insert(db.countries.DK, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 18306
 });
 
-db.insert(db.countries.DK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/6",
+db.insert(db.countries.DK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/6, https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
 { "Tesla|Model Y": 2164
 , "Tesla|Model 3": 643
 , "Volkswagen|ID.4": 364
@@ -1969,7 +1969,7 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 11239
 });
 
-db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7",
+db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
 { "Tesla|Model Y": 550
 , "Škoda|Enyaq": 366
 , "Tesla|Model 3": 241
@@ -2039,7 +2039,7 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 13556
 });
 
-db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/8",
+db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
 { "Tesla|Model Y": 1002
 , "Škoda|Enyaq": 364
 , "Tesla|Model 3": 351
@@ -2114,7 +2114,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 14885
 });
 
-db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/9",
+db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
 { "Tesla|Model Y": 2360
 , "Škoda|Enyaq": 343
 , "Ford|Mustang Mach-E": 337
@@ -2182,7 +2182,7 @@ db.insert(db.countries.DK, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 13233
 });
 
-db.insert(db.countries.DK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/10",
+db.insert(db.countries.DK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/10, https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
 { "Tesla|Model Y": 649
 , "Škoda|Enyaq": 354
 , "Volvo|EX40": 289
@@ -2257,7 +2257,7 @@ db.insert(db.countries.DK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 16354
 });
 
-db.insert(db.countries.DK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/11",
+db.insert(db.countries.DK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/11, https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
 { "Tesla|Model Y": 1655
 , "Tesla|Model 3": 691
 , "Škoda|Enyaq": 465
@@ -2330,7 +2330,7 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 19187
 });
 
-db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/12",
+db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
 { "Tesla|Model Y": 2889
 , "Tesla|Model 3": 1086
 , "Volkswagen|ID. Buzz": 609
@@ -2404,7 +2404,7 @@ db.insert(db.countries.DK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ac
 { "other": 8848
 });
 
-db.insert(db.countries.DK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/1",
+db.insert(db.countries.DK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/1, https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
 { "Tesla|Model Y": 466
 , "Tesla|Model 3": 278
 , "Audi|Q4 e-tron": 236
