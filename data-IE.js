@@ -4468,3 +4468,105 @@ db.insert(db.countries.IE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mazda|other": 3
 , "other": 8
 });
+
+db.insert(db.countries.IE, "2024-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Škoda": 2540
+, "Toyota": 1820
+, "Volkswagen": 1634
+, "Hyundai": 1257
+, "Kia": 1237
+, "Audi": 817
+, "Renault": 720
+, "Nissan": 678
+, "Peugeot": 568
+, "BMW": 533
+, "Dacia": 519
+, "Seat": 472
+, "Mercedes-Benz": 457
+, "Ford": 455
+, "Suzuki": 418
+, "Tesla": 346
+, "Opel": 326
+, "Volvo": 256
+, "Cupra": 249
+, "MG": 176
+, "BYD": 144
+, "Mazda": 144
+, "Land Rover": 134
+, "Fiat": 129
+, "Citroën": 108
+, "Mini": 64
+, "Porsche": 40
+, "Polestar": 22
+, "Jeep": 15
+, "Honda": 11
+, "Jaguar": 10
+, "GWM": 7
+, "Smart": 6
+, "Subaru": 2
+, "other": 130
+});
+
+db.insert(db.countries.IE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 247
+, "MG|MG4 EV": 123
+, "Audi|Q4 e-tron": 104
+, "Tesla|Model Y": 99
+, "BYD|Seal": 85
+, "Renault|Megane E-Tech": 81
+, "Volvo|EX40": 78
+, "Mercedes-Benz|EQE": 72
+, "Kia|Niro EV": 70
+, "Volkswagen|ID.3": 65
+, "Toyota|bZ4X": 64
+, "Cupra|Born": 61
+, "Hyundai|Kona Electric": 57
+, "Škoda|Enyaq": 56
+, "Hyundai|Ioniq 5": 54
+, "BMW|iX1": 48
+, "Kia|EV6": 39
+, "MG|ZS EV": 37
+, "BYD|Dolphin": 34
+, "Volkswagen|e-up!": 32
+, "BMW|i4": 26
+, "BYD|Yuan Plus": 25
+, "Nissan|Ariya": 24
+, "Volvo|EX30": 24
+, "Polestar|2": 22
+, "Kia|EV9": 21
+, "Audi|Q8 e-tron": 19
+, "Nissan|Leaf": 19
+, "Volkswagen|ID.4": 16
+, "Mercedes-Benz|EQB": 14
+, "Volvo|EC40": 14
+, "BMW|iX3": 10
+, "MG|MG5 EV": 10
+, "Mercedes-Benz|EQA": 10
+, "Citroën|ë-C4": 9
+, "Hyundai|Ioniq 6": 8
+, "GWM|Ora 03": 7
+, "BMW|iX": 6
+, "BMW|i5": 5
+, "Jaguar|I-Pace": 5
+, "Jeep|Avenger EV": 5
+, "Peugeot|e-2008": 5
+, "Ford|Mustang Mach-E": 4
+, "Opel|Mokka-e": 4
+, "Volkswagen|ID. Buzz": 4
+, "Mini|Cooper SE": 3
+, "Opel|Astra Electric": 3
+, "Volkswagen|ID.7": 3
+, "Mercedes-Benz|EQE SUV": 2
+, "Mercedes-Benz|EQS": 2
+, "Mercedes-Benz|EQS SUV": 2
+, "Peugeot|e-208": 2
+, "Peugeot|e-Rifter": 2
+, "Volkswagen|ID.5": 2
+, "Audi|other": 1
+, "BMW|other": 1
+, "Fiat|other": 1
+, "Opel|other": 1
+, "Porsche|other": 1
+, "Subaru|other": 1
+, "other": 12
+});
