@@ -21,6 +21,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 646
 , "Citroën": 629
 , "Kia": 558
+, "Suzuki": 558
 , "Volvo": 362
 , "Mitsubishi": 348
 , "Nissan": 332
@@ -35,7 +36,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 40
 , "Tesla": 21
 , "JAC": 3
-, "other": 759
+, "other": 201
 });
 
 db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -66,6 +67,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 859
 , "Peugeot": 801
 , "Dacia": 739
+, "Suzuki": 662
 , "Kia": 620
 , "Mazda": 565
 , "Citroën": 529
@@ -82,7 +84,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 78
 , "Subaru": 30
 , "Porsche": 22
-, "other": 868
+, "other": 206
 });
 
 db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -115,6 +117,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 1100
 , "Kia": 890
 , "Dacia": 871
+, "Suzuki": 860
 , "Citroën": 808
 , "Tesla": 748
 , "Toyota": 550
@@ -129,7 +132,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 118
 , "Porsche": 62
 , "Subaru": 40
-, "other": 1129
+, "other": 269
 });
 
 db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -163,6 +166,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Dacia": 976
 , "Mazda": 897
 , "Citroën": 775
+, "Suzuki": 759
 , "Toyota": 681
 , "Mitsubishi": 676
 , "Volvo": 429
@@ -177,7 +181,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 93
 , "Subaru": 44
 , "JAC": 8
-, "other": 1030
+, "other": 271
 });
 
 db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -210,6 +214,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Kia": 967
 , "Dacia": 950
 , "Mazda": 918
+, "Suzuki": 854
 , "Toyota": 713
 , "Citroën": 660
 , "Mitsubishi": 464
@@ -225,7 +230,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 52
 , "Jaguar": 44
 , "JAC": 5
-, "other": 1073
+, "other": 219
 });
 
 db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -259,6 +264,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 894
 , "Kia": 849
 , "Citroën": 793
+, "Suzuki": 789
 , "Toyota": 642
 , "Tesla": 469
 , "Nissan": 419
@@ -273,7 +279,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 55
 , "Subaru": 34
 , "JAC": 5
-, "other": 1054
+, "other": 265
 });
 
 db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -303,6 +309,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Audi": 1354
 , "Fiat": 1256
 , "Peugeot": 1150
+, "Suzuki": 977
 , "Dacia": 943
 , "Mazda": 862
 , "Kia": 793
@@ -320,7 +327,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Land Rover": 124
 , "Jaguar": 101
 , "Subaru": 33
-, "other": 1206
+, "other": 229
 });
 
 db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -348,6 +355,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Audi": 1449
 , "BMW": 1417
 , "Renault": 1321
+, "Suzuki": 1268
 , "Fiat": 961
 , "Kia": 940
 , "Peugeot": 858
@@ -368,7 +376,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 39
 , "Subaru": 32
 , "JAC": 4
-, "other": 1507
+, "other": 239
 });
 
 db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -407,6 +415,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Volvo": 361
 , "Mini": 330
 , "Nissan": 291
+, "Suzuki": 264
 , "Jeep": 250
 , "Honda": 218
 , "Land Rover": 163
@@ -416,7 +425,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 51
 , "Subaru": 49
 , "JAC": 3
-, "other": 476
+, "other": 212
 });
 
 db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -452,6 +461,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Citroën": 555
 , "Dacia": 530
 , "Volvo": 417
+, "Suzuki": 382
 , "Nissan": 319
 , "Jeep": 282
 , "Mini": 282
@@ -464,7 +474,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 49
 , "Smart": 37
 , "JAC": 4
-, "other": 628
+, "other": 246
 });
 
 db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -498,6 +508,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Kia": 648
 , "Dacia": 643
 , "Toyota": 601
+, "Suzuki": 499
 , "Citroën": 446
 , "Volvo": 361
 , "Mitsubishi": 275
@@ -511,7 +522,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 25
 , "Smart": 21
 , "Subaru": 21
-, "other": 623
+, "other": 124
 });
 
 db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -541,6 +552,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Audi": 897
 , "Peugeot": 850
 , "Seat": 719
+, "Suzuki": 709
 , "Opel": 654
 , "Dacia": 624
 , "Kia": 575
@@ -558,7 +570,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 75
 , "Jaguar": 46
 , "Smart": 22
-, "other": 816
+, "other": 107
 });
 
 db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
@@ -594,6 +606,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Kia": 524
 , "Toyota": 477
 , "Volvo": 363
+, "Suzuki": 329
 , "Mitsubishi": 305
 , "Nissan": 239
 , "Jeep": 226
@@ -606,7 +619,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 44
 , "Smart": 15
 , "MG": 12
-, "other": 460
+, "other": 131
 });
 
 db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -638,6 +651,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 775
 , "Citroën": 529
 , "Dacia": 518
+, "Suzuki": 516
 , "Mazda": 513
 , "Kia": 481
 , "Toyota": 425
@@ -654,7 +668,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 50
 , "MG": 16
 , "Smart": 14
-, "other": 672
+, "other": 156
 });
 
 db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -682,6 +696,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mercedes-Benz": 467
 , "Tesla": 410
 , "Renault": 386
+, "Suzuki": 374
 , "Opel": 294
 , "Peugeot": 293
 , "Toyota": 293
@@ -702,7 +717,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 23
 , "MG": 4
 , "Smart": 3
-, "other": 461
+, "other": 87
 });
 
 db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -737,6 +752,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Citroën": 273
 , "Toyota": 266
 , "Tesla": 257
+, "Suzuki": 241
 , "Mazda": 222
 , "Volvo": 179
 , "Mitsubishi": 152
@@ -750,7 +766,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 20
 , "Smart": 7
 , "MG": 5
-, "other": 310
+, "other": 69
 });
 
 db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -784,6 +800,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Dacia": 694
 , "Mazda": 599
 , "Citroën": 559
+, "Suzuki": 540
 , "Toyota": 512
 , "Mitsubishi": 361
 , "Volvo": 272
@@ -798,7 +815,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 32
 , "Smart": 12
 , "MG": 6
-, "other": 673
+, "other": 133
 });
 
 db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -833,6 +850,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Dacia": 706
 , "Citroën": 642
 , "Toyota": 551
+, "Suzuki": 540
 , "Volvo": 428
 , "Mitsubishi": 377
 , "Mini": 302
@@ -846,7 +864,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 38
 , "Smart": 18
 , "MG": 9
-, "other": 792
+, "other": 252
 });
 
 db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -880,6 +898,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 634
 , "Dacia": 603
 , "Toyota": 602
+, "Suzuki": 596
 , "Citroën": 494
 , "Volvo": 322
 , "Mitsubishi": 305
@@ -894,7 +913,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 40
 , "Subaru": 35
 , "MG": 14
-, "other": 786
+, "other": 190
 });
 
 db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -929,6 +948,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Toyota": 464
 , "Citroën": 439
 , "Dacia": 430
+, "Suzuki": 420
 , "Nissan": 278
 , "Mini": 241
 , "Jeep": 225
@@ -942,7 +962,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 29
 , "Subaru": 29
 , "MG": 19
-, "other": 653
+, "other": 233
 });
 
 db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -977,6 +997,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 611
 , "Tesla": 598
 , "Dacia": 517
+, "Suzuki": 488
 , "Citroën": 463
 , "Toyota": 451
 , "Mitsubishi": 338
@@ -992,7 +1013,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 31
 , "MG": 25
 , "Smart": 16
-, "other": 673
+, "other": 185
 });
 
 db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1027,6 +1048,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Dacia": 799
 , "Toyota": 677
 , "Citroën": 526
+, "Suzuki": 514
 , "Mini": 282
 , "Volvo": 282
 , "Nissan": 234
@@ -1042,7 +1064,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 22
 , "Subaru": 19
 , "JAC": 8
-, "other": 650
+, "other": 136
 });
 
 db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1078,6 +1100,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 497
 , "Toyota": 394
 , "Volvo": 299
+, "Suzuki": 292
 , "Mini": 205
 , "Tesla": 203
 , "Nissan": 189
@@ -1091,7 +1114,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 24
 , "Subaru": 22
 , "MG": 18
-, "other": 456
+, "other": 164
 });
 
 db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1126,6 +1149,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Citroën": 678
 , "Toyota": 616
 , "Mazda": 556
+, "Suzuki": 473
 , "Kia": 407
 , "Nissan": 345
 , "Volvo": 312
@@ -1141,7 +1165,7 @@ db.insert(db.countries.AT, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Cupra": 28
 , "MG": 12
 , "JAC": 11
-, "other": 853
+, "other": 380
 });
 
 db.insert(db.countries.AT, "2020-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1176,6 +1200,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 242
 , "Dacia": 238
 , "Citroën": 192
+, "Suzuki": 191
 , "Mini": 122
 , "Tesla": 112
 , "Jeep": 105
@@ -1190,7 +1215,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 17
 , "Smart": 13
 , "JAC": 4
-, "other": 215
+, "other": 24
 });
 
 db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1223,6 +1248,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Kia": 544
 , "Mazda": 520
 , "Hyundai": 504
+, "Suzuki": 468
 , "Toyota": 437
 , "Citroën": 411
 , "Tesla": 362
@@ -1240,7 +1266,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 17
 , "Smart": 14
 , "JAC": 4
-, "other": 548
+, "other": 80
 });
 
 db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1273,6 +1299,7 @@ db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 1076
 , "Peugeot": 981
 , "Kia": 933
+, "Suzuki": 916
 , "Toyota": 819
 , "Citroën": 775
 , "Dacia": 688
@@ -1290,7 +1317,7 @@ db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 43
 , "Smart": 14
 , "JAC": 3
-, "other": 1071
+, "other": 155
 });
 
 db.insert(db.countries.AT, "2021-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1324,6 +1351,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 637
 , "Citroën": 508
 , "Toyota": 475
+, "Suzuki": 452
 , "Dacia": 400
 , "Mini": 280
 , "Volvo": 228
@@ -1339,7 +1367,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Tesla": 34
 , "Subaru": 32
 , "Smart": 11
-, "other": 537
+, "other": 85
 });
 
 db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1373,6 +1401,7 @@ db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Opel": 719
 , "Toyota": 528
 , "Citroën": 510
+, "Suzuki": 464
 , "Dacia": 387
 , "Volvo": 259
 , "Mini": 230
@@ -1389,7 +1418,7 @@ db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 42
 , "Smart": 11
 , "Polestar": 5
-, "other": 592
+, "other": 128
 });
 
 db.insert(db.countries.AT, "2021-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1423,6 +1452,7 @@ db.insert(db.countries.AT, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 636
 , "Dacia": 584
 , "Citroën": 570
+, "Suzuki": 487
 , "Mini": 301
 , "Volvo": 279
 , "Mitsubishi": 233
@@ -1436,7 +1466,7 @@ db.insert(db.countries.AT, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "MG": 54
 , "Subaru": 42
 , "Smart": 19
-, "other": 630
+, "other": 143
 });
 
 db.insert(db.countries.AT, "2021-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1468,6 +1498,7 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 631
 , "Toyota": 590
 , "Peugeot": 587
+, "Suzuki": 528
 , "Citroën": 351
 , "Volvo": 321
 , "Mini": 301
@@ -1485,7 +1516,7 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 12
 , "Polestar": 5
 , "JAC": 3
-, "other": 613
+, "other": 85
 });
 
 db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1516,6 +1547,7 @@ db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Kia": 640
 , "Mazda": 597
 , "Peugeot": 511
+, "Suzuki": 510
 , "Toyota": 503
 , "Dacia": 501
 , "Opel": 442
@@ -1535,7 +1567,7 @@ db.insert(db.countries.AT, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 37
 , "Jaguar": 30
 , "Polestar": 8
-, "other": 614
+, "other": 104
 });
 
 db.insert(db.countries.AT, "2021-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1567,6 +1599,7 @@ db.insert(db.countries.AT, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 649
 , "Dacia": 589
 , "Mazda": 542
+, "Suzuki": 503
 , "Toyota": 446
 , "Peugeot": 436
 , "Citroën": 424
@@ -1585,7 +1618,7 @@ db.insert(db.countries.AT, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 22
 , "Smart": 7
 , "JAC": 4
-, "other": 618
+, "other": 115
 });
 
 db.insert(db.countries.AT, "2021-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1617,6 +1650,7 @@ db.insert(db.countries.AT, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 544
 , "Mazda": 528
 , "Toyota": 513
+, "Suzuki": 480
 , "Seat": 448
 , "Dacia": 441
 , "Citroën": 288
@@ -1635,7 +1669,7 @@ db.insert(db.countries.AT, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Tesla": 41
 , "Polestar": 18
 , "Smart": 6
-, "other": 579
+, "other": 99
 });
 
 db.insert(db.countries.AT, "2021-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1669,6 +1703,7 @@ db.insert(db.countries.AT, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 508
 , "Tesla": 468
 , "Opel": 436
+, "Suzuki": 405
 , "Cupra": 394
 , "Mazda": 392
 , "Citroën": 310
@@ -1685,7 +1720,7 @@ db.insert(db.countries.AT, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 25
 , "Polestar": 22
 , "Smart": 7
-, "other": 470
+, "other": 65
 });
 
 db.insert(db.countries.AT, "2021-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1722,6 +1757,7 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 398
 , "Citroën": 386
 , "Mini": 344
+, "Suzuki": 267
 , "Cupra": 256
 , "Volvo": 249
 , "Jeep": 174
@@ -1735,7 +1771,7 @@ db.insert(db.countries.AT, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 32
 , "Jaguar": 22
 , "Smart": 13
-, "other": 393
+, "other": 126
 });
 
 db.insert(db.countries.AT, "2021-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1771,6 +1807,7 @@ db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Volvo": 321
 , "Opel": 318
 , "Mazda": 311
+, "Suzuki": 245
 , "Citroën": 222
 , "Mini": 167
 , "Porsche": 164
@@ -1785,7 +1822,7 @@ db.insert(db.countries.AT, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 25
 , "Polestar": 20
 , "Smart": 6
-, "other": 317
+, "other": 72
 });
 
 db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -1816,6 +1853,7 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 646
 , "Mazda": 548
 , "Hyundai": 507
+, "Suzuki": 455
 , "Opel": 447
 , "Tesla": 435
 , "Fiat": 395
@@ -1835,7 +1873,7 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 33
 , "Jaguar": 24
 , "Smart": 9
-, "other": 537
+, "other": 82
 });
 
 db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -1872,6 +1910,7 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Cupra": 432
 , "Citroën": 396
 , "Fiat": 333
+, "Suzuki": 317
 , "Volvo": 276
 , "Mitsubishi": 203
 , "Mini": 179
@@ -1885,7 +1924,7 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 32
 , "Polestar": 28
 , "Smart": 13
-, "other": 437
+, "other": 120
 });
 
 db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -1919,6 +1958,7 @@ db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Dacia": 435
 , "Opel": 380
 , "Peugeot": 278
+, "Suzuki": 219
 , "Volvo": 213
 , "Fiat": 195
 , "Mitsubishi": 183
@@ -1936,7 +1976,7 @@ db.insert(db.countries.AT, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 29
 , "Smart": 10
 , "JAC": 2
-, "other": 349
+, "other": 130
 });
 
 db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -1971,6 +2011,7 @@ db.insert(db.countries.AT, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Opel": 399
 , "Dacia": 361
 , "Fiat": 327
+, "Suzuki": 245
 , "Volvo": 237
 , "Nissan": 224
 , "Citroën": 193
@@ -1987,7 +2028,7 @@ db.insert(db.countries.AT, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 18
 , "Smart": 9
 , "JAC": 2
-, "other": 381
+, "other": 136
 });
 
 db.insert(db.countries.AT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2024,6 +2065,7 @@ db.insert(db.countries.AT, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 571
 , "Citroën": 434
 , "Mazda": 405
+, "Suzuki": 303
 , "Mini": 239
 , "Mitsubishi": 230
 , "Nissan": 181
@@ -2037,7 +2079,7 @@ db.insert(db.countries.AT, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 39
 , "Subaru": 14
 , "Smart": 5
-, "other": 511
+, "other": 208
 });
 
 db.insert(db.countries.AT, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2073,6 +2115,7 @@ db.insert(db.countries.AT, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Cupra": 440
 , "Renault": 314
 , "Mazda": 283
+, "Suzuki": 251
 , "Mini": 244
 , "Volvo": 234
 , "Nissan": 147
@@ -2087,7 +2130,7 @@ db.insert(db.countries.AT, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 36
 , "Subaru": 28
 , "Smart": 4
-, "other": 401
+, "other": 150
 });
 
 db.insert(db.countries.AT, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2123,6 +2166,7 @@ db.insert(db.countries.AT, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 363
 , "Opel": 344
 , "Renault": 332
+, "Suzuki": 323
 , "Tesla": 311
 , "Mini": 205
 , "Volvo": 164
@@ -2137,7 +2181,7 @@ db.insert(db.countries.AT, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 32
 , "Jaguar": 29
 , "JAC": 2
-, "other": 485
+, "other": 162
 });
 
 db.insert(db.countries.AT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2175,6 +2219,7 @@ db.insert(db.countries.AT, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 381
 , "Citroën": 287
 , "Mitsubishi": 279
+, "Suzuki": 258
 , "Volvo": 178
 , "Nissan": 175
 , "Mini": 168
@@ -2186,7 +2231,7 @@ db.insert(db.countries.AT, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 48
 , "Jaguar": 35
 , "Subaru": 18
-, "other": 417
+, "other": 159
 });
 
 db.insert(db.countries.AT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2225,6 +2270,7 @@ db.insert(db.countries.AT, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Citroën": 196
 , "Mini": 159
 , "Mitsubishi": 156
+, "Suzuki": 156
 , "Nissan": 150
 , "MG": 116
 , "Porsche": 103
@@ -2236,7 +2282,7 @@ db.insert(db.countries.AT, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 23
 , "Subaru": 19
 , "Smart": 7
-, "other": 297
+, "other": 141
 });
 
 db.insert(db.countries.AT, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2275,6 +2321,7 @@ db.insert(db.countries.AT, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Cupra": 347
 , "Volvo": 315
 , "MG": 215
+, "Suzuki": 209
 , "Nissan": 195
 , "Mini": 164
 , "Mitsubishi": 141
@@ -2287,7 +2334,7 @@ db.insert(db.countries.AT, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 19
 , "Smart": 4
 , "Chevrolet": 2
-, "other": 393
+, "other": 184
 });
 
 db.insert(db.countries.AT, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2320,6 +2367,7 @@ db.insert(db.countries.AT, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Seat": 607
 , "Mazda": 494
 , "Peugeot": 429
+, "Suzuki": 290
 , "Citroën": 281
 , "Fiat": 273
 , "MG": 271
@@ -2339,7 +2387,7 @@ db.insert(db.countries.AT, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "BAIC": 3
 , "Smart": 3
 , "Chevrolet": 2
-, "other": 503
+, "other": 213
 });
 
 db.insert(db.countries.AT, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2022.ods",
@@ -2375,6 +2423,7 @@ db.insert(db.countries.AT, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Tesla": 373
 , "Opel": 366
 , "Citroën": 316
+, "Suzuki": 303
 , "Volvo": 276
 , "Fiat": 255
 , "MG": 216
@@ -2390,7 +2439,7 @@ db.insert(db.countries.AT, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 26
 , "BYD": 13
 , "Smart": 3
-, "other": 510
+, "other": 207
 });
 
 db.insert(db.countries.AT, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2427,6 +2476,7 @@ db.insert(db.countries.AT, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 418
 , "Citroën": 355
 , "Peugeot": 348
+, "Suzuki": 301
 , "Volvo": 299
 , "Nissan": 174
 , "MG": 166
@@ -2441,7 +2491,7 @@ db.insert(db.countries.AT, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 26
 , "BYD": 17
 , "Smart": 5
-, "other": 455
+, "other": 154
 });
 
 db.insert(db.countries.AT, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2478,6 +2528,7 @@ db.insert(db.countries.AT, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 594
 , "Citroën": 454
 , "Fiat": 433
+, "Suzuki": 361
 , "Volvo": 322
 , "MG": 297
 , "Mini": 269
@@ -2493,7 +2544,7 @@ db.insert(db.countries.AT, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 27
 , "Smart": 5
 , "Chevrolet": 3
-, "other": 656
+, "other": 295
 });
 
 db.insert(db.countries.AT, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2528,6 +2579,7 @@ db.insert(db.countries.AT, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 424
 , "Tesla": 410
 , "Citroën": 361
+, "Suzuki": 349
 , "Opel": 308
 , "Fiat": 301
 , "MG": 216
@@ -2546,7 +2598,7 @@ db.insert(db.countries.AT, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 6
 , "BAIC": 2
 , "Chevrolet": 2
-, "other": 534
+, "other": 185
 });
 
 db.insert(db.countries.AT, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2581,6 +2633,7 @@ db.insert(db.countries.AT, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Opel": 545
 , "Mazda": 448
 , "Peugeot": 371
+, "Suzuki": 324
 , "Fiat": 296
 , "Citroën": 277
 , "Mitsubishi": 254
@@ -2598,7 +2651,7 @@ db.insert(db.countries.AT, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 40
 , "Chevrolet": 3
 , "Smart": 3
-, "other": 481
+, "other": 157
 });
 
 db.insert(db.countries.AT, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2635,6 +2688,7 @@ db.insert(db.countries.AT, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Peugeot": 568
 , "Citroën": 521
 , "Fiat": 514
+, "Suzuki": 382
 , "Nissan": 280
 , "Volvo": 239
 , "Mitsubishi": 237
@@ -2649,7 +2703,7 @@ db.insert(db.countries.AT, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 41
 , "Subaru": 37
 , "Smart": 8
-, "other": 543
+, "other": 161
 });
 
 db.insert(db.countries.AT, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2684,6 +2738,7 @@ db.insert(db.countries.AT, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Opel": 420
 , "Mazda": 409
 , "Tesla": 366
+, "Suzuki": 364
 , "Fiat": 266
 , "MG": 256
 , "Nissan": 232
@@ -2702,7 +2757,7 @@ db.insert(db.countries.AT, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 16
 , "BAIC": 2
 , "Chevrolet": 2
-, "other": 488
+, "other": 124
 });
 
 db.insert(db.countries.AT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2735,6 +2790,7 @@ db.insert(db.countries.AT, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Ford": 570
 , "Renault": 511
 , "Mazda": 510
+, "Suzuki": 361
 , "Fiat": 359
 , "Volvo": 296
 , "Opel": 288
@@ -2754,7 +2810,7 @@ db.insert(db.countries.AT, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 18
 , "Smart": 8
 , "Chevrolet": 3
-, "other": 638
+, "other": 277
 });
 
 db.insert(db.countries.AT, "2023-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2788,6 +2844,7 @@ db.insert(db.countries.AT, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 668
 , "Tesla": 598
 , "Opel": 550
+, "Suzuki": 456
 , "Peugeot": 377
 , "Volvo": 265
 , "Fiat": 249
@@ -2806,7 +2863,7 @@ db.insert(db.countries.AT, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 11
 , "Subaru": 10
 , "Chevrolet": 3
-, "other": 663
+, "other": 207
 });
 
 db.insert(db.countries.AT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2840,6 +2897,7 @@ db.insert(db.countries.AT, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mazda": 565
 , "Opel": 438
 , "Tesla": 339
+, "Suzuki": 323
 , "Peugeot": 302
 , "Volvo": 294
 , "Fiat": 283
@@ -2858,7 +2916,7 @@ db.insert(db.countries.AT, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 14
 , "Jaguar": 12
 , "Chevrolet": 3
-, "other": 497
+, "other": 174
 });
 
 db.insert(db.countries.AT, "2023-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2890,6 +2948,7 @@ db.insert(db.countries.AT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Toyota": 670
 , "Mazda": 611
 , "Ford": 585
+, "Suzuki": 365
 , "Cupra": 351
 , "Nissan": 313
 , "Mitsubishi": 310
@@ -2910,7 +2969,7 @@ db.insert(db.countries.AT, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jaguar": 11
 , "Smart": 9
 , "BAIC": 2
-, "other": 509
+, "other": 144
 });
 
 db.insert(db.countries.AT, "2023-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2942,6 +3001,7 @@ db.insert(db.countries.AT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Renault": 573
 , "Ford": 497
 , "Mazda": 476
+, "Suzuki": 380
 , "Volvo": 380
 , "Cupra": 299
 , "Mitsubishi": 287
@@ -2962,7 +3022,7 @@ db.insert(db.countries.AT, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 23
 , "Jaguar": 7
 , "BAIC": 5
-, "other": 565
+, "other": 185
 });
 
 db.insert(db.countries.AT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2023.ods",
@@ -2989,6 +3049,7 @@ db.insert(db.countries.AT, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Toyota": 818
 , "Mercedes-Benz": 786
 , "Kia": 579
+, "Suzuki": 540
 , "Cupra": 484
 , "Ford": 458
 , "Tesla": 391
@@ -3013,7 +3074,7 @@ db.insert(db.countries.AT, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 29
 , "Subaru": 17
 , "Jaguar": 8
-, "other": 741
+, "other": 201
 });
 
 db.insert(db.countries.AT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaenner2024.ods",
