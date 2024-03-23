@@ -292,6 +292,7 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 354
 , "Hyundai": 338
 , "Mercedes-Benz": 308
+, "Suzuki": 289
 , "Audi": 264
 , "Mazda": 237
 , "Nissan": 223
@@ -300,7 +301,7 @@ db.insert(db.countries.NO, "2018-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 168
 , "Mitsubishi": 119
 , "Subaru": 70
-, "other": 618
+, "other": 329
 });
 
 db.insert(db.countries.NO, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar",
@@ -338,11 +339,12 @@ db.insert(db.countries.NO, "2018-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 281
 , "Hyundai": 277
 , "Opel": 224
+, "Suzuki": 194
 , "Subaru": 121
 , "Renault": 116
 , "Citroën": 115
 , "Tesla": 81
-, "other": 613
+, "other": 419
 });
 
 db.insert(db.countries.NO, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar",
@@ -382,8 +384,9 @@ db.insert(db.countries.NO, "2018-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 327
 , "Opel": 265
 , "Citroën": 186
+, "Suzuki": 181
 , "Subaru": 139
-, "other": 749
+, "other": 568
 });
 
 db.insert(db.countries.NO, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars",
@@ -426,7 +429,8 @@ db.insert(db.countries.NO, "2018-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 288
 , "Subaru": 267
 , "Citroën": 206
-, "other": 614
+, "Suzuki": 196
+, "other": 418
 });
 
 db.insert(db.countries.NO, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april",
@@ -468,9 +472,10 @@ db.insert(db.countries.NO, "2018-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 344
 , "Hyundai": 293
 , "Renault": 263
+, "Suzuki": 237
 , "Citroën": 150
 , "Subaru": 110
-, "other": 695
+, "other": 458
 });
 
 db.insert(db.countries.NO, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai",
@@ -512,9 +517,10 @@ db.insert(db.countries.NO, "2018-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 380
 , "Mazda": 378
 , "Renault": 312
+, "Suzuki": 289
 , "Citroën": 194
 , "Subaru": 151
-, "other": 878
+, "other": 589
 });
 
 db.insert(db.countries.NO, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni",
@@ -557,9 +563,10 @@ db.insert(db.countries.NO, "2018-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 273
 , "Subaru": 211
 , "Renault": 151
+, "Suzuki": 141
 , "Citroën": 130
 , "Tesla": 64
-, "other": 574
+, "other": 433
 });
 
 db.insert(db.countries.NO, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2",
@@ -601,9 +608,10 @@ db.insert(db.countries.NO, "2018-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 307
 , "Mitsubishi": 287
 , "Tesla": 195
+, "Suzuki": 189
 , "Subaru": 173
 , "Citroën": 142
-, "other": 933
+, "other": 744
 });
 
 db.insert(db.countries.NO, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2018",
@@ -644,12 +652,13 @@ db.insert(db.countries.NO, "2018-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 292
 , "Škoda": 288
 , "Ford": 247
+, "Suzuki": 166
 , "Renault": 164
 , "Opel": 162
 , "Audi": 130
 , "Citroën": 123
 , "Subaru": 118
-, "other": 651
+, "other": 485
 });
 
 db.insert(db.countries.NO, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2018",
@@ -690,12 +699,13 @@ db.insert(db.countries.NO, "2018-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 302
 , "Mazda": 298
 , "Ford": 297
+, "Suzuki": 234
 , "Tesla": 202
 , "Subaru": 162
 , "Audi": 125
 , "Opel": 120
 , "Citroën": 108
-, "other": 1095
+, "other": 861
 });
 
 db.insert(db.countries.NO, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2018",
@@ -737,10 +747,11 @@ db.insert(db.countries.NO, "2018-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Ford": 273
 , "Mercedes-Benz": 251
 , "Mazda": 207
+, "Suzuki": 195
 , "Audi": 151
 , "Subaru": 116
 , "Citroën": 113
-, "other": 964
+, "other": 769
 });
 
 db.insert(db.countries.NO, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2",
@@ -781,10 +792,11 @@ db.insert(db.countries.NO, "2018-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 218
 , "Audi": 171
 , "Mazda": 136
+, "Suzuki": 124
 , "Subaru": 97
 , "Citroën": 69
 , "Opel": 63
-, "other": 701
+, "other": 577
 });
 
 db.insert(db.countries.NO, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2018/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2",
@@ -823,6 +835,7 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Ford": 280
 , "Kia": 267
 , "Mercedes-Benz": 235
+, "Suzuki": 207
 , "Tesla": 186
 , "Mazda": 171
 , "Renault": 171
@@ -830,7 +843,7 @@ db.insert(db.countries.NO, "2019-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 124
 , "Jaguar": 101
 , "Mini": 86
-, "other": 555
+, "other": 348
 });
 
 db.insert(db.countries.NO, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2019",
@@ -876,8 +889,9 @@ db.insert(db.countries.NO, "2019-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 250
 , "Citroën": 218
 , "Mazda": 197
+, "Suzuki": 180
 , "Opel": 175
-, "other": 610
+, "other": 430
 });
 
 db.insert(db.countries.NO, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2019-1-1",
@@ -920,10 +934,11 @@ db.insert(db.countries.NO, "2019-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 387
 , "Ford": 385
 , "Peugeot": 327
+, "Suzuki": 274
 , "Opel": 226
 , "Mazda": 196
 , "Citroën": 127
-, "other": 704
+, "other": 430
 });
 
 db.insert(db.countries.NO, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2019-1",
@@ -963,13 +978,14 @@ db.insert(db.countries.NO, "2019-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 371
 , "Ford": 362
 , "Peugeot": 354
+, "Suzuki": 308
 , "Mazda": 280
 , "Mercedes-Benz": 240
 , "Renault": 230
 , "Opel": 192
 , "Mitsubishi": 151
 , "Citroën": 125
-, "other": 762
+, "other": 454
 });
 
 db.insert(db.countries.NO, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2019-1-1",
@@ -1013,10 +1029,11 @@ db.insert(db.countries.NO, "2019-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 345
 , "Renault": 322
 , "Mazda": 270
+, "Suzuki": 243
 , "Mercedes-Benz": 240
 , "Opel": 184
 , "Citroën": 151
-, "other": 874
+, "other": 631
 });
 
 db.insert(db.countries.NO, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2019",
@@ -1062,8 +1079,9 @@ db.insert(db.countries.NO, "2019-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 259
 , "Opel": 259
 , "Mazda": 258
+, "Suzuki": 189
 , "Citroën": 144
-, "other": 752
+, "other": 563
 });
 
 db.insert(db.countries.NO, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2019-1",
@@ -1108,7 +1126,8 @@ db.insert(db.countries.NO, "2019-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Jaguar": 136
 , "Mercedes-Benz": 136
 , "Mitsubishi": 103
-, "other": 479
+, "Suzuki": 91
+, "other": 388
 });
 
 db.insert(db.countries.NO, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2019-1-1",
@@ -1152,9 +1171,10 @@ db.insert(db.countries.NO, "2019-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 259
 , "Jaguar": 250
 , "Mercedes-Benz": 248
+, "Suzuki": 220
 , "Mazda": 176
 , "Citroën": 152
-, "other": 811
+, "other": 591
 });
 
 db.insert(db.countries.NO, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2019",
@@ -1197,12 +1217,13 @@ db.insert(db.countries.NO, "2019-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 258
 , "Kia": 219
 , "Peugeot": 216
+, "Suzuki": 198
 , "Opel": 197
 , "Jaguar": 186
 , "Renault": 129
 , "Mazda": 127
 , "Citroën": 99
-, "other": 543
+, "other": 345
 });
 
 db.insert(db.countries.NO, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2019",
@@ -1248,8 +1269,9 @@ db.insert(db.countries.NO, "2019-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 167
 , "Opel": 159
 , "Renault": 140
+, "Suzuki": 137
 , "Citroën": 99
-, "other": 561
+, "other": 424
 });
 
 db.insert(db.countries.NO, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2019-1",
@@ -1296,8 +1318,9 @@ db.insert(db.countries.NO, "2019-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 167
 , "Jaguar": 154
 , "Citroën": 100
+, "Suzuki": 93
 , "Renault": 31
-, "other": 544
+, "other": 451
 });
 
 db.insert(db.countries.NO, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2019",
@@ -1340,10 +1363,11 @@ db.insert(db.countries.NO, "2019-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 329
 , "Opel": 220
 , "Kia": 176
+, "Suzuki": 169
 , "Jaguar": 111
 , "Citroën": 109
 , "Renault": 34
-, "other": 829
+, "other": 660
 });
 
 db.insert(db.countries.NO, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2019/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2019",
@@ -1388,11 +1412,12 @@ db.insert(db.countries.NO, "2020-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Tesla": 194
 , "Seat": 180
 , "Ford": 169
+, "Suzuki": 166
 , "Peugeot": 152
 , "Opel": 127
 , "Subaru": 118
 , "Jaguar": 115
-, "other": 688
+, "other": 522
 });
 
 db.insert(db.countries.NO, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2020",
@@ -1440,12 +1465,13 @@ db.insert(db.countries.NO, "2020-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 393
 , "Opel": 296
 , "Renault": 269
+, "Suzuki": 156
 , "Ford": 150
 , "Mazda": 132
 , "Subaru": 107
 , "Tesla": 83
 , "Seat": 62
-, "other": 826
+, "other": 670
 });
 
 db.insert(db.countries.NO, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2020",
@@ -1490,12 +1516,13 @@ db.insert(db.countries.NO, "2020-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 473
 , "Kia": 356
 , "Renault": 257
+, "Suzuki": 172
 , "Ford": 145
 , "Opel": 143
 , "Seat": 124
 , "Mazda": 120
 , "Jaguar": 72
-, "other": 921
+, "other": 749
 });
 
 db.insert(db.countries.NO, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2020",
@@ -1543,9 +1570,10 @@ db.insert(db.countries.NO, "2020-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 122
 , "Mitsubishi": 103
 , "Mazda": 100
+, "Suzuki": 93
 , "Tesla": 74
 , "Seat": 59
-, "other": 551
+, "other": 458
 });
 
 db.insert(db.countries.NO, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2020",
@@ -1594,8 +1622,9 @@ db.insert(db.countries.NO, "2020-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 165
 , "Opel": 162
 , "Porsche": 104
+, "Suzuki": 100
 , "Tesla": 31
-, "other": 470
+, "other": 370
 });
 
 db.insert(db.countries.NO, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2020",
@@ -1643,11 +1672,12 @@ db.insert(db.countries.NO, "2020-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mitsubishi": 341
 , "Kia": 332
 , "MG": 316
+, "Suzuki": 288
 , "Opel": 216
 , "Porsche": 216
 , "Mazda": 183
 , "Renault": 171
-, "other": 876
+, "other": 588
 });
 
 db.insert(db.countries.NO, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2020",
@@ -1701,8 +1731,9 @@ db.insert(db.countries.NO, "2020-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 166
 , "Renault": 149
 , "Kia": 138
+, "Suzuki": 135
 , "Tesla": 33
-, "other": 802
+, "other": 667
 });
 
 db.insert(db.countries.NO, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2020",
@@ -1757,7 +1788,8 @@ db.insert(db.countries.NO, "2020-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 233
 , "Opel": 196
 , "Mazda": 146
-, "other": 1192
+, "Suzuki": 135
+, "other": 1057
 });
 
 db.insert(db.countries.NO, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2020",
@@ -1808,11 +1840,12 @@ db.insert(db.countries.NO, "2020-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 533
 , "Mitsubishi": 455
 , "Kia": 410
+, "Suzuki": 319
 , "Ford": 281
 , "Mazda": 250
 , "Renault": 206
 , "Opel": 188
-, "other": 1065
+, "other": 746
 });
 
 db.insert(db.countries.NO, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2020",
@@ -1861,12 +1894,13 @@ db.insert(db.countries.NO, "2020-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 468
 , "Škoda": 452
 , "Polestar": 352
+, "Suzuki": 254
 , "Ford": 221
 , "Renault": 203
 , "Mitsubishi": 128
 , "Opel": 118
 , "Tesla": 95
-, "other": 887
+, "other": 633
 });
 
 db.insert(db.countries.NO, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2020",
@@ -1915,11 +1949,12 @@ db.insert(db.countries.NO, "2020-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 449
 , "Polestar": 357
 , "Tesla": 326
+, "Suzuki": 251
 , "Ford": 224
 , "Mitsubishi": 132
 , "Renault": 130
 , "Opel": 77
-, "other": 811
+, "other": 560
 });
 
 db.insert(db.countries.NO, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2020",
@@ -1973,11 +2008,12 @@ db.insert(db.countries.NO, "2020-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 436
 , "Kia": 378
 , "MG": 358
+, "Suzuki": 347
 , "Renault": 205
 , "Ford": 193
 , "Mitsubishi": 116
 , "Opel": 95
-, "other": 1878
+, "other": 1531
 });
 
 db.insert(db.countries.NO, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2020/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2020",
@@ -2150,9 +2186,10 @@ db.insert(db.countries.NO, "2021-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 396
 , "Ford": 384
 , "Mitsubishi": 362
+, "Suzuki": 294
 , "Mazda": 227
 , "Opel": 194
-, "other": 1480
+, "other": 1186
 });
 
 db.insert(db.countries.NO, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2021",
@@ -2207,6 +2244,7 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 536
 , "Polestar": 469
 , "Ford": 403
+, "Suzuki": 385
 , "Hyundai": 360
 , "Nissan": 337
 , "Mazda": 324
@@ -2214,8 +2252,8 @@ db.insert(db.countries.NO, "2021-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "MG": 218
 , "Opel": 170
 , "Mitsubishi": 88
-, "Tesla": 5
-, "other": 1325
+, "Tesla": 4
+, "other": 941
 });
 
 db.insert(db.countries.NO, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2021",
@@ -2273,13 +2311,14 @@ db.insert(db.countries.NO, "2021-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Tesla": 505
 , "Kia": 409
 , "Citroën": 348
+, "Suzuki": 337
 , "Nissan": 299
 , "Polestar": 280
 , "MG": 241
 , "Mazda": 232
 , "Opel": 144
 , "Mitsubishi": 125
-, "other": 1081
+, "other": 744
 });
 
 db.insert(db.countries.NO, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2021",
@@ -2337,13 +2376,14 @@ db.insert(db.countries.NO, "2021-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 589
 , "Peugeot": 573
 , "Nissan": 561
+, "Suzuki": 378
 , "MG": 368
 , "Polestar": 340
 , "Mazda": 306
 , "Mitsubishi": 269
 , "Citroën": 228
 , "Opel": 185
-, "other": 1425
+, "other": 1047
 });
 
 db.insert(db.countries.NO, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2021",
@@ -2407,9 +2447,10 @@ db.insert(db.countries.NO, "2021-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 171
 , "Polestar": 152
 , "Citroën": 137
+, "Suzuki": 124
 , "Mitsubishi": 115
 , "Tesla": 4
-, "other": 795
+, "other": 671
 });
 
 db.insert(db.countries.NO, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2021",
@@ -2472,8 +2513,9 @@ db.insert(db.countries.NO, "2021-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 343
 , "Polestar": 299
 , "Mazda": 251
+, "Suzuki": 180
 , "Mitsubishi": 162
-, "other": 1087
+, "other": 907
 });
 
 db.insert(db.countries.NO, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2021",
@@ -2537,11 +2579,12 @@ db.insert(db.countries.NO, "2021-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 408
 , "Kia": 386
 , "Citroën": 336
+, "Suzuki": 217
 , "Opel": 215
 , "MG": 176
 , "Mitsubishi": 121
 , "Polestar": 80
-, "other": 945
+, "other": 728
 });
 
 db.insert(db.countries.NO, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2021",
@@ -2603,13 +2646,14 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 397
 , "Nissan": 374
 , "Peugeot": 331
+, "Suzuki": 284
 , "Mazda": 255
 , "Citroën": 221
 , "Opel": 207
 , "Mitsubishi": 138
 , "MG": 101
 , "Tesla": 56
-, "other": 1424
+, "other": 1140
 });
 
 db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
@@ -2677,9 +2721,10 @@ db.insert(db.countries.NO, "2021-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 249
 , "Citroën": 231
 , "Opel": 187
+, "Suzuki": 176
 , "MG": 151
 , "Mitsubishi": 148
-, "other": 1898
+, "other": 1722
 });
 
 db.insert(db.countries.NO, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2021",
@@ -2745,6 +2790,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 743
 , "Kia": 737
 , "Ford": 698
+, "Suzuki": 519
 , "Peugeot": 476
 , "Mitsubishi": 335
 , "Polestar": 320
@@ -2752,7 +2798,7 @@ db.insert(db.countries.NO, "2021-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 287
 , "Citroën": 192
 , "Mazda": 108
-, "other": 2347
+, "other": 1828
 });
 
 db.insert(db.countries.NO, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desmber_2021",
@@ -2822,9 +2868,10 @@ db.insert(db.countries.NO, "2022-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 243
 , "Porsche": 185
 , "Opel": 147
+, "Suzuki": 110
 , "BYD": 96
 , "Mazda": 74
-, "other": 914
+, "other": 804
 });
 
 db.insert(db.countries.NO, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2022",
@@ -2891,10 +2938,11 @@ db.insert(db.countries.NO, "2022-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 387
 , "Peugeot": 255
 , "Nissan": 232
+, "Suzuki": 201
 , "Porsche": 198
 , "Opel": 160
 , "BYD": 90
-, "other": 1260
+, "other": 1059
 });
 
 db.insert(db.countries.NO, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2022",
@@ -2964,10 +3012,11 @@ db.insert(db.countries.NO, "2022-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 366
 , "Peugeot": 347
 , "Škoda": 330
+, "Suzuki": 301
 , "Porsche": 193
 , "Citroën": 187
 , "Opel": 175
-, "other": 1601
+, "other": 1300
 });
 
 db.insert(db.countries.NO, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2022",
@@ -3031,6 +3080,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 483
 , "Ford": 452
 , "Polestar": 332
+, "Suzuki": 292
 , "Peugeot": 273
 , "Opel": 250
 , "Nissan": 235
@@ -3038,7 +3088,7 @@ db.insert(db.countries.NO, "2022-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 170
 , "Porsche": 128
 , "Tesla": 83
-, "other": 1335
+, "other": 1043
 });
 
 db.insert(db.countries.NO, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2022",
@@ -3106,6 +3156,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 474
 , "Škoda": 441
 , "Ford": 433
+, "Suzuki": 430
 , "MG": 424
 , "Kia": 385
 , "Peugeot": 282
@@ -3114,7 +3165,7 @@ db.insert(db.countries.NO, "2022-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 222
 , "Nissan": 217
 , "Porsche": 114
-, "other": 1674
+, "other": 1244
 });
 
 db.insert(db.countries.NO, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2022",
@@ -3187,10 +3238,11 @@ db.insert(db.countries.NO, "2022-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 332
 , "Citroën": 291
 , "Opel": 256
+, "Suzuki": 239
 , "Nissan": 186
 , "Polestar": 168
 , "Porsche": 159
-, "other": 1419
+, "other": 1180
 });
 
 db.insert(db.countries.NO, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2021-2-2",
@@ -3265,12 +3317,13 @@ db.insert(db.countries.NO, "2022-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 214
 , "Peugeot": 211
 , "Citroën": 203
+, "Suzuki": 184
 , "Nissan": 120
 , "Opel": 101
 , "Porsche": 91
 , "Polestar": 74
 , "Tesla": 45
-, "other": 525
+, "other": 341
 });
 
 db.insert(db.countries.NO, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2022",
@@ -3346,7 +3399,8 @@ db.insert(db.countries.NO, "2022-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "BYD": 182
 , "Polestar": 149
 , "Porsche": 127
-, "other": 982
+, "Suzuki": 126
+, "other": 856
 });
 
 db.insert(db.countries.NO, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2022",
@@ -3421,10 +3475,11 @@ db.insert(db.countries.NO, "2022-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 269
 , "Peugeot": 219
 , "Citroën": 178
+, "Suzuki": 137
 , "Opel": 128
 , "BYD": 99
 , "Porsche": 79
-, "other": 1082
+, "other": 945
 });
 
 db.insert(db.countries.NO, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2022",
@@ -3496,11 +3551,12 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "MG": 289
 , "Kia": 252
 , "BYD": 179
+, "Suzuki": 117
 , "Citroën": 80
 , "Opel": 75
 , "Peugeot": 66
 , "Tesla": 51
-, "other": 1168
+, "other": 1051
 });
 
 db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2022",
@@ -3578,8 +3634,9 @@ db.insert(db.countries.NO, "2022-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 226
 , "BYD": 110
 , "Citroën": 110
+, "Suzuki": 103
 , "Opel": 76
-, "other": 1379
+, "other": 1276
 });
 
 db.insert(db.countries.NO, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2022-2-2",
@@ -3658,8 +3715,9 @@ db.insert(db.countries.NO, "2022-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 826
 , "Porsche": 667
 , "Peugeot": 489
+, "Suzuki": 450
 , "Mazda": 278
-, "other": 3475
+, "other": 3025
 });
 
 db.insert(db.countries.NO, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember_2022",
@@ -3738,13 +3796,14 @@ db.insert(db.countries.NO, "2023-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 29
 , "Kia": 25
 , "MG": 25
+, "Suzuki": 23
 , "Tesla": 21
 , "Citroën": 18
 , "Cupra": 9
 , "Ford": 9
 , "BYD": 8
 , "Porsche": 8
-, "other": 86
+, "other": 63
 });
 
 db.insert(db.countries.NO, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2023",
@@ -3819,8 +3878,9 @@ db.insert(db.countries.NO, "2023-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 104
 , "Citroën": 49
 , "Kia": 43
+, "Suzuki": 39
 , "Mazda": 36
-, "other": 373
+, "other": 334
 });
 
 db.insert(db.countries.NO, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2023",
@@ -3900,7 +3960,8 @@ db.insert(db.countries.NO, "2023-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nio": 94
 , "Polestar": 89
 , "Mazda": 66
-, "other": 611
+, "Suzuki": 59
+, "other": 552
 });
 
 db.insert(db.countries.NO, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2023",
@@ -3978,9 +4039,10 @@ db.insert(db.countries.NO, "2023-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 178
 , "Opel": 128
 , "Citroën": 114
+, "Suzuki": 94
 , "Mazda": 84
 , "Polestar": 45
-, "other": 540
+, "other": 446
 });
 
 db.insert(db.countries.NO, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2023",
@@ -4060,8 +4122,9 @@ db.insert(db.countries.NO, "2023-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 177
 , "Opel": 140
 , "Mazda": 107
+, "Suzuki": 107
 , "Polestar": 91
-, "other": 730
+, "other": 623
 });
 
 db.insert(db.countries.NO, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2023",
@@ -4139,10 +4202,11 @@ db.insert(db.countries.NO, "2023-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Peugeot": 395
 , "MG": 370
 , "Opel": 368
+, "Suzuki": 224
 , "Citroën": 131
 , "Polestar": 126
 , "Mazda": 89
-, "other": 972
+, "other": 748
 });
 
 db.insert(db.countries.NO, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2023",
@@ -4224,7 +4288,8 @@ db.insert(db.countries.NO, "2023-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 102
 , "Citroën": 88
 , "Peugeot": 78
-, "other": 529
+, "Suzuki": 37
+, "other": 492
 });
 
 db.insert(db.countries.NO, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2023",
@@ -4306,7 +4371,8 @@ db.insert(db.countries.NO, "2023-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 215
 , "Citroën": 170
 , "Mazda": 153
-, "other": 750
+, "Suzuki": 85
+, "other": 665
 });
 
 db.insert(db.countries.NO, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2023",
@@ -4392,7 +4458,8 @@ db.insert(db.countries.NO, "2023-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 142
 , "Peugeot": 142
 , "Mazda": 105
-, "other": 923
+, "Suzuki": 73
+, "other": 850
 });
 
 db.insert(db.countries.NO, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2023",
@@ -4476,7 +4543,8 @@ db.insert(db.countries.NO, "2023-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 110
 , "Kia": 108
 , "Polestar": 84
-, "other": 1233
+, "Suzuki": 74
+, "other": 1159
 });
 
 db.insert(db.countries.NO, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2023/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2023-2",
