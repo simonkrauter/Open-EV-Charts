@@ -947,7 +947,7 @@ var db = {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
 
-  queryDatasets: function(chartConfig, dsType) {
+  queryDatasets: function(chartConfig, onlyEvs) {
     // Returns datasets for chart
     const countryValues = chartConfig.country.split(",");
     var filterCountryIds = [];
@@ -960,6 +960,11 @@ var db = {
       }
     }
 
+    var filterDsType = [];
+    if (onlyEvs)
+      filterDsType.push(this.dsTypes.ElectricCarsByModel);
+    else
+      filterDsType.push(this.dsTypes.AllCarsByBrand);
     var filterCompany = null;
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
       filterCompany = chartConfig.company;
@@ -967,7 +972,7 @@ var db = {
     if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
       filterBrand = chartConfig.brand;
     var filterModel = null;
-    if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && dsType == this.dsTypes.ElectricCarsByModel)
+    if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && onlyEvs)
       filterModel = chartConfig.model;
     const dateFilters = this.queryDatasets_getDateFilters(chartConfig);
 
@@ -982,7 +987,7 @@ var db = {
       const dataset = this.datasets[i];
       if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
         continue;
-      if (dataset.dsType != dsType)
+      if (!filterDsType.includes(dataset.dsType))
         continue;
       if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
         continue;
@@ -1616,9 +1621,9 @@ var db = {
     // Queries the data for one chart for the metrics salesAll and salesElectric
     var datasets;
     if (chartConfig.metric == this.metrics.salesAll)
-      datasets = this.queryDatasets(chartConfig, this.dsTypes.AllCarsByBrand);
+      datasets = this.queryDatasets(chartConfig, false);
     else
-      datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
+      datasets = this.queryDatasets(chartConfig, true);
     var seriesRows = datasets.seriesRows;
     var result = {};
     result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
@@ -1637,8 +1642,8 @@ var db = {
       chartConfigForRatio.brand = this.brandOptions.all;
       chartConfigForRatio.model = this.modelOptions.all;
     }
-    var datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
-    var datasetsForRatio = this.queryDatasets(chartConfigForRatio, this.dsTypes.AllCarsByBrand);
+    var datasets = this.queryDatasets(chartConfig, true);
+    var datasetsForRatio = this.queryDatasets(chartConfigForRatio, false);
     var seriesRows = datasets.seriesRows;
     var result = {};
     result.sources = datasets.sources;
@@ -1699,11 +1704,11 @@ var db = {
     var datasets;
     var datasetsForSum;
     if (chartConfig.metric == this.metrics.shareElectric) {
-      datasets = this.queryDatasets(chartConfig, this.dsTypes.ElectricCarsByModel);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, this.dsTypes.ElectricCarsByModel);
+      datasets = this.queryDatasets(chartConfig, true);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, true);
     } else {
-      datasets = this.queryDatasets(chartConfig, this.dsTypes.AllCarsByBrand);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, this.dsTypes.AllCarsByBrand);
+      datasets = this.queryDatasets(chartConfig, false);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, false);
     }
     var seriesRows = datasets.seriesRows;
     const seriesRowsKeys = Object.keys(seriesRows);
