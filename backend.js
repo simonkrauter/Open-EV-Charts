@@ -99,15 +99,15 @@ var db = {
     if (!this.countriesWithData.includes(country))
       this.countriesWithData.push(country);
 
+    var dataset =
+    { country: country
+    , countryName: this.countryNames[country]
+    , dsType: dsType
+    , source: source
+    };
     if (dateString.substr(5, 1) == 'Q') {
-      var dataset =
-      { country: country
-      , countryName: this.countryNames[country]
-      , dsType: dsType
-      , source: source
-      , data: {}
-      , perQuarter: true
-      };
+      dataset.perQuarter = true;
+      dataset.data = {};
       for (const key in data) {
         const val = Math.round(data[key] / 3);
         if (val > 0)
@@ -121,16 +121,11 @@ var db = {
         dataset.month++;
       }
     } else {
-      this.datasets.push(
-      { country: country
-      , countryName: this.countryNames[country]
-      , monthString: dateString
-      , year: parseInt(dateString.substr(0, 4))
-      , month: parseInt(dateString.substr(5, 2))
-      , dsType: dsType
-      , source: source
-      , data: data
-      });
+      dataset.monthString = dateString;
+      dataset.year = parseInt(dateString.substr(0, 4));
+      dataset.month = parseInt(dateString.substr(5, 2));
+      dataset.data = data;
+      this.datasets.push(dataset);
     }
 
     if (dsType == this.dsTypes.AllCarsByBrand) {
