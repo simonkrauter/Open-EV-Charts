@@ -1279,7 +1279,7 @@ function renderCountriesStatusPage() {
       break;
     }
     // collect data from the latest ElectricCarsByModel dataset
-    var latestEvDataset;
+    var latestEvDataset = {};
     for (var j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
@@ -1349,18 +1349,20 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      const latestEvDatasetLength = Object.keys(latestEvDataset.data).length;
-      if (latestEvDatasetLength >= 47)
-        td.appendChild(document.createTextNode("Top 50 models"));
-      else if (latestEvDatasetLength >= 20)
-        td.appendChild(document.createTextNode("Top 20 models"));
-      else if (latestEvDatasetLength >= 10)
-        td.appendChild(document.createTextNode("Top 10 models"));
-      if (latestEvDataset.source.includes("Incomplete")) {
-        const span = document.createElement("SPAN");
-        span.title = latestEvDataset.source;
-        span.appendChild(document.createTextNode(", incomplete"));
-        td.appendChild(span);
+      if (latestEvDataset.data) {
+        const latestEvDatasetLength = Object.keys(latestEvDataset.data).length;
+        if (latestEvDatasetLength >= 47)
+          td.appendChild(document.createTextNode("Top 50 models"));
+        else if (latestEvDatasetLength >= 20)
+          td.appendChild(document.createTextNode("Top 20 models"));
+        else if (latestEvDatasetLength >= 10)
+          td.appendChild(document.createTextNode("Top 10 models"));
+        if (latestEvDataset.source.includes("Incomplete")) {
+          const span = document.createElement("SPAN");
+          span.title = latestEvDataset.source;
+          span.appendChild(document.createTextNode(", incomplete"));
+          td.appendChild(span);
+        }
       }
     }
     // car market size
