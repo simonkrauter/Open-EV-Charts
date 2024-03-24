@@ -1279,11 +1279,13 @@ var db = {
     // missing month/quarter/year
     if (this.isTimeXProperty(chartConfig) && this.isCombinedCountry(chartConfig)) {
       categories.sort();
+      const currentDate = new Date();
+      const currentYear = currentDate.getFullYear();
       for (const i in categories) {
         const timeSpan = categories[i];
         for (const countryName in monthsPerCountryAndTimeSpan) {
           const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
-          if (monthsPerTimeSpan[timeSpan] === undefined) {
+          if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear) {
             hints.push(countryName + ": " + timeSpan + " is missing.");
           }
         }
