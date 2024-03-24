@@ -135,8 +135,7 @@ var db = {
           this.brandsUrlEncoded.push(this.urlEncode(brand));
         }
       }
-    }
-    else if (dsType == this.dsTypes.ElectricCarsByModel) {
+    } else if (dsType == this.dsTypes.ElectricCarsByModel) {
       for (const model in data) {
         const parts = model.split("|", 2);
         const brand = parts[0];
