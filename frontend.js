@@ -1350,13 +1350,21 @@ function renderCountriesStatusPage() {
       const td = document.createElement("TD");
       tr.appendChild(td);
       if (latestEvDataset.data) {
-        const latestEvDatasetLength = Object.keys(latestEvDataset.data).length;
-        if (latestEvDatasetLength >= 47)
+        var modelCount = 0;
+        for (const key in latestEvDataset.data) {
+          if (key.includes("|") && !key.endsWith("|other"))
+            modelCount++;
+        }
+        if (modelCount >= 50)
           td.appendChild(document.createTextNode("Top 50 models"));
-        else if (latestEvDatasetLength >= 20)
+        else if (modelCount >= 20)
           td.appendChild(document.createTextNode("Top 20 models"));
-        else if (latestEvDatasetLength >= 10)
+        else if (modelCount >= 10)
           td.appendChild(document.createTextNode("Top 10 models"));
+        else if (modelCount >= 1)
+          td.appendChild(document.createTextNode("By brand + some models"));
+        else
+          td.appendChild(document.createTextNode("By brand"));
         if (latestEvDataset.source.includes("Incomplete")) {
           const span = document.createElement("SPAN");
           span.title = latestEvDataset.source;
