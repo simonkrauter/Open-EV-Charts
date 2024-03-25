@@ -4698,3 +4698,92 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 1
 , "other": 28
 });
+
+db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2846/February_2024.xlsx",
+{ "Toyota": 997
+, "Škoda": 615
+, "Volvo": 563
+, "Kia": 445
+, "Volkswagen": 346
+, "BMW": 326
+, "Mercedes-Benz": 310
+, "Tesla": 238
+, "Nissan": 215
+, "Hyundai": 195
+, "Audi": 194
+, "Ford": 157
+, "Peugeot": 84
+, "Dacia": 61
+, "BYD": 58
+, "Mitsubishi": 55
+, "Suzuki": 52
+, "Mazda": 42
+, "Opel": 33
+, "Renault": 31
+, "Honda": 29
+, "Citroën": 26
+, "Land Rover": 24
+, "Porsche": 24
+, "Cupra": 23
+, "Subaru": 22
+, "Mini": 19
+, "Fiat": 12
+, "Polestar": 11
+, "Seat": 7
+, "other": 159
+});
+
+db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/2",
+{ "Tesla|Model Y": 192
+, "Volvo|EX40": 104
+, "BMW|i4": 99
+, "Škoda|Enyaq": 92
+, "Audi|Q4 e-tron": 79
+, "Volvo|EX30": 61
+, "Volvo|EC40": 54
+, "Hyundai|Ioniq 5": 48
+, "Tesla|Model 3": 45
+, "Volkswagen|ID.4": 43
+, "Volkswagen|ID.7": 42
+, "BYD|Yuan Plus": 40
+, "Mercedes-Benz|EQE": 33
+, "Hyundai|Kona Electric": 32
+, "Mercedes-Benz|EQA": 32
+, "Peugeot|e-208": 32
+, "Kia|EV6": 26
+, "Mercedes-Benz|EQB": 25
+, "Kia|EV9": 24
+, "BMW|iX": 18
+, "Kia|Niro EV": 18
+, "Audi|Q8 e-tron": 14
+, "BMW|iX1": 12
+, "BYD|Dolphin": 11
+, "Cupra|Born": 11
+, "Nissan|Ariya": 11
+, "Polestar|2": 11
+, "Volkswagen|ID.3": 11
+, "BMW|iX2": 10
+, "Hyundai|Ioniq 6": 9
+, "BMW|i5": 8
+, "Mercedes-Benz|EQS": 8
+, "Renault|Megane E-Tech": 8
+, "BYD|Seal": 7
+, "Nissan|Leaf": 7
+, "Ford|Mustang Mach-E": 5
+, "Porsche|Taycan": 5
+, "Toyota|bZ4X": 5
+, "Volkswagen|ID.5": 5
+, "Jeep|Avenger EV": 3
+, "BMW|iX3": 2
+, "Kia|Soul EV": 2
+, "Mini|Cooper SE": 2
+, "Peugeot|e-308": 2
+, "Citroën|ë-C4": 1
+, "Fiat|600e": 1
+, "Opel|Zafira-e": 1
+, "Peugeot|e-2008": 1
+, "Peugeot|e-Rifter": 1
+, "Subaru|Solterra": 1
+, "Tesla|Model X": 1
+, "other": 15
+});
