@@ -25,6 +25,7 @@ var db = {
   dsTypes:
   { "AllCarsByBrand": 1
   , "ElectricCarsByModel": 2
+  , "ElectricCarsByBrand": 3
   },
 
   datasets: [],
@@ -146,6 +147,13 @@ var db = {
         if (!this.models.includes(model)) {
           this.models.push(model);
           this.modelsUrlEncoded.push(this.urlEncode(model));
+        }
+      }
+    } else if (dsType == this.dsTypes.ElectricCarsByBrand) {
+      for (const brand in data) {
+        if (!this.brands.includes(brand)) {
+          this.brands.push(brand);
+          this.brandsUrlEncoded.push(this.urlEncode(brand));
         }
       }
     }
@@ -961,9 +969,11 @@ var db = {
     }
 
     var filterDsType = [];
-    if (onlyEvs)
+    if (onlyEvs) {
       filterDsType.push(this.dsTypes.ElectricCarsByModel);
-    else
+      if (chartConfig.xProperty != this.xProperties.model)
+        filterDsType.push(this.dsTypes.ElectricCarsByBrand);
+    } else
       filterDsType.push(this.dsTypes.AllCarsByBrand);
     var filterCompany = null;
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)

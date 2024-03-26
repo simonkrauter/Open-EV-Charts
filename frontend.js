@@ -1278,13 +1278,13 @@ function renderCountriesStatusPage() {
       allCarDataByBrand = Object.keys(dataset.data).length > 1;
       break;
     }
-    // collect data from the latest ElectricCarsByModel dataset
+    // collect data from the latest EV dataset
     var latestEvDataset = {};
     for (var j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
         continue;
-      if (dataset.dsType != db.dsTypes.ElectricCarsByModel)
+      if (dataset.dsType == db.dsTypes.AllCarsByBrand)
         continue;
       latestEvDataset = dataset;
       break;
@@ -1300,7 +1300,7 @@ function renderCountriesStatusPage() {
       for (const dataKey in dataset.data) {
         if (dataset.dsType == db.dsTypes.AllCarsByBrand)
           allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
-        else if (dataset.dsType == db.dsTypes.ElectricCarsByModel)
+        else
           evSalesSum = evSalesSum + dataset.data[dataKey];
       }
       if (dataset.dsType == db.dsTypes.AllCarsByBrand)
@@ -1445,8 +1445,8 @@ function renderCompaniesStatusPage() {
         td.appendChild(a);
         a.appendChild(createCountryFlagContainer(countryCode, brand, true));
         addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
-        addAnnualSalesTd(tr, db.dsTypes.AllCarsByBrand, brand);
-        addAnnualSalesTd(tr, db.dsTypes.ElectricCarsByModel, brand);
+        addAnnualSalesTd(tr, false, brand);
+        addAnnualSalesTd(tr, true, brand);
         if (j < brands.length - 1) {
           tr = document.createElement("TR");
           table.appendChild(tr);
@@ -1455,8 +1455,8 @@ function renderCompaniesStatusPage() {
     } else {
       companyTd.colSpan = 2;
       addBrandOrModelAvailableDataTimeSpanTd(firstTr, company);
-      addAnnualSalesTd(firstTr, db.dsTypes.AllCarsByBrand, company);
-      addAnnualSalesTd(firstTr, db.dsTypes.ElectricCarsByModel, company);
+      addAnnualSalesTd(firstTr, false, company);
+      addAnnualSalesTd(firstTr, true, company);
     }
   }
 }
@@ -1517,7 +1517,7 @@ function renderModelsStatusPage() {
       td.appendChild(a);
       a.appendChild(document.createTextNode(model));
       addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model);
-      addAnnualSalesTd(tr, db.dsTypes.ElectricCarsByModel, brand, brand + "|" + model);
+      addAnnualSalesTd(tr, true, brand, brand + "|" + model);
       if (j < models.length - 1) {
         tr = document.createElement("TR");
         table.appendChild(tr);
@@ -1531,7 +1531,7 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
   var lastMonthString = "";
   for (const j in db.datasets) {
     const dataset = db.datasets[j];
-    if (model != null && dataset.dsType != db.dsTypes.ElectricCarsByModel)
+    if (model != null && dataset.dsType == db.dsTypes.AllCarsByBrand)
       continue;
     if (firstMonthString != "" && dataset.monthString >= firstMonthString && lastMonthString != "" && dataset.monthString <= lastMonthString)
       continue;
@@ -1554,7 +1554,7 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
   td.style.textAlign = "center";
 }
 
-function addAnnualSalesTd(tr, dsType, brand, brandAndModel = null) {
+function addAnnualSalesTd(tr, onlyEvs, brand, brandAndModel = null) {
   var total = 0;
   for (const i in db.countriesWithData) {
     const curCountryId = db.countriesWithData[i];
@@ -1562,12 +1562,12 @@ function addAnnualSalesTd(tr, dsType, brand, brandAndModel = null) {
     var monthCount = 0;
     for (var j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
-      if (dataset.dsType != dsType)
+      if ((dataset.dsType != db.dsTypes.AllCarsByBrand) != onlyEvs)
         continue;
       if (dataset.country != curCountryId)
         continue;
       for (const dataKey in dataset.data) {
-        if (dsType == db.dsTypes.AllCarsByBrand) {
+        if (!onlyEvs) {
           if (dataKey != brand)
             continue;
         } else if (brandAndModel != null) {

@@ -18,7 +18,7 @@ For each country there is a JavaScript file.<br>
 This file contains two data sets for each month/quarter:
 
 - Number of registrations of new all passenger cars by brand
-- Number of registrations of new battery electric passenger cars by model (limited to top 50 models)
+- Number of registrations of new battery electric passenger cars by model or brand
 
 In addition every data set has one or multiple source URLs.
 
@@ -49,4 +49,4 @@ License
 
 Open EV Charts is FLOSS (free and open-source software).<br>
 All files in this repository are licensed under the [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0) (GPLv3).<br>
-Copyright 2019–2021 Simon Krauter
+Copyright 2019–2024 Simon Krauter
