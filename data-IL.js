@@ -1,0 +1,978 @@
+// Data sets for car sales in Israel
+
+"use strict";
+
+// https://www.car-importers.org.il/Rishuy_en/private
+
+db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.archive.org/web/20240128024642/https://www.car-importers.org.il/assets/files/64411675599353.pdf",
+{ "Hyundai": 8416
+, "Kia": 4912
+, "Mazda": 4615
+, "Toyota": 3036
+, "BYD": 2999
+, "Mitsubishi": 2234
+, "Škoda": 1750
+, "Chery": 1600
+, "Seat": 1510
+, "Mercedes-Benz": 1467
+, "Subaru": 1447
+, "Suzuki": 1368
+, "MG": 1281
+, "Geely": 1200
+, "Citroën": 1119
+, "Peugeot": 1082
+, "Chevrolet": 797
+, "Renault": 774
+, "Audi": 748
+, "BMW": 557
+, "Volkswagen": 470
+, "Volvo": 377
+, "Jeep": 306
+, "Opel": 288
+, "Nissan": 270
+, "Cupra": 257
+, "Dacia": 236
+, "Genesis": 154
+, "Ford": 135
+, "Fiat": 123
+, "Land Rover": 80
+, "Honda": 51
+, "Porsche": 51
+, "Mini": 46
+, "Polestar": 41
+, "GWM": 26
+, "JAC": 17
+, "Jaguar": 6
+, "other": 1350
+});
+
+db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://web.archive.org/web/20240128024645/https://www.car-importers.org.il/assets/files/644116755993531.pdf",
+{ "BYD": 2999
+, "Geely": 1200
+, "Hyundai": 773
+, "Mercedes-Benz": 389
+, "Kia": 285
+, "Fiat": 122
+, "Škoda": 118
+, "Genesis": 83
+, "Volvo": 83
+, "MG": 80
+, "Audi": 58
+, "Polestar": 41
+, "Toyota": 31
+, "BMW": 23
+, "JAC": 17
+, "Porsche": 10
+, "Citroën": 8
+, "Opel": 5
+, "Peugeot": 4
+, "Mini": 3
+, "Tesla": 3
+, "Volkswagen": 2
+, "other": 590
+});
+
+db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43101678272347.pdf",
+{ "Hyundai": 4519
+, "Kia": 3352
+, "Toyota": 2906
+, "Mazda": 1669
+, "Škoda": 1630
+, "BYD": 1590
+, "Chery": 1444
+, "Citroën": 1215
+, "Geely": 1000
+, "Mitsubishi": 987
+, "Suzuki": 891
+, "Renault": 870
+, "Peugeot": 865
+, "Seat": 585
+, "Opel": 526
+, "Subaru": 520
+, "Audi": 365
+, "Mercedes-Benz": 335
+, "Chevrolet": 301
+, "Volkswagen": 286
+, "Nissan": 271
+, "MG": 254
+, "Volvo": 241
+, "BMW": 218
+, "Cupra": 189
+, "Honda": 185
+, "Ford": 171
+, "Dacia": 140
+, "GWM": 139
+, "Genesis": 105
+, "Jeep": 91
+, "Land Rover": 54
+, "Fiat": 43
+, "Porsche": 24
+, "Mini": 21
+, "Polestar": 16
+, "JAC": 7
+, "Jaguar": 4
+, "other": 1103
+});
+
+db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/23651678272447.pdf",
+{ "BYD": 1591
+, "Geely": 1000
+, "Hyundai": 237
+, "Toyota": 84
+, "Škoda": 83
+, "Genesis": 80
+, "Volvo": 56
+, "Mercedes-Benz": 52
+, "GWM": 48
+, "Kia": 43
+, "Audi": 31
+, "Opel": 21
+, "MG": 20
+, "Citroën": 19
+, "BMW": 17
+, "Fiat": 16
+, "Polestar": 16
+, "JAC": 7
+, "Peugeot": 6
+, "Porsche": 4
+, "Volkswagen": 4
+, "other": 561
+});
+
+db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/32681680518925.pdf",
+{ "Hyundai": 5292
+, "Kia": 4001
+, "Toyota": 2722
+, "Chery": 1643
+, "Peugeot": 1555
+, "Škoda": 1476
+, "Tesla": 1366
+, "Mazda": 1363
+, "BYD": 1263
+, "Suzuki": 1070
+, "Citroën": 929
+, "Geely": 902
+, "Mitsubishi": 641
+, "Renault": 406
+, "Seat": 377
+, "Subaru": 369
+, "Audi": 357
+, "Nissan": 336
+, "Volkswagen": 318
+, "Mercedes-Benz": 268
+, "BMW": 258
+, "Cupra": 216
+, "MG": 216
+, "Opel": 215
+, "GWM": 194
+, "Volvo": 161
+, "Genesis": 132
+, "Ford": 127
+, "Jeep": 105
+, "Chevrolet": 94
+, "Dacia": 77
+, "Land Rover": 52
+, "Fiat": 43
+, "Honda": 38
+, "Porsche": 32
+, "Mini": 28
+, "Polestar": 6
+, "JAC": 4
+, "other": 888
+});
+
+db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/326816805189251.pdf",
+{ "Tesla": 1366
+, "BYD": 1262
+, "Geely": 902
+, "Hyundai": 742
+, "Škoda": 208
+, "GWM": 130
+, "Toyota": 127
+, "Genesis": 89
+, "Audi": 57
+, "Kia": 56
+, "Mercedes-Benz": 52
+, "Volkswagen": 51
+, "Volvo": 33
+, "MG": 29
+, "BMW": 24
+, "Citroën": 21
+, "Fiat": 10
+, "Peugeot": 6
+, "Polestar": 6
+, "JAC": 4
+, "Opel": 4
+, "Porsche": 4
+, "Mini": 1
+, "other": 393
+});
+
+db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/75111683197705.pdf",
+{ "Hyundai": 3099
+, "Kia": 2620
+, "Toyota": 2099
+, "BYD": 1377
+, "Chery": 1225
+, "Škoda": 1001
+, "Suzuki": 771
+, "Mitsubishi": 699
+, "Peugeot": 607
+, "Mazda": 540
+, "Geely": 537
+, "Citroën": 395
+, "Volkswagen": 378
+, "Mercedes-Benz": 343
+, "Nissan": 318
+, "Seat": 302
+, "Cupra": 280
+, "Subaru": 257
+, "Renault": 212
+, "GWM": 192
+, "Audi": 186
+, "MG": 177
+, "BMW": 163
+, "Ford": 161
+, "Opel": 129
+, "Chevrolet": 128
+, "Volvo": 118
+, "Dacia": 94
+, "Tesla": 72
+, "Jeep": 67
+, "Land Rover": 67
+, "Fiat": 28
+, "Genesis": 28
+, "Honda": 26
+, "Porsche": 26
+, "JAC": 28
+, "Mini": 19
+, "Polestar": 5
+, "other": 659
+});
+
+db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/751116831977051.pdf",
+{ "BYD": 1377
+, "Geely": 537
+, "Hyundai": 260
+, "GWM": 144
+, "Mercedes-Benz": 144
+, "Škoda": 139
+, "Volkswagen": 117
+, "Toyota": 108
+, "Tesla": 72
+, "Kia": 70
+, "MG": 49
+, "JAC": 28
+, "Volvo": 28
+, "BMW": 25
+, "Audi": 22
+, "Genesis": 21
+, "Fiat": 15
+, "Citroën": 14
+, "Opel": 8
+, "Polestar": 5
+, "Mini": 1
+, "Porsche": 1
+, "other": 297
+});
+
+db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30941685961094.pdf",
+{ "Hyundai": 3587
+, "Kia": 3528
+, "Toyota": 3020
+, "Škoda": 1519
+, "BYD": 1268
+, "Chery": 1253
+, "Mitsubishi": 1152
+, "Mazda": 1067
+, "Suzuki": 729
+, "Citroën": 595
+, "Peugeot": 526
+, "Geely": 452
+, "Volkswagen": 451
+, "Tesla": 408
+, "Chevrolet": 353
+, "Seat": 349
+, "Renault": 339
+, "Mercedes-Benz": 328
+, "Subaru": 296
+, "Opel": 288
+, "Audi": 265
+, "Nissan": 260
+, "MG": 245
+, "BMW": 208
+, "Cupra": 197
+, "Dacia": 164
+, "Volvo": 152
+, "GWM": 122
+, "Ford": 112
+, "Jeep": 79
+, "Fiat": 76
+, "Genesis": 76
+, "Land Rover": 49
+, "Mini": 33
+, "Porsche": 30
+, "Honda": 27
+, "JAC": 23
+, "Polestar": 12
+, "other": 665
+});
+
+db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/309416859610941.pdf",
+{ "BYD": 1268
+, "Hyundai": 606
+, "Geely": 452
+, "Tesla": 422
+, "Škoda": 186
+, "MG": 147
+, "Toyota": 106
+, "Kia": 96
+, "GWM": 91
+, "Volkswagen": 87
+, "Mercedes-Benz": 81
+, "Genesis": 48
+, "Audi": 44
+, "Citroën": 29
+, "Fiat": 25
+, "Peugeot": 24
+, "Volvo": 24
+, "BMW": 21
+, "JAC": 20
+, "Polestar": 12
+, "Opel": 5
+, "Mini": 1
+, "Porsche": 1
+, "other": 223
+});
+
+db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61771688371849.pdf",
+{ "Hyundai": 4472
+, "Kia": 3101
+, "Toyota": 3062
+, "Škoda": 1600
+, "Tesla": 1449
+, "BYD": 1201
+, "Chery": 1001
+, "Mazda": 902
+, "Mitsubishi": 713
+, "Suzuki": 594
+, "MG": 479
+, "Renault": 470
+, "Citroën": 463
+, "Seat": 447
+, "Volkswagen": 424
+, "Peugeot": 402
+, "Geely": 401
+, "Chevrolet": 337
+, "Nissan": 310
+, "Mercedes-Benz": 308
+, "Subaru": 302
+, "Audi": 297
+, "BMW": 202
+, "Volvo": 173
+, "Cupra": 166
+, "Opel": 162
+, "Dacia": 145
+, "Ford": 102
+, "Jeep": 97
+, "GWM": 89
+, "Honda": 72
+, "Genesis": 71
+, "Fiat": 42
+, "Land Rover": 36
+, "Mini": 28
+, "JAC": 21
+, "Porsche": 20
+, "Polestar": 8
+, "other": 563
+});
+
+db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/617716883718491.pdf",
+{ "Tesla": 1435
+, "BYD": 1201
+, "Hyundai": 516
+, "Geely": 401
+, "MG": 364
+, "Škoda": 174
+, "Toyota": 85
+, "GWM": 73
+, "Mercedes-Benz": 55
+, "Audi": 53
+, "BMW": 53
+, "Kia": 50
+, "Genesis": 48
+, "Volkswagen": 41
+, "Citroën": 26
+, "Volvo": 26
+, "JAC": 20
+, "Fiat": 19
+, "Polestar": 8
+, "Peugeot": 5
+, "Mini": 3
+, "Chery": 2
+, "Opel": 2
+, "Porsche": 2
+, "other": 171
+});
+
+db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/65351691314941.pdf",
+{ "Hyundai": 3648
+, "Toyota": 3609
+, "Kia": 2856
+, "Škoda": 1239
+, "BYD": 1232
+, "Mitsubishi": 1042
+, "Mazda": 958
+, "Chery": 853
+, "Suzuki": 729
+, "Seat": 683
+, "MG": 613
+, "Citroën": 565
+, "Renault": 528
+, "Peugeot": 511
+, "Chevrolet": 445
+, "Volkswagen": 407
+, "Geely": 355
+, "Mercedes-Benz": 353
+, "Subaru": 302
+, "Nissan": 281
+, "BMW": 227
+, "Audi": 167
+, "Opel": 152
+, "Dacia": 137
+, "Cupra": 133
+, "Fiat": 114
+, "GWM": 114
+, "Volvo": 114
+, "Ford": 103
+, "Jeep": 103
+, "Genesis": 73
+, "Honda": 70
+, "Polestar": 56
+, "Land Rover": 36
+, "Mini": 24
+, "JAC": 19
+, "Porsche": 17
+, "Jaguar": 3
+, "Tesla": 3
+, "other": 550
+});
+
+db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/653516913149411.pdf",
+{ "BYD": 1233
+, "Hyundai": 389
+, "Geely": 355
+, "MG": 347
+, "Škoda": 233
+, "Kia": 116
+, "Toyota": 95
+, "GWM": 81
+, "Volkswagen": 59
+, "Polestar": 56
+, "Mercedes-Benz": 46
+, "Fiat": 45
+, "Genesis": 45
+, "Citroën": 30
+, "Audi": 28
+, "BMW": 27
+, "JAC": 19
+, "Peugeot": 14
+, "Volvo": 8
+, "Opel": 3
+, "Porsche": 3
+, "Tesla": 3
+, "Jaguar": 1
+, "Mini": 1
+, "other": 141
+});
+
+db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/68781693912956.pdf",
+{ "Hyundai": 3426
+, "Kia": 3029
+, "Toyota": 3029
+, "Tesla": 1647
+, "Škoda": 1516
+, "BYD": 1239
+, "Mazda": 1044
+, "Mitsubishi": 1007
+, "Suzuki": 888
+, "Chery": 801
+, "Geely": 734
+, "MG": 561
+, "Peugeot": 517
+, "Citroën": 509
+, "Volkswagen": 487
+, "Seat": 469
+, "Renault": 324
+, "Chevrolet": 311
+, "Subaru": 285
+, "Mercedes-Benz": 279
+, "BMW": 208
+, "Ford": 203
+, "Nissan": 203
+, "Audi": 197
+, "GWM": 171
+, "Fiat": 157
+, "Cupra": 146
+, "Dacia": 128
+, "Opel": 126
+, "Volvo": 93
+, "Jeep": 89
+, "Genesis": 72
+, "Polestar": 49
+, "Honda": 35
+, "JAC": 25
+, "Land Rover": 25
+, "Mini": 22
+, "Porsche": 17
+, "Jaguar": 3
+, "other": 656
+});
+
+db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/687816939129561.pdf",
+{ "Tesla": 1647
+, "BYD": 1238
+, "Geely": 734
+, "MG": 375
+, "Hyundai": 356
+, "Škoda": 192
+, "GWM": 143
+, "Toyota": 108
+, "Fiat": 56
+, "Audi": 51
+, "Kia": 51
+, "Volkswagen": 51
+, "Polestar": 49
+, "Genesis": 45
+, "Mercedes-Benz": 33
+, "JAC": 25
+, "BMW": 19
+, "Citroën": 18
+, "Peugeot": 12
+, "Opel": 3
+, "Volvo": 2
+, "Mini": 1
+, "Porsche": 1
+, "other": 250
+});
+
+db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/83141696241050.pdf",
+{ "Toyota": 2764
+, "Kia": 2228
+, "Hyundai": 1828
+, "BYD": 1312
+, "Škoda": 1005
+, "Mitsubishi": 774
+, "Suzuki": 641
+, "MG": 608
+, "Geely": 599
+, "Seat": 536
+, "Tesla": 515
+, "Mazda": 501
+, "Chery": 494
+, "Peugeot": 451
+, "Citroën": 428
+, "Volkswagen": 356
+, "Renault": 235
+, "Subaru": 235
+, "Mercedes-Benz": 216
+, "Nissan": 199
+, "Chevrolet": 197
+, "Audi": 187
+, "Dacia": 153
+, "Jeep": 149
+, "BMW": 129
+, "Opel": 122
+, "GWM": 113
+, "Cupra": 104
+, "Fiat": 101
+, "Ford": 85
+, "Volvo": 73
+, "Genesis": 64
+, "Polestar": 31
+, "Land Rover": 29
+, "Honda": 24
+, "Mini": 24
+, "Porsche": 15
+, "JAC": 6
+, "other": 588
+});
+
+db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/831416962410501.pdf",
+{ "BYD": 1312
+, "Geely": 599
+, "Tesla": 515
+, "MG": 447
+, "Hyundai": 220
+, "Škoda": 94
+, "GWM": 81
+, "Toyota": 77
+, "Fiat": 65
+, "Genesis": 51
+, "Kia": 45
+, "Volkswagen": 33
+, "Polestar": 31
+, "Mercedes-Benz": 25
+, "Audi": 22
+, "BMW": 21
+, "Citroën": 19
+, "Peugeot": 7
+, "JAC": 6
+, "Volvo": 5
+, "Opel": 1
+, "Porsche": 1
+, "other": 298
+});
+
+db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/741699177141.pdf",
+{ "Toyota": 1819
+, "Hyundai": 1756
+, "Kia": 1391
+, "BYD": 840
+, "Škoda": 616
+, "Mitsubishi": 495
+, "Mazda": 467
+, "Suzuki": 465
+, "MG": 459
+, "Chery": 365
+, "Geely": 300
+, "Volkswagen": 291
+, "Renault": 201
+, "Seat": 193
+, "Citroën": 175
+, "Peugeot": 150
+, "Chevrolet": 136
+, "Subaru": 123
+, "Tesla": 120
+, "GWM": 109
+, "Nissan": 108
+, "Dacia": 92
+, "Opel": 80
+, "Audi": 72
+, "Volvo": 71
+, "Mercedes-Benz": 65
+, "Cupra": 51
+, "Ford": 38
+, "BMW": 33
+, "Land Rover": 29
+, "Fiat": 26
+, "Genesis": 22
+, "Honda": 17
+, "Jeep": 16
+, "Mini": 14
+, "JAC": 12
+, "Porsche": 10
+, "Polestar": 4
+, "Jaguar": 2
+, "other": 544
+});
+
+db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/7416991771411.pdf",
+{ "BYD": 840
+, "MG": 409
+, "Geely": 300
+, "Hyundai": 153
+, "Tesla": 121
+, "GWM": 87
+, "Škoda": 86
+, "Toyota": 56
+, "Kia": 36
+, "Volkswagen": 26
+, "Genesis": 16
+, "Volvo": 15
+, "Audi": 12
+, "JAC": 12
+, "BMW": 10
+, "Fiat": 9
+, "Mercedes-Benz": 9
+, "Citroën": 8
+, "Peugeot": 7
+, "Polestar": 4
+, "Mini": 2
+, "Opel": 2
+, "Porsche": 2
+, "other": 179
+});
+
+db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61031701692511.pdf",
+{ "Toyota": 2492
+, "Hyundai": 1574
+, "Kia": 1505
+, "Škoda": 1069
+, "Tesla": 751
+, "BYD": 627
+, "Suzuki": 498
+, "Mitsubishi": 492
+, "Mazda": 474
+, "Geely": 404
+, "Chery": 324
+, "MG": 308
+, "Volkswagen": 259
+, "Subaru": 258
+, "Seat": 187
+, "Renault": 155
+, "Citroën": 132
+, "Peugeot": 111
+, "Nissan": 89
+, "Opel": 78
+, "Chevrolet": 74
+, "Dacia": 72
+, "GWM": 72
+, "Volvo": 69
+, "Audi": 57
+, "Ford": 54
+, "Cupra": 45
+, "Mercedes-Benz": 43
+, "BMW": 34
+, "Fiat": 33
+, "Honda": 27
+, "Jeep": 24
+, "Genesis": 19
+, "Land Rover": 17
+, "Polestar": 8
+, "Mini": 7
+, "Smart": 5
+, "JAC": 4
+, "Porsche": 3
+, "other": 448
+});
+
+db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/610317016925111.pdf",
+{ "Tesla": 750
+, "BYD": 627
+, "Geely": 404
+, "MG": 292
+, "Škoda": 185
+, "Hyundai": 156
+, "GWM": 49
+, "Toyota": 49
+, "Kia": 37
+, "Volkswagen": 22
+, "Fiat": 15
+, "Volvo": 14
+, "Citroën": 12
+, "BMW": 8
+, "Genesis": 8
+, "Polestar": 8
+, "Audi": 5
+, "Mercedes-Benz": 5
+, "Smart": 5
+, "Peugeot": 4
+, "JAC": 2
+, "Opel": 2
+, "other": 147
+});
+
+db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/21541704198310.pdf",
+{ "Toyota": 1307
+, "Tesla": 433
+, "Kia": 350
+, "Geely": 245
+, "MG": 220
+, "Suzuki": 207
+, "BYD": 197
+, "Mazda": 180
+, "Hyundai": 173
+, "Chery": 159
+, "Škoda": 122
+, "Volkswagen": 121
+, "Subaru": 88
+, "Citroën": 84
+, "Peugeot": 67
+, "Renault": 67
+, "Nissan": 66
+, "Mitsubishi": 63
+, "Dacia": 54
+, "Opel": 52
+, "Volvo": 37
+, "Chevrolet": 30
+, "Polestar": 15
+, "Ford": 13
+, "GWM": 13
+, "Honda": 10
+, "JAC": 10
+, "Jeep": 9
+, "Mercedes-Benz": 9
+, "Seat": 9
+, "Fiat": 8
+, "Smart": 8
+, "Audi": 5
+, "Land Rover": 5
+, "BMW": 4
+, "Cupra": 3
+, "Genesis": 3
+, "Jaguar": 1
+, "Mini": 1
+, "other": 290
+});
+
+db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/215417041983101.pdf",
+{ "Tesla": 433
+, "Geely": 245
+, "MG": 201
+, "BYD": 197
+, "Toyota": 39
+, "Škoda": 27
+, "Volkswagen": 19
+, "Hyundai": 16
+, "Polestar": 15
+, "JAC": 10
+, "Kia": 8
+, "Smart": 8
+, "Citroën": 7
+, "Volvo": 6
+, "GWM": 5
+, "Fiat": 3
+, "Porsche": 3
+, "Opel": 2
+, "Peugeot": 2
+, "BMW": 1
+, "Genesis": 1
+, "Mercedes-Benz": 1
+, "other": 116
+});
+
+db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43771707046811.pdf",
+{ "Hyundai": 5664
+, "Kia": 4751
+, "BYD": 3331
+, "Toyota": 3068
+, "Mazda": 2676
+, "Mitsubishi": 1868
+, "Škoda": 1628
+, "Suzuki": 1360
+, "Geely": 1078
+, "MG": 869
+, "Chery": 714
+, "Subaru": 696
+, "Seat": 585
+, "Citroën": 580
+, "Renault": 575
+, "Chevrolet": 501
+, "Mercedes-Benz": 489
+, "Volkswagen": 477
+, "BMW": 471
+, "Nissan": 401
+, "Peugeot": 399
+, "Audi": 385
+, "Ford": 384
+, "GWM": 356
+, "Smart": 263
+, "Cupra": 235
+, "Fiat": 224
+, "Volvo": 220
+, "Dacia": 214
+, "Genesis": 171
+, "Polestar": 132
+, "Opel": 129
+, "Jeep": 110
+, "Land Rover": 86
+, "Honda": 80
+, "Mini": 73
+, "Porsche": 39
+, "JAC": 13
+, "Tesla": 7
+, "other": 2045
+});
+
+db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/437717070468111.pdf",
+{ "BYD": 3331
+, "Geely": 1078
+, "MG": 704
+, "Hyundai": 572
+, "Smart": 263
+, "GWM": 252
+, "Kia": 232
+, "Škoda": 220
+, "Toyota": 162
+, "Polestar": 132
+, "Mercedes-Benz": 118
+, "Genesis": 116
+, "BMW": 85
+, "Volvo": 46
+, "Volkswagen": 32
+, "Fiat": 30
+, "Audi": 29
+, "Citroën": 28
+, "Chery": 20
+, "Jeep": 14
+, "JAC": 13
+, "Porsche": 9
+, "Opel": 7
+, "Tesla": 7
+, "Peugeot": 4
+, "Mini": 3
+, "other": 1186
+});
+
+db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30541709538468.pdf",
+{ "Hyundai": 3484
+, "Kia": 2716
+, "Toyota": 2521
+, "Škoda": 2084
+, "BYD": 1959
+, "Mazda": 1103
+, "Mitsubishi": 1084
+, "Chery": 940
+, "MG": 673
+, "Suzuki": 651
+, "Geely": 613
+, "Citroën": 606
+, "Renault": 567
+, "Seat": 552
+, "Peugeot": 545
+, "Volkswagen": 507
+, "Subaru": 424
+, "Mercedes-Benz": 366
+, "Tesla": 349
+, "Chevrolet": 340
+, "GWM": 339
+, "Nissan": 321
+, "Audi": 269
+, "BMW": 245
+, "Cupra": 237
+, "Ford": 167
+, "Volvo": 139
+, "Opel": 117
+, "Dacia": 107
+, "Genesis": 101
+, "Jeep": 98
+, "JAC": 90
+, "Fiat": 66
+, "Land Rover": 50
+, "Mini": 25
+, "Honda": 22
+, "Polestar": 22
+, "Smart": 9
+, "Porsche": 4
+, "other": 1631
+});
+
+db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/305417095384681.pdf",
+{ "BYD": 1959
+, "MG": 672
+, "Geely": 548
+, "Tesla": 349
+, "Chery": 322
+, "GWM": 280
+, "Kia": 272
+, "Hyundai": 248
+, "Toyota": 145
+, "Škoda": 121
+, "Mercedes-Benz": 111
+, "Audi": 94
+, "JAC": 90
+, "Volvo": 54
+, "Genesis": 53
+, "BMW": 42
+, "Volkswagen": 34
+, "Polestar": 22
+, "Citroën": 17
+, "Fiat": 12
+, "Jeep": 12
+, "Smart": 9
+, "Opel": 6
+, "Peugeot": 6
+, "Porsche": 1
+, "other": 1117
+});
