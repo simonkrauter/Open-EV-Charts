@@ -1702,8 +1702,8 @@ db.insert(db.countries.ES, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Jaguar": 194
 , "Subaru": 184
 , "Cupra": 95
-, "Smart": 84
-, "other": 1863
+, "Smart": 89
+, "other": 1858
 });
 
 db.insert(db.countries.ES, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/7 (includes commercial vehicles)",
@@ -1902,9 +1902,9 @@ db.insert(db.countries.ES, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 167
 , "Jaguar": 110
 , "Cupra": 86
-, "Smart": 80
+, "Smart": 84
 , "Tesla": 38
-, "other": 1620
+, "other": 1616
 });
 
 db.insert(db.countries.ES, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2020/10 (includes commercial vehicles)",
@@ -2646,14 +2646,14 @@ db.insert(db.countries.ES, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Suzuki": 352
 , "Mitsubishi": 268
 , "Land Rover": 223
-, "Tesla": 194
+, "Tesla": 197
 , "Honda": 178
 , "Porsche": 87
 , "Subaru": 86
 , "Jaguar": 64
 , "MG": 48
 , "Smart": 31
-, "other": 1186
+, "other": 1183
 });
 
 db.insert(db.countries.ES, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/8 (includes commercial vehicles)",
@@ -2733,10 +2733,10 @@ db.insert(db.countries.ES, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Land Rover": 274
 , "Porsche": 128
 , "Subaru": 124
-, "Smart": 101
+, "Smart": 106
 , "MG": 78
 , "Jaguar": 76
-, "other": 1340
+, "other": 1335
 });
 
 db.insert(db.countries.ES, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2021/9 (includes commercial vehicles)",
