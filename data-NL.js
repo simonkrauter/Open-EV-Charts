@@ -843,10 +843,10 @@ db.insert(db.countries.NL, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 111
 , "Porsche": 106
 , "Jaguar": 91
-, "Tesla": 75
+, "Tesla": 77
 , "Honda": 72
 , "Subaru": 65
-, "other": 618
+, "other": 616
 });
 
 db.insert(db.countries.NL, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/4",
@@ -1213,7 +1213,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 1024
 , "Audi": 868
 , "Suzuki": 738
-, "Tesla": 736
+, "Tesla": 760
 , "Jaguar": 667
 , "Mazda": 615
 , "Mini": 601
@@ -1226,7 +1226,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 72
 , "Porsche": 51
 , "Subaru": 47
-, "other": 303
+, "other": 279
 });
 
 db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2018/11",
@@ -1951,7 +1951,7 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 1097
 , "Peugeot": 1041
 , "BMW": 1027
-, "MG": 967
+, "MG": 1019
 , "Citroën": 516
 , "Volvo": 499
 , "Jaguar": 435
@@ -1963,11 +1963,11 @@ db.insert(db.countries.NL, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 176
 , "Mini": 158
 , "Honda": 68
-, "Smart": 54
+, "Smart": 57
 , "Land Rover": 37
 , "Jeep": 22
 , "Porsche": 13
-, "other": 227
+, "other": 172
 });
 
 db.insert(db.countries.NL, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2019/12",
@@ -3148,13 +3148,13 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 100
 , "Jeep": 71
 , "Polestar": 63
-, "Tesla": 61
+, "Tesla": 63
 , "Honda": 51
 , "Jaguar": 28
 , "Smart": 11
 , "Subaru": 11
 , "Cupra": 5
-, "other": 649
+, "other": 647
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
@@ -3223,7 +3223,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 576
 , "Fiat": 522
 , "Dacia": 478
-, "Tesla": 474
+, "Tesla": 487
 , "Mitsubishi": 421
 , "MG": 321
 , "Porsche": 139
@@ -3235,7 +3235,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 18
 , "Smart": 16
 , "Subaru": 14
-, "other": 514
+, "other": 503
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
@@ -4275,7 +4275,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 716
 , "Mini": 499
 , "Fiat": 492
-, "Tesla": 476
+, "Tesla": 487
 , "Seat": 418
 , "Volvo": 415
 , "Suzuki": 361
@@ -4291,7 +4291,7 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 23
 , "Subaru": 14
 , "Smart": 13
-, "other": 633
+, "other": 622
 });
 
 db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/6",
