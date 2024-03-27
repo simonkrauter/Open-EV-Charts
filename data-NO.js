@@ -4802,8 +4802,8 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 83
 , "Kia": 80
 , "Polestar": 76
-, "Nio": 50
-, "other": 451
+, "Nio": 52
+, "other": 449
 });
 
 db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2024",
