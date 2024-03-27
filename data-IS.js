@@ -2598,7 +2598,7 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://b
 
 db.insert(db.countries.IS, "2022-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf",
 { "Toyota": 106
-, "Tesla": 90
+, "Tesla": 92
 , "Kia": 85
 , "Hyundai": 74
 , "Mitsubishi": 61
@@ -2623,7 +2623,7 @@ db.insert(db.countries.IS, "2022-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 2
 , "Mini": 1
 , "Porsche": 1
-, "other": 18
+, "other": 16
 });
 
 db.insert(db.countries.IS, "2022-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2962,7 +2962,7 @@ db.insert(db.countries.IS, "2022-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Škoda": 53
 , "Ford": 44
 , "Hyundai": 42
-, "MG": 38
+, "MG": 40
 , "BMW": 29
 , "Peugeot": 29
 , "Mercedes-Benz": 28
@@ -2981,7 +2981,7 @@ db.insert(db.countries.IS, "2022-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Opel": 2
 , "Subaru": 2
 , "Jaguar": 1
-, "other": 20
+, "other": 18
 });
 
 db.insert(db.countries.IS, "2022-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
