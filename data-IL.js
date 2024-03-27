@@ -290,7 +290,7 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Peugeot": 526
 , "Geely": 452
 , "Volkswagen": 451
-, "Tesla": 408
+, "Tesla": 422
 , "Chevrolet": 353
 , "Seat": 349
 , "Renault": 339
@@ -315,7 +315,7 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 27
 , "JAC": 23
 , "Polestar": 12
-, "other": 665
+, "other": 651
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/309416859610941.pdf",
