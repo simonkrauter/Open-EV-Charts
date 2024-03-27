@@ -174,7 +174,8 @@ function isWidthEnoughForFilterAsButtons() {
 
 function renderFilterAsDropDown(parentDiv, param) {
   const selectedKey = chartSetConfig[param.name];
-  var select = addSelectElement(parentDiv);
+  const isActive = selectedKey != param.defaultOption || param.showAlwaysAsActive;
+  var select = addSelectElement(parentDiv, isActive);
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
     navigateToHash(db.encodeChartConfig(chartSetConfig, param.name));
@@ -291,12 +292,14 @@ function renderFilterAsButtons(parentDiv, param) {
   }
 }
 
-function addSelectElement(parent, defaultOptionText) {
+function addSelectElement(parent, isActive) {
   var selectWrapper = document.createElement("DIV");
   parent.appendChild(selectWrapper);
   selectWrapper.classList.add("selectWrapper");
   var select = document.createElement("SELECT");
   selectWrapper.appendChild(select);
+  if (isActive)
+    selectWrapper.classList.add("active");
   return select;
 }
 

@@ -417,6 +417,7 @@ var db = {
     param.defaultOption = this.xProperties.quarter;
     param.showAsFilter = true;
     param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
+    param.showAlwaysAsActive = true;
     result[param.name] = param;
 
     // time span
@@ -445,6 +446,7 @@ var db = {
         param.options[this.detailLevels.model] = "Split Models";
     }
     param.defaultOption = this.detailLevels.company;
+    param.showAlwaysAsActive = true;
     result[param.name] = param;
 
     // company

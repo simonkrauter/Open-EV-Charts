@@ -83,12 +83,12 @@ a.button, .selectWrapper {
   }
 }
 
-a.button {
+a.button, .selectWrapper {
   background: #565656;
   color: white;
 }
 
-a.button.active, .selectWrapper, .horizontalBar {
+a.button.active, .selectWrapper.active, .horizontalBar {
   background: #2A81C9;
   color: white;
 }
