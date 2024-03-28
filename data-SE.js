@@ -2649,13 +2649,13 @@ db.insert(db.countries.SE, "2021-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 154
 , "Dacia": 135
 , "Honda": 77
-, "Tesla": 36
+, "Tesla": 34
 , "Land Rover": 35
 , "Jeep": 26
 , "Jaguar": 17
 , "Mitsubishi": 8
 , "Chevrolet": 5
-, "other": 319
+, "other": 321
 });
 
 db.insert(db.countries.SE, "2021-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
