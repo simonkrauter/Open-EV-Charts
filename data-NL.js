@@ -78,7 +78,7 @@ db.insert(db.countries.NL, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 368
 , "Dacia": 357
 , "Mitsubishi": 285
-, "Tesla": 191
+, "Tesla": 176
 , "Land Rover": 151
 , "Smart": 119
 , "Jaguar": 117
@@ -86,7 +86,7 @@ db.insert(db.countries.NL, "2017-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 103
 , "Subaru": 84
 , "Jeep": 45
-, "other": 470
+, "other": 485
 });
 
 db.insert(db.countries.NL, "2017-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/2",
@@ -236,14 +236,14 @@ db.insert(db.countries.NL, "2017-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 687
 , "Mini": 561
 , "Dacia": 470
-, "Tesla": 231
+, "Tesla": 217
 , "Land Rover": 141
 , "Jaguar": 127
 , "Smart": 124
 , "Porsche": 123
 , "Jeep": 85
 , "Subaru": 31
-, "other": 1134
+, "other": 1148
 });
 
 db.insert(db.countries.NL, "2017-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2017/5",
