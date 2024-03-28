@@ -2652,8 +2652,8 @@ db.insert(db.countries.NO, "2021-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Opel": 207
 , "Mitsubishi": 138
 , "MG": 101
-, "Tesla": 56
-, "other": 1140
+, "Tesla": 53
+, "other": 1143
 });
 
 db.insert(db.countries.NO, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2021/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2021",
@@ -3555,8 +3555,8 @@ db.insert(db.countries.NO, "2022-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 80
 , "Opel": 75
 , "Peugeot": 66
-, "Tesla": 51
-, "other": 1051
+, "Tesla": 47
+, "other": 1055
 });
 
 db.insert(db.countries.NO, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2022/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2022",
