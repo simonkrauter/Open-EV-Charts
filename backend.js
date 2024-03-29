@@ -1067,8 +1067,12 @@ var db = {
             seriesName = company;
           else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrand == null)
             seriesName = brand;
-          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null)
-            seriesName = dataKey;
+          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null) {
+            if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
+              seriesName = dataKey + "|other";
+            else
+              seriesName = dataKey;
+          }
         }
 
         // add entries to seriesRows, categories and sources
