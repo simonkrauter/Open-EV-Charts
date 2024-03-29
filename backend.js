@@ -1415,7 +1415,7 @@ var db = {
       return "Company";
     else if (chartConfig.detailLevel == this.detailLevels.brand)
       return "Brand";
-    else if (chartConfig.detailLevel == this.detailLevels.model)
+    else if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
       return "Model";
     else
       return "Country";
