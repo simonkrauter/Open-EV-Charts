@@ -1266,31 +1266,30 @@ function renderCountriesStatusPage() {
       firstMonthString = dataset.monthString;
       break;
     }
-    // collect data from the latest AllCarsByBrand dataset
-    var lastMonthString = "";
+    // collect data from the latest datasets
     var lastPerQuarter = false;
-    var allCarDataByBrand = false;
+    var latestAllCarsDataset = null;
+    var latestEvDataset = null;
+    var oldEvDataset = null;
+    var monthCount = 0;
     for (var j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
         continue;
-      if (dataset.dsType != db.dsTypes.AllCarsByBrand)
-        continue;
-      lastMonthString = dataset.monthString;
-      lastPerQuarter = dataset.perQuarter;
-      allCarDataByBrand = Object.keys(dataset.data).length > 1;
-      break;
-    }
-    // collect data from the latest EV dataset
-    var latestEvDataset = {};
-    for (var j = db.datasets.length - 1; j >= 0; j--) {
-      const dataset = db.datasets[j];
-      if (dataset.country != countryId)
-        continue;
-      if (dataset.dsType == db.dsTypes.AllCarsByBrand)
-        continue;
-      latestEvDataset = dataset;
-      break;
+      if (dataset.dsType == db.dsTypes.AllCarsByBrand) {
+        if (latestAllCarsDataset == null) {
+          latestAllCarsDataset = dataset;
+          lastPerQuarter = dataset.perQuarter;
+        }
+      } else {
+        if (latestEvDataset == null)
+          latestEvDataset = dataset;
+        monthCount++;
+        if (monthCount == 6) {
+          oldEvDataset = dataset;
+          break;
+        }
+      }
     }
     // collect data from the latest 12 datasets
     var allCarSalesSum = 0;
@@ -1327,7 +1326,7 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      td.appendChild(document.createTextNode(firstMonthString + " – " + lastMonthString));
+      td.appendChild(document.createTextNode(firstMonthString + " – " + latestAllCarsDataset.monthString));
       td.style.textAlign = "center";
     }
     // interval
@@ -1343,7 +1342,7 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      if (allCarDataByBrand)
+      if (Object.keys(latestAllCarsDataset.data).length > 1)
         td.appendChild(document.createTextNode("By brand"));
       else
         td.appendChild(document.createTextNode("Total only"));
@@ -1353,21 +1352,13 @@ function renderCountriesStatusPage() {
       const td = document.createElement("TD");
       tr.appendChild(td);
       if (latestEvDataset.data) {
-        var modelCount = 0;
-        for (const key in latestEvDataset.data) {
-          if (key.includes("|") && !key.endsWith("|other"))
-            modelCount++;
+        var text = getEvDetailednessText(latestEvDataset);
+        if (oldEvDataset != null) {
+          const oldText = getEvDetailednessText(oldEvDataset);
+          if (oldText != text)
+            text = oldText + " / " + text;
         }
-        if (modelCount >= 50)
-          td.appendChild(document.createTextNode("Top 50 models"));
-        else if (modelCount >= 20)
-          td.appendChild(document.createTextNode("Top 20 models"));
-        else if (modelCount >= 10)
-          td.appendChild(document.createTextNode("Top 10 models"));
-        else if (modelCount >= 1)
-          td.appendChild(document.createTextNode("By brand + some models"));
-        else
-          td.appendChild(document.createTextNode("By brand"));
+        td.appendChild(document.createTextNode(text));
         if (latestEvDataset.source.includes("Incomplete")) {
           const span = document.createElement("SPAN");
           span.title = latestEvDataset.source;
@@ -1399,6 +1390,25 @@ function renderCountriesStatusPage() {
       td.style.textAlign = "right";
     }
   }
+}
+
+function getEvDetailednessText(dataset) {
+  var modelCount = 0;
+  for (const key in dataset.data) {
+    if (key.includes("|") && !key.endsWith("|other"))
+      modelCount++;
+  }
+  if (modelCount >= 50)
+    return "Top 50 models";
+  if (modelCount >= 20)
+    return "Top 20 models";
+  if (modelCount >= 10)
+    return "Top 10 models";
+  if (modelCount >= 1)
+    return "By brand + some models";
+  if (Object.keys(dataset.data).length > 1)
+    return "By brand";
+  return "Total only";
 }
 
 function renderCompaniesStatusPage() {
