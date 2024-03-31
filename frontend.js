@@ -600,7 +600,8 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             display: false
           },
           ticks: {
-            autoSkip: false
+            autoSkip: true,
+            autoSkipPadding: 0
           }
         },
         y: {
