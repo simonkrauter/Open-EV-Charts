@@ -608,7 +608,7 @@ var db = {
     if (chartConfig.timeSpan == this.timeSpanOptions.auto) {
       if (this.isByYear(chartConfig))
         return this.timeSpanOptions.all;
-      else if (this.isByQuarter(chartConfig))
+      else if ([this.xProperties.quarter, this.xProperties.monthAvg12].includes(chartConfig.xProperty))
         return this.timeSpanOptions.last3y;
       else
         return this.timeSpanOptions.last2y;
