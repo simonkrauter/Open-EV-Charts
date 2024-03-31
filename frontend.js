@@ -40,6 +40,7 @@ const maxHintsHeight = 75;
 
 var currentHash;
 var screenshotMode;
+var isShowAllChartsEnabled;
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
@@ -58,6 +59,7 @@ function navigate(retainShowAllOptionsParamName) {
 
   currentHash = decodeURIComponent(location.hash.substr(1));
   screenshotMode = false;
+  isShowAllChartsEnabled = false;
   chartSetConfig = db.decodeChartConfigString(currentHash);
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
@@ -129,12 +131,11 @@ function renderPage() {
 
   for (const chartIndex in chartConfigs) {
     var chartDiv = renderChart(chartIndex);
-    if (chartIndex >= maxVisibleCharts)
-      chartDiv.style.display = "none";
+    if (chartIndex == maxVisibleCharts - 1 && !isShowAllChartsEnabled) {
+      addShowAllChartsButton();
+      break;
+    }
   }
-
-  if (chartConfigs.length > maxVisibleCharts)
-    addShowAllChartsButton();
 }
 
 function renderFilters() {
@@ -510,17 +511,11 @@ function addShowAllChartsButton() {
   var button = createButton();
   div.appendChild(button);
   button.appendChild(document.createTextNode("Show All Charts"));
-  button.addEventListener("click", showAllChartsButtonClick);
-}
-
-function showAllChartsButtonClick(event) {
-  event.preventDefault();
-  const nodes = event.target.parentNode.parentNode.childNodes;
-  for (const i in nodes) {
-    if (nodes[i].style)
-      nodes[i].style.display = "";
-  }
-  event.target.style.display = "none";
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+    isShowAllChartsEnabled = true;
+    renderPage();
+  });
 }
 
 function createLinkToHash(hash) {
