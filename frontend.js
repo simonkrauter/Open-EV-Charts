@@ -8,8 +8,8 @@ document.onmousedown = function(event) {
 
 document.onkeydown = function(event) {
   document.body.classList.add("showFocus");
-  if (screenshotMode && (event.key === "Escape" || event.key === "Esc")) {
-    screenshotMode = false;
+  if (isScreenshotModeEnabled && (event.key === "Escape" || event.key === "Esc")) {
+    isScreenshotModeEnabled = false;
     renderPage();
   }
 };
@@ -39,7 +39,7 @@ homeLink.addEventListener("click", function(event) {
 const maxHintsHeight = 75;
 
 var currentHash;
-var screenshotMode;
+var isScreenshotModeEnabled;
 var isShowAllChartsEnabled;
 var isSingleChart;
 var chartSetConfig;
@@ -58,7 +58,7 @@ function navigate(retainShowAllOptionsParamName) {
     activeShowAllOptionsParamName = "";
 
   currentHash = decodeURIComponent(location.hash.substr(1));
-  screenshotMode = false;
+  isScreenshotModeEnabled = false;
   isShowAllChartsEnabled = false;
   chartSetConfig = db.decodeChartConfigString(currentHash);
   chartSetConfig = db.makeChartConfigValid(chartSetConfig);
@@ -103,18 +103,18 @@ function renderPage() {
     return;
   }
 
-  if (screenshotMode)
+  if (isScreenshotModeEnabled)
     document.body.classList.add("screenshotMode");
   else
     document.body.classList.remove("screenshotMode");
 
-  if (screenshotMode) {
+  if (isScreenshotModeEnabled) {
     const div = document.createElement("DIV");
     div.classList.add("screenshotModeBanner");
     const exitButton = document.createElement("A");
     exitButton.addEventListener("click", function(event) {
       event.preventDefault();
-      screenshotMode = false;
+      isScreenshotModeEnabled = false;
       renderPage();
     });
     exitButton.appendChild(document.createTextNode("Exit Screenshot Mode"));
@@ -319,10 +319,10 @@ function renderChart(chartIndex) {
   renderChartTitle(chartDiv, chartConfig);
   renderChartSubTitle(chartDiv, chartConfig);
 
-  if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !screenshotMode)
+  if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !isScreenshotModeEnabled)
     renderChartTabButtons(chartDiv);
 
-  if (isSingleChart && chartConfig.view != db.views.sources && !screenshotMode)
+  if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
     renderHints(chartDiv, chartConfig, chartData);
 
   if (chartData.series.length == 0) {
@@ -333,7 +333,7 @@ function renderChart(chartIndex) {
   } else {
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
-      if (isSingleChart && !screenshotMode)
+      if (isSingleChart && !isScreenshotModeEnabled)
         addScreenshotModeButton(chartDiv);
     } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
@@ -341,7 +341,7 @@ function renderChart(chartIndex) {
       renderSources(chartConfig, chartDiv, chartData);
   }
 
-  if (screenshotMode) {
+  if (isScreenshotModeEnabled) {
     const div = document.createElement("DIV");
     div.classList.add("sourceUrl");
     var url = location.href;
@@ -380,7 +380,7 @@ function renderChartTitle(chartDiv, chartConfig) {
 }
 
 function renderChartSubTitle(chartDiv, chartConfig) {
-  const subTitle = db.getChartSubTitle(chartConfig, screenshotMode);
+  const subTitle = db.getChartSubTitle(chartConfig, isScreenshotModeEnabled);
   if (subTitle == "")
     return;
   var titleElem = document.createElement("DIV");
@@ -703,7 +703,7 @@ function setChartSize(element) {
   const minHeight = 280;
   const maxWidthMultiChart = 550;
   var heightOffset;
-  if (screenshotMode) {
+  if (isScreenshotModeEnabled) {
     heightOffset = 150;
   } else {
     heightOffset = homeLink.parentNode.parentNode.offsetHeight + 205;
@@ -713,7 +713,7 @@ function setChartSize(element) {
       heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
   }
   var widthOffset;
-  if (screenshotMode)
+  if (isScreenshotModeEnabled)
     widthOffset = 70;
   else
     widthOffset = 10;
@@ -722,7 +722,7 @@ function setChartSize(element) {
     wantedWith = wantedWith / 2.33;
     wantedWith = Math.min(wantedWith, maxWidthMultiChart);
   }
-  if (screenshotMode)
+  if (isScreenshotModeEnabled)
     wantedWith = Math.min(wantedWith, 1000);
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minHeight);
@@ -737,7 +737,7 @@ function addScreenshotModeButton(parent) {
   button.classList.add("screenshotModeButton");
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    screenshotMode = true;
+    isScreenshotModeEnabled = true;
     renderPage();
   });
   parent.appendChild(button);
