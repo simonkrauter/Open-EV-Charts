@@ -4551,7 +4551,7 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 135
 });
 
-db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/12",
+db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 452
 , "Tesla|Model 3": 216
 , "Volvo|EX40": 172
@@ -4640,7 +4640,7 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 169
 });
 
-db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/1",
+db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Volvo|EX40": 207
 , "Tesla|Model Y": 123
 , "Hyundai|Ioniq 5": 122
@@ -4733,7 +4733,7 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 159
 });
 
-db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/2",
+db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/2, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Tesla|Model Y": 192
 , "Volvo|EX40": 104
 , "BMW|i4": 99
