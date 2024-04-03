@@ -992,7 +992,10 @@ var db = {
     var sources = [];
     var categories = [];
     var monthsPerCountryAndTimeSpan = {};
-    var maxRowsReachedAndModelNotFound = false;
+    var monthCountsAndSums = {};
+    var sumOfUsedDatasets = 0;
+    var minModelCountPerDataset = 0;
+    var hasDatasetWithoutMatchingEntry = false;
     var nonMonthlyCountries = [];
 
     for (const i in this.datasets) {
@@ -1004,6 +1007,23 @@ var db = {
       if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
         continue;
 
+      // add entry to monthsPerCountryAndTimeSpan
+      if (this.isTimeXProperty(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+        var timeSpan;
+        if (this.isByYear(chartConfig))
+          timeSpan = dataset.year;
+        else if (this.isByQuarter(chartConfig))
+          timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
+        else
+          timeSpan = dataset.monthString;
+        if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
+          monthsPerCountryAndTimeSpan[dataset.countryName] = {};
+        if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
+          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan] = [];
+        if (!monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].includes(dataset.monthString))
+          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
+      }
+
       var category = "";
       if (this.isByMonth(chartConfig))
         category = dataset.monthString;
@@ -1014,29 +1034,21 @@ var db = {
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
+      if (dataset.dsType == this.dsTypes.ElectricCarsByModel) {
+        const recordCountPerDataset = Object.keys(dataset.data).length;
+        if (minModelCountPerDataset == 0 || minModelCountPerDataset > recordCountPerDataset)
+          minModelCountPerDataset = recordCountPerDataset;
+      }
+
       var datasetUsed = false;
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
         const model = dataKeyParts[1];
         const company = this.companiesByBrand[brand];
+        const value = dataset.data[dataKey];
 
-        // add entry to monthsPerCountryAndTimeSpan
-        if (this.isTimeXProperty(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
-          var timeSpan;
-          if (this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("y"))
-            timeSpan = dataset.year;
-          else if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
-            timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-          else
-            timeSpan = dataset.monthString;
-          if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
-            monthsPerCountryAndTimeSpan[dataset.countryName] = {};
-          if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
-            monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan] = [];
-          if (!monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].includes(dataset.monthString))
-            monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
-        }
+        sumOfUsedDatasets += value;
 
         // apply filters
         if (filterCompany != null && this.urlEncode(company) != filterCompany)
@@ -1047,6 +1059,15 @@ var db = {
           continue;
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
+
+        // add entry to monthCountsAndSums
+        if (dataset.dsType != this.dsTypes.AllCarsByBrand) {
+          if (dataKey in monthCountsAndSums) {
+            monthCountsAndSums[dataKey][0]++;
+            monthCountsAndSums[dataKey][1] += value;
+          } else
+            monthCountsAndSums[dataKey] = [1, value];
+        }
 
         // set category
         if (chartConfig.xProperty == this.xProperties.company)
@@ -1075,13 +1096,13 @@ var db = {
           }
         }
 
-        // add entries to seriesRows, categories and sources
+        // add entry to seriesRows, categories and sources
         if (!(seriesName in seriesRows))
           seriesRows[seriesName] = {};
         if (category in seriesRows[seriesName])
-          seriesRows[seriesName][category] += dataset.data[dataKey];
+          seriesRows[seriesName][category] += value;
         else
-          seriesRows[seriesName][category] = dataset.data[dataKey];
+          seriesRows[seriesName][category] = value;
         if (!categories.includes(category))
           categories.push(category);
         if (sources[dataset.source] == null) {
@@ -1093,8 +1114,8 @@ var db = {
 
         datasetUsed = true;
       }
-      if (Object.keys(dataset.data).length >= 51 && !datasetUsed)
-        maxRowsReachedAndModelNotFound = true;
+      if (!datasetUsed)
+        hasDatasetWithoutMatchingEntry = true;
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
     }
@@ -1105,7 +1126,7 @@ var db = {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound, nonMonthlyCountries)
+      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minModelCountPerDataset, nonMonthlyCountries)
     };
   },
 
@@ -1217,7 +1238,7 @@ var db = {
     }
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, maxRowsReachedAndModelNotFound, nonMonthlyCountries) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minModelCountPerDataset, nonMonthlyCountries) {
     var hints = [];
 
     // missing countries
@@ -1278,16 +1299,27 @@ var db = {
         expectedNumberOfMonth = 12;
       for (const countryName in monthsPerCountryAndTimeSpan) {
         const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
-        for (const timeSpan in monthsPerTimeSpan) {
+        var timeSpansToReport = [];
+        if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
+          for (const timeSpan in monthsPerTimeSpan) {
+            if (timeSpan == currentYear || timeSpan == currentQuarter)
+              continue;
+            if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
+              timeSpansToReport.push(timeSpan);
+          }
+        } else if (Object.keys(monthsPerTimeSpan).length != expectedNumberOfMonth){
+          const timeSpan = chartConfig.timeSpan.substr(1);
           if (timeSpan == currentYear || timeSpan == currentQuarter)
             continue;
-          if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth) {
-            var hint = ""
-            if (this.isMultiCountry(chartConfig))
-              hint = hint + countryName + ": ";
-            hint = hint + timeSpan + " is incomplete.";
-            hints.push(hint);
-          }
+          timeSpansToReport.push(timeSpan);
+        }
+        for (const i in timeSpansToReport) {
+          const timeSpan = timeSpansToReport[i];
+          var hint = ""
+          if (this.isMultiCountry(chartConfig))
+            hint = hint + countryName + ": ";
+          hint = hint + timeSpan + " is incomplete.";
+          hints.push(hint);
         }
       }
     }
@@ -1309,14 +1341,33 @@ var db = {
     }
 
     // potentially missing low number entries
-    if (maxRowsReachedAndModelNotFound && this.isTimeXProperty(chartConfig) && chartConfig.model != this.modelOptions.all) {
-      hints.push("Low number entries could be missing, because data is limited to top 50 models per month.");
+    const incompleteDataHint = "Data may be incomplete as it is based on monthly top models.";
+    if (hasDatasetWithoutMatchingEntry) {
+      hints.push(incompleteDataHint);
+    } else if (chartConfig.detailLevel != this.detailLevels.total && minModelCountPerDataset > 0 && minModelCountPerDataset < 50) {
+      var maxMonthCount = 0;
+      for (const key in monthCountsAndSums) {
+        const entry = monthCountsAndSums[key];
+        if (maxMonthCount < entry[0])
+          maxMonthCount = entry[0];
+      }
+      if (maxMonthCount > 0) {
+        for (const key in monthCountsAndSums) {
+          const entry = monthCountsAndSums[key];
+          if (entry[1] < sumOfUsedDatasets * 0.02)
+            continue;
+          if (maxMonthCount > entry[0]) {
+            hints.push(incompleteDataHint);
+            break;
+          }
+        }
+      }
     }
 
     // monthly data is not available
     if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty)) {
       for (const i in nonMonthlyCountries) {
-        var hint = "Monthly data is not available.";
+        var hint = "Monthly data is derived from quarterly data.";
         if (this.isMultiCountry(chartConfig)) {
           const countryId = nonMonthlyCountries[i];
           hint = this.countryNames[countryId] + ": " + hint;
