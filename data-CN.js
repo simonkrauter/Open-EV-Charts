@@ -1315,11 +1315,11 @@ db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 189401
 });
 
-db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "https://web.archive.org/web/20230924134838/https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/ TODO: numbers per brand wanted",
 { "other": 1714286
 });
 
-db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
+db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20230924134838/https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
 { "BYD|Qin EV": 42887
 , "BYD|Song EV": 37610
 , "Tesla|Model Y": 31054
