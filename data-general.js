@@ -180,7 +180,7 @@ const brandCountries =
 , "Chery": "CN"
 , "Chevrolet": "US"
 , "Citroën": "FR"
-, "Cupra": "FR"
+, "Cupra": "ES"
 , "Dacia": "RO"
 , "Fiat": "IT"
 , "Ford": "US"
