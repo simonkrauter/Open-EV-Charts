@@ -314,7 +314,7 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Volkswagen": 75065
 , "Mazda": 67670
 , "BMW": 62152
-, "Tesla": 54000
+, "Tesla": 51035
 , "Audi": 41371
 , "Mitsubishi": 35563
 , "Land Rover": 20400
@@ -324,19 +324,19 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 5236
 , "Genesis": 3955
 , "Fiat": 1128
-, "other": 441208
+, "other": 575848
 });
 
 db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
-{ "Tesla|Model 3": 44500
-, "Chevrolet|Bolt": 5874
-, "Tesla|Model S": 4600
-, "Tesla|Model X": 3700
-, "Nissan|Leaf": 1958
-, "Audi|Q8 e-tron": 1711
-, "Tesla|Model Y": 1200
-, "Jaguar|I-Pace": 446
-, "Porsche|Taycan": 211
+{ "Tesla|Model 3": 42057
+, "Chevrolet|Bolt": 5552
+, "Tesla|Model S": 4347
+, "Tesla|Model X": 3497
+, "Nissan|Leaf": 1851
+, "Audi|Q8 e-tron": 1617
+, "Tesla|Model Y": 1134
+, "Jaguar|I-Pace": 422
+, "Porsche|Taycan": 199
 });
 
 db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -354,7 +354,7 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mercedes-Benz": 69505
 , "Mazda": 61199
 , "BMW": 50956
-, "Tesla": 38800
+, "Tesla": 36670
 , "Audi": 34839
 , "Volvo": 23770
 , "Land Rover": 14500
@@ -364,19 +364,19 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 4320
 , "Genesis": 3585
 , "Fiat": 1339
-, "other": 337218
+, "other": 450617
 });
 
 db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
-{ "Tesla|Model Y": 16000
-, "Tesla|Model 3": 16000
-, "Tesla|Model X": 3600
-, "Tesla|Model S": 3200
-, "Chevrolet|Bolt": 2495
-, "Audi|Q8 e-tron": 1161
-, "Nissan|Leaf": 1050
-, "Porsche|Taycan": 818
-, "Jaguar|I-Pace": 600
+{ "Tesla|Model Y": 15122
+, "Tesla|Model 3": 15122
+, "Tesla|Model X": 3402
+, "Tesla|Model S": 3024
+, "Chevrolet|Bolt": 2358
+, "Audi|Q8 e-tron": 1097
+, "Nissan|Leaf": 992
+, "Porsche|Taycan": 773
+, "Jaguar|I-Pace": 567
 });
 
 db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -394,7 +394,7 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mazda": 74411
 , "Mercedes-Benz": 69631
 , "BMW": 68439
-, "Tesla": 61400
+, "Tesla": 58029
 , "Audi": 47896
 , "Volvo": 30349
 , "Mitsubishi": 24857
@@ -404,19 +404,19 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 4700
 , "Genesis": 3745
 , "Fiat": 1102
-, "other": 483614
+, "other": 633965
 });
 
 db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
-{ "Tesla|Model Y": 30000
-, "Tesla|Model 3": 24000
-, "Chevrolet|Bolt": 5682
-, "Tesla|Model X": 3700
-, "Tesla|Model S": 3700
-, "Audi|Q8 e-tron": 2296
-, "Nissan|Leaf": 1916
-, "Porsche|Taycan": 1858
-, "Jaguar|I-Pace": 500
+{ "Tesla|Model Y": 28353
+, "Tesla|Model 3": 22682
+, "Chevrolet|Bolt": 5370
+, "Tesla|Model X": 3497
+, "Tesla|Model S": 3497
+, "Audi|Q8 e-tron": 2170
+, "Nissan|Leaf": 1811
+, "Porsche|Taycan": 1756
+, "Jaguar|I-Pace": 473
 });
 
 db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -434,7 +434,7 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Volkswagen": 94122
 , "Mercedes-Benz": 78078
 , "Mazda": 75796
-, "Tesla": 73800
+, "Tesla": 69749
 , "Audi": 62519
 , "Volvo": 36526
 , "Land Rover": 27698
@@ -444,20 +444,19 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Jaguar": 5500
 , "Genesis": 5099
 , "Fiat": 735
-, "other": 538645
+, "other": 700073
 });
 
 db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
-{ "Tesla|Model Y": 33000
-, "Tesla|Model 3": 28000
-, "Chevrolet|Bolt": 6702
-, "Tesla|Model S": 6400
-, "Tesla|Model X": 6400
-, "Nissan|Leaf": 4635
-, "Audi|Q8 e-tron": 2034
-, "Porsche|Taycan": 1517
-, "Jaguar|I-Pace": 400
-, "other": 3
+{ "Tesla|Model Y": 31188
+, "Tesla|Model 3": 26463
+, "Chevrolet|Bolt": 6334
+, "Tesla|Model S": 6049
+, "Tesla|Model X": 6049
+, "Nissan|Leaf": 4381
+, "Audi|Q8 e-tron": 1922
+, "Porsche|Taycan": 1434
+, "Jaguar|I-Pace": 378
 });
 
 db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -485,7 +484,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 6284
 , "Jaguar": 4048
 , "Fiat": 815
-, "other": 498307
+, "other": 621316
 });
 
 db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -500,6 +499,7 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model S": 700
 , "Volkswagen|ID.4": 474
 , "Jaguar|I-Pace": 256
+, "other": 5079
 });
 
 db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -527,7 +527,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 9340
 , "Jaguar": 4883
 , "Fiat": 892
-, "other": 504373
+, "other": 639198
 });
 
 db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -542,6 +542,7 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Tesla|Model X": 800
 , "Tesla|Model S": 800
 , "Jaguar|I-Pace": 358
+, "other": 5826
 });
 
 db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -569,7 +570,7 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Mini": 6444
 , "Jaguar": 3121
 , "Fiat": 400
-, "other": 410151
+, "other": 515210
 });
 
 db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -585,6 +586,7 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Audi|Q8 e-tron": 447
 , "Jaguar|I-Pace": 201
 , "Tesla|Model X": 100
+, "other": 6392
 });
 
 db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://autocharts.info",
@@ -611,7 +613,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://autoch
 , "Genesis": 15301
 , "Mini": 13100
 , "Jaguar": 5097
-, "other": 368310
+, "other": 469389
 });
 
 db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://autocharts.info (Incomplete: EV models with ICE/hybrid variant are not included.)",
@@ -631,7 +633,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Jaguar|I-Pace": 600
 , "Hyundai|Ioniq 5": 153
 , "Audi|Q4 e-tron": 63
-, "other": 66
+, "other": 6100
 });
 
 db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
@@ -754,7 +756,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://c
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
-{ "other": 3612007
+{ "other": 3586859
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/04/27/us-electric-vehicle-sales-up-66-in-1st-quarter/",
@@ -788,7 +790,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://c
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
-{ "other": 4117897
+{ "other": 4089227
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/",
@@ -824,7 +826,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://c
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
-{ "other": 3996402
+{ "other": 3968578
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/",
@@ -860,7 +862,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://c
 });
 
 db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
-{ "other": 3908114
+{ "other": 3880905
 });
 
 db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/01/14/us-ev-market-grows-29-in-4th-quarter-tesla-holds-56-market-share/",
