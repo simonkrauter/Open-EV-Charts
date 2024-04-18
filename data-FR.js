@@ -5048,3 +5048,53 @@ db.insert(db.countries.FR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX30": 770
 , "other": 9589
 });
+
+db.insert(db.countries.FR, "2024-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/03/Immatriculations-VPN_Mars2024.pdf",
+{ "Renault": 29597
+, "Peugeot": 25389
+, "Dacia": 13797
+, "Citroën": 13528
+, "Toyota": 11577
+, "Volkswagen": 10524
+, "BMW": 7675
+, "Mercedes-Benz": 6999
+, "Opel": 5094
+, "Tesla": 4998
+, "Ford": 4930
+, "Fiat": 4662
+, "Audi": 4529
+, "Škoda": 4438
+, "Hyundai": 4212
+, "Kia": 3834
+, "Volvo": 2975
+, "Nissan": 2783
+, "Seat": 2625
+, "Mini": 2455
+, "Suzuki": 2276
+, "MG": 1557
+, "Cupra": 1415
+, "Mazda": 1009
+, "Jeep": 896
+, "Land Rover": 689
+, "Honda": 625
+, "Porsche": 536
+, "Mitsubishi": 309
+, "BYD": 206
+, "Smart": 146
+, "Jaguar": 38
+, "other": 3701
+});
+
+db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/04/barometre-avere-colombus-mars-2024-1.pdf",
+{ "Peugeot|e-208": 3767
+, "Tesla|Model Y": 3045
+, "Fiat|500e": 2691
+, "Renault|Twingo E-Tech": 2316
+, "Peugeot|e-2008": 2204
+, "Renault|Megane E-Tech": 2173
+, "Tesla|Model 3": 1836
+, "Volvo|EX30": 1395
+, "MG|MG4 EV": 1101
+, "BMW|iX1": 1043
+, "other": 12410
+});
