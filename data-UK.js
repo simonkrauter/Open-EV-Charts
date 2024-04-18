@@ -2688,7 +2688,7 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 364
 , "Volkswagen|ID.5": 296
 , "Kia|Niro EV": 290
-, "Audi|e-tron GT": 259
+, "Audi|e-tron GT": 287
 , "Hyundai|Kona Electric": 243
 , "Hyundai|Ioniq 5": 239
 , "BYD|Yuan Plus": 232
@@ -2715,10 +2715,10 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Combo-e": 43
 , "Citroën|ë-C4": 36
 , "Vauxhall|Corsa-e": 36
+, "Volkswagen|other": 58
 , "BMW|other": 51
 , "Genesis|other": 50
 , "Audi|other": 46
-, "Volkswagen|other": 45
 , "Tesla|other": 42
 , "Peugeot|other": 39
 , "BYD|other": 28
@@ -2729,7 +2729,7 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 18
 , "Honda|other": 15
 , "Mercedes-Benz|other": 15
-, "other": 1936
+, "other": 1895
 });
 
 db.insert(db.countries.UK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2813,6 +2813,7 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i5": 184
 , "Volvo|EC40": 177
 , "Volkswagen|ID.4": 175
+, "Volkswagen|ID.7": 144
 , "Hyundai|Ioniq 6": 141
 , "BMW|iX3": 136
 , "Citroën|ë-C4": 118
@@ -2821,16 +2822,16 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|Avenger EV": 107
 , "Mazda|MX-30 BEV": 94
 , "MG|MG5 EV": 91
-, "Vauxhall|Combo-e": 82
-, "Audi|other": 105
+, "Audi|other": 111
 , "Volkswagen|other": 100
 , "Fiat|other": 89
+, "Vauxhall|other": 89
 , "BMW|other": 61
 , "Mercedes-Benz|other": 58
+, "GWM|other": 54
 , "Kia|other": 52
 , "Renault|other": 50
 , "Toyota|other": 40
-, "GWM|other": 38
 , "BYD|other": 35
 , "Genesis|other": 29
 , "MG|other": 29
@@ -2843,7 +2844,7 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 15
 , "Nissan|other": 14
 , "Porsche|other": 13
-, "other": 1989
+, "other": 1816
 });
 
 db.insert(db.countries.UK, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2935,16 +2936,17 @@ db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 66
 , "MG|MG5 EV": 66
 , "Smart|Hashtag 1": 57
-, "Fiat|500e": 49
+, "GWM|Ora 03": 56
+, "Fiat|other": 77
 , "Vauxhall|other": 73
 , "Mercedes-Benz|other": 68
 , "BMW|other": 65
 , "Peugeot|other": 64
+, "Audi|other": 54
 , "BYD|other": 52
-, "Audi|other": 50
 , "Mazda|other": 44
 , "Tesla|other": 29
-, "Fiat|other": 28
+, "Volkswagen|other": 29
 , "Renault|other": 27
 , "Subaru|other": 20
 , "Toyota|other": 20
@@ -2953,6 +2955,5 @@ db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 10
 , "Volvo|other": 10
 , "Genesis|other": 8
-, "Volkswagen|other": 8
-, "other": 1174
+, "other": 1093
 });
