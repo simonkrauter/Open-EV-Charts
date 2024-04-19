@@ -4953,7 +4953,7 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Peugeot": 4410
 , "Volkswagen": 4090
 , "Citroën": 4086
-, "Renault": 3688
+, "Renault": 3825
 , "Hyundai": 3593
 , "Mercedes-Benz": 3544
 , "Seat": 3285
