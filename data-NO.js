@@ -4894,37 +4894,43 @@ db.insert(db.countries.NO, "2024-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 });
 
 db.insert(db.countries.NO, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2024",
-{ "Tesla|Model Y": 1747
+{ "Tesla|Model Y": 1748
 , "Toyota|bZ4X": 372
+, "Volkswagen|ID.4": 263
 , "Nissan|Leaf": 227
 , "Hyundai|Kona Electric": 216
+, "Volvo|EX30": 213
 , "MG|MG4 EV": 208
 , "Nissan|Ariya": 196
+, "Škoda|Enyaq": 168
+, "Volvo|EX40": 162
 , "Ford|Mustang Mach-E": 142
+, "Audi|Q4 e-tron": 139
+, "Volkswagen|ID.3": 134
 , "Hyundai|Ioniq 5": 107
 , "Subaru|Solterra": 105
 , "Mazda|MX-30 BEV": 100
+, "Polestar|2": 96
 , "MG|ZS EV": 95
+, "BMW|i4": 91
 , "BMW|iX": 83
-, "Volkswagen|ID.4": 78
 , "BMW|iX1": 74
 , "Kia|EV6": 70
-, "BMW|i4": 69
+, "Volkswagen|ID.5": 61
+, "Audi|Q8 e-tron": 60
 , "BYD|Han EV": 57
 , "BYD|Tang EV": 55
 , "Mercedes-Benz|EQA": 52
 , "Hyundai|Ioniq 6": 49
 , "Peugeot|e-208": 49
 , "Mercedes-Benz|EQE": 47
-, "Škoda|Enyaq": 41
+, "Volkswagen|ID.7": 47
 , "Peugeot|e-2008": 39
-, "Audi|Q8 e-tron": 38
+, "Volvo|EC40": 38
 , "Citroën|ë-C4": 37
 , "Jeep|Avenger EV": 37
-, "Audi|Q4 e-tron": 35
 , "BYD|Yuan Plus": 32
 , "Opel|Astra Electric": 29
-, "Volkswagen|ID.3": 29
 , "BMW|iX2": 28
 , "Peugeot|e-308": 27
 , "Mercedes-Benz|EQB": 26
@@ -4938,14 +4944,11 @@ db.insert(db.countries.NO, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|e-JS4": 18
 , "Kia|Niro EV": 18
 , "Kia|Soul EV": 15
-, "Opel|Mokka-e": 14
-, "BMW|iX3": 13
-, "MG|MG5 EV": 13
-, "Nio|ET5": 13
-, "Kia|EV9": 11
-, "Volkswagen|ID.7": 11
-, "Nio|other": 10
-, "Volkswagen|other": 10
+, "Nio|other": 23
+, "BMW|other": 16
+, "Opel|other": 15
+, "MG|other": 13
+, "Kia|other": 11
 , "Honda|other": 8
 , "Tesla|other": 6
 , "Mercedes-Benz|other": 5
@@ -4953,7 +4956,7 @@ db.insert(db.countries.NO, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|other": 4
 , "Fiat|other": 4
 , "Mini|other": 4
-, "other": 1722
+, "other": 556
 });
 
 
