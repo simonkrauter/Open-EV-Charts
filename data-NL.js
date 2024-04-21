@@ -6373,7 +6373,7 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 142
 , "Kia|EV9": 141
 , "Peugeot|e-2008": 137
-, "Audi|Q4 e-tron": 134
+, "Audi|Q4 e-tron": 135
 , "Volvo|EC40": 128
 , "BYD|Yuan Plus": 125
 , "Mercedes-Benz|EQE": 100
@@ -6388,7 +6388,7 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 80
 , "Volkswagen|ID.3": 78
 , "Toyota|bZ4X": 73
-, "Cupra|Born": 68
+, "Cupra|Born": 69
 , "Hyundai|Ioniq 6": 66
 , "BMW|i5": 62
 , "BYD|Dolphin": 45
@@ -6422,5 +6422,5 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 7
 , "Peugeot|other": 7
 , "Citroën|other": 6
-, "other": 136
+, "other": 134
 });
