@@ -4959,6 +4959,90 @@ db.insert(db.countries.NO, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 556
 });
 
+db.insert(db.countries.NO, "2024-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2024",
+{ "Tesla": 2234
+, "Toyota": 1162
+, "Volkswagen": 952
+, "Volvo": 608
+, "Hyundai": 545
+, "MG": 397
+, "Nissan": 367
+, "Audi": 366
+, "Škoda": 346
+, "BMW": 334
+, "Mercedes-Benz": 327
+, "Suzuki": 257
+, "BYD": 182
+, "Ford": 179
+, "Peugeot": 135
+, "Kia": 127
+, "Polestar": 122
+, "Mazda": 94
+, "other": 1016
+});
+
+db.insert(db.countries.NO, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2024",
+{ "Tesla|Model Y": 1990
+, "Toyota|bZ4X": 759
+, "Volkswagen|ID.4": 476
+, "Volvo|EX30": 344
+, "Volkswagen|ID.3": 283
+, "Audi|Q4 e-tron": 270
+, "Hyundai|Kona Electric": 257
+, "MG|MG4 EV": 230
+, "Škoda|Enyaq": 228
+, "Tesla|Model 3": 220
+, "Nissan|Leaf": 199
+, "Hyundai|Ioniq 5": 190
+, "Nissan|Ariya": 161
+, "Ford|Mustang Mach-E": 156
+, "Volvo|EX40": 137
+, "Honda|e:Ny1": 120
+, "BYD|Tang EV": 119
+, "Polestar|2": 117
+, "BMW|i4": 107
+, "MG|ZS EV": 99
+, "Subaru|Solterra": 92
+, "Hyundai|Ioniq 6": 91
+, "Mazda|MX-30 BEV": 87
+, "Mercedes-Benz|EQB": 83
+, "Audi|Q8 e-tron": 78
+, "BMW|iX": 69
+, "Mercedes-Benz|EQE": 68
+, "Mercedes-Benz|EQA": 67
+, "Volkswagen|ID.7": 62
+, "Kia|EV6": 59
+, "BMW|iX2": 50
+, "BMW|iX1": 48
+, "Peugeot|e-2008": 47
+, "Peugeot|e-208": 44
+, "Kia|EV9": 41
+, "Volvo|EC40": 40
+, "Fiat|500e": 38
+, "MG|Marvel R": 37
+, "Citroën|ë-C4": 36
+, "Volkswagen|ID.5": 36
+, "BYD|Han EV": 31
+, "Renault|Megane E-Tech": 30
+, "Jeep|Avenger EV": 29
+, "Peugeot|e-308": 27
+, "MG|MG5 EV": 25
+, "Mercedes-Benz|EQS": 25
+, "BYD|Yuan Plus": 21
+, "Opel|Astra Electric": 20
+, "Kia|Niro EV": 19
+, "Nio|ES7": 16
+, "Nio|other": 37
+, "Tesla|other": 21
+, "BMW|other": 20
+, "JAC|other": 15
+, "Kia|other": 6
+, "Mercedes-Benz|other": 6
+, "Opel|other": 6
+, "Smart|other": 6
+, "other": 714
+});
+
 
 // Template:
 
