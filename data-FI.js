@@ -4787,3 +4787,99 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "other": 15
 });
+
+db.insert(db.countries.FI, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2851/March_2024.xlsx",
+{ "Toyota": 1199
+, "Volvo": 705
+, "Škoda": 536
+, "Kia": 511
+, "Tesla": 487
+, "Volkswagen": 476
+, "Mercedes-Benz": 387
+, "BMW": 337
+, "Hyundai": 335
+, "Nissan": 329
+, "Ford": 178
+, "Audi": 172
+, "Opel": 92
+, "Suzuki": 82
+, "Mitsubishi": 56
+, "Subaru": 54
+, "BYD": 53
+, "Mazda": 48
+, "Peugeot": 45
+, "Dacia": 43
+, "Renault": 43
+, "Land Rover": 30
+, "Polestar": 29
+, "Cupra": 22
+, "Porsche": 21
+, "Honda": 17
+, "Seat": 15
+, "Citroën": 12
+, "Fiat": 9
+, "Mini": 8
+, "other": 155
+});
+
+db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/3, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model Y": 340
+, "Tesla|Model 3": 140
+, "Volkswagen|ID.4": 134
+, "Volvo|EX40": 123
+, "Škoda|Enyaq": 116
+, "Volvo|EX30": 109
+, "Hyundai|Ioniq 5": 80
+, "Audi|Q4 e-tron": 70
+, "BMW|i4": 69
+, "Volvo|EC40": 55
+, "Volkswagen|ID.7": 50
+, "Hyundai|Kona Electric": 40
+, "Mercedes-Benz|EQE": 38
+, "Mercedes-Benz|EQA": 36
+, "Kia|EV9": 32
+, "Kia|EV6": 31
+, "Nissan|Ariya": 31
+, "Polestar|2": 29
+, "BYD|Seal": 25
+, "BMW|iX1": 24
+, "Mercedes-Benz|EQB": 24
+, "Volkswagen|ID.3": 24
+, "BMW|iX": 17
+, "BYD|Yuan Plus": 17
+, "Audi|Q8 e-tron": 15
+, "Ford|Mustang Mach-E": 15
+, "BMW|i5": 11
+, "Kia|Niro EV": 11
+, "Mercedes-Benz|EQS": 11
+, "Volkswagen|ID.5": 11
+, "Nissan|Leaf": 10
+, "BMW|iX2": 9
+, "Cupra|Born": 9
+, "Renault|Megane E-Tech": 8
+, "BYD|Dolphin": 7
+, "Hyundai|Ioniq 6": 7
+, "Toyota|bZ4X": 7
+, "Fiat|600e": 4
+, "Tesla|Model S": 4
+, "Toyota|Proace Electric": 4
+, "Kia|Soul EV": 3
+, "Mercedes-Benz|eVito": 3
+, "Peugeot|e-208": 3
+, "Subaru|Solterra": 3
+, "Tesla|Model X": 3
+, "BYD|Han EV": 2
+, "BYD|Tang EV": 2
+, "Mini|Cooper SE": 2
+, "Peugeot|e-2008": 2
+, "Peugeot|e-308": 2
+, "Peugeot|e-Expert": 2
+, "Porsche|Taycan": 2
+, "BMW|other": 1
+, "Ford|other": 1
+, "Jaguar|other": 1
+, "Jeep|other": 1
+, "Opel|other": 1
+, "Renault|other": 1
+, "other": 18
+});
