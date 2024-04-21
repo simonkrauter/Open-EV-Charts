@@ -4570,3 +4570,100 @@ db.insert(db.countries.IE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Subaru|other": 1
 , "other": 12
 });
+
+db.insert(db.countries.IE, "2024-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 2343
+, "Škoda": 1561
+, "Volkswagen": 1314
+, "Kia": 1169
+, "Nissan": 1132
+, "BMW": 787
+, "Hyundai": 770
+, "Audi": 594
+, "Ford": 523
+, "Peugeot": 428
+, "Tesla": 418
+, "Mercedes-Benz": 399
+, "Seat": 395
+, "Renault": 379
+, "Dacia": 305
+, "Opel": 293
+, "Suzuki": 282
+, "Volvo": 259
+, "Mazda": 258
+, "Cupra": 176
+, "Citroën": 172
+, "BYD": 149
+, "Land Rover": 112
+, "MG": 103
+, "Mini": 53
+, "Porsche": 47
+, "Fiat": 33
+, "Honda": 20
+, "Polestar": 19
+, "Jeep": 13
+, "GWM": 8
+, "Jaguar": 4
+, "other": 155
+});
+
+db.insert(db.countries.IE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 211
+, "Tesla|Model Y": 207
+, "Volkswagen|ID.3": 159
+, "Škoda|Enyaq": 125
+, "Audi|Q4 e-tron": 89
+, "BYD|Seal": 76
+, "Kia|EV6": 70
+, "MG|MG4 EV": 70
+, "BMW|iX1": 68
+, "Kia|Niro EV": 63
+, "Volkswagen|ID.4": 61
+, "Toyota|bZ4X": 49
+, "BYD|Yuan Plus": 45
+, "Hyundai|Kona Electric": 45
+, "Volvo|EX30": 44
+, "BMW|i4": 42
+, "Hyundai|Ioniq 5": 41
+, "Nissan|Ariya": 41
+, "Nissan|Leaf": 36
+, "Kia|EV9": 35
+, "Cupra|Born": 33
+, "Volvo|EX40": 33
+, "BMW|iX3": 32
+, "BYD|Dolphin": 28
+, "Mercedes-Benz|EQE SUV": 27
+, "Renault|Megane E-Tech": 24
+, "Audi|Q8 e-tron": 22
+, "Polestar|2": 19
+, "Citroën|ë-C4": 17
+, "MG|ZS EV": 17
+, "Hyundai|Ioniq 6": 16
+, "Mercedes-Benz|EQE": 14
+, "BMW|iX": 12
+, "MG|MG5 EV": 12
+, "Audi|e-tron GT": 10
+, "Mercedes-Benz|EQB": 10
+, "Volvo|EC40": 10
+, "Volkswagen|ID. Buzz": 9
+, "GWM|Ora 03": 8
+, "BMW|i5": 7
+, "Opel|Mokka-e": 7
+, "Porsche|Taycan": 7
+, "Peugeot|e-Rifter": 5
+, "Volkswagen|e-up!": 5
+, "BMW|i7": 4
+, "Mercedes-Benz|EQA": 4
+, "Citroën|ë-Berlingo Electric": 3
+, "Peugeot|e-208": 3
+, "Peugeot|e-308": 3
+, "Citroën|ë-SpaceTourer": 2
+, "Fiat|500e": 2
+, "Ford|Mustang Mach-E": 2
+, "Jaguar|I-Pace": 2
+, "Opel|other": 2
+, "Volkswagen|other": 2
+, "Mercedes-Benz|other": 1
+, "Peugeot|other": 1
+, "other": 3
+});
