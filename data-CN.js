@@ -1561,3 +1561,24 @@ db.insert(db.countries.CN, "2024-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 2378
 , "other": 185601
 });
+
+db.insert(db.countries.CN, "2024-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/04/27/43-plugin-vehicle-market-share-in-china-march-2024-sales-report/ TODO: numbers per brand wanted",
+{ "other": 1727907
+});
+
+db.insert(db.countries.CN, "2024-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/04/27/43-plugin-vehicle-market-share-in-china-march-2024-sales-report/",
+{ "Tesla|Model Y": 47917
+, "BYD|Seagull": 27866
+, "BYD|Yuan Plus": 21951
+, "BYD|Qin EV": 16910
+, "Wuling|Hongguang Mini EV": 16046
+, "Aion|S": 14758
+, "Tesla|Model 3": 14481
+, "Aion|Y": 13007
+, "BYD|Dolphin": 12672
+, "Changan|Lumin": 12226
+, "Wuling|Bingo": 11319
+, "BYD|Song EV": 11244
+, "BYD|Han EV": 6003
+, "other": 50065
+});
