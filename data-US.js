@@ -898,3 +898,26 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volvo|other": 550
 , "other": 12936
 });
+
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month TODO: numbers per brand wanted",
+{ "other": 3682623
+});
+
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByBrand, "https://cleantechnica.com/2024/05/04/tesla-still-sells-more-evs-in-usa-than-ford-chevrolet-hyundai-kia-audi-bmw-chevrolet-toyota-combined/, https://cleantechnica.com/2024/05/04/us-ev-sales-up-71-in-1st-quarter-vs-1st-quarter-of-2022/, https://cleantechnica.com/2024/05/06/cadillac-audi-bmw-now-leading-in-share-of-us-sales-being-100-electric/",
+{ "Tesla": 140187
+, "Ford": 20223
+, "Rivian": 13588
+, "BMW": 10713
+, "Hyundai": 10468
+, "Chevrolet": 8701
+, "Mercedes-Benz": 8336
+, "Kia": 8066
+, "Volkswagen": 6167
+, "Audi": 5714
+, "Nissan": 5284
+, "Toyota": 1897
+, "Porsche": 1247
+, "Subaru": 1147
+, "Volvo": 1069
+, "other": 11296
+});
