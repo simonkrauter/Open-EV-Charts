@@ -5098,3 +5098,63 @@ db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 1043
 , "other": 12410
 });
+
+db.insert(db.countries.FR, "2024-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/05/Immatriculations-VPN_Avril2024.pdf",
+{ "Renault": 25221
+, "Peugeot": 20035
+, "Dacia": 12768
+, "Toyota": 12298
+, "Volkswagen": 10238
+, "Citroën": 8878
+, "BMW": 5448
+, "Ford": 4512
+, "Hyundai": 4391
+, "Audi": 4023
+, "Opel": 3913
+, "Škoda": 3867
+, "Kia": 3794
+, "Mercedes-Benz": 3609
+, "Nissan": 2952
+, "Suzuki": 2705
+, "Fiat": 2550
+, "Tesla": 2128
+, "Seat": 2107
+, "Volvo": 1478
+, "Cupra": 1477
+, "Jeep": 1319
+, "Mini": 1023
+, "MG": 785
+, "Land Rover": 574
+, "Mazda": 528
+, "Porsche": 463
+, "Honda": 440
+, "Mitsubishi": 259
+, "BYD": 205
+, "Smart": 151
+, "Jaguar": 33
+, "other": 2805
+});
+
+db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
+{ "Peugeot|e-208": 3185
+, "Peugeot|e-2008": 2164
+, "Renault|Twingo E-Tech": 1842
+, "Renault|Megane E-Tech": 1630
+, "Fiat|500e": 1614
+, "Tesla|Model Y": 1405
+, "Opel|Corsa-e": 847
+, "BMW|iX1": 731
+, "Volkswagen|ID.3": 716
+, "Hyundai|Kona Electric": 695
+, "Tesla|Model 3": 652
+, "Jeep|Avenger EV": 623
+, "Citroën|ë-C4": 603
+, "Renault|Scénic E-Tech": 560
+, "Fiat|600e": 500
+, "Cupra|Born": 488
+, "Škoda|Enyaq": 476
+, "Volvo|EX30": 406
+, "MG|MG4 EV": 400
+, "Opel|Mokka-e": 357
+, "other": 4990
+});
