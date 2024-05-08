@@ -1047,3 +1047,70 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Porsche": 1
 , "other": 903
 });
+
+db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/9461714910654.pdf",
+{ "Toyota": 2614
+, "Kia": 1778
+, "Hyundai": 1655
+, "Škoda": 1227
+, "MG": 964
+, "BYD": 883
+, "Chery": 805
+, "Renault": 710
+, "Mazda": 607
+, "Suzuki": 524
+, "Seat": 517
+, "Peugeot": 449
+, "Citroën": 444
+, "Mitsubishi": 397
+, "Volkswagen": 341
+, "Chevrolet": 275
+, "Geely": 250
+, "Nissan": 200
+, "Subaru": 173
+, "Audi": 171
+, "BMW": 156
+, "Mercedes-Benz": 156
+, "Genesis": 147
+, "Opel": 138
+, "Volvo": 133
+, "GWM": 128
+, "Cupra": 126
+, "Dacia": 97
+, "Ford": 91
+, "Smart": 82
+, "Jeep": 58
+, "Mini": 24
+, "Porsche": 21
+, "Land Rover": 14
+, "Fiat": 7
+, "Honda": 4
+, "other": 1405
+});
+
+db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/94617149106541.pdf",
+{ "MG": 964
+, "BYD": 878
+, "Kia": 452
+, "Geely": 250
+, "Chery": 212
+, "Hyundai": 140
+, "Genesis": 136
+, "Toyota": 122
+, "GWM": 98
+, "Smart": 82
+, "Audi": 66
+, "Citroën": 63
+, "Škoda": 63
+, "BMW": 58
+, "Volvo": 47
+, "Volkswagen": 39
+, "Mercedes-Benz": 37
+, "Opel": 6
+, "Jeep": 3
+, "Mini": 2
+, "Porsche": 2
+, "Peugeot": 1
+, "Tesla": 1
+, "other": 865
+});
