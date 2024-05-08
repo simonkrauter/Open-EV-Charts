@@ -1788,7 +1788,7 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 2441
 });
 
-db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/4 (includes commercial vehicles), https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
+db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/4 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1380
 , "MG|MG4 EV": 1256
 , "Polestar|2": 1183
@@ -1896,7 +1896,7 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 3033
 });
 
-db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/5 (includes commercial vehicles), https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
+db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/5 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 2253
 , "MG|MG4 EV": 1790
 , "Vauxhall|Mokka-e": 1136
@@ -2004,7 +2004,7 @@ db.insert(db.countries.UK, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 3899
 });
 
-db.insert(db.countries.UK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/6 (includes commercial vehicles), https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
+db.insert(db.countries.UK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/6 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 5101
 , "MG|MG4 EV": 2111
 , "Tesla|Model 3": 1828
@@ -2114,7 +2114,7 @@ db.insert(db.countries.UK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 2378
 });
 
-db.insert(db.countries.UK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/7 (includes commercial vehicles), https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
+db.insert(db.countries.UK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/7 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 2234
 , "MG|MG4 EV": 1910
 , "Polestar|2": 1235
@@ -2220,7 +2220,7 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 1077
 });
 
-db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/8 (includes commercial vehicles), https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
+db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/8 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 2310
 , "Tesla|Model 3": 1580
 , "MG|MG4 EV": 1321
@@ -2329,7 +2329,7 @@ db.insert(db.countries.UK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 5520
 });
 
-db.insert(db.countries.UK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/9 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
+db.insert(db.countries.UK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/9 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 3999
 , "MG|MG4 EV": 3006
 , "Mercedes-Benz|EQC": 2570
@@ -2438,7 +2438,7 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 2400
 });
 
-db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
+db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/10 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1913
 , "Audi|Q4 e-tron": 1829
 , "MG|MG4 EV": 1446
@@ -2554,7 +2554,7 @@ db.insert(db.countries.UK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 2283
 });
 
-db.insert(db.countries.UK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
+db.insert(db.countries.UK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/11 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Audi|Q4 e-tron": 1981
 , "MG|MG4 EV": 1521
 , "Volvo|EX40": 1013
@@ -2665,7 +2665,7 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 2693
 });
 
-db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/12 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
+db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/12 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 4801
 , "Audi|Q4 e-tron": 1347
 , "MG|MG4 EV": 1233
@@ -2773,7 +2773,7 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 1774
 });
 
-db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
+db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/1 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "MG|MG4 EV": 1158
 , "Toyota|bZ4X": 1064
 , "Audi|Q4 e-tron": 957
@@ -2888,7 +2888,7 @@ db.insert(db.countries.UK, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 1028
 });
 
-db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf",
+db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/2 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1768
 , "Tesla|Model 3": 1402
 , "BMW|i4": 850
@@ -3000,7 +3000,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "other": 4974
 });
 
-db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
+db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/3 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 5592
 , "MG|MG4 EV": 2015
 , "Audi|Q4 e-tron": 1960
