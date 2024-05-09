@@ -4667,3 +4667,101 @@ db.insert(db.countries.IE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|other": 1
 , "other": 3
 });
+
+db.insert(db.countries.IE, "2024-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1554
+, "Toyota": 1069
+, "Hyundai": 863
+, "Kia": 762
+, "Škoda": 761
+, "Audi": 477
+, "BMW": 415
+, "Dacia": 334
+, "Ford": 303
+, "Seat": 252
+, "Mercedes-Benz": 204
+, "Peugeot": 197
+, "Volvo": 196
+, "Suzuki": 142
+, "Nissan": 133
+, "BYD": 121
+, "Renault": 106
+, "Opel": 87
+, "Cupra": 80
+, "Citroën": 77
+, "Land Rover": 71
+, "MG": 65
+, "Mazda": 34
+, "Fiat": 32
+, "Porsche": 32
+, "Honda": 28
+, "Mini": 19
+, "Tesla": 18
+, "Jaguar": 10
+, "Smart": 5
+, "Polestar": 4
+, "Jeep": 3
+, "GWM": 2
+, "Subaru": 2
+, "other": 114
+});
+
+db.insert(db.countries.IE, "2024-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 177
+, "Kia|EV6": 123
+, "Škoda|Enyaq": 83
+, "BYD|Seal": 58
+, "Kia|Niro EV": 56
+, "MG|MG4 EV": 47
+, "BYD|Yuan Plus": 45
+, "BMW|iX1": 36
+, "Hyundai|Kona Electric": 35
+, "Volvo|EX30": 34
+, "Audi|Q4 e-tron": 32
+, "Toyota|bZ4X": 31
+, "Volkswagen|ID.3": 31
+, "Volkswagen|ID.7": 30
+, "BMW|i4": 20
+, "Volkswagen|ID.5": 19
+, "BYD|Dolphin": 18
+, "Tesla|Model 3": 17
+, "BMW|iX3": 16
+, "Kia|EV9": 15
+, "Cupra|Born": 14
+, "Hyundai|Ioniq 5": 14
+, "Audi|Q8 e-tron": 12
+, "Nissan|Ariya": 10
+, "Renault|Megane E-Tech": 10
+, "MG|MG5 EV": 9
+, "MG|ZS EV": 9
+, "Porsche|Taycan": 9
+, "Mercedes-Benz|EQE SUV": 8
+, "Hyundai|Ioniq 6": 7
+, "Nissan|Leaf": 6
+, "Citroën|ë-Berlingo Electric": 5
+, "Volkswagen|ID. Buzz": 5
+, "Volvo|EX40": 5
+, "Jaguar|I-Pace": 4
+, "Polestar|2": 4
+, "Audi|e-tron GT": 3
+, "Fiat|500e": 3
+, "Mercedes-Benz|EQA": 3
+, "Volvo|EC40": 3
+, "Citroën|ë-C4": 2
+, "GWM|Ora 03": 2
+, "Subaru|Solterra": 2
+, "Volkswagen|e-up!": 2
+, "BMW|iX": 1
+, "Citroën|ë-SpaceTourer": 1
+, "Ford|Mustang Mach-E": 1
+, "Mercedes-Benz|EQB": 1
+, "Mercedes-Benz|EQV": 1
+, "Opel|Astra Electric": 1
+, "Opel|Mokka-e": 1
+, "Peugeot|e-2008": 1
+, "Peugeot|e-308": 1
+, "Peugeot|e-Expert": 1
+, "Peugeot|e-Rifter": 1
+, "Tesla|Model Y": 1
+, "other": 5
+});
