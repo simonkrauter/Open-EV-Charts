@@ -3651,7 +3651,7 @@ db.insert(db.countries.IT, "2024-03", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "other": 10826
 });
 
-db.insert(db.countries.IT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/3, https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
+db.insert(db.countries.IT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/3, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Marzo_2024_660c26a033e2d.pdf",
 { "Tesla|Model Y": 787
 , "Tesla|Model 3": 609
 , "Volvo|EX30": 367
@@ -3715,5 +3715,5 @@ db.insert(db.countries.IT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 6
 , "Toyota|other": 5
 , "Hyundai|other": 3
-, "other": 33
+, "other": 45
 });
