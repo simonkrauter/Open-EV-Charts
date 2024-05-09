@@ -3717,3 +3717,111 @@ db.insert(db.countries.IT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 3
 , "other": 45
 });
+
+db.insert(db.countries.IT, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Aprile%202024_66338f3fb7b0d.pdf",
+{ "Fiat": 15207
+, "Volkswagen": 10281
+, "Toyota": 9972
+, "Dacia": 7798
+, "Renault": 7096
+, "Ford": 6610
+, "BMW": 6199
+, "Peugeot": 5957
+, "Citroën": 5945
+, "Audi": 5762
+, "Jeep": 5025
+, "Mercedes-Benz": 4301
+, "Hyundai": 4269
+, "Kia": 3860
+, "MG": 3646
+, "Opel": 3617
+, "Suzuki": 3346
+, "Škoda": 3204
+, "Nissan": 2509
+, "Cupra": 1668
+, "Seat": 1423
+, "Volvo": 1346
+, "Mini": 1215
+, "Land Rover": 957
+, "Mazda": 889
+, "Porsche": 831
+, "Honda": 698
+, "Mitsubishi": 551
+, "Tesla": 345
+, "Smart": 300
+, "Jaguar": 84
+, "Subaru": 83
+, "BYD": 57
+, "other": 10302
+});
+
+db.insert(db.countries.IT, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/4, https://www.unrae.it/files/08%20Imm%20BEV%20modello%20Aprile%202024_66338f5682cb1.pdf",
+{ "Tesla|Model Y": 237
+, "Volvo|EX30": 208
+, "Jeep|Avenger EV": 191
+, "Smart|Fortwo ED": 183
+, "BMW|iX1": 157
+, "Audi|Q4 e-tron": 138
+, "Mercedes-Benz|EQA": 128
+, "Fiat|500e": 102
+, "Tesla|Model 3": 101
+, "Mercedes-Benz|EQB": 91
+, "MG|MG4 EV": 90
+, "Mini|Cooper SE": 88
+, "Volkswagen|ID.3": 87
+, "Toyota|bZ4X": 86
+, "Renault|Twingo E-Tech": 82
+, "Ford|Mustang Mach-E": 80
+, "Peugeot|E-3008": 75
+, "BMW|i4": 74
+, "Citroën|ë-C4": 67
+, "Smart|Hashtag 1": 66
+, "Volkswagen|ID.4": 55
+, "Smart|Hashtag 3": 49
+, "Fiat|600e": 41
+, "Peugeot|e-208": 41
+, "Opel|Corsa-e": 38
+, "BMW|iX": 32
+, "Renault|Megane E-Tech": 30
+, "Audi|Q8 e-tron": 29
+, "Volvo|EC40": 29
+, "Volvo|EX40": 29
+, "BMW|iX2": 28
+, "Mercedes-Benz|EQE SUV": 27
+, "Cupra|Born": 24
+, "Volkswagen|ID. Buzz": 23
+, "Volkswagen|ID.5": 23
+, "Peugeot|e-2008": 22
+, "Opel|Mokka-e": 21
+, "Renault|Zoe": 21
+, "BMW|i5": 20
+, "MG|ZS EV": 17
+, "BYD|Seal": 16
+, "Nissan|Ariya": 16
+, "Porsche|Taycan": 16
+, "BMW|i7": 13
+, "Jaguar|I-Pace": 13
+, "Mercedes-Benz|EQV": 13
+, "Fiat|E-Doblò": 12
+, "Hyundai|Ioniq 6": 12
+, "Mazda|MX-30 BEV": 12
+, "Mercedes-Benz|EQE": 12
+, "Mercedes-Benz|EQS": 12
+, "Kia|other": 23
+, "Hyundai|other": 15
+, "BYD|other": 11
+, "Polestar|other": 11
+, "Nissan|other": 8
+, "Škoda|other": 8
+, "Audi|other": 7
+, "Dacia|other": 7
+, "Tesla|other": 7
+, "Mercedes-Benz|other": 6
+, "BMW|other": 5
+, "Subaru|other": 4
+, "MG|other": 2
+, "Peugeot|other": 2
+, "Renault|other": 2
+, "Toyota|other": 2
+, "other": 6
+});
