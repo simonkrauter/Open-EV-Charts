@@ -3609,7 +3609,8 @@ db.insert(db.countries.IT, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 11
 , "Hyundai|other": 11
 , "Porsche|other": 7
-, "other": 3057
+, "Mini|other": 3
+, "other": 70
 });
 
 db.insert(db.countries.IT, "2024-03", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca%20Marzo_2024_660c26f88b2a5.pdf",
