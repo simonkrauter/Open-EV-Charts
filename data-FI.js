@@ -4871,6 +4871,7 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Han EV": 2
 , "BYD|Tang EV": 2
 , "Mini|Cooper SE": 2
+, "Peugeot|E-3008": 2
 , "Peugeot|e-2008": 2
 , "Peugeot|e-308": 2
 , "Peugeot|e-Expert": 2
@@ -4881,5 +4882,5 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Opel|other": 1
 , "Renault|other": 1
-, "other": 18
+, "other": 16
 });
