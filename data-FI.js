@@ -4884,3 +4884,93 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 1
 , "other": 16
 });
+
+db.insert(db.countries.FI, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2856/April_2024.xlsx",
+{ "Toyota": 1186
+, "Volvo": 812
+, "Volkswagen": 543
+, "Škoda": 466
+, "Kia": 411
+, "BMW": 375
+, "Nissan": 324
+, "Hyundai": 310
+, "Mercedes-Benz": 286
+, "Audi": 258
+, "Ford": 148
+, "Tesla": 128
+, "Mitsubishi": 88
+, "Mazda": 77
+, "Suzuki": 68
+, "Dacia": 58
+, "Polestar": 49
+, "Citroën": 43
+, "Renault": 38
+, "Porsche": 36
+, "Cupra": 32
+, "Opel": 31
+, "BYD": 29
+, "Peugeot": 27
+, "Land Rover": 25
+, "Honda": 24
+, "Subaru": 15
+, "Mini": 9
+, "Seat": 7
+, "other": 253
+});
+
+db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volvo|EX30": 262
+, "Volkswagen|ID.4": 166
+, "Volvo|EX40": 130
+, "Audi|Q4 e-tron": 97
+, "Tesla|Model Y": 94
+, "Škoda|Enyaq": 87
+, "Volvo|EC40": 62
+, "BMW|i4": 57
+, "Polestar|2": 49
+, "Toyota|bZ4X": 48
+, "Volkswagen|ID.7": 44
+, "BMW|iX1": 36
+, "Hyundai|Ioniq 5": 35
+, "Mercedes-Benz|EQB": 32
+, "Mercedes-Benz|EQA": 31
+, "Tesla|Model 3": 31
+, "BMW|i5": 30
+, "Ford|Mustang Mach-E": 30
+, "Hyundai|Kona Electric": 30
+, "Kia|EV6": 29
+, "Mercedes-Benz|EQE": 25
+, "Audi|Q8 e-tron": 24
+, "Volkswagen|ID.3": 22
+, "Hyundai|Ioniq 6": 20
+, "Cupra|Born": 17
+, "Nissan|Leaf": 17
+, "Nissan|Ariya": 16
+, "Kia|Niro EV": 15
+, "Kia|EV9": 14
+, "BYD|Yuan Plus": 11
+, "Smart|Hashtag 3": 10
+, "Volkswagen|ID.5": 10
+, "BMW|iX": 9
+, "BYD|Seal": 9
+, "BYD|Dolphin": 8
+, "Smart|Hashtag 1": 7
+, "Porsche|Taycan": 5
+, "Mercedes-Benz|EQS": 4
+, "BMW|i7": 3
+, "BMW|iX2": 3
+, "Mini|Cooper SE": 3
+, "BMW|iX3": 2
+, "Peugeot|e-2008": 2
+, "Tesla|Model X": 2
+, "Toyota|Proace Electric": 2
+, "BYD|Tang EV": 1
+, "Citroën|ë-SpaceTourer": 1
+, "Honda|e:Ny1": 1
+, "Jaguar|I-Pace": 1
+, "Mercedes-Benz|EQC": 1
+, "Mercedes-Benz|eVito": 1
+, "Peugeot|e-308": 1
+, "Tesla|Model S": 1
+, "other": 29
+});
