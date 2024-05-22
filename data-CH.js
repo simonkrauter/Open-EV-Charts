@@ -5713,7 +5713,7 @@ db.insert(db.countries.CH, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Genesis|other": 5
 , "BMW|other": 4
 , "Mercedes-Benz|other": 4
+, "Peugeot|other": 4
 , "Kia|other": 3
-, "Peugeot|other": 3
-, "other": 104
+, "other": 103
 });
