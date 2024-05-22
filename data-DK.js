@@ -2541,37 +2541,70 @@ db.insert(db.countries.DK, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/3, https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
-{ "Tesla|Model Y": 944
-, "Tesla|Model 3": 727
-, "Renault|Megane E-Tech": 523
-, "Audi|Q4 e-tron": 458
-, "Volkswagen|ID.4": 367
-, "Volvo|EX40": 245
-, "Ford|Mustang Mach-E": 233
-, "Volkswagen|ID.3": 220
-, "Toyota|bZ4X": 205
-, "Kia|Niro EV": 203
-, "Volvo|EX30": 199
-, "Škoda|Enyaq": 179
-, "Mercedes-Benz|EQB": 162
-, "BYD|Dolphin": 152
-, "Mercedes-Benz|EQE": 146
-, "Mercedes-Benz|EQA": 131
-, "Volkswagen|ID. Buzz": 125
-, "Cupra|Born": 114
-, "Honda|e:Ny1": 110
-, "BYD|Seal": 104
-, "BMW|iX1": 103
+{ "Tesla|Model Y": 942
+, "Tesla|Model 3": 753
+, "Renault|Megane E-Tech": 512
+, "Audi|Q4 e-tron": 451
+, "Volkswagen|ID.4": 370
+, "Volvo|EX40": 258
+, "Ford|Mustang Mach-E": 229
+, "Kia|Niro EV": 215
+, "Volkswagen|ID.3": 215
+, "Toyota|bZ4X": 208
+, "Volvo|EX30": 196
+, "Škoda|Enyaq": 177
+, "Mercedes-Benz|EQB": 158
+, "BYD|Dolphin": 150
+, "Mercedes-Benz|EQE": 143
+, "Mercedes-Benz|EQA": 128
+, "Honda|e:Ny1": 126
+, "Volkswagen|ID. Buzz": 122
+, "Cupra|Born": 111
+, "Kia|EV6": 103
 , "Hyundai|Kona Electric": 102
-, "Kia|EV6": 102
-, "Nissan|Ariya": 100
-, "Hyundai|Ioniq 5": 86
-, "MG|MG4 EV": 86
+, "BMW|iX1": 102
+, "BYD|Seal": 102
+, "Nissan|Ariya": 98
+, "MG|MG4 EV": 95
+, "Hyundai|Ioniq 5": 84
 , "Volkswagen|ID.5": 84
-, "Polestar|2": 75
-, "BMW|i4": 74
-, "BMW|i5": 69
-, "BMW|iX3": 67
+, "Polestar|2": 73
+, "BMW|i4": 72
+, "BMW|i5": 67
+, "BMW|iX3": 65
+, "Hyundai|Ioniq 6": 35
+, "Opel|Mokka-e": 34
+, "Peugeot|e-208": 33
+, "Ford|E-Transit": 27
+, "Volvo|EC40": 26
+, "Opel|Vivaro-e": 25
+, "Volkswagen|ID.7": 25
+, "MG|Marvel R": 18
+, "Nissan|Leaf": 18
+, "BMW|iX": 17
+, "Toyota|Proace Electric": 17
+, "Kia|EV9": 16
+, "Subaru|Solterra": 16
+, "Audi|Q8 e-tron": 15
+, "Citroën|ë-Berlingo Electric": 15
+, "BMW|i7": 14
+, "BMW|iX2": 14
+, "Mercedes-Benz|eCitan": 14
+, "Mercedes-Benz|eVito": 14
+, "Peugeot|other": 26
+, "Fiat|other": 20
+, "Opel|other": 19
+, "Citroën|other": 18
+, "BYD|other": 13
+, "Mercedes-Benz|other": 11
+, "MG|other": 10
+, "Porsche|other": 9
+, "Tesla|other": 9
+, "Toyota|other": 9
+, "Jeep|other": 8
+, "Mazda|other": 4
+, "Renault|other": 4
+, "other": 37
 , "Hyundai|Ioniq 6": 36
 , "Opel|Mokka-e": 35
 , "Peugeot|e-208": 34
