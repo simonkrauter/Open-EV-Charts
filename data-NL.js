@@ -6418,11 +6418,11 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 11
 , "Porsche|other": 9
 , "Honda|other": 8
+, "Peugeot|other": 8
 , "Tesla|other": 8
 , "Ford|other": 7
-, "Peugeot|other": 7
 , "Citroën|other": 6
-, "other": 134
+, "other": 133
 });
 
 db.insert(db.countries.NL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/maart/",
@@ -6487,7 +6487,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 149
 , "Audi|Q8 e-tron": 147
 , "Volkswagen|ID.3": 142
-, "Volvo|EC40": 135
+, "Volvo|EC40": 136
 , "Hyundai|Ioniq 6": 130
 , "Cupra|Born": 118
 , "BYD|Yuan Plus": 115
@@ -6528,8 +6528,8 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 19
 , "Ford|other": 17
 , "Honda|other": 16
-, "Peugeot|other": 15
+, "Peugeot|other": 16
 , "Porsche|other": 11
 , "Subaru|other": 9
-, "other": 269
+, "other": 267
 });
