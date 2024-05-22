@@ -5463,3 +5463,103 @@ db.insert(db.countries.SE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|other": 5
 , "other": 227
 });
+
+db.insert(db.countries.SE, "2024-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3963
+, "Volkswagen": 2070
+, "Toyota": 1858
+, "Kia": 1760
+, "Mercedes-Benz": 1258
+, "BMW": 1157
+, "Audi": 1084
+, "Tesla": 1051
+, "Škoda": 851
+, "Peugeot": 693
+, "Ford": 559
+, "Cupra": 544
+, "Polestar": 471
+, "Porsche": 458
+, "Seat": 397
+, "Subaru": 332
+, "Hyundai": 296
+, "Mazda": 281
+, "Dacia": 271
+, "Citroën": 242
+, "MG": 241
+, "Opel": 199
+, "Renault": 199
+, "Nissan": 195
+, "Suzuki": 166
+, "Honda": 161
+, "Mini": 106
+, "BYD": 97
+, "Fiat": 64
+, "Mitsubishi": 36
+, "Land Rover": 17
+, "Nio": 14
+, "Smart": 14
+, "GWM": 11
+, "Chevrolet": 5
+, "Jaguar": 4
+, "other": 852
+});
+
+db.insert(db.countries.SE, "2024-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 838
+, "Volvo|EX30": 756
+, "Volvo|EX40": 537
+, "Polestar|2": 434
+, "Audi|Q4 e-tron": 295
+, "Volkswagen|ID.3": 290
+, "Cupra|Born": 280
+, "Volkswagen|ID.4": 276
+, "Tesla|Model 3": 204
+, "Kia|EV6": 174
+, "Mercedes-Benz|EQB": 172
+, "Volvo|EC40": 171
+, "MG|MG4 EV": 164
+, "Kia|EV9": 161
+, "BMW|iX1": 152
+, "Škoda|Enyaq": 152
+, "Mercedes-Benz|EQE": 151
+, "Kia|Niro EV": 109
+, "Honda|e:Ny1": 98
+, "Audi|Q8 e-tron": 96
+, "BMW|i4": 91
+, "Volkswagen|ID.7": 75
+, "MG|ZS EV": 70
+, "BMW|iX2": 67
+, "Mercedes-Benz|EQA": 64
+, "BYD|Yuan Plus": 59
+, "Toyota|bZ4X": 49
+, "BMW|iX3": 45
+, "Ford|Mustang Mach-E": 44
+, "Subaru|Solterra": 43
+, "BMW|iX": 42
+, "Volkswagen|ID. Buzz": 40
+, "Volkswagen|ID.5": 38
+, "Mini|Cooper SE": 35
+, "Hyundai|Ioniq 5": 32
+, "BYD|Dolphin": 25
+, "Renault|Megane E-Tech": 25
+, "BMW|i5": 24
+, "Hyundai|Kona Electric": 22
+, "Polestar|3": 21
+, "Nissan|Leaf": 15
+, "Polestar|4": 15
+, "BYD|Seal": 12
+, "Nissan|Ariya": 12
+, "GWM|Ora 03": 11
+, "Porsche|Taycan": 9
+, "Mercedes-Benz|EQS": 8
+, "Nio|ET7": 8
+, "Smart|Hashtag 1": 7
+, "Smart|Hashtag 3": 7
+, "Tesla|Model X": 7
+, "Hyundai|other": 6
+, "Nio|other": 6
+, "BMW|other": 4
+, "Fiat|other": 4
+, "Renault|other": 4
+, "other": 209
+});
