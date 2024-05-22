@@ -5613,7 +5613,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Subaru": 56
 , "Polestar": 51
 , "Jaguar": 31
-, "other": 2388
+, "other": 2391
 });
 
 db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
@@ -5673,6 +5673,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 10
 , "Kia|other": 10
 , "Audi|other": 9
+, "Peugeot|other": 9
 , "Renault|other": 9
 , "Tesla|other": 9
 , "Volkswagen|other": 8
@@ -5684,5 +5685,5 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 4
 , "Subaru|other": 4
 , "Hyundai|other": 3
-, "other": 113
+, "other": 104
 });
