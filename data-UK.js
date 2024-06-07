@@ -3053,7 +3053,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 188
 , "MG|MG5 EV": 188
 , "Mercedes-Benz|other": 268
-, "Peugeot|other": 205
+, "Peugeot|other": 215
 , "Fiat|other": 195
 , "Kia|other": 159
 , "Subaru|other": 157
@@ -3072,7 +3072,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 38
 , "Volvo|other": 38
 , "Tesla|other": 27
-, "other": 3309
+, "other": 3299
 });
 
 db.insert(db.countries.UK, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
