@@ -957,7 +957,7 @@ var db = {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
 
-  queryDatasets: function(chartConfig, onlyEvs) {
+  queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
     // Returns datasets for chart
     const countryValues = chartConfig.country.split(",");
     var filterCountryIds = [];
@@ -994,7 +994,7 @@ var db = {
     var monthsPerCountryAndTimeSpan = {};
     var monthCountsAndSums = {};
     var sumOfUsedDatasets = 0;
-    var minModelCountPerDataset = 0;
+    var minEvRecordCountPerDataset = 0;
     var hasDatasetWithoutMatchingEntry = false;
     var nonMonthlyCountries = [];
 
@@ -1034,10 +1034,10 @@ var db = {
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
-      if (dataset.dsType == this.dsTypes.ElectricCarsByModel) {
+      if (dataset.dsType != this.dsTypes.AllCarsByBrand) {
         const recordCountPerDataset = Object.keys(dataset.data).length;
-        if (minModelCountPerDataset == 0 || minModelCountPerDataset > recordCountPerDataset)
-          minModelCountPerDataset = recordCountPerDataset;
+        if (minEvRecordCountPerDataset == 0 || minEvRecordCountPerDataset > recordCountPerDataset)
+          minEvRecordCountPerDataset = recordCountPerDataset;
       }
 
       var datasetUsed = false;
@@ -1122,11 +1122,15 @@ var db = {
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
+    var hints = [];
+    if (withHints)
+      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minEvRecordCountPerDataset, nonMonthlyCountries);
+
     return {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minModelCountPerDataset, nonMonthlyCountries)
+      hints: hints
     };
   },
 
@@ -1341,10 +1345,10 @@ var db = {
     }
 
     // potentially missing low number entries
-    const incompleteDataHint = "Data may be incomplete as it is based on monthly top models.";
+    const incompleteDataHint = "Data may be incomplete as it is based on monthly top models/brands.";
     if (hasDatasetWithoutMatchingEntry) {
       hints.push(incompleteDataHint);
-    } else if (chartConfig.detailLevel != this.detailLevels.total && minModelCountPerDataset > 0 && minModelCountPerDataset < 50) {
+    } else if (chartConfig.detailLevel != this.detailLevels.total && minEvRecordCountPerDataset > 0 && minEvRecordCountPerDataset < 50) {
       var maxMonthCount = 0;
       for (const key in monthCountsAndSums) {
         const entry = monthCountsAndSums[key];
@@ -1712,7 +1716,7 @@ var db = {
       chartConfigForRatio.model = this.modelOptions.all;
     }
     var datasets = this.queryDatasets(chartConfig, true);
-    var datasetsForRatio = this.queryDatasets(chartConfigForRatio, false);
+    var datasetsForRatio = this.queryDatasets(chartConfigForRatio, false, false);
     var seriesRows = datasets.seriesRows;
     var result = {};
     result.sources = datasets.sources;
@@ -1774,10 +1778,10 @@ var db = {
     var datasetsForSum;
     if (chartConfig.metric == this.metrics.shareElectric) {
       datasets = this.queryDatasets(chartConfig, true);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, true);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, true, false);
     } else {
       datasets = this.queryDatasets(chartConfig, false);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, false);
+      datasetsForSum = this.queryDatasets(chartConfigForSum, false, false);
     }
     var seriesRows = datasets.seriesRows;
     const seriesRowsKeys = Object.keys(seriesRows);
