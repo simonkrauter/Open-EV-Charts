@@ -5130,6 +5130,97 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 818
 });
 
+db.insert(db.countries.NO, "2024-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2024",
+{ "Toyota": 1795
+, "Volkswagen": 1242
+, "Volvo": 1074
+, "Tesla": 832
+, "Hyundai": 593
+, "MG": 509
+, "Škoda": 471
+, "BMW": 442
+, "Ford": 385
+, "Nissan": 371
+, "Audi": 356
+, "Polestar": 335
+, "Mazda": 206
+, "Mercedes-Benz": 201
+, "Suzuki": 195
+, "BYD": 152
+, "Peugeot": 112
+, "Kia": 111
+, "Honda": 71
+, "other": 800
+});
+
+db.insert(db.countries.NO, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2024",
+{ "Volvo|EX30": 739
+, "Volkswagen|ID.4": 714
+, "Tesla|Model Y": 688
+, "Toyota|bZ4X": 397
+, "Hyundai|Kona Electric": 379
+, "Volkswagen|ID.3": 326
+, "Polestar|2": 319
+, "MG|MG4 EV": 313
+, "Audi|Q4 e-tron": 292
+, "Ford|Mustang Mach-E": 247
+, "Nissan|Ariya": 231
+, "Mazda|MX-30 BEV": 183
+, "Hyundai|Ioniq 5": 161
+, "Škoda|Enyaq": 149
+, "Tesla|Model 3": 135
+, "Nissan|Leaf": 129
+, "BMW|iX1": 124
+, "Volvo|EX40": 122
+, "MG|ZS EV": 91
+, "BMW|iX": 82
+, "MG|Marvel R": 81
+, "BMW|i4": 70
+, "BMW|iX2": 61
+, "Kia|EV6": 60
+, "Mercedes-Benz|EQA": 58
+, "Peugeot|E-3008": 58
+, "Honda|e:Ny1": 50
+, "Opel|Astra Electric": 48
+, "Mercedes-Benz|EQB": 47
+, "Hyundai|Ioniq 6": 46
+, "Audi|Q8 e-tron": 44
+, "Renault|Scénic E-Tech": 40
+, "Renault|Megane E-Tech": 39
+, "BYD|Seal": 38
+, "Ford|F-150 Lightning": 37
+, "Volvo|EC40": 35
+, "Cupra|Born": 33
+, "Volkswagen|ID.7": 32
+, "BMW|i5": 31
+, "Mercedes-Benz|EQE": 30
+, "BYD|Dolphin": 29
+, "BYD|Yuan Plus": 29
+, "Mini|Cooper SE": 26
+, "BYD|Tang EV": 25
+, "Kia|Niro EV": 22
+, "Citroën|ë-C4": 20
+, "Peugeot|e-208": 20
+, "BYD|Han EV": 19
+, "JAC|e-JS4": 17
+, "Kia|EV9": 17
+, "Nio|ET7": 17
+, "Nio|other": 49
+, "Fiat|other": 26
+, "Peugeot|other": 25
+, "Opel|other": 24
+, "Volkswagen|other": 16
+, "Jeep|other": 13
+, "MG|other": 12
+, "Mercedes-Benz|other": 12
+, "Smart|other": 10
+, "BMW|other": 9
+, "Tesla|other": 7
+, "Porsche|other": 6
+, "Subaru|other": 4
+, "other": 680
+});
+
 
 // Template:
 
@@ -5155,5 +5246,6 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Opel":
 // , "Citroën":
 // , "Honda":
+// , "Suzuki":
 // , "other":
 // });
