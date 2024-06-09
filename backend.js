@@ -995,6 +995,7 @@ var db = {
     var gapDetectionData = {};
     var monthsInRange = [];
     var nonMonthlyCountries = [];
+    var usedDatasetTypes = [];
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -1104,13 +1105,15 @@ var db = {
       }
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
+      if (!usedDatasetTypes.includes(dataset.dsType))
+        usedDatasetTypes.push(dataset.dsType);
     }
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
     var hints = [];
     if (withHints)
-      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries);
+      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes);
 
     return {
       seriesRows: seriesRows,
@@ -1228,7 +1231,7 @@ var db = {
     }
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes) {
     var hints = [];
 
     // missing countries
@@ -1255,24 +1258,6 @@ var db = {
       hint = hint + text.substr(i, j - i);
       if (!hints.includes(hint))
         hints.push(hint);
-    }
-
-    // parse 'AllCarsByBrand not per brand'
-    if (chartConfig.metric == this.metrics.salesAll && chartConfig.detailLevel != this.detailLevels.total) {
-      for (const text in sources) {
-        if (text.includes("TODO: numbers per brand wanted")) {
-          const sourceInfo = sources[text];
-          var hint = "";
-          if (this.isMultiCountry(chartConfig))
-            hint = hint + this.countryNames[sourceInfo.country] + ": ";
-          if (chartConfig.detailLevel == this.detailLevels.company || chartConfig.xProperty == this.xProperties.company)
-            hint = hint + "All cars sales data per company is not available.";
-          else
-            hint = hint + "All cars sales data per brand is not available.";
-          if (!hints.includes(hint))
-            hints.push(hint);
-        }
-      }
     }
 
     // incomplete year or quarter
@@ -1385,6 +1370,32 @@ var db = {
         }
         hints.push(hint);
       }
+    }
+
+    // parse 'AllCarsByBrand not per brand'
+    if (chartConfig.metric == this.metrics.salesAll && chartConfig.detailLevel != this.detailLevels.total) {
+      for (const text in sources) {
+        if (text.includes("TODO: numbers per brand wanted")) {
+          const sourceInfo = sources[text];
+          var hint = "";
+          if (this.isMultiCountry(chartConfig))
+            hint = hint + this.countryNames[sourceInfo.country] + ": ";
+          if (chartConfig.detailLevel == this.detailLevels.company || chartConfig.xProperty == this.xProperties.company)
+            hint = hint + "Data per company is not available.";
+          else
+            hint = hint + "Data per brand is not available.";
+          if (!hints.includes(hint))
+            hints.push(hint);
+        }
+      }
+    }
+
+    // data per model not available
+    if (chartConfig.detailLevel == this.detailLevels.model && usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand)) {
+      if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel))
+        hints.push("Data per model is partially not available.");
+      else
+        hints.push("Data per model is not available.");
     }
 
     return hints;
