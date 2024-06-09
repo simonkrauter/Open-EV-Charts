@@ -992,10 +992,8 @@ var db = {
     var sources = [];
     var categories = [];
     var monthsPerCountryAndTimeSpan = {};
-    var monthCountsAndSums = {};
-    var sumOfUsedDatasets = 0;
-    var minEvRecordCountPerDataset = 0;
-    var hasDatasetWithoutMatchingEntry = false;
+    var gapDetectionData = {};
+    var monthsInRange = [];
     var nonMonthlyCountries = [];
 
     for (const i in this.datasets) {
@@ -1024,6 +1022,8 @@ var db = {
           monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
       }
 
+      monthsInRange.push(dataset.monthString);
+
       var category = "";
       if (this.isByMonth(chartConfig))
         category = dataset.monthString;
@@ -1034,21 +1034,12 @@ var db = {
       else if (chartConfig.xProperty == this.xProperties.country)
         category = dataset.countryName;
 
-      if (dataset.dsType != this.dsTypes.AllCarsByBrand) {
-        const recordCountPerDataset = Object.keys(dataset.data).length;
-        if (minEvRecordCountPerDataset == 0 || minEvRecordCountPerDataset > recordCountPerDataset)
-          minEvRecordCountPerDataset = recordCountPerDataset;
-      }
-
-      var datasetUsed = false;
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
         const model = dataKeyParts[1];
         const company = this.companiesByBrand[brand];
         const value = dataset.data[dataKey];
-
-        sumOfUsedDatasets += value;
 
         // apply filters
         if (filterCompany != null && this.urlEncode(company) != filterCompany)
@@ -1060,13 +1051,12 @@ var db = {
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
-        // add entry to monthCountsAndSums
+        // add entry to gapDetectionData
         if (dataset.dsType != this.dsTypes.AllCarsByBrand) {
-          if (dataKey in monthCountsAndSums) {
-            monthCountsAndSums[dataKey][0]++;
-            monthCountsAndSums[dataKey][1] += value;
-          } else
-            monthCountsAndSums[dataKey] = [1, value];
+          if (!(dataKey in gapDetectionData))
+            gapDetectionData[dataKey] = [[], 0];
+          gapDetectionData[dataKey][0].push(dataset.monthString);
+          gapDetectionData[dataKey][1] += value;
         }
 
         // set category
@@ -1111,11 +1101,7 @@ var db = {
           sources[dataset.source].firstDate = dataset.monthString;
         }
         sources[dataset.source].lastDate = dataset.monthString;
-
-        datasetUsed = true;
       }
-      if (!datasetUsed)
-        hasDatasetWithoutMatchingEntry = true;
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
     }
@@ -1124,7 +1110,7 @@ var db = {
 
     var hints = [];
     if (withHints)
-      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minEvRecordCountPerDataset, nonMonthlyCountries);
+      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries);
 
     return {
       seriesRows: seriesRows,
@@ -1242,7 +1228,7 @@ var db = {
     }
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, hasDatasetWithoutMatchingEntry, monthCountsAndSums, sumOfUsedDatasets, minModelCountPerDataset, nonMonthlyCountries) {
+  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries) {
     var hints = [];
 
     // missing countries
@@ -1344,28 +1330,49 @@ var db = {
       }
     }
 
-    // potentially missing low number entries
-    const incompleteDataHint = "Data may be incomplete as it is based on monthly top models/brands.";
-    if (hasDatasetWithoutMatchingEntry) {
-      hints.push(incompleteDataHint);
-    } else if (chartConfig.detailLevel != this.detailLevels.total && minEvRecordCountPerDataset > 0 && minEvRecordCountPerDataset < 50) {
-      var maxMonthCount = 0;
-      for (const key in monthCountsAndSums) {
-        const entry = monthCountsAndSums[key];
-        if (maxMonthCount < entry[0])
-          maxMonthCount = entry[0];
+    // gap detection (missing months in data series)
+    {
+      var sumPerMonth = 0;
+      for (const key in gapDetectionData) {
+        const entry = gapDetectionData[key];
+        const months = entry[0];
+        const value = entry[1];
+        sumPerMonth += value / months.length;
       }
-      if (maxMonthCount > 0) {
-        for (const key in monthCountsAndSums) {
-          const entry = monthCountsAndSums[key];
-          if (entry[1] < sumOfUsedDatasets * 0.02)
-            continue;
-          if (maxMonthCount > entry[0]) {
-            hints.push(incompleteDataHint);
-            break;
+      var errorIndicatorSum = 0;
+      for (const key in gapDetectionData) {
+        if (key.endsWith("|other"))
+          continue;
+        const entry = gapDetectionData[key];
+        const months = entry[0];
+        const value = entry[1];
+        var afterMonthWithData = false;
+        var afterMonthWithoutData = false;
+        var hasGap = false;
+        var missingMonthCount = 0;
+        for (const i in monthsInRange) {
+          const month = monthsInRange[i];
+          if (months.includes(month)) {
+            if (afterMonthWithoutData) {
+              hasGap = true;
+              afterMonthWithData = false;
+              afterMonthWithoutData = false;
+            } else
+              afterMonthWithData = true;
+          } else if (afterMonthWithData) {
+            afterMonthWithoutData = true;
+            missingMonthCount++;
           }
         }
+        if (hasGap) {
+          const errorIndicator = missingMonthCount / monthsInRange.length * (value / months.length / sumPerMonth);
+          errorIndicatorSum += errorIndicator;
+        }
       }
+      if (errorIndicatorSum >= 0.2)
+        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top models/brands.</span>");
+      else if (errorIndicatorSum >= 0.05)
+        hints.push("Data is likely incomplete as it is based on monthly top models/brands.");
     }
 
     // monthly data is not available
