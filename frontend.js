@@ -413,7 +413,9 @@ function renderHints(chartDiv, chartConfig, chartData) {
       hintsDiv.appendChild(document.createElement("BR"));
     }
     for (const i in chartData.hints) {
-      hintsDiv.appendChild(document.createTextNode(chartData.hints[i]));
+      var span = document.createElement("SPAN");
+      span.innerHTML = chartData.hints[i];
+      hintsDiv.appendChild(span);
       hintsDiv.appendChild(document.createElement("BR"));
     }
     // collapse hints
