@@ -1316,7 +1316,7 @@ var db = {
     }
 
     // gap detection (missing months in data series)
-    {
+    if (chartConfig.detailLevel != this.detailLevels.total) {
       var sumPerMonth = 0;
       for (const key in gapDetectionData) {
         const entry = gapDetectionData[key];
