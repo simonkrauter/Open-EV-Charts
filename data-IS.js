@@ -3740,7 +3740,7 @@ db.insert(db.countries.IS, "2023-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Kia": 146
 , "Hyundai": 139
 , "Tesla": 79
-, "Volkswagen": 65
+, "Volkswagen": 66
 , "Škoda": 57
 , "Suzuki": 48
 , "Dacia": 46
@@ -3766,7 +3766,7 @@ db.insert(db.countries.IS, "2023-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 2
 , "Fiat": 1
 , "Mini": 1
-, "other": 176
+, "other": 175
 });
 
 db.insert(db.countries.IS, "2023-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
@@ -3806,7 +3806,8 @@ db.insert(db.countries.IS, "2023-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQB": 1
 , "Mini|Cooper SE": 1
 , "Tesla|Model X": 1
-, "other": 92
+, "Volkswagen|ID.6": 1
+, "other": 91
 });
 
 db.insert(db.countries.IS, "2023-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
