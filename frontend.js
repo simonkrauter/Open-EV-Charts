@@ -2,7 +2,7 @@
 
 db.finalizeDataLoading();
 
-document.onmousedown = function(event) {
+document.onmousedown = function() {
   document.body.classList.remove("showFocus");
 };
 
@@ -65,7 +65,7 @@ function navigate(retainShowAllOptionsParamName) {
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   if (currentHash == "") {
     // Add an extra chart on the home page
-    var config = db.decodeChartConfigString("");
+    let config = db.decodeChartConfigString("");
     config.xProperty = db.xProperties.monthAvg12;
     config.detailLevel = db.detailLevels.total;
     config.unfoldedByParams.push("xProperty"); // make title visible
@@ -125,12 +125,12 @@ function renderPage() {
   }
 
   // Prevent displaying of too many charts at once
-  var maxVisibleCharts = 4;
+  let maxVisibleCharts = 4;
   if (isWidthEnoughForFilterAsButtons())
     maxVisibleCharts = 6;
 
   for (const chartIndex in chartConfigs) {
-    var chartDiv = renderChart(chartIndex);
+    renderChart(chartIndex);
     if (chartIndex == maxVisibleCharts - 1 && !isShowAllChartsEnabled) {
       addShowAllChartsButton();
       break;
@@ -176,13 +176,13 @@ function isWidthEnoughForFilterAsButtons() {
 function renderFilterAsDropDown(parentDiv, param) {
   const selectedKey = chartSetConfig[param.name];
   const isActive = selectedKey != param.defaultOption || param.showAlwaysAsActive;
-  var select = addSelectElement(parentDiv, isActive);
+  let select = addSelectElement(parentDiv, isActive);
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
     navigateToHash(db.encodeChartConfig(chartSetConfig, param.name));
   });
   for (const optionKey in param.options) {
-    var option = document.createElement("OPTION");
+    let option = document.createElement("OPTION");
     option.value = optionKey;
     option.text = param.options[optionKey];
     option.selected = optionKey == selectedKey;
@@ -196,8 +196,8 @@ function renderFilterAsButtons(parentDiv, param) {
   parentDiv.appendChild(div);
 
   // Test, if "Show more" button is needed
-  var extendedOptionStartIndex = -1;
-  var optionIndex = 0;
+  let extendedOptionStartIndex = -1;
+  let optionIndex = 0;
   if (param.maxOptionsToShowAsButton > 0 && activeShowAllOptionsParamName != param.name) {
     for (const optionKey in param.options) {
       if (optionIndex >= param.maxOptionsToShowAsButton - 1) {
@@ -211,7 +211,7 @@ function renderFilterAsButtons(parentDiv, param) {
   // Hide more options when extended options are active
   if (extendedOptionStartIndex != -1) {
     optionIndex = 0;
-    var decCount = 0;
+    let decCount = 0;
     for (const optionKey in param.options) {
       if (optionIndex >= extendedOptionStartIndex && selectedKeys.includes(optionKey))
         decCount++;
@@ -223,11 +223,11 @@ function renderFilterAsButtons(parentDiv, param) {
   // Add regular option button
   optionIndex = 0;
   for (const optionKey in param.options) {
-    var newChartConfig = db.cloneObject(chartSetConfig);
+    let newChartConfig = db.cloneObject(chartSetConfig);
     newChartConfig[param.name] = optionKey;
     db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
 
-    var button = document.createElement("A");
+    let button = document.createElement("A");
     div.appendChild(button);
     button.href = "#" + db.encodeChartConfig(newChartConfig);
     button.classList.add("button");
@@ -243,23 +243,23 @@ function renderFilterAsButtons(parentDiv, param) {
       button.title = "CTRL click for multi-selection";
     button.addEventListener("click", function(event) {
       event.preventDefault();
-      var newChartConfig = db.cloneObject(chartSetConfig);
+      let newChartConfig = db.cloneObject(chartSetConfig);
       if (param.allowMultiSelection && (event.ctrlKey || isOptionAdditive)) {
-        var values = newChartConfig[param.name].split(",");
-        var index = values.indexOf(optionKey);
+        let values = newChartConfig[param.name].split(",");
+        let index = values.indexOf(optionKey);
         if (index !== -1)
           values.splice(index, 1);
         else
           values.push(optionKey);
-        var newValues = [];
+        let newValues = [];
         for (const i in values) {
           if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
             newValues.push(values[i]);
         }
         newChartConfig[param.name] = newValues.join(",");
       } else if (param.allowMultiSelection) {
-        var oldValues = newChartConfig[param.name].split(",");
-        var newValues = [];
+        let oldValues = newChartConfig[param.name].split(",");
+        let newValues = [];
         for (const i in param.additiveOptions) {
           if (oldValues.includes(param.additiveOptions[i]))
             newValues.push(param.additiveOptions[i]);
@@ -278,7 +278,7 @@ function renderFilterAsButtons(parentDiv, param) {
 
   // Add "Show more" button
   if (extendedOptionStartIndex != -1) {
-    var button = document.createElement("A");
+    let button = document.createElement("A");
     button.href = "#";
     div.appendChild(button);
     button.addEventListener("click", function(event) {
@@ -294,10 +294,10 @@ function renderFilterAsButtons(parentDiv, param) {
 }
 
 function addSelectElement(parent, isActive) {
-  var selectWrapper = document.createElement("DIV");
+  let selectWrapper = document.createElement("DIV");
   parent.appendChild(selectWrapper);
   selectWrapper.classList.add("selectWrapper");
-  var select = document.createElement("SELECT");
+  let select = document.createElement("SELECT");
   selectWrapper.appendChild(select);
   if (isActive)
     selectWrapper.classList.add("active");
@@ -344,18 +344,16 @@ function renderChart(chartIndex) {
   if (isScreenshotModeEnabled) {
     const div = document.createElement("DIV");
     div.classList.add("sourceUrl");
-    var url = location.href;
+    let url = location.href;
     if (url.startsWith("https://"))
       url = url.substr(8);
     div.appendChild(document.createTextNode("Source: " + url));
     chartDiv.appendChild(div);
   }
-
-  return chartDiv;
 }
 
 function renderChartTitle(chartDiv, chartConfig) {
-  var titleElem;
+  let titleElem;
   if (isSingleChart)
     titleElem = document.createElement("DIV");
   else {
@@ -373,7 +371,7 @@ function renderChartTitle(chartDiv, chartConfig) {
     titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title));
 
   if (!isSingleChart) {
-    var removeButton = createRemoveButton();
+    let removeButton = createRemoveButton();
     chartDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartRemoveClick);
   }
@@ -383,11 +381,10 @@ function renderChartSubTitle(chartDiv, chartConfig) {
   const subTitle = db.getChartSubTitle(chartConfig, isScreenshotModeEnabled);
   if (subTitle == "")
     return;
-  var titleElem = document.createElement("DIV");
+  let titleElem = document.createElement("DIV");
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartSubTitle");
 
-  // if (db.isMultiCountry(chartConfig))
   titleElem.appendChild(document.createTextNode(subTitle));
 }
 
@@ -413,7 +410,7 @@ function renderHints(chartDiv, chartConfig, chartData) {
       hintsDiv.appendChild(document.createElement("BR"));
     }
     for (const i in chartData.hints) {
-      var span = document.createElement("SPAN");
+      let span = document.createElement("SPAN");
       span.innerHTML = chartData.hints[i];
       hintsDiv.appendChild(span);
       hintsDiv.appendChild(document.createElement("BR"));
@@ -421,11 +418,11 @@ function renderHints(chartDiv, chartConfig, chartData) {
     // collapse hints
     if (hintsDiv.offsetHeight > maxHintsHeight) {
       // expand button
-      var expandHintsButton = document.createElement("A");
+      let expandHintsButton = document.createElement("A");
       expandHintsButton.classList.add("expand");
       expandHintsButton.appendChild(document.createElement("DIV"));
       expandHintsButton.title = "Expand Hints";
-      expandHintsButton.addEventListener("click", function(event) {
+      expandHintsButton.addEventListener("click", function() {
         hintsDiv.style.maxHeight = "";
         expandHintsButton.style.display = "none";
         collapseHintsButton.style.display = "";
@@ -433,11 +430,11 @@ function renderHints(chartDiv, chartConfig, chartData) {
       });
       hintsDiv.appendChild(expandHintsButton);
       // collapse button
-      var collapseHintsButton = document.createElement("A");
+      let collapseHintsButton = document.createElement("A");
       collapseHintsButton.classList.add("collapse");
       collapseHintsButton.appendChild(document.createElement("DIV"));
       collapseHintsButton.title = "Collapse Hints";
-      collapseHintsButton.addEventListener("click", function(event) {
+      collapseHintsButton.addEventListener("click", function() {
         hintsDiv.style.maxHeight = maxHintsHeight + "px";
         collapseHintsButton.style.display = "none";
         expandHintsButton.style.display = "";
@@ -455,11 +452,11 @@ function renderHints(chartDiv, chartConfig, chartData) {
 }
 
 function renderChartTabButton(tabButtonsDiv, key, title) {
-  var element;
+  let element;
   if (chartSetConfig.view == key) {
     element = document.createElement("DIV");
   } else {
-    var newChartConfig = db.cloneObject(chartSetConfig);
+    let newChartConfig = db.cloneObject(chartSetConfig);
     newChartConfig.view = key;
     element = createLinkToHash(db.encodeChartConfig(newChartConfig));
   }
@@ -471,7 +468,7 @@ function chartRemoveClick(event) {
   event.preventDefault();
 
   const params = db.getChartParams();
-  var currentParam;
+  let currentParam;
   for (const i in params) {
     const param = params[i];
     if (param.unfoldKey && chartSetConfig[param.name] == param.unfoldKey) {
@@ -495,7 +492,7 @@ function chartRemoveClick(event) {
   const chartConfig = chartConfigs[chartDiv.dataChartIndex];
   const valueToRemove = chartConfig[currentParam.name];
 
-  var newValues = [];
+  let newValues = [];
   for (const i in chartConfigs) {
     const chartConfig = chartConfigs[i];
     const value = chartConfig[currentParam.name];
@@ -510,7 +507,7 @@ function chartRemoveClick(event) {
 function addShowAllChartsButton() {
   const div = document.createElement("DIV");
   dynamicContent.appendChild(div);
-  var button = createButton();
+  let button = createButton();
   div.appendChild(button);
   button.appendChild(document.createTextNode("Show All Charts"));
   button.addEventListener("click", function(event) {
@@ -532,14 +529,14 @@ function createLinkToHash(hash) {
 
 function createButton() {
   // Creates an A element which can be used as a button
-  var button = document.createElement("A");
+  let button = document.createElement("A");
   button.classList.add("button");
   button.href = "#";
   button.addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
       // Trigger the "click" event for the deepest child element
       event.preventDefault();
-      var node = event.target;
+      let node = event.target;
       while (node.childNodes.length > 0 && node.childNodes[0].nodeType == Node.ELEMENT_NODE)
         node = node.childNodes[0];
       node.click();
@@ -549,7 +546,7 @@ function createButton() {
 }
 
 function createRemoveButton() {
-  var removeButton = createButton();
+  let removeButton = createButton();
   removeButton.classList.add("removeButton");
   removeButton.title = "Remove";
   return removeButton;
@@ -571,8 +568,8 @@ function formatValue(chartConfig, value) {
 
 function setGlobalChartOptions() {
   const bodyStyle = window.getComputedStyle(document.body);
-  Chart.defaults.color = bodyStyle["color"];
-  Chart.defaults.font.family = bodyStyle["font-family"];
+  Chart.defaults.color = bodyStyle.color;
+  Chart.defaults.font.family = bodyStyle.fontFamily;
   Chart.defaults.animation.duration = 0;
   Chart.defaults.plugins.title.font.size = 20;
   Chart.defaults.plugins.legend.position = "bottom";
@@ -586,7 +583,7 @@ function setGlobalChartOptions() {
 }
 
 function renderChartView(chartConfig, chartData, chartDiv, isExport) {
-  var chartOptions = {
+  let chartOptions = {
     data: {
       datasets: []
     },
@@ -606,7 +603,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           ticks: {
             precision: 0,
             padding: 8,
-            callback: function(value, index, values) {
+            callback: function(value) {
               return formatValue(chartConfig, value);
             }
           },
@@ -630,7 +627,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
         tooltip: {
           callbacks: {
             label: function(context) {
-              var label = context.dataset.label || '';
+              let label = context.dataset.label || '';
               if (label)
                 label += ': ';
               label += formatValue(chartConfig, context.parsed.y);
@@ -640,7 +637,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
         },
         datalabels: {
           display: false,
-          formatter: function(value, context) {
+          formatter: function(value) {
             if (value === 0)
               return "";
             return formatValue(chartConfig, value);
@@ -649,7 +646,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       }
     },
     plugins: [ChartDataLabels]
-  }
+  };
 
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.type = "line";
@@ -671,7 +668,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   const colors = getChartSeriesColors(chartConfig, chartData);
   for (const i in chartData.series) {
     const series = chartData.series[i];
-    var dataset = {};
+    let dataset = {};
     dataset.label = db.formatSeriesNameAndCategory(series.name);
     dataset.data = series.data;
     if (chartConfig.view == db.views.lineChart) {
@@ -704,7 +701,7 @@ function setChartSize(element) {
   const minWidth = 380;
   const minHeight = 280;
   const maxWidthMultiChart = 550;
-  var heightOffset;
+  let heightOffset;
   if (isScreenshotModeEnabled) {
     heightOffset = 150;
   } else {
@@ -714,12 +711,12 @@ function setChartSize(element) {
     if (hintsDiv != null)
       heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
   }
-  var widthOffset;
+  let widthOffset;
   if (isScreenshotModeEnabled)
     widthOffset = 70;
   else
     widthOffset = 10;
-  var wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
+  let wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart) {
     wantedWith = wantedWith / 2.33;
     wantedWith = Math.min(wantedWith, maxWidthMultiChart);
@@ -746,15 +743,15 @@ function addScreenshotModeButton(parent) {
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
-  var result = [];
+  let result = [];
   // assign static colors
-  var seriesIndexesWithDynamicColor = [];
+  let seriesIndexesWithDynamicColor = [];
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
     if (seriesName == db.totalSeriesName || seriesName == "Other")
       result.push("#000000");
     else {
-      var colorIndex = colorIndexByCompanyGroup[seriesName];
+      let colorIndex = colorIndexByCompanyGroup[seriesName];
       if (colorIndex === undefined)
         colorIndex = colorIndexByBrand[seriesName];
       if (colorIndex === undefined)
@@ -765,7 +762,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   if (seriesIndexesWithDynamicColor.length == 0)
     return result;
   // assign dynamic colors
-  var dynamicColorSeriesIndex = 0;
+  let dynamicColorSeriesIndex = 0;
   for (const i in colorSet) {
     const color = colorSet[i];
     if (result.includes(color))
@@ -775,7 +772,7 @@ function getChartSeriesColors(chartConfig, chartData) {
     if (dynamicColorSeriesIndex == seriesIndexesWithDynamicColor.length)
       return result;
   }
-  var colorIndex = 0;
+  let colorIndex = 0;
   while (dynamicColorSeriesIndex < seriesIndexesWithDynamicColor.length) {
     result[seriesIndexesWithDynamicColor[dynamicColorSeriesIndex]] = colorSet[colorIndex % colorSet.length];
     dynamicColorSeriesIndex++;
@@ -785,7 +782,7 @@ function getChartSeriesColors(chartConfig, chartData) {
 }
 
 function renderTable(chartConfig, chartDiv, chartData) {
-  var horizontalBarMaxValue = 0;
+  let horizontalBarMaxValue = 0;
   if (chartData.series.length == 1 && chartData.categories.length > 1) {
     for (const i in chartData.categories) {
       horizontalBarMaxValue = Math.max(horizontalBarMaxValue, chartData.series[0].data[i]);
@@ -813,7 +810,7 @@ function renderTableExportButton(chartDiv, table, format) {
   exportButton.title = "Export table as " + format;
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
-    var containerDiv = document.getElementById(containerDivId);
+    let containerDiv = document.getElementById(containerDivId);
     if (containerDiv != null)
       chartDiv.removeChild(containerDiv);
     if (currentExportFormat != format) {
@@ -834,12 +831,12 @@ function renderTableExportButton(chartDiv, table, format) {
 }
 
 function generateCsv(rows) {
-  var result = "";
-  for (var i = 0; i < rows.length; i++) {
+  let result = "";
+  for (let i = 0; i < rows.length; i++) {
     if (i > 0)
       result += "\n";
     const columns = rows[i].childNodes;
-    for (var j = 0; j < columns.length; j++) {
+    for (let j = 0; j < columns.length; j++) {
       const cell = columns[j];
       const content = cell.textContent;
       if (content != "") {
@@ -858,11 +855,11 @@ function generateCsv(rows) {
 }
 
 function generateWikitext(rows) {
-  var result = "{| class=\"wikitable sortable\" style=\"text-align:right;\"\n";
-  for (var i = 0; i < rows.length; i++) {
+  let result = "{| class=\"wikitable sortable\" style=\"text-align:right;\"\n";
+  for (let i = 0; i < rows.length; i++) {
     result += "|-\n";
     const columns = rows[i].childNodes;
-    for (var j = 0; j < columns.length; j++) {
+    for (let j = 0; j < columns.length; j++) {
       const cell = columns[j];
       const content = cell.textContent;
       if (content != "") {
@@ -903,7 +900,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   for (const i in chartData.series) {
     const series = chartData.series[i];
     const cell = document.createElement("TH");
-    var text = db.formatSeriesNameAndCategory(series.name);
+    let text = db.formatSeriesNameAndCategory(series.name);
     if (text == "Value") {
       const params = db.getChartParams(chartConfig);
       text = params.metric.options[chartConfig.metric];
@@ -974,7 +971,7 @@ function renderTableTransposed(chartConfig, table, chartData) {
   }
 
   // Table body
-  var index = 1;
+  let index = 1;
   for (const i in chartData.series) {
     const series = chartData.series[i];
     if (series.name == db.totalSeriesName)
@@ -1004,8 +1001,8 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   row.appendChild(cell);
 
   // check column title
-  var addFlag = false;
-  var countryCode;
+  let addFlag = false;
+  let countryCode;
   if (columnTitle == "Country") {
     addFlag = true;
     const countryId = db.countryNamesReverse[text];
@@ -1021,8 +1018,8 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   }
 
   // set link url
-  var hasLink = false;
-  var newChartConfig = db.cloneObject(chartConfig);
+  let hasLink = false;
+  let newChartConfig = db.cloneObject(chartConfig);
   if (addFlag && text != "Other" && !text.endsWith("|other")) {
     hasLink = true;
     const textParts = text.split("|", 2);
@@ -1069,7 +1066,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   }
 
   // add cell content
-  var containerElement;
+  let containerElement;
   if (hasLink)
     containerElement = createLinkToHash(db.encodeChartConfig(newChartConfig));
   else
@@ -1109,16 +1106,16 @@ function renderSources(chartConfig, chartDiv, chartData) {
   chartDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
-  var entries = [];
+  let entries = [];
   for (const text in chartData.sources) {
-    var prefix = "";
+    let prefix = "";
     const sourceInfo = chartData.sources[text];
     if (db.isMultiCountry(chartConfig)) {
       prefix += db.countryNames[sourceInfo.country];
       prefix += " ";
     }
     prefix += sourceInfo.firstDate;
-    var sortKey = prefix;
+    let sortKey = prefix;
     if (sourceInfo.lastDate != sourceInfo.firstDate) {
       prefix += "–";
       prefix += sourceInfo.lastDate;
@@ -1132,7 +1129,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
         sortKey += "1";
       }
     }
-    var entry = {};
+    let entry = {};
     entry.prefix = prefix;
     entry.text = text;
     entry.sortKey = sortKey;
@@ -1153,7 +1150,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
     {
       const parts = entry.text.split(" ");
       for (const i in parts) {
-        var part = parts[i];
+        let part = parts[i];
         if (i > 0)
           li.appendChild(document.createTextNode(" "));
         const protSep = part.search("://");
@@ -1176,7 +1173,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
 }
 
 function getCountryCodeForCompanyOrBrand(companyOrBrand) {
-  var countryCode = brandCountries[companyOrBrand];
+  let countryCode = brandCountries[companyOrBrand];
   if (countryCode === undefined) {
     countryCode = companyGroupCountries[companyOrBrand];
     if (countryCode === undefined) {
@@ -1246,7 +1243,7 @@ function renderStatusPage() {
   dynamicContent.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tabButtons");
   for (const hash in tabs) {
-    var element;
+    let element;
     if (hash == currentHash)
       element = document.createElement("DIV");
     else
@@ -1280,7 +1277,7 @@ function renderCountriesStatusPage() {
     const countryCode = db.countriesCodes[countryId];
     const countryName = db.countryNames[countryId];
     // collect data from the first dataset
-    var firstMonthString = "";
+    let firstMonthString = "";
     for (const j in db.datasets) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
@@ -1289,12 +1286,12 @@ function renderCountriesStatusPage() {
       break;
     }
     // collect data from the latest datasets
-    var lastPerQuarter = false;
-    var latestAllCarsDataset = null;
-    var latestEvDataset = null;
-    var oldEvDataset = null;
-    var monthCount = 0;
-    for (var j = db.datasets.length - 1; j >= 0; j--) {
+    let lastPerQuarter = false;
+    let latestAllCarsDataset = null;
+    let latestEvDataset = null;
+    let oldEvDataset = null;
+    let monthCount = 0;
+    for (let j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
         continue;
@@ -1314,10 +1311,10 @@ function renderCountriesStatusPage() {
       }
     }
     // collect data from the latest 12 datasets
-    var allCarSalesSum = 0;
-    var evSalesSum = 0;
-    var salesMonthCount = 0;
-    for (var j = db.datasets.length - 1; j >= 0; j--) {
+    let allCarSalesSum = 0;
+    let evSalesSum = 0;
+    let salesMonthCount = 0;
+    for (let j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
         continue;
@@ -1374,7 +1371,7 @@ function renderCountriesStatusPage() {
       const td = document.createElement("TD");
       tr.appendChild(td);
       if (latestEvDataset.data) {
-        var text = getEvDetailednessText(latestEvDataset);
+        let text = getEvDetailednessText(latestEvDataset);
         if (oldEvDataset != null) {
           const oldText = getEvDetailednessText(oldEvDataset);
           if (oldText != text)
@@ -1415,7 +1412,7 @@ function renderCountriesStatusPage() {
 }
 
 function getEvDetailednessText(dataset) {
-  var modelCount = 0;
+  let modelCount = 0;
   for (const key in dataset.data) {
     if (key.includes("|") && !key.endsWith("|other"))
       modelCount++;
@@ -1465,13 +1462,13 @@ function renderCompaniesStatusPage() {
     if (company in companyGroups) {
       const brands = companyGroups[company];
       companyTd.rowSpan = brands.length;
-      var tr = firstTr;
+      let tr = firstTr;
       for (const j in brands) {
         const td = document.createElement("TD");
         tr.appendChild(td);
         const brand = brands[j];
         const countryCode = getCountryCodeForCompanyOrBrand(brand);
-        var newChartConfig = {};
+        let newChartConfig = {};
         newChartConfig.metric = db.metrics.salesElectric;
         newChartConfig.company = db.urlEncode(company);
         newChartConfig.brand = db.urlEncode(brand);
@@ -1513,7 +1510,7 @@ function renderModelsStatusPage() {
     const brand = db.brands[i];
     if (brand == "other")
       continue;
-    var models = [];
+    let models = [];
     for (const j in db.models) {
       const parts = db.models[j].split("|", 2);
       if (parts[0] != brand)
@@ -1537,12 +1534,12 @@ function renderModelsStatusPage() {
     }
     // models
     brandTd.rowSpan = models.length;
-    var tr = firstTr;
-    for (var j = 0; j < models.length; j++) {
+    let tr = firstTr;
+    for (let j = 0; j < models.length; j++) {
       const model = models[j];
       const td = document.createElement("TD");
       tr.appendChild(td);
-      var newChartConfig = {};
+      let newChartConfig = {};
       newChartConfig.metric = db.metrics.salesElectric;
       newChartConfig.company = db.urlEncode(db.companiesByBrand[brand]);
       newChartConfig.brand = db.urlEncode(brand);
@@ -1562,8 +1559,8 @@ function renderModelsStatusPage() {
 }
 
 function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
-  var firstMonthString = "";
-  var lastMonthString = "";
+  let firstMonthString = "";
+  let lastMonthString = "";
   for (const j in db.datasets) {
     const dataset = db.datasets[j];
     if (model != null && dataset.dsType == db.dsTypes.AllCarsByBrand)
@@ -1590,12 +1587,12 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
 }
 
 function addAnnualSalesTd(tr, onlyEvs, brand, brandAndModel = null) {
-  var total = 0;
+  let total = 0;
   for (const i in db.countriesWithData) {
     const curCountryId = db.countriesWithData[i];
-    var sum = 0;
-    var monthCount = 0;
-    for (var j = db.datasets.length - 1; j >= 0; j--) {
+    let sum = 0;
+    let monthCount = 0;
+    for (let j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
       if ((dataset.dsType != db.dsTypes.AllCarsByBrand) != onlyEvs)
         continue;

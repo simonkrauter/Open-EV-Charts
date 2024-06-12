@@ -492,7 +492,7 @@ var testCaseNumberInput;
 var testCaseNumber = -1;
 
 function addNextPrevButton(div, inc) {
-  var button = document.createElement("A");
+  let button = document.createElement("A");
   button.href = "#";
   button.style.padding = "0.6em";
   button.style.textDecoration = "none";
@@ -521,7 +521,7 @@ function addNextPrevButton(div, inc) {
 }
 
 function initTesting() {
-  var div = document.createElement("DIV");
+  let div = document.createElement("DIV");
   div.style.marginLeft = "1em";
   div.style.fontSize = "130%";
   homeLink.parentNode.parentNode.appendChild(div);
@@ -539,7 +539,7 @@ function initTesting() {
   testCaseNumberInput.style.marginLeft = "0.2em";
   testCaseNumberInput.style.marginRight = "0.2em";
   testCaseNumberInput.title = "Test case number";
-  testCaseNumberInput.addEventListener("keyup", function(event) {
+  testCaseNumberInput.addEventListener("keyup", function() {
     const parsed = parseInt(testCaseNumberInput.value);
     if (Number.isInteger(parsed))
       testCaseNumber = parsed;
@@ -574,7 +574,7 @@ function loadTestCase() {
   if (testCases[testCaseNumber] == null) {
     dynamicContent.innerHTML = "";
     if (testCaseNumberInput.value != "") {
-      var div = document.createElement("DIV");
+      let div = document.createElement("DIV");
       div.style.color = "red";
       div.style.marginTop = "1em";
       div.appendChild(document.createTextNode("Test case does not exist."));
@@ -587,9 +587,9 @@ function loadTestCase() {
 }
 
 function addRandomTestingButton(parent) {
-  var div = document.createElement("DIV");
+  let div = document.createElement("DIV");
   parent.parentNode.appendChild(div);
-  var button = document.createElement("A");
+  let button = document.createElement("A");
   button.href = "#";
   button.innerHTML = "Randomize Chart Config";
   button.addEventListener("click", function(event) {
@@ -600,11 +600,11 @@ function addRandomTestingButton(parent) {
 }
 
 function randomizeChartConfig() {
-  var chartConfig = db.decodeChartConfigString("");
+  let chartConfig = db.decodeChartConfigString("");
   const params = db.getChartParams();
   for (const i in params) {
     const param = params[i];
-    var optionKeys = [];
+    let optionKeys = [];
     if (param.name == "metric") {
       for (const j in param.options) {
         if (j == db.metrics.all)
