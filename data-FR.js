@@ -5135,7 +5135,7 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2805
 });
 
-db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
+db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/05/barometre-avere-colombus-avril-2024.pdf, https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
 { "Peugeot|e-208": 3185
 , "Peugeot|e-2008": 2164
 , "Renault|Twingo E-Tech": 1842
@@ -5156,5 +5156,5 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Volvo|EX30": 406
 , "MG|MG4 EV": 400
 , "Opel|Mokka-e": 357
-, "other": 4990
+, "other": 4956
 });
