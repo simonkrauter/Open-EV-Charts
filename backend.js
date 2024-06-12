@@ -1097,9 +1097,11 @@ var db = {
         if (!categories.includes(category))
           categories.push(category);
         if (sources[dataset.source] == null) {
-          sources[dataset.source] = {};
-          sources[dataset.source].country = dataset.country;
-          sources[dataset.source].firstDate = dataset.monthString;
+          var sourceInfo = {};
+          sourceInfo.country = dataset.country;
+          sourceInfo.firstDate = dataset.monthString;
+          sourceInfo.dsType = dataset.dsType;
+          sources[dataset.source] = sourceInfo;
         }
         sources[dataset.source].lastDate = dataset.monthString;
       }
