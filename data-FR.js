@@ -5158,3 +5158,63 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Mokka-e": 357
 , "other": 4956
 });
+
+db.insert(db.countries.FR, "2024-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/06/Immatriculations-VPN_Mai2024.pdf",
+{ "Renault": 26250
+, "Peugeot": 19695
+, "Dacia": 10597
+, "Volkswagen": 10434
+, "Toyota": 9860
+, "Citroën": 8911
+, "BMW": 5347
+, "Audi": 4310
+, "Opel": 4204
+, "Ford": 4178
+, "Mercedes-Benz": 3912
+, "Hyundai": 3728
+, "Škoda": 3547
+, "Kia": 3273
+, "Fiat": 2809
+, "Tesla": 2197
+, "Nissan": 2191
+, "Suzuki": 2182
+, "Seat": 2008
+, "Cupra": 1690
+, "Volvo": 1474
+, "Mini": 1360
+, "Jeep": 915
+, "MG": 861
+, "Mazda": 805
+, "Land Rover": 571
+, "Porsche": 405
+, "Mitsubishi": 272
+, "Honda": 268
+, "Smart": 130
+, "BYD": 129
+, "Jaguar": 32
+, "other": 2753
+});
+
+db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/06/barometre-avere-colombus-mai-2024-2.pdf, https://cleantechnica.com/2024/06/09/evs-take-24-1-share-in-france-popular-bevs-hit-by-incentive-stop/",
+{ "Peugeot|e-208": 2662
+, "Renault|Twingo E-Tech": 1688
+, "Renault|Megane E-Tech": 1614
+, "Tesla|Model Y": 1421
+, "Opel|Corsa-e": 1351
+, "Fiat|500e": 1293
+, "Peugeot|e-2008": 1193
+, "Volkswagen|ID.3": 1144
+, "BMW|iX1": 932
+, "Tesla|Model 3": 763
+, "Škoda|Enyaq": 752
+, "Renault|Scénic E-Tech": 507
+, "Opel|Mokka-e": 492
+, "Jeep|Avenger EV": 477
+, "Hyundai|Kona Electric": 435
+, "Cupra|Born": 435
+, "Audi|Q4 e-tron": 428
+, "Volkswagen|ID.4": 421
+, "MG|MG4 EV": 396
+, "Fiat|600e": 383
+, "other": 5105
+});
