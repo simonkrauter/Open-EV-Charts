@@ -1109,25 +1109,49 @@ function renderSources(chartConfig, chartDiv, chartData) {
   chartDiv.appendChild(sourcesDiv);
   sourcesDiv.classList.add("sources");
 
-  const ol = document.createElement("UL");
-  sourcesDiv.appendChild(ol);
-  for (const key in chartData.sources) {
-    const li = document.createElement("LI");
-    ol.appendChild(li);
-    {
-      const sourceInfo = chartData.sources[key];
-      if (db.isMultiCountry(chartConfig))
-        li.appendChild(document.createTextNode(db.countryNames[sourceInfo.country]));
-      li.appendChild(document.createTextNode(" "));
-      li.appendChild(document.createTextNode(sourceInfo.firstDate));
-      if (sourceInfo.lastDate != sourceInfo.firstDate) {
-        li.appendChild(document.createTextNode("–"));
-        li.appendChild(document.createTextNode(sourceInfo.lastDate));
+  var entries = [];
+  for (const text in chartData.sources) {
+    var prefix = "";
+    const sourceInfo = chartData.sources[text];
+    if (db.isMultiCountry(chartConfig)) {
+      prefix += db.countryNames[sourceInfo.country];
+      prefix += " ";
+    }
+    prefix += sourceInfo.firstDate;
+    var sortKey = prefix;
+    if (sourceInfo.lastDate != sourceInfo.firstDate) {
+      prefix += "–";
+      prefix += sourceInfo.lastDate;
+    }
+    if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric)) {
+      if (sourceInfo.dsType == db.dsTypes.AllCarsByBrand) {
+        prefix += " All cars";
+        sortKey += "0";
+      } else {
+        prefix += " EVs";
+        sortKey += "1";
       }
     }
-    li.appendChild(document.createTextNode(": "));
+    var entry = {};
+    entry.prefix = prefix;
+    entry.text = text;
+    entry.sortKey = sortKey;
+    entries.push(entry);
+  }
+
+  entries.sort(function(a, b) {
+    return a.sortKey.localeCompare(b.sortKey);
+  });
+
+  const ol = document.createElement("UL");
+  sourcesDiv.appendChild(ol);
+  for (const i in entries) {
+    const entry = entries[i];
+    const li = document.createElement("LI");
+    ol.appendChild(li);
+    li.appendChild(document.createTextNode(entry.prefix + ": "));
     {
-      const parts = key.split(" ");
+      const parts = entry.text.split(" ");
       for (const i in parts) {
         var part = parts[i];
         if (i > 0)
