@@ -497,3 +497,11 @@ db.insert(db.countries.BE, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.ac
 db.insert(db.countries.BE, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf TODO: numbers per brand wanted",
 { "other": 9181
 });
+
+db.insert(db.countries.BE, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf TODO: numbers per brand wanted",
+{ "other": 38907
+});
+
+db.insert(db.countries.BE, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf TODO: numbers per brand wanted",
+{ "other": 10418
+});
