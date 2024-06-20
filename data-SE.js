@@ -5260,7 +5260,7 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nio|other": 3
 , "Renault|other": 3
 , "Subaru|other": 3
-, "other": 117
+, "other": 217
 });
 
 db.insert(db.countries.SE, "2024-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5360,7 +5360,7 @@ db.insert(db.countries.SE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Opel|other": 3
 , "Peugeot|other": 3
 , "Tesla|other": 3
-, "other": 173
+, "other": 201
 });
 
 db.insert(db.countries.SE, "2024-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5461,7 +5461,7 @@ db.insert(db.countries.SE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|other": 5
 , "Opel|other": 5
 , "Renault|other": 5
-, "other": 227
+, "other": 231
 });
 
 db.insert(db.countries.SE, "2024-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5561,7 +5561,7 @@ db.insert(db.countries.SE, "2024-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|other": 4
 , "Fiat|other": 4
 , "Renault|other": 4
-, "other": 209
+, "other": 245
 });
 
 db.insert(db.countries.SE, "2024-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
