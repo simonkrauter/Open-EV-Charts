@@ -5665,6 +5665,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 16
 , "BMW|i5": 15
 , "Nissan|Ariya": 15
+, "Renault|Scénic E-Tech": 15
 , "BMW|iX3": 12
 , "Tesla|Model S": 12
 , "Mercedes-Benz|other": 22
@@ -5685,7 +5686,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 4
 , "Subaru|other": 4
 , "Hyundai|other": 3
-, "other": 104
+, "other": 89
 });
 
 db.insert(db.countries.ES, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosabriltur.asp, https://www.km77.com/mercado/espana/2024/datosabriltt.asp",
@@ -5723,7 +5724,7 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Smart": 110
 , "Jaguar": 50
 , "Polestar": 20
-, "other": 3165
+, "other": 3166
 });
 
 db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
@@ -5737,7 +5738,7 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 118
 , "Volkswagen|ID.4": 116
 , "Citroën|ë-C4": 106
-, "BYD|Seal": 105
+, "BYD|Seal": 93
 , "Renault|Megane E-Tech": 86
 , "Ford|Mustang Mach-E": 80
 , "Kia|Niro EV": 75
@@ -5794,5 +5795,5 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 2
 , "Mazda|other": 2
 , "Volkswagen|other": 2
-, "other": 9
+, "other": 21
 });
