@@ -4974,3 +4974,95 @@ db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 , "other": 29
 });
+
+db.insert(db.countries.FI, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2866/May_2024.xlsx",
+{ "Toyota": 1508
+, "Volvo": 1066
+, "Volkswagen": 740
+, "Kia": 554
+, "Škoda": 501
+, "Mercedes-Benz": 472
+, "BMW": 325
+, "Tesla": 304
+, "Hyundai": 289
+, "Nissan": 281
+, "Audi": 268
+, "Ford": 164
+, "Peugeot": 120
+, "Mazda": 92
+, "Renault": 88
+, "Suzuki": 84
+, "Citroën": 77
+, "Opel": 69
+, "BYD": 67
+, "Seat": 63
+, "Dacia": 59
+, "Subaru": 53
+, "Mitsubishi": 47
+, "Cupra": 37
+, "Land Rover": 35
+, "Polestar": 30
+, "Honda": 17
+, "Porsche": 17
+, "Mini": 10
+, "other": 343
+});
+
+db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/5, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volvo|EX30": 528
+, "Volkswagen|ID.4": 193
+, "Tesla|Model Y": 180
+, "Škoda|Enyaq": 124
+, "Tesla|Model 3": 122
+, "Audi|Q4 e-tron": 109
+, "Volvo|EX40": 106
+, "Mercedes-Benz|EQA": 63
+, "Volkswagen|ID.7": 52
+, "Volvo|EC40": 52
+, "Mercedes-Benz|EQE": 47
+, "BMW|iX1": 44
+, "BYD|Seal": 43
+, "Mercedes-Benz|EQB": 43
+, "BMW|i4": 39
+, "Hyundai|Ioniq 5": 30
+, "Polestar|2": 30
+, "Ford|Mustang Mach-E": 26
+, "BMW|i5": 21
+, "Kia|EV6": 21
+, "Cupra|Born": 20
+, "Nissan|Ariya": 20
+, "Hyundai|Kona Electric": 19
+, "Toyota|bZ4X": 19
+, "BYD|Yuan Plus": 18
+, "Volkswagen|ID.3": 18
+, "Peugeot|E-3008": 17
+, "Kia|Niro EV": 13
+, "Smart|Hashtag 3": 13
+, "Subaru|Solterra": 13
+, "Audi|Q8 e-tron": 12
+, "BMW|iX": 11
+, "Nissan|Leaf": 11
+, "Kia|EV9": 8
+, "BMW|iX2": 7
+, "Hyundai|Ioniq 6": 7
+, "Volkswagen|ID.5": 7
+, "Smart|Hashtag 1": 6
+, "Jeep|Avenger EV": 5
+, "Mercedes-Benz|EQS": 5
+, "Renault|Megane E-Tech": 5
+, "BYD|Dolphin": 4
+, "Jaguar|I-Pace": 4
+, "Mini|Cooper SE": 4
+, "Fiat|600e": 3
+, "Porsche|Taycan": 3
+, "Renault|Scénic E-Tech": 3
+, "BYD|Tang EV": 2
+, "Citroën|ë-C4": 2
+, "Kia|Soul EV": 2
+, "MG|MG4 EV": 2
+, "Opel|Mokka-e": 2
+, "Tesla|Model X": 2
+, "Toyota|Proace Electric": 2
+, "Mercedes-Benz|other": 2
+, "other": 59
+});
