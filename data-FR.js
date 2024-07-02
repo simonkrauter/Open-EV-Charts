@@ -5218,3 +5218,63 @@ db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|600e": 383
 , "other": 5105
 });
+
+db.insert(db.countries.FR, "2024-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/07/Immatriculations-VPN_Juin2024.pdf",
+{ "Renault": 33772
+, "Peugeot": 21548
+, "Volkswagen": 14015
+, "Dacia": 12918
+, "Citroën": 12458
+, "Toyota": 11068
+, "Ford": 6041
+, "BMW": 6027
+, "Audi": 5627
+, "Mercedes-Benz": 5454
+, "Škoda": 4474
+, "Kia": 4438
+, "Hyundai": 4347
+, "Opel": 4169
+, "Tesla": 4053
+, "Nissan": 3946
+, "Suzuki": 3733
+, "Fiat": 3123
+, "MG": 2803
+, "Seat": 2685
+, "Cupra": 2329
+, "Volvo": 1750
+, "Mini": 1624
+, "Jeep": 1485
+, "Mazda": 870
+, "Land Rover": 682
+, "Mitsubishi": 578
+, "Porsche": 531
+, "BYD": 383
+, "Honda": 304
+, "Smart": 122
+, "Jaguar": 42
+, "other": 4313
+});
+
+db.insert(db.countries.FR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/07/02/evs-at-24-1-share-in-france-down-yoy-as-trade-barriers-kick-in/",
+{ "Renault|Megane E-Tech": 3257
+, "Tesla|Model Y": 2155
+, "Tesla|Model 3": 1821
+, "Renault|Twingo E-Tech": 1648
+, "Peugeot|e-208": 1417
+, "Fiat|500e": 1240
+, "MG|MG4 EV": 1179
+, "Volkswagen|ID.3": 1112
+, "Citroën|ë-C4": 1006
+, "Renault|Scénic E-Tech": 928
+, "Opel|Corsa-e": 763
+, "Jeep|Avenger EV": 761
+, "Peugeot|e-2008": 740
+, "BMW|iX1": 687
+, "Mini|Cooper SE": 681
+, "Opel|Mokka-e": 614
+, "Volkswagen|ID.4": 613
+, "Cupra|Born": 601
+, "Škoda|Enyaq": 575
+, "Peugeot|E-3008": 479
+, "other": 7561
+});
