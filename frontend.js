@@ -1370,7 +1370,7 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      if (latestEvDataset.data) {
+      if (latestEvDataset) {
         let text = getEvDetailednessText(latestEvDataset);
         if (oldEvDataset != null) {
           const oldText = getEvDetailednessText(oldEvDataset);
