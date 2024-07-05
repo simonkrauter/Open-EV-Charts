@@ -5666,3 +5666,107 @@ db.insert(db.countries.SE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|other": 4
 , "other": 184
 });
+
+db.insert(db.countries.SE, "2024-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 3929
+, "Volkswagen": 2828
+, "Tesla": 2745
+, "Toyota": 1880
+, "Mercedes-Benz": 1555
+, "Kia": 1453
+, "Škoda": 1307
+, "Audi": 1269
+, "Peugeot": 997
+, "Polestar": 994
+, "BMW": 958
+, "Cupra": 485
+, "Ford": 468
+, "Renault": 434
+, "Dacia": 404
+, "Hyundai": 368
+, "Citroën": 308
+, "MG": 286
+, "Nissan": 286
+, "Subaru": 286
+, "Seat": 266
+, "Opel": 251
+, "Porsche": 239
+, "Fiat": 210
+, "Mazda": 207
+, "Suzuki": 127
+, "Honda": 108
+, "BYD": 80
+, "Land Rover": 54
+, "Mini": 44
+, "Mitsubishi": 40
+, "Jaguar": 18
+, "Geely": 10
+, "Smart": 10
+, "Chevrolet": 7
+, "Nio": 7
+, "GWM": 6
+, "other": 477
+});
+
+db.insert(db.countries.SE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 2121
+, "Polestar|2": 937
+, "Volkswagen|ID.4": 728
+, "Volvo|EX30": 656
+, "Tesla|Model 3": 616
+, "Volvo|EX40": 413
+, "Cupra|Born": 312
+, "Volvo|EC40": 262
+, "Škoda|Enyaq": 220
+, "Kia|EV9": 208
+, "Volkswagen|ID.7": 196
+, "Audi|Q4 e-tron": 180
+, "MG|MG4 EV": 161
+, "Mercedes-Benz|EQB": 157
+, "BMW|i4": 141
+, "Kia|EV6": 133
+, "Mercedes-Benz|EQE": 119
+, "MG|ZS EV": 111
+, "Volkswagen|ID.3": 91
+, "BMW|i5": 87
+, "Kia|Niro EV": 86
+, "BMW|iX1": 85
+, "Mercedes-Benz|EQA": 76
+, "Audi|Q8 e-tron": 71
+, "Volkswagen|ID. Buzz": 69
+, "Renault|Megane E-Tech": 63
+, "BMW|iX3": 58
+, "Hyundai|Ioniq 5": 49
+, "Polestar|3": 49
+, "Nissan|Ariya": 47
+, "Honda|e:Ny1": 40
+, "Renault|Scénic E-Tech": 40
+, "BYD|Yuan Plus": 39
+, "Toyota|bZ4X": 30
+, "BMW|iX2": 27
+, "Ford|Mustang Mach-E": 26
+, "BMW|iX": 22
+, "BYD|Dolphin": 20
+, "Mini|Cooper SE": 19
+, "Porsche|Taycan": 16
+, "Volkswagen|ID.5": 16
+, "Hyundai|Ioniq 6": 15
+, "BYD|Seal": 14
+, "Subaru|Solterra": 13
+, "Renault|Kangoo E-Tech": 11
+, "Peugeot|E-3008": 9
+, "Peugeot|e-Expert": 9
+, "MG|MG5 EV": 8
+, "Mercedes-Benz|eVito": 8
+, "Polestar|4": 8
+, "Renault|Zoe": 8
+, "Smart|other": 10
+, "Tesla|other": 8
+, "BYD|other": 7
+, "Mercedes-Benz|other": 7
+, "Nio|other": 7
+, "BMW|other": 6
+, "Hyundai|other": 5
+, "Nissan|other": 5
+, "other": 163
+});
