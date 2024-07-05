@@ -5221,6 +5221,96 @@ db.insert(db.countries.NO, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 680
 });
 
+db.insert(db.countries.NO, "2024-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2024",
+{ "Tesla": 3672
+, "Toyota": 3243
+, "MG": 2195
+, "Volvo": 1576
+, "Volkswagen": 1286
+, "Hyundai": 766
+, "Audi": 632
+, "BMW": 577
+, "Škoda": 469
+, "Nissan": 438
+, "Polestar": 388
+, "Ford": 299
+, "Suzuki": 283
+, "Mercedes-Benz": 249
+, "Mazda": 188
+, "BYD": 137
+, "Kia": 117
+, "Peugeot": 84
+, "other": 913
+});
+
+db.insert(db.countries.NO, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2024",
+{ "Tesla|Model Y": 2322
+, "Tesla|Model 3": 1332
+, "MG|MG4 EV": 1161
+, "Volvo|EX30": 1016
+, "Volkswagen|ID.4": 804
+, "Toyota|bZ4X": 722
+, "Audi|Q4 e-tron": 529
+, "MG|Marvel R": 522
+, "MG|ZS EV": 452
+, "Hyundai|Kona Electric": 442
+, "Polestar|2": 364
+, "Nissan|Ariya": 277
+, "Škoda|Enyaq": 271
+, "Volkswagen|ID.3": 260
+, "Hyundai|Ioniq 5": 258
+, "Ford|Mustang Mach-E": 225
+, "BMW|iX1": 210
+, "Mazda|MX-30 BEV": 165
+, "Volvo|EX40": 159
+, "Nissan|Leaf": 143
+, "Mercedes-Benz|EQE": 90
+, "BMW|iX": 82
+, "BMW|i4": 77
+, "Audi|Q8 e-tron": 75
+, "BMW|iX2": 72
+, "Volvo|EC40": 69
+, "Kia|EV6": 66
+, "BYD|Dolphin": 53
+, "Mercedes-Benz|EQA": 52
+, "Opel|Corsa-e": 50
+, "BMW|iX3": 48
+, "Renault|Scénic E-Tech": 48
+, "Hyundai|Ioniq 6": 46
+, "MG|MG5 EV": 42
+, "Ford|F-150 Lightning": 41
+, "Volkswagen|ID.7": 35
+, "Citroën|ë-C4": 33
+, "Mercedes-Benz|EQB": 31
+, "Mini|Cooper SE": 28
+, "Nio|EL6": 28
+, "Subaru|Solterra": 27
+, "BYD|Yuan Plus": 25
+, "Peugeot|e-2008": 25
+, "Nio|ES8": 24
+, "Opel|Astra Electric": 24
+, "BYD|Han EV": 23
+, "Kia|EV9": 23
+, "Jeep|Avenger EV": 21
+, "Peugeot|E-3008": 20
+, "Mercedes-Benz|EQS": 19
+, "Renault|Megane E-Tech": 19
+, "Peugeot|other": 27
+, "Nio|other": 20
+, "BYD|other": 19
+, "Kia|other": 19
+, "Opel|other": 18
+, "Fiat|other": 16
+, "BMW|other": 15
+, "Polestar|other": 15
+, "Tesla|other": 14
+, "Porsche|other": 13
+, "Honda|other": 11
+, "Volkswagen|other": 11
+, "JAC|other": 10
+, "other": 851
+});
+
 
 // Template:
 
