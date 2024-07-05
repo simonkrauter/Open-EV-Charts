@@ -620,14 +620,14 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 { "Tesla|Model Y": 40299
 , "Tesla|Model 3": 33699
 , "Ford|Mustang Mach-E": 8285
-, "Genesis|GV70": 5461
-, "Genesis|GV80": 4852
+, "Genesis|Electrified GV70": 5461
+, "Genesis|Electrified GV80": 4852
 , "Volkswagen|ID.4": 4464
 , "Nissan|Leaf": 4164
 , "Tesla|Model S": 3699
 , "Audi|Q8 e-tron": 2364
 , "Porsche|Taycan": 1518
-, "Genesis|G80": 1434
+, "Genesis|Electrified G80": 1434
 , "Tesla|Model X": 999
 , "Audi|e-tron GT": 765
 , "Jaguar|I-Pace": 600
@@ -673,15 +673,15 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 7287
 , "Tesla|Model X": 7000
 , "Chevrolet|Bolt": 6946
-, "Genesis|GV80": 4346
-, "Genesis|GV70": 4199
+, "Genesis|Electrified GV80": 4346
+, "Genesis|Electrified GV70": 4199
 , "Audi|Q8 e-tron": 3938
 , "Nissan|Leaf": 3251
 , "Porsche|Taycan": 2525
 , "Polestar|2": 2200
 , "Volkswagen|ID.4": 1659
 , "Volvo|EC40": 1427
-, "Genesis|G80": 1127
+, "Genesis|Electrified G80": 1127
 , "BMW|iX": 1081
 , "Audi|e-tron GT": 839
 , "Rivian|R1T": 700
@@ -700,8 +700,8 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 10414
 , "Tesla|Model S": 8000
 , "Volkswagen|ID.4": 6657
-, "Genesis|GV80": 5014
-, "Genesis|GV70": 4994
+, "Genesis|Electrified GV80": 5014
+, "Genesis|Electrified GV70": 4994
 , "Kia|EV6": 4872
 , "Hyundai|Ioniq 5": 4800
 , "Rivian|R1T": 4400
@@ -712,7 +712,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Rivian|EDV": 1699
 , "Porsche|Taycan": 1325
 , "Nissan|Leaf": 1276
-, "Genesis|G80": 920
+, "Genesis|Electrified G80": 920
 , "Genesis|GV60": 807
 , "Mercedes-Benz|EQB": 739
 , "Audi|Q4 e-tron": 732

@@ -3601,7 +3601,7 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "Opel|Zafira-e": 10
 , "Subaru|Solterra": 8
-, "Genesis|G80": 7
+, "Genesis|Electrified G80": 7
 , "Jaguar|I-Pace": 5
 , "Toyota|bZ4X": 5
 , "Mercedes-Benz|other": 3
@@ -3693,7 +3693,7 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo E-Tech": 7
 , "Kia|Niro EV": 6
 , "Kia|Soul EV": 6
-, "Genesis|G80": 4
+, "Genesis|Electrified G80": 4
 , "Genesis|GV60": 4
 , "Peugeot|e-2008": 4
 , "Opel|Zafira-e": 3
@@ -3783,11 +3783,11 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 7
 , "Peugeot|e-2008": 7
 , "Genesis|GV60": 6
-, "Genesis|GV70": 6
+, "Genesis|Electrified GV70": 6
 , "Nissan|Leaf": 6
 , "Kia|Soul EV": 5
 , "Audi|e-tron GT": 4
-, "Genesis|G80": 4
+, "Genesis|Electrified G80": 4
 , "Volvo|EX40": 3
 , "Smart|other": 2
 , "other": 64
@@ -3872,7 +3872,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 14
 , "Genesis|GV60": 12
 , "Smart|Fortwo ED": 11
-, "Genesis|GV70": 10
+, "Genesis|Electrified GV70": 10
 , "Nissan|Leaf": 10
 , "Opel|Corsa-e": 9
 , "Porsche|Taycan": 9
@@ -3968,7 +3968,7 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 12
 , "BMW|i3 BEV": 11
 , "Volkswagen|e-up!": 10
-, "Genesis|GV70": 9
+, "Genesis|Electrified GV70": 9
 , "Peugeot|e-2008": 8
 , "Jaguar|I-Pace": 7
 , "Opel|Corsa-e": 7
@@ -4070,7 +4070,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 11
 , "BMW|i7": 8
 , "BMW|i3 BEV": 7
-, "Genesis|GV70": 6
+, "Genesis|Electrified GV70": 6
 , "Opel|Zafira-e": 6
 , "JAC|other": 5
 , "Jaguar|other": 4
@@ -4162,7 +4162,7 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 18
 , "Opel|Zafira-e": 17
 , "Fiat|E-Doblò": 15
-, "Genesis|GV70": 14
+, "Genesis|Electrified GV70": 14
 , "Toyota|bZ4X": 14
 , "Hyundai|Kona Electric": 11
 , "Nissan|Ariya": 11
@@ -4250,14 +4250,14 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 17
 , "Mercedes-Benz|EQB": 15
 , "BMW|iX1": 14
-, "Genesis|G80": 14
+, "Genesis|Electrified G80": 14
 , "Mini|Cooper SE": 14
 , "Subaru|Solterra": 14
 , "Volkswagen|e-up!": 14
 , "Smart|Fortwo ED": 13
 , "Volvo|EX40": 13
 , "Genesis|GV60": 12
-, "Genesis|GV70": 11
+, "Genesis|Electrified GV70": 11
 , "Nissan|Ariya": 11
 , "Kia|EV6": 10
 , "Tesla|Model X": 10
@@ -4360,7 +4360,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Genesis|GV60": 12
 , "Peugeot|e-2008": 11
 , "Nissan|Ariya": 10
-, "Genesis|GV70": 9
+, "Genesis|Electrified GV70": 9
 , "Mercedes-Benz|EQE": 8
 , "Nissan|Leaf": 7
 , "Audi|e-tron GT": 6
@@ -4556,7 +4556,7 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 17
 , "BMW|iX3": 16
 , "Mini|Cooper SE": 16
-, "Genesis|GV70": 14
+, "Genesis|Electrified GV70": 14
 , "Mercedes-Benz|EQV": 13
 , "Audi|e-tron GT": 12
 , "Mercedes-Benz|EQE": 12
@@ -4649,7 +4649,7 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 28
 , "Mercedes-Benz|EQC": 27
 , "Peugeot|e-208": 27
-, "Genesis|GV70": 25
+, "Genesis|Electrified GV70": 25
 , "Smart|Fortwo ED": 25
 , "Opel|Corsa-e": 24
 , "Hyundai|Ioniq 6": 21
@@ -4763,7 +4763,7 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 21
 , "Volkswagen|e-up!": 21
 , "Peugeot|e-2008": 20
-, "Genesis|GV70": 19
+, "Genesis|Electrified GV70": 19
 , "Smart|Fortwo ED": 19
 , "Opel|Mokka-e": 18
 , "Smart|Hashtag 1": 15
@@ -4853,7 +4853,7 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 32
 , "Volkswagen|ID.5": 31
 , "Smart|Fortwo ED": 30
-, "Genesis|GV70": 26
+, "Genesis|Electrified GV70": 26
 , "Audi|e-tron GT": 22
 , "Mercedes-Benz|EQB": 22
 , "Dacia|Spring": 21
@@ -4962,7 +4962,7 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 22
 , "Volkswagen|e-up!": 20
 , "Genesis|GV60": 17
-, "Genesis|GV70": 17
+, "Genesis|Electrified GV70": 17
 , "Mini|Cooper SE": 17
 , "Smart|Fortwo ED": 16
 , "Subaru|Solterra": 13
@@ -5072,7 +5072,7 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 21
 , "Fiat|E-Doblò": 19
 , "Volkswagen|e-up!": 19
-, "Genesis|GV70": 18
+, "Genesis|Electrified GV70": 18
 , "Hyundai|Ioniq 6": 17
 , "Smart|Fortwo ED": 17
 , "Mini|Cooper SE": 16
@@ -5280,7 +5280,7 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 21
 , "BMW|i5": 18
 , "Nissan|Ariya": 18
-, "Genesis|GV70": 16
+, "Genesis|Electrified GV70": 16
 , "Kia|EV6": 16
 , "Peugeot|e-308": 16
 , "Mini|Cooper SE": 15
@@ -5382,7 +5382,7 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 36
 , "Mercedes-Benz|eCitan": 34
 , "Smart|Fortwo ED": 34
-, "Genesis|GV70": 31
+, "Genesis|Electrified GV70": 31
 , "Hyundai|Ioniq 6": 31
 , "Kia|EV6": 27
 , "Genesis|GV60": 26
@@ -5484,7 +5484,7 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Genesis|GV60": 16
 , "Hyundai|Ioniq 6": 16
 , "Peugeot|e-208": 16
-, "Genesis|GV70": 14
+, "Genesis|Electrified GV70": 14
 , "Tesla|Model X": 14
 , "Mercedes-Benz|EQS": 13
 , "Volkswagen|ID.5": 12

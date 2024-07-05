@@ -1944,7 +1944,7 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 41
 , "BMW|i7": 33
 , "GWM|Ora 03": 31
-, "Genesis|GV70": 23
+, "Genesis|Electrified GV70": 23
 , "Kia|Soul EV": 23
 , "Toyota|bZ4X": 23
 , "Vauxhall|other": 73
@@ -2480,7 +2480,7 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 118
 , "Honda|e:Ny1": 114
 , "MG|MG5 EV": 114
-, "Genesis|GV70": 97
+, "Genesis|Electrified GV70": 97
 , "GWM|Ora 03": 90
 , "Fiat|500e": 85
 , "Smart|Hashtag 1": 73
