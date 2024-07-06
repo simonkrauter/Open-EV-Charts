@@ -3223,66 +3223,66 @@ db.insert(db.countries.UK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/5 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 2107
-, "Audi|Q4 e-tron": 1405
-, "BMW|i4": 1176
-, "MG|MG4 EV": 1071
+, "Audi|Q4 e-tron": 1406
+, "BMW|i4": 1178
+, "MG|MG4 EV": 1072
 , "Tesla|Model 3": 1030
-, "Hyundai|Kona Electric": 840
-, "Volvo|EX30": 812
+, "Hyundai|Kona Electric": 843
+, "Volvo|EX30": 814
 , "Mercedes-Benz|EQA": 790
-, "Škoda|Enyaq": 700
-, "Mercedes-Benz|EQB": 693
-, "Vauxhall|Mokka-e": 642
-, "Cupra|Born": 635
-, "Nissan|Ariya": 608
+, "Škoda|Enyaq": 701
+, "Mercedes-Benz|EQB": 694
+, "Vauxhall|Mokka-e": 644
+, "Cupra|Born": 636
+, "Nissan|Ariya": 609
 , "Volkswagen|ID.4": 593
-, "Peugeot|e-2008": 579
-, "Volvo|EX40": 562
+, "Peugeot|e-2008": 580
+, "Volvo|EX40": 564
 , "Kia|Niro EV": 519
 , "Nissan|Leaf": 490
 , "BMW|iX1": 487
-, "Hyundai|Ioniq 5": 443
-, "Vauxhall|Corsa-e": 412
-, "Mini|Cooper SE": 402
+, "Hyundai|Ioniq 5": 444
+, "Vauxhall|Corsa-e": 413
+, "Mini|Cooper SE": 403
 , "Kia|EV6": 395
 , "Ford|Mustang Mach-E": 374
-, "BMW|i5": 351
-, "Toyota|bZ4X": 305
-, "Polestar|2": 295
-, "BMW|iX": 288
+, "BMW|i5": 352
+, "Toyota|bZ4X": 309
+, "Polestar|2": 296
+, "BMW|iX": 289
 , "BMW|iX3": 285
-, "BYD|Yuan Plus": 282
-, "MG|ZS EV": 252
+, "BYD|Yuan Plus": 283
+, "MG|ZS EV": 253
 , "Volkswagen|ID.3": 221
 , "Audi|Q8 e-tron": 219
 , "Renault|Megane E-Tech": 201
 , "BYD|Dolphin": 198
 , "Mercedes-Benz|EQE": 193
-, "Citroën|ë-C4": 179
+, "Citroën|ë-C4": 184
 , "Porsche|Taycan": 176
-, "Peugeot|e-208": 170
-, "Volvo|EC40": 138
+, "Peugeot|e-208": 174
+, "Volvo|EC40": 140
 , "Kia|EV9": 134
 , "Smart|Hashtag 1": 132
 , "Mazda|MX-30 BEV": 127
 , "BMW|iX2": 123
-, "Honda|e:Ny1": 120
+, "Honda|e:Ny1": 121
 , "Jaguar|I-Pace": 119
 , "Jeep|Avenger EV": 111
 , "Hyundai|Ioniq 6": 102
-, "Peugeot|E-3008": 98
+, "Peugeot|E-3008": 99
 , "GWM|Ora 03": 97
-, "Vauxhall|other": 121
+, "Vauxhall|other": 122
 , "Audi|other": 107
 , "Fiat|other": 82
 , "BYD|other": 81
 , "Volkswagen|other": 80
-, "MG|other": 75
+, "MG|other": 76
 , "Subaru|other": 67
 , "Mercedes-Benz|other": 51
 , "BMW|other": 48
 , "Genesis|other": 36
 , "Peugeot|other": 30
 , "Hyundai|other": 20
-, "other": 2552
+, "other": 2507
 });
