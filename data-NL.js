@@ -6690,7 +6690,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 427
 , "Škoda|Enyaq": 389
 , "Audi|Q4 e-tron": 369
-, "Peugeot|e-208": 339
+, "Peugeot|e-208": 342
 , "BMW|iX1": 298
 , "Hyundai|Kona Electric": 168
 , "Volkswagen|ID.7": 166
@@ -6703,7 +6703,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|Avenger EV": 129
 , "Volkswagen|ID.4": 129
 , "BYD|Yuan Plus": 126
-, "BMW|i4": 123
+, "BMW|i4": 124
 , "Renault|Scénic E-Tech": 115
 , "Kia|EV9": 109
 , "Citroën|ë-C4": 106
@@ -6732,13 +6732,13 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 24
 , "Porsche|Taycan": 24
 , "Opel|Corsa-e": 23
-, "Volkswagen|other": 39
+, "Volkswagen|other": 40
 , "Mercedes-Benz|other": 30
 , "Renault|other": 29
 , "Opel|other": 26
 , "Hyundai|other": 22
+, "Fiat|other": 21
 , "Smart|other": 21
-, "Fiat|other": 20
 , "Nio|other": 20
 , "Nissan|other": 20
 , "MG|other": 19
@@ -6751,5 +6751,5 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 6
 , "Ford|other": 6
 , "Toyota|other": 6
-, "other": 215
+, "other": 209
 });
