@@ -2681,39 +2681,39 @@ db.insert(db.countries.DK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.ac
 });
 
 db.insert(db.countries.DK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/5, https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
-{ "Volkswagen|ID.4": 728
-, "Tesla|Model Y": 568
-, "Volvo|EX30": 555
-, "Audi|Q4 e-tron": 534
-, "Tesla|Model 3": 482
-, "Volkswagen|ID.3": 300
-, "Mercedes-Benz|EQA": 278
-, "Toyota|bZ4X": 262
-, "Škoda|Enyaq": 218
-, "Mercedes-Benz|EQB": 215
-, "Nissan|Ariya": 200
-, "Polestar|2": 197
+{ "Volkswagen|ID.4": 724
+, "Tesla|Model Y": 565
+, "Volvo|EX30": 553
+, "Audi|Q4 e-tron": 531
+, "Tesla|Model 3": 479
+, "Volkswagen|ID.3": 298
+, "Mercedes-Benz|EQA": 276
+, "Toyota|bZ4X": 260
+, "Škoda|Enyaq": 219
+, "Mercedes-Benz|EQB": 213
+, "Nissan|Ariya": 199
+, "Polestar|2": 196
 , "Volkswagen|ID.7": 187
-, "Volkswagen|ID.5": 176
-, "Volkswagen|ID. Buzz": 162
-, "Renault|Megane E-Tech": 152
-, "Hyundai|Kona Electric": 142
-, "Volvo|EX40": 124
-, "Cupra|Born": 123
-, "Ford|Mustang Mach-E": 116
-, "BYD|Dolphin": 115
-, "Mercedes-Benz|EQE": 112
-, "BMW|iX1": 109
+, "Volkswagen|ID.5": 175
+, "Volkswagen|ID. Buzz": 167
+, "Renault|Megane E-Tech": 155
+, "Hyundai|Kona Electric": 141
+, "Volvo|EX40": 126
+, "Cupra|Born": 122
+, "Ford|Mustang Mach-E": 115
+, "BYD|Dolphin": 114
+, "Mercedes-Benz|EQE": 111
+, "BMW|iX1": 108
+, "Kia|Niro EV": 106
 , "BMW|i5": 99
-, "Kia|Niro EV": 93
 , "Hyundai|Ioniq 5": 79
-, "MG|MG4 EV": 73
-, "Peugeot|E-3008": 69
-, "BMW|i4": 61
+, "MG|MG4 EV": 72
+, "Peugeot|E-3008": 68
+, "Kia|EV6": 63
+, "BMW|i4": 60
 , "BMW|iX3": 60
-, "Honda|e:Ny1": 60
-, "Kia|EV6": 58
-, "BYD|Seal": 53
+, "Honda|e:Ny1": 59
+, "BYD|Seal": 52
 , "Mazda|MX-30 BEV": 44
 , "MG|Marvel R": 36
 , "Mercedes-Benz|eCitan": 33
@@ -2739,5 +2739,6 @@ db.insert(db.countries.DK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 7
 , "Renault|other": 6
 , "BMW|other": 4
-, "other": 37
+, "MG|other": 4
+, "other": 41
 });
