@@ -4863,3 +4863,82 @@ db.insert(db.countries.IE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Porsche|other": 1
 , "other": 4
 });
+
+db.insert(db.countries.IE, "2024-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 511
+, "Toyota": 195
+, "Volkswagen": 129
+, "Škoda": 65
+, "Kia": 59
+, "Ford": 58
+, "BMW": 55
+, "Hyundai": 51
+, "Audi": 44
+, "Dacia": 29
+, "Seat": 29
+, "Citroën": 26
+, "Opel": 26
+, "Mercedes-Benz": 25
+, "Volvo": 20
+, "Mini": 19
+, "Peugeot": 19
+, "Suzuki": 17
+, "Polestar": 16
+, "MG": 13
+, "BYD": 12
+, "Renault": 10
+, "Cupra": 9
+, "Land Rover": 9
+, "Porsche": 9
+, "Nissan": 8
+, "Mazda": 5
+, "Jeep": 2
+, "Fiat": 1
+, "Honda": 1
+, "Smart": 1
+, "other": 15
+});
+
+db.insert(db.countries.IE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 289
+, "Tesla|Model Y": 222
+, "Volkswagen|ID.4": 26
+, "Polestar|2": 16
+, "BMW|iX1": 12
+, "Mini|Cooper SE": 12
+, "Toyota|bZ4X": 10
+, "Audi|Q4 e-tron": 7
+, "BMW|iX3": 7
+, "Hyundai|Kona Electric": 7
+, "MG|MG5 EV": 7
+, "BYD|Seal": 6
+, "BYD|Yuan Plus": 5
+, "Porsche|Taycan": 5
+, "Hyundai|Ioniq 5": 4
+, "MG|ZS EV": 4
+, "Nissan|Leaf": 4
+, "Volvo|EX30": 4
+, "Škoda|Enyaq": 4
+, "Peugeot|E-3008": 3
+, "Volvo|EX40": 3
+, "Cupra|Born": 2
+, "Kia|EV6": 2
+, "Kia|EV9": 2
+, "MG|MG4 EV": 2
+, "Mercedes-Benz|EQA": 2
+, "Renault|Megane E-Tech": 2
+, "Volkswagen|ID.3": 2
+, "Volkswagen|ID.7": 2
+, "BMW|i4": 1
+, "BYD|Dolphin": 1
+, "Citroën|ë-Berlingo Electric": 1
+, "Citroën|ë-C4": 1
+, "Jeep|Avenger EV": 1
+, "Kia|Niro EV": 1
+, "Mercedes-Benz|EQB": 1
+, "Mercedes-Benz|EQE": 1
+, "Mercedes-Benz|EQE SUV": 1
+, "Peugeot|e-Expert": 1
+, "Smart|Hashtag 3": 1
+, "Volkswagen|ID.5": 1
+});
