@@ -3338,7 +3338,7 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuni2024.ods",
-{ "BYD|Yuan Plus": 854
+{ "BYD|Yuan Plus": 457
 , "Tesla|Model Y": 614
 , "Tesla|Model 3": 420
 , "BMW|i4": 219
@@ -3348,5 +3348,5 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 153
 , "Cupra|Born": 144
 , "MG|MG4 EV": 95
-, "other": 2252
+, "other": 2649
 });
