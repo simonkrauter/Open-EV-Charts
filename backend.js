@@ -1638,17 +1638,21 @@ var db = {
         const category = result.categories[i];
         const value = this.queryChartData_calculateAverageValue(chartConfig, seriesRows[seriesName][category], averageCalculationList);
 
+        var categoryIndex = i;
         // Skip first 12 months which were included for calculation of trailing average
-        if (isTimeSpanExtendedForAverageCalculation && i < 12)
-          continue;
+        if (isTimeSpanExtendedForAverageCalculation) {
+          if (i < 12)
+            continue;
+          categoryIndex = i - 12;
+        }
 
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
-          if (i in totalSeries.data)
-            totalSeries.data[i] += value;
+          if (categoryIndex in totalSeries.data)
+            totalSeries.data[categoryIndex] += value;
           else
-            totalSeries.data[i] = value;
+            totalSeries.data[categoryIndex] = value;
         } else {
           if (chartConfig.view == this.views.barChart)
             newSeries.data.push(0);
@@ -1658,7 +1662,7 @@ var db = {
         // Add value to seriesSortValues
         if (value != null) {
           let factor = 1;
-          if (i >= result.categories.length / 2)
+          if (categoryIndex >= result.categories.length / 2)
             factor = 2;
           if (seriesName in seriesSortValues)
             seriesSortValues[seriesName] += value * factor;
