@@ -582,33 +582,31 @@ var db = {
       currentMonth = 12;
       currentYear--;
     }
-    if (!this.isByQuarter(chartConfig)) {
-      // single month
-      {
-        let year = currentYear;
-        let month = currentMonth;
-        for (let i = 0; i < 4; i++) {
-          param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
-          month--;
-          if (month < 1) {
-            month = 12;
-            year--;
-          }
+    // single month
+    if (!this.isByQuarter(chartConfig) && !this.isByMonth(chartConfig)) {
+      let year = currentYear;
+      let month = currentMonth;
+      for (let i = 0; i < 4; i++) {
+        param.options["m" + this.formatMonth(year, month)] = this.formatMonth(year, month);
+        month--;
+        if (month < 1) {
+          month = 12;
+          year--;
         }
       }
-      // single quarter
-      {
-        let year = currentYear;
-        let quarter = this.monthToQuarter(currentMonth);
-        for (let i = 0; i < 4; i++) {
-          param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
-          quarter--;
-          if (quarter < 1) {
-            quarter = 4;
-            year--;
-          }
-        }
     }
+    // single quarter
+    if (![this.xProperties.monthAvg3, this.xProperties.quarter].includes(chartConfig.xProperty)) {
+      let year = currentYear;
+      let quarter = this.monthToQuarter(currentMonth);
+      for (let i = 0; i < 4; i++) {
+        param.options["q" + year + "-" + quarter] = this.formatQuarter(year, quarter);
+        quarter--;
+        if (quarter < 1) {
+          quarter = 4;
+          year--;
+        }
+      }
     }
     // single year
     let year = currentYear;
