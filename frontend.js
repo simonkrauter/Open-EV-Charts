@@ -560,7 +560,7 @@ function formatValue(chartConfig, value) {
       return (Math.round(value * 10) / 10).toLocaleString() + " %";
   } else {
     if (value != null)
-      return value.toLocaleString();
+      return Math.round(value).toLocaleString();
     else
       return value;
   }
