@@ -413,17 +413,12 @@ a.screenshotModeButton {
   padding-top: 5px;
 }
 
-span.flagContainer {
-  position: relative;
-}
-span.flagContainer > *:first-child {
-  position: absolute;
-  top: 50%; /* vertical aligment */
-}
-span.flagContainer > *:nth-child(2) {
+.flag {
   display: inline-block;
+  margin-right: 5px;
+  transform: translateY(1.5px);
 }
-span.flagContainer > .nonEmpty:first-child {
+.flag.nonEmpty {
   outline: 1px solid #DEDEDE;
 }
 

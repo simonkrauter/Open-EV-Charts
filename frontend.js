@@ -1190,18 +1190,17 @@ function createCountryFlagContainer(countryCode, text, inTable = false) {
   const countryFlagHeight = 16;
   const countryFlagSpriteColumns = 5;
 
-  // create container
-  const flagContainer = document.createElement("SPAN");
-  flagContainer.classList.add("flagContainer");
+  // create container and placeholder
+  const container = document.createElement("SPAN");
   const flag = document.createElement("SPAN");
+  flag.classList.add("flag");
   if (countryCode || inTable) {
     flag.style.width = countryFlagWidth + "px";
     flag.style.height = countryFlagHeight + "px";
-    flag.style.marginTop = -countryFlagHeight / 2 + "px"; // vertical aligment
   }
-  flagContainer.appendChild(flag);
+  container.appendChild(flag);
 
-  // add flag
+  // set flag
   const countryId = db.countries[countryCode];
   if (countryCode && countryId) {
     flag.classList.add("nonEmpty");
@@ -1216,10 +1215,9 @@ function createCountryFlagContainer(countryCode, text, inTable = false) {
   // add text
   const textSpan = document.createElement("SPAN");
   textSpan.appendChild(document.createTextNode(text));
-  textSpan.style.marginLeft = (countryFlagWidth + 5) + "px";
-  flagContainer.appendChild(textSpan);
+  container.appendChild(textSpan);
 
-  return flagContainer;
+  return container;
 }
 
 function renderStatusPage() {
