@@ -19,13 +19,16 @@ input, select {
 }
 
 input[type=text] {
-  border: 0.12em solid white;
-  border-radius: 0.12em;
+  border: 2px solid white;
 }
 
 input[type=text]:focus {
-  border: 0.12em solid #EDDD00;
+  border-color: #EDDD00;
   outline: none;
+}
+
+input[type=text], a.button, .selectWrapper {
+  border-radius: 2px;
 }
 
 .title, .filters, th, .screenshotModeBanner {
@@ -67,13 +70,14 @@ a:hover {
 }
 
 a.button, .selectWrapper {
-  border-radius: 0.12em;
   display: inline-block;
   margin-top: 6px;
   margin-bottom: 6px;
   margin-left: 6px;
   margin-right: 6px;
   min-width: 80px;
+  background: #565656;
+  color: white;
 }
 
 @media (min-width: 1150px) {
@@ -81,11 +85,6 @@ a.button, .selectWrapper {
     margin-left: 12px;
     margin-right: 12px;
   }
-}
-
-a.button, .selectWrapper {
-  background: #565656;
-  color: white;
 }
 
 a.button.active, .selectWrapper.active, .horizontalBar {
@@ -291,7 +290,7 @@ div:not(.chartTile) > .chartTitle {
   padding: 3px 5px;
   text-align: left;
   border: 1px solid #BABABA;
-  border-radius: 0.12em;
+  border-radius: 2px;
   margin: 5px;
   overflow: hidden;
   position: relative;
