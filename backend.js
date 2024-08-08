@@ -1619,7 +1619,12 @@ var db = {
   queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, result) {
     // Creates the chart series based on 'seriesRows' and assigns them to 'result'
 
-    const isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
+    let isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
+    if (isTimeSpanExtendedForAverageCalculation && Object.keys(seriesRows).length > 0) {
+      const categoriesCount = Object.keys(seriesRows[Object.keys(seriesRows)[0]]).length;
+      if (categoriesCount <= 12)
+        isTimeSpanExtendedForAverageCalculation = false;
+    }
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
     result.series = [];
@@ -1638,7 +1643,7 @@ var db = {
         const category = result.categories[i];
         const value = this.queryChartData_calculateAverageValue(chartConfig, seriesRows[seriesName][category], averageCalculationList);
 
-        var categoryIndex = i;
+        let categoryIndex = i;
         // Skip first 12 months which were included for calculation of trailing average
         if (isTimeSpanExtendedForAverageCalculation) {
           if (i < 12)
