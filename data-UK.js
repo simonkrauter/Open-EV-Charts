@@ -3327,35 +3327,35 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.sm
 });
 
 db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/6 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
-{ "Tesla|Model Y": 3610
+{ "Tesla|Model Y": 3612
 , "Tesla|Model 3": 3080
-, "Audi|Q4 e-tron": 1659
+, "Audi|Q4 e-tron": 1660
 , "Hyundai|Kona Electric": 1156
 , "Volvo|EX30": 995
 , "MG|MG4 EV": 986
 , "BMW|i4": 979
+, "Mercedes-Benz|EQA": 830
 , "Mini|Cooper SE": 830
-, "Mercedes-Benz|EQA": 829
-, "BMW|iX1": 822
+, "BMW|iX1": 823
 , "Volkswagen|ID.4": 812
 , "Škoda|Enyaq": 739
 , "Nissan|Ariya": 729
-, "Vauxhall|Mokka-e": 657
+, "Vauxhall|Mokka-e": 660
 , "Polestar|2": 643
 , "Mercedes-Benz|EQB": 588
 , "Volkswagen|ID.3": 582
-, "Cupra|Born": 567
+, "Cupra|Born": 568
 , "Kia|EV6": 558
 , "BMW|iX3": 547
-, "Nissan|Leaf": 482
+, "Nissan|Leaf": 483
 , "Volvo|EX40": 477
 , "Hyundai|Ioniq 5": 447
 , "Ford|Mustang Mach-E": 423
 , "Kia|Niro EV": 405
-, "Peugeot|E-3008": 394
-, "Vauxhall|Corsa-e": 380
+, "Peugeot|E-3008": 398
+, "Vauxhall|Corsa-e": 386
 , "BMW|iX2": 369
-, "Peugeot|e-2008": 341
+, "Peugeot|e-2008": 344
 , "Toyota|bZ4X": 335
 , "BYD|Dolphin": 295
 , "Audi|Q8 e-tron": 284
@@ -3363,11 +3363,11 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "GWM|Ora 03": 270
 , "BMW|i5": 265
 , "MG|ZS EV": 262
-, "Renault|Megane E-Tech": 251
+, "Renault|Megane E-Tech": 254
 , "BYD|Yuan Plus": 250
 , "Vauxhall|Combo-e": 237
 , "Vauxhall|Astra Electric": 210
-, "Peugeot|e-208": 208
+, "Peugeot|e-208": 209
 , "Mazda|MX-30 BEV": 203
 , "Honda|e:Ny1": 199
 , "Jeep|Avenger EV": 187
@@ -3378,7 +3378,7 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 136
 , "Fiat|500e": 129
 , "Hyundai|other": 142
-, "BMW|other": 135
+, "BMW|other": 136
 , "Smart|other": 130
 , "Mercedes-Benz|other": 127
 , "Jaguar|other": 122
@@ -3394,5 +3394,5 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 41
 , "Vauxhall|other": 22
 , "Tesla|other": 21
-, "other": 2698
+, "other": 2670
 });
