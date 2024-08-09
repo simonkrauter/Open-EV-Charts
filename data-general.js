@@ -186,6 +186,7 @@ const brandCountries =
 , "Ford": "US"
 , "Hawtai": "CN"
 , "Honda": "JP"
+, "Isuzu": "JP"
 , "JAC": "CN"
 , "Jeep": "US"
 , "Jeep/Dodge": "US"
