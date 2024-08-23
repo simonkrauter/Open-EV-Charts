@@ -4942,3 +4942,107 @@ db.insert(db.countries.IE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Smart|Hashtag 3": 1
 , "Volkswagen|ID.5": 1
 });
+
+db.insert(db.countries.IE, "2024-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 3833
+, "Volkswagen": 3298
+, "Hyundai": 2912
+, "Škoda": 2378
+, "Kia": 1934
+, "Audi": 1095
+, "Dacia": 1023
+, "Renault": 959
+, "Peugeot": 946
+, "BMW": 928
+, "Ford": 759
+, "Nissan": 734
+, "Mercedes-Benz": 643
+, "Seat": 638
+, "Opel": 502
+, "Volvo": 404
+, "Suzuki": 360
+, "Mazda": 305
+, "BYD": 279
+, "Cupra": 251
+, "Tesla": 203
+, "MG": 198
+, "Citroën": 195
+, "Land Rover": 173
+, "Mini": 155
+, "Fiat": 142
+, "Porsche": 66
+, "Honda": 54
+, "Polestar": 23
+, "Jeep": 20
+, "Smart": 9
+, "GWM": 5
+, "Jaguar": 5
+, "Subaru": 4
+, "other": 258
+});
+
+db.insert(db.countries.IE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 418
+, "Kia|EV6": 175
+, "Tesla|Model Y": 167
+, "Hyundai|Ioniq 5": 135
+, "BYD|Seal": 121
+, "Hyundai|Kona Electric": 114
+, "Toyota|bZ4X": 108
+, "Peugeot|E-3008": 101
+, "Volvo|EX30": 88
+, "Kia|Niro EV": 84
+, "BYD|Dolphin": 83
+, "Volkswagen|ID.7": 82
+, "Renault|Megane E-Tech": 81
+, "Audi|Q4 e-tron": 80
+, "MG|MG4 EV": 80
+, "BYD|Yuan Plus": 75
+, "Nissan|Leaf": 68
+, "Volkswagen|ID.3": 61
+, "Kia|EV9": 60
+, "Nissan|Ariya": 60
+, "Hyundai|Ioniq 6": 58
+, "BMW|iX1": 54
+, "Mini|Cooper SE": 52
+, "BMW|i4": 45
+, "Volkswagen|ID. Buzz": 45
+, "BMW|iX3": 44
+, "Renault|Scénic E-Tech": 43
+, "MG|ZS EV": 42
+, "Volvo|EX40": 41
+, "Tesla|Model 3": 36
+, "Škoda|Enyaq": 35
+, "Cupra|Born": 33
+, "MG|MG5 EV": 33
+, "Citroën|ë-C4": 30
+, "Peugeot|e-308": 29
+, "Audi|Q8 e-tron": 25
+, "Mercedes-Benz|EQE": 22
+, "Volkswagen|ID.5": 22
+, "Volvo|EC40": 22
+, "Polestar|2": 20
+, "Mercedes-Benz|EQE SUV": 19
+, "Opel|Mokka-e": 17
+, "BMW|i5": 12
+, "Mercedes-Benz|EQB": 11
+, "Mazda|MX-30 BEV": 9
+, "Audi|Q6 e-tron": 8
+, "Mercedes-Benz|EQA": 8
+, "Mercedes-Benz|EQS": 6
+, "Mercedes-Benz|EQS SUV": 6
+, "Opel|Astra Electric": 6
+, "Porsche|Taycan": 6
+, "Smart|other": 9
+, "Citroën|other": 7
+, "GWM|other": 5
+, "Peugeot|other": 5
+, "BMW|other": 4
+, "Fiat|other": 4
+, "Jaguar|other": 4
+, "Ford|other": 3
+, "Polestar|other": 3
+, "Opel|other": 2
+, "Subaru|other": 2
+, "other": 10
+});
