@@ -5770,3 +5770,108 @@ db.insert(db.countries.SE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|other": 5
 , "other": 163
 });
+
+db.insert(db.countries.SE, "2024-07", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 2863
+, "Volkswagen": 1743
+, "Mercedes-Benz": 1403
+, "Kia": 1401
+, "Tesla": 1146
+, "Toyota": 1058
+, "Audi": 834
+, "Škoda": 751
+, "BMW": 726
+, "Peugeot": 634
+, "Polestar": 377
+, "MG": 326
+, "Ford": 244
+, "Fiat": 224
+, "Opel": 224
+, "Renault": 214
+, "Nissan": 213
+, "Subaru": 201
+, "Cupra": 188
+, "Hyundai": 164
+, "Seat": 149
+, "Porsche": 147
+, "Dacia": 131
+, "Citroën": 107
+, "Mazda": 106
+, "BYD": 79
+, "Suzuki": 72
+, "Mini": 51
+, "Honda": 39
+, "Geely": 33
+, "Land Rover": 29
+, "Nio": 17
+, "Mitsubishi": 15
+, "Jeep": 11
+, "GWM": 8
+, "Jaguar": 6
+, "Smart": 3
+, "Chevrolet": 2
+, "JAC": 2
+, "other": 396
+});
+
+db.insert(db.countries.SE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Tesla|Model Y": 1001
+, "Volkswagen|ID.4": 458
+, "Volvo|EX30": 443
+, "Polestar|2": 341
+, "Volvo|EX40": 286
+, "Škoda|Enyaq": 224
+, "MG|ZS EV": 173
+, "Kia|EV9": 145
+, "Volvo|EC40": 144
+, "Volkswagen|ID.7": 143
+, "Tesla|Model 3": 136
+, "MG|MG4 EV": 133
+, "Kia|EV6": 127
+, "Kia|Niro EV": 124
+, "Mercedes-Benz|EQE": 117
+, "Audi|Q4 e-tron": 114
+, "Mercedes-Benz|EQB": 106
+, "BMW|iX1": 80
+, "BMW|i5": 79
+, "Audi|Q6 e-tron": 66
+, "Volkswagen|ID.3": 64
+, "BMW|i4": 62
+, "Mercedes-Benz|EQA": 54
+, "Cupra|Born": 51
+, "Audi|Q8 e-tron": 48
+, "Hyundai|Kona Electric": 48
+, "Ford|Mustang Mach-E": 43
+, "Hyundai|Ioniq 5": 40
+, "Renault|Scénic E-Tech": 38
+, "BYD|Dolphin": 33
+, "BMW|iX2": 30
+, "Volkswagen|ID. Buzz": 30
+, "BMW|iX3": 28
+, "BMW|iX": 27
+, "Toyota|bZ4X": 26
+, "BYD|Yuan Plus": 25
+, "Mini|Cooper SE": 21
+, "Polestar|4": 21
+, "Porsche|Taycan": 21
+, "Peugeot|E-3008": 20
+, "BYD|Seal": 18
+, "Polestar|3": 15
+, "Nissan|Ariya": 14
+, "Subaru|Solterra": 13
+, "Nio|ET7": 11
+, "GWM|Ora 03": 8
+, "Hyundai|Ioniq 6": 8
+, "Mercedes-Benz|EQS": 7
+, "Nissan|Leaf": 7
+, "Renault|Zoe": 6
+, "Tesla|other": 9
+, "MG|other": 6
+, "Nio|other": 6
+, "Fiat|other": 5
+, "Audi|other": 4
+, "BYD|other": 3
+, "Renault|other": 3
+, "Smart|other": 3
+, "other": 200
+});
