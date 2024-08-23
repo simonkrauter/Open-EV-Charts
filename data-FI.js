@@ -5155,3 +5155,94 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 1
 , "other": 133
 });
+
+db.insert(db.countries.FI, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2879/July_2024.xlsx",
+{ "Toyota": 984
+, "Volvo": 523
+, "Škoda": 428
+, "Volkswagen": 425
+, "Kia": 387
+, "Nissan": 279
+, "Mercedes-Benz": 262
+, "Hyundai": 233
+, "BMW": 215
+, "Ford": 171
+, "Audi": 162
+, "Opel": 111
+, "Peugeot": 109
+, "Suzuki": 83
+, "Polestar": 68
+, "Mazda": 62
+, "Renault": 60
+, "Tesla": 59
+, "BYD": 55
+, "Mitsubishi": 41
+, "Subaru": 41
+, "Citroën": 33
+, "Cupra": 33
+, "Seat": 25
+, "Dacia": 20
+, "Porsche": 19
+, "Honda": 18
+, "Land Rover": 15
+, "Mini": 8
+, "other": 266
+});
+
+db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/7, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volvo|EX30": 161
+, "Volkswagen|ID.4": 101
+, "Škoda|Enyaq": 83
+, "Volvo|EX40": 81
+, "Audi|Q4 e-tron": 56
+, "Tesla|Model Y": 48
+, "Volvo|EC40": 43
+, "Nissan|Leaf": 38
+, "Mercedes-Benz|EQE": 37
+, "Hyundai|Ioniq 5": 36
+, "Kia|EV6": 34
+, "BYD|Seal": 33
+, "Volkswagen|ID.7": 27
+, "BMW|i5": 26
+, "Audi|Q6 e-tron": 25
+, "Mercedes-Benz|EQA": 25
+, "BMW|i4": 24
+, "Hyundai|Kona Electric": 24
+, "Nissan|Ariya": 24
+, "Toyota|bZ4X": 24
+, "Renault|Scénic E-Tech": 23
+, "Mercedes-Benz|EQB": 21
+, "Kia|Niro EV": 19
+, "Subaru|Solterra": 19
+, "Peugeot|E-3008": 17
+, "BYD|Yuan Plus": 16
+, "Kia|EV9": 16
+, "Volkswagen|ID.3": 16
+, "Cupra|Born": 15
+, "BMW|iX1": 13
+, "Hyundai|Ioniq 6": 13
+, "Ford|Mustang Mach-E": 12
+, "BMW|iX2": 11
+, "BMW|iX": 9
+, "Audi|Q8 e-tron": 8
+, "Mini|Cooper SE": 7
+, "Porsche|Taycan": 7
+, "Mercedes-Benz|EQS": 6
+, "Tesla|Model 3": 6
+, "BYD|Han EV": 4
+, "Tesla|Model X": 3
+, "Citroën|ë-Berlingo Electric": 2
+, "Opel|Mokka-e": 2
+, "Opel|Zafira-e": 2
+, "Renault|Megane E-Tech": 2
+, "Tesla|Model S": 2
+, "BMW|i7": 1
+, "BMW|iX3": 1
+, "BYD|Dolphin": 1
+, "BYD|Tang EV": 1
+, "Fiat|500e": 1
+, "Mercedes-Benz|EQV": 1
+, "Peugeot|e-2008": 1
+, "Peugeot|e-308": 1
+, "other": 111
+});
