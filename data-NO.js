@@ -5308,7 +5308,7 @@ db.insert(db.countries.NO, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 11
 , "Volkswagen|other": 11
 , "JAC|other": 10
-, "other": 851
+, "other": 855
 });
 
 
