@@ -228,10 +228,9 @@ function renderFilterAsButtons(parentDiv, param) {
     newChartConfig[param.name] = optionKey;
     db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
 
-    let button = document.createElement("A");
+    let button = createButton();
     div.appendChild(button);
     button.href = "#" + db.encodeChartConfig(newChartConfig);
-    button.classList.add("button");
     if (selectedKeys.includes(optionKey))
       button.classList.add("active");
     else if (extendedOptionStartIndex != -1 && optionIndex >= extendedOptionStartIndex)
@@ -279,15 +278,13 @@ function renderFilterAsButtons(parentDiv, param) {
 
   // Add "Show more" button
   if (extendedOptionStartIndex != -1) {
-    let button = document.createElement("A");
-    button.href = "#";
+    let button = createButton();
     div.appendChild(button);
     button.addEventListener("click", function(event) {
       event.preventDefault();
       div.classList.add("showAllOptions");
       activeShowAllOptionsParamName = param.name;
     });
-    button.classList.add("button");
     button.classList.add("showMore");
     button.appendChild(document.createTextNode(param.moreButtonText));
     button.title = "Show more options";
