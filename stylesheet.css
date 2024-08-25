@@ -79,6 +79,7 @@ a.button, .selectWrapper {
   min-width: 80px;
   background: #565656;
   color: white;
+  user-select: none;
 }
 
 @media (min-width: 1150px) {
