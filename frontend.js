@@ -1130,26 +1130,24 @@ function renderSources(chartConfig, chartDiv, chartData) {
     const li = document.createElement("LI");
     ol.appendChild(li);
     li.appendChild(document.createTextNode(entry.prefix + ": "));
-    {
-      const parts = entry.text.split(" ");
-      for (const i in parts) {
-        let part = parts[i];
-        if (i > 0)
-          li.appendChild(document.createTextNode(" "));
-        const protSep = part.search("://");
-        if (protSep != -1) {
-          const link = document.createElement("A");
-          li.appendChild(link);
-          if (part.endsWith(",")) {
-            part = part.substr(0, part.length - 1);
-            li.appendChild(document.createTextNode(","));
-          }
-          link.href = part;
-          link.target = "_blank";
-          link.appendChild(document.createTextNode(part.substr(protSep + 3)));
-        } else {
-          li.appendChild(document.createTextNode(part));
+    const parts = entry.text.split(" ");
+    for (const j in parts) {
+      let part = parts[j];
+      if (j > 0)
+        li.appendChild(document.createTextNode(" "));
+      const protSep = part.search("://");
+      if (protSep != -1) {
+        const link = document.createElement("A");
+        li.appendChild(link);
+        if (part.endsWith(",")) {
+          part = part.substr(0, part.length - 1);
+          li.appendChild(document.createTextNode(","));
         }
+        link.href = part;
+        link.target = "_blank";
+        link.appendChild(document.createTextNode(part.substr(protSep + 3)));
+      } else {
+        li.appendChild(document.createTextNode(part));
       }
     }
   }
