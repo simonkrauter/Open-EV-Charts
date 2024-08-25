@@ -52,13 +52,6 @@ input[type=text], a.button, .selectWrapper {
   padding-right: 10px;
 }
 
-.screenshotModeBanner > a {
-  display: inline-block;
-  padding: 10px;
-  color: white;
-  font-size: 110%;
-}
-
 a, a:visited {
   color: #0067CE;
   text-decoration: none;
@@ -67,6 +60,14 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+.screenshotModeBanner > a {
+  display: inline-block;
+  padding: 7px;
+  margin: 3px;
+  color: white;
+  font-size: 110%;
 }
 
 a.button, .selectWrapper {

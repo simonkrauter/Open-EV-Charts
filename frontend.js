@@ -112,6 +112,7 @@ function renderPage() {
     const div = document.createElement("DIV");
     div.classList.add("screenshotModeBanner");
     const exitButton = document.createElement("A");
+    exitButton.href = "#";
     exitButton.addEventListener("click", function(event) {
       event.preventDefault();
       isScreenshotModeEnabled = false;
@@ -419,10 +420,12 @@ function renderHints(chartDiv, chartConfig, chartData) {
     if (hintsDiv.offsetHeight > maxHintsHeight) {
       // expand button
       let expandHintsButton = document.createElement("A");
+      expandHintsButton.href = "#";
       expandHintsButton.classList.add("expand");
       expandHintsButton.appendChild(document.createElement("DIV"));
       expandHintsButton.title = "Expand Hints";
       expandHintsButton.addEventListener("click", function() {
+        event.preventDefault();
         hintsDiv.style.maxHeight = "";
         expandHintsButton.style.display = "none";
         collapseHintsButton.style.display = "";
@@ -431,10 +434,12 @@ function renderHints(chartDiv, chartConfig, chartData) {
       hintsDiv.appendChild(expandHintsButton);
       // collapse button
       let collapseHintsButton = document.createElement("A");
+      collapseHintsButton.href = "#";
       collapseHintsButton.classList.add("collapse");
       collapseHintsButton.appendChild(document.createElement("DIV"));
       collapseHintsButton.title = "Collapse Hints";
       collapseHintsButton.addEventListener("click", function() {
+        event.preventDefault();
         hintsDiv.style.maxHeight = maxHintsHeight + "px";
         collapseHintsButton.style.display = "none";
         expandHintsButton.style.display = "";
@@ -717,6 +722,7 @@ function setChartSize(element) {
 
 function addScreenshotModeButton(parent) {
   const button = document.createElement("A");
+  button.href = "#";
   button.appendChild(document.createTextNode("Screenshot Mode"));
   button.classList.add("export");
   button.classList.add("screenshotModeButton");
@@ -791,6 +797,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
 function renderTableExportButton(chartDiv, table, format) {
   const containerDivId = "tableExportContainer";
   const exportButton = document.createElement("A");
+  exportButton.href = "#";
   exportButton.appendChild(document.createTextNode(format));
   exportButton.classList.add("export");
   exportButton.title = "Export table as " + format;
