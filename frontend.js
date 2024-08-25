@@ -111,8 +111,7 @@ function renderPage() {
   if (isScreenshotModeEnabled) {
     const div = document.createElement("DIV");
     div.classList.add("screenshotModeBanner");
-    const exitButton = document.createElement("A");
-    exitButton.href = "#";
+    const exitButton = createLink();
     exitButton.addEventListener("click", function(event) {
       event.preventDefault();
       isScreenshotModeEnabled = false;
@@ -355,8 +354,7 @@ function renderChartTitle(chartDiv, chartConfig) {
   if (isSingleChart)
     titleElem = document.createElement("DIV");
   else {
-    titleElem = document.createElement("A");
-    titleElem.href = "#" + db.encodeChartConfig(chartConfig);
+    titleElem = createLink(db.encodeChartConfig(chartConfig));
     titleElem.title = "Show only this chart (bigger)";
   }
   chartDiv.appendChild(titleElem);
@@ -416,8 +414,7 @@ function renderHints(chartDiv, chartConfig, chartData) {
     // collapse hints
     if (hintsDiv.offsetHeight > maxHintsHeight) {
       // expand button
-      let expandHintsButton = document.createElement("A");
-      expandHintsButton.href = "#";
+      let expandHintsButton = createLink();
       expandHintsButton.classList.add("expand");
       expandHintsButton.appendChild(document.createElement("DIV"));
       expandHintsButton.title = "Expand Hints";
@@ -430,8 +427,7 @@ function renderHints(chartDiv, chartConfig, chartData) {
       });
       hintsDiv.appendChild(expandHintsButton);
       // collapse button
-      let collapseHintsButton = document.createElement("A");
-      collapseHintsButton.href = "#";
+      let collapseHintsButton = createLink();
       collapseHintsButton.classList.add("collapse");
       collapseHintsButton.appendChild(document.createElement("DIV"));
       collapseHintsButton.title = "Collapse Hints";
@@ -460,7 +456,7 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
   } else {
     let newChartConfig = db.cloneObject(chartSetConfig);
     newChartConfig.view = key;
-    element = createLinkToHash(db.encodeChartConfig(newChartConfig));
+    element = createLink(db.encodeChartConfig(newChartConfig));
   }
   tabButtonsDiv.appendChild(element);
   element.appendChild(document.createTextNode(title));
@@ -519,7 +515,7 @@ function addShowAllChartsButton() {
   });
 }
 
-function createLinkToHash(hash) {
+function createLink(hash = "") {
   const a = document.createElement("A");
   a.href = "#" + hash;
   return a;
@@ -527,9 +523,8 @@ function createLinkToHash(hash) {
 
 function createButton() {
   // Creates an A element which can be used as a button
-  let button = document.createElement("A");
+  let button = createLink();
   button.classList.add("button");
-  button.href = "#";
   return button;
 }
 
@@ -718,8 +713,7 @@ function setChartSize(element) {
 }
 
 function addScreenshotModeButton(parent) {
-  const button = document.createElement("A");
-  button.href = "#";
+  const button = createLink();
   button.appendChild(document.createTextNode("Screenshot Mode"));
   button.classList.add("export");
   button.classList.add("screenshotModeButton");
@@ -793,8 +787,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
 
 function renderTableExportButton(chartDiv, table, format) {
   const containerDivId = "tableExportContainer";
-  const exportButton = document.createElement("A");
-  exportButton.href = "#";
+  const exportButton = createLink();
   exportButton.appendChild(document.createTextNode(format));
   exportButton.classList.add("export");
   exportButton.title = "Export table as " + format;
@@ -1058,7 +1051,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   // add cell content
   let containerElement;
   if (hasLink)
-    containerElement = createLinkToHash(db.encodeChartConfig(newChartConfig));
+    containerElement = createLink(db.encodeChartConfig(newChartConfig));
   else
     containerElement = document.createElement("SPAN");
   cell.appendChild(containerElement);
@@ -1235,7 +1228,7 @@ function renderStatusPage() {
     if (hash == currentHash)
       element = document.createElement("DIV");
     else
-      element = createLinkToHash(hash);
+      element = createLink(hash);
     tabButtonsDiv.appendChild(element);
     element.appendChild(document.createTextNode(tabs[hash]));
   }
@@ -1325,7 +1318,7 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      const a = createLinkToHash(db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all}));
+      const a = createLink(db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all}));
       td.appendChild(a);
       a.appendChild(createCountryFlagContainer(countryCode, countryName, true));
     }
@@ -1442,7 +1435,7 @@ function renderCompaniesStatusPage() {
     firstTr.appendChild(companyTd);
     {
       const countryCode = getCountryCodeForCompanyOrBrand(company);
-      const a = createLinkToHash(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": db.urlEncode(company)}));
+      const a = createLink(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": db.urlEncode(company)}));
       companyTd.appendChild(a);
       a.appendChild(createCountryFlagContainer(countryCode, company, true));
     }
@@ -1461,7 +1454,7 @@ function renderCompaniesStatusPage() {
         newChartConfig.company = db.urlEncode(company);
         newChartConfig.brand = db.urlEncode(brand);
         newChartConfig.detailLevel = db.detailLevels.brand;
-        const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
+        const a = createLink(db.encodeChartConfig(newChartConfig));
         td.appendChild(a);
         a.appendChild(createCountryFlagContainer(countryCode, brand, true));
         addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
@@ -1533,7 +1526,7 @@ function renderModelsStatusPage() {
       newChartConfig.brand = db.urlEncode(brand);
       newChartConfig.model = db.urlEncode(model);
       newChartConfig.detailLevel = db.detailLevels.model;
-      const a = createLinkToHash(db.encodeChartConfig(newChartConfig));
+      const a = createLink(db.encodeChartConfig(newChartConfig));
       td.appendChild(a);
       a.appendChild(document.createTextNode(model));
       addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model);
