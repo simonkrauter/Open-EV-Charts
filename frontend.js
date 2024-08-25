@@ -520,10 +520,6 @@ function addShowAllChartsButton() {
 function createLinkToHash(hash) {
   const a = document.createElement("A");
   a.href = "#" + hash;
-  a.addEventListener("click", function(event) {
-    event.preventDefault();
-    navigateToHash(hash);
-  });
   return a;
 }
 
@@ -532,16 +528,6 @@ function createButton() {
   let button = document.createElement("A");
   button.classList.add("button");
   button.href = "#";
-  button.addEventListener("keydown", function(event) {
-    if (event.keyCode === 13) {
-      // Trigger the "click" event for the deepest child element
-      event.preventDefault();
-      let node = event.target;
-      while (node.childNodes.length > 0 && node.childNodes[0].nodeType == Node.ELEMENT_NODE)
-        node = node.childNodes[0];
-      node.click();
-    }
-  });
   return button;
 }
 
