@@ -53,8 +53,8 @@ var currentExportFormat;
 setGlobalChartOptions();
 navigate();
 
-function navigate(retainShowAllOptionsParamName) {
-  if (retainShowAllOptionsParamName === undefined || activeShowAllOptionsParamName != retainShowAllOptionsParamName)
+function navigate(retainShowAllOptionsParamName = "") {
+  if (activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
   currentHash = decodeURIComponent(location.hash.substr(1));
@@ -81,7 +81,7 @@ function navigate(retainShowAllOptionsParamName) {
   logVisit();
 }
 
-function navigateToHash(hash, retainShowAllOptionsParamName) {
+function navigateToHash(hash, retainShowAllOptionsParamName = "") {
   history.pushState(null, null, "#" + hash);
   navigate(retainShowAllOptionsParamName);
 }
