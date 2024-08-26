@@ -38,6 +38,7 @@ homeLink.addEventListener("click", function(event) {
 
 const maxHintsHeight = 75;
 
+var chartsDiv;
 var currentHash;
 var isScreenshotModeEnabled;
 var isShowAllChartsEnabled;
@@ -53,7 +54,7 @@ var currentExportFormat;
 setGlobalChartOptions();
 navigate();
 
-function navigate(retainShowAllOptionsParamName = "") {
+function navigate(retainShowAllOptionsParamName = "", renderOnlyCharts = false) {
   if (activeShowAllOptionsParamName != retainShowAllOptionsParamName)
     activeShowAllOptionsParamName = "";
 
@@ -77,13 +78,17 @@ function navigate(retainShowAllOptionsParamName = "") {
   isHintsDivExpanded = false;
   currentExportFormat = null;
 
-  renderPage();
+  if (renderOnlyCharts && chartsDiv != null)
+    renderCharts();
+  else
+    renderPage();
+
   logVisit();
 }
 
-function navigateToHash(hash, retainShowAllOptionsParamName = "") {
+function navigateToHash(hash, retainShowAllOptionsParamName = "", renderOnlyCharts = false) {
   history.pushState(null, null, "#" + hash);
-  navigate(retainShowAllOptionsParamName);
+  navigate(retainShowAllOptionsParamName, renderOnlyCharts);
 }
 
 function logVisit() {
@@ -94,9 +99,31 @@ function logVisit() {
   }
 }
 
+function renderCharts() {
+  // Render the current charts
+
+  chartsDiv.innerHTML = "";
+
+  // Prevent displaying of too many charts at once
+  let maxVisibleCharts = 4;
+  if (isWidthEnoughForFilterAsButtons())
+    maxVisibleCharts = 6;
+
+  for (const chartIndex in chartConfigs) {
+    renderChart(chartIndex);
+    if (chartIndex == maxVisibleCharts - 1 && !isShowAllChartsEnabled) {
+      addShowAllChartsButton();
+      break;
+    }
+  }
+}
+
 function renderPage() {
+  // (Re-)render the full page
+
   dynamicContent.innerHTML = "";
   hintsDiv = null;
+  chartsDiv = null;
 
   if (currentHash.startsWith("status")) {
     renderStatusPage();
@@ -124,18 +151,9 @@ function renderPage() {
     renderFilters();
   }
 
-  // Prevent displaying of too many charts at once
-  let maxVisibleCharts = 4;
-  if (isWidthEnoughForFilterAsButtons())
-    maxVisibleCharts = 6;
-
-  for (const chartIndex in chartConfigs) {
-    renderChart(chartIndex);
-    if (chartIndex == maxVisibleCharts - 1 && !isShowAllChartsEnabled) {
-      addShowAllChartsButton();
-      break;
-    }
-  }
+  chartsDiv = document.createElement("DIV");
+  dynamicContent.appendChild(chartsDiv);
+  renderCharts();
 }
 
 function renderFilters() {
@@ -307,7 +325,7 @@ function renderChart(chartIndex) {
   const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
 
   const chartDiv = document.createElement("DIV");
-  dynamicContent.appendChild(chartDiv);
+  chartsDiv.appendChild(chartDiv);
   chartDiv.dataChartIndex = chartIndex;
   chartDiv.classList.add("chartTile");
   if (isSingleChart)
