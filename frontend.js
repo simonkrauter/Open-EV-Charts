@@ -1096,7 +1096,7 @@ function addThSortClickEvent(chartConfig, cell, columnIndex) {
     cell.addEventListener("click", function(event) {
       event.preventDefault();
       sortByName = columnIndex == 0;
-      renderPage();
+      renderCharts();
     });
     cell.style.cursor = "pointer";
   }
