@@ -46,6 +46,7 @@ homeLink.addEventListener("click", function(event) {
 
 const maxHintsHeight = 75;
 
+var filtersDiv;
 var chartsDiv;
 var currentHash;
 var isScreenshotModeEnabled;
@@ -168,9 +169,9 @@ function renderPage() {
 }
 
 function renderFilters() {
-  const div = document.createElement("DIV");
-  dynamicContent.appendChild(div);
-  div.classList.add("filters");
+  filtersDiv = document.createElement("DIV");
+  dynamicContent.appendChild(filtersDiv);
+  filtersDiv.classList.add("filters");
 
   const params = db.getChartParams(chartSetConfig);
   for (const i in params) {
@@ -178,9 +179,9 @@ function renderFilters() {
     if (!param.showAsFilter)
       continue;
     if (showFilterAsButtons(param))
-      renderFilterAsButtons(div, param);
+      renderFilterAsButtons(filtersDiv, param);
     else
-      renderFilterAsDropdown(div, param);
+      renderFilterAsDropdown(filtersDiv, param);
   }
 }
 
