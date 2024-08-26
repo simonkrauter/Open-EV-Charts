@@ -527,7 +527,7 @@ function chartRemoveClick(event) {
 
 function addShowAllChartsButton() {
   const div = document.createElement("DIV");
-  dynamicContent.appendChild(div);
+  chartsDiv.appendChild(div);
   let button = createButton();
   div.appendChild(button);
   button.appendChild(document.createTextNode("Show All Charts"));
