@@ -13,6 +13,10 @@ body.screenshotMode {
   background: #262626;
 }
 
+body.showFocus *:not(input[type=text]):focus {
+  outline: 3px solid #EDDD00;
+}
+
 input, select {
   font-size: inherit;
   font-family: inherit;
@@ -172,10 +176,6 @@ h1 sup {
 select:focus {
   outline: 0;
   border: 0;
-}
-
-body.showFocus *:not(input[type=text]):focus {
-  outline: 3px solid #EDDD00;
 }
 
 .filters {
