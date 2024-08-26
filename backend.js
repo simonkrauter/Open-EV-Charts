@@ -364,6 +364,7 @@ var db = {
       param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
       param.options[this.metrics.shareAll] = "All Cars Market Split";
       param.options[this.metrics.all] = "All Metrics";
+      param.allOptions = param.options;
       param.unfoldKey = this.metrics.all;
       param.defaultOption = this.metrics.ratioElectric;
       param.alwaysAddToUrl = true;
@@ -379,14 +380,16 @@ var db = {
     {
       let param = {};
       param.name = "country";
-      param.options = {};
-      param.options[this.countryOptions.all] = "All Countries";
-      if (chartConfig == null || (chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand))
-        param.options[this.countryOptions.combine] = "Combine Countries";
+      param.allOptions = {};
+      param.allOptions[this.countryOptions.all] = "All Countries";
+      param.allOptions[this.countryOptions.combine] = "Combine Countries";
       for (const i in this.countriesWithData) {
         const id = this.countriesWithData[i];
-        param.options[db.countriesCodes[id]] = this.countryNames[id];
+        param.allOptions[db.countriesCodes[id]] = this.countryNames[id];
       }
+      param.options = this.cloneObject(param.allOptions);
+      if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
+        delete param.options[this.countryOptions.combine];
       param.unfoldKey = this.countryOptions.all;
       param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
       param.noMultiSelectOptions = [this.countryOptions.all];
@@ -419,6 +422,7 @@ var db = {
         param.options[this.xProperties.brand] = "By Brand";
       if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
         param.options[this.xProperties.model] = "By Model";
+      param.allOptions = param.options;
       param.defaultOption = this.xProperties.quarter;
       param.showAsFilter = true;
       param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
@@ -434,6 +438,7 @@ var db = {
       param.options = {};
       param.options[this.timeSpanOptions.auto] = "Auto Time Span";
       param.options[this.timeSpanOptions.all] = "All Time";
+      param.allOptions = param.options;
       this.setTimeSpanParamOptions(param, chartConfig);
       param.defaultOption = this.timeSpanOptions.auto;
       param.showInTitle = chartConfig == null || !this.isTimeXProperty(chartConfig);
@@ -454,6 +459,7 @@ var db = {
         if (chartConfig == null || ![this.metrics.salesAll, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
           param.options[this.detailLevels.model] = "Split Models";
       }
+      param.allOptions = param.options;
       param.defaultOption = this.detailLevels.company;
       param.showAlwaysAsActive = true;
       result[param.name] = param;
@@ -480,6 +486,7 @@ var db = {
           }
         }
       }
+      param.allOptions = param.options;
       param.defaultOption = this.companyOptions.all;
       param.excludeOnUnfoldAndTitle = [this.companyOptions.all];
       param.showInTitle = chartConfig == null || ((chartConfig.brand == this.brandOptions.all || chartConfig.company == chartConfig.brand) && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
@@ -503,6 +510,7 @@ var db = {
             param.options[this.urlEncode(brand)] = brand;
         }
       }
+      param.allOptions = param.options;
       param.defaultOption = this.brandOptions.all;
       param.excludeOnUnfoldAndTitle = [this.brandOptions.all];
       param.showInTitle = chartConfig == null || (chartConfig.brand != chartConfig.company && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
@@ -525,6 +533,7 @@ var db = {
             param.options[this.urlEncode(model)] = model;
         }
       }
+      param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
       param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
       result[param.name] = param;
@@ -537,6 +546,7 @@ var db = {
       param.options = {};
       for (const i in this.maxSeriesOptions)
         param.options[i] = "Top " + this.maxSeriesOptions[i];
+      param.allOptions = param.options;
       param.defaultOption = "top10";
       param.showAsFilter = true;
       result[param.name] = param;
@@ -554,6 +564,7 @@ var db = {
         param.options[this.views.lineChart] = "Line Chart";
       param.options[this.views.table] = "Table";
       param.options[this.views.sources] = "Sources";
+      param.allOptions = param.options;
       param.defaultOption = Object.keys(param.options)[0];
       result[param.name] = param;
     }
