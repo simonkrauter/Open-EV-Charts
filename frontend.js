@@ -260,36 +260,7 @@ function renderFilterAsButtons(parentDiv, param) {
       button.title = "CTRL click for multi-selection";
     button.addEventListener("click", function(event) {
       event.preventDefault();
-      let newChartConfig = db.cloneObject(chartSetConfig);
-      if (param.allowMultiSelection && (event.ctrlKey || isOptionAdditive)) {
-        let values = newChartConfig[param.name].split(",");
-        let index = values.indexOf(optionKey);
-        if (index !== -1)
-          values.splice(index, 1);
-        else
-          values.push(optionKey);
-        let newValues = [];
-        for (const i in values) {
-          if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
-            newValues.push(values[i]);
-        }
-        newChartConfig[param.name] = newValues.join(",");
-      } else if (param.allowMultiSelection) {
-        let oldValues = newChartConfig[param.name].split(",");
-        let newValues = [];
-        for (const i in param.additiveOptions) {
-          if (oldValues.includes(param.additiveOptions[i]))
-            newValues.push(param.additiveOptions[i]);
-        }
-        if (param.defaultOption != optionKey || param.alwaysAddToUrl)
-          newValues.push(optionKey);
-        newChartConfig[param.name] = newValues.join(",");
-      } else
-        newChartConfig[param.name] = optionKey;
-
-      db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
-      chartSetConfig = newChartConfig;
-      navigateToHash(db.encodeChartConfig(chartSetConfig), param.name);
+      paramOptionClickHandler(param, optionKey, event.ctrlKey);
     });
   }
 
@@ -317,6 +288,40 @@ function addSelectElement(parent, isActive) {
   if (isActive)
     selectWrapper.classList.add("active");
   return select;
+}
+
+function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, renderOnlyCharts = false) {
+  const isOptionAdditive = param.additiveOptions && param.additiveOptions.includes(optionKey);
+  const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
+  let newChartConfig = db.cloneObject(chartSetConfig);
+  if (param.allowMultiSelection && isMultiSelectOption && (isSelectionAdditive || isOptionAdditive)) {
+    let values = newChartConfig[param.name].split(",");
+    let index = values.indexOf(optionKey);
+    if (index !== -1)
+      values.splice(index, 1);
+    else
+      values.push(optionKey);
+    let newValues = [];
+    for (const i in values) {
+      if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
+        newValues.push(values[i]);
+    }
+    newChartConfig[param.name] = newValues.join(",");
+  } else if (param.allowMultiSelection) {
+    let oldValues = newChartConfig[param.name].split(",");
+    let newValues = [];
+    for (const i in param.additiveOptions) {
+      if (oldValues.includes(param.additiveOptions[i]))
+        newValues.push(param.additiveOptions[i]);
+    }
+    if (param.defaultOption != optionKey || param.alwaysAddToUrl)
+      newValues.push(optionKey);
+    newChartConfig[param.name] = newValues.join(",");
+  } else
+    newChartConfig[param.name] = optionKey;
+  db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
+  chartSetConfig = newChartConfig;
+  navigateToHash(db.encodeChartConfig(chartSetConfig), param.name, renderOnlyCharts);
 }
 
 function renderChart(chartIndex) {
