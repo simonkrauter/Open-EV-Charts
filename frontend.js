@@ -1190,24 +1190,28 @@ function getCountryCodeForCompanyOrBrand(companyOrBrand) {
   return countryCode;
 }
 
-function createCountryFlagContainer(countryCode, text, inTable = false) {
-  const countryFlagWidth = 24;
-  const countryFlagHeight = 16;
+function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = false, small = false) {
+  let sizeFactor = 1.0;
+  if (small)
+    sizeFactor = 0.833;
+  const countryFlagWidth = 24 * sizeFactor;
+  const countryFlagHeight = 16 * sizeFactor;
   const countryFlagSpriteColumns = 5;
+  const countryId = db.countries[countryCode];
 
   // create container and placeholder
   const container = document.createElement("SPAN");
   const flag = document.createElement("SPAN");
   flag.classList.add("flag");
-  if (countryCode || inTable) {
+  if (countryId || alwaysReserveSpace) {
     flag.style.width = countryFlagWidth + "px";
     flag.style.height = countryFlagHeight + "px";
+    flag.style.marginRight = (countryFlagWidth * 0.2) + "px";
   }
   container.appendChild(flag);
 
   // set flag
-  const countryId = db.countries[countryCode];
-  if (countryCode && countryId) {
+  if (countryId) {
     flag.classList.add("nonEmpty");
     flag.title = countryNamesByCode[countryCode];
     const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;

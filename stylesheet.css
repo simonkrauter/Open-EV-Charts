@@ -416,10 +416,9 @@ a.screenshotModeButton {
 
 .flag {
   display: inline-block;
-  margin-right: 5px;
-  transform: translateY(1.5px);
 }
 .flag.nonEmpty {
+  transform: translateY(1.7px);
   outline: 1px solid #DEDEDE;
 }
 
