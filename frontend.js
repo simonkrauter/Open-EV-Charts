@@ -8,10 +8,18 @@ document.onmousedown = function() {
 
 document.onkeydown = function(event) {
   document.body.classList.add("showFocus");
-  if (isScreenshotModeEnabled && (event.key === "Escape" || event.key === "Esc")) {
-    isScreenshotModeEnabled = false;
-    renderPage();
+  if (event.key.startsWith("Esc")) {
+    if (isScreenshotModeEnabled) {
+      isScreenshotModeEnabled = false;
+      renderPage();
+    } else if (openedDropdown != null) {
+      closeDropdown();
+    }
   }
+};
+
+document.onclick = function(event) {
+  closeDropdown();
 };
 
 const dynamicContent = document.createElement("DIV");
@@ -50,6 +58,9 @@ var sortByName;
 var hintsDiv;
 var isHintsDivExpanded;
 var currentExportFormat;
+var openedDropdown;
+
+const canvasContext = document.createElement("CANVAS").getContext("2d");
 
 setGlobalChartOptions();
 navigate();
@@ -169,17 +180,13 @@ function renderFilters() {
     if (showFilterAsButtons(param))
       renderFilterAsButtons(div, param);
     else
-      renderFilterAsDropDown(div, param);
+      renderFilterAsDropdown(div, param);
   }
 }
 
 function showFilterAsButtons(param) {
   if (!["metric", "country"].includes(param.name))
     return false;
-
-  // Drop down list can't handle multi-selection yet
-  if (param.allowMultiSelection && chartSetConfig[param.name].includes(","))
-    return true;
 
   if (!isWidthEnoughForFilterAsButtons())
     return false;
@@ -191,21 +198,141 @@ function isWidthEnoughForFilterAsButtons() {
   return window.innerWidth >= 1150;
 }
 
-function renderFilterAsDropDown(parentDiv, param) {
+function renderFilterAsDropdown(parentDiv, param) {
   const selectedKey = chartSetConfig[param.name];
-  const isActive = selectedKey != param.defaultOption || param.showAlwaysAsActive;
-  let select = addSelectElement(parentDiv, isActive);
-  select.title = param.title;
-  select.addEventListener("change", function(event) {
-    chartSetConfig[param.name] = event.target.value;
-    navigateToHash(db.encodeChartConfig(chartSetConfig, param.name));
+  const selectedKeys = selectedKey.split(",");
+
+  // Calculate width
+  let width = 40;
+  for (const optionKey in param.allOptions)
+     width = Math.max(width, canvasContext.measureText(param.allOptions[optionKey]).width * 1.35 + 40);
+  if (param.name == "country")
+    width += 10;
+
+  // Base element
+  let dropdown = createLink();
+  dropdown.classList.add("dropdown");
+  dropdown.style.width = width + "px";
+  parentDiv.appendChild(dropdown);
+
+  // Button text container
+  let textSpan = document.createElement("DIV");
+  textSpan.classList.add("text");
+  textSpan.title = param.title;
+  dropdown.appendChild(textSpan);
+
+  // Open/close click handler
+  dropdown.addEventListener("click", function(event) {
+    event.preventDefault();
+    if (openedDropdown != dropdown) {
+      closeDropdown();
+      dropdown.classList.add("opened");
+      openedDropdown = dropdown;
+      if (event.pointerType == "") // keyboard
+        dropdown.childNodes[1].firstChild.focus();
+      event.stopPropagation();
+    }
   });
-  for (const optionKey in param.options) {
-    let option = document.createElement("OPTION");
-    option.value = optionKey;
-    option.text = param.options[optionKey];
-    option.selected = optionKey == selectedKey;
-    select.appendChild(option);
+
+  // Overlay
+  let overlay = document.createElement("DIV");
+  overlay.classList.add("overlay");
+  overlay.style.width = width + "px";
+  overlay.setAttribute("tabIndex", "-1");
+  dropdown.appendChild(overlay);
+  for (const optionKey in param.allOptions) {
+    let optionElem;
+    if (param.allowMultiSelection)
+      optionElem = document.createElement("LABEL");
+    else
+      optionElem = createLink();
+    overlay.appendChild(optionElem);
+    const selected = selectedKeys.includes(optionKey);
+    if (selected)
+      optionElem.classList.add("selected");
+    if (param.allowMultiSelection) {
+      let checkbox = document.createElement("INPUT");
+      checkbox.type = "checkbox";
+      checkbox.value = optionKey;
+      checkbox.checked = selected;
+      checkbox.addEventListener("click", function(event) {
+        paramOptionClickHandler(param, optionKey, true, true);
+        updateDropdown(param.name, dropdown, textSpan, overlay);
+        event.stopPropagation();
+      });
+      optionElem.appendChild(checkbox);
+    }
+    let optionText = param.allOptions[optionKey];
+    if (param.name == "country")
+      optionElem.appendChild(createCountryFlagContainer(optionKey, optionText, false, true));
+    else
+      optionElem.appendChild(document.createTextNode(optionText));
+    optionElem.addEventListener("click", function(event) {
+      event.preventDefault();
+      if (!optionElem.classList.contains("disabled"))
+        paramOptionClickHandler(param, optionKey);
+      event.stopPropagation();
+    });
+  }
+
+  updateDropdown(param.name, dropdown, textSpan, overlay);
+}
+
+function updateDropdown(paramName, dropdown, textSpan, overlay) {
+  const params = db.getChartParams(chartSetConfig);
+  const param = params[paramName];
+  const selectedKey = chartSetConfig[param.name];
+  const selectedKeys = selectedKey.split(",");
+
+  // Update 'active' state
+  if (selectedKey != param.defaultOption || param.showAlwaysAsActive)
+    dropdown.classList.add("active");
+  else
+    dropdown.classList.remove("active");
+
+  // Update button text
+  textSpan.innerHTML = "";
+  let selectedOptionTexts = [];
+  if (param.name == "country") {
+    for (const optionKey in param.options) {
+      if (selectedKeys.includes(optionKey)) {
+        textSpan.appendChild(createCountryFlagContainer(optionKey, "", false, true));
+        if (selectedKeys.length == 1 || !db.countries[optionKey])
+          selectedOptionTexts.push(param.options[optionKey]);
+      }
+    }
+  } else {
+    for (const optionKey in param.options) {
+      if (selectedKeys.includes(optionKey))
+        selectedOptionTexts.push(param.options[optionKey]);
+    }
+  }
+  textSpan.appendChild(document.createTextNode(selectedOptionTexts.join(", ")));
+
+  // Update options disabled and checked state
+  if (param.allowMultiSelection) {
+    const optionKeys = Object.keys(param.allOptions);
+    for (let i = 0; i < optionKeys.length; i++) {
+      const optionKey = optionKeys[i];
+      const optionNode = overlay.childNodes[i]
+      const checkbox = optionNode.firstChild;
+      const disabled = param.options[optionKey] == null;
+      checkbox.disabled = disabled;
+      if (disabled) {
+        checkbox.checked = false;
+        optionNode.classList.add("disabled");
+      } else {
+        optionNode.classList.remove("disabled");
+        checkbox.checked = selectedKeys.includes(optionKey);
+      }
+    }
+  }
+}
+
+function closeDropdown() {
+  if (openedDropdown != null) {
+    openedDropdown.classList.remove("opened");
+    openedDropdown = null;
   }
 }
 
@@ -278,17 +405,6 @@ function renderFilterAsButtons(parentDiv, param) {
     button.appendChild(document.createTextNode(param.moreButtonText));
     button.title = "Show more options";
   }
-}
-
-function addSelectElement(parent, isActive) {
-  let selectWrapper = document.createElement("DIV");
-  parent.appendChild(selectWrapper);
-  selectWrapper.classList.add("selectWrapper");
-  let select = document.createElement("SELECT");
-  selectWrapper.appendChild(select);
-  if (isActive)
-    selectWrapper.classList.add("active");
-  return select;
 }
 
 function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, renderOnlyCharts = false) {

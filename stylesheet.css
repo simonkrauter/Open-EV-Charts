@@ -17,7 +17,7 @@ body.showFocus *:not(input[type=text]):focus {
   outline: 3px solid #EDDD00;
 }
 
-input, select {
+input {
   font-size: inherit;
   font-family: inherit;
 }
@@ -31,8 +31,16 @@ input[type=text]:focus {
   outline: none;
 }
 
-input[type=text], a.button, .selectWrapper {
+input[type=text], a.button, a.dropdown {
   border-radius: 2px;
+}
+
+input[type=checkbox] {
+  position: relative;
+  vertical-align: middle;
+  bottom: 1px;
+  margin-right: 5px;
+  accent-color: black;
 }
 
 .title, .filters, th, .screenshotModeBanner {
@@ -74,44 +82,55 @@ a:hover {
   font-size: 110%;
 }
 
-a.button, .selectWrapper {
+a.button, a.dropdown {
   display: inline-block;
   margin-top: 6px;
   margin-bottom: 6px;
   margin-left: 6px;
   margin-right: 6px;
-  min-width: 80px;
   background: #565656;
   color: white;
   user-select: none;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a.button, a.dropdown {
+  padding-left: 10px;
 }
 
 @media (min-width: 1150px) {
-  .filters > a.button, .filters > .selectWrapper {
+  .filters > a.button, .filters > a.dropdown {
     margin-left: 12px;
     margin-right: 12px;
   }
 }
 
-a.button.active, .selectWrapper.active, .horizontalBar {
+a.button {
+  min-width: 80px;
+}
+
+a.button.active, a.dropdown.active, .horizontalBar {
   background: #2A81C9;
+}
+
+a.button:hover, a.dropdown:hover, a.dropdown > .overlay > *:hover {
+  text-decoration: none;
+}
+
+a.button:hover, a.dropdown:hover {
+  background: #6B6B6B;
+}
+
+a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened, a.dropdown > .overlay > * {
+  background: #4899DB;
   color: white;
 }
 
-a.button:hover  {
-  background: #6B6B6B;
-  text-decoration: none;
-}
-a.button.active:hover, .selectWrapper:hover  {
-  background: #4899DB;
-  text-decoration: none;
-}
-
-a.button {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+a.dropdown > .overlay > *:hover, a.dropdown > .overlay > a:focus {
+  background: #1C74AF;
+  outline: none;
 }
 
 .title a {
@@ -138,29 +157,14 @@ h1 sup {
   font-size: 45%;
 }
 
-.selectWrapper {
+a.dropdown {
   position: relative;
+  text-align: left;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
-.selectWrapper select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  outline: none;
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 28px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 0;
-  background: inherit;
-  color: inherit;
-  cursor: pointer;
-  border-radius: inherit;
-}
-
-.selectWrapper::after {
+a.dropdown::after {
   content: " ";
   position: absolute;
   width: 8px;
@@ -173,9 +177,50 @@ h1 sup {
   transform: rotate(45deg);
 }
 
-select:focus {
-  outline: 0;
-  border: 0;
+a.dropdown > .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a.dropdown > .overlay {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin-top: 5px;
+  overflow: auto;
+  max-height: 300px;
+  border: 1px solid gray;
+}
+
+a.dropdown:not(.opened) > .overlay {
+  display: none;
+}
+
+a.dropdown > .overlay > * {
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+a.dropdown > .overlay > label {
+  padding-left: 5px;
+}
+
+a.dropdown > .overlay > a {
+  padding-left: 8px;
+  border-left: 2px solid transparent;
+}
+
+a.dropdown > .overlay > a.selected {
+  border-color: #E83835;
+}
+
+a.dropdown, a.dropdown > .overlay > * {
+  padding-right: 28px;
+}
+
+a.dropdown > .overlay > label.disabled {
+  color: gray;
 }
 
 .filters {
@@ -420,6 +465,9 @@ a.screenshotModeButton {
 .flag.nonEmpty {
   transform: translateY(1.7px);
   outline: 1px solid #DEDEDE;
+}
+.dropdown .flag.nonEmpty {
+  outline: none;
 }
 
 span.newFeatureIndicator {
