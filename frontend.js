@@ -1099,6 +1099,7 @@ function addThSortClickEvent(chartConfig, cell, columnIndex) {
       renderCharts();
     });
     cell.style.cursor = "pointer";
+    cell.title = "Sort by this column";
   }
 }
 
