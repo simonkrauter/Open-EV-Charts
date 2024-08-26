@@ -356,6 +356,7 @@ var db = {
     {
       let param = {};
       param.name = "metric";
+      param.title = "Metric";
       param.options = {};
       param.options[this.metrics.salesElectric] = "Absolute EV Sales";
       param.options[this.metrics.ratioElectric] = "Relative EV Sales";
@@ -380,6 +381,7 @@ var db = {
     {
       let param = {};
       param.name = "country";
+      param.title = "Country";
       param.allOptions = {};
       param.allOptions[this.countryOptions.all] = "All Countries";
       param.allOptions[this.countryOptions.combine] = "Combine Countries";
@@ -408,6 +410,7 @@ var db = {
     {
       let param = {};
       param.name = "xProperty";
+      param.title = "X-property";
       param.options = {};
       param.options[this.xProperties.month] = "By Month";
       param.options[this.xProperties.monthAvg3] = "3-month Average";
@@ -434,6 +437,7 @@ var db = {
     {
       let param = {};
       param.name = "timeSpan";
+      param.title = "Time span";
       param.showAsFilter = chartConfig == null || !this.isByYear(chartConfig);
       param.options = {};
       param.options[this.timeSpanOptions.auto] = "Auto Time Span";
@@ -449,6 +453,7 @@ var db = {
     {
       let param = {};
       param.name = "detailLevel";
+      param.title = "Detail level";
       param.showAsFilter = chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig);
       param.options = {};
       if (chartConfig == null || ![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
@@ -469,6 +474,7 @@ var db = {
     {
       let param = {};
       param.name = "company";
+      param.title = "Company";
       param.options = {};
       param.options[this.companyOptions.all] = "All Companies";
       param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.company && chartConfig.detailLevel != this.detailLevels.total);
@@ -494,10 +500,12 @@ var db = {
     }
 
     const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
+
     // brand
     {
       let param = {};
       param.name = "brand";
+      param.title = "Brand";
       param.showAsFilter = chartConfig == null || (([this.detailLevels.brand, this.detailLevels.model].includes(chartConfig.detailLevel) || chartConfig.xProperty == this.xProperties.model) && filterContainsMultipleBrands);
       param.options = {};
       param.options[this.brandOptions.all] = "All Brands";
@@ -521,6 +529,7 @@ var db = {
     {
       let param = {};
       param.name = "model";
+      param.title = "Model";
       param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.brand != this.brandOptions.all || !filterContainsMultipleBrands));
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
@@ -543,6 +552,7 @@ var db = {
     {
       let param = {};
       param.name = "maxSeries";
+      param.title = "Max. series";
       param.options = {};
       for (const i in this.maxSeriesOptions)
         param.options[i] = "Top " + this.maxSeriesOptions[i];
@@ -556,6 +566,7 @@ var db = {
     {
       let param = {};
       param.name = "view";
+      param.title = "View";
       param.options = {};
       const allowLineChart = chartConfig == null || this.isTimeXProperty(chartConfig);
       if (this.isBarChartAllowed(chartConfig) || !allowLineChart)

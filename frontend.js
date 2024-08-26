@@ -195,6 +195,7 @@ function renderFilterAsDropDown(parentDiv, param) {
   const selectedKey = chartSetConfig[param.name];
   const isActive = selectedKey != param.defaultOption || param.showAlwaysAsActive;
   let select = addSelectElement(parentDiv, isActive);
+  select.title = param.title;
   select.addEventListener("change", function(event) {
     chartSetConfig[param.name] = event.target.value;
     navigateToHash(db.encodeChartConfig(chartSetConfig, param.name));
