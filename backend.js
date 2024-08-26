@@ -352,31 +352,6 @@ var db = {
   getChartParams: function(chartConfig) {
     let result = {};
 
-    // metric
-    {
-      let param = {};
-      param.name = "metric";
-      param.title = "Metric";
-      param.options = {};
-      param.options[this.metrics.salesElectric] = "Absolute EV Sales";
-      param.options[this.metrics.ratioElectric] = "Relative EV Sales";
-      param.options[this.metrics.shareElectric] = "EV Market Split";
-      param.options[this.metrics.salesAll] = "All Cars Sales";
-      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
-      param.options[this.metrics.shareAll] = "All Cars Market Split";
-      param.options[this.metrics.all] = "All Metrics";
-      param.allOptions = param.options;
-      param.unfoldKey = this.metrics.all;
-      param.defaultOption = this.metrics.ratioElectric;
-      param.alwaysAddToUrl = true;
-      param.showInTitle = true;
-      param.showAsFilter = true;
-      param.allowMultiSelection = true;
-      param.maxOptionsToShowAsButton = 4;
-      param.moreButtonText = "More Metrics";
-      result[param.name] = param;
-    }
-
     // country
     {
       let param = {};
@@ -403,6 +378,32 @@ var db = {
       param.allowMultiSelection = true;
       param.maxOptionsToShowAsButton = 9;
       param.moreButtonText = "More Countries";
+      result[param.name] = param;
+    }
+
+    // metric
+    {
+      let param = {};
+      param.name = "metric";
+      param.title = "Metric";
+      param.options = {};
+      param.options[this.metrics.salesElectric] = "Absolute EV Sales";
+      param.options[this.metrics.ratioElectric] = "Relative EV Sales";
+      param.options[this.metrics.shareElectric] = "EV Market Split";
+      param.options[this.metrics.salesAll] = "All Cars Sales";
+      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
+      param.options[this.metrics.shareAll] = "All Cars Market Split";
+      param.options[this.metrics.all] = "All Metrics";
+      param.allOptions = param.options;
+      param.unfoldKey = this.metrics.all;
+      param.defaultOption = this.metrics.ratioElectric;
+      param.alwaysAddToUrl = true;
+      param.showInTitle = true;
+      param.showAsFilter = true;
+      param.allowMultiSelection = true;
+      param.showAlwaysAsActive = true;
+      param.maxOptionsToShowAsButton = 4;
+      param.moreButtonText = "More Metrics";
       result[param.name] = param;
     }
 

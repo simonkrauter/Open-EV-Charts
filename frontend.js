@@ -178,21 +178,8 @@ function renderFilters() {
     const param = params[i];
     if (!param.showAsFilter)
       continue;
-    if (showFilterAsButtons(param))
-      renderFilterAsButtons(filtersDiv, param);
-    else
-      renderFilterAsDropdown(filtersDiv, param);
+    renderFilterAsDropdown(filtersDiv, param);
   }
-}
-
-function showFilterAsButtons(param) {
-  if (!["metric", "country"].includes(param.name))
-    return false;
-
-  if (!isWidthEnoughForFilterAsButtons())
-    return false;
-
-  return true;
 }
 
 function isWidthEnoughForFilterAsButtons() {
