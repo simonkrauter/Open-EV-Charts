@@ -396,6 +396,7 @@ var db = {
       param.options[this.metrics.all] = "All Metrics";
       param.allOptions = param.options;
       param.unfoldKey = this.metrics.all;
+      param.noMultiSelectOptions = [this.metrics.all];
       param.defaultOption = this.metrics.ratioElectric;
       param.alwaysAddToUrl = true;
       param.showInTitle = true;
