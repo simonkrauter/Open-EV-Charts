@@ -30,7 +30,7 @@ window.onhashchange = function() {
 };
 
 window.onresize = function() {
-  if (navigator.userAgentData && navigator.userAgentData.mobile)
+  if (navigator.userAgentData.mobile)
     return; // ignore resize event on mobile browsers, because they send it on scrolling
   renderPage();
 };
