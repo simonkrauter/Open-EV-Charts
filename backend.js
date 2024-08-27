@@ -431,6 +431,7 @@ var db = {
       param.showAsFilter = true;
       param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
       param.showAlwaysAsActive = true;
+      param.breakLineAfterFilter = true;
       result[param.name] = param;
     }
 

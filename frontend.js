@@ -118,7 +118,7 @@ function renderCharts() {
 
   // Prevent displaying of too many charts at once
   let maxVisibleCharts = 4;
-  if (isWidthEnoughForFilterAsButtons())
+  if (!isMobileScreenSize())
     maxVisibleCharts = 6;
 
   for (const chartIndex in chartConfigs) {
@@ -179,11 +179,13 @@ function renderFilters() {
     if (!param.showAsFilter)
       continue;
     renderFilterAsDropdown(filtersDiv, param);
+    if (param.breakLineAfterFilter && !isMobileScreenSize())
+      filtersDiv.appendChild(document.createElement("BR"));
   }
 }
 
-function isWidthEnoughForFilterAsButtons() {
-  return window.innerWidth >= 1150;
+function isMobileScreenSize() {
+  return window.innerWidth < 800;
 }
 
 function renderFilterAsDropdown(parentDiv, param) {
@@ -816,9 +818,7 @@ function setChartSize(element) {
   if (isScreenshotModeEnabled) {
     heightOffset = 150;
   } else {
-    heightOffset = homeLink.parentNode.parentNode.offsetHeight + 205;
-    if (isWidthEnoughForFilterAsButtons())
-      heightOffset += 10;
+    heightOffset = homeLink.parentNode.parentNode.offsetHeight + filtersDiv.offsetHeight + 78;
     if (hintsDiv != null)
       heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
   }

@@ -6,7 +6,7 @@ body {
   text-align: center;
   background: white;
   color: #232323;
-  min-width: 400px;
+  min-width: 450px;
 }
 
 body.screenshotMode {
@@ -100,7 +100,7 @@ a.button, a.dropdown {
   padding-left: 10px;
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1000px) {
   .filters > a.button, .filters > a.dropdown {
     margin-left: 12px;
     margin-right: 12px;
