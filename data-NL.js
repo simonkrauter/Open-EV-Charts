@@ -6084,11 +6084,11 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 53
 , "BMW|other": 36
 , "Nio|other": 35
+, "BYD|other": 32
 , "Tesla|other": 30
 , "Citroën|other": 28
 , "Volkswagen|other": 28
 , "Peugeot|other": 22
-, "BYD|other": 21
 , "Renault|other": 21
 , "Mazda|other": 15
 , "Smart|other": 15
@@ -6097,7 +6097,7 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 7
 , "Honda|other": 6
 , "Fiat|other": 5
-, "other": 146
+, "other": 135
 });
 
 db.insert(db.countries.NL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2023/december/",
@@ -6296,14 +6296,14 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 27
 , "Volkswagen|ID.3": 27
 , "Peugeot|e-308": 26
+, "BYD|Song Plus": 25
 , "Mercedes-Benz|eVito": 25
 , "Mercedes-Benz|EQV": 24
-, "Fiat|E-Ulysse": 20
 , "Volkswagen|other": 41
 , "Nio|other": 40
+, "Fiat|other": 36
 , "Opel|other": 27
 , "BYD|other": 26
-, "Fiat|other": 16
 , "Peugeot|other": 15
 , "Renault|other": 14
 , "MG|other": 13
@@ -6314,7 +6314,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 10
 , "Kia|other": 8
 , "Mercedes-Benz|other": 5
-, "other": 301
+, "other": 276
 });
 
 db.insert(db.countries.NL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/februari/",
@@ -6514,15 +6514,15 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 42
 , "Tesla|Model S": 37
 , "Peugeot|e-308": 35
-, "BYD|Seal": 32
-, "Fiat|other": 67
+, "Fiat|500e": 30
+, "BYD|other": 56
 , "Volkswagen|other": 50
 , "Smart|other": 45
 , "MG|other": 43
+, "Fiat|other": 37
 , "Mercedes-Benz|other": 35
 , "Opel|other": 28
 , "Tesla|other": 25
-, "BYD|other": 24
 , "BMW|other": 22
 , "Renault|other": 22
 , "Nio|other": 21
@@ -6619,11 +6619,11 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 37
 , "Mini|Cooper SE": 34
 , "Nissan|Leaf": 34
-, "BYD|Seal": 31
 , "Peugeot|e-2008": 31
 , "Peugeot|e-308": 31
 , "Renault|Zoe": 30
 , "Smart|Hashtag 1": 28
+, "BYD|Seal": 27
 , "Volkswagen|other": 46
 , "Mercedes-Benz|other": 34
 , "BMW|other": 31
@@ -6639,8 +6639,9 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 9
 , "Mazda|other": 8
 , "Toyota|other": 6
+, "BYD|other": 5
 , "Peugeot|other": 5
-, "other": 304
+, "other": 303
 });
 
 db.insert(db.countries.NL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/mei/",
@@ -6822,8 +6823,8 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 92
 , "BYD|Yuan Plus": 90
 , "Peugeot|e-2008": 89
-, "BYD|Seal": 84
 , "Volvo|EC40": 82
+, "BYD|Seal": 76
 , "Audi|Q8 e-tron": 70
 , "Toyota|bZ4X": 70
 , "Citroën|ë-Jumpy": 68
@@ -6859,7 +6860,8 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 14
 , "Nio|other": 14
 , "Honda|other": 12
+, "BYD|other": 9
 , "Ford|other": 9
 , "Cupra|other": 8
-, "other": 243
+, "other": 242
 });
