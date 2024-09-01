@@ -381,7 +381,7 @@ div:not(.chartTile) > .chartTitle {
   margin-bottom: -6px;
 }
 
-.hints .important {
+.hints .important, .countriesStatus .outdated {
   color: red;
 }
 

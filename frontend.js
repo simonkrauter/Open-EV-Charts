@@ -1428,6 +1428,7 @@ function renderCountriesStatusPage() {
   dynamicContent.appendChild(table);
   const tr = document.createElement("TR");
   table.appendChild(tr);
+  table.classList.add("countriesStatus");
   const columns = ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"];
   for (const i in columns) {
     const th = document.createElement("TH");
@@ -1472,6 +1473,8 @@ function renderCountriesStatusPage() {
         }
       }
     }
+    const lastDateMonthsAgo = (Date.now() - new Date(latestAllCarsDataset.monthString)) / 1000 / 60 / 60 / 24 / 30;
+    const isOutdated = lastDateMonthsAgo > 4.5;
     // collect data from the latest 12 datasets
     let allCarSalesSum = 0;
     let evSalesSum = 0;
@@ -1507,7 +1510,12 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      td.appendChild(document.createTextNode(firstMonthString + " – " + latestAllCarsDataset.monthString));
+      td.appendChild(document.createTextNode(firstMonthString + " – "));
+      const span = document.createElement("SPAN");
+      span.appendChild(document.createTextNode(latestAllCarsDataset.monthString));
+      if (isOutdated)
+        span.classList.add("outdated");
+      td.appendChild(span);
       td.style.textAlign = "center";
     }
     // interval
