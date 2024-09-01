@@ -3350,3 +3350,56 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|MG4 EV": 95
 , "other": 2649
 });
+
+db.insert(db.countries.AT, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuli2024.ods",
+{ "Volkswagen": 2572
+, "Škoda": 2140
+, "BMW": 1658
+, "Audi": 1494
+, "Mercedes-Benz": 963
+, "Toyota": 921
+, "Dacia": 834
+, "Seat": 829
+, "Peugeot": 763
+, "Opel": 735
+, "Renault": 586
+, "Ford": 545
+, "Kia": 543
+, "Cupra": 433
+, "Mazda": 418
+, "Hyundai": 412
+, "Fiat": 349
+, "Volvo": 328
+, "Suzuki": 325
+, "Citroën": 314
+, "BYD": 261
+, "Tesla": 245
+, "MG": 157
+, "Mini": 155
+, "Jeep": 147
+, "Nissan": 138
+, "Porsche": 131
+, "Honda": 105
+, "Land Rover": 81
+, "Mitsubishi": 37
+, "Polestar": 37
+, "Subaru": 23
+, "Smart": 22
+, "Jaguar": 9
+, "Chevrolet": 2
+, "other": 189
+});
+
+db.insert(db.countries.AT, "2024-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuli2024.ods",
+{ "BMW|iX1": 227
+, "BYD|Seal": 206
+, "Tesla|Model Y": 201
+, "Škoda|Enyaq": 178
+, "Cupra|Born": 177
+, "BMW|i4": 164
+, "Volkswagen|ID.4": 154
+, "Audi|Q4 e-tron": 139
+, "Volvo|EX30": 114
+, "Audi|Q6 e-tron": 106
+, "other": 1267
+});
