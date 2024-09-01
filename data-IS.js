@@ -4537,7 +4537,7 @@ db.insert(db.countries.IS, "2024-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Megane E-Tech": 2
 , "Volvo|EC40": 2
 , "BMW|i4": 1
-, "BYD|Seal": 1
+, "BYD|Song Plus": 1
 , "BYD|Yuan Plus": 1
 , "MG|MG4 EV": 1
 , "Mercedes-Benz|EQC": 1
