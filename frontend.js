@@ -201,6 +201,7 @@ function renderFilterAsDropdown(parentDiv, param) {
 
   // Base element
   let dropdown = createLink();
+  dropdown.id = param.name;
   dropdown.classList.add("dropdown");
   dropdown.style.width = width + "px";
   parentDiv.appendChild(dropdown);
@@ -214,13 +215,36 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Open/close click handler
   dropdown.addEventListener("click", function(event) {
     event.preventDefault();
-    if (openedDropdown != dropdown) {
-      closeDropdown();
-      dropdown.classList.add("opened");
-      openedDropdown = dropdown;
-      if (event.pointerType == "") // keyboard
-        dropdown.childNodes[1].firstChild.focus();
-      event.stopPropagation();
+    openOrCloseDropdown(param, dropdown, false);
+    event.stopPropagation();
+  });
+
+  // Keyboard event handler
+  dropdown.addEventListener("keydown", function(event) {
+    if (event.keyCode == 13 || event.keyCode == 32) {
+      if (openedDropdown != dropdown) {
+        event.preventDefault();
+        openOrCloseDropdown(param, dropdown, true);
+        event.stopPropagation();
+      }
+    } else if (event.keyCode == 38 || event.keyCode == 40) {
+      if (openedDropdown == dropdown && document.activeElement) {
+        event.preventDefault();
+        let base = document.activeElement;
+        if (param.allowMultiSelection)
+          base = base.parentNode;
+        if (event.keyCode == 38 && base.previousSibling) {
+          let toFocus = base.previousSibling;
+          if (param.allowMultiSelection && toFocus.firstChild.disabled)
+            toFocus = toFocus.previousSibling;
+          toFocus.focus();
+        } else if (event.keyCode == 40 && base.nextSibling) {
+          let toFocus = base.nextSibling;
+          if (param.allowMultiSelection && toFocus.firstChild.disabled)
+            toFocus = toFocus.nextSibling;
+          toFocus.focus();
+        }
+      }
     }
   });
 
@@ -262,6 +286,12 @@ function renderFilterAsDropdown(parentDiv, param) {
       if (!optionElem.classList.contains("disabled"))
         paramOptionClickHandler(param, optionKey);
       event.stopPropagation();
+    });
+    optionElem.addEventListener("keydown", function(event) {
+      if (event.keyCode == 13) {
+        if (!optionElem.classList.contains("disabled"))
+          paramOptionClickHandler(param, optionKey);
+      }
     });
   }
 
@@ -319,9 +349,22 @@ function updateDropdown(paramName, dropdown, textSpan, overlay) {
   }
 }
 
+function openOrCloseDropdown(param, dropdown, isKeyboardEvent) {
+  if (openedDropdown == dropdown)
+    closeDropdown()
+  else if (openedDropdown != dropdown) {
+    closeDropdown();
+    dropdown.classList.add("opened");
+    openedDropdown = dropdown;
+    if (isKeyboardEvent)
+      dropdown.childNodes[1].firstChild.focus();
+  }
+}
+
 function closeDropdown() {
   if (openedDropdown != null) {
     openedDropdown.classList.remove("opened");
+    openedDropdown.focus()
     openedDropdown = null;
   }
 }
@@ -429,6 +472,13 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
   chartSetConfig = newChartConfig;
   navigateToHash(db.encodeChartConfig(chartSetConfig), param.name, renderOnlyCharts);
+
+  // Focus the dropdown again
+  const dropdown = document.getElementById(param.name);
+  if (dropdown) {
+    dropdown.focus();
+    closeDropdown();
+  }
 }
 
 function renderChart(chartIndex) {
