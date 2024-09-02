@@ -1792,13 +1792,13 @@ var db = {
       chartConfigForRatio.model = this.modelOptions.all;
     }
     let datasets = this.queryDatasets(chartConfig, true);
-    let datasetsForRatio = this.queryDatasets(chartConfigForRatio, false, false);
+    let datasetsReference = this.queryDatasets(chartConfigForRatio, false, false);
     let seriesRows = datasets.seriesRows;
     let result = {};
     result.sources = datasets.sources;
-    for (const i in datasetsForRatio.sources) {
+    for (const i in datasetsReference.sources) {
       if (result.sources[i] == null)
-        result.sources[i] = datasetsForRatio.sources[i];
+        result.sources[i] = datasetsReference.sources[i];
     }
     result.hints = datasets.hints;
     let valueExists = false;
@@ -1808,14 +1808,14 @@ var db = {
         const category = datasets.categories[i];
         let value = 0;
         if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && this.isSingleOrCombinedCountry(chartConfigForRatio)) {
-          for (const seriesNameInner in datasetsForRatio.seriesRows) {
-            value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[seriesNameInner][category], 0);
+          for (const seriesNameInner in datasetsReference.seriesRows) {
+            value = value + this.getValueOrDefault(datasetsReference.seriesRows[seriesNameInner][category], 0);
           }
         }
-        else if (datasetsForRatio.seriesRows[this.singleSeriesName] != null)
-          value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[this.singleSeriesName][category], 0);
-        else if (datasetsForRatio.seriesRows[seriesName] != null)
-          value = value + this.getValueOrDefault(datasetsForRatio.seriesRows[seriesName][category], 0);
+        else if (datasetsReference.seriesRows[this.singleSeriesName] != null)
+          value = value + this.getValueOrDefault(datasetsReference.seriesRows[this.singleSeriesName][category], 0);
+        else if (datasetsReference.seriesRows[seriesName] != null)
+          value = value + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
         valuesForRatio[category] = value;
       }
       for (const i in datasets.categories) {
