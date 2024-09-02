@@ -1691,13 +1691,13 @@ var db = {
         }
         // Add value to seriesSortValues
         if (value != null) {
-          let factor = 1;
+          let sortValue = value;
           if (categoryIndex >= result.categories.length / 2)
-            factor = 2;
+            sortValue = sortValue * 2;
           if (seriesName in seriesSortValues)
-            seriesSortValues[seriesName] += value * factor;
+            seriesSortValues[seriesName] += sortValue;
           else
-            seriesSortValues[seriesName] = value * factor;
+            seriesSortValues[seriesName] = sortValue;
         }
       }
       seriesByName[seriesName] = newSeries;
