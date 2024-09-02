@@ -5194,6 +5194,7 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 101
 , "Škoda|Enyaq": 83
 , "Volvo|EX40": 81
+, "Polestar|2": 60
 , "Audi|Q4 e-tron": 56
 , "Tesla|Model Y": 48
 , "Volvo|EC40": 43
@@ -5244,5 +5245,5 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Peugeot|e-2008": 1
 , "Peugeot|e-308": 1
-, "other": 111
+, "other": 51
 });
