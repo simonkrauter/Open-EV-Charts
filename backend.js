@@ -305,11 +305,11 @@ var db = {
   },
 
   maxSeriesOptions:
-  { "top5": 5
-  , "top10": 10
-  , "top15": 15
-  , "top20": 20
-  , "top30": 30
+  { "top5": {mostRelevant: false, count: 5}
+  , "top10": {mostRelevant: false, count: 10}
+  , "top15": {mostRelevant: false, count: 15}
+  , "top20": {mostRelevant: false, count: 20}
+  , "top30": {mostRelevant: false, count: 30}
   },
 
   urlEncode: function(str) {
@@ -557,8 +557,10 @@ var db = {
       param.name = "maxSeries";
       param.title = "Max. series";
       param.options = {};
-      for (const i in this.maxSeriesOptions)
-        param.options[i] = "Top " + this.maxSeriesOptions[i];
+      for (const i in this.maxSeriesOptions) {
+        const option = this.maxSeriesOptions[i];
+        param.options[i] = "Top " + option.count;
+      }
       param.allOptions = param.options;
       param.defaultOption = "top10";
       param.showAsFilter = true;
@@ -1455,7 +1457,7 @@ var db = {
     let categories = datasets.categories;
     let seriesRows = datasets.seriesRows;
     let result = [];
-    const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
+    const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
     if (this.isTimeXProperty(chartConfig)) {
       // Numeric sort
       categories.sort();
@@ -1490,7 +1492,7 @@ var db = {
       const category = categories[i];
       result.push(category);
       count++;
-      if (count == maxSeries && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)
+      if (count == maxSeriesOption.count && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)
         break;
     }
 
@@ -1707,7 +1709,7 @@ var db = {
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
-    const maxSeries = this.maxSeriesOptions[chartConfig.maxSeries];
+    const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
@@ -1716,7 +1718,7 @@ var db = {
     for (const i in seriesNamesInOrder) {
       const seriesName = seriesNamesInOrder[i];
       const currSeries = seriesByName[seriesName];
-      if (seriesName != "other" && count < maxSeries) {
+      if (seriesName != "other" && count < maxSeriesOption.count) {
         result.series.push(currSeries);
         count++;
       } else {
