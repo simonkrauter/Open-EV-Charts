@@ -308,3 +308,46 @@ db.insert(db.countries.BR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 4
 , "other": 20
 });
+
+db.insert(db.countries.BR, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2024_08_02.pdf",
+{ "Volkswagen": 30934
+, "Fiat": 24261
+, "Chevrolet": 23492
+, "Hyundai": 16688
+, "Toyota": 14142
+, "Jeep": 11209
+, "Renault": 8729
+, "Honda": 8477
+, "Nissan": 6712
+, "BYD": 6707
+, "Citroën": 3020
+, "GWM": 2494
+, "Peugeot": 2281
+, "BMW": 1141
+, "Ford": 939
+, "Mitsubishi": 935
+, "Volvo": 850
+, "Porsche": 598
+, "Audi": 495
+, "Mercedes-Benz": 480
+, "other": 6411
+});
+
+db.insert(db.countries.BR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_08_02.pdf",
+{ "BYD|Seagull": 2298
+, "BYD|Dolphin": 1056
+, "GWM|Ora 03": 382
+, "Volvo|other": 418
+, "BYD|other": 453
+, "Renault|other": 135
+, "BMW|other": 99
+, "JAC|other": 78
+, "Porsche|other": 46
+, "Ford|other": 37
+, "Mini|other": 25
+, "Audi|other": 11
+, "Mercedes-Benz|other": 8
+, "Volkswagen|other": 7
+, "Chevrolet|other": 6
+, "other": 19
+});
