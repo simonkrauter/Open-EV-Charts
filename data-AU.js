@@ -722,3 +722,58 @@ db.insert(db.countries.AU, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|e-tron GT": 3
 , "other": 44
 });
+
+db.insert(db.countries.AU, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-august-2024/",
+{ "Toyota": 21490
+, "Ford": 8890
+, "Mazda": 8263
+, "Kia": 6903
+, "Hyundai": 6211
+, "Mitsubishi": 5516
+, "Isuzu": 3924
+, "MG": 3561
+, "Nissan": 3376
+, "GWM": 3148
+, "Tesla": 2393
+, "other": 27111
+});
+
+db.insert(db.countries.AU, "2024-08", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2024/09/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
+{ "Tesla|Model Y": 1330
+, "Tesla|Model 3": 1063
+, "BYD|Yuan Plus": 427
+, "BYD|Seal": 371
+, "MG|MG4 EV": 309
+, "Volvo|EX30": 220
+, "MG|ZS EV": 174
+, "BYD|Dolphin": 165
+, "BMW|i4": 119
+, "Kia|EV6": 114
+, "GWM|Ora 03": 106
+, "Ford|Mustang Mach-E": 92
+, "Hyundai|Kona Electric": 76
+, "Toyota|bZ4X": 70
+, "Volvo|EC40": 67
+, "BMW|iX": 66
+, "Mercedes-Benz|EQA": 65
+, "Polestar|2": 62
+, "Mercedes-Benz|EQB": 53
+, "Nissan|Leaf": 46
+, "Kia|Niro EV": 45
+, "Mercedes-Benz|EQE SUV": 45
+, "Hyundai|Ioniq 5": 41
+, "Mercedes-Benz|EQS SUV": 31
+, "Mercedes-Benz|EQE": 30
+, "Hyundai|Ioniq 6": 29
+, "Kia|EV9": 26
+, "Cupra|Born": 24
+, "Porsche|Taycan": 24
+, "Subaru|Solterra": 22
+, "Renault|Megane E-Tech": 18
+, "Audi|Q8 e-tron": 15
+, "Genesis|GV60": 5
+, "Audi|e-tron GT": 3
+, "Polestar|3": 3
+, "Mercedes-Benz|other": 3
+, "other": 44
+});
