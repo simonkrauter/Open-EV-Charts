@@ -215,7 +215,7 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Open/close click handler
   dropdown.addEventListener("click", function(event) {
     event.preventDefault();
-    openOrCloseDropdown(param, dropdown, false);
+    openOrCloseDropdown(param, dropdown);
     event.stopPropagation();
   });
 
@@ -224,8 +224,7 @@ function renderFilterAsDropdown(parentDiv, param) {
     if (event.keyCode == 13 || event.keyCode == 32) {
       if (openedDropdown != dropdown) {
         event.preventDefault();
-        openOrCloseDropdown(param, dropdown, true);
-        event.stopPropagation();
+        openOrCloseDropdown(param, dropdown);
       }
     } else if (event.keyCode == 38 || event.keyCode == 40) {
       if (openedDropdown == dropdown && document.activeElement) {
@@ -288,7 +287,7 @@ function renderFilterAsDropdown(parentDiv, param) {
       event.stopPropagation();
     });
     optionElem.addEventListener("keydown", function(event) {
-      if (event.keyCode == 13) {
+      if (event.keyCode == 13 || event.keyCode == 32) {
         if (!optionElem.classList.contains("disabled"))
           paramOptionClickHandler(param, optionKey);
       }
@@ -349,15 +348,14 @@ function updateDropdown(paramName, dropdown, textSpan, overlay) {
   }
 }
 
-function openOrCloseDropdown(param, dropdown, isKeyboardEvent) {
+function openOrCloseDropdown(param, dropdown) {
   if (openedDropdown == dropdown)
     closeDropdown()
   else if (openedDropdown != dropdown) {
     closeDropdown();
     dropdown.classList.add("opened");
     openedDropdown = dropdown;
-    if (isKeyboardEvent)
-      dropdown.childNodes[1].firstChild.focus();
+    dropdown.childNodes[1].firstChild.focus();
   }
 }
 

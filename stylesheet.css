@@ -128,7 +128,7 @@ a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened, a.dropdown > 
   color: white;
 }
 
-a.dropdown > .overlay > *:hover, a.dropdown > .overlay > a:focus {
+a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus {
   background: #1C74AF;
   outline: none;
 }
