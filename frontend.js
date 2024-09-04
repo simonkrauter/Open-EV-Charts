@@ -90,10 +90,12 @@ function navigate(retainShowAllOptionsParamName = "", renderOnlyCharts = false) 
   isHintsDivExpanded = false;
   currentExportFormat = null;
 
-  if (renderOnlyCharts && chartsDiv != null)
+  if (renderOnlyCharts && chartsDiv != null) {
+    updateFilters()
     renderCharts();
-  else
+  } else {
     renderPage();
+  }
 
   logVisit();
 }
@@ -176,11 +178,21 @@ function renderFilters() {
   const params = db.getChartParams(chartSetConfig);
   for (const i in params) {
     const param = params[i];
-    if (!param.showAsFilter)
-      continue;
     renderFilterAsDropdown(filtersDiv, param);
     if (param.breakLineAfterFilter && !isMobileScreenSize())
       filtersDiv.appendChild(document.createElement("BR"));
+  }
+}
+
+function updateFilters() {
+  // Updates the content of the dropdowns, except the one which is opened.
+
+  const params = db.getChartParams(chartSetConfig);
+  for (const i in params) {
+    const param = params[i];
+    const dropdown = document.getElementById(param.name);
+    if (dropdown != null && !dropdown.classList.contains("opened"))
+      renderDropdownContent(param, dropdown);
   }
 }
 
@@ -214,6 +226,15 @@ function renderFilterAsDropdown(parentDiv, param) {
 }
 
 function renderDropdownContent(param, dropdown) {
+  // Updates the dropdown visibility, and (if needed) (re-)renders the dropdown content.
+
+  if (!param.showAsFilter) {
+    dropdown.style.display = "none";
+    return;
+  }
+  dropdown.style.display = "";
+  dropdown.innerHTML = "";
+
   const selectedKey = chartSetConfig[param.name];
   const selectedKeys = selectedKey.split(",");
 
