@@ -203,6 +203,13 @@ function renderFilterAsDropdown(parentDiv, param) {
   dropdown.style.width = width + "px";
   parentDiv.appendChild(dropdown);
 
+  // Open/close click handler
+  dropdown.addEventListener("click", function(event) {
+    event.preventDefault();
+    openOrCloseDropdown(param, dropdown);
+    event.stopPropagation();
+  });
+
   renderDropdownContent(param, dropdown);
 }
 
@@ -215,13 +222,6 @@ function renderDropdownContent(param, dropdown) {
   textSpan.classList.add("text");
   textSpan.title = param.title;
   dropdown.appendChild(textSpan);
-
-  // Open/close click handler
-  dropdown.addEventListener("click", function(event) {
-    event.preventDefault();
-    openOrCloseDropdown(param, dropdown);
-    event.stopPropagation();
-  });
 
   // Keyboard event handler
   dropdown.addEventListener("keydown", function(event) {
