@@ -533,15 +533,14 @@ function renderChart(chartIndex) {
   if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !isScreenshotModeEnabled)
     renderChartTabButtons(chartDiv);
 
-  if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
-    renderHints(chartDiv, chartConfig, chartData);
-
   if (chartData.series.length == 0) {
     const div = document.createElement("DIV");
     chartDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data available"));
     div.classList.add("noData");
   } else {
+    if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
+      renderHints(chartDiv, chartConfig, chartData);
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
       if (isSingleChart && !isScreenshotModeEnabled)
