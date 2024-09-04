@@ -542,13 +542,20 @@ var db = {
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
       if (chartConfig != null && param.showAsFilter) {
+        let hasOther = false;
         for (const i in this.models) {
           const parts = this.models[i].split("|", 2);
           const brand = parts[0];
           const model = parts[1];
-          if (chartConfig.brand == brand || chartConfig.company == brand)
-            param.options[this.urlEncode(model)] = model;
+          if (chartConfig.brand == brand || chartConfig.company == brand) {
+            if (model == "other")
+              hasOther = true;
+            else
+              param.options[this.urlEncode(model)] = model;
+          }
         }
+        if (hasOther)
+          param.options[this.urlEncode("other")] = "other";
       }
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
