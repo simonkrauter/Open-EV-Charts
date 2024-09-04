@@ -560,7 +560,7 @@ var db = {
     {
       let param = {};
       param.name = "maxSeries";
-      param.title = "Max. series";
+      param.title = "Max. series/categories";
       param.options = {};
       for (const i in this.maxSeriesOptions) {
         const option = this.maxSeriesOptions[i];
