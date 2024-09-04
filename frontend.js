@@ -250,7 +250,6 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Overlay
   let overlay = document.createElement("DIV");
   overlay.classList.add("overlay");
-  overlay.style.width = width + "px";
   overlay.setAttribute("tabIndex", "-1");
   dropdown.appendChild(overlay);
   for (const optionKey in param.allOptions) {
