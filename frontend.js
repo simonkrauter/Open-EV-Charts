@@ -276,6 +276,16 @@ function renderDropdownContent(param, dropdown) {
         updateDropdownState(param.name, dropdown, textSpan, overlay);
         event.stopPropagation();
       });
+      checkbox.addEventListener("keydown", function(event) {
+        if (event.keyCode == 13 || event.keyCode == 32) {
+          if (!optionElem.classList.contains("disabled")) {
+            event.preventDefault();
+            paramOptionClickHandler(param, optionKey, true, true);
+            updateDropdownState(param.name, dropdown, textSpan, overlay);
+            event.stopPropagation();
+          }
+        }
+      });
       optionElem.appendChild(checkbox);
     }
     let optionText = param.allOptions[optionKey];
