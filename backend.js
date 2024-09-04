@@ -1853,13 +1853,13 @@ var db = {
       chartConfigForSum.model = this.modelOptions.all;
     }
     let datasets;
-    let datasetsForSum;
+    let datasetsReference;
     if (chartConfig.metric == this.metrics.shareElectric) {
       datasets = this.queryDatasets(chartConfig, true);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, true, false);
+      datasetsReference = this.queryDatasets(chartConfigForSum, true, false);
     } else {
       datasets = this.queryDatasets(chartConfig, false);
-      datasetsForSum = this.queryDatasets(chartConfigForSum, false, false);
+      datasetsReference = this.queryDatasets(chartConfigForSum, false, false);
     }
     let seriesRows = datasets.seriesRows;
     const seriesRowsKeys = Object.keys(seriesRows);
@@ -1877,9 +1877,9 @@ var db = {
       // sum per series
       for (const seriesName in datasets.seriesRows) {
         let sum = 0;
-        for (const i in datasetsForSum.categories) {
-          const category = datasetsForSum.categories[i];
-          sum = sum + this.getValueOrDefault(datasetsForSum.seriesRows[seriesName][category], 0);
+        for (const i in datasetsReference.categories) {
+          const category = datasetsReference.categories[i];
+          sum = sum + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
         }
         sums[seriesName] = sum;
       }
@@ -1888,8 +1888,8 @@ var db = {
       for (const i in datasets.categories) {
         const category = datasets.categories[i];
         let sum = 0;
-        for (const seriesName in datasetsForSum.seriesRows) {
-          sum = sum + this.getValueOrDefault(datasetsForSum.seriesRows[seriesName][category], 0);
+        for (const seriesName in datasetsReference.seriesRows) {
+          sum = sum + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
         }
         sums[category] = sum;
       }
@@ -1905,7 +1905,7 @@ var db = {
           sum = sums[category];
         else {
           // sum per series and category
-          const rows = datasetsForSum.seriesRows[seriesName];
+          const rows = datasetsReference.seriesRows[seriesName];
           if (rows != null)
             sum = this.getValueOrDefault(rows[category], 0);
         }
