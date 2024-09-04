@@ -571,7 +571,7 @@ var db = {
       }
       param.allOptions = param.options;
       param.defaultOption = "limit10";
-      param.showAsFilter = true;
+      param.showAsFilter = chartConfig == null || this.getNumberOfSeries(chartConfig) > 5 || !this.isTimeXProperty(chartConfig);
       result[param.name] = param;
     }
 
