@@ -270,7 +270,7 @@ function renderFilterAsDropdown(parentDiv, param) {
       checkbox.checked = selected;
       checkbox.addEventListener("click", function(event) {
         paramOptionClickHandler(param, optionKey, true, true);
-        updateDropdown(param.name, dropdown, textSpan, overlay);
+        updateDropdownState(param.name, dropdown, textSpan, overlay);
         event.stopPropagation();
       });
       optionElem.appendChild(checkbox);
@@ -294,10 +294,10 @@ function renderFilterAsDropdown(parentDiv, param) {
     });
   }
 
-  updateDropdown(param.name, dropdown, textSpan, overlay);
+  updateDropdownState(param.name, dropdown, textSpan, overlay);
 }
 
-function updateDropdown(paramName, dropdown, textSpan, overlay) {
+function updateDropdownState(paramName, dropdown, textSpan, overlay) {
   const params = db.getChartParams(chartSetConfig);
   const param = params[paramName];
   const selectedKey = chartSetConfig[param.name];
