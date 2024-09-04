@@ -472,10 +472,12 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   navigateToHash(db.encodeChartConfig(chartSetConfig), param.name, renderOnlyCharts);
 
   // Focus the dropdown again
-  const dropdown = document.getElementById(param.name);
-  if (dropdown) {
-    dropdown.focus();
-    closeDropdown();
+  if (!renderOnlyCharts) {
+    const dropdown = document.getElementById(param.name);
+    if (dropdown) {
+      dropdown.focus();
+      closeDropdown();
+    }
   }
 }
 
