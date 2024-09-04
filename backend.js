@@ -1239,8 +1239,6 @@ var db = {
       return;
     if ( ![this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
       return;
-    if (!this.isCombinedCountry(chartConfig))
-      return;
     if (categories.length == 0)
       return;
     categories.sort();
