@@ -305,7 +305,12 @@ var db = {
   },
 
   maxSeriesOptions:
-  { "top5": {mostRelevant: false, count: 5}
+  { "limit5": {mostRelevant: true, count: 5}
+  , "limit10": {mostRelevant: true, count: 10}
+  , "limit15": {mostRelevant: true, count: 15}
+  , "limit20": {mostRelevant: true, count: 20}
+  , "limit30": {mostRelevant: true, count: 30}
+  , "top5": {mostRelevant: false, count: 5}
   , "top10": {mostRelevant: false, count: 10}
   , "top15": {mostRelevant: false, count: 15}
   , "top20": {mostRelevant: false, count: 20}
@@ -559,10 +564,13 @@ var db = {
       param.options = {};
       for (const i in this.maxSeriesOptions) {
         const option = this.maxSeriesOptions[i];
-        param.options[i] = "Top " + option.count;
+        if (option.mostRelevant)
+          param.options[i] = "Most Relevant " + option.count;
+        else
+          param.options[i] = "Top " + option.count;
       }
       param.allOptions = param.options;
-      param.defaultOption = "top10";
+      param.defaultOption = "limit10";
       param.showAsFilter = true;
       result[param.name] = param;
     }
@@ -1641,7 +1649,7 @@ var db = {
     return chartConfig.company == this.companyOptions.all && chartConfig.brand == this.brandOptions.all && chartConfig.model == this.modelOptions.all;
   },
 
-  queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, result) {
+  queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, seriesRowsForSorting, result) {
     // Creates the chart series based on 'seriesRows' and assigns them to 'result'
 
     let isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
@@ -1650,6 +1658,7 @@ var db = {
       if (categoriesCount <= 12)
         isTimeSpanExtendedForAverageCalculation = false;
     }
+    const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
     result.series = [];
@@ -1692,6 +1701,8 @@ var db = {
         // Add value to seriesSortValues
         if (value != null) {
           let sortValue = value;
+          if (seriesRowsForSorting[seriesName] && maxSeriesOption.mostRelevant)
+            sortValue = seriesRowsForSorting[seriesName][category];
           if (categoryIndex >= result.categories.length / 2)
             sortValue = sortValue * 2;
           if (seriesName in seriesSortValues)
@@ -1707,7 +1718,6 @@ var db = {
       result.series.push(totalSeries);
 
     // Add series to array in sorted order
-    const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
@@ -1778,7 +1788,7 @@ var db = {
     result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
     result.sources = datasets.sources;
     result.hints = datasets.hints;
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, seriesRows, result);
     return result;
   },
 
@@ -1838,7 +1848,7 @@ var db = {
       seriesRows = [];
     datasets.seriesRows = seriesRows;
     result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, datasetsReference.seriesRows, result);
     return result;
   },
 
@@ -1912,7 +1922,7 @@ var db = {
           seriesRows[seriesName][category] = value / sum * 100;
       }
     }
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, result);
+    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, datasetsReference.seriesRows, result);
     return result;
   },
 
