@@ -926,8 +926,8 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsByBrand, "https://www.an
 { "other": 4070996
 });
 
-db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByBrand, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf, https://www.goodcarbadcar.net/tesla-us-sales-figures/, https://insideevs.com/news/726693/us-ev-sales-2024-q2/",
-{ "Tesla": 57198
+db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByBrand, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf, https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month, https://insideevs.com/news/726693/us-ev-sales-2024-q2/",
+{ "Tesla": 153100
 , "Ford": 23957
 , "Kia": 17980
 , "Hyundai": 15172
@@ -942,5 +942,5 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Genesis": 2249
 , "Volvo": 1011
 , "Honda": 1535
-, "other": 113911
+, "other": 18010
 });
