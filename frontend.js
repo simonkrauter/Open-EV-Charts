@@ -189,9 +189,6 @@ function isMobileScreenSize() {
 }
 
 function renderFilterAsDropdown(parentDiv, param) {
-  const selectedKey = chartSetConfig[param.name];
-  const selectedKeys = selectedKey.split(",");
-
   // Calculate width
   let width = 40;
   for (const optionKey in param.allOptions)
@@ -205,6 +202,13 @@ function renderFilterAsDropdown(parentDiv, param) {
   dropdown.classList.add("dropdown");
   dropdown.style.width = width + "px";
   parentDiv.appendChild(dropdown);
+
+  renderDropdownContent(param, dropdown);
+}
+
+function renderDropdownContent(param, dropdown) {
+  const selectedKey = chartSetConfig[param.name];
+  const selectedKeys = selectedKey.split(",");
 
   // Button text container
   let textSpan = document.createElement("DIV");
