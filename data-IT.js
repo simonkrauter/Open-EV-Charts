@@ -3796,7 +3796,6 @@ db.insert(db.countries.IT, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 21
 , "BMW|i5": 20
 , "MG|ZS EV": 17
-, "BYD|Seal": 16
 , "Nissan|Ariya": 16
 , "Porsche|Taycan": 16
 , "BMW|i7": 13
@@ -3807,9 +3806,9 @@ db.insert(db.countries.IT, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30 BEV": 12
 , "Mercedes-Benz|EQE": 12
 , "Mercedes-Benz|EQS": 12
+, "BYD|other": 27
 , "Kia|other": 23
 , "Hyundai|other": 15
-, "BYD|other": 11
 , "Polestar|other": 11
 , "Nissan|other": 8
 , "Škoda|other": 8
@@ -4087,8 +4086,8 @@ db.insert(db.countries.IT, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo E-Tech": 108
 , "Smart|Hashtag 1": 99
 , "Volkswagen|ID.3": 98
-, "BYD|Seal": 90
 , "Mercedes-Benz|EQA": 88
+, "BYD|Seal": 83
 , "Peugeot|e-208": 73
 , "BMW|iX2": 63
 , "Opel|Corsa-e": 55
@@ -4131,6 +4130,7 @@ db.insert(db.countries.IT, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 10
 , "Renault|other": 8
 , "Audi|other": 7
+, "BYD|other": 7
 , "Tesla|other": 7
 , "Volvo|other": 7
 , "Škoda|other": 7
