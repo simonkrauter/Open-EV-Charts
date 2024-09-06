@@ -5338,3 +5338,63 @@ db.insert(db.countries.FR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX30": 275
 , "other": 5094
 });
+
+db.insert(db.countries.FR, "2024-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/09/Immatriculations-VPN_Aout2024.pdf",
+{ "Renault": 12193
+, "Peugeot": 11875
+, "Dacia": 8826
+, "Toyota": 6773
+, "Volkswagen": 6272
+, "Citroën": 4854
+, "BMW": 3240
+, "Audi": 3056
+, "Hyundai": 2712
+, "Škoda": 2599
+, "Tesla": 2523
+, "Opel": 2495
+, "Mercedes-Benz": 2325
+, "Kia": 2262
+, "Ford": 1951
+, "Seat": 1633
+, "Fiat": 1458
+, "MG": 1040
+, "Suzuki": 1011
+, "Mini": 922
+, "Cupra": 765
+, "Jeep": 755
+, "Nissan": 655
+, "Volvo": 647
+, "Land Rover": 514
+, "Mazda": 241
+, "Honda": 204
+, "Porsche": 169
+, "BYD": 150
+, "Smart": 88
+, "Mitsubishi": 58
+, "Jaguar": 25
+, "other": 1686
+});
+
+db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/09/barometre-avere-colombus-aout-2024.pdf, https://cleantechnica.com/2024/09/03/evs-at-22-4-share-in-france-stuck-in-the-slow-lane/",
+{ "Tesla|Model Y": 2096
+, "Peugeot|e-208": 919
+, "Renault|Scénic E-Tech": 668
+, "Škoda|Enyaq": 563
+, "Fiat|500e": 559
+, "Renault|Megane E-Tech": 555
+, "BMW|iX1": 451
+, "Mini|Cooper SE": 432
+, "Tesla|Model 3": 410
+, "Volkswagen|ID.3": 374
+, "Renault|Twingo E-Tech": 336
+, "Cupra|Born": 300
+, "Peugeot|e-2008": 298
+, "Ford|Explorer EV": 293
+, "Volvo|EX30": 291
+, "MG|MG4 EV": 260
+, "Volkswagen|ID.4": 260
+, "Jeep|Avenger EV": 256
+, "Audi|Q4 e-tron": 216
+, "Fiat|600e": 204
+, "other": 3402
+});
