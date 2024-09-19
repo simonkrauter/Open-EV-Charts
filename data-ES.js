@@ -5775,17 +5775,16 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 15
 , "Mercedes-Benz|EQV": 13
 , "Mini|Cooper SE": 13
+, "BYD|Song Plus": 12
 , "BMW|iX3": 11
 , "Porsche|Taycan": 10
-, "BMW|iX": 8
-, "Fiat|600e": 8
+, "BMW|other": 15
+, "Fiat|other": 14
 , "Tesla|other": 10
 , "MG|other": 9
 , "Renault|other": 9
-, "BMW|other": 7
 , "Smart|other": 7
 , "Audi|other": 6
-, "Fiat|other": 6
 , "Mercedes-Benz|other": 6
 , "Nissan|other": 4
 , "Peugeot|other": 4
@@ -5795,7 +5794,7 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 2
 , "Mazda|other": 2
 , "Volkswagen|other": 2
-, "other": 21
+, "other": 9
 });
 
 db.insert(db.countries.ES, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosmayotur.asp, https://www.km77.com/mercado/espana/2024/datosmayott.asp",
@@ -5882,6 +5881,7 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 22
 , "Fiat|600e": 22
 , "Volvo|EC40": 20
+, "BYD|Song Plus": 18
 , "Polestar|2": 15
 , "BMW|iX3": 13
 , "Kia|EV9": 13
@@ -5897,7 +5897,7 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 3
 , "Subaru|other": 3
 , "Volkswagen|other": 3
-, "other": 37
+, "other": 19
 });
 
 db.insert(db.countries.ES, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosjuniotur.asp, https://www.km77.com/mercado/espana/2024/datosjuniott.asp",
@@ -5973,6 +5973,7 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 48
 , "Renault|Scénic E-Tech": 45
 , "Dacia|Spring": 44
+, "BYD|Song Plus": 36
 , "Fiat|500e": 31
 , "Smart|Hashtag 3": 28
 , "Nissan|Leaf": 27
@@ -5988,12 +5989,11 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|3": 16
 , "Kia|EV9": 15
 , "Opel|Mokka-e": 15
-, "Mercedes-Benz|EQV": 14
-, "Opel|Corsa-e": 14
+, "Mercedes-Benz|other": 35
 , "MG|other": 24
-, "Mercedes-Benz|other": 21
 , "Volkswagen|other": 17
 , "BMW|other": 16
+, "Opel|other": 15
 , "Peugeot|other": 13
 , "Hyundai|other": 12
 , "Renault|other": 12
@@ -6001,7 +6001,7 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 9
 , "Subaru|other": 9
 , "Audi|other": 3
-, "other": 106
+, "other": 69
 });
 
 db.insert(db.countries.ES, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosjuliotur.asp, https://www.km77.com/mercado/espana/2024/datosjuliott.asp",
@@ -6039,7 +6039,7 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.km
 , "Polestar": 105
 , "Smart": 88
 , "Jaguar": 13
-, "other": 3148
+, "other": 3149
 });
 
 db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -6062,6 +6062,7 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 70
 , "Kia|EV6": 69
 , "BYD|Yuan Plus": 63
+, "BYD|Song Plus": 61
 , "Ford|Mustang Mach-E": 55
 , "Smart|Hashtag 1": 54
 , "Peugeot|e-208": 52
@@ -6096,17 +6097,17 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 13
 , "Tesla|other": 12
 , "Mercedes-Benz|other": 11
+, "Peugeot|other": 11
 , "MG|other": 9
 , "BMW|other": 8
 , "Fiat|other": 8
 , "Dacia|other": 7
 , "Porsche|other": 7
-, "Peugeot|other": 6
 , "Nissan|other": 5
 , "Audi|other": 4
 , "Volkswagen|other": 4
 , "Honda|other": 3
 , "Cupra|other": 2
 , "Subaru|other": 2
-, "other": 104
+, "other": 38
 });
