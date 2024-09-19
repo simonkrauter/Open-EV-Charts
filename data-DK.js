@@ -2882,3 +2882,77 @@ db.insert(db.countries.DK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 4
 , "other": 138
 });
+
+db.insert(db.countries.DK, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf TODO: numbers per brand wanted",
+{ "other": 12854
+});
+
+db.insert(db.countries.DK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/8, https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
+{ "Škoda|Enyaq": 684
+, "Tesla|Model Y": 572
+, "Volkswagen|ID.4": 534
+, "Audi|Q4 e-tron": 386
+, "Volkswagen|ID.3": 362
+, "Mercedes-Benz|EQA": 333
+, "Tesla|Model 3": 243
+, "Renault|Scénic E-Tech": 229
+, "Peugeot|E-3008": 211
+, "Kia|Niro EV": 181
+, "BMW|i5": 177
+, "Mercedes-Benz|EQB": 170
+, "Toyota|bZ4X": 170
+, "Volkswagen|ID.7": 170
+, "Volvo|EX30": 165
+, "BMW|iX1": 163
+, "BYD|Dolphin": 151
+, "Mercedes-Benz|EQE": 142
+, "Ford|Explorer EV": 133
+, "Volvo|EX40": 114
+, "Polestar|2": 106
+, "Cupra|Born": 96
+, "Nissan|Ariya": 96
+, "Volkswagen|ID.5": 95
+, "Renault|Megane E-Tech": 79
+, "Hyundai|Kona Electric": 78
+, "Mini|Cooper SE": 74
+, "Audi|Q6 e-tron": 70
+, "BYD|Song Plus": 69
+, "BYD|Seal": 64
+, "Kia|EV6": 64
+, "Polestar|4": 58
+, "Volkswagen|ID. Buzz": 54
+, "BMW|iX2": 44
+, "MG|MG4 EV": 42
+, "Hyundai|Ioniq 5": 39
+, "BMW|i4": 38
+, "BMW|iX3": 38
+, "Mercedes-Benz|eVito": 37
+, "Peugeot|E-5008": 36
+, "Ford|Mustang Mach-E": 33
+, "Opel|Corsa-e": 28
+, "Peugeot|e-Expert": 26
+, "BYD|Yuan Plus": 22
+, "Opel|Vivaro-e": 19
+, "Fiat|500e": 18
+, "MG|Marvel R": 17
+, "BMW|iX": 16
+, "Honda|e:Ny1": 16
+, "Volvo|EC40": 15
+, "Peugeot|other": 30
+, "Citroën|other": 19
+, "Opel|other": 19
+, "Toyota|other": 13
+, "Subaru|other": 12
+, "Hyundai|other": 11
+, "Kia|other": 11
+, "Audi|other": 10
+, "Mazda|other": 9
+, "Porsche|other": 9
+, "BMW|other": 8
+, "Mercedes-Benz|other": 8
+, "BYD|other": 7
+, "MG|other": 5
+, "Renault|other": 5
+, "Jeep|other": 4
+, "other": 93
+});
