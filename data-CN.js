@@ -1674,3 +1674,25 @@ db.insert(db.countries.CN, "2024-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Tang EV": 711
 , "other": 268689
 });
+
+db.insert(db.countries.CN, "2024-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/09/27/most-car-sales-54-in-china-are-now-plugins-full-report/ TODO: numbers per brand wanted",
+{ "other": 1880645
+});
+
+db.insert(db.countries.CN, "2024-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/09/27/most-car-sales-54-in-china-are-now-plugins-full-report/",
+{ "BYD|Seagull": 46830
+, "Tesla|Model Y": 45330
+, "BYD|Yuan Plus": 27046
+, "Wuling|Hongguang Mini EV": 26461
+, "BYD|Qin EV": 26093
+, "Wuling|Bingo": 22185
+, "BYD|Yuan Up": 19344
+, "Tesla|Model 3": 18126
+, "BYD|Dolphin": 15984
+, "Changan|Lumin": 15701
+, "Aion|Y": 15166
+, "BYD|Song EV": 15032
+, "Volkswagen|ID.3": 9468
+, "BYD|Han EV": 5303
+, "other": 274931
+});
