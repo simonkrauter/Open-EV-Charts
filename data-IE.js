@@ -5046,3 +5046,104 @@ db.insert(db.countries.IE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Subaru|other": 2
 , "other": 10
 });
+
+db.insert(db.countries.IE, "2024-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Kia": 1026
+, "Škoda": 990
+, "Volkswagen": 885
+, "Toyota": 801
+, "Hyundai": 696
+, "Audi": 375
+, "Tesla": 365
+, "Ford": 257
+, "Peugeot": 252
+, "BMW": 195
+, "Dacia": 171
+, "Mercedes-Benz": 162
+, "Renault": 155
+, "Suzuki": 140
+, "Seat": 135
+, "Nissan": 113
+, "BYD": 97
+, "Volvo": 86
+, "Citroën": 65
+, "Land Rover": 65
+, "MG": 63
+, "Opel": 63
+, "Honda": 52
+, "Cupra": 51
+, "Mazda": 49
+, "Porsche": 38
+, "Mini": 26
+, "Fiat": 15
+, "Polestar": 13
+, "Jeep": 11
+, "Jaguar": 8
+, "Subaru": 4
+, "Smart": 2
+, "GWM": 1
+, "other": 104
+});
+
+db.insert(db.countries.IE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 306
+, "Volkswagen|ID.4": 110
+, "Kia|EV6": 101
+, "Tesla|Model Y": 59
+, "BYD|Seal": 53
+, "BMW|iX3": 43
+, "Kia|Niro EV": 39
+, "Kia|EV9": 38
+, "Volkswagen|ID.7": 33
+, "Škoda|Enyaq": 33
+, "BYD|Yuan Plus": 32
+, "Volvo|EX30": 32
+, "Peugeot|E-3008": 30
+, "Hyundai|Kona Electric": 28
+, "Audi|Q4 e-tron": 19
+, "MG|MG4 EV": 18
+, "Nissan|Leaf": 17
+, "Volvo|EX40": 17
+, "MG|MG5 EV": 16
+, "Nissan|Ariya": 15
+, "Hyundai|Ioniq 5": 14
+, "Renault|Megane E-Tech": 14
+, "Volkswagen|ID.3": 14
+, "BMW|i4": 13
+, "BYD|Dolphin": 12
+, "Polestar|2": 12
+, "Toyota|bZ4X": 11
+, "MG|ZS EV": 10
+, "Citroën|ë-C4": 8
+, "Cupra|Born": 8
+, "Volkswagen|ID. Buzz": 8
+, "Hyundai|Ioniq 6": 7
+, "Mini|Cooper SE": 7
+, "Audi|Q6 e-tron": 6
+, "Mercedes-Benz|EQE SUV": 6
+, "Renault|Scénic E-Tech": 6
+, "Opel|Mokka-e": 5
+, "Volvo|EC40": 5
+, "BMW|iX1": 4
+, "Mercedes-Benz|EQB": 4
+, "BMW|iX2": 3
+, "Opel|Corsa-e": 3
+, "Peugeot|e-2008": 3
+, "Peugeot|e-208": 3
+, "Volkswagen|ID.5": 3
+, "BMW|i5": 2
+, "BMW|iX": 2
+, "Jaguar|I-Pace": 2
+, "Mercedes-Benz|EQE": 2
+, "Opel|Astra Electric": 2
+, "Porsche|Taycan": 2
+, "Mercedes-Benz|other": 3
+, "Peugeot|other": 2
+, "Smart|other": 2
+, "Citroën|other": 1
+, "GWM|other": 1
+, "Mazda|other": 1
+, "Polestar|other": 1
+, "Subaru|other": 1
+, "other": 4
+});
