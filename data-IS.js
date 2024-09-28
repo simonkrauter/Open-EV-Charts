@@ -4696,3 +4696,79 @@ db.insert(db.countries.IS, "2024-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volvo|EC40": 1
 , "other": 68
 });
+
+db.insert(db.countries.IS, "2024-08", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
+{ "Toyota": 86
+, "Kia": 43
+, "Tesla": 43
+, "Volvo": 33
+, "Škoda": 27
+, "Honda": 22
+, "Hyundai": 21
+, "BMW": 18
+, "Mercedes-Benz": 16
+, "Volkswagen": 15
+, "BYD": 12
+, "Jeep": 10
+, "Land Rover": 10
+, "Mazda": 10
+, "Peugeot": 9
+, "Audi": 8
+, "Nissan": 8
+, "Suzuki": 6
+, "Citroën": 4
+, "Dacia": 4
+, "Polestar": 4
+, "Opel": 3
+, "Renault": 3
+, "Subaru": 2
+, "Ford": 1
+, "GWM": 1
+, "MG": 1
+, "Mini": 1
+, "Porsche": 1
+, "Seat": 1
+, "other": 41
+});
+
+db.insert(db.countries.IS, "2024-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
+{ "Tesla|Model Y": 35
+, "Volvo|EX30": 17
+, "Honda|e:Ny1": 15
+, "BMW|iX3": 7
+, "Kia|EV6": 7
+, "Tesla|Model 3": 7
+, "Škoda|Enyaq": 7
+, "Audi|Q8 e-tron": 5
+, "BYD|Song Plus": 5
+, "BMW|iX1": 4
+, "Citroën|ë-C4": 4
+, "Mercedes-Benz|EQE": 4
+, "BYD|Seal": 3
+, "BYD|Yuan Plus": 3
+, "Hyundai|Ioniq 6": 3
+, "Polestar|2": 3
+, "Renault|Megane E-Tech": 3
+, "Volkswagen|ID.4": 3
+, "Audi|Q4 e-tron": 2
+, "Mercedes-Benz|eCitan": 2
+, "Volkswagen|ID.3": 2
+, "BMW|i4": 1
+, "BYD|Dolphin": 1
+, "Ford|Mustang Mach-E": 1
+, "GWM|Ora 03": 1
+, "Hyundai|Ioniq 5": 1
+, "Kia|EV9": 1
+, "MG|MG4 EV": 1
+, "Mercedes-Benz|EQA": 1
+, "Mercedes-Benz|EQC": 1
+, "Mercedes-Benz|EQS": 1
+, "Mini|Cooper SE": 1
+, "Nissan|Ariya": 1
+, "Nissan|Leaf": 1
+, "Polestar|3": 1
+, "Subaru|Solterra": 1
+, "Tesla|Model S": 1
+, "Volkswagen|ID.5": 1
+, "other": 34
+});
