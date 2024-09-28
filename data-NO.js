@@ -5099,7 +5099,6 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 50
 , "Mercedes-Benz|EQB": 50
 , "BYD|Dolphin": 49
-, "BYD|Seal": 49
 , "Mercedes-Benz|EQA": 41
 , "Jeep|Avenger EV": 40
 , "BMW|iX3": 39
@@ -5110,14 +5109,16 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Han EV": 32
 , "Peugeot|e-2008": 31
 , "Kia|EV9": 30
+, "BYD|Seal": 27
 , "Renault|Megane E-Tech": 24
 , "Citroën|ë-C4": 23
 , "MG|MG5 EV": 23
 , "BMW|i5": 22
+, "BYD|Song Plus": 22
 , "Mini|Cooper SE": 22
-, "Opel|Astra Electric": 21
 , "Nio|other": 64
 , "Peugeot|other": 54
+, "Opel|other": 28
 , "JAC|other": 19
 , "Tesla|other": 19
 , "Ford|other": 18
@@ -5125,7 +5126,6 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 15
 , "Mercedes-Benz|other": 15
 , "Smart|other": 15
-, "Opel|other": 7
 , "Porsche|other": 6
 , "other": 818
 });
@@ -5187,7 +5187,6 @@ db.insert(db.countries.NO, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 44
 , "Renault|Scénic E-Tech": 40
 , "Renault|Megane E-Tech": 39
-, "BYD|Seal": 38
 , "Ford|F-150 Lightning": 37
 , "Volvo|EC40": 35
 , "Cupra|Born": 33
@@ -5199,9 +5198,11 @@ db.insert(db.countries.NO, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 26
 , "BYD|Tang EV": 25
 , "Kia|Niro EV": 22
+, "BYD|Song Plus": 20
 , "Citroën|ë-C4": 20
 , "Peugeot|e-208": 20
 , "BYD|Han EV": 19
+, "BYD|Seal": 18
 , "JAC|e-JS4": 17
 , "Kia|EV9": 17
 , "Nio|ET7": 17
