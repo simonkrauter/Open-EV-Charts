@@ -1535,7 +1535,14 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      const a = createLink(db.encodeChartConfig({"country": countryCode, "metric": db.metrics.all}));
+      let newChartConfig = {};
+      newChartConfig.country = countryCode;
+      newChartConfig.metric = db.metrics.all;
+      if (lastPerQuarter)
+        newChartConfig.xProperty = db.xProperties.quarter;
+      else
+        newChartConfig.xProperty = db.xProperties.month;
+      const a = createLink(db.encodeChartConfig(newChartConfig));
       td.appendChild(a);
       a.appendChild(createCountryFlagContainer(countryCode, countryName, true));
     }
