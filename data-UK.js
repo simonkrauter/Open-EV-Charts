@@ -47,9 +47,7 @@ db.insert(db.countries.UK, "2017-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Kia|Soul EV": 54
 , "Hyundai|Ioniq Electric": 43
 , "Nissan|e-NV200": 36
-, "Peugeot|iOn": 4
-, "Volkswagen|e-Golf": 4
-, "other": 2
+, "other": 10
 });
 
 db.insert(db.countries.UK, "2017-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -101,10 +99,7 @@ db.insert(db.countries.UK, "2017-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 11
 , "Smart|Fortwo ED": 11
 , "Volkswagen|e-Golf": 6
-, "Ford|Focus Electric": 5
-, "Peugeot|iOn": 5
-, "Citroën|C-Zero": 4
-, "Volkswagen|e-up!": 3
+, "other": 17
 });
 
 db.insert(db.countries.UK, "2017-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -156,9 +151,7 @@ db.insert(db.countries.UK, "2017-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Ioniq Electric": 25
 , "Mercedes-Benz|B250e": 18
 , "Smart|Forfour ED": 16
-, "Volkswagen|e-up!": 4
-, "Peugeot|iOn": 2
-, "other": 1
+, "other": 7
 });
 
 db.insert(db.countries.UK, "2017-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -211,8 +204,7 @@ db.insert(db.countries.UK, "2017-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "Nissan|e-NV200": 16
 , "Volkswagen|e-up!": 12
 , "Peugeot|iOn": 5
-, "Mercedes-Benz|B250e": 3
-, "Citroën|C-Zero": 2
+, "other": 7
 });
 
 db.insert(db.countries.UK, "2018-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -262,10 +254,7 @@ db.insert(db.countries.UK, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 51
 , "Smart|Fortwo ED": 17
 , "Nissan|e-NV200": 9
-, "Volkswagen|e-up!": 4
-, "Jaguar|I-Pace": 3
-, "Mercedes-Benz|B250e": 2
-, "other": 1
+, "other": 10
 });
 
 db.insert(db.countries.UK, "2018-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -318,7 +307,7 @@ db.insert(db.countries.UK, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Smart|Forfour ED": 28
 , "Nissan|e-NV200": 16
 , "Volkswagen|e-up!": 13
-, "Peugeot|iOn": 5
+, "other": 5
 });
 
 db.insert(db.countries.UK, "2018-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -371,7 +360,7 @@ db.insert(db.countries.UK, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Hyundai|Kona Electric": 82
 , "Smart|Forfour ED": 25
 , "Nissan|e-NV200": 23
-, "Volkswagen|e-up!": 5
+, "other": 5
 });
 
 db.insert(db.countries.UK, "2018-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -479,8 +468,7 @@ db.insert(db.countries.UK, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Audi|Q8 e-tron": 63
 , "Nissan|e-NV200": 41
 , "Kia|Soul EV": 30
-, "Mini|Cooper SE": 4
-, "other": 1
+, "other": 5
 });
 
 db.insert(db.countries.UK, "2019-Q2", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
