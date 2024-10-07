@@ -5398,3 +5398,63 @@ db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|600e": 204
 , "other": 3402
 });
+
+db.insert(db.countries.FR, "2024-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/10/Immatriculations-VPN_Sept2024.pdf",
+{ "Renault": 23950
+, "Peugeot": 19363
+, "Volkswagen": 10944
+, "Dacia": 9828
+, "Toyota": 9640
+, "Citroën": 8868
+, "Tesla": 5435
+, "BMW": 5155
+, "Mercedes-Benz": 4381
+, "Škoda": 4209
+, "Audi": 3655
+, "Hyundai": 3424
+, "Kia": 3397
+, "Ford": 3314
+, "Opel": 2963
+, "Mini": 2414
+, "Fiat": 2073
+, "MG": 2020
+, "Nissan": 1695
+, "Seat": 1683
+, "Suzuki": 1562
+, "Volvo": 1424
+, "Cupra": 1323
+, "Mazda": 883
+, "Jeep": 845
+, "Land Rover": 482
+, "Porsche": 371
+, "BYD": 306
+, "Honda": 232
+, "Smart": 178
+, "Mitsubishi": 57
+, "Jaguar": 41
+, "other": 2888
+});
+
+db.insert(db.countries.FR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/09/barometre-avere-colombus-septembre-2024.pdf, https://cleantechnica.com/2024/10/03/evs-take-27-6-share-in-france-citroen-e-c3-arrives-in-a-rush/",
+{ "Tesla|Model Y": 4591
+, "Citroën|ë-C3": 3626
+, "Peugeot|e-208": 1420
+, "Renault|Scénic E-Tech": 1264
+, "Renault|5 E-Tech": 1101
+, "Mini|Cooper SE": 1091
+, "Renault|Megane E-Tech": 929
+, "Fiat|500e": 898
+, "BMW|iX1": 774
+, "Tesla|Model 3": 758
+, "Škoda|Enyaq": 706
+, "Volkswagen|ID.3": 602
+, "Renault|Twingo E-Tech": 573
+, "Volkswagen|ID.4": 558
+, "Peugeot|E-3008": 510
+, "MG|MG4 EV": 444
+, "Cupra|Born": 434
+, "Peugeot|e-2008": 376
+, "Volvo|EX30": 370
+, "Jeep|Avenger EV": 352
+, "other": 6889
+});
