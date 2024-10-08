@@ -777,3 +777,64 @@ db.insert(db.countries.AU, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 3
 , "other": 44
 });
+
+db.insert(db.countries.AU, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-car-sales-september-2024/",
+{ "Toyota": 18110
+, "Ford": 8303
+, "Mazda": 8201
+, "Kia": 7650
+, "Mitsubishi": 6130
+, "Hyundai": 5633
+, "Isuzu": 3929
+, "MG": 3841
+, "GWM": 3802
+, "Subaru": 3169
+, "Tesla": 2649
+, "other": 28464
+});
+
+db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2024/10/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
+{ "Tesla|Model Y": 1498
+, "Tesla|Model 3": 1151
+, "MG|MG4 EV": 385
+, "BYD|Yuan Plus": 339
+, "BMW|iX1": 323
+, "BYD|Seal": 275
+, "Mini|Cooper SE": 216
+, "BMW|iX2": 185
+, "Polestar|2": 185
+, "Volvo|EX30": 163
+, "BMW|i4": 138
+, "Kia|EV6": 138
+, "GWM|Ora 03": 120
+, "BYD|Dolphin": 101
+, "Mercedes-Benz|EQE SUV": 82
+, "Hyundai|Kona Electric": 68
+, "BMW|iX3": 67
+, "Ford|Mustang Mach-E": 64
+, "Mercedes-Benz|EQA": 63
+, "Kia|EV9": 59
+, "Toyota|bZ4X": 54
+, "Volvo|EX40": 49
+, "BMW|iX": 42
+, "Volvo|EC40": 42
+, "Kia|Niro EV": 39
+, "Porsche|Taycan": 39
+, "Cupra|Born": 37
+, "Polestar|3": 27
+, "Mercedes-Benz|EQB": 26
+, "Subaru|Solterra": 26
+, "Nissan|Leaf": 23
+, "Hyundai|Ioniq 5": 19
+, "Hyundai|Ioniq 6": 19
+, "Audi|Q8 e-tron": 16
+, "Jeep|Avenger EV": 16
+, "BMW|i5": 12
+, "Mercedes-Benz|EQS": 11
+, "Renault|Megane E-Tech": 11
+, "Mercedes-Benz|EQE": 9
+, "Mercedes-Benz|EQS SUV": 6
+, "Audi|e-tron GT": 5
+, "BMW|i7": 4
+, "other": 55
+});
