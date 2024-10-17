@@ -5488,10 +5488,99 @@ db.insert(db.countries.NO, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 855
 });
 
+db.insert(db.countries.NO, "2024-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-september-2024",
+{ "Tesla": 4210
+, "Volvo": 980
+, "Volkswagen": 960
+, "Toyota": 857
+, "Škoda": 820
+, "BMW": 770
+, "Hyundai": 502
+, "Nissan": 458
+, "Mercedes-Benz": 434
+, "Audi": 423
+, "BYD": 289
+, "Ford": 267
+, "Peugeot": 256
+, "Polestar": 189
+, "Mazda": 173
+, "Kia": 117
+, "Suzuki": 13
+, "other": 2486
+});
+
+db.insert(db.countries.NO, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2024",
+{ "Tesla|Model Y": 2105
+, "Tesla|Model 3": 2062
+, "Volvo|EX30": 741
+, "Škoda|Enyaq": 736
+, "Toyota|bZ4X": 606
+, "Volkswagen|ID.4": 471
+, "Nissan|Ariya": 380
+, "Volkswagen|ID.3": 320
+, "Hyundai|Kona Electric": 263
+, "BMW|i4": 228
+, "BMW|iX1": 222
+, "Audi|Q4 e-tron": 216
+, "Mercedes-Benz|EQB": 175
+, "Mazda|MX-30 BEV": 159
+, "Hyundai|Ioniq 5": 157
+, "Ford|Explorer EV": 149
+, "Audi|Q6 e-tron": 140
+, "Mercedes-Benz|EQA": 133
+, "Volkswagen|ID.7": 117
+, "Volvo|EX40": 94
+, "BYD|Seal": 91
+, "BYD|Song Plus": 84
+, "BMW|iX2": 82
+, "Polestar|3": 80
+, "Ford|Mustang Mach-E": 72
+, "Peugeot|e-2008": 72
+, "Hyundai|Ioniq 6": 69
+, "Polestar|4": 68
+, "Kia|EV6": 66
+, "BMW|iX": 63
+, "Nissan|Leaf": 62
+, "Peugeot|e-308": 61
+, "Citroën|ë-C4": 60
+, "Renault|Scénic E-Tech": 56
+, "BYD|Dolphin": 53
+, "Opel|Astra Electric": 52
+, "Honda|e:Ny1": 50
+, "Mini|Cooper SE": 49
+, "Opel|Mokka-e": 49
+, "Peugeot|E-5008": 49
+, "Mercedes-Benz|EQE": 44
+, "Kia|EV9": 43
+, "Peugeot|E-3008": 43
+, "Opel|Corsa-e": 41
+, "BMW|iX3": 38
+, "Subaru|Solterra": 30
+, "Nio|EL6": 29
+, "BYD|Tang EV": 28
+, "Ford|F-150 Lightning": 25
+, "Polestar|2": 25
+, "Tesla|Model X": 25
+, "Nio|other": 28
+, "Fiat|other": 25
+, "Audi|other": 22
+, "Peugeot|other": 18
+, "Mercedes-Benz|other": 16
+, "Volvo|other": 16
+, "BMW|other": 15
+, "Jeep|other": 11
+, "Tesla|other": 11
+, "Volkswagen|other": 11
+, "BYD|other": 10
+, "JAC|other": 9
+, "Smart|other": 8
+, "other": 1162
+});
+
 
 // Template:
 
-// db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk",
+// db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, xxx",
 // { "Toyota":
 // , "Tesla":
 // , "Volvo":
