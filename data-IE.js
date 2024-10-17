@@ -5147,3 +5147,107 @@ db.insert(db.countries.IE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Subaru|other": 1
 , "other": 4
 });
+
+db.insert(db.countries.IE, "2024-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 735
+, "Volkswagen": 583
+, "Hyundai": 507
+, "Škoda": 471
+, "Kia": 325
+, "Audi": 312
+, "Ford": 290
+, "Tesla": 254
+, "BMW": 142
+, "Peugeot": 137
+, "Nissan": 112
+, "Seat": 104
+, "Dacia": 100
+, "Mercedes-Benz": 100
+, "Renault": 99
+, "BYD": 83
+, "Cupra": 79
+, "Volvo": 77
+, "Suzuki": 73
+, "Opel": 66
+, "Mazda": 59
+, "Polestar": 57
+, "Mini": 55
+, "Citroën": 51
+, "MG": 48
+, "Porsche": 36
+, "Land Rover": 32
+, "Honda": 24
+, "Fiat": 17
+, "Jeep": 8
+, "GWM": 4
+, "Smart": 3
+, "Subaru": 2
+, "Jaguar": 1
+, "other": 80
+});
+
+db.insert(db.countries.IE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 167
+, "Tesla|Model Y": 87
+, "Volkswagen|ID.4": 61
+, "Ford|Explorer EV": 58
+, "Volkswagen|ID.7": 45
+, "Kia|EV6": 40
+, "BYD|Seal": 35
+, "Polestar|2": 35
+, "Nissan|Leaf": 32
+, "BYD|Yuan Plus": 24
+, "Mini|Cooper SE": 24
+, "Hyundai|Kona Electric": 23
+, "Toyota|bZ4X": 22
+, "Cupra|Born": 19
+, "Audi|Q4 e-tron": 18
+, "BYD|Dolphin": 18
+, "Nissan|Ariya": 17
+, "Peugeot|E-3008": 16
+, "Volvo|EX40": 15
+, "BMW|iX3": 14
+, "Polestar|4": 13
+, "Volvo|EX30": 13
+, "BMW|i4": 12
+, "Kia|EV9": 12
+, "MG|MG4 EV": 12
+, "MG|MG5 EV": 12
+, "Hyundai|Ioniq 5": 11
+, "Kia|Niro EV": 11
+, "Renault|Scénic E-Tech": 11
+, "MG|ZS EV": 9
+, "Polestar|3": 9
+, "Porsche|Macan Electric": 9
+, "BMW|iX1": 8
+, "Volkswagen|ID. Buzz": 7
+, "Mercedes-Benz|EQB": 6
+, "Volvo|EC40": 6
+, "Opel|Mokka-e": 5
+, "Volkswagen|ID.3": 5
+, "Volkswagen|ID.5": 5
+, "Citroën|ë-C4": 4
+, "GWM|Ora 03": 4
+, "Hyundai|Ioniq 6": 4
+, "Peugeot|e-308": 4
+, "Renault|Megane E-Tech": 4
+, "Mercedes-Benz|EQE SUV": 3
+, "Škoda|Enyaq": 3
+, "Audi|Q6 e-tron": 2
+, "Audi|Q8 e-tron": 2
+, "BMW|iX2": 2
+, "Fiat|500e": 2
+, "Ford|Mustang Mach-E": 2
+, "Mercedes-Benz|EQE": 2
+, "Opel|Astra Electric": 2
+, "Peugeot|e-208": 2
+, "Porsche|Taycan": 2
+, "Smart|Hashtag 3": 2
+, "Mercedes-Benz|other": 4
+, "Audi|other": 1
+, "Opel|other": 1
+, "Peugeot|other": 1
+, "Smart|other": 1
+, "Subaru|other": 1
+, "other": 6
+});
