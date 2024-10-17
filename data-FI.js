@@ -5342,3 +5342,98 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "other": 132
 });
+
+db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2903/September_2024.xlsx",
+{ "Toyota": 487
+, "Škoda": 484
+, "Tesla": 456
+, "Volkswagen": 421
+, "Volvo": 412
+, "Kia": 311
+, "Hyundai": 213
+, "BMW": 212
+, "Mercedes-Benz": 209
+, "Ford": 189
+, "Audi": 186
+, "Nissan": 161
+, "Peugeot": 111
+, "Polestar": 100
+, "Opel": 81
+, "Renault": 69
+, "Mazda": 55
+, "BYD": 44
+, "Porsche": 38
+, "Dacia": 37
+, "Mitsubishi": 37
+, "Suzuki": 31
+, "Citroën": 30
+, "Subaru": 30
+, "Cupra": 25
+, "Honda": 19
+, "Land Rover": 18
+, "Mini": 9
+, "Seat": 3
+, "other": 123
+});
+
+db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/9, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model Y": 272
+, "Škoda|Enyaq": 238
+, "Tesla|Model 3": 172
+, "Volvo|EX30": 119
+, "Volkswagen|ID.4": 116
+, "Audi|Q4 e-tron": 62
+, "Volvo|EX40": 54
+, "Volkswagen|ID.7": 52
+, "Ford|Explorer EV": 50
+, "Audi|Q6 e-tron": 42
+, "Toyota|bZ4X": 37
+, "Nissan|Leaf": 31
+, "Porsche|Macan Electric": 31
+, "Hyundai|Ioniq 5": 26
+, "Volvo|EC40": 26
+, "BMW|i4": 25
+, "Mercedes-Benz|EQB": 22
+, "Hyundai|Ioniq 6": 21
+, "Volkswagen|ID.3": 20
+, "BYD|Seal": 19
+, "BMW|i5": 18
+, "Hyundai|Kona Electric": 18
+, "Mercedes-Benz|EQE": 18
+, "Subaru|Solterra": 17
+, "Kia|EV6": 15
+, "BMW|iX1": 14
+, "Kia|Niro EV": 14
+, "Nissan|Ariya": 14
+, "Mercedes-Benz|EQA": 13
+, "Renault|Scénic E-Tech": 13
+, "Cupra|Born": 11
+, "BMW|iX2": 8
+, "Tesla|Model S": 8
+, "BMW|iX": 7
+, "BYD|Tang EV": 7
+, "Ford|Mustang Mach-E": 7
+, "BYD|Yuan Plus": 6
+, "Jeep|Avenger EV": 6
+, "Kia|EV9": 6
+, "Mini|Cooper SE": 6
+, "Peugeot|E-3008": 6
+, "Tesla|Model X": 4
+, "Audi|Q8 e-tron": 3
+, "BYD|Dolphin": 3
+, "Cupra|Tavascan": 3
+, "Peugeot|E-5008": 3
+, "Peugeot|e-208": 3
+, "Kia|Soul EV": 2
+, "Mazda|MX-30 BEV": 2
+, "Opel|Mokka-e": 2
+, "Peugeot|e-308": 2
+, "Peugeot|e-Traveller": 2
+, "Mercedes-Benz|other": 3
+, "BYD|other": 1
+, "Citroën|other": 1
+, "Peugeot|other": 1
+, "Porsche|other": 1
+, "Volkswagen|other": 1
+, "other": 137
+});
