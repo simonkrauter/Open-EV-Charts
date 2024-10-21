@@ -1149,7 +1149,7 @@ var db = {
           let sourceInfo = {};
           sourceInfo.country = dataset.country;
           sourceInfo.firstDate = dataset.monthString;
-          sourceInfo.dsType = dataset.dsType;
+          sourceInfo.isEvs = dataset.isEvs;
           sources[dataset.source] = sourceInfo;
         }
         sources[dataset.source].lastDate = dataset.monthString;

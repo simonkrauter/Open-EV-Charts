@@ -1316,7 +1316,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
       prefix += sourceInfo.lastDate;
     }
     if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric)) {
-      if (sourceInfo.dsType == db.dsTypes.AllCarsByBrand) {
+      if (!sourceInfo.isEvs) {
         prefix += " All cars";
         sortKey += "0";
       } else {
