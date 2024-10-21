@@ -104,6 +104,7 @@ var db = {
     { country: country
     , countryName: this.countryNames[country]
     , dsType: dsType
+    , isEvs: dsType > this.dsTypes.AllCarsByBrand
     , source: source
     };
     if (dateString.substr(5, 1) == 'Q') {
@@ -1027,12 +1028,6 @@ var db = {
       }
     }
 
-    let filterDsType = [];
-    if (onlyEvs) {
-      filterDsType.push(this.dsTypes.ElectricCarsByModel);
-      filterDsType.push(this.dsTypes.ElectricCarsByBrand);
-    } else
-      filterDsType.push(this.dsTypes.AllCarsByBrand);
     let filterCompany = null;
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
       filterCompany = chartConfig.company;
@@ -1055,9 +1050,9 @@ var db = {
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
-      if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
+      if (dataset.isEvs != onlyEvs)
         continue;
-      if (!filterDsType.includes(dataset.dsType))
+      if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
         continue;
       if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
         continue;
