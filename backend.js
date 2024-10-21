@@ -1103,13 +1103,11 @@ var db = {
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
 
-        // add entry to gapDetectionData
-        if (dataset.dsType != this.dsTypes.AllCarsByBrand) {
-          if (!(dataKey in gapDetectionData))
-            gapDetectionData[dataKey] = [[], 0];
-          gapDetectionData[dataKey][0].push(dataset.monthString);
-          gapDetectionData[dataKey][1] += value;
-        }
+        // save gapDetectionData
+        if (!(dataKey in gapDetectionData))
+          gapDetectionData[dataKey] = [[], 0];
+        gapDetectionData[dataKey][0].push(dataset.monthString);
+        gapDetectionData[dataKey][1] += value;
 
         // set category
         if (chartConfig.xProperty == this.xProperties.company)
