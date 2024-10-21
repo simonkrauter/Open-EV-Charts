@@ -1030,8 +1030,7 @@ var db = {
     let filterDsType = [];
     if (onlyEvs) {
       filterDsType.push(this.dsTypes.ElectricCarsByModel);
-      if (chartConfig.xProperty != this.xProperties.model)
-        filterDsType.push(this.dsTypes.ElectricCarsByBrand);
+      filterDsType.push(this.dsTypes.ElectricCarsByBrand);
     } else
       filterDsType.push(this.dsTypes.AllCarsByBrand);
     let filterCompany = null;
