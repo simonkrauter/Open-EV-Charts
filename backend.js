@@ -27,6 +27,7 @@ var db = {
   , "AllCarsTotal": 2
   , "ElectricCarsByModel": 3
   , "ElectricCarsByBrand": 4
+  , "ElectricCarsTotal": 5
   },
 
   datasets: [],
@@ -1437,8 +1438,18 @@ var db = {
       }
     }
 
-    // ev data per model not available
-    if (chartConfig.detailLevel == this.detailLevels.model && usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand)) {
+    // ev data per company/brand/model not available
+    if (chartConfig.detailLevel == this.detailLevels.company && usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal)) {
+      if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
+        hints.push("Data per company is partially not available.");
+      else
+        hints.push("Data per company is not available.");
+    } else if (chartConfig.detailLevel == this.detailLevels.brand && usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal)) {
+      if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
+        hints.push("Data per brand is partially not available.");
+      else
+        hints.push("Data per brand is not available.");
+    } else if (chartConfig.detailLevel == this.detailLevels.model && usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand)) {
       if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel))
         hints.push("Data per model is partially not available.");
       else
