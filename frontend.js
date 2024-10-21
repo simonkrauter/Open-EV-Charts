@@ -1491,7 +1491,7 @@ function renderCountriesStatusPage() {
       const dataset = db.datasets[j];
       if (dataset.country != countryId)
         continue;
-      if (dataset.dsType == db.dsTypes.AllCarsByBrand) {
+      if (!dataset.isEvs) {
         if (latestAllCarsDataset == null) {
           latestAllCarsDataset = dataset;
           lastPerQuarter = dataset.perQuarter;
@@ -1517,12 +1517,12 @@ function renderCountriesStatusPage() {
       if (dataset.country != countryId)
         continue;
       for (const dataKey in dataset.data) {
-        if (dataset.dsType == db.dsTypes.AllCarsByBrand)
+        if (!dataset.isEvs)
           allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
         else
           evSalesSum = evSalesSum + dataset.data[dataKey];
       }
-      if (dataset.dsType == db.dsTypes.AllCarsByBrand)
+      if (!dataset.isEvs)
         salesMonthCount++;
       if (salesMonthCount == 12)
         break;
@@ -1773,7 +1773,7 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
   let lastMonthString = "";
   for (const j in db.datasets) {
     const dataset = db.datasets[j];
-    if (model != null && dataset.dsType == db.dsTypes.AllCarsByBrand)
+    if (model != null && !dataset.isEvs)
       continue;
     if (firstMonthString != "" && dataset.monthString >= firstMonthString && lastMonthString != "" && dataset.monthString <= lastMonthString)
       continue;
@@ -1804,7 +1804,7 @@ function addAnnualSalesTd(tr, onlyEvs, brand, brandAndModel = null) {
     let monthCount = 0;
     for (let j = db.datasets.length - 1; j >= 0; j--) {
       const dataset = db.datasets[j];
-      if ((dataset.dsType != db.dsTypes.AllCarsByBrand) != onlyEvs)
+      if (dataset.isEvs != onlyEvs)
         continue;
       if (dataset.country != curCountryId)
         continue;
