@@ -343,13 +343,18 @@ var db = {
   },
 
   isCombinedCountry: function(chartConfig) {
-    return chartConfig.country.split(",").includes(this.countryOptions.combine);
+    return this.getCountries(chartConfig).includes(this.countryOptions.combine);
   },
 
   isSingleOrCombinedCountry: function(chartConfig) {
     return !this.isMultiCountry(chartConfig) || this.isCombinedCountry(chartConfig);
   },
 
+  getCountries: function(chartConfig) {
+    if (chartConfig.country == null)
+      return [];
+    return chartConfig.country.split(",");
+  },
   getChartParams: function(chartConfig) {
     let result = {};
 
@@ -786,9 +791,7 @@ var db = {
   makeChartConfigValid: function(chartConfig, changedParamName = null) {
     let params = this.getChartParams(chartConfig);
 
-    let countryValues = [];
-    if (chartConfig.country)
-      countryValues = chartConfig.country.split(",");
+    let countryValues = this.getCountries(chartConfig);
     if (!countryValues.includes(this.countryOptions.all)) {
       let singleCountryCount = 0;
       for (const i in countryValues) {
@@ -982,7 +985,7 @@ var db = {
   getChartSubTitle: function(chartConfig, screenshotMode) {
     let parts = [];
     if (screenshotMode && this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
-      const countryValues = chartConfig.country.split(",");
+      const countryValues = this.getCountries(chartConfig);
       let countrieNames = [];
       if (countryValues.includes(this.countryOptions.all)) {
         for (const i in this.countriesWithData) {
@@ -1015,7 +1018,7 @@ var db = {
 
   queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
     // Returns datasets for chart
-    const countryValues = chartConfig.country.split(",");
+    const countryValues = this.getCountries(chartConfig);
     let filterCountryIds = [];
     if (chartConfig.country != this.countryOptions.all) {
       for (const i in countryValues) {
@@ -1589,7 +1592,7 @@ var db = {
       if (chartConfig.country == this.countryOptions.all) {
         return this.countriesWithData.length;
       } else if (chartConfig.country != null) {
-        const countryValues = chartConfig.country.split(",");
+        const countryValues = this.getCountries(chartConfig);
         if (countryValues.length > 1 && !countryValues.includes(this.countryOptions.combine)) {
           return countryValues.length;
         }
