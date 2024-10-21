@@ -2,7 +2,7 @@
 
 "use strict";
 
-db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html",
 { "other": 2148098
 });
 
@@ -19,7 +19,7 @@ db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 11656
 });
 
-db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html",
 { "other": 2247241
 });
 
@@ -36,7 +36,7 @@ db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 9897
 });
 
-db.insert(db.countries.CN, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#mar TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-03", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/salesfig_china_2018#mar",
 { "other": 1863346
 });
 
@@ -55,7 +55,7 @@ db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 22998
 });
 
-db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html",
 { "other": 1648810
 });
 
@@ -75,7 +75,7 @@ db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 28191
 });
 
-db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html",
 { "other": 1632554
 });
 
@@ -96,7 +96,7 @@ db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 37405
 });
 
-db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html",
 { "other": 2161956
 });
 
@@ -115,7 +115,7 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 21143
 });
 
-db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html",
 { "other": 1652383
 });
 
@@ -135,7 +135,7 @@ db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 18119
 });
 
-db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html",
 { "other": 1536716
 });
 
@@ -156,7 +156,7 @@ db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25563
 });
 
-db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html",
 { "other": 1733350
 });
 
@@ -177,7 +177,7 @@ db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25867
 });
 
-db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html",
 { "other": 1777736
 });
 
@@ -198,7 +198,7 @@ db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 38442
 });
 
-db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html",
 { "other": 1909420
 });
 
@@ -219,7 +219,7 @@ db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 39163
 });
 
-db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html",
 { "other": 1933288
 });
 
@@ -240,7 +240,7 @@ db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 47655
 });
 
-db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html",
 { "other": 1958363
 });
 
@@ -262,7 +262,7 @@ db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 13783
 });
 
-db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html",
 { "other": 1206898
 });
 
@@ -284,7 +284,7 @@ db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 6068
 });
 
-db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html",
 { "other": 1857068
 });
 
@@ -307,7 +307,7 @@ db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 14683
 });
 
-db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html",
 { "other": 1579325
 });
 
@@ -330,7 +330,7 @@ db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 10087
 });
 
-db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html",
 { "other": 1542952
 });
 
@@ -352,7 +352,7 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 12013
 });
 
-db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html",
 { "other": 1693408
 });
 
@@ -374,7 +374,7 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 21297
 });
 
-db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html",
 { "other": 1490059
 });
 
@@ -395,7 +395,7 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 8357
 });
 
-db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html",
 { "other": 1932259
 });
 
@@ -417,7 +417,7 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 8648
 });
 
-db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html",
 { "other": 1876993
 });
 
@@ -439,7 +439,7 @@ db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 9446
 });
 
-db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html",
 { "other": 1885316
 });
 
@@ -461,7 +461,7 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 34214
 });
 
-db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
 { "other": 2031801
 });
 
@@ -483,7 +483,7 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 44721
 });
 
-db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html",
 { "other": 2145559
 });
 
@@ -506,7 +506,7 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 75298
 });
 
-db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
 { "other": 1509717
 });
 
@@ -525,7 +525,7 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 12960
 });
 
-db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
 { "other": 224077
 });
 
@@ -546,7 +546,7 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 2117
 });
 
-db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
 { "other": 1037829
 });
 
@@ -567,7 +567,7 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 11431
 });
 
-db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
 { "other": 1503555
 });
 
@@ -587,7 +587,7 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 16044
 });
 
-db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
 { "other": 1635760
 });
 
@@ -607,7 +607,7 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 17386
 });
 
-db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
 { "other": 1631279
 });
 
@@ -628,7 +628,7 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 19739
 });
 
-db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html",
 { "other": 1643229
 });
 
@@ -650,7 +650,7 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25811
 });
 
-db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
 { "other": 1729715
 });
 
@@ -671,7 +671,7 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 28631
 });
 
-db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html",
 { "other": 2050124
 });
 
@@ -693,7 +693,7 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 33251
 });
 
-db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html",
 { "other": 2070469
 });
 
@@ -713,7 +713,7 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 33434
 });
 
-db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html",
 { "other": 2269949
 });
 
@@ -734,7 +734,7 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 45532
 });
 
-db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
 { "other": 2349468
 });
 
@@ -754,7 +754,7 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 44315
 });
 
-db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
 { "other": 1950403
 });
 
@@ -773,7 +773,7 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 66738
 });
 
-db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html",
 { "other": 1094330
 });
 
@@ -795,7 +795,7 @@ db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 30027
 });
 
-db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html",
 { "other": 1816550
 });
 
@@ -815,7 +815,7 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 74008
 });
 
-db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsByBrand, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html",
 { "other": 1657279
 });
 
@@ -834,7 +834,7 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 82767
 });
 
-db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
 { "other": 1499443
 });
 
@@ -851,7 +851,7 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 83374
 });
 
-db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
 { "other": 1483660
 });
 
@@ -870,7 +870,7 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 105649
 });
 
-db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
 { "other": 1458406
 });
 
@@ -888,7 +888,7 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 122611
 });
 
-db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
 { "other": 1425509
 });
 
@@ -907,7 +907,7 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 141028
 });
 
-db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
 { "other": 1680955
 });
 
@@ -928,7 +928,7 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 174889
 });
 
-db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
 { "other": 1923628
 });
 
@@ -947,7 +947,7 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 169666
 });
 
-db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
 { "other": 2058515
 });
 
@@ -967,7 +967,7 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 208449
 });
 
-db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
 { "other": 2263821
 });
 
@@ -990,7 +990,7 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 81347
 });
 
-db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
 { "other": 2126382
 });
 
@@ -1011,7 +1011,7 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 149607
 });
 
-db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
 { "other": 1413872
 });
 
@@ -1033,7 +1033,7 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 107390
 });
 
-db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
 { "other": 1711746
 });
 
@@ -1055,7 +1055,7 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 158699
 });
 
-db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
 { "other": 871209
 });
 
@@ -1074,7 +1074,7 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 95129
 });
 
-db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
 { "other": 1263254
 });
 
@@ -1094,7 +1094,7 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 179267
 });
 
-db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
 { "other": 1960819
 });
 
@@ -1115,7 +1115,7 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 219878
 });
 
-db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
 { "other": 1817502
 });
 
@@ -1136,7 +1136,7 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 212202
 });
 
-db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
 { "other": 1803891
 });
 
@@ -1155,7 +1155,7 @@ db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 235082
 });
 
-db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
 { "other": 1770531
 });
 
@@ -1175,7 +1175,7 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 241926
 });
 
-db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
 { "other": 1811385
 });
 
@@ -1194,7 +1194,7 @@ db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 227724
 });
 
-db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
 { "other": 1735238
 });
 
@@ -1213,7 +1213,7 @@ db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 233694
 });
 
-db.insert(db.countries.CN, "2022-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/02/01/plugin-electric-vehicles-get-30-share-of-auto-market-in-another-record-month-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2022-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/02/01/plugin-electric-vehicles-get-30-share-of-auto-market-in-another-record-month-in-china/",
 { "other": 2058998
 });
 
@@ -1233,7 +1233,7 @@ db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 250924
 });
 
-db.insert(db.countries.CN, "2023-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/03/02/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january-2/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/03/02/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january-2/",
 { "other": 1319231
 });
 
@@ -1254,7 +1254,7 @@ db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 107185
 });
 
-db.insert(db.countries.CN, "2023-02", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/03/29/33-plugin-vehicle-market-share-in-china-february-2023-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/03/29/33-plugin-vehicle-market-share-in-china-february-2023-sales-report/",
 { "other": 1384848
 });
 
@@ -1277,7 +1277,7 @@ db.insert(db.countries.CN, "2023-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 115178
 });
 
-db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/05/01/34-plugin-vehicle-market-share-in-china-march-2023-sales-report/",
 { "other": 1470588
 });
 
@@ -1301,7 +1301,7 @@ db.insert(db.countries.CN, "2023-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 27810
 });
 
-db.insert(db.countries.CN, "2023-04", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/05/31/35-plugin-vehicle-market-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/05/31/35-plugin-vehicle-market-share-in-china-china-ev-sales-report/",
 { "other": 1714286
 });
 
@@ -1326,7 +1326,7 @@ db.insert(db.countries.CN, "2023-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 184161
 });
 
-db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsByBrand, "https://web.archive.org/web/20230924134838/https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-05", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20230924134838/https://cleantechnica.com/2023/07/05/35-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
 { "other": 1714286
 });
 
@@ -1349,7 +1349,7 @@ db.insert(db.countries.CN, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 95591
 });
 
-db.insert(db.countries.CN, "2023-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/08/02/38-plugin-vehicle-market-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/08/02/38-plugin-vehicle-market-share-in-china-china-ev-sales-report/",
 { "other": 1842105
 });
 
@@ -1373,7 +1373,7 @@ db.insert(db.countries.CN, "2023-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 181869
 });
 
-db.insert(db.countries.CN, "2023-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/09/09/38-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/09/09/38-plugin-vehicle-market-share-in-china-china-ev-sales-report-2/",
 { "other": 1731579
 });
 
@@ -1395,7 +1395,7 @@ db.insert(db.countries.CN, "2023-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 204001
 });
 
-db.insert(db.countries.CN, "2023-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/10/02/39-plugin-vehicle-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/10/02/39-plugin-vehicle-share-in-china-china-ev-sales-report/",
 { "other": 1923077
 });
 
@@ -1419,7 +1419,7 @@ db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 209399
 });
 
-db.insert(db.countries.CN, "2023-09", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/11/05/25-bev-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/11/05/25-bev-share-in-china-china-ev-sales-report/",
 { "other": 2097297
 });
 
@@ -1442,7 +1442,7 @@ db.insert(db.countries.CN, "2023-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 243022
 });
 
-db.insert(db.countries.CN, "2023-10", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2023/12/01/26-bev-share-in-china-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2023/12/01/26-bev-share-in-china-china-ev-sales-report/",
 { "other": 2071795
 });
 
@@ -1467,7 +1467,7 @@ db.insert(db.countries.CN, "2023-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 238501
 });
 
-db.insert(db.countries.CN, "2023-11", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/01/03/27-bev-share-in-china/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/01/03/27-bev-share-in-china/",
 { "other": 2076190
 });
 
@@ -1492,7 +1492,7 @@ db.insert(db.countries.CN, "2023-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 223005
 });
 
-db.insert(db.countries.CN, "2023-12", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/01/31/25-of-new-car-sales-in-china-were-100-electric-in-2023/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2023-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/01/31/25-of-new-car-sales-in-china-were-100-electric-in-2023/",
 { "other": 2376923
 });
 
@@ -1518,7 +1518,7 @@ db.insert(db.countries.CN, "2023-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 258662
 });
 
-db.insert(db.countries.CN, "2024-01", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/02/27/geely-aito-who-shine-in-china-in-rising-18-market-share-in-january/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/02/27/geely-aito-who-shine-in-china-in-rising-18-market-share-in-january/",
 { "other": 2087500
 });
 
@@ -1541,7 +1541,7 @@ db.insert(db.countries.CN, "2024-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 186003
 });
 
-db.insert(db.countries.CN, "2024-02", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/03/31/33-plugin-vehicle-market-share-in-china-february-2024-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/03/31/33-plugin-vehicle-market-share-in-china-february-2024-sales-report/",
 { "other": 1333333
 });
 
@@ -1562,7 +1562,7 @@ db.insert(db.countries.CN, "2024-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 185601
 });
 
-db.insert(db.countries.CN, "2024-03", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/04/27/43-plugin-vehicle-market-share-in-china-march-2024-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/04/27/43-plugin-vehicle-market-share-in-china-march-2024-sales-report/",
 { "other": 1727907
 });
 
@@ -1583,7 +1583,7 @@ db.insert(db.countries.CN, "2024-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 50065
 });
 
-db.insert(db.countries.CN, "2024-04", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/05/26/44-plugin-vehicle-market-share-in-china-april-2024-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/05/26/44-plugin-vehicle-market-share-in-china-april-2024-sales-report/",
 { "other": 1597727
 });
 
@@ -1607,7 +1607,7 @@ db.insert(db.countries.CN, "2024-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 211199
 });
 
-db.insert(db.countries.CN, "2024-05", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/07/02/47-plugin-vehicle-market-share-in-china-ev-sales-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/07/02/47-plugin-vehicle-market-share-in-china-ev-sales-report/",
 { "other": 1736170
 });
 
@@ -1629,7 +1629,7 @@ db.insert(db.countries.CN, "2024-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 268510
 });
 
-db.insert(db.countries.CN, "2024-06", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/07/30/half-of-car-sales-in-china-are-now-plugins/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/07/30/half-of-car-sales-in-china-are-now-plugins/",
 { "other": 1755511
 });
 
@@ -1654,7 +1654,7 @@ db.insert(db.countries.CN, "2024-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 243888
 });
 
-db.insert(db.countries.CN, "2024-07", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/09/01/most-car-sales-51-in-china-are-now-plugins-full-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/09/01/most-car-sales-51-in-china-are-now-plugins-full-report/",
 { "other": 1729507
 });
 
@@ -1675,7 +1675,7 @@ db.insert(db.countries.CN, "2024-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 268689
 });
 
-db.insert(db.countries.CN, "2024-08", db.dsTypes.AllCarsByBrand, "https://cleantechnica.com/2024/09/27/most-car-sales-54-in-china-are-now-plugins-full-report/ TODO: numbers per brand wanted",
+db.insert(db.countries.CN, "2024-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/09/27/most-car-sales-54-in-china-are-now-plugins-full-report/",
 { "other": 1880645
 });
 

@@ -2,7 +2,7 @@
 
 "use strict";
 
-db.insert(db.countries.DK, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200218_PRPC_2001_FINAL.pdf",
 { "other": 18671
 });
 
@@ -27,7 +27,7 @@ db.insert(db.countries.DK, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 8
 });
 
-db.insert(db.countries.DK, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200318_PRPC_2002_FINAL.pdf",
 { "other": 15005
 });
 
@@ -53,7 +53,7 @@ db.insert(db.countries.DK, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 3
 });
 
-db.insert(db.countries.DK, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200417_PRPC_2003_FINAL.pdf",
 { "other": 15183
 });
 
@@ -82,7 +82,7 @@ db.insert(db.countries.DK, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.DK, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200519_PRPC_2004-FINAL.pdf",
 { "other": 10199
 });
 
@@ -109,7 +109,7 @@ db.insert(db.countries.DK, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.DK, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200617_PRPC_2005_FINAL.pdf",
 { "other": 11432
 });
 
@@ -138,7 +138,7 @@ db.insert(db.countries.DK, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 6
 });
 
-db.insert(db.countries.DK, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200616_PRPC_2006_FINAL.pdf",
 { "other": 17936
 });
 
@@ -167,7 +167,7 @@ db.insert(db.countries.DK, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.DK, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
 { "other": 18956
 });
 
@@ -199,7 +199,7 @@ db.insert(db.countries.DK, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2
 });
 
-db.insert(db.countries.DK, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20200917_PRPC_2007-08_FINAL.pdf",
 { "other": 17608
 });
 
@@ -232,7 +232,7 @@ db.insert(db.countries.DK, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.DK, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20201016_PRPC_2009_FINAL.pdf",
 { "other": 17197
 });
 
@@ -265,7 +265,7 @@ db.insert(db.countries.DK, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 13
 });
 
-db.insert(db.countries.DK, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20201118_PRPC_2010_FINAL.pdf",
 { "other": 15072
 });
 
@@ -302,7 +302,7 @@ db.insert(db.countries.DK, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 7
 });
 
-db.insert(db.countries.DK, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20201217_PRPC_2011_FINAL.pdf",
 { "other": 18168
 });
 
@@ -338,7 +338,7 @@ db.insert(db.countries.DK, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 18
 });
 
-db.insert(db.countries.DK, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2020-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/2021119_PRPC_2012_FINAL.pdf",
 { "other": 22739
 });
 
@@ -372,7 +372,7 @@ db.insert(db.countries.DK, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 41
 });
 
-db.insert(db.countries.DK, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20210217_PRPC_2101_FINAL.pdf",
 { "other": 10256
 });
 
@@ -406,7 +406,7 @@ db.insert(db.countries.DK, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 22
 });
 
-db.insert(db.countries.DK, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20210317_PRPC_2102_FINAL_.pdf",
 { "other": 9912
 });
 
@@ -440,7 +440,7 @@ db.insert(db.countries.DK, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.DK, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20210416_PRPC_2103_FINAL.pdf",
 { "other": 23736
 });
 
@@ -476,7 +476,7 @@ db.insert(db.countries.DK, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 37
 });
 
-db.insert(db.countries.DK, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/uploads/press_releases_files/20210519_PRPC_2104_FINAL.pdf",
 { "other": 15525
 });
 
@@ -516,7 +516,7 @@ db.insert(db.countries.DK, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 37
 });
 
-db.insert(db.countries.DK, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20210617_PRPC_2105_FINAL.pdf",
 { "other": 16825
 });
 
@@ -562,7 +562,7 @@ db.insert(db.countries.DK, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 8
 });
 
-db.insert(db.countries.DK, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20210716_PRPC_2106_FINAL-1.pdf",
 { "other": 20271
 });
 
@@ -606,7 +606,7 @@ db.insert(db.countries.DK, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 33
 });
 
-db.insert(db.countries.DK, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
 { "other": 13402
 });
 
@@ -657,7 +657,7 @@ db.insert(db.countries.DK, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 24
 });
 
-db.insert(db.countries.DK, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20210916_PRPC_2107-08-FINAL.pdf",
 { "other": 15844
 });
 
@@ -702,7 +702,7 @@ db.insert(db.countries.DK, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 61
 });
 
-db.insert(db.countries.DK, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20211015_PRPC_2109_FINAL.pdf",
 { "other": 14221
 });
 
@@ -749,7 +749,7 @@ db.insert(db.countries.DK, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 69
 });
 
-db.insert(db.countries.DK, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf",
 { "other": 12666
 });
 
@@ -799,7 +799,7 @@ db.insert(db.countries.DK, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 42
 });
 
-db.insert(db.countries.DK, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20211217_PRPC_2111_FINAL.pdf",
 { "other": 14956
 });
 
@@ -850,7 +850,7 @@ db.insert(db.countries.DK, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 85
 });
 
-db.insert(db.countries.DK, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2021-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220118_PRPC_2112_FINAL.pdf",
 { "other": 17767
 });
 
@@ -901,7 +901,7 @@ db.insert(db.countries.DK, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 77
 });
 
-db.insert(db.countries.DK, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220217_PRPC_2201_FINAL.pdf",
 { "other": 9406
 });
 
@@ -952,7 +952,7 @@ db.insert(db.countries.DK, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 55
 });
 
-db.insert(db.countries.DK, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf",
 { "other": 10202
 });
 
@@ -1005,7 +1005,7 @@ db.insert(db.countries.DK, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 33
 });
 
-db.insert(db.countries.DK, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220420_PRPC_2203_FINAL.pdf",
 { "other": 14623
 });
 
@@ -1059,7 +1059,7 @@ db.insert(db.countries.DK, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 34
 });
 
-db.insert(db.countries.DK, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220518_PRPC_2204_FINAL.pdf",
 { "other": 11015
 });
 
@@ -1116,7 +1116,7 @@ db.insert(db.countries.DK, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 32
 });
 
-db.insert(db.countries.DK, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220616_PRPC_2205_FINAL.pdf",
 { "other": 13502
 });
 
@@ -1169,7 +1169,7 @@ db.insert(db.countries.DK, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 63
 });
 
-db.insert(db.countries.DK, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220715_PRPC_2206_FINAL.pdf",
 { "other": 14807
 });
 
@@ -1226,7 +1226,7 @@ db.insert(db.countries.DK, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 66
 });
 
-db.insert(db.countries.DK, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
 { "other": 9826
 });
 
@@ -1287,7 +1287,7 @@ db.insert(db.countries.DK, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 34
 });
 
-db.insert(db.countries.DK, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20220916_PCPR_2207-08_FINAL.pdf",
 { "other": 12756
 });
 
@@ -1344,7 +1344,7 @@ db.insert(db.countries.DK, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 48
 });
 
-db.insert(db.countries.DK, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221018_PCPR_2209_FINAL.pdf",
 { "other": 13011
 });
 
@@ -1403,7 +1403,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 28
 });
 
-db.insert(db.countries.DK, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf",
 { "other": 10852
 });
 
@@ -1464,7 +1464,7 @@ db.insert(db.countries.DK, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 24
 });
 
-db.insert(db.countries.DK, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221215_PCPR_2211_FINAL.pdf",
 { "other": 13126
 });
 
@@ -1524,7 +1524,7 @@ db.insert(db.countries.DK, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 33
 });
 
-db.insert(db.countries.DK, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2022-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230118_PCPR_2212_FINAL.pdf",
 { "other": 15219
 });
 
@@ -1585,7 +1585,7 @@ db.insert(db.countries.DK, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 99
 });
 
-db.insert(db.countries.DK, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
 { "other": 10403
 });
 
@@ -1647,7 +1647,7 @@ db.insert(db.countries.DK, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 27
 });
 
-db.insert(db.countries.DK, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
 { "other": 11597
 });
 
@@ -1709,7 +1709,7 @@ db.insert(db.countries.DK, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 90
 });
 
-db.insert(db.countries.DK, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
 { "other": 17960
 });
 
@@ -1768,7 +1768,7 @@ db.insert(db.countries.DK, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 87
 });
 
-db.insert(db.countries.DK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
 { "other": 12066
 });
 
@@ -1835,7 +1835,7 @@ db.insert(db.countries.DK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 29
 });
 
-db.insert(db.countries.DK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
 { "other": 14012
 });
 
@@ -1900,7 +1900,7 @@ db.insert(db.countries.DK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 39
 });
 
-db.insert(db.countries.DK, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
 { "other": 18306
 });
 
@@ -1965,7 +1965,7 @@ db.insert(db.countries.DK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 70
 });
 
-db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
 { "other": 11239
 });
 
@@ -2035,7 +2035,7 @@ db.insert(db.countries.DK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 40
 });
 
-db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
 { "other": 13556
 });
 
@@ -2110,7 +2110,7 @@ db.insert(db.countries.DK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 40
 });
 
-db.insert(db.countries.DK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
 { "other": 14885
 });
 
@@ -2178,7 +2178,7 @@ db.insert(db.countries.DK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 50
 });
 
-db.insert(db.countries.DK, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
 { "other": 13233
 });
 
@@ -2253,7 +2253,7 @@ db.insert(db.countries.DK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 46
 });
 
-db.insert(db.countries.DK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
 { "other": 16354
 });
 
@@ -2326,7 +2326,7 @@ db.insert(db.countries.DK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 44
 });
 
-db.insert(db.countries.DK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2023-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
 { "other": 19187
 });
 
@@ -2400,7 +2400,7 @@ db.insert(db.countries.DK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 37
 });
 
-db.insert(db.countries.DK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
 { "other": 8848
 });
 
@@ -2467,7 +2467,7 @@ db.insert(db.countries.DK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 31
 });
 
-db.insert(db.countries.DK, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf",
 { "other": 11218
 });
 
@@ -2535,7 +2535,7 @@ db.insert(db.countries.DK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 55
 });
 
-db.insert(db.countries.DK, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
 { "other": 16874
 });
 
@@ -2608,7 +2608,7 @@ db.insert(db.countries.DK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 38
 });
 
-db.insert(db.countries.DK, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
 { "other": 15322
 });
 
@@ -2676,7 +2676,7 @@ db.insert(db.countries.DK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 41
 });
 
-db.insert(db.countries.DK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
 { "other": 14569
 });
 
@@ -2744,7 +2744,7 @@ db.insert(db.countries.DK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 37
 });
 
-db.insert(db.countries.DK, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf",
 { "other": 19531
 });
 
@@ -2814,7 +2814,7 @@ db.insert(db.countries.DK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 124
 });
 
-db.insert(db.countries.DK, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
 { "other": 11517
 });
 
@@ -2883,7 +2883,7 @@ db.insert(db.countries.DK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 138
 });
 
-db.insert(db.countries.DK, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.DK, "2024-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
 { "other": 12854
 });
 

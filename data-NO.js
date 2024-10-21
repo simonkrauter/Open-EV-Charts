@@ -2,7 +2,7 @@
 
 "use strict";
 
-db.insert(db.countries.NO, "2017-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-januar-1",
+db.insert(db.countries.NO, "2017-01", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-januar-1",
 { "other": 13055
 });
 
@@ -24,7 +24,7 @@ db.insert(db.countries.NO, "2017-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 23
 });
 
-db.insert(db.countries.NO, "2017-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-februar-1",
+db.insert(db.countries.NO, "2017-02", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-februar-1",
 { "other": 11788
 });
 
@@ -46,7 +46,7 @@ db.insert(db.countries.NO, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 28
 });
 
-db.insert(db.countries.NO, "2017-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mars-1",
+db.insert(db.countries.NO, "2017-03", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-mars-1",
 { "other": 13398
 });
 
@@ -68,7 +68,7 @@ db.insert(db.countries.NO, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 20
 });
 
-db.insert(db.countries.NO, "2017-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-april-1",
+db.insert(db.countries.NO, "2017-04", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-april-1",
 { "other": 11339
 });
 
@@ -91,7 +91,7 @@ db.insert(db.countries.NO, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 16
 });
 
-db.insert(db.countries.NO, "2017-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-mai-1",
+db.insert(db.countries.NO, "2017-05", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-mai-1",
 { "other": 14175
 });
 
@@ -114,7 +114,7 @@ db.insert(db.countries.NO, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 18
 });
 
-db.insert(db.countries.NO, "2017-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juni-1",
+db.insert(db.countries.NO, "2017-06", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-juni-1",
 { "other": 14228
 });
 
@@ -139,7 +139,7 @@ db.insert(db.countries.NO, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 20
 });
 
-db.insert(db.countries.NO, "2017-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-juli",
+db.insert(db.countries.NO, "2017-07", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-juli",
 { "other": 11476
 });
 
@@ -164,7 +164,7 @@ db.insert(db.countries.NO, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 14
 });
 
-db.insert(db.countries.NO, "2017-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-august",
+db.insert(db.countries.NO, "2017-08", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-august",
 { "other": 13415
 });
 
@@ -189,7 +189,7 @@ db.insert(db.countries.NO, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 26
 });
 
-db.insert(db.countries.NO, "2017-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-september",
+db.insert(db.countries.NO, "2017-09", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-september",
 { "other": 13484
 });
 
@@ -213,7 +213,7 @@ db.insert(db.countries.NO, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 24
 });
 
-db.insert(db.countries.NO, "2017-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-oktober",
+db.insert(db.countries.NO, "2017-10", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-oktober",
 { "other": 12472
 });
 
@@ -236,7 +236,7 @@ db.insert(db.countries.NO, "2017-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 18
 });
 
-db.insert(db.countries.NO, "2017-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-november",
+db.insert(db.countries.NO, "2017-11", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-november",
 { "other": 13743
 });
 
@@ -260,7 +260,7 @@ db.insert(db.countries.NO, "2017-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 11
 });
 
-db.insert(db.countries.NO, "2017-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/bilsalget/bilsalget-i-desember",
+db.insert(db.countries.NO, "2017-12", db.dsTypes.AllCarsTotal, "https://ofv.no/bilsalget/bilsalget-i-desember",
 { "other": 16077
 });
 

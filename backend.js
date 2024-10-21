@@ -24,8 +24,9 @@ var db = {
 
   dsTypes:
   { "AllCarsByBrand": 1
-  , "ElectricCarsByModel": 2
-  , "ElectricCarsByBrand": 3
+  , "AllCarsTotal": 2
+  , "ElectricCarsByModel": 3
+  , "ElectricCarsByBrand": 4
   },
 
   datasets: [],
@@ -104,7 +105,7 @@ var db = {
     { country: country
     , countryName: this.countryNames[country]
     , dsType: dsType
-    , isEvs: dsType > this.dsTypes.AllCarsByBrand
+    , isEvs: dsType > this.dsTypes.AllCarsTotal
     , source: source
     };
     if (dateString.substr(5, 1) == 'Q') {
@@ -1421,25 +1422,22 @@ var db = {
       }
     }
 
-    // parse 'AllCarsByBrand not per brand'
-    if (chartConfig.metric == this.metrics.salesAll && chartConfig.detailLevel != this.detailLevels.total) {
-      for (const text in sources) {
-        if (text.includes("TODO: numbers per brand wanted")) {
-          const sourceInfo = sources[text];
-          let hint = "";
-          if (this.isMultiCountry(chartConfig))
-            hint = hint + this.countryNames[sourceInfo.country] + ": ";
-          if (chartConfig.detailLevel == this.detailLevels.company || chartConfig.xProperty == this.xProperties.company)
-            hint = hint + "Data per company is not available.";
-          else
-            hint = hint + "Data per brand is not available.";
-          if (!hints.includes(hint))
-            hints.push(hint);
-        }
+    // all cars data per company/brand not available
+    if (chartConfig.metric == this.metrics.salesAll && usedDatasetTypes.includes(this.dsTypes.AllCarsTotal)) {
+      if (chartConfig.detailLevel == this.detailLevels.company) {
+        if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
+          hints.push("Data per company is partially not available.");
+        else
+          hints.push("Data per company is not available.");
+      } else if (chartConfig.detailLevel == this.detailLevels.brand) {
+        if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
+          hints.push("Data per brand is partially not available.");
+        else
+          hints.push("Data per brand is not available.");
       }
     }
 
-    // data per model not available
+    // ev data per model not available
     if (chartConfig.detailLevel == this.detailLevels.model && usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand)) {
       if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel))
         hints.push("Data per model is partially not available.");

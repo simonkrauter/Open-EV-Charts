@@ -636,7 +636,7 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "other": 6100
 });
 
-db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022",
 { "other": 3310906
 });
 
@@ -660,7 +660,7 @@ db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 1990
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022",
 { "other": 3519313
 });
 
@@ -689,7 +689,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 232
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022",
 { "other": 3417470
 });
 
@@ -723,7 +723,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 19180
 });
 
-db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2022",
 { "other": 3610729
 });
 
@@ -755,7 +755,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 2093
 });
 
-db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023",
 { "other": 3586859
 });
 
@@ -789,7 +789,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 2373
 });
 
-db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023",
 { "other": 4089227
 });
 
@@ -825,7 +825,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 3730
 });
 
-db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023",
 { "other": 3968578
 });
 
@@ -861,7 +861,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 7144
 });
 
-db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023 TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month-2023",
 { "other": 3880905
 });
 
@@ -899,7 +899,7 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 12936
 });
 
-db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsByBrand, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.marklines.com/en/statistics/flash_sales/automotive-sales-in-usa-by-month",
 { "other": 3682623
 });
 
@@ -922,7 +922,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByBrand, "https://c
 , "other": 11296
 });
 
-db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsByBrand, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf TODO: numbers per brand wanted",
+db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf",
 { "other": 4070996
 });
 
