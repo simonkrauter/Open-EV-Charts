@@ -377,8 +377,6 @@ var db = {
       param.showInTitle = true;
       param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
       param.allowMultiSelection = true;
-      param.maxOptionsToShowAsButton = 9;
-      param.moreButtonText = "More Countries";
       result[param.name] = param;
     }
 
@@ -404,8 +402,6 @@ var db = {
       param.showAsFilter = true;
       param.allowMultiSelection = true;
       param.showAlwaysAsActive = true;
-      param.maxOptionsToShowAsButton = 4;
-      param.moreButtonText = "More Metrics";
       result[param.name] = param;
     }
 

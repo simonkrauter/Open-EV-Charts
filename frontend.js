@@ -54,7 +54,6 @@ var isShowAllChartsEnabled;
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
-var activeShowAllOptionsParamName;
 var sortByName;
 var hintsDiv;
 var isHintsDivExpanded;
@@ -66,10 +65,7 @@ const canvasContext = document.createElement("CANVAS").getContext("2d");
 setGlobalChartOptions();
 navigate();
 
-function navigate(retainShowAllOptionsParamName = "", renderOnlyCharts = false) {
-  if (activeShowAllOptionsParamName != retainShowAllOptionsParamName)
-    activeShowAllOptionsParamName = "";
-
+function navigate(renderOnlyCharts = false) {
   currentHash = decodeURIComponent(location.hash.substr(1));
   isScreenshotModeEnabled = false;
   isShowAllChartsEnabled = false;
@@ -100,9 +96,9 @@ function navigate(retainShowAllOptionsParamName = "", renderOnlyCharts = false) 
   logVisit();
 }
 
-function navigateToHash(hash, retainShowAllOptionsParamName = "", renderOnlyCharts = false) {
+function navigateToHash(hash, renderOnlyCharts = false) {
   history.pushState(null, null, "#" + hash);
-  navigate(retainShowAllOptionsParamName, renderOnlyCharts);
+  navigate(renderOnlyCharts);
 }
 
 function logVisit() {
@@ -401,77 +397,6 @@ function closeDropdown() {
   }
 }
 
-function renderFilterAsButtons(parentDiv, param) {
-  const selectedKeys = chartSetConfig[param.name].split(",");
-  const div = document.createElement("DIV");
-  parentDiv.appendChild(div);
-
-  // Test, if "Show more" button is needed
-  let extendedOptionStartIndex = -1;
-  let optionIndex = 0;
-  if (param.maxOptionsToShowAsButton > 0 && activeShowAllOptionsParamName != param.name) {
-    for (const optionKey in param.options) {
-      if (optionIndex >= param.maxOptionsToShowAsButton - 1) {
-        extendedOptionStartIndex = optionIndex;
-        break;
-      }
-      optionIndex++;
-    }
-  }
-
-  // Hide more options when extended options are active
-  if (extendedOptionStartIndex != -1) {
-    optionIndex = 0;
-    let decCount = 0;
-    for (const optionKey in param.options) {
-      if (optionIndex >= extendedOptionStartIndex && selectedKeys.includes(optionKey))
-        decCount++;
-      optionIndex++;
-    }
-    extendedOptionStartIndex = extendedOptionStartIndex - decCount;
-  }
-
-  // Add regular option button
-  optionIndex = 0;
-  for (const optionKey in param.options) {
-    let newChartConfig = db.cloneObject(chartSetConfig);
-    newChartConfig[param.name] = optionKey;
-    db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
-
-    let button = createButton();
-    div.appendChild(button);
-    button.href = "#" + db.encodeChartConfig(newChartConfig);
-    if (selectedKeys.includes(optionKey))
-      button.classList.add("active");
-    else if (extendedOptionStartIndex != -1 && optionIndex >= extendedOptionStartIndex)
-      button.classList.add("extendedOption");
-    optionIndex++;
-    button.appendChild(document.createTextNode(param.options[optionKey]));
-    const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
-    const isOptionAdditive = param.additiveOptions && param.additiveOptions.includes(optionKey);
-    if (param.allowMultiSelection && isMultiSelectOption && !isOptionAdditive)
-      button.title = "CTRL click for multi-selection";
-    button.addEventListener("click", function(event) {
-      event.preventDefault();
-      paramOptionClickHandler(param, optionKey, event.ctrlKey);
-    });
-  }
-
-  // Add "Show more" button
-  if (extendedOptionStartIndex != -1) {
-    let button = createButton();
-    div.appendChild(button);
-    button.addEventListener("click", function(event) {
-      event.preventDefault();
-      div.classList.add("showAllOptions");
-      activeShowAllOptionsParamName = param.name;
-    });
-    button.classList.add("showMore");
-    button.appendChild(document.createTextNode(param.moreButtonText));
-    button.title = "Show more options";
-  }
-}
-
 function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, renderOnlyCharts = false) {
   const isOptionAdditive = param.additiveOptions && param.additiveOptions.includes(optionKey);
   const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
@@ -503,7 +428,7 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
     newChartConfig[param.name] = optionKey;
   db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
   chartSetConfig = newChartConfig;
-  navigateToHash(db.encodeChartConfig(chartSetConfig), param.name, renderOnlyCharts);
+  navigateToHash(db.encodeChartConfig(chartSetConfig), renderOnlyCharts);
 
   // Focus the dropdown again
   if (!renderOnlyCharts) {
