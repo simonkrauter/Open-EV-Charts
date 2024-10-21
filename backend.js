@@ -355,6 +355,25 @@ var db = {
       return [];
     return chartConfig.country.split(",");
   },
+
+  getCompanies: function(chartConfig) {
+    if (chartConfig.company == null)
+      return [];
+    return chartConfig.company.split(",");
+  },
+
+  getBrands: function(chartConfig) {
+    if (chartConfig.brand == null)
+      return [];
+    return chartConfig.brand.split(",");
+  },
+
+  getModels: function(chartConfig) {
+    if (chartConfig.model == null)
+      return [];
+    return chartConfig.model.split(",");
+  },
+
   getChartParams: function(chartConfig) {
     let result = {};
 
@@ -519,7 +538,7 @@ var db = {
           const brand = this.brands[i];
           if (brand == "other")
             continue;
-          if (chartConfig == null || chartConfig.company == this.companyOptions.all || chartConfig.company == this.urlEncode(this.companiesByBrand[brand]))
+          if (chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).includes(this.urlEncode(this.companiesByBrand[brand])))
             param.options[this.urlEncode(brand)] = brand;
         }
       }
@@ -544,7 +563,7 @@ var db = {
           const parts = this.models[i].split("|", 2);
           const brand = parts[0];
           const model = parts[1];
-          if (chartConfig.brand == brand || chartConfig.company == brand) {
+          if (this.getBrands(chartConfig).includes(brand) || this.getCompanies(chartConfig).includes(brand)) {
             if (model == "other")
               hasOther = true;
             else
@@ -1029,15 +1048,15 @@ var db = {
       }
     }
 
-    let filterCompany = null;
+    let filterCompanies = [];
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
-      filterCompany = chartConfig.company;
-    let filterBrand = null;
+      filterCompanies = this.getCompanies(chartConfig);
+    let filterBrands = [];
     if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
-      filterBrand = chartConfig.brand;
-    let filterModel = null;
+      filterBrands = this.getBrands(chartConfig);
+    let filterModels = [];
     if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && onlyEvs)
-      filterModel = chartConfig.model;
+      filterModels = this.getModels(chartConfig);
     const dateFilters = this.queryDatasets_getDateFilters(chartConfig);
 
     let seriesRows = {};
@@ -1095,11 +1114,11 @@ var db = {
         const value = dataset.data[dataKey];
 
         // apply filters
-        if (filterCompany != null && this.urlEncode(company) != filterCompany)
+        if (filterCompanies.length > 0 && !filterCompanies.includes(this.urlEncode(company)))
           continue;
-        if (filterBrand != null && this.urlEncode(brand) != filterBrand)
+        if (filterBrands.length > 0 && !filterBrands.includes(this.urlEncode(brand)))
           continue;
-        if (filterModel != null && this.urlEncode(model) != filterModel)
+        if (filterModels.length > 0 && !filterModels.includes(this.urlEncode(model)))
           continue;
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
@@ -1125,11 +1144,11 @@ var db = {
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
         else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
-          if (chartConfig.detailLevel == this.detailLevels.company && filterCompany == null)
+          if (chartConfig.detailLevel == this.detailLevels.company && filterCompanies.length != 1)
             seriesName = company;
-          else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrand == null)
+          else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrands.length != 1)
             seriesName = brand;
-          else if (chartConfig.detailLevel == this.detailLevels.model && filterModel == null) {
+          else if (chartConfig.detailLevel == this.detailLevels.model && filterModels.length != 1) {
             if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
               seriesName = dataKey + "|other";
             else
