@@ -129,14 +129,7 @@ var db = {
       this.datasets.push(dataset);
     }
 
-    if (dsType == this.dsTypes.AllCarsByBrand) {
-      for (const brand in data) {
-        if (!this.brands.includes(brand)) {
-          this.brands.push(brand);
-          this.brandsUrlEncoded.push(this.urlEncode(brand));
-        }
-      }
-    } else if (dsType == this.dsTypes.ElectricCarsByModel) {
+    if (dsType == this.dsTypes.ElectricCarsByModel) {
       for (const model in data) {
         const parts = model.split("|", 2);
         const brand = parts[0];
@@ -149,7 +142,7 @@ var db = {
           this.modelsUrlEncoded.push(this.urlEncode(model));
         }
       }
-    } else if (dsType == this.dsTypes.ElectricCarsByBrand) {
+    } else {
       for (const brand in data) {
         if (!this.brands.includes(brand)) {
           this.brands.push(brand);
