@@ -2888,9 +2888,9 @@ db.insert(db.countries.DK, "2024-08", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.DK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/8, https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
-{ "Škoda|Enyaq": 684
-, "Tesla|Model Y": 572
-, "Volkswagen|ID.4": 534
+{ "Škoda|Enyaq": 686
+, "Tesla|Model Y": 573
+, "Volkswagen|ID.4": 541
 , "Audi|Q4 e-tron": 386
 , "Volkswagen|ID.3": 362
 , "Mercedes-Benz|EQA": 333
@@ -2902,29 +2902,29 @@ db.insert(db.countries.DK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 170
 , "Toyota|bZ4X": 170
 , "Volkswagen|ID.7": 170
-, "Volvo|EX30": 165
+, "Volvo|EX30": 166
 , "BMW|iX1": 163
 , "BYD|Dolphin": 151
 , "Mercedes-Benz|EQE": 142
 , "Ford|Explorer EV": 133
-, "Volvo|EX40": 114
+, "Volvo|EX40": 115
 , "Polestar|2": 106
 , "Cupra|Born": 96
 , "Nissan|Ariya": 96
 , "Volkswagen|ID.5": 95
 , "Renault|Megane E-Tech": 79
 , "Hyundai|Kona Electric": 78
-, "Mini|Cooper SE": 74
+, "Mini|Cooper SE": 75
 , "Audi|Q6 e-tron": 70
 , "BYD|Song Plus": 69
+, "Kia|EV6": 67
 , "BYD|Seal": 64
-, "Kia|EV6": 64
 , "Polestar|4": 58
 , "Volkswagen|ID. Buzz": 54
+, "Hyundai|Ioniq 5": 51
 , "BMW|iX2": 44
 , "MG|MG4 EV": 42
-, "Hyundai|Ioniq 5": 39
-, "BMW|i4": 38
+, "BMW|i4": 39
 , "BMW|iX3": 38
 , "Mercedes-Benz|eVito": 37
 , "Peugeot|E-5008": 36
@@ -2941,18 +2941,18 @@ db.insert(db.countries.DK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 30
 , "Citroën|other": 19
 , "Opel|other": 19
+, "Hyundai|other": 13
 , "Toyota|other": 13
 , "Subaru|other": 12
-, "Hyundai|other": 11
 , "Kia|other": 11
 , "Audi|other": 10
+, "BYD|other": 9
 , "Mazda|other": 9
 , "Porsche|other": 9
 , "BMW|other": 8
 , "Mercedes-Benz|other": 8
-, "BYD|other": 7
 , "MG|other": 5
 , "Renault|other": 5
 , "Jeep|other": 4
-, "other": 93
+, "other": 60
 });
