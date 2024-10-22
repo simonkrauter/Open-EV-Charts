@@ -3093,7 +3093,7 @@ db.insert(db.countries.IS, "2022-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "other": 279
 });
 
-db.insert(db.countries.IS, "2022-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf",
+db.insert(db.countries.IS, "2022-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf",
 { "Kia": 121
 , "Toyota": 101
 , "Hyundai": 62
@@ -4411,7 +4411,7 @@ db.insert(db.countries.IS, "2024-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "other": 31
 });
 
-db.insert(db.countries.IS, "2024-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.IS, "2024-04", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Dacia": 214
 , "Hyundai": 213
 , "Kia": 178
@@ -4446,7 +4446,7 @@ db.insert(db.countries.IS, "2024-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "other": 184
 });
 
-db.insert(db.countries.IS, "2024-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.IS, "2024-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Tesla|Model Y": 21
 , "Volkswagen|ID.4": 21
 , "Volkswagen|ID.5": 14
