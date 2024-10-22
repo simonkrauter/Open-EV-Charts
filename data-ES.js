@@ -5719,7 +5719,7 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.km
 , "other": 3166
 });
 
-db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Tesla|Model 3": 599
 , "Tesla|Model Y": 284
 , "Volvo|EX30": 249
