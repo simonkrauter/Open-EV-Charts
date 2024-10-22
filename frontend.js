@@ -1432,7 +1432,7 @@ function renderCountriesStatusPage() {
       }
     }
     const lastDateMonthsAgo = (Date.now() - new Date(latestAllCarsDataset.monthString)) / 1000 / 60 / 60 / 24 / 30;
-    const isOutdated = lastDateMonthsAgo > 4.5;
+    const isOutdated = lastDateMonthsAgo > 5.5;
     // collect data from the latest 12 datasets
     let allCarSalesSum = 0;
     let evSalesSum = 0;
