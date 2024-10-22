@@ -1431,8 +1431,11 @@ function renderCountriesStatusPage() {
         }
       }
     }
-    const lastDateMonthsAgo = (Date.now() - new Date(latestAllCarsDataset.monthString)) / 1000 / 60 / 60 / 24 / 30;
-    const isOutdated = lastDateMonthsAgo > 5.5;
+    var isOutdated = false;
+    if (latestAllCarsDataset != null) {
+      const lastDateMonthsAgo = (Date.now() - new Date(latestAllCarsDataset.monthString)) / 1000 / 60 / 60 / 24 / 30;
+      isOutdated = lastDateMonthsAgo > 5.5;
+    }
     // collect data from the latest 12 datasets
     let allCarSalesSum = 0;
     let evSalesSum = 0;
@@ -1477,7 +1480,8 @@ function renderCountriesStatusPage() {
       tr.appendChild(td);
       td.appendChild(document.createTextNode(firstMonthString + " – "));
       const span = document.createElement("SPAN");
-      span.appendChild(document.createTextNode(latestAllCarsDataset.monthString));
+      if (latestAllCarsDataset != null)
+        span.appendChild(document.createTextNode(latestAllCarsDataset.monthString));
       if (isOutdated)
         span.classList.add("outdated");
       td.appendChild(span);
@@ -1496,10 +1500,12 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      if (Object.keys(latestAllCarsDataset.data).length > 1)
-        td.appendChild(document.createTextNode("By brand"));
-      else
-        td.appendChild(document.createTextNode("Total only"));
+      if (latestAllCarsDataset != null) {
+        if (Object.keys(latestAllCarsDataset.data).length > 1)
+          td.appendChild(document.createTextNode("By brand"));
+        else
+          td.appendChild(document.createTextNode("Total only"));
+      }
     }
     // ev data
     {
