@@ -6958,7 +6958,7 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 33
 , "Opel|other": 42
 , "Nio|other": 38
-, "MG|other": 29
+, "MG|other": 30
 , "Smart|other": 29
 , "Mercedes-Benz|other": 28
 , "Kia|other": 25
@@ -6974,7 +6974,7 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 9
 , "Toyota|other": 9
 , "Mazda|other": 5
-, "other": 247
+, "other": 246
 });
 
 db.insert(db.countries.NL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/augustus/",
@@ -7022,7 +7022,7 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 460
 , "Kia|Niro EV": 442
 , "Mini|Cooper SE": 426
-, "Volvo|EX40": 406
+, "Volvo|EX40": 408
 , "BMW|iX1": 334
 , "Renault|Scénic E-Tech": 322
 , "Hyundai|Kona Electric": 266
@@ -7053,8 +7053,8 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG4 EV": 69
 , "Hyundai|Ioniq 5": 65
 , "Volkswagen|ID.4": 65
+, "Volvo|EC40": 63
 , "Peugeot|E-3008": 62
-, "Volvo|EC40": 61
 , "Peugeot|E-5008": 60
 , "Toyota|bZ4X": 58
 , "Fiat|600e": 57
@@ -7076,13 +7076,13 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 22
 , "BYD|other": 21
 , "Porsche|other": 17
+, "Mercedes-Benz|other": 16
 , "Peugeot|other": 16
 , "Volkswagen|other": 16
-, "Mercedes-Benz|other": 15
 , "Mazda|other": 13
 , "Honda|other": 9
 , "MG|other": 9
 , "Tesla|other": 9
 , "Renault|other": 6
-, "other": 327
+, "other": 322
 });
