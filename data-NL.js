@@ -6573,7 +6573,7 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 1054
 });
 
-db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Volvo|EX30": 1459
 , "Tesla|Model Y": 1054
 , "Kia|Niro EV": 820
