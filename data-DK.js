@@ -1403,7 +1403,7 @@ db.insert(db.countries.DK, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 28
 });
 
-db.insert(db.countries.DK, "2022-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221117_PCPR_2210_FINAL.pdf",
+db.insert(db.countries.DK, "2022-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20221117_PCPR_2210-FINAL.pdf",
 { "other": 10852
 });
 
@@ -2608,11 +2608,11 @@ db.insert(db.countries.DK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 38
 });
 
-db.insert(db.countries.DK, "2024-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.DK, "2024-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "other": 15322
 });
 
-db.insert(db.countries.DK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.DK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Renault|Megane E-Tech": 668
 , "Volvo|EX30": 610
 , "Volkswagen|ID.4": 502
