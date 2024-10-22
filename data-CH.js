@@ -5757,7 +5757,7 @@ db.insert(db.countries.CH, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 501
 });
 
-db.insert(db.countries.CH, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2024.pdf",
+db.insert(db.countries.CH, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
 { "Volvo|EX30": 402
 , "Tesla|Model Y": 378
 , "Škoda|Enyaq": 220
