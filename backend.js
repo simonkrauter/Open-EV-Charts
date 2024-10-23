@@ -898,63 +898,57 @@ var db = {
     }
   },
 
-  unfoldChartConfig: function(chartConfig) {
-    if (chartConfig.metric != this.metrics.all && !chartConfig.metric.includes(",")) {
-      if (!this.isTimeXProperty(chartConfig))
-        return [chartConfig];
-      if (chartConfig.detailLevel == this.detailLevels.total)
-        return [chartConfig];
-      if (chartConfig.detailLevel == this.detailLevels.company && chartConfig.company != this.companyOptions.all)
-        return [chartConfig];
-      if (chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand != this.brandOptions.all)
-        return [chartConfig];
-      if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model != this.modelOptions.all)
-        return [chartConfig];
-    }
+  needsUnfold: function(chartConfig) {
+    if (chartConfig.metric == this.metrics.all || chartConfig.metric.includes(","))
+      return true;
+    if (!this.isTimeXProperty(chartConfig))
+      return false;
+    let count = 0;
+    if (this.isMultiCountry(chartConfig))
+      count++;
+    if (chartConfig.detailLevel == this.detailLevels.company && (chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1))
+      count++;
+    if (chartConfig.detailLevel == this.detailLevels.brand && (chartConfig.brand == this.brandOptions.all || this.getBrands(chartConfig).length > 1))
+      count++;
+    if (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.model == this.modelOptions.all || this.getModels(chartConfig).length > 1))
+      count++;
+    return count > 1;
+  },
 
+  unfoldChartConfig: function(chartConfig) {
     let result = [];
     let unfoldedByParams = [];
     result.push(chartConfig);
     const params = this.getChartParams();
     for (const i in params) {
+      if (!this.needsUnfold(result[0]))
+        break;
       const param = params[i];
-      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey) {
-        let newResult = [];
-        for (const j in result) {
-          for (const k in param.options) {
-            if (k != param.unfoldKey && (!param.excludeOnUnfoldAndTitle || !param.excludeOnUnfoldAndTitle.includes(k))) {
-              if (!unfoldedByParams.includes(param.name))
-                unfoldedByParams.push(param.name);
-              let newConfig = this.cloneObject(result[j]);
-              newConfig[param.name] = k;
-              newConfig = this.makeChartConfigValid(newConfig);
-              newConfig.unfoldedByParams = unfoldedByParams;
-              newResult.push(newConfig);
-            }
-          }
-        }
-        result = newResult;
+      let values = [];
+      if (param.unfoldKey && chartConfig[param.name] == param.unfoldKey)
+        values = Object.keys(param.options);
+      else if (param.allowMultiSelection && chartConfig[param.name] != null) {
+        values = chartConfig[param.name].split(",");
+        if (param.disableUnfoldOption != null && values.includes(param.disableUnfoldOption))
+          continue;
       }
-      if (param.allowMultiSelection) {
-        const values = chartConfig[param.name].split(",");
-        if (values.length > 1 && (!param.disableUnfoldOption || !values.includes(param.disableUnfoldOption))) {
-          let newResult = [];
-          for (const j in result) {
-            for (const k in values) {
-              if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[k]))
-                continue;
-              if (!unfoldedByParams.includes(param.name))
-                unfoldedByParams.push(param.name);
-              let newConfig = this.cloneObject(result[j]);
-              newConfig[param.name] = values[k];
-              newConfig = this.makeChartConfigValid(newConfig);
-              newConfig.unfoldedByParams = unfoldedByParams;
-              newResult.push(newConfig);
-            }
-          }
-          result = newResult;
+      if (values.length <= 1)
+        continue;
+      let newResult = [];
+      for (const j in result) {
+        for (const k in values) {
+          if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[k]))
+            continue;
+          if (!unfoldedByParams.includes(param.name))
+            unfoldedByParams.push(param.name);
+          let newConfig = this.cloneObject(result[j]);
+          newConfig[param.name] = values[k];
+          newConfig = this.makeChartConfigValid(newConfig);
+          newConfig.unfoldedByParams = unfoldedByParams;
+          newResult.push(newConfig);
         }
       }
+      result = newResult;
     }
     return result;
   },
