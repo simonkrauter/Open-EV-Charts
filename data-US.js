@@ -944,3 +944,11 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Honda": 1535
 , "other": 10494
 });
+
+db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 3864115
+});
+
+db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 329599
+});
