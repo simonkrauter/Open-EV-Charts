@@ -858,6 +858,22 @@ var db = {
     if (!Object.keys(params.model.options).includes(chartConfig.model))
       chartConfig.model = params.model.defaultOption;
 
+    // replace company groups by their brands when switching from detailLevel.company to detailLevel.brand
+    const companies = this.getCompanies(chartConfig);
+    if (chartConfig.detailLevel == this.detailLevels.brand && companies.length > 1) {
+      let brands = [];
+      for (const i in companies) {
+        const company = companies[i];
+        const j = this.companyGroupNamesUrlEncoded.indexOf(company);
+        if (j != -1)
+          brands.push(companyGroups[Object.keys(companyGroups)[j]]);
+        else
+          brands.push(company);
+      }
+      chartConfig.brand = brands.join(",");
+      chartConfig.company = params.company.defaultOption;
+    }
+
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
       if (chartConfig.timeSpan.startsWith("m")
         || (chartConfig.timeSpan.startsWith("q") && !this.isByMonth(chartConfig))
