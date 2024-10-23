@@ -761,11 +761,6 @@ var db = {
           parts.push(this.detailLevels.company);
         else
           parts.push(this.detailLevels.brand);
-        if (brand in this.companiesByBrand) {
-          const company = this.urlEncode(this.companiesByBrand[brand]);
-          if (company != brand)
-            parts.push(company);
-        }
       }
     }
     let result = {};
