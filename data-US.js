@@ -568,7 +568,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByBrand, "https://c
 , "Porsche": 1247
 , "Subaru": 1147
 , "Volvo": 1069
-, "other": 11296
+, "other": 12695
 });
 
 db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -599,5 +599,5 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.
 });
 
 db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
-{ "other": 329599
+{ "other": 344086
 });
