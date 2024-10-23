@@ -871,10 +871,6 @@ var db = {
     if (!Object.keys(params.view.options).includes(chartConfig.view))
       chartConfig.view = params.view.defaultOption;
 
-    // set brand if selected company is not a group
-    if (chartConfig.company != this.companyOptions.all && !this.companyGroupNamesUrlEncoded.includes(chartConfig.company))
-      chartConfig.brand = chartConfig.company;
-
     // reset brand filter, when company filter is reset
     if (changedParamName == "company" && chartConfig.company == this.companyOptions.all)
       chartConfig.brand = this.brandOptions.all;
