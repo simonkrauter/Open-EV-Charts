@@ -2,6 +2,38 @@
 
 "use strict";
 
+db.insert(db.countries.US, "2017-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 4030694
+});
+
+db.insert(db.countries.US, "2017-Q1", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 21415
+});
+
+db.insert(db.countries.US, "2017-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 4421646
+});
+
+db.insert(db.countries.US, "2017-Q2", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 22813
+});
+
+db.insert(db.countries.US, "2017-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 4427091
+});
+
+db.insert(db.countries.US, "2017-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 30073
+});
+
+db.insert(db.countries.US, "2017-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 4361956
+});
+
+db.insert(db.countries.US, "2017-Q4", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
+{ "other": 30186
+});
+
 db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
 { "other": 4091864
 });
