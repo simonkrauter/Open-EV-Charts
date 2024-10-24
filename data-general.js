@@ -129,8 +129,7 @@ const companyGroups = {
     , "Volkswagen"
     ],
   "Hyundai Motor Group":
-    [ "Genesis"
-    , "Hyundai"
+    [ "Hyundai"
     , "Kia"
     ],
   "Renault-Nissan-Mitsubishi":

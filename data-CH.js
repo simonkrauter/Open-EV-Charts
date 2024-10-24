@@ -86,10 +86,10 @@ db.insert(db.countries.CH, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 63
-, "Tesla|Model X": 9
 , "Tesla|Model S": 28
-, "Peugeot|iOn": 4
+, "Tesla|Model X": 9
 , "Citroën|C-Zero": 4
+, "Peugeot|iOn": 4
 , "other": 77
 });
 
@@ -129,11 +129,11 @@ db.insert(db.countries.CH, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
-{ "Renault|Zoe": 84
+{ "Tesla|Model S": 209
 , "Tesla|Model X": 113
-, "Tesla|Model S": 209
-, "Peugeot|iOn": 3
+, "Renault|Zoe": 84
 , "Nissan|Leaf": 58
+, "Peugeot|iOn": 3
 , "Citroën|C-Zero": 1
 , "other": 336
 });
@@ -175,11 +175,11 @@ db.insert(db.countries.CH, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 81
-, "Tesla|Model X": 18
 , "Tesla|Model S": 49
-, "Peugeot|iOn": 1
 , "Nissan|Leaf": 25
+, "Tesla|Model X": 18
 , "Citroën|C-Zero": 4
+, "Peugeot|iOn": 1
 , "other": 128
 });
 
@@ -219,13 +219,13 @@ db.insert(db.countries.CH, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
-{ "Renault|Zoe": 52
-, "Tesla|Model X": 8
-, "Tesla|Model 3": 1
-, "Tesla|Model S": 55
-, "Peugeot|iOn": 2
+{ "Tesla|Model S": 55
+, "Renault|Zoe": 52
 , "Nissan|Leaf": 15
+, "Tesla|Model X": 8
 , "Citroën|C-Zero": 3
+, "Peugeot|iOn": 2
+, "Tesla|Model 3": 1
 , "other": 98
 });
 
@@ -265,12 +265,12 @@ db.insert(db.countries.CH, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
-{ "Renault|Zoe": 71
-, "Tesla|Model X": 147
+{ "Tesla|Model X": 147
 , "Tesla|Model S": 136
-, "Peugeot|iOn": 1
+, "Renault|Zoe": 71
 , "Nissan|Leaf": 25
 , "Citroën|C-Zero": 2
+, "Peugeot|iOn": 1
 , "other": 274
 });
 
@@ -312,11 +312,11 @@ db.insert(db.countries.CH, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 db.insert(db.countries.CH, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 46
 , "Jaguar|I-Pace": 21
-, "Tesla|Model X": 13
-, "Tesla|Model S": 18
-, "Peugeot|iOn": 3
 , "Nissan|Leaf": 21
+, "Tesla|Model S": 18
+, "Tesla|Model X": 13
 , "Citroën|C-Zero": 5
+, "Peugeot|iOn": 3
 , "other": 91
 });
 
@@ -357,11 +357,11 @@ db.insert(db.countries.CH, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 82
-, "Jaguar|I-Pace": 3
+, "Nissan|Leaf": 58
 , "Tesla|Model X": 39
 , "Tesla|Model S": 32
+, "Jaguar|I-Pace": 3
 , "Peugeot|iOn": 1
-, "Nissan|Leaf": 58
 , "other": 154
 });
 
@@ -401,13 +401,13 @@ db.insert(db.countries.CH, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
-{ "Renault|Zoe": 37
-, "Jaguar|I-Pace": 1
+{ "Tesla|Model S": 145
 , "Tesla|Model X": 130
-, "Tesla|Model S": 145
-, "Peugeot|iOn": 3
 , "Nissan|Leaf": 66
+, "Renault|Zoe": 37
+, "Peugeot|iOn": 3
 , "Citroën|C-Zero": 2
+, "Jaguar|I-Pace": 1
 , "other": 275
 });
 
@@ -448,11 +448,11 @@ db.insert(db.countries.CH, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 86
+, "Nissan|Leaf": 57
+, "Tesla|Model S": 27
 , "Jaguar|I-Pace": 15
 , "Tesla|Model X": 8
-, "Tesla|Model S": 27
 , "Peugeot|iOn": 5
-, "Nissan|Leaf": 57
 , "Citroën|C-Zero": 1
 , "other": 143
 });
@@ -494,10 +494,10 @@ db.insert(db.countries.CH, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 127
-, "Jaguar|I-Pace": 21
-, "Tesla|Model X": 22
-, "Tesla|Model S": 46
 , "Nissan|Leaf": 46
+, "Tesla|Model S": 46
+, "Tesla|Model X": 22
+, "Jaguar|I-Pace": 21
 , "Citroën|C-Zero": 5
 , "other": 192
 });
@@ -539,12 +539,12 @@ db.insert(db.countries.CH, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.auto.swiss/fileadmin/3_Statistiken/Autoverkaeufe_nach_Modellen/ModellePW2018.xlsx (Incomplete: EV models with ICE/hybrid variant are not listed by name, but included as 'other'.)",
 { "Renault|Zoe": 134
-, "Jaguar|I-Pace": 2
 , "Tesla|Model X": 112
 , "Tesla|Model S": 83
-, "Peugeot|iOn": 47
 , "Nissan|Leaf": 56
+, "Peugeot|iOn": 47
 , "Citroën|C-Zero": 4
+, "Jaguar|I-Pace": 2
 , "other": 314
 });
 
@@ -2167,8 +2167,7 @@ db.insert(db.countries.CH, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 98
 , "Jaguar": 76
 , "Smart": 20
-, "Genesis": 5
-, "other": 297
+, "other": 302
 });
 
 db.insert(db.countries.CH, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/2 (includes commercial vehicles)",
@@ -2245,9 +2244,8 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 104
 , "Polestar": 81
 , "Smart": 34
-, "Genesis": 5
 , "Chevrolet": 3
-, "other": 501
+, "other": 506
 });
 
 db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/3 (includes commercial vehicles)",
@@ -2489,8 +2487,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 116
 , "Polestar": 97
 , "Smart": 30
-, "Genesis": 11
-, "other": 419
+, "other": 430
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/6 (includes commercial vehicles)",
@@ -2570,10 +2567,9 @@ db.insert(db.countries.CH, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 83
 , "Polestar": 50
 , "Tesla": 19
-, "Genesis": 18
 , "Smart": 17
 , "Chevrolet": 5
-, "other": 363
+, "other": 381
 });
 
 db.insert(db.countries.CH, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/7 (includes commercial vehicles)",
@@ -2660,9 +2656,8 @@ db.insert(db.countries.CH, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 64
 , "Polestar": 38
 , "Smart": 29
-, "Genesis": 12
 , "Chevrolet": 2
-, "other": 313
+, "other": 325
 });
 
 db.insert(db.countries.CH, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/8 (includes commercial vehicles)",
@@ -2747,9 +2742,8 @@ db.insert(db.countries.CH, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 48
 , "Smart": 41
 , "JAC": 16
-, "Genesis": 8
 , "Chevrolet": 6
-, "other": 322
+, "other": 330
 });
 
 db.insert(db.countries.CH, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/9 (includes commercial vehicles)",
@@ -2831,10 +2825,9 @@ db.insert(db.countries.CH, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 58
 , "Tesla": 58
 , "Smart": 52
-, "Genesis": 5
 , "Chevrolet": 4
 , "JAC": 4
-, "other": 369
+, "other": 374
 });
 
 db.insert(db.countries.CH, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/10 (includes commercial vehicles)",
@@ -2921,10 +2914,9 @@ db.insert(db.countries.CH, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 88
 , "Jaguar": 72
 , "Smart": 36
-, "Genesis": 26
 , "Chevrolet": 19
 , "JAC": 12
-, "other": 330
+, "other": 356
 });
 
 db.insert(db.countries.CH, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/11 (includes commercial vehicles)",
@@ -3013,8 +3005,7 @@ db.insert(db.countries.CH, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 49
 , "Smart": 46
 , "Chevrolet": 36
-, "Genesis": 18
-, "other": 516
+, "other": 534
 });
 
 db.insert(db.countries.CH, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/12 (includes commercial vehicles)",
@@ -3098,11 +3089,10 @@ db.insert(db.countries.CH, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 77
 , "Polestar": 47
 , "Jaguar": 30
-, "Genesis": 19
 , "Tesla": 17
 , "Smart": 14
 , "JAC": 9
-, "other": 265
+, "other": 284
 });
 
 db.insert(db.countries.CH, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/1 (includes commercial vehicles)",
@@ -3188,10 +3178,9 @@ db.insert(db.countries.CH, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 68
 , "Polestar": 64
 , "Jaguar": 56
-, "Genesis": 20
 , "Smart": 18
 , "JAC": 10
-, "other": 293
+, "other": 313
 });
 
 db.insert(db.countries.CH, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/2 (includes commercial vehicles)",
@@ -3278,9 +3267,8 @@ db.insert(db.countries.CH, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 66
 , "Jaguar": 53
 , "Smart": 29
-, "Genesis": 15
 , "JAC": 11
-, "other": 375
+, "other": 390
 });
 
 db.insert(db.countries.CH, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/3 (includes commercial vehicles)",
@@ -3369,9 +3357,8 @@ db.insert(db.countries.CH, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 63
 , "Jaguar": 40
 , "Smart": 18
-, "Genesis": 12
 , "Chevrolet": 3
-, "other": 329
+, "other": 341
 });
 
 db.insert(db.countries.CH, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/4 (includes commercial vehicles)",
@@ -3459,10 +3446,9 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 91
 , "Subaru": 90
 , "Jaguar": 51
-, "Genesis": 29
 , "Smart": 29
 , "Chevrolet": 5
-, "other": 342
+, "other": 371
 });
 
 db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/5 (includes commercial vehicles)",
@@ -3508,12 +3494,11 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 11
 , "Honda|e": 10
 , "Opel|Mokka-e": 10
-, "Genesis|GV60": 9
 , "Opel|Zafira-e": 8
 , "Peugeot|e-2008": 7
 , "Mercedes-Benz|EQV": 5
 , "Tesla|Model 3": 2
-, "other": 99
+, "other": 108
 });
 
 db.insert(db.countries.CH, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -3547,10 +3532,9 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 167
 , "Land Rover": 118
 , "Jaguar": 61
-, "Genesis": 60
 , "Polestar": 44
 , "Smart": 27
-, "other": 447
+, "other": 507
 });
 
 db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/6 (includes commercial vehicles)",
@@ -3589,7 +3573,6 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 25
 , "Renault|Twingo E-Tech": 21
 , "Volvo|EX40": 21
-, "Genesis|GV60": 20
 , "Honda|e": 20
 , "Nissan|Leaf": 18
 , "Volkswagen|e-up!": 17
@@ -3601,11 +3584,10 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "Opel|Zafira-e": 10
 , "Subaru|Solterra": 8
-, "Genesis|Electrified G80": 7
 , "Jaguar|I-Pace": 5
 , "Toyota|bZ4X": 5
 , "Mercedes-Benz|other": 3
-, "other": 130
+, "other": 157
 });
 
 db.insert(db.countries.CH, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -3640,10 +3622,9 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 65
 , "Jaguar": 53
 , "Polestar": 48
-, "Genesis": 47
 , "Smart": 28
 , "Chevrolet": 3
-, "other": 398
+, "other": 445
 });
 
 db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/7 (includes commercial vehicles)",
@@ -3693,11 +3674,9 @@ db.insert(db.countries.CH, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo E-Tech": 7
 , "Kia|Niro EV": 6
 , "Kia|Soul EV": 6
-, "Genesis|Electrified G80": 4
-, "Genesis|GV60": 4
 , "Peugeot|e-2008": 4
 , "Opel|Zafira-e": 3
-, "other": 68
+, "other": 76
 });
 
 db.insert(db.countries.CH, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -3731,11 +3710,10 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 79
 , "Nissan": 77
 , "Polestar": 45
-, "Genesis": 38
 , "Jaguar": 33
 , "Smart": 11
 , "Chevrolet": 4
-, "other": 372
+, "other": 410
 });
 
 db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/8 (includes commercial vehicles)",
@@ -3782,15 +3760,12 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 7
 , "Opel|Corsa-e": 7
 , "Peugeot|e-2008": 7
-, "Genesis|GV60": 6
-, "Genesis|Electrified GV70": 6
 , "Nissan|Leaf": 6
 , "Kia|Soul EV": 5
 , "Audi|e-tron GT": 4
-, "Genesis|Electrified G80": 4
 , "Volvo|EX40": 3
 , "Smart|other": 2
-, "other": 64
+, "other": 80
 });
 
 db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -3825,10 +3800,9 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 109
 , "Jaguar": 66
 , "Polestar": 56
-, "Genesis": 50
 , "Smart": 14
 , "Chevrolet": 3
-, "other": 360
+, "other": 410
 });
 
 db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/9 (includes commercial vehicles)",
@@ -3870,9 +3844,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 16
 , "Volkswagen|e-up!": 15
 , "Volvo|EX40": 14
-, "Genesis|GV60": 12
 , "Smart|Fortwo ED": 11
-, "Genesis|Electrified GV70": 10
 , "Nissan|Leaf": 10
 , "Opel|Corsa-e": 9
 , "Porsche|Taycan": 9
@@ -3883,7 +3855,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 4
 , "Mercedes-Benz|EQV": 4
 , "Toyota|other": 3
-, "other": 132
+, "other": 154
 });
 
 db.insert(db.countries.CH, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -3916,12 +3888,11 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 93
 , "Jeep": 80
 , "Polestar": 62
-, "Genesis": 39
 , "Jaguar": 38
 , "Tesla": 31
 , "Smart": 18
 , "Chevrolet": 2
-, "other": 391
+, "other": 430
 });
 
 db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/10 (includes commercial vehicles)",
@@ -3959,7 +3930,6 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 18
 , "Audi|e-tron GT": 17
 , "Nissan|Ariya": 17
-, "Genesis|GV60": 16
 , "Kia|Niro EV": 16
 , "Mercedes-Benz|EQE": 15
 , "Subaru|Solterra": 15
@@ -3968,17 +3938,15 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 12
 , "BMW|i3 BEV": 11
 , "Volkswagen|e-up!": 10
-, "Genesis|Electrified GV70": 9
 , "Peugeot|e-2008": 8
 , "Jaguar|I-Pace": 7
 , "Opel|Corsa-e": 7
 , "Tesla|Model 3": 6
 , "Mazda|MX-30 BEV": 5
 , "Honda|e": 3
-, "Genesis|other": 2
 , "Mercedes-Benz|other": 2
 , "Opel|other": 2
-, "other": 63
+, "other": 90
 });
 
 db.insert(db.countries.CH, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -4011,13 +3979,12 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 143
 , "Subaru": 134
 , "Jeep": 130
-, "Genesis": 65
 , "Polestar": 54
 , "Jaguar": 37
 , "Smart": 22
 , "Chevrolet": 7
 , "JAC": 5
-, "other": 420
+, "other": 485
 });
 
 db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/11 (includes commercial vehicles)",
@@ -4045,7 +4012,6 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 54
 , "Toyota|bZ4X": 44
 , "Volvo|EX40": 44
-, "Genesis|GV60": 43
 , "Audi|e-tron GT": 42
 , "Audi|Q8 e-tron": 38
 , "Mercedes-Benz|EQB": 37
@@ -4070,11 +4036,10 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 11
 , "BMW|i7": 8
 , "BMW|i3 BEV": 7
-, "Genesis|Electrified GV70": 6
 , "Opel|Zafira-e": 6
 , "JAC|other": 5
 , "Jaguar|other": 4
-, "other": 122
+, "other": 171
 });
 
 db.insert(db.countries.CH, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2023/01/ModellePW2022.xlsx",
@@ -4108,12 +4073,11 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 132
 , "Mitsubishi": 130
 , "Subaru": 101
-, "Genesis": 93
 , "JAC": 42
 , "Jaguar": 32
 , "Smart": 26
 , "Chevrolet": 13
-, "other": 518
+, "other": 611
 });
 
 db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/12 (includes commercial vehicles)",
@@ -4145,7 +4109,6 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 60
 , "Renault|Twingo E-Tech": 60
 , "Ford|Mustang Mach-E": 57
-, "Genesis|GV60": 57
 , "Mercedes-Benz|EQC": 56
 , "Opel|Mokka-e": 47
 , "Kia|Niro EV": 43
@@ -4162,7 +4125,6 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 18
 , "Opel|Zafira-e": 17
 , "Fiat|E-Doblò": 15
-, "Genesis|Electrified GV70": 14
 , "Toyota|bZ4X": 14
 , "Hyundai|Kona Electric": 11
 , "Nissan|Ariya": 11
@@ -4173,7 +4135,7 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 6
 , "Citroën|other": 5
 , "Jaguar|other": 5
-, "other": 148
+, "other": 219
 });
 
 db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4207,12 +4169,11 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 89
 , "Subaru": 67
 , "Polestar": 50
-, "Genesis": 41
 , "Jaguar": 18
 , "Smart": 13
 , "JAC": 8
 , "Chevrolet": 4
-, "other": 344
+, "other": 385
 });
 
 db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/1 (includes commercial vehicles), https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
@@ -4250,14 +4211,11 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 17
 , "Mercedes-Benz|EQB": 15
 , "BMW|iX1": 14
-, "Genesis|Electrified G80": 14
 , "Mini|Cooper SE": 14
 , "Subaru|Solterra": 14
 , "Volkswagen|e-up!": 14
 , "Smart|Fortwo ED": 13
 , "Volvo|EX40": 13
-, "Genesis|GV60": 12
-, "Genesis|Electrified GV70": 11
 , "Nissan|Ariya": 11
 , "Kia|EV6": 10
 , "Tesla|Model X": 10
@@ -4274,7 +4232,7 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 3
 , "Jaguar|other": 2
 , "Peugeot|other": 2
-, "other": 55
+, "other": 92
 });
 
 db.insert(db.countries.CH, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4309,11 +4267,10 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 89
 , "Polestar": 51
 , "Jaguar": 37
-, "Genesis": 35
 , "Smart": 15
 , "JAC": 13
 , "Chevrolet": 6
-, "other": 305
+, "other": 340
 });
 
 db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/2 (includes commercial vehicles), https://www.acea.auto/files/20230321_PRPC_2302-FINAL.pdf",
@@ -4357,10 +4314,8 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 14
 , "JAC|e-JS4": 13
 , "Mercedes-Benz|EQV": 13
-, "Genesis|GV60": 12
 , "Peugeot|e-2008": 11
 , "Nissan|Ariya": 10
-, "Genesis|Electrified GV70": 9
 , "Mercedes-Benz|EQE": 8
 , "Nissan|Leaf": 7
 , "Audi|e-tron GT": 6
@@ -4371,7 +4326,7 @@ db.insert(db.countries.CH, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 3
 , "Fiat|other": 2
 , "Tesla|other": 2
-, "other": 66
+, "other": 87
 });
 
 db.insert(db.countries.CH, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4405,12 +4360,11 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 190
 , "Land Rover": 181
 , "Jaguar": 58
-, "Genesis": 52
 , "Smart": 32
 , "Polestar": 26
 , "JAC": 23
 , "Chevrolet": 8
-, "other": 502
+, "other": 554
 });
 
 db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/3 (includes commercial vehicles), https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
@@ -4442,7 +4396,6 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 36
 , "Opel|Corsa-e": 36
 , "Citroën|ë-C4": 35
-, "Genesis|GV60": 35
 , "Mercedes-Benz|EQS": 35
 , "Tesla|Model S": 35
 , "Volkswagen|e-up!": 35
@@ -4466,13 +4419,12 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 16
 , "Jaguar|other": 14
 , "Nissan|other": 11
-, "Genesis|other": 10
 , "BMW|other": 9
 , "Mercedes-Benz|other": 7
 , "Peugeot|other": 5
 , "Honda|other": 3
 , "Kia|other": 3
-, "other": 102
+, "other": 147
 });
 
 db.insert(db.countries.CH, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4506,12 +4458,11 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 119
 , "Citroën": 93
 , "Polestar": 65
-, "Genesis": 44
 , "Jaguar": 31
 , "Smart": 19
 , "JAC": 10
 , "Chevrolet": 6
-, "other": 446
+, "other": 490
 });
 
 db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/4 (includes commercial vehicles), https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
@@ -4548,7 +4499,6 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 26
 , "BMW|iX": 22
 , "Opel|Mokka-e": 22
-, "Genesis|GV60": 21
 , "Mercedes-Benz|EQB": 21
 , "Mercedes-Benz|EQC": 19
 , "Opel|Corsa-e": 18
@@ -4556,7 +4506,6 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Fortwo ED": 17
 , "BMW|iX3": 16
 , "Mini|Cooper SE": 16
-, "Genesis|Electrified GV70": 14
 , "Mercedes-Benz|EQV": 13
 , "Audi|e-tron GT": 12
 , "Mercedes-Benz|EQE": 12
@@ -4570,8 +4519,7 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 7
 , "Fiat|other": 6
 , "Peugeot|other": 4
-, "Genesis|other": 3
-, "other": 81
+, "other": 119
 });
 
 db.insert(db.countries.CH, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4605,12 +4553,11 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 153
 , "Land Rover": 139
 , "Polestar": 104
-, "Genesis": 89
 , "Jaguar": 33
 , "Smart": 29
 , "JAC": 17
 , "Chevrolet": 5
-, "other": 589
+, "other": 678
 });
 
 db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/5 (includes commercial vehicles), https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
@@ -4641,7 +4588,6 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 49
 , "Porsche|Taycan": 40
 , "BMW|iX": 39
-, "Genesis|GV60": 31
 , "Mercedes-Benz|EQS": 31
 , "Mercedes-Benz|EQB": 30
 , "Subaru|Solterra": 30
@@ -4649,7 +4595,6 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 28
 , "Mercedes-Benz|EQC": 27
 , "Peugeot|e-208": 27
-, "Genesis|Electrified GV70": 25
 , "Smart|Fortwo ED": 25
 , "Opel|Corsa-e": 24
 , "Hyundai|Ioniq 6": 21
@@ -4667,7 +4612,6 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 11
 , "BMW|other": 9
 , "Fiat|other": 8
-, "Genesis|other": 5
 , "Jeep|other": 5
 , "Mercedes-Benz|other": 5
 , "Opel|other": 5
@@ -4676,7 +4620,7 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 4
 , "Smart|other": 4
 , "Mazda|other": 3
-, "other": 132
+, "other": 193
 });
 
 db.insert(db.countries.CH, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4709,13 +4653,12 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 196
 , "Subaru": 188
 , "Honda": 187
-, "Genesis": 80
 , "Polestar": 79
 , "Smart": 34
 , "Jaguar": 30
 , "Chevrolet": 13
 , "JAC": 9
-, "other": 694
+, "other": 774
 });
 
 db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/6 (includes commercial vehicles), https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
@@ -4747,7 +4690,6 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 51
 , "Peugeot|e-208": 46
 , "Tesla|Model S": 46
-, "Genesis|GV60": 44
 , "Mercedes-Benz|EQB": 42
 , "Renault|Twingo E-Tech": 42
 , "BMW|iX": 41
@@ -4763,7 +4705,6 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 21
 , "Volkswagen|e-up!": 21
 , "Peugeot|e-2008": 20
-, "Genesis|Electrified GV70": 19
 , "Smart|Fortwo ED": 19
 , "Opel|Mokka-e": 18
 , "Smart|Hashtag 1": 15
@@ -4777,7 +4718,7 @@ db.insert(db.countries.CH, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|other": 9
 , "Jaguar|other": 3
 , "Kia|other": 3
-, "other": 123
+, "other": 186
 });
 
 db.insert(db.countries.CH, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4811,12 +4752,11 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 141
 , "Polestar": 109
 , "Subaru": 99
-, "Genesis": 75
 , "Smart": 42
 , "Jaguar": 29
 , "Chevrolet": 11
 , "JAC": 10
-, "other": 505
+, "other": 580
 });
 
 db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/7 (includes commercial vehicles), https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
@@ -4848,12 +4788,10 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 41
 , "Kia|Niro EV": 40
 , "BMW|i4": 39
-, "Genesis|GV60": 34
 , "Volkswagen|e-up!": 33
 , "BMW|iX3": 32
 , "Volkswagen|ID.5": 31
 , "Smart|Fortwo ED": 30
-, "Genesis|Electrified GV70": 26
 , "Audi|e-tron GT": 22
 , "Mercedes-Benz|EQB": 22
 , "Dacia|Spring": 21
@@ -4879,7 +4817,7 @@ db.insert(db.countries.CH, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 3
 , "Mercedes-Benz|other": 3
 , "Opel|other": 2
-, "other": 141
+, "other": 201
 });
 
 db.insert(db.countries.CH, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -4914,11 +4852,10 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 126
 , "Subaru": 98
 , "Polestar": 93
-, "Genesis": 52
 , "Jaguar": 21
 , "Chevrolet": 16
 , "JAC": 6
-, "other": 442
+, "other": 494
 });
 
 db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/8 (includes commercial vehicles), https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
@@ -4961,8 +4898,6 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e:Ny1": 22
 , "Mercedes-Benz|EQS": 22
 , "Volkswagen|e-up!": 20
-, "Genesis|GV60": 17
-, "Genesis|Electrified GV70": 17
 , "Mini|Cooper SE": 17
 , "Smart|Fortwo ED": 16
 , "Subaru|Solterra": 13
@@ -4984,7 +4919,7 @@ db.insert(db.countries.CH, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 4
 , "BMW|other": 3
 , "Peugeot|other": 3
-, "other": 137
+, "other": 171
 });
 
 db.insert(db.countries.CH, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -5019,11 +4954,10 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 123
 , "Land Rover": 121
 , "Polestar": 80
-, "Genesis": 55
 , "Jaguar": 29
 , "JAC": 11
 , "Chevrolet": 4
-, "other": 578
+, "other": 633
 });
 
 db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/9 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
@@ -5066,13 +5000,11 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 28
 , "Renault|Twingo E-Tech": 26
 , "BMW|iX": 25
-, "Genesis|GV60": 25
 , "Mercedes-Benz|EQC": 25
 , "Renault|Zoe": 22
 , "Mercedes-Benz|EQS": 21
 , "Fiat|E-Doblò": 19
 , "Volkswagen|e-up!": 19
-, "Genesis|Electrified GV70": 18
 , "Hyundai|Ioniq 6": 17
 , "Smart|Fortwo ED": 17
 , "Mini|Cooper SE": 16
@@ -5087,7 +5019,7 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 6
 , "Honda|other": 4
 , "Mercedes-Benz|other": 4
-, "other": 131
+, "other": 174
 });
 
 db.insert(db.countries.CH, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -5122,11 +5054,10 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 153
 , "Smart": 95
 , "Polestar": 58
-, "Genesis": 54
 , "Jaguar": 46
 , "JAC": 18
 , "Chevrolet": 8
-, "other": 458
+, "other": 512
 });
 
 db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
@@ -5175,13 +5106,11 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 18
 , "JAC|e-JS4": 17
 , "Smart|Fortwo ED": 17
-, "Genesis|GV60": 16
 , "Hyundai|Ioniq 6": 16
 , "Mercedes-Benz|EQC": 16
 , "Mini|Cooper SE": 16
 , "BMW|iX3": 15
 , "Opel|other": 22
-, "Genesis|other": 15
 , "Mercedes-Benz|other": 15
 , "Fiat|other": 12
 , "Citroën|other": 10
@@ -5191,7 +5120,7 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 4
 , "BMW|other": 3
 , "Honda|other": 3
-, "other": 126
+, "other": 157
 });
 
 db.insert(db.countries.CH, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -5225,12 +5154,11 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 178
 , "Subaru": 137
 , "Smart": 89
-, "Genesis": 57
 , "Polestar": 46
 , "Jaguar": 38
 , "JAC": 13
 , "Chevrolet": 9
-, "other": 489
+, "other": 546
 });
 
 db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
@@ -5273,14 +5201,12 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 29
 , "Peugeot|e-208": 26
 , "Mercedes-Benz|EQS": 25
-, "Genesis|GV60": 24
 , "Volkswagen|ID.7": 24
 , "Smart|Fortwo ED": 22
 , "Mercedes-Benz|EQB": 21
 , "Volkswagen|e-up!": 21
 , "BMW|i5": 18
 , "Nissan|Ariya": 18
-, "Genesis|Electrified GV70": 16
 , "Kia|EV6": 16
 , "Peugeot|e-308": 16
 , "Mini|Cooper SE": 15
@@ -5296,7 +5222,7 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 4
 , "BMW|other": 3
 , "Jaguar|other": 3
-, "other": 218
+, "other": 258
 });
 
 db.insert(db.countries.CH, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -5331,11 +5257,10 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 189
 , "Polestar": 140
 , "Smart": 121
-, "Genesis": 83
 , "JAC": 79
 , "Jaguar": 44
 , "Chevrolet": 27
-, "other": 501
+, "other": 584
 });
 
 db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2023/12 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
@@ -5382,10 +5307,8 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 36
 , "Mercedes-Benz|eCitan": 34
 , "Smart|Fortwo ED": 34
-, "Genesis|Electrified GV70": 31
 , "Hyundai|Ioniq 6": 31
 , "Kia|EV6": 27
-, "Genesis|GV60": 26
 , "Jeep|Avenger EV": 26
 , "Tesla|Model X": 26
 , "Mercedes-Benz|EQC": 25
@@ -5401,7 +5324,7 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|other": 6
 , "Kia|other": 4
 , "Volvo|other": 4
-, "other": 168
+, "other": 225
 });
 
 db.insert(db.countries.CH, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/02/ModellePW2024.xlsx",
@@ -5435,11 +5358,10 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 91
 , "Nissan": 85
 , "Smart": 80
-, "Genesis": 51
 , "Polestar": 31
 , "JAC": 26
 , "Jaguar": 24
-, "other": 383
+, "other": 434
 });
 
 db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
@@ -5481,10 +5403,8 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 19
 , "Cupra|Born": 17
 , "Peugeot|e-2008": 17
-, "Genesis|GV60": 16
 , "Hyundai|Ioniq 6": 16
 , "Peugeot|e-208": 16
-, "Genesis|Electrified GV70": 14
 , "Tesla|Model X": 14
 , "Mercedes-Benz|EQS": 13
 , "Volkswagen|ID.5": 12
@@ -5502,9 +5422,8 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 3
 , "Volkswagen|other": 3
 , "Fiat|other": 2
-, "Genesis|other": 2
 , "Renault|other": 2
-, "other": 134
+, "other": 166
 });
 
 db.insert(db.countries.CH, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/03/ModellePW2024.xlsx",
@@ -5539,11 +5458,10 @@ db.insert(db.countries.CH, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 78
 , "Smart": 75
 , "Polestar": 20
-, "Genesis": 17
 , "Jaguar": 13
 , "JAC": 8
 , "Chevrolet": 2
-, "other": 428
+, "other": 445
 });
 
 db.insert(db.countries.CH, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf",
@@ -5595,12 +5513,10 @@ db.insert(db.countries.CH, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 10
 , "Volkswagen|ID.5": 9
 , "Mercedes-Benz|EQS": 8
-, "Genesis|GV60": 7
 , "Mercedes-Benz|EQC": 7
 , "Peugeot|e-2008": 7
 , "Volkswagen|other": 8
 , "Audi|other": 6
-, "Genesis|other": 5
 , "Tesla|other": 5
 , "Fiat|other": 4
 , "Citroën|other": 3
@@ -5608,7 +5524,7 @@ db.insert(db.countries.CH, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 3
 , "BMW|other": 2
 , "Subaru|other": 2
-, "other": 143
+, "other": 155
 });
 
 db.insert(db.countries.CH, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/04/ModellePW2024.xlsx",
@@ -5642,12 +5558,11 @@ db.insert(db.countries.CH, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 136
 , "Smart": 92
 , "Jeep": 61
-, "Genesis": 36
 , "Jaguar": 33
 , "Polestar": 30
 , "MG": 7
 , "Chevrolet": 6
-, "other": 470
+, "other": 506
 });
 
 db.insert(db.countries.CH, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
@@ -5699,7 +5614,6 @@ db.insert(db.countries.CH, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 16
 , "Renault|Scénic E-Tech": 15
 , "Opel|Astra Electric": 11
-, "Genesis|GV60": 10
 , "BMW|i5": 9
 , "Jaguar|I-Pace": 9
 , "Peugeot|e-2008": 9
@@ -5710,12 +5624,11 @@ db.insert(db.countries.CH, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 7
 , "Smart|other": 7
 , "Audi|other": 5
-, "Genesis|other": 5
 , "BMW|other": 4
 , "Mercedes-Benz|other": 4
 , "Peugeot|other": 4
 , "Kia|other": 3
-, "other": 103
+, "other": 118
 });
 
 db.insert(db.countries.CH, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/05/ModellePW2024.xlsx",
@@ -5750,11 +5663,10 @@ db.insert(db.countries.CH, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 87
 , "Smart": 70
 , "Jaguar": 39
-, "Genesis": 22
 , "Polestar": 10
 , "Chevrolet": 8
 , "MG": 5
-, "other": 501
+, "other": 523
 });
 
 db.insert(db.countries.CH, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
@@ -5810,7 +5722,6 @@ db.insert(db.countries.CH, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-308": 9
 , "Tesla|Model X": 9
 , "Mercedes-Benz|other": 14
-, "Genesis|other": 12
 , "Opel|other": 6
 , "Tesla|other": 6
 , "BMW|other": 5
@@ -5819,7 +5730,7 @@ db.insert(db.countries.CH, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 3
 , "Smart|other": 3
 , "Peugeot|other": 2
-, "other": 106
+, "other": 118
 });
 
 db.insert(db.countries.CH, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/06/ModellePW2024.xlsx",
@@ -5855,9 +5766,8 @@ db.insert(db.countries.CH, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 68
 , "Polestar": 36
 , "Jaguar": 35
-, "Genesis": 19
 , "JAC": 4
-, "other": 526
+, "other": 545
 });
 
 db.insert(db.countries.CH, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/5 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
@@ -5912,7 +5822,6 @@ db.insert(db.countries.CH, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 12
 , "Mercedes-Benz|EQS": 11
 , "Peugeot|other": 21
-, "Genesis|other": 12
 , "Nissan|other": 10
 , "Tesla|other": 9
 , "Citroën|other": 8
@@ -5925,7 +5834,7 @@ db.insert(db.countries.CH, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 3
 , "Jaguar|other": 2
 , "Kia|other": 2
-, "other": 129
+, "other": 141
 });
 
 db.insert(db.countries.CH, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/07/ModellePW2024.xlsx",
@@ -5961,10 +5870,9 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 68
 , "Jeep": 43
 , "Jaguar": 27
-, "Genesis": 22
 , "Chevrolet": 5
 , "MG": 4
-, "other": 540
+, "other": 562
 });
 
 db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf",
@@ -6020,7 +5928,6 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eCitan": 12
 , "Peugeot|E-3008": 12
 , "Volkswagen|ID.5": 12
-, "Genesis|other": 14
 , "Opel|other": 14
 , "Volkswagen|other": 11
 , "Cupra|other": 10
@@ -6032,7 +5939,7 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 7
 , "Jaguar|other": 3
 , "Mercedes-Benz|other": 3
-, "other": 150
+, "other": 164
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/08/ModellePW2024.xlsx",
@@ -6068,12 +5975,11 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 113
 , "Polestar": 71
 , "Smart": 56
-, "Genesis": 22
 , "BYD": 16
 , "Jaguar": 16
 , "Chevrolet": 3
 , "JAC": 2
-, "other": 355
+, "other": 377
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -6130,7 +6036,6 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 22
 , "Polestar|other": 15
 , "Renault|other": 14
-, "Genesis|other": 11
 , "Hyundai|other": 8
 , "Volkswagen|other": 7
 , "Fiat|other": 6
@@ -6141,7 +6046,7 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 2
 , "Mazda|other": 2
 , "Subaru|other": 2
-, "other": 77
+, "other": 88
 });
 
 db.insert(db.countries.CH, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/09/ModellePW2024.xlsx",
@@ -6178,10 +6083,9 @@ db.insert(db.countries.CH, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 57
 , "Smart": 46
 , "Jaguar": 35
-, "Genesis": 15
 , "BYD": 5
 , "Chevrolet": 3
-, "other": 317
+, "other": 332
 });
 
 db.insert(db.countries.CH, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
@@ -6233,7 +6137,6 @@ db.insert(db.countries.CH, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 10
 , "Renault|Zoe": 10
 , "Toyota|bZ4X": 9
-, "Genesis|GV60": 8
 , "Nissan|Ariya": 8
 , "Peugeot|other": 12
 , "MG|other": 11
@@ -6249,7 +6152,7 @@ db.insert(db.countries.CH, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 4
 , "Polestar|other": 4
 , "Nissan|other": 2
-, "other": 85
+, "other": 93
 });
 
 db.insert(db.countries.CH, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/10/ModellePW2024.xlsx",
@@ -6285,10 +6188,9 @@ db.insert(db.countries.CH, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 83
 , "MG": 70
 , "Smart": 70
-, "Genesis": 28
 , "Jaguar": 26
 , "BYD": 8
-, "other": 403
+, "other": 431
 });
 
 db.insert(db.countries.CH, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/9 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2024.pdf",
@@ -6340,7 +6242,6 @@ db.insert(db.countries.CH, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 22
 , "Polestar|2": 20
 , "Volvo|EC40": 18
-, "Genesis|GV60": 17
 , "Kia|EV6": 17
 , "Polestar|3": 17
 , "Opel|other": 34
@@ -6357,5 +6258,5 @@ db.insert(db.countries.CH, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 6
 , "BYD|other": 4
 , "Kia|other": 3
-, "other": 109
+, "other": 126
 });

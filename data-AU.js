@@ -34,10 +34,9 @@ db.insert(db.countries.AU, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Polestar": 548
 , "Peugeot": 425
 , "Fiat": 333
-, "Genesis": 285
 , "Jaguar": 110
 , "Citroën": 31
-, "other": 17793
+, "other": 18078
 });
 
 db.insert(db.countries.AU, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -62,16 +61,14 @@ db.insert(db.countries.AU, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE": 80
 , "Mercedes-Benz|EQA": 77
 , "Hyundai|Ioniq 6": 67
-, "Genesis|GV60": 61
 , "Mercedes-Benz|EQC": 48
 , "Audi|Q8 e-tron": 42
-, "Genesis|Electrified GV70": 22
 , "BMW|i7": 15
 , "BMW|i4": 13
 , "Jaguar|I-Pace": 11
 , "Cupra|Born": 10
 , "Mercedes-Benz|eVito": 10
-, "other": 60
+, "other": 143
 });
 
 db.insert(db.countries.AU, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.whichcar.com.au/news/vfacts-april-2023-rav4-model-y-outlander-medium-suvs-reign-supreme, https://www.whichcar.com.au/news/vfacts-may-2023-suvs-fuel-record-registrations, https://www.whichcar.com.au/news/vfacts-june-2023-hilux-holds-strong-model-y-ev-outsells-ranger",
@@ -106,11 +103,10 @@ db.insert(db.countries.AU, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Cupra": 778
 , "Peugeot": 761
 , "Polestar": 599
-, "Genesis": 586
 , "Fiat": 422
 , "Jaguar": 128
 , "Citroën": 72
-, "other": 31902
+, "other": 32488
 });
 
 db.insert(db.countries.AU, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -140,14 +136,12 @@ db.insert(db.countries.AU, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 92
 , "BMW|i4": 83
 , "GWM|Ora 03": 65
-, "Genesis|GV60": 58
-, "Genesis|Electrified GV70": 34
 , "Audi|Q8 e-tron": 32
 , "Ford|E-Transit": 25
 , "Mercedes-Benz|eVito": 18
 , "BMW|i7": 15
 , "Mercedes-Benz|other": 13
-, "other": 180
+, "other": 272
 });
 
 db.insert(db.countries.AU, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.whichcar.com.au/news/vfacts-july-2023-record-ranger-victory, https://www.whichcar.com.au/news/vfacts-august-2023-new-car-sales-australia, https://www.whichcar.com.au/news/vfacts-september-2023-new-car-sales-australia",
@@ -182,11 +176,10 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Chevrolet": 901
 , "Peugeot": 659
 , "Polestar": 642
-, "Genesis": 580
 , "Fiat": 297
 , "Jaguar": 136
 , "Citroën": 75
-, "other": 22514
+, "other": 23094
 });
 
 db.insert(db.countries.AU, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -219,7 +212,6 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i4": 73
 , "Mercedes-Benz|EQE SUV": 67
 , "Audi|e-tron GT": 61
-, "Genesis|GV60": 42
 , "Peugeot|e-2008": 39
 , "Audi|Q8 e-tron": 35
 , "Peugeot|Partner Electric": 30
@@ -228,7 +220,7 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i7": 21
 , "Mercedes-Benz|EQS": 20
 , "Mercedes-Benz|eVito": 14
-, "other": 251
+, "other": 293
 });
 
 db.insert(db.countries.AU, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.whichcar.com.au/news/vfacts-october-2023-new-car-sales-australia, https://www.whichcar.com.au/news/vfacts-november-2023-new-car-sales-australia, https://www.whichcar.com.au/news/vfacts-december-2023-new-car-sales-australia",
@@ -262,12 +254,11 @@ db.insert(db.countries.AU, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Mini": 983
 , "Jeep": 980
 , "Polestar": 674
-, "Genesis": 465
 , "Peugeot": 454
 , "Fiat": 391
 , "Jaguar": 207
 , "Citroën": 37
-, "other": 23642
+, "other": 24107
 });
 
 db.insert(db.countries.AU, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -309,13 +300,11 @@ db.insert(db.countries.AU, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|Partner Electric": 36
 , "Mercedes-Benz|EQS": 33
 , "Mercedes-Benz|EQS SUV": 33
-, "Genesis|GV60": 30
 , "Peugeot|e-2008": 18
 , "Mercedes-Benz|eVito": 17
 , "BMW|i7": 12
-, "Genesis|Electrified GV70": 12
 , "Jaguar|I-Pace": 11
-, "other": 238
+, "other": 280
 });
 
 db.insert(db.countries.AU, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-january-2024-new-car-sales/",
@@ -367,7 +356,6 @@ db.insert(db.countries.AU, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 15
 , "Nissan|Leaf": 14
 , "Mini|Cooper SE": 13
-, "Genesis|GV60": 12
 , "BMW|i5": 11
 , "Subaru|Solterra": 11
 , "Audi|e-tron GT": 10
@@ -376,7 +364,7 @@ db.insert(db.countries.AU, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQE": 7
 , "Peugeot|Partner Electric": 4
-, "other": 48
+, "other": 60
 });
 
 db.insert(db.countries.AU, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-february-2024-new-car-sales/",
@@ -495,8 +483,7 @@ db.insert(db.countries.AU, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|Partner Electric": 14
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQS SUV": 7
-, "Genesis|other": 7
-, "other": 35
+, "other": 42
 });
 
 db.insert(db.countries.AU, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-australian-new-car-sales-april-2024/",
@@ -554,11 +541,9 @@ db.insert(db.countries.AU, "2024-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Leaf": 11
 , "Audi|e-tron GT": 9
 , "BMW|i5": 7
-, "Genesis|GV60": 7
 , "BMW|i7": 6
-, "Genesis|Electrified GV70": 6
 , "Mercedes-Benz|EQC": 6
-, "other": 60
+, "other": 73
 });
 
 db.insert(db.countries.AU, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-may-2024-vfacts/",
@@ -615,9 +600,8 @@ db.insert(db.countries.AU, "2024-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 15
 , "Audi|e-tron GT": 7
 , "BMW|i5": 7
-, "Genesis|GV60": 7
 , "Mercedes-Benz|EQC": 6
-, "other": 61
+, "other": 68
 });
 
 db.insert(db.countries.AU, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-australian-new-car-sales-june-2024/",
@@ -673,12 +657,11 @@ db.insert(db.countries.AU, "2024-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|i5": 19
 , "Mercedes-Benz|EQE": 14
 , "Audi|Q8 e-tron": 13
-, "Genesis|GV60": 12
 , "BMW|i7": 7
 , "Audi|e-tron GT": 6
 , "Mercedes-Benz|EQS SUV": 5
 , "Mercedes-Benz|other": 6
-, "other": 41
+, "other": 53
 });
 
 db.insert(db.countries.AU, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-july-2024-hybrid-sales-boom-as-toyota-rav4-leads-the-vfacts-race/",
@@ -737,8 +720,7 @@ db.insert(db.countries.AU, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Taycan": 10
 , "Audi|Q8 e-tron": 9
 , "BMW|i5": 4
-, "Genesis|GV60": 4
-, "other": 54
+, "other": 58
 });
 
 db.insert(db.countries.AU, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-august-2024/",
@@ -795,11 +777,10 @@ db.insert(db.countries.AU, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Megane E-Tech": 18
 , "Audi|Q8 e-tron": 15
 , "BMW|i5": 8
-, "Genesis|GV60": 5
 , "Audi|e-tron GT": 3
 , "Polestar|3": 3
 , "Mercedes-Benz|other": 3
-, "other": 45
+, "other": 50
 });
 
 db.insert(db.countries.AU, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-car-sales-september-2024/",

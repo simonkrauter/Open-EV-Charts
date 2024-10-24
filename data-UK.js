@@ -1113,9 +1113,8 @@ db.insert(db.countries.UK, "2021-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Polestar": 784
 , "Mitsubishi": 640
 , "Smart": 263
-, "Genesis": 70
 , "Chevrolet": 60
-, "other": 9773
+, "other": 9843
 });
 
 db.insert(db.countries.UK, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1198,8 +1197,7 @@ db.insert(db.countries.UK, "2021-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Smart": 481
 , "Mitsubishi": 118
 , "Chevrolet": 88
-, "Genesis": 40
-, "other": 6090
+, "other": 6130
 });
 
 db.insert(db.countries.UK, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1284,9 +1282,8 @@ db.insert(db.countries.UK, "2022-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Smart": 440
 , "Subaru": 438
 , "Mitsubishi": 112
-, "Genesis": 90
 , "Chevrolet": 66
-, "other": 7681
+, "other": 7771
 });
 
 db.insert(db.countries.UK, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1376,10 +1373,9 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jeep": 804
 , "Smart": 361
 , "Subaru": 354
-, "Genesis": 211
 , "Mitsubishi": 81
 , "Chevrolet": 59
-, "other": 6679
+, "other": 6890
 });
 
 db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1432,12 +1428,11 @@ db.insert(db.countries.UK, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|Vivaro-e": 87
 , "Mercedes-Benz|EQV": 76
 , "Mercedes-Benz|eVito": 49
-, "Genesis|GV60": 47
 , "Citroën|other": 52
 , "Peugeot|other": 47
 , "Vauxhall|other": 41
 , "Nissan|other": 35
-, "other": 14
+, "other": 61
 });
 
 db.insert(db.countries.UK, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1472,11 +1467,10 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.AllCarsByBrand, "https://assets
 , "Polestar": 1095
 , "Jeep": 707
 , "Subaru": 517
-, "Genesis": 267
 , "Smart": 221
 , "Mitsubishi": 92
 , "Chevrolet": 54
-, "other": 6735
+, "other": 7002
 });
 
 db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1523,7 +1517,6 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Mercedes-Benz|EQE": 239
 , "Kia|Soul EV": 234
 , "Mazda|MX-30 BEV": 198
-, "Genesis|GV60": 189
 , "Smart|Forfour ED": 157
 , "Honda|e": 101
 , "Citroën|ë-Berlingo Electric": 93
@@ -1533,7 +1526,7 @@ db.insert(db.countries.UK, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://a
 , "Vauxhall|other": 42
 , "Peugeot|other": 33
 , "Mercedes-Benz|other": 30
-, "other": 84
+, "other": 273
 });
 
 db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1568,12 +1561,11 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jaguar": 2164
 , "Subaru": 620
 , "Jeep": 538
-, "Genesis": 435
 , "Smart": 187
 , "Chevrolet": 97
 , "Mitsubishi": 70
 , "GWM": 68
-, "other": 7653
+, "other": 8088
 });
 
 db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1619,7 +1611,6 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|i3 BEV": 396
 , "Citroën|ë-C4": 394
 , "Volkswagen|ID. Buzz": 361
-, "Genesis|GV60": 346
 , "Toyota|bZ4X": 268
 , "Mercedes-Benz|EQE": 174
 , "Citroën|ë-Berlingo Electric": 173
@@ -1631,7 +1622,7 @@ db.insert(db.countries.UK, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|other": 71
 , "GWM|other": 68
 , "Mercedes-Benz|other": 50
-, "other": 133
+, "other": 479
 });
 
 db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1666,11 +1657,10 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://assets
 , "Jaguar": 3429
 , "Jeep": 1063
 , "Subaru": 667
-, "Genesis": 361
 , "GWM": 214
 , "Mitsubishi": 80
 , "Smart": 72
-, "other": 7311
+, "other": 7672
 });
 
 db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://assets.publishing.service.gov.uk/media/6573411b049516000d49bf1f/df_VEH0160_UK.csv",
@@ -1717,7 +1707,6 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "Renault|Zoe": 331
 , "Volkswagen|ID. Buzz": 309
 , "Vauxhall|Vivaro-e": 269
-, "Genesis|GV60": 240
 , "GWM|Ora 03": 214
 , "Toyota|bZ4X": 210
 , "Mercedes-Benz|EQS": 163
@@ -1728,12 +1717,11 @@ db.insert(db.countries.UK, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://a
 , "BMW|other": 76
 , "Vauxhall|other": 66
 , "Smart|other": 64
-, "Genesis|other": 62
 , "Citroën|other": 55
 , "Honda|other": 54
 , "Subaru|other": 50
 , "Mercedes-Benz|other": 47
-, "other": 38
+, "other": 340
 });
 
 db.insert(db.countries.UK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -1767,11 +1755,10 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Polestar": 1183
 , "Jaguar": 692
 , "Jeep": 115
-, "Genesis": 99
 , "Subaru": 81
 , "Smart": 32
 , "BYD": 29
-, "other": 2441
+, "other": 2540
 });
 
 db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/4 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -1823,7 +1810,6 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 36
 , "Volkswagen|e-up!": 34
 , "Mazda|MX-30 BEV": 33
-, "Genesis|GV60": 27
 , "Smart|Fortwo ED": 27
 , "Hyundai|other": 63
 , "Vauxhall|other": 55
@@ -1839,8 +1825,7 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 21
 , "Nissan|other": 16
 , "Renault|other": 14
-, "Genesis|other": 13
-, "other": 2403
+, "other": 2443
 });
 
 db.insert(db.countries.UK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -1858,9 +1843,9 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Škoda": 5720
 , "Peugeot": 5171
 , "Volvo": 4835
-, "Tesla": 3099
 , "Land Rover": 3391
 , "Mini": 3099
+, "Tesla": 3099
 , "Dacia": 2540
 , "Renault": 2385
 , "Mazda": 2277
@@ -1874,12 +1859,11 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Polestar": 1034
 , "Fiat": 950
 , "Subaru": 134
-, "Genesis": 104
 , "Jeep": 98
 , "GWM": 33
 , "BYD": 21
 , "Smart": 16
-, "other": 3033
+, "other": 3137
 });
 
 db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/5 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -1927,12 +1911,10 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 87
 , "Mercedes-Benz|EQE": 59
 , "Vauxhall|Combo-e": 58
-, "Genesis|GV60": 56
 , "Mazda|MX-30 BEV": 55
 , "Volkswagen|e-up!": 41
 , "BMW|i7": 33
 , "GWM|Ora 03": 31
-, "Genesis|Electrified GV70": 23
 , "Kia|Soul EV": 23
 , "Toyota|bZ4X": 23
 , "Vauxhall|other": 73
@@ -1949,7 +1931,7 @@ db.insert(db.countries.UK, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 16
 , "Škoda|other": 16
 , "BYD|other": 15
-, "other": 2604
+, "other": 2683
 });
 
 db.insert(db.countries.UK, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -1984,10 +1966,9 @@ db.insert(db.countries.UK, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Polestar": 1125
 , "Jeep": 363
 , "Subaru": 299
-, "Genesis": 247
 , "Smart": 49
 , "GWM": 38
-, "other": 3899
+, "other": 4146
 });
 
 db.insert(db.countries.UK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/6 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2031,7 +2012,6 @@ db.insert(db.countries.UK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|MG5 EV": 167
 , "Mercedes-Benz|EQE": 156
 , "Audi|e-tron GT": 143
-, "Genesis|GV60": 115
 , "Peugeot|e-208": 112
 , "Toyota|bZ4X": 105
 , "Vauxhall|Combo-e": 90
@@ -2054,11 +2034,10 @@ db.insert(db.countries.UK, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 35
 , "Smart|other": 32
 , "Mercedes-Benz|other": 27
-, "Genesis|other": 25
 , "Renault|other": 21
 , "Škoda|other": 17
 , "BYD|other": 16
-, "other": 2552
+, "other": 2692
 });
 
 db.insert(db.countries.UK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2095,9 +2074,8 @@ db.insert(db.countries.UK, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Subaru": 99
 , "BYD": 81
 , "GWM": 77
-, "Genesis": 40
 , "Smart": 28
-, "other": 2378
+, "other": 2418
 });
 
 db.insert(db.countries.UK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/7 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2159,12 +2137,11 @@ db.insert(db.countries.UK, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 42
 , "MG|other": 42
 , "Mercedes-Benz|other": 33
-, "Genesis|other": 31
 , "Smart|other": 24
 , "Vauxhall|other": 24
 , "Renault|other": 18
 , "Peugeot|other": 12
-, "other": 851
+, "other": 882
 });
 
 db.insert(db.countries.UK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2194,16 +2171,15 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Dacia": 1081
 , "Porsche": 1064
 , "Fiat": 959
-, "Honda": 861
 , "Polestar": 878
+, "Honda": 861
 , "Jaguar": 348
 , "GWM": 86
 , "Jeep": 77
 , "Subaru": 75
-, "Genesis": 69
-, "Smart": 42
 , "BYD": 59
-, "other": 1077
+, "Smart": 42
+, "other": 1146
 });
 
 db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/8 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2253,7 +2229,6 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 64
 , "BYD|Yuan Plus": 58
 , "Renault|Zoe": 53
-, "Genesis|GV60": 44
 , "Mazda|MX-30 BEV": 44
 , "Citroën|ë-C4": 34
 , "Smart|Hashtag 1": 33
@@ -2273,7 +2248,7 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 12
 , "Ford|other": 11
 , "Škoda|other": 10
-, "other": 41
+, "other": 85
 });
 
 db.insert(db.countries.UK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2310,9 +2285,8 @@ db.insert(db.countries.UK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Jeep": 516
 , "BYD": 232
 , "GWM": 209
-, "Genesis": 119
 , "Smart": 112
-, "other": 5520
+, "other": 5639
 });
 
 db.insert(db.countries.UK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/9 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2370,7 +2344,6 @@ db.insert(db.countries.UK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 112
 , "Kia|other": 110
 , "Volkswagen|other": 84
-, "Genesis|other": 76
 , "Subaru|other": 65
 , "Peugeot|other": 63
 , "Audi|other": 59
@@ -2382,7 +2355,7 @@ db.insert(db.countries.UK, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 33
 , "Honda|other": 32
 , "Renault|other": 29
-, "other": 2297
+, "other": 2373
 });
 
 db.insert(db.countries.UK, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2417,11 +2390,10 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Polestar": 744
 , "Jeep": 261
 , "BYD": 183
-, "Genesis": 149
 , "Smart": 117
 , "GWM": 92
 , "Subaru": 89
-, "other": 2400
+, "other": 2549
 });
 
 db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/10 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2468,7 +2440,6 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 118
 , "Honda|e:Ny1": 114
 , "MG|MG5 EV": 114
-, "Genesis|Electrified GV70": 97
 , "GWM|Ora 03": 90
 , "Fiat|500e": 85
 , "Smart|Hashtag 1": 73
@@ -2489,7 +2460,6 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 30
 , "Vauxhall|other": 28
 , "Hyundai|other": 26
-, "Genesis|other": 23
 , "Smart|other": 17
 , "Tesla|other": 17
 , "Volvo|other": 17
@@ -2497,7 +2467,7 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 14
 , "Toyota|other": 13
 , "Škoda|other": 13
-, "other": 1501
+, "other": 1621
 });
 
 db.insert(db.countries.UK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2535,9 +2505,8 @@ db.insert(db.countries.UK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Smart": 185
 , "Subaru": 181
 , "Chevrolet": 102
-, "Genesis": 102
 , "GWM": 94
-, "other": 2283
+, "other": 2385
 });
 
 db.insert(db.countries.UK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/11 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2595,7 +2564,6 @@ db.insert(db.countries.UK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 91
 , "Tesla|other": 89
 , "Audi|other": 88
-, "Genesis|other": 75
 , "MG|other": 74
 , "Kia|other": 68
 , "Renault|other": 65
@@ -2609,7 +2577,7 @@ db.insert(db.countries.UK, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 27
 , "Škoda|other": 19
 , "Honda|other": 16
-, "other": 1895
+, "other": 1970
 });
 
 db.insert(db.countries.UK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2646,9 +2614,8 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "BYD": 263
 , "Jeep": 201
 , "Smart": 129
-, "Genesis": 72
 , "GWM": 57
-, "other": 2693
+, "other": 2765
 });
 
 db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/12 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2705,7 +2672,6 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Corsa-e": 36
 , "Volkswagen|other": 58
 , "BMW|other": 51
-, "Genesis|other": 50
 , "Audi|other": 46
 , "Tesla|other": 42
 , "Peugeot|other": 39
@@ -2717,7 +2683,7 @@ db.insert(db.countries.UK, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 18
 , "Honda|other": 15
 , "Mercedes-Benz|other": 15
-, "other": 1895
+, "other": 1945
 });
 
 db.insert(db.countries.UK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2754,9 +2720,8 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Polestar": 236
 , "Subaru": 193
 , "Smart": 147
-, "Genesis": 62
 , "GWM": 56
-, "other": 1774
+, "other": 1836
 });
 
 db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/1 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2821,7 +2786,6 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 51
 , "Toyota|other": 40
 , "BYD|other": 35
-, "Genesis|other": 29
 , "MG|other": 29
 , "Subaru|other": 29
 , "Hyundai|other": 28
@@ -2832,7 +2796,7 @@ db.insert(db.countries.UK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 15
 , "Nissan|other": 14
 , "Porsche|other": 13
-, "other": 1762
+, "other": 1791
 });
 
 db.insert(db.countries.UK, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2870,8 +2834,7 @@ db.insert(db.countries.UK, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Smart": 78
 , "Subaru": 65
 , "GWM": 56
-, "Genesis": 15
-, "other": 1028
+, "other": 1043
 });
 
 db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/2 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2943,8 +2906,7 @@ db.insert(db.countries.UK, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 11
 , "Smart|other": 10
 , "Volvo|other": 10
-, "Genesis|other": 8
-, "other": 999
+, "other": 1007
 });
 
 db.insert(db.countries.UK, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2982,8 +2944,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Subaru": 641
 , "GWM": 310
 , "Smart": 306
-, "Genesis": 141
-, "other": 4974
+, "other": 5115
 });
 
 db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/3 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3045,7 +3006,6 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 157
 , "Vauxhall|other": 154
 , "BYD|other": 145
-, "Genesis|other": 111
 , "Honda|other": 98
 , "Mazda|other": 90
 , "Smart|other": 90
@@ -3058,7 +3018,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 38
 , "Volvo|other": 38
 , "Tesla|other": 27
-, "other": 3278
+, "other": 3389
 });
 
 db.insert(db.countries.UK, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3095,9 +3055,8 @@ db.insert(db.countries.UK, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "BYD": 333
 , "Smart": 248
 , "Subaru": 142
-, "Genesis": 98
 , "GWM": 88
-, "other": 2326
+, "other": 2424
 });
 
 db.insert(db.countries.UK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/4 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3158,7 +3117,6 @@ db.insert(db.countries.UK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 71
 , "BYD|other": 65
 , "MG|other": 65
-, "Genesis|other": 63
 , "Vauxhall|other": 57
 , "Fiat|other": 39
 , "Honda|other": 35
@@ -3167,7 +3125,7 @@ db.insert(db.countries.UK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 19
 , "Renault|other": 19
 , "Audi|other": 13
-, "other": 1978
+, "other": 2041
 });
 
 db.insert(db.countries.UK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3205,8 +3163,7 @@ db.insert(db.countries.UK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Subaru": 182
 , "Smart": 148
 , "GWM": 101
-, "Genesis": 57
-, "other": 2389
+, "other": 2446
 });
 
 db.insert(db.countries.UK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/5 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3269,10 +3226,9 @@ db.insert(db.countries.UK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 67
 , "Mercedes-Benz|other": 51
 , "BMW|other": 48
-, "Genesis|other": 36
 , "Peugeot|other": 30
 , "Hyundai|other": 20
-, "other": 2507
+, "other": 2543
 });
 
 db.insert(db.countries.UK, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3309,9 +3265,8 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Jeep": 624
 , "GWM": 284
 , "Subaru": 203
-, "Genesis": 183
 , "Smart": 135
-, "other": 2678
+, "other": 2861
 });
 
 db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/6 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3372,7 +3327,6 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 127
 , "Jaguar|other": 122
 , "Audi|other": 119
-, "Genesis|other": 108
 , "Peugeot|other": 108
 , "Porsche|other": 107
 , "BYD|other": 106
@@ -3383,7 +3337,7 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 41
 , "Vauxhall|other": 22
 , "Tesla|other": 21
-, "other": 2527
+, "other": 2635
 });
 
 db.insert(db.countries.UK, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3420,9 +3374,8 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Jeep": 710
 , "Smart": 120
 , "Subaru": 120
-, "Genesis": 93
 , "GWM": 55
-, "other": 2047
+, "other": 2140
 });
 
 db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/7 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3487,7 +3440,6 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 110
 , "Volvo|other": 85
 , "Tesla|other": 72
-, "Genesis|other": 69
 , "Polestar|other": 56
 , "GWM|other": 55
 , "BYD|other": 52
@@ -3501,7 +3453,7 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 24
 , "Ford|other": 17
 , "Toyota|other": 16
-, "other": 2371
+, "other": 2440
 });
 
 db.insert(db.countries.UK, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3538,9 +3490,8 @@ db.insert(db.countries.UK, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Jeep": 355
 , "Subaru": 82
 , "Smart": 81
-, "Genesis": 46
 , "GWM": 12
-, "other": 1210
+, "other": 1256
 });
 
 db.insert(db.countries.UK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/8 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3603,12 +3554,11 @@ db.insert(db.countries.UK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 68
 , "Volkswagen|other": 59
 , "Mercedes-Benz|other": 48
-, "Genesis|other": 30
 , "Volvo|other": 13
 , "GWM|other": 12
 , "Hyundai|other": 11
 , "Škoda|other": 10
-, "other": 1767
+, "other": 1797
 });
 
 db.insert(db.countries.UK, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3645,9 +3595,8 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "BYD": 1150
 , "Smart": 462
 , "Subaru": 366
-, "Genesis": 155
 , "GWM": 116
-, "other": 5975
+, "other": 6130
 });
 
 db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/9 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3710,11 +3659,10 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 185
 , "Mercedes-Benz|other": 175
 , "Audi|other": 123
-, "Genesis|other": 121
 , "GWM|other": 113
 , "Vauxhall|other": 103
 , "Kia|other": 75
 , "Smart|other": 64
 , "Polestar|other": 59
-, "other": 4810
+, "other": 4931
 });

@@ -32,7 +32,6 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.ar
 , "Nissan": 270
 , "Cupra": 257
 , "Dacia": 236
-, "Genesis": 154
 , "Ford": 135
 , "Fiat": 123
 , "Land Rover": 80
@@ -43,7 +42,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.ar
 , "GWM": 26
 , "JAC": 17
 , "Jaguar": 6
-, "other": 1350
+, "other": 1504
 });
 
 db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://web.archive.org/web/20240128024645/https://www.car-importers.org.il/assets/files/644116755993531.pdf",
@@ -54,7 +53,6 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Kia": 285
 , "Fiat": 122
 , "Škoda": 118
-, "Genesis": 83
 , "Volvo": 83
 , "MG": 80
 , "Audi": 58
@@ -69,7 +67,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 3
 , "Tesla": 3
 , "Volkswagen": 2
-, "other": 590
+, "other": 673
 });
 
 db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43101678272347.pdf",
@@ -102,7 +100,6 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Ford": 171
 , "Dacia": 140
 , "GWM": 139
-, "Genesis": 105
 , "Jeep": 91
 , "Land Rover": 54
 , "Fiat": 43
@@ -111,7 +108,7 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Polestar": 16
 , "JAC": 7
 , "Jaguar": 4
-, "other": 1103
+, "other": 1208
 });
 
 db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/23651678272447.pdf",
@@ -120,7 +117,6 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Hyundai": 237
 , "Toyota": 84
 , "Škoda": 83
-, "Genesis": 80
 , "Volvo": 56
 , "Mercedes-Benz": 52
 , "GWM": 48
@@ -136,7 +132,7 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Peugeot": 6
 , "Porsche": 4
 , "Volkswagen": 4
-, "other": 561
+, "other": 641
 });
 
 db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/32681680518925.pdf",
@@ -166,7 +162,6 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 215
 , "GWM": 194
 , "Volvo": 161
-, "Genesis": 132
 , "Ford": 127
 , "Jeep": 105
 , "Chevrolet": 94
@@ -178,7 +173,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 28
 , "Polestar": 6
 , "JAC": 4
-, "other": 888
+, "other": 1020
 });
 
 db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/326816805189251.pdf",
@@ -189,7 +184,6 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Škoda": 208
 , "GWM": 130
 , "Toyota": 127
-, "Genesis": 89
 , "Audi": 57
 , "Kia": 56
 , "Mercedes-Benz": 52
@@ -205,7 +199,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 4
 , "Porsche": 4
 , "Mini": 1
-, "other": 393
+, "other": 482
 });
 
 db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/75111683197705.pdf",
@@ -241,13 +235,12 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 67
 , "Land Rover": 67
 , "Fiat": 28
-, "Genesis": 28
+, "JAC": 28
 , "Honda": 26
 , "Porsche": 26
-, "JAC": 28
 , "Mini": 19
 , "Polestar": 5
-, "other": 659
+, "other": 687
 });
 
 db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/751116831977051.pdf",
@@ -266,14 +259,13 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 28
 , "BMW": 25
 , "Audi": 22
-, "Genesis": 21
 , "Fiat": 15
 , "Citroën": 14
 , "Opel": 8
 , "Polestar": 5
 , "Mini": 1
 , "Porsche": 1
-, "other": 297
+, "other": 318
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30941685961094.pdf",
@@ -308,14 +300,13 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Ford": 112
 , "Jeep": 79
 , "Fiat": 76
-, "Genesis": 76
 , "Land Rover": 49
 , "Mini": 33
 , "Porsche": 30
 , "Honda": 27
 , "JAC": 23
 , "Polestar": 12
-, "other": 651
+, "other": 727
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/309416859610941.pdf",
@@ -330,7 +321,6 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "GWM": 91
 , "Volkswagen": 87
 , "Mercedes-Benz": 81
-, "Genesis": 48
 , "Audi": 44
 , "Citroën": 29
 , "Fiat": 25
@@ -342,7 +332,7 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 5
 , "Mini": 1
 , "Porsche": 1
-, "other": 223
+, "other": 271
 });
 
 db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61771688371849.pdf",
@@ -377,14 +367,13 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 97
 , "GWM": 89
 , "Honda": 72
-, "Genesis": 71
 , "Fiat": 42
 , "Land Rover": 36
 , "Mini": 28
 , "JAC": 21
 , "Porsche": 20
 , "Polestar": 8
-, "other": 563
+, "other": 634
 });
 
 db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/617716883718491.pdf",
@@ -400,7 +389,6 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Audi": 53
 , "BMW": 53
 , "Kia": 50
-, "Genesis": 48
 , "Volkswagen": 41
 , "Citroën": 26
 , "Volvo": 26
@@ -412,7 +400,7 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Chery": 2
 , "Opel": 2
 , "Porsche": 2
-, "other": 171
+, "other": 219
 });
 
 db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/65351691314941.pdf",
@@ -446,7 +434,6 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 114
 , "Ford": 103
 , "Jeep": 103
-, "Genesis": 73
 , "Honda": 70
 , "Polestar": 56
 , "Land Rover": 36
@@ -455,7 +442,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 17
 , "Jaguar": 3
 , "Tesla": 3
-, "other": 550
+, "other": 623
 });
 
 db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/653516913149411.pdf",
@@ -471,7 +458,6 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Polestar": 56
 , "Mercedes-Benz": 46
 , "Fiat": 45
-, "Genesis": 45
 , "Citroën": 30
 , "Audi": 28
 , "BMW": 27
@@ -483,7 +469,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 3
 , "Jaguar": 1
 , "Mini": 1
-, "other": 141
+, "other": 186
 });
 
 db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/68781693912956.pdf",
@@ -518,7 +504,6 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 126
 , "Volvo": 93
 , "Jeep": 89
-, "Genesis": 72
 , "Polestar": 49
 , "Honda": 35
 , "JAC": 25
@@ -526,7 +511,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 22
 , "Porsche": 17
 , "Jaguar": 3
-, "other": 656
+, "other": 728
 });
 
 db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/687816939129561.pdf",
@@ -543,7 +528,6 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Kia": 51
 , "Volkswagen": 51
 , "Polestar": 49
-, "Genesis": 45
 , "Mercedes-Benz": 33
 , "JAC": 25
 , "BMW": 19
@@ -553,7 +537,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 2
 , "Mini": 1
 , "Porsche": 1
-, "other": 250
+, "other": 295
 });
 
 db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/83141696241050.pdf",
@@ -588,14 +572,13 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 101
 , "Ford": 85
 , "Volvo": 73
-, "Genesis": 64
 , "Polestar": 31
 , "Land Rover": 29
 , "Honda": 24
 , "Mini": 24
 , "Porsche": 15
 , "JAC": 6
-, "other": 588
+, "other": 652
 });
 
 db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/831416962410501.pdf",
@@ -608,7 +591,6 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "GWM": 81
 , "Toyota": 77
 , "Fiat": 65
-, "Genesis": 51
 , "Kia": 45
 , "Volkswagen": 33
 , "Polestar": 31
@@ -621,7 +603,7 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 5
 , "Opel": 1
 , "Porsche": 1
-, "other": 298
+, "other": 349
 });
 
 db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/741699177141.pdf",
@@ -656,7 +638,6 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BMW": 33
 , "Land Rover": 29
 , "Fiat": 26
-, "Genesis": 22
 , "Honda": 17
 , "Jeep": 16
 , "Mini": 14
@@ -664,7 +645,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 10
 , "Polestar": 4
 , "Jaguar": 2
-, "other": 544
+, "other": 566
 });
 
 db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/7416991771411.pdf",
@@ -678,7 +659,6 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Toyota": 56
 , "Kia": 36
 , "Volkswagen": 26
-, "Genesis": 16
 , "Volvo": 15
 , "Audi": 12
 , "JAC": 12
@@ -691,7 +671,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 2
 , "Opel": 2
 , "Porsche": 2
-, "other": 179
+, "other": 195
 });
 
 db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61031701692511.pdf",
@@ -727,14 +707,13 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 33
 , "Honda": 27
 , "Jeep": 24
-, "Genesis": 19
 , "Land Rover": 17
 , "Polestar": 8
 , "Mini": 7
 , "Smart": 5
 , "JAC": 4
 , "Porsche": 3
-, "other": 448
+, "other": 467
 });
 
 db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/610317016925111.pdf",
@@ -752,7 +731,6 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 14
 , "Citroën": 12
 , "BMW": 8
-, "Genesis": 8
 , "Polestar": 8
 , "Audi": 5
 , "Mercedes-Benz": 5
@@ -760,7 +738,7 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Peugeot": 4
 , "JAC": 2
 , "Opel": 2
-, "other": 147
+, "other": 155
 });
 
 db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/21541704198310.pdf",
@@ -800,10 +778,9 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 5
 , "BMW": 4
 , "Cupra": 3
-, "Genesis": 3
 , "Jaguar": 1
 , "Mini": 1
-, "other": 290
+, "other": 293
 });
 
 db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/215417041983101.pdf",
@@ -827,9 +804,8 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 2
 , "Peugeot": 2
 , "BMW": 1
-, "Genesis": 1
 , "Mercedes-Benz": 1
-, "other": 116
+, "other": 117
 });
 
 db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43771707046811.pdf",
@@ -862,7 +838,6 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 224
 , "Volvo": 220
 , "Dacia": 214
-, "Genesis": 171
 , "Polestar": 132
 , "Opel": 129
 , "Jeep": 110
@@ -872,7 +847,7 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 39
 , "JAC": 13
 , "Tesla": 7
-, "other": 2045
+, "other": 2216
 });
 
 db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/437717070468111.pdf",
@@ -887,7 +862,6 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Toyota": 162
 , "Polestar": 132
 , "Mercedes-Benz": 118
-, "Genesis": 116
 , "BMW": 85
 , "Volvo": 46
 , "Volkswagen": 32
@@ -902,7 +876,7 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 7
 , "Peugeot": 4
 , "Mini": 3
-, "other": 1186
+, "other": 1302
 });
 
 db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30541709538468.pdf",
@@ -935,7 +909,6 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 139
 , "Opel": 117
 , "Dacia": 107
-, "Genesis": 101
 , "Jeep": 98
 , "JAC": 90
 , "Fiat": 66
@@ -945,7 +918,7 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Polestar": 22
 , "Smart": 9
 , "Porsche": 4
-, "other": 1631
+, "other": 1732
 });
 
 db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/305417095384681.pdf",
@@ -963,7 +936,6 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Audi": 94
 , "JAC": 90
 , "Volvo": 54
-, "Genesis": 53
 , "BMW": 42
 , "Volkswagen": 34
 , "Polestar": 22
@@ -974,7 +946,7 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 6
 , "Peugeot": 6
 , "Porsche": 1
-, "other": 1117
+, "other": 1170
 });
 
 db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/14051712142033.pdf",
@@ -1008,7 +980,6 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Dacia": 132
 , "Smart": 130
 , "Volvo": 130
-, "Genesis": 119
 , "Fiat": 104
 , "Jeep": 93
 , "Polestar": 46
@@ -1017,7 +988,7 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 30
 , "Honda": 13
 , "Porsche": 13
-, "other": 1233
+, "other": 1352
 });
 
 db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/140517121420331.pdf",
@@ -1035,7 +1006,6 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mercedes-Benz": 94
 , "Volkswagen": 89
 , "Fiat": 85
-, "Genesis": 74
 , "Audi": 72
 , "BMW": 57
 , "Polestar": 46
@@ -1045,7 +1015,7 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 15
 , "Jeep": 4
 , "Porsche": 1
-, "other": 903
+, "other": 977
 });
 
 db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/9461714910654.pdf",
@@ -1071,7 +1041,6 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Audi": 171
 , "BMW": 156
 , "Mercedes-Benz": 156
-, "Genesis": 147
 , "Opel": 138
 , "Volvo": 133
 , "GWM": 128
@@ -1085,7 +1054,7 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 14
 , "Fiat": 7
 , "Honda": 4
-, "other": 1405
+, "other": 1552
 });
 
 db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/94617149106541.pdf",
@@ -1095,7 +1064,6 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Geely": 250
 , "Chery": 212
 , "Hyundai": 140
-, "Genesis": 136
 , "Toyota": 122
 , "GWM": 98
 , "Smart": 82
@@ -1112,7 +1080,7 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Porsche": 2
 , "Peugeot": 1
 , "Tesla": 1
-, "other": 865
+, "other": 1001
 });
 
 db.insert(db.countries.IL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/14581717589167.pdf",
@@ -1149,11 +1117,10 @@ db.insert(db.countries.IL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 52
 , "Mini": 37
 , "Land Rover": 34
-, "Genesis": 28
 , "Porsche": 7
 , "Fiat": 6
 , "Honda": 6
-, "other": 1226
+, "other": 1254
 });
 
 db.insert(db.countries.IL, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/145817175891671.pdf",
@@ -1173,12 +1140,11 @@ db.insert(db.countries.IL, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 51
 , "BMW": 35
 , "Volvo": 35
-, "Genesis": 14
 , "Citroën": 12
 , "Jeep": 9
 , "Opel": 8
 , "Mini": 3
-, "other": 729
+, "other": 743
 });
 
 db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/79571720085772.pdf",
@@ -1216,11 +1182,10 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 44
 , "Land Rover": 38
 , "Jeep": 33
-, "Genesis": 18
 , "Porsche": 9
 , "Honda": 6
 , "Jaguar": 3
-, "other": 978
+, "other": 996
 });
 
 db.insert(db.countries.IL, "2024-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/795717200857721.pdf",
@@ -1246,9 +1211,8 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 6
 , "Jaguar": 2
 , "Porsche": 2
-, "Genesis": 1
 , "Renault": 1
-, "other": 638
+, "other": 639
 });
 
 db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/34971722768977.pdf",
@@ -1289,8 +1253,7 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 21
 , "Land Rover": 19
 , "Porsche": 8
-, "Genesis": 6
-, "other": 1258
+, "other": 1264
 });
 
 db.insert(db.countries.IL, "2024-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/349717227689771.pdf",
@@ -1314,9 +1277,8 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 10
 , "Mini": 4
 , "Jeep": 3
-, "Genesis": 1
 , "Porsche": 1
-, "other": 877
+, "other": 878
 });
 
 db.insert(db.countries.IL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/79351725365240.pdf",
@@ -1356,10 +1318,9 @@ db.insert(db.countries.IL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Renault": 49
 , "Land Rover": 34
 , "Mini": 23
-, "Genesis": 20
 , "Porsche": 17
 , "Jaguar": 4
-, "other": 1314
+, "other": 1334
 });
 
 db.insert(db.countries.IL, "2024-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/793517253652401.pdf",
@@ -1381,11 +1342,10 @@ db.insert(db.countries.IL, "2024-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 5
 , "Mini": 3
 , "Porsche": 3
-, "Genesis": 2
 , "Jeep": 2
 , "Opel": 1
 , "Subaru": 1
-, "other": 839
+, "other": 841
 });
 
 db.insert(db.countries.IL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/66741728217828.pdf",
@@ -1424,10 +1384,9 @@ db.insert(db.countries.IL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 47
 , "Fiat": 36
 , "Mini": 35
-, "Genesis": 26
 , "Renault": 17
 , "Porsche": 4
-, "other": 2287
+, "other": 2313
 });
 
 db.insert(db.countries.IL, "2024-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/667417282178281.pdf",
@@ -1450,8 +1409,7 @@ db.insert(db.countries.IL, "2024-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 7
 , "Citroën": 3
 , "Subaru": 2
-, "Genesis": 1
 , "Jeep": 1
 , "Porsche": 1
-, "other": 1360
+, "other": 1361
 });
