@@ -300,7 +300,6 @@ db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 4717
 , "Volkswagen|ID.4": 4210
 , "Kia|EV6": 4208
-, "Rivian|R1T": 4174
 , "Ford|F-150 Lightning": 3206
 , "Nissan|Leaf": 2468
 , "Audi|Q8 e-tron": 2134
@@ -313,6 +312,7 @@ db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 189
 , "Mercedes-Benz|EQS SUV": 136
 , "Volvo|other": 1508
+, "other": 4174
 });
 
 db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -329,7 +329,6 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 5500
 , "Volkswagen|ID.4": 4908
 , "Kia|EV6": 4905
-, "Rivian|R1T": 4866
 , "Ford|F-150 Lightning": 3737
 , "Nissan|Leaf": 2878
 , "Audi|Q8 e-tron": 2488
@@ -342,6 +341,7 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 220
 , "Mercedes-Benz|EQS SUV": 158
 , "Volvo|other": 1758
+, "other": 4866
 });
 
 db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -358,7 +358,6 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 5949
 , "Volkswagen|ID.4": 5310
 , "Kia|EV6": 5306
-, "Rivian|R1T": 5263
 , "Ford|F-150 Lightning": 4043
 , "Nissan|Leaf": 3113
 , "Audi|Q8 e-tron": 2691
@@ -371,6 +370,7 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 238
 , "Mercedes-Benz|EQS SUV": 171
 , "Volvo|other": 1902
+, "other": 5263
 });
 
 db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -387,7 +387,6 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 6776
 , "Volkswagen|ID.4": 6048
 , "Kia|EV6": 6044
-, "Rivian|R1T": 5995
 , "Ford|F-150 Lightning": 4605
 , "Nissan|Leaf": 3546
 , "Audi|Q8 e-tron": 3066
@@ -400,6 +399,7 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 271
 , "Mercedes-Benz|EQS SUV": 195
 , "Volvo|other": 2166
+, "other": 5995
 });
 
 db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -415,7 +415,6 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 5407
 , "Mercedes-Benz|EQS": 4496
 , "Ford|F-150 Lightning": 4291
-, "Rivian|R1S": 3929
 , "Tesla|Model X": 3712
 , "Kia|EV6": 3392
 , "Tesla|Model S": 3000
@@ -432,7 +431,7 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 726
 , "Hyundai|Ioniq 6": 222
 , "Volvo|other": 3000
-, "other": 17485
+, "other": 21414
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -446,7 +445,6 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 8633
 , "Hyundai|Ioniq 5": 7905
 , "Volkswagen|ID.4": 6690
-, "Rivian|R1S": 6250
 , "Tesla|Model X": 5197
 , "Kia|EV6": 4936
 , "Ford|F-150 Lightning": 4466
@@ -467,7 +465,7 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 1437
 , "Audi|e-tron GT": 1060
 , "Volvo|other": 4000
-, "other": 41081
+, "other": 47331
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -481,7 +479,6 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 14842
 , "Hyundai|Ioniq 5": 11665
 , "Volkswagen|ID.4": 10707
-, "Rivian|R1S": 7696
 , "Kia|EV6": 6470
 , "Tesla|Model X": 5939
 , "BMW|iX": 5541
@@ -502,7 +499,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE": 969
 , "Audi|e-tron GT": 638
 , "Volvo|other": 3079
-, "other": 44611
+, "other": 52307
 });
 
 db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -519,7 +516,6 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 8612
 , "Tesla|Model X": 8167
 , "Tesla|Model S": 7500
-, "Rivian|R1S": 6909
 , "BMW|iX": 5274
 , "Mercedes-Benz|EQB": 5093
 , "Hyundai|Ioniq 6": 4681
@@ -541,7 +537,7 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Silverado EV": 443
 , "Tesla|Cybertruck": 190
 , "Volvo|other": 550
-, "other": 4470
+, "other": 11379
 });
 
 db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -552,7 +548,6 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model Y": 96729
 , "Tesla|Model 3": 30842
 , "Ford|Mustang Mach-E": 9589
-, "Rivian|R1S": 8017
 , "Ford|F-150 Lightning": 7743
 , "Chevrolet|Bolt/Bolt EUV": 7040
 , "Hyundai|Ioniq 5": 6822
@@ -567,7 +562,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 1247
 , "Subaru|other": 1147
 , "Volvo|other": 1069
-, "other": 33471
+, "other": 41488
 });
 
 db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",

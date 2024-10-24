@@ -201,7 +201,6 @@ const brandCountries =
 , "Polestar": "SE"
 , "Porsche": "DE"
 , "Renault": "FR"
-, "Rivian": "US"
 , "Seat": "ES"
 , "Škoda": "CZ"
 , "Smart": "CN/DE"
