@@ -118,7 +118,6 @@ const companyGroups = {
     , "Jeep/Dodge"
     , "Opel"
     , "Peugeot"
-    , "Ram"
     , "Vauxhall"
     ],
   "Volkswagen Group":
@@ -201,7 +200,6 @@ const brandCountries =
 , "Peugeot": "FR"
 , "Polestar": "SE"
 , "Porsche": "DE"
-, "Ram": "UK"
 , "Renault": "FR"
 , "Rivian": "US"
 , "Seat": "ES"

@@ -25,7 +25,6 @@ db.insert(db.countries.AU, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "BYD": 2098
 , "Renault": 1990
 , "Škoda": 1968
-, "Ram": 1637
 , "Porsche": 1421
 , "Jeep": 1218
 , "Land Rover": 989
@@ -38,7 +37,7 @@ db.insert(db.countries.AU, "2023-Q1", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Genesis": 285
 , "Jaguar": 110
 , "Citroën": 31
-, "other": 16156
+, "other": 17793
 });
 
 db.insert(db.countries.AU, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -97,7 +96,6 @@ db.insert(db.countries.AU, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Volvo": 3553
 , "Honda": 2819
 , "Land Rover": 2725
-, "Ram": 2519
 , "Renault": 2435
 , "Škoda": 1999
 , "Porsche": 1810
@@ -112,7 +110,7 @@ db.insert(db.countries.AU, "2023-Q2", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Fiat": 422
 , "Jaguar": 128
 , "Citroën": 72
-, "other": 29383
+, "other": 31902
 });
 
 db.insert(db.countries.AU, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -178,7 +176,6 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Škoda": 2058
 , "Chery": 2035
 , "Porsche": 1635
-, "Ram": 1573
 , "Mini": 1170
 , "Jeep": 985
 , "Cupra": 943
@@ -189,7 +186,7 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Fiat": 297
 , "Jaguar": 136
 , "Citroën": 75
-, "other": 20941
+, "other": 22514
 });
 
 db.insert(db.countries.AU, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
@@ -261,7 +258,6 @@ db.insert(db.countries.AU, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Renault": 1502
 , "Cupra": 1236
 , "Porsche": 1186
-, "Ram": 1104
 , "Chevrolet": 1089
 , "Mini": 983
 , "Jeep": 980
@@ -271,7 +267,7 @@ db.insert(db.countries.AU, "2023-Q4", db.dsTypes.AllCarsByBrand, "https://www.wh
 , "Fiat": 391
 , "Jaguar": 207
 , "Citroën": 37
-, "other": 22538
+, "other": 23642
 });
 
 db.insert(db.countries.AU, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://www.drive.com.au/news/best-selling-electric-cars-2023-full-year/",
