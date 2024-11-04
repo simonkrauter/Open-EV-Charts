@@ -1143,19 +1143,19 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     hasLink = true;
     const textParts = text.split("|", 2);
     if (textParts.length > 1) {
-      newChartConfig.company = db.urlEncode(db.companiesByBrand[textParts[0]]);
-      newChartConfig.brand = db.urlEncode(textParts[0]);
-      newChartConfig.model = db.urlEncode(textParts[1]);
+      newChartConfig.company = db.companiesByBrand[textParts[0]];
+      newChartConfig.brand = textParts[0];
+      newChartConfig.model = textParts[1];
       newChartConfig.detailLevel = db.detailLevels.model;
     } else {
       const countryId = db.countryNamesReverse[text];
       if (countryId != null) {
         newChartConfig.country = db.countriesCodes[countryId];
       } else if (text in companyGroups) {
-        newChartConfig.company = db.urlEncode(text);
+        newChartConfig.company = text;
       } else {
-        newChartConfig.company = db.urlEncode(db.companiesByBrand[text]);
-        newChartConfig.brand = db.urlEncode(text);
+        newChartConfig.company = db.companiesByBrand[text];
+        newChartConfig.brand = text;
         newChartConfig.detailLevel = db.detailLevels.brand;
       }
     }
@@ -1595,7 +1595,7 @@ function renderCompaniesStatusPage() {
     firstTr.appendChild(companyTd);
     {
       const countryCode = getCountryCodeForCompanyOrBrand(company);
-      const a = createLink(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": db.urlEncode(company)}));
+      const a = createLink(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": company}));
       companyTd.appendChild(a);
       a.appendChild(createCountryFlagContainer(countryCode, company, true));
     }
@@ -1611,8 +1611,8 @@ function renderCompaniesStatusPage() {
         const countryCode = getCountryCodeForCompanyOrBrand(brand);
         let newChartConfig = {};
         newChartConfig.metric = db.metrics.salesElectric;
-        newChartConfig.company = db.urlEncode(company);
-        newChartConfig.brand = db.urlEncode(brand);
+        newChartConfig.company = company;
+        newChartConfig.brand = brand;
         newChartConfig.detailLevel = db.detailLevels.brand;
         const a = createLink(db.encodeChartConfig(newChartConfig));
         td.appendChild(a);
@@ -1682,9 +1682,9 @@ function renderModelsStatusPage() {
       tr.appendChild(td);
       let newChartConfig = {};
       newChartConfig.metric = db.metrics.salesElectric;
-      newChartConfig.company = db.urlEncode(db.companiesByBrand[brand]);
-      newChartConfig.brand = db.urlEncode(brand);
-      newChartConfig.model = db.urlEncode(model);
+      newChartConfig.company = db.companiesByBrand[brand];
+      newChartConfig.brand = brand;
+      newChartConfig.model = model;
       newChartConfig.detailLevel = db.detailLevels.model;
       const a = createLink(db.encodeChartConfig(newChartConfig));
       td.appendChild(a);

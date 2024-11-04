@@ -48,36 +48,21 @@ var db = {
   // List of company group names.
   // Sorted alphabetical.
 
-  companyGroupNamesUrlEncoded: [],
-  // List of company group names, URL-encoded.
-
   companiesByBrand: {},
   // Brand -> company.
-
-  companiesByBrandUrlEncoded: {},
-  // URL encoded brand -> company.
 
   companies: [],
   // List of company groups and brands which do not belong to a company group.
   // Sorted alphabetical.
 
-  companiesUrlEncoded: [],
-  // List of company groups and brands which do not belong to a company group, URL-encoded.
-
   brands: [],
   // List of brands used in the datasets.
   // Sorted alphabetical.
-
-  brandsUrlEncoded: [],
-  // List of brands used in the datasets, URL-encoded.
 
   models: [],
   // List of electric car models used in the datasets.
   // Format: e.g. "Tesla|Model 3".
   // Sorted alphabetical.
-
-  modelsUrlEncoded: [],
-  // List of electric car models used in the datasets, URL-encoded.
 
   initialize: function() {
     // fill country variables
@@ -139,21 +124,15 @@ var db = {
       for (const model in data) {
         const parts = model.split("|", 2);
         const brand = parts[0];
-        if (!this.brands.includes(brand)) {
+        if (!this.brands.includes(brand))
           this.brands.push(brand);
-          this.brandsUrlEncoded.push(this.urlEncode(brand));
-        }
-        if (!this.models.includes(model)) {
+        if (!this.models.includes(model))
           this.models.push(model);
-          this.modelsUrlEncoded.push(this.urlEncode(model));
-        }
       }
     } else {
       for (const brand in data) {
-        if (!this.brands.includes(brand)) {
+        if (!this.brands.includes(brand))
           this.brands.push(brand);
-          this.brandsUrlEncoded.push(this.urlEncode(brand));
-        }
       }
     }
   },
@@ -165,14 +144,11 @@ var db = {
     let brandsInAGroup = [];
     for (const groupName in companyGroups) {
       this.companyGroupNames.push(groupName);
-      this.companyGroupNamesUrlEncoded.push(this.urlEncode(groupName));
       this.companies.push(groupName);
-      this.companiesUrlEncoded.push(this.urlEncode(groupName));
       const brands = companyGroups[groupName];
       for (const i in brands) {
         const brand = brands[i];
         this.companiesByBrand[brand] = groupName;
-        this.companiesByBrandUrlEncoded[this.urlEncode(brand)] = groupName;
         brandsInAGroup.push(brand);
       }
     }
@@ -180,7 +156,6 @@ var db = {
       const brand = this.brands[i];
       if (!brandsInAGroup.includes(brand)) {
         this.companies.push(brand);
-        this.companiesUrlEncoded.push(this.urlEncode(brand));
         this.companiesByBrand[brand] = brand;
       }
     }
@@ -511,13 +486,13 @@ var db = {
         if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand) {
           for (const i in this.companyGroupNames) {
             const company = this.companyGroupNames[i];
-            param.options[this.urlEncode(company)] = company;
+            param.options[company] = company;
           }
         } else {
           for (const i in this.companies) {
             const company = this.companies[i];
             if (company != "other")
-              param.options[this.urlEncode(company)] = company;
+              param.options[company] = company;
           }
         }
       }
@@ -530,7 +505,7 @@ var db = {
       result[param.name] = param;
     }
 
-    const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1 || this.getBrands(chartConfig).length > 1 || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
+    const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1 || this.getBrands(chartConfig).length > 1 || this.companyGroupNames.includes(chartConfig.company);
 
     // brand
     {
@@ -545,15 +520,15 @@ var db = {
           const brand = this.brands[i];
           if (brand == "other")
             continue;
-          if (chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).includes(this.urlEncode(this.companiesByBrand[brand])))
-            param.options[this.urlEncode(brand)] = brand;
+          if (chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).includes(this.companiesByBrand[brand]))
+            param.options[brand] = brand;
         }
       } else {
         for (const i in this.brands) {
           const brand = this.brands[i];
           if (brand == "other")
             continue;
-          param.options[this.urlEncode(brand)] = brand;
+          param.options[brand] = brand;
         }
       }
       param.allOptions = param.options;
@@ -583,11 +558,11 @@ var db = {
             if (model == "other")
               hasOther = true;
             else
-              param.options[this.urlEncode(model)] = model;
+              param.options[model] = model;
           }
         }
         if (hasOther)
-          param.options[this.urlEncode("other")] = "other";
+          param.options["other"] = "other";
       }
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
@@ -776,7 +751,7 @@ var db = {
         const partNormalized = this.normalizeSearchString(part);
         let optionsKeyMatched = null;
         for (const key in param.options) {
-          if (this.normalizeSearchString(key) == partNormalized) {
+          if (this.normalizeSearchString(db.urlEncode(key)) == partNormalized) {
             optionsKeyMatched = key;
             delete parts[j]; // avoid using a part twice
             break;
@@ -863,11 +838,12 @@ var db = {
     const companies = this.getCompanies(chartConfig);
     if (chartConfig.detailLevel == this.detailLevels.brand && companies.length > 1) {
       let brands = [];
+      let companyGroupsKeys = Object.keys(companyGroups);
       for (const i in companies) {
         const company = companies[i];
-        const j = this.companyGroupNamesUrlEncoded.indexOf(company);
+        const j = companyGroupsKeys.indexOf(company);
         if (j != -1)
-          brands.push(companyGroups[Object.keys(companyGroups)[j]]);
+          brands.push(companyGroups[j]);
         else
           brands.push(company);
       }
@@ -882,7 +858,7 @@ var db = {
       let newCompanies = companies;
       for (const i in brands) {
         const brand = brands[i];
-        const company = this.companiesByBrandUrlEncoded[brand];
+        const company = this.companiesByBrand[brand];
         if (company != null && chartConfig.company != company) {
           newCompanies.push(brand);
           apply = true;
@@ -1135,11 +1111,11 @@ var db = {
         const value = dataset.data[dataKey];
 
         // apply filters
-        if (filterCompanies.length > 0 && !filterCompanies.includes(this.urlEncode(company)))
+        if (filterCompanies.length > 0 && !filterCompanies.includes(company))
           continue;
-        if (filterBrands.length > 0 && !filterBrands.includes(this.urlEncode(brand)))
+        if (filterBrands.length > 0 && !filterBrands.includes(brand))
           continue;
-        if (filterModels.length > 0 && !filterModels.includes(this.urlEncode(model)))
+        if (filterModels.length > 0 && !filterModels.includes(model))
           continue;
         if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
           continue;
@@ -1649,7 +1625,7 @@ var db = {
         if (chartConfig.company == this.companyOptions.all) {
           return this.brands.length;
         } else {
-          const i = this.companyGroupNamesUrlEncoded.indexOf(chartConfig.company);
+          const i = this.companyGroupNames.indexOf(chartConfig.company);
           if (i != -1)
             return this.companyGroupNames.length;
         }
