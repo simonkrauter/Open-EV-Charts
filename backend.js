@@ -755,30 +755,13 @@ var db = {
     if (chartConfigString != "") {
       const partsRaw = chartConfigString.split(":");
       // process strings for backward compatibility
-      let containsDetailLevel = false;
-      let brand = "";
-      let model = "";
       for (const i in partsRaw) {
         let part = partsRaw[i];
         if (part == "combine-brands")
           part = this.detailLevels.total;
         else if (part == "all-models")
           part = this.detailLevels.model;
-        else if (part in this.detailLevels)
-          containsDetailLevel = true;
-        else if (!containsDetailLevel && brand == "" && this.brandsUrlEncoded.includes(part))
-          brand = part;
-        else if (!containsDetailLevel && brand != "" && model == "" && this.modelsUrlEncoded.includes(brand + "|" + part))
-          model = part;
         parts.push(part);
-      }
-      if (!containsDetailLevel && brand != "") {
-        if (model != "")
-          parts.push(this.detailLevels.model);
-        else if (this.companiesUrlEncoded.includes(brand))
-          parts.push(this.detailLevels.company);
-        else
-          parts.push(this.detailLevels.brand);
       }
     }
     let result = {};
