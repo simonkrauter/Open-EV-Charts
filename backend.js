@@ -883,7 +883,26 @@ var db = {
           brands.push(company);
       }
       chartConfig.brand = brands.join(",");
-      chartConfig.company = params.company.defaultOption;
+      chartConfig.company = this.companyOptions.all;
+    }
+
+    // move brands from 'company' to 'brand' property when multiple non-related companies/brands are selected
+    if (chartConfig.company != this.companyOptions.all && chartConfig.brand != this.brandOptions.all) {
+      const brands = this.getBrands(chartConfig);
+      var apply = false;
+      let newCompanies = companies;
+      for (const i in brands) {
+        const brand = brands[i];
+        const company = this.companiesByBrandUrlEncoded[brand];
+        if (company != null && chartConfig.company != company) {
+          newCompanies.push(brand);
+          apply = true;
+        }
+      }
+      if (apply) {
+        chartConfig.brand = newCompanies.join(",");
+        chartConfig.company = this.companyOptions.all;
+      }
     }
 
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
