@@ -853,12 +853,12 @@ var db = {
     const companies = this.getCompanies(chartConfig);
     if (chartConfig.detailLevel == this.detailLevels.brand && companies.length > 1) {
       let brands = [];
-      let companyGroupsKeys = Object.keys(companyGroups);
+      const companyGroupsKeys = Object.keys(companyGroups);
       for (const i in companies) {
         const company = companies[i];
         const j = companyGroupsKeys.indexOf(company);
         if (j != -1)
-          brands.push(companyGroups[j]);
+          brands = brands.concat(companyGroups[companyGroupsKeys[j]]);
         else
           brands.push(company);
       }
