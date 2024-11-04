@@ -54,6 +54,9 @@ var db = {
   companiesByBrand: {},
   // Brand -> company.
 
+  companiesByBrandUrlEncoded: {},
+  // URL encoded brand -> company.
+
   companies: [],
   // List of company groups and brands which do not belong to a company group.
   // Sorted alphabetical.
@@ -167,8 +170,10 @@ var db = {
       this.companiesUrlEncoded.push(this.urlEncode(groupName));
       const brands = companyGroups[groupName];
       for (const i in brands) {
-        this.companiesByBrand[brands[i]] = groupName;
-        brandsInAGroup.push(brands[i]);
+        const brand = brands[i];
+        this.companiesByBrand[brand] = groupName;
+        this.companiesByBrandUrlEncoded[this.urlEncode(brand)] = groupName;
+        brandsInAGroup.push(brand);
       }
     }
     for (const i in this.brands) {
