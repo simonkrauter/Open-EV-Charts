@@ -545,16 +545,31 @@ var db = {
       let param = {};
       param.name = "model";
       param.title = "Model";
-      param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.brand != this.brandOptions.all));
+      param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.company != this.companyOptions.all || chartConfig.brand != this.brandOptions.all));
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
       if (chartConfig != null && param.showAsFilter) {
+        let brands = [];
+        if (chartConfig.brand != this.brandOptions.all) {
+          brands = this.getBrands(chartConfig);
+        } else {
+          const companies = this.getCompanies(chartConfig);
+          const companyGroupsKeys = Object.keys(companyGroups);
+          for (const i in companies) {
+            const company = companies[i];
+            const j = companyGroupsKeys.indexOf(company);
+            if (j != -1)
+              brands = brands.concat(companyGroups[companyGroupsKeys[j]]);
+            else
+              brands.push(company);
+          }
+        }
         let hasOther = false;
         for (const i in this.models) {
           const parts = this.models[i].split("|", 2);
           const brand = parts[0];
           const model = parts[1];
-          if (this.getBrands(chartConfig).includes(brand) || this.getCompanies(chartConfig).includes(brand)) {
+          if (brands.includes(brand)) {
             if (model == "other")
               hasOther = true;
             else
