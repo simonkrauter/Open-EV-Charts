@@ -549,6 +549,7 @@ var db = {
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
       if (chartConfig != null && param.showAsFilter) {
+        let models = [];
         let brands = [];
         if (chartConfig.brand != this.brandOptions.all) {
           brands = this.getBrands(chartConfig);
@@ -573,8 +574,14 @@ var db = {
             if (model == "other")
               hasOther = true;
             else
-              param.options[model] = model;
+              models.push(model);
           }
+        }
+        models.sort(function(a, b) {
+          return a.localeCompare(b);
+        });
+        for (const i in models) {
+          param.options[models[i]] = models[i];
         }
         if (hasOther)
           param.options["other"] = "other";
