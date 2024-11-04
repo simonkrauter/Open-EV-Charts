@@ -1649,16 +1649,23 @@ var db = {
         }
       }
     }
-    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.company && chartConfig.company == this.companyOptions.all) {
-      return this.companies.length;
+    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.company) {
+      if (chartConfig.company == this.companyOptions.all)
+        return this.companies.length;
+      else if (chartConfig.company != null)
+        return this.getCompanies(chartConfig).length;
     }
-    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.brand && chartConfig.brand == this.brandOptions.all) {
-      if (chartConfig.company == this.companyOptions.all) {
-        return this.brands.length;
-      } else {
-        const i = this.companyGroupNamesUrlEncoded.indexOf(chartConfig.company);
-        if (i != -1)
-          return this.companyGroupNames.length;
+    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.brand) {
+      if (chartConfig.brand == this.brandOptions.all) {
+        if (chartConfig.company == this.companyOptions.all) {
+          return this.brands.length;
+        } else {
+          const i = this.companyGroupNamesUrlEncoded.indexOf(chartConfig.company);
+          if (i != -1)
+            return this.companyGroupNames.length;
+        }
+      } else if (chartConfig.brand != null) {
+        return this.getBrands(chartConfig).length;
       }
     }
     return 1;
