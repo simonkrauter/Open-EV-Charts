@@ -524,7 +524,9 @@ var db = {
       param.allOptions = param.options;
       param.defaultOption = this.companyOptions.all;
       param.excludeOnUnfoldAndTitle = [this.companyOptions.all];
+      param.noMultiSelectOptions = [this.companyOptions.all];
       param.showInTitle = chartConfig == null || ((chartConfig.brand == this.brandOptions.all || chartConfig.company == chartConfig.brand) && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
+      param.allowMultiSelection = true;
       result[param.name] = param;
     }
 
@@ -557,7 +559,9 @@ var db = {
       param.allOptions = param.options;
       param.defaultOption = this.brandOptions.all;
       param.excludeOnUnfoldAndTitle = [this.brandOptions.all];
+      param.noMultiSelectOptions = [this.brandOptions.all];
       param.showInTitle = chartConfig == null || (chartConfig.brand != chartConfig.company && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
+      param.allowMultiSelection = true;
       result[param.name] = param;
     }
 
@@ -588,6 +592,8 @@ var db = {
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
       param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
+      param.noMultiSelectOptions = [this.modelOptions.all];
+      param.allowMultiSelection = true;
       result[param.name] = param;
     }
 
