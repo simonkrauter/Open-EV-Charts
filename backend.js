@@ -528,7 +528,7 @@ var db = {
       result[param.name] = param;
     }
 
-    const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
+    const filterContainsMultipleBrands = chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1 || this.getBrands(chartConfig).length > 1 || this.companyGroupNamesUrlEncoded.includes(chartConfig.company);
 
     // brand
     {
@@ -566,7 +566,7 @@ var db = {
       let param = {};
       param.name = "model";
       param.title = "Model";
-      param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.brand != this.brandOptions.all || !filterContainsMultipleBrands));
+      param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.brand != this.brandOptions.all));
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
       if (chartConfig != null && param.showAsFilter) {
@@ -863,11 +863,11 @@ var db = {
     else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
 
-    if (!Object.keys(params.company.options).includes(chartConfig.company))
+    if (chartConfig.company == null)
       chartConfig.company = params.company.defaultOption;
-    if (!Object.keys(params.brand.options).includes(chartConfig.brand))
+    if (chartConfig.brand == null)
       chartConfig.brand = params.brand.defaultOption;
-    if (!Object.keys(params.model.options).includes(chartConfig.model))
+    if (chartConfig.model == null)
       chartConfig.model = params.model.defaultOption;
 
     // replace company groups by their brands when switching from detailLevel.company to detailLevel.brand
