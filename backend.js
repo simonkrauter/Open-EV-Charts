@@ -584,7 +584,7 @@ var db = {
           param.options[models[i]] = models[i];
         }
         if (hasOther)
-          param.options["other"] = "other";
+          param.options["other"] = "Other";
       }
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
