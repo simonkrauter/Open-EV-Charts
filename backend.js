@@ -374,7 +374,7 @@ var db = {
     return chartConfig.model.split(",");
   },
 
-  getChartParams: function(chartConfig) {
+  getChartParams: function(chartConfig = null) {
     let result = {};
 
     // country
