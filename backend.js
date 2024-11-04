@@ -538,13 +538,20 @@ var db = {
       param.showAsFilter = chartConfig == null || (([this.detailLevels.brand, this.detailLevels.model].includes(chartConfig.detailLevel) || chartConfig.xProperty == this.xProperties.model) && filterContainsMultipleBrands);
       param.options = {};
       param.options[this.brandOptions.all] = "All Brands";
-      if (chartConfig != null && (param.showAsFilter || !filterContainsMultipleBrands)) {
+      if (chartConfig != null && chartConfig.brand != null && (param.showAsFilter || !filterContainsMultipleBrands)) {
         for (const i in this.brands) {
           const brand = this.brands[i];
           if (brand == "other")
             continue;
           if (chartConfig == null || chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).includes(this.urlEncode(this.companiesByBrand[brand])))
             param.options[this.urlEncode(brand)] = brand;
+        }
+      } else {
+        for (const i in this.brands) {
+          const brand = this.brands[i];
+          if (brand == "other")
+            continue;
+          param.options[this.urlEncode(brand)] = brand;
         }
       }
       param.allOptions = param.options;
