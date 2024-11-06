@@ -548,7 +548,7 @@ var db = {
       param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.company != this.companyOptions.all || chartConfig.brand != this.brandOptions.all));
       param.options = {};
       param.options[this.modelOptions.all] = "All Models";
-      if (chartConfig != null && param.showAsFilter) {
+      if (chartConfig != null && chartConfig.model != null && param.showAsFilter) {
         let models = [];
         let brands = [];
         if (chartConfig.brand != this.brandOptions.all) {
@@ -585,6 +585,12 @@ var db = {
         }
         if (hasOther)
           param.options["other"] = "Other";
+      } else {
+        for (const i in this.models) {
+          const parts = this.models[i].split("|", 2);
+          const model = parts[1];
+          param.options[model] = model;
+        }
       }
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
