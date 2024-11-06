@@ -581,8 +581,7 @@ function loadTestCase() {
       dynamicContent.appendChild(div);
     }
   } else {
-    history.pushState(null, null, "#" + testCases[testCaseNumber]);
-    navigate();
+    navigateToHash(testCases[testCaseNumber]);
   }
 }
 
@@ -652,7 +651,7 @@ function randomizeChartConfig() {
       chartConfig[param.name] = optionKeys[Math.floor(Math.random() * optionKeys.length)];
     }
   }
-  navigateToChartConfig(chartConfig);
+  navigateToHash(db.encodeChartConfig(chartConfig));
 }
 
 initTesting();
