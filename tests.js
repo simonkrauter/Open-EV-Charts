@@ -482,6 +482,12 @@ const testCases =
 , 7006: "all-metrics:DE:ES"
 
 , 8000: "electric-sales:DE:combine-brands"
+
+, 9000: "all-metrics:DE:split-companies:Volkswagen-Group:Tesla"
+, 9001: "all-metrics:DE:split-brands:Volkswagen:Audi"
+, 9002: "all-metrics:DE:split-brands:Volkswagen:Tesla"
+, 9003: "all-metrics:DE:split-models:Volkswagen:Tesla"
+, 9004: "all-metrics:DE:split-models:Volkswagen:ID3:Tesla:Model-Y"
 };
 
 const testCaseNumbers = Object.keys(testCases);
