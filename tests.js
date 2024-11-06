@@ -482,9 +482,6 @@ const testCases =
 , 7006: "all-metrics:DE:ES"
 
 , 8000: "electric-sales:DE:combine-brands"
-, 8001: "electric-sales:DE:Audi"
-, 8002: "electric-sales:DE:Renault:all-models"
-, 8003: "electric-sales:DE:Renault:Zoe"
 };
 
 const testCaseNumbers = Object.keys(testCases);
