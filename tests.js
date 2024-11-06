@@ -493,6 +493,7 @@ const testCases =
 const testCaseNumbers = Object.keys(testCases);
 var testCaseNumberInput;
 var testCaseNumber = -1;
+var performanceSpan;
 
 function addNextPrevButton(div, inc) {
   let button = document.createElement("A");
@@ -555,7 +556,16 @@ function initTesting() {
   addNextPrevButton(div, 1);
   addNextPrevButton(div, 5);
 
-  addRandomTestingButton(div);
+  let row2 = document.createElement("DIV");
+  div.parentNode.appendChild(row2);
+  addRandomTestingButton(row2);
+  addTestPerformanceButton(row2);
+  performanceSpan = document.createElement("SPAN");
+  performanceSpan.style.marginLeft = "10px";
+  performanceSpan.style.minWidth = "60px";
+  performanceSpan.style.display = "inline-block";
+  performanceSpan.style.textAlign = "left";
+  row2.appendChild(performanceSpan);
 
   const hash = decodeURIComponent(location.hash.substr(1));
   if (hash.length > 0) {
@@ -589,8 +599,6 @@ function loadTestCase() {
 }
 
 function addRandomTestingButton(parent) {
-  let div = document.createElement("DIV");
-  parent.parentNode.appendChild(div);
   let button = document.createElement("A");
   button.href = "#";
   button.innerHTML = "Randomize Chart Config";
@@ -598,7 +606,25 @@ function addRandomTestingButton(parent) {
     event.preventDefault();
     randomizeChartConfig();
   });
-  div.appendChild(button);
+  parent.appendChild(button);
+}
+
+function addTestPerformanceButton(parent) {
+  let button = document.createElement("A");
+  button.href = "#";
+  button.innerHTML = "Test performance";
+  button.style.marginLeft = "100px";
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+    const count = 20;
+    let startTime = performance.now();
+    for (let i = 1; i < count; i++) {
+      navigate();
+    }
+    let endTime = performance.now();
+    performanceSpan.innerHTML = Math.round((endTime - startTime) / count).toLocaleString() + " ms";
+  });
+  parent.appendChild(button);
 }
 
 function randomizeChartConfig() {
