@@ -4336,7 +4336,7 @@ db.insert(db.countries.IT, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 20
 , "Audi|Q8 e-tron": 18
 , "Toyota|bZ4X": 18
-, "Renault|other": 32
+, "Renault|other": 43
 , "Polestar|other": 29
 , "Kia|other": 23
 , "Hyundai|other": 19
@@ -4349,5 +4349,5 @@ db.insert(db.countries.IT, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 6
 , "Peugeot|other": 4
 , "Toyota|other": 4
-, "other": 411
+, "other": 400
 });
