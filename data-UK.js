@@ -3630,7 +3630,7 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Scénic E-Tech": 731
 , "Mini|Cooper SE": 570
 , "Hyundai|Ioniq 5": 517
-, "Renault|Megane E-Tech": 515
+, "Renault|Megane E-Tech": 516
 , "BYD|Yuan Plus": 488
 , "Ford|Mustang Mach-E": 477
 , "Citroën|ë-C4": 430
@@ -3653,16 +3653,18 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|Avenger EV": 269
 , "Peugeot|other": 479
 , "BYD|other": 259
-, "Fiat|other": 248
+, "Fiat|other": 249
 , "Jaguar|other": 230
 , "BMW|other": 222
 , "Mazda|other": 185
 , "Mercedes-Benz|other": 175
 , "Audi|other": 123
+, "Porsche|other": 114
 , "GWM|other": 113
 , "Vauxhall|other": 103
 , "Kia|other": 75
+, "MG|other": 71
 , "Smart|other": 64
 , "Polestar|other": 59
-, "other": 4931
+, "other": 4744
 });
