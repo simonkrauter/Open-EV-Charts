@@ -5458,3 +5458,53 @@ db.insert(db.countries.FR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jeep|Avenger EV": 352
 , "other": 6889
 });
+
+db.insert(db.countries.FR, "2024-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/11/Immatriculations-VPN_Oct2024.pdf",
+{ "Renault": 21259
+, "Peugeot": 19480
+, "Toyota": 12164
+, "Dacia": 11689
+, "Volkswagen": 10575
+, "Citroën": 7843
+, "BMW": 5539
+, "Škoda": 4443
+, "Mercedes-Benz": 3712
+, "Hyundai": 3700
+, "Audi": 3624
+, "Kia": 3535
+, "Ford": 3234
+, "Opel": 2202
+, "Fiat": 2133
+, "Nissan": 1927
+, "Cupra": 1870
+, "Tesla": 1741
+, "Suzuki": 1691
+, "MG": 1637
+, "Seat": 1486
+, "Mini": 1460
+, "Volvo": 1316
+, "Jeep": 987
+, "Porsche": 769
+, "Land Rover": 709
+, "Mazda": 590
+, "BYD": 524
+, "Honda": 379
+, "Smart": 196
+, "Mitsubishi": 132
+, "Jaguar": 33
+, "other": 2950
+});
+
+db.insert(db.countries.FR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/11/barometre-avere-colombus-octobre-2024.pdf",
+{ "Citroën|ë-C3": 1712
+, "Renault|Scénic E-Tech": 1675
+, "Peugeot|e-208": 1239
+, "Tesla|Model Y": 1185
+, "Renault|Megane E-Tech": 958
+, "Renault|5 E-Tech": 782
+, "Mini|Cooper SE": 676
+, "BMW|iX1": 674
+, "Volkswagen|ID.4": 657
+, "Škoda|Enyaq": 621
+, "other": 10720
+});
