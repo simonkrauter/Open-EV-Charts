@@ -843,3 +843,65 @@ db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|i7": 4
 , "other": 55
 });
+
+db.insert(db.countries.AU, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australia-new-car-sales-in-october-2024-toyota-rav4-on-top-again-but-shrinking-market-puts-yearly-growth-at-risk/",
+{ "Toyota": 18471
+, "Ford": 8581
+, "Mazda": 7656
+, "Hyundai": 7086
+, "Kia": 6602
+, "Mitsubishi": 5590
+, "MG": 5206
+, "Isuzu": 3651
+, "GWM": 3350
+, "Volkswagen": 3279
+, "Tesla": 1464
+, "other": 29033
+});
+
+db.insert(db.countries.AU, "2024-10", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2024/11/06/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
+{ "MG|MG4 EV": 1486
+, "Tesla|Model Y": 1042
+, "Tesla|Model 3": 422
+, "BYD|Yuan Plus": 330
+, "BYD|Seal": 313
+, "Mini|Cooper SE": 289
+, "BMW|iX1": 238
+, "BMW|iX2": 160
+, "Volvo|EX30": 159
+, "GWM|Ora 03": 154
+, "BMW|i4": 142
+, "Volvo|EX40": 132
+, "Kia|EV6": 129
+, "MG|ZS EV": 110
+, "Kia|EV5": 97
+, "Polestar|2": 91
+, "Mercedes-Benz|EQA": 86
+, "Toyota|bZ4X": 82
+, "Cupra|Born": 69
+, "Ford|Mustang Mach-E": 68
+, "BYD|Dolphin": 67
+, "Mercedes-Benz|EQB": 62
+, "Hyundai|Ioniq 5": 50
+, "BMW|iX": 41
+, "BMW|iX3": 39
+, "Kia|EV9": 37
+, "Mercedes-Benz|EQE SUV": 37
+, "Jeep|Avenger EV": 35
+, "Kia|Niro EV": 25
+, "Polestar|4": 25
+, "Porsche|Taycan": 22
+, "Volvo|EC40": 22
+, "Hyundai|Ioniq 6": 21
+, "Nissan|Leaf": 19
+, "Renault|Megane E-Tech": 18
+, "Audi|Q4 e-tron": 15
+, "Polestar|3": 14
+, "BMW|i5": 12
+, "Mercedes-Benz|EQE": 11
+, "Subaru|Solterra": 8
+, "Mercedes-Benz|EQS SUV": 7
+, "Audi|other": 5
+, "Mercedes-Benz|other": 5
+, "other": 36
+});
