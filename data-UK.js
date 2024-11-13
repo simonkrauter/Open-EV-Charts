@@ -3668,3 +3668,113 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 59
 , "other": 4744
 });
+
+db.insert(db.countries.UK, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Volkswagen": 13294
+, "BMW": 9407
+, "Audi": 9009
+, "Ford": 8792
+, "Kia": 8516
+, "Mercedes-Benz": 8105
+, "Toyota": 7553
+, "Peugeot": 7421
+, "Škoda": 7061
+, "Hyundai": 6765
+, "Volvo": 5761
+, "Nissan": 5497
+, "MG": 5303
+, "Vauxhall": 4999
+, "Renault": 4578
+, "Mini": 4034
+, "Land Rover": 3852
+, "Citroën": 2958
+, "Dacia": 2454
+, "Porsche": 2032
+, "Cupra": 2005
+, "Mazda": 1719
+, "Seat": 1514
+, "Jaguar": 1405
+, "Honda": 1372
+, "Jeep": 1032
+, "Tesla": 971
+, "Suzuki": 884
+, "BYD": 780
+, "Fiat": 779
+, "Polestar": 762
+, "Subaru": 139
+, "Smart": 118
+, "GWM": 51
+, "other": 3366
+});
+
+db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/10 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Škoda|Enyaq": 1450
+, "Volkswagen|ID.4": 1144
+, "MG|MG4 EV": 1038
+, "Mercedes-Benz|EQA": 1031
+, "Mercedes-Benz|EQB": 987
+, "Audi|Q4 e-tron": 970
+, "Peugeot|E-3008": 936
+, "Hyundai|Kona Electric": 898
+, "Tesla|Model Y": 854
+, "Ford|Explorer EV": 733
+, "Mini|Cooper SE": 695
+, "BMW|i4": 674
+, "Renault|Scénic E-Tech": 663
+, "Volkswagen|ID.3": 653
+, "Volvo|EX30": 653
+, "Cupra|Born": 491
+, "Porsche|Macan Electric": 459
+, "Toyota|bZ4X": 411
+, "Volkswagen|ID.7": 403
+, "Vauxhall|Mokka-e": 400
+, "Honda|e:Ny1": 387
+, "Renault|Megane E-Tech": 382
+, "Volvo|EX40": 364
+, "Audi|Q6 e-tron": 346
+, "Hyundai|Ioniq 5": 343
+, "Polestar|2": 341
+, "Nissan|Ariya": 340
+, "BMW|iX1": 333
+, "Peugeot|e-2008": 330
+, "Nissan|Leaf": 329
+, "Dacia|Spring": 328
+, "Jaguar|I-Pace": 295
+, "BMW|iX2": 283
+, "Vauxhall|Combo-e": 281
+, "BYD|Dolphin": 277
+, "MG|ZS EV": 273
+, "BYD|Yuan Plus": 250
+, "Ford|Mustang Mach-E": 247
+, "Polestar|4": 238
+, "Mercedes-Benz|EQE": 232
+, "BYD|Seal": 226
+, "Volkswagen|ID.5": 220
+, "Kia|Niro EV": 208
+, "BMW|iX": 200
+, "Vauxhall|Astra Electric": 187
+, "BMW|iX3": 185
+, "Porsche|Taycan": 183
+, "Hyundai|Ioniq 6": 182
+, "Kia|EV9": 182
+, "Kia|EV6": 164
+, "Peugeot|other": 335
+, "MG|other": 225
+, "BMW|other": 182
+, "Jeep|other": 161
+, "Polestar|other": 138
+, "Citroën|other": 124
+, "Volvo|other": 123
+, "Vauxhall|other": 120
+, "Tesla|other": 119
+, "Smart|other": 115
+, "Audi|other": 101
+, "Fiat|other": 98
+, "Mercedes-Benz|other": 89
+, "Mazda|other": 72
+, "GWM|other": 49
+, "Ford|other": 48
+, "Subaru|other": 19
+, "Hyundai|other": 15
+, "other": 3990
+});
