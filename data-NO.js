@@ -5531,6 +5531,7 @@ db.insert(db.countries.NO, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 117
 , "Volvo|EX40": 94
 , "BYD|Seal": 91
+, "Porsche|Macan Electric": 87
 , "BYD|Song Plus": 84
 , "BMW|iX2": 82
 , "Polestar|3": 80
@@ -5574,7 +5575,7 @@ db.insert(db.countries.NO, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 10
 , "JAC|other": 9
 , "Smart|other": 8
-, "other": 1162
+, "other": 1075
 });
 
 
