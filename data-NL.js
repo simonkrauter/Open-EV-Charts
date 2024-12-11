@@ -7065,6 +7065,7 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 45
 , "Hyundai|Ioniq 6": 42
 , "Opel|Vivaro-e": 40
+, "Audi|Q6 e-tron": 39
 , "Audi|Q8 e-tron": 38
 , "MG|ZS EV": 38
 , "Smart|other": 71
@@ -7072,7 +7073,6 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 58
 , "Nissan|other": 50
 , "Citroën|other": 45
-, "Audi|other": 38
 , "Nio|other": 22
 , "BYD|other": 21
 , "Porsche|other": 17
@@ -7084,7 +7084,7 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 9
 , "Tesla|other": 9
 , "Renault|other": 6
-, "other": 322
+, "other": 321
 });
 
 db.insert(db.countries.NL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/september/",
@@ -7173,12 +7173,12 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|600e": 37
 , "Nissan|Ariya": 33
 , "Volkswagen|ID.5": 32
+, "Audi|Q6 e-tron": 28
 , "Opel|Astra Electric": 27
 , "Tesla|Model S": 27
 , "Peugeot|other": 51
 , "Opel|other": 46
 , "MG|other": 36
-, "Audi|other": 30
 , "Citroën|other": 30
 , "BMW|other": 26
 , "Tesla|other": 25
@@ -7190,7 +7190,8 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 19
 , "Honda|other": 18
 , "Mazda|other": 15
+, "Audi|other": 13
 , "Cupra|other": 11
 , "BYD|other": 7
-, "other": 312
+, "other": 301
 });
