@@ -1580,7 +1580,7 @@ db.insert(db.countries.CN, "2024-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 11319
 , "BYD|Song EV": 11244
 , "BYD|Han EV": 6003
-, "other": 50065
+, "other": 257414
 });
 
 db.insert(db.countries.CN, "2024-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/05/26/44-plugin-vehicle-market-share-in-china-april-2024-sales-report/",
