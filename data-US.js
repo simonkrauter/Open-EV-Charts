@@ -596,6 +596,46 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.
 { "other": 3882616
 });
 
-db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
-{ "other": 344086
+db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf, https://cleantechnica.com/2024/12/09/tesla-sweeps-podium-for-top-selling-electric-vehicles-in-usa-charts/",
+{ "Tesla|Model Y": 86801
+, "Tesla|Model 3": 58423
+, "Tesla|Cybertruck": 16692
+, "Ford|Mustang Mach-E": 13392
+, "Honda|Prologue": 12644
+, "Hyundai|Ioniq 5": 11590
+, "Chevrolet|Equinox EV": 9772
+, "Chevrolet|Blazer EV": 7889
+, "Ford|F-150 Lightning": 7162
+, "Kia|EV9": 6299
+, "BMW|i4": 6063
+, "Nissan|Ariya": 5552
+, "Kia|EV6": 5044
+, "BMW|iX": 4679
+, "Volkswagen|ID.4": 4518
+, "Nissan|Leaf": 4514
+, "Toyota|bZ4X": 4109
+, "Mercedes-Benz|EQE": 3822
+, "Subaru|Solterra": 3752
+, "Tesla|Model X": 3338
+, "Mercedes-Benz|EQB": 3099
+, "Audi|Q4 e-tron": 2975
+, "Ford|E-Transit": 2955
+, "Mercedes-Benz|EQS": 2496
+, "Polestar|2": 2378
+, "Kia|Niro EV": 2349
+, "Hyundai|Ioniq 6": 2185
+, "Chevrolet|Silverado EV": 1995
+, "Audi|Q8 e-tron": 1745
+, "Tesla|Model S": 1669
+, "Porsche|Taycan": 1340
+, "Volvo|EX40": 1005
+, "BMW|i5": 996
+, "Jaguar|I-Pace": 779
+, "Hyundai|Kona Electric": 747
+, "Mini|Cooper SE": 717
+, "Audi|e-tron GT": 673
+, "BMW|i7": 573
+, "Volvo|EC40": 530
+, "Fiat|500e": 235
+, "other": 36583
 });
