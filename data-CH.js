@@ -5413,14 +5413,16 @@ db.insert(db.countries.CH, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 9
 , "Honda|e:Ny1": 8
 , "Mercedes-Benz|EQB": 8
-, "Opel|other": 9
-, "BMW|other": 8
+, "BMW|iX2": 6
+, "Citroën|ë-C4": 5
+, "Opel|Mokka-e": 5
+, "Smart|Fortwo ED": 5
 , "Mercedes-Benz|other": 7
-, "Citroën|other": 5
-, "Smart|other": 5
+, "Opel|other": 4
 , "Honda|other": 3
 , "Nissan|other": 3
 , "Volkswagen|other": 3
+, "BMW|other": 2
 , "Fiat|other": 2
 , "Renault|other": 2
 , "other": 166
@@ -6138,6 +6140,8 @@ db.insert(db.countries.CH, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 10
 , "Toyota|bZ4X": 9
 , "Nissan|Ariya": 8
+, "Citroën|ë-C4": 7
+, "Volkswagen|ID.5": 7
 , "Peugeot|other": 12
 , "MG|other": 11
 , "Renault|other": 10
@@ -6145,8 +6149,6 @@ db.insert(db.countries.CH, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 9
 , "Kia|other": 8
 , "Mercedes-Benz|other": 8
-, "Citroën|other": 7
-, "Volkswagen|other": 7
 , "Hyundai|other": 6
 , "Audi|other": 5
 , "BYD|other": 4
