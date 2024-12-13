@@ -6262,3 +6262,115 @@ db.insert(db.countries.CH, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 3
 , "other": 126
 });
+
+db.insert(db.countries.CH, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/12/ModellePW2024.xlsx",
+{ "Volkswagen": 1828
+, "Mercedes-Benz": 1803
+, "Škoda": 1786
+, "BMW": 1663
+, "Audi": 1562
+, "Toyota": 1242
+, "Hyundai": 777
+, "Volvo": 726
+, "Dacia": 720
+, "Renault": 686
+, "Ford": 555
+, "Kia": 505
+, "Seat": 451
+, "Peugeot": 438
+, "Porsche": 395
+, "Suzuki": 364
+, "Mazda": 308
+, "Cupra": 303
+, "Tesla": 260
+, "Fiat": 244
+, "Mini": 230
+, "Honda": 216
+, "Opel": 201
+, "Citroën": 168
+, "Land Rover": 158
+, "Jeep": 133
+, "Mitsubishi": 125
+, "MG": 102
+, "Smart": 100
+, "Nissan": 96
+, "Subaru": 70
+, "Polestar": 54
+, "JAC": 28
+, "Jaguar": 21
+, "BYD": 5
+, "other": 430
+});
+
+db.insert(db.countries.CH, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
+{ "Škoda|Enyaq": 321
+, "Audi|Q4 e-tron": 267
+, "Hyundai|Ioniq 5": 205
+, "Audi|Q6 e-tron": 191
+, "Tesla|Model Y": 167
+, "Porsche|Macan Electric": 164
+, "Volvo|EX30": 164
+, "BMW|iX1": 114
+, "Volkswagen|ID.3": 109
+, "Cupra|Tavascan": 93
+, "Renault|Scénic E-Tech": 82
+, "Mini|Cooper SE": 73
+, "Tesla|Model 3": 73
+, "Renault|Megane E-Tech": 71
+, "Mercedes-Benz|EQA": 67
+, "Cupra|Born": 60
+, "Volkswagen|ID.4": 60
+, "Volvo|EX40": 55
+, "Smart|Hashtag 1": 51
+, "Ford|Explorer EV": 50
+, "Hyundai|Kona Electric": 45
+, "Smart|Hashtag 3": 45
+, "Fiat|500e": 44
+, "Kia|Niro EV": 40
+, "Ford|Mustang Mach-E": 39
+, "Porsche|Taycan": 39
+, "Volkswagen|ID.7": 39
+, "Dacia|Spring": 36
+, "BMW|i4": 35
+, "Mercedes-Benz|EQE": 32
+, "Peugeot|e-208": 32
+, "Jeep|Avenger EV": 30
+, "Polestar|4": 28
+, "BMW|iX": 24
+, "Hyundai|Ioniq 6": 24
+, "Toyota|bZ4X": 24
+, "Volvo|EC40": 23
+, "Mercedes-Benz|EQB": 22
+, "BMW|iX2": 21
+, "Audi|Q8 e-tron": 20
+, "BMW|i5": 19
+, "Kia|EV9": 18
+, "Peugeot|e-308": 18
+, "Citroën|ë-C3": 16
+, "Kia|EV6": 16
+, "Renault|Twingo E-Tech": 16
+, "Mercedes-Benz|EQS": 14
+, "Polestar|2": 13
+, "Polestar|3": 13
+, "Fiat|600e": 12
+, "Mercedes-Benz|other": 29
+, "Opel|other": 23
+, "Tesla|other": 19
+, "MG|other": 15
+, "Peugeot|other": 12
+, "Renault|other": 12
+, "BMW|other": 11
+, "Honda|other": 9
+, "Volvo|other": 9
+, "Audi|other": 8
+, "Subaru|other": 7
+, "Volkswagen|other": 7
+, "Fiat|other": 6
+, "Smart|other": 4
+, "BYD|other": 3
+, "Citroën|other": 3
+, "Jaguar|other": 3
+, "Kia|other": 2
+, "Nissan|other": 2
+, "other": 146
+});
