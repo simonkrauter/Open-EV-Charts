@@ -4845,3 +4845,84 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Škoda|Enyaq": 1
 , "other": 72
 });
+
+db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
+{ "Toyota": 96
+, "Tesla": 74
+, "Kia": 59
+, "Hyundai": 39
+, "Honda": 37
+, "Ford": 35
+, "Mazda": 25
+, "Volvo": 25
+, "Škoda": 25
+, "Land Rover": 20
+, "Audi": 19
+, "Nissan": 19
+, "Mercedes-Benz": 17
+, "Peugeot": 16
+, "Renault": 15
+, "Volkswagen": 11
+, "BYD": 10
+, "BMW": 9
+, "Polestar": 8
+, "Dacia": 6
+, "Jeep": 6
+, "Porsche": 6
+, "MG": 5
+, "Mitsubishi": 5
+, "Opel": 5
+, "Suzuki": 5
+, "Subaru": 4
+, "Jaguar": 3
+, "Citroën": 2
+, "GWM": 2
+, "other": 74
+});
+
+db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
+{ "Tesla|Model Y": 62
+, "Honda|e:Ny1": 33
+, "Hyundai|Ioniq 5": 14
+, "Audi|Q4 e-tron": 13
+, "Renault|Megane E-Tech": 13
+, "Tesla|Model 3": 12
+, "Škoda|Enyaq": 11
+, "Kia|EV6": 10
+, "BYD|Song Plus": 8
+, "Nissan|Ariya": 7
+, "Mercedes-Benz|EQB": 6
+, "Polestar|4": 5
+, "Volvo|EX30": 5
+, "BMW|i4": 4
+, "Mercedes-Benz|EQE": 4
+, "Subaru|Solterra": 4
+, "Kia|EV9": 3
+, "MG|ZS EV": 3
+, "Porsche|Taycan": 3
+, "Volkswagen|ID.3": 3
+, "Audi|Q8 e-tron": 2
+, "BMW|iX3": 2
+, "BYD|Dolphin": 2
+, "Ford|Mustang Mach-E": 2
+, "GWM|Ora 03": 2
+, "Hyundai|Ioniq 6": 2
+, "Jaguar|I-Pace": 2
+, "MG|Marvel R": 2
+, "Mercedes-Benz|EQA": 2
+, "Polestar|3": 2
+, "Volkswagen|ID.4": 2
+, "Audi|e-tron GT": 1
+, "BMW|iX": 1
+, "BMW|iX1": 1
+, "Citroën|ë-C4": 1
+, "Mercedes-Benz|EQC": 1
+, "Mercedes-Benz|EQS": 1
+, "Nissan|Leaf": 1
+, "Polestar|2": 1
+, "Renault|Scénic E-Tech": 1
+, "Renault|Zoe": 1
+, "Volkswagen|ID.5": 1
+, "Volvo|EX40": 1
+, "other": 133
+});
