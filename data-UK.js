@@ -3659,14 +3659,14 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 185
 , "Mercedes-Benz|other": 175
 , "Audi|other": 123
+, "Vauxhall|other": 120
 , "Porsche|other": 114
 , "GWM|other": 113
-, "Vauxhall|other": 103
 , "Kia|other": 75
 , "MG|other": 71
 , "Smart|other": 64
 , "Polestar|other": 59
-, "other": 4744
+, "other": 4727
 });
 
 db.insert(db.countries.UK, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3726,7 +3726,7 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 491
 , "Porsche|Macan Electric": 459
 , "Toyota|bZ4X": 411
-, "Volkswagen|ID.7": 403
+, "Volkswagen|ID.7": 408
 , "Vauxhall|Mokka-e": 400
 , "Honda|e:Ny1": 387
 , "Renault|Megane E-Tech": 382
@@ -3747,6 +3747,7 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 250
 , "Ford|Mustang Mach-E": 247
 , "Polestar|4": 238
+, "Vauxhall|Grandland Electric": 235
 , "Mercedes-Benz|EQE": 232
 , "BYD|Seal": 226
 , "Volkswagen|ID.5": 220
@@ -3757,10 +3758,10 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 183
 , "Hyundai|Ioniq 6": 182
 , "Kia|EV9": 182
-, "Kia|EV6": 164
 , "Peugeot|other": 335
 , "MG|other": 225
 , "BMW|other": 182
+, "Kia|other": 166
 , "Jeep|other": 161
 , "Polestar|other": 138
 , "Citroën|other": 124
@@ -3776,5 +3777,5 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 48
 , "Subaru|other": 19
 , "Hyundai|other": 15
-, "other": 3990
+, "other": 3748
 });
