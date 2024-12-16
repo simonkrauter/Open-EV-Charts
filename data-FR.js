@@ -5508,3 +5508,63 @@ db.insert(db.countries.FR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 621
 , "other": 10720
 });
+
+db.insert(db.countries.FR, "2024-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/12/Immatriculations-VPN_Nov2024.pdf",
+{ "Renault": 22437
+, "Peugeot": 17855
+, "Dacia": 11388
+, "Volkswagen": 10472
+, "Toyota": 9728
+, "Citroën": 7903
+, "BMW": 5615
+, "Škoda": 4108
+, "Audi": 4026
+, "Mercedes-Benz": 3951
+, "Tesla": 3773
+, "Hyundai": 3337
+, "Kia": 3200
+, "Ford": 2839
+, "Opel": 2163
+, "Suzuki": 1959
+, "MG": 1756
+, "Cupra": 1713
+, "Fiat": 1702
+, "Nissan": 1662
+, "Seat": 1573
+, "Volvo": 1484
+, "Mini": 1206
+, "Jeep": 999
+, "Porsche": 760
+, "Mazda": 698
+, "Land Rover": 690
+, "BYD": 660
+, "Mitsubishi": 349
+, "Honda": 345
+, "Smart": 219
+, "Jaguar": 44
+, "other": 2706
+});
+
+db.insert(db.countries.FR, "2024-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/12/barometre-avere-colombus-novembre-2024.pdf, https://cleantechnica.com/2024/12/04/evs-take-26-2-share-in-france-renault-5-alive/",
+{ "Renault|5 E-Tech": 3316
+, "Tesla|Model Y": 3175
+, "Citroën|ë-C3": 1239
+, "Renault|Scénic E-Tech": 1070
+, "Peugeot|e-208": 889
+, "Renault|Megane E-Tech": 780
+, "Dacia|Spring": 705
+, "Volkswagen|ID.3": 684
+, "BMW|iX1": 650
+, "Fiat|500e": 590
+, "Tesla|Model 3": 565
+, "Volkswagen|ID.4": 535
+, "Škoda|Enyaq": 518
+, "Mini|Cooper SE": 485
+, "Cupra|Born": 423
+, "Peugeot|E-3008": 342
+, "MG|MG4 EV": 341
+, "BMW|iX2": 332
+, "Porsche|Macan Electric": 317
+, "Audi|Q4 e-tron": 307
+, "other": 5992
+});
