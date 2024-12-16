@@ -1445,11 +1445,17 @@ var db = {
       const currentYear = currentDate.getFullYear();
       for (const i in categories) {
         const timeSpan = categories[i];
+        let missingCountries = [];
         for (const countryName in monthsPerCountryAndTimeSpan) {
           const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
-          if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear) {
-            hints.push(countryName + ": " + timeSpan + " is missing.");
-          }
+          if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear)
+            missingCountries.push(countryName);
+        }
+        if (missingCountries.length > 0) {
+          if (missingCountries.length > 6)
+            hints.push(timeSpan + ": Missing data for " + missingCountries.length + " countries.");
+          else
+            hints.push(timeSpan + ": Missing data for " + missingCountries.join(", ") + ".");
         }
       }
     }
