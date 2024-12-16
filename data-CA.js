@@ -241,3 +241,11 @@ db.insert(db.countries.CA, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www150.s
 db.insert(db.countries.CA, "2024-Q2", db.dsTypes.ElectricCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002401",
 { "other": 48489
 });
+
+db.insert(db.countries.CA, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002401",
+{ "other": 483287
+});
+
+db.insert(db.countries.CA, "2024-Q3", db.dsTypes.ElectricCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002401",
+{ "other": 56048
+});
