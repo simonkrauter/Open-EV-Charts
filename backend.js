@@ -1333,6 +1333,51 @@ var db = {
       hints.push("Those are not the 'worldwide' numbers, because several countries are missing.");
     }
 
+    // gap detection (missing months in data series)
+    if (chartConfig.detailLevel != this.detailLevels.total) {
+      let sumPerMonth = 0;
+      for (const key in gapDetectionData) {
+        const entry = gapDetectionData[key];
+        const months = entry[0];
+        const value = entry[1];
+        sumPerMonth += value / months.length;
+      }
+      let errorIndicatorSum = 0;
+      for (const key in gapDetectionData) {
+        if (key.endsWith("|other"))
+          continue;
+        const entry = gapDetectionData[key];
+        const months = entry[0];
+        const value = entry[1];
+        let afterMonthWithData = false;
+        let afterMonthWithoutData = false;
+        let hasGap = false;
+        let missingMonthCount = 0;
+        for (const i in monthsInRange) {
+          const month = monthsInRange[i];
+          if (months.includes(month)) {
+            if (afterMonthWithoutData) {
+              hasGap = true;
+              afterMonthWithData = false;
+              afterMonthWithoutData = false;
+            } else
+              afterMonthWithData = true;
+          } else if (afterMonthWithData) {
+            afterMonthWithoutData = true;
+            missingMonthCount++;
+          }
+        }
+        if (hasGap) {
+          const errorIndicator = missingMonthCount / monthsInRange.length * (value / months.length / sumPerMonth);
+          errorIndicatorSum += errorIndicator;
+        }
+      }
+      if (errorIndicatorSum >= 0.2)
+        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top models/brands.</span>");
+      else if (errorIndicatorSum >= 0.05)
+        hints.push("Data is likely incomplete as it is based on monthly top models/brands.");
+    }
+
     // parse general hints
     const keyword = " (Incomplete: ";
     for (const text in sources) {
@@ -1407,51 +1452,6 @@ var db = {
           }
         }
       }
-    }
-
-    // gap detection (missing months in data series)
-    if (chartConfig.detailLevel != this.detailLevels.total) {
-      let sumPerMonth = 0;
-      for (const key in gapDetectionData) {
-        const entry = gapDetectionData[key];
-        const months = entry[0];
-        const value = entry[1];
-        sumPerMonth += value / months.length;
-      }
-      let errorIndicatorSum = 0;
-      for (const key in gapDetectionData) {
-        if (key.endsWith("|other"))
-          continue;
-        const entry = gapDetectionData[key];
-        const months = entry[0];
-        const value = entry[1];
-        let afterMonthWithData = false;
-        let afterMonthWithoutData = false;
-        let hasGap = false;
-        let missingMonthCount = 0;
-        for (const i in monthsInRange) {
-          const month = monthsInRange[i];
-          if (months.includes(month)) {
-            if (afterMonthWithoutData) {
-              hasGap = true;
-              afterMonthWithData = false;
-              afterMonthWithoutData = false;
-            } else
-              afterMonthWithData = true;
-          } else if (afterMonthWithData) {
-            afterMonthWithoutData = true;
-            missingMonthCount++;
-          }
-        }
-        if (hasGap) {
-          const errorIndicator = missingMonthCount / monthsInRange.length * (value / months.length / sumPerMonth);
-          errorIndicatorSum += errorIndicator;
-        }
-      }
-      if (errorIndicatorSum >= 0.2)
-        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top models/brands.</span>");
-      else if (errorIndicatorSum >= 0.05)
-        hints.push("Data is likely incomplete as it is based on monthly top models/brands.");
     }
 
     // monthly data is not available
