@@ -1206,6 +1206,7 @@ var db = {
     }
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+    this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
     let hints = [];
     if (withHints)
@@ -1323,6 +1324,35 @@ var db = {
         return;
       }
     }
+  },
+
+  removeMostRecentMonthIfIncomplete: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
+    if (!this.isByMonth(chartConfig))
+      return;
+    if (!this.isCombinedCountry(chartConfig))
+      return;
+    if (categories.length == 0)
+      return;
+    categories.sort();
+    const timeSpan = categories[categories.length - 1];
+
+    // check if all countries are included
+    let missingCountries = false;
+    for (const countryName in monthsPerCountryAndTimeSpan) {
+      const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+      if (monthsPerTimeSpan[timeSpan] === undefined) {
+        missingCountries = true;
+        break;
+      }
+    }
+    if (!missingCountries)
+      return;
+
+    // remove month
+    for (const seriesName in seriesRows) {
+      delete seriesRows[seriesName][timeSpan];
+    }
+    categories.pop();
   },
 
   getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes) {
