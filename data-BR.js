@@ -4,6 +4,342 @@
 
 // https://www.fenabrave.org.br/portalv2/Conteudo/Emplacamentos
 
+db.insert(db.countries.BR, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_01_2.pdf",
+{ "Chevrolet": 20557
+, "Volkswagen": 16763
+, "Fiat": 16716
+, "Hyundai": 11519
+, "Toyota": 8982
+, "Jeep": 8506
+, "Renault": 5607
+, "Nissan": 3383
+, "Honda": 3273
+, "Citroën": 1741
+, "Peugeot": 1420
+, "Volvo": 821
+, "BMW": 780
+, "Mercedes-Benz": 440
+, "Audi": 368
+, "Mitsubishi": 354
+, "Porsche": 296
+, "Kia": 194
+, "Land Rover": 169
+, "BYD": 143
+, "other": 1840
+});
+
+db.insert(db.countries.BR, "2023-01", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
+{ "other": 722
+});
+
+db.insert(db.countries.BR, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_02_2.pdf",
+{ "Chevrolet": 16719
+, "Fiat": 15436
+, "Volkswagen": 13732
+, "Toyota": 9535
+, "Jeep": 9046
+, "Hyundai": 8722
+, "Renault": 6452
+, "Honda": 4183
+, "Nissan": 3872
+, "Citroën": 1602
+, "Peugeot": 1314
+, "BMW": 749
+, "Volvo": 523
+, "Audi": 405
+, "Mercedes-Benz": 381
+, "Mitsubishi": 359
+, "Porsche": 313
+, "BYD": 232
+, "Land Rover": 225
+, "Kia": 158
+, "other": 1851
+});
+
+db.insert(db.countries.BR, "2023-02", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_02_02.pdf",
+{ "other": 550
+});
+
+db.insert(db.countries.BR, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_02_3.pdf",
+{ "Fiat": 23893
+, "Chevrolet": 23302
+, "Volkswagen": 20153
+, "Hyundai": 16260
+, "Jeep": 14211
+, "Toyota": 12925
+, "Renault": 9677
+, "Honda": 6729
+, "Nissan": 6046
+, "Citroën": 2599
+, "Peugeot": 2331
+, "BMW": 1354
+, "Volvo": 768
+, "Porsche": 613
+, "Audi": 590
+, "Mercedes-Benz": 574
+, "Land Rover": 525
+, "Mitsubishi": 417
+, "BYD": 320
+, "Ford": 221
+, "other": 2666
+});
+
+db.insert(db.countries.BR, "2023-03", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_03_02.pdf",
+{ "other": 569
+});
+
+db.insert(db.countries.BR, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_04_2.pdf",
+{ "Fiat": 19841
+, "Chevrolet": 18535
+, "Volkswagen": 17635
+, "Hyundai": 13729
+, "Toyota": 11078
+, "Jeep": 9968
+, "Honda": 6553
+, "Renault": 6120
+, "Nissan": 4142
+, "Citroën": 2311
+, "Peugeot": 2087
+, "BMW": 1058
+, "Volvo": 473
+, "Porsche": 471
+, "Audi": 450
+, "Land Rover": 426
+, "Mercedes-Benz": 326
+, "Mitsubishi": 315
+, "Kia": 224
+, "Ford": 165
+, "other": 2220
+});
+
+db.insert(db.countries.BR, "2023-04", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_04_02.pdf",
+{ "other": 541
+});
+
+db.insert(db.countries.BR, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_05_2.pdf",
+{ "Volkswagen": 22695
+, "Chevrolet": 20250
+, "Fiat": 18302
+, "Toyota": 12455
+, "Jeep": 11806
+, "Hyundai": 10920
+, "Honda": 6709
+, "Renault": 5760
+, "Nissan": 5530
+, "Peugeot": 2653
+, "Citroën": 1845
+, "BMW": 1312
+, "GWM": 960
+, "Volvo": 758
+, "Porsche": 522
+, "Audi": 459
+, "Land Rover": 449
+, "BYD": 390
+, "Ford": 335
+, "Mercedes-Benz": 334
+, "other": 3038
+});
+
+db.insert(db.countries.BR, "2023-05", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_05_02.pdf",
+{ "other": 605
+});
+
+db.insert(db.countries.BR, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_06_2.pdf",
+{ "Fiat": 26403
+, "Volkswagen": 24503
+, "Chevrolet": 21736
+, "Hyundai": 12432
+, "Toyota": 11659
+, "Jeep": 9783
+, "Renault": 8917
+, "Honda": 6666
+, "Nissan": 4781
+, "Citroën": 3073
+, "Peugeot": 2927
+, "BMW": 1112
+, "GWM": 969
+, "Volvo": 647
+, "Audi": 601
+, "Mitsubishi": 508
+, "Land Rover": 467
+, "Porsche": 443
+, "BYD": 441
+, "Mercedes-Benz": 274
+, "other": 3675
+});
+
+db.insert(db.countries.BR, "2023-06", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_06_02.pdf",
+{ "other": 605
+});
+
+db.insert(db.countries.BR, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_07_2.pdf",
+{ "Volkswagen": 35796
+, "Fiat": 28416
+, "Chevrolet": 24849
+, "Hyundai": 22536
+, "Toyota": 12898
+, "Renault": 11715
+, "Jeep": 11686
+, "Honda": 6733
+, "Nissan": 6120
+, "Peugeot": 3335
+, "Citroën": 3257
+, "BMW": 1199
+, "GWM": 953
+, "BYD": 796
+, "Volvo": 610
+, "Mitsubishi": 492
+, "Audi": 488
+, "Land Rover": 461
+, "Porsche": 407
+, "Mercedes-Benz": 322
+, "other": 3673
+});
+
+db.insert(db.countries.BR, "2023-07", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_07_02.pdf",
+{ "other": 913
+});
+
+db.insert(db.countries.BR, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_08_2.pdf",
+{ "Fiat": 25639
+, "Chevrolet": 24717
+, "Volkswagen": 23656
+, "Hyundai": 15704
+, "Toyota": 13628
+, "Jeep": 12295
+, "Honda": 7429
+, "Renault": 7371
+, "Nissan": 5489
+, "Peugeot": 3516
+, "Citroën": 2611
+, "BMW": 1511
+, "BYD": 1455
+, "GWM": 1452
+, "Volvo": 647
+, "Mitsubishi": 573
+, "Land Rover": 471
+, "Porsche": 454
+, "Audi": 427
+, "Mercedes-Benz": 322
+, "other": 4111
+});
+
+db.insert(db.countries.BR, "2023-08", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_08_02.pdf",
+{ "other": 1150
+});
+
+db.insert(db.countries.BR, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_09_2.pdf",
+{ "Chevrolet": 23868
+, "Volkswagen": 23861
+, "Fiat": 23448
+, "Hyundai": 16147
+, "Toyota": 12284
+, "Jeep": 9737
+, "Renault": 8463
+, "Honda": 5995
+, "Nissan": 5759
+, "Peugeot": 2476
+, "Citroën": 2354
+, "BYD": 2134
+, "BMW": 1411
+, "GWM": 1307
+, "Audi": 600
+, "Volvo": 499
+, "Mitsubishi": 476
+, "Land Rover": 456
+, "Porsche": 434
+, "Mercedes-Benz": 221
+, "other": 3752
+});
+
+db.insert(db.countries.BR, "2023-09", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_09_02.pdf",
+{ "other": 1798
+});
+
+db.insert(db.countries.BR, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_10_2.pdf",
+{ "Volkswagen": 27930
+, "Chevrolet": 27309
+, "Fiat": 26028
+, "Hyundai": 16319
+, "Toyota": 13641
+, "Renault": 9952
+, "Jeep": 9473
+, "Nissan": 7374
+, "Honda": 5576
+, "Citroën": 3046
+, "Peugeot": 2999
+, "BYD": 2730
+, "GWM": 1450
+, "BMW": 1369
+, "Mitsubishi": 649
+, "Volvo": 647
+, "Audi": 631
+, "Ford": 482
+, "Porsche": 438
+, "Land Rover": 378
+, "other": 4713
+});
+
+db.insert(db.countries.BR, "2023-10", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_10_02.pdf",
+{ "other": 2315
+});
+
+db.insert(db.countries.BR, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_11_2.pdf",
+{ "Volkswagen": 26091
+, "Fiat": 25710
+, "Chevrolet": 23400
+, "Hyundai": 20502
+, "Jeep": 11730
+, "Toyota": 11019
+, "Renault": 10201
+, "Honda": 5620
+, "Nissan": 5288
+, "BYD": 3620
+, "Citroën": 3594
+, "Peugeot": 3045
+, "BMW": 1501
+, "GWM": 1356
+, "Volvo": 726
+, "Mitsubishi": 702
+, "Audi": 603
+, "Porsche": 398
+, "Land Rover": 359
+, "Ford": 277
+, "other": 4951
+});
+
+db.insert(db.countries.BR, "2023-11", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_11_02.pdf",
+{ "other": 3080
+});
+
+db.insert(db.countries.BR, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2023_12_2.pdf",
+{ "Volkswagen": 37589
+, "Fiat": 27439
+, "Chevrolet": 26502
+, "Hyundai": 21243
+, "Toyota": 15960
+, "Renault": 12499
+, "Jeep": 8420
+, "Honda": 6586
+, "Nissan": 6379
+, "BYD": 5495
+, "Peugeot": 2938
+, "GWM": 2796
+, "Citroën": 2413
+, "BMW": 1747
+, "Volvo": 1066
+, "Mitsubishi": 895
+, "Audi": 883
+, "Land Rover": 600
+, "Mercedes-Benz": 470
+, "Porsche": 439
+, "other": 5392
+});
+
+db.insert(db.countries.BR, "2023-12", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
+{ "other": 5652
+});
+
 db.insert(db.countries.BR, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
 { "Volkswagen": 18153
 , "Fiat": 17472
