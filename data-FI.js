@@ -5437,3 +5437,101 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 1
 , "other": 137
 });
+
+db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2907/October_2024.xlsx",
+{ "Toyota": 892
+, "Škoda": 750
+, "Volvo": 611
+, "Volkswagen": 580
+, "Kia": 455
+, "BMW": 273
+, "Audi": 246
+, "Mercedes-Benz": 242
+, "Hyundai": 214
+, "Nissan": 208
+, "Ford": 197
+, "Peugeot": 159
+, "Tesla": 145
+, "Polestar": 116
+, "Mazda": 86
+, "Porsche": 83
+, "Opel": 76
+, "Renault": 75
+, "BYD": 47
+, "Suzuki": 45
+, "Citroën": 40
+, "Mitsubishi": 38
+, "Cupra": 34
+, "Subaru": 27
+, "Land Rover": 23
+, "Dacia": 19
+, "Mini": 11
+, "Honda": 9
+, "Seat": 7
+, "other": 228
+});
+
+db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Škoda|Enyaq": 265
+, "Volkswagen|ID.4": 123
+, "Volkswagen|ID.7": 105
+, "Tesla|Model Y": 102
+, "Audi|Q6 e-tron": 99
+, "Volvo|EX30": 91
+, "Volvo|EX40": 91
+, "Porsche|Macan Electric": 68
+, "Volvo|EC40": 50
+, "Ford|Explorer EV": 44
+, "Hyundai|Ioniq 5": 44
+, "Audi|Q4 e-tron": 42
+, "Mercedes-Benz|EQA": 42
+, "Tesla|Model 3": 37
+, "BYD|Seal": 36
+, "Toyota|bZ4X": 35
+, "BMW|i4": 32
+, "Mercedes-Benz|EQB": 32
+, "Nissan|Ariya": 31
+, "Peugeot|e-2008": 29
+, "Hyundai|Kona Electric": 26
+, "Citroën|ë-C4": 22
+, "BMW|i5": 20
+, "BMW|iX1": 20
+, "BMW|iX2": 20
+, "Kia|EV6": 19
+, "Renault|Scénic E-Tech": 19
+, "Kia|Niro EV": 16
+, "Mercedes-Benz|EQE": 14
+, "Kia|EV9": 12
+, "Ford|Mustang Mach-E": 11
+, "Nissan|Leaf": 11
+, "Volkswagen|ID.3": 11
+, "BMW|iX": 10
+, "Cupra|Tavascan": 9
+, "Cupra|Born": 8
+, "Ford|Capri EV": 8
+, "Audi|Q8 e-tron": 7
+, "Hyundai|Ioniq 6": 7
+, "Mercedes-Benz|EQS": 7
+, "Mini|Cooper SE": 7
+, "BYD|Yuan Plus": 6
+, "Peugeot|E-5008": 6
+, "Peugeot|E-3008": 4
+, "Renault|Megane E-Tech": 4
+, "Opel|Astra Electric": 3
+, "Porsche|Taycan": 3
+, "Subaru|Solterra": 3
+, "Tesla|Model S": 3
+, "Tesla|Model X": 3
+, "Volvo|EX90": 3
+, "BYD|other": 4
+, "Fiat|other": 3
+, "Ford|other": 2
+, "Mercedes-Benz|other": 2
+, "Peugeot|other": 2
+, "Toyota|other": 2
+, "Jeep|other": 1
+, "MG|other": 1
+, "Opel|other": 1
+, "Volkswagen|other": 1
+, "other": 162
+});
