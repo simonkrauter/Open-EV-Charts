@@ -1738,3 +1738,25 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 9557
 , "other": 387075
 });
+
+db.insert(db.countries.CN, "2024-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/12/20/52-of-car-sales-in-china-are-now-plugins-full-report/",
+{ "other": 2420000
+});
+
+db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/12/20/52-of-car-sales-in-china-are-now-plugins-full-report/",
+{ "BYD|Seagull": 56156
+, "Tesla|Model Y": 44576
+, "Wuling|Hongguang Mini EV": 34777
+, "Tesla|Model 3": 28914
+, "Wuling|Bingo": 26808
+, "BYD|Yuan Plus": 26400
+, "BYD|Yuan Up": 21391
+, "Geely|Xingyuan": 20038
+, "Geely|Panda Mini EV": 19027
+, "BYD|Song EV": 9236
+, "BYD|Han EV": 9013
+, "BYD|Qin EV": 8235
+, "Geely|Galaxy E5": 18962
+, "BYD|Dolphin": 16680
+, "other": 417787
+});
