@@ -1725,8 +1725,7 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/11/22/53-of-car-sales-in-china-are-now-plugins-full-report-2/",
-{ "BYD|Song EV": 56250
-, "BYD|Seagull": 51288
+{ "BYD|Seagull": 51288
 , "Tesla|Model Y": 36204
 , "Wuling|Hongguang Mini EV": 34185
 , "BYD|Qin EV": 30806
@@ -1736,5 +1735,6 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 18231
 , "Changan|Lumin": 17040
 , "Geely|Panda Mini EV": 15616
-, "other": 340382
+, "BYD|Song EV": 9557
+, "other": 387075
 });
