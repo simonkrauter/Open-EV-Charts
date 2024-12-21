@@ -1998,5 +1998,5 @@ db.insert(db.countries.PT, "2024-10", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Polestar": 21
 , "Škoda": 20
 , "Mazda": 2
-, "other": 46
+, "other": 44
 });
