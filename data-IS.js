@@ -4860,6 +4860,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Audi": 19
 , "Nissan": 19
 , "Mercedes-Benz": 17
+, "Porsche": 17
 , "Peugeot": 16
 , "Renault": 15
 , "Volkswagen": 11
@@ -4868,7 +4869,6 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Polestar": 8
 , "Dacia": 6
 , "Jeep": 6
-, "Porsche": 6
 , "MG": 5
 , "Mitsubishi": 5
 , "Opel": 5
@@ -4877,7 +4877,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 3
 , "Citroën": 2
 , "GWM": 2
-, "other": 74
+, "other": 63
 });
 
 db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -4887,6 +4887,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|Q4 e-tron": 13
 , "Renault|Megane E-Tech": 13
 , "Tesla|Model 3": 12
+, "Porsche|Macan Electric": 11
 , "Škoda|Enyaq": 11
 , "Kia|EV6": 10
 , "BYD|Song Plus": 8
@@ -4924,5 +4925,5 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Zoe": 1
 , "Volkswagen|ID.5": 1
 , "Volvo|EX40": 1
-, "other": 133
+, "other": 122
 });
