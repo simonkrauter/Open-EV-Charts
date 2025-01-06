@@ -5664,11 +5664,11 @@ db.insert(db.countries.NO, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 14
 , "BMW|other": 13
 , "Subaru|other": 11
-, "BYD|other": 8
+, "BYD|other": 9
 , "Renault|other": 7
 , "Tesla|other": 7
 , "JAC|other": 6
-, "other": 1124
+, "other": 1123
 });
 
 db.insert(db.countries.NO, "2024-11", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-november-2024",
@@ -5713,6 +5713,7 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 153
 , "Mercedes-Benz|EQA": 150
 , "Mercedes-Benz|EQB": 142
+, "BYD|Sealion 07 EV": 135
 , "BMW|iX1": 134
 , "Kia|EV3": 120
 , "Mercedes-Benz|EQE": 83
@@ -5743,8 +5744,8 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 30
 , "Volvo|EC40": 28
 , "BYD|Tang EV": 27
-, "Kia|EV6": 26
 , "Peugeot|other": 33
+, "Kia|other": 31
 , "Mercedes-Benz|other": 29
 , "Honda|other": 22
 , "Nio|other": 22
@@ -5761,7 +5762,7 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 6
 , "Smart|other": 6
 , "Volvo|other": 6
-, "other": 1258
+, "other": 1118
 });
 
 
