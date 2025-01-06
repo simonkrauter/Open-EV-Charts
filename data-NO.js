@@ -5765,6 +5765,100 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1118
 });
 
+db.insert(db.countries.NO, "2024-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2024",
+{ "Tesla": 3003
+, "Volkswagen": 1525
+, "Volvo": 1454
+, "Toyota": 1185
+, "BMW": 923
+, "Mercedes-Benz": 784
+, "Škoda": 614
+, "Audi": 540
+, "Hyundai": 455
+, "Porsche": 451
+, "Nissan": 381
+, "Ford": 329
+, "BYD": 286
+, "Kia": 220
+, "Polestar": 162
+, "MG": 143
+, "Peugeot": 103
+, "Mazda": 43
+, "other": 1051
+});
+
+db.insert(db.countries.NO, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2024",
+{ "Tesla|Model Y": 1929
+, "Tesla|Model 3": 1063
+, "Volkswagen|ID.4": 651
+, "Volvo|EX30": 572
+, "Volkswagen|ID.7": 505
+, "Škoda|Enyaq": 423
+, "Porsche|Macan Electric": 317
+, "Nissan|Ariya": 315
+, "Volvo|EX40": 299
+, "Mercedes-Benz|EQB": 279
+, "Volkswagen|ID.3": 258
+, "BMW|i4": 256
+, "Audi|Q6 e-tron": 255
+, "BMW|iX1": 237
+, "Mercedes-Benz|EQA": 235
+, "Audi|Q4 e-tron": 233
+, "Hyundai|Kona Electric": 216
+, "Ford|Explorer EV": 180
+, "Hyundai|Ioniq 5": 154
+, "BYD|Sealion 07 EV": 137
+, "Mercedes-Benz|EQE": 135
+, "Kia|EV3": 125
+, "MG|MG4 EV": 117
+, "BMW|iX": 112
+, "Toyota|bZ4X": 99
+, "Renault|Scénic E-Tech": 87
+, "Mini|Cooper SE": 84
+, "Hyundai|Ioniq 6": 74
+, "Ford|F-150 Lightning": 72
+, "BMW|i5": 62
+, "BMW|iX2": 62
+, "BMW|iX3": 59
+, "Kia|EV6": 58
+, "Volvo|EC40": 56
+, "Opel|Corsa-e": 54
+, "Polestar|3": 52
+, "Polestar|2": 50
+, "Ford|Mustang Mach-E": 49
+, "BYD|Dolphin": 47
+, "Peugeot|e-2008": 46
+, "Nissan|Leaf": 40
+, "Polestar|4": 39
+, "BYD|Song Plus": 38
+, "Kia|EV9": 36
+, "Opel|Astra Electric": 34
+, "Volvo|EX90": 34
+, "Ford|Capri EV": 31
+, "Mazda|MX-30 BEV": 27
+, "Nio|EL6": 24
+, "BYD|Seal": 21
+, "Citroën|ë-C3": 21
+, "Peugeot|other": 54
+, "BYD|other": 21
+, "Jeep|other": 20
+, "Honda|other": 16
+, "Nio|other": 15
+, "Porsche|other": 14
+, "JAC|other": 11
+, "Opel|other": 11
+, "Subaru|other": 11
+, "Audi|other": 10
+, "Citroën|other": 9
+, "MG|other": 8
+, "Fiat|other": 7
+, "Mercedes-Benz|other": 7
+, "Jaguar|other": 6
+, "Smart|other": 6
+, "Volkswagen|other": 6
+, "other": 1077
+});
+
 
 // Template:
 
@@ -5791,5 +5885,6 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Citroën":
 // , "Honda":
 // , "Suzuki":
+// , "Porsche":
 // , "other":
 // });
