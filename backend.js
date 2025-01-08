@@ -717,6 +717,27 @@ var db = {
     return chartConfig.timeSpan;
   },
 
+  getNominalMonthCount: function(chartConfig) {
+    const timeSpan = this.getRealTimeSpan(chartConfig);
+    if (timeSpan == this.timeSpanOptions.last3m)
+      return 3;
+    if (timeSpan == this.timeSpanOptions.last6m)
+      return 6;
+    if (timeSpan == this.timeSpanOptions.last1y)
+      return 12;
+    if (timeSpan == this.timeSpanOptions.last2y)
+      return 12 * 2;
+    if (timeSpan == this.timeSpanOptions.last3y)
+      return 12 * 3;
+    if (timeSpan == this.timeSpanOptions.last4y)
+      return 12 * 4;
+    if (timeSpan == this.timeSpanOptions.last5y)
+      return 12 * 5;
+    if (timeSpan == this.timeSpanOptions.last6y)
+      return 12 * 6;
+    return 12;
+  },
+
   encodeChartConfig: function(chartConfig, changedParamName = null) {
     chartConfig = this.makeChartConfigValid(chartConfig, changedParamName);
     let parts = [];
@@ -1744,7 +1765,7 @@ var db = {
     let isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
     if (isTimeSpanExtendedForAverageCalculation && Object.keys(seriesRows).length > 0) {
       const categoriesCount = Object.keys(seriesRows[Object.keys(seriesRows)[0]]).length;
-      if (categoriesCount <= 12)
+      if (categoriesCount <= this.getNominalMonthCount(chartConfig))
         isTimeSpanExtendedForAverageCalculation = false;
     }
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
