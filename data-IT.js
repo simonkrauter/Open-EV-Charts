@@ -4523,6 +4523,7 @@ db.insert(db.countries.IT, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 57
 , "Peugeot|E-3008": 54
 , "Smart|Hashtag 3": 53
+, "Fiat|Grande Panda Electric": 50
 , "Renault|5 E-Tech": 48
 , "Cupra|Tavascan": 47
 , "BMW|i5": 42
@@ -4564,5 +4565,5 @@ db.insert(db.countries.IT, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 5
 , "Toyota|other": 5
 , "Audi|other": 4
-, "other": 410
+, "other": 360
 });
