@@ -29,10 +29,10 @@ Technology
 - [Chart.js](https://www.chartjs.org/), a JavaScript chart library
 - https://open-ev-charts.org/ is hosted by GitHub Pages
 
-Feeback
+Feedback
 -------
 
-Feeback of any kind is welcome:
+Feedback of any kind is welcome:
 - Send an email to trustable@disroot.org
 - [Create a GitHub issue](https://github.com/simonkrauter/Open-EV-Charts/issues/new)
 
