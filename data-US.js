@@ -639,3 +639,11 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 235
 , "other": 36583
 });
+
+db.insert(db.countries.US, "2024-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-01/Total-Sales-for-Website_December2024.pdf",
+{ "other": 4193136
+});
+
+db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-01/Total-Sales-for-Website_December2024.pdf",
+{ "other": 347630
+});
