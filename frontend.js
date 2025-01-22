@@ -200,7 +200,7 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Calculate width
   let width = 40;
   for (const optionKey in param.allOptions)
-     width = Math.max(width, canvasContext.measureText(param.allOptions[optionKey]).width * 1.35 + 40);
+     width = Math.max(width, canvasContext.measureText(param.allOptions[optionKey]).width * 1.42 + 40);
   if (param.name == "country")
     width += 10;
 
