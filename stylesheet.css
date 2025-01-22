@@ -65,6 +65,14 @@ input[type=checkbox] {
   padding-right: 10px;
 }
 
+.title > div > * {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.title > div > :first-child {
+  padding-right: 8px;
+}
+
 a, a:visited {
   color: #0067CE;
   text-decoration: none;
