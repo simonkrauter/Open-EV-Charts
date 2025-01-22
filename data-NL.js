@@ -7190,10 +7190,11 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 19
 , "Honda|other": 18
 , "Mazda|other": 15
+, "Renault|other": 14
 , "Audi|other": 13
 , "Cupra|other": 11
 , "BYD|other": 7
-, "other": 301
+, "other": 287
 });
 
 db.insert(db.countries.NL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/oktober/",
@@ -7291,6 +7292,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 63
 , "Hyundai|other": 60
 , "BMW|other": 57
+, "Renault|other": 41
 , "Polestar|other": 37
 , "Ford|other": 35
 , "Kia|other": 30
@@ -7305,7 +7307,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 11
 , "Volvo|other": 9
 , "Subaru|other": 7
-, "other": 421
+, "other": 380
 });
 
 db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/november/",
@@ -7356,7 +7358,7 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 430
 , "BMW|iX1": 390
 , "Ford|Explorer EV": 366
-, "Renault|Scénic E-Tech": 335
+, "Renault|Scénic E-Tech": 336
 , "Opel|Corsa-e": 316
 , "BYD|Yuan Plus": 275
 , "Hyundai|Kona Electric": 266
@@ -7392,13 +7394,14 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 3": 57
 , "Peugeot|e-2008": 56
 , "Polestar|4": 53
+, "Renault|5 E-Tech": 52
 , "Smart|Hashtag 1": 48
 , "Ford|Capri EV": 47
 , "BYD|Seal": 44
 , "Kia|EV9": 42
-, "Mercedes-Benz|EQE": 41
 , "Peugeot|other": 78
 , "Opel|other": 65
+, "Mercedes-Benz|other": 63
 , "BMW|other": 57
 , "Hyundai|other": 54
 , "Fiat|other": 50
@@ -7408,12 +7411,11 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 36
 , "Audi|other": 30
 , "Nissan|other": 23
-, "Mercedes-Benz|other": 22
 , "Polestar|other": 20
 , "Porsche|other": 20
 , "Volkswagen|other": 17
 , "Ford|other": 13
 , "Nio|other": 11
 , "Tesla|other": 10
-, "other": 355
+, "other": 302
 });
