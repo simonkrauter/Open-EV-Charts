@@ -1668,11 +1668,12 @@ db.insert(db.countries.CN, "2024-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|S": 13537
 , "BYD|Dolphin": 12443
 , "BYD|Qin EV": 10636
+, "Tesla|Model 3": 9928
 , "Volkswagen|ID.3": 8282
 , "BYD|Han EV": 6058
 , "BYD|Song EV": 3873
 , "BYD|Tang EV": 711
-, "other": 268689
+, "other": 258761
 });
 
 db.insert(db.countries.CN, "2024-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/09/27/most-car-sales-54-in-china-are-now-plugins-full-report/",
