@@ -1761,3 +1761,22 @@ db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 16680
 , "other": 417787
 });
+
+db.insert(db.countries.CN, "2024-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/01/27/25-of-new-car-sales-in-china-were-100-electric-in-2024/",
+{ "other": 2601887
+});
+
+db.insert(db.countries.CN, "2024-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/01/27/25-of-new-car-sales-in-china-were-100-electric-in-2024/",
+{ "Tesla|Model Y": 61881
+, "BYD|Seagull": 48754
+, "Wuling|Hongguang Mini EV": 37747
+, "Wuling|Bingo": 30757
+, "BYD|Yuan Plus": 23048
+, "Tesla|Model 3": 21046
+, "BYD|Yuan Up": 18552
+, "Geely|Xingyuan": 16491
+, "BYD|Dolphin": 14439
+, "BYD|Han EV": 8853
+, "BYD|Qin EV": 7035
+, "other": 465944
+});
