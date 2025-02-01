@@ -1160,7 +1160,10 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
       }
     }
     if (!db.isTimeXProperty(newChartConfig)) {
-      newChartConfig.xProperty = "";
+      if ([db.timeSpanOptions.all, db.timeSpanOptions.auto].includes(chartConfig.timeSpan))
+        newChartConfig.xProperty = db.xProperties.quarter;
+      else
+        newChartConfig.xProperty = db.xProperties.month;
       newChartConfig.timeSpan = "";
     }
     newChartConfig.view = null;
