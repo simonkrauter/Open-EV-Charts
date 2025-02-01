@@ -644,6 +644,51 @@ db.insert(db.countries.US, "2024-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.
 { "other": 4193136
 });
 
-db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-01/Total-Sales-for-Website_December2024.pdf",
-{ "other": 347630
+db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-01/Total-Sales-for-Website_December2024.pdf, https://cleantechnica.com/2025/01/26/tesla-ford-chevrolet-lead-us-ev-sales-charts/",
+{ "Tesla|Model Y": 85506
+, "Tesla|Model 3": 57928
+, "Honda|Prologue": 18838
+, "Chevrolet|Equinox EV": 18089
+, "Ford|Mustang Mach-E": 16119
+, "Hyundai|Ioniq 5": 14082
+, "Tesla|Cybertruck": 12991
+, "Ford|F-150 Lightning": 10703
+, "Chevrolet|Blazer EV": 7883
+, "Kia|EV9": 6047
+, "BMW|i4": 5737
+, "Kia|EV6": 5730
+, "Toyota|bZ4X": 4993
+, "Nissan|Ariya": 4901
+, "Tesla|Model X": 4340
+, "BMW|iX": 4214
+, "Nissan|Leaf": 3645
+, "Ford|E-Transit": 3354
+, "Subaru|Solterra": 3310
+, "Audi|Q4 e-tron": 3273
+, "Hyundai|Ioniq 6": 3167
+, "BMW|i5": 2987
+, "Chevrolet|Silverado EV": 2176
+, "Mercedes-Benz|EQB": 2124
+, "Porsche|Macan Electric": 1623
+, "Tesla|Model S": 1623
+, "Audi|Q8 e-tron": 1571
+, "Porsche|Taycan": 1353
+, "Volkswagen|ID. Buzz": 1162
+, "Jaguar|I-Pace": 1081
+, "Kia|Niro EV": 1049
+, "Mercedes-Benz|EQE": 972
+, "BMW|i7": 938
+, "Audi|Q6 e-tron": 922
+, "Hyundai|Kona Electric": 863
+, "Audi|e-tron GT": 828
+, "Volvo|EX90": 749
+, "Mini|Cooper SE": 693
+, "Mercedes-Benz|EQS": 667
+, "Volkswagen|ID.4": 646
+, "Volvo|EX40": 564
+, "Fiat|500e": 531
+, "Mercedes-Benz|G-Class EV": 455
+, "Volvo|EC40": 275
+, "Volvo|EX30": 229
+, "other": 26696
 });
