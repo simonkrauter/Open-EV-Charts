@@ -5441,3 +5441,46 @@ db.insert(db.countries.IE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|EC40": 1
 , "other": 2
 });
+
+db.insert(db.countries.IE, "2024-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 237
+, "Mercedes-Benz": 60
+, "Toyota": 35
+, "BMW": 26
+, "Polestar": 15
+, "Volkswagen": 8
+, "Citroën": 6
+, "Ford": 6
+, "Hyundai": 6
+, "Dacia": 5
+, "Škoda": 4
+, "Kia": 3
+, "MG": 3
+, "Nissan": 2
+, "Seat": 2
+, "Suzuki": 2
+, "Fiat": 1
+, "Smart": 1
+, "Subaru": 1
+});
+
+db.insert(db.countries.IE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 187
+, "Tesla|Model Y": 50
+, "Mercedes-Benz|EQE SUV": 11
+, "Polestar|2": 8
+, "Mercedes-Benz|EQA": 7
+, "Mercedes-Benz|EQB": 6
+, "Hyundai|Ioniq 5": 5
+, "Mercedes-Benz|EQE": 5
+, "Polestar|3": 4
+, "Polestar|4": 3
+, "Mercedes-Benz|EQS SUV": 2
+, "Nissan|Leaf": 2
+, "BMW|iX2": 1
+, "MG|Cyberster": 1
+, "MG|MG5 EV": 1
+, "Smart|Hashtag 1": 1
+, "Toyota|bZ4X": 1
+, "Škoda|Enyaq": 1
+});
