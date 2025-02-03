@@ -5621,7 +5621,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
 , "Volkswagen|ID.5": 3
-, "BYD|other": 6
+, "BYD|other": 8
 , "Mercedes-Benz|other": 4
 , "Peugeot|other": 4
 , "Ford|other": 3
@@ -5633,5 +5633,5 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 185
+, "other": 183
 });
