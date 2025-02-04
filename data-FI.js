@@ -5635,3 +5635,95 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 1
 , "other": 183
 });
+
+db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2925/December_2024.xlsx",
+{ "Škoda": 945
+, "Volkswagen": 682
+, "Toyota": 675
+, "Tesla": 617
+, "Volvo": 543
+, "Mercedes-Benz": 340
+, "Kia": 316
+, "BMW": 285
+, "Hyundai": 260
+, "Audi": 196
+, "Polestar": 190
+, "Renault": 165
+, "Ford": 155
+, "Opel": 151
+, "Peugeot": 89
+, "Mazda": 76
+, "Nissan": 73
+, "Dacia": 72
+, "Porsche": 53
+, "Suzuki": 52
+, "Cupra": 42
+, "Smart": 34
+, "BYD": 33
+, "Citroën": 31
+, "Land Rover": 23
+, "Mitsubishi": 23
+, "Subaru": 11
+, "Seat": 8
+, "Honda": 4
+, "other": 139
+});
+
+db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/12, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Tesla|Model Y": 346
+, "Tesla|Model 3": 269
+, "Škoda|Enyaq": 205
+, "Volkswagen|ID.4": 166
+, "Volkswagen|ID.7": 126
+, "Volvo|EX40": 77
+, "Volvo|EX30": 76
+, "Audi|Q6 e-tron": 68
+, "Mercedes-Benz|EQB": 65
+, "Audi|Q4 e-tron": 54
+, "Kia|EV3": 49
+, "BMW|i4": 43
+, "Mercedes-Benz|EQA": 43
+, "BMW|i5": 40
+, "Hyundai|Ioniq 5": 37
+, "Porsche|Macan Electric": 37
+, "Volvo|EC40": 32
+, "BMW|iX1": 25
+, "Ford|Explorer EV": 25
+, "Hyundai|Kona Electric": 25
+, "BYD|Seal": 24
+, "Mercedes-Benz|EQE": 19
+, "Kia|EV6": 17
+, "Cupra|Tavascan": 14
+, "Renault|Scénic E-Tech": 14
+, "Volkswagen|ID.3": 13
+, "BMW|iX2": 12
+, "Nissan|Ariya": 12
+, "Porsche|Taycan": 12
+, "BMW|iX": 11
+, "Kia|EV9": 9
+, "Toyota|bZ4X": 9
+, "Hyundai|Ioniq 6": 8
+, "Kia|Niro EV": 8
+, "Citroën|ë-C4": 7
+, "Cupra|Born": 7
+, "Peugeot|E-5008": 7
+, "Ford|Capri EV": 6
+, "Ford|Mustang Mach-E": 5
+, "Audi|Q8 e-tron": 4
+, "Mini|Cooper SE": 4
+, "Opel|Astra Electric": 4
+, "Volvo|EX90": 4
+, "BYD|Tang EV": 3
+, "Renault|Megane E-Tech": 3
+, "BYD|Yuan Plus": 2
+, "Ford|E-Transit": 2
+, "Mercedes-Benz|eSprinter": 2
+, "Peugeot|e-2008": 2
+, "Peugeot|e-308": 2
+, "Peugeot|e-Traveller": 2
+, "Tesla|Model S": 2
+, "Opel|other": 3
+, "BMW|other": 2
+, "Peugeot|other": 2
+, "other": 264
+});
