@@ -5618,3 +5618,61 @@ db.insert(db.countries.FR, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 848
 , "other": 12169
 });
+
+db.insert(db.countries.FR, "2025-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/02/Immatriculations-VPN_Janv2025.pdf",
+{ "Peugeot": 19284
+, "Renault": 17726
+, "Toyota": 10497
+, "Dacia": 9975
+, "Citroën": 9234
+, "Volkswagen": 7443
+, "BMW": 4164
+, "Hyundai": 3426
+, "Audi": 3227
+, "Ford": 2931
+, "Škoda": 2848
+, "Opel": 2798
+, "Kia": 2496
+, "Fiat": 1726
+, "Suzuki": 1698
+, "Nissan": 1560
+, "MG": 1539
+, "Mini": 1352
+, "Mercedes-Benz": 1209
+, "Tesla": 1141
+, "Seat": 1121
+, "Cupra": 1054
+, "Jeep": 801
+, "Volvo": 465
+, "Mazda": 394
+, "BYD": 366
+, "Honda": 341
+, "Porsche": 279
+, "Smart": 134
+, "Mitsubishi": 86
+, "other": 3358
+});
+
+db.insert(db.countries.FR, "2025-01", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/02/Immatriculations-mensuelles-par-energie_Janvier-2025.pdf, https://cleantechnica.com/2025/02/04/evs-take-21-6-share-in-france-renault-5-back-in-the-lead/",
+{ "Renault|5 E-Tech": 2813
+, "Citroën|ë-C3": 1548
+, "Renault|Scénic E-Tech": 1177
+, "Peugeot|e-208": 1103
+, "Dacia|Spring": 955
+, "Peugeot|E-3008": 762
+, "Renault|Megane E-Tech": 679
+, "Tesla|Model Y": 640
+, "Mini|Cooper SE": 568
+, "Audi|Q4 e-tron": 529
+, "Tesla|Model 3": 486
+, "Fiat|500e": 400
+, "Volkswagen|ID.3": 398
+, "Peugeot|e-2008": 394
+, "Volkswagen|ID.4": 366
+, "BMW|iX1": 353
+, "Škoda|Enyaq": 296
+, "Kia|EV3": 263
+, "Hyundai|Kona Electric": 248
+, "Jeep|Avenger EV": 236
+, "other": 5709
+});
