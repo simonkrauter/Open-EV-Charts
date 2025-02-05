@@ -4985,7 +4985,7 @@ db.insert(db.countries.FR, "2024-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3275
 });
 
-db.insert(db.countries.FR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/02/barometre-avere-colombus-janvier-2024-2.pdf",
+db.insert(db.countries.FR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/02/06/evs-take-25-0-share-in-france-peugeot-e-208-leads/",
 { "Peugeot|e-208": 2178
 , "Dacia|Spring": 1937
 , "Tesla|Model 3": 1623
@@ -4996,7 +4996,17 @@ db.insert(db.countries.FR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Twingo E-Tech": 620
 , "Kia|Niro EV": 511
 , "BMW|iX1": 467
-, "other": 7824
+, "Fiat|600e": 445
+, "Mini|Cooper SE": 423
+, "Hyundai|Kona Electric": 367
+, "Jeep|Avenger EV": 345
+, "BYD|Yuan Plus": 328
+, "Citroën|ë-C4": 308
+, "Volvo|EX30": 307
+, "Renault|Zoe": 274
+, "Škoda|Enyaq": 253
+, "Kia|EV6": 241
+, "other": 4533
 });
 
 db.insert(db.countries.FR, "2024-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/02/Immatriculations-VPN_Fev2024.pdf",
@@ -5035,7 +5045,7 @@ db.insert(db.countries.FR, "2024-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3275
 });
 
-db.insert(db.countries.FR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/03/barometre-avere-colombus-fevrier-2024-2.pdf",
+db.insert(db.countries.FR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/03/Immatriculations-mensuelles-par-energie_Fevrier-2024.pdf, https://cleantechnica.com/2024/03/09/evs-at-26-3-share-in-france-peugeot-e-208-leading/",
 { "Peugeot|e-208": 4132
 , "Fiat|500e": 1990
 , "Tesla|Model Y": 1982
@@ -5046,7 +5056,17 @@ db.insert(db.countries.FR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 1010
 , "Renault|Twingo E-Tech": 996
 , "Volvo|EX30": 770
-, "other": 9589
+, "Dacia|Spring": 768
+, "Kia|Niro EV": 650
+, "Fiat|600e": 520
+, "Škoda|Enyaq": 410
+, "Peugeot|e-2008": 398
+, "Jeep|Avenger EV": 382
+, "Opel|Corsa-e": 371
+, "Hyundai|Kona Electric": 358
+, "Mercedes-Benz|EQA": 339
+, "Renault|Zoe": 307
+, "other": 5085
 });
 
 db.insert(db.countries.FR, "2024-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/03/Immatriculations-VPN_Mars2024.pdf",
@@ -5085,7 +5105,7 @@ db.insert(db.countries.FR, "2024-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3701
 });
 
-db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/04/barometre-avere-colombus-mars-2024-1.pdf",
+db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/04/Immatriculations-mensuelles-par-energie_Mars-2024.pdf, https://cleantechnica.com/2024/04/08/evs-take-27-9-share-in-france-the-peugeot-e-208-is-still-on-top/",
 { "Peugeot|e-208": 3767
 , "Tesla|Model Y": 3045
 , "Fiat|500e": 2691
@@ -5096,7 +5116,17 @@ db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX30": 1395
 , "MG|MG4 EV": 1101
 , "BMW|iX1": 1043
-, "other": 12410
+, "Citroën|ë-C4": 1039
+, "Opel|Corsa-e": 837
+, "Fiat|600e": 690
+, "Renault|Zoe": 665
+, "Hyundai|Kona Electric": 635
+, "BMW|i4": 486
+, "Škoda|Enyaq": 431
+, "Jeep|Avenger EV": 385
+, "Opel|Mokka-e": 360
+, "Volvo|EX40": 357
+, "other": 6484
 });
 
 db.insert(db.countries.FR, "2024-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/05/Immatriculations-VPN_Avril2024.pdf",
@@ -5135,7 +5165,7 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2805
 });
 
-db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/05/barometre-avere-colombus-avril-2024.pdf, https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
+db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/05/Immatriculations-mensuelles-par-energie_Avril2024.pdf, https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
 { "Peugeot|e-208": 3185
 , "Peugeot|e-2008": 2164
 , "Renault|Twingo E-Tech": 1842
@@ -5156,7 +5186,7 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX30": 406
 , "MG|MG4 EV": 400
 , "Opel|Mokka-e": 357
-, "other": 4956
+, "other": 4949
 });
 
 db.insert(db.countries.FR, "2024-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/06/Immatriculations-VPN_Mai2024.pdf",
@@ -5195,7 +5225,7 @@ db.insert(db.countries.FR, "2024-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2753
 });
 
-db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/06/barometre-avere-colombus-mai-2024-2.pdf, https://cleantechnica.com/2024/06/09/evs-take-24-1-share-in-france-popular-bevs-hit-by-incentive-stop/",
+db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/06/Immatriculations-mensuelles-par-energie_Mai2024.pdf, https://cleantechnica.com/2024/06/09/evs-take-24-1-share-in-france-popular-bevs-hit-by-incentive-stop/",
 { "Peugeot|e-208": 2662
 , "Renault|Twingo E-Tech": 1688
 , "Renault|Megane E-Tech": 1614
@@ -5216,7 +5246,7 @@ db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 421
 , "MG|MG4 EV": 396
 , "Fiat|600e": 383
-, "other": 5105
+, "other": 5100
 });
 
 db.insert(db.countries.FR, "2024-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/07/Immatriculations-VPN_Juin2024.pdf",
@@ -5255,7 +5285,7 @@ db.insert(db.countries.FR, "2024-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4313
 });
 
-db.insert(db.countries.FR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/07/02/evs-at-24-1-share-in-france-down-yoy-as-trade-barriers-kick-in/",
+db.insert(db.countries.FR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/07/Immatriculations-mensuelles-par-energie_Juin2024.pdf, https://cleantechnica.com/2024/07/02/evs-at-24-1-share-in-france-down-yoy-as-trade-barriers-kick-in/",
 { "Renault|Megane E-Tech": 3257
 , "Tesla|Model Y": 2155
 , "Tesla|Model 3": 1821
@@ -5276,7 +5306,7 @@ db.insert(db.countries.FR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Cupra|Born": 601
 , "Škoda|Enyaq": 575
 , "Peugeot|E-3008": 479
-, "other": 7561
+, "other": 7560
 });
 
 db.insert(db.countries.FR, "2024-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/08/Immatriculations-VPN_Juillet2024.pdf",
@@ -5315,7 +5345,7 @@ db.insert(db.countries.FR, "2024-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2604
 });
 
-db.insert(db.countries.FR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/08/barometre-avere-colombus-juillet-2024.pdf, https://cleantechnica.com/2024/08/04/evs-take-20-8-share-in-france-citroen-e-c3-delayed/",
+db.insert(db.countries.FR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/08/Immatriculations-mensuelles-par-energie_Juillet2024.pdf, https://cleantechnica.com/2024/08/04/evs-take-20-8-share-in-france-citroen-e-c3-delayed/",
 { "Renault|Megane E-Tech": 1419
 , "Tesla|Model Y": 1205
 , "Peugeot|e-208": 1166
@@ -5336,7 +5366,7 @@ db.insert(db.countries.FR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 316
 , "Volkswagen|ID.4": 286
 , "Volvo|EX30": 275
-, "other": 5094
+, "other": 5092
 });
 
 db.insert(db.countries.FR, "2024-08", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/09/Immatriculations-VPN_Aout2024.pdf",
@@ -5375,7 +5405,7 @@ db.insert(db.countries.FR, "2024-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 1686
 });
 
-db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/09/barometre-avere-colombus-aout-2024.pdf, https://cleantechnica.com/2024/09/03/evs-at-22-4-share-in-france-stuck-in-the-slow-lane/",
+db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/09/Immatriculations-mensuelles-par-energie_Aout2024.pdf, https://cleantechnica.com/2024/09/03/evs-at-22-4-share-in-france-stuck-in-the-slow-lane/",
 { "Tesla|Model Y": 2096
 , "Peugeot|e-208": 919
 , "Renault|Scénic E-Tech": 668
@@ -5396,7 +5426,7 @@ db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jeep|Avenger EV": 256
 , "Audi|Q4 e-tron": 216
 , "Fiat|600e": 204
-, "other": 3402
+, "other": 3366
 });
 
 db.insert(db.countries.FR, "2024-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/10/Immatriculations-VPN_Sept2024.pdf",
@@ -5435,7 +5465,7 @@ db.insert(db.countries.FR, "2024-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2888
 });
 
-db.insert(db.countries.FR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/09/barometre-avere-colombus-septembre-2024.pdf, https://cleantechnica.com/2024/10/03/evs-take-27-6-share-in-france-citroen-e-c3-arrives-in-a-rush/",
+db.insert(db.countries.FR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/10/Immatriculations-mensuelles-par-energie_Septembre2024.pdf, https://cleantechnica.com/2024/10/03/evs-take-27-6-share-in-france-citroen-e-c3-arrives-in-a-rush/",
 { "Tesla|Model Y": 4591
 , "Citroën|ë-C3": 3626
 , "Peugeot|e-208": 1420
@@ -5456,7 +5486,7 @@ db.insert(db.countries.FR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 376
 , "Volvo|EX30": 370
 , "Jeep|Avenger EV": 352
-, "other": 6889
+, "other": 6888
 });
 
 db.insert(db.countries.FR, "2024-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/11/Immatriculations-VPN_Oct2024.pdf",
@@ -5495,7 +5525,7 @@ db.insert(db.countries.FR, "2024-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2950
 });
 
-db.insert(db.countries.FR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/11/barometre-avere-colombus-octobre-2024.pdf",
+db.insert(db.countries.FR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/11/Immatriculations-mensuelles-par-energie_Oct2024.pdf, https://cleantechnica.com/2024/11/02/evs-at-23-5-share-in-france-plugins-dip-as-hevs-surge/",
 { "Citroën|ë-C3": 1712
 , "Renault|Scénic E-Tech": 1675
 , "Peugeot|e-208": 1239
@@ -5506,7 +5536,17 @@ db.insert(db.countries.FR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 674
 , "Volkswagen|ID.4": 657
 , "Škoda|Enyaq": 621
-, "other": 10720
+, "Cupra|Born": 600
+, "Peugeot|E-3008": 594
+, "Volkswagen|ID.3": 577
+, "Fiat|500e": 575
+, "Tesla|Model 3": 543
+, "Porsche|Macan Electric": 422
+, "Peugeot|e-2008": 414
+, "MG|MG4 EV": 404
+, "Renault|Twingo E-Tech": 400
+, "BMW|iX2": 338
+, "other": 5853
 });
 
 db.insert(db.countries.FR, "2024-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2024/12/Immatriculations-VPN_Nov2024.pdf",
@@ -5545,7 +5585,7 @@ db.insert(db.countries.FR, "2024-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2706
 });
 
-db.insert(db.countries.FR, "2024-11", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2024/12/barometre-avere-colombus-novembre-2024.pdf, https://cleantechnica.com/2024/12/04/evs-take-26-2-share-in-france-renault-5-alive/",
+db.insert(db.countries.FR, "2024-11", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/12/Immatriculations-mensuelles-par-energie_Nov2024.pdf, https://cleantechnica.com/2024/12/04/evs-take-26-2-share-in-france-renault-5-alive/",
 { "Renault|5 E-Tech": 3316
 , "Tesla|Model Y": 3175
 , "Citroën|ë-C3": 1239
@@ -5605,7 +5645,7 @@ db.insert(db.countries.FR, "2024-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4203
 });
 
-db.insert(db.countries.FR, "2024-12", db.dsTypes.ElectricCarsByModel, "https://www.avere-france.org/wp-content/uploads/2025/01/barometre-avere-colombus-decembre-2024.pdf",
+db.insert(db.countries.FR, "2024-12", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/01/Immatriculations-mensuelles-par-energie_Dec2024.pdf, https://cleantechnica.com/2025/01/09/evs-at-30-1-share-in-france-renault-5-poised-for-the-lead/",
 { "Tesla|Model Y": 4807
 , "Renault|5 E-Tech": 4681
 , "Renault|Scénic E-Tech": 1190
@@ -5616,7 +5656,17 @@ db.insert(db.countries.FR, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 877
 , "MG|MG4 EV": 865
 , "Dacia|Spring": 848
-, "other": 12169
+, "Renault|Megane E-Tech": 803
+, "Volkswagen|ID.3": 696
+, "Volkswagen|ID.4": 657
+, "Peugeot|e-208": 628
+, "Hyundai|Kona Electric": 625
+, "Škoda|Enyaq": 537
+, "BMW|iX2": 474
+, "Porsche|Macan Electric": 429
+, "Audi|Q4 e-tron": 374
+, "BMW|i4": 330
+, "other": 6616
 });
 
 db.insert(db.countries.FR, "2025-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/02/Immatriculations-VPN_Janv2025.pdf",
