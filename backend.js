@@ -430,6 +430,7 @@ var db = {
         param.options[this.xProperties.model] = "By Model";
       param.allOptions = param.options;
       param.defaultOption = this.xProperties.quarter;
+      param.alwaysAddToUrl = true;
       param.showAsFilter = true;
       param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
       param.showAlwaysAsActive = true;
@@ -470,6 +471,7 @@ var db = {
       }
       param.allOptions = param.options;
       param.defaultOption = this.detailLevels.company;
+      param.alwaysAddToUrl = true;
       param.showAlwaysAsActive = true;
       result[param.name] = param;
     }
