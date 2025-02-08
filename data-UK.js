@@ -3929,7 +3929,7 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.sm
 db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2024/12 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 5103
 , "Tesla|Model 3": 3408
-, "Mini|Cooper SE": 2313
+, "Mini|Cooper SE": 2314
 , "Audi|Q4 e-tron": 1482
 , "MG|MG4 EV": 1175
 , "Škoda|Enyaq": 1045
@@ -3937,7 +3937,7 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 975
 , "Volvo|EX30": 927
 , "Ford|Explorer EV": 896
-, "Porsche|Macan Electric": 877
+, "Porsche|Macan Electric": 878
 , "Volkswagen|ID.4": 856
 , "Mercedes-Benz|EQB": 855
 , "Renault|Scénic E-Tech": 822
@@ -3951,11 +3951,11 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 471
 , "Volkswagen|ID.5": 463
 , "BMW|i5": 461
-, "Vauxhall|Combo-e": 445
+, "Vauxhall|Combo-e": 446
 , "BYD|Dolphin": 430
 , "Nissan|Ariya": 400
 , "BMW|iX1": 388
-, "Dacia|Spring": 376
+, "Dacia|Spring": 378
 , "Toyota|bZ4X": 371
 , "BMW|iX": 370
 , "BYD|Seal": 318
@@ -3967,17 +3967,17 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 239
 , "MG|ZS EV": 229
 , "Kia|Niro EV": 225
+, "Vauxhall|Mokka-e": 223
 , "Jaguar|I-Pace": 221
-, "Vauxhall|Mokka-e": 221
 , "BYD|Yuan Plus": 218
 , "Peugeot|E-3008": 185
-, "Vauxhall|Corsa-e": 168
+, "Vauxhall|Corsa-e": 169
 , "Ford|Mustang Mach-E": 163
 , "Mercedes-Benz|EQE": 163
 , "Hyundai|Ioniq 6": 161
 , "Ford|Capri EV": 157
 , "Polestar|3": 151
-, "Peugeot|other": 358
+, "Peugeot|other": 360
 , "Vauxhall|other": 270
 , "Kia|other": 222
 , "BMW|other": 211
@@ -3986,12 +3986,12 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 112
 , "Jeep|other": 102
 , "Nissan|other": 96
-, "Mercedes-Benz|other": 88
+, "Mercedes-Benz|other": 91
 , "Audi|other": 82
-, "Volvo|other": 71
+, "Volvo|other": 72
 , "Mazda|other": 62
 , "Smart|other": 53
 , "Honda|other": 50
 , "Cupra|other": 24
-, "other": 6771
+, "other": 6757
 });
