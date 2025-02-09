@@ -1182,8 +1182,12 @@ var db = {
           category = company;
         else if (chartConfig.xProperty == this.xProperties.brand)
           category = brand;
-        else if (chartConfig.xProperty == this.xProperties.model)
-          category = dataKey;
+        else if (chartConfig.xProperty == this.xProperties.model) {
+          if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
+            category = dataKey + "|other";
+          else
+            category = dataKey;
+        }
         if (category == "other")
           category = "Other";
 
