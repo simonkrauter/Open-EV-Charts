@@ -5241,7 +5241,7 @@ db.insert(db.countries.NO, "2024-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "BYD": 137
 , "Kia": 117
 , "Peugeot": 84
-, "other": 913
+, "other": 917
 });
 
 db.insert(db.countries.NO, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2024",
@@ -5506,7 +5506,7 @@ db.insert(db.countries.NO, "2024-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 173
 , "Kia": 117
 , "Suzuki": 13
-, "other": 2486
+, "other": 1248
 });
 
 db.insert(db.countries.NO, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2024",
