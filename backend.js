@@ -225,7 +225,8 @@ var db = {
   },
 
   xProperties:
-  { "month": "month"
+  { "all": "all"
+  , "month": "month"
   , "monthAvg3": "3-month-avg"
   , "monthAvg12": "12-month-avg"
   , "quarter": "quarter"
@@ -428,11 +429,15 @@ var db = {
         param.options[this.xProperties.brand] = "By Brand";
       if (chartConfig == null || [this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
         param.options[this.xProperties.model] = "By Model";
+      param.options[this.xProperties.all] = "All x-properties";
       param.allOptions = param.options;
+      param.unfoldKey = this.xProperties.all;
+      param.noMultiSelectOptions = [this.xProperties.all];
       param.defaultOption = this.xProperties.quarter;
       param.alwaysAddToUrl = true;
       param.showAsFilter = true;
-      param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
+      param.showInTitle = true;
+      param.allowMultiSelection = true;
       param.showAlwaysAsActive = true;
       param.breakLineAfterFilter = true;
       result[param.name] = param;
@@ -870,7 +875,7 @@ var db = {
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
       chartConfig.country = db.countriesCodes[this.countriesWithData[0]];
 
-    if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty))
+    if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(","))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
     if( this.isCompanyBrandModelXProperty(chartConfig))
@@ -954,6 +959,8 @@ var db = {
 
   needsUnfold: function(chartConfig) {
     if (chartConfig.metric == this.metrics.all || chartConfig.metric.includes(","))
+      return true;
+    if (chartConfig.xProperty == this.xProperties.all || chartConfig.xProperty.includes(","))
       return true;
     if (!this.isTimeXProperty(chartConfig))
       return false;
