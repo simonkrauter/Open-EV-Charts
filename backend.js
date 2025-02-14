@@ -1022,8 +1022,11 @@ var db = {
 
   getDisplayChartConfig: function(originalChartConfig) {
     // set all parameters to a value, which is possible to render
+    if (!this.needsUnfold(originalChartConfig))
+      return originalChartConfig;
     let chartConfig = this.cloneObject(originalChartConfig);
     let params = this.getChartParams(chartConfig);
+    var modified = false;
     for (const i in params) {
       if (!params[i])
         continue;
@@ -1038,9 +1041,14 @@ var db = {
           }
         else
           chartConfig[param.name] = param.defaultOption;
-      } else if (chartConfig[param.name].includes(","))
+        modified = true;
+      } else if (chartConfig[param.name].includes(",")) {
         chartConfig[param.name] = chartConfig[param.name].split(",")[0];
+        modified = true;
+      }
     }
+    if (modified)
+      chartConfig = this.makeChartConfigValid(chartConfig);
     return chartConfig;
   },
 
