@@ -415,11 +415,11 @@ var db = {
       param.name = "xProperty";
       param.title = "X-property";
       param.options = {};
-      param.options[this.xProperties.month] = "By Month";
+      param.options[this.xProperties.month] = "Monthly";
       param.options[this.xProperties.monthAvg3] = "3-month Average";
       param.options[this.xProperties.monthAvg12] = "12-month Average";
-      param.options[this.xProperties.quarter] = "By Quarter";
-      param.options[this.xProperties.year] = "By Year";
+      param.options[this.xProperties.quarter] = "Quarterly";
+      param.options[this.xProperties.year] = "Yearly";
       if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
         param.options[this.xProperties.country] = "By Country";
       if (chartConfig == null || ![this.metrics.ratioElectric].includes(chartConfig.metric))
