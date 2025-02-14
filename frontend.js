@@ -441,7 +441,8 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
 }
 
 function renderChart(chartIndex) {
-  const chartConfig = chartConfigs[chartIndex];
+  const originalChartConfig = chartConfigs[chartIndex];
+  const chartConfig = db.getDisplayChartConfig(originalChartConfig);
   const params = db.getChartParams(chartConfig);
   const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
 
@@ -452,7 +453,7 @@ function renderChart(chartIndex) {
   if (isSingleChart)
     chartDiv.classList.add("single");
 
-  renderChartTitle(chartDiv, chartConfig);
+  renderChartTitle(chartDiv, originalChartConfig);
   renderChartSubTitle(chartDiv, chartConfig);
 
   if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !isScreenshotModeEnabled)

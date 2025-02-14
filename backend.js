@@ -1015,9 +1015,25 @@ var db = {
           newResult.push(newConfig);
         }
       }
-      result = newResult;
+      return newResult;
     }
     return result;
+  },
+
+  getDisplayChartConfig: function(originalChartConfig) {
+    // set all parameters to a value, which is possible to render
+    let chartConfig = this.cloneObject(originalChartConfig);
+    let params = this.getChartParams(chartConfig);
+    for (const i in params) {
+      if (!params[i])
+        continue;
+      const param = params[i];
+      if (chartConfig[param.name] == param.unfoldKey)
+        chartConfig[param.name] = param.defaultOption;
+      else if (chartConfig[param.name].includes(","))
+        chartConfig[param.name] = chartConfig[param.name].split(",")[0];
+    }
+    return chartConfig;
   },
 
   getChartTitle: function(chartConfig, isSingleChart) {
