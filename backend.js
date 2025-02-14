@@ -993,6 +993,8 @@ var db = {
         for (const k in values) {
           if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(values[k]))
             continue;
+          if (param.unfoldKey == values[k])
+            continue;
           if (!unfoldedByParams.includes(param.name))
             unfoldedByParams.push(param.name);
           let newConfig = this.cloneObject(result[j]);
