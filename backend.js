@@ -721,7 +721,7 @@ var db = {
       if (this.isByYear(chartConfig))
         return this.timeSpanOptions.all;
       else if ([this.xProperties.quarter, this.xProperties.monthAvg12].includes(chartConfig.xProperty))
-        return this.timeSpanOptions.last3y;
+        return this.timeSpanOptions.last5y;
       else
         return this.timeSpanOptions.last2y;
     }
