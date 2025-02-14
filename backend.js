@@ -882,7 +882,7 @@ var db = {
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(","))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
-    if( this.isCompanyBrandModelXProperty(chartConfig))
+    if (this.isCompanyBrandModelXProperty(chartConfig))
       chartConfig.detailLevel = "";
     else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
