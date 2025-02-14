@@ -337,6 +337,10 @@ var db = {
     return chartConfig.country.split(",");
   },
 
+  isMultiMetric: function(chartConfig) {
+    return chartConfig.metric == this.metrics.all || (chartConfig.metric && chartConfig.metric.includes(","));
+  },
+
   getCompanies: function(chartConfig) {
     if (chartConfig.company == null)
       return [];
@@ -958,7 +962,7 @@ var db = {
   },
 
   needsUnfold: function(chartConfig) {
-    if (chartConfig.metric == this.metrics.all || chartConfig.metric.includes(","))
+    if (this.isMultiMetric(chartConfig))
       return true;
     if (chartConfig.xProperty == this.xProperties.all || chartConfig.xProperty.includes(","))
       return true;
@@ -1739,7 +1743,7 @@ var db = {
   isBarChartAllowed: function(chartConfig) {
     if (chartConfig == null)
       return true;
-    if (chartConfig.metric == this.metrics.all)
+    if (this.isMultiMetric(chartConfig))
       return true;
     if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.detailLevel == this.detailLevels.total && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
       return false;
