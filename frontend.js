@@ -334,7 +334,7 @@ function updateDropdownState(paramName, dropdown, textSpan, overlay) {
   const selectedKeys = selectedKey.split(",");
 
   // Update 'active' state
-  if (selectedKey != param.defaultOption || param.showAlwaysAsActive)
+  if (selectedKey != param.unfoldKey && (selectedKey != param.defaultOption || param.showAlwaysAsActive))
     dropdown.classList.add("active");
   else
     dropdown.classList.remove("active");
