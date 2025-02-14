@@ -1028,9 +1028,17 @@ var db = {
       if (!params[i])
         continue;
       const param = params[i];
-      if (chartConfig[param.name] == param.unfoldKey)
-        chartConfig[param.name] = param.defaultOption;
-      else if (chartConfig[param.name].includes(","))
+      if (chartConfig[param.name] == param.unfoldKey) {
+        if (param.defaultOption == param.unfoldKey)
+          for (const value in param.options) {
+            if (value == param.unfoldKey || (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value)))
+              continue;
+            chartConfig[param.name] = value;
+            break
+          }
+        else
+          chartConfig[param.name] = param.defaultOption;
+      } else if (chartConfig[param.name].includes(","))
         chartConfig[param.name] = chartConfig[param.name].split(",")[0];
     }
     return chartConfig;
