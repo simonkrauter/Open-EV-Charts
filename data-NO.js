@@ -5806,7 +5806,7 @@ db.insert(db.countries.NO, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 233
 , "Hyundai|Kona Electric": 216
 , "Ford|Explorer EV": 180
-, "Hyundai|Ioniq 5": 154
+, "Hyundai|Ioniq 5": 155
 , "BYD|Sealion 07 EV": 137
 , "Mercedes-Benz|EQE": 135
 , "Kia|EV3": 125
@@ -5856,7 +5856,7 @@ db.insert(db.countries.NO, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|other": 6
 , "Smart|other": 6
 , "Volkswagen|other": 6
-, "other": 1077
+, "other": 1076
 });
 
 
