@@ -120,11 +120,11 @@ function renderCharts() {
     maxVisibleCharts = 6;
 
   for (const chartIndex in chartConfigs) {
-    renderChart(chartIndex);
-    if (chartIndex == maxVisibleCharts - 1 && !isShowAllChartsEnabled) {
+    if (chartIndex == maxVisibleCharts && !isShowAllChartsEnabled) {
       addShowAllChartsButton();
       break;
     }
+    renderChart(chartIndex);
   }
 }
 
