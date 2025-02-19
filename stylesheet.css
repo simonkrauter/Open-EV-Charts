@@ -120,7 +120,7 @@ a.button {
   min-width: 80px;
 }
 
-a.button.active, a.dropdown.active, .horizontalBar {
+a.button.active, a.dropdown.active, .horizontalBar, .githubCorner {
   background: #2A81C9;
 }
 
