@@ -386,6 +386,7 @@ var db = {
       param.showInTitle = true;
       param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
       param.allowMultiSelection = true;
+      param.showAlwaysAsActive = true;
       result[param.name] = param;
     }
 
