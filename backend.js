@@ -1830,6 +1830,13 @@ var db = {
       if (categoriesCount <= this.getNominalMonthCount(chartConfig))
         isTimeSpanExtendedForAverageCalculation = false;
     }
+    let timeSpanExtendedMonthCount;
+    if (isTimeSpanExtendedForAverageCalculation) {
+      if (chartConfig.xProperty == this.xProperties.monthAvg3)
+        timeSpanExtendedMonthCount = 3;
+      else
+        timeSpanExtendedMonthCount = 12;
+    }
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
@@ -1852,9 +1859,9 @@ var db = {
         let categoryIndex = i;
         // Skip first 12 months which were included for calculation of trailing average
         if (isTimeSpanExtendedForAverageCalculation) {
-          if (i < 12)
+          if (i < timeSpanExtendedMonthCount)
             continue;
-          categoryIndex = i - 12;
+          categoryIndex = i - timeSpanExtendedMonthCount;
         }
 
         // Add value to total series
@@ -1919,7 +1926,7 @@ var db = {
 
     // Remove additional categories which were included for calculation of trailing average
     if (isTimeSpanExtendedForAverageCalculation)
-      result.categories.splice(0, 12);
+      result.categories.splice(0, timeSpanExtendedMonthCount);
   },
 
   queryChartData_calculateAverageValue: function(chartConfig, rawValue, averageCalculationList) {
