@@ -253,6 +253,8 @@ a.button.removeButton {
   font-size: 200%;
   font-weight: bold;
   vertical-align: top;
+  position: absolute;
+  right: 0;
 }
 
 a.button.removeButton:hover {
@@ -261,14 +263,6 @@ a.button.removeButton:hover {
 
 a.button.removeButton:after {
   content: "\00d7";
-}
-
-.filters a.button.removeButton {
-  padding-top: 6px;
-}
-
-.button.removeButton > i {
-  padding: 5px;
 }
 
 .filters > div:not(.showAllOptions) > a.button.extendedOption:not(.active) {
@@ -311,11 +305,6 @@ a.button.removeButton:after {
 
 canvas {
   margin:0 auto;
-}
-
-.chartTile .removeButton {
-  position: absolute;
-  right: 0;
 }
 
 div:not(.chartTile) > .chartTitle {
