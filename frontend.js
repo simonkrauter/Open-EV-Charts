@@ -506,7 +506,9 @@ function renderChartTitle(chartDiv, chartConfig) {
     titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title));
 
   if (!isSingleChart) {
-    let removeButton = createRemoveButton();
+    let removeButton = createButton();
+    removeButton.classList.add("removeButton");
+    removeButton.title = "Remove";
     chartDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartRemoveClick);
   }
@@ -665,13 +667,6 @@ function createButton() {
   let button = createLink();
   button.classList.add("button");
   return button;
-}
-
-function createRemoveButton() {
-  let removeButton = createButton();
-  removeButton.classList.add("removeButton");
-  removeButton.title = "Remove";
-  return removeButton;
 }
 
 function formatValue(chartConfig, value) {
