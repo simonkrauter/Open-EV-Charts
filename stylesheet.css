@@ -303,6 +303,10 @@ a.button.removeButton:after {
   min-width: 300px;
 }
 
+th, td, .hints {
+  border: 1px solid #BABABA;
+}
+
 canvas {
   margin:0 auto;
 }
@@ -335,7 +339,6 @@ div:not(.chartTile) > .chartTitle {
   color: #474747;
   padding: 3px 5px;
   text-align: left;
-  border: 1px solid #BABABA;
   border-radius: 2px;
   margin: 5px;
   overflow: hidden;
@@ -393,7 +396,6 @@ table {
 }
 
 th, td {
-  border: 1px solid #BABABA;
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 3px;
