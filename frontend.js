@@ -606,40 +606,23 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
 function chartRemoveClick(event) {
   event.preventDefault();
 
-  const params = db.getChartParams();
-  let currentParam;
-  for (const i in params) {
-    const param = params[i];
-    if (param.unfoldKey && chartSetConfig[param.name] == param.unfoldKey) {
-      currentParam = param;
-      break;
-    }
-  }
-  if (currentParam == null) {
-    for (const i in params) {
-      const param = params[i];
-      if (param.allowMultiSelection && chartSetConfig[param.name].includes(",")) {
-        currentParam = param;
-        break;
-      }
-    }
-  }
-  if (currentParam == null) // should never happen
+  let unfoldParam = db.getUnfoldParam();
+  if (unfoldParam == null) // should never happen
     return;
 
   const chartDiv = event.target.parentNode;
   const chartConfig = chartConfigs[chartDiv.dataChartIndex];
-  const valueToRemove = chartConfig[currentParam.name];
+  const valueToRemove = chartConfig[unfoldParam.name];
 
   let newValues = [];
   for (const i in chartConfigs) {
     const chartConfig = chartConfigs[i];
-    const value = chartConfig[currentParam.name];
+    const value = chartConfig[unfoldParam.name];
     if (value != valueToRemove && !newValues.includes(value))
       newValues.push(value);
   }
 
-  chartSetConfig[currentParam.name] = newValues.join(",");
+  chartSetConfig[unfoldParam.name] = newValues.join(",");
   navigateToHash(db.encodeChartConfig(chartSetConfig));
 }
 
