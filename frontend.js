@@ -45,6 +45,9 @@ homeLink.addEventListener("click", function(event) {
 });
 
 const maxHintsHeight = 75;
+const tableFlagSizeFactor = 1.2;
+const multiTitleFlagSizeFactor = 1.15;
+const singleTitleFlagSizeFactor = 1.3;
 
 var filtersDiv;
 var chartsDiv;
@@ -117,7 +120,7 @@ function renderCharts() {
   // Prevent displaying of too many charts at once
   let maxVisibleCharts = 4;
   if (!isMobileScreenSize())
-    maxVisibleCharts = 6;
+    maxVisibleCharts = 9;
 
   for (const chartIndex in chartConfigs) {
     if (chartIndex == maxVisibleCharts && !isShowAllChartsEnabled) {
@@ -307,7 +310,7 @@ function renderDropdownContent(param, dropdown) {
     }
     let optionText = param.allOptions[optionKey];
     if (param.name == "country")
-      optionElem.appendChild(createCountryFlagContainer(optionKey, optionText, false, true));
+      optionElem.appendChild(createCountryFlagContainer(optionKey, optionText, false));
     else
       optionElem.appendChild(document.createTextNode(optionText));
     optionElem.addEventListener("click", function(event) {
@@ -345,7 +348,7 @@ function updateDropdownState(paramName, dropdown, textSpan, overlay) {
   if (param.name == "country") {
     for (const optionKey in param.options) {
       if (selectedKeys.includes(optionKey)) {
-        textSpan.appendChild(createCountryFlagContainer(optionKey, "", false, true));
+        textSpan.appendChild(createCountryFlagContainer(optionKey, "", false));
         if (selectedKeys.length == 1 || !db.countries[optionKey])
           selectedOptionTexts.push(param.options[optionKey]);
       }
@@ -445,8 +448,18 @@ function renderChart(chartIndex) {
   const chartConfig = db.getDisplayChartConfig(originalChartConfig);
   const params = db.getChartParams(chartConfig);
   const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
+  const hasData = chartData.series.length > 0;
 
-  const chartDiv = document.createElement("DIV");
+  let chartDiv;
+  if (isSingleChart || !hasData)
+    chartDiv = document.createElement("DIV");
+  else {
+    chartDiv = createLink(db.encodeChartConfig(originalChartConfig));
+    if (chartConfig != originalChartConfig)
+      chartDiv.title = "Click to view charts";
+    else
+      chartDiv.title = "Click to view chart";
+  }
   chartsDiv.appendChild(chartDiv);
   chartDiv.dataChartIndex = chartIndex;
   chartDiv.classList.add("chartTile");
@@ -459,16 +472,19 @@ function renderChart(chartIndex) {
   if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !isScreenshotModeEnabled)
     renderChartTabButtons(chartDiv);
 
-  if (chartData.series.length == 0) {
+  if (!hasData) {
     const div = document.createElement("DIV");
     chartDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data available"));
     div.classList.add("noData");
+    setChartSize(div, false);
   } else {
     if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
       renderHints(chartDiv, chartConfig, chartData);
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
+      if (chartConfig != originalChartConfig)
+        renderChartTitle3dFrames(chartDiv);
       if (isSingleChart && !isScreenshotModeEnabled)
         addScreenshotModeButton(chartDiv);
     } else if (chartConfig.view == db.views.table)
@@ -488,22 +504,35 @@ function renderChart(chartIndex) {
   }
 }
 
-function renderChartTitle(chartDiv, chartConfig) {
-  let titleElem;
-  if (isSingleChart)
-    titleElem = document.createElement("DIV");
-  else {
-    titleElem = createLink(db.encodeChartConfig(chartConfig));
-    titleElem.title = "Show only this chart (bigger)";
+function renderChartTitle3dFrames(chartDiv) {
+  for (let i = 0; i < 2; i++) {
+    let div = document.createElement("DIV");
+    chartDiv.appendChild(div);
+    div.classList.add("chartTile");
+    div.style.position = "absolute";
+    div.style.width = chartDiv.offsetWidth + "px";
+    div.style.height = chartDiv.offsetHeight + "px";
+    div.style.top = ((i * 5) - 7.5) + "px";
+    div.style.left = ((i * 5) - 7.5) + "px";
+    div.style.zIndex = -i - 1;
+    div.style.opacity = (100 - (i + 1) * 15) + "%";
   }
+}
+
+function renderChartTitle(chartDiv, chartConfig) {
+  let titleElem = document.createElement("DIV");
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
 
   const title = db.getChartTitle(chartConfig, isSingleChart);
   if (db.isMultiCountry(chartConfig))
     titleElem.appendChild(document.createTextNode(title));
-  else
-    titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title));
+  else {
+    if (isSingleChart)
+      titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, singleTitleFlagSizeFactor));
+    else
+      titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, multiTitleFlagSizeFactor));
+  }
 
   if (!isSingleChart) {
     let removeButton = createButton();
@@ -671,7 +700,6 @@ function setGlobalChartOptions() {
   Chart.defaults.color = bodyStyle.color;
   Chart.defaults.font.family = bodyStyle.fontFamily;
   Chart.defaults.animation.duration = 0;
-  Chart.defaults.plugins.title.font.size = 20;
   Chart.defaults.plugins.legend.position = "bottom";
   Chart.defaults.plugins.legend.labels.boxWidth = 12;
   Chart.defaults.plugins.legend.labels.usePointStyle = true;
@@ -722,7 +750,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           text: db.getChartTitle(chartConfig)
         },
         legend: {
-          display: chartData.series.length > 1 || chartData.series[0].name != "Value"
+          display: isSingleChart && (chartData.series.length > 1 || chartData.series[0].name != "Value")
         },
         tooltip: {
           callbacks: {
@@ -747,6 +775,14 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     },
     plugins: [ChartDataLabels]
   };
+
+  if (!isSingleChart) {
+    chartOptions.options.hover = {mode: null};
+    chartOptions.options.plugins.tooltip.enabled = false;
+    Chart.defaults.font.size = 11;
+  } else {
+    Chart.defaults.font.size = 12;
+  }
 
   if (chartConfig.view == db.views.lineChart) {
     chartOptions.type = "line";
@@ -796,11 +832,10 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   return new Chart(canvas.getContext('2d'), chartOptions);
 }
 
-function setChartSize(element) {
+function setChartSize(element, hasData = true) {
   const heightRatio = 0.6;
-  const minWidth = 380;
-  const minHeight = 280;
-  const maxWidthMultiChart = 550;
+  const minWidth = 280;
+  const maxWidthMultiChart = 380;
   let heightOffset;
   if (isScreenshotModeEnabled) {
     heightOffset = 150;
@@ -822,9 +857,10 @@ function setChartSize(element) {
   if (isScreenshotModeEnabled)
     wantedWith = Math.min(wantedWith, 1000);
   const width = Math.max(wantedWith, minWidth);
-  const height = Math.max(width * heightRatio, minHeight);
+  const height = Math.max(width * heightRatio, minWidth * heightRatio);
   element.style.width = width + "px";
-  element.style.height = height + "px";
+  if (hasData)
+    element.style.height = height + "px";
 }
 
 function addScreenshotModeButton(parent) {
@@ -841,6 +877,8 @@ function addScreenshotModeButton(parent) {
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
+  if (chartData.series.length == 1)
+    return [colorSet[colorSet.length - 1]];
   let result = [];
   // assign static colors
   let seriesIndexesWithDynamicColor = [];
@@ -1174,7 +1212,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     containerElement = document.createElement("SPAN");
   cell.appendChild(containerElement);
   if (addFlag)
-    containerElement.appendChild(createCountryFlagContainer(countryCode, db.formatSeriesNameAndCategory(text), true));
+    containerElement.appendChild(createCountryFlagContainer(countryCode, db.formatSeriesNameAndCategory(text), true, tableFlagSizeFactor));
   else
     containerElement.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
 }
@@ -1285,12 +1323,9 @@ function getCountryCodeForCompanyOrBrand(companyOrBrand) {
   return countryCode;
 }
 
-function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = false, small = false) {
-  let sizeFactor = 1.0;
-  if (small)
-    sizeFactor = 0.833;
-  const countryFlagWidth = 24 * sizeFactor;
-  const countryFlagHeight = 16 * sizeFactor;
+function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = false, sizeFactor = 1.0) {
+  const countryFlagWidth = 20 * sizeFactor;
+  const countryFlagHeight = 13.3 * sizeFactor;
   const countryFlagSpriteColumns = 5;
   const countryId = db.countries[countryCode];
 
@@ -1454,7 +1489,7 @@ function renderCountriesStatusPage() {
         newChartConfig.xProperty = db.xProperties.month;
       const a = createLink(db.encodeChartConfig(newChartConfig));
       td.appendChild(a);
-      a.appendChild(createCountryFlagContainer(countryCode, countryName, true));
+      a.appendChild(createCountryFlagContainer(countryCode, countryName, true, tableFlagSizeFactor));
     }
     // available data
     {
@@ -1579,7 +1614,7 @@ function renderCompaniesStatusPage() {
       const countryCode = getCountryCodeForCompanyOrBrand(company);
       const a = createLink(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": company}));
       companyTd.appendChild(a);
-      a.appendChild(createCountryFlagContainer(countryCode, company, true));
+      a.appendChild(createCountryFlagContainer(countryCode, company, true, tableFlagSizeFactor));
     }
     // brands
     if (company in companyGroups) {
@@ -1598,7 +1633,7 @@ function renderCompaniesStatusPage() {
         newChartConfig.detailLevel = db.detailLevels.brand;
         const a = createLink(db.encodeChartConfig(newChartConfig));
         td.appendChild(a);
-        a.appendChild(createCountryFlagContainer(countryCode, brand, true));
+        a.appendChild(createCountryFlagContainer(countryCode, brand, true, tableFlagSizeFactor));
         addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
         addAnnualSalesTd(tr, false, brand);
         addAnnualSalesTd(tr, true, brand);
@@ -1653,7 +1688,7 @@ function renderModelsStatusPage() {
       const countryCode = getCountryCodeForCompanyOrBrand(brand);
       const span = document.createElement("SPAN");
       brandTd.appendChild(span);
-      span.appendChild(createCountryFlagContainer(countryCode, brand, true));
+      span.appendChild(createCountryFlagContainer(countryCode, brand, true, tableFlagSizeFactor));
     }
     // models
     brandTd.rowSpan = models.length;

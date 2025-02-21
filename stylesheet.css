@@ -5,9 +5,12 @@ body {
   padding: 0;
   padding-bottom: 4px;
   text-align: center;
-  background: white;
   color: #232323;
   min-width: 450px;
+}
+
+body, .chartTile {
+  background: white;
 }
 
 body.screenshotMode {
@@ -235,30 +238,26 @@ a.dropdown > .overlay > label.disabled {
 
 .filters {
   text-align: center;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   font-size: 92%;
 }
 
 a.button.removeButton {
   background: none;
-  padding: 5px;
+  padding: 11px;
   padding-top: 0;
-  margin-top: -3px;
+  margin-top: -5px;
   margin-right: 0;
   min-width: 0;
-  color: #8C8C8C;
-  opacity: 0.8;
+  color: #B2B2B2;
   font-size: 200%;
-  font-weight: bold;
   vertical-align: top;
   position: absolute;
   right: 0;
 }
 
 a.button.removeButton:hover {
-  opacity: 1;
+  filter: brightness(80%);
 }
 
 a.button.removeButton:after {
@@ -286,6 +285,7 @@ a.button.removeButton:after {
   display: inline-block;
   vertical-align: top;
   position: relative;
+  box-sizing: border-box;
 }
 
 .screenshotMode .chartTile {
@@ -297,29 +297,34 @@ a.button.removeButton:after {
 }
 
 .chartTile:not(.single) {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 20px;
+  margin: 12px;
   min-width: 300px;
+  padding: 10px;
+  padding-top: 7px;
 }
 
-th, td, .hints {
-  border: 1px solid #BABABA;
+th, td, .hints, .chartTile:not(.single) {
+  border: 1px solid #C1C1C1;
+}
+
+.hints, .chartTile:not(.single) {
+  border-radius: 2px;
 }
 
 canvas {
   margin:0 auto;
 }
 
-div:not(.chartTile) > .chartTitle {
-  margin-top: 6px;
-}
-
 .chartTitle {
   display: inline-block;
-  padding: 3px;
-  font-size: 120%;
+  font-size: 115%;
   white-space: nowrap;
+}
+
+.chartTile.single > .chartTitle, div:not(.chartTile) > .chartTitle {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 140%;
 }
 
 .tabButtons > * {
@@ -339,7 +344,6 @@ div:not(.chartTile) > .chartTitle {
   color: #474747;
   padding: 3px 5px;
   text-align: left;
-  border-radius: 2px;
   margin: 5px;
   overflow: hidden;
   position: relative;
@@ -456,8 +460,7 @@ a.screenshotModeButton {
 .noData {
   color: grey;
   font-style: italic;
-  font-size: 110%;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .flag {
