@@ -2107,15 +2107,8 @@ var db = {
         let sum;
         if (isSumPerSeries)
           sum = sums[seriesName];
-        else if (this.isSingleOrCombinedCountry(chartConfig))
+        else
           sum = sums[category];
-        else {
-          // sum per series and category
-          const rows = datasetsReference.seriesRows[seriesName];
-          if (rows != null)
-            sum = this.getValueOrDefault(rows[category], 0);
-        }
-
         if (sum != 0)
           seriesRows[seriesName][category] = value / sum * 100;
       }
