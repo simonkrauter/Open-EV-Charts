@@ -473,16 +473,3 @@ a.screenshotModeButton {
 .dropdown .flag.nonEmpty {
   outline: none;
 }
-
-span.newFeatureIndicator {
-  position: absolute;
-  color: yellow;
-  font-size: 9px;
-  right: 0;
-  top: -11px;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-.chartTile span.newFeatureIndicator {
-  color: #7F00FF;
-}
