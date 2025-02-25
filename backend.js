@@ -993,8 +993,8 @@ var db = {
     return values;
   },
 
-  getUnfoldParam: function() {
-    const params = this.getChartParams();
+  getUnfoldParam: function(chartConfig = null) {
+    const params = this.getChartParams(chartConfig);
     for (const i in params) {
       const unfoldParam = params[i];
       let values = this.getUnfoldValues(unfoldParam);
@@ -1007,7 +1007,7 @@ var db = {
     if (!this.needsUnfold(chartConfig))
       return [chartConfig];
 
-    let unfoldParam = db.getUnfoldParam();
+    let unfoldParam = db.getUnfoldParam(chartConfig);
     if (unfoldParam == null)
       return [chartConfig];
 
