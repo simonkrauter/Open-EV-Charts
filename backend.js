@@ -661,10 +661,11 @@ var db = {
       param.name = "unfoldCountries";
       param.title = "Unfold Countries";
       param.options = {};
-      param.options[this.unfoldCountries.yes] = this.unfoldCountries.yes;
-      param.options[this.unfoldCountries.no] = this.unfoldCountries.no;
+      param.options[this.unfoldCountries.yes] = "Unfold Countries";
+      param.options[this.unfoldCountries.no] = "Compare Countries";
       param.allOptions = param.options;
       param.defaultOption = Object.keys(param.options)[0];
+      param.showInTitle = chartConfig == null || (chartConfig.unfoldCountries == this.unfoldCountries.no && chartConfig.metric == this.metrics.all);
       result[param.name] = param;
     }
 
@@ -1094,7 +1095,7 @@ var db = {
         continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
-      if (!isSingleChart && !chartConfig.unfoldedByParams.includes(param.name))
+      if (!isSingleChart && !chartConfig.unfoldedByParams.includes(param.name) && param.name != "unfoldCountries")
         continue;
       let text = param.options[value];
       if (param.name == "metric") {

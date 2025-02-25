@@ -80,7 +80,6 @@ function navigate(renderOnlyCharts = false) {
     let config = db.decodeChartConfigString("");
     config.xProperty = db.xProperties.monthAvg12;
     config.detailLevel = db.detailLevels.total;
-    config.unfoldedByParams.push("xProperty"); // make title visible
     config = db.makeChartConfigValid(config);
     chartConfigs.unshift(config);
   }
