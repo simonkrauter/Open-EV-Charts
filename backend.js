@@ -989,7 +989,7 @@ var db = {
     if (!this.isTimeXProperty(chartConfig))
       return false;
     let count = 0;
-    if (this.isMultiCountry(chartConfig) && !this.isCombinedCountry(chartConfig))
+    if (!this.isSingleOrCombinedCountry(chartConfig))
       count++;
     if (chartConfig.detailLevel == this.detailLevels.company && (chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1))
       count++;
