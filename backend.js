@@ -1818,6 +1818,8 @@ var db = {
     if ([this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       if (this.isCompanyBrandModelXProperty(chartConfig))
         return false;
+      if (!this.isSingleOrCombinedCountry(chartConfig))
+        return true;
       if (chartConfig.detailLevel == this.detailLevels.company)
         return chartConfig.company == this.companyOptions.all;
       if (chartConfig.detailLevel == this.detailLevels.brand)
