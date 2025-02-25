@@ -877,8 +877,6 @@ function addScreenshotModeButton(parent) {
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
-  if (chartData.series.length == 1)
-    return [colorSet[colorSet.length - 1]];
   let result = [];
   // assign static colors
   let seriesIndexesWithDynamicColor = [];
