@@ -5,16 +5,12 @@ body {
   padding: 0;
   padding-bottom: 4px;
   text-align: center;
-  color: #232323;
   min-width: 450px;
 }
 
 body, .chartTile {
   background: white;
-}
-
-body.screenshotMode {
-  background: #262626;
+  color: black;
 }
 
 body.showFocus *:not(input[type=text]):focus {
@@ -47,7 +43,7 @@ input[type=checkbox] {
   accent-color: black;
 }
 
-.title, .filters, th, .screenshotModeBanner {
+.title, .filters, th, .screenshotModeBanner, body.screenshotMode {
   background: #262626;
   color: white;
 }
@@ -340,8 +336,6 @@ canvas {
 
 .hints {
   display: inline-block;
-  font-size: 85%;
-  color: #474747;
   padding: 3px 5px;
   text-align: left;
   margin: 5px;
@@ -349,6 +343,11 @@ canvas {
   position: relative;
   background: white;
   box-sizing: border-box;
+}
+
+.hints, .sourceUrl {
+  color: #474747;
+  font-size: 85%;
 }
 
 .hints > a {
@@ -433,7 +432,6 @@ tr:hover {
 }
 
 a.export {
-  color: #232323;
   font-size: 80%;
   cursor: pointer;
   margin-left: 5px;
@@ -448,8 +446,6 @@ a.screenshotModeButton {
 
 .sourceUrl {
   margin-top: 5px;
-  color: #474747;
-  font-size: 85%;
 }
 
 #tableExportContainer textarea {
