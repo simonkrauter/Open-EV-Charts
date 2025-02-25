@@ -382,7 +382,7 @@ var db = {
       param.options = this.cloneObject(param.allOptions);
       if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
         delete param.options[this.countryOptions.combine];
-      if (chartConfig == null || chartConfig.unfoldCountries != this.unfoldCountries.no)
+      if (chartConfig == null || chartConfig.unfoldCountries != this.unfoldCountries.no || !this.isMultiMetric(chartConfig))
         param.unfoldKey = this.countryOptions.all;
       param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
       param.noMultiSelectOptions = [this.countryOptions.all];
