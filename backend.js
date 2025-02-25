@@ -412,7 +412,7 @@ var db = {
       param.allOptions = param.options;
       param.unfoldKey = this.metrics.all;
       param.noMultiSelectOptions = [this.metrics.all];
-      param.defaultOption = this.metrics.ratioElectric;
+      param.defaultOption = this.metrics.all;
       param.alwaysAddToUrl = true;
       param.showInTitle = true;
       param.showAsFilter = true;
@@ -477,8 +477,12 @@ var db = {
       param.title = "Detail level";
       param.showAsFilter = chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig);
       param.options = {};
-      if (chartConfig == null || ![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
+      if (chartConfig == null || ![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric) || !this.isSingleOrCombinedCountry(chartConfig)) {
         param.options[this.detailLevels.total] = "Total";
+        param.defaultOption = this.detailLevels.total;
+      } else {
+        param.defaultOption = this.detailLevels.company;
+      }
       if (chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig)) {
         param.options[this.detailLevels.company] = "Split Companies";
         param.options[this.detailLevels.brand] = "Split Brands";
@@ -486,9 +490,6 @@ var db = {
           param.options[this.detailLevels.model] = "Split Models";
       }
       param.allOptions = param.options;
-      param.defaultOption = this.detailLevels.company;
-      param.alwaysAddToUrl = true;
-      param.showAlwaysAsActive = true;
       result[param.name] = param;
     }
 

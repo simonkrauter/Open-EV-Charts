@@ -78,8 +78,9 @@ function navigate(renderOnlyCharts = false) {
   if (currentHash == "") {
     // Add an extra chart on the home page
     let config = db.decodeChartConfigString("");
+    config.metric = db.metrics.all;
     config.xProperty = db.xProperties.monthAvg12;
-    config.detailLevel = db.detailLevels.total;
+    config.unfoldCountries = db.unfoldCountries.no;
     config = db.makeChartConfigValid(config);
     chartConfigs.unshift(config);
   }
