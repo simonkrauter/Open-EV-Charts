@@ -854,8 +854,6 @@ var db = {
       params = this.getChartParams(result);
     }
 
-    result.unfoldedByParams = [];
-
     return this.makeChartConfigValid(result);
   },
 
@@ -1033,18 +1031,15 @@ var db = {
 
     let values = this.getUnfoldValues(unfoldParam);
     let results = [];
-    let unfoldedByParams = [];
     for (const k in values) {
       if (unfoldParam.excludeOnUnfoldAndTitle && unfoldParam.excludeOnUnfoldAndTitle.includes(values[k]))
         continue;
       if (unfoldParam.unfoldKey == values[k])
         continue;
-      if (!unfoldedByParams.includes(unfoldParam.name))
-        unfoldedByParams.push(unfoldParam.name);
       let newConfig = this.cloneObject(chartConfig);
       newConfig[unfoldParam.name] = values[k];
       newConfig = this.makeChartConfigValid(newConfig);
-      newConfig.unfoldedByParams = unfoldedByParams;
+      newConfig.unfoldParamName = unfoldParam.name;
       results.push(newConfig);
     }
 
@@ -1095,7 +1090,7 @@ var db = {
         continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
-      if (!isSingleChart && !chartConfig.unfoldedByParams.includes(param.name) && param.name != "unfoldCountries")
+      if (!isSingleChart && chartConfig.unfoldParamName != param.name && param.name != "unfoldCountries")
         continue;
       let text = param.options[value];
       if (param.name == "metric") {
