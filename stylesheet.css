@@ -456,7 +456,8 @@ a.screenshotModeButton {
 .noData {
   color: grey;
   font-style: italic;
-  padding-top: 8px;
+  padding-top: 16px;
+  padding-bottom: 10px;
 }
 
 .flag {
