@@ -1385,7 +1385,7 @@ var db = {
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
     if (!this.isByMonth(chartConfig) && !this.isByQuarter(chartConfig))
       return;
-    if ( ![this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
+    if (![this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
       return;
     if (categories.length == 0)
       return;
