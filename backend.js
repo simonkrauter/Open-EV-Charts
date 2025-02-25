@@ -281,6 +281,11 @@ var db = {
   , "sources": "sources"
   },
 
+  unfoldCountries:
+  { "yes": "unfold-countries"
+  , "no": "compare-countries"
+  },
+
   maxSeriesOptions:
   { "limit5": {mostRelevant: true, count: 5}
   , "limit10": {mostRelevant: true, count: 10}
@@ -377,7 +382,8 @@ var db = {
       param.options = this.cloneObject(param.allOptions);
       if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
         delete param.options[this.countryOptions.combine];
-      param.unfoldKey = this.countryOptions.all;
+      if (chartConfig == null || chartConfig.unfoldCountries != this.unfoldCountries.no)
+        param.unfoldKey = this.countryOptions.all;
       param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
       param.noMultiSelectOptions = [this.countryOptions.all];
       param.disableUnfoldOption = this.countryOptions.combine;
@@ -644,6 +650,19 @@ var db = {
         param.options[this.views.lineChart] = "Line Chart";
       param.options[this.views.table] = "Table";
       param.options[this.views.sources] = "Sources";
+      param.allOptions = param.options;
+      param.defaultOption = Object.keys(param.options)[0];
+      result[param.name] = param;
+    }
+
+    // unfold countries
+    {
+      let param = {};
+      param.name = "unfoldCountries";
+      param.title = "Unfold Countries";
+      param.options = {};
+      param.options[this.unfoldCountries.yes] = this.unfoldCountries.yes;
+      param.options[this.unfoldCountries.no] = this.unfoldCountries.no;
       param.allOptions = param.options;
       param.defaultOption = Object.keys(param.options)[0];
       result[param.name] = param;
