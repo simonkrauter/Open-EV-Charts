@@ -477,7 +477,7 @@ var db = {
       param.title = "Detail level";
       param.showAsFilter = chartConfig == null || !this.isCompanyBrandModelXProperty(chartConfig);
       param.options = {};
-      if (chartConfig == null || ![this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric) || !this.isSingleOrCombinedCountry(chartConfig)) {
+      if (chartConfig == null || (chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) || !this.isSingleOrCombinedCountry(chartConfig)))) {
         param.options[this.detailLevels.total] = "Total";
         param.defaultOption = this.detailLevels.total;
       } else {
