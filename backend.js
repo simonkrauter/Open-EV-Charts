@@ -899,6 +899,14 @@ var db = {
     if (chartConfig.model == null)
       chartConfig.model = params.model.defaultOption;
 
+    // remove company group when switching to detailLevel total
+    if (chartConfig.detailLevel == this.detailLevels.total)
+      chartConfig.company = this.companyOptions.all;
+
+    // remove brand when switching to detailLevel total or company
+    if ([this.detailLevels.total, this.detailLevels.company].includes(chartConfig.detailLevel))
+      chartConfig.brand = this.brandOptions.all;
+
     // replace company groups by their brands when switching from detailLevel.company to detailLevel.brand
     const companies = this.getCompanies(chartConfig);
     if (chartConfig.detailLevel == this.detailLevels.brand && companies.length > 1) {
