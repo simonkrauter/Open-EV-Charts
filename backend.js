@@ -325,7 +325,7 @@ var db = {
   },
 
   isMultiCountry: function(chartConfig) {
-    return chartConfig.country == this.countryOptions.all || chartConfig.country.includes(",");
+    return chartConfig.country == this.countryOptions.all || (chartConfig.country && chartConfig.country.includes(","));
   },
 
   isCombinedCountry: function(chartConfig) {
