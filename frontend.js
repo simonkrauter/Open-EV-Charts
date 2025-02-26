@@ -706,7 +706,6 @@ function setGlobalChartOptions() {
   Chart.defaults.plugins.legend.labels.pointStyle = "rect";
   Chart.defaults.plugins.datalabels = {};
   Chart.defaults.plugins.datalabels.color = "white";
-  Chart.defaults.elements.line.borderWidth = 3.5;
   Chart.defaults.elements.line.tension = 0.2;
 }
 
@@ -776,12 +775,16 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     plugins: [ChartDataLabels]
   };
 
-  if (!isSingleChart) {
+  if (isSingleChart) {
+    Chart.defaults.font.size = 12;
+    Chart.defaults.elements.line.borderWidth = 3.5;
+    Chart.defaults.elements.point.radius = 3;
+  } else {
     chartOptions.options.hover = {mode: null};
     chartOptions.options.plugins.tooltip.enabled = false;
     Chart.defaults.font.size = 11;
-  } else {
-    Chart.defaults.font.size = 12;
+    Chart.defaults.elements.line.borderWidth = 2;
+    Chart.defaults.elements.point.radius = 1.5;
   }
 
   if (chartConfig.view == db.views.lineChart) {
