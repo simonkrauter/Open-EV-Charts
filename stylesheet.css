@@ -6,11 +6,11 @@ body {
   padding-bottom: 4px;
   text-align: center;
   min-width: 450px;
+  color: black;
 }
 
 body, .chartTile {
   background: white;
-  color: black;
 }
 
 body.showFocus *:not(input[type=text]):focus {
