@@ -281,11 +281,6 @@ var db = {
   , "sources": "sources"
   },
 
-  unfoldCountries:
-  { "yes": "unfold-countries"
-  , "no": "compare-countries"
-  },
-
   maxSeriesOptions:
   { "limit5": {mostRelevant: true, count: 5}
   , "limit10": {mostRelevant: true, count: 10}
@@ -382,7 +377,7 @@ var db = {
       param.options = this.cloneObject(param.allOptions);
       if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
         delete param.options[this.countryOptions.combine];
-      if (chartConfig == null || chartConfig.unfoldCountries != this.unfoldCountries.no || !this.isMultiMetric(chartConfig))
+      if (chartConfig == null || chartConfig.isRegularHomeTile || !this.isMultiMetric(chartConfig))
         param.unfoldKey = this.countryOptions.all;
       param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
       param.noMultiSelectOptions = [this.countryOptions.all];
@@ -657,20 +652,6 @@ var db = {
       result[param.name] = param;
     }
 
-    // unfold countries
-    {
-      let param = {};
-      param.name = "unfoldCountries";
-      param.title = "Unfold Countries";
-      param.options = {};
-      param.options[this.unfoldCountries.yes] = "Unfold Countries";
-      param.options[this.unfoldCountries.no] = "Compare Countries";
-      param.allOptions = param.options;
-      param.defaultOption = Object.keys(param.options)[0];
-      param.showInTitle = chartConfig == null || (chartConfig.unfoldCountries == this.unfoldCountries.no && chartConfig.metric == this.metrics.all);
-      result[param.name] = param;
-    }
-
     return result;
   },
 
@@ -810,7 +791,10 @@ var db = {
 
   decodeChartConfigString: function(chartConfigString) {
     let parts = [];
-    if (chartConfigString != "") {
+    let result = {};
+    if (chartConfigString == "") {
+      result.isRegularHomeTile = true;
+    } else {
       const partsRaw = chartConfigString.split(":");
       // process strings for backward compatibility
       for (const i in partsRaw) {
@@ -822,7 +806,6 @@ var db = {
         parts.push(part);
       }
     }
-    let result = {};
     let params = this.getChartParams();
     for (const i in params) {
       if (!params[i])
@@ -1092,7 +1075,7 @@ var db = {
         continue;
       if (param.excludeOnUnfoldAndTitle && param.excludeOnUnfoldAndTitle.includes(value))
         continue;
-      if (!isSingleChart && chartConfig.unfoldParamName != param.name && param.name != "unfoldCountries")
+      if (!isSingleChart && chartConfig.unfoldParamName != param.name)
         continue;
       let text = param.options[value];
       if (param.name == "metric") {
@@ -1119,6 +1102,8 @@ var db = {
       else
         parts.push(text);
     }
+    if (parts.length == 0 && !this.isSingleOrCombinedCountry(chartConfig))
+      parts.push("Compare Countries");
     return parts.join(" – ");
   },
 

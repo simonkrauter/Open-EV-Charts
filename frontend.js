@@ -77,10 +77,9 @@ function navigate(renderOnlyCharts = false) {
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   if (currentHash == "") {
     // Add an extra chart on the home page
-    let config = db.decodeChartConfigString("");
+    let config = {};
     config.metric = db.metrics.all;
     config.xProperty = db.xProperties.monthAvg12;
-    config.unfoldCountries = db.unfoldCountries.no;
     config = db.makeChartConfigValid(config);
     chartConfigs.unshift(config);
   }
