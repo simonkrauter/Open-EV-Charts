@@ -634,7 +634,7 @@ function renderChartTabButton(tabButtonsDiv, key, title) {
 function chartRemoveClick(event) {
   event.preventDefault();
 
-  let unfoldParam = db.getUnfoldParam();
+  let unfoldParam = db.getUnfoldParam(chartSetConfig);
   if (unfoldParam == null) // should never happen
     return;
 

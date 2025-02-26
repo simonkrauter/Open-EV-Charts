@@ -993,12 +993,12 @@ var db = {
     return count > 1;
   },
 
-  getUnfoldValues: function(unfoldParam) {
+  getUnfoldValues: function(unfoldParam, chartConfig) {
     let values = [];
-    if (unfoldParam.unfoldKey && chartSetConfig[unfoldParam.name] == unfoldParam.unfoldKey)
+    if (unfoldParam.unfoldKey && chartConfig[unfoldParam.name] == unfoldParam.unfoldKey)
       values = Object.keys(unfoldParam.options);
-    else if (unfoldParam.allowMultiSelection && chartSetConfig[unfoldParam.name] != null) {
-      values = chartSetConfig[unfoldParam.name].split(",");
+    else if (unfoldParam.allowMultiSelection && chartConfig[unfoldParam.name] != null) {
+      values = chartConfig[unfoldParam.name].split(",");
       if (unfoldParam.disableUnfoldOption != null && values.includes(unfoldParam.disableUnfoldOption))
         return;
     }
@@ -1009,7 +1009,7 @@ var db = {
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
       const unfoldParam = params[i];
-      let values = this.getUnfoldValues(unfoldParam);
+      let values = this.getUnfoldValues(unfoldParam, chartConfig);
       if (values.length > 1)
         return unfoldParam;
     }
@@ -1023,7 +1023,7 @@ var db = {
     if (unfoldParam == null)
       return [chartConfig];
 
-    let values = this.getUnfoldValues(unfoldParam);
+    let values = this.getUnfoldValues(unfoldParam, chartConfig);
     let results = [];
     for (const k in values) {
       if (unfoldParam.excludeOnUnfoldAndTitle && unfoldParam.excludeOnUnfoldAndTitle.includes(values[k]))
