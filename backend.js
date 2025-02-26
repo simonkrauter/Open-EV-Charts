@@ -406,7 +406,8 @@ var db = {
       param.options[this.metrics.salesElectric] = "Absolute EV Sales";
       param.options[this.metrics.shareElectric] = "EV Market Split";
       param.options[this.metrics.salesAll] = "All Cars Sales";
-      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
+      if (chartConfig == null || this.isSingleOrCombinedCountry(chartConfig))
+        param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
       param.options[this.metrics.shareAll] = "All Cars Market Split";
       param.options[this.metrics.all] = "All Metrics";
       param.allOptions = param.options;
