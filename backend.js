@@ -974,79 +974,79 @@ var db = {
     }
   },
 
-  needsUnfold: function(chartConfig) {
-    if (this.isMultiMetric(chartConfig))
+  needsUnfold: function(chartSetConfig) {
+    if (this.isMultiMetric(chartSetConfig))
       return true;
-    if (chartConfig.xProperty == this.xProperties.all || chartConfig.xProperty.includes(","))
+    if (chartSetConfig.xProperty == this.xProperties.all || chartSetConfig.xProperty.includes(","))
       return true;
-    if (!this.isTimeXProperty(chartConfig))
+    if (!this.isTimeXProperty(chartSetConfig))
       return false;
     let count = 0;
-    if (!this.isSingleOrCombinedCountry(chartConfig))
+    if (!this.isSingleOrCombinedCountry(chartSetConfig))
       count++;
-    if (chartConfig.detailLevel == this.detailLevels.company && (chartConfig.company == this.companyOptions.all || this.getCompanies(chartConfig).length > 1))
+    if (chartSetConfig.detailLevel == this.detailLevels.company && (chartSetConfig.company == this.companyOptions.all || this.getCompanies(chartSetConfig).length > 1))
       count++;
-    if (chartConfig.detailLevel == this.detailLevels.brand && (chartConfig.brand == this.brandOptions.all || this.getBrands(chartConfig).length > 1))
+    if (chartSetConfig.detailLevel == this.detailLevels.brand && (chartSetConfig.brand == this.brandOptions.all || this.getBrands(chartSetConfig).length > 1))
       count++;
-    if (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.model == this.modelOptions.all || this.getModels(chartConfig).length > 1))
+    if (chartSetConfig.detailLevel == this.detailLevels.model && (chartSetConfig.model == this.modelOptions.all || this.getModels(chartSetConfig).length > 1))
       count++;
     return count > 1;
   },
 
-  getUnfoldValues: function(unfoldParam, chartConfig) {
+  getUnfoldValues: function(unfoldParam, chartSetConfig) {
     let values = [];
-    if (unfoldParam.unfoldKey && chartConfig[unfoldParam.name] == unfoldParam.unfoldKey)
+    if (unfoldParam.unfoldKey && chartSetConfig[unfoldParam.name] == unfoldParam.unfoldKey)
       values = Object.keys(unfoldParam.options);
-    else if (unfoldParam.allowMultiSelection && chartConfig[unfoldParam.name] != null) {
-      values = chartConfig[unfoldParam.name].split(",");
+    else if (unfoldParam.allowMultiSelection && chartSetConfig[unfoldParam.name] != null) {
+      values = chartSetConfig[unfoldParam.name].split(",");
       if (unfoldParam.disableUnfoldOption != null && values.includes(unfoldParam.disableUnfoldOption))
         return;
     }
     return values;
   },
 
-  getUnfoldParam: function(chartConfig = null) {
-    const params = this.getChartParams(chartConfig);
+  getUnfoldParam: function(chartSetConfig = null) {
+    const params = this.getChartParams(chartSetConfig);
     for (const i in params) {
       const unfoldParam = params[i];
-      let values = this.getUnfoldValues(unfoldParam, chartConfig);
+      let values = this.getUnfoldValues(unfoldParam, chartSetConfig);
       if (values.length > 1)
         return unfoldParam;
     }
   },
 
-  unfoldChartConfig: function(chartConfig) {
-    if (!this.needsUnfold(chartConfig))
-      return [chartConfig];
+  unfoldChartConfig: function(chartSetConfig) {
+    if (!this.needsUnfold(chartSetConfig))
+      return [chartSetConfig];
 
-    let unfoldParam = db.getUnfoldParam(chartConfig);
+    let unfoldParam = db.getUnfoldParam(chartSetConfig);
     if (unfoldParam == null)
-      return [chartConfig];
+      return [chartSetConfig];
 
-    let values = this.getUnfoldValues(unfoldParam, chartConfig);
-    let results = [];
+    let values = this.getUnfoldValues(unfoldParam, chartSetConfig);
+    let chartConfigs = [];
     for (const k in values) {
       if (unfoldParam.excludeOnUnfoldAndTitle && unfoldParam.excludeOnUnfoldAndTitle.includes(values[k]))
         continue;
       if (unfoldParam.unfoldKey == values[k])
         continue;
-      let newConfig = this.cloneObject(chartConfig);
+      let newConfig = this.cloneObject(chartSetConfig);
       newConfig[unfoldParam.name] = values[k];
       newConfig = this.makeChartConfigValid(newConfig);
       newConfig.unfoldParamName = unfoldParam.name;
-      results.push(newConfig);
+      chartConfigs.push(newConfig);
     }
 
-    if (chartConfig.isRegularHomeTile) {
+    if (chartSetConfig.isRegularHomeTile) {
       // Add an extra chart on the home page
       let config = {};
       config.metric = db.metrics.all;
       config.xProperty = db.xProperties.monthAvg12;
       config = db.makeChartConfigValid(config);
-      results.unshift(config);
+      chartConfigs.unshift(config);
     }
 
-    return results;
+    return chartConfigs;
   },
 
   getDisplayChartConfig: function(originalChartConfig) {
