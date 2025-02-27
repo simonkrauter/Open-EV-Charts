@@ -372,7 +372,7 @@ var db = {
       param.allOptions[this.countryOptions.combine] = "Combine Countries";
       for (const i in this.countriesWithData) {
         const id = this.countriesWithData[i];
-        param.allOptions[db.countriesCodes[id]] = this.countryNames[id];
+        param.allOptions[this.countriesCodes[id]] = this.countryNames[id];
       }
       param.options = this.cloneObject(param.allOptions);
       if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
@@ -818,7 +818,7 @@ var db = {
         const partNormalized = this.normalizeSearchString(part);
         let optionsKeyMatched = null;
         for (const key in param.options) {
-          if (this.normalizeSearchString(db.urlEncode(key)) == partNormalized) {
+          if (this.normalizeSearchString(this.urlEncode(key)) == partNormalized) {
             optionsKeyMatched = key;
             delete parts[j]; // avoid using a part twice
             break;
@@ -882,7 +882,7 @@ var db = {
       chartConfig.xProperty = this.xProperties.brand;
 
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
-      chartConfig.country = db.countriesCodes[this.countriesWithData[0]];
+      chartConfig.country = this.countriesCodes[this.countriesWithData[0]];
 
     if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(","))
       chartConfig.xProperty = params.xProperty.defaultOption;
@@ -1019,7 +1019,7 @@ var db = {
     if (!this.needsUnfold(chartSetConfig))
       return [chartSetConfig];
 
-    let unfoldParam = db.getUnfoldParam(chartSetConfig);
+    let unfoldParam = this.getUnfoldParam(chartSetConfig);
     if (unfoldParam == null)
       return [chartSetConfig];
 
@@ -1040,9 +1040,9 @@ var db = {
     if (chartSetConfig.isRegularHomeTile) {
       // Add an extra chart on the home page
       let config = {};
-      config.metric = db.metrics.all;
-      config.xProperty = db.xProperties.monthAvg12;
-      config = db.makeChartConfigValid(config);
+      config.metric = this.metrics.all;
+      config.xProperty = this.xProperties.monthAvg12;
+      config = this.makeChartConfigValid(config);
       chartConfigs.unshift(config);
     }
 
@@ -1167,7 +1167,7 @@ var db = {
       for (const i in countryValues) {
         const code = countryValues[i];
         const id = this.countries[code];
-        if (id && db.countriesWithData.includes(id))
+        if (id && this.countriesWithData.includes(id))
           filterCountryIds.push(id);
       }
     }
