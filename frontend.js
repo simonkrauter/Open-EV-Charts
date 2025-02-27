@@ -53,7 +53,6 @@ var filtersDiv;
 var chartsDiv;
 var currentHash;
 var isScreenshotModeEnabled;
-var isShowAllChartsEnabled;
 var isSingleChart;
 var chartSetConfig;
 var chartConfigs;
@@ -71,7 +70,6 @@ navigate();
 function navigate(renderOnlyCharts = false) {
   currentHash = decodeURIComponent(location.hash.substr(1));
   isScreenshotModeEnabled = false;
-  isShowAllChartsEnabled = false;
   chartSetConfig = db.decodeChartConfigString(currentHash);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
   isSingleChart = chartConfigs.length == 1;
@@ -102,23 +100,32 @@ function logVisit() {
   }
 }
 
+function getMaxVisibleCharts() {
+  if (isMobileScreenSize())
+    return 4;
+  else
+    return 9;
+}
+
 function renderCharts() {
-  // Render the current charts
+  // (Re-)render all charts until limit
 
   chartsDiv.innerHTML = "";
-
-  // Prevent displaying of too many charts at once
-  let maxVisibleCharts = 4;
-  if (!isMobileScreenSize())
-    maxVisibleCharts = 9;
-
   for (const chartIndex in chartConfigs) {
-    if (chartIndex == maxVisibleCharts && !isShowAllChartsEnabled) {
+    if (chartIndex == getMaxVisibleCharts()) {
+      // Prevent displaying of too many charts at once
       addShowAllChartsButton();
       break;
     }
     renderChart(chartIndex);
   }
+}
+
+function renderRemainingCharts() {
+  // Render all charts after limit
+
+  for (let chartIndex = getMaxVisibleCharts(); chartIndex < chartConfigs.length; chartIndex++)
+    renderChart(chartIndex);
 }
 
 function renderPage() {
@@ -650,11 +657,11 @@ function addShowAllChartsButton() {
   chartsDiv.appendChild(div);
   let button = createButton();
   div.appendChild(button);
-  button.appendChild(document.createTextNode("Show All Charts"));
+  button.appendChild(document.createTextNode("More"));
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    isShowAllChartsEnabled = true;
-    renderPage();
+    button.style.display = "none";
+    renderRemainingCharts();
   });
 }
 
