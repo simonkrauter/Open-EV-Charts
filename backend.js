@@ -1000,7 +1000,7 @@ var db = {
     else if (unfoldParam.allowMultiSelection && chartSetConfig[unfoldParam.name] != null) {
       values = chartSetConfig[unfoldParam.name].split(",");
       if (unfoldParam.disableUnfoldOption != null && values.includes(unfoldParam.disableUnfoldOption))
-        return;
+        return [];
     }
     return values;
   },
