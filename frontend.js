@@ -111,6 +111,9 @@ function renderCharts() {
   // (Re-)render all charts until limit
 
   chartsDiv.innerHTML = "";
+
+  renderMultiChartsHint();
+
   for (const chartIndex in chartConfigs) {
     if (chartIndex == getMaxVisibleCharts()) {
       // Prevent displaying of too many charts at once
@@ -126,6 +129,18 @@ function renderRemainingCharts() {
 
   for (let chartIndex = getMaxVisibleCharts(); chartIndex < chartConfigs.length; chartIndex++)
     renderChart(chartIndex);
+}
+
+function renderMultiChartsHint() {
+  if (isSingleChart)
+    return;
+  let unfoldParam = db.getUnfoldParam(chartSetConfig);
+  if (!unfoldParam)
+    return;
+  const div = document.createElement("DIV");
+  div.classList.add("multiChartsHint");
+  div.appendChild(document.createTextNode("Select " + unfoldParam.title));
+  chartsDiv.appendChild(div);
 }
 
 function renderPage() {

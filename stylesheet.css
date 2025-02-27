@@ -277,6 +277,10 @@ a.button.removeButton:after {
   text-align: left;
 }
 
+.multiChartsHint {
+  padding-top: 10px;
+}
+
 .chartTile {
   display: inline-block;
   vertical-align: top;
@@ -345,7 +349,7 @@ canvas {
   box-sizing: border-box;
 }
 
-.hints, .sourceUrl {
+.hints, .sourceUrl, .multiChartsHint {
   color: #474747;
   font-size: 85%;
 }
