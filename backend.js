@@ -1037,6 +1037,15 @@ var db = {
       results.push(newConfig);
     }
 
+    if (chartConfig.isRegularHomeTile) {
+      // Add an extra chart on the home page
+      let config = {};
+      config.metric = db.metrics.all;
+      config.xProperty = db.xProperties.monthAvg12;
+      config = db.makeChartConfigValid(config);
+      results.unshift(config);
+    }
+
     return results;
   },
 

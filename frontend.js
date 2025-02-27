@@ -73,16 +73,7 @@ function navigate(renderOnlyCharts = false) {
   isScreenshotModeEnabled = false;
   isShowAllChartsEnabled = false;
   chartSetConfig = db.decodeChartConfigString(currentHash);
-  chartSetConfig = db.makeChartConfigValid(chartSetConfig);
   chartConfigs = db.unfoldChartConfig(chartSetConfig);
-  if (currentHash == "") {
-    // Add an extra chart on the home page
-    let config = {};
-    config.metric = db.metrics.all;
-    config.xProperty = db.xProperties.monthAvg12;
-    config = db.makeChartConfigValid(config);
-    chartConfigs.unshift(config);
-  }
   isSingleChart = chartConfigs.length == 1;
   sortByName = false;
   isHintsDivExpanded = false;
