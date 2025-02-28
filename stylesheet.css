@@ -1,3 +1,28 @@
+:root {
+  --clBaseFill: white;
+  --clBaseText: black;
+  --clBaseLinkText: #0067CE;
+  --clBaseMinorText: #474747;
+  --clBaseFaultText: red;
+  --clBaseLine: #B2B2B2;
+  --clFocusLine: #EDDD00;
+  --clHoverFill: #FFF696;
+  --clAltFill: #262626;
+  --clAltText: white;
+  --clAltLinkLine: #BCBCBC;
+  --clButtonFill: #565656;
+  --clButtonText: white;
+  --clButtonHoverFill: #6B6B6B;
+  --clButtonActiveFill: #2A81C9;
+  --clButtonActiveText: white;
+  --clButtonActiveHoverFill: #4899DB;
+  --clDropdownItemHoverFill: #1C74AF;
+  --clDropdownItemSelectedLine: #E83835;
+  --clDropdownItemDisabledText: gray;
+  --clFlagLine: #DEDEDE;
+  --dimBorderRadius: 2px;
+}
+
 body {
   font-family: Noto Sans, Segoe UI, Helvetica, sans-serif;
   font-size: 92%;
@@ -9,15 +34,15 @@ body {
 }
 
 body, .chartTile {
-  background: white;
+  background: var(--clBaseFill);
 }
 
 body, *:not(a).chartTile {
-  color: black;
+  color: var(--clBaseText);
 }
 
 body.showFocus *:focus, input[type=text]:focus, textarea:focus {
-  outline: 3px solid #EDDD00;
+  outline: 3px solid var(--clFocusLine);
 }
 
 input, textarea {
@@ -26,13 +51,13 @@ input, textarea {
 }
 
 input[type=text], textarea {
-  border: 1px solid gray;
+  border: 1px solid var(--clBaseLine);
   outline: none;
   padding: 3px;
 }
 
 a.button, a.dropdown {
-  border-radius: 2px;
+  border-radius: var(--dimBorderRadius);
 }
 
 input[type=checkbox] {
@@ -40,12 +65,12 @@ input[type=checkbox] {
   vertical-align: middle;
   bottom: 1px;
   margin-right: 5px;
-  accent-color: black;
+  accent-color: var(--clBaseText);
 }
 
 .header, .filters, th, .screenshotModeBanner, body.screenshotMode {
-  background: #262626;
-  color: white;
+  background: var(--clAltFill);
+  color: var(--clAltText);
 }
 
 .header {
@@ -73,7 +98,7 @@ input[type=checkbox] {
 }
 
 a, a:visited {
-  color: #0067CE;
+  color: var(--clBaseLinkText);
   text-decoration: none;
   cursor: pointer;
 }
@@ -95,8 +120,8 @@ a.button, a.dropdown {
   margin-bottom: 6px;
   margin-left: 6px;
   margin-right: 6px;
-  background: #565656;
-  color: white;
+  background: var(--clButtonFill);
+  color: var(--clButtonText);
   user-select: none;
   padding-right: 10px;
   padding-top: 5px;
@@ -119,7 +144,7 @@ a.button {
 }
 
 a.button.active, a.dropdown.active, .horizontalBar, .githubCorner {
-  background: #2A81C9;
+  background: var(--clButtonActiveFill);
 }
 
 a.button:hover, a.dropdown:hover, a.dropdown > .overlay > *:hover {
@@ -127,16 +152,16 @@ a.button:hover, a.dropdown:hover, a.dropdown > .overlay > *:hover {
 }
 
 a.button:hover, a.dropdown:hover {
-  background: #6B6B6B;
+  background: var(--clButtonHoverFill);
 }
 
 a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened, a.dropdown > .overlay > * {
-  background: #4899DB;
-  color: white;
+  background: var(--clButtonActiveHoverFill);
+  color: var(--clButtonActiveText);
 }
 
 a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus {
-  background: #1C74AF;
+  background: var(--clDropdownItemHoverFill);
   outline: none;
 }
 
@@ -146,11 +171,11 @@ a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus 
 
 .header > div a {
   text-decoration: underline;
-  text-decoration-color: #BCBCBC;
+  text-decoration-color: var(--clAltLinkLine);
 }
 
 .header a:hover {
-  text-decoration-color: white;
+  text-decoration-color: var(--clAltText);
 }
 
 h1 {
@@ -179,7 +204,7 @@ a.dropdown::after {
   right: 9px;
   top: 8px;
   pointer-events: none;
-  border: solid white;
+  border: solid var(--clButtonText);
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -197,7 +222,7 @@ a.dropdown > .overlay {
   margin-top: 5px;
   overflow: auto;
   max-height: 300px;
-  border: 1px solid gray;
+  border: 1px solid var(--clBaseLine);
 }
 
 a.dropdown:not(.opened) > .overlay {
@@ -220,7 +245,7 @@ a.dropdown > .overlay > a {
 }
 
 a.dropdown > .overlay > a.selected {
-  border-color: #E83835;
+  border-color: var(--clDropdownItemSelectedLine);
 }
 
 a.dropdown, a.dropdown > .overlay > * {
@@ -228,7 +253,7 @@ a.dropdown, a.dropdown > .overlay > * {
 }
 
 a.dropdown > .overlay > label.disabled {
-  color: gray;
+  color: var(--clDropdownItemDisabledText);
 }
 
 .filters {
@@ -244,7 +269,7 @@ a.button.removeButton {
   margin-top: -5px;
   margin-right: 0;
   min-width: 0;
-  color: #B2B2B2;
+  color: var(--clBaseLine);
   font-size: 200%;
   vertical-align: top;
   position: absolute;
@@ -302,11 +327,11 @@ a.button.removeButton:after {
 }
 
 th, td, .hints, .chartTile:not(.single) {
-  border: 1px solid #C1C1C1;
+  border: 1px solid var(--clBaseLine);
 }
 
 .hints, .chartTile:not(.single) {
-  border-radius: 2px;
+  border-radius: var(--dimBorderRadius);
 }
 
 canvas {
@@ -347,7 +372,7 @@ canvas {
 }
 
 .hints, .sourceUrl, .multiChartsHint {
-  color: #474747;
+  color: var(--clBaseMinorText);
   font-size: 85%;
 }
 
@@ -364,7 +389,7 @@ canvas {
   left: 0;
   right: 0;
   padding: 2px;
-  background: linear-gradient(transparent, white 70%, white);
+  background: linear-gradient(transparent, var(--clBaseFill) 70%, var(--clBaseFill));
 }
 
 .hints > a > div {
@@ -388,7 +413,7 @@ canvas {
 }
 
 .hints .important, .countriesStatus .outdated {
-  color: red;
+  color: var(--clBaseFaultText);
 }
 
 table {
@@ -420,7 +445,7 @@ td {
 }
 
 tr:hover {
-  background: #FFF696;
+  background: var(--clHoverFill);
 }
 
 .horizontalBar {
@@ -468,7 +493,7 @@ textarea.export {
 }
 .flag.nonEmpty {
   transform: translateY(1.7px);
-  outline: 1px solid #DEDEDE;
+  outline: 1px solid var(--clFlagLine);
 }
 .dropdown .flag.nonEmpty {
   outline: none;
