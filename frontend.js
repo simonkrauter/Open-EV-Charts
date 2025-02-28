@@ -949,34 +949,33 @@ function renderTable(chartConfig, chartDiv, chartData) {
 
   renderTableExportButton(chartDiv, table, "CSV");
   renderTableExportButton(chartDiv, table, "Wikitext");
+  renderTableExport(chartDiv, table);
 }
 
 function renderTableExportButton(chartDiv, table, format) {
-  const containerDivId = "tableExportContainer";
   const exportButton = createLink();
   exportButton.appendChild(document.createTextNode(format));
   exportButton.classList.add("export");
   exportButton.title = "Export table as " + format;
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
-    let containerDiv = document.getElementById(containerDivId);
-    if (containerDiv != null)
-      chartDiv.removeChild(containerDiv);
-    if (currentExportFormat != format) {
-      containerDiv = document.createElement("DIV");
-      containerDiv.id = containerDivId;
-      const textarea = document.createElement("TEXTAREA");
-      containerDiv.appendChild(textarea);
-      const rows = table.childNodes;
-      if (format == "CSV")
-        textarea.value = generateCsv(rows);
-      else
-        textarea.value = generateWikitext(rows);
-      chartDiv.appendChild(containerDiv);
-      currentExportFormat = format;
-    }
+    currentExportFormat = format;
+    renderPage();
   });
   chartDiv.appendChild(exportButton);
+}
+
+function renderTableExport(chartDiv, table) {
+  if (currentExportFormat == null)
+    return;
+  const textarea = document.createElement("TEXTAREA");
+  textarea.classList.add("export");
+  const rows = table.childNodes;
+  if (currentExportFormat == "CSV")
+    textarea.value = generateCsv(rows);
+  else
+    textarea.value = generateWikitext(rows);
+  chartDiv.appendChild(textarea);
 }
 
 function generateCsv(rows) {

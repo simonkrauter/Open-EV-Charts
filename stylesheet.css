@@ -452,7 +452,8 @@ a.screenshotModeButton {
   margin-top: 5px;
 }
 
-#tableExportContainer textarea {
+textarea.export {
+  display: block;
   width: 550px;
   height: 250px;
 }
