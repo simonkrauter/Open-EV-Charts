@@ -6,11 +6,14 @@ body {
   padding-bottom: 4px;
   text-align: center;
   min-width: 450px;
-  color: black;
 }
 
 body, .chartTile {
   background: white;
+}
+
+body, *:not(a).chartTile {
+  color: black;
 }
 
 body.showFocus *:focus, input[type=text]:focus, textarea:focus {
@@ -75,7 +78,7 @@ a, a:visited {
   cursor: pointer;
 }
 
-a:hover {
+a:hover, a.chartTile:hover > div {
   text-decoration: underline;
 }
 
@@ -83,7 +86,6 @@ a:hover {
   display: inline-block;
   padding: 7px;
   margin: 3px;
-  color: white;
   font-size: 110%;
 }
 
@@ -138,7 +140,7 @@ a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus 
   outline: none;
 }
 
-.header a {
+.header a, .screenshotModeBanner a {
   color: inherit;
 }
 
@@ -147,7 +149,7 @@ a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus 
   text-decoration-color: #BCBCBC;
 }
 
-.header > div a:hover {
+.header a:hover {
   text-decoration-color: white;
 }
 
@@ -286,7 +288,6 @@ a.button.removeButton:after {
 }
 
 .screenshotMode .chartTile {
-  background: white;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
@@ -342,7 +343,6 @@ canvas {
   margin: 5px;
   overflow: hidden;
   position: relative;
-  background: white;
   box-sizing: border-box;
 }
 
@@ -364,7 +364,7 @@ canvas {
   left: 0;
   right: 0;
   padding: 2px;
-  background: linear-gradient(rgba(255, 255, 255, 0), white 70%, white);
+  background: linear-gradient(transparent, white 70%, white);
 }
 
 .hints > a > div {
