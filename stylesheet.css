@@ -1,25 +1,25 @@
 :root {
   --clBaseFill: white;
   --clBaseText: black;
-  --clBaseLinkText: #0067CE;
-  --clBaseMinorText: #474747;
+  --clBaseLinkText: hsl(210, 100%, 40%);
+  --clBaseMinorText: hsl(0, 0%, 28%);
   --clBaseFaultText: red;
-  --clBaseLine: #B2B2B2;
-  --clFocusLine: #EDDD00;
-  --clHoverFill: #FFF696;
-  --clAltFill: #262626;
+  --clBaseLine: hsl(0, 0%, 70%);
+  --clFocusLine: hsl(56, 100%, 46%);
+  --clHoverFill: hsl(55, 100%, 79%);
+  --clAltFill: hsl(0, 0%, 15%);
   --clAltText: white;
-  --clAltLinkLine: #BCBCBC;
-  --clButtonFill: #565656;
+  --clAltLinkLine: hsl(0, 0%, 74%);
+  --clButtonFill: hsl(0, 0%, 34%);
   --clButtonText: white;
-  --clButtonHoverFill: #6B6B6B;
-  --clButtonActiveFill: #2A81C9;
+  --clButtonHoverFill: hsl(0, 0%, 42%);
+  --clButtonActiveFill: hsl(207, 65%, 48%);
   --clButtonActiveText: white;
-  --clButtonActiveHoverFill: #4899DB;
-  --clDropdownItemHoverFill: #1C74AF;
-  --clDropdownItemSelectedLine: #E83835;
+  --clButtonActiveHoverFill: hsl(207, 67%, 57%);
+  --clDropdownItemHoverFill: hsl(204, 72%, 40%);
+  --clDropdownItemSelectedLine: hsl(1, 80%, 56%);
   --clDropdownItemDisabledText: gray;
-  --clFlagLine: #DEDEDE;
+  --clFlagLine: hsl(0, 0%, 87%);
   --dimBorderRadius: 2px;
 }
 
