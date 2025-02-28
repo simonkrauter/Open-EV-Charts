@@ -40,32 +40,32 @@ input[type=checkbox] {
   accent-color: black;
 }
 
-.title, .filters, th, .screenshotModeBanner, body.screenshotMode {
+.header, .filters, th, .screenshotModeBanner, body.screenshotMode {
   background: #262626;
   color: white;
 }
 
-.title {
+.header {
   padding-top: 5px;
   padding-bottom: 5px;
   position: relative;
 }
 
-.screenshotMode .title {
+.screenshotMode .header {
   display: none;
 }
 
-.title > div {
+.header > div {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.title > div > * {
+.header > div > * {
   padding-left: 2px;
   padding-right: 2px;
 }
-.title > div > :first-child {
+.header > div > :first-child {
   padding-right: 8px;
 }
 
@@ -138,16 +138,16 @@ a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus 
   outline: none;
 }
 
-.title a {
+.header a {
   color: inherit;
 }
 
-.title > div a {
+.header > div a {
   text-decoration: underline;
   text-decoration-color: #BCBCBC;
 }
 
-.title > div a:hover {
+.header > div a:hover {
   text-decoration-color: white;
 }
 
