@@ -79,6 +79,8 @@ const colorSet =
 , "#FFBB68"
 ];
 
+const otherSeriesColor = "black";
+
 const colorIndexByCompanyGroup =
 { "Volkswagen Group": 1
 , "Renault-Nissan-Mitsubishi": 3

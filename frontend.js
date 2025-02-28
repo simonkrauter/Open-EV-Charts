@@ -898,7 +898,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
     if (seriesName == db.totalSeriesName || seriesName == "Other")
-      result.push("#000000");
+      result.push(otherSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyGroup[seriesName];
       if (colorIndex === undefined)
