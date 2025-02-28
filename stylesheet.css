@@ -13,25 +13,22 @@ body, .chartTile {
   background: white;
 }
 
-body.showFocus *:not(input[type=text]):focus {
+body.showFocus *:focus, input[type=text]:focus, textarea:focus {
   outline: 3px solid #EDDD00;
 }
 
-input {
+input, textarea {
   font-size: inherit;
   font-family: inherit;
 }
 
-input[type=text] {
-  border: 2px solid white;
-}
-
-input[type=text]:focus {
-  border-color: #EDDD00;
+input[type=text], textarea {
+  border: 1px solid gray;
   outline: none;
+  padding: 3px;
 }
 
-input[type=text], a.button, a.dropdown {
+a.button, a.dropdown {
   border-radius: 2px;
 }
 
@@ -456,6 +453,7 @@ textarea.export {
   display: block;
   width: 550px;
   height: 250px;
+  font-size: 80%;
 }
 
 .noData {
