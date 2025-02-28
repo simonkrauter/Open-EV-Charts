@@ -31,13 +31,7 @@ body {
   padding-bottom: 4px;
   text-align: center;
   min-width: 450px;
-}
-
-body, .chartTile {
   background: var(--clBaseFill);
-}
-
-body, *:not(a).chartTile {
   color: var(--clBaseText);
 }
 
@@ -56,10 +50,6 @@ input[type=text], textarea {
   padding: 3px;
 }
 
-a.button, a.dropdown {
-  border-radius: var(--dimBorderRadius);
-}
-
 input[type=checkbox] {
   position: relative;
   vertical-align: middle;
@@ -68,19 +58,22 @@ input[type=checkbox] {
   accent-color: var(--clBaseText);
 }
 
-.header, .filters, th, .screenshotModeBanner, body.screenshotMode {
-  background: var(--clAltFill);
-  color: var(--clAltText);
+a, a:visited {
+  color: var(--clBaseLinkText);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .header {
+  background: var(--clAltFill);
+  color: var(--clAltText);
   padding-top: 5px;
   padding-bottom: 5px;
   position: relative;
-}
-
-.screenshotMode .header {
-  display: none;
 }
 
 .header > div {
@@ -97,39 +90,30 @@ input[type=checkbox] {
   padding-right: 8px;
 }
 
-a, a:visited {
-  color: var(--clBaseLinkText);
-  text-decoration: none;
-  cursor: pointer;
+.header a {
+  color: inherit;
 }
 
-a:hover, a.chartTile:hover > div {
+.header a:hover {
+  text-decoration-color: var(--clAltText);
+}
+
+.header > div a {
   text-decoration: underline;
-}
-
-.screenshotModeBanner > a {
-  display: inline-block;
-  padding: 7px;
-  margin: 3px;
-  font-size: 110%;
+  text-decoration-color: var(--clAltLinkLine);
 }
 
 a.button, a.dropdown {
   display: inline-block;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin: 6px;
   background: var(--clButtonFill);
   color: var(--clButtonText);
   user-select: none;
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-a.button, a.dropdown {
-  padding-left: 10px;
+  border-radius: var(--dimBorderRadius);
 }
 
 @media (min-width: 1000px) {
@@ -147,15 +131,12 @@ a.button.active, a.dropdown.active, .horizontalBar, .githubCorner {
   background: var(--clButtonActiveFill);
 }
 
-a.button:hover, a.dropdown:hover, a.dropdown > .overlay > *:hover {
-  text-decoration: none;
-}
-
 a.button:hover, a.dropdown:hover {
+  text-decoration: none;
   background: var(--clButtonHoverFill);
 }
 
-a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened, a.dropdown > .overlay > * {
+a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened {
   background: var(--clButtonActiveHoverFill);
   color: var(--clButtonActiveText);
 }
@@ -163,19 +144,7 @@ a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened, a.dropdown > 
 a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus {
   background: var(--clDropdownItemHoverFill);
   outline: none;
-}
-
-.header a, .screenshotModeBanner a {
-  color: inherit;
-}
-
-.header > div a {
-  text-decoration: underline;
-  text-decoration-color: var(--clAltLinkLine);
-}
-
-.header a:hover {
-  text-decoration-color: var(--clAltText);
+  text-decoration: none;
 }
 
 h1 {
@@ -230,6 +199,8 @@ a.dropdown:not(.opened) > .overlay {
 }
 
 a.dropdown > .overlay > * {
+  background: var(--clButtonActiveHoverFill);
+  color: var(--clButtonActiveText);
   display: block;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -257,6 +228,8 @@ a.dropdown > .overlay > label.disabled {
 }
 
 .filters {
+  background: var(--clAltFill);
+  color: var(--clAltText);
   text-align: center;
   padding-bottom: 5px;
   font-size: 92%;
@@ -302,21 +275,18 @@ a.button.removeButton:after {
 }
 
 .multiChartsHint {
+  color: var(--clBaseMinorText);
+  font-size: 85%;
   padding-top: 10px;
 }
 
 .chartTile {
   display: inline-block;
+  background: var(--clBaseFill);
+  color: var(--clBaseText);
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
-}
-
-.screenshotMode .chartTile {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .chartTile:not(.single) {
@@ -326,12 +296,21 @@ a.button.removeButton:after {
   padding-top: 7px;
 }
 
-th, td, .hints, .chartTile:not(.single) {
-  border: 1px solid var(--clBaseLine);
+a.chartTile {
+  color: var(--clBaseLinkText);
 }
 
-.hints, .chartTile:not(.single) {
-  border-radius: var(--dimBorderRadius);
+a.chartTile:hover > div {
+  text-decoration: underline;
+}
+
+th {
+  background: var(--clAltFill);
+  color: var(--clAltText);
+}
+
+th, td, .hints, .chartTile:not(.single) {
+  border: 1px solid var(--clBaseLine);
 }
 
 canvas {
@@ -342,6 +321,7 @@ canvas {
   display: inline-block;
   font-size: 115%;
   white-space: nowrap;
+  border-radius: var(--dimBorderRadius);
 }
 
 .chartTile.single > .chartTitle, div:not(.chartTile) > .chartTitle {
@@ -369,10 +349,8 @@ canvas {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-}
-
-.hints, .sourceUrl, .multiChartsHint {
   color: var(--clBaseMinorText);
+  border-radius: var(--dimBorderRadius);
   font-size: 85%;
 }
 
@@ -383,6 +361,7 @@ canvas {
   border-color: inherit;
   padding: 0;
 }
+
 .hints > a.expand {
   position: absolute;
   bottom: 0;
@@ -464,13 +443,39 @@ a.export {
   margin-right: 5px;
 }
 
+.screenshotMode .header {
+  display: none;
+}
+
+.screenshotModeBanner, body.screenshotMode {
+  background: var(--clAltFill);
+  color: var(--clAltText);
+}
+
+.screenshotModeBanner a {
+  display: inline-block;
+  padding: 7px;
+  margin: 3px;
+  font-size: 110%;
+  color: inherit;
+}
+
 a.screenshotModeButton {
   position: absolute;
   right: 0;
   bottom: -15px;
 }
 
+.screenshotMode .chartTile {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .sourceUrl {
+  color: var(--clBaseMinorText);
+  font-size: 85%;
   margin-top: 5px;
 }
 
