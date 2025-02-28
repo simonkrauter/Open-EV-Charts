@@ -747,7 +747,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             }
           },
           grid: {
-            color: "rgba(0, 0, 0, 0.15)"
+            color: "hsl(0, 0%, 85%)"
           },
           border: {
            display: false
