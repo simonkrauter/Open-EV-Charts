@@ -2,11 +2,11 @@
 
 db.finalizeDataLoading();
 
-document.onmousedown = function() {
+document.addEventListener("mousedown", function(event) {
   document.body.classList.remove("showFocus");
-};
+});
 
-document.onkeydown = function(event) {
+document.addEventListener("keydown", function(event) {
   document.body.classList.add("showFocus");
   if (event.key.startsWith("Esc")) {
     if (isScreenshotModeEnabled) {
@@ -16,24 +16,24 @@ document.onkeydown = function(event) {
       closeDropdown();
     }
   }
-};
+});
 
-document.onclick = function(event) {
+document.addEventListener("click", function(event) {
   closeDropdown();
-};
+});
 
 const dynamicContent = document.createElement("DIV");
 document.body.appendChild(dynamicContent);
 
-window.onhashchange = function() {
+window.addEventListener("hashchange", function(event) {
   navigate();
-};
+});
 
-window.onresize = function() {
+window.addEventListener("resize", function(event) {
   if (navigator.userAgentData.mobile)
     return; // ignore resize event on mobile browsers, because they send it on scrolling
   renderPage();
-};
+});
 
 const homeLink = document.getElementById("homeLink");
 homeLink.href = location.pathname + location.search;
