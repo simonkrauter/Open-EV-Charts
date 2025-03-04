@@ -884,7 +884,7 @@ var db = {
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
       chartConfig.country = this.countriesCodes[this.countriesWithData[0]];
 
-    if (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(","))
+    if (!chartConfig.xProperty || (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(",")))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
     if (this.isCompanyBrandModelXProperty(chartConfig))
