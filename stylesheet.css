@@ -73,7 +73,6 @@ a:hover {
   color: var(--clAltText);
   padding-top: 5px;
   padding-bottom: 5px;
-  position: relative;
 }
 
 .header > div {
@@ -255,13 +254,6 @@ a.button.removeButton:hover {
 
 a.button.removeButton:after {
   content: "\00d7";
-}
-
-.filters > div:not(.showAllOptions) > a.button.extendedOption:not(.active) {
-  display: none;
-}
-.filters > div.showAllOptions > a.button.showMore {
-  display: none;
 }
 
 .sources {
