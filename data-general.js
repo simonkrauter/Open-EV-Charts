@@ -81,17 +81,14 @@ const colorSet =
 
 const otherSeriesColor = "black";
 
-const colorIndexByCompanyGroup =
-{ "Volkswagen Group": 1
+const colorIndexByCompanyOrBrand =
+{ "Volkswagen Group": 11
 , "Renault-Nissan-Mitsubishi": 3
 , "BMW Group": 4
 , "Stellantis": 9
 , "Hyundai Motor Group": 10
 , "Geely Holding Group": 16
-};
-
-const colorIndexByBrand =
-{ "Tesla": 0
+, "Tesla": 0
 , "Volkswagen": 1
 , "Smart": 2
 , "Renault": 3

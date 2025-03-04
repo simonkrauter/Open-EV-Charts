@@ -900,9 +900,7 @@ function getChartSeriesColors(chartConfig, chartData) {
     if (seriesName == db.totalSeriesName || seriesName == "Other")
       result.push(otherSeriesColor);
     else {
-      let colorIndex = colorIndexByCompanyGroup[seriesName];
-      if (colorIndex === undefined)
-        colorIndex = colorIndexByBrand[seriesName];
+      let colorIndex = colorIndexByCompanyOrBrand[seriesName];
       if (colorIndex === undefined)
         seriesIndexesWithDynamicColor.push(parseInt(i));
       result.push(colorSet[colorIndex]);
