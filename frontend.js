@@ -139,7 +139,7 @@ function renderMultiChartsHint() {
     return;
   const div = document.createElement("DIV");
   div.classList.add("multiChartsHint");
-  div.appendChild(document.createTextNode("Select " + unfoldParam.title));
+  div.appendChild(document.createTextNode("Choose a " + unfoldParam.title.toLowerCase()));
   chartsDiv.appendChild(div);
 }
 
