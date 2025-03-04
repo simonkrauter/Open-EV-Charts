@@ -387,6 +387,11 @@ canvas {
   color: var(--clBaseFaultText);
 }
 
+.companiesStatus .incomplete {
+  color: var(--clBaseMinorText);
+  font-style: italic;
+}
+
 table {
   border-collapse: collapse;
   margin-top: 8px;

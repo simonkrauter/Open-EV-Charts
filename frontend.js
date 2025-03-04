@@ -1600,6 +1600,7 @@ function getEvDetailednessText(dataset) {
 
 function renderCompaniesStatusPage() {
   const table = document.createElement("TABLE");
+  table.classList.add("companiesStatus");
   dynamicContent.appendChild(table);
   {
     const tr = document.createElement("TR");
@@ -1647,7 +1648,7 @@ function renderCompaniesStatusPage() {
         addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
         const allSales = getAnnualSales(false, brand);
         const evSales = getAnnualSales(true, brand);
-        addAnnualSalesTd(tr, allSales);
+        addAnnualSalesTd(tr, allSales, allSales < evSales);
         addAnnualSalesTd(tr, evSales);
         if (j < brands.length - 1) {
           tr = document.createElement("TR");
@@ -1659,7 +1660,7 @@ function renderCompaniesStatusPage() {
       addBrandOrModelAvailableDataTimeSpanTd(firstTr, company);
       const allSales = getAnnualSales(false, company);
       const evSales = getAnnualSales(true, company);
-      addAnnualSalesTd(firstTr, allSales);
+      addAnnualSalesTd(firstTr, allSales, allSales < evSales);
       addAnnualSalesTd(firstTr, evSales);
     }
   }
@@ -1795,11 +1796,15 @@ function getAnnualSales(onlyEvs, brand, brandAndModel = null) {
   return total;
 }
 
-function addAnnualSalesTd(tr, value) {
+function addAnnualSalesTd(tr, value, isIncomplete = false) {
   const td = document.createElement("TD");
   tr.appendChild(td);
   td.appendChild(document.createTextNode(formatIntForStatusTable(value)));
   td.style.textAlign = "right";
+  if (isIncomplete) {
+    td.classList.add("incomplete");
+    td.title = "Incomplete";
+  }
 }
 
 function formatIntForStatusTable(val) {
