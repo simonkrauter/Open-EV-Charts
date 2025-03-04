@@ -1645,8 +1645,10 @@ function renderCompaniesStatusPage() {
         td.appendChild(a);
         a.appendChild(createCountryFlagContainer(countryCode, brand, true, tableFlagSizeFactor));
         addBrandOrModelAvailableDataTimeSpanTd(tr, brand);
-        addAnnualSalesTd(tr, false, brand);
-        addAnnualSalesTd(tr, true, brand);
+        const allSales = getAnnualSales(false, brand);
+        const evSales = getAnnualSales(true, brand);
+        addAnnualSalesTd(tr, allSales);
+        addAnnualSalesTd(tr, evSales);
         if (j < brands.length - 1) {
           tr = document.createElement("TR");
           table.appendChild(tr);
@@ -1655,8 +1657,10 @@ function renderCompaniesStatusPage() {
     } else {
       companyTd.colSpan = 2;
       addBrandOrModelAvailableDataTimeSpanTd(firstTr, company);
-      addAnnualSalesTd(firstTr, false, company);
-      addAnnualSalesTd(firstTr, true, company);
+      const allSales = getAnnualSales(false, company);
+      const evSales = getAnnualSales(true, company);
+      addAnnualSalesTd(firstTr, allSales);
+      addAnnualSalesTd(firstTr, evSales);
     }
   }
 }
@@ -1717,7 +1721,8 @@ function renderModelsStatusPage() {
       td.appendChild(a);
       a.appendChild(document.createTextNode(model));
       addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model);
-      addAnnualSalesTd(tr, true, brand, brand + "|" + model);
+      const sales = getAnnualSales(true, brand, brand + "|" + model);
+      addAnnualSalesTd(tr, sales);
       if (j < models.length - 1) {
         tr = document.createElement("TR");
         table.appendChild(tr);
@@ -1754,7 +1759,7 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
   td.style.textAlign = "center";
 }
 
-function addAnnualSalesTd(tr, onlyEvs, brand, brandAndModel = null) {
+function getAnnualSales(onlyEvs, brand, brandAndModel = null) {
   let total = 0;
   for (const i in db.countriesWithData) {
     const curCountryId = db.countriesWithData[i];
@@ -1787,9 +1792,13 @@ function addAnnualSalesTd(tr, onlyEvs, brand, brandAndModel = null) {
     if (monthCount != 0)
       total = total + sum / monthCount * 12;
   }
+  return total;
+}
+
+function addAnnualSalesTd(tr, value) {
   const td = document.createElement("TD");
   tr.appendChild(td);
-  td.appendChild(document.createTextNode(formatIntForStatusTable(total)));
+  td.appendChild(document.createTextNode(formatIntForStatusTable(value)));
   td.style.textAlign = "right";
 }
 
