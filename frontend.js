@@ -489,7 +489,8 @@ function renderChart(chartIndex) {
     chartDiv.appendChild(div);
     div.appendChild(document.createTextNode("No data available"));
     div.classList.add("noData");
-    setChartSize(div, false);
+    const chartSize = getChartSize();
+    div.style.width = chartSize[0] + "px";
   } else {
     if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
       renderHints(chartDiv, chartConfig, chartData);
@@ -841,25 +842,15 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   }
 
   const canvas = document.createElement("CANVAS");
-  setChartSize(canvas);
+  const chartSize = getChartSize();
+  canvas.style.width = chartSize[0] + "px";
+  canvas.style.height = chartSize[1] + "px";
   chartDiv.appendChild(canvas);
 
   return new Chart(canvas.getContext('2d'), chartOptions);
 }
 
-function setChartSize(element, hasData = true) {
-  const heightRatio = 0.6;
-  const minWidth = 260;
-  const maxWidthMultiChart = 360;
-  const maxWidthScreenshotMode = 1000;
-  let heightOffset;
-  if (isScreenshotModeEnabled) {
-    heightOffset = 150;
-  } else {
-    heightOffset = homeLink.parentNode.parentNode.offsetHeight + filtersDiv.offsetHeight + 85;
-    if (hintsDiv != null)
-      heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
-  }
+function getAvailableSizeForCharts() {
   let widthOffset;
   if (isMobileScreenSize()) {
     widthOffset = 10;
@@ -869,7 +860,24 @@ function setChartSize(element, hasData = true) {
     else
       widthOffset = 40;
   }
-  let wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
+  let heightOffset;
+  if (isScreenshotModeEnabled) {
+    heightOffset = 150;
+  } else {
+    heightOffset = homeLink.parentNode.parentNode.offsetHeight + filtersDiv.offsetHeight + 85;
+    if (hintsDiv != null)
+      heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
+  }
+  return [window.innerWidth - widthOffset, window.innerHeight - heightOffset];
+}
+
+function getChartSize() {
+  const heightRatio = 0.6;
+  const minWidth = 260;
+  const maxWidthMultiChart = 360;
+  const maxWidthScreenshotMode = 1000;
+  const availableSize = getAvailableSizeForCharts();
+  let wantedWith = Math.min(availableSize[0], availableSize[1] / heightRatio);
   if (!isSingleChart) {
     wantedWith = wantedWith / 3.4;
     wantedWith = Math.min(wantedWith, maxWidthMultiChart);
@@ -877,9 +885,7 @@ function setChartSize(element, hasData = true) {
     wantedWith = Math.min(wantedWith, maxWidthScreenshotMode);
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minWidth * heightRatio);
-  element.style.width = width + "px";
-  if (hasData)
-    element.style.height = height + "px";
+  return [width, height];
 }
 
 function addScreenshotModeButton(parent) {
