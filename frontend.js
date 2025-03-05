@@ -100,13 +100,6 @@ function logVisit() {
   }
 }
 
-function getMaxVisibleCharts() {
-  if (isMobileScreenSize())
-    return 4;
-  else
-    return 9;
-}
-
 function renderCharts() {
   // (Re-)render all charts until limit
 
@@ -886,6 +879,14 @@ function getChartSize() {
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minWidth * heightRatio);
   return [width, height];
+}
+
+function getMaxVisibleCharts() {
+  const availableSize = getAvailableSizeForCharts();
+  const chartSize = getChartSize();
+  const xCount = Math.max(Math.floor(availableSize[0] / (chartSize[0] + 40)), 1);
+  const yCount = Math.max(Math.ceil(availableSize[1] / (chartSize[1] + 40)), 1)
+  return Math.max(xCount * yCount, 4);
 }
 
 function addScreenshotModeButton(parent) {
