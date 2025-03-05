@@ -117,7 +117,7 @@ a.button, a.dropdown {
   border-radius: var(--dimBorderRadius);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .filters > a.button, .filters > a.dropdown {
     margin-left: 12px;
     margin-right: 12px;
@@ -319,9 +319,9 @@ canvas {
 }
 
 .chartTile.single > .chartTitle, div:not(.chartTile) > .chartTitle {
-  margin-top: 8px;
-  margin-bottom: 2px;
-  font-size: 140%;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 130%;
 }
 
 .tabButtons > * {
@@ -466,10 +466,18 @@ a.screenshotModeButton {
 }
 
 .screenshotMode .chartTile {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 800px) {
+  .screenshotMode .chartTile {
+    padding: 20px;
+  }
+}
+
+.screenshotMode .chartTile.single > .chartTitle {
+  margin-top: 0px;
 }
 
 .sourceUrl {

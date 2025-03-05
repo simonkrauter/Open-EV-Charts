@@ -855,15 +855,19 @@ function setChartSize(element, hasData = true) {
   if (isScreenshotModeEnabled) {
     heightOffset = 150;
   } else {
-    heightOffset = homeLink.parentNode.parentNode.offsetHeight + filtersDiv.offsetHeight + 78;
+    heightOffset = homeLink.parentNode.parentNode.offsetHeight + filtersDiv.offsetHeight + 85;
     if (hintsDiv != null)
       heightOffset += Math.min(hintsDiv.offsetHeight, maxHintsHeight) + 14;
   }
   let widthOffset;
-  if (isScreenshotModeEnabled)
-    widthOffset = 70;
-  else
+  if (isMobileScreenSize()) {
     widthOffset = 10;
+  } else {
+    if (isScreenshotModeEnabled)
+      widthOffset = 70;
+    else
+      widthOffset = 40;
+  }
   let wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart) {
     wantedWith = wantedWith / 2.33;
