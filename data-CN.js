@@ -1780,3 +1780,20 @@ db.insert(db.countries.CN, "2024-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 7035
 , "other": 465944
 });
+
+db.insert(db.countries.CN, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/02/19/geely-xiaomi-shine-in-china-january-ev-sales-report/",
+{ "other": 1842857
+});
+
+db.insert(db.countries.CN, "2025-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/02/19/geely-xiaomi-shine-in-china-january-ev-sales-report/",
+{ "Geely|Xingyuan": 28146
+, "Tesla|Model Y": 25694
+, "Wuling|Hongguang Mini EV": 24924
+, "BYD|Qin EV": 21967
+, "BYD|Seagull": 18171
+, "Geely|Panda Mini EV": 15932
+, "Geely|Galaxy E5": 12880
+, "Wuling|Bingo": 12130
+, "BYD|Song EV": 6379
+, "other": 276063
+});
