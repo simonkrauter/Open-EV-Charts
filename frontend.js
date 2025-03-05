@@ -675,7 +675,7 @@ function addShowAllChartsButton() {
   button.appendChild(document.createTextNode("More"));
   button.addEventListener("click", function(event) {
     event.preventDefault();
-    button.style.display = "none";
+    button.parentNode.style.display = "none";
     renderRemainingCharts();
   });
 }
