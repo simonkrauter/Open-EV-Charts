@@ -57,8 +57,8 @@ const countryNamesByCode =
 };
 
 const colorSet =
-[ "hsl(1, 80%, 56%)"
-, "hsl(206, 79%, 37%)"
+[ "hsl(207, 80%, 45%)"
+, "hsl(1, 80%, 56%)"
 , "hsl(123, 41%, 45%)"
 , "hsl(32, 100%, 48%)"
 , "hsl(186, 74%, 54%)"
@@ -79,7 +79,7 @@ const colorSet =
 , "hsl(33, 100%, 70%)"
 ];
 
-const otherSeriesColor = "black";
+const otherSeriesColor = "hsl(0, 0%, 15%)";
 
 const colorIndexByCompanyOrBrand =
 { "Volkswagen Group": 11
@@ -88,8 +88,8 @@ const colorIndexByCompanyOrBrand =
 , "Stellantis": 9
 , "Hyundai Motor Group": 10
 , "Geely Holding Group": 16
-, "Tesla": 0
-, "Volkswagen": 1
+, "Tesla": 1
+, "Volkswagen": 0
 , "Smart": 2
 , "Renault": 3
 , "BMW": 4
