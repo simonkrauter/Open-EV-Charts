@@ -1,24 +1,25 @@
 :root {
+  --clAccentHue: 207;
   --clBaseFill: white;
   --clBaseText: black;
-  --clBaseLinkText: hsl(210, 100%, 40%);
+  --clBaseLinkText: hsl(var(--clAccentHue), 100%, 38%);
   --clBaseMinorText: hsl(0, 0%, 28%);
-  --clBaseFaultText: red;
+  --clBaseFaultText: hsl(0, 100%, 50%);
   --clBaseLine: hsl(0, 0%, 70%);
   --clFocusLine: hsl(56, 100%, 46%);
   --clHoverFill: hsl(55, 100%, 79%);
   --clAltFill: hsl(0, 0%, 15%);
   --clAltText: white;
   --clAltLinkLine: hsl(0, 0%, 74%);
-  --clButtonFill: hsl(0, 0%, 34%);
+  --clButtonFill: hsl(0, 0%, 32%);
   --clButtonText: white;
   --clButtonHoverFill: hsl(0, 0%, 42%);
-  --clButtonActiveFill: hsl(207, 65%, 48%);
+  --clButtonActiveFill: hsl(var(--clAccentHue), 80%, 45%);
   --clButtonActiveText: white;
-  --clButtonActiveHoverFill: hsl(207, 67%, 57%);
-  --clDropdownItemHoverFill: hsl(204, 72%, 40%);
+  --clButtonActiveHoverFill: hsl(var(--clAccentHue), 80%, 55%);
+  --clDropdownItemHoverFill: hsl(var(--clAccentHue), 80%, 40%);
   --clDropdownItemSelectedLine: hsl(1, 80%, 56%);
-  --clDropdownItemDisabledText: gray;
+  --clDropdownItemDisabledText: hsl(0, 0%, 50%);
   --clFlagLine: hsl(0, 0%, 87%);
   --dimBorderRadius: 2px;
 }
