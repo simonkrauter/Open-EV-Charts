@@ -444,7 +444,7 @@ var db = {
       param.defaultOption = this.xProperties.quarter;
       param.alwaysAddToUrl = true;
       param.showAsFilter = true;
-      param.showInTitle = true;
+      param.showInTitle = chartConfig == null || [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty) || chartConfig.unfoldParamName == param.name;
       param.allowMultiSelection = true;
       param.showAlwaysAsActive = true;
       param.breakLineAfterFilter = true;
