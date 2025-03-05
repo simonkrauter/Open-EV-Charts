@@ -849,8 +849,9 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
 
 function setChartSize(element, hasData = true) {
   const heightRatio = 0.6;
-  const minWidth = 280;
-  const maxWidthMultiChart = 380;
+  const minWidth = 260;
+  const maxWidthMultiChart = 360;
+  const maxWidthScreenshotMode = 1000;
   let heightOffset;
   if (isScreenshotModeEnabled) {
     heightOffset = 150;
@@ -870,11 +871,10 @@ function setChartSize(element, hasData = true) {
   }
   let wantedWith = Math.min(window.innerWidth - widthOffset, (window.innerHeight - heightOffset) / heightRatio);
   if (!isSingleChart) {
-    wantedWith = wantedWith / 2.33;
+    wantedWith = wantedWith / 3.4;
     wantedWith = Math.min(wantedWith, maxWidthMultiChart);
-  }
-  if (isScreenshotModeEnabled)
-    wantedWith = Math.min(wantedWith, 1000);
+  } else if (isScreenshotModeEnabled)
+    wantedWith = Math.min(wantedWith, maxWidthScreenshotMode);
   const width = Math.max(wantedWith, minWidth);
   const height = Math.max(width * heightRatio, minWidth * heightRatio);
   element.style.width = width + "px";
