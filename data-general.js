@@ -144,6 +144,7 @@ const companyGroups = {
     [ "Geely"
     , "Polestar"
     , "Volvo"
+    , "Zeekr"
     ],
   "Jaguar Land Rover":
     [ "Jaguar"
@@ -208,4 +209,5 @@ const brandCountries =
 , "Vauxhall": "UK"
 , "Volkswagen": "DE"
 , "Volvo": "SE"
+, "Xpeng": "CN"
 };
