@@ -1959,11 +1959,12 @@ db.insert(db.countries.PT, "2024-09", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Polestar": 24
 , "Fiat": 23
 , "Toyota": 22
+, "Xpeng": 11
 , "Dacia": 9
 , "Mazda": 9
 , "Škoda": 8
 , "Honda": 3
-, "other": 33
+, "other": 22
 });
 
 db.insert(db.countries.PT, "2024-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -1997,8 +1998,9 @@ db.insert(db.countries.PT, "2024-10", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Toyota": 22
 , "Polestar": 21
 , "Škoda": 20
+, "Xpeng": 13
 , "Mazda": 2
-, "other": 44
+, "other": 31
 });
 
 db.insert(db.countries.PT, "2024-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
@@ -2028,12 +2030,13 @@ db.insert(db.countries.PT, "2024-11", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Porsche": 49
 , "Hyundai": 48
 , "Nissan": 48
+, "Xpeng": 23
 , "Toyota": 20
 , "Fiat": 14
 , "Jeep": 14
 , "Mazda": 13
 , "Škoda": 12
-, "other": 74
+, "other": 51
 });
 
 db.insert(db.countries.PT, "2024-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -2041,32 +2044,33 @@ db.insert(db.countries.PT, "2024-12", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2024/12, https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
-{ "Tesla": 1346
-, "BYD": 503
-, "Peugeot": 358
-, "BMW": 343
-, "Mercedes-Benz": 329
-, "Volvo": 232
-, "Audi": 220
-, "Citroën": 217
-, "Renault": 217
-, "Dacia": 198
-, "Volkswagen": 170
-, "Mini": 157
-, "MG": 120
-, "Kia": 108
-, "Nissan": 86
+{ "Tesla": 1336
+, "BYD": 499
+, "Peugeot": 355
+, "BMW": 341
+, "Mercedes-Benz": 327
+, "Volvo": 230
+, "Audi": 219
+, "Citroën": 215
+, "Renault": 215
+, "Dacia": 197
+, "Volkswagen": 169
+, "Mini": 156
+, "MG": 119
+, "Kia": 107
+, "Nissan": 85
 , "Opel": 79
 , "Cupra": 76
 , "Smart": 74
-, "Porsche": 61
+, "Porsche": 60
 , "Polestar": 48
 , "Ford": 45
 , "Hyundai": 39
-, "Toyota": 29
+, "Xpeng": 37
+, "Toyota": 28
 , "Fiat": 25
 , "Jeep": 24
 , "Honda": 17
 , "Škoda": 7
-, "other": 14
+, "other": 13
 });
