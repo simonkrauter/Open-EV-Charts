@@ -7511,13 +7511,13 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 44
 , "Peugeot|e-2008": 44
 , "Opel|other": 98
+, "Hyundai|other": 71
 , "Peugeot|other": 69
 , "Fiat|other": 60
 , "Citroën|other": 50
 , "BYD|other": 44
 , "Ford|other": 43
 , "Smart|other": 41
-, "Hyundai|other": 38
 , "MG|other": 35
 , "Nissan|other": 34
 , "Polestar|other": 30
@@ -7528,5 +7528,5 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 15
 , "Porsche|other": 12
 , "Toyota|other": 10
-, "other": 440
+, "other": 407
 });
