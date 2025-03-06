@@ -5726,3 +5726,60 @@ db.insert(db.countries.FR, "2025-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Jeep|Avenger EV": 236
 , "other": 5709
 });
+
+db.insert(db.countries.FR, "2025-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/03/Immatriculations-VPN_Fev2025.pdf",
+{ "Renault": 24446
+, "Peugeot": 22379
+, "Dacia": 12815
+, "Citroën": 11576
+, "Volkswagen": 10203
+, "Toyota": 9641
+, "BMW": 5445
+, "Hyundai": 3622
+, "Škoda": 3593
+, "Audi": 3504
+, "Ford": 3135
+, "Nissan": 3131
+, "Kia": 2618
+, "Mercedes-Benz": 2528
+, "Tesla": 2395
+, "Mini": 2270
+, "Opel": 2171
+, "MG": 1949
+, "Cupra": 1847
+, "Suzuki": 1812
+, "Fiat": 1598
+, "Seat": 1300
+, "Jeep": 869
+, "Mazda": 821
+, "Volvo": 715
+, "BYD": 602
+, "Honda": 425
+, "Porsche": 329
+, "Mitsubishi": 85
+, "Smart": 58
+, "other": 3686
+});
+
+db.insert(db.countries.FR, "2025-02", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/03/Immatriculations-mensuelles-par-energie_Fevrier-2025.pdf, https://cleantechnica.com/2025/03/03/evs-at-22-5-share-in-france-citroen-e-c3-on-top/",
+{ "Citroën|ë-C3": 3058
+, "Renault|5 E-Tech": 3034
+, "Tesla|Model Y": 1738
+, "Peugeot|e-208": 1088
+, "Renault|Scénic E-Tech": 994
+, "Peugeot|E-3008": 854
+, "Volkswagen|ID.3": 822
+, "Mini|Cooper SE": 806
+, "Cupra|Born": 679
+, "Fiat|500e": 676
+, "Tesla|Model 3": 643
+, "Renault|Megane E-Tech": 581
+, "Audi|Q4 e-tron": 565
+, "Dacia|Spring": 551
+, "Škoda|Enyaq": 530
+, "BMW|iX1": 464
+, "Hyundai|Kona Electric": 462
+, "Volkswagen|ID.4": 438
+, "Peugeot|e-2008": 371
+, "other": 6981
+});
