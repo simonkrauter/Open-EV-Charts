@@ -4036,24 +4036,24 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/1 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1168
-, "Mini|Cooper SE": 1049
+, "Mini|Cooper SE": 1051
 , "Kia|EV3": 895
 , "Mercedes-Benz|EQB": 864
-, "Škoda|Enyaq": 854
+, "Škoda|Enyaq": 855
 , "Audi|Q4 e-tron": 844
 , "Mercedes-Benz|EQA": 844
 , "Cupra|Born": 816
 , "Jaguar|I-Pace": 719
 , "Volkswagen|ID.4": 710
 , "BMW|i4": 706
-, "Vauxhall|Combo-e": 658
-, "Ford|Explorer EV": 648
+, "Vauxhall|Combo-e": 661
+, "Ford|Explorer EV": 652
 , "Hyundai|Kona Electric": 642
-, "Volvo|EX30": 631
+, "Volvo|EX30": 632
 , "Nissan|Ariya": 602
 , "Renault|Scénic E-Tech": 571
 , "MG|MG4 EV": 548
-, "Peugeot|E-3008": 500
+, "Peugeot|E-3008": 502
 , "Volkswagen|ID.3": 495
 , "Porsche|Macan Electric": 493
 , "Hyundai|Ioniq 5": 452
@@ -4063,7 +4063,7 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 419
 , "BMW|iX1": 412
 , "Volkswagen|ID.7": 403
-, "Peugeot|e-2008": 350
+, "Peugeot|e-2008": 351
 , "Dacia|Spring": 342
 , "BMW|i5": 338
 , "Renault|Megane E-Tech": 337
@@ -4072,11 +4072,11 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 294
 , "Volkswagen|ID.5": 288
 , "Tesla|Model 3": 278
+, "Vauxhall|Grandland Electric": 267
 , "BMW|iX2": 266
-, "Vauxhall|Grandland Electric": 266
 , "BYD|Seal": 260
 , "Kia|Niro EV": 249
-, "Vauxhall|Corsa-e": 230
+, "Vauxhall|Corsa-e": 231
 , "Jeep|Avenger EV": 229
 , "Polestar|2": 226
 , "MG|ZS EV": 212
@@ -4086,24 +4086,24 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 148
 , "Kia|EV9": 143
 , "BMW|other": 214
-, "Mercedes-Benz|other": 203
-, "Ford|other": 198
-, "Peugeot|other": 173
+, "Mercedes-Benz|other": 204
+, "Ford|other": 199
+, "Peugeot|other": 176
 , "Citroën|other": 147
 , "Cupra|other": 137
-, "Audi|other": 120
+, "Audi|other": 123
 , "Volvo|other": 98
+, "Hyundai|other": 95
 , "Polestar|other": 94
-, "Hyundai|other": 93
 , "Fiat|other": 80
-, "MG|other": 70
+, "MG|other": 71
 , "Porsche|other": 67
 , "Smart|other": 59
 , "Nissan|other": 58
-, "BYD|other": 54
+, "BYD|other": 55
 , "GWM|other": 53
 , "Mazda|other": 46
-, "Škoda|other": 35
-, "Vauxhall|other": 26
-, "other": 3765
+, "Škoda|other": 38
+, "Vauxhall|other": 29
+, "other": 3731
 });
