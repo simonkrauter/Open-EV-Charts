@@ -1432,7 +1432,7 @@ var db = {
   removeMostRecentMonthIfIncomplete: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
     if (!this.isByMonth(chartConfig))
       return;
-    if (!this.isCombinedCountry(chartConfig) && [this.metrics.salesElectric, this.metrics.salesAll].includes(chartConfig.metric))
+    if (!this.isCombinedCountry(chartConfig) && ![this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
       return;
     if (categories.length == 0)
       return;
