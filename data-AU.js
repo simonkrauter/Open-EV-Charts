@@ -1024,3 +1024,72 @@ db.insert(db.countries.AU, "2024-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|e-tron GT": 4
 , "other": 21
 });
+
+db.insert(db.countries.AU, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-january-2025/",
+{ "Toyota": 18424
+, "Mazda": 8322
+, "Ford": 6830
+, "Kia": 5720
+, "Mitsubishi": 5681
+, "Hyundai": 5478
+, "MG": 3740
+, "GWM": 3433
+, "Nissan": 3035
+, "Subaru": 2924
+, "other": 32259
+});
+
+db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/03/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025/",
+{ "Tesla|Model Y": 465
+, "MG|MG4 EV": 440
+, "Kia|EV5": 289
+, "Tesla|Model 3": 274
+, "Mini|Cooper SE": 156
+, "BMW|iX1": 123
+, "Audi|Q4 e-tron": 121
+, "Hyundai|Ioniq 5": 109
+, "BMW|i4": 108
+, "BMW|iX2": 108
+, "BYD|Yuan Plus": 105
+, "Volvo|EX30": 103
+, "Mercedes-Benz|EQB": 95
+, "BYD|Dolphin": 85
+, "Toyota|bZ4X": 80
+, "Mercedes-Benz|EQA": 73
+, "Polestar|4": 61
+, "Hyundai|Kona Electric": 56
+, "BYD|Seal": 52
+, "Kia|EV6": 52
+, "BMW|i5": 50
+, "Cupra|Born": 50
+, "BMW|iX3": 41
+, "Volvo|EC40": 38
+, "GWM|Ora 03": 37
+, "Mercedes-Benz|EQE SUV": 37
+, "Ford|Mustang Mach-E": 29
+, "BMW|iX": 25
+, "Renault|Megane E-Tech": 24
+, "Kia|EV9": 22
+, "Volkswagen|ID. Buzz": 21
+, "Polestar|2": 19
+, "Škoda|Enyaq": 17
+, "Kia|Niro EV": 16
+, "Subaru|Solterra": 16
+, "Hyundai|Ioniq 6": 14
+, "Porsche|Taycan": 14
+, "Nissan|Leaf": 12
+, "Mercedes-Benz|EQE": 9
+, "Volkswagen|ID.4": 9
+, "Audi|Q8 e-tron": 8
+, "MG|Cyberster": 8
+, "Audi|e-tron GT": 7
+, "Volkswagen|ID.5": 7
+, "Jeep|Avenger EV": 6
+, "Volvo|EX90": 6
+, "Mercedes-Benz|EQV": 5
+, "Audi|Q6 e-tron": 3
+, "BMW|i7": 3
+, "Mercedes-Benz|EQS SUV": 2
+, "Polestar|3": 2
+, "other": 35
+});
