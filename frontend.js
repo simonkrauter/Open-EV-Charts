@@ -956,9 +956,11 @@ function renderTable(chartConfig, chartDiv, chartData) {
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
 
-  renderTableExportButton(chartDiv, table, "CSV");
-  renderTableExportButton(chartDiv, table, "Wikitext");
-  renderTableExport(chartDiv, table);
+  if (isSingleChart) {
+    renderTableExportButton(chartDiv, table, "CSV");
+    renderTableExportButton(chartDiv, table, "Wikitext");
+    renderTableExport(chartDiv, table);
+  }
 }
 
 function renderTableExportButton(chartDiv, table, format) {
