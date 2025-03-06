@@ -7330,15 +7330,15 @@ db.insert(db.countries.DE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 158
 , "Opel|Astra Electric": 127
 , "Renault|Scénic E-Tech": 120
-, "BYD|Seal": 111
 , "Toyota|bZ4X": 98
 , "BMW|i7": 95
 , "Polestar|4": 88
+, "BYD|Seal": 85
 , "Opel|Mokka-e": 80
 , "Polestar|3": 70
 , "MG|ZS EV": 61
 , "Peugeot|other": 159
-, "BYD|other": 110
+, "BYD|other": 136
 , "Tesla|other": 94
 , "Opel|other": 87
 , "Nissan|other": 66
@@ -7357,7 +7357,8 @@ db.insert(db.countries.DE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jeep|other": 26
 , "Toyota|other": 18
 , "Volkswagen|other": 18
-, "other": 363
+, "Xpeng|other": 16
+, "other": 347
 });
 
 db.insert(db.countries.DE, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_08.xlsx?__blob=publicationFile&v=4",
@@ -7397,7 +7398,8 @@ db.insert(db.countries.DE, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 188
 , "Jaguar": 99
 , "Nio": 35
-, "other": 2937
+, "Xpeng": 33
+, "other": 2904
 });
 
 db.insert(db.countries.DE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_08.xlsx?__blob=publicationFile&v=4",
@@ -7465,6 +7467,7 @@ db.insert(db.countries.DE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|other": 45
 , "Fiat|other": 40
 , "Nio|other": 35
+, "Xpeng|other": 33
 , "Jeep|other": 30
 , "Subaru|other": 30
 , "Tesla|other": 24
@@ -7472,7 +7475,7 @@ db.insert(db.countries.DE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|other": 20
 , "GWM|other": 18
 , "Volkswagen|other": 17
-, "other": 358
+, "other": 325
 });
 
 db.insert(db.countries.DE, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_09.xlsx?__blob=publicationFile&v=2",
@@ -7511,8 +7514,9 @@ db.insert(db.countries.DE, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 259
 , "BYD": 140
 , "Jaguar": 88
+, "Xpeng": 33
 , "Nio": 22
-, "other": 2459
+, "other": 2426
 });
 
 db.insert(db.countries.DE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_09.xlsx?__blob=publicationFile&v=2",
@@ -7579,10 +7583,11 @@ db.insert(db.countries.DE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 53
 , "Fiat|other": 41
 , "MG|other": 34
+, "Xpeng|other": 33
 , "Mazda|other": 32
 , "Nio|other": 22
 , "Nissan|other": 21
-, "other": 361
+, "other": 328
 });
 
 db.insert(db.countries.DE, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_10.xlsx?__blob=publicationFile&v=3",
@@ -7621,7 +7626,8 @@ db.insert(db.countries.DE, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 215
 , "Polestar": 152
 , "Jaguar": 124
-, "other": 3042
+, "Xpeng": 100
+, "other": 2942
 });
 
 db.insert(db.countries.DE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_10.xlsx?__blob=publicationFile&v=3",
@@ -7687,6 +7693,7 @@ db.insert(db.countries.DE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 115
 , "BMW|other": 109
 , "Kia|other": 104
+, "Xpeng|other": 100
 , "Volvo|other": 61
 , "Porsche|other": 55
 , "Jeep|other": 48
@@ -7694,7 +7701,7 @@ db.insert(db.countries.DE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|other": 25
 , "Tesla|other": 25
 , "Mazda|other": 20
-, "other": 599
+, "other": 499
 });
 
 db.insert(db.countries.DE, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_11.xlsx?__blob=publicationFile&v=2",
@@ -7733,8 +7740,9 @@ db.insert(db.countries.DE, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 247
 , "Polestar": 208
 , "GWM": 195
+, "Xpeng": 81
 , "Nio": 29
-, "other": 3920
+, "other": 3839
 });
 
 db.insert(db.countries.DE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_11.xlsx?__blob=publicationFile&v=2",
@@ -7797,6 +7805,7 @@ db.insert(db.countries.DE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 136
 , "Renault|other": 95
 , "Citroën|other": 89
+, "Xpeng|other": 81
 , "Volvo|other": 76
 , "Toyota|other": 75
 , "Porsche|other": 71
@@ -7808,7 +7817,7 @@ db.insert(db.countries.DE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|other": 27
 , "Tesla|other": 23
 , "Mazda|other": 22
-, "other": 880
+, "other": 799
 });
 
 db.insert(db.countries.DE, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_12.xlsx?__blob=publicationFile&v=5",
@@ -7846,9 +7855,10 @@ db.insert(db.countries.DE, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 328
 , "BYD": 323
 , "Subaru": 187
+, "Xpeng": 99
 , "Jaguar": 35
 , "Nio": 31
-, "other": 4035
+, "other": 3936
 });
 
 db.insert(db.countries.DE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_12.xlsx?__blob=publicationFile&v=5",
@@ -7907,6 +7917,7 @@ db.insert(db.countries.DE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|other": 138
 , "Peugeot|other": 129
 , "Volvo|other": 125
+, "Xpeng|other": 99
 , "Kia|other": 95
 , "MG|other": 90
 , "BMW|other": 84
@@ -7923,7 +7934,7 @@ db.insert(db.countries.DE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|other": 22
 , "Jeep|other": 21
 , "Nissan|other": 20
-, "other": 751
+, "other": 652
 });
 
 db.insert(db.countries.DE, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_01.xlsx?__blob=publicationFile&v=3",
@@ -7961,8 +7972,9 @@ db.insert(db.countries.DE, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 281
 , "BYD": 235
 , "Polestar": 235
+, "Xpeng": 94
 , "Jaguar": 77
-, "other": 2570
+, "other": 2476
 });
 
 db.insert(db.countries.DE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_01.xlsx?__blob=publicationFile&v=3",
@@ -8026,6 +8038,7 @@ db.insert(db.countries.DE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|other": 135
 , "Hyundai|other": 132
 , "Ford|other": 125
+, "Xpeng|other": 94
 , "Kia|other": 84
 , "BMW|other": 77
 , "GWM|other": 70
@@ -8039,5 +8052,5 @@ db.insert(db.countries.DE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|other": 27
 , "Tesla|other": 26
 , "Nio|other": 18
-, "other": 513
+, "other": 419
 });
