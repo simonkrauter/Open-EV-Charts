@@ -3268,3 +3268,79 @@ db.insert(db.countries.DK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 6
 , "other": 40
 });
+
+db.insert(db.countries.DK, "2025-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
+{ "other": 10834
+});
+
+db.insert(db.countries.DK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/1, https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
+{ "Toyota|bZ4X": 660
+, "Volkswagen|ID.4": 530
+, "Volkswagen|ID. Buzz": 358
+, "Volkswagen|ID.3": 354
+, "Škoda|Enyaq": 331
+, "Cupra|Tavascan": 288
+, "Tesla|Model Y": 266
+, "Hyundai|Ioniq 5": 191
+, "Audi|Q4 e-tron": 183
+, "Kia|EV3": 178
+, "Cupra|Born": 175
+, "Tesla|Model 3": 167
+, "Nissan|Ariya": 159
+, "BMW|iX1": 159
+, "Hyundai|Kona Electric": 153
+, "Kia|Niro EV": 151
+, "Volkswagen|ID.7": 148
+, "Renault|Scénic E-Tech": 147
+, "Peugeot|E-3008": 136
+, "Mercedes-Benz|EQA": 129
+, "Peugeot|E-5008": 127
+, "Ford|Explorer EV": 115
+, "Mercedes-Benz|EQE": 114
+, "Audi|Q6 e-tron": 102
+, "Volvo|EX40": 100
+, "Mercedes-Benz|EQB": 93
+, "Polestar|2": 83
+, "Kia|EV6": 82
+, "Hyundai|Ioniq 6": 72
+, "Volkswagen|ID.5": 70
+, "Mini|Cooper SE": 60
+, "Ford|Capri EV": 55
+, "Renault|Megane E-Tech": 54
+, "BMW|i4": 53
+, "Porsche|Macan Electric": 50
+, "BMW|i5": 48
+, "Peugeot|e-2008": 45
+, "Polestar|4": 42
+, "Opel|Grandland Electric": 41
+, "Škoda|Elroq": 37
+, "Xpeng|G9": 36
+, "Renault|Master E-Tech": 33
+, "BMW|iX2": 32
+, "Toyota|Proace Electric": 32
+, "Citroën|ë-C3": 30
+, "MG|MG4 EV": 25
+, "MG|ZS EV": 25
+, "Renault|5 E-Tech": 24
+, "Ford|E-Transit": 23
+, "Audi|A6 e-tron": 20
+, "BYD|Dolphin": 20
+, "Hyundai|Inster": 20
+, "Volvo|EC40": 20
+, "Volvo|EX30": 20
+, "Opel|other": 48
+, "BMW|other": 32
+, "Mercedes-Benz|other": 32
+, "BYD|other": 31
+, "Peugeot|other": 23
+, "Kia|other": 13
+, "Honda|other": 12
+, "Subaru|other": 12
+, "Volvo|other": 12
+, "Polestar|other": 9
+, "Nissan|other": 8
+, "Toyota|other": 8
+, "Ford|other": 5
+, "Renault|other": 5
+, "other": 45
+});
