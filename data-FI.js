@@ -46,6 +46,7 @@ db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 1
 , "Kia|Soul EV": 1
 , "Tesla|Model X": 1
+, "other": 4
 });
 
 db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1837/February_2018.xlsx",
