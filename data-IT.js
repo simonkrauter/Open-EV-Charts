@@ -4753,6 +4753,7 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Twingo E-Tech": 42
 , "Hyundai|Ioniq 5": 41
 , "BMW|iX2": 40
+, "BYD|Yuan Up": 40
 , "Audi|A6 e-tron": 39
 , "Peugeot|E-5008": 39
 , "Volvo|EX90": 39
@@ -4779,5 +4780,5 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 14
 , "BYD|other": 12
 , "Kia|other": 12
-, "other": 575
+, "other": 535
 });
