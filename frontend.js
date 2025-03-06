@@ -456,7 +456,7 @@ function renderChart(chartIndex) {
   const hasData = chartData.series.length > 0;
 
   let chartDiv;
-  if (isSingleChart || !hasData)
+  if (isSingleChart || !hasData || ![db.views.barChart, db.views.lineChart].includes(chartConfig.view))
     chartDiv = document.createElement("DIV");
   else {
     chartDiv = createLink(db.encodeChartConfig(originalChartConfig));
