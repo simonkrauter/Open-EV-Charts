@@ -5728,3 +5728,114 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 2
 , "other": 264
 });
+
+db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2940/January_2025.xlsx",
+{ "Toyota": 876
+, "Volkswagen": 570
+, "Škoda": 562
+, "Volvo": 528
+, "Kia": 392
+, "Nissan": 355
+, "BMW": 347
+, "Mercedes-Benz": 273
+, "Audi": 237
+, "Ford": 229
+, "Hyundai": 179
+, "Peugeot": 164
+, "Polestar": 104
+, "Dacia": 85
+, "Suzuki": 73
+, "Renault": 70
+, "Tesla": 58
+, "Cupra": 56
+, "Mazda": 56
+, "BYD": 51
+, "Opel": 46
+, "Subaru": 45
+, "Land Rover": 41
+, "Citroën": 38
+, "Porsche": 37
+, "Mitsubishi": 31
+, "Smart": 21
+, "MG": 19
+, "Mini": 12
+, "Seat": 8
+, "Xpeng": 8
+, "other": 173
+});
+
+db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/1, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Škoda|Enyaq": 161
+, "Toyota|bZ4X": 91
+, "Volkswagen|ID.4": 81
+, "Kia|EV3": 74
+, "Volkswagen|ID.7": 69
+, "Audi|Q6 e-tron": 62
+, "Volvo|EX30": 59
+, "Audi|Q4 e-tron": 53
+, "Volvo|EX40": 51
+, "BMW|i4": 50
+, "Nissan|Ariya": 42
+, "Tesla|Model Y": 34
+, "Kia|EV6": 32
+, "Ford|Explorer EV": 31
+, "Mercedes-Benz|EQA": 30
+, "Porsche|Macan Electric": 28
+, "Volvo|EC40": 28
+, "BMW|iX": 24
+, "Volkswagen|ID.3": 24
+, "Hyundai|Ioniq 5": 23
+, "Mercedes-Benz|EQB": 22
+, "Tesla|Model 3": 22
+, "Subaru|Solterra": 21
+, "BYD|Seal": 20
+, "BMW|iX1": 19
+, "Audi|A6 e-tron": 18
+, "Citroën|ë-C3": 18
+, "Volvo|EX90": 18
+, "Cupra|Tavascan": 17
+, "BYD|Sealion 07 EV": 16
+, "Cupra|Born": 15
+, "Mercedes-Benz|EQE": 15
+, "BMW|i5": 14
+, "Ford|Capri EV": 14
+, "Peugeot|E-5008": 14
+, "Ford|Mustang Mach-E": 13
+, "Peugeot|E-3008": 13
+, "Škoda|Elroq": 13
+, "Opel|Grandland Electric": 12
+, "Mini|Cooper SE": 11
+, "BMW|iX2": 10
+, "Kia|EV9": 10
+, "Hyundai|Kona Electric": 7
+, "Renault|Scénic E-Tech": 7
+, "Ford|E-Transit": 6
+, "Hyundai|Ioniq 6": 6
+, "Kia|Niro EV": 6
+, "Peugeot|e-2008": 5
+, "Mercedes-Benz|eSprinter": 4
+, "Audi|Q8 e-tron": 3
+, "BMW|i7": 3
+, "BYD|Yuan Plus": 3
+, "Fiat|600e": 3
+, "Jeep|Avenger EV": 3
+, "Mercedes-Benz|EQS": 3
+, "Peugeot|e-Expert": 3
+, "Peugeot|e-Traveller": 3
+, "Renault|Megane E-Tech": 3
+, "Xpeng|G9": 3
+, "BYD|other": 4
+, "Citroën|other": 2
+, "Opel|other": 2
+, "Porsche|other": 2
+, "Tesla|other": 2
+, "Toyota|other": 2
+, "Volkswagen|other": 2
+, "BMW|other": 1
+, "Fiat|other": 1
+, "Honda|other": 1
+, "MG|other": 1
+, "Mercedes-Benz|other": 1
+, "Peugeot|other": 1
+, "other": 154
+});
