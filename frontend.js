@@ -351,17 +351,17 @@ function updateDropdownState(paramName, dropdown, textSpan, overlay) {
   textSpan.innerHTML = "";
   let selectedOptionTexts = [];
   if (param.name == "country") {
-    for (const optionKey in param.options) {
+    for (const optionKey in param.allOptions) {
       if (selectedKeys.includes(optionKey)) {
         textSpan.appendChild(createCountryFlagContainer(optionKey, "", false));
         if (selectedKeys.length == 1 || !db.countries[optionKey])
-          selectedOptionTexts.push(param.options[optionKey]);
+          selectedOptionTexts.push(param.allOptions[optionKey]);
       }
     }
   } else {
-    for (const optionKey in param.options) {
+    for (const optionKey in param.allOptions) {
       if (selectedKeys.includes(optionKey))
-        selectedOptionTexts.push(param.options[optionKey]);
+        selectedOptionTexts.push(param.allOptions[optionKey]);
     }
   }
   textSpan.appendChild(document.createTextNode(selectedOptionTexts.join(", ")));
