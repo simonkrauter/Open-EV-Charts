@@ -25,6 +25,9 @@ var db = {
   countriesForOptions: {},
   // Code => Name of countries with data
 
+  countriesForOptionsAlphabetic: {},
+  // Code => Name of countries with data, sorted alphabetic
+
   dsTypes:
   { "AllCarsByBrand": 1
   , "AllCarsTotal": 2
@@ -178,11 +181,22 @@ var db = {
     });
 
     // Prepare country options
+    let countryNamesAlphabetic = [];
     for (const i in this.countriesWithData) {
       const id = this.countriesWithData[i];
       const name = this.countryNames[id];
       const code = this.countriesCodes[id];
       this.countriesForOptions[code] = name;
+      countryNamesAlphabetic.push(name);
+    }
+    countryNamesAlphabetic.sort(function(a, b) {
+      return a.localeCompare(b);
+    });
+    for (const i in countryNamesAlphabetic) {
+      const name  = countryNamesAlphabetic[i];
+      const id = this.countryNamesReverse[name];
+      const code = this.countriesCodes[id];
+      this.countriesForOptionsAlphabetic[code] = name;
     }
   },
 
@@ -729,8 +743,14 @@ var db = {
     result[this.countryOptions.all] = "All Countries";
     if (allOptions || chartConfig == null || ((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
       result[this.countryOptions.combine] = "Combine Countries";
-    for (const code in this.countriesForOptions) {
-      result[code] = this.countriesForOptions[code];
+    if (allOptions) {
+      for (const code in this.countriesForOptionsAlphabetic) {
+        result[code] = this.countriesForOptionsAlphabetic[code];
+      }
+    } else {
+      for (const code in this.countriesForOptions) {
+        result[code] = this.countriesForOptions[code];
+      }
     }
     return result;
   },
