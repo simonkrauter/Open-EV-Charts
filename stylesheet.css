@@ -130,6 +130,7 @@ a.button {
 
 a.button.active, a.dropdown.active, .horizontalBar, .githubCorner {
   background: var(--clButtonActiveFill);
+  color: var(--clButtonActiveText);
 }
 
 a.button:hover, a.dropdown:hover {
@@ -137,9 +138,15 @@ a.button:hover, a.dropdown:hover {
   background: var(--clButtonHoverFill);
 }
 
-a.button.active:hover, a.dropdown.active:hover, a.dropdown.opened {
+a.button.active:hover, a.dropdown.active:hover {
+  background: var(--clButtonActiveHoverFill);
+}
+
+a.dropdown.opened {
   background: var(--clButtonActiveHoverFill);
   color: var(--clButtonActiveText);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus {
@@ -193,6 +200,7 @@ a.dropdown > .overlay {
   overflow: auto;
   max-height: 300px;
   border: 1px solid var(--clBaseLine);
+  box-sizing: border-box;
 }
 
 a.dropdown:not(.opened) > .overlay {
