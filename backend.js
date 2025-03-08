@@ -22,6 +22,9 @@ var db = {
   countriesWithData: [],
   // List of IDs
 
+  countriesForOptions: {},
+  // Code => Name of countries with data
+
   dsTypes:
   { "AllCarsByBrand": 1
   , "AllCarsTotal": 2
@@ -173,6 +176,14 @@ var db = {
     this.companyGroupNames.sort(function(a, b) {
       return a.localeCompare(b);
     });
+
+    // Prepare country options
+    for (const i in this.countriesWithData) {
+      const id = this.countriesWithData[i];
+      const name = this.countryNames[id];
+      const code = this.countriesCodes[id];
+      this.countriesForOptions[code] = name;
+    }
   },
 
   getValueOrDefault: function(value, defaultValue) {
@@ -367,16 +378,8 @@ var db = {
       let param = {};
       param.name = "country";
       param.title = "Country";
-      param.allOptions = {};
-      param.allOptions[this.countryOptions.all] = "All Countries";
-      param.allOptions[this.countryOptions.combine] = "Combine Countries";
-      for (const i in this.countriesWithData) {
-        const id = this.countriesWithData[i];
-        param.allOptions[this.countriesCodes[id]] = this.countryNames[id];
-      }
-      param.options = this.cloneObject(param.allOptions);
-      if (chartConfig != null && !((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
-        delete param.options[this.countryOptions.combine];
+      param.allOptions = this.getCountryOptions(chartConfig, true);
+      param.options = this.getCountryOptions(chartConfig, false);
       if (chartConfig == null || chartConfig.isRegularHomeTile || !this.isMultiMetric(chartConfig))
         param.unfoldKey = this.countryOptions.all;
       param.excludeOnUnfoldAndTitle = [this.countryOptions.all, this.countryOptions.combine];
@@ -719,6 +722,17 @@ var db = {
       }
       param.options[chartConfig.timeSpan] = text;
     }
+  },
+
+  getCountryOptions: function(chartConfig, allOptions) {
+    let result = {};
+    result[this.countryOptions.all] = "All Countries";
+    if (allOptions || chartConfig == null || ((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
+      result[this.countryOptions.combine] = "Combine Countries";
+    for (const code in this.countriesForOptions) {
+      result[code] = this.countriesForOptions[code];
+    }
+    return result;
   },
 
   getRealTimeSpan: function(chartConfig) {
