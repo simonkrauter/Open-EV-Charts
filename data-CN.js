@@ -2,11 +2,11 @@
 
 "use strict";
 
-db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html",
+db.insert(db.countries.CN, "2018-01", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/02/china-january-2018.html",
 { "other": 2148098
 });
 
-db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/02/china-january-2018.html",
+db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/02/china-january-2018.html",
 { "BAIC|EC-Series": 7870
 , "JAC|iEV7 S/E": 3356
 , "JMC|E200": 1500
@@ -19,11 +19,11 @@ db.insert(db.countries.CN, "2018-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 11656
 });
 
-db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html",
+db.insert(db.countries.CN, "2018-02", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/03/china-february-2018.html",
 { "other": 2247241
 });
 
-db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/03/china-february-2018.html",
+db.insert(db.countries.CN, "2018-02", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/03/china-february-2018.html",
 { "BAIC|EC-Series": 4120
 , "JAC|iEV7 S/E": 2831
 , "Chery|eQ": 2753
@@ -40,7 +40,7 @@ db.insert(db.countries.CN, "2018-03", db.dsTypes.AllCarsTotal, "https://www.mark
 { "other": 1863346
 });
 
-db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/04/china-march-2018.html",
+db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/04/china-march-2018.html",
 { "BAIC|EC-Series": 7818
 , "JAC|iEV7 S/E": 4603
 , "Chery|eQ": 3279
@@ -55,11 +55,11 @@ db.insert(db.countries.CN, "2018-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 22998
 });
 
-db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html",
+db.insert(db.countries.CN, "2018-04", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/05/china-april-2018.html",
 { "other": 1648810
 });
 
-db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/05/china-april-2018.html",
+db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/05/china-april-2018.html",
 { "BAIC|EC-Series": 7471
 , "JAC|iEV7 S/E": 3469
 , "BYD|e5": 4294
@@ -75,11 +75,11 @@ db.insert(db.countries.CN, "2018-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 28191
 });
 
-db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html",
+db.insert(db.countries.CN, "2018-05", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/06/china-may-2018.html",
 { "other": 1632554
 });
 
-db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/06/china-may-2018.html",
+db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/06/china-may-2018.html",
 { "BAIC|EC-Series": 12624
 , "JAC|iEV7 S/E": 2517
 , "BYD|e5": 3883
@@ -96,11 +96,11 @@ db.insert(db.countries.CN, "2018-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 37405
 });
 
-db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html",
+db.insert(db.countries.CN, "2018-06", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/07/china-june-2018.html",
 { "other": 2161956
 });
 
-db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/07/china-june-2018.html",
+db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/07/china-june-2018.html",
 { "BAIC|EX-Series": 5708
 , "MG|MG5 EV": 4661
 , "Chery|eQ": 4434
@@ -115,11 +115,11 @@ db.insert(db.countries.CN, "2018-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 21143
 });
 
-db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html",
+db.insert(db.countries.CN, "2018-07", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/08/china-july-2018.html",
 { "other": 1652383
 });
 
-db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/08/china-july-2018.html",
+db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/08/china-july-2018.html",
 { "BAIC|EC-Series": 500
 , "JAC|iEV7 S/E": 3853
 , "BYD|e5": 3056
@@ -135,11 +135,11 @@ db.insert(db.countries.CN, "2018-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 18119
 });
 
-db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html",
+db.insert(db.countries.CN, "2018-08", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/09/china-august-2018.html",
 { "other": 1536716
 });
 
-db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/09/china-august-2018.html",
+db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/09/china-august-2018.html",
 { "BAIC|EC-Series": 3028
 , "JAC|iEV7 S/E": 4450
 , "BYD|e5": 4003
@@ -156,11 +156,11 @@ db.insert(db.countries.CN, "2018-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25563
 });
 
-db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html",
+db.insert(db.countries.CN, "2018-09", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/10/china-september-2018.html",
 { "other": 1733350
 });
 
-db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/10/china-september-2018.html",
+db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/10/china-september-2018.html",
 { "BAIC|EC-Series": 3943
 , "JAC|iEV7 S/E": 4621
 , "BYD|e5": 4265
@@ -177,11 +177,11 @@ db.insert(db.countries.CN, "2018-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25867
 });
 
-db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html",
+db.insert(db.countries.CN, "2018-10", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/11/china-october-2018.html",
 { "other": 1777736
 });
 
-db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/11/china-october-2018.html",
+db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/11/china-october-2018.html",
 { "BAIC|EC-Series": 20648
 , "JAC|iEV7 S/E": 4790
 , "BYD|e5": 4460
@@ -198,11 +198,11 @@ db.insert(db.countries.CN, "2018-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 38442
 });
 
-db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html",
+db.insert(db.countries.CN, "2018-11", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2018/12/china-november-2018.html",
 { "other": 1909420
 });
 
-db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2018/12/china-november-2018.html",
+db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2018/12/china-november-2018.html",
 { "BAIC|EC-Series": 14205
 , "JAC|iEV7 S/E": 4507
 , "BYD|e5": 5573
@@ -219,11 +219,11 @@ db.insert(db.countries.CN, "2018-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 39163
 });
 
-db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html",
+db.insert(db.countries.CN, "2018-12", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/01/china-december-2018.html",
 { "other": 1933288
 });
 
-db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/01/china-december-2018.html",
+db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/01/china-december-2018.html",
 { "BAIC|EC-Series": 8407
 , "JAC|iEV7 S/E": 6818
 , "BYD|e5": 8234
@@ -240,11 +240,11 @@ db.insert(db.countries.CN, "2018-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 47655
 });
 
-db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html",
+db.insert(db.countries.CN, "2019-01", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/02/china-january-2019.html",
 { "other": 1958363
 });
 
-db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/02/china-january-2019.html",
+db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/02/china-january-2019.html",
 { "BYD|Yuan EV": 10093
 , "Baojun|E-Series": 8312
 , "BYD|e5": 3968
@@ -262,11 +262,11 @@ db.insert(db.countries.CN, "2019-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 13783
 });
 
-db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html",
+db.insert(db.countries.CN, "2019-02", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/03/china-february-2019.html",
 { "other": 1206898
 });
 
-db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/03/china-february-2019.html",
+db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/03/china-february-2019.html",
 { "BYD|Yuan EV": 4332
 , "Baojun|E-Series": 1011
 , "Chery|eQ": 3157
@@ -284,11 +284,11 @@ db.insert(db.countries.CN, "2019-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 6068
 });
 
-db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html",
+db.insert(db.countries.CN, "2019-03", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/04/china-march-2019.html",
 { "other": 1857068
 });
 
-db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/04/china-march-2019.html",
+db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/04/china-march-2019.html",
 { "BYD|Yuan EV": 10021
 , "BAIC|EU-Series": 12983
 , "BYD|e5": 8083
@@ -307,11 +307,11 @@ db.insert(db.countries.CN, "2019-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 14683
 });
 
-db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html",
+db.insert(db.countries.CN, "2019-04", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/05/china-april-2019.html",
 { "other": 1579325
 });
 
-db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/05/china-april-2019.html",
+db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/05/china-april-2019.html",
 { "BYD|Yuan EV": 6428
 , "BAIC|EU-Series": 4738
 , "BYD|e5": 4602
@@ -330,11 +330,11 @@ db.insert(db.countries.CN, "2019-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 10087
 });
 
-db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html",
+db.insert(db.countries.CN, "2019-05", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/06/china-may-2019.html",
 { "other": 1542952
 });
 
-db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/06/china-may-2019.html",
+db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/06/china-may-2019.html",
 { "BYD|Yuan EV": 6044
 , "BAIC|EU-Series": 7079
 , "BYD|e5": 3173
@@ -352,11 +352,11 @@ db.insert(db.countries.CN, "2019-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 12013
 });
 
-db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html",
+db.insert(db.countries.CN, "2019-06", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/07/china-june-2019.html",
 { "other": 1693408
 });
 
-db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/07/china-june-2019.html",
+db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/07/china-june-2019.html",
 { "BAIC|EU-Series": 17916
 , "BYD|Yuan EV": 6566
 , "BYD|e5": 3793
@@ -374,11 +374,11 @@ db.insert(db.countries.CN, "2019-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 21297
 });
 
-db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html",
+db.insert(db.countries.CN, "2019-07", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/08/china-july-2019.html",
 { "other": 1490059
 });
 
-db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/08/china-july-2019.html",
+db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/08/china-july-2019.html",
 { "BAIC|EU-Series": 8937
 , "BYD|Yuan EV": 6400
 , "BYD|e5": 126
@@ -395,11 +395,11 @@ db.insert(db.countries.CN, "2019-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 8357
 });
 
-db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html",
+db.insert(db.countries.CN, "2019-08", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/09/china-august-2019.html",
 { "other": 1932259
 });
 
-db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/09/china-august-2019.html",
+db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/09/china-august-2019.html",
 { "BAIC|EU-Series": 7580
 , "BYD|Yuan EV": 5468
 , "Baojun|E-Series": 8698
@@ -417,11 +417,11 @@ db.insert(db.countries.CN, "2019-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 8648
 });
 
-db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html",
+db.insert(db.countries.CN, "2019-09", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/10/china-september-2019.html",
 { "other": 1876993
 });
 
-db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/10/china-september-2019.html",
+db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/10/china-september-2019.html",
 { "BAIC|EU-Series": 8710
 , "BYD|Yuan EV": 3366
 , "Baojun|E-Series": 5353
@@ -439,11 +439,11 @@ db.insert(db.countries.CN, "2019-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 9446
 });
 
-db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html",
+db.insert(db.countries.CN, "2019-10", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/11/china-october-2019.html",
 { "other": 1885316
 });
 
-db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/11/china-october-2019.html",
+db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/11/china-october-2019.html",
 { "BAIC|EU-Series": 7623
 , "BYD|Yuan EV": 3227
 , "Baojun|E-Series": 4636
@@ -461,11 +461,11 @@ db.insert(db.countries.CN, "2019-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 34214
 });
 
-db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
+db.insert(db.countries.CN, "2019-11", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
 { "other": 2031801
 });
 
-db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
+db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2019/12/china-november-2019-updated.html",
 { "Baojun|E-Series": 9809
 , "BAIC|EU-Series": 6258
 , "Aion|S": 5538
@@ -483,11 +483,11 @@ db.insert(db.countries.CN, "2019-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 44721
 });
 
-db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html",
+db.insert(db.countries.CN, "2019-12", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/01/china-december-2019.html",
 { "other": 2145559
 });
 
-db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/01/china-december-2019.html",
+db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/01/china-december-2019.html",
 { "BAIC|EU-Series": 21963
 , "BYD|Yuan EV": 1434
 , "Baojun|E-Series": 8352
@@ -506,11 +506,11 @@ db.insert(db.countries.CN, "2019-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 75298
 });
 
-db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
+db.insert(db.countries.CN, "2020-01", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/02/china-january-2020.html",
 { "other": 1509717
 });
 
-db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/02/china-january-2020.html",
+db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/02/china-january-2020.html",
 { "Tesla|Model 3": 3183
 , "MG|MG5 EV": 3068
 , "Aion|S": 2648
@@ -525,11 +525,11 @@ db.insert(db.countries.CN, "2020-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 12960
 });
 
-db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
+db.insert(db.countries.CN, "2020-02", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/03/china-february-2020.html",
 { "other": 224077
 });
 
-db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/03/china-february-2020.html",
+db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/03/china-february-2020.html",
 { "Tesla|Model 3": 2284
 , "Aion|S": 1433
 , "MG|MG5 EV": 277
@@ -546,11 +546,11 @@ db.insert(db.countries.CN, "2020-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 2117
 });
 
-db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
+db.insert(db.countries.CN, "2020-03", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/04/china-march-2020.html",
 { "other": 1037829
 });
 
-db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/04/china-march-2020.html",
+db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/04/china-march-2020.html",
 { "Tesla|Model 3": 11280
 , "BYD|Qin EV": 5271
 , "BAIC|EU-Series": 4450
@@ -567,11 +567,11 @@ db.insert(db.countries.CN, "2020-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 11431
 });
 
-db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
+db.insert(db.countries.CN, "2020-04", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/05/china-april-2020.html",
 { "other": 1503555
 });
 
-db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/05/china-april-2020.html",
+db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/05/china-april-2020.html",
 { "Tesla|Model 3": 4312
 , "BYD|Qin EV": 5096
 , "Aion|S": 3586
@@ -587,11 +587,11 @@ db.insert(db.countries.CN, "2020-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 16044
 });
 
-db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
+db.insert(db.countries.CN, "2020-05", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/06/china-may-2020.html",
 { "other": 1635760
 });
 
-db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/06/china-may-2020.html",
+db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/06/china-may-2020.html",
 { "Tesla|Model 3": 11468
 , "BYD|Qin EV": 3201
 , "Aion|S": 3892
@@ -607,11 +607,11 @@ db.insert(db.countries.CN, "2020-05", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 17386
 });
 
-db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
+db.insert(db.countries.CN, "2020-06", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/07/china-june-2020.html",
 { "other": 1631279
 });
 
-db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/07/china-june-2020.html",
+db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/07/china-june-2020.html",
 { "Tesla|Model 3": 15023
 , "BYD|Qin EV": 4303
 , "Aion|S": 3695
@@ -628,11 +628,11 @@ db.insert(db.countries.CN, "2020-06", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 19739
 });
 
-db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html",
+db.insert(db.countries.CN, "2020-07", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/08/china-july-2020.html",
 { "other": 1643229
 });
 
-db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/08/china-july-2020.html",
+db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/08/china-july-2020.html",
 { "Tesla|Model 3": 11575
 , "BYD|Qin EV": 3400
 , "Aion|S": 3685
@@ -650,11 +650,11 @@ db.insert(db.countries.CN, "2020-07", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 25811
 });
 
-db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
+db.insert(db.countries.CN, "2020-08", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/09/china-august-2020.html",
 { "other": 1729715
 });
 
-db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/09/china-august-2020.html",
+db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/09/china-august-2020.html",
 { "Tesla|Model 3": 11811
 , "Wuling|Hongguang Mini EV": 9150
 , "Aion|S": 4071
@@ -671,11 +671,11 @@ db.insert(db.countries.CN, "2020-08", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 28631
 });
 
-db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html",
+db.insert(db.countries.CN, "2020-09", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/10/china-september-2020.html",
 { "other": 2050124
 });
 
-db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/10/china-september-2020.html",
+db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/10/china-september-2020.html",
 { "Wuling|Hongguang Mini EV": 14495
 , "Tesla|Model 3": 11329
 , "GWM|Ora R1": 5141
@@ -693,11 +693,11 @@ db.insert(db.countries.CN, "2020-09", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 33251
 });
 
-db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html",
+db.insert(db.countries.CN, "2020-10", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/11/china-october-2020.html",
 { "other": 2070469
 });
 
-db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/11/china-october-2020.html",
+db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/11/china-october-2020.html",
 { "Wuling|Hongguang Mini EV": 20631
 , "Tesla|Model 3": 12143
 , "GWM|Ora R1": 6269
@@ -713,11 +713,11 @@ db.insert(db.countries.CN, "2020-10", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 33434
 });
 
-db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html",
+db.insert(db.countries.CN, "2020-11", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2020/12/china-november-2020.html",
 { "other": 2269949
 });
 
-db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2020/12/china-november-2020.html",
+db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2020/12/china-november-2020.html",
 { "Wuling|Hongguang Mini EV": 33094
 , "Tesla|Model 3": 21606
 , "GWM|Ora R1": 9463
@@ -734,11 +734,11 @@ db.insert(db.countries.CN, "2020-11", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 45532
 });
 
-db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
+db.insert(db.countries.CN, "2020-12", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2021/01/china-december-2020.html",
 { "other": 2349468
 });
 
-db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/01/china-december-2020.html",
+db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2021/01/china-december-2020.html",
 { "Wuling|Hongguang Mini EV": 33489
 , "Tesla|Model 3": 23804
 , "GWM|Ora R1": 10010
@@ -754,11 +754,11 @@ db.insert(db.countries.CN, "2020-12", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 44315
 });
 
-db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
+db.insert(db.countries.CN, "2021-01", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2021/02/china-january-2021.html",
 { "other": 1950403
 });
 
-db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/02/china-january-2021.html",
+db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2021/02/china-january-2021.html",
 { "Wuling|Hongguang Mini EV": 36762
 , "Tesla|Model 3": 13843
 , "BYD|Han EV": 9298
@@ -773,11 +773,11 @@ db.insert(db.countries.CN, "2021-01", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 66738
 });
 
-db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html",
+db.insert(db.countries.CN, "2021-02", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2021/03/china-february-2021.html",
 { "other": 1094330
 });
 
-db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/03/china-february-2021.html",
+db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2021/03/china-february-2021.html",
 { "Wuling|Hongguang Mini EV": 20167
 , "Tesla|Model 3": 13688
 , "Tesla|Model Y": 4630
@@ -795,11 +795,11 @@ db.insert(db.countries.CN, "2021-02", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 30027
 });
 
-db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html",
+db.insert(db.countries.CN, "2021-03", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2021/04/china-march-2021.html",
 { "other": 1816550
 });
 
-db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/04/china-march-2021.html",
+db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2021/04/china-march-2021.html",
 { "Wuling|Hongguang Mini EV": 39745
 , "Tesla|Model 3": 25327
 , "Tesla|Model Y": 10151
@@ -815,11 +815,11 @@ db.insert(db.countries.CN, "2021-03", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 74008
 });
 
-db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsTotal, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html",
+db.insert(db.countries.CN, "2021-04", db.dsTypes.AllCarsTotal, "https://ev-sales.blogspot.com/2021/05/china-april-2021.html",
 { "other": 1657279
 });
 
-db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev-sales.blogspot.com/2021/05/china-april-2021.html",
+db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "https://ev-sales.blogspot.com/2021/05/china-april-2021.html",
 { "Wuling|Hongguang Mini EV": 29251
 , "Tesla|Model 3": 6264
 , "BYD|Han EV": 5746
@@ -834,11 +834,11 @@ db.insert(db.countries.CN, "2021-04", db.dsTypes.ElectricCarsByModel, "http://ev
 , "other": 82767
 });
 
-db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
+db.insert(db.countries.CN, "2021-05", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20210623012155/https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
 { "other": 1499443
 });
 
-db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
+db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20210623012155/https://cleantechnica.com/2021/06/22/12-plugin-vehicle-share-in-china/",
 { "Wuling|Hongguang Mini EV": 26742
 , "Tesla|Model Y": 12728
 , "Tesla|Model 3": 9208
@@ -851,11 +851,11 @@ db.insert(db.countries.CN, "2021-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 83374
 });
 
-db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
+db.insert(db.countries.CN, "2021-06", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20210723165652/https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
 { "other": 1483660
 });
 
-db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
+db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20210723165652/https://cleantechnica.com/2021/07/23/record-month-for-plugin-electric-vehicles-in-china-15-share/",
 { "Wuling|Hongguang Mini EV": 29143
 , "Tesla|Model 3": 16514
 , "Tesla|Model Y": 11623
@@ -870,11 +870,11 @@ db.insert(db.countries.CN, "2021-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 105649
 });
 
-db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
+db.insert(db.countries.CN, "2021-07", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20210819001747/https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
 { "other": 1458406
 });
 
-db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
+db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20210819001747/https://cleantechnica.com/2021/08/18/plugin-vehicles-score-15-market-share-in-china-in-july/",
 { "Wuling|Hongguang Mini EV": 30706
 , "Changan|Benni EV": 8701
 , "Tesla|Model 3": 6601
@@ -888,11 +888,11 @@ db.insert(db.countries.CN, "2021-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 122611
 });
 
-db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
+db.insert(db.countries.CN, "2021-08", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20210926170317/https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
 { "other": 1425509
 });
 
-db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
+db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20210926170317/https://cleantechnica.com/2021/09/26/record-month-for-plugin-vehicles-in-china/",
 { "Wuling|Hongguang Mini EV": 41118
 , "Tesla|Model Y": 11576
 , "BYD|Qin EV": 7633
@@ -907,11 +907,11 @@ db.insert(db.countries.CN, "2021-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 141028
 });
 
-db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
+db.insert(db.countries.CN, "2021-09", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20211023011923/https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
 { "other": 1680955
 });
 
-db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
+db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20211023011923/https://cleantechnica.com/2021/10/22/record-month-for-plugin-vehicle-sales-in-china/",
 { "Wuling|Hongguang Mini EV": 35169
 , "Tesla|Model Y": 33033
 , "Tesla|Model 3": 19120
@@ -928,11 +928,11 @@ db.insert(db.countries.CN, "2021-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 174889
 });
 
-db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
+db.insert(db.countries.CN, "2021-10", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20211124074727/https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
 { "other": 1923628
 });
 
-db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
+db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20211124074727/https://cleantechnica.com/2021/11/24/16-plugin-vehicle-share-in-chinese-auto-market/",
 { "Wuling|Hongguang Mini EV": 39128
 , "Tesla|Model Y": 13303
 , "BYD|Qin EV": 8405
@@ -947,11 +947,11 @@ db.insert(db.countries.CN, "2021-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 169666
 });
 
-db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
+db.insert(db.countries.CN, "2021-11", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20211223181523/https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
 { "other": 2058515
 });
 
-db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
+db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20211223181523/https://cleantechnica.com/2021/12/23/19-plugin-vehicle-share-in-chinese-auto-market/",
 { "Wuling|Hongguang Mini EV": 40395
 , "Tesla|Model Y": 23117
 , "BYD|Qin EV": 10097
@@ -967,11 +967,11 @@ db.insert(db.countries.CN, "2021-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 208449
 });
 
-db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
+db.insert(db.countries.CN, "2021-12", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220122172051/https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
 { "other": 2263821
 });
 
-db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
+db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220122172051/https://cleantechnica.com/2022/01/22/plugin-electric-vehicles-get-21-share-of-auto-market-in-another-record-month-in-china/",
 { "Wuling|Hongguang Mini EV": 55742
 , "Tesla|Model Y": 40194
 , "Tesla|Model 3": 29967
@@ -990,11 +990,11 @@ db.insert(db.countries.CN, "2021-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 81347
 });
 
-db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
+db.insert(db.countries.CN, "2022-01", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220302035828/https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
 { "other": 2126382
 });
 
-db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
+db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220302035828/https://cleantechnica.com/2022/03/01/the-rise-rise-of-the-chinese-ev-market-17-market-share-in-january/",
 { "Wuling|Hongguang Mini EV": 26682
 , "Tesla|Model Y": 16358
 , "BYD|Dolphin": 10602
@@ -1011,11 +1011,11 @@ db.insert(db.countries.CN, "2022-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 149607
 });
 
-db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
+db.insert(db.countries.CN, "2022-02", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220326062317/https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
 { "other": 1413872
 });
 
-db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
+db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220326062317/https://cleantechnica.com/2022/03/25/20-plugin-vehicle-market-share-in-china-byd-shining/",
 { "Wuling|Hongguang Mini EV": 26116
 , "Tesla|Model Y": 18593
 , "BYD|Han EV": 8942
@@ -1033,11 +1033,11 @@ db.insert(db.countries.CN, "2022-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 107390
 });
 
-db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
+db.insert(db.countries.CN, "2022-03", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220424053817/https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
 { "other": 1711746
 });
 
-db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
+db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220424053817/https://cleantechnica.com/2022/04/24/china-electric-car-market-reaches-26-plugin-market-share-in-march/",
 { "Wuling|Hongguang Mini EV": 47563
 , "Tesla|Model Y": 39339
 , "Tesla|Model 3": 25736
@@ -1055,11 +1055,11 @@ db.insert(db.countries.CN, "2022-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 158699
 });
 
-db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
+db.insert(db.countries.CN, "2022-04", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220526062944/https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
 { "other": 871209
 });
 
-db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
+db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220526062944/https://cleantechnica.com/2022/05/26/china-electric-car-market-29-market-share-in-april/",
 { "Wuling|Hongguang Mini EV": 27181
 , "BYD|Dolphin": 12040
 , "BYD|Han EV": 10225
@@ -1074,11 +1074,11 @@ db.insert(db.countries.CN, "2022-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 95129
 });
 
-db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
+db.insert(db.countries.CN, "2022-05", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220624064259/https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
 { "other": 1263254
 });
 
-db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
+db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220624064259/https://cleantechnica.com/2022/06/24/china-electric-car-market-31-market-share-in-may/",
 { "Wuling|Hongguang Mini EV": 34037
 , "BYD|Yuan Plus": 11500
 , "Aion|S": 10503
@@ -1094,11 +1094,11 @@ db.insert(db.countries.CN, "2022-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 179267
 });
 
-db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
+db.insert(db.countries.CN, "2022-06", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220728072140/https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
 { "other": 1960819
 });
 
-db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
+db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220728072140/https://cleantechnica.com/2022/07/28/china-electric-car-market-28-share-of-auto-sales-in-june/",
 { "Tesla|Model Y": 52150
 , "Wuling|Hongguang Mini EV": 46249
 , "Tesla|Model 3": 25788
@@ -1115,11 +1115,11 @@ db.insert(db.countries.CN, "2022-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 219878
 });
 
-db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
+db.insert(db.countries.CN, "2022-07", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220824133038/https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
 { "other": 1817502
 });
 
-db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
+db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220824133038/https://cleantechnica.com/2022/08/24/china-electric-car-sales-28-share-of-auto-sales-in-july/",
 { "Wuling|Hongguang Mini EV": 37128
 , "BYD|Dolphin": 20493
 , "BYD|Yuan Plus": 19239
@@ -1136,11 +1136,11 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 212202
 });
 
-db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
+db.insert(db.countries.CN, "2022-08", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20220923041027/https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
 { "other": 1803891
 });
 
-db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
+db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20220923041027/https://cleantechnica.com/2022/09/23/china-electric-car-sales-30-share-of-auto-sales-in-august/",
 { "Wuling|Hongguang Mini EV": 33866
 , "Tesla|Model Y": 31796
 , "BYD|Dolphin": 23469
@@ -1155,11 +1155,11 @@ db.insert(db.countries.CN, "2022-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 235082
 });
 
-db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
+db.insert(db.countries.CN, "2022-09", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20221025064529/https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
 { "other": 1770531
 });
 
-db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
+db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20221025064529/https://cleantechnica.com/2022/10/24/china-electric-car-sales-35-share-of-auto-sales-in-september/",
 { "Tesla|Model Y": 46694
 , "Wuling|Hongguang Mini EV": 37416
 , "Tesla|Model 3": 30919
@@ -1175,11 +1175,11 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 241926
 });
 
-db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
+db.insert(db.countries.CN, "2022-10", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20221124084519/https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
 { "other": 1811385
 });
 
-db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
+db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20221124084519/https://cleantechnica.com/2022/11/24/china-electric-car-sales-22-fully-electric-31-have-a-plug/",
 { "Wuling|Hongguang Mini EV": 41255
 , "BYD|Yuan Plus": 26648
 , "BYD|Dolphin": 25240
@@ -1194,11 +1194,11 @@ db.insert(db.countries.CN, "2022-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "other": 227724
 });
 
-db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
+db.insert(db.countries.CN, "2022-11", db.dsTypes.AllCarsTotal, "https://web.archive.org/web/20221230172230/https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
 { "other": 1735238
 });
 
-db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
+db.insert(db.countries.CN, "2022-11", db.dsTypes.ElectricCarsByModel, "https://web.archive.org/web/20221230172230/https://cleantechnica.com/2022/12/30/china-electric-car-sales-25-fully-electric-35-have-a-plug/",
 { "Tesla|Model Y": 52424
 , "Wuling|Hongguang Mini EV": 31982
 , "BYD|Dolphin": 26029
