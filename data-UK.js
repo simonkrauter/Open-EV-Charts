@@ -1811,6 +1811,7 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 34
 , "Mazda|MX-30 BEV": 33
 , "Smart|Fortwo ED": 27
+, "BYD|Yuan Plus": 24
 , "Hyundai|other": 63
 , "Vauxhall|other": 55
 , "Mercedes-Benz|other": 47
@@ -1819,7 +1820,6 @@ db.insert(db.countries.UK, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 32
 , "Kia|other": 30
 , "Volkswagen|other": 29
-, "BYD|other": 24
 , "Audi|other": 22
 , "Peugeot|other": 22
 , "Honda|other": 21
@@ -2183,40 +2183,40 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.sm
 });
 
 db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2023/8 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
-{ "Tesla|Model Y": 2310
-, "Tesla|Model 3": 1580
-, "MG|MG4 EV": 1321
-, "Polestar|2": 872
-, "Kia|Niro EV": 697
-, "Audi|Q4 e-tron": 643
-, "BMW|iX1": 574
-, "Volkswagen|ID.4": 546
-, "MG|ZS EV": 538
-, "Škoda|Enyaq": 470
-, "BMW|i4": 417
-, "Renault|Megane E-Tech": 396
-, "Volkswagen|ID.3": 377
-, "Kia|EV6": 358
-, "Hyundai|Ioniq 5": 342
-, "BMW|iX3": 326
-, "Vauxhall|Mokka-e": 323
-, "Cupra|Born": 317
-, "Hyundai|Kona Electric": 307
-, "Mercedes-Benz|EQA": 294
-, "BMW|iX": 282
-, "Porsche|Taycan": 254
-, "Mercedes-Benz|EQC": 226
-, "Audi|Q8 e-tron": 223
-, "Nissan|Leaf": 219
-, "Volvo|EX40": 215
-, "Mini|Cooper SE": 196
+{ "Tesla|Model Y": 2317
+, "Tesla|Model 3": 1585
+, "MG|MG4 EV": 1325
+, "Polestar|2": 874
+, "Kia|Niro EV": 699
+, "Audi|Q4 e-tron": 645
+, "BMW|iX1": 576
+, "Volkswagen|ID.4": 548
+, "MG|ZS EV": 539
+, "Škoda|Enyaq": 471
+, "BMW|i4": 418
+, "Renault|Megane E-Tech": 398
+, "Volkswagen|ID.3": 378
+, "Kia|EV6": 359
+, "Hyundai|Ioniq 5": 343
+, "BMW|iX3": 327
+, "Vauxhall|Mokka-e": 324
+, "Cupra|Born": 318
+, "Hyundai|Kona Electric": 308
+, "Mercedes-Benz|EQA": 295
+, "BMW|iX": 283
+, "Porsche|Taycan": 255
+, "Mercedes-Benz|EQC": 227
+, "Audi|Q8 e-tron": 224
+, "Nissan|Leaf": 220
+, "Volvo|EX40": 216
+, "Mini|Cooper SE": 197
 , "Mercedes-Benz|EQB": 174
-, "Peugeot|e-2008": 160
+, "Peugeot|e-2008": 161
 , "Ford|Mustang Mach-E": 139
 , "Volkswagen|ID.5": 136
 , "Vauxhall|Astra Electric": 117
-, "Volvo|EC40": 102
-, "Mercedes-Benz|EQE": 99
+, "Volvo|EC40": 103
+, "Mercedes-Benz|EQE": 100
 , "Jaguar|I-Pace": 94
 , "Fiat|500e": 91
 , "Audi|e-tron GT": 88
@@ -2228,14 +2228,15 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Combo-e": 65
 , "Hyundai|Ioniq 6": 64
 , "BYD|Yuan Plus": 58
-, "Renault|Zoe": 53
+, "Renault|Zoe": 54
 , "Mazda|MX-30 BEV": 44
 , "Citroën|ë-C4": 34
 , "Smart|Hashtag 1": 33
+, "Jeep|Avenger EV": 21
 , "Tesla|other": 79
 , "BMW|other": 78
 , "Audi|other": 69
-, "Volkswagen|other": 49
+, "Volkswagen|other": 50
 , "Kia|other": 47
 , "Mercedes-Benz|other": 36
 , "Renault|other": 36
@@ -2243,12 +2244,11 @@ db.insert(db.countries.UK, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 33
 , "Vauxhall|other": 23
 , "Fiat|other": 21
-, "Jeep|other": 21
 , "Peugeot|other": 14
 , "Porsche|other": 12
 , "Ford|other": 11
 , "Škoda|other": 10
-, "other": 85
+, "other": 34
 });
 
 db.insert(db.countries.UK, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2425,7 +2425,7 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 293
 , "Volvo|EC40": 291
 , "BMW|i5": 240
-, "Ford|Mustang Mach-E": 229
+, "Ford|Mustang Mach-E": 240
 , "Hyundai|Ioniq 6": 206
 , "Vauxhall|Mokka-e": 203
 , "Jaguar|I-Pace": 180
@@ -2446,8 +2446,8 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 69
 , "Vauxhall|Combo-e": 59
 , "Mercedes-Benz|EQS": 56
+, "Renault|Zoe": 54
 , "BMW|other": 85
-, "Renault|other": 70
 , "Audi|other": 67
 , "Citroën|other": 54
 , "Kia|other": 49
@@ -2464,10 +2464,11 @@ db.insert(db.countries.UK, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 17
 , "Volvo|other": 17
 , "Nissan|other": 16
+, "Renault|other": 16
 , "Honda|other": 14
 , "Toyota|other": 13
 , "Škoda|other": 13
-, "other": 1621
+, "other": 1610
 });
 
 db.insert(db.countries.UK, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -2979,8 +2980,8 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 618
 , "BMW|iX": 595
 , "Audi|Q8 e-tron": 589
+, "Ford|Mustang Mach-E": 544
 , "Mercedes-Benz|EQE": 543
-, "Ford|Mustang Mach-E": 540
 , "Jeep|Avenger EV": 475
 , "Porsche|Taycan": 425
 , "BMW|iX3": 413
@@ -3018,7 +3019,7 @@ db.insert(db.countries.UK, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 38
 , "Volvo|other": 38
 , "Tesla|other": 27
-, "other": 3389
+, "other": 3385
 });
 
 db.insert(db.countries.UK, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3078,7 +3079,7 @@ db.insert(db.countries.UK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 475
 , "Polestar|2": 470
 , "BMW|iX1": 438
-, "Ford|Mustang Mach-E": 392
+, "Ford|Mustang Mach-E": 396
 , "BMW|iX3": 376
 , "Volkswagen|ID.4": 359
 , "Peugeot|e-2008": 352
@@ -3125,7 +3126,7 @@ db.insert(db.countries.UK, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 19
 , "Renault|other": 19
 , "Audi|other": 13
-, "other": 2041
+, "other": 2037
 });
 
 db.insert(db.countries.UK, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3190,7 +3191,7 @@ db.insert(db.countries.UK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Corsa-e": 413
 , "Mini|Cooper SE": 403
 , "Kia|EV6": 395
-, "Ford|Mustang Mach-E": 374
+, "Ford|Mustang Mach-E": 378
 , "BMW|i5": 352
 , "Toyota|bZ4X": 309
 , "Polestar|2": 296
@@ -3228,7 +3229,8 @@ db.insert(db.countries.UK, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 48
 , "Peugeot|other": 30
 , "Hyundai|other": 20
-, "other": 2543
+, "Polestar|other": 16
+, "other": 2523
 });
 
 db.insert(db.countries.UK, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3293,7 +3295,7 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 483
 , "Volvo|EX40": 477
 , "Hyundai|Ioniq 5": 447
-, "Ford|Mustang Mach-E": 423
+, "Ford|Mustang Mach-E": 429
 , "Kia|Niro EV": 405
 , "Peugeot|E-3008": 398
 , "Vauxhall|Corsa-e": 386
@@ -3337,7 +3339,7 @@ db.insert(db.countries.UK, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 41
 , "Vauxhall|other": 22
 , "Tesla|other": 21
-, "other": 2635
+, "other": 2629
 });
 
 db.insert(db.countries.UK, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3407,7 +3409,7 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 324
 , "Renault|Megane E-Tech": 302
 , "Peugeot|e-2008": 298
-, "Ford|Mustang Mach-E": 286
+, "Ford|Mustang Mach-E": 296
 , "Audi|Q8 e-tron": 264
 , "Vauxhall|Corsa-e": 255
 , "Hyundai|Ioniq 5": 254
@@ -3429,7 +3431,7 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 116
 , "Mazda|MX-30 BEV": 102
 , "Renault|Scénic E-Tech": 98
-, "Audi|other": 281
+, "Audi|other": 292
 , "Volkswagen|other": 263
 , "Peugeot|other": 240
 , "Mercedes-Benz|other": 202
@@ -3439,8 +3441,8 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 118
 , "Smart|other": 110
 , "Volvo|other": 85
+, "Polestar|other": 72
 , "Tesla|other": 72
-, "Polestar|other": 56
 , "GWM|other": 55
 , "BYD|other": 52
 , "Nissan|other": 46
@@ -3453,7 +3455,7 @@ db.insert(db.countries.UK, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 24
 , "Ford|other": 17
 , "Toyota|other": 16
-, "other": 2440
+, "other": 2403
 });
 
 db.insert(db.countries.UK, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3523,7 +3525,7 @@ db.insert(db.countries.UK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 231
 , "MG|ZS EV": 231
 , "Mini|Cooper SE": 225
-, "Ford|Mustang Mach-E": 209
+, "Ford|Mustang Mach-E": 215
 , "Renault|Megane E-Tech": 197
 , "BMW|iX": 195
 , "Peugeot|e-2008": 189
@@ -3548,7 +3550,7 @@ db.insert(db.countries.UK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 141
 , "Peugeot|other": 118
 , "Fiat|other": 96
-, "Audi|other": 83
+, "Audi|other": 84
 , "Smart|other": 79
 , "Mazda|other": 77
 , "MG|other": 68
@@ -3558,7 +3560,7 @@ db.insert(db.countries.UK, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "GWM|other": 12
 , "Hyundai|other": 11
 , "Škoda|other": 10
-, "other": 1797
+, "other": 1790
 });
 
 db.insert(db.countries.UK, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3632,7 +3634,7 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 517
 , "Renault|Megane E-Tech": 516
 , "BYD|Yuan Plus": 488
-, "Ford|Mustang Mach-E": 477
+, "Ford|Mustang Mach-E": 480
 , "Citroën|ë-C4": 430
 , "Volvo|EX40": 428
 , "Peugeot|e-2008": 419
@@ -3658,15 +3660,15 @@ db.insert(db.countries.UK, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 222
 , "Mazda|other": 185
 , "Mercedes-Benz|other": 175
-, "Audi|other": 123
+, "Audi|other": 134
 , "Vauxhall|other": 120
 , "Porsche|other": 114
 , "GWM|other": 113
+, "Polestar|other": 93
 , "Kia|other": 75
 , "MG|other": 71
 , "Smart|other": 64
-, "Polestar|other": 59
-, "other": 4727
+, "other": 4679
 });
 
 db.insert(db.countries.UK, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3730,8 +3732,8 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Mokka-e": 400
 , "Honda|e:Ny1": 387
 , "Renault|Megane E-Tech": 382
+, "Audi|Q6 e-tron": 376
 , "Volvo|EX40": 364
-, "Audi|Q6 e-tron": 346
 , "Hyundai|Ioniq 5": 343
 , "Polestar|2": 341
 , "Nissan|Ariya": 340
@@ -3744,8 +3746,8 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Combo-e": 281
 , "BYD|Dolphin": 277
 , "MG|ZS EV": 273
+, "Ford|Mustang Mach-E": 256
 , "BYD|Yuan Plus": 250
-, "Ford|Mustang Mach-E": 247
 , "Polestar|4": 238
 , "Vauxhall|Grandland Electric": 235
 , "Mercedes-Benz|EQE": 232
@@ -3758,12 +3760,12 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 183
 , "Hyundai|Ioniq 6": 182
 , "Kia|EV9": 182
+, "Polestar|3": 182
 , "Peugeot|other": 335
 , "MG|other": 225
 , "BMW|other": 182
 , "Kia|other": 166
 , "Jeep|other": 161
-, "Polestar|other": 138
 , "Citroën|other": 124
 , "Volvo|other": 123
 , "Vauxhall|other": 120
@@ -3777,7 +3779,7 @@ db.insert(db.countries.UK, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 48
 , "Subaru|other": 19
 , "Hyundai|other": 15
-, "other": 3748
+, "other": 3665
 });
 
 db.insert(db.countries.UK, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3838,8 +3840,8 @@ db.insert(db.countries.UK, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX30": 589
 , "Vauxhall|Combo-e": 555
 , "BMW|i4": 539
+, "Audi|Q6 e-tron": 533
 , "Porsche|Macan Electric": 513
-, "Audi|Q6 e-tron": 499
 , "BMW|i5": 476
 , "Vauxhall|Mokka-e": 455
 , "Volkswagen|ID.5": 449
@@ -3875,17 +3877,17 @@ db.insert(db.countries.UK, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|other": 212
 , "Hyundai|other": 211
 , "MG|other": 196
-, "Ford|other": 191
+, "Ford|other": 193
 , "Audi|other": 189
 , "BMW|other": 175
-, "Polestar|other": 114
+, "Polestar|other": 126
 , "Citroën|other": 109
 , "Volvo|other": 108
 , "Fiat|other": 99
 , "Mazda|other": 77
 , "Smart|other": 73
 , "Cupra|other": 33
-, "other": 4261
+, "other": 4213
 });
 
 db.insert(db.countries.UK, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -3940,9 +3942,9 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 878
 , "Volkswagen|ID.4": 856
 , "Mercedes-Benz|EQB": 855
+, "Audi|Q6 e-tron": 835
 , "Renault|Scénic E-Tech": 822
 , "Hyundai|Kona Electric": 794
-, "Audi|Q6 e-tron": 775
 , "Volkswagen|ID.3": 756
 , "Cupra|Born": 754
 , "BMW|i4": 620
@@ -3972,11 +3974,11 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 218
 , "Peugeot|E-3008": 185
 , "Vauxhall|Corsa-e": 169
-, "Ford|Mustang Mach-E": 163
+, "Ford|Mustang Mach-E": 168
+, "Polestar|3": 167
 , "Mercedes-Benz|EQE": 163
 , "Hyundai|Ioniq 6": 161
 , "Ford|Capri EV": 157
-, "Polestar|3": 151
 , "Peugeot|other": 360
 , "Vauxhall|other": 270
 , "Kia|other": 222
@@ -3987,13 +3989,13 @@ db.insert(db.countries.UK, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 102
 , "Nissan|other": 96
 , "Mercedes-Benz|other": 91
-, "Audi|other": 82
+, "Audi|other": 85
 , "Volvo|other": 72
 , "Mazda|other": 62
 , "Smart|other": 53
 , "Honda|other": 50
 , "Cupra|other": 24
-, "other": 6757
+, "other": 6673
 });
 
 db.insert(db.countries.UK, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -4057,7 +4059,7 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 495
 , "Porsche|Macan Electric": 493
 , "Hyundai|Ioniq 5": 452
-, "Audi|Q6 e-tron": 422
+, "Audi|Q6 e-tron": 448
 , "Polestar|4": 422
 , "Toyota|bZ4X": 421
 , "BYD|Dolphin": 419
@@ -4089,12 +4091,12 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 204
 , "Ford|other": 199
 , "Peugeot|other": 176
+, "Audi|other": 152
 , "Citroën|other": 147
 , "Cupra|other": 137
-, "Audi|other": 123
+, "Polestar|other": 98
 , "Volvo|other": 98
 , "Hyundai|other": 95
-, "Polestar|other": 94
 , "Fiat|other": 80
 , "MG|other": 71
 , "Porsche|other": 67
@@ -4105,7 +4107,7 @@ db.insert(db.countries.UK, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 46
 , "Škoda|other": 38
 , "Vauxhall|other": 29
-, "other": 3731
+, "other": 3672
 });
 
 db.insert(db.countries.UK, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -4149,7 +4151,7 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.sm
 db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/2 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1629
 , "Tesla|Model 3": 1604
-, "Mini|Cooper SE": 1234
+, "Mini|Cooper SE": 1235
 , "Škoda|Enyaq": 537
 , "Audi|Q4 e-tron": 502
 , "Volkswagen|ID.4": 443
@@ -4160,9 +4162,9 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV3": 389
 , "Cupra|Born": 382
 , "Mercedes-Benz|EQA": 377
-, "Hyundai|Kona Electric": 364
+, "Hyundai|Kona Electric": 365
 , "Polestar|4": 324
-, "Audi|Q6 e-tron": 305
+, "Audi|Q6 e-tron": 315
 , "Mercedes-Benz|EQB": 305
 , "Volkswagen|ID.7": 295
 , "Hyundai|Ioniq 5": 289
@@ -4200,12 +4202,12 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 586
 , "Peugeot|other": 248
 , "BMW|other": 225
-, "Ford|other": 199
+, "Ford|other": 200
 , "Vauxhall|other": 160
 , "Volkswagen|other": 147
 , "Kia|other": 141
 , "Hyundai|other": 99
-, "Audi|other": 89
+, "Audi|other": 91
 , "Mercedes-Benz|other": 84
 , "Porsche|other": 82
 , "Polestar|other": 80
@@ -4222,5 +4224,5 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 22
 , "Mazda|other": 20
 , "Dacia|other": 15
-, "other": 2422
+, "other": 2407
 });
