@@ -4150,7 +4150,7 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/2 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1629
-, "Tesla|Model 3": 1604
+, "Tesla|Model 3": 1605
 , "Mini|Cooper SE": 1235
 , "Škoda|Enyaq": 537
 , "Audi|Q4 e-tron": 502
@@ -4164,7 +4164,7 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 377
 , "Hyundai|Kona Electric": 365
 , "Polestar|4": 324
-, "Audi|Q6 e-tron": 315
+, "Audi|Q6 e-tron": 316
 , "Mercedes-Benz|EQB": 305
 , "Volkswagen|ID.7": 295
 , "Hyundai|Ioniq 5": 289
@@ -4178,7 +4178,7 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 224
 , "BMW|iX1": 212
 , "Kia|Niro EV": 208
-, "Nissan|Ariya": 204
+, "Nissan|Ariya": 206
 , "Cupra|Tavascan": 192
 , "Jaguar|I-Pace": 192
 , "Jeep|Avenger EV": 173
@@ -4200,23 +4200,23 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 109
 , "Polestar|2": 107
 , "Tesla|other": 586
-, "Peugeot|other": 248
-, "BMW|other": 225
-, "Ford|other": 200
-, "Vauxhall|other": 160
+, "Peugeot|other": 250
+, "BMW|other": 227
+, "Ford|other": 202
+, "Vauxhall|other": 161
 , "Volkswagen|other": 147
-, "Kia|other": 141
-, "Hyundai|other": 99
-, "Audi|other": 91
-, "Mercedes-Benz|other": 84
+, "Kia|other": 142
+, "Hyundai|other": 100
+, "Audi|other": 93
+, "Mercedes-Benz|other": 87
 , "Porsche|other": 82
 , "Polestar|other": 80
-, "MG|other": 70
+, "MG|other": 71
 , "Fiat|other": 56
 , "Volvo|other": 55
 , "Renault|other": 53
-, "Citroën|other": 48
-, "Nissan|other": 46
+, "Citroën|other": 49
+, "Nissan|other": 47
 , "Škoda|other": 43
 , "Smart|other": 41
 , "Cupra|other": 37
@@ -4224,5 +4224,5 @@ db.insert(db.countries.UK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 22
 , "Mazda|other": 20
 , "Dacia|other": 15
-, "other": 2407
+, "other": 2386
 });
