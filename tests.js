@@ -482,6 +482,9 @@ const testCases =
 , 7006: "all-metrics:DE:ES"
 
 , 8000: "electric-sales:DE:combine-brands"
+, 8001: "electric-sales:DE:Tesla"
+, 8002: "electric-sales:DE:Volkswagen-Group"
+, 8003: "electric-sales:DE:Audi"
 
 , 9000: "all-metrics:DE:split-companies:Volkswagen-Group:Tesla"
 , 9001: "all-metrics:DE:split-brands:Volkswagen:Audi"

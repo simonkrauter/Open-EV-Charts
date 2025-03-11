@@ -515,18 +515,16 @@ var db = {
       param.options = {};
       param.options[this.companyOptions.all] = "All Companies";
       param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.company && chartConfig.detailLevel != this.detailLevels.total);
-      if (chartConfig != null && param.showAsFilter) {
-        if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand) {
-          for (const i in this.companyGroupNames) {
-            const company = this.companyGroupNames[i];
+      if (chartConfig != null && chartConfig.company != null && param.showAsFilter && (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand)) {
+        for (const i in this.companyGroupNames) {
+          const company = this.companyGroupNames[i];
+          param.options[company] = company;
+        }
+      } else {
+        for (const i in this.companies) {
+          const company = this.companies[i];
+          if (company != "other")
             param.options[company] = company;
-          }
-        } else {
-          for (const i in this.companies) {
-            const company = this.companies[i];
-            if (company != "other")
-              param.options[company] = company;
-          }
         }
       }
       param.allOptions = param.options;
@@ -923,7 +921,14 @@ var db = {
 
     if (this.isCompanyBrandModelXProperty(chartConfig))
       chartConfig.detailLevel = "";
-    else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
+    else if (chartConfig.detailLevel == this.detailLevels.total) {
+      if (chartConfig.model != this.modelOptions.all)
+        chartConfig.detailLevel = this.detailLevels.model;
+      else if (chartConfig.brand != this.brandOptions.all)
+        chartConfig.detailLevel = this.detailLevels.brand;
+      else if (chartConfig.company != this.companyOptions.all)
+        chartConfig.detailLevel = this.detailLevels.company;
+    } else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
 
     if (chartConfig.company == null)
