@@ -5710,11 +5710,12 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 109
 , "Honda": 91
 , "BYD": 37
+, "Xpeng": 37
 , "Nio": 36
 , "Smart": 20
 , "Jaguar": 8
 , "Subaru": 4
-, "other": 617
+, "other": 580
 });
 
 db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
@@ -5816,11 +5817,12 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 124
 , "BYD": 111
 , "Cupra": 103
+, "Xpeng": 37
 , "Nio": 14
 , "Smart": 9
 , "Jaguar": 7
 , "Subaru": 4
-, "other": 633
+, "other": 596
 });
 
 db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
@@ -5925,11 +5927,12 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BYD": 116
 , "Polestar": 112
 , "Honda": 95
+, "Xpeng": 66
 , "Nio": 38
 , "Smart": 20
 , "Jaguar": 13
 , "Subaru": 6
-, "other": 581
+, "other": 515
 });
 
 db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/10, https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
@@ -6033,10 +6036,11 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BYD": 164
 , "Porsche": 100
 , "Honda": 85
+, "Xpeng": 85
 , "Nio": 35
 , "Smart": 15
 , "Jaguar": 9
-, "other": 352
+, "other": 267
 });
 
 db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/11, https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
@@ -6140,6 +6144,8 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 157
 , "BYD": 137
 , "Citroën": 118
+, "Xpeng": 115
+, "Zeekr": 97
 , "Land Rover": 84
 , "Smart": 65
 , "Honda": 56
@@ -6147,7 +6153,7 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 26
 , "Porsche": 22
 , "Jaguar": 3
-, "other": 447
+, "other": 235
 });
 
 db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
@@ -6254,11 +6260,13 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 146
 , "Cupra": 134
 , "Polestar": 113
+, "Xpeng": 109
 , "Smart": 83
+, "Zeekr": 79
 , "Nio": 40
 , "Jaguar": 25
 , "Subaru": 17
-, "other": 855
+, "other": 667
 });
 
 db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/1, https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
@@ -6366,10 +6374,12 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 104
 , "Polestar": 89
 , "Smart": 51
+, "Xpeng": 48
+, "Zeekr": 44
 , "Nio": 20
 , "Jaguar": 8
 , "Subaru": 7
-, "other": 766
+, "other": 674
 });
 
 db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/2, https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf",
@@ -6474,11 +6484,13 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 149
 , "MG": 130
 , "Honda": 93
+, "Xpeng": 93
+, "Zeekr": 67
 , "Smart": 44
 , "Nio": 21
 , "Subaru": 11
 , "Jaguar": 10
-, "other": 915
+, "other": 755
 });
 
 db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/3, https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
@@ -6512,7 +6524,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 111
 , "BMW|iX3": 99
 , "Xpeng|G9": 89
-, "Hyundai|Ioniq 5": 85
+, "Hyundai|Ioniq 5": 87
 , "Citroën|ë-C4": 83
 , "Peugeot|e-2008": 83
 , "MG|MG4 EV": 77
@@ -6549,7 +6561,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 13
 , "Porsche|other": 11
 , "Subaru|other": 9
-, "other": 107
+, "other": 105
 });
 
 db.insert(db.countries.NL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/april/",
@@ -6585,10 +6597,12 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 106
 , "Mini": 96
 , "Smart": 67
+, "Xpeng": 62
+, "Zeekr": 64
 , "Nio": 22
 , "Jaguar": 8
 , "Subaru": 5
-, "other": 1054
+, "other": 928
 });
 
 db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
@@ -6612,12 +6626,12 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 103
 , "Opel|Corsa-e": 99
 , "Audi|Q8 e-tron": 96
+, "Hyundai|Ioniq 5": 95
 , "Renault|Megane E-Tech": 94
 , "Mercedes-Benz|EQB": 92
 , "Volkswagen|ID.4": 86
 , "Dacia|Spring": 82
 , "Citroën|ë-C4": 80
-, "Hyundai|Ioniq 5": 75
 , "Nissan|Ariya": 69
 , "Mercedes-Benz|EQA": 67
 , "Cupra|Born": 63
@@ -6660,7 +6674,7 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 8
 , "Toyota|other": 6
 , "Peugeot|other": 5
-, "other": 178
+, "other": 158
 });
 
 db.insert(db.countries.NL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/mei/",
@@ -6695,10 +6709,12 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 164
 , "MG": 133
 , "Honda": 89
+, "Zeekr": 69
+, "Xpeng": 56
 , "Smart": 55
 , "Nio": 20
 , "Jaguar": 11
-, "other": 917
+, "other": 792
 });
 
 db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/5, https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
@@ -6744,10 +6760,10 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|X": 44
 , "Fiat|600e": 42
 , "MG|MG4 EV": 42
+, "Hyundai|Ioniq 5": 37
 , "BYD|Dolphin": 35
 , "Nissan|Ariya": 35
 , "Smart|Hashtag 3": 34
-, "Hyundai|Ioniq 5": 30
 , "MG|MG5 EV": 29
 , "Kia|Soul EV": 27
 , "Opel|Astra Electric": 25
@@ -6774,7 +6790,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 6
 , "Toyota|other": 6
 , "Xpeng|other": 5
-, "other": 86
+, "other": 79
 });
 
 db.insert(db.countries.NL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/juni/",
@@ -6808,11 +6824,13 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 190
 , "Cupra": 151
 , "MG": 132
+, "Xpeng": 98
 , "Honda": 86
+, "Zeekr": 68
 , "Smart": 64
 , "Nio": 14
 , "Jaguar": 7
-, "other": 891
+, "other": 725
 });
 
 db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/6, https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf",
@@ -6820,7 +6838,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 1666
 , "Volvo|EX30": 1172
 , "Volvo|EX40": 503
-, "Kia|Niro EV": 466
+, "Kia|Niro EV": 468
 , "BMW|iX1": 355
 , "Mini|Cooper SE": 335
 , "Peugeot|e-208": 310
@@ -6854,7 +6872,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Proace Electric": 59
 , "Nissan|Ariya": 56
 , "Peugeot|e-308": 55
-, "MG|MG4 EV": 53
+, "MG|MG4 EV": 54
 , "Cupra|Born": 52
 , "Hyundai|Ioniq 6": 51
 , "BYD|Dolphin": 48
@@ -6863,9 +6881,9 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 40
 , "Citroën|ë-C4": 37
 , "MG|MG5 EV": 36
+, "Hyundai|Ioniq 5": 34
 , "Smart|Hashtag 3": 34
 , "Volkswagen|ID.7": 34
-, "Hyundai|Ioniq 5": 33
 , "Fiat|other": 49
 , "Opel|other": 48
 , "Mercedes-Benz|other": 41
@@ -6887,7 +6905,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 9
 , "Ford|other": 9
 , "Cupra|other": 8
-, "other": 81
+, "other": 77
 });
 
 db.insert(db.countries.NL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/juli/",
@@ -6922,11 +6940,13 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 148
 , "Polestar": 109
 , "Honda": 105
+, "Zeekr": 78
 , "Smart": 76
+, "Xpeng": 63
 , "Nio": 41
 , "Subaru": 19
 , "Jaguar": 5
-, "other": 763
+, "other": 622
 });
 
 db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/7, https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -6969,10 +6989,10 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 58
 , "Citroën|ë-Jumpy": 54
 , "BYD|Song Plus": 52
+, "Audi|Q6 e-tron": 49
 , "Mercedes-Benz|EQE": 49
 , "Peugeot|E-3008": 49
 , "Xpeng|G9": 49
-, "Audi|Q6 e-tron": 48
 , "Smart|Hashtag 1": 47
 , "Ford|Explorer EV": 46
 , "Hyundai|Ioniq 6": 46
@@ -6982,25 +7002,26 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 40
 , "Nissan|other": 50
 , "Opel|other": 42
-, "Nio|other": 38
+, "Nio|other": 41
 , "Peugeot|other": 38
 , "Zeekr|other": 34
 , "MG|other": 30
 , "Smart|other": 29
 , "Mercedes-Benz|other": 28
 , "Kia|other": 25
+, "Hyundai|other": 24
 , "Fiat|other": 22
 , "Citroën|other": 21
 , "Tesla|other": 21
-, "Hyundai|other": 19
 , "Porsche|other": 18
 , "Volkswagen|other": 18
 , "BMW|other": 14
+, "Xpeng|other": 14
 , "Honda|other": 13
 , "Ford|other": 9
 , "Toyota|other": 9
 , "Mazda|other": 5
-, "other": 118
+, "other": 95
 });
 
 db.insert(db.countries.NL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/augustus/",
@@ -7034,12 +7055,14 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 154
 , "Porsche": 144
 , "Cupra": 128
+, "Xpeng": 112
 , "Honda": 88
+, "Zeekr": 76
 , "Smart": 71
 , "Nio": 22
 , "Jaguar": 8
 , "Subaru": 4
-, "other": 678
+, "other": 490
 });
 
 db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/8, https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
@@ -7077,10 +7100,11 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-308": 83
 , "Ford|Mustang Mach-E": 71
 , "MG|MG4 EV": 69
-, "Hyundai|Ioniq 5": 65
+, "Hyundai|Ioniq 5": 68
+, "Xpeng|G6": 68
 , "Volkswagen|ID.4": 65
+, "Peugeot|E-3008": 63
 , "Volvo|EC40": 63
-, "Peugeot|E-3008": 62
 , "Peugeot|E-5008": 60
 , "Toyota|bZ4X": 58
 , "Fiat|600e": 57
@@ -7088,13 +7112,12 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Seal": 48
 , "Fiat|500e": 47
 , "Polestar|4": 47
+, "Audi|Q6 e-tron": 46
 , "Zeekr|X": 46
 , "Mercedes-Benz|EQE": 45
 , "Hyundai|Ioniq 6": 42
-, "Opel|Vivaro-e": 40
-, "Audi|Q6 e-tron": 39
+, "Opel|other": 108
 , "Smart|other": 71
-, "Opel|other": 68
 , "BMW|other": 58
 , "Nissan|other": 50
 , "MG|other": 47
@@ -7112,7 +7135,7 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 9
 , "Tesla|other": 9
 , "Renault|other": 6
-, "other": 202
+, "other": 123
 });
 
 db.insert(db.countries.NL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/september/",
@@ -7145,11 +7168,13 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 168
 , "Land Rover": 152
 , "Citroën": 135
+, "Xpeng": 129
 , "Fiat": 106
 , "Smart": 103
+, "Zeekr": 80
 , "Honda": 76
 , "Nio": 21
-, "other": 641
+, "other": 432
 });
 
 db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/9, https://www.acea.auto/files/Press_release_car_registrations_September_2024.pdf",
@@ -7158,7 +7183,7 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX30": 904
 , "Mini|Cooper SE": 654
 , "BMW|iX1": 579
-, "Audi|Q4 e-tron": 548
+, "Audi|Q4 e-tron": 549
 , "Škoda|Enyaq": 461
 , "Volvo|EX40": 300
 , "Kia|Niro EV": 276
@@ -7184,6 +7209,7 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 86
 , "Peugeot|E-3008": 79
 , "Polestar|3": 76
+, "Xpeng|G6": 75
 , "BMW|iX3": 74
 , "BYD|Seal": 69
 , "Kia|EV9": 68
@@ -7202,27 +7228,26 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 3": 39
 , "Fiat|600e": 37
 , "Zeekr|X": 34
-, "Nissan|Ariya": 33
 , "Opel|other": 73
+, "Nissan|other": 53
 , "Tesla|other": 52
 , "Peugeot|other": 51
-, "Audi|other": 41
+, "Audi|other": 47
+, "Citroën|other": 40
 , "Volkswagen|other": 37
 , "MG|other": 36
-, "Citroën|other": 30
 , "BMW|other": 26
+, "Hyundai|other": 24
 , "Mercedes-Benz|other": 24
-, "Hyundai|other": 23
 , "Porsche|other": 22
+, "Nio|other": 21
 , "Fiat|other": 20
-, "Nissan|other": 20
-, "Nio|other": 19
 , "Honda|other": 18
 , "Mazda|other": 15
 , "Renault|other": 14
 , "Cupra|other": 11
 , "BYD|other": 7
-, "other": 150
+, "other": 55
 });
 
 db.insert(db.countries.NL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/oktober/",
@@ -7257,11 +7282,13 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 160
 , "MG": 159
 , "Smart": 142
+, "Xpeng": 127
 , "Honda": 104
+, "Zeekr": 98
 , "Subaru": 14
 , "Nio": 11
 , "Jaguar": 5
-, "other": 673
+, "other": 448
 });
 
 db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/10, https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -7288,11 +7315,11 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 153
 , "BMW|i5": 147
 , "Cupra|Born": 144
+, "Audi|Q6 e-tron": 143
 , "Jeep|Avenger EV": 141
 , "Mercedes-Benz|EQA": 141
 , "Renault|Megane E-Tech": 132
 , "BMW|i4": 120
-, "Audi|Q6 e-tron": 119
 , "Volkswagen|ID.7": 118
 , "Peugeot|E-3008": 117
 , "Opel|Corsa-e": 113
@@ -7304,6 +7331,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 83
 , "Opel|Astra Electric": 78
 , "Mercedes-Benz|EQE": 73
+, "Xpeng|G6": 73
 , "Citroën|ë-Jumpy": 70
 , "Dacia|Spring": 69
 , "Opel|Vivaro-e": 63
@@ -7314,21 +7342,20 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|G9": 52
 , "Peugeot|e-308": 50
 , "BYD|Seal": 49
-, "Polestar|4": 46
+, "Polestar|other": 83
 , "Fiat|other": 81
 , "Ford|other": 80
 , "MG|other": 76
 , "Nissan|other": 63
-, "Hyundai|other": 60
+, "Hyundai|other": 62
 , "BMW|other": 57
 , "Audi|other": 45
 , "Zeekr|other": 43
+, "Mercedes-Benz|other": 41
 , "Renault|other": 41
-, "Polestar|other": 37
 , "Kia|other": 30
 , "Opel|other": 27
 , "Volkswagen|other": 26
-, "Mercedes-Benz|other": 24
 , "Peugeot|other": 21
 , "Porsche|other": 18
 , "Cupra|other": 14
@@ -7337,7 +7364,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 11
 , "Volvo|other": 9
 , "Subaru|other": 7
-, "other": 228
+, "other": 112
 });
 
 db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/november/",
@@ -7363,93 +7390,96 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 436
 , "Mazda": 434
 , "Citroën": 413
-, "BYD": 449
+, "BYD": 446
 , "Porsche": 229
 , "Polestar": 205
 , "Jeep": 200
 , "Land Rover": 190
+, "Xpeng": 174
 , "Mitsubishi": 165
 , "MG": 163
 , "Fiat": 132
-, "Smart": 105
+, "Zeekr": 103
+, "Smart": 103
 , "Honda": 52
 , "Subaru": 16
 , "Nio": 11
-, "other": 674
+, "other": 402
 });
 
 db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/11, https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
-{ "Tesla|Model Y": 1879
-, "Volvo|EX30": 1253
-, "Tesla|Model 3": 1009
-, "Audi|Q4 e-tron": 727
-, "Mini|Cooper SE": 495
-, "Škoda|Enyaq": 435
-, "Volvo|EX40": 430
-, "BMW|iX1": 390
-, "Ford|Explorer EV": 366
-, "Renault|Scénic E-Tech": 336
-, "Opel|Corsa-e": 316
-, "BYD|Yuan Plus": 275
-, "Hyundai|Kona Electric": 266
-, "Citroën|ë-C3": 253
-, "Mercedes-Benz|EQB": 234
-, "Kia|Niro EV": 227
-, "Volkswagen|ID.3": 210
-, "Volkswagen|ID.4": 207
-, "Cupra|Born": 189
-, "Audi|Q6 e-tron": 176
-, "Volkswagen|ID.7": 171
-, "BMW|i4": 164
-, "BMW|i5": 160
-, "Peugeot|e-208": 153
-, "Dacia|Spring": 144
-, "Mercedes-Benz|EQA": 140
-, "Polestar|2": 133
-, "Cupra|Tavascan": 132
-, "Toyota|bZ4X": 120
-, "Volvo|EC40": 120
-, "Porsche|Macan Electric": 119
-, "Jeep|Avenger EV": 117
-, "Renault|Megane E-Tech": 117
-, "Kia|EV6": 110
-, "MG|MG4 EV": 107
-, "Peugeot|E-3008": 92
-, "Kia|EV3": 90
-, "Ford|Mustang Mach-E": 85
-, "Zeekr|001": 78
-, "Nissan|Ariya": 73
-, "BMW|iX2": 69
-, "Opel|Astra Electric": 69
-, "Xpeng|G9": 66
-, "BYD|Dolphin": 60
-, "Smart|Hashtag 3": 57
-, "Peugeot|e-2008": 56
-, "Polestar|4": 53
-, "Renault|5 E-Tech": 52
-, "Smart|Hashtag 1": 48
-, "Ford|Capri EV": 47
-, "BYD|other": 114
-, "Peugeot|other": 78
-, "Opel|other": 65
-, "Mercedes-Benz|other": 63
-, "BMW|other": 57
-, "Hyundai|other": 54
-, "Fiat|other": 50
-, "Kia|other": 42
-, "MG|other": 40
-, "Citroën|other": 36
-, "Volvo|other": 36
-, "Audi|other": 30
-, "Zeekr|other": 26
-, "Nissan|other": 23
-, "Polestar|other": 20
-, "Porsche|other": 20
-, "Volkswagen|other": 17
-, "Ford|other": 13
-, "Nio|other": 11
-, "Tesla|other": 10
-, "other": 104
+{ "Tesla|Model Y": 1874
+, "Volvo|EX30": 1249
+, "Tesla|Model 3": 1006
+, "Audi|Q4 e-tron": 725
+, "Mini|Cooper SE": 493
+, "Škoda|Enyaq": 433
+, "Volvo|EX40": 428
+, "BMW|iX1": 389
+, "Ford|Explorer EV": 365
+, "Renault|Scénic E-Tech": 335
+, "Opel|Corsa-e": 315
+, "BYD|Yuan Plus": 274
+, "Hyundai|Kona Electric": 265
+, "Citroën|ë-C3": 252
+, "Mercedes-Benz|EQB": 233
+, "Kia|Niro EV": 226
+, "Volkswagen|ID.3": 209
+, "Volkswagen|ID.4": 206
+, "Audi|Q6 e-tron": 189
+, "Cupra|Born": 188
+, "Volkswagen|ID.7": 170
+, "BMW|i4": 163
+, "BMW|i5": 159
+, "Peugeot|e-208": 152
+, "Dacia|Spring": 143
+, "Mercedes-Benz|EQA": 139
+, "Polestar|2": 132
+, "Cupra|Tavascan": 131
+, "Toyota|bZ4X": 119
+, "Volvo|EC40": 119
+, "Porsche|Macan Electric": 118
+, "Jeep|Avenger EV": 116
+, "Renault|Megane E-Tech": 116
+, "Kia|EV6": 109
+, "MG|MG4 EV": 106
+, "Xpeng|G6": 104
+, "Peugeot|E-3008": 91
+, "Kia|EV3": 89
+, "Ford|Mustang Mach-E": 84
+, "Zeekr|001": 77
+, "Nissan|Ariya": 72
+, "BMW|iX2": 68
+, "Opel|Astra Electric": 68
+, "Xpeng|G9": 65
+, "BYD|Dolphin": 59
+, "Smart|Hashtag 3": 56
+, "Peugeot|e-2008": 55
+, "Polestar|4": 52
+, "Renault|5 E-Tech": 51
+, "Hyundai|Ioniq 5": 49
+, "BYD|other": 113
+, "Peugeot|other": 77
+, "Mercedes-Benz|other": 68
+, "Opel|other": 64
+, "Ford|other": 59
+, "BMW|other": 56
+, "Fiat|other": 49
+, "Smart|other": 47
+, "Kia|other": 41
+, "MG|other": 39
+, "Citroën|other": 35
+, "Volvo|other": 35
+, "Audi|other": 29
+, "Zeekr|other": 25
+, "Nissan|other": 22
+, "Polestar|other": 19
+, "Porsche|other": 19
+, "Volkswagen|other": 16
+, "Hyundai|other": 15
+, "Nio|other": 10
+, "Tesla|other": 9
+, "other": 51
 });
 
 db.insert(db.countries.NL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/december/",
@@ -7477,9 +7507,11 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 333
 , "Cupra": 330
 , "Polestar": 270
+, "Xpeng": 231
 , "Suzuki": 221
 , "Mitsubishi": 152
 , "Jeep": 137
+, "Zeekr": 134
 , "Smart": 106
 , "Fiat": 97
 , "Porsche": 82
@@ -7487,7 +7519,7 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 33
 , "Nio": 20
 , "Subaru": 5
-, "other": 661
+, "other": 296
 });
 
 db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/12, https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -7504,11 +7536,11 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 399
 , "Hyundai|Kona Electric": 323
 , "Volkswagen|ID.3": 300
-, "Audi|Q6 e-tron": 278
+, "Audi|Q6 e-tron": 286
 , "Volkswagen|ID.4": 278
 , "Opel|Corsa-e": 277
 , "Kia|Niro EV": 256
-, "Renault|5 E-Tech": 255
+, "Renault|5 E-Tech": 256
 , "Volkswagen|ID.7": 234
 , "MG|MG4 EV": 229
 , "BMW|i4": 222
@@ -7520,6 +7552,7 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|2": 160
 , "Renault|Megane E-Tech": 159
 , "Mercedes-Benz|EQA": 151
+, "Xpeng|G6": 149
 , "Peugeot|e-208": 127
 , "BMW|i5": 121
 , "Mercedes-Benz|EQE": 103
@@ -7528,10 +7561,10 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 88
 , "Volvo|EC40": 88
 , "Peugeot|E-3008": 87
+, "Hyundai|Ioniq 5": 80
 , "Polestar|4": 80
 , "Zeekr|001": 77
 , "BMW|iX3": 74
-, "Hyundai|Ioniq 5": 73
 , "Jeep|Avenger EV": 73
 , "Ford|Mustang Mach-E": 70
 , "Xpeng|G9": 68
@@ -7540,7 +7573,6 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|X": 58
 , "Nissan|Ariya": 54
 , "BYD|Seal": 52
-, "Cupra|Tavascan": 50
 , "Peugeot|other": 113
 , "Opel|other": 98
 , "MG|other": 79
@@ -7548,20 +7580,21 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 60
 , "Porsche|other": 59
 , "Citroën|other": 50
-, "Audi|other": 45
+, "Cupra|other": 50
+, "Audi|other": 46
 , "BYD|other": 44
 , "Ford|other": 43
 , "Smart|other": 41
 , "Nissan|other": 34
 , "Polestar|other": 30
-, "Mercedes-Benz|other": 24
+, "Mercedes-Benz|other": 29
 , "Volkswagen|other": 22
+, "Nio|other": 20
 , "BMW|other": 19
-, "Nio|other": 19
 , "Tesla|other": 15
 , "Xpeng|other": 14
 , "Toyota|other": 10
-, "other": 190
+, "other": 18
 });
 
 db.insert(db.countries.NL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/januari/",
@@ -7596,11 +7629,13 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 132
 , "MG": 118
 , "Polestar": 117
+, "Xpeng": 92
 , "Smart": 64
+, "Zeekr": 49
 , "Subaru": 20
 , "Nio": 14
 , "Jaguar": 11
-, "other": 957
+, "other": 1027
 });
 
 db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/1, https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -7612,8 +7647,8 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 362
 , "Volvo|EX40": 350
 , "Hyundai|Inster": 330
+, "Audi|Q6 e-tron": 306
 , "Mini|Cooper SE": 305
-, "Audi|Q6 e-tron": 297
 , "Volkswagen|ID.4": 293
 , "BMW|iX1": 280
 , "Ford|Explorer EV": 251
@@ -7621,7 +7656,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C3": 176
 , "Hyundai|Ioniq 6": 175
 , "Hyundai|Kona Electric": 171
-, "Hyundai|Ioniq 5": 163
+, "Hyundai|Ioniq 5": 168
 , "Kia|Niro EV": 158
 , "BMW|i4": 155
 , "Volkswagen|ID.7": 141
@@ -7644,6 +7679,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 64
 , "Renault|Megane E-Tech": 62
 , "Kia|EV6": 60
+, "Xpeng|G6": 59
 , "Dacia|Spring": 58
 , "Fiat|500e": 58
 , "Polestar|4": 57
@@ -7653,31 +7689,28 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Seal": 49
 , "Peugeot|e-2008": 48
 , "Toyota|bZ4X": 48
-, "BYD|Yuan Plus": 45
-, "Cupra|Tavascan": 45
-, "Nissan|Ariya": 45
-, "Peugeot|E-5008": 45
+, "BYD|other": 96
+, "Mercedes-Benz|other": 92
+, "Peugeot|other": 89
+, "Cupra|other": 78
 , "Ford|other": 78
 , "Smart|other": 64
-, "Mercedes-Benz|other": 62
 , "Volkswagen|other": 53
-, "BYD|other": 51
 , "Citroën|other": 49
 , "Zeekr|other": 49
-, "Peugeot|other": 44
+, "Nissan|other": 45
 , "Fiat|other": 42
 , "MG|other": 42
 , "Volvo|other": 41
 , "Xpeng|other": 34
-, "Cupra|other": 33
+, "Audi|other": 32
 , "Opel|other": 32
 , "Porsche|other": 31
 , "BMW|other": 21
+, "Nio|other": 14
 , "Škoda|other": 13
 , "Tesla|other": 12
-, "Nio|other": 11
 , "Polestar|other": 9
-, "Audi|other": 7
 , "Toyota|other": 7
-, "other": 281
+, "other": 150
 });
