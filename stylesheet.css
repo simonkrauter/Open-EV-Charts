@@ -149,7 +149,7 @@ a.dropdown.opened {
   border-bottom-right-radius: 0;
 }
 
-a.dropdown > .overlay > *:hover, body.showFocus a.dropdown > .overlay > a:focus {
+a.dropdown > .overlay > *:not(.disabled):hover, body.showFocus a.dropdown > .overlay > a:focus {
   background: var(--clDropdownItemHoverFill);
   outline: none;
   text-decoration: none;
