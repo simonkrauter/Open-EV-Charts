@@ -321,7 +321,7 @@ var db = {
 
   urlEncode: function(str) {
     if (str)
-      return str.replace(/ /g, "-");
+      return str.replaceAll(" ", "-");
   },
 
   isByMonth: function(chartConfig) {
@@ -809,16 +809,16 @@ var db = {
   },
 
   normalizeSearchString: function(s) {
-    s = s.replace(/-/g, "");
-    s = s.replace(/\./g, "");
-    s = s.replace(/ä/g, "ae");
-    s = s.replace(/ö/g, "oe");
-    s = s.replace(/ü/g, "ue");
-    s = s.replace(/ß/g, "ss");
-    s = s.replace(/é/g, "e");
-    s = s.replace(/ë/g, "e");
-    s = s.replace(/Š/g, "s");
     s = s.toLowerCase();
+    s = s.replaceAll("-", "");
+    s = s.replaceAll(".", "");
+    s = s.replaceAll("ä", "ae");
+    s = s.replaceAll("ö", "oe");
+    s = s.replaceAll("ü", "ue");
+    s = s.replaceAll("ß", "ss");
+    s = s.replaceAll("é", "e");
+    s = s.replaceAll("ë", "e");
+    s = s.replaceAll("Š", "s");
     return s;
   },
 
