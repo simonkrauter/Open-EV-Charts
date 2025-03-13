@@ -1502,7 +1502,7 @@ var db = {
 
     // missing countries
     if (chartConfig.country.includes(this.countryOptions.all) && this.isCombinedCountry(chartConfig)) {
-      hints.push("Those are not the 'worldwide' numbers, because several countries are missing.");
+      hints.push("These are not worldwide numbers, as data from several countries is missing.");
     }
 
     // gap detection (missing months in data series)
@@ -1545,9 +1545,9 @@ var db = {
         }
       }
       if (errorIndicatorSum >= 0.2)
-        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top models/brands.</span>");
+        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top-selling models/brands.</span>");
       else if (errorIndicatorSum >= 0.05)
-        hints.push("Data is likely incomplete as it is based on monthly top models/brands.");
+        hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
     }
 
     // parse general hints
