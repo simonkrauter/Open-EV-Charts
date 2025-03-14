@@ -1447,7 +1447,7 @@ function renderCountriesStatusPage() {
       break;
     }
     // collect data from the latest datasets
-    let lastPerQuarter = false;
+    let isLastDatasetPerQuarter = false;
     let latestAllCarsDataset = null;
     let latestEvDataset = null;
     let oldEvDataset = null;
@@ -1459,7 +1459,7 @@ function renderCountriesStatusPage() {
       if (!dataset.isEvs) {
         if (latestAllCarsDataset == null) {
           latestAllCarsDataset = dataset;
-          lastPerQuarter = dataset.perQuarter;
+          isLastDatasetPerQuarter = dataset.perQuarter;
         }
       } else {
         if (latestEvDataset == null)
@@ -1471,10 +1471,14 @@ function renderCountriesStatusPage() {
         }
       }
     }
-    var isOutdated = false;
+    var monthsNewDataIsOverdue = 0;
     if (latestAllCarsDataset != null) {
-      const lastDateMonthsAgo = (Date.now() - new Date(latestAllCarsDataset.monthString)) / 1000 / 60 / 60 / 24 / 30;
-      isOutdated = lastDateMonthsAgo > 5.5;
+      let date = new Date(latestAllCarsDataset.monthString);
+      if (isLastDatasetPerQuarter)
+        date.setMonth(date.getMonth() + 4);
+      else
+        date.setMonth(date.getMonth() + 2);
+      monthsNewDataIsOverdue = (Date.now() - date) / 1000 / 60 / 60 / 24 / 30;
     }
     // collect data from the latest 12 datasets
     let allCarSalesSum = 0;
@@ -1506,7 +1510,7 @@ function renderCountriesStatusPage() {
       let newChartConfig = {};
       newChartConfig.country = countryCode;
       newChartConfig.metric = db.metrics.all;
-      if (lastPerQuarter)
+      if (isLastDatasetPerQuarter)
         newChartConfig.xProperty = db.xProperties.quarter;
       else
         newChartConfig.xProperty = db.xProperties.month;
@@ -1518,52 +1522,61 @@ function renderCountriesStatusPage() {
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      td.appendChild(document.createTextNode(firstMonthString + " – "));
-      const span = document.createElement("SPAN");
-      if (latestAllCarsDataset != null)
+      td.appendChild(document.createTextNode(firstMonthString));
+      td.appendChild(document.createTextNode(" – "));
+      if (latestAllCarsDataset != null) {
+        const span = document.createElement("SPAN");
         span.appendChild(document.createTextNode(latestAllCarsDataset.monthString));
-      if (isOutdated)
-        span.classList.add("outdated");
-      td.appendChild(span);
+        span.classList.add("status");
+        if (monthsNewDataIsOverdue > 2.5)
+          span.classList.add("bad");
+        else if (monthsNewDataIsOverdue > 1)
+          span.classList.add("medium");
+        else
+          span.classList.add("good");
+        td.appendChild(span);
+      }
       td.style.textAlign = "center";
     }
     // interval
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
-      if (lastPerQuarter)
+      if (isLastDatasetPerQuarter)
         td.appendChild(document.createTextNode("Quarter"));
       else
         td.appendChild(document.createTextNode("Month"));
     }
-    // all car data
+    // all car data detailedness
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
       if (latestAllCarsDataset != null) {
-        if (Object.keys(latestAllCarsDataset.data).length > 1)
-          td.appendChild(document.createTextNode("By brand"));
-        else
-          td.appendChild(document.createTextNode("Total only"));
+        const span = document.createElement("SPAN");
+        span.classList.add("status");
+        if (Object.keys(latestAllCarsDataset.data).length > 1) {
+          span.appendChild(document.createTextNode("By brand"));
+          span.classList.add("good");
+        } else {
+          span.appendChild(document.createTextNode("Total only"));
+          span.classList.add("medium");
+        }
+        td.appendChild(span);
       }
     }
-    // ev data
+    // ev data detailedness
     {
       const td = document.createElement("TD");
       tr.appendChild(td);
       if (latestEvDataset) {
-        let text = getEvDetailednessText(latestEvDataset);
+        let span = getEvDetailednessSpan(latestEvDataset);
+        td.appendChild(span);
         if (oldEvDataset != null) {
-          const oldText = getEvDetailednessText(oldEvDataset);
-          if (oldText != text)
-            text = oldText + " / " + text;
-        }
-        td.appendChild(document.createTextNode(text));
-        if (latestEvDataset.source.includes("Incomplete")) {
-          const span = document.createElement("SPAN");
-          span.title = latestEvDataset.source;
-          span.appendChild(document.createTextNode(", incomplete"));
-          td.appendChild(span);
+          const oldSpan = getEvDetailednessSpan(oldEvDataset);
+          if (oldSpan.classList.value != span.classList.value) {
+            td.appendChild(document.createTextNode(" / "));
+            td.appendChild(oldSpan);
+          }
         }
       }
     }
@@ -1592,23 +1605,34 @@ function renderCountriesStatusPage() {
   }
 }
 
-function getEvDetailednessText(dataset) {
+function getEvDetailednessSpan(dataset) {
   let modelCount = 0;
   for (const key in dataset.data) {
     if (key.includes("|") && !key.endsWith("|other"))
       modelCount++;
   }
-  if (modelCount >= 50)
-    return "Top 50 models";
-  if (modelCount >= 20)
-    return "Top 20 models";
-  if (modelCount >= 10)
-    return "Top 10 models";
-  if (modelCount >= 1)
-    return "By brand + some models";
-  if (Object.keys(dataset.data).length > 1)
-    return "By brand";
-  return "Total only";
+  const span = document.createElement("SPAN");
+  span.classList.add("status");
+  if (modelCount >= 48) {
+    span.appendChild(document.createTextNode("Top 50 models"));
+    span.classList.add("good");
+  } else if (modelCount >= 19) {
+    span.appendChild(document.createTextNode("Top 20 models"));
+    span.classList.add("good");
+  } else if (modelCount >= 10) {
+    span.appendChild(document.createTextNode("Top 10 models"));
+    span.classList.add("medium");
+  } else if (modelCount >= 1) {
+    span.appendChild(document.createTextNode("By brand + some models"));
+    span.classList.add("medium");
+  } else if (Object.keys(dataset.data).length > 1) {
+    span.appendChild(document.createTextNode("By brand"));
+    span.classList.add("medium");
+  } else {
+    span.appendChild(document.createTextNode("Total only"));
+    span.classList.add("medium");
+  }
+  return span;
 }
 
 function renderCompaniesStatusPage() {
