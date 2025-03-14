@@ -1,9 +1,7 @@
 Open EV Charts
 ==============
 
-Open EV Charts is an open-source project to collect and visualize sales/registration numbers of passenger cars from various countries.<br>
-The primary goal is to track the adoption of battery electric vehicles (BEVs), both in absolute numbers and market share.<br>
-The chart data aggregation is highly configurable, enabling a wide range of analyses.
+Open EV Charts is an open-source project to collect and visualize sales/registration numbers of passenger cars from various countries. The primary goal is to track the adoption of battery electric vehicles (BEVs), both in absolute numbers and market share. The chart data aggregation is highly configurable, enabling a wide range of analyses.
 
 Online version: https://open-ev-charts.org/
 
