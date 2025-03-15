@@ -70,6 +70,10 @@ label {
   cursor: pointer;
 }
 
+label.disabled, label.disabled * {
+  cursor: default;
+}
+
 a, a:visited {
   color: var(--clBaseLinkText);
   text-decoration: none;
@@ -169,7 +173,6 @@ h1 sup {
   text-align: left;
   white-space: nowrap;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 .dropdown.opened {
@@ -195,6 +198,7 @@ h1 sup {
 .dropdown > .currentValue {
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
 }
 
 .dropdown > .overlay {
@@ -207,6 +211,7 @@ h1 sup {
   max-height: 300px;
   border: 1px solid var(--clBaseLine);
   box-sizing: border-box;
+  background: var(--clButtonActiveHoverFill);
 }
 
 .dropdown:not(.opened) > .overlay {
@@ -214,20 +219,20 @@ h1 sup {
 }
 
 .dropdown > .overlay > * {
-  background: var(--clButtonActiveHoverFill);
   color: var(--clButtonActiveText);
   display: block;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-
-.dropdown > .overlay > label {
-  padding-left: 5px;
 }
 
 .dropdown > .overlay > a {
   padding-left: 8px;
   border-left: 2px solid transparent;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+
+.dropdown > .overlay > label {
+  padding-top: 1.2px;
+  padding-left: 5px;
 }
 
 .dropdown > .overlay > a.selected {
@@ -244,7 +249,7 @@ h1 sup {
   text-decoration: none;
 }
 
-.dropdown > .overlay > label.disabled {
+.dropdown > .overlay > .disabled {
   color: var(--clDropdownItemDisabledText);
 }
 
