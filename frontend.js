@@ -348,7 +348,7 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
       optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false));
-      optionNode.dataset.searchText = optionText + " " + optionKey;
+      optionNode.dataset.searchText = optionText + " " + optionKey + " " + additionalCountrySearchTextByCode[optionKey];
     } else {
       optionNode.appendChild(document.createTextNode(optionText));
       optionNode.dataset.searchText = optionText;
