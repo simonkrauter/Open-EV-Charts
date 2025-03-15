@@ -213,10 +213,11 @@ function renderFilterAsDropdown(parentDiv, param) {
     width += 10;
 
   // Base element
-  let dropdown = createLink();
+  let dropdown = document.createElement("DIV");
   dropdown.id = param.name;
   dropdown.classList.add("dropdown");
   dropdown.style.width = width + "px";
+  dropdown.setAttribute("tabIndex", "0");
   parentDiv.appendChild(dropdown);
 
   // Open/close click handler
@@ -242,9 +243,9 @@ function renderDropdownContent(param, dropdown) {
   const selectedKey = chartSetConfig[param.name];
   const selectedKeys = selectedKey.split(",");
 
-  // Button text container
+  // Current value container
   let textSpan = document.createElement("DIV");
-  textSpan.classList.add("text");
+  textSpan.classList.add("currentValue");
   textSpan.title = param.title;
   dropdown.appendChild(textSpan);
 
@@ -279,7 +280,6 @@ function renderDropdownContent(param, dropdown) {
   // Overlay
   let overlay = document.createElement("DIV");
   overlay.classList.add("overlay");
-  overlay.setAttribute("tabIndex", "-1");
   dropdown.appendChild(overlay);
   for (const optionKey in param.allOptions) {
     let optionElem;

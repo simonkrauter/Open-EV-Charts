@@ -63,6 +63,11 @@ input[type=checkbox] {
   bottom: 1px;
   margin-right: 5px;
   accent-color: var(--clBaseText);
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
 }
 
 a, a:visited {
@@ -110,7 +115,7 @@ a:hover {
   text-decoration-color: var(--clAltLinkLine);
 }
 
-a.button, a.dropdown {
+a.button, .dropdown {
   display: inline-block;
   margin: 6px;
   background: var(--clButtonFill);
@@ -124,7 +129,7 @@ a.button, a.dropdown {
 }
 
 @media (min-width: 800px) {
-  .filters > a.button, .filters > a.dropdown {
+  .filters > a.button, .filters > .dropdown {
     margin-left: 12px;
     margin-right: 12px;
   }
@@ -134,31 +139,18 @@ a.button {
   min-width: 80px;
 }
 
-a.button.active, a.dropdown.active, .horizontalBar, .githubCorner {
+a.button.active, .dropdown.active, .horizontalBar, .githubCorner {
   background: var(--clButtonActiveFill);
   color: var(--clButtonActiveText);
 }
 
-a.button:hover, a.dropdown:hover {
+a.button:hover, .dropdown:hover {
   text-decoration: none;
   background: var(--clButtonHoverFill);
 }
 
-a.button.active:hover, a.dropdown.active:hover {
+a.button.active:hover, .dropdown.active:hover {
   background: var(--clButtonActiveHoverFill);
-}
-
-a.dropdown.opened {
-  background: var(--clButtonActiveHoverFill);
-  color: var(--clButtonActiveText);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-a.dropdown > .overlay > *:not(.disabled):hover, body.showFocus a.dropdown > .overlay > a:focus {
-  background: var(--clDropdownItemHoverFill);
-  outline: none;
-  text-decoration: none;
 }
 
 h1 {
@@ -172,14 +164,22 @@ h1 sup {
   font-size: 45%;
 }
 
-a.dropdown {
+.dropdown {
   position: relative;
   text-align: left;
   white-space: nowrap;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
-a.dropdown::after {
+.dropdown.opened {
+  background: var(--clButtonActiveHoverFill);
+  color: var(--clButtonActiveText);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dropdown::after {
   content: " ";
   position: absolute;
   width: 8px;
@@ -192,12 +192,12 @@ a.dropdown::after {
   transform: rotate(45deg);
 }
 
-a.dropdown > .text {
+.dropdown > .currentValue {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-a.dropdown > .overlay {
+.dropdown > .overlay {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -209,11 +209,11 @@ a.dropdown > .overlay {
   box-sizing: border-box;
 }
 
-a.dropdown:not(.opened) > .overlay {
+.dropdown:not(.opened) > .overlay {
   display: none;
 }
 
-a.dropdown > .overlay > * {
+.dropdown > .overlay > * {
   background: var(--clButtonActiveHoverFill);
   color: var(--clButtonActiveText);
   display: block;
@@ -221,24 +221,30 @@ a.dropdown > .overlay > * {
   padding-bottom: 1px;
 }
 
-a.dropdown > .overlay > label {
+.dropdown > .overlay > label {
   padding-left: 5px;
 }
 
-a.dropdown > .overlay > a {
+.dropdown > .overlay > a {
   padding-left: 8px;
   border-left: 2px solid transparent;
 }
 
-a.dropdown > .overlay > a.selected {
+.dropdown > .overlay > a.selected {
   border-color: var(--clDropdownItemSelectedLine);
 }
 
-a.dropdown, a.dropdown > .overlay > * {
+.dropdown, .dropdown > .overlay > * {
   padding-right: 28px;
 }
 
-a.dropdown > .overlay > label.disabled {
+.dropdown > .overlay > *:not(.disabled):hover, body.showFocus .dropdown > .overlay > a:focus {
+  background: var(--clDropdownItemHoverFill);
+  outline: none;
+  text-decoration: none;
+}
+
+.dropdown > .overlay > label.disabled {
   color: var(--clDropdownItemDisabledText);
 }
 
