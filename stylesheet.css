@@ -42,6 +42,10 @@ body {
   color: var(--clBaseText);
 }
 
+body:not(.showFocus) *:focus {
+  outline: none;
+}
+
 body.showFocus *:focus, input[type=text]:focus, textarea:focus {
   outline: 3px solid var(--clFocusLine);
 }
