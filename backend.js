@@ -405,6 +405,7 @@ var db = {
       param.showAsFilter = chartConfig == null || chartConfig.xProperty != this.xProperties.country;
       param.allowMultiSelection = true;
       param.showAlwaysAsActive = true;
+      param.enableDropdownSearch = true;
       result[param.name] = param;
     }
 
@@ -535,6 +536,7 @@ var db = {
       param.noMultiSelectOptions = [this.companyOptions.all];
       param.showInTitle = chartConfig == null || ((chartConfig.brand == this.brandOptions.all || chartConfig.company == chartConfig.brand) && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
       param.allowMultiSelection = true;
+      param.enableDropdownSearch = true;
       result[param.name] = param;
     }
 
@@ -570,6 +572,7 @@ var db = {
       param.noMultiSelectOptions = [this.brandOptions.all];
       param.showInTitle = chartConfig == null || (chartConfig.brand != chartConfig.company && !this.combineMetricAndCompanyOrBrandInTitle(chartConfig));
       param.allowMultiSelection = true;
+      param.enableDropdownSearch = true;
       result[param.name] = param;
     }
 
@@ -630,6 +633,7 @@ var db = {
       param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
       param.noMultiSelectOptions = [this.modelOptions.all];
       param.allowMultiSelection = true;
+      param.enableDropdownSearch = true;
       result[param.name] = param;
     }
 

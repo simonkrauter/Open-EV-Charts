@@ -226,6 +226,9 @@ h1 sup {
 .dropdown > .overlay > a {
   padding-left: 8px;
   border-left: 2px solid transparent;
+}
+
+.dropdown > .overlay > a, .dropdown > .overlay > .search > .noResults {
   padding-top: 1.5px;
   padding-bottom: 1.5px;
 }
@@ -243,7 +246,7 @@ h1 sup {
   padding-right: 28px;
 }
 
-.dropdown > .overlay > *:not(.disabled):hover, body.showFocus .dropdown > .overlay > a:focus {
+.dropdown > .overlay > *:not(.disabled):not(.search):hover, body.showFocus .dropdown > .overlay > a:focus {
   background: var(--clDropdownItemHoverFill);
   outline: none;
   text-decoration: none;
@@ -251,6 +254,27 @@ h1 sup {
 
 .dropdown > .overlay > .disabled {
   color: var(--clDropdownItemDisabledText);
+}
+
+.dropdown > .overlay > .search {
+  padding-top: 6px;
+  padding-bottom: 0px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.dropdown > .overlay > .search > input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path d='M16.5 18h-.79l-.28-.27c.97-1.13 1.57-2.63 1.57-4.23 0-3.6-2.9-6.5-6.5-6.5s-6.5 2.9-6.5 6.5 2.9 6.5 6.5 6.5c1.6 0 3.09-.59 4.23-1.57l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z' fill='hsl(0,0%,50%)'/></svg>");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  margin-bottom: 6px;
+}
+
+.dropdown > .overlay > .search > .noResults {
+  font-style: italic;
 }
 
 .filters {

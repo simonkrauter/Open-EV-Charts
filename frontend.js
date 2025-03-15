@@ -279,6 +279,32 @@ function renderDropdownContent(param, dropdown) {
   overlay.classList.add("overlay");
   dropdown.appendChild(overlay);
 
+  // Search function
+  if (param.enableDropdownSearch && Object.keys(param.allOptions).length > 13) {
+    let searchDiv = document.createElement("DIV");
+    searchDiv.classList.add("search");
+    overlay.appendChild(searchDiv);
+    searchDiv.addEventListener("click", function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+    });
+
+    let searchBox = document.createElement("INPUT");
+    searchBox.type = "text";
+    searchBox.title = "Search " + param.title;
+    searchDiv.appendChild(searchBox);
+
+    let noSearchResultsDiv = document.createElement("DIV");
+    noSearchResultsDiv.classList.add("noResults");
+    noSearchResultsDiv.appendChild(document.createTextNode("No search results"));
+    noSearchResultsDiv.style.display = "none";
+    searchDiv.appendChild(noSearchResultsDiv);
+
+    searchBox.addEventListener("input", function(event) {
+      updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv);
+    });
+  }
+
   renderDropdownOptions(param, dropdown, currentValueDiv, overlay);
 
   updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
@@ -320,10 +346,13 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
       optionNode.appendChild(checkbox);
     }
     let optionText = param.allOptions[optionKey];
-    if (param.name == "country")
+    if (param.name == "country") {
       optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false));
-    else
+      optionNode.dataset.searchText = optionText + " " + optionKey;
+    } else {
       optionNode.appendChild(document.createTextNode(optionText));
+      optionNode.dataset.searchText = optionText;
+    }
     optionNode.addEventListener("click", function(event) {
       event.preventDefault();
       if (!optionNode.classList.contains("disabled"))
@@ -394,14 +423,39 @@ function updateDropdownState(paramName, dropdown, currentValueDiv, overlay) {
   }
 }
 
+function updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv) {
+  const searchTerm = db.normalizeSearchString(searchBox.value.trim());
+  let resultCount = 0;
+  for (let i = 0; i < overlay.childNodes.length; i++) {
+    const optionNode = overlay.childNodes[i];
+      if (!["LABEL", "A"].includes(optionNode.tagName))
+        continue;
+    if (searchTerm == "" || db.normalizeSearchString(optionNode.dataset.searchText).indexOf(searchTerm) != -1) {
+      optionNode.style.display = "";
+      resultCount++;
+    } else {
+      optionNode.style.display = "none";
+    }
+  }
+  if (resultCount > 0)
+    noSearchResultsDiv.style.display = "none";
+  else
+    noSearchResultsDiv.style.display = "";
+}
+
 function openOrCloseDropdown(param, dropdown) {
   if (openedDropdown == dropdown)
     closeDropdown()
   else if (openedDropdown != dropdown) {
     closeDropdown();
+    renderDropdownContent(param, dropdown);
     dropdown.classList.add("opened");
     openedDropdown = dropdown;
-    dropdown.childNodes[1].firstChild.focus();
+    let node = dropdown.childNodes[1].firstChild;
+    if (node.tagName == "DIV")
+      node.firstChild.focus();
+    else
+      node.focus();
   }
 }
 
