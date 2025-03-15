@@ -816,6 +816,7 @@ var db = {
 
   normalizeSearchString: function(s) {
     s = s.toLowerCase();
+    s = s.replaceAll(" ", "");
     s = s.replaceAll("-", "");
     s = s.replaceAll(".", "");
     s = s.replaceAll("ä", "ae");
@@ -824,7 +825,7 @@ var db = {
     s = s.replaceAll("ß", "ss");
     s = s.replaceAll("é", "e");
     s = s.replaceAll("ë", "e");
-    s = s.replaceAll("Š", "s");
+    s = s.replaceAll("š", "s");
     return s;
   },
 
