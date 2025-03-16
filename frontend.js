@@ -76,6 +76,7 @@ function navigate(renderOnlyCharts = false) {
   sortByName = false;
   isHintsDivExpanded = false;
   currentExportFormat = null;
+  window.scrollTo(0, 0);
 
   if (renderOnlyCharts && chartsDiv != null) {
     updateFilters()
