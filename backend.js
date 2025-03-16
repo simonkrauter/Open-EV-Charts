@@ -1224,6 +1224,7 @@ var db = {
     let filterBrands = [];
     if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
       filterBrands = this.getBrands(chartConfig);
+    const isSingleBrand = filterBrands.length == 1 || (filterCompanies.length == 1 && !this.companyGroupNames.includes(chartConfig.company));
     let filterModels = [];
     if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && onlyEvs)
       filterModels = this.getModels(chartConfig);
@@ -1325,8 +1326,12 @@ var db = {
           else if (chartConfig.detailLevel == this.detailLevels.model && filterModels.length != 1) {
             if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
               seriesName = dataKey + "|other";
-            else
-              seriesName = dataKey;
+            else {
+              if (isSingleBrand)
+                seriesName = model;
+              else
+                seriesName = dataKey;
+            }
           }
         }
 
