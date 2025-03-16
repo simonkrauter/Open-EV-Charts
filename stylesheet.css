@@ -123,6 +123,27 @@ a:hover {
   text-decoration-color: var(--clAltLinkLine);
 }
 
+a.githubCorner {
+  background: var(--clButtonActiveFill);
+  color: var(--clButtonActiveText);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
+a.githubCorner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%, 100% {transform:rotate(0)}
+  20%, 60% {transform:rotate(-25deg)}
+  40%, 80% {transform:rotate(10deg)}
+}
+
 a.button, .dropdown {
   display: inline-block;
   margin: 6px;
@@ -147,7 +168,7 @@ a.button {
   min-width: 80px;
 }
 
-a.button.active, .dropdown.active, .horizontalBar, .githubCorner {
+a.button.active, .dropdown.active, .horizontalBar {
   background: var(--clButtonActiveFill);
   color: var(--clButtonActiveText);
 }
