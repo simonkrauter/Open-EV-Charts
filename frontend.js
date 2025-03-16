@@ -928,20 +928,23 @@ function getAvailableSizeForCharts() {
 }
 
 function getChartSize() {
-  const heightRatio = 0.6;
-  const minWidth = 260;
   const maxWidthMultiChart = 360;
   const maxWidthScreenshotMode = 1000;
   const availableSize = getAvailableSizeForCharts();
-  let wantedWith = Math.min(availableSize[0], availableSize[1] / heightRatio);
+  let heightRatio = 0.6;
+  if (isMobileScreenSize() && window.innerHeight > window.innerWidth && isSingleChart)
+    heightRatio = 0.9;
+  let width = Math.min(availableSize[0], availableSize[1] / heightRatio);
   if (!isSingleChart) {
-    wantedWith = wantedWith / 3.4;
-    wantedWith = Math.min(wantedWith, maxWidthMultiChart);
+    width = width / 3.4;
+    width = Math.min(width, maxWidthMultiChart);
   } else if (isScreenshotModeEnabled)
-    wantedWith = Math.min(wantedWith, maxWidthScreenshotMode);
-  const width = Math.max(wantedWith, minWidth);
-  const height = Math.max(width * heightRatio, minWidth * heightRatio);
-  return [width, height];
+    width = Math.min(width, maxWidthScreenshotMode);
+  if (isSingleChart)
+    width = Math.max(width, 450);
+  else
+    width = Math.max(width, 260);
+  return [width, width * heightRatio];
 }
 
 function getMaxVisibleCharts() {
