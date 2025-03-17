@@ -4837,7 +4837,8 @@ db.insert(db.countries.NO, "2024-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 80
 , "Polestar": 76
 , "Nio": 52
-, "other": 449
+, "Xpeng": 57
+, "other": 392
 });
 
 db.insert(db.countries.NO, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2024",
@@ -4924,8 +4925,9 @@ db.insert(db.countries.NO, "2024-02", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 120
 , "Mazda": 108
 , "Polestar": 102
+, "Xpeng": 78
 , "Nio": 68
-, "other": 768
+, "other": 690
 });
 
 db.insert(db.countries.NO, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2024",
@@ -5009,11 +5011,12 @@ db.insert(db.countries.NO, "2024-03", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Suzuki": 257
 , "BYD": 182
 , "Ford": 179
+, "Xpeng": 156
 , "Peugeot": 135
 , "Kia": 127
 , "Polestar": 122
 , "Mazda": 94
-, "other": 1016
+, "other": 860
 });
 
 db.insert(db.countries.NO, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/3 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mars-2024",
@@ -5095,9 +5098,10 @@ db.insert(db.countries.NO, "2024-04", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mercedes-Benz": 223
 , "Mazda": 195
 , "Polestar": 181
+, "Xpeng": 115
 , "Kia": 108
 , "Peugeot": 95
-, "other": 1014
+, "other": 899
 });
 
 db.insert(db.countries.NO, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/4 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-april-2024",
@@ -5277,7 +5281,8 @@ db.insert(db.countries.NO, "2024-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "BYD": 137
 , "Kia": 117
 , "Peugeot": 84
-, "other": 917
+, "Xpeng": 103
+, "other": 814
 });
 
 db.insert(db.countries.NO, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2024",
@@ -5367,7 +5372,8 @@ db.insert(db.countries.NO, "2024-07", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 93
 , "Kia": 89
 , "Suzuki": 20
-, "other": 771
+, "Xpeng": 176
+, "other": 595
 });
 
 db.insert(db.countries.NO, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/7 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juli-2024",
@@ -5456,7 +5462,8 @@ db.insert(db.countries.NO, "2024-08", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Polestar": 86
 , "Suzuki": 27
 , "MG": 2
-, "other": 878
+, "Xpeng": 174
+, "other": 704
 });
 
 db.insert(db.countries.NO, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/8 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-august-2024",
@@ -5538,6 +5545,7 @@ db.insert(db.countries.NO, "2024-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 458
 , "Mercedes-Benz": 434
 , "Audi": 423
+, "Xpeng": 301
 , "BYD": 289
 , "Ford": 267
 , "Peugeot": 256
@@ -5545,7 +5553,7 @@ db.insert(db.countries.NO, "2024-09", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Mazda": 173
 , "Kia": 117
 , "Suzuki": 13
-, "other": 1248
+, "other": 947
 });
 
 db.insert(db.countries.NO, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/9 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-september-2024",
@@ -5631,12 +5639,13 @@ db.insert(db.countries.NO, "2024-10", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Hyundai": 449
 , "BYD": 374
 , "Peugeot": 272
+, "Xpeng": 242
 , "Polestar": 172
 , "Kia": 84
 , "Mazda": 70
 , "MG": 35
 , "Suzuki": 28
-, "other": 1484
+, "other": 1242
 });
 
 db.insert(db.countries.NO, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2024",
@@ -5726,12 +5735,13 @@ db.insert(db.countries.NO, "2024-11", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Hyundai": 363
 , "BYD": 346
 , "Porsche": 281
+, "Xpeng": 248
 , "Kia": 221
 , "Peugeot": 207
 , "Polestar": 147
 , "MG": 61
 , "Mazda": 32
-, "other": 1022
+, "other": 774
 });
 
 db.insert(db.countries.NO, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/11 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-november-2024",
@@ -5822,12 +5832,13 @@ db.insert(db.countries.NO, "2024-12", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Nissan": 381
 , "Ford": 329
 , "BYD": 286
+, "Xpeng": 240
 , "Kia": 220
 , "Polestar": 162
 , "MG": 143
 , "Peugeot": 103
 , "Mazda": 43
-, "other": 1051
+, "other": 811
 });
 
 db.insert(db.countries.NO, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2024/12 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-desember-2024",
@@ -5917,11 +5928,12 @@ db.insert(db.countries.NO, "2025-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Kia": 225
 , "Peugeot": 221
 , "Polestar": 189
+, "Xpeng": 186
 , "BYD": 178
 , "MG": 132
 , "Mazda": 128
 , "Opel": 124
-, "other": 747
+, "other": 561
 });
 
 db.insert(db.countries.NO, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2025/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2025",
