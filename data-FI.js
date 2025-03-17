@@ -5327,6 +5327,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 4
 , "Porsche|Macan Electric": 4
 , "BMW|iX3": 2
+, "Mercedes-Benz|G-Class EV": 2
 , "Mercedes-Benz|eVito": 2
 , "Opel|Astra Electric": 2
 , "Volkswagen|ID.5": 2
@@ -5341,7 +5342,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 1
 , "Tesla|Model S": 1
 , "Tesla|Model X": 1
-, "other": 132
+, "other": 130
 });
 
 db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2903/September_2024.xlsx",
@@ -5515,6 +5516,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 7
 , "Mini|Cooper SE": 7
 , "BYD|Yuan Plus": 6
+, "Mercedes-Benz|G-Class EV": 6
 , "Peugeot|E-5008": 6
 , "Peugeot|E-3008": 4
 , "Renault|Megane E-Tech": 4
@@ -5534,7 +5536,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 1
 , "Opel|other": 1
 , "Volkswagen|other": 1
-, "other": 162
+, "other": 156
 });
 
 db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2913/November_2024.xlsx",
@@ -5623,7 +5625,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 3
 , "Volkswagen|ID.5": 3
 , "BYD|other": 8
-, "Mercedes-Benz|other": 4
+, "Mercedes-Benz|other": 5
 , "Peugeot|other": 4
 , "Ford|other": 3
 , "Opel|other": 3
@@ -5634,7 +5636,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 183
+, "other": 182
 });
 
 db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2925/December_2024.xlsx",
@@ -5718,6 +5720,7 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 3
 , "BYD|Yuan Plus": 2
 , "Ford|E-Transit": 2
+, "Mercedes-Benz|G-Class EV": 2
 , "Mercedes-Benz|eSprinter": 2
 , "Peugeot|e-2008": 2
 , "Peugeot|e-308": 2
@@ -5726,7 +5729,7 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 3
 , "BMW|other": 2
 , "Peugeot|other": 2
-, "other": 264
+, "other": 262
 });
 
 db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2940/January_2025.xlsx",
@@ -5813,29 +5816,24 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 6
 , "Kia|Niro EV": 6
 , "Peugeot|e-2008": 5
+, "Xpeng|G6": 5
 , "Mercedes-Benz|eSprinter": 4
-, "Audi|Q8 e-tron": 3
-, "BMW|i7": 3
-, "BYD|Yuan Plus": 3
-, "Fiat|600e": 3
-, "Jeep|Avenger EV": 3
-, "Mercedes-Benz|EQS": 3
-, "Peugeot|e-Expert": 3
-, "Peugeot|e-Traveller": 3
-, "Renault|Megane E-Tech": 3
-, "Xpeng|G9": 3
-, "BYD|other": 4
+, "BYD|other": 7
+, "Peugeot|other": 7
+, "Mercedes-Benz|other": 6
+, "Audi|other": 4
+, "BMW|other": 4
+, "Fiat|other": 4
+, "Jeep|other": 3
+, "Renault|other": 3
+, "Xpeng|other": 3
 , "Citroën|other": 2
 , "Opel|other": 2
 , "Porsche|other": 2
 , "Tesla|other": 2
 , "Toyota|other": 2
 , "Volkswagen|other": 2
-, "BMW|other": 1
-, "Fiat|other": 1
 , "Honda|other": 1
 , "MG|other": 1
-, "Mercedes-Benz|other": 1
-, "Peugeot|other": 1
-, "other": 154
+, "other": 146
 });
