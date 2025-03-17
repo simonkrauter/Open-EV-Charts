@@ -79,8 +79,8 @@ db.insert(db.countries.IS, "2017-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Nissan": 157
 , "Ford": 118
 , "Hyundai": 105
+, "Dacia": 104
 , "Renault": 95
-, "Dacia": 84
 , "Suzuki": 79
 , "Volkswagen": 64
 , "Honda": 61
@@ -100,7 +100,7 @@ db.insert(db.countries.IS, "2017-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 1
 , "Opel": 1
 , "Porsche": 1
-, "other": 238
+, "other": 218
 });
 
 db.insert(db.countries.IS, "2017-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -114,8 +114,8 @@ db.insert(db.countries.IS, "2017-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 { "Toyota": 324
 , "Hyundai": 245
 , "Kia": 205
+, "Dacia": 118
 , "Ford": 112
-, "Dacia": 110
 , "Volkswagen": 103
 , "Renault": 97
 , "Nissan": 80
@@ -139,7 +139,7 @@ db.insert(db.countries.IS, "2017-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Citroën": 1
 , "Seat": 1
 , "Tesla": 1
-, "other": 308
+, "other": 300
 });
 
 db.insert(db.countries.IS, "2017-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -157,11 +157,11 @@ db.insert(db.countries.IS, "2017-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Škoda": 295
 , "Volkswagen": 229
 , "Suzuki": 145
+, "Dacia": 142
 , "Renault": 138
 , "Nissan": 137
 , "Ford": 132
 , "Mazda": 100
-, "Dacia": 85
 , "Honda": 74
 , "Land Rover": 71
 , "Subaru": 59
@@ -179,7 +179,7 @@ db.insert(db.countries.IS, "2017-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Fiat": 2
 , "Opel": 1
 , "Seat": 1
-, "other": 600
+, "other": 543
 });
 
 db.insert(db.countries.IS, "2017-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -194,7 +194,7 @@ db.insert(db.countries.IS, "2017-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Kia": 375
 , "Volkswagen": 288
 , "Hyundai": 226
-, "Dacia": 163
+, "Dacia": 171
 , "Nissan": 159
 , "Suzuki": 135
 , "Škoda": 120
@@ -216,7 +216,7 @@ db.insert(db.countries.IS, "2017-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 13
 , "Jeep": 8
 , "Porsche": 8
-, "other": 505
+, "other": 497
 });
 
 db.insert(db.countries.IS, "2017-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -240,7 +240,7 @@ db.insert(db.countries.IS, "2017-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mazda": 52
 , "Subaru": 46
 , "Peugeot": 44
-, "Dacia": 33
+, "Dacia": 35
 , "Land Rover": 33
 , "Volvo": 30
 , "Mercedes-Benz": 28
@@ -254,7 +254,7 @@ db.insert(db.countries.IS, "2017-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 9
 , "Tesla": 4
 , "Jaguar": 2
-, "other": 301
+, "other": 299
 });
 
 db.insert(db.countries.IS, "2017-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -275,9 +275,9 @@ db.insert(db.countries.IS, "2017-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Renault": 59
 , "Ford": 55
 , "Volkswagen": 55
+, "Dacia": 43
 , "Škoda": 42
 , "Peugeot": 39
-, "Dacia": 37
 , "Honda": 36
 , "Audi": 35
 , "Mazda": 29
@@ -294,7 +294,7 @@ db.insert(db.countries.IS, "2017-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 6
 , "Fiat": 2
 , "Jaguar": 2
-, "other": 239
+, "other": 233
 });
 
 db.insert(db.countries.IS, "2017-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -321,9 +321,9 @@ db.insert(db.countries.IS, "2017-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Audi": 22
 , "Mercedes-Benz": 18
 , "Citroën": 11
+, "Dacia": 11
 , "Land Rover": 10
 , "Peugeot": 10
-, "Dacia": 9
 , "Mitsubishi": 8
 , "BMW": 7
 , "Jeep": 7
@@ -333,7 +333,7 @@ db.insert(db.countries.IS, "2017-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 2
 , "Fiat": 1
 , "Seat": 1
-, "other": 221
+, "other": 219
 });
 
 db.insert(db.countries.IS, "2017-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -362,7 +362,7 @@ db.insert(db.countries.IS, "2017-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mercedes-Benz": 20
 , "Peugeot": 20
 , "BMW": 16
-, "Dacia": 13
+, "Dacia": 15
 , "Subaru": 11
 , "Porsche": 10
 , "Citroën": 8
@@ -373,7 +373,7 @@ db.insert(db.countries.IS, "2017-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 3
 , "Jaguar": 2
 , "Tesla": 1
-, "other": 167
+, "other": 165
 });
 
 db.insert(db.countries.IS, "2017-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -405,14 +405,14 @@ db.insert(db.countries.IS, "2017-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "BMW": 15
 , "Jeep": 14
 , "Citroën": 10
+, "Dacia": 10
 , "Mitsubishi": 8
 , "Subaru": 8
-, "Dacia": 6
 , "Porsche": 6
 , "Jaguar": 5
 , "Mini": 4
 , "Opel": 3
-, "other": 211
+, "other": 207
 });
 
 db.insert(db.countries.IS, "2017-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -434,6 +434,7 @@ db.insert(db.countries.IS, "2017-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Honda": 31
 , "Volkswagen": 31
 , "Audi": 21
+, "Dacia": 21
 , "Suzuki": 19
 , "Peugeot": 18
 , "Citroën": 15
@@ -441,7 +442,6 @@ db.insert(db.countries.IS, "2017-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Subaru": 12
 , "Škoda": 12
 , "BMW": 11
-, "Dacia": 11
 , "Mercedes-Benz": 10
 , "Jaguar": 4
 , "Opel": 3
@@ -449,7 +449,7 @@ db.insert(db.countries.IS, "2017-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jeep": 2
 , "Mini": 2
 , "Mitsubishi": 1
-, "other": 153
+, "other": 143
 });
 
 db.insert(db.countries.IS, "2017-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -476,7 +476,7 @@ db.insert(db.countries.IS, "2018-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Audi": 37
 , "Honda": 36
 , "Škoda": 35
-, "Dacia": 28
+, "Dacia": 31
 , "Subaru": 24
 , "BMW": 20
 , "Mercedes-Benz": 15
@@ -488,7 +488,7 @@ db.insert(db.countries.IS, "2018-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Fiat": 4
 , "Jaguar": 4
 , "Tesla": 2
-, "other": 246
+, "other": 243
 });
 
 db.insert(db.countries.IS, "2018-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -505,10 +505,10 @@ db.insert(db.countries.IS, "2018-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Hyundai": 66
 , "Volkswagen": 60
 , "Volvo": 46
+, "Dacia": 43
 , "Nissan": 41
 , "Ford": 40
 , "Renault": 39
-, "Dacia": 37
 , "Peugeot": 33
 , "Škoda": 31
 , "Land Rover": 30
@@ -526,7 +526,7 @@ db.insert(db.countries.IS, "2018-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jeep": 4
 , "Mini": 1
 , "Porsche": 1
-, "other": 174
+, "other": 168
 });
 
 db.insert(db.countries.IS, "2018-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -542,7 +542,7 @@ db.insert(db.countries.IS, "2018-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Nissan": 188
 , "Hyundai": 168
 , "Honda": 113
-, "Dacia": 92
+, "Dacia": 106
 , "Volkswagen": 71
 , "Renault": 65
 , "Ford": 53
@@ -565,7 +565,7 @@ db.insert(db.countries.IS, "2018-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 2
 , "Porsche": 1
 , "Seat": 1
-, "other": 247
+, "other": 233
 });
 
 db.insert(db.countries.IS, "2018-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -585,10 +585,10 @@ db.insert(db.countries.IS, "2018-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Renault": 62
 , "Peugeot": 54
 , "Ford": 50
+, "Dacia": 46
 , "Volvo": 44
 , "Škoda": 38
 , "Citroën": 37
-, "Dacia": 36
 , "Mazda": 31
 , "Land Rover": 26
 , "Audi": 25
@@ -604,7 +604,7 @@ db.insert(db.countries.IS, "2018-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 3
 , "Porsche": 2
 , "Seat": 2
-, "other": 236
+, "other": 226
 });
 
 db.insert(db.countries.IS, "2018-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -622,10 +622,10 @@ db.insert(db.countries.IS, "2018-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 178
 , "Suzuki": 160
 , "Nissan": 138
+, "Dacia": 104
 , "Škoda": 102
 , "Ford": 101
 , "Renault": 101
-, "Dacia": 99
 , "Volvo": 60
 , "Land Rover": 57
 , "Honda": 56
@@ -644,7 +644,7 @@ db.insert(db.countries.IS, "2018-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Seat": 2
 , "Fiat": 1
 , "Jaguar": 1
-, "other": 302
+, "other": 297
 });
 
 db.insert(db.countries.IS, "2018-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -661,7 +661,7 @@ db.insert(db.countries.IS, "2018-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 170
 , "Nissan": 165
 , "Kia": 145
-, "Dacia": 120
+, "Dacia": 128
 , "Renault": 107
 , "Suzuki": 100
 , "Ford": 79
@@ -683,7 +683,7 @@ db.insert(db.countries.IS, "2018-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 4
 , "Porsche": 2
 , "Seat": 1
-, "other": 325
+, "other": 317
 });
 
 db.insert(db.countries.IS, "2018-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -703,8 +703,8 @@ db.insert(db.countries.IS, "2018-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Ford": 87
 , "Volkswagen": 77
 , "Škoda": 73
+, "Dacia": 63
 , "Volvo": 58
-, "Dacia": 56
 , "Renault": 49
 , "Subaru": 48
 , "Honda": 47
@@ -723,7 +723,7 @@ db.insert(db.countries.IS, "2018-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 3
 , "Fiat": 2
 , "Tesla": 1
-, "other": 181
+, "other": 174
 });
 
 db.insert(db.countries.IS, "2018-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -740,8 +740,8 @@ db.insert(db.countries.IS, "2018-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Kia": 129
 , "Hyundai": 124
 , "Nissan": 87
+, "Dacia": 75
 , "Volkswagen": 74
-, "Dacia": 73
 , "Ford": 70
 , "Mazda": 64
 , "Škoda": 51
@@ -763,7 +763,7 @@ db.insert(db.countries.IS, "2018-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 4
 , "Mini": 4
 , "Fiat": 1
-, "other": 234
+, "other": 232
 });
 
 db.insert(db.countries.IS, "2018-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -786,9 +786,9 @@ db.insert(db.countries.IS, "2018-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Audi": 37
 , "Renault": 36
 , "Volkswagen": 33
+, "Dacia": 32
 , "Honda": 28
 , "Škoda": 27
-, "Dacia": 21
 , "Land Rover": 20
 , "Peugeot": 18
 , "BMW": 16
@@ -802,7 +802,7 @@ db.insert(db.countries.IS, "2018-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 6
 , "Porsche": 6
 , "Mitsubishi": 1
-, "other": 119
+, "other": 108
 });
 
 db.insert(db.countries.IS, "2018-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -825,7 +825,7 @@ db.insert(db.countries.IS, "2018-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Honda": 32
 , "Renault": 28
 , "Škoda": 28
-, "Dacia": 25
+, "Dacia": 26
 , "Mazda": 23
 , "Audi": 17
 , "Land Rover": 15
@@ -841,7 +841,7 @@ db.insert(db.countries.IS, "2018-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 2
 , "Jaguar": 1
 , "Xpeng": 1
-, "other": 105
+, "other": 104
 });
 
 db.insert(db.countries.IS, "2018-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -856,10 +856,10 @@ db.insert(db.countries.IS, "2018-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 { "Nissan": 75
 , "Toyota": 64
 , "Kia": 49
+, "Dacia": 45
 , "Volkswagen": 44
 , "Honda": 43
 , "Volvo": 39
-, "Dacia": 38
 , "Hyundai": 36
 , "Ford": 35
 , "Škoda": 31
@@ -879,7 +879,7 @@ db.insert(db.countries.IS, "2018-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 2
 , "Fiat": 1
 , "Porsche": 1
-, "other": 94
+, "other": 87
 });
 
 db.insert(db.countries.IS, "2018-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -897,7 +897,7 @@ db.insert(db.countries.IS, "2018-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mazda": 26
 , "Hyundai": 24
 , "Ford": 22
-, "Dacia": 17
+, "Dacia": 18
 , "Volkswagen": 13
 , "Renault": 12
 , "Suzuki": 12
@@ -914,7 +914,7 @@ db.insert(db.countries.IS, "2018-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jeep": 2
 , "BMW": 1
 , "Porsche": 1
-, "other": 51
+, "other": 50
 });
 
 db.insert(db.countries.IS, "2018-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -928,9 +928,9 @@ db.insert(db.countries.IS, "2018-12", db.dsTypes.ElectricCarsByModel, "https://b
 db.insert(db.countries.IS, "2019-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190215_PRPC_1901_FINAL.pdf",
 { "Toyota": 160
 , "Nissan": 88
+, "Dacia": 73
 , "Hyundai": 68
 , "Kia": 61
-, "Dacia": 53
 , "Mazda": 40
 , "Volvo": 40
 , "Škoda": 34
@@ -950,7 +950,7 @@ db.insert(db.countries.IS, "2019-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 5
 , "Jeep": 4
 , "Mini": 1
-, "other": 82
+, "other": 62
 });
 
 db.insert(db.countries.IS, "2019-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -963,7 +963,7 @@ db.insert(db.countries.IS, "2019-01", db.dsTypes.ElectricCarsByModel, "https://b
 db.insert(db.countries.IS, "2019-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190315_PRPC_1902_FINAL.pdf",
 { "Toyota": 185
 , "Kia": 104
-, "Dacia": 43
+, "Dacia": 58
 , "Mazda": 43
 , "Nissan": 43
 , "Škoda": 36
@@ -986,7 +986,7 @@ db.insert(db.countries.IS, "2019-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jeep": 3
 , "Mitsubishi": 2
 , "Mini": 1
-, "other": 74
+, "other": 59
 });
 
 db.insert(db.countries.IS, "2019-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1001,8 +1001,8 @@ db.insert(db.countries.IS, "2019-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Toyota": 139
 , "Hyundai": 87
 , "Nissan": 81
+, "Dacia": 72
 , "Volvo": 64
-, "Dacia": 58
 , "Škoda": 52
 , "Volkswagen": 48
 , "Suzuki": 47
@@ -1023,7 +1023,7 @@ db.insert(db.countries.IS, "2019-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Tesla": 4
 , "Jaguar": 2
 , "Fiat": 1
-, "other": 96
+, "other": 82
 });
 
 db.insert(db.countries.IS, "2019-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1077,7 +1077,7 @@ db.insert(db.countries.IS, "2019-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Suzuki": 210
 , "Hyundai": 163
 , "Nissan": 139
-, "Dacia": 97
+, "Dacia": 105
 , "Ford": 85
 , "Volkswagen": 54
 , "Škoda": 49
@@ -1100,7 +1100,7 @@ db.insert(db.countries.IS, "2019-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 2
 , "Mitsubishi": 1
 , "Tesla": 1
-, "other": 225
+, "other": 217
 });
 
 db.insert(db.countries.IS, "2019-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1115,7 +1115,7 @@ db.insert(db.countries.IS, "2019-05", db.dsTypes.ElectricCarsByModel, "https://b
 db.insert(db.countries.IS, "2019-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20190717_PRPC_1906_FINAL.pdf",
 { "Toyota": 267
 , "Kia": 215
-, "Dacia": 109
+, "Dacia": 112
 , "Suzuki": 101
 , "Volkswagen": 64
 , "Hyundai": 50
@@ -1139,7 +1139,7 @@ db.insert(db.countries.IS, "2019-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 3
 , "Mitsubishi": 2
 , "Tesla": 1
-, "other": 150
+, "other": 147
 });
 
 db.insert(db.countries.IS, "2019-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1157,7 +1157,7 @@ db.insert(db.countries.IS, "2019-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 106
 , "Kia": 83
 , "Škoda": 74
-, "Dacia": 63
+, "Dacia": 70
 , "Hyundai": 55
 , "Nissan": 48
 , "Audi": 27
@@ -1179,7 +1179,7 @@ db.insert(db.countries.IS, "2019-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 3
 , "Citroën": 2
 , "Mini": 2
-, "other": 130
+, "other": 123
 });
 
 db.insert(db.countries.IS, "2019-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1200,6 +1200,7 @@ db.insert(db.countries.IS, "2019-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Suzuki": 62
 , "Volkswagen": 61
 , "Škoda": 49
+, "Dacia": 25
 , "Nissan": 25
 , "Mercedes-Benz": 21
 , "Ford": 19
@@ -1207,7 +1208,6 @@ db.insert(db.countries.IS, "2019-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volvo": 18
 , "Mazda": 15
 , "Peugeot": 15
-, "Dacia": 13
 , "Honda": 13
 , "Jaguar": 12
 , "Renault": 12
@@ -1221,7 +1221,7 @@ db.insert(db.countries.IS, "2019-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Citroën": 1
 , "Mitsubishi": 1
 , "Xpeng": 1
-, "other": 74
+, "other": 62
 });
 
 db.insert(db.countries.IS, "2019-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1249,10 +1249,10 @@ db.insert(db.countries.IS, "2019-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mazda": 22
 , "Suzuki": 22
 , "Honda": 21
+, "Dacia": 20
 , "Ford": 19
 , "Peugeot": 15
 , "Renault": 14
-, "Dacia": 13
 , "Land Rover": 13
 , "Audi": 9
 , "Subaru": 9
@@ -1267,7 +1267,7 @@ db.insert(db.countries.IS, "2019-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 3
 , "Fiat": 1
 , "Xpeng": 1
-, "other": 108
+, "other": 101
 });
 
 db.insert(db.countries.IS, "2019-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1292,9 +1292,9 @@ db.insert(db.countries.IS, "2019-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Honda": 29
 , "Nissan": 25
 , "Ford": 23
+, "Dacia": 22
 , "Mazda": 21
 , "Renault": 21
-, "Dacia": 20
 , "Škoda": 18
 , "Peugeot": 15
 , "Land Rover": 14
@@ -1311,7 +1311,7 @@ db.insert(db.countries.IS, "2019-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 2
 , "Porsche": 2
 , "Mini": 1
-, "other": 80
+, "other": 78
 });
 
 db.insert(db.countries.IS, "2019-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1331,7 +1331,7 @@ db.insert(db.countries.IS, "2019-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Nissan": 66
 , "Kia": 65
 , "Volkswagen": 59
-, "Dacia": 42
+, "Dacia": 53
 , "Hyundai": 33
 , "Mazda": 24
 , "Volvo": 24
@@ -1354,7 +1354,7 @@ db.insert(db.countries.IS, "2019-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 1
 , "Mitsubishi": 1
 , "Tesla": 1
-, "other": 78
+, "other": 67
 });
 
 db.insert(db.countries.IS, "2019-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1382,11 +1382,11 @@ db.insert(db.countries.IS, "2019-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "BMW": 15
 , "Renault": 15
 , "Audi": 10
+, "Dacia": 10
 , "Mercedes-Benz": 10
 , "Nissan": 10
 , "Škoda": 10
 , "Hyundai": 9
-, "Dacia": 8
 , "Peugeot": 8
 , "Suzuki": 7
 , "Land Rover": 5
@@ -1396,7 +1396,7 @@ db.insert(db.countries.IS, "2019-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Citroën": 1
 , "Fiat": 1
 , "Opel": 1
-, "other": 61
+, "other": 59
 });
 
 db.insert(db.countries.IS, "2019-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1466,9 +1466,9 @@ db.insert(db.countries.IS, "2020-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mercedes-Benz": 23
 , "Jeep": 18
 , "BMW": 17
+, "Dacia": 16
 , "Honda": 16
 , "Renault": 14
-, "Dacia": 13
 , "Mazda": 11
 , "Tesla": 11
 , "Opel": 9
@@ -1479,7 +1479,7 @@ db.insert(db.countries.IS, "2020-02", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Citroën": 2
 , "Ford": 2
 , "Mini": 1
-, "other": 63
+, "other": 60
 });
 
 db.insert(db.countries.IS, "2020-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1505,7 +1505,7 @@ db.insert(db.countries.IS, "2020-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Hyundai": 30
 , "Volkswagen": 30
 , "Volvo": 27
-, "Dacia": 24
+, "Dacia": 25
 , "Suzuki": 24
 , "Peugeot": 19
 , "BMW": 14
@@ -1522,7 +1522,7 @@ db.insert(db.countries.IS, "2020-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Ford": 2
 , "Mini": 1
 , "Mitsubishi": 1
-, "other": 98
+, "other": 97
 });
 
 db.insert(db.countries.IS, "2020-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1603,9 +1603,9 @@ db.insert(db.countries.IS, "2020-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mazda": 12
 , "Tesla": 10
 , "Ford": 8
+, "Dacia": 6
 , "Jeep": 6
 , "Citroën": 5
-, "Dacia": 5
 , "Porsche": 4
 , "Subaru": 3
 , "Fiat": 2
@@ -1614,7 +1614,7 @@ db.insert(db.countries.IS, "2020-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Renault": 2
 , "Seat": 2
 , "Mitsubishi": 1
-, "other": 61
+, "other": 60
 });
 
 db.insert(db.countries.IS, "2020-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1645,9 +1645,9 @@ db.insert(db.countries.IS, "2020-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Audi": 23
 , "Peugeot": 18
 , "Mazda": 12
+, "Dacia": 11
 , "Ford": 10
 , "Land Rover": 10
-, "Dacia": 9
 , "Seat": 9
 , "Opel": 8
 , "BMW": 7
@@ -1661,7 +1661,7 @@ db.insert(db.countries.IS, "2020-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jaguar": 2
 , "MG": 2
 , "Mitsubishi": 1
-, "other": 117
+, "other": 115
 });
 
 db.insert(db.countries.IS, "2020-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1688,7 +1688,7 @@ db.insert(db.countries.IS, "2020-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Nissan": 52
 , "Audi": 38
 , "Honda": 31
-, "Dacia": 23
+, "Dacia": 25
 , "Mercedes-Benz": 21
 , "Peugeot": 21
 , "Land Rover": 15
@@ -1707,7 +1707,7 @@ db.insert(db.countries.IS, "2020-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mini": 2
 , "Opel": 2
 , "Tesla": 2
-, "other": 161
+, "other": 159
 });
 
 db.insert(db.countries.IS, "2020-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1740,8 +1740,8 @@ db.insert(db.countries.IS, "2020-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Nissan": 11
 , "BMW": 10
 , "Porsche": 9
+, "Dacia": 8
 , "Renault": 7
-, "Dacia": 6
 , "Jaguar": 6
 , "Mazda": 6
 , "Opel": 6
@@ -1750,7 +1750,7 @@ db.insert(db.countries.IS, "2020-08", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Subaru": 4
 , "Jeep": 3
 , "Mitsubishi": 2
-, "other": 42
+, "other": 40
 });
 
 db.insert(db.countries.IS, "2020-08", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1783,8 +1783,8 @@ db.insert(db.countries.IS, "2020-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Ford": 14
 , "Peugeot": 12
 , "Subaru": 12
+, "Dacia": 11
 , "Mercedes-Benz": 11
-, "Dacia": 9
 , "Land Rover": 9
 , "Mazda": 7
 , "Opel": 5
@@ -1794,7 +1794,7 @@ db.insert(db.countries.IS, "2020-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 2
 , "Fiat": 1
 , "Mini": 1
-, "other": 64
+, "other": 62
 });
 
 db.insert(db.countries.IS, "2020-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1832,9 +1832,9 @@ db.insert(db.countries.IS, "2020-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mazda": 10
 , "BMW": 9
 , "Renault": 9
+, "Dacia": 8
 , "Subaru": 8
 , "Ford": 5
-, "Dacia": 4
 , "Jaguar": 4
 , "MG": 4
 , "Opel": 4
@@ -1842,7 +1842,7 @@ db.insert(db.countries.IS, "2020-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Citroën": 2
 , "Fiat": 1
 , "Porsche": 1
-, "other": 66
+, "other": 62
 });
 
 db.insert(db.countries.IS, "2020-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1926,14 +1926,14 @@ db.insert(db.countries.IS, "2020-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "BMW": 9
 , "Renault": 6
 , "Citroën": 5
+, "Dacia": 4
 , "Fiat": 3
 , "Land Rover": 3
 , "MG": 3
 , "Porsche": 3
-, "Dacia": 2
 , "Opel": 2
 , "Subaru": 1
-, "other": 123
+, "other": 121
 });
 
 db.insert(db.countries.IS, "2020-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -1969,16 +1969,16 @@ db.insert(db.countries.IS, "2021-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Land Rover": 9
 , "Renault": 9
 , "Tesla": 9
+, "Dacia": 4
 , "MG": 4
 , "Subaru": 4
-, "Dacia": 3
 , "Porsche": 3
 , "Fiat": 2
 , "Mini": 2
 , "Opel": 2
 , "Citroën": 1
 , "Mazda": 1
-, "other": 95
+, "other": 94
 });
 
 db.insert(db.countries.IS, "2021-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2060,7 +2060,7 @@ db.insert(db.countries.IS, "2021-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mercedes-Benz": 24
 , "Honda": 21
 , "Land Rover": 18
-, "Dacia": 13
+, "Dacia": 17
 , "Suzuki": 13
 , "BMW": 11
 , "Mazda": 10
@@ -2076,7 +2076,7 @@ db.insert(db.countries.IS, "2021-03", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 1
 , "Porsche": 1
 , "Seat": 1
-, "other": 66
+, "other": 62
 });
 
 db.insert(db.countries.IS, "2021-03", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2102,7 +2102,7 @@ db.insert(db.countries.IS, "2021-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 52
 , "Peugeot": 43
 , "Suzuki": 43
-, "Dacia": 34
+, "Dacia": 36
 , "Volvo": 34
 , "Hyundai": 32
 , "Škoda": 32
@@ -2125,7 +2125,7 @@ db.insert(db.countries.IS, "2021-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Mitsubishi": 1
 , "Opel": 1
 , "Tesla": 1
-, "other": 68
+, "other": 66
 });
 
 db.insert(db.countries.IS, "2021-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2149,7 +2149,7 @@ db.insert(db.countries.IS, "2021-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Toyota": 216
 , "Suzuki": 167
 , "Hyundai": 108
-, "Dacia": 58
+, "Dacia": 62
 , "Škoda": 51
 , "Nissan": 46
 , "Volkswagen": 42
@@ -2173,7 +2173,7 @@ db.insert(db.countries.IS, "2021-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Seat": 4
 , "Subaru": 2
 , "Mitsubishi": 1
-, "other": 76
+, "other": 72
 });
 
 db.insert(db.countries.IS, "2021-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2203,8 +2203,8 @@ db.insert(db.countries.IS, "2021-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volkswagen": 86
 , "Škoda": 84
 , "Peugeot": 71
+, "Dacia": 68
 , "Renault": 60
-, "Dacia": 59
 , "Jeep": 40
 , "Honda": 35
 , "Volvo": 34
@@ -2224,7 +2224,7 @@ db.insert(db.countries.IS, "2021-06", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Porsche": 5
 , "Jaguar": 2
 , "Mitsubishi": 1
-, "other": 117
+, "other": 108
 });
 
 db.insert(db.countries.IS, "2021-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2268,14 +2268,14 @@ db.insert(db.countries.IS, "2021-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Land Rover": 13
 , "Opel": 13
 , "Audi": 12
-, "Dacia": 8
+, "Dacia": 11
 , "Porsche": 8
 , "Subaru": 7
 , "Jaguar": 4
 , "Mini": 4
 , "MG": 3
 , "Fiat": 1
-, "other": 89
+, "other": 86
 });
 
 db.insert(db.countries.IS, "2021-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2578,7 +2578,7 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "BMW": 31
 , "Nissan": 29
 , "Ford": 28
-, "Audi": 15
+, "Audi": 16
 , "Land Rover": 14
 , "Fiat": 12
 , "Mazda": 12
@@ -2596,7 +2596,7 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "MG": 2
 , "Mini": 2
 , "Seat": 1
-, "other": 28
+, "other": 27
 });
 
 db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -2616,13 +2616,14 @@ db.insert(db.countries.IS, "2022-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mini|Cooper SE": 2
 , "Tesla|Model 3": 2
 , "Tesla|Model Y": 2
+, "Audi|e-tron GT": 1
 , "Citroën|ë-C4": 1
 , "MG|Marvel R": 1
 , "MG|ZS EV": 1
 , "Mercedes-Benz|EQS": 1
 , "Renault|Zoe": 1
 , "Volkswagen|ID.3": 1
-, "other": 116
+, "other": 115
 });
 
 db.insert(db.countries.IS, "2022-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/20220317_PRPC_2202_FINAL.pdf",
@@ -4808,14 +4809,14 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Subaru": 8
 , "GWM": 7
 , "Renault": 7
+, "Xpeng": 6
 , "Jeep": 5
 , "Dacia": 4
 , "Opel": 4
-, "Xpeng": 4
 , "Suzuki": 3
 , "Peugeot": 2
 , "Jaguar": 1
-, "other": 41
+, "other": 39
 });
 
 db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2024.pdf",
@@ -4849,6 +4850,7 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|MG4 EV": 2
 , "Mercedes-Benz|EQC": 2
 , "Volvo|EX40": 2
+, "Xpeng|G6": 2
 , "BMW|i5": 1
 , "BMW|iX3": 1
 , "BYD|Seal": 1
@@ -4859,7 +4861,7 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Tesla|Model X": 1
 , "Xpeng|P7": 1
 , "Škoda|Enyaq": 1
-, "other": 68
+, "other": 66
 });
 
 db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -4875,6 +4877,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Land Rover": 20
 , "Audi": 19
 , "Nissan": 19
+, "Xpeng": 19
 , "Mercedes-Benz": 17
 , "Porsche": 17
 , "Peugeot": 16
@@ -4891,15 +4894,15 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Suzuki": 5
 , "Subaru": 4
 , "Jaguar": 3
-, "Xpeng": 3
 , "Citroën": 2
 , "GWM": 2
-, "other": 60
+, "other": 44
 });
 
 db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
 { "Tesla|Model Y": 62
 , "Honda|e:Ny1": 33
+, "Xpeng|G6": 16
 , "Hyundai|Ioniq 5": 14
 , "Audi|Q4 e-tron": 13
 , "Renault|Megane E-Tech": 13
@@ -4943,7 +4946,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Zoe": 1
 , "Volkswagen|ID.5": 1
 , "Volvo|EX40": 1
-, "other": 119
+, "other": 103
 });
 
 db.insert(db.countries.IS, "2024-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
@@ -4959,6 +4962,7 @@ db.insert(db.countries.IS, "2024-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "MG": 15
 , "Mercedes-Benz": 15
 , "Audi": 13
+, "Xpeng": 13
 , "Nissan": 11
 , "Porsche": 11
 , "Peugeot": 9
@@ -4970,12 +4974,11 @@ db.insert(db.countries.IS, "2024-11", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Suzuki": 5
 , "Jeep": 4
 , "Land Rover": 4
-, "Xpeng": 4
 , "Subaru": 3
 , "Volkswagen": 3
 , "Mitsubishi": 2
 , "Opel": 2
-, "other": 30
+, "other": 21
 });
 
 db.insert(db.countries.IS, "2024-11", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
@@ -4984,6 +4987,7 @@ db.insert(db.countries.IS, "2024-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Hyundai|Ioniq 5": 11
 , "Porsche|Macan Electric": 11
 , "MG|MG4 EV": 9
+, "Xpeng|G6": 9
 , "Audi|Q6 e-tron": 7
 , "Nissan|Ariya": 7
 , "MG|Marvel R": 6
@@ -5018,7 +5022,7 @@ db.insert(db.countries.IS, "2024-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.3": 1
 , "Volkswagen|ID.4": 1
 , "Volvo|EX40": 1
-, "other": 64
+, "other": 55
 });
 
 db.insert(db.countries.IS, "2024-12", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -5052,8 +5056,8 @@ db.insert(db.countries.IS, "2024-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Fiat": 2
 , "Jaguar": 2
 , "Renault": 2
-, "Xpeng": 1
-, "other": 29
+, "Xpeng": 2
+, "other": 28
 });
 
 db.insert(db.countries.IS, "2024-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -5095,8 +5099,9 @@ db.insert(db.countries.IS, "2024-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Scénic E-Tech": 1
 , "Volkswagen|ID.3": 1
 , "Volkswagen|ID.7": 1
+, "Xpeng|G6": 1
 , "Xpeng|G9": 1
-, "other": 33
+, "other": 32
 });
 
 db.insert(db.countries.IS, "2025-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -5108,6 +5113,7 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Volvo": 23
 , "Land Rover": 20
 , "Škoda": 20
+, "Xpeng": 16
 , "BMW": 14
 , "GWM": 12
 , "Peugeot": 12
@@ -5129,15 +5135,15 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Fiat": 2
 , "Mitsubishi": 2
 , "Opel": 2
-, "Xpeng": 2
 , "Seat": 1
-, "other": 71
+, "other": 57
 });
 
 db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
 { "Tesla|Model Y": 26
 , "Kia|EV3": 21
 , "Tesla|Model 3": 16
+, "Xpeng|G6": 14
 , "GWM|Ora 03": 12
 , "Kia|EV6": 9
 , "Toyota|bZ4X": 9
@@ -5173,5 +5179,5 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Subaru|Solterra": 1
 , "Volkswagen|ID.3": 1
 , "Volvo|EX40": 1
-, "other": 58
+, "other": 44
 });
