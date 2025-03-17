@@ -5948,28 +5948,121 @@ db.insert(db.countries.NO, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2934
 });
 
+db.insert(db.countries.NO, "2025-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2025",
+{ "Volkswagen": 1323
+, "Tesla": 917
+, "Toyota": 748
+, "Nissan": 632
+, "Volvo": 620
+, "BMW": 503
+, "Audi": 445
+, "Kia": 386
+, "Mercedes-Benz": 365
+, "Hyundai": 353
+, "Škoda": 351
+, "Peugeot": 244
+, "BYD": 236
+, "Xpeng": 203
+, "Ford": 192
+, "Mazda": 180
+, "Polestar": 172
+, "MG": 167
+, "Opel": 107
+, "other": 805
+});
+
+db.insert(db.countries.NO, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2025/2 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-februar-2025",
+{ "Nissan|Ariya": 608
+, "Tesla|Model Y": 604
+, "Toyota|bZ4X": 530
+, "Volkswagen|ID.4": 480
+, "Volkswagen|ID.7": 355
+, "Volkswagen|ID.3": 329
+, "Tesla|Model 3": 311
+, "Kia|EV3": 275
+, "Škoda|Enyaq": 262
+, "Volvo|EX30": 238
+, "Audi|Q6 e-tron": 197
+, "Audi|Q4 e-tron": 195
+, "Hyundai|Kona Electric": 170
+, "Mazda|MX-30 BEV": 165
+, "MG|MG4 EV": 153
+, "Volvo|EX40": 143
+, "BMW|iX1": 142
+, "BMW|i4": 136
+, "Xpeng|G6": 127
+, "Peugeot|E-5008": 118
+, "Hyundai|Ioniq 5": 100
+, "Ford|Explorer EV": 94
+, "BYD|Sealion 07 EV": 91
+, "Mini|Cooper SE": 90
+, "Polestar|4": 87
+, "Mercedes-Benz|EQB": 86
+, "Volvo|EX90": 83
+, "Mercedes-Benz|EQA": 80
+, "Mercedes-Benz|EQE": 70
+, "Hyundai|Inster": 62
+, "Xpeng|G9": 56
+, "BMW|iX": 55
+, "Porsche|Macan Electric": 54
+, "Kia|EV6": 53
+, "Peugeot|e-2008": 52
+, "Kia|EV9": 50
+, "BMW|iX2": 48
+, "BYD|Dolphin": 46
+, "Škoda|Elroq": 43
+, "Renault|Scénic E-Tech": 39
+, "BYD|Song Plus": 35
+, "Peugeot|E-3008": 34
+, "Polestar|3": 33
+, "Honda|e:Ny1": 32
+, "Polestar|2": 32
+, "BYD|Seal": 31
+, "Audi|S6 e-tron": 30
+, "Citroën|ë-C3": 30
+, "Opel|Corsa-e": 28
+, "Subaru|Solterra": 28
+, "Opel|other": 67
+, "Ford|other": 64
+, "BMW|other": 50
+, "Zeekr|other": 46
+, "Nio|other": 32
+, "Peugeot|other": 29
+, "Volvo|other": 23
+, "Citroën|other": 20
+, "JAC|other": 20
+, "BYD|other": 16
+, "Jeep|other": 16
+, "Audi|other": 8
+, "MG|other": 8
+, "Volkswagen|other": 8
+, "Hyundai|other": 6
+, "Cupra|other": 5
+, "Fiat|other": 5
+, "other": 864
+});
 
 // Template:
 
 // db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, xxx",
-// { "Toyota":
+// { "Volkswagen":
+// , "Toyota":
 // , "Tesla":
+// , "BMW":
+// , "Nissan":
 // , "Volvo":
 // , "Mercedes-Benz":
-// , "Volkswagen":
-// , "Hyundai":
-// , "BMW":
+// , "Audi":
 // , "Ford":
 // , "Škoda":
-// , "MG":
-// , "Nissan":
-// , "BYD":
-// , "Mazda":
-// , "Audi":
-// , "Polestar":
+// , "Hyundai":
 // , "Kia":
 // , "Peugeot":
-// , "Nio":
+// , "Polestar":
+// , "Xpeng":
+// , "BYD":
+// , "MG":
+// , "Mazda":
 // , "Opel":
 // , "Citroën":
 // , "Honda":
