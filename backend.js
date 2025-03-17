@@ -1978,6 +1978,8 @@ var db = {
     for (const i in seriesNamesInOrder) {
       const seriesName = seriesNamesInOrder[i];
       const currSeries = seriesByName[seriesName];
+      if (currSeries.data.length == 0)
+        continue;
       if (seriesName != "other" && count < maxSeriesOption.count) {
         result.series.push(currSeries);
         count++;
