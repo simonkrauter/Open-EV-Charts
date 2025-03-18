@@ -928,13 +928,15 @@ var db = {
 
     if (this.isCompanyBrandModelXProperty(chartConfig))
       chartConfig.detailLevel = "";
-    else if (chartConfig.detailLevel == this.detailLevels.total) {
-      if (chartConfig.model != this.modelOptions.all)
+    else if (!chartConfig.detailLevel || chartConfig.detailLevel == this.detailLevels.total) {
+      if (chartConfig.model && chartConfig.model != this.modelOptions.all)
         chartConfig.detailLevel = this.detailLevels.model;
-      else if (chartConfig.brand != this.brandOptions.all)
+      else if (chartConfig.brand && chartConfig.brand != this.brandOptions.all)
         chartConfig.detailLevel = this.detailLevels.brand;
-      else if (chartConfig.company != this.companyOptions.all)
+      else if (chartConfig.company && chartConfig.company != this.companyOptions.all)
         chartConfig.detailLevel = this.detailLevels.company;
+      else if (!chartConfig.detailLevel)
+        chartConfig.detailLevel = params.detailLevel.defaultOption;
     } else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
 
