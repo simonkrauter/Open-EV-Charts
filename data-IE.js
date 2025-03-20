@@ -2,6 +2,482 @@
 
 "use strict";
 
+
+db.insert(db.countries.IE, "2017-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 4582
+, "Toyota": 4472
+, "Ford": 4416
+, "Volkswagen": 3740
+, "Nissan": 2999
+, "Renault": 2721
+, "Škoda": 2285
+, "Opel": 1951
+, "Kia": 1917
+, "Mercedes-Benz": 1549
+, "Audi": 1309
+, "Dacia": 1056
+, "Seat": 976
+, "Peugeot": 887
+, "Mazda": 881
+, "BMW": 739
+, "Volvo": 418
+, "Honda": 338
+, "Suzuki": 333
+, "Citroën": 243
+, "Land Rover": 242
+, "Mitsubishi": 216
+, "Jaguar": 190
+, "Fiat": 149
+, "Mini": 91
+, "Subaru": 53
+, "Porsche": 18
+, "Jeep": 12
+, "other": 220
+});
+
+db.insert(db.countries.IE, "2017-01", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Nissan|Leaf": 95
+, "Hyundai|Ioniq Electric": 69
+, "Renault|Zoe": 2
+, "BMW|i3 BEV": 1
+, "Volkswagen|e-Golf": 1
+});
+
+db.insert(db.countries.IE, "2017-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Nissan": 1770
+, "Volkswagen": 1714
+, "Toyota": 1679
+, "Hyundai": 1438
+, "Škoda": 1361
+, "Renault": 1155
+, "Ford": 1140
+, "Kia": 994
+, "Mercedes-Benz": 915
+, "Audi": 902
+, "BMW": 717
+, "Opel": 707
+, "Seat": 511
+, "Dacia": 375
+, "Mazda": 311
+, "Peugeot": 305
+, "Volvo": 227
+, "Land Rover": 148
+, "Suzuki": 140
+, "Citroën": 116
+, "Honda": 100
+, "Jaguar": 88
+, "Mitsubishi": 82
+, "Fiat": 55
+, "Mini": 44
+, "Subaru": 9
+, "Porsche": 5
+, "Jeep": 3
+, "other": 78
+});
+
+db.insert(db.countries.IE, "2017-02", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Nissan|Leaf": 29
+, "Hyundai|Ioniq Electric": 26
+, "BMW|i3 BEV": 4
+, "Renault|Zoe": 1
+, "Volkswagen|e-Golf": 1
+});
+
+db.insert(db.countries.IE, "2017-03", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Nissan": 2285
+, "Volkswagen": 1886
+, "Ford": 1867
+, "BMW": 1509
+, "Renault": 1419
+, "Toyota": 1348
+, "Hyundai": 1295
+, "Škoda": 1231
+, "Kia": 975
+, "Opel": 937
+, "Audi": 927
+, "Mercedes-Benz": 710
+, "Peugeot": 579
+, "Citroën": 415
+, "Seat": 408
+, "Dacia": 375
+, "Mazda": 315
+, "Volvo": 270
+, "Suzuki": 229
+, "Land Rover": 195
+, "Honda": 169
+, "Jaguar": 133
+, "Mini": 131
+, "Fiat": 91
+, "Mitsubishi": 77
+, "Subaru": 11
+, "Jeep": 9
+, "Porsche": 5
+, "other": 89
+});
+
+db.insert(db.countries.IE, "2017-03", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Nissan|Leaf": 39
+, "Hyundai|Ioniq Electric": 26
+, "Renault|Zoe": 4
+});
+
+db.insert(db.countries.IE, "2017-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 821
+, "Volkswagen": 789
+, "Hyundai": 748
+, "Ford": 693
+, "Kia": 659
+, "Škoda": 640
+, "Opel": 548
+, "Renault": 372
+, "Nissan": 301
+, "Peugeot": 284
+, "Audi": 282
+, "BMW": 228
+, "Dacia": 222
+, "Seat": 174
+, "Volvo": 173
+, "Mazda": 150
+, "Honda": 136
+, "Mercedes-Benz": 131
+, "Fiat": 103
+, "Land Rover": 102
+, "Citroën": 70
+, "Suzuki": 51
+, "Mitsubishi": 50
+, "Jaguar": 35
+, "Mini": 24
+, "Porsche": 10
+, "Subaru": 9
+, "Jeep": 7
+, "Tesla": 1
+, "other": 27
+});
+
+db.insert(db.countries.IE, "2017-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq Electric": 30
+, "Nissan|Leaf": 10
+, "BMW|i3 BEV": 1
+, "Tesla|Model S": 1
+});
+
+db.insert(db.countries.IE, "2017-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 924
+, "Hyundai": 450
+, "Toyota": 448
+, "Škoda": 428
+, "Kia": 407
+, "Ford": 371
+, "Opel": 325
+, "Nissan": 317
+, "Peugeot": 308
+, "Renault": 291
+, "Audi": 243
+, "Mercedes-Benz": 208
+, "BMW": 193
+, "Seat": 181
+, "Dacia": 171
+, "Mazda": 121
+, "Suzuki": 106
+, "Volvo": 105
+, "Land Rover": 87
+, "Honda": 81
+, "Fiat": 52
+, "Citroën": 45
+, "Jaguar": 30
+, "Mitsubishi": 27
+, "Mini": 25
+, "Subaru": 11
+, "Porsche": 5
+, "Jeep": 4
+, "Tesla": 1
+, "other": 27
+});
+
+db.insert(db.countries.IE, "2017-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq Electric": 10
+, "Nissan|Leaf": 9
+, "Renault|Zoe": 8
+, "BMW|i3 BEV": 2
+, "other": 1
+});
+
+db.insert(db.countries.IE, "2017-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "BMW": 300
+, "Volkswagen": 165
+, "Toyota": 132
+, "Škoda": 92
+, "Dacia": 81
+, "Ford": 80
+, "Kia": 76
+, "Hyundai": 60
+, "Peugeot": 52
+, "Nissan": 50
+, "Audi": 42
+, "Mercedes-Benz": 41
+, "Volvo": 29
+, "Opel": 28
+, "Seat": 26
+, "Renault": 24
+, "Suzuki": 22
+, "Mazda": 20
+, "Land Rover": 18
+, "Honda": 13
+, "Fiat": 11
+, "Mitsubishi": 10
+, "Subaru": 8
+, "Citroën": 6
+, "Porsche": 4
+, "Jaguar": 3
+, "Mini": 3
+, "Jeep": 1
+, "other": 4
+});
+
+db.insert(db.countries.IE, "2017-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq Electric": 2
+, "Volkswagen|e-Golf": 2
+});
+
+db.insert(db.countries.IE, "2017-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 2992
+, "Toyota": 2769
+, "Hyundai": 2732
+, "Ford": 2637
+, "Nissan": 1969
+, "Renault": 1900
+, "Škoda": 1858
+, "Opel": 1526
+, "Kia": 1447
+, "Audi": 1141
+, "Dacia": 943
+, "Peugeot": 897
+, "Mercedes-Benz": 816
+, "Seat": 735
+, "Mazda": 618
+, "BMW": 501
+, "Volvo": 375
+, "Honda": 335
+, "Citroën": 281
+, "Suzuki": 265
+, "Land Rover": 218
+, "Fiat": 194
+, "Mini": 177
+, "Mitsubishi": 113
+, "Jaguar": 63
+, "Subaru": 37
+, "Porsche": 22
+, "Jeep": 5
+, "other": 141
+});
+
+db.insert(db.countries.IE, "2017-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq Electric": 44
+, "Nissan|Leaf": 42
+, "Renault|Zoe": 18
+, "BMW|i3 BEV": 3
+, "Tesla|Model S": 2
+, "Nissan|e-NV200": 1
+, "Volkswagen|e-Golf": 1
+});
+
+db.insert(db.countries.IE, "2017-08", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 597
+, "Toyota": 586
+, "Ford": 490
+, "Škoda": 488
+, "Hyundai": 344
+, "Audi": 321
+, "Nissan": 295
+, "Peugeot": 279
+, "Kia": 277
+, "Mercedes-Benz": 255
+, "Opel": 243
+, "Renault": 242
+, "Dacia": 193
+, "BMW": 173
+, "Seat": 162
+, "Mazda": 136
+, "Honda": 92
+, "Suzuki": 91
+, "Land Rover": 79
+, "Volvo": 62
+, "Citroën": 59
+, "Jaguar": 48
+, "Fiat": 43
+, "Mini": 43
+, "Mitsubishi": 40
+, "Tesla": 17
+, "Subaru": 14
+, "Jeep": 8
+, "Porsche": 4
+, "other": 48
+});
+
+db.insert(db.countries.IE, "2017-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Hyundai|Ioniq Electric": 16
+, "Tesla|Model S": 12
+, "Nissan|Leaf": 6
+, "Renault|Zoe": 6
+, "Tesla|Model X": 5
+, "Nissan|e-NV200": 2
+, "Volkswagen|e-Golf": 1
+});
+
+db.insert(db.countries.IE, "2017-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 582
+, "Ford": 392
+, "Škoda": 391
+, "Toyota": 275
+, "Audi": 228
+, "Nissan": 205
+, "BMW": 199
+, "Kia": 180
+, "Peugeot": 175
+, "Mercedes-Benz": 143
+, "Opel": 142
+, "Renault": 123
+, "Dacia": 122
+, "Hyundai": 114
+, "Land Rover": 81
+, "Mazda": 80
+, "Suzuki": 73
+, "Seat": 59
+, "Volvo": 59
+, "Honda": 57
+, "Jaguar": 53
+, "Mini": 32
+, "Citroën": 31
+, "Fiat": 23
+, "Mitsubishi": 23
+, "Tesla": 18
+, "Subaru": 9
+, "Porsche": 3
+, "Jeep": 1
+, "other": 25
+});
+
+db.insert(db.countries.IE, "2017-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Renault|Zoe": 13
+, "Tesla|Model S": 13
+, "Nissan|Leaf": 8
+, "Hyundai|Ioniq Electric": 6
+, "Tesla|Model X": 5
+, "Volkswagen|e-Golf": 2
+, "other": 1
+});
+
+db.insert(db.countries.IE, "2017-10", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 286
+, "Škoda": 170
+, "Kia": 169
+, "Audi": 122
+, "Ford": 114
+, "Nissan": 113
+, "Toyota": 111
+, "Peugeot": 97
+, "Opel": 86
+, "Dacia": 77
+, "Volvo": 68
+, "BMW": 67
+, "Renault": 64
+, "Hyundai": 61
+, "Mercedes-Benz": 55
+, "Seat": 48
+, "Land Rover": 36
+, "Mazda": 33
+, "Honda": 24
+, "Mini": 23
+, "Fiat": 21
+, "Suzuki": 21
+, "Citroën": 19
+, "Mitsubishi": 18
+, "Jaguar": 11
+, "Tesla": 8
+, "Subaru": 6
+, "Porsche": 3
+, "Jeep": 1
+, "other": 11
+});
+
+db.insert(db.countries.IE, "2017-10", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Nissan|Leaf": 14
+, "Tesla|Model S": 6
+, "Renault|Zoe": 3
+, "Tesla|Model X": 2
+, "Volkswagen|e-Golf": 2
+, "BMW|i3 BEV": 1
+, "Hyundai|Ioniq Electric": 1
+});
+
+db.insert(db.countries.IE, "2017-11", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 131
+, "Škoda": 82
+, "Ford": 41
+, "Nissan": 41
+, "Toyota": 37
+, "Kia": 31
+, "Mini": 31
+, "Opel": 29
+, "Peugeot": 25
+, "Dacia": 23
+, "Hyundai": 23
+, "Audi": 22
+, "Volvo": 20
+, "Seat": 19
+, "BMW": 17
+, "Fiat": 16
+, "Renault": 15
+, "Mercedes-Benz": 14
+, "Land Rover": 10
+, "Mazda": 9
+, "Suzuki": 9
+, "Honda": 7
+, "Mitsubishi": 5
+, "Citroën": 4
+, "Tesla": 4
+, "Jaguar": 2
+, "Jeep": 2
+, "Subaru": 2
+, "other": 11
+});
+
+db.insert(db.countries.IE, "2017-11", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Nissan|Leaf": 5
+, "Tesla|Model S": 4
+, "Hyundai|Ioniq Electric": 1
+, "Renault|Zoe": 1
+});
+
+db.insert(db.countries.IE, "2017-12", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Hyundai": 68
+, "Volkswagen": 24
+, "BMW": 9
+, "Toyota": 6
+, "Audi": 5
+, "Ford": 4
+, "Honda": 4
+, "Mazda": 4
+, "Nissan": 4
+, "Opel": 4
+, "Škoda": 4
+, "Dacia": 3
+, "Fiat": 3
+, "Jeep": 3
+, "Volvo": 3
+, "Citroën": 2
+, "Land Rover": 2
+, "Renault": 2
+, "Seat": 2
+, "Mercedes-Benz": 1
+, "Peugeot": 1
+, "Suzuki": 1
+});
+
+db.insert(db.countries.IE, "2017-12", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Renault|Zoe": 1
+});
+
 db.insert(db.countries.IE, "2018-01", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
 { "Toyota": 4380
 , "Hyundai": 3925
