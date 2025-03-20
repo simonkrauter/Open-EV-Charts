@@ -5580,6 +5580,7 @@ db.insert(db.countries.IE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Polestar|other": 10
 , "Renault|other": 9
 , "Citroën|other": 8
+, "Xpeng|other": 8
 , "Jeep|other": 6
 , "Mazda|other": 6
 , "Fiat|other": 5
@@ -5588,7 +5589,7 @@ db.insert(db.countries.IE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|other": 5
 , "Volkswagen|other": 4
 , "Audi|other": 3
-, "other": 47
+, "other": 39
 });
 
 db.insert(db.countries.IE, "2025-02", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
@@ -5663,6 +5664,7 @@ db.insert(db.countries.IE, "2025-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.5": 19
 , "BMW|i4": 17
 , "Hyundai|Ioniq 5": 15
+, "Xpeng|G6": 15
 , "BYD|Dolphin": 14
 , "Peugeot|e-2008": 13
 , "Porsche|Macan Electric": 12
@@ -5693,5 +5695,5 @@ db.insert(db.countries.IE, "2025-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|other": 3
 , "Volkswagen|other": 3
 , "Ford|other": 2
-, "other": 28
+, "other": 13
 });
