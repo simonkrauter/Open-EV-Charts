@@ -2,6 +2,294 @@
 
 "use strict";
 
+db.insert(db.countries.DK, "2017-01", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 19488
+});
+
+db.insert(db.countries.DK, "2017-01", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 5
+});
+
+db.insert(db.countries.DK, "2017-02", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17444
+});
+
+db.insert(db.countries.DK, "2017-02", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 12
+});
+
+db.insert(db.countries.DK, "2017-03", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 22734
+});
+
+db.insert(db.countries.DK, "2017-03", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 23
+});
+
+db.insert(db.countries.DK, "2017-04", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17638
+});
+
+db.insert(db.countries.DK, "2017-04", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 12
+});
+
+db.insert(db.countries.DK, "2017-05", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 22313
+});
+
+db.insert(db.countries.DK, "2017-05", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 9
+});
+
+db.insert(db.countries.DK, "2017-06", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 23983
+});
+
+db.insert(db.countries.DK, "2017-06", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 69
+});
+
+db.insert(db.countries.DK, "2017-07", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 15221
+});
+
+db.insert(db.countries.DK, "2017-07", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 30
+});
+
+db.insert(db.countries.DK, "2017-08", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 15304
+});
+
+db.insert(db.countries.DK, "2017-08", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 181
+});
+
+db.insert(db.countries.DK, "2017-09", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 14326
+});
+
+db.insert(db.countries.DK, "2017-09", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 89
+});
+
+db.insert(db.countries.DK, "2017-10", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18524
+});
+
+db.insert(db.countries.DK, "2017-10", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 84
+});
+
+db.insert(db.countries.DK, "2017-11", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18015
+});
+
+db.insert(db.countries.DK, "2017-11", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 124
+});
+
+db.insert(db.countries.DK, "2017-12", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16482
+});
+
+db.insert(db.countries.DK, "2017-12", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 53
+});
+
+db.insert(db.countries.DK, "2018-01", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 19897
+});
+
+db.insert(db.countries.DK, "2018-01", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 36
+});
+
+db.insert(db.countries.DK, "2018-02", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17273
+});
+
+db.insert(db.countries.DK, "2018-02", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 47
+});
+
+db.insert(db.countries.DK, "2018-03", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 19785
+});
+
+db.insert(db.countries.DK, "2018-03", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 111
+});
+
+db.insert(db.countries.DK, "2018-04", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18766
+});
+
+db.insert(db.countries.DK, "2018-04", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 135
+});
+
+db.insert(db.countries.DK, "2018-05", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 22592
+});
+
+db.insert(db.countries.DK, "2018-05", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 76
+});
+
+db.insert(db.countries.DK, "2018-06", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 22555
+});
+
+db.insert(db.countries.DK, "2018-06", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 119
+});
+
+db.insert(db.countries.DK, "2018-07", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16482
+});
+
+db.insert(db.countries.DK, "2018-07", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 51
+});
+
+db.insert(db.countries.DK, "2018-08", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 20665
+});
+
+db.insert(db.countries.DK, "2018-08", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 172
+});
+
+db.insert(db.countries.DK, "2018-09", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 11986
+});
+
+db.insert(db.countries.DK, "2018-09", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 183
+});
+
+db.insert(db.countries.DK, "2018-10", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16642
+});
+
+db.insert(db.countries.DK, "2018-10", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 169
+});
+
+db.insert(db.countries.DK, "2018-11", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17929
+});
+
+db.insert(db.countries.DK, "2018-11", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 212
+});
+
+db.insert(db.countries.DK, "2018-12", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 13901
+});
+
+db.insert(db.countries.DK, "2018-12", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 233
+});
+
+db.insert(db.countries.DK, "2019-01", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 21292
+});
+
+db.insert(db.countries.DK, "2019-01", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 257
+});
+
+db.insert(db.countries.DK, "2019-02", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18597
+});
+
+db.insert(db.countries.DK, "2019-02", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 218
+});
+
+db.insert(db.countries.DK, "2019-03", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 26189
+});
+
+db.insert(db.countries.DK, "2019-03", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 512
+});
+
+db.insert(db.countries.DK, "2019-04", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16253
+});
+
+db.insert(db.countries.DK, "2019-04", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 458
+});
+
+db.insert(db.countries.DK, "2019-05", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 19144
+});
+
+db.insert(db.countries.DK, "2019-05", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 422
+});
+
+db.insert(db.countries.DK, "2019-06", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 20780
+});
+
+db.insert(db.countries.DK, "2019-06", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 702
+});
+
+db.insert(db.countries.DK, "2019-07", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16775
+});
+
+db.insert(db.countries.DK, "2019-07", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 263
+});
+
+db.insert(db.countries.DK, "2019-08", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18711
+});
+
+db.insert(db.countries.DK, "2019-08", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 338
+});
+
+db.insert(db.countries.DK, "2019-09", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 15949
+});
+
+db.insert(db.countries.DK, "2019-09", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 724
+});
+
+db.insert(db.countries.DK, "2019-10", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18374
+});
+
+db.insert(db.countries.DK, "2019-10", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 327
+});
+
+db.insert(db.countries.DK, "2019-11", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18088
+});
+
+db.insert(db.countries.DK, "2019-11", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 374
+});
+
+db.insert(db.countries.DK, "2019-12", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 15471
+});
+
+db.insert(db.countries.DK, "2019-12", db.dsTypes.ElectricCarsTotal, "https://www.statistikbanken.dk/bil51",
+{ "other": 906
+});
+
 db.insert(db.countries.DK, "2020-01", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
 { "other": 18680
 });
