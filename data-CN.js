@@ -1880,3 +1880,25 @@ db.insert(db.countries.CN, "2025-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 6379
 , "other": 260838
 });
+
+db.insert(db.countries.CN, "2025-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/03/19/50-plugin-vehicle-market-share-in-china-february-2025-sales-report/",
+{ "other": 1390000
+});
+
+db.insert(db.countries.CN, "2025-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/03/19/50-plugin-vehicle-market-share-in-china-february-2025-sales-report/",
+{ "Geely|Xingyuan": 28588
+, "BYD|Seagull": 26958
+, "Wuling|Hongguang Mini EV": 22065
+, "Tesla|Model 3": 18771
+, "Xpeng|Mona M03": 15312
+, "Geely|Panda Mini EV": 12889
+, "BYD|Yuan Plus": 10758
+, "BYD|Yuan Up": 10490
+, "Wuling|Bingo": 10163
+, "Changan|Lumin": 9970
+, "Geely|Galaxy E5": 8016
+, "BYD|Qin EV": 6978
+, "BYD|Song EV": 5690
+, "BYD|Han EV": 3320
+, "other": 115832
+});
