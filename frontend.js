@@ -67,6 +67,10 @@ const canvasContext = document.createElement("CANVAS").getContext("2d");
 setGlobalChartOptions();
 navigate();
 
+function measureTextWidth(text) {
+  return canvasContext.measureText(text).width * 1.42;
+}
+
 function navigate(renderOnlyCharts = false) {
   currentHash = decodeURIComponent(location.hash.substr(1));
   isScreenshotModeEnabled = false;
@@ -209,7 +213,7 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Calculate width
   let width = 40;
   for (const optionKey in param.allOptions)
-     width = Math.max(width, canvasContext.measureText(param.allOptions[optionKey]).width * 1.42 + 40);
+     width = Math.max(width, measureTextWidth(param.allOptions[optionKey]) + 40);
   if (param.name == "country")
     width += 10;
 
