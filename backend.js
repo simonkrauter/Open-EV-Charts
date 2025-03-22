@@ -1855,6 +1855,12 @@ var db = {
         return this.getBrands(chartConfig).length;
       }
     }
+    if (this.isTimeXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.model) {
+      if (chartConfig.model == this.modelOptions.all)
+        return this.models.length;
+      else if (chartConfig.model != null)
+        return this.getModels(chartConfig).length;
+    }
     return 1;
   },
 
