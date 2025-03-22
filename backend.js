@@ -267,6 +267,7 @@ var db = {
   , "all": "all-time"
   , "last3m": "3m"
   , "last6m": "6m"
+  , "last13m": "13m"
   , "last1y": "1y"
   , "last2y": "2y"
   , "last3y": "3y"
@@ -680,11 +681,18 @@ var db = {
   setTimeSpanParamOptions: function(param, chartConfig) {
     if (chartConfig == null || !param.showAsFilter)
       return;
+    // last xx months/years
     if (!this.isByQuarter(chartConfig)) {
       param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
       param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
     }
-    for (let i = 1; i <= 6; i++) {
+    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty))
+      param.options[this.timeSpanOptions.last13m] = "Last 13 Months";
+    else
+      param.options["1y"] = this.getTimeSpanOptionText("1y");
+    for (let i = 2; i <= 6; i++) {
+      if (i == 5 && [this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty))
+        break;
       param.options[i + "y"] = this.getTimeSpanOptionText(i + "y");
     }
     let currentDate = new Date();
@@ -709,7 +717,7 @@ var db = {
       }
     }
     // single quarter
-    if (![this.xProperties.monthAvg3, this.xProperties.quarter].includes(chartConfig.xProperty)) {
+    if (![this.xProperties.month, this.xProperties.monthAvg3, this.xProperties.quarter].includes(chartConfig.xProperty)) {
       let year = currentYear;
       let quarter = this.monthToQuarter(currentMonth);
       for (let i = 0; i < 4; i++) {
@@ -723,7 +731,7 @@ var db = {
     }
     // single year
     let year = currentYear;
-    for (let i = 0; i <= 4; i++) {
+    for (let i = 0; i <= 6; i++) {
       param.options["y" + year] = year;
       year--;
     }
@@ -792,6 +800,8 @@ var db = {
       return 3;
     if (timeSpan == this.timeSpanOptions.last6m)
       return 6;
+    if (timeSpan == this.timeSpanOptions.last13m)
+      return 13;
     if (timeSpan == this.timeSpanOptions.last1y)
       return 12;
     if (timeSpan == this.timeSpanOptions.last2y)
