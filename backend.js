@@ -516,7 +516,7 @@ var db = {
       param.options = {};
       param.options[this.companyOptions.all] = "All Companies";
       param.showAsFilter = chartConfig == null || (chartConfig.xProperty != this.xProperties.company && chartConfig.detailLevel != this.detailLevels.total);
-      if (chartConfig != null && param.showAsFilter) {
+      if (chartConfig != null) {
         if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand) {
           for (const i in this.companyGroupNames) {
             const company = this.companyGroupNames[i];
