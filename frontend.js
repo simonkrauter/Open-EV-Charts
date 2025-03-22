@@ -773,6 +773,8 @@ function setGlobalChartOptions() {
   Chart.defaults.color = bodyStyle.color;
   Chart.defaults.font.family = bodyStyle.fontFamily;
   Chart.defaults.animation.duration = 0;
+  Chart.defaults.datasets.bar.categoryPercentage = 1;
+  Chart.defaults.datasets.bar.barPercentage = 0.75;
   Chart.defaults.plugins.legend.position = "bottom";
   Chart.defaults.plugins.legend.labels.boxWidth = 12;
   Chart.defaults.plugins.legend.labels.usePointStyle = true;
