@@ -937,6 +937,8 @@ var db = {
         chartConfig.detailLevel = this.detailLevels.company;
       else if (!chartConfig.detailLevel)
         chartConfig.detailLevel = params.detailLevel.defaultOption;
+      else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
+        chartConfig.detailLevel = params.detailLevel.defaultOption;
     } else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
 
