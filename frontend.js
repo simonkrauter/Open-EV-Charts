@@ -785,6 +785,9 @@ function setGlobalChartOptions() {
 }
 
 function renderChartView(chartConfig, chartData, chartDiv, isExport) {
+  const chartSize = getChartSize();
+  const barWidth = chartSize[0] / chartData.categories.length * Chart.defaults.datasets.bar.barPercentage;
+
   let chartOptions = {
     data: {
       datasets: []
@@ -838,11 +841,14 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           }
         },
         datalabels: {
-          display: false,
+          display: isSingleChart,
           formatter: function(value) {
             if (value === 0)
               return "";
-            return formatValue(chartConfig, value);
+            const text = formatValue(chartConfig, value);
+            if (measureTextWidth(text) > barWidth)
+              return "";
+            return text;
           }
         }
       }
@@ -873,9 +879,6 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     if (db.isYAxis100Percent(chartConfig)) {
       chartOptions.options.scales.y.max = 100;
     }
-    if (isSingleChart && window.innerWidth >= 1000) {
-      chartOptions.options.plugins.datalabels.display = "auto";
-    }
   }
 
   // Take over data series
@@ -904,7 +907,6 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   }
 
   const canvas = document.createElement("CANVAS");
-  const chartSize = getChartSize();
   canvas.style.width = chartSize[0] + "px";
   canvas.style.height = chartSize[1] + "px";
   chartDiv.appendChild(canvas);
