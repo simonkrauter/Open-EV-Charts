@@ -684,12 +684,9 @@ var db = {
       param.options[this.timeSpanOptions.last3m] = "Last 3 Months";
       param.options[this.timeSpanOptions.last6m] = "Last 6 Months";
     }
-    param.options[this.timeSpanOptions.last1y] = "Last Year";
-    param.options[this.timeSpanOptions.last2y] = "Last 2 Years";
-    param.options[this.timeSpanOptions.last3y] = "Last 3 Years";
-    param.options[this.timeSpanOptions.last4y] = "Last 4 Years";
-    param.options[this.timeSpanOptions.last5y] = "Last 5 Years";
-    param.options[this.timeSpanOptions.last6y] = "Last 6 Years";
+    for (let i = 1; i <= 6; i++) {
+      param.options[i + "y"] = this.getTimeSpanOptionText(i + "y");
+    }
     let currentDate = new Date();
     let currentYear = currentDate.getFullYear();
     let currentMonth = 1 + currentDate.getMonth();
@@ -730,16 +727,34 @@ var db = {
       param.options["y" + year] = year;
       year--;
     }
-    // Allow to select a time spans which is not included in the suggested options
-    if (chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null) {
-      let text = chartConfig.timeSpan.substr(1);
-      if (chartConfig.timeSpan.startsWith("q")) {
-        const year = chartConfig.timeSpan.substr(1, 4);
-        const quarter = chartConfig.timeSpan.substr(6, 1);
-        text = this.formatQuarter(year, quarter);
-      }
-      param.options[chartConfig.timeSpan] = text;
+    // Allow to select a time span which is not included in the suggested options
+    if (chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null)
+      param.options[chartConfig.timeSpan] = this.getTimeSpanOptionText(chartConfig.timeSpan);
+  },
+
+  isTimeSpanValid: function(timeSpan) {
+    if ((timeSpan.startsWith("m") || timeSpan.startsWith("q") || timeSpan.startsWith("y")) && Number.isInteger(parseInt(timeSpan[1])))
+      return true;
+    if (timeSpan.endsWith("y") && Number.isInteger(Number.parseInt(timeSpan[0])))
+      return true;
+    return false;
+  },
+
+  getTimeSpanOptionText: function(timeSpan) {
+    if (timeSpan.startsWith("m"))
+      return timeSpan.substr(1);
+    if (timeSpan.startsWith("q")) {
+      const year = timeSpan.substr(1, 4);
+      const quarter = timeSpan.substr(6, 1);
+      return this.formatQuarter(year, quarter);
     }
+    if (timeSpan.endsWith("y") && Number.isInteger(Number.parseInt(timeSpan[0]))) {
+      if (timeSpan[0] == "1")
+        return "Last Year";
+      else
+        return "Last " + timeSpan[0] + " Years";
+    }
+    return timeSpan;
   },
 
   getCountryOptions: function(chartConfig, allOptions) {
@@ -868,8 +883,8 @@ var db = {
             selectedValues.push(optionsKeyMatched);
           if (!param.allowMultiSelection)
             break;
-        } else if (param.name == "timeSpan" && Number.isInteger(parseInt(part[1])) && (part.startsWith("m") || part.startsWith("q") || part.startsWith("y"))) {
-          // Allow to select a time spans which is not included in the suggested options
+        } else if (param.name == "timeSpan" && this.isTimeSpanValid(part)) {
+          // Allow to select a time span which is not included in the suggested options
           selectedValues.push(part);
         }
       }
