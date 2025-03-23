@@ -4336,8 +4336,15 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-Rifter": 57
 , "Honda|e": 53
 , "Volkswagen|ID.5": 53
+, "Volvo|EC40": 52
 , "Audi|other": 61
-, "other": 608
+, "Volkswagen|other": 44
+, "Opel|other": 38
+, "Mercedes-Benz|other": 35
+, "Jaguar|other": 32
+, "Nissan|other": 26
+, "Porsche|other": 21
+, "other": 360
 });
 
 db.insert(db.countries.DE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3",
@@ -7106,14 +7113,13 @@ db.insert(db.countries.DE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 120
 , "Renault|Twingo E-Tech": 117
 , "Volvo|EC40": 110
-, "BYD|Seal": 98
 , "Kia|EV9": 94
 , "Jeep|Avenger EV": 89
+, "Nissan|Leaf": 84
+, "BYD|other": 200
 , "Renault|other": 186
 , "Peugeot|other": 182
-, "Nissan|other": 121
 , "Opel|other": 109
-, "BYD|other": 102
 , "MG|other": 91
 , "Mercedes-Benz|other": 76
 , "Porsche|other": 69
@@ -7124,6 +7130,7 @@ db.insert(db.countries.DE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 59
 , "Fiat|other": 56
 , "Mazda|other": 43
+, "Nissan|other": 37
 , "Nio|other": 34
 , "Audi|other": 30
 , "Tesla|other": 17
@@ -7209,7 +7216,6 @@ db.insert(db.countries.DE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 6": 238
 , "Volkswagen|ID. Buzz": 226
 , "Opel|Astra Electric": 223
-, "BYD|Seal": 204
 , "GWM|Ora 03": 194
 , "Peugeot|e-208": 190
 , "Renault|Twingo E-Tech": 180
@@ -7221,10 +7227,11 @@ db.insert(db.countries.DE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|ZS EV": 126
 , "Nissan|Leaf": 117
 , "Citroën|ë-C4": 113
+, "Opel|Mokka-e": 110
+, "BYD|other": 389
 , "Peugeot|other": 270
-, "Opel|other": 257
 , "Renault|other": 187
-, "BYD|other": 185
+, "Opel|other": 147
 , "Kia|other": 143
 , "Porsche|other": 105
 , "Jeep|other": 104
