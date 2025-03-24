@@ -754,9 +754,12 @@ function createButton() {
   return button;
 }
 
-function formatValue(chartConfig, value) {
+function formatValue(chartConfig, value, forAxis = false) {
   if (db.isYAxisPercent(chartConfig)) {
-    return value.toFixed(1).toLocaleString() + " %";
+    if (forAxis)
+      return value.toFixed(0).toLocaleString() + " %";
+    else
+      return value.toFixed(1).toLocaleString() + " %";
   } else {
     if (value != null)
       return Math.round(value).toLocaleString();
@@ -806,7 +809,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             precision: 0,
             padding: 8,
             callback: function(value) {
-              return formatValue(chartConfig, value);
+              return formatValue(chartConfig, value, true);
             }
           },
           grid: {
