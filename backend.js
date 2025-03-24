@@ -1453,14 +1453,10 @@ var db = {
         }
       }
       // Expand range to include data necessary for calculation of trailing average
-      if (this.isTimeSpanExtendedForAverageCalculation(chartConfig))
+      if (this.isDateFilterExtendedForAverageCalculation(chartConfig))
         dateFilters.firstYear = dateFilters.firstYear - 1;
     }
     return dateFilters;
-  },
-
-  isTimeSpanExtendedForAverageCalculation: function(chartConfig) {
-    return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
@@ -1723,11 +1719,11 @@ var db = {
     return hints;
   },
 
-  getCategoriesFromDatasets: function(chartConfig, datasets, sortByName = false) {
+  postProcessCategories: function(chartConfig, chartData, sortByName) {
     // Sort categories and limit count
-    let categories = datasets.categories;
-    let seriesRows = datasets.seriesRows;
-    let result = [];
+    let categories = chartData.categories;
+    let seriesRows = chartData.seriesRows;
+    let processedCategories = [];
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
     if (this.isTimeXProperty(chartConfig)) {
       // Numeric sort
@@ -1761,7 +1757,7 @@ var db = {
     let count = 0;
     for (const i in categories) {
       const category = categories[i];
-      result.push(category);
+      processedCategories.push(category);
       count++;
       if (count == maxSeriesOption.count && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)
         break;
@@ -1769,11 +1765,23 @@ var db = {
 
     // Fill gaps in month/quarters
     if (this.isByMonth(chartConfig))
-      this.fillMonthCategoryGaps(result);
+      this.fillMonthCategoryGaps(processedCategories);
     else if (this.isByQuarter(chartConfig))
-      this.fillQuarterCategoryGaps(result);
+      this.fillQuarterCategoryGaps(processedCategories);
 
-    return result;
+    chartData.categories = processedCategories;
+  },
+
+  hasExtendedCategories: function(chartConfig, chartData) {
+    // Remove additional categories which were included for calculation of trailing average
+    if (!this.isDateFilterExtendedForAverageCalculation(chartConfig))
+      return false;
+    if (Object.keys(chartData.seriesRows).length > 0) {
+      const categoriesCount = Object.keys(chartData.seriesRows[Object.keys(chartData.seriesRows)[0]]).length;
+      if (categoriesCount <= this.getNominalMonthCount(chartConfig))
+        return false;
+    }
+    return true;
   },
 
   specialSortCompare: function(a, b) {
@@ -1929,51 +1937,51 @@ var db = {
     return chartConfig.company == this.companyOptions.all && chartConfig.brand == this.brandOptions.all && chartConfig.model == this.modelOptions.all;
   },
 
-  queryChartData_createSeries: function(chartConfig, isSingleChart, seriesRows, seriesRowsForSorting, result) {
-    // Creates the chart series based on 'seriesRows' and assigns them to 'result'
+  isDateFilterExtendedForAverageCalculation: function(chartConfig) {
+    return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
+  },
 
-    let isTimeSpanExtendedForAverageCalculation = this.isTimeSpanExtendedForAverageCalculation(chartConfig);
-    if (isTimeSpanExtendedForAverageCalculation && Object.keys(seriesRows).length > 0) {
-      const categoriesCount = Object.keys(seriesRows[Object.keys(seriesRows)[0]]).length;
-      if (categoriesCount <= this.getNominalMonthCount(chartConfig))
-        isTimeSpanExtendedForAverageCalculation = false;
-    }
-    const timeSpanExtendedMonthCount = 12;
+  postProcessChartSeries: function(chartConfig, chartData) {
+    // Creates the final data series
 
+    const hasExtendedCategories = this.hasExtendedCategories(chartConfig, chartData);
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
+    const hasTotalSeries = Object.keys(chartData.seriesRows).length > 1 && chartConfig.view != this.views.barChart && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric);
 
-    // Create series (entries of 'data' will be inserted in the order of 'result.categories')
-    result.series = [];
+    // Create series (entries of 'data' will be inserted in the order of 'chartData.categories')
+    let processedSeries = [];
     let seriesByName = {};
     let seriesNamesInOrder = [];
     let seriesSortValues = {};
     let totalSeries = {name: this.totalSeriesName, data: []};
-    for (const seriesName in seriesRows) {
+    for (const seriesName in chartData.seriesRows) {
       seriesNamesInOrder.push(seriesName);
       let newSeries = {};
       newSeries.name = seriesName;
       newSeries.data = [];
       let averageCalculationList = [];
 
-      for (const i in result.categories) {
-        const category = result.categories[i];
-        const value = this.queryChartData_calculateAverageValue(chartConfig, seriesRows[seriesName][category], averageCalculationList);
+      for (const i in chartData.categories) {
+        const category = chartData.categories[i];
+        const value = this.calculateDataPointValue(chartConfig, chartData.seriesRows[seriesName][category], averageCalculationList);
 
         let categoryIndex = i;
         // Skip first 12 months which were included for calculation of trailing average
-        if (isTimeSpanExtendedForAverageCalculation) {
-          if (i < timeSpanExtendedMonthCount)
+        if (hasExtendedCategories) {
+          if (i < 12)
             continue;
-          categoryIndex = i - timeSpanExtendedMonthCount;
+          categoryIndex = i - 12;
         }
 
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
-          if (categoryIndex in totalSeries.data)
-            totalSeries.data[categoryIndex] += value;
-          else
-            totalSeries.data[categoryIndex] = value;
+          if (hasTotalSeries) {
+            if (categoryIndex in totalSeries.data)
+              totalSeries.data[categoryIndex] += value;
+            else
+              totalSeries.data[categoryIndex] = value;
+          }
         } else {
           if (chartConfig.view == this.views.barChart)
             newSeries.data.push(0);
@@ -1983,9 +1991,9 @@ var db = {
         // Add value to seriesSortValues
         if (value != null) {
           let sortValue = value;
-          if (seriesRowsForSorting[seriesName] && maxSeriesOption.mostRelevant)
-            sortValue = seriesRowsForSorting[seriesName][category];
-          if (categoryIndex >= result.categories.length / 2)
+          if (chartData.seriesRowsForSorting[seriesName] && maxSeriesOption.mostRelevant)
+            sortValue = chartData.seriesRowsForSorting[seriesName][category];
+          if (categoryIndex >= chartData.categories.length / 2)
             sortValue = sortValue * 2;
           if (seriesName in seriesSortValues)
             seriesSortValues[seriesName] += sortValue;
@@ -1996,8 +2004,8 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (isSingleChart && Object.keys(seriesRows).length > 1 && chartConfig.view != this.views.barChart && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
-      result.series.push(totalSeries);
+    if (hasTotalSeries)
+      processedSeries.push(totalSeries);
 
     // Add series to array in sorted order
     seriesNamesInOrder.sort(function(a, b) {
@@ -2011,7 +2019,7 @@ var db = {
       if (currSeries.data.length == 0)
         continue;
       if (seriesName != "other" && count < maxSeriesOption.count) {
-        result.series.push(currSeries);
+        processedSeries.push(currSeries);
         count++;
       } else {
         for (const j in currSeries.data) {
@@ -2027,14 +2035,13 @@ var db = {
     }
 
     if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
-      result.series.push(otherSeries);
+      processedSeries.push(otherSeries);
 
-    // Remove additional categories which were included for calculation of trailing average
-    if (isTimeSpanExtendedForAverageCalculation)
-      result.categories.splice(0, timeSpanExtendedMonthCount);
+    chartData.series = processedSeries;
   },
 
-  queryChartData_calculateAverageValue: function(chartConfig, rawValue, averageCalculationList) {
+  calculateDataPointValue: function(chartConfig, rawValue, averageCalculationList) {
+    // Returns the value for one data point, which can be the trailing average
     const value = this.getValueOrDefault(rawValue, null);
     let averageLength = 0;
     if (chartConfig.xProperty == this.xProperties.monthAvg3)
@@ -2060,23 +2067,18 @@ var db = {
     return sum / count;
   },
 
-  queryChartData_absolute: function(chartConfig, sortByName, isSingleChart) {
+  queryRawChartData_absolute: function(chartConfig) {
     // Queries the data for one chart for the metrics salesAll and salesElectric
-    let datasets;
+    let chartData;
     if (chartConfig.metric == this.metrics.salesAll)
-      datasets = this.queryDatasets(chartConfig, false);
+      chartData = this.queryDatasets(chartConfig, false);
     else
-      datasets = this.queryDatasets(chartConfig, true);
-    let seriesRows = datasets.seriesRows;
-    let result = {};
-    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
-    result.sources = datasets.sources;
-    result.hints = datasets.hints;
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, seriesRows, result);
-    return result;
+      chartData = this.queryDatasets(chartConfig, true);
+    chartData.seriesRowsForSorting = chartData.seriesRows;
+    return chartData;
   },
 
-  queryChartData_ratio: function(chartConfig, sortByName, isSingleChart) {
+  queryRawChartData_ratio: function(chartConfig) {
     // Queries the data for one chart for the metrics ratioElectric and ratioElectricWithinCompanyOrBrand
     let chartConfigForRatio = this.cloneObject(chartConfig);
     if (chartConfig.metric == this.metrics.ratioElectric) {
@@ -2085,21 +2087,14 @@ var db = {
       chartConfigForRatio.brand = this.brandOptions.all;
       chartConfigForRatio.model = this.modelOptions.all;
     }
-    let datasets = this.queryDatasets(chartConfig, true);
+    let chartData = this.queryDatasets(chartConfig, true);
     let datasetsReference = this.queryDatasets(chartConfigForRatio, false, false);
-    let seriesRows = datasets.seriesRows;
-    let result = {};
-    result.sources = datasets.sources;
-    for (const i in datasetsReference.sources) {
-      if (result.sources[i] == null)
-        result.sources[i] = datasetsReference.sources[i];
-    }
-    result.hints = datasets.hints;
+
     let valueExists = false;
-    for (const seriesName in seriesRows) {
+    for (const seriesName in chartData.seriesRows) {
       let valuesForRatio = {};
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
+      for (const i in chartData.categories) {
+        const category = chartData.categories[i];
         let value = 0;
         if (chartConfig.metric == this.metrics.ratioElectric && chartConfigForRatio.brand == this.brandOptions.all && this.isSingleOrCombinedCountry(chartConfigForRatio)) {
           for (const seriesNameInner in datasetsReference.seriesRows) {
@@ -2112,31 +2107,35 @@ var db = {
           value = value + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
         valuesForRatio[category] = value;
       }
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
-        let value = this.getValueOrDefault(seriesRows[seriesName][category], null);
+      for (const i in chartData.categories) {
+        const category = chartData.categories[i];
+        let value = this.getValueOrDefault(chartData.seriesRows[seriesName][category], null);
         if (valuesForRatio[category] == 0)
-          seriesRows[seriesName][category] = null;
+          chartData.seriesRows[seriesName][category] = null;
         else {
           let val = value / valuesForRatio[category] * 100;
           if (val > 100) {
             console.log("Warning: Invalid data: EV sales is higher than All cars sales. series: " + seriesName + ", category: " + category);
             val = 100;
           }
-          seriesRows[seriesName][category] = val;
+          chartData.seriesRows[seriesName][category] = val;
           valueExists = true;
         }
       }
     }
     if (!valueExists)
-      seriesRows = [];
-    datasets.seriesRows = seriesRows;
-    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, datasetsReference.seriesRows, result);
-    return result;
+      chartData.seriesRows = [];
+
+    for (const i in datasetsReference.sources) {
+      if (chartData.sources[i] == null)
+        chartData.sources[i] = datasetsReference.sources[i];
+    }
+
+    chartData.seriesRowsForSorting = datasetsReference.seriesRows;
+    return chartData;
   },
 
-  queryChartData_share: function(chartConfig, sortByName, isSingleChart) {
+  queryRawChartData_share: function(chartConfig) {
     // Queries the data for one chart for the metrics shareElectric and shareAll
     let chartConfigForSum = this.cloneObject(chartConfig);
     if (this.isTimeXProperty(chartConfig)) {
@@ -2144,30 +2143,25 @@ var db = {
       chartConfigForSum.brand = this.brandOptions.all;
       chartConfigForSum.model = this.modelOptions.all;
     }
-    let datasets;
+    let chartData;
     let datasetsReference;
     if (chartConfig.metric == this.metrics.shareElectric) {
-      datasets = this.queryDatasets(chartConfig, true);
+      chartData = this.queryDatasets(chartConfig, true);
       datasetsReference = this.queryDatasets(chartConfigForSum, true, false);
     } else {
-      datasets = this.queryDatasets(chartConfig, false);
+      chartData = this.queryDatasets(chartConfig, false);
       datasetsReference = this.queryDatasets(chartConfigForSum, false, false);
     }
-    let seriesRows = datasets.seriesRows;
-    const seriesRowsKeys = Object.keys(seriesRows);
+    const seriesRowsKeys = Object.keys(chartData.seriesRows);
     if (seriesRowsKeys.length == 1 && seriesRowsKeys[0] == "other") {
-      seriesRows = []; // market split with only 1 series is not useful
+      chartData.seriesRows = {}; // market split with only 1 series is not useful
     }
-    let result = {};
-    result.categories = this.getCategoriesFromDatasets(chartConfig, datasets, sortByName);
-    result.sources = datasets.sources;
-    result.hints = datasets.hints;
 
     let sums = {};
     const isSumPerSeries = this.isCompanyBrandModelXProperty(chartConfig);
     if (isSumPerSeries) {
       // sum per series
-      for (const seriesName in datasets.seriesRows) {
+      for (const seriesName in chartData.seriesRows) {
         let sum = 0;
         for (const i in datasetsReference.categories) {
           const category = datasetsReference.categories[i];
@@ -2177,8 +2171,8 @@ var db = {
       }
     } else {
       // sum per category
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
+      for (const i in chartData.categories) {
+        const category = chartData.categories[i];
         let sum = 0;
         for (const seriesName in datasetsReference.seriesRows) {
           sum = sum + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
@@ -2186,31 +2180,43 @@ var db = {
         sums[category] = sum;
       }
     }
-    for (const seriesName in seriesRows) {
-      for (const i in datasets.categories) {
-        const category = datasets.categories[i];
-        let value = this.getValueOrDefault(seriesRows[seriesName][category], null);
+    for (const seriesName in chartData.seriesRows) {
+      for (const i in chartData.categories) {
+        const category = chartData.categories[i];
+        let value = this.getValueOrDefault(chartData.seriesRows[seriesName][category], null);
         let sum;
         if (isSumPerSeries)
           sum = sums[seriesName];
         else
           sum = sums[category];
         if (sum != 0)
-          seriesRows[seriesName][category] = value / sum * 100;
+          chartData.seriesRows[seriesName][category] = value / sum * 100;
       }
     }
-    this.queryChartData_createSeries(chartConfig, isSingleChart, seriesRows, datasetsReference.seriesRows, result);
-    return result;
+
+    chartData.seriesRowsForSorting = chartData.seriesRows;
+    return chartData;
   },
 
-  queryChartData: function(chartConfig, sortByName, isSingleChart) {
+  queryChartData: function(chartConfig, sortByName) {
     // Queries the data for one chart
+    let chartData;
+
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
-      return this.queryChartData_absolute(chartConfig, sortByName, isSingleChart);
-    if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
-      return this.queryChartData_ratio(chartConfig, sortByName, isSingleChart);
-    if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
-      return this.queryChartData_share(chartConfig, sortByName, isSingleChart);
+      chartData = this.queryRawChartData_absolute(chartConfig);
+    else if ([this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric))
+      chartData = this.queryRawChartData_ratio(chartConfig);
+    else if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
+      chartData = this.queryRawChartData_share(chartConfig);
+
+    this.postProcessCategories(chartConfig, chartData, sortByName);
+    this.postProcessChartSeries(chartConfig, chartData);
+
+    // Remove additional categories which were included for calculation of trailing average
+    if (this.hasExtendedCategories(chartConfig, chartData))
+      chartData.categories.splice(0, 12);
+
+    return chartData;
   }
 };
 

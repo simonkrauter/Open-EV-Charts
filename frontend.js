@@ -519,7 +519,7 @@ function renderChart(chartIndex) {
   const originalChartConfig = chartConfigs[chartIndex];
   const chartConfig = db.getDisplayChartConfig(originalChartConfig);
   const params = db.getChartParams(chartConfig);
-  const chartData = db.queryChartData(chartConfig, sortByName, isSingleChart);
+  const chartData = db.queryChartData(chartConfig, sortByName);
   const hasData = chartData.series.length > 0;
 
   let chartDiv;
