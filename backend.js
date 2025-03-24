@@ -1938,13 +1938,8 @@ var db = {
       if (categoriesCount <= this.getNominalMonthCount(chartConfig))
         isTimeSpanExtendedForAverageCalculation = false;
     }
-    let timeSpanExtendedMonthCount;
-    if (isTimeSpanExtendedForAverageCalculation) {
-      if (chartConfig.xProperty == this.xProperties.monthAvg3)
-        timeSpanExtendedMonthCount = 3;
-      else
-        timeSpanExtendedMonthCount = 12;
-    }
+    const timeSpanExtendedMonthCount = 12;
+
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
 
     // Create series (entries of 'data' will be inserted in the order of 'result.categories')
