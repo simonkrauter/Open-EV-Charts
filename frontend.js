@@ -756,10 +756,7 @@ function createButton() {
 
 function formatValue(chartConfig, value) {
   if (db.isYAxisPercent(chartConfig)) {
-    if (chartConfig.view == db.views.table)
-      return value.toFixed(1).toLocaleString() + " %";
-    else
-      return (Math.round(value * 10) / 10).toLocaleString() + " %";
+    return value.toFixed(1).toLocaleString() + " %";
   } else {
     if (value != null)
       return Math.round(value).toLocaleString();
