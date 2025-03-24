@@ -838,7 +838,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           }
         },
         datalabels: {
-          display: isSingleChart,
+          display: false,
           formatter: function(value) {
             if (value === 0)
               return "";
@@ -876,6 +876,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     if (db.isYAxis100Percent(chartConfig)) {
       chartOptions.options.scales.y.max = 100;
     }
+    chartOptions.options.plugins.datalabels.display = isSingleChart;
   }
 
   // Take over data series
