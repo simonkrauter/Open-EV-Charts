@@ -1648,7 +1648,7 @@ var db = {
     }
 
     // missing month/quarter/year
-    if (this.isTimeXProperty(chartConfig) && this.isCombinedCountry(chartConfig)) {
+    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && (this.isCombinedCountry(chartConfig) || chartConfig.view == this.views.barChart)) {
       categories.sort();
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
