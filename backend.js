@@ -771,6 +771,8 @@ var db = {
       const quarter = timeSpan.substr(6, 1);
       return this.formatQuarter(year, quarter);
     }
+    if (timeSpan.startsWith("y"))
+      return timeSpan.substr(1, 4);
     if (timeSpan.endsWith("y") && Number.isInteger(Number.parseInt(timeSpan[0]))) {
       if (timeSpan[0] == "1")
         return "Last Year";
