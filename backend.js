@@ -1447,6 +1447,8 @@ var db = {
           dateFilters.firstMonth = dateFilters.lastMonth + 1;
           if (this.isByQuarter(chartConfig))
             dateFilters.firstMonth = this.quarterToMonth(this.monthToQuarter(dateFilters.firstMonth)); // round to quarter
+          else if (this.isByYear(chartConfig))
+            dateFilters.firstMonth = 1; // round to year
           if (dateFilters.firstMonth > 12) {
             dateFilters.firstYear++;
             dateFilters.firstMonth = dateFilters.firstMonth - 12;
