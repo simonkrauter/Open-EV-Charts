@@ -239,6 +239,21 @@ var db = {
       return text.replace("|", " ");
   },
 
+  joinCountriesList: function(list) {
+    const count = list.length;
+    if (count == 0)
+      return "";
+    if (count == 1)
+      return list[0];
+    const maxDisplayCount = 6;
+    if (count > maxDisplayCount) {
+      list = list.slice(0, maxDisplayCount - 1);
+      const hiddenCount = count - maxDisplayCount + 1;
+      list.push(hiddenCount + " more countries");
+    }
+    return list.slice(0, -1).join(", ") + " and " + list.slice(-1);
+  },
+
   metrics:
   { "all": "all-metrics"
   , "salesAll": "all-sales"
@@ -1218,14 +1233,7 @@ var db = {
             countrieNames.push(this.countryNames[id]);
         }
       }
-      const count = countrieNames.length;
-      const maxDisplayCount = 8;
-      if (count > maxDisplayCount) {
-        countrieNames = countrieNames.slice(0, maxDisplayCount - 1);
-        const moreCountriesCount = count - maxDisplayCount + 1;
-        countrieNames.push("+" + moreCountriesCount + " countries");
-      }
-      parts.push(countrieNames.join(", "));
+      parts.push(this.joinCountriesList(countrieNames));
     }
     return parts.join(" – ");
   },
@@ -1539,7 +1547,7 @@ var db = {
 
     // missing countries
     if (chartConfig.country.includes(this.countryOptions.all) && this.isCombinedCountry(chartConfig)) {
-      hints.push("These are not worldwide numbers, as data from several countries is missing.");
+      hints.push("These are not global numbers, as data from several countries is missing.");
     }
 
     // gap detection (missing months in data series)
@@ -1660,25 +1668,23 @@ var db = {
           if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear)
             missingCountries.push(countryName);
         }
-        if (missingCountries.length > 0) {
-          if (missingCountries.length > 6)
-            hints.push(timeSpan + ": Missing data for " + missingCountries.length + " countries.");
-          else
-            hints.push(timeSpan + ": Missing data for " + missingCountries.join(", ") + ".");
-        }
+        if (missingCountries.length > 0)
+          hints.push(timeSpan + ": Missing data for " + this.joinCountriesList(missingCountries) + ".");
       }
     }
 
     // monthly data is not available
-    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty)) {
-      for (const i in nonMonthlyCountries) {
-        let hint = "Monthly data is derived from quarterly data.";
-        if (this.isMultiCountry(chartConfig)) {
+    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0) {
+      let hint = "Monthly data is derived from quarterly data";
+      if (this.isMultiCountry(chartConfig)) {
+        let countryNames = [];
+        for (const i in nonMonthlyCountries) {
           const countryId = nonMonthlyCountries[i];
-          hint = this.countryNames[countryId] + ": " + hint;
+          countryNames.push(this.countryNames[countryId]);
         }
-        hints.push(hint);
+        hint = hint + " for " + this.joinCountriesList(countryNames);
       }
+      hints.push(hint + ".");
     }
 
     // all cars data per company/brand not available
