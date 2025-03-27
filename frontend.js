@@ -923,20 +923,22 @@ function configureDataLabels(chartConfig, chartData, chartOptions) {
     return;
   const chartSize = getChartSize();
 
+  // Calculate the minimum value required for enough height
+  const minValue = db.getYAxisMax(chartConfig, chartData) / chartSize[1] * 20;
+
   // Make sure, that the width is enough for every label
   const availableWidth = chartSize[0] / chartData.categories.length * Chart.defaults.datasets.bar.barPercentage * 1.05;
   for (const i in chartData.series) {
     const series = chartData.series[i];
     for (const j in series.data) {
       const value = series.data[j];
+      if (value < minValue)
+        continue;
       const text = formatValue(chartConfig, value);
       if (measureTextWidth(text) > availableWidth)
         return;
     }
   }
-
-  // Calculate the minimum value required for enough height
-  const minValue = db.getYAxisMax(chartConfig, chartData) / chartSize[1] * 20;
 
   chartOptions.options.plugins.datalabels.display = true;
   chartOptions.options.plugins.datalabels.formatter = function(value) {
