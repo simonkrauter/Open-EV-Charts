@@ -836,7 +836,7 @@ var db = {
   },
 
   encodeChartConfig: function(chartConfig, changedParamName = null) {
-    chartConfig = this.makeChartConfigValid(chartConfig, changedParamName);
+    this.makeChartConfigValid(chartConfig, changedParamName);
     let parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -922,7 +922,8 @@ var db = {
       params = this.getChartParams(result);
     }
 
-    return this.makeChartConfigValid(result);
+    this.makeChartConfigValid(result);
+    return result;
   },
 
   makeChartConfigValid: function(chartConfig, changedParamName = null) {
@@ -1052,8 +1053,6 @@ var db = {
     // reset brand filter, when company filter is reset
     if (changedParamName == "company" && chartConfig.company == this.companyOptions.all)
       chartConfig.brand = this.brandOptions.all;
-
-    return chartConfig;
   },
 
   applyNewDefaultOptions: function(newChartConfig, curChartConfig) {
@@ -1125,7 +1124,7 @@ var db = {
         continue;
       let newConfig = this.cloneObject(chartSetConfig);
       newConfig[unfoldParam.name] = values[k];
-      newConfig = this.makeChartConfigValid(newConfig);
+      this.makeChartConfigValid(newConfig);
       newConfig.unfoldParamName = unfoldParam.name;
       chartConfigs.push(newConfig);
     }
@@ -1135,7 +1134,7 @@ var db = {
       let config = {};
       config.metric = this.metrics.all;
       config.xProperty = this.xProperties.monthAvg12;
-      config = this.makeChartConfigValid(config);
+      this.makeChartConfigValid(config);
       chartConfigs.unshift(config);
     }
 
@@ -1170,7 +1169,7 @@ var db = {
       }
     }
     if (modified)
-      chartConfig = this.makeChartConfigValid(chartConfig);
+      this.makeChartConfigValid(chartConfig);
     return chartConfig;
   },
 
