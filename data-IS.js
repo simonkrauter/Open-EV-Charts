@@ -5181,3 +5181,85 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volvo|EX40": 1
 , "other": 44
 });
+
+db.insert(db.countries.IS, "2025-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
+{ "Toyota": 104
+, "Kia": 75
+, "Suzuki": 62
+, "Nissan": 53
+, "Tesla": 41
+, "Volvo": 30
+, "Škoda": 29
+, "Hyundai": 25
+, "Mazda": 22
+, "Mercedes-Benz": 20
+, "Dacia": 19
+, "Jeep": 13
+, "Audi": 12
+, "Volkswagen": 11
+, "BYD": 10
+, "Honda": 10
+, "Xpeng": 10
+, "BMW": 8
+, "Land Rover": 8
+, "Polestar": 8
+, "Ford": 7
+, "Porsche": 7
+, "Peugeot": 6
+, "Subaru": 5
+, "Opel": 3
+, "Fiat": 2
+, "GWM": 2
+, "Jaguar": 1
+, "Renault": 1
+, "other": 51
+});
+
+db.insert(db.countries.IS, "2025-02", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
+{ "Tesla|Model 3": 24
+, "Kia|EV3": 21
+, "Tesla|Model Y": 16
+, "Toyota|bZ4X": 10
+, "Volvo|EX40": 10
+, "Volvo|EX30": 8
+, "Xpeng|G6": 8
+, "Škoda|Enyaq": 8
+, "Audi|Q4 e-tron": 6
+, "Volvo|EX90": 6
+, "Hyundai|Ioniq 5": 5
+, "Polestar|3": 5
+, "Porsche|Macan Electric": 5
+, "BYD|Sealion 7": 4
+, "Kia|EV9": 4
+, "Mercedes-Benz|EQA": 4
+, "Mercedes-Benz|EQE": 4
+, "Nissan|Ariya": 4
+, "Volkswagen|ID.3": 4
+, "Audi|Q6 e-tron": 3
+, "BYD|Song Plus": 3
+, "Volkswagen|ID.4": 3
+, "Škoda|Elroq": 3
+, "BYD|Dolphin": 2
+, "GWM|Ora 03": 2
+, "Kia|EV6": 2
+, "Mercedes-Benz|EQB": 2
+, "Mercedes-Benz|eCitan": 2
+, "Nissan|Leaf": 2
+, "Polestar|2": 2
+, "Subaru|Solterra": 2
+, "Volkswagen|ID.7": 2
+, "Xpeng|G9": 2
+, "Audi|Q8 e-tron": 1
+, "BMW|i4": 1
+, "BMW|iX1": 1
+, "BMW|iX3": 1
+, "BYD|Yuan Plus": 1
+, "Fiat|E-Doblò": 1
+, "Hyundai|Ioniq 6": 1
+, "Jaguar|I-Pace": 1
+, "Polestar|4": 1
+, "Renault|Scénic E-Tech": 1
+, "Tesla|Model X": 1
+, "Volkswagen|ID.5": 1
+, "other": 48
+});
