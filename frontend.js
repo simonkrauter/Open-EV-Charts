@@ -795,7 +795,6 @@ function setGlobalChartOptions() {
 
 function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   const chartSize = getChartSize();
-  const barWidth = chartSize[0] / chartData.categories.length * Chart.defaults.datasets.bar.barPercentage;
 
   let chartOptions = {
     data: {
@@ -850,15 +849,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           }
         },
         datalabels: {
-          display: false,
-          formatter: function(value) {
-            if (value === 0)
-              return "";
-            const text = formatValue(chartConfig, value);
-            if (measureTextWidth(text) > barWidth)
-              return "";
-            return text;
-          }
+          display: false
         }
       }
     },
@@ -888,8 +879,9 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     if (db.isYAxis100Percent(chartConfig)) {
       chartOptions.options.scales.y.max = 100;
     }
-    chartOptions.options.plugins.datalabels.display = isSingleChart;
   }
+
+  configureDataLabels(chartConfig, chartData, chartOptions);
 
   // Take over data series
   const colors = getChartSeriesColors(chartConfig, chartData);
@@ -922,6 +914,38 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
   chartDiv.appendChild(canvas);
 
   return new Chart(canvas.getContext('2d'), chartOptions);
+}
+
+function configureDataLabels(chartConfig, chartData, chartOptions) {
+  if (chartConfig.view != db.views.barChart)
+    return;
+  if (!isSingleChart)
+    return;
+  const chartSize = getChartSize();
+
+  // Make sure, that the width is enough for every label
+  const availableWidth = chartSize[0] / chartData.categories.length * Chart.defaults.datasets.bar.barPercentage * 1.05;
+  for (const i in chartData.series) {
+    const series = chartData.series[i];
+    for (const j in series.data) {
+      const value = series.data[j];
+      const text = formatValue(chartConfig, value);
+      if (measureTextWidth(text) > availableWidth)
+        return;
+    }
+  }
+
+  // Calculate the minimum value required for enough height
+  const minValue = db.getYAxisMax(chartConfig, chartData) / chartSize[1] * 20;
+
+  chartOptions.options.plugins.datalabels.display = true;
+  chartOptions.options.plugins.datalabels.formatter = function(value) {
+    if (value === 0)
+      return "";
+    if (value < minValue)
+      return "";
+    return formatValue(chartConfig, value);
+  };
 }
 
 function getAvailableSizeForCharts() {
