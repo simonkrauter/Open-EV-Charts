@@ -72,21 +72,30 @@ function measureTextWidth(text) {
 }
 
 function navigate(renderOnlyCharts = false) {
-  currentHash = decodeURIComponent(location.hash.substr(1));
-  isScreenshotModeEnabled = false;
-  chartSetConfig = db.decodeChartConfigString(currentHash);
-  chartConfigs = db.unfoldChartConfig(chartSetConfig);
-  isSingleChart = chartConfigs.length == 1;
-  sortByName = false;
-  isHintsDivExpanded = false;
-  currentExportFormat = null;
-  window.scrollTo(0, 0);
+  try {
+    currentHash = decodeURIComponent(location.hash.substr(1));
+    isScreenshotModeEnabled = false;
+    chartSetConfig = db.decodeChartConfigString(currentHash);
+    chartConfigs = db.unfoldChartConfig(chartSetConfig);
+    isSingleChart = chartConfigs.length == 1;
+    sortByName = false;
+    isHintsDivExpanded = false;
+    currentExportFormat = null;
+    window.scrollTo(0, 0);
 
-  if (renderOnlyCharts && chartsDiv != null) {
-    updateFilters()
-    renderCharts();
-  } else {
-    renderPage();
+    if (renderOnlyCharts && chartsDiv != null) {
+      updateFilters()
+      renderCharts();
+    } else {
+      renderPage();
+    }
+  } catch (err) {
+    const div = document.createElement("DIV");
+    div.appendChild(document.createTextNode("Error: " + err.message));
+    div.style.background = "red";
+    div.style.color = "white";
+    dynamicContent.insertBefore(div, dynamicContent.firstChild);
+    throw err;
   }
 
   logVisit();
