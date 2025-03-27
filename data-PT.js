@@ -2110,3 +2110,39 @@ db.insert(db.countries.PT, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Škoda": 2
 , "other": 16
 });
+
+db.insert(db.countries.PT, "2025-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
+{ "other": 19463
+});
+
+db.insert(db.countries.PT, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/2, https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
+{ "Peugeot": 657
+, "Tesla": 528
+, "BMW": 399
+, "BYD": 292
+, "Mercedes-Benz": 215
+, "Renault": 204
+, "Volvo": 180
+, "Citroën": 173
+, "Mini": 135
+, "Dacia": 112
+, "Opel": 107
+, "Audi": 101
+, "Volkswagen": 86
+, "Kia": 75
+, "Nissan": 71
+, "Jeep": 67
+, "Porsche": 67
+, "Toyota": 65
+, "Cupra": 60
+, "MG": 58
+, "Hyundai": 57
+, "Xpeng": 57
+, "Smart": 50
+, "Ford": 38
+, "Fiat": 28
+, "Polestar": 24
+, "Škoda": 20
+, "Honda": 5
+, "other": 15
+});
