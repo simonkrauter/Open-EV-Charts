@@ -7690,7 +7690,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 48
 , "Toyota|bZ4X": 48
 , "BYD|other": 96
-, "Mercedes-Benz|other": 92
+, "Mercedes-Benz|other": 93
 , "Peugeot|other": 89
 , "Cupra|other": 78
 , "Ford|other": 78
@@ -7712,5 +7712,5 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 12
 , "Polestar|other": 9
 , "Toyota|other": 7
-, "other": 150
+, "other": 149
 });
