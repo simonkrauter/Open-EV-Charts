@@ -7,6 +7,8 @@ var db = {
 
   singleSeriesName: "Value",
 
+  currentDate: new Date(),
+
   countries: {},
   // Code => ID
 
@@ -710,9 +712,8 @@ var db = {
         break;
       param.options[i + "y"] = this.getTimeSpanOptionText(i + "y");
     }
-    let currentDate = new Date();
-    let currentYear = currentDate.getFullYear();
-    let currentMonth = 1 + currentDate.getMonth();
+    let currentYear = this.currentDate.getFullYear();
+    let currentMonth = 1 + this.currentDate.getMonth();
     currentMonth--;
     if (currentMonth < 1) {
       currentMonth = 12;
@@ -1433,9 +1434,8 @@ var db = {
         dateFilters.lastYear = dateFilters.firstYear;
         dateFilters.lastMonth = dateFilters.firstMonth;
       } else if (timeSpan.endsWith("y") || timeSpan.endsWith("m")) {
-        let currentDate = new Date();
-        let currentYear = currentDate.getFullYear();
-        let currentMonth = 1 + currentDate.getMonth();
+        let currentYear = this.currentDate.getFullYear();
+        let currentMonth = 1 + this.currentDate.getMonth();
         currentMonth--;
         if (currentMonth < 1) {
           currentMonth = 12;
@@ -1494,8 +1494,7 @@ var db = {
       const quarter = parts[1].substr(1);
       date = new Date(year, this.quarterToMonth(quarter) + 2, 16); // end of quarter plus 15 days
     }
-    const currentDate = new Date();
-    if (date < currentDate)
+    if (date < this.currentDate)
       return;
 
     // Remove last month/quarter if it is incomplete
@@ -1624,9 +1623,8 @@ var db = {
     if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
       if (this.isTimeXProperty(chartConfig))
         categories.sort();
-      const currentDate = new Date();
-      const currentYear = currentDate.getFullYear();
-      const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + currentDate.getMonth()));
+      const currentYear = this.currentDate.getFullYear();
+      const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
       let expectedNumberOfMonth;
       if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
         expectedNumberOfMonth = 3;
@@ -1662,8 +1660,7 @@ var db = {
     // missing month/quarter/year
     if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && (this.isCombinedCountry(chartConfig) || chartConfig.view == this.views.barChart)) {
       categories.sort();
-      const currentDate = new Date();
-      const currentYear = currentDate.getFullYear();
+      const currentYear = this.currentDate.getFullYear();
       for (const i in categories) {
         const timeSpan = categories[i];
         let missingCountries = [];
