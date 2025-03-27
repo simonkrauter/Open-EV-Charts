@@ -1779,16 +1779,11 @@ var db = {
     chartData.categories = processedCategories;
   },
 
-  hasExtendedCategories: function(chartConfig, chartData) {
-    // Remove additional categories which were included for calculation of trailing average
+  getExtendedCategoriesCount: function(chartConfig, chartData) {
+    // Return the number of additional categories which were included for calculation of trailing average
     if (!this.isDateFilterExtendedForAverageCalculation(chartConfig))
-      return false;
-    if (Object.keys(chartData.seriesRows).length > 0) {
-      const categoriesCount = Object.keys(chartData.seriesRows[Object.keys(chartData.seriesRows)[0]]).length;
-      if (categoriesCount <= this.getNominalMonthCount(chartConfig))
-        return false;
-    }
-    return true;
+      return 0;
+    return chartData.categories.length - this.getNominalMonthCount(chartConfig);
   },
 
   specialSortCompare: function(a, b) {
@@ -1951,7 +1946,7 @@ var db = {
   postProcessChartSeries: function(chartConfig, chartData) {
     // Creates the final data series
 
-    const hasExtendedCategories = this.hasExtendedCategories(chartConfig, chartData);
+    const extendedCategoriesCount = this.getExtendedCategoriesCount(chartConfig, chartData);
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
     const hasTotalSeries = Object.keys(chartData.seriesRows).length > 1 && chartConfig.view != this.views.barChart && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric);
 
@@ -1973,12 +1968,10 @@ var db = {
         const value = this.calculateDataPointValue(chartConfig, chartData.seriesRows[seriesName][category], averageCalculationList);
 
         let categoryIndex = i;
-        // Skip first 12 months which were included for calculation of trailing average
-        if (hasExtendedCategories) {
-          if (i < 12)
-            continue;
-          categoryIndex = i - 12;
-        }
+        // Skip the months which were included for calculation of trailing average
+        if (i < extendedCategoriesCount)
+          continue;
+        categoryIndex = i - extendedCategoriesCount;
 
         // Add value to total series
         if (value != null) {
@@ -2220,8 +2213,7 @@ var db = {
     this.postProcessChartSeries(chartConfig, chartData);
 
     // Remove additional categories which were included for calculation of trailing average
-    if (this.hasExtendedCategories(chartConfig, chartData))
-      chartData.categories.splice(0, 12);
+    chartData.categories.splice(0, this.getExtendedCategoriesCount(chartConfig, chartData));
 
     return chartData;
   }
