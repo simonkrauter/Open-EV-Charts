@@ -1939,6 +1939,30 @@ var db = {
     return chartConfig.company == this.companyOptions.all && chartConfig.brand == this.brandOptions.all && chartConfig.model == this.modelOptions.all;
   },
 
+  getYAxisMax: function(chartConfig, chartData) {
+    if (this.isYAxis100Percent(chartConfig))
+      return 100;
+    let maxValue = 0;
+    if (chartConfig.view == db.views.barChart && db.isBarChartStacked(chartConfig)) {
+      for (const i in chartData.categories) {
+        let sum = 0;
+        for (const j in chartData.series) {
+          const series = chartData.series[j];
+          sum = sum + series.data[i];
+        }
+        maxValue = Math.max(maxValue, sum);
+      }
+    } else {
+      for (const i in chartData.series) {
+        const series = chartData.series[i];
+        for (const j in series.data) {
+          maxValue = Math.max(maxValue, series.data[j]);
+        }
+      }
+    }
+    return maxValue;
+  },
+
   isDateFilterExtendedForAverageCalculation: function(chartConfig) {
     return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
