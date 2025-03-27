@@ -1082,6 +1082,7 @@ function renderTableExportButton(chartDiv, table, format) {
     event.preventDefault();
     currentExportFormat = format;
     renderPage();
+    window.scrollTo(0, document.body.scrollHeight);
   });
   chartDiv.appendChild(exportButton);
 }
