@@ -1201,7 +1201,7 @@ var db = {
           else
             text = text + " within " + params.brand.options[chartConfig.brand];
         }
-      } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all) {
+      } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all && this.getModels(chartConfig).length == 1) {
         text = text + " " + params.model.options[chartConfig.model];
       } else if (param.name == "timeSpan") {
         const timeSpan = this.getRealTimeSpan(chartConfig);
