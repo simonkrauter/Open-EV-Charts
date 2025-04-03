@@ -98,7 +98,7 @@ const additionalCountrySearchTextByCode =
 , "TR": "Türkiye"
 , "TW": "台灣 台湾"
 , "UK": "United Kingdom"
-, "US": "United States"
+, "US": "United States USA"
 , "VN": ""
 , "ZA": ""
 };
