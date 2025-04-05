@@ -222,7 +222,7 @@ function renderFilterAsDropdown(parentDiv, param) {
   // Calculate width
   let width = 40;
   for (const optionKey in param.allOptions)
-     width = Math.max(width, measureTextWidth(param.allOptions[optionKey]) + 40);
+    width = Math.max(width, measureTextWidth(param.allOptions[optionKey]) + 40);
   if (param.name == "country")
     width += 10;
 
@@ -824,7 +824,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             color: "hsl(0, 0%, 85%)"
           },
           border: {
-           display: false
+            display: false
           }
         }
       },
