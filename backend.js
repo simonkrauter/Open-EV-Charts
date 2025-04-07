@@ -1959,6 +1959,11 @@ var db = {
         }
       }
     }
+
+    // Round to a nice number
+    let x = Math.pow(10, Math.ceil(Math.log10(maxValue)) - 1) / 4;
+    maxValue = Math.ceil(maxValue / x) * x;
+
     return maxValue;
   },
 
