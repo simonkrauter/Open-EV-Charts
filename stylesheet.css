@@ -532,7 +532,7 @@ tr:hover {
   color: grey;
 }
 
-a.export {
+a.bottomTools {
   font-size: 80%;
   margin-left: 5px;
   margin-right: 5px;
@@ -555,7 +555,7 @@ a.export {
   color: inherit;
 }
 
-a.screenshotModeButton {
+a.screenshotModeButtonUnderChart {
   position: absolute;
   right: 0;
   bottom: -15px;

@@ -1029,8 +1029,8 @@ function getMaxVisibleCharts() {
 function addScreenshotModeButton(parent) {
   const button = createLink();
   button.appendChild(document.createTextNode("Screenshot Mode"));
-  button.classList.add("export");
-  button.classList.add("screenshotModeButton");
+  button.classList.add("bottomTools");
+  button.classList.add("screenshotModeButtonUnderChart");
   button.addEventListener("click", function(event) {
     event.preventDefault();
     isScreenshotModeEnabled = true;
@@ -1103,7 +1103,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
 function renderTableExportButton(chartDiv, table, format) {
   const exportButton = createLink();
   exportButton.appendChild(document.createTextNode(format));
-  exportButton.classList.add("export");
+  exportButton.classList.add("bottomTools");
   exportButton.title = "Export table as " + format;
   exportButton.addEventListener("click", function(event) {
     event.preventDefault();
