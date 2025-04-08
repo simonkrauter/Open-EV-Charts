@@ -582,12 +582,13 @@ function renderChart(chartIndex) {
       renderChartView(chartConfig, chartData, chartDiv, false);
       if (chartConfig != originalChartConfig)
         renderChartTitle3dFrames(chartDiv);
-      if (isSingleChart && !isScreenshotModeEnabled)
-        addScreenshotModeButton(chartDiv);
     } else if (chartConfig.view == db.views.table)
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
       renderSources(chartConfig, chartDiv, chartData);
+
+    if (chartConfig.view != db.views.sources && isSingleChart && !isScreenshotModeEnabled)
+      addScreenshotModeButton(chartConfig, chartDiv);
   }
 
   if (isScreenshotModeEnabled) {
@@ -1026,11 +1027,12 @@ function getMaxVisibleCharts() {
   return Math.max(xCount * yCount, 4);
 }
 
-function addScreenshotModeButton(parent) {
+function addScreenshotModeButton(chartConfig, parent) {
   const button = createLink();
   button.appendChild(document.createTextNode("Screenshot Mode"));
   button.classList.add("bottomTools");
-  button.classList.add("screenshotModeButtonUnderChart");
+  if (chartConfig.view != db.views.table)
+    button.classList.add("screenshotModeButtonUnderChart");
   button.addEventListener("click", function(event) {
     event.preventDefault();
     isScreenshotModeEnabled = true;
@@ -1093,7 +1095,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   else
     renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn);
 
-  if (isSingleChart) {
+  if (isSingleChart && !isScreenshotModeEnabled) {
     renderTableExportButton(chartDiv, table, "CSV");
     renderTableExportButton(chartDiv, table, "Wikitext");
     renderTableExport(chartDiv, table);
@@ -1329,6 +1331,8 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
 }
 
 function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
+  if (isScreenshotModeEnabled)
+    return;
   if (addFlag && text != "Other" && !text.endsWith("|other")) {
     let linkChartConfig = db.cloneObject(chartConfig);
     const textParts = text.split("|", 2);
