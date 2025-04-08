@@ -19,7 +19,7 @@
   --clButtonActiveHoverFill: hsl(var(--clAccentHue), 80%, 55%);
   --clDropdownItemHoverFill: hsl(var(--clAccentHue), 80%, 40%);
   --clDropdownItemSelectedLine: hsl(1, 80%, 56%);
-  --clDropdownItemDisabledText: hsl(0, 0%, 50%);
+  --clDropdownItemDisabledText: hsl(var(--clAccentHue), 20%, 50%);
   --clStatusGoodFill: hsl(142, 100%, 38%);
   --clStatusGoodText: white;
   --clStatusMediumFill: hsl(53, 100%, 60%);
