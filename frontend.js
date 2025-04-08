@@ -852,7 +852,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
           text: db.getChartTitle(chartConfig)
         },
         legend: {
-          display: isSingleChart && (chartData.series.length > 1 || chartData.series[0].name != "Value")
+          display: isSingleChart && chartData.series.length > 1
         },
         tooltip: {
           callbacks: {
@@ -1189,10 +1189,6 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     const series = chartData.series[i];
     const cell = document.createElement("TH");
     let text = db.formatSeriesNameAndCategory(series.name);
-    if (text == "Value") {
-      const params = db.getChartParams(chartConfig);
-      text = params.metric.options[chartConfig.metric];
-    }
     cell.appendChild(document.createTextNode(text));
     if (horizontalBarMaxValue != 0) {
       cell.colSpan = 2;

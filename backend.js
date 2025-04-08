@@ -5,8 +5,6 @@
 var db = {
   totalSeriesName: "Total",
 
-  singleSeriesName: "Value",
-
   currentDate: new Date(),
 
   countries: {},
@@ -1257,6 +1255,9 @@ var db = {
       }
     }
 
+    const params = db.getChartParams(chartConfig);
+    const defaultSeriesName = params.metric.options[chartConfig.metric];
+
     let filterCompanies = [];
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
       filterCompanies = this.getCompanies(chartConfig);
@@ -1354,7 +1355,7 @@ var db = {
           category = "Other";
 
         // set seriesName
-        let seriesName = this.singleSeriesName;
+        let seriesName = defaultSeriesName;
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
           seriesName = dataset.countryName;
         else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
@@ -2129,8 +2130,6 @@ var db = {
             value = value + this.getValueOrDefault(datasetsReference.seriesRows[seriesNameInner][category], 0);
           }
         }
-        else if (datasetsReference.seriesRows[this.singleSeriesName] != null)
-          value = value + this.getValueOrDefault(datasetsReference.seriesRows[this.singleSeriesName][category], 0);
         else if (datasetsReference.seriesRows[seriesName] != null)
           value = value + this.getValueOrDefault(datasetsReference.seriesRows[seriesName][category], 0);
         valuesForRatio[category] = value;
