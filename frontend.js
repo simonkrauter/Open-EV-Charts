@@ -770,10 +770,10 @@ function createButton() {
   return button;
 }
 
-function formatValue(chartConfig, value, yAxisMax, context) {
+function formatValue(metric, value, yAxisMax, context) {
   const formatAsMillionLimit = 1_000_000;
   const axisWithDecimalLimit = 5_100_000;
-  if (db.isYAxisPercent(chartConfig)) {
+  if (db.isMetricPercent(metric)) {
     if (context == FormatValueContext.Axis)
       return value.toFixed(0).toLocaleString() + " %";
     else
@@ -834,7 +834,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
             precision: 0,
             padding: 8,
             callback: function(value) {
-              return formatValue(chartConfig, value, yAxisMax, FormatValueContext.Axis);
+              return formatValue(chartConfig.metric, value, yAxisMax, FormatValueContext.Axis);
             }
           },
           grid: {
@@ -860,7 +860,7 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
               let label = context.dataset.label || '';
               if (label)
                 label += ': ';
-              label += formatValue(chartConfig, context.parsed.y, yAxisMax, FormatValueContext.Tooltip);
+              label += formatValue(chartConfig.metric, context.parsed.y, yAxisMax, FormatValueContext.Tooltip);
               return label;
             }
           }
@@ -952,7 +952,7 @@ function configureDataLabels(chartConfig, chartData, chartOptions) {
       const value = series.data[j];
       if (value < minValue)
         continue;
-      const text = formatValue(chartConfig, value, yAxisMax, FormatValueContext.DataLabel);
+      const text = formatValue(chartConfig.metric, value, yAxisMax, FormatValueContext.DataLabel);
       if (measureTextWidth(text) > availableWidth)
         return;
     }
@@ -964,7 +964,7 @@ function configureDataLabels(chartConfig, chartData, chartOptions) {
       return "";
     if (value < minValue)
       return "";
-    return formatValue(chartConfig, value, yAxisMax, FormatValueContext.DataLabel);
+    return formatValue(chartConfig.metric, value, yAxisMax, FormatValueContext.DataLabel);
   };
 }
 
@@ -1216,7 +1216,8 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     renderTableRowTextCell(chartConfig, row, columnTitle, category);
 
     for (const j in chartData.series) {
-      renderTableValueCell(chartConfig, row, chartData.series[j].data[i], yAxisMax);
+      const series = chartData.series[j];
+      renderTableValueCell(series.metric, row, series.data[i], yAxisMax);
     }
     // add horizontal bar
     if (horizontalBarMaxValue != 0) {
@@ -1274,7 +1275,7 @@ function renderTableTransposed(chartConfig, table, chartData) {
     renderTableRowTextCell(chartConfig, row, columnTitle, series.name);
 
     for (const j in chartData.categories) {
-      renderTableValueCell(chartConfig, row, series.data[j], yAxisMax);
+      renderTableValueCell(series.metric, row, series.data[j], yAxisMax);
     }
     index++;
   }
@@ -1367,13 +1368,14 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     containerElement.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
 }
 
-function renderTableValueCell(chartConfig, row, val, yAxisMax) {
+function renderTableValueCell(metric, row, val, yAxisMax) {
   const cell = document.createElement("TD");
   if (val == null && val !== 0) {
     cell.appendChild(document.createTextNode("–"));
     cell.classList.add("NA");
   } else {
-    cell.appendChild(document.createTextNode(formatValue(chartConfig, val, yAxisMax, FormatValueContext.Table)));
+    const text = formatValue(metric, val, yAxisMax, FormatValueContext.Table);
+    cell.appendChild(document.createTextNode(text));
     cell.style.textAlign = "right";
   }
   row.appendChild(cell);

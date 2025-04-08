@@ -1927,8 +1927,8 @@ var db = {
     return false;
   },
 
-  isYAxisPercent: function(chartConfig) {
-    return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric);
+  isMetricPercent: function(metric) {
+    return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(metric);
   },
 
   isYAxis100Percent: function(chartConfig) {
@@ -2065,6 +2065,11 @@ var db = {
 
     if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
       processedSeries.push(otherSeries);
+
+    // Store metric in data series
+    for (const i in processedSeries) {
+      processedSeries[i].metric = chartConfig.metric;
+    }
 
     chartData.series = processedSeries;
   },
