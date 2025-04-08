@@ -126,6 +126,14 @@ function renderCharts() {
 
   chartsDiv.innerHTML = "";
 
+  if (!isSingleChart) {
+    const params = db.getChartParams(chartSetConfig);
+    if (chartSetConfig.view != params.view.defaultOption) {
+      renderChartTitle(chartsDiv, chartSetConfig, true);
+      renderChartTabButtons(chartsDiv);
+    }
+  }
+
   renderMultiChartsHint();
 
   for (const chartIndex in chartConfigs) {
@@ -554,10 +562,10 @@ function renderChart(chartIndex) {
   if (isSingleChart)
     chartDiv.classList.add("single");
 
-  renderChartTitle(chartDiv, originalChartConfig);
+  renderChartTitle(chartDiv, originalChartConfig, isSingleChart);
   renderChartSubTitle(chartDiv, chartConfig);
 
-  if ((isSingleChart || chartConfig.view != params.view.defaultOption) && !isScreenshotModeEnabled)
+  if (isSingleChart)
     renderChartTabButtons(chartDiv);
 
   if (!hasData) {
@@ -608,22 +616,22 @@ function renderChartTitle3dFrames(chartDiv) {
   }
 }
 
-function renderChartTitle(chartDiv, chartConfig) {
+function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
   let titleElem = document.createElement("DIV");
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartTitle");
 
-  const title = db.getChartTitle(chartConfig, isSingleChart);
+  const title = db.getChartTitle(chartConfig, asSingleChart);
   if (db.isMultiCountry(chartConfig))
     titleElem.appendChild(document.createTextNode(title));
   else {
-    if (isSingleChart)
+    if (asSingleChart)
       titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, singleTitleFlagSizeFactor));
     else
       titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, multiTitleFlagSizeFactor));
   }
 
-  if (!isSingleChart) {
+  if (!asSingleChart) {
     let removeButton = createButton();
     removeButton.classList.add("removeButton");
     removeButton.title = "Remove";
@@ -639,11 +647,12 @@ function renderChartSubTitle(chartDiv, chartConfig) {
   let titleElem = document.createElement("DIV");
   chartDiv.appendChild(titleElem);
   titleElem.classList.add("chartSubTitle");
-
   titleElem.appendChild(document.createTextNode(subTitle));
 }
 
 function renderChartTabButtons(chartDiv) {
+  if (isScreenshotModeEnabled)
+    return;
   const tabButtonsDiv = document.createElement("DIV");
   chartDiv.appendChild(tabButtonsDiv);
   tabButtonsDiv.classList.add("tabButtons");
