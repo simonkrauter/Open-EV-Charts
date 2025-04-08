@@ -378,6 +378,12 @@ var db = {
     return chartConfig.country.split(",");
   },
 
+  getMetrics: function(chartConfig) {
+    if (chartConfig.metric == null)
+      return [];
+    return chartConfig.metric.split(",");
+  },
+
   isMultiMetric: function(chartConfig) {
     return chartConfig.metric == this.metrics.all || (chartConfig.metric && chartConfig.metric.includes(","));
   },
@@ -1065,7 +1071,9 @@ var db = {
   },
 
   needsUnfold: function(chartSetConfig) {
-    if (this.isMultiMetric(chartSetConfig))
+    if (chartSetConfig.metric == this.metrics.all)
+      return true;
+    if (this.isMultiMetric(chartSetConfig) && (this.getNumberOfSeries(chartSetConfig) > 1 || ![this.views.table, this.views.sources].includes(chartSetConfig.view)))
       return true;
     if (chartSetConfig.xProperty == this.xProperties.all || chartSetConfig.xProperty.includes(","))
       return true;
@@ -1210,8 +1218,12 @@ var db = {
       else
         parts.push(text);
     }
-    if (parts.length == 0 && !this.isSingleOrCombinedCountry(chartConfig))
-      parts.push("Compare Countries");
+    if (parts.length == 0) {
+      if (!this.isSingleOrCombinedCountry(chartConfig))
+        parts.push("Compare Countries");
+      else if (this.isMultiCountry(chartConfig) && this.isMultiMetric(chartConfig))
+        parts.push("Mutiple Countries and Metrics");
+    }
     return parts.join(" – ");
   },
 
@@ -2230,8 +2242,8 @@ var db = {
     return chartData;
   },
 
-  queryChartData: function(chartConfig, sortByName) {
-    // Queries the data for one chart
+  queryChartDataSingleMetric: function(chartConfig, sortByName) {
+    // Queries the chart data for a single metric
     let chartData;
 
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
@@ -2246,6 +2258,31 @@ var db = {
 
     // Remove additional categories which were included for calculation of trailing average
     chartData.categories.splice(0, this.getExtendedCategoriesCount(chartConfig, chartData));
+
+    return chartData;
+  },
+
+  queryChartData: function(chartConfig, sortByName) {
+    // Queries the data for one chart. Allows to combine multiple metrics.
+    let chartData;
+    let singleMetricChartConfig = this.cloneObject(chartConfig);
+    const metrics = this.getMetrics(chartConfig);
+    for (const i in metrics) {
+      const metric = metrics[i];
+      singleMetricChartConfig.metric = metric;
+      const newChartData = this.queryChartDataSingleMetric(singleMetricChartConfig, sortByName);
+      if (chartData != null) {
+        for (const j in newChartData.series) {
+          chartData.series.push(newChartData.series[j]);
+        }
+        for (const j in newChartData.sources) {
+          if (chartData.sources[j] == null)
+            chartData.sources[j] = newChartData.sources[j];
+        }
+      } else {
+        chartData = newChartData;
+      }
+    }
 
     return chartData;
   }
