@@ -1313,61 +1313,12 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     countryCode = getCountryCodeForCompanyOrBrand(brand);
   }
 
-  // set link url
-  let hasLink = false;
-  let newChartConfig = db.cloneObject(chartConfig);
-  if (addFlag && text != "Other" && !text.endsWith("|other")) {
-    hasLink = true;
-    const textParts = text.split("|", 2);
-    if (textParts.length > 1) {
-      newChartConfig.company = db.companiesByBrand[textParts[0]];
-      newChartConfig.brand = textParts[0];
-      newChartConfig.model = textParts[1];
-      newChartConfig.detailLevel = db.detailLevels.model;
-    } else {
-      const countryId = db.countryNamesReverse[text];
-      if (countryId != null) {
-        newChartConfig.country = db.countriesCodes[countryId];
-      } else if (text in companyGroups) {
-        newChartConfig.company = text;
-      } else {
-        newChartConfig.company = db.companiesByBrand[text];
-        newChartConfig.brand = text;
-        newChartConfig.detailLevel = db.detailLevels.brand;
-      }
-    }
-    if (!db.isTimeXProperty(newChartConfig)) {
-      if ([db.timeSpanOptions.all, db.timeSpanOptions.auto].includes(chartConfig.timeSpan))
-        newChartConfig.xProperty = db.xProperties.quarter;
-      else
-        newChartConfig.xProperty = db.xProperties.month;
-      newChartConfig.timeSpan = "";
-    }
-    newChartConfig.view = null;
-    db.applyNewDefaultOptions(newChartConfig, chartConfig);
-  } else if (columnTitle == "Year") {
-    hasLink = true;
-    newChartConfig.xProperty = db.xProperties.month;
-    newChartConfig.timeSpan = "y" + text;
-  } else if (columnTitle == "Quarter") {
-    hasLink = true;
-    newChartConfig.xProperty = db.xProperties.month;
-    newChartConfig.timeSpan = db.unformatQuarter(text);
-  } else if (columnTitle == "Month") {
-    hasLink = true;
-    if (chartConfig.metric == db.metrics.salesAll)
-      newChartConfig.xProperty = db.xProperties.company;
-    else {
-      newChartConfig.xProperty = db.xProperties.model;
-      newChartConfig.metric = db.metrics.salesElectric;
-    }
-    newChartConfig.timeSpan = "m" + text;
-  }
+  const linkChartConfig = getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag);
 
   // add cell content
   let containerElement;
-  if (hasLink)
-    containerElement = createLink(db.encodeChartConfig(newChartConfig));
+  if (linkChartConfig != null)
+    containerElement = createLink(db.encodeChartConfig(linkChartConfig));
   else
     containerElement = document.createElement("SPAN");
   cell.appendChild(containerElement);
@@ -1375,6 +1326,60 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
     containerElement.appendChild(createCountryFlagContainer(countryCode, db.formatSeriesNameAndCategory(text), true, tableFlagSizeFactor));
   else
     containerElement.appendChild(document.createTextNode(db.formatSeriesNameAndCategory(text)));
+}
+
+function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
+  if (addFlag && text != "Other" && !text.endsWith("|other")) {
+    let linkChartConfig = db.cloneObject(chartConfig);
+    const textParts = text.split("|", 2);
+    if (textParts.length > 1) {
+      linkChartConfig.company = db.companiesByBrand[textParts[0]];
+      linkChartConfig.brand = textParts[0];
+      linkChartConfig.model = textParts[1];
+      linkChartConfig.detailLevel = db.detailLevels.model;
+    } else {
+      const countryId = db.countryNamesReverse[text];
+      if (countryId != null) {
+        linkChartConfig.country = db.countriesCodes[countryId];
+      } else if (text in companyGroups) {
+        linkChartConfig.company = text;
+      } else {
+        linkChartConfig.company = db.companiesByBrand[text];
+        linkChartConfig.brand = text;
+        linkChartConfig.detailLevel = db.detailLevels.brand;
+      }
+    }
+    if (!db.isTimeXProperty(linkChartConfig)) {
+      if ([db.timeSpanOptions.all, db.timeSpanOptions.auto].includes(chartConfig.timeSpan))
+        linkChartConfig.xProperty = db.xProperties.quarter;
+      else
+        linkChartConfig.xProperty = db.xProperties.month;
+      linkChartConfig.timeSpan = "";
+    }
+    linkChartConfig.view = null;
+    db.applyNewDefaultOptions(linkChartConfig, chartConfig);
+    return linkChartConfig;
+  } else if (columnTitle == "Year") {
+    let linkChartConfig = db.cloneObject(chartConfig);
+    linkChartConfig.xProperty = db.xProperties.month;
+    linkChartConfig.timeSpan = "y" + text;
+    return linkChartConfig;
+  } else if (columnTitle == "Quarter") {
+    let linkChartConfig = db.cloneObject(chartConfig);
+    linkChartConfig.xProperty = db.xProperties.month;
+    linkChartConfig.timeSpan = db.unformatQuarter(text);
+    return linkChartConfig;
+  } else if (columnTitle == "Month") {
+    let linkChartConfig = db.cloneObject(chartConfig);
+    if (chartConfig.metric == db.metrics.salesAll)
+      linkChartConfig.xProperty = db.xProperties.company;
+    else {
+      linkChartConfig.xProperty = db.xProperties.model;
+      linkChartConfig.metric = db.metrics.salesElectric;
+    }
+    linkChartConfig.timeSpan = "m" + text;
+    return linkChartConfig;
+  }
 }
 
 function renderTableValueCell(metric, row, val, yAxisMax) {
