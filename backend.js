@@ -882,7 +882,8 @@ var db = {
   decodeChartConfigString: function(chartConfigString) {
     let parts = [];
     let result = {};
-    if (chartConfigString == "") {
+    let params = this.getChartParams();
+    if (chartConfigString == "" || chartConfigString == params.xProperty.defaultOption) {
       result.isRegularHomeTile = true;
     } else {
       const partsRaw = chartConfigString.split(":");
@@ -896,7 +897,6 @@ var db = {
         parts.push(part);
       }
     }
-    let params = this.getChartParams();
     for (const i in params) {
       if (!params[i])
         continue;
