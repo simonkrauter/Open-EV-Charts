@@ -372,7 +372,12 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
           }
         }
       });
-      optionNode.appendChild(checkbox);
+      let checkboxContainer = document.createElement("span");
+      checkboxContainer.addEventListener("click", function(event) {
+        event.stopPropagation();
+      });
+      optionNode.appendChild(checkboxContainer);
+      checkboxContainer.appendChild(checkbox);
     }
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
@@ -437,7 +442,7 @@ function updateDropdownState(paramName, dropdown, currentValueDiv, overlay) {
       if (!["LABEL", "A"].includes(optionNode.tagName))
         continue;
       const optionKey = optionKeys[optionIndex];
-      const checkbox = optionNode.firstChild;
+      const checkbox = optionNode.firstChild.firstChild;
       const disabled = param.options[optionKey] == null;
       checkbox.disabled = disabled;
       if (disabled) {
