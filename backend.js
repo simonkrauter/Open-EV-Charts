@@ -368,6 +368,10 @@ var db = {
     return this.getCountries(chartConfig).includes(this.countryOptions.combine);
   },
 
+  isAllCountries: function(chartConfig) {
+    return this.getCountries(chartConfig).includes(this.countryOptions.all);
+  },
+
   isSingleOrCombinedCountry: function(chartConfig) {
     return !this.isMultiCountry(chartConfig) || this.isCombinedCountry(chartConfig);
   },
