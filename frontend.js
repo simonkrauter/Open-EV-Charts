@@ -450,7 +450,10 @@ function updateDropdownState(paramName, dropdown, currentValueDiv, overlay) {
         optionNode.classList.add("disabled");
       } else {
         optionNode.classList.remove("disabled");
-        checkbox.checked = selectedKeys.includes(optionKey);
+        if (param.name == "country")
+          checkbox.checked = selectedKeys.includes(optionKey) || (selectedKeys.includes(db.countryOptions.all) && optionKey != db.countryOptions.combine);
+        else
+          checkbox.checked = selectedKeys.includes(optionKey);
       }
       optionIndex++;
     }
@@ -506,18 +509,29 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
   let newChartConfig = db.cloneObject(chartSetConfig);
   if (param.allowMultiSelection && isMultiSelectOption && (isSelectionAdditive || isOptionAdditive)) {
-    let values = newChartConfig[param.name].split(",");
-    let index = values.indexOf(optionKey);
-    if (index !== -1)
-      values.splice(index, 1);
-    else
-      values.push(optionKey);
-    let newValues = [];
-    for (const i in values) {
-      if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
-        newValues.push(values[i]);
+    if (param.name == "country" && db.isAllCountries(chartSetConfig) && db.countries[optionKey]) {
+      let newValues = [];
+      for (const code in db.countriesForOptions) {
+        if (code != optionKey)
+          newValues.push(code);
+      }
+      if (db.isCombinedCountry(chartSetConfig))
+        newValues.push(db.countryOptions.combine);
+      newChartConfig[param.name] = newValues.join(",");
+    } else {
+      let values = newChartConfig[param.name].split(",");
+      let index = values.indexOf(optionKey);
+      if (index !== -1)
+        values.splice(index, 1);
+      else
+        values.push(optionKey);
+      let newValues = [];
+      for (const i in values) {
+        if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(values[i]))
+          newValues.push(values[i]);
+      }
+      newChartConfig[param.name] = newValues.join(",");
     }
-    newChartConfig[param.name] = newValues.join(",");
   } else if (param.allowMultiSelection) {
     let oldValues = newChartConfig[param.name].split(",");
     let newValues = [];
