@@ -454,7 +454,6 @@ var db = {
       param.unfoldKey = this.metrics.all;
       param.noMultiSelectOptions = [this.metrics.all];
       param.defaultOption = this.metrics.all;
-      param.alwaysAddToUrl = true;
       param.showInTitle = true;
       param.showAsFilter = true;
       param.allowMultiSelection = true;
