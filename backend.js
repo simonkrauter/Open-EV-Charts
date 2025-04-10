@@ -1932,6 +1932,8 @@ var db = {
         return false;
       if (this.isSingleOrCombinedCountry(chartConfig))
         return true;
+      if ([this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && this.isAllCountries(chartConfig))
+        return true;
       if (chartConfig.detailLevel == this.detailLevels.company)
         return chartConfig.company == this.companyOptions.all;
       if (chartConfig.detailLevel == this.detailLevels.brand)

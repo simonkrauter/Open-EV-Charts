@@ -262,6 +262,7 @@ const testCases =
 , 3057: "electric-share:split-models:combine-countries:Volkswagen-Group:Audi:Q4-e-tron"
 , 3058: "electric-share:split-models:DE:ES:Volkswagen-Group:Audi:Q4-e-tron"
 , 3059: "electric-share:split-models:Volkswagen-Group:Audi:Q4-e-tron"
+, 3060: "electric-share"
 
 , 3100: "electric-share:DE:company"
 , 3101: "electric-share:DE:ES:combine-countries:company"
@@ -451,6 +452,7 @@ const testCases =
 , 6027: "all-share:split-brands:combine-countries:Volkswagen-Group:Audi"
 , 6028: "all-share:split-brands:DE:ES:Volkswagen-Group:Audi"
 , 6029: "all-share:split-brands:Volkswagen-Group:Audi"
+, 6030: "all-share"
 
 , 6100: "all-share:company:DE"
 , 6101: "all-share:company:DE:ES:combine-countries"
