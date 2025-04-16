@@ -70,6 +70,7 @@ var currentExportFormat;
 var openedDropdown;
 
 const canvasContext = document.createElement("CANVAS").getContext("2d");
+const thousandSeparator = (1000).toLocaleString()[1];
 
 setGlobalChartOptions();
 navigate();
@@ -1162,7 +1163,7 @@ function generateCsv(rows) {
           result += ";";
         if (!cell.classList.contains("NA")) {
           if (cell.style.textAlign == "right")
-            result += content.replaceAll(",", "").replaceAll(".", "");
+            result += content.replaceAll(thousandSeparator, "");
           else
             result += content;
         }
