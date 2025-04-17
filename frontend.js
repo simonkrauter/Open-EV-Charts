@@ -1450,7 +1450,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
       prefix += "–";
       prefix += sourceInfo.lastDate;
     }
-    if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric)) {
+    if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric) || db.isMultiMetric(chartConfig)) {
       if (!sourceInfo.isEvs) {
         prefix += " All cars";
         sortKey += "0";
