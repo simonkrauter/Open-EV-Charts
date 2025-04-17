@@ -1918,6 +1918,8 @@ function renderStatusTableHeader(table, columns) {
     const th = document.createElement("TH");
     tr.appendChild(th);
     th.appendChild(document.createTextNode(columns[i]));
+    if (columns[i].startsWith("Annual ") || columns[i].endsWith(" Sales"))
+      th.title = "Last 12 month with data";
   }
 }
 
