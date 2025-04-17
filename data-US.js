@@ -544,7 +544,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.
 { "other": 3743201
 });
 
-db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf, https://insideclimatenews.org/news/09052024/inside-clean-energy-ford-electric-vehicles/, https://cleantechnica.com/2024/05/04/tesla-still-sells-more-evs-in-usa-than-ford-chevrolet-hyundai-kia-audi-bmw-chevrolet-toyota-combined/",
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf, https://cleantechnica.com/2024/05/04/tesla-still-sells-more-evs-in-usa-than-ford-chevrolet-hyundai-kia-audi-bmw-chevrolet-toyota-combined/",
 { "Tesla|Model Y": 96729
 , "Tesla|Model 3": 30842
 , "Ford|Mustang Mach-E": 9589
@@ -553,43 +553,80 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 6822
 , "Volkswagen|ID.4": 6167
 , "Tesla|Model X": 5607
-, "BMW|other": 10713
-, "Mercedes-Benz|other": 8336
-, "Kia|other": 8066
-, "Audi|other": 5714
-, "Nissan|other": 5284
-, "Toyota|other": 1897
-, "Porsche|other": 1247
-, "Subaru|other": 1147
+, "Mercedes-Benz|EQE": 5113
+, "BMW|i4": 4537
+, "Tesla|Model S": 4206
+, "Nissan|Ariya": 4142
+, "Kia|EV6": 4059
+, "Kia|EV9": 4007
+, "Hyundai|Ioniq 6": 3646
+, "BMW|iX": 2945
+, "Ford|E-Transit": 2891
+, "Tesla|Cybertruck": 2803
+, "Audi|Q4 e-tron": 2678
+, "Mercedes-Benz|EQS": 2552
+, "Audi|Q8 e-tron": 2260
+, "BMW|i5": 2239
+, "Toyota|bZ4X": 1897
+, "Porsche|Taycan": 1247
+, "Subaru|Solterra": 1147
+, "Nissan|Leaf": 1142
+, "Chevrolet|Silverado EV": 1061
+, "BMW|i7": 991
+, "Audi|e-tron GT": 776
+, "Mercedes-Benz|EQB": 761
+, "Chevrolet|Blazer EV": 600
 , "Volvo|other": 1069
-, "other": 41488
+, "other": 26189
 });
 
 db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
 { "other": 4071122
 });
 
-db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByBrand, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf,  https://insideevs.com/news/726693/us-ev-sales-2024-q2/, https://cleantechnica.com/2024/09/30/after-6-years-tesla-finally-accounts-for-less-than-50-of-us-ev-sales/",
-{ "Tesla": 164264
-, "Ford": 23957
-, "Kia": 17980
-, "Hyundai": 16815
-, "BMW": 14081
-, "Chevrolet": 11217
-, "Mercedes-Benz": 9640
-, "Toyota": 7571
-, "Nissan": 7128
-, "Volkswagen": 5690
-, "Audi": 5407
-, "Subaru": 4238
-, "Honda": 1516
-, "Jaguar": 1188
-, "Polestar": 1145
-, "Volvo": 1040
-, "Porsche": 807
-, "Mini": 653
-, "Fiat": 163
-, "other": 7138
+db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2024-08/Total%20Sales%20for%20Website_July%202024.pdf, https://cleantechnica.com/2024/09/30/after-6-years-tesla-finally-accounts-for-less-than-50-of-us-ev-sales/",
+{ "Tesla|Model Y": 101301
+, "Tesla|Model 3": 42710
+, "Ford|Mustang Mach-E": 12645
+, "Hyundai|Ioniq 5": 11906
+, "Tesla|Cybertruck": 8755
+, "Ford|F-150 Lightning": 7902
+, "Toyota|bZ4X": 7571
+, "BMW|i4": 7066
+, "Kia|EV6": 6882
+, "Chevrolet|Blazer EV": 6634
+, "Tesla|Model X": 6570
+, "Volkswagen|ID.4": 5690
+, "Kia|EV9": 5664
+, "Kia|Niro EV": 5434
+, "Nissan|Ariya": 5203
+, "Tesla|Model S": 4928
+, "Subaru|Solterra": 4238
+, "Mercedes-Benz|EQE": 3911
+, "BMW|iX": 3545
+, "Ford|E-Transit": 3410
+, "Hyundai|Ioniq 6": 3266
+, "Mercedes-Benz|EQB": 3173
+, "Mercedes-Benz|EQS": 2556
+, "BMW|i5": 2541
+, "Audi|Q4 e-tron": 2430
+, "Audi|Q8 e-tron": 2360
+, "Chevrolet|Silverado EV": 2196
+, "Nissan|Leaf": 1925
+, "Hyundai|Kona Electric": 1643
+, "Honda|Prologue": 1516
+, "Chevrolet|Bolt/Bolt EUV": 1374
+, "Jaguar|I-Pace": 1188
+, "Polestar|2": 1145
+, "Chevrolet|Equinox EV": 1013
+, "BMW|i7": 929
+, "Porsche|Taycan": 807
+, "Volvo|EX40": 714
+, "Mini|Cooper SE": 653
+, "Audi|e-tron GT": 617
+, "Volvo|EC40": 326
+, "Fiat|500e": 163
+, "other": 7125
 });
 
 db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2024-10/Total%20Sales%20for%20Website_Sept%202024.pdf",
@@ -689,6 +726,7 @@ db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 531
 , "Mercedes-Benz|G-Class EV": 455
 , "Volvo|EC40": 275
+, "Jeep|Wagoneer S": 231
 , "Volvo|EX30": 229
-, "other": 26696
+, "other": 26465
 });
