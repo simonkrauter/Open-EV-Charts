@@ -5783,3 +5783,61 @@ db.insert(db.countries.FR, "2025-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Peugeot|e-2008": 371
 , "other": 6981
 });
+
+db.insert(db.countries.FR, "2025-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/04/Immatriculations-VPN_Mars2025.pdf",
+{ "Renault": 29401
+, "Peugeot": 23696
+, "Dacia": 13286
+, "Citroën": 10805
+, "Volkswagen": 10153
+, "Toyota": 9728
+, "BMW": 4867
+, "Škoda": 4710
+, "Audi": 4320
+, "Mercedes-Benz": 3612
+, "Ford": 3392
+, "Opel": 3297
+, "Hyundai": 3227
+, "Tesla": 3157
+, "MG": 2827
+, "Kia": 2555
+, "Nissan": 2486
+, "Fiat": 2118
+, "Suzuki": 2082
+, "Cupra": 2026
+, "Mini": 1919
+, "Seat": 1431
+, "Volvo": 1208
+, "Jeep": 1022
+, "Mazda": 921
+, "BYD": 659
+, "Honda": 490
+, "Porsche": 268
+, "Xpeng": 199
+, "Mitsubishi": 139
+, "Smart": 74
+, "other": 3767
+});
+
+db.insert(db.countries.FR, "2025-03", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/04/Immatriculations-mensuelles-par-energie_Mars-2025.pdf, https://cleantechnica.com/2025/04/02/evs-take-24-4-share-in-france-renault-5-unassailable/",
+{ "Renault|5 E-Tech": 3340
+, "Tesla|Model Y": 2318
+, "Renault|Scénic E-Tech": 2225
+, "Citroën|ë-C3": 1585
+, "Peugeot|e-208": 1034
+, "Renault|Megane E-Tech": 990
+, "Volkswagen|ID.3": 879
+, "Peugeot|e-2008": 837
+, "Tesla|Model 3": 819
+, "Mini|Cooper SE": 783
+, "Audi|Q4 e-tron": 677
+, "Peugeot|E-3008": 662
+, "Škoda|Enyaq": 612
+, "Dacia|Spring": 606
+, "BMW|iX1": 552
+, "Fiat|500e": 509
+, "Volkswagen|ID.4": 477
+, "Fiat|Grande Panda Electric": 448
+, "Cupra|Born": 426
+, "other": 9482
+});
