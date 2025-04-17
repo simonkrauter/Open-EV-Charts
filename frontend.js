@@ -1591,15 +1591,8 @@ function renderStatusPage() {
 function renderCountriesStatusPage() {
   const table = document.createElement("TABLE");
   dynamicContent.appendChild(table);
-  const tr = document.createElement("TR");
-  table.appendChild(tr);
   table.classList.add("countriesStatus");
-  const columns = ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"];
-  for (const i in columns) {
-    const th = document.createElement("TH");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode(columns[i]));
-  }
+  renderStatusTableHeader(table, ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
   for (const i in db.countriesWithData) {
     const countryId = db.countriesWithData[i];
     const countryCode = db.countriesCodes[countryId];
@@ -1806,16 +1799,7 @@ function renderCompaniesStatusPage() {
   const table = document.createElement("TABLE");
   table.classList.add("companiesStatus");
   dynamicContent.appendChild(table);
-  {
-    const tr = document.createElement("TR");
-    table.appendChild(tr);
-    const columns = ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual EV Sales"];
-    for (const i in columns) {
-      const th = document.createElement("TH");
-      tr.appendChild(th);
-      th.appendChild(document.createTextNode(columns[i]));
-    }
-  }
+  renderStatusTableHeader(table, ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual EV Sales"]);
   for (const i in db.companies) {
     const company = db.companies[i];
     if (company == "other")
@@ -1873,16 +1857,7 @@ function renderCompaniesStatusPage() {
 function renderModelsStatusPage() {
   const table = document.createElement("TABLE");
   dynamicContent.appendChild(table);
-  {
-    const tr = document.createElement("TR");
-    table.appendChild(tr);
-    const columns = ["Brand", "Model", "Available Data", "Annual EV Sales"];
-    for (const i in columns) {
-      const th = document.createElement("TH");
-      tr.appendChild(th);
-      th.appendChild(document.createTextNode(columns[i]));
-    }
-  }
+  renderStatusTableHeader(table, ["Brand", "Model", "Available Data", "Annual EV Sales"]);
   for (const i in db.brands) {
     const brand = db.brands[i];
     if (brand == "other")
@@ -1933,6 +1908,16 @@ function renderModelsStatusPage() {
         table.appendChild(tr);
       }
     }
+  }
+}
+
+function renderStatusTableHeader(table, columns) {
+  const tr = document.createElement("TR");
+  table.appendChild(tr);
+  for (const i in columns) {
+    const th = document.createElement("TH");
+    tr.appendChild(th);
+    th.appendChild(document.createTextNode(columns[i]));
   }
 }
 
