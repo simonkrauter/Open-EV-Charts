@@ -1,4 +1,4 @@
-// // Data sets for car sales in Germany
+// Data sets for car sales in Germany
 
 "use strict";
 
