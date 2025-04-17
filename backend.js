@@ -382,9 +382,15 @@ var db = {
     return chartConfig.country.split(",");
   },
 
-  getMetrics: function(chartConfig) {
-    if (chartConfig.metric == null)
-      return [];
+  getRealMetrics: function(chartConfig) {
+    if (chartConfig.metric == this.metrics.all) {
+      let result = [];
+      for (let i in this.metrics) {
+        if (this.metrics[i] != this.metrics.all)
+          result.push(this.metrics[i]);
+      }
+      return result;
+    }
     return chartConfig.metric.split(",");
   },
 
@@ -1074,8 +1080,6 @@ var db = {
   },
 
   needsUnfold: function(chartSetConfig) {
-    if (chartSetConfig.metric == this.metrics.all)
-      return true;
     if (this.isMultiMetric(chartSetConfig) && (this.getNumberOfSeries(chartSetConfig) > 1 || ![this.views.table, this.views.sources].includes(chartSetConfig.view)))
       return true;
     if (chartSetConfig.xProperty == this.xProperties.all || chartSetConfig.xProperty.includes(","))
@@ -2271,7 +2275,7 @@ var db = {
     // Queries the data for one chart. Allows to combine multiple metrics.
     let chartData;
     let singleMetricChartConfig = this.cloneObject(chartConfig);
-    const metrics = this.getMetrics(chartConfig);
+    const metrics = this.getRealMetrics(chartConfig);
     for (const i in metrics) {
       const metric = metrics[i];
       singleMetricChartConfig.metric = metric;
