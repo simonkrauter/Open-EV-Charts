@@ -46,6 +46,7 @@ var db = {
   // - year:        integer
   // - month:       integer 1..12
   // - dsType:      dataset dsType enum value
+  // - isEvs:       boolean
   // - source:      source URL
   // - data:        object of brand -> number of sales or
   //                object of model -> number of sales
