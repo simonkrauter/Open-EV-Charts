@@ -2004,11 +2004,9 @@ var db = {
     // Create series (entries of 'data' will be inserted in the order of 'chartData.categories')
     let processedSeries = [];
     let seriesByName = {};
-    let seriesNamesInOrder = [];
     let seriesSortValues = {};
     let totalSeries = {name: this.totalSeriesName, data: []};
     for (const seriesName in chartData.seriesRows) {
-      seriesNamesInOrder.push(seriesName);
       let newSeries = {};
       newSeries.name = seriesName;
       newSeries.data = [];
@@ -2059,6 +2057,7 @@ var db = {
       processedSeries.push(totalSeries);
 
     // Add series to array in sorted order
+    let seriesNamesInOrder = Object.keys(chartData.seriesRows);
     seriesNamesInOrder.sort(function(a, b) {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
