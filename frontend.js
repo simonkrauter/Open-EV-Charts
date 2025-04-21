@@ -75,6 +75,14 @@ const thousandSeparator = (1000).toLocaleString()[1];
 setGlobalChartOptions();
 navigate();
 
+function newChildNode(parentNode, tagName, textContent = "") {
+  const node = document.createElement(tagName);
+  parentNode.appendChild(node);
+  if (textContent != "")
+    node.appendChild(document.createTextNode(textContent));
+  return node;
+}
+
 function measureTextWidth(text) {
   return canvasContext.measureText(text).width * 1.42;
 }
@@ -160,10 +168,8 @@ function renderMultiChartsHint() {
   let unfoldParam = db.getUnfoldParam(chartSetConfig);
   if (!unfoldParam)
     return;
-  const div = document.createElement("DIV");
+  const div = newChildNode(chartsDiv, "DIV", "Choose a " + unfoldParam.title.toLowerCase());
   div.classList.add("multiChartsHint");
-  div.appendChild(document.createTextNode("Choose a " + unfoldParam.title.toLowerCase()));
-  chartsDiv.appendChild(div);
 }
 
 function renderPage() {
@@ -184,7 +190,7 @@ function renderPage() {
     document.body.classList.remove("screenshotMode");
 
   if (isScreenshotModeEnabled) {
-    const div = document.createElement("DIV");
+    const div = newChildNode(dynamicContent, "DIV");
     div.classList.add("screenshotModeBanner");
     const exitButton = createLink();
     exitButton.addEventListener("click", function(event) {
@@ -194,19 +200,16 @@ function renderPage() {
     });
     exitButton.appendChild(document.createTextNode("Exit Screenshot Mode"));
     div.appendChild(exitButton);
-    dynamicContent.appendChild(div);
   } else {
     renderFilters();
   }
 
-  chartsDiv = document.createElement("DIV");
-  dynamicContent.appendChild(chartsDiv);
+  chartsDiv = newChildNode(dynamicContent, "DIV");
   renderCharts();
 }
 
 function renderFilters() {
-  filtersDiv = document.createElement("DIV");
-  dynamicContent.appendChild(filtersDiv);
+  filtersDiv = newChildNode(dynamicContent, "DIV");
   filtersDiv.classList.add("filters");
 
   const params = db.getChartParams(chartSetConfig);
@@ -214,7 +217,7 @@ function renderFilters() {
     const param = params[i];
     renderFilterAsDropdown(filtersDiv, param);
     if (param.breakLineAfterFilter && !isMobileScreenSize())
-      filtersDiv.appendChild(document.createElement("BR"));
+      newChildNode(filtersDiv, "BR");
   }
 }
 
@@ -243,12 +246,11 @@ function renderFilterAsDropdown(parentDiv, param) {
     width += 10;
 
   // Base element
-  let dropdown = document.createElement("DIV");
+  const dropdown = newChildNode(parentDiv, "DIV");
   dropdown.id = param.name;
   dropdown.classList.add("dropdown");
   dropdown.style.width = width + "px";
   dropdown.setAttribute("tabIndex", "0");
-  parentDiv.appendChild(dropdown);
 
   // Open/close click handler
   dropdown.addEventListener("click", function(event) {
@@ -299,36 +301,30 @@ function renderDropdownContent(param, dropdown) {
   dropdown.innerHTML = "";
 
   // Current value container
-  let currentValueDiv = document.createElement("DIV");
+  const currentValueDiv = newChildNode(dropdown, "DIV");
   currentValueDiv.classList.add("currentValue");
   currentValueDiv.title = param.title;
-  dropdown.appendChild(currentValueDiv);
 
   // Overlay
-  let overlay = document.createElement("DIV");
+  const overlay = newChildNode(dropdown, "DIV");
   overlay.classList.add("overlay");
-  dropdown.appendChild(overlay);
 
   // Search function
   if (param.enableDropdownSearch && Object.keys(param.allOptions).length > 13) {
-    let searchDiv = document.createElement("DIV");
+    const searchDiv = newChildNode(overlay, "DIV");
     searchDiv.classList.add("search");
-    overlay.appendChild(searchDiv);
     searchDiv.addEventListener("click", function(event) {
       event.preventDefault();
       event.stopPropagation();
     });
 
-    let searchBox = document.createElement("INPUT");
+    const searchBox = newChildNode(searchDiv, "INPUT");
     searchBox.type = "text";
     searchBox.title = "Search " + param.title;
-    searchDiv.appendChild(searchBox);
 
-    let noSearchResultsDiv = document.createElement("DIV");
-    noSearchResultsDiv.classList.add("noResults");
-    noSearchResultsDiv.appendChild(document.createTextNode("No search results"));
+    const noSearchResultsDiv = newChildNode(searchDiv, "DIV", "No search results");
     noSearchResultsDiv.style.display = "none";
-    searchDiv.appendChild(noSearchResultsDiv);
+    noSearchResultsDiv.classList.add("noResults");
 
     searchBox.addEventListener("input", function(event) {
       updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv);
@@ -354,7 +350,11 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
     if (selected)
       optionNode.classList.add("selected");
     if (param.allowMultiSelection) {
-      let checkbox = document.createElement("INPUT");
+      const checkboxContainer = newChildNode(optionNode, "span");
+      checkboxContainer.addEventListener("click", function(event) {
+        event.stopPropagation();
+      });
+      const checkbox = newChildNode(checkboxContainer, "INPUT");
       checkbox.type = "checkbox";
       checkbox.value = optionKey;
       checkbox.checked = selected;
@@ -373,12 +373,6 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
           }
         }
       });
-      let checkboxContainer = document.createElement("span");
-      checkboxContainer.addEventListener("click", function(event) {
-        event.stopPropagation();
-      });
-      optionNode.appendChild(checkboxContainer);
-      checkboxContainer.appendChild(checkbox);
     }
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
@@ -589,9 +583,7 @@ function renderChart(chartIndex) {
     renderChartTabButtons(chartDiv);
 
   if (!hasData) {
-    const div = document.createElement("DIV");
-    chartDiv.appendChild(div);
-    div.appendChild(document.createTextNode("No data available"));
+    const div = newChildNode(chartDiv, "DIV", "No data available");
     div.classList.add("noData");
     const chartSize = getChartSize();
     div.style.width = chartSize[0] + "px";
@@ -612,20 +604,17 @@ function renderChart(chartIndex) {
   }
 
   if (isScreenshotModeEnabled) {
-    const div = document.createElement("DIV");
-    div.classList.add("sourceUrl");
     let url = location.href;
     if (url.startsWith("https://"))
       url = url.substr(8);
-    div.appendChild(document.createTextNode("Source: " + url));
-    chartDiv.appendChild(div);
+    const div = newChildNode(chartDiv, "DIV", "Source: " + url);
+    div.classList.add("sourceUrl");
   }
 }
 
 function renderChartTitle3dFrames(chartDiv) {
   for (let i = 0; i < 2; i++) {
-    let div = document.createElement("DIV");
-    chartDiv.appendChild(div);
+    const div = newChildNode(chartDiv, "DIV");
     div.classList.add("chartTile");
     div.style.position = "absolute";
     div.style.width = chartDiv.offsetWidth + "px";
@@ -638,8 +627,7 @@ function renderChartTitle3dFrames(chartDiv) {
 }
 
 function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
-  let titleElem = document.createElement("DIV");
-  chartDiv.appendChild(titleElem);
+  const titleElem = newChildNode(chartDiv, "DIV");
   titleElem.classList.add("chartTitle");
 
   const title = db.getChartTitle(chartConfig, asSingleChart);
@@ -665,17 +653,14 @@ function renderChartSubTitle(chartDiv, chartConfig) {
   const subTitle = db.getChartSubTitle(chartConfig, isScreenshotModeEnabled);
   if (subTitle == "")
     return;
-  let titleElem = document.createElement("DIV");
-  chartDiv.appendChild(titleElem);
+  const titleElem = newChildNode(chartDiv, "DIV", subTitle);
   titleElem.classList.add("chartSubTitle");
-  titleElem.appendChild(document.createTextNode(subTitle));
 }
 
 function renderChartTabButtons(chartDiv) {
   if (isScreenshotModeEnabled)
     return;
-  const tabButtonsDiv = document.createElement("DIV");
-  chartDiv.appendChild(tabButtonsDiv);
+  const tabButtonsDiv = newChildNode(chartDiv, "DIV");
   tabButtonsDiv.classList.add("tabButtons");
   const params = db.getChartParams(chartSetConfig);
   const viewOptions = params.view.options;
@@ -685,8 +670,7 @@ function renderChartTabButtons(chartDiv) {
 
 function renderHints(chartDiv, chartConfig, chartData) {
   if (chartData.hints.length > 0) {
-    hintsDiv = document.createElement("DIV");
-    chartDiv.appendChild(hintsDiv);
+    hintsDiv = newChildNode(chartDiv, "DIV");
     hintsDiv.classList.add("hints");
     if (chartData.hints.length == 1) {
       hintsDiv.appendChild(document.createTextNode("Hint: "));
@@ -695,9 +679,8 @@ function renderHints(chartDiv, chartConfig, chartData) {
       hintsDiv.appendChild(document.createElement("BR"));
     }
     for (const i in chartData.hints) {
-      let span = document.createElement("SPAN");
+      const span = newChildNode(hintsDiv, "SPAN");
       span.innerHTML = chartData.hints[i];
-      hintsDiv.appendChild(span);
       hintsDiv.appendChild(document.createElement("BR"));
     }
     // collapse hints
@@ -775,9 +758,8 @@ function chartRemoveClick(event) {
 }
 
 function addShowAllChartsButton() {
-  const div = document.createElement("DIV");
-  chartsDiv.appendChild(div);
-  let button = createButton();
+  const div = newChildNode(chartsDiv, "DIV");
+  const button = createButton();
   div.appendChild(button);
   button.appendChild(document.createTextNode("More"));
   button.addEventListener("click", function(event) {
@@ -795,7 +777,7 @@ function createLink(hash = "") {
 
 function createButton() {
   // Creates an A element which can be used as a button
-  let button = createLink();
+  const button = createLink();
   button.classList.add("button");
   return button;
 }
@@ -955,10 +937,9 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     chartOptions.data.labels.push(db.formatSeriesNameAndCategory(chartData.categories[i]));
   }
 
-  const canvas = document.createElement("CANVAS");
+  const canvas = newChildNode(chartDiv, "CANVAS");
   canvas.style.width = chartSize[0] + "px";
   canvas.style.height = chartSize[1] + "px";
-  chartDiv.appendChild(canvas);
 
   return new Chart(canvas.getContext('2d'), chartOptions);
 }
@@ -1107,8 +1088,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
   }
   const showRankColumn = !db.isTimeXProperty(chartConfig);
 
-  const table = document.createElement("TABLE");
-  chartDiv.appendChild(table);
+  const table = newChildNode(chartDiv, "TABLE");
 
   if (!showRankColumn && horizontalBarMaxValue == 0 && Object.keys(chartData.series).length >= 10 && chartData.categories.length < 10)
     renderTableTransposed(chartConfig, table, chartData);
@@ -1139,14 +1119,13 @@ function renderTableExportButton(chartDiv, table, format) {
 function renderTableExport(chartDiv, table) {
   if (currentExportFormat == null)
     return;
-  const textarea = document.createElement("TEXTAREA");
+  const textarea = newChildNode(chartDiv, "TEXTAREA");
   textarea.classList.add("export");
   const rows = table.childNodes;
   if (currentExportFormat == "CSV")
     textarea.value = generateCsv(rows);
   else
     textarea.value = generateWikitext(rows);
-  chartDiv.appendChild(textarea);
 }
 
 function generateCsv(rows) {
@@ -1202,30 +1181,20 @@ function generateWikitext(rows) {
 
 function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn) {
   // Table head
-  const row = document.createElement("TR");
-  table.appendChild(row);
-  if (showRankColumn) {
-    const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode("#"));
-    row.appendChild(cell);
-  }
+  const row = newChildNode(table, "TR");
+  if (showRankColumn)
+    newChildNode(row, "TH", "#");
   const columnTitle = db.getCategoryTitle(chartConfig);
   {
-    const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode(columnTitle));
+    const cell = newChildNode(row, "TH", columnTitle);
     addThSortClickEvent(chartConfig, cell, 0);
-    row.appendChild(cell);
   }
   for (const i in chartData.series) {
     const series = chartData.series[i];
-    const cell = document.createElement("TH");
-    let text = db.formatSeriesNameAndCategory(series.name);
-    cell.appendChild(document.createTextNode(text));
-    if (horizontalBarMaxValue != 0) {
+    const cell = newChildNode(row, "TH", db.formatSeriesNameAndCategory(series.name));
+    if (horizontalBarMaxValue != 0)
       cell.colSpan = 2;
-    }
     addThSortClickEvent(chartConfig, cell, i + 1);
-    row.appendChild(cell);
   }
 
   const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
@@ -1234,14 +1203,12 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   // Table body
   for (const i in chartData.categories) {
     const category = chartData.categories[i];
-    const row = document.createElement("TR");
-    table.appendChild(row);
+    const row = newChildNode(table, "TR");
     if (showRankColumn) {
-      const cell = document.createElement("TD");
+      const cell = newChildNode(row, "TD");
       if (category != "Other" && !category.endsWith("|other"))
         cell.appendChild(document.createTextNode(parseInt(i) + 1));
       cell.style.textAlign = "right";
-      row.appendChild(cell);
     }
 
     renderTableRowTextCell(chartConfig, row, columnTitle, category);
@@ -1252,39 +1219,28 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     }
     // add horizontal bar
     if (horizontalBarMaxValue != 0) {
-      const cell = document.createElement("TD");
-      const barDiv = document.createElement("DIV");
-      cell.appendChild(barDiv);
+      const cell = newChildNode(row, "TD");
+      const barDiv = newChildNode(cell, "DIV");
       barDiv.classList.add("horizontalBar");
       const width = chartData.series[0].data[i] / horizontalBarMaxValue * maxBarWidth;
       barDiv.style.width = width + "px";
-      row.appendChild(cell);
     }
   }
 }
 
 function renderTableTransposed(chartConfig, table, chartData) {
   // Table head
-  const row = document.createElement("TR");
-  table.appendChild(row);
-  {
-    const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode("#"));
-    row.appendChild(cell);
-  }
+  const row = newChildNode(table, "TR");
+  newChildNode(row, "TH", "#");
   const columnTitle = db.getSeriesNameColumnHeader(chartConfig);
   {
-    const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode(columnTitle));
+    const cell = newChildNode(row, "TH", columnTitle);
     addThSortClickEvent(chartConfig, cell, 0);
-    row.appendChild(cell);
   }
   for (const i in chartData.categories) {
     const category = chartData.categories[i];
-    const cell = document.createElement("TH");
-    cell.appendChild(document.createTextNode(category));
+    const cell = newChildNode(row, "TH", category);
     addThSortClickEvent(chartConfig, cell, i + 1);
-    row.appendChild(cell);
   }
 
   // Table body
@@ -1294,13 +1250,10 @@ function renderTableTransposed(chartConfig, table, chartData) {
     const series = chartData.series[i];
     if (series.name == db.totalSeriesName)
       continue;
-    const row = document.createElement("TR");
-    table.appendChild(row);
+    const row = newChildNode(table, "TR");
     {
-      const cell = document.createElement("TD");
-      cell.appendChild(document.createTextNode(index));
+      const cell = newChildNode(row, "TD", index);
       cell.style.textAlign = "right";
-      row.appendChild(cell);
     }
 
     renderTableRowTextCell(chartConfig, row, columnTitle, series.name);
@@ -1314,9 +1267,8 @@ function renderTableTransposed(chartConfig, table, chartData) {
 
 function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
   // add TD
-  const cell = document.createElement("TD");
+  const cell = newChildNode(row, "TD");
   cell.style.maxWidth = Math.max(100, window.innerWidth - 170) + "px";
-  row.appendChild(cell);
 
   // check column title
   let addFlag = false;
@@ -1407,16 +1359,13 @@ function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
 }
 
 function renderTableValueCell(metric, row, val, yAxisMax) {
-  const cell = document.createElement("TD");
   if (val == null && val !== 0) {
-    cell.appendChild(document.createTextNode("–"));
+    const cell = newChildNode(row, "TD", "NA");
     cell.classList.add("NA");
   } else {
-    const text = formatValue(metric, val, yAxisMax, FormatValueContext.Table);
-    cell.appendChild(document.createTextNode(text));
+    const cell = newChildNode(row, "TD", formatValue(metric, val, yAxisMax, FormatValueContext.Table));
     cell.style.textAlign = "right";
   }
-  row.appendChild(cell);
 }
 
 function addThSortClickEvent(chartConfig, cell, columnIndex) {
@@ -1432,8 +1381,7 @@ function addThSortClickEvent(chartConfig, cell, columnIndex) {
 }
 
 function renderSources(chartConfig, chartDiv, chartData) {
-  const sourcesDiv = document.createElement("DIV");
-  chartDiv.appendChild(sourcesDiv);
+  const sourcesDiv = newChildNode(chartDiv, "DIV");
   sourcesDiv.classList.add("sources");
 
   let entries = [];
@@ -1470,13 +1418,10 @@ function renderSources(chartConfig, chartDiv, chartData) {
     return a.sortKey.localeCompare(b.sortKey);
   });
 
-  const ol = document.createElement("UL");
-  sourcesDiv.appendChild(ol);
+  const ol = newChildNode(sourcesDiv, "UL");
   for (const i in entries) {
     const entry = entries[i];
-    const li = document.createElement("LI");
-    ol.appendChild(li);
-    li.appendChild(document.createTextNode(entry.prefix + ": "));
+    const li = newChildNode(ol, "LI", entry.prefix + ": ");
     const parts = entry.text.split(" ");
     for (const j in parts) {
       let part = parts[j];
@@ -1521,14 +1466,13 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
 
   // create container and placeholder
   const container = document.createElement("SPAN");
-  const flag = document.createElement("SPAN");
+  const flag = newChildNode(container, "SPAN");
   flag.classList.add("flag");
   if (countryId || alwaysReserveSpace) {
     flag.style.width = countryFlagWidth + "px";
     flag.style.height = countryFlagHeight + "px";
     flag.style.marginRight = (countryFlagWidth * 0.2) + "px";
   }
-  container.appendChild(flag);
 
   // set flag
   if (countryId) {
@@ -1542,19 +1486,15 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
   }
 
   // add text
-  const textSpan = document.createElement("SPAN");
-  textSpan.appendChild(document.createTextNode(text));
-  container.appendChild(textSpan);
+  newChildNode(container, "SPAN", text);
 
   return container;
 }
 
 function renderStatusPage() {
   // title
-  const titleElem = document.createElement("DIV");
-  dynamicContent.appendChild(titleElem);
+  const titleElem = newChildNode(dynamicContent, "DIV", "Status");
   titleElem.classList.add("chartTitle");
-  titleElem.appendChild(document.createTextNode("Status"));
 
   // set active tab
   const tabs =
@@ -1566,8 +1506,7 @@ function renderStatusPage() {
     currentHash = Object.keys(tabs)[0];
 
   // tab buttons
-  const tabButtonsDiv = document.createElement("DIV");
-  dynamicContent.appendChild(tabButtonsDiv);
+  const tabButtonsDiv = newChildNode(dynamicContent, "DIV");
   tabButtonsDiv.classList.add("tabButtons");
   for (const hash in tabs) {
     let element;
@@ -1589,8 +1528,7 @@ function renderStatusPage() {
 }
 
 function renderCountriesStatusPage() {
-  const table = document.createElement("TABLE");
-  dynamicContent.appendChild(table);
+  const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("countriesStatus");
   renderStatusTableHeader(table, ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
   for (const i in db.countriesWithData) {
@@ -1661,12 +1599,10 @@ function renderCountriesStatusPage() {
     }
     const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
     const evSalesPerYear = evSalesSum / salesMonthCount * 12;
-    const tr = document.createElement("TR");
-    table.appendChild(tr);
+    const tr = newChildNode(table, "TR");
     // name
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
+      const td = newChildNode(tr, "TD");
       let newChartConfig = {};
       newChartConfig.country = countryCode;
       newChartConfig.metric = db.metrics.all;
@@ -1680,13 +1616,9 @@ function renderCountriesStatusPage() {
     }
     // available data
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
-      td.appendChild(document.createTextNode(firstMonthString));
-      td.appendChild(document.createTextNode(" – "));
+      const td = newChildNode(tr, "TD", firstMonthString + " – ");
       if (latestAllCarsDataset != null) {
-        const span = document.createElement("SPAN");
-        span.appendChild(document.createTextNode(latestAllCarsDataset.monthString));
+        const span = newChildNode(td, "SPAN", latestAllCarsDataset.monthString);
         span.classList.add("status");
         if (monthsNewDataIsOverdue > 2.5)
           span.classList.add("bad");
@@ -1694,25 +1626,21 @@ function renderCountriesStatusPage() {
           span.classList.add("medium");
         else
           span.classList.add("good");
-        td.appendChild(span);
       }
       td.style.textAlign = "center";
     }
     // interval
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
       if (isLastDatasetPerQuarter)
-        td.appendChild(document.createTextNode("Quarter"));
+        newChildNode(tr, "TD", "Quarter");
       else
-        td.appendChild(document.createTextNode("Month"));
+        newChildNode(tr, "TD", "Month");
     }
     // all car data detailedness
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
+      const td = newChildNode(tr, "TD");
       if (latestAllCarsDataset != null) {
-        const span = document.createElement("SPAN");
+        const span = newChildNode(td, "SPAN");
         span.classList.add("status");
         if (Object.keys(latestAllCarsDataset.data).length > 1) {
           span.appendChild(document.createTextNode("By brand"));
@@ -1721,13 +1649,11 @@ function renderCountriesStatusPage() {
           span.appendChild(document.createTextNode("Total only"));
           span.classList.add("medium");
         }
-        td.appendChild(span);
       }
     }
     // ev data detailedness
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
+      const td = newChildNode(tr, "TD");
       if (latestEvDataset) {
         let span = getEvDetailednessSpan(latestEvDataset);
         td.appendChild(span);
@@ -1742,24 +1668,18 @@ function renderCountriesStatusPage() {
     }
     // car market size
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
-      td.appendChild(document.createTextNode(formatIntForStatusTable(allCarSalesPerYear)));
+      const td = newChildNode(tr, "TD", formatIntForStatusTable(allCarSalesPerYear));
       td.style.textAlign = "right";
     }
     // ev market size
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
-      td.appendChild(document.createTextNode(formatIntForStatusTable(evSalesPerYear)));
+      const td = newChildNode(tr, "TD", formatIntForStatusTable(evSalesPerYear));
       td.style.textAlign = "right";
     }
     // relative ev sales
     {
-      const td = document.createElement("TD");
-      tr.appendChild(td);
       const val = evSalesPerYear / allCarSalesPerYear * 100;
-      td.appendChild(document.createTextNode(val.toFixed(1).toLocaleString() + " %"));
+      const td = newChildNode(tr, "TD", val.toFixed(1).toLocaleString() + " %");
       td.style.textAlign = "right";
     }
   }
@@ -1796,19 +1716,16 @@ function getEvDetailednessSpan(dataset) {
 }
 
 function renderCompaniesStatusPage() {
-  const table = document.createElement("TABLE");
+  const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("companiesStatus");
-  dynamicContent.appendChild(table);
   renderStatusTableHeader(table, ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual EV Sales"]);
   for (const i in db.companies) {
     const company = db.companies[i];
     if (company == "other")
       continue;
-    const firstTr = document.createElement("TR");
-    table.appendChild(firstTr);
+    const firstTr = newChildNode(table, "TR");
     // company
-    const companyTd = document.createElement("TD");
-    firstTr.appendChild(companyTd);
+    const companyTd = newChildNode(firstTr, "TD");
     {
       const countryCode = getCountryCodeForCompanyOrBrand(company);
       const a = createLink(db.encodeChartConfig({"metric": db.metrics.salesElectric, "company": company}));
@@ -1821,8 +1738,7 @@ function renderCompaniesStatusPage() {
       companyTd.rowSpan = brands.length;
       let tr = firstTr;
       for (const j in brands) {
-        const td = document.createElement("TD");
-        tr.appendChild(td);
+        const td = newChildNode(tr, "TD");
         const brand = brands[j];
         const countryCode = getCountryCodeForCompanyOrBrand(brand);
         let newChartConfig = {};
@@ -1838,10 +1754,8 @@ function renderCompaniesStatusPage() {
         const evSales = getAnnualSales(true, brand);
         addAnnualSalesTd(tr, allSales, allSales < evSales);
         addAnnualSalesTd(tr, evSales);
-        if (j < brands.length - 1) {
-          tr = document.createElement("TR");
-          table.appendChild(tr);
-        }
+        if (j < brands.length - 1)
+          tr = newChildNode(table, "TR");
       }
     } else {
       companyTd.colSpan = 2;
@@ -1855,8 +1769,7 @@ function renderCompaniesStatusPage() {
 }
 
 function renderModelsStatusPage() {
-  const table = document.createElement("TABLE");
-  dynamicContent.appendChild(table);
+  const table = newChildNode(dynamicContent, "TABLE");
   renderStatusTableHeader(table, ["Brand", "Model", "Available Data", "Annual EV Sales"]);
   for (const i in db.brands) {
     const brand = db.brands[i];
@@ -1873,15 +1786,12 @@ function renderModelsStatusPage() {
     }
     if (models.length == 0)
       continue;
-    const firstTr = document.createElement("TR");
-    table.appendChild(firstTr);
+    const firstTr = newChildNode(table, "TR");
     // brand
-    const brandTd = document.createElement("TD");
-    firstTr.appendChild(brandTd);
+    const brandTd = newChildNode(firstTr, "TD");
     {
       const countryCode = getCountryCodeForCompanyOrBrand(brand);
-      const span = document.createElement("SPAN");
-      brandTd.appendChild(span);
+      const span = newChildNode(brandTd, "SPAN");
       span.appendChild(createCountryFlagContainer(countryCode, brand, true, tableFlagSizeFactor));
     }
     // models
@@ -1889,8 +1799,7 @@ function renderModelsStatusPage() {
     let tr = firstTr;
     for (let j = 0; j < models.length; j++) {
       const model = models[j];
-      const td = document.createElement("TD");
-      tr.appendChild(td);
+      const td = newChildNode(tr, "TD");
       let newChartConfig = {};
       newChartConfig.metric = db.metrics.salesElectric;
       newChartConfig.company = db.companiesByBrand[brand];
@@ -1903,21 +1812,16 @@ function renderModelsStatusPage() {
       addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model);
       const sales = getAnnualSales(true, brand, brand + "|" + model);
       addAnnualSalesTd(tr, sales);
-      if (j < models.length - 1) {
-        tr = document.createElement("TR");
-        table.appendChild(tr);
-      }
+      if (j < models.length - 1)
+        tr = newChildNode(table, "TR");
     }
   }
 }
 
 function renderStatusTableHeader(table, columns) {
-  const tr = document.createElement("TR");
-  table.appendChild(tr);
+  const tr = newChildNode(table, "TR");
   for (const i in columns) {
-    const th = document.createElement("TH");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode(columns[i]));
+    const th = newChildNode(tr, "TH", columns[i]);
     if (columns[i].startsWith("Annual ") || columns[i].endsWith(" Sales"))
       th.title = "Last 12 month with data";
   }
@@ -1945,9 +1849,7 @@ function addBrandOrModelAvailableDataTimeSpanTd(tr, brand, model = null) {
       break;
     }
   }
-  const td = document.createElement("TD");
-  tr.appendChild(td);
-  td.appendChild(document.createTextNode(firstMonthString + " – " + lastMonthString));
+  const td = newChildNode(tr, "TD", firstMonthString + " – " + lastMonthString);
   td.style.textAlign = "center";
 }
 
@@ -1988,9 +1890,7 @@ function getAnnualSales(onlyEvs, brand, brandAndModel = null) {
 }
 
 function addAnnualSalesTd(tr, value, isIncomplete = false) {
-  const td = document.createElement("TD");
-  tr.appendChild(td);
-  td.appendChild(document.createTextNode(formatIntForStatusTable(value)));
+  const td = newChildNode(tr, "TD", formatIntForStatusTable(value));
   td.style.textAlign = "right";
   if (isIncomplete) {
     td.classList.add("incomplete");
