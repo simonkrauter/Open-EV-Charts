@@ -641,7 +641,8 @@ function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
   }
 
   if (!asSingleChart) {
-    let removeButton = createButton();
+    let removeButton = createLink();
+    removeButton.classList.add("button");
     removeButton.classList.add("removeButton");
     removeButton.title = "Remove";
     chartDiv.appendChild(removeButton);
@@ -759,7 +760,8 @@ function chartRemoveClick(event) {
 
 function addShowAllChartsButton() {
   const div = newChildNode(chartsDiv, "DIV");
-  const button = createButton();
+  const button = createLink();
+  button.classList.add("button");
   div.appendChild(button);
   button.appendChild(document.createTextNode("More"));
   button.addEventListener("click", function(event) {
@@ -773,13 +775,6 @@ function createLink(hash = "") {
   const a = document.createElement("A");
   a.href = "#" + hash;
   return a;
-}
-
-function createButton() {
-  // Creates an A element which can be used as a button
-  const button = createLink();
-  button.classList.add("button");
-  return button;
 }
 
 function formatValue(metric, value, yAxisMax, context) {
