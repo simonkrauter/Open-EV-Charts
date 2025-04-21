@@ -249,6 +249,8 @@ function renderFilterAsDropdown(parentDiv, param) {
   const dropdown = newChildNode(parentDiv, "DIV");
   dropdown.id = param.name;
   dropdown.classList.add("dropdown");
+  if (param.allowMultiSelection)
+    dropdown.classList.add("multiSelection");
   dropdown.style.width = width + "px";
   dropdown.setAttribute("tabIndex", "0");
 
@@ -269,17 +271,15 @@ function renderFilterAsDropdown(parentDiv, param) {
     } else if (event.keyCode == 38 || event.keyCode == 40) {
       if (openedDropdown == dropdown && document.activeElement) {
         event.preventDefault();
-        let base = document.activeElement;
-        if (param.allowMultiSelection)
-          base = base.parentNode;
+        const base = document.activeElement;
         if (event.keyCode == 38 && base.previousSibling) {
           let toFocus = base.previousSibling;
-          if (param.allowMultiSelection && toFocus.firstChild.disabled)
+          if (toFocus.classList.contains("disabled"))
             toFocus = toFocus.previousSibling;
           toFocus.focus();
         } else if (event.keyCode == 40 && base.nextSibling) {
           let toFocus = base.nextSibling;
-          if (param.allowMultiSelection && toFocus.firstChild.disabled)
+          if (toFocus.classList.contains("disabled"))
             toFocus = toFocus.nextSibling;
           toFocus.focus();
         }
@@ -326,8 +326,23 @@ function renderDropdownContent(param, dropdown) {
     noSearchResultsDiv.style.display = "none";
     noSearchResultsDiv.classList.add("noResults");
 
+    // Keyboard event handler
     searchBox.addEventListener("input", function(event) {
       updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv);
+    });
+    dropdown.addEventListener("keydown", function(event) {
+      if (event.keyCode == 40) {
+        if (document.activeElement) {
+          event.preventDefault();
+          const base = document.activeElement.parentNode;
+          if (base.nextSibling) {
+            let toFocus = base.nextSibling;
+            if (param.allowMultiSelection && toFocus.firstChild.disabled)
+              toFocus = toFocus.nextSibling;
+            toFocus.focus();
+          }
+        }
+      }
     });
   }
 
@@ -340,11 +355,7 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
   const selectedKey = chartSetConfig[param.name];
   const selectedKeys = selectedKey.split(",");
   for (const optionKey in param.allOptions) {
-    let optionNode;
-    if (param.allowMultiSelection)
-      optionNode = document.createElement("LABEL");
-    else
-      optionNode = createLink();
+    const optionNode = createLink();
     overlay.appendChild(optionNode);
     const selected = selectedKeys.includes(optionKey);
     if (selected)
@@ -363,16 +374,7 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
         updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
         event.stopPropagation();
       });
-      checkbox.addEventListener("keydown", function(event) {
-        if (event.keyCode == 13 || event.keyCode == 32) {
-          if (!optionNode.classList.contains("disabled")) {
-            event.preventDefault();
-            paramOptionClickHandler(param, optionKey, true, true);
-            updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
-            event.stopPropagation();
-          }
-        }
-      });
+      checkbox.tabIndex = -1;
     }
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
@@ -390,7 +392,13 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
     });
     optionNode.addEventListener("keydown", function(event) {
       if (event.keyCode == 13 || event.keyCode == 32) {
-        if (!optionNode.classList.contains("disabled"))
+        event.preventDefault();
+        if (optionNode.classList.contains("disabled"))
+          return;
+        if (param.allowMultiSelection && event.keyCode == 32) {
+          paramOptionClickHandler(param, optionKey, true, true);
+          updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
+        } else
           paramOptionClickHandler(param, optionKey);
       }
     });

@@ -67,15 +67,9 @@ input[type=checkbox] {
   bottom: 1px;
   margin-right: 5px;
   accent-color: var(--clBaseText);
-  cursor: pointer;
 }
-
-label {
+input[type=checkbox]:not(:disabled) {
   cursor: pointer;
-}
-
-label.disabled, label.disabled * {
-  cursor: default;
 }
 
 a, a:visited {
@@ -84,7 +78,11 @@ a, a:visited {
   cursor: pointer;
 }
 
-a:hover {
+a.disabled {
+  cursor: default;
+}
+
+a:not(.disabled):hover {
   text-decoration: underline;
 }
 
@@ -248,22 +246,26 @@ h1 sup {
   display: block;
 }
 
-.dropdown > .overlay > a {
+.dropdown:not(.multiSelection) > .overlay > a {
   padding-left: 8px;
   border-left: 2px solid transparent;
 }
 
-.dropdown > .overlay > a, .dropdown > .overlay > .search > .noResults {
+.dropdown:not(.multiSelection) > .overlay > a.selected {
+  border-color: var(--clDropdownItemSelectedLine);
+}
+
+.dropdown:not(.multiSelection) > .overlay > a, .dropdown > .overlay > .search > .noResults {
   padding-top: 1.5px;
   padding-bottom: 1.5px;
 }
 
-.dropdown > .overlay > label {
+.dropdown.multiSelection > .overlay > a {
   padding-top: 1.2px;
   padding-left: 5px;
 }
 
-.dropdown > .overlay > label > span:first-child {
+.dropdown.multiSelection > .overlay > a > span:first-child {
   /* increase checkbox clickable area */
   display: inline-block;
   padding-left: 2px;
@@ -272,15 +274,11 @@ h1 sup {
   margin-right: -1px;
 }
 
-.dropdown > .overlay > a.selected {
-  border-color: var(--clDropdownItemSelectedLine);
-}
-
 .dropdown, .dropdown > .overlay > * {
   padding-right: 28px;
 }
 
-.dropdown > .overlay > *:not(.disabled):not(.search):hover, body.showFocus .dropdown > .overlay > a:focus {
+body:not(.showFocus) .dropdown > .overlay > *:not(.disabled):not(.search):hover, body.showFocus .dropdown > .overlay > a:focus {
   background: var(--clDropdownItemHoverFill);
   outline: none;
   text-decoration: none;
