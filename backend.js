@@ -242,17 +242,16 @@ var db = {
       return text.replace("|", " ");
   },
 
-  joinCountriesList: function(list) {
+  joinItemList: function(list, maxDisplayCount, moreText = "more items") {
     const count = list.length;
     if (count == 0)
       return "";
     if (count == 1)
       return list[0];
-    const maxDisplayCount = 6;
     if (count > maxDisplayCount) {
       list = list.slice(0, maxDisplayCount - 1);
       const hiddenCount = count - maxDisplayCount + 1;
-      list.push(hiddenCount + " more countries");
+      list.push(hiddenCount + " " + moreText);
     }
     return list.slice(0, -1).join(", ") + " and " + list.slice(-1);
   },
@@ -1259,7 +1258,7 @@ var db = {
             countrieNames.push(this.countryNames[id]);
         }
       }
-      parts.push(this.joinCountriesList(countrieNames));
+      parts.push(this.joinItemList(countrieNames, 6, "more countries"));
     }
     return parts.join(" – ");
   },
@@ -1715,7 +1714,7 @@ var db = {
         }
       }
       if (nonGlobalTimeSpans.length > 0)
-        chartData.hints.push("Data for " + this.joinCountriesList(nonGlobalTimeSpans) + " is incomplete.");
+        chartData.hints.push("Data for " + this.joinItemList(nonGlobalTimeSpans, 6, "more categories") + " is incomplete.");
     }
 
     // incomplete year or quarter
@@ -1773,7 +1772,7 @@ var db = {
             missingCountries.push(countryName);
         }
         if (missingCountries.length > 0)
-          chartData.hints.push(timeSpan + ": Missing data for " + this.joinCountriesList(missingCountries) + ".");
+          chartData.hints.push(timeSpan + ": Missing data for " + this.joinItemList(missingCountries, 6, "more countries") + ".");
       }
     }
   },
@@ -1788,7 +1787,7 @@ var db = {
           const countryId = nonMonthlyCountries[i];
           countryNames.push(this.countryNames[countryId]);
         }
-        hint = hint + " for " + this.joinCountriesList(countryNames);
+        hint = hint + " for " + this.joinItemList(countryNames, 6, "more countries");
       }
       chartData.hints.push(hint + ".");
     }
