@@ -1759,22 +1759,6 @@ var db = {
         }
       }
     }
-
-    // missing month/quarter/year
-    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && !this.isGlobalCountry(chartConfig) && chartConfig.view == this.views.barChart) {
-      const currentYear = this.currentDate.getFullYear();
-      for (const i in chartData.categories) {
-        const timeSpan = chartData.categories[i];
-        let missingCountries = [];
-        for (const countryName in chartData.monthsPerCountryAndTimeSpan) {
-          const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[countryName];
-          if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear)
-            missingCountries.push(countryName);
-        }
-        if (missingCountries.length > 0)
-          chartData.hints.push(timeSpan + ": Missing data for " + this.joinItemList(missingCountries, 6, "more countries") + ".");
-      }
-    }
   },
 
   addHints_notMonthly: function(chartConfig, chartData, nonMonthlyCountries) {
@@ -1826,6 +1810,30 @@ var db = {
           chartData.hints.push("Data per model is partially not available.");
         else
           chartData.hints.push("Data per model is not available.");
+      }
+    }
+  },
+
+  addHintsAfterProcessing_incompleteData: function(chartConfig, chartData) {
+    // missing month/quarter/year per country
+    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && !this.isGlobalCountry(chartConfig) && chartConfig.view == this.views.barChart) {
+      let seriesNames = [];
+      for (const i in chartData.series) {
+        seriesNames.push(chartData.series[i].name);
+      }
+      const currentYear = this.currentDate.getFullYear();
+      for (const countryName in chartData.monthsPerCountryAndTimeSpan) {
+        if (!seriesNames.includes(countryName))
+          continue;
+        let timeSpansToReport = [];
+        const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[countryName];
+        for (const i in chartData.categories) {
+          const timeSpan = chartData.categories[i];
+          if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear)
+            timeSpansToReport.push(timeSpan);
+        }
+        if (timeSpansToReport.length > 0)
+          chartData.hints.push(countryName + ": Missing data for " + this.joinItemList(timeSpansToReport, 6, "more categories") + ".");
       }
     }
   },
@@ -2355,6 +2363,8 @@ var db = {
 
     // Remove additional categories which were included for calculation of trailing average
     chartData.categories.splice(0, this.getExtendedCategoriesCount(chartConfig, chartData));
+
+    this.addHintsAfterProcessing_incompleteData(chartConfig, chartData);
 
     return chartData;
   },
