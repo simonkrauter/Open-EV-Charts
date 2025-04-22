@@ -1608,11 +1608,6 @@ var db = {
   getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes) {
     let hints = [];
 
-    // missing countries
-    if (chartConfig.country.includes(this.countryOptions.all) && this.isCombinedCountry(chartConfig)) {
-      hints.push("These are not global numbers, as data from several countries is missing.");
-    }
-
     // gap detection (missing months in data series)
     if (chartConfig.detailLevel != this.detailLevels.total) {
       let sumPerMonth = 0;
@@ -1658,6 +1653,41 @@ var db = {
         hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
     }
 
+    // incomplete global data
+    let nonGlobalTimeSpans = [];
+    if (this.isAllCountries(chartConfig)) {
+      const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.rotwCoutryName];
+      if (this.isTimeXProperty(chartConfig)) {
+        for (const i in categories) {
+          const timeSpan = categories[i];
+          if (monthsPerTimeSpan[timeSpan] === undefined)
+            nonGlobalTimeSpans.push(timeSpan);
+        }
+      }
+      if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+        const currentYear = this.currentDate.getFullYear();
+        const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
+        let expectedNumberOfMonth;
+        if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
+          expectedNumberOfMonth = 3;
+        else
+          expectedNumberOfMonth = 12;
+        if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
+          for (const i in categories) {
+            const timeSpan = categories[i];
+            if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
+              nonGlobalTimeSpans.push(timeSpan);
+          }
+        } else if (Object.keys(monthsPerTimeSpan).length != expectedNumberOfMonth){
+          const timeSpan = chartConfig.timeSpan.substr(1);
+          if (timeSpan != currentYear && timeSpan != currentQuarter)
+            nonGlobalTimeSpans.push(timeSpan);
+        }
+      }
+      if (nonGlobalTimeSpans.length > 0)
+        hints.push("Data for " + this.joinCountriesList(nonGlobalTimeSpans) + " is incomplete.");
+    }
+
     // parse general hints
     const keyword = " (Incomplete: ";
     for (const text in sources) {
@@ -1689,10 +1719,15 @@ var db = {
       else
         expectedNumberOfMonth = 12;
       for (const countryName in monthsPerCountryAndTimeSpan) {
+        if (countryName == this.rotwCoutryName)
+          continue;
         const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
         let timeSpansToReport = [];
         if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
-          for (const timeSpan in monthsPerTimeSpan) {
+          for (const i in categories) {
+            const timeSpan = categories[i];
+            if (nonGlobalTimeSpans.includes(timeSpan))
+              continue;
             if (timeSpan == currentYear || timeSpan == currentQuarter)
               continue;
             if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
@@ -1700,6 +1735,8 @@ var db = {
           }
         } else if (Object.keys(monthsPerTimeSpan).length != expectedNumberOfMonth){
           const timeSpan = chartConfig.timeSpan.substr(1);
+          if (nonGlobalTimeSpans.includes(timeSpan))
+            continue;
           if (timeSpan == currentYear || timeSpan == currentQuarter)
             continue;
           timeSpansToReport.push(timeSpan);
@@ -1716,7 +1753,7 @@ var db = {
     }
 
     // missing month/quarter/year
-    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && (this.isCombinedCountry(chartConfig) || chartConfig.view == this.views.barChart)) {
+    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && !this.isGlobalCountry(chartConfig) && chartConfig.view == this.views.barChart) {
       const currentYear = this.currentDate.getFullYear();
       for (const i in categories) {
         const timeSpan = categories[i];
@@ -1732,7 +1769,7 @@ var db = {
     }
 
     // monthly data is not available
-    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0) {
+    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0 && !this.isGlobalCountry(chartConfig)) {
       let hint = "Monthly data is derived from quarterly data";
       if (this.isMultiCountry(chartConfig)) {
         let countryNames = [];
