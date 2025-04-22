@@ -1435,16 +1435,23 @@ var db = {
     this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
     this.removeIncompleteGlobalData(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
-    let hints = [];
-    if (withHints)
-      hints = this.getHints(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes);
-
-    return {
+    let chartData = {
       seriesRows: seriesRows,
       sources: sources,
       categories: categories,
-      hints: hints
+      hints: [],
+      monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan
     };
+
+    if (withHints) {
+      this.addHints_gapDetection(chartConfig, chartData, gapDetectionData, monthsInRange);
+      this.addHints_parseSources(chartConfig, chartData);
+      this.addHints_incompleteData(chartConfig, chartData);
+      this.addHints_notMonthly(chartConfig, chartData, nonMonthlyCountries);
+      this.addHints_detailLevelNotAvailable(chartConfig, chartData, usedDatasetTypes);
+    }
+
+    return chartData;
   },
 
   queryDatasets_getDateFilters: function(chartConfig) {
@@ -1605,9 +1612,7 @@ var db = {
     }
   },
 
-  getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes) {
-    let hints = [];
-
+  addHints_gapDetection: function(chartConfig, chartData, gapDetectionData, monthsInRange) {
     // gap detection (missing months in data series)
     if (chartConfig.detailLevel != this.detailLevels.total) {
       let sumPerMonth = 0;
@@ -1648,18 +1653,43 @@ var db = {
         }
       }
       if (errorIndicatorSum >= 0.2)
-        hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top-selling models/brands.</span>");
+        chartData.hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top-selling models/brands.</span>");
       else if (errorIndicatorSum >= 0.05)
-        hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
+        chartData.hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
     }
+  },
 
+  addHints_parseSources: function(chartConfig, chartData) {
+    // parse general hints from sources
+    const keyword = " (Incomplete: ";
+    for (const text in chartData.sources) {
+      let i = text.indexOf(keyword);
+      if (i == -1)
+        continue;
+      i = i + keyword.length;
+      const j = text.indexOf(")", i);
+      if (j == -1)
+        continue;
+      if (text.includes("not listed by name") && chartConfig.xProperty != this.xProperties.model)
+        continue;
+      const sourceInfo = chartData.sources[text];
+      let hint = "";
+      if (this.isMultiCountry(chartConfig))
+        hint = hint + this.countryNames[sourceInfo.country] + ": ";
+      hint = hint + text.substr(i, j - i);
+      if (!chartData.hints.includes(hint))
+        chartData.hints.push(hint);
+    }
+  },
+
+  addHints_incompleteData: function(chartConfig, chartData) {
     // incomplete global data
     let nonGlobalTimeSpans = [];
     if (this.isAllCountries(chartConfig)) {
-      const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.rotwCoutryName];
+      const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[this.rotwCoutryName];
       if (this.isTimeXProperty(chartConfig)) {
-        for (const i in categories) {
-          const timeSpan = categories[i];
+        for (const i in chartData.categories) {
+          const timeSpan = chartData.categories[i];
           if (monthsPerTimeSpan[timeSpan] === undefined)
             nonGlobalTimeSpans.push(timeSpan);
         }
@@ -1673,8 +1703,8 @@ var db = {
         else
           expectedNumberOfMonth = 12;
         if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
-          for (const i in categories) {
-            const timeSpan = categories[i];
+          for (const i in chartData.categories) {
+            const timeSpan = chartData.categories[i];
             if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
               nonGlobalTimeSpans.push(timeSpan);
           }
@@ -1685,28 +1715,7 @@ var db = {
         }
       }
       if (nonGlobalTimeSpans.length > 0)
-        hints.push("Data for " + this.joinCountriesList(nonGlobalTimeSpans) + " is incomplete.");
-    }
-
-    // parse general hints
-    const keyword = " (Incomplete: ";
-    for (const text in sources) {
-      let i = text.indexOf(keyword);
-      if (i == -1)
-        continue;
-      i = i + keyword.length;
-      const j = text.indexOf(")", i);
-      if (j == -1)
-        continue;
-      if (text.includes("not listed by name") && chartConfig.xProperty != this.xProperties.model)
-        continue;
-      const sourceInfo = sources[text];
-      let hint = "";
-      if (this.isMultiCountry(chartConfig))
-        hint = hint + this.countryNames[sourceInfo.country] + ": ";
-      hint = hint + text.substr(i, j - i);
-      if (!hints.includes(hint))
-        hints.push(hint);
+        chartData.hints.push("Data for " + this.joinCountriesList(nonGlobalTimeSpans) + " is incomplete.");
     }
 
     // incomplete year or quarter
@@ -1718,14 +1727,14 @@ var db = {
         expectedNumberOfMonth = 3;
       else
         expectedNumberOfMonth = 12;
-      for (const countryName in monthsPerCountryAndTimeSpan) {
+      for (const countryName in chartData.monthsPerCountryAndTimeSpan) {
         if (countryName == this.rotwCoutryName)
           continue;
-        const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+        const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[countryName];
         let timeSpansToReport = [];
         if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
-          for (const i in categories) {
-            const timeSpan = categories[i];
+          for (const i in chartData.categories) {
+            const timeSpan = chartData.categories[i];
             if (nonGlobalTimeSpans.includes(timeSpan))
               continue;
             if (timeSpan == currentYear || timeSpan == currentQuarter)
@@ -1747,7 +1756,7 @@ var db = {
           if (this.isMultiCountry(chartConfig))
             hint = hint + countryName + ": ";
           hint = hint + timeSpan + " is incomplete.";
-          hints.push(hint);
+          chartData.hints.push(hint);
         }
       }
     }
@@ -1755,19 +1764,21 @@ var db = {
     // missing month/quarter/year
     if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && !this.isGlobalCountry(chartConfig) && chartConfig.view == this.views.barChart) {
       const currentYear = this.currentDate.getFullYear();
-      for (const i in categories) {
-        const timeSpan = categories[i];
+      for (const i in chartData.categories) {
+        const timeSpan = chartData.categories[i];
         let missingCountries = [];
-        for (const countryName in monthsPerCountryAndTimeSpan) {
-          const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[countryName];
+        for (const countryName in chartData.monthsPerCountryAndTimeSpan) {
+          const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[countryName];
           if (monthsPerTimeSpan[timeSpan] === undefined && timeSpan != currentYear)
             missingCountries.push(countryName);
         }
         if (missingCountries.length > 0)
-          hints.push(timeSpan + ": Missing data for " + this.joinCountriesList(missingCountries) + ".");
+          chartData.hints.push(timeSpan + ": Missing data for " + this.joinCountriesList(missingCountries) + ".");
       }
     }
+  },
 
+  addHints_notMonthly: function(chartConfig, chartData, nonMonthlyCountries) {
     // monthly data is not available
     if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0 && !this.isGlobalCountry(chartConfig)) {
       let hint = "Monthly data is derived from quarterly data";
@@ -1779,21 +1790,23 @@ var db = {
         }
         hint = hint + " for " + this.joinCountriesList(countryNames);
       }
-      hints.push(hint + ".");
+      chartData.hints.push(hint + ".");
     }
+  },
 
+  addHints_detailLevelNotAvailable: function(chartConfig, chartData, usedDatasetTypes) {
     // all cars data per company/brand not available
     if (chartConfig.metric == this.metrics.salesAll && usedDatasetTypes.includes(this.dsTypes.AllCarsTotal)) {
       if (chartConfig.detailLevel == this.detailLevels.company) {
         if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
-          hints.push("Data per company is partially not available.");
+          chartData.hints.push("Data per company is partially not available.");
         else
-          hints.push("Data per company is not available.");
+          chartData.hints.push("Data per company is not available.");
       } else if (chartConfig.detailLevel == this.detailLevels.brand) {
         if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
-          hints.push("Data per brand is partially not available.");
+          chartData.hints.push("Data per brand is partially not available.");
         else
-          hints.push("Data per brand is not available.");
+          chartData.hints.push("Data per brand is not available.");
       }
     }
 
@@ -1801,23 +1814,21 @@ var db = {
     if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal)) {
       if (chartConfig.detailLevel == this.detailLevels.company) {
         if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
-          hints.push("Data per company is partially not available.");
+          chartData.hints.push("Data per company is partially not available.");
         else
-          hints.push("Data per company is not available.");
+          chartData.hints.push("Data per company is not available.");
       } else if (chartConfig.detailLevel == this.detailLevels.brand) {
         if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
-          hints.push("Data per brand is partially not available.");
+          chartData.hints.push("Data per brand is partially not available.");
         else
-          hints.push("Data per brand is not available.");
+          chartData.hints.push("Data per brand is not available.");
       } else if (chartConfig.detailLevel == this.detailLevels.model) {
         if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel))
-          hints.push("Data per model is partially not available.");
+          chartData.hints.push("Data per model is partially not available.");
         else
-          hints.push("Data per model is not available.");
+          chartData.hints.push("Data per model is not available.");
       }
     }
-
-    return hints;
   },
 
   postProcessCategories: function(chartConfig, chartData, sortByName) {
