@@ -1747,7 +1747,7 @@ var db = {
   },
 
   postProcessCategories: function(chartConfig, chartData, sortByName) {
-    // Sort categories and limit count
+    // Sort categories
     let categories = chartData.categories;
     let seriesRows = chartData.seriesRows;
     let processedCategories = [];
@@ -1781,6 +1781,8 @@ var db = {
         return valueA < valueB ? 1 : valueA > valueB ? -1 : 0;
       });
     }
+
+    // Apply limit
     let count = 0;
     for (const i in categories) {
       const category = categories[i];
