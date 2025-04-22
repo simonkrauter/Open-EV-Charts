@@ -1533,7 +1533,7 @@ function renderStatusPage() {
 function renderCountriesStatusPage() {
   const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("countriesStatus");
-  renderStatusTableHeader(table, ["Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
+  renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
   for (const i in db.countriesWithData) {
     const countryId = db.countriesWithData[i];
     const countryCode = db.countriesCodes[countryId];
@@ -1603,6 +1603,11 @@ function renderCountriesStatusPage() {
     const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
     const evSalesPerYear = evSalesSum / salesMonthCount * 12;
     const tr = newChildNode(table, "TR");
+    // index
+    {
+      const td = newChildNode(tr, "TD", parseInt(i) + 1);
+      td.style.textAlign = "right";
+    }
     // name
     {
       const td = newChildNode(tr, "TD");
