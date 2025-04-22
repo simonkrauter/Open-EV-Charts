@@ -1502,6 +1502,7 @@ function renderStatusPage() {
   // set active tab
   const tabs =
   { "status": "Countries"
+  , "status:coverage": "Coverage"
   , "status:companies": "Companies and Brands"
   , "status:models": "EV Models"
   };
@@ -1524,6 +1525,8 @@ function renderStatusPage() {
   // content
   if (currentHash == "status")
     renderCountriesStatusPage();
+  else if (currentHash == "status:coverage")
+    renderCoverageStatusPage();
   else if (currentHash == "status:companies")
     renderCompaniesStatusPage();
   else if (currentHash == "status:models")
@@ -1721,6 +1724,113 @@ function getEvDetailednessSpan(dataset) {
     span.classList.add("medium");
   }
   return span;
+}
+
+function getCoverageData() {
+  // Check which years are complete
+  let lastCompleteYear = 0;
+  for (let j = db.datasets.length - 1; j >= 0; j--) {
+    const dataset = db.datasets[j];
+    if (dataset.country != db.countries.ROTW)
+      continue;
+    if (dataset.month != 12)
+      continue;
+    lastCompleteYear = dataset.year;
+    break;
+  }
+  // Collect sales numbers
+  let data = {};
+  for (const i in db.datasets) {
+    const dataset = db.datasets[i];
+    let key;
+    if (dataset.year <= lastCompleteYear)
+      key = dataset.year;
+    else
+      key = dataset.monthString;
+    if (!data[key]) {
+      data[key] = {};
+      data[key].isComplete = false;
+      data[key].allCarsTotal = 0;
+      data[key].allCarsByCountry = 0;
+      data[key].allCarsByBrand = 0;
+      data[key].electricCarsTotal = 0;
+      data[key].electricCarsByCountry = 0;
+      data[key].electricCarsByBrand = 0;
+      data[key].electricCarsByModel = 0;
+    }
+    for (const dataKey in dataset.data) {
+      const value = dataset.data[dataKey];
+      if (dataset.isEvs) {
+        data[key].electricCarsTotal += value;
+        if (dataset.country != db.countries.ROTW)
+          data[key].electricCarsByCountry += value;
+        else
+          data[key].isComplete = true;
+        if (dataset.dsType == db.dsTypes.ElectricCarsByBrand)
+          data[key].electricCarsByBrand += value;
+        else if (dataset.dsType == db.dsTypes.ElectricCarsByModel) {
+          data[key].electricCarsByBrand += value;
+          data[key].electricCarsByModel += value;
+        }
+      } else {
+        data[key].allCarsTotal += value;
+        if (dataset.country != db.countries.ROTW)
+          data[key].allCarsByCountry += value;
+        if (dataset.dsType == db.dsTypes.AllCarsByBrand)
+          data[key].allCarsByBrand += value;
+      }
+    }
+  }
+  return data;
+}
+
+function renderCoverageStatusPage() {
+  const data = getCoverageData();
+  const table = newChildNode(dynamicContent, "TABLE");
+  table.classList.add("coverageStatus");
+  // Table head
+  {
+    const tr = newChildNode(table, "TR");
+    {
+      const th = newChildNode(tr, "TH", "Year/Month");
+      th.rowSpan = 2;
+    }
+    {
+      const th = newChildNode(tr, "TH", "All Cars");
+      th.colSpan = 2;
+    }
+    {
+      const th = newChildNode(tr, "TH", "Electric Cars");
+      th.colSpan = 3;
+    }
+  }
+  renderStatusTableHeader(table, ["By Country", "By Brand", "By Country", "By Brand", "By Model"]);
+  // Table body
+  let keys = Object.keys(data);
+  keys.sort();
+  for (const i in keys) {
+    const key = keys[i];
+    const entry = data[key];
+    const tr = newChildNode(table, "TR");
+    newChildNode(tr, "TD", key);
+    renderCoverageStatusPageTd(tr, entry, entry.allCarsByCountry / entry.allCarsTotal * 100);
+    renderCoverageStatusPageTd(tr, entry, entry.allCarsByBrand / entry.allCarsTotal * 100);
+    renderCoverageStatusPageTd(tr, entry, entry.electricCarsByCountry / entry.electricCarsTotal * 100);
+    renderCoverageStatusPageTd(tr, entry, entry.electricCarsByBrand / entry.electricCarsTotal * 100);
+    renderCoverageStatusPageTd(tr, entry, entry.electricCarsByModel / entry.electricCarsTotal * 100);
+  }
+}
+
+function renderCoverageStatusPageTd(tr, entry, value) {
+  const td = newChildNode(tr, "TD");
+  if (entry.isComplete) {
+    td.appendChild(document.createTextNode(value.toFixed(1).toLocaleString() + " %"));
+    td.style.textAlign = "right";
+  } else {
+    td.appendChild(document.createTextNode("–"));
+    td.classList.add("NA");
+    td.title = "Rest of the World is missing";
+  }
 }
 
 function renderCompaniesStatusPage() {
