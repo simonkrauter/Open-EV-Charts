@@ -1419,6 +1419,9 @@ var db = {
         usedDatasetTypes.push(dataset.dsType);
     }
 
+    if (this.isTimeXProperty(chartConfig))
+      categories.sort(); // provisional, needed for next processing steps and hints
+
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
     this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
@@ -1498,7 +1501,6 @@ var db = {
       return;
     if (categories.length == 0)
       return;
-    categories.sort();
     const timeSpan = categories[categories.length - 1];
 
     // Check if the end of the time span is more than 15 days ago
@@ -1543,7 +1545,6 @@ var db = {
       return;
     if (categories.length == 0)
       return;
-    categories.sort();
     const timeSpan = categories[categories.length - 1];
 
     // check if all countries are included
@@ -1641,8 +1642,6 @@ var db = {
 
     // incomplete year or quarter
     if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
-      if (this.isTimeXProperty(chartConfig))
-        categories.sort();
       const currentYear = this.currentDate.getFullYear();
       const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
       let expectedNumberOfMonth;
@@ -1679,7 +1678,6 @@ var db = {
 
     // missing month/quarter/year
     if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && (this.isCombinedCountry(chartConfig) || chartConfig.view == this.views.barChart)) {
-      categories.sort();
       const currentYear = this.currentDate.getFullYear();
       for (const i in categories) {
         const timeSpan = categories[i];
