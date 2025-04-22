@@ -1433,6 +1433,7 @@ var db = {
 
     this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
     this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+    this.removeIncompleteGlobalData(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
 
     let hints = [];
     if (withHints)
@@ -1573,6 +1574,35 @@ var db = {
       delete seriesRows[seriesName][timeSpan];
     }
     categories.pop();
+  },
+
+  removeIncompleteGlobalData: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
+    if (!this.isGlobalCountry(chartConfig))
+      return;
+    if (!this.isTimeXProperty(chartConfig))
+      return;
+    const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.rotwCoutryName];
+    let firstIncomplete = -1;
+    for (const i in categories) {
+      const timeSpan = categories[i];
+      if (monthsPerTimeSpan[timeSpan] === undefined) {
+        firstIncomplete = i;
+        break;
+      }
+      if (this.isByQuarter(chartConfig) && monthsPerTimeSpan[timeSpan].length != 3) {
+        firstIncomplete = i;
+        break;
+      }
+      if (this.isByYear(chartConfig) && monthsPerTimeSpan[timeSpan].length != 12) {
+        firstIncomplete = i;
+        break;
+      }
+    }
+    if (firstIncomplete != -1) {
+      for (let i = categories.length - 1; i >= firstIncomplete; i--) {
+        delete categories[i];
+      }
+    }
   },
 
   getHints: function(chartConfig, sources, categories, monthsPerCountryAndTimeSpan, gapDetectionData, monthsInRange, nonMonthlyCountries, usedDatasetTypes) {
