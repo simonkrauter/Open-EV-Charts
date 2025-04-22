@@ -54,6 +54,8 @@ const countryNamesByCode =
 , "CN/DE": "China / Germany"
 , "US/EU": "United States / Europe"
 , "JP/EU": "Japan / Europe"
+// Special entries without flag:
+, "ROTW": "Rest of the World"
 };
 
 const additionalCountrySearchTextByCode =

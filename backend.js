@@ -20,13 +20,15 @@ var db = {
   // Name => ID
 
   countriesWithData: [],
-  // List of IDs
+  // List of IDs, does not include ROTW
 
   countriesForOptions: {},
   // Code => Name of countries with data
 
   countriesForOptionsAlphabetic: {},
   // Code => Name of countries with data, sorted alphabetic
+
+  rotwCoutryName: countryNamesByCode["ROTW"],
 
   dsTypes:
   { "AllCarsByBrand": 1
@@ -94,7 +96,7 @@ var db = {
     //                object of brand -> number of sales or
     //                object of model -> number of sales
 
-    if (!this.countriesWithData.includes(country))
+    if (country != this.countries.ROTW && !this.countriesWithData.includes(country))
       this.countriesWithData.push(country);
 
     let dataset =
@@ -375,6 +377,10 @@ var db = {
 
   isSingleOrCombinedCountry: function(chartConfig) {
     return !this.isMultiCountry(chartConfig) || this.isCombinedCountry(chartConfig);
+  },
+
+  isGlobalCountry: function(chartConfig) {
+    return this.isAllCountries(chartConfig) && this.isCombinedCountry(chartConfig);
   },
 
   getCountries: function(chartConfig) {
@@ -1376,9 +1382,12 @@ var db = {
 
         // set seriesName
         let seriesName = defaultSeriesName;
-        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country)
-          seriesName = dataset.countryName;
-        else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
+        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country) {
+          if (dataset.country == this.countries.ROTW)
+            seriesName = "other";
+          else
+            seriesName = dataset.countryName;
+        } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
           if (chartConfig.detailLevel == this.detailLevels.company && filterCompanies.length != 1)
             seriesName = company;
           else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrands.length != 1)
@@ -1784,6 +1793,8 @@ var db = {
     let count = 0;
     for (const i in categories) {
       const category = categories[i];
+      if (category == this.rotwCoutryName)
+        continue;
       processedCategories.push(category);
       count++;
       if (count == maxSeriesOption.count && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)

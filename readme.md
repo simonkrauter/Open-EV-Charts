@@ -8,9 +8,7 @@ Online version: https://open-ev-charts.org/
 Data Status
 -----------
 
-Currently, Open EV Charts includes data from 22 countries.
-
-The yearly total EV numbers from 2019 to 2024 cover over 90 % of worldside sales.
+Currently, Open EV Charts includes data from 22 countries, complemented by global sales data.
 
 For more details, see the [Status page](https://open-ev-charts.org/#status).
 
