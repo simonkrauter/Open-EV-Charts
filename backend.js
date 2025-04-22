@@ -1687,14 +1687,14 @@ var db = {
     let nonGlobalTimeSpans = [];
     if (this.isAllCountries(chartConfig)) {
       const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[this.rotwCoutryName];
-      if (this.isTimeXProperty(chartConfig)) {
+      if (monthsPerTimeSpan && this.isTimeXProperty(chartConfig)) {
         for (const i in chartData.categories) {
           const timeSpan = chartData.categories[i];
           if (monthsPerTimeSpan[timeSpan] === undefined)
             nonGlobalTimeSpans.push(timeSpan);
         }
       }
-      if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+      if (monthsPerTimeSpan && this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
         const currentYear = this.currentDate.getFullYear();
         const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
         let expectedNumberOfMonth;
