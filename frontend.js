@@ -135,14 +135,6 @@ function renderCharts() {
 
   chartsDiv.innerHTML = "";
 
-  if (!isSingleChart) {
-    const params = db.getChartParams(chartSetConfig);
-    if (chartSetConfig.view != params.view.defaultOption) {
-      renderChartTitle(chartsDiv, chartSetConfig, true);
-      renderChartTabButtons(chartsDiv);
-    }
-  }
-
   renderMultiChartsHint();
 
   for (const chartIndex in chartConfigs) {
@@ -569,7 +561,7 @@ function renderChart(chartIndex) {
   const hasData = chartData.series.length > 0;
 
   let chartDiv;
-  if (isSingleChart || !hasData || ![db.views.barChart, db.views.lineChart].includes(chartConfig.view))
+  if (isSingleChart || !hasData)
     chartDiv = document.createElement("DIV");
   else {
     chartDiv = createLink(db.encodeChartConfig(originalChartConfig));
@@ -587,12 +579,14 @@ function renderChart(chartIndex) {
   renderChartTitle(chartDiv, originalChartConfig, isSingleChart);
   renderChartSubTitle(chartDiv, chartConfig);
 
-  if (isSingleChart)
-    renderChartTabButtons(chartDiv);
-
   if (hasData) {
-    if (isSingleChart && chartConfig.view != db.views.sources)
-      renderHints(chartDiv, chartConfig, chartData);
+    if (isSingleChart) {
+      renderChartTabButtons(chartDiv);
+      if (chartConfig.view != db.views.sources)
+        renderHints(chartDiv, chartConfig, chartData);
+    }
+    if (!isSingleChart && ![db.views.barChart, db.views.lineChart].includes(chartConfig.view))
+      chartConfig.view = params.view.defaultOption;
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
       if (chartConfig != originalChartConfig)
