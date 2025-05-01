@@ -590,7 +590,6 @@ a.screenshotModeButtonUnderChart {
 }
 
 textarea.export {
-  display: block;
   width: 550px;
   height: 250px;
   font-size: 80%;

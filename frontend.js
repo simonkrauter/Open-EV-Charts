@@ -1123,7 +1123,8 @@ function renderTableExportButton(chartDiv, table, format) {
 function renderTableExport(chartDiv, table) {
   if (currentExportFormat == null)
     return;
-  const textarea = newChildNode(chartDiv, "TEXTAREA");
+  const div = newChildNode(chartDiv, "DIV");
+  const textarea = newChildNode(div, "TEXTAREA");
   textarea.classList.add("export");
   const rows = table.childNodes;
   if (currentExportFormat == "CSV")
