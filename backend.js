@@ -1684,7 +1684,7 @@ var db = {
   addHints_incompleteData: function(chartConfig, chartData) {
     // incomplete global data
     let nonGlobalTimeSpans = [];
-    if (this.isAllCountries(chartConfig)) {
+    if (this.isAllCountries(chartConfig) && (this.hasOtherSeries(chartConfig) || this.hasTotalSeries(chartConfig, chartData))) {
       const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[this.rotwCoutryName];
       if (monthsPerTimeSpan && this.isTimeXProperty(chartConfig)) {
         for (const i in chartData.categories) {
