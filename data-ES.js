@@ -6699,8 +6699,9 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 24
 , "Audi|Q6 e-tron": 23
 , "BMW|i4": 22
-, "Mercedes-Benz|EQS": 21
+, "Mercedes-Benz|EQS": 22
 , "Nissan|Ariya": 21
+, "Audi|A6 e-tron": 19
 , "Smart|Hashtag 1": 19
 , "Fiat|500e": 18
 , "Toyota|bZ4X": 18
@@ -6709,10 +6710,11 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|4": 16
 , "Volvo|other": 27
 , "BMW|other": 24
-, "Audi|other": 20
+, "Audi|other": 23
+, "Mercedes-Benz|other": 22
+, "Xpeng|other": 21
 , "Polestar|other": 18
 , "Peugeot|other": 17
-, "Mercedes-Benz|other": 15
 , "Smart|other": 15
 , "BYD|other": 14
 , "Opel|other": 14
@@ -6723,6 +6725,5 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 9
 , "Volkswagen|other": 9
 , "Hyundai|other": 7
-, "Xpeng|other": 7
-, "other": 251
+, "other": 207
 });
