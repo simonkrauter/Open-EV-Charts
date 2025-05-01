@@ -2090,12 +2090,28 @@ var db = {
     return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
+  hasTotalSeries: function(chartConfig, chartData) {
+    if (Object.keys(chartData.seriesRows).length <= 1)
+      return false;
+    if (chartConfig.view == this.views.barChart)
+      return false;
+    return [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric);
+  },
+
+  hasOtherSeries: function(chartConfig) {
+    if (chartConfig.view == this.views.lineChart)
+      return false;
+    if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand)
+      return false;
+    return chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country";
+  },
+
   postProcessChartSeries: function(chartConfig, chartData) {
     // Creates the final data series
 
     const extendedCategoriesCount = this.getExtendedCategoriesCount(chartConfig, chartData);
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
-    const hasTotalSeries = Object.keys(chartData.seriesRows).length > 1 && chartConfig.view != this.views.barChart && [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric);
+    const addTotalSeries = this.hasTotalSeries(chartConfig, chartData);
 
     // Create series (entries of 'data' will be inserted in the order of 'chartData.categories')
     let processedSeries = [];
@@ -2121,7 +2137,7 @@ var db = {
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
-          if (hasTotalSeries) {
+          if (addTotalSeries) {
             if (categoryIndex in totalSeries.data)
               totalSeries.data[categoryIndex] += value;
             else
@@ -2149,7 +2165,7 @@ var db = {
       seriesByName[seriesName] = newSeries;
     }
 
-    if (hasTotalSeries)
+    if (addTotalSeries)
       processedSeries.push(totalSeries);
 
     // Add series to array in sorted order
@@ -2180,7 +2196,7 @@ var db = {
       }
     }
 
-    if (chartConfig.view != this.views.lineChart && otherSeries.data.length > 0 && chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand && (chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country"))
+    if (this.hasOtherSeries(chartConfig) && otherSeries.data.length > 0)
       processedSeries.push(otherSeries);
 
     // Store metric in data series
