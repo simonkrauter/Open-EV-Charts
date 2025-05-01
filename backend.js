@@ -795,7 +795,7 @@ var db = {
       return timeSpan.substr(1, 4);
     if (timeSpan.endsWith("y") && Number.isInteger(Number.parseInt(timeSpan[0]))) {
       if (timeSpan[0] == "1")
-        return "Last Year";
+        return "Last 12 Months";
       else
         return "Last " + timeSpan[0] + " Years";
     }
