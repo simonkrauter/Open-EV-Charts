@@ -6805,3 +6805,79 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 4
 , "other": 103
 });
+
+db.insert(db.countries.ES, "2025-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2025.pdf",
+{ "other": 116725
+});
+
+db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2025.pdf",
+{ "Tesla|Model 3": 1391
+, "Renault|5 E-Tech": 696
+, "Tesla|Model Y": 589
+, "Kia|EV3": 444
+, "Cupra|Tavascan": 260
+, "BYD|Yuan Plus": 227
+, "Mini|Cooper SE": 217
+, "BYD|Dolphin": 211
+, "BMW|iX1": 188
+, "Citroën|ë-C3": 166
+, "Toyota|bZ4X": 158
+, "Mercedes-Benz|EQA": 153
+, "Peugeot|e-2008": 153
+, "BMW|iX2": 143
+, "Hyundai|Inster": 122
+, "Opel|Mokka-e": 118
+, "Porsche|Macan Electric": 112
+, "Nissan|Ariya": 104
+, "Volvo|EX30": 104
+, "BYD|Sealion 7": 98
+, "Ford|Explorer EV": 96
+, "Mercedes-Benz|EQE": 95
+, "Jeep|Avenger EV": 90
+, "Renault|Scénic E-Tech": 89
+, "Audi|Q4 e-tron": 88
+, "BYD|Song Plus": 84
+, "BYD|Seal": 82
+, "Cupra|Born": 81
+, "Peugeot|e-208": 79
+, "Dacia|Spring": 77
+, "Hyundai|Kona Electric": 77
+, "Volkswagen|ID.4": 66
+, "Mercedes-Benz|EQB": 65
+, "BMW|i4": 64
+, "Kia|Niro EV": 63
+, "BYD|Yuan Up": 59
+, "Citroën|ë-C4": 52
+, "Hyundai|Ioniq 5": 50
+, "Volkswagen|ID.3": 50
+, "Škoda|Elroq": 50
+, "Ford|Capri EV": 49
+, "MG|MG4 EV": 42
+, "Volkswagen|ID.7": 37
+, "Audi|A6 e-tron": 35
+, "Audi|Q6 e-tron": 34
+, "Xpeng|G6": 32
+, "Peugeot|E-3008": 30
+, "Volvo|EX40": 30
+, "Peugeot|E-5008": 29
+, "Ford|Mustang Mach-E": 28
+, "Nissan|Leaf": 28
+, "Mercedes-Benz|other": 67
+, "Polestar|other": 52
+, "Kia|other": 35
+, "Fiat|other": 33
+, "Smart|other": 28
+, "Škoda|other": 24
+, "BMW|other": 23
+, "Opel|other": 23
+, "Porsche|other": 22
+, "Renault|other": 20
+, "Volvo|other": 17
+, "MG|other": 13
+, "Xpeng|other": 10
+, "BYD|other": 7
+, "Honda|other": 6
+, "Peugeot|other": 6
+, "Volkswagen|other": 6
+, "other": 224
+});
