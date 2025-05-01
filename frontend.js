@@ -1365,12 +1365,17 @@ function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
 
 function renderTableValueCell(metric, row, val, yAxisMax) {
   if (val == null && val !== 0) {
-    const cell = newChildNode(row, "TD", "NA");
-    cell.classList.add("NA");
+    renderTableNoValueCell(row);
   } else {
     const cell = newChildNode(row, "TD", formatValue(metric, val, yAxisMax, FormatValueContext.Table));
     cell.style.textAlign = "right";
   }
+}
+
+function renderTableNoValueCell(tr) {
+  const td = newChildNode(tr, "TD", "–");
+  td.classList.add("NA");
+  return td;
 }
 
 function addThSortClickEvent(chartConfig, cell, columnIndex) {
@@ -1824,13 +1829,11 @@ function renderCoverageStatusPage() {
 }
 
 function renderCoverageStatusPageTd(tr, entry, value) {
-  const td = newChildNode(tr, "TD");
   if (entry.isComplete) {
-    td.appendChild(document.createTextNode(value.toFixed(1).toLocaleString() + " %"));
+    const td = newChildNode(tr, "TD", value.toFixed(1).toLocaleString() + " %");
     td.style.textAlign = "right";
   } else {
-    td.appendChild(document.createTextNode("–"));
-    td.classList.add("NA");
+    const td = renderTableNoValueCell(tr);
     td.title = "Rest of the World is missing";
   }
 }
