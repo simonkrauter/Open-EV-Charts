@@ -355,6 +355,11 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
     if (param.allowMultiSelection) {
       const checkboxContainer = newChildNode(optionNode, "span");
       checkboxContainer.addEventListener("click", function(event) {
+        event.preventDefault();
+        if (!optionNode.classList.contains("disabled")) {
+          paramOptionClickHandler(param, optionKey, true, true);
+          updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
+        }
         event.stopPropagation();
       });
       const checkbox = newChildNode(checkboxContainer, "INPUT");
