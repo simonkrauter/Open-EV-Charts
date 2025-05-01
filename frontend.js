@@ -590,13 +590,8 @@ function renderChart(chartIndex) {
   if (isSingleChart)
     renderChartTabButtons(chartDiv);
 
-  if (!hasData) {
-    const div = newChildNode(chartDiv, "DIV", "No data available");
-    div.classList.add("noData");
-    const chartSize = getChartSize();
-    div.style.width = chartSize[0] + "px";
-  } else {
-    if (isSingleChart && chartConfig.view != db.views.sources && !isScreenshotModeEnabled)
+  if (hasData) {
+    if (isSingleChart && chartConfig.view != db.views.sources)
       renderHints(chartDiv, chartConfig, chartData);
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
       renderChartView(chartConfig, chartData, chartDiv, false);
@@ -606,18 +601,16 @@ function renderChart(chartIndex) {
       renderTable(chartConfig, chartDiv, chartData);
     else if (chartConfig.view == db.views.sources)
       renderSources(chartConfig, chartDiv, chartData);
-
-    if (chartConfig.view != db.views.sources && isSingleChart && !isScreenshotModeEnabled)
-      addScreenshotModeButton(chartConfig, chartDiv);
+    if (isSingleChart && chartConfig.view != db.views.sources)
+      renderScreenshotModeButton(chartConfig, chartDiv);
+  } else {
+    const div = newChildNode(chartDiv, "DIV", "No data available");
+    div.classList.add("noData");
+    const chartSize = getChartSize();
+    div.style.width = chartSize[0] + "px";
   }
 
-  if (isScreenshotModeEnabled) {
-    let url = location.href;
-    if (url.startsWith("https://"))
-      url = url.substr(8);
-    const div = newChildNode(chartDiv, "DIV", "Source: " + url);
-    div.classList.add("sourceUrl");
-  }
+  renderScreenshotModeUrl(chartDiv);
 }
 
 function renderChartTitle3dFrames(chartDiv) {
@@ -678,54 +671,56 @@ function renderChartTabButtons(chartDiv) {
 }
 
 function renderHints(chartDiv, chartConfig, chartData) {
-  if (chartData.hints.length > 0) {
-    hintsDiv = newChildNode(chartDiv, "DIV");
-    hintsDiv.classList.add("hints");
-    if (chartData.hints.length == 1) {
-      hintsDiv.appendChild(document.createTextNode("Hint: "));
+  if (isScreenshotModeEnabled)
+    return;
+  if (chartData.hints.length == 0)
+    return;
+  hintsDiv = newChildNode(chartDiv, "DIV");
+  hintsDiv.classList.add("hints");
+  if (chartData.hints.length == 1) {
+    hintsDiv.appendChild(document.createTextNode("Hint: "));
+  } else {
+    hintsDiv.appendChild(document.createTextNode("Hints: "));
+    hintsDiv.appendChild(document.createElement("BR"));
+  }
+  for (const i in chartData.hints) {
+    const span = newChildNode(hintsDiv, "SPAN");
+    span.innerHTML = chartData.hints[i];
+    hintsDiv.appendChild(document.createElement("BR"));
+  }
+  // collapse hints
+  if (hintsDiv.offsetHeight > maxHintsHeight) {
+    // expand button
+    let expandHintsButton = createLink();
+    expandHintsButton.classList.add("expand");
+    expandHintsButton.appendChild(document.createElement("DIV"));
+    expandHintsButton.title = "Expand Hints";
+    expandHintsButton.addEventListener("click", function() {
+      event.preventDefault();
+      hintsDiv.style.maxHeight = "";
+      expandHintsButton.style.display = "none";
+      collapseHintsButton.style.display = "";
+      isHintsDivExpanded = true;
+    });
+    hintsDiv.appendChild(expandHintsButton);
+    // collapse button
+    let collapseHintsButton = createLink();
+    collapseHintsButton.classList.add("collapse");
+    collapseHintsButton.appendChild(document.createElement("DIV"));
+    collapseHintsButton.title = "Collapse Hints";
+    collapseHintsButton.addEventListener("click", function() {
+      event.preventDefault();
+      hintsDiv.style.maxHeight = maxHintsHeight + "px";
+      collapseHintsButton.style.display = "none";
+      expandHintsButton.style.display = "";
+      isHintsDivExpanded = false;
+    });
+    hintsDiv.appendChild(collapseHintsButton);
+    if (isHintsDivExpanded) {
+      expandHintsButton.style.display = "none";
     } else {
-      hintsDiv.appendChild(document.createTextNode("Hints: "));
-      hintsDiv.appendChild(document.createElement("BR"));
-    }
-    for (const i in chartData.hints) {
-      const span = newChildNode(hintsDiv, "SPAN");
-      span.innerHTML = chartData.hints[i];
-      hintsDiv.appendChild(document.createElement("BR"));
-    }
-    // collapse hints
-    if (hintsDiv.offsetHeight > maxHintsHeight) {
-      // expand button
-      let expandHintsButton = createLink();
-      expandHintsButton.classList.add("expand");
-      expandHintsButton.appendChild(document.createElement("DIV"));
-      expandHintsButton.title = "Expand Hints";
-      expandHintsButton.addEventListener("click", function() {
-        event.preventDefault();
-        hintsDiv.style.maxHeight = "";
-        expandHintsButton.style.display = "none";
-        collapseHintsButton.style.display = "";
-        isHintsDivExpanded = true;
-      });
-      hintsDiv.appendChild(expandHintsButton);
-      // collapse button
-      let collapseHintsButton = createLink();
-      collapseHintsButton.classList.add("collapse");
-      collapseHintsButton.appendChild(document.createElement("DIV"));
-      collapseHintsButton.title = "Collapse Hints";
-      collapseHintsButton.addEventListener("click", function() {
-        event.preventDefault();
-        hintsDiv.style.maxHeight = maxHintsHeight + "px";
-        collapseHintsButton.style.display = "none";
-        expandHintsButton.style.display = "";
-        isHintsDivExpanded = false;
-      });
-      hintsDiv.appendChild(collapseHintsButton);
-      if (isHintsDivExpanded) {
-        expandHintsButton.style.display = "none";
-      } else {
-        collapseHintsButton.style.display = "none";
-        hintsDiv.style.maxHeight = maxHintsHeight + "px";
-      }
+      collapseHintsButton.style.display = "none";
+      hintsDiv.style.maxHeight = maxHintsHeight + "px";
     }
   }
 }
@@ -1031,7 +1026,9 @@ function getMaxVisibleCharts() {
   return Math.max(xCount * yCount, 4);
 }
 
-function addScreenshotModeButton(chartConfig, parent) {
+function renderScreenshotModeButton(chartConfig, parent) {
+  if (isScreenshotModeEnabled)
+    return;
   const button = createLink();
   button.appendChild(document.createTextNode("Screenshot Mode"));
   button.classList.add("bottomTools");
@@ -1043,6 +1040,16 @@ function addScreenshotModeButton(chartConfig, parent) {
     renderPage();
   });
   parent.appendChild(button);
+}
+
+function renderScreenshotModeUrl(parent) {
+  if (!isScreenshotModeEnabled)
+    return;
+  let url = location.href;
+  if (url.startsWith("https://"))
+    url = url.substr(8);
+  const div = newChildNode(parent, "DIV", "Source: " + url);
+  div.classList.add("sourceUrl");
 }
 
 function getChartSeriesColors(chartConfig, chartData) {
