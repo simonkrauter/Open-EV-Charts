@@ -338,12 +338,12 @@ function renderDropdownContent(param, dropdown) {
     });
   }
 
-  renderDropdownOptions(param, dropdown, currentValueDiv, overlay);
+  renderDropdownOptions(param, overlay);
 
-  updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
+  updateDropdownState(param.name);
 }
 
-function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
+function renderDropdownOptions(param, overlay) {
   const selectedKey = chartSetConfig[param.name];
   const selectedKeys = selectedKey.split(",");
   for (const optionKey in param.allOptions) {
@@ -356,10 +356,8 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
       const checkboxContainer = newChildNode(optionNode, "span");
       checkboxContainer.addEventListener("click", function(event) {
         event.preventDefault();
-        if (!optionNode.classList.contains("disabled")) {
+        if (!optionNode.classList.contains("disabled"))
           paramOptionClickHandler(param, optionKey, true, true);
-          updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
-        }
         event.stopPropagation();
       });
       const checkbox = newChildNode(checkboxContainer, "INPUT");
@@ -368,7 +366,6 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
       checkbox.checked = selected;
       checkbox.addEventListener("click", function(event) {
         paramOptionClickHandler(param, optionKey, true, true);
-        updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
         event.stopPropagation();
       });
       checkbox.tabIndex = -1;
@@ -392,17 +389,20 @@ function renderDropdownOptions(param, dropdown, currentValueDiv, overlay) {
         event.preventDefault();
         if (optionNode.classList.contains("disabled"))
           return;
-        if (param.allowMultiSelection && event.keyCode == 32) {
+        if (param.allowMultiSelection && event.keyCode == 32)
           paramOptionClickHandler(param, optionKey, true, true);
-          updateDropdownState(param.name, dropdown, currentValueDiv, overlay);
-        } else
+        else
           paramOptionClickHandler(param, optionKey);
       }
     });
   }
 }
 
-function updateDropdownState(paramName, dropdown, currentValueDiv, overlay) {
+function updateDropdownState(paramName) {
+  const dropdown = document.getElementById(paramName);
+  const currentValueDiv = dropdown.firstChild;
+  const overlay = dropdown.childNodes[1];
+
   const params = db.getChartParams(chartSetConfig);
   const param = params[paramName];
   const selectedKey = chartSetConfig[param.name];
@@ -547,6 +547,10 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   db.applyNewDefaultOptions(newChartConfig, chartSetConfig);
   chartSetConfig = newChartConfig;
   navigateToHash(db.encodeChartConfig(chartSetConfig), renderOnlyCharts);
+
+  // Update dropdown state
+  if (renderOnlyCharts)
+    updateDropdownState(param.name);
 
   // Focus the dropdown again
   if (!renderOnlyCharts) {
