@@ -1160,3 +1160,73 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQE": 3
 , "other": 50
 });
+
+db.insert(db.countries.AU, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-march-2025-ford-ranger-back-on-top-as-most-popular-new-model/",
+{ "Toyota": 20541
+, "Ford": 8232
+, "Mazda": 8000
+, "Kia": 7307
+, "Mitsubishi": 7265
+, "Hyundai": 6813
+, "BYD": 4811
+, "GWM": 4393
+, "Nissan": 4079
+, "MG": 3926
+, "Tesla": 2829
+, "other": 33421
+});
+
+db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/04/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
+{ "Tesla|Model Y": 1725
+, "Tesla|Model 3": 1104
+, "BYD|Sealion 7": 573
+, "Kia|EV5": 478
+, "MG|MG4 EV": 444
+, "BYD|Yuan Plus": 358
+, "Mercedes-Benz|EQE SUV": 219
+, "BYD|Seal": 194
+, "Kia|EV3": 186
+, "Volvo|EX30": 174
+, "Volkswagen|ID.4": 107
+, "BMW|i4": 106
+, "Polestar|4": 101
+, "Audi|Q4 e-tron": 97
+, "Mercedes-Benz|EQA": 97
+, "MG|ZS EV": 90
+, "BYD|Dolphin": 86
+, "Zeekr|X": 81
+, "Hyundai|Ioniq 5": 79
+, "Mini|Cooper SE": 78
+, "Cupra|Born": 69
+, "Polestar|2": 68
+, "Hyundai|Kona Electric": 67
+, "Toyota|bZ4X": 64
+, "Kia|EV6": 63
+, "Volkswagen|ID.5": 59
+, "Mercedes-Benz|EQB": 54
+, "GWM|Ora 03": 51
+, "Volvo|EX40": 48
+, "Kia|Niro EV": 42
+, "Kia|EV9": 40
+, "BMW|iX": 38
+, "Renault|Megane E-Tech": 36
+, "Volkswagen|ID. Buzz": 35
+, "Volvo|EC40": 34
+, "Audi|Q6 e-tron": 32
+, "Ford|Mustang Mach-E": 32
+, "Škoda|Enyaq": 31
+, "Nissan|Leaf": 27
+, "Porsche|Taycan": 24
+, "Hyundai|Ioniq 6": 21
+, "Subaru|Solterra": 19
+, "Polestar|3": 13
+, "Cupra|Tavascan": 9
+, "Volvo|EX90": 9
+, "Hyundai|Inster": 7
+, "Audi|Q8 e-tron": 6
+, "Jeep|Avenger EV": 5
+, "MG|Cyberster": 5
+, "BMW|i7": 4
+, "Mercedes-Benz|EQV": 4
+, "other": 358
+});
