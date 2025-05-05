@@ -7237,8 +7237,8 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 37
 , "MG|other": 36
 , "BMW|other": 26
+, "Mercedes-Benz|other": 25
 , "Hyundai|other": 24
-, "Mercedes-Benz|other": 24
 , "Porsche|other": 22
 , "Nio|other": 21
 , "Fiat|other": 20
@@ -7247,7 +7247,7 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 14
 , "Cupra|other": 11
 , "BYD|other": 7
-, "other": 55
+, "other": 54
 });
 
 db.insert(db.countries.NL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/oktober/",
@@ -7351,7 +7351,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 57
 , "Audi|other": 45
 , "Zeekr|other": 43
-, "Mercedes-Benz|other": 41
+, "Mercedes-Benz|other": 42
 , "Renault|other": 41
 , "Kia|other": 30
 , "Opel|other": 27
@@ -7364,7 +7364,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 11
 , "Volvo|other": 9
 , "Subaru|other": 7
-, "other": 112
+, "other": 111
 });
 
 db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/november/",
@@ -7805,7 +7805,7 @@ db.insert(db.countries.NL, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Elroq": 56
 , "Volvo|EC40": 55
 , "BYD|Song Plus": 54
-, "Audi|A6 e-tron": 52
+, "Audi|A6 e-tron": 53
 , "Ford|Mustang Mach-E": 50
 , "Kia|EV9": 50
 , "BYD|other": 81
@@ -7829,5 +7829,5 @@ db.insert(db.countries.NL, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 13
 , "Nio|other": 12
 , "Tesla|other": 9
-, "other": 200
+, "other": 199
 });
