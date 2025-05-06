@@ -5838,7 +5838,7 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 146
 });
 
-db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2944/February_2025.xlsx",
 { "Toyota": 731
 , "Volkswagen": 494
 , "Volvo": 455
