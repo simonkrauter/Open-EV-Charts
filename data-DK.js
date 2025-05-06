@@ -3636,7 +3636,7 @@ db.insert(db.countries.DK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Volkswagen|ID.4": 730
 , "Volkswagen|ID. Buzz": 485
 , "Volkswagen|ID.3": 472
-, "Škoda|Enyaq": 446
+, "Škoda|Enyaq": 445
 , "Toyota|bZ4X": 400
 , "Tesla|Model Y": 371
 , "Cupra|Tavascan": 321
@@ -3687,7 +3687,7 @@ db.insert(db.countries.DK, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 43
 , "Ford|other": 25
 , "MG|other": 25
-, "Audi|other": 23
+, "Audi|other": 24
 , "Hyundai|other": 23
 , "Opel|other": 20
 , "Peugeot|other": 17
