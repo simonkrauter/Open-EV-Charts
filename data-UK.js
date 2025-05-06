@@ -4320,8 +4320,8 @@ db.insert(db.countries.UK, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 587
 , "Volkswagen|other": 532
 , "Mercedes-Benz|other": 474
+, "MG|other": 471
 , "Volvo|other": 458
-, "MG|other": 456
 , "Citroën|other": 410
 , "Tesla|other": 409
 , "Porsche|other": 356
@@ -4337,5 +4337,5 @@ db.insert(db.countries.UK, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 89
 , "Mazda|other": 80
 , "Dacia|other": 65
-, "other": 7249
+, "other": 7234
 });
