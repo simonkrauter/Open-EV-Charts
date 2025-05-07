@@ -5841,3 +5841,60 @@ db.insert(db.countries.FR, "2025-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Cupra|Born": 426
 , "other": 9482
 });
+
+db.insert(db.countries.FR, "2025-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/05/Immatriculations-VPN_Avril2025.pdf",
+{ "Renault": 26318
+, "Peugeot": 17893
+, "Dacia": 12153
+, "Toyota": 10925
+, "Citroën": 9432
+, "Volkswagen": 8662
+, "BMW": 4753
+, "Mercedes-Benz": 4505
+, "Škoda": 4334
+, "Hyundai": 4107
+, "Audi": 3373
+, "Kia": 3294
+, "Ford": 3211
+, "Opel": 2762
+, "Nissan": 2467
+, "Mini": 2253
+, "Cupra": 2230
+, "BYD": 2064
+, "Suzuki": 1839
+, "MG": 1830
+, "Seat": 1386
+, "Fiat": 1017
+, "Volvo": 979
+, "Tesla": 863
+, "Jeep": 812
+, "Mazda": 499
+, "Honda": 477
+, "Porsche": 317
+, "Xpeng": 298
+, "Mitsubishi": 130
+, "Smart": 83
+, "other": 3431
+});
+
+db.insert(db.countries.FR, "2025-04", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/05/Immatriculations-mensuelles-par-energie_Avril2025.pdf, https://cleantechnica.com/2025/05/04/evs-at-25-3-share-in-france-renault-top-two/",
+{ "Renault|5 E-Tech": 2267
+, "Citroën|ë-C3": 1551
+, "Renault|Scénic E-Tech": 1463
+, "Peugeot|e-208": 938
+, "Volkswagen|ID.3": 899
+, "Peugeot|e-2008": 670
+, "Peugeot|E-3008": 670
+, "Renault|Megane E-Tech": 637
+, "BMW|iX1": 625
+, "Kia|EV3": 551
+, "Tesla|Model Y": 541
+, "Dacia|Spring": 521
+, "Škoda|Elroq": 519
+, "BYD|Seal": 503
+, "Hyundai|Kona Electric": 455
+, "Opel|Frontera Electric": 454
+, "Volkswagen|ID.4": 435
+, "Audi|Q6 e-tron": 410
+, "other": 11433
+});
