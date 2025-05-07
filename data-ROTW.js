@@ -779,9 +779,17 @@ db.insert(db.countries.ROTW, "2025-01", db.dsTypes.ElectricCarsTotal, "https://c
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
-{ "other": 2589560
+{ "other": 2499233
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
-{ "other": 243694
+{ "other": 237582
+});
+
+db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
+{ "other": 1678008
+});
+
+db.insert(db.countries.ROTW, "2025-03", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
+{ "other": 96659
 });
