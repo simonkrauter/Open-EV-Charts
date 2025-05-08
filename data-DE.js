@@ -6623,11 +6623,11 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQA": 803
 , "Mercedes-Benz|EQE": 776
 , "Audi|Q8 e-tron": 759
+, "Volkswagen|ID.4/ID.5": 751
 , "Fiat|500e": 735
 , "Tesla|Model 3": 695
 , "Smart|Fortwo ED": 686
 , "Volkswagen|ID.3": 507
-, "Volkswagen|ID.4": 504
 , "Volvo|EX30": 494
 , "Renault|Megane E-Tech": 471
 , "Mercedes-Benz|EQB": 375
@@ -6646,7 +6646,6 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX40": 270
 , "Porsche|Taycan": 266
 , "MG|MG4 EV": 249
-, "Volkswagen|ID.5": 247
 , "Volkswagen|ID. Buzz": 222
 , "Kia|Niro EV": 218
 , "MG|MG5 EV": 205
@@ -6666,11 +6665,11 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 99
 , "Volvo|EC40": 97
 , "Mercedes-Benz|eCitan": 85
+, "Audi|e-tron GT": 82
 , "Opel|other": 159
 , "BYD|other": 139
 , "Nissan|other": 136
 , "Peugeot|other": 134
-, "Audi|other": 124
 , "Renault|other": 121
 , "Mercedes-Benz|other": 115
 , "Porsche|other": 82
@@ -6679,6 +6678,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|other": 64
 , "MG|other": 62
 , "Fiat|other": 52
+, "Audi|other": 42
 , "Kia|other": 38
 , "GWM|other": 22
 , "Nio|other": 21
@@ -8370,6 +8370,7 @@ db.insert(db.countries.DE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C3": 394
 , "Toyota|bZ4X": 369
 , "BMW|iX": 359
+, "Ford|Puma Gen-E": 321
 , "Dacia|Spring": 306
 , "Kia|EV6": 287
 , "BYD|Song Plus": 268
@@ -8385,27 +8386,26 @@ db.insert(db.countries.DE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|4": 160
 , "Mercedes-Benz|EQS": 153
 , "Mercedes-Benz|EQV": 153
-, "BYD|Seal": 144
-, "Opel|other": 352
+, "Opel|other": 353
+, "BYD|other": 347
 , "Volvo|other": 331
+, "Mercedes-Benz|other": 321
 , "Peugeot|other": 290
-, "Mercedes-Benz|other": 245
 , "Xpeng|other": 207
-, "BYD|other": 203
+, "Fiat|other": 189
+, "Renault|other": 162
 , "Audi|other": 159
-, "Renault|other": 147
 , "Polestar|other": 143
-, "Kia|other": 139
+, "Kia|other": 142
 , "Ford|other": 118
 , "Nissan|other": 114
+, "Smart|other": 108
 , "Hyundai|other": 103
 , "GWM|other": 88
-, "Smart|other": 78
 , "Citroën|other": 55
 , "BMW|other": 54
-, "Fiat|other": 42
 , "Toyota|other": 36
 , "MG|other": 33
 , "Jeep|other": 29
-, "other": 1406
+, "other": 813
 });
