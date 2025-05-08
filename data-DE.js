@@ -6615,7 +6615,7 @@ db.insert(db.countries.DE, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "other": 3109
 });
 
-db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_01.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2024/02/17/germany-ev-sales-report-back-to-the-past/",
+db.insert(db.countries.DE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2024_01.xlsx?__blob=publicationFile&v=4",
 { "Tesla|Model Y": 2393
 , "Škoda|Enyaq": 1457
 , "Audi|Q4 e-tron": 1424
