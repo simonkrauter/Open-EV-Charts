@@ -186,7 +186,7 @@ db.insert(db.countries.AU, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model Y": 9455
 , "Tesla|Model 3": 2965
 , "BYD|Yuan Plus": 2510
-, "MG|MG4 EV": 941
+, "MG|4 EV": 941
 , "Volvo|EX40": 679
 , "Polestar|2": 642
 , "Kia|EV6": 612
@@ -265,7 +265,7 @@ db.insert(db.countries.AU, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model Y": 5312
 , "Tesla|Model 3": 2807
 , "BYD|Yuan Plus": 2336
-, "MG|MG4 EV": 2193
+, "MG|4 EV": 2193
 , "BYD|Dolphin": 925
 , "Kia|EV6": 684
 , "Polestar|2": 674
@@ -326,7 +326,7 @@ db.insert(db.countries.AU, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2024-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/01/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
 { "Tesla|Model 3": 723
 , "BYD|Seal": 589
-, "MG|MG4 EV": 537
+, "MG|4 EV": 537
 , "BYD|Yuan Plus": 465
 , "Tesla|Model Y": 384
 , "BYD|Dolphin": 256
@@ -387,7 +387,7 @@ db.insert(db.countries.AU, "2024-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model Y": 2072
 , "BYD|Yuan Plus": 711
 , "BYD|Seal": 619
-, "MG|MG4 EV": 446
+, "MG|4 EV": 446
 , "BYD|Dolphin": 219
 , "Toyota|bZ4X": 208
 , "Kia|EV6": 192
@@ -446,7 +446,7 @@ db.insert(db.countries.AU, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 1638
 , "BYD|Yuan Plus": 1044
 , "BYD|Seal": 365
-, "MG|MG4 EV": 352
+, "MG|4 EV": 352
 , "BMW|iX1": 277
 , "BMW|i4": 236
 , "BYD|Dolphin": 213
@@ -506,7 +506,7 @@ db.insert(db.countries.AU, "2024-04", db.dsTypes.ElectricCarsByModel, "https://t
 { "Tesla|Model Y": 1166
 , "Tesla|Model 3": 911
 , "BYD|Seal": 811
-, "MG|MG4 EV": 476
+, "MG|4 EV": 476
 , "BYD|Yuan Plus": 418
 , "BMW|i4": 206
 , "BYD|Dolphin": 181
@@ -566,7 +566,7 @@ db.insert(db.countries.AU, "2024-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model Y": 1609
 , "BYD|Seal": 1002
 , "BYD|Yuan Plus": 737
-, "MG|MG4 EV": 565
+, "MG|4 EV": 565
 , "Volvo|EX30": 466
 , "BMW|iX1": 201
 , "BMW|i4": 198
@@ -625,7 +625,7 @@ db.insert(db.countries.AU, "2024-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Seal": 706
 , "Volvo|EX30": 420
 , "BMW|iX1": 417
-, "MG|MG4 EV": 395
+, "MG|4 EV": 395
 , "Polestar|2": 356
 , "BYD|Yuan Plus": 351
 , "BMW|i4": 316
@@ -686,7 +686,7 @@ db.insert(db.countries.AU, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Seal": 570
 , "BYD|Yuan Plus": 434
 , "Volvo|EX30": 313
-, "MG|MG4 EV": 307
+, "MG|4 EV": 307
 , "BMW|iX1": 262
 , "BYD|Dolphin": 226
 , "Mini|Cooper SE": 205
@@ -743,7 +743,7 @@ db.insert(db.countries.AU, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 1063
 , "BYD|Yuan Plus": 427
 , "BYD|Seal": 371
-, "MG|MG4 EV": 309
+, "MG|4 EV": 309
 , "Volvo|EX30": 220
 , "MG|ZS EV": 174
 , "BYD|Dolphin": 165
@@ -801,7 +801,7 @@ db.insert(db.countries.AU, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/01/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
 { "Tesla|Model Y": 1498
 , "Tesla|Model 3": 1151
-, "MG|MG4 EV": 385
+, "MG|4 EV": 385
 , "BYD|Yuan Plus": 339
 , "BMW|iX1": 323
 , "BYD|Seal": 275
@@ -860,7 +860,7 @@ db.insert(db.countries.AU, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.dr
 });
 
 db.insert(db.countries.AU, "2024-10", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/01/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
-{ "MG|MG4 EV": 1486
+{ "MG|4 EV": 1486
 , "Tesla|Model Y": 1042
 , "Tesla|Model 3": 422
 , "BYD|Yuan Plus": 330
@@ -924,7 +924,7 @@ db.insert(db.countries.AU, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2024-11", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/01/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
 { "Tesla|Model Y": 1653
 , "Tesla|Model 3": 887
-, "MG|MG4 EV": 821
+, "MG|4 EV": 821
 , "BYD|Seal": 360
 , "BYD|Yuan Plus": 267
 , "Kia|EV5": 199
@@ -985,7 +985,7 @@ db.insert(db.countries.AU, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2024-12", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/01/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2024/",
 { "Tesla|Model Y": 1861
 , "Tesla|Model 3": 1732
-, "MG|MG4 EV": 855
+, "MG|4 EV": 855
 , "BYD|Seal": 412
 , "Kia|EV5": 272
 , "BYD|Dolphin": 231
@@ -1041,7 +1041,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.dr
 
 db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/03/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025/",
 { "Tesla|Model Y": 465
-, "MG|MG4 EV": 440
+, "MG|4 EV": 440
 , "Kia|EV5": 289
 , "Tesla|Model 3": 274
 , "Mini|Cooper SE": 156
@@ -1112,7 +1112,7 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/03/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025/",
 { "Tesla|Model Y": 924
 , "Tesla|Model 3": 668
-, "MG|MG4 EV": 451
+, "MG|4 EV": 451
 , "Kia|EV5": 400
 , "BYD|Sealion 7": 157
 , "BYD|Yuan Plus": 138
@@ -1181,7 +1181,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 1104
 , "BYD|Sealion 7": 573
 , "Kia|EV5": 478
-, "MG|MG4 EV": 444
+, "MG|4 EV": 444
 , "BYD|Yuan Plus": 358
 , "Mercedes-Benz|EQE SUV": 219
 , "BYD|Seal": 194

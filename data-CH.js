@@ -6003,7 +6003,7 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 69
 , "Volvo|EX40": 63
 , "Polestar|2": 56
-, "MG|MG4 EV": 51
+, "MG|4 EV": 51
 , "Ford|Mustang Mach-E": 50
 , "Fiat|500e": 49
 , "Mercedes-Benz|EQE": 48
@@ -6798,7 +6798,7 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-3008": 14
 , "Fiat|500e": 10
 , "MG|Cyberster": 10
-, "MG|MG4 EV": 10
+, "MG|4 EV": 10
 , "Opel|Grandland Electric": 10
 , "Volkswagen|ID.5": 10
 , "Mercedes-Benz|other": 21
@@ -6895,7 +6895,7 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 40
 , "Polestar|2": 35
 , "Dacia|Spring": 34
-, "MG|MG4 EV": 30
+, "MG|4 EV": 30
 , "Mercedes-Benz|EQE": 30
 , "Hyundai|Ioniq 6": 28
 , "Hyundai|Kona Electric": 28

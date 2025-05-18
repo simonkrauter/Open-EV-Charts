@@ -2769,7 +2769,7 @@ db.insert(db.countries.AT, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i4": 131
 , "BMW|iX3": 117
 , "Audi|Q4 e-tron": 112
-, "MG|MG4 EV": 111
+, "MG|4 EV": 111
 , "BMW|iX1": 102
 , "other": 1633
 });
@@ -3035,7 +3035,7 @@ db.insert(db.countries.AT, "2023-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 162
 , "Tesla|Model 3": 138
 , "Volkswagen|ID.7": 89
-, "MG|MG4 EV": 88
+, "MG|4 EV": 88
 , "other": 1587
 });
 
@@ -3084,7 +3084,7 @@ db.insert(db.countries.AT, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 122
 , "BMW|iX1": 111
 , "Cupra|Born": 107
-, "MG|MG4 EV": 87
+, "MG|4 EV": 87
 , "Volkswagen|ID.4": 76
 , "Audi|Q8 e-tron": 74
 , "Tesla|Model 3": 70
@@ -3190,7 +3190,7 @@ db.insert(db.countries.AT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seal": 152
 , "Volkswagen|ID.4": 142
 , "Mercedes-Benz|EQE": 133
-, "MG|MG4 EV": 108
+, "MG|4 EV": 108
 , "Dacia|Spring": 98
 , "other": 2194
 });
@@ -3240,7 +3240,7 @@ db.insert(db.countries.AT, "2024-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 122
 , "BMW|iX1": 111
 , "Cupra|Born": 107
-, "MG|MG4 EV": 87
+, "MG|4 EV": 87
 , "Volkswagen|ID.4": 76
 , "Audi|Q8 e-tron": 74
 , "Tesla|Model 3": 70
@@ -3289,7 +3289,7 @@ db.insert(db.countries.AT, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model Y": 308
 , "BMW|i4": 256
 , "Tesla|Model 3": 190
-, "MG|MG4 EV": 178
+, "MG|4 EV": 178
 , "Cupra|Born": 160
 , "Audi|Q4 e-tron": 149
 , "BMW|iX1": 146
@@ -3347,7 +3347,7 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seal": 159
 , "Audi|Q4 e-tron": 153
 , "Cupra|Born": 144
-, "MG|MG4 EV": 95
+, "MG|4 EV": 95
 , "other": 2649
 });
 

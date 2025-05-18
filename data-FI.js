@@ -5060,7 +5060,7 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Tang EV": 2
 , "Citroën|ë-C4": 2
 , "Kia|Soul EV": 2
-, "MG|MG4 EV": 2
+, "MG|4 EV": 2
 , "Opel|Mokka-e": 2
 , "Tesla|Model X": 2
 , "Toyota|Proace Electric": 2

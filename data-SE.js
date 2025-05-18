@@ -3103,7 +3103,7 @@ db.insert(db.countries.SE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mini|Cooper SE": 96
 , "Porsche|Taycan": 94
 , "Volvo|EC40": 94
-, "MG|MG5 EV": 92
+, "MG|5 EV": 92
 , "BMW|iX": 90
 , "Opel|Mokka-e": 79
 , "Cupra|Born": 72
@@ -3212,7 +3212,7 @@ db.insert(db.countries.SE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Opel|Mokka-e": 13
 , "Honda|e": 11
 , "Mercedes-Benz|EQC": 11
-, "MG|MG5 EV": 10
+, "MG|5 EV": 10
 , "Toyota|Proace Electric": 9
 , "Mercedes-Benz|EQV": 7
 , "Renault|Megane E-Tech": 6
@@ -3290,7 +3290,7 @@ db.insert(db.countries.SE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|Taycan": 76
 , "Fiat|500e": 69
 , "Mazda|MX-30 BEV": 63
-, "MG|MG5 EV": 61
+, "MG|5 EV": 61
 , "Mercedes-Benz|EQB": 56
 , "Volkswagen|ID.5": 53
 , "Volvo|EC40": 50
@@ -3378,7 +3378,7 @@ db.insert(db.countries.SE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Peugeot|e-2008": 92
 , "Volkswagen|ID.5": 92
 , "Volvo|EX40": 89
-, "MG|MG5 EV": 72
+, "MG|5 EV": 72
 , "Ford|Mustang Mach-E": 68
 , "Nissan|Leaf": 68
 , "Mini|Cooper SE": 67
@@ -3445,7 +3445,7 @@ db.insert(db.countries.SE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV6": 336
 , "Škoda|Enyaq": 243
 , "Ford|Mustang Mach-E": 227
-, "MG|MG5 EV": 216
+, "MG|5 EV": 216
 , "MG|Marvel R": 157
 , "Cupra|Born": 148
 , "BMW|iX": 145
@@ -3534,7 +3534,7 @@ db.insert(db.countries.SE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV6": 379
 , "Tesla|Model Y": 244
 , "Tesla|Model 3": 214
-, "MG|MG5 EV": 189
+, "MG|5 EV": 189
 , "Peugeot|e-2008": 188
 , "Cupra|Born": 187
 , "Volkswagen|ID.5": 180
@@ -3632,7 +3632,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mazda|MX-30 BEV": 180
 , "Cupra|Born": 166
 , "MG|ZS EV": 148
-, "MG|MG5 EV": 147
+, "MG|5 EV": 147
 , "Audi|Q4 e-tron": 145
 , "Mercedes-Benz|EQB": 138
 , "Ford|Mustang Mach-E": 137
@@ -3659,7 +3659,7 @@ db.insert(db.countries.SE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Toyota|Proace City Electric": 9
 , "Porsche|Taycan": 7
 , "Toyota|Proace Electric": 7
-, "MG|MG4 EV": 6
+, "MG|4 EV": 6
 , "Citroën|ë-Berlingo Electric": 5
 , "Peugeot|e-Rifter": 4
 , "Volvo|other": 20
@@ -3724,7 +3724,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mini|Cooper SE": 191
 , "Mercedes-Benz|EQB": 176
 , "Renault|Megane E-Tech": 171
-, "MG|MG5 EV": 154
+, "MG|5 EV": 154
 , "Hyundai|Kona Electric": 135
 , "BMW|i4": 108
 , "Peugeot|e-208": 96
@@ -3747,7 +3747,7 @@ db.insert(db.countries.SE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Toyota|Proace Electric": 14
 , "Peugeot|e-2008": 13
 , "Opel|Mokka-e": 11
-, "MG|MG4 EV": 7
+, "MG|4 EV": 7
 , "Subaru|Solterra": 7
 , "Opel|Corsa-e": 5
 , "Tesla|Model 3": 5
@@ -3815,7 +3815,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Megane E-Tech": 237
 , "Audi|Q4 e-tron": 227
 , "Peugeot|e-208": 185
-, "MG|MG5 EV": 179
+, "MG|5 EV": 179
 , "Mini|Cooper SE": 179
 , "BMW|iX": 147
 , "BMW|i4": 129
@@ -3823,7 +3823,7 @@ db.insert(db.countries.SE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mazda|MX-30 BEV": 114
 , "Mercedes-Benz|EQB": 111
 , "Hyundai|Kona Electric": 102
-, "MG|MG4 EV": 102
+, "MG|4 EV": 102
 , "Volkswagen|ID. Buzz": 94
 , "Mercedes-Benz|EQE": 91
 , "BYD|Yuan Plus": 83
@@ -3906,7 +3906,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Škoda|Enyaq": 575
 , "Nissan|Leaf": 535
 , "Volkswagen|ID.5": 447
-, "MG|MG5 EV": 403
+, "MG|5 EV": 403
 , "Volkswagen|ID.3": 399
 , "Renault|Megane E-Tech": 375
 , "Peugeot|e-2008": 369
@@ -3915,7 +3915,7 @@ db.insert(db.countries.SE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX3": 282
 , "MG|ZS EV": 213
 , "Tesla|Model S": 211
-, "MG|MG4 EV": 198
+, "MG|4 EV": 198
 , "BMW|iX": 190
 , "Tesla|Model X": 187
 , "BMW|i4": 172
@@ -4003,7 +4003,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Polestar|2": 97
 , "Tesla|Model 3": 96
 , "BMW|i4": 93
-, "MG|MG5 EV": 81
+, "MG|5 EV": 81
 , "Peugeot|e-2008": 79
 , "Nissan|Leaf": 72
 , "BMW|iX": 69
@@ -4018,7 +4018,7 @@ db.insert(db.countries.SE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.5": 38
 , "Audi|Q8 e-tron": 35
 , "Cupra|Born": 33
-, "MG|MG4 EV": 33
+, "MG|4 EV": 33
 , "Mercedes-Benz|EQA": 28
 , "Mini|Cooper SE": 27
 , "Nissan|Ariya": 26
@@ -4092,7 +4092,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|Niro EV": 252
 , "Škoda|Enyaq": 248
 , "Volkswagen|ID.3": 225
-, "MG|MG5 EV": 219
+, "MG|5 EV": 219
 , "Polestar|2": 204
 , "Tesla|Model 3": 197
 , "Audi|Q4 e-tron": 186
@@ -4103,7 +4103,7 @@ db.insert(db.countries.SE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX1": 121
 , "Mercedes-Benz|EQE": 116
 , "BYD|Yuan Plus": 110
-, "MG|MG4 EV": 105
+, "MG|4 EV": 105
 , "Peugeot|e-2008": 99
 , "MG|ZS EV": 97
 , "Hyundai|Ioniq 5": 94
@@ -4190,7 +4190,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.4": 898
 , "Tesla|Model 3": 712
 , "Kia|EV6": 563
-, "MG|MG5 EV": 413
+, "MG|5 EV": 413
 , "Škoda|Enyaq": 410
 , "Kia|Niro EV": 386
 , "BMW|i4": 308
@@ -4206,7 +4206,7 @@ db.insert(db.countries.SE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Cupra|Born": 146
 , "Citroën|ë-C4": 145
 , "Volkswagen|ID.5": 145
-, "MG|MG4 EV": 134
+, "MG|4 EV": 134
 , "Peugeot|e-208": 128
 , "BMW|iX1": 125
 , "MG|ZS EV": 114
@@ -4298,13 +4298,13 @@ db.insert(db.countries.SE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Megane E-Tech": 235
 , "Audi|Q4 e-tron": 193
 , "Toyota|bZ4X": 190
-, "MG|MG5 EV": 165
+, "MG|5 EV": 165
 , "Audi|Q8 e-tron": 151
 , "Volkswagen|ID.5": 149
 , "Nissan|Leaf": 144
 , "BMW|iX1": 140
 , "Polestar|2": 120
-, "MG|MG4 EV": 115
+, "MG|4 EV": 115
 , "Cupra|Born": 113
 , "Mercedes-Benz|EQA": 92
 , "Volkswagen|ID. Buzz": 83
@@ -4400,8 +4400,8 @@ db.insert(db.countries.SE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.3": 337
 , "BMW|i4": 331
 , "Toyota|bZ4X": 306
-, "MG|MG5 EV": 277
-, "MG|MG4 EV": 276
+, "MG|5 EV": 277
+, "MG|4 EV": 276
 , "Tesla|Model S": 262
 , "Tesla|Model 3": 188
 , "BMW|iX1": 173
@@ -4501,7 +4501,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|Niro EV": 351
 , "BYD|Yuan Plus": 302
 , "Volkswagen|ID.5": 280
-, "MG|MG4 EV": 272
+, "MG|4 EV": 272
 , "Volvo|EC40": 243
 , "Volkswagen|ID.3": 224
 , "Audi|Q8 e-tron": 175
@@ -4525,7 +4525,7 @@ db.insert(db.countries.SE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mini|Cooper SE": 62
 , "Hyundai|Kona Electric": 41
 , "Nissan|Ariya": 37
-, "MG|MG5 EV": 33
+, "MG|5 EV": 33
 , "GWM|Ora 03": 29
 , "Opel|Mokka-e": 29
 , "Fiat|500e": 22
@@ -4604,7 +4604,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Polestar|2": 282
 , "Volkswagen|ID.5": 232
 , "Mercedes-Benz|EQE": 186
-, "MG|MG4 EV": 151
+, "MG|4 EV": 151
 , "Audi|Q8 e-tron": 144
 , "Volvo|EX40": 141
 , "Tesla|Model 3": 104
@@ -4626,7 +4626,7 @@ db.insert(db.countries.SE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID. Buzz": 61
 , "BYD|Tang EV": 54
 , "Hyundai|Kona Electric": 45
-, "MG|MG5 EV": 44
+, "MG|5 EV": 44
 , "BMW|iX": 37
 , "Nissan|Ariya": 36
 , "BMW|iX3": 28
@@ -4706,7 +4706,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|Q4 e-tron": 479
 , "Volvo|EX40": 434
 , "Kia|EV6": 350
-, "MG|MG4 EV": 345
+, "MG|4 EV": 345
 , "Polestar|2": 343
 , "BYD|Yuan Plus": 323
 , "Cupra|Born": 263
@@ -4717,7 +4717,7 @@ db.insert(db.countries.SE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Mustang Mach-E": 183
 , "Nissan|Leaf": 183
 , "Volvo|EC40": 181
-, "MG|MG5 EV": 144
+, "MG|5 EV": 144
 , "Toyota|bZ4X": 130
 , "Mercedes-Benz|EQE": 126
 , "BMW|iX1": 115
@@ -4807,7 +4807,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volvo|EX40": 896
 , "Škoda|Enyaq": 708
 , "BYD|Yuan Plus": 598
-, "MG|MG4 EV": 451
+, "MG|4 EV": 451
 , "Audi|Q4 e-tron": 339
 , "Kia|Niro EV": 331
 , "MG|Marvel R": 314
@@ -4818,7 +4818,7 @@ db.insert(db.countries.SE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Cupra|Born": 229
 , "Volvo|EC40": 221
 , "Volkswagen|ID.3": 213
-, "MG|MG5 EV": 211
+, "MG|5 EV": 211
 , "Nissan|Leaf": 209
 , "Volkswagen|ID.5": 208
 , "Mercedes-Benz|EQE": 173
@@ -4915,7 +4915,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV6": 296
 , "Audi|Q8 e-tron": 273
 , "Polestar|2": 257
-, "MG|MG4 EV": 255
+, "MG|4 EV": 255
 , "Volvo|EC40": 255
 , "Mercedes-Benz|EQE": 244
 , "Volkswagen|ID.3": 178
@@ -4933,7 +4933,7 @@ db.insert(db.countries.SE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "MG|ZS EV": 79
 , "Cupra|Born": 74
 , "MG|Marvel R": 62
-, "MG|MG5 EV": 57
+, "MG|5 EV": 57
 , "Renault|Megane E-Tech": 50
 , "BMW|iX3": 43
 , "Nissan|Ariya": 41
@@ -5018,7 +5018,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV9": 322
 , "Nissan|Leaf": 319
 , "Polestar|2": 305
-, "MG|MG4 EV": 293
+, "MG|4 EV": 293
 , "BYD|Yuan Plus": 284
 , "Hyundai|Ioniq 5": 264
 , "Kia|EV6": 244
@@ -5034,7 +5034,7 @@ db.insert(db.countries.SE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQB": 97
 , "Cupra|Born": 96
 , "Volkswagen|ID. Buzz": 91
-, "MG|MG5 EV": 89
+, "MG|5 EV": 89
 , "Volkswagen|ID.5": 82
 , "Volkswagen|ID.7": 72
 , "BMW|iX": 71
@@ -5134,7 +5134,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "GWM|Ora 03": 170
 , "Hyundai|Ioniq 5": 159
 , "Cupra|Born": 128
-, "MG|MG4 EV": 106
+, "MG|4 EV": 106
 , "Mercedes-Benz|EQA": 106
 , "BMW|iX": 103
 , "Renault|Megane E-Tech": 103
@@ -5148,7 +5148,7 @@ db.insert(db.countries.SE, "2023-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Kona Electric": 58
 , "Nissan|Ariya": 56
 , "MG|ZS EV": 55
-, "MG|MG5 EV": 50
+, "MG|5 EV": 50
 , "BMW|iX3": 46
 , "Volkswagen|ID.7": 44
 , "BMW|i5": 43
@@ -5243,14 +5243,14 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|Ariya": 36
 , "Xpeng|G9": 36
 , "BMW|i5": 35
-, "MG|MG4 EV": 34
+, "MG|4 EV": 34
 , "BMW|iX3": 31
 , "Volkswagen|ID. Buzz": 30
 , "GWM|Ora 03": 29
 , "Mini|Cooper SE": 25
 , "Volkswagen|ID.7": 25
 , "Hyundai|Kona Electric": 22
-, "MG|MG5 EV": 20
+, "MG|5 EV": 20
 , "Porsche|Taycan": 18
 , "BMW|iX1": 17
 , "Mercedes-Benz|eVito": 13
@@ -5338,7 +5338,7 @@ db.insert(db.countries.SE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|Q8 e-tron": 86
 , "Toyota|bZ4X": 82
 , "Volkswagen|ID.3": 82
-, "MG|MG4 EV": 75
+, "MG|4 EV": 75
 , "Kia|Niro EV": 71
 , "Tesla|Model 3": 58
 , "Mercedes-Benz|EQA": 54
@@ -5365,7 +5365,7 @@ db.insert(db.countries.SE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Megane E-Tech": 10
 , "Hyundai|Ioniq 6": 9
 , "Nio|ET7": 9
-, "MG|MG5 EV": 8
+, "MG|5 EV": 8
 , "Mercedes-Benz|eVito": 8
 , "Mini|Cooper SE": 8
 , "Citroën|ë-Berlingo Electric": 7
@@ -5448,10 +5448,10 @@ db.insert(db.countries.SE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|iX1": 96
 , "Zeekr|001": 89
 , "Audi|Q8 e-tron": 88
-, "MG|MG4 EV": 87
+, "MG|4 EV": 87
 , "Mercedes-Benz|EQA": 81
 , "Toyota|bZ4X": 81
-, "MG|MG5 EV": 75
+, "MG|5 EV": 75
 , "BMW|iX2": 74
 , "Volkswagen|ID.5": 62
 , "BYD|Yuan Plus": 51
@@ -5544,7 +5544,7 @@ db.insert(db.countries.SE, "2024-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV6": 174
 , "Mercedes-Benz|EQB": 172
 , "Volvo|EC40": 171
-, "MG|MG4 EV": 164
+, "MG|4 EV": 164
 , "Kia|EV9": 161
 , "BMW|iX1": 152
 , "Škoda|Enyaq": 152
@@ -5649,7 +5649,7 @@ db.insert(db.countries.SE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID.7": 225
 , "Audi|Q4 e-tron": 213
 , "Škoda|Enyaq": 194
-, "MG|MG4 EV": 185
+, "MG|4 EV": 185
 , "Mercedes-Benz|EQB": 157
 , "Kia|EV6": 150
 , "BMW|iX1": 118
@@ -5683,7 +5683,7 @@ db.insert(db.countries.SE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Kona Electric": 19
 , "BYD|Seal": 14
 , "Nissan|Ariya": 14
-, "MG|MG5 EV": 13
+, "MG|5 EV": 13
 , "Hyundai|Ioniq 6": 11
 , "Mercedes-Benz|EQS": 10
 , "Nio|other": 18
@@ -5758,7 +5758,7 @@ db.insert(db.countries.SE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV9": 208
 , "Volkswagen|ID.7": 196
 , "Audi|Q4 e-tron": 180
-, "MG|MG4 EV": 161
+, "MG|4 EV": 161
 , "Mercedes-Benz|EQB": 157
 , "BMW|i4": 141
 , "Kia|EV6": 133
@@ -5794,7 +5794,7 @@ db.insert(db.countries.SE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Kangoo E-Tech": 11
 , "Peugeot|E-3008": 9
 , "Peugeot|e-Expert": 9
-, "MG|MG5 EV": 8
+, "MG|5 EV": 8
 , "Mercedes-Benz|eVito": 8
 , "Polestar|4": 8
 , "Renault|Zoe": 8
@@ -5868,7 +5868,7 @@ db.insert(db.countries.SE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volvo|EC40": 144
 , "Volkswagen|ID.7": 143
 , "Tesla|Model 3": 136
-, "MG|MG4 EV": 133
+, "MG|4 EV": 133
 , "Kia|EV6": 127
 , "Kia|Niro EV": 124
 , "Mercedes-Benz|EQE": 117
@@ -5982,7 +5982,7 @@ db.insert(db.countries.SE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|Q4 e-tron": 144
 , "Kia|EV9": 143
 , "BMW|i4": 130
-, "MG|MG4 EV": 127
+, "MG|4 EV": 127
 , "Volkswagen|ID.3": 124
 , "Mercedes-Benz|EQE": 118
 , "Audi|Q6 e-tron": 107
@@ -6006,7 +6006,7 @@ db.insert(db.countries.SE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Xpeng|G6": 28
 , "Toyota|bZ4X": 25
 , "Ford|Mustang Mach-E": 22
-, "MG|MG5 EV": 22
+, "MG|5 EV": 22
 , "Nissan|Ariya": 20
 , "Subaru|Solterra": 19
 , "BYD|Yuan Plus": 18
@@ -6095,7 +6095,7 @@ db.insert(db.countries.SE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mini|Cooper SE": 94
 , "Zeekr|X": 91
 , "BMW|iX3": 89
-, "MG|MG4 EV": 89
+, "MG|4 EV": 89
 , "BMW|i4": 88
 , "Renault|Scénic E-Tech": 72
 , "BMW|iX1": 64
@@ -6199,7 +6199,7 @@ db.insert(db.countries.SE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQA": 101
 , "Nissan|Ariya": 90
 , "BMW|i4": 86
-, "MG|MG4 EV": 77
+, "MG|4 EV": 77
 , "Mercedes-Benz|EQB": 71
 , "Mini|Cooper SE": 70
 , "BMW|iX3": 67
@@ -6223,7 +6223,7 @@ db.insert(db.countries.SE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Explorer EV": 21
 , "Hyundai|Ioniq 5": 20
 , "Hyundai|Kona Electric": 19
-, "MG|MG5 EV": 14
+, "MG|5 EV": 14
 , "Ford|Mustang Mach-E": 11
 , "Mercedes-Benz|EQS": 11
 , "Mercedes-Benz|other": 24
@@ -6330,8 +6330,8 @@ db.insert(db.countries.SE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "MG|ZS EV": 33
 , "Zeekr|001": 32
 , "Xpeng|G9": 26
-, "MG|MG5 EV": 25
-, "MG|MG4 EV": 23
+, "MG|5 EV": 25
+, "MG|4 EV": 23
 , "Hyundai|Ioniq 5": 21
 , "Mercedes-Benz|EQS": 21
 , "BYD|Dolphin": 20
@@ -6430,7 +6430,7 @@ db.insert(db.countries.SE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Toyota|bZ4X": 68
 , "BMW|iX3": 60
 , "Ford|Capri EV": 57
-, "MG|MG5 EV": 55
+, "MG|5 EV": 55
 , "Volkswagen|ID.5": 49
 , "Xpeng|G6": 46
 , "Zeekr|001": 46
@@ -6540,7 +6540,7 @@ db.insert(db.countries.SE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "BYD|Dolphin": 25
 , "BMW|iX": 23
 , "Xpeng|G9": 23
-, "MG|MG4 EV": 22
+, "MG|4 EV": 22
 , "Kia|Niro EV": 19
 , "Zeekr|001": 18
 , "Mercedes-Benz|EQS": 17
@@ -6548,7 +6548,7 @@ db.insert(db.countries.SE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Ioniq 5": 15
 , "Hyundai|Kona Electric": 14
 , "Volkswagen|ID.5": 13
-, "MG|MG5 EV": 11
+, "MG|5 EV": 11
 , "Renault|5 E-Tech": 11
 , "Peugeot|other": 19
 , "BYD|other": 18
@@ -6654,9 +6654,9 @@ db.insert(db.countries.SE, "2025-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Xpeng|G9": 25
 , "BMW|iX2": 23
 , "Hyundai|Ioniq 5": 22
-, "MG|MG4 EV": 21
+, "MG|4 EV": 21
 , "BMW|iX3": 20
-, "MG|MG5 EV": 19
+, "MG|5 EV": 19
 , "Ford|Explorer EV": 18
 , "Peugeot|E-3008": 18
 , "Mercedes-Benz|EQS": 16
@@ -6776,7 +6776,7 @@ db.insert(db.countries.SE, "2025-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Audi|Q8 e-tron": 22
 , "BMW|iX3": 20
 , "BYD|Dolphin": 20
-, "MG|MG4 EV": 20
+, "MG|4 EV": 20
 , "Kia|Niro EV": 18
 , "Peugeot|other": 34
 , "Ford|other": 28
@@ -6872,7 +6872,7 @@ db.insert(db.countries.SE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|Macan Electric": 70
 , "BMW|iX": 68
 , "Toyota|bZ4X": 65
-, "MG|MG5 EV": 59
+, "MG|5 EV": 59
 , "Cupra|Tavascan": 58
 , "Renault|Scénic E-Tech": 56
 , "Zeekr|X": 56
