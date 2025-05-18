@@ -364,7 +364,7 @@ db.insert(db.countries.AU, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQE": 7
 , "Peugeot|Partner Electric": 4
-, "other": 60
+, "other": 61
 });
 
 db.insert(db.countries.AU, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-february-2024-new-car-sales/",
@@ -423,7 +423,7 @@ db.insert(db.countries.AU, "2024-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQE": 10
 , "Peugeot|Partner Electric": 8
 , "Mercedes-Benz|other": 8
-, "other": 54
+, "other": 55
 });
 
 db.insert(db.countries.AU, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-march-2024-new-car-sales/",
@@ -483,7 +483,7 @@ db.insert(db.countries.AU, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|Partner Electric": 14
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQS SUV": 7
-, "other": 42
+, "other": 43
 });
 
 db.insert(db.countries.AU, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-australian-new-car-sales-april-2024/",
@@ -812,6 +812,7 @@ db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|i4": 138
 , "Kia|EV6": 138
 , "GWM|Ora 03": 120
+, "MG|ZS EV": 113
 , "BYD|Dolphin": 101
 , "Mercedes-Benz|EQE SUV": 82
 , "Hyundai|Kona Electric": 68
@@ -841,7 +842,7 @@ db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQS SUV": 6
 , "Audi|e-tron GT": 5
 , "BMW|i7": 4
-, "other": 55
+, "other": 63
 });
 
 db.insert(db.countries.AU, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australia-new-car-sales-in-october-2024-toyota-rav4-on-top-again-but-shrinking-market-puts-yearly-growth-at-risk/",
@@ -875,6 +876,7 @@ db.insert(db.countries.AU, "2024-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|EV6": 129
 , "MG|ZS EV": 110
 , "Kia|EV5": 97
+, "Hyundai|Kona Electric": 91
 , "Polestar|2": 91
 , "Mercedes-Benz|EQA": 86
 , "Toyota|bZ4X": 82
@@ -1039,7 +1041,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.dr
 , "other": 24038
 });
 
-db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/03/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025/",
+db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/05/05/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "Tesla|Model Y": 465
 , "MG|4 EV": 440
 , "Kia|EV5": 289
@@ -1055,6 +1057,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 95
 , "BYD|Dolphin": 85
 , "Toyota|bZ4X": 80
+, "MG|ZS EV": 74
 , "Mercedes-Benz|EQA": 73
 , "Polestar|4": 61
 , "Hyundai|Kona Electric": 56
@@ -1064,6 +1067,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Born": 50
 , "BMW|iX3": 41
 , "Volvo|EC40": 38
+, "Volvo|EX40": 38
 , "GWM|Ora 03": 37
 , "Mercedes-Benz|EQE SUV": 37
 , "Ford|Mustang Mach-E": 29
@@ -1089,9 +1093,9 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQV": 5
 , "Audi|Q6 e-tron": 3
 , "BMW|i7": 3
-, "Mercedes-Benz|EQS SUV": 2
-, "Polestar|3": 2
-, "other": 35
+, "Mercedes-Benz|other": 2
+, "Polestar|other": 2
+, "other": 87
 });
 
 db.insert(db.countries.AU, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-vehicle-sales-february-2025/",
@@ -1109,14 +1113,18 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.dr
 , "other": 27769
 });
 
-db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/03/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025/",
+db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/05/05/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "Tesla|Model Y": 924
 , "Tesla|Model 3": 668
 , "MG|4 EV": 451
+, "MG|ZS EV": 432
 , "Kia|EV5": 400
 , "BYD|Sealion 7": 157
+, "Mini|Cooper SE": 143
 , "BYD|Yuan Plus": 138
+, "BMW|iX1": 137
 , "Volvo|EX30": 108
+, "BMW|iX2": 105
 , "Zeekr|X": 98
 , "Ford|Mustang Mach-E": 96
 , "BMW|i4": 95
@@ -1129,11 +1137,13 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Born": 71
 , "Toyota|bZ4X": 66
 , "Hyundai|Ioniq 5": 65
+, "Volvo|EX40": 63
+, "BMW|i5": 61
 , "Mercedes-Benz|EQB": 58
+, "BMW|iX3": 57
 , "BYD|Seal": 56
 , "Renault|Megane E-Tech": 48
 , "Kia|EV6": 47
-, "Mini|Cooper SE": 46
 , "BYD|Dolphin": 44
 , "GWM|Ora 03": 44
 , "Polestar|2": 36
@@ -1155,10 +1165,10 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|ID.5": 5
 , "Audi|Q8 e-tron": 4
 , "Mercedes-Benz|EQS SUV": 4
-, "Audi|e-tron GT": 3
-, "Jeep|Avenger EV": 3
-, "Mercedes-Benz|EQE": 3
-, "other": 50
+, "Mercedes-Benz|other": 4
+, "Audi|other": 3
+, "Jeep|other": 3
+, "other": 117
 });
 
 db.insert(db.countries.AU, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-march-2025-ford-ranger-back-on-top-as-most-popular-new-model/",
@@ -1176,7 +1186,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.dr
 , "other": 33421
 });
 
-db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/04/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
+db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/05/05/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "Tesla|Model Y": 1725
 , "Tesla|Model 3": 1104
 , "BYD|Sealion 7": 573
@@ -1184,9 +1194,13 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|4 EV": 444
 , "BYD|Yuan Plus": 358
 , "Mercedes-Benz|EQE SUV": 219
+, "Mini|Cooper SE": 219
 , "BYD|Seal": 194
+, "Geely|Galaxy E5": 188
 , "Kia|EV3": 186
 , "Volvo|EX30": 174
+, "BMW|iX1": 156
+, "BMW|iX2": 107
 , "Volkswagen|ID.4": 107
 , "BMW|i4": 106
 , "Polestar|4": 101
@@ -1194,9 +1208,9 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQA": 97
 , "MG|ZS EV": 90
 , "BYD|Dolphin": 86
+, "BMW|i5": 84
 , "Zeekr|X": 81
 , "Hyundai|Ioniq 5": 79
-, "Mini|Cooper SE": 78
 , "Cupra|Born": 69
 , "Polestar|2": 68
 , "Hyundai|Kona Electric": 67
@@ -1207,6 +1221,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "GWM|Ora 03": 51
 , "Volvo|EX40": 48
 , "Kia|Niro EV": 42
+, "BMW|iX3": 40
 , "Kia|EV9": 40
 , "BMW|iX": 38
 , "Renault|Megane E-Tech": 36
@@ -1214,6 +1229,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EC40": 34
 , "Audi|Q6 e-tron": 32
 , "Ford|Mustang Mach-E": 32
+, "Zeekr|009": 31
 , "Škoda|Enyaq": 31
 , "Nissan|Leaf": 27
 , "Porsche|Taycan": 24
@@ -1222,11 +1238,10 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|3": 13
 , "Cupra|Tavascan": 9
 , "Volvo|EX90": 9
-, "Hyundai|Inster": 7
-, "Audi|Q8 e-tron": 6
-, "Jeep|Avenger EV": 5
-, "MG|Cyberster": 5
-, "BMW|i7": 4
-, "Mercedes-Benz|EQV": 4
-, "other": 358
+, "Audi|other": 7
+, "Hyundai|other": 7
+, "Mercedes-Benz|other": 6
+, "Jeep|other": 5
+, "MG|other": 5
+, "other": 140
 });
