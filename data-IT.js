@@ -4,6 +4,1159 @@
 
 // http://www.unrae.it/dati-statistici/immatricolazioni
 
+db.insert(db.countries.IT, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Gennaio%202018_UNRAE%20marca_5a73007702c12.pdf",
+{ "Fiat": 34470
+, "Volkswagen": 13382
+, "Ford": 12532
+, "Peugeot": 10879
+, "Renault": 9503
+, "Citroën": 8776
+, "Opel": 8702
+, "Toyota": 8135
+, "Jeep/Dodge": 7439
+, "Audi": 6502
+, "Nissan": 6446
+, "Dacia": 6135
+, "BMW": 4832
+, "Mercedes-Benz": 4758
+, "Kia": 4054
+, "Hyundai": 4018
+, "Suzuki": 3363
+, "Škoda": 2260
+, "Land Rover": 1965
+, "Seat": 1702
+, "Smart": 1570
+, "Mini": 1484
+, "Mazda": 1157
+, "Volvo": 1095
+, "Honda": 803
+, "Porsche": 678
+, "Jaguar": 630
+, "Mitsubishi": 387
+, "Subaru": 244
+, "other": 9921
+});
+
+db.insert(db.countries.IT, "2018-01", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/gennaio_Top%20ten%20per%20alimentazione_5a730024c922c.xlsx",
+{ "Smart|Fortwo ED": 131
+, "Renault|Zoe": 31
+, "Tesla|Model S": 22
+, "BMW|i3 BEV": 21
+, "Smart|Forfour ED": 19
+, "Volkswagen|e-Golf": 8
+, "Tesla|Model X": 7
+, "Citroën|C-Zero": 5
+, "Citroën|ë-Berlingo Electric": 4
+, "other": 12
+});
+
+db.insert(db.countries.IT, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Febbraio%202018_UNRAE_marca_5a98211da8b07.pdf",
+{ "Fiat": 32409
+, "Volkswagen": 16178
+, "Ford": 12841
+, "Peugeot": 11444
+, "Renault": 9884
+, "Citroën": 9088
+, "Opel": 8364
+, "Toyota": 8049
+, "Dacia": 6874
+, "Jeep/Dodge": 6854
+, "Nissan": 6397
+, "Audi": 5681
+, "Mercedes-Benz": 5550
+, "BMW": 5518
+, "Hyundai": 4530
+, "Kia": 4413
+, "Suzuki": 2970
+, "Škoda": 2335
+, "Seat": 2158
+, "Mini": 2015
+, "Smart": 1821
+, "Land Rover": 1703
+, "Volvo": 1141
+, "Mazda": 991
+, "Honda": 871
+, "Jaguar": 723
+, "Porsche": 442
+, "Mitsubishi": 355
+, "Subaru": 251
+, "other": 9884
+});
+
+db.insert(db.countries.IT, "2018-02", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20febbraio%202018_UNRAE%20Top%20alimentazione_5a9820a173789.pdf",
+{ "Smart|Fortwo ED": 125
+, "Citroën|C-Zero": 26
+, "Nissan|Leaf": 22
+, "Renault|Zoe": 21
+, "BMW|i3 BEV": 15
+, "Tesla|Model S": 8
+, "Tesla|Model X": 7
+, "Volkswagen|e-Golf": 7
+, "Smart|Forfour ED": 5
+, "Citroën|E-Mehari": 3
+, "other": 7
+});
+
+db.insert(db.countries.IT, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marzo%202018_UNRAE_marca_5ac38b401e2d4.pdf",
+{ "Fiat": 40228
+, "Volkswagen": 18108
+, "Ford": 15502
+, "Renault": 13909
+, "Peugeot": 11503
+, "Opel": 11073
+, "Citroën": 9772
+, "Jeep/Dodge": 8609
+, "Toyota": 8565
+, "Mercedes-Benz": 7444
+, "Nissan": 6933
+, "Audi": 6638
+, "BMW": 6446
+, "Hyundai": 5389
+, "Dacia": 4775
+, "Kia": 4236
+, "Smart": 3030
+, "Suzuki": 2769
+, "Škoda": 2709
+, "Seat": 2460
+, "Land Rover": 2403
+, "Mini": 2067
+, "Volvo": 1877
+, "Mazda": 1416
+, "Jaguar": 1261
+, "Honda": 1130
+, "Mitsubishi": 415
+, "Porsche": 368
+, "Subaru": 267
+, "Tesla": 77
+, "other": 12352
+});
+
+db.insert(db.countries.IT, "2018-03", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/marzo%202018_UNRAE%20Top%20alimentazione_5ac358306a5a7.pdf",
+{ "Smart|Fortwo ED": 117
+, "Nissan|Leaf": 102
+, "Tesla|Model S": 49
+, "Renault|Zoe": 31
+, "Citroën|C-Zero": 30
+, "Tesla|Model X": 28
+, "Smart|Forfour ED": 19
+, "Citroën|ë-Berlingo Electric": 15
+, "BMW|i3 BEV": 13
+, "Volkswagen|e-Golf": 5
+, "other": 7
+});
+
+db.insert(db.countries.IT, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Aprile%202018_UNRAE_marca_5ae9d6da38912.pdf",
+{ "Fiat": 29680
+, "Volkswagen": 14397
+, "Renault": 12291
+, "Ford": 11864
+, "Peugeot": 9529
+, "Opel": 8168
+, "Citroën": 7786
+, "Toyota": 7641
+, "Jeep/Dodge": 7481
+, "Audi": 5849
+, "Kia": 5228
+, "BMW": 5103
+, "Mercedes-Benz": 4924
+, "Nissan": 4587
+, "Hyundai": 4500
+, "Dacia": 4300
+, "Suzuki": 2890
+, "Škoda": 2471
+, "Smart": 2181
+, "Seat": 2063
+, "Mini": 2022
+, "Volvo": 1670
+, "Land Rover": 1461
+, "Jaguar": 857
+, "Mazda": 780
+, "Honda": 766
+, "Mitsubishi": 420
+, "Porsche": 314
+, "Subaru": 248
+, "Tesla": 34
+, "other": 9874
+});
+
+db.insert(db.countries.IT, "2018-04", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20aprile%202018_UNRAE_Top_alimentazione_5ae9d660a866e.pdf",
+{ "Smart|Fortwo ED": 82
+, "Renault|Zoe": 60
+, "Tesla|Model S": 26
+, "Nissan|Leaf": 24
+, "Smart|Forfour ED": 17
+, "BMW|i3 BEV": 11
+, "Tesla|Model X": 8
+, "Volkswagen|e-up!": 5
+, "Volkswagen|e-Golf": 3
+, "Jaguar|I-Pace": 2
+, "other": 5
+});
+
+db.insert(db.countries.IT, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Maggio%202018_UNRAE_marca_5b1144e5e99ee.pdf",
+{ "Fiat": 35336
+, "Volkswagen": 17911
+, "Renault": 15145
+, "Ford": 12761
+, "Peugeot": 10398
+, "Opel": 10096
+, "Jeep/Dodge": 9885
+, "Toyota": 8419
+, "Citroën": 8140
+, "Audi": 6481
+, "Dacia": 6289
+, "Mercedes-Benz": 6198
+, "Hyundai": 5274
+, "BMW": 5243
+, "Nissan": 5199
+, "Kia": 4773
+, "Suzuki": 3218
+, "Smart": 2986
+, "Škoda": 2463
+, "Seat": 2147
+, "Mini": 2005
+, "Volvo": 1675
+, "Land Rover": 1653
+, "Jaguar": 897
+, "Mazda": 872
+, "Honda": 819
+, "Porsche": 692
+, "Mitsubishi": 453
+, "Subaru": 307
+, "Tesla": 27
+, "other": 11351
+});
+
+db.insert(db.countries.IT, "2018-05", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20maggio%20Top%20alimentazione_5b11434668577.pdf",
+{ "Nissan|Leaf": 199
+, "Renault|Zoe": 186
+, "Smart|Fortwo ED": 66
+, "Citroën|ë-Berlingo Electric": 46
+, "Tesla|Model X": 19
+, "Smart|Forfour ED": 17
+, "BMW|i3 BEV": 15
+, "Volkswagen|e-Golf": 9
+, "Tesla|Model S": 8
+, "Jaguar|I-Pace": 7
+, "other": 22
+});
+
+db.insert(db.countries.IT, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Giugno%202018_UNRAE_marca_5b3a1ad79c62d.pdf",
+{ "Fiat": 27988
+, "Volkswagen": 16068
+, "Renault": 13291
+, "Ford": 11558
+, "Opel": 8984
+, "Peugeot": 8913
+, "Jeep/Dodge": 7713
+, "Toyota": 7505
+, "Audi": 7241
+, "Citroën": 6813
+, "Dacia": 5701
+, "Mercedes-Benz": 5682
+, "BMW": 5653
+, "Hyundai": 5158
+, "Nissan": 4138
+, "Kia": 3993
+, "Smart": 3180
+, "Suzuki": 2437
+, "Škoda": 2414
+, "Mini": 2049
+, "Seat": 2000
+, "Land Rover": 1588
+, "Volvo": 1562
+, "Honda": 873
+, "Jaguar": 856
+, "Mazda": 768
+, "Porsche": 705
+, "Mitsubishi": 488
+, "Subaru": 365
+, "Tesla": 75
+, "other": 8943
+});
+
+db.insert(db.countries.IT, "2018-06", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/giugno%20Top%20alimentazione_5b3a1aa2c718b.pdf",
+{ "Smart|Fortwo ED": 106
+, "Nissan|Leaf": 99
+, "Renault|Zoe": 96
+, "Tesla|Model S": 42
+, "Tesla|Model X": 33
+, "Smart|Forfour ED": 18
+, "Citroën|E-Mehari": 12
+, "Volkswagen|e-Golf": 8
+, "BMW|i3 BEV": 7
+, "Volkswagen|e-up!": 6
+, "other": 13
+});
+
+db.insert(db.countries.IT, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Luglio%202018_UNRAE_marca_5b618ce455dcd.pdf",
+{ "Fiat": 26537
+, "Volkswagen": 12885
+, "Renault": 11109
+, "Ford": 9759
+, "Peugeot": 7995
+, "Opel": 7225
+, "Jeep/Dodge": 7205
+, "Toyota": 7034
+, "Citroën": 5876
+, "Audi": 5250
+, "Dacia": 4970
+, "Kia": 4505
+, "Hyundai": 4260
+, "Mercedes-Benz": 4239
+, "Nissan": 4145
+, "BMW": 4106
+, "Suzuki": 2576
+, "Smart": 2208
+, "Volvo": 1633
+, "Škoda": 1519
+, "Seat": 1405
+, "Mini": 1374
+, "Land Rover": 1025
+, "Porsche": 816
+, "Mazda": 798
+, "Honda": 638
+, "Jaguar": 619
+, "Mitsubishi": 535
+, "Subaru": 295
+, "Tesla": 16
+, "other": 9836
+});
+
+db.insert(db.countries.IT, "2018-07", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/luglio%202018_UNRAE_Top%2010%20alimentazione_5b618c4a07ec9.pdf",
+{ "Nissan|Leaf": 389
+, "Smart|Fortwo ED": 74
+, "Renault|Zoe": 67
+, "Jaguar|I-Pace": 37
+, "Citroën|E-Mehari": 14
+, "Smart|Forfour ED": 14
+, "Tesla|Model S": 9
+, "BMW|i3 BEV": 8
+, "Tesla|Model X": 7
+, "Volkswagen|e-up!": 6
+, "other": 16
+});
+
+db.insert(db.countries.IT, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Agosto%202018_UNRAE_marca_5b8d559823a4b.pdf",
+{ "Fiat": 14151
+, "Renault": 9581
+, "Volkswagen": 6548
+, "Ford": 6025
+, "Jeep/Dodge": 5665
+, "Peugeot": 4846
+, "Dacia": 4476
+, "Opel": 4455
+, "Citroën": 3957
+, "Toyota": 3916
+, "Hyundai": 2772
+, "BMW": 2557
+, "Kia": 2425
+, "Nissan": 2344
+, "Audi": 2081
+, "Mercedes-Benz": 1898
+, "Škoda": 1245
+, "Suzuki": 1217
+, "Seat": 1156
+, "Volvo": 893
+, "Smart": 677
+, "Mini": 664
+, "Porsche": 436
+, "Mazda": 424
+, "Land Rover": 355
+, "Honda": 349
+, "Mitsubishi": 288
+, "Jaguar": 193
+, "Subaru": 159
+, "Tesla": 25
+, "other": 5773
+});
+
+db.insert(db.countries.IT, "2018-08", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20agosto%202018_UNRAE_Top%2010%20alimentazione_5b8d5538795ce.pdf",
+{ "Renault|Zoe": 60
+, "Nissan|Leaf": 30
+, "Smart|Fortwo ED": 23
+, "Tesla|Model X": 18
+, "Citroën|C-Zero": 13
+, "Volkswagen|e-up!": 11
+, "BMW|i3 BEV": 7
+, "Peugeot|iOn": 7
+, "Tesla|Model S": 7
+, "Hyundai|Kona Electric": 4
+, "other": 10
+});
+
+db.insert(db.countries.IT, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Settembre%202018_UNRAE_marca_5bb2241490d58.pdf",
+{ "Fiat": 18724
+, "Volkswagen": 9713
+, "Ford": 9125
+, "Peugeot": 7866
+, "Toyota": 7350
+, "Opel": 7060
+, "Renault": 5656
+, "Mercedes-Benz": 5178
+, "Citroën": 5103
+, "BMW": 4829
+, "Hyundai": 4506
+, "Jeep/Dodge": 4442
+, "Nissan": 4049
+, "Kia": 3755
+, "Audi": 3200
+, "Suzuki": 2632
+, "Dacia": 2333
+, "Smart": 1935
+, "Volvo": 1921
+, "Škoda": 1891
+, "Mini": 1736
+, "Mazda": 1034
+, "Land Rover": 1021
+, "Seat": 887
+, "Jaguar": 866
+, "Honda": 612
+, "Mitsubishi": 611
+, "Subaru": 329
+, "Porsche": 136
+, "Tesla": 60
+, "other": 6416
+});
+
+db.insert(db.countries.IT, "2018-09", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20settembre_Top%2010%20alimentazione_5bb2238424240.pdf",
+{ "Nissan|Leaf": 170
+, "Renault|Zoe": 102
+, "Smart|Fortwo ED": 71
+, "Tesla|Model S": 31
+, "BMW|i3 BEV": 29
+, "Tesla|Model X": 29
+, "Smart|Forfour ED": 13
+, "Hyundai|Kona Electric": 10
+, "Jaguar|I-Pace": 10
+, "Citroën|C-Zero": 9
+, "other": 15
+});
+
+db.insert(db.countries.IT, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Ottobre%202018_UNRAE_marca_5bdc5e5628262.pdf",
+{ "Fiat": 22547
+, "Volkswagen": 12305
+, "Ford": 10578
+, "Peugeot": 8935
+, "Opel": 8004
+, "Toyota": 7975
+, "Renault": 7505
+, "Citroën": 6213
+, "Jeep/Dodge": 5381
+, "Mercedes-Benz": 5294
+, "Hyundai": 4840
+, "BMW": 4641
+, "Audi": 4445
+, "Kia": 4131
+, "Nissan": 4015
+, "Dacia": 3835
+, "Suzuki": 3182
+, "Škoda": 2208
+, "Volvo": 2020
+, "Smart": 1968
+, "Mini": 1934
+, "Land Rover": 1712
+, "Seat": 1334
+, "Mazda": 1001
+, "Jaguar": 888
+, "Mitsubishi": 771
+, "Honda": 722
+, "Subaru": 344
+, "Porsche": 139
+, "Tesla": 17
+, "other": 7771
+});
+
+db.insert(db.countries.IT, "2018-10", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20ottobre%202018_UNRAE_Top%2010%20alimentazione_5bdc5a39cfb4e.pdf",
+{ "Nissan|Leaf": 218
+, "Renault|Zoe": 161
+, "Smart|Fortwo ED": 112
+, "Smart|Forfour ED": 17
+, "Jaguar|I-Pace": 15
+, "Tesla|Model S": 13
+, "BMW|i3 BEV": 12
+, "Hyundai|Kona Electric": 11
+, "Citroën|C-Zero": 6
+, "Peugeot|iOn": 5
+, "other": 17
+});
+
+db.insert(db.countries.IT, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Novembre%202018_UNRAE_marca_5c05488947aef.pdf",
+{ "Fiat": 22064
+, "Volkswagen": 13323
+, "Ford": 9213
+, "Peugeot": 8706
+, "Renault": 8109
+, "Toyota": 7822
+, "Opel": 7469
+, "Jeep/Dodge": 7066
+, "Dacia": 6319
+, "Citroën": 5929
+, "Mercedes-Benz": 5262
+, "Hyundai": 4654
+, "Audi": 4546
+, "BMW": 4469
+, "Kia": 3402
+, "Nissan": 3285
+, "Suzuki": 3200
+, "Škoda": 2081
+, "Mini": 2077
+, "Volvo": 2006
+, "Smart": 1659
+, "Seat": 1519
+, "Land Rover": 1423
+, "Mazda": 902
+, "Jaguar": 892
+, "Honda": 728
+, "Mitsubishi": 705
+, "Subaru": 336
+, "Porsche": 123
+, "Tesla": 34
+, "other": 7668
+});
+
+db.insert(db.countries.IT, "2018-11", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20novembre%202018_UNRAE_Top%2010%20alimentazione_5c0542f867e46.pdf",
+{ "Nissan|Leaf": 134
+, "Renault|Zoe": 97
+, "Smart|Fortwo ED": 91
+, "Volkswagen|e-Golf": 44
+, "Tesla|Model S": 17
+, "Tesla|Model X": 17
+, "BMW|i3 BEV": 12
+, "Hyundai|Kona Electric": 10
+, "Jaguar|I-Pace": 10
+, "Smart|Forfour ED": 10
+, "other": 20
+});
+
+db.insert(db.countries.IT, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Dicembre%202018_UNRAE_marca_5c2ccafd4f59a.pdf",
+{ "Fiat": 18710
+, "Volkswagen": 11424
+, "Renault": 8910
+, "Ford": 7514
+, "Peugeot": 7221
+, "Jeep/Dodge": 6664
+, "Opel": 5504
+, "Dacia": 5426
+, "Citroën": 5247
+, "Toyota": 4900
+, "Audi": 4743
+, "Mercedes-Benz": 4371
+, "BMW": 3546
+, "Hyundai": 3424
+, "Nissan": 2947
+, "Kia": 2635
+, "Suzuki": 2435
+, "Škoda": 1679
+, "Volvo": 1540
+, "Smart": 1379
+, "Mini": 1075
+, "Seat": 1071
+, "Land Rover": 1002
+, "Mazda": 700
+, "Mitsubishi": 564
+, "Jaguar": 546
+, "Honda": 525
+, "Porsche": 424
+, "Subaru": 204
+, "Tesla": 53
+, "other": 7695
+});
+
+db.insert(db.countries.IT, "2018-12", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20dicembre%202018_UNRAE_Top%2010%20alimentazione_5c2cca0d8fb13.pdf",
+{ "Renault|Zoe": 116
+, "Nissan|Leaf": 68
+, "Smart|Fortwo ED": 53
+, "Tesla|Model S": 30
+, "BMW|i3 BEV": 29
+, "Tesla|Model X": 23
+, "Volkswagen|e-Golf": 14
+, "Smart|Forfour ED": 12
+, "Volkswagen|e-up!": 11
+, "Hyundai|Kona Electric": 10
+, "other": 14
+});
+
+db.insert(db.countries.IT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Gennaio%202019_UNRAE_marca_5c544cec4f74c.pdf",
+{ "Fiat": 24445
+, "Volkswagen": 14865
+, "Peugeot": 11346
+, "Ford": 11152
+, "Opel": 9638
+, "Citroën": 8959
+, "Renault": 8213
+, "Toyota": 8100
+, "Dacia": 7728
+, "Jeep/Dodge": 6249
+, "BMW": 4894
+, "Mercedes-Benz": 4845
+, "Kia": 4439
+, "Nissan": 4104
+, "Audi": 4087
+, "Hyundai": 3554
+, "Suzuki": 3388
+, "Škoda": 2027
+, "Smart": 1792
+, "Land Rover": 1782
+, "Volvo": 1704
+, "Seat": 1608
+, "Mini": 1543
+, "Mazda": 1051
+, "Jaguar": 951
+, "Honda": 747
+, "Mitsubishi": 714
+, "Porsche": 282
+, "Subaru": 229
+, "Tesla": 18
+, "other": 10410
+});
+
+db.insert(db.countries.IT, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20gennaio%202019_Top%20ten%20per%20alimentazione_5c542aaf547b3.pdf",
+{ "Smart|Fortwo ED": 94
+, "Renault|Zoe": 57
+, "Nissan|Leaf": 51
+, "BMW|i3 BEV": 16
+, "Jaguar|I-Pace": 14
+, "Tesla|Model X": 12
+, "Citroën|C-Zero": 6
+, "Tesla|Model S": 6
+, "Volkswagen|e-Golf": 6
+, "Smart|Forfour ED": 5
+, "other": 15
+});
+
+db.insert(db.countries.IT, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Febbraio%202019_UNRAE_marca_5c7914402f4be.pdf",
+{ "Fiat": 26562
+, "Volkswagen": 15915
+, "Ford": 11433
+, "Peugeot": 11264
+, "Renault": 9868
+, "Opel": 9626
+, "Jeep/Dodge": 9449
+, "Citroën": 9127
+, "Toyota": 8351
+, "Dacia": 6068
+, "Mercedes-Benz": 5889
+, "Audi": 5675
+, "BMW": 5658
+, "Nissan": 4518
+, "Hyundai": 4123
+, "Kia": 4083
+, "Suzuki": 3510
+, "Seat": 2592
+, "Škoda": 2258
+, "Land Rover": 2049
+, "Mini": 2038
+, "Volvo": 1877
+, "Smart": 1456
+, "Jaguar": 1116
+, "Mazda": 1079
+, "Honda": 909
+, "Mitsubishi": 757
+, "Porsche": 346
+, "Subaru": 282
+, "Tesla": 96
+, "other": 9851
+});
+
+db.insert(db.countries.IT, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/febbraio_Top%2010%20alimentazione_5c790836520b6.pdf",
+{ "Tesla|Model 3": 80
+, "Nissan|Leaf": 46
+, "Smart|Fortwo ED": 28
+, "BMW|i3 BEV": 20
+, "Jaguar|I-Pace": 12
+, "Audi|Q8 e-tron": 10
+, "Renault|Zoe": 10
+, "Smart|Forfour ED": 10
+, "Tesla|Model X": 9
+, "Tesla|Model S": 7
+, "other": 18
+});
+
+db.insert(db.countries.IT, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marzo%202019_UNRAE_marca_5ca21da1f1f3e.pdf",
+{ "Fiat": 31632
+, "Volkswagen": 17535
+, "Ford": 12296
+, "Renault": 12225
+, "Opel": 10959
+, "Peugeot": 10889
+, "Citroën": 9516
+, "Dacia": 8653
+, "Toyota": 8558
+, "Jeep/Dodge": 7907
+, "Audi": 6418
+, "BMW": 6327
+, "Mercedes-Benz": 6300
+, "Nissan": 4654
+, "Hyundai": 4624
+, "Kia": 3935
+, "Suzuki": 2835
+, "Seat": 2804
+, "Škoda": 2671
+, "Smart": 2362
+, "Mini": 2226
+, "Volvo": 2103
+, "Mazda": 1369
+, "Land Rover": 1338
+, "Honda": 893
+, "Jaguar": 659
+, "Mitsubishi": 604
+, "Porsche": 390
+, "Tesla": 269
+, "Subaru": 166
+, "other": 10545
+});
+
+db.insert(db.countries.IT, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20marzo%202019_UNRAE_Top%2010%20alimentazione_5ca21cfa3ad7f.pdf",
+{ "Tesla|Model 3": 232
+, "Nissan|Leaf": 96
+, "Renault|Zoe": 68
+, "Audi|Q8 e-tron": 39
+, "Jaguar|I-Pace": 29
+, "Smart|Fortwo ED": 25
+, "Smart|Forfour ED": 24
+, "BMW|i3 BEV": 22
+, "Tesla|Model X": 19
+, "Tesla|Model S": 18
+, "other": 49
+});
+
+db.insert(db.countries.IT, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Aprile%202019_UNRAE_marca_5ccb0103396fd.pdf",
+{ "Fiat": 29612
+, "Volkswagen": 15237
+, "Ford": 10928
+, "Peugeot": 10195
+, "Opel": 9964
+, "Renault": 9414
+, "Dacia": 8483
+, "Citroën": 8335
+, "Toyota": 8169
+, "Jeep/Dodge": 6557
+, "Audi": 5623
+, "Kia": 4794
+, "BMW": 4749
+, "Mercedes-Benz": 4555
+, "Nissan": 4416
+, "Hyundai": 3733
+, "Suzuki": 3401
+, "Smart": 3116
+, "Seat": 2546
+, "Škoda": 2363
+, "Volvo": 1777
+, "Mini": 1742
+, "Land Rover": 1211
+, "Mazda": 833
+, "Porsche": 787
+, "Honda": 745
+, "Jaguar": 731
+, "Mitsubishi": 577
+, "Tesla": 209
+, "Subaru": 128
+, "other": 9482
+});
+
+db.insert(db.countries.IT, "2019-04", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20aprile%20Top%2010%20alimentazione_5ccb005f4ad89.pdf",
+{ "Renault|Zoe": 398
+, "Nissan|Leaf": 203
+, "Smart|Fortwo ED": 162
+, "Tesla|Model 3": 149
+, "Hyundai|Kona Electric": 48
+, "Smart|Forfour ED": 42
+, "Tesla|Model S": 42
+, "BMW|i3 BEV": 33
+, "Jaguar|I-Pace": 20
+, "Tesla|Model X": 18
+, "other": 75
+});
+
+db.insert(db.countries.IT, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Maggio%202019_UNRAE%20marca_5cf53a3b8b613.pdf",
+{ "Fiat": 29612
+, "Volkswagen": 15237
+, "Ford": 10928
+, "Peugeot": 10195
+, "Opel": 9964
+, "Renault": 9414
+, "Dacia": 8483
+, "Citroën": 8335
+, "Toyota": 8169
+, "Jeep/Dodge": 6557
+, "Audi": 5623
+, "Kia": 4794
+, "BMW": 4749
+, "Mercedes-Benz": 4555
+, "Nissan": 4416
+, "Hyundai": 3733
+, "Suzuki": 3401
+, "Smart": 3116
+, "Seat": 2546
+, "Škoda": 2363
+, "Volvo": 1777
+, "Mini": 1742
+, "Land Rover": 1211
+, "Mazda": 833
+, "Porsche": 787
+, "Honda": 745
+, "Jaguar": 731
+, "Mitsubishi": 577
+, "Tesla": 209
+, "Subaru": 128
+, "other": 9482
+});
+
+db.insert(db.countries.IT, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20maggio%202019_UNRAE%20Top%2010%20alimentazione_5cf5393301a9d.pdf",
+{ "Renault|Zoe": 450
+, "Smart|Fortwo ED": 213
+, "Tesla|Model 3": 125
+, "Smart|Forfour ED": 72
+, "BMW|i3 BEV": 67
+, "Hyundai|Kona Electric": 58
+, "Nissan|Leaf": 55
+, "Citroën|C-Zero": 25
+, "Jaguar|I-Pace": 22
+, "Tesla|Model S": 21
+, "other": 59
+});
+
+db.insert(db.countries.IT, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Giugno%202019_UNRAE%20marca_5d1a27f6184c1.pdf",
+{ "Fiat": 23232
+, "Volkswagen": 16139
+, "Renault": 13160
+, "Ford": 9814
+, "Opel": 8844
+, "Peugeot": 8652
+, "Dacia": 8514
+, "Jeep/Dodge": 8425
+, "Toyota": 7664
+, "Citroën": 7341
+, "Audi": 6639
+, "Mercedes-Benz": 5661
+, "BMW": 5196
+, "Hyundai": 4589
+, "Kia": 4174
+, "Suzuki": 3738
+, "Nissan": 3372
+, "Škoda": 2573
+, "Smart": 2408
+, "Seat": 2256
+, "Mini": 2221
+, "Volvo": 1690
+, "Land Rover": 1548
+, "Mazda": 1009
+, "Mitsubishi": 947
+, "Honda": 769
+, "Jaguar": 678
+, "Porsche": 635
+, "Tesla": 471
+, "Subaru": 261
+, "other": 9006
+});
+
+db.insert(db.countries.IT, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20giugno%202019%20UNRAE_Top%2010%20alimentazione_5d1a272c84736.pdf",
+{ "Tesla|Model 3": 372
+, "Renault|Zoe": 351
+, "Smart|Fortwo ED": 185
+, "Smart|Forfour ED": 114
+, "Nissan|Leaf": 104
+, "Hyundai|Kona Electric": 98
+, "BMW|i3 BEV": 63
+, "Tesla|Model S": 55
+, "Tesla|Model X": 44
+, "Jaguar|I-Pace": 17
+, "other": 42
+});
+
+db.insert(db.countries.IT, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Luglio%202019_UNRAE_marca_5d4311a781330.pdf",
+{ "Fiat": 20088
+, "Volkswagen": 14395
+, "Ford": 9511
+, "Renault": 9260
+, "Peugeot": 9101
+, "Opel": 8494
+, "Dacia": 7635
+, "Jeep/Dodge": 7446
+, "Toyota": 6640
+, "Citroën": 6323
+, "Audi": 6096
+, "Mercedes-Benz": 4769
+, "Hyundai": 4265
+, "Kia": 3987
+, "Suzuki": 3853
+, "BMW": 3715
+, "Nissan": 3184
+, "Škoda": 2452
+, "Seat": 2380
+, "Smart": 2079
+, "Volvo": 1613
+, "Mini": 1539
+, "Land Rover": 1406
+, "Mazda": 922
+, "Jaguar": 730
+, "Porsche": 674
+, "Mitsubishi": 659
+, "Honda": 620
+, "Subaru": 247
+, "Tesla": 167
+, "GWM": 39
+, "other": 8511
+});
+
+db.insert(db.countries.IT, "2019-07", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20luglio%202019%20UNRAE%20Top%2010%20alimentazione_5d430a48408c9.pdf",
+{ "Renault|Zoe": 224
+, "Smart|Fortwo ED": 191
+, "Nissan|Leaf": 156
+, "Tesla|Model 3": 132
+, "Smart|Forfour ED": 83
+, "BMW|i3 BEV": 38
+, "Hyundai|Kona Electric": 23
+, "Tesla|Model S": 20
+, "Jaguar|I-Pace": 19
+, "Tesla|Model X": 15
+, "other": 39
+});
+
+db.insert(db.countries.IT, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Agosto%202019_UNRAE_marca_5d6d2c39dc785.pdf",
+{ "Fiat": 13000
+, "Volkswagen": 7429
+, "Renault": 5858
+, "Dacia": 5839
+, "Ford": 5620
+, "Peugeot": 4855
+, "Opel": 4539
+, "Jeep/Dodge": 4134
+, "Toyota": 3696
+, "Citroën": 3484
+, "BMW": 2779
+, "Smart": 2686
+, "Audi": 2663
+, "Mercedes-Benz": 2390
+, "Kia": 2299
+, "Hyundai": 2276
+, "Nissan": 1669
+, "Suzuki": 1460
+, "Škoda": 1382
+, "Seat": 1322
+, "Volvo": 894
+, "Mini": 758
+, "Land Rover": 621
+, "Mazda": 424
+, "Mitsubishi": 347
+, "Honda": 302
+, "Jaguar": 288
+, "Porsche": 238
+, "Subaru": 124
+, "Tesla": 113
+, "other": 5450
+});
+
+db.insert(db.countries.IT, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20agosto%20Top%2010%20alimentazione_5d6d2bcde6543.pdf",
+{ "Smart|Fortwo ED": 137
+, "Renault|Zoe": 98
+, "Tesla|Model 3": 71
+, "Nissan|Leaf": 68
+, "Smart|Forfour ED": 32
+, "BMW|i3 BEV": 28
+, "Hyundai|Kona Electric": 24
+, "Tesla|Model S": 24
+, "Tesla|Model X": 18
+, "Citroën|C-Zero": 7
+, "other": 27
+});
+
+db.insert(db.countries.IT, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Settembre%202019_UNRAE_marca_5d936235c9efa.pdf",
+{ "Fiat": 19393
+, "Volkswagen": 14075
+, "Ford": 9511
+, "Opel": 8552
+, "Peugeot": 7931
+, "Toyota": 7718
+, "Renault": 6276
+, "Citroën": 6199
+, "Jeep/Dodge": 5694
+, "Mercedes-Benz": 5205
+, "BMW": 4718
+, "Hyundai": 4553
+, "Audi": 4516
+, "Dacia": 4325
+, "Kia": 3803
+, "Nissan": 3678
+, "Suzuki": 2507
+, "Mini": 2079
+, "Seat": 2068
+, "Škoda": 1979
+, "Volvo": 1973
+, "Smart": 1634
+, "Land Rover": 1457
+, "Mazda": 1273
+, "Honda": 753
+, "Porsche": 636
+, "Jaguar": 599
+, "Mitsubishi": 457
+, "Tesla": 375
+, "Subaru": 192
+, "other": 8007
+});
+
+db.insert(db.countries.IT, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20settembre%20Top%2010%20alimentazione_5d936ba2d3846.pdf",
+{ "Tesla|Model 3": 325
+, "Nissan|Leaf": 260
+, "Smart|Fortwo ED": 250
+, "Renault|Zoe": 139
+, "BMW|i3 BEV": 76
+, "Smart|Forfour ED": 64
+, "Hyundai|Kona Electric": 41
+, "Tesla|Model X": 35
+, "Jaguar|I-Pace": 27
+, "Tesla|Model S": 15
+, "other": 21
+});
+
+db.insert(db.countries.IT, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20ottobre%202019_UNRAE%20marca_5dc0581455cca.pdf",
+{ "Fiat": 21487
+, "Volkswagen": 16890
+, "Ford": 10772
+, "Peugeot": 9772
+, "Toyota": 8468
+, "Renault": 8368
+, "Citroën": 6809
+, "Opel": 5923
+, "Audi": 5559
+, "Jeep/Dodge": 5431
+, "BMW": 5158
+, "Dacia": 5134
+, "Mercedes-Benz": 5124
+, "Hyundai": 4998
+, "Kia": 4562
+, "Nissan": 3811
+, "Suzuki": 3545
+, "Smart": 2162
+, "Seat": 2159
+, "Volvo": 2111
+, "Škoda": 2035
+, "Mini": 1983
+, "Land Rover": 1583
+, "Mazda": 1399
+, "Jaguar": 782
+, "Porsche": 768
+, "Honda": 736
+, "Mitsubishi": 685
+, "Subaru": 225
+, "Tesla": 67
+, "GWM": 17
+, "other": 8328
+});
+
+db.insert(db.countries.IT, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20ottobre%202019%20Top%2010%20alimentazione_5dc04e27db892.pdf",
+{ "Smart|Fortwo ED": 407
+, "Nissan|Leaf": 96
+, "Renault|Zoe": 89
+, "Smart|Forfour ED": 85
+, "Hyundai|Kona Electric": 55
+, "Tesla|Model 3": 54
+, "BMW|i3 BEV": 49
+, "Jaguar|I-Pace": 37
+, "Volkswagen|e-Golf": 24
+, "Citroën|C-Zero": 12
+, "other": 31
+});
+
+db.insert(db.countries.IT, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20novembre%202019_UNRAE%20marca_5de51a62920a2.pdf",
+{ "Fiat": 21733
+, "Volkswagen": 14022
+, "Ford": 9996
+, "Renault": 8472
+, "Peugeot": 8021
+, "Toyota": 7642
+, "Citroën": 6296
+, "Jeep/Dodge": 5943
+, "Dacia": 5884
+, "Smart": 5609
+, "Opel": 5534
+, "Audi": 5431
+, "Mercedes-Benz": 5388
+, "BMW": 4758
+, "Hyundai": 4715
+, "Kia": 3949
+, "Nissan": 2893
+, "Suzuki": 2395
+, "Seat": 2189
+, "Volvo": 2142
+, "Škoda": 2089
+, "Mini": 2066
+, "Mazda": 1443
+, "Land Rover": 1267
+, "Honda": 726
+, "Mitsubishi": 628
+, "Porsche": 575
+, "Jaguar": 477
+, "Subaru": 303
+, "Tesla": 136
+, "GWM": 21
+, "other": 7844
+});
+
+db.insert(db.countries.IT, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20novembre_Top%2010%20alimentazione_5de51b63ae97e.pdf",
+{ "Smart|Fortwo ED": 426
+, "Renault|Zoe": 254
+, "Tesla|Model 3": 102
+, "Nissan|Leaf": 68
+, "Smart|Forfour ED": 47
+, "Hyundai|Kona Electric": 42
+, "BMW|i3 BEV": 39
+, "Tesla|Model X": 18
+, "Tesla|Model S": 16
+, "Audi|Q8 e-tron": 13
+, "other": 43
+});
+
+db.insert(db.countries.IT, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20dicembre%202019_UNRAE%20marca_5e0e1e63493e8.pdf",
+{ "Fiat": 19294
+, "Volkswagen": 10891
+, "Renault": 9655
+, "Ford": 9326
+, "Peugeot": 7587
+, "Smart": 7551
+, "Dacia": 6677
+, "Mercedes-Benz": 6241
+, "Jeep/Dodge": 5741
+, "Toyota": 5452
+, "Citroën": 5254
+, "Audi": 4913
+, "BMW": 4526
+, "Hyundai": 4086
+, "Suzuki": 4083
+, "Kia": 3444
+, "Opel": 3305
+, "Nissan": 2754
+, "Seat": 1976
+, "Škoda": 1792
+, "Mazda": 1593
+, "Mini": 1330
+, "Volvo": 1212
+, "Land Rover": 926
+, "Honda": 585
+, "Mitsubishi": 573
+, "Porsche": 450
+, "Jaguar": 424
+, "Subaru": 380
+, "Tesla": 364
+, "GWM": 23
+, "other": 7667
+});
+
+db.insert(db.countries.IT, "2019-12", db.dsTypes.ElectricCarsByModel, "https://www.unrae.it/files/06%20dicembre%20UNRAE%20Top%2010%20alimentazione_5e0e1d2f0bfc8.pdf",
+{ "Tesla|Model 3": 296
+, "Smart|Fortwo ED": 239
+, "Hyundai|Kona Electric": 56
+, "Nissan|Leaf": 55
+, "Tesla|Model X": 40
+, "Renault|Zoe": 39
+, "BMW|i3 BEV": 36
+, "Smart|Forfour ED": 35
+, "Tesla|Model S": 28
+, "Citroën|C-Zero": 4
+, "other": 16
+});
+
 db.insert(db.countries.IT, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20gennaio%202020_UNRAE_marca_5e384c4443c01.pdf",
 { "Fiat": 25842
 , "Volkswagen": 15003
