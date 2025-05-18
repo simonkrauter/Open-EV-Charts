@@ -1038,7 +1038,8 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.dr
 , "GWM": 3433
 , "Nissan": 3035
 , "Subaru": 2924
-, "other": 24038
+, "Tesla": 739
+, "other": 23299
 });
 
 db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/05/05/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
