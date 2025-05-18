@@ -335,7 +335,7 @@ db.insert(db.countries.ROTW, "2020-06", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2020-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 5886
+{ "other": 5885
 });
 
 db.insert(db.countries.ROTW, "2020-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -351,7 +351,7 @@ db.insert(db.countries.ROTW, "2020-08", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2020-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 7684
+{ "other": 7683
 });
 
 db.insert(db.countries.ROTW, "2020-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -387,7 +387,7 @@ db.insert(db.countries.ROTW, "2020-12", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2407652
+{ "other": 2407661
 });
 
 db.insert(db.countries.ROTW, "2021-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -395,7 +395,7 @@ db.insert(db.countries.ROTW, "2021-01", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1931846
+{ "other": 1931853
 });
 
 db.insert(db.countries.ROTW, "2021-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -403,7 +403,7 @@ db.insert(db.countries.ROTW, "2021-02", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2508069
+{ "other": 2508079
 });
 
 db.insert(db.countries.ROTW, "2021-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -411,7 +411,7 @@ db.insert(db.countries.ROTW, "2021-03", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2435589
+{ "other": 2435598
 });
 
 db.insert(db.countries.ROTW, "2021-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -419,7 +419,7 @@ db.insert(db.countries.ROTW, "2021-04", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2357242
+{ "other": 2357251
 });
 
 db.insert(db.countries.ROTW, "2021-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -427,7 +427,7 @@ db.insert(db.countries.ROTW, "2021-05", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2434419
+{ "other": 2434428
 });
 
 db.insert(db.countries.ROTW, "2021-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -435,7 +435,7 @@ db.insert(db.countries.ROTW, "2021-06", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2078788
+{ "other": 2078795
 });
 
 db.insert(db.countries.ROTW, "2021-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -443,7 +443,7 @@ db.insert(db.countries.ROTW, "2021-07", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1956872
+{ "other": 1956841
 });
 
 db.insert(db.countries.ROTW, "2021-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -451,7 +451,7 @@ db.insert(db.countries.ROTW, "2021-08", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2169932
+{ "other": 2169940
 });
 
 db.insert(db.countries.ROTW, "2021-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -459,7 +459,7 @@ db.insert(db.countries.ROTW, "2021-09", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2218935
+{ "other": 2218944
 });
 
 db.insert(db.countries.ROTW, "2021-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -467,7 +467,7 @@ db.insert(db.countries.ROTW, "2021-10", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2325026
+{ "other": 2325035
 });
 
 db.insert(db.countries.ROTW, "2021-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -475,7 +475,7 @@ db.insert(db.countries.ROTW, "2021-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2500929
+{ "other": 2500939
 });
 
 db.insert(db.countries.ROTW, "2021-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -503,7 +503,7 @@ db.insert(db.countries.ROTW, "2022-03", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2022-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 43876
+{ "other": 43877
 });
 
 db.insert(db.countries.ROTW, "2022-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -543,7 +543,7 @@ db.insert(db.countries.ROTW, "2022-08", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2022-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 46031
+{ "other": 46032
 });
 
 db.insert(db.countries.ROTW, "2022-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -551,7 +551,7 @@ db.insert(db.countries.ROTW, "2022-09", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2022-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 53992
+{ "other": 53993
 });
 
 db.insert(db.countries.ROTW, "2022-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -575,103 +575,103 @@ db.insert(db.countries.ROTW, "2022-12", db.dsTypes.AllCarsTotal, "https://www.ie
 });
 
 db.insert(db.countries.ROTW, "2022-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 63380
+{ "other": 63382
 });
 
 db.insert(db.countries.ROTW, "2023-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1601542
+{ "other": 1601547
 });
 
 db.insert(db.countries.ROTW, "2023-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 35986
+{ "other": 35987
 });
 
 db.insert(db.countries.ROTW, "2023-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1638223
+{ "other": 1638228
 });
 
 db.insert(db.countries.ROTW, "2023-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 45106
+{ "other": 45107
 });
 
 db.insert(db.countries.ROTW, "2023-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1816302
+{ "other": 1816308
 });
 
 db.insert(db.countries.ROTW, "2023-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 54857
+{ "other": 54858
 });
 
 db.insert(db.countries.ROTW, "2023-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1872709
+{ "other": 1872715
 });
 
 db.insert(db.countries.ROTW, "2023-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 55471
+{ "other": 55472
 });
 
 db.insert(db.countries.ROTW, "2023-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1939693
+{ "other": 1939699
 });
 
 db.insert(db.countries.ROTW, "2023-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 59123
+{ "other": 59125
 });
 
 db.insert(db.countries.ROTW, "2023-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2061506
+{ "other": 2061513
 });
 
 db.insert(db.countries.ROTW, "2023-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 66571
+{ "other": 66572
 });
 
 db.insert(db.countries.ROTW, "2023-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1909301
+{ "other": 1909307
 });
 
 db.insert(db.countries.ROTW, "2023-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 61290
+{ "other": 61291
 });
 
 db.insert(db.countries.ROTW, "2023-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1933450
+{ "other": 1933456
 });
 
 db.insert(db.countries.ROTW, "2023-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 69757
+{ "other": 69759
 });
 
 db.insert(db.countries.ROTW, "2023-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2115575
+{ "other": 2115582
 });
 
 db.insert(db.countries.ROTW, "2023-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 70962
+{ "other": 70963
 });
 
 db.insert(db.countries.ROTW, "2023-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2037997
+{ "other": 2038004
 });
 
 db.insert(db.countries.ROTW, "2023-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 69570
+{ "other": 69571
 });
 
 db.insert(db.countries.ROTW, "2023-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2055503
+{ "other": 2055510
 });
 
 db.insert(db.countries.ROTW, "2023-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 73588
+{ "other": 73590
 });
 
 db.insert(db.countries.ROTW, "2023-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 2186661
+{ "other": 2186645
 });
 
 db.insert(db.countries.ROTW, "2023-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 80542
+{ "other": 80543
 });
 
 db.insert(db.countries.ROTW, "2024-01", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -695,7 +695,7 @@ db.insert(db.countries.ROTW, "2024-03", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-03", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 62517
+{ "other": 62518
 });
 
 db.insert(db.countries.ROTW, "2024-04", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -703,7 +703,7 @@ db.insert(db.countries.ROTW, "2024-04", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-04", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 54107
+{ "other": 54108
 });
 
 db.insert(db.countries.ROTW, "2024-05", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -711,7 +711,7 @@ db.insert(db.countries.ROTW, "2024-05", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-05", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 61785
+{ "other": 61786
 });
 
 db.insert(db.countries.ROTW, "2024-06", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -719,7 +719,7 @@ db.insert(db.countries.ROTW, "2024-06", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-06", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 64740
+{ "other": 64741
 });
 
 db.insert(db.countries.ROTW, "2024-07", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -743,7 +743,7 @@ db.insert(db.countries.ROTW, "2024-09", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-09", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 78730
+{ "other": 78731
 });
 
 db.insert(db.countries.ROTW, "2024-10", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -751,7 +751,7 @@ db.insert(db.countries.ROTW, "2024-10", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-10", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 77678
+{ "other": 77679
 });
 
 db.insert(db.countries.ROTW, "2024-11", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -767,7 +767,7 @@ db.insert(db.countries.ROTW, "2024-12", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-12", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 87016
+{ "other": 87017
 });
 
 db.insert(db.countries.ROTW, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/03/03/top-selling-electric-vehicles-in-the-world-january-2025/",
@@ -783,7 +783,7 @@ db.insert(db.countries.ROTW, "2025-02", db.dsTypes.AllCarsTotal, "https://cleant
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
-{ "other": 237582
+{ "other": 237583
 });
 
 db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
@@ -791,5 +791,5 @@ db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleant
 });
 
 db.insert(db.countries.ROTW, "2025-03", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
-{ "other": 96659
+{ "other": 96629
 });
