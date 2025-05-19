@@ -1490,7 +1490,7 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
   }
 
   // set flag
-  if (countryId) {
+  if (countryId && countryCode != "ROTW") {
     flag.classList.add("nonEmpty");
     flag.title = countryNamesByCode[countryCode];
     const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;
@@ -1551,160 +1551,166 @@ function renderCountriesStatusPage() {
   renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
   for (const i in db.countriesWithData) {
     const countryId = db.countriesWithData[i];
-    const countryCode = db.countriesCodes[countryId];
-    const countryName = db.countryNames[countryId];
-    // collect data from the first dataset
-    let firstMonthString = "";
-    for (const j in db.datasets) {
-      const dataset = db.datasets[j];
-      if (dataset.country != countryId)
-        continue;
-      firstMonthString = dataset.monthString;
-      break;
-    }
-    // collect data from the latest datasets
-    let isLastDatasetPerQuarter = false;
-    let latestAllCarsDataset = null;
-    let latestEvDataset = null;
-    let oldEvDataset = null;
-    let monthCount = 0;
-    for (let j = db.datasets.length - 1; j >= 0; j--) {
-      const dataset = db.datasets[j];
-      if (dataset.country != countryId)
-        continue;
-      if (!dataset.isEvs) {
-        if (latestAllCarsDataset == null) {
-          latestAllCarsDataset = dataset;
-          isLastDatasetPerQuarter = dataset.perQuarter;
-        }
-      } else {
-        if (latestEvDataset == null)
-          latestEvDataset = dataset;
-        monthCount++;
-        if (monthCount == 6) {
-          oldEvDataset = dataset;
-          break;
-        }
+    renderCountriesStatusPageRow(table, countryId, parseInt(i) + 1);
+  }
+  renderCountriesStatusPageRow(table, db.countries["ROTW"]);
+}
+
+function renderCountriesStatusPageRow(table, countryId, index = "") {
+  const countryCode = db.countriesCodes[countryId];
+  const countryName = db.countryNames[countryId];
+  // collect data from the first dataset
+  let firstMonthString = "";
+  for (const j in db.datasets) {
+    const dataset = db.datasets[j];
+    if (dataset.country != countryId)
+      continue;
+    firstMonthString = dataset.monthString;
+    break;
+  }
+  // collect data from the latest datasets
+  let isLastDatasetPerQuarter = false;
+  let latestAllCarsDataset = null;
+  let latestEvDataset = null;
+  let oldEvDataset = null;
+  let monthCount = 0;
+  for (let j = db.datasets.length - 1; j >= 0; j--) {
+    const dataset = db.datasets[j];
+    if (dataset.country != countryId)
+      continue;
+    if (!dataset.isEvs) {
+      if (latestAllCarsDataset == null) {
+        latestAllCarsDataset = dataset;
+        isLastDatasetPerQuarter = dataset.perQuarter;
       }
-    }
-    var monthsNewDataIsOverdue = 0;
-    if (latestAllCarsDataset != null) {
-      let date = new Date(latestAllCarsDataset.monthString);
-      if (isLastDatasetPerQuarter)
-        date.setMonth(date.getMonth() + 4);
-      else
-        date.setMonth(date.getMonth() + 2);
-      monthsNewDataIsOverdue = (Date.now() - date) / 1000 / 60 / 60 / 24 / 30;
-    }
-    // collect data from the latest 12 datasets
-    let allCarSalesSum = 0;
-    let evSalesSum = 0;
-    let salesMonthCount = 0;
-    for (let j = db.datasets.length - 1; j >= 0; j--) {
-      const dataset = db.datasets[j];
-      if (dataset.country != countryId)
-        continue;
-      for (const dataKey in dataset.data) {
-        if (!dataset.isEvs)
-          allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
-        else
-          evSalesSum = evSalesSum + dataset.data[dataKey];
-      }
-      if (!dataset.isEvs)
-        salesMonthCount++;
-      if (salesMonthCount == 12)
+    } else {
+      if (latestEvDataset == null)
+        latestEvDataset = dataset;
+      monthCount++;
+      if (monthCount == 6) {
+        oldEvDataset = dataset;
         break;
-    }
-    const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
-    const evSalesPerYear = evSalesSum / salesMonthCount * 12;
-    const tr = newChildNode(table, "TR");
-    // index
-    {
-      const td = newChildNode(tr, "TD", parseInt(i) + 1);
-      td.style.textAlign = "right";
-    }
-    // name
-    {
-      const td = newChildNode(tr, "TD");
-      let newChartConfig = {};
-      newChartConfig.country = countryCode;
-      newChartConfig.metric = db.metrics.all;
-      if (isLastDatasetPerQuarter)
-        newChartConfig.xProperty = db.xProperties.quarter;
-      else
-        newChartConfig.xProperty = db.xProperties.month;
-      const a = createLink(db.encodeChartConfig(newChartConfig));
-      td.appendChild(a);
-      a.appendChild(createCountryFlagContainer(countryCode, countryName, true, tableFlagSizeFactor));
-    }
-    // available data
-    {
-      const td = newChildNode(tr, "TD", firstMonthString + " – ");
-      if (latestAllCarsDataset != null) {
-        const span = newChildNode(td, "SPAN", latestAllCarsDataset.monthString);
-        span.classList.add("status");
-        if (monthsNewDataIsOverdue > 2.5)
-          span.classList.add("bad");
-        else if (monthsNewDataIsOverdue > 1)
-          span.classList.add("medium");
-        else
-          span.classList.add("good");
       }
-      td.style.textAlign = "center";
     }
-    // interval
-    {
-      if (isLastDatasetPerQuarter)
-        newChildNode(tr, "TD", "Quarter");
+  }
+  var monthsNewDataIsOverdue = 0;
+  if (latestAllCarsDataset != null) {
+    let date = new Date(latestAllCarsDataset.monthString);
+    if (isLastDatasetPerQuarter)
+      date.setMonth(date.getMonth() + 4);
+    else
+      date.setMonth(date.getMonth() + 2);
+    monthsNewDataIsOverdue = (Date.now() - date) / 1000 / 60 / 60 / 24 / 30;
+  }
+  // collect data from the latest 12 datasets
+  let allCarSalesSum = 0;
+  let evSalesSum = 0;
+  let salesMonthCount = 0;
+  for (let j = db.datasets.length - 1; j >= 0; j--) {
+    const dataset = db.datasets[j];
+    if (dataset.country != countryId)
+      continue;
+    for (const dataKey in dataset.data) {
+      if (!dataset.isEvs)
+        allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
       else
-        newChildNode(tr, "TD", "Month");
+        evSalesSum = evSalesSum + dataset.data[dataKey];
     }
-    // all car data detailedness
-    {
-      const td = newChildNode(tr, "TD");
-      if (latestAllCarsDataset != null) {
-        const span = newChildNode(td, "SPAN");
-        span.classList.add("status");
-        if (Object.keys(latestAllCarsDataset.data).length > 1) {
-          span.appendChild(document.createTextNode("By brand"));
-          span.classList.add("good");
-        } else {
-          span.appendChild(document.createTextNode("Total only"));
+    if (!dataset.isEvs)
+      salesMonthCount++;
+    if (salesMonthCount == 12)
+      break;
+  }
+  const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
+  const evSalesPerYear = evSalesSum / salesMonthCount * 12;
+  const tr = newChildNode(table, "TR");
+  // index
+  {
+    const td = newChildNode(tr, "TD", index);
+    td.style.textAlign = "right";
+  }
+  // name
+  {
+    const td = newChildNode(tr, "TD");
+    let newChartConfig = {};
+    newChartConfig.country = countryCode;
+    newChartConfig.metric = db.metrics.all;
+    if (isLastDatasetPerQuarter)
+      newChartConfig.xProperty = db.xProperties.quarter;
+    else
+      newChartConfig.xProperty = db.xProperties.month;
+    const a = createLink(db.encodeChartConfig(newChartConfig));
+    td.appendChild(a);
+    a.appendChild(createCountryFlagContainer(countryCode, countryName, true, tableFlagSizeFactor));
+  }
+  // available data
+  {
+    const td = newChildNode(tr, "TD", firstMonthString + " – ");
+    if (latestAllCarsDataset != null) {
+      const span = newChildNode(td, "SPAN", latestAllCarsDataset.monthString);
+      span.classList.add("status");
+      if (monthsNewDataIsOverdue > 2.5)
+        span.classList.add("bad");
+      else if (monthsNewDataIsOverdue > 1)
+        span.classList.add("medium");
+      else
+        span.classList.add("good");
+    }
+    td.style.textAlign = "center";
+  }
+  // interval
+  {
+    if (isLastDatasetPerQuarter)
+      newChildNode(tr, "TD", "Quarter");
+    else
+      newChildNode(tr, "TD", "Month");
+  }
+  // all car data detailedness
+  {
+    const td = newChildNode(tr, "TD");
+    if (latestAllCarsDataset != null) {
+      const span = newChildNode(td, "SPAN");
+      span.classList.add("status");
+      if (Object.keys(latestAllCarsDataset.data).length > 1) {
+        span.appendChild(document.createTextNode("By brand"));
+        span.classList.add("good");
+      } else {
+        span.appendChild(document.createTextNode("Total only"));
+        if (countryCode != "ROTW")
           span.classList.add("medium");
+      }
+    }
+  }
+  // ev data detailedness
+  {
+    const td = newChildNode(tr, "TD");
+    if (latestEvDataset) {
+      let span = getEvDetailednessSpan(latestEvDataset);
+      td.appendChild(span);
+      if (oldEvDataset != null) {
+        const oldSpan = getEvDetailednessSpan(oldEvDataset);
+        if (oldSpan.classList.value != span.classList.value) {
+          td.appendChild(document.createTextNode(" / "));
+          td.appendChild(oldSpan);
         }
       }
     }
-    // ev data detailedness
-    {
-      const td = newChildNode(tr, "TD");
-      if (latestEvDataset) {
-        let span = getEvDetailednessSpan(latestEvDataset);
-        td.appendChild(span);
-        if (oldEvDataset != null) {
-          const oldSpan = getEvDetailednessSpan(oldEvDataset);
-          if (oldSpan.classList.value != span.classList.value) {
-            td.appendChild(document.createTextNode(" / "));
-            td.appendChild(oldSpan);
-          }
-        }
-      }
-    }
-    // car market size
-    {
-      const td = newChildNode(tr, "TD", formatIntForStatusTable(allCarSalesPerYear));
-      td.style.textAlign = "right";
-    }
-    // ev market size
-    {
-      const td = newChildNode(tr, "TD", formatIntForStatusTable(evSalesPerYear));
-      td.style.textAlign = "right";
-    }
-    // relative ev sales
-    {
-      const val = evSalesPerYear / allCarSalesPerYear * 100;
-      const td = newChildNode(tr, "TD", val.toFixed(1).toLocaleString() + " %");
-      td.style.textAlign = "right";
-    }
+  }
+  // car market size
+  {
+    const td = newChildNode(tr, "TD", formatIntForStatusTable(allCarSalesPerYear));
+    td.style.textAlign = "right";
+  }
+  // ev market size
+  {
+    const td = newChildNode(tr, "TD", formatIntForStatusTable(evSalesPerYear));
+    td.style.textAlign = "right";
+  }
+  // relative ev sales
+  {
+    const val = evSalesPerYear / allCarSalesPerYear * 100;
+    const td = newChildNode(tr, "TD", val.toFixed(1).toLocaleString() + " %");
+    td.style.textAlign = "right";
   }
 }
 
@@ -1733,7 +1739,8 @@ function getEvDetailednessSpan(dataset) {
     span.classList.add("medium");
   } else {
     span.appendChild(document.createTextNode("Total only"));
-    span.classList.add("medium");
+    if (dataset.countryName != db.rotwCoutryName)
+      span.classList.add("medium");
   }
   return span;
 }
