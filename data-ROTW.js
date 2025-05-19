@@ -679,7 +679,7 @@ db.insert(db.countries.ROTW, "2024-01", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-01", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 47679
+{ "other": 47666
 });
 
 db.insert(db.countries.ROTW, "2024-02", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -687,7 +687,7 @@ db.insert(db.countries.ROTW, "2024-02", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-02", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 42177
+{ "other": 42165
 });
 
 db.insert(db.countries.ROTW, "2024-03", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -695,7 +695,7 @@ db.insert(db.countries.ROTW, "2024-03", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-03", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 62518
+{ "other": 62499
 });
 
 db.insert(db.countries.ROTW, "2024-04", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -703,7 +703,7 @@ db.insert(db.countries.ROTW, "2024-04", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-04", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 54108
+{ "other": 54092
 });
 
 db.insert(db.countries.ROTW, "2024-05", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -711,7 +711,7 @@ db.insert(db.countries.ROTW, "2024-05", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-05", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 61786
+{ "other": 61768
 });
 
 db.insert(db.countries.ROTW, "2024-06", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -719,7 +719,7 @@ db.insert(db.countries.ROTW, "2024-06", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-06", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 64741
+{ "other": 64722
 });
 
 db.insert(db.countries.ROTW, "2024-07", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -727,7 +727,7 @@ db.insert(db.countries.ROTW, "2024-07", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-07", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 59109
+{ "other": 59092
 });
 
 db.insert(db.countries.ROTW, "2024-08", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -735,7 +735,7 @@ db.insert(db.countries.ROTW, "2024-08", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-08", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 67176
+{ "other": 67156
 });
 
 db.insert(db.countries.ROTW, "2024-09", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -743,7 +743,7 @@ db.insert(db.countries.ROTW, "2024-09", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-09", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 78731
+{ "other": 78718
 });
 
 db.insert(db.countries.ROTW, "2024-10", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -751,7 +751,7 @@ db.insert(db.countries.ROTW, "2024-10", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-10", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 77679
+{ "other": 77663
 });
 
 db.insert(db.countries.ROTW, "2024-11", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -759,7 +759,7 @@ db.insert(db.countries.ROTW, "2024-11", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-11", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 85581
+{ "other": 85556
 });
 
 db.insert(db.countries.ROTW, "2024-12", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -767,15 +767,15 @@ db.insert(db.countries.ROTW, "2024-12", db.dsTypes.AllCarsTotal, "https://autovi
 });
 
 db.insert(db.countries.ROTW, "2024-12", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 87017
+{ "other": 86990
 });
 
 db.insert(db.countries.ROTW, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/03/03/top-selling-electric-vehicles-in-the-world-january-2025/",
-{ "other": 2517786
+{ "other": 2526007
 });
 
 db.insert(db.countries.ROTW, "2025-01", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/03/03/top-selling-electric-vehicles-in-the-world-january-2025/",
-{ "other": 99908
+{ "other": 99744
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
@@ -783,7 +783,7 @@ db.insert(db.countries.ROTW, "2025-02", db.dsTypes.AllCarsTotal, "https://cleant
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
-{ "other": 237583
+{ "other": 236563
 });
 
 db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
@@ -791,5 +791,5 @@ db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleant
 });
 
 db.insert(db.countries.ROTW, "2025-03", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
-{ "other": 96629
+{ "other": 96101
 });
