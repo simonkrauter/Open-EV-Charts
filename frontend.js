@@ -1669,16 +1669,8 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   {
     const td = newChildNode(tr, "TD");
     if (latestAllCarsDataset != null) {
-      const span = newChildNode(td, "SPAN");
-      span.classList.add("status");
-      if (Object.keys(latestAllCarsDataset.data).length > 1) {
-        span.appendChild(document.createTextNode("By brand"));
-        span.classList.add("good");
-      } else {
-        span.appendChild(document.createTextNode("Total only"));
-        if (countryCode != "ROTW")
-          span.classList.add("medium");
-      }
+      let span = getAllCarsDetailednessSpan(latestAllCarsDataset);
+      td.appendChild(span);
     }
   }
   // ev data detailedness
@@ -1712,6 +1704,31 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     const td = newChildNode(tr, "TD", val.toFixed(1).toLocaleString() + " %");
     td.style.textAlign = "right";
   }
+}
+
+function getAllCarsDetailednessSpan(dataset) {
+  let brandCount = 0;
+  for (const key in dataset.data) {
+    if (key != "other")
+      brandCount++;
+  }
+  const span = document.createElement("SPAN");
+  span.classList.add("status");
+  if (brandCount >= 30) {
+    span.appendChild(document.createTextNode("Top 30 brands"));
+    span.classList.add("good");
+  } else if (brandCount >= 20) {
+    span.appendChild(document.createTextNode("Top 20 brands"));
+    span.classList.add("medium");
+  } else if (brandCount >= 10) {
+    span.appendChild(document.createTextNode("Top 10 brands"));
+    span.classList.add("medium");
+  } else {
+    span.appendChild(document.createTextNode("Total only"));
+    if (dataset.countryName != db.rotwCoutryName)
+      span.classList.add("medium");
+  }
+  return span;
 }
 
 function getEvDetailednessSpan(dataset) {
