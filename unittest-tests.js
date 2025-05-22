@@ -128,8 +128,10 @@ runTest("home", function() {
   assert(db.unfoldChartConfig(chartConfig).length, 3);
 });
 
-runTest("unfoldMetric", function() {
-  let chartConfig = db.decodeChartConfigString("DE");
+runTest("unfoldMetric_all", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig = completeChartConfig(chartConfig);
   assert(db.needsUnfold(chartConfig));
   const chartConfigs = db.unfoldChartConfig(chartConfig);
   assert(chartConfigs.length, 6);
@@ -139,7 +141,52 @@ runTest("unfoldMetric", function() {
   }
 });
 
-runTest("unfoldXProperty", function() {
+runTest("unfoldMetric_2", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.metric = [db.metrics.salesElectric, db.metrics.salesAll].join(",");
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 2);
+  assert(chartConfigs[0].country, "DE");
+  assert(chartConfigs[0].metric, db.metrics.salesElectric);
+  assert(chartConfigs[1].country, "DE");
+  assert(chartConfigs[1].metric, db.metrics.salesAll);
+});
+
+runTest("unfoldXProperty_all", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.all;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 9);
+  for (let i in chartConfigs) {
+    assert(chartConfigs[i].xProperty != db.xProperties.all);
+  }
+});
+
+runTest("unfoldXProperty_2", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = [db.xProperties.month, db.xProperties.quarter].join(",");
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 2);
+  assert(chartConfigs[0].country, "DE");
+  assert(chartConfigs[0].metric, db.metrics.salesElectric);
+  assert(chartConfigs[0].xProperty, db.xProperties.month);
+  assert(chartConfigs[1].country, "DE");
+  assert(chartConfigs[1].metric, db.metrics.salesElectric);
+  assert(chartConfigs[1].xProperty, db.xProperties.quarter);
+});
+
+runTest("unfoldXProperty_all_oldEncoding", function() {
   let chartConfig = db.decodeChartConfigString("DE:electric-ratio:all");
   assert(db.needsUnfold(chartConfig));
   const chartConfigs = db.unfoldChartConfig(chartConfig);
@@ -147,6 +194,51 @@ runTest("unfoldXProperty", function() {
   for (let i in chartConfigs) {
     assert(chartConfigs[i].xProperty != db.xProperties.all);
   }
+});
+
+runTest("unfoldCountry_all", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 2);
+});
+
+runTest("unfoldCountry_2", function() {
+  let chartConfig = {};
+  chartConfig.country = ["BR", "DE"].join(",");
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 2);
+  assert(chartConfigs[0].country, "BR");
+  assert(chartConfigs[0].metric, db.metrics.salesElectric);
+  assert(chartConfigs[0].detailLevel, db.detailLevels.company);
+  assert(chartConfigs[1].country, "DE");
+  assert(chartConfigs[1].metric, db.metrics.salesElectric);
+  assert(chartConfigs[1].detailLevel, db.detailLevels.company);
+});
+
+runTest("combineCountry_all", function() {
+  let chartConfig = {};
+  chartConfig.country = "combine-countries";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+});
+
+runTest("combineCountry_2", function() {
+  let chartConfig = {};
+  chartConfig.country = ["BR", "DE", "combine-countries"].join(",");
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
 });
 
 
