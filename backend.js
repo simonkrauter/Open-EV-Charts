@@ -1102,7 +1102,7 @@ var db = {
   needsUnfold: function(chartSetConfig) {
     if (this.isMultiMetric(chartSetConfig) && (this.getNumberOfSeries(chartSetConfig) > 1 || ![this.views.table, this.views.sources].includes(chartSetConfig.view)))
       return true;
-    if (chartSetConfig.xProperty == this.xProperties.all || chartSetConfig.xProperty.includes(","))
+    if (this.isMultiXProperties(chartSetConfig) && !this.isByMonth(chartSetConfig))
       return true;
     if (!this.isTimeXProperty(chartSetConfig))
       return false;
@@ -1114,6 +1114,10 @@ var db = {
     if (chartSetConfig.detailLevel == this.detailLevels.brand && (chartSetConfig.brand == this.brandOptions.all || this.getBrands(chartSetConfig).length > 1))
       count++;
     if (chartSetConfig.detailLevel == this.detailLevels.model && (chartSetConfig.model == this.modelOptions.all || this.getModels(chartSetConfig).length > 1))
+      count++;
+    if (this.isMultiXProperties(chartSetConfig))
+      count++;
+    if (this.isMultiMetric(chartSetConfig))
       count++;
     return count > 1;
   },
@@ -1284,6 +1288,8 @@ var db = {
   },
 
   getDefaultSeriesName: function(params, chartConfig) {
+    if (chartConfig.unfoldForQueryParamName == "xProperty")
+      return params.xProperty.options[chartConfig.xProperty];
     return params.metric.options[chartConfig.metric];
   },
 
@@ -2045,6 +2051,8 @@ var db = {
       return true;
     if (this.isMultiMetric(chartConfig))
       return true;
+    if (this.isMultiXProperties(chartConfig))
+      return false;
     if (chartConfig.metric == this.metrics.ratioElectric && chartConfig.detailLevel == this.detailLevels.total && chartConfig.country == this.countryOptions.all && chartConfig.xProperty != this.xProperties.country)
       return false;
     return this.getNumberOfSeries(chartConfig) <= 3 || this.isBarChartStacked(chartConfig);
@@ -2389,7 +2397,7 @@ var db = {
   },
 
   queryChartDataSingle: function(chartConfig, sortByName) {
-    // Queries the chart data for a single metric.
+    // Queries the chart data for a single metric and single xProperty.
     let chartData;
 
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
@@ -2424,12 +2432,24 @@ var db = {
       }
       return newChartConfigs;
     }
+    // xProperty
+    if (this.isMultiXProperties(chartConfig)) {
+      let newChartConfigs = [];
+      const xProperties = chartConfig.xProperty.split(",");
+      for (const i in xProperties) {
+        let newConfig = this.cloneObject(chartConfig);
+        newConfig.xProperty = xProperties[i];
+        newConfig.unfoldForQueryParamName = "xProperty";
+        newChartConfigs.push(newConfig);
+      }
+      return newChartConfigs;
+    }
     return [chartConfig];
   },
 
   queryChartData: function(chartConfig, sortByName) {
     // Queries the data for one chart.
-    // Can combine multiple metrics.
+    // Can combine multiple metrics and x-properties.
     let chartData;
     const chartConfigs = this.unfoldForQuery(chartConfig);
     for (const i in chartConfigs) {
