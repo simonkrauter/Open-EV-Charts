@@ -1129,6 +1129,8 @@ var db = {
   },
 
   unfoldChartConfig: function(chartSetConfig) {
+    // Splits one chart config into multiple chart config by unfolding one parameter.
+    // The resulting chart configs are one level closer to what can be displayed.
     if (!this.needsUnfold(chartSetConfig))
       return [chartSetConfig];
 
