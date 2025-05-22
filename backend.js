@@ -1269,6 +1269,10 @@ var db = {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },
 
+  getDefaultSeriesName: function(params, chartConfig) {
+    return params.metric.options[chartConfig.metric];
+  },
+
   queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
     // Returns datasets for chart
     const countryValues = this.getCountries(chartConfig);
@@ -1283,7 +1287,6 @@ var db = {
     }
 
     const params = db.getChartParams(chartConfig);
-    const defaultSeriesName = params.metric.options[chartConfig.metric];
 
     let filterCompanies = [];
     if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
@@ -1382,7 +1385,7 @@ var db = {
           category = "Other";
 
         // set seriesName
-        let seriesName = defaultSeriesName;
+        let seriesName;
         if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country) {
           if (dataset.country == this.countries.ROTW)
             seriesName = "other";
@@ -1402,7 +1405,11 @@ var db = {
               else
                 seriesName = dataKey;
             }
+          } else {
+            seriesName = this.getDefaultSeriesName(params, chartConfig);
           }
+        } else {
+          seriesName = this.getDefaultSeriesName(params, chartConfig);
         }
 
         // add entry to seriesRows, categories and sources
