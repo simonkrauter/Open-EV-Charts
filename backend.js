@@ -2367,8 +2367,8 @@ var db = {
     return chartData;
   },
 
-  queryChartDataSingleMetric: function(chartConfig, sortByName) {
-    // Queries the chart data for a single metric
+  queryChartDataSingle: function(chartConfig, sortByName) {
+    // Queries the chart data for a single metric.
     let chartData;
 
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
@@ -2389,15 +2389,30 @@ var db = {
     return chartData;
   },
 
+  unfoldForQuery: function(chartConfig) {
+    // Splits one chart config into multiple chart config by unfolding one parameter.
+    // The resulting chart configs can be passed to queryChartDataSingle().
+    if (this.isMultiMetric(chartConfig)) {
+      let newChartConfigs = [];
+      const metrics = this.getRealMetrics(chartConfig);
+      for (const i in metrics) {
+        let newConfig = this.cloneObject(chartConfig);
+        newConfig.metric = metrics[i];
+        newConfig.unfoldForQueryParamName = "metric";
+        newChartConfigs.push(newConfig);
+      }
+      return newChartConfigs;
+    }
+    return [chartConfig];
+  },
+
   queryChartData: function(chartConfig, sortByName) {
-    // Queries the data for one chart. Allows to combine multiple metrics.
+    // Queries the data for one chart.
+    // Can combine multiple metrics.
     let chartData;
-    let singleMetricChartConfig = this.cloneObject(chartConfig);
-    const metrics = this.getRealMetrics(chartConfig);
-    for (const i in metrics) {
-      const metric = metrics[i];
-      singleMetricChartConfig.metric = metric;
-      const newChartData = this.queryChartDataSingleMetric(singleMetricChartConfig, sortByName);
+    const chartConfigs = this.unfoldForQuery(chartConfig);
+    for (const i in chartConfigs) {
+      const newChartData = this.queryChartDataSingle(chartConfigs[i], sortByName);
       if (chartData != null) {
         for (const j in newChartData.series) {
           chartData.series.push(newChartData.series[j]);
