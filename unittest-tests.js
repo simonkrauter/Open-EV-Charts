@@ -61,8 +61,8 @@ function runTest(name, func) {
   func();
 }
 
-function queryChartDataByIncompleteChartConfig(chartConfig) {
-  return db.queryChartData(db.decodeChartConfigString(db.encodeChartConfig(chartConfig)));
+function completeChartConfig(chartConfig) {
+  return db.decodeChartConfigString(db.encodeChartConfig(chartConfig));
 }
 
 try {
@@ -96,21 +96,14 @@ runTest("decodeChartConfigString_1", function() {
   assert(chartConfig.timeSpan, "y2020");
 });
 
-runTest("unfoldChartConfig_1", function() {
-  let chartSetConfig = {};
-  chartSetConfig.country = "DE";
-  chartSetConfig.metric = db.metrics.all;
-  const chartConfigs = db.unfoldChartConfig(chartSetConfig);
-  assert(chartConfigs.length, 6);
-});
-
 runTest("queryChartData_month_1", function() {
   let chartConfig = {};
   chartConfig.country = "BR";
   chartConfig.metric = db.metrics.salesElectric;
   chartConfig.xProperty = db.xProperties.month;
   chartConfig.timeSpan = "1y";
-  const chartData = queryChartDataByIncompleteChartConfig(chartConfig);
+  chartConfig = completeChartConfig(chartConfig);
+  const chartData = db.queryChartData(chartConfig);
   assert(chartData.categories.length, 12);
   assert(chartData.series.length, 1);
   assert(chartData.series[0].data.length, 12);
@@ -122,10 +115,38 @@ runTest("queryChartData_monthAvg12_2", function() {
   chartConfig.metric = db.metrics.salesElectric;
   chartConfig.xProperty = db.xProperties.monthAvg12;
   chartConfig.timeSpan = "1y";
-  const chartData = queryChartDataByIncompleteChartConfig(chartConfig);
+  chartConfig = completeChartConfig(chartConfig);
+  const chartData = db.queryChartData(chartConfig);
   assert(chartData.categories.length, 12);
   assert(chartData.series.length, 1);
   assert(chartData.series[0].data.length, 12);
+});
+
+runTest("home", function() {
+  let chartConfig = db.decodeChartConfigString("");
+  assert(db.needsUnfold(chartConfig));
+  assert(db.unfoldChartConfig(chartConfig).length, 3);
+});
+
+runTest("unfoldMetric", function() {
+  let chartConfig = db.decodeChartConfigString("DE");
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 6);
+  for (let i in chartConfigs) {
+    assert(chartConfigs[i].country, "DE");
+    assert(chartConfigs[i].metric != db.metrics.all);
+  }
+});
+
+runTest("unfoldXProperty", function() {
+  let chartConfig = db.decodeChartConfigString("DE:electric-ratio:all");
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 6);
+  for (let i in chartConfigs) {
+    assert(chartConfigs[i].xProperty != db.xProperties.all);
+  }
 });
 
 
