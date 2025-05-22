@@ -970,7 +970,7 @@ var db = {
       }
     }
 
-    if (chartConfig.metric.includes(",")) {
+    if (chartConfig.metric && chartConfig.metric.includes(",")) {
       const values = chartConfig.metric.split(",");
       if (values.includes(this.metrics.all))
         chartConfig.metric = this.metrics.all;
