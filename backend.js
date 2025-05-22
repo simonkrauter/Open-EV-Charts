@@ -1590,6 +1590,8 @@ var db = {
     if (!this.isTimeXProperty(chartConfig))
       return;
     const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.rotwCoutryName];
+    if (!monthsPerTimeSpan)
+      return;
     let firstIncomplete = -1;
     for (const i in categories) {
       const timeSpan = categories[i];
