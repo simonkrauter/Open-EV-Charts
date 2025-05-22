@@ -110,7 +110,7 @@ var db = {
       dataset.perQuarter = true;
       dataset.data = {};
       for (const key in data) {
-        const val = Math.round(data[key] / 3);
+        const val = data[key] / 3;
         if (val > 0)
           dataset.data[key] = val;
       }
