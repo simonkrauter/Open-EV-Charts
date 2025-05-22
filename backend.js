@@ -1100,7 +1100,7 @@ var db = {
   },
 
   needsUnfold: function(chartSetConfig) {
-    if (this.isMultiMetric(chartSetConfig) && ![this.views.table, this.views.sources].includes(chartSetConfig.view))
+    if (this.isMultiMetric(chartSetConfig) && ![this.views.table, this.views.sources].includes(chartSetConfig.view) && !this.areMetricsCompatible(chartSetConfig))
       return true;
     if (this.isMultiXProperties(chartSetConfig) && !this.isByMonth(chartSetConfig))
       return true;
@@ -2080,6 +2080,15 @@ var db = {
 
   isMetricPercent: function(metric) {
     return [this.metrics.ratioElectric, this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(metric);
+  },
+
+  areMetricsCompatible: function(chartConfig) {
+    const metrics = this.getRealMetrics(chartConfig);
+    for (const i in metrics) {
+      if (![this.metrics.salesAll, this.metrics.salesElectric].includes(metrics[i]))
+        return false;
+    }
+    return true;
   },
 
   isYAxis100Percent: function(chartConfig) {
