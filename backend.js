@@ -1693,7 +1693,7 @@ var db = {
             nonGlobalTimeSpans.push(timeSpan);
         }
       }
-      if (monthsPerTimeSpan && this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+      if (monthsPerTimeSpan && (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y"))) {
         const currentYear = this.currentDate.getFullYear();
         const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
         let expectedNumberOfMonth;
