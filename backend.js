@@ -358,6 +358,10 @@ var db = {
     return this.isByMonth(chartConfig) || this.isByQuarter(chartConfig) || this.isByYear(chartConfig);
   },
 
+  isMultiXProperties: function(chartConfig) {
+    return chartConfig.xProperty == this.xProperties.all || (chartConfig.xProperty && chartConfig.xProperty.includes(","));
+  },
+
   isCompanyBrandModelXProperty: function(chartConfig) {
     return [this.xProperties.company, this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty);
   },
@@ -988,7 +992,7 @@ var db = {
     if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
       chartConfig.country = this.countriesCodes[this.countriesWithData[0]];
 
-    if (!chartConfig.xProperty || (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !chartConfig.xProperty.includes(",")))
+    if (!chartConfig.xProperty || (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !this.isMultiXProperties(chartConfig)))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
     if (this.isCompanyBrandModelXProperty(chartConfig))
