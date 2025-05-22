@@ -105,3 +105,124 @@ db.insert(db.countries.BR, "2024-12", db.dsTypes.AllCarsTotal, "",
 db.insert(db.countries.BR, "2024-12", db.dsTypes.ElectricCarsTotal, "",
 { "other": 24
 });
+
+
+db.insert(db.countries.DE, "2023-Q1", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 100
+, "Bravo": 300
+, "Charlie": 400
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2023-Q1", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 80
+, "Alpha|A2": 20
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2023-Q2", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 100
+, "Bravo": 300
+, "Charlie": 400
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2023-Q2", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 80
+, "Alpha|A2": 20
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2023-Q3", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 100
+, "Bravo": 300
+, "Charlie": 400
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2023-Q3", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 80
+, "Alpha|A2": 20
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2023-Q4", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 100
+, "Bravo": 300
+, "Charlie": 400
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2023-Q4", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 80
+, "Alpha|A2": 20
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2024-Q1", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 200
+, "Bravo": 300
+, "Charlie": 300
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2024-Q1", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 100
+, "Alpha|A2": 50
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2024-Q2", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 200
+, "Bravo": 300
+, "Charlie": 300
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2024-Q2", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 100
+, "Alpha|A2": 50
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2024-Q3", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 200
+, "Bravo": 300
+, "Charlie": 300
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2024-Q3", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 100
+, "Alpha|A2": 50
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});
+
+db.insert(db.countries.DE, "2024-Q4", db.dsTypes.AllCarsByBrand, "",
+{ "Alpha": 200
+, "Bravo": 300
+, "Charlie": 300
+, "other": 200
+});
+
+db.insert(db.countries.DE, "2024-Q4", db.dsTypes.ElectricCarsByModel, "",
+{ "Alpha|A1": 100
+, "Alpha|A2": 50
+, "Bravo|B1": 70
+, "Bravo|B2": 30
+, "other": 100
+});

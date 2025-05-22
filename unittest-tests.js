@@ -73,7 +73,7 @@ db.finalizeDataLoading();
 // Test cases
 
 runTest("finalizeDataLoading", function() {
-  assert(db.countriesWithData.length, 1);
+  assert(db.countriesWithData.length, 2);
   assert(Object.keys(db.countries).length > 10);
   assert(Object.keys(db.countriesCodes).length, Object.keys(db.countries).length);
   assert(Object.keys(db.countryNames).length, Object.keys(db.countries).length);
