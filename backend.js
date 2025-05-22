@@ -1100,7 +1100,7 @@ var db = {
   },
 
   needsUnfold: function(chartSetConfig) {
-    if (this.isMultiMetric(chartSetConfig) && (this.getNumberOfSeries(chartSetConfig) > 1 || ![this.views.table, this.views.sources].includes(chartSetConfig.view)))
+    if (this.isMultiMetric(chartSetConfig) && ![this.views.table, this.views.sources].includes(chartSetConfig.view))
       return true;
     if (this.isMultiXProperties(chartSetConfig) && !this.isByMonth(chartSetConfig))
       return true;
