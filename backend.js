@@ -343,7 +343,15 @@ var db = {
   },
 
   isByMonth: function(chartConfig) {
-    return [this.xProperties.month, this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
+    if (chartConfig.xProperty) {
+      const xProperties = chartConfig.xProperty.split(",");
+      for (let i in xProperties) {
+        if (![this.xProperties.month, this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(xProperties[i]))
+          return false;
+      }
+      return true;
+    }
+    return false;
   },
 
   isByQuarter: function(chartConfig) {
