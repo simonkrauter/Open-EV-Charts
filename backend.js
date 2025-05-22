@@ -267,7 +267,7 @@ var db = {
   },
 
   xProperties:
-  { "all": "all"
+  { "all": "allxprop"
   , "month": "month"
   , "monthAvg3": "3-month-avg"
   , "monthAvg12": "12-month-avg"
@@ -906,6 +906,8 @@ var db = {
           part = this.detailLevels.total;
         else if (part == "all-models")
           part = this.detailLevels.model;
+        else if (part == "all")
+          part = this.xProperties.all;
         parts.push(part);
       }
     }
