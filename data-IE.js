@@ -5954,8 +5954,8 @@ db.insert(db.countries.IE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mercedes-Benz|EQS SUV": 2
 , "Nissan|Leaf": 2
 , "BMW|iX2": 1
-, "MG|Cyberster": 1
 , "MG|5 EV": 1
+, "MG|Cyberster": 1
 , "Smart|Hashtag 1": 1
 , "Toyota|bZ4X": 1
 , "Škoda|Enyaq": 1
@@ -6270,7 +6270,6 @@ db.insert(db.countries.IE, "2025-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Fiat|other": 7
 , "Mazda|other": 7
 , "Peugeot|other": 7
-, "BYD|other": 6
 , "Smart|other": 6
 , "Volvo|other": 6
 , "Citroën|other": 5
@@ -6278,7 +6277,7 @@ db.insert(db.countries.IE, "2025-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|other": 5
 , "Dacia|other": 4
 , "Polestar|other": 2
-, "other": 12
+, "other": 18
 });
 
 db.insert(db.countries.IE, "2025-04", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
@@ -6320,7 +6319,6 @@ db.insert(db.countries.IE, "2025-04", db.dsTypes.AllCarsByBrand, "https://stats.
 
 db.insert(db.countries.IE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
 { "Volkswagen|ID.4": 94
-, "BYD|Sealion 07 EV": 79
 , "Škoda|Elroq": 70
 , "Kia|EV3": 57
 , "BMW|iX1": 56
@@ -6335,6 +6333,7 @@ db.insert(db.countries.IE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Hyundai|Ioniq 5": 29
 , "Volvo|EX30": 29
 , "Ford|Explorer EV": 28
+, "Ford|Puma Gen-E": 27
 , "Kia|EV9": 26
 , "Tesla|Model Y": 26
 , "Volvo|EX40": 26
@@ -6387,5 +6386,5 @@ db.insert(db.countries.IE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|other": 1
 , "Nissan|other": 1
 , "Subaru|other": 1
-, "other": 39
+, "other": 91
 });
