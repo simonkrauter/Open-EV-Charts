@@ -919,9 +919,6 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
     if (chartConfig.view == db.views.lineChart) {
       dataset.borderColor = colors[i];
       dataset.pointBackgroundColor = colors[i];
-      if (series.name == db.totalSeriesName) {
-        dataset.hidden = true;
-      }
     } else {
       dataset.backgroundColor = colors[i];
     }
@@ -1057,7 +1054,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   let seriesIndexesWithDynamicColor = [];
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
-    if (seriesName == db.totalSeriesName || seriesName == "Other")
+    if (seriesName == "Other")
       result.push(otherSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyOrBrand[seriesName];
@@ -1258,8 +1255,6 @@ function renderTableTransposed(chartConfig, table, chartData) {
   let index = 1;
   for (const i in chartData.series) {
     const series = chartData.series[i];
-    if (series.name == db.totalSeriesName)
-      continue;
     const row = newChildNode(table, "TR");
     {
       const cell = newChildNode(row, "TD", index);

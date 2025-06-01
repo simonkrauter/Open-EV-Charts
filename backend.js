@@ -3,8 +3,6 @@
 "use strict";
 
 var db = {
-  totalSeriesName: "Total",
-
   currentDate: new Date(),
 
   countries: {},
@@ -1713,7 +1711,7 @@ var db = {
   addHints_incompleteData: function(chartConfig, chartData) {
     // incomplete global data
     let nonGlobalTimeSpans = [];
-    if (this.isAllCountries(chartConfig) && (this.hasOtherSeries(chartConfig) || this.hasTotalSeries(chartConfig, chartData))) {
+    if (this.isAllCountries(chartConfig) && this.hasOtherSeries(chartConfig)) {
       const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[this.rotwCoutryName];
       if (monthsPerTimeSpan && this.isTimeXProperty(chartConfig)) {
         for (const i in chartData.categories) {
@@ -2130,14 +2128,6 @@ var db = {
     return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
-  hasTotalSeries: function(chartConfig, chartData) {
-    if (Object.keys(chartData.seriesRows).length <= 1)
-      return false;
-    if (chartConfig.view == this.views.barChart)
-      return false;
-    return [this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric);
-  },
-
   hasOtherSeries: function(chartConfig) {
     if (chartConfig.view == this.views.lineChart)
       return false;
@@ -2151,13 +2141,11 @@ var db = {
 
     const extendedCategoriesCount = this.getExtendedCategoriesCount(chartConfig, chartData);
     const maxSeriesOption = this.maxSeriesOptions[chartConfig.maxSeries];
-    const addTotalSeries = this.hasTotalSeries(chartConfig, chartData);
 
     // Create series (entries of 'data' will be inserted in the order of 'chartData.categories')
     let processedSeries = [];
     let seriesByName = {};
     let seriesSortValues = {};
-    let totalSeries = {name: this.totalSeriesName, data: []};
     for (const seriesName in chartData.seriesRows) {
       let newSeries = {};
       newSeries.name = seriesName;
@@ -2177,12 +2165,6 @@ var db = {
         // Add value to total series
         if (value != null) {
           newSeries.data.push(value);
-          if (addTotalSeries) {
-            if (categoryIndex in totalSeries.data)
-              totalSeries.data[categoryIndex] += value;
-            else
-              totalSeries.data[categoryIndex] = value;
-          }
         } else {
           if (chartConfig.view == this.views.barChart)
             newSeries.data.push(0);
@@ -2204,9 +2186,6 @@ var db = {
       }
       seriesByName[seriesName] = newSeries;
     }
-
-    if (addTotalSeries)
-      processedSeries.push(totalSeries);
 
     // Add series to array in sorted order
     let seriesNamesInOrder = Object.keys(chartData.seriesRows);
