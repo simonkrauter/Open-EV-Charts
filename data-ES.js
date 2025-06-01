@@ -6956,6 +6956,7 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 10
 , "Xpeng|other": 9
 , "Honda|other": 6
+, "Opel|other": 6
 , "BYD|other": 4
-, "other": 424
+, "other": 418
 });
