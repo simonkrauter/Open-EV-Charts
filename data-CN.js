@@ -1924,3 +1924,24 @@ db.insert(db.countries.CN, "2025-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 5651
 , "other": 343916
 });
+
+db.insert(db.countries.CN, "2025-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/05/19/geely-xingyuan-takes-top-spot-in-china-april-2025-sales-report/",
+{ "other": 1738822
+});
+
+db.insert(db.countries.CN, "2025-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/05/19/geely-xingyuan-takes-top-spot-in-china-april-2025-sales-report/",
+{ "Geely|Xingyuan": 36119
+, "BYD|Seagull": 34931
+, "Wuling|Hongguang Mini EV": 28990
+, "Tesla|Model Y": 19984
+, "Geely|Panda Mini EV": 17831
+, "Xpeng|Mona M03": 14210
+, "Changan|Lumin": 12667
+, "BYD|Yuan Plus": 12286
+, "Wuling|Bingo": 11582
+, "BYD|Qin EV": 10487
+, "BYD|Sealion 05 EV": 10106
+, "BYD|Song EV": 7370
+, "BYD|Han EV": 3151
+, "other": 339286
+});
