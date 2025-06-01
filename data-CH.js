@@ -6797,8 +6797,8 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 14
 , "Peugeot|E-3008": 14
 , "Fiat|500e": 10
-, "MG|Cyberster": 10
 , "MG|4 EV": 10
+, "MG|Cyberster": 10
 , "Opel|Grandland Electric": 10
 , "Volkswagen|ID.5": 10
 , "Mercedes-Benz|other": 21
