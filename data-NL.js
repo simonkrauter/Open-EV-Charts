@@ -7930,7 +7930,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 75
 , "BMW|other": 73
 , "Opel|other": 69
-, "Fiat|other": 53
+, "Fiat|other": 60
 , "Jeep|other": 46
 , "Peugeot|other": 41
 , "Volkswagen|other": 38
@@ -7944,5 +7944,5 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 12
 , "Porsche|other": 12
 , "Tesla|other": 10
-, "other": 84
+, "other": 77
 });
