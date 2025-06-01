@@ -5624,7 +5624,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 3
 , "Subaru|Solterra": 3
 , "Volkswagen|ID.5": 3
-, "BYD|other": 8
+, "BYD|other": 6
 , "Mercedes-Benz|other": 5
 , "Peugeot|other": 4
 , "Ford|other": 3
@@ -5636,7 +5636,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 182
+, "other": 184
 });
 
 db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2925/December_2024.xlsx",
@@ -5797,7 +5797,6 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C3": 18
 , "Volvo|EX90": 18
 , "Cupra|Tavascan": 17
-, "BYD|Sealion 07 EV": 16
 , "Cupra|Born": 15
 , "Mercedes-Benz|EQE": 15
 , "BMW|i5": 14
@@ -5818,24 +5817,31 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 5
 , "Xpeng|G6": 5
 , "Mercedes-Benz|eSprinter": 4
-, "BYD|other": 7
-, "Peugeot|other": 7
-, "Mercedes-Benz|other": 6
-, "Audi|other": 4
-, "BMW|other": 4
-, "Fiat|other": 4
-, "Jeep|other": 3
-, "Renault|other": 3
-, "Xpeng|other": 3
+, "Audi|Q8 e-tron": 3
+, "BMW|i7": 3
+, "BYD|Yuan Plus": 3
+, "Fiat|600e": 3
+, "Jeep|Avenger EV": 3
+, "Mercedes-Benz|EQS": 3
+, "Peugeot|e-Expert": 3
+, "Peugeot|e-Traveller": 3
+, "Renault|Megane E-Tech": 3
+, "Xpeng|G9": 3
+, "BYD|other": 4
+, "Mercedes-Benz|other": 3
 , "Citroën|other": 2
 , "Opel|other": 2
 , "Porsche|other": 2
 , "Tesla|other": 2
 , "Toyota|other": 2
 , "Volkswagen|other": 2
+, "Audi|other": 1
+, "BMW|other": 1
+, "Fiat|other": 1
 , "Honda|other": 1
 , "MG|other": 1
-, "other": 146
+, "Peugeot|other": 1
+, "other": 162
 });
 
 db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2944/February_2025.xlsx",
@@ -5912,7 +5918,6 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Capri EV": 7
 , "BMW|iX": 6
 , "BMW|iX2": 6
-, "BYD|Sealion 07 EV": 6
 , "Audi|S6 e-tron": 5
 , "Citroën|ë-Berlingo Electric": 5
 , "Cupra|Born": 5
@@ -5940,7 +5945,7 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 1
 , "Toyota|other": 1
 , "Volkswagen|other": 1
-, "other": 202
+, "other": 208
 });
 
 db.insert(db.countries.FI, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2951/March_2025.xlsx",
@@ -6012,7 +6017,6 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 20
 , "Ford|Capri EV": 18
 , "Mini|Cooper SE": 18
-, "BYD|Sealion 07 EV": 15
 , "BMW|iX2": 14
 , "Kia|Niro EV": 14
 , "Ford|Mustang Mach-E": 10
@@ -6045,5 +6049,5 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 2
 , "Volkswagen|other": 2
 , "Xpeng|other": 2
-, "other": 310
+, "other": 325
 });
