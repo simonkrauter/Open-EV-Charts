@@ -3810,7 +3810,6 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMaerz2025.ods",
 { "Tesla|Model Y": 500
-, "BYD|Sealion 07 EV": 323
 , "Renault|5 E-Tech": 310
 , "BMW|iX1": 306
 , "Tesla|Model 3": 306
@@ -3819,5 +3818,5 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 203
 , "Škoda|Enyaq": 195
 , "Volkswagen|ID.3": 192
-, "other": 3351
+, "other": 3674
 });
