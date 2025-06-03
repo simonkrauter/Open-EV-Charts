@@ -463,12 +463,12 @@ var db = {
       param.name = "metric";
       param.title = "Metric";
       param.options = {};
-      param.options[this.metrics.ratioElectric] = "Relative EV Sales";
-      param.options[this.metrics.salesElectric] = "Absolute EV Sales";
-      param.options[this.metrics.shareElectric] = "EV Market Split";
-      param.options[this.metrics.salesAll] = "All Cars Sales";
-      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "EV Ratio within Company/Brand";
-      param.options[this.metrics.shareAll] = "All Cars Market Split";
+      param.options[this.metrics.ratioElectric] = "BEV Market Share";
+      param.options[this.metrics.salesElectric] = "BEV Market";
+      param.options[this.metrics.shareElectric] = "BEV Market Split";
+      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
+      param.options[this.metrics.salesAll] = "Car Market";
+      param.options[this.metrics.shareAll] = "Car Market Split";
       param.options[this.metrics.all] = "All Metrics";
       param.allOptions = param.options;
       if (chartConfig != null && !this.isSingleOrCombinedCountry(chartConfig))
@@ -1226,9 +1226,9 @@ var db = {
       if (param.name == "metric") {
         if (value == this.metrics.ratioElectricWithinCompanyOrBrand) {
           if (chartConfig.xProperty != this.xProperties.brand && chartConfig.detailLevel == this.detailLevels.company)
-            text = "EV Ratio within Company";
+            text = "BEV Share within Company";
           else
-            text = "EV Ratio within Brand";
+            text = "BEV Share within Brand";
         }
         if (this.combineMetricAndCompanyOrBrandInTitle(chartConfig)) {
           if (chartConfig.brand == this.brandOptions.all)
