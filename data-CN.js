@@ -1900,7 +1900,7 @@ db.insert(db.countries.CN, "2025-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 6978
 , "BYD|Song EV": 5690
 , "BYD|Han EV": 3320
-, "other": 115832
+, "other": 237032
 });
 
 db.insert(db.countries.CN, "2025-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/04/25/52-plugin-vehicle-market-share-in-china-march-2025-sales-report/",
