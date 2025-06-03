@@ -125,7 +125,7 @@ runTest("queryChartData_monthAvg12_2", function() {
 runTest("home", function() {
   let chartConfig = db.decodeChartConfigString("");
   assert(db.needsUnfold(chartConfig));
-  assert(db.unfoldChartConfig(chartConfig).length, 3);
+  assert(db.unfoldChartConfig(chartConfig).length, 4);
 });
 
 runTest("unfoldMetric_all", function() {
