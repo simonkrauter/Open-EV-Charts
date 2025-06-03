@@ -5205,8 +5205,8 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 34
 , "BYD|Seal": 33
 , "Volkswagen|ID.7": 27
+, "Audi|Q6 e-tron": 26
 , "BMW|i5": 26
-, "Audi|Q6 e-tron": 25
 , "Mercedes-Benz|EQA": 25
 , "BMW|i4": 24
 , "Hyundai|Kona Electric": 24
@@ -5246,7 +5246,7 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Peugeot|e-2008": 1
 , "Peugeot|e-308": 1
-, "other": 51
+, "other": 50
 });
 
 db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2896/August_2024.xlsx",
@@ -5297,6 +5297,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 42
 , "Mercedes-Benz|EQE": 41
 , "Volvo|EC40": 38
+, "Audi|Q6 e-tron": 34
 , "BYD|Seal": 32
 , "Hyundai|Ioniq 5": 32
 , "Mercedes-Benz|EQB": 28
@@ -5304,7 +5305,6 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 28
 , "Nissan|Ariya": 24
 , "Renault|Scénic E-Tech": 24
-, "Audi|Q6 e-tron": 23
 , "Kia|Niro EV": 23
 , "Mercedes-Benz|EQA": 23
 , "Toyota|bZ4X": 23
@@ -5342,7 +5342,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 1
 , "Tesla|Model S": 1
 , "Tesla|Model X": 1
-, "other": 130
+, "other": 119
 });
 
 db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2903/September_2024.xlsx",
@@ -5387,8 +5387,8 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 62
 , "Volvo|EX40": 54
 , "Volkswagen|ID.7": 52
+, "Audi|Q6 e-tron": 51
 , "Ford|Explorer EV": 50
-, "Audi|Q6 e-tron": 42
 , "Toyota|bZ4X": 37
 , "Nissan|Leaf": 31
 , "Porsche|Macan Electric": 31
@@ -5437,7 +5437,7 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 1
 , "Porsche|other": 1
 , "Volkswagen|other": 1
-, "other": 137
+, "other": 128
 });
 
 db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2907/October_2024.xlsx",
@@ -5476,9 +5476,9 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.au
 db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/10, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
 { "Škoda|Enyaq": 265
 , "Volkswagen|ID.4": 123
+, "Audi|Q6 e-tron": 105
 , "Volkswagen|ID.7": 105
 , "Tesla|Model Y": 102
-, "Audi|Q6 e-tron": 99
 , "Volvo|EX30": 91
 , "Volvo|EX40": 91
 , "Porsche|Macan Electric": 68
@@ -5536,7 +5536,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 1
 , "Opel|other": 1
 , "Volkswagen|other": 1
-, "other": 156
+, "other": 150
 });
 
 db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2913/November_2024.xlsx",
@@ -5579,9 +5579,9 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 108
 , "Volvo|EX30": 99
 , "Volvo|EX40": 83
+, "Audi|Q6 e-tron": 77
 , "Audi|Q4 e-tron": 76
 , "Tesla|Model 3": 75
-, "Audi|Q6 e-tron": 70
 , "Porsche|Macan Electric": 44
 , "Ford|Explorer EV": 38
 , "Hyundai|Ioniq 5": 37
@@ -5636,7 +5636,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 184
+, "other": 177
 });
 
 db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2925/December_2024.xlsx",
@@ -5679,8 +5679,8 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 166
 , "Volkswagen|ID.7": 126
 , "Volvo|EX40": 77
+, "Audi|Q6 e-tron": 76
 , "Volvo|EX30": 76
-, "Audi|Q6 e-tron": 68
 , "Mercedes-Benz|EQB": 65
 , "Audi|Q4 e-tron": 54
 , "Kia|EV3": 49
@@ -5729,7 +5729,7 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 3
 , "BMW|other": 2
 , "Peugeot|other": 2
-, "other": 262
+, "other": 254
 });
 
 db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2940/January_2025.xlsx",
@@ -5772,8 +5772,8 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 91
 , "Volkswagen|ID.4": 81
 , "Kia|EV3": 74
+, "Audi|Q6 e-tron": 70
 , "Volkswagen|ID.7": 69
-, "Audi|Q6 e-tron": 62
 , "Volvo|EX30": 59
 , "Audi|Q4 e-tron": 53
 , "Volvo|EX40": 51
@@ -5841,7 +5841,7 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 1
 , "MG|other": 1
 , "Peugeot|other": 1
-, "other": 162
+, "other": 154
 });
 
 db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2944/February_2025.xlsx",
@@ -5887,7 +5887,7 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 65
 , "Tesla|Model Y": 52
 , "Volkswagen|ID.7": 52
-, "Audi|Q6 e-tron": 45
+, "Audi|Q6 e-tron": 48
 , "BMW|i4": 36
 , "Mercedes-Benz|EQA": 36
 , "BMW|iX1": 33
@@ -5945,7 +5945,7 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 1
 , "Toyota|other": 1
 , "Volkswagen|other": 1
-, "other": 208
+, "other": 205
 });
 
 db.insert(db.countries.FI, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2951/March_2025.xlsx",
@@ -5998,9 +5998,9 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 65
 , "Mercedes-Benz|EQB": 52
 , "BMW|i4": 50
+, "Audi|Q6 e-tron": 45
 , "Volvo|EC40": 41
 , "Škoda|Elroq": 41
-, "Audi|Q6 e-tron": 38
 , "Hyundai|Inster": 36
 , "Porsche|Macan Electric": 34
 , "Hyundai|Ioniq 5": 33
@@ -6049,5 +6049,5 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 2
 , "Volkswagen|other": 2
 , "Xpeng|other": 2
-, "other": 325
+, "other": 318
 });
