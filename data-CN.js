@@ -1773,9 +1773,11 @@ db.insert(db.countries.CN, "2024-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Lumin": 15701
 , "Aion|Y": 15166
 , "BYD|Song EV": 15032
+, "Geely|Galaxy E5": 12227
+, "Geely|Panda Mini EV": 11122
 , "Volkswagen|ID.3": 9468
 , "BYD|Han EV": 5303
-, "other": 274931
+, "other": 251582
 });
 
 db.insert(db.countries.CN, "2024-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/10/22/53-of-car-sales-in-china-are-now-plugins-full-report/",
@@ -1793,12 +1795,14 @@ db.insert(db.countries.CN, "2024-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Up": 16018
 , "BYD|Dolphin": 15290
 , "Aion|Y": 14612
+, "Geely|Galaxy E5": 14250
 , "Changan|Lumin": 12284
 , "BYD|Qin EV": 12213
+, "Xpeng|Mona M03": 10023
+, "Volkswagen|ID.3": 9650
 , "BYD|Song EV": 7024
 , "BYD|Han EV": 3268
-, "Volkswagen|ID.3": 9650
-, "other": 337445
+, "other": 313172
 });
 
 db.insert(db.countries.CN, "2024-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/11/22/53-of-car-sales-in-china-are-now-plugins-full-report-2/",
@@ -1816,9 +1820,12 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 18231
 , "Changan|Lumin": 17040
 , "Geely|Panda Mini EV": 15616
+, "Geely|Xingyuan": 15130
 , "Zeekr|7X": 11643
+, "Xpeng|Mona M03": 10203
+, "Volkswagen|ID.3": 9998
 , "BYD|Song EV": 9557
-, "other": 375432
+, "other": 340101
 });
 
 db.insert(db.countries.CN, "2024-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2024/12/20/52-of-car-sales-in-china-are-now-plugins-full-report/",
@@ -1840,8 +1847,9 @@ db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 8235
 , "Geely|Galaxy E5": 18962
 , "BYD|Dolphin": 16680
+, "Xpeng|Mona M03": 11960
 , "Zeekr|7X": 11112
-, "other": 406675
+, "other": 394715
 });
 
 db.insert(db.countries.CN, "2024-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/01/27/25-of-new-car-sales-in-china-were-100-electric-in-2024/",
@@ -1857,10 +1865,11 @@ db.insert(db.countries.CN, "2024-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 21046
 , "BYD|Yuan Up": 18552
 , "Geely|Xingyuan": 16491
+, "Xpeng|Mona M03": 15877
 , "BYD|Dolphin": 14439
 , "BYD|Han EV": 8853
 , "BYD|Qin EV": 7035
-, "other": 465944
+, "other": 450067
 });
 
 db.insert(db.countries.CN, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/02/19/geely-xiaomi-shine-in-china-january-ev-sales-report/",
