@@ -91,7 +91,7 @@ db.insert(db.countries.ROTW, "2017-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2017-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 28591155
+{ "other": 4598213
 });
 
 db.insert(db.countries.ROTW, "2017-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -187,7 +187,7 @@ db.insert(db.countries.ROTW, "2018-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2018-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 51481125
+{ "other": 2567021
 });
 
 db.insert(db.countries.ROTW, "2018-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -283,7 +283,7 @@ db.insert(db.countries.ROTW, "2019-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2019-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 50041298
+{ "other": 2378040
 });
 
 db.insert(db.countries.ROTW, "2019-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -379,7 +379,7 @@ db.insert(db.countries.ROTW, "2020-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2020-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 42157044
+{ "other": 2697493
 });
 
 db.insert(db.countries.ROTW, "2020-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -475,7 +475,7 @@ db.insert(db.countries.ROTW, "2021-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2021-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 41361716
+{ "other": 2500939
 });
 
 db.insert(db.countries.ROTW, "2021-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -571,7 +571,7 @@ db.insert(db.countries.ROTW, "2022-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2022-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 37948487
+{ "other": 2612031
 });
 
 db.insert(db.countries.ROTW, "2022-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -667,7 +667,7 @@ db.insert(db.countries.ROTW, "2023-11", db.dsTypes.ElectricCarsTotal, "https://w
 });
 
 db.insert(db.countries.ROTW, "2023-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 42872770
+{ "other": 2186646
 });
 
 db.insert(db.countries.ROTW, "2023-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
@@ -763,7 +763,7 @@ db.insert(db.countries.ROTW, "2024-11", db.dsTypes.ElectricCarsTotal, "https://a
 });
 
 db.insert(db.countries.ROTW, "2024-12", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
-{ "other": 43522388
+{ "other": 2071807
 });
 
 db.insert(db.countries.ROTW, "2024-12", db.dsTypes.ElectricCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -783,7 +783,7 @@ db.insert(db.countries.ROTW, "2025-02", db.dsTypes.AllCarsTotal, "https://cleant
 });
 
 db.insert(db.countries.ROTW, "2025-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/04/03/global-ev-sales-1-2-million-units-in-february-49-growth-yoy/",
-{ "other": 236563
+{ "other": 115363
 });
 
 db.insert(db.countries.ROTW, "2025-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/05/06/global-ev-sales-evs-now-21-of-world-auto-sales-in-2025/",
