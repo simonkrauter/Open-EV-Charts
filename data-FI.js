@@ -6051,3 +6051,102 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 2
 , "other": 318
 });
+
+db.insert(db.countries.FI, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2954/April_2025.xlsx",
+{ "Toyota": 885
+, "Volkswagen": 856
+, "Volvo": 616
+, "Škoda": 605
+, "Kia": 511
+, "Audi": 316
+, "Mercedes-Benz": 268
+, "BMW": 255
+, "Ford": 228
+, "Hyundai": 228
+, "Nissan": 216
+, "Renault": 122
+, "Peugeot": 117
+, "Citroën": 116
+, "Polestar": 92
+, "Tesla": 71
+, "Mitsubishi": 57
+, "Mazda": 56
+, "Subaru": 54
+, "MG": 52
+, "Cupra": 43
+, "Suzuki": 42
+, "Land Rover": 38
+, "Dacia": 37
+, "Mini": 30
+, "Opel": 29
+, "BYD": 28
+, "Porsche": 27
+, "Seat": 25
+, "Xpeng": 13
+, "Smart": 12
+, "other": 206
+});
+
+db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/4, https://www.aut.fi/en/statistics/new_registrations/new_registrations_by_fuel_type/passenger_cars",
+{ "Volkswagen|ID.4": 191
+, "Volkswagen|ID.7": 177
+, "Škoda|Elroq": 162
+, "Škoda|Enyaq": 138
+, "Volvo|EX40": 109
+, "Audi|Q4 e-tron": 92
+, "Kia|EV3": 90
+, "Volvo|EX30": 73
+, "Volvo|EC40": 68
+, "Audi|Q6 e-tron": 58
+, "Toyota|bZ4X": 54
+, "Tesla|Model Y": 50
+, "Ford|Explorer EV": 43
+, "BMW|i4": 38
+, "Hyundai|Ioniq 5": 37
+, "Audi|A6 e-tron": 36
+, "Mercedes-Benz|EQA": 35
+, "Hyundai|Inster": 34
+, "Nissan|Ariya": 34
+, "Citroën|ë-C3": 31
+, "Ford|Capri EV": 30
+, "Kia|EV6": 30
+, "Volvo|EX90": 30
+, "Mini|Cooper SE": 29
+, "Subaru|Solterra": 28
+, "Mercedes-Benz|EQB": 27
+, "BMW|iX1": 26
+, "Renault|Scénic E-Tech": 24
+, "BMW|i5": 22
+, "Peugeot|e-308": 21
+, "Tesla|Model 3": 21
+, "Citroën|ë-C4": 19
+, "Porsche|Macan Electric": 19
+, "Peugeot|e-2008": 18
+, "Kia|Niro EV": 17
+, "Volkswagen|ID.3": 15
+, "Cupra|Tavascan": 14
+, "Hyundai|Ioniq 6": 13
+, "BMW|iX2": 11
+, "Cupra|Born": 11
+, "Kia|EV9": 11
+, "Xpeng|G6": 11
+, "BMW|iX": 10
+, "BYD|Seal": 10
+, "Ford|Mustang Mach-E": 10
+, "Ford|Puma Gen-E": 10
+, "Mercedes-Benz|EQE": 9
+, "Mercedes-Benz|EQS": 9
+, "Fiat|500e": 7
+, "Audi|S6 e-tron": 6
+, "Mercedes-Benz|G-Class EV": 6
+, "Peugeot|other": 8
+, "BYD|other": 6
+, "BMW|other": 5
+, "Opel|other": 5
+, "Jeep|other": 4
+, "Mercedes-Benz|other": 4
+, "Fiat|other": 3
+, "Hyundai|other": 3
+, "Xpeng|other": 2
+, "other": 187
+});
