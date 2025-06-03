@@ -5898,3 +5898,62 @@ db.insert(db.countries.FR, "2025-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Audi|Q6 e-tron": 410
 , "other": 11433
 });
+
+db.insert(db.countries.FR, "2025-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/06/Immatriculations-VPN_Mai2025.pdf",
+{ "Renault": 22255
+, "Peugeot": 18673
+, "Dacia": 11913
+, "Citroën": 9155
+, "Volkswagen": 8815
+, "Toyota": 7243
+, "BMW": 4161
+, "Škoda": 4019
+, "Audi": 3548
+, "Mercedes-Benz": 3154
+, "Ford": 3121
+, "Hyundai": 3087
+, "Opel": 2633
+, "MG": 2576
+, "Kia": 2418
+, "Nissan": 2036
+, "Cupra": 1824
+, "Mini": 1462
+, "Fiat": 1460
+, "Suzuki": 1313
+, "Seat": 1234
+, "BYD": 938
+, "Volvo": 833
+, "Jeep": 754
+, "Tesla": 721
+, "Mazda": 404
+, "Honda": 362
+, "Porsche": 273
+, "Xpeng": 255
+, "Mitsubishi": 92
+, "Smart": 47
+, "other": 3140
+});
+
+db.insert(db.countries.FR, "2025-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/06/Immatriculations-mensuelles-par-energie_Mai2025.pdf, https://cleantechnica.com/2025/06/03/evs-take-22-3-share-in-france-byd-dolphin-surf-arrives-in-showrooms/",
+{ "Citroën|ë-C3": 1500
+, "Renault|5 E-Tech": 1469
+, "Renault|Scénic E-Tech": 1036
+, "Citroën|ë-C3 Aircross": 920
+, "Peugeot|e-208": 742
+, "Škoda|Elroq": 683
+, "Peugeot|E-3008": 578
+, "Renault|Megane E-Tech": 509
+, "BMW|iX1": 479
+, "Volkswagen|ID.3": 464
+, "Cupra|Born": 439
+, "Audi|Q4 e-tron": 418
+, "BYD|Seagull": 414
+, "Tesla|Model Y": 414
+, "Audi|Q6 e-tron": 400
+, "Volkswagen|ID.4": 368
+, "Dacia|Spring": 367
+, "Peugeot|e-2008": 341
+, "Kia|EV3": 335
+, "Renault|4 E-Tech": 320
+, "other": 7218
+});
