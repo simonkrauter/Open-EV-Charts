@@ -7659,7 +7659,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 168
 , "Kia|Niro EV": 158
 , "BMW|i4": 155
-, "Volkswagen|ID.7": 141
+, "Volkswagen|ID.7": 142
 , "Opel|Corsa-e": 135
 , "Peugeot|e-208": 130
 , "Renault|5 E-Tech": 123
@@ -7712,7 +7712,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 12
 , "Polestar|other": 9
 , "Toyota|other": 7
-, "other": 149
+, "other": 148
 });
 
 db.insert(db.countries.NL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/februari/",
@@ -7876,7 +7876,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 { "Kia|EV3": 1028
 , "Tesla|Model 3": 794
 , "Tesla|Model Y": 734
-, "Citroën|ë-C3": 578
+, "Citroën|ë-C3": 580
 , "BMW|iX1": 484
 , "Renault|5 E-Tech": 424
 , "Audi|Q4 e-tron": 402
@@ -7913,6 +7913,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 79
 , "Cupra|Born": 78
 , "Peugeot|e-2008": 78
+, "BYD|Seal": 77
 , "Peugeot|E-5008": 69
 , "Citroën|ë-C4": 67
 , "Citroën|ë-Jumpy": 63
@@ -7922,14 +7923,13 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 54
 , "Volvo|EX90": 53
 , "Opel|Astra Electric": 51
-, "BYD|Song Plus": 49
-, "BYD|other": 93
 , "Zeekr|other": 81
 , "Mercedes-Benz|other": 78
 , "MG|other": 77
 , "Ford|other": 75
 , "BMW|other": 73
-, "Opel|other": 69
+, "Opel|other": 72
+, "BYD|other": 65
 , "Fiat|other": 60
 , "Jeep|other": 46
 , "Peugeot|other": 41
@@ -7944,7 +7944,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 12
 , "Porsche|other": 12
 , "Tesla|other": 10
-, "other": 77
+, "other": 72
 });
 
 db.insert(db.countries.NL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/april/",
