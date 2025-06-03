@@ -462,15 +462,20 @@ var db = {
       let param = {};
       param.name = "metric";
       param.title = "Metric";
-      param.options = {};
-      param.options[this.metrics.ratioElectric] = "BEV Market Share";
-      param.options[this.metrics.salesElectric] = "BEV Market";
-      param.options[this.metrics.shareElectric] = "BEV Market Split";
-      param.options[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
-      param.options[this.metrics.salesAll] = "Car Market";
-      param.options[this.metrics.shareAll] = "Car Market Split";
-      param.options[this.metrics.all] = "All Metrics";
-      param.allOptions = param.options;
+      param.allOptions = {};
+      param.allOptions[this.metrics.ratioElectric] = "BEV Market Share";
+      param.allOptions[this.metrics.salesElectric] = "BEV Market";
+      param.allOptions[this.metrics.shareElectric] = "BEV Market Split";
+      param.allOptions[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
+      param.allOptions[this.metrics.salesAll] = "Car Market";
+      param.allOptions[this.metrics.shareAll] = "Car Market Split";
+      param.allOptions[this.metrics.all] = "All Metrics";
+      param.options = this.cloneObject(param.allOptions);
+      if (chartConfig != null && this.isGlobalCountry(chartConfig)) {
+        delete param.options[this.metrics.ratioElectricWithinCompanyOrBrand];
+        delete param.options[this.metrics.shareElectric];
+        delete param.options[this.metrics.shareAll];
+      }
       if (chartConfig != null && !this.isSingleOrCombinedCountry(chartConfig))
         param.excludeOnUnfoldAndTitle = [this.metrics.ratioElectricWithinCompanyOrBrand];
       param.unfoldKey = this.metrics.all;
