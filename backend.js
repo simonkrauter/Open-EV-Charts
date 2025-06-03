@@ -1286,6 +1286,32 @@ var db = {
 
   getChartSubTitle: function(chartConfig) {
     let parts = [];
+    // Metric description
+    if (chartConfig.metric == this.metrics.ratioElectric)
+      parts.push("Share of battery electric cars within passenger car market");
+    else if (chartConfig.metric == this.metrics.salesElectric)
+      parts.push("Battery electric passenger car sales");
+    else if (chartConfig.metric == this.metrics.shareElectric) {
+      if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
+        parts.push("Battery electric passenger car market split by company");
+      else if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand)
+        parts.push("Battery electric passenger car market split by brand");
+      else
+        parts.push("Battery electric passenger car market split by model");
+    } else if (chartConfig.metric == this.metrics.salesAll)
+      parts.push("Passenger car sales");
+    else if (chartConfig.metric == this.metrics.shareAll) {
+      if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
+        parts.push("Passenger car market split by company");
+      else
+        parts.push("Passenger car market split by brand");
+    } else if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand) {
+      if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
+        parts.push("Share of battery electric cars of passenger car sales within company");
+      else
+        parts.push("Share of battery electric cars of passenger car sales within brand");
+    }
+    // Countries
     if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig) && !this.isGlobalCountry(chartConfig)) {
       const countryValues = this.getCountries(chartConfig);
       let countrieNames = [];
