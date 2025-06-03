@@ -1172,12 +1172,22 @@ var db = {
     }
 
     if (chartConfig.isRegularHomeTile) {
-      // Add an extra chart on the home page
-      let config = {};
-      config.metric = this.metrics.all;
-      config.xProperty = this.xProperties.monthAvg12;
-      this.makeChartConfigValid(config);
-      chartConfigs.unshift(config);
+      // Add "Global" on the home page
+      {
+        let config = {};
+        config.metric = this.metrics.all;
+        config.country = this.countryOptions.combine;
+        this.makeChartConfigValid(config);
+        chartConfigs.unshift(config);
+      }
+      // Add "Compare Countries" on the home page
+      {
+        let config = {};
+        config.metric = this.metrics.all;
+        config.xProperty = this.xProperties.monthAvg12;
+        this.makeChartConfigValid(config);
+        chartConfigs.unshift(config);
+      }
     }
 
     return chartConfigs;
