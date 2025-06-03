@@ -1244,7 +1244,7 @@ var db = {
         continue;
       if (param.name == "metric") {
         if (value == this.metrics.ratioElectricWithinCompanyOrBrand) {
-          if (chartConfig.xProperty != this.xProperties.brand && chartConfig.detailLevel == this.detailLevels.company)
+          if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
             text = "BEV Share within Company";
           else
             text = "BEV Share within Brand";
