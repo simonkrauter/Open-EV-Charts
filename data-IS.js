@@ -4445,15 +4445,15 @@ db.insert(db.countries.IS, "2024-04", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Jeep": 4
 , "Mitsubishi": 4
 , "Polestar": 4
+, "Citroën": 3
 , "Jaguar": 3
 , "Audi": 2
-, "Citroën": 2
 , "Fiat": 2
 , "Mini": 1
 , "Opel": 1
 , "Renault": 1
 , "Seat": 1
-, "other": 184
+, "other": 183
 });
 
 db.insert(db.countries.IS, "2024-04", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
@@ -4475,6 +4475,7 @@ db.insert(db.countries.IS, "2024-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Kia|EV9": 2
 , "Mercedes-Benz|EQS": 2
 , "Tesla|Model 3": 2
+, "Citroën|ë-C3": 1
 , "Jaguar|I-Pace": 1
 , "Mercedes-Benz|EQB": 1
 , "Mercedes-Benz|EQE": 1
@@ -4482,7 +4483,7 @@ db.insert(db.countries.IS, "2024-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Megane E-Tech": 1
 , "Subaru|Solterra": 1
 , "Volkswagen|ID.7": 1
-, "other": 33
+, "other": 32
 });
 
 db.insert(db.countries.IS, "2024-05", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
@@ -4512,13 +4513,13 @@ db.insert(db.countries.IS, "2024-05", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Polestar": 5
 , "Renault": 4
 , "Seat": 4
-, "Citroën": 2
+, "Citroën": 3
 , "Porsche": 2
 , "Fiat": 1
 , "Jaguar": 1
 , "MG": 1
 , "Mini": 1
-, "other": 194
+, "other": 193
 });
 
 db.insert(db.countries.IS, "2024-05", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
@@ -4549,12 +4550,13 @@ db.insert(db.countries.IS, "2024-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i4": 1
 , "BYD|Song Plus": 1
 , "BYD|Yuan Plus": 1
+, "Citroën|ë-C3": 1
 , "MG|4 EV": 1
 , "Mercedes-Benz|EQC": 1
 , "Mini|Cooper SE": 1
 , "Renault|Zoe": 1
 , "Volkswagen|ID.3": 1
-, "other": 26
+, "other": 25
 });
 
 db.insert(db.countries.IS, "2024-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf",
@@ -4815,8 +4817,9 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Opel": 4
 , "Suzuki": 3
 , "Peugeot": 2
+, "Citroën": 1
 , "Jaguar": 1
-, "other": 39
+, "other": 38
 });
 
 db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2024.pdf",
@@ -4855,13 +4858,14 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|iX3": 1
 , "BYD|Seal": 1
 , "BYD|Yuan Plus": 1
+, "Citroën|ë-C3": 1
 , "Hyundai|Ioniq 6": 1
 , "Polestar|4": 1
 , "Renault|Scénic E-Tech": 1
 , "Tesla|Model X": 1
 , "Xpeng|P7": 1
 , "Škoda|Enyaq": 1
-, "other": 66
+, "other": 65
 });
 
 db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -4893,10 +4897,10 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Opel": 5
 , "Suzuki": 5
 , "Subaru": 4
+, "Citroën": 3
 , "Jaguar": 3
-, "Citroën": 2
 , "GWM": 2
-, "other": 44
+, "other": 43
 });
 
 db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -4937,6 +4941,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|e-tron GT": 1
 , "BMW|iX": 1
 , "BMW|iX1": 1
+, "Citroën|ë-C3": 1
 , "Citroën|ë-C4": 1
 , "Mercedes-Benz|EQC": 1
 , "Mercedes-Benz|EQS": 1
@@ -4946,7 +4951,7 @@ db.insert(db.countries.IS, "2024-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Zoe": 1
 , "Volkswagen|ID.5": 1
 , "Volvo|EX40": 1
-, "other": 103
+, "other": 102
 });
 
 db.insert(db.countries.IS, "2024-11", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
@@ -5050,14 +5055,14 @@ db.insert(db.countries.IS, "2024-12", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "MG": 5
 , "Volkswagen": 5
 , "Peugeot": 4
+, "Citroën": 3
 , "Jeep": 3
 , "Porsche": 3
-, "Citroën": 2
 , "Fiat": 2
 , "Jaguar": 2
 , "Renault": 2
 , "Xpeng": 2
-, "other": 28
+, "other": 27
 });
 
 db.insert(db.countries.IS, "2024-12", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -5091,6 +5096,7 @@ db.insert(db.countries.IS, "2024-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i4": 1
 , "BMW|iX": 1
 , "BYD|Dolphin": 1
+, "Citroën|ë-C3": 1
 , "Mercedes-Benz|eCitan": 1
 , "Nissan|Leaf": 1
 , "Polestar|3": 1
@@ -5101,7 +5107,7 @@ db.insert(db.countries.IS, "2024-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.7": 1
 , "Xpeng|G6": 1
 , "Xpeng|G9": 1
-, "other": 32
+, "other": 31
 });
 
 db.insert(db.countries.IS, "2025-01", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -5135,8 +5141,9 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.AllCarsByBrand, "https://bifrei
 , "Fiat": 2
 , "Mitsubishi": 2
 , "Opel": 2
+, "Citroën": 1
 , "Seat": 1
-, "other": 57
+, "other": 56
 });
 
 db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -5169,6 +5176,7 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i5": 1
 , "BMW|iX1": 1
 , "BMW|iX3": 1
+, "Citroën|ë-C3": 1
 , "Hyundai|Ioniq 6": 1
 , "Kia|EV9": 1
 , "Mercedes-Benz|EQB": 1
@@ -5179,7 +5187,7 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Subaru|Solterra": 1
 , "Volkswagen|ID.3": 1
 , "Volvo|EX40": 1
-, "other": 44
+, "other": 43
 });
 
 db.insert(db.countries.IS, "2025-02", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
