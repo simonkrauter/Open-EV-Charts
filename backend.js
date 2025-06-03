@@ -28,6 +28,8 @@ var db = {
 
   rotwCoutryName: countryNamesByCode["ROTW"],
 
+  globalCountryName: "Global",
+
   dsTypes:
   { "AllCarsByBrand": 1
   , "AllCarsTotal": 2
@@ -1228,6 +1230,8 @@ var db = {
       if (!isSingleChart && chartConfig.unfoldParamName != param.name)
         continue;
       let text = param.options[value];
+      if (param.name == "country" && chartConfig.metric != this.metrics.all)
+        continue;
       if (param.name == "metric") {
         if (value == this.metrics.ratioElectricWithinCompanyOrBrand) {
           if (chartConfig.xProperty != this.xProperties.brand && chartConfig.detailLevel == this.detailLevels.company)
@@ -1240,6 +1244,13 @@ var db = {
             text = text + " within " + params.company.options[chartConfig.company];
           else
             text = text + " within " + params.brand.options[chartConfig.brand];
+        }
+        if (isSingleChart || chartConfig.unfoldParamName == "country") {
+          // Prepend country
+          if (this.isGlobalCountry(chartConfig))
+            text = this.globalCountryName + " " + text;
+          else if (!this.isMultiCountry(chartConfig))
+            text = this.countriesForOptions[chartConfig.country] + " " + text;
         }
       } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all && this.getModels(chartConfig).length == 1) {
         text = text + " " + params.model.options[chartConfig.model];
@@ -1255,6 +1266,8 @@ var db = {
     if (parts.length == 0) {
       if (!this.isSingleOrCombinedCountry(chartConfig))
         parts.push("Compare Countries");
+      else if (this.isGlobalCountry(chartConfig))
+        parts.push(this.globalCountryName);
       else if (this.isMultiCountry(chartConfig) && this.isMultiMetric(chartConfig))
         parts.push("Mutiple Countries and Metrics");
     }
