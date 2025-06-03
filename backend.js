@@ -1286,7 +1286,7 @@ var db = {
 
   getChartSubTitle: function(chartConfig, screenshotMode) {
     let parts = [];
-    if (screenshotMode && this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
+    if (screenshotMode && this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig) && !this.isGlobalCountry(chartConfig)) {
       const countryValues = this.getCountries(chartConfig);
       let countrieNames = [];
       if (countryValues.includes(this.countryOptions.all)) {
