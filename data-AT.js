@@ -3820,3 +3820,53 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 192
 , "other": 3674
 });
+
+db.insert(db.countries.AT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisApril2025.ods",
+{ "Volkswagen": 3607
+, "Škoda": 2610
+, "BMW": 2187
+, "Audi": 1720
+, "Cupra": 1325
+, "Toyota": 1172
+, "Seat": 1087
+, "Dacia": 1049
+, "Mercedes-Benz": 1029
+, "Hyundai": 943
+, "Renault": 925
+, "Peugeot": 783
+, "Ford": 774
+, "Opel": 607
+, "BYD": 575
+, "Citroën": 527
+, "Kia": 489
+, "Mazda": 441
+, "Volvo": 384
+, "MG": 373
+, "Suzuki": 340
+, "Porsche": 208
+, "Mini": 201
+, "Tesla": 196
+, "Fiat": 186
+, "Mitsubishi": 172
+, "Jeep": 147
+, "Land Rover": 141
+, "Honda": 130
+, "Polestar": 57
+, "Nissan": 46
+, "Subaru": 38
+, "Smart": 13
+, "other": 373
+});
+
+db.insert(db.countries.AT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisApril2025.ods",
+{ "BMW|iX1": 347
+, "Škoda|Elroq": 344
+, "Renault|5 E-Tech": 288
+, "Volkswagen|ID.3": 255
+, "Audi|Q6 e-tron": 251
+, "BMW|i4": 243
+, "Škoda|Enyaq": 233
+, "Volkswagen|ID.7": 199
+, "Cupra|Born": 190
+, "other": 3340
+});
