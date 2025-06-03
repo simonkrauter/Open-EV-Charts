@@ -651,7 +651,9 @@ function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
 }
 
 function renderChartSubTitle(chartDiv, chartConfig) {
-  const subTitle = db.getChartSubTitle(chartConfig, isScreenshotModeEnabled);
+  if (!isScreenshotModeEnabled)
+    return;
+  const subTitle = db.getChartSubTitle(chartConfig);
   if (subTitle == "")
     return;
   const titleElem = newChildNode(chartDiv, "DIV", subTitle);
