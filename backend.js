@@ -840,10 +840,10 @@ var db = {
     if (chartConfig.timeSpan == this.timeSpanOptions.auto) {
       if (this.isByYear(chartConfig))
         return this.timeSpanOptions.all;
-      else if ([this.xProperties.quarter, this.xProperties.monthAvg12].includes(chartConfig.xProperty))
-        return this.timeSpanOptions.last5y;
-      else
+      else if (chartConfig.xProperty == this.xProperties.month)
         return this.timeSpanOptions.last2y;
+      else
+        return this.timeSpanOptions.last5y;
     }
     return chartConfig.timeSpan;
   },
