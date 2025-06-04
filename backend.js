@@ -2479,6 +2479,7 @@ var db = {
       for (const i in xProperties) {
         let newConfig = this.cloneObject(chartConfig);
         newConfig.xProperty = xProperties[i];
+        newConfig.timeSpan = this.getRealTimeSpan(chartConfig); // avoid different time spans
         newConfig.unfoldForQueryParamName = "xProperty";
         newChartConfigs.push(newConfig);
       }
