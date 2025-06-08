@@ -1057,7 +1057,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   let seriesIndexesWithDynamicColor = [];
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
-    if (seriesName == "Other")
+    if (seriesName == db.otherSeriesName)
       result.push(otherSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyOrBrand[seriesName];
@@ -1216,7 +1216,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
     const row = newChildNode(table, "TR");
     if (showRankColumn) {
       const cell = newChildNode(row, "TD");
-      if (category != "Other" && !category.endsWith("|other"))
+      if (category != db.otherSeriesName && !category.endsWith("|other"))
         cell.appendChild(document.createTextNode(parseInt(i) + 1));
       cell.style.textAlign = "right";
     }
@@ -1313,7 +1313,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
 function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
   if (isScreenshotModeEnabled)
     return;
-  if (addFlag && text != "Other" && !text.endsWith("|other")) {
+  if (addFlag && text != db.otherSeriesName && !text.endsWith("|other")) {
     let linkChartConfig = db.cloneObject(chartConfig);
     const textParts = text.split("|", 2);
     if (textParts.length > 1) {

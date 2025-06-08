@@ -28,6 +28,8 @@ var db = {
 
   rotwCoutryName: countryNamesByCode["ROTW"],
 
+  otherSeriesName: "Other",
+
   globalCountryName: "Global",
 
   dsTypes:
@@ -674,7 +676,7 @@ var db = {
           param.options[models[i]] = models[i];
         }
         if (hasOther)
-          param.options["other"] = "Other";
+          param.options["other"] = this.otherSeriesName;
       } else {
         for (const i in this.models) {
           const parts = this.models[i].split("|", 2);
@@ -1452,7 +1454,7 @@ var db = {
             category = dataKey;
         }
         if (category == "other")
-          category = "Other";
+          category = this.otherSeriesName;
 
         // set seriesName
         let seriesName;
@@ -2247,7 +2249,7 @@ var db = {
       return seriesSortValues[a] < seriesSortValues[b] ? 1 : seriesSortValues[a] > seriesSortValues[b] ? -1 : 0;
     });
     let count = 0;
-    let otherSeries = {name: "Other", data: []};
+    let otherSeries = {name: this.otherSeriesName, data: []};
     for (const i in seriesNamesInOrder) {
       const seriesName = seriesNamesInOrder[i];
       const currSeries = seriesByName[seriesName];
