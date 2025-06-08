@@ -1358,6 +1358,8 @@ var db = {
       }
     }
 
+    const useCountryAsSeriesName = filterCountryIds.length != 1 && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
+
     const params = db.getChartParams(chartConfig);
 
     let filterCompanies = [];
@@ -1458,7 +1460,7 @@ var db = {
 
         // set seriesName
         let seriesName;
-        if (filterCountryIds.length != 1 && !countryValues.includes(this.countryOptions.combine) && chartConfig.xProperty != this.xProperties.country) {
+        if (useCountryAsSeriesName) {
           if (dataset.country == this.countries.ROTW)
             seriesName = "other";
           else
