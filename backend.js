@@ -1347,16 +1347,7 @@ var db = {
 
   queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
     // Returns datasets for chart
-    const countryValues = this.getCountries(chartConfig);
-    let filterCountryIds = [];
-    if (chartConfig.country != this.countryOptions.all) {
-      for (const i in countryValues) {
-        const code = countryValues[i];
-        const id = this.countries[code];
-        if (id && this.countriesWithData.includes(id))
-          filterCountryIds.push(id);
-      }
-    }
+    let filterCountryIds = this.queryDatasets_getCountryFilter(chartConfig);
 
     const useCountryAsSeriesName = filterCountryIds.length != 1 && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
 
@@ -1534,6 +1525,18 @@ var db = {
     }
 
     return chartData;
+  },
+
+  queryDatasets_getCountryFilter: function(chartConfig) {
+    let filterCountryIds = [];
+    const countryValues = this.getCountries(chartConfig);
+    for (const i in countryValues) {
+      const code = countryValues[i];
+      const id = this.countries[code];
+      if (id && this.countriesWithData.includes(id))
+        filterCountryIds.push(id);
+    }
+    return filterCountryIds;
   },
 
   queryDatasets_getDateFilters: function(chartConfig) {
