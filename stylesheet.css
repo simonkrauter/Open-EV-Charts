@@ -603,4 +603,12 @@ textarea.export {
 
 .flag {
   display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.flag > span {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

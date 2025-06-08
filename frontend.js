@@ -1479,12 +1479,14 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
 
   // create container and placeholder
   const container = document.createElement("SPAN");
-  const flag = newChildNode(container, "SPAN");
-  flag.classList.add("flag");
+  const placeholder = newChildNode(container, "SPAN");
+  const flag = newChildNode(placeholder, "SPAN");
+  placeholder.classList.add("flag");
   if (countryId || alwaysReserveSpace) {
+    placeholder.style.width = countryFlagWidth + "px";
     flag.style.width = countryFlagWidth + "px";
     flag.style.height = countryFlagHeight + "px";
-    flag.style.marginRight = (countryFlagWidth * 0.2) + "px";
+    placeholder.style.marginRight = (countryFlagWidth * 0.2) + "px";
   }
 
   // set flag
