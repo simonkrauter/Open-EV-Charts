@@ -1472,8 +1472,8 @@ function getCountryCodeForCompanyOrBrand(companyOrBrand) {
 }
 
 function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = false, sizeFactor = 1.0) {
-  const countryFlagWidth = 24 * sizeFactor;
-  const countryFlagHeight = countryFlagWidth * 0.8667;
+  const countryFlagWidth = 23 * sizeFactor;
+  const countryFlagHeight = countryFlagWidth * 0.9;
   const countryFlagSpriteColumns = 5;
   const countryId = db.countries[countryCode];
 
