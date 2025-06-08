@@ -1489,7 +1489,6 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
 
   // set flag
   if (countryId && countryCode != "ROTW") {
-    flag.classList.add("nonEmpty");
     flag.title = countryNamesByCode[countryCode];
     const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;
     const backgroundYPos = Math.floor(countryId / countryFlagSpriteColumns) * -countryFlagHeight;

@@ -26,7 +26,6 @@
   --clStatusMediumText: black;
   --clStatusBadFill: hsl(0, 100%, 45%);
   --clStatusBadText: white;
-  --clFlagLine: hsl(0, 0%, 87%);
   --dimBorderRadius: 2px;
 }
 
@@ -604,11 +603,4 @@ textarea.export {
 
 .flag {
   display: inline-block;
-}
-.flag.nonEmpty {
-  transform: translateY(1.7px);
-  outline: 1px solid var(--clFlagLine);
-}
-.dropdown .flag.nonEmpty {
-  outline: none;
 }
