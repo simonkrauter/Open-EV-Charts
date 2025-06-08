@@ -52,9 +52,10 @@ const FormatValueContext =
 };
 
 const maxHintsHeight = 75;
-const tableFlagSizeFactor = 1.2;
+const tableFlagSizeFactor = 1;
 const multiTitleFlagSizeFactor = 1.15;
 const singleTitleFlagSizeFactor = 1.3;
+const dropDownFlagSizeFactor = 0.92;
 
 var filtersDiv;
 var chartsDiv;
@@ -372,7 +373,7 @@ function renderDropdownOptions(param, overlay) {
     }
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
-      optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false));
+      optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false, dropDownFlagSizeFactor));
       optionNode.dataset.searchText = optionText + " " + optionKey + " " + additionalCountrySearchTextByCode[optionKey];
     } else {
       optionNode.appendChild(document.createTextNode(optionText));
@@ -420,7 +421,7 @@ function updateDropdownState(paramName) {
   if (param.name == "country") {
     for (const optionKey in param.allOptions) {
       if (selectedKeys.includes(optionKey)) {
-        currentValueDiv.appendChild(createCountryFlagContainer(optionKey, "", false));
+        currentValueDiv.appendChild(createCountryFlagContainer(optionKey, "", false, dropDownFlagSizeFactor));
         if (selectedKeys.length == 1 || !db.countries[optionKey])
           selectedOptionTexts.push(param.allOptions[optionKey]);
       }
@@ -1471,8 +1472,8 @@ function getCountryCodeForCompanyOrBrand(companyOrBrand) {
 }
 
 function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = false, sizeFactor = 1.0) {
-  const countryFlagWidth = 20 * sizeFactor;
-  const countryFlagHeight = 13.3 * sizeFactor;
+  const countryFlagWidth = 24 * sizeFactor;
+  const countryFlagHeight = countryFlagWidth * 0.8667;
   const countryFlagSpriteColumns = 5;
   const countryId = db.countries[countryCode];
 
