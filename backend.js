@@ -107,6 +107,7 @@ var db = {
     , dsType: dsType
     , isEvs: dsType > this.dsTypes.AllCarsTotal
     , source: source
+    , year: parseInt(dateString.substr(0, 4))
     };
     if (dateString.substr(5, 1) == 'Q') {
       dataset.perQuarter = true;
@@ -116,16 +117,15 @@ var db = {
         if (val > 0)
           dataset.data[key] = val;
       }
-      dataset.year = parseInt(dateString.substr(0, 4));
-      dataset.month = this.quarterToMonth(parseInt(dateString.substr(6, 1)));
+      let firstMonth = this.quarterToMonth(parseInt(dateString.substr(6, 1)));
       for (let i = 0; i < 3; i++) {
-        dataset.monthString = this.formatMonth(dataset.year, dataset.month);
-        this.datasets.push(this.cloneObject(dataset));
-        dataset.month++;
+        let newDataset = this.cloneObject(dataset);
+        newDataset.month = firstMonth + i;
+        newDataset.monthString = this.formatMonth(newDataset.year, newDataset.month);
+        this.datasets.push(newDataset);
       }
     } else {
       dataset.monthString = dateString;
-      dataset.year = parseInt(dateString.substr(0, 4));
       dataset.month = parseInt(dateString.substr(5, 2));
       dataset.data = data;
       this.datasets.push(dataset);
