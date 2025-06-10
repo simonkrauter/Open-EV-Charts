@@ -354,7 +354,7 @@ function renderDropdownOptions(param, overlay) {
     if (selected)
       optionNode.classList.add("selected");
     if (param.allowMultiSelection) {
-      const checkboxContainer = newChildNode(optionNode, "span");
+      const checkboxContainer = newChildNode(optionNode, "SPAN");
       checkboxContainer.addEventListener("click", function(event) {
         event.preventDefault();
         if (!optionNode.classList.contains("disabled"))
@@ -440,7 +440,7 @@ function updateDropdownState(paramName) {
     let optionIndex = 0;
     for (let i = 0; i < overlay.childNodes.length; i++) {
       const optionNode = overlay.childNodes[i];
-      if (!["LABEL", "A"].includes(optionNode.tagName))
+      if (optionNode.tagName != "A")
         continue;
       const optionKey = optionKeys[optionIndex];
       const checkbox = optionNode.firstChild.firstChild;
@@ -466,13 +466,14 @@ function updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv) {
   let resultCount = 0;
   for (let i = 0; i < overlay.childNodes.length; i++) {
     const optionNode = overlay.childNodes[i];
-      if (!["LABEL", "A"].includes(optionNode.tagName))
-        continue;
-    if (searchTerm == "" || db.normalizeSearchString(optionNode.dataset.searchText).indexOf(searchTerm) != -1) {
-      optionNode.style.display = "";
-      resultCount++;
-    } else {
-      optionNode.style.display = "none";
+    if (optionNode.tagName == "A") {
+      // regular option
+      if (searchTerm == "" || db.normalizeSearchString(optionNode.dataset.searchText).indexOf(searchTerm) != -1) {
+        optionNode.style.display = "";
+        resultCount++;
+      } else {
+        optionNode.style.display = "none";
+      }
     }
   }
   if (resultCount > 0)
