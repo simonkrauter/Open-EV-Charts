@@ -374,7 +374,10 @@ function renderDropdownOptions(param, overlay) {
     let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
       optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false, dropDownFlagSizeFactor));
-      optionNode.dataset.searchText = optionText + " " + optionKey + " " + additionalCountrySearchTextByCode[optionKey];
+      let searchText = optionText + " " + optionKey;
+      if (optionKey in additionalCountrySearchTextByCode)
+        searchText += " " + additionalCountrySearchTextByCode[optionKey];
+      optionNode.dataset.searchText = searchText;
     } else {
       optionNode.appendChild(document.createTextNode(optionText));
       optionNode.dataset.searchText = optionText;
