@@ -1004,9 +1004,6 @@ var db = {
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
 
-    if (chartConfig.country == this.countryOptions.all && !Object.keys(params.country.options).includes(this.countryOptions.all))
-      chartConfig.country = this.countriesCodes[this.countriesWithData[0]];
-
     if (!chartConfig.xProperty || (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !this.isMultiXProperties(chartConfig)))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
