@@ -2,7 +2,7 @@
 
 db.finalizeDataLoading();
 
-document.addEventListener("mousedown", function(event) {
+document.addEventListener("mousemove", function(event) {
   document.body.classList.remove("showFocus");
 });
 
