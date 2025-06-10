@@ -264,7 +264,9 @@ function renderFilterAsDropdown(parentDiv, param) {
     } else if (event.keyCode == 38 || event.keyCode == 40) {
       if (openedDropdown == dropdown && document.activeElement) {
         event.preventDefault();
-        const base = document.activeElement;
+        let base = document.activeElement;
+        if (base.tagName == "INPUT")
+          base = base.parentNode;
         if (event.keyCode == 38 && base.previousSibling) {
           let toFocus = base.previousSibling;
           if (toFocus.classList.contains("disabled"))
@@ -322,20 +324,6 @@ function renderDropdownContent(param, dropdown) {
     // Keyboard event handler
     searchBox.addEventListener("input", function(event) {
       updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv);
-    });
-    dropdown.addEventListener("keydown", function(event) {
-      if (event.keyCode == 40) {
-        if (document.activeElement) {
-          event.preventDefault();
-          const base = document.activeElement.parentNode;
-          if (base.nextSibling) {
-            let toFocus = base.nextSibling;
-            if (param.allowMultiSelection && toFocus.firstChild.disabled)
-              toFocus = toFocus.nextSibling;
-            toFocus.focus();
-          }
-        }
-      }
     });
   }
 
