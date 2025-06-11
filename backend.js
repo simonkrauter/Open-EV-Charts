@@ -1332,6 +1332,18 @@ var db = {
     return parts.join(" – ");
   },
 
+  getSelectedCountries: function(chartConfig) {
+    let countryValues = this.getCountries(chartConfig);
+    if (countryValues.includes(this.countryOptions.all)) {
+      for (const i in this.countriesWithData) {
+        const id = this.countriesWithData[i];
+        const code = this.countriesCodes[id];
+        countryValues.push(code);
+      }
+    }
+    return countryValues;
+  },
+
   combineMetricAndCompanyOrBrandInTitle: function(chartConfig) {
     return [this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric) && (chartConfig.detailLevel == this.detailLevels.brand || [this.xProperties.brand, this.xProperties.model].includes(chartConfig.xProperty)) && chartConfig.company != this.companyOptions.all;
   },

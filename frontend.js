@@ -431,6 +431,9 @@ function updateDropdownState(paramName) {
   if (param.allowMultiSelection) {
     const optionKeys = Object.keys(param.allOptions);
     let optionIndex = 0;
+    let selectedCountries = [];
+    if (param.name == "country")
+      selectedCountries = db.getSelectedCountries(chartSetConfig);
     for (let i = 0; i < overlay.childNodes.length; i++) {
       const optionNode = overlay.childNodes[i];
       if (optionNode.tagName != "A")
@@ -445,7 +448,7 @@ function updateDropdownState(paramName) {
       } else {
         optionNode.classList.remove("disabled");
         if (param.name == "country")
-          checkbox.checked = selectedKeys.includes(optionKey) || (selectedKeys.includes(db.countryOptions.all) && optionKey != db.countryOptions.combine);
+          checkbox.checked = selectedCountries.includes(optionKey);
         else
           checkbox.checked = selectedKeys.includes(optionKey);
       }
