@@ -1239,7 +1239,7 @@ var db = {
       if (!isSingleChart && chartConfig.unfoldParamName != param.name)
         continue;
       let text = param.options[value];
-      if (param.name == "country" && chartConfig.metric != this.metrics.all)
+      if (param.name == "country" && chartConfig.unfoldParamName != param.name)
         continue;
       if (param.name == "metric") {
         if (value == this.metrics.ratioElectricWithinCompanyOrBrand) {
