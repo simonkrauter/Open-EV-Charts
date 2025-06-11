@@ -415,7 +415,7 @@ function updateDropdownState(paramName) {
     for (const optionKey in param.allOptions) {
       if (selectedKeys.includes(optionKey)) {
         currentValueDiv.appendChild(createCountryFlagContainer(optionKey, "", false, dropDownFlagSizeFactor));
-        if (selectedKeys.length == 1 || !db.countries[optionKey])
+        if (selectedKeys.length == 1 || !(optionKey in db.countries))
           selectedOptionTexts.push(param.allOptions[optionKey]);
       }
     }
@@ -504,7 +504,7 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
   let newChartConfig = db.cloneObject(chartSetConfig);
   if (param.allowMultiSelection && isMultiSelectOption && (isSelectionAdditive || isOptionAdditive)) {
-    if (param.name == "country" && db.isAllCountries(chartSetConfig) && db.countries[optionKey]) {
+    if (param.name == "country" && db.isAllCountries(chartSetConfig) && optionKey in db.countries) {
       let newValues = [];
       for (const code in db.countriesForOptions) {
         if (code != optionKey)
@@ -1476,7 +1476,7 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
   const placeholder = newChildNode(container, "SPAN");
   const flag = newChildNode(placeholder, "SPAN");
   placeholder.classList.add("flag");
-  if (countryId || alwaysReserveSpace) {
+  if (countryId !== undefined || alwaysReserveSpace) {
     placeholder.style.width = countryFlagWidth + "px";
     flag.style.width = countryFlagWidth + "px";
     flag.style.height = countryFlagHeight + "px";
@@ -1484,7 +1484,7 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
   }
 
   // set flag
-  if (countryId && countryCode != "ROTW") {
+  if (countryId !== undefined && countryCode != "ROTW") {
     flag.title = countryNamesByCode[countryCode];
     const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;
     const backgroundYPos = Math.floor(countryId / countryFlagSpriteColumns) * -countryFlagHeight;
