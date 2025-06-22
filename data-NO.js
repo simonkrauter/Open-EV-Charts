@@ -6263,6 +6263,7 @@ db.insert(db.countries.NO, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 70
 , "Zeekr|X": 70
 , "Mercedes-Benz|EQA": 68
+, "BYD|Seal": 64
 , "Mercedes-Benz|EQB": 60
 , "Polestar|2": 59
 , "BYD|Dolphin": 55
@@ -6277,13 +6278,11 @@ db.insert(db.countries.NO, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQE": 36
 , "Volvo|EC40": 36
 , "MG|ZS EV": 35
-, "BYD|Song Plus": 34
 , "Citroën|ë-C4": 33
-, "BYD|Seal": 30
+, "BMW|i5": 29
+, "Ford|Mustang Mach-E": 29
+, "Peugeot|E-3008": 29
 , "Opel|other": 57
-, "BMW|other": 40
-, "Ford|other": 38
-, "Peugeot|other": 34
 , "Nio|other": 29
 , "Zeekr|other": 27
 , "Renault|other": 25
@@ -6296,10 +6295,12 @@ db.insert(db.countries.NO, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|other": 14
 , "Mercedes-Benz|other": 14
 , "Volkswagen|other": 14
+, "BMW|other": 11
 , "Fiat|other": 11
 , "JAC|other": 10
+, "Ford|other": 9
 , "Jeep|other": 9
-, "other": 1415
+, "other": 1420
 });
 
 
