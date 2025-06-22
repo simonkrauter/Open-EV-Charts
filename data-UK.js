@@ -4435,9 +4435,9 @@ db.insert(db.countries.UK, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 478
 , "Volkswagen|other": 450
 , "Peugeot|other": 410
-, "BYD|other": 404
 , "Škoda|other": 361
 , "Audi|other": 358
+, "BYD|other": 336
 , "MG|other": 315
 , "Hyundai|other": 293
 , "Vauxhall|other": 293
@@ -4456,5 +4456,5 @@ db.insert(db.countries.UK, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 66
 , "Dacia|other": 55
 , "Nissan|other": 24
-, "other": 2651
+, "other": 2719
 });
