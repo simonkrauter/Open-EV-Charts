@@ -6672,7 +6672,7 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|4 EV": 108
 , "Porsche|Macan Electric": 98
 , "Mercedes-Benz|EQE": 93
-, "Citroën|ë-C4": 92
+, "Citroën|ë-C4": 88
 , "Volkswagen|ID.4": 84
 , "Audi|Q4 e-tron": 76
 , "BYD|Seal": 75
@@ -6725,7 +6725,7 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 9
 , "Volkswagen|other": 9
 , "Hyundai|other": 7
-, "other": 207
+, "other": 211
 });
 
 db.insert(db.countries.ES, "2025-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
@@ -6847,11 +6847,11 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 64
 , "Kia|Niro EV": 63
 , "BYD|Yuan Up": 59
-, "Citroën|ë-C4": 52
 , "Hyundai|Ioniq 5": 50
 , "Volkswagen|ID.3": 50
 , "Škoda|Elroq": 50
 , "Ford|Capri EV": 49
+, "Citroën|ë-C4": 45
 , "MG|4 EV": 42
 , "Volkswagen|ID.7": 37
 , "Audi|A6 e-tron": 35
@@ -6879,7 +6879,7 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 6
 , "Peugeot|other": 6
 , "Volkswagen|other": 6
-, "other": 224
+, "other": 231
 });
 
 db.insert(db.countries.ES, "2025-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
