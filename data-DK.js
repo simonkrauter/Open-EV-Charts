@@ -3850,3 +3850,80 @@ db.insert(db.countries.DK, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 5
 , "other": 29
 });
+
+db.insert(db.countries.DK, "2025-05", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17952
+});
+
+db.insert(db.countries.DK, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/5, https://www.statistikbanken.dk/bil51",
+{ "Škoda|Elroq": 1383
+, "Volkswagen|ID.4": 795
+, "Tesla|Model Y": 638
+, "Volkswagen|ID.3": 530
+, "Volkswagen|ID. Buzz": 461
+, "Renault|5 E-Tech": 437
+, "Kia|EV3": 385
+, "Audi|Q4 e-tron": 367
+, "Škoda|Enyaq": 255
+, "Mercedes-Benz|EQB": 254
+, "BMW|iX1": 252
+, "Xpeng|G6": 231
+, "Mercedes-Benz|EQA": 230
+, "Hyundai|Ioniq 5": 195
+, "Renault|Scénic E-Tech": 189
+, "Volkswagen|ID.7": 179
+, "Ford|Explorer EV": 171
+, "Kia|EV6": 171
+, "Citroën|ë-C3": 169
+, "Toyota|bZ4X": 169
+, "Audi|A6 e-tron": 163
+, "BMW|i5": 153
+, "Audi|Q6 e-tron": 141
+, "Cupra|Born": 132
+, "Nissan|Ariya": 126
+, "Hyundai|Inster": 124
+, "Cupra|Tavascan": 116
+, "Mercedes-Benz|EQE": 112
+, "Ford|E-Transit": 109
+, "Hyundai|Kona Electric": 103
+, "MG|4 EV": 102
+, "Peugeot|E-5008": 98
+, "Polestar|4": 98
+, "Volvo|EX30": 98
+, "Volvo|EX40": 93
+, "Volkswagen|ID.5": 87
+, "Renault|Megane E-Tech": 82
+, "Polestar|2": 76
+, "Renault|Master E-Tech": 74
+, "Mini|Cooper SE": 71
+, "BMW|i4": 69
+, "BYD|Seal": 66
+, "Tesla|Model 3": 64
+, "Peugeot|e-208": 61
+, "Ford|Capri EV": 57
+, "MG|ZS EV": 57
+, "Ford|Puma Gen-E": 56
+, "Porsche|Macan Electric": 54
+, "Peugeot|E-3008": 53
+, "Opel|Grandland Electric": 52
+, "BMW|other": 76
+, "Toyota|other": 67
+, "Xpeng|other": 58
+, "MG|other": 57
+, "BYD|other": 56
+, "Volvo|other": 53
+, "Opel|other": 52
+, "Hyundai|other": 51
+, "Ford|other": 45
+, "Mercedes-Benz|other": 42
+, "Volkswagen|other": 34
+, "Kia|other": 25
+, "Peugeot|other": 25
+, "Renault|other": 17
+, "Subaru|other": 11
+, "Polestar|other": 10
+, "Honda|other": 9
+, "Nissan|other": 8
+, "Porsche|other": 7
+, "other": 38
+});
