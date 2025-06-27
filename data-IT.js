@@ -6220,12 +6220,11 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 127
 , "Audi|Q4 e-tron": 111
 , "Opel|Frontera Electric": 111
+, "BYD|Seal": 107
 , "Ford|Puma Gen-E": 99
 , "Cupra|Tavascan": 94
 , "BMW|iX2": 82
 , "Fiat|Grande Panda Electric": 78
-, "BYD|Sealion 7": 77
-, "BYD|Seal": 76
 , "Audi|Q6 e-tron": 72
 , "Mercedes-Benz|EQB": 70
 , "BYD|Yuan Plus": 66
@@ -6243,7 +6242,6 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 33
 , "Hyundai|Kona Electric": 32
 , "Volvo|EX40": 32
-, "BYD|Song Plus": 31
 , "Ford|Mustang Mach-E": 31
 , "BMW|iX": 29
 , "Nissan|Ariya": 29
@@ -6251,15 +6249,16 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|600e": 28
 , "Audi|A6 e-tron": 26
 , "Opel|Corsa-e": 26
+, "Ford|Capri EV": 24
+, "BYD|Yuan Up": 22
+, "Volkswagen|ID. Buzz": 22
 , "Mercedes-Benz|other": 56
 , "Polestar|other": 43
-, "Volkswagen|other": 38
 , "Toyota|other": 35
-, "Ford|other": 24
 , "Kia|other": 24
-, "BYD|other": 22
 , "Porsche|other": 17
 , "Renault|other": 16
+, "Volkswagen|other": 16
 , "Škoda|other": 16
 , "Opel|other": 13
 , "Subaru|other": 12
@@ -6272,5 +6271,5 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 7
 , "MG|other": 6
 , "Nissan|other": 6
-, "other": 704
+, "other": 781
 });
