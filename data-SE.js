@@ -6890,8 +6890,8 @@ db.insert(db.countries.SE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQS": 16
 , "MG|other": 26
 , "Peugeot|other": 22
+, "Citroën|other": 16
 , "Fiat|other": 16
-, "Citroën|other": 15
 , "Ford|other": 15
 , "BMW|other": 13
 , "Mercedes-Benz|other": 13
@@ -6900,5 +6900,5 @@ db.insert(db.countries.SE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|other": 10
 , "Volkswagen|other": 6
 , "Smart|other": 5
-, "other": 86
+, "other": 85
 });
