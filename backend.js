@@ -406,8 +406,11 @@ var db = {
     if (chartConfig.metric == this.metrics.all) {
       let result = [];
       for (let i in this.metrics) {
-        if (this.metrics[i] != this.metrics.all)
-          result.push(this.metrics[i]);
+        if (this.metrics[i] == this.metrics.all)
+          continue;
+        if (this.metrics[i] == this.metrics.ratioElectric && [this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty))
+          continue;
+        result.push(this.metrics[i]);
       }
       return result;
     }
