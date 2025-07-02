@@ -46,7 +46,7 @@ function logError(msg) {
 }
 
 function assert(value, expectedValue = true) {
-  if (value !== expectedValue)
+  if (JSON.stringify(value) !== JSON.stringify(expectedValue))
     logError("Assertion failed: Expected " + JSON.stringify(expectedValue) + " but got " + JSON.stringify(value) + ".");
 }
 
@@ -63,6 +63,14 @@ function runTest(name, func) {
 
 function completeChartConfig(chartConfig) {
   return db.decodeChartConfigString(db.encodeChartConfig(chartConfig));
+}
+
+function roundData(chartData) {
+  for (const i in chartData.series) {
+    for (const j in chartData.series[i].data) {
+      chartData.series[i].data[j] = Math.round(chartData.series[i].data[j]);
+    }
+  }
 }
 
 try {
@@ -278,6 +286,26 @@ runTest("combineCountry_2", function() {
   chartConfig.detailLevel = db.detailLevels.company;
   chartConfig = completeChartConfig(chartConfig);
   assert(!db.needsUnfold(chartConfig));
+});
+
+runTest("multipleMetrics_byBrand_table", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.xProperty = db.xProperties.brand;
+  chartConfig.timeSpan = "2y";
+  chartConfig.view = db.views.table;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  let chartData = db.queryChartData(chartConfig);
+  roundData(chartData);
+  assert(chartData.categories.length, 4);
+  assert(chartData.series.length, 5);
+  assert(chartData.series[0].name, "Car Market");
+  assert(chartData.series[0].data, [2800, 2400, 1200, 1600]);
+  assert(chartData.series[1].name, "Car Market Split");
+  assert(chartData.series[1].data, [35, 30, 15, 20]);
+  assert(chartData.series[2].name, "BEV Market");
+  assert(chartData.series[2].data, [0, 800, 1000, 800]);
 });
 
 

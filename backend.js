@@ -2507,6 +2507,24 @@ var db = {
     return [chartConfig];
   },
 
+  reorderSeriesData: function(chartData, seriesIndex, referenceCategories) {
+    // Creates a new data series based on data from `chartData` and data point order of `referenceCategories`.
+    let series = chartData.series[seriesIndex];
+    let result = {};
+    result.name = series.name;
+    result.metric = series.metric;
+    result.data = [];
+    for (const i in referenceCategories) {
+      let category = referenceCategories[i];
+      let dataIndex = chartData.categories.indexOf(category);
+      if (dataIndex == -1)
+        result.data.push(null);
+      else
+        result.data.push(series.data[dataIndex]);
+    }
+    return result;
+  },
+
   queryChartData: function(chartConfig, sortByName) {
     // Queries the data for one chart.
     // Can combine multiple metrics and x-properties.
@@ -2516,7 +2534,7 @@ var db = {
       const newChartData = this.queryChartDataSingle(chartConfigs[i], sortByName);
       if (chartData != null) {
         for (const j in newChartData.series) {
-          chartData.series.push(newChartData.series[j]);
+          chartData.series.push(this.reorderSeriesData(newChartData, j, chartData.categories));
         }
         for (const j in newChartData.sources) {
           if (chartData.sources[j] == null)
