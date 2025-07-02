@@ -261,11 +261,11 @@ var db = {
   metrics:
   { "all": "all-metrics"
   , "salesAll": "all-sales"
+  , "shareAll": "all-share"
   , "salesElectric": "electric-sales"
+  , "shareElectric": "electric-share"
   , "ratioElectric": "electric-ratio"
   , "ratioElectricWithinCompanyOrBrand": "brand-electric-ratio"
-  , "shareElectric": "electric-share"
-  , "shareAll": "all-share"
   },
 
   xProperties:
