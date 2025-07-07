@@ -8584,7 +8584,7 @@ db.insert(db.countries.DE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 910
 , "Renault|5 E-Tech": 891
 , "Cupra|Tavascan": 846
-, "BYD|Dolphin": 825
+, "BYD|Seagull": 817
 , "GWM|Ora 03": 796
 , "Audi|Q4 e-tron": 781
 , "BMW|i5": 758
@@ -8616,7 +8616,7 @@ db.insert(db.countries.DE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|4": 201
 , "Opel|Grandland Electric": 198
 , "Porsche|Taycan": 180
-, "BYD|other": 468
+, "BYD|other": 476
 , "Mercedes-Benz|other": 464
 , "Peugeot|other": 417
 , "Smart|other": 338
