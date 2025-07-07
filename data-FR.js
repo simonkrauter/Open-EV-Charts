@@ -5957,3 +5957,61 @@ db.insert(db.countries.FR, "2025-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Renault|4 E-Tech": 320
 , "other": 7218
 });
+
+db.insert(db.countries.FR, "2025-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/07/Immatriculations-VPN_Juin2025.pdf",
+{ "Renault": 32700
+, "Peugeot": 21710
+, "Dacia": 16451
+, "Volkswagen": 11547
+, "Citroën": 11291
+, "Toyota": 9886
+, "BMW": 6285
+, "Mercedes-Benz": 5359
+, "Audi": 5275
+, "Škoda": 5084
+, "Ford": 4706
+, "Tesla": 3646
+, "Hyundai": 3501
+, "Opel": 3477
+, "Kia": 3133
+, "Nissan": 2560
+, "Mini": 2544
+, "Cupra": 2403
+, "MG": 2398
+, "Seat": 1831
+, "Fiat": 1819
+, "Suzuki": 1703
+, "Volvo": 1200
+, "Jeep": 1153
+, "BYD": 1011
+, "Mazda": 855
+, "Porsche": 475
+, "Xpeng": 391
+, "Honda": 389
+, "Mitsubishi": 335
+, "Smart": 98
+, "other": 4287
+});
+
+db.insert(db.countries.FR, "2025-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/06/Immatriculations-mensuelles-par-energie_Juin2025.pdf, https://cleantechnica.com/2025/07/06/evs-at-24-0-share-in-france-tesla-model-y-tops-chart/",
+{ "Tesla|Model Y": 3235
+, "Renault|5 E-Tech": 2829
+, "Renault|Scénic E-Tech": 1100
+, "Škoda|Elroq": 943
+, "Dacia|Spring": 925
+, "BMW|iX1": 914
+, "Peugeot|e-208": 883
+, "Audi|Q6 e-tron": 788
+, "Volkswagen|ID.3": 737
+, "Renault|Megane E-Tech": 727
+, "Citroën|ë-C3": 726
+, "Renault|4 E-Tech": 539
+, "Peugeot|E-3008": 537
+, "MG|4 EV": 513
+, "BMW|iX2": 506
+, "Volkswagen|ID.4": 501
+, "Fiat|500e": 444
+, "Mini|Cooper SE": 433
+, "Tesla|Model 3": 406
+, "other": 11171
+});
