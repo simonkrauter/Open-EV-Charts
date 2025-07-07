@@ -6494,3 +6494,110 @@ db.insert(db.countries.IE, "2025-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Porsche|other": 2
 , "other": 39
 });
+
+db.insert(db.countries.IE, "2025-06", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Tesla": 540
+, "Kia": 194
+, "Smart": 183
+, "Hyundai": 164
+, "Toyota": 157
+, "Volkswagen": 157
+, "Suzuki": 153
+, "Ford": 139
+, "Škoda": 120
+, "Fiat": 70
+, "BYD": 69
+, "BMW": 53
+, "Jeep": 52
+, "Citroën": 49
+, "MG": 44
+, "Mercedes-Benz": 36
+, "Audi": 35
+, "Dacia": 30
+, "Opel": 29
+, "Seat": 28
+, "Mini": 18
+, "Mazda": 17
+, "Nissan": 12
+, "Porsche": 12
+, "Land Rover": 8
+, "Volvo": 8
+, "Peugeot": 6
+, "Renault": 5
+, "Polestar": 4
+, "Cupra": 3
+, "Honda": 2
+, "Subaru": 1
+, "Xpeng": 1
+, "other": 39
+});
+
+db.insert(db.countries.IE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 295
+, "Tesla|Model Y": 245
+, "Smart|Hashtag 1": 183
+, "Hyundai|Inster": 100
+, "Fiat|500e": 46
+, "BYD|Yuan Plus": 43
+, "Jeep|Avenger EV": 38
+, "MG|4 EV": 22
+, "Kia|Niro EV": 19
+, "Citroën|ë-C4": 18
+, "Kia|EV6": 18
+, "Volkswagen|ID.4": 18
+, "Kia|EV3": 13
+, "Opel|Astra Electric": 11
+, "Ford|Explorer EV": 10
+, "MG|S5 EV": 10
+, "Škoda|Enyaq": 8
+, "Porsche|Macan Electric": 7
+, "BMW|iX2": 6
+, "Citroën|ë-Berlingo Electric": 6
+, "Ford|Puma Gen-E": 6
+, "Volkswagen|ID.3": 6
+, "Škoda|Elroq": 6
+, "Hyundai|Kona Electric": 5
+, "Kia|EV9": 5
+, "MG|ZS EV": 5
+, "Mini|Cooper SE": 5
+, "Nissan|Ariya": 5
+, "BMW|iX1": 4
+, "BYD|Seal": 4
+, "Hyundai|Ioniq 5": 4
+, "Mercedes-Benz|EQS SUV": 4
+, "Mercedes-Benz|EQV": 4
+, "Volkswagen|ID.7": 4
+, "Audi|Q4 e-tron": 3
+, "BMW|i4": 3
+, "Opel|Grandland Electric": 3
+, "Toyota|bZ4X": 3
+, "Cupra|Born": 2
+, "Mercedes-Benz|EQE SUV": 2
+, "Mercedes-Benz|EQS": 2
+, "Opel|Corsa-e": 2
+, "Polestar|2": 2
+, "Renault|5 E-Tech": 2
+, "Volkswagen|ID. Buzz": 2
+, "Volvo|EC40": 2
+, "Volvo|EX30": 2
+, "Audi|Q6 e-tron": 1
+, "BMW|i5": 1
+, "BMW|iX": 1
+, "BYD|Dolphin": 1
+, "Citroën|ë-C3": 1
+, "Fiat|600e": 1
+, "Ford|Capri EV": 1
+, "Ford|Mustang Mach-E": 1
+, "Honda|e": 1
+, "Mercedes-Benz|EQE": 1
+, "Peugeot|E-5008": 1
+, "Peugeot|e-2008": 1
+, "Polestar|3": 1
+, "Polestar|4": 1
+, "Renault|Scénic E-Tech": 1
+, "Subaru|Solterra": 1
+, "Volkswagen|ID.5": 1
+, "Volvo|EX40": 1
+, "Xpeng|G6": 1
+, "other": 12
+});
