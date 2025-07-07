@@ -6388,3 +6388,109 @@ db.insert(db.countries.IE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Subaru|other": 1
 , "other": 91
 });
+
+db.insert(db.countries.IE, "2025-05", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Volkswagen": 1031
+, "Hyundai": 893
+, "Kia": 751
+, "Tesla": 631
+, "Toyota": 620
+, "Škoda": 570
+, "Ford": 435
+, "BMW": 384
+, "Audi": 269
+, "Suzuki": 267
+, "Dacia": 230
+, "Mercedes-Benz": 220
+, "Seat": 195
+, "BYD": 183
+, "Smart": 183
+, "Peugeot": 134
+, "Volvo": 132
+, "Fiat": 131
+, "Opel": 125
+, "Renault": 115
+, "MG": 112
+, "Citroën": 104
+, "Jeep": 77
+, "Land Rover": 67
+, "Cupra": 58
+, "Mini": 53
+, "Nissan": 52
+, "Porsche": 48
+, "Mazda": 36
+, "Honda": 21
+, "Polestar": 13
+, "Xpeng": 9
+, "Subaru": 1
+, "other": 109
+});
+
+db.insert(db.countries.IE, "2025-05", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Tesla|Model 3": 333
+, "Tesla|Model Y": 298
+, "Hyundai|Inster": 222
+, "Smart|Hashtag 1": 183
+, "Volkswagen|ID.4": 82
+, "Kia|EV3": 68
+, "Fiat|500e": 67
+, "Hyundai|Ioniq 5": 61
+, "Kia|EV6": 61
+, "BYD|Yuan Plus": 52
+, "Jeep|Avenger EV": 46
+, "Hyundai|Kona Electric": 42
+, "Škoda|Elroq": 39
+, "MG|4 EV": 38
+, "BMW|iX1": 37
+, "Kia|Niro EV": 37
+, "Škoda|Enyaq": 35
+, "Volkswagen|ID.3": 34
+, "Mercedes-Benz|EQE SUV": 26
+, "Citroën|ë-C4": 25
+, "Audi|Q4 e-tron": 24
+, "Ford|Explorer EV": 22
+, "Nissan|Ariya": 20
+, "Opel|Astra Electric": 20
+, "Kia|EV9": 19
+, "Porsche|Macan Electric": 18
+, "Volvo|EX30": 18
+, "Cupra|Born": 17
+, "BMW|iX2": 15
+, "Mini|Cooper SE": 15
+, "Toyota|bZ4X": 15
+, "BYD|Seal": 14
+, "Peugeot|E-5008": 14
+, "Renault|5 E-Tech": 13
+, "Volkswagen|ID.7": 13
+, "BMW|i5": 12
+, "Ford|Puma Gen-E": 12
+, "Mercedes-Benz|EQS SUV": 12
+, "BMW|i4": 11
+, "Citroën|ë-Berlingo Electric": 11
+, "Audi|Q6 e-tron": 10
+, "MG|S5 EV": 10
+, "BYD|Dolphin": 9
+, "Opel|Mokka-e": 9
+, "Polestar|4": 9
+, "Volvo|EX40": 9
+, "Xpeng|G6": 9
+, "Ford|Capri EV": 8
+, "Hyundai|Ioniq 6": 8
+, "Renault|Scénic E-Tech": 8
+, "Mercedes-Benz|other": 18
+, "Peugeot|other": 13
+, "Volkswagen|other": 11
+, "BMW|other": 10
+, "MG|other": 10
+, "Opel|other": 9
+, "Volvo|other": 8
+, "Polestar|other": 4
+, "Audi|other": 3
+, "Cupra|other": 3
+, "Dacia|other": 3
+, "Renault|other": 3
+, "Citroën|other": 2
+, "Fiat|other": 2
+, "Porsche|other": 2
+, "other": 39
+});
