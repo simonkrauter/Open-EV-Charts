@@ -1393,3 +1393,69 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 5
 , "other": 234
 });
+
+db.insert(db.countries.AU, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2025-byd-shark-6-booms-in-resurgent-vfacts-month/",
+{ "Toyota": 20225
+, "Ford": 10103
+, "Mazda": 9405
+, "Hyundai": 8407
+, "BYD": 8156
+, "Kia": 7810
+, "GWM": 5464
+, "Mitsubishi": 5336
+, "Isuzu": 5152
+, "Subaru": 4610
+, "Tesla": 4589
+, "other": 38180
+});
+
+db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/07/02/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
+{ "Tesla|Model Y": 3457
+, "BYD|Sealion 7": 1795
+, "Tesla|Model 3": 1132
+, "Geely|Galaxy E5": 822
+, "BYD|Seal": 627
+, "BYD|Yuan Plus": 576
+, "BYD|Dolphin": 561
+, "Kia|EV5": 553
+, "Kia|EV3": 321
+, "MG|4 EV": 251
+, "Polestar|4": 174
+, "MG|S5 EV": 171
+, "Mercedes-Benz|EQE SUV": 159
+, "Volvo|EX30": 138
+, "Polestar|2": 135
+, "Audi|Q4 e-tron": 100
+, "Volvo|EX40": 94
+, "Zeekr|X": 92
+, "BMW|i4": 84
+, "Mini|Cooper SE": 81
+, "Mercedes-Benz|EQB": 73
+, "Volkswagen|ID. Buzz": 69
+, "BMW|iX": 63
+, "Cupra|Tavascan": 62
+, "Hyundai|Ioniq 5": 62
+, "GWM|Ora 03": 60
+, "Toyota|bZ4X": 56
+, "Mercedes-Benz|EQA": 52
+, "Hyundai|Kona Electric": 47
+, "Hyundai|Inster": 41
+, "Audi|Q6 e-tron": 36
+, "Volvo|EX90": 35
+, "Mercedes-Benz|EQE": 32
+, "Polestar|3": 30
+, "Kia|EV6": 29
+, "Ford|Mustang Mach-E": 28
+, "Porsche|Taycan": 20
+, "Kia|EV9": 19
+, "Zeekr|009": 19
+, "Škoda|Enyaq": 15
+, "Renault|Megane E-Tech": 13
+, "Jeep|Avenger EV": 11
+, "BMW|i5": 10
+, "Subaru|Solterra": 10
+, "Hyundai|Ioniq 6": 9
+, "Cupra|Born": 8
+, "MG|Cyberster": 7
+, "other": 119
+});
