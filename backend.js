@@ -1280,10 +1280,12 @@ var db = {
         parts.push("Compare Countries");
       else if (this.isGlobalCountry(chartConfig))
         parts.push(this.globalCountryName);
-      else if (this.isMultiCountry(chartConfig) && this.isMultiMetric(chartConfig))
-        parts.push("Mutiple Countries and Metrics");
-      else if (this.isMultiMetric(chartConfig))
-        parts.push("Mutiple Metrics");
+      else if (this.isMultiMetric(chartConfig)) {
+        if (this.isMultiCountry(chartConfig))
+          parts.push("Mutiple Countries and Metrics");
+        else
+          parts.push(this.countriesForOptions[chartConfig.country]);
+      }
     }
     return parts.join(" – ");
   },
