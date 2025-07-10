@@ -950,7 +950,12 @@ function configureDataLabels(chartConfig, chartData, chartOptions) {
   const minValue = yAxisMax / chartSize[1] * 20;
 
   // Make sure, that the width is enough for every label
-  const availableWidth = chartSize[0] / chartData.categories.length * Chart.defaults.datasets.bar.barPercentage * 1.05;
+  let numberOfBars;
+  if (db.isBarChartStacked(chartConfig))
+    numberOfBars = chartData.categories.length;
+  else
+    numberOfBars = chartData.categories.length * chartData.series.length;
+  const availableWidth = chartSize[0] / numberOfBars * Chart.defaults.datasets.bar.barPercentage * 1.05;
   for (const i in chartData.series) {
     const series = chartData.series[i];
     for (const j in series.data) {
