@@ -368,6 +368,10 @@ function renderDropdownOptions(param, overlay) {
       if (optionKey in additionalCountrySearchTextByCode)
         searchText += " " + additionalCountrySearchTextByCode[optionKey];
       optionNode.dataset.searchText = searchText;
+      if (optionKey == db.countryOptions.combine) {
+        const separator = newChildNode(overlay, "DIV");
+        separator.classList.add("separator");
+      }
     } else {
       optionNode.appendChild(document.createTextNode(optionText));
       optionNode.dataset.searchText = optionText;
@@ -462,7 +466,12 @@ function updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv) {
   let resultCount = 0;
   for (let i = 0; i < overlay.childNodes.length; i++) {
     const optionNode = overlay.childNodes[i];
-    if (optionNode.tagName == "A") {
+    if (optionNode.classList.contains("separator")) {
+      if (searchTerm == "")
+        optionNode.style.display = "";
+      else
+        optionNode.style.display = "none";
+    } else if (optionNode.tagName == "A") {
       // regular option
       if (searchTerm == "" || db.normalizeSearchString(optionNode.dataset.searchText).indexOf(searchTerm) != -1) {
         optionNode.style.display = "";

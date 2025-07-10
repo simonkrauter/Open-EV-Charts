@@ -287,6 +287,14 @@ body:not(.showFocus) .dropdown > .overlay > *:not(.disabled):not(.search):hover,
   color: var(--clDropdownItemDisabledText);
 }
 
+.dropdown > .overlay > .separator {
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background: var(--clButtonText);
+  opacity: 10%;
+}
+
 .dropdown > .overlay > .search {
   padding-top: 6px;
   padding-bottom: 0px;
