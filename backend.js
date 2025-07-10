@@ -1094,7 +1094,7 @@ var db = {
     if (chartConfig.xProperty == this.xProperties.model && ![this.metrics.salesElectric, this.metrics.shareElectric].includes(chartConfig.metric))
       chartConfig.xProperty = this.xProperties.brand;
 
-    if (!chartConfig.xProperty || (!Object.keys(params.xProperty.options).includes(chartConfig.xProperty) && !this.isMultiXProperties(chartConfig)))
+    if (!chartConfig.xProperty || (!(chartConfig.xProperty in params.xProperty.options) && !this.isMultiXProperties(chartConfig)))
       chartConfig.xProperty = params.xProperty.defaultOption;
 
     if (this.isCompanyBrandModelXProperty(chartConfig))
@@ -1108,7 +1108,7 @@ var db = {
         chartConfig.detailLevel = this.detailLevels.company;
       else
         chartConfig.detailLevel = params.detailLevel.defaultOption;
-    } else if (!Object.keys(params.detailLevel.options).includes(chartConfig.detailLevel))
+    } else if (!(chartConfig.detailLevel in params.detailLevel.options))
       chartConfig.detailLevel = params.detailLevel.defaultOption;
 
     if (chartConfig.company == null)
@@ -1172,7 +1172,7 @@ var db = {
 
     params = this.getChartParams(chartConfig); // update
 
-    if (!Object.keys(params.view.options).includes(chartConfig.view))
+    if (!(chartConfig.view in params.view.options))
       chartConfig.view = params.view.defaultOption;
 
     // reset brand filter, when company filter is reset
