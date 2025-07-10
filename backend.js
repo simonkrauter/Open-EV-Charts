@@ -525,20 +525,8 @@ var db = {
       let param = {};
       param.name = "metric";
       param.title = "Metric";
-      param.allOptions = {};
-      param.allOptions[this.metrics.ratioElectric] = "BEV Market Share";
-      param.allOptions[this.metrics.salesElectric] = "BEV Market";
-      param.allOptions[this.metrics.shareElectric] = "BEV Market Split";
-      param.allOptions[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
-      param.allOptions[this.metrics.salesAll] = "Car Market";
-      param.allOptions[this.metrics.shareAll] = "Car Market Split";
-      param.allOptions[this.metrics.all] = "All Metrics";
-      param.options = this.cloneObject(param.allOptions);
-      if (chartConfig != null && countryGroups.includes(chartConfig.country)) {
-        delete param.options[this.metrics.ratioElectricWithinCompanyOrBrand];
-        delete param.options[this.metrics.shareElectric];
-        delete param.options[this.metrics.shareAll];
-      }
+      param.allOptions = this.getMetricOptions(chartConfig, true);
+      param.options = this.getMetricOptions(chartConfig, false);
       if (chartConfig != null && !this.isSingleOrCombinedCountry(chartConfig))
         param.excludeOnUnfoldAndTitle = [this.metrics.ratioElectricWithinCompanyOrBrand];
       param.unfoldKey = this.metrics.all;
@@ -880,7 +868,7 @@ var db = {
     return timeSpan;
   },
 
-  getCountryOptions: function(chartConfig, allOptions) {
+  getCountryOptions: function(chartConfig, allOptions = true) {
     let result = {};
     result[this.countryOptions.all] = "All Countries";
     let regularCountryCount = 0;
@@ -903,6 +891,22 @@ var db = {
         result[code] = this.countriesForOptions[code];
       }
     }
+    return result;
+  },
+
+  getMetricOptions: function(chartConfig, allOptions = true) {
+    const isRegularCountry = chartConfig == null || !countryGroups.includes(chartConfig.country);
+    let result = {};
+    result[this.metrics.ratioElectric] = "BEV Market Share";
+    result[this.metrics.salesElectric] = "BEV Market";
+    if (allOptions || isRegularCountry) {
+      result[this.metrics.shareElectric] = "BEV Market Split";
+      result[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
+    }
+    result[this.metrics.salesAll] = "Car Market";
+    if (allOptions || isRegularCountry)
+      result[this.metrics.shareAll] = "Car Market Split";
+    result[this.metrics.all] = "All Metrics";
     return result;
   },
 
