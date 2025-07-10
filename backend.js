@@ -1358,7 +1358,7 @@ var db = {
   getDefaultSeriesName: function(params, chartConfig) {
     if (chartConfig.unfoldForQueryParamName == "xProperty")
       return params.xProperty.options[chartConfig.xProperty];
-    return params.metric.options[chartConfig.metric];
+    return params.metric.allOptions[chartConfig.metric];
   },
 
   queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
