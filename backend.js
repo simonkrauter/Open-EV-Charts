@@ -1282,6 +1282,8 @@ var db = {
         parts.push(this.globalCountryName);
       else if (this.isMultiCountry(chartConfig) && this.isMultiMetric(chartConfig))
         parts.push("Mutiple Countries and Metrics");
+      else if (this.isMultiMetric(chartConfig))
+        parts.push("Mutiple Metrics");
     }
     return parts.join(" – ");
   },
