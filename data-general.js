@@ -61,9 +61,9 @@ const countryNamesByCode =
 , "CN/DE": "China / Germany"
 , "US/EU": "United States / Europe"
 , "JP/EU": "Japan / Europe"
-// Special entries without flag:
-, "ROTW": "Rest of the World"
 };
+
+const countryGroups = ["global"];
 
 const additionalCountrySearchTextByCode =
 { "AE": " الإمارات العربية المتحدة"

@@ -482,6 +482,10 @@ canvas {
   font-style: italic;
 }
 
+.countriesStatus .countryGroupRest {
+  color: var(--clBaseMinorText);
+}
+
 .status {
   padding-left: 6px;
   padding-right: 6px;

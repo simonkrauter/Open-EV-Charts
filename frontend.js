@@ -368,7 +368,7 @@ function renderDropdownOptions(param, overlay) {
       if (optionKey in additionalCountrySearchTextByCode)
         searchText += " " + additionalCountrySearchTextByCode[optionKey];
       optionNode.dataset.searchText = searchText;
-      if (optionKey == db.countryOptions.combine) {
+      if (optionKey == countryGroups[countryGroups.length - 1]) {
         const separator = newChildNode(overlay, "DIV");
         separator.classList.add("separator");
       }
@@ -516,14 +516,23 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
   const isMultiSelectOption = !param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey);
   let newChartConfig = db.cloneObject(chartSetConfig);
   if (param.allowMultiSelection && isMultiSelectOption && (isSelectionAdditive || isOptionAdditive)) {
-    if (param.name == "country" && db.isAllCountries(chartSetConfig) && optionKey in db.countries) {
+    if (param.name == "country") {
       let newValues = [];
-      for (const code in db.countriesForOptions) {
-        if (code != optionKey)
-          newValues.push(code);
+      if (db.isAllCountries(chartSetConfig) && optionKey in db.countries) {
+        for (const code in db.countriesForOptions) {
+          if (code != optionKey)
+            newValues.push(code);
+        }
+        if (db.isCombinedCountry(chartSetConfig))
+          newValues.push(db.countryOptions.combine);
+      } else {
+        newValues = newChartConfig[param.name].split(",");
+        let index = newValues.indexOf(optionKey);
+        if (index !== -1)
+          newValues.splice(index, 1);
+        else
+          newValues.push(optionKey);
       }
-      if (db.isCombinedCountry(chartSetConfig))
-        newValues.push(db.countryOptions.combine);
       newChartConfig[param.name] = newValues.join(",");
     } else {
       let values = newChartConfig[param.name].split(",");
@@ -1068,7 +1077,7 @@ function getChartSeriesColors(chartConfig, chartData) {
   let seriesIndexesWithDynamicColor = [];
   for (const i in chartData.series) {
     const seriesName = chartData.series[i].name;
-    if (seriesName == db.otherSeriesName)
+    if ([db.otherSeriesName, countryNamesByCode["global"]].includes(seriesName))
       result.push(otherSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyOrBrand[seriesName];
@@ -1501,7 +1510,7 @@ function createCountryFlagContainer(countryCode, text, alwaysReserveSpace = fals
   }
 
   // set flag
-  if (countryId !== undefined && countryCode != "ROTW") {
+  if (countryId !== undefined) {
     flag.title = countryNamesByCode[countryCode];
     const backgroundXPos = (countryId % countryFlagSpriteColumns) * -countryFlagWidth;
     const backgroundYPos = Math.floor(countryId / countryFlagSpriteColumns) * -countryFlagHeight;
@@ -1563,12 +1572,13 @@ function renderCountriesStatusPage() {
     const countryId = db.countriesWithData[i];
     renderCountriesStatusPageRow(table, countryId, parseInt(i) + 1);
   }
-  renderCountriesStatusPageRow(table, db.countries["ROTW"]);
+  for (const i in db.countryGroupRestIds) {
+    const countryId = db.countryGroupRestIds[i];
+    renderCountriesStatusPageRow(table, countryId);
+  }
 }
 
 function renderCountriesStatusPageRow(table, countryId, index = "") {
-  const countryCode = db.countriesCodes[countryId];
-  const countryName = db.countryNames[countryId];
   // collect data from the first dataset
   let firstMonthString = "";
   for (const j in db.datasets) {
@@ -1634,6 +1644,8 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
   const evSalesPerYear = evSalesSum / salesMonthCount * 12;
   const tr = newChildNode(table, "TR");
+  if (db.countryGroupRestIds.includes(countryId))
+    tr.classList.add("countryGroupRest");
   // index
   {
     const td = newChildNode(tr, "TD", index);
@@ -1641,17 +1653,23 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   }
   // name
   {
-    const td = newChildNode(tr, "TD");
-    let newChartConfig = {};
-    newChartConfig.country = countryCode;
-    newChartConfig.metric = db.metrics.all;
-    if (isLastDatasetPerQuarter)
-      newChartConfig.xProperty = db.xProperties.quarter;
-    else
-      newChartConfig.xProperty = db.xProperties.month;
-    const a = createLink(db.encodeChartConfig(newChartConfig));
-    td.appendChild(a);
-    a.appendChild(createCountryFlagContainer(countryCode, countryName, true, tableFlagSizeFactor));
+    if (!db.countryGroupRestIds.includes(countryId)) {
+      const td = newChildNode(tr, "TD");
+      const countryCode = db.countriesCodes[countryId];
+      const countryName = db.countryNames[countryId];
+      let newChartConfig = {};
+      newChartConfig.country = countryCode;
+      newChartConfig.metric = db.metrics.all;
+      if (isLastDatasetPerQuarter)
+        newChartConfig.xProperty = db.xProperties.quarter;
+      else
+        newChartConfig.xProperty = db.xProperties.month;
+      const a = createLink(db.encodeChartConfig(newChartConfig));
+      td.appendChild(a);
+      a.appendChild(createCountryFlagContainer(countryCode, countryName, true, tableFlagSizeFactor));
+    } else {
+      newChildNode(tr, "TD", latestAllCarsDataset.countryName);
+    }
   }
   // available data
   {
@@ -1659,12 +1677,14 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     if (latestAllCarsDataset != null) {
       const span = newChildNode(td, "SPAN", latestAllCarsDataset.monthString);
       span.classList.add("status");
-      if (monthsNewDataIsOverdue > 2.5)
-        span.classList.add("bad");
-      else if (monthsNewDataIsOverdue > 1)
-        span.classList.add("medium");
-      else
-        span.classList.add("good");
+      if (!db.countryGroupRestIds.includes(countryId)) {
+        if (monthsNewDataIsOverdue > 2.5)
+          span.classList.add("bad");
+        else if (monthsNewDataIsOverdue > 1)
+          span.classList.add("medium");
+        else
+          span.classList.add("good");
+      }
     }
     td.style.textAlign = "center";
   }
@@ -1735,7 +1755,7 @@ function getAllCarsDetailednessSpan(dataset) {
     span.classList.add("medium");
   } else {
     span.appendChild(document.createTextNode("Total only"));
-    if (dataset.countryName != db.rotwCoutryName)
+    if (!db.countryGroupIds.includes(dataset.country) && !db.countryGroupRestIds.includes(dataset.country))
       span.classList.add("medium");
   }
   return span;
@@ -1766,7 +1786,7 @@ function getEvDetailednessSpan(dataset) {
     span.classList.add("medium");
   } else {
     span.appendChild(document.createTextNode("Total only"));
-    if (dataset.countryName != db.rotwCoutryName)
+    if (!db.countryGroupIds.includes(dataset.country) && !db.countryGroupRestIds.includes(dataset.country))
       span.classList.add("medium");
   }
   return span;
@@ -1777,7 +1797,7 @@ function getCoverageData() {
   let lastCompleteYear = 0;
   for (let j = db.datasets.length - 1; j >= 0; j--) {
     const dataset = db.datasets[j];
-    if (dataset.country != db.countries.ROTW)
+    if (dataset.country != db.globalCountryId)
       continue;
     if (dataset.month != 12)
       continue;
@@ -1788,6 +1808,10 @@ function getCoverageData() {
   let data = {};
   for (const i in db.datasets) {
     const dataset = db.datasets[i];
+    if (db.countryGroupIds.includes(dataset.country))
+      continue;
+    if (db.countryGroupRestIds.includes(dataset.country) && dataset.country != db.globalRestCountryId)
+      continue;
     let key;
     if (dataset.year <= lastCompleteYear)
       key = dataset.year;
@@ -1808,7 +1832,7 @@ function getCoverageData() {
       const value = dataset.data[dataKey];
       if (dataset.isEvs) {
         data[key].electricCarsTotal += value;
-        if (dataset.country != db.countries.ROTW)
+        if (dataset.country != db.globalRestCountryId)
           data[key].electricCarsByCountry += value;
         else
           data[key].isComplete = true;
@@ -1820,7 +1844,7 @@ function getCoverageData() {
         }
       } else {
         data[key].allCarsTotal += value;
-        if (dataset.country != db.countries.ROTW)
+        if (dataset.country != db.globalRestCountryId)
           data[key].allCarsByCountry += value;
         if (dataset.dsType == db.dsTypes.AllCarsByBrand)
           data[key].allCarsByBrand += value;

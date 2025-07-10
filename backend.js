@@ -17,8 +17,14 @@ var db = {
   countryNamesReverse: {},
   // Name => ID
 
+  countryGroupIds: [],
+  // List of IDs of country groups
+
+  countryGroupRestIds: [],
+  // List of IDs of automatically generated countries
+
   countriesWithData: [],
-  // List of IDs, does not include ROTW
+  // List of IDs of countries with data file
 
   countriesForOptions: {},
   // Code => Name of countries with data
@@ -26,11 +32,14 @@ var db = {
   countriesForOptionsAlphabetic: {},
   // Code => Name of countries with data, sorted alphabetic
 
-  rotwCoutryName: countryNamesByCode["ROTW"],
-
   otherSeriesName: "Other",
 
-  globalCountryName: "Global",
+  globalCountryId: null, // will be set in initialize()
+  globalRestCountryId: 100,
+  globalRestCountryName: "Global Rest",
+
+  globalRestAllCarsDatasetsByDate: {},
+  globalRestEvDatasetsByDate: {},
 
   dsTypes:
   { "AllCarsByBrand": 1
@@ -86,6 +95,8 @@ var db = {
       this.countryNamesReverse[name] = id;
       id++;
     }
+    this.globalCountryId = this.countries["global"];
+    this.countryGroupRestIds.push(this.globalRestCountryId);
   },
 
   insert: function(country, dateString, dsType, source, data) {
@@ -98,7 +109,7 @@ var db = {
     //                object of brand -> number of sales or
     //                object of model -> number of sales
 
-    if (country != this.countries.ROTW && !this.countriesWithData.includes(country))
+    if (!this.countriesWithData.includes(country))
       this.countriesWithData.push(country);
 
     let dataset =
@@ -123,12 +134,14 @@ var db = {
         newDataset.month = firstMonth + i;
         newDataset.monthString = this.formatMonth(newDataset.year, newDataset.month);
         this.datasets.push(newDataset);
+        this.addToGlobalRest(newDataset);
       }
     } else {
       dataset.monthString = dateString;
       dataset.month = parseInt(dateString.substr(5, 2));
       dataset.data = data;
       this.datasets.push(dataset);
+      this.addToGlobalRest(dataset);
     }
 
     if (dsType == this.dsTypes.ElectricCarsByModel) {
@@ -144,6 +157,44 @@ var db = {
       for (const brand in data) {
         if (!this.brands.includes(brand))
           this.brands.push(brand);
+      }
+    }
+  },
+
+  addToGlobalRest: function(dataset) {
+    let sum = 0;
+    for (const key in dataset.data) {
+      sum += dataset.data[key];
+    }
+    if (dataset.country == this.globalCountryId) {
+      let newDataset = {};
+      newDataset.country = this.globalRestCountryId;
+      newDataset.countryName = this.globalRestCountryName;
+      newDataset.isEvs = dataset.isEvs;
+      if (dataset.isEvs)
+        newDataset.dsType = this.dsTypes.ElectricCarsTotal;
+      else
+        newDataset.dsType = this.dsTypes.AllCarsTotal;
+      newDataset.monthString = dataset.monthString;
+      newDataset.year = dataset.year;
+      newDataset.month = dataset.month;
+      if (dataset.country == this.globalCountryId)
+        newDataset.source = dataset.source;
+      newDataset.data = {"other": sum};
+      this.datasets.push(newDataset);
+      if (dataset.isEvs)
+        this.globalRestEvDatasetsByDate[dataset.monthString] = newDataset;
+      else
+        this.globalRestAllCarsDatasetsByDate[dataset.monthString] = newDataset;
+    } else {
+      if (dataset.isEvs) {
+        if (dataset.monthString in this.globalRestEvDatasetsByDate) {
+          this.globalRestEvDatasetsByDate[dataset.monthString].data["other"] -= sum;
+        }
+      } else {
+        if (dataset.monthString in this.globalRestAllCarsDatasetsByDate) {
+          this.globalRestAllCarsDatasetsByDate[dataset.monthString].data["other"] -= sum;
+        }
       }
     }
   },
@@ -186,12 +237,21 @@ var db = {
     });
 
     // Prepare country options
+    for (const i in countryGroups) {
+      const code = countryGroups[i];
+      const id = this.countries[code];
+      this.countryGroupIds.push(id);
+      const name = this.countryNames[id];
+      this.countriesForOptionsAlphabetic[code] = name;
+    }
     let countryNamesAlphabetic = [];
     for (const i in this.countriesWithData) {
       const id = this.countriesWithData[i];
       const name = this.countryNames[id];
       const code = this.countriesCodes[id];
       this.countriesForOptions[code] = name;
+      if (this.countryGroupIds.includes(id))
+        continue;
       countryNamesAlphabetic.push(name);
     }
     countryNamesAlphabetic.sort(function(a, b) {
@@ -392,10 +452,6 @@ var db = {
     return !this.isMultiCountry(chartConfig) || this.isCombinedCountry(chartConfig);
   },
 
-  isGlobalCountry: function(chartConfig) {
-    return this.isAllCountries(chartConfig) && this.isCombinedCountry(chartConfig);
-  },
-
   getCountries: function(chartConfig) {
     if (chartConfig.country == null)
       return [];
@@ -478,7 +534,7 @@ var db = {
       param.allOptions[this.metrics.shareAll] = "Car Market Split";
       param.allOptions[this.metrics.all] = "All Metrics";
       param.options = this.cloneObject(param.allOptions);
-      if (chartConfig != null && this.isGlobalCountry(chartConfig)) {
+      if (chartConfig != null && countryGroups.includes(chartConfig.country)) {
         delete param.options[this.metrics.ratioElectricWithinCompanyOrBrand];
         delete param.options[this.metrics.shareElectric];
         delete param.options[this.metrics.shareAll];
@@ -827,7 +883,16 @@ var db = {
   getCountryOptions: function(chartConfig, allOptions) {
     let result = {};
     result[this.countryOptions.all] = "All Countries";
-    if (allOptions || chartConfig == null || ((chartConfig.country == null || this.isMultiCountry(chartConfig)) && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
+    let regularCountryCount = 0;
+    if (chartConfig != null) {
+      let countryValues = this.getCountries(chartConfig);
+      for (const i in countryValues) {
+        let code = countryValues[i];
+        if (![this.countryOptions.all, this.countryOptions.combine, "global"].includes(code))
+          regularCountryCount++;
+      }
+    }
+    if (allOptions || chartConfig == null || (regularCountryCount > 1 && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
       result[this.countryOptions.combine] = "Combine Countries";
     if (allOptions) {
       for (const code in this.countriesForOptionsAlphabetic) {
@@ -989,6 +1054,28 @@ var db = {
             break;
           }
         }
+      }
+    }
+
+    // Switch between "global" and "all countries"
+    if (countryValues.includes(this.countryOptions.all) && countryValues.includes(this.countryOptions.combine)) {
+      countryValues = ["global"];
+      chartConfig.country = countryValues.join(",");
+    }
+
+    // Remove incompatible "global" country
+    if (countryValues.includes("global") && this.isBarChartStacked(chartConfig)) {
+      let hasRegularCountry = false;
+      for (const i in countryValues) {
+        let code = countryValues[i];
+        if (![this.countryOptions.all, this.countryOptions.combine, "global"].includes(code)) {
+          hasRegularCountry = true;
+          break;
+        }
+      }
+      if (hasRegularCountry) {
+        countryValues = [this.countryOptions.all];
+        chartConfig.country = countryValues.join(",");
       }
     }
 
@@ -1174,14 +1261,6 @@ var db = {
     }
 
     if (chartConfig.isRegularHomeTile) {
-      // Add "Global" on the home page
-      {
-        let config = {};
-        config.metric = this.metrics.all;
-        config.country = this.countryOptions.combine;
-        this.makeChartConfigValid(config);
-        chartConfigs.unshift(config);
-      }
       // Add "Compare Countries" on the home page
       {
         let config = {};
@@ -1259,9 +1338,7 @@ var db = {
         }
         if (isSingleChart || chartConfig.unfoldParamName == "country") {
           // Prepend country
-          if (this.isGlobalCountry(chartConfig))
-            text = this.globalCountryName + " " + text;
-          else if (!this.isMultiCountry(chartConfig))
+          if (!this.isMultiCountry(chartConfig))
             text = this.countriesForOptions[chartConfig.country] + " " + text;
         }
       } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all && this.getModels(chartConfig).length == 1) {
@@ -1278,8 +1355,6 @@ var db = {
     if (parts.length == 0) {
       if (!this.isSingleOrCombinedCountry(chartConfig))
         parts.push("Compare Countries");
-      else if (this.isGlobalCountry(chartConfig))
-        parts.push(this.globalCountryName);
       else if (this.isMultiMetric(chartConfig)) {
         if (this.isMultiCountry(chartConfig))
           parts.push("Mutiple Countries and Metrics");
@@ -1318,7 +1393,7 @@ var db = {
         parts.push("Share of battery electric cars of passenger car sales within brand");
     }
     // Countries
-    if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig) && !this.isGlobalCountry(chartConfig)) {
+    if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
       const countryValues = this.getCountries(chartConfig);
       let countrieNames = [];
       if (countryValues.includes(this.countryOptions.all)) {
@@ -1365,7 +1440,7 @@ var db = {
     // Returns datasets for chart
     let filterCountryIds = this.queryDatasets_getCountryFilter(chartConfig);
 
-    const useCountryAsSeriesName = filterCountryIds.length != 1 && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
+    const useCountryAsSeriesName = filterCountryIds.length != 1 && chartConfig.country != "global" && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
 
     const params = db.getChartParams(chartConfig);
 
@@ -1394,7 +1469,7 @@ var db = {
       const dataset = this.datasets[i];
       if (dataset.isEvs != onlyEvs)
         continue;
-      if (filterCountryIds.length > 0 && !filterCountryIds.includes(dataset.country))
+      if (!filterCountryIds.includes(dataset.country))
         continue;
       if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
         continue;
@@ -1468,8 +1543,8 @@ var db = {
         // set seriesName
         let seriesName;
         if (useCountryAsSeriesName) {
-          if (dataset.country == this.countries.ROTW)
-            seriesName = "other";
+          if (this.countryGroupRestIds.includes(dataset.country))
+            seriesName = this.otherSeriesName;
           else
             seriesName = dataset.countryName;
         } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
@@ -1544,13 +1619,28 @@ var db = {
   },
 
   queryDatasets_getCountryFilter: function(chartConfig) {
+    const isGlobal = chartConfig.country == "global";
     let filterCountryIds = [];
     const countryValues = this.getCountries(chartConfig);
-    for (const i in countryValues) {
-      const code = countryValues[i];
-      const id = this.countries[code];
-      if (id && this.countriesWithData.includes(id))
-        filterCountryIds.push(id);
+    for (const i in this.countriesWithData) {
+      const id = this.countriesWithData[i];
+      const code = this.countriesCodes[id];
+      if (isGlobal) {
+        if (this.countryGroupIds.includes(id))
+          continue;
+      } else if (!countryValues.includes(this.countryOptions.all)) {
+        if (!countryValues.includes(code))
+          continue;
+      } else if (this.countryGroupIds.includes(id)) {
+        if (chartConfig.xProperty == this.xProperties.country)
+          continue;
+        if (this.isBarChartStacked(chartConfig))
+          continue;
+      }
+      filterCountryIds.push(id);
+    }
+    if (isGlobal) {
+      filterCountryIds.push(this.globalRestCountryId);
     }
     return filterCountryIds;
   },
@@ -1685,11 +1775,11 @@ var db = {
   },
 
   removeIncompleteGlobalData: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
-    if (!this.isGlobalCountry(chartConfig))
+    if (chartConfig.country != "global")
       return;
     if (!this.isTimeXProperty(chartConfig))
       return;
-    const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.rotwCoutryName];
+    const monthsPerTimeSpan = monthsPerCountryAndTimeSpan[this.globalRestCountryName];
     if (!monthsPerTimeSpan)
       return;
     let firstIncomplete = -1;
@@ -1786,41 +1876,6 @@ var db = {
   },
 
   addHints_incompleteData: function(chartConfig, chartData) {
-    // incomplete global data
-    let nonGlobalTimeSpans = [];
-    if (this.isAllCountries(chartConfig) && this.hasOtherSeries(chartConfig)) {
-      const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[this.rotwCoutryName];
-      if (monthsPerTimeSpan && this.isTimeXProperty(chartConfig)) {
-        for (const i in chartData.categories) {
-          const timeSpan = chartData.categories[i];
-          if (monthsPerTimeSpan[timeSpan] === undefined)
-            nonGlobalTimeSpans.push(timeSpan);
-        }
-      }
-      if (monthsPerTimeSpan && (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y"))) {
-        const currentYear = this.currentDate.getFullYear();
-        const currentQuarter = this.formatQuarter(currentYear, this.monthToQuarter(1 + this.currentDate.getMonth()));
-        let expectedNumberOfMonth;
-        if (this.isByQuarter(chartConfig) || chartConfig.timeSpan.startsWith("q"))
-          expectedNumberOfMonth = 3;
-        else
-          expectedNumberOfMonth = 12;
-        if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
-          for (const i in chartData.categories) {
-            const timeSpan = chartData.categories[i];
-            if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
-              nonGlobalTimeSpans.push(timeSpan);
-          }
-        } else if (Object.keys(monthsPerTimeSpan).length != expectedNumberOfMonth){
-          const timeSpan = chartConfig.timeSpan.substr(1);
-          if (timeSpan != currentYear && timeSpan != currentQuarter)
-            nonGlobalTimeSpans.push(timeSpan);
-        }
-      }
-      if (nonGlobalTimeSpans.length > 0)
-        chartData.hints.push("Data for " + this.joinItemList(nonGlobalTimeSpans, 6, "more categories") + " is incomplete.");
-    }
-
     // incomplete year or quarter
     if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
       const currentYear = this.currentDate.getFullYear();
@@ -1831,15 +1886,11 @@ var db = {
       else
         expectedNumberOfMonth = 12;
       for (const countryName in chartData.monthsPerCountryAndTimeSpan) {
-        if (countryName == this.rotwCoutryName)
-          continue;
         const monthsPerTimeSpan = chartData.monthsPerCountryAndTimeSpan[countryName];
         let timeSpansToReport = [];
         if (this.isByQuarter(chartConfig) || this.isByYear(chartConfig)) {
           for (const i in chartData.categories) {
             const timeSpan = chartData.categories[i];
-            if (nonGlobalTimeSpans.includes(timeSpan))
-              continue;
             if (timeSpan == currentYear || timeSpan == currentQuarter)
               continue;
             if (monthsPerTimeSpan[timeSpan] && monthsPerTimeSpan[timeSpan].length != expectedNumberOfMonth)
@@ -1847,8 +1898,6 @@ var db = {
           }
         } else if (Object.keys(monthsPerTimeSpan).length != expectedNumberOfMonth){
           const timeSpan = chartConfig.timeSpan.substr(1);
-          if (nonGlobalTimeSpans.includes(timeSpan))
-            continue;
           if (timeSpan == currentYear || timeSpan == currentQuarter)
             continue;
           timeSpansToReport.push(timeSpan);
@@ -1861,13 +1910,16 @@ var db = {
           hint = hint + timeSpan + " is incomplete.";
           chartData.hints.push(hint);
         }
+        // Avoid multiple hints for the same time span when country is 'global'
+        if (timeSpansToReport.length > 0 && !this.isMultiCountry(chartConfig))
+          break;
       }
     }
   },
 
   addHints_notMonthly: function(chartConfig, chartData, nonMonthlyCountries) {
     // monthly data is not available
-    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0 && !this.isGlobalCountry(chartConfig)) {
+    if ([this.xProperties.month, this.xProperties.monthAvg3].includes(chartConfig.xProperty) && nonMonthlyCountries.length > 0 && chartConfig.country != "global") {
       let hint = "Monthly data is derived from quarterly data";
       if (this.isMultiCountry(chartConfig)) {
         let countryNames = [];
@@ -1920,7 +1972,7 @@ var db = {
 
   addHintsAfterProcessing_incompleteData: function(chartConfig, chartData) {
     // missing month/quarter/year per country
-    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && !this.isGlobalCountry(chartConfig) && chartConfig.view == this.views.barChart) {
+    if (this.isTimeXProperty(chartConfig) && this.isMultiCountry(chartConfig) && chartConfig.view == this.views.barChart) {
       let seriesNames = [];
       for (const i in chartData.series) {
         seriesNames.push(chartData.series[i].name);
@@ -1982,8 +2034,6 @@ var db = {
     let count = 0;
     for (const i in categories) {
       const category = categories[i];
-      if (category == this.rotwCoutryName)
-        continue;
       processedCategories.push(category);
       count++;
       if (count == maxSeriesOption.count && !this.isTimeXProperty(chartConfig) && chartConfig.view != this.views.table)

@@ -81,7 +81,7 @@ db.finalizeDataLoading();
 // Test cases
 
 runTest("finalizeDataLoading", function() {
-  assert(db.countriesWithData.length, 2);
+  assert(db.countriesWithData.length, 3);
   assert(Object.keys(db.countries).length > 10);
   assert(Object.keys(db.countriesCodes).length, Object.keys(db.countries).length);
   assert(Object.keys(db.countryNames).length, Object.keys(db.countries).length);
@@ -250,7 +250,7 @@ runTest("unfoldCountry_all", function() {
   chartConfig = completeChartConfig(chartConfig);
   assert(db.needsUnfold(chartConfig));
   const chartConfigs = db.unfoldChartConfig(chartConfig);
-  assert(chartConfigs.length, 2);
+  assert(chartConfigs.length, 3);
 });
 
 runTest("unfoldCountry_2", function() {
@@ -270,13 +270,25 @@ runTest("unfoldCountry_2", function() {
   assert(chartConfigs[1].detailLevel, db.detailLevels.company);
 });
 
-runTest("combineCountry_all", function() {
+runTest("combineCountry_all_byCompany", function() {
   let chartConfig = {};
   chartConfig.country = "combine-countries";
   chartConfig.metric = db.metrics.salesElectric;
   chartConfig.detailLevel = db.detailLevels.company;
   chartConfig = completeChartConfig(chartConfig);
   assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 3);
+});
+
+runTest("combineCountry_all_total", function() {
+  let chartConfig = {};
+  chartConfig.country = "combine-countries";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
 });
 
 runTest("combineCountry_2", function() {
@@ -308,6 +320,26 @@ runTest("multipleMetrics_byBrand_table", function() {
   assert(chartData.series[2].data, [0, 800, 1000, 800]);
 });
 
+runTest("global_total", function() {
+  let chartConfig = {};
+  chartConfig.country = "global";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
+});
+
+runTest("global_byCompany", function() {
+  let chartConfig = {};
+  chartConfig.country = "global";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 3);
+});
 
 } catch (err) {
   logError("Exception raised, see console.");

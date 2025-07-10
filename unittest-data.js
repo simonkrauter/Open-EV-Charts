@@ -2,6 +2,71 @@
 
 db.currentDate = new Date("2025-01-15");
 
+db.insert(db.countries.global, "2023-Q1", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30000
+});
+
+db.insert(db.countries.global, "2023-Q1", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 3000
+});
+
+db.insert(db.countries.global, "2023-Q2", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30030
+});
+
+db.insert(db.countries.global, "2023-Q2", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 3300
+});
+
+db.insert(db.countries.global, "2023-Q3", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30060
+});
+
+db.insert(db.countries.global, "2023-Q3", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 3600
+});
+
+db.insert(db.countries.global, "2023-Q4", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30090
+});
+
+db.insert(db.countries.global, "2023-Q4", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 3900
+});
+
+db.insert(db.countries.global, "2024-Q1", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30120
+});
+
+db.insert(db.countries.global, "2024-Q1", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 4200
+});
+
+db.insert(db.countries.global, "2024-Q2", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30150
+});
+
+db.insert(db.countries.global, "2024-Q2", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 4500
+});
+
+db.insert(db.countries.global, "2024-Q3", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30180
+});
+
+db.insert(db.countries.global, "2024-Q3", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 4800
+});
+
+db.insert(db.countries.global, "2024-Q4", db.dsTypes.AllCarsByBrand, "",
+{ "other": 30210
+});
+
+db.insert(db.countries.global, "2024-Q4", db.dsTypes.ElectricCarsByModel, "",
+{ "other": 5100
+});
+
+
 db.insert(db.countries.BR, "2023-12", db.dsTypes.AllCarsTotal, "",
 { "other": 1010
 });
