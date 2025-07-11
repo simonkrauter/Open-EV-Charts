@@ -1646,7 +1646,7 @@ var db = {
       }
       filterCountryIds.push(id);
     }
-    if (isGlobal) {
+    if (isGlobal || (chartConfig.country == this.countryOptions.all && this.isBarChartStacked(chartConfig))) {
       filterCountryIds.push(this.globalRestCountryId);
     }
     return filterCountryIds;
