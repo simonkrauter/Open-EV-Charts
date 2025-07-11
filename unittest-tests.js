@@ -300,6 +300,26 @@ runTest("combineCountry_2", function() {
   assert(!db.needsUnfold(chartConfig));
 });
 
+runTest("multipleMetrics_byYear_table", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.xProperty = db.xProperties.year;
+  chartConfig.timeSpan = "2y";
+  chartConfig.view = db.views.table;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  let chartData = db.queryChartData(chartConfig);
+  roundData(chartData);
+  assert(chartData.categories.length, 2);
+  assert(chartData.series.length, 3);
+  assert(chartData.series[0].name, "Car Market");
+  assert(chartData.series[0].data, [4000, 4000]);
+  assert(chartData.series[1].name, "BEV Market");
+  assert(chartData.series[1].data, [1200, 1400]);
+  assert(chartData.series[2].name, "BEV Market Share");
+  assert(chartData.series[2].data, [30, 35]);
+});
+
 runTest("multipleMetrics_byBrand_table", function() {
   let chartConfig = {};
   chartConfig.country = "DE";
