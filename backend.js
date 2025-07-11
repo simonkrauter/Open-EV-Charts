@@ -2333,7 +2333,7 @@ var db = {
       const currSeries = seriesByName[seriesName];
       if (currSeries.data.length == 0)
         continue;
-      if (seriesName != "other" && count < maxSeriesOption.count) {
+      if (seriesName != this.otherSeriesName && seriesName != "other" && count < maxSeriesOption.count) {
         processedSeries.push(currSeries);
         count++;
       } else {
