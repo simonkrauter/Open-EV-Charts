@@ -462,9 +462,10 @@ var db = {
     if (chartConfig.metric == this.metrics.all) {
       let result = [];
       for (let i in this.metrics) {
-        if (this.metrics[i] == this.metrics.all)
+        const metric = this.metrics[i];
+        if (metric == this.metrics.all)
           continue;
-        if (this.metrics[i] == this.metrics.ratioElectric && [this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty))
+        if (metric == this.metrics.ratioElectric && [this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty))
           continue;
         result.push(this.metrics[i]);
       }
