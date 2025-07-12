@@ -97,6 +97,7 @@ var db = {
     }
     this.globalCountryId = this.countries["global"];
     this.countryGroupRestIds.push(this.globalRestCountryId);
+    this.countryNames[this.globalRestCountryId] = this.globalRestCountryName;
   },
 
   insert: function(country, dateString, dsType, source, data) {
