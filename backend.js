@@ -1627,6 +1627,8 @@ var db = {
 
   queryDatasets_getCountryFilter: function(chartConfig) {
     const isGlobal = chartConfig.country == "global";
+    if (isGlobal && chartConfig.detailLevel == this.detailLevels.total)
+      return [this.globalCountryId];
     let filterCountryIds = [];
     const countryValues = this.getCountries(chartConfig);
     for (const i in this.countriesWithData) {
