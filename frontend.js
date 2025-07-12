@@ -1417,11 +1417,14 @@ function renderSources(chartConfig, chartDiv, chartData) {
   const sourcesDiv = newChildNode(chartDiv, "DIV");
   sourcesDiv.classList.add("sources");
 
+  const keys = Object.keys(chartData.sources);
+  const isMultiCountry = keys.length > 1 && chartData.sources[keys[0]].country != chartData.sources[keys[keys.length - 1]].country;
+
   let entries = [];
   for (const text in chartData.sources) {
     let prefix = "";
     const sourceInfo = chartData.sources[text];
-    if (db.isMultiCountry(chartConfig)) {
+    if (isMultiCountry) {
       prefix += db.countryNames[sourceInfo.country];
       prefix += " ";
     }
