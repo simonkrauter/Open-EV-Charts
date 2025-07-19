@@ -1406,20 +1406,13 @@ var db = {
     }
     // Countries
     if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
-      const countryValues = this.getCountries(chartConfig);
+      const countryValues = db.getSelectedCountries(chartConfig);
       let countrieNames = [];
-      if (countryValues.includes(this.countryOptions.all)) {
-        for (const i in this.countriesWithData) {
-          const id = this.countriesWithData[i];
+      for (const i in countryValues) {
+        const code = countryValues[i];
+        const id = this.countries[code];
+        if (id != null)
           countrieNames.push(this.countryNames[id]);
-        }
-      } else {
-        for (const i in countryValues) {
-          const code = countryValues[i];
-          const id = this.countries[code];
-          if (id != null)
-            countrieNames.push(this.countryNames[id]);
-        }
       }
       parts.push(this.joinItemList(countrieNames, 6, "more countries"));
     }
