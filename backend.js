@@ -192,7 +192,7 @@ var db = {
         this.globalRestEvDatasetsByDate[dataset.monthString] = newDataset;
       else
         this.globalRestAllCarsDatasetsByDate[dataset.monthString] = newDataset;
-    } else {
+    } else if (!this.countryGroupIds.includes(dataset.country)) {
       if (dataset.isEvs) {
         if (dataset.monthString in this.globalRestEvDatasetsByDate) {
           this.globalRestEvDatasetsByDate[dataset.monthString].data["other"] -= sum;
