@@ -57,13 +57,13 @@ const countryNamesByCode =
 , "VN": "Vietnam"
 , "ZA": "South Africa"
 // Mixed countries:
-, "EU": "Europe"
+, "EU": "European Union"
 , "CN/DE": "China / Germany"
 , "US/EU": "United States / Europe"
 , "JP/EU": "Japan / Europe"
 };
 
-const countryGroups = ["global"];
+const countryGroups = ["global", "EU"];
 
 const additionalCountrySearchTextByCode =
 { "AE": " الإمارات العربية المتحدة"
