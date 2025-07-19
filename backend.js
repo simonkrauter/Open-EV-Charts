@@ -879,17 +879,28 @@ var db = {
   getCountryOptions: function(chartConfig, allOptions = true) {
     let result = {};
     result[this.countryOptions.all] = "All Countries";
-    let regularCountryCount = 0;
-    if (chartConfig != null) {
-      let countryValues = this.getCountries(chartConfig);
-      for (const i in countryValues) {
-        let code = countryValues[i];
-        if (![this.countryOptions.all, this.countryOptions.combine, "global"].includes(code))
+    {
+      let allowCombine = allOptions || chartConfig == null || this.isAllCountries(chartConfig);
+      if (!allowCombine) {
+        let regularCountryCount = 0;
+        let countryValues = this.getCountries(chartConfig);
+        for (const i in countryValues) {
+          let code = countryValues[i];
+          if ([this.countryOptions.all, this.countryOptions.combine].includes(code))
+            continue;
+          if (countryGroups.includes(code)) {
+            regularCountryCount = 0;
+            break;
+          }
           regularCountryCount++;
+          if (regularCountryCount > 1)
+            break;
+        }
+        allowCombine = regularCountryCount > 1;
       }
+      if (allowCombine)
+        result[this.countryOptions.combine] = "Combine Countries";
     }
-    if (allOptions || chartConfig == null || (regularCountryCount > 1 && (chartConfig.metric != this.metrics.shareAll || chartConfig.xProperty != this.xProperties.brand)))
-      result[this.countryOptions.combine] = "Combine Countries";
     if (allOptions) {
       for (const code in this.countriesForOptionsAlphabetic) {
         result[code] = this.countriesForOptionsAlphabetic[code];
