@@ -98,6 +98,11 @@ var db = {
     this.globalCountryId = this.countries["global"];
     this.countryGroupRestIds.push(this.globalRestCountryId);
     this.countryNames[this.globalRestCountryId] = this.globalRestCountryName;
+    for (const i in countryGroups) {
+      const code = countryGroups[i];
+      const id = this.countries[code];
+      this.countryGroupIds.push(id);
+    }
   },
 
   insert: function(country, dateString, dsType, source, data) {
@@ -241,7 +246,6 @@ var db = {
     for (const i in countryGroups) {
       const code = countryGroups[i];
       const id = this.countries[code];
-      this.countryGroupIds.push(id);
       const name = this.countryNames[id];
       this.countriesForOptionsAlphabetic[code] = name;
     }
