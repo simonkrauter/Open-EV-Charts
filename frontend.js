@@ -519,9 +519,14 @@ function paramOptionClickHandler(param, optionKey, isSelectionAdditive = false, 
     if (param.name == "country") {
       let newValues = [];
       if (db.isAllCountries(chartSetConfig) && optionKey in db.countries) {
-        for (const code in db.countriesForOptions) {
-          if (code != optionKey)
-            newValues.push(code);
+        const selectedCountries = db.getSelectedCountries(chartSetConfig);
+        if (selectedCountries.includes(optionKey)) {
+          for (const code in db.countriesForOptions) {
+            if (code != optionKey)
+              newValues.push(code);
+          }
+        } else {
+          newValues.push(optionKey);
         }
         if (db.isCombinedCountry(chartSetConfig))
           newValues.push(db.countryOptions.combine);
