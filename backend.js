@@ -1080,25 +1080,13 @@ var db = {
       }
     }
 
-    // Switch between "global" and "all countries"
+    // Switch from "all countries" to "global"
     if (countryValues.includes(this.countryOptions.all) && countryValues.includes(this.countryOptions.combine)) {
-      countryValues = ["global"];
-      chartConfig.country = countryValues.join(",");
-    }
-
-    // Remove incompatible "global" country
-    if (countryValues.includes("global") && this.isBarChartStacked(chartConfig)) {
-      let hasRegularCountry = false;
-      for (const i in countryValues) {
-        let code = countryValues[i];
-        if (![this.countryOptions.all, this.countryOptions.combine, "global"].includes(code)) {
-          hasRegularCountry = true;
-          break;
+      if ([this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric)) {
+        if (!this.isCompanyBrandModelXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.total) {
+          countryValues = ["global"];
+          chartConfig.country = countryValues.join(",");
         }
-      }
-      if (hasRegularCountry) {
-        countryValues = [this.countryOptions.all];
-        chartConfig.country = countryValues.join(",");
       }
     }
 
