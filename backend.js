@@ -533,8 +533,8 @@ var db = {
       let param = {};
       param.name = "metric";
       param.title = "Metric";
-      param.allOptions = this.getMetricOptions(chartConfig, true);
-      param.options = this.getMetricOptions(chartConfig, false);
+      param.allOptions = this.getMetricOptions(chartConfig);
+      param.options = param.allOptions;
       if (chartConfig != null && !this.isSingleOrCombinedCountry(chartConfig))
         param.excludeOnUnfoldAndTitle = [this.metrics.ratioElectricWithinCompanyOrBrand];
       param.unfoldKey = this.metrics.all;
@@ -913,18 +913,14 @@ var db = {
     return result;
   },
 
-  getMetricOptions: function(chartConfig, allOptions = true) {
-    const isRegularCountry = chartConfig == null || !countryGroups.includes(chartConfig.country);
+  getMetricOptions: function(chartConfig) {
     let result = {};
     result[this.metrics.ratioElectric] = "BEV Market Share";
     result[this.metrics.salesElectric] = "BEV Market";
-    if (allOptions || isRegularCountry) {
-      result[this.metrics.shareElectric] = "BEV Market Split";
-      result[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
-    }
+    result[this.metrics.shareElectric] = "BEV Market Split";
+    result[this.metrics.ratioElectricWithinCompanyOrBrand] = "BEV Share within Company/Brand";
     result[this.metrics.salesAll] = "Car Market";
-    if (allOptions || isRegularCountry)
-      result[this.metrics.shareAll] = "Car Market Split";
+    result[this.metrics.shareAll] = "Car Market Split";
     result[this.metrics.all] = "All Metrics";
     return result;
   },
@@ -1087,6 +1083,14 @@ var db = {
           countryValues = ["global"];
           chartConfig.country = countryValues.join(",");
         }
+      }
+    }
+
+    // Switch from "global" to "all countries"
+    if (chartConfig.country == "global") {
+      if (this.isCompanyBrandModelXProperty(chartConfig) || chartConfig.detailLevel != this.detailLevels.total) {
+        countryValues = [this.countryOptions.all, this.countryOptions.combine];
+        chartConfig.country = countryValues.join(",");
       }
     }
 
