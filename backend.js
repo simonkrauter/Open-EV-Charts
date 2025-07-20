@@ -1227,10 +1227,13 @@ var db = {
 
   getUnfoldValues: function(unfoldParam, chartConfig) {
     let values = [];
-    if (unfoldParam.unfoldKey && chartConfig[unfoldParam.name] == unfoldParam.unfoldKey)
+    if (unfoldParam.unfoldKey && chartConfig[unfoldParam.name] == unfoldParam.unfoldKey) {
       values = Object.keys(unfoldParam.options);
-    else if (unfoldParam.allowMultiSelection && chartConfig[unfoldParam.name] != null) {
-      values = chartConfig[unfoldParam.name].split(",");
+    } else if (unfoldParam.allowMultiSelection && chartConfig[unfoldParam.name] != null) {
+      if (unfoldParam.name == "country" && chartConfig.country != this.countryOptions.all)
+        values = this.getSelectedCountries(chartConfig);
+      else
+        values = chartConfig[unfoldParam.name].split(",");
       if (unfoldParam.disableUnfoldOption != null && values.includes(unfoldParam.disableUnfoldOption))
         return [];
     }
@@ -1421,16 +1424,24 @@ var db = {
 
   getSelectedCountries: function(chartConfig) {
     let countryValues = this.getCountries(chartConfig);
-    if (countryValues.includes(this.countryOptions.all)) {
-      for (const i in this.countriesWithData) {
-        const id = this.countriesWithData[i];
-        if (this.countryGroupIds.includes(id) && (chartConfig.metric != this.metrics.all || countryValues.includes(this.countryOptions.combine)))
+    let result = [];
+    let includesAll = countryValues.includes(this.countryOptions.all);
+    if (includesAll)
+      result.push(this.countryOptions.all);
+    for (const i in this.countriesWithData) {
+      const id = this.countriesWithData[i];
+      const code = this.countriesCodes[id];
+      if (includesAll) {
+        if (this.countryGroupIds.includes(id) && !this.needsUnfold(chartConfig))
           continue;
-        const code = this.countriesCodes[id];
-        countryValues.push(code);
+        result.push(code);
+      } else if (countryValues.includes(code)) {
+        result.push(code);
       }
     }
-    return countryValues;
+    if (countryValues.includes(this.countryOptions.combine))
+      result.push(this.countryOptions.combine);
+    return result;
   },
 
   combineMetricAndCompanyOrBrandInTitle: function(chartConfig) {
