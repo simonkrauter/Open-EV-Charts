@@ -1436,8 +1436,14 @@ var db = {
       const id = this.countriesWithData[i];
       const code = this.countriesCodes[id];
       if (includesAll) {
-        if (this.countryGroupIds.includes(id) && !this.needsUnfold(chartConfig))
-          continue;
+        if (this.countryGroupIds.includes(id)) {
+          if ([this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
+            continue;
+          if (chartConfig.xProperty == this.xProperties.country)
+            continue;
+          if (chartConfig.view == this.views.barChart && this.isBarChartStacked(chartConfig))
+            continue;
+        }
         result.push(code);
       } else if (countryValues.includes(code)) {
         result.push(code);
