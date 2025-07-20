@@ -1371,7 +1371,8 @@ var db = {
           parts.push("Mutiple Countries and Metrics");
         else
           parts.push(this.countriesForOptions[chartConfig.country]);
-      }
+      } else if (this.isAllCountries(chartConfig) && this.isCombinedCountry(chartConfig))
+        parts.push("All Countries Combined");
     }
     return parts.join(" – ");
   },
