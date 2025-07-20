@@ -1423,7 +1423,7 @@ var db = {
     if (countryValues.includes(this.countryOptions.all)) {
       for (const i in this.countriesWithData) {
         const id = this.countriesWithData[i];
-        if (this.countryGroupIds.includes(id) && chartConfig.metric != this.metrics.all)
+        if (this.countryGroupIds.includes(id) && (chartConfig.metric != this.metrics.all || countryValues.includes(this.countryOptions.combine)))
           continue;
         const code = this.countriesCodes[id];
         countryValues.push(code);
