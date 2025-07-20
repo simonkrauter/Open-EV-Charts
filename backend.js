@@ -2190,6 +2190,20 @@ var db = {
   },
 
   isBarChartStacked: function(chartConfig) {
+    // Check if countries are compatible
+    let countryValues = this.getCountries(chartConfig);
+    let includesGroup = false;
+    let countryCount = 0;
+    for (const i in countryValues) {
+      let code = countryValues[i];
+      if (countryGroups.includes(code))
+        includesGroup = true;
+      if (![this.countryOptions.all, this.countryOptions.combine].includes(code))
+        countryCount++;
+    }
+    if (includesGroup && countryCount > 1)
+      return false;
+    // Check outher
     if ([this.metrics.salesAll, this.metrics.salesElectric].includes(chartConfig.metric))
       return true;
     if ([this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
