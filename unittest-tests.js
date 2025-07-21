@@ -358,7 +358,14 @@ runTest("global_byCompany", function() {
   chartConfig = completeChartConfig(chartConfig);
   assert(!db.needsUnfold(chartConfig));
   const chartData = db.queryChartData(chartConfig);
+  roundData(chartData);
   assert(chartData.series.length, 3);
+  assert(chartData.series[0].name, "Alpha");
+  assert(chartData.series[0].data, [100, 100, 100, 100, 150, 150, 150, 150]);
+  assert(chartData.series[1].name, "Bravo");
+  assert(chartData.series[1].data, [100, 100, 100, 100, 100, 100, 100, 100]);
+  assert(chartData.series[2].name, "Other");
+  assert(chartData.series[2].data, [2800, 3100, 3400, 3700, 3950, 4250, 4550, 4850]);
 });
 
 } catch (err) {

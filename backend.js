@@ -1651,25 +1651,20 @@ var db = {
     if (isGlobal && chartConfig.detailLevel == this.detailLevels.total)
       return [this.globalCountryId];
     let filterCountryIds = [];
-    const countryValues = this.getCountries(chartConfig);
+    const countryValues = db.getSelectedCountries(chartConfig);
     for (const i in this.countriesWithData) {
       const id = this.countriesWithData[i];
       const code = this.countriesCodes[id];
       if (isGlobal) {
         if (this.countryGroupIds.includes(id))
           continue;
-      } else if (!countryValues.includes(this.countryOptions.all)) {
+      } else {
         if (!countryValues.includes(code))
-          continue;
-      } else if (this.countryGroupIds.includes(id)) {
-        if (chartConfig.xProperty == this.xProperties.country)
-          continue;
-        if (this.isBarChartStacked(chartConfig))
           continue;
       }
       filterCountryIds.push(id);
     }
-    if (isGlobal || (chartConfig.country == this.countryOptions.all && this.isBarChartStacked(chartConfig))) {
+    if (isGlobal || (this.isAllCountries(chartConfig) && this.isBarChartStacked(chartConfig))) {
       filterCountryIds.push(this.globalRestCountryId);
     }
     return filterCountryIds;
