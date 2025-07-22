@@ -1503,7 +1503,6 @@ var db = {
     let gapDetectionData = {};
     let monthsInRange = [];
     let nonMonthlyCountries = [];
-    let usedDatasetTypes = [];
 
     for (const i in this.datasets) {
       const dataset = this.datasets[i];
@@ -1634,8 +1633,6 @@ var db = {
       }
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
-      if (!usedDatasetTypes.includes(dataset.dsType))
-        usedDatasetTypes.push(dataset.dsType);
     }
 
     if (this.isTimeXProperty(chartConfig))
@@ -1658,7 +1655,6 @@ var db = {
       this.addHints_parseSources(chartConfig, chartData);
       this.addHints_incompleteData(chartConfig, chartData);
       this.addHints_notMonthly(chartConfig, chartData, nonMonthlyCountries);
-      this.addHints_detailLevelNotAvailable(chartConfig, chartData, usedDatasetTypes);
     }
 
     return chartData;
@@ -1977,43 +1973,6 @@ var db = {
         hint = hint + " for " + this.joinItemList(countryNames, 6, "more countries");
       }
       chartData.hints.push(hint + ".");
-    }
-  },
-
-  addHints_detailLevelNotAvailable: function(chartConfig, chartData, usedDatasetTypes) {
-    // all cars data per company/brand not available
-    if (chartConfig.metric == this.metrics.salesAll && usedDatasetTypes.includes(this.dsTypes.AllCarsTotal)) {
-      if (chartConfig.detailLevel == this.detailLevels.company) {
-        if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
-          chartData.hints.push("Data per company is partially not available.");
-        else
-          chartData.hints.push("Data per company is not available.");
-      } else if (chartConfig.detailLevel == this.detailLevels.brand) {
-        if (usedDatasetTypes.includes(this.dsTypes.AllCarsByBrand))
-          chartData.hints.push("Data per brand is partially not available.");
-        else
-          chartData.hints.push("Data per brand is not available.");
-      }
-    }
-
-    // ev data per company/brand/model not available
-    if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsTotal)) {
-      if (chartConfig.detailLevel == this.detailLevels.company) {
-        if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
-          chartData.hints.push("Data per company is partially not available.");
-        else
-          chartData.hints.push("Data per company is not available.");
-      } else if (chartConfig.detailLevel == this.detailLevels.brand) {
-        if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel) || usedDatasetTypes.includes(this.dsTypes.ElectricCarsByBrand))
-          chartData.hints.push("Data per brand is partially not available.");
-        else
-          chartData.hints.push("Data per brand is not available.");
-      } else if (chartConfig.detailLevel == this.detailLevels.model) {
-        if (usedDatasetTypes.includes(this.dsTypes.ElectricCarsByModel))
-          chartData.hints.push("Data per model is partially not available.");
-        else
-          chartData.hints.push("Data per model is not available.");
-      }
     }
   },
 
