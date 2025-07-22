@@ -1098,12 +1098,13 @@ var db = {
     }
 
     // Check country compatibilty
-    if ([this.metrics.ratioElectric, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
+    if ([this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric)) {
       for (const i in countryValues) {
         let code = countryValues[i];
         if (countryGroups.includes(code)) {
           countryValues = [code];
           chartConfig.country = countryValues.join(",");
+          break;
         }
       }
     }
