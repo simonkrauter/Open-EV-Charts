@@ -6152,7 +6152,8 @@ db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 });
 
 db.insert(db.countries.FI, "2025-05", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/06/May-2025.xlsx",
-{ "Volkswagen": 915
+{ "Toyota": 1021
+, "Volkswagen": 915
 , "Škoda": 612
 , "Volvo": 577
 , "Kia": 549
