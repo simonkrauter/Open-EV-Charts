@@ -33,6 +33,7 @@ var db = {
   // Code => Name of countries with data, sorted alphabetic
 
   otherSeriesName: "Other",
+  unknownSeriesName: "Unknown",
 
   globalCountryId: null, // will be set in initialize()
   globalRestCountryId: 100,
@@ -1539,8 +1540,12 @@ var db = {
         category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
       else if (this.isByYear(chartConfig))
         category = dataset.year;
-      else if (chartConfig.xProperty == this.xProperties.country)
-        category = dataset.countryName;
+      else if (chartConfig.xProperty == this.xProperties.country) {
+        if (this.countryGroupRestIds.includes(dataset.country))
+          category = this.unknownSeriesName;
+        else
+          category = dataset.countryName;
+      }
 
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
@@ -1577,13 +1582,13 @@ var db = {
             category = dataKey;
         }
         if (category == "other")
-          category = this.otherSeriesName;
+          category = this.unknownSeriesName;
 
         // set seriesName
         let seriesName;
         if (useCountryAsSeriesName) {
           if (this.countryGroupRestIds.includes(dataset.country))
-            seriesName = this.otherSeriesName;
+            seriesName = this.unknownSeriesName;
           else
             seriesName = dataset.countryName;
         } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
@@ -1606,6 +1611,8 @@ var db = {
         } else {
           seriesName = this.getDefaultSeriesName(params, chartConfig);
         }
+        if (seriesName == "other")
+          seriesName = this.unknownSeriesName;
 
         // add entry to seriesRows, categories and sources
         if (!(seriesName in seriesRows))

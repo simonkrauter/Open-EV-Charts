@@ -1084,6 +1084,8 @@ function getChartSeriesColors(chartConfig, chartData) {
     const seriesName = chartData.series[i].name;
     if ([db.otherSeriesName, countryNamesByCode["global"]].includes(seriesName))
       result.push(otherSeriesColor);
+    else if (seriesName == db.unknownSeriesName)
+      result.push(unknownSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyOrBrand[seriesName];
       if (colorIndex === undefined)
@@ -1236,13 +1238,16 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   const yAxisMax = db.getYAxisMax(chartConfig, chartData);
 
   // Table body
+  let index = 1;
   for (const i in chartData.categories) {
     const category = chartData.categories[i];
     const row = newChildNode(table, "TR");
     if (showRankColumn) {
       const cell = newChildNode(row, "TD");
-      if (category != db.otherSeriesName && !category.endsWith("|other"))
-        cell.appendChild(document.createTextNode(parseInt(i) + 1));
+      if (![db.otherSeriesName, db.unknownSeriesName].includes(category) && !category.endsWith("|other")) {
+        cell.appendChild(document.createTextNode(index));
+        index++;
+      }
       cell.style.textAlign = "right";
     }
 
@@ -1338,7 +1343,7 @@ function renderTableRowTextCell(chartConfig, row, columnTitle, text) {
 function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
   if (isScreenshotModeEnabled)
     return;
-  if (addFlag && text != db.otherSeriesName && !text.endsWith("|other")) {
+  if (addFlag && ![db.otherSeriesName, db.unknownSeriesName].includes(text) && !text.endsWith("|other")) {
     let linkChartConfig = db.cloneObject(chartConfig);
     const textParts = text.split("|", 2);
     if (textParts.length > 1) {

@@ -333,11 +333,11 @@ runTest("multipleMetrics_byBrand_table", function() {
   assert(chartData.categories.length, 4);
   assert(chartData.series.length, 5);
   assert(chartData.series[0].name, "Car Market");
-  assert(chartData.series[0].data, [2800, 2400, 1200, 1600]);
+  assert(chartData.series[0].data, [2800, 2400, 1600, 1200]);
   assert(chartData.series[1].name, "Car Market Split");
-  assert(chartData.series[1].data, [35, 30, 15, 20]);
+  assert(chartData.series[1].data, [35, 30, 20, 15]);
   assert(chartData.series[2].name, "BEV Market");
-  assert(chartData.series[2].data, [0, 800, 1000, 800]);
+  assert(chartData.series[2].data, [0, 800, 800, 1000]);
 });
 
 runTest("global_total", function() {
@@ -360,12 +360,12 @@ runTest("global_byCompany", function() {
   const chartData = db.queryChartData(chartConfig);
   roundData(chartData);
   assert(chartData.series.length, 3);
-  assert(chartData.series[0].name, "Alpha");
-  assert(chartData.series[0].data, [100, 100, 100, 100, 150, 150, 150, 150]);
-  assert(chartData.series[1].name, "Bravo");
-  assert(chartData.series[1].data, [100, 100, 100, 100, 100, 100, 100, 100]);
-  assert(chartData.series[2].name, "Other");
-  assert(chartData.series[2].data, [2800, 3100, 3400, 3700, 3950, 4250, 4550, 4850]);
+  assert(chartData.series[0].name, "Unknown");
+  assert(chartData.series[0].data, [2800, 3100, 3400, 3700, 3950, 4250, 4550, 4850]);
+  assert(chartData.series[1].name, "Alpha");
+  assert(chartData.series[1].data, [100, 100, 100, 100, 150, 150, 150, 150]);
+  assert(chartData.series[2].name, "Bravo");
+  assert(chartData.series[2].data, [100, 100, 100, 100, 100, 100, 100, 100]);
 });
 
 } catch (err) {

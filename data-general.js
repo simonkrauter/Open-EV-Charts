@@ -135,7 +135,8 @@ const colorSet =
 , "hsl(33, 100%, 70%)"
 ];
 
-const otherSeriesColor = "hsl(0, 0%, 15%)";
+const otherSeriesColor = "hsl(0, 0%, 20%)";
+const unknownSeriesColor = "hsl(0, 0%, 0%)";
 
 const colorIndexByCompanyOrBrand =
 { "Audi": 6
