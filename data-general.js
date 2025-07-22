@@ -138,6 +138,14 @@ const colorSet =
 const otherSeriesColor = "hsl(0, 0%, 20%)";
 const unknownSeriesColor = "hsl(0, 0%, 0%)";
 
+const colorIndexByCountry =
+{ "BR": 2
+, "CN": 1
+, "DE": 5
+, "EU": 11
+, "US": 0
+};
+
 const colorIndexByCompanyOrBrand =
 { "Audi": 6
 , "BMW": 4

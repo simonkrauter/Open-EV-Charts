@@ -1088,6 +1088,11 @@ function getChartSeriesColors(chartConfig, chartData) {
       result.push(unknownSeriesColor);
     else {
       let colorIndex = colorIndexByCompanyOrBrand[seriesName];
+      if (colorIndex === undefined) {
+        const countryId = db.countryNamesReverse[seriesName];
+        if (countryId !== null)
+          colorIndex = colorIndexByCountry[db.countriesCodes[countryId]];
+      }
       if (colorIndex === undefined)
         seriesIndexesWithDynamicColor.push(parseInt(i));
       result.push(colorSet[colorIndex]);
