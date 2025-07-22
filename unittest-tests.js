@@ -115,6 +115,7 @@ runTest("queryChartData_month_1", function() {
   assert(chartData.categories.length, 12);
   assert(chartData.series.length, 1);
   assert(chartData.series[0].data.length, 12);
+  assert(chartData.hints.length, 0);
 });
 
 runTest("queryChartData_monthAvg12_2", function() {
@@ -128,6 +129,7 @@ runTest("queryChartData_monthAvg12_2", function() {
   assert(chartData.categories.length, 12);
   assert(chartData.series.length, 1);
   assert(chartData.series[0].data.length, 12);
+  assert(chartData.hints.length, 0);
 });
 
 runTest("home", function() {
@@ -279,6 +281,7 @@ runTest("combineCountry_all_byCompany", function() {
   assert(!db.needsUnfold(chartConfig));
   const chartData = db.queryChartData(chartConfig);
   assert(chartData.series.length, 3);
+  assert(chartData.hints.length, 2);
 });
 
 runTest("combineCountry_all_total", function() {
@@ -289,6 +292,7 @@ runTest("combineCountry_all_total", function() {
   assert(!db.needsUnfold(chartConfig));
   const chartData = db.queryChartData(chartConfig);
   assert(chartData.series.length, 1);
+  assert(chartData.hints.length, 0);
 });
 
 runTest("combineCountry_2", function() {
@@ -318,6 +322,7 @@ runTest("multipleMetrics_byYear_table", function() {
   assert(chartData.series[1].data, [1200, 1400]);
   assert(chartData.series[2].name, "BEV Market Share");
   assert(chartData.series[2].data, [30, 35]);
+  assert(chartData.hints.length, 0);
 });
 
 runTest("multipleMetrics_byBrand_table", function() {
@@ -338,6 +343,7 @@ runTest("multipleMetrics_byBrand_table", function() {
   assert(chartData.series[1].data, [35, 30, 20, 15]);
   assert(chartData.series[2].name, "BEV Market");
   assert(chartData.series[2].data, [0, 800, 800, 1000]);
+  assert(chartData.hints.length, 1);
 });
 
 runTest("global_total", function() {
@@ -348,6 +354,7 @@ runTest("global_total", function() {
   assert(!db.needsUnfold(chartConfig));
   const chartData = db.queryChartData(chartConfig);
   assert(chartData.series.length, 1);
+  assert(chartData.hints.length, 0);
 });
 
 runTest("global_byCompany", function() {
@@ -366,6 +373,7 @@ runTest("global_byCompany", function() {
   assert(chartData.series[1].data, [100, 100, 100, 100, 150, 150, 150, 150]);
   assert(chartData.series[2].name, "Bravo");
   assert(chartData.series[2].data, [100, 100, 100, 100, 100, 100, 100, 100]);
+  assert(chartData.hints.length, 2);
 });
 
 } catch (err) {
