@@ -1079,7 +1079,7 @@ var db = {
 
     // Switch from "all countries" to "global"
     if (countryValues.includes(this.countryOptions.all) && countryValues.includes(this.countryOptions.combine)) {
-      if ([this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric)) {
+      if (chartConfig.metric != this.metrics.ratioElectricWithinCompanyOrBrand) {
         if (!this.isCompanyBrandModelXProperty(chartConfig) && chartConfig.detailLevel == this.detailLevels.total) {
           countryValues = ["global"];
           chartConfig.country = countryValues.join(",");
@@ -1089,9 +1089,11 @@ var db = {
 
     // Switch from "global" to "all countries"
     if (chartConfig.country == "global") {
-      if (this.isCompanyBrandModelXProperty(chartConfig) || chartConfig.detailLevel != this.detailLevels.total) {
-        countryValues = [this.countryOptions.all, this.countryOptions.combine];
-        chartConfig.country = countryValues.join(",");
+      if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand) {
+        if (this.isCompanyBrandModelXProperty(chartConfig) || chartConfig.detailLevel != this.detailLevels.total) {
+          countryValues = [this.countryOptions.all, this.countryOptions.combine];
+          chartConfig.country = countryValues.join(",");
+        }
       }
     }
 
