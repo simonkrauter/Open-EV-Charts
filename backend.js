@@ -1843,49 +1843,51 @@ var db = {
 
   addHints_gapDetection: function(chartConfig, chartData, gapDetectionData, monthsInRange) {
     // gap detection (missing months in data series)
-    if (chartConfig.detailLevel != this.detailLevels.total) {
-      let sumPerMonth = 0;
-      for (const key in gapDetectionData) {
-        const entry = gapDetectionData[key];
-        const months = entry[0];
-        const value = entry[1];
-        sumPerMonth += value / months.length;
-      }
-      let errorIndicatorSum = 0;
-      for (const key in gapDetectionData) {
-        if (key.endsWith("|other"))
-          continue;
-        const entry = gapDetectionData[key];
-        const months = entry[0];
-        const value = entry[1];
-        let afterMonthWithData = false;
-        let afterMonthWithoutData = false;
-        let hasGap = false;
-        let missingMonthCount = 0;
-        for (const i in monthsInRange) {
-          const month = monthsInRange[i];
-          if (months.includes(month)) {
-            if (afterMonthWithoutData) {
-              hasGap = true;
-              afterMonthWithData = false;
-              afterMonthWithoutData = false;
-            } else
-              afterMonthWithData = true;
-          } else if (afterMonthWithData) {
-            afterMonthWithoutData = true;
-            missingMonthCount++;
-          }
-        }
-        if (hasGap) {
-          const errorIndicator = missingMonthCount / monthsInRange.length * (value / months.length / sumPerMonth);
-          errorIndicatorSum += errorIndicator;
-        }
-      }
-      if (errorIndicatorSum >= 0.2)
-        chartData.hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top-selling models/brands.</span>");
-      else if (errorIndicatorSum >= 0.05)
-        chartData.hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
+    if (chartConfig.detailLevel == this.detailLevels.total)
+      return;
+    let sumPerMonth = 0;
+    for (const key in gapDetectionData) {
+      const entry = gapDetectionData[key];
+      const months = entry[0];
+      const value = entry[1];
+      sumPerMonth += value / months.length;
     }
+    let errorIndicatorSum = 0;
+    for (const key in gapDetectionData) {
+      if (key.endsWith("|other"))
+        continue;
+      const entry = gapDetectionData[key];
+      const months = entry[0];
+      const value = entry[1];
+      let afterMonthWithData = false;
+      let afterMonthWithoutData = false;
+      let hasGap = false;
+      let missingMonthCount = 0;
+      for (const i in monthsInRange) {
+        const month = monthsInRange[i];
+        if (months.includes(month)) {
+          if (afterMonthWithoutData) {
+            hasGap = true;
+            afterMonthWithData = false;
+            afterMonthWithoutData = false;
+          } else
+            afterMonthWithData = true;
+        } else if (afterMonthWithData) {
+          afterMonthWithoutData = true;
+          missingMonthCount++;
+        }
+      }
+      if (hasGap) {
+        const errorIndicator = missingMonthCount / monthsInRange.length * (value / months.length / sumPerMonth);
+        errorIndicatorSum += errorIndicator;
+      }
+    }
+    if (errorIndicatorSum < 0.05)
+      return;
+    if (errorIndicatorSum >= 0.2)
+      chartData.hints.push("<span class='important'>Data is likely very incomplete as it is based on monthly top-selling models/brands.</span>");
+    else
+      chartData.hints.push("Data is likely incomplete as it is based on monthly top-selling models/brands.");
   },
 
   addHints_parseSources: function(chartConfig, chartData) {
