@@ -1590,7 +1590,7 @@ var db = {
         let seriesName;
         if (useCountryAsSeriesName) {
           if (this.countryGroupRestIds.includes(dataset.country))
-            seriesName = this.unknownSeriesName;
+            seriesName = this.otherSeriesName;
           else
             seriesName = dataset.countryName;
         } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
