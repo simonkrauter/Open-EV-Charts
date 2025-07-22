@@ -2506,7 +2506,7 @@ var db = {
       datasetsReference = this.queryDatasets(chartConfigForSum, false, false);
     }
     const seriesRowsKeys = Object.keys(chartData.seriesRows);
-    if (seriesRowsKeys.length == 1 && seriesRowsKeys[0] == "other") {
+    if (seriesRowsKeys.length == 1 && [this.otherSeriesName, this.unknownSeriesName].includes(seriesRowsKeys[0])) {
       chartData.seriesRows = {}; // market split with only 1 series is not useful
     }
 
