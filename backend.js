@@ -1852,6 +1852,8 @@ var db = {
     // gap detection (missing months in data series)
     if (chartConfig.detailLevel == this.detailLevels.total)
       return;
+    if (chartData.categories.includes(this.unknownSeriesName) || Object.keys(chartData.seriesRows).includes(this.unknownSeriesName))
+      return;
     let sumPerMonth = 0;
     for (const key in gapDetectionData) {
       const entry = gapDetectionData[key];
@@ -2037,6 +2039,28 @@ var db = {
           chartData.hints.push(countryName + ": Missing data for " + this.joinItemList(timeSpansToReport, 6, "more categories") + ".");
       }
     }
+  },
+
+  addHintsAfterProcessing_partiallyUnknown: function(chartConfig, chartData) {
+    let hasUnknownSeries = false;
+    for (const i in chartData.series) {
+      if (chartData.series[i].name == this.unknownSeriesName) {
+        hasUnknownSeries = true;
+        false;
+      }
+    }
+    if (!chartData.categories.includes(this.unknownSeriesName) && !hasUnknownSeries)
+      return;
+    let perWhat;
+    if (chartConfig.detailLevel == this.detailLevels.company || chartConfig.xProperty == this.xProperties.company)
+      perWhat = "company";
+    else if (chartConfig.detailLevel == this.detailLevels.brand || chartConfig.xProperty == this.xProperties.brand)
+      perWhat = "brand";
+    else if (chartConfig.detailLevel == this.detailLevels.model || chartConfig.xProperty == this.xProperties.model)
+      perWhat = "model";
+    else
+      perWhat = "country";
+    chartData.hints.push("Data is partially not available per " + perWhat + "; displayed as 'unknown'.");
   },
 
   postProcessCategories: function(chartConfig, chartData, sortByName) {
@@ -2586,6 +2610,7 @@ var db = {
     chartData.categories.splice(0, this.getExtendedCategoriesCount(chartConfig, chartData));
 
     this.addHintsAfterProcessing_incompleteData(chartConfig, chartData);
+    this.addHintsAfterProcessing_partiallyUnknown(chartConfig, chartData);
 
     return chartData;
   },
