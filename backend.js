@@ -2022,7 +2022,7 @@ var db = {
       perWhat = "model";
     else
       perWhat = "country";
-    if (chartData.series.length == 1)
+    if (chartData.series.length == 1 && this.isTimeXProperty(chartConfig))
       chartData.hints.unshift("Data is not available per " + perWhat + "; displayed as 'unknown'.");
     else
       chartData.hints.unshift("Data is partially not available per " + perWhat + "; displayed as 'unknown'.");
