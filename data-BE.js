@@ -697,3 +697,11 @@ db.insert(db.countries.BE, "2025-05", db.dsTypes.AllCarsTotal, "https://www.acea
 db.insert(db.countries.BE, "2025-05", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
 { "other": 11347
 });
+
+db.insert(db.countries.BE, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "other": 41527
+});
+
+db.insert(db.countries.BE, "2025-06", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "other": 12762
+});
