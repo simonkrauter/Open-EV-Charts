@@ -5503,3 +5503,85 @@ db.insert(db.countries.IS, "2025-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Renault|Megane E-Tech": 1
 , "other": 91
 });
+
+db.insert(db.countries.IS, "2025-06", db.dsTypes.AllCarsByBrand, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "Kia": 390
+, "Toyota": 229
+, "Tesla": 184
+, "Dacia": 162
+, "Hyundai": 131
+, "Suzuki": 89
+, "Škoda": 85
+, "BYD": 84
+, "Polestar": 82
+, "Mitsubishi": 56
+, "Volvo": 36
+, "Ford": 32
+, "Xpeng": 29
+, "Audi": 25
+, "Honda": 24
+, "Mercedes-Benz": 23
+, "Renault": 22
+, "Volkswagen": 20
+, "Peugeot": 19
+, "Nissan": 16
+, "BMW": 12
+, "Jeep": 12
+, "Land Rover": 10
+, "Mazda": 6
+, "Subaru": 5
+, "Porsche": 4
+, "Seat": 3
+, "Citroën": 2
+, "MG": 2
+, "Opel": 1
+, "other": 237
+});
+
+db.insert(db.countries.IS, "2025-06", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "Tesla|Model Y": 151
+, "Polestar|2": 72
+, "BYD|Dolphin": 40
+, "Kia|EV3": 37
+, "Tesla|Model 3": 33
+, "Ford|Mustang Mach-E": 27
+, "Xpeng|G6": 27
+, "BYD|Song Plus": 20
+, "Honda|e:Ny1": 19
+, "Toyota|bZ4X": 15
+, "BYD|Sealion 7": 14
+, "Audi|Q4 e-tron": 12
+, "BYD|Yuan Plus": 8
+, "Kia|EV6": 8
+, "Renault|Megane E-Tech": 8
+, "Renault|Zoe": 8
+, "Volvo|EX40": 8
+, "Volkswagen|ID.4": 7
+, "Polestar|4": 6
+, "Volvo|EX30": 6
+, "Nissan|Ariya": 4
+, "Polestar|3": 4
+, "Audi|Q6 e-tron": 3
+, "Hyundai|Ioniq 5": 3
+, "Mercedes-Benz|EQA": 3
+, "Mercedes-Benz|EQE": 3
+, "Porsche|Macan Electric": 3
+, "Volkswagen|ID.3": 3
+, "Volkswagen|ID.7": 3
+, "Škoda|Enyaq": 3
+, "Kia|EV9": 2
+, "MG|4 EV": 2
+, "Volvo|EX90": 2
+, "Xpeng|G9": 2
+, "Škoda|Elroq": 2
+, "BMW|iX": 1
+, "BMW|iX1": 1
+, "BYD|Seal": 1
+, "BYD|Tang EV": 1
+, "Citroën|ë-C4": 1
+, "Mercedes-Benz|EQB": 1
+, "Mercedes-Benz|eCitan": 1
+, "Nissan|Leaf": 1
+, "Subaru|Solterra": 1
+, "other": 42
+});
