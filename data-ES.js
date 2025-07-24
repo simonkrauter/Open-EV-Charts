@@ -7038,3 +7038,81 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 9
 , "other": 471
 });
+
+db.insert(db.countries.ES, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "other": 119125
+});
+
+db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
+{ "Tesla|Model 3": 1451
+, "Tesla|Model Y": 1182
+, "BYD|Seal": 544
+, "Kia|EV3": 393
+, "BYD|Seagull": 361
+, "Mercedes-Benz|EQA": 355
+, "Toyota|bZ4X": 355
+, "Renault|5 E-Tech": 305
+, "Hyundai|Inster": 293
+, "Citroën|ë-C3": 291
+, "Mini|Cooper SE": 291
+, "BMW|iX1": 283
+, "Volvo|EX30": 201
+, "BYD|Yuan Plus": 196
+, "Hyundai|Kona Electric": 184
+, "Renault|Scénic E-Tech": 166
+, "Peugeot|e-2008": 164
+, "Polestar|2": 164
+, "Dacia|Spring": 155
+, "BYD|Yuan Up": 153
+, "Škoda|Elroq": 139
+, "BMW|iX2": 132
+, "Jeep|Avenger EV": 126
+, "Ford|Puma Gen-E": 122
+, "Audi|Q4 e-tron": 113
+, "MG|4 EV": 112
+, "Cupra|Tavascan": 110
+, "Opel|Frontera Electric": 101
+, "Mercedes-Benz|EQE": 99
+, "Fiat|500e": 89
+, "Cupra|Born": 83
+, "Peugeot|e-208": 82
+, "Mercedes-Benz|EQB": 80
+, "Volkswagen|ID.4": 79
+, "Citroën|ë-C4": 76
+, "Fiat|600e": 72
+, "Hyundai|Ioniq 5": 72
+, "Kia|EV6": 70
+, "Volkswagen|ID.3": 70
+, "BYD|Dolphin": 69
+, "Polestar|4": 67
+, "Hyundai|Ioniq Electric": 63
+, "MG|Marvel R": 62
+, "BMW|i4": 59
+, "Kia|Niro EV": 56
+, "Porsche|Macan Electric": 56
+, "Volvo|EC40": 55
+, "Renault|Megane E-Tech": 54
+, "Xpeng|G6": 53
+, "Mercedes-Benz|eCitan": 52
+, "BMW|other": 96
+, "Ford|other": 87
+, "Audi|other": 74
+, "Smart|other": 72
+, "MG|other": 64
+, "Volvo|other": 57
+, "Škoda|other": 47
+, "Peugeot|other": 45
+, "Volkswagen|other": 41
+, "Opel|other": 34
+, "Porsche|other": 32
+, "Mercedes-Benz|other": 31
+, "Nissan|other": 28
+, "Fiat|other": 27
+, "Hyundai|other": 14
+, "Renault|other": 14
+, "Subaru|other": 10
+, "Xpeng|other": 10
+, "Honda|other": 9
+, "Kia|other": 9
+, "other": 482
+});
