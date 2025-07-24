@@ -6976,7 +6976,6 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 301
 , "Opel|Frontera Electric": 268
 , "Tesla|Model 3": 258
-, "BYD|Dolphin": 243
 , "Mini|Cooper SE": 238
 , "Dacia|Spring": 217
 , "Mercedes-Benz|EQA": 215
@@ -6986,10 +6985,12 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 191
 , "BMW|iX2": 159
 , "Volvo|EX30": 146
+, "BYD|Dolphin": 139
 , "Cupra|Born": 133
 , "BYD|Yuan Up": 119
 , "Ford|Puma Gen-E": 119
 , "BMW|i4": 109
+, "BYD|Seagull": 104
 , "Kia|EV6": 94
 , "MG|4 EV": 93
 , "Mercedes-Benz|EQB": 93
