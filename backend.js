@@ -2022,7 +2022,10 @@ var db = {
       perWhat = "model";
     else
       perWhat = "country";
-    chartData.hints.unshift("Data is partially not available per " + perWhat + "; displayed as 'unknown'.");
+    if (chartData.series.length == 1)
+      chartData.hints.unshift("Data is not available per " + perWhat + "; displayed as 'unknown'.");
+    else
+      chartData.hints.unshift("Data is partially not available per " + perWhat + "; displayed as 'unknown'.");
   },
 
   postProcessCategories: function(chartConfig, chartData, sortByName) {
