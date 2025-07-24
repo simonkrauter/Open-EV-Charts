@@ -8102,7 +8102,7 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/5, https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
-{ "Škoda|Elroq": 1091
+{ "Škoda|Elroq": 1090
 , "Kia|EV3": 731
 , "Tesla|Model Y": 645
 , "Volvo|EX30": 434
@@ -8114,8 +8114,8 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 261
 , "Volvo|EX40": 245
 , "Mini|Cooper SE": 234
-, "Opel|Corsa-e": 219
-, "Škoda|Enyaq": 219
+, "Opel|Corsa-e": 218
+, "Škoda|Enyaq": 218
 , "Nissan|Ariya": 200
 , "Renault|5 E-Tech": 195
 , "Audi|A6 e-tron": 184
@@ -8164,12 +8164,12 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 49
 , "BMW|other": 47
 , "Cupra|other": 39
-, "Xpeng|other": 32
+, "Xpeng|other": 33
 , "Opel|other": 31
 , "Dacia|other": 20
 , "MG|other": 17
 , "Audi|other": 14
 , "Porsche|other": 9
 , "Hyundai|other": 7
-, "other": 46
+, "other": 48
 });
