@@ -1454,7 +1454,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
         prefix += " All cars";
         sortKey += "0";
       } else {
-        prefix += " EVs";
+        prefix += " BEVs";
         sortKey += "1";
       }
     }
@@ -1553,7 +1553,7 @@ function renderStatusPage() {
   { "status": "Countries"
   , "status:coverage": "Coverage"
   , "status:companies": "Companies and Brands"
-  , "status:models": "EV Models"
+  , "status:models": "BEV Models"
   };
   if (!(currentHash in tabs))
     currentHash = Object.keys(tabs)[0];
@@ -1585,7 +1585,7 @@ function renderStatusPage() {
 function renderCountriesStatusPage() {
   const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("countriesStatus");
-  renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "EV Data", "Annual Car Market", "Annual EV Market", "Relative EV Sales"]);
+  renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "BEV Data", "Annual Car Market", "Annual BEV Market", "Relative BEV Sales"]);
   for (const i in db.countriesWithData) {
     const countryId = db.countriesWithData[i];
     renderCountriesStatusPageRow(table, countryId, parseInt(i) + 1);
@@ -1884,11 +1884,11 @@ function renderCoverageStatusPage() {
       th.rowSpan = 2;
     }
     {
-      const th = newChildNode(tr, "TH", "All Cars");
+      const th = newChildNode(tr, "TH", "All Cars Data Coverage");
       th.colSpan = 2;
     }
     {
-      const th = newChildNode(tr, "TH", "Electric Cars");
+      const th = newChildNode(tr, "TH", "BEVs Data Coverage");
       th.colSpan = 3;
     }
   }
@@ -1922,7 +1922,7 @@ function renderCoverageStatusPageTd(tr, entry, value) {
 function renderCompaniesStatusPage() {
   const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("companiesStatus");
-  renderStatusTableHeader(table, ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual EV Sales"]);
+  renderStatusTableHeader(table, ["Company", "Brand", "Available Data", "Annual All Cars Sales", "Annual BEV Sales"]);
   for (const i in db.companies) {
     const company = db.companies[i];
     if (company == "other")
@@ -1974,7 +1974,7 @@ function renderCompaniesStatusPage() {
 
 function renderModelsStatusPage() {
   const table = newChildNode(dynamicContent, "TABLE");
-  renderStatusTableHeader(table, ["Brand", "Model", "Available Data", "Annual EV Sales"]);
+  renderStatusTableHeader(table, ["Brand", "Model", "Available Data", "Annual BEV Sales"]);
   for (const i in db.brands) {
     const brand = db.brands[i];
     if (brand == "other")
