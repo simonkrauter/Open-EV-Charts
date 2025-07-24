@@ -1549,6 +1549,12 @@ var db = {
           category = dataset.countryName;
       }
 
+      let otherOrUnkownSeriesName;
+      if (Object.keys(dataset.data).length >= 25)
+        otherOrUnkownSeriesName = this.otherSeriesName;
+      else
+        otherOrUnkownSeriesName = this.unknownSeriesName;
+
       for (const dataKey in dataset.data) {
         const dataKeyParts = dataKey.split("|", 2);
         const brand = dataKeyParts[0];
@@ -1584,7 +1590,7 @@ var db = {
             category = dataKey;
         }
         if (category == "other")
-          category = this.unknownSeriesName;
+          category = otherOrUnkownSeriesName;
 
         // set seriesName
         let seriesName;
@@ -1614,7 +1620,7 @@ var db = {
           seriesName = this.getDefaultSeriesName(params, chartConfig);
         }
         if (seriesName == "other")
-          seriesName = this.unknownSeriesName;
+          seriesName = otherOrUnkownSeriesName;
 
         // add entry to seriesRows, categories and sources
         if (!(seriesName in seriesRows))
