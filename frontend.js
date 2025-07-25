@@ -53,7 +53,7 @@ const FormatValueContext =
 
 const maxHintsHeight = 75;
 const tableFlagSizeFactor = 1;
-const multiTitleFlagSizeFactor = 1.15;
+const multiTitleFlagSizeFactor = 1;
 const singleTitleFlagSizeFactor = 1.3;
 const dropDownFlagSizeFactor = 0.92;
 

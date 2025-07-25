@@ -400,7 +400,6 @@ canvas {
 
 .chartTitle {
   display: inline-block;
-  font-size: 115%;
   white-space: nowrap;
   border-radius: var(--dimBorderRadius);
 }
