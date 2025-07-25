@@ -1640,29 +1640,49 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
       date.setMonth(date.getMonth() + 2);
     monthsNewDataIsOverdue = (Date.now() - date) / 1000 / 60 / 60 / 24 / 30;
   }
-  // collect data from the latest 12 datasets
+  // collect data from the latest 12 months and an earlier time span
+  const oneYearDatasetCount = 12 * 2;
+  const datasetCountEarlier = 6 * 2;
   let allCarSalesSum = 0;
   let evSalesSum = 0;
-  let salesMonthCount = 0;
+  let salesDatasetCount = 0;
+  let oldAllCarSalesSum = 0;
+  let oldEvSalesSum = 0;
+  let oldSalesDatasetCount = 0;
   for (let j = db.datasets.length - 1; j >= 0; j--) {
     const dataset = db.datasets[j];
     if (dataset.country != countryId)
       continue;
+    let sum = 0;
     for (const dataKey in dataset.data) {
-      if (!dataset.isEvs)
-        allCarSalesSum = allCarSalesSum + dataset.data[dataKey];
-      else
-        evSalesSum = evSalesSum + dataset.data[dataKey];
+      sum += dataset.data[dataKey];
     }
-    if (!dataset.isEvs)
-      salesMonthCount++;
-    if (salesMonthCount == 12)
-      break;
+    if (salesDatasetCount < oneYearDatasetCount) {
+      if (dataset.isEvs)
+        evSalesSum += sum;
+      else
+        allCarSalesSum += sum;
+      salesDatasetCount++;
+    }
+    if (salesDatasetCount > datasetCountEarlier) {
+      if (dataset.isEvs)
+        oldEvSalesSum += sum;
+      else
+        oldAllCarSalesSum += sum;
+      oldSalesDatasetCount++;
+      if (oldSalesDatasetCount == oneYearDatasetCount)
+        break;
+    }
   }
-  const allCarSalesPerYear = allCarSalesSum / salesMonthCount * 12;
-  const evSalesPerYear = evSalesSum / salesMonthCount * 12;
+  const allCarSalesPerYear = allCarSalesSum / salesDatasetCount * oneYearDatasetCount;
+  const evSalesPerYear = evSalesSum / salesDatasetCount * oneYearDatasetCount;
+  const evShare = evSalesPerYear / allCarSalesPerYear * 100;
+  const oldAllCarSalesPerYear = oldAllCarSalesSum / oldSalesDatasetCount * oneYearDatasetCount;
+  const oldEvSalesPerYear = oldEvSalesSum / oldSalesDatasetCount * oneYearDatasetCount;
+  const oldEvShare = oldEvSalesPerYear / oldAllCarSalesPerYear * 100;
+  const isGroupRest = db.countryGroupRestIds.includes(countryId);
   const tr = newChildNode(table, "TR");
-  if (db.countryGroupRestIds.includes(countryId))
+  if (isGroupRest)
     tr.classList.add("countryGroupRest");
   // index
   {
@@ -1746,10 +1766,9 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     const td = newChildNode(tr, "TD", formatIntForStatusTable(evSalesPerYear));
     td.style.textAlign = "right";
   }
-  // relative ev sales
+  // ev market share
   {
-    const val = evSalesPerYear / allCarSalesPerYear * 100;
-    const td = newChildNode(tr, "TD", val.toFixed(1).toLocaleString() + " %");
+    const td = newChildNode(tr, "TD", evShare.toFixed(1).toLocaleString() + " %");
     td.style.textAlign = "right";
   }
 }
