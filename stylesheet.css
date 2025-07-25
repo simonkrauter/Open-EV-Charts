@@ -4,6 +4,7 @@
   --clBaseText: black;
   --clBaseLinkText: hsl(var(--clAccentHue), 100%, 38%);
   --clBaseMinorText: hsl(0, 0%, 28%);
+  --clBaseGrayText: hsl(0, 0%, 50%);
   --clBaseImportantText: hsl(0, 100%, 45%);
   --clBaseLine: hsl(0, 0%, 70%);
   --clFocusLine: hsl(56, 100%, 46%);
@@ -545,7 +546,7 @@ tr:hover {
 
 .NA {
   text-align: center;
-  color: grey;
+  color: var(--clBaseGrayText);
 }
 
 a.bottomTools {
@@ -605,7 +606,7 @@ textarea.export {
 }
 
 .noData {
-  color: grey;
+  color: var(--clBaseGrayText);
   font-style: italic;
   padding-top: 16px;
   padding-bottom: 10px;
