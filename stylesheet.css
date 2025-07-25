@@ -41,6 +41,10 @@ body {
   color: var(--clBaseText);
 }
 
+body > div:not(.header) {
+  white-space: pre-wrap;
+}
+
 body:not(.showFocus) *:focus {
   outline: none;
 }
