@@ -27,6 +27,9 @@
   --clStatusMediumText: black;
   --clStatusBadFill: hsl(0, 100%, 45%);
   --clStatusBadText: white;
+  --clNumberPositiveText: hsl(142, 100%, 25%);
+  --clNumberNegativeText: hsl(0, 100%, 40%);
+  --clNumberZeroText: var(--clBaseGrayText);
   --dimBorderRadius: 2px;
 }
 
@@ -506,6 +509,16 @@ canvas {
 .status.bad {
   background: var(--clStatusBadFill);
   color: var(--clStatusBadText);
+}
+
+.positive {
+  color: var(--clNumberPositiveText);
+}
+.negative {
+  color: var(--clNumberNegativeText);
+}
+.zero {
+  color: var(--clNumberZeroText);
 }
 
 table {

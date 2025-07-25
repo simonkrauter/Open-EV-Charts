@@ -1585,7 +1585,7 @@ function renderStatusPage() {
 function renderCountriesStatusPage() {
   const table = newChildNode(dynamicContent, "TABLE");
   table.classList.add("countriesStatus");
-  renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "BEV Data", "Annual Car Market", "Annual BEV Market", "Relative BEV Sales"]);
+  renderStatusTableHeader(table, ["#", "Country", "Available Data", "Interval", "All Car Data", "BEV Data", "Annual\nCar Market", "Car Market\nTrend", "Annual\nBEV Market", "BEV Share", "BEV Share\nTrend"]);
   for (const i in db.countriesWithData) {
     const countryId = db.countriesWithData[i];
     renderCountriesStatusPageRow(table, countryId, parseInt(i) + 1);
@@ -1643,6 +1643,7 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   // collect data from the latest 12 months and an earlier time span
   const oneYearDatasetCount = 12 * 2;
   const datasetCountEarlier = 6 * 2;
+  const trendFactor = oneYearDatasetCount / datasetCountEarlier;
   let allCarSalesSum = 0;
   let evSalesSum = 0;
   let salesDatasetCount = 0;
@@ -1680,6 +1681,8 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   const oldAllCarSalesPerYear = oldAllCarSalesSum / oldSalesDatasetCount * oneYearDatasetCount;
   const oldEvSalesPerYear = oldEvSalesSum / oldSalesDatasetCount * oneYearDatasetCount;
   const oldEvShare = oldEvSalesPerYear / oldAllCarSalesPerYear * 100;
+  const allCarSalesTrend = (allCarSalesPerYear / oldAllCarSalesPerYear - 1) * trendFactor * 100;
+  const evShareTrend = (evShare - oldEvShare) * trendFactor;
   const isGroupRest = db.countryGroupRestIds.includes(countryId);
   const tr = newChildNode(table, "TR");
   if (isGroupRest)
@@ -1761,6 +1764,13 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     const td = newChildNode(tr, "TD", formatIntForStatusTable(allCarSalesPerYear));
     td.style.textAlign = "right";
   }
+  // car market trend
+  {
+    const td = newChildNode(tr, "TD");
+    td.style.textAlign = "right";
+    if (!isGroupRest)
+      addTrendValueNode(td, allCarSalesTrend, 0, " %");
+  }
   // ev market size
   {
     const td = newChildNode(tr, "TD", formatIntForStatusTable(evSalesPerYear));
@@ -1770,6 +1780,13 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
   {
     const td = newChildNode(tr, "TD", evShare.toFixed(1).toLocaleString() + " %");
     td.style.textAlign = "right";
+  }
+  // ev market share trend
+  {
+    const td = newChildNode(tr, "TD");
+    td.style.textAlign = "right";
+    if (!isGroupRest)
+      addTrendValueNode(td, evShareTrend, 0, " pp");
   }
 }
 
@@ -2129,4 +2146,20 @@ function formatIntForStatusTable(val) {
   else if (val > 1000)
     val = Math.round(val / 100) * 100;
   return val.toLocaleString();
+}
+
+function addTrendValueNode(parentNode, val, decimals, unit = "") {
+  let test = parseFloat(val.toFixed(decimals));
+  let str = Math.abs(val).toFixed(decimals).toLocaleString() + unit;
+  if (test > 0)
+    str = "+" + str;
+  else if (test < 0)
+    str = "−" + str;
+  let span = newChildNode(parentNode, "SPAN", str);
+  if (test > 0)
+    span.classList.add("positive");
+  else if (test < 0)
+    span.classList.add("negative");
+  else
+    span.classList.add("zero");
 }
