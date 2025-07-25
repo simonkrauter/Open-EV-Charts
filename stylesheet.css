@@ -386,11 +386,6 @@ a.chartTile:hover > div {
   text-decoration: underline;
 }
 
-th {
-  background: var(--clAltFill);
-  color: var(--clAltText);
-}
-
 th, td, .hints, .chartTile:not(.single) {
   border: 1px solid var(--clBaseLine);
 }
@@ -525,10 +520,10 @@ th, td {
 }
 
 th {
+  background: var(--clAltFill);
+  color: var(--clAltText);
   text-align: center;
   font-weight: normal;
-  padding-top: 4px;
-  padding-bottom: 4px;
 }
 
 td {
