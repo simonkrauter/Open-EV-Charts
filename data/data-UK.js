@@ -4615,48 +4615,48 @@ db.insert(db.countries.UK, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/6 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 3062
-, "Tesla|Model 3": 2524
-, "BMW|i4": 1403
-, "Audi|Q4 e-tron": 1024
-, "Škoda|Enyaq": 1015
+, "Tesla|Model 3": 2525
+, "BMW|i4": 1404
+, "Audi|Q4 e-tron": 1025
+, "Škoda|Enyaq": 1016
 , "Polestar|2": 993
 , "Polestar|4": 947
 , "Cupra|Born": 866
-, "BYD|Seal": 859
-, "Audi|Q6 e-tron": 858
+, "BYD|Seal": 862
+, "Audi|Q6 e-tron": 859
 , "Mini|Cooper SE": 836
 , "Volkswagen|ID.4": 829
 , "Kia|EV3": 826
 , "Ford|Explorer EV": 822
 , "Škoda|Elroq": 816
-, "Hyundai|Kona Electric": 808
+, "Hyundai|Kona Electric": 809
 , "Volkswagen|ID.3": 798
-, "Volvo|EX30": 779
-, "Renault|5 E-Tech": 620
-, "Dacia|Spring": 616
+, "Volvo|EX30": 780
+, "Renault|5 E-Tech": 622
+, "Dacia|Spring": 617
 , "MG|4 EV": 554
 , "MG|S5 EV": 519
-, "Ford|Puma Gen-E": 490
+, "Ford|Puma Gen-E": 491
 , "Mercedes-Benz|EQA": 479
 , "BMW|iX2": 473
-, "BMW|iX1": 469
-, "Hyundai|Inster": 448
+, "BMW|iX1": 472
+, "Hyundai|Inster": 449
 , "Mercedes-Benz|EQB": 446
 , "Polestar|3": 425
 , "Kia|Niro EV": 412
 , "Renault|Scénic E-Tech": 403
 , "Volkswagen|ID.7": 401
-, "BYD|Dolphin": 337
-, "Hyundai|Ioniq 5": 314
+, "BYD|Dolphin": 339
+, "Hyundai|Ioniq 5": 315
+, "BYD|Yuan Plus": 313
 , "Porsche|Macan Electric": 313
-, "BYD|Yuan Plus": 312
 , "Ford|Capri EV": 311
 , "Cupra|Tavascan": 307
-, "Peugeot|e-2008": 286
+, "Peugeot|e-2008": 287
 , "Volvo|EX40": 270
 , "BMW|iX": 261
-, "Peugeot|E-5008": 254
-, "Volkswagen|ID.5": 252
+, "Peugeot|E-5008": 257
+, "Volkswagen|ID.5": 255
 , "Citroën|ë-C3": 241
 , "Peugeot|E-3008": 237
 , "Kia|EV6": 234
@@ -4665,18 +4665,18 @@ db.insert(db.countries.UK, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i5": 211
 , "Citroën|ë-C4": 211
 , "Tesla|other": 2015
-, "Audi|other": 770
+, "Audi|other": 772
 , "Mercedes-Benz|other": 680
 , "Volkswagen|other": 661
 , "BMW|other": 555
 , "Ford|other": 471
 , "Kia|other": 463
-, "Vauxhall|other": 461
+, "Vauxhall|other": 463
 , "Škoda|other": 453
 , "Volvo|other": 428
 , "Hyundai|other": 417
 , "Renault|other": 409
-, "BYD|other": 389
+, "BYD|other": 391
 , "Peugeot|other": 306
 , "Toyota|other": 260
 , "Fiat|other": 233
@@ -4685,11 +4685,11 @@ db.insert(db.countries.UK, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 174
 , "Nissan|other": 153
 , "Cupra|other": 132
-, "Jeep|other": 123
+, "Jeep|other": 124
 , "Honda|other": 118
 , "Smart|other": 116
 , "Xpeng|other": 113
 , "Dacia|other": 92
 , "Citroën|other": 57
-, "other": 5274
+, "other": 5238
 });
