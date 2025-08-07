@@ -4693,3 +4693,118 @@ db.insert(db.countries.UK, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 57
 , "other": 5238
 });
+
+db.insert(db.countries.UK, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Volkswagen": 13452
+, "Ford": 9106
+, "Kia": 9028
+, "Audi": 8738
+, "BMW": 8089
+, "Hyundai": 7216
+, "Škoda": 6772
+, "Mercedes-Benz": 6446
+, "Peugeot": 6179
+, "Nissan": 6118
+, "Toyota": 5709
+, "MG": 5637
+, "Vauxhall": 4892
+, "Mini": 4408
+, "Volvo": 4353
+, "Land Rover": 4307
+, "Cupra": 3639
+, "Renault": 3338
+, "BYD": 3184
+, "Mazda": 1915
+, "Dacia": 1867
+, "Seat": 1470
+, "Porsche": 1319
+, "Honda": 1314
+, "Citroën": 1143
+, "Suzuki": 1063
+, "Tesla": 987
+, "Jeep": 826
+, "Polestar": 820
+, "Fiat": 431
+, "Smart": 105
+, "Subaru": 84
+, "other": 6199
+});
+
+db.insert(db.countries.UK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/7 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Mini|Cooper SE": 1175
+, "Ford|Explorer EV": 865
+, "Škoda|Elroq": 820
+, "MG|4 EV": 804
+, "Škoda|Enyaq": 775
+, "Hyundai|Kona Electric": 751
+, "Audi|Q4 e-tron": 728
+, "MG|S5 EV": 684
+, "Volkswagen|ID.3": 669
+, "Kia|EV3": 664
+, "Cupra|Born": 631
+, "Audi|Q6 e-tron": 626
+, "Mercedes-Benz|EQA": 470
+, "Volkswagen|ID.7": 465
+, "BMW|i4": 458
+, "BYD|Seal": 437
+, "Volkswagen|ID.4": 407
+, "Mercedes-Benz|EQB": 406
+, "Tesla|Model 3": 388
+, "Polestar|4": 347
+, "Hyundai|Ioniq 5": 334
+, "BMW|iX1": 326
+, "Peugeot|E-5008": 326
+, "Dacia|Spring": 325
+, "Volvo|EX30": 314
+, "Ford|Capri EV": 309
+, "BMW|iX2": 308
+, "Polestar|2": 307
+, "Hyundai|Inster": 279
+, "Tesla|Model Y": 268
+, "Cupra|Tavascan": 261
+, "BYD|Dolphin": 257
+, "BYD|Seagull": 253
+, "BMW|iX": 251
+, "Volvo|EX40": 249
+, "Ford|Puma Gen-E": 247
+, "BYD|Yuan Plus": 243
+, "BMW|i5": 240
+, "Kia|EV9": 220
+, "Kia|EV6": 199
+, "Peugeot|e-2008": 198
+, "Renault|5 E-Tech": 193
+, "Hyundai|Ioniq 6": 163
+, "Kia|Niro EV": 163
+, "Renault|Scénic E-Tech": 161
+, "Peugeot|E-3008": 159
+, "Porsche|Macan Electric": 157
+, "Mercedes-Benz|EQE": 147
+, "Nissan|Ariya": 145
+, "Polestar|3": 143
+, "Audi|other": 782
+, "Volkswagen|other": 682
+, "Cupra|other": 438
+, "Škoda|other": 388
+, "Tesla|other": 340
+, "Peugeot|other": 272
+, "BMW|other": 262
+, "Ford|other": 258
+, "Vauxhall|other": 257
+, "Hyundai|other": 255
+, "Volvo|other": 235
+, "Mercedes-Benz|other": 234
+, "MG|other": 222
+, "Kia|other": 212
+, "Citroën|other": 204
+, "BYD|other": 195
+, "Toyota|other": 157
+, "Renault|other": 146
+, "Porsche|other": 135
+, "Fiat|other": 110
+, "Jeep|other": 108
+, "Smart|other": 102
+, "Dacia|other": 69
+, "Nissan|other": 37
+, "Polestar|other": 22
+, "other": 3988
+});
