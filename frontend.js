@@ -1786,7 +1786,7 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     const td = newChildNode(tr, "TD");
     td.style.textAlign = "right";
     if (!isGroupRest)
-      addTrendValueNode(td, evShareTrend, 0, " pp");
+      addTrendValueNode(td, evShareTrend, 0, " pp/y");
   }
 }
 
