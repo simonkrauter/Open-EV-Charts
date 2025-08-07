@@ -6015,3 +6015,62 @@ db.insert(db.countries.FR, "2025-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 406
 , "other": 11171
 });
+
+db.insert(db.countries.FR, "2025-07", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/08/Immatriculations-VPN_Juillet2025.pdf",
+{ "Renault": 16246
+, "Peugeot": 15885
+, "Dacia": 11115
+, "Citroën": 8137
+, "Toyota": 7940
+, "Volkswagen": 7431
+, "BMW": 5301
+, "Škoda": 3904
+, "Hyundai": 3738
+, "Mercedes-Benz": 3369
+, "Audi": 3222
+, "Kia": 3202
+, "Opel": 3139
+, "Ford": 2820
+, "MG": 2369
+, "Mini": 2249
+, "Nissan": 2111
+, "Fiat": 1737
+, "Cupra": 1591
+, "Tesla": 1307
+, "Suzuki": 1266
+, "Seat": 1109
+, "BYD": 805
+, "Volvo": 740
+, "Jeep": 690
+, "Mitsubishi": 621
+, "Mazda": 464
+, "Honda": 404
+, "Xpeng": 338
+, "Porsche": 270
+, "Smart": 66
+, "other": 2790
+});
+
+db.insert(db.countries.FR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/08/Immatriculations-mensuelles-par-energie_Juillet2025.pdf, https://cleantechnica.com/2025/08/03/evs-take-24-0-share-in-france-hyundai-inster-arrives/",
+{ "Renault|5 E-Tech": 2033
+, "BMW|iX1": 1083
+, "Tesla|Model Y": 979
+, "Renault|Scénic E-Tech": 803
+, "Volkswagen|ID.3": 628
+, "Škoda|Elroq": 617
+, "Citroën|ë-C3": 581
+, "Renault|Megane E-Tech": 557
+, "Peugeot|e-208": 465
+, "Dacia|Spring": 451
+, "Audi|Q4 e-tron": 430
+, "Renault|4 E-Tech": 420
+, "Volkswagen|ID.4": 403
+, "Kia|EV3": 387
+, "BMW|iX2": 360
+, "Peugeot|E-3008": 359
+, "Hyundai|Inster": 336
+, "Tesla|Model 3": 326
+, "Audi|Q6 e-tron": 321
+, "Hyundai|Kona Electric": 319
+, "other": 7689
+});
