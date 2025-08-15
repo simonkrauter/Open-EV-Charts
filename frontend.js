@@ -1769,7 +1769,7 @@ function renderCountriesStatusPageRow(table, countryId, index = "") {
     const td = newChildNode(tr, "TD");
     td.style.textAlign = "right";
     if (!isGroupRest)
-      addTrendValueNode(td, allCarSalesTrend, 0, " %");
+      addTrendValueNode(td, allCarSalesTrend, 0, " %/y");
   }
   // ev market size
   {
