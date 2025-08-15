@@ -6601,3 +6601,104 @@ db.insert(db.countries.IE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Xpeng|G6": 1
 , "other": 12
 });
+
+db.insert(db.countries.IE, "2025-07", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+{ "Toyota": 3862
+, "Volkswagen": 3653
+, "Škoda": 2852
+, "Hyundai": 2812
+, "Kia": 1894
+, "Dacia": 1300
+, "Peugeot": 1069
+, "Audi": 1037
+, "Renault": 983
+, "BMW": 908
+, "Ford": 655
+, "Nissan": 649
+, "Cupra": 597
+, "BYD": 543
+, "Mercedes-Benz": 530
+, "Opel": 495
+, "Volvo": 465
+, "Citroën": 314
+, "Seat": 304
+, "Suzuki": 279
+, "MG": 272
+, "Mazda": 221
+, "Tesla": 186
+, "Land Rover": 150
+, "Honda": 107
+, "Mini": 84
+, "Porsche": 61
+, "Polestar": 53
+, "Xpeng": 38
+, "Jeep": 20
+, "Fiat": 11
+, "other": 350
+});
+
+db.insert(db.countries.IE, "2025-07", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+{ "Volkswagen|ID.4": 538
+, "Hyundai|Inster": 398
+, "Kia|EV3": 320
+, "Škoda|Elroq": 287
+, "Hyundai|Ioniq 5": 232
+, "Škoda|Enyaq": 204
+, "Kia|EV6": 200
+, "Hyundai|Kona Electric": 180
+, "Renault|5 E-Tech": 152
+, "Volkswagen|ID.3": 152
+, "Toyota|bZ4X": 140
+, "Tesla|Model Y": 130
+, "Cupra|Born": 106
+, "BYD|Seal": 96
+, "Volvo|EX40": 88
+, "Renault|Megane E-Tech": 86
+, "BMW|iX1": 84
+, "Peugeot|E-3008": 84
+, "Peugeot|E-5008": 81
+, "Volkswagen|ID.7": 81
+, "Audi|Q4 e-tron": 68
+, "Ford|Explorer EV": 59
+, "Kia|EV9": 56
+, "Tesla|Model 3": 56
+, "Nissan|Ariya": 54
+, "Peugeot|e-2008": 54
+, "MG|S5 EV": 49
+, "Hyundai|Ioniq Electric": 45
+, "Renault|Scénic E-Tech": 45
+, "Polestar|4": 40
+, "Cupra|Tavascan": 39
+, "BMW|i4": 38
+, "Mini|Cooper SE": 38
+, "Xpeng|G6": 38
+, "Dacia|Spring": 37
+, "Volkswagen|ID.5": 36
+, "BMW|iX2": 33
+, "Ford|Capri EV": 32
+, "MG|4 EV": 32
+, "Opel|Grandland Electric": 31
+, "Volkswagen|ID. Buzz": 26
+, "Volvo|EX30": 25
+, "BYD|Dolphin": 22
+, "Volvo|EX90": 21
+, "Volvo|EC40": 18
+, "BYD|Yuan Plus": 17
+, "Ford|Puma Gen-E": 15
+, "Audi|Q6 e-tron": 14
+, "Citroën|ë-C3": 10
+, "Audi|A6 e-tron": 9
+, "Peugeot|e-208": 9
+, "Polestar|2": 9
+, "Porsche|Macan Electric": 9
+, "BMW|other": 12
+, "Citroën|other": 10
+, "Peugeot|other": 7
+, "Kia|other": 5
+, "Mercedes-Benz|other": 5
+, "Audi|other": 4
+, "Polestar|other": 4
+, "Opel|other": 3
+, "Porsche|other": 3
+, "other": 128
+});
