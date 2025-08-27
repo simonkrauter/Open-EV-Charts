@@ -274,5 +274,6 @@ const brandCountries =
 , "Vauxhall": "UK"
 , "Volkswagen": "DE"
 , "Volvo": "SE"
+, "Xiaomi": "CN"
 , "Xpeng": "CN"
 };
