@@ -2642,6 +2642,8 @@ var db = {
     for (const i in chartConfigs) {
       const newChartData = this.queryChartDataSingle(chartConfigs[i], sortByName);
       if (chartData != null) {
+        if (chartData.categories.length == 0)
+          chartData.categories = newChartData.categories;
         for (const j in newChartData.series) {
           chartData.series.push(this.reorderSeriesData(newChartData, j, chartData.categories));
         }
