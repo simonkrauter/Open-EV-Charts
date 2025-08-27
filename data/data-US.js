@@ -784,3 +784,11 @@ db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX40": 218
 , "other": 36412
 });
+
+db.insert(db.countries.US, "2025-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+{ "other": 4180619
+});
+
+db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+{ "other": 289907
+});
