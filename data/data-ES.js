@@ -7180,10 +7180,11 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 29
 , "Renault|other": 29
 , "BMW|other": 28
+, "Mazda|other": 26
+, "Peugeot|other": 24
 , "Hyundai|other": 22
 , "Volkswagen|other": 21
 , "Kia|other": 19
-, "Peugeot|other": 17
 , "Tesla|other": 16
 , "Ford|other": 15
 , "Subaru|other": 15
@@ -7191,5 +7192,5 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 11
 , "Honda|other": 6
 , "MG|other": 6
-, "other": 744
+, "other": 711
 });
