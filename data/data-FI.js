@@ -6347,3 +6347,104 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 2
 , "other": 374
 });
+
+db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/08/July-2025.xlsx",
+{ "Toyota": 915
+, "Škoda": 738
+, "Volkswagen": 591
+, "Volvo": 485
+, "Kia": 417
+, "BMW": 295
+, "Ford": 242
+, "Audi": 202
+, "Mercedes-Benz": 197
+, "Nissan": 134
+, "Hyundai": 116
+, "Tesla": 106
+, "Citroën": 86
+, "Dacia": 82
+, "Renault": 74
+, "Mazda": 53
+, "Peugeot": 45
+, "Opel": 43
+, "MG": 42
+, "Cupra": 41
+, "Polestar": 40
+, "Mitsubishi": 38
+, "Porsche": 37
+, "BYD": 32
+, "Mini": 31
+, "Subaru": 28
+, "Suzuki": 21
+, "Land Rover": 17
+, "Seat": 7
+, "other": 270
+});
+
+db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+{ "Škoda|Enyaq": 195
+, "Škoda|Elroq": 192
+, "Volkswagen|ID.4": 143
+, "Volkswagen|ID.7": 89
+, "Tesla|Model Y": 85
+, "Volvo|EX40": 84
+, "Audi|Q4 e-tron": 61
+, "Kia|EV3": 57
+, "Ford|Explorer EV": 48
+, "Volvo|EX30": 48
+, "BMW|iX1": 47
+, "Ford|Capri EV": 42
+, "Audi|Q6 e-tron": 39
+, "BMW|i4": 39
+, "Kia|EV6": 39
+, "Volvo|EX90": 37
+, "Volvo|EC40": 32
+, "BMW|iX": 29
+, "Mercedes-Benz|EQB": 28
+, "Mini|Cooper SE": 28
+, "Mercedes-Benz|EQA": 24
+, "Toyota|bZ4X": 24
+, "Porsche|Macan Electric": 23
+, "BMW|iX2": 21
+, "Tesla|Model 3": 21
+, "Volkswagen|ID.3": 21
+, "Ford|Puma Gen-E": 20
+, "Hyundai|Kona Electric": 19
+, "Cupra|Born": 16
+, "Hyundai|Inster": 16
+, "Nissan|Ariya": 16
+, "Audi|A6 e-tron": 14
+, "Cupra|Tavascan": 14
+, "Smart|Hashtag 5": 14
+, "Kia|Niro EV": 13
+, "Mercedes-Benz|EQE": 12
+, "Hyundai|Ioniq 5": 11
+, "Subaru|Solterra": 11
+, "BMW|i5": 9
+, "Hyundai|Ioniq 6": 9
+, "BYD|Yuan Plus": 8
+, "Kia|EV9": 8
+, "Citroën|ë-C3": 7
+, "Opel|Astra Electric": 7
+, "Renault|Scénic E-Tech": 7
+, "BYD|Seal": 6
+, "Peugeot|E-3008": 6
+, "Peugeot|e-2008": 5
+, "Opel|Grandland Electric": 4
+, "BYD|Dolphin": 3
+, "Peugeot|E-5008": 3
+, "Toyota|Proace Electric": 3
+, "Xpeng|other": 4
+, "Audi|other": 2
+, "BMW|other": 2
+, "Ford|other": 2
+, "MG|other": 2
+, "Mercedes-Benz|other": 2
+, "Peugeot|other": 2
+, "Porsche|other": 2
+, "Renault|other": 2
+, "Fiat|other": 1
+, "Jeep|other": 1
+, "Volkswagen|other": 1
+, "other": 191
+});
