@@ -8218,7 +8218,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 1210
 , "Škoda|Elroq": 926
 , "Tesla|Model 3": 727
-, "Kia|EV3": 628
+, "Kia|EV3": 629
 , "BMW|iX1": 501
 , "MG|5 EV": 440
 , "Renault|5 E-Tech": 409
@@ -8230,7 +8230,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 255
 , "MG|4 EV": 249
 , "Polestar|2": 247
-, "Ford|Explorer EV": 213
+, "Ford|Explorer EV": 212
 , "Škoda|Enyaq": 201
 , "Volkswagen|ID.7": 200
 , "Citroën|ë-C3": 172
@@ -8253,7 +8253,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|7X": 96
 , "Kia|EV6": 94
 , "BMW|iX2": 93
-, "Cupra|Born": 89
+, "Cupra|Born": 90
 , "Ford|Capri EV": 85
 , "BYD|Yuan Plus": 75
 , "Peugeot|E-3008": 75
@@ -8272,7 +8272,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 70
 , "BYD|other": 68
 , "Ford|other": 68
-, "Xpeng|other": 64
+, "Xpeng|other": 65
 , "Fiat|other": 63
 , "Cupra|other": 55
 , "Subaru|other": 53
@@ -8286,5 +8286,6 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 14
 , "Hyundai|other": 12
 , "Porsche|other": 7
+, "other": 38
 , "other": 40
 });
