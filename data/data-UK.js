@@ -4733,14 +4733,14 @@ db.insert(db.countries.UK, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.sm
 db.insert(db.countries.UK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/7 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Mini|Cooper SE": 1175
 , "Ford|Explorer EV": 865
-, "Škoda|Elroq": 820
-, "MG|4 EV": 804
+, "Škoda|Elroq": 821
+, "MG|4 EV": 805
 , "Škoda|Enyaq": 775
 , "Hyundai|Kona Electric": 751
 , "Audi|Q4 e-tron": 728
-, "MG|S5 EV": 684
+, "MG|S5 EV": 689
 , "Volkswagen|ID.3": 669
-, "Kia|EV3": 664
+, "Kia|EV3": 665
 , "Cupra|Born": 631
 , "Audi|Q6 e-tron": 626
 , "Mercedes-Benz|EQA": 470
@@ -4760,24 +4760,24 @@ db.insert(db.countries.UK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 308
 , "Polestar|2": 307
 , "Hyundai|Inster": 279
-, "Tesla|Model Y": 268
+, "Tesla|Model Y": 269
 , "Cupra|Tavascan": 261
 , "BYD|Dolphin": 257
-, "BYD|Seagull": 253
+, "BYD|Seagull": 256
 , "BMW|iX": 251
-, "Volvo|EX40": 249
+, "Volvo|EX40": 250
 , "Ford|Puma Gen-E": 247
 , "BYD|Yuan Plus": 243
 , "BMW|i5": 240
-, "Kia|EV9": 220
+, "Kia|EV9": 221
 , "Kia|EV6": 199
 , "Peugeot|e-2008": 198
-, "Renault|5 E-Tech": 193
+, "Renault|5 E-Tech": 194
 , "Hyundai|Ioniq 6": 163
 , "Kia|Niro EV": 163
 , "Renault|Scénic E-Tech": 161
 , "Peugeot|E-3008": 159
-, "Porsche|Macan Electric": 157
+, "Porsche|Macan Electric": 158
 , "Mercedes-Benz|EQE": 147
 , "Nissan|Ariya": 145
 , "Polestar|3": 143
@@ -4785,10 +4785,10 @@ db.insert(db.countries.UK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 682
 , "Cupra|other": 438
 , "Škoda|other": 388
+, "Peugeot|other": 384
 , "Tesla|other": 340
-, "Peugeot|other": 272
 , "BMW|other": 262
-, "Ford|other": 258
+, "Ford|other": 259
 , "Vauxhall|other": 257
 , "Hyundai|other": 255
 , "Volvo|other": 235
@@ -4798,13 +4798,13 @@ db.insert(db.countries.UK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 204
 , "BYD|other": 195
 , "Toyota|other": 157
-, "Renault|other": 146
-, "Porsche|other": 135
+, "Renault|other": 147
+, "Porsche|other": 136
 , "Fiat|other": 110
-, "Jeep|other": 108
+, "Jeep|other": 109
 , "Smart|other": 102
 , "Dacia|other": 69
 , "Nissan|other": 37
 , "Polestar|other": 22
-, "other": 3988
+, "other": 3856
 });
