@@ -6594,6 +6594,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 14
 , "Kia|other": 14
 , "Volvo|other": 12
+, "Mazda|other": 10
 , "Volkswagen|other": 10
 , "Ford|other": 8
 , "Smart|other": 8
@@ -6601,5 +6602,5 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 7
 , "Nissan|other": 7
 , "Renault|other": 6
-, "other": 957
+, "other": 947
 });
