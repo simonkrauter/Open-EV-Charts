@@ -813,3 +813,11 @@ db.insert(db.countries.global, "2025-06", db.dsTypes.AllCarsTotal, "https://clea
 db.insert(db.countries.global, "2025-06", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/08/04/global-ev-sales-plugin-vehicles-reach-28-share/",
 { "other": 1128571
 });
+
+db.insert(db.countries.global, "2025-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/09/07/global-ev-sales-report-plugin-vehicles-reach-26-share/",
+{ "other": 6018100
+});
+
+db.insert(db.countries.global, "2025-07", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/09/07/global-ev-sales-report-plugin-vehicles-reach-26-share/",
+{ "other": 1023077
+});
