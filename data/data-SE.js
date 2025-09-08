@@ -7224,3 +7224,110 @@ db.insert(db.countries.SE, "2025-07", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|other": 4
 , "other": 156
 });
+
+db.insert(db.countries.SE, "2025-08", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo": 2718
+, "Volkswagen": 2614
+, "Toyota": 2245
+, "Kia": 1789
+, "BMW": 1453
+, "Škoda": 1329
+, "Mercedes-Benz": 1292
+, "Audi": 1197
+, "Peugeot": 757
+, "Cupra": 649
+, "Polestar": 428
+, "Hyundai": 361
+, "Ford": 308
+, "Fiat": 291
+, "Renault": 237
+, "Dacia": 217
+, "Tesla": 210
+, "Opel": 176
+, "Porsche": 172
+, "Nissan": 168
+, "Mazda": 164
+, "Mini": 134
+, "Seat": 120
+, "Zeekr": 119
+, "Suzuki": 111
+, "Citroën": 108
+, "Honda": 85
+, "BYD": 74
+, "Chevrolet": 54
+, "Xpeng": 49
+, "MG": 40
+, "Land Rover": 33
+, "Nio": 29
+, "Mitsubishi": 18
+, "Smart": 13
+, "Geely": 12
+, "Subaru": 5
+, "JAC": 3
+, "other": 386
+});
+
+db.insert(db.countries.SE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
+{ "Volvo|EX40": 492
+, "Volkswagen|ID.7": 441
+, "Kia|EV3": 431
+, "Volvo|EX30": 332
+, "Volkswagen|ID.4": 300
+, "Škoda|Enyaq": 266
+, "Polestar|4": 242
+, "Kia|EV9": 215
+, "BMW|iX1": 209
+, "Volkswagen|ID.3": 189
+, "Volvo|EX90": 189
+, "Audi|A6 e-tron": 164
+, "Mercedes-Benz|EQB": 162
+, "Renault|5 E-Tech": 161
+, "BMW|i5": 158
+, "Cupra|Tavascan": 158
+, "Kia|EV6": 158
+, "BMW|i4": 151
+, "Polestar|2": 144
+, "Volvo|EC40": 143
+, "Tesla|Model Y": 141
+, "Mercedes-Benz|EQA": 132
+, "Mini|Cooper SE": 126
+, "Škoda|Elroq": 126
+, "Mercedes-Benz|EQE": 110
+, "Audi|Q4 e-tron": 104
+, "Zeekr|7X": 101
+, "Audi|Q6 e-tron": 100
+, "Cupra|Born": 96
+, "Tesla|Model 3": 67
+, "Ford|Explorer EV": 60
+, "BMW|iX": 53
+, "Volkswagen|ID. Buzz": 52
+, "Hyundai|Ioniq 5": 42
+, "Polestar|3": 40
+, "Porsche|Macan Electric": 39
+, "Toyota|bZ4X": 39
+, "Renault|Scénic E-Tech": 37
+, "Hyundai|Ioniq 9": 36
+, "BMW|iX2": 33
+, "Mercedes-Benz|CLA EV": 30
+, "Nio|ET5": 29
+, "Hyundai|Kona Electric": 28
+, "MG|S5 EV": 25
+, "Xpeng|G6": 25
+, "Nissan|Ariya": 20
+, "Xpeng|G9": 20
+, "Mercedes-Benz|eVito": 18
+, "Mercedes-Benz|EQS": 16
+, "Porsche|Taycan": 16
+, "Ford|other": 29
+, "Peugeot|other": 23
+, "Zeekr|other": 18
+, "Citroën|other": 13
+, "Opel|other": 13
+, "Smart|other": 13
+, "BMW|other": 12
+, "Hyundai|other": 12
+, "BYD|other": 9
+, "Mercedes-Benz|other": 7
+, "Xpeng|other": 4
+, "other": 153
+});
