@@ -1516,7 +1516,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Ford|Mustang Mach-E": 18
 , "Volvo|EX90": 16
 , "BMW|i5": 15
-, "Hyundai|Ioniq Electric": 14
+, "Hyundai|Ioniq 9": 14
 , "BMW|iX3": 11
 , "Subaru|Solterra": 11
 , "Škoda|Enyaq": 11
