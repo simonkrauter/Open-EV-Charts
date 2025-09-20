@@ -2034,3 +2034,28 @@ db.insert(db.countries.CN, "2025-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seal 06 EV": 4547
 , "other": 326148
 });
+
+db.insert(db.countries.CN, "2025-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/09/20/byd-down-21-phevs-down-7-yoy-august-2025-china-ev-sales-report/",
+{ "other": 2017647
+});
+
+db.insert(db.countries.CN, "2025-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/09/20/byd-down-21-phevs-down-7-yoy-august-2025-china-ev-sales-report/",
+{ "Geely|Xingyuan": 46057
+, "Tesla|Model Y": 39413
+, "Wuling|Hongguang Mini EV": 37828
+, "BYD|Seagull": 23031
+, "Xiaomi|SU7": 19848
+, "BYD|Yuan Up": 19647
+, "Tesla|Model 3": 17739
+, "Xiaomi|YU7": 16548
+, "Xpeng|Mona M03": 15333
+, "Changan|Lumin": 14570
+, "BYD|Dolphin": 13968
+, "Wuling|Bingo": 12078
+, "BYD|Qin EV": 10917
+, "Nissan|N7": 10148
+, "BYD|Song EV": 7079
+, "BYD|Seal 06 EV": 5514
+, "BYD|Sealion 06 EV": 5013
+, "other": 371269
+});
