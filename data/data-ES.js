@@ -7194,3 +7194,77 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 6
 , "other": 586
 });
+
+db.insert(db.countries.ES, "2025-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
+{ "other": 61315
+});
+
+db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
+{ "Tesla|Model 3": 1149
+, "BYD|Dolphin": 505
+, "Kia|EV3": 476
+, "Toyota|bZ4X": 358
+, "Renault|5 E-Tech": 320
+, "BYD|Yuan Up": 308
+, "Tesla|Model Y": 289
+, "Mini|Cooper SE": 286
+, "BYD|Seal": 192
+, "Dacia|Spring": 188
+, "Škoda|Elroq": 177
+, "BYD|Yuan Plus": 173
+, "Jeep|Avenger EV": 133
+, "Hyundai|Kona Electric": 127
+, "BMW|iX1": 110
+, "Citroën|ë-C3": 110
+, "Hyundai|Inster": 110
+, "BMW|iX2": 105
+, "BYD|Sealion 7": 94
+, "Opel|Frontera Electric": 84
+, "Volkswagen|ID.4": 78
+, "Audi|Q4 e-tron": 73
+, "Volkswagen|ID.3": 73
+, "Hyundai|Ioniq 5": 65
+, "Mercedes-Benz|EQA": 64
+, "Volvo|EX30": 56
+, "MG|4 EV": 55
+, "Ford|Puma Gen-E": 51
+, "Porsche|Macan Electric": 50
+, "Peugeot|e-208": 42
+, "BMW|i4": 38
+, "MG|S5 EV": 37
+, "Ford|Explorer EV": 36
+, "Renault|4 E-Tech": 36
+, "Audi|Q6 e-tron": 34
+, "Škoda|Enyaq": 33
+, "Renault|Scénic E-Tech": 32
+, "Ford|Capri EV": 31
+, "Xpeng|G6": 31
+, "Peugeot|e-2008": 29
+, "Mazda|EZ-6 BEV": 26
+, "Mercedes-Benz|EQE": 26
+, "Renault|Megane E-Tech": 25
+, "BMW|iX": 21
+, "Mercedes-Benz|EQB": 21
+, "Citroën|ë-C4": 19
+, "Nissan|Ariya": 18
+, "Smart|Hashtag 1": 18
+, "Volkswagen|ID.7": 18
+, "Cupra|Tavascan": 17
+, "Peugeot|E-3008": 17
+, "Fiat|other": 28
+, "Polestar|other": 24
+, "Smart|other": 22
+, "Volvo|other": 20
+, "BMW|other": 17
+, "Peugeot|other": 17
+, "Kia|other": 14
+, "Mercedes-Benz|other": 12
+, "Audi|other": 11
+, "Opel|other": 11
+, "Cupra|other": 9
+, "Ford|other": 9
+, "BYD|other": 7
+, "Honda|other": 6
+, "Xpeng|other": 4
+, "other": 357
+});
