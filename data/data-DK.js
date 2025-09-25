@@ -4080,3 +4080,81 @@ db.insert(db.countries.DK, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 6
 , "other": 35
 });
+
+db.insert(db.countries.DK, "2025-08", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 13088
+});
+
+db.insert(db.countries.DK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/8, https://www.statistikbanken.dk/bil51",
+{ "Škoda|Elroq": 638
+, "Volkswagen|ID.4": 551
+, "Škoda|Enyaq": 543
+, "Volkswagen|ID. Buzz": 412
+, "Cupra|Tavascan": 352
+, "Tesla|Model Y": 289
+, "Volkswagen|ID.3": 282
+, "BMW|iX1": 279
+, "Kia|EV3": 258
+, "Mercedes-Benz|EQA": 258
+, "Citroën|ë-C3": 256
+, "Renault|5 E-Tech": 251
+, "Mercedes-Benz|EQB": 209
+, "Audi|Q4 e-tron": 191
+, "Cupra|Born": 186
+, "Tesla|Model 3": 158
+, "Volkswagen|ID.7": 157
+, "Ford|Explorer EV": 151
+, "Opel|Grandland Electric": 148
+, "Peugeot|E-3008": 147
+, "BMW|i5": 137
+, "Volvo|EX40": 136
+, "Mercedes-Benz|EQE": 131
+, "Hyundai|Inster": 129
+, "Peugeot|e-2008": 127
+, "Audi|Q6 e-tron": 125
+, "Volkswagen|ID.5": 125
+, "Renault|Scénic E-Tech": 123
+, "Hyundai|Ioniq 5": 117
+, "Renault|Megane E-Tech": 104
+, "Ford|E-Transit": 90
+, "Ford|Puma Gen-E": 90
+, "Audi|A6 e-tron": 81
+, "Hyundai|Kona Electric": 80
+, "BMW|i4": 79
+, "Kia|EV6": 75
+, "Renault|Master E-Tech": 71
+, "Nissan|Ariya": 67
+, "Zeekr|7X": 67
+, "Volkswagen|e-Transporter": 65
+, "Volvo|EX30": 61
+, "Polestar|4": 60
+, "BMW|iX": 58
+, "Polestar|2": 54
+, "Ford|Capri EV": 53
+, "BYD|Dolphin": 53
+, "Peugeot|E-5008": 51
+, "Mini|Cooper SE": 46
+, "BYD|Seal": 44
+, "BMW|iX2": 42
+, "BYD|Sealion 7": 42
+, "MG|other": 80
+, "Opel|other": 71
+, "Toyota|other": 68
+, "Mercedes-Benz|other": 52
+, "Peugeot|other": 50
+, "Xpeng|other": 48
+, "BYD|other": 46
+, "Kia|other": 45
+, "Hyundai|other": 40
+, "Volvo|other": 39
+, "Porsche|other": 34
+, "Renault|other": 17
+, "Subaru|other": 16
+, "Citroën|other": 12
+, "Mazda|other": 12
+, "BMW|other": 6
+, "Polestar|other": 6
+, "Honda|other": 5
+, "Zeekr|other": 5
+, "other": 36
+});
