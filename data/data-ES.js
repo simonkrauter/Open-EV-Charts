@@ -6908,6 +6908,7 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 109
 , "Dacia|Spring": 107
 , "MG|4 EV": 100
+, "BYD|Sealion 7": 98
 , "Porsche|Macan Electric": 86
 , "Kia|EV6": 84
 , "Renault|Scénic E-Tech": 84
@@ -6936,14 +6937,13 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 31
 , "Mercedes-Benz|EQS": 29
 , "MG|ZS EV": 25
-, "Polestar|4": 24
-, "Xpeng|G6": 24
+, "Polestar|other": 48
 , "Smart|other": 42
 , "BMW|other": 33
+, "Xpeng|other": 33
 , "Ford|other": 32
 , "Nissan|other": 29
 , "MG|other": 28
-, "Polestar|other": 24
 , "Fiat|other": 22
 , "Peugeot|other": 22
 , "Mercedes-Benz|other": 21
@@ -6954,11 +6954,10 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 17
 , "Porsche|other": 13
 , "Kia|other": 10
-, "Xpeng|other": 9
 , "Honda|other": 6
 , "Opel|other": 6
 , "BYD|other": 4
-, "other": 418
+, "other": 320
 });
 
 db.insert(db.countries.ES, "2025-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
@@ -6986,6 +6985,7 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 159
 , "Volvo|EX30": 146
 , "BYD|Dolphin": 139
+, "BYD|Sealion 7": 136
 , "Cupra|Born": 133
 , "BYD|Yuan Up": 119
 , "Ford|Puma Gen-E": 119
@@ -7036,7 +7036,7 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 10
 , "Honda|other": 9
 , "Hyundai|other": 9
-, "other": 471
+, "other": 335
 });
 
 db.insert(db.countries.ES, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -7063,6 +7063,7 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 164
 , "Polestar|2": 164
 , "Dacia|Spring": 155
+, "BYD|Sealion 7": 153
 , "BYD|Yuan Up": 153
 , "Škoda|Elroq": 139
 , "BMW|iX2": 132
@@ -7085,7 +7086,7 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 70
 , "BYD|Dolphin": 69
 , "Polestar|4": 67
-, "Hyundai|Ioniq Electric": 63
+, "Hyundai|Ioniq 9": 63
 , "MG|Marvel R": 62
 , "BMW|i4": 59
 , "Kia|Niro EV": 56
@@ -7093,9 +7094,9 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 55
 , "Renault|Megane E-Tech": 54
 , "Xpeng|G6": 53
-, "Mercedes-Benz|eCitan": 52
 , "BMW|other": 96
 , "Ford|other": 87
+, "Mercedes-Benz|other": 83
 , "Audi|other": 74
 , "Smart|other": 72
 , "MG|other": 64
@@ -7105,7 +7106,6 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 41
 , "Opel|other": 34
 , "Porsche|other": 32
-, "Mercedes-Benz|other": 31
 , "Nissan|other": 28
 , "Fiat|other": 27
 , "Hyundai|other": 14
@@ -7114,7 +7114,7 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 10
 , "Honda|other": 9
 , "Kia|other": 9
-, "other": 482
+, "other": 329
 });
 
 db.insert(db.countries.ES, "2025-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
@@ -7123,7 +7123,7 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.AllCarsTotal, "https://www.acea
 
 db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
 { "Toyota|bZ4X": 605
-, "BYD|Seagull": 531
+, "BYD|Dolphin": 594
 , "Kia|EV3": 493
 , "Tesla|Model 3": 456
 , "BYD|Yuan Up": 333
@@ -7143,6 +7143,7 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 136
 , "Audi|Q4 e-tron": 127
 , "Hyundai|Ioniq 5": 127
+, "BYD|Sealion 7": 125
 , "Opel|Frontera Electric": 122
 , "Volkswagen|ID.4": 117
 , "Mercedes-Benz|EQE": 106
@@ -7156,7 +7157,6 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 67
 , "Škoda|Enyaq": 67
 , "Porsche|Macan Electric": 65
-, "BYD|Dolphin": 63
 , "Fiat|500e": 58
 , "Xpeng|G6": 56
 , "Renault|Megane E-Tech": 55
@@ -7192,5 +7192,5 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 11
 , "Honda|other": 6
 , "MG|other": 6
-, "other": 711
+, "other": 586
 });
