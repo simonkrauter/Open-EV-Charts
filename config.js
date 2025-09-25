@@ -219,6 +219,10 @@ const companyGroups = {
     [ "Baojun"
     , "MG"
     , "Wuling"
+    ],
+  "Chery Automobile":
+    [ "Chery"
+    , "Jaecoo"
     ]
 };
 
@@ -231,6 +235,7 @@ const companyGroupCountries =
 , "Geely Holding Group": "CN"
 , "Jaguar Land Rover": "UK"
 , "SAIC Motor": "CN"
+, "Chery Automobile": "CN"
 };
 
 const brandCountries =
@@ -239,7 +244,6 @@ const brandCountries =
 , "BAIC": "CN"
 , "BYD": "CN"
 , "Changan": "CN"
-, "Chery": "CN"
 , "Chevrolet": "US"
 , "Citroën": "FR"
 , "Cupra": "ES"
