@@ -7038,9 +7038,9 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 7
 , "Ford|other": 7
 , "Volkswagen|other": 7
+, "BYD|other": 6
 , "Jeep|other": 6
 , "Tesla|other": 6
-, "BYD|other": 5
 , "JAC|other": 5
 , "Nissan|other": 5
 , "Subaru|other": 5
@@ -7048,7 +7048,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 3
 , "Jaguar|other": 2
 , "Kia|other": 2
-, "other": 271
+, "other": 270
 });
 
 db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
@@ -7137,6 +7137,7 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV9": 21
 , "Opel|Corsa-e": 21
 , "Renault|Megane E-Tech": 19
+, "BYD|Sealion 7": 18
 , "Kia|EV6": 18
 , "Peugeot|e-308": 18
 , "Toyota|bZ4X": 18
@@ -7162,7 +7163,7 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 4
 , "Jaguar|other": 4
 , "Subaru|other": 4
-, "other": 351
+, "other": 333
 });
 
 db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
@@ -7261,6 +7262,7 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 28
 , "Mercedes-Benz|other": 27
 , "Kia|other": 26
+, "BYD|other": 25
 , "MG|other": 24
 , "Opel|other": 22
 , "Toyota|other": 16
@@ -7269,7 +7271,6 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 14
 , "Polestar|other": 14
 , "Porsche|other": 12
-, "BYD|other": 10
 , "Honda|other": 10
 , "Audi|other": 9
 , "Volvo|other": 9
@@ -7280,7 +7281,7 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 4
 , "Jaguar|other": 4
 , "Xpeng|other": 3
-, "other": 322
+, "other": 307
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/08/ModellePW2025.xlsx",
@@ -7369,6 +7370,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQB": 20
 , "Peugeot|E-5008": 20
 , "Polestar|2": 19
+, "BYD|Sealion 7": 18
 , "Ford|Capri EV": 17
 , "MG|Cyberster": 17
 , "Volvo|EC40": 17
@@ -7395,5 +7397,5 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 5
 , "Audi|other": 4
 , "Fiat|other": 3
-, "other": 391
+, "other": 373
 });
