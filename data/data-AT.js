@@ -3810,6 +3810,7 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMaerz2025.ods",
 { "Tesla|Model Y": 500
+, "BYD|Sealion 7": 323
 , "Renault|5 E-Tech": 310
 , "BMW|iX1": 306
 , "Tesla|Model 3": 306
@@ -3818,7 +3819,7 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 203
 , "Škoda|Enyaq": 195
 , "Volkswagen|ID.3": 192
-, "other": 3674
+, "other": 3351
 });
 
 db.insert(db.countries.AT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisApril2025.ods",
@@ -3862,13 +3863,14 @@ db.insert(db.countries.AT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 { "BMW|iX1": 347
 , "Škoda|Elroq": 344
 , "Renault|5 E-Tech": 288
+, "BYD|Sealion 7": 270
 , "Volkswagen|ID.3": 255
 , "Audi|Q6 e-tron": 251
 , "BMW|i4": 243
 , "Škoda|Enyaq": 233
 , "Volkswagen|ID.7": 199
 , "Cupra|Born": 190
-, "other": 3340
+, "other": 3070
 });
 
 db.insert(db.countries.AT, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMai2025.ods",
@@ -3912,6 +3914,7 @@ db.insert(db.countries.AT, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.st
 db.insert(db.countries.AT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMai2025.ods",
 { "Tesla|Model Y": 546
 , "Škoda|Elroq": 339
+, "BYD|Sealion 7": 267
 , "Audi|Q6 e-tron": 222
 , "Volkswagen|ID.7": 208
 , "Volkswagen|ID.4": 202
@@ -3919,7 +3922,7 @@ db.insert(db.countries.AT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 197
 , "Škoda|Enyaq": 179
 , "Audi|A6 e-tron": 156
-, "other": 3178
+, "other": 2911
 });
 
 db.insert(db.countries.AT, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuni2025.ods",
@@ -3965,11 +3968,12 @@ db.insert(db.countries.AT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 302
 , "Škoda|Enyaq": 293
 , "Volkswagen|ID.3": 214
+, "BYD|Sealion 7": 211
 , "Volkswagen|ID.7": 202
 , "BMW|i4": 183
 , "Audi|Q6 e-tron": 177
 , "Renault|5 E-Tech": 168
-, "other": 3364
+, "other": 3153
 });
 
 db.insert(db.countries.AT, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuli2025.ods",
@@ -4016,9 +4020,10 @@ db.insert(db.countries.AT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 245
 , "Volkswagen|ID.7": 240
 , "Renault|5 E-Tech": 190
+, "BYD|Sealion 7": 170
 , "Tesla|Model Y": 167
 , "Volkswagen|ID.4": 167
 , "Cupra|Tavascan": 162
 , "Volkswagen|ID.3": 148
-, "other": 2867
+, "other": 2697
 });
