@@ -4027,3 +4027,54 @@ db.insert(db.countries.AT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 148
 , "other": 2697
 });
+
+db.insert(db.countries.AT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisAugust2025.ods",
+{ "Volkswagen": 2821
+, "Škoda": 2415
+, "BMW": 1384
+, "Audi": 1194
+, "Mercedes-Benz": 1187
+, "Seat": 1146
+, "Dacia": 1124
+, "Hyundai": 1069
+, "Toyota": 869
+, "Cupra": 810
+, "BYD": 774
+, "Ford": 729
+, "Renault": 609
+, "Peugeot": 604
+, "Kia": 497
+, "Opel": 495
+, "Suzuki": 450
+, "MG": 396
+, "Fiat": 389
+, "Mazda": 349
+, "Tesla": 270
+, "Citroën": 267
+, "Volvo": 253
+, "Jeep": 199
+, "Land Rover": 154
+, "Mitsubishi": 144
+, "Mini": 117
+, "Nissan": 111
+, "Honda": 110
+, "Porsche": 93
+, "Polestar": 32
+, "Smart": 29
+, "Subaru": 24
+, "other": 338
+});
+
+db.insert(db.countries.AT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisAugust2025.ods",
+{ "Škoda|Elroq": 284
+, "Škoda|Enyaq": 282
+, "Cupra|Tavascan": 191
+, "BYD|Seal": 188
+, "Audi|Q6 e-tron": 154
+, "BYD|Sealion 7": 143
+, "Ford|Explorer EV": 140
+, "Tesla|Model 3": 136
+, "Tesla|Model Y": 134
+, "BMW|iX1": 130
+, "other": 2532
+});
