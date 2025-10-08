@@ -4874,9 +4874,9 @@ db.insert(db.countries.UK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 359
 , "MG|4 EV": 353
 , "Škoda|Elroq": 343
-, "Volkswagen|ID.4": 331
+, "Volkswagen|ID.4": 332
+, "Volkswagen|ID.7": 315
 , "Polestar|4": 305
-, "Volkswagen|ID.7": 299
 , "Mercedes-Benz|EQB": 298
 , "Volvo|EX30": 293
 , "Dacia|Spring": 283
@@ -4889,6 +4889,7 @@ db.insert(db.countries.UK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Sealion 7": 192
 , "MG|S5 EV": 181
 , "Citroën|ë-C3": 179
+, "BYD|Dolphin": 178
 , "BYD|Yuan Plus": 170
 , "Ford|Puma Gen-E": 169
 , "Cupra|Tavascan": 167
@@ -4900,7 +4901,6 @@ db.insert(db.countries.UK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|5 E-Tech": 130
 , "BMW|iX2": 128
 , "Peugeot|E-5008": 119
-, "BYD|Dolphin": 107
 , "Peugeot|E-3008": 107
 , "Hyundai|Ioniq 6": 94
 , "Vauxhall|Grandland Electric": 93
@@ -4909,32 +4909,32 @@ db.insert(db.countries.UK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 84
 , "Hyundai|Ioniq 9": 83
 , "Porsche|Macan Electric": 82
-, "Tesla|other": 1369
-, "Volkswagen|other": 399
+, "Tesla|other": 1371
+, "Volkswagen|other": 401
 , "Kia|other": 304
-, "Peugeot|other": 294
-, "Audi|other": 259
-, "Ford|other": 241
-, "Renault|other": 224
+, "Peugeot|other": 295
+, "Audi|other": 260
+, "Ford|other": 243
+, "Renault|other": 232
+, "Mercedes-Benz|other": 212
 , "Škoda|other": 211
 , "Polestar|other": 209
-, "Mercedes-Benz|other": 208
 , "Hyundai|other": 199
-, "BMW|other": 190
-, "BYD|other": 181
-, "Vauxhall|other": 171
-, "Volvo|other": 148
-, "Toyota|other": 96
+, "BMW|other": 191
+, "Vauxhall|other": 178
+, "Volvo|other": 149
+, "BYD|other": 116
+, "Toyota|other": 100
 , "MG|other": 80
-, "Porsche|other": 77
-, "Dacia|other": 61
+, "Porsche|other": 78
+, "Dacia|other": 62
 , "Cupra|other": 60
 , "Xpeng|other": 55
 , "Jeep|other": 49
-, "Citroën|other": 47
+, "Citroën|other": 48
 , "Fiat|other": 44
 , "Smart|other": 34
-, "Nissan|other": 28
+, "Nissan|other": 29
 , "Honda|other": 14
-, "other": 2898
+, "other": 2838
 });
