@@ -16,6 +16,7 @@ db.insert(db.countries.BR, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 3273
 , "Citroën": 1741
 , "Peugeot": 1420
+, "Chery": 1327
 , "Volvo": 821
 , "BMW": 780
 , "Mercedes-Benz": 440
@@ -25,7 +26,7 @@ db.insert(db.countries.BR, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Kia": 194
 , "Land Rover": 169
 , "BYD": 143
-, "other": 1840
+, "other": 513
 });
 
 db.insert(db.countries.BR, "2023-01", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
@@ -44,6 +45,7 @@ db.insert(db.countries.BR, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 3872
 , "Citroën": 1602
 , "Peugeot": 1314
+, "Chery": 1297
 , "BMW": 749
 , "Volvo": 523
 , "Audi": 405
@@ -53,7 +55,7 @@ db.insert(db.countries.BR, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 232
 , "Land Rover": 225
 , "Kia": 158
-, "other": 1851
+, "other": 554
 });
 
 db.insert(db.countries.BR, "2023-02", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_02_02.pdf",
@@ -72,6 +74,7 @@ db.insert(db.countries.BR, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 6046
 , "Citroën": 2599
 , "Peugeot": 2331
+, "Chery": 1679
 , "BMW": 1354
 , "Volvo": 768
 , "Porsche": 613
@@ -81,7 +84,7 @@ db.insert(db.countries.BR, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 417
 , "BYD": 320
 , "Ford": 221
-, "other": 2666
+, "other": 987
 });
 
 db.insert(db.countries.BR, "2023-03", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_03_02.pdf",
@@ -100,6 +103,7 @@ db.insert(db.countries.BR, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 4142
 , "Citroën": 2311
 , "Peugeot": 2087
+, "Chery": 1563
 , "BMW": 1058
 , "Volvo": 473
 , "Porsche": 471
@@ -109,7 +113,7 @@ db.insert(db.countries.BR, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 315
 , "Kia": 224
 , "Ford": 165
-, "other": 2220
+, "other": 657
 });
 
 db.insert(db.countries.BR, "2023-04", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_04_02.pdf",
@@ -127,6 +131,7 @@ db.insert(db.countries.BR, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 5760
 , "Nissan": 5530
 , "Peugeot": 2653
+, "Chery": 1964
 , "Citroën": 1845
 , "BMW": 1312
 , "GWM": 960
@@ -137,7 +142,8 @@ db.insert(db.countries.BR, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 390
 , "Ford": 335
 , "Mercedes-Benz": 334
-, "other": 3038
+, "Mitsubishi": 211
+, "other": 863
 });
 
 db.insert(db.countries.BR, "2023-05", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_05_02.pdf",
@@ -156,6 +162,7 @@ db.insert(db.countries.BR, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 4781
 , "Citroën": 3073
 , "Peugeot": 2927
+, "Chery": 2779
 , "BMW": 1112
 , "GWM": 969
 , "Volvo": 647
@@ -165,7 +172,7 @@ db.insert(db.countries.BR, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 443
 , "BYD": 441
 , "Mercedes-Benz": 274
-, "other": 3675
+, "other": 896
 });
 
 db.insert(db.countries.BR, "2023-06", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_06_02.pdf",
@@ -184,6 +191,7 @@ db.insert(db.countries.BR, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 6120
 , "Peugeot": 3335
 , "Citroën": 3257
+, "Chery": 2744
 , "BMW": 1199
 , "GWM": 953
 , "BYD": 796
@@ -193,7 +201,7 @@ db.insert(db.countries.BR, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Land Rover": 461
 , "Porsche": 407
 , "Mercedes-Benz": 322
-, "other": 3673
+, "other": 929
 });
 
 db.insert(db.countries.BR, "2023-07", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_07_02.pdf",
@@ -211,6 +219,7 @@ db.insert(db.countries.BR, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 7371
 , "Nissan": 5489
 , "Peugeot": 3516
+, "Chery": 3151
 , "Citroën": 2611
 , "BMW": 1511
 , "BYD": 1455
@@ -221,7 +230,7 @@ db.insert(db.countries.BR, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 454
 , "Audi": 427
 , "Mercedes-Benz": 322
-, "other": 4111
+, "other": 960
 });
 
 db.insert(db.countries.BR, "2023-08", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_08_02.pdf",
@@ -238,10 +247,11 @@ db.insert(db.countries.BR, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 8463
 , "Honda": 5995
 , "Nissan": 5759
+, "Chery": 2937
 , "Peugeot": 2476
 , "Citroën": 2354
 , "BYD": 2134
-, "BMW": 1411
+, "BMW": 1434
 , "GWM": 1307
 , "Audi": 600
 , "Volvo": 499
@@ -249,7 +259,7 @@ db.insert(db.countries.BR, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Land Rover": 456
 , "Porsche": 434
 , "Mercedes-Benz": 221
-, "other": 3752
+, "other": 792
 });
 
 db.insert(db.countries.BR, "2023-09", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_09_02.pdf",
@@ -266,6 +276,7 @@ db.insert(db.countries.BR, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Jeep": 9473
 , "Nissan": 7374
 , "Honda": 5576
+, "Chery": 3788
 , "Citroën": 3046
 , "Peugeot": 2999
 , "BYD": 2730
@@ -277,7 +288,7 @@ db.insert(db.countries.BR, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Ford": 482
 , "Porsche": 438
 , "Land Rover": 378
-, "other": 4713
+, "other": 925
 });
 
 db.insert(db.countries.BR, "2023-10", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_10_02.pdf",
@@ -294,6 +305,7 @@ db.insert(db.countries.BR, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 10201
 , "Honda": 5620
 , "Nissan": 5288
+, "Chery": 4162
 , "BYD": 3620
 , "Citroën": 3594
 , "Peugeot": 3045
@@ -305,7 +317,7 @@ db.insert(db.countries.BR, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 398
 , "Land Rover": 359
 , "Ford": 277
-, "other": 4951
+, "other": 789
 });
 
 db.insert(db.countries.BR, "2023-11", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_11_02.pdf",
@@ -323,6 +335,7 @@ db.insert(db.countries.BR, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 6586
 , "Nissan": 6379
 , "BYD": 5495
+, "Chery": 4088
 , "Peugeot": 2938
 , "GWM": 2796
 , "Citroën": 2413
@@ -333,7 +346,7 @@ db.insert(db.countries.BR, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Land Rover": 600
 , "Mercedes-Benz": 470
 , "Porsche": 439
-, "other": 5392
+, "other": 1304
 });
 
 db.insert(db.countries.BR, "2023-12", db.dsTypes.ElectricCarsTotal, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
@@ -351,6 +364,7 @@ db.insert(db.countries.BR, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 5321
 , "Honda": 5155
 , "BYD": 4294
+, "Chery": 3470
 , "GWM": 2316
 , "Peugeot": 2227
 , "Citroën": 2091
@@ -361,7 +375,7 @@ db.insert(db.countries.BR, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 408
 , "Audi": 405
 , "Land Rover": 373
-, "other": 4529
+, "other": 1059
 });
 
 db.insert(db.countries.BR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
@@ -394,6 +408,7 @@ db.insert(db.countries.BR, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 5443
 , "Nissan": 5152
 , "BYD": 4424
+, "Chery": 3329
 , "Citroën": 1873
 , "GWM": 1715
 , "Peugeot": 1699
@@ -404,7 +419,7 @@ db.insert(db.countries.BR, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Audi": 421
 , "Mercedes-Benz": 356
 , "Land Rover": 354
-, "other": 4366
+, "other": 1037
 });
 
 db.insert(db.countries.BR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_02_02.pdf",
@@ -437,6 +452,7 @@ db.insert(db.countries.BR, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 6721
 , "Honda": 6415
 , "BYD": 6210
+, "Chery": 4829
 , "Citroën": 2463
 , "GWM": 1705
 , "Peugeot": 1342
@@ -447,7 +463,7 @@ db.insert(db.countries.BR, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 520
 , "Mercedes-Benz": 499
 , "Ford": 380
-, "other": 6184
+, "other": 1355
 });
 
 db.insert(db.countries.BR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_03_02.pdf",
@@ -482,6 +498,7 @@ db.insert(db.countries.BR, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Jeep": 9404
 , "Honda": 7167
 , "BYD": 6965
+, "Chery": 6458
 , "Nissan": 5953
 , "Citroën": 2778
 , "GWM": 2281
@@ -493,7 +510,7 @@ db.insert(db.countries.BR, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 530
 , "Audi": 478
 , "Volvo": 439
-, "other": 7690
+, "other": 1232
 });
 
 db.insert(db.countries.BR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_04_02.pdf",
@@ -524,6 +541,7 @@ db.insert(db.countries.BR, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 6448
 , "Renault": 5557
 , "BYD": 5255
+, "Chery": 4918
 , "Citroën": 2489
 , "GWM": 1972
 , "Peugeot": 1632
@@ -534,7 +552,7 @@ db.insert(db.countries.BR, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 613
 , "Mercedes-Benz": 538
 , "Audi": 407
-, "other": 5904
+, "other": 986
 });
 
 db.insert(db.countries.BR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_05_02.pdf",
@@ -568,6 +586,7 @@ db.insert(db.countries.BR, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 7493
 , "Nissan": 6449
 , "BYD": 5335
+, "Chery": 4965
 , "Citroën": 3078
 , "GWM": 2742
 , "Peugeot": 2416
@@ -578,7 +597,7 @@ db.insert(db.countries.BR, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Audi": 496
 , "Ford": 479
 , "Mercedes-Benz": 439
-, "other": 5998
+, "other": 1033
 });
 
 db.insert(db.countries.BR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_06_02.pdf",
@@ -612,6 +631,7 @@ db.insert(db.countries.BR, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 8400
 , "Nissan": 7875
 , "BYD": 6082
+, "Chery": 5347
 , "GWM": 3184
 , "Citroën": 3087
 , "Peugeot": 2407
@@ -622,7 +642,7 @@ db.insert(db.countries.BR, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 642
 , "Porsche": 633
 , "Audi": 492
-, "other": 6679
+, "other": 1332
 });
 
 db.insert(db.countries.BR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_07_02.pdf",
@@ -656,6 +676,7 @@ db.insert(db.countries.BR, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 8477
 , "Nissan": 6712
 , "BYD": 6707
+, "Chery": 5338
 , "Citroën": 3020
 , "GWM": 2494
 , "Peugeot": 2281
@@ -666,7 +687,7 @@ db.insert(db.countries.BR, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 598
 , "Audi": 495
 , "Mercedes-Benz": 480
-, "other": 6411
+, "other": 1073
 });
 
 db.insert(db.countries.BR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_08_02.pdf",
@@ -699,6 +720,7 @@ db.insert(db.countries.BR, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 8691
 , "Nissan": 7065
 , "BYD": 5961
+, "Chery": 5551
 , "Citroën": 2573
 , "Peugeot": 2266
 , "GWM": 2259
@@ -709,7 +731,7 @@ db.insert(db.countries.BR, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Volvo": 614
 , "Porsche": 575
 , "Audi": 414
-, "other": 6616
+, "other": 1065
 });
 
 db.insert(db.countries.BR, "2024-09", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_09_02.pdf",
@@ -743,6 +765,7 @@ db.insert(db.countries.BR, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 9957
 , "Nissan": 8032
 , "BYD": 7258
+, "Chery": 6197
 , "Citroën": 3094
 , "GWM": 2784
 , "Peugeot": 2663
@@ -753,7 +776,7 @@ db.insert(db.countries.BR, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 741
 , "Audi": 520
 , "Porsche": 512
-, "other": 7184
+, "other": 987
 });
 
 db.insert(db.countries.BR, "2024-10", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_10_02.pdf",
@@ -787,6 +810,7 @@ db.insert(db.countries.BR, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 8755
 , "BYD": 7999
 , "Nissan": 5519
+, "Chery": 5334
 , "Citroën": 3190
 , "GWM": 2646
 , "Peugeot": 2520
@@ -797,7 +821,7 @@ db.insert(db.countries.BR, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Audi": 552
 , "Mercedes-Benz": 546
 , "Porsche": 405
-, "other": 6423
+, "other": 1089
 });
 
 db.insert(db.countries.BR, "2024-11", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_11_02.pdf",
@@ -831,6 +855,7 @@ db.insert(db.countries.BR, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 9970
 , "Honda": 9036
 , "Nissan": 6287
+, "Chery": 5198
 , "GWM": 3122
 , "Citroën": 2998
 , "Peugeot": 2870
@@ -841,7 +866,7 @@ db.insert(db.countries.BR, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 742
 , "Audi": 656
 , "Porsche": 506
-, "other": 6492
+, "other": 1294
 });
 
 db.insert(db.countries.BR, "2024-12", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_12_02.pdf",
@@ -875,6 +900,7 @@ db.insert(db.countries.BR, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 6487
 , "Renault": 5842
 , "Nissan": 5789
+, "Chery": 4686
 , "Citroën": 2677
 , "GWM": 2590
 , "Peugeot": 2192
@@ -885,7 +911,7 @@ db.insert(db.countries.BR, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 558
 , "Porsche": 458
 , "Audi": 406
-, "other": 5716
+, "other": 1030
 });
 
 db.insert(db.countries.BR, "2025-01", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_01_02.pdf",
@@ -918,6 +944,7 @@ db.insert(db.countries.BR, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Renault": 7991
 , "BYD": 6963
 , "Nissan": 4716
+, "Chery": 4161
 , "Citroën": 3193
 , "GWM": 2010
 , "Peugeot": 1785
@@ -928,7 +955,7 @@ db.insert(db.countries.BR, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 654
 , "Audi": 409
 , "Porsche": 402
-, "other": 5076
+, "other": 915
 });
 
 db.insert(db.countries.BR, "2025-02", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_02_02.pdf",
@@ -962,6 +989,7 @@ db.insert(db.countries.BR, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Jeep": 8170
 , "BYD": 7942
 , "Nissan": 5932
+, "Chery": 3872
 , "Citroën": 3273
 , "GWM": 2093
 , "Peugeot": 1517
@@ -972,7 +1000,7 @@ db.insert(db.countries.BR, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 579
 , "Porsche": 558
 , "Audi": 512
-, "other": 4864
+, "other": 992
 });
 
 db.insert(db.countries.BR, "2025-03", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_03_02.pdf",
@@ -1006,6 +1034,7 @@ db.insert(db.countries.BR, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Honda": 8298
 , "Renault": 6772
 , "Nissan": 5078
+, "Chery": 4643
 , "Citroën": 3612
 , "GWM": 2331
 , "Peugeot": 1685
@@ -1016,7 +1045,7 @@ db.insert(db.countries.BR, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Ford": 486
 , "Porsche": 468
 , "Audi": 398
-, "other": 5675
+, "other": 1032
 });
 
 db.insert(db.countries.BR, "2025-04", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_04_02.pdf",
@@ -1048,6 +1077,7 @@ db.insert(db.countries.BR, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 9300
 , "Honda": 9260
 , "Renault": 8128
+, "Chery": 6152
 , "Nissan": 4710
 , "GWM": 3217
 , "Citroën": 3116
@@ -1059,7 +1089,7 @@ db.insert(db.countries.BR, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Porsche": 456
 , "Audi": 329
 , "Jaecoo": 275
-, "other": 7420
+, "other": 1268
 });
 
 db.insert(db.countries.BR, "2025-05", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_05_02.pdf",
@@ -1093,6 +1123,7 @@ db.insert(db.countries.BR, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 8077
 , "Renault": 7998
 , "Nissan": 4867
+, "Chery": 4742
 , "Citroën": 3349
 , "GWM": 3021
 , "Peugeot": 1666
@@ -1103,7 +1134,7 @@ db.insert(db.countries.BR, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Ford": 500
 , "Porsche": 469
 , "Jaecoo": 381
-, "other": 6181
+, "other": 1439
 });
 
 db.insert(db.countries.BR, "2025-06", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_06_02.pdf",
@@ -1135,6 +1166,7 @@ db.insert(db.countries.BR, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Nissan": 7672
 , "Honda": 7433
 , "Renault": 6912
+, "Chery": 6722
 , "GWM": 3932
 , "Citroën": 3246
 , "Peugeot": 1809
@@ -1144,7 +1176,7 @@ db.insert(db.countries.BR, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mercedes-Benz": 743
 , "Volvo": 731
 , "Jaecoo": 620
-, "other": 9291
+, "other": 2569
 });
 
 db.insert(db.countries.BR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_07_02.pdf",
@@ -1176,6 +1208,7 @@ db.insert(db.countries.BR, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Jeep": 9043
 , "Renault": 8327
 , "Honda": 7473
+, "Chery": 6750
 , "Nissan": 5819
 , "GWM": 3825
 , "Citroën": 2344
@@ -1186,7 +1219,7 @@ db.insert(db.countries.BR, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Volvo": 812
 , "Mercedes-Benz": 720
 , "Jaecoo": 635
-, "other": 9239
+, "other": 2489
 });
 
 db.insert(db.countries.BR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_08_02.pdf",
@@ -1217,6 +1250,7 @@ db.insert(db.countries.BR, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BYD": 9934
 , "Renault": 8995
 , "Honda": 7982
+, "Chery": 7366
 , "Nissan": 7335
 , "GWM": 3965
 , "Citroën": 2495
@@ -1226,7 +1260,7 @@ db.insert(db.countries.BR, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1263
 , "Volvo": 902
 , "Mercedes-Benz": 857
-, "other": 10908
+, "other": 3542
 });
 
 db.insert(db.countries.BR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_09_02.pdf",
