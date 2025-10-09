@@ -829,7 +829,7 @@ function setGlobalChartOptions() {
   const bodyStyle = window.getComputedStyle(document.body);
   Chart.defaults.color = bodyStyle.color;
   Chart.defaults.font.family = bodyStyle.fontFamily;
-  Chart.defaults.animation.duration = 0;
+  Chart.defaults.animation = false;
   Chart.defaults.datasets.bar.categoryPercentage = 1;
   Chart.defaults.datasets.bar.barPercentage = 0.75;
   Chart.defaults.plugins.legend.position = "bottom";
@@ -839,6 +839,9 @@ function setGlobalChartOptions() {
   Chart.defaults.plugins.datalabels = {};
   Chart.defaults.plugins.datalabels.color = "white";
   Chart.defaults.elements.line.tension = 0.2;
+  Chart.defaults.interaction = {};
+  Chart.defaults.interaction.mode = "nearest";
+  Chart.defaults.interaction.intersect = true;
 }
 
 function renderChartView(chartConfig, chartData, chartDiv, isExport) {
