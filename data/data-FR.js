@@ -6133,3 +6133,62 @@ db.insert(db.countries.FR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BMW|i4": 271
 , "other": 6844
 });
+
+db.insert(db.countries.FR, "2025-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/10/Immatriculations-VPN_Septembre2025.pdf",
+{ "Renault": 23559
+, "Peugeot": 18873
+, "Dacia": 12154
+, "Citroën": 9812
+, "Volkswagen": 8975
+, "Toyota": 8564
+, "Tesla": 5584
+, "Škoda": 4628
+, "Audi": 4439
+, "Mercedes-Benz": 4345
+, "BMW": 4226
+, "MG": 3711
+, "Hyundai": 3238
+, "Ford": 3066
+, "Mini": 2920
+, "Opel": 2849
+, "Kia": 2204
+, "Nissan": 1994
+, "Cupra": 1876
+, "Fiat": 1819
+, "Suzuki": 1787
+, "Seat": 1376
+, "Volvo": 1160
+, "BYD": 1040
+, "Mazda": 868
+, "Jeep": 815
+, "Honda": 450
+, "Porsche": 272
+, "Xpeng": 183
+, "Smart": 52
+, "Mitsubishi": 47
+, "other": 3468
+});
+
+db.insert(db.countries.FR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/10/Immatriculations-mensuelles-par-energie_Septembre2025.pdf, https://cleantechnica.com/2025/10/05/evs-take-29-0-share-in-france-model-y-regains-lead/",
+{ "Tesla|Model Y": 4844
+, "Renault|5 E-Tech": 2537
+, "Renault|Scénic E-Tech": 1422
+, "Peugeot|e-208": 1167
+, "Citroën|ë-C3": 1089
+, "Škoda|Elroq": 954
+, "Renault|4 E-Tech": 927
+, "Dacia|Spring": 824
+, "Volkswagen|ID.3": 794
+, "BMW|iX1": 744
+, "Tesla|Model 3": 738
+, "Renault|Megane E-Tech": 693
+, "Audi|Q4 e-tron": 614
+, "Volkswagen|ID.4": 601
+, "Mini|Aceman": 562
+, "Hyundai|Inster": 557
+, "Mini|Countryman Electric": 536
+, "Mini|Cooper SE": 516
+, "Mercedes-Benz|EQA": 445
+, "Peugeot|e-2008": 442
+, "other": 10433
+});
