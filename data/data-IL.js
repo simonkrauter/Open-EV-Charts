@@ -42,8 +42,9 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.ar
 , "Polestar": 41
 , "GWM": 26
 , "JAC": 17
+, "Lynk & Co": 9
 , "Jaguar": 6
-, "other": 1317
+, "other": 1308
 });
 
 db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://web.archive.org/web/20240128024645/https://www.car-importers.org.il/assets/files/644116755993531.pdf",
@@ -101,13 +102,14 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 128
 , "Jeep": 91
 , "Land Rover": 54
+, "Lynk & Co": 47
 , "Fiat": 43
 , "Porsche": 24
 , "Mini": 21
 , "Polestar": 16
 , "JAC": 7
 , "Jaguar": 4
-, "other": 1080
+, "other": 1033
 });
 
 db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/23651678272447.pdf",
@@ -166,6 +168,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 105
 , "Chevrolet": 94
 , "Dacia": 77
+, "Lynk & Co": 56
 , "Land Rover": 52
 , "Fiat": 43
 , "Honda": 38
@@ -173,7 +176,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 28
 , "Polestar": 6
 , "JAC": 4
-, "other": 909
+, "other": 853
 });
 
 db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/326816805189251.pdf",
@@ -234,13 +237,14 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Tesla": 72
 , "Jeep": 67
 , "Land Rover": 67
+, "Lynk & Co": 35
 , "Fiat": 28
 , "JAC": 28
 , "Honda": 26
 , "Porsche": 26
 , "Mini": 19
 , "Polestar": 5
-, "other": 581
+, "other": 546
 });
 
 db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/751116831977051.pdf",
@@ -300,12 +304,13 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 76
 , "Isuzu": 75
 , "Land Rover": 49
+, "Lynk & Co": 40
 , "Mini": 33
 , "Porsche": 30
 , "Honda": 27
 , "JAC": 23
 , "Polestar": 12
-, "other": 652
+, "other": 612
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/309416859610941.pdf",
@@ -365,13 +370,14 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 94
 , "GWM": 89
 , "Honda": 72
+, "Lynk & Co": 43
 , "Fiat": 42
 , "Land Rover": 36
 , "Mini": 28
 , "JAC": 21
 , "Porsche": 20
 , "Polestar": 8
-, "other": 540
+, "other": 497
 });
 
 db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/617716883718491.pdf",
@@ -433,12 +439,13 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 70
 , "Polestar": 56
 , "Land Rover": 36
+, "Lynk & Co": 33
 , "Mini": 24
 , "JAC": 19
 , "Porsche": 17
 , "Jaguar": 3
 , "Tesla": 3
-, "other": 524
+, "other": 491
 });
 
 db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/653516913149411.pdf",
@@ -498,6 +505,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 126
 , "Volvo": 93
 , "Jeep": 89
+, "Lynk & Co": 72
 , "Isuzu": 62
 , "Polestar": 49
 , "Honda": 35
@@ -506,7 +514,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 22
 , "Porsche": 17
 , "Jaguar": 3
-, "other": 666
+, "other": 594
 });
 
 db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/687816939129561.pdf",
@@ -567,11 +575,12 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 48
 , "Polestar": 31
 , "Land Rover": 29
+, "Lynk & Co": 28
 , "Honda": 24
 , "Mini": 24
 , "Porsche": 15
 , "JAC": 6
-, "other": 604
+, "other": 576
 });
 
 db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/831416962410501.pdf",
@@ -630,6 +639,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BMW": 33
 , "Land Rover": 29
 , "Fiat": 26
+, "Lynk & Co": 18
 , "Honda": 17
 , "Jeep": 16
 , "Xpeng": 16
@@ -638,7 +648,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 10
 , "Polestar": 4
 , "Jaguar": 2
-, "other": 367
+, "other": 349
 });
 
 db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/7416991771411.pdf",
@@ -703,13 +713,14 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 27
 , "Jeep": 24
 , "Land Rover": 17
+, "Lynk & Co": 14
 , "Polestar": 8
 , "Mini": 7
 , "Xpeng": 7
 , "Smart": 5
 , "JAC": 4
 , "Porsche": 3
-, "other": 337
+, "other": 323
 });
 
 db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/610317016925111.pdf",
@@ -768,6 +779,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 10
 , "JAC": 10
 , "Jeep": 9
+, "Lynk & Co": 9
 , "Mercedes-Benz": 9
 , "Seat": 9
 , "Fiat": 8
@@ -779,7 +791,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Zeekr": 3
 , "Jaguar": 1
 , "Mini": 1
-, "other": 240
+, "other": 231
 });
 
 db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/215417041983101.pdf",
@@ -840,6 +852,7 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 224
 , "Volvo": 220
 , "Dacia": 214
+, "Lynk & Co": 145
 , "Polestar": 132
 , "Opel": 129
 , "Jeep": 110
@@ -850,7 +863,7 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Zeekr": 20
 , "JAC": 13
 , "Tesla": 7
-, "other": 1578
+, "other": 1433
 });
 
 db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/437717070468111.pdf",
@@ -916,6 +929,7 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 117
 , "Dacia": 107
 , "Jeep": 98
+, "Lynk & Co": 93
 , "JAC": 90
 , "Fiat": 66
 , "Land Rover": 50
@@ -924,7 +938,7 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Polestar": 22
 , "Smart": 9
 , "Porsche": 4
-, "other": 968
+, "other": 875
 });
 
 db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/305417095384681.pdf",
@@ -998,7 +1012,8 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 30
 , "Honda": 13
 , "Porsche": 13
-, "other": 711
+, "Lynk & Co": 11
+, "other": 700
 });
 
 db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/140517121420331.pdf",
@@ -1065,10 +1080,11 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 58
 , "Mini": 24
 , "Porsche": 21
+, "Lynk & Co": 19
 , "Land Rover": 14
 , "Fiat": 7
 , "Honda": 4
-, "other": 1007
+, "other": 988
 });
 
 db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/94617149106541.pdf",
@@ -1132,10 +1148,11 @@ db.insert(db.countries.IL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 52
 , "Mini": 37
 , "Land Rover": 34
+, "Lynk & Co": 13
 , "Porsche": 7
 , "Fiat": 6
 , "Honda": 6
-, "other": 863
+, "other": 850
 });
 
 db.insert(db.countries.IL, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/145817175891671.pdf",
@@ -1202,10 +1219,11 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 44
 , "Land Rover": 38
 , "Jeep": 33
+, "Lynk & Co": 15
 , "Porsche": 9
 , "Honda": 6
 , "Jaguar": 3
-, "other": 538
+, "other": 523
 });
 
 db.insert(db.countries.IL, "2024-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/795717200857721.pdf",
@@ -1274,8 +1292,9 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jaecoo": 22
 , "Honda": 21
 , "Land Rover": 19
+, "Lynk & Co": 14
 , "Porsche": 8
-, "other": 808
+, "other": 794
 });
 
 db.insert(db.countries.IL, "2024-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/349717227689771.pdf",
@@ -1345,8 +1364,9 @@ db.insert(db.countries.IL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 34
 , "Mini": 23
 , "Porsche": 17
+, "Lynk & Co": 5
 , "Jaguar": 4
-, "other": 558
+, "other": 553
 });
 
 db.insert(db.countries.IL, "2024-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/793517253652401.pdf",
@@ -1401,6 +1421,7 @@ db.insert(db.countries.IL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 143
 , "Mercedes-Benz": 128
 , "Opel": 115
+, "Lynk & Co": 104
 , "Ford": 97
 , "Cupra": 87
 , "Dacia": 85
@@ -1414,7 +1435,7 @@ db.insert(db.countries.IL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 35
 , "Renault": 17
 , "Porsche": 4
-, "other": 794
+, "other": 690
 });
 
 db.insert(db.countries.IL, "2024-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/667417282178281.pdf",
@@ -1482,7 +1503,8 @@ db.insert(db.countries.IL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 19
 , "Cupra": 10
 , "JAC": 6
-, "other": 433
+, "Lynk & Co": 2
+, "other": 431
 });
 
 db.insert(db.countries.IL, "2024-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/720217308898631.pdf",
@@ -1553,9 +1575,10 @@ db.insert(db.countries.IL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Ford": 31
 , "Porsche": 16
 , "Mini": 14
+, "Lynk & Co": 13
 , "JAC": 7
 , "Cupra": 3
-, "other": 549
+, "other": 536
 });
 
 db.insert(db.countries.IL, "2024-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/80417333012671.pdf",
@@ -1576,10 +1599,11 @@ db.insert(db.countries.IL, "2024-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 17
 , "Porsche": 16
 , "BMW": 14
+, "Lynk & Co": 10
 , "JAC": 7
 , "Mini": 5
 , "Jeep": 4
-, "other": 187
+, "other": 177
 });
 
 db.insert(db.countries.IL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/39541736164619.pdf",
@@ -1617,6 +1641,7 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 25
 , "JAC": 23
 , "Honda": 22
+, "Lynk & Co": 22
 , "Fiat": 19
 , "Porsche": 17
 , "Ford": 11
@@ -1624,7 +1649,7 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Seat": 8
 , "Mini": 5
 , "Cupra": 2
-, "other": 725
+, "other": 703
 });
 
 db.insert(db.countries.IL, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/395417361646191.pdf",
@@ -1644,11 +1669,12 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 23
 , "Audi": 18
 , "Porsche": 15
+, "Lynk & Co": 10
 , "Subaru": 7
 , "Citroën": 6
 , "Mercedes-Benz": 5
 , "Kia": 3
-, "other": 498
+, "other": 488
 });
 
 db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/21931738582328.pdf",
@@ -1667,6 +1693,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Nissan": 910
 , "Xpeng": 901
 , "Suzuki": 860
+, "Lynk & Co": 850
 , "BMW": 783
 , "Volkswagen": 595
 , "Citroën": 563
@@ -1694,12 +1721,13 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 44
 , "Nio": 44
 , "Tesla": 11
-, "other": 2864
+, "other": 2014
 });
 
 db.insert(db.countries.IL, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/219317385823281.pdf",
 { "BYD": 1945
 , "Xpeng": 901
+, "Lynk & Co": 850
 , "Chery": 601
 , "Geely": 312
 , "Zeekr": 290
@@ -1722,7 +1750,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mercedes-Benz": 8
 , "Peugeot": 8
 , "Kia": 5
-, "other": 1987
+, "other": 1137
 });
 
 db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/12791741004957.pdf",
@@ -1746,6 +1774,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "MG": 279
 , "Zeekr": 266
 , "Volvo": 264
+, "Lynk & Co": 225
 , "Renault": 224
 , "BMW": 201
 , "Geely": 183
@@ -1767,7 +1796,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 24
 , "Porsche": 16
 , "Tesla": 6
-, "other": 1544
+, "other": 1319
 });
 
 db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/127917410049571.pdf",
@@ -1775,6 +1804,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BYD": 441
 , "Chery": 333
 , "Zeekr": 266
+, "Lynk & Co": 225
 , "Geely": 183
 , "Volvo": 156
 , "Hyundai": 143
@@ -1792,7 +1822,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 6
 , "Mini": 4
 , "Kia": 3
-, "other": 945
+, "other": 720
 });
 
 db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/89711743926222.pdf",
@@ -1819,6 +1849,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Subaru": 290
 , "Volkswagen": 290
 , "BMW": 288
+, "Lynk & Co": 201
 , "Zeekr": 195
 , "Renault": 170
 , "Peugeot": 168
@@ -1838,7 +1869,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Ford": 22
 , "Nio": 17
 , "Porsche": 13
-, "other": 1554
+, "other": 1353
 });
 
 db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/897117439262221.pdf",
@@ -1848,6 +1879,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BYD": 420
 , "Geely": 359
 , "Chery": 271
+, "Lynk & Co": 201
 , "Volvo": 201
 , "Zeekr": 195
 , "BMW": 113
@@ -1862,7 +1894,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 16
 , "Jeep": 11
 , "Porsche": 4
-, "other": 1060
+, "other": 859
 });
 
 db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/38361746450664.pdf",
@@ -1888,6 +1920,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Audi": 220
 , "Geely": 191
 , "Citroën": 156
+, "Lynk & Co": 156
 , "Renault": 155
 , "Cupra": 111
 , "Mercedes-Benz": 111
@@ -1907,7 +1940,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 17
 , "Ford": 12
 , "Porsche": 8
-, "other": 1115
+, "other": 959
 });
 
 db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/383617464506641.pdf",
@@ -1916,6 +1949,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BYD": 409
 , "Chery": 278
 , "Geely": 191
+, "Lynk & Co": 156
 , "BMW": 127
 , "Zeekr": 111
 , "Hyundai": 85
@@ -1930,7 +1964,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 9
 , "Porsche": 6
 , "Peugeot": 3
-, "other": 717
+, "other": 561
 });
 
 db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/53341748948934.pdf",
@@ -1961,6 +1995,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 180
 , "Mercedes-Benz": 154
 , "Renault": 139
+, "Lynk & Co": 123
 , "Cupra": 116
 , "Zeekr": 110
 , "Jeep": 89
@@ -1976,7 +2011,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 31
 , "Porsche": 22
 , "BAIC": 4
-, "other": 1232
+, "other": 1109
 });
 
 db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/533417489489341.pdf",
@@ -1985,6 +2020,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Geely": 473
 , "Tesla": 459
 , "Chery": 192
+, "Lynk & Co": 123
 , "BMW": 121
 , "Volvo": 110
 , "Zeekr": 110
@@ -1998,7 +2034,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Porsche": 10
 , "Cupra": 9
 , "Jeep": 4
-, "other": 763
+, "other": 640
 });
 
 db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/64171751526464.pdf",
@@ -2023,6 +2059,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Suzuki": 186
 , "Renault": 165
 , "Cupra": 158
+, "Lynk & Co": 142
 , "BMW": 112
 , "Audi": 103
 , "Isuzu": 93
@@ -2043,7 +2080,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "JAC": 16
 , "Porsche": 14
 , "GWM": 13
-, "other": 939
+, "other": 797
 });
 
 db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/641717515264641.pdf",
@@ -2051,6 +2088,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BYD": 515
 , "Xpeng": 423
 , "Geely": 282
+, "Lynk & Co": 142
 , "Chery": 112
 , "Zeekr": 83
 , "Hyundai": 41
@@ -2066,7 +2104,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Jeep": 2
 , "MG": 2
 , "Volvo": 2
-, "other": 640
+, "other": 498
 });
 
 db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/19771754381842.pdf",
@@ -2096,6 +2134,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Audi": 150
 , "Nissan": 143
 , "Isuzu": 138
+, "Lynk & Co": 123
 , "Zeekr": 120
 , "Volvo": 115
 , "Cupra": 105
@@ -2112,7 +2151,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 25
 , "GWM": 23
 , "BAIC": 5
-, "other": 1293
+, "other": 1170
 });
 
 db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/197717543818421.pdf",
@@ -2122,6 +2161,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Xpeng": 395
 , "Chery": 232
 , "Hyundai": 192
+, "Lynk & Co": 123
 , "Zeekr": 120
 , "Smart": 55
 , "JAC": 44
@@ -2137,7 +2177,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BAIC": 5
 , "Jeep": 3
 , "Mercedes-Benz": 2
-, "other": 803
+, "other": 680
 });
 
 db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/67701756882628.pdf",
@@ -2171,6 +2211,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 189
 , "Cupra": 156
 , "Dacia": 151
+, "Lynk & Co": 105
 , "Ford": 81
 , "Chevrolet": 67
 , "Isuzu": 66
@@ -2183,7 +2224,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 26
 , "Porsche": 19
 , "GWM": 17
-, "other": 3011
+, "other": 2906
 });
 
 db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/677017568826281.pdf",
@@ -2196,6 +2237,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 201
 , "BMW": 169
 , "Volkswagen": 108
+, "Lynk & Co": 104
 , "Audi": 95
 , "Hyundai": 91
 , "Volvo": 52
@@ -2206,7 +2248,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "GWM": 17
 , "Jaecoo": 11
 , "Porsche": 8
-, "other": 2655
+, "other": 2551
 });
 
 db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/59071759414523.pdf",
@@ -2218,6 +2260,7 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Hyundai": 1957
 , "Škoda": 1421
 , "Tesla": 1285
+, "Lynk & Co": 741
 , "MG": 529
 , "Renault": 510
 , "Seat": 446
@@ -2252,13 +2295,14 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 31
 , "Porsche": 15
 , "GWM": 4
-, "other": 4963
+, "other": 4222
 });
 
 db.insert(db.countries.IL, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/590717594145231.pdf",
 { "Chery": 2119
 , "BYD": 1747
 , "Tesla": 1285
+, "Lynk & Co": 732
 , "Xpeng": 423
 , "Geely": 296
 , "Zeekr": 200
@@ -2275,5 +2319,5 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 14
 , "Jaecoo": 9
 , "Porsche": 6
-, "other": 4568
+, "other": 3836
 });
