@@ -207,6 +207,7 @@ const companyGroups = {
     ],
   "Geely Holding Group":
     [ "Geely"
+    , "Lynk & Co"
     , "Polestar"
     , "Volvo"
     , "Zeekr"
