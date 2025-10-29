@@ -6546,3 +6546,98 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 1
 , "other": 96
 });
+
+db.insert(db.countries.FI, "2025-09", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/10/September-2025.xlsx",
+{ "Toyota": 924
+, "Tesla": 608
+, "Volkswagen": 525
+, "Škoda": 514
+, "Kia": 426
+, "Volvo": 409
+, "Mercedes-Benz": 353
+, "BMW": 310
+, "Ford": 235
+, "Nissan": 210
+, "Audi": 182
+, "Polestar": 133
+, "Hyundai": 122
+, "Citroën": 112
+, "BYD": 99
+, "Dacia": 87
+, "Mazda": 77
+, "Suzuki": 73
+, "Renault": 67
+, "MG": 49
+, "Mitsubishi": 46
+, "Cupra": 40
+, "Land Rover": 38
+, "Peugeot": 38
+, "Subaru": 33
+, "Mini": 30
+, "Porsche": 27
+, "Opel": 26
+, "Seat": 6
+, "other": 197
+});
+
+db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+{ "Tesla|Model Y": 513
+, "Škoda|Elroq": 151
+, "Volkswagen|ID.4": 125
+, "Volkswagen|ID.7": 110
+, "Škoda|Enyaq": 109
+, "Kia|EV3": 104
+, "Tesla|Model 3": 95
+, "Citroën|ë-C4": 82
+, "Volvo|EX40": 78
+, "BMW|i4": 64
+, "Mercedes-Benz|CLA EV": 64
+, "Ford|Explorer EV": 63
+, "Mercedes-Benz|EQB": 55
+, "Audi|Q4 e-tron": 47
+, "Mercedes-Benz|EQA": 46
+, "Volvo|EC40": 46
+, "BYD|Sealion 7": 36
+, "Audi|Q6 e-tron": 35
+, "Ford|Capri EV": 35
+, "BMW|iX1": 34
+, "Citroën|ë-C3": 30
+, "Mini|Cooper SE": 30
+, "Smart|Hashtag 5": 29
+, "Volvo|EX30": 29
+, "Kia|EV6": 25
+, "BYD|Seal": 23
+, "Volvo|EX90": 22
+, "BMW|i5": 21
+, "Hyundai|Inster": 21
+, "Porsche|Macan Electric": 21
+, "Volkswagen|ID.3": 21
+, "Hyundai|Kona Electric": 18
+, "Mazda|EZ-6 BEV": 18
+, "Hyundai|Ioniq 5": 17
+, "Audi|A6 e-tron": 16
+, "BMW|iX": 16
+, "Ford|Puma Gen-E": 16
+, "Cupra|Tavascan": 15
+, "Ford|Mustang Mach-E": 14
+, "Mercedes-Benz|EQE": 14
+, "Renault|Scénic E-Tech": 14
+, "Kia|EV9": 13
+, "Kia|Niro EV": 13
+, "BMW|iX2": 11
+, "BYD|Tang EV": 11
+, "Cupra|Born": 11
+, "Nissan|Ariya": 11
+, "BYD|Dolphin": 9
+, "Subaru|Solterra": 8
+, "Peugeot|E-3008": 7
+, "Mercedes-Benz|other": 11
+, "Xpeng|other": 8
+, "Toyota|other": 7
+, "BYD|other": 5
+, "Porsche|other": 4
+, "Peugeot|other": 3
+, "Hyundai|other": 2
+, "Kia|other": 2
+, "other": 133
+});
