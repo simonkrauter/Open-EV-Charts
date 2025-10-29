@@ -837,3 +837,11 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 161
 , "other": 26122
 });
+
+db.insert(db.countries.US, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
+{ "other": 4102998
+});
+
+db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
+{ "other": 418516
+});
