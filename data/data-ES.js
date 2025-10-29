@@ -7268,3 +7268,79 @@ db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 4
 , "other": 357
 });
+
+db.insert(db.countries.ES, "2025-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
+{ "other": 85167
+});
+
+db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/9 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
+{ "Tesla|Model 3": 1978
+, "Tesla|Model Y": 1017
+, "BYD|Dolphin": 547
+, "Kia|EV3": 529
+, "BYD|Seal": 416
+, "BYD|Yuan Up": 410
+, "Mini|Cooper SE": 304
+, "BYD|Yuan Plus": 269
+, "Renault|5 E-Tech": 252
+, "Hyundai|Inster": 233
+, "Škoda|Elroq": 225
+, "Toyota|bZ4X": 223
+, "Jeep|Avenger EV": 200
+, "Ford|Capri EV": 164
+, "Hyundai|Kona Electric": 160
+, "BMW|iX1": 157
+, "BMW|iX2": 127
+, "Dacia|Spring": 123
+, "Audi|Q4 e-tron": 120
+, "BYD|Sealion 7": 117
+, "Volkswagen|ID.3": 111
+, "Citroën|ë-C3": 108
+, "Hyundai|Ioniq 5": 104
+, "Mercedes-Benz|CLA EV": 97
+, "Ford|Puma Gen-E": 89
+, "Kia|EV4": 87
+, "Mercedes-Benz|EQA": 87
+, "Xpeng|G6": 78
+, "Volkswagen|ID.4": 74
+, "Ford|Explorer EV": 73
+, "Volvo|EX30": 72
+, "Porsche|Macan Electric": 70
+, "Mercedes-Benz|EQE": 62
+, "MG|4 EV": 57
+, "Nissan|Ariya": 57
+, "Polestar|2": 53
+, "Mazda|EZ-6 BEV": 46
+, "Opel|Frontera Electric": 46
+, "Peugeot|e-2008": 46
+, "Peugeot|e-208": 45
+, "Škoda|Enyaq": 44
+, "Cupra|Tavascan": 43
+, "MG|S5 EV": 43
+, "Cupra|Born": 40
+, "Polestar|4": 33
+, "Volvo|EX40": 29
+, "Mercedes-Benz|EQB": 28
+, "Audi|Q6 e-tron": 24
+, "Peugeot|E-3008": 24
+, "BMW|i4": 23
+, "Renault|4 E-Tech": 23
+, "Renault|Scénic E-Tech": 23
+, "Fiat|other": 36
+, "Smart|other": 35
+, "Peugeot|other": 25
+, "Citroën|other": 19
+, "Kia|other": 19
+, "Ford|other": 18
+, "Volkswagen|other": 18
+, "BMW|other": 16
+, "Renault|other": 14
+, "Audi|other": 13
+, "Opel|other": 12
+, "Xpeng|other": 11
+, "Mercedes-Benz|other": 8
+, "Volvo|other": 7
+, "Polestar|other": 6
+, "Porsche|other": 6
+, "other": 437
+});
