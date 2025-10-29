@@ -4158,3 +4158,81 @@ db.insert(db.countries.DK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 5
 , "other": 38
 });
+
+db.insert(db.countries.DK, "2025-09", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 17779
+});
+
+db.insert(db.countries.DK, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/9, https://www.statistikbanken.dk/bil51",
+{ "Tesla|Model Y": 1850
+, "Škoda|Elroq": 1056
+, "Škoda|Enyaq": 799
+, "Volkswagen|ID.4": 737
+, "Volkswagen|ID. Buzz": 609
+, "Renault|5 E-Tech": 504
+, "BMW|iX1": 414
+, "Volkswagen|ID.3": 379
+, "Renault|Scénic E-Tech": 337
+, "Mercedes-Benz|EQA": 290
+, "Volkswagen|ID.7": 281
+, "Tesla|Model 3": 261
+, "Cupra|Tavascan": 243
+, "Audi|Q4 e-tron": 234
+, "Cupra|Born": 210
+, "Citroën|ë-C3": 192
+, "Kia|EV3": 168
+, "Renault|Megane E-Tech": 157
+, "Nissan|Ariya": 152
+, "Hyundai|Ioniq 5": 143
+, "Mercedes-Benz|EQB": 143
+, "Peugeot|e-2008": 142
+, "BMW|i5": 140
+, "Ford|Explorer EV": 140
+, "Renault|Master E-Tech": 139
+, "Xpeng|G6": 139
+, "Volvo|EX40": 135
+, "BMW|i4": 124
+, "Ford|E-Transit": 112
+, "Audi|Q6 e-tron": 108
+, "Mercedes-Benz|EQE": 103
+, "Hyundai|Ioniq 6": 101
+, "Toyota|bZ4X": 99
+, "Volkswagen|ID.5": 99
+, "Hyundai|Inster": 97
+, "Zeekr|7X": 96
+, "Renault|4 E-Tech": 93
+, "Opel|Grandland Electric": 91
+, "Peugeot|e-208": 86
+, "Kia|EV6": 82
+, "Ford|Puma Gen-E": 80
+, "Peugeot|E-3008": 74
+, "Ford|Capri EV": 71
+, "Polestar|4": 71
+, "Toyota|Proace Electric": 70
+, "Hyundai|Kona Electric": 69
+, "Volkswagen|e-Transporter": 68
+, "MG|4 EV": 67
+, "BYD|Dolphin": 59
+, "MG|S5 EV": 59
+, "BYD|other": 151
+, "BMW|other": 116
+, "Volvo|other": 97
+, "Opel|other": 82
+, "Peugeot|other": 69
+, "Mercedes-Benz|other": 65
+, "Polestar|other": 59
+, "Mazda|other": 51
+, "Audi|other": 51
+, "Mini|other": 42
+, "Toyota|other": 32
+, "Porsche|other": 31
+, "Hyundai|other": 28
+, "Kia|other": 23
+, "Xpeng|other": 21
+, "Honda|other": 17
+, "Citroën|other": 16
+, "Renault|other": 14
+, "Ford|other": 11
+, "Zeekr|other": 8
+, "other": 36
+});
