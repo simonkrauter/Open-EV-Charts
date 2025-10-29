@@ -8384,7 +8384,7 @@ db.insert(db.countries.NL, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Seal": 48
 , "Opel|other": 113
 , "Peugeot|other": 75
-, "Citroën|other": 59
+, "Citroën|other": 60
 , "BYD|other": 57
 , "Mercedes-Benz|other": 56
 , "Zeekr|other": 49
@@ -8406,7 +8406,7 @@ db.insert(db.countries.NL, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 9
 , "Toyota|other": 8
 , "Porsche|other": 5
-, "other": 41
+, "other": 40
 });
 
 db.insert(db.countries.NL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/augustus/",
@@ -8451,7 +8451,7 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 db.insert(db.countries.NL, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/8, https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
 { "Škoda|Elroq": 730
 , "Kia|EV3": 451
-, "Tesla|Model Y": 438
+, "Tesla|Model Y": 439
 , "Hyundai|Inster": 411
 , "Mini|Cooper SE": 403
 , "Renault|5 E-Tech": 391
@@ -8508,21 +8508,21 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 41
 , "Mazda|other": 40
 , "Renault|other": 40
+, "Kia|other": 39
 , "Hyundai|other": 38
 , "Fiat|other": 37
 , "Ford|other": 36
-, "Kia|other": 34
 , "MG|other": 32
 , "BMW|other": 28
 , "Mercedes-Benz|other": 28
 , "Smart|other": 28
 , "Volvo|other": 21
 , "Audi|other": 20
+, "Citroën|other": 18
 , "Nio|other": 18
-, "Citroën|other": 16
 , "Polestar|other": 10
 , "Porsche|other": 8
 , "Nissan|other": 7
 , "Tesla|other": 6
-, "other": 272
+, "other": 264
 });
