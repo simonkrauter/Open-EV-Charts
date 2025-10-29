@@ -6522,6 +6522,7 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 12
 , "Ford|Puma Gen-E": 10
 , "Kia|Niro EV": 10
+, "Mercedes-Benz|CLA EV": 10
 , "BYD|Dolphin": 9
 , "BYD|Tang EV": 9
 , "Cupra|Tavascan": 9
@@ -6529,7 +6530,7 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 8
 , "BMW|i5": 7
 , "Cupra|Born": 5
-, "Peugeot|E-5008": 4
+, "Peugeot|other": 4
 , "BYD|other": 3
 , "Ford|other": 3
 , "Mercedes-Benz|other": 3
@@ -6543,5 +6544,5 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "MG|other": 1
 , "Porsche|other": 1
-, "other": 106
+, "other": 96
 });
