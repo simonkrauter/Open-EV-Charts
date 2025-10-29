@@ -6649,7 +6649,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model 3": 234
 , "Tesla|Model Y": 182
 , "Fiat|Grande Panda Electric": 169
-, "BYD|Seagull": 154
+, "BYD|Dolphin": 156
 , "Volvo|EX30": 152
 , "BMW|iX1": 140
 , "Hyundai|Inster": 138
@@ -6706,10 +6706,10 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 7
 , "Volvo|other": 7
 , "Škoda|other": 7
-, "BYD|other": 5
 , "MG|other": 5
 , "Polestar|other": 5
 , "Audi|other": 4
+, "BYD|other": 3
 , "Mazda|other": 3
 , "Nissan|other": 3
 , "Renault|other": 3
