@@ -1186,8 +1186,8 @@ db.insert(db.countries.CN, "2022-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Aion|S": 6864
 , "GWM|Ora 03": 8519
 , "Xpeng|P7": 6397
-, "Geely|Geometry A": 5286
-, "Geely|Geometry E": 5171
+, "Geometry|G6": 5286
+, "Geometry|E": 5171
 , "Zeekr|001": 5022
 , "Volkswagen|ID.6": 4832
 , "Volkswagen|ID.3": 4611
@@ -1231,7 +1231,7 @@ db.insert(db.countries.CN, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chery|QQ Ice Cream": 8650
 , "Zeekr|001": 8276
 , "BYD|Seal": 7473
-, "Geely|Geometry A": 7293
+, "Geometry|G6": 7293
 , "other": 233650
 });
 
@@ -1821,7 +1821,7 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 18231
 , "Changan|Lumin": 17040
 , "Geely|Panda Mini EV": 15616
-, "Geely|Xingyuan": 15130
+, "Geometry|Xingyuan": 15130
 , "Zeekr|7X": 11643
 , "Xpeng|Mona M03": 10203
 , "Volkswagen|ID.3": 9998
@@ -1842,7 +1842,7 @@ db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Plus": 26400
 , "Xiaomi|SU7": 23156
 , "BYD|Yuan Up": 21391
-, "Geely|Xingyuan": 20038
+, "Geometry|Xingyuan": 20038
 , "Geely|Panda Mini EV": 19027
 , "BYD|Song EV": 9236
 , "BYD|Han EV": 9013
@@ -1867,7 +1867,7 @@ db.insert(db.countries.CN, "2024-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Plus": 23048
 , "Tesla|Model 3": 21046
 , "BYD|Yuan Up": 18552
-, "Geely|Xingyuan": 16491
+, "Geometry|Xingyuan": 16491
 , "Xpeng|Mona M03": 15877
 , "BYD|Dolphin": 14439
 , "BYD|Han EV": 8853
@@ -1880,7 +1880,7 @@ db.insert(db.countries.CN, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/02/19/geely-xiaomi-shine-in-china-january-ev-sales-report/",
-{ "Geely|Xingyuan": 28146
+{ "Geometry|Xingyuan": 28146
 , "Tesla|Model Y": 25694
 , "Wuling|Hongguang Mini EV": 24924
 , "Xiaomi|SU7": 22897
@@ -1899,7 +1899,7 @@ db.insert(db.countries.CN, "2025-02", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-02", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/03/19/50-plugin-vehicle-market-share-in-china-february-2025-sales-report/",
-{ "Geely|Xingyuan": 28588
+{ "Geometry|Xingyuan": 28588
 , "BYD|Seagull": 26958
 , "Xiaomi|SU7": 23728
 , "Wuling|Hongguang Mini EV": 22065
@@ -1925,7 +1925,7 @@ db.insert(db.countries.CN, "2025-03", db.dsTypes.ElectricCarsByModel, "https://c
 { "Tesla|Model Y": 48189
 , "Wuling|Hongguang Mini EV": 39957
 , "BYD|Seagull": 33965
-, "Geely|Xingyuan": 32481
+, "Geometry|Xingyuan": 32481
 , "Xiaomi|SU7": 29244
 , "Tesla|Model 3": 25938
 , "BYD|Yuan Plus": 20179
@@ -1945,7 +1945,7 @@ db.insert(db.countries.CN, "2025-04", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-04", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/05/19/geely-xingyuan-takes-top-spot-in-china-april-2025-sales-report/",
-{ "Geely|Xingyuan": 36119
+{ "Geometry|Xingyuan": 36119
 , "BYD|Seagull": 34931
 , "Wuling|Hongguang Mini EV": 28990
 , "Xiaomi|SU7": 28585
@@ -1967,7 +1967,7 @@ db.insert(db.countries.CN, "2025-05", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/06/20/53-ev-share-in-china-may-2025-sales-report/",
-{ "Geely|Xingyuan": 38715
+{ "Geometry|Xingyuan": 38715
 , "BYD|Seagull": 31105
 , "Wuling|Hongguang Mini EV": 29017
 , "Xiaomi|SU7": 28013
@@ -1990,7 +1990,7 @@ db.insert(db.countries.CN, "2025-06", db.dsTypes.AllCarsTotal, "https://cleantec
 
 db.insert(db.countries.CN, "2025-06", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/07/21/53-ev-share-in-china-june-2025-sales-report/",
 { "Tesla|Model Y": 44848
-, "Geely|Xingyuan": 40891
+, "Geometry|Xingyuan": 40891
 , "BYD|Seagull": 30708
 , "Wuling|Hongguang Mini EV": 26111
 , "Xiaomi|SU7": 23225
@@ -2014,7 +2014,7 @@ db.insert(db.countries.CN, "2025-07", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/08/22/have-we-reached-peak-byd-and-peak-phev-july-2025-china-ev-sales-report/",
-{ "Geely|Xingyuan": 44274
+{ "Geometry|Xingyuan": 44274
 , "Tesla|Model Y": 30766
 , "Wuling|Hongguang Mini EV": 27337
 , "Xiaomi|SU7": 24410
@@ -2040,7 +2040,7 @@ db.insert(db.countries.CN, "2025-08", db.dsTypes.AllCarsTotal, "https://cleantec
 });
 
 db.insert(db.countries.CN, "2025-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/09/20/byd-down-21-phevs-down-7-yoy-august-2025-china-ev-sales-report/",
-{ "Geely|Xingyuan": 46057
+{ "Geometry|Xingyuan": 46057
 , "Tesla|Model Y": 39413
 , "Wuling|Hongguang Mini EV": 37828
 , "BYD|Seagull": 23031
@@ -2067,7 +2067,7 @@ db.insert(db.countries.CN, "2025-09", db.dsTypes.AllCarsTotal, "https://cleantec
 db.insert(db.countries.CN, "2025-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/10/30/bevs-up-29-yoy-phevs-down-3-yoy-september-2025-china-ev-sales-report/",
 { "Wuling|Hongguang Mini EV": 51743
 , "Tesla|Model Y": 51173
-, "Geely|Xingyuan": 48080
+, "Geometry|Xingyuan": 48080
 , "BYD|Yuan Up": 25919
 , "BYD|Seagull": 25272
 , "Changan|Lumin": 23188
