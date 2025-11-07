@@ -842,6 +842,49 @@ db.insert(db.countries.US, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.
 { "other": 4102998
 });
 
-db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
-{ "other": 418516
+db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf, https://cleantechnica.com/2025/11/05/top-selling-electric-vehicles-in-usas-blockbuster-3rd-quarter-plus-the-losers/",
+{ "Tesla|Model Y": 114897
+, "Tesla|Model 3": 53857
+, "Chevrolet|Equinox EV": 25085
+, "Honda|Prologue": 22236
+, "Hyundai|Ioniq 5": 21999
+, "Ford|Mustang Mach-E": 20177
+, "Audi|Q6 e-tron": 13831
+, "Volkswagen|ID.4": 12470
+, "Ford|F-150 Lightning": 10005
+, "Chevrolet|Blazer EV": 8089
+, "Kia|EV9": 7510
+, "Tesla|Cybertruck": 5385
+, "Kia|EV6": 5202
+, "Jeep|Wagoneer S": 4163
+, "Chevrolet|Silverado EV": 3940
+, "BMW|i4": 3870
+, "Tesla|Model X": 3592
+, "Audi|Q4 e-tron": 3546
+, "Subaru|Solterra": 3471
+, "Nissan|Ariya": 3210
+, "Hyundai|Ioniq 9": 3164
+, "BMW|iX": 3136
+, "Toyota|bZ4X": 3015
+, "Hyundai|Ioniq 6": 2810
+, "BMW|i5": 2557
+, "Kia|Niro EV": 2473
+, "Volkswagen|ID. Buzz": 2469
+, "Porsche|Macan Electric": 2451
+, "Mercedes-Benz|EQB": 2185
+, "Volvo|EX30": 1899
+, "Mercedes-Benz|EQE": 1794
+, "Tesla|Model S": 1794
+, "Porsche|Taycan": 1196
+, "Mercedes-Benz|G-Class EV": 1100
+, "Volvo|EX90": 950
+, "Hyundai|Kona Electric": 787
+, "BMW|i7": 731
+, "Nissan|Leaf": 724
+, "Audi|e-tron GT": 652
+, "Mercedes-Benz|EQS": 574
+, "Ford|E-Transit": 430
+, "Mercedes-Benz|eSprinter": 320
+, "Fiat|500e": 288
+, "other": 34482
 });
