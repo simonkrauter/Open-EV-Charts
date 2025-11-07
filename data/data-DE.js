@@ -8099,8 +8099,9 @@ db.insert(db.countries.DE, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Xpeng": 162
 , "GWM": 110
 , "Jaguar": 35
+, "Lynk & Co": 29
 , "Nio": 25
-, "other": 3786
+, "other": 3757
 });
 
 db.insert(db.countries.DE, "2025-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_02.xlsx?__blob=publicationFile&v=3",
@@ -8446,7 +8447,8 @@ db.insert(db.countries.DE, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 240
 , "GWM": 189
 , "Xpeng": 186
-, "other": 4201
+, "Lynk & Co": 158
+, "other": 4043
 });
 
 db.insert(db.countries.DE, "2025-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_05.xlsx?__blob=publicationFile&v=4",
@@ -8561,8 +8563,9 @@ db.insert(db.countries.DE, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 517
 , "Subaru": 487
 , "Smart": 338
+, "Lynk & Co": 273
 , "Xpeng": 240
-, "other": 4517
+, "other": 4244
 });
 
 db.insert(db.countries.DE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_06.xlsx?__blob=publicationFile&v=3",
@@ -8799,9 +8802,10 @@ db.insert(db.countries.DE, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 321
 , "Xpeng": 283
 , "GWM": 42
+, "Lynk & Co": 35
 , "Nio": 23
 , "Chery": 22
-, "other": 4379
+, "other": 4344
 });
 
 db.insert(db.countries.DE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_08.xlsx?__blob=publicationFile&v=2",
@@ -8918,7 +8922,8 @@ db.insert(db.countries.DE, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 339
 , "Xpeng": 241
 , "GWM": 69
-, "other": 3857
+, "Lynk & Co": 45
+, "other": 3812
 });
 
 db.insert(db.countries.DE, "2025-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_09.xlsx?__blob=publicationFile&v=2",
