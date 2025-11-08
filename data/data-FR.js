@@ -4052,12 +4052,13 @@ db.insert(db.countries.FR, "2023-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jeep": 429
 , "Cupra": 387
 , "Land Rover": 361
+, "Lynk & Co": 283
 , "Honda": 267
 , "Mitsubishi": 207
 , "Porsche": 184
 , "Smart": 82
 , "Jaguar": 27
-, "other": 3019
+, "other": 2736
 });
 
 db.insert(db.countries.FR, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/1",
@@ -4130,12 +4131,13 @@ db.insert(db.countries.FR, "2023-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mazda": 538
 , "Land Rover": 428
 , "Jeep": 390
+, "Lynk & Co": 268
 , "Honda": 246
 , "Porsche": 232
 , "Mitsubishi": 210
 , "Smart": 65
 , "Jaguar": 62
-, "other": 2955
+, "other": 2687
 });
 
 db.insert(db.countries.FR, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/2",
@@ -4208,10 +4210,11 @@ db.insert(db.countries.FR, "2023-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jeep": 427
 , "Honda": 407
 , "Porsche": 338
+, "Lynk & Co": 294
 , "Mitsubishi": 172
 , "Jaguar": 132
 , "Smart": 109
-, "other": 3728
+, "other": 3434
 });
 
 db.insert(db.countries.FR, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/3",
@@ -4286,9 +4289,10 @@ db.insert(db.countries.FR, "2023-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 294
 , "Jeep": 286
 , "Honda": 211
+, "Lynk & Co": 196
 , "Smart": 91
 , "Jaguar": 62
-, "other": 3142
+, "other": 2946
 });
 
 db.insert(db.countries.FR, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/4",
@@ -4360,13 +4364,14 @@ db.insert(db.countries.FR, "2023-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Volvo": 1181
 , "Jeep": 762
 , "Mazda": 690
+, "Lynk & Co": 568
 , "Land Rover": 522
 , "Honda": 241
 , "Porsche": 221
 , "Mitsubishi": 149
 , "Smart": 90
 , "Jaguar": 66
-, "other": 3874
+, "other": 3306
 });
 
 db.insert(db.countries.FR, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/5",
@@ -4438,12 +4443,13 @@ db.insert(db.countries.FR, "2023-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mazda": 1294
 , "Jeep": 1134
 , "Land Rover": 659
+, "Lynk & Co": 594
 , "Honda": 381
 , "Porsche": 364
 , "Mitsubishi": 350
 , "Jaguar": 132
 , "Smart": 91
-, "other": 5181
+, "other": 4587
 });
 
 db.insert(db.countries.FR, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/6",
@@ -4513,12 +4519,13 @@ db.insert(db.countries.FR, "2023-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Land Rover": 723
 , "Mazda": 608
 , "Jeep": 569
+, "Lynk & Co": 320
 , "Honda": 310
 , "Smart": 292
 , "Mitsubishi": 183
 , "Porsche": 146
 , "Jaguar": 97
-, "other": 3224
+, "other": 2904
 });
 
 db.insert(db.countries.FR, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/7",
@@ -4594,9 +4601,10 @@ db.insert(db.countries.FR, "2023-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 279
 , "Smart": 270
 , "Mitsubishi": 184
+, "Lynk & Co": 136
 , "Porsche": 110
 , "Jaguar": 55
-, "other": 2844
+, "other": 2708
 });
 
 db.insert(db.countries.FR, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/8",
@@ -4671,8 +4679,9 @@ db.insert(db.countries.FR, "2023-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 269
 , "Mitsubishi": 203
 , "Smart": 169
+, "Lynk & Co": 129
 , "Jaguar": 119
-, "other": 3660
+, "other": 3531
 });
 
 db.insert(db.countries.FR, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/9",
@@ -4748,10 +4757,11 @@ db.insert(db.countries.FR, "2023-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mazda": 626
 , "Honda": 615
 , "Land Rover": 522
+, "Lynk & Co": 279
 , "Smart": 267
 , "Mitsubishi": 248
 , "Jaguar": 81
-, "other": 3379
+, "other": 3100
 });
 
 db.insert(db.countries.FR, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/10",
@@ -4826,8 +4836,9 @@ db.insert(db.countries.FR, "2023-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 272
 , "Smart": 248
 , "Porsche": 216
+, "Lynk & Co": 181
 , "Jaguar": 70
-, "other": 3258
+, "other": 3077
 });
 
 db.insert(db.countries.FR, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/11",
@@ -4904,7 +4915,8 @@ db.insert(db.countries.FR, "2023-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 250
 , "Mitsubishi": 191
 , "Jaguar": 105
-, "other": 4331
+, "Lynk & Co": 59
+, "other": 4272
 });
 
 db.insert(db.countries.FR, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2023/12",
@@ -4981,8 +4993,9 @@ db.insert(db.countries.FR, "2024-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 342
 , "Honda": 319
 , "Mitsubishi": 291
+, "Lynk & Co": 130
 , "Jaguar": 32
-, "other": 3275
+, "other": 3145
 });
 
 db.insert(db.countries.FR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2024/02/06/evs-take-25-0-share-in-france-peugeot-e-208-leads/",
@@ -5041,8 +5054,9 @@ db.insert(db.countries.FR, "2024-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "BYD": 363
 , "Mitsubishi": 246
 , "Smart": 192
+, "Lynk & Co": 46
 , "Jaguar": 41
-, "other": 3275
+, "other": 3229
 });
 
 db.insert(db.countries.FR, "2024-02", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/03/Immatriculations-mensuelles-par-energie_Fevrier-2024.pdf, https://cleantechnica.com/2024/03/09/evs-at-26-3-share-in-france-peugeot-e-208-leading/",
@@ -5101,8 +5115,9 @@ db.insert(db.countries.FR, "2024-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 309
 , "BYD": 206
 , "Smart": 146
+, "Lynk & Co": 49
 , "Jaguar": 38
-, "other": 3701
+, "other": 3652
 });
 
 db.insert(db.countries.FR, "2024-03", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/04/Immatriculations-mensuelles-par-energie_Mars-2024.pdf, https://cleantechnica.com/2024/04/08/evs-take-27-9-share-in-france-the-peugeot-e-208-is-still-on-top/",
@@ -5161,8 +5176,9 @@ db.insert(db.countries.FR, "2024-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 259
 , "BYD": 205
 , "Smart": 151
+, "Lynk & Co": 97
 , "Jaguar": 33
-, "other": 2805
+, "other": 2708
 });
 
 db.insert(db.countries.FR, "2024-04", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/05/Immatriculations-mensuelles-par-energie_Avril2024.pdf, https://cleantechnica.com/2024/05/05/evs-at-24-3-share-in-france-bevs-grow-volume-45-yoy/",
@@ -5222,7 +5238,8 @@ db.insert(db.countries.FR, "2024-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 130
 , "BYD": 129
 , "Jaguar": 32
-, "other": 2753
+, "Lynk & Co": 26
+, "other": 2727
 });
 
 db.insert(db.countries.FR, "2024-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/06/Immatriculations-mensuelles-par-energie_Mai2024.pdf, https://cleantechnica.com/2024/06/09/evs-take-24-1-share-in-france-popular-bevs-hit-by-incentive-stop/",
@@ -5281,8 +5298,9 @@ db.insert(db.countries.FR, "2024-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "BYD": 383
 , "Honda": 304
 , "Smart": 122
+, "Lynk & Co": 88
 , "Jaguar": 42
-, "other": 4313
+, "other": 4225
 });
 
 db.insert(db.countries.FR, "2024-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/07/Immatriculations-mensuelles-par-energie_Juin2024.pdf, https://cleantechnica.com/2024/07/02/evs-at-24-1-share-in-france-down-yoy-as-trade-barriers-kick-in/",
@@ -5341,8 +5359,9 @@ db.insert(db.countries.FR, "2024-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "BYD": 275
 , "Mitsubishi": 271
 , "Smart": 109
+, "Lynk & Co": 41
 , "Jaguar": 40
-, "other": 2604
+, "other": 2563
 });
 
 db.insert(db.countries.FR, "2024-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/08/Immatriculations-mensuelles-par-energie_Juillet2024.pdf, https://cleantechnica.com/2024/08/04/evs-take-20-8-share-in-france-citroen-e-c3-delayed/",
@@ -5402,7 +5421,8 @@ db.insert(db.countries.FR, "2024-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 88
 , "Mitsubishi": 58
 , "Jaguar": 25
-, "other": 1686
+, "Lynk & Co": 10
+, "other": 1676
 });
 
 db.insert(db.countries.FR, "2024-08", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2024/09/Immatriculations-mensuelles-par-energie_Aout2024.pdf, https://cleantechnica.com/2024/09/03/evs-at-22-4-share-in-france-stuck-in-the-slow-lane/",
@@ -5700,7 +5720,8 @@ db.insert(db.countries.FR, "2025-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 279
 , "Smart": 134
 , "Mitsubishi": 86
-, "other": 3438
+, "Lynk & Co": 13
+, "other": 3425
 });
 
 db.insert(db.countries.FR, "2025-01", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/02/Immatriculations-mensuelles-par-energie_Janvier-2025.pdf, https://cleantechnica.com/2025/02/04/evs-take-21-6-share-in-france-renault-5-back-in-the-lead/",
@@ -5874,7 +5895,8 @@ db.insert(db.countries.FR, "2025-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Xpeng": 298
 , "Mitsubishi": 130
 , "Smart": 83
-, "other": 3431
+, "Lynk & Co": 16
+, "other": 3415
 });
 
 db.insert(db.countries.FR, "2025-04", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/05/Immatriculations-mensuelles-par-energie_Avril2025.pdf, https://cleantechnica.com/2025/05/04/evs-at-25-3-share-in-france-renault-top-two/",
@@ -5929,9 +5951,10 @@ db.insert(db.countries.FR, "2025-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 362
 , "Porsche": 273
 , "Xpeng": 255
+, "Lynk & Co": 194
 , "Mitsubishi": 92
 , "Smart": 47
-, "other": 3140
+, "other": 2946
 });
 
 db.insert(db.countries.FR, "2025-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/06/Immatriculations-mensuelles-par-energie_Mai2025.pdf, https://cleantechnica.com/2025/06/03/evs-take-22-3-share-in-france-byd-dolphin-surf-arrives-in-showrooms/",
@@ -5988,9 +6011,10 @@ db.insert(db.countries.FR, "2025-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 475
 , "Xpeng": 391
 , "Honda": 389
+, "Lynk & Co": 368
 , "Mitsubishi": 335
 , "Smart": 98
-, "other": 4287
+, "other": 3919
 });
 
 db.insert(db.countries.FR, "2025-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/06/Immatriculations-mensuelles-par-energie_Juin2025.pdf, https://cleantechnica.com/2025/07/06/evs-at-24-0-share-in-france-tesla-model-y-tops-chart/",
@@ -6048,7 +6072,8 @@ db.insert(db.countries.FR, "2025-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Xpeng": 338
 , "Porsche": 270
 , "Smart": 66
-, "other": 2790
+, "Lynk & Co": 17
+, "other": 2773
 });
 
 db.insert(db.countries.FR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/08/Immatriculations-mensuelles-par-energie_Juillet2025.pdf, https://cleantechnica.com/2025/08/03/evs-take-24-0-share-in-france-hyundai-inster-arrives/",
@@ -6107,7 +6132,8 @@ db.insert(db.countries.FR, "2025-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 128
 , "Smart": 38
 , "Mitsubishi": 31
-, "other": 1895
+, "Lynk & Co": 17
+, "other": 1878
 });
 
 db.insert(db.countries.FR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/09/Immatriculations-mensuelles-par-energie_Aout2025.pdf, https://cleantechnica.com/2025/09/03/evs-at-26-0-share-in-france-renault-5-consolidates-lead/",
@@ -6166,7 +6192,8 @@ db.insert(db.countries.FR, "2025-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Xpeng": 183
 , "Smart": 52
 , "Mitsubishi": 47
-, "other": 3468
+, "Lynk & Co": 21
+, "other": 3447
 });
 
 db.insert(db.countries.FR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/10/Immatriculations-mensuelles-par-energie_Septembre2025.pdf, https://cleantechnica.com/2025/10/05/evs-take-29-0-share-in-france-model-y-regains-lead/",
