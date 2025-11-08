@@ -6219,3 +6219,62 @@ db.insert(db.countries.FR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Peugeot|e-2008": 442
 , "other": 10433
 });
+
+db.insert(db.countries.FR, "2025-10", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/11/Immatriculations-VPN_Octobre2025.pdf",
+{ "Renault": 24882
+, "Peugeot": 18791
+, "Dacia": 10946
+, "Citroën": 10006
+, "Volkswagen": 9708
+, "Toyota": 9306
+, "Škoda": 4580
+, "BMW": 4466
+, "Audi": 4340
+, "Hyundai": 3900
+, "Mercedes-Benz": 3676
+, "Kia": 3250
+, "MG": 3046
+, "Ford": 2862
+, "Nissan": 2571
+, "Opel": 2529
+, "Mini": 2342
+, "Cupra": 2339
+, "Fiat": 2136
+, "Suzuki": 1998
+, "Tesla": 1782
+, "Volvo": 1509
+, "Seat": 1415
+, "BYD": 1020
+, "Jeep": 780
+, "Mazda": 505
+, "Honda": 443
+, "Porsche": 353
+, "Xpeng": 342
+, "Smart": 95
+, "Mitsubishi": 71
+, "other": 3525
+});
+
+db.insert(db.countries.FR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/11/Immatriculations-mensuelles-par-energie_Octobre2025.pdf, https://cleantechnica.com/2025/11/07/evs-at-31-1-share-in-france-social-leasing-boost/",
+{ "Renault|5 E-Tech": 4551
+, "Peugeot|e-208": 2436
+, "Renault|Scénic E-Tech": 1670
+, "Tesla|Model Y": 1660
+, "Peugeot|e-2008": 1630
+, "Citroën|ë-C3": 1391
+, "Renault|4 E-Tech": 1201
+, "Renault|Megane E-Tech": 1166
+, "Škoda|Elroq": 891
+, "BMW|iX1": 812
+, "Citroën|ë-C3 Aircross": 680
+, "Volkswagen|ID.3": 670
+, "Volkswagen|ID.4": 669
+, "Cupra|Born": 657
+, "Hyundai|Inster": 574
+, "Fiat|500e": 562
+, "Mini|Aceman": 537
+, "Audi|Q4 e-tron": 475
+, "Mini|Cooper SE": 439
+, "Audi|Q6 e-tron": 437
+, "other": 11000
+});
