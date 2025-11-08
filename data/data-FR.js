@@ -644,7 +644,7 @@ db.insert(db.countries.FR, "2018-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 230
 , "Tesla": 192
 , "Subaru": 19
-, "other": 3125
+, "other": 3021
 });
 
 db.insert(db.countries.FR, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2018/12",
@@ -1170,7 +1170,7 @@ db.insert(db.countries.FR, "2019-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 306
 , "Jaguar": 272
 , "Smart": 234
-, "other": 3135
+, "other": 2978
 });
 
 db.insert(db.countries.FR, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2019/9",
@@ -1469,7 +1469,7 @@ db.insert(db.countries.FR, "2020-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 270
 , "Smart": 118
 , "Subaru": 23
-, "other": 4465
+, "other": 4463
 });
 
 db.insert(db.countries.FR, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/2",
@@ -1535,7 +1535,7 @@ db.insert(db.countries.FR, "2020-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 113
 , "Smart": 55
 , "Jaguar": 31
-, "other": 1567
+, "other": 1575
 });
 
 db.insert(db.countries.FR, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/3",
@@ -1599,7 +1599,7 @@ db.insert(db.countries.FR, "2020-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Jaguar": 14
 , "Honda": 8
 , "Smart": 5
-, "other": 530
+, "other": 487
 });
 
 db.insert(db.countries.FR, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/4",
@@ -1645,7 +1645,7 @@ db.insert(db.countries.FR, "2020-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 210
 , "Smart": 75
 , "Jaguar": 73
-, "other": 1694
+, "other": 1684
 });
 
 db.insert(db.countries.FR, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/5",
@@ -1708,7 +1708,7 @@ db.insert(db.countries.FR, "2020-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Honda": 521
 , "Smart": 233
 , "Jaguar": 152
-, "other": 3622
+, "other": 3620
 });
 
 db.insert(db.countries.FR, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/6",
@@ -1774,7 +1774,7 @@ db.insert(db.countries.FR, "2020-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 174
 , "Tesla": 148
 , "Jaguar": 125
-, "other": 3575
+, "other": 3573
 });
 
 db.insert(db.countries.FR, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/7",
@@ -1841,7 +1841,7 @@ db.insert(db.countries.FR, "2020-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 121
 , "Jaguar": 77
 , "Subaru": 12
-, "other": 1600
+, "other": 1598
 });
 
 db.insert(db.countries.FR, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/8",
@@ -1908,7 +1908,7 @@ db.insert(db.countries.FR, "2020-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 272
 , "Smart": 180
 , "Jaguar": 66
-, "other": 2496
+, "other": 2495
 });
 
 db.insert(db.countries.FR, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/9",
@@ -1976,7 +1976,7 @@ db.insert(db.countries.FR, "2020-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 192
 , "Tesla": 107
 , "Jaguar": 84
-, "other": 3096
+, "other": 3094
 });
 
 db.insert(db.countries.FR, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/10",
@@ -2044,7 +2044,7 @@ db.insert(db.countries.FR, "2020-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 221
 , "Mitsubishi": 201
 , "Jaguar": 51
-, "other": 3007
+, "other": 3005
 });
 
 db.insert(db.countries.FR, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/11",
@@ -2117,7 +2117,7 @@ db.insert(db.countries.FR, "2020-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Smart": 241
 , "Jaguar": 239
 , "Subaru": 33
-, "other": 4692
+, "other": 4690
 });
 
 db.insert(db.countries.FR, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2020/12",
@@ -2263,7 +2263,7 @@ db.insert(db.countries.FR, "2021-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 128
 , "Jaguar": 106
 , "Smart": 88
-, "other": 2575
+, "other": 2574
 });
 
 db.insert(db.countries.FR, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2021/2",
@@ -3460,7 +3460,7 @@ db.insert(db.countries.FR, "2022-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Tesla": 152
 , "Smart": 117
 , "Jaguar": 100
-, "other": 4350
+, "other": 4337
 });
 
 db.insert(db.countries.FR, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/5",
@@ -3759,7 +3759,7 @@ db.insert(db.countries.FR, "2022-09", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 206
 , "Smart": 142
 , "Jaguar": 106
-, "other": 5127
+, "other": 5114
 });
 
 db.insert(db.countries.FR, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/9",
@@ -3831,7 +3831,7 @@ db.insert(db.countries.FR, "2022-10", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 190
 , "Jaguar": 101
 , "Smart": 96
-, "other": 4698
+, "other": 4680
 });
 
 db.insert(db.countries.FR, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/10",
@@ -3903,7 +3903,7 @@ db.insert(db.countries.FR, "2022-11", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 248
 , "Smart": 142
 , "Jaguar": 64
-, "other": 5858
+, "other": 5840
 });
 
 db.insert(db.countries.FR, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/11",
@@ -3980,7 +3980,7 @@ db.insert(db.countries.FR, "2022-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 192
 , "Smart": 138
 , "Jaguar": 67
-, "other": 7841
+, "other": 7823
 });
 
 db.insert(db.countries.FR, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FR/Brands/Month/2022/12",
@@ -5700,7 +5700,7 @@ db.insert(db.countries.FR, "2025-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Porsche": 279
 , "Smart": 134
 , "Mitsubishi": 86
-, "other": 3358
+, "other": 3438
 });
 
 db.insert(db.countries.FR, "2025-01", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/02/Immatriculations-mensuelles-par-energie_Janvier-2025.pdf, https://cleantechnica.com/2025/02/04/evs-take-21-6-share-in-france-renault-5-back-in-the-lead/",
