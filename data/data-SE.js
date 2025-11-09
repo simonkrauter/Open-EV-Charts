@@ -5206,13 +5206,14 @@ db.insert(db.countries.SE, "2024-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "BYD": 63
 , "Mitsubishi": 58
 , "Land Rover": 57
+, "Lynk & Co": 45
 , "Xpeng": 36
 , "GWM": 29
 , "Fiat": 24
 , "Jaguar": 6
 , "Nio": 3
 , "Chevrolet": 2
-, "other": 430
+, "other": 385
 });
 
 db.insert(db.countries.SE, "2024-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5306,6 +5307,7 @@ db.insert(db.countries.SE, "2024-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 125
 , "MG": 100
 , "Fiat": 84
+, "Lynk & Co": 80
 , "Mitsubishi": 79
 , "Land Rover": 61
 , "Mini": 61
@@ -5317,7 +5319,7 @@ db.insert(db.countries.SE, "2024-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 7
 , "Chevrolet": 3
 , "Jaguar": 3
-, "other": 444
+, "other": 364
 });
 
 db.insert(db.countries.SE, "2024-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5419,10 +5421,11 @@ db.insert(db.countries.SE, "2024-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 54
 , "Xpeng": 44
 , "Jaguar": 11
+, "Lynk & Co": 10
 , "GWM": 9
 , "Nio": 9
 , "Chevrolet": 4
-, "other": 347
+, "other": 337
 });
 
 db.insert(db.countries.SE, "2024-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5516,6 +5519,7 @@ db.insert(db.countries.SE, "2024-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nissan": 195
 , "Suzuki": 166
 , "Honda": 161
+, "Lynk & Co": 160
 , "Mini": 106
 , "BYD": 97
 , "Fiat": 64
@@ -5528,7 +5532,7 @@ db.insert(db.countries.SE, "2024-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 11
 , "Chevrolet": 5
 , "Jaguar": 4
-, "other": 757
+, "other": 597
 });
 
 db.insert(db.countries.SE, "2024-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5618,6 +5622,7 @@ db.insert(db.countries.SE, "2024-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Seat": 264
 , "Nissan": 245
 , "Opel": 234
+, "Lynk & Co": 209
 , "Fiat": 188
 , "Mazda": 177
 , "Suzuki": 162
@@ -5632,7 +5637,7 @@ db.insert(db.countries.SE, "2024-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 7
 , "GWM": 6
 , "Jaguar": 4
-, "other": 446
+, "other": 237
 });
 
 db.insert(db.countries.SE, "2024-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5728,6 +5733,7 @@ db.insert(db.countries.SE, "2024-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Porsche": 239
 , "Fiat": 210
 , "Mazda": 207
+, "Lynk & Co": 175
 , "Suzuki": 127
 , "Honda": 108
 , "BYD": 80
@@ -5742,7 +5748,7 @@ db.insert(db.countries.SE, "2024-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 7
 , "Nio": 7
 , "GWM": 6
-, "other": 418
+, "other": 243
 });
 
 db.insert(db.countries.SE, "2024-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5837,6 +5843,7 @@ db.insert(db.countries.SE, "2024-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Dacia": 131
 , "Citroën": 107
 , "Mazda": 106
+, "Lynk & Co": 81
 , "BYD": 79
 , "Suzuki": 72
 , "Zeekr": 60
@@ -5853,7 +5860,7 @@ db.insert(db.countries.SE, "2024-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Smart": 3
 , "Chevrolet": 2
 , "JAC": 2
-, "other": 289
+, "other": 208
 });
 
 db.insert(db.countries.SE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -5948,6 +5955,7 @@ db.insert(db.countries.SE, "2024-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Suzuki": 128
 , "Citroën": 100
 , "Mazda": 91
+, "Lynk & Co": 87
 , "Zeekr": 85
 , "Mini": 73
 , "Xpeng": 72
@@ -5962,7 +5970,7 @@ db.insert(db.countries.SE, "2024-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 5
 , "Smart": 4
 , "Jaguar": 2
-, "other": 321
+, "other": 234
 });
 
 db.insert(db.countries.SE, "2024-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6059,13 +6067,14 @@ db.insert(db.countries.SE, "2024-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Xpeng": 89
 , "Honda": 63
 , "Mitsubishi": 47
+, "Lynk & Co": 43
 , "BYD": 32
 , "Land Rover": 27
 , "Geely": 15
 , "Chevrolet": 5
 , "Smart": 5
 , "Nio": 4
-, "other": 282
+, "other": 239
 });
 
 db.insert(db.countries.SE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6162,6 +6171,7 @@ db.insert(db.countries.SE, "2024-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Mini": 92
 , "Honda": 72
 , "BYD": 65
+, "Lynk & Co": 36
 , "Land Rover": 28
 , "Mitsubishi": 25
 , "Nio": 11
@@ -6172,7 +6182,7 @@ db.insert(db.countries.SE, "2024-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Geely": 3
 , "Jaguar": 3
 , "Jeep": 3
-, "other": 340
+, "other": 304
 });
 
 db.insert(db.countries.SE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6270,6 +6280,7 @@ db.insert(db.countries.SE, "2024-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "MG": 106
 , "Suzuki": 105
 , "Fiat": 100
+, "Lynk & Co": 95
 , "Citroën": 83
 , "Honda": 72
 , "Xpeng": 68
@@ -6282,7 +6293,7 @@ db.insert(db.countries.SE, "2024-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Geely": 6
 , "Chevrolet": 5
 , "GWM": 4
-, "other": 364
+, "other": 269
 });
 
 db.insert(db.countries.SE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6383,13 +6394,14 @@ db.insert(db.countries.SE, "2024-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Honda": 67
 , "Mitsubishi": 65
 , "Land Rover": 43
+, "Lynk & Co": 29
 , "Jeep": 16
 , "Smart": 13
 , "Geely": 12
 , "GWM": 9
 , "Chevrolet": 6
 , "Jaguar": 4
-, "other": 344
+, "other": 315
 });
 
 db.insert(db.countries.SE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6488,6 +6500,7 @@ db.insert(db.countries.SE, "2025-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Land Rover": 48
 , "Honda": 46
 , "Suzuki": 44
+, "Lynk & Co": 38
 , "Mitsubishi": 21
 , "Jeep": 15
 , "Chevrolet": 7
@@ -6495,7 +6508,7 @@ db.insert(db.countries.SE, "2025-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nio": 4
 , "Geely": 3
 , "Smart": 3
-, "other": 279
+, "other": 241
 });
 
 db.insert(db.countries.SE, "2025-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6600,6 +6613,7 @@ db.insert(db.countries.SE, "2025-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 45
 , "Land Rover": 43
 , "Mitsubishi": 30
+, "Lynk & Co": 28
 , "Jeep": 9
 , "Subaru": 9
 , "Jaguar": 7
@@ -6607,7 +6621,7 @@ db.insert(db.countries.SE, "2025-02", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Geely": 5
 , "Smart": 5
 , "Nio": 3
-, "other": 240
+, "other": 212
 });
 
 db.insert(db.countries.SE, "2025-02", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6716,6 +6730,7 @@ db.insert(db.countries.SE, "2025-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Xpeng": 90
 , "MG": 77
 , "Land Rover": 52
+, "Lynk & Co": 29
 , "Subaru": 22
 , "Jaguar": 13
 , "Mitsubishi": 13
@@ -6724,7 +6739,7 @@ db.insert(db.countries.SE, "2025-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Nio": 5
 , "Jeep": 4
 , "Geely": 3
-, "other": 290
+, "other": 261
 });
 
 db.insert(db.countries.SE, "2025-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6828,13 +6843,14 @@ db.insert(db.countries.SE, "2025-04", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Zeekr": 82
 , "Citroën": 81
 , "Land Rover": 54
+, "Lynk & Co": 54
 , "BYD": 50
 , "Mitsubishi": 34
 , "Subaru": 34
 , "Jeep": 26
 , "Chevrolet": 7
 , "Smart": 5
-, "other": 296
+, "other": 242
 });
 
 db.insert(db.countries.SE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6918,6 +6934,7 @@ db.insert(db.countries.SE, "2025-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Tesla": 503
 , "Ford": 486
 , "Nissan": 365
+, "Lynk & Co": 362
 , "Renault": 360
 , "Fiat": 312
 , "Seat": 304
@@ -6941,7 +6958,7 @@ db.insert(db.countries.SE, "2025-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 7
 , "Jeep": 3
 , "Smart": 3
-, "other": 647
+, "other": 285
 });
 
 db.insert(db.countries.SE, "2025-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7038,6 +7055,7 @@ db.insert(db.countries.SE, "2025-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Zeekr": 155
 , "Mini": 121
 , "Suzuki": 101
+, "Lynk & Co": 82
 , "BYD": 81
 , "Xpeng": 72
 , "Honda": 70
@@ -7048,7 +7066,7 @@ db.insert(db.countries.SE, "2025-06", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 6
 , "Geely": 6
 , "Smart": 5
-, "other": 455
+, "other": 373
 });
 
 db.insert(db.countries.SE, "2025-06", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7143,6 +7161,7 @@ db.insert(db.countries.SE, "2025-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Zeekr": 114
 , "Mini": 112
 , "Suzuki": 103
+, "Lynk & Co": 101
 , "Citroën": 87
 , "Land Rover": 79
 , "Honda": 73
@@ -7156,7 +7175,7 @@ db.insert(db.countries.SE, "2025-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 7
 , "Smart": 6
 , "Jeep": 3
-, "other": 324
+, "other": 223
 });
 
 db.insert(db.countries.SE, "2025-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7254,6 +7273,7 @@ db.insert(db.countries.SE, "2025-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Citroën": 108
 , "Honda": 85
 , "BYD": 74
+, "Lynk & Co": 65
 , "Chevrolet": 54
 , "Xpeng": 49
 , "MG": 40
@@ -7264,7 +7284,7 @@ db.insert(db.countries.SE, "2025-08", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Geely": 12
 , "Subaru": 5
 , "JAC": 3
-, "other": 386
+, "other": 321
 });
 
 db.insert(db.countries.SE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7357,6 +7377,7 @@ db.insert(db.countries.SE, "2025-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Opel": 184
 , "Mini": 178
 , "Suzuki": 126
+, "Lynk & Co": 119
 , "Zeekr": 106
 , "Seat": 98
 , "Xpeng": 91
@@ -7371,7 +7392,7 @@ db.insert(db.countries.SE, "2025-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Chevrolet": 6
 , "Smart": 4
 , "Jeep": 3
-, "other": 458
+, "other": 339
 });
 
 db.insert(db.countries.SE, "2025-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
