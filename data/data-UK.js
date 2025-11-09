@@ -4930,13 +4930,13 @@ db.insert(db.countries.UK, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|other": 62
 , "Cupra|other": 60
 , "Xpeng|other": 55
+, "Citroën|other": 51
 , "Jeep|other": 49
-, "Citroën|other": 48
 , "Fiat|other": 44
 , "Smart|other": 34
 , "Nissan|other": 29
 , "Honda|other": 14
-, "other": 2838
+, "other": 2835
 });
 
 db.insert(db.countries.UK, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -5055,8 +5055,8 @@ db.insert(db.countries.UK, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "GWM|other": 177
 , "Fiat|other": 150
 , "Nissan|other": 114
+, "Citroën|other": 91
 , "Dacia|other": 74
-, "Citroën|other": 65
 , "Suzuki|other": 44
-, "other": 7459
+, "other": 7433
 });
