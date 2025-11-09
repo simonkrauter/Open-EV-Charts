@@ -3065,6 +3065,7 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 135
 , "Jeep": 93
 , "Polestar": 78
+, "Lynk & Co": 66
 , "Honda": 58
 , "MG": 49
 , "Tesla": 37
@@ -3072,7 +3073,7 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 31
 , "Cupra": 23
 , "Smart": 15
-, "other": 672
+, "other": 606
 });
 
 db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/4",
@@ -3146,6 +3147,7 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 202
 , "Land Rover": 149
 , "MG": 100
+, "Lynk & Co": 91
 , "Jeep": 71
 , "Polestar": 63
 , "Tesla": 63
@@ -3154,7 +3156,7 @@ db.insert(db.countries.NL, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 11
 , "Subaru": 11
 , "Cupra": 5
-, "other": 647
+, "other": 556
 });
 
 db.insert(db.countries.NL, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/5",
@@ -3223,7 +3225,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 576
 , "Fiat": 522
 , "Dacia": 478
-, "Tesla": 487
+, "Tesla": 474
 , "Mitsubishi": 421
 , "MG": 321
 , "Porsche": 139
@@ -3231,11 +3233,12 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 108
 , "Polestar": 67
 , "Honda": 51
+, "Lynk & Co": 39
 , "Jaguar": 19
 , "Cupra": 18
 , "Smart": 16
 , "Subaru": 14
-, "other": 503
+, "other": 475
 });
 
 db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/6",
@@ -3305,6 +3308,7 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Dacia": 448
 , "Fiat": 317
 , "Mitsubishi": 291
+, "Lynk & Co": 173
 , "Porsche": 143
 , "Jeep": 77
 , "Land Rover": 69
@@ -3316,7 +3320,7 @@ db.insert(db.countries.NL, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 14
 , "Subaru": 8
 , "Tesla": 3
-, "other": 618
+, "other": 445
 });
 
 db.insert(db.countries.NL, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/7",
@@ -3384,6 +3388,7 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 497
 , "Mini": 472
 , "Suzuki": 348
+, "Lynk & Co": 316
 , "Fiat": 262
 , "Mitsubishi": 245
 , "Dacia": 203
@@ -3398,7 +3403,7 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 9
 , "Smart": 7
 , "Subaru": 4
-, "other": 649
+, "other": 333
 });
 
 db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/8",
@@ -3465,6 +3470,7 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 794
 , "Tesla": 793
 , "Citroën": 619
+, "Lynk & Co": 573
 , "Nissan": 511
 , "Seat": 489
 , "Suzuki": 385
@@ -3482,7 +3488,7 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 12
 , "Jaguar": 7
 , "Subaru": 6
-, "other": 811
+, "other": 238
 });
 
 db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/9",
@@ -3551,6 +3557,7 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 998
 , "Mercedes-Benz": 751
 , "Citroën": 717
+, "Lynk & Co": 578
 , "Mazda": 505
 , "Seat": 416
 , "Mini": 381
@@ -3570,7 +3577,7 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 27
 , "Jaguar": 13
 , "Subaru": 8
-, "other": 812
+, "other": 234
 });
 
 db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/10",
@@ -3641,6 +3648,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 876
 , "Opel": 846
 , "Mercedes-Benz": 778
+, "Lynk & Co": 649
 , "Nissan": 531
 , "Seat": 475
 , "Fiat": 422
@@ -3660,7 +3668,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 31
 , "Jaguar": 9
 , "Subaru": 8
-, "other": 863
+, "other": 214
 });
 
 db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/11",
@@ -3736,6 +3744,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 1060
 , "Citroën": 1043
 , "Mercedes-Benz": 836
+, "Lynk & Co": 812
 , "Mini": 498
 , "Nissan": 476
 , "Fiat": 431
@@ -3752,7 +3761,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 24
 , "Jaguar": 5
 , "Subaru": 5
-, "other": 935
+, "other": 123
 });
 
 db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2021/12",
@@ -3830,6 +3839,7 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 465
 , "Mitsubishi": 383
 , "Fiat": 369
+, "Lynk & Co": 362
 , "Land Rover": 179
 , "Jeep": 144
 , "Honda": 113
@@ -3840,7 +3850,7 @@ db.insert(db.countries.NL, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 19
 , "Tesla": 9
 , "Cupra": 7
-, "other": 710
+, "other": 348
 });
 
 db.insert(db.countries.NL, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/1",
@@ -3914,6 +3924,7 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 502
 , "Mini": 464
 , "Suzuki": 422
+, "Lynk & Co": 369
 , "Fiat": 325
 , "Seat": 232
 , "Dacia": 204
@@ -3928,7 +3939,7 @@ db.insert(db.countries.NL, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 18
 , "Jaguar": 16
 , "Cupra": 8
-, "other": 672
+, "other": 303
 });
 
 db.insert(db.countries.NL, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/2",
@@ -4011,6 +4022,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 305
 , "Porsche": 247
 , "Dacia": 237
+, "Lynk & Co": 220
 , "Polestar": 180
 , "Mitsubishi": 146
 , "MG": 141
@@ -4021,7 +4033,7 @@ db.insert(db.countries.NL, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 15
 , "Smart": 15
 , "Subaru": 7
-, "other": 648
+, "other": 428
 });
 
 db.insert(db.countries.NL, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/3",
@@ -4093,6 +4105,7 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 817
 , "Renault": 751
 , "Citroën": 705
+, "Lynk & Co": 691
 , "Opel": 537
 , "Suzuki": 455
 , "Nissan": 427
@@ -4113,7 +4126,7 @@ db.insert(db.countries.NL, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 28
 , "Tesla": 23
 , "Subaru": 4
-, "other": 1160
+, "other": 469
 });
 
 db.insert(db.countries.NL, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/4",
@@ -4189,6 +4202,7 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 685
 , "Citroën": 622
 , "Fiat": 561
+, "Lynk & Co": 553
 , "Mini": 423
 , "Seat": 417
 , "Dacia": 366
@@ -4205,7 +4219,7 @@ db.insert(db.countries.NL, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 30
 , "Tesla": 16
 , "Smart": 11
-, "other": 1001
+, "other": 444
 });
 
 db.insert(db.countries.NL, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/5",
@@ -4292,13 +4306,14 @@ db.insert(db.countries.NL, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 276
 , "Polestar": 219
 , "Porsche": 173
+, "Lynk & Co": 165
 , "Land Rover": 143
 , "Honda": 103
 , "Jeep": 73
 , "Jaguar": 23
 , "Subaru": 14
 , "Smart": 13
-, "other": 622
+, "other": 457
 });
 
 db.insert(db.countries.NL, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/6",
@@ -4389,6 +4404,7 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 173
 , "Porsche": 170
 , "Land Rover": 128
+, "Lynk & Co": 124
 , "Tesla": 102
 , "Honda": 63
 , "Polestar": 62
@@ -4396,7 +4412,7 @@ db.insert(db.countries.NL, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 46
 , "Jaguar": 16
 , "Subaru": 4
-, "other": 498
+, "other": 374
 });
 
 db.insert(db.countries.NL, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/7",
@@ -4471,6 +4487,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 554
 , "Citroën": 519
 , "Fiat": 515
+, "Lynk & Co": 502
 , "Dacia": 489
 , "Seat": 467
 , "Nissan": 427
@@ -4486,7 +4503,7 @@ db.insert(db.countries.NL, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 36
 , "Jaguar": 14
 , "BYD": 4
-, "other": 778
+, "other": 276
 });
 
 db.insert(db.countries.NL, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/8",
@@ -4561,6 +4578,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Volvo": 1024
 , "Audi": 853
 , "Opel": 841
+, "Lynk & Co": 801
 , "Mazda": 729
 , "Tesla": 646
 , "Nissan": 512
@@ -4582,7 +4600,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 27
 , "Smart": 9
 , "Subaru": 3
-, "other": 1095
+, "other": 294
 });
 
 db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/9",
@@ -4661,6 +4679,7 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 936
 , "Mercedes-Benz": 856
 , "Nissan": 769
+, "Lynk & Co": 707
 , "Fiat": 687
 , "Citroën": 681
 , "Mazda": 621
@@ -4681,7 +4700,7 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 14
 , "BYD": 13
 , "Smart": 9
-, "other": 995
+, "other": 288
 });
 
 db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/10",
@@ -4760,6 +4779,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 668
 , "Nissan": 653
 , "Fiat": 619
+, "Lynk & Co": 614
 , "Citroën": 511
 , "Mazda": 447
 , "Mini": 387
@@ -4778,7 +4798,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 14
 , "Subaru": 13
 , "Jaguar": 10
-, "other": 907
+, "other": 293
 });
 
 db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/11",
@@ -4860,6 +4880,7 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 928
 , "Nissan": 796
 , "Dacia": 746
+, "Lynk & Co": 738
 , "Mercedes-Benz": 738
 , "Opel": 733
 , "Mazda": 558
@@ -4880,7 +4901,7 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 7
 , "Jaguar": 5
 , "Subaru": 4
-, "other": 886
+, "other": 148
 });
 
 db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2022/12",
@@ -4961,6 +4982,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 1078
 , "Ford": 987
 , "Nissan": 898
+, "Lynk & Co": 796
 , "Tesla": 591
 , "Suzuki": 554
 , "Dacia": 521
@@ -4980,7 +5002,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 16
 , "Smart": 15
 , "Nio": 10
-, "other": 1216
+, "other": 420
 });
 
 db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/1, https://www.acea.auto/files/20230221_PRPC_2301_FINAL.pdf",
@@ -5061,6 +5083,7 @@ db.insert(db.countries.NL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Volvo": 1475
 , "BMW": 1255
 , "Škoda": 1160
+, "Lynk & Co": 1098
 , "Mercedes-Benz": 1041
 , "Mazda": 943
 , "Audi": 905
@@ -5084,7 +5107,7 @@ db.insert(db.countries.NL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 17
 , "Nio": 4
 , "Smart": 4
-, "other": 1419
+, "other": 321
 });
 
 db.insert(db.countries.NL, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/2",
@@ -5170,6 +5193,7 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 1187
 , "Audi": 1145
 , "Citroën": 1032
+, "Lynk & Co": 1003
 , "Dacia": 735
 , "Mini": 724
 , "Mazda": 689
@@ -5189,7 +5213,7 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 15
 , "Subaru": 10
 , "Smart": 7
-, "other": 1538
+, "other": 535
 });
 
 db.insert(db.countries.NL, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/3, https://www.acea.auto/files/20230419_PRPC_2303-FINAL.pdf",
@@ -5273,6 +5297,7 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Audi": 924
 , "Tesla": 767
 , "Nissan": 758
+, "Lynk & Co": 699
 , "Citroën": 692
 , "Seat": 603
 , "Suzuki": 535
@@ -5293,7 +5318,7 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 12
 , "Subaru": 4
 , "Smart": 3
-, "other": 1200
+, "other": 501
 });
 
 db.insert(db.countries.NL, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/4, https://www.acea.auto/files/20230517_PRPC_2304_FINAL.pdf",
@@ -5376,6 +5401,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 1119
 , "Audi": 1117
 , "Mercedes-Benz": 1048
+, "Lynk & Co": 681
 , "Fiat": 662
 , "Suzuki": 562
 , "MG": 560
@@ -5395,7 +5421,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 31
 , "Nio": 23
 , "Jaguar": 12
-, "other": 1241
+, "other": 560
 });
 
 db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/5, https://www.acea.auto/files/20230621_PRPC_2305_FINAL.pdf",
@@ -5484,6 +5510,7 @@ db.insert(db.countries.NL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 759
 , "Mini": 734
 , "Suzuki": 733
+, "Lynk & Co": 684
 , "Dacia": 641
 , "Fiat": 613
 , "Seat": 429
@@ -5498,7 +5525,7 @@ db.insert(db.countries.NL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 22
 , "Smart": 16
 , "Jaguar": 15
-, "other": 1287
+, "other": 603
 });
 
 db.insert(db.countries.NL, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/6, https://www.acea.auto/files/20230719_PRPC_2306-FINAL.pdf",
@@ -5587,6 +5614,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Suzuki": 669
 , "Mazda": 599
 , "Citroën": 561
+, "Lynk & Co": 446
 , "Seat": 404
 , "Nissan": 384
 , "Dacia": 380
@@ -5604,7 +5632,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 18
 , "Nio": 18
 , "Smart": 14
-, "other": 932
+, "other": 486
 });
 
 db.insert(db.countries.NL, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/7, https://www.acea.auto/files/20230830_PRPC_2307_FINAL.pdf",
@@ -5704,6 +5732,7 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 325
 , "Land Rover": 302
 , "Jeep": 230
+, "Lynk & Co": 229
 , "Mitsubishi": 213
 , "Polestar": 209
 , "Cupra": 205
@@ -5715,7 +5744,7 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 20
 , "Jaguar": 8
 , "Subaru": 4
-, "other": 580
+, "other": 351
 });
 
 db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/8, https://www.acea.auto/files/20230920_PRPC_2308_FINAL.pdf",
@@ -5812,6 +5841,7 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 330
 , "Mitsubishi": 251
 , "Land Rover": 216
+, "Lynk & Co": 210
 , "Porsche": 162
 , "Honda": 127
 , "Polestar": 124
@@ -5822,7 +5852,7 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 9
 , "Jaguar": 7
 , "Subaru": 4
-, "other": 596
+, "other": 386
 });
 
 db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/9, https://www.acea.auto/files/Press_release_car_registrations_September_2023.pdf",
@@ -5923,6 +5953,7 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 245
 , "Cupra": 234
 , "Land Rover": 191
+, "Lynk & Co": 170
 , "MG": 148
 , "BYD": 116
 , "Polestar": 112
@@ -5932,7 +5963,7 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 20
 , "Jaguar": 13
 , "Subaru": 6
-, "other": 515
+, "other": 345
 });
 
 db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/10, https://www.acea.auto/files/Press_release_car_registrations_October_2023.pdf",
@@ -6038,9 +6069,10 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 85
 , "Xpeng": 85
 , "Nio": 35
+, "Lynk & Co": 33
 , "Smart": 15
 , "Jaguar": 9
-, "other": 267
+, "other": 234
 });
 
 db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/11, https://www.acea.auto/files/Press_release_car_registrations_November_2023.pdf",
@@ -6148,12 +6180,13 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Zeekr": 97
 , "Land Rover": 84
 , "Smart": 65
+, "Lynk & Co": 60
 , "Honda": 56
 , "Nio": 28
 , "Subaru": 26
 , "Porsche": 22
 , "Jaguar": 3
-, "other": 235
+, "other": 175
 });
 
 db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2023/12, https://www.acea.auto/files/Press_release_car_registrations_full_year_2023.pdf",
@@ -6255,6 +6288,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 424
 , "Fiat": 326
 , "Porsche": 278
+, "Lynk & Co": 252
 , "BYD": 192
 , "Honda": 155
 , "MG": 146
@@ -6266,7 +6300,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 40
 , "Jaguar": 25
 , "Subaru": 17
-, "other": 667
+, "other": 415
 });
 
 db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/1, https://www.acea.auto/files/Press_release_car_registrations-January_2024.pdf",
@@ -6368,6 +6402,7 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 334
 , "Porsche": 308
 , "Land Rover": 297
+, "Lynk & Co": 280
 , "BYD": 187
 , "MG": 187
 , "Honda": 116
@@ -6379,7 +6414,7 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 20
 , "Jaguar": 8
 , "Subaru": 7
-, "other": 674
+, "other": 394
 });
 
 db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/2, https://www.acea.auto/files/Press_release_car_registrations_February_2024.pdf",
@@ -6479,6 +6514,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 315
 , "Land Rover": 304
 , "Jeep": 293
+, "Lynk & Co": 196
 , "Cupra": 178
 , "BYD": 171
 , "Polestar": 149
@@ -6490,7 +6526,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 21
 , "Subaru": 11
 , "Jaguar": 10
-, "other": 755
+, "other": 559
 });
 
 db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/3, https://www.acea.auto/files/Press_release_car_registrations_March_2024.pdf",
@@ -6588,6 +6624,7 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 382
 , "Land Rover": 259
 , "Jeep": 235
+, "Lynk & Co": 233
 , "Mitsubishi": 220
 , "MG": 210
 , "BYD": 200
@@ -6602,7 +6639,7 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nio": 22
 , "Jaguar": 8
 , "Subaru": 5
-, "other": 928
+, "other": 695
 });
 
 db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/4, https://www.acea.auto/files/Press_release_car_registrations_April-2024.pdf",
@@ -6700,6 +6737,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 380
 , "Dacia": 289
 , "Mini": 276
+, "Lynk & Co": 235
 , "Cupra": 230
 , "Land Rover": 222
 , "BYD": 219
@@ -6714,7 +6752,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 55
 , "Nio": 20
 , "Jaguar": 11
-, "other": 792
+, "other": 557
 });
 
 db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/5, https://www.acea.auto/files/Press_release_car_registrations_May_2024.pdf",
@@ -6822,6 +6860,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 240
 , "BYD": 224
 , "Jeep": 190
+, "Lynk & Co": 175
 , "Cupra": 151
 , "MG": 132
 , "Xpeng": 98
@@ -6830,7 +6869,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 64
 , "Nio": 14
 , "Jaguar": 7
-, "other": 725
+, "other": 550
 });
 
 db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/6, https://www.acea.auto/files/Press_release_car_registrations_June_2024.pdf",
@@ -6940,13 +6979,14 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 148
 , "Polestar": 109
 , "Honda": 105
+, "Lynk & Co": 105
 , "Zeekr": 78
 , "Smart": 76
 , "Xpeng": 63
 , "Nio": 41
 , "Subaru": 19
 , "Jaguar": 5
-, "other": 622
+, "other": 517
 });
 
 db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/7, https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -7058,11 +7098,12 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 112
 , "Honda": 88
 , "Zeekr": 76
+, "Lynk & Co": 74
 , "Smart": 71
 , "Nio": 22
 , "Jaguar": 8
 , "Subaru": 4
-, "other": 490
+, "other": 416
 });
 
 db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/8, https://www.acea.auto/files/Press_release_car_registrations_August-2024.pdf",
@@ -7173,8 +7214,9 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 103
 , "Zeekr": 80
 , "Honda": 76
+, "Lynk & Co": 48
 , "Nio": 21
-, "other": 432
+, "other": 384
 });
 
 db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/9, https://www.acea.auto/files/Press_release_car_registrations_September_2024.pdf",
@@ -7285,10 +7327,11 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 127
 , "Honda": 104
 , "Zeekr": 98
+, "Lynk & Co": 26
 , "Subaru": 14
 , "Nio": 11
 , "Jaguar": 5
-, "other": 448
+, "other": 422
 });
 
 db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/10, https://www.acea.auto/files/Press_release_car_registrations_October_2024.pdf",
@@ -7387,10 +7430,10 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 577
 , "Nissan": 503
 , "Suzuki": 448
+, "BYD": 446
 , "Cupra": 436
 , "Mazda": 434
 , "Citroën": 413
-, "BYD": 446
 , "Porsche": 229
 , "Polestar": 205
 , "Jeep": 200
@@ -7402,9 +7445,10 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Zeekr": 103
 , "Smart": 103
 , "Honda": 52
+, "Lynk & Co": 27
 , "Subaru": 16
 , "Nio": 11
-, "other": 402
+, "other": 375
 });
 
 db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/11, https://www.acea.auto/files/Press_release_car_registrations_November_2024.pdf",
@@ -7517,9 +7561,10 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 82
 , "Land Rover": 65
 , "Honda": 33
+, "Lynk & Co": 25
 , "Nio": 20
 , "Subaru": 5
-, "other": 296
+, "other": 271
 });
 
 db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2024/12, https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -7627,6 +7672,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 214
 , "Fiat": 184
 , "Honda": 132
+, "Lynk & Co": 124
 , "MG": 118
 , "Polestar": 117
 , "Xpeng": 92
@@ -7635,7 +7681,7 @@ db.insert(db.countries.NL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 20
 , "Nio": 14
 , "Jaguar": 11
-, "other": 1027
+, "other": 903
 });
 
 db.insert(db.countries.NL, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/1, https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -7747,13 +7793,14 @@ db.insert(db.countries.NL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 137
 , "Fiat": 125
 , "Honda": 91
+, "Lynk & Co": 75
 , "Xpeng": 67
 , "Zeekr": 50
 , "Smart": 35
 , "Subaru": 15
 , "Nio": 12
 , "Jaguar": 5
-, "other": 669
+, "other": 594
 });
 
 db.insert(db.countries.NL, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/2, https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
@@ -7860,6 +7907,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 278
 , "BYD": 270
 , "Jeep": 179
+, "Lynk & Co": 171
 , "MG": 165
 , "Polestar": 165
 , "Fiat": 139
@@ -7869,7 +7917,7 @@ db.insert(db.countries.NL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 19
 , "Nio": 13
 , "Jaguar": 5
-, "other": 808
+, "other": 637
 });
 
 db.insert(db.countries.NL, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/3, https://www.acea.auto/files/Press_release_car_registrations_March_2025.pdf",
@@ -7964,12 +8012,13 @@ db.insert(db.countries.NL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 735
 , "Suzuki": 550
 , "Mini": 484
-, "MG": 471
+, "MG": 469
 , "Dacia": 397
 , "Tesla": 382
 , "Seat": 375
 , "Cupra": 343
 , "Land Rover": 320
+, "Lynk & Co": 274
 , "BYD": 268
 , "Nissan": 263
 , "Mazda": 253
@@ -7983,7 +8032,7 @@ db.insert(db.countries.NL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 50
 , "Honda": 38
 , "Jaguar": 3
-, "other": 943
+, "other": 921
 });
 
 db.insert(db.countries.NL, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/4, https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
@@ -8078,10 +8127,11 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 975
 , "Citroën": 721
 , "Suzuki": 537
+, "MG": 512
 , "Dacia": 494
 , "Nissan": 453
 , "Seat": 398
-, "MG": 512
+, "Lynk & Co": 366
 , "Mini": 332
 , "BYD": 317
 , "Cupra": 305
@@ -8098,7 +8148,7 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 57
 , "Jaguar": 14
 , "Nio": 5
-, "other": 1130
+, "other": 764
 });
 
 db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/5, https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
@@ -8188,7 +8238,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 1287
 , "Peugeot": 1209
 , "Hyundai": 1098
-, "MG": 837
+, "MG": 836
 , "Dacia": 832
 , "Opel": 731
 , "Citroën": 723
@@ -8198,6 +8248,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 434
 , "Nissan": 423
 , "BYD": 412
+, "Lynk & Co": 388
 , "Seat": 376
 , "Cupra": 345
 , "Mitsubishi": 288
@@ -8211,7 +8262,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 53
 , "Smart": 30
 , "Jaguar": 12
-, "other": 631
+, "other": 244
 });
 
 db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/6, https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -8303,7 +8354,7 @@ db.insert(db.countries.NL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 1107
 , "Peugeot": 1063
 , "Opel": 846
-, "MG": 729
+, "MG": 728
 , "Dacia": 578
 , "Suzuki": 529
 , "Seat": 503
@@ -8312,6 +8363,7 @@ db.insert(db.countries.NL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 390
 , "Cupra": 387
 , "Land Rover": 321
+, "Lynk & Co": 314
 , "BYD": 300
 , "Mazda": 300
 , "Jeep": 210
@@ -8326,7 +8378,7 @@ db.insert(db.countries.NL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 44
 , "Nio": 20
 , "Subaru": 6
-, "other": 612
+, "other": 299
 });
 
 db.insert(db.countries.NL, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/7, https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
@@ -8437,6 +8489,7 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 234
 , "Mitsubishi": 191
 , "MG": 190
+, "Lynk & Co": 173
 , "Nissan": 139
 , "Porsche": 126
 , "Zeekr": 122
@@ -8445,7 +8498,7 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 62
 , "Xpeng": 52
 , "Nio": 18
-, "other": 934
+, "other": 761
 });
 
 db.insert(db.countries.NL, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/8, https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
@@ -8554,6 +8607,7 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 288
 , "Mitsubishi": 209
 , "Land Rover": 185
+, "Lynk & Co": 178
 , "Fiat": 175
 , "Zeekr": 154
 , "MG": 151
@@ -8565,7 +8619,7 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 36
 , "Nio": 19
 , "Subaru": 4
-, "other": 803
+, "other": 625
 });
 
 db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/9, https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
