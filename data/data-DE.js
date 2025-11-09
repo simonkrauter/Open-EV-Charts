@@ -4084,10 +4084,11 @@ db.insert(db.countries.DE, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Honda": 545
 , "Tesla": 419
 , "Subaru": 321
+, "Lynk & Co": 208
 , "Jaguar": 179
 , "MG": 179
 , "Polestar": 174
-, "other": 2464
+, "other": 2256
 });
 
 db.insert(db.countries.DE, "2022-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_01.xlsx?__blob=publicationFile&v=4",
@@ -4184,7 +4185,8 @@ db.insert(db.countries.DE, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 385
 , "Polestar": 364
 , "Jaguar": 329
-, "other": 2613
+, "Lynk & Co": 165
+, "other": 2448
 });
 
 db.insert(db.countries.DE, "2022-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_02.xlsx?__blob=publicationFile&v=6",
@@ -4283,7 +4285,8 @@ db.insert(db.countries.DE, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 571
 , "MG": 542
 , "Jaguar": 353
-, "other": 3322
+, "Lynk & Co": 94
+, "other": 3228
 });
 
 db.insert(db.countries.DE, "2022-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_03.xlsx?__blob=publicationFile&v=4",
@@ -4379,9 +4382,10 @@ db.insert(db.countries.DE, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Honda": 719
 , "Tesla": 650
 , "Polestar": 467
+, "Lynk & Co": 435
 , "Subaru": 325
 , "Jaguar": 302
-, "other": 3103
+, "other": 2668
 });
 
 db.insert(db.countries.DE, "2022-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_04.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/05/19/mitsubishi-tops-ev-sales-in-germany-in-april/",
@@ -4478,7 +4482,8 @@ db.insert(db.countries.DE, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 293
 , "Jaguar": 245
 , "Subaru": 230
-, "other": 2890
+, "Lynk & Co": 218
+, "other": 2672
 });
 
 db.insert(db.countries.DE, "2022-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_05.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/06/18/ford-tops-ev-sales-in-germany-in-may-yes-ford/",
@@ -4575,10 +4580,11 @@ db.insert(db.countries.DE, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "MG": 927
 , "Honda": 662
 , "Smart": 597
+, "Lynk & Co": 364
 , "Subaru": 301
 , "Jaguar": 255
 , "Polestar": 241
-, "other": 3608
+, "other": 3244
 });
 
 db.insert(db.countries.DE, "2022-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_06.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/07/23/26-of-new-car-sales-in-germany-have-a-plug-14-fully-electric/",
@@ -4676,12 +4682,13 @@ db.insert(db.countries.DE, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Tesla": 1184
 , "Jeep": 1095
 , "MG": 668
+, "Lynk & Co": 512
 , "Honda": 413
 , "Jaguar": 372
 , "Subaru": 232
 , "Polestar": 194
 , "Smart": 189
-, "other": 6438
+, "other": 5926
 });
 
 db.insert(db.countries.DE, "2022-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_07.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/08/21/14-of-new-car-sales-in-germany-fully-electric-26-have-a-plug/",
@@ -4776,11 +4783,12 @@ db.insert(db.countries.DE, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "MG": 888
 , "Jeep": 645
 , "Honda": 515
+, "Lynk & Co": 433
 , "Jaguar": 247
 , "Subaru": 244
 , "Polestar": 241
 , "Smart": 130
-, "other": 3105
+, "other": 2672
 });
 
 db.insert(db.countries.DE, "2022-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_08.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/09/18/16-of-new-car-sales-in-germany-fully-electric-28-have-a-plug/",
@@ -4880,9 +4888,10 @@ db.insert(db.countries.DE, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jeep": 703
 , "Polestar": 667
 , "Smart": 345
+, "Lynk & Co": 312
 , "Subaru": 283
 , "Jaguar": 216
-, "other": 2991
+, "other": 2679
 });
 
 db.insert(db.countries.DE, "2022-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_09.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2022/10/16/19-of-new-car-sales-in-germany-fully-electric-32-have-a-plug/",
@@ -4982,9 +4991,10 @@ db.insert(db.countries.DE, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Suzuki": 806
 , "Smart": 656
 , "Honda": 583
+, "Lynk & Co": 448
 , "Subaru": 225
 , "Jaguar": 187
-, "other": 3370
+, "other": 2922
 });
 
 db.insert(db.countries.DE, "2022-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_10.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2022/11/19/ford-has-1-plugin-vehicle-in-germany-in-october/",
@@ -5084,9 +5094,10 @@ db.insert(db.countries.DE, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Smart": 1440
 , "Land Rover": 926
 , "Honda": 564
+, "Lynk & Co": 447
 , "Subaru": 339
 , "Jaguar": 242
-, "other": 3829
+, "other": 3382
 });
 
 db.insert(db.countries.DE, "2022-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_11.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2022/12/30/open-the-floodgates-record-electric-car-sales-month-in-germany-22-of-new-cars-fully-electric-39-have-a-plug/",
@@ -5180,6 +5191,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jeep": 4470
 , "Mazda": 4229
 , "Mini": 3579
+, "Lynk & Co": 2990
 , "Nissan": 2903
 , "Porsche": 2724
 , "Citroën": 2663
@@ -5190,7 +5202,7 @@ db.insert(db.countries.DE, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Honda": 635
 , "Jaguar": 273
 , "Subaru": 255
-, "other": 8637
+, "other": 5647
 });
 
 db.insert(db.countries.DE, "2022-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2022_12.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/01/20/31-of-new-vehicle-sales-plugin-sales-in-germany-in-2022/",
@@ -5293,11 +5305,12 @@ db.insert(db.countries.DE, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jeep": 660
 , "Honda": 503
 , "MG": 483
+, "Lynk & Co": 410
 , "Jaguar": 245
 , "Subaru": 236
 , "Polestar": 154
 , "BYD": 50
-, "other": 2955
+, "other": 2545
 });
 
 db.insert(db.countries.DE, "2023-01", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_01.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/02/23/the-battle-for-germany-begins-tesla-leads-on-models-brand-volkswagen-group-1st-among-oems/",
@@ -5398,9 +5411,10 @@ db.insert(db.countries.DE, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Mitsubishi": 703
 , "Honda": 509
 , "Subaru": 282
+, "Lynk & Co": 276
 , "Jaguar": 254
 , "Polestar": 125
-, "other": 3081
+, "other": 2805
 });
 
 db.insert(db.countries.DE, "2023-02", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_02.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/03/22/tesla-model-y-2-best-selling-automobile-in-germany/",
@@ -5502,9 +5516,10 @@ db.insert(db.countries.DE, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 479
 , "Honda": 465
 , "Jaguar": 432
+, "Lynk & Co": 429
 , "GWM": 164
 , "Nio": 122
-, "other": 4241
+, "other": 3812
 });
 
 db.insert(db.countries.DE, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_03.xlsx?__blob=publicationFile&v=2",
@@ -5610,10 +5625,11 @@ db.insert(db.countries.DE, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 327
 , "Honda": 290
 , "Jaguar": 194
+, "Lynk & Co": 194
 , "GWM": 101
 , "BYD": 47
 , "Nio": 25
-, "other": 3358
+, "other": 3164
 });
 
 db.insert(db.countries.DE, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_04.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/05/26/the-battle-for-germanys-ev-market-part-iv-tesla-model-y-vs-volkswagen-meb-family/",
@@ -5718,11 +5734,12 @@ db.insert(db.countries.DE, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 629
 , "Honda": 433
 , "Subaru": 344
+, "Lynk & Co": 237
 , "Jaguar": 181
 , "GWM": 155
 , "BYD": 54
 , "Nio": 44
-, "other": 3853
+, "other": 3616
 });
 
 db.insert(db.countries.DE, "2023-05", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_05.xlsx?__blob=publicationFile&v=2",
@@ -5830,8 +5847,9 @@ db.insert(db.countries.DE, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Jaguar": 317
 , "GWM": 196
 , "Nio": 145
+, "Lynk & Co": 130
 , "BYD": 63
-, "other": 4296
+, "other": 4166
 });
 
 db.insert(db.countries.DE, "2023-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_06.xlsx?__blob=publicationFile&v=7, https://cleantechnica.com/2023/07/24/the-battle-for-germanys-ev-market-part-vi-tesla-model-y-vs-volkswagen-meb-family/",
@@ -5941,8 +5959,9 @@ db.insert(db.countries.DE, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "BYD": 404
 , "Jaguar": 284
 , "GWM": 221
+, "Lynk & Co": 206
 , "Nio": 44
-, "other": 4303
+, "other": 4097
 });
 
 db.insert(db.countries.DE, "2023-07", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_07.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2023/08/26/the-battle-for-germanys-ev-market-part-vii-vw-id-4-wins-in-july/",
@@ -6053,7 +6072,8 @@ db.insert(db.countries.DE, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Subaru": 543
 , "Nio": 411
 , "Jaguar": 242
-, "other": 4262
+, "Lynk & Co": 177
+, "other": 4085
 });
 
 db.insert(db.countries.DE, "2023-08", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_08.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/09/20/the-battle-for-germanys-ev-market-part-viii-early-christmas-edition/",
@@ -6163,8 +6183,9 @@ db.insert(db.countries.DE, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "GWM": 333
 , "Jaguar": 260
 , "BYD": 196
+, "Lynk & Co": 150
 , "Nio": 80
-, "other": 3134
+, "other": 2984
 });
 
 db.insert(db.countries.DE, "2023-09", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_09.xlsx?__blob=publicationFile&v=2, https://cleantechnica.com/2023/10/24/the-battle-for-germanys-ev-market-part-ix-das-hangover-edition/",
@@ -6275,7 +6296,8 @@ db.insert(db.countries.DE, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Nio": 289
 , "Polestar": 272
 , "BYD": 226
-, "other": 3113
+, "Lynk & Co": 33
+, "other": 3080
 });
 
 db.insert(db.countries.DE, "2023-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_10.xlsx?__blob=publicationFile&v=4, https://cleantechnica.com/2023/12/20/the-battle-for-germanys-ev-market-part-xi-bmw-shines/",
@@ -6388,7 +6410,8 @@ db.insert(db.countries.DE, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Polestar": 281
 , "Jaguar": 205
 , "Nio": 50
-, "other": 3126
+, "Lynk & Co": 25
+, "other": 3101
 });
 
 db.insert(db.countries.DE, "2023-11", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2023_11.xlsx?__blob=publicationFile&v=3, https://cleantechnica.com/2023/12/20/the-battle-for-germanys-ev-market-part-xi-bmw-shines/",
