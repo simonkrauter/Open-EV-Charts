@@ -2085,3 +2085,25 @@ db.insert(db.countries.CN, "2025-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|P7": 8104
 , "other": 423243
 });
+
+db.insert(db.countries.CN, "2025-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/11/20/a-tale-of-two-markets-bevs-up-20-yoy-phevs-down-10-yoy-in-china/",
+{ "other": 2268129
+});
+
+db.insert(db.countries.CN, "2025-10", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2025/11/20/a-tale-of-two-markets-bevs-up-20-yoy-phevs-down-10-yoy-in-china/",
+{ "Wuling|Hongguang Mini EV": 61506
+, "Geometry|Xingyuan": 44239
+, "Xiaomi|YU7": 33662
+, "BYD|Seagull": 24706
+, "Changan|Lumin": 20520
+, "BYD|Yuan Up": 19813
+, "Tesla|Model Y": 19488
+, "BYD|Qin EV": 17870
+, "Wuling|Bingo S": 17248
+, "Xpeng|Mona M03": 16309
+, "BYD|Dolphin": 16197
+, "BYD|Sealion 06 EV": 10121
+, "BYD|Seal 06 EV": 9840
+, "BYD|Song EV": 8353
+, "other": 492128
+});
