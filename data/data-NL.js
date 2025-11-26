@@ -8624,7 +8624,7 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/9, https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
 { "Tesla|Model Y": 1449
-, "Škoda|Elroq": 975
+, "Škoda|Elroq": 976
 , "Tesla|Model 3": 580
 , "Mini|Cooper SE": 525
 , "Renault|5 E-Tech": 501
@@ -8678,7 +8678,7 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 110
 , "Peugeot|other": 85
 , "Kia|other": 65
-, "Mercedes-Benz|other": 63
+, "Mercedes-Benz|other": 64
 , "Zeekr|other": 62
 , "Porsche|other": 59
 , "Jeep|other": 50
@@ -8694,5 +8694,5 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 18
 , "Audi|other": 11
 , "Nissan|other": 9
-, "other": 213
+, "other": 211
 });
