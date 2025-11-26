@@ -4802,9 +4802,10 @@ db.insert(db.countries.IT, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 414
 , "Subaru": 150
 , "Jaguar": 137
+, "Lynk & Co": 134
 , "BYD": 70
 , "Polestar": 26
-, "other": 10826
+, "other": 10692
 });
 
 db.insert(db.countries.IT, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/3, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20marzo%202024_660c2679ae9b8.pdf",
@@ -4908,8 +4909,9 @@ db.insert(db.countries.IT, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 300
 , "Jaguar": 84
 , "Subaru": 83
+, "Lynk & Co": 81
 , "BYD": 57
-, "other": 10302
+, "other": 10221
 });
 
 db.insert(db.countries.IT, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/4, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione_Aprile%202024_6633b7b4eb765.pdf",
@@ -5011,10 +5013,11 @@ db.insert(db.countries.IT, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 518
 , "Smart": 278
 , "Subaru": 157
+, "Lynk & Co": 140
 , "Jaguar": 75
 , "BYD": 52
 , "Polestar": 22
-, "other": 10176
+, "other": 10036
 });
 
 db.insert(db.countries.IT, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/5, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Maggio%202024_665df7a5bcb37.pdf",
@@ -5117,7 +5120,8 @@ db.insert(db.countries.IT, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Subaru": 135
 , "Jaguar": 79
 , "Polestar": 33
-, "other": 9719
+, "Lynk & Co": 31
+, "other": 9688
 });
 
 db.insert(db.countries.IT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/6, https://www.unrae.it/files/Top%2010%20per%20alimentazione%20Giugno%202024_6682ad3d6ca0c.pdf",
@@ -5215,13 +5219,14 @@ db.insert(db.countries.IT, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 637
 , "Porsche": 553
 , "Tesla": 474
+, "Lynk & Co": 280
 , "BYD": 202
 , "Mitsubishi": 164
 , "Smart": 142
 , "Subaru": 99
 , "Jaguar": 68
 , "Polestar": 14
-, "other": 8843
+, "other": 8563
 });
 
 db.insert(db.countries.IT, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/7, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Luglio%202024_66ab995a89567.pdf",
@@ -5318,8 +5323,8 @@ db.insert(db.countries.IT, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Nissan": 1154
 , "Volvo": 792
 , "Cupra": 674
-, "Land Rover": 440
 , "Tesla": 442
+, "Land Rover": 440
 , "Mazda": 410
 , "Seat": 401
 , "Mini": 354
@@ -5331,7 +5336,8 @@ db.insert(db.countries.IT, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Subaru": 47
 , "Polestar": 37
 , "Jaguar": 28
-, "other": 4673
+, "Lynk & Co": 8
+, "other": 4665
 });
 
 db.insert(db.countries.IT, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/8, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Agosto%202024_66d5cd7e39541.pdf",
@@ -5436,9 +5442,10 @@ db.insert(db.countries.IT, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Subaru": 167
 , "Smart": 94
 , "Mitsubishi": 87
+, "Lynk & Co": 72
 , "Polestar": 57
 , "Jaguar": 49
-, "other": 7364
+, "other": 7292
 });
 
 db.insert(db.countries.IT, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/9, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Settembre%202024_66fc0c0ac81c5.pdf",
@@ -5543,8 +5550,9 @@ db.insert(db.countries.IT, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Subaru": 197
 , "Smart": 88
 , "Jaguar": 56
+, "Lynk & Co": 49
 , "Polestar": 25
-, "other": 7392
+, "other": 7343
 });
 
 db.insert(db.countries.IT, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/10, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Ottobre%202024_6728f5832ce0a.pdf",
@@ -5652,7 +5660,8 @@ db.insert(db.countries.IT, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 157
 , "Polestar": 57
 , "Jaguar": 39
-, "other": 8004
+, "Lynk & Co": 39
+, "other": 7965
 });
 
 db.insert(db.countries.IT, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/11, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Novembre%202024_674ddd52452c6.pdf",
@@ -5868,9 +5877,10 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Mitsubishi": 215
 , "Subaru": 111
 , "Smart": 97
+, "Lynk & Co": 61
 , "Jaguar": 36
 , "Polestar": 26
-, "other": 7766
+, "other": 7705
 });
 
 db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/1, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Gennaio_2025_67a0e5e21be5d.pdf",
@@ -5976,7 +5986,8 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 95
 , "Polestar": 28
 , "Jaguar": 21
-, "other": 8221
+, "Lynk & Co": 17
+, "other": 8204
 });
 
 db.insert(db.countries.IT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/2, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Febbraio%202025_67c5bfcfbecef.pdf",
@@ -6086,7 +6097,8 @@ db.insert(db.countries.IT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Jaguar": 89
 , "Smart": 58
 , "Polestar": 36
-, "other": 10875
+, "Lynk & Co": 32
+, "other": 10843
 });
 
 db.insert(db.countries.IT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/3, https://www.unrae.it/files/Top%2010%20per%20alimentazione%20Marzo%202025_67ec044b1c6b7.pdf",
@@ -6196,8 +6208,9 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Mitsubishi": 85
 , "Smart": 51
 , "Polestar": 43
+, "Lynk & Co": 41
 , "Jaguar": 24
-, "other": 9569
+, "other": 9528
 });
 
 db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/4, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Aprile%202025_6814d85937bd5.pdf",
@@ -6309,7 +6322,8 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mitsubishi": 123
 , "Smart": 52
 , "Polestar": 32
-, "other": 9464
+, "Lynk & Co": 25
+, "other": 9439
 });
 
 db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/5, https://unrae.it/files/Top%2010%20per%20alimentazione%20maggio%202025_683f05651a256.pdf",
@@ -6420,7 +6434,8 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Mitsubishi": 245
 , "Smart": 114
 , "Polestar": 88
-, "other": 10160
+, "Lynk & Co": 20
+, "other": 10140
 });
 
 db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/6, https://unrae.it/files/07%20Top%2010%20per%20alimentazione%20Giugno%202025_6864014b3822a.pdf",
@@ -6531,8 +6546,9 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Subaru": 236
 , "Mitsubishi": 164
 , "Smart": 109
+, "Lynk & Co": 72
 , "Polestar": 27
-, "other": 9154
+, "other": 9082
 });
 
 db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/7, https://unrae.it/files/07%20Top%2010%20per%20alimentazione%20Luglio%202025_688cbae15fb79.pdf",
@@ -6640,9 +6656,10 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Porsche": 237
 , "Subaru": 80
 , "Mitsubishi": 59
+, "Lynk & Co": 29
 , "Polestar": 20
 , "Smart": 11
-, "other": 4807
+, "other": 4778
 });
 
 db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/8, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Luglio%202025_688cbae15fb79.pdf",
@@ -6749,8 +6766,9 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Land Rover": 377
 , "Polestar": 218
 , "Subaru": 203
+, "Lynk & Co": 64
 , "Mitsubishi": 52
-, "other": 9336
+, "other": 9272
 });
 
 db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/9, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Settembre%202025_68dd43c1228c5.pdf",
