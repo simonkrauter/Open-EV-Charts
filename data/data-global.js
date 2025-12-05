@@ -837,3 +837,11 @@ db.insert(db.countries.global, "2025-09", db.dsTypes.AllCarsTotal, "https://clea
 db.insert(db.countries.global, "2025-09", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/11/08/global-ev-sales-report-record-month/",
 { "other": 1411290
 });
+
+db.insert(db.countries.global, "2025-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/12/02/global-ev-sales-report-tiny-wuling-mini-beats-tesla-model-y/",
+{ "other": 6842105
+});
+
+db.insert(db.countries.global, "2025-10", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/12/02/global-ev-sales-report-tiny-wuling-mini-beats-tesla-model-y/",
+{ "other": 1300000
+});
