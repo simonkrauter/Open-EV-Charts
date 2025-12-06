@@ -6782,6 +6782,105 @@ db.insert(db.countries.NO, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1125
 });
 
+db.insert(db.countries.NO, "2025-10", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-oktober-2025",
+{ "Volkswagen": 1565
+, "Volvo": 1165
+, "BMW": 960
+, "Tesla": 671
+, "Škoda": 611
+, "Ford": 583
+, "Mercedes-Benz": 538
+, "Audi": 487
+, "Hyundai": 453
+, "MG": 444
+, "BYD": 434
+, "Xpeng": 376
+, "Kia": 277
+, "Peugeot": 266
+, "Polestar": 250
+, "Nissan": 248
+, "Opel": 158
+, "Porsche": 138
+, "Toyota": 62
+, "other": 1484
+});
+
+db.insert(db.countries.NO, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2025/10 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-oktober-2025",
+{ "Tesla|Model Y": 586
+, "Volkswagen|ID.7": 531
+, "Volvo|EX40": 527
+, "Volkswagen|ID.4": 432
+, "Volvo|EX30": 403
+, "Škoda|Elroq": 330
+, "BYD|Sealion 7": 322
+, "Ford|Explorer EV": 313
+, "BMW|iX1": 288
+, "Volkswagen|ID.3": 274
+, "Mazda|EZ-6 BEV": 271
+, "Xpeng|G6": 271
+, "BMW|i4": 267
+, "Nissan|Ariya": 233
+, "Škoda|Enyaq": 228
+, "Audi|Q4 e-tron": 227
+, "Mercedes-Benz|EQB": 201
+, "MG|S5 EV": 196
+, "Audi|Q6 e-tron": 176
+, "Hyundai|Ioniq 5": 172
+, "Kia|EV3": 171
+, "MG|4 EV": 167
+, "Ford|Capri EV": 157
+, "Mercedes-Benz|EQA": 145
+, "Honda|e:Ny1": 144
+, "Polestar|4": 142
+, "Mini|Cooper SE": 133
+, "BMW|iX2": 110
+, "Hyundai|Kona Electric": 108
+, "Peugeot|E-5008": 103
+, "BMW|iX": 89
+, "Polestar|2": 86
+, "Volvo|EX90": 81
+, "Tesla|Model 3": 79
+, "Zeekr|7X": 75
+, "Peugeot|e-2008": 68
+, "Kia|EV6": 62
+, "Renault|5 E-Tech": 62
+, "Porsche|Macan Electric": 61
+, "Hyundai|Ioniq 6": 60
+, "Opel|Grandland Electric": 56
+, "Peugeot|E-3008": 56
+, "Audi|A6 e-tron": 55
+, "Hyundai|Inster": 53
+, "Kia|EV9": 44
+, "Hyundai|Ioniq 9": 42
+, "BMW|i5": 41
+, "BYD|Dolphin": 41
+, "Citroën|ë-C3": 40
+, "Renault|Scénic E-Tech": 40
+, "Opel|other": 88
+, "Ford|other": 76
+, "Mercedes-Benz|other": 50
+, "Renault|other": 43
+, "Zeekr|other": 42
+, "JAC|other": 41
+, "Xpeng|other": 38
+, "MG|other": 35
+, "Volkswagen|other": 32
+, "Nio|other": 31
+, "Citroën|other": 28
+, "Volvo|other": 28
+, "Smart|other": 24
+, "Peugeot|other": 22
+, "BYD|other": 20
+, "Cupra|other": 18
+, "Jeep|other": 16
+, "Toyota|other": 15
+, "Mazda|other": 12
+, "Fiat|other": 10
+, "Polestar|other": 6
+, "other": 1358
+});
+
+
 
 // Template:
 
