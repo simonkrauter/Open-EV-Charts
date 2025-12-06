@@ -5121,7 +5121,7 @@ db.insert(db.countries.UK, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 509
 , "Citroën|ë-C3": 489
 , "Renault|Scénic E-Tech": 475
-, "Volkswagen|ID.7": 473
+, "Volkswagen|ID.7": 474
 , "BYD|Dolphin": 449
 , "Cupra|Born": 411
 , "Volkswagen|ID.3": 410
@@ -5137,7 +5137,7 @@ db.insert(db.countries.UK, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 295
 , "BYD|Sealion 7": 283
 , "Peugeot|E-5008": 262
-, "Tesla|Model Y": 254
+, "Tesla|Model Y": 255
 , "Polestar|2": 249
 , "BYD|Yuan Plus": 244
 , "MG|4 EV": 239
@@ -5161,7 +5161,7 @@ db.insert(db.countries.UK, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 461
 , "BYD|other": 458
 , "Hyundai|other": 442
-, "Audi|other": 439
+, "Audi|other": 440
 , "Mercedes-Benz|other": 424
 , "BMW|other": 345
 , "Volvo|other": 344
@@ -5182,5 +5182,5 @@ db.insert(db.countries.UK, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 43
 , "Dacia|other": 40
 , "Changan|other": 28
-, "other": 5843
+, "other": 5840
 });
