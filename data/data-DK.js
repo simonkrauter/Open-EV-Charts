@@ -4236,3 +4236,79 @@ db.insert(db.countries.DK, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 8
 , "other": 36
 });
+
+db.insert(db.countries.DK, "2025-10", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16184
+});
+
+db.insert(db.countries.DK, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/10, https://www.statistikbanken.dk/bil51",
+{ "Škoda|Elroq": 1158
+, "Škoda|Enyaq": 827
+, "Volkswagen|ID.4": 781
+, "Volkswagen|ID. Buzz": 595
+, "Audi|Q4 e-tron": 418
+, "Volkswagen|ID.3": 401
+, "Volkswagen|ID.7": 364
+, "Citroën|ë-C3": 343
+, "Mazda|EZ-6 BEV": 304
+, "Mercedes-Benz|EQB": 289
+, "Peugeot|e-208": 287
+, "Renault|5 E-Tech": 257
+, "Xpeng|G6": 231
+, "BMW|iX1": 225
+, "Mercedes-Benz|EQA": 219
+, "Cupra|Tavascan": 215
+, "Volvo|EX40": 183
+, "Hyundai|Ioniq 6": 169
+, "Ford|Explorer EV": 149
+, "Zeekr|7X": 139
+, "MG|4 EV": 138
+, "Renault|Scénic E-Tech": 134
+, "Kia|EV3": 133
+, "Ford|E-Transit": 132
+, "Volkswagen|ID.5": 125
+, "Hyundai|Ioniq 5": 124
+, "Audi|Q6 e-tron": 119
+, "BMW|i4": 115
+, "Ford|Puma Gen-E": 115
+, "BMW|i5": 108
+, "Mercedes-Benz|EQE": 105
+, "Hyundai|Kona Electric": 101
+, "Cupra|Born": 99
+, "Renault|Megane E-Tech": 99
+, "Peugeot|E-3008": 98
+, "Tesla|Model Y": 90
+, "Peugeot|e-2008": 89
+, "Audi|A6 e-tron": 88
+, "Nissan|Ariya": 86
+, "Polestar|4": 84
+, "Xpeng|G9": 81
+, "Volkswagen|e-Transporter": 80
+, "Kia|EV6": 78
+, "Hyundai|Inster": 76
+, "Polestar|2": 75
+, "Opel|Grandland Electric": 68
+, "Peugeot|E-5008": 66
+, "Opel|Frontera Electric": 64
+, "Volvo|EX30": 63
+, "Renault|Master E-Tech": 62
+, "BYD|other": 178
+, "Toyota|other": 105
+, "BMW|other": 93
+, "Mercedes-Benz|other": 76
+, "Renault|other": 66
+, "Mini|other": 54
+, "Ford|other": 53
+, "MG|other": 51
+, "Porsche|other": 48
+, "Volvo|other": 47
+, "Opel|other": 35
+, "Fiat|other": 31
+, "Hyundai|other": 24
+, "Kia|other": 19
+, "Honda|other": 15
+, "Zeekr|other": 11
+, "Tesla|other": 7
+, "Citroën|other": 6
+, "other": 34
+});
