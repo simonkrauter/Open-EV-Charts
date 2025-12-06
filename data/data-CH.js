@@ -7325,7 +7325,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
-{ "Tesla|Model Y": 368
+{ "Tesla|Model Y": 347
 , "Škoda|Elroq": 310
 , "Škoda|Enyaq": 243
 , "Volkswagen|ID.3": 174
@@ -7344,7 +7344,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX90": 62
 , "Hyundai|Inster": 61
 , "Smart|Hashtag 5": 59
-, "Tesla|Model 3": 55
+, "Tesla|Model 3": 54
 , "Ford|Explorer EV": 50
 , "Audi|A6 e-tron": 49
 , "Volkswagen|ID.4": 49
@@ -7397,7 +7397,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 5
 , "Audi|other": 4
 , "Fiat|other": 3
-, "other": 373
+, "other": 395
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/09/ModellePW2025.xlsx",
@@ -7444,7 +7444,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
 { "Škoda|Elroq": 218
-, "Tesla|Model Y": 217
+, "Tesla|Model Y": 197
 , "Škoda|Enyaq": 169
 , "Volvo|EX30": 143
 , "BMW|iX1": 135
@@ -7517,7 +7517,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 3
 , "Citroën|other": 2
 , "Renault|other": 2
-, "other": 254
+, "other": 274
 });
 
 db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/10/ModellePW2025.xlsx",
