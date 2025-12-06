@@ -7299,8 +7299,8 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 542
 , "Kia": 489
 , "Peugeot": 449
-, "Tesla": 425
 , "MG": 410
+, "Tesla": 401
 , "Porsche": 397
 , "Mini": 352
 , "Opel": 341
@@ -7321,7 +7321,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 29
 , "Jaguar": 13
 , "Zeekr": 5
-, "other": 686
+, "other": 710
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
@@ -7417,9 +7417,9 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 375
 , "Citroën": 283
 , "Porsche": 277
-, "Tesla": 276
 , "Opel": 267
 , "Mini": 259
+, "Tesla": 256
 , "MG": 250
 , "Suzuki": 180
 , "Honda": 176
@@ -7439,7 +7439,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Zeekr": 10
 , "Xpeng": 6
 , "Nio": 2
-, "other": 503
+, "other": 523
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
