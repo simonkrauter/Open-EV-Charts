@@ -6804,14 +6804,14 @@ db.insert(db.countries.IE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "other": 23
 });
 
-db.insert(db.countries.IE, "2025-09", db.dsTypes.AllCarsByBrand, "https://stats.beepbeep.ie",
+db.insert(db.countries.IE, "2025-09", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
 { "Volkswagen": 730
 , "Toyota": 648
-, "Škoda": 472
+, "Škoda": 471
 , "Tesla": 460
 , "Kia": 434
-, "Hyundai": 357
-, "Ford": 281
+, "Hyundai": 356
+, "Ford": 280
 , "BMW": 271
 , "Audi": 255
 , "BYD": 217
@@ -6827,7 +6827,7 @@ db.insert(db.countries.IE, "2025-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Citroën": 66
 , "Nissan": 59
 , "Seat": 55
-, "Land Rover": 49
+, "Land Rover": 48
 , "Opel": 46
 , "Porsche": 32
 , "Honda": 22
@@ -6839,7 +6839,7 @@ db.insert(db.countries.IE, "2025-09", db.dsTypes.AllCarsByBrand, "https://stats.
 , "other": 57
 });
 
-db.insert(db.countries.IE, "2025-09", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
+db.insert(db.countries.IE, "2025-09", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
 { "Tesla|Model 3": 243
 , "Tesla|Model Y": 217
 , "Volkswagen|ID.4": 145
