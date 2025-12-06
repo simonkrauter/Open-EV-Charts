@@ -7006,3 +7006,86 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|other": 1
 , "other": 26
 });
+
+db.insert(db.countries.IE, "2025-11", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Tesla": 148
+, "Toyota": 79
+, "Kia": 78
+, "Škoda": 72
+, "Volkswagen": 70
+, "Hyundai": 61
+, "Ford": 52
+, "BMW": 44
+, "Audi": 26
+, "BYD": 24
+, "Citroën": 18
+, "Dacia": 18
+, "Mercedes-Benz": 15
+, "Mini": 15
+, "Opel": 12
+, "Porsche": 12
+, "Suzuki": 12
+, "Renault": 11
+, "Peugeot": 8
+, "Xpeng": 8
+, "MG": 6
+, "Seat": 6
+, "Cupra": 5
+, "Land Rover": 5
+, "Polestar": 5
+, "Volvo": 4
+, "Nissan": 3
+, "Jeep": 2
+, "Honda": 1
+, "Mazda": 1
+, "other": 17
+});
+
+db.insert(db.countries.IE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Tesla|Model Y": 77
+, "Tesla|Model 3": 71
+, "Hyundai|Inster": 19
+, "Škoda|Enyaq": 19
+, "Ford|Explorer EV": 14
+, "Kia|EV4": 14
+, "BYD|Sealion 7": 10
+, "Kia|EV3": 9
+, "Xpeng|G6": 8
+, "Škoda|Elroq": 8
+, "Mini|Cooper SE": 7
+, "Porsche|Macan Electric": 7
+, "BMW|iX1": 6
+, "Hyundai|Ioniq 5": 6
+, "MG|4 EV": 5
+, "BYD|Dolphin": 4
+, "Kia|EV6": 4
+, "Polestar|4": 4
+, "BYD|Seagull": 3
+, "Citroën|ë-Berlingo Electric": 3
+, "Hyundai|Kona Electric": 3
+, "Renault|5 E-Tech": 3
+, "Renault|Scénic E-Tech": 3
+, "Volkswagen|ID.4": 3
+, "Audi|A6 e-tron": 2
+, "BYD|Seal": 2
+, "Cupra|Tavascan": 2
+, "Dacia|Spring": 2
+, "Ford|Puma Gen-E": 2
+, "Kia|EV9": 2
+, "Renault|Megane E-Tech": 2
+, "Volkswagen|ID.7": 2
+, "Volvo|EX40": 2
+, "Audi|e-tron GT": 1
+, "BMW|i4": 1
+, "BMW|i5": 1
+, "BMW|iX": 1
+, "BMW|iX2": 1
+, "Cupra|Born": 1
+, "Hyundai|Ioniq 6": 1
+, "Nissan|Ariya": 1
+, "Polestar|2": 1
+, "Renault|4 E-Tech": 1
+, "Toyota|bZ4X": 1
+, "Volkswagen|ID. Buzz": 1
+, "other": 8
+});
