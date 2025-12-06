@@ -1303,7 +1303,8 @@ db.insert(db.countries.BR, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1254
 , "Mercedes-Benz": 983
 , "Volvo": 979
-, "other": 3857
+, "Jaecoo": 677
+, "other": 3180
 });
 
 db.insert(db.countries.BR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_10_02.pdf",
