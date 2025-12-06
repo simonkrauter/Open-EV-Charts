@@ -6741,3 +6741,100 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 2
 , "other": 146
 });
+
+db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/12/November-2025.xlsx",
+{ "Toyota": 1264
+, "Škoda": 821
+, "Volkswagen": 566
+, "Volvo": 448
+, "Mercedes-Benz": 350
+, "Kia": 303
+, "Ford": 282
+, "BMW": 275
+, "Tesla": 257
+, "Audi": 242
+, "Nissan": 154
+, "Hyundai": 139
+, "BYD": 115
+, "Citroën": 105
+, "Renault": 103
+, "Mazda": 88
+, "Dacia": 82
+, "Polestar": 72
+, "Peugeot": 70
+, "Smart": 59
+, "Cupra": 43
+, "Opel": 40
+, "Suzuki": 39
+, "MG": 35
+, "Subaru": 32
+, "Mitsubishi": 29
+, "Land Rover": 22
+, "Porsche": 21
+, "Seat": 7
+, "other": 112
+});
+
+db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+{ "Škoda|Enyaq": 206
+, "Tesla|Model Y": 144
+, "Volkswagen|ID.4": 140
+, "Škoda|Elroq": 130
+, "Tesla|Model 3": 113
+, "Volkswagen|ID.7": 108
+, "Volvo|EX40": 99
+, "Kia|EV3": 92
+, "Mercedes-Benz|CLA EV": 73
+, "Citroën|ë-C4": 66
+, "Volvo|EX30": 57
+, "BMW|i4": 56
+, "Ford|Explorer EV": 55
+, "Volvo|EC40": 51
+, "BMW|iX1": 48
+, "Audi|Q4 e-tron": 46
+, "Audi|Q6 e-tron": 46
+, "Smart|Hashtag 5": 42
+, "Ford|Capri EV": 41
+, "Citroën|ë-C3": 39
+, "Mazda|EZ-6 BEV": 39
+, "Hyundai|Inster": 36
+, "BYD|Seal": 33
+, "Audi|A6 e-tron": 29
+, "Volkswagen|ID.3": 29
+, "BYD|Dolphin": 25
+, "Mercedes-Benz|EQA": 25
+, "Mercedes-Benz|EQB": 21
+, "Ford|Puma Gen-E": 20
+, "Kia|EV6": 19
+, "Volvo|EX90": 19
+, "BYD|Sealion 7": 18
+, "BYD|Tang EV": 18
+, "Hyundai|Kona Electric": 18
+, "Mini|Cooper SE": 17
+, "Peugeot|E-5008": 16
+, "BMW|iX": 15
+, "Cupra|Tavascan": 14
+, "Cupra|Born": 13
+, "BMW|iX2": 11
+, "Kia|EV4": 11
+, "Hyundai|Ioniq 5": 10
+, "BMW|i5": 9
+, "Porsche|Macan Electric": 9
+, "Kia|EV9": 8
+, "Ford|Mustang Mach-E": 7
+, "Opel|Frontera Electric": 7
+, "Peugeot|E-3008": 7
+, "Porsche|Taycan": 7
+, "Mercedes-Benz|EQE": 6
+, "Xpeng|other": 7
+, "Mercedes-Benz|other": 6
+, "Renault|other": 6
+, "Toyota|other": 6
+, "Aion|other": 5
+, "BYD|other": 5
+, "Hyundai|other": 5
+, "Nissan|other": 5
+, "Opel|other": 3
+, "Audi|other": 2
+, "other": 118
+});
