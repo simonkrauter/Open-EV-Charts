@@ -6278,3 +6278,63 @@ db.insert(db.countries.FR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Audi|Q6 e-tron": 437
 , "other": 11000
 });
+
+db.insert(db.countries.FR, "2025-11", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2025/12/Immatriculations-VPN_Novembre2025.pdf",
+{ "Renault": 25487
+, "Peugeot": 15670
+, "Volkswagen": 10058
+, "Dacia": 9507
+, "Toyota": 9368
+, "Citroën": 9027
+, "BMW": 5478
+, "Audi": 4912
+, "Škoda": 4650
+, "Mercedes-Benz": 4463
+, "Hyundai": 3684
+, "Ford": 2886
+, "MG": 2869
+, "Kia": 2530
+, "Mini": 2451
+, "Nissan": 2325
+, "Opel": 2062
+, "Cupra": 1904
+, "Fiat": 1664
+, "Tesla": 1591
+, "Suzuki": 1481
+, "Volvo": 1252
+, "BYD": 1139
+, "Seat": 1138
+, "Jeep": 685
+, "Mazda": 576
+, "Honda": 384
+, "Porsche": 338
+, "Xpeng": 269
+, "Land Rover": 90
+, "Smart": 70
+, "Mitsubishi": 60
+, "Lynk & Co": 26
+, "other": 2833
+});
+
+db.insert(db.countries.FR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2025/12/Immatriculations-mensuelles-par-energie_Novembre2025.pdf, https://cleantechnica.com/2025/12/20/evs-take-32-9-share-in-france-renault-5-record-volume/",
+{ "Renault|5 E-Tech": 5286
+, "Peugeot|e-208": 2069
+, "Renault|Scénic E-Tech": 1934
+, "Citroën|ë-C3": 1695
+, "Renault|4 E-Tech": 1249
+, "Škoda|Elroq": 1095
+, "Peugeot|e-2008": 1093
+, "BMW|iX1": 964
+, "Tesla|Model 3": 918
+, "Renault|Megane E-Tech": 881
+, "Volkswagen|ID.3": 860
+, "Volkswagen|ID.4": 704
+, "Tesla|Model Y": 659
+, "Hyundai|Kona Electric": 590
+, "Citroën|ë-C3 Aircross": 526
+, "Mini|Aceman": 520
+, "Mini|Countryman Electric": 511
+, "Hyundai|Inster": 508
+, "Cupra|Born": 484
+, "other": 11747
+});
