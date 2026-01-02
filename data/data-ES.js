@@ -7422,3 +7422,80 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 6
 , "other": 465
 });
+
+db.insert(db.countries.ES, "2025-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
+{ "other": 94124
+});
+
+db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
+{ "Tesla|Model 3": 1264
+, "BYD|Seagull": 688
+, "Kia|EV3": 469
+, "BYD|Yuan Up": 409
+, "BYD|Seal": 354
+, "Mini|Cooper SE": 350
+, "Jeep|Avenger EV": 269
+, "BYD|Yuan Plus": 265
+, "Tesla|Model Y": 253
+, "Škoda|Elroq": 222
+, "Renault|5 E-Tech": 216
+, "Citroën|ë-C3": 200
+, "BMW|iX1": 179
+, "Dacia|Spring": 175
+, "BYD|Sealion 7": 170
+, "Hyundai|Inster": 169
+, "Volkswagen|ID.4": 160
+, "Opel|Frontera Electric": 155
+, "Volkswagen|ID.3": 148
+, "Hyundai|Kona Electric": 143
+, "Volvo|EX30": 138
+, "Mercedes-Benz|CLA EV": 135
+, "Mercedes-Benz|EQA": 120
+, "Audi|Q4 e-tron": 119
+, "BMW|iX2": 118
+, "BYD|Dolphin": 102
+, "Peugeot|e-2008": 99
+, "Hyundai|Ioniq 5": 84
+, "Ford|Capri EV": 82
+, "Mercedes-Benz|EQE": 78
+, "Mazda|EZ-6 BEV": 77
+, "Cupra|Tavascan": 71
+, "Ford|Puma Gen-E": 62
+, "BMW|i4": 61
+, "Toyota|bZ4X": 61
+, "Mercedes-Benz|eCitan": 56
+, "Ford|Explorer EV": 52
+, "Audi|A6 e-tron": 49
+, "Renault|4 E-Tech": 49
+, "MG|S5 EV": 47
+, "Škoda|Enyaq": 47
+, "Cupra|Born": 46
+, "Audi|Q6 e-tron": 42
+, "Renault|Scénic E-Tech": 42
+, "MG|4 EV": 40
+, "Mercedes-Benz|EQB": 38
+, "Porsche|Macan Electric": 36
+, "Kia|EV4": 34
+, "Peugeot|E-3008": 33
+, "Smart|Hashtag 3": 32
+, "Fiat|other": 58
+, "Peugeot|other": 55
+, "BMW|other": 38
+, "Citroën|other": 35
+, "Volvo|other": 35
+, "Smart|other": 31
+, "Xpeng|other": 31
+, "Polestar|other": 30
+, "Volkswagen|other": 25
+, "Opel|other": 24
+, "Hyundai|other": 23
+, "Kia|other": 23
+, "Renault|other": 21
+, "Mercedes-Benz|other": 19
+, "Nissan|other": 15
+, "Honda|other": 9
+, "Ford|other": 7
+, "Porsche|other": 7
+, "Tesla|other": 7
+, "other": 515
+});
