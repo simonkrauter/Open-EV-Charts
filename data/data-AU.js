@@ -1749,3 +1749,79 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 4
 , "other": 284
 });
+
+db.insert(db.countries.AU, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-november-2025-toyota-rav4-tops-charts-in-slower-vfacts-month/",
+{ "Toyota": 19787
+, "Ford": 7407
+, "Mazda": 6979
+, "Hyundai": 6707
+, "Kia": 6510
+, "Mitsubishi": 4414
+, "GWM": 4160
+, "BYD": 3790
+, "Isuzu": 3721
+, "Chery": 3617
+, "Tesla": 2702
+, "other": 30112
+});
+
+db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/12/03/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
+{ "Tesla|Model Y": 2269
+, "BYD|Sealion 7": 1040
+, "Zeekr|7X": 682
+, "Tesla|Model 3": 433
+, "Geely|Galaxy E5": 412
+, "BYD|Yuan Up": 365
+, "Kia|EV5": 300
+, "BYD|Yuan Plus": 261
+, "Kia|EV3": 235
+, "MG|S5 EV": 222
+, "Xpeng|G6": 175
+, "BYD|Seal": 157
+, "MG|4 EV": 145
+, "Volkswagen|ID.4": 129
+, "BMW|iX1": 116
+, "Mini|Cooper SE": 105
+, "BYD|Dolphin": 103
+, "Mercedes-Benz|EQA": 103
+, "Polestar|4": 98
+, "Audi|Q6 e-tron": 90
+, "Volvo|EX30": 90
+, "Škoda|Enyaq": 90
+, "Volkswagen|ID. Buzz": 81
+, "Audi|Q4 e-tron": 77
+, "BMW|i5": 71
+, "Volvo|EX40": 70
+, "GWM|Ora 03": 62
+, "Toyota|bZ4X": 61
+, "Mercedes-Benz|EQB": 59
+, "BMW|iX2": 58
+, "Chery|Omoda E5": 56
+, "Polestar|3": 56
+, "Volkswagen|ID.5": 51
+, "BMW|i4": 48
+, "Ford|Mustang Mach-E": 46
+, "Cupra|Tavascan": 42
+, "Hyundai|Inster": 42
+, "Hyundai|Ioniq 6": 40
+, "Hyundai|Kona Electric": 38
+, "Škoda|Elroq": 36
+, "Zeekr|X": 30
+, "Kia|Niro EV": 25
+, "Hyundai|Ioniq 5": 23
+, "Volvo|EX90": 16
+, "Audi|Q8 e-tron": 15
+, "Subaru|Solterra": 15
+, "Zeekr|009": 15
+, "Nissan|Ariya": 13
+, "Polestar|2": 13
+, "Mercedes-Benz|EQE SUV": 12
+, "BMW|other": 16
+, "Kia|other": 16
+, "Mercedes-Benz|other": 14
+, "Renault|other": 13
+, "Hyundai|other": 8
+, "Jeep|other": 6
+, "Audi|other": 5
+, "other": 283
+});
