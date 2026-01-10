@@ -8813,3 +8813,117 @@ db.insert(db.countries.NL, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 9
 , "other": 364
 });
+
+db.insert(db.countries.NL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/november/",
+{ "Volkswagen": 3532
+, "Renault": 2923
+, "Škoda": 2824
+, "Kia": 2620
+, "Audi": 2009
+, "Toyota": 1990
+, "Volvo": 1953
+, "BMW": 1812
+, "Tesla": 1627
+, "Hyundai": 1383
+, "Ford": 1334
+, "Mercedes-Benz": 1292
+, "Peugeot": 1178
+, "Opel": 815
+, "Mazda": 810
+, "Dacia": 753
+, "Suzuki": 694
+, "Cupra": 676
+, "BYD": 570
+, "Citroën": 566
+, "Mini": 540
+, "Seat": 540
+, "Lynk & Co": 286
+, "Polestar": 277
+, "Mitsubishi": 258
+, "Fiat": 241
+, "Nissan": 229
+, "MG": 223
+, "Zeekr": 151
+, "Land Rover": 148
+, "Jeep": 143
+, "Porsche": 139
+, "Xpeng": 132
+, "Honda": 101
+, "Smart": 88
+, "Jaecoo": 64
+, "other": 680
+});
+
+db.insert(db.countries.NL, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/11, https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
+{ "Škoda|Elroq": 1423
+, "Kia|EV3": 978
+, "Tesla|Model 3": 897
+, "Volvo|EX30": 743
+, "Volkswagen|ID.7": 715
+, "Tesla|Model Y": 712
+, "Renault|5 E-Tech": 651
+, "Volkswagen|ID.4": 627
+, "Audi|Q4 e-tron": 472
+, "Mini|Cooper SE": 447
+, "Audi|A6 e-tron": 402
+, "Volvo|EX40": 373
+, "Mercedes-Benz|CLA EV": 364
+, "BMW|iX1": 359
+, "Renault|Scénic E-Tech": 352
+, "Škoda|Enyaq": 349
+, "Ford|Explorer EV": 345
+, "Hyundai|Inster": 297
+, "Volkswagen|ID.3": 297
+, "Audi|Q6 e-tron": 255
+, "Cupra|Tavascan": 248
+, "Renault|Megane E-Tech": 243
+, "Hyundai|Kona Electric": 239
+, "Citroën|ë-C3": 223
+, "Cupra|Born": 180
+, "BMW|i4": 172
+, "Mercedes-Benz|EQB": 164
+, "Renault|4 E-Tech": 157
+, "BMW|i5": 154
+, "Polestar|2": 151
+, "Mazda|EZ-6 BEV": 150
+, "Kia|EV6": 144
+, "Ford|Capri EV": 139
+, "Dacia|Spring": 128
+, "BYD|Seagull": 125
+, "Ford|Puma Gen-E": 123
+, "Mercedes-Benz|EQA": 121
+, "Polestar|4": 117
+, "Kia|Niro EV": 107
+, "Peugeot|E-5008": 107
+, "Kia|EV4": 105
+, "Peugeot|e-2008": 105
+, "BMW|iX2": 102
+, "Xpeng|G6": 99
+, "Hyundai|Ioniq 5": 97
+, "Peugeot|E-3008": 95
+, "BYD|Seal": 94
+, "Peugeot|e-208": 94
+, "Kia|EV9": 90
+, "Volvo|EC40": 83
+, "Opel|other": 197
+, "Zeekr|other": 150
+, "BYD|other": 131
+, "Fiat|other": 111
+, "MG|other": 88
+, "Smart|other": 88
+, "Ford|other": 74
+, "Mercedes-Benz|other": 68
+, "Volvo|other": 66
+, "Citroën|other": 62
+, "Peugeot|other": 61
+, "Porsche|other": 61
+, "Jeep|other": 59
+, "Volkswagen|other": 56
+, "BMW|other": 43
+, "Hyundai|other": 39
+, "Xpeng|other": 33
+, "Kia|other": 18
+, "Tesla|other": 18
+, "Toyota|other": 14
+, "other": 541
+});
