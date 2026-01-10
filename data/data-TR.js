@@ -563,3 +563,11 @@ db.insert(db.countries.TR, "2025-10", db.dsTypes.AllCarsTotal, "https://www.odmd
 db.insert(db.countries.TR, "2025-10", db.dsTypes.ElectricCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/5980/Press%20Release%20November%204th%202025.pdf",
 { "other": 14427
 });
+
+db.insert(db.countries.TR, "2025-11", db.dsTypes.AllCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6002/Press%20Release%20December%202nd%202025.pdf",
+{ "other": 104795
+});
+
+db.insert(db.countries.TR, "2025-11", db.dsTypes.ElectricCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6002/Press%20Release%20December%202nd%202025.pdf",
+{ "other": 17892
+});
