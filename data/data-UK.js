@@ -5229,23 +5229,23 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.sm
 db.insert(db.countries.UK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/11 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model Y": 1667
 , "Tesla|Model 3": 1537
-, "Mini|Cooper SE": 1405
+, "Mini|Cooper SE": 1407
 , "Renault|5 E-Tech": 1215
-, "Ford|Puma Gen-E": 1094
+, "Ford|Puma Gen-E": 1095
 , "Polestar|4": 1016
 , "Cupra|Tavascan": 926
 , "Škoda|Elroq": 890
 , "Volvo|EX30": 822
 , "BYD|Dolphin": 807
 , "Audi|Q6 e-tron": 721
-, "BYD|Seagull": 661
+, "BYD|Seagull": 662
 , "Škoda|Enyaq": 639
 , "Ford|Explorer EV": 627
-, "BMW|i4": 616
+, "BMW|i4": 617
 , "BYD|Seal": 594
-, "MG|S5 EV": 591
-, "Kia|EV3": 586
-, "Audi|Q4 e-tron": 573
+, "MG|S5 EV": 592
+, "Kia|EV3": 587
+, "Audi|Q4 e-tron": 574
 , "Volkswagen|ID.4": 521
 , "Hyundai|Kona Electric": 486
 , "Cupra|Born": 432
@@ -5267,30 +5267,30 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 283
 , "Geely|Galaxy E5": 254
 , "BYD|Yuan Plus": 250
-, "Peugeot|E-5008": 242
+, "Peugeot|E-5008": 244
 , "Nissan|Ariya": 241
 , "Hyundai|Inster": 206
 , "Citroën|ë-C3": 201
-, "Dacia|Spring": 196
+, "Dacia|Spring": 197
 , "Audi|A6 e-tron": 188
 , "Polestar|2": 188
 , "Volvo|EX40": 178
-, "Kia|EV4": 172
+, "Kia|EV4": 173
 , "BMW|i5": 171
-, "Vauxhall|other": 650
-, "Peugeot|other": 624
+, "Vauxhall|other": 657
+, "Peugeot|other": 626
 , "Volkswagen|other": 603
 , "Ford|other": 576
 , "Renault|other": 556
 , "Tesla|other": 556
 , "Mercedes-Benz|other": 551
 , "Audi|other": 535
-, "Kia|other": 498
+, "Kia|other": 505
 , "BYD|other": 417
 , "Hyundai|other": 415
 , "Škoda|other": 353
-, "BMW|other": 306
-, "Volvo|other": 295
+, "BMW|other": 307
+, "Volvo|other": 305
 , "MG|other": 209
 , "Toyota|other": 179
 , "Porsche|other": 162
@@ -5306,5 +5306,5 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Geely|other": 37
 , "Suzuki|other": 35
 , "Dacia|other": 26
-, "other": 5362
+, "other": 5323
 });
