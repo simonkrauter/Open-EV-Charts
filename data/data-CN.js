@@ -2130,3 +2130,25 @@ db.insert(db.countries.CN, "2025-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 7871
 , "other": 455966
 });
+
+db.insert(db.countries.CN, "2025-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/01/20/another-record-month-for-ev-sales-in-china/",
+{ "other": 2271186
+});
+
+db.insert(db.countries.CN, "2025-12", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/01/20/another-record-month-for-ev-sales-in-china/",
+{ "Tesla|Model Y": 65874
+, "Xiaomi|YU7": 39089
+, "Geometry|Xingyuan": 36147
+, "Wuling|Hongguang Mini EV": 29365
+, "Tesla|Model 3": 27969
+, "BYD|Qin EV": 19855
+, "BYD|Sealion 06 EV": 9512
+, "BYD|Song EV": 4732
+, "Nio|ES8": 22258
+, "BYD|Seal 06 EV": 9059
+, "BYD|Yuan Up": 18766
+, "BYD|Seagull": 18307
+, "BYD|Dolphin": 15602
+, "Zeekr|9X": 9482
+, "other": 468898
+});
