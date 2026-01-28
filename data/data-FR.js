@@ -6338,3 +6338,44 @@ db.insert(db.countries.FR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Cupra|Born": 484
 , "other": 11747
 });
+
+db.insert(db.countries.FR, "2025-12", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/01/Immatriculations-VPN_Decembre2025_2.pdf",
+{ "Renault": 29402
+, "Peugeot": 16398
+, "Volkswagen": 12379
+, "Citroën": 10747
+, "Dacia": 10731
+, "Toyota": 10515
+, "BMW": 8199
+, "MG": 6988
+, "Mercedes-Benz": 6686
+, "Hyundai": 6539
+, "Audi": 6033
+, "Škoda": 5419
+, "Ford": 4284
+, "Nissan": 4215
+, "Kia": 3923
+, "Mini": 2985
+, "Volvo": 2618
+, "BYD": 2551
+, "Opel": 2383
+, "Cupra": 2369
+, "Suzuki": 2136
+, "Fiat": 2079
+, "Tesla": 1942
+, "Mazda": 1669
+, "Seat": 1587
+, "Jeep": 811
+, "Honda": 663
+, "Mitsubishi": 654
+, "Xpeng": 583
+, "Porsche": 547
+, "Land Rover": 343
+, "Smart": 114
+, "Lynk & Co": 31
+, "other": 4404
+});
+
+db.insert(db.countries.FR, "2025-12", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/01/Immatriculations-mensuelles-par-energie_Decembre2025.pdf",
+{ "other": 42211
+});
