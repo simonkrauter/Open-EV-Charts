@@ -2,43 +2,43 @@
 
 "use strict";
 
-db.insert(db.countries.US, "2017-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4030694
 });
 
-db.insert(db.countries.US, "2017-Q1", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q1", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 21415
 });
 
-db.insert(db.countries.US, "2017-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4421646
 });
 
-db.insert(db.countries.US, "2017-Q2", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q2", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 22813
 });
 
-db.insert(db.countries.US, "2017-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4427091
 });
 
-db.insert(db.countries.US, "2017-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 30073
 });
 
-db.insert(db.countries.US, "2017-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4361956
 });
 
-db.insert(db.countries.US, "2017-Q4", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2017-Q4", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 30186
 });
 
-db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2018-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4091864
 });
 
-db.insert(db.countries.US, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 16198
 , "Tesla|Model S": 3438
 , "Tesla|Model X": 3279
@@ -47,11 +47,11 @@ db.insert(db.countries.US, "2018-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 157
 });
 
-db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2018-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4483755
 });
 
-db.insert(db.countries.US, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 22924
 , "Tesla|Model S": 4866
 , "Tesla|Model X": 4641
@@ -60,11 +60,11 @@ db.insert(db.countries.US, "2018-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 222
 });
 
-db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2018-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4277315
 });
 
-db.insert(db.countries.US, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 36036
 , "Tesla|Model S": 7649
 , "Tesla|Model X": 7296
@@ -73,11 +73,11 @@ db.insert(db.countries.US, "2018-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 349
 });
 
-db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2018-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4360612
 });
 
-db.insert(db.countries.US, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 49678
 , "Tesla|Model S": 10545
 , "Tesla|Model X": 10058
@@ -86,11 +86,11 @@ db.insert(db.countries.US, "2018-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 481
 });
 
-db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2019-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3983481
 });
 
-db.insert(db.countries.US, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 36333
 , "Tesla|Model X": 4341
 , "Chevrolet|Bolt": 3853
@@ -101,11 +101,11 @@ db.insert(db.countries.US, "2019-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 1917
 });
 
-db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2019-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4417708
 });
 
-db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 40756
 , "Tesla|Model X": 4870
 , "Chevrolet|Bolt": 4322
@@ -116,11 +116,11 @@ db.insert(db.countries.US, "2019-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 2151
 });
 
-db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2019-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4302332
 });
 
-db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 42536
 , "Tesla|Model X": 5082
 , "Chevrolet|Bolt": 4510
@@ -131,11 +131,11 @@ db.insert(db.countries.US, "2019-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 2245
 });
 
-db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2019-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4249391
 });
 
-db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
+db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20200721191226/https://cleantechnica.com/2020/02/12/top-u-s-electric-vehicles-2019-vs-2018-best-sellers/",
 { "Tesla|Model 3": 35212
 , "Tesla|Model X": 4207
 , "Chevrolet|Bolt": 3734
@@ -146,11 +146,11 @@ db.insert(db.countries.US, "2019-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 1858
 });
 
-db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2020-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3477084
 });
 
-db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
+db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
 { "Tesla|Model 3": 20538
 , "Tesla|Model Y": 18069
 , "Tesla|Model X": 5086
@@ -162,11 +162,11 @@ db.insert(db.countries.US, "2020-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 175
 });
 
-db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2020-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 2935580
 });
 
-db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
+db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
 { "Tesla|Model 3": 12333
 , "Tesla|Model Y": 10850
 , "Tesla|Model X": 3054
@@ -178,11 +178,11 @@ db.insert(db.countries.US, "2020-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 105
 });
 
-db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2020-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3895812
 });
 
-db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
+db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
 { "Tesla|Model 3": 25211
 , "Tesla|Model Y": 22181
 , "Tesla|Model X": 6243
@@ -194,11 +194,11 @@ db.insert(db.countries.US, "2020-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 215
 });
 
-db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2020-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4163556
 });
 
-db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
+db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://web.archive.org/web/20210217141611/https://cleantechnica.com/2021/02/08/2020-us-electric-vehicle-sales-report/",
 { "Tesla|Model 3": 29754
 , "Tesla|Model Y": 26177
 , "Tesla|Model X": 7368
@@ -210,11 +210,11 @@ db.insert(db.countries.US, "2020-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 254
 });
 
-db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2021-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3897214
 });
 
-db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
+db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
 { "Tesla|Model Y": 37180
 , "Tesla|Model 3": 29477
 , "Ford|Mustang Mach-E": 5425
@@ -229,11 +229,11 @@ db.insert(db.countries.US, "2021-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 89
 });
 
-db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2021-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4390941
 });
 
-db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
+db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
 { "Tesla|Model Y": 44119
 , "Tesla|Model 3": 34978
 , "Ford|Mustang Mach-E": 6438
@@ -248,11 +248,11 @@ db.insert(db.countries.US, "2021-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 105
 });
 
-db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2021-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3389399
 });
 
-db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
+db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
 { "Tesla|Model Y": 48269
 , "Tesla|Model 3": 38268
 , "Ford|Mustang Mach-E": 7043
@@ -267,11 +267,11 @@ db.insert(db.countries.US, "2021-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 115
 });
 
-db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2021-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3269419
 });
 
-db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
+db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, http://web.archive.org/web/20220625082346/https://cleantechnica.com/2022/04/11/top-non-tesla-electric-cars-in-usa-had-only-token-sales-in-2021/",
 { "Tesla|Model Y": 55974
 , "Tesla|Model 3": 44377
 , "Ford|Mustang Mach-E": 8168
@@ -286,11 +286,11 @@ db.insert(db.countries.US, "2021-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQS": 133
 });
 
-db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3295018
 });
 
-db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
+db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
 { "Tesla|Model Y": 50051
 , "Tesla|Model 3": 41218
 , "Ford|Mustang Mach-E": 8099
@@ -315,11 +315,11 @@ db.insert(db.countries.US, "2022-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 4174
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3488315
 });
 
-db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
+db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
 { "Tesla|Model Y": 58351
 , "Tesla|Model 3": 48052
 , "Ford|Mustang Mach-E": 9442
@@ -344,11 +344,11 @@ db.insert(db.countries.US, "2022-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 4866
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3385085
 });
 
-db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
+db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
 { "Tesla|Model Y": 63120
 , "Tesla|Model 3": 51980
 , "Ford|Mustang Mach-E": 10214
@@ -373,11 +373,11 @@ db.insert(db.countries.US, "2022-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 5263
 });
 
-db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2022-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3585921
 });
 
-db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
+db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/02/25/us-electric-car-sales-increased-65-in-2022/",
 { "Tesla|Model Y": 71897
 , "Tesla|Model 3": 59208
 , "Ford|Mustang Mach-E": 11635
@@ -402,11 +402,11 @@ db.insert(db.countries.US, "2022-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 5995
 });
 
-db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2023-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3560667
 });
 
-db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/04/27/us-electric-vehicle-sales-up-66-in-1st-quarter/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
+db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/04/27/us-electric-vehicle-sales-up-66-in-1st-quarter/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
 { "Tesla|Model Y": 87656
 , "Tesla|Model 3": 54963
 , "Chevrolet|Bolt/Bolt EUV": 19700
@@ -434,11 +434,11 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 21414
 });
 
-db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4090375
 });
 
-db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
+db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/09/22/us-electric-car-sales-up-147-since-2021/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
 { "Tesla|Model Y": 91437
 , "Tesla|Model 3": 60248
 , "Chevrolet|Bolt/Bolt EUV": 13959
@@ -468,11 +468,11 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 47331
 });
 
-db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3958839
 });
 
-db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
+db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2023/12/15/us-bev-sales-up-44-over-q3-2022-up-143-over-q3-2021/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
 { "Tesla|Model Y": 83524
 , "Tesla|Model 3": 56020
 , "Chevrolet|Bolt/Bolt EUV": 15835
@@ -502,11 +502,11 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 52307
 });
 
-db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3888410
 });
 
-db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2024/01/14/us-ev-market-grows-29-in-4th-quarter-tesla-holds-56-market-share/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
+db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2024/01/14/us-ev-market-grows-29-in-4th-quarter-tesla-holds-56-market-share/, https://cleantechnica.com/2024/02/21/tesla-us-auto-market-share-tops-volkswagen-bmw-suburu-mercedes/",
 { "Tesla|Model Y": 131880
 , "Tesla|Model 3": 49678
 , "Chevrolet|Bolt/Bolt EUV": 12551
@@ -540,11 +540,11 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 11379
 });
 
-db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3731655
 });
 
-db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2024/05/04/tesla-still-sells-more-evs-in-usa-than-ford-chevrolet-hyundai-kia-audi-bmw-chevrolet-toyota-combined/",
+db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2024/05/04/tesla-still-sells-more-evs-in-usa-than-ford-chevrolet-hyundai-kia-audi-bmw-chevrolet-toyota-combined/",
 { "Tesla|Model Y": 96729
 , "Tesla|Model 3": 30842
 , "Ford|Mustang Mach-E": 9589
@@ -580,11 +580,11 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 23912
 });
 
-db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4057559
 });
 
-db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2024/09/30/after-6-years-tesla-finally-accounts-for-less-than-50-of-us-ev-sales/",
+db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2024/09/30/after-6-years-tesla-finally-accounts-for-less-than-50-of-us-ev-sales/",
 { "Tesla|Model Y": 101301
 , "Tesla|Model 3": 42710
 , "Ford|Mustang Mach-E": 12645
@@ -629,11 +629,11 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 12478
 });
 
-db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3885320
 });
 
-db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2024/12/09/tesla-sweeps-podium-for-top-selling-electric-vehicles-in-usa-charts/",
+db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2024/12/09/tesla-sweeps-podium-for-top-selling-electric-vehicles-in-usa-charts/",
 { "Tesla|Model Y": 86801
 , "Tesla|Model 3": 58423
 , "Tesla|Cybertruck": 16692
@@ -677,11 +677,11 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 35853
 });
 
-db.insert(db.countries.US, "2024-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2024-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4199566
 });
 
-db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2025/01/26/tesla-ford-chevrolet-lead-us-ev-sales-charts/",
+db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2025/01/26/tesla-ford-chevrolet-lead-us-ev-sales-charts/",
 { "Tesla|Model Y": 85506
 , "Tesla|Model 3": 57928
 , "Honda|Prologue": 18838
@@ -731,11 +731,11 @@ db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 24543
 });
 
-db.insert(db.countries.US, "2025-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2025-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 3910776
 });
 
-db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2025/04/14/tesla-model-y-model-3-continue-to-dominate-us-ev-market-but/",
+db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2025/04/14/tesla-model-y-model-3-continue-to-dominate-us-ev-market-but/",
 { "Tesla|Model Y": 64051
 , "Tesla|Model 3": 52520
 , "Ford|Mustang Mach-E": 11607
@@ -785,11 +785,11 @@ db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 36412
 });
 
-db.insert(db.countries.US, "2025-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf",
+db.insert(db.countries.US, "2025-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
 { "other": 4180619
 });
 
-db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-08/Total%20Sales%20for%20Website_July%202025.pdf, https://cleantechnica.com/2025/08/29/the-top-selling-electric-vehicles-in-the-usa-charts/",
+db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2025/08/29/the-top-selling-electric-vehicles-in-the-usa-charts/",
 { "Tesla|Model Y": 86120
 , "Tesla|Model 3": 48803
 , "Chevrolet|Equinox EV": 17420
@@ -835,14 +835,14 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 289
 , "Audi|e-tron GT": 223
 , "Volvo|EC40": 161
-, "other": 26122
+, "other": 26012
 });
 
 db.insert(db.countries.US, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
-{ "other": 4102998
+{ "other": 4097490
 });
 
-db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf, https://cleantechnica.com/2025/11/05/top-selling-electric-vehicles-in-usas-blockbuster-3rd-quarter-plus-the-losers/",
+db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf, https://cleantechnica.com/2025/11/05/top-selling-electric-vehicles-in-usas-blockbuster-3rd-quarter-plus-the-losers/",
 { "Tesla|Model Y": 114897
 , "Tesla|Model 3": 53857
 , "Chevrolet|Equinox EV": 25085
@@ -881,10 +881,11 @@ db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 787
 , "BMW|i7": 731
 , "Nissan|Leaf": 724
+, "Mini|Countryman Electric": 682
 , "Audi|e-tron GT": 652
 , "Mercedes-Benz|EQS": 574
 , "Ford|E-Transit": 430
 , "Mercedes-Benz|eSprinter": 320
 , "Fiat|500e": 288
-, "other": 34482
+, "other": 30098
 });
