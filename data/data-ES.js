@@ -7499,3 +7499,80 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 7
 , "other": 488
 });
+
+db.insert(db.countries.ES, "2025-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
+{ "other": 103012
+});
+
+db.insert(db.countries.ES, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2025/12 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
+{ "Tesla|Model 3": 963
+, "Tesla|Model Y": 830
+, "BYD|Seagull": 697
+, "BYD|Seal": 516
+, "BYD|Yuan Up": 437
+, "Citroën|ë-C3": 418
+, "Mini|Cooper SE": 401
+, "Kia|EV3": 399
+, "Jeep|Avenger EV": 345
+, "BYD|Yuan Plus": 240
+, "Dacia|Spring": 240
+, "BMW|iX1": 237
+, "Volvo|EX30": 218
+, "Škoda|Elroq": 214
+, "Renault|5 E-Tech": 204
+, "Volkswagen|ID.4": 189
+, "BMW|iX2": 186
+, "Hyundai|Kona Electric": 184
+, "Audi|Q4 e-tron": 168
+, "Mercedes-Benz|CLA EV": 162
+, "Mercedes-Benz|EQA": 159
+, "Hyundai|Inster": 156
+, "Xpeng|G6": 151
+, "BYD|Sealion 7": 138
+, "Kia|Niro EV": 123
+, "BYD|Dolphin": 111
+, "Opel|Frontera Electric": 105
+, "Volkswagen|ID.3": 105
+, "Peugeot|e-2008": 95
+, "Ford|Puma Gen-E": 93
+, "Fiat|600e": 84
+, "Mercedes-Benz|EQE": 82
+, "Škoda|Enyaq": 80
+, "Hyundai|Ioniq 5": 78
+, "Polestar|4": 73
+, "Peugeot|e-208": 72
+, "Polestar|2": 72
+, "MG|4 EV": 71
+, "Mazda|EZ-6 BEV": 68
+, "Kia|PV5": 64
+, "BMW|i4": 63
+, "Audi|Q6 e-tron": 55
+, "MG|S5 EV": 54
+, "Porsche|Macan Electric": 50
+, "Ford|Capri EV": 47
+, "Ford|Explorer EV": 47
+, "Toyota|bZ4X": 46
+, "Renault|Scénic E-Tech": 44
+, "Cupra|Born": 42
+, "Renault|4 E-Tech": 37
+, "Volkswagen|other": 66
+, "Mercedes-Benz|other": 62
+, "Smart|other": 62
+, "Kia|other": 59
+, "Volvo|other": 58
+, "Peugeot|other": 54
+, "BMW|other": 53
+, "Cupra|other": 34
+, "Nissan|other": 31
+, "Opel|other": 30
+, "Fiat|other": 29
+, "Porsche|other": 25
+, "Audi|other": 24
+, "Citroën|other": 24
+, "Renault|other": 16
+, "Ford|other": 10
+, "Polestar|other": 9
+, "Xpeng|other": 8
+, "Honda|other": 6
+, "other": 806
+});
