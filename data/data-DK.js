@@ -4386,3 +4386,80 @@ db.insert(db.countries.DK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 8
 , "other": 35
 });
+
+db.insert(db.countries.DK, "2025-12", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 18531
+});
+
+db.insert(db.countries.DK, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2025/12, https://www.statistikbanken.dk/bil51",
+{ "Tesla|Model Y": 1696
+, "Audi|Q4 e-tron": 1009
+, "Volkswagen|ID.4": 793
+, "Škoda|Elroq": 721
+, "Volkswagen|ID. Buzz": 705
+, "Xpeng|G6": 487
+, "Volkswagen|ID.3": 456
+, "Renault|Scénic E-Tech": 451
+, "Škoda|Enyaq": 428
+, "Volkswagen|ID.7": 383
+, "Audi|A6 e-tron": 303
+, "Mercedes-Benz|EQB": 298
+, "Tesla|Model 3": 277
+, "Cupra|Born": 270
+, "Cupra|Tavascan": 241
+, "Volvo|EX40": 238
+, "Citroën|ë-C3": 232
+, "BMW|iX1": 223
+, "MG|4 EV": 214
+, "Peugeot|e-208": 208
+, "Mercedes-Benz|EQE": 201
+, "Renault|5 E-Tech": 195
+, "Mercedes-Benz|EQA": 194
+, "Mazda|EZ-6 BEV": 192
+, "Toyota|Proace Electric": 188
+, "BMW|i4": 186
+, "Toyota|bZ4X": 186
+, "Audi|Q6 e-tron": 176
+, "Polestar|4": 176
+, "BMW|i5": 165
+, "Hyundai|Kona Electric": 154
+, "Zeekr|7X": 148
+, "Renault|Master E-Tech": 143
+, "Volkswagen|ID.5": 138
+, "Ford|E-Transit": 133
+, "Ford|Explorer EV": 130
+, "Hyundai|Inster": 128
+, "Peugeot|e-2008": 122
+, "Xpeng|G9": 120
+, "Hyundai|Ioniq 5": 117
+, "Renault|4 E-Tech": 113
+, "Volvo|EX30": 101
+, "Peugeot|E-3008": 97
+, "Kia|EV3": 90
+, "Volkswagen|e-Transporter": 85
+, "BMW|iX": 84
+, "Nissan|Ariya": 82
+, "BYD|Seal": 79
+, "MG|S5 EV": 77
+, "Ford|Puma Gen-E": 76
+, "BYD|other": 186
+, "Opel|other": 129
+, "Kia|other": 117
+, "Mercedes-Benz|other": 101
+, "Renault|other": 94
+, "Peugeot|other": 75
+, "Polestar|other": 62
+, "Volvo|other": 62
+, "Mini|other": 54
+, "Toyota|other": 50
+, "BMW|other": 48
+, "Hyundai|other": 44
+, "Citroën|other": 38
+, "Ford|other": 38
+, "Porsche|other": 33
+, "Xpeng|other": 20
+, "Fiat|other": 19
+, "Jeep|other": 16
+, "Zeekr|other": 14
+, "other": 44
+});
