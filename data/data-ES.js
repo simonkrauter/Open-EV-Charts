@@ -7480,6 +7480,7 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 3": 32
 , "Fiat|other": 58
 , "Peugeot|other": 55
+, "Kia|other": 50
 , "BMW|other": 38
 , "Citroën|other": 35
 , "Volvo|other": 35
@@ -7489,7 +7490,6 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 25
 , "Opel|other": 24
 , "Hyundai|other": 23
-, "Kia|other": 23
 , "Renault|other": 21
 , "Mercedes-Benz|other": 19
 , "Nissan|other": 15
@@ -7497,5 +7497,5 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 7
 , "Porsche|other": 7
 , "Tesla|other": 7
-, "other": 515
+, "other": 488
 });
