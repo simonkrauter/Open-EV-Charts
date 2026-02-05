@@ -8912,8 +8912,8 @@ db.insert(db.countries.NL, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 88
 , "Smart|other": 88
 , "Ford|other": 74
+, "Volvo|other": 69
 , "Mercedes-Benz|other": 68
-, "Volvo|other": 66
 , "Citroën|other": 62
 , "Peugeot|other": 61
 , "Porsche|other": 61
@@ -8925,5 +8925,5 @@ db.insert(db.countries.NL, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 18
 , "Tesla|other": 18
 , "Toyota|other": 14
-, "other": 541
+, "other": 538
 });
