@@ -5210,6 +5210,7 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Dacia": 2765
 , "Citroën": 2217
 , "Mazda": 1763
+, "Porsche": 1657
 , "Seat": 1649
 , "Suzuki": 1470
 , "Chery": 1367
@@ -5223,7 +5224,7 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Xpeng": 94
 , "GWM": 30
 , "Changan": 28
-, "other": 6101
+, "other": 4443
 });
 
 db.insert(db.countries.UK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2025/11 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
