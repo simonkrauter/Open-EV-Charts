@@ -7089,3 +7089,45 @@ db.insert(db.countries.IE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID. Buzz": 1
 , "other": 8
 });
+
+db.insert(db.countries.IE, "2025-12", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Tesla": 147
+, "Hyundai": 22
+, "Citroën": 16
+, "Volkswagen": 12
+, "Ford": 10
+, "Kia": 10
+, "Toyota": 10
+, "Škoda": 8
+, "Mercedes-Benz": 6
+, "BYD": 5
+, "Seat": 5
+, "MG": 4
+, "Suzuki": 4
+, "Audi": 3
+, "Dacia": 3
+, "Xpeng": 2
+, "Honda": 1
+, "Jeep": 1
+, "Mini": 1
+, "Nissan": 1
+, "Opel": 1
+, "Polestar": 1
+, "other": 3
+});
+
+db.insert(db.countries.IE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Tesla|Model Y": 89
+, "Tesla|Model 3": 58
+, "Kia|EV5": 5
+, "MG|4 EV": 4
+, "BYD|Sealion 7": 3
+, "Kia|EV4": 3
+, "Xpeng|G6": 2
+, "Audi|Q4 e-tron": 1
+, "BYD|Seagull": 1
+, "Polestar|4": 1
+, "Volkswagen|ID.3": 1
+, "Volkswagen|ID.7": 1
+, "other": 2
+});
