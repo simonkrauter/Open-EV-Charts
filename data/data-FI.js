@@ -6836,5 +6836,6 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 5
 , "Opel|other": 3
 , "Audi|other": 2
-, "other": 118
+, "Kia|other": 2
+, "other": 116
 });
