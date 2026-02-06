@@ -1806,7 +1806,7 @@ function getAllCarsDetailednessSpan(dataset) {
     span.classList.add("good");
   } else if (brandCount >= 20) {
     span.appendChild(document.createTextNode("Top 20 brands"));
-    span.classList.add("medium");
+    span.classList.add("good");
   } else if (brandCount >= 10) {
     span.appendChild(document.createTextNode("Top 10 brands"));
     span.classList.add("medium");
