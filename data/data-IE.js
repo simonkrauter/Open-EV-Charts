@@ -7131,3 +7131,103 @@ db.insert(db.countries.IE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.7": 1
 , "other": 2
 });
+
+db.insert(db.countries.IE, "2026-01", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Toyota": 5134
+, "Hyundai": 3803
+, "Volkswagen": 3213
+, "Škoda": 2978
+, "Kia": 2616
+, "Peugeot": 1569
+, "Ford": 1523
+, "Audi": 1332
+, "Dacia": 1260
+, "Renault": 1194
+, "Nissan": 1187
+, "BMW": 1055
+, "BYD": 1028
+, "Opel": 1021
+, "Mercedes-Benz": 791
+, "Cupra": 675
+, "MG": 625
+, "Volvo": 587
+, "Citroën": 525
+, "Suzuki": 515
+, "Seat": 329
+, "Mazda": 282
+, "Tesla": 143
+, "Land Rover": 138
+, "Honda": 131
+, "Mini": 115
+, "Xpeng": 102
+, "Porsche": 83
+, "Polestar": 73
+, "Fiat": 35
+, "Jeep": 20
+, "other": 496
+});
+
+db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Volkswagen|ID.4": 697
+, "Hyundai|Inster": 322
+, "Kia|EV3": 297
+, "Hyundai|Kona Electric": 291
+, "Hyundai|Ioniq 5": 271
+, "Toyota|bZ4X": 262
+, "BYD|Sealion 7": 256
+, "MG|S5 EV": 216
+, "Škoda|Elroq": 216
+, "Ford|Explorer EV": 209
+, "Škoda|Enyaq": 201
+, "Kia|EV6": 172
+, "Cupra|Tavascan": 154
+, "Hyundai|Ioniq 6": 151
+, "Kia|EV5": 151
+, "BMW|iX1": 149
+, "Renault|5 E-Tech": 148
+, "Volvo|EX40": 148
+, "Volkswagen|ID.3": 142
+, "Cupra|Born": 140
+, "Nissan|Ariya": 139
+, "Renault|Megane E-Tech": 132
+, "BYD|Seal": 114
+, "BYD|Seagull": 110
+, "Kia|EV4": 105
+, "Xpeng|G6": 102
+, "Renault|4 E-Tech": 100
+, "Volkswagen|ID.5": 96
+, "Tesla|Model 3": 95
+, "Volkswagen|ID.7": 94
+, "MG|4 EV": 90
+, "Ford|Puma Gen-E": 87
+, "Peugeot|E-3008": 83
+, "Renault|Scénic E-Tech": 81
+, "Opel|Frontera Electric": 74
+, "Audi|Q4 e-tron": 71
+, "Peugeot|e-2008": 68
+, "Mini|Cooper SE": 66
+, "Ford|Capri EV": 62
+, "Peugeot|E-5008": 58
+, "BYD|Dolphin": 54
+, "Hyundai|Ioniq 9": 51
+, "BMW|i4": 49
+, "Tesla|Model Y": 48
+, "BMW|iX2": 42
+, "Volvo|EX30": 41
+, "BYD|Yuan Plus": 39
+, "Audi|Q6 e-tron": 35
+, "Polestar|4": 35
+, "Audi|A6 e-tron": 32
+, "Citroën|other": 58
+, "Opel|other": 56
+, "Volvo|other": 52
+, "Mercedes-Benz|other": 38
+, "Polestar|other": 38
+, "Dacia|other": 27
+, "Porsche|other": 22
+, "BMW|other": 20
+, "Kia|other": 20
+, "Peugeot|other": 17
+, "Volkswagen|other": 4
+, "other": 116
+});
