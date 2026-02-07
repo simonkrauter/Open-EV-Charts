@@ -1088,7 +1088,7 @@ db.insert(db.countries.BR, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Volvo": 790
 , "Porsche": 456
 , "Audi": 329
-, "Jaecoo": 275
+, "Omoda Jaecoo": 275
 , "other": 1268
 });
 
@@ -1133,7 +1133,7 @@ db.insert(db.countries.BR, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Volvo": 796
 , "Ford": 500
 , "Porsche": 469
-, "Jaecoo": 381
+, "Omoda Jaecoo": 381
 , "other": 1439
 });
 
@@ -1175,8 +1175,8 @@ db.insert(db.countries.BR, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1524
 , "Mercedes-Benz": 743
 , "Volvo": 731
-, "Jaecoo": 620
-, "other": 2569
+, "Omoda Jaecoo": 721
+, "other": 2468
 });
 
 db.insert(db.countries.BR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_07_02.pdf",
@@ -1218,8 +1218,8 @@ db.insert(db.countries.BR, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1198
 , "Volvo": 812
 , "Mercedes-Benz": 720
-, "Jaecoo": 635
-, "other": 2489
+, "Omoda Jaecoo": 720
+, "other": 2404
 });
 
 db.insert(db.countries.BR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_08_02.pdf",
@@ -1260,7 +1260,8 @@ db.insert(db.countries.BR, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1263
 , "Volvo": 902
 , "Mercedes-Benz": 857
-, "other": 3542
+, "Omoda Jaecoo": 838
+, "other": 2704
 });
 
 db.insert(db.countries.BR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_09_02.pdf",
@@ -1303,8 +1304,8 @@ db.insert(db.countries.BR, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "Mitsubishi": 1254
 , "Mercedes-Benz": 983
 , "Volvo": 979
-, "Jaecoo": 677
-, "other": 3180
+, "Omoda Jaecoo": 862
+, "other": 2995
 });
 
 db.insert(db.countries.BR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_10_02.pdf",
@@ -1342,11 +1343,12 @@ db.insert(db.countries.BR, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "BMW": 1479
 , "Peugeot": 1328
 , "Ford": 1225
+, "Omoda Jaecoo": 1213
 , "Mitsubishi": 1096
 , "Geely": 985
 , "Mercedes-Benz": 724
 , "Volvo": 684
-, "other": 3309
+, "other": 2096
 });
 
 db.insert(db.countries.BR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_11_02.pdf",
@@ -1382,14 +1384,14 @@ db.insert(db.countries.BR, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "GWM": 5144
 , "Citroën": 4900
 , "Peugeot": 2629
+, "Omoda Jaecoo": 1943
 , "Geely": 1731
 , "BMW": 1584
 , "Ford": 1423
 , "Volvo": 1140
 , "Mitsubishi": 1002
-, "Jaecoo": 997
 , "Mercedes-Benz": 762
-, "other": 4295
+, "other": 3349
 });
 
 db.insert(db.countries.BR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_12_02.pdf",
@@ -1424,13 +1426,14 @@ db.insert(db.countries.BR, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 , "GWM": 4171
 , "Chery": 3548
 , "Citroën": 2452
+, "Omoda Jaecoo": 1689
 , "Peugeot": 1342
 , "Geely": 1337
 , "Ford": 1096
 , "BMW": 960
 , "Volvo": 719
 , "Mitsubishi": 647
-, "other": 4983
+, "other": 3294
 });
 
 db.insert(db.countries.BR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_01_02.pdf",

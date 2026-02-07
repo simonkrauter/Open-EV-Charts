@@ -4164,8 +4164,8 @@ db.insert(db.countries.AT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Nissan": 56
 , "Polestar": 37
 , "Subaru": 19
-, "Jaecoo": 13
-, "other": 400
+, "Omoda Jaecoo": 17
+, "other": 396
 });
 
 db.insert(db.countries.AT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisOktober2025.ods",
@@ -4214,12 +4214,12 @@ db.insert(db.countries.AT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Land Rover": 80
 , "Porsche": 79
 , "Smart": 45
+, "Omoda Jaecoo": 22
 , "Polestar": 22
 , "Subaru": 20
-, "Jaecoo": 19
 , "Xpeng": 8
 , "Nio": 5
-, "other": 342
+, "other": 339
 });
 
 db.insert(db.countries.AT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisNovember2025.ods",
@@ -4271,11 +4271,11 @@ db.insert(db.countries.AT, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Smart": 44
 , "Xpeng": 44
 , "Subaru": 37
-, "Jaecoo": 30
+, "Omoda Jaecoo": 32
 , "Aion": 6
 , "Nio": 5
 , "BAIC": 3
-, "other": 349
+, "other": 347
 });
 
 db.insert(db.countries.AT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2025.ods",

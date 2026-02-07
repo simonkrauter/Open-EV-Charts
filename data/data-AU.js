@@ -1066,7 +1066,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|EV6": 52
 , "BMW|i5": 50
 , "Cupra|Born": 50
-, "Chery|Omoda E5": 47
+, "Omoda Jaecoo|Omoda E5": 47
 , "BMW|iX3": 41
 , "Volvo|EC40": 38
 , "Volvo|EX40": 38
@@ -1137,7 +1137,7 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|4": 83
 , "Hyundai|Kona Electric": 79
 , "Cupra|Born": 71
-, "Chery|Omoda E5": 67
+, "Omoda Jaecoo|Omoda E5": 67
 , "Toyota|bZ4X": 66
 , "Hyundai|Ioniq 5": 65
 , "Volvo|EX40": 63
@@ -1224,7 +1224,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|Niro EV": 42
 , "BMW|iX3": 40
 , "Kia|EV9": 40
-, "Chery|Omoda E5": 39
+, "Omoda Jaecoo|Omoda E5": 39
 , "BMW|iX": 38
 , "Renault|Megane E-Tech": 36
 , "Volkswagen|ID. Buzz": 35
@@ -1279,7 +1279,7 @@ db.insert(db.countries.AU, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mini|Cooper SE": 140
 , "Polestar|4": 124
 , "BMW|iX2": 118
-, "Chery|Omoda E5": 103
+, "Omoda Jaecoo|Omoda E5": 103
 , "Toyota|bZ4X": 89
 , "Cupra|Born": 81
 , "Volvo|EX30": 79
@@ -1358,7 +1358,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Inster": 101
 , "Volkswagen|ID. Buzz": 96
 , "Volvo|EX30": 95
-, "Chery|Omoda E5": 93
+, "Omoda Jaecoo|Omoda E5": 93
 , "BMW|i4": 92
 , "Mercedes-Benz|EQA": 84
 , "Polestar|2": 82
@@ -1504,7 +1504,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 55
 , "Mercedes-Benz|EQA": 52
 , "Mercedes-Benz|EQE SUV": 50
-, "Chery|Omoda E5": 48
+, "Omoda Jaecoo|Omoda E5": 48
 , "Audi|Q6 e-tron": 41
 , "Volvo|EX40": 40
 , "Cupra|Tavascan": 39
@@ -1712,7 +1712,7 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|i5": 87
 , "Škoda|Elroq": 79
 , "Polestar|3": 78
-, "Chery|Omoda E5": 77
+, "Omoda Jaecoo|Omoda E5": 77
 , "BMW|iX1": 75
 , "Ford|Mustang Mach-E": 75
 , "Mini|Cooper SE": 67
@@ -1796,7 +1796,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 61
 , "Mercedes-Benz|EQB": 59
 , "BMW|iX2": 58
-, "Chery|Omoda E5": 56
+, "Omoda Jaecoo|Omoda E5": 56
 , "Polestar|3": 56
 , "Volkswagen|ID.5": 51
 , "BMW|i4": 48

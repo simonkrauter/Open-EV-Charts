@@ -7803,7 +7803,8 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 9
 , "BAIC": 7
 , "Jaguar": 4
-, "other": 646
+, "Omoda Jaecoo": 2
+, "other": 644
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",

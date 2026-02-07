@@ -2433,7 +2433,8 @@ db.insert(db.countries.PT, "2025-10", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Polestar": 23
 , "Aion": 17
 , "Honda": 3
-, "other": 19
+, "Omoda Jaecoo": 3
+, "other": 16
 });
 
 db.insert(db.countries.PT, "2025-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
@@ -2472,7 +2473,8 @@ db.insert(db.countries.PT, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Nissan": 27
 , "Changan": 19
 , "Nio": 5
-, "other": 23
+, "Omoda Jaecoo": 4
+, "other": 19
 });
 
 db.insert(db.countries.PT, "2025-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
@@ -2510,7 +2512,7 @@ db.insert(db.countries.PT, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Porsche": 22
 , "Nissan": 19
 , "Aion": 16
-, "Jaecoo": 7
+, "Omoda Jaecoo": 7
 , "Nio": 4
 , "other": 17
 });

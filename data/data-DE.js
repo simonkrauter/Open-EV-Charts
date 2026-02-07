@@ -9290,9 +9290,10 @@ db.insert(db.countries.DE, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Xpeng": 426
 , "Subaru": 250
 , "Nio": 89
+, "Omoda Jaecoo": 68
 , "Lynk & Co": 45
 , "GWM": 30
-, "other": 4064
+, "other": 3996
 });
 
 db.insert(db.countries.DE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_12.xlsx?__blob=publicationFile&v=5",

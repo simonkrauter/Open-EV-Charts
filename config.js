@@ -224,7 +224,7 @@ const companyGroups = {
     ],
   "Chery Automobile":
     [ "Chery"
-    , "Jaecoo"
+    , "Omoda Jaecoo"
     ]
 };
 

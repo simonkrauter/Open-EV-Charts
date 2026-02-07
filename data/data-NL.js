@@ -8573,11 +8573,12 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 20
 , "Citroën|other": 18
 , "Nio|other": 18
+, "Omoda Jaecoo|other": 15
 , "Polestar|other": 10
 , "Porsche|other": 8
 , "Nissan|other": 7
 , "Tesla|other": 6
-, "other": 264
+, "other": 249
 });
 
 db.insert(db.countries.NL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/september/",
@@ -8613,13 +8614,13 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "MG": 151
 , "Porsche": 126
 , "Jeep": 112
+, "Omoda Jaecoo": 89
 , "Xpeng": 88
-, "Jaecoo": 78
 , "Honda": 39
 , "Smart": 36
 , "Nio": 19
 , "Subaru": 4
-, "other": 625
+, "other": 614
 });
 
 db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/9, https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
@@ -8732,10 +8733,10 @@ db.insert(db.countries.NL, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 165
 , "Zeekr": 161
 , "Honda": 118
-, "Jaecoo": 81
+, "Omoda Jaecoo": 96
 , "Smart": 73
 , "Nio": 10
-, "other": 774
+, "other": 759
 });
 
 db.insert(db.countries.NL, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/10, https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
@@ -8850,8 +8851,8 @@ db.insert(db.countries.NL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 132
 , "Honda": 101
 , "Smart": 88
-, "Jaecoo": 64
-, "other": 680
+, "Omoda Jaecoo": 83
+, "other": 661
 });
 
 db.insert(db.countries.NL, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/11, https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
@@ -8956,17 +8957,17 @@ db.insert(db.countries.NL, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 345
 , "MG": 293
 , "Mitsubishi": 250
+, "Omoda Jaecoo": 207
 , "Fiat": 200
 , "Jeep": 179
 , "Nissan": 163
-, "Jaecoo": 161
 , "Lynk & Co": 150
 , "Smart": 131
 , "Land Rover": 90
 , "Nio": 85
 , "Porsche": 76
 , "Honda": 45
-, "other": 765
+, "other": 719
 });
 
 db.insert(db.countries.NL, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/12, https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",

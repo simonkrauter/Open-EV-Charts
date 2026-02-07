@@ -1289,7 +1289,7 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Smart": 84
 , "Fiat": 79
 , "Mini": 26
-, "Jaecoo": 22
+, "Omoda Jaecoo": 22
 , "Honda": 21
 , "Land Rover": 19
 , "Lynk & Co": 14
@@ -1344,7 +1344,7 @@ db.insert(db.countries.IL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 247
 , "Peugeot": 243
 , "Ford": 205
-, "Jaecoo": 188
+, "Omoda Jaecoo": 188
 , "Volvo": 185
 , "Audi": 182
 , "Zeekr": 178
@@ -1408,7 +1408,7 @@ db.insert(db.countries.IL, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Tesla": 699
 , "Volkswagen": 635
 , "Subaru": 440
-, "Jaecoo": 429
+, "Omoda Jaecoo": 429
 , "Citroën": 344
 , "GWM": 336
 , "Geely": 321
@@ -1478,7 +1478,7 @@ db.insert(db.countries.IL, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volkswagen": 336
 , "Geely": 320
 , "Subaru": 308
-, "Jaecoo": 264
+, "Omoda Jaecoo": 264
 , "Zeekr": 203
 , "Peugeot": 156
 , "Audi": 154
@@ -1546,7 +1546,7 @@ db.insert(db.countries.IL, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Xpeng": 603
 , "Mitsubishi": 586
 , "Seat": 412
-, "Jaecoo": 393
+, "Omoda Jaecoo": 393
 , "Mazda": 370
 , "Tesla": 363
 , "Subaru": 336
@@ -1631,7 +1631,7 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Dacia": 101
 , "BMW": 85
 , "Peugeot": 70
-, "Jaecoo": 62
+, "Omoda Jaecoo": 62
 , "GWM": 57
 , "Isuzu": 56
 , "Smart": 54
@@ -1686,7 +1686,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Chery": 2528
 , "MG": 1958
 , "BYD": 1948
-, "Jaecoo": 1875
+, "Omoda Jaecoo": 1875
 , "Seat": 1824
 , "Mitsubishi": 1654
 , "Subaru": 1130
@@ -1759,7 +1759,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Škoda": 2498
 , "Kia": 1953
 , "Chery": 1447
-, "Jaecoo": 1009
+, "Omoda Jaecoo": 1009
 , "Seat": 807
 , "Xpeng": 691
 , "BYD": 630
@@ -1832,7 +1832,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Kia": 2024
 , "Škoda": 1814
 , "Chery": 1219
-, "Jaecoo": 1125
+, "Omoda Jaecoo": 1125
 , "BYD": 850
 , "MG": 770
 , "Xpeng": 628
@@ -1903,7 +1903,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Kia": 1364
 , "Chery": 1237
 , "Škoda": 1105
-, "Jaecoo": 1032
+, "Omoda Jaecoo": 1032
 , "MG": 860
 , "BYD": 727
 , "Xpeng": 485
@@ -1971,7 +1971,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 { "Toyota": 3043
 , "Chery": 2665
 , "Hyundai": 2585
-, "Jaecoo": 2203
+, "Omoda Jaecoo": 2203
 , "Kia": 2093
 , "Mazda": 1803
 , "Škoda": 1389
@@ -2043,7 +2043,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Hyundai": 1787
 , "Kia": 1573
 , "Škoda": 1263
-, "Jaecoo": 1215
+, "Omoda Jaecoo": 1215
 , "BYD": 711
 , "Tesla": 601
 , "MG": 510
@@ -2114,7 +2114,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Kia": 2689
 , "Škoda": 1862
 , "BYD": 1791
-, "Jaecoo": 1057
+, "Omoda Jaecoo": 1057
 , "MG": 787
 , "Tesla": 575
 , "Citroën": 526
@@ -2188,7 +2188,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BYD": 1802
 , "Škoda": 1674
 , "Mazda": 1356
-, "Jaecoo": 1334
+, "Omoda Jaecoo": 1334
 , "MG": 864
 , "Xpeng": 608
 , "Suzuki": 531
@@ -2246,7 +2246,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 28
 , "Cupra": 19
 , "GWM": 17
-, "Jaecoo": 11
+, "Omoda Jaecoo": 11
 , "Porsche": 8
 , "other": 2551
 });
@@ -2255,7 +2255,7 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 { "Chery": 3483
 , "Toyota": 2595
 , "BYD": 2404
-, "Jaecoo": 2263
+, "Omoda Jaecoo": 2263
 , "Kia": 1969
 , "Hyundai": 1957
 , "Škoda": 1421
@@ -2317,7 +2317,7 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Kia": 41
 , "MG": 40
 , "Volvo": 14
-, "Jaecoo": 9
+, "Omoda Jaecoo": 9
 , "Porsche": 6
 , "other": 3836
 });
@@ -2327,7 +2327,7 @@ db.insert(db.countries.IL, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Hyundai": 1868
 , "Chery": 1741
 , "Škoda": 1617
-, "Jaecoo": 1520
+, "Omoda Jaecoo": 1520
 , "Kia": 1509
 , "BYD": 587
 , "MG": 515
@@ -2376,7 +2376,7 @@ db.insert(db.countries.IL, "2025-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "JAC": 192
 , "BYD": 166
 , "Zeekr": 121
-, "Jaecoo": 113
+, "Omoda Jaecoo": 113
 , "Kia": 85
 , "Nio": 65
 , "Tesla": 22
@@ -2399,7 +2399,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Kia": 2224
 , "Škoda": 1974
 , "Hyundai": 1703
-, "Jaecoo": 1440
+, "Omoda Jaecoo": 1440
 , "Renault": 886
 , "Tesla": 857
 , "Dacia": 604
@@ -2442,7 +2442,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Xpeng": 302
 , "Geely": 296
 , "BYD": 244
-, "Jaecoo": 236
+, "Omoda Jaecoo": 236
 , "Zeekr": 205
 , "Kia": 71
 , "Volkswagen": 27
@@ -2471,6 +2471,7 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BYD": 334
 , "Škoda": 280
 , "Nissan": 276
+, "Omoda Jaecoo": 228
 , "Hyundai": 200
 , "Geely": 195
 , "Chevrolet": 186
@@ -2500,7 +2501,8 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 9
 , "Ford": 8
 , "Fiat": 7
-, "other": 17322
+, "Smart": 2
+, "other": 1019
 });
 
 db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/840517675203091.pdf",
@@ -2509,6 +2511,7 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Zeekr": 159
 , "Xpeng": 101
 , "BYD": 65
+, "Omoda Jaecoo": 30
 , "Kia": 12
 , "MG": 11
 , "Lynk & Co": 6
@@ -2519,5 +2522,5 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Audi": 2
 , "Chery": 2
 , "Smart": 2
-, "other": 1190
+, "other": 791
 });

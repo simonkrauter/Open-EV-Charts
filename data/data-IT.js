@@ -5652,13 +5652,14 @@ db.insert(db.countries.IT, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 661
 , "Porsche": 619
 , "BYD": 556
+, "Omoda Jaecoo": 455
 , "Subaru": 254
 , "Mitsubishi": 192
 , "Smart": 157
 , "Polestar": 57
 , "Jaguar": 39
 , "Lynk & Co": 39
-, "other": 7965
+, "other": 7510
 });
 
 db.insert(db.countries.IT, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/11, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Novembre%202024_674ddd52452c6.pdf",
@@ -5760,6 +5761,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Seat": 638
 , "BYD": 635
 , "Porsche": 620
+, "Omoda Jaecoo": 523
 , "Honda": 463
 , "Land Rover": 450
 , "Mitsubishi": 212
@@ -5767,7 +5769,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Subaru": 119
 , "Jaguar": 46
 , "Polestar": 25
-, "other": 6700
+, "other": 6177
 });
 
 db.insert(db.countries.IT, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2024/12, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Dicembre_2024_6776c2863729b.pdf",
@@ -5827,6 +5829,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 20
 , "Mercedes-Benz|other": 19
 , "Toyota|other": 14
+, "Omoda Jaecoo|other": 13
 , "Nissan|other": 12
 , "BMW|other": 11
 , "BYD|other": 11
@@ -5839,7 +5842,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 5
 , "Kia|other": 3
 , "Mazda|other": 3
-, "other": 230
+, "other": 217
 });
 
 db.insert(db.countries.IT, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Gennaio%202025_67a0f1041cd04.pdf",
@@ -5871,6 +5874,7 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 662
 , "Land Rover": 645
 , "Porsche": 592
+, "Omoda Jaecoo": 546
 , "Tesla": 408
 , "Mitsubishi": 215
 , "Subaru": 111
@@ -5878,7 +5882,7 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Lynk & Co": 61
 , "Jaguar": 36
 , "Polestar": 26
-, "other": 7705
+, "other": 7159
 });
 
 db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/1, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Gennaio_2025_67a0e5e21be5d.pdf",
@@ -5943,9 +5947,10 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 17
 , "Porsche|other": 15
 , "Volvo|other": 14
+, "Omoda Jaecoo|other": 13
 , "BYD|other": 12
 , "Kia|other": 12
-, "other": 496
+, "other": 483
 });
 
 db.insert(db.countries.IT, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Febbraio%202025_67c5c0952e3c0.pdf",
@@ -5977,6 +5982,7 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Honda": 781
 , "Land Rover": 649
 , "Seat": 589
+, "Omoda Jaecoo": 523
 , "Porsche": 487
 , "Subaru": 197
 , "Mitsubishi": 141
@@ -5984,7 +5990,7 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Polestar": 28
 , "Jaguar": 21
 , "Lynk & Co": 17
-, "other": 8204
+, "other": 7681
 });
 
 db.insert(db.countries.IT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/2, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Febbraio%202025_67c5bfcfbecef.pdf",
@@ -6055,9 +6061,10 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 11
 , "Toyota|other": 10
 , "Opel|other": 9
+, "Omoda Jaecoo|other": 7
 , "Fiat|other": 5
 , "Renault|other": 5
-, "other": 499
+, "other": 492
 });
 
 db.insert(db.countries.IT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Marzo%202025_67ec05efb3ec7.pdf",
@@ -6087,6 +6094,7 @@ db.insert(db.countries.IT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Mini": 1409
 , "Volvo": 1361
 , "Mazda": 1194
+, "Omoda Jaecoo": 987
 , "Land Rover": 984
 , "Honda": 789
 , "Porsche": 701
@@ -6096,7 +6104,7 @@ db.insert(db.countries.IT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Smart": 58
 , "Polestar": 36
 , "Lynk & Co": 32
-, "other": 10843
+, "other": 9856
 });
 
 db.insert(db.countries.IT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/3, https://www.unrae.it/files/Top%2010%20per%20alimentazione%20Marzo%202025_67ec044b1c6b7.pdf",
@@ -6163,13 +6171,14 @@ db.insert(db.countries.IT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 19
 , "BYD|other": 18
 , "Mercedes-Benz|other": 18
+, "Omoda Jaecoo|other": 17
 , "Hyundai|other": 16
 , "Smart|other": 15
 , "Peugeot|other": 13
 , "Fiat|other": 12
 , "MG|other": 8
 , "Renault|other": 7
-, "other": 636
+, "other": 619
 });
 
 db.insert(db.countries.IT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Aprile%202025_6814d8a849cb8.pdf",
@@ -6197,6 +6206,7 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Mini": 1445
 , "Volvo": 1344
 , "Seat": 956
+, "Omoda Jaecoo": 939
 , "Honda": 863
 , "Mazda": 793
 , "Land Rover": 634
@@ -6208,7 +6218,7 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Polestar": 43
 , "Lynk & Co": 41
 , "Jaguar": 24
-, "other": 9528
+, "other": 8589
 });
 
 db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/4, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Aprile%202025_6814d85937bd5.pdf",
@@ -6272,6 +6282,7 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 17
 , "Renault|other": 16
 , "Škoda|other": 16
+, "Omoda Jaecoo|other": 13
 , "Opel|other": 13
 , "Subaru|other": 12
 , "Peugeot|other": 11
@@ -6283,7 +6294,7 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 7
 , "MG|other": 6
 , "Nissan|other": 6
-, "other": 704
+, "other": 691
 });
 
 db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Maggio%202025_683f0e647ee8b.pdf",
@@ -6310,6 +6321,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "BYD": 1945
 , "Mini": 1398
 , "Volvo": 1160
+, "Omoda Jaecoo": 988
 , "Mazda": 956
 , "Tesla": 855
 , "Honda": 854
@@ -6321,33 +6333,33 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Smart": 52
 , "Polestar": 32
 , "Lynk & Co": 25
-, "other": 9439
+, "other": 8451
 });
 
 db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/5, https://unrae.it/files/Top%2010%20per%20alimentazione%20maggio%202025_683f05651a256.pdf",
-{ "Tesla|Model Y": 629
-, "Citroën|ë-C3": 484
-, "Jeep|Avenger EV": 478
-, "Audi|Q6 e-tron": 371
-, "Peugeot|E-3008": 356
-, "BMW|iX1": 330
-, "Mini|Cooper SE": 268
+{ "Tesla|Model Y": 627
+, "Citroën|ë-C3": 483
+, "Jeep|Avenger EV": 476
+, "Audi|Q6 e-tron": 370
+, "Peugeot|E-3008": 354
+, "BMW|iX1": 329
+, "Mini|Cooper SE": 267
 , "Ford|Puma Gen-E": 259
-, "Dacia|Spring": 235
-, "Tesla|Model 3": 212
+, "Dacia|Spring": 234
+, "Tesla|Model 3": 211
 , "BYD|Seal": 175
 , "Audi|Q4 e-tron": 150
 , "Renault|5 E-Tech": 148
 , "Porsche|Macan Electric": 139
 , "Volvo|EX30": 121
-, "Fiat|500e": 120
-, "Opel|Frontera Electric": 112
-, "Hyundai|Inster": 111
-, "Cupra|Tavascan": 110
-, "Ford|Explorer EV": 105
-, "Kia|EV3": 102
-, "BYD|Dolphin": 98
-, "Škoda|Enyaq": 98
+, "Fiat|500e": 119
+, "Opel|Frontera Electric": 111
+, "Hyundai|Inster": 110
+, "Cupra|Tavascan": 109
+, "Ford|Explorer EV": 104
+, "Kia|EV3": 101
+, "BYD|Dolphin": 97
+, "Škoda|Enyaq": 97
 , "Mercedes-Benz|EQA": 87
 , "Škoda|Elroq": 81
 , "Renault|Scénic E-Tech": 80
@@ -6386,6 +6398,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 24
 , "Porsche|other": 22
 , "Fiat|other": 21
+, "Omoda Jaecoo|other": 21
 , "Toyota|other": 21
 , "Ford|other": 19
 , "Kia|other": 16
@@ -6395,7 +6408,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 9
 , "Smart|other": 7
 , "MG|other": 5
-, "other": 41
+, "other": 40
 });
 
 db.insert(db.countries.IT, "2025-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Giugno%202025_686401d990f8f.pdf",
@@ -6422,6 +6435,7 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "BYD": 1911
 , "Tesla": 1697
 , "Mini": 1337
+, "Omoda Jaecoo": 1297
 , "Volvo": 1284
 , "Mazda": 918
 , "Honda": 825
@@ -6433,7 +6447,7 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Smart": 114
 , "Polestar": 88
 , "Lynk & Co": 20
-, "other": 10140
+, "other": 8843
 });
 
 db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/6, https://unrae.it/files/07%20Top%2010%20per%20alimentazione%20Giugno%202025_6864014b3822a.pdf",
@@ -6501,6 +6515,7 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 31
 , "Smart|other": 26
 , "Volkswagen|other": 24
+, "Omoda Jaecoo|other": 19
 , "Škoda|other": 19
 , "Audi|other": 18
 , "Porsche|other": 15
@@ -6508,7 +6523,7 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 10
 , "Subaru|other": 9
 , "Citroën|other": 5
-, "other": 605
+, "other": 586
 });
 
 db.insert(db.countries.IT, "2025-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Luglio%202025_688cbb56b3e77.pdf",
@@ -6533,6 +6548,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "BYD": 1967
 , "Nissan": 1843
 , "Cupra": 1462
+, "Omoda Jaecoo": 1410
 , "Volvo": 1278
 , "Mini": 1241
 , "Mazda": 829
@@ -6546,7 +6562,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Smart": 109
 , "Lynk & Co": 72
 , "Polestar": 27
-, "other": 9082
+, "other": 7672
 });
 
 db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/7, https://unrae.it/files/07%20Top%2010%20per%20alimentazione%20Luglio%202025_688cbae15fb79.pdf",
@@ -6591,6 +6607,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|A6 e-tron": 33
 , "BMW|iX": 33
 , "Toyota|Proace City Electric": 33
+, "Omoda Jaecoo|Omoda E5": 31
 , "Cupra|Born": 30
 , "Hyundai|Kona Electric": 28
 , "Peugeot|e-208": 27
@@ -6599,12 +6616,12 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 25
 , "Kia|EV6": 24
 , "Volkswagen|ID. Buzz": 24
-, "Porsche|Taycan": 23
 , "Mercedes-Benz|other": 53
 , "Opel|other": 49
 , "Volvo|other": 31
 , "Polestar|other": 27
 , "Citroën|other": 26
+, "Porsche|other": 23
 , "Toyota|other": 23
 , "BMW|other": 18
 , "Fiat|other": 16
@@ -6619,7 +6636,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 7
 , "Nissan|other": 7
 , "Renault|other": 6
-, "other": 853
+, "other": 822
 });
 
 db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Agosto%202025_68b5c203e4fa6.pdf",
@@ -6643,6 +6660,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Cupra": 1029
 , "Suzuki": 989
 , "Nissan": 985
+, "Omoda Jaecoo": 924
 , "BYD": 876
 , "Mini": 758
 , "Volvo": 453
@@ -6657,7 +6675,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Lynk & Co": 29
 , "Polestar": 20
 , "Smart": 11
-, "other": 4778
+, "other": 3854
 });
 
 db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/8, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Luglio%202025_688cbae15fb79.pdf",
@@ -6705,6 +6723,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX90": 12
 , "Hyundai|Kona Electric": 11
 , "Mercedes-Benz|EQB": 11
+, "Omoda Jaecoo|Omoda E5": 11
 , "Peugeot|e-2008": 11
 , "Toyota|bZ4X": 11
 , "BMW|i4": 10
@@ -6728,7 +6747,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 3
 , "Nissan|other": 3
 , "Renault|other": 3
-, "other": 2955
+, "other": 2944
 });
 
 db.insert(db.countries.IT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Settembre%202025_68dd52d467a3f.pdf",
@@ -6753,29 +6772,30 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.un
 , "BYD": 2471
 , "Nissan": 2305
 , "Cupra": 1885
+, "Omoda Jaecoo": 1626
 , "Mini": 1451
 , "Tesla": 1450
 , "Volvo": 1192
 , "Honda": 1056
 , "Mazda": 854
 , "Seat": 619
-, "Smart": 595
+, "Smart": 594
 , "Porsche": 565
 , "Land Rover": 377
-, "Polestar": 264
+, "Polestar": 263
 , "Subaru": 203
 , "Lynk & Co": 64
 , "Mitsubishi": 52
-, "other": 9125
+, "other": 7501
 });
 
 db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/9, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Settembre%202025_68dd43c1228c5.pdf",
-{ "Tesla|Model Y": 737
-, "Tesla|Model 3": 609
-, "Smart|Hashtag 1": 407
-, "Fiat|600e": 357
+{ "Tesla|Model Y": 736
+, "Tesla|Model 3": 608
+, "Smart|Hashtag 1": 406
+, "Fiat|600e": 356
 , "BYD|Seagull": 247
-, "Mini|Cooper SE": 233
+, "Mini|Cooper SE": 232
 , "Polestar|4": 225
 , "Volvo|EX30": 211
 , "Ford|Explorer EV": 209
@@ -6791,8 +6811,8 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-5008": 124
 , "Citroën|ë-C3": 120
 , "Cupra|Tavascan": 105
-, "Volkswagen|ID.3": 104
-, "Dacia|Spring": 102
+, "Volkswagen|ID.3": 103
+, "Dacia|Spring": 101
 , "Fiat|Grande Panda Electric": 97
 , "BYD|Sealion 7": 96
 , "Mercedes-Benz|EQA": 94
@@ -6811,7 +6831,7 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 5": 45
 , "BYD|Dolphin": 44
 , "Ford|Capri EV": 44
-, "Peugeot|e-2008": 39
+, "Peugeot|e-2008": 38
 , "Audi|A6 e-tron": 38
 , "BMW|iX": 37
 , "Volkswagen|ID. Buzz": 35
@@ -6821,22 +6841,23 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 33
 , "Chery|eQ1": 31
 , "Mercedes-Benz|other": 71
-, "Peugeot|other": 52
-, "Polestar|other": 39
+, "Peugeot|other": 51
+, "Polestar|other": 38
 , "Volvo|other": 28
 , "Hyundai|other": 27
 , "Opel|other": 27
-, "Porsche|other": 26
+, "Porsche|other": 25
 , "Cupra|other": 21
 , "MG|other": 16
 , "Toyota|other": 16
 , "Volkswagen|other": 14
 , "BMW|other": 13
 , "Ford|other": 12
+, "Omoda Jaecoo|other": 12
 , "Audi|other": 10
 , "Kia|other": 10
 , "Citroën|other": 7
-, "other": 33
+, "other": 32
 });
 
 db.insert(db.countries.IT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Ottobre%202025_6908d4ff7bac4.pdf",
@@ -6861,6 +6882,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Nissan": 2122
 , "Cupra": 2031
 , "BYD": 1868
+, "Omoda Jaecoo": 1835
 , "Mini": 1723
 , "Volvo": 1262
 , "Honda": 1007
@@ -6874,7 +6896,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Polestar": 41
 , "Mitsubishi": 27
 , "Smart": 24
-, "other": 10261
+, "other": 8426
 });
 
 db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/10, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione_Ottobre%202025_6908d1c218821.pdf",
@@ -6940,6 +6962,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 22
 , "Toyota|other": 22
 , "Peugeot|other": 21
+, "Omoda Jaecoo|other": 17
 , "Kia|other": 15
 , "MG|other": 15
 , "Tesla|other": 15
@@ -6951,7 +6974,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 8
 , "Hyundai|other": 8
 , "Subaru|other": 4
-, "other": 643
+, "other": 626
 });
 
 db.insert(db.countries.IT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Novembre%202025_692dae4c7e223.pdf",
@@ -6975,6 +6998,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Opel": 2467
 , "Cupra": 2319
 , "Nissan": 2309
+, "Omoda Jaecoo": 2204
 , "Suzuki": 2197
 , "Mini": 1556
 , "Volvo": 1316
@@ -6989,7 +7013,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.un
 , "Polestar": 60
 , "Smart": 29
 , "Mitsubishi": 24
-, "other": 11369
+, "other": 9165
 });
 
 db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/11, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20novembre%202025_692dae164a4ae.pdf",
@@ -7041,12 +7065,12 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|600e": 43
 , "Volkswagen|ID. Buzz": 33
 , "Peugeot|E-3008": 30
+, "Omoda Jaecoo|Omoda E5": 27
 , "Opel|Corsa-e": 25
-, "BYD|Seal": 23
+, "BYD|other": 48
 , "Mercedes-Benz|other": 40
 , "Opel|other": 38
 , "Smart|other": 28
-, "BYD|other": 25
 , "Kia|other": 25
 , "Hyundai|other": 23
 , "Toyota|other": 22
@@ -7054,6 +7078,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 20
 , "Citroën|other": 20
 , "Porsche|other": 20
+, "Omoda Jaecoo|other": 19
 , "Tesla|other": 18
 , "Renault|other": 17
 , "Volvo|other": 16
@@ -7061,7 +7086,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 13
 , "Peugeot|other": 12
 , "Ford|other": 8
-, "other": 2778
+, "other": 2732
 });
 
 db.insert(db.countries.IT, "2025-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Dicembre%202025_6957f78389fea.pdf",
@@ -7084,6 +7109,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Škoda": 2587
 , "Tesla": 2519
 , "Cupra": 2346
+, "Omoda Jaecoo": 2164
 , "Suzuki": 2042
 , "Opel": 1884
 , "Mini": 1785
@@ -7099,7 +7125,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.AllCarsByBrand, "https://unrae.
 , "Lynk & Co": 134
 , "Polestar": 54
 , "Smart": 25
-, "other": 10758
+, "other": 8594
 });
 
 db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/12, https://unrae.it/files/07%20Top%2010%20per%20alimentazione%20dicembre%202025_6957f7332cf04.pdf",
@@ -7147,6 +7173,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|4": 41
 , "Peugeot|e-208": 39
 , "Porsche|Taycan": 38
+, "Omoda Jaecoo|Omoda E5": 37
 , "Mazda|EZ-6 BEV": 34
 , "Peugeot|e-2008": 34
 , "BMW|i5": 32
@@ -7171,7 +7198,8 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 13
 , "Toyota|other": 13
 , "Renault|other": 11
+, "Omoda Jaecoo|other": 10
 , "Audi|other": 7
 , "Volvo|other": 7
-, "other": 2795
+, "other": 2748
 });
