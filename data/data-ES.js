@@ -5432,10 +5432,10 @@ db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 28
 , "BMW|iX": 25
 , "Toyota|bZ4X": 25
+, "Hyundai|Ioniq 5": 20
 , "Porsche|Taycan": 20
 , "Volkswagen|ID.3": 20
 , "Audi|Q8 e-tron": 19
-, "Hyundai|Ioniq 5": 18
 , "Opel|Mokka-e": 17
 , "Opel|Corsa-e": 16
 , "Nissan|Ariya": 14
@@ -5467,7 +5467,7 @@ db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|other": 2
 , "Opel|other": 2
 , "Peugeot|other": 2
-, "other": 11
+, "other": 9
 });
 
 db.insert(db.countries.ES, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosfebrerotur.asp, https://www.km77.com/mercado/espana/2024/datosfebrerott.asp",
@@ -5542,11 +5542,11 @@ db.insert(db.countries.ES, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 28
 , "Volkswagen|ID.7": 28
 , "BMW|i5": 23
+, "Hyundai|Ioniq 5": 23
 , "Nissan|Leaf": 23
 , "BMW|i7": 22
 , "Citroën|ë-C4": 21
 , "Kia|EV6": 20
-, "Hyundai|Ioniq 5": 19
 , "Nissan|Ariya": 18
 , "Fiat|E-Doblò": 17
 , "Kia|EV9": 17
@@ -5574,7 +5574,7 @@ db.insert(db.countries.ES, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 4
 , "BYD|other": 3
 , "Jeep|other": 2
-, "other": 81
+, "other": 77
 });
 
 db.insert(db.countries.ES, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosmarzotur.asp, https://www.km77.com/mercado/espana/2024/datosmarzott.asp",
@@ -5762,8 +5762,8 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 3": 39
 , "Opel|Corsa-e": 30
 , "BMW|i5": 27
+, "Hyundai|Ioniq 5": 23
 , "Mercedes-Benz|eCitan": 23
-, "Hyundai|Ioniq 5": 22
 , "Nissan|Leaf": 22
 , "Polestar|2": 20
 , "Toyota|bZ4X": 20
@@ -5793,7 +5793,7 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 2
 , "Mazda|other": 2
 , "Volkswagen|other": 2
-, "other": 9
+, "other": 8
 });
 
 db.insert(db.countries.ES, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosmayotur.asp, https://www.km77.com/mercado/espana/2024/datosmayott.asp",
@@ -5965,10 +5965,10 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 63
 , "Mercedes-Benz|EQB": 60
 , "Volkswagen|ID.4": 57
+, "Hyundai|Ioniq 5": 56
 , "Renault|Megane E-Tech": 54
 , "Peugeot|e-2008": 51
 , "Smart|Hashtag 1": 50
-, "Hyundai|Ioniq 5": 48
 , "MG|ZS EV": 48
 , "Renault|Scénic E-Tech": 45
 , "Dacia|Spring": 44
@@ -6000,7 +6000,7 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 12
 , "Fiat|other": 9
 , "Subaru|other": 9
-, "other": 59
+, "other": 51
 });
 
 db.insert(db.countries.ES, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosjuliotur.asp, https://www.km77.com/mercado/espana/2024/datosjuliott.asp",
@@ -6206,14 +6206,14 @@ db.insert(db.countries.ES, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 10
 , "Kia|other": 9
 , "Smart|other": 9
+, "Audi|other": 8
 , "Fiat|other": 8
-, "Audi|other": 7
 , "Volkswagen|other": 7
 , "MG|other": 6
 , "Peugeot|other": 4
 , "Opel|other": 3
 , "Polestar|other": 3
-, "other": 23
+, "other": 22
 });
 
 db.insert(db.countries.ES, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosseptiembretur.asp, https://www.km77.com/mercado/espana/2024/datosseptiembrett.asp",
@@ -6289,7 +6289,7 @@ db.insert(db.countries.ES, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Scénic E-Tech": 31
 , "Peugeot|E-3008": 30
 , "Ford|Mustang Mach-E": 29
-, "Hyundai|Ioniq 5": 28
+, "Hyundai|Ioniq 5": 29
 , "Polestar|4": 27
 , "Volvo|EX40": 27
 , "Fiat|500e": 26
@@ -6303,26 +6303,26 @@ db.insert(db.countries.ES, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 1": 18
 , "BMW|i5": 16
 , "Hyundai|Ioniq 6": 15
+, "Mercedes-Benz|EQS": 15
 , "Škoda|Enyaq": 15
-, "Nissan|Leaf": 14
-, "Tesla|Model X": 14
-, "Mercedes-Benz|other": 26
+, "Tesla|other": 27
 , "BMW|other": 20
 , "MG|other": 18
 , "Polestar|other": 15
+, "Nissan|other": 14
 , "Jeep|other": 13
 , "Kia|other": 13
-, "Tesla|other": 13
+, "Mercedes-Benz|other": 13
 , "Fiat|other": 11
+, "Xpeng|other": 11
 , "Smart|other": 10
 , "Peugeot|other": 7
 , "Volkswagen|other": 7
+, "Audi|other": 6
 , "Opel|other": 6
 , "Renault|other": 6
-, "Xpeng|other": 6
-, "Audi|other": 5
 , "Honda|other": 4
-, "other": 53
+, "other": 44
 });
 
 db.insert(db.countries.ES, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosoctubretur.asp, https://www.km77.com/mercado/espana/2024/datosoctubrett.asp",
@@ -6400,7 +6400,7 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 1": 40
 , "Peugeot|e-2008": 39
 , "Volkswagen|ID.4": 36
-, "Hyundai|Ioniq 5": 31
+, "Hyundai|Ioniq 5": 33
 , "Kia|EV9": 30
 , "Nissan|Ariya": 30
 , "Peugeot|E-3008": 29
@@ -6415,22 +6415,22 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 23
 , "Ford|Mustang Mach-E": 22
 , "Polestar|4": 22
+, "Mercedes-Benz|other": 25
 , "MG|other": 24
+, "Audi|other": 23
 , "BMW|other": 23
-, "Audi|other": 22
 , "Fiat|other": 22
 , "Opel|other": 21
-, "Mercedes-Benz|other": 19
 , "Porsche|other": 18
 , "Hyundai|other": 17
 , "Peugeot|other": 15
 , "Volkswagen|other": 14
+, "Xpeng|other": 14
 , "Tesla|other": 13
 , "Dacia|other": 11
 , "Volvo|other": 11
 , "Nissan|other": 9
-, "Xpeng|other": 7
-, "other": 102
+, "other": 86
 });
 
 db.insert(db.countries.ES, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2024/datosnoviembrett.asp",
@@ -6520,25 +6520,27 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Scénic E-Tech": 21
 , "Volvo|EC40": 21
 , "Smart|Hashtag 3": 19
+, "Hyundai|Ioniq 5": 18
 , "MG|ZS EV": 18
 , "Mercedes-Benz|EQV": 18
+, "Mercedes-Benz|other": 31
 , "BMW|other": 28
 , "Polestar|other": 24
-, "Hyundai|other": 23
 , "MG|other": 22
 , "Opel|other": 22
-, "Mercedes-Benz|other": 20
-, "Audi|other": 18
+, "Audi|other": 19
 , "Kia|other": 17
 , "Porsche|other": 14
 , "Toyota|other": 13
 , "Volvo|other": 12
 , "Peugeot|other": 11
 , "Volkswagen|other": 10
+, "Xpeng|other": 9
 , "Nissan|other": 8
 , "Fiat|other": 7
+, "Hyundai|other": 7
 , "Tesla|other": 7
-, "other": 182
+, "other": 159
 });
 
 db.insert(db.countries.ES, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2024/datosdiciembrett.asp",
@@ -6607,7 +6609,7 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 74
 , "Audi|Q4 e-tron": 67
 , "Cupra|Tavascan": 66
-, "Hyundai|Ioniq 5": 61
+, "Hyundai|Ioniq 5": 64
 , "Peugeot|e-2008": 59
 , "Porsche|Macan Electric": 57
 , "Citroën|ë-C4": 53
@@ -6625,30 +6627,30 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 31
 , "Audi|Q6 e-tron": 27
 , "Hyundai|Ioniq 6": 27
+, "Xpeng|G6": 26
 , "Peugeot|E-3008": 24
 , "Renault|Scénic E-Tech": 23
 , "Fiat|500e": 22
 , "Škoda|Enyaq": 21
-, "Mercedes-Benz|EQS": 20
-, "Volkswagen|ID.4": 20
+, "Mercedes-Benz|other": 38
+, "Volkswagen|other": 33
 , "BMW|other": 24
 , "Opel|other": 23
 , "Polestar|other": 22
 , "Fiat|other": 17
 , "MG|other": 16
 , "Peugeot|other": 15
-, "Volkswagen|other": 13
 , "BYD|other": 12
 , "Toyota|other": 12
 , "Tesla|other": 11
-, "Mercedes-Benz|other": 10
 , "Volvo|other": 10
 , "Kia|other": 7
 , "Nissan|other": 7
 , "Subaru|other": 6
+, "Audi|other": 5
 , "Porsche|other": 5
 , "Xpeng|other": 5
-, "other": 330
+, "other": 288
 });
 
 db.insert(db.countries.ES, "2025-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
