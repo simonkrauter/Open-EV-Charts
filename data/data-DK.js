@@ -4468,3 +4468,81 @@ db.insert(db.countries.DK, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 14
 , "other": 33
 });
+
+db.insert(db.countries.DK, "2026-01", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 12881
+});
+
+db.insert(db.countries.DK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2026/1, https://www.statistikbanken.dk/bil51",
+{ "Toyota|bZ4X": 1348
+, "Škoda|Elroq": 807
+, "Tesla|Model Y": 454
+, "Audi|Q4 e-tron": 444
+, "Citroën|ë-C3": 435
+, "Volkswagen|ID.4": 400
+, "Volkswagen|ID. Buzz": 370
+, "Škoda|Enyaq": 314
+, "Cupra|Born": 265
+, "Renault|5 E-Tech": 260
+, "BMW|iX1": 246
+, "Volkswagen|ID.3": 233
+, "Xpeng|G6": 211
+, "Renault|4 E-Tech": 194
+, "Volkswagen|ID.7": 194
+, "Volvo|EX40": 189
+, "Renault|Scénic E-Tech": 182
+, "Ford|Explorer EV": 169
+, "Mazda|EZ-6 BEV": 167
+, "Mercedes-Benz|EQA": 146
+, "Peugeot|e-208": 145
+, "Mercedes-Benz|EQB": 140
+, "Zeekr|7X": 137
+, "Citroën|ë-C5": 103
+, "Kia|EV3": 102
+, "Peugeot|e-2008": 101
+, "MG|4 EV": 95
+, "Ford|E-Transit": 93
+, "Audi|A6 e-tron": 92
+, "Kia|PV5": 88
+, "Renault|Megane E-Tech": 85
+, "Hyundai|Kona Electric": 83
+, "Peugeot|E-3008": 81
+, "BMW|i4": 78
+, "MG|S5 EV": 78
+, "BMW|i5": 75
+, "Polestar|4": 75
+, "Renault|Master E-Tech": 75
+, "Hyundai|Ioniq 5": 74
+, "Mini|Cooper SE": 71
+, "Volkswagen|ID.5": 71
+, "Volvo|EX30": 63
+, "Ford|Capri EV": 62
+, "Ford|Puma Gen-E": 62
+, "Hyundai|Inster": 62
+, "Kia|EV9": 59
+, "Kia|EV4": 54
+, "Mercedes-Benz|EQE": 45
+, "Cupra|Tavascan": 44
+, "Mercedes-Benz|eCitan": 44
+, "Volkswagen|e-Transporter": 44
+, "BYD|other": 89
+, "Opel|other": 76
+, "Volvo|other": 65
+, "Toyota|other": 55
+, "Peugeot|other": 51
+, "BMW|other": 49
+, "Xpeng|other": 43
+, "Kia|other": 42
+, "Nissan|other": 41
+, "Mercedes-Benz|other": 40
+, "Honda|other": 25
+, "Polestar|other": 21
+, "Zeekr|other": 19
+, "Hyundai|other": 18
+, "Citroën|other": 13
+, "Porsche|other": 12
+, "Subaru|other": 12
+, "Fiat|other": 9
+, "Omoda Jaecoo|other": 8
+, "other": 418
+});
