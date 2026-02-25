@@ -1860,6 +1860,7 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|4": 98
 , "Volvo|EX30": 92
 , "BMW|i4": 88
+, "BYD|Seagull": 88
 , "MG|4 EV": 85
 , "Audi|Q4 e-tron": 84
 , "GWM|Ora 03": 75
@@ -1890,8 +1891,8 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|Cyberster": 7
 , "Renault|Megane E-Tech": 6
 , "Volvo|EX90": 6
-, "Audi|Q8 e-tron": 5
-, "Jeep|Avenger EV": 5
-, "Mercedes-Benz|EQE": 5
-, "other": 304
+, "Mercedes-Benz|other": 9
+, "Audi|other": 7
+, "Jeep|other": 5
+, "other": 210
 });
