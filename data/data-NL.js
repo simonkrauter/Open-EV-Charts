@@ -9041,5 +9041,6 @@ db.insert(db.countries.NL, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 46
 , "Porsche|other": 42
 , "Polestar|other": 25
-, "other": 701
+, "Omoda Jaecoo|other": 20
+, "other": 681
 });
