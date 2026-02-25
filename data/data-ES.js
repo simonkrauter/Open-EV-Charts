@@ -6394,6 +6394,7 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 53
 , "BYD|Song Plus": 50
 , "Jeep|Avenger EV": 47
+, "Omoda Jaecoo|Omoda E5": 45
 , "BMW|i4": 44
 , "Smart|Hashtag 3": 43
 , "Renault|Scénic E-Tech": 41
@@ -6413,13 +6414,13 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C3": 23
 , "Volvo|EX40": 23
 , "Škoda|Enyaq": 23
-, "Ford|Mustang Mach-E": 22
-, "Polestar|4": 22
 , "Mercedes-Benz|other": 25
 , "MG|other": 24
+, "Polestar|other": 24
 , "Audi|other": 23
 , "BMW|other": 23
 , "Fiat|other": 22
+, "Ford|other": 22
 , "Opel|other": 21
 , "Porsche|other": 18
 , "Hyundai|other": 17
@@ -6430,7 +6431,7 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|other": 11
 , "Volvo|other": 11
 , "Nissan|other": 9
-, "other": 86
+, "other": 39
 });
 
 db.insert(db.countries.ES, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosnoviembretur.asp, https://www.km77.com/mercado/espana/2024/datosnoviembrett.asp",
@@ -6493,6 +6494,7 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 74
 , "Kia|EV6": 73
 , "Renault|5 E-Tech": 70
+, "Omoda Jaecoo|Omoda E5": 67
 , "Ford|Capri EV": 62
 , "Audi|Q4 e-tron": 61
 , "Kia|Niro EV": 60
@@ -6540,7 +6542,7 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 7
 , "Hyundai|other": 7
 , "Tesla|other": 7
-, "other": 159
+, "other": 92
 });
 
 db.insert(db.countries.ES, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.km77.com/mercado/espana/2024/datosdiciembretur.asp, https://www.km77.com/mercado/espana/2024/datosdiciembrett.asp",
@@ -6612,6 +6614,7 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 64
 , "Peugeot|e-2008": 59
 , "Porsche|Macan Electric": 57
+, "Omoda Jaecoo|Omoda E5": 54
 , "Citroën|ë-C4": 53
 , "Smart|Hashtag 1": 51
 , "Smart|Hashtag 3": 43
@@ -6631,12 +6634,12 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-3008": 24
 , "Renault|Scénic E-Tech": 23
 , "Fiat|500e": 22
-, "Škoda|Enyaq": 21
 , "Mercedes-Benz|other": 38
 , "Volkswagen|other": 33
 , "BMW|other": 24
 , "Opel|other": 23
 , "Polestar|other": 22
+, "Škoda|other": 21
 , "Fiat|other": 17
 , "MG|other": 16
 , "Peugeot|other": 15
@@ -6650,7 +6653,7 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 5
 , "Porsche|other": 5
 , "Xpeng|other": 5
-, "other": 288
+, "other": 234
 });
 
 db.insert(db.countries.ES, "2025-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -6702,32 +6705,30 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 23
 , "BMW|i4": 22
 , "Mercedes-Benz|EQS": 22
+, "Omoda Jaecoo|Omoda E5": 22
 , "Nissan|Ariya": 21
 , "Audi|A6 e-tron": 19
 , "Smart|Hashtag 1": 19
 , "Fiat|500e": 18
 , "Toyota|bZ4X": 18
-, "Ford|Explorer EV": 16
-, "Opel|Corsa-e": 16
-, "Polestar|4": 16
+, "Polestar|other": 34
+, "Opel|other": 30
+, "Ford|other": 27
 , "Volvo|other": 27
 , "BMW|other": 24
 , "Audi|other": 23
 , "Mercedes-Benz|other": 22
 , "Xpeng|other": 21
-, "Polestar|other": 18
 , "Peugeot|other": 17
 , "Smart|other": 15
 , "BYD|other": 14
-, "Opel|other": 14
-, "Ford|other": 11
 , "Kia|other": 11
 , "MG|other": 11
 , "Fiat|other": 10
 , "Tesla|other": 9
 , "Volkswagen|other": 9
 , "Hyundai|other": 7
-, "other": 211
+, "other": 189
 });
 
 db.insert(db.countries.ES, "2025-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
@@ -6795,6 +6796,7 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 22
 , "Volvo|other": 21
 , "Porsche|other": 19
+, "Omoda Jaecoo|other": 16
 , "Polestar|other": 14
 , "Renault|other": 14
 , "Xpeng|other": 10
@@ -6805,7 +6807,7 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 4
 , "Subaru|other": 4
 , "Volkswagen|other": 4
-, "other": 103
+, "other": 87
 });
 
 db.insert(db.countries.ES, "2025-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2025.pdf",
@@ -6854,6 +6856,7 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Elroq": 50
 , "Ford|Capri EV": 49
 , "Citroën|ë-C4": 45
+, "Omoda Jaecoo|Omoda E5": 45
 , "MG|4 EV": 42
 , "Volkswagen|ID.7": 37
 , "Audi|A6 e-tron": 35
@@ -6862,12 +6865,12 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-3008": 30
 , "Volvo|EX40": 30
 , "Peugeot|E-5008": 29
-, "Ford|Mustang Mach-E": 28
-, "Nissan|Leaf": 28
 , "Mercedes-Benz|other": 67
 , "Polestar|other": 52
 , "Kia|other": 35
 , "Fiat|other": 33
+, "Ford|other": 28
+, "Nissan|other": 28
 , "Smart|other": 28
 , "Škoda|other": 24
 , "BMW|other": 23
@@ -6881,7 +6884,7 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 6
 , "Peugeot|other": 6
 , "Volkswagen|other": 6
-, "other": 231
+, "other": 186
 });
 
 db.insert(db.countries.ES, "2025-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
@@ -6917,6 +6920,7 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 75
 , "Mercedes-Benz|EQE": 73
 , "BYD|Yuan Up": 72
+, "Omoda Jaecoo|Omoda E5": 71
 , "Volkswagen|ID.3": 68
 , "BMW|i4": 67
 , "Opel|Frontera Electric": 67
@@ -6938,14 +6942,13 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 31
 , "Volvo|EC40": 31
 , "Mercedes-Benz|EQS": 29
-, "MG|ZS EV": 25
+, "MG|other": 53
 , "Polestar|other": 48
 , "Smart|other": 42
 , "BMW|other": 33
 , "Xpeng|other": 33
 , "Ford|other": 32
 , "Nissan|other": 29
-, "MG|other": 28
 , "Fiat|other": 22
 , "Peugeot|other": 22
 , "Mercedes-Benz|other": 21
@@ -6959,7 +6962,7 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 6
 , "Opel|other": 6
 , "BYD|other": 4
-, "other": 320
+, "other": 249
 });
 
 db.insert(db.countries.ES, "2025-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
@@ -7002,6 +7005,7 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 78
 , "Škoda|Elroq": 75
 , "Porsche|Macan Electric": 73
+, "Omoda Jaecoo|Omoda E5": 64
 , "Mercedes-Benz|EQE": 61
 , "Nissan|Ariya": 58
 , "Peugeot|E-3008": 57
@@ -7038,7 +7042,7 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 10
 , "Honda|other": 9
 , "Hyundai|other": 9
-, "other": 335
+, "other": 271
 });
 
 db.insert(db.countries.ES, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -7081,6 +7085,7 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 82
 , "Mercedes-Benz|EQB": 80
 , "Volkswagen|ID.4": 79
+, "Omoda Jaecoo|Omoda E5": 77
 , "Citroën|ë-C4": 76
 , "Fiat|600e": 72
 , "Hyundai|Ioniq 5": 72
@@ -7095,13 +7100,13 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 56
 , "Volvo|EC40": 55
 , "Renault|Megane E-Tech": 54
-, "Xpeng|G6": 53
 , "BMW|other": 96
 , "Ford|other": 87
 , "Mercedes-Benz|other": 83
 , "Audi|other": 74
 , "Smart|other": 72
 , "MG|other": 64
+, "Xpeng|other": 63
 , "Volvo|other": 57
 , "Škoda|other": 47
 , "Peugeot|other": 45
@@ -7113,10 +7118,9 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 14
 , "Renault|other": 14
 , "Subaru|other": 10
-, "Xpeng|other": 10
 , "Honda|other": 9
 , "Kia|other": 9
-, "other": 329
+, "other": 252
 });
 
 db.insert(db.countries.ES, "2025-07", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
