@@ -7072,6 +7072,108 @@ db.insert(db.countries.NO, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4330
 });
 
+db.insert(db.countries.NO, "2026-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2026",
+{ "Volkswagen": 441
+, "Toyota": 295
+, "Škoda": 127
+, "Mercedes-Benz": 93
+, "Hyundai": 87
+, "Tesla": 83
+, "Volvo": 76
+, "MG": 75
+, "Nissan": 75
+, "Citroën": 63
+, "Polestar": 63
+, "Ford": 69
+, "Renault": 56
+, "BYD": 50
+, "BMW": 49
+, "Xpeng": 40
+, "Peugeot": 39
+, "Audi": 38
+, "Opel": 35
+, "Zeekr": 31
+, "Mazda": 27
+, "Porsche": 27
+, "Mini": 22
+, "Subaru": 13
+, "other": 244
+});
+
+db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2026",
+{ "Volkswagen|ID.3": 297
+, "Toyota|bZ4X": 160
+, "Škoda|Elroq": 76
+, "Volkswagen|ID.4": 63
+, "Tesla|Model Y": 62
+, "Hyundai|Inster": 56
+, "Volkswagen|ID.7": 50
+, "JAC|Yiwei 3": 48
+, "MG|4 EV": 45
+, "Renault|5 E-Tech": 45
+, "Škoda|Enyaq": 45
+, "Citroën|ë-C3": 44
+, "Volvo|EX40": 41
+, "Polestar|4": 39
+, "Xpeng|G6": 28
+, "Ford|Explorer EV": 27
+, "BYD|Dolphin": 26
+, "Volvo|EX30": 24
+, "Ford|Puma Gen-E": 23
+, "Mazda|EZ-6 BEV": 22
+, "Mini|Cooper SE": 22
+, "Opel|Frontera Electric": 20
+, "Tesla|Model 3": 20
+, "Audi|Q4 e-tron": 18
+, "Peugeot|e-2008": 17
+, "Zeekr|7X": 17
+, "BMW|iX1": 16
+, "Nissan|Ariya": 16
+, "BYD|Sealion 7": 15
+, "Citroën|ë-C4": 15
+, "Kia|PV5": 15
+, "Audi|Q6 e-tron": 14
+, "Hyundai|Kona Electric": 13
+, "Porsche|Macan Electric": 13
+, "Ford|F-150 Lightning": 11
+, "Peugeot|E-5008": 11
+, "Subaru|Solterra": 11
+, "MG|S5 EV": 10
+, "Opel|Corsa-e": 10
+, "Hyundai|Ioniq 5": 9
+, "Nio|EL6": 9
+, "Polestar|2": 9
+, "Peugeot|e-208": 8
+, "Polestar|3": 8
+, "Volkswagen|e-Transporter": 8
+, "Jeep|Avenger EV": 7
+, "Kia|EV9": 7
+, "Smart|Hashtag 1": 7
+, "Xpeng|G9": 7
+, "BMW|i4": 6
+, "BMW|iX2": 6
+, "Fiat|Grande Panda Electric": 6
+, "Hyundai|Ioniq 9": 6
+, "Volvo|EC40": 6
+, "Zeekr|001": 6
+, "Zeekr|X": 6
+, "BMW|other": 10
+, "Renault|other": 9
+, "Ford|other": 8
+, "BYD|other": 7
+, "Kia|other": 7
+, "Mercedes-Benz|other": 5
+, "Audi|other": 4
+, "Cupra|other": 3
+, "Honda|other": 3
+, "Porsche|other": 3
+, "Smart|other": 3
+, "Citroën|other": 2
+, "Opel|other": 2
+, "Peugeot|other": 2
+, "other": 390
+});
+
 
 
 // Template:
