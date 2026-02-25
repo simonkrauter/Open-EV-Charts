@@ -8152,12 +8152,12 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2025/5, https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
-{ "Škoda|Elroq": 1089
+{ "Škoda|Elroq": 1088
 , "Kia|EV3": 730
-, "Tesla|Model Y": 644
+, "Tesla|Model Y": 643
 , "Volvo|EX30": 433
 , "Tesla|Model 3": 403
-, "Hyundai|Inster": 333
+, "Hyundai|Inster": 332
 , "Citroën|ë-C3": 298
 , "MG|5 EV": 293
 , "Audi|Q4 e-tron": 279
@@ -8171,8 +8171,8 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|A6 e-tron": 183
 , "Renault|Scénic E-Tech": 183
 , "Ford|Explorer EV": 181
-, "Kia|EV6": 168
-, "Audi|Q6 e-tron": 155
+, "Kia|EV6": 167
+, "Audi|Q6 e-tron": 154
 , "Volvo|EX90": 129
 , "Volkswagen|ID.3": 124
 , "MG|ZS EV": 121
@@ -8220,8 +8220,9 @@ db.insert(db.countries.NL, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 17
 , "Audi|other": 14
 , "Porsche|other": 9
+, "Omoda Jaecoo|other": 8
 , "Hyundai|other": 7
-, "other": 46
+, "other": 43
 });
 
 db.insert(db.countries.NL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2025/juni/",
