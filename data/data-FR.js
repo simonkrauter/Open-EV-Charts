@@ -6376,8 +6376,28 @@ db.insert(db.countries.FR, "2025-12", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4404
 });
 
-db.insert(db.countries.FR, "2025-12", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/01/Immatriculations-mensuelles-par-energie_Decembre2025.pdf",
-{ "other": 42211
+db.insert(db.countries.FR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/01/Immatriculations-mensuelles-par-energie_Decembre2025.pdf, https://cleantechnica.com/2026/02/15/france-2025-evs-at-26-7-share-renault-5-best-seller/",
+{ "Renault|5 E-Tech": 6426
+, "Peugeot|e-208": 1902
+, "Peugeot|e-2008": 1710
+, "Renault|Scénic E-Tech": 1674
+, "Citroën|ë-C3": 1572
+, "Renault|4 E-Tech": 1527
+, "Dacia|Spring": 1239
+, "Tesla|Model Y": 1222
+, "BMW|iX1": 1164
+, "Škoda|Elroq": 1149
+, "Renault|Megane E-Tech": 929
+, "Volkswagen|ID.4": 899
+, "Volkswagen|ID.3": 885
+, "Tesla|Model 3": 701
+, "Mercedes-Benz|EQA": 679
+, "Hyundai|Inster": 659
+, "Cupra|Born": 658
+, "Audi|Q4 e-tron": 579
+, "Mini|Aceman": 545
+, "Citroën|ë-C3 Aircross": 539
+, "other": 15553
 });
 
 db.insert(db.countries.FR, "2026-01", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/02/Immatriculations-VPN_Janvier2026.pdf",
