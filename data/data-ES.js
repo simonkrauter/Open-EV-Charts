@@ -7583,3 +7583,82 @@ db.insert(db.countries.ES, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|other": 6
 , "other": 606
 });
+
+db.insert(db.countries.ES, "2026-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+{ "other": 73103
+});
+
+db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2026/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+{ "Tesla|Model Y": 448
+, "Jeep|Avenger EV": 324
+, "BYD|Seagull": 289
+, "Kia|Niro EV": 285
+, "Mini|Cooper SE": 251
+, "Mercedes-Benz|EQA": 224
+, "Kia|EV3": 207
+, "BYD|Yuan Up": 203
+, "BYD|Yuan Plus": 201
+, "BYD|Seal": 191
+, "Toyota|bZ4X": 178
+, "Mercedes-Benz|CLA EV": 172
+, "Renault|5 E-Tech": 135
+, "Citroën|ë-C3": 110
+, "Opel|Frontera Electric": 108
+, "Škoda|Elroq": 108
+, "Xpeng|G6": 104
+, "BYD|Sealion 7": 94
+, "Volvo|EX30": 89
+, "Audi|Q4 e-tron": 84
+, "Mercedes-Benz|EQE": 84
+, "Peugeot|e-208": 84
+, "Hyundai|Inster": 83
+, "Mazda|EZ-6 BEV": 83
+, "Peugeot|e-2008": 80
+, "Volkswagen|ID.4": 80
+, "Kia|PV5": 78
+, "BMW|iX1": 76
+, "BMW|iX2": 72
+, "Ford|Capri EV": 71
+, "Porsche|Macan Electric": 66
+, "Kia|EV5": 64
+, "Opel|Corsa-e": 62
+, "BYD|Dolphin": 59
+, "Volkswagen|ID.3": 58
+, "Mercedes-Benz|EQB": 55
+, "Ford|Puma Gen-E": 46
+, "Hyundai|Kona Electric": 46
+, "Polestar|4": 46
+, "Dacia|Spring": 45
+, "Hyundai|Ioniq 5": 43
+, "Omoda Jaecoo|Omoda E5": 41
+, "Fiat|500e": 37
+, "Škoda|Enyaq": 36
+, "Omoda Jaecoo|Jaecoo E5": 35
+, "Audi|Q6 e-tron": 33
+, "Cupra|Born": 33
+, "Ford|Explorer EV": 30
+, "Renault|4 E-Tech": 26
+, "Volvo|EX40": 24
+, "BMW|other": 44
+, "MG|other": 44
+, "Smart|other": 44
+, "Peugeot|other": 43
+, "Renault|other": 40
+, "Kia|other": 36
+, "Citroën|other": 32
+, "Hyundai|other": 24
+, "Cupra|other": 23
+, "Porsche|other": 23
+, "Audi|other": 21
+, "Volvo|other": 18
+, "Volkswagen|other": 16
+, "Mercedes-Benz|other": 15
+, "Fiat|other": 12
+, "Polestar|other": 12
+, "Nissan|other": 10
+, "Tesla|other": 10
+, "Xpeng|other": 10
+, "Ford|other": 9
+, "Opel|other": 9
+, "other": 496
+});
