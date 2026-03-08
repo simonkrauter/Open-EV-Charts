@@ -2155,3 +2155,23 @@ db.insert(db.countries.CN, "2025-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 15602
 , "other": 478380
 });
+
+db.insert(db.countries.CN, "2026-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/02/26/geely-xiaomi-shine-in-china-january-ev-sales-report-2/",
+{ "other": 1531522
+});
+
+db.insert(db.countries.CN, "2026-01", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/02/26/geely-xiaomi-shine-in-china-january-ev-sales-report-2/",
+{ "Xiaomi|YU7": 37869
+, "Geometry|Xingyuan": 29007
+, "Nio|ES8": 17645
+, "Tesla|Model Y": 16845
+, "MG|4 EV": 10007
+, "Wuling|Hongguang Mini EV": 7133
+, "Xpeng|Mona M03": 6718
+, "Zeekr|7X": 6468
+, "BYD|Seal 06 EV": 3003
+, "BYD|Qin EV": 2013
+, "BYD|Sealion 06 EV": 1987
+, "BYD|Song EV": 1602
+, "other": 207703
+});
