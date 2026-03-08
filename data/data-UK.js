@@ -5613,7 +5613,7 @@ db.insert(db.countries.UK, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.sm
 , "Changan": 60
 , "Smart": 53
 , "Xpeng": 22
-, "other": 91526
+, "other": 1426
 });
 
 db.insert(db.countries.UK, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2026/2 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
