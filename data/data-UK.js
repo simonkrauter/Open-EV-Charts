@@ -5493,15 +5493,15 @@ db.insert(db.countries.UK, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2026/1 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Ford|Puma Gen-E": 996
-, "Mini|Cooper SE": 800
+, "Mini|Cooper SE": 801
 , "Škoda|Enyaq": 749
-, "Škoda|Elroq": 738
+, "Škoda|Elroq": 740
 , "Volkswagen|ID.3": 678
-, "Audi|Q4 e-tron": 632
+, "Audi|Q4 e-tron": 633
 , "Kia|EV3": 623
 , "Audi|Q6 e-tron": 581
 , "Polestar|4": 581
-, "Renault|5 E-Tech": 537
+, "Renault|5 E-Tech": 538
 , "Renault|Scénic E-Tech": 507
 , "Ford|Explorer EV": 496
 , "BMW|i4": 452
@@ -5510,16 +5510,16 @@ db.insert(db.countries.UK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|CLA EV": 419
 , "Kia|EV4": 395
 , "Tesla|Model 3": 392
-, "MG|S5 EV": 383
+, "MG|S5 EV": 384
 , "Peugeot|E-5008": 375
-, "Volvo|EX30": 367
+, "Volvo|EX30": 372
 , "Hyundai|Kona Electric": 360
 , "Polestar|2": 360
 , "Mercedes-Benz|EQB": 331
 , "BYD|Seal": 318
 , "MG|4 EV": 298
 , "Omoda Jaecoo|Jaecoo E5": 298
-, "Kia|EV5": 292
+, "Kia|EV5": 294
 , "Volkswagen|ID.7": 286
 , "Omoda Jaecoo|Omoda E5": 277
 , "BMW|iX1": 272
@@ -5528,9 +5528,9 @@ db.insert(db.countries.UK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Capri EV": 250
 , "Kia|PV5": 246
 , "Porsche|Macan Electric": 240
-, "Hyundai|Ioniq 5": 222
+, "Hyundai|Ioniq 5": 223
 , "Cupra|Tavascan": 202
-, "Hyundai|Inster": 193
+, "Hyundai|Inster": 194
 , "Volkswagen|e-Transporter": 193
 , "Volvo|EX40": 183
 , "BMW|i5": 177
@@ -5543,14 +5543,14 @@ db.insert(db.countries.UK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 142
 , "BYD|Dolphin": 136
 , "Kia|other": 533
-, "Vauxhall|other": 527
+, "Vauxhall|other": 529
 , "Ford|other": 461
 , "Mercedes-Benz|other": 448
 , "Škoda|other": 434
 , "Audi|other": 423
 , "BYD|other": 407
 , "BMW|other": 375
-, "Peugeot|other": 365
+, "Peugeot|other": 367
 , "Volkswagen|other": 340
 , "Hyundai|other": 335
 , "Renault|other": 329
@@ -5572,5 +5572,5 @@ db.insert(db.countries.UK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 32
 , "Honda|other": 27
 , "Suzuki|other": 27
-, "other": 4360
+, "other": 4341
 });
