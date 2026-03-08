@@ -861,3 +861,11 @@ db.insert(db.countries.global, "2025-12", db.dsTypes.AllCarsTotal, "https://clea
 db.insert(db.countries.global, "2025-12", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/02/03/global-ev-sales-leaders-2025-top-markets-powertrains/",
 { "other": 1389063
 });
+
+db.insert(db.countries.global, "2026-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/03/05/top-selling-electric-vehicles-in-the-world-january-2026/",
+{ "other": 6450000
+});
+
+db.insert(db.countries.global, "2026-01", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/03/05/top-selling-electric-vehicles-in-the-world-january-2026/",
+{ "other": 774000
+});
