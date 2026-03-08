@@ -1076,6 +1076,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX": 25
 , "Renault|Megane E-Tech": 24
 , "Kia|EV9": 22
+, "Leapmotor|C10 EV": 22
 , "Volkswagen|ID. Buzz": 21
 , "Polestar|2": 19
 , "Škoda|Enyaq": 17
@@ -1092,12 +1093,11 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|ID.5": 7
 , "Jeep|Avenger EV": 6
 , "Volvo|EX90": 6
-, "Mercedes-Benz|EQV": 5
+, "Mercedes-Benz|other": 7
 , "Audi|other": 3
 , "BMW|other": 3
-, "Mercedes-Benz|other": 2
 , "Polestar|other": 2
-, "other": 40
+, "other": 18
 });
 
 db.insert(db.countries.AU, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-vehicle-sales-february-2025/",
@@ -1152,6 +1152,7 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|2": 36
 , "Kia|EV9": 34
 , "BMW|iX": 33
+, "Leapmotor|C10 EV": 29
 , "Volkswagen|ID. Buzz": 19
 , "Nissan|Leaf": 18
 , "Porsche|Taycan": 18
@@ -1165,11 +1166,11 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Enyaq": 7
 , "MG|Cyberster": 6
 , "Polestar|3": 6
-, "Volkswagen|ID.5": 5
 , "Mercedes-Benz|other": 8
 , "Audi|other": 7
+, "Volkswagen|other": 5
 , "Jeep|other": 3
-, "other": 50
+, "other": 21
 });
 
 db.insert(db.countries.AU, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-march-2025-ford-ranger-back-on-top-as-most-popular-new-model/",
@@ -1208,6 +1209,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q4 e-tron": 97
 , "Mercedes-Benz|EQA": 97
 , "MG|ZS EV": 90
+, "Leapmotor|C10 EV": 87
 , "BYD|Dolphin": 86
 , "BMW|i5": 84
 , "Zeekr|X": 81
@@ -1237,7 +1239,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Taycan": 24
 , "Hyundai|Ioniq 6": 21
 , "Subaru|Solterra": 19
-, "Polestar|3": 13
+, "Polestar|other": 13
 , "Cupra|other": 9
 , "Volvo|other": 9
 , "Audi|other": 7
@@ -1245,7 +1247,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 6
 , "Jeep|other": 5
 , "MG|other": 5
-, "other": 101
+, "other": 14
 });
 
 db.insert(db.countries.AU, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-april-2025-vfacts/",
@@ -1287,6 +1289,7 @@ db.insert(db.countries.AU, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "GWM|Ora 03": 64
 , "Audi|Q4 e-tron": 63
 , "Volkswagen|ID.4": 57
+, "Leapmotor|C10 EV": 56
 , "Mercedes-Benz|EQA": 56
 , "Polestar|2": 56
 , "Hyundai|Inster": 51
@@ -1313,14 +1316,14 @@ db.insert(db.countries.AU, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|ID. Buzz": 14
 , "Zeekr|009": 13
 , "BMW|iX": 12
-, "Jeep|Avenger EV": 7
 , "Audi|other": 10
 , "Mercedes-Benz|other": 10
+, "Jeep|other": 7
 , "Cupra|other": 5
 , "Kia|other": 5
 , "Nissan|other": 5
 , "MG|other": 4
-, "other": 70
+, "other": 14
 });
 
 db.insert(db.countries.AU, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-may-2025-vfacts/",
@@ -1369,6 +1372,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Zeekr|X": 68
 , "Deepal|S07": 67
 , "Hyundai|Ioniq 5": 65
+, "Leapmotor|C10 EV": 55
 , "Mercedes-Benz|EQB": 49
 , "Audi|Q4 e-tron": 44
 , "Subaru|Solterra": 43
@@ -1393,7 +1397,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 10
 , "MG|other": 7
 , "Audi|other": 5
-, "other": 74
+, "other": 19
 });
 
 db.insert(db.countries.AU, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2025-byd-shark-6-booms-in-resurgent-vfacts-month/",
@@ -1438,6 +1442,7 @@ db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Tavascan": 62
 , "Hyundai|Ioniq 5": 62
 , "GWM|Ora 03": 60
+, "Leapmotor|C10 EV": 60
 , "Toyota|bZ4X": 56
 , "Mercedes-Benz|EQA": 52
 , "Hyundai|Kona Electric": 47
@@ -1460,7 +1465,7 @@ db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 9
 , "Cupra|Born": 8
 , "MG|Cyberster": 7
-, "other": 87
+, "other": 27
 });
 
 db.insert(db.countries.AU, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-july-2025-toyota-hilux-rav4-lead-another-record-vfacts-month/",
@@ -1507,6 +1512,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQA": 52
 , "Mercedes-Benz|EQE SUV": 50
 , "Omoda Jaecoo|Omoda E5": 48
+, "Leapmotor|C10 EV": 43
 , "Audi|Q6 e-tron": 41
 , "Deepal|S07": 40
 , "Volvo|EX40": 40
@@ -1527,13 +1533,12 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Enyaq": 11
 , "Mercedes-Benz|EQV": 10
 , "Porsche|Taycan": 10
-, "Mercedes-Benz|EQE": 8
-, "Zeekr|009": 8
+, "Mercedes-Benz|other": 12
+, "Zeekr|other": 8
 , "Hyundai|other": 6
 , "Kia|other": 5
 , "Renault|other": 5
-, "Mercedes-Benz|other": 4
-, "other": 124
+, "other": 81
 });
 
 db.insert(db.countries.AU, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-august-2025-tesla-byd-electric-cars-surge-as-ford-ranger-leads-vfacts-again/",
@@ -1588,6 +1593,7 @@ db.insert(db.countries.AU, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "GWM|Ora 03": 33
 , "Hyundai|Kona Electric": 30
 , "Cupra|Tavascan": 29
+, "Leapmotor|C10 EV": 29
 , "Kia|EV9": 23
 , "Škoda|Elroq": 23
 , "Kia|EV6": 22
@@ -1607,7 +1613,7 @@ db.insert(db.countries.AU, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Ford|other": 6
 , "Kia|other": 6
 , "Subaru|other": 5
-, "other": 72
+, "other": 43
 });
 
 db.insert(db.countries.AU, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-september-2025-chinese-cars-tesla-lead-resurgent-vfacts-month/",
@@ -1645,6 +1651,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 80
 , "Škoda|Elroq": 77
 , "Deepal|E07": 72
+, "Leapmotor|C10 EV": 71
 , "Audi|Q4 e-tron": 68
 , "Mercedes-Benz|EQS SUV": 62
 , "BMW|iX": 58
@@ -1676,7 +1683,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 7
 , "BMW|i7": 7
 , "Hyundai|other": 12
-, "other": 125
+, "other": 54
 });
 
 db.insert(db.countries.AU, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-october-2025-hilux-beats-ranger-rav4-in-another-resurgent-vfacts-month/",
@@ -1725,6 +1732,7 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX40": 66
 , "BMW|iX2": 62
 , "Volkswagen|ID.5": 59
+, "Leapmotor|C10 EV": 57
 , "Škoda|Enyaq": 57
 , "Mercedes-Benz|EQA": 52
 , "Audi|Q4 e-tron": 50
@@ -1749,12 +1757,13 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|other": 10
 , "Cupra|other": 9
 , "BMW|other": 8
+, "Leapmotor|other": 7
 , "Zeekr|other": 7
 , "Mercedes-Benz|other": 6
 , "Hyundai|other": 5
 , "MG|other": 5
 , "Jeep|other": 4
-, "other": 202
+, "other": 138
 });
 
 db.insert(db.countries.AU, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-november-2025-toyota-rav4-tops-charts-in-slower-vfacts-month/",
@@ -1803,6 +1812,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 61
 , "Mercedes-Benz|EQB": 59
 , "BMW|iX2": 58
+, "Leapmotor|C10 EV": 57
 , "Deepal|E07": 56
 , "Omoda Jaecoo|Omoda E5": 56
 , "Polestar|3": 56
@@ -1814,6 +1824,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 40
 , "Hyundai|Kona Electric": 38
 , "Škoda|Elroq": 36
+, "Leapmotor|B10": 33
 , "Zeekr|X": 30
 , "Deepal|S07": 27
 , "Kia|Niro EV": 25
@@ -1822,16 +1833,16 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 15
 , "Subaru|Solterra": 15
 , "Zeekr|009": 15
-, "Nissan|Ariya": 13
-, "Polestar|2": 13
 , "Mercedes-Benz|other": 26
 , "BMW|other": 16
 , "Kia|other": 16
+, "Nissan|other": 13
+, "Polestar|other": 13
 , "Renault|other": 13
 , "Hyundai|other": 8
 , "Jeep|other": 6
 , "Audi|other": 5
-, "other": 200
+, "other": 110
 });
 
 db.insert(db.countries.AU, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-2025-annual-record-broken-for-third-vfacts-year-running/",
@@ -1886,25 +1897,27 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Kona Electric": 38
 , "Škoda|Elroq": 36
 , "BMW|i7": 25
+, "Leapmotor|B10": 25
 , "Polestar|3": 25
 , "Zeekr|X": 24
 , "Deepal|E07": 23
 , "Cupra|Tavascan": 22
 , "Hyundai|Ioniq 6": 21
 , "Mini|Cooper SE": 17
+, "Leapmotor|C10 EV": 13
 , "Nissan|Ariya": 13
 , "Porsche|Taycan": 11
 , "BMW|i5": 10
 , "Kia|EV6": 9
 , "Kia|EV9": 9
 , "Mercedes-Benz|EQE SUV": 9
-, "MG|Cyberster": 7
 , "Volvo|other": 10
 , "Mercedes-Benz|other": 9
 , "Audi|other": 7
+, "MG|other": 7
 , "Renault|other": 6
 , "Jeep|other": 5
-, "other": 140
+, "other": 102
 });
 
 db.insert(db.countries.AU, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-january-2026-byd-surge-toyota-stumble-keeps-vfacts-up/",
@@ -1958,6 +1971,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Enyaq": 46
 , "Polestar|2": 45
 , "Hyundai|Inster": 43
+, "Leapmotor|B10": 43
 , "Hyundai|Kona Electric": 41
 , "Deepal|E07": 39
 , "Subaru|Solterra": 37
@@ -1969,18 +1983,17 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Zeekr|X": 22
 , "Hyundai|Ioniq 5": 21
 , "Cupra|Tavascan": 19
+, "Leapmotor|C10 EV": 18
 , "Kia|EV6": 14
 , "Polestar|3": 14
-, "Hyundai|Ioniq 9": 13
-, "Porsche|Taycan": 13
-, "Volvo|EX90": 13
+, "Hyundai|other": 21
+, "Volvo|other": 21
 , "BMW|other": 17
+, "Porsche|other": 13
 , "Kia|other": 11
 , "Nissan|other": 11
 , "Renault|other": 9
-, "Hyundai|other": 8
-, "Volvo|other": 8
 , "Audi|other": 4
 , "Jeep|other": 4
-, "other": 164
+, "other": 103
 });

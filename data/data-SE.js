@@ -7712,6 +7712,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Suzuki": 86
 , "Nio": 60
 , "Honda": 53
+, "Leapmotor": 35
 , "BYD": 33
 , "Land Rover": 32
 , "Mitsubishi": 30
@@ -7719,7 +7720,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Smart": 7
 , "Geely": 4
 , "Jeep": 4
-, "other": 255
+, "other": 220
 });
 
 db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7776,6 +7777,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|other": 42
 , "MG|other": 19
 , "Opel|other": 19
+, "Leapmotor|other": 18
 , "BYD|other": 16
 , "Citroën|other": 15
 , "BMW|other": 13
@@ -7787,7 +7789,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|other": 7
 , "Zeekr|other": 7
 , "Nio|other": 6
-, "other": 175
+, "other": 157
 });
 
 db.insert(db.countries.SE, "2026-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",

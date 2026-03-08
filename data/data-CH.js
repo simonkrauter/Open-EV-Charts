@@ -5981,7 +5981,7 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 16
 , "Chevrolet": 3
 , "JAC": 2
-, "other": 377
+, "other": 430
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -6521,7 +6521,8 @@ db.insert(db.countries.CH, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 16
 , "Chevrolet": 10
 , "BYD": 7
-, "other": 698
+, "Leapmotor": 5
+, "other": 693
 });
 
 db.insert(db.countries.CH, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/12 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
@@ -6589,12 +6590,13 @@ db.insert(db.countries.CH, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 7
 , "Renault|other": 7
 , "BYD|other": 5
+, "Leapmotor|other": 5
 , "Fiat|other": 4
 , "Toyota|other": 4
 , "Honda|other": 3
 , "Kia|other": 3
 , "Subaru|other": 3
-, "other": 281
+, "other": 276
 });
 
 db.insert(db.countries.CH, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/03/ModellePW2025.xlsx",
@@ -6630,9 +6632,10 @@ db.insert(db.countries.CH, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 66
 , "Smart": 59
 , "Polestar": 49
+, "Leapmotor": 42
 , "Jaguar": 21
 , "BYD": 7
-, "other": 368
+, "other": 326
 });
 
 db.insert(db.countries.CH, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2025_rev.pdf",
@@ -6664,6 +6667,7 @@ db.insert(db.countries.CH, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 35
 , "Mercedes-Benz|EQA": 34
 , "BMW|i4": 33
+, "Leapmotor|T03": 32
 , "Polestar|4": 32
 , "Smart|Hashtag 3": 32
 , "Peugeot|E-3008": 31
@@ -6695,6 +6699,7 @@ db.insert(db.countries.CH, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 13
 , "Peugeot|other": 11
 , "Fiat|other": 10
+, "Leapmotor|other": 10
 , "Volkswagen|other": 10
 , "Ford|other": 8
 , "Renault|other": 8
@@ -6706,7 +6711,7 @@ db.insert(db.countries.CH, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 3
 , "Subaru|other": 3
 , "Jaguar|other": 2
-, "other": 205
+, "other": 163
 });
 
 db.insert(db.countries.CH, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/03/ModellePW2025.xlsx",
@@ -6741,10 +6746,11 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 92
 , "Fiat": 86
 , "Jeep": 72
+, "Leapmotor": 44
 , "Smart": 41
 , "Jaguar": 17
 , "BYD": 8
-, "other": 420
+, "other": 376
 });
 
 db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
@@ -6769,6 +6775,7 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 51
 , "Polestar|4": 48
 , "Audi|A6 e-tron": 43
+, "Leapmotor|T03": 42
 , "Polestar|2": 39
 , "Hyundai|Kona Electric": 38
 , "Mercedes-Benz|EQA": 37
@@ -6818,7 +6825,8 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 3
 , "Jeep|other": 3
 , "Audi|other": 2
-, "other": 219
+, "Leapmotor|other": 2
+, "other": 175
 });
 
 db.insert(db.countries.CH, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/05/ModellePW2025.xlsx",
@@ -6854,10 +6862,11 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 107
 , "Jeep": 77
 , "BYD": 58
+, "Leapmotor": 34
 , "Smart": 34
 , "Jaguar": 21
 , "JAC": 4
-, "other": 492
+, "other": 458
 });
 
 db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2025.pdf",
@@ -6895,6 +6904,7 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 40
 , "Polestar|2": 35
 , "Dacia|Spring": 34
+, "Leapmotor|T03": 34
 , "MG|4 EV": 30
 , "Mercedes-Benz|EQE": 30
 , "Hyundai|Ioniq 6": 28
@@ -6910,13 +6920,12 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 3": 19
 , "BMW|iX3": 18
 , "Renault|Megane E-Tech": 18
-, "Opel|Frontera Electric": 17
-, "Tesla|Model X": 17
-, "Opel|other": 36
+, "Opel|other": 53
 , "MG|other": 28
 , "Ford|other": 25
 , "Volvo|other": 24
 , "Fiat|other": 21
+, "Tesla|other": 20
 , "Peugeot|other": 19
 , "Mercedes-Benz|other": 18
 , "Smart|other": 15
@@ -6933,8 +6942,7 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 4
 , "JAC|other": 4
 , "Renault|other": 3
-, "Tesla|other": 3
-, "other": 233
+, "other": 199
 });
 
 db.insert(db.countries.CH, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/05/ModellePW2025.xlsx",
@@ -6968,12 +6976,13 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 90
 , "Mitsubishi": 82
 , "Polestar": 79
+, "Leapmotor": 51
 , "Smart": 51
 , "Nissan": 31
 , "Jaguar": 21
 , "BYD": 14
 , "JAC": 5
-, "other": 524
+, "other": 473
 });
 
 db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
@@ -7009,6 +7018,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 33
 , "Renault|Scénic E-Tech": 32
 , "Ford|Explorer EV": 31
+, "Leapmotor|T03": 31
 , "Smart|Hashtag 3": 31
 , "BMW|i5": 30
 , "Mercedes-Benz|EQE": 30
@@ -7026,8 +7036,8 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 19
 , "Smart|Hashtag 1": 19
 , "Kia|EV6": 18
-, "Fiat|600e": 17
 , "Opel|other": 28
+, "Fiat|other": 18
 , "MG|other": 14
 , "Mercedes-Benz|other": 14
 , "Peugeot|other": 12
@@ -7040,6 +7050,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 7
 , "BYD|other": 6
 , "Jeep|other": 6
+, "Leapmotor|other": 6
 , "Tesla|other": 6
 , "JAC|other": 5
 , "Nissan|other": 5
@@ -7048,7 +7059,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 3
 , "Jaguar|other": 2
 , "Kia|other": 2
-, "other": 270
+, "other": 232
 });
 
 db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
@@ -7084,11 +7095,12 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 98
 , "Jeep": 66
 , "BYD": 52
+, "Leapmotor": 46
 , "Nissan": 41
 , "Jaguar": 17
 , "JAC": 15
 , "BAIC": 2
-, "other": 532
+, "other": 486
 });
 
 db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/5 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
@@ -7125,6 +7137,7 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 1": 36
 , "Dacia|Spring": 32
 , "Renault|Scénic E-Tech": 29
+, "Leapmotor|T03": 28
 , "Mercedes-Benz|EQE": 28
 , "Fiat|Grande Panda Electric": 27
 , "Hyundai|Kona Electric": 27
@@ -7141,21 +7154,19 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 18
 , "Peugeot|e-308": 18
 , "Toyota|bZ4X": 18
-, "BYD|Dolphin": 16
-, "Peugeot|e-2008": 16
+, "Peugeot|other": 29
 , "Fiat|other": 27
 , "MG|other": 27
+, "BYD|other": 24
 , "Mercedes-Benz|other": 24
 , "Opel|other": 24
 , "JAC|other": 15
-, "Peugeot|other": 13
 , "Polestar|other": 13
 , "Ford|other": 12
 , "Hyundai|other": 12
 , "Smart|other": 10
 , "Honda|other": 9
 , "Volkswagen|other": 9
-, "BYD|other": 8
 , "BMW|other": 7
 , "Kia|other": 7
 , "Tesla|other": 7
@@ -7163,7 +7174,8 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 4
 , "Jaguar|other": 4
 , "Subaru|other": 4
-, "other": 333
+, "Leapmotor|other": 3
+, "other": 302
 });
 
 db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
@@ -7200,11 +7212,12 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 106
 , "JAC": 56
 , "Smart": 46
+, "Leapmotor": 42
 , "BYD": 41
 , "Jaguar": 24
 , "BAIC": 3
 , "Xpeng": 3
-, "other": 524
+, "other": 482
 });
 
 db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -7251,15 +7264,15 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 26
 , "Opel|Astra Electric": 26
 , "Fiat|500e": 24
+, "Leapmotor|T03": 23
 , "Nissan|Ariya": 23
 , "Renault|Megane E-Tech": 22
 , "Volkswagen|e-Transporter": 22
 , "Ford|Puma Gen-E": 21
 , "Opel|Corsa-e": 21
 , "Peugeot|e-308": 20
-, "Smart|Hashtag 5": 18
+, "Smart|other": 46
 , "Peugeot|other": 42
-, "Smart|other": 28
 , "Mercedes-Benz|other": 27
 , "Kia|other": 26
 , "BYD|other": 25
@@ -7280,8 +7293,9 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 6
 , "Citroën|other": 4
 , "Jaguar|other": 4
+, "Leapmotor|other": 3
 , "Xpeng|other": 3
-, "other": 307
+, "other": 281
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/08/ModellePW2025.xlsx",
@@ -7313,6 +7327,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 154
 , "Fiat": 117
 , "Mitsubishi": 117
+, "Leapmotor": 99
 , "Subaru": 88
 , "BYD": 77
 , "Smart": 74
@@ -7321,7 +7336,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 29
 , "Jaguar": 13
 , "Zeekr": 5
-, "other": 710
+, "other": 611
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
@@ -7344,6 +7359,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX90": 62
 , "Hyundai|Inster": 61
 , "Smart|Hashtag 5": 59
+, "Leapmotor|T03": 55
 , "Tesla|Model 3": 54
 , "Ford|Explorer EV": 50
 , "Audi|A6 e-tron": 49
@@ -7374,13 +7390,12 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Capri EV": 17
 , "MG|Cyberster": 17
 , "Volvo|EC40": 17
-, "Kia|EV9": 16
-, "MG|S5 EV": 16
+, "MG|other": 35
 , "Opel|other": 31
 , "Mercedes-Benz|other": 27
+, "Kia|other": 23
 , "Peugeot|other": 22
 , "Ford|other": 19
-, "MG|other": 19
 , "Volkswagen|other": 17
 , "Hyundai|other": 16
 , "Smart|other": 15
@@ -7392,12 +7407,12 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 9
 , "Nissan|other": 8
 , "Jeep|other": 7
-, "Kia|other": 7
+, "Leapmotor|other": 6
 , "Polestar|other": 6
 , "Zeekr|other": 5
 , "Audi|other": 4
 , "Fiat|other": 3
-, "other": 395
+, "other": 334
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/09/ModellePW2025.xlsx",
@@ -7433,13 +7448,14 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 69
 , "Subaru": 69
 , "Smart": 66
+, "Leapmotor": 55
 , "Nissan": 45
 , "JAC": 16
 , "Jaguar": 11
 , "Zeekr": 10
 , "Xpeng": 6
 , "Nio": 2
-, "other": 523
+, "other": 468
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
@@ -7481,6 +7497,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 25
 , "BMW|i5": 22
 , "Ford|Capri EV": 21
+, "Leapmotor|T03": 21
 , "Mercedes-Benz|EQE": 21
 , "Peugeot|E-3008": 21
 , "Mercedes-Benz|EQB": 19
@@ -7509,6 +7526,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 10
 , "Honda|other": 7
 , "Jeep|other": 7
+, "Leapmotor|other": 6
 , "BMW|other": 5
 , "Ford|other": 5
 , "Hyundai|other": 5
@@ -7517,7 +7535,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 3
 , "Citroën|other": 2
 , "Renault|other": 2
-, "other": 274
+, "other": 247
 });
 
 db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/10/ModellePW2025.xlsx",
@@ -7534,7 +7552,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 628
 , "Renault": 620
 , "Seat": 514
-, "MG": 433
+, "MG": 432
 , "Ford": 418
 , "Peugeot": 401
 , "Opel": 348
@@ -7552,6 +7570,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 129
 , "Polestar": 93
 , "Land Rover": 91
+, "Leapmotor": 82
 , "Nissan": 64
 , "Smart": 56
 , "Jaguar": 10
@@ -7560,7 +7579,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Chevrolet": 6
 , "JAC": 4
 , "Xpeng": 3
-, "other": 534
+, "other": 453
 });
 
 db.insert(db.countries.CH, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/9 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
@@ -7598,6 +7617,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 37
 , "Renault|Scénic E-Tech": 37
 , "Peugeot|E-5008": 36
+, "Leapmotor|T03": 34
 , "Ford|Puma Gen-E": 33
 , "Fiat|500e": 32
 , "Smart|Hashtag 5": 32
@@ -7620,6 +7640,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 23
 , "Kia|other": 19
 , "Fiat|other": 18
+, "Leapmotor|other": 18
 , "MG|other": 16
 , "Honda|other": 15
 , "Nissan|other": 15
@@ -7639,7 +7660,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 5
 , "JAC|other": 4
 , "Xpeng|other": 4
-, "other": 291
+, "other": 239
 });
 
 db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/12/ModellePW2025.xlsx",
@@ -7660,7 +7681,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 348
 , "Suzuki": 313
 , "Opel": 307
-, "MG": 304
+, "MG": 303
 , "Cupra": 255
 , "Citroën": 236
 , "Honda": 204
@@ -7672,6 +7693,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 118
 , "Land Rover": 117
 , "Jeep": 116
+, "Leapmotor": 113
 , "Polestar": 76
 , "Smart": 72
 , "Subaru": 72
@@ -7682,7 +7704,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 6
 , "Chevrolet": 4
 , "Jaguar": 2
-, "other": 582
+, "other": 470
 });
 
 db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
@@ -7714,6 +7736,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 5": 43
 , "Kia|EV3": 38
 , "Hyundai|Kona Electric": 33
+, "Leapmotor|T03": 33
 , "BMW|iX2": 31
 , "Dacia|Spring": 31
 , "JAC|Yiwei 3": 29
@@ -7733,25 +7756,26 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C5": 21
 , "Ford|Capri EV": 21
 , "Kia|EV6": 21
+, "Leapmotor|C10 EV": 21
 , "Mercedes-Benz|eCitan": 20
-, "Ford|Puma Gen-E": 18
-, "Porsche|Taycan": 16
 , "Peugeot|other": 58
 , "Opel|other": 34
 , "Smart|other": 28
+, "Ford|other": 27
 , "Kia|other": 25
 , "MG|other": 23
 , "BYD|other": 22
 , "Fiat|other": 22
 , "Zeekr|other": 20
+, "Leapmotor|other": 18
 , "Mercedes-Benz|other": 17
+, "Porsche|other": 16
 , "Tesla|other": 16
 , "Volvo|other": 15
 , "JAC|other": 13
 , "BMW|other": 11
 , "Renault|other": 11
 , "Hyundai|other": 10
-, "Ford|other": 9
 , "Volkswagen|other": 7
 , "Audi|other": 6
 , "Honda|other": 6
@@ -7761,7 +7785,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 5
 , "Citroën|other": 4
 , "Toyota|other": 3
-, "other": 252
+, "other": 180
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/12/ModellePW2025.xlsx",
@@ -7790,6 +7814,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 203
 , "Mini": 203
 , "Honda": 181
+, "Leapmotor": 151
 , "BYD": 133
 , "Mitsubishi": 109
 , "Nissan": 102
@@ -7804,7 +7829,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BAIC": 7
 , "Jaguar": 4
 , "Omoda Jaecoo": 2
-, "other": 644
+, "other": 493
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
@@ -7827,6 +7852,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 68
 , "Kia|EV3": 66
 , "Ford|Explorer EV": 61
+, "Leapmotor|T03": 59
 , "Volkswagen|ID.7": 59
 , "Audi|A6 e-tron": 58
 , "Citroën|ë-C3": 58
@@ -7841,8 +7867,10 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 34
 , "Mazda|EZ-6 BEV": 34
 , "Citroën|ë-C5": 33
+, "Leapmotor|B10": 32
 , "Porsche|Macan Electric": 31
 , "Dacia|Spring": 30
+, "Leapmotor|C10 EV": 30
 , "Zeekr|7X": 30
 , "BMW|i5": 27
 , "Peugeot|e-308": 26
@@ -7856,17 +7884,15 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 20
 , "BMW|i4": 19
 , "Hyundai|Ioniq 9": 19
-, "BYD|Dolphin": 18
-, "Mercedes-Benz|EQB": 18
 , "Kia|other": 44
+, "Mercedes-Benz|other": 34
+, "BYD|other": 33
 , "MG|other": 29
 , "Peugeot|other": 29
 , "Fiat|other": 25
 , "Opel|other": 18
 , "Ford|other": 17
 , "Renault|other": 17
-, "Mercedes-Benz|other": 16
-, "BYD|other": 15
 , "Polestar|other": 15
 , "Volvo|other": 15
 , "Smart|other": 14
@@ -7885,7 +7911,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 4
 , "BMW|other": 3
 , "Honda|other": 3
-, "other": 428
+, "other": 307
 });
 
 db.insert(db.countries.CH, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7916,6 +7942,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 207
 , "Porsche": 196
 , "Honda": 188
+, "Leapmotor": 181
 , "BYD": 178
 , "Jeep": 166
 , "JAC": 145
@@ -7926,7 +7953,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Zeekr": 48
 , "Xpeng": 32
 , "BAIC": 7
-, "other": 906
+, "other": 725
 });
 
 db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/12 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
@@ -7949,6 +7976,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|Yiwei 3": 111
 , "Hyundai|Ioniq 5": 108
 , "Mini|Cooper SE": 106
+, "Leapmotor|T03": 101
 , "Mercedes-Benz|EQA": 95
 , "Audi|A6 e-tron": 88
 , "Mercedes-Benz|eCitan": 87
@@ -7965,6 +7993,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 46
 , "Porsche|Macan Electric": 45
 , "BMW|iX": 42
+, "Leapmotor|C10 EV": 41
 , "Mazda|EZ-6 BEV": 41
 , "Renault|Megane E-Tech": 41
 , "Mercedes-Benz|CLA EV": 40
@@ -7972,28 +8001,27 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|7X": 37
 , "BMW|i4": 35
 , "Polestar|2": 35
+, "Leapmotor|B10": 34
 , "Volvo|EX90": 34
 , "Ford|Explorer EV": 33
 , "BYD|Dolphin": 32
 , "BMW|iX2": 30
 , "Kia|EV6": 30
 , "Renault|Scénic E-Tech": 30
-, "BMW|i5": 28
-, "Kia|Niro EV": 26
+, "Kia|other": 55
 , "Ford|other": 53
+, "BMW|other": 48
 , "Mercedes-Benz|other": 44
 , "Opel|other": 39
 , "MG|other": 37
 , "Peugeot|other": 34
 , "Smart|other": 33
 , "Xpeng|other": 33
-, "Kia|other": 29
 , "Tesla|other": 28
 , "BYD|other": 26
 , "Fiat|other": 25
 , "Polestar|other": 23
 , "Volvo|other": 22
-, "BMW|other": 20
 , "Volkswagen|other": 15
 , "Citroën|other": 14
 , "Hyundai|other": 14
@@ -8002,7 +8030,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 6
 , "Renault|other": 6
 , "Audi|other": 5
-, "other": 966
+, "other": 790
 });
 
 db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/02/ModellePW2026.xlsx",
@@ -8033,8 +8061,9 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 138
 , "Fiat": 135
 , "Cupra": 132
+, "Leapmotor": 128
 , "Mitsubishi": 90
-, "Tesla": 83
+, "Tesla": 68
 , "Smart": 64
 , "Polestar": 61
 , "Jeep": 60
@@ -8043,7 +8072,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 21
 , "JAC": 8
 , "BAIC": 6
-, "other": 461
+, "other": 348
 });
 
 db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
@@ -8062,6 +8091,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 56
 , "Smart|Hashtag 5": 53
 , "Kia|EV3": 51
+, "Leapmotor|B10": 48
 , "Tesla|Model Y": 47
 , "Volvo|ES90": 45
 , "MG|4 EV": 40
@@ -8071,7 +8101,9 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 38
 , "Hyundai|Ioniq 5": 37
 , "Volkswagen|ID.3": 37
+, "Leapmotor|T03": 36
 , "Peugeot|e-208": 36
+, "Leapmotor|C10 EV": 34
 , "Mercedes-Benz|CLA EV": 33
 , "Zeekr|7X": 30
 , "Audi|A6 e-tron": 29
@@ -8094,17 +8126,15 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 16
 , "Renault|Scénic E-Tech": 16
 , "Xpeng|G6": 16
-, "Opel|Corsa-e": 15
-, "Peugeot|E-3008": 15
-, "Polestar|2": 15
-, "Opel|other": 37
+, "Opel|other": 52
+, "Peugeot|other": 33
 , "Mercedes-Benz|other": 31
 , "BYD|other": 26
 , "Fiat|other": 24
 , "Hyundai|other": 22
 , "Kia|other": 18
-, "Peugeot|other": 18
 , "Volvo|other": 17
+, "Polestar|other": 15
 , "Mazda|other": 12
 , "BMW|other": 11
 , "Ford|other": 11
@@ -8115,8 +8145,8 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 8
 , "Volkswagen|other": 6
 , "Xpeng|other": 5
-, "Tesla|other": 19
+, "Tesla|other": 4
 , "Audi|other": 2
 , "Nissan|other": 2
-, "other": 342
+, "other": 224
 });

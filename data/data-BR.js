@@ -1328,9 +1328,10 @@ db.insert(db.countries.BR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 71
 , "Mini|other": 49
 , "Zeekr|other": 48
+, "Leapmotor|other": 47
 , "Porsche|other": 42
 , "JAC|other": 37
-, "other": 373
+, "other": 326
 });
 
 db.insert(db.countries.BR, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_11_02.pdf",
@@ -1417,8 +1418,9 @@ db.insert(db.countries.BR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 67
 , "Mini|other": 61
 , "Zeekr|other": 60
+, "Leapmotor|other": 46
 , "Porsche|other": 36
-, "other": 418
+, "other": 372
 });
 
 db.insert(db.countries.BR, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_01_02.pdf",
@@ -1460,7 +1462,8 @@ db.insert(db.countries.BR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Omoda Jaecoo|other": 39
 , "BMW|other": 37
 , "Mini|other": 37
-, "other": 368
+, "Leapmotor|other": 34
+, "other": 334
 });
 
 db.insert(db.countries.BR, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_02_02.pdf",
@@ -1502,6 +1505,7 @@ db.insert(db.countries.BR, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|other": 44
 , "JAC|other": 32
 , "BMW|other": 29
+, "Leapmotor|other": 20
 , "Porsche|other": 16
-, "other": 215
+, "other": 195
 });

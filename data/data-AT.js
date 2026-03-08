@@ -3749,10 +3749,11 @@ db.insert(db.countries.AT, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Honda": 87
 , "Polestar": 48
 , "Smart": 35
+, "Leapmotor": 22
 , "Subaru": 21
 , "Jaguar": 5
 , "BAIC": 4
-, "other": 301
+, "other": 279
 });
 
 db.insert(db.countries.AT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisFebruar2025.ods",
@@ -3802,10 +3803,11 @@ db.insert(db.countries.AT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 103
 , "Jeep": 96
 , "Subaru": 59
+, "Leapmotor": 21
 , "Smart": 19
 , "Jaguar": 5
 , "BAIC": 3
-, "other": 313
+, "other": 292
 });
 
 db.insert(db.countries.AT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMaerz2025.ods",
@@ -3852,11 +3854,12 @@ db.insert(db.countries.AT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jeep": 147
 , "Land Rover": 141
 , "Honda": 130
+, "Leapmotor": 63
 , "Polestar": 57
 , "Nissan": 46
 , "Subaru": 38
 , "Smart": 13
-, "other": 373
+, "other": 310
 });
 
 db.insert(db.countries.AT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisApril2025.ods",
@@ -3906,9 +3909,10 @@ db.insert(db.countries.AT, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 66
 , "Nissan": 63
 , "Polestar": 58
+, "Leapmotor": 41
 , "Smart": 31
 , "BAIC": 4
-, "other": 291
+, "other": 250
 });
 
 db.insert(db.countries.AT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisMai2025.ods",
@@ -3958,8 +3962,9 @@ db.insert(db.countries.AT, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Land Rover": 135
 , "Jeep": 132
 , "Subaru": 45
+, "Leapmotor": 44
 , "Smart": 24
-, "other": 338
+, "other": 294
 });
 
 db.insert(db.countries.AT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuni2025.ods",
@@ -4007,11 +4012,12 @@ db.insert(db.countries.AT, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Jeep": 116
 , "Nissan": 114
 , "Honda": 96
+, "Leapmotor": 67
 , "Subaru": 39
 , "Smart": 35
 , "Polestar": 27
 , "BAIC": 3
-, "other": 323
+, "other": 256
 });
 
 db.insert(db.countries.AT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuli2025.ods",
@@ -4058,11 +4064,12 @@ db.insert(db.countries.AT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mini": 117
 , "Nissan": 111
 , "Honda": 110
+, "Leapmotor": 103
 , "Porsche": 93
 , "Polestar": 32
 , "Smart": 29
 , "Subaru": 24
-, "other": 338
+, "other": 235
 });
 
 db.insert(db.countries.AT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisAugust2025.ods",
@@ -4109,11 +4116,12 @@ db.insert(db.countries.AT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Porsche": 128
 , "Honda": 110
 , "Mini": 104
+, "Leapmotor": 103
 , "Land Rover": 96
 , "Polestar": 76
 , "Smart": 39
 , "Subaru": 24
-, "other": 364
+, "other": 261
 });
 
 db.insert(db.countries.AT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisSeptember2025.ods",
@@ -4156,6 +4164,7 @@ db.insert(db.countries.AT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Mitsubishi": 187
 , "Mini": 186
 , "Jeep": 184
+, "Leapmotor": 117
 , "Honda": 109
 , "Porsche": 101
 , "Tesla": 97
@@ -4165,7 +4174,7 @@ db.insert(db.countries.AT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Polestar": 37
 , "Subaru": 19
 , "Omoda Jaecoo": 17
-, "other": 396
+, "other": 279
 });
 
 db.insert(db.countries.AT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisOktober2025.ods",
@@ -4209,6 +4218,7 @@ db.insert(db.countries.AT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Fiat": 296
 , "Mini": 198
 , "Jeep": 178
+, "Leapmotor": 140
 , "Nissan": 114
 , "Honda": 106
 , "Land Rover": 80
@@ -4219,7 +4229,7 @@ db.insert(db.countries.AT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Subaru": 20
 , "Xpeng": 8
 , "Nio": 5
-, "other": 339
+, "other": 199
 });
 
 db.insert(db.countries.AT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisNovember2025.ods",
@@ -4263,6 +4273,7 @@ db.insert(db.countries.AT, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Nissan": 349
 , "Suzuki": 333
 , "Jeep": 181
+, "Leapmotor": 127
 , "Mini": 115
 , "Honda": 93
 , "Land Rover": 80
@@ -4275,7 +4286,7 @@ db.insert(db.countries.AT, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Aion": 6
 , "Nio": 5
 , "BAIC": 3
-, "other": 347
+, "other": 220
 });
 
 db.insert(db.countries.AT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisDezember2025.ods",
@@ -4322,6 +4333,7 @@ db.insert(db.countries.AT, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Land Rover": 134
 , "Porsche": 109
 , "Honda": 97
+, "Leapmotor": 95
 , "Mini": 90
 , "Nissan": 40
 , "Smart": 39
@@ -4329,7 +4341,7 @@ db.insert(db.countries.AT, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.st
 , "Xpeng": 25
 , "Subaru": 10
 , "Nio": 5
-, "other": 305
+, "other": 210
 });
 
 db.insert(db.countries.AT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaenner2026.ods",

@@ -6736,8 +6736,9 @@ db.insert(db.countries.IE, "2025-08", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Xpeng": 13
 , "Jeep": 11
 , "Fiat": 7
+, "Leapmotor": 6
 , "Smart": 2
-, "other": 94
+, "other": 88
 });
 
 db.insert(db.countries.IE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://stats.beepbeep.ie",
@@ -6797,11 +6798,12 @@ db.insert(db.countries.IE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "Peugeot|other": 7
 , "Kia|other": 6
 , "Polestar|other": 6
+, "Leapmotor|other": 5
 , "BYD|other": 3
 , "Opel|other": 2
 , "Porsche|other": 2
 , "Smart|other": 2
-, "other": 23
+, "other": 18
 });
 
 db.insert(db.countries.IE, "2025-09", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -6932,13 +6934,14 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Porsche": 20
 , "Cupra": 19
 , "Polestar": 11
+, "Leapmotor": 10
 , "Land Rover": 8
 , "Mazda": 5
 , "Xpeng": 5
 , "Honda": 4
 , "Jeep": 4
 , "Fiat": 2
-, "other": 40
+, "other": 30
 });
 
 db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
@@ -6982,6 +6985,7 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Toyota|bZ4X": 5
 , "Xpeng|G6": 5
 , "Audi|Q6 e-tron": 4
+, "Leapmotor|T03": 4
 , "Mercedes-Benz|EQB": 4
 , "Porsche|Macan Electric": 4
 , "BYD|Dolphin": 3
@@ -7001,10 +7005,11 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|other": 2
 , "Citroën|other": 1
 , "Hyundai|other": 1
+, "Leapmotor|other": 1
 , "Mercedes-Benz|other": 1
 , "Polestar|other": 1
 , "Volkswagen|other": 1
-, "other": 26
+, "other": 21
 });
 
 db.insert(db.countries.IE, "2025-11", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7036,9 +7041,10 @@ db.insert(db.countries.IE, "2025-11", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Volvo": 4
 , "Nissan": 3
 , "Jeep": 2
+, "Leapmotor": 2
 , "Honda": 1
 , "Mazda": 1
-, "other": 17
+, "other": 15
 });
 
 db.insert(db.countries.IE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
@@ -7072,6 +7078,7 @@ db.insert(db.countries.IE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Dacia|Spring": 2
 , "Ford|Puma Gen-E": 2
 , "Kia|EV9": 2
+, "Leapmotor|B10": 2
 , "Renault|Megane E-Tech": 2
 , "Volkswagen|ID.7": 2
 , "Volvo|EX40": 2
@@ -7087,7 +7094,7 @@ db.insert(db.countries.IE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|4 E-Tech": 1
 , "Toyota|bZ4X": 1
 , "Volkswagen|ID. Buzz": 1
-, "other": 8
+, "other": 6
 });
 
 db.insert(db.countries.IE, "2025-12", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7109,11 +7116,12 @@ db.insert(db.countries.IE, "2025-12", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Xpeng": 2
 , "Honda": 1
 , "Jeep": 1
+, "Leapmotor": 1
 , "Mini": 1
 , "Nissan": 1
 , "Opel": 1
 , "Polestar": 1
-, "other": 3
+, "other": 2
 });
 
 db.insert(db.countries.IE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
@@ -7126,10 +7134,11 @@ db.insert(db.countries.IE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://s
 , "Xpeng|G6": 2
 , "Audi|Q4 e-tron": 1
 , "BYD|Seagull": 1
+, "Leapmotor|B10": 1
 , "Polestar|4": 1
 , "Volkswagen|ID.3": 1
 , "Volkswagen|ID.7": 1
-, "other": 2
+, "other": 1
 });
 
 db.insert(db.countries.IE, "2026-01", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7162,9 +7171,10 @@ db.insert(db.countries.IE, "2026-01", db.dsTypes.AllCarsByBrand, "https://stats.
 , "Xpeng": 102
 , "Porsche": 83
 , "Polestar": 73
+, "Leapmotor": 72
 , "Fiat": 35
 , "Jeep": 20
-, "other": 496
+, "other": 424
 });
 
 db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
@@ -7220,6 +7230,7 @@ db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|A6 e-tron": 32
 , "Citroën|other": 58
 , "Opel|other": 56
+, "Leapmotor|other": 54
 , "Volvo|other": 52
 , "Mercedes-Benz|other": 38
 , "Polestar|other": 38
@@ -7229,5 +7240,5 @@ db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|other": 20
 , "Peugeot|other": 17
 , "Volkswagen|other": 4
-, "other": 116
+, "other": 62
 });

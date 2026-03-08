@@ -1981,7 +1981,8 @@ db.insert(db.countries.CN, "2025-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Plus": 12255
 , "BYD|Song EV": 8265
 , "BYD|Sealion 05 EV": 11494
-, "other": 319740
+, "Leapmotor|C10 EV": 7355
+, "other": 312385
 });
 
 db.insert(db.countries.CN, "2025-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/07/21/53-ev-share-in-china-june-2025-sales-report/",
@@ -2006,7 +2007,8 @@ db.insert(db.countries.CN, "2025-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 12902
 , "BYD|Seal 06 EV": 4263
 , "Xiaomi|YU7": 2234
-, "other": 337959
+, "Leapmotor|B10": 14312
+, "other": 323647
 });
 
 db.insert(db.countries.CN, "2025-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/08/22/have-we-reached-peak-byd-and-peak-phev-july-2025-china-ev-sales-report/",
@@ -2057,7 +2059,8 @@ db.insert(db.countries.CN, "2025-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 7079
 , "BYD|Seal 06 EV": 5514
 , "BYD|Sealion 06 EV": 5013
-, "other": 371269
+, "Leapmotor|C10 EV": 7084
+, "other": 364185
 });
 
 db.insert(db.countries.CN, "2025-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/10/30/bevs-up-29-yoy-phevs-down-3-yoy-september-2025-china-ev-sales-report/",
@@ -2128,7 +2131,8 @@ db.insert(db.countries.CN, "2025-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Sealion 06 EV": 9512
 , "BYD|Seal 06 EV": 9493
 , "BYD|Song EV": 7871
-, "other": 455966
+, "Leapmotor|C10 EV": 7990
+, "other": 447976
 });
 
 db.insert(db.countries.CN, "2025-12", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/01/20/another-record-month-for-ev-sales-in-china/",

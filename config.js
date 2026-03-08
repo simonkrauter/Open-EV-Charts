@@ -264,6 +264,7 @@ const brandCountries =
 , "Jeep/Dodge": "US"
 , "Jeep": "US"
 , "JMC": "CN"
+, "Leapmotor": "CN"
 , "Mazda": "JP"
 , "Mercedes-Benz": "DE"
 , "Mitsubishi": "JP"

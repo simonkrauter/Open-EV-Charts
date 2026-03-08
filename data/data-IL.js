@@ -35,6 +35,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.ar
 , "Isuzu": 187
 , "Ford": 135
 , "Fiat": 123
+, "Leapmotor": 99
 , "Land Rover": 80
 , "Honda": 51
 , "Porsche": 51
@@ -44,7 +45,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.AllCarsByBrand, "https://web.ar
 , "JAC": 17
 , "Lynk & Co": 9
 , "Jaguar": 6
-, "other": 1308
+, "other": 1209
 });
 
 db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://web.archive.org/web/20240128024645/https://www.car-importers.org.il/assets/files/644116755993531.pdf",
@@ -55,6 +56,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Kia": 285
 , "Fiat": 122
 , "Škoda": 118
+, "Leapmotor": 99
 , "Volvo": 83
 , "MG": 80
 , "Audi": 58
@@ -66,7 +68,7 @@ db.insert(db.countries.IL, "2023-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 8
 , "Opel": 5
 , "Peugeot": 4
-, "other": 681
+, "other": 582
 });
 
 db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43101678272347.pdf",
@@ -104,12 +106,13 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 54
 , "Lynk & Co": 47
 , "Fiat": 43
+, "Leapmotor": 35
 , "Porsche": 24
 , "Mini": 21
 , "Polestar": 16
 , "JAC": 7
 , "Jaguar": 4
-, "other": 1033
+, "other": 998
 });
 
 db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/23651678272447.pdf",
@@ -122,6 +125,7 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mercedes-Benz": 52
 , "GWM": 48
 , "Kia": 43
+, "Leapmotor": 33
 , "Audi": 31
 , "Opel": 21
 , "MG": 20
@@ -133,7 +137,7 @@ db.insert(db.countries.IL, "2023-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Peugeot": 6
 , "Porsche": 4
 , "Volkswagen": 4
-, "other": 641
+, "other": 608
 });
 
 db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/32681680518925.pdf",
@@ -168,6 +172,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 105
 , "Chevrolet": 94
 , "Dacia": 77
+, "Leapmotor": 74
 , "Lynk & Co": 56
 , "Land Rover": 52
 , "Fiat": 43
@@ -176,7 +181,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 28
 , "Polestar": 6
 , "JAC": 4
-, "other": 853
+, "other": 779
 });
 
 db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/326816805189251.pdf",
@@ -187,6 +192,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Škoda": 208
 , "GWM": 130
 , "Toyota": 127
+, "Leapmotor": 72
 , "Audi": 57
 , "Kia": 56
 , "Mercedes-Benz": 52
@@ -201,7 +207,7 @@ db.insert(db.countries.IL, "2023-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "JAC": 4
 , "Opel": 4
 , "Porsche": 4
-, "other": 483
+, "other": 411
 });
 
 db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/75111683197705.pdf",
@@ -237,6 +243,7 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Tesla": 72
 , "Jeep": 67
 , "Land Rover": 67
+, "Leapmotor": 48
 , "Lynk & Co": 35
 , "Fiat": 28
 , "JAC": 28
@@ -244,7 +251,7 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 26
 , "Mini": 19
 , "Polestar": 5
-, "other": 546
+, "other": 498
 });
 
 db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/751116831977051.pdf",
@@ -259,6 +266,7 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 72
 , "Kia": 70
 , "MG": 49
+, "Leapmotor": 48
 , "JAC": 28
 , "Volvo": 28
 , "BMW": 25
@@ -267,7 +275,7 @@ db.insert(db.countries.IL, "2023-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 14
 , "Opel": 8
 , "Polestar": 5
-, "other": 320
+, "other": 272
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30941685961094.pdf",
@@ -304,13 +312,14 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 76
 , "Isuzu": 75
 , "Land Rover": 49
+, "Leapmotor": 40
 , "Lynk & Co": 40
 , "Mini": 33
 , "Porsche": 30
 , "Honda": 27
 , "JAC": 23
 , "Polestar": 12
-, "other": 612
+, "other": 572
 });
 
 db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/309416859610941.pdf",
@@ -326,6 +335,7 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 87
 , "Mercedes-Benz": 81
 , "Audi": 44
+, "Leapmotor": 40
 , "Citroën": 29
 , "Fiat": 25
 , "Peugeot": 24
@@ -334,7 +344,7 @@ db.insert(db.countries.IL, "2023-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "JAC": 20
 , "Polestar": 12
 , "Opel": 5
-, "other": 273
+, "other": 233
 });
 
 db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61771688371849.pdf",
@@ -373,11 +383,12 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Lynk & Co": 43
 , "Fiat": 42
 , "Land Rover": 36
+, "Leapmotor": 28
 , "Mini": 28
 , "JAC": 21
 , "Porsche": 20
 , "Polestar": 8
-, "other": 497
+, "other": 469
 });
 
 db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/617716883718491.pdf",
@@ -394,6 +405,7 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BMW": 53
 , "Kia": 50
 , "Volkswagen": 41
+, "Leapmotor": 28
 , "Citroën": 26
 , "Volvo": 26
 , "JAC": 20
@@ -401,7 +413,7 @@ db.insert(db.countries.IL, "2023-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Polestar": 8
 , "Peugeot": 5
 , "Mini": 3
-, "other": 225
+, "other": 197
 });
 
 db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/65351691314941.pdf",
@@ -438,6 +450,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 99
 , "Honda": 70
 , "Polestar": 56
+, "Leapmotor": 37
 , "Land Rover": 36
 , "Lynk & Co": 33
 , "Mini": 24
@@ -445,7 +458,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 17
 , "Jaguar": 3
 , "Tesla": 3
-, "other": 491
+, "other": 454
 });
 
 db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/653516913149411.pdf",
@@ -461,6 +474,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Polestar": 56
 , "Mercedes-Benz": 46
 , "Fiat": 45
+, "Leapmotor": 37
 , "Citroën": 30
 , "Audi": 28
 , "BMW": 27
@@ -470,7 +484,7 @@ db.insert(db.countries.IL, "2023-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Opel": 3
 , "Porsche": 3
 , "Tesla": 3
-, "other": 188
+, "other": 151
 });
 
 db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/68781693912956.pdf",
@@ -507,6 +521,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 89
 , "Lynk & Co": 72
 , "Isuzu": 62
+, "Leapmotor": 51
 , "Polestar": 49
 , "Honda": 35
 , "JAC": 25
@@ -514,7 +529,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 22
 , "Porsche": 17
 , "Jaguar": 3
-, "other": 594
+, "other": 543
 });
 
 db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/687816939129561.pdf",
@@ -529,6 +544,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Fiat": 56
 , "Audi": 51
 , "Kia": 51
+, "Leapmotor": 51
 , "Volkswagen": 51
 , "Polestar": 49
 , "Mercedes-Benz": 33
@@ -537,7 +553,7 @@ db.insert(db.countries.IL, "2023-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 18
 , "Peugeot": 12
 , "Opel": 3
-, "other": 299
+, "other": 248
 });
 
 db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/83141696241050.pdf",
@@ -578,9 +594,10 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Lynk & Co": 28
 , "Honda": 24
 , "Mini": 24
+, "Leapmotor": 16
 , "Porsche": 15
 , "JAC": 6
-, "other": 576
+, "other": 560
 });
 
 db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/831416962410501.pdf",
@@ -600,10 +617,11 @@ db.insert(db.countries.IL, "2023-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Audi": 22
 , "BMW": 21
 , "Citroën": 19
+, "Leapmotor": 16
 , "Peugeot": 7
 , "JAC": 6
 , "Volvo": 5
-, "other": 351
+, "other": 335
 });
 
 db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/741699177141.pdf",
@@ -643,12 +661,13 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 17
 , "Jeep": 16
 , "Xpeng": 16
+, "Leapmotor": 14
 , "Mini": 14
 , "JAC": 12
 , "Porsche": 10
 , "Polestar": 4
 , "Jaguar": 2
-, "other": 349
+, "other": 335
 });
 
 db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/7416991771411.pdf",
@@ -664,6 +683,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 26
 , "Xpeng": 16
 , "Volvo": 15
+, "Leapmotor": 14
 , "Audi": 12
 , "JAC": 12
 , "BMW": 10
@@ -675,7 +695,7 @@ db.insert(db.countries.IL, "2023-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 2
 , "Opel": 2
 , "Porsche": 2
-, "other": 179
+, "other": 165
 });
 
 db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/61031701692511.pdf",
@@ -714,13 +734,14 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 24
 , "Land Rover": 17
 , "Lynk & Co": 14
+, "Leapmotor": 11
 , "Polestar": 8
 , "Mini": 7
 , "Xpeng": 7
 , "Smart": 5
 , "JAC": 4
 , "Porsche": 3
-, "other": 323
+, "other": 312
 });
 
 db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/610317016925111.pdf",
@@ -737,6 +758,7 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Fiat": 15
 , "Volvo": 14
 , "Citroën": 12
+, "Leapmotor": 11
 , "BMW": 8
 , "Polestar": 8
 , "Xpeng": 7
@@ -746,7 +768,7 @@ db.insert(db.countries.IL, "2023-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Peugeot": 4
 , "JAC": 2
 , "Opel": 2
-, "other": 148
+, "other": 137
 });
 
 db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/21541704198310.pdf",
@@ -778,6 +800,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "GWM": 13
 , "Honda": 10
 , "JAC": 10
+, "Leapmotor": 10
 , "Jeep": 9
 , "Lynk & Co": 9
 , "Mercedes-Benz": 9
@@ -791,7 +814,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Zeekr": 3
 , "Jaguar": 1
 , "Mini": 1
-, "other": 231
+, "other": 221
 });
 
 db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/215417041983101.pdf",
@@ -805,6 +828,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Hyundai": 16
 , "Polestar": 15
 , "JAC": 10
+, "Leapmotor": 10
 , "Kia": 8
 , "Smart": 8
 , "Citroën": 7
@@ -817,7 +841,7 @@ db.insert(db.countries.IL, "2023-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Peugeot": 2
 , "BMW": 1
 , "Mercedes-Benz": 1
-, "other": 114
+, "other": 104
 });
 
 db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/43771707046811.pdf",
@@ -861,9 +885,10 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 73
 , "Porsche": 39
 , "Zeekr": 20
+, "Leapmotor": 14
 , "JAC": 13
 , "Tesla": 7
-, "other": 1433
+, "other": 1419
 });
 
 db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/437717070468111.pdf",
@@ -888,11 +913,12 @@ db.insert(db.countries.IL, "2024-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Chery": 20
 , "Zeekr": 20
 , "Jeep": 14
+, "Leapmotor": 14
 , "JAC": 13
 , "Porsche": 9
 , "Opel": 7
 , "Tesla": 7
-, "other": 988
+, "other": 974
 });
 
 db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/30541709538468.pdf",
@@ -936,9 +962,10 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 25
 , "Honda": 22
 , "Polestar": 22
+, "Leapmotor": 17
 , "Smart": 9
 , "Porsche": 4
-, "other": 875
+, "other": 858
 });
 
 db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/305417095384681.pdf",
@@ -962,12 +989,13 @@ db.insert(db.countries.IL, "2024-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 34
 , "Polestar": 22
 , "Citroën": 17
+, "Leapmotor": 17
 , "Fiat": 12
 , "Jeep": 12
 , "Smart": 9
 , "Opel": 6
 , "Peugeot": 6
-, "other": 577
+, "other": 560
 });
 
 db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/14051712142033.pdf",
@@ -993,8 +1021,8 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Geely": 306
 , "Opel": 294
 , "Chevrolet": 273
-, "Subaru": 251
 , "Xpeng": 261
+, "Subaru": 251
 , "Audi": 213
 , "BMW": 203
 , "GWM": 182
@@ -1010,10 +1038,11 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "JAC": 35
 , "Land Rover": 34
 , "Mini": 30
+, "Leapmotor": 19
 , "Honda": 13
 , "Porsche": 13
 , "Lynk & Co": 11
-, "other": 700
+, "other": 681
 });
 
 db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/140517121420331.pdf",
@@ -1039,9 +1068,10 @@ db.insert(db.countries.IL, "2024-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "JAC": 35
 , "Volvo": 30
 , "Citroën": 19
+, "Leapmotor": 19
 , "Opel": 15
 , "Jeep": 4
-, "other": 371
+, "other": 352
 });
 
 db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/9461714910654.pdf",
@@ -1081,10 +1111,11 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 24
 , "Porsche": 21
 , "Lynk & Co": 19
+, "Leapmotor": 15
 , "Land Rover": 14
 , "Fiat": 7
 , "Honda": 4
-, "other": 988
+, "other": 973
 });
 
 db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/94617149106541.pdf",
@@ -1106,9 +1137,10 @@ db.insert(db.countries.IL, "2024-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volvo": 47
 , "Volkswagen": 39
 , "Mercedes-Benz": 37
+, "Leapmotor": 15
 , "Opel": 6
 , "Jeep": 3
-, "other": 665
+, "other": 650
 });
 
 db.insert(db.countries.IL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/14581717589167.pdf",
@@ -1148,11 +1180,12 @@ db.insert(db.countries.IL, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 52
 , "Mini": 37
 , "Land Rover": 34
+, "Leapmotor": 22
 , "Lynk & Co": 13
 , "Porsche": 7
 , "Fiat": 6
 , "Honda": 6
-, "other": 850
+, "other": 828
 });
 
 db.insert(db.countries.IL, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/145817175891671.pdf",
@@ -1174,11 +1207,12 @@ db.insert(db.countries.IL, "2024-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 51
 , "BMW": 35
 , "Volvo": 35
+, "Leapmotor": 22
 , "Citroën": 12
 , "Jeep": 9
 , "Opel": 8
 , "Mini": 3
-, "other": 407
+, "other": 385
 });
 
 db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/79571720085772.pdf",
@@ -1214,6 +1248,7 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "GWM": 119
 , "Cupra": 112
 , "Smart": 77
+, "Leapmotor": 64
 , "Fiat": 62
 , "Isuzu": 48
 , "Mini": 44
@@ -1223,7 +1258,7 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 9
 , "Honda": 6
 , "Jaguar": 3
-, "other": 523
+, "other": 459
 });
 
 db.insert(db.countries.IL, "2024-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/795717200857721.pdf",
@@ -1245,11 +1280,12 @@ db.insert(db.countries.IL, "2024-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 69
 , "BMW": 67
 , "Audi": 66
+, "Leapmotor": 64
 , "Opel": 57
 , "Škoda": 49
 , "Jeep": 11
 , "Mini": 6
-, "other": 234
+, "other": 170
 });
 
 db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/34971722768977.pdf",
@@ -1288,13 +1324,14 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 92
 , "Smart": 84
 , "Fiat": 79
+, "Leapmotor": 33
 , "Mini": 26
 , "Omoda Jaecoo": 22
 , "Honda": 21
 , "Land Rover": 19
 , "Lynk & Co": 14
 , "Porsche": 8
-, "other": 794
+, "other": 761
 });
 
 db.insert(db.countries.IL, "2024-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/349717227689771.pdf",
@@ -1315,12 +1352,13 @@ db.insert(db.countries.IL, "2024-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Škoda": 60
 , "Audi": 58
 , "Toyota": 50
+, "Leapmotor": 33
 , "BMW": 25
 , "Citroën": 11
 , "Opel": 10
 , "Mini": 4
 , "Jeep": 3
-, "other": 445
+, "other": 412
 });
 
 db.insert(db.countries.IL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/79351725365240.pdf",
@@ -1644,13 +1682,14 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Lynk & Co": 22
 , "Deepal": 20
 , "Fiat": 19
+, "Leapmotor": 19
 , "Porsche": 17
 , "Ford": 11
 , "Land Rover": 9
 , "Seat": 8
 , "Mini": 5
 , "Cupra": 2
-, "other": 683
+, "other": 664
 });
 
 db.insert(db.countries.IL, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/395417361646191.pdf",
@@ -1669,6 +1708,7 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "JAC": 23
 , "Volkswagen": 23
 , "Deepal": 20
+, "Leapmotor": 19
 , "Audi": 18
 , "Porsche": 15
 , "Lynk & Co": 10
@@ -1676,7 +1716,7 @@ db.insert(db.countries.IL, "2024-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Citroën": 6
 , "Mercedes-Benz": 5
 , "Kia": 3
-, "other": 468
+, "other": 449
 });
 
 db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/21931738582328.pdf",
@@ -1709,6 +1749,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 301
 , "Zeekr": 290
 , "Mercedes-Benz": 284
+, "Leapmotor": 204
 , "Smart": 175
 , "Fiat": 161
 , "Ford": 152
@@ -1724,7 +1765,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Mini": 44
 , "Nio": 44
 , "Tesla": 11
-, "other": 1890
+, "other": 1686
 });
 
 db.insert(db.countries.IL, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/219317385823281.pdf",
@@ -1736,6 +1777,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Zeekr": 290
 , "MG": 279
 , "Hyundai": 276
+, "Leapmotor": 204
 , "Smart": 175
 , "Deepal": 124
 , "Volvo": 118
@@ -1754,7 +1796,7 @@ db.insert(db.countries.IL, "2025-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mercedes-Benz": 8
 , "Peugeot": 8
 , "Kia": 5
-, "other": 1013
+, "other": 809
 });
 
 db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/12791741004957.pdf",
@@ -1798,10 +1840,11 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "GWM": 31
 , "Ford": 29
 , "Honda": 28
+, "Leapmotor": 27
 , "Mini": 24
 , "Porsche": 16
 , "Tesla": 6
-, "other": 1259
+, "other": 1232
 });
 
 db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/127917410049571.pdf",
@@ -1821,6 +1864,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 36
 , "Audi": 30
 , "GWM": 30
+, "Leapmotor": 27
 , "Jeep": 26
 , "Cupra": 18
 , "Peugeot": 6
@@ -1828,7 +1872,7 @@ db.insert(db.countries.IL, "2025-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Tesla": 6
 , "Mini": 4
 , "Kia": 3
-, "other": 660
+, "other": 633
 });
 
 db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/89711743926222.pdf",
@@ -1857,6 +1901,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BMW": 288
 , "Lynk & Co": 201
 , "Zeekr": 195
+, "Leapmotor": 179
 , "Renault": 170
 , "Peugeot": 168
 , "Mercedes-Benz": 164
@@ -1876,7 +1921,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Ford": 22
 , "Nio": 17
 , "Porsche": 13
-, "other": 1296
+, "other": 1117
 });
 
 db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/897117439262221.pdf",
@@ -1889,6 +1934,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Lynk & Co": 201
 , "Volvo": 201
 , "Zeekr": 195
+, "Leapmotor": 179
 , "BMW": 113
 , "Hyundai": 107
 , "Smart": 102
@@ -1902,7 +1948,7 @@ db.insert(db.countries.IL, "2025-03", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 16
 , "Jeep": 11
 , "Porsche": 4
-, "other": 802
+, "other": 623
 });
 
 db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/38361746450664.pdf",
@@ -1938,6 +1984,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Volvo": 77
 , "Jeep": 68
 , "Isuzu": 67
+, "Leapmotor": 67
 , "Tesla": 52
 , "Deepal": 49
 , "Smart": 48
@@ -1949,7 +1996,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 17
 , "Ford": 12
 , "Porsche": 8
-, "other": 910
+, "other": 843
 });
 
 db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/383617464506641.pdf",
@@ -1963,6 +2010,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Zeekr": 111
 , "Hyundai": 85
 , "Audi": 74
+, "Leapmotor": 67
 , "Tesla": 52
 , "Deepal": 49
 , "Smart": 48
@@ -1974,7 +2022,7 @@ db.insert(db.countries.IL, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mini": 9
 , "Porsche": 6
 , "Peugeot": 3
-, "other": 512
+, "other": 445
 });
 
 db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/53341748948934.pdf",
@@ -2010,6 +2058,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Zeekr": 110
 , "Jeep": 89
 , "Dacia": 87
+, "Leapmotor": 81
 , "Land Rover": 77
 , "Ford": 68
 , "Deepal": 61
@@ -2022,7 +2071,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Honda": 31
 , "Porsche": 22
 , "BAIC": 4
-, "other": 1048
+, "other": 967
 });
 
 db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/533417489489341.pdf",
@@ -2037,6 +2086,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Zeekr": 110
 , "Hyundai": 97
 , "Audi": 90
+, "Leapmotor": 81
 , "Deepal": 61
 , "GWM": 55
 , "JAC": 52
@@ -2046,7 +2096,7 @@ db.insert(db.countries.IL, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Porsche": 10
 , "Cupra": 9
 , "Jeep": 4
-, "other": 579
+, "other": 498
 });
 
 db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/64171751526464.pdf",
@@ -2085,6 +2135,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 40
 , "Smart": 37
 , "Jeep": 33
+, "Leapmotor": 27
 , "Mini": 25
 , "Honda": 24
 , "Fiat": 22
@@ -2093,7 +2144,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "JAC": 16
 , "Porsche": 14
 , "GWM": 13
-, "other": 661
+, "other": 634
 });
 
 db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/641717515264641.pdf",
@@ -2108,6 +2159,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Hyundai": 41
 , "Smart": 37
 , "Volkswagen": 28
+, "Leapmotor": 27
 , "Audi": 21
 , "Cupra": 21
 , "JAC": 16
@@ -2118,7 +2170,7 @@ db.insert(db.countries.IL, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Jeep": 2
 , "MG": 2
 , "Volvo": 2
-, "other": 362
+, "other": 335
 });
 
 db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/19771754381842.pdf",
@@ -2156,6 +2208,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 86
 , "Fiat": 74
 , "Opel": 65
+, "Leapmotor": 64
 , "Jeep": 62
 , "Smart": 55
 , "JAC": 44
@@ -2166,7 +2219,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 25
 , "GWM": 23
 , "BAIC": 5
-, "other": 1012
+, "other": 948
 });
 
 db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/197717543818421.pdf",
@@ -2179,6 +2232,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Deepal": 158
 , "Lynk & Co": 123
 , "Zeekr": 120
+, "Leapmotor": 64
 , "Smart": 55
 , "JAC": 44
 , "BMW": 36
@@ -2193,7 +2247,7 @@ db.insert(db.countries.IL, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BAIC": 5
 , "Jeep": 3
 , "Mercedes-Benz": 2
-, "other": 522
+, "other": 458
 });
 
 db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/67701756882628.pdf",
@@ -2233,6 +2287,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Chevrolet": 67
 , "Isuzu": 66
 , "Land Rover": 66
+, "Leapmotor": 66
 , "Honda": 58
 , "Mini": 48
 , "BAIC": 44
@@ -2241,7 +2296,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Fiat": 26
 , "Porsche": 19
 , "GWM": 17
-, "other": 2670
+, "other": 2604
 });
 
 db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/677017568826281.pdf",
@@ -2258,6 +2313,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Lynk & Co": 104
 , "Audi": 95
 , "Hyundai": 91
+, "Leapmotor": 66
 , "Volvo": 52
 , "BAIC": 44
 , "JAC": 31
@@ -2266,7 +2322,7 @@ db.insert(db.countries.IL, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://w
 , "GWM": 17
 , "Omoda Jaecoo": 11
 , "Porsche": 8
-, "other": 2315
+, "other": 2249
 });
 
 db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/59071759414523.pdf",
@@ -2302,6 +2358,7 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Chevrolet": 163
 , "Audi": 144
 , "Mercedes-Benz": 132
+, "Leapmotor": 124
 , "Ford": 116
 , "Volvo": 110
 , "Mazda": 103
@@ -2314,7 +2371,7 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Jeep": 31
 , "Porsche": 15
 , "GWM": 4
-, "other": 3539
+, "other": 3415
 });
 
 db.insert(db.countries.IL, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/590717594145231.pdf",
@@ -2333,13 +2390,14 @@ db.insert(db.countries.IL, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Hyundai": 99
 , "Nio": 72
 , "Cupra": 68
+, "Leapmotor": 63
 , "Mini": 48
 , "Kia": 41
 , "MG": 40
 , "Volvo": 14
 , "Omoda Jaecoo": 9
 , "Porsche": 6
-, "other": 3153
+, "other": 3090
 });
 
 db.insert(db.countries.IL, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/9661762165249.pdf",
@@ -2356,6 +2414,7 @@ db.insert(db.countries.IL, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Seat": 431
 , "Deepal": 426
 , "Nissan": 399
+, "Leapmotor": 392
 , "Mitsubishi": 351
 , "Suzuki": 339
 , "Volkswagen": 256
@@ -2387,11 +2446,12 @@ db.insert(db.countries.IL, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "GWM": 11
 , "BAIC": 6
 , "Porsche": 4
-, "other": 1471
+, "other": 1079
 });
 
 db.insert(db.countries.IL, "2025-10", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/96617621652491.pdf",
 { "Deepal": 426
+, "Leapmotor": 349
 , "Lynk & Co": 329
 , "Geely": 240
 , "Xpeng": 212
@@ -2412,7 +2472,7 @@ db.insert(db.countries.IL, "2025-10", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Hyundai": 5
 , "Volvo": 3
 , "Renault": 2
-, "other": 1042
+, "other": 693
 });
 
 db.insert(db.countries.IL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/7711764765555.pdf",
@@ -2449,6 +2509,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Isuzu": 61
 , "Ford": 53
 , "Jeep": 52
+, "Leapmotor": 46
 , "Honda": 45
 , "Mazda": 45
 , "Fiat": 23
@@ -2456,7 +2517,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Land Rover": 19
 , "Mini": 17
 , "Porsche": 8
-, "other": 717
+, "other": 671
 });
 
 db.insert(db.countries.IL, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/77117647655551.pdf",
@@ -2470,6 +2531,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Volkswagen": 27
 , "GWM": 20
 , "Jeep": 19
+, "Leapmotor": 18
 , "Audi": 7
 , "Lynk & Co": 7
 , "Porsche": 4
@@ -2481,7 +2543,7 @@ db.insert(db.countries.IL, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Mercedes-Benz": 2
 , "Renault": 2
 , "Volvo": 2
-, "other": 305
+, "other": 287
 });
 
 db.insert(db.countries.IL, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/84051767520309.pdf",
@@ -2520,12 +2582,13 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "BMW": 23
 , "Opel": 23
 , "Jeep": 18
+, "Leapmotor": 18
 , "Mini": 12
 , "Land Rover": 9
 , "Ford": 8
 , "Fiat": 7
 , "Smart": 2
-, "other": 774
+, "other": 756
 });
 
 db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/840517675203091.pdf",
@@ -2536,6 +2599,7 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Xpeng": 101
 , "BYD": 65
 , "Omoda Jaecoo": 30
+, "Leapmotor": 13
 , "Kia": 12
 , "MG": 11
 , "Lynk & Co": 6
@@ -2546,7 +2610,7 @@ db.insert(db.countries.IL, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Audi": 2
 , "Chery": 2
 , "Smart": 2
-, "other": 546
+, "other": 533
 });
 
 db.insert(db.countries.IL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/57061770108428.pdf",
@@ -2573,6 +2637,7 @@ db.insert(db.countries.IL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Opel": 411
 , "Peugeot": 377
 , "Nissan": 365
+, "Leapmotor": 355
 , "Dacia": 347
 , "Volkswagen": 331
 , "Mazda": 303
@@ -2592,7 +2657,7 @@ db.insert(db.countries.IL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.ca
 , "Porsche": 47
 , "Fiat": 41
 , "JAC": 7
-, "other": 2203
+, "other": 1848
 });
 
 db.insert(db.countries.IL, "2026-01", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/570617701084281.pdf",
@@ -2604,6 +2669,7 @@ db.insert(db.countries.IL, "2026-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "Zeekr": 250
 , "Omoda Jaecoo": 182
 , "MG": 84
+, "Leapmotor": 80
 , "Mercedes-Benz": 72
 , "Smart": 65
 , "GWM": 53
@@ -2616,5 +2682,5 @@ db.insert(db.countries.IL, "2026-01", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BMW": 9
 , "JAC": 7
 , "Renault": 4
-, "other": 784
+, "other": 704
 });
