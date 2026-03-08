@@ -9083,9 +9083,9 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 61
 , "Xpeng": 56
 , "Smart": 40
-, "Nio": 3
+, "Nio": 17
 , "Subaru": 3
-, "other": 775
+, "other": 761
 });
 
 db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/1, https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
@@ -9158,10 +9158,11 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 22
 , "MG|other": 19
 , "Porsche|other": 19
+, "Nio|other": 17
 , "Tesla|other": 14
 , "Zeekr|other": 12
 , "Nissan|other": 11
 , "Xpeng|other": 9
 , "Audi|other": 8
-, "other": 632
+, "other": 615
 });
