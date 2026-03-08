@@ -2153,6 +2153,5 @@ db.insert(db.countries.CN, "2025-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Yuan Up": 18766
 , "BYD|Seagull": 18307
 , "BYD|Dolphin": 15602
-, "Zeekr|9X": 9482
-, "other": 468898
+, "other": 478380
 });
