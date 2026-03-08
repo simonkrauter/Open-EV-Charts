@@ -225,6 +225,10 @@ const companyGroups = {
   "Chery Automobile":
     [ "Chery"
     , "Omoda Jaecoo"
+    ],
+  "Changan Automobile":
+    [ "Changan"
+    , "Deepal"
     ]
 };
 
@@ -238,6 +242,7 @@ const companyGroupCountries =
 , "Jaguar Land Rover": "UK"
 , "SAIC Motor": "CN"
 , "Chery Automobile": "CN"
+, "Changan Automobile": "CN"
 };
 
 const brandCountries =
@@ -245,7 +250,6 @@ const brandCountries =
 , "Audi": "DE"
 , "BAIC": "CN"
 , "BYD": "CN"
-, "Changan": "CN"
 , "Chevrolet": "US"
 , "Citroën": "FR"
 , "Cupra": "ES"
