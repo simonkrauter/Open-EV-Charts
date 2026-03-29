@@ -4357,3 +4357,57 @@ db.insert(db.countries.AT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Sealion 7": 122
 , "other": 2578
 });
+
+db.insert(db.countries.AT, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisFebruar2026.ods",
+{ "Volkswagen": 2962
+, "Škoda": 2346
+, "Audi": 1630
+, "BMW": 1197
+, "Dacia": 1079
+, "Mercedes-Benz": 1067
+, "Seat": 985
+, "Cupra": 886
+, "Toyota": 836
+, "Peugeot": 752
+, "Opel": 745
+, "BYD": 726
+, "Renault": 662
+, "Ford": 646
+, "Kia": 571
+, "Hyundai": 471
+, "Citroën": 452
+, "Fiat": 375
+, "Mazda": 338
+, "Suzuki": 313
+, "Tesla": 281
+, "Volvo": 274
+, "MG": 229
+, "Omoda Jaecoo": 190
+, "Land Rover": 166
+, "Jeep": 144
+, "Leapmotor": 124
+, "Honda": 115
+, "Mitsubishi": 114
+, "Nissan": 108
+, "Porsche": 93
+, "Mini": 90
+, "Xpeng": 50
+, "Smart": 37
+, "Polestar": 32
+, "Subaru": 18
+, "other": 184
+});
+
+db.insert(db.countries.AT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisFebruar2026.ods",
+{ "Škoda|Elroq": 318
+, "Škoda|Enyaq": 259
+, "Tesla|Model Y": 226
+, "BYD|Sealion 7": 163
+, "Volkswagen|ID.3": 159
+, "Hyundai|Kona Electric": 141
+, "Ford|Explorer EV": 140
+, "BMW|iX1": 138
+, "Volkswagen|ID.7": 134
+, "BYD|Yuan Plus": 123
+, "other": 2638
+});
