@@ -8148,5 +8148,5 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 4
 , "Audi|other": 2
 , "Nissan|other": 2
-, "other": 224
+, "other": 220
 });
