@@ -6459,3 +6459,45 @@ db.insert(db.countries.FR, "2026-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 db.insert(db.countries.FR, "2026-01", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/02/Immatriculations-mensuelles-par-energie_Janvier2026.pdf",
 { "other": 30307
 });
+
+db.insert(db.countries.FR, "2026-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/03/Immatriculations-VPN_Fevrier2026.pdf",
+{ "Renault": 20417
+, "Peugeot": 17746
+, "Citroën": 11680
+, "Dacia": 8158
+, "Volkswagen": 8063
+, "Toyota": 7807
+, "BMW": 3966
+, "Škoda": 3804
+, "Tesla": 3715
+, "Hyundai": 3310
+, "Opel": 3282
+, "Audi": 3133
+, "Fiat": 2566
+, "Ford": 2463
+, "Kia": 2382
+, "Mercedes-Benz": 2335
+, "MG": 2136
+, "Mini": 1887
+, "Nissan": 1617
+, "Cupra": 1337
+, "Suzuki": 1246
+, "BYD": 976
+, "Jeep": 825
+, "Seat": 819
+, "Volvo": 784
+, "Honda": 413
+, "Leapmotor": 395
+, "Mazda": 387
+, "Xpeng": 353
+, "Porsche": 139
+, "Land Rover": 84
+, "Mitsubishi": 40
+, "Smart": 26
+, "other": 2513
+});
+
+
+db.insert(db.countries.FR, "2026-02", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/03/Immatriculations-mensuelles-par-energie_Fevrier2026.pdf",
+{ "other": 32370
+});
