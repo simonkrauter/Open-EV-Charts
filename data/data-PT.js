@@ -2188,22 +2188,22 @@ db.insert(db.countries.PT, "2025-04", db.dsTypes.AllCarsTotal, "https://www.acea
 
 db.insert(db.countries.PT, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/4, https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
 { "Peugeot": 396
-, "BMW": 349
+, "BMW": 348
 , "BYD": 333
 , "Citroën": 308
 , "Tesla": 288
 , "Renault": 247
 , "Mercedes-Benz": 206
-, "Kia": 196
+, "Kia": 195
 , "Volvo": 136
 , "Hyundai": 134
 , "Opel": 132
 , "Audi": 126
-, "Volkswagen": 109
+, "Volkswagen": 108
 , "Dacia": 102
 , "Mini": 88
 , "Toyota": 75
-, "MG": 66
+, "MG": 65
 , "Cupra": 58
 , "Porsche": 58
 , "Smart": 57
@@ -2214,6 +2214,7 @@ db.insert(db.countries.PT, "2025-04", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Polestar": 26
 , "Škoda": 20
 , "Jeep": 12
+, "Leapmotor": 4
 , "other": 15
 });
 
@@ -2222,34 +2223,35 @@ db.insert(db.countries.PT, "2025-05", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-05", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/5, https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
-{ "BYD": 436
-, "Peugeot": 436
-, "Citroën": 393
-, "BMW": 387
-, "Tesla": 316
+{ "BYD": 435
+, "Peugeot": 435
+, "Citroën": 391
+, "BMW": 385
+, "Tesla": 315
 , "Volvo": 266
-, "Mercedes-Benz": 243
-, "Renault": 243
-, "Hyundai": 162
-, "Fiat": 159
+, "Mercedes-Benz": 242
+, "Renault": 242
+, "Hyundai": 161
+, "Fiat": 158
 , "Audi": 147
 , "Kia": 146
 , "MG": 137
-, "Opel": 124
-, "Volkswagen": 120
+, "Opel": 123
+, "Volkswagen": 119
 , "Jeep": 107
-, "Mini": 95
-, "Toyota": 90
+, "Mini": 94
+, "Toyota": 89
 , "Ford": 82
 , "Xpeng": 79
 , "Dacia": 66
 , "Porsche": 50
 , "Škoda": 48
 , "Smart": 45
-, "Nissan": 33
+, "Nissan": 32
 , "Cupra": 26
 , "Polestar": 26
-, "other": 16
+, "Leapmotor": 15
+, "other": 17
 });
 
 db.insert(db.countries.PT, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -2257,26 +2259,26 @@ db.insert(db.countries.PT, "2025-06", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/6, https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
-{ "Tesla": 1260
+{ "Tesla": 1258
 , "BMW": 374
 , "BYD": 327
-, "Volvo": 301
+, "Volvo": 300
 , "Mercedes-Benz": 261
 , "Peugeot": 236
-, "Renault": 233
-, "Audi": 163
+, "Renault": 232
+, "Audi": 162
 , "Kia": 118
 , "MG": 118
 , "Citroën": 117
 , "Polestar": 106
 , "Ford": 97
-, "Volkswagen": 91
+, "Volkswagen": 90
 , "Jeep": 81
 , "Mini": 75
 , "Toyota": 75
 , "Hyundai": 74
-, "Xpeng": 69
-, "Nissan": 67
+, "Xpeng": 68
+, "Nissan": 66
 , "Smart": 66
 , "Fiat": 64
 , "Škoda": 55
@@ -2284,6 +2286,7 @@ db.insert(db.countries.PT, "2025-06", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Opel": 51
 , "Porsche": 51
 , "Cupra": 40
+, "Leapmotor": 8
 , "Honda": 3
 , "other": 16
 });
@@ -2293,36 +2296,37 @@ db.insert(db.countries.PT, "2025-07", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-07", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/7, https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
-{ "BYD": 384
-, "BMW": 368
-, "Peugeot": 337
-, "Volvo": 281
-, "Tesla": 277
-, "Mercedes-Benz": 198
-, "Renault": 172
-, "Citroën": 153
-, "Ford": 121
-, "MG": 116
-, "Volkswagen": 112
-, "Audi": 111
-, "Mini": 95
-, "Fiat": 94
-, "Hyundai": 94
+{ "BYD": 381
+, "BMW": 365
+, "Peugeot": 335
+, "Volvo": 278
+, "Tesla": 274
+, "Mercedes-Benz": 196
+, "Renault": 171
+, "Citroën": 152
+, "Ford": 120
+, "MG": 115
+, "Volkswagen": 111
+, "Audi": 110
+, "Mini": 94
+, "Fiat": 93
+, "Hyundai": 93
 , "Opel": 84
 , "Kia": 82
-, "Xpeng": 82
-, "Toyota": 74
-, "Jeep": 62
+, "Xpeng": 81
+, "Toyota": 73
+, "Jeep": 61
 , "Dacia": 50
 , "Cupra": 48
 , "Smart": 48
 , "Porsche": 46
 , "Nissan": 45
 , "Škoda": 44
-, "Polestar": 31
+, "Polestar": 30
+, "Leapmotor": 30
 , "Honda": 4
 , "Mazda": 3
-, "other": 16
+, "other": 15
 });
 
 db.insert(db.countries.PT, "2025-08", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
@@ -2330,35 +2334,36 @@ db.insert(db.countries.PT, "2025-08", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-08", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/8, https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
-{ "BYD": 363
-, "BMW": 325
+{ "BYD": 362
+, "BMW": 324
 , "Tesla": 220
 , "Mercedes-Benz": 201
-, "Peugeot": 196
-, "Renault": 196
-, "Volvo": 140
+, "Peugeot": 195
+, "Renault": 195
+, "Volvo": 139
 , "Citroën": 129
-, "Cupra": 106
-, "Hyundai": 106
-, "Mini": 105
+, "Cupra": 105
+, "Hyundai": 105
+, "Mini": 104
 , "Volkswagen": 102
 , "Audi": 98
 , "Ford": 94
 , "MG": 94
-, "Fiat": 90
-, "Kia": 86
+, "Fiat": 89
+, "Kia": 85
 , "Xpeng": 78
 , "Dacia": 58
 , "Toyota": 57
-, "Opel": 54
+, "Opel": 53
 , "Jeep": 37
 , "Polestar": 34
 , "Porsche": 32
 , "Smart": 29
 , "Škoda": 25
+, "Leapmotor": 8
 , "Nio": 4
 , "Nissan": 2
-, "other": 13
+, "other": 16
 });
 
 db.insert(db.countries.PT, "2025-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
@@ -2366,37 +2371,38 @@ db.insert(db.countries.PT, "2025-09", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-09", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/9, https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
-{ "Tesla": 1156
-, "BYD": 441
-, "BMW": 360
-, "Peugeot": 343
-, "Renault": 337
+{ "Tesla": 1153
+, "BYD": 440
+, "BMW": 359
+, "Peugeot": 342
+, "Renault": 336
 , "Mercedes-Benz": 224
 , "Volvo": 200
-, "Dacia": 182
-, "Mini": 159
+, "Dacia": 181
+, "Mini": 158
 , "Citroën": 145
-, "Volkswagen": 143
+, "Volkswagen": 142
 , "Audi": 135
 , "Kia": 125
-, "Toyota": 121
-, "Ford": 116
+, "Toyota": 120
+, "Ford": 115
 , "MG": 103
 , "Xpeng": 97
-, "Hyundai": 93
+, "Hyundai": 92
 , "Fiat": 79
-, "Polestar": 72
+, "Polestar": 71
 , "Opel": 61
 , "Škoda": 49
-, "Porsche": 48
+, "Porsche": 47
 , "Jeep": 45
 , "Smart": 44
 , "Cupra": 33
 , "Deepal": 19
 , "Nissan": 17
+, "Leapmotor": 14
 , "Mazda": 13
 , "Aion": 10
-, "other": 14
+, "other": 15
 });
 
 db.insert(db.countries.PT, "2025-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
@@ -2404,33 +2410,34 @@ db.insert(db.countries.PT, "2025-10", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-10", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/10, https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
-{ "BYD": 449
-, "BMW": 394
-, "Peugeot": 356
-, "Renault": 339
-, "Mercedes-Benz": 312
-, "Volvo": 278
-, "Opel": 196
-, "Volkswagen": 188
-, "Nissan": 179
-, "Ford": 169
-, "Kia": 160
-, "Citroën": 154
-, "Audi": 148
-, "MG": 141
-, "Tesla": 141
-, "Mini": 140
-, "Dacia": 130
-, "Hyundai": 108
-, "Xpeng": 90
-, "Škoda": 88
-, "Fiat": 69
-, "Toyota": 68
-, "Mazda": 64
-, "Smart": 62
+{ "BYD": 443
+, "BMW": 389
+, "Peugeot": 351
+, "Renault": 334
+, "Mercedes-Benz": 308
+, "Volvo": 274
+, "Opel": 193
+, "Volkswagen": 185
+, "Nissan": 176
+, "Ford": 167
+, "Kia": 158
+, "Citroën": 152
+, "Audi": 146
+, "MG": 139
+, "Tesla": 139
+, "Mini": 138
+, "Dacia": 128
+, "Hyundai": 107
+, "Xpeng": 88
+, "Škoda": 86
+, "Fiat": 68
+, "Toyota": 67
+, "Leapmotor": 65
+, "Mazda": 63
+, "Smart": 61
 , "Cupra": 49
-, "Jeep": 38
-, "Porsche": 38
+, "Jeep": 37
+, "Porsche": 37
 , "Polestar": 23
 , "Aion": 17
 , "Deepal": 7
@@ -2444,28 +2451,29 @@ db.insert(db.countries.PT, "2025-11", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/11, https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
-{ "BYD": 611
-, "Renault": 548
-, "Peugeot": 486
-, "BMW": 445
-, "Tesla": 402
-, "Mercedes-Benz": 299
-, "Opel": 273
-, "Volvo": 252
-, "Citroën": 214
-, "Mini": 182
-, "Dacia": 149
-, "Kia": 146
-, "Audi": 137
-, "Ford": 131
-, "Toyota": 128
-, "Volkswagen": 124
-, "MG": 123
-, "Hyundai": 112
-, "Jeep": 79
-, "Fiat": 71
+{ "BYD": 605
+, "Renault": 543
+, "Peugeot": 481
+, "BMW": 441
+, "Tesla": 399
+, "Mercedes-Benz": 296
+, "Opel": 270
+, "Volvo": 249
+, "Citroën": 212
+, "Mini": 180
+, "Dacia": 148
+, "Kia": 144
+, "Audi": 136
+, "Ford": 130
+, "Toyota": 127
+, "Volkswagen": 123
+, "MG": 122
+, "Hyundai": 111
+, "Jeep": 78
+, "Fiat": 70
 , "Škoda": 60
 , "Cupra": 59
+, "Leapmotor": 51
 , "Smart": 45
 , "Xpeng": 43
 , "Mazda": 41
@@ -2477,7 +2485,7 @@ db.insert(db.countries.PT, "2025-11", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Deepal": 11
 , "Nio": 5
 , "Omoda Jaecoo": 4
-, "other": 21
+, "other": 17
 });
 
 db.insert(db.countries.PT, "2025-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
@@ -2485,30 +2493,31 @@ db.insert(db.countries.PT, "2025-12", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2025-12", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2025/12, https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
-{ "Tesla": 1147
-, "BYD": 438
-, "Renault": 397
-, "Mercedes-Benz": 383
-, "Peugeot": 370
-, "BMW": 360
-, "Volvo": 252
-, "Citroën": 220
-, "Audi": 210
-, "Opel": 191
-, "Volkswagen": 150
-, "Ford": 148
-, "Mini": 126
-, "Dacia": 124
-, "Hyundai": 120
-, "MG": 118
-, "Toyota": 115
-, "Xpeng": 109
-, "Jeep": 88
-, "Kia": 75
-, "Cupra": 70
-, "Škoda": 69
+{ "Tesla": 1136
+, "BYD": 434
+, "Renault": 393
+, "Mercedes-Benz": 380
+, "Peugeot": 367
+, "BMW": 356
+, "Volvo": 250
+, "Citroën": 218
+, "Audi": 209
+, "Opel": 190
+, "Volkswagen": 148
+, "Ford": 146
+, "Mini": 125
+, "Dacia": 123
+, "Hyundai": 119
+, "MG": 117
+, "Toyota": 114
+, "Xpeng": 108
+, "Jeep": 87
+, "Kia": 74
+, "Cupra": 69
+, "Škoda": 68
 , "Mazda": 57
-, "Smart": 54
+, "Smart": 53
+, "Leapmotor": 50
 , "Fiat": 41
 , "Polestar": 41
 , "Changan": 32
@@ -2525,38 +2534,39 @@ db.insert(db.countries.PT, "2026-01", db.dsTypes.AllCarsTotal, "https://www.acea
 });
 
 db.insert(db.countries.PT, "2026-01", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2026/1, https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
-{ "Peugeot": 429
-, "BMW": 405
-, "BYD": 394
-, "Tesla": 351
-, "Opel": 292
-, "Citroën": 263
-, "Renault": 233
-, "Volvo": 228
-, "Mercedes-Benz": 184
-, "Kia": 168
-, "Toyota": 118
-, "Jeep": 111
-, "Mini": 105
-, "MG": 104
-, "Dacia": 96
-, "Hyundai": 95
-, "Volkswagen": 95
-, "Xpeng": 93
-, "Ford": 88
-, "Fiat": 64
+{ "Peugeot": 425
+, "BMW": 401
+, "BYD": 390
+, "Tesla": 348
+, "Opel": 289
+, "Citroën": 260
+, "Renault": 231
+, "Volvo": 226
+, "Mercedes-Benz": 182
+, "Kia": 167
+, "Toyota": 117
+, "Jeep": 109
+, "Mini": 104
+, "MG": 103
+, "Dacia": 95
+, "Hyundai": 94
+, "Volkswagen": 94
+, "Xpeng": 92
+, "Ford": 87
+, "Fiat": 63
 , "Changan": 55
-, "Smart": 50
+, "Smart": 49
 , "Audi": 48
-, "Škoda": 41
-, "Porsche": 39
-, "Polestar": 37
-, "Mazda": 27
-, "Omoda Jaecoo": 27
-, "Cupra": 25
+, "Leapmotor": 41
+, "Škoda": 40
+, "Porsche": 38
+, "Polestar": 36
+, "Mazda": 26
+, "Omoda Jaecoo": 26
+, "Cupra": 24
 , "Nissan": 23
 , "Aion": 17
 , "Mitsubishi": 17
 , "Nio": 6
-, "other": 13
+, "other": 18
 });
