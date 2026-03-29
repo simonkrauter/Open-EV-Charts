@@ -9123,7 +9123,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.au
 });
 
 db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/1, https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
-{ "Kia|EV3": 313
+{ "Kia|EV3": 314
 , "Tesla|Model Y": 291
 , "Volvo|EX30": 276
 , "Mini|Cooper SE": 274
@@ -9188,7 +9188,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 33
 , "Omoda Jaecoo|other": 33
 , "Dacia|other": 30
-, "Citroën|other": 28
+, "Citroën|other": 29
 , "Cupra|other": 24
 , "Hyundai|other": 24
 , "Volkswagen|other": 22
@@ -9201,5 +9201,5 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 11
 , "Xpeng|other": 9
 , "Audi|other": 8
-, "other": 504
+, "other": 502
 });
