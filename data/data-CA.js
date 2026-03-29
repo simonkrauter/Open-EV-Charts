@@ -267,17 +267,17 @@ db.insert(db.countries.CA, "2025-Q1", db.dsTypes.ElectricCarsTotal, "https://www
 });
 
 db.insert(db.countries.CA, "2025-Q2", db.dsTypes.AllCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 541566
+{ "other": 541896
 });
 
 db.insert(db.countries.CA, "2025-Q2", db.dsTypes.ElectricCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 29502
+{ "other": 29536
 });
 
 db.insert(db.countries.CA, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 484415
+{ "other": 486283
 });
 
 db.insert(db.countries.CA, "2025-Q3", db.dsTypes.ElectricCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 26792
+{ "other": 28648
 });
