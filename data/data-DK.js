@@ -4540,6 +4540,7 @@ db.insert(db.countries.DK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 41
 , "Honda|other": 25
 , "Polestar|other": 21
+, "MG|other": 19
 , "Omoda Jaecoo|other": 19
 , "Zeekr|other": 19
 , "Hyundai|other": 18
@@ -4547,5 +4548,5 @@ db.insert(db.countries.DK, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 12
 , "Subaru|other": 12
 , "Fiat|other": 9
-, "other": 275
+, "other": 256
 });
