@@ -869,3 +869,11 @@ db.insert(db.countries.global, "2026-01", db.dsTypes.AllCarsTotal, "https://clea
 db.insert(db.countries.global, "2026-01", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/03/05/top-selling-electric-vehicles-in-the-world-january-2026/",
 { "other": 774000
 });
+
+db.insert(db.countries.global, "2026-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/04/03/top-selling-electric-vehicles-in-the-world-february-2026/",
+{ "other": 6875000
+});
+
+db.insert(db.countries.global, "2026-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/04/03/top-selling-electric-vehicles-in-the-world-february-2026/",
+{ "other": 756250
+});
