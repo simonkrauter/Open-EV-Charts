@@ -1997,3 +1997,80 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 4
 , "other": 103
 });
+
+db.insert(db.countries.AU, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-february-2026-toyota-rav4-runout-pulls-down-vfacts-market/",
+{ "Toyota": 13606
+, "Mazda": 7042
+, "Ford": 6907
+, "Kia": 6710
+, "Hyundai": 6266
+, "BYD": 5323
+, "Mitsubishi": 4755
+, "GWM": 4689
+, "Chery": 3938
+, "Isuzu": 3384
+, "Tesla": 3274
+, "other": 28237
+});
+
+db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/04/05/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand/",
+{ "Tesla|Model Y": 2791
+, "BYD|Sealion 7": 1327
+, "Zeekr|7X": 628
+, "Tesla|Model 3": 483
+, "Geely|Galaxy E5": 416
+, "MG|4 EV": 406
+, "BYD|Yuan Plus": 384
+, "Omoda Jaecoo|Jaecoo E5": 369
+, "BYD|Seagull": 349
+, "BYD|Yuan Up": 347
+, "BYD|Seal": 302
+, "Kia|EV5": 280
+, "BYD|Dolphin": 260
+, "Kia|EV3": 223
+, "Toyota|bZ4X": 211
+, "MG|S5 EV": 158
+, "Mini|Cooper SE": 127
+, "Volkswagen|ID.4": 111
+, "Polestar|4": 97
+, "Mercedes-Benz|EQA": 96
+, "Volvo|EX30": 92
+, "GWM|Ora 03": 89
+, "Hyundai|Kona Electric": 89
+, "BMW|iX1": 88
+, "Omoda Jaecoo|Omoda E5": 84
+, "BMW|i4": 76
+, "BMW|iX2": 63
+, "Audi|Q6 e-tron": 59
+, "Mercedes-Benz|EQB": 55
+, "Kia|EV6": 50
+, "Volkswagen|ID. Buzz": 48
+, "Deepal|S07": 46
+, "Hyundai|Inster": 45
+, "Polestar|2": 45
+, "Volvo|EX40": 42
+, "Xpeng|G6": 41
+, "Škoda|Elroq": 41
+, "Audi|Q4 e-tron": 40
+, "Škoda|Enyaq": 38
+, "Volkswagen|ID.5": 35
+, "Cupra|Tavascan": 34
+, "Kia|EV4": 32
+, "Hyundai|Ioniq 5": 30
+, "Volvo|EX90": 26
+, "Deepal|E07": 25
+, "Leapmotor|B10": 25
+, "Subaru|Solterra": 25
+, "Leapmotor|C10 EV": 21
+, "Renault|Scénic E-Tech": 20
+, "Ford|Mustang Mach-E": 19
+, "Hyundai|Ioniq 9": 19
+, "Zeekr|other": 26
+, "BMW|other": 15
+, "Volvo|other": 12
+, "Porsche|other": 11
+, "Jeep|other": 9
+, "Kia|other": 9
+, "Nissan|other": 7
+, "other": 214
+});
