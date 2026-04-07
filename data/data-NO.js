@@ -6971,12 +6971,12 @@ db.insert(db.countries.NO, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 35
 , "Volkswagen|other": 26
 , "Cupra|other": 25
+, "MG|other": 24
 , "Mercedes-Benz|other": 23
 , "JAC|other": 22
-, "MG|other": 20
 , "Fiat|other": 19
 , "Jeep|other": 10
-, "other": 1814
+, "other": 1810
 });
 
 db.insert(db.countries.NO, "2025-12", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-desember-2025",
@@ -7060,6 +7060,7 @@ db.insert(db.countries.NO, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 126
 , "Kia|other": 120
 , "Volvo|other": 106
+, "MG|other": 78
 , "Mercedes-Benz|other": 78
 , "Hyundai|other": 71
 , "Porsche|other": 70
@@ -7072,7 +7073,7 @@ db.insert(db.countries.NO, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 39
 , "JAC|other": 31
 , "Fiat|other": 20
-, "other": 4025
+, "other": 3947
 });
 
 db.insert(db.countries.NO, "2026-01", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-januar-2026",
@@ -7132,6 +7133,7 @@ db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 17
 , "Zeekr|7X": 17
 , "BMW|iX1": 16
+, "MG|S6 EV": 16
 , "Nissan|Ariya": 16
 , "BYD|Sealion 7": 15
 , "Citroën|ë-C4": 15
@@ -7172,7 +7174,7 @@ db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 2
 , "Opel|other": 2
 , "Peugeot|other": 2
-, "other": 323
+, "other": 307
 });
 
 
