@@ -939,3 +939,52 @@ db.insert(db.countries.US, "2025-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 172
 , "other": 38982
 });
+
+db.insert(db.countries.US, "2026-Q1", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/04/15/us-ev-market-down-27-worst-1st-quarter-since-2022/",
+{ "other": 3667780
+});
+
+db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/04/15/us-ev-market-down-27-worst-1st-quarter-since-2022/",
+{ "Tesla|Model Y": 78591
+, "Tesla|Model 3": 31672
+, "Toyota|bZ4X": 10029
+, "Hyundai|Ioniq 5": 9790
+, "Chevrolet|Equinox EV": 9589
+, "Ford|Mustang Mach-E": 4600
+, "Tesla|Cybertruck": 3519
+, "Honda|Prologue": 3319
+, "Subaru|Solterra": 3041
+, "Kia|EV9": 2740
+, "Tesla|Model X": 2346
+, "BMW|i4": 2184
+, "Ford|F-150 Lightning": 2060
+, "Kia|EV6": 2023
+, "Hyundai|Ioniq 9": 1990
+, "BMW|iX": 1788
+, "Chevrolet|Silverado EV": 1406
+, "Volvo|EX30": 1373
+, "Tesla|Model S": 1172
+, "Chevrolet|Blazer EV": 1077
+, "Volkswagen|ID. Buzz": 839
+, "Hyundai|Ioniq 6": 829
+, "Porsche|Macan Electric": 822
+, "Chevrolet|Bolt/Bolt EUV": 791
+, "Volvo|EX90": 702
+, "Nissan|Leaf": 668
+, "BMW|i5": 645
+, "Kia|Niro EV": 516
+, "Porsche|Taycan": 458
+, "Mercedes-Benz|EQE": 397
+, "BMW|i7": 346
+, "Volkswagen|ID.4": 338
+, "Audi|Q6 e-tron": 318
+, "Volvo|EX40": 253
+, "Mercedes-Benz|G-Class EV": 245
+, "Mercedes-Benz|EQS": 206
+, "Mercedes-Benz|eSprinter": 202
+, "Ford|E-Transit": 200
+, "Mini|Countryman Electric": 200
+, "Jeep|Wagoneer S": 175
+, "Audi|A6 e-tron": 135
+, "other": 32805
+});
