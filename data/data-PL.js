@@ -401,3 +401,11 @@ db.insert(db.countries.PL, "2026-02", db.dsTypes.AllCarsTotal, "https://www.acea
 db.insert(db.countries.PL, "2026-02", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
 { "other": 1891
 });
+
+db.insert(db.countries.PL, "2026-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "other": 63896
+});
+
+db.insert(db.countries.PL, "2026-03", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "other": 3406
+});
