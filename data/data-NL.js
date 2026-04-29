@@ -9325,3 +9325,123 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nio|other": 7
 , "other": 215
 });
+
+db.insert(db.countries.NL, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/maart/",
+{ "Kia": 2844
+, "BMW": 2100
+, "Toyota": 2095
+, "Volkswagen": 2079
+, "Renault": 1948
+, "Tesla": 1819
+, "Škoda": 1579
+, "Volvo": 1503
+, "Peugeot": 1374
+, "Mercedes-Benz": 1346
+, "Audi": 1164
+, "Hyundai": 1005
+, "Mazda": 959
+, "Opel": 840
+, "Ford": 801
+, "BYD": 777
+, "Dacia": 751
+, "Nissan": 622
+, "Citroën": 602
+, "Omoda Jaecoo": 490
+, "Mini": 473
+, "Land Rover": 399
+, "Seat": 397
+, "Mitsubishi": 376
+, "Jeep": 331
+, "Suzuki": 326
+, "Cupra": 319
+, "Lynk & Co": 265
+, "Leapmotor": 236
+, "Porsche": 178
+, "Fiat": 173
+, "MG": 160
+, "Honda": 139
+, "Xpeng": 107
+, "Zeekr": 98
+, "Polestar": 97
+, "Smart": 31
+, "Subaru": 8
+, "other": 656
+});
+
+db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/3, https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "Tesla|Model Y": 989
+, "Tesla|Model 3": 819
+, "Škoda|Elroq": 525
+, "Kia|EV3": 522
+, "Kia|EV5": 476
+, "Renault|5 E-Tech": 327
+, "Volvo|EX40": 290
+, "BMW|iX1": 284
+, "Volvo|EX30": 271
+, "BMW|iX3": 261
+, "Mini|Cooper SE": 258
+, "Volkswagen|ID.7": 204
+, "Volkswagen|ID.4": 194
+, "Škoda|Enyaq": 182
+, "Volkswagen|ID.3": 180
+, "Hyundai|Inster": 163
+, "Citroën|ë-C3": 161
+, "Kia|EV4": 157
+, "Renault|Scénic E-Tech": 157
+, "Ford|Explorer EV": 149
+, "BMW|i4": 147
+, "Renault|4 E-Tech": 143
+, "Mercedes-Benz|CLA EV": 140
+, "Hyundai|Kona Electric": 138
+, "Audi|Q4 e-tron": 135
+, "BMW|i5": 126
+, "Opel|Frontera Electric": 117
+, "Mazda|EZ-6 BEV": 111
+, "Mercedes-Benz|EQA": 110
+, "Peugeot|e-2008": 109
+, "Renault|Megane E-Tech": 101
+, "Leapmotor|B10": 90
+, "Cupra|Tavascan": 89
+, "Jeep|Avenger EV": 87
+, "Leapmotor|T03": 83
+, "Toyota|bZ4X": 80
+, "Fiat|Grande Panda Electric": 77
+, "Zeekr|7X": 75
+, "Peugeot|E-5008": 72
+, "Ford|Puma Gen-E": 70
+, "Kia|Niro EV": 68
+, "Audi|Q6 e-tron": 67
+, "Dacia|Spring": 60
+, "Peugeot|e-208": 59
+, "Porsche|Macan Electric": 58
+, "Volvo|EC40": 54
+, "Xpeng|G9": 54
+, "BYD|Seal": 53
+, "Xpeng|G6": 53
+, "Cupra|Born": 52
+, "BYD|other": 125
+, "Opel|other": 123
+, "Kia|other": 106
+, "Polestar|other": 97
+, "Mercedes-Benz|other": 92
+, "BMW|other": 90
+, "Peugeot|other": 81
+, "Hyundai|other": 69
+, "Volkswagen|other": 60
+, "Citroën|other": 59
+, "MG|other": 53
+, "Omoda Jaecoo|other": 51
+, "Audi|other": 47
+, "Leapmotor|other": 42
+, "Ford|other": 38
+, "Smart|other": 31
+, "Fiat|other": 28
+, "Tesla|other": 24
+, "Zeekr|other": 24
+, "Volvo|other": 23
+, "Nissan|other": 17
+, "Deepal|other": 12
+, "Porsche|other": 11
+, "Subaru|other": 8
+, "other": 556
+});
