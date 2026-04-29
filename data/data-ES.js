@@ -7737,12 +7737,12 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 66
 , "Kia|other": 65
 , "Opel|other": 51
+, "MG|other": 45
 , "Volvo|other": 39
 , "Fiat|other": 37
 , "Mercedes-Benz|other": 36
 , "Peugeot|other": 36
 , "Deepal|other": 30
-, "MG|other": 26
 , "Smart|other": 26
 , "Hyundai|other": 22
 , "Polestar|other": 19
@@ -7752,5 +7752,5 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 8
 , "Tesla|other": 7
 , "Leapmotor|other": 6
-, "other": 200
+, "other": 181
 });
