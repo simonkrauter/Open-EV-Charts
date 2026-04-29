@@ -2199,3 +2199,27 @@ db.insert(db.countries.CN, "2026-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Zeekr|9X": 4878
 , "other": 133232
 });
+
+db.insert(db.countries.CN, "2026-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/04/22/byd-wins-in-a-slow-return-to-normal-china-march-ev-sales-report/",
+{ "other": 1622857
+});
+
+db.insert(db.countries.CN, "2026-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/04/22/byd-wins-in-a-slow-return-to-normal-china-march-ev-sales-report/",
+{ "Tesla|Model Y": 39827
+, "Geometry|Xingyuan": 30953
+, "BYD|Yuan Up": 21538
+, "BYD|Dolphin": 17291
+, "Wuling|Hongguang Mini EV": 16806
+, "Tesla|Model 3": 16280
+, "Nio|ES8": 16255
+, "BYD|Seagull": 14409
+, "Xiaomi|YU7": 13558
+, "MG|4 EV": 14007
+, "BYD|Qin EV": 10421
+, "Deepal|S05": 7020
+, "BYD|Sealion 06 EV": 8306
+, "BYD|Seal 06 EV": 5220
+, "BYD|Song EV": 1214
+, "Leapmotor|C10 EV": 4980
+, "other": 329915
+});
