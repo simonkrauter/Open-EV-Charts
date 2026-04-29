@@ -2757,3 +2757,77 @@ db.insert(db.countries.IL, "2026-02", db.dsTypes.ElectricCarsByBrand, "https://w
 , "BMW": 4
 , "other": 591
 });
+
+db.insert(db.countries.IL, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.car-importers.org.il/assets/files/70771775223346.pdf",
+{ "Omoda Jaecoo": 3777
+, "Toyota": 2817
+, "Hyundai": 2528
+, "Kia": 2473
+, "Chery": 2256
+, "BYD": 1973
+, "Tesla": 1685
+, "Škoda": 1565
+, "MG": 844
+, "Geely": 512
+, "Nissan": 425
+, "Xpeng": 393
+, "Deepal": 329
+, "Citroën": 291
+, "Subaru": 275
+, "Mitsubishi": 274
+, "Volkswagen": 266
+, "Lynk & Co": 252
+, "Mercedes-Benz": 244
+, "Audi": 218
+, "Opel": 202
+, "Mazda": 191
+, "Suzuki": 174
+, "BMW": 160
+, "Peugeot": 155
+, "Zeekr": 150
+, "Dacia": 129
+, "Renault": 118
+, "Cupra": 110
+, "Leapmotor": 101
+, "Land Rover": 92
+, "Isuzu": 89
+, "Volvo": 82
+, "Ford": 60
+, "Fiat": 50
+, "Seat": 43
+, "GWM": 41
+, "Jeep": 33
+, "Honda": 31
+, "Mini": 31
+, "JAC": 29
+, "Chevrolet": 20
+, "Porsche": 12
+, "Smart": 8
+, "other": 848
+});
+
+db.insert(db.countries.IL, "2026-03", db.dsTypes.ElectricCarsByBrand, "https://www.car-importers.org.il/assets/files/707717752233461.pdf",
+{ "Tesla": 1685
+, "Xpeng": 393
+, "Deepal": 329
+, "BYD": 211
+, "Geely": 174
+, "Zeekr": 150
+, "MG": 136
+, "Kia": 75
+, "Leapmotor": 61
+, "Mercedes-Benz": 57
+, "Lynk & Co": 44
+, "GWM": 41
+, "Omoda Jaecoo": 31
+, "JAC": 29
+, "Volvo": 9
+, "Smart": 8
+, "Audi": 5
+, "BMW": 5
+, "Chery": 4
+, "Porsche": 4
+, "Mini": 2
+, "Renault": 2
+, "other": 236
+});
