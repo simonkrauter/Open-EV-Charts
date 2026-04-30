@@ -946,18 +946,10 @@ var db = {
       return 6;
     if (timeSpan == this.timeSpanOptions.last13m)
       return 13;
-    if (timeSpan == this.timeSpanOptions.last1y)
-      return 12;
-    if (timeSpan == this.timeSpanOptions.last2y)
-      return 12 * 2;
-    if (timeSpan == this.timeSpanOptions.last3y)
-      return 12 * 3;
-    if (timeSpan == this.timeSpanOptions.last4y)
-      return 12 * 4;
-    if (timeSpan == this.timeSpanOptions.last5y)
-      return 12 * 5;
-    if (timeSpan == this.timeSpanOptions.last6y)
-      return 12 * 6;
+    for (let i = 1; i <= 10; i++) {
+      if (timeSpan == i + "y")
+        return i * 12;
+    }
     return 12;
   },
 
