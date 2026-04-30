@@ -7141,3 +7141,105 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 2
 , "other": 173
 });
+
+db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2026/04/March-2026.xlsx",
+{ "Toyota": 893
+, "Volkswagen": 658
+, "Volvo": 600
+, "Tesla": 592
+, "Škoda": 555
+, "Kia": 379
+, "BMW": 354
+, "Mercedes-Benz": 349
+, "Nissan": 305
+, "Audi": 266
+, "Ford": 243
+, "Hyundai": 208
+, "Citroën": 192
+, "Polestar": 174
+, "Renault": 157
+, "BYD": 103
+, "Mazda": 99
+, "Peugeot": 84
+, "Mitsubishi": 75
+, "Cupra": 63
+, "Opel": 62
+, "Subaru": 61
+, "Suzuki": 60
+, "Dacia": 46
+, "MG": 43
+, "Land Rover": 42
+, "Smart": 34
+, "Porsche": 29
+, "Mini": 13
+, "Seat": 1
+, "other": 51
+});
+
+db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2026/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+{ "Tesla|Model Y": 362
+, "Tesla|Model 3": 229
+, "Volkswagen|ID.4": 151
+, "Citroën|ë-C4": 150
+, "Škoda|Elroq": 147
+, "Škoda|Enyaq": 146
+, "Toyota|bZ4X": 142
+, "Mercedes-Benz|CLA EV": 139
+, "Volvo|EX40": 121
+, "Volkswagen|ID.7": 100
+, "Kia|EV3": 82
+, "Hyundai|Inster": 74
+, "BMW|i4": 72
+, "Audi|Q6 e-tron": 64
+, "Ford|Explorer EV": 64
+, "Volvo|EX30": 58
+, "Audi|Q4 e-tron": 56
+, "BMW|iX1": 56
+, "Ford|Capri EV": 50
+, "BMW|iX3": 48
+, "Volvo|EC40": 45
+, "Mercedes-Benz|EQB": 44
+, "Cupra|Tavascan": 37
+, "Audi|A6 e-tron": 35
+, "Smart|Hashtag 5": 33
+, "Citroën|ë-C3": 32
+, "Kia|EV5": 28
+, "Mercedes-Benz|EQA": 27
+, "BYD|Sealion 7": 26
+, "Porsche|Macan Electric": 24
+, "Volkswagen|ID.3": 24
+, "BMW|iX": 23
+, "BMW|iX2": 22
+, "BYD|Seal": 22
+, "Kia|EV9": 20
+, "Ford|Puma Gen-E": 19
+, "BYD|Yuan Plus": 18
+, "Kia|EV4": 18
+, "Nissan|Ariya": 18
+, "BYD|Dolphin": 17
+, "Kia|EV6": 17
+, "Subaru|Solterra": 17
+, "Peugeot|E-3008": 15
+, "Renault|Scénic E-Tech": 14
+, "Cupra|Born": 13
+, "Mini|Cooper SE": 13
+, "Hyundai|Kona Electric": 12
+, "BMW|i5": 11
+, "Hyundai|Ioniq 5": 11
+, "Mazda|EZ-6 BEV": 11
+, "Peugeot|E-5008": 11
+, "Mercedes-Benz|other": 15
+, "Citroën|other": 10
+, "Volvo|other": 9
+, "Xpeng|other": 9
+, "Ford|other": 8
+, "Opel|other": 7
+, "Hyundai|other": 5
+, "Kia|other": 5
+, "Volkswagen|other": 4
+, "BYD|other": 3
+, "Peugeot|other": 3
+, "Renault|other": 3
+, "Audi|other": 2
+, "other": 297
+});
