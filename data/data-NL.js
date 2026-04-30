@@ -9166,14 +9166,13 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C5": 46
 , "BYD|Seal": 45
 , "Mercedes-Benz|EQB": 45
+, "Toyota|Urban Cruiser Electric": 45
 , "Renault|Megane E-Tech": 41
 , "Zeekr|7X": 40
 , "Volvo|ES90": 38
 , "Leapmotor|T03": 36
 , "Peugeot|e-2008": 36
 , "Zeekr|X": 36
-, "Cupra|Born": 35
-, "Mazda|EZ-6 BEV": 35
 , "BMW|other": 83
 , "Mercedes-Benz|other": 77
 , "Opel|other": 75
@@ -9181,18 +9180,19 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|other": 66
 , "Peugeot|other": 62
 , "Polestar|other": 61
+, "Cupra|other": 59
 , "Ford|other": 51
 , "Fiat|other": 50
 , "Smart|other": 40
 , "Volvo|other": 37
+, "Mazda|other": 35
 , "Jeep|other": 33
 , "Omoda Jaecoo|other": 33
 , "Dacia|other": 30
 , "Citroën|other": 29
-, "Cupra|other": 24
+, "MG|other": 29
 , "Hyundai|other": 24
 , "Volkswagen|other": 22
-, "MG|other": 19
 , "Porsche|other": 19
 , "Nio|other": 17
 , "Tesla|other": 14
@@ -9201,7 +9201,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 11
 , "Xpeng|other": 9
 , "Audi|other": 8
-, "other": 502
+, "other": 447
 });
 
 db.insert(db.countries.NL, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/februari/",
@@ -9287,6 +9287,7 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-3008": 57
 , "Porsche|Macan Electric": 56
 , "Renault|Megane E-Tech": 56
+, "Toyota|Urban Cruiser Electric": 56
 , "Peugeot|e-2008": 49
 , "Opel|Corsa-e": 46
 , "BMW|i4": 45
@@ -9317,13 +9318,13 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 25
 , "Dacia|other": 24
 , "Hyundai|other": 24
-, "MG|other": 16
+, "MG|other": 17
 , "Audi|other": 11
 , "Tesla|other": 11
 , "Nissan|other": 8
 , "Porsche|other": 8
 , "Nio|other": 7
-, "other": 215
+, "other": 158
 });
 
 db.insert(db.countries.NL, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/maart/",
@@ -9411,6 +9412,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Puma Gen-E": 70
 , "Kia|Niro EV": 68
 , "Audi|Q6 e-tron": 67
+, "Toyota|Urban Cruiser Electric": 62
 , "Dacia|Spring": 60
 , "Peugeot|e-208": 59
 , "Porsche|Macan Electric": 58
@@ -9418,7 +9420,6 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|G9": 54
 , "BYD|Seal": 53
 , "Xpeng|G6": 53
-, "Cupra|Born": 52
 , "BYD|other": 125
 , "Opel|other": 123
 , "Kia|other": 106
@@ -9430,6 +9431,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 60
 , "Citroën|other": 59
 , "MG|other": 53
+, "Cupra|other": 52
 , "Omoda Jaecoo|other": 51
 , "Audi|other": 47
 , "Leapmotor|other": 42
@@ -9443,5 +9445,5 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Deepal|other": 12
 , "Porsche|other": 11
 , "Subaru|other": 8
-, "other": 556
+, "other": 494
 });
