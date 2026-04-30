@@ -8255,6 +8255,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 23
 , "Polestar|other": 22
 , "Xpeng|other": 21
+, "MG|other": 20
 , "Renault|other": 18
 , "Smart|other": 16
 , "BYD|other": 15
@@ -8263,10 +8264,9 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 10
 , "Citroën|other": 9
 , "Ford|other": 9
-, "MG|other": 9
 , "Volkswagen|other": 9
 , "Volvo|other": 9
 , "Audi|other": 8
 , "Jeep|other": 3
-, "other": 252
+, "other": 241
 });
