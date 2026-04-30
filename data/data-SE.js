@@ -7892,13 +7892,13 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Peugeot|other": 15
 , "Tesla|other": 13
 , "Subaru|other": 12
+, "MG|other": 10
 , "Xpeng|other": 10
 , "Citroën|other": 9
 , "Fiat|other": 9
 , "Kia|other": 9
-, "MG|other": 5
 , "Smart|other": 5
-, "other": 168
+, "other": 163
 });
 
 db.insert(db.countries.SE, "2026-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8111,11 +8111,11 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Smart|other": 25
 , "Ford|other": 23
 , "Citroën|other": 22
+, "Kia|other": 21
 , "Leapmotor|other": 21
-, "Kia|other": 15
 , "Nissan|other": 11
 , "MG|other": 9
 , "Fiat|other": 8
 , "Porsche|other": 7
-, "other": 462
+, "other": 456
 });
