@@ -7782,10 +7782,10 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 6
 , "Subaru|other": 6
 , "Nissan|other": 5
+, "Toyota|other": 5
 , "Xpeng|other": 5
 , "Citroën|other": 4
-, "Toyota|other": 3
-, "other": 180
+, "other": 178
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/12/ModellePW2025.xlsx",
@@ -7896,9 +7896,9 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 15
 , "Volvo|other": 15
 , "Smart|other": 14
+, "Toyota|other": 13
 , "Porsche|other": 12
 , "Tesla|other": 11
-, "Toyota|other": 10
 , "Zeekr|other": 10
 , "Xpeng|other": 9
 , "Volkswagen|other": 8
@@ -7911,7 +7911,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 4
 , "BMW|other": 3
 , "Honda|other": 3
-, "other": 307
+, "other": 304
 });
 
 db.insert(db.countries.CH, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7963,6 +7963,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 411
 , "Volvo|EX30": 383
 , "Cupra|Tavascan": 297
+, "Toyota|Urban Cruiser Electric": 273
 , "Audi|Q4 e-tron": 225
 , "Toyota|bZ4X": 222
 , "Cupra|Born": 201
@@ -8030,7 +8031,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 6
 , "Renault|other": 6
 , "Audi|other": 5
-, "other": 790
+, "other": 517
 });
 
 db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/02/ModellePW2026.xlsx",
@@ -8094,6 +8095,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|B10": 48
 , "Tesla|Model Y": 47
 , "Volvo|ES90": 45
+, "Toyota|Urban Cruiser Electric": 43
 , "MG|4 EV": 40
 , "Mercedes-Benz|EQA": 40
 , "Hyundai|Inster": 39
@@ -8148,7 +8150,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 4
 , "Audi|other": 2
 , "Nissan|other": 2
-, "other": 220
+, "other": 177
 });
 
 db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/03/ModellePW2026.xlsx",
@@ -8227,6 +8229,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 28
 , "BMW|iX": 25
 , "Leapmotor|B10": 25
+, "Toyota|Urban Cruiser Electric": 25
 , "Ford|Explorer EV": 24
 , "Renault|Scénic E-Tech": 24
 , "Smart|Hashtag 5": 24
@@ -8243,12 +8246,10 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 19
 , "BYD|Seagull": 18
 , "Mercedes-Benz|eCitan": 18
-, "BMW|i4": 17
-, "Porsche|Taycan": 17
+, "BMW|other": 43
 , "Opel|other": 37
 , "Hyundai|other": 34
 , "Kia|other": 29
-, "BMW|other": 26
 , "Tesla|other": 26
 , "Mercedes-Benz|other": 25
 , "Fiat|other": 23
@@ -8257,6 +8258,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 21
 , "MG|other": 20
 , "Renault|other": 18
+, "Porsche|other": 17
 , "Smart|other": 16
 , "BYD|other": 15
 , "Zeekr|other": 12
@@ -8268,7 +8270,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 9
 , "Audi|other": 8
 , "Jeep|other": 3
-, "other": 241
+, "other": 216
 });
 
 db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/04/ModellePW2026-2.xlsx",
@@ -8380,6 +8382,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 20
 , "MG|other": 18
 , "Mazda|other": 18
+, "Toyota|other": 16
 , "Volkswagen|other": 15
 , "Xpeng|other": 13
 , "Renault|other": 12
@@ -8389,5 +8392,5 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 8
 , "JAC|other": 5
 , "Nissan|other": 5
-, "other": 461
+, "other": 445
 });
