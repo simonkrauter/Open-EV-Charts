@@ -2611,3 +2611,44 @@ db.insert(db.countries.PT, "2026-02", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Aion": 12
 , "other": 15
 });
+
+db.insert(db.countries.PT, "2026-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "other": 26679
+});
+
+db.insert(db.countries.PT, "2026-03", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2026/3, https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "Tesla": 1140
+, "Mercedes-Benz": 462
+, "BYD": 456
+, "BMW": 406
+, "Citroën": 373
+, "Peugeot": 355
+, "Volvo": 355
+, "Renault": 317
+, "Kia": 185
+, "Mini": 151
+, "Xpeng": 147
+, "Fiat": 136
+, "MG": 125
+, "Toyota": 125
+, "Nissan": 123
+, "Jeep": 122
+, "Hyundai": 114
+, "Ford": 105
+, "Opel": 99
+, "Leapmotor": 92
+, "Volkswagen": 91
+, "Omoda Jaecoo": 72
+, "Porsche": 68
+, "Dacia": 59
+, "Audi": 53
+, "Changan": 52
+, "Polestar": 51
+, "Cupra": 49
+, "Škoda": 48
+, "Mazda": 36
+, "Smart": 32
+, "Aion": 28
+, "Mitsubishi": 14
+, "other": 22
+});
