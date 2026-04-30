@@ -4631,3 +4631,83 @@ db.insert(db.countries.DK, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 8
 , "other": 36
 });
+
+db.insert(db.countries.DK, "2026-03", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 19024
+});
+
+db.insert(db.countries.DK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2026/3, https://www.statistikbanken.dk/bil51",
+{ "Škoda|Elroq": 1126
+, "Tesla|Model Y": 808
+, "Volkswagen|ID.4": 734
+, "Škoda|Enyaq": 699
+, "Cupra|Tavascan": 681
+, "Toyota|bZ4X": 634
+, "Tesla|Model 3": 618
+, "Audi|Q4 e-tron": 571
+, "Volkswagen|ID. Buzz": 497
+, "Mercedes-Benz|EQA": 371
+, "Renault|Scénic E-Tech": 332
+, "Volkswagen|ID.3": 326
+, "Renault|5 E-Tech": 288
+, "Volkswagen|ID.7": 286
+, "Toyota|Urban Cruiser Electric": 281
+, "Xpeng|G6": 267
+, "Polestar|4": 258
+, "Mercedes-Benz|EQB": 254
+, "Volvo|EX40": 243
+, "Mazda|EZ-6 BEV": 209
+, "Citroën|ë-C3": 200
+, "Zeekr|7X": 198
+, "Ford|Explorer EV": 192
+, "Audi|Q6 e-tron": 169
+, "BMW|i4": 163
+, "Renault|Megane E-Tech": 163
+, "Kia|PV5": 159
+, "Kia|EV3": 149
+, "BMW|iX1": 145
+, "Audi|A6 e-tron": 141
+, "Peugeot|e-208": 140
+, "Ford|E-Transit": 139
+, "Cupra|Born": 134
+, "Hyundai|Ioniq 5": 125
+, "BYD|Seal": 122
+, "Renault|4 E-Tech": 121
+, "Hyundai|Kona Electric": 112
+, "Volvo|EX30": 108
+, "Opel|Frontera Electric": 100
+, "Leapmotor|B10": 95
+, "BMW|i5": 93
+, "Mercedes-Benz|EQE": 86
+, "Peugeot|E-5008": 85
+, "Peugeot|e-2008": 84
+, "Mercedes-Benz|eCitan": 81
+, "Citroën|ë-C5": 74
+, "Kia|EV4": 71
+, "MG|4 EV": 70
+, "Renault|Master E-Tech": 70
+, "Hyundai|Inster": 69
+, "Mini|Cooper SE": 69
+, "BYD|other": 172
+, "Kia|other": 115
+, "BMW|other": 96
+, "MG|other": 92
+, "Volkswagen|other": 84
+, "Peugeot|other": 82
+, "Toyota|other": 81
+, "Volvo|other": 71
+, "Mercedes-Benz|other": 70
+, "Ford|other": 69
+, "Xpeng|other": 65
+, "Hyundai|other": 59
+, "Zeekr|other": 48
+, "Omoda Jaecoo|other": 45
+, "Opel|other": 41
+, "Porsche|other": 35
+, "Subaru|other": 32
+, "Nissan|other": 22
+, "Honda|other": 16
+, "Citroën|other": 13
+, "Renault|other": 13
+, "other": 36
+});
