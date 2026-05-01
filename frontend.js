@@ -1,5 +1,7 @@
 "use strict";
 
+document.getElementById("staticLink").style.display = "none";
+
 db.finalizeDataLoading();
 
 document.addEventListener("mousemove", function(event) {
