@@ -2,21 +2,18 @@
 
 "use strict";
 
-// https://aut.fi/en/markkinatilastot/kuukausitilastot-2/
-// https://aut.fi/en/markkinatilastot/new-registrations/
-
-db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1828/January_2018.xlsx",
-{ "Toyota": 1948
+db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1950
 , "Škoda": 1448
 , "Volkswagen": 1435
 , "Volvo": 1050
-, "Ford": 1020
-, "Audi": 856
+, "Ford": 1021
+, "Audi": 847
 , "Nissan": 811
 , "Kia": 741
 , "Opel": 733
 , "BMW": 670
-, "Mercedes-Benz": 623
+, "Mercedes-Benz": 618
 , "Hyundai": 389
 , "Peugeot": 342
 , "Honda": 225
@@ -27,40 +24,40 @@ db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 86
 , "Dacia": 80
 , "Mitsubishi": 61
-, "Renault": 47
+, "Renault": 48
 , "Land Rover": 39
 , "Porsche": 31
 , "Mini": 27
 , "Fiat": 25
 , "Jaguar": 22
 , "Tesla": 17
-, "other": 156
+, "Jeep": 6
+, "other": 43
 });
 
-db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model S": 16
 , "Volkswagen|e-Golf": 8
+, "BMW|i3 BEV": 5
 , "Nissan|Leaf": 2
 , "Renault|Zoe": 2
-, "BMW|i3 BEV": 1
 , "Hyundai|Ioniq Electric": 1
 , "Kia|Soul EV": 1
 , "Tesla|Model X": 1
-, "other": 4
 });
 
-db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1837/February_2018.xlsx",
+db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1256
 , "Volkswagen": 1014
 , "Škoda": 810
 , "Ford": 744
-, "Volvo": 630
+, "Volvo": 631
 , "Opel": 601
 , "Nissan": 589
 , "Kia": 483
-, "Mercedes-Benz": 416
-, "Audi": 389
-, "Hyundai": 383
+, "Mercedes-Benz": 414
+, "Audi": 384
+, "Hyundai": 384
 , "BMW": 332
 , "Peugeot": 246
 , "Seat": 156
@@ -69,7 +66,7 @@ db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mazda": 108
 , "Citroën": 104
 , "Renault": 93
-, "Subaru": 89
+, "Subaru": 90
 , "Dacia": 78
 , "Mitsubishi": 45
 , "Land Rover": 28
@@ -77,11 +74,12 @@ db.insert(db.countries.FI, "2018-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 17
 , "Jaguar": 16
 , "Fiat": 11
+, "Jeep": 5
 , "Tesla": 4
-, "other": 167
+, "other": 32
 });
 
-db.insert(db.countries.FI, "2018-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 23
 , "Volkswagen|e-Golf": 8
 , "Tesla|Model S": 2
@@ -90,17 +88,17 @@ db.insert(db.countries.FI, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 });
 
-db.insert(db.countries.FI, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1848/March_2018-2.xlsx",
+db.insert(db.countries.FI, "2018-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1384
-, "Škoda": 1325
-, "Volkswagen": 1276
+, "Škoda": 1326
+, "Volkswagen": 1277
 , "Ford": 958
 , "Nissan": 855
 , "Volvo": 845
 , "Opel": 616
-, "Mercedes-Benz": 545
 , "Kia": 543
-, "Audi": 470
+, "Mercedes-Benz": 542
+, "Audi": 468
 , "BMW": 433
 , "Hyundai": 393
 , "Seat": 298
@@ -119,10 +117,11 @@ db.insert(db.countries.FI, "2018-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 17
 , "Porsche": 15
 , "Fiat": 14
-, "other": 182
+, "Jeep": 9
+, "other": 49
 });
 
-db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 43
 , "Tesla|Model S": 29
 , "Volkswagen|e-Golf": 11
@@ -132,19 +131,19 @@ db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 });
 
-db.insert(db.countries.FI, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1871/April_2018.xlsx",
-{ "Toyota": 1402
-, "Volkswagen": 1171
+db.insert(db.countries.FI, "2018-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1403
+, "Volkswagen": 1172
 , "Ford": 947
 , "Škoda": 931
 , "Volvo": 891
 , "Opel": 595
 , "Nissan": 556
 , "Kia": 537
-, "Mercedes-Benz": 530
-, "Audi": 500
+, "Mercedes-Benz": 531
+, "Audi": 496
 , "Hyundai": 461
-, "BMW": 377
+, "BMW": 378
 , "Peugeot": 282
 , "Citroën": 264
 , "Renault": 242
@@ -161,10 +160,11 @@ db.insert(db.countries.FI, "2018-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 17
 , "Tesla": 8
 , "Fiat": 6
-, "other": 204
+, "Jeep": 4
+, "other": 32
 });
 
-db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 40
 , "Hyundai|Ioniq Electric": 9
 , "Tesla|Model S": 5
@@ -174,18 +174,18 @@ db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 1
 });
 
-db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1881/May_2018.xlsx",
-{ "Toyota": 1590
+db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1591
 , "Volkswagen": 1589
-, "Škoda": 1151
+, "Škoda": 1152
 , "Ford": 962
-, "Volvo": 882
+, "Volvo": 883
 , "Opel": 763
 , "Kia": 626
-, "Mercedes-Benz": 622
-, "Nissan": 562
-, "Audi": 517
-, "BMW": 433
+, "Mercedes-Benz": 618
+, "Nissan": 563
+, "Audi": 514
+, "BMW": 435
 , "Hyundai": 378
 , "Peugeot": 342
 , "Renault": 330
@@ -203,10 +203,12 @@ db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 22
 , "Porsche": 17
 , "Tesla": 12
-, "other": 294
+, "Jeep": 6
+, "Smart": 3
+, "other": 62
 });
 
-db.insert(db.countries.FI, "2018-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Hyundai|Ioniq Electric": 13
 , "Tesla|Model S": 9
 , "Volkswagen|e-Golf": 7
@@ -215,28 +217,28 @@ db.insert(db.countries.FI, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 3
 });
 
-db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1889/June_2018.xlsx",
-{ "Volkswagen": 1377
+db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 1379
 , "Toyota": 1361
 , "Škoda": 1149
 , "Ford": 856
-, "Mercedes-Benz": 685
-, "Opel": 655
-, "Volvo": 648
+, "Mercedes-Benz": 684
+, "Opel": 656
+, "Volvo": 650
 , "Nissan": 631
 , "BMW": 525
-, "Audi": 509
-, "Kia": 493
+, "Audi": 507
+, "Kia": 494
 , "Hyundai": 410
 , "Seat": 369
 , "Peugeot": 283
-, "Renault": 241
-, "Honda": 195
+, "Renault": 242
+, "Honda": 196
 , "Mazda": 178
 , "Dacia": 170
 , "Citroën": 129
 , "Mitsubishi": 120
-, "Subaru": 100
+, "Subaru": 101
 , "Suzuki": 85
 , "Mini": 42
 , "Jaguar": 34
@@ -244,10 +246,11 @@ db.insert(db.countries.FI, "2018-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 23
 , "Porsche": 19
 , "Land Rover": 14
-, "other": 324
+, "Jeep": 6
+, "other": 39
 });
 
-db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model S": 17
 , "Nissan|Leaf": 14
 , "Renault|Zoe": 11
@@ -260,9 +263,9 @@ db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1905/July_2018.xlsx",
-{ "Toyota": 1293
-, "Volkswagen": 1179
+db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1294
+, "Volkswagen": 1181
 , "Škoda": 888
 , "Volvo": 661
 , "Opel": 618
@@ -270,8 +273,8 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 581
 , "Nissan": 580
 , "BMW": 441
-, "Mercedes-Benz": 389
-, "Audi": 356
+, "Mercedes-Benz": 388
+, "Audi": 353
 , "Peugeot": 240
 , "Renault": 210
 , "Hyundai": 204
@@ -289,10 +292,12 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 18
 , "Land Rover": 16
 , "Tesla": 12
-, "other": 177
+, "Jeep": 6
+, "Smart": 4
+, "other": 32
 });
 
-db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 10
 , "Tesla|Model S": 9
 , "Renault|Zoe": 7
@@ -302,22 +307,22 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 3
 });
 
-db.insert(db.countries.FI, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1907/August_2018.xlsx",
-{ "Nissan": 1649
+db.insert(db.countries.FI, "2018-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Nissan": 1651
 , "Toyota": 1284
 , "Volkswagen": 1050
 , "Škoda": 864
 , "Opel": 721
-, "Ford": 699
+, "Ford": 700
 , "Volvo": 696
 , "Kia": 681
-, "Audi": 508
+, "Audi": 507
 , "Hyundai": 432
-, "Mercedes-Benz": 415
+, "Mercedes-Benz": 413
 , "Renault": 372
 , "Seat": 321
 , "Peugeot": 312
-, "BMW": 288
+, "BMW": 296
 , "Mazda": 263
 , "Dacia": 233
 , "Citroën": 207
@@ -330,11 +335,12 @@ db.insert(db.countries.FI, "2018-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 33
 , "Land Rover": 21
 , "Jaguar": 13
+, "Jeep": 8
 , "Tesla": 4
-, "other": 174
+, "other": 58
 });
 
-db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 20
 , "Hyundai|Ioniq Electric": 16
 , "Volkswagen|e-Golf": 13
@@ -347,25 +353,25 @@ db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 });
 
-db.insert(db.countries.FI, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1912/September_2018.xlsx",
-{ "Toyota": 1063
-, "Volvo": 678
+db.insert(db.countries.FI, "2018-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1064
+, "Volvo": 679
 , "Škoda": 634
 , "Volkswagen": 455
 , "Kia": 431
-, "Mercedes-Benz": 427
+, "Mercedes-Benz": 426
 , "Ford": 395
 , "Nissan": 312
-, "Hyundai": 283
-, "BMW": 269
+, "Hyundai": 284
+, "BMW": 273
 , "Opel": 219
-, "Audi": 182
+, "Audi": 180
 , "Mazda": 145
 , "Seat": 143
 , "Peugeot": 140
 , "Honda": 131
 , "Citroën": 96
-, "Renault": 93
+, "Renault": 94
 , "Suzuki": 66
 , "Mitsubishi": 64
 , "Subaru": 62
@@ -376,10 +382,10 @@ db.insert(db.countries.FI, "2018-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 12
 , "Land Rover": 9
 , "Fiat": 8
-, "other": 110
+, "other": 23
 });
 
-db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 27
 , "Volkswagen|e-Golf": 18
 , "Hyundai|Ioniq Electric": 10
@@ -393,19 +399,19 @@ db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.FI, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1927/October_2018.xlsx",
+db.insert(db.countries.FI, "2018-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1106
-, "Volvo": 901
-, "Škoda": 883
-, "Volkswagen": 693
-, "Mercedes-Benz": 558
-, "Ford": 500
+, "Volvo": 902
+, "Škoda": 885
+, "Volkswagen": 694
+, "Mercedes-Benz": 556
+, "Ford": 499
 , "Kia": 435
 , "Nissan": 278
-, "BMW": 263
+, "BMW": 265
 , "Opel": 253
 , "Renault": 251
-, "Audi": 245
+, "Audi": 244
 , "Hyundai": 243
 , "Peugeot": 182
 , "Seat": 169
@@ -415,17 +421,18 @@ db.insert(db.countries.FI, "2018-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 113
 , "Dacia": 109
 , "Mitsubishi": 80
-, "Suzuki": 66
+, "Suzuki": 67
 , "Mini": 28
 , "Land Rover": 21
 , "Jaguar": 16
 , "Porsche": 10
 , "Fiat": 9
+, "Jeep": 5
 , "Tesla": 4
-, "other": 141
+, "other": 24
 });
 
-db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 14
 , "Hyundai|Ioniq Electric": 12
 , "Volkswagen|e-Golf": 11
@@ -437,7 +444,7 @@ db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 });
 
-db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1937/November_2018.xlsx",
+db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1039
 , "Volkswagen": 1000
 , "Škoda": 905
@@ -447,11 +454,11 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mercedes-Benz": 494
 , "Kia": 468
 , "Opel": 358
-, "BMW": 299
+, "BMW": 300
 , "Nissan": 293
 , "Hyundai": 263
-, "Audi": 222
 , "Peugeot": 222
+, "Audi": 221
 , "Dacia": 211
 , "Seat": 167
 , "Mitsubishi": 136
@@ -460,16 +467,17 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 111
 , "Honda": 88
 , "Suzuki": 79
-, "Mini": 18
+, "Mini": 22
 , "Tesla": 12
 , "Land Rover": 10
 , "Jaguar": 9
+, "Jeep": 8
 , "Fiat": 6
 , "Porsche": 6
-, "other": 110
+, "other": 33
 });
 
-db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 30
 , "BMW|i3 BEV": 16
 , "Volkswagen|e-Golf": 9
@@ -482,22 +490,22 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 });
 
-db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1948/December_2018.xlsx",
-{ "Volkswagen": 1027
+db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 1028
 , "Škoda": 705
 , "Renault": 653
 , "Volvo": 595
 , "Ford": 425
 , "Toyota": 306
 , "Dacia": 271
-, "Mercedes-Benz": 267
+, "Mercedes-Benz": 266
 , "Kia": 247
 , "BMW": 196
 , "Hyundai": 191
 , "Audi": 161
 , "Nissan": 153
 , "Peugeot": 146
-, "Opel": 142
+, "Opel": 143
 , "Seat": 129
 , "Citroën": 80
 , "Mitsubishi": 80
@@ -510,11 +518,12 @@ db.insert(db.countries.FI, "2018-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 15
 , "Land Rover": 8
 , "Porsche": 3
-, "Fiat": 1
-, "other": 65
+, "Fiat": 2
+, "Jeep": 2
+, "other": 29
 });
 
-db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2018/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|e-Golf": 24
 , "Nissan|Leaf": 14
 , "Tesla|Model S": 12
@@ -527,19 +536,19 @@ db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1955/January_2019.xlsx",
+db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1603
-, "Škoda": 1566
+, "Škoda": 1567
 , "Volvo": 1194
 , "Volkswagen": 1130
-, "Ford": 921
+, "Ford": 922
 , "Kia": 683
 , "Opel": 638
-, "Mercedes-Benz": 617
+, "Mercedes-Benz": 611
 , "Nissan": 551
-, "BMW": 391
-, "Hyundai": 350
-, "Audi": 318
+, "BMW": 392
+, "Hyundai": 351
+, "Audi": 319
 , "Peugeot": 294
 , "Renault": 206
 , "Seat": 181
@@ -547,7 +556,7 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 145
 , "Honda": 140
 , "Mazda": 137
-, "Suzuki": 114
+, "Suzuki": 115
 , "Subaru": 94
 , "Dacia": 69
 , "Jaguar": 29
@@ -556,10 +565,10 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 16
 , "Fiat": 5
 , "Porsche": 5
-, "other": 132
+, "other": 36
 });
 
-db.insert(db.countries.FI, "2019-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 31
 , "Jaguar|I-Pace": 19
 , "Hyundai|Ioniq Electric": 15
@@ -571,15 +580,15 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.FI, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1965/February_2019.xlsx",
-{ "Škoda": 992
+db.insert(db.countries.FI, "2019-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Škoda": 993
 , "Toyota": 979
 , "Volkswagen": 886
 , "Volvo": 703
 , "Ford": 645
 , "Kia": 539
 , "Opel": 448
-, "Mercedes-Benz": 412
+, "Mercedes-Benz": 411
 , "Hyundai": 352
 , "Nissan": 319
 , "BMW": 232
@@ -600,10 +609,12 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 20
 , "Jeep": 8
 , "Fiat": 7
-, "other": 171
+, "Smart": 3
+, "Porsche": 1
+, "other": 35
 });
 
-db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 37
 , "Nissan|Leaf": 24
 , "Audi|Q8 e-tron": 14
@@ -619,18 +630,18 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 3
 });
 
-db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1978/March_2019.xlsx",
+db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1103
-, "Volkswagen": 994
+, "Volkswagen": 995
 , "Škoda": 865
 , "Ford": 768
 , "Volvo": 720
 , "Nissan": 570
 , "Kia": 515
-, "Mercedes-Benz": 513
+, "Mercedes-Benz": 510
 , "BMW": 413
 , "Audi": 377
-, "Opel": 322
+, "Opel": 321
 , "Hyundai": 319
 , "Seat": 198
 , "Mitsubishi": 189
@@ -648,10 +659,11 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 19
 , "Fiat": 13
 , "Porsche": 12
-, "other": 171
+, "Jeep": 5
+, "other": 31
 });
 
-db.insert(db.countries.FI, "2019-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 146
 , "Nissan|Leaf": 20
 , "Hyundai|Ioniq Electric": 16
@@ -669,7 +681,7 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.FI, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/1995/April_2019.xlsx",
+db.insert(db.countries.FI, "2019-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1179
 , "Škoda": 958
 , "Volkswagen": 927
@@ -677,11 +689,11 @@ db.insert(db.countries.FI, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 735
 , "Kia": 644
 , "Nissan": 542
-, "Mercedes-Benz": 510
+, "Mercedes-Benz": 508
 , "Opel": 502
 , "Peugeot": 342
 , "Hyundai": 330
-, "Audi": 325
+, "Audi": 323
 , "BMW": 251
 , "Citroën": 183
 , "Seat": 174
@@ -698,10 +710,11 @@ db.insert(db.countries.FI, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 18
 , "Porsche": 16
 , "Fiat": 6
-, "other": 267
+, "Jeep": 3
+, "other": 54
 });
 
-db.insert(db.countries.FI, "2019-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 91
 , "Nissan|Leaf": 42
 , "Jaguar|I-Pace": 16
@@ -717,19 +730,19 @@ db.insert(db.countries.FI, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-up!": 1
 });
 
-db.insert(db.countries.FI, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2015/May_2019.xlsx",
-{ "Toyota": 1565
+db.insert(db.countries.FI, "2019-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1567
 , "Volkswagen": 1202
 , "Škoda": 972
-, "Volvo": 725
+, "Volvo": 727
 , "Ford": 714
 , "Kia": 636
 , "Opel": 600
-, "Mercedes-Benz": 561
+, "Mercedes-Benz": 557
 , "Nissan": 535
 , "Audi": 425
 , "BMW": 404
-, "Renault": 365
+, "Renault": 366
 , "Hyundai": 285
 , "Seat": 260
 , "Peugeot": 240
@@ -742,14 +755,15 @@ db.insert(db.countries.FI, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 79
 , "Tesla": 42
 , "Land Rover": 35
-, "Jaguar": 24
+, "Jaguar": 25
 , "Mini": 18
 , "Porsche": 15
 , "Fiat": 12
-, "other": 338
+, "Jeep": 2
+, "other": 59
 });
 
-db.insert(db.countries.FI, "2019-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 23
 , "Audi|Q8 e-tron": 13
 , "Jaguar|I-Pace": 13
@@ -763,28 +777,28 @@ db.insert(db.countries.FI, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 });
 
-db.insert(db.countries.FI, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2041/June_2019.xlsx",
+db.insert(db.countries.FI, "2019-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1413
 , "Volkswagen": 1268
 , "Škoda": 1191
 , "Ford": 810
 , "Opel": 773
 , "Volvo": 652
-, "Mercedes-Benz": 609
+, "Mercedes-Benz": 603
 , "Kia": 602
-, "Audi": 347
+, "Audi": 346
 , "Nissan": 335
 , "Renault": 327
 , "Hyundai": 294
 , "Seat": 288
 , "BMW": 239
-, "Peugeot": 178
+, "Peugeot": 179
 , "Tesla": 171
 , "Citroën": 166
 , "Mitsubishi": 160
 , "Mazda": 111
 , "Dacia": 110
-, "Suzuki": 83
+, "Suzuki": 84
 , "Honda": 42
 , "Subaru": 40
 , "Land Rover": 31
@@ -792,10 +806,10 @@ db.insert(db.countries.FI, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 21
 , "Porsche": 15
 , "Fiat": 3
-, "other": 235
+, "other": 38
 });
 
-db.insert(db.countries.FI, "2019-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 105
 , "Tesla|Model S": 35
 , "Tesla|Model X": 31
@@ -811,15 +825,15 @@ db.insert(db.countries.FI, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 });
 
-db.insert(db.countries.FI, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2049/July_2019.xlsx",
-{ "Toyota": 1654
-, "Volkswagen": 986
-, "Škoda": 856
+db.insert(db.countries.FI, "2019-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1655
+, "Volkswagen": 987
+, "Škoda": 857
 , "Kia": 651
 , "Volvo": 640
 , "Ford": 632
 , "Nissan": 489
-, "Mercedes-Benz": 342
+, "Mercedes-Benz": 341
 , "Hyundai": 323
 , "Opel": 290
 , "Audi": 287
@@ -840,10 +854,12 @@ db.insert(db.countries.FI, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 23
 , "Fiat": 9
 , "Porsche": 9
-, "other": 242
+, "Smart": 4
+, "Jeep": 1
+, "other": 37
 });
 
-db.insert(db.countries.FI, "2019-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 56
 , "Audi|Q8 e-tron": 36
 , "Nissan|Leaf": 21
@@ -858,16 +874,16 @@ db.insert(db.countries.FI, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.FI, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2055/August_2019.xlsx",
+db.insert(db.countries.FI, "2019-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1432
 , "Volkswagen": 857
 , "Škoda": 811
 , "Kia": 770
 , "Ford": 686
-, "Volvo": 657
+, "Volvo": 658
 , "Nissan": 616
 , "Hyundai": 512
-, "Mercedes-Benz": 507
+, "Mercedes-Benz": 503
 , "Opel": 374
 , "BMW": 318
 , "Peugeot": 307
@@ -887,10 +903,12 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 11
 , "Porsche": 10
 , "Fiat": 6
-, "other": 255
+, "Jeep": 4
+, "Smart": 1
+, "other": 63
 });
 
-db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 43
 , "Tesla|Model 3": 28
 , "Tesla|Model S": 18
@@ -907,19 +925,19 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2068/September_2019.xlsx",
+db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1273
 , "Škoda": 854
-, "Volkswagen": 789
+, "Volkswagen": 790
 , "Volvo": 715
 , "Ford": 567
-, "Kia": 523
-, "Mercedes-Benz": 509
+, "Kia": 524
+, "Mercedes-Benz": 506
 , "Opel": 413
 , "Hyundai": 383
 , "Nissan": 365
 , "BMW": 293
-, "Audi": 239
+, "Audi": 240
 , "Mitsubishi": 171
 , "Citroën": 169
 , "Seat": 158
@@ -935,11 +953,12 @@ db.insert(db.countries.FI, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 17
 , "Jaguar": 11
 , "Fiat": 10
+, "Jeep": 2
 , "Porsche": 2
-, "other": 117
+, "other": 51
 });
 
-db.insert(db.countries.FI, "2019-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 128
 , "Hyundai|Kona Electric": 54
 , "Tesla|Model S": 19
@@ -953,20 +972,20 @@ db.insert(db.countries.FI, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.FI, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2079/October_2019.xlsx",
+db.insert(db.countries.FI, "2019-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1235
-, "Volkswagen": 945
+, "Volkswagen": 946
 , "Škoda": 903
-, "Volvo": 885
+, "Volvo": 886
 , "Kia": 707
 , "Ford": 672
-, "Mercedes-Benz": 513
-, "BMW": 381
+, "Mercedes-Benz": 509
+, "BMW": 382
 , "Nissan": 334
 , "Renault": 322
 , "Opel": 292
 , "Hyundai": 291
-, "Audi": 269
+, "Audi": 267
 , "Citroën": 245
 , "Dacia": 223
 , "Mazda": 200
@@ -974,7 +993,7 @@ db.insert(db.countries.FI, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 149
 , "Mitsubishi": 129
 , "Suzuki": 110
-, "Subaru": 59
+, "Subaru": 60
 , "Honda": 56
 , "Porsche": 51
 , "Mini": 25
@@ -982,10 +1001,11 @@ db.insert(db.countries.FI, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 15
 , "Fiat": 9
 , "Tesla": 7
-, "other": 166
+, "Jeep": 2
+, "other": 47
 });
 
-db.insert(db.countries.FI, "2019-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Hyundai|Kona Electric": 26
 , "Audi|Q8 e-tron": 9
 , "Nissan|Leaf": 7
@@ -999,15 +1019,15 @@ db.insert(db.countries.FI, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 1
 });
 
-db.insert(db.countries.FI, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2086/November_2019.xlsx",
+db.insert(db.countries.FI, "2019-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1119
 , "Volkswagen": 1063
 , "Škoda": 769
 , "Volvo": 715
-, "Mercedes-Benz": 588
+, "Mercedes-Benz": 587
 , "Kia": 499
 , "Ford": 488
-, "Renault": 386
+, "Renault": 387
 , "Nissan": 360
 , "Hyundai": 338
 , "Opel": 312
@@ -1028,10 +1048,11 @@ db.insert(db.countries.FI, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 14
 , "Jaguar": 7
 , "Fiat": 2
-, "other": 110
+, "Jeep": 2
+, "other": 44
 });
 
-db.insert(db.countries.FI, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Hyundai|Kona Electric": 34
 , "Nissan|Leaf": 24
 , "Tesla|Model S": 10
@@ -1044,16 +1065,16 @@ db.insert(db.countries.FI, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.FI, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2090/December_2019.xlsx",
+db.insert(db.countries.FI, "2019-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Renault": 877
 , "Volvo": 804
 , "Škoda": 759
 , "Volkswagen": 756
 , "Toyota": 626
-, "Mercedes-Benz": 535
+, "Mercedes-Benz": 533
 , "Ford": 487
 , "Kia": 417
-, "Dacia": 381
+, "Dacia": 382
 , "Opel": 373
 , "BMW": 298
 , "Hyundai": 295
@@ -1073,10 +1094,10 @@ db.insert(db.countries.FI, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 16
 , "Jaguar": 4
 , "Fiat": 3
-, "other": 71
+, "other": 40
 });
 
-db.insert(db.countries.FI, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2019/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2019-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 76
 , "Hyundai|Kona Electric": 17
 , "Tesla|Model S": 17
@@ -1091,21 +1112,21 @@ db.insert(db.countries.FI, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 });
 
-db.insert(db.countries.FI, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2124/January_2020.xlsx",
+db.insert(db.countries.FI, "2020-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1683
 , "Škoda": 1173
 , "Volkswagen": 1078
 , "Volvo": 1049
 , "Kia": 690
-, "Ford": 658
-, "Mercedes-Benz": 617
-, "BMW": 582
+, "Ford": 659
+, "Mercedes-Benz": 612
+, "BMW": 584
 , "Opel": 535
 , "Nissan": 469
 , "Hyundai": 408
-, "Audi": 388
+, "Audi": 385
 , "Citroën": 196
-, "Mitsubishi": 178
+, "Mitsubishi": 179
 , "Seat": 175
 , "Peugeot": 171
 , "Renault": 91
@@ -1120,10 +1141,11 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 23
 , "Jaguar": 9
 , "Fiat": 4
-, "other": 199
+, "Jeep": 2
+, "other": 68
 });
 
-db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Renault|Zoe": 29
 , "Hyundai|Kona Electric": 25
 , "Nissan|Leaf": 21
@@ -1143,19 +1165,19 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.FI, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2137/February_2020.xlsx",
+db.insert(db.countries.FI, "2020-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1286
 , "Volkswagen": 829
 , "Škoda": 788
 , "Volvo": 744
 , "Kia": 566
 , "Ford": 492
-, "BMW": 443
-, "Mercedes-Benz": 437
+, "BMW": 444
+, "Mercedes-Benz": 433
 , "Opel": 421
 , "Nissan": 304
 , "Hyundai": 267
-, "Audi": 234
+, "Audi": 232
 , "Peugeot": 225
 , "Citroën": 224
 , "Mitsubishi": 161
@@ -1171,10 +1193,12 @@ db.insert(db.countries.FI, "2020-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 11
 , "Jaguar": 6
 , "Tesla": 6
-, "other": 211
+, "Fiat": 2
+, "Jeep": 1
+, "other": 54
 });
 
-db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Seat|Mii Electric": 50
 , "Volkswagen|e-Golf": 35
 , "Volkswagen|e-up!": 32
@@ -1195,17 +1219,17 @@ db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.FI, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2143/March_2020.xlsx",
-{ "Toyota": 1283
+db.insert(db.countries.FI, "2020-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1284
 , "Škoda": 981
-, "Volkswagen": 823
-, "Volvo": 752
-, "Mercedes-Benz": 653
-, "Kia": 613
+, "Volkswagen": 824
+, "Volvo": 753
+, "Mercedes-Benz": 646
+, "Kia": 614
 , "Ford": 543
 , "Nissan": 409
-, "BMW": 391
-, "Audi": 379
+, "BMW": 398
+, "Audi": 378
 , "Opel": 312
 , "Tesla": 303
 , "Hyundai": 233
@@ -1224,10 +1248,11 @@ db.insert(db.countries.FI, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 21
 , "Jaguar": 9
 , "Fiat": 4
-, "other": 237
+, "Jeep": 3
+, "other": 56
 });
 
-db.insert(db.countries.FI, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 273
 , "Seat|Mii Electric": 56
 , "Volkswagen|e-Golf": 30
@@ -1248,15 +1273,15 @@ db.insert(db.countries.FI, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 1
 });
 
-db.insert(db.countries.FI, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2183/April_2020.xlsx",
+db.insert(db.countries.FI, "2020-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 806
 , "Škoda": 659
 , "Volkswagen": 567
 , "Volvo": 450
-, "Mercedes-Benz": 406
+, "Mercedes-Benz": 400
 , "Ford": 379
 , "Kia": 365
-, "BMW": 295
+, "BMW": 298
 , "Audi": 274
 , "Nissan": 233
 , "Opel": 222
@@ -1275,11 +1300,12 @@ db.insert(db.countries.FI, "2020-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 25
 , "Land Rover": 23
 , "Mini": 19
+, "Fiat": 5
 , "Jaguar": 5
-, "other": 216
+, "other": 32
 });
 
-db.insert(db.countries.FI, "2020-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 34
 , "Kia|Niro EV": 21
 , "Volkswagen|e-Golf": 19
@@ -1301,17 +1327,17 @@ db.insert(db.countries.FI, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.FI, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2201/May_2020.xlsx",
-{ "Toyota": 689
+db.insert(db.countries.FI, "2020-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 690
 , "Volkswagen": 469
 , "Kia": 451
-, "Škoda": 388
+, "Škoda": 389
 , "Ford": 351
-, "Mercedes-Benz": 347
-, "BMW": 243
+, "Mercedes-Benz": 342
+, "BMW": 244
 , "Opel": 213
 , "Volvo": 205
-, "Nissan": 180
+, "Nissan": 181
 , "Peugeot": 171
 , "Audi": 170
 , "Hyundai": 161
@@ -1330,10 +1356,13 @@ db.insert(db.countries.FI, "2020-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 11
 , "Land Rover": 11
 , "Jaguar": 2
-, "other": 247
+, "Jeep": 2
+, "Smart": 2
+, "Chevrolet": 1
+, "other": 40
 });
 
-db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 17
 , "Hyundai|Ioniq Electric": 16
 , "Kia|Niro EV": 11
@@ -1353,14 +1382,14 @@ db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4
 });
 
-db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2216/June_2020.xlsx",
-{ "Volkswagen": 973
+db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 975
 , "Škoda": 913
 , "Toyota": 721
-, "Volvo": 714
+, "Volvo": 715
 , "Kia": 681
 , "Ford": 577
-, "Mercedes-Benz": 408
+, "Mercedes-Benz": 406
 , "BMW": 320
 , "Hyundai": 281
 , "Audi": 275
@@ -1382,10 +1411,10 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 11
 , "Fiat": 10
 , "Jaguar": 2
-, "other": 356
+, "other": 42
 });
 
-db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|e-up!": 59
 , "Tesla|Model 3": 47
 , "Volkswagen|e-Golf": 35
@@ -1408,38 +1437,40 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.FI, "2020-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2223/July_2020.xlsx",
+db.insert(db.countries.FI, "2020-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1064
 , "Škoda": 1049
 , "Volkswagen": 976
 , "Volvo": 800
 , "Kia": 715
 , "Ford": 518
-, "Mercedes-Benz": 515
+, "Mercedes-Benz": 510
 , "Hyundai": 411
 , "Nissan": 405
-, "Audi": 344
+, "Audi": 343
 , "Peugeot": 306
-, "Opel": 297
-, "BMW": 257
+, "Opel": 298
+, "BMW": 261
 , "Citroën": 186
 , "Mitsubishi": 169
 , "Renault": 169
 , "Seat": 169
 , "Suzuki": 100
 , "Mazda": 84
-, "Dacia": 71
+, "Dacia": 72
 , "Honda": 60
 , "Mini": 40
 , "Subaru": 37
 , "Porsche": 33
 , "Fiat": 12
 , "Land Rover": 11
+, "Jaguar": 2
+, "Jeep": 2
 , "Tesla": 1
-, "other": 302
+, "other": 31
 });
 
-db.insert(db.countries.FI, "2020-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|e-up!": 50
 , "Hyundai|Kona Electric": 32
 , "Seat|Mii Electric": 29
@@ -1461,16 +1492,16 @@ db.insert(db.countries.FI, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 });
 
-db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2236/August_2020.xlsx",
+db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1443
 , "Volkswagen": 687
-, "Škoda": 679
+, "Škoda": 680
 , "Kia": 672
-, "Mercedes-Benz": 590
+, "Mercedes-Benz": 586
 , "Ford": 560
 , "Volvo": 494
-, "BMW": 419
-, "Audi": 356
+, "BMW": 423
+, "Audi": 354
 , "Nissan": 344
 , "Opel": 329
 , "Peugeot": 317
@@ -1481,7 +1512,7 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 108
 , "Suzuki": 100
 , "Dacia": 90
-, "Mazda": 70
+, "Mazda": 71
 , "Honda": 58
 , "Porsche": 55
 , "Subaru": 38
@@ -1490,10 +1521,11 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 14
 , "Jaguar": 10
 , "Land Rover": 6
-, "other": 247
+, "Jeep": 3
+, "other": 51
 });
 
-db.insert(db.countries.FI, "2020-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Porsche|Taycan": 32
 , "Tesla|Model 3": 32
 , "Volkswagen|e-up!": 30
@@ -1517,20 +1549,20 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Honda|e": 1
 });
 
-db.insert(db.countries.FI, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2251/September_2020.xlsx",
+db.insert(db.countries.FI, "2020-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1186
 , "Volkswagen": 785
 , "Škoda": 714
 , "Kia": 637
-, "Mercedes-Benz": 633
+, "Mercedes-Benz": 629
 , "Volvo": 551
 , "Ford": 544
-, "BMW": 379
+, "BMW": 381
 , "Nissan": 360
 , "Opel": 301
 , "Hyundai": 297
 , "Peugeot": 251
-, "Audi": 249
+, "Audi": 248
 , "Tesla": 244
 , "Renault": 233
 , "Seat": 175
@@ -1546,10 +1578,12 @@ db.insert(db.countries.FI, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 19
 , "Fiat": 10
 , "Jaguar": 5
-, "other": 188
+, "Jeep": 4
+, "Cupra": 1
+, "other": 29
 });
 
-db.insert(db.countries.FI, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.3": 201
 , "Tesla|Model 3": 182
 , "Hyundai|Ioniq Electric": 35
@@ -1576,23 +1610,23 @@ db.insert(db.countries.FI, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 1
 });
 
-db.insert(db.countries.FI, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2257/October_2020.xlsx",
+db.insert(db.countries.FI, "2020-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1080
 , "Škoda": 786
 , "Volkswagen": 752
-, "Kia": 550
+, "Kia": 551
 , "Ford": 513
 , "Volvo": 509
-, "Mercedes-Benz": 445
+, "Mercedes-Benz": 443
 , "Nissan": 404
-, "Audi": 300
 , "Opel": 299
-, "BMW": 261
+, "Audi": 298
+, "BMW": 264
 , "Peugeot": 255
 , "Hyundai": 230
 , "Renault": 219
 , "Citroën": 177
-, "Mitsubishi": 106
+, "Mitsubishi": 107
 , "Suzuki": 91
 , "Seat": 75
 , "Mazda": 68
@@ -1604,11 +1638,13 @@ db.insert(db.countries.FI, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 22
 , "Tesla": 21
 , "Land Rover": 14
+, "Jeep": 6
+, "Cupra": 5
 , "Jaguar": 2
-, "other": 149
+, "other": 34
 });
 
-db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.3": 50
 , "Kia|Niro EV": 23
 , "Škoda|Citigo-e": 19
@@ -1631,12 +1667,12 @@ db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "BMW|i3 BEV": 2
 , "Mazda|MX-30 BEV": 1
-, "other": 1
+, "other": 2
 });
 
-db.insert(db.countries.FI, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2284/November_2020.xlsx",
+db.insert(db.countries.FI, "2020-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1193
-, "Volkswagen": 893
+, "Volkswagen": 894
 , "Škoda": 724
 , "Volvo": 540
 , "Kia": 514
@@ -1662,10 +1698,13 @@ db.insert(db.countries.FI, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 18
 , "Tesla": 12
 , "Porsche": 11
-, "other": 138
+, "Cupra": 7
+, "Jeep": 4
+, "Jaguar": 2
+, "other": 45
 });
 
-db.insert(db.countries.FI, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.3": 53
 , "Volkswagen|e-up!": 40
 , "Kia|Niro EV": 27
@@ -1691,15 +1730,15 @@ db.insert(db.countries.FI, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 2
 });
 
-db.insert(db.countries.FI, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2292/December_2020.xlsx",
-{ "Volkswagen": 1106
+db.insert(db.countries.FI, "2020-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 1107
 , "Volvo": 873
 , "Škoda": 840
 , "Toyota": 831
-, "BMW": 450
+, "BMW": 452
 , "Renault": 426
 , "Kia": 402
-, "Mercedes-Benz": 398
+, "Mercedes-Benz": 397
 , "Ford": 361
 , "Hyundai": 324
 , "Opel": 288
@@ -1720,10 +1759,13 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 15
 , "Porsche": 14
 , "Fiat": 11
-, "other": 107
+, "Jeep": 9
+, "Cupra": 6
+, "Smart": 1
+, "other": 35
 });
 
-db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2020/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.3": 194
 , "Tesla|Model 3": 169
 , "Volvo|EX40": 153
@@ -1736,7 +1778,6 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 26
 , "Tesla|Model X": 21
 , "Mazda|MX-30 BEV": 19
-, "Mercedes-Benz|EQV": 16
 , "Opel|Corsa-e": 14
 , "Škoda|Citigo-e": 12
 , "Honda|e": 11
@@ -1753,20 +1794,20 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 2
 , "Nissan|e-NV200": 1
 , "Volkswagen|e-Golf": 1
-, "other": 2
+, "other": 18
 });
 
-db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2352/January_2021.xlsx",
+db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1521
 , "Škoda": 991
-, "Volvo": 918
+, "Volvo": 919
 , "Volkswagen": 765
-, "Mercedes-Benz": 760
+, "Mercedes-Benz": 759
 , "Ford": 606
 , "Audi": 498
 , "Kia": 496
 , "BMW": 416
-, "Opel": 321
+, "Opel": 322
 , "Nissan": 306
 , "Seat": 250
 , "Hyundai": 246
@@ -1786,10 +1827,10 @@ db.insert(db.countries.FI, "2021-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 9
 , "Jeep": 8
 , "Tesla": 7
-, "other": 181
+, "other": 61
 });
 
-db.insert(db.countries.FI, "2021-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX40": 105
 , "Hyundai|Kona Electric": 48
 , "Audi|Q8 e-tron": 29
@@ -1813,23 +1854,22 @@ db.insert(db.countries.FI, "2021-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 3
 , "Kia|Soul EV": 2
 , "BMW|iX3": 1
-, "Mercedes-Benz|EQV": 1
-, "other": 1
+, "other": 2
 });
 
-db.insert(db.countries.FI, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2384/February_2021.xlsx",
+db.insert(db.countries.FI, "2021-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1375
 , "Volkswagen": 815
-, "Volvo": 807
-, "Škoda": 785
+, "Volvo": 808
+, "Škoda": 786
 , "Kia": 496
 , "Ford": 495
-, "Mercedes-Benz": 449
-, "BMW": 420
+, "Mercedes-Benz": 444
+, "BMW": 428
 , "Peugeot": 318
 , "Citroën": 259
 , "Nissan": 252
-, "Audi": 229
+, "Audi": 228
 , "Hyundai": 226
 , "Opel": 226
 , "Seat": 165
@@ -1847,10 +1887,11 @@ db.insert(db.countries.FI, "2021-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 18
 , "Cupra": 14
 , "Jeep": 9
-, "other": 244
+, "Jaguar": 4
+, "other": 39
 });
 
-db.insert(db.countries.FI, "2021-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 58
 , "Seat|Mii Electric": 43
 , "Volkswagen|ID.3": 39
@@ -1877,7 +1918,7 @@ db.insert(db.countries.FI, "2021-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 1
 });
 
-db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2405/March_2021.xlsx",
+db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1501
 , "Volkswagen": 1020
 , "Škoda": 913
@@ -1886,8 +1927,8 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 662
 , "Mercedes-Benz": 568
 , "Nissan": 545
-, "BMW": 457
-, "Audi": 414
+, "BMW": 464
+, "Audi": 411
 , "Opel": 376
 , "Hyundai": 366
 , "Peugeot": 314
@@ -1907,10 +1948,12 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 29
 , "Fiat": 27
 , "Jeep": 10
-, "other": 318
+, "Polestar": 6
+, "Jaguar": 3
+, "other": 63
 });
 
-db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 298
 , "Volkswagen|ID.4": 94
 , "Volkswagen|ID.3": 64
@@ -1937,21 +1980,21 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 1
 , "Mini|Cooper SE": 1
 , "Škoda|Enyaq": 1
-, "other": 12
+, "other": 11
 });
 
-db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2421/April_2021.xlsx",
+db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1158
-, "Volvo": 881
+, "Volvo": 882
 , "Škoda": 865
-, "Volkswagen": 839
+, "Volkswagen": 840
 , "Kia": 660
-, "Mercedes-Benz": 620
+, "Mercedes-Benz": 612
 , "Ford": 468
-, "BMW": 416
-, "Audi": 367
+, "BMW": 423
+, "Audi": 365
 , "Peugeot": 312
-, "Hyundai": 280
+, "Hyundai": 281
 , "Seat": 271
 , "Nissan": 248
 , "Citroën": 245
@@ -1961,7 +2004,7 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 86
 , "Dacia": 76
 , "Mazda": 67
-, "Porsche": 58
+, "Porsche": 59
 , "Land Rover": 42
 , "Mini": 37
 , "Cupra": 36
@@ -1969,11 +2012,12 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 18
 , "Fiat": 17
 , "Jeep": 10
+, "Jaguar": 8
 , "Tesla": 7
-, "other": 325
+, "other": 42
 });
 
-db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 154
 , "Volkswagen|ID.3": 75
 , "Seat|Mii Electric": 69
@@ -1981,7 +2025,7 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 33
 , "Volkswagen|e-up!": 28
 , "Nissan|Leaf": 26
-, "Porsche|Taycan": 22
+, "Porsche|Taycan": 23
 , "Škoda|Enyaq": 22
 , "Hyundai|Kona Electric": 21
 , "Mercedes-Benz|EQC": 20
@@ -1999,21 +2043,20 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 3
 , "Jaguar|I-Pace": 3
 , "Citroën|ë-Jumpy": 1
-, "Mercedes-Benz|EQV": 1
 , "Opel|Corsa-e": 1
 , "Opel|Zafira-e": 1
 , "Peugeot|e-Expert": 1
-, "other": 4
+, "other": 3
 });
 
-db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2431/May_2021.xlsx",
+db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1342
 , "Volkswagen": 1284
 , "Škoda": 1027
 , "Volvo": 785
 , "Kia": 643
-, "Mercedes-Benz": 551
-, "BMW": 512
+, "Mercedes-Benz": 547
+, "BMW": 516
 , "Ford": 458
 , "Audi": 436
 , "Peugeot": 361
@@ -2036,10 +2079,12 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 21
 , "Tesla": 19
 , "Jeep": 10
-, "other": 432
+, "Jaguar": 6
+, "Smart": 1
+, "other": 48
 });
 
-db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 221
 , "Škoda|Enyaq": 172
 , "Seat|Mii Electric": 129
@@ -2076,17 +2121,17 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 5
 });
 
-db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2454/June_2021.xlsx",
-{ "Toyota": 1801
+db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1803
 , "Volkswagen": 1195
 , "Škoda": 948
 , "Kia": 834
 , "Volvo": 477
-, "Mercedes-Benz": 470
-, "BMW": 452
+, "Mercedes-Benz": 469
+, "BMW": 455
 , "Ford": 429
-, "Audi": 415
-, "Hyundai": 318
+, "Audi": 413
+, "Hyundai": 319
 , "Peugeot": 314
 , "Tesla": 277
 , "Nissan": 217
@@ -2105,17 +2150,18 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 29
 , "Jeep": 21
 , "Subaru": 20
-, "Land Rover": 16
-, "other": 436
+, "Land Rover": 17
+, "Jaguar": 9
+, "other": 50
 });
 
-db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model 3": 277
 , "Volkswagen|ID.4": 214
 , "Škoda|Enyaq": 130
 , "Volkswagen|ID.3": 61
+, "Hyundai|Kona Electric": 46
 , "Audi|Q4 e-tron": 45
-, "Hyundai|Kona Electric": 45
 , "Audi|Q8 e-tron": 32
 , "Ford|Mustang Mach-E": 32
 , "Seat|Mii Electric": 32
@@ -2139,28 +2185,27 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 2
 , "Jaguar|I-Pace": 1
 , "Mazda|MX-30 BEV": 1
-, "Mercedes-Benz|EQV": 1
 , "Nissan|e-NV200": 1
 , "Opel|Zafira-e": 1
-, "other": 5
+, "other": 3
 });
 
-db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2461/July_2021.xlsx",
-{ "Toyota": 1119
+db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1120
 , "Volkswagen": 886
-, "Kia": 751
+, "Kia": 753
 , "Škoda": 682
 , "Volvo": 506
-, "Mercedes-Benz": 424
-, "Ford": 356
-, "Audi": 314
+, "Mercedes-Benz": 419
+, "Ford": 357
 , "BMW": 314
+, "Audi": 312
 , "Hyundai": 280
 , "Peugeot": 202
 , "Nissan": 196
 , "Opel": 171
 , "Citroën": 133
-, "Mitsubishi": 111
+, "Mitsubishi": 112
 , "Renault": 104
 , "Seat": 104
 , "Suzuki": 101
@@ -2173,15 +2218,17 @@ db.insert(db.countries.FI, "2021-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 20
 , "Honda": 17
 , "Mini": 15
+, "Polestar": 11
 , "Jeep": 9
+, "Jaguar": 5
 , "Tesla": 1
-, "other": 363
+, "other": 41
 });
 
-db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 210
+, "Ford|Mustang Mach-E": 101
 , "Škoda|Enyaq": 101
-, "Ford|Mustang Mach-E": 100
 , "Volkswagen|ID.3": 63
 , "Volvo|EX40": 56
 , "Hyundai|Kona Electric": 34
@@ -2190,8 +2237,8 @@ db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 17
 , "Audi|Q4 e-tron": 16
 , "Seat|Mii Electric": 13
+, "Mercedes-Benz|EQA": 12
 , "Volkswagen|e-up!": 12
-, "Mercedes-Benz|EQA": 11
 , "Polestar|2": 10
 , "Nissan|Leaf": 8
 , "Peugeot|e-208": 7
@@ -2209,20 +2256,20 @@ db.insert(db.countries.FI, "2021-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Opel|Mokka-e": 1
 , "Tesla|Model 3": 1
-, "other": 5
+, "other": 2
 });
 
-db.insert(db.countries.FI, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2470/August_2021.xlsx",
+db.insert(db.countries.FI, "2021-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1238
 , "Volkswagen": 827
-, "Kia": 670
+, "Kia": 671
 , "Škoda": 620
-, "Ford": 501
+, "Ford": 502
 , "Volvo": 458
-, "Mercedes-Benz": 428
-, "BMW": 403
+, "Mercedes-Benz": 427
+, "BMW": 404
 , "Hyundai": 341
-, "Audi": 322
+, "Audi": 318
 , "Opel": 257
 , "Nissan": 241
 , "Dacia": 229
@@ -2239,13 +2286,15 @@ db.insert(db.countries.FI, "2021-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 27
 , "Subaru": 25
 , "Land Rover": 24
+, "Polestar": 22
 , "Honda": 19
 , "Tesla": 17
 , "Jeep": 7
-, "other": 386
+, "Jaguar": 6
+, "other": 48
 });
 
-db.insert(db.countries.FI, "2021-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 162
 , "Ford|Mustang Mach-E": 81
 , "Volkswagen|ID.3": 77
@@ -2281,18 +2330,18 @@ db.insert(db.countries.FI, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 1
 , "Mercedes-Benz|EQV": 1
 , "Opel|Corsa-e": 1
-, "other": 8
+, "other": 5
 });
 
-db.insert(db.countries.FI, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2483/September_2021.xlsx",
+db.insert(db.countries.FI, "2021-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 891
 , "Kia": 796
 , "Volkswagen": 538
 , "Škoda": 472
 , "Ford": 407
 , "Tesla": 405
-, "Volvo": 355
-, "Mercedes-Benz": 349
+, "Volvo": 356
+, "Mercedes-Benz": 347
 , "BMW": 340
 , "Hyundai": 333
 , "Nissan": 230
@@ -2314,10 +2363,12 @@ db.insert(db.countries.FI, "2021-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 13
 , "Cupra": 11
 , "Jeep": 8
-, "other": 171
+, "Jaguar": 3
+, "Polestar": 2
+, "other": 31
 });
 
-db.insert(db.countries.FI, "2021-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 219
 , "Tesla|Model 3": 186
 , "Volkswagen|ID.4": 45
@@ -2352,15 +2403,15 @@ db.insert(db.countries.FI, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1
 });
 
-db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2497/October_2021.xlsx",
+db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 914
 , "Volkswagen": 734
 , "Kia": 674
 , "Volvo": 527
-, "Mercedes-Benz": 396
+, "Mercedes-Benz": 397
 , "Ford": 366
 , "Škoda": 364
-, "BMW": 320
+, "BMW": 327
 , "Hyundai": 303
 , "Opel": 252
 , "Peugeot": 234
@@ -2372,6 +2423,7 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mitsubishi": 102
 , "Seat": 65
 , "Suzuki": 61
+, "Polestar": 52
 , "Subaru": 46
 , "Land Rover": 43
 , "Fiat": 30
@@ -2382,10 +2434,11 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 7
 , "Jeep": 7
 , "Tesla": 3
-, "other": 230
+, "Jaguar": 2
+, "other": 36
 });
 
-db.insert(db.countries.FI, "2021-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.3": 148
 , "Volkswagen|ID.4": 144
 , "Nissan|Leaf": 104
@@ -2423,16 +2476,15 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 3
 , "Citroën|ë-Jumpy": 1
 , "Kia|Soul EV": 1
-, "Mercedes-Benz|EQV": 1
 , "Nissan|e-NV200": 1
-, "other": 6
+, "other": 7
 });
 
-db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2510/November_2021.xlsx",
-{ "Toyota": 935
+db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 936
 , "Volvo": 795
 , "Volkswagen": 656
-, "Kia": 610
+, "Kia": 611
 , "Škoda": 470
 , "BMW": 385
 , "Mercedes-Benz": 370
@@ -2442,7 +2494,7 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 221
 , "Renault": 185
 , "Hyundai": 182
-, "Audi": 171
+, "Audi": 168
 , "Citroën": 127
 , "Mazda": 119
 , "Mitsubishi": 86
@@ -2454,14 +2506,15 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 23
 , "Porsche": 22
 , "Dacia": 21
+, "Jeep": 21
 , "Mini": 21
 , "Land Rover": 15
 , "Honda": 13
 , "Cupra": 9
-, "other": 165
+, "other": 37
 });
 
-db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 91
 , "Škoda|Enyaq": 80
 , "Volkswagen|ID.4": 77
@@ -2501,25 +2554,25 @@ db.insert(db.countries.FI, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Expert": 1
 , "Seat|Mii Electric": 1
 , "Tesla|Model Y": 1
-, "other": 9
+, "other": 7
 });
 
-db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2522/December_2021.xlsx",
+db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Kia": 644
 , "Volvo": 568
 , "Toyota": 529
-, "Volkswagen": 518
+, "Volkswagen": 519
 , "Škoda": 416
 , "Tesla": 376
 , "Renault": 375
-, "BMW": 347
+, "BMW": 353
 , "Hyundai": 338
 , "Nissan": 287
 , "Opel": 286
-, "Mercedes-Benz": 257
+, "Mercedes-Benz": 256
 , "Peugeot": 231
 , "Ford": 226
-, "Audi": 191
+, "Audi": 189
 , "Citroën": 121
 , "Dacia": 99
 , "Suzuki": 83
@@ -2534,10 +2587,12 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 27
 , "Honda": 17
 , "Subaru": 17
-, "other": 134
+, "Jeep": 9
+, "Jaguar": 3
+, "other": 46
 });
 
-db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2021/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 214
 , "Tesla|Model 3": 162
 , "Nissan|Leaf": 147
@@ -2582,22 +2637,22 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 1
 , "Mercedes-Benz|eVito": 1
 , "Peugeot|e-Rifter": 1
-, "other": 8
+, "other": 9
 });
 
-db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2534/January_2022.xlsx",
+db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1708
-, "Volvo": 743
-, "Kia": 630
+, "Volvo": 744
+, "Kia": 631
 , "Škoda": 567
 , "Volkswagen": 537
 , "Ford": 496
 , "BMW": 442
-, "Mercedes-Benz": 408
+, "Mercedes-Benz": 407
 , "Opel": 351
 , "Nissan": 292
 , "Hyundai": 258
-, "Audi": 246
+, "Audi": 242
 , "Dacia": 168
 , "Peugeot": 144
 , "Citroën": 129
@@ -2616,10 +2671,11 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 21
 , "Subaru": 20
 , "Jaguar": 8
-, "other": 162
+, "Tesla": 2
+, "other": 57
 });
 
-db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Hyundai|Ioniq 5": 137
 , "Kia|EV6": 82
 , "Volvo|EC40": 71
@@ -2631,7 +2687,7 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 44
 , "Opel|Mokka-e": 42
 , "Porsche|Taycan": 35
-, "Volvo|EX40": 29
+, "Volvo|EX40": 30
 , "Audi|Q8 e-tron": 27
 , "Polestar|2": 26
 , "Volkswagen|ID.3": 25
@@ -2660,21 +2716,21 @@ db.insert(db.countries.FI, "2022-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "Peugeot|e-Expert": 1
 , "Renault|Zoe": 1
-, "other": 13
+, "other": 8
 });
 
-db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2568/February_2022.xlsx",
-{ "Toyota": 1132
+db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1133
 , "Volvo": 641
 , "Kia": 582
-, "Škoda": 525
+, "Škoda": 526
 , "BMW": 465
 , "Volkswagen": 370
 , "Opel": 320
 , "Ford": 315
-, "Mercedes-Benz": 304
+, "Mercedes-Benz": 302
 , "Nissan": 244
-, "Audi": 234
+, "Audi": 232
 , "Hyundai": 154
 , "Citroën": 140
 , "Peugeot": 104
@@ -2695,10 +2751,10 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jeep": 16
 , "Honda": 12
 , "Jaguar": 4
-, "other": 141
+, "other": 46
 });
 
-db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Kia|EV6": 113
 , "Polestar|2": 57
 , "Audi|Q4 e-tron": 55
@@ -2740,22 +2796,22 @@ db.insert(db.countries.FI, "2022-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 1
 , "Kia|Soul EV": 1
 , "Peugeot|e-Expert": 1
-, "other": 6
+, "other": 5
 });
 
-db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2582/March_2022.xlsx",
-{ "Toyota": 1309
+db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1313
 , "Volvo": 646
-, "Kia": 580
+, "Kia": 581
 , "Volkswagen": 541
-, "Mercedes-Benz": 476
-, "Škoda": 476
+, "Mercedes-Benz": 478
+, "Škoda": 477
 , "Tesla": 420
-, "BMW": 400
+, "BMW": 402
 , "Opel": 400
 , "Ford": 383
 , "Nissan": 323
-, "Audi": 239
+, "Audi": 236
 , "Hyundai": 201
 , "Peugeot": 139
 , "Citroën": 107
@@ -2772,11 +2828,13 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 30
 , "Honda": 20
 , "Subaru": 20
+, "Jeep": 9
 , "Mini": 8
-, "other": 203
+, "Jaguar": 5
+, "other": 56
 });
 
-db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 257
 , "Tesla|Model 3": 163
 , "Nissan|Leaf": 79
@@ -2818,26 +2876,25 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 2
 , "Honda|e": 1
 , "Jaguar|I-Pace": 1
-, "Mercedes-Benz|EQV": 1
 , "Mercedes-Benz|eVito": 1
 , "Mini|Cooper SE": 1
 , "Opel|Combo-e": 1
-, "other": 13
+, "other": 12
 });
 
-db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2591/April_2022.xlsx",
+db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1137
 , "Kia": 549
 , "Volvo": 505
 , "Volkswagen": 499
 , "Nissan": 416
-, "BMW": 412
+, "BMW": 413
 , "Škoda": 383
-, "Mercedes-Benz": 373
+, "Mercedes-Benz": 366
 , "Ford": 288
 , "Opel": 286
 , "Hyundai": 258
-, "Audi": 244
+, "Audi": 240
 , "Polestar": 127
 , "Peugeot": 125
 , "Renault": 99
@@ -2855,10 +2912,12 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 15
 , "Fiat": 14
 , "Tesla": 12
-, "other": 201
+, "Jeep": 10
+, "Jaguar": 5
+, "other": 43
 });
 
-db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Polestar|2": 127
 , "Nissan|Leaf": 74
 , "Škoda|Enyaq": 57
@@ -2899,24 +2958,23 @@ db.insert(db.countries.FI, "2022-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30 BEV": 1
 , "Mercedes-Benz|EQB": 1
 , "Mercedes-Benz|EQC": 1
-, "Mercedes-Benz|EQV": 1
 , "Mercedes-Benz|eVito": 1
 , "Peugeot|e-Expert": 1
-, "other": 12
+, "other": 11
 });
 
-db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2594/May_2022.xlsx",
-{ "Toyota": 1506
+db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1508
 , "Kia": 742
 , "Volkswagen": 731
 , "Škoda": 635
-, "BMW": 510
+, "BMW": 512
 , "Volvo": 506
-, "Mercedes-Benz": 472
+, "Mercedes-Benz": 466
 , "Peugeot": 308
 , "Ford": 304
 , "Hyundai": 290
-, "Audi": 270
+, "Audi": 265
 , "Nissan": 212
 , "Renault": 197
 , "Opel": 160
@@ -2935,10 +2993,12 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 18
 , "Fiat": 14
 , "Tesla": 11
-, "other": 288
+, "Jeep": 3
+, "Jaguar": 2
+, "other": 60
 });
 
-db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 128
 , "Volkswagen|ID.4": 117
 , "Polestar|2": 78
@@ -2986,24 +3046,24 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 1
 , "Opel|Combo-e": 1
 , "Tesla|Model 3": 1
-, "other": 16
+, "other": 8
 });
 
-db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2613/June_2022.xlsx",
+db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1194
 , "Volkswagen": 763
 , "Kia": 686
 , "Škoda": 653
-, "Mercedes-Benz": 507
-, "BMW": 487
+, "Mercedes-Benz": 505
+, "BMW": 490
 , "Renault": 289
-, "Audi": 260
+, "Audi": 258
 , "Nissan": 236
 , "Volvo": 236
 , "Ford": 234
 , "Opel": 221
 , "Hyundai": 217
-, "Peugeot": 165
+, "Peugeot": 166
 , "Tesla": 155
 , "Citroën": 151
 , "Dacia": 150
@@ -3019,10 +3079,12 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Fiat": 19
 , "Mini": 14
 , "Subaru": 10
-, "other": 274
+, "Jeep": 7
+, "Jaguar": 3
+, "other": 52
 });
 
-db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Renault|Zoe": 149
 , "Škoda|Enyaq": 138
 , "Tesla|Model Y": 110
@@ -3069,19 +3131,19 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Nissan|e-NV200": 1
 , "Opel|Zafira-e": 1
-, "other": 20
+, "other": 17
 });
 
-db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2620/July_2022.xlsx",
+db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 920
 , "Volkswagen": 689
 , "Kia": 531
 , "Škoda": 475
-, "Mercedes-Benz": 371
+, "Mercedes-Benz": 366
 , "BMW": 297
 , "Ford": 276
 , "Volvo": 259
-, "Audi": 197
+, "Audi": 195
 , "Peugeot": 165
 , "Renault": 164
 , "Hyundai": 152
@@ -3102,10 +3164,12 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 17
 , "Mini": 15
 , "Subaru": 13
-, "other": 184
+, "Jaguar": 7
+, "Jeep": 4
+, "other": 42
 });
 
-db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 108
 , "Volkswagen|ID.4": 89
 , "Volkswagen|ID.5": 89
@@ -3148,18 +3212,18 @@ db.insert(db.countries.FI, "2022-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Peugeot|e-Rifter": 1
 , "Tesla|Model 3": 1
-, "other": 25
+, "other": 20
 });
 
-db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2624/August_2022.xlsx",
+db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1021
 , "Volkswagen": 762
 , "Škoda": 687
 , "Kia": 573
 , "Volvo": 556
-, "Mercedes-Benz": 493
+, "Mercedes-Benz": 477
 , "Peugeot": 374
-, "BMW": 371
+, "BMW": 372
 , "Ford": 319
 , "Nissan": 246
 , "Audi": 222
@@ -3180,11 +3244,13 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 26
 , "Polestar": 23
 , "Seat": 23
-, "Land Rover": 10
-, "other": 161
+, "Land Rover": 11
+, "Jaguar": 10
+, "Jeep": 7
+, "other": 35
 });
 
-db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 149
 , "Nissan|Leaf": 139
 , "Volvo|EX40": 133
@@ -3225,27 +3291,26 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 2
 , "Volkswagen|e-up!": 2
 , "BMW|i3 BEV": 1
-, "Mercedes-Benz|EQV": 1
 , "Opel|Combo-e": 1
 , "Peugeot|e-Traveller": 1
 , "Tesla|Model 3": 1
 , "Toyota|Proace Electric": 1
-, "other": 28
+, "other": 14
 });
 
-db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2631/September_2022.xlsx",
+db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 988
-, "Škoda": 729
+, "Škoda": 730
 , "Kia": 694
-, "Volvo": 604
+, "Volvo": 605
 , "Volkswagen": 537
-, "Mercedes-Benz": 523
+, "Mercedes-Benz": 517
 , "BMW": 391
-, "Ford": 249
+, "Ford": 250
 , "Nissan": 236
 , "Tesla": 218
 , "Peugeot": 202
-, "Audi": 184
+, "Audi": 183
 , "Renault": 133
 , "Dacia": 126
 , "Citroën": 113
@@ -3262,11 +3327,14 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 20
 , "Mini": 19
 , "Land Rover": 12
+, "Jeep": 9
 , "Porsche": 9
-, "other": 153
+, "Jaguar": 6
+, "Smart": 1
+, "other": 45
 });
 
-db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 131
 , "Volvo|EX40": 131
 , "BMW|i4": 119
@@ -3313,16 +3381,16 @@ db.insert(db.countries.FI, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 1
 , "Mazda|MX-30 BEV": 1
 , "Peugeot|e-Rifter": 1
-, "other": 19
+, "other": 12
 });
 
-db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2634/October_2022.xlsx",
+db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1128
 , "Volvo": 792
 , "Škoda": 649
 , "Volkswagen": 581
-, "Kia": 505
-, "Mercedes-Benz": 394
+, "Kia": 506
+, "Mercedes-Benz": 385
 , "BMW": 333
 , "Ford": 226
 , "Audi": 220
@@ -3344,12 +3412,14 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 15
 , "Land Rover": 13
 , "Porsche": 9
+, "Jeep": 7
 , "Fiat": 5
 , "Tesla": 5
-, "other": 167
+, "Jaguar": 3
+, "other": 50
 });
 
-db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "BMW|i4": 120
 , "Volkswagen|ID.4": 102
 , "Škoda|Enyaq": 99
@@ -3394,20 +3464,20 @@ db.insert(db.countries.FI, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 1
 , "Subaru|Solterra": 1
 , "Toyota|Proace Electric": 1
-, "other": 46
+, "other": 36
 });
 
-db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2640/November_2022.xlsx",
+db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1240
-, "Volvo": 710
+, "Volvo": 711
 , "Škoda": 537
-, "BMW": 485
+, "BMW": 488
 , "Volkswagen": 480
 , "Kia": 402
-, "Mercedes-Benz": 397
+, "Mercedes-Benz": 391
 , "Ford": 218
 , "Citroën": 201
-, "Audi": 198
+, "Audi": 196
 , "Tesla": 190
 , "Nissan": 177
 , "Polestar": 172
@@ -3427,10 +3497,12 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 13
 , "Fiat": 10
 , "Cupra": 8
-, "other": 139
+, "Jeep": 6
+, "Jaguar": 3
+, "other": 64
 });
 
-db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Polestar|2": 172
 , "Tesla|Model Y": 145
 , "Škoda|Enyaq": 132
@@ -3478,18 +3550,18 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 1
 , "Peugeot|e-2008": 1
 , "Renault|Zoe": 1
-, "other": 31
+, "other": 25
 });
 
-db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2653/December_2022.xlsx",
-{ "Toyota": 1175
+db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1176
 , "Volkswagen": 632
 , "Tesla": 546
 , "Volvo": 504
 , "Škoda": 436
 , "Kia": 426
-, "Mercedes-Benz": 385
-, "BMW": 300
+, "Mercedes-Benz": 379
+, "BMW": 306
 , "Nissan": 246
 , "Audi": 217
 , "Citroën": 157
@@ -3512,10 +3584,10 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 9
 , "Fiat": 7
 , "Jeep": 3
-, "other": 109
+, "other": 58
 });
 
-db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2022/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 354
 , "Nissan|Leaf": 145
 , "Polestar|2": 144
@@ -3567,18 +3639,18 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Opel|Mokka-e": 1
 , "Peugeot|e-208": 1
-, "other": 16
+, "other": 13
 });
 
-db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2664/January_2023.xlsx",
+db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1564
 , "Volvo": 650
 , "Volkswagen": 621
 , "Škoda": 607
-, "Mercedes-Benz": 533
+, "Mercedes-Benz": 524
 , "Kia": 500
 , "BMW": 404
-, "Audi": 323
+, "Audi": 322
 , "Nissan": 282
 , "Ford": 202
 , "Hyundai": 201
@@ -3599,10 +3671,14 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 21
 , "Land Rover": 19
 , "Mini": 7
-, "other": 167
+, "Fiat": 6
+, "Jaguar": 4
+, "Jeep": 4
+, "Smart": 1
+, "other": 61
 });
 
-db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 189
 , "Volkswagen|ID.4": 174
 , "Volvo|EX40": 140
@@ -3647,7 +3723,6 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 3
 , "Tesla|Model S": 3
 , "Hyundai|Kona Electric": 2
-, "Mercedes-Benz|EQV": 2
 , "Mini|Cooper SE": 2
 , "Opel|Combo-e": 2
 , "Tesla|Model X": 2
@@ -3655,21 +3730,21 @@ db.insert(db.countries.FI, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|I-Pace": 1
 , "Opel|Mokka-e": 1
 , "Renault|Zoe": 1
-, "other": 21
+, "other": 16
 });
 
-db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2679/February_2023.xlsx",
+db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 784
-, "Škoda": 617
+, "Škoda": 618
 , "Volvo": 616
 , "Volkswagen": 554
-, "Kia": 470
+, "Kia": 471
 , "BMW": 386
 , "Tesla": 382
-, "Mercedes-Benz": 324
+, "Mercedes-Benz": 320
 , "Nissan": 248
 , "Ford": 246
-, "Audi": 241
+, "Audi": 242
 , "Peugeot": 146
 , "Hyundai": 144
 , "Opel": 142
@@ -3687,10 +3762,12 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 19
 , "Seat": 16
 , "Fiat": 8
-, "other": 125
+, "Mini": 3
+, "Jeep": 2
+, "other": 47
 });
 
-db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 291
 , "Škoda|Enyaq": 145
 , "Volvo|EX40": 141
@@ -3699,7 +3776,7 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 98
 , "Tesla|Model 3": 88
 , "Volvo|EC40": 74
-, "Audi|Q4 e-tron": 72
+, "Audi|Q4 e-tron": 73
 , "Nissan|Leaf": 71
 , "BMW|i4": 68
 , "Nissan|Ariya": 59
@@ -3743,17 +3820,17 @@ db.insert(db.countries.FI, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 1
 , "Toyota|Proace Electric": 1
 , "Volkswagen|e-up!": 1
-, "other": 20
+, "other": 16
 });
 
-db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2737/March_2023.xlsx",
+db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1150
 , "Tesla": 897
 , "Volkswagen": 792
-, "Kia": 544
+, "Kia": 546
 , "Volvo": 524
 , "Škoda": 497
-, "Mercedes-Benz": 457
+, "Mercedes-Benz": 451
 , "BMW": 436
 , "Audi": 323
 , "Nissan": 298
@@ -3775,10 +3852,13 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 22
 , "Fiat": 19
 , "Honda": 15
-, "other": 176
+, "Mini": 11
+, "Jaguar": 4
+, "Jeep": 4
+, "other": 52
 });
 
-db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 720
 , "Volkswagen|ID.4": 273
 , "Tesla|Model 3": 170
@@ -3826,18 +3906,18 @@ db.insert(db.countries.FI, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 2
 , "Volkswagen|e-up!": 2
 , "Peugeot|other": 2
-, "other": 17
+, "other": 12
 });
 
-db.insert(db.countries.FI, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2761/April_2023.xlsx",
+db.insert(db.countries.FI, "2023-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1251
 , "Volkswagen": 821
 , "Volvo": 792
-, "Mercedes-Benz": 581
+, "Mercedes-Benz": 568
 , "Škoda": 551
 , "Kia": 549
-, "BMW": 417
-, "Audi": 400
+, "BMW": 418
+, "Audi": 399
 , "Ford": 275
 , "Nissan": 243
 , "Tesla": 226
@@ -3858,10 +3938,13 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 16
 , "Fiat": 11
 , "Porsche": 11
-, "other": 173
+, "Mini": 9
+, "Jaguar": 3
+, "Jeep": 1
+, "other": 51
 });
 
-db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 226
 , "Škoda|Enyaq": 210
 , "Tesla|Model Y": 202
@@ -3906,19 +3989,19 @@ db.insert(db.countries.FI, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Combo-e": 2
 , "Tesla|Model X": 2
 , "Citroën|other": 2
-, "other": 37
+, "other": 24
 });
 
-db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2767/May_2023.xlsx",
+db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1707
 , "Volkswagen": 1047
-, "Škoda": 1045
+, "Škoda": 1046
 , "Volvo": 852
 , "Kia": 564
-, "Mercedes-Benz": 549
+, "Mercedes-Benz": 538
 , "Tesla": 532
 , "BMW": 521
-, "Audi": 441
+, "Audi": 437
 , "Opel": 319
 , "Ford": 221
 , "Nissan": 214
@@ -3938,11 +4021,14 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 17
 , "Subaru": 14
 , "Honda": 13
+, "Jeep": 8
+, "BYD": 6
 , "Fiat": 3
-, "other": 257
+, "Jaguar": 3
+, "other": 63
 });
 
-db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 443
 , "Škoda|Enyaq": 348
 , "Volkswagen|ID.4": 244
@@ -3993,21 +4079,20 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 2
 , "Jeep|Avenger EV": 2
 , "Peugeot|e-Rifter": 2
-, "Mercedes-Benz|other": 2
-, "other": 36
+, "other": 29
 });
 
-db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2775/June_2023.xlsx",
+db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1509
 , "Škoda": 923
 , "Volkswagen": 902
-, "Tesla": 899
+, "Tesla": 900
 , "Kia": 684
 , "Volvo": 626
-, "Mercedes-Benz": 585
+, "Mercedes-Benz": 576
 , "BMW": 448
 , "Opel": 396
-, "Audi": 352
+, "Audi": 350
 , "Citroën": 206
 , "Nissan": 203
 , "Ford": 196
@@ -4027,15 +4112,19 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 19
 , "Porsche": 16
 , "Honda": 15
-, "other": 270
+, "BYD": 9
+, "Jeep": 7
+, "Jaguar": 1
+, "Smart": 1
+, "other": 57
 });
 
-db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 677
 , "Škoda|Enyaq": 224
 , "Volkswagen|ID.4": 190
 , "BMW|i4": 187
-, "Tesla|Model 3": 155
+, "Tesla|Model 3": 156
 , "Volvo|EX40": 133
 , "Toyota|bZ4X": 128
 , "Opel|Mokka-e": 125
@@ -4080,18 +4169,18 @@ db.insert(db.countries.FI, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 3
 , "BYD|Tang EV": 3
 , "Peugeot|other": 2
-, "other": 36
+, "other": 27
 });
 
-db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2779/July_2023.xlsx",
+db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1237
 , "Škoda": 702
 , "Kia": 581
 , "Volkswagen": 555
 , "Volvo": 466
-, "Mercedes-Benz": 461
+, "Mercedes-Benz": 455
 , "BMW": 370
-, "Audi": 236
+, "Audi": 234
 , "Ford": 200
 , "Peugeot": 193
 , "Hyundai": 182
@@ -4110,13 +4199,17 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 30
 , "Mini": 27
 , "Fiat": 26
-, "Subaru": 25
+, "Subaru": 26
 , "Honda": 10
 , "Porsche": 10
-, "other": 207
+, "BYD": 5
+, "Jeep": 4
+, "Chevrolet": 1
+, "Jaguar": 1
+, "other": 80
 });
 
-db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 182
 , "Peugeot|e-2008": 137
 , "BMW|i4": 136
@@ -4168,19 +4261,19 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-Berlingo Electric": 1
 , "Jaguar|I-Pace": 1
 , "Jeep|Avenger EV": 1
-, "other": 30
+, "other": 26
 });
 
-db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2787/August_2023.xlsx",
+db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1132
 , "Peugeot": 719
 , "Kia": 671
 , "Škoda": 670
 , "Volkswagen": 625
 , "Tesla": 573
-, "Volvo": 500
+, "Volvo": 501
 , "BMW": 442
-, "Mercedes-Benz": 429
+, "Mercedes-Benz": 423
 , "Audi": 281
 , "Hyundai": 274
 , "Ford": 245
@@ -4198,13 +4291,17 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 29
 , "Seat": 29
 , "Honda": 19
+, "BYD": 17
 , "Fiat": 10
 , "Subaru": 10
 , "Porsche": 5
-, "other": 261
+, "Jaguar": 2
+, "Jeep": 2
+, "Chevrolet": 1
+, "other": 82
 });
 
-db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Peugeot|e-2008": 654
 , "Tesla|Model Y": 450
 , "Škoda|Enyaq": 156
@@ -4250,20 +4347,20 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 2
 , "Tesla|Model S": 2
 , "Volkswagen|e-up!": 2
-, "other": 51
+, "other": 45
 });
 
-db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2799/September_2023.xlsx",
+db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla": 1202
-, "Toyota": 1037
+, "Toyota": 1038
 , "Škoda": 692
 , "Kia": 621
 , "Volvo": 505
-, "Mercedes-Benz": 464
+, "Mercedes-Benz": 461
 , "Volkswagen": 456
 , "BMW": 401
 , "Nissan": 278
-, "Audi": 255
+, "Audi": 253
 , "Ford": 230
 , "Hyundai": 170
 , "Opel": 151
@@ -4280,13 +4377,16 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 32
 , "Fiat": 28
 , "Subaru": 26
+, "BYD": 22
 , "Porsche": 21
 , "Honda": 20
+, "Jeep": 10
 , "Mini": 9
-, "other": 203
+, "Jaguar": 2
+, "other": 69
 });
 
-db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 1134
 , "Škoda|Enyaq": 181
 , "Volvo|EX40": 139
@@ -4337,22 +4437,22 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-SpaceTourer": 3
 , "Mercedes-Benz|EQC": 3
 , "Opel|Combo-e": 3
-, "Mercedes-Benz|other": 3
 , "Ford|other": 2
+, "Mercedes-Benz|other": 2
 , "Opel|other": 2
-, "other": 45
+, "other": 40
 });
 
-db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2805/October_2023.xlsx",
+db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 903
 , "Škoda": 695
-, "Kia": 598
+, "Kia": 599
 , "Volvo": 577
 , "Volkswagen": 420
 , "BMW": 394
-, "Mercedes-Benz": 365
 , "Peugeot": 364
-, "Audi": 299
+, "Mercedes-Benz": 363
+, "Audi": 298
 , "Hyundai": 247
 , "Nissan": 195
 , "Mazda": 151
@@ -4370,13 +4470,16 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 33
 , "Seat": 31
 , "Subaru": 30
+, "BYD": 26
 , "Mini": 25
 , "Honda": 17
 , "Fiat": 4
-, "other": 244
+, "Jaguar": 3
+, "Jeep": 2
+, "other": 71
 });
 
-db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Peugeot|e-2008": 267
 , "Škoda|Enyaq": 258
 , "Volvo|EX40": 165
@@ -4427,19 +4530,19 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV9": 2
 , "Opel|Corsa-e": 2
 , "Toyota|Proace Electric": 2
-, "Mercedes-Benz|other": 3
 , "Citroën|other": 2
-, "other": 53
+, "Mercedes-Benz|other": 2
+, "other": 55
 });
 
-db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2814/November_2023.xlsx",
+db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1147
-, "Škoda": 998
+, "Škoda": 999
 , "Volvo": 620
 , "Kia": 485
 , "Volkswagen": 455
 , "Tesla": 432
-, "Mercedes-Benz": 375
+, "Mercedes-Benz": 365
 , "BMW": 356
 , "Hyundai": 279
 , "Audi": 196
@@ -4460,13 +4563,16 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 22
 , "Mini": 21
 , "Porsche": 17
+, "BYD": 12
 , "Honda": 12
-, "other": 162
+, "Jeep": 7
+, "Jaguar": 2
+, "other": 61
 });
 
-db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 304
-, "Škoda|Enyaq": 301
+, "Škoda|Enyaq": 302
 , "Volvo|EX40": 186
 , "Volvo|EC40": 139
 , "Tesla|Model 3": 118
@@ -4516,18 +4622,18 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 2
 , "Peugeot|e-Expert": 2
 , "Toyota|Proace Electric": 2
-, "other": 45
+, "other": 37
 });
 
-db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2825/December_2023.xlsx",
+db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 846
 , "Škoda": 821
-, "Tesla": 677
+, "Tesla": 678
 , "Volvo": 559
 , "BMW": 398
 , "Volkswagen": 389
 , "Kia": 334
-, "Mercedes-Benz": 246
+, "Mercedes-Benz": 242
 , "Hyundai": 213
 , "Audi": 189
 , "Nissan": 134
@@ -4542,19 +4648,22 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 43
 , "Land Rover": 39
 , "Mitsubishi": 37
+, "BYD": 32
 , "Suzuki": 30
 , "Seat": 26
 , "Mini": 23
 , "Subaru": 19
 , "Fiat": 17
 , "Porsche": 10
+, "Jaguar": 4
+, "Jeep": 3
 , "Honda": 1
-, "other": 135
+, "other": 46
 });
 
-db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2023/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 452
-, "Tesla|Model 3": 216
+, "Tesla|Model 3": 217
 , "Volvo|EX40": 172
 , "Škoda|Enyaq": 151
 , "BMW|i4": 134
@@ -4604,20 +4713,20 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 2
 , "Jaguar|I-Pace": 2
 , "Kia|Soul EV": 2
-, "other": 34
+, "other": 31
 });
 
-db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2840/January_2024.xlsx",
+db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1524
 , "Škoda": 740
 , "Volvo": 661
-, "Kia": 476
+, "Kia": 477
 , "Volkswagen": 421
-, "Mercedes-Benz": 419
-, "BMW": 386
+, "Mercedes-Benz": 413
+, "BMW": 387
 , "Nissan": 346
-, "Hyundai": 269
-, "Audi": 267
+, "Hyundai": 270
+, "Audi": 266
 , "Tesla": 169
 , "Ford": 127
 , "Citroën": 74
@@ -4638,10 +4747,11 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 16
 , "Seat": 16
 , "Jeep": 8
-, "other": 169
+, "Fiat": 3
+, "other": 69
 });
 
-db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX40": 207
 , "Tesla|Model Y": 123
 , "Hyundai|Ioniq 5": 122
@@ -4697,10 +4807,10 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 1
 , "Tesla|Model S": 1
 , "Toyota|Proace Electric": 1
-, "other": 28
+, "other": 25
 });
 
-db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2846/February_2024.xlsx",
+db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 997
 , "Škoda": 615
 , "Volvo": 563
@@ -4711,7 +4821,7 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Tesla": 238
 , "Nissan": 215
 , "Hyundai": 195
-, "Audi": 194
+, "Audi": 193
 , "Ford": 157
 , "Peugeot": 84
 , "Dacia": 61
@@ -4723,18 +4833,19 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Renault": 31
 , "Honda": 29
 , "Citroën": 26
-, "Land Rover": 24
+, "Land Rover": 25
 , "Porsche": 24
 , "Cupra": 23
-, "Subaru": 22
+, "Subaru": 23
 , "Mini": 19
 , "Fiat": 12
 , "Polestar": 11
 , "Seat": 7
-, "other": 159
+, "Jeep": 6
+, "other": 53
 });
 
-db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 192
 , "Volvo|EX40": 104
 , "BMW|i4": 99
@@ -4786,17 +4897,17 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-Rifter": 1
 , "Subaru|Solterra": 1
 , "Tesla|Model X": 1
-, "other": 15
+, "other": 13
 });
 
-db.insert(db.countries.FI, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2851/March_2024.xlsx",
-{ "Toyota": 1199
+db.insert(db.countries.FI, "2024-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1200
 , "Volvo": 705
 , "Škoda": 536
 , "Kia": 511
 , "Tesla": 487
 , "Volkswagen": 476
-, "Mercedes-Benz": 387
+, "Mercedes-Benz": 382
 , "BMW": 337
 , "Hyundai": 335
 , "Nissan": 329
@@ -4820,10 +4931,12 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 12
 , "Fiat": 9
 , "Mini": 8
-, "other": 155
+, "Jaguar": 5
+, "Jeep": 2
+, "other": 46
 });
 
-db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 340
 , "Tesla|Model 3": 140
 , "Volkswagen|ID.4": 134
@@ -4883,20 +4996,20 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 1
 , "Opel|other": 1
 , "Renault|other": 1
-, "other": 16
+, "other": 13
 });
 
-db.insert(db.countries.FI, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2856/April_2024.xlsx",
-{ "Toyota": 1186
-, "Volvo": 812
-, "Volkswagen": 543
+db.insert(db.countries.FI, "2024-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1188
+, "Volvo": 813
+, "Volkswagen": 544
 , "Škoda": 466
 , "Kia": 411
 , "BMW": 375
 , "Nissan": 324
 , "Hyundai": 310
-, "Mercedes-Benz": 286
-, "Audi": 258
+, "Mercedes-Benz": 281
+, "Audi": 257
 , "Ford": 148
 , "Tesla": 128
 , "Mitsubishi": 88
@@ -4913,13 +5026,17 @@ db.insert(db.countries.FI, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Peugeot": 27
 , "Land Rover": 25
 , "Honda": 24
+, "Smart": 17
 , "Subaru": 15
 , "Mini": 9
 , "Seat": 7
-, "other": 253
+, "Jaguar": 4
+, "Fiat": 3
+, "Jeep": 2
+, "other": 78
 });
 
-db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX30": 262
 , "Volkswagen|ID.4": 166
 , "Volvo|EX40": 130
@@ -4973,16 +5090,16 @@ db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 1
 , "Peugeot|e-308": 1
 , "Tesla|Model S": 1
-, "other": 29
+, "other": 28
 });
 
-db.insert(db.countries.FI, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2866/May_2024.xlsx",
-{ "Toyota": 1508
+db.insert(db.countries.FI, "2024-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1509
 , "Volvo": 1066
 , "Volkswagen": 740
 , "Kia": 554
 , "Škoda": 501
-, "Mercedes-Benz": 472
+, "Mercedes-Benz": 467
 , "BMW": 325
 , "Tesla": 304
 , "Hyundai": 289
@@ -5003,13 +5120,19 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 37
 , "Land Rover": 35
 , "Polestar": 30
+, "Smart": 19
 , "Honda": 17
 , "Porsche": 17
 , "Mini": 10
-, "other": 343
+, "Jeep": 9
+, "Jaguar": 6
+, "Fiat": 5
+, "MG": 2
+, "Isuzu": 1
+, "other": 73
 });
 
-db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX30": 528
 , "Volkswagen|ID.4": 193
 , "Tesla|Model Y": 180
@@ -5032,8 +5155,8 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 21
 , "Cupra|Born": 20
 , "Nissan|Ariya": 20
+, "Toyota|bZ4X": 20
 , "Hyundai|Kona Electric": 19
-, "Toyota|bZ4X": 19
 , "BYD|Yuan Plus": 18
 , "Volkswagen|ID.3": 18
 , "Peugeot|E-3008": 17
@@ -5064,18 +5187,17 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Mokka-e": 2
 , "Tesla|Model X": 2
 , "Toyota|Proace Electric": 2
-, "Mercedes-Benz|other": 2
-, "other": 59
+, "other": 58
 });
 
-db.insert(db.countries.FI, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2875/June_2024.xlsx",
-{ "Toyota": 1074
+db.insert(db.countries.FI, "2024-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1075
 , "Škoda": 642
 , "Volvo": 641
 , "Volkswagen": 628
 , "Kia": 555
 , "Tesla": 479
-, "Mercedes-Benz": 365
+, "Mercedes-Benz": 363
 , "Nissan": 317
 , "BMW": 281
 , "Ford": 253
@@ -5094,18 +5216,24 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 36
 , "Dacia": 33
 , "Subaru": 33
-, "Land Rover": 28
+, "Land Rover": 29
 , "Porsche": 16
 , "Honda": 14
+, "Smart": 11
 , "Mini": 7
-, "other": 258
+, "Fiat": 5
+, "Jeep": 2
+, "MG": 2
+, "Jaguar": 1
+, "other": 44
 });
 
-db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX30": 271
 , "Tesla|Model Y": 249
 , "Tesla|Model 3": 227
 , "Volkswagen|ID.4": 133
+, "Polestar|2": 101
 , "Škoda|Enyaq": 101
 , "Audi|Q4 e-tron": 72
 , "Volvo|EX40": 68
@@ -5139,7 +5267,9 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 6
 , "Mini|Cooper SE": 6
 , "Porsche|Taycan": 6
+, "Smart|Hashtag 3": 6
 , "Peugeot|e-2008": 5
+, "Smart|Hashtag 1": 5
 , "BYD|Dolphin": 4
 , "Renault|Megane E-Tech": 4
 , "Subaru|Solterra": 3
@@ -5154,17 +5284,17 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 1
 , "Peugeot|e-Rifter": 1
 , "Volkswagen|ID.5": 1
-, "other": 133
+, "other": 18
 });
 
-db.insert(db.countries.FI, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2879/July_2024.xlsx",
+db.insert(db.countries.FI, "2024-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 984
 , "Volvo": 523
-, "Škoda": 428
-, "Volkswagen": 425
+, "Škoda": 430
+, "Volkswagen": 426
 , "Kia": 387
 , "Nissan": 279
-, "Mercedes-Benz": 262
+, "Mercedes-Benz": 258
 , "Hyundai": 233
 , "BMW": 215
 , "Ford": 171
@@ -5183,14 +5313,18 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cupra": 33
 , "Seat": 25
 , "Dacia": 20
+, "MG": 20
 , "Porsche": 19
 , "Honda": 18
 , "Land Rover": 15
+, "Smart": 10
+, "Fiat": 8
 , "Mini": 8
-, "other": 266
+, "Jeep": 6
+, "other": 60
 });
 
-db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX30": 161
 , "Volkswagen|ID.4": 101
 , "Škoda|Enyaq": 83
@@ -5221,43 +5355,43 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV9": 16
 , "Volkswagen|ID.3": 16
 , "Cupra|Born": 15
+, "MG|4 EV": 14
 , "BMW|iX1": 13
 , "Hyundai|Ioniq 6": 13
 , "Ford|Mustang Mach-E": 12
 , "BMW|iX2": 11
 , "BMW|iX": 9
 , "Audi|Q8 e-tron": 8
+, "Polestar|3": 8
 , "Mini|Cooper SE": 7
 , "Porsche|Taycan": 7
 , "Mercedes-Benz|EQS": 6
+, "Smart|Hashtag 3": 6
 , "Tesla|Model 3": 6
 , "BYD|Han EV": 4
+, "Smart|Hashtag 1": 4
 , "Tesla|Model X": 3
 , "Citroën|ë-Berlingo Electric": 2
 , "Opel|Mokka-e": 2
 , "Opel|Zafira-e": 2
 , "Renault|Megane E-Tech": 2
 , "Tesla|Model S": 2
-, "BMW|i7": 1
-, "BMW|iX3": 1
-, "BYD|Dolphin": 1
-, "BYD|Tang EV": 1
-, "Fiat|500e": 1
-, "Mercedes-Benz|EQV": 1
-, "Peugeot|e-2008": 1
-, "Peugeot|e-308": 1
-, "other": 50
+, "BMW|other": 2
+, "BYD|other": 2
+, "Peugeot|other": 2
+, "Fiat|other": 1
+, "other": 19
 });
 
-db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2896/August_2024.xlsx",
+db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1031
 , "Volvo": 614
 , "Volkswagen": 561
 , "Kia": 512
 , "Škoda": 508
 , "Hyundai": 327
-, "Mercedes-Benz": 316
 , "Tesla": 312
+, "Mercedes-Benz": 311
 , "BMW": 245
 , "Ford": 241
 , "Nissan": 233
@@ -5266,7 +5400,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 193
 , "Mazda": 93
 , "Renault": 92
-, "Subaru": 88
+, "Subaru": 89
 , "Suzuki": 63
 , "Polestar": 59
 , "Dacia": 57
@@ -5277,12 +5411,17 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 29
 , "Land Rover": 23
 , "Honda": 22
+, "Smart": 21
 , "Mini": 18
+, "MG": 13
 , "Seat": 9
-, "other": 279
+, "Jeep": 6
+, "Fiat": 4
+, "Jaguar": 1
+, "other": 74
 });
 
-db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volvo|EX30": 224
 , "Tesla|Model Y": 195
 , "Volkswagen|ID.4": 120
@@ -5300,6 +5439,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 34
 , "BYD|Seal": 32
 , "Hyundai|Ioniq 5": 32
+, "Polestar|2": 31
 , "Mercedes-Benz|EQB": 28
 , "Nissan|Leaf": 28
 , "Volkswagen|ID.3": 28
@@ -5308,6 +5448,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 23
 , "Mercedes-Benz|EQA": 23
 , "Toyota|bZ4X": 23
+, "Polestar|4": 22
 , "Hyundai|Ioniq 6": 19
 , "BMW|iX1": 17
 , "Ford|Mustang Mach-E": 17
@@ -5319,10 +5460,14 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 12
 , "BMW|iX2": 12
 , "Cupra|Born": 12
+, "Smart|Hashtag 3": 12
 , "Porsche|Taycan": 11
 , "Ford|Explorer EV": 10
+, "MG|4 EV": 10
 , "Cupra|Tavascan": 9
+, "Smart|Hashtag 1": 9
 , "Mercedes-Benz|EQS": 6
+, "Polestar|3": 6
 , "Renault|Megane E-Tech": 6
 , "BMW|iX": 4
 , "Porsche|Macan Electric": 4
@@ -5331,22 +5476,18 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 2
 , "Opel|Astra Electric": 2
 , "Volkswagen|ID.5": 2
-, "BMW|i7": 1
-, "BYD|Dolphin": 1
-, "BYD|Tang EV": 1
-, "Citroën|ë-C4": 1
-, "Kia|Soul EV": 1
-, "Opel|Combo-e": 1
-, "Opel|Zafira-e": 1
-, "Peugeot|E-5008": 1
-, "Peugeot|e-208": 1
-, "Tesla|Model S": 1
-, "Tesla|Model X": 1
-, "other": 119
+, "BYD|other": 2
+, "Opel|other": 2
+, "Peugeot|other": 2
+, "Tesla|other": 2
+, "BMW|other": 1
+, "Citroën|other": 1
+, "Kia|other": 1
+, "other": 28
 });
 
-db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2903/September_2024.xlsx",
-{ "Toyota": 487
+db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 488
 , "Škoda": 484
 , "Tesla": 456
 , "Volkswagen": 421
@@ -5354,8 +5495,8 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Kia": 311
 , "Hyundai": 213
 , "BMW": 212
-, "Mercedes-Benz": 209
-, "Ford": 189
+, "Mercedes-Benz": 202
+, "Ford": 190
 , "Audi": 186
 , "Nissan": 161
 , "Peugeot": 111
@@ -5374,17 +5515,22 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 19
 , "Land Rover": 18
 , "Mini": 9
+, "Jeep": 7
+, "MG": 6
+, "Smart": 4
 , "Seat": 3
-, "other": 123
+, "Fiat": 1
+, "other": 57
 });
 
-db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 272
 , "Škoda|Enyaq": 238
 , "Tesla|Model 3": 172
 , "Volvo|EX30": 119
 , "Volkswagen|ID.4": 116
 , "Audi|Q4 e-tron": 62
+, "Polestar|4": 55
 , "Volvo|EX40": 54
 , "Volkswagen|ID.7": 52
 , "Audi|Q6 e-tron": 51
@@ -5395,8 +5541,10 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 26
 , "Volvo|EC40": 26
 , "BMW|i4": 25
+, "Polestar|3": 25
 , "Mercedes-Benz|EQB": 22
 , "Hyundai|Ioniq 6": 21
+, "Polestar|2": 20
 , "Volkswagen|ID.3": 20
 , "BYD|Seal": 19
 , "BMW|i5": 18
@@ -5426,31 +5574,33 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 3
 , "Peugeot|E-5008": 3
 , "Peugeot|e-208": 3
-, "Kia|Soul EV": 2
-, "Mazda|MX-30 BEV": 2
-, "Opel|Mokka-e": 2
-, "Peugeot|e-308": 2
-, "Peugeot|e-Traveller": 2
-, "Mercedes-Benz|other": 3
+, "Smart|Hashtag 3": 3
+, "Toyota|Proace Electric": 3
+, "Peugeot|other": 5
+, "Kia|other": 2
+, "MG|other": 2
+, "Mazda|other": 2
+, "Mercedes-Benz|other": 2
+, "Opel|other": 2
 , "BYD|other": 1
 , "Citroën|other": 1
-, "Peugeot|other": 1
 , "Porsche|other": 1
+, "Smart|other": 1
 , "Volkswagen|other": 1
-, "other": 128
+, "other": 18
 });
 
-db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2907/October_2024.xlsx",
+db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 892
 , "Škoda": 750
 , "Volvo": 611
 , "Volkswagen": 580
 , "Kia": 455
 , "BMW": 273
-, "Audi": 246
-, "Mercedes-Benz": 242
+, "Audi": 245
+, "Mercedes-Benz": 237
 , "Hyundai": 214
-, "Nissan": 208
+, "Nissan": 209
 , "Ford": 197
 , "Peugeot": 159
 , "Tesla": 145
@@ -5464,16 +5614,20 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 40
 , "Mitsubishi": 38
 , "Cupra": 34
+, "MG": 32
 , "Subaru": 27
 , "Land Rover": 23
 , "Dacia": 19
+, "Smart": 12
 , "Mini": 11
 , "Honda": 9
 , "Seat": 7
-, "other": 228
+, "Fiat": 5
+, "Jeep": 4
+, "other": 67
 });
 
-db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 265
 , "Volkswagen|ID.4": 123
 , "Audi|Q6 e-tron": 105
@@ -5482,6 +5636,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX30": 91
 , "Volvo|EX40": 91
 , "Porsche|Macan Electric": 68
+, "Polestar|4": 53
 , "Volvo|EC40": 50
 , "Ford|Explorer EV": 44
 , "Hyundai|Ioniq 5": 44
@@ -5492,7 +5647,9 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 35
 , "BMW|i4": 32
 , "Mercedes-Benz|EQB": 32
+, "Polestar|2": 32
 , "Nissan|Ariya": 31
+, "Polestar|3": 31
 , "Peugeot|e-2008": 29
 , "Hyundai|Kona Electric": 26
 , "Citroën|ë-C4": 22
@@ -5511,6 +5668,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 9
 , "Cupra|Born": 8
 , "Ford|Capri EV": 8
+, "Smart|Hashtag 3": 8
 , "Audi|Q8 e-tron": 7
 , "Hyundai|Ioniq 6": 7
 , "Mercedes-Benz|EQS": 7
@@ -5520,34 +5678,33 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-5008": 6
 , "Peugeot|E-3008": 4
 , "Renault|Megane E-Tech": 4
-, "Opel|Astra Electric": 3
-, "Porsche|Taycan": 3
-, "Subaru|Solterra": 3
-, "Tesla|Model S": 3
-, "Tesla|Model X": 3
-, "Volvo|EX90": 3
+, "Smart|Hashtag 1": 4
+, "Tesla|other": 6
 , "BYD|other": 4
+, "MG|other": 4
+, "Opel|other": 4
 , "Fiat|other": 3
+, "Porsche|other": 3
+, "Subaru|other": 3
+, "Volvo|other": 3
 , "Ford|other": 2
-, "Mercedes-Benz|other": 2
 , "Peugeot|other": 2
 , "Toyota|other": 2
 , "Jeep|other": 1
-, "MG|other": 1
-, "Opel|other": 1
+, "Mercedes-Benz|other": 1
 , "Volkswagen|other": 1
-, "other": 150
+, "other": 18
 });
 
-db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2913/November_2024.xlsx",
+db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 902
-, "Škoda": 762
-, "Volkswagen": 752
-, "Volvo": 647
+, "Škoda": 763
+, "Volkswagen": 753
+, "Volvo": 649
 , "Kia": 382
 , "Tesla": 323
-, "Mercedes-Benz": 267
-, "BMW": 244
+, "Mercedes-Benz": 259
+, "BMW": 245
 , "Hyundai": 218
 , "Audi": 215
 , "Ford": 203
@@ -5562,6 +5719,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Citroën": 47
 , "Smart": 45
 , "Suzuki": 45
+, "MG": 39
 , "BYD": 38
 , "Mitsubishi": 36
 , "Dacia": 27
@@ -5569,12 +5727,16 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Land Rover": 21
 , "Honda": 13
 , "Seat": 12
-, "other": 176
+, "Mini": 6
+, "Jeep": 4
+, "Fiat": 3
+, "Jaguar": 3
+, "other": 47
 });
 
-db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 247
-, "Škoda|Enyaq": 209
+, "Škoda|Enyaq": 210
 , "Volkswagen|ID.7": 125
 , "Volkswagen|ID.4": 108
 , "Volvo|EX30": 99
@@ -5582,6 +5744,8 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 77
 , "Audi|Q4 e-tron": 76
 , "Tesla|Model 3": 75
+, "Polestar|4": 54
+, "Polestar|2": 51
 , "Porsche|Macan Electric": 44
 , "Ford|Explorer EV": 38
 , "Hyundai|Ioniq 5": 37
@@ -5592,6 +5756,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 31
 , "Mercedes-Benz|EQB": 30
 , "Hyundai|Kona Electric": 28
+, "Smart|Hashtag 3": 28
 , "BMW|i5": 24
 , "Nissan|Ariya": 24
 , "Volkswagen|ID.3": 23
@@ -5600,9 +5765,11 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 21
 , "Renault|Scénic E-Tech": 21
 , "BMW|iX1": 19
+, "Smart|Hashtag 1": 17
 , "Mercedes-Benz|EQE": 15
 , "Kia|EV9": 14
 , "Toyota|bZ4X": 14
+, "Polestar|3": 13
 , "Ford|Capri EV": 12
 , "Peugeot|E-5008": 11
 , "Renault|Megane E-Tech": 11
@@ -5618,34 +5785,33 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 5
 , "Citroën|ë-C4": 5
 , "Peugeot|E-3008": 4
-, "BMW|i7": 3
-, "Jaguar|I-Pace": 3
-, "Opel|Mokka-e": 3
-, "Porsche|Taycan": 3
-, "Subaru|Solterra": 3
-, "Volkswagen|ID.5": 3
 , "BYD|other": 8
+, "Opel|other": 6
 , "Mercedes-Benz|other": 5
+, "BMW|other": 4
 , "Peugeot|other": 4
 , "Ford|other": 3
-, "Opel|other": 3
+, "Jaguar|other": 3
+, "Porsche|other": 3
+, "Subaru|other": 3
+, "Volkswagen|other": 3
 , "Kia|other": 2
+, "MG|other": 2
 , "Toyota|other": 2
-, "BMW|other": 1
 , "Fiat|other": 1
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 175
+, "other": 9
 });
 
-db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2925/December_2024.xlsx",
+db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda": 945
 , "Volkswagen": 682
 , "Toyota": 675
 , "Tesla": 617
 , "Volvo": 543
-, "Mercedes-Benz": 340
+, "Mercedes-Benz": 336
 , "Kia": 316
 , "BMW": 285
 , "Hyundai": 260
@@ -5664,20 +5830,27 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 34
 , "BYD": 33
 , "Citroën": 31
+, "MG": 26
 , "Land Rover": 23
 , "Mitsubishi": 23
 , "Subaru": 11
 , "Seat": 8
+, "Jeep": 6
+, "Mini": 6
 , "Honda": 4
-, "other": 139
+, "Fiat": 2
+, "Jaguar": 1
+, "other": 55
 });
 
-db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2024/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 346
 , "Tesla|Model 3": 269
 , "Škoda|Enyaq": 205
 , "Volkswagen|ID.4": 166
 , "Volkswagen|ID.7": 126
+, "Polestar|2": 90
+, "Polestar|4": 81
 , "Volvo|EX40": 77
 , "Audi|Q6 e-tron": 76
 , "Volvo|EX30": 76
@@ -5690,11 +5863,13 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 37
 , "Porsche|Macan Electric": 37
 , "Volvo|EC40": 32
+, "Smart|Hashtag 3": 27
 , "BMW|iX1": 25
 , "Ford|Explorer EV": 25
 , "Hyundai|Kona Electric": 25
 , "BYD|Seal": 24
 , "Mercedes-Benz|EQE": 19
+, "Polestar|3": 19
 , "Kia|EV6": 17
 , "Cupra|Tavascan": 14
 , "Renault|Scénic E-Tech": 14
@@ -5709,7 +5884,9 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 8
 , "Citroën|ë-C4": 7
 , "Cupra|Born": 7
+, "MG|4 EV": 7
 , "Peugeot|E-5008": 7
+, "Smart|Hashtag 1": 7
 , "Ford|Capri EV": 6
 , "Ford|Mustang Mach-E": 5
 , "Audi|Q8 e-tron": 4
@@ -5718,30 +5895,26 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX90": 4
 , "BYD|Tang EV": 3
 , "Renault|Megane E-Tech": 3
-, "BYD|Yuan Plus": 2
-, "Ford|E-Transit": 2
-, "Mercedes-Benz|G-Class EV": 2
-, "Mercedes-Benz|eSprinter": 2
-, "Peugeot|e-2008": 2
-, "Peugeot|e-308": 2
-, "Peugeot|e-Traveller": 2
-, "Tesla|Model S": 2
+, "Peugeot|other": 8
+, "Mercedes-Benz|other": 5
+, "BYD|other": 3
 , "Opel|other": 3
 , "BMW|other": 2
-, "Peugeot|other": 2
-, "other": 254
+, "Ford|other": 2
+, "Tesla|other": 2
+, "other": 21
 });
 
-db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2940/January_2025.xlsx",
+db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 876
 , "Volkswagen": 570
-, "Škoda": 562
+, "Škoda": 563
 , "Volvo": 528
 , "Kia": 392
 , "Nissan": 355
 , "BMW": 347
-, "Mercedes-Benz": 273
-, "Audi": 237
+, "Mercedes-Benz": 262
+, "Audi": 235
 , "Ford": 229
 , "Hyundai": 179
 , "Peugeot": 164
@@ -5764,22 +5937,28 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Mini": 12
 , "Seat": 8
 , "Xpeng": 8
-, "other": 173
+, "Honda": 6
+, "Jeep": 5
+, "Fiat": 4
+, "Jaguar": 1
+, "other": 75
 });
 
-db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
-{ "Škoda|Enyaq": 161
+db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Škoda|Enyaq": 162
 , "Toyota|bZ4X": 91
 , "Volkswagen|ID.4": 81
 , "Kia|EV3": 74
 , "Audi|Q6 e-tron": 70
 , "Volkswagen|ID.7": 69
 , "Volvo|EX30": 59
+, "Polestar|4": 54
 , "Audi|Q4 e-tron": 53
 , "Volvo|EX40": 51
 , "BMW|i4": 50
 , "Nissan|Ariya": 42
 , "Tesla|Model Y": 34
+, "Polestar|2": 33
 , "Kia|EV6": 32
 , "Ford|Explorer EV": 31
 , "Mercedes-Benz|EQA": 30
@@ -5797,9 +5976,11 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C3": 18
 , "Volvo|EX90": 18
 , "Cupra|Tavascan": 17
+, "Polestar|3": 17
 , "BYD|Sealion 7": 16
 , "Cupra|Born": 15
 , "Mercedes-Benz|EQE": 15
+, "Smart|Hashtag 3": 15
 , "BMW|i5": 14
 , "Ford|Capri EV": 14
 , "Peugeot|E-5008": 14
@@ -5815,18 +5996,17 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|E-Transit": 6
 , "Hyundai|Ioniq 6": 6
 , "Kia|Niro EV": 6
-, "Peugeot|e-2008": 5
-, "Xpeng|G6": 5
-, "Mercedes-Benz|eSprinter": 4
+, "Smart|Hashtag 1": 6
+, "Peugeot|other": 12
+, "Mercedes-Benz|other": 10
+, "Xpeng|other": 8
 , "BYD|other": 7
-, "Peugeot|other": 7
-, "Mercedes-Benz|other": 6
-, "Audi|other": 4
 , "BMW|other": 4
 , "Fiat|other": 4
+, "MG|other": 4
+, "Audi|other": 3
 , "Jeep|other": 3
 , "Renault|other": 3
-, "Xpeng|other": 3
 , "Citroën|other": 2
 , "Opel|other": 2
 , "Porsche|other": 2
@@ -5834,20 +6014,19 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 2
 , "Volkswagen|other": 2
 , "Honda|other": 1
-, "MG|other": 1
-, "other": 138
+, "other": 11
 });
 
-db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2944/February_2025.xlsx",
-{ "Toyota": 731
+db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 732
 , "Volkswagen": 494
 , "Volvo": 455
 , "Škoda": 400
 , "Kia": 364
 , "BMW": 264
-, "Mercedes-Benz": 206
-, "Nissan": 206
-, "Audi": 205
+, "Nissan": 207
+, "Audi": 203
+, "Mercedes-Benz": 203
 , "Hyundai": 193
 , "Ford": 149
 , "Polestar": 143
@@ -5867,18 +6046,25 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Opel": 25
 , "Seat": 23
 , "Subaru": 16
+, "Mini": 11
+, "Honda": 9
 , "Smart": 9
-, "other": 174
+, "Jeep": 6
+, "Xpeng": 6
+, "Fiat": 5
+, "other": 53
 });
 
-db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 95
 , "Škoda|Enyaq": 95
 , "Audi|Q4 e-tron": 82
 , "Toyota|bZ4X": 79
+, "Polestar|4": 75
 , "Kia|EV3": 73
 , "Tesla|Model 3": 68
 , "Volvo|EX40": 65
+, "Polestar|2": 58
 , "Tesla|Model Y": 52
 , "Volkswagen|ID.7": 52
 , "Audi|Q6 e-tron": 48
@@ -5893,6 +6079,7 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Elroq": 27
 , "Mercedes-Benz|EQB": 26
 , "BYD|Seal": 22
+, "MG|4 EV": 22
 , "Porsche|Macan Electric": 21
 , "Citroën|ë-C3": 18
 , "Ford|Explorer EV": 18
@@ -5907,54 +6094,51 @@ db.insert(db.countries.FI, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 10
 , "Kia|EV9": 10
 , "Peugeot|E-3008": 10
+, "Polestar|3": 10
 , "Citroën|ë-C4": 9
 , "Mercedes-Benz|EQE": 8
 , "Ford|Capri EV": 7
 , "BMW|iX": 6
 , "BMW|iX2": 6
 , "BYD|Sealion 7": 6
-, "Audi|S6 e-tron": 5
 , "Citroën|ë-Berlingo Electric": 5
 , "Cupra|Born": 5
 , "Ford|Mustang Mach-E": 5
 , "Mercedes-Benz|eSprinter": 5
-, "Hyundai|Kona Electric": 4
-, "Audi|A6 e-tron": 3
-, "Fiat|500e": 3
-, "Hyundai|Ioniq 6": 3
-, "Mercedes-Benz|G-Class EV": 3
-, "Opel|Astra Electric": 3
-, "Subaru|Solterra": 3
-, "Xpeng|G6": 3
-, "Xpeng|G9": 3
+, "Smart|Hashtag 1": 5
+, "Hyundai|other": 7
+, "Xpeng|other": 6
+, "Mercedes-Benz|other": 5
+, "Opel|other": 5
+, "Fiat|other": 4
+, "Smart|other": 4
+, "Audi|other": 3
 , "BYD|other": 3
+, "Subaru|other": 3
 , "Jeep|other": 2
-, "Mercedes-Benz|other": 2
-, "Opel|other": 2
 , "Porsche|other": 2
 , "Tesla|other": 2
 , "BMW|other": 1
-, "Fiat|other": 1
 , "MG|other": 1
 , "Peugeot|other": 1
 , "Renault|other": 1
 , "Toyota|other": 1
 , "Volkswagen|other": 1
-, "other": 199
+, "other": 30
 });
 
-db.insert(db.countries.FI, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2951/March_2025.xlsx",
+db.insert(db.countries.FI, "2025-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 942
-, "Volkswagen": 655
+, "Volkswagen": 656
 , "Škoda": 483
 , "Volvo": 480
 , "Kia": 455
-, "Mercedes-Benz": 344
+, "Mercedes-Benz": 341
 , "Ford": 319
 , "Tesla": 295
 , "Nissan": 274
-, "Audi": 251
-, "BMW": 239
+, "Audi": 249
+, "BMW": 241
 , "Hyundai": 228
 , "Polestar": 182
 , "Mazda": 107
@@ -5975,22 +6159,29 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 25
 , "Mini": 18
 , "Honda": 8
-, "other": 186
+, "Xpeng": 8
+, "Fiat": 6
+, "Jeep": 5
+, "Jaguar": 3
+, "other": 72
 });
 
-db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 205
 , "Volkswagen|ID.4": 176
 , "Škoda|Enyaq": 155
 , "Kia|EV3": 130
 , "Volkswagen|ID.7": 104
 , "Toyota|bZ4X": 103
+, "Polestar|4": 92
 , "Tesla|Model 3": 90
 , "Audi|Q4 e-tron": 79
 , "Volvo|EX30": 75
 , "Nissan|Ariya": 68
 , "Mercedes-Benz|EQA": 67
+, "Polestar|2": 66
 , "Volvo|EX40": 65
+, "MG|4 EV": 56
 , "Mercedes-Benz|EQB": 52
 , "BMW|i4": 50
 , "Audi|Q6 e-tron": 45
@@ -6003,8 +6194,9 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|A6 e-tron": 28
 , "Kia|EV6": 28
 , "Renault|Scénic E-Tech": 26
+, "Polestar|3": 24
 , "Volvo|EX90": 24
-, "BMW|iX1": 22
+, "BMW|iX1": 23
 , "BMW|i5": 21
 , "Cupra|Tavascan": 20
 , "Ford|Explorer EV": 20
@@ -6012,9 +6204,11 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 20
 , "Ford|Capri EV": 18
 , "Mini|Cooper SE": 18
+, "Smart|Hashtag 1": 17
 , "BYD|Sealion 7": 15
 , "BMW|iX2": 14
 , "Kia|Niro EV": 14
+, "Smart|Hashtag 3": 12
 , "Ford|Mustang Mach-E": 10
 , "Kia|EV9": 10
 , "Opel|Corsa-e": 8
@@ -6023,21 +6217,17 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 6
 , "Hyundai|Kona Electric": 6
 , "Xpeng|G6": 6
-, "Fiat|500e": 5
-, "Mercedes-Benz|G-Class EV": 5
-, "Peugeot|E-5008": 5
-, "Porsche|Taycan": 5
-, "Audi|S6 e-tron": 4
-, "Hyundai|Ioniq 6": 4
-, "Peugeot|e-308": 4
-, "Subaru|Solterra": 4
-, "Toyota|Proace Electric": 4
+, "Peugeot|other": 12
 , "BYD|other": 9
-, "Mercedes-Benz|other": 5
+, "Mercedes-Benz|other": 8
+, "Fiat|other": 6
+, "Porsche|other": 5
 , "BMW|other": 4
 , "Citroën|other": 4
+, "Hyundai|other": 4
 , "Opel|other": 4
-, "Peugeot|other": 3
+, "Subaru|other": 4
+, "Toyota|other": 4
 , "Renault|other": 3
 , "Jaguar|other": 2
 , "Jeep|other": 2
@@ -6045,17 +6235,17 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 2
 , "Volkswagen|other": 2
 , "Xpeng|other": 2
-, "other": 303
+, "other": 39
 });
 
-db.insert(db.countries.FI, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.aut.fi/files/2954/April_2025.xlsx",
+db.insert(db.countries.FI, "2025-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 885
 , "Volkswagen": 856
 , "Volvo": 616
 , "Škoda": 605
 , "Kia": 511
-, "Audi": 316
-, "Mercedes-Benz": 268
+, "Audi": 315
+, "Mercedes-Benz": 263
 , "BMW": 255
 , "Ford": 228
 , "Hyundai": 228
@@ -6080,10 +6270,13 @@ db.insert(db.countries.FI, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Seat": 25
 , "Xpeng": 13
 , "Smart": 12
-, "other": 206
+, "Jeep": 11
+, "Fiat": 10
+, "Honda": 8
+, "other": 59
 });
 
-db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/4, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 191
 , "Volkswagen|ID.7": 177
 , "Škoda|Elroq": 162
@@ -6094,13 +6287,16 @@ db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX30": 73
 , "Volvo|EC40": 68
 , "Audi|Q6 e-tron": 58
+, "Polestar|4": 54
 , "Toyota|bZ4X": 54
 , "Tesla|Model Y": 50
 , "Ford|Explorer EV": 43
 , "BMW|i4": 38
 , "Hyundai|Ioniq 5": 37
 , "Audi|A6 e-tron": 36
+, "MG|4 EV": 36
 , "Mercedes-Benz|EQA": 35
+, "Polestar|2": 35
 , "Hyundai|Inster": 34
 , "Nissan|Ariya": 34
 , "Citroën|ë-C3": 31
@@ -6133,30 +6329,31 @@ db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Sealion 7": 9
 , "Mercedes-Benz|EQE": 9
 , "Mercedes-Benz|EQS": 9
-, "Fiat|500e": 7
+, "Smart|other": 12
+, "Fiat|other": 10
 , "Mercedes-Benz|other": 10
 , "Peugeot|other": 8
-, "Audi|other": 7
 , "BYD|other": 6
+, "Renault|other": 6
 , "BMW|other": 5
 , "Opel|other": 5
 , "Jeep|other": 4
-, "Fiat|other": 3
 , "Hyundai|other": 3
+, "Polestar|other": 3
 , "Xpeng|other": 2
-, "other": 177
+, "other": 38
 });
 
-db.insert(db.countries.FI, "2025-05", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/06/May-2025.xlsx",
-{ "Toyota": 1021
+db.insert(db.countries.FI, "2025-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1023
 , "Volkswagen": 915
 , "Škoda": 612
 , "Volvo": 577
 , "Kia": 549
-, "Audi": 319
+, "Audi": 318
 , "Renault": 306
 , "BMW": 305
-, "Mercedes-Benz": 285
+, "Mercedes-Benz": 274
 , "Ford": 260
 , "Hyundai": 260
 , "Nissan": 176
@@ -6176,11 +6373,17 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "MG": 32
 , "Mini": 31
 , "Opel": 27
+, "Smart": 15
+, "Xpeng": 14
+, "Jeep": 12
 , "BYD": 11
-, "other": 280
+, "Honda": 11
+, "Fiat": 7
+, "Jaguar": 1
+, "other": 69
 });
 
-db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/5, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.7": 191
 , "Volkswagen|ID.4": 183
 , "Škoda|Elroq": 168
@@ -6193,7 +6396,9 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 58
 , "Volvo|EX90": 52
 , "Volvo|EX30": 50
+, "Polestar|2": 44
 , "Ford|Explorer EV": 43
+, "Polestar|4": 43
 , "Hyundai|Ioniq 5": 40
 , "Mercedes-Benz|EQB": 40
 , "Kia|EV6": 38
@@ -6202,6 +6407,7 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 34
 , "Hyundai|Inster": 34
 , "Mercedes-Benz|EQA": 30
+, "Renault|5 E-Tech": 30
 , "Mini|Cooper SE": 29
 , "Porsche|Macan Electric": 27
 , "Tesla|Model 3": 27
@@ -6214,6 +6420,7 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Niro EV": 19
 , "Toyota|bZ4X": 19
 , "Ford|Puma Gen-E": 18
+, "MG|4 EV": 18
 , "Nissan|Ariya": 17
 , "Cupra|Tavascan": 16
 , "Renault|Scénic E-Tech": 16
@@ -6225,33 +6432,33 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-308": 10
 , "Subaru|Solterra": 10
 , "Peugeot|E-5008": 9
+, "Smart|Hashtag 3": 9
 , "Fiat|600e": 7
-, "Jeep|Avenger EV": 6
-, "Citroën|ë-C3": 5
-, "Hyundai|Kona Electric": 5
-, "Mercedes-Benz|G-Class EV": 5
-, "Peugeot|E-3008": 5
-, "Smart|Hashtag 5": 5
+, "Polestar|3": 7
 , "BYD|other": 8
+, "Mercedes-Benz|other": 8
+, "Peugeot|other": 8
+, "Jeep|other": 6
 , "Opel|other": 6
-, "Audi|other": 3
+, "Smart|other": 6
+, "Citroën|other": 5
+, "Hyundai|other": 5
 , "BMW|other": 3
-, "Mercedes-Benz|other": 3
-, "Peugeot|other": 3
 , "Porsche|other": 3
 , "Xpeng|other": 3
+, "MG|other": 2
 , "Renault|other": 2
-, "other": 208
+, "other": 56
 });
 
-db.insert(db.countries.FI, "2025-06", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/07/June-2025-1.xlsx",
-{ "Volkswagen": 1049
+db.insert(db.countries.FI, "2025-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 1051
 , "Toyota": 953
 , "Kia": 895
 , "Škoda": 603
 , "Volvo": 503
-, "BMW": 328
-, "Mercedes-Benz": 328
+, "BMW": 329
+, "Mercedes-Benz": 317
 , "Tesla": 291
 , "Ford": 284
 , "Audi": 269
@@ -6271,19 +6478,26 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Cupra": 38
 , "Land Rover": 23
 , "Suzuki": 23
+, "Smart": 22
 , "Mini": 20
 , "Subaru": 20
+, "Honda": 16
 , "BYD": 13
-, "other": 270
+, "Fiat": 9
+, "Xpeng": 9
+, "Jeep": 5
+, "other": 50
 });
 
-db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/6, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 179
 , "Škoda|Elroq": 160
 , "Škoda|Enyaq": 147
 , "Volkswagen|ID.7": 140
+, "Polestar|4": 125
 , "Volkswagen|ID.4": 125
 , "Tesla|Model 3": 107
+, "Polestar|2": 98
 , "Hyundai|Ioniq 5": 78
 , "Kia|EV3": 78
 , "BMW|i4": 77
@@ -6293,6 +6507,7 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 53
 , "Audi|Q6 e-tron": 50
 , "BMW|iX1": 46
+, "Renault|5 E-Tech": 44
 , "Volvo|EX90": 44
 , "Volvo|EX30": 39
 , "Mercedes-Benz|EQA": 36
@@ -6305,7 +6520,9 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 29
 , "Mercedes-Benz|EQE": 26
 , "Audi|A6 e-tron": 25
+, "Polestar|3": 24
 , "Hyundai|Inster": 23
+, "MG|4 EV": 22
 , "Cupra|Tavascan": 18
 , "Mini|Cooper SE": 18
 , "Volkswagen|ID.3": 18
@@ -6314,37 +6531,36 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Puma Gen-E": 14
 , "BMW|i5": 13
 , "Renault|Scénic E-Tech": 13
+, "Smart|Hashtag 3": 13
 , "BMW|iX2": 11
 , "Hyundai|Kona Electric": 10
 , "Nissan|Ariya": 10
 , "Toyota|bZ4X": 10
 , "Kia|EV9": 8
 , "BYD|Yuan Plus": 7
+, "Smart|Hashtag 1": 7
 , "Kia|Soul EV": 6
 , "Peugeot|E-3008": 6
-, "Audi|S6 e-tron": 5
-, "Xpeng|G9": 5
-, "Cupra|Born": 4
-, "Ford|E-Transit": 4
-, "Mercedes-Benz|G-Class EV": 4
-, "Peugeot|E-5008": 4
-, "Xpeng|G6": 4
-, "Mercedes-Benz|other": 5
+, "Mercedes-Benz|other": 9
+, "Xpeng|other": 9
+, "Peugeot|other": 8
 , "Tesla|other": 5
 , "BYD|other": 4
+, "Cupra|other": 4
+, "Ford|other": 4
 , "Opel|other": 4
-, "Peugeot|other": 4
 , "Fiat|other": 3
 , "Jeep|other": 3
 , "Subaru|other": 3
 , "BMW|other": 2
 , "Citroën|other": 2
+, "MG|other": 2
 , "Smart|other": 2
 , "Toyota|other": 2
-, "other": 373
+, "other": 42
 });
 
-db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/08/July-2025.xlsx",
+db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 915
 , "Škoda": 738
 , "Volkswagen": 591
@@ -6352,8 +6568,8 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Kia": 417
 , "BMW": 295
 , "Ford": 242
-, "Audi": 202
-, "Mercedes-Benz": 197
+, "Audi": 201
+, "Mercedes-Benz": 193
 , "Nissan": 134
 , "Hyundai": 116
 , "Tesla": 106
@@ -6369,15 +6585,20 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Mitsubishi": 38
 , "Porsche": 37
 , "BYD": 32
+, "Smart": 32
 , "Mini": 31
 , "Subaru": 28
 , "Suzuki": 21
 , "Land Rover": 17
+, "Honda": 15
 , "Seat": 7
-, "other": 270
+, "Fiat": 5
+, "Xpeng": 4
+, "Jeep": 2
+, "other": 72
 });
 
-db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/7, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 195
 , "Škoda|Elroq": 192
 , "Volkswagen|ID.4": 143
@@ -6393,9 +6614,8 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 39
 , "BMW|i4": 39
 , "Kia|EV6": 39
+, "Renault|5 E-Tech": 37
 , "Volvo|EX90": 37
-, "Citroën|ë-C3": 35
-, "Citroën|ë-C4": 35
 , "Volvo|EC40": 32
 , "BMW|iX": 29
 , "Mercedes-Benz|EQB": 28
@@ -6407,15 +6627,20 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 21
 , "Volkswagen|ID.3": 21
 , "Ford|Puma Gen-E": 20
+, "Polestar|4": 20
 , "Hyundai|Kona Electric": 19
+, "Smart|Hashtag 3": 18
 , "Cupra|Born": 16
 , "Hyundai|Inster": 16
 , "Nissan|Ariya": 16
+, "MG|4 EV": 15
 , "Audi|A6 e-tron": 14
 , "Cupra|Tavascan": 14
+, "Polestar|2": 14
 , "Smart|Hashtag 5": 14
 , "BYD|Sealion 7": 13
 , "Kia|Niro EV": 13
+, "MG|S5 EV": 13
 , "Mercedes-Benz|EQE": 12
 , "Hyundai|Ioniq 5": 11
 , "Subaru|Solterra": 11
@@ -6423,17 +6648,15 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 6": 9
 , "BYD|Yuan Plus": 8
 , "Kia|EV9": 8
+, "Citroën|ë-C3": 7
 , "Opel|Astra Electric": 7
 , "Renault|Scénic E-Tech": 7
-, "BYD|Seal": 6
-, "Peugeot|E-3008": 6
-, "Peugeot|e-2008": 5
-, "Peugeot|other": 5
+, "Peugeot|other": 16
+, "BYD|other": 9
+, "Polestar|other": 6
 , "Opel|other": 4
 , "Xpeng|other": 4
-, "BYD|other": 3
 , "Toyota|other": 3
-, "Audi|other": 2
 , "BMW|other": 2
 , "Ford|other": 2
 , "MG|other": 2
@@ -6443,10 +6666,10 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|other": 1
 , "Jeep|other": 1
 , "Volkswagen|other": 1
-, "other": 115
+, "other": 57
 });
 
-db.insert(db.countries.FI, "2025-08", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/09/August-2025.xlsx",
+db.insert(db.countries.FI, "2025-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 904
 , "Škoda": 546
 , "Volkswagen": 519
@@ -6454,15 +6677,14 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Volvo": 383
 , "BMW": 352
 , "Ford": 233
-, "Mercedes-Benz": 224
-, "Audi": 209
+, "Mercedes-Benz": 222
+, "Audi": 207
 , "Hyundai": 166
 , "Nissan": 154
 , "Tesla": 132
 , "Dacia": 80
 , "Mitsubishi": 73
 , "Polestar": 72
-, "Citroën": 69
 , "BYD": 67
 , "Renault": 64
 , "Opel": 56
@@ -6473,13 +6695,19 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Peugeot": 37
 , "Porsche": 31
 , "Land Rover": 29
+, "Smart": 29
+, "Citroën": 28
 , "Cupra": 28
 , "Subaru": 20
+, "Honda": 16
+, "Jeep": 8
 , "Seat": 7
-, "other": 184
+, "Xpeng": 2
+, "Fiat": 1
+, "other": 54
 });
 
-db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/8, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 153
 , "Škoda|Elroq": 135
 , "Škoda|Enyaq": 109
@@ -6494,46 +6722,53 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 49
 , "Ford|Capri EV": 48
 , "Mini|Cooper SE": 47
-, "Citroën|ë-C4": 45
 , "Hyundai|Inster": 44
+, "Polestar|4": 39
 , "Mercedes-Benz|EQA": 38
 , "Tesla|Model 3": 36
 , "Volvo|EX30": 35
 , "Kia|EV6": 31
+, "Polestar|2": 30
 , "Mercedes-Benz|EQB": 28
 , "Volvo|EX90": 28
 , "Volvo|EC40": 27
 , "BYD|Sealion 7": 23
-, "Citroën|ë-C3": 23
 , "Hyundai|Ioniq 5": 23
 , "Hyundai|Kona Electric": 23
 , "Porsche|Macan Electric": 22
 , "Audi|A6 e-tron": 21
+, "Renault|5 E-Tech": 21
 , "BMW|iX2": 20
 , "Kia|EV9": 19
 , "Toyota|bZ4X": 18
 , "BMW|iX": 17
 , "BYD|Seal": 16
 , "Smart|Hashtag 5": 15
+, "MG|S5 EV": 14
 , "Nissan|Ariya": 14
 , "Renault|Scénic E-Tech": 14
 , "Mercedes-Benz|EQE": 13
 , "Peugeot|E-3008": 12
 , "Volkswagen|ID.3": 12
+, "Smart|Hashtag 3": 11
 , "Ford|Puma Gen-E": 10
 , "Kia|Niro EV": 10
 , "Mercedes-Benz|CLA EV": 10
 , "BYD|Dolphin": 9
 , "BYD|Tang EV": 9
+, "Citroën|ë-C3": 9
 , "Cupra|Tavascan": 9
 , "Subaru|Solterra": 9
-, "Hyundai|Ioniq 6": 8
-, "BMW|i5": 7
-, "Cupra|Born": 5
+, "Hyundai|other": 8
+, "BMW|other": 7
+, "MG|other": 7
+, "Cupra|other": 5
 , "Peugeot|other": 4
 , "BYD|other": 3
 , "Ford|other": 3
 , "Mercedes-Benz|other": 3
+, "Polestar|other": 3
+, "Smart|other": 3
 , "Opel|other": 2
 , "Renault|other": 2
 , "Toyota|other": 2
@@ -6542,26 +6777,24 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 1
 , "Citroën|other": 1
 , "Jeep|other": 1
-, "MG|other": 1
 , "Porsche|other": 1
-, "other": 96
+, "other": 28
 });
 
-db.insert(db.countries.FI, "2025-09", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/10/September-2025.xlsx",
+db.insert(db.countries.FI, "2025-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 924
 , "Tesla": 608
 , "Volkswagen": 525
 , "Škoda": 514
 , "Kia": 426
 , "Volvo": 409
-, "Mercedes-Benz": 353
-, "BMW": 310
+, "Mercedes-Benz": 349
+, "BMW": 311
 , "Ford": 235
 , "Nissan": 210
 , "Audi": 182
 , "Polestar": 133
 , "Hyundai": 122
-, "Citroën": 112
 , "BYD": 99
 , "Dacia": 87
 , "Mazda": 77
@@ -6569,18 +6802,25 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Renault": 67
 , "MG": 49
 , "Mitsubishi": 46
+, "Smart": 42
 , "Cupra": 40
-, "Land Rover": 38
+, "Land Rover": 39
 , "Peugeot": 38
 , "Subaru": 33
 , "Mini": 30
 , "Porsche": 27
+, "Citroën": 26
+, "Jeep": 26
 , "Opel": 26
-, "Seat": 6
-, "other": 197
+, "Honda": 15
+, "Aion": 8
+, "Xpeng": 8
+, "Seat": 7
+, "Fiat": 2
+, "other": 82
 });
 
-db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/9, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 513
 , "Škoda|Elroq": 151
 , "Volkswagen|ID.4": 125
@@ -6588,11 +6828,12 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 109
 , "Kia|EV3": 104
 , "Tesla|Model 3": 95
-, "Citroën|ë-C4": 82
 , "Volvo|EX40": 78
 , "BMW|i4": 64
 , "Mercedes-Benz|CLA EV": 64
+, "Polestar|2": 64
 , "Ford|Explorer EV": 63
+, "Polestar|4": 63
 , "Mercedes-Benz|EQB": 55
 , "Audi|Q4 e-tron": 47
 , "Mercedes-Benz|EQA": 46
@@ -6601,7 +6842,6 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 35
 , "Ford|Capri EV": 35
 , "BMW|iX1": 34
-, "Citroën|ë-C3": 30
 , "Mini|Cooper SE": 30
 , "Smart|Hashtag 5": 29
 , "Volvo|EX30": 29
@@ -6612,6 +6852,7 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 21
 , "Porsche|Macan Electric": 21
 , "Volkswagen|ID.3": 21
+, "Renault|5 E-Tech": 19
 , "Hyundai|Kona Electric": 18
 , "Mazda|EZ-6 BEV": 18
 , "Hyundai|Ioniq 5": 17
@@ -6620,45 +6861,51 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Puma Gen-E": 16
 , "Cupra|Tavascan": 15
 , "Ford|Mustang Mach-E": 14
+, "MG|4 EV": 14
 , "Mercedes-Benz|EQE": 14
 , "Renault|Scénic E-Tech": 14
+, "Citroën|ë-C3": 13
 , "Kia|EV9": 13
 , "Kia|Niro EV": 13
 , "BMW|iX2": 11
 , "BYD|Tang EV": 11
 , "Cupra|Born": 11
 , "Nissan|Ariya": 11
-, "BYD|Dolphin": 9
-, "Subaru|Solterra": 8
-, "Peugeot|E-3008": 7
+, "Smart|Hashtag 3": 11
+, "BYD|other": 14
 , "Mercedes-Benz|other": 11
+, "Peugeot|other": 10
+, "Aion|other": 8
+, "MG|other": 8
+, "Subaru|other": 8
 , "Xpeng|other": 8
 , "Toyota|other": 7
-, "BYD|other": 5
+, "Polestar|other": 6
 , "Porsche|other": 4
-, "Peugeot|other": 3
+, "Renault|other": 4
 , "Hyundai|other": 2
 , "Kia|other": 2
-, "other": 133
+, "Smart|other": 2
+, "other": 34
 });
 
-db.insert(db.countries.FI, "2025-10", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/11/October-2025.xlsx",
+db.insert(db.countries.FI, "2025-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1339
 , "Škoda": 650
 , "Volkswagen": 607
 , "Volvo": 541
 , "Kia": 498
-, "Mercedes-Benz": 331
+, "Mercedes-Benz": 327
 , "BMW": 320
-, "Audi": 249
+, "Audi": 248
 , "Ford": 230
-, "Citroën": 138
 , "Renault": 127
 , "BYD": 112
 , "Polestar": 106
 , "Nissan": 102
 , "Hyundai": 101
 , "Dacia": 87
+, "Citroën": 80
 , "Suzuki": 71
 , "Peugeot": 62
 , "Mazda": 52
@@ -6673,26 +6920,30 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Porsche": 21
 , "Land Rover": 14
 , "Seat": 12
+, "Xpeng": 11
 , "Honda": 7
-, "other": 133
+, "Fiat": 4
+, "Jeep": 1
+, "other": 52
 });
 
-db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/10, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Volkswagen|ID.4": 170
 , "Škoda|Enyaq": 155
 , "Škoda|Elroq": 142
 , "Kia|EV3": 111
 , "Volkswagen|ID.7": 108
 , "Volvo|EX40": 101
-, "Citroën|ë-C4": 99
 , "BMW|i4": 74
 , "Mercedes-Benz|CLA EV": 74
 , "Volvo|EX30": 61
 , "Audi|Q4 e-tron": 60
+, "Polestar|4": 59
 , "Audi|Q6 e-tron": 53
+, "Renault|5 E-Tech": 50
 , "Ford|Explorer EV": 46
+, "Polestar|2": 45
 , "Ford|Capri EV": 43
-, "Citroën|ë-C3": 39
 , "Smart|Hashtag 5": 37
 , "Tesla|Model Y": 37
 , "BYD|Seal": 35
@@ -6702,9 +6953,11 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV4": 31
 , "Volvo|EC40": 30
 , "Mercedes-Benz|EQB": 29
+, "Citroën|ë-C3": 28
 , "Kia|EV6": 27
 , "Audi|A6 e-tron": 24
 , "BMW|iX1": 24
+, "Renault|4 E-Tech": 24
 , "Volkswagen|ID.3": 22
 , "BMW|iX": 21
 , "Peugeot|E-3008": 21
@@ -6714,6 +6967,7 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Tang EV": 17
 , "BYD|Dolphin": 16
 , "Hyundai|Inster": 16
+, "MG|4 EV": 16
 , "Ford|Mustang Mach-E": 15
 , "Ford|Puma Gen-E": 13
 , "BMW|i5": 12
@@ -6723,40 +6977,39 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 11
 , "BMW|iX2": 10
 , "Tesla|Model 3": 10
+, "MG|S5 EV": 9
 , "Mazda|EZ-6 BEV": 9
-, "Kia|Niro EV": 7
-, "Hyundai|Ioniq Electric": 6
-, "Kia|EV9": 6
-, "Xpeng|G6": 6
-, "Mercedes-Benz|other": 12
-, "Audi|other": 6
+, "Smart|Hashtag 3": 9
+, "Kia|other": 13
+, "Hyundai|other": 11
+, "Mercedes-Benz|other": 11
+, "Xpeng|other": 11
 , "Peugeot|other": 6
+, "Smart|other": 6
 , "Cupra|other": 5
-, "Hyundai|other": 5
 , "Opel|other": 5
-, "Xpeng|other": 5
 , "Renault|other": 4
 , "Toyota|other": 4
 , "Porsche|other": 3
 , "BYD|other": 2
-, "other": 146
+, "Polestar|other": 2
+, "other": 42
 });
 
-db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2025/12/November-2025.xlsx",
+db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1264
 , "Škoda": 821
 , "Volkswagen": 566
 , "Volvo": 448
-, "Mercedes-Benz": 350
+, "Mercedes-Benz": 349
 , "Kia": 303
 , "Ford": 282
-, "BMW": 275
+, "BMW": 276
 , "Tesla": 257
 , "Audi": 242
 , "Nissan": 154
 , "Hyundai": 139
 , "BYD": 115
-, "Citroën": 105
 , "Renault": 103
 , "Mazda": 88
 , "Dacia": 82
@@ -6764,6 +7017,7 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Peugeot": 70
 , "Smart": 59
 , "Cupra": 43
+, "Citroën": 40
 , "Opel": 40
 , "Suzuki": 39
 , "MG": 35
@@ -6771,11 +7025,17 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Mitsubishi": 29
 , "Land Rover": 22
 , "Porsche": 21
+, "Mini": 17
+, "Honda": 12
 , "Seat": 7
-, "other": 112
+, "Xpeng": 7
+, "Aion": 5
+, "Jeep": 2
+, "Fiat": 1
+, "other": 61
 });
 
-db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/11, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Škoda|Enyaq": 206
 , "Tesla|Model Y": 144
 , "Volkswagen|ID.4": 140
@@ -6785,7 +7045,6 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 99
 , "Kia|EV3": 92
 , "Mercedes-Benz|CLA EV": 73
-, "Citroën|ë-C4": 66
 , "Volvo|EX30": 57
 , "BMW|i4": 56
 , "Ford|Explorer EV": 55
@@ -6793,16 +7052,19 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 48
 , "Audi|Q4 e-tron": 46
 , "Audi|Q6 e-tron": 46
+, "Polestar|4": 42
 , "Smart|Hashtag 5": 42
 , "Ford|Capri EV": 41
-, "Citroën|ë-C3": 39
 , "Mazda|EZ-6 BEV": 39
+, "Renault|5 E-Tech": 38
 , "Hyundai|Inster": 36
 , "BYD|Seal": 33
 , "Audi|A6 e-tron": 29
 , "Volkswagen|ID.3": 29
+, "Polestar|2": 26
 , "BYD|Dolphin": 25
 , "Mercedes-Benz|EQA": 25
+, "Citroën|ë-C3": 22
 , "Mercedes-Benz|EQB": 21
 , "Ford|Puma Gen-E": 20
 , "Kia|EV6": 19
@@ -6815,43 +7077,44 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 15
 , "Cupra|Tavascan": 14
 , "Cupra|Born": 13
+, "Renault|4 E-Tech": 13
+, "Smart|Hashtag 3": 13
 , "BMW|iX2": 11
 , "Kia|EV4": 11
+, "MG|4 EV": 11
+, "MG|S5 EV": 11
 , "Hyundai|Ioniq 5": 10
 , "BMW|i5": 9
 , "Porsche|Macan Electric": 9
-, "Kia|EV9": 8
-, "Ford|Mustang Mach-E": 7
-, "Opel|Frontera Electric": 7
-, "Peugeot|E-3008": 7
-, "Porsche|Taycan": 7
-, "Mercedes-Benz|EQE": 6
+, "Mercedes-Benz|other": 11
+, "Kia|other": 10
+, "Opel|other": 10
+, "Ford|other": 7
+, "Peugeot|other": 7
+, "Porsche|other": 7
 , "Xpeng|other": 7
-, "Mercedes-Benz|other": 6
 , "Renault|other": 6
 , "Toyota|other": 6
 , "Aion|other": 5
 , "BYD|other": 5
 , "Hyundai|other": 5
 , "Nissan|other": 5
-, "Opel|other": 3
-, "Audi|other": 2
-, "Kia|other": 2
-, "other": 116
+, "Polestar|other": 4
+, "Smart|other": 4
+, "other": 41
 });
 
-db.insert(db.countries.FI, "2025-12", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2026/01/December-2025-1.xlsx",
-{ "Volkswagen": 649
+db.insert(db.countries.FI, "2025-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Volkswagen": 651
 , "Toyota": 615
 , "Škoda": 552
 , "Tesla": 482
 , "Volvo": 429
-, "Audi": 369
+, "Audi": 367
 , "Mercedes-Benz": 319
 , "Kia": 276
 , "BMW": 224
 , "Polestar": 213
-, "Citroën": 199
 , "Ford": 193
 , "Hyundai": 154
 , "Smart": 149
@@ -6861,6 +7124,7 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Dacia": 63
 , "Peugeot": 54
 , "Opel": 40
+, "Citroën": 39
 , "Cupra": 37
 , "Mazda": 37
 , "MG": 34
@@ -6868,16 +7132,22 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Porsche": 30
 , "Mitsubishi": 29
 , "Subaru": 29
+, "Mini": 22
 , "Land Rover": 21
+, "Xpeng": 15
+, "Aion": 13
+, "Honda": 9
 , "Seat": 8
-, "other": 7
+, "Fiat": 4
+, "Jeep": 1
+, "other": 60
 });
 
-db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2025/12, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 348
-, "Citroën|ë-C4": 169
 , "Škoda|Enyaq": 167
 , "Škoda|Elroq": 155
+, "Polestar|4": 146
 , "Smart|Hashtag 5": 139
 , "Volkswagen|ID.4": 135
 , "Volkswagen|ID.7": 135
@@ -6890,6 +7160,7 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV3": 65
 , "Hyundai|Inster": 64
 , "Volvo|EX30": 57
+, "Polestar|2": 55
 , "BMW|i4": 54
 , "Ford|Explorer EV": 48
 , "Mercedes-Benz|EQB": 41
@@ -6898,7 +7169,7 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|A6 e-tron": 36
 , "BYD|Dolphin": 36
 , "Mercedes-Benz|EQA": 36
-, "Citroën|ë-C3": 30
+, "Renault|5 E-Tech": 27
 , "Ford|Capri EV": 25
 , "Kia|EV6": 25
 , "Mini|Cooper SE": 22
@@ -6908,47 +7179,50 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Sealion 7": 17
 , "Kia|EV4": 16
 , "BMW|iX": 15
+, "MG|4 EV": 15
 , "Porsche|Macan Electric": 15
 , "Cupra|Born": 14
+, "Aion|V": 13
 , "BYD|Seal": 12
 , "Hyundai|Ioniq 5": 12
+, "Polestar|3": 12
 , "BMW|i5": 11
 , "Cupra|Tavascan": 11
 , "Mazda|EZ-6 BEV": 11
 , "Porsche|Taycan": 11
+, "Citroën|ë-C3": 10
 , "Renault|Scénic E-Tech": 10
 , "Ford|Puma Gen-E": 9
 , "Nissan|Ariya": 9
 , "Xpeng|G9": 9
-, "Opel|Frontera Electric": 8
-, "BMW|iX2": 6
-, "BYD|Tang EV": 6
-, "Xpeng|G6": 6
+, "MG|other": 10
+, "Opel|other": 10
 , "Peugeot|other": 10
+, "Renault|other": 10
+, "Smart|other": 10
+, "BYD|other": 8
 , "Tesla|other": 8
+, "BMW|other": 6
 , "Kia|other": 6
-, "Audi|other": 5
+, "Xpeng|other": 6
 , "Volvo|other": 4
 , "Ford|other": 3
 , "Mercedes-Benz|other": 3
 , "Toyota|other": 3
-, "BYD|other": 2
-, "Opel|other": 2
-, "Renault|other": 2
 , "Subaru|other": 2
 , "Volkswagen|other": 2
-, "other": 132
+, "other": 30
 });
 
-db.insert(db.countries.FI, "2026-01", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2026/02/January-2026.xlsx",
+db.insert(db.countries.FI, "2026-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 811
 , "Škoda": 617
 , "Volvo": 521
 , "Volkswagen": 509
 , "Kia": 385
 , "BMW": 316
-, "Mercedes-Benz": 290
-, "Audi": 264
+, "Mercedes-Benz": 288
+, "Audi": 257
 , "Tesla": 224
 , "Ford": 222
 , "Nissan": 195
@@ -6956,7 +7230,6 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Renault": 90
 , "Hyundai": 86
 , "Smart": 83
-, "Citroën": 70
 , "Suzuki": 54
 , "Cupra": 50
 , "Dacia": 49
@@ -6971,12 +7244,16 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "MG": 27
 , "Mini": 24
 , "Land Rover": 23
+, "Citroën": 22
 , "Aion": 15
 , "Xpeng": 15
-, "other": 152
+, "Jeep": 10
+, "Honda": 6
+, "Fiat": 3
+, "other": 43
 });
 
-db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2026/1, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 221
 , "Toyota|bZ4X": 183
 , "Škoda|Elroq": 166
@@ -6993,14 +7270,13 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 57
 , "Ford|Explorer EV": 53
 , "Audi|Q6 e-tron": 51
-, "Citroën|ë-C4": 42
 , "BMW|iX1": 41
+, "Renault|5 E-Tech": 38
 , "Ford|Capri EV": 35
 , "BYD|Sealion 7": 30
 , "Audi|A6 e-tron": 28
 , "Volvo|EX90": 27
 , "BYD|Seal": 25
-, "Citroën|ë-C3": 25
 , "Kia|EV6": 25
 , "Mini|Cooper SE": 24
 , "Volkswagen|ID.3": 23
@@ -7011,6 +7287,9 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 18
 , "BMW|iX2": 17
 , "Hyundai|Ioniq 5": 17
+, "Polestar|4": 17
+, "Renault|4 E-Tech": 17
+, "Aion|V": 15
 , "BYD|Dolphin": 15
 , "Ford|Puma Gen-E": 15
 , "Mazda|EZ-6 BEV": 15
@@ -7020,43 +7299,43 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 12
 , "Volvo|ES90": 12
 , "BMW|iX": 11
+, "Smart|Hashtag 3": 11
 , "Ford|Mustang Mach-E": 10
 , "Kia|EV9": 10
 , "Opel|Frontera Electric": 10
-, "Hyundai|Ioniq Electric": 8
-, "Hyundai|Kona Electric": 8
-, "Xpeng|G6": 8
-, "Xpeng|G9": 7
+, "Polestar|3": 9
+, "Hyundai|other": 17
+, "MG|other": 16
+, "Xpeng|other": 15
 , "Peugeot|other": 14
 , "Mercedes-Benz|other": 12
+, "Citroën|other": 10
 , "Renault|other": 7
 , "Nissan|other": 5
 , "Volkswagen|other": 5
 , "BYD|other": 4
 , "Opel|other": 4
-, "Citroën|other": 3
+, "Polestar|other": 4
 , "Porsche|other": 3
 , "Tesla|other": 3
-, "Audi|other": 2
 , "Fiat|other": 2
 , "Smart|other": 2
-, "other": 96
+, "other": 30
 });
 
-db.insert(db.countries.FI, "2026-02", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2026/03/February-2026.xlsx",
+db.insert(db.countries.FI, "2026-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 709
 , "Volkswagen": 514
 , "Škoda": 466
 , "Volvo": 433
 , "Kia": 365
 , "Tesla": 336
-, "Mercedes-Benz": 294
+, "Mercedes-Benz": 289
 , "BMW": 227
-, "Audi": 209
+, "Audi": 206
 , "Ford": 184
 , "Nissan": 111
 , "Hyundai": 105
-, "Citroën": 73
 , "BYD": 69
 , "Renault": 69
 , "Opel": 66
@@ -7066,6 +7345,7 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Polestar": 54
 , "Suzuki": 53
 , "Mitsubishi": 46
+, "Citroën": 45
 , "Cupra": 41
 , "Subaru": 36
 , "Dacia": 31
@@ -7073,11 +7353,16 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Porsche": 25
 , "Land Rover": 23
 , "Mini": 12
+, "Xpeng": 10
+, "Aion": 9
+, "Honda": 9
 , "Seat": 7
-, "other": 191
+, "Jeep": 3
+, "Fiat": 1
+, "other": 58
 });
 
-db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2026/2, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 319
 , "Toyota|bZ4X": 182
 , "Škoda|Elroq": 124
@@ -7089,17 +7374,17 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 59
 , "Kia|EV3": 55
 , "Smart|Hashtag 5": 48
-, "Citroën|ë-C4": 45
 , "Ford|Explorer EV": 35
 , "Volvo|EC40": 35
 , "BMW|i4": 34
 , "Ford|Capri EV": 34
+, "Polestar|4": 34
 , "Volvo|EX30": 31
 , "Mercedes-Benz|EQA": 29
-, "Citroën|ë-C3": 26
 , "Audi|Q6 e-tron": 25
 , "BMW|iX1": 25
 , "Mercedes-Benz|EQB": 25
+, "Renault|5 E-Tech": 25
 , "BYD|Sealion 7": 23
 , "Audi|A6 e-tron": 22
 , "Porsche|Macan Electric": 21
@@ -7112,37 +7397,41 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 15
 , "BMW|iX": 14
 , "BMW|iX2": 14
+, "Polestar|3": 13
 , "Mini|Cooper SE": 12
 , "Renault|Scénic E-Tech": 12
 , "Cupra|Born": 10
 , "Hyundai|Kona Electric": 10
 , "Volkswagen|ID.3": 10
+, "Aion|V": 9
 , "BYD|Dolphin": 9
 , "Ford|Mustang Mach-E": 9
 , "Kia|EV9": 9
 , "Mazda|EZ-6 BEV": 9
 , "Xpeng|G6": 9
+, "Citroën|ë-C3": 8
 , "Cupra|Tavascan": 8
 , "Nissan|Ariya": 8
 , "BMW|i5": 7
+, "Polestar|2": 7
+, "Smart|Hashtag 3": 7
 , "Subaru|Solterra": 7
-, "Kia|EV5": 6
-, "Kia|Niro EV": 5
-, "Opel|Frontera Electric": 5
-, "Volvo|EX90": 5
+, "Kia|other": 11
+, "MG|other": 10
+, "Opel|other": 9
+, "Volvo|other": 8
 , "Peugeot|other": 7
 , "Mercedes-Benz|other": 5
+, "Renault|other": 5
 , "BYD|other": 4
-, "Opel|other": 4
 , "Hyundai|other": 3
-, "Smart|other": 3
-, "Volvo|other": 3
 , "Citroën|other": 2
+, "Smart|other": 2
 , "Volkswagen|other": 2
-, "other": 173
+, "other": 124
 });
 
-db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://aut.fi/wp-content/uploads/2026/04/March-2026.xlsx",
+db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 893
 , "Volkswagen": 658
 , "Volvo": 600
@@ -7150,12 +7439,11 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Škoda": 555
 , "Kia": 379
 , "BMW": 354
-, "Mercedes-Benz": 349
+, "Mercedes-Benz": 346
 , "Nissan": 305
-, "Audi": 266
+, "Audi": 265
 , "Ford": 243
 , "Hyundai": 208
-, "Citroën": 192
 , "Polestar": 174
 , "Renault": 157
 , "BYD": 103
@@ -7166,35 +7454,42 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://aut.fi
 , "Opel": 62
 , "Subaru": 61
 , "Suzuki": 60
+, "Citroën": 59
 , "Dacia": 46
 , "MG": 43
 , "Land Rover": 42
 , "Smart": 34
 , "Porsche": 29
 , "Mini": 13
+, "Xpeng": 9
+, "Honda": 8
+, "Fiat": 7
+, "Aion": 6
 , "Seat": 1
-, "other": 51
+, "other": 55
 });
 
-db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/FI/Brands/Month/2026/3, https://aut.fi/wp-content/uploads/2025/05/ensirekisteroinnit_kayttovoimat_lkm_kk.csv",
+db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model Y": 362
 , "Tesla|Model 3": 229
 , "Volkswagen|ID.4": 151
-, "Citroën|ë-C4": 150
 , "Škoda|Elroq": 147
 , "Škoda|Enyaq": 146
 , "Toyota|bZ4X": 142
 , "Mercedes-Benz|CLA EV": 139
 , "Volvo|EX40": 121
+, "Polestar|4": 111
 , "Volkswagen|ID.7": 100
 , "Kia|EV3": 82
 , "Hyundai|Inster": 74
 , "BMW|i4": 72
 , "Audi|Q6 e-tron": 64
 , "Ford|Explorer EV": 64
+, "Renault|5 E-Tech": 61
 , "Volvo|EX30": 58
 , "Audi|Q4 e-tron": 56
 , "BMW|iX1": 56
+, "Polestar|2": 52
 , "Ford|Capri EV": 50
 , "BMW|iX3": 48
 , "Volvo|EC40": 45
@@ -7202,15 +7497,16 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 37
 , "Audi|A6 e-tron": 35
 , "Smart|Hashtag 5": 33
-, "Citroën|ë-C3": 32
 , "Kia|EV5": 28
 , "Mercedes-Benz|EQA": 27
 , "BYD|Sealion 7": 26
 , "Porsche|Macan Electric": 24
 , "Volkswagen|ID.3": 24
 , "BMW|iX": 23
+, "Renault|4 E-Tech": 23
 , "BMW|iX2": 22
 , "BYD|Seal": 22
+, "Citroën|ë-C3": 21
 , "Kia|EV9": 20
 , "Ford|Puma Gen-E": 19
 , "BYD|Yuan Plus": 18
@@ -7219,27 +7515,27 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Dolphin": 17
 , "Kia|EV6": 17
 , "Subaru|Solterra": 17
+, "MG|4 EV": 16
 , "Peugeot|E-3008": 15
 , "Renault|Scénic E-Tech": 14
 , "Cupra|Born": 13
 , "Mini|Cooper SE": 13
-, "Hyundai|Kona Electric": 12
-, "BMW|i5": 11
-, "Hyundai|Ioniq 5": 11
-, "Mazda|EZ-6 BEV": 11
-, "Peugeot|E-5008": 11
-, "Mercedes-Benz|other": 15
+, "Hyundai|other": 28
+, "Mercedes-Benz|other": 21
+, "Peugeot|other": 14
+, "BMW|other": 11
+, "MG|other": 11
+, "Mazda|other": 11
+, "Polestar|other": 11
 , "Citroën|other": 10
 , "Volvo|other": 9
 , "Xpeng|other": 9
 , "Ford|other": 8
 , "Opel|other": 7
-, "Hyundai|other": 5
+, "Aion|other": 6
 , "Kia|other": 5
 , "Volkswagen|other": 4
 , "BYD|other": 3
-, "Peugeot|other": 3
 , "Renault|other": 3
-, "Audi|other": 2
-, "other": 297
+, "other": 163
 });
