@@ -1843,17 +1843,18 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 });
 
 db.insert(db.countries.AU, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-2025-annual-record-broken-for-third-vfacts-year-running/",
-{ "Toyota": 29142
-, "Ford": 11469
-, "Mazda": 11168
-, "Kia": 9975
-, "Hyundai": 9380
-, "Mitsubishi": 7435
-, "GWM": 6416
-, "BYD": 6368
-, "Isuzu": 5138
-, "MG": 5017
+{ "Toyota": 18541
+, "Ford": 8541
+, "Mazda": 7562
+, "BYD": 6743
+, "Kia": 6101
+, "Hyundai": 5640
+, "GWM": 4875
+, "Mitsubishi": 4420
+, "Chery": 3694
+, "Isuzu": 3462
 , "Tesla": 2585
+, "other": 29349
 });
 
 db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/01/06/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
