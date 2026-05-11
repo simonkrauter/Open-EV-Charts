@@ -1337,7 +1337,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.dr
 , "Tesla": 3897
 , "MG": 3270
 , "BYD": 1510
-, "other": 35438
+, "other": 33928
 });
 
 db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/06/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
