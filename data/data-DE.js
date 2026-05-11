@@ -9487,22 +9487,22 @@ db.insert(db.countries.DE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mazda|EZ-6 BEV": 246
 , "Fiat|Grande Panda Electric": 244
 , "BYD|Yuan Up": 234
+, "Mitsubishi|Eclipse Cross EV": 234
 , "Xpeng|G6": 219
 , "Smart|Hashtag 5": 218
 , "Ford|Capri EV": 216
 , "Opel|Frontera Electric": 213
 , "Volvo|EX40": 209
-, "Leapmotor|B10": 208
 , "Peugeot|other": 575
 , "Mercedes-Benz|other": 516
 , "Kia|other": 463
 , "BMW|other": 362
+, "Leapmotor|other": 288
 , "Opel|other": 286
 , "Ford|other": 283
 , "Smart|other": 248
 , "Volvo|other": 248
 , "BYD|other": 240
-, "Mitsubishi|other": 234
 , "MG|other": 192
 , "Hyundai|other": 182
 , "Tesla|other": 182
@@ -9513,7 +9513,6 @@ db.insert(db.countries.DE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 130
 , "Jeep|other": 109
 , "Xpeng|other": 108
-, "Leapmotor|other": 80
 , "Nissan|other": 79
 , "Audi|other": 76
 , "Toyota|other": 76
@@ -9735,24 +9734,22 @@ db.insert(db.countries.DE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Xpeng|G6": 319
 , "Volvo|EX40": 312
 , "Kia|PV5": 309
-, "Leapmotor|B10": 298
-, "Peugeot|e-208": 298
+, "Nissan|Micra EV": 301
 , "BYD|other": 729
 , "Mercedes-Benz|other": 723
 , "Toyota|other": 723
 , "Kia|other": 702
+, "Peugeot|other": 668
+, "Leapmotor|other": 547
 , "Opel|other": 547
 , "Polestar|other": 456
 , "MG|other": 451
-, "Peugeot|other": 370
-, "Nissan|other": 351
 , "Smart|other": 334
 , "Fiat|other": 272
 , "Renault|other": 271
 , "BMW|other": 269
 , "Porsche|other": 253
 , "Volkswagen|other": 253
-, "Leapmotor|other": 249
 , "Xpeng|other": 230
 , "Ford|other": 215
 , "Hyundai|other": 197
@@ -9763,6 +9760,7 @@ db.insert(db.countries.DE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mitsubishi|other": 73
 , "Tesla|other": 55
 , "Suzuki|other": 51
+, "Nissan|other": 50
 , "other": 705
 });
 
@@ -9858,9 +9856,10 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Sealion 7": 403
 , "Mercedes-Benz|EQC": 397
 , "Peugeot|e-208": 394
+, "Nissan|Micra EV": 388
 , "Opel|Frontera Electric": 385
-, "Renault|Twingo E-Tech": 360
 , "BYD|other": 940
+, "Renault|other": 779
 , "MG|other": 720
 , "Kia|other": 663
 , "Mercedes-Benz|other": 652
@@ -9869,8 +9868,6 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|other": 562
 , "Volvo|other": 518
 , "Porsche|other": 513
-, "Nissan|other": 460
-, "Renault|other": 419
 , "Peugeot|other": 389
 , "Fiat|other": 371
 , "Smart|other": 365
@@ -9884,6 +9881,7 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|other": 94
 , "Volkswagen|other": 90
 , "Audi|other": 88
+, "Nissan|other": 72
 , "Subaru|other": 51
 , "Tesla|other": 47
 , "Suzuki|other": 44
