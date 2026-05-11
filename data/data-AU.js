@@ -364,7 +364,7 @@ db.insert(db.countries.AU, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQE": 7
 , "Peugeot|Partner Electric": 4
-, "other": 87
+, "other": 78
 });
 
 db.insert(db.countries.AU, "2024-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-february-2024-new-car-sales/",
@@ -423,7 +423,7 @@ db.insert(db.countries.AU, "2024-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQE": 10
 , "Peugeot|Partner Electric": 8
 , "Mercedes-Benz|other": 8
-, "other": 68
+, "other": 66
 });
 
 db.insert(db.countries.AU, "2024-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-march-2024-new-car-sales/",
@@ -483,7 +483,7 @@ db.insert(db.countries.AU, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Fiat|500e": 12
 , "Peugeot|e-2008": 8
 , "Mercedes-Benz|EQS SUV": 7
-, "other": 50
+, "other": 49
 });
 
 db.insert(db.countries.AU, "2024-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-australian-new-car-sales-april-2024/",
@@ -543,7 +543,7 @@ db.insert(db.countries.AU, "2024-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|i5": 7
 , "BMW|i7": 6
 , "Mercedes-Benz|EQC": 6
-, "other": 73
+, "other": 114
 });
 
 db.insert(db.countries.AU, "2024-05", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-may-2024-vfacts/",
@@ -601,7 +601,7 @@ db.insert(db.countries.AU, "2024-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|e-tron GT": 7
 , "BMW|i5": 7
 , "Mercedes-Benz|EQC": 6
-, "other": 68
+, "other": 200
 });
 
 db.insert(db.countries.AU, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-australian-new-car-sales-june-2024/",
@@ -661,7 +661,7 @@ db.insert(db.countries.AU, "2024-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|e-tron GT": 6
 , "Mercedes-Benz|EQS SUV": 5
 , "Mercedes-Benz|other": 6
-, "other": 53
+, "other": 149
 });
 
 db.insert(db.countries.AU, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-july-2024-hybrid-sales-boom-as-toyota-rav4-leads-the-vfacts-race/",
@@ -720,7 +720,7 @@ db.insert(db.countries.AU, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Taycan": 10
 , "Audi|Q8 e-tron": 9
 , "BMW|i5": 4
-, "other": 58
+, "other": 83
 });
 
 db.insert(db.countries.AU, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-august-2024/",
@@ -780,7 +780,7 @@ db.insert(db.countries.AU, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|e-tron GT": 3
 , "Polestar|3": 3
 , "Mercedes-Benz|other": 3
-, "other": 50
+, "other": 81
 });
 
 db.insert(db.countries.AU, "2024-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-car-sales-september-2024/",
@@ -842,7 +842,7 @@ db.insert(db.countries.AU, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQS SUV": 6
 , "Audi|e-tron GT": 5
 , "BMW|i7": 4
-, "other": 63
+, "other": 157
 });
 
 db.insert(db.countries.AU, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australia-new-car-sales-in-october-2024-toyota-rav4-on-top-again-but-shrinking-market-puts-yearly-growth-at-risk/",
@@ -905,7 +905,7 @@ db.insert(db.countries.AU, "2024-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQS SUV": 7
 , "Audi|other": 5
 , "Mercedes-Benz|other": 5
-, "other": 36
+, "other": 127
 });
 
 db.insert(db.countries.AU, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-november-2024-vfacts/",
@@ -967,7 +967,7 @@ db.insert(db.countries.AU, "2024-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQS SUV": 6
 , "Volkswagen|ID. Buzz": 6
 , "Mercedes-Benz|other": 5
-, "other": 70
+, "other": 186
 });
 
 db.insert(db.countries.AU, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-2024-december/",
@@ -1023,8 +1023,7 @@ db.insert(db.countries.AU, "2024-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|Avenger EV": 7
 , "Mercedes-Benz|EQS SUV": 7
 , "Mercedes-Benz|EQE": 5
-, "Audi|e-tron GT": 4
-, "other": 21
+, "other": 1228
 });
 
 db.insert(db.countries.AU, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-january-2025/",
@@ -1097,7 +1096,7 @@ db.insert(db.countries.AU, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|other": 3
 , "BMW|other": 3
 , "Polestar|other": 2
-, "other": 18
+, "other": 139
 });
 
 db.insert(db.countries.AU, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/vfacts-new-vehicle-sales-february-2025/",
@@ -1170,7 +1169,7 @@ db.insert(db.countries.AU, "2025-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|other": 7
 , "Volkswagen|other": 5
 , "Jeep|other": 3
-, "other": 21
+, "other": 157
 });
 
 db.insert(db.countries.AU, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-march-2025-ford-ranger-back-on-top-as-most-popular-new-model/",
@@ -1247,7 +1246,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 6
 , "Jeep|other": 5
 , "MG|other": 5
-, "other": 14
+, "other": 120
 });
 
 db.insert(db.countries.AU, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-april-2025-vfacts/",
@@ -1323,7 +1322,7 @@ db.insert(db.countries.AU, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|other": 5
 , "Nissan|other": 5
 , "MG|other": 4
-, "other": 14
+, "other": 171
 });
 
 db.insert(db.countries.AU, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-may-2025-vfacts/",
@@ -1396,8 +1395,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 13
 , "Hyundai|other": 10
 , "MG|other": 7
-, "Audi|other": 5
-, "other": 19
+, "other": 146
 });
 
 db.insert(db.countries.AU, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2025-byd-shark-6-booms-in-resurgent-vfacts-month/",
@@ -1465,7 +1463,7 @@ db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 9
 , "Cupra|Born": 8
 , "MG|Cyberster": 7
-, "other": 27
+, "other": 838
 });
 
 db.insert(db.countries.AU, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-july-2025-toyota-hilux-rav4-lead-another-record-vfacts-month/",
@@ -1538,7 +1536,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 6
 , "Kia|other": 5
 , "Renault|other": 5
-, "other": 81
+, "other": 207
 });
 
 db.insert(db.countries.AU, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-august-2025-tesla-byd-electric-cars-surge-as-ford-ranger-leads-vfacts-again/",
@@ -1612,8 +1610,7 @@ db.insert(db.countries.AU, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|other": 6
 , "Ford|other": 6
 , "Kia|other": 6
-, "Subaru|other": 5
-, "other": 43
+, "other": 500
 });
 
 db.insert(db.countries.AU, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-september-2025-chinese-cars-tesla-lead-resurgent-vfacts-month/",
@@ -1683,7 +1680,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 7
 , "BMW|i7": 7
 , "Hyundai|other": 12
-, "other": 54
+, "other": 794
 });
 
 db.insert(db.countries.AU, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-october-2025-hilux-beats-ranger-rav4-in-another-resurgent-vfacts-month/",
@@ -1763,7 +1760,7 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 5
 , "MG|other": 5
 , "Jeep|other": 4
-, "other": 138
+, "other": 163
 });
 
 db.insert(db.countries.AU, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-november-2025-toyota-rav4-tops-charts-in-slower-vfacts-month/",
@@ -1842,7 +1839,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 8
 , "Jeep|other": 6
 , "Audi|other": 5
-, "other": 110
+, "other": 39
 });
 
 db.insert(db.countries.AU, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-2025-annual-record-broken-for-third-vfacts-year-running/",
@@ -1916,8 +1913,7 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|other": 7
 , "MG|other": 7
 , "Renault|other": 6
-, "Jeep|other": 5
-, "other": 102
+, "other": 513
 });
 
 db.insert(db.countries.AU, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-january-2026-byd-surge-toyota-stumble-keeps-vfacts-up/",
@@ -1995,7 +1991,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|other": 9
 , "Audi|other": 4
 , "Jeep|other": 4
-, "other": 103
+, "other": 101
 });
 
 db.insert(db.countries.AU, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-february-2026-toyota-rav4-runout-pulls-down-vfacts-market/",
@@ -2072,7 +2068,7 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 9
 , "Kia|other": 9
 , "Nissan|other": 7
-, "other": 214
+, "other": 238
 });
 
 db.insert(db.countries.AU, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-march-2026-electric-car-sales-surge-amid-fuel-crisis/",
@@ -2144,7 +2140,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Zeekr|other": 30
 , "Kia|other": 26
 , "Hyundai|other": 21
-, "other": 361
+, "other": 520
 });
 
 db.insert(db.countries.AU, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-april-2026-ev-sales-share-breaks-another-vfacts-record/",
@@ -2218,5 +2214,5 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 15
 , "Deepal|other": 11
 , "Porsche|other": 8
-, "other": 326
+, "other": 1030
 });
