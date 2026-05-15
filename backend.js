@@ -1367,7 +1367,10 @@ var db = {
             text = this.countriesForOptions[chartConfig.country] + " " + text;
         }
       } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all && this.getModels(chartConfig).length == 1) {
-        text = text + " " + params.model.options[chartConfig.model];
+        if (chartConfig.model in params.model.options)
+          text = text + " " + params.model.options[chartConfig.model];
+        else
+          text = text + " " + chartConfig.model;
       } else if (param.name == "timeSpan") {
         const timeSpan = this.getRealTimeSpan(chartConfig);
         text = param.options[timeSpan];
