@@ -1,6 +1,9 @@
 "use strict";
 
-document.getElementById("staticLink").style.display = "none";
+
+const staticLink = document.getElementById("staticLink");
+if (staticLink)
+  staticLink.style.display = "none";
 
 db.finalizeDataLoading();
 
