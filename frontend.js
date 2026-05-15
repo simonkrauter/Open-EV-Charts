@@ -430,6 +430,9 @@ function updateDropdownState(paramName) {
       if (selectedKeys.includes(optionKey))
         selectedOptionTexts.push(param.allOptions[optionKey]);
     }
+    if (selectedOptionTexts.length == 0) {
+      selectedOptionTexts.push(selectedKey);
+    }
   }
   currentValueDiv.appendChild(document.createTextNode(selectedOptionTexts.join(", ")));
 
