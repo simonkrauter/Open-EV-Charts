@@ -1184,6 +1184,11 @@ var db = {
       }
     }
 
+    // reset selected model when model does not belong to selected brand
+    if (chartConfig.model != null && !(chartConfig.model in params.model.options)) {
+      chartConfig.model = params.model.defaultOption;
+    }
+
     if (this.isTimeXProperty(chartConfig) && chartConfig.timeSpan != null) {
       if (chartConfig.timeSpan.startsWith("m")
         || (chartConfig.timeSpan.startsWith("q") && !this.isByMonth(chartConfig))

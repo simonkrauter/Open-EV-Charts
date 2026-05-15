@@ -376,6 +376,18 @@ runTest("global_byCompany", function() {
   assert(chartData.hints.length, 2);
 });
 
+runTest("makeChartConfigValid_modelDoesNotBelongToBrand", function() {
+  let chartConfig = {};
+  chartConfig.country = "DE";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.detailLevel = db.detailLevels.model;
+  chartConfig.brand = "Alpha";
+  chartConfig.model = "B1";
+  db.makeChartConfigValid(chartConfig);
+  console.log(chartConfig);
+  assert(chartConfig.model, db.modelOptions.all);
+});
+
 } catch (err) {
   logError("Exception raised, see console.");
   throw err;
