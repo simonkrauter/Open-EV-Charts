@@ -5495,6 +5495,7 @@ db.insert(db.countries.IT, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 22
 , "Nissan|Leaf": 21
 , "Opel|Corsa-e": 21
+, "Leapmotor|C10 EV": 20
 , "Leapmotor|T03": 20
 , "Nissan|Ariya": 20
 , "Volvo|EC40": 20
@@ -5510,7 +5511,7 @@ db.insert(db.countries.IT, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 10
 , "MG|other": 6
 , "Peugeot|other": 4
-, "other": 292
+, "other": 272
 });
 
 db.insert(db.countries.IT, "2024-10", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Ottobre%202024_6728f61d1e8e0.pdf",
@@ -5591,6 +5592,7 @@ db.insert(db.countries.IT, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30 BEV": 39
 , "BMW|i4": 37
 , "Nissan|Ariya": 36
+, "Leapmotor|C10 EV": 33
 , "Mercedes-Benz|EQE SUV": 33
 , "Audi|Q6 e-tron": 28
 , "Renault|Scénic E-Tech": 28
@@ -5618,7 +5620,7 @@ db.insert(db.countries.IT, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 4
 , "Citroën|other": 3
 , "Opel|other": 3
-, "other": 135
+, "other": 102
 });
 
 db.insert(db.countries.IT, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Novembre%202024_674dddbdee9fb.pdf",
@@ -5724,11 +5726,12 @@ db.insert(db.countries.IT, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|other": 14
 , "BMW|other": 13
 , "Citroën|other": 13
+, "Leapmotor|other": 13
 , "Renault|other": 13
 , "Mazda|other": 10
 , "Nissan|other": 5
 , "Toyota|other": 5
-, "other": 225
+, "other": 212
 });
 
 db.insert(db.countries.IT, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Dicembre_2024_6776c393e2ae9.pdf",
@@ -5831,6 +5834,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|other": 12
 , "BMW|other": 11
 , "BYD|other": 11
+, "Leapmotor|other": 11
 , "MG|other": 11
 , "Tesla|other": 11
 , "Volkswagen|other": 11
@@ -5840,7 +5844,7 @@ db.insert(db.countries.IT, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 5
 , "Kia|other": 3
 , "Mazda|other": 3
-, "other": 172
+, "other": 161
 });
 
 db.insert(db.countries.IT, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Gennaio%202025_67a0f1041cd04.pdf",
@@ -6051,6 +6055,7 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 21
 , "BYD|other": 20
 , "Kia|other": 20
+, "Leapmotor|other": 20
 , "Audi|other": 19
 , "Hyundai|other": 19
 , "Škoda|other": 16
@@ -6062,7 +6067,7 @@ db.insert(db.countries.IT, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Omoda Jaecoo|other": 7
 , "Fiat|other": 5
 , "Renault|other": 5
-, "other": 288
+, "other": 268
 });
 
 db.insert(db.countries.IT, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Marzo%202025_67ec05efb3ec7.pdf",
@@ -6175,9 +6180,10 @@ db.insert(db.countries.IT, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 15
 , "Peugeot|other": 13
 , "Fiat|other": 12
+, "Leapmotor|other": 9
 , "MG|other": 8
 , "Renault|other": 7
-, "other": 451
+, "other": 442
 });
 
 db.insert(db.countries.IT, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Aprile%202025_6814d8a849cb8.pdf",
@@ -6245,6 +6251,7 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Puma Gen-E": 99
 , "BYD|Seagull": 98
 , "Cupra|Tavascan": 94
+, "Leapmotor|C10 EV": 87
 , "BMW|iX2": 82
 , "Fiat|Grande Panda Electric": 78
 , "BYD|Sealion 7": 77
@@ -6270,11 +6277,11 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 29
 , "Škoda|Elroq": 29
 , "Fiat|600e": 28
-, "Audi|A6 e-tron": 26
-, "Opel|Corsa-e": 26
 , "Mercedes-Benz|other": 56
 , "Polestar|other": 43
+, "Opel|other": 39
 , "Volkswagen|other": 38
+, "Audi|other": 35
 , "Toyota|other": 35
 , "Ford|other": 24
 , "Kia|other": 24
@@ -6283,18 +6290,16 @@ db.insert(db.countries.IT, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 16
 , "Škoda|other": 16
 , "Omoda Jaecoo|other": 13
-, "Opel|other": 13
 , "Subaru|other": 12
 , "Peugeot|other": 11
 , "Citroën|other": 10
 , "Hyundai|other": 10
-, "Audi|other": 9
 , "Smart|other": 9
 , "Volvo|other": 8
 , "BMW|other": 7
 , "MG|other": 6
 , "Nissan|other": 6
-, "other": 467
+, "other": 380
 });
 
 db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Maggio%202025_683f0e647ee8b.pdf",
@@ -6337,37 +6342,37 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.AllCarsByBrand, "https://unrae.
 });
 
 db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/5, https://unrae.it/files/Top%2010%20per%20alimentazione%20maggio%202025_683f05651a256.pdf",
-{ "Tesla|Model Y": 608
-, "Citroën|ë-C3": 468
-, "Jeep|Avenger EV": 461
-, "Audi|Q6 e-tron": 359
-, "Peugeot|E-3008": 343
-, "BMW|iX1": 319
-, "Mini|Cooper SE": 259
-, "Ford|Puma Gen-E": 251
-, "Dacia|Spring": 227
-, "Leapmotor|T03": 221
-, "Tesla|Model 3": 205
-, "BYD|Seal": 169
+{ "Tesla|Model Y": 605
+, "Citroën|ë-C3": 466
+, "Jeep|Avenger EV": 459
+, "Audi|Q6 e-tron": 357
+, "Peugeot|E-3008": 342
+, "BMW|iX1": 317
+, "Mini|Cooper SE": 258
+, "Ford|Puma Gen-E": 249
+, "Dacia|Spring": 226
+, "Leapmotor|T03": 220
+, "Tesla|Model 3": 204
+, "BYD|Seal": 168
 , "Audi|Q4 e-tron": 145
 , "Renault|5 E-Tech": 143
-, "Porsche|Macan Electric": 135
+, "Porsche|Macan Electric": 134
 , "Volvo|EX30": 117
 , "Fiat|500e": 115
-, "Opel|Frontera Electric": 108
-, "Hyundai|Inster": 107
-, "Cupra|Tavascan": 106
+, "Opel|Frontera Electric": 107
+, "Hyundai|Inster": 106
+, "Cupra|Tavascan": 105
 , "Ford|Explorer EV": 101
 , "Kia|EV3": 98
 , "BYD|Dolphin": 94
 , "Škoda|Enyaq": 94
-, "Mercedes-Benz|EQA": 84
+, "Mercedes-Benz|EQA": 83
 , "Škoda|Elroq": 78
 , "Renault|Scénic E-Tech": 77
 , "BYD|Sealion 7": 76
 , "BMW|iX2": 69
-, "Chery|eQ1": 68
-, "BYD|Yuan Plus": 65
+, "Chery|eQ1": 67
+, "BYD|Yuan Plus": 64
 , "Peugeot|e-2008": 58
 , "MG|4 EV": 54
 , "BYD|Yuan Up": 53
@@ -6376,7 +6381,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Born": 48
 , "Volkswagen|ID.3": 48
 , "Opel|Corsa-e": 45
-, "Volkswagen|ID.4": 44
+, "Volkswagen|ID.4": 43
 , "Hyundai|Kona Electric": 36
 , "Toyota|bZ4X": 36
 , "Subaru|Solterra": 35
@@ -6386,20 +6391,20 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 33
 , "Peugeot|e-208": 33
 , "Ford|Mustang Mach-E": 30
-, "Mercedes-Benz|EQB": 27
+, "Leapmotor|C10 EV": 29
+, "Mercedes-Benz|other": 83
 , "BMW|other": 76
-, "Mercedes-Benz|other": 56
 , "Opel|other": 54
-, "Renault|other": 42
+, "Renault|other": 41
 , "Volkswagen|other": 37
 , "Volvo|other": 34
 , "Peugeot|other": 33
 , "Polestar|other": 30
 , "Nissan|other": 23
-, "Porsche|other": 22
-, "Fiat|other": 21
-, "Omoda Jaecoo|other": 21
-, "Toyota|other": 21
+, "Porsche|other": 21
+, "Fiat|other": 20
+, "Omoda Jaecoo|other": 20
+, "Toyota|other": 20
 , "Ford|other": 19
 , "Kia|other": 16
 , "Audi|other": 14
@@ -6407,7 +6412,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 9
 , "Smart|other": 7
 , "MG|other": 5
-, "other": 35
+, "other": 38
 });
 
 db.insert(db.countries.IT, "2025-06", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Giugno%202025_686401d990f8f.pdf",
@@ -6519,10 +6524,11 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 18
 , "Porsche|other": 15
 , "MG|other": 11
+, "Leapmotor|other": 10
 , "Tesla|other": 10
 , "Subaru|other": 9
 , "Citroën|other": 5
-, "other": 319
+, "other": 309
 });
 
 db.insert(db.countries.IT, "2025-07", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Luglio%202025_688cbb56b3e77.pdf",
@@ -6635,8 +6641,9 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 8
 , "Audi|other": 7
 , "Nissan|other": 7
+, "Leapmotor|other": 6
 , "Renault|other": 6
-, "other": 540
+, "other": 534
 });
 
 db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Agosto%202025_68b5c203e4fa6.pdf",
@@ -6792,21 +6799,21 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.un
 });
 
 db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/IT/Brands/Month/2025/9, https://www.unrae.it/files/07%20Top%2010%20per%20alimentazione%20Settembre%202025_68dd43c1228c5.pdf",
-{ "Tesla|Model Y": 706
-, "Tesla|Model 3": 584
+{ "Tesla|Model Y": 705
+, "Tesla|Model 3": 582
 , "Smart|Hashtag 1": 390
 , "Fiat|600e": 342
 , "BYD|Seagull": 237
-, "Leapmotor|T03": 232
+, "Leapmotor|T03": 231
 , "Mini|Cooper SE": 223
-, "Polestar|4": 216
+, "Polestar|4": 215
 , "Volvo|EX30": 202
-, "Ford|Explorer EV": 201
-, "Ford|Puma Gen-E": 193
+, "Ford|Explorer EV": 200
+, "Ford|Puma Gen-E": 192
 , "Kia|EV3": 179
 , "BMW|iX1": 163
-, "Jeep|Avenger EV": 152
-, "Audi|Q4 e-tron": 145
+, "Jeep|Avenger EV": 151
+, "Audi|Q4 e-tron": 144
 , "Smart|Hashtag 3": 137
 , "Volkswagen|ID.4": 132
 , "Porsche|Macan Electric": 129
@@ -6841,8 +6848,8 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID. Buzz": 33
 , "BMW|i4": 32
 , "Nissan|Ariya": 32
-, "Citroën|ë-C5": 32
-, "Škoda|Enyaq": 32
+, "Citroën|ë-C5": 31
+, "Škoda|Enyaq": 31
 , "Mercedes-Benz|other": 68
 , "Peugeot|other": 49
 , "Polestar|other": 37
@@ -6852,10 +6859,11 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 26
 , "Porsche|other": 24
 , "Cupra|other": 20
-, "MG|other": 16
-, "Toyota|other": 16
+, "MG|other": 15
+, "Toyota|other": 15
 , "Volkswagen|other": 14
 , "BMW|other": 13
+, "Leapmotor|other": 13
 , "Ford|other": 11
 , "Omoda Jaecoo|other": 11
 , "Audi|other": 9
@@ -6975,10 +6983,11 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 11
 , "Opel|other": 10
 , "Audi|other": 9
+, "Leapmotor|other": 9
 , "Citroën|other": 8
 , "Hyundai|other": 8
 , "Subaru|other": 4
-, "other": 401
+, "other": 392
 });
 
 db.insert(db.countries.IT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Novembre%202025_692dae4c7e223.pdf",
@@ -7059,6 +7068,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 81
 , "BMW|i4": 75
 , "BYD|Sealion 7": 74
+, "Leapmotor|C10 EV": 73
 , "Peugeot|e-208": 72
 , "Audi|A6 e-tron": 70
 , "Hyundai|Kona Electric": 59
@@ -7071,10 +7081,10 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 44
 , "Fiat|600e": 43
 , "Volkswagen|ID. Buzz": 33
-, "Peugeot|E-3008": 30
 , "Opel|other": 63
 , "BYD|other": 48
 , "Omoda Jaecoo|other": 46
+, "Peugeot|other": 42
 , "Mercedes-Benz|other": 40
 , "Smart|other": 28
 , "Kia|other": 25
@@ -7089,9 +7099,8 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 16
 , "Geely|other": 15
 , "Fiat|other": 13
-, "Peugeot|other": 12
 , "Ford|other": 8
-, "other": 630
+, "other": 557
 });
 
 db.insert(db.countries.IT, "2025-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Dicembre%202025_6957f78389fea.pdf",
@@ -7201,13 +7210,14 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 17
 , "Citroën|other": 16
 , "Fiat|other": 16
+, "Leapmotor|other": 15
 , "Kia|other": 13
 , "Polestar|other": 13
 , "Toyota|other": 13
 , "Renault|other": 11
 , "Omoda Jaecoo|other": 10
 , "Audi|other": 7
-, "other": 386
+, "other": 371
 });
 
 db.insert(db.countries.IT, "2026-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Gennaio%202026_6980c9eab889f.pdf",
@@ -7312,6 +7322,7 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Geely|other": 23
 , "Renault|other": 23
 , "Kia|other": 18
+, "Nissan|other": 18
 , "Opel|other": 16
 , "Fiat|other": 14
 , "Ford|other": 14
@@ -7319,7 +7330,7 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 13
 , "Porsche|other": 13
 , "Toyota|other": 12
-, "other": 631
+, "other": 613
 });
 
 db.insert(db.countries.IT, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Febbraio%202026_69a5c02d2507a.pdf",
@@ -7387,6 +7398,7 @@ db.insert(db.countries.IT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Sealion 7": 120
 , "Audi|Q6 e-tron": 119
 , "Mercedes-Benz|EQA": 92
+, "Nissan|Micra EV": 89
 , "Kia|EV3": 87
 , "Porsche|Macan Electric": 80
 , "BMW|iX2": 76
@@ -7436,7 +7448,7 @@ db.insert(db.countries.IT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 10
 , "Tesla|other": 10
 , "Geely|other": 7
-, "other": 378
+, "other": 289
 });
 
 db.insert(db.countries.IT, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Marzo%202026_69cd31c29cdb9.pdf",
@@ -7509,6 +7521,7 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 84
 , "BMW|iX2": 83
 , "Škoda|Enyaq": 81
+, "Toyota|C-HR+": 80
 , "BYD|Yuan Up": 70
 , "Cupra|Tavascan": 65
 , "Renault|Scénic E-Tech": 64
@@ -7516,6 +7529,7 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 59
 , "Volkswagen|ID.4": 55
 , "BMW|iX": 52
+, "Nissan|Micra EV": 52
 , "Toyota|bZ4X": 52
 , "Volvo|EX40": 49
 , "Renault|4 E-Tech": 45
@@ -7529,17 +7543,15 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Yuan Plus": 33
 , "MG|S5 EV": 33
 , "Ford|Capri EV": 32
-, "Cupra|Born": 29
-, "Kia|EV5": 29
-, "Opel|Frontera Electric": 29
 , "Peugeot|other": 82
+, "Kia|other": 69
+, "Opel|other": 59
 , "Mercedes-Benz|other": 55
 , "Volkswagen|other": 53
 , "Hyundai|other": 48
 , "BYD|other": 40
-, "Kia|other": 40
 , "Smart|other": 38
-, "Opel|other": 30
+, "Cupra|other": 29
 , "Omoda Jaecoo|other": 28
 , "Renault|other": 25
 , "Geely|other": 24
@@ -7552,5 +7564,5 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 15
 , "BMW|other": 14
 , "Xpeng|other": 10
-, "other": 551
+, "other": 419
 });
