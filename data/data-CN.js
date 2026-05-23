@@ -2190,13 +2190,13 @@ db.insert(db.countries.CN, "2026-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 6081
 , "BYD|Seagull": 5856
 , "Wuling|Bingo S": 5448
+, "Zeekr|9X": 4878
+, "Wuling|Hongguang Mini EV": 4866
 , "BYD|Qin EV": 4461
 , "BYD|Seal 06 EV": 3490
 , "Leapmotor|C10 EV": 2983
 , "BYD|Sealion 06 EV": 1995
 , "BYD|Song EV": 597
-, "Wuling|Hongguang Mini EV": 4866
-, "Zeekr|9X": 4878
 , "other": 133232
 });
 
@@ -2213,13 +2213,16 @@ db.insert(db.countries.CN, "2026-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 16280
 , "Nio|ES8": 16255
 , "BYD|Seagull": 14409
-, "Xiaomi|YU7": 13558
 , "MG|4 EV": 14007
+, "Xiaomi|YU7": 13558
+, "Changan|Qiyuan Q05 EV": 12602
 , "BYD|Qin EV": 10421
-, "Deepal|S05": 7020
+, "Zeekr|9X": 10060
+, "Aion|Y": 8078
 , "BYD|Sealion 06 EV": 8306
+, "Deepal|S05": 7020
 , "BYD|Seal 06 EV": 5220
-, "BYD|Song EV": 1214
 , "Leapmotor|C10 EV": 4980
-, "other": 329915
+, "BYD|Song EV": 1214
+, "other": 299175
 });
