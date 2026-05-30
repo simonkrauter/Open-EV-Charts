@@ -7842,3 +7842,85 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 8
 , "other": 226
 });
+
+db.insert(db.countries.ES, "2026-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+{ "other": 106862
+});
+
+db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/SP/Brands/Month/2026/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+{ "Toyota|C-HR+": 812
+, "BYD|Seagull": 533
+, "Kia|EV3": 421
+, "Renault|5 E-Tech": 371
+, "Deepal|S05": 326
+, "Škoda|Elroq": 279
+, "BYD|Yuan Up": 276
+, "BYD|Seal": 271
+, "Citroën|ë-C3": 256
+, "Mini|Cooper SE": 246
+, "Kia|EV2": 226
+, "BYD|Yuan Plus": 225
+, "Tesla|Model Y": 198
+, "Mercedes-Benz|CLA EV": 194
+, "Audi|Q4 e-tron": 183
+, "Mercedes-Benz|EQA": 164
+, "Xpeng|G6": 162
+, "Hyundai|Inster": 154
+, "Volvo|EX30": 154
+, "Leapmotor|T03": 134
+, "BYD|Sealion 7": 121
+, "Dacia|Spring": 121
+, "Hyundai|Kona Electric": 115
+, "Kia|PV5": 111
+, "Volkswagen|ID.3": 111
+, "Ford|Puma Gen-E": 110
+, "Volkswagen|ID.4": 109
+, "BMW|iX1": 102
+, "BYD|Dolphin": 100
+, "Mercedes-Benz|EQC": 99
+, "Leapmotor|B10": 98
+, "Toyota|bZ4X": 95
+, "Tesla|Model 3": 93
+, "Omoda Jaecoo|Jaecoo E5": 89
+, "Ford|Capri EV": 88
+, "BMW|iX2": 87
+, "Opel|Frontera Electric": 87
+, "Renault|Twingo E-Tech": 86
+, "BMW|iX3": 85
+, "Omoda Jaecoo|Omoda E5": 77
+, "Peugeot|e-2008": 77
+, "Cupra|Born": 70
+, "Renault|4 E-Tech": 68
+, "Mercedes-Benz|EQE": 63
+, "MG|S5 EV": 61
+, "Polestar|4": 61
+, "Porsche|Macan Electric": 59
+, "Hyundai|Ioniq 5": 57
+, "Mazda|EZ-6 BEV": 56
+, "Škoda|Enyaq": 56
+, "Kia|other": 148
+, "Peugeot|other": 98
+, "Audi|other": 89
+, "Renault|other": 74
+, "Nissan|other": 63
+, "Ford|other": 59
+, "MG|other": 49
+, "Volvo|other": 49
+, "Citroën|other": 47
+, "Smart|other": 47
+, "Cupra|other": 46
+, "Fiat|other": 46
+, "BMW|other": 44
+, "Opel|other": 43
+, "Jeep|other": 38
+, "Hyundai|other": 28
+, "Deepal|other": 24
+, "Volkswagen|other": 23
+, "Leapmotor|other": 21
+, "Xpeng|other": 16
+, "Mercedes-Benz|other": 14
+, "BYD|other": 7
+, "Polestar|other": 6
+, "Porsche|other": 6
+, "other": 441
+});
