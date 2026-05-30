@@ -7984,6 +7984,7 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 79
 , "Hyundai|Inster": 77
 , "Volkswagen|ID.7": 73
+, "Mitsubishi|Eclipse Cross EV": 72
 , "Fiat|500e": 67
 , "Kia|EV3": 66
 , "Citroën|ë-C3": 65
@@ -7999,27 +8000,25 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 41
 , "Mercedes-Benz|CLA EV": 40
 , "BYD|Sealion 7": 39
+, "Nissan|Micra EV": 37
 , "Zeekr|7X": 37
 , "BMW|i4": 35
 , "Polestar|2": 35
 , "Leapmotor|B10": 34
 , "Volvo|EX90": 34
 , "Ford|Explorer EV": 33
-, "BYD|Dolphin": 32
-, "BMW|iX2": 30
-, "Kia|EV6": 30
-, "Renault|Scénic E-Tech": 30
-, "Kia|other": 55
+, "Kia|other": 85
+, "BMW|other": 78
+, "BYD|other": 58
 , "Ford|other": 53
-, "BMW|other": 48
 , "Mercedes-Benz|other": 44
 , "Opel|other": 39
 , "MG|other": 37
+, "Renault|other": 36
 , "Peugeot|other": 34
 , "Smart|other": 33
 , "Xpeng|other": 33
 , "Tesla|other": 28
-, "BYD|other": 26
 , "Fiat|other": 25
 , "Polestar|other": 23
 , "Volvo|other": 22
@@ -8029,9 +8028,8 @@ db.insert(db.countries.CH, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 11
 , "Porsche|other": 9
 , "Jeep|other": 6
-, "Renault|other": 6
 , "Audi|other": 5
-, "other": 517
+, "other": 408
 });
 
 db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/02/ModellePW2026.xlsx",
@@ -8107,6 +8105,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 36
 , "Leapmotor|C10 EV": 34
 , "Mercedes-Benz|CLA EV": 33
+, "Nissan|Micra EV": 32
 , "Zeekr|7X": 30
 , "Audi|A6 e-tron": 29
 , "BMW|i4": 29
@@ -8147,10 +8146,11 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 8
 , "Volkswagen|other": 6
 , "Xpeng|other": 5
+, "Mitsubishi|other": 4
 , "Tesla|other": 4
 , "Audi|other": 2
 , "Nissan|other": 2
-, "other": 177
+, "other": 141
 });
 
 db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/03/ModellePW2026.xlsx",
@@ -8231,6 +8231,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|B10": 25
 , "Toyota|Urban Cruiser Electric": 25
 , "Ford|Explorer EV": 24
+, "Nissan|Micra EV": 24
 , "Renault|Scénic E-Tech": 24
 , "Smart|Hashtag 5": 24
 , "BYD|Sealion 7": 23
@@ -8270,7 +8271,8 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|other": 9
 , "Audi|other": 8
 , "Jeep|other": 3
-, "other": 216
+, "Mitsubishi|other": 3
+, "other": 189
 });
 
 db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/04/ModellePW2026-2.xlsx",
@@ -8328,6 +8330,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|5 E-Tech": 133
 , "Audi|Q6 e-tron": 115
 , "Cupra|Tavascan": 112
+, "Toyota|C-HR+": 109
 , "Volkswagen|ID.3": 109
 , "Porsche|Macan Electric": 91
 , "MG|4 EV": 90
@@ -8346,6 +8349,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 5": 50
 , "Polestar|2": 49
 , "Volkswagen|ID.7": 45
+, "Nissan|Micra EV": 44
 , "Hyundai|Ioniq 5": 43
 , "Kia|EV4": 43
 , "Leapmotor|B10": 43
@@ -8370,9 +8374,9 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 66
 , "BYD|other": 62
 , "Peugeot|other": 61
+, "Mercedes-Benz|other": 51
 , "Kia|other": 50
 , "Ford|other": 48
-, "Mercedes-Benz|other": 46
 , "BMW|other": 45
 , "Citroën|other": 36
 , "Volvo|other": 27
@@ -8388,9 +8392,10 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 12
 , "Audi|other": 11
 , "Polestar|other": 11
+, "Mitsubishi|other": 10
 , "Jeep|other": 9
 , "Zeekr|other": 8
 , "JAC|other": 5
 , "Nissan|other": 5
-, "other": 445
+, "other": 277
 });
