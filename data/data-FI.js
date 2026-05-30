@@ -7413,6 +7413,7 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Tavascan": 8
 , "Nissan|Ariya": 8
 , "BMW|i5": 7
+, "Nissan|Micra EV": 7
 , "Polestar|2": 7
 , "Smart|Hashtag 3": 7
 , "Subaru|Solterra": 7
@@ -7428,13 +7429,13 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|other": 2
 , "Smart|other": 2
 , "Volkswagen|other": 2
-, "other": 124
+, "other": 117
 });
 
 db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 893
 , "Volkswagen": 658
-, "Volvo": 600
+, "Volvo": 601
 , "Tesla": 592
 , "Škoda": 555
 , "Kia": 379
@@ -7452,7 +7453,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Mitsubishi": 75
 , "Cupra": 63
 , "Opel": 62
-, "Subaru": 61
+, "Subaru": 62
 , "Suzuki": 60
 , "Citroën": 59
 , "Dacia": 46
@@ -7486,6 +7487,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q6 e-tron": 64
 , "Ford|Explorer EV": 64
 , "Renault|5 E-Tech": 61
+, "Toyota|C-HR+": 61
 , "Volvo|EX30": 58
 , "Audi|Q4 e-tron": 56
 , "BMW|iX1": 56
@@ -7503,6 +7505,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Macan Electric": 24
 , "Volkswagen|ID.3": 24
 , "BMW|iX": 23
+, "Nissan|Micra EV": 23
 , "Renault|4 E-Tech": 23
 , "BMW|iX2": 22
 , "BYD|Seal": 22
@@ -7518,11 +7521,11 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|4 EV": 16
 , "Peugeot|E-3008": 15
 , "Renault|Scénic E-Tech": 14
-, "Cupra|Born": 13
-, "Mini|Cooper SE": 13
 , "Hyundai|other": 28
 , "Mercedes-Benz|other": 21
 , "Peugeot|other": 14
+, "Cupra|other": 13
+, "Mini|other": 13
 , "BMW|other": 11
 , "MG|other": 11
 , "Mazda|other": 11
@@ -7537,5 +7540,5 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|other": 4
 , "BYD|other": 3
 , "Renault|other": 3
-, "other": 163
+, "other": 79
 });
