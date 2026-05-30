@@ -4714,3 +4714,86 @@ db.insert(db.countries.DK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 13
 , "other": 37
 });
+
+db.insert(db.countries.DK, "2026-04", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 16835
+});
+
+db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2026/4, https://www.statistikbanken.dk/bil51",
+{ "Škoda|Elroq": 1062
+, "Škoda|Enyaq": 814
+, "Toyota|C-HR+": 784
+, "Volkswagen|ID.4": 677
+, "Volkswagen|ID. Buzz": 434
+, "Audi|Q4 e-tron": 433
+, "Xpeng|G6": 407
+, "Kia|PV5": 358
+, "Volkswagen|ID.7": 336
+, "Toyota|bZ4X": 329
+, "Tesla|Model Y": 327
+, "Volkswagen|ID.3": 287
+, "BMW|iX1": 263
+, "Renault|5 E-Tech": 261
+, "Renault|Scénic E-Tech": 250
+, "Volvo|EX40": 245
+, "Toyota|Urban Cruiser Electric": 243
+, "Mercedes-Benz|EQA": 242
+, "Citroën|ë-C5": 237
+, "Cupra|Tavascan": 225
+, "Cupra|Born": 205
+, "Polestar|4": 197
+, "Citroën|ë-C3": 196
+, "Ford|Explorer EV": 180
+, "Peugeot|e-208": 179
+, "Peugeot|e-2008": 158
+, "Hyundai|Kona Electric": 155
+, "Mercedes-Benz|EQB": 142
+, "Ford|E-Transit": 141
+, "MG|4 EV": 138
+, "Audi|A6 e-tron": 136
+, "Zeekr|7X": 136
+, "Kia|EV3": 135
+, "Hyundai|Ioniq 5": 130
+, "Peugeot|E-5008": 124
+, "Mercedes-Benz|EQE": 121
+, "Audi|Q6 e-tron": 114
+, "Renault|Megane E-Tech": 114
+, "MG|S6 EV": 111
+, "Renault|4 E-Tech": 110
+, "Nissan|Micra EV": 107
+, "Opel|Frontera Electric": 100
+, "BYD|Seal": 90
+, "Hyundai|Inster": 90
+, "Mazda|EZ-6 BEV": 89
+, "Kia|EV6": 85
+, "Renault|Master E-Tech": 84
+, "Volkswagen|ID.5": 84
+, "Leapmotor|B10": 78
+, "Volvo|EX30": 77
+, "BMW|other": 224
+, "BYD|other": 185
+, "Mercedes-Benz|other": 140
+, "Ford|other": 136
+, "Kia|other": 132
+, "Hyundai|other": 92
+, "Peugeot|other": 84
+, "Volvo|other": 67
+, "MG|other": 63
+, "Xpeng|other": 62
+, "Omoda Jaecoo|other": 58
+, "Toyota|other": 50
+, "Mini|other": 41
+, "Fiat|other": 40
+, "Nissan|other": 39
+, "Opel|other": 38
+, "Deepal|other": 35
+, "Volkswagen|other": 35
+, "Renault|other": 31
+, "Tesla|other": 27
+, "Citroën|other": 20
+, "Porsche|other": 20
+, "Subaru|other": 15
+, "Honda|other": 14
+, "Polestar|other": 11
+, "other": 36
+});
