@@ -7107,10 +7107,12 @@ db.insert(db.countries.NO, "2026-01", db.dsTypes.AllCarsByBrand, "https://ofv.no
 db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/1 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-januar-2026",
 { "Volkswagen|ID.3": 297
 , "Toyota|bZ4X": 160
+, "Toyota|Urban Cruiser Electric": 81
 , "Škoda|Elroq": 76
 , "Deepal|S05": 66
 , "Volkswagen|ID.4": 63
 , "Tesla|Model Y": 62
+, "Nissan|Micra EV": 57
 , "Hyundai|Inster": 56
 , "Volkswagen|ID.7": 50
 , "JAC|Yiwei 3": 48
@@ -7174,7 +7176,7 @@ db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 2
 , "Opel|other": 2
 , "Peugeot|other": 2
-, "other": 307
+, "other": 169
 });
 
 db.insert(db.countries.NO, "2026-02", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-februar-2026",
@@ -7213,6 +7215,7 @@ db.insert(db.countries.NO, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 { "Tesla|Model Y": 1068
 , "Toyota|bZ4X": 454
 , "Volvo|EX40": 376
+, "Toyota|Urban Cruiser Electric": 366
 , "Škoda|Enyaq": 233
 , "Xpeng|G9": 218
 , "Škoda|Elroq": 218
@@ -7232,6 +7235,7 @@ db.insert(db.countries.NO, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 77
 , "Peugeot|E-3008": 76
 , "MG|4 EV": 74
+, "Nissan|Micra EV": 74
 , "Volvo|EX30": 72
 , "Hyundai|Inster": 66
 , "Ford|Puma Gen-E": 64
@@ -7259,8 +7263,8 @@ db.insert(db.countries.NO, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|5 E-Tech": 25
 , "Peugeot|e-208": 23
 , "Porsche|Macan Electric": 23
-, "Opel|Grandland Electric": 22
 , "BMW|other": 39
+, "Opel|other": 33
 , "Smart|other": 29
 , "Kia|other": 23
 , "Ford|other": 20
@@ -7275,11 +7279,10 @@ db.insert(db.countries.NO, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 12
 , "Audi|other": 11
 , "Jeep|other": 11
-, "Opel|other": 11
 , "Renault|other": 11
 , "Tesla|other": 7
 , "Mercedes-Benz|other": 6
-, "other": 1142
+, "other": 702
 });
 
 db.insert(db.countries.NO, "2026-03", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mars-2026",
@@ -7323,6 +7326,7 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 463
 , "BYD|Sealion 7": 433
 , "Škoda|Elroq": 428
+, "Toyota|Urban Cruiser Electric": 427
 , "BMW|iX3": 362
 , "Škoda|Enyaq": 353
 , "Volkswagen|ID.3": 333
@@ -7345,6 +7349,7 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 113
 , "Polestar|4": 111
 , "Xpeng|G6": 104
+, "Toyota|C-HR+": 101
 , "Mercedes-Benz|EQA": 96
 , "Polestar|2": 76
 , "Kia|EV9": 75
@@ -7354,6 +7359,7 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Grandland Electric": 66
 , "BMW|i4": 63
 , "Opel|Frontera Electric": 62
+, "Nissan|Micra EV": 60
 , "BMW|iX": 56
 , "Mini|Cooper SE": 56
 , "Hyundai|Inster": 54
@@ -7362,12 +7368,12 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-3008": 49
 , "Volvo|EC40": 49
 , "JAC|Yiwei 3": 46
-, "MG|S6 EV": 45
-, "Polestar|3": 44
-, "Audi|A6 e-tron": 40
 , "Ford|other": 89
 , "BYD|other": 64
+, "Audi|other": 48
+, "MG|other": 45
 , "BMW|other": 44
+, "Polestar|other": 44
 , "Zeekr|other": 38
 , "Citroën|other": 37
 , "Subaru|other": 36
@@ -7377,12 +7383,12 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 26
 , "Nio|other": 24
 , "Fiat|other": 23
+, "Mercedes-Benz|other": 21
 , "Volvo|other": 21
 , "Smart|other": 19
-, "Mercedes-Benz|other": 18
 , "Opel|other": 11
 , "Cupra|other": 9
-, "other": 1798
+, "other": 1199
 });
 
 
