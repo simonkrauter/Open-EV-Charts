@@ -7309,6 +7309,7 @@ db.insert(db.countries.IE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Mini|Cooper SE": 39
 , "Ford|Explorer EV": 34
 , "Hyundai|Ioniq 6": 33
+, "Nissan|Micra EV": 31
 , "MG|4 EV": 30
 , "Volkswagen|ID.7": 29
 , "BYD|Seagull": 28
@@ -7329,21 +7330,21 @@ db.insert(db.countries.IE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|4 E-Tech": 16
 , "Renault|Scénic E-Tech": 15
 , "BYD|Yuan Plus": 14
-, "Audi|Q6 e-tron": 12
 , "BMW|other": 33
 , "Citroën|other": 24
+, "Audi|other": 18
 , "Opel|other": 18
 , "Mercedes-Benz|other": 17
 , "Peugeot|other": 15
+, "MG|other": 10
 , "Polestar|other": 9
 , "Volkswagen|other": 8
 , "Volvo|other": 7
-, "Audi|other": 6
 , "Leapmotor|other": 6
 , "Tesla|other": 6
 , "Hyundai|other": 5
 , "Porsche|other": 4
-, "other": 68
+, "other": 27
 });
 
 db.insert(db.countries.IE, "2026-03", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7385,6 +7386,7 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.AllCarsByBrand, "https://stats.
 db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
 { "Tesla|Model 3": 301
 , "Tesla|Model Y": 269
+, "Toyota|C-HR+": 237
 , "Kia|EV3": 168
 , "Škoda|Elroq": 159
 , "Volkswagen|ID.4": 153
@@ -7425,6 +7427,7 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|4 E-Tech": 23
 , "Volvo|EX30": 23
 , "Cupra|Born": 22
+, "Nissan|Micra EV": 22
 , "Renault|Megane E-Tech": 22
 , "Citroën|ë-C3": 19
 , "Kia|PV5": 18
@@ -7432,11 +7435,11 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q4 e-tron": 15
 , "BYD|Dolphin": 14
 , "Polestar|4": 14
-, "Audi|Q6 e-tron": 13
-, "BYD|Yuan Plus": 13
-, "Volvo|EC40": 13
+, "Audi|other": 17
 , "BMW|other": 16
 , "Opel|other": 15
+, "Volvo|other": 15
+, "BYD|other": 13
 , "Leapmotor|other": 12
 , "Mercedes-Benz|other": 12
 , "Peugeot|other": 12
@@ -7444,10 +7447,8 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Polestar|other": 11
 , "Renault|other": 7
 , "Hyundai|other": 5
-, "Audi|other": 4
 , "Porsche|other": 4
 , "Fiat|other": 3
 , "Ford|other": 2
-, "Volvo|other": 2
-, "other": 305
+, "other": 46
 });
