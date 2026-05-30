@@ -7775,10 +7775,10 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Capri EV": 19
 , "Mercedes-Benz|EQS": 18
 , "Hyundai|other": 42
+, "BYD|other": 22
 , "MG|other": 19
 , "Opel|other": 19
 , "Leapmotor|other": 18
-, "BYD|other": 16
 , "Citroën|other": 15
 , "BMW|other": 13
 , "Peugeot|other": 13
@@ -7789,7 +7789,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|other": 7
 , "Zeekr|other": 7
 , "Nio|other": 6
-, "other": 157
+, "other": 151
 });
 
 db.insert(db.countries.SE, "2026-01", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7867,6 +7867,7 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQB": 51
 , "Škoda|Elroq": 40
 , "BMW|iX2": 37
+, "Nissan|Micra EV": 37
 , "Zeekr|7X": 37
 , "Kia|EV4": 33
 , "Mercedes-Benz|EQE": 33
@@ -7884,12 +7885,13 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|Inster": 22
 , "Ford|Capri EV": 21
 , "Hyundai|Ioniq 9": 21
-, "Hyundai|Ioniq 5": 20
 , "Zeekr|other": 25
+, "Hyundai|other": 20
 , "Porsche|other": 18
 , "Ford|other": 16
 , "Mercedes-Benz|other": 16
 , "Peugeot|other": 15
+, "BYD|other": 14
 , "Tesla|other": 13
 , "Subaru|other": 12
 , "MG|other": 10
@@ -7898,7 +7900,7 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Fiat|other": 9
 , "Kia|other": 9
 , "Smart|other": 5
-, "other": 163
+, "other": 112
 });
 
 db.insert(db.countries.SE, "2026-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7995,19 +7997,19 @@ db.insert(db.countries.SE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Opel|Corsa-e": 17
 , "Tesla|Model 3": 16
 , "Hyundai|other": 31
+, "Nissan|other": 26
 , "Peugeot|other": 26
 , "Mercedes-Benz|other": 21
 , "Citroën|other": 17
 , "Zeekr|other": 16
 , "Opel|other": 13
-, "Nissan|other": 11
+, "BYD|other": 11
 , "BMW|other": 10
-, "BYD|other": 8
 , "Ford|other": 8
 , "Porsche|other": 8
 , "MG|other": 6
 , "Tesla|other": 6
-, "other": 159
+, "other": 141
 });
 
 db.insert(db.countries.SE, "2026-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8080,6 +8082,7 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV6": 127
 , "Ford|Explorer EV": 116
 , "Audi|Q6 e-tron": 111
+, "Toyota|C-HR+": 106
 , "Mercedes-Benz|EQB": 103
 , "Renault|Scénic E-Tech": 95
 , "Polestar|2": 90
@@ -8102,20 +8105,20 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|Macan Electric": 32
 , "BMW|iX2": 31
 , "Peugeot|E-5008": 28
-, "Volvo|ES90": 27
 , "Hyundai|other": 73
+, "BYD|other": 42
 , "Peugeot|other": 41
 , "Opel|other": 36
-, "BYD|other": 35
 , "Mercedes-Benz|other": 33
+, "Volvo|other": 27
 , "Smart|other": 25
 , "Ford|other": 23
 , "Citroën|other": 22
 , "Kia|other": 21
 , "Leapmotor|other": 21
-, "Nissan|other": 11
+, "Nissan|other": 14
 , "MG|other": 9
 , "Fiat|other": 8
 , "Porsche|other": 7
-, "other": 456
+, "other": 340
 });
