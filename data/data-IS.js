@@ -5698,3 +5698,67 @@ db.insert(db.countries.IS, "2025-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volvo|EX90": 1
 , "other": 73
 });
+
+db.insert(db.countries.IS, "2025-09", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
+{ "other": 868
+});
+
+db.insert(db.countries.IS, "2025-09", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_September_2025.pdf",
+{ "other": 625
+});
+
+db.insert(db.countries.IS, "2025-10", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
+{ "other": 757
+});
+
+db.insert(db.countries.IS, "2025-10", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
+{ "other": 369
+});
+
+db.insert(db.countries.IS, "2025-11", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
+{ "other": 1405
+});
+
+db.insert(db.countries.IS, "2025-11", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
+{ "other": 880
+});
+
+db.insert(db.countries.IS, "2025-12", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
+{ "other": 1705
+});
+
+db.insert(db.countries.IS, "2025-12", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
+{ "other": 988
+});
+
+db.insert(db.countries.IS, "2026-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+{ "other": 1385
+});
+
+db.insert(db.countries.IS, "2026-01", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+{ "other": 181
+});
+
+db.insert(db.countries.IS, "2026-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
+{ "other": 815
+});
+
+db.insert(db.countries.IS, "2026-02", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
+{ "other": 323
+});
+
+db.insert(db.countries.IS, "2026-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "other": 1283
+});
+
+db.insert(db.countries.IS, "2026-03", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+{ "other": 618
+});
+
+db.insert(db.countries.IS, "2026-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+{ "other": 1033
+});
+
+db.insert(db.countries.IS, "2026-04", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+{ "other": 460
+});
