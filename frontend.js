@@ -1232,6 +1232,16 @@ function generateWikitext(rows) {
   return result;
 }
 
+function renderHorizontalBar(cell, metric, value, horizontalBarMaxValue) {
+  const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
+  const outerDiv = newChildNode(cell, "DIV");
+  outerDiv.classList.add("horizontalBar");
+  outerDiv.style.width = maxBarWidth + "px";
+  const innerDiv = newChildNode(outerDiv, "DIV");
+  const width = value / horizontalBarMaxValue * maxBarWidth;
+  innerDiv.style.width = width + "px";
+}
+
 function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue, showRankColumn) {
   // Table head
   const row = newChildNode(table, "TR");
@@ -1245,12 +1255,9 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   for (const i in chartData.series) {
     const series = chartData.series[i];
     const cell = newChildNode(row, "TH", db.formatSeriesNameAndCategory(series.name));
-    if (horizontalBarMaxValue != 0)
-      cell.colSpan = 2;
     addThSortClickEvent(chartConfig, cell, i + 1);
   }
 
-  const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
   const yAxisMax = db.getYAxisMax(chartConfig, chartData);
 
   // Table body
@@ -1271,15 +1278,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
 
     for (const j in chartData.series) {
       const series = chartData.series[j];
-      renderTableValueCell(series.metric, row, series.data[i], yAxisMax);
-    }
-    // add horizontal bar
-    if (horizontalBarMaxValue != 0) {
-      const cell = newChildNode(row, "TD");
-      const barDiv = newChildNode(cell, "DIV");
-      barDiv.classList.add("horizontalBar");
-      const width = chartData.series[0].data[i] / horizontalBarMaxValue * maxBarWidth;
-      barDiv.style.width = width + "px";
+      renderTableValueCell(series.metric, row, series.data[i], yAxisMax, horizontalBarMaxValue);
     }
   }
 }
@@ -1412,12 +1411,14 @@ function getTableCellLinkChartConfig(chartConfig, columnTitle, text, addFlag) {
   }
 }
 
-function renderTableValueCell(metric, row, val, yAxisMax) {
+function renderTableValueCell(metric, row, val, yAxisMax, horizontalBarMaxValue = 0) {
   if (val == null && val !== 0) {
     renderTableNoValueCell(row);
   } else {
     const cell = newChildNode(row, "TD", formatValue(metric, val, yAxisMax, FormatValueContext.Table));
     cell.style.textAlign = "right";
+    if (horizontalBarMaxValue != 0)
+      renderHorizontalBar(cell, metric, val, horizontalBarMaxValue);
   }
 }
 

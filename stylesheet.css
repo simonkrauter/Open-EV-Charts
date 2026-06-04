@@ -173,7 +173,7 @@ a.button {
   min-width: 80px;
 }
 
-a.button.active, .dropdown.active, .horizontalBar {
+a.button.active, .dropdown.active, .horizontalBar > div {
   background: var(--clButtonActiveFill);
   color: var(--clButtonActiveText);
 }
@@ -554,6 +554,13 @@ tr:hover {
 }
 
 .horizontalBar {
+  display: inline-block;
+  margin-left: 5px;
+  top: 2px;
+  position: relative;
+}
+
+.horizontalBar > div {
   height: 16px;
 }
 
