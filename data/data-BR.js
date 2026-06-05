@@ -1597,3 +1597,43 @@ db.insert(db.countries.BR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|other": 16
 , "other": 395
 });
+
+db.insert(db.countries.BR, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_05_02.pdf",
+{ "Volkswagen": 39505
+, "Fiat": 25625
+, "Chevrolet": 23172
+, "BYD": 21674
+, "Hyundai": 20234
+, "Toyota": 10654
+, "Jeep": 10395
+, "Honda": 10288
+, "Renault": 9023
+, "Nissan": 6935
+, "GWM": 6685
+, "Chery": 6660
+, "Geely": 5173
+, "Citroën": 4308
+, "Omoda Jaecoo": 3176
+, "Peugeot": 1463
+, "BMW": 1244
+, "Ford": 927
+, "Leapmotor": 893
+, "other": 6266
+});
+
+db.insert(db.countries.BR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_05_02.pdf",
+{ "BYD|Seagull": 7577
+, "BYD|Dolphin": 4963
+, "GWM|Ora 03": 490
+, "Geely|other": 4567
+, "Chevrolet|other": 1122
+, "BYD|other": 704
+, "Leapmotor|other": 476
+, "Volvo|other": 347
+, "MG|other": 187
+, "Omoda Jaecoo|other": 81
+, "Zeekr|other": 49
+, "Mini|other": 39
+, "BMW|other": 27
+, "other": 249
+});
