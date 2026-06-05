@@ -1236,6 +1236,8 @@ function renderHorizontalBar(cell, metric, value, horizontalBarMaxValue) {
   const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
   const outerDiv = newChildNode(cell, "DIV");
   outerDiv.classList.add("horizontalBar");
+  if (db.isMetricPercent(metric))
+    outerDiv.classList.add("percent");
   outerDiv.style.width = maxBarWidth + "px";
   const innerDiv = newChildNode(outerDiv, "DIV");
   const width = value / horizontalBarMaxValue * maxBarWidth;

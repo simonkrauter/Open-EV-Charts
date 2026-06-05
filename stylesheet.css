@@ -560,6 +560,10 @@ tr:hover {
   position: relative;
 }
 
+.horizontalBar.percent {
+  background: var(--clBaseLine);
+}
+
 .horizontalBar > div {
   height: 16px;
 }
