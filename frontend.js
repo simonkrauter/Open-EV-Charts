@@ -1233,7 +1233,7 @@ function generateWikitext(rows) {
 }
 
 function renderHorizontalBar(cell, metric, value, horizontalBarMaxValue) {
-  const maxBarWidth = Math.min(350, Math.max(50, window.innerWidth - 450));
+  const maxBarWidth = Math.min(250, Math.max(50, window.innerWidth - 400));
   const outerDiv = newChildNode(cell, "DIV");
   outerDiv.classList.add("horizontalBar");
   if (db.isMetricPercent(metric))
