@@ -675,7 +675,7 @@ db.insert(db.countries.global, "2024-01", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-01", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 649848
+{ "other": 649722
 });
 
 db.insert(db.countries.global, "2024-02", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -683,7 +683,7 @@ db.insert(db.countries.global, "2024-02", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-02", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 576854
+{ "other": 576749
 });
 
 db.insert(db.countries.global, "2024-03", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -691,7 +691,7 @@ db.insert(db.countries.global, "2024-03", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-03", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 853931
+{ "other": 853776
 });
 
 db.insert(db.countries.global, "2024-04", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -699,7 +699,7 @@ db.insert(db.countries.global, "2024-04", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-04", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 742514
+{ "other": 742425
 });
 
 db.insert(db.countries.global, "2024-05", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -707,7 +707,7 @@ db.insert(db.countries.global, "2024-05", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-05", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 847847
+{ "other": 847836
 });
 
 db.insert(db.countries.global, "2024-06", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -715,7 +715,7 @@ db.insert(db.countries.global, "2024-06", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-06", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 889477
+{ "other": 889420
 });
 
 db.insert(db.countries.global, "2024-07", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -723,7 +723,7 @@ db.insert(db.countries.global, "2024-07", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-07", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 807604
+{ "other": 807485
 });
 
 db.insert(db.countries.global, "2024-08", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -731,7 +731,7 @@ db.insert(db.countries.global, "2024-08", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-08", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 916582
+{ "other": 916450
 });
 
 db.insert(db.countries.global, "2024-09", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -739,7 +739,7 @@ db.insert(db.countries.global, "2024-09", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-09", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 1077900
+{ "other": 1077807
 });
 
 db.insert(db.countries.global, "2024-10", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -747,7 +747,7 @@ db.insert(db.countries.global, "2024-10", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-10", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 1061475
+{ "other": 1061382
 });
 
 db.insert(db.countries.global, "2024-11", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -755,7 +755,7 @@ db.insert(db.countries.global, "2024-11", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-11", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 1173370
+{ "other": 1173284
 });
 
 db.insert(db.countries.global, "2024-12", db.dsTypes.AllCarsTotal, "https://autovista24.autovistagroup.com/news/what-are-the-global-ev-markets-most-successful-brands/",
@@ -763,7 +763,7 @@ db.insert(db.countries.global, "2024-12", db.dsTypes.AllCarsTotal, "https://auto
 });
 
 db.insert(db.countries.global, "2024-12", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2025/02/05/world-ev-sales-report-17-2-million-plugins-were-sold-in-2024/",
-{ "other": 1202598
+{ "other": 1203664
 });
 
 db.insert(db.countries.global, "2025-01", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/03/03/top-selling-electric-vehicles-in-the-world-january-2025/",
