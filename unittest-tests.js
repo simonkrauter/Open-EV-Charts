@@ -304,6 +304,52 @@ runTest("combineCountry_2", function() {
   assert(!db.needsUnfold(chartConfig));
 });
 
+runTest("byCountry_salesAll_chart", function() {
+  let chartConfig = {};
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig.metric = db.metrics.salesAll;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
+  assert(chartData.categories.length, 3);
+});
+
+runTest("byCountry_salesAll_table", function() {
+  let chartConfig = {};
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig.metric = db.metrics.salesAll;
+  chartConfig.view = db.views.table;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
+  assert(chartData.categories.length, 3);
+});
+
+runTest("byCountry_ratioElectric_chart", function() {
+  let chartConfig = {};
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig.metric = db.metrics.ratioElectric;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
+  assert(chartData.categories.length, 3);
+});
+
+runTest("byCountry_ratioElectric_table", function() {
+  let chartConfig = {};
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig.metric = db.metrics.ratioElectric;
+  chartConfig.view = db.views.table;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.series.length, 1);
+  assert(chartData.categories.length, 3);
+});
+
 runTest("multipleMetrics_byYear_table", function() {
   let chartConfig = {};
   chartConfig.country = "DE";
@@ -384,7 +430,6 @@ runTest("makeChartConfigValid_modelDoesNotBelongToBrand", function() {
   chartConfig.brand = "Alpha";
   chartConfig.model = "B1";
   db.makeChartConfigValid(chartConfig);
-  console.log(chartConfig);
   assert(chartConfig.model, db.modelOptions.all);
 });
 

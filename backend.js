@@ -1454,7 +1454,7 @@ var db = {
         if (this.countryGroupIds.includes(id)) {
           if ([this.metrics.ratioElectricWithinCompanyOrBrand, this.metrics.shareElectric, this.metrics.shareAll].includes(chartConfig.metric))
             continue;
-          if (chartConfig.xProperty == this.xProperties.country)
+          if (chartConfig.xProperty == this.xProperties.country && chartConfig.metric != this.metrics.ratioElectric)
             continue;
           if (chartConfig.view == this.views.barChart && this.isBarChartStacked(chartConfig))
             continue;
