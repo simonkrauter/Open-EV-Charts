@@ -381,7 +381,7 @@ db.insert(db.countries.BR, "2024-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2024-01", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2024_01_02.pdf",
 { "BYD|Dolphin": 1820
 , "BYD|Seal": 612
-, "BYD|Yuan Plus": 274
+, "BYD|Atto 3": 274
 , "GWM|Ora 03": 696
 , "Volvo|other": 275
 , "Peugeot|other": 270

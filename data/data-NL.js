@@ -48,7 +48,7 @@ db.insert(db.countries.NL, "2017-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 10
 , "Citroën|C-Zero": 8
 , "Mercedes-Benz|B250e": 7
-, "Volkswagen|e-up!": 7
+, "Volkswagen|e-up": 7
 , "Peugeot|iOn": 5
 , "Opel|Ampera-e": 2
 , "Volkswagen|e-Golf": 2
@@ -97,7 +97,7 @@ db.insert(db.countries.NL, "2017-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 34
 , "Mercedes-Benz|B250e": 16
 , "Hyundai|Ioniq Electric": 14
-, "Volkswagen|e-up!": 14
+, "Volkswagen|e-up": 14
 , "Fiat|500e": 11
 , "Kia|Soul EV": 4
 , "Volkswagen|e-Golf": 4
@@ -152,7 +152,7 @@ db.insert(db.countries.NL, "2017-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i3 BEV": 90
 , "Hyundai|Ioniq Electric": 81
 , "Nissan|Leaf": 79
-, "Volkswagen|e-up!": 19
+, "Volkswagen|e-up": 19
 , "Mercedes-Benz|B250e": 11
 , "Nissan|e-NV200": 10
 , "Fiat|500e": 7
@@ -207,7 +207,7 @@ db.insert(db.countries.NL, "2017-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 18
 , "Mercedes-Benz|B250e": 10
 , "Opel|Ampera-e": 10
-, "Volkswagen|e-up!": 10
+, "Volkswagen|e-up": 10
 , "Fiat|500e": 9
 , "Chevrolet|Bolt": 2
 , "Nissan|e-NV200": 1
@@ -254,7 +254,7 @@ db.insert(db.countries.NL, "2017-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 54
 , "BMW|i3 BEV": 48
 , "Nissan|Leaf": 26
-, "Volkswagen|e-up!": 9
+, "Volkswagen|e-up": 9
 , "Mercedes-Benz|B250e": 8
 , "Fiat|500e": 5
 , "Nissan|e-NV200": 4
@@ -311,7 +311,7 @@ db.insert(db.countries.NL, "2017-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 20
 , "Smart|Fortwo ED": 11
 , "Smart|Forfour ED": 10
-, "Volkswagen|e-up!": 10
+, "Volkswagen|e-up": 10
 , "Fiat|500e": 9
 , "Citroën|C-Zero": 7
 , "Mercedes-Benz|B250e": 7
@@ -369,7 +369,7 @@ db.insert(db.countries.NL, "2017-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|B250e": 12
 , "Citroën|C-Zero": 6
 , "Kia|Soul EV": 5
-, "Volkswagen|e-up!": 5
+, "Volkswagen|e-up": 5
 , "Nissan|e-NV200": 2
 , "Smart|Fortwo ED": 2
 , "Peugeot|iOn": 1
@@ -425,7 +425,7 @@ db.insert(db.countries.NL, "2017-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|B250e": 4
 , "Peugeot|iOn": 4
 , "Smart|Fortwo ED": 4
-, "Volkswagen|e-up!": 4
+, "Volkswagen|e-up": 4
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
 , "Tesla|Model 3": 1
@@ -476,7 +476,7 @@ db.insert(db.countries.NL, "2017-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 38
 , "Opel|Ampera-e": 19
 , "Smart|Forfour ED": 11
-, "Volkswagen|e-up!": 10
+, "Volkswagen|e-up": 10
 , "Kia|Soul EV": 5
 , "Nissan|e-NV200": 5
 , "Smart|Fortwo ED": 5
@@ -533,7 +533,7 @@ db.insert(db.countries.NL, "2017-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 44
 , "Smart|Forfour ED": 17
 , "Nissan|Leaf": 11
-, "Volkswagen|e-up!": 11
+, "Volkswagen|e-up": 11
 , "Smart|Fortwo ED": 8
 , "Nissan|e-NV200": 5
 , "Fiat|500e": 2
@@ -587,7 +587,7 @@ db.insert(db.countries.NL, "2017-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 62
 , "Renault|Zoe": 62
 , "Hyundai|Ioniq Electric": 53
-, "Volkswagen|e-up!": 23
+, "Volkswagen|e-up": 23
 , "Nissan|Leaf": 21
 , "Smart|Forfour ED": 11
 , "Smart|Fortwo ED": 5
@@ -645,7 +645,7 @@ db.insert(db.countries.NL, "2017-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 9
 , "Smart|Fortwo ED": 9
 , "Peugeot|Partner Electric": 8
-, "Volkswagen|e-up!": 6
+, "Volkswagen|e-up": 6
 , "Smart|Forfour ED": 5
 , "Fiat|500e": 1
 , "Kia|Soul EV": 1
@@ -696,7 +696,7 @@ db.insert(db.countries.NL, "2018-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 57
 , "Nissan|Leaf": 24
 , "Tesla|Model X": 21
-, "Volkswagen|e-up!": 11
+, "Volkswagen|e-up": 11
 , "Peugeot|Partner Electric": 9
 , "Smart|Forfour ED": 9
 , "Smart|Fortwo ED": 9
@@ -753,7 +753,7 @@ db.insert(db.countries.NL, "2018-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 66
 , "Smart|Fortwo ED": 7
 , "Peugeot|iOn": 4
-, "Volkswagen|e-up!": 4
+, "Volkswagen|e-up": 4
 , "Citroën|C-Zero": 1
 , "Citroën|ë-Berlingo Electric": 1
 , "Peugeot|Partner Electric": 1
@@ -810,7 +810,7 @@ db.insert(db.countries.NL, "2018-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Kia|Soul EV": 2
 , "Peugeot|iOn": 2
-, "Volkswagen|e-up!": 2
+, "Volkswagen|e-up": 2
 , "Mercedes-Benz|B250e": 1
 , "other": 6
 });
@@ -913,7 +913,7 @@ db.insert(db.countries.NL, "2018-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 63
 , "Jaguar|I-Pace": 9
 , "Smart|Forfour ED": 8
-, "Volkswagen|e-up!": 7
+, "Volkswagen|e-up": 7
 , "Smart|Fortwo ED": 6
 , "Chevrolet|Bolt": 4
 , "Peugeot|Partner Electric": 3
@@ -970,7 +970,7 @@ db.insert(db.countries.NL, "2018-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|Partner Electric": 8
 , "Jaguar|I-Pace": 5
 , "Peugeot|iOn": 4
-, "Volkswagen|e-up!": 4
+, "Volkswagen|e-up": 4
 , "Citroën|C-Zero": 3
 , "Citroën|ë-Berlingo Electric": 3
 , "Nissan|e-NV200": 3
@@ -1025,7 +1025,7 @@ db.insert(db.countries.NL, "2018-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|e-NV200": 6
 , "Smart|Forfour ED": 6
 , "Smart|Fortwo ED": 4
-, "Volkswagen|e-up!": 2
+, "Volkswagen|e-up": 2
 , "Chevrolet|Bolt": 1
 , "Citroën|C-Zero": 1
 , "Citroën|ë-Berlingo Electric": 1
@@ -1191,7 +1191,7 @@ db.insert(db.countries.NL, "2018-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 22
 , "Smart|Fortwo ED": 13
 , "Nissan|e-NV200": 11
-, "Volkswagen|e-up!": 2
+, "Volkswagen|e-up": 2
 , "other": 9
 });
 
@@ -1241,7 +1241,7 @@ db.insert(db.countries.NL, "2018-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Zoe": 100
 , "Opel|Ampera-e": 96
 , "Nissan|e-NV200": 38
-, "Volkswagen|e-up!": 16
+, "Volkswagen|e-up": 16
 , "Kia|Niro EV": 15
 , "Kia|Soul EV": 10
 , "Peugeot|Partner Electric": 9
@@ -1353,7 +1353,7 @@ db.insert(db.countries.NL, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 28
 , "Kia|Soul EV": 14
 , "Nissan|e-NV200": 14
-, "Volkswagen|e-up!": 14
+, "Volkswagen|e-up": 14
 , "Tesla|Model S": 10
 , "Smart|Fortwo ED": 5
 , "Tesla|Model X": 5
@@ -1413,7 +1413,7 @@ db.insert(db.countries.NL, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 28
 , "Nissan|e-NV200": 11
 , "Tesla|Model S": 9
-, "Volkswagen|e-up!": 8
+, "Volkswagen|e-up": 8
 , "Tesla|Model X": 7
 , "Smart|Fortwo ED": 5
 , "Jaguar|I-Pace": 2
@@ -1639,7 +1639,7 @@ db.insert(db.countries.NL, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 14
 , "Nissan|e-NV200": 11
 , "Smart|Fortwo ED": 10
-, "Volkswagen|e-up!": 9
+, "Volkswagen|e-up": 9
 , "Peugeot|Partner Electric": 5
 , "other": 6
 });
@@ -1696,7 +1696,7 @@ db.insert(db.countries.NL, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 14
 , "Nissan|e-NV200": 11
 , "Mercedes-Benz|EQC": 8
-, "Volkswagen|e-up!": 5
+, "Volkswagen|e-up": 5
 , "Citroën|ë-Berlingo Electric": 3
 , "Peugeot|Partner Electric": 3
 , "Smart|Fortwo ED": 2
@@ -2108,7 +2108,7 @@ db.insert(db.countries.NL, "2020-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 59
 , "BMW|i3 BEV": 54
 , "Seat|Mii Electric": 37
-, "Volkswagen|e-up!": 36
+, "Volkswagen|e-up": 36
 , "Opel|Corsa-e": 30
 , "Porsche|Taycan": 22
 , "Audi|Q8 e-tron": 16
@@ -2168,7 +2168,7 @@ db.insert(db.countries.NL, "2020-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 215
 , "Hyundai|Kona Electric": 180
 , "Nissan|Leaf": 125
-, "Volkswagen|e-up!": 88
+, "Volkswagen|e-up": 88
 , "Renault|Zoe": 86
 , "Mercedes-Benz|EQC": 67
 , "BMW|i3 BEV": 65
@@ -2236,7 +2236,7 @@ db.insert(db.countries.NL, "2020-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|ZS EV": 45
 , "Škoda|Citigo-e": 39
 , "Kia|Soul EV": 38
-, "Volkswagen|e-up!": 37
+, "Volkswagen|e-up": 37
 , "Audi|Q8 e-tron": 35
 , "Porsche|Taycan": 28
 , "Mercedes-Benz|EQC": 26
@@ -2309,7 +2309,7 @@ db.insert(db.countries.NL, "2020-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 10
 , "Seat|Mii Electric": 7
 , "Škoda|Citigo-e": 6
-, "Volkswagen|e-up!": 4
+, "Volkswagen|e-up": 4
 , "Smart|Forfour ED": 2
 , "Honda|e": 1
 , "Mercedes-Benz|eVito": 1
@@ -2376,7 +2376,7 @@ db.insert(db.countries.NL, "2020-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model S": 22
 , "Mercedes-Benz|EQC": 20
 , "Opel|Corsa-e": 20
-, "Volkswagen|e-up!": 17
+, "Volkswagen|e-up": 17
 , "Nissan|e-NV200": 11
 , "Peugeot|Partner Electric": 4
 , "Smart|Fortwo ED": 3
@@ -2432,7 +2432,7 @@ db.insert(db.countries.NL, "2020-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q8 e-tron": 173
 , "Opel|Corsa-e": 138
 , "Seat|Mii Electric": 114
-, "Volkswagen|e-up!": 85
+, "Volkswagen|e-up": 85
 , "Porsche|Taycan": 83
 , "Kia|Soul EV": 61
 , "Peugeot|e-208": 57
@@ -2507,7 +2507,7 @@ db.insert(db.countries.NL, "2020-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 55
 , "Mercedes-Benz|EQC": 51
 , "Kia|Soul EV": 41
-, "Volkswagen|e-up!": 32
+, "Volkswagen|e-up": 32
 , "Hyundai|Ioniq Electric": 27
 , "Smart|Forfour ED": 27
 , "Polestar|2": 16
@@ -2580,7 +2580,7 @@ db.insert(db.countries.NL, "2020-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq Electric": 34
 , "Porsche|Taycan": 32
 , "Kia|Soul EV": 23
-, "Volkswagen|e-up!": 20
+, "Volkswagen|e-up": 20
 , "Honda|e": 13
 , "Volkswagen|e-Crafter": 12
 , "Smart|Fortwo ED": 8
@@ -2650,7 +2650,7 @@ db.insert(db.countries.NL, "2020-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 25
 , "Jaguar|I-Pace": 16
 , "Honda|e": 14
-, "Volkswagen|e-up!": 13
+, "Volkswagen|e-up": 13
 , "Tesla|Model X": 10
 , "Volkswagen|e-Crafter": 10
 , "Smart|Fortwo ED": 8
@@ -2725,7 +2725,7 @@ db.insert(db.countries.NL, "2020-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 29
 , "Tesla|Model X": 27
 , "Mercedes-Benz|EQV": 17
-, "Volkswagen|e-up!": 16
+, "Volkswagen|e-up": 16
 , "Smart|Forfour ED": 15
 , "Smart|Fortwo ED": 15
 , "Volkswagen|e-Crafter": 15
@@ -2800,7 +2800,7 @@ db.insert(db.countries.NL, "2020-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|eVito": 98
 , "Volkswagen|e-Golf": 89
 , "Kia|Soul EV": 73
-, "Volkswagen|e-up!": 67
+, "Volkswagen|e-up": 67
 , "Mercedes-Benz|EQV": 56
 , "Porsche|Taycan": 51
 , "Honda|e": 47
@@ -3112,7 +3112,7 @@ db.insert(db.countries.NL, "2021-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 5
 , "Smart|Fortwo ED": 4
 , "Citroën|ë-Jumpy": 3
-, "Volkswagen|e-up!": 3
+, "Volkswagen|e-up": 3
 , "Mercedes-Benz|EQV": 2
 , "Mercedes-Benz|eVito": 2
 , "Opel|Vivaro-e": 2
@@ -3278,7 +3278,7 @@ db.insert(db.countries.NL, "2021-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|MX-30 BEV": 21
 , "Peugeot|e-Expert": 17
 , "Hyundai|Ioniq Electric": 14
-, "Volkswagen|e-up!": 14
+, "Volkswagen|e-up": 14
 , "Smart|Forfour ED": 12
 , "Mercedes-Benz|EQC": 9
 , "Smart|Fortwo ED": 5
@@ -3445,7 +3445,7 @@ db.insert(db.countries.NL, "2021-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQV": 12
 , "Citroën|ë-Jumpy": 8
 , "Renault|Twingo E-Tech": 8
-, "Volkswagen|e-up!": 8
+, "Volkswagen|e-up": 8
 , "Hyundai|Kona Electric": 7
 , "Dacia|Spring": 5
 , "Peugeot|e-Expert": 5
@@ -3528,7 +3528,7 @@ db.insert(db.countries.NL, "2021-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Seat|Mii Electric": 16
 , "Opel|Vivaro-e": 15
 , "Peugeot|e-Expert": 11
-, "Volkswagen|e-up!": 10
+, "Volkswagen|e-up": 10
 , "Mercedes-Benz|EQV": 9
 , "Smart|Fortwo ED": 8
 , "Dacia|Spring": 6
@@ -3616,7 +3616,7 @@ db.insert(db.countries.NL, "2021-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 21
 , "Audi|e-tron GT": 20
 , "Mercedes-Benz|EQS": 18
-, "Volkswagen|e-up!": 17
+, "Volkswagen|e-up": 17
 , "Smart|Fortwo ED": 16
 , "Mercedes-Benz|EQV": 15
 , "Renault|Twingo E-Tech": 15
@@ -3708,7 +3708,7 @@ db.insert(db.countries.NL, "2021-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 41
 , "Mazda|MX-30 BEV": 38
 , "Nissan|Leaf": 23
-, "Volkswagen|e-up!": 23
+, "Volkswagen|e-up": 23
 , "Seat|Mii Electric": 22
 , "Audi|e-tron GT": 19
 , "Smart|Forfour ED": 19
@@ -3792,7 +3792,7 @@ db.insert(db.countries.NL, "2021-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 230
 , "Nissan|Leaf": 221
 , "Opel|Mokka-e": 212
-, "Volkswagen|e-up!": 169
+, "Volkswagen|e-up": 169
 , "BMW|i3 BEV": 160
 , "Seat|Mii Electric": 143
 , "Citroën|ë-C4": 138
@@ -4648,7 +4648,7 @@ db.insert(db.countries.NL, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 29
 , "Opel|Vivaro-e": 25
 , "Kia|Soul EV": 18
-, "BYD|Yuan Plus": 14
+, "BYD|Atto 3": 14
 , "BYD|Tang EV": 11
 , "Porsche|Taycan": 10
 , "Fiat|E-Ducato": 9
@@ -4748,7 +4748,7 @@ db.insert(db.countries.NL, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQS": 18
 , "Kia|Soul EV": 15
 , "Nio|ET7": 15
-, "BYD|Yuan Plus": 12
+, "BYD|Atto 3": 12
 , "MG|ZS EV": 11
 , "Audi|e-tron GT": 9
 , "Toyota|Proace Electric": 8
@@ -4830,7 +4830,7 @@ db.insert(db.countries.NL, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 96
 , "Renault|Twingo E-Tech": 94
 , "Toyota|bZ4X": 89
-, "BYD|Yuan Plus": 83
+, "BYD|Atto 3": 83
 , "Fiat|500e": 83
 , "Hyundai|Kona Electric": 75
 , "Nissan|Leaf": 65
@@ -4941,7 +4941,7 @@ db.insert(db.countries.NL, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Marvel R": 52
 , "Volkswagen|ID. Buzz": 52
 , "BMW|i7": 49
-, "BYD|Yuan Plus": 49
+, "BYD|Atto 3": 49
 , "Mercedes-Benz|EQB": 49
 , "Tesla|Model X": 48
 , "Opel|Mokka-e": 47
@@ -5028,7 +5028,7 @@ db.insert(db.countries.NL, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 67
 , "Nissan|Leaf": 64
 , "Mercedes-Benz|EQA": 60
-, "BYD|Yuan Plus": 58
+, "BYD|Atto 3": 58
 , "Citroën|ë-C4": 58
 , "Mercedes-Benz|EQS": 57
 , "BMW|iX1": 51
@@ -5134,7 +5134,7 @@ db.insert(db.countries.NL, "2023-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|4 EV": 115
 , "Dacia|Spring": 103
 , "Polestar|2": 87
-, "BYD|Yuan Plus": 86
+, "BYD|Atto 3": 86
 , "Mercedes-Benz|EQA": 79
 , "Renault|Zoe": 71
 , "Mercedes-Benz|EQB": 70
@@ -5243,7 +5243,7 @@ db.insert(db.countries.NL, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|5 EV": 148
 , "MG|ZS EV": 148
 , "MG|4 EV": 142
-, "BYD|Yuan Plus": 134
+, "BYD|Atto 3": 134
 , "Polestar|2": 134
 , "Mercedes-Benz|EQA": 111
 , "Hyundai|Kona Electric": 109
@@ -5346,7 +5346,7 @@ db.insert(db.countries.NL, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C4": 157
 , "Dacia|Spring": 156
 , "Hyundai|Ioniq 6": 126
-, "BYD|Yuan Plus": 105
+, "BYD|Atto 3": 105
 , "Cupra|Born": 99
 , "BMW|iX3": 98
 , "MG|4 EV": 94
@@ -5460,7 +5460,7 @@ db.insert(db.countries.NL, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|5 EV": 75
 , "Dacia|Spring": 73
 , "Mazda|MX-30 BEV": 62
-, "BYD|Yuan Plus": 60
+, "BYD|Atto 3": 60
 , "Volkswagen|ID.5": 57
 , "Mercedes-Benz|EQE": 54
 , "BMW|iX": 53
@@ -5559,7 +5559,7 @@ db.insert(db.countries.NL, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 143
 , "Volvo|EC40": 136
 , "Dacia|Spring": 127
-, "BYD|Yuan Plus": 116
+, "BYD|Atto 3": 116
 , "Hyundai|Ioniq 6": 116
 , "Mercedes-Benz|EQA": 109
 , "Mercedes-Benz|EQB": 106
@@ -5577,7 +5577,7 @@ db.insert(db.countries.NL, "2023-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Leaf": 50
 , "Tesla|Model X": 45
 , "Mazda|MX-30 BEV": 44
-, "Volkswagen|e-up!": 42
+, "Volkswagen|e-up": 42
 , "Fiat|E-Ulysse": 39
 , "Ford|other": 43
 , "Nissan|other": 38
@@ -5660,7 +5660,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Corsa-e": 84
 , "Dacia|Spring": 81
 , "Toyota|bZ4X": 81
-, "BYD|Yuan Plus": 78
+, "BYD|Atto 3": 78
 , "Mini|Cooper SE": 76
 , "Opel|Mokka-e": 73
 , "Cupra|Born": 72
@@ -5682,7 +5682,7 @@ db.insert(db.countries.NL, "2023-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 32
 , "Renault|Twingo E-Tech": 30
 , "Opel|Vivaro-e": 28
-, "Volkswagen|e-up!": 27
+, "Volkswagen|e-up": 27
 , "Fiat|E-Ulysse": 26
 , "Mercedes-Benz|EQS": 24
 , "Volkswagen|ID.5": 23
@@ -5789,7 +5789,7 @@ db.insert(db.countries.NL, "2023-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.5": 43
 , "Mercedes-Benz|EQS": 40
 , "Citroën|ë-Jumpy": 37
-, "BYD|Yuan Plus": 36
+, "BYD|Atto 3": 36
 , "Ford|Mustang Mach-E": 36
 , "Xpeng|P7": 36
 , "Porsche|Taycan": 34
@@ -5885,7 +5885,7 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 117
 , "Dacia|Spring": 110
 , "Mercedes-Benz|EQE": 102
-, "BYD|Yuan Plus": 98
+, "BYD|Atto 3": 98
 , "Mini|Cooper SE": 92
 , "Hyundai|Ioniq 5": 89
 , "Cupra|Born": 82
@@ -5900,7 +5900,7 @@ db.insert(db.countries.NL, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Mustang Mach-E": 45
 , "BMW|iX": 41
 , "Nissan|Leaf": 34
-, "Volkswagen|e-up!": 30
+, "Volkswagen|e-up": 30
 , "Tesla|Model 3": 29
 , "Tesla|Model S": 29
 , "Porsche|Taycan": 28
@@ -5989,7 +5989,7 @@ db.insert(db.countries.NL, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 133
 , "Hyundai|Ioniq 6": 117
 , "Polestar|2": 112
-, "BYD|Yuan Plus": 106
+, "BYD|Atto 3": 106
 , "Mini|Cooper SE": 93
 , "Fiat|500e": 90
 , "MG|4 EV": 81
@@ -6105,7 +6105,7 @@ db.insert(db.countries.NL, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 107
 , "Mercedes-Benz|EQB": 102
 , "Mercedes-Benz|eVito": 100
-, "BYD|Yuan Plus": 88
+, "BYD|Atto 3": 88
 , "Mercedes-Benz|EQE": 87
 , "Audi|Q4 e-tron": 83
 , "Nissan|Leaf": 80
@@ -6215,7 +6215,7 @@ db.insert(db.countries.NL, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Škoda|Enyaq": 130
 , "BMW|iX": 124
 , "Xpeng|G9": 112
-, "BYD|Yuan Plus": 109
+, "BYD|Atto 3": 109
 , "Hyundai|Kona Electric": 101
 , "BMW|i5": 95
 , "Mercedes-Benz|EQA": 95
@@ -6320,7 +6320,7 @@ db.insert(db.countries.NL, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 175
 , "Kia|EV6": 169
 , "Kia|Niro EV": 147
-, "BYD|Yuan Plus": 141
+, "BYD|Atto 3": 141
 , "Kia|EV9": 130
 , "Hyundai|Ioniq 5": 123
 , "Polestar|2": 113
@@ -6436,7 +6436,7 @@ db.insert(db.countries.NL, "2024-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 137
 , "Audi|Q4 e-tron": 135
 , "Volvo|EC40": 128
-, "BYD|Yuan Plus": 125
+, "BYD|Atto 3": 125
 , "Mercedes-Benz|EQE": 100
 , "Citroën|ë-C4": 97
 , "Mercedes-Benz|EQA": 97
@@ -6555,7 +6555,7 @@ db.insert(db.countries.NL, "2024-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 136
 , "Hyundai|Ioniq 6": 130
 , "Cupra|Born": 118
-, "BYD|Yuan Plus": 115
+, "BYD|Atto 3": 115
 , "Kia|EV9": 113
 , "Toyota|bZ4X": 111
 , "BMW|iX3": 99
@@ -6659,7 +6659,7 @@ db.insert(db.countries.NL, "2024-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 141
 , "MG|4 EV": 127
 , "BMW|i4": 126
-, "BYD|Yuan Plus": 119
+, "BYD|Atto 3": 119
 , "Volvo|EC40": 103
 , "Opel|Corsa-e": 99
 , "Audi|Q8 e-tron": 96
@@ -6776,7 +6776,7 @@ db.insert(db.countries.NL, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 135
 , "Jeep|Avenger EV": 129
 , "Volkswagen|ID.4": 129
-, "BYD|Yuan Plus": 126
+, "BYD|Atto 3": 126
 , "BMW|i4": 124
 , "Renault|Scénic E-Tech": 115
 , "Kia|EV9": 109
@@ -6901,7 +6901,7 @@ db.insert(db.countries.NL, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX3": 94
 , "Xpeng|G9": 93
 , "Ford|Mustang Mach-E": 92
-, "BYD|Yuan Plus": 90
+, "BYD|Atto 3": 90
 , "Peugeot|e-2008": 89
 , "Volvo|EC40": 82
 , "BYD|Seal": 76
@@ -7007,7 +7007,7 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 117
 , "BMW|i4": 115
 , "Volkswagen|ID.4": 113
-, "BYD|Yuan Plus": 110
+, "BYD|Atto 3": 110
 , "Renault|Megane E-Tech": 109
 , "Polestar|2": 107
 , "Volkswagen|ID.7": 98
@@ -7126,7 +7126,7 @@ db.insert(db.countries.NL, "2024-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-2008": 145
 , "Volkswagen|ID.3": 145
 , "Jeep|Avenger EV": 133
-, "BYD|Yuan Plus": 120
+, "BYD|Atto 3": 120
 , "Mercedes-Benz|EQA": 116
 , "Mercedes-Benz|EQB": 114
 , "Cupra|Born": 109
@@ -7263,7 +7263,7 @@ db.insert(db.countries.NL, "2024-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 55
 , "MG|4 EV": 52
 , "Xpeng|G9": 52
-, "BYD|Yuan Plus": 49
+, "BYD|Atto 3": 49
 , "Polestar|4": 49
 , "Zeekr|001": 46
 , "Ford|Mustang Mach-E": 42
@@ -7371,7 +7371,7 @@ db.insert(db.countries.NL, "2024-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Hashtag 1": 87
 , "Kia|EV9": 84
 , "BMW|iX2": 83
-, "BYD|Yuan Plus": 83
+, "BYD|Atto 3": 83
 , "Opel|Astra Electric": 78
 , "Mercedes-Benz|EQE": 73
 , "Xpeng|G6": 73
@@ -7464,7 +7464,7 @@ db.insert(db.countries.NL, "2024-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 364
 , "Renault|Scénic E-Tech": 334
 , "Opel|Corsa-e": 314
-, "BYD|Yuan Plus": 273
+, "BYD|Atto 3": 273
 , "Hyundai|Kona Electric": 264
 , "Citroën|ë-C3": 251
 , "Mercedes-Benz|EQB": 232
@@ -7604,7 +7604,7 @@ db.insert(db.countries.NL, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 126
 , "BMW|i5": 120
 , "Mercedes-Benz|EQE": 102
-, "BYD|Yuan Plus": 96
+, "BYD|Atto 3": 96
 , "Kia|EV9": 95
 , "Kia|EV6": 87
 , "Volvo|EC40": 87
@@ -7830,7 +7830,7 @@ db.insert(db.countries.NL, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 116
 , "Peugeot|e-208": 115
 , "Škoda|Enyaq": 110
-, "BYD|Yuan Plus": 104
+, "BYD|Atto 3": 104
 , "Mercedes-Benz|EQA": 103
 , "Dacia|Spring": 100
 , "Volkswagen|ID.4": 96
@@ -8321,7 +8321,7 @@ db.insert(db.countries.NL, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX2": 93
 , "Cupra|Born": 89
 , "Ford|Capri EV": 84
-, "BYD|Yuan Plus": 74
+, "BYD|Atto 3": 74
 , "Peugeot|E-3008": 74
 , "Peugeot|E-5008": 74
 , "Jeep|Avenger EV": 73

@@ -632,7 +632,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-Golf": 38
 , "Tesla|Model 3": 37
 , "Kia|Soul EV": 33
-, "Volkswagen|e-up!": 25
+, "Volkswagen|e-up": 25
 , "Audi|Q8 e-tron": 24
 });
 
@@ -877,7 +877,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 54
 , "BMW|i3 BEV": 54
 , "Porsche|Taycan": 34
-, "Volkswagen|e-up!": 31
+, "Volkswagen|e-up": 31
 , "Seat|Mii Electric": 27
 });
 
@@ -924,7 +924,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 67
 , "Tesla|Model 3": 54
 , "Volkswagen|e-Golf": 52
-, "Volkswagen|e-up!": 49
+, "Volkswagen|e-up": 49
 , "Mercedes-Benz|EQC": 40
 , "Peugeot|e-208": 33
 , "BMW|i3 BEV": 33
@@ -1027,7 +1027,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 67
 , "BMW|i3 BEV": 65
 , "Seat|Mii Electric": 62
-, "Volkswagen|e-up!": 61
+, "Volkswagen|e-up": 61
 });
 
 db.insert(db.countries.AT, "2020-10", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -1731,7 +1731,7 @@ db.insert(db.countries.AT, "2021-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq Electric": 197
 , "Volkswagen|ID.4": 180
 , "Ford|Mustang Mach-E": 165
-, "Volkswagen|e-up!": 156
+, "Volkswagen|e-up": 156
 , "Tesla|Model 3": 155
 , "Volkswagen|ID.3": 143
 , "other": 1538
@@ -2876,7 +2876,7 @@ db.insert(db.countries.AT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 154
 , "BMW|i4": 110
 , "BMW|iX1": 103
-, "BYD|Yuan Plus": 103
+, "BYD|Atto 3": 103
 , "other": 1819
 });
 
@@ -3138,7 +3138,7 @@ db.insert(db.countries.AT, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 134
 , "BMW|iX3": 97
 , "BYD|Seal": 88
-, "BYD|Yuan Plus": 81
+, "BYD|Atto 3": 81
 , "Volkswagen|ID.4": 70
 , "other": 1501
 });
@@ -3338,7 +3338,7 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuni2024.ods",
-{ "BYD|Yuan Plus": 457
+{ "BYD|Atto 3": 457
 , "Tesla|Model Y": 614
 , "Tesla|Model 3": 420
 , "BMW|i4": 219
@@ -4350,7 +4350,7 @@ db.insert(db.countries.AT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 270
 , "Volkswagen|ID.7": 174
 , "BMW|iX1": 146
-, "BYD|Yuan Plus": 135
+, "BYD|Atto 3": 135
 , "Cupra|Born": 132
 , "Volkswagen|ID.3": 131
 , "BYD|Seal": 129
@@ -4408,7 +4408,7 @@ db.insert(db.countries.AT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Explorer EV": 140
 , "BMW|iX1": 138
 , "Volkswagen|ID.7": 134
-, "BYD|Yuan Plus": 123
+, "BYD|Atto 3": 123
 , "other": 2638
 });
 
@@ -4461,7 +4461,7 @@ db.insert(db.countries.AT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 309
 , "BMW|iX1": 271
 , "BMW|iX3": 250
-, "BYD|Yuan Plus": 230
+, "BYD|Atto 3": 230
 , "Volkswagen|ID.7": 210
 , "BYD|Sealion 7": 205
 , "other": 4531
@@ -4510,7 +4510,7 @@ db.insert(db.countries.AT, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.st
 db.insert(db.countries.AT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisApril2026.ods",
 { "Škoda|Elroq": 476
 , "Škoda|Enyaq": 430
-, "BYD|Yuan Plus": 337
+, "BYD|Atto 3": 337
 , "BYD|Sealion 7": 285
 , "Volkswagen|ID.7": 271
 , "BMW|iX1": 251

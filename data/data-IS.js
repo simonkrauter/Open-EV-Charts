@@ -3580,7 +3580,7 @@ db.insert(db.countries.IS, "2023-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|Q4 e-tron": 3
 , "BMW|iX": 3
 , "Mercedes-Benz|EQS": 3
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "Porsche|Taycan": 2
 , "Mercedes-Benz|EQE": 1
 , "Tesla|Model X": 1
@@ -3652,7 +3652,7 @@ db.insert(db.countries.IS, "2023-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQS": 3
 , "Porsche|Taycan": 3
 , "BMW|iX1": 2
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "GWM|Ora 03": 2
 , "Jaguar|I-Pace": 2
 , "Mercedes-Benz|EQE": 2
@@ -3719,7 +3719,7 @@ db.insert(db.countries.IS, "2023-06", db.dsTypes.ElectricCarsByModel, "https://b
 , "MG|ZS EV": 12
 , "Polestar|2": 12
 , "Hyundai|Ioniq 5": 11
-, "BYD|Yuan Plus": 10
+, "BYD|Atto 3": 10
 , "Mercedes-Benz|EQA": 10
 , "Audi|Q8 e-tron": 8
 , "Mercedes-Benz|EQC": 8
@@ -3805,7 +3805,7 @@ db.insert(db.countries.IS, "2023-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQC": 4
 , "Mercedes-Benz|EQE": 4
 , "BYD|Tang EV": 3
-, "BYD|Yuan Plus": 3
+, "BYD|Atto 3": 3
 , "Nissan|Ariya": 3
 , "Volvo|EC40": 3
 , "MG|ZS EV": 2
@@ -3871,7 +3871,7 @@ db.insert(db.countries.IS, "2023-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Škoda|Enyaq": 12
 , "Audi|Q4 e-tron": 11
 , "Volkswagen|ID.3": 11
-, "BYD|Yuan Plus": 10
+, "BYD|Atto 3": 10
 , "MG|5 EV": 9
 , "Nissan|Leaf": 9
 , "Volvo|EC40": 9
@@ -3952,7 +3952,7 @@ db.insert(db.countries.IS, "2023-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQE": 9
 , "Audi|Q4 e-tron": 8
 , "BMW|iX3": 8
-, "BYD|Yuan Plus": 8
+, "BYD|Atto 3": 8
 , "BMW|iX": 7
 , "MG|Marvel R": 7
 , "Mercedes-Benz|EQA": 6
@@ -4028,7 +4028,7 @@ db.insert(db.countries.IS, "2023-10", db.dsTypes.ElectricCarsByModel, "https://b
 , "Mercedes-Benz|EQE": 12
 , "Nissan|Ariya": 12
 , "Volkswagen|ID.3": 11
-, "BYD|Yuan Plus": 10
+, "BYD|Atto 3": 10
 , "Audi|Q8 e-tron": 9
 , "Audi|Q4 e-tron": 8
 , "BMW|iX": 7
@@ -4111,7 +4111,7 @@ db.insert(db.countries.IS, "2023-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|Q4 e-tron": 6
 , "Mercedes-Benz|EQE": 6
 , "Nissan|Leaf": 6
-, "BYD|Yuan Plus": 5
+, "BYD|Atto 3": 5
 , "GWM|Ora 03": 5
 , "MG|Marvel R": 5
 , "Mercedes-Benz|EQC": 5
@@ -4197,7 +4197,7 @@ db.insert(db.countries.IS, "2023-12", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i5": 2
 , "BMW|iX": 2
 , "BYD|Tang EV": 2
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "GWM|Ora 03": 2
 , "BMW|i4": 1
 , "Citroën|ë-C3": 1
@@ -4251,7 +4251,7 @@ db.insert(db.countries.IS, "2024-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Kia|EV6": 6
 , "Subaru|Solterra": 5
 , "Volkswagen|ID.5": 5
-, "BYD|Yuan Plus": 4
+, "BYD|Atto 3": 4
 , "MG|Marvel R": 4
 , "Mercedes-Benz|EQE": 4
 , "Renault|Megane E-Tech": 4
@@ -4333,7 +4333,7 @@ db.insert(db.countries.IS, "2024-02", db.dsTypes.ElectricCarsByModel, "https://b
 , "Audi|Q8 e-tron": 1
 , "BMW|i7": 1
 , "BMW|iX": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Citroën|ë-C4": 1
 , "Honda|e:Ny1": 1
 , "Kia|EV9": 1
@@ -4399,7 +4399,7 @@ db.insert(db.countries.IS, "2024-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "Nissan|Ariya": 2
 , "Polestar|2": 2
 , "BMW|i7": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "GWM|Ora 03": 1
 , "Honda|e:Ny1": 1
 , "Hyundai|Ioniq 5": 1
@@ -4544,7 +4544,7 @@ db.insert(db.countries.IS, "2024-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volvo|EC40": 2
 , "BMW|i4": 1
 , "BYD|Song Plus": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Citroën|ë-C3": 1
 , "MG|4 EV": 1
 , "Mercedes-Benz|EQC": 1
@@ -4667,7 +4667,7 @@ db.insert(db.countries.IS, "2024-07", db.dsTypes.AllCarsByBrand, "https://bifrei
 db.insert(db.countries.IS, "2024-07", db.dsTypes.ElectricCarsByModel, "https://bifreidatolur.samgongustofa.is/#nyskraningar (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
 { "Tesla|Model Y": 26
 , "BYD|Song Plus": 22
-, "BYD|Yuan Plus": 13
+, "BYD|Atto 3": 13
 , "Škoda|Enyaq": 11
 , "Polestar|2": 10
 , "Kia|EV6": 8
@@ -4756,7 +4756,7 @@ db.insert(db.countries.IS, "2024-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Citroën|ë-C4": 4
 , "Mercedes-Benz|EQE": 4
 , "BYD|Seal": 3
-, "BYD|Yuan Plus": 3
+, "BYD|Atto 3": 3
 , "Polestar|2": 3
 , "Renault|Megane E-Tech": 3
 , "Volkswagen|ID.4": 3
@@ -4850,7 +4850,7 @@ db.insert(db.countries.IS, "2024-09", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i5": 1
 , "BMW|iX3": 1
 , "BYD|Seal": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Citroën|ë-C3": 1
 , "Renault|Scénic E-Tech": 1
 , "Tesla|Model X": 1
@@ -5004,7 +5004,7 @@ db.insert(db.countries.IS, "2024-11", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i4": 1
 , "BMW|i5": 1
 , "BYD|Dolphin": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Ford|Mustang Mach-E": 1
 , "Mercedes-Benz|EQS": 1
 , "Mercedes-Benz|eCitan": 1
@@ -5149,7 +5149,7 @@ db.insert(db.countries.IS, "2025-01", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.4": 3
 , "Škoda|Enyaq": 3
 , "Audi|Q4 e-tron": 2
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "Mercedes-Benz|eCitan": 2
 , "Volvo|EX90": 2
 , "Xpeng|G9": 2
@@ -5240,7 +5240,7 @@ db.insert(db.countries.IS, "2025-02", db.dsTypes.ElectricCarsByModel, "https://b
 , "BMW|i4": 1
 , "BMW|iX1": 1
 , "BMW|iX3": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Jaguar|I-Pace": 1
 , "Renault|Scénic E-Tech": 1
 , "Tesla|Model X": 1
@@ -5307,7 +5307,7 @@ db.insert(db.countries.IS, "2025-03", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.4": 3
 , "Volvo|EX90": 3
 , "BYD|Dolphin": 2
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "Citroën|ë-C4": 2
 , "Hyundai|Ioniq 5": 2
 , "MG|Marvel R": 2
@@ -5386,7 +5386,7 @@ db.insert(db.countries.IS, "2025-04", db.dsTypes.ElectricCarsByModel, "https://b
 , "Volkswagen|ID.3": 2
 , "Audi|e-tron GT": 1
 , "BYD|Seal": 1
-, "BYD|Yuan Plus": 1
+, "BYD|Atto 3": 1
 , "Citroën|ë-C4": 1
 , "Ford|Mustang Mach-E": 1
 , "Kia|EV6": 1
@@ -5445,7 +5445,7 @@ db.insert(db.countries.IS, "2025-05", db.dsTypes.ElectricCarsByModel, "https://b
 , "Ford|Mustang Mach-E": 6
 , "Xpeng|G9": 6
 , "Škoda|Enyaq": 6
-, "BYD|Yuan Plus": 5
+, "BYD|Atto 3": 5
 , "Kia|EV9": 5
 , "Volvo|EX90": 5
 , "Audi|Q4 e-tron": 4
@@ -5516,7 +5516,7 @@ db.insert(db.countries.IS, "2025-06", db.dsTypes.ElectricCarsByModel, "https://b
 , "Toyota|bZ4X": 15
 , "BYD|Sealion 7": 14
 , "Audi|Q4 e-tron": 12
-, "BYD|Yuan Plus": 8
+, "BYD|Atto 3": 8
 , "Kia|EV6": 8
 , "Renault|Megane E-Tech": 8
 , "Renault|Zoe": 8
@@ -5607,7 +5607,7 @@ db.insert(db.countries.IS, "2025-07", db.dsTypes.ElectricCarsByModel, "https://b
 , "BYD|Dolphin": 4
 , "MG|5 EV": 4
 , "BMW|iX1": 3
-, "BYD|Yuan Plus": 3
+, "BYD|Atto 3": 3
 , "Kia|EV9": 3
 , "Volkswagen|ID.7": 3
 , "Xpeng|G9": 3
@@ -5682,7 +5682,7 @@ db.insert(db.countries.IS, "2025-08", db.dsTypes.ElectricCarsByModel, "https://b
 , "Kia|EV9": 3
 , "MG|5 EV": 3
 , "Nissan|Ariya": 3
-, "BYD|Yuan Plus": 2
+, "BYD|Atto 3": 2
 , "GWM|Ora 03": 2
 , "Mercedes-Benz|eCitan": 2
 , "Renault|Megane E-Tech": 2
