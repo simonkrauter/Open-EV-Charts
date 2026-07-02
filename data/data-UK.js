@@ -5715,12 +5715,12 @@ db.insert(db.countries.UK, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 50
 , "Fiat|other": 49
 , "Honda|other": 32
+, "Jeep|other": 32
 , "Tesla|other": 28
-, "Jeep|other": 26
 , "Xpeng|other": 24
 , "Dacia|other": 12
 , "Nissan|other": 12
-, "other": 1642
+, "other": 1636
 });
 
 db.insert(db.countries.UK, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -5828,6 +5828,7 @@ db.insert(db.countries.UK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 1188
 , "BMW|other": 849
 , "Škoda|other": 756
+, "Nissan|other": 728
 , "MG|other": 657
 , "Toyota|other": 624
 , "Omoda Jaecoo|other": 550
@@ -5836,7 +5837,6 @@ db.insert(db.countries.UK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|other": 447
 , "Smart|other": 430
 , "Volvo|other": 422
-, "Nissan|other": 406
 , "Geely|other": 380
 , "Cupra|other": 333
 , "Polestar|other": 329
@@ -5844,10 +5844,10 @@ db.insert(db.countries.UK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 273
 , "Citroën|other": 231
 , "Honda|other": 207
+, "Jeep|other": 195
 , "Fiat|other": 181
-, "Jeep|other": 116
 , "Dacia|other": 68
-, "other": 9610
+, "other": 9209
 });
 
 db.insert(db.countries.UK, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
@@ -5962,6 +5962,7 @@ db.insert(db.countries.UK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 298
 , "Volvo|other": 298
 , "Tesla|other": 286
+, "Nissan|other": 223
 , "Cupra|other": 215
 , "Porsche|other": 199
 , "Geely|other": 197
@@ -5971,8 +5972,7 @@ db.insert(db.countries.UK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Deepal|other": 153
 , "Smart|other": 151
 , "Fiat|other": 106
-, "Nissan|other": 97
 , "Xpeng|other": 86
-, "Suzuki|other": 49
-, "other": 4397
+, "Jeep|other": 53
+, "other": 4267
 });
