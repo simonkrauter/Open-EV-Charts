@@ -7644,3 +7644,118 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Smart|other": 3
 , "other": 87
 });
+
+db.insert(db.countries.FI, "2026-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Toyota": 1418
+, "Volkswagen": 663
+, "Škoda": 636
+, "Mercedes-Benz": 461
+, "Tesla": 445
+, "Volvo": 399
+, "BMW": 335
+, "Kia": 324
+, "Audi": 320
+, "Ford": 190
+, "Hyundai": 137
+, "Smart": 127
+, "BYD": 114
+, "Polestar": 113
+, "Peugeot": 96
+, "Mazda": 95
+, "Renault": 80
+, "Opel": 72
+, "MG": 66
+, "Citroën": 64
+, "Nissan": 57
+, "Cupra": 56
+, "Subaru": 49
+, "Mitsubishi": 47
+, "Dacia": 44
+, "Suzuki": 41
+, "Porsche": 27
+, "Xpeng": 24
+, "Mini": 21
+, "Land Rover": 20
+, "Aion": 10
+, "Honda": 10
+, "Seat": 6
+, "Jeep": 3
+, "Fiat": 1
+, "Omoda Jaecoo": 1
+, "other": 92
+});
+
+db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
+{ "Tesla|Model Y": 304
+, "Toyota|bZ4X": 200
+, "Mercedes-Benz|CLA EV": 191
+, "Toyota|C-HR+": 149
+, "Tesla|Model 3": 140
+, "Škoda|Elroq": 140
+, "Škoda|Enyaq": 139
+, "Volkswagen|ID.4": 128
+, "Smart|Hashtag 5": 119
+, "Volvo|EX40": 107
+, "Mercedes-Benz|EQB": 85
+, "BMW|i4": 83
+, "Audi|Q6 e-tron": 81
+, "Audi|Q4 e-tron": 79
+, "Polestar|4": 69
+, "Volvo|EX30": 68
+, "Mercedes-Benz|EQC": 67
+, "Kia|EV3": 62
+, "Volkswagen|ID.7": 50
+, "Ford|Explorer EV": 46
+, "Mazda|EZ-6 BEV": 42
+, "Volvo|EC40": 42
+, "Kia|PV5": 37
+, "MG|4 EV": 36
+, "Mercedes-Benz|EQA": 35
+, "Hyundai|Inster": 34
+, "BMW|iX1": 32
+, "BYD|Sealion 7": 30
+, "BYD|Seal": 29
+, "Polestar|2": 28
+, "BMW|iX3": 27
+, "Audi|A6 e-tron": 25
+, "Renault|5 E-Tech": 24
+, "BYD|Dolphin": 21
+, "BMW|iX2": 20
+, "Ford|Capri EV": 20
+, "Volkswagen|ID.5": 19
+, "Xpeng|G6": 19
+, "Kia|EV4": 18
+, "Mini|Cooper SE": 18
+, "Porsche|Macan Electric": 17
+, "Renault|Scénic E-Tech": 17
+, "Hyundai|Ioniq 5": 16
+, "Polestar|3": 16
+, "Hyundai|Ioniq 6": 14
+, "Peugeot|E-5008": 14
+, "Volkswagen|ID.3": 14
+, "Kia|EV6": 13
+, "Citroën|ë-C5": 12
+, "Cupra|Tavascan": 12
+, "Kia|EV5": 12
+, "Ford|other": 22
+, "Opel|other": 22
+, "Kia|other": 18
+, "BMW|other": 17
+, "MG|other": 15
+, "Nissan|other": 14
+, "Peugeot|other": 11
+, "Aion|other": 10
+, "Citroën|other": 8
+, "Smart|other": 8
+, "Volvo|other": 8
+, "Renault|other": 7
+, "Hyundai|other": 5
+, "Xpeng|other": 5
+, "Audi|other": 4
+, "Mercedes-Benz|other": 4
+, "BYD|other": 3
+, "Porsche|other": 3
+, "Subaru|other": 3
+, "Cupra|other": 2
+, "other": 100
+});
