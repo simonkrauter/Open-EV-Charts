@@ -2253,3 +2253,29 @@ db.insert(db.countries.CN, "2026-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Tesla|Model 3": 3000
 , "other": 320300
 });
+
+db.insert(db.countries.CN, "2026-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/06/13/the-big-ice-meltdown-mays-china-ev-sales-report/",
+{ "other": 1516667
+});
+
+db.insert(db.countries.CN, "2026-05", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/06/13/the-big-ice-meltdown-mays-china-ev-sales-report/",
+{ "Geometry|Xingyuan": 38751
+, "Tesla|Model Y": 28911
+, "Xiaomi|SU7": 24023
+, "Leapmotor|A10": 22306
+, "Tesla|Model 3": 18370
+, "Wuling|Hongguang Mini EV": 18308
+, "BYD|Atto 2": 17043
+, "Changan|Qiyuan Q05 EV": 15954
+, "MG|4 EV": 15067
+, "Xpeng|Mona M03": 14160
+, "BYD|Sealion 06 EV": 14102
+, "Wuling|Bingo Pro": 13657
+, "BYD|Dolphin": 12819
+, "Nio|ES8": 11472
+, "BYD|Song EV": 9961
+, "BYD|Sealion 05 EV": 9850
+, "Chery|QQ3 EV": 8523
+, "BYD|Qin EV": 6913
+, "other": 336810
+});
