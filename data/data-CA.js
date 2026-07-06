@@ -283,9 +283,9 @@ db.insert(db.countries.CA, "2025-Q3", db.dsTypes.ElectricCarsTotal, "https://www
 });
 
 db.insert(db.countries.CA, "2025-Q4", db.dsTypes.AllCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 411663
+{ "other": 412746
 });
 
 db.insert(db.countries.CA, "2025-Q4", db.dsTypes.ElectricCarsTotal, "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010002501",
-{ "other": 30464
+{ "other": 31482
 });
