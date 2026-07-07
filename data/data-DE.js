@@ -10015,3 +10015,128 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|other": 35
 , "other": 598
 });
+
+db.insert(db.countries.DE, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2026_06.xlsx?__blob=publicationFile&v=3",
+{ "Volkswagen": 51058
+, "BMW": 26119
+, "Škoda": 24963
+, "Mercedes-Benz": 23728
+, "Audi": 19097
+, "Opel": 13097
+, "Seat": 10699
+, "Ford": 9693
+, "Dacia": 9454
+, "Hyundai": 8436
+, "Renault": 8113
+, "Tesla": 7768
+, "Cupra": 6773
+, "Fiat": 6433
+, "BYD": 6259
+, "Toyota": 6072
+, "Kia": 5913
+, "Peugeot": 5810
+, "Volvo": 5367
+, "Mini": 4936
+, "Citroën": 4842
+, "Mazda": 4750
+, "MG": 3946
+, "Nissan": 3084
+, "Leapmotor": 2662
+, "Porsche": 2594
+, "Suzuki": 2277
+, "Mitsubishi": 2160
+, "Land Rover": 1307
+, "Jeep": 1154
+, "Smart": 934
+, "Xpeng": 922
+, "Honda": 675
+, "Polestar": 603
+, "Subaru": 372
+, "Geely": 189
+, "Lynk & Co": 110
+, "Zeekr": 104
+, "GWM": 98
+, "Omoda Jaecoo": 34
+, "other": 3773
+});
+
+db.insert(db.countries.DE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2026_06.xlsx?__blob=publicationFile&v=3",
+{ "Tesla|Model Y": 6023
+, "Volkswagen|ID.3": 3514
+, "Škoda|Enyaq": 3383
+, "Škoda|Elroq": 3315
+, "BMW|iX1": 2628
+, "Mini|Cooper SE": 2327
+, "Audi|A6 e-tron": 2274
+, "Volkswagen|ID.7": 2248
+, "Cupra|Tavascan": 2159
+, "Mercedes-Benz|CLA EV": 2048
+, "Leapmotor|T03": 1912
+, "Cupra|Born": 1830
+, "Audi|Q6 e-tron": 1811
+, "BMW|i4": 1811
+, "Tesla|Model 3": 1708
+, "Dacia|Spring": 1701
+, "BMW|iX3": 1688
+, "Volkswagen|ID.4/ID.5": 1674
+, "Citroën|ë-C3": 1457
+, "Mercedes-Benz|EQB": 1265
+, "Mercedes-Benz|EQC": 1250
+, "Hyundai|Inster": 1187
+, "Ford|Explorer EV": 1172
+, "Volkswagen|ID. Buzz": 1077
+, "Renault|5 E-Tech": 1066
+, "Fiat|500e": 1027
+, "Kia|EV3": 979
+, "BMW|i5": 920
+, "Opel|Corsa-e": 797
+, "Renault|Twingo E-Tech": 759
+, "Ford|Puma Gen-E": 757
+, "Kia|EV2": 747
+, "Hyundai|Kona Electric": 733
+, "MG|4 EV": 728
+, "Volvo|EX30": 708
+, "Audi|Q4 e-tron": 703
+, "Mercedes-Benz|EQA": 692
+, "Renault|Scénic E-Tech": 659
+, "Hyundai|Ioniq 5": 647
+, "Opel|Grandland Electric": 602
+, "Porsche|Macan Electric": 602
+, "Nissan|Micra EV": 589
+, "Toyota|bZ4X": 589
+, "Cupra|Raval": 582
+, "Fiat|Grande Panda Electric": 555
+, "Renault|4 E-Tech": 527
+, "Mazda|EZ-6 BEV": 517
+, "BYD|Atto 3": 508
+, "Polestar|4": 493
+, "Smart|Hashtag 5": 492
+, "BYD|other": 1821
+, "Kia|other": 1452
+, "Peugeot|other": 1264
+, "Opel|other": 956
+, "Xpeng|other": 922
+, "Volvo|other": 869
+, "Ford|other": 794
+, "Mercedes-Benz|other": 675
+, "BMW|other": 658
+, "Leapmotor|other": 612
+, "Porsche|other": 490
+, "Smart|other": 442
+, "Toyota|other": 396
+, "MG|other": 351
+, "Hyundai|other": 250
+, "Jeep|other": 220
+, "Mitsubishi|other": 211
+, "Suzuki|other": 202
+, "Volkswagen|other": 198
+, "Renault|other": 179
+, "Subaru|other": 155
+, "Citroën|other": 119
+, "Audi|other": 116
+, "Polestar|other": 110
+, "Zeekr|other": 104
+, "Nissan|other": 81
+, "Fiat|other": 47
+, "other": 923
+});
