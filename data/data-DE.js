@@ -9773,7 +9773,7 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Opel": 12241
 , "Hyundai": 8646
 , "Ford": 7768
-, "Seat": 7372
+, "Seat": 7363
 , "Fiat": 6127
 , "Kia": 5656
 , "Toyota": 5512
@@ -9782,7 +9782,7 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Peugeot": 5358
 , "BYD": 4705
 , "Citroën": 4634
-, "Cupra": 4399
+, "Cupra": 4408
 , "Volvo": 3893
 , "Mazda": 3538
 , "Mini": 3441
@@ -9895,7 +9895,7 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Škoda": 19625
 , "Audi": 17288
 , "Opel": 11501
-, "Seat": 7912
+, "Seat": 7877
 , "Hyundai": 7299
 , "Ford": 6889
 , "Renault": 6336
@@ -9907,7 +9907,7 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.kb
 , "Toyota": 4916
 , "Citroën": 4689
 , "Peugeot": 4639
-, "Cupra": 4496
+, "Cupra": 4531
 , "Volvo": 4417
 , "Mini": 3660
 , "Mazda": 3317
@@ -10012,6 +10012,6 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Zeekr|other": 38
 , "Fiat|other": 37
 , "Tesla|other": 37
-, "Seat|other": 35
+, "Cupra|other": 35
 , "other": 598
 });
