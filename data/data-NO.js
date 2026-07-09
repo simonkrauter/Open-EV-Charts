@@ -7383,12 +7383,12 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 26
 , "Nio|other": 24
 , "Fiat|other": 23
-, "Mercedes-Benz|other": 21
+, "Mercedes-Benz|other": 23
 , "Volvo|other": 21
 , "Smart|other": 19
 , "Opel|other": 11
 , "Cupra|other": 9
-, "other": 1199
+, "other": 1197
 });
 
 db.insert(db.countries.NO, "2026-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2026",
@@ -7467,7 +7467,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|ë-C3": 81
 , "MG|S6 EV": 78
 , "Peugeot|e-2008": 78
-, "Mercedes-Benz|EQC": 71
+, "Mercedes-Benz|GLC EQ": 71
 , "Opel|Grandland Electric": 62
 , "BMW|i4": 57
 , "MG|S5 EV": 56
@@ -7479,26 +7479,26 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 75
 , "BMW|other": 58
 , "Citroën|other": 50
+, "Mercedes-Benz|other": 49
 , "Peugeot|other": 46
 , "Subaru|other": 41
 , "Polestar|other": 37
+, "Hyundai|other": 36
 , "Kia|other": 36
-, "Mercedes-Benz|other": 36
 , "Renault|other": 35
-, "Hyundai|other": 34
 , "Audi|other": 33
 , "Zeekr|other": 27
 , "Nio|other": 26
 , "Volvo|other": 22
+, "Jeep|other": 19
 , "Porsche|other": 18
-, "Jeep|other": 17
 , "Fiat|other": 16
 , "Opel|other": 14
 , "JAC|other": 13
 , "Volkswagen|other": 12
 , "Xpeng|other": 9
 , "Smart|other": 8
-, "other": 1135
+, "other": 1118
 });
 
 
