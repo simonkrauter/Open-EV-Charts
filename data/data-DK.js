@@ -4656,7 +4656,7 @@ db.insert(db.countries.DK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Urban Cruiser Electric": 275
 , "Xpeng|G6": 263
 , "Polestar|4": 253
-, "Mercedes-Benz|EQB": 249
+, "Mercedes-Benz|GLB EQ": 249
 , "Volvo|EX40": 238
 , "Mazda|EZ-6 BEV": 205
 , "Citroën|ë-C3": 196
@@ -4747,7 +4747,7 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 179
 , "Peugeot|e-2008": 158
 , "Hyundai|Kona Electric": 155
-, "Mercedes-Benz|EQB": 142
+, "Mercedes-Benz|GLB EQ": 143
 , "Ford|E-Transit": 141
 , "MG|4 EV": 138
 , "Audi|A6 e-tron": 136
@@ -4795,5 +4795,5 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 15
 , "Honda|other": 14
 , "Polestar|other": 11
-, "other": 36
+, "other": 35
 });
