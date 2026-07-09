@@ -7328,7 +7328,7 @@ db.insert(db.countries.SE, "2025-08", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|Scénic E-Tech": 37
 , "Hyundai|Ioniq 9": 36
 , "BMW|iX2": 33
-, "Mercedes-Benz|CLA EV": 30
+, "Mercedes-Benz|CLA EQ": 30
 , "Nio|ET5": 29
 , "Hyundai|Kona Electric": 28
 , "MG|S5 EV": 25
@@ -7418,7 +7418,7 @@ db.insert(db.countries.SE, "2025-09", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQB": 157
 , "Audi|Q4 e-tron": 132
 , "Kia|EV9": 123
-, "Mercedes-Benz|CLA EV": 119
+, "Mercedes-Benz|CLA EQ": 119
 , "Audi|A6 e-tron": 110
 , "BMW|i5": 107
 , "Porsche|Macan Electric": 107
@@ -7529,7 +7529,7 @@ db.insert(db.countries.SE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://m
 , "Polestar|2": 143
 , "BMW|i5": 142
 , "BMW|i4": 126
-, "Mercedes-Benz|CLA EV": 124
+, "Mercedes-Benz|CLA EQ": 124
 , "Tesla|Model Y": 116
 , "Mercedes-Benz|EQE": 109
 , "Renault|5 E-Tech": 108
@@ -7633,7 +7633,7 @@ db.insert(db.countries.SE, "2025-11", db.dsTypes.ElectricCarsByModel, "https://m
 , "Tesla|Model 3": 155
 , "Mercedes-Benz|EQB": 153
 , "Audi|A6 e-tron": 152
-, "Mercedes-Benz|CLA EV": 146
+, "Mercedes-Benz|CLA EQ": 146
 , "BMW|i5": 144
 , "Volvo|EC40": 136
 , "BMW|i4": 128
@@ -7737,7 +7737,7 @@ db.insert(db.countries.SE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://m
 , "Škoda|Enyaq": 258
 , "Tesla|Model 3": 208
 , "Kia|EV6": 206
-, "Mercedes-Benz|CLA EV": 205
+, "Mercedes-Benz|CLA EQ": 205
 , "Volvo|EC40": 194
 , "Renault|5 E-Tech": 189
 , "Toyota|bZ4X": 182
@@ -7848,7 +7848,7 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "Renault|5 E-Tech": 222
 , "Volkswagen|ID.4": 199
 , "BMW|iX1": 190
-, "Mercedes-Benz|CLA EV": 147
+, "Mercedes-Benz|CLA EQ": 147
 , "Volvo|EC40": 124
 , "Cupra|Born": 123
 , "Volkswagen|ID.3": 120
@@ -7960,7 +7960,7 @@ db.insert(db.countries.SE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Mercedes-Benz|EQA": 161
 , "Renault|5 E-Tech": 134
 , "Kia|EV9": 130
-, "Mercedes-Benz|CLA EV": 109
+, "Mercedes-Benz|CLA EQ": 109
 , "Kia|EV6": 107
 , "BMW|i4": 104
 , "Volvo|ES90": 100
@@ -8069,7 +8069,7 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Toyota|bZ4X": 263
 , "Volvo|EC40": 241
 , "Škoda|Enyaq": 219
-, "Mercedes-Benz|CLA EV": 204
+, "Mercedes-Benz|CLA EQ": 204
 , "Kia|EV9": 199
 , "BMW|iX1": 198
 , "Renault|5 E-Tech": 196
@@ -8083,7 +8083,7 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Explorer EV": 116
 , "Audi|Q6 e-tron": 111
 , "Toyota|C-HR+": 106
-, "Mercedes-Benz|EQB": 103
+, "Mercedes-Benz|GLB EQ": 103
 , "Renault|Scénic E-Tech": 95
 , "Polestar|2": 90
 , "Cupra|Born": 87
@@ -8179,8 +8179,8 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV4": 285
 , "Volvo|EC40": 237
 , "Kia|EV9": 208
-, "Mercedes-Benz|CLA EV": 196
-, "Mercedes-Benz|EQB": 187
+, "Mercedes-Benz|CLA EQ": 196
+, "Mercedes-Benz|GLB EQ": 187
 , "Toyota|bZ4X": 177
 , "Kia|EV5": 171
 , "Zeekr|7X": 171
@@ -8206,7 +8206,7 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Explorer EV": 66
 , "MG|4 EV": 66
 , "Xpeng|G6": 66
-, "Mercedes-Benz|EQC": 55
+, "Mercedes-Benz|GLC EQ": 55
 , "Porsche|Macan Electric": 52
 , "BMW|iX": 47
 , "Volvo|ES90": 45
