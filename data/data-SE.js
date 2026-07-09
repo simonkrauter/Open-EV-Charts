@@ -7894,13 +7894,13 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://m
 , "BYD|other": 14
 , "Tesla|other": 13
 , "Subaru|other": 12
+, "Citroën|other": 10
 , "MG|other": 10
 , "Xpeng|other": 10
-, "Citroën|other": 9
 , "Fiat|other": 9
 , "Kia|other": 9
 , "Smart|other": 5
-, "other": 112
+, "other": 111
 });
 
 db.insert(db.countries.SE, "2026-02", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8000,7 +8000,7 @@ db.insert(db.countries.SE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Nissan|other": 26
 , "Peugeot|other": 26
 , "Mercedes-Benz|other": 21
-, "Citroën|other": 17
+, "Citroën|other": 19
 , "Zeekr|other": 16
 , "Opel|other": 13
 , "BYD|other": 11
@@ -8009,7 +8009,7 @@ db.insert(db.countries.SE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://m
 , "Porsche|other": 8
 , "MG|other": 6
 , "Tesla|other": 6
-, "other": 141
+, "other": 139
 });
 
 db.insert(db.countries.SE, "2026-03", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8110,17 +8110,18 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Peugeot|other": 41
 , "Opel|other": 36
 , "Mercedes-Benz|other": 33
+, "Citroën|other": 28
 , "Volvo|other": 27
 , "Smart|other": 25
 , "Ford|other": 23
-, "Citroën|other": 22
 , "Kia|other": 21
 , "Leapmotor|other": 21
 , "Nissan|other": 14
+, "Jeep|other": 9
 , "MG|other": 9
 , "Fiat|other": 8
 , "Porsche|other": 7
-, "other": 340
+, "other": 325
 });
 
 db.insert(db.countries.SE, "2026-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8221,9 +8222,9 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Hyundai|other": 37
 , "BYD|other": 34
 , "Opel|other": 31
+, "Citroën|other": 29
 , "Leapmotor|other": 29
 , "Smart|other": 29
-, "Citroën|other": 27
 , "BMW|other": 24
 , "Nissan|other": 20
 , "Subaru|other": 20
@@ -8235,5 +8236,5 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|other": 13
 , "Xpeng|other": 11
 , "MG|other": 8
-, "other": 285
+, "other": 283
 });
