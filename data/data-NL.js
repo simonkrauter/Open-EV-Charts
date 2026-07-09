@@ -7058,10 +7058,10 @@ db.insert(db.countries.NL, "2024-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 14
 , "Xpeng|other": 14
 , "Honda|other": 13
+, "Toyota|other": 13
 , "Ford|other": 9
-, "Toyota|other": 9
 , "Mazda|other": 5
-, "other": 95
+, "other": 91
 });
 
 db.insert(db.countries.NL, "2024-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2024/augustus/",
@@ -9068,7 +9068,7 @@ db.insert(db.countries.NL, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 131
 , "Nio|other": 107
 , "Peugeot|other": 98
-, "Jeep|other": 92
+, "Jeep|other": 97
 , "Volvo|other": 89
 , "MG|other": 85
 , "Mercedes-Benz|other": 82
@@ -9081,7 +9081,7 @@ db.insert(db.countries.NL, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 25
 , "Omoda Jaecoo|other": 20
 , "Mitsubishi|other": 17
-, "other": 359
+, "other": 354
 });
 
 db.insert(db.countries.NL, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/januari/",
@@ -9184,6 +9184,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|other": 75
 , "BYD|other": 73
 , "Kia|other": 66
+, "Jeep|other": 63
 , "Peugeot|other": 62
 , "Polestar|other": 61
 , "Cupra|other": 59
@@ -9192,7 +9193,6 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 40
 , "Volvo|other": 37
 , "Mazda|other": 35
-, "Jeep|other": 33
 , "Omoda Jaecoo|other": 33
 , "Dacia|other": 30
 , "Citroën|other": 29
@@ -9208,7 +9208,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mitsubishi|other": 10
 , "Xpeng|other": 9
 , "Audi|other": 8
-, "other": 399
+, "other": 369
 });
 
 db.insert(db.countries.NL, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/februari/",
@@ -9413,6 +9413,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|B10": 90
 , "Cupra|Tavascan": 89
 , "Jeep|Avenger EV": 87
+, "Jeep|Compass Electric": 84
 , "Leapmotor|T03": 83
 , "Toyota|bZ4X": 80
 , "Fiat|Grande Panda Electric": 77
@@ -9428,9 +9429,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Macan Electric": 58
 , "Volvo|EC40": 54
 , "Xpeng|G9": 54
-, "BYD|Seal": 53
-, "Xpeng|G6": 53
-, "BYD|other": 125
+, "BYD|other": 178
 , "Opel|other": 123
 , "Kia|other": 106
 , "Polestar|other": 97
@@ -9442,6 +9441,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 60
 , "Citroën|other": 59
 , "MG|other": 53
+, "Xpeng|other": 53
 , "Cupra|other": 52
 , "Omoda Jaecoo|other": 51
 , "Audi|other": 47
@@ -9456,7 +9456,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Deepal|other": 12
 , "Porsche|other": 11
 , "Subaru|other": 8
-, "other": 274
+, "other": 155
 });
 
 db.insert(db.countries.NL, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/april/",
@@ -9546,21 +9546,22 @@ db.insert(db.countries.NL, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Seal": 61
 , "Audi|A6 e-tron": 60
 , "Leapmotor|T03": 56
+, "Jeep|Compass Electric": 54
 , "Peugeot|E-5008": 53
 , "Polestar|2": 51
 , "Volkswagen|ID. Buzz": 51
 , "BYD|Seagull": 50
 , "Peugeot|e-2008": 50
 , "Cupra|Tavascan": 49
-, "Polestar|4": 48
 , "Peugeot|other": 131
 , "Kia|other": 109
-, "Hyundai|other": 106
+, "Hyundai|other": 108
 , "Mercedes-Benz|other": 101
 , "BMW|other": 91
 , "Xpeng|other": 85
 , "Opel|other": 71
 , "Volvo|other": 65
+, "Polestar|other": 60
 , "Omoda Jaecoo|other": 57
 , "MG|other": 56
 , "BYD|other": 55
@@ -9576,9 +9577,8 @@ db.insert(db.countries.NL, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 26
 , "Mitsubishi|other": 23
 , "Renault|other": 22
-, "Polestar|other": 12
 , "Audi|other": 10
 , "Nio|other": 6
 , "Deepal|other": 5
-, "other": 296
+, "other": 207
 });
