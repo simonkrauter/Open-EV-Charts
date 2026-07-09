@@ -2741,8 +2741,8 @@ db.insert(db.countries.DK, "2024-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV9": 9
 , "Toyota|Proace Electric": 9
 , "BMW|i7": 8
-, "BYD|Song Plus": 8
 , "BYD|Atto 3": 8
+, "BYD|Song Plus": 8
 , "Honda|e:Ny1": 8
 , "Opel|Mokka-e": 8
 , "Porsche|Taycan": 8
@@ -4560,7 +4560,7 @@ db.insert(db.countries.DK, "2026-02", db.dsTypes.AllCarsTotal, "https://www.stat
 db.insert(db.countries.DK, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2026/2, https://www.statistikbanken.dk/bil51",
 { "Toyota|bZ4X": 1326
 , "Škoda|Elroq": 658
-, "Volkswagen|ID.4": 571
+, "Volkswagen|ID.4": 572
 , "Škoda|Enyaq": 455
 , "Audi|Q4 e-tron": 382
 , "Volkswagen|ID. Buzz": 366
@@ -4631,7 +4631,7 @@ db.insert(db.countries.DK, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Omoda Jaecoo|other": 14
 , "Subaru|other": 10
 , "Renault|other": 8
-, "other": 36
+, "other": 35
 });
 
 db.insert(db.countries.DK, "2026-03", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
@@ -4723,12 +4723,12 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 { "Škoda|Elroq": 1062
 , "Škoda|Enyaq": 814
 , "Toyota|C-HR+": 784
-, "Volkswagen|ID.4": 677
+, "Volkswagen|ID.4": 678
 , "Volkswagen|ID. Buzz": 434
 , "Audi|Q4 e-tron": 433
 , "Xpeng|G6": 407
 , "Kia|PV5": 358
-, "Volkswagen|ID.7": 336
+, "Volkswagen|ID.7": 335
 , "Toyota|bZ4X": 329
 , "Tesla|Model Y": 327
 , "Volkswagen|ID.3": 287
@@ -4767,7 +4767,7 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|EZ-6 BEV": 89
 , "Kia|EV6": 85
 , "Renault|Master E-Tech": 84
-, "Volkswagen|ID.5": 84
+, "Volkswagen|ID.5": 83
 , "Leapmotor|B10": 78
 , "Volvo|EX30": 77
 , "BMW|other": 224
@@ -4776,7 +4776,7 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 136
 , "Kia|other": 132
 , "Hyundai|other": 92
-, "Peugeot|other": 84
+, "Peugeot|other": 83
 , "Volvo|other": 67
 , "MG|other": 63
 , "Xpeng|other": 62
@@ -4795,5 +4795,5 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|other": 15
 , "Honda|other": 14
 , "Polestar|other": 11
-, "other": 35
+, "other": 37
 });
