@@ -2114,7 +2114,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Inster": 122
 , "Leapmotor|B10": 116
 , "BMW|iX2": 112
-, "Mercedes-Benz|EQB": 110
+, "Mercedes-Benz|GLB EQ": 110
 , "Polestar|4": 109
 , "Mercedes-Benz|EQA": 107
 , "Omoda Jaecoo|Omoda E5": 91
@@ -2188,7 +2188,7 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Kona Electric": 136
 , "Omoda Jaecoo|Omoda E5": 125
 , "Volkswagen|ID.5": 111
-, "Mercedes-Benz|EQB": 101
+, "Mercedes-Benz|GLB EQ": 101
 , "Cupra|Tavascan": 100
 , "Hyundai|Inster": 100
 , "Leapmotor|C10 EV": 93
