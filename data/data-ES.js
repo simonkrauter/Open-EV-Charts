@@ -7312,7 +7312,7 @@ db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 111
 , "Citroën|ë-C3": 108
 , "Hyundai|Ioniq 5": 104
-, "Mercedes-Benz|CLA EV": 97
+, "Mercedes-Benz|CLA EQ": 97
 , "Ford|Puma Gen-E": 89
 , "Kia|EV4": 87
 , "Mercedes-Benz|EQA": 87
@@ -7381,7 +7381,7 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 195
 , "Hyundai|Kona Electric": 183
 , "BYD|Sealion 7": 157
-, "Mercedes-Benz|CLA EV": 151
+, "Mercedes-Benz|CLA EQ": 151
 , "Mercedes-Benz|EQA": 147
 , "Volvo|EX30": 142
 , "Audi|Q4 e-tron": 138
@@ -7464,7 +7464,7 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 148
 , "Hyundai|Kona Electric": 143
 , "Volvo|EX30": 138
-, "Mercedes-Benz|CLA EV": 135
+, "Mercedes-Benz|CLA EQ": 135
 , "Leapmotor|T03": 131
 , "Mercedes-Benz|EQA": 120
 , "Audi|Q4 e-tron": 119
@@ -7541,7 +7541,7 @@ db.insert(db.countries.ES, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Kona Electric": 184
 , "Leapmotor|B10": 178
 , "Audi|Q4 e-tron": 168
-, "Mercedes-Benz|CLA EV": 162
+, "Mercedes-Benz|CLA EQ": 162
 , "Mercedes-Benz|EQA": 159
 , "Hyundai|Inster": 156
 , "Xpeng|G6": 151
@@ -7613,7 +7613,7 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Atto 3": 201
 , "BYD|Seal": 191
 , "Toyota|bZ4X": 178
-, "Mercedes-Benz|CLA EV": 172
+, "Mercedes-Benz|CLA EQ": 172
 , "Renault|5 E-Tech": 135
 , "Citroën|ë-C3": 110
 , "Opel|Frontera Electric": 108
@@ -7701,7 +7701,7 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 150
 , "BYD|Seal": 148
 , "Omoda Jaecoo|Omoda E5": 145
-, "Mercedes-Benz|CLA EV": 144
+, "Mercedes-Benz|CLA EQ": 144
 , "Leapmotor|B10": 133
 , "Volkswagen|ID.4": 131
 , "Omoda Jaecoo|Jaecoo E5": 127
@@ -7780,7 +7780,7 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 242
 , "Deepal|S05": 234
 , "BMW|iX2": 201
-, "Mercedes-Benz|CLA EV": 186
+, "Mercedes-Benz|CLA EQ": 186
 , "BYD|Atto 3": 161
 , "Hyundai|Inster": 160
 , "Leapmotor|B10": 160
@@ -7861,7 +7861,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV2": 226
 , "BYD|Atto 3": 225
 , "Tesla|Model Y": 198
-, "Mercedes-Benz|CLA EV": 194
+, "Mercedes-Benz|CLA EQ": 194
 , "Audi|Q4 e-tron": 183
 , "Mercedes-Benz|EQA": 164
 , "Xpeng|G6": 162
@@ -7877,7 +7877,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 109
 , "BMW|iX1": 102
 , "BYD|Dolphin": 100
-, "Mercedes-Benz|EQC": 99
+, "Mercedes-Benz|GLC EQ": 99
 , "Leapmotor|B10": 98
 , "Toyota|bZ4X": 95
 , "Tesla|Model 3": 93
