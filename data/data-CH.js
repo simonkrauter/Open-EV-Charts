@@ -8260,6 +8260,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 20
 , "Renault|other": 18
 , "Porsche|other": 17
+, "Jeep|other": 16
 , "Smart|other": 16
 , "BYD|other": 15
 , "Zeekr|other": 12
@@ -8270,9 +8271,8 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 9
 , "Volvo|other": 9
 , "Audi|other": 8
-, "Jeep|other": 3
 , "Mitsubishi|other": 3
-, "other": 189
+, "other": 176
 });
 
 db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/04/ModellePW2026-2.xlsx",
@@ -8346,6 +8346,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|7X": 56
 , "BMW|iX": 53
 , "Volkswagen|ID.4": 52
+, "Mercedes-Benz|EQB": 51
 , "Smart|Hashtag 5": 50
 , "Polestar|2": 49
 , "Volkswagen|ID.7": 45
@@ -8368,16 +8369,15 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|Taycan": 27
 , "Ford|Puma Gen-E": 26
 , "MG|S6 EV": 26
-, "Tesla|Model S": 25
-, "Tesla|Model X": 25
-, "Xpeng|G9": 25
 , "Opel|other": 66
 , "BYD|other": 62
 , "Peugeot|other": 61
-, "Mercedes-Benz|other": 51
 , "Kia|other": 50
+, "Tesla|other": 50
 , "Ford|other": 48
+, "Mercedes-Benz|other": 48
 , "BMW|other": 45
+, "Xpeng|other": 38
 , "Citroën|other": 36
 , "Volvo|other": 27
 , "Fiat|other": 24
@@ -8386,18 +8386,17 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 20
 , "MG|other": 18
 , "Mazda|other": 18
+, "Jeep|other": 16
 , "Toyota|other": 16
 , "Volkswagen|other": 15
-, "Xpeng|other": 13
 , "Renault|other": 12
 , "Audi|other": 11
 , "Polestar|other": 11
 , "Mitsubishi|other": 10
-, "Jeep|other": 9
 , "Zeekr|other": 8
 , "JAC|other": 5
 , "Nissan|other": 5
-, "other": 277
+, "other": 222
 });
 
 db.insert(db.countries.CH, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/05/ModellePW2026.xlsx",
@@ -8466,6 +8465,7 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQA": 64
 , "Hyundai|Inster": 60
 , "Cupra|Born": 52
+, "Mercedes-Benz|EQB": 51
 , "Kia|EV3": 50
 , "Volkswagen|ID.7": 49
 , "Cupra|Tavascan": 48
@@ -8494,7 +8494,6 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 28
 , "BMW|i4": 27
 , "BYD|Seagull": 27
-, "BYD|Atto 3": 26
 , "BMW|other": 63
 , "Peugeot|other": 58
 , "Ford|other": 46
@@ -8505,23 +8504,24 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 34
 , "Xpeng|other": 34
 , "Kia|other": 29
-, "Mercedes-Benz|other": 26
+, "BYD|other": 27
+, "Mercedes-Benz|other": 25
 , "Dacia|other": 24
 , "Opel|other": 24
 , "Subaru|other": 23
 , "Porsche|other": 20
 , "Toyota|other": 15
 , "Renault|other": 14
+, "Jeep|other": 13
 , "Mazda|other": 13
 , "Fiat|other": 12
 , "Nissan|other": 12
 , "Polestar|other": 11
 , "JAC|other": 10
-, "Jeep|other": 7
 , "Zeekr|other": 7
 , "Smart|other": 6
 , "Volkswagen|other": 6
 , "Mitsubishi|other": 5
 , "Audi|other": 3
-, "other": 237
+, "other": 180
 });
