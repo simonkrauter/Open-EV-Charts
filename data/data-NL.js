@@ -8570,7 +8570,7 @@ db.insert(db.countries.NL, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EC40": 51
 , "Citroën|ë-C4": 50
 , "Ford|Puma Gen-E": 50
-, "Mercedes-Benz|CLA EV": 46
+, "Mercedes-Benz|CLA EQ": 46
 , "Mercedes-Benz|EQE": 41
 , "Smart|Hashtag 1": 41
 , "BYD|other": 119
@@ -8668,7 +8668,7 @@ db.insert(db.countries.NL, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 195
 , "Hyundai|Kona Electric": 183
 , "Audi|A6 e-tron": 153
-, "Mercedes-Benz|CLA EV": 147
+, "Mercedes-Benz|CLA EQ": 147
 , "Mercedes-Benz|EQB": 141
 , "Polestar|4": 136
 , "Cupra|Tavascan": 132
@@ -8787,7 +8787,7 @@ db.insert(db.countries.NL, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Inster": 217
 , "Citroën|ë-C3": 216
 , "Cupra|Born": 183
-, "Mercedes-Benz|CLA EV": 178
+, "Mercedes-Benz|CLA EQ": 178
 , "Renault|4 E-Tech": 164
 , "Polestar|2": 160
 , "BMW|i5": 152
@@ -8898,7 +8898,7 @@ db.insert(db.countries.NL, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 447
 , "Audi|A6 e-tron": 402
 , "Volvo|EX40": 373
-, "Mercedes-Benz|CLA EV": 364
+, "Mercedes-Benz|CLA EQ": 364
 , "BMW|iX1": 359
 , "Renault|Scénic E-Tech": 352
 , "Škoda|Enyaq": 349
@@ -9023,7 +9023,7 @@ db.insert(db.countries.NL, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Scénic E-Tech": 700
 , "Audi|A6 e-tron": 579
 , "Kia|EV4": 476
-, "Mercedes-Benz|CLA EV": 444
+, "Mercedes-Benz|CLA EQ": 444
 , "Ford|Explorer EV": 425
 , "Audi|Q6 e-tron": 412
 , "Hyundai|Kona Electric": 408
@@ -9149,7 +9149,7 @@ db.insert(db.countries.NL, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 117
 , "BMW|i5": 113
 , "Audi|Q4 e-tron": 104
-, "Mercedes-Benz|CLA EV": 100
+, "Mercedes-Benz|CLA EQ": 100
 , "Škoda|Enyaq": 100
 , "Peugeot|E-3008": 99
 , "BMW|i4": 94
@@ -9275,7 +9275,7 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 111
 , "Volkswagen|ID.7": 109
 , "Renault|Scénic E-Tech": 108
-, "Mercedes-Benz|CLA EV": 105
+, "Mercedes-Benz|CLA EQ": 105
 , "BMW|iX1": 100
 , "Zeekr|7X": 100
 , "Audi|Q4 e-tron": 92
@@ -9306,7 +9306,7 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|Ioniq 5": 38
 , "Kia|Niro EV": 38
 , "BYD|other": 126
-, "Mercedes-Benz|other": 90
+, "Mercedes-Benz|other": 93
 , "Volvo|other": 64
 , "Citroën|other": 60
 , "BMW|other": 53
@@ -9332,7 +9332,7 @@ db.insert(db.countries.NL, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 11
 , "Porsche|other": 8
 , "Nio|other": 7
-, "other": 127
+, "other": 124
 });
 
 db.insert(db.countries.NL, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/maart/",
@@ -9400,7 +9400,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 149
 , "BMW|i4": 147
 , "Renault|4 E-Tech": 143
-, "Mercedes-Benz|CLA EV": 140
+, "Mercedes-Benz|CLA EQ": 140
 , "Hyundai|Kona Electric": 138
 , "Audi|Q4 e-tron": 135
 , "Toyota|C-HR+": 133
@@ -9416,6 +9416,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|T03": 83
 , "Toyota|bZ4X": 80
 , "Fiat|Grande Panda Electric": 77
+, "Mercedes-Benz|GLB EQ": 75
 , "Zeekr|7X": 75
 , "Peugeot|E-5008": 72
 , "Ford|Puma Gen-E": 70
@@ -9432,12 +9433,12 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|other": 125
 , "Opel|other": 123
 , "Kia|other": 106
-, "Mercedes-Benz|other": 100
 , "Polestar|other": 97
 , "BMW|other": 90
 , "Peugeot|other": 81
 , "Hyundai|other": 69
 , "Nissan|other": 68
+, "Mercedes-Benz|other": 60
 , "Volkswagen|other": 60
 , "Citroën|other": 59
 , "MG|other": 53
@@ -9521,7 +9522,7 @@ db.insert(db.countries.NL, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 169
 , "Škoda|Enyaq": 165
 , "BMW|iX3": 158
-, "Mercedes-Benz|CLA EV": 147
+, "Mercedes-Benz|CLA EQ": 147
 , "Volkswagen|ID.7": 146
 , "Renault|Megane E-Tech": 143
 , "Audi|Q6 e-tron": 137
@@ -9555,10 +9556,10 @@ db.insert(db.countries.NL, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 131
 , "Kia|other": 109
 , "Hyundai|other": 106
+, "Mercedes-Benz|other": 101
 , "BMW|other": 91
 , "Xpeng|other": 85
 , "Opel|other": 71
-, "Mercedes-Benz|other": 68
 , "Volvo|other": 65
 , "Omoda Jaecoo|other": 57
 , "MG|other": 56
