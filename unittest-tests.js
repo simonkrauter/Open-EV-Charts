@@ -195,6 +195,19 @@ runTest("unfoldMetric_2_3", function() {
   assert(chartConfigs[1].metric, db.metrics.salesAll);
 });
 
+runTest("unfoldMetric_3", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.all;
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(db.needsUnfold(chartConfig));
+  const chartConfigs = db.unfoldChartConfig(chartConfig);
+  assert(chartConfigs.length, 3);
+  assert(chartConfigs[0].metric, db.metrics.ratioElectric);
+  assert(chartConfigs[1].metric, db.metrics.salesElectric);
+  assert(chartConfigs[2].metric, db.metrics.salesAll);
+});
+
 runTest("compatibleMetrics", function() {
   let chartConfig = {};
   chartConfig.country = "DE";

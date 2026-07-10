@@ -536,8 +536,15 @@ var db = {
       param.title = "Metric";
       param.allOptions = this.getMetricOptions(chartConfig);
       param.options = param.allOptions;
-      if (chartConfig != null && !this.isSingleOrCombinedCountry(chartConfig))
-        param.excludeOnUnfoldAndTitle = [this.metrics.ratioElectricWithinCompanyOrBrand];
+      if (chartConfig != null) {
+        param.excludeOnUnfoldAndTitle = [];
+        if (!this.isSingleOrCombinedCountry(chartConfig))
+          param.excludeOnUnfoldAndTitle.push(this.metrics.ratioElectricWithinCompanyOrBrand);
+        if (chartConfig.xProperty == this.xProperties.country) {
+          param.excludeOnUnfoldAndTitle.push(this.metrics.shareAll);
+          param.excludeOnUnfoldAndTitle.push(this.metrics.shareElectric);
+        }
+      }
       param.unfoldKey = this.metrics.all;
       param.noMultiSelectOptions = [this.metrics.all];
       param.defaultOption = this.metrics.all;
