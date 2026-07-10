@@ -237,7 +237,7 @@ function isMobileScreenSize() {
 
 function renderFilterAsDropdown(parentDiv, param) {
   // Calculate width
-  let width = 40;
+  let width = 120;
   for (const optionKey in param.allOptions)
     width = Math.max(width, measureTextWidth(param.allOptions[optionKey]) + 40);
   if (param.name == "country")
