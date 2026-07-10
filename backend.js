@@ -1185,7 +1185,7 @@ var db = {
     }
 
     // reset selected model when model does not belong to selected brand
-    if (chartConfig.model != null && !(chartConfig.model in params.model.options)) {
+    if (chartConfig.model != null && !chartConfig.model.includes(",") && !(chartConfig.model in params.model.options)) {
       chartConfig.model = params.model.defaultOption;
     }
 

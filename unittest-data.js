@@ -180,8 +180,9 @@ db.insert(db.countries.DE, "2023-Q1", db.dsTypes.AllCarsByBrand, "",
 });
 
 db.insert(db.countries.DE, "2023-Q1", db.dsTypes.ElectricCarsByModel, "",
-{ "Alpha|A1": 80
-, "Alpha|A2": 20
+{ "Alpha|A1": 50
+, "Alpha|A2": 30
+, "Alpha|A3": 20
 , "Bravo|B1": 70
 , "Bravo|B2": 30
 , "other": 100

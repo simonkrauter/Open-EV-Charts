@@ -433,6 +433,22 @@ runTest("makeChartConfigValid_modelDoesNotBelongToBrand", function() {
   assert(chartConfig.model, db.modelOptions.all);
 });
 
+runTest("multipleModels_byYear", function() {
+  let chartConfig = {};
+  chartConfig.country = "combine-countries";
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.year;
+  chartConfig.detailLevel = db.detailLevels.model;
+  chartConfig.brand = "Alpha";
+  chartConfig.model = "A1,A2";
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  let chartData = db.queryChartData(chartConfig);
+  roundData(chartData);
+  assert(chartData.categories.length, 2);
+  assert(chartData.series.length, 2);
+});
+
 } catch (err) {
   logError("Exception raised, see console.");
   throw err;
