@@ -1361,13 +1361,14 @@ db.insert(db.countries.BR, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.fe
 
 db.insert(db.countries.BR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_11_02.pdf",
 { "BYD|Seagull": 2881
+, "Geely|EX2": 835
 , "BYD|Dolphin": 802
 , "GWM|Ora 03": 214
-, "Geely|other": 985
 , "BYD|other": 802
 , "Volvo|other": 350
 , "Chevrolet|other": 296
 , "Renault|other": 296
+, "Geely|other": 150
 , "BMW|other": 78
 , "Omoda Jaecoo|other": 67
 , "JAC|other": 57
@@ -1406,12 +1407,13 @@ db.insert(db.countries.BR, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2025_12_02.pdf",
 { "BYD|Seagull": 3889
 , "BYD|Dolphin": 2347
+, "Geely|EX2": 1557
 , "GWM|Ora 03": 372
-, "Geely|other": 1731
 , "BYD|other": 863
 , "Chevrolet|other": 613
 , "Volvo|other": 575
 , "Renault|other": 197
+, "Geely|other": 174
 , "MG|other": 89
 , "BMW|other": 70
 , "Omoda Jaecoo|other": 68
@@ -1450,11 +1452,12 @@ db.insert(db.countries.BR, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_01_02.pdf",
 { "BYD|Seagull": 2840
 , "BYD|Dolphin": 1511
+, "Geely|EX2": 1124
 , "GWM|Ora 03": 193
-, "Geely|other": 1337
 , "BYD|other": 762
 , "Chevrolet|other": 396
 , "Volvo|other": 390
+, "Geely|other": 213
 , "MG|other": 103
 , "Renault|other": 90
 , "Zeekr|other": 53
@@ -1538,12 +1541,13 @@ db.insert(db.countries.BR, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2026-03", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_03_02.pdf",
 { "BYD|Seagull": 7053
 , "BYD|Dolphin": 1852
+, "Geely|EX2": 1157
 , "GWM|Ora 03": 313
-, "Geely|other": 1375
 , "BYD|other": 996
 , "Chevrolet|other": 982
 , "Volvo|other": 441
 , "MG|other": 300
+, "Geely|other": 218
 , "Zeekr|other": 79
 , "Omoda Jaecoo|other": 68
 , "Renault|other": 68
@@ -1582,12 +1586,14 @@ db.insert(db.countries.BR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 { "BYD|Seagull": 6880
 , "BYD|Dolphin": 3022
 , "GWM|Ora 03": 365
-, "Geely|other": 3761
-, "Chevrolet|other": 1247
+, "Geely|EX2": 3602
+, "Chevrolet|Spark EV": 1047
 , "BYD|other": 523
 , "Volvo|other": 419
 , "Leapmotor|other": 274
 , "MG|other": 235
+, "Chevrolet|other": 200
+, "Geely|other": 159
 , "Omoda Jaecoo|other": 115
 , "Zeekr|other": 94
 , "Mini|other": 56
@@ -1624,12 +1630,15 @@ db.insert(db.countries.BR, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_05_02.pdf",
 { "BYD|Seagull": 7577
 , "BYD|Dolphin": 4963
+, "Geely|EX2": 4321
+, "Chevrolet|Spark EV": 1054
 , "GWM|Ora 03": 490
-, "Geely|other": 4567
-, "Chevrolet|other": 1122
+, "Geely|EX5": 246
+, "Leapmotor|C10 EV": 213
+, "Chevrolet|other": 68
 , "BYD|other": 704
-, "Leapmotor|other": 476
 , "Volvo|other": 347
+, "Leapmotor|other": 263
 , "MG|other": 187
 , "Omoda Jaecoo|other": 81
 , "Zeekr|other": 49
@@ -1663,12 +1672,13 @@ db.insert(db.countries.BR, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.fe
 db.insert(db.countries.BR, "2026-06", db.dsTypes.ElectricCarsByModel, "https://www.fenabrave.org.br/portal/files/2026_06_02.pdf",
 { "BYD|Seagull": 6457
 , "BYD|Dolphin": 5512
+, "Geely|EX2": 4383
 , "GWM|Ora 03": 383
-, "Geely|other": 4663
 , "Chevrolet|other": 871
 , "BYD|other": 730
 , "Leapmotor|other": 512
 , "Volvo|other": 339
+, "Geely|other": 280
 , "MG|other": 228
 , "Zeekr|other": 43
 , "Omoda Jaecoo|other": 38
