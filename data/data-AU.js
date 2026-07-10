@@ -1983,7 +1983,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Leapmotor|C10 EV": 18
 , "Kia|EV6": 14
 , "Polestar|3": 14
-, "Hyundai|other": 21
+, "Hyundai|other": 33
 , "Volvo|other": 21
 , "BMW|other": 17
 , "Porsche|other": 13
@@ -1992,7 +1992,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|other": 9
 , "Audi|other": 4
 , "Jeep|other": 4
-, "other": 101
+, "other": 89
 });
 
 db.insert(db.countries.AU, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-february-2026-toyota-rav4-runout-pulls-down-vfacts-market/",
@@ -2029,6 +2029,7 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|S5 EV": 158
 , "Mini|Cooper SE": 127
 , "Volkswagen|ID.4": 111
+, "Hyundai|Elexio": 105
 , "Polestar|4": 97
 , "Mercedes-Benz|EQA": 96
 , "Volvo|EX30": 92
@@ -2060,16 +2061,16 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Subaru|Solterra": 25
 , "Leapmotor|C10 EV": 21
 , "Renault|Scénic E-Tech": 20
-, "Ford|Mustang Mach-E": 19
-, "Hyundai|Ioniq 9": 19
 , "Zeekr|other": 26
+, "Hyundai|other": 23
+, "Ford|other": 19
 , "BMW|other": 15
 , "Volvo|other": 12
 , "Porsche|other": 11
 , "Jeep|other": 9
 , "Kia|other": 9
 , "Nissan|other": 7
-, "other": 238
+, "other": 129
 });
 
 db.insert(db.countries.AU, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-march-2026-electric-car-sales-surge-amid-fuel-crisis/",
@@ -2109,6 +2110,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX1": 217
 , "Mini|Cooper SE": 208
 , "Volkswagen|ID.4": 192
+, "Hyundai|Elexio": 171
 , "Volvo|EX30": 132
 , "Volkswagen|ID. Buzz": 126
 , "Hyundai|Inster": 122
@@ -2137,11 +2139,11 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Ariya": 33
 , "BMW|iX": 31
 , "Volvo|ES90": 26
-, "Renault|Megane E-Tech": 19
 , "Zeekr|other": 30
 , "Kia|other": 26
+, "Renault|other": 25
 , "Hyundai|other": 21
-, "other": 520
+, "other": 343
 });
 
 db.insert(db.countries.AU, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-april-2026-ev-sales-share-breaks-another-vfacts-record/",
@@ -2185,6 +2187,7 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|4": 190
 , "Deepal|S07": 179
 , "Subaru|Solterra": 175
+, "Hyundai|Elexio": 158
 , "Hyundai|Kona Electric": 136
 , "Omoda Jaecoo|Omoda E5": 125
 , "Volkswagen|ID.5": 111
@@ -2211,9 +2214,9 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX": 22
 , "Volvo|ES90": 21
 , "Volvo|EX90": 17
-, "Kia|EV9": 16
+, "Kia|other": 23
 , "Jeep|other": 15
 , "Deepal|other": 11
 , "Porsche|other": 8
-, "other": 1030
+, "other": 865
 });
