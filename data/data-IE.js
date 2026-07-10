@@ -7561,3 +7561,111 @@ db.insert(db.countries.IE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|other": 2
 , "other": 36
 });
+
+db.insert(db.countries.IE, "2026-05", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Volkswagen": 1491
+, "Toyota": 1304
+, "Škoda": 993
+, "Kia": 532
+, "Audi": 411
+, "Hyundai": 357
+, "BMW": 337
+, "BYD": 293
+, "Tesla": 264
+, "Seat": 212
+, "Renault": 183
+, "Mercedes-Benz": 167
+, "Ford": 164
+, "Peugeot": 137
+, "Citroën": 127
+, "Opel": 127
+, "Dacia": 125
+, "Cupra": 110
+, "Suzuki": 110
+, "Volvo": 100
+, "MG": 96
+, "Nissan": 67
+, "Mini": 63
+, "Mazda": 46
+, "Leapmotor": 38
+, "Land Rover": 31
+, "Porsche": 23
+, "Xpeng": 21
+, "Honda": 20
+, "Fiat": 15
+, "Jeep": 13
+, "Polestar": 8
+, "other": 53
+});
+
+db.insert(db.countries.IE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Volkswagen|ID.4": 318
+, "Tesla|Model 3": 145
+, "Toyota|bZ4X": 136
+, "Škoda|Elroq": 134
+, "Škoda|Enyaq": 129
+, "Tesla|Model Y": 119
+, "Volkswagen|ID.3": 92
+, "BYD|Sealion 7": 65
+, "Toyota|C-HR+": 62
+, "Kia|EV3": 52
+, "MG|S5 EV": 52
+, "Kia|EV5": 49
+, "BYD|Seagull": 44
+, "Audi|Q6 e-tron": 41
+, "BMW|iX3": 41
+, "Hyundai|Inster": 41
+, "Mini|Cooper SE": 37
+, "BMW|iX1": 33
+, "Kia|EV2": 32
+, "BYD|Seal": 27
+, "Kia|EV6": 26
+, "Mercedes-Benz|CLA EQ": 26
+, "Hyundai|Kona Electric": 25
+, "Cupra|Tavascan": 24
+, "Renault|5 E-Tech": 24
+, "Renault|Megane E-Tech": 23
+, "Volkswagen|ID.7": 23
+, "Cupra|Born": 22
+, "Xpeng|G6": 21
+, "Kia|EV4": 20
+, "Hyundai|Ioniq 6": 19
+, "Audi|Q4 e-tron": 18
+, "Kia|PV5": 18
+, "Leapmotor|C10 EV": 18
+, "Hyundai|Ioniq 5": 17
+, "MG|S6 EV": 17
+, "Ford|Explorer EV": 16
+, "Renault|4 E-Tech": 16
+, "BMW|i4": 15
+, "Opel|Frontera Electric": 13
+, "BMW|iX2": 12
+, "Peugeot|E-5008": 12
+, "Volkswagen|ID.5": 12
+, "BYD|Dolphin": 11
+, "Peugeot|E-3008": 11
+, "Volvo|EX30": 11
+, "Volvo|EX40": 11
+, "Ford|Puma Gen-E": 10
+, "Porsche|Macan Electric": 10
+, "Leapmotor|B10": 9
+, "Renault|Scénic E-Tech": 9
+, "Citroën|other": 24
+, "Kia|other": 9
+, "Peugeot|other": 9
+, "Audi|other": 8
+, "Nissan|other": 8
+, "Polestar|other": 8
+, "Ford|other": 5
+, "Jeep|other": 5
+, "Opel|other": 5
+, "Volvo|other": 5
+, "BYD|other": 4
+, "BMW|other": 3
+, "Leapmotor|other": 3
+, "MG|other": 3
+, "Fiat|other": 2
+, "Mercedes-Benz|other": 2
+, "Porsche|other": 2
+, "other": 54
+});
