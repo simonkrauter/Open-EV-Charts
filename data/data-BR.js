@@ -1587,7 +1587,7 @@ db.insert(db.countries.BR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Dolphin": 3022
 , "GWM|Ora 03": 365
 , "Geely|EX2": 3602
-, "Chevrolet|Spark EV": 1047
+, "Chevrolet|Spark EUV": 1047
 , "BYD|other": 523
 , "Volvo|other": 419
 , "Leapmotor|other": 274
@@ -1631,7 +1631,7 @@ db.insert(db.countries.BR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 { "BYD|Seagull": 7577
 , "BYD|Dolphin": 4963
 , "Geely|EX2": 4321
-, "Chevrolet|Spark EV": 1054
+, "Chevrolet|Spark EUV": 1054
 , "GWM|Ora 03": 490
 , "Geely|EX5": 246
 , "Leapmotor|C10 EV": 213
