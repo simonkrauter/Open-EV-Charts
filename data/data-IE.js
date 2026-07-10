@@ -7669,3 +7669,105 @@ db.insert(db.countries.IE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Porsche|other": 2
 , "other": 54
 });
+
+db.insert(db.countries.IE, "2026-06", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Tesla": 779
+, "Toyota": 240
+, "Škoda": 188
+, "Mercedes-Benz": 147
+, "Volkswagen": 147
+, "BMW": 112
+, "Hyundai": 89
+, "Ford": 75
+, "Audi": 64
+, "BYD": 43
+, "Kia": 40
+, "Suzuki": 36
+, "Dacia": 33
+, "Citroën": 25
+, "Renault": 20
+, "Peugeot": 17
+, "Cupra": 15
+, "Opel": 14
+, "Mini": 11
+, "Volvo": 11
+, "Porsche": 10
+, "Seat": 9
+, "Fiat": 8
+, "Nissan": 7
+, "Jeep": 6
+, "Mazda": 6
+, "Honda": 4
+, "Leapmotor": 4
+, "Land Rover": 3
+, "Xpeng": 3
+, "MG": 2
+, "Polestar": 2
+, "Smart": 2
+, "other": 15
+});
+
+db.insert(db.countries.IE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Tesla|Model 3": 435
+, "Tesla|Model Y": 344
+, "Škoda|Enyaq": 45
+, "Volkswagen|ID.4": 35
+, "Toyota|bZ4X": 25
+, "Škoda|Elroq": 15
+, "Ford|Explorer EV": 14
+, "BMW|iX3": 11
+, "BYD|Seal": 11
+, "BMW|iX1": 10
+, "BYD|Seagull": 10
+, "Audi|Q6 e-tron": 9
+, "Hyundai|Inster": 9
+, "Hyundai|Ioniq 5": 9
+, "Volkswagen|ID.3": 9
+, "Toyota|C-HR+": 8
+, "Cupra|Tavascan": 7
+, "Kia|EV6": 7
+, "Mini|Cooper SE": 7
+, "Ford|Capri EV": 6
+, "Hyundai|Kona Electric": 6
+, "Porsche|Macan Electric": 6
+, "Kia|PV5": 5
+, "Renault|5 E-Tech": 5
+, "Fiat|Grande Panda Electric": 4
+, "Hyundai|Ioniq 6": 4
+, "BMW|iX2": 3
+, "BYD|Sealion 7": 3
+, "Citroën|ë-Berlingo Electric": 3
+, "Cupra|Born": 3
+, "Jeep|Compass Electric": 3
+, "Kia|EV2": 3
+, "Kia|EV5": 3
+, "Leapmotor|C10 EV": 3
+, "Xpeng|G6": 3
+, "BMW|i4": 2
+, "Kia|EV3": 2
+, "MG|S5 EV": 2
+, "Peugeot|E-5008": 2
+, "Renault|Megane E-Tech": 2
+, "Smart|Hashtag 3": 2
+, "Volkswagen|ID.5": 2
+, "Volvo|EC40": 2
+, "Volvo|EX40": 2
+, "Audi|Q4 e-tron": 1
+, "BMW|i7": 1
+, "BYD|Atto 3": 1
+, "Citroën|ë-C3": 1
+, "Citroën|ë-SpaceTourer": 1
+, "Kia|EV9": 1
+, "Nissan|Micra EV": 1
+, "Opel|Frontera Electric": 1
+, "Peugeot|E-3008": 1
+, "Peugeot|e-2008": 1
+, "Polestar|2": 1
+, "Polestar|4": 1
+, "Porsche|Cayenne Electric": 1
+, "Renault|4 E-Tech": 1
+, "Renault|Scénic E-Tech": 1
+, "Volkswagen|ID.7": 1
+, "Volvo|EX30": 1
+, "other": 1
+});
