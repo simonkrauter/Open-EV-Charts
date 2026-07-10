@@ -473,7 +473,7 @@ var db = {
           continue;
         if (metric == this.metrics.ratioElectric && [this.xProperties.company, this.xProperties.brand].includes(chartConfig.xProperty))
           continue;
-        if ([this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(metric) && this.isTimeXProperty(chartConfig) && chartConfig.view == this.views.table)
+        if ([this.metrics.shareElectric, this.metrics.shareAll, this.metrics.ratioElectricWithinCompanyOrBrand].includes(metric) && (this.isTimeXProperty(chartConfig) || chartConfig.xProperty == this.xProperties.country) && chartConfig.view == this.views.table)
           continue;
         result.push(this.metrics[i]);
       }

@@ -403,7 +403,7 @@ runTest("multipleMetrics_byCountry_table", function() {
   let chartData = db.queryChartData(chartConfig);
   roundData(chartData);
   assert(chartData.categories.length, 3);
-  assert(chartData.series.length, 6);
+  assert(chartData.series.length, 3);
   assert(chartData.hints.length, 1);
 });
 
