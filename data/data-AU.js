@@ -2293,3 +2293,77 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|other": 12
 , "other": 652
 });
+
+db.insert(db.countries.AU, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2026-evs-help-smash-all-time-market-record/",
+{ "Toyota": 19124
+, "BYD": 18881
+, "Ford": 9181
+, "Tesla": 8670
+, "Kia": 8005
+, "Hyundai": 7480
+, "Mazda": 7278
+, "GWM": 6104
+, "MG": 5001
+, "Chery": 4505
+, "Geely": 2303
+, "Omoda Jaecoo": 2333
+, "Zeekr": 1944
+, "other": 39249
+});
+
+db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/07/08/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
+{ "Tesla|Model Y": 8072
+, "BYD|Sealion 7": 4730
+, "BYD|Atto 2": 2482
+, "Geely|Galaxy E5": 2303
+, "Omoda Jaecoo|Jaecoo E5": 1959
+, "Zeekr|7X": 1868
+, "MG|4 EV": 1134
+, "BYD|Seagull": 871
+, "Kia|EV3": 821
+, "BYD|Seal": 769
+, "BYD|Atto 3": 677
+, "BYD|Dolphin": 645
+, "Tesla|Model 3": 598
+, "Kia|EV5": 572
+, "Omoda Jaecoo|Omoda E5": 374
+, "MG|S5 EV": 286
+, "GWM|Ora 5": 275
+, "Hyundai|Kona Electric": 248
+, "Leapmotor|B10": 226
+, "Polestar|4": 201
+, "Toyota|bZ4X": 192
+, "Volkswagen|ID.4": 166
+, "Audi|Q6 e-tron": 135
+, "Volvo|EX30": 133
+, "Volkswagen|ID. Buzz": 120
+, "Hyundai|Elexio": 90
+, "Deepal|S07": 87
+, "Renault|Megane E-Tech": 79
+, "Zeekr|X": 76
+, "BMW|i4": 75
+, "Kia|PV5": 73
+, "Subaru|Solterra": 73
+, "Škoda|Enyaq": 65
+, "Volkswagen|ID.5": 60
+, "Deepal|E07": 56
+, "Mercedes-Benz|EQA": 53
+, "Kia|EV6": 46
+, "Škoda|Elroq": 45
+, "MG|S6 EV": 40
+, "Nissan|Ariya": 39
+, "Polestar|2": 36
+, "Cupra|Tavascan": 30
+, "Hyundai|Inster": 28
+, "Mazda|EZ-6 BEV": 28
+, "Leapmotor|C10 EV": 24
+, "Xpeng|G6": 24
+, "Renault|Scénic E-Tech": 22
+, "Mercedes-Benz|GLB EQ": 20
+, "Kia|EV4": 18
+, "Polestar|3": 17
+, "Volvo|ES90": 17
+, "Volvo|EX90": 17
+, "Hyundai|other": 17
+, "other": 1471
+});
