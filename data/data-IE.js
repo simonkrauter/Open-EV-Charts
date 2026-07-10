@@ -6964,9 +6964,9 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID.7": 10
 , "BMW|i4": 9
 , "Mini|Cooper SE": 9
+, "BYD|Atto 3": 8
 , "BYD|Seagull": 8
 , "BYD|Seal": 8
-, "BYD|Atto 3": 8
 , "MG|S5 EV": 8
 , "Volkswagen|ID.3": 8
 , "Volvo|EX40": 8
@@ -6999,17 +6999,17 @@ db.insert(db.countries.IE, "2025-10", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volkswagen|ID. Buzz": 3
 , "Audi|other": 3
 , "BMW|other": 2
+, "Citroën|other": 2
 , "Ford|other": 2
 , "Kia|other": 2
 , "Peugeot|other": 2
 , "Volvo|other": 2
-, "Citroën|other": 1
 , "Hyundai|other": 1
 , "Leapmotor|other": 1
 , "Mercedes-Benz|other": 1
 , "Polestar|other": 1
 , "Volkswagen|other": 1
-, "other": 21
+, "other": 20
 });
 
 db.insert(db.countries.IE, "2025-11", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7228,7 +7228,7 @@ db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q6 e-tron": 35
 , "Polestar|4": 35
 , "Audi|A6 e-tron": 32
-, "Citroën|other": 58
+, "Citroën|other": 77
 , "Opel|other": 56
 , "Leapmotor|other": 54
 , "Volvo|other": 52
@@ -7240,7 +7240,7 @@ db.insert(db.countries.IE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|other": 20
 , "Peugeot|other": 17
 , "Volkswagen|other": 4
-, "other": 62
+, "other": 43
 });
 
 db.insert(db.countries.IE, "2026-02", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7331,7 +7331,7 @@ db.insert(db.countries.IE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Renault|Scénic E-Tech": 15
 , "BYD|Atto 3": 14
 , "BMW|other": 33
-, "Citroën|other": 24
+, "Citroën|other": 33
 , "Audi|other": 18
 , "Opel|other": 18
 , "Mercedes-Benz|other": 17
@@ -7344,7 +7344,7 @@ db.insert(db.countries.IE, "2026-02", db.dsTypes.ElectricCarsByModel, "https://s
 , "Tesla|other": 6
 , "Hyundai|other": 5
 , "Porsche|other": 4
-, "other": 27
+, "other": 18
 });
 
 db.insert(db.countries.IE, "2026-03", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7435,6 +7435,7 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Audi|Q4 e-tron": 15
 , "BYD|Dolphin": 14
 , "Polestar|4": 14
+, "Citroën|other": 20
 , "Audi|other": 17
 , "BMW|other": 16
 , "Opel|other": 15
@@ -7443,14 +7444,14 @@ db.insert(db.countries.IE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://s
 , "Leapmotor|other": 12
 , "Mercedes-Benz|other": 12
 , "Peugeot|other": 12
-, "Citroën|other": 11
 , "Polestar|other": 11
 , "Renault|other": 7
 , "Hyundai|other": 5
 , "Porsche|other": 4
 , "Fiat|other": 3
+, "Jeep|other": 3
 , "Ford|other": 2
-, "other": 46
+, "other": 34
 });
 
 db.insert(db.countries.IE, "2026-04", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
@@ -7540,7 +7541,7 @@ db.insert(db.countries.IE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|EX40": 15
 , "MG|S6 EV": 13
 , "Peugeot|E-5008": 13
-, "Citroën|other": 33
+, "Citroën|other": 39
 , "Porsche|other": 18
 , "Peugeot|other": 16
 , "BMW|other": 15
@@ -7552,10 +7553,11 @@ db.insert(db.countries.IE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://s
 , "BYD|other": 9
 , "Nissan|other": 9
 , "Volvo|other": 7
-, "Audi|other": 5
+, "Audi|other": 6
+, "Jeep|other": 4
 , "Leapmotor|other": 4
 , "Volkswagen|other": 4
 , "Hyundai|other": 2
 , "Kia|other": 2
-, "other": 47
+, "other": 36
 });
