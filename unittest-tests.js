@@ -392,6 +392,21 @@ runTest("multipleMetrics_byBrand_table", function() {
   assert(chartData.hints.length, 1);
 });
 
+runTest("multipleMetrics_byCountry_table", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.all;
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig.timeSpan = "2y";
+  chartConfig.view = db.views.table;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  let chartData = db.queryChartData(chartConfig);
+  roundData(chartData);
+  assert(chartData.categories.length, 3);
+  assert(chartData.series.length, 6);
+  assert(chartData.hints.length, 1);
+});
+
 runTest("global_total", function() {
   let chartConfig = {};
   chartConfig.country = "global";

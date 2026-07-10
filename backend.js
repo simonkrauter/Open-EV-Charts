@@ -559,7 +559,7 @@ var db = {
       param.options[this.xProperties.monthAvg12] = "12-month Average";
       param.options[this.xProperties.quarter] = "Quarterly";
       param.options[this.xProperties.year] = "Yearly";
-      if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric))
+      if (chartConfig == null || [this.metrics.salesAll, this.metrics.salesElectric, this.metrics.ratioElectric].includes(chartConfig.metric) || this.isMultiMetric(chartConfig))
         param.options[this.xProperties.country] = "By Country";
       if (chartConfig == null || ![this.metrics.ratioElectric].includes(chartConfig.metric))
         param.options[this.xProperties.company] = "By Company";
