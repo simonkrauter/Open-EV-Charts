@@ -2055,12 +2055,13 @@ db.insert(db.countries.CN, "2025-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 13968
 , "Wuling|Bingo": 12078
 , "BYD|Qin EV": 10917
+, "Geely|Panda Mini EV": 10318
 , "Nissan|N7": 10148
+, "Leapmotor|C10 EV": 7084
 , "BYD|Song EV": 7079
 , "BYD|Seal 06 EV": 5514
 , "BYD|Sealion 06 EV": 5013
-, "Leapmotor|C10 EV": 7084
-, "other": 364185
+, "other": 353867
 });
 
 db.insert(db.countries.CN, "2025-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/10/30/bevs-up-29-yoy-phevs-down-3-yoy-september-2025-china-ev-sales-report/",
@@ -2080,13 +2081,14 @@ db.insert(db.countries.CN, "2025-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaomi|SU7": 19579
 , "BYD|Qin EV": 17330
 , "Xpeng|Mona M03": 14424
+, "Geely|Panda Mini EV": 13058
 , "BYD|Song EV": 11011
 , "BYD|Sealion 06 EV": 10521
 , "BYD|Seal 06 EV": 10221
 , "MG|4 EV": 11790
 , "BYD|Sealion 05 EV": 10010
 , "Xpeng|P7": 8104
-, "other": 423243
+, "other": 410185
 });
 
 db.insert(db.countries.CN, "2025-10", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/11/20/a-tale-of-two-markets-bevs-up-20-yoy-phevs-down-10-yoy-in-china/",
@@ -2105,10 +2107,11 @@ db.insert(db.countries.CN, "2025-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo S": 17248
 , "Xpeng|Mona M03": 16309
 , "BYD|Dolphin": 16197
+, "Geely|Panda Mini EV": 15534
 , "BYD|Sealion 06 EV": 10121
 , "BYD|Seal 06 EV": 9840
 , "BYD|Song EV": 8353
-, "other": 492128
+, "other": 476594
 });
 
 db.insert(db.countries.CN, "2025-11", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2025/12/22/record-month-for-ev-sales-in-china/",
@@ -2169,11 +2172,13 @@ db.insert(db.countries.CN, "2026-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Hongguang Mini EV": 7133
 , "Xpeng|Mona M03": 6718
 , "Zeekr|7X": 6468
+, "Wuling|Bingo S": 6077
 , "BYD|Seal 06 EV": 3003
+, "Geely|Panda Mini EV": 2015
 , "BYD|Qin EV": 2013
 , "BYD|Sealion 06 EV": 1987
 , "BYD|Song EV": 1602
-, "other": 207703
+, "other": 199611
 });
 
 db.insert(db.countries.CN, "2026-02", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/03/18/tesla-shines-amid-ev-slowdown-in-china-february-2026-sales-report/",
@@ -2196,8 +2201,9 @@ db.insert(db.countries.CN, "2026-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seal 06 EV": 3490
 , "Leapmotor|C10 EV": 2983
 , "BYD|Sealion 06 EV": 1995
+, "Geely|Panda Mini EV": 1586
 , "BYD|Song EV": 597
-, "other": 133232
+, "other": 131646
 });
 
 db.insert(db.countries.CN, "2026-03", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/04/22/byd-wins-in-a-slow-return-to-normal-china-march-ev-sales-report/",
@@ -2221,10 +2227,11 @@ db.insert(db.countries.CN, "2026-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|Y": 8078
 , "BYD|Sealion 06 EV": 8306
 , "Deepal|S05": 7020
+, "Geely|Panda Mini EV": 6562
 , "BYD|Seal 06 EV": 5220
 , "Leapmotor|C10 EV": 4980
 , "BYD|Song EV": 1214
-, "other": 299175
+, "other": 292613
 });
 
 db.insert(db.countries.CN, "2026-04", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/05/18/the-big-ice-meltdown-aprils-china-ev-sales-report/",
@@ -2250,8 +2257,10 @@ db.insert(db.countries.CN, "2026-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seal 06 EV": 5949
 , "BYD|Song EV": 5940
 , "Leapmotor|C10 EV": 6013
+, "Geely|Panda Mini EV": 4367
 , "Tesla|Model 3": 3000
-, "other": 320300
+, "Changan|Lumin": 2769
+, "other": 313164
 });
 
 db.insert(db.countries.CN, "2026-05", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/06/13/the-big-ice-meltdown-mays-china-ev-sales-report/",
@@ -2277,7 +2286,9 @@ db.insert(db.countries.CN, "2026-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Sealion 05 EV": 9850
 , "Chery|QQ3 EV": 8523
 , "BYD|Qin EV": 6913
-, "other": 336810
+, "Geely|Panda Mini EV": 2728
+, "Changan|Lumin": 1980
+, "other": 332102
 });
 
 db.insert(db.countries.CN, "2026-06", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/07/20/the-big-ice-meltdown-junes-china-ev-sales-report/",
