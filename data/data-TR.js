@@ -604,11 +604,11 @@ db.insert(db.countries.TR, "2026-03", db.dsTypes.ElectricCarsTotal, "https://www
 { "other": 15028
 });
 
-db.insert(db.countries.TR, "2026-04", db.dsTypes.AllCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6099/Press%20Release%20May%205th%202026.pdf",
+db.insert(db.countries.TR, "2026-04", db.dsTypes.AllCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6099/Press%20Release%20May%205th%202026.pdf Numbers are inconsistent",
 { "other": 80182
 });
 
-db.insert(db.countries.TR, "2026-04", db.dsTypes.ElectricCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6099/Press%20Release%20May%205th%202026.pdf",
+db.insert(db.countries.TR, "2026-04", db.dsTypes.ElectricCarsTotal, "https://www.odmd.org.tr/folders/2837/categorial1docs/6099/Press%20Release%20May%205th%202026.pdf Numbers are inconsistent",
 { "other": 15854
 });
 
