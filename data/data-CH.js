@@ -8758,7 +8758,8 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|other": 29
 , "Renault|other": 28
 , "Volvo|other": 25
-, "Zeekr|other": 24
+, "Zeekr|other": 25
+, "Subaru|other": 22
 , "Nissan|other": 21
 , "BYD|other": 20
 , "Mazda|other": 19
@@ -8769,8 +8770,7 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|other": 14
 , "Polestar|other": 11
 , "Porsche|other": 9
-, "Subaru|other": 7
 , "Audi|other": 6
 , "Jeep|other": 4
-, "other": 186
+, "other": 170
 });
