@@ -9574,13 +9574,13 @@ db.insert(db.countries.NL, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|other": 42
 , "Mazda|other": 38
 , "Leapmotor|other": 34
-, "Zeekr|other": 26
+, "Zeekr|other": 27
 , "Mitsubishi|other": 23
 , "Renault|other": 22
 , "Audi|other": 10
 , "Nio|other": 6
 , "Deepal|other": 5
-, "other": 207
+, "other": 206
 });
 
 db.insert(db.countries.NL, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/mei/",
@@ -9686,7 +9686,7 @@ db.insert(db.countries.NL, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Xpeng|other": 94
 , "Peugeot|other": 92
 , "Smart|other": 89
-, "Zeekr|other": 67
+, "Zeekr|other": 87
 , "Mercedes-Benz|other": 66
 , "Polestar|other": 63
 , "Audi|other": 60
@@ -9699,9 +9699,10 @@ db.insert(db.countries.NL, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Omoda Jaecoo|other": 48
 , "Jeep|other": 47
 , "Dacia|other": 28
+, "Subaru|other": 24
 , "Mitsubishi|other": 19
 , "Nissan|other": 18
 , "Volkswagen|other": 10
 , "Citroën|other": 7
-, "other": 317
+, "other": 273
 });
