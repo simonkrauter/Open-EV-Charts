@@ -988,3 +988,54 @@ db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|A6 e-tron": 135
 , "other": 22071
 });
+
+db.insert(db.countries.US, "2026-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf",
+{ "other": 4200650
+});
+
+db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf, https://cleantechnica.com/2026/07/21/tesla-model-y-model-3-dominate-us-ev-market-but-who-completes-the-top-10/",
+{ "Tesla|Model Y": 84863
+, "Tesla|Model 3": 34944
+, "Hyundai|Ioniq 5": 10940
+, "Toyota|bZ4X": 7524
+, "Ford|Mustang Mach-E": 7032
+, "Chevrolet|Equinox EV": 6660
+, "Honda|Prologue": 5088
+, "Kia|EV9": 4295
+, "Toyota|C-HR+": 3748
+, "Tesla|Cybertruck": 3744
+, "Chevrolet|Bolt/Bolt EUV": 3433
+, "BMW|i4": 3416
+, "Hyundai|Ioniq 9": 2868
+, "Subaru|Uncharted": 2491
+, "Subaru|Trailseeker": 2436
+, "Ford|F-150 Lightning": 2421
+, "Chevrolet|Silverado EV": 2266
+, "Subaru|Solterra": 2096
+, "Chevrolet|Blazer EV": 2089
+, "Kia|EV6": 2020
+, "Volkswagen|ID.4": 1867
+, "BMW|iX": 1657
+, "Kia|Niro EV": 1033
+, "Porsche|Macan Electric": 1024
+, "Nissan|Leaf": 1016
+, "BMW|i5": 964
+, "Volvo|EX30": 890
+, "Tesla|Model X": 749
+, "Audi|Q6 e-tron": 740
+, "Volkswagen|ID. Buzz": 724
+, "Porsche|Taycan": 663
+, "BMW|i7": 510
+, "Tesla|Model S": 500
+, "Mercedes-Benz|EQS": 453
+, "Volvo|EX90": 449
+, "Hyundai|Ioniq 6": 412
+, "Mercedes-Benz|EQE": 327
+, "Mercedes-Benz|eSprinter": 315
+, "Ford|E-Transit": 293
+, "Volvo|EX40": 273
+, "Mercedes-Benz|G-Class EV": 240
+, "Jeep|Wagoneer S": 198
+, "Audi|e-tron GT": 135
+, "other": 44489
+});
