@@ -4575,3 +4575,58 @@ db.insert(db.countries.AT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Frontera Electric": 186
 , "other": 4029
 });
+
+db.insert(db.countries.AT, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisJuni2026.ods",
+{ "Volkswagen": 3777
+, "Škoda": 3494
+, "BMW": 2105
+, "Hyundai": 2005
+, "Audi": 1776
+, "Mercedes-Benz": 1450
+, "Cupra": 1370
+, "Seat": 1313
+, "MG": 1301
+, "Tesla": 1300
+, "Opel": 1225
+, "Peugeot": 1217
+, "Toyota": 1154
+, "Mazda": 1091
+, "BYD": 1075
+, "Renault": 924
+, "Kia": 904
+, "Dacia": 895
+, "Ford": 805
+, "Citroën": 718
+, "Volvo": 539
+, "Fiat": 489
+, "Omoda Jaecoo": 430
+, "Suzuki": 403
+, "Leapmotor": 377
+, "Nissan": 267
+, "Jeep": 246
+, "Mitsubishi": 238
+, "Mini": 206
+, "Polestar": 162
+, "Porsche": 144
+, "Land Rover": 134
+, "Honda": 133
+, "Xpeng": 117
+, "Chery": 65
+, "Subaru": 62
+, "Smart": 45
+, "other": 300
+});
+
+db.insert(db.countries.AT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisJuni2026.ods",
+{ "Tesla|Model Y": 747
+, "Tesla|Model 3": 539
+, "Cupra|Born": 454
+, "Škoda|Enyaq": 442
+, "BMW|iX3": 411
+, "Opel|Frontera Electric": 338
+, "BYD|Sealion 7": 246
+, "Škoda|Elroq": 239
+, "BMW|iX1": 212
+, "Audi|Q6 e-tron": 201
+, "other": 5164
+});
