@@ -9111,8 +9111,8 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 19
 , "Hyundai|other": 16
 , "Aion|other": 13
+, "Zeekr|other": 13
 , "Mercedes-Benz|other": 12
-, "Zeekr|other": 12
 , "BYD|other": 10
-, "other": 345
+, "other": 344
 });
