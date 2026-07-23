@@ -4074,11 +4074,12 @@ db.insert(db.countries.FI, "2023-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mini|Cooper SE": 4
 , "Toyota|Proace Electric": 4
 , "BYD|Han EV": 3
+, "BYD|Atto 2/3": 2
 , "Citroën|ë-SpaceTourer": 2
 , "Fiat|500e": 2
 , "Jeep|Avenger EV": 2
 , "Peugeot|e-Rifter": 2
-, "other": 31
+, "other": 29
 });
 
 db.insert(db.countries.FI, "2023-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4251,6 +4252,7 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Megane E-Tech": 4
 , "Tesla|Model S": 4
 , "Tesla|Model X": 4
+, "BYD|Atto 2/3": 3
 , "Mercedes-Benz|EQC": 3
 , "Volkswagen|e-up": 3
 , "BYD|Han EV": 2
@@ -4259,7 +4261,7 @@ db.insert(db.countries.FI, "2023-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|ë-Berlingo Electric": 1
 , "Jaguar|I-Pace": 1
 , "Jeep|Avenger EV": 1
-, "other": 29
+, "other": 26
 });
 
 db.insert(db.countries.FI, "2023-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4333,6 +4335,7 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Born": 10
 , "BMW|iX": 8
 , "Opel|Mokka-e": 8
+, "BYD|Atto 2/3": 7
 , "BYD|Han EV": 6
 , "Fiat|500e": 6
 , "Mercedes-Benz|EQC": 5
@@ -4344,7 +4347,7 @@ db.insert(db.countries.FI, "2023-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Subaru|Solterra": 2
 , "Tesla|Model S": 2
 , "Volkswagen|e-up": 2
-, "other": 52
+, "other": 45
 });
 
 db.insert(db.countries.FI, "2023-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4419,6 +4422,7 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 10
 , "BMW|iX": 9
 , "Peugeot|e-Rifter": 9
+, "BYD|Atto 2/3": 8
 , "BYD|Han EV": 8
 , "Peugeot|e-308": 7
 , "Tesla|Model X": 7
@@ -4433,10 +4437,10 @@ db.insert(db.countries.FI, "2023-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|ë-SpaceTourer": 3
 , "Mercedes-Benz|EQC": 3
 , "Opel|Combo-e": 3
-, "Ford|E-Transit": 2
-, "Opel|Corsa-e": 2
+, "Ford|other": 2
 , "Mercedes-Benz|other": 2
-, "other": 48
+, "Opel|other": 2
+, "other": 40
 });
 
 db.insert(db.countries.FI, "2023-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4504,6 +4508,7 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Opel|Mokka-e": 23
 , "Mini|Cooper SE": 16
 , "Toyota|bZ4X": 15
+, "BYD|Atto 2/3": 14
 , "Ford|Mustang Mach-E": 14
 , "Hyundai|Ioniq 6": 14
 , "Renault|Megane E-Tech": 12
@@ -4527,7 +4532,7 @@ db.insert(db.countries.FI, "2023-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|Proace Electric": 2
 , "Citroën|other": 2
 , "Mercedes-Benz|other": 2
-, "other": 69
+, "other": 55
 });
 
 db.insert(db.countries.FI, "2023-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4606,6 +4611,7 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Dolphin": 7
 , "Jeep|Avenger EV": 6
 , "BMW|iX3": 5
+, "BYD|Atto 2/3": 5
 , "Citroën|ë-C4": 5
 , "Peugeot|e-Rifter": 5
 , "Tesla|Model S": 5
@@ -4616,7 +4622,7 @@ db.insert(db.countries.FI, "2023-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQC": 2
 , "Peugeot|e-Expert": 2
 , "Toyota|Proace Electric": 2
-, "other": 42
+, "other": 37
 });
 
 db.insert(db.countries.FI, "2023-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4675,6 +4681,7 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 26
 , "Volkswagen|ID.7": 26
 , "BMW|iX": 25
+, "BYD|Atto 2/3": 24
 , "Volvo|EX30": 24
 , "Nissan|Leaf": 21
 , "Volkswagen|ID.5": 21
@@ -4706,7 +4713,7 @@ db.insert(db.countries.FI, "2023-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 2
 , "Jaguar|I-Pace": 2
 , "Kia|Soul EV": 2
-, "other": 55
+, "other": 31
 });
 
 db.insert(db.countries.FI, "2024-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4766,6 +4773,7 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|2": 30
 , "Audi|Q8 e-tron": 21
 , "Nissan|Leaf": 21
+, "BYD|Atto 2/3": 20
 , "BMW|iX": 19
 , "Kia|Niro EV": 19
 , "Volkswagen|ID.4": 19
@@ -4799,7 +4807,7 @@ db.insert(db.countries.FI, "2024-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-Rifter": 1
 , "Tesla|Model S": 1
 , "Toyota|Proace Electric": 1
-, "other": 45
+, "other": 25
 });
 
 db.insert(db.countries.FI, "2024-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4849,6 +4857,7 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 45
 , "Volkswagen|ID.4": 43
 , "Volkswagen|ID.7": 42
+, "BYD|Atto 2/3": 40
 , "Mercedes-Benz|EQE": 33
 , "Hyundai|Kona Electric": 32
 , "Mercedes-Benz|EQA": 32
@@ -4888,7 +4897,7 @@ db.insert(db.countries.FI, "2024-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-Rifter": 1
 , "Subaru|Solterra": 1
 , "Tesla|Model X": 1
-, "other": 53
+, "other": 13
 });
 
 db.insert(db.countries.FI, "2024-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -4951,6 +4960,7 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 24
 , "Volkswagen|ID.3": 24
 , "BMW|iX": 17
+, "BYD|Atto 2/3": 17
 , "Audi|Q8 e-tron": 15
 , "Ford|Mustang Mach-E": 15
 , "BMW|i5": 11
@@ -4986,7 +4996,7 @@ db.insert(db.countries.FI, "2024-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 1
 , "Opel|other": 1
 , "Renault|other": 1
-, "other": 30
+, "other": 13
 });
 
 db.insert(db.countries.FI, "2024-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5056,6 +5066,7 @@ db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Ariya": 16
 , "Kia|Niro EV": 15
 , "Kia|EV9": 14
+, "BYD|Atto 2/3": 11
 , "Smart|Hashtag 3": 10
 , "Volkswagen|ID.5": 10
 , "BMW|iX": 9
@@ -5079,7 +5090,7 @@ db.insert(db.countries.FI, "2024-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|eVito": 1
 , "Peugeot|e-308": 1
 , "Tesla|Model S": 1
-, "other": 39
+, "other": 28
 });
 
 db.insert(db.countries.FI, "2024-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5146,6 +5157,7 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Ariya": 20
 , "Toyota|bZ4X": 20
 , "Hyundai|Kona Electric": 19
+, "BYD|Atto 2/3": 18
 , "Volkswagen|ID.3": 18
 , "Peugeot|E-3008": 17
 , "Kia|Niro EV": 13
@@ -5175,7 +5187,7 @@ db.insert(db.countries.FI, "2024-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Opel|Mokka-e": 2
 , "Tesla|Model X": 2
 , "Toyota|Proace Electric": 2
-, "other": 76
+, "other": 58
 });
 
 db.insert(db.countries.FI, "2024-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5246,6 +5258,7 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 14
 , "Ford|Mustang Mach-E": 13
 , "Volkswagen|ID.3": 12
+, "BYD|Atto 2/3": 11
 , "Hyundai|Ioniq 6": 11
 , "Mercedes-Benz|EQS": 10
 , "Peugeot|E-3008": 10
@@ -5271,7 +5284,7 @@ db.insert(db.countries.FI, "2024-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-208": 1
 , "Peugeot|e-Rifter": 1
 , "Volkswagen|ID.5": 1
-, "other": 29
+, "other": 18
 });
 
 db.insert(db.countries.FI, "2024-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5338,6 +5351,7 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|Niro EV": 19
 , "Subaru|Solterra": 19
 , "Peugeot|E-3008": 17
+, "BYD|Atto 2/3": 16
 , "Kia|EV9": 16
 , "Volkswagen|ID.3": 16
 , "Cupra|Born": 15
@@ -5366,7 +5380,7 @@ db.insert(db.countries.FI, "2024-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|other": 2
 , "Peugeot|other": 2
 , "Fiat|other": 1
-, "other": 35
+, "other": 19
 });
 
 db.insert(db.countries.FI, "2024-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5442,6 +5456,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|E-3008": 17
 , "BMW|i5": 16
 , "Kia|EV9": 15
+, "BYD|Atto 2/3": 13
 , "Audi|Q8 e-tron": 12
 , "BMW|iX2": 12
 , "Cupra|Born": 12
@@ -5468,7 +5483,7 @@ db.insert(db.countries.FI, "2024-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|other": 1
 , "Citroën|other": 1
 , "Kia|other": 1
-, "other": 41
+, "other": 28
 });
 
 db.insert(db.countries.FI, "2024-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5548,6 +5563,7 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX": 7
 , "BYD|Tang EV": 7
 , "Ford|Mustang Mach-E": 7
+, "BYD|Atto 2/3": 6
 , "Jeep|Avenger EV": 6
 , "Kia|EV9": 6
 , "Mini|Cooper SE": 6
@@ -5571,7 +5587,7 @@ db.insert(db.countries.FI, "2024-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|other": 1
 , "Smart|other": 1
 , "Volkswagen|other": 1
-, "other": 24
+, "other": 18
 });
 
 db.insert(db.countries.FI, "2024-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5657,6 +5673,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 7
 , "Mercedes-Benz|EQS": 7
 , "Mini|Cooper SE": 7
+, "BYD|Atto 2/3": 6
 , "Mercedes-Benz|G-Class EV": 6
 , "Peugeot|E-5008": 6
 , "Peugeot|E-3008": 4
@@ -5676,7 +5693,7 @@ db.insert(db.countries.FI, "2024-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 1
 , "Mercedes-Benz|other": 1
 , "Volkswagen|other": 1
-, "other": 24
+, "other": 18
 });
 
 db.insert(db.countries.FI, "2024-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5768,7 +5785,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Dolphin": 5
 , "Citroën|ë-C4": 5
 , "Peugeot|E-3008": 4
-, "BYD|other": 6
+, "BYD|other": 8
 , "Opel|other": 6
 , "Mercedes-Benz|other": 5
 , "BMW|other": 4
@@ -5785,7 +5802,7 @@ db.insert(db.countries.FI, "2024-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jeep|other": 1
 , "Mazda|other": 1
 , "Tesla|other": 1
-, "other": 11
+, "other": 9
 });
 
 db.insert(db.countries.FI, "2024-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5880,11 +5897,12 @@ db.insert(db.countries.FI, "2024-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Megane E-Tech": 3
 , "Peugeot|other": 8
 , "Mercedes-Benz|other": 5
+, "BYD|other": 3
 , "Opel|other": 3
 , "BMW|other": 2
 , "Ford|other": 2
 , "Tesla|other": 2
-, "other": 24
+, "other": 21
 });
 
 db.insert(db.countries.FI, "2025-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -5982,9 +6000,9 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|other": 12
 , "Mercedes-Benz|other": 10
 , "Xpeng|other": 8
+, "BYD|other": 7
 , "Audi|other": 4
 , "BMW|other": 4
-, "BYD|other": 4
 , "Fiat|other": 4
 , "MG|other": 4
 , "Jeep|other": 3
@@ -5996,7 +6014,7 @@ db.insert(db.countries.FI, "2025-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|other": 2
 , "Volkswagen|other": 2
 , "Honda|other": 1
-, "other": 13
+, "other": 10
 });
 
 db.insert(db.countries.FI, "2025-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6201,8 +6219,8 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Kona Electric": 6
 , "Xpeng|G6": 6
 , "Peugeot|other": 12
+, "BYD|other": 9
 , "Mercedes-Benz|other": 8
-, "BYD|other": 6
 , "Fiat|other": 6
 , "Audi|other": 5
 , "Porsche|other": 5
@@ -6219,7 +6237,7 @@ db.insert(db.countries.FI, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|other": 2
 , "Volkswagen|other": 2
 , "Xpeng|other": 2
-, "other": 37
+, "other": 34
 });
 
 db.insert(db.countries.FI, "2025-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6318,15 +6336,15 @@ db.insert(db.countries.FI, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 10
 , "Peugeot|other": 8
 , "Audi|other": 7
+, "BYD|other": 6
 , "Renault|other": 6
 , "BMW|other": 5
 , "Opel|other": 5
-, "BYD|other": 4
 , "Jeep|other": 4
 , "Hyundai|other": 3
 , "Polestar|other": 3
 , "Xpeng|other": 2
-, "other": 33
+, "other": 31
 });
 
 db.insert(db.countries.FI, "2025-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6420,12 +6438,12 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Smart|Hashtag 3": 9
 , "Fiat|600e": 7
 , "Polestar|3": 7
+, "BYD|other": 8
 , "Mercedes-Benz|other": 8
 , "Peugeot|other": 8
 , "Jeep|other": 6
 , "Opel|other": 6
 , "Smart|other": 6
-, "BYD|other": 5
 , "Citroën|other": 5
 , "Hyundai|other": 5
 , "Audi|other": 3
@@ -6434,7 +6452,7 @@ db.insert(db.countries.FI, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Xpeng|other": 3
 , "MG|other": 2
 , "Renault|other": 2
-, "other": 56
+, "other": 53
 });
 
 db.insert(db.countries.FI, "2025-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6523,6 +6541,7 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Ariya": 10
 , "Toyota|bZ4X": 10
 , "Kia|EV9": 8
+, "BYD|Atto 2/3": 7
 , "Smart|Hashtag 1": 7
 , "Kia|Soul EV": 6
 , "Peugeot|E-3008": 6
@@ -6543,7 +6562,7 @@ db.insert(db.countries.FI, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|other": 2
 , "Smart|other": 2
 , "Toyota|other": 2
-, "other": 44
+, "other": 37
 });
 
 db.insert(db.countries.FI, "2025-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6632,6 +6651,7 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Subaru|Solterra": 11
 , "BMW|i5": 9
 , "Hyundai|Ioniq 6": 9
+, "BYD|Atto 2/3": 8
 , "Kia|EV9": 8
 , "Citroën|ë-C3": 7
 , "Opel|Astra Electric": 7
@@ -6652,7 +6672,7 @@ db.insert(db.countries.FI, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Fiat|other": 1
 , "Jeep|other": 1
 , "Volkswagen|other": 1
-, "other": 63
+, "other": 55
 });
 
 db.insert(db.countries.FI, "2025-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6750,6 +6770,7 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|other": 7
 , "Cupra|other": 5
 , "Peugeot|other": 4
+, "BYD|other": 3
 , "Ford|other": 3
 , "Mercedes-Benz|other": 3
 , "Polestar|other": 3
@@ -6763,7 +6784,7 @@ db.insert(db.countries.FI, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|other": 1
 , "Jeep|other": 1
 , "Porsche|other": 1
-, "other": 31
+, "other": 28
 });
 
 db.insert(db.countries.FI, "2025-09", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6857,9 +6878,9 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Born": 11
 , "Nissan|Ariya": 11
 , "Smart|Hashtag 3": 11
+, "BYD|other": 14
 , "Mercedes-Benz|other": 11
 , "Peugeot|other": 10
-, "BYD|other": 9
 , "Aion|other": 8
 , "MG|other": 8
 , "Subaru|other": 8
@@ -6871,7 +6892,7 @@ db.insert(db.countries.FI, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 2
 , "Kia|other": 2
 , "Smart|other": 2
-, "other": 39
+, "other": 34
 });
 
 db.insert(db.countries.FI, "2025-10", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -6977,8 +6998,9 @@ db.insert(db.countries.FI, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|other": 4
 , "Toyota|other": 4
 , "Porsche|other": 3
+, "BYD|other": 2
 , "Polestar|other": 2
-, "other": 38
+, "other": 36
 });
 
 db.insert(db.countries.FI, "2025-11", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7081,12 +7103,13 @@ db.insert(db.countries.FI, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|other": 6
 , "Toyota|other": 6
 , "Aion|other": 5
+, "BYD|other": 5
 , "Hyundai|other": 5
 , "Nissan|other": 5
 , "Polestar|other": 4
 , "Smart|other": 4
 , "Audi|other": 2
-, "other": 44
+, "other": 39
 });
 
 db.insert(db.countries.FI, "2025-12", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7185,9 +7208,9 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|other": 10
 , "Renault|other": 10
 , "Smart|other": 10
+, "BYD|other": 8
 , "Tesla|other": 8
 , "BMW|other": 6
-, "BYD|other": 6
 , "Kia|other": 6
 , "Xpeng|other": 6
 , "Volvo|other": 4
@@ -7197,7 +7220,7 @@ db.insert(db.countries.FI, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|other": 3
 , "Subaru|other": 2
 , "Volkswagen|other": 2
-, "other": 29
+, "other": 27
 });
 
 db.insert(db.countries.FI, "2026-01", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7299,15 +7322,15 @@ db.insert(db.countries.FI, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|other": 7
 , "Nissan|other": 5
 , "Volkswagen|other": 5
+, "BYD|other": 4
 , "Opel|other": 4
 , "Polestar|other": 4
 , "Porsche|other": 3
 , "Tesla|other": 3
 , "Audi|other": 2
-, "BYD|other": 2
 , "Fiat|other": 2
 , "Smart|other": 2
-, "other": 30
+, "other": 28
 });
 
 db.insert(db.countries.FI, "2026-02", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7411,11 +7434,12 @@ db.insert(db.countries.FI, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|other": 7
 , "Mercedes-Benz|other": 5
 , "Renault|other": 5
+, "BYD|other": 4
 , "Hyundai|other": 3
 , "Citroën|other": 2
 , "Smart|other": 2
 , "Volkswagen|other": 2
-, "other": 121
+, "other": 117
 });
 
 db.insert(db.countries.FI, "2026-03", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7498,6 +7522,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|ë-C3": 21
 , "Kia|EV9": 20
 , "Ford|Puma Gen-E": 19
+, "BYD|Atto 2/3": 18
 , "Kia|EV4": 18
 , "Nissan|Ariya": 18
 , "BYD|Dolphin": 17
@@ -7506,11 +7531,11 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|4 EV": 16
 , "Peugeot|E-3008": 15
 , "Renault|Scénic E-Tech": 14
-, "Cupra|Born": 13
-, "Mini|Cooper SE": 13
 , "Hyundai|other": 28
 , "Mercedes-Benz|other": 21
 , "Peugeot|other": 14
+, "Cupra|other": 13
+, "Mini|other": 13
 , "BMW|other": 11
 , "MG|other": 11
 , "Mazda|other": 11
@@ -7526,7 +7551,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|other": 3
 , "Renault|other": 3
 , "Audi|other": 2
-, "other": 95
+, "other": 77
 });
 
 db.insert(db.countries.FI, "2026-04", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7603,6 +7628,7 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|ID.3": 26
 , "Mazda|EZ-6 BEV": 23
 , "Mercedes-Benz|EQA": 22
+, "BYD|Atto 2/3": 17
 , "Kia|EV6": 16
 , "MG|S6 EV": 16
 , "Xpeng|G6": 16
@@ -7618,31 +7644,28 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|4 EV": 12
 , "Aion|V": 10
 , "Renault|5 E-Tech": 10
-, "Citroën|ë-C3": 9
-, "Hyundai|Kona Electric": 9
-, "Mini|Cooper SE": 9
-, "Peugeot|E-3008": 9
+, "Citroën|other": 16
+, "Hyundai|other": 15
 , "Kia|other": 13
 , "Ford|other": 12
 , "Nissan|other": 12
 , "Opel|other": 12
+, "Peugeot|other": 12
 , "BMW|other": 10
+, "Mini|other": 9
 , "Volvo|other": 8
 , "BYD|other": 7
-, "Citroën|other": 7
 , "MG|other": 7
 , "Polestar|other": 7
 , "Volkswagen|other": 7
 , "Audi|other": 6
-, "Hyundai|other": 6
 , "Mercedes-Benz|other": 6
 , "Renault|other": 4
 , "Subaru|other": 4
 , "Xpeng|other": 4
-, "Peugeot|other": 3
 , "Porsche|other": 3
 , "Smart|other": 3
-, "other": 87
+, "other": 70
 });
 
 db.insert(db.countries.FI, "2026-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7719,6 +7742,7 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX3": 27
 , "Audi|A6 e-tron": 25
 , "Renault|5 E-Tech": 24
+, "BYD|Atto 2/3": 22
 , "BYD|Dolphin": 21
 , "BMW|iX2": 20
 , "Ford|Capri EV": 20
@@ -7737,6 +7761,7 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Citroën|ë-C5": 12
 , "Cupra|Tavascan": 12
 , "Kia|EV5": 12
+, "Subaru|Uncharted": 12
 , "Ford|other": 22
 , "Opel|other": 22
 , "Kia|other": 18
@@ -7753,11 +7778,11 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Xpeng|other": 5
 , "Audi|other": 4
 , "Mercedes-Benz|other": 4
+, "Subaru|other": 4
 , "BYD|other": 3
 , "Porsche|other": 3
-, "Subaru|other": 3
 , "Cupra|other": 2
-, "other": 100
+, "other": 65
 });
 
 db.insert(db.countries.FI, "2026-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7830,6 +7855,7 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Cayenne Electric": 32
 , "Audi|Q4 e-tron": 30
 , "MG|4 EV": 29
+, "BYD|Atto 2/3": 28
 , "Mazda|EZ-6 BEV": 27
 , "Renault|Scénic E-Tech": 24
 , "BYD|Sealion 7": 23
@@ -7849,28 +7875,26 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX2": 16
 , "Citroën|ë-C3": 16
 , "Nissan|Ariya": 16
-, "BYD|Seal": 15
-, "Kia|EV6": 15
+, "Kia|other": 31
 , "Ford|other": 26
+, "BYD|other": 24
 , "Volvo|other": 24
+, "Subaru|other": 22
 , "Peugeot|other": 18
 , "MG|other": 17
-, "Kia|other": 16
 , "BMW|other": 15
 , "Hyundai|other": 13
 , "Opel|other": 11
 , "Smart|other": 11
 , "Volkswagen|other": 11
-, "BYD|other": 9
 , "Porsche|other": 9
 , "Xpeng|other": 8
 , "Citroën|other": 7
-, "Subaru|other": 7
 , "Tesla|other": 5
 , "Toyota|other": 5
 , "Cupra|other": 4
 , "Nissan|other": 4
 , "Audi|other": 2
 , "Mercedes-Benz|other": 2
-, "other": 111
+, "other": 68
 });
