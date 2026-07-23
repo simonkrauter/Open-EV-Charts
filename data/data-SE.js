@@ -8225,9 +8225,9 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Citroën|other": 29
 , "Leapmotor|other": 29
 , "Smart|other": 29
+, "Subaru|other": 25
 , "BMW|other": 24
 , "Nissan|other": 20
-, "Subaru|other": 20
 , "Mercedes-Benz|other": 18
 , "Kia|other": 17
 , "Tesla|other": 16
@@ -8236,7 +8236,7 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|other": 13
 , "Xpeng|other": 11
 , "MG|other": 8
-, "other": 283
+, "other": 278
 });
 
 db.insert(db.countries.SE, "2026-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8311,6 +8311,7 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volkswagen|ID. Buzz": 101
 , "Zeekr|7X": 101
 , "Volkswagen|ID.3": 100
+, "Subaru|Uncharted": 99
 , "Mercedes-Benz|GLC EQ": 97
 , "Audi|Q6 e-tron": 95
 , "BMW|i4": 82
@@ -8332,11 +8333,11 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Opel|Frontera Electric": 45
 , "BYD|Sealion 7": 44
 , "BMW|iX": 43
-, "Hyundai|Ioniq 9": 40
 , "Ford|other": 58
 , "Citroën|other": 56
 , "Leapmotor|other": 46
 , "Porsche|other": 41
+, "Hyundai|other": 40
 , "Mercedes-Benz|other": 39
 , "Xpeng|other": 36
 , "Peugeot|other": 35
@@ -8351,7 +8352,7 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Zeekr|other": 13
 , "Volvo|other": 11
 , "Jeep|other": 8
-, "other": 349
+, "other": 250
 });
 
 db.insert(db.countries.SE, "2026-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8439,6 +8440,7 @@ db.insert(db.countries.SE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "BMW|i5": 86
 , "BYD|Atto 3": 81
 , "Mini|Cooper SE": 81
+, "Subaru|Uncharted": 69
 , "Xpeng|G6": 69
 , "Renault|4 E-Tech": 64
 , "BMW|iX": 62
@@ -8447,11 +8449,10 @@ db.insert(db.countries.SE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Puma Gen-E": 57
 , "Hyundai|Ioniq 9": 57
 , "Opel|Frontera Electric": 48
-, "Peugeot|E-5008": 47
+, "Peugeot|other": 122
 , "Porsche|other": 95
 , "Ford|other": 86
 , "Mercedes-Benz|other": 77
-, "Peugeot|other": 75
 , "MG|other": 51
 , "Citroën|other": 50
 , "Nissan|other": 49
@@ -8468,5 +8469,5 @@ db.insert(db.countries.SE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Cupra|other": 14
 , "Subaru|other": 13
 , "Tesla|other": 10
-, "other": 545
+, "other": 476
 });
