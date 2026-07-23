@@ -940,11 +940,11 @@ db.insert(db.countries.US, "2025-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 38982
 });
 
-db.insert(db.countries.US, "2026-Q1", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/04/15/us-ev-market-down-27-worst-1st-quarter-since-2022/",
-{ "other": 3667780
+db.insert(db.countries.US, "2026-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf",
+{ "other": 3671858
 });
 
-db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/04/15/us-ev-market-down-27-worst-1st-quarter-since-2022/",
+db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf, https://cleantechnica.com/2026/04/15/us-ev-market-down-27-worst-1st-quarter-since-2022/",
 { "Tesla|Model Y": 78591
 , "Tesla|Model 3": 31672
 , "Toyota|bZ4X": 10029
@@ -986,5 +986,5 @@ db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://c
 , "Mini|Countryman Electric": 200
 , "Jeep|Wagoneer S": 175
 , "Audi|A6 e-tron": 135
-, "other": 32805
+, "other": 22071
 });
