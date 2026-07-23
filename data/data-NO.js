@@ -7374,9 +7374,9 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 45
 , "BMW|other": 44
 , "Polestar|other": 44
+, "Subaru|other": 40
 , "Zeekr|other": 38
 , "Citroën|other": 37
-, "Subaru|other": 36
 , "Porsche|other": 33
 , "Kia|other": 30
 , "Renault|other": 28
@@ -7388,7 +7388,7 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|other": 19
 , "Opel|other": 11
 , "Cupra|other": 9
-, "other": 1197
+, "other": 1193
 });
 
 db.insert(db.countries.NO, "2026-04", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-april-2026",
@@ -7465,6 +7465,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Micra EV": 84
 , "Opel|Frontera Electric": 84
 , "Citroën|ë-C3": 81
+, "Subaru|Uncharted": 81
 , "MG|S6 EV": 78
 , "Peugeot|e-2008": 78
 , "Mercedes-Benz|GLC EQ": 71
@@ -7473,19 +7474,17 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|S5 EV": 56
 , "Ford|Capri EV": 55
 , "Tesla|Model 3": 53
-, "Hyundai|Inster": 48
-, "Renault|5 E-Tech": 48
+, "Hyundai|other": 84
+, "Renault|other": 83
 , "BYD|other": 81
 , "Ford|other": 75
 , "BMW|other": 58
 , "Citroën|other": 50
 , "Mercedes-Benz|other": 49
 , "Peugeot|other": 46
-, "Subaru|other": 41
+, "Subaru|other": 42
 , "Polestar|other": 37
-, "Hyundai|other": 36
 , "Kia|other": 36
-, "Renault|other": 35
 , "Audi|other": 33
 , "Zeekr|other": 27
 , "Nio|other": 26
@@ -7498,7 +7497,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 12
 , "Xpeng|other": 9
 , "Smart|other": 8
-, "other": 1118
+, "other": 1036
 });
 
 db.insert(db.countries.NO, "2026-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2026",
@@ -7578,24 +7577,25 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Micra EV": 81
 , "BMW|i4": 74
 , "Mercedes-Benz|GLB EQ": 68
+, "Subaru|Uncharted": 67
 , "Citroën|ë-C3": 63
 , "Hyundai|Inster": 63
 , "Hyundai|Ioniq 5": 62
 , "Renault|5 E-Tech": 61
 , "Mercedes-Benz|EQA": 59
 , "Mini|Cooper SE": 55
-, "Audi|A6 e-tron": 54
 , "Kia|other": 116
 , "Opel|other": 95
 , "Peugeot|other": 92
 , "BMW|other": 87
 , "Ford|other": 71
+, "Subaru|other": 65
 , "BYD|other": 61
+, "Audi|other": 57
 , "Citroën|other": 54
 , "Nio|other": 43
 , "Zeekr|other": 43
 , "Renault|other": 40
-, "Subaru|other": 33
 , "Polestar|other": 28
 , "Hyundai|other": 24
 , "Volvo|other": 23
@@ -7606,7 +7606,7 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 13
 , "JAC|other": 12
 , "Mitsubishi|other": 11
-, "other": 1459
+, "other": 1357
 });
 
 db.insert(db.countries.NO, "2026-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2026",
@@ -7685,41 +7685,40 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q4 e-tron": 100
 , "Mercedes-Benz|CLA EQ": 100
 , "Citroën|ë-C3": 96
+, "Subaru|E-Outback": 95
 , "Nissan|Leaf": 82
 , "BMW|iX": 76
 , "Nissan|Ariya": 75
 , "Polestar|3": 75
 , "Renault|5 E-Tech": 73
 , "Peugeot|e-2008": 67
-, "Peugeot|e-208": 63
-, "Volvo|ES90": 63
 , "Ford|other": 166
+, "Peugeot|other": 153
 , "Opel|other": 125
+, "Zeekr|other": 113
+, "Volvo|other": 107
 , "Kia|other": 90
-, "Peugeot|other": 90
+, "Subaru|other": 81
 , "Hyundai|other": 76
 , "Audi|other": 68
 , "Nissan|other": 61
 , "Porsche|other": 57
 , "BMW|other": 55
 , "BYD|other": 55
-, "Zeekr|other": 48
 , "Volkswagen|other": 45
 , "Citroën|other": 44
 , "Nio|other": 44
-, "Volvo|other": 44
 , "Honda|other": 37
 , "Renault|other": 36
 , "Mercedes-Benz|other": 35
 , "Smart|other": 30
-, "Subaru|other": 27
 , "Mitsubishi|other": 23
 , "Fiat|other": 20
 , "Xpeng|other": 20
 , "JAC|other": 19
 , "Jeep|other": 17
 , "Cupra|other": 15
-, "other": 2145
+, "other": 1931
 });
 
 
