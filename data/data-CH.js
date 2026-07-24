@@ -601,6 +601,7 @@ db.insert(db.countries.CH, "2019-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Smart|Forfour ED": 3
 , "Citroën|C-Zero": 2
 , "Volkswagen|e-up": 2
+, "other": 5
 });
 
 db.insert(db.countries.CH, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -655,6 +656,7 @@ db.insert(db.countries.CH, "2019-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 4
 , "Hyundai|Ioniq Electric": 4
 , "Opel|Ampera-e": 1
+, "other": 1
 });
 
 db.insert(db.countries.CH, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -711,6 +713,7 @@ db.insert(db.countries.CH, "2019-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 4
 , "Citroën|C-Zero": 2
 , "Volkswagen|e-up": 2
+, "other": 2
 });
 
 db.insert(db.countries.CH, "2019-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -768,6 +771,7 @@ db.insert(db.countries.CH, "2019-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Kia|Soul EV": 2
 , "Peugeot|iOn": 1
+, "other": 2
 });
 
 db.insert(db.countries.CH, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -825,6 +829,7 @@ db.insert(db.countries.CH, "2019-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 2
 , "Peugeot|iOn": 2
 , "Volkswagen|e-up": 2
+, "other": 7
 });
 
 db.insert(db.countries.CH, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -883,6 +888,7 @@ db.insert(db.countries.CH, "2019-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 3
 , "Volkswagen|e-up": 2
 , "Peugeot|iOn": 1
+, "other": 17
 });
 
 db.insert(db.countries.CH, "2019-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -941,6 +947,7 @@ db.insert(db.countries.CH, "2019-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|iOn": 2
 , "Citroën|C-Zero": 1
 , "Volkswagen|e-up": 1
+, "other": 2
 });
 
 db.insert(db.countries.CH, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -975,7 +982,7 @@ db.insert(db.countries.CH, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 122
 , "Subaru": 110
 , "Chevrolet": 42
-, "other": 469
+, "other": 480
 });
 
 db.insert(db.countries.CH, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/8 (includes commercial vehicles)",
@@ -996,6 +1003,7 @@ db.insert(db.countries.CH, "2019-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 3
 , "Smart|Forfour ED": 3
 , "Mitsubishi|i-MiEV": 1
+, "other": 52
 });
 
 db.insert(db.countries.CH, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -1052,6 +1060,7 @@ db.insert(db.countries.CH, "2019-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|e-Golf": 6
 , "Peugeot|iOn": 1
 , "Volkswagen|e-up": 1
+, "other": 1
 });
 
 db.insert(db.countries.CH, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -1109,6 +1118,7 @@ db.insert(db.countries.CH, "2019-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|C-Zero": 2
 , "Kia|Soul EV": 1
 , "Peugeot|iOn": 1
+, "other": 1
 });
 
 db.insert(db.countries.CH, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -1143,7 +1153,7 @@ db.insert(db.countries.CH, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 87
 , "Smart": 65
 , "Chevrolet": 37
-, "other": 652
+, "other": 653
 });
 
 db.insert(db.countries.CH, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/11 (includes commercial vehicles)",
@@ -1165,6 +1175,7 @@ db.insert(db.countries.CH, "2019-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 2
 , "Citroën|C-Zero": 1
 , "Peugeot|iOn": 1
+, "other": 4
 });
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2020/07/ModellePW2019.xlsx",
@@ -1199,7 +1210,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 224
 , "Smart": 72
 , "Chevrolet": 40
-, "other": 816
+, "other": 818
 });
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/12 (includes commercial vehicles)",
@@ -1220,7 +1231,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Ampera-e": 12
 , "Smart|Forfour ED": 9
 , "Kia|Soul EV": 3
-, "other": 2
+, "other": 7
 });
 
 db.insert(db.countries.CH, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2021/01/ModellePW2020.xlsx",
@@ -1381,7 +1392,7 @@ db.insert(db.countries.CH, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Honda": 51
 , "Smart": 32
 , "Chevrolet": 11
-, "other": 370
+, "other": 371
 });
 
 db.insert(db.countries.CH, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/3 (includes commercial vehicles)",
@@ -1791,7 +1802,7 @@ db.insert(db.countries.CH, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 140
 , "Smart": 30
 , "JAC": 10
-, "other": 391
+, "other": 392
 });
 
 db.insert(db.countries.CH, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/9 (includes commercial vehicles)",
@@ -1940,7 +1951,7 @@ db.insert(db.countries.CH, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 37
 , "JAC": 5
 , "Polestar": 3
-, "other": 394
+, "other": 397
 });
 
 db.insert(db.countries.CH, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/11 (includes commercial vehicles)",
@@ -2017,7 +2028,7 @@ db.insert(db.countries.CH, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 31
 , "Polestar": 15
 , "Chevrolet": 12
-, "other": 462
+, "other": 465
 });
 
 db.insert(db.countries.CH, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/12 (includes commercial vehicles)",
@@ -2245,7 +2256,7 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 81
 , "Smart": 34
 , "Chevrolet": 3
-, "other": 506
+, "other": 507
 });
 
 db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/3 (includes commercial vehicles)",
@@ -2405,7 +2416,7 @@ db.insert(db.countries.CH, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 52
 , "Smart": 40
 , "Chevrolet": 7
-, "other": 366
+, "other": 375
 });
 
 db.insert(db.countries.CH, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/5 (includes commercial vehicles)",
@@ -2487,7 +2498,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 116
 , "Polestar": 97
 , "Smart": 30
-, "other": 430
+, "other": 477
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/6 (includes commercial vehicles)",
@@ -3448,7 +3459,7 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 51
 , "Smart": 29
 , "Chevrolet": 5
-, "other": 371
+, "other": 372
 });
 
 db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/5 (includes commercial vehicles)",
@@ -3586,7 +3597,7 @@ db.insert(db.countries.CH, "2022-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 8
 , "Jaguar|I-Pace": 5
 , "Toyota|bZ4X": 5
-, "Mercedes-Benz|other": 3
+, "Mercedes-Benz|EQE": 3
 , "other": 157
 });
 
@@ -3764,7 +3775,7 @@ db.insert(db.countries.CH, "2022-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|Soul EV": 5
 , "Audi|e-tron GT": 4
 , "Volvo|EX40": 3
-, "Smart|other": 2
+, "Smart|Forfour ED": 2
 , "other": 80
 });
 
@@ -3854,7 +3865,7 @@ db.insert(db.countries.CH, "2022-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Opel|Zafira-e": 5
 , "Honda|e": 4
 , "Mercedes-Benz|EQV": 4
-, "Toyota|other": 3
+, "Toyota|bZ4X": 3
 , "other": 154
 });
 
@@ -3944,8 +3955,8 @@ db.insert(db.countries.CH, "2022-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 6
 , "Mazda|MX-30 BEV": 5
 , "Honda|e": 3
-, "Mercedes-Benz|other": 2
-, "Opel|other": 2
+, "Mercedes-Benz|EQV": 2
+, "Opel|Zafira-e": 2
 , "other": 90
 });
 
@@ -4037,7 +4048,7 @@ db.insert(db.countries.CH, "2022-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i7": 8
 , "BMW|i3 BEV": 7
 , "Opel|Zafira-e": 6
-, "JAC|other": 5
+, "JAC|e-JS4": 5
 , "Jaguar|other": 4
 , "other": 171
 });
@@ -4130,11 +4141,12 @@ db.insert(db.countries.CH, "2022-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Nissan|Ariya": 11
 , "Honda|e": 7
 , "Nissan|Leaf": 7
-, "BMW|other": 10
-, "Opel|other": 6
+, "BMW|i3 BEV": 6
+, "Opel|Corsa-e": 6
 , "Peugeot|other": 6
 , "Citroën|other": 5
 , "Jaguar|other": 5
+, "BMW|other": 4
 , "other": 219
 });
 
@@ -4224,10 +4236,10 @@ db.insert(db.countries.CH, "2023-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|e-JS4": 8
 , "Opel|Corsa-e": 8
 , "Tesla|Model 3": 7
-, "Honda|other": 4
-, "Hyundai|other": 4
-, "Mercedes-Benz|other": 4
-, "Nissan|other": 4
+, "Honda|e": 4
+, "Hyundai|Kona Electric": 4
+, "Mercedes-Benz|EQV": 4
+, "Nissan|Leaf": 4
 , "Kia|other": 3
 , "Mazda|other": 3
 , "Jaguar|other": 2
@@ -4417,7 +4429,7 @@ db.insert(db.countries.CH, "2023-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 18
 , "Subaru|Solterra": 18
 , "Nissan|Leaf": 16
-, "Jaguar|other": 14
+, "Jaguar|I-Pace": 14
 , "Nissan|other": 11
 , "BMW|other": 9
 , "Mercedes-Benz|other": 7
@@ -4514,9 +4526,9 @@ db.insert(db.countries.CH, "2023-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|e-JS4": 10
 , "Peugeot|e-2008": 10
 , "Subaru|Solterra": 10
+, "Honda|e": 8
+, "Kia|Soul EV": 7
 , "Nissan|other": 10
-, "Honda|other": 8
-, "Kia|other": 7
 , "Fiat|other": 6
 , "Peugeot|other": 4
 , "other": 119
@@ -4609,9 +4621,9 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|e-tron GT": 11
 , "BMW|i7": 10
 , "Dacia|Spring": 10
-, "Nissan|other": 11
-, "BMW|other": 9
-, "Fiat|other": 8
+, "BMW|iX3": 8
+, "Fiat|E-Doblò": 8
+, "Nissan|Leaf": 8
 , "Jeep|other": 5
 , "Mercedes-Benz|other": 5
 , "Opel|other": 5
@@ -4620,7 +4632,8 @@ db.insert(db.countries.CH, "2023-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|other": 4
 , "Smart|other": 4
 , "Mazda|other": 3
-, "other": 193
+, "Nissan|other": 3
+, "other": 194
 });
 
 db.insert(db.countries.CH, "2023-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2024/01/ModellePW2023.xlsx",
@@ -5010,9 +5023,9 @@ db.insert(db.countries.CH, "2023-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 16
 , "Audi|e-tron GT": 13
 , "Mercedes-Benz|eCitan": 13
+, "Jeep|Avenger EV": 12
+, "Subaru|Solterra": 12
 , "Nissan|other": 18
-, "Jeep|other": 12
-, "Subaru|other": 12
 , "JAC|other": 11
 , "BMW|other": 7
 , "Kia|other": 7
@@ -5110,9 +5123,9 @@ db.insert(db.countries.CH, "2023-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|EQC": 16
 , "Mini|Cooper SE": 16
 , "BMW|iX3": 15
+, "Fiat|E-Doblò": 12
 , "Opel|other": 22
 , "Mercedes-Benz|other": 15
-, "Fiat|other": 12
 , "Citroën|other": 10
 , "Peugeot|other": 9
 , "Kia|other": 5
@@ -5210,11 +5223,11 @@ db.insert(db.countries.CH, "2023-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Kia|EV6": 16
 , "Peugeot|e-308": 16
 , "Mini|Cooper SE": 15
+, "Honda|e:Ny1": 14
+, "Audi|e-tron GT": 13
+, "JAC|e-JS4": 13
+, "Tesla|Model X": 13
 , "Mercedes-Benz|other": 33
-, "Honda|other": 14
-, "Audi|other": 13
-, "JAC|other": 13
-, "Tesla|other": 13
 , "Subaru|other": 9
 , "Fiat|other": 5
 , "Nissan|other": 5
@@ -5313,16 +5326,18 @@ db.insert(db.countries.CH, "2023-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model X": 26
 , "Mercedes-Benz|EQC": 25
 , "Mercedes-Benz|EQS": 25
-, "BMW|other": 28
-, "Opel|other": 26
+, "BMW|i5": 22
+, "Opel|Corsa-e": 22
 , "Mercedes-Benz|other": 21
 , "Honda|other": 20
 , "Audi|other": 19
 , "Peugeot|other": 16
 , "Nissan|other": 12
 , "Mini|other": 10
+, "BMW|other": 6
 , "Jaguar|other": 6
 , "Kia|other": 4
+, "Opel|other": 4
 , "Volvo|other": 4
 , "other": 225
 });
@@ -5792,11 +5807,11 @@ db.insert(db.countries.CH, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 55
 , "BMW|iX2": 51
 , "Porsche|Taycan": 42
+, "Mercedes-Benz|EQC": 41
 , "BMW|i4": 40
 , "BMW|iX": 39
 , "Honda|e:Ny1": 39
 , "Smart|Hashtag 1": 39
-, "Mercedes-Benz|EQC": 38
 , "Polestar|2": 36
 , "Ford|Mustang Mach-E": 35
 , "Mercedes-Benz|EQE": 35
@@ -5836,7 +5851,7 @@ db.insert(db.countries.CH, "2024-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 3
 , "Jaguar|other": 2
 , "Kia|other": 2
-, "other": 141
+, "other": 138
 });
 
 db.insert(db.countries.CH, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/01/ModellePW2024.xlsx",
@@ -5897,11 +5912,11 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 69
 , "Renault|Megane E-Tech": 51
 , "Polestar|2": 50
+, "Mercedes-Benz|EQC": 45
 , "BMW|i5": 44
 , "Fiat|500e": 44
 , "Kia|Niro EV": 43
 , "Smart|Hashtag 3": 38
-, "Mercedes-Benz|EQC": 37
 , "Ford|Mustang Mach-E": 36
 , "BMW|iX3": 35
 , "Smart|Hashtag 1": 35
@@ -5941,7 +5956,7 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 7
 , "Jaguar|other": 3
 , "Mercedes-Benz|other": 3
-, "other": 164
+, "other": 156
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/01/ModellePW2024.xlsx",
