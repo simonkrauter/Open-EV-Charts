@@ -2259,6 +2259,7 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|4": 202
 , "Volkswagen|ID. Buzz": 146
 , "Hyundai|Kona Electric": 131
+, "Subaru|Trailseeker": 112
 , "BMW|i4": 109
 , "Hyundai|Elexio": 103
 , "Volvo|EX30": 93
@@ -2287,11 +2288,11 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|ES90": 27
 , "Audi|Q4 e-tron": 24
 , "GWM|Ora 03": 23
-, "Volvo|EX90": 18
+, "Volvo|other": 18
 , "Zeekr|other": 16
 , "Ford|other": 13
 , "Kia|other": 12
-, "other": 652
+, "other": 540
 });
 
 db.insert(db.countries.AU, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2026-evs-help-smash-all-time-market-record/",
@@ -2334,11 +2335,13 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|4": 201
 , "Toyota|bZ4X": 192
 , "Volkswagen|ID.4": 166
+, "Subaru|Trailseeker": 139
 , "Audi|Q6 e-tron": 135
 , "Volvo|EX30": 133
 , "Volkswagen|ID. Buzz": 120
 , "Hyundai|Elexio": 90
 , "Deepal|S07": 87
+, "Subaru|Uncharted": 83
 , "Renault|Megane E-Tech": 79
 , "Zeekr|X": 76
 , "BMW|i4": 75
@@ -2360,10 +2363,9 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Xpeng|G6": 24
 , "Renault|Scénic E-Tech": 22
 , "Mercedes-Benz|GLB EQ": 20
-, "Kia|EV4": 18
-, "Polestar|3": 17
-, "Volvo|ES90": 17
-, "Volvo|EX90": 17
+, "Volvo|other": 34
+, "Kia|other": 26
 , "Hyundai|other": 17
-, "other": 1471
+, "Polestar|other": 17
+, "other": 1241
 });
