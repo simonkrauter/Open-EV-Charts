@@ -229,6 +229,10 @@ const companyGroups = {
   "Changan Automobile":
     [ "Changan"
     , "Deepal"
+    ],
+  "General Motors":
+    [ "Cadillac"
+    , "Chevrolet"
     ]
 };
 
@@ -243,6 +247,7 @@ const companyGroupCountries =
 , "SAIC Motor": "CN"
 , "Chery Automobile": "CN"
 , "Changan Automobile": "CN"
+, "General Motors": "US"
 };
 
 const brandCountries =
@@ -250,7 +255,6 @@ const brandCountries =
 , "Audi": "DE"
 , "BAIC": "CN"
 , "BYD": "CN"
-, "Chevrolet": "US"
 , "Citroën": "FR"
 , "Cupra": "ES"
 , "Dacia": "RO"
