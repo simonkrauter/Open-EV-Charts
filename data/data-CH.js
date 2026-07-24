@@ -6680,7 +6680,7 @@ db.insert(db.countries.CH, "2024-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 252
 });
 
-db.insert(db.countries.CH, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/03/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "BMW": 1724
 , "Volkswagen": 1351
 , "Škoda": 1341
@@ -6797,7 +6797,7 @@ db.insert(db.countries.CH, "2025-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 156
 });
 
-db.insert(db.countries.CH, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/03/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Škoda": 1525
 , "BMW": 1447
 , "Volkswagen": 1442
@@ -6914,7 +6914,7 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 170
 });
 
-db.insert(db.countries.CH, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/05/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2076
 , "BMW": 1846
 , "Škoda": 1811
@@ -7032,7 +7032,7 @@ db.insert(db.countries.CH, "2025-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 191
 });
 
-db.insert(db.countries.CH, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/05/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "BMW": 2080
 , "Volkswagen": 1980
 , "Škoda": 1743
@@ -7149,7 +7149,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 232
 });
 
-db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2148
 , "Škoda": 2000
 , "BMW": 1954
@@ -7267,7 +7267,7 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 299
 });
 
-db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/07/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2427
 , "Škoda": 2019
 , "BMW": 1992
@@ -7389,7 +7389,7 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 276
 });
 
-db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/08/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2213
 , "Škoda": 1872
 , "BMW": 1615
@@ -7507,7 +7507,7 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 334
 });
 
-db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/09/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 1891
 , "BMW": 1624
 , "Mercedes-Benz": 1246
@@ -7631,7 +7631,7 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 247
 });
 
-db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/10/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2148
 , "Mercedes-Benz": 1894
 , "Škoda": 1889
@@ -7758,7 +7758,7 @@ db.insert(db.countries.CH, "2025-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 236
 });
 
-db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/12/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Škoda": 2057
 , "Volkswagen": 2042
 , "BMW": 1593
@@ -7884,7 +7884,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 178
 });
 
-db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/12/ModellePW2025.xlsx",
+db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
 { "Volkswagen": 2493
 , "Škoda": 2441
 , "Mercedes-Benz": 1577
