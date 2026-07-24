@@ -5858,9 +5858,10 @@ db.insert(db.countries.SE, "2024-07", db.dsTypes.AllCarsByBrand, "https://mobili
 , "GWM": 8
 , "Jaguar": 6
 , "Smart": 3
+, "Cadillac": 2
 , "Chevrolet": 2
 , "JAC": 2
-, "other": 208
+, "other": 206
 });
 
 db.insert(db.countries.SE, "2024-07", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6071,10 +6072,11 @@ db.insert(db.countries.SE, "2024-09", db.dsTypes.AllCarsByBrand, "https://mobili
 , "BYD": 32
 , "Land Rover": 27
 , "Geely": 15
+, "Cadillac": 5
 , "Chevrolet": 5
 , "Smart": 5
 , "Nio": 4
-, "other": 239
+, "other": 234
 });
 
 db.insert(db.countries.SE, "2024-09", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6178,11 +6180,12 @@ db.insert(db.countries.SE, "2024-10", db.dsTypes.AllCarsByBrand, "https://mobili
 , "JAC": 9
 , "Smart": 8
 , "Chevrolet": 6
+, "Cadillac": 4
 , "GWM": 4
 , "Geely": 3
 , "Jaguar": 3
 , "Jeep": 3
-, "other": 304
+, "other": 300
 });
 
 db.insert(db.countries.SE, "2024-10", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6293,7 +6296,8 @@ db.insert(db.countries.SE, "2024-11", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Geely": 6
 , "Chevrolet": 5
 , "GWM": 4
-, "other": 269
+, "Cadillac": 3
+, "other": 266
 });
 
 db.insert(db.countries.SE, "2024-11", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -6399,9 +6403,10 @@ db.insert(db.countries.SE, "2024-12", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Smart": 13
 , "Geely": 12
 , "GWM": 9
+, "Cadillac": 6
 , "Chevrolet": 6
 , "Jaguar": 4
-, "other": 315
+, "other": 309
 });
 
 db.insert(db.countries.SE, "2024-12", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -7831,7 +7836,8 @@ db.insert(db.countries.SE, "2026-01", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 11
 , "Smart": 5
 , "Chevrolet": 3
-, "other": 196
+, "Cadillac": 2
+, "other": 194
 });
 
 db.insert(db.countries.SE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8051,7 +8057,8 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Leapmotor": 24
 , "Geely": 14
 , "Jeep": 13
-, "other": 323
+, "Cadillac": 3
+, "other": 320
 });
 
 db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8279,7 +8286,8 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.AllCarsByBrand, "https://mobili
 , "Jeep": 10
 , "Geely": 6
 , "Chevrolet": 4
-, "other": 265
+, "Cadillac": 3
+, "other": 262
 });
 
 db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
