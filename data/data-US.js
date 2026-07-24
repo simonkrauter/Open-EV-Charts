@@ -835,7 +835,7 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 289
 , "Audi|e-tron GT": 223
 , "Volvo|EC40": 161
-, "other": 26012
+, "other": 26122
 });
 
 db.insert(db.countries.US, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
