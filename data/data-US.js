@@ -428,10 +428,11 @@ db.insert(db.countries.US, "2023-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 1527
 , "Subaru|Solterra": 1359
 , "Mercedes-Benz|EQS SUV": 1308
+, "Cadillac|Lyriq": 968
 , "Audi|e-tron GT": 726
 , "Hyundai|Ioniq 6": 222
 , "Volvo|other": 3000
-, "other": 21414
+, "other": 20446
 });
 
 db.insert(db.countries.US, "2023-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -463,9 +464,10 @@ db.insert(db.countries.US, "2023-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Taycan": 1635
 , "Subaru|Solterra": 1613
 , "Audi|Q8 e-tron": 1437
+, "Cadillac|Lyriq": 1348
 , "Audi|e-tron GT": 1060
 , "Volvo|other": 4000
-, "other": 47331
+, "other": 45983
 });
 
 db.insert(db.countries.US, "2023-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -490,6 +492,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE SUV": 3488
 , "Audi|Q4 e-tron": 3280
 , "Mercedes-Benz|EQB": 3270
+, "Cadillac|Lyriq": 3018
 , "Toyota|bZ4X": 2827
 , "Subaru|Solterra": 2791
 , "Porsche|Taycan": 2050
@@ -499,7 +502,7 @@ db.insert(db.countries.US, "2023-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE": 969
 , "Audi|e-tron GT": 638
 , "Volvo|other": 3079
-, "other": 52307
+, "other": 49289
 });
 
 db.insert(db.countries.US, "2023-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -521,6 +524,7 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 6": 4681
 , "Mercedes-Benz|EQE SUV": 4271
 , "Kia|EV6": 4081
+, "Cadillac|Lyriq": 3820
 , "Audi|Q8 e-tron": 3835
 , "Nissan|Ariya": 3765
 , "Subaru|Solterra": 3109
@@ -537,7 +541,7 @@ db.insert(db.countries.US, "2023-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Silverado EV": 443
 , "Tesla|Cybertruck": 190
 , "Volvo|other": 550
-, "other": 11379
+, "other": 7559
 });
 
 db.insert(db.countries.US, "2024-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -552,6 +556,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Bolt/Bolt EUV": 7040
 , "Hyundai|Ioniq 5": 6822
 , "Volkswagen|ID.4": 6167
+, "Cadillac|Lyriq": 5800
 , "Tesla|Model X": 5607
 , "Mercedes-Benz|EQE": 5113
 , "BMW|i4": 4537
@@ -577,7 +582,7 @@ db.insert(db.countries.US, "2024-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 761
 , "Chevrolet|Blazer EV": 600
 , "Volvo|other": 1069
-, "other": 23912
+, "other": 18112
 });
 
 db.insert(db.countries.US, "2024-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -592,6 +597,7 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Cybertruck": 8755
 , "Ford|F-150 Lightning": 7902
 , "Toyota|bZ4X": 7571
+, "Cadillac|Lyriq": 7294
 , "BMW|i4": 7066
 , "Kia|EV6": 6882
 , "Chevrolet|Blazer EV": 6634
@@ -626,7 +632,7 @@ db.insert(db.countries.US, "2024-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|e-tron GT": 617
 , "Volvo|EC40": 326
 , "Fiat|500e": 163
-, "other": 12478
+, "other": 5184
 });
 
 db.insert(db.countries.US, "2024-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -642,6 +648,7 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 11590
 , "Chevrolet|Equinox EV": 9772
 , "Chevrolet|Blazer EV": 7889
+, "Cadillac|Lyriq": 7224
 , "Ford|F-150 Lightning": 7162
 , "Kia|EV9": 6299
 , "BMW|i4": 6063
@@ -674,7 +681,7 @@ db.insert(db.countries.US, "2024-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i7": 573
 , "Volvo|EC40": 530
 , "Fiat|500e": 235
-, "other": 35853
+, "other": 28629
 });
 
 db.insert(db.countries.US, "2024-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -690,6 +697,7 @@ db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 14082
 , "Tesla|Cybertruck": 12991
 , "Ford|F-150 Lightning": 10703
+, "Cadillac|Lyriq": 8084
 , "Chevrolet|Blazer EV": 7883
 , "Kia|EV9": 6047
 , "BMW|i4": 5737
@@ -728,7 +736,7 @@ db.insert(db.countries.US, "2024-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 275
 , "Jeep|Wagoneer S": 231
 , "Volvo|EX30": 229
-, "other": 24543
+, "other": 16459
 });
 
 db.insert(db.countries.US, "2025-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -748,6 +756,7 @@ db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Cybertruck": 6406
 , "Chevrolet|Blazer EV": 6187
 , "Toyota|bZ4X": 5610
+, "Cadillac|Lyriq": 4300
 , "Nissan|Ariya": 4148
 , "Tesla|Model X": 3843
 , "Ford|E-Transit": 3756
@@ -761,9 +770,11 @@ db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jeep|Wagoneer S": 2595
 , "Chevrolet|Silverado EV": 2383
 , "Nissan|Leaf": 2323
+, "Cadillac|Escalade IQ": 1956
 , "Volkswagen|ID. Buzz": 1901
 , "BMW|i5": 1899
 , "Audi|Q4 e-tron": 1874
+, "Cadillac|Optiq": 1716
 , "Mercedes-Benz|EQB": 1622
 , "Tesla|Model S": 1280
 , "Volvo|EX30": 1185
@@ -782,7 +793,7 @@ db.insert(db.countries.US, "2025-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 315
 , "Audi|e-tron GT": 250
 , "Volvo|EX40": 218
-, "other": 36412
+, "other": 28440
 });
 
 db.insert(db.countries.US, "2025-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-01/Total%20Sales%20for%20Website_December%202025.pdf",
@@ -800,11 +811,13 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Blazer EV": 6549
 , "Ford|F-150 Lightning": 5842
 , "BMW|i4": 5724
+, "Cadillac|Lyriq": 5017
 , "Tesla|Cybertruck": 4306
 , "Audi|Q6 e-tron": 3716
 , "Jeep|Wagoneer S": 3688
 , "Toyota|bZ4X": 3639
 , "Subaru|Solterra": 3370
+, "Cadillac|Optiq": 3224
 , "BMW|iX": 3116
 , "Chevrolet|Silverado EV": 3056
 , "Hyundai|Ioniq 6": 3004
@@ -813,6 +826,7 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 1992
 , "Mercedes-Benz|EQB": 1899
 , "Porsche|Macan Electric": 1769
+, "Cadillac|Vistiq": 1744
 , "Kia|Niro EV": 1656
 , "Nissan|Leaf": 1602
 , "Mercedes-Benz|EQE": 1558
@@ -835,7 +849,7 @@ db.insert(db.countries.US, "2025-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 289
 , "Audi|e-tron GT": 223
 , "Volvo|EC40": 161
-, "other": 26122
+, "other": 16137
 });
 
 db.insert(db.countries.US, "2025-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
@@ -854,10 +868,13 @@ db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|F-150 Lightning": 10005
 , "Chevrolet|Blazer EV": 8089
 , "Kia|EV9": 7510
+, "Cadillac|Lyriq": 7309
 , "Tesla|Cybertruck": 5385
 , "Kia|EV6": 5202
+, "Cadillac|Optiq": 4886
 , "Jeep|Wagoneer S": 4163
 , "Chevrolet|Silverado EV": 3940
+, "Cadillac|Vistiq": 3924
 , "BMW|i4": 3870
 , "Tesla|Model X": 3592
 , "Audi|Q4 e-tron": 3546
@@ -871,6 +888,7 @@ db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 2473
 , "Volkswagen|ID. Buzz": 2469
 , "Porsche|Macan Electric": 2451
+, "Cadillac|Escalade IQ": 2264
 , "Mercedes-Benz|EQB": 2185
 , "Volvo|EX30": 1899
 , "Mercedes-Benz|EQE": 1794
@@ -887,7 +905,7 @@ db.insert(db.countries.US, "2025-Q3", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|E-Transit": 430
 , "Mercedes-Benz|eSprinter": 320
 , "Fiat|500e": 288
-, "other": 30098
+, "other": 11715
 });
 
 db.insert(db.countries.US, "2025-Q4", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2025-10/Total%20Sales%20for%20Website_September%202025.pdf",
@@ -900,6 +918,7 @@ db.insert(db.countries.US, "2025-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Mustang Mach-E": 9658
 , "Hyundai|Ioniq 5": 5948
 , "Chevrolet|Equinox EV": 5111
+, "Cadillac|Lyriq": 4345
 , "Ford|F-150 Lightning": 4273
 , "Tesla|Cybertruck": 4140
 , "BMW|i4": 3395
@@ -908,6 +927,9 @@ db.insert(db.countries.US, "2025-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX": 2709
 , "Honda|Prologue": 2641
 , "Kia|EV9": 2603
+, "Cadillac|Optiq": 2361
+, "Cadillac|Vistiq": 2210
+, "Cadillac|Escalade IQ": 2085
 , "Chevrolet|Silverado EV": 1896
 , "Kia|EV6": 1856
 , "Chevrolet|Blazer EV": 1812
@@ -937,7 +959,7 @@ db.insert(db.countries.US, "2025-Q4", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q6 e-tron": 220
 , "Volvo|EX40": 190
 , "Hyundai|Kona Electric": 172
-, "other": 38982
+, "other": 27981
 });
 
 db.insert(db.countries.US, "2026-Q1", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf",
@@ -952,15 +974,19 @@ db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Equinox EV": 9589
 , "Ford|Mustang Mach-E": 4600
 , "Tesla|Cybertruck": 3519
+, "Cadillac|Lyriq": 3370
 , "Honda|Prologue": 3319
 , "Subaru|Solterra": 3041
+, "Cadillac|Optiq": 2847
 , "Kia|EV9": 2740
 , "Tesla|Model X": 2346
 , "BMW|i4": 2184
 , "Ford|F-150 Lightning": 2060
 , "Kia|EV6": 2023
 , "Hyundai|Ioniq 9": 1990
+, "Cadillac|Vistiq": 1902
 , "BMW|iX": 1788
+, "Cadillac|Escalade IQ": 1432
 , "Chevrolet|Silverado EV": 1406
 , "Volvo|EX30": 1373
 , "Tesla|Model S": 1172
@@ -986,7 +1012,7 @@ db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Countryman Electric": 200
 , "Jeep|Wagoneer S": 175
 , "Audi|A6 e-tron": 135
-, "other": 22071
+, "other": 12520
 });
 
 db.insert(db.countries.US, "2026-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf",
@@ -1002,6 +1028,8 @@ db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Equinox EV": 6660
 , "Honda|Prologue": 5088
 , "Kia|EV9": 4295
+, "Cadillac|Optiq": 4236
+, "Cadillac|Lyriq": 4208
 , "Toyota|C-HR+": 3748
 , "Tesla|Cybertruck": 3744
 , "Chevrolet|Bolt/Bolt EUV": 3433
@@ -1014,7 +1042,9 @@ db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Subaru|Solterra": 2096
 , "Chevrolet|Blazer EV": 2089
 , "Kia|EV6": 2020
+, "Cadillac|Vistiq": 2001
 , "Volkswagen|ID.4": 1867
+, "Cadillac|Escalade IQ": 1771
 , "BMW|iX": 1657
 , "Kia|Niro EV": 1033
 , "Porsche|Macan Electric": 1024
@@ -1037,5 +1067,5 @@ db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|G-Class EV": 240
 , "Jeep|Wagoneer S": 198
 , "Audi|e-tron GT": 135
-, "other": 44489
+, "other": 32273
 });
