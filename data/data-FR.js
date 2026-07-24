@@ -6456,8 +6456,17 @@ db.insert(db.countries.FR, "2026-01", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2365
 });
 
-db.insert(db.countries.FR, "2026-01", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/02/Immatriculations-mensuelles-par-energie_Janvier2026.pdf",
-{ "other": 30307
+db.insert(db.countries.FR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/02/Immatriculations-mensuelles-par-energie_Janvier2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/02/barometre-avere-colombus-janvier-2026-1.pdf",
+{ "Renault|5 E-Tech": 4009
+, "Renault|Scénic E-Tech": 1954
+, "Peugeot|e-208": 1666
+, "Citroën|ë-C3": 1472
+, "Peugeot|e-2008": 1074
+, "Renault|Megane E-Tech": 1017
+, "Renault|4 E-Tech": 944
+, "Volkswagen|ID.4": 888
+, "Škoda|Elroq": 875
+, "other": 16408
 });
 
 db.insert(db.countries.FR, "2026-02", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/03/Immatriculations-VPN_Fevrier2026.pdf",
@@ -6497,8 +6506,17 @@ db.insert(db.countries.FR, "2026-02", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2513
 });
 
-db.insert(db.countries.FR, "2026-02", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/03/Immatriculations-mensuelles-par-energie_Fevrier2026.pdf",
-{ "other": 32370
+db.insert(db.countries.FR, "2026-02", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/03/Immatriculations-mensuelles-par-energie_Fevrier2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/03/barometre-avere-colombus-fevrier-2026-1.pdf",
+{ "Tesla|Model Y": 3036
+, "Renault|5 E-Tech": 2666
+, "Renault|Scénic E-Tech": 2131
+, "Citroën|ë-C3": 1345
+, "Peugeot|e-208": 1151
+, "Volkswagen|ID.4": 1003
+, "Škoda|Elroq": 969
+, "Peugeot|e-2008": 920
+, "Renault|Megane E-Tech": 879
+, "other": 18270
 });
 
 db.insert(db.countries.FR, "2026-03", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/04/Immatriculations-VPN_Mars2026.pdf",
@@ -6538,8 +6556,18 @@ db.insert(db.countries.FR, "2026-03", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3723
 });
 
-db.insert(db.countries.FR, "2026-03", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/04/Immatriculations-mensuelles-par-energie_Mars2026.pdf",
-{ "other": 49406
+db.insert(db.countries.FR, "2026-03", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/04/Immatriculations-mensuelles-par-energie_Mars2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/04/barometre-avere-colombus-mars-2026-2.pdf",
+{ "Tesla|Model Y": 7027
+, "Renault|5 E-Tech": 3527
+, "Renault|Scénic E-Tech": 2836
+, "Tesla|Model 3": 2525
+, "Citroën|ë-C3": 1579
+, "Renault|4 E-Tech": 1490
+, "Volkswagen|ID.4": 1411
+, "Citroën|ë-C3 Aircross": 1378
+, "Peugeot|e-208": 1205
+, "Ford|Explorer EV": 1168
+, "other": 25260
 });
 
 db.insert(db.countries.FR, "2026-04", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/05/Immatriculations-VPN_Avril2026.pdf",
@@ -6580,8 +6608,18 @@ db.insert(db.countries.FR, "2026-04", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 4845
 });
 
-db.insert(db.countries.FR, "2026-04", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/05/Immatriculations-mensuelles-par-energie_Avril2026.pdf",
-{ "other": 36216
+db.insert(db.countries.FR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/05/Immatriculations-mensuelles-par-energie_Avril2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/05/barometre-avere-colombus-avril-2026-1.pdf",
+{ "Renault|5 E-Tech": 3454
+, "Renault|Scénic E-Tech": 2118
+, "Citroën|ë-C3": 1623
+, "Tesla|Model Y": 1456
+, "Volkswagen|ID.4": 1216
+, "Peugeot|e-208": 1156
+, "Škoda|Elroq": 1102
+, "Peugeot|E-3008": 981
+, "Renault|Megane E-Tech": 922
+, "Audi|Q4 e-tron": 853
+, "other": 21335
 });
 
 db.insert(db.countries.FR, "2026-05", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/06/Immatriculations-VPN_Mai2026.pdf",
@@ -6622,8 +6660,18 @@ db.insert(db.countries.FR, "2026-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 3524
 });
 
-db.insert(db.countries.FR, "2026-05", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/06/Immatriculations-mensuelles-par-energie_Mai2026-1.pdf",
-{ "other": 37412
+db.insert(db.countries.FR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/06/Immatriculations-mensuelles-par-energie_Mai2026-1.pdf, https://www.avere-france.org/wp-content/uploads/2026/06/barometre-avere-colombus-mai-2026-4.pdf",
+{ "Tesla|Model Y": 3877
+, "Renault|5 E-Tech": 3040
+, "Renault|Scénic E-Tech": 1640
+, "Tesla|Model 3": 1561
+, "Renault|Megane E-Tech": 1298
+, "Peugeot|E-3008": 1214
+, "Škoda|Elroq": 1142
+, "Citroën|ë-C3": 1084
+, "Peugeot|e-208": 1044
+, "Volkswagen|ID.4": 1027
+, "other": 20485
 });
 
 db.insert(db.countries.FR, "2026-06", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/07/Immatriculations-VPN-Juin-2026.pdf",
@@ -6665,6 +6713,15 @@ db.insert(db.countries.FR, "2026-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 9043
 });
 
-db.insert(db.countries.FR, "2026-06", db.dsTypes.ElectricCarsTotal, "https://ccfa.fr/wp-content/uploads/2026/07/Immatriculations-mensuelles-par-energie-Juin-2026.pdf",
-{ "other": 55851
+db.insert(db.countries.FR, "2026-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/07/Immatriculations-mensuelles-par-energie-Juin-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/07/barometre-avere-colombus-juin-2026-1.pdf",
+{ "Tesla|Model Y": 6639
+, "Renault|5 E-Tech": 4272
+, "Renault|Twingo E-Tech": 2698
+, "Renault|Scénic E-Tech": 2503
+, "Renault|Megane E-Tech": 2338
+, "Peugeot|e-208": 1834
+, "Citroën|ë-C3": 1510
+, "Dacia|Spring": 1249
+, "BMW|iX1": 1193
+, "other": 31615
 });
