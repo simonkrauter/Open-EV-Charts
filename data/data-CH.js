@@ -990,7 +990,7 @@ db.insert(db.countries.CH, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Subaru": 110
 , "Chevrolet": 42
 , "Cadillac": 17
-, "other": 463
+, "other": 452
 });
 
 db.insert(db.countries.CH, "2019-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/8 (includes commercial vehicles)",
@@ -1164,7 +1164,7 @@ db.insert(db.countries.CH, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 65
 , "Chevrolet": 37
 , "Cadillac": 9
-, "other": 644
+, "other": 643
 });
 
 db.insert(db.countries.CH, "2019-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/11 (includes commercial vehicles)",
@@ -1222,7 +1222,7 @@ db.insert(db.countries.CH, "2019-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 72
 , "Chevrolet": 40
 , "Cadillac": 7
-, "other": 811
+, "other": 809
 });
 
 db.insert(db.countries.CH, "2019-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2019/12 (includes commercial vehicles)",
@@ -1406,7 +1406,7 @@ db.insert(db.countries.CH, "2020-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 32
 , "Chevrolet": 11
 , "Cadillac": 2
-, "other": 369
+, "other": 368
 });
 
 db.insert(db.countries.CH, "2020-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/3 (includes commercial vehicles)",
@@ -1819,7 +1819,7 @@ db.insert(db.countries.CH, "2020-09", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 140
 , "Smart": 30
 , "JAC": 10
-, "other": 392
+, "other": 391
 });
 
 db.insert(db.countries.CH, "2020-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/9 (includes commercial vehicles)",
@@ -1970,7 +1970,7 @@ db.insert(db.countries.CH, "2020-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 5
 , "JAC": 5
 , "Polestar": 3
-, "other": 392
+, "other": 389
 });
 
 db.insert(db.countries.CH, "2020-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/11 (includes commercial vehicles)",
@@ -2048,7 +2048,7 @@ db.insert(db.countries.CH, "2020-12", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 17
 , "Polestar": 15
 , "Chevrolet": 12
-, "other": 448
+, "other": 445
 });
 
 db.insert(db.countries.CH, "2020-12", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2020/12 (includes commercial vehicles)",
@@ -2279,7 +2279,7 @@ db.insert(db.countries.CH, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 34
 , "Cadillac": 31
 , "Chevrolet": 3
-, "other": 476
+, "other": 475
 });
 
 db.insert(db.countries.CH, "2021-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/3 (includes commercial vehicles)",
@@ -2441,7 +2441,7 @@ db.insert(db.countries.CH, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 40
 , "Cadillac": 10
 , "Chevrolet": 7
-, "other": 365
+, "other": 356
 });
 
 db.insert(db.countries.CH, "2021-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/5 (includes commercial vehicles)",
@@ -2524,7 +2524,7 @@ db.insert(db.countries.CH, "2021-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Polestar": 97
 , "Smart": 30
 , "Cadillac": 12
-, "other": 465
+, "other": 418
 });
 
 db.insert(db.countries.CH, "2021-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2021/6 (includes commercial vehicles)",
@@ -3492,7 +3492,7 @@ db.insert(db.countries.CH, "2022-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Smart": 29
 , "Chevrolet": 5
 , "Cadillac": 4
-, "other": 368
+, "other": 367
 });
 
 db.insert(db.countries.CH, "2022-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2022/5 (includes commercial vehicles)",
@@ -6054,7 +6054,7 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 9
 , "Chevrolet": 3
 , "JAC": 2
-, "other": 421
+, "other": 368
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -7926,7 +7926,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BAIC": 7
 , "Jaguar": 4
 , "Omoda Jaecoo": 2
-, "other": 482
+, "other": 481
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
