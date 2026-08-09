@@ -1633,8 +1633,8 @@ db.insert(db.countries.BR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Geely|EX2": 4321
 , "Chevrolet|Spark EUV": 1054
 , "GWM|Ora 03": 490
-, "Geely|EX5": 246
 , "Leapmotor|C10 EV": 213
+, "Geely|other": 246
 , "Chevrolet|other": 68
 , "BYD|other": 704
 , "Volvo|other": 347
