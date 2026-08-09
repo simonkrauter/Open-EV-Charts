@@ -6647,6 +6647,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "Audi|A6 e-tron": 33
 , "BMW|iX": 33
 , "Toyota|Proace City Electric": 33
+, "Dongfeng|Box": 31
 , "Omoda Jaecoo|Omoda E5": 31
 , "Cupra|Born": 30
 , "Hyundai|Kona Electric": 28
@@ -6654,11 +6655,11 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "Smart|Hashtag 3": 27
 , "Škoda|Enyaq": 27
 , "BMW|i4": 25
-, "Kia|EV6": 24
-, "Volkswagen|ID. Buzz": 24
 , "Mercedes-Benz|other": 53
 , "Opel|other": 49
 , "Citroën|other": 43
+, "Kia|other": 38
+, "Volkswagen|other": 34
 , "Volvo|other": 31
 , "Polestar|other": 27
 , "Porsche|other": 23
@@ -6667,9 +6668,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "Fiat|other": 16
 , "Peugeot|other": 15
 , "Hyundai|other": 14
-, "Kia|other": 14
 , "Mazda|other": 10
-, "Volkswagen|other": 10
 , "Ford|other": 8
 , "Smart|other": 8
 , "Subaru|other": 8
@@ -6678,7 +6677,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "Leapmotor|other": 6
 , "Renault|other": 6
 , "BYD|other": 4
-, "other": 546
+, "other": 515
 });
 
 db.insert(db.countries.IT, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Agosto%202025_68b5c203e4fa6.pdf",
@@ -6764,6 +6763,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://u
 , "BYD|Atto 2": 13
 , "Renault|Scénic E-Tech": 13
 , "Volvo|EX90": 12
+, "Dongfeng|Box": 11
 , "Hyundai|Kona Electric": 11
 , "Mercedes-Benz|EQB": 11
 , "Omoda Jaecoo|Omoda E5": 11
@@ -6792,7 +6792,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://u
 , "Nissan|other": 3
 , "Renault|other": 3
 , "Leapmotor|other": 2
-, "other": 139
+, "other": 128
 });
 
 db.insert(db.countries.IT, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Settembre%202025_68dd52d467a3f.pdf",
@@ -6888,6 +6888,7 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://u
 , "Mercedes-Benz|other": 77
 , "Peugeot|other": 66
 , "Chery|other": 34
+, "Dongfeng|other": 33
 , "Volvo|other": 31
 , "Hyundai|other": 30
 , "Opel|other": 30
@@ -6906,7 +6907,7 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://u
 , "Omoda Jaecoo|other": 13
 , "Audi|other": 11
 , "Kia|other": 11
-, "other": 217
+, "other": 184
 });
 
 db.insert(db.countries.IT, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca%20Ottobre%202025_6908d4ff7bac4.pdf",
@@ -7017,6 +7018,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://u
 , "Omoda Jaecoo|other": 17
 , "MG|other": 15
 , "Tesla|other": 15
+, "Dongfeng|other": 14
 , "Ford|other": 14
 , "Polestar|other": 12
 , "Jeep|other": 11
@@ -7026,7 +7028,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://u
 , "Citroën|other": 8
 , "Hyundai|other": 8
 , "Subaru|other": 4
-, "other": 317
+, "other": 303
 });
 
 db.insert(db.countries.IT, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Novembre%202025_692dae4c7e223.pdf",
@@ -7097,6 +7099,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://u
 , "Škoda|Elroq": 152
 , "Cupra|Born": 133
 , "MG|S5 EV": 124
+, "Dongfeng|Box": 123
 , "Porsche|Macan Electric": 118
 , "Volkswagen|ID.4": 117
 , "Renault|Scénic E-Tech": 116
@@ -7119,9 +7122,9 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://u
 , "Cupra|Tavascan": 51
 , "Ford|Capri EV": 46
 , "Mercedes-Benz|EQA": 44
-, "Fiat|600e": 43
 , "Mercedes-Benz|other": 68
 , "Opel|other": 63
+, "Fiat|other": 56
 , "BYD|other": 48
 , "Omoda Jaecoo|other": 46
 , "Peugeot|other": 42
@@ -7138,10 +7141,9 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://u
 , "Renault|other": 17
 , "Volvo|other": 16
 , "Geely|other": 15
-, "Fiat|other": 13
 , "Jeep|other": 9
 , "Ford|other": 8
-, "other": 526
+, "other": 403
 });
 
 db.insert(db.countries.IT, "2025-12", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Dicembre%202025_6957f78389fea.pdf",
@@ -7226,6 +7228,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://u
 , "Mercedes-Benz|EQA": 56
 , "MG|S5 EV": 52
 , "Renault|Scénic E-Tech": 48
+, "Dongfeng|Box": 44
 , "Mercedes-Benz|CLA EQ": 43
 , "Chery|eQ1": 42
 , "BYD|Dolphin": 41
@@ -7260,7 +7263,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://u
 , "Renault|other": 11
 , "Omoda Jaecoo|other": 10
 , "Audi|other": 7
-, "other": 321
+, "other": 277
 });
 
 db.insert(db.countries.IT, "2026-01", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Gennaio%202026_6980c9eab889f.pdf",
@@ -7331,6 +7334,7 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://u
 , "Kia|EV3": 92
 , "Audi|Q4 e-tron": 91
 , "Volkswagen|ID.4": 90
+, "Dongfeng|Box": 84
 , "Toyota|bZ4X": 84
 , "BYD|Sealion 7": 83
 , "Mazda|EZ-6 BEV": 79
@@ -7353,12 +7357,12 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://u
 , "Peugeot|E-3008": 32
 , "Peugeot|e-208": 32
 , "Renault|Scénic E-Tech": 32
-, "Omoda Jaecoo|Omoda E5": 30
 , "BMW|other": 64
 , "Mercedes-Benz|other": 51
 , "Ford|other": 40
 , "BYD|other": 35
 , "Volkswagen|other": 35
+, "Omoda Jaecoo|other": 30
 , "Hyundai|other": 26
 , "Citroën|other": 25
 , "Volvo|other": 25
@@ -7373,7 +7377,7 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://u
 , "Peugeot|other": 13
 , "Porsche|other": 13
 , "Toyota|other": 12
-, "other": 462
+, "other": 378
 });
 
 db.insert(db.countries.IT, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Febbraio%202026_69a5c02d2507a.pdf",
@@ -7448,6 +7452,7 @@ db.insert(db.countries.IT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://u
 , "BMW|iX2": 76
 , "Renault|5 E-Tech": 76
 , "Peugeot|E-5008": 61
+, "Dongfeng|Box": 60
 , "Opel|Mokka-e": 56
 , "Volkswagen|ID.4": 55
 , "Mazda|EZ-6 BEV": 49
@@ -7494,7 +7499,7 @@ db.insert(db.countries.IT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://u
 , "Polestar|other": 10
 , "Tesla|other": 10
 , "Geely|other": 7
-, "other": 234
+, "other": 174
 });
 
 db.insert(db.countries.IT, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Marzo%202026_69cd31c29cdb9.pdf",
@@ -7603,6 +7608,7 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://u
 , "Omoda Jaecoo|other": 28
 , "Renault|other": 25
 , "Geely|other": 24
+, "Dongfeng|other": 22
 , "Porsche|other": 20
 , "Toyota|other": 20
 , "Nissan|other": 19
@@ -7611,7 +7617,7 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://u
 , "Polestar|other": 15
 , "BMW|other": 14
 , "Xpeng|other": 10
-, "other": 288
+, "other": 266
 });
 
 db.insert(db.countries.IT, "2026-04", db.dsTypes.AllCarsByBrand, "https://unrae.it/files/02%20Marca_Aprile%202026_69f8bafe40db1.pdf",
@@ -7692,6 +7698,7 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "Fiat|500e": 87
 , "BYD|Atto 2": 86
 , "Mercedes-Benz|GLC EQ": 81
+, "Dongfeng|Box": 77
 , "Porsche|Macan Electric": 72
 , "Mercedes-Benz|GLB EQ": 69
 , "Škoda|Enyaq": 69
@@ -7705,8 +7712,6 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "Volkswagen|ID.3": 45
 , "Polestar|4": 41
 , "Volvo|EX40": 38
-, "Audi|A6 e-tron": 36
-, "Cupra|Tavascan": 36
 , "Peugeot|other": 70
 , "BMW|other": 55
 , "Kia|other": 55
@@ -7714,8 +7719,10 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "Toyota|other": 49
 , "Nissan|other": 44
 , "Volkswagen|other": 43
+, "Audi|other": 42
 , "BYD|other": 42
 , "Mercedes-Benz|other": 39
+, "Cupra|other": 36
 , "MG|other": 31
 , "Hyundai|other": 28
 , "Ford|other": 25
@@ -7728,7 +7735,7 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "Leapmotor|other": 18
 , "Porsche|other": 13
 , "Polestar|other": 11
-, "other": 428
+, "other": 345
 });
 
 db.insert(db.countries.IT, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Maggio%202026_6a1dabaac5cb4.pdf",
@@ -7834,6 +7841,7 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Kia|other": 40
 , "Smart|other": 40
 , "Volkswagen|other": 35
+, "Dongfeng|other": 34
 , "Toyota|other": 33
 , "Geely|other": 27
 , "Hyundai|other": 26
@@ -7845,7 +7853,7 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Mercedes-Benz|other": 10
 , "Omoda Jaecoo|other": 10
 , "Polestar|other": 7
-, "other": 464
+, "other": 430
 });
 
 db.insert(db.countries.IT, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Giugno%202026_6a453a42cf609.pdf",
@@ -7902,6 +7910,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX30": 255
 , "Fiat|500e": 227
 , "Mini|Cooper SE": 223
+, "Dongfeng|Box": 192
 , "Renault|Twingo E-Tech": 191
 , "Leapmotor|B10": 186
 , "Audi|Q6 e-tron": 181
@@ -7966,7 +7975,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 15
 , "Porsche|other": 14
 , "Leapmotor|other": 10
-, "other": 482
+, "other": 290
 });
 
 db.insert(db.countries.IT, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.unrae.it/files/02%20Marca_Luglio%202026_6a708a39c56fb.pdf",
@@ -8058,10 +8067,10 @@ db.insert(db.countries.IT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|4 EV": 56
 , "Toyota|bZ4X": 55
 , "Leapmotor|B10": 51
+, "Dongfeng|Box": 44
 , "BMW|iX2": 43
 , "Jeep|Compass Electric": 41
 , "Peugeot|E-3008": 40
-, "Mazda|EZ-6 BEV": 39
 , "BYD|other": 63
 , "BMW|other": 58
 , "Porsche|other": 51
@@ -8069,6 +8078,7 @@ db.insert(db.countries.IT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|other": 43
 , "Kia|other": 41
 , "Mercedes-Benz|other": 41
+, "Mazda|other": 39
 , "Deepal|other": 38
 , "Hyundai|other": 35
 , "Fiat|other": 34
@@ -8086,5 +8096,5 @@ db.insert(db.countries.IT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 14
 , "Citroën|other": 10
 , "Tesla|other": 8
-, "other": 590
+, "other": 546
 });
