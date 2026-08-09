@@ -258,6 +258,7 @@ const brandCountries =
 , "Citroën": "FR"
 , "Cupra": "ES"
 , "Dacia": "RO"
+, "Dongfeng": "CN"
 , "Fiat": "IT"
 , "Ford": "US"
 , "GWM": "CN"
