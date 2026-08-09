@@ -7788,7 +7788,7 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 db.insert(db.countries.FI, "2026-06", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Toyota": 1626
 , "Škoda": 710
-, "Volkswagen": 672
+, "Volkswagen": 673
 , "Mercedes-Benz": 496
 , "Tesla": 496
 , "BMW": 459
@@ -7798,7 +7798,7 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Ford": 192
 , "Polestar": 190
 , "Renault": 152
-, "Nissan": 146
+, "Nissan": 147
 , "Seat": 107
 , "Cupra": 104
 , "BYD": 85
@@ -7841,7 +7841,7 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX30": 76
 , "Kia|EV3": 70
 , "Mercedes-Benz|GLB EQ": 68
-, "Volkswagen|ID.4": 66
+, "Volkswagen|ID.4": 67
 , "Kia|PV5": 57
 , "Polestar|2": 56
 , "Smart|Hashtag 5": 56
@@ -7861,8 +7861,8 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Sealion 7": 23
 , "Aion|V": 21
 , "Kia|EV4": 21
+, "Nissan|Micra EV": 21
 , "Ford|Capri EV": 20
-, "Nissan|Micra EV": 20
 , "Renault|4 E-Tech": 20
 , "Cupra|Raval": 19
 , "Hyundai|Inster": 19
