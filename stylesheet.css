@@ -242,33 +242,28 @@ h1 sup {
 
 .dropdown > .overlay > * {
   color: var(--clButtonActiveText);
-  display: block;
 }
 
-.dropdown > .overlay > a {
-  cursor: default;
-}
-
-.dropdown:not(.multiSelection) > .overlay > a {
+.dropdown:not(.multiSelection) > .overlay > .option {
   padding-left: 8px;
   border-left: 2px solid transparent;
 }
 
-.dropdown:not(.multiSelection) > .overlay > a.selected {
+.dropdown:not(.multiSelection) > .overlay > .option.selected {
   border-color: var(--clDropdownItemSelectedLine);
 }
 
-.dropdown:not(.multiSelection) > .overlay > a, .dropdown > .overlay > .search > .noResults {
+.dropdown:not(.multiSelection) > .overlay > .option, .dropdown > .overlay > .search > .noResults {
   padding-top: 1.5px;
   padding-bottom: 1.5px;
 }
 
-.dropdown.multiSelection > .overlay > a {
+.dropdown.multiSelection > .overlay > .option {
   padding-top: 1.2px;
   padding-left: 5px;
 }
 
-.dropdown.multiSelection > .overlay > a > span:first-child {
+.dropdown.multiSelection > .overlay > .option > span:first-child {
   /* increase checkbox clickable area */
   display: inline-block;
   padding-left: 2px;
@@ -277,11 +272,11 @@ h1 sup {
   margin-right: -1px;
 }
 
-.dropdown, .dropdown > .overlay > * {
+.dropdown {
   padding-right: 28px;
 }
 
-body:not(.showFocus) .dropdown > .overlay > *:not(.disabled):not(.search):hover, body.showFocus .dropdown > .overlay > a:focus {
+body:not(.showFocus) .dropdown > .overlay > *:not(.disabled):not(.search):hover, body.showFocus .dropdown > .overlay > .option:focus {
   background: var(--clDropdownItemHoverFill);
   outline: none;
   text-decoration: none;

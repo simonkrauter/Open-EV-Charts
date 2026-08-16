@@ -250,7 +250,7 @@ function renderFilterAsDropdown(parentDiv, param) {
   if (param.allowMultiSelection)
     dropdown.classList.add("multiSelection");
   dropdown.style.width = width + "px";
-  dropdown.setAttribute("tabIndex", "0");
+  dropdown.tabIndex = 0;
 
   // Open/close click handler
   dropdown.addEventListener("click", function(event) {
@@ -274,13 +274,13 @@ function renderFilterAsDropdown(parentDiv, param) {
           base = base.parentNode;
         if (event.keyCode == 38 && base.previousSibling) {
           let toFocus = base.previousSibling;
-          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || toFocus.tagName != "A"))
+          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || !toFocus.classList.contains("option")))
             toFocus = toFocus.previousSibling;
           if (toFocus)
             toFocus.focus();
         } else if (event.keyCode == 40 && base.nextSibling) {
           let toFocus = base.nextSibling;
-          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || toFocus.tagName != "A"))
+          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || !toFocus.classList.contains("option")))
             toFocus = toFocus.nextSibling;
           if (toFocus)
             toFocus.focus();
@@ -343,8 +343,9 @@ function renderDropdownOptions(param, overlay) {
   const selectedKey = chartSetConfig[param.name];
   const selectedKeys = selectedKey.split(",");
   for (const optionKey in param.allOptions) {
-    const optionNode = createLink();
-    overlay.appendChild(optionNode);
+    const optionNode = newChildNode(overlay, "DIV");
+    optionNode.classList.add("option");
+    optionNode.tabIndex = 0;
     const selected = selectedKeys.includes(optionKey);
     if (selected)
       optionNode.classList.add("selected");
@@ -448,7 +449,7 @@ function updateDropdownState(paramName) {
       selectedCountries = db.getSelectedCountries(chartSetConfig);
     for (let i = 0; i < overlay.childNodes.length; i++) {
       const optionNode = overlay.childNodes[i];
-      if (optionNode.tagName != "A")
+      if (!optionNode.classList.contains("option"))
         continue;
       const optionKey = optionKeys[optionIndex];
       const checkbox = optionNode.firstChild.firstChild;
@@ -479,7 +480,7 @@ function updateDropdownSearchResults(overlay, searchBox, noSearchResultsDiv) {
         optionNode.style.display = "";
       else
         optionNode.style.display = "none";
-    } else if (optionNode.tagName == "A") {
+    } else if (optionNode.classList.contains("option")) {
       // regular option
       if (searchTerm == "" || db.normalizeSearchString(optionNode.dataset.searchText).indexOf(searchTerm) != -1) {
         optionNode.style.display = "";
@@ -504,7 +505,7 @@ function openOrCloseDropdown(param, dropdown) {
     dropdown.classList.add("opened");
     openedDropdown = dropdown;
     let node = dropdown.childNodes[1].firstChild;
-    if (node.tagName == "DIV")
+    if (node.classList.contains("search"))
       node.firstChild.focus();
     else
       node.focus();
