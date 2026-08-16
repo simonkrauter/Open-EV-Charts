@@ -274,13 +274,13 @@ function renderFilterAsDropdown(parentDiv, param) {
           base = base.parentNode;
         if (event.keyCode == 38 && base.previousSibling) {
           let toFocus = base.previousSibling;
-          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none"))
+          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || toFocus.tagName != "A"))
             toFocus = toFocus.previousSibling;
           if (toFocus)
             toFocus.focus();
         } else if (event.keyCode == 40 && base.nextSibling) {
           let toFocus = base.nextSibling;
-          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none"))
+          while (toFocus && (toFocus.classList.contains("disabled") || toFocus.style.display == "none" || toFocus.tagName != "A"))
             toFocus = toFocus.nextSibling;
           if (toFocus)
             toFocus.focus();
