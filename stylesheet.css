@@ -75,18 +75,11 @@ input[type=checkbox] {
   margin-right: 5px;
   accent-color: var(--clBaseText);
 }
-input[type=checkbox]:not(:disabled) {
-  cursor: pointer;
-}
 
 a, a:visited {
   color: var(--clBaseLinkText);
   text-decoration: none;
   cursor: pointer;
-}
-
-a.disabled {
-  cursor: default;
 }
 
 a:not(.disabled):hover {
@@ -228,7 +221,6 @@ h1 sup {
 .dropdown > .currentValue {
   overflow: hidden;
   text-overflow: ellipsis;
-  cursor: pointer;
 }
 
 .dropdown > .overlay {
@@ -251,6 +243,10 @@ h1 sup {
 .dropdown > .overlay > * {
   color: var(--clButtonActiveText);
   display: block;
+}
+
+.dropdown > .overlay > a {
+  cursor: default;
 }
 
 .dropdown:not(.multiSelection) > .overlay > a {
@@ -577,6 +573,7 @@ a.bottomTools {
   font-size: 80%;
   margin-left: 5px;
   margin-right: 5px;
+  cursor: default;
 }
 
 .screenshotMode .header {
@@ -594,6 +591,7 @@ a.bottomTools {
   margin: 3px;
   font-size: 110%;
   color: inherit;
+  cursor: default;
 }
 
 a.screenshotModeButtonUnderChart {
