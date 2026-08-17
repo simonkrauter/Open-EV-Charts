@@ -7,6 +7,7 @@
   --clBaseGrayText: hsl(0, 0%, 50%);
   --clBaseImportantText: hsl(0, 100%, 45%);
   --clBaseLine: hsl(0, 0%, 70%);
+  --clBaseLineHover: hsl(0, 0%, 55%);
   --clFocusLine: hsl(56, 100%, 46%);
   --clHoverFill: hsl(55, 100%, 79%);
   --clAltFill: hsl(0, 0%, 15%);
@@ -57,7 +58,7 @@ body.showFocus *:focus, input[type=text]:focus, textarea:focus {
   outline: 3px solid var(--clFocusLine);
 }
 
-input, textarea {
+input, textarea, button {
   font-size: inherit;
   font-family: inherit;
 }
@@ -76,13 +77,15 @@ input[type=checkbox] {
   accent-color: var(--clBaseText);
 }
 
-a, a:visited {
+a, a:visited, button {
   color: var(--clBaseLinkText);
   text-decoration: none;
-  cursor: pointer;
+  border: none;
+  background: none;
+  padding-inline: 0;
 }
 
-a:not(.disabled):hover {
+a:hover, button:not(.disabled):hover {
   text-decoration: underline;
 }
 
@@ -108,7 +111,7 @@ a:not(.disabled):hover {
   padding-right: 8px;
 }
 
-.header a {
+.header a, .header button {
   color: inherit;
 }
 
@@ -142,7 +145,7 @@ a.githubCorner:hover .octo-arm {
   40%, 80% {transform:rotate(10deg)}
 }
 
-a.button, .dropdown {
+button.button, .dropdown {
   display: inline-block;
   margin: 6px;
   background: var(--clButtonFill);
@@ -156,27 +159,27 @@ a.button, .dropdown {
 }
 
 @media (min-width: 800px) {
-  .filters > a.button, .filters > .dropdown {
+  .filters > .dropdown {
     margin-left: 12px;
     margin-right: 12px;
   }
 }
 
-a.button {
-  min-width: 80px;
+button.button {
+  min-width: 100px;
 }
 
-a.button.active, .dropdown.active, .horizontalBar > div {
+button.button.active, .dropdown.active, .horizontalBar > div {
   background: var(--clButtonActiveFill);
   color: var(--clButtonActiveText);
 }
 
-a.button:hover, .dropdown:hover {
+button.button:hover, .dropdown:hover {
   text-decoration: none;
   background: var(--clButtonHoverFill);
 }
 
-a.button.active:hover, .dropdown.active:hover {
+buttonbutton.active:hover, .dropdown.active:hover {
   background: var(--clButtonActiveHoverFill);
 }
 
@@ -323,13 +326,10 @@ body:not(.showFocus) .dropdown > .overlay > *:not(.disabled):not(.search):hover,
   font-size: 92%;
 }
 
-a.button.removeButton {
-  background: none;
+button.removeButton {
   padding: 11px;
   padding-top: 0;
   margin-top: -9px;
-  margin-right: 0;
-  min-width: 0;
   color: var(--clBaseLine);
   font-size: 200%;
   vertical-align: top;
@@ -337,11 +337,12 @@ a.button.removeButton {
   right: 0;
 }
 
-a.button.removeButton:hover {
-  filter: brightness(80%);
+button.removeButton:hover {
+  color: var(--clBaseLineHover);
+  text-decoration: none;
 }
 
-a.button.removeButton:after {
+button.removeButton:after {
   content: "\00d7";
 }
 
@@ -429,15 +430,19 @@ canvas {
   font-size: 85%;
 }
 
-.hints > a {
-  display: block;
+.hints > button {
+  width: 100%;
   text-align: center;
   padding-bottom: 3px;
   border-color: inherit;
   padding: 0;
 }
 
-.hints > a.expand {
+.hints > button:hover {
+  border-color: var(--clBaseLineHover);
+}
+
+.hints > button.expand {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -446,7 +451,7 @@ canvas {
   background: linear-gradient(transparent, var(--clBaseFill) 70%, var(--clBaseFill));
 }
 
-.hints > a > div {
+.hints > button > div {
   display: inline-block;
   height: 10px;
   width: 10px;
@@ -456,12 +461,12 @@ canvas {
   border-bottom-style: solid;
 }
 
-.hints > a.expand > div {
+.hints > button.expand > div {
   transform: rotate(-45deg);
   margin-bottom: 2px;
 }
 
-.hints > a.collapse > div {
+.hints > button.collapse > div {
   transform: rotate(135deg);
   margin-bottom: -6px;
 }
@@ -564,11 +569,10 @@ tr:hover {
   color: var(--clBaseGrayText);
 }
 
-a.bottomTools {
+.bottomTools {
   font-size: 80%;
   margin-left: 5px;
   margin-right: 5px;
-  cursor: default;
 }
 
 .screenshotMode .header {
@@ -580,7 +584,7 @@ a.bottomTools {
   color: var(--clAltText);
 }
 
-.screenshotModeBanner a {
+.screenshotModeBanner button {
   display: inline-block;
   padding: 7px;
   margin: 3px;
@@ -589,7 +593,7 @@ a.bottomTools {
   cursor: default;
 }
 
-a.screenshotModeButtonUnderChart {
+.screenshotModeButtonUnderChart {
   position: absolute;
   right: 0;
   bottom: -15px;

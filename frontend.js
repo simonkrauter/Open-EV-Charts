@@ -190,14 +190,13 @@ function renderPage() {
   if (isScreenshotModeEnabled) {
     const div = newChildNode(dynamicContent, "DIV");
     div.classList.add("screenshotModeBanner");
-    const exitButton = createLink();
+    const exitButton = newChildNode(div, "BUTTON");
     exitButton.addEventListener("click", function(event) {
       event.preventDefault();
       isScreenshotModeEnabled = false;
       renderPage();
     });
     exitButton.appendChild(document.createTextNode("Exit Screenshot Mode"));
-    div.appendChild(exitButton);
   } else {
     renderFilters();
   }
@@ -671,11 +670,9 @@ function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
     titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, multiTitleFlagSizeFactor));
 
   if (!asSingleChart) {
-    let removeButton = createLink();
-    removeButton.classList.add("button");
+    let removeButton = newChildNode(chartDiv, "BUTTON");
     removeButton.classList.add("removeButton");
     removeButton.title = "Remove";
-    chartDiv.appendChild(removeButton);
     removeButton.addEventListener("click", chartRemoveClick);
   }
 }
@@ -722,7 +719,7 @@ function renderHints(chartDiv, chartConfig, chartData) {
   // collapse hints
   if (hintsDiv.offsetHeight > maxHintsHeight) {
     // expand button
-    let expandHintsButton = createLink();
+    let expandHintsButton = newChildNode(hintsDiv, "BUTTON");
     expandHintsButton.classList.add("expand");
     expandHintsButton.appendChild(document.createElement("DIV"));
     expandHintsButton.title = "Expand Hints";
@@ -733,9 +730,8 @@ function renderHints(chartDiv, chartConfig, chartData) {
       collapseHintsButton.style.display = "";
       isHintsDivExpanded = true;
     });
-    hintsDiv.appendChild(expandHintsButton);
     // collapse button
-    let collapseHintsButton = createLink();
+    let collapseHintsButton = newChildNode(hintsDiv, "BUTTON");;
     collapseHintsButton.classList.add("collapse");
     collapseHintsButton.appendChild(document.createElement("DIV"));
     collapseHintsButton.title = "Collapse Hints";
@@ -746,7 +742,6 @@ function renderHints(chartDiv, chartConfig, chartData) {
       expandHintsButton.style.display = "";
       isHintsDivExpanded = false;
     });
-    hintsDiv.appendChild(collapseHintsButton);
     if (isHintsDivExpanded) {
       expandHintsButton.style.display = "none";
     } else {
@@ -794,9 +789,8 @@ function chartRemoveClick(event) {
 
 function addShowAllChartsButton() {
   const div = newChildNode(chartsDiv, "DIV");
-  const button = createLink();
+  const button = newChildNode(div, "BUTTON");
   button.classList.add("button");
-  div.appendChild(button);
   button.appendChild(document.createTextNode("More"));
   button.addEventListener("click", function(event) {
     event.preventDefault();
@@ -1065,7 +1059,7 @@ function getMaxVisibleCharts() {
 function renderScreenshotModeButton(chartConfig, parent) {
   if (isScreenshotModeEnabled)
     return;
-  const button = createLink();
+  const button = newChildNode(parent, "BUTTON");
   button.appendChild(document.createTextNode("Screenshot Mode"));
   button.classList.add("bottomTools");
   if (chartConfig.view != db.views.table)
@@ -1075,7 +1069,6 @@ function renderScreenshotModeButton(chartConfig, parent) {
     isScreenshotModeEnabled = true;
     renderPage();
   });
-  parent.appendChild(button);
 }
 
 function renderScreenshotModeUrl(parent) {
@@ -1156,7 +1149,7 @@ function renderTable(chartConfig, chartDiv, chartData) {
 }
 
 function renderTableExportButton(chartDiv, table, format) {
-  const exportButton = createLink();
+  const exportButton = newChildNode(chartDiv, "BUTTON");
   exportButton.appendChild(document.createTextNode(format));
   exportButton.classList.add("bottomTools");
   exportButton.title = "Export table as " + format;
@@ -1166,7 +1159,6 @@ function renderTableExportButton(chartDiv, table, format) {
     renderPage();
     window.scrollTo(0, document.body.scrollHeight);
   });
-  chartDiv.appendChild(exportButton);
 }
 
 function renderTableExport(chartDiv, table) {

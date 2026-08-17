@@ -501,10 +501,8 @@ var testCaseNumber = -1;
 var performanceSpan;
 
 function addNextPrevButton(div, inc) {
-  let button = document.createElement("A");
-  button.href = "#";
+  let button = newChildNode(div, "BUTTON");
   button.style.padding = "0.6em";
-  button.style.textDecoration = "none";
   if (inc == 1) {
     button.innerHTML = "+1";
     button.title = "Next test case";
@@ -526,7 +524,6 @@ function addNextPrevButton(div, inc) {
     testCaseNumber = testCaseNumbers[(oldIndex + inc + testCaseNumbers.length) % testCaseNumbers.length];
     loadTestCase();
   });
-  div.appendChild(button);
 }
 
 function initTesting() {
@@ -604,20 +601,15 @@ function loadTestCase() {
 }
 
 function addRandomTestingButton(parent) {
-  let button = document.createElement("A");
-  button.href = "#";
-  button.innerHTML = "Randomize Chart Config";
+  let button = newChildNode(parent, "BUTTON", "Randomize Chart Config");
   button.addEventListener("click", function(event) {
     event.preventDefault();
     randomizeChartConfig();
   });
-  parent.appendChild(button);
 }
 
 function addTestPerformanceButton(parent) {
-  let button = document.createElement("A");
-  button.href = "#";
-  button.innerHTML = "Test performance";
+  let button = newChildNode(parent, "BUTTON", "Test performance");
   button.style.marginLeft = "100px";
   button.addEventListener("click", function(event) {
     event.preventDefault();
@@ -629,7 +621,6 @@ function addTestPerformanceButton(parent) {
     let endTime = performance.now();
     performanceSpan.innerHTML = Math.round((endTime - startTime) / count).toLocaleString() + " ms";
   });
-  parent.appendChild(button);
 }
 
 function randomizeChartConfig() {
