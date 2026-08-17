@@ -538,7 +538,7 @@ var db = {
       param.options = param.allOptions;
       if (chartConfig != null) {
         param.excludeOnUnfoldAndTitle = [];
-        if (!this.isSingleOrCombinedCountry(chartConfig))
+        if (!this.isSingleOrCombinedCountry(chartConfig) && chartConfig.metric == this.metrics.all)
           param.excludeOnUnfoldAndTitle.push(this.metrics.ratioElectricWithinCompanyOrBrand);
         if (chartConfig.xProperty == this.xProperties.country) {
           param.excludeOnUnfoldAndTitle.push(this.metrics.shareAll);
