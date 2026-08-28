@@ -2290,9 +2290,10 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "GWM|Ora 03": 23
 , "Volvo|other": 18
 , "Zeekr|other": 16
+, "Toyota|other": 14
 , "Ford|other": 13
 , "Kia|other": 12
-, "other": 540
+, "other": 526
 });
 
 db.insert(db.countries.AU, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-june-2026-evs-help-smash-all-time-market-record/",
