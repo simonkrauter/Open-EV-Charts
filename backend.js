@@ -701,52 +701,7 @@ var db = {
       param.name = "model";
       param.title = "Model";
       param.showAsFilter = chartConfig == null || (chartConfig.detailLevel == this.detailLevels.model && (chartConfig.company != this.companyOptions.all || chartConfig.brand != this.brandOptions.all));
-      param.options = {};
-      param.options[this.modelOptions.all] = "All Models";
-      if (chartConfig != null && chartConfig.model != null && param.showAsFilter) {
-        let models = [];
-        let brands = [];
-        if (chartConfig.brand != this.brandOptions.all) {
-          brands = this.getBrands(chartConfig);
-        } else {
-          const companies = this.getCompanies(chartConfig);
-          const companyGroupsKeys = Object.keys(companyGroups);
-          for (const i in companies) {
-            const company = companies[i];
-            const j = companyGroupsKeys.indexOf(company);
-            if (j != -1)
-              brands = brands.concat(companyGroups[companyGroupsKeys[j]]);
-            else
-              brands.push(company);
-          }
-        }
-        let hasOther = false;
-        for (const i in this.models) {
-          const parts = this.models[i].split("|", 2);
-          const brand = parts[0];
-          const model = parts[1];
-          if (brands.includes(brand)) {
-            if (model == "other")
-              hasOther = true;
-            else
-              models.push(model);
-          }
-        }
-        models.sort(function(a, b) {
-          return a.localeCompare(b);
-        });
-        for (const i in models) {
-          param.options[models[i]] = models[i];
-        }
-        if (hasOther)
-          param.options["other"] = this.otherSeriesName;
-      } else {
-        for (const i in this.models) {
-          const parts = this.models[i].split("|", 2);
-          const model = parts[1];
-          param.options[model] = model;
-        }
-      }
+      this.setModelParamOptions(param, chartConfig);
       param.allOptions = param.options;
       param.defaultOption = this.modelOptions.all;
       param.excludeOnUnfoldAndTitle = [this.modelOptions.all];
@@ -855,6 +810,55 @@ var db = {
     // Allow to select a time span which is not included in the suggested options
     if (chartConfig.timeSpan != null && param.options[chartConfig.timeSpan] == null)
       param.options[chartConfig.timeSpan] = this.getTimeSpanOptionText(chartConfig.timeSpan);
+  },
+
+  setModelParamOptions: function(param, chartConfig) {
+    param.options = {};
+    param.options[this.modelOptions.all] = "All Models";
+    if (chartConfig != null && chartConfig.model != null && param.showAsFilter) {
+      let models = [];
+      let brands = [];
+      if (chartConfig.brand != this.brandOptions.all) {
+        brands = this.getBrands(chartConfig);
+      } else {
+        const companies = this.getCompanies(chartConfig);
+        const companyGroupsKeys = Object.keys(companyGroups);
+        for (const i in companies) {
+          const company = companies[i];
+          const j = companyGroupsKeys.indexOf(company);
+          if (j != -1)
+            brands = brands.concat(companyGroups[companyGroupsKeys[j]]);
+          else
+            brands.push(company);
+        }
+      }
+      let hasOther = false;
+      for (const i in this.models) {
+        const parts = this.models[i].split("|", 2);
+        const brand = parts[0];
+        const model = parts[1];
+        if (brands.includes(brand)) {
+          if (model == "other")
+            hasOther = true;
+          else
+            models.push(model);
+        }
+      }
+      models.sort(function(a, b) {
+        return a.localeCompare(b);
+      });
+      for (const i in models) {
+        param.options[models[i]] = models[i];
+      }
+      if (hasOther)
+        param.options["other"] = this.otherSeriesName;
+    } else {
+      for (const i in this.models) {
+        const parts = this.models[i].split("|", 2);
+        const model = parts[1];
+        param.options[model] = model;
+      }
+    }
   },
 
   isTimeSpanValid: function(timeSpan) {
