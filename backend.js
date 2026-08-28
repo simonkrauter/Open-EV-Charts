@@ -853,7 +853,7 @@ var db = {
         const parts = brandAndModel.split("|", 2);
         const brand = parts[0];
         const model = parts[1];
-        if (brands.length > 1)
+        if (brands.length > 1 || Number.isInteger(parseInt(model)))
           param.options[model] = brand + " " + model;
         else
           param.options[model] = model;
@@ -1391,7 +1391,7 @@ var db = {
             text = this.countriesForOptions[chartConfig.country] + " " + text;
         }
       } else if ((param.name == "company" || param.name == "brand") && chartConfig.model != this.modelOptions.all && this.getModels(chartConfig).length == 1) {
-        if (chartConfig.model in params.model.options)
+        if (chartConfig.model in params.model.options && !Number.isInteger(parseInt(chartConfig.model)))
           text = text + " " + params.model.options[chartConfig.model];
         else
           text = text + " " + chartConfig.model;
@@ -1627,7 +1627,7 @@ var db = {
             if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
               seriesName = dataKey + "|other";
             else {
-              if (isSingleBrand)
+              if (isSingleBrand && !Number.isInteger(parseInt(model)))
                 seriesName = model;
               else
                 seriesName = dataKey;
