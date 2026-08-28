@@ -339,66 +339,69 @@ function renderDropdownContent(param, dropdown) {
 }
 
 function renderDropdownOptions(param, overlay) {
-  const selectedKey = chartSetConfig[param.name];
-  const selectedKeys = selectedKey.split(",");
+  const selectedKeys = chartSetConfig[param.name].split(",");
   for (const optionKey in param.allOptions) {
-    const optionNode = newChildNode(overlay, "DIV");
-    optionNode.classList.add("option");
-    optionNode.tabIndex = 0;
-    const selected = selectedKeys.includes(optionKey);
-    if (selected)
-      optionNode.classList.add("selected");
-    if (param.allowMultiSelection) {
-      const checkboxContainer = newChildNode(optionNode, "SPAN");
-      checkboxContainer.addEventListener("click", function(event) {
-        event.preventDefault();
-        if (!optionNode.classList.contains("disabled"))
-          paramOptionClickHandler(param, optionKey, true, true);
-        event.stopPropagation();
-      });
-      const checkbox = newChildNode(checkboxContainer, "INPUT");
-      checkbox.type = "checkbox";
-      checkbox.value = optionKey;
-      checkbox.checked = selected;
-      checkbox.addEventListener("click", function(event) {
-        paramOptionClickHandler(param, optionKey, true, true);
-        event.stopPropagation();
-      });
-      checkbox.tabIndex = -1;
-    }
-    let optionText = param.allOptions[optionKey];
-    if (param.name == "country") {
-      optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false, dropDownFlagSizeFactor));
-      let searchText = optionText + " " + optionKey;
-      if (optionKey in additionalCountrySearchTextByCode)
-        searchText += " " + additionalCountrySearchTextByCode[optionKey];
-      optionNode.dataset.searchText = searchText;
-      if (optionKey == countryGroups[countryGroups.length - 1]) {
-        const separator = newChildNode(overlay, "DIV");
-        separator.classList.add("separator");
-      }
-    } else {
-      optionNode.appendChild(document.createTextNode(optionText));
-      optionNode.dataset.searchText = optionText;
-    }
-    optionNode.addEventListener("click", function(event) {
+    renderDropdownOption(param, overlay, selectedKeys, optionKey);
+  }
+}
+
+function renderDropdownOption(param, overlay, selectedKeys, optionKey) {
+  const optionNode = newChildNode(overlay, "DIV");
+  optionNode.classList.add("option");
+  optionNode.tabIndex = 0;
+  const selected = selectedKeys.includes(optionKey);
+  if (selected)
+    optionNode.classList.add("selected");
+  if (param.allowMultiSelection) {
+    const checkboxContainer = newChildNode(optionNode, "SPAN");
+    checkboxContainer.addEventListener("click", function(event) {
       event.preventDefault();
       if (!optionNode.classList.contains("disabled"))
-        paramOptionClickHandler(param, optionKey);
+        paramOptionClickHandler(param, optionKey, true, true);
       event.stopPropagation();
     });
-    optionNode.addEventListener("keydown", function(event) {
-      if (event.keyCode == 13 || event.keyCode == 32) {
-        event.preventDefault();
-        if (optionNode.classList.contains("disabled"))
-          return;
-        if (param.allowMultiSelection && event.keyCode == 32)
-          paramOptionClickHandler(param, optionKey, true, true);
-        else
-          paramOptionClickHandler(param, optionKey);
-      }
+    const checkbox = newChildNode(checkboxContainer, "INPUT");
+    checkbox.type = "checkbox";
+    checkbox.value = optionKey;
+    checkbox.checked = selected;
+    checkbox.addEventListener("click", function(event) {
+      paramOptionClickHandler(param, optionKey, true, true);
+      event.stopPropagation();
     });
+    checkbox.tabIndex = -1;
   }
+  let optionText = param.allOptions[optionKey];
+  if (param.name == "country") {
+    optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false, dropDownFlagSizeFactor));
+    let searchText = optionText + " " + optionKey;
+    if (optionKey in additionalCountrySearchTextByCode)
+      searchText += " " + additionalCountrySearchTextByCode[optionKey];
+    optionNode.dataset.searchText = searchText;
+    if (optionKey == countryGroups[countryGroups.length - 1]) {
+      const separator = newChildNode(overlay, "DIV");
+      separator.classList.add("separator");
+    }
+  } else {
+    optionNode.appendChild(document.createTextNode(optionText));
+    optionNode.dataset.searchText = optionText;
+  }
+  optionNode.addEventListener("click", function(event) {
+    event.preventDefault();
+    if (!optionNode.classList.contains("disabled"))
+      paramOptionClickHandler(param, optionKey);
+    event.stopPropagation();
+  });
+  optionNode.addEventListener("keydown", function(event) {
+    if (event.keyCode == 13 || event.keyCode == 32) {
+      event.preventDefault();
+      if (optionNode.classList.contains("disabled"))
+        return;
+      if (param.allowMultiSelection && event.keyCode == 32)
+        paramOptionClickHandler(param, optionKey, true, true);
+      else
+        paramOptionClickHandler(param, optionKey);
+    }
+  });
 }
 
 function updateDropdownState(paramName) {
