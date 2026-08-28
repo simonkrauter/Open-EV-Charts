@@ -2370,3 +2370,81 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Polestar|other": 17
 , "other": 1241
 });
+
+db.insert(db.countries.AU, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-july-2026-toyota-rav4-back-on-top-as-evs-surge/",
+{ "Toyota": 20409
+, "BYD": 7857
+, "Kia": 6553
+, "Mazda": 6458
+, "Ford": 6400
+, "Hyundai": 5991
+, "Tesla": 4778
+, "Chery": 4615
+, "GWM": 4518
+, "MG": 4284
+, "Geely": 2508
+, "Zeekr": 2115
+, "Omoda Jaecoo": 1601
+, "other": 30490
+});
+
+db.insert(db.countries.AU, "2026-07", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/08/05/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
+{ "Tesla|Model Y": 4644
+, "BYD|Sealion 7": 2548
+, "Geely|Galaxy E5": 2034
+, "Zeekr|7X": 1892
+, "Omoda Jaecoo|Jaecoo E5": 1262
+, "BYD|Atto 2": 1214
+, "Kia|EV3": 804
+, "MG|4 EV": 764
+, "Kia|EV5": 650
+, "Geely|EX2": 474
+, "GWM|Ora 5": 403
+, "BYD|Dolphin": 401
+, "BYD|Seal": 394
+, "Aion|V": 373
+, "Toyota|bZ4X": 357
+, "Omoda Jaecoo|Omoda E5": 339
+, "Mazda|EZ-6 BEV": 283
+, "BYD|Seagull": 282
+, "BYD|Atto 3": 277
+, "Hyundai|Kona Electric": 243
+, "Volvo|EX30": 235
+, "MG|S6 EV": 216
+, "Zeekr|X": 211
+, "MG|S5 EV": 168
+, "Kia|PV5": 135
+, "Tesla|Model 3": 134
+, "Subaru|Uncharted": 100
+, "Leapmotor|B10": 96
+, "Subaru|Trailseeker": 94
+, "Hyundai|Inster": 87
+, "Volkswagen|ID.4": 81
+, "Polestar|2": 77
+, "Škoda|Enyaq": 72
+, "Mercedes-Benz|EQA": 68
+, "Volkswagen|ID. Buzz": 65
+, "Hyundai|Ioniq 5": 63
+, "Audi|Q6 e-tron": 59
+, "Polestar|4": 56
+, "Mini|Cooper SE": 55
+, "BMW|i4": 54
+, "Hyundai|Elexio": 53
+, "Subaru|Solterra": 45
+, "Škoda|Elroq": 43
+, "Deepal|E07": 42
+, "Deepal|S07": 37
+, "Volkswagen|ID.5": 37
+, "Cupra|Tavascan": 35
+, "Leapmotor|C10 EV": 33
+, "Xpeng|G6": 33
+, "Kia|EV4": 31
+, "Kia|other": 37
+, "Renault|other": 30
+, "Volvo|other": 26
+, "Nissan|other": 17
+, "Mercedes-Benz|other": 15
+, "Ford|other": 14
+, "Zeekr|other": 12
+, "other": 1206
+});
