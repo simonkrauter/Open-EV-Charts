@@ -834,21 +834,29 @@ var db = {
       }
       let hasOther = false;
       for (const i in this.models) {
-        const parts = this.models[i].split("|", 2);
+        const brandAndModel = this.models[i];
+        const parts = brandAndModel.split("|", 2);
         const brand = parts[0];
         const model = parts[1];
         if (brands.includes(brand)) {
           if (model == "other")
             hasOther = true;
           else
-            models.push(model);
+            models.push(brandAndModel);
         }
       }
       models.sort(function(a, b) {
         return a.localeCompare(b);
       });
       for (const i in models) {
-        param.options[models[i]] = models[i];
+        const brandAndModel = models[i];
+        const parts = brandAndModel.split("|", 2);
+        const brand = parts[0];
+        const model = parts[1];
+        if (brands.length > 1)
+          param.options[model] = brand + " " + model;
+        else
+          param.options[model] = model;
       }
       if (hasOther)
         param.options["other"] = this.otherSeriesName;
