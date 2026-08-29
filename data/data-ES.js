@@ -4262,8 +4262,8 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 176
 , "Volkswagen|ID.4": 152
 , "MG|4 EV": 118
-, "Citroën|ë-C4": 115
 , "Dacia|Spring": 105
+, "Citroën|ë-C4": 103
 , "Renault|Megane E-Tech": 97
 , "Opel|Corsa-e": 89
 , "Cupra|Born": 85
@@ -4302,10 +4302,10 @@ db.insert(db.countries.ES, "2022-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 15
 , "Opel|Combo-e": 14
 , "Volkswagen|ID. Buzz": 14
+, "Citroën|ë-C4 X": 12
 , "BMW|i7": 10
 , "BMW|i3 BEV": 8
-, "Mercedes-Benz|EQC": 7
-, "Mercedes-Benz|other": 10
+, "Mercedes-Benz|other": 17
 , "Toyota|other": 8
 , "Audi|other": 6
 , "Citroën|other": 5
@@ -4360,13 +4360,13 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 { "Dacia|Spring": 282
 , "Tesla|Model Y": 232
 , "Fiat|500e": 231
-, "Citroën|ë-C4": 169
 , "Ford|Mustang Mach-E": 164
 , "Citroën|ë-Berlingo Electric": 138
 , "MG|4 EV": 130
 , "Volvo|EX40": 121
 , "Cupra|Born": 109
 , "Volkswagen|ID. Buzz": 108
+, "Citroën|ë-C4": 104
 , "Peugeot|e-2008": 101
 , "Opel|Corsa-e": 100
 , "Peugeot|e-Rifter": 86
@@ -4374,6 +4374,7 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 83
 , "Audi|Q4 e-tron": 82
 , "Hyundai|Ioniq 5": 80
+, "Citroën|ë-C4 X": 65
 , "Mercedes-Benz|EQA": 58
 , "Smart|Fortwo ED": 58
 , "Kia|EV6": 55
@@ -4406,8 +4407,8 @@ db.insert(db.countries.ES, "2023-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EC40": 12
 , "Mercedes-Benz|EQS": 9
 , "Volkswagen|ID.3": 9
-, "MG|5 EV": 8
 , "Mercedes-Benz|other": 16
+, "MG|other": 8
 , "BMW|other": 6
 , "Audi|other": 5
 , "Hyundai|other": 4
@@ -4459,11 +4460,11 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 316
 , "MG|4 EV": 254
 , "Dacia|Spring": 159
-, "Citroën|ë-C4": 136
 , "Audi|Q4 e-tron": 125
 , "Cupra|Born": 121
 , "Peugeot|e-Rifter": 120
 , "Peugeot|e-208": 119
+, "Citroën|ë-C4": 112
 , "Kia|Niro EV": 103
 , "Citroën|ë-Berlingo Electric": 102
 , "Kia|EV6": 92
@@ -4490,6 +4491,7 @@ db.insert(db.countries.ES, "2023-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Fortwo ED": 31
 , "Hyundai|Ioniq 6": 25
 , "Audi|Q8 e-tron": 24
+, "Citroën|ë-C4 X": 24
 , "Opel|Mokka-e": 24
 , "Peugeot|e-2008": 23
 , "Volkswagen|ID.5": 23
@@ -4560,7 +4562,7 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.AllCarsByBrand, "https://www.dg
 
 db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
 { "Tesla|Model Y": 793
-, "Citroën|ë-C4": 236
+, "Citroën|ë-C4": 219
 , "Fiat|500e": 216
 , "MG|4 EV": 204
 , "Tesla|Model 3": 200
@@ -4609,9 +4611,9 @@ db.insert(db.countries.ES, "2023-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Atto 3": 18
 , "MG|ZS EV": 18
 , "Porsche|Taycan": 18
+, "Citroën|other": 28
 , "Mercedes-Benz|other": 21
 , "Subaru|other": 12
-, "Citroën|other": 11
 , "Volkswagen|other": 11
 , "Mazda|other": 9
 , "Toyota|other": 9
@@ -4667,7 +4669,7 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.AllCarsByBrand, "https://www.dg
 
 db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
 { "MG|4 EV": 372
-, "Citroën|ë-C4": 274
+, "Citroën|ë-C4": 263
 , "Tesla|Model Y": 247
 , "Peugeot|e-2008": 200
 , "Fiat|500e": 170
@@ -4714,10 +4716,11 @@ db.insert(db.countries.ES, "2023-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQV": 14
 , "Nissan|Leaf": 14
 , "BMW|iX3": 11
+, "Citroën|ë-C4 X": 11
 , "Hyundai|Ioniq 6": 11
-, "Volkswagen|ID.5": 9
 , "Mercedes-Benz|other": 13
 , "Peugeot|other": 11
+, "Volkswagen|other": 9
 , "MG|other": 8
 , "Citroën|other": 7
 , "Honda|other": 7
@@ -4789,9 +4792,9 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 95
 , "BMW|iX1": 91
 , "Dacia|Spring": 87
-, "Citroën|ë-C4": 86
 , "Jeep|Avenger EV": 82
 , "Kia|EV6": 81
+, "Citroën|ë-C4": 77
 , "Opel|Mokka-e": 75
 , "Volvo|EC40": 67
 , "Peugeot|e-2008": 66
@@ -4827,6 +4830,7 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 25
 , "Nissan|other": 14
 , "Smart|other": 14
+, "Citroën|other": 12
 , "Hyundai|other": 11
 , "Peugeot|other": 11
 , "Toyota|other": 8
@@ -4834,7 +4838,6 @@ db.insert(db.countries.ES, "2023-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|other": 4
 , "MG|other": 4
 , "Audi|other": 3
-, "Citroën|other": 3
 , "Cupra|other": 3
 , "Mercedes-Benz|other": 3
 , "other": 21
@@ -4904,7 +4907,6 @@ db.insert(db.countries.ES, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 82
 , "Peugeot|e-208": 77
 , "Mercedes-Benz|EQE": 71
-, "Citroën|ë-C4": 66
 , "Volkswagen|ID. Buzz": 66
 , "Mini|Cooper SE": 65
 , "Opel|Mokka-e": 63
@@ -4912,6 +4914,7 @@ db.insert(db.countries.ES, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 57
 , "Renault|Twingo E-Tech": 57
 , "Škoda|Enyaq": 56
+, "Citroën|ë-C4": 51
 , "BMW|i4": 49
 , "Porsche|Taycan": 45
 , "Ford|Mustang Mach-E": 44
@@ -4931,10 +4934,10 @@ db.insert(db.countries.ES, "2023-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.5": 21
 , "Tesla|Model S": 17
 , "BMW|iX3": 16
+, "Citroën|other": 28
 , "Nissan|other": 23
 , "BYD|other": 22
 , "Mercedes-Benz|other": 19
-, "Citroën|other": 13
 , "Toyota|other": 11
 , "Hyundai|other": 10
 , "Cupra|other": 6
@@ -5005,8 +5008,8 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQA": 72
 , "Mercedes-Benz|EQE": 69
 , "Peugeot|e-208": 66
-, "Citroën|ë-C4": 65
 , "BMW|iX1": 57
+, "Citroën|ë-C4": 57
 , "Fiat|500e": 55
 , "Volkswagen|ID. Buzz": 55
 , "MG|ZS EV": 54
@@ -5039,6 +5042,7 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 6": 11
 , "Opel|Mokka-e": 11
 , "Opel|other": 22
+, "Citroën|other": 12
 , "Mercedes-Benz|other": 10
 , "Tesla|other": 10
 , "Toyota|other": 10
@@ -5046,7 +5050,6 @@ db.insert(db.countries.ES, "2023-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|other": 7
 , "Audi|other": 5
 , "BMW|other": 5
-, "Citroën|other": 4
 , "Renault|other": 4
 , "Honda|other": 3
 , "Mazda|other": 3
@@ -5103,11 +5106,11 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|4 EV": 187
 , "Dacia|Spring": 168
 , "Mercedes-Benz|EQE": 123
-, "Citroën|ë-C4": 107
 , "Volkswagen|ID.4": 98
 , "Mercedes-Benz|EQS": 93
 , "Audi|Q4 e-tron": 89
 , "BMW|iX1": 79
+, "Citroën|ë-C4": 79
 , "Smart|Hashtag 1": 76
 , "Peugeot|e-2008": 73
 , "Jeep|Avenger EV": 61
@@ -5128,6 +5131,7 @@ db.insert(db.countries.ES, "2023-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID. Buzz": 33
 , "Kia|EV6": 32
 , "Volvo|EX40": 31
+, "Citroën|ë-C4 X": 28
 , "BMW|iX": 27
 , "Škoda|Enyaq": 25
 , "MG|Marvel R": 24
@@ -5213,12 +5217,12 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 177
 , "Audi|Q4 e-tron": 156
 , "Peugeot|e-208": 128
-, "Citroën|ë-C4": 122
 , "Mini|Cooper SE": 115
 , "BMW|iX1": 101
 , "Mercedes-Benz|EQE": 83
 , "Mercedes-Benz|EQA": 82
 , "Smart|Hashtag 1": 79
+, "Citroën|ë-C4": 72
 , "Kia|Niro EV": 67
 , "BMW|iX": 66
 , "Peugeot|e-2008": 61
@@ -5227,6 +5231,7 @@ db.insert(db.countries.ES, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 55
 , "MG|ZS EV": 52
 , "Tesla|Model 3": 51
+, "Citroën|ë-C4 X": 50
 , "Volkswagen|ID.4": 50
 , "Ford|Mustang Mach-E": 49
 , "Renault|Megane E-Tech": 48
@@ -5341,13 +5346,13 @@ db.insert(db.countries.ES, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID. Buzz": 77
 , "Jeep|Avenger EV": 75
 , "Volvo|EX40": 73
-, "Citroën|ë-C4": 71
 , "Citroën|ë-SpaceTourer": 69
 , "Volvo|EC40": 69
 , "BMW|i4": 66
 , "Opel|Mokka-e": 63
 , "Hyundai|Kona Electric": 60
 , "MG|ZS EV": 59
+, "Citroën|ë-C4": 58
 , "Ford|Mustang Mach-E": 54
 , "Mercedes-Benz|EQB": 52
 , "Volkswagen|ID.3": 52
@@ -5371,6 +5376,7 @@ db.insert(db.countries.ES, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 27
 , "Peugeot|other": 23
 , "Toyota|other": 20
+, "Citroën|other": 18
 , "Volkswagen|other": 16
 , "Polestar|other": 15
 , "Nissan|other": 12
@@ -5378,7 +5384,6 @@ db.insert(db.countries.ES, "2023-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 11
 , "Tesla|other": 11
 , "Renault|other": 6
-, "Citroën|other": 5
 , "Cupra|other": 4
 , "Honda|other": 4
 , "Audi|other": 3
@@ -5445,8 +5450,8 @@ db.insert(db.countries.ES, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX40": 100
 , "Smart|Hashtag 1": 96
 , "Audi|Q4 e-tron": 95
-, "Citroën|ë-C4": 95
 , "Fiat|500e": 86
+, "Citroën|ë-C4": 81
 , "Hyundai|Kona Electric": 79
 , "BYD|Dolphin": 66
 , "BYD|Atto 3": 65
@@ -5482,6 +5487,7 @@ db.insert(db.countries.ES, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|other": 22
 , "BYD|other": 20
 , "Tesla|other": 20
+, "Citroën|other": 17
 , "Opel|other": 16
 , "Toyota|other": 16
 , "Audi|other": 13
@@ -5489,7 +5495,7 @@ db.insert(db.countries.ES, "2023-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|other": 8
 , "Honda|other": 5
 , "Hyundai|other": 4
-, "other": 29
+, "other": 26
 });
 
 db.insert(db.countries.ES, "2023-12", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -5545,8 +5551,8 @@ db.insert(db.countries.ES, "2023-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 170
 , "Opel|Mokka-e": 161
 , "Volvo|EC40": 150
-, "Citroën|ë-C4": 145
 , "Kia|Niro EV": 107
+, "Citroën|ë-C4": 102
 , "Škoda|Enyaq": 98
 , "Kia|EV6": 92
 , "BYD|Atto 3": 90
@@ -5565,6 +5571,7 @@ db.insert(db.countries.ES, "2023-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 50
 , "Citroën|ë-Berlingo Electric": 47
 , "Renault|Megane E-Tech": 46
+, "Citroën|ë-C4 X": 43
 , "Mazda|MX-30 BEV": 39
 , "Fiat|600e": 37
 , "Peugeot|e-308": 37
@@ -5653,11 +5660,11 @@ db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i4": 70
 , "Dacia|Spring": 70
 , "Audi|Q4 e-tron": 69
-, "Citroën|ë-C4": 66
 , "Smart|Hashtag 1": 62
 , "Volvo|EX40": 58
 , "BYD|Atto 3": 57
 , "Mercedes-Benz|EQB": 56
+, "Citroën|ë-C4": 50
 , "Smart|Fortwo ED": 49
 , "Volkswagen|ID. Buzz": 46
 , "Fiat|500e": 45
@@ -5684,6 +5691,7 @@ db.insert(db.countries.ES, "2024-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 20
 , "Audi|Q8 e-tron": 19
 , "Opel|Mokka-e": 17
+, "Citroën|ë-C4 X": 16
 , "Opel|Corsa-e": 16
 , "Nissan|Ariya": 14
 , "Renault|Megane E-Tech": 13
@@ -5792,10 +5800,10 @@ db.insert(db.countries.ES, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i5": 23
 , "Hyundai|Ioniq 5": 23
 , "BMW|i7": 22
-, "Citroën|ë-C4": 22
 , "Nissan|Leaf": 22
 , "Kia|EV6": 20
 , "Volkswagen|ID. Buzz": 20
+, "Citroën|ë-C4": 19
 , "Nissan|Ariya": 18
 , "Kia|EV9": 17
 , "Volkswagen|ID.4": 17
@@ -5821,6 +5829,7 @@ db.insert(db.countries.ES, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|other": 8
 , "Hyundai|other": 7
 , "BYD|other": 3
+, "Citroën|other": 3
 , "Jeep|other": 2
 , "Toyota|other": 2
 , "other": 133
@@ -5873,7 +5882,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 159
 , "Kia|Niro EV": 127
 , "Volvo|EX30": 126
-, "Citroën|ë-C4": 124
+, "Citroën|ë-C4": 96
 , "Dacia|Spring": 96
 , "Ford|Mustang Mach-E": 96
 , "Volvo|EC40": 69
@@ -5901,6 +5910,7 @@ db.insert(db.countries.ES, "2024-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|Leaf": 37
 , "Toyota|bZ4X": 34
 , "BYD|Dolphin": 32
+, "Citroën|ë-C4 X": 28
 , "Opel|Corsa-e": 27
 , "Mercedes-Benz|EQB": 25
 , "Peugeot|e-2008": 24
@@ -5991,8 +6001,8 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 121
 , "Volkswagen|ID.4": 116
 , "Dacia|Spring": 113
-, "Citroën|ë-C4": 106
 , "BYD|Seal": 93
+, "Citroën|ë-C4": 92
 , "Renault|Megane E-Tech": 86
 , "Ford|Mustang Mach-E": 79
 , "Kia|Niro EV": 75
@@ -6030,12 +6040,12 @@ db.insert(db.countries.ES, "2024-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Mokka-e": 15
 , "Peugeot|e-2008": 15
 , "Volkswagen|ID.5": 15
+, "Citroën|ë-C4 X": 14
 , "Omoda Jaecoo|Omoda E5": 14
-, "Mercedes-Benz|EQV": 13
-, "Mini|Cooper SE": 13
 , "BMW|other": 26
+, "Mercedes-Benz|other": 23
 , "BYD|other": 13
-, "Mercedes-Benz|other": 10
+, "Mini|other": 13
 , "Porsche|other": 10
 , "Tesla|other": 10
 , "Fiat|other": 9
@@ -6100,7 +6110,6 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|4 EV": 175
 , "Mercedes-Benz|EQA": 157
 , "Peugeot|e-2008": 140
-, "Citroën|ë-C4": 131
 , "Škoda|Enyaq": 115
 , "Kia|EV6": 112
 , "BMW|iX1": 109
@@ -6108,6 +6117,7 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 99
 , "Renault|Scénic E-Tech": 99
 , "BYD|Atto 3": 93
+, "Citroën|ë-C4": 88
 , "Ford|Mustang Mach-E": 81
 , "Cupra|Born": 74
 , "BMW|iX2": 70
@@ -6124,6 +6134,7 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Smart|Hashtag 1": 52
 , "BMW|i4": 50
 , "Mercedes-Benz|EQB": 46
+, "Citroën|ë-C4 X": 43
 , "Hyundai|Ioniq 5": 43
 , "Mercedes-Benz|EQV": 42
 , "Smart|Hashtag 3": 42
@@ -6143,8 +6154,8 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 22
 , "Fiat|600e": 22
 , "Volvo|EC40": 20
-, "BYD|Song Plus": 18
 , "BMW|other": 35
+, "BYD|other": 19
 , "Volkswagen|other": 16
 , "Nissan|other": 15
 , "Polestar|other": 15
@@ -6160,7 +6171,7 @@ db.insert(db.countries.ES, "2024-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|other": 5
 , "Audi|other": 3
 , "Subaru|other": 3
-, "other": 35
+, "other": 34
 });
 
 db.insert(db.countries.ES, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -6217,7 +6228,6 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX2": 95
 , "Kia|EV6": 87
 , "BMW|i4": 86
-, "Citroën|ë-C4": 85
 , "Audi|Q4 e-tron": 83
 , "Mercedes-Benz|EQE": 80
 , "Kia|Niro EV": 79
@@ -6229,6 +6239,7 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 68
 , "BYD|Seal": 65
 , "Citroën|ë-Berlingo Electric": 64
+, "Citroën|ë-C4": 64
 , "BYD|Dolphin": 63
 , "Mercedes-Benz|EQB": 59
 , "Volkswagen|ID.4": 57
@@ -6250,6 +6261,7 @@ db.insert(db.countries.ES, "2024-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|bZ4X": 25
 , "Volvo|EC40": 25
 , "Peugeot|E-3008": 24
+, "Citroën|ë-C4 X": 21
 , "BMW|i5": 19
 , "Porsche|Taycan": 17
 , "BMW|iX3": 16
@@ -6326,7 +6338,6 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE": 95
 , "Polestar|2": 92
 , "Peugeot|e-2008": 77
-, "Citroën|ë-C4": 76
 , "Mercedes-Benz|EQA": 73
 , "BYD|Seal": 72
 , "BMW|iX2": 71
@@ -6336,6 +6347,7 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Song Plus": 61
 , "Ford|Mustang Mach-E": 55
 , "Peugeot|e-Rifter": 55
+, "Citroën|ë-C4": 54
 , "Smart|Hashtag 1": 54
 , "Peugeot|e-208": 52
 , "Hyundai|Ioniq 5": 51
@@ -6356,16 +6368,17 @@ db.insert(db.countries.ES, "2024-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 27
 , "Volkswagen|ID.3": 27
 , "Jeep|Avenger EV": 25
+, "Citroën|ë-C4 X": 22
 , "Volkswagen|ID. Buzz": 21
 , "Volkswagen|ID.4": 21
 , "Hyundai|Ioniq 6": 18
 , "Renault|Scénic E-Tech": 18
 , "Opel|Corsa-e": 17
 , "Kia|EV9": 16
-, "Volvo|EC40": 14
 , "BMW|other": 18
 , "Volkswagen|other": 15
 , "Renault|other": 14
+, "Volvo|other": 14
 , "Mercedes-Benz|other": 13
 , "Omoda Jaecoo|other": 13
 , "Polestar|other": 13
@@ -6434,7 +6447,6 @@ db.insert(db.countries.ES, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 122
 , "BMW|iX2": 74
 , "Kia|EV6": 71
-, "Citroën|ë-C4": 69
 , "Mercedes-Benz|EQA": 67
 , "Opel|Mokka-e": 67
 , "BYD|Dolphin": 63
@@ -6442,6 +6454,7 @@ db.insert(db.countries.ES, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Atto 3": 62
 , "Ford|Explorer EV": 62
 , "Mercedes-Benz|EQE": 60
+, "Citroën|ë-C4": 49
 , "Hyundai|Kona Electric": 48
 , "BYD|Seal": 45
 , "Kia|Niro EV": 44
@@ -6463,6 +6476,7 @@ db.insert(db.countries.ES, "2024-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Berlingo Electric": 22
 , "Cupra|Tavascan": 22
 , "Volkswagen|ID.4": 21
+, "Citroën|ë-C4 X": 20
 , "Porsche|Taycan": 19
 , "Polestar|4": 18
 , "Fiat|500e": 17
@@ -6547,7 +6561,7 @@ db.insert(db.countries.ES, "2024-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Explorer EV": 132
 , "MG|4 EV": 128
 , "BYD|Atto 3": 127
-, "Citroën|ë-C4": 127
+, "Citroën|ë-C4": 103
 , "Opel|Mokka-e": 103
 , "Porsche|Macan Electric": 99
 , "Mercedes-Benz|EQA": 85
@@ -6573,6 +6587,7 @@ db.insert(db.countries.ES, "2024-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|4": 27
 , "Volvo|EX40": 27
 , "Fiat|500e": 26
+, "Citroën|ë-C4 X": 24
 , "Porsche|Taycan": 24
 , "Volkswagen|ID.4": 24
 , "Peugeot|E-5008": 23
@@ -6664,9 +6679,9 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seal": 125
 , "Volvo|EX30": 120
 , "BMW|iX2": 119
-, "Citroën|ë-C4": 117
 , "Renault|5 E-Tech": 117
 , "Kia|EV3": 110
+, "Citroën|ë-C4": 106
 , "Ford|Explorer EV": 95
 , "Hyundai|Kona Electric": 94
 , "Mercedes-Benz|EQE": 85
@@ -6711,6 +6726,7 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 18
 , "Hyundai|other": 17
 , "Peugeot|other": 15
+, "Citroën|other": 14
 , "Fiat|other": 14
 , "Xpeng|other": 14
 , "Tesla|other": 13
@@ -6718,7 +6734,6 @@ db.insert(db.countries.ES, "2024-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 11
 , "Nissan|other": 9
 , "Leapmotor|other": 5
-, "Citroën|other": 3
 , "Renault|other": 3
 , "other": 68
 });
@@ -6760,9 +6775,10 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Smart": 53
 , "Lynk & Co": 50
 , "Polestar": 46
+, "Dongfeng": 17
 , "Jaguar": 16
 , "Xpeng": 9
-, "other": 1715
+, "other": 1698
 });
 
 db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -6782,7 +6798,7 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dacia|Spring": 120
 , "Cupra|Born": 119
 , "Mercedes-Benz|EQE": 112
-, "Citroën|ë-C4": 109
+, "Citroën|ë-C4": 101
 , "Porsche|Macan Electric": 78
 , "Ford|Explorer EV": 74
 , "Kia|EV6": 73
@@ -6826,16 +6842,18 @@ db.insert(db.countries.ES, "2024-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|other": 19
 , "Smart|other": 19
 , "Toyota|other": 18
+, "Dongfeng|other": 17
 , "Kia|other": 17
 , "Volkswagen|other": 17
 , "Porsche|other": 14
 , "Volvo|other": 12
 , "Peugeot|other": 11
+, "Citroën|other": 10
 , "Xpeng|other": 9
 , "Fiat|other": 7
 , "Nissan|other": 7
 , "Tesla|other": 7
-, "other": 48
+, "other": 29
 });
 
 db.insert(db.countries.ES, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -6875,9 +6893,10 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Subaru": 140
 , "Smart": 94
 , "Lynk & Co": 57
+, "Dongfeng": 32
 , "Xpeng": 31
 , "Jaguar": 26
-, "other": 2467
+, "other": 2435
 });
 
 db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -6912,9 +6931,9 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Ioniq 5": 64
 , "Peugeot|e-2008": 59
 , "Porsche|Macan Electric": 57
-, "Citroën|ë-C4": 55
 , "Omoda Jaecoo|Omoda E5": 54
 , "Smart|Hashtag 1": 51
+, "Citroën|ë-C4": 48
 , "Citroën|ë-Berlingo Electric": 44
 , "Smart|Hashtag 3": 43
 , "BYD|Song Plus": 42
@@ -6925,6 +6944,7 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX40": 36
 , "BMW|i4": 35
 , "Peugeot|e-Rifter": 35
+, "Dongfeng|Box": 32
 , "Renault|Megane E-Tech": 32
 , "Leapmotor|C10 EV": 31
 , "Volvo|EC40": 31
@@ -6945,13 +6965,14 @@ db.insert(db.countries.ES, "2024-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|other": 16
 , "BYD|other": 12
 , "Tesla|other": 11
+, "Citroën|other": 10
 , "Volvo|other": 10
 , "Kia|other": 7
 , "Subaru|other": 6
 , "Audi|other": 5
 , "Nissan|other": 5
 , "Porsche|other": 5
-, "other": 74
+, "other": 39
 });
 
 db.insert(db.countries.ES, "2025-01", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7012,8 +7033,8 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 109
 , "MG|4 EV": 108
 , "Porsche|Macan Electric": 98
-, "Citroën|ë-C4": 93
 , "Mercedes-Benz|EQE": 93
+, "Citroën|ë-C4": 87
 , "Volkswagen|ID.4": 84
 , "Leapmotor|T03": 83
 , "Audi|Q4 e-tron": 76
@@ -7065,9 +7086,11 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|other": 11
 , "Tesla|other": 9
 , "Volkswagen|other": 9
+, "Citroën|other": 8
+, "Dongfeng|other": 7
 , "Hyundai|other": 7
 , "Renault|other": 3
-, "other": 87
+, "other": 78
 });
 
 db.insert(db.countries.ES, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7109,7 +7132,8 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Jaguar": 43
 , "Polestar": 39
 , "Smart": 30
-, "other": 2329
+, "Dongfeng": 19
+, "other": 2310
 });
 
 db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7138,7 +7162,6 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Elroq": 64
 , "Peugeot|e-208": 61
 , "BYD|Seal": 59
-, "Citroën|ë-C4": 59
 , "Volvo|EX30": 59
 , "MG|4 EV": 58
 , "Renault|Scénic E-Tech": 56
@@ -7146,6 +7169,7 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 52
 , "Hyundai|Kona Electric": 51
 , "Peugeot|E-3008": 51
+, "Citroën|ë-C4": 50
 , "Leapmotor|T03": 49
 , "Mercedes-Benz|EQB": 47
 , "Opel|Corsa-e": 45
@@ -7176,18 +7200,19 @@ db.insert(db.countries.ES, "2025-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 22
 , "Leapmotor|other": 21
 , "Volvo|other": 21
+, "Dongfeng|other": 19
 , "Porsche|other": 19
 , "Omoda Jaecoo|other": 16
 , "Polestar|other": 14
 , "Toyota|other": 14
+, "Citroën|other": 13
 , "Xpeng|other": 10
 , "MG|other": 9
 , "Tesla|other": 9
-, "Citroën|other": 4
 , "Nissan|other": 4
 , "Subaru|other": 4
 , "Volkswagen|other": 4
-, "other": 70
+, "other": 51
 });
 
 db.insert(db.countries.ES, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7228,7 +7253,8 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Polestar": 52
 , "Xpeng": 42
 , "Smart": 29
-, "other": 3033
+, "Dongfeng": 18
+, "other": 3015
 });
 
 db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7270,12 +7296,12 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i4": 64
 , "Kia|Niro EV": 63
 , "BYD|Atto 2": 59
-, "Citroën|ë-C4": 54
 , "Hyundai|Ioniq 5": 50
 , "Volkswagen|ID.3": 50
 , "Škoda|Elroq": 50
 , "Ford|Capri EV": 49
 , "Omoda Jaecoo|Omoda E5": 45
+, "Citroën|ë-C4": 43
 , "MG|4 EV": 42
 , "Leapmotor|T03": 38
 , "Volkswagen|ID.7": 37
@@ -7298,13 +7324,14 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|other": 24
 , "BMW|other": 23
 , "Porsche|other": 22
+, "Citroën|other": 20
+, "Dongfeng|other": 18
 , "MG|other": 13
 , "Xpeng|other": 10
-, "Citroën|other": 9
 , "BYD|other": 7
 , "Honda|other": 6
 , "Volkswagen|other": 5
-, "other": 119
+, "other": 101
 });
 
 db.insert(db.countries.ES, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7345,7 +7372,8 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Polestar": 48
 , "Smart": 43
 , "Xpeng": 33
-, "other": 3067
+, "Dongfeng": 19
+, "other": 3048
 });
 
 db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7387,13 +7415,13 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Mokka-e": 64
 , "Volkswagen|ID.4": 63
 , "Peugeot|e-Rifter": 62
-, "Citroën|ë-C4": 60
 , "Mercedes-Benz|EQB": 59
 , "Škoda|Elroq": 59
 , "Ford|Explorer EV": 57
 , "Jeep|Avenger EV": 55
 , "Citroën|ë-Berlingo Electric": 51
 , "Hyundai|Ioniq 5": 50
+, "Citroën|ë-C4": 45
 , "Opel|Corsa-e": 45
 , "Cupra|Born": 44
 , "Audi|Q6 e-tron": 39
@@ -7416,13 +7444,15 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 21
 , "Audi|other": 20
 , "Škoda|other": 20
+, "Dongfeng|other": 19
 , "Renault|other": 19
+, "Citroën|other": 16
 , "Opel|other": 15
 , "Porsche|other": 13
 , "Kia|other": 10
 , "Honda|other": 6
 , "BYD|other": 4
-, "other": 110
+, "other": 90
 });
 
 db.insert(db.countries.ES, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7463,7 +7493,8 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Smart": 75
 , "Polestar": 58
 , "Xpeng": 57
-, "other": 2823
+, "Dongfeng": 14
+, "other": 2809
 });
 
 db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7500,9 +7531,9 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 93
 , "BYD|Song Plus": 92
 , "Jeep|Avenger EV": 85
-, "Citroën|ë-C4": 84
 , "Peugeot|e-208": 79
 , "Audi|Q4 e-tron": 78
+, "Citroën|ë-C4": 76
 , "Škoda|Elroq": 75
 , "Porsche|Macan Electric": 73
 , "Omoda Jaecoo|Omoda E5": 64
@@ -7526,20 +7557,21 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|other": 58
 , "Xpeng|other": 57
 , "MG|other": 56
+, "Citroën|other": 54
 , "Audi|other": 53
 , "Renault|other": 50
-, "Citroën|other": 46
 , "Mercedes-Benz|other": 43
 , "Leapmotor|other": 31
 , "Škoda|other": 29
 , "Opel|other": 17
 , "Volkswagen|other": 16
+, "Dongfeng|other": 14
 , "Kia|other": 14
 , "Nissan|other": 12
 , "Toyota|other": 11
 , "Honda|other": 9
 , "Hyundai|other": 9
-, "other": 139
+, "other": 125
 });
 
 db.insert(db.countries.ES, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7580,7 +7612,8 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Subaru": 151
 , "Smart": 72
 , "Xpeng": 63
-, "other": 2856
+, "Dongfeng": 27
+, "other": 2829
 });
 
 db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7622,7 +7655,6 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 80
 , "Volkswagen|ID.4": 79
 , "Omoda Jaecoo|Omoda E5": 77
-, "Citroën|ë-C4": 76
 , "Fiat|600e": 72
 , "Hyundai|Ioniq 5": 72
 , "Kia|EV6": 70
@@ -7634,8 +7666,9 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|Marvel R": 62
 , "BMW|i4": 59
 , "Citroën|ë-Berlingo Electric": 58
+, "Citroën|ë-C4": 57
+, "Peugeot|e-Rifter": 57
 , "Volvo|other": 112
-, "Peugeot|other": 102
 , "BMW|other": 96
 , "Ford|other": 87
 , "Porsche|other": 87
@@ -7645,19 +7678,21 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|other": 65
 , "MG|other": 64
 , "Xpeng|other": 63
+, "Citroën|other": 58
 , "Mercedes-Benz|other": 57
 , "Škoda|other": 47
+, "Peugeot|other": 45
 , "Opel|other": 40
-, "Citroën|other": 39
 , "Volkswagen|other": 39
 , "Toyota|other": 29
 , "Nissan|other": 28
+, "Dongfeng|other": 27
 , "Leapmotor|other": 22
 , "Hyundai|other": 14
 , "Fiat|other": 11
 , "Subaru|other": 10
 , "Honda|other": 9
-, "other": 213
+, "other": 186
 });
 
 db.insert(db.countries.ES, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7698,7 +7733,8 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Smart": 72
 , "Xpeng": 69
 , "Polestar": 30
-, "other": 3548
+, "Dongfeng": 23
+, "other": 3525
 });
 
 db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7745,7 +7781,7 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 58
 , "Xpeng|G6": 56
 , "Renault|Megane E-Tech": 55
-, "Citroën|ë-C4": 54
+, "Citroën|ë-C4": 52
 , "Ford|Capri EV": 50
 , "MG|S5 EV": 50
 , "Jeep|Avenger EV": 48
@@ -7757,14 +7793,15 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|other": 69
 , "BMW|other": 65
 , "Audi|other": 52
+, "Citroën|other": 48
 , "Fiat|other": 47
-, "Citroën|other": 46
 , "Volvo|other": 39
 , "Cupra|other": 32
 , "Polestar|other": 30
 , "Renault|other": 30
 , "Mazda|other": 26
 , "Leapmotor|other": 25
+, "Dongfeng|other": 23
 , "Opel|other": 23
 , "Hyundai|other": 22
 , "Toyota|other": 21
@@ -7777,7 +7814,7 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|other": 8
 , "Honda|other": 6
 , "MG|other": 6
-, "other": 307
+, "other": 284
 });
 
 db.insert(db.countries.ES, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7818,7 +7855,8 @@ db.insert(db.countries.ES, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Smart": 41
 , "Xpeng": 35
 , "Polestar": 24
-, "other": 2292
+, "Dongfeng": 22
+, "other": 2270
 });
 
 db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7880,6 +7918,7 @@ db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|other": 28
 , "Polestar|other": 24
 , "Fiat|other": 23
+, "Dongfeng|other": 22
 , "Nissan|other": 22
 , "Volkswagen|other": 20
 , "Volvo|other": 20
@@ -7891,7 +7930,7 @@ db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|other": 7
 , "Honda|other": 6
 , "Xpeng|other": 4
-, "other": 120
+, "other": 98
 });
 
 db.insert(db.countries.ES, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7932,7 +7971,8 @@ db.insert(db.countries.ES, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Xpeng": 89
 , "Subaru": 78
 , "Smart": 35
-, "other": 3079
+, "Dongfeng": 29
+, "other": 3050
 });
 
 db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -7998,6 +8038,7 @@ db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 36
 , "Mercedes-Benz|other": 35
 , "Smart|other": 35
+, "Dongfeng|other": 29
 , "Fiat|other": 27
 , "Kia|other": 19
 , "Opel|other": 19
@@ -8005,7 +8046,7 @@ db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 17
 , "Xpeng|other": 11
 , "Porsche|other": 6
-, "other": 189
+, "other": 160
 });
 
 db.insert(db.countries.ES, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8047,7 +8088,8 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Smart": 63
 , "Xpeng": 54
 , "Polestar": 48
-, "other": 4031
+, "Dongfeng": 18
+, "other": 4013
 });
 
 db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8118,6 +8160,7 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Nissan|other": 31
 , "Mercedes-Benz|other": 27
 , "Toyota|other": 23
+, "Dongfeng|other": 18
 , "Volkswagen|other": 18
 , "Ford|other": 15
 , "Xpeng|other": 14
@@ -8125,7 +8168,7 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 8
 , "BYD|other": 6
 , "Porsche|other": 6
-, "other": 186
+, "other": 168
 });
 
 db.insert(db.countries.ES, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8167,7 +8210,8 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Isuzu": 52
 , "Xpeng": 31
 , "Polestar": 30
-, "other": 3695
+, "Dongfeng": 13
+, "other": 3682
 });
 
 db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8240,10 +8284,11 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|other": 23
 , "Volkswagen|other": 21
 , "Nissan|other": 19
+, "Dongfeng|other": 13
 , "Honda|other": 9
 , "Ford|other": 7
 , "Tesla|other": 7
-, "other": 154
+, "other": 141
 });
 
 db.insert(db.countries.ES, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8358,10 +8403,11 @@ db.insert(db.countries.ES, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|other": 26
 , "Audi|other": 24
 , "Mitsubishi|other": 15
+, "Dongfeng|other": 9
 , "Polestar|other": 9
 , "Xpeng|other": 8
 , "Honda|other": 6
-, "other": 203
+, "other": 194
 });
 
 db.insert(db.countries.ES, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8403,8 +8449,9 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Subaru": 68
 , "Polestar": 58
 , "Smart": 44
+, "Dongfeng": 16
 , "BAIC": 9
-, "other": 3391
+, "other": 3375
 });
 
 db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8474,6 +8521,7 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|other": 24
 , "Porsche|other": 23
 , "Deepal|other": 21
+, "Dongfeng|other": 16
 , "Volkswagen|other": 16
 , "Jeep|other": 14
 , "Leapmotor|other": 13
@@ -8486,7 +8534,7 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|other": 10
 , "Tesla|other": 10
 , "Xpeng|other": 10
-, "other": 186
+, "other": 170
 });
 
 db.insert(db.countries.ES, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8528,8 +8576,9 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Polestar": 84
 , "Subaru": 57
 , "Smart": 26
+, "Dongfeng": 15
 , "BAIC": 14
-, "other": 4332
+, "other": 4317
 });
 
 db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8559,8 +8608,8 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Atto 3": 110
 , "Hyundai|Kona Electric": 108
 , "Xpeng|G6": 105
-, "Citroën|ë-C4": 101
 , "MG|4 EV": 101
+, "Citroën|ë-C4": 100
 , "Dacia|Spring": 100
 , "BYD|Sealion 7": 95
 , "Hyundai|Inster": 91
@@ -8603,14 +8652,15 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Polestar|other": 19
 , "Toyota|other": 18
 , "Nissan|other": 16
+, "Dongfeng|other": 15
 , "Volkswagen|other": 15
-, "Citroën|other": 13
+, "Citroën|other": 14
 , "Porsche|other": 9
 , "Xpeng|other": 8
 , "Mitsubishi|other": 7
 , "Tesla|other": 7
 , "Leapmotor|other": 6
-, "other": 213
+, "other": 198
 });
 
 db.insert(db.countries.ES, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8651,8 +8701,9 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Xpeng": 145
 , "Polestar": 134
 , "Subaru": 110
+, "Dongfeng": 25
 , "Smart": 25
-, "other": 6101
+, "other": 6076
 });
 
 db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8703,7 +8754,7 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|T03": 80
 , "Kia|PV5": 76
 , "Volkswagen|ID. Buzz": 71
-, "Citroën|ë-C4": 68
+, "Citroën|ë-C4": 64
 , "Renault|4 E-Tech": 64
 , "Audi|A6 e-tron": 62
 , "Kia|other": 182
@@ -8719,10 +8770,11 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 56
 , "Škoda|other": 51
 , "Volvo|other": 50
+, "Citroën|other": 42
 , "Fiat|other": 39
-, "Citroën|other": 38
 , "Nissan|other": 28
 , "Leapmotor|other": 27
+, "Dongfeng|other": 25
 , "Smart|other": 25
 , "Deepal|other": 22
 , "Toyota|other": 19
@@ -8733,7 +8785,7 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|other": 8
 , "Porsche|other": 8
 , "Tesla|other": 8
-, "other": 287
+, "other": 262
 });
 
 db.insert(db.countries.ES, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8776,7 +8828,8 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Subaru": 88
 , "Polestar": 68
 , "Smart": 48
-, "other": 4429
+, "Dongfeng": 20
+, "other": 4409
 });
 
 db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8853,12 +8906,13 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Deepal|other": 25
 , "Volkswagen|other": 23
 , "Leapmotor|other": 22
+, "Dongfeng|other": 20
 , "Xpeng|other": 16
 , "BYD|other": 8
 , "Mercedes-Benz|other": 7
 , "Polestar|other": 7
 , "Porsche|other": 6
-, "other": 270
+, "other": 250
 });
 
 db.insert(db.countries.ES, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8901,8 +8955,9 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Polestar": 69
 , "Smart": 46
 , "Geely": 24
+, "Dongfeng": 18
 , "Zeekr": 17
-, "other": 5116
+, "other": 5098
 });
 
 db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -8979,12 +9034,13 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|other": 29
 , "Leapmotor|other": 20
 , "Volkswagen|other": 20
+, "Dongfeng|other": 18
 , "Xpeng|other": 18
 , "Zeekr|other": 14
 , "Porsche|other": 9
 , "Jeep|other": 8
 , "BYD|other": 7
-, "other": 363
+, "other": 345
 });
 
 db.insert(db.countries.ES, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -9028,9 +9084,10 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.dg
 , "Polestar": 121
 , "Smart": 111
 , "GWM": 27
+, "Dongfeng": 19
 , "Aion": 15
 , "Zeekr": 14
-, "other": 5517
+, "other": 5498
 });
 
 db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -9093,7 +9150,7 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|other": 97
 , "Porsche|other": 78
 , "Kia|other": 71
-, "Leapmotor|other": 55
+, "Leapmotor|other": 57
 , "MG|other": 55
 , "Fiat|other": 51
 , "Jeep|other": 48
@@ -9107,12 +9164,12 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Geely|other": 31
 , "Xpeng|other": 26
 , "Polestar|other": 25
+, "Dongfeng|other": 19
 , "Toyota|other": 19
 , "Volkswagen|other": 19
 , "Hyundai|other": 16
 , "Aion|other": 13
 , "Zeekr|other": 13
 , "Mercedes-Benz|other": 12
-, "BYD|other": 10
-, "other": 344
+, "other": 333
 });
