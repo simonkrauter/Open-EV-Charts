@@ -2320,3 +2320,29 @@ db.insert(db.countries.CN, "2026-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Chery|QQ3 EV": 10524
 , "other": 348293
 });
+
+db.insert(db.countries.CN, "2026-07", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/08/22/the-ice-meltdown-continues-julys-china-ev-sales-report-44-bev-share/",
+{ "other": 1470455
+});
+
+db.insert(db.countries.CN, "2026-07", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/08/22/the-ice-meltdown-continues-julys-china-ev-sales-report-44-bev-share/",
+{ "Geometry|Xingyuan": 32306
+, "Leapmotor|A10": 26424
+, "Tesla|Model Y": 25158
+, "Xiaomi|SU7": 21044
+, "BYD|Atto 2": 20275
+, "Changan|Qiyuan Q05 EV": 18871
+, "BYD|Song EV": 13955
+, "BYD|Dolphin": 13910
+, "MG|4 EV": 13157
+, "Wuling|Bingo Pro": 12225
+, "Chery|QQ3 EV": 10780
+, "Wuling|Hongguang Mini EV": 10458
+, "Nio|ES8": 10284
+, "BYD|Sealion 05 EV": 7903
+, "Aion|i60 BEV": 6188
+, "BYD|Qin EV": 6021
+, "BYD|Sealion 06 EV": 5301
+, "BYD|Seal 06 EV": 4069
+, "other": 388671
+});
