@@ -9173,3 +9173,134 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|other": 12
 , "other": 333
 });
+
+db.insert(db.countries.ES, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
+{ "Toyota": 9339
+, "Volkswagen": 7449
+, "Kia": 6724
+, "Seat": 5353
+, "Dacia": 5328
+, "Peugeot": 5220
+, "Renault": 5121
+, "Hyundai": 4488
+, "BMW": 4437
+, "Mercedes-Benz": 4143
+, "BYD": 3898
+, "MG": 3688
+, "Audi": 3409
+, "Citroën": 3395
+, "Omoda Jaecoo": 3354
+, "Škoda": 3329
+, "Nissan": 2957
+, "Opel": 2561
+, "Cupra": 2537
+, "Ford": 2396
+, "Volvo": 1428
+, "Mazda": 1287
+, "Mini": 1023
+, "Geely": 992
+, "Leapmotor": 951
+, "Fiat": 827
+, "Jeep": 777
+, "Deepal": 582
+, "Honda": 427
+, "Mitsubishi": 403
+, "Suzuki": 387
+, "Porsche": 321
+, "Lynk & Co": 316
+, "Land Rover": 259
+, "Xpeng": 258
+, "Tesla": 130
+, "Subaru": 81
+, "GWM": 53
+, "Smart": 51
+, "Polestar": 50
+, "Zeekr": 38
+, "Aion": 24
+, "Dongfeng": 14
+, "other": 4626
+});
+
+db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
+{ "Kia|EV3": 454
+, "Leapmotor|B10": 443
+, "BYD|Atto 2": 433
+, "BYD|Seagull": 386
+, "Deepal|S05": 337
+, "Citroën|ë-C3": 326
+, "Renault|5 E-Tech": 266
+, "BYD|Atto 3": 259
+, "Mini|Cooper SE": 255
+, "Mercedes-Benz|CLA EQ": 250
+, "Toyota|C-HR+": 248
+, "Cupra|Raval": 246
+, "Škoda|Elroq": 231
+, "Kia|EV2": 225
+, "Xpeng|G6": 217
+, "Volkswagen|ID.3": 193
+, "Volvo|EX30": 193
+, "Mercedes-Benz|GLC EQ": 192
+, "Leapmotor|T03": 168
+, "Renault|Twingo E-Tech": 168
+, "BMW|iX1": 159
+, "Hyundai|Inster": 159
+, "Volkswagen|ID.4": 154
+, "Toyota|bZ4X": 140
+, "BMW|iX3": 137
+, "MG|S5 EV": 135
+, "BYD|Sealion 7": 134
+, "Mercedes-Benz|GLB EQ": 131
+, "Volkswagen|ID. Buzz": 130
+, "BMW|iX2": 128
+, "Opel|Frontera Electric": 128
+, "MG|4 EV": 126
+, "Tesla|Model Y": 124
+, "Audi|Q4 e-tron": 119
+, "BYD|Song Plus": 118
+, "Mazda|EZ-6 BEV": 112
+, "BYD|Seal": 111
+, "Ford|Puma Gen-E": 108
+, "Kia|EV4": 105
+, "Hyundai|Kona Electric": 100
+, "Nissan|Micra EV": 99
+, "Leapmotor|B05": 91
+, "Geely|Galaxy E5": 86
+, "Nissan|Leaf": 86
+, "Kia|PV5": 85
+, "Ford|Explorer EV": 83
+, "Mercedes-Benz|EQA": 83
+, "BYD|Dolphin": 78
+, "Leapmotor|C10 EV": 77
+, "Omoda Jaecoo|Omoda E5": 77
+, "Peugeot|other": 184
+, "Porsche|other": 134
+, "Cupra|other": 127
+, "Škoda|other": 125
+, "Citroën|other": 113
+, "Renault|other": 106
+, "Kia|other": 77
+, "Ford|other": 75
+, "Mercedes-Benz|other": 73
+, "BMW|other": 69
+, "Hyundai|other": 67
+, "Omoda Jaecoo|other": 65
+, "Deepal|other": 63
+, "Volkswagen|other": 58
+, "Audi|other": 53
+, "Volvo|other": 53
+, "Smart|other": 51
+, "Polestar|other": 50
+, "Fiat|other": 44
+, "Opel|other": 44
+, "Xpeng|other": 41
+, "Zeekr|other": 38
+, "Jeep|other": 30
+, "Dacia|other": 27
+, "Nissan|other": 17
+, "Dongfeng|other": 14
+, "Aion|other": 13
+, "Toyota|other": 12
+, "BYD|other": 7
+, "MG|other": 7
+, "other": 333
+});
