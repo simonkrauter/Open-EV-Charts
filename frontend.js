@@ -340,15 +340,8 @@ function renderDropdownContent(param, dropdown) {
 
 function renderDropdownOptions(param, overlay) {
   const selectedKeys = chartSetConfig[param.name].split(",");
-  // Render noMultiSelectOptions first
   for (const optionKey in param.allOptions) {
-    if (param.noMultiSelectOptions && param.noMultiSelectOptions.includes(optionKey))
-      renderDropdownOption(param, overlay, selectedKeys, optionKey);
-  }
-  // Render all other options
-  for (const optionKey in param.allOptions) {
-    if (!param.noMultiSelectOptions || !param.noMultiSelectOptions.includes(optionKey))
-      renderDropdownOption(param, overlay, selectedKeys, optionKey);
+    renderDropdownOption(param, overlay, selectedKeys, optionKey);
   }
 }
 
