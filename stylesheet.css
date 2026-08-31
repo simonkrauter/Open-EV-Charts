@@ -179,7 +179,7 @@ button.button:hover, .dropdown:hover {
   background: var(--clButtonHoverFill);
 }
 
-buttonbutton.active:hover, .dropdown.active:hover {
+button.button.active:hover, .dropdown.active:hover {
   background: var(--clButtonActiveHoverFill);
 }
 
