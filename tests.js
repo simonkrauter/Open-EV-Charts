@@ -630,7 +630,7 @@ function randomizeChartConfig() {
     const param = params[i];
     let optionKeys = [];
     if (param.name == "metric") {
-      for (const j in param.options) {
+      for (const [j] of param.options) {
         if (j == db.metrics.all)
           continue;
         optionKeys.push(j);
@@ -644,7 +644,7 @@ function randomizeChartConfig() {
         optionKeys.push("DE,FR,IT,UK");
         optionKeys.push("US,CN");
       } else {
-        for (const j in param.options) {
+        for (const [j] of param.options) {
           if ([db.countryOptions.all, db.countryOptions.combine].includes(j))
             continue;
           optionKeys.push(j);
@@ -654,23 +654,23 @@ function randomizeChartConfig() {
         optionKeys.push(db.countryOptions.combine);
       }
     } else if (param.name == "xProperty") {
-      optionKeys = Object.keys(param.options);
+      optionKeys = Array.from(param.options.keys());
     } else if (param.name == "brand") {
       if (Math.random() < 0.4)
         optionKeys.push(db.brandOptions.all);
       else if (Math.random() < 0.8)
         optionKeys.push(db.brandOptions.combine);
       else
-        optionKeys = Object.keys(param.options);
+        optionKeys = Array.from(param.options.keys());
     } else if (param.name == "model") {
       if (Math.random() < 0.4)
         optionKeys.push(db.modelOptions.all);
       else if (Math.random() < 0.8)
         optionKeys.push(db.modelOptions.combine);
       else
-        optionKeys = Object.keys(param.options);
+        optionKeys = Array.from(param.options.keys());
     } else if (param.name == "view" || param.name == "maxSeries") {
-      optionKeys = Object.keys(param.options);
+      optionKeys = Array.from(param.options.keys());
     }
     if (optionKeys.length > 0) {
       chartConfig[param.name] = optionKeys[Math.floor(Math.random() * optionKeys.length)];

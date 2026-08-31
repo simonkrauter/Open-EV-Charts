@@ -237,8 +237,8 @@ function isMobileScreenSize() {
 function renderFilterAsDropdown(parentDiv, param) {
   // Calculate width
   let width = 120;
-  for (const optionKey in param.allOptions)
-    width = Math.max(width, measureTextWidth(param.allOptions[optionKey]) + 40);
+  for (const [optionKey, optionValue] of param.allOptions)
+    width = Math.max(width, measureTextWidth(optionValue) + 40);
   if (param.name == "country")
     width += 10;
 
@@ -311,7 +311,7 @@ function renderDropdownContent(param, dropdown) {
   overlay.classList.add("overlay");
 
   // Search function
-  if (param.enableDropdownSearch && Object.keys(param.allOptions).length > 13) {
+  if (param.enableDropdownSearch && param.allOptions.size > 13) {
     const searchDiv = newChildNode(overlay, "DIV");
     searchDiv.classList.add("search");
     searchDiv.addEventListener("click", function(event) {
@@ -340,7 +340,7 @@ function renderDropdownContent(param, dropdown) {
 
 function renderDropdownOptions(param, overlay) {
   const selectedKeys = chartSetConfig[param.name].split(",");
-  for (const optionKey in param.allOptions) {
+  for (const [optionKey, optionText] of param.allOptions) {
     const optionNode = newChildNode(overlay, "DIV");
     optionNode.classList.add("option");
     optionNode.tabIndex = 0;
@@ -365,7 +365,6 @@ function renderDropdownOptions(param, overlay) {
       });
       checkbox.tabIndex = -1;
     }
-    let optionText = param.allOptions[optionKey];
     if (param.name == "country") {
       optionNode.appendChild(createCountryFlagContainer(optionKey, optionText, false, dropDownFlagSizeFactor));
       let searchText = optionText + " " + optionKey;
@@ -420,17 +419,17 @@ function updateDropdownState(paramName) {
   currentValueDiv.innerHTML = "";
   let selectedOptionTexts = [];
   if (param.name == "country") {
-    for (const optionKey in param.allOptions) {
+    for (const [optionKey, optionValue] of param.allOptions) {
       if (selectedKeys.includes(optionKey)) {
         currentValueDiv.appendChild(createCountryFlagContainer(optionKey, "", false, dropDownFlagSizeFactor));
         if (selectedKeys.length == 1 || !(optionKey in db.countries))
-          selectedOptionTexts.push(param.allOptions[optionKey]);
+          selectedOptionTexts.push(optionValue);
       }
     }
   } else {
-    for (const optionKey in param.allOptions) {
+    for (const [optionKey, optionValue] of param.allOptions) {
       if (selectedKeys.includes(optionKey))
-        selectedOptionTexts.push(param.allOptions[optionKey]);
+        selectedOptionTexts.push(optionValue);
     }
     if (selectedOptionTexts.length == 0) {
       selectedOptionTexts.push(selectedKey);
@@ -440,7 +439,7 @@ function updateDropdownState(paramName) {
 
   // Update options disabled and checked state
   if (param.allowMultiSelection) {
-    const optionKeys = Object.keys(param.allOptions);
+    const optionKeys = Array.from(param.allOptions.keys());
     let optionIndex = 0;
     let selectedCountries = [];
     if (param.name == "country")
@@ -451,7 +450,7 @@ function updateDropdownState(paramName) {
         continue;
       const optionKey = optionKeys[optionIndex];
       const checkbox = optionNode.firstChild.firstChild;
-      const isDisabled = param.options[optionKey] == null;
+      const isDisabled = !param.options.has(optionKey);
       checkbox.disabled = isDisabled;
       if (isDisabled) {
         checkbox.checked = false;
@@ -692,9 +691,8 @@ function renderChartTabButtons(chartDiv) {
   const tabButtonsDiv = newChildNode(chartDiv, "DIV");
   tabButtonsDiv.classList.add("tabButtons");
   const params = db.getChartParams(chartSetConfig);
-  const viewOptions = params.view.options;
-  for (const i in viewOptions)
-    renderChartTabButton(tabButtonsDiv, i, viewOptions[i]);
+  for (const [optionKey, optionValue] of params.view.options)
+    renderChartTabButton(tabButtonsDiv, optionKey, optionValue);
 }
 
 function renderHints(chartDiv, chartConfig, chartData) {
