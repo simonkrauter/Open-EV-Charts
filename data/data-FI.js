@@ -38,7 +38,7 @@ db.insert(db.countries.FI, "2018-01", db.dsTypes.AllCarsByBrand, "https://trafi2
 db.insert(db.countries.FI, "2018-01", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Tesla|Model S": 16
 , "Volkswagen|e-Golf": 8
-, "BMW|i3 BEV": 5
+, "BMW|i3 (2013)": 5
 , "Nissan|Leaf": 2
 , "Renault|Zoe": 2
 , "Hyundai|Ioniq Electric": 1
@@ -127,7 +127,7 @@ db.insert(db.countries.FI, "2018-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|e-Golf": 11
 , "Hyundai|Ioniq Electric": 7
 , "Tesla|Model X": 7
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Kia|Soul EV": 2
 });
 
@@ -171,7 +171,7 @@ db.insert(db.countries.FI, "2018-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 4
 , "Volkswagen|e-Golf": 4
 , "Tesla|Model X": 3
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 });
 
 db.insert(db.countries.FI, "2018-05", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -258,7 +258,7 @@ db.insert(db.countries.FI, "2018-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model X": 6
 , "Hyundai|Ioniq Electric": 4
 , "Jaguar|I-Pace": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Kia|Soul EV": 1
 , "Nissan|e-NV200": 1
 });
@@ -303,7 +303,7 @@ db.insert(db.countries.FI, "2018-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 7
 , "Volkswagen|e-Golf": 4
 , "Tesla|Model X": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "other": 3
 });
 
@@ -344,7 +344,7 @@ db.insert(db.countries.FI, "2018-08", db.dsTypes.ElectricCarsByModel, "https://t
 { "Nissan|Leaf": 20
 , "Hyundai|Ioniq Electric": 16
 , "Volkswagen|e-Golf": 13
-, "BMW|i3 BEV": 6
+, "BMW|i3 (2013)": 6
 , "Renault|Zoe": 4
 , "Tesla|Model X": 3
 , "Jaguar|I-Pace": 2
@@ -391,7 +391,7 @@ db.insert(db.countries.FI, "2018-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq Electric": 10
 , "Tesla|Model S": 8
 , "Tesla|Model X": 8
-, "BMW|i3 BEV": 4
+, "BMW|i3 (2013)": 4
 , "Kia|Soul EV": 3
 , "Renault|Zoe": 2
 , "Jaguar|I-Pace": 1
@@ -440,7 +440,7 @@ db.insert(db.countries.FI, "2018-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 6
 , "Tesla|Model S": 4
 , "Kia|Soul EV": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Jaguar|I-Pace": 1
 });
 
@@ -479,7 +479,7 @@ db.insert(db.countries.FI, "2018-11", db.dsTypes.AllCarsByBrand, "https://trafi2
 
 db.insert(db.countries.FI, "2018-11", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
 { "Nissan|Leaf": 30
-, "BMW|i3 BEV": 16
+, "BMW|i3 (2013)": 16
 , "Volkswagen|e-Golf": 9
 , "Hyundai|Ioniq Electric": 8
 , "Hyundai|Kona Electric": 8
@@ -532,7 +532,7 @@ db.insert(db.countries.FI, "2018-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq Electric": 7
 , "Jaguar|I-Pace": 3
 , "Hyundai|Kona Electric": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Nissan|e-NV200": 1
 });
 
@@ -573,7 +573,7 @@ db.insert(db.countries.FI, "2019-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jaguar|I-Pace": 19
 , "Hyundai|Ioniq Electric": 15
 , "Tesla|Model S": 15
-, "BMW|i3 BEV": 12
+, "BMW|i3 (2013)": 12
 , "Hyundai|Kona Electric": 8
 , "Renault|Zoe": 4
 , "Kia|Soul EV": 2
@@ -624,7 +624,7 @@ db.insert(db.countries.FI, "2019-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 4
 , "Volkswagen|e-Golf": 3
 , "Tesla|Model X": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Kia|Soul EV": 1
 , "Tesla|Model S": 1
 , "other": 3
@@ -672,7 +672,7 @@ db.insert(db.countries.FI, "2019-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jaguar|I-Pace": 7
 , "Volkswagen|e-Golf": 7
 , "Kia|Niro EV": 6
-, "BMW|i3 BEV": 4
+, "BMW|i3 (2013)": 4
 , "Tesla|Model S": 4
 , "Tesla|Model X": 3
 , "Renault|Zoe": 2
@@ -720,7 +720,7 @@ db.insert(db.countries.FI, "2019-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jaguar|I-Pace": 16
 , "Audi|Q8 e-tron": 10
 , "Hyundai|Ioniq Electric": 10
-, "BMW|i3 BEV": 8
+, "BMW|i3 (2013)": 8
 , "Tesla|Model S": 4
 , "Renault|Zoe": 2
 , "Tesla|Model X": 2
@@ -770,7 +770,7 @@ db.insert(db.countries.FI, "2019-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|Leaf": 13
 , "Tesla|Model S": 11
 , "Tesla|Model X": 8
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Hyundai|Ioniq Electric": 3
 , "Volkswagen|e-Golf": 3
 , "Hyundai|Kona Electric": 2
@@ -819,7 +819,7 @@ db.insert(db.countries.FI, "2019-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Kona Electric": 7
 , "Volkswagen|e-Golf": 4
 , "Nissan|e-NV200": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Jaguar|I-Pace": 1
 , "Mercedes-Benz|EQC": 1
 , "Renault|Zoe": 1
@@ -917,7 +917,7 @@ db.insert(db.countries.FI, "2019-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq Electric": 8
 , "Tesla|Model X": 7
 , "Volkswagen|e-Golf": 6
-, "BMW|i3 BEV": 5
+, "BMW|i3 (2013)": 5
 , "Jaguar|I-Pace": 3
 , "Renault|Zoe": 3
 , "Kia|Soul EV": 1
@@ -968,7 +968,7 @@ db.insert(db.countries.FI, "2019-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Jaguar|I-Pace": 6
 , "Hyundai|Ioniq Electric": 5
 , "Volkswagen|e-Golf": 5
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Kia|Soul EV": 1
 });
 
@@ -1107,7 +1107,7 @@ db.insert(db.countries.FI, "2019-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q8 e-tron": 6
 , "Volkswagen|e-Golf": 3
 , "Mercedes-Benz|EQC": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Jaguar|I-Pace": 1
 , "Kia|Soul EV": 1
 });
@@ -1159,7 +1159,7 @@ db.insert(db.countries.FI, "2020-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQC": 4
 , "Nissan|e-NV200": 3
 , "Tesla|Model X": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Jaguar|I-Pace": 2
 , "Kia|Soul EV": 1
 , "other": 1
@@ -1214,7 +1214,7 @@ db.insert(db.countries.FI, "2020-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 4
 , "Kia|Soul EV": 3
 , "Tesla|Model S": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Porsche|Taycan": 1
 , "other": 1
 });
@@ -1265,7 +1265,7 @@ db.insert(db.countries.FI, "2020-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Citigo-e": 11
 , "Audi|Q8 e-tron": 10
 , "Jaguar|I-Pace": 7
-, "BMW|i3 BEV": 6
+, "BMW|i3 (2013)": 6
 , "Hyundai|Ioniq Electric": 4
 , "Porsche|Taycan": 3
 , "Kia|Soul EV": 2
@@ -1318,7 +1318,7 @@ db.insert(db.countries.FI, "2020-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Citigo-e": 9
 , "Nissan|Leaf": 8
 , "Tesla|Model S": 8
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Mini|Cooper SE": 3
 , "Kia|Soul EV": 2
 , "Audi|Q8 e-tron": 1
@@ -1378,7 +1378,7 @@ db.insert(db.countries.FI, "2020-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Citigo-e": 4
 , "Audi|Q8 e-tron": 3
 , "Renault|Zoe": 3
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "other": 4
 });
 
@@ -1424,7 +1424,7 @@ db.insert(db.countries.FI, "2020-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Citigo-e": 14
 , "Porsche|Taycan": 11
 , "Renault|Zoe": 11
-, "BMW|i3 BEV": 5
+, "BMW|i3 (2013)": 5
 , "Mercedes-Benz|EQC": 5
 , "Tesla|Model S": 5
 , "Tesla|Model X": 5
@@ -1483,7 +1483,7 @@ db.insert(db.countries.FI, "2020-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 7
 , "Mini|Cooper SE": 5
 , "Nissan|Leaf": 5
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Kia|Niro EV": 3
 , "Opel|Corsa-e": 3
 , "Jaguar|I-Pace": 2
@@ -1541,7 +1541,7 @@ db.insert(db.countries.FI, "2020-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-208": 6
 , "Jaguar|I-Pace": 5
 , "Renault|Zoe": 5
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Kia|Soul EV": 3
 , "Volkswagen|e-Golf": 3
 , "Opel|Corsa-e": 2
@@ -1604,7 +1604,7 @@ db.insert(db.countries.FI, "2020-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mazda|MX-30 BEV": 5
 , "Honda|e": 4
 , "Mercedes-Benz|EQC": 4
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Jaguar|I-Pace": 2
 , "Mini|Cooper SE": 2
 , "Nissan|e-NV200": 1
@@ -1665,7 +1665,7 @@ db.insert(db.countries.FI, "2020-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Taycan": 4
 , "Tesla|Model X": 4
 , "Hyundai|Ioniq Electric": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Mazda|MX-30 BEV": 1
 , "other": 2
 });
@@ -1789,7 +1789,7 @@ db.insert(db.countries.FI, "2020-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mini|Cooper SE": 6
 , "Mercedes-Benz|eVito": 5
 , "Peugeot|e-2008": 5
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Ford|Mustang Mach-E": 2
 , "Peugeot|e-208": 2
 , "Nissan|e-NV200": 1
@@ -1905,7 +1905,7 @@ db.insert(db.countries.FI, "2021-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQC": 9
 , "Porsche|Taycan": 9
 , "Hyundai|Ioniq Electric": 6
-, "BMW|i3 BEV": 5
+, "BMW|i3 (2013)": 5
 , "Peugeot|e-208": 4
 , "Volkswagen|e-up": 4
 , "Mazda|MX-30 BEV": 3
@@ -1970,7 +1970,7 @@ db.insert(db.countries.FI, "2021-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX3": 9
 , "Hyundai|Kona Electric": 9
 , "Peugeot|e-208": 8
-, "BMW|i3 BEV": 7
+, "BMW|i3 (2013)": 7
 , "Hyundai|Ioniq Electric": 7
 , "Polestar|2": 5
 , "Škoda|Citigo-e": 5
@@ -2035,7 +2035,7 @@ db.insert(db.countries.FI, "2021-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX3": 7
 , "Peugeot|e-208": 7
 , "Tesla|Model 3": 7
-, "BMW|i3 BEV": 6
+, "BMW|i3 (2013)": 6
 , "Mini|Cooper SE": 6
 , "Fiat|500e": 4
 , "Renault|Zoe": 4
@@ -2109,7 +2109,7 @@ db.insert(db.countries.FI, "2021-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 5
 , "Mercedes-Benz|EQA": 4
 , "Opel|Corsa-e": 4
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Fiat|500e": 3
 , "Hyundai|Ioniq Electric": 3
 , "Mazda|MX-30 BEV": 2
@@ -2180,7 +2180,7 @@ db.insert(db.countries.FI, "2021-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-2008": 4
 , "Hyundai|Ioniq Electric": 3
 , "Kia|Soul EV": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Opel|Mokka-e": 2
 , "Porsche|Taycan": 2
 , "Jaguar|I-Pace": 1
@@ -2325,7 +2325,7 @@ db.insert(db.countries.FI, "2021-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|eVito": 2
 , "Peugeot|e-208": 2
 , "Peugeot|e-Expert": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Fiat|500e": 1
 , "Mercedes-Benz|EQS": 1
 , "Mercedes-Benz|EQV": 1
@@ -2466,7 +2466,7 @@ db.insert(db.countries.FI, "2021-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQA": 9
 , "Mercedes-Benz|EQC": 9
 , "Renault|Zoe": 9
-, "BMW|i3 BEV": 6
+, "BMW|i3 (2013)": 6
 , "Seat|Mii Electric": 6
 , "Kia|EV6": 5
 , "BMW|iX": 4
@@ -2623,7 +2623,7 @@ db.insert(db.countries.FI, "2021-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Peugeot|e-2008": 12
 , "Opel|Corsa-e": 10
 , "Mercedes-Benz|EQA": 6
-, "BMW|i3 BEV": 5
+, "BMW|i3 (2013)": 5
 , "Citroën|ë-C4": 5
 , "Audi|Q8 e-tron": 4
 , "Fiat|500e": 4
@@ -2871,7 +2871,7 @@ db.insert(db.countries.FI, "2022-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 5
 , "Citroën|ë-C4": 4
 , "Opel|Zafira-e": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Citroën|ë-SpaceTourer": 2
 , "Peugeot|e-Rifter": 2
 , "Honda|e": 1
@@ -3035,7 +3035,7 @@ db.insert(db.countries.FI, "2022-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQC": 5
 , "Peugeot|e-Rifter": 4
 , "Porsche|Taycan": 3
-, "BMW|i3 BEV": 2
+, "BMW|i3 (2013)": 2
 , "Dacia|Spring": 2
 , "Mazda|MX-30 BEV": 2
 , "Citroën|ë-SpaceTourer": 1
@@ -3120,7 +3120,7 @@ db.insert(db.countries.FI, "2022-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "BMW|iX3": 4
 , "Citroën|ë-Berlingo Electric": 4
 , "Mercedes-Benz|EQC": 4
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Peugeot|e-Rifter": 3
 , "Volvo|EC40": 3
 , "Mazda|MX-30 BEV": 2
@@ -3290,7 +3290,7 @@ db.insert(db.countries.FI, "2022-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Renault|Zoe": 3
 , "Peugeot|e-Rifter": 2
 , "Volkswagen|e-up": 2
-, "BMW|i3 BEV": 1
+, "BMW|i3 (2013)": 1
 , "Opel|Combo-e": 1
 , "Peugeot|e-Traveller": 1
 , "Tesla|Model 3": 1
@@ -3537,7 +3537,7 @@ db.insert(db.countries.FI, "2022-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Born": 5
 , "Hyundai|Kona Electric": 5
 , "Opel|Mokka-e": 4
-, "BMW|i3 BEV": 3
+, "BMW|i3 (2013)": 3
 , "Fiat|500e": 3
 , "Mini|Cooper SE": 3
 , "Opel|Corsa-e": 3
@@ -3618,7 +3618,7 @@ db.insert(db.countries.FI, "2022-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQC": 9
 , "Mercedes-Benz|EQS": 8
 , "Cupra|Born": 7
-, "BMW|i3 BEV": 6
+, "BMW|i3 (2013)": 6
 , "Mini|Cooper SE": 6
 , "BMW|iX3": 5
 , "Opel|Corsa-e": 5

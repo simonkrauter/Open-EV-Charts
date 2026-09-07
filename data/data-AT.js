@@ -40,7 +40,7 @@ db.insert(db.countries.AT, "2019-01", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2019-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
-{ "BMW|i3 BEV": 106
+{ "BMW|i3 (2013)": 106
 , "Hyundai|Kona Electric": 84
 , "Volkswagen|e-Golf": 71
 , "Renault|Zoe": 65
@@ -89,7 +89,7 @@ db.insert(db.countries.AT, "2019-02", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2019-02", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 136
-, "BMW|i3 BEV": 105
+, "BMW|i3 (2013)": 105
 , "Nissan|Leaf": 83
 , "Volkswagen|e-Golf": 81
 , "Renault|Zoe": 75
@@ -137,7 +137,7 @@ db.insert(db.countries.AT, "2019-03", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2019-03", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 703
-, "BMW|i3 BEV": 107
+, "BMW|i3 (2013)": 107
 , "Volkswagen|e-Golf": 97
 , "other": 81
 , "Renault|Zoe": 79
@@ -189,7 +189,7 @@ db.insert(db.countries.AT, "2019-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 87
 , "Renault|Zoe": 82
 , "Volkswagen|e-Golf": 78
-, "BMW|i3 BEV": 77
+, "BMW|i3 (2013)": 77
 , "Kia|Niro EV": 62
 , "Hyundai|Kona Electric": 59
 , "Jaguar|I-Pace": 39
@@ -236,7 +236,7 @@ db.insert(db.countries.AT, "2019-05", db.dsTypes.AllCarsByBrand, "https://www.st
 db.insert(db.countries.AT, "2019-05", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Renault|Zoe": 133
 , "Tesla|Model 3": 127
-, "BMW|i3 BEV": 77
+, "BMW|i3 (2013)": 77
 , "other": 72
 , "Volkswagen|e-Golf": 62
 , "Kia|Niro EV": 48
@@ -284,7 +284,7 @@ db.insert(db.countries.AT, "2019-06", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2019-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 346
-, "BMW|i3 BEV": 99
+, "BMW|i3 (2013)": 99
 , "other": 86
 , "Tesla|Model S": 80
 , "Renault|Zoe": 72
@@ -334,7 +334,7 @@ db.insert(db.countries.AT, "2019-07", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 111
 , "other": 87
 , "Hyundai|Kona Electric": 85
-, "BMW|i3 BEV": 79
+, "BMW|i3 (2013)": 79
 , "Audi|Q8 e-tron": 78
 , "Kia|Niro EV": 67
 , "Volkswagen|e-Golf": 53
@@ -380,7 +380,7 @@ db.insert(db.countries.AT, "2019-08", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2019-08", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
-{ "BMW|i3 BEV": 156
+{ "BMW|i3 (2013)": 156
 , "Renault|Zoe": 133
 , "Hyundai|Kona Electric": 114
 , "Tesla|Model 3": 83
@@ -430,7 +430,7 @@ db.insert(db.countries.AT, "2019-09", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2019-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Tesla|Model 3": 387
-, "BMW|i3 BEV": 112
+, "BMW|i3 (2013)": 112
 , "Renault|Zoe": 88
 , "other": 78
 , "Hyundai|Kona Electric": 76
@@ -478,7 +478,7 @@ db.insert(db.countries.AT, "2019-10", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2019-10", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
-{ "BMW|i3 BEV": 90
+{ "BMW|i3 (2013)": 90
 , "other": 71
 , "Renault|Zoe": 58
 , "Nissan|Leaf": 52
@@ -527,7 +527,7 @@ db.insert(db.countries.AT, "2019-11", db.dsTypes.AllCarsByBrand, "https://www.st
 
 db.insert(db.countries.AT, "2019-11", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2019.ods",
 { "Hyundai|Kona Electric": 194
-, "BMW|i3 BEV": 116
+, "BMW|i3 (2013)": 116
 , "Volkswagen|e-Golf": 67
 , "Tesla|Model 3": 66
 , "Nissan|Leaf": 46
@@ -577,7 +577,7 @@ db.insert(db.countries.AT, "2019-12", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 216
 , "Renault|Zoe": 82
 , "Volkswagen|e-Golf": 78
-, "BMW|i3 BEV": 67
+, "BMW|i3 (2013)": 67
 , "other": 61
 , "Hyundai|Kona Electric": 53
 , "Tesla|Model S": 40
@@ -625,7 +625,7 @@ db.insert(db.countries.AT, "2020-01", db.dsTypes.AllCarsByBrand, "https://www.st
 db.insert(db.countries.AT, "2020-01", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
 { "Renault|Zoe": 168
 , "other": 164
-, "BMW|i3 BEV": 63
+, "BMW|i3 (2013)": 63
 , "Hyundai|Kona Electric": 57
 , "Nissan|Leaf": 47
 , "Seat|Mii Electric": 39
@@ -675,7 +675,7 @@ db.insert(db.countries.AT, "2020-02", db.dsTypes.ElectricCarsByModel, "https://w
 { "other": 230
 , "Tesla|Model 3": 219
 , "Renault|Zoe": 182
-, "BMW|i3 BEV": 57
+, "BMW|i3 (2013)": 57
 , "Audi|Q8 e-tron": 52
 , "Škoda|Citigo-e": 48
 , "Volkswagen|e-Golf": 48
@@ -724,7 +724,7 @@ db.insert(db.countries.AT, "2020-03", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 372
 , "other": 98
 , "Renault|Zoe": 74
-, "BMW|i3 BEV": 33
+, "BMW|i3 (2013)": 33
 , "Audi|Q8 e-tron": 33
 , "Mini|Cooper SE": 26
 , "Kia|Niro EV": 26
@@ -773,7 +773,7 @@ db.insert(db.countries.AT, "2020-04", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 227
 , "Renault|Zoe": 93
 , "other": 66
-, "BMW|i3 BEV": 42
+, "BMW|i3 (2013)": 42
 , "Kia|Niro EV": 36
 , "Audi|Q8 e-tron": 26
 , "Tesla|Model S": 18
@@ -823,7 +823,7 @@ db.insert(db.countries.AT, "2020-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 127
 , "Kia|Niro EV": 104
 , "Tesla|Model 3": 91
-, "BMW|i3 BEV": 50
+, "BMW|i3 (2013)": 50
 , "Audi|Q8 e-tron": 47
 , "Volkswagen|e-Golf": 39
 , "Hyundai|Kona Electric": 29
@@ -875,7 +875,7 @@ db.insert(db.countries.AT, "2020-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 60
 , "Volkswagen|e-Golf": 58
 , "Hyundai|Kona Electric": 54
-, "BMW|i3 BEV": 54
+, "BMW|i3 (2013)": 54
 , "Porsche|Taycan": 34
 , "Volkswagen|e-up": 31
 , "Seat|Mii Electric": 27
@@ -927,7 +927,7 @@ db.insert(db.countries.AT, "2020-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|e-up": 49
 , "Mercedes-Benz|EQC": 40
 , "Peugeot|e-208": 33
-, "BMW|i3 BEV": 33
+, "BMW|i3 (2013)": 33
 });
 
 db.insert(db.countries.AT, "2020-08", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2020.ods",
@@ -974,7 +974,7 @@ db.insert(db.countries.AT, "2020-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 75
 , "Audi|Q8 e-tron": 68
 , "Peugeot|e-208": 49
-, "BMW|i3 BEV": 40
+, "BMW|i3 (2013)": 40
 , "Volkswagen|e-Golf": 33
 , "Škoda|Citigo-e": 28
 , "Mini|Cooper SE": 28
@@ -1025,7 +1025,7 @@ db.insert(db.countries.AT, "2020-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|Niro EV": 117
 , "Mazda|MX-30 BEV": 95
 , "Opel|Corsa-e": 67
-, "BMW|i3 BEV": 65
+, "BMW|i3 (2013)": 65
 , "Seat|Mii Electric": 62
 , "Volkswagen|e-up": 61
 });
@@ -1074,7 +1074,7 @@ db.insert(db.countries.AT, "2020-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 137
 , "Hyundai|Kona Electric": 108
 , "Opel|Corsa-e": 102
-, "BMW|i3 BEV": 101
+, "BMW|i3 (2013)": 101
 , "Audi|Q8 e-tron": 78
 , "Peugeot|e-208": 65
 , "Mazda|MX-30 BEV": 60
@@ -1127,7 +1127,7 @@ db.insert(db.countries.AT, "2020-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q8 e-tron": 113
 , "Hyundai|Kona Electric": 104
 , "Seat|Mii Electric": 94
-, "BMW|i3 BEV": 69
+, "BMW|i3 (2013)": 69
 , "Peugeot|e-2008": 68
 });
 
@@ -1224,7 +1224,7 @@ db.insert(db.countries.AT, "2021-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 196
 , "Audi|Q8 e-tron": 135
 , "Tesla|Model 3": 94
-, "BMW|i3 BEV": 69
+, "BMW|i3 (2013)": 69
 , "Fiat|500e": 62
 , "Peugeot|e-2008": 61
 , "Kia|Niro EV": 60
@@ -1280,7 +1280,7 @@ db.insert(db.countries.AT, "2021-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Corsa-e": 82
 , "Seat|Mii Electric": 64
 , "Peugeot|e-208": 55
-, "BMW|i3 BEV": 54
+, "BMW|i3 (2013)": 54
 });
 
 db.insert(db.countries.AT, "2021-03", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1381,7 +1381,7 @@ db.insert(db.countries.AT, "2021-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Seat|Mii Electric": 92
 , "Kia|Niro EV": 90
 , "Jaguar|I-Pace": 63
-, "BMW|i3 BEV": 63
+, "BMW|i3 (2013)": 63
 });
 
 db.insert(db.countries.AT, "2021-05", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/kfz-neuzulassungen_jaenner_bis_dezember_2021.ods",
@@ -1527,7 +1527,7 @@ db.insert(db.countries.AT, "2021-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 133
 , "Audi|Q8 e-tron": 115
 , "Seat|Mii Electric": 94
-, "BMW|i3 BEV": 94
+, "BMW|i3 (2013)": 94
 , "Fiat|500e": 82
 , "BMW|iX3": 72
 , "other": 782
@@ -1630,7 +1630,7 @@ db.insert(db.countries.AT, "2021-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|Zoe": 169
 , "Hyundai|Ioniq Electric": 169
 , "Fiat|500e": 156
-, "BMW|i3 BEV": 122
+, "BMW|i3 (2013)": 122
 , "Audi|Q8 e-tron": 118
 , "other": 1119
 });
@@ -1682,7 +1682,7 @@ db.insert(db.countries.AT, "2021-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 115
 , "BMW|iX3": 98
 , "Kia|Niro EV": 71
-, "BMW|i3 BEV": 71
+, "BMW|i3 (2013)": 71
 , "other": 927
 });
 
@@ -1835,7 +1835,7 @@ db.insert(db.countries.AT, "2022-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 88
 , "Volkswagen|ID.4": 83
 , "Audi|Q8 e-tron": 79
-, "BMW|i3 BEV": 67
+, "BMW|i3 (2013)": 67
 , "other": 831
 });
 
@@ -1881,7 +1881,7 @@ db.insert(db.countries.AT, "2022-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 169
 , "Audi|Q4 e-tron": 126
 , "Renault|Zoe": 111
-, "BMW|i3 BEV": 109
+, "BMW|i3 (2013)": 109
 , "Škoda|Enyaq": 89
 , "Kia|Niro EV": 89
 , "Tesla|Model 3": 68
@@ -1932,7 +1932,7 @@ db.insert(db.countries.AT, "2022-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 315
 , "Škoda|Enyaq": 175
 , "Cupra|Born": 146
-, "BMW|i3 BEV": 145
+, "BMW|i3 (2013)": 145
 , "Audi|Q4 e-tron": 113
 , "Ford|Mustang Mach-E": 112
 , "Kia|EV6": 89
@@ -1983,7 +1983,7 @@ db.insert(db.countries.AT, "2022-04", db.dsTypes.ElectricCarsByModel, "https://w
 { "Cupra|Born": 144
 , "Škoda|Enyaq": 104
 , "Ford|Mustang Mach-E": 99
-, "BMW|i3 BEV": 98
+, "BMW|i3 (2013)": 98
 , "Kia|EV6": 93
 , "Renault|Zoe": 85
 , "Volkswagen|ID.3": 81
@@ -2040,7 +2040,7 @@ db.insert(db.countries.AT, "2022-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 81
 , "Polestar|2": 80
 , "Fiat|500e": 79
-, "BMW|i3 BEV": 77
+, "BMW|i3 (2013)": 77
 , "Kia|EV6": 76
 , "other": 960
 });
@@ -2193,7 +2193,7 @@ db.insert(db.countries.AT, "2022-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 114
 , "Ford|Mustang Mach-E": 83
 , "Fiat|500e": 75
-, "BMW|i3 BEV": 75
+, "BMW|i3 (2013)": 75
 , "Audi|Q4 e-tron": 74
 , "other": 1109
 });
@@ -2244,7 +2244,7 @@ db.insert(db.countries.AT, "2022-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.3": 88
 , "Volkswagen|ID.4": 83
 , "Audi|Q8 e-tron": 79
-, "BMW|i3 BEV": 67
+, "BMW|i3 (2013)": 67
 , "other": 831
 });
 

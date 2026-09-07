@@ -1293,7 +1293,7 @@ db.insert(db.countries.CN, "2022-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BAIC|EU-Series": 8840
 , "Volkswagen|ID.4": 8733
 , "Nio|ET5": 7594
-, "BMW|i3 G28 BEV": 6140
+, "BMW|i3 (2022)": 6140
 , "other": 231993
 });
 
@@ -1313,7 +1313,7 @@ db.insert(db.countries.CN, "2023-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "Aion|Y": 4792
 , "Changan|Lumin": 4711
 , "Changan|Benni EV": 4683
-, "BMW|i3 G28 BEV": 3624
+, "BMW|i3 (2022)": 3624
 , "Smart|Hashtag 1": 3170
 , "other": 107185
 });
@@ -1481,7 +1481,7 @@ db.insert(db.countries.CN, "2023-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 9043
 , "Volkswagen|ID.3": 7485
 , "Xpeng|G6": 7068
-, "BMW|i3 G28 BEV": 5290
+, "BMW|i3 (2022)": 5290
 , "BYD|Tang EV": 922
 , "other": 202331
 });
@@ -1535,7 +1535,7 @@ db.insert(db.countries.CN, "2023-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|G6": 8741
 , "Zeekr|001": 8517
 , "Volkswagen|ID.4": 7209
-, "BMW|i3 G28 BEV": 5763
+, "BMW|i3 (2022)": 5763
 , "BYD|Tang EV": 1638
 , "other": 221243
 });
@@ -1563,7 +1563,7 @@ db.insert(db.countries.CN, "2023-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Han EV": 7343
 , "Zeekr|001": 6751
 , "Volkswagen|ID.4": 6746
-, "BMW|i3 G28 BEV": 6141
+, "BMW|i3 (2022)": 6141
 , "other": 207641
 });
 
@@ -1727,7 +1727,7 @@ db.insert(db.countries.CN, "2024-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 8429
 , "BYD|Atto 2": 8392
 , "BYD|Qin EV": 8323
-, "BMW|i3 G28 BEV": 6952
+, "BMW|i3 (2022)": 6952
 , "Volkswagen|ID.4": 6854
 , "BYD|Han EV": 5957
 , "BYD|Song EV": 2794
