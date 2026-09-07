@@ -9713,7 +9713,7 @@ db.insert(db.countries.DE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|500e": 768
 , "Kia|EV3": 716
 , "Leapmotor|T03": 711
-, "Mercedes-Benz|GLB EQ": 646
+, "Mercedes-Benz|GLB Electric": 646
 , "Mercedes-Benz|EQA": 624
 , "Peugeot|e-2008": 533
 , "Hyundai|Kona Electric": 522
@@ -9825,7 +9825,7 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 1295
 , "BMW|iX3": 1291
 , "Tesla|Model 3": 1134
-, "Mercedes-Benz|GLB EQ": 1041
+, "Mercedes-Benz|GLB Electric": 1041
 , "Volkswagen|ID. Buzz": 1000
 , "BMW|i4": 983
 , "Citroën|ë-C3": 949
@@ -9854,7 +9854,7 @@ db.insert(db.countries.DE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX": 428
 , "Leapmotor|B10": 424
 , "BYD|Sealion 7": 403
-, "Mercedes-Benz|GLC EQ": 397
+, "Mercedes-Benz|GLC Electric": 397
 , "Peugeot|e-208": 394
 , "Nissan|Micra EV": 388
 , "Opel|Frontera Electric": 385
@@ -9949,7 +9949,7 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 1253
 , "Audi|Q6 e-tron": 1209
 , "Audi|A6 e-tron": 1131
-, "Mercedes-Benz|GLB EQ": 1070
+, "Mercedes-Benz|GLB Electric": 1070
 , "Fiat|500e": 1041
 , "Citroën|ë-C3": 1038
 , "Volkswagen|ID. Buzz": 1003
@@ -9960,7 +9960,7 @@ db.insert(db.countries.DE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV2": 684
 , "Mercedes-Benz|EQA": 673
 , "Opel|Corsa-e": 660
-, "Mercedes-Benz|GLC EQ": 604
+, "Mercedes-Benz|GLC Electric": 604
 , "Leapmotor|T03": 597
 , "Hyundai|Kona Electric": 572
 , "Smart|Hashtag 5": 540
@@ -10080,8 +10080,8 @@ db.insert(db.countries.DE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 1688
 , "Volkswagen|ID.4/ID.5": 1674
 , "Citroën|ë-C3": 1457
-, "Mercedes-Benz|GLB EQ": 1265
-, "Mercedes-Benz|GLC EQ": 1250
+, "Mercedes-Benz|GLB Electric": 1265
+, "Mercedes-Benz|GLC Electric": 1250
 , "Hyundai|Inster": 1187
 , "Ford|Explorer EV": 1172
 , "Volkswagen|ID. Buzz": 1077
@@ -10201,13 +10201,13 @@ db.insert(db.countries.DE, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 1648
 , "Citroën|ë-C3": 1625
 , "Leapmotor|T03": 1535
-, "Mercedes-Benz|GLC EQ": 1472
+, "Mercedes-Benz|GLC Electric": 1472
 , "BMW|i4": 1464
 , "Renault|Twingo E-Tech": 1295
 , "Hyundai|Inster": 1294
 , "MG|4 EV": 1212
 , "Kia|EV2": 1119
-, "Mercedes-Benz|GLB EQ": 1118
+, "Mercedes-Benz|GLB Electric": 1118
 , "Renault|5 E-Tech": 1066
 , "Cupra|Tavascan": 1059
 , "Volkswagen|ID. Buzz": 1042
@@ -10319,7 +10319,7 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 2449
 , "Volkswagen|ID.7": 2236
 , "Volkswagen|ID.4/ID.5": 2189
-, "Mercedes-Benz|GLC EQ": 2164
+, "Mercedes-Benz|GLC Electric": 2164
 , "Škoda|Enyaq": 2140
 , "Audi|A6 e-tron": 1749
 , "Mercedes-Benz|CLA EQ": 1749
@@ -10339,7 +10339,7 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Cupra|Born": 1005
 , "Ford|Puma Gen-E": 974
 , "Hyundai|Inster": 878
-, "Mercedes-Benz|GLB EQ": 875
+, "Mercedes-Benz|GLB Electric": 875
 , "BMW|i4": 851
 , "Opel|Grandland Electric": 842
 , "Audi|Q4 e-tron": 791

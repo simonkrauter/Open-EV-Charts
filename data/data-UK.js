@@ -5935,7 +5935,7 @@ db.insert(db.countries.UK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|C-HR+": 239
 , "Volvo|EX40": 233
 , "Hyundai|Inster": 226
-, "Mercedes-Benz|GLB EQ": 208
+, "Mercedes-Benz|GLB Electric": 208
 , "BMW|iX1": 206
 , "BMW|iX": 202
 , "Kia|EV2": 199
@@ -6176,7 +6176,7 @@ db.insert(db.countries.UK, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 614
 , "BMW|i4": 578
 , "Peugeot|E-5008": 544
-, "Mercedes-Benz|GLB EQ": 529
+, "Mercedes-Benz|GLB Electric": 529
 , "Kia|EV3": 511
 , "Hyundai|Inster": 484
 , "Toyota|C-HR+": 483
@@ -6307,7 +6307,7 @@ db.insert(db.countries.UK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|4 E-Tech": 381
 , "BMW|iX1": 372
 , "Hyundai|Inster": 369
-, "Mercedes-Benz|GLB EQ": 367
+, "Mercedes-Benz|GLB Electric": 367
 , "Kia|EV2": 360
 , "Toyota|C-HR+": 355
 , "Audi|Q4 e-tron": 353

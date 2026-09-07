@@ -4656,7 +4656,7 @@ db.insert(db.countries.DK, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Urban Cruiser Electric": 275
 , "Xpeng|G6": 263
 , "Polestar|4": 253
-, "Mercedes-Benz|GLB EQ": 249
+, "Mercedes-Benz|GLB Electric": 249
 , "Volvo|EX40": 238
 , "Mazda|EZ-6 BEV": 205
 , "Citroën|ë-C3": 196
@@ -4747,7 +4747,7 @@ db.insert(db.countries.DK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|e-208": 179
 , "Peugeot|e-2008": 158
 , "Hyundai|Kona Electric": 155
-, "Mercedes-Benz|GLB EQ": 143
+, "Mercedes-Benz|GLB Electric": 143
 , "Ford|E-Transit": 141
 , "MG|4 EV": 138
 , "Audi|A6 e-tron": 136
@@ -4825,7 +4825,7 @@ db.insert(db.countries.DK, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Cupra|Tavascan": 225
 , "Polestar|4": 210
 , "Zeekr|7X": 208
-, "Mercedes-Benz|GLB EQ": 199
+, "Mercedes-Benz|GLB Electric": 199
 , "Volkswagen|ID.7": 198
 , "Mazda|EZ-6 BEV": 176
 , "Citroën|ë-C3": 175
@@ -4896,7 +4896,7 @@ db.insert(db.countries.DK, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 418
 , "Cupra|Tavascan": 369
 , "BMW|iX1": 367
-, "Mercedes-Benz|GLB EQ": 316
+, "Mercedes-Benz|GLB Electric": 316
 , "Citroën|ë-C5": 308
 , "Volkswagen|ID.7": 307
 , "Renault|5 E-Tech": 299
@@ -4927,7 +4927,7 @@ db.insert(db.countries.DK, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|i4": 126
 , "Peugeot|e-208": 124
 , "Renault|Twingo E-Tech": 119
-, "Mercedes-Benz|GLC EQ": 118
+, "Mercedes-Benz|GLC Electric": 118
 , "Xpeng|G9": 117
 , "MG|S6 EV": 113
 , "Peugeot|e-2008": 112

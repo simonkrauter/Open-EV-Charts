@@ -7505,7 +7505,7 @@ db.insert(db.countries.FI, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Ford|Capri EV": 50
 , "BMW|iX3": 48
 , "Volvo|EC40": 45
-, "Mercedes-Benz|GLB EQ": 44
+, "Mercedes-Benz|GLB Electric": 44
 , "Cupra|Tavascan": 37
 , "Audi|A6 e-tron": 35
 , "Smart|Hashtag 5": 33
@@ -7608,14 +7608,14 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model Y": 76
 , "Volvo|EX30": 73
 , "Toyota|C-HR+": 72
-, "Mercedes-Benz|GLB EQ": 70
+, "Mercedes-Benz|GLB Electric": 70
 , "Kia|EV3": 60
 , "Hyundai|Inster": 54
 , "Audi|Q4 e-tron": 53
 , "Polestar|4": 52
 , "BMW|iX1": 49
 , "Audi|A6 e-tron": 46
-, "Mercedes-Benz|GLC EQ": 46
+, "Mercedes-Benz|GLC Electric": 46
 , "BYD|Sealion 7": 40
 , "BMW|iX3": 37
 , "Volvo|EC40": 37
@@ -7719,13 +7719,13 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volkswagen|ID.4": 128
 , "Smart|Hashtag 5": 119
 , "Volvo|EX40": 107
-, "Mercedes-Benz|GLB EQ": 85
+, "Mercedes-Benz|GLB Electric": 85
 , "BMW|i4": 83
 , "Audi|Q6 e-tron": 81
 , "Audi|Q4 e-tron": 79
 , "Polestar|4": 69
 , "Volvo|EX30": 68
-, "Mercedes-Benz|GLC EQ": 67
+, "Mercedes-Benz|GLC Electric": 67
 , "Kia|EV3": 62
 , "Volkswagen|ID.7": 50
 , "Ford|Explorer EV": 46
@@ -7835,12 +7835,12 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|Q6 e-tron": 130
 , "Polestar|4": 117
 , "Škoda|Enyaq": 112
-, "Mercedes-Benz|GLC EQ": 92
+, "Mercedes-Benz|GLC Electric": 92
 , "Toyota|C-HR+": 86
 , "Volvo|EX40": 82
 , "Volvo|EX30": 76
 , "Kia|EV3": 70
-, "Mercedes-Benz|GLB EQ": 68
+, "Mercedes-Benz|GLB Electric": 68
 , "Volkswagen|ID.4": 67
 , "Kia|PV5": 57
 , "Polestar|2": 56
@@ -7952,9 +7952,9 @@ db.insert(db.countries.FI, "2026-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX30": 80
 , "Kia|EV3": 79
 , "Volvo|EX40": 71
-, "Mercedes-Benz|GLC EQ": 66
+, "Mercedes-Benz|GLC Electric": 66
 , "Kia|PV5": 64
-, "Mercedes-Benz|GLB EQ": 59
+, "Mercedes-Benz|GLB Electric": 59
 , "BMW|iX1": 53
 , "Polestar|4": 52
 , "Audi|Q4 e-tron": 48

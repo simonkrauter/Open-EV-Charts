@@ -8863,7 +8863,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 110
 , "BMW|iX1": 104
 , "BYD|Dolphin": 100
-, "Mercedes-Benz|GLC EQ": 100
+, "Mercedes-Benz|GLC Electric": 100
 , "Leapmotor|B10": 98
 , "Tesla|Model 3": 97
 , "Toyota|bZ4X": 97
@@ -8876,7 +8876,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Omoda Jaecoo|Omoda E5": 78
 , "Peugeot|e-2008": 77
 , "Kia|PV5": 74
-, "Mercedes-Benz|GLB EQ": 71
+, "Mercedes-Benz|GLB Electric": 71
 , "Cupra|Born": 70
 , "Mercedes-Benz|EQE": 65
 , "Renault|4 E-Tech": 65
@@ -8997,7 +8997,7 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX2": 89
 , "Ford|Puma Gen-E": 89
 , "BYD|Song Plus": 88
-, "Mercedes-Benz|GLB EQ": 88
+, "Mercedes-Benz|GLB Electric": 88
 , "Peugeot|e-208": 88
 , "Omoda Jaecoo|Jaecoo E5": 82
 , "Hyundai|Ioniq 5": 79
@@ -9007,7 +9007,7 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Frontera Electric": 70
 , "Jeep|Avenger EV": 69
 , "Porsche|Macan Electric": 69
-, "Mercedes-Benz|GLC EQ": 68
+, "Mercedes-Benz|GLC Electric": 68
 , "Mazda|EZ-6 BEV": 65
 , "Dacia|Spring": 64
 , "Kia|PV5": 62
@@ -9123,9 +9123,9 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Song Plus": 119
 , "Opel|Frontera Electric": 111
 , "Ford|Puma Gen-E": 110
-, "Mercedes-Benz|GLB EQ": 109
+, "Mercedes-Benz|GLB Electric": 109
 , "Volkswagen|ID.3": 104
-, "Mercedes-Benz|GLC EQ": 98
+, "Mercedes-Benz|GLC Electric": 98
 , "Polestar|4": 96
 , "Toyota|bZ4X": 95
 , "Volkswagen|ID. Buzz": 95
@@ -9239,7 +9239,7 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Xpeng|G6": 217
 , "Volkswagen|ID.3": 193
 , "Volvo|EX30": 193
-, "Mercedes-Benz|GLC EQ": 192
+, "Mercedes-Benz|GLC Electric": 192
 , "Leapmotor|T03": 168
 , "Renault|Twingo E-Tech": 168
 , "BMW|iX1": 159
@@ -9249,7 +9249,7 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX3": 137
 , "MG|S5 EV": 135
 , "BYD|Sealion 7": 134
-, "Mercedes-Benz|GLB EQ": 131
+, "Mercedes-Benz|GLB Electric": 131
 , "Volkswagen|ID. Buzz": 130
 , "BMW|iX2": 128
 , "Opel|Frontera Electric": 128

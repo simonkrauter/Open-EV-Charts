@@ -2116,7 +2116,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Inster": 122
 , "Leapmotor|B10": 116
 , "BMW|iX2": 112
-, "Mercedes-Benz|GLB EQ": 110
+, "Mercedes-Benz|GLB Electric": 110
 , "Polestar|4": 109
 , "Mercedes-Benz|EQA": 107
 , "Omoda Jaecoo|Omoda E5": 91
@@ -2191,7 +2191,7 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Kona Electric": 136
 , "Omoda Jaecoo|Omoda E5": 125
 , "Volkswagen|ID.5": 111
-, "Mercedes-Benz|GLB EQ": 101
+, "Mercedes-Benz|GLB Electric": 101
 , "Cupra|Tavascan": 100
 , "Hyundai|Inster": 100
 , "Leapmotor|C10 EV": 93
@@ -2282,7 +2282,7 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Tavascan": 45
 , "Škoda|Elroq": 45
 , "Nissan|Ariya": 43
-, "Mercedes-Benz|GLB EQ": 40
+, "Mercedes-Benz|GLB Electric": 40
 , "Hyundai|Ioniq 5": 37
 , "Mini|Cooper SE": 28
 , "Volvo|ES90": 27
@@ -2363,7 +2363,7 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Leapmotor|C10 EV": 24
 , "Xpeng|G6": 24
 , "Renault|Scénic E-Tech": 22
-, "Mercedes-Benz|GLB EQ": 20
+, "Mercedes-Benz|GLB Electric": 20
 , "Volvo|other": 34
 , "Kia|other": 26
 , "Hyundai|other": 17

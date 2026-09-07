@@ -7697,10 +7697,10 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "BYD|Dolphin": 92
 , "Fiat|500e": 87
 , "BYD|Atto 2": 86
-, "Mercedes-Benz|GLC EQ": 81
+, "Mercedes-Benz|GLC Electric": 81
 , "Dongfeng|Box": 77
 , "Porsche|Macan Electric": 72
-, "Mercedes-Benz|GLB EQ": 69
+, "Mercedes-Benz|GLB Electric": 69
 , "Škoda|Enyaq": 69
 , "Renault|4 E-Tech": 68
 , "Jeep|Compass Electric": 55
@@ -7824,8 +7824,8 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Leapmotor|B05": 53
 , "Deepal|S07": 52
 , "Citroën|ë-C3 Aircross": 49
-, "Mercedes-Benz|GLC EQ": 47
-, "Mercedes-Benz|GLB EQ": 46
+, "Mercedes-Benz|GLC Electric": 47
+, "Mercedes-Benz|GLB Electric": 46
 , "Polestar|4": 45
 , "MG|S5 EV": 41
 , "BMW|iX": 39
@@ -7936,7 +7936,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 92
 , "Jeep|Avenger EV": 85
 , "BMW|i5": 84
-, "Mercedes-Benz|GLB EQ": 83
+, "Mercedes-Benz|GLB Electric": 83
 , "BYD|Atto 3": 82
 , "Polestar|4": 80
 , "Toyota|bZ4X": 69

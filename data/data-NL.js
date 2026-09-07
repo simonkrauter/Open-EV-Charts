@@ -9417,7 +9417,7 @@ db.insert(db.countries.NL, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Leapmotor|T03": 83
 , "Toyota|bZ4X": 80
 , "Fiat|Grande Panda Electric": 77
-, "Mercedes-Benz|GLB EQ": 75
+, "Mercedes-Benz|GLB Electric": 75
 , "Zeekr|7X": 75
 , "Peugeot|E-5008": 72
 , "Ford|Puma Gen-E": 70
@@ -9674,7 +9674,7 @@ db.insert(db.countries.NL, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Omoda Jaecoo|Jaecoo E5": 64
 , "Peugeot|e-208": 64
 , "Hyundai|Ioniq 6": 62
-, "Mercedes-Benz|GLB EQ": 60
+, "Mercedes-Benz|GLB Electric": 60
 , "Polestar|4": 60
 , "Volkswagen|ID. Buzz": 60
 , "BYD|other": 204
@@ -9792,7 +9792,7 @@ db.insert(db.countries.NL, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Dacia|Spring": 121
 , "BMW|i5": 119
 , "Jeep|Avenger EV": 119
-, "Mercedes-Benz|GLB EQ": 112
+, "Mercedes-Benz|GLB Electric": 112
 , "Peugeot|e-2008": 110
 , "BYD|Seal": 101
 , "BMW|i4": 99

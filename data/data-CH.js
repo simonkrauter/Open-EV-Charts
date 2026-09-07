@@ -8449,7 +8449,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|7X": 56
 , "BMW|iX": 53
 , "Volkswagen|ID.4": 52
-, "Mercedes-Benz|GLB EQ": 51
+, "Mercedes-Benz|GLB Electric": 51
 , "Smart|Hashtag 5": 50
 , "Polestar|2": 49
 , "Volkswagen|ID.7": 45
@@ -8562,13 +8562,13 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 93
 , "Audi|Q6 e-tron": 90
 , "Volvo|EX40": 78
-, "Mercedes-Benz|GLC EQ": 74
+, "Mercedes-Benz|GLC Electric": 74
 , "Zeekr|7X": 71
 , "Toyota|C-HR+": 67
 , "Mercedes-Benz|EQA": 64
 , "Hyundai|Inster": 60
 , "Cupra|Born": 52
-, "Mercedes-Benz|GLB EQ": 51
+, "Mercedes-Benz|GLB Electric": 51
 , "Kia|EV3": 50
 , "Volkswagen|ID.7": 49
 , "Cupra|Tavascan": 48
@@ -8694,7 +8694,7 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|CLA EQ": 83
 , "Audi|Q6 e-tron": 80
 , "Smart|Hashtag 5": 77
-, "Mercedes-Benz|GLB EQ": 73
+, "Mercedes-Benz|GLB Electric": 73
 , "Cupra|Tavascan": 69
 , "Hyundai|Ioniq 5": 61
 , "Volvo|EX40": 59
@@ -8704,7 +8704,7 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|Urban Cruiser Electric": 53
 , "Cupra|Born": 51
 , "Kia|EV4": 50
-, "Mercedes-Benz|GLC EQ": 49
+, "Mercedes-Benz|GLC Electric": 49
 , "Porsche|Macan Electric": 48
 , "Volkswagen|ID.4": 48
 , "Kia|EV3": 44
@@ -8811,7 +8811,7 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Sealion 7": 97
 , "Polestar|4": 96
 , "Renault|Twingo E-Tech": 95
-, "Mercedes-Benz|GLB EQ": 88
+, "Mercedes-Benz|GLB Electric": 88
 , "Toyota|bZ4X": 88
 , "Audi|Q6 e-tron": 85
 , "Mercedes-Benz|CLA EQ": 85
@@ -8820,7 +8820,7 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|7X": 80
 , "Hyundai|Inster": 79
 , "Cupra|Tavascan": 73
-, "Mercedes-Benz|GLC EQ": 71
+, "Mercedes-Benz|GLC Electric": 71
 , "Renault|4 E-Tech": 66
 , "BYD|Atto 3": 63
 , "Leapmotor|B10": 61

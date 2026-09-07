@@ -7468,7 +7468,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Uncharted": 81
 , "MG|S6 EV": 78
 , "Peugeot|e-2008": 78
-, "Mercedes-Benz|GLC EQ": 71
+, "Mercedes-Benz|GLC Electric": 71
 , "Opel|Grandland Electric": 62
 , "BMW|i4": 57
 , "MG|S5 EV": 56
@@ -7570,13 +7570,13 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Peugeot|E-5008": 105
 , "Volvo|EX90": 103
 , "Peugeot|E-3008": 101
-, "Mercedes-Benz|GLC EQ": 99
+, "Mercedes-Benz|GLC Electric": 99
 , "MG|S5 EV": 90
 , "Hyundai|Kona Electric": 83
 , "Nissan|Ariya": 82
 , "Nissan|Micra EV": 81
 , "BMW|i4": 74
-, "Mercedes-Benz|GLB EQ": 68
+, "Mercedes-Benz|GLB Electric": 68
 , "Subaru|Uncharted": 67
 , "Citroën|ë-C3": 63
 , "Hyundai|Inster": 63
@@ -7660,7 +7660,7 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.7": 285
 , "Škoda|Enyaq": 283
 , "BYD|Sealion 7": 280
-, "Mercedes-Benz|GLC EQ": 252
+, "Mercedes-Benz|GLC Electric": 252
 , "Hyundai|Kona Electric": 246
 , "MG|4 EV": 240
 , "BYD|Atto 3": 230
@@ -7675,7 +7675,7 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|S6 EV": 143
 , "Polestar|2": 141
 , "Ford|Explorer EV": 134
-, "Mercedes-Benz|GLB EQ": 117
+, "Mercedes-Benz|GLB Electric": 117
 , "Zeekr|7X": 117
 , "Mazda|EZ-6 BEV": 116
 , "MG|S5 EV": 114

@@ -8090,7 +8090,7 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Explorer EV": 116
 , "Audi|Q6 e-tron": 111
 , "Toyota|C-HR+": 106
-, "Mercedes-Benz|GLB EQ": 103
+, "Mercedes-Benz|GLB Electric": 103
 , "Renault|Scénic E-Tech": 95
 , "Polestar|2": 90
 , "Cupra|Born": 87
@@ -8188,7 +8188,7 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volvo|EC40": 237
 , "Kia|EV9": 208
 , "Mercedes-Benz|CLA EQ": 196
-, "Mercedes-Benz|GLB EQ": 187
+, "Mercedes-Benz|GLB Electric": 187
 , "Toyota|bZ4X": 177
 , "Kia|EV5": 171
 , "Zeekr|7X": 171
@@ -8214,7 +8214,7 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|Explorer EV": 66
 , "MG|4 EV": 66
 , "Xpeng|G6": 66
-, "Mercedes-Benz|GLC EQ": 55
+, "Mercedes-Benz|GLC Electric": 55
 , "Porsche|Macan Electric": 52
 , "BMW|iX": 47
 , "Volvo|ES90": 45
@@ -8309,7 +8309,7 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Kia|EV9": 200
 , "Mercedes-Benz|CLA EQ": 200
 , "Tesla|Model 3": 185
-, "Mercedes-Benz|GLB EQ": 184
+, "Mercedes-Benz|GLB Electric": 184
 , "Škoda|Elroq": 167
 , "Polestar|2": 159
 , "Renault|5 E-Tech": 155
@@ -8320,7 +8320,7 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Zeekr|7X": 101
 , "Volkswagen|ID.3": 100
 , "Subaru|Uncharted": 99
-, "Mercedes-Benz|GLC EQ": 97
+, "Mercedes-Benz|GLC Electric": 97
 , "Audi|Q6 e-tron": 95
 , "BMW|i4": 82
 , "Mini|Cooper SE": 78
@@ -8427,11 +8427,11 @@ db.insert(db.countries.SE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://m
 , "Volvo|EX60": 199
 , "Zeekr|7X": 184
 , "Renault|5 E-Tech": 170
-, "Mercedes-Benz|GLC EQ": 165
+, "Mercedes-Benz|GLC Electric": 165
 , "Audi|A6 e-tron": 163
 , "Kia|EV6": 161
 , "Tesla|Model 3": 150
-, "Mercedes-Benz|GLB EQ": 142
+, "Mercedes-Benz|GLB Electric": 142
 , "Toyota|C-HR+": 138
 , "Audi|Q6 e-tron": 137
 , "Renault|Scénic E-Tech": 132
