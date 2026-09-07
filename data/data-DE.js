@@ -10319,7 +10319,7 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 2449
 , "Volkswagen|ID.7": 2236
 , "Volkswagen|ID.4/ID.5": 2189
-, "Mercedes-Benz|GLC Electric": 2164
+, "Mercedes-Benz|GLC Electric": 2176
 , "Škoda|Enyaq": 2140
 , "Audi|A6 e-tron": 1749
 , "Mercedes-Benz|CLA EQ": 1749
@@ -10373,8 +10373,8 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 655
 , "Volvo|other": 623
 , "Porsche|other": 618
-, "Mercedes-Benz|other": 575
 , "MG|other": 569
+, "Mercedes-Benz|other": 563
 , "Xpeng|other": 557
 , "Opel|other": 530
 , "Smart|other": 491
