@@ -1197,7 +1197,7 @@ db.insert(db.countries.AU, "2025-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQE SUV": 219
 , "Mini|Cooper SE": 219
 , "BYD|Seal": 194
-, "Geely|Galaxy E5": 188
+, "Geely|EX5 BEV": 188
 , "Kia|EV3": 186
 , "Volvo|EX30": 174
 , "BMW|iX1": 156
@@ -1271,7 +1271,7 @@ db.insert(db.countries.AU, "2025-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|EV5": 342
 , "Kia|EV3": 336
 , "BYD|Seal": 325
-, "Geely|Galaxy E5": 324
+, "Geely|EX5 BEV": 324
 , "Tesla|Model Y": 280
 , "MG|ZS EV": 227
 , "Tesla|Model 3": 220
@@ -1343,7 +1343,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/06/04/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "Tesla|Model Y": 3580
 , "Kia|EV5": 703
-, "Geely|Galaxy E5": 511
+, "Geely|EX5 BEV": 511
 , "BYD|Sealion 7": 488
 , "BYD|Seal": 355
 , "BYD|Dolphin": 345
@@ -1417,7 +1417,7 @@ db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 { "Tesla|Model Y": 3457
 , "BYD|Sealion 7": 1795
 , "Tesla|Model 3": 1132
-, "Geely|Galaxy E5": 822
+, "Geely|EX5 BEV": 822
 , "BYD|Seal": 627
 , "BYD|Atto 3": 576
 , "BYD|Dolphin": 561
@@ -1483,7 +1483,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/08/05/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "BYD|Sealion 7": 1427
 , "Tesla|Model Y": 555
-, "Geely|Galaxy E5": 490
+, "Geely|EX5 BEV": 490
 , "Kia|EV5": 462
 , "Tesla|Model 3": 362
 , "BYD|Atto 3": 276
@@ -1561,7 +1561,7 @@ db.insert(db.countries.AU, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Tesla|Model 3": 603
 , "BYD|Atto 3": 594
 , "BYD|Dolphin": 434
-, "Geely|Galaxy E5": 401
+, "Geely|EX5 BEV": 401
 , "Kia|EV5": 367
 , "Kia|EV3": 295
 , "MG|S5 EV": 284
@@ -1636,7 +1636,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|S5 EV": 386
 , "Kia|EV5": 307
 , "BYD|Atto 3": 288
-, "Geely|Galaxy E5": 279
+, "Geely|EX5 BEV": 279
 , "Kia|EV3": 241
 , "Volkswagen|ID.4": 177
 , "Polestar|4": 151
@@ -1700,7 +1700,7 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2025/11/18/australian-electric-vehicle-sales-by-month-and-by-model-in-2025-2/",
 { "BYD|Sealion 7": 1341
 , "Tesla|Model Y": 735
-, "Geely|Galaxy E5": 343
+, "Geely|EX5 BEV": 343
 , "Kia|EV5": 340
 , "BYD|Atto 3": 318
 , "BYD|Dolphin": 311
@@ -1783,7 +1783,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Sealion 7": 1040
 , "Zeekr|7X": 682
 , "Tesla|Model 3": 433
-, "Geely|Galaxy E5": 412
+, "Geely|EX5 BEV": 412
 , "BYD|Atto 2": 365
 , "Kia|EV5": 300
 , "BYD|Atto 3": 261
@@ -1870,7 +1870,7 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|bZ4X": 183
 , "Kia|EV3": 181
 , "Xpeng|G6": 175
-, "Geely|Galaxy E5": 174
+, "Geely|EX5 BEV": 174
 , "MG|S5 EV": 169
 , "Volkswagen|ID.4": 141
 , "Volkswagen|ID. Buzz": 116
@@ -1935,7 +1935,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 { "BYD|Sealion 7": 1171
 , "BYD|Atto 2": 562
 , "Zeekr|7X": 418
-, "Geely|Galaxy E5": 415
+, "Geely|EX5 BEV": 415
 , "BYD|Seal": 295
 , "Tesla|Model Y": 288
 , "Kia|EV5": 281
@@ -2015,7 +2015,7 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Sealion 7": 1327
 , "Zeekr|7X": 628
 , "Tesla|Model 3": 483
-, "Geely|Galaxy E5": 416
+, "Geely|EX5 BEV": 416
 , "MG|4 EV": 406
 , "BYD|Atto 3": 384
 , "Omoda Jaecoo|Jaecoo E5": 369
@@ -2093,7 +2093,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "BYD|Sealion 7": 1970
 , "Zeekr|7X": 679
 , "Tesla|Model 3": 667
-, "Geely|Galaxy E5": 606
+, "Geely|EX5 BEV": 606
 , "Kia|EV5": 587
 , "BYD|Atto 2": 572
 , "Omoda Jaecoo|Jaecoo E5": 569
@@ -2165,7 +2165,7 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.dr
 
 db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/05/05/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand/",
 { "BYD|Sealion 7": 1780
-, "Geely|Galaxy E5": 1202
+, "Geely|EX5 BEV": 1202
 , "Zeekr|7X": 973
 , "Tesla|Model Y": 822
 , "Kia|EV5": 794
@@ -2240,7 +2240,7 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/07/08/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
 { "Tesla|Model Y": 5605
 , "Omoda Jaecoo|Jaecoo E5": 2172
-, "Geely|Galaxy E5": 1814
+, "Geely|EX5 BEV": 1814
 , "BYD|Sealion 7": 1538
 , "Zeekr|7X": 966
 , "Tesla|Model 3": 828
@@ -2317,7 +2317,7 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 { "Tesla|Model Y": 8072
 , "BYD|Sealion 7": 4730
 , "BYD|Atto 2": 2482
-, "Geely|Galaxy E5": 2303
+, "Geely|EX5 BEV": 2303
 , "Omoda Jaecoo|Jaecoo E5": 1959
 , "Zeekr|7X": 1868
 , "MG|4 EV": 1134
@@ -2391,7 +2391,7 @@ db.insert(db.countries.AU, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.dr
 db.insert(db.countries.AU, "2026-07", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/08/05/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
 { "Tesla|Model Y": 4644
 , "BYD|Sealion 7": 2548
-, "Geely|Galaxy E5": 2034
+, "Geely|EX5 BEV": 2034
 , "Zeekr|7X": 1892
 , "Omoda Jaecoo|Jaecoo E5": 1262
 , "BYD|Atto 2": 1214

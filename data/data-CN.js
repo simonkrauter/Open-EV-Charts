@@ -1773,7 +1773,7 @@ db.insert(db.countries.CN, "2024-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Changan|Lumin": 15701
 , "Aion|Y": 15166
 , "BYD|Song EV": 15032
-, "Geely|Galaxy E5": 12227
+, "Geely|EX5 BEV": 12227
 , "Geely|Panda Mini EV": 11122
 , "Volkswagen|ID.3": 9468
 , "BYD|Han EV": 5303
@@ -1795,7 +1795,7 @@ db.insert(db.countries.CN, "2024-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Atto 2": 16018
 , "BYD|Dolphin": 15290
 , "Aion|Y": 14612
-, "Geely|Galaxy E5": 14250
+, "Geely|EX5 BEV": 14250
 , "Changan|Lumin": 12284
 , "BYD|Qin EV": 12213
 , "Xpeng|Mona M03": 10023
@@ -1847,7 +1847,7 @@ db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 9236
 , "BYD|Han EV": 9013
 , "BYD|Qin EV": 8235
-, "Geely|Galaxy E5": 18962
+, "Geely|EX5 BEV": 18962
 , "BYD|Dolphin": 16680
 , "Xpeng|Mona M03": 11960
 , "Zeekr|7X": 11112
@@ -1888,7 +1888,7 @@ db.insert(db.countries.CN, "2025-01", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seagull": 18171
 , "Geely|Panda Mini EV": 15932
 , "Xpeng|Mona M03": 15225
-, "Geely|Galaxy E5": 12880
+, "Geely|EX5 BEV": 12880
 , "Wuling|Bingo": 12130
 , "BYD|Song EV": 6379
 , "other": 237941
@@ -1910,7 +1910,7 @@ db.insert(db.countries.CN, "2025-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Atto 2": 10490
 , "Wuling|Bingo": 10163
 , "Changan|Lumin": 9970
-, "Geely|Galaxy E5": 8016
+, "Geely|EX5 BEV": 8016
 , "BYD|Qin EV": 6978
 , "BYD|Song EV": 5690
 , "BYD|Han EV": 3320
@@ -2027,7 +2027,7 @@ db.insert(db.countries.CN, "2025-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Atto 2": 12451
 , "Wuling|Bingo": 11886
 , "BYD|Atto 3": 11739
-, "Geely|Galaxy E5": 11470
+, "Geely|EX5 BEV": 11470
 , "BYD|Song EV": 8920
 , "BYD|Sealion 05 EV": 8452
 , "BYD|Qin EV": 8307

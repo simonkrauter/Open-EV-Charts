@@ -5302,7 +5302,7 @@ db.insert(db.countries.UK, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 293
 , "Volkswagen|e-Transporter": 288
 , "Porsche|Macan Electric": 283
-, "Geely|Galaxy E5": 254
+, "Geely|EX5 BEV": 254
 , "BYD|Atto 3": 250
 , "Peugeot|E-5008": 244
 , "Nissan|Ariya": 241
@@ -5921,7 +5921,7 @@ db.insert(db.countries.UK, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 437
 , "Kia|EV4": 402
 , "Peugeot|E-5008": 387
-, "Geely|Galaxy E5": 327
+, "Geely|EX5 BEV": 327
 , "Polestar|2": 312
 , "Tesla|Model Y": 311
 , "MG|S5 EV": 302
@@ -6060,7 +6060,7 @@ db.insert(db.countries.UK, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX": 210
 , "Volvo|EX40": 208
 , "Volkswagen|e-Transporter": 203
-, "Geely|Galaxy E5": 198
+, "Geely|EX5 BEV": 198
 , "MG|S6 EV": 198
 , "BMW|i5": 193
 , "Renault|Scénic E-Tech": 193
@@ -6182,7 +6182,7 @@ db.insert(db.countries.UK, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|C-HR+": 483
 , "Hyundai|Kona Electric": 480
 , "Citroën|ë-C3": 475
-, "Geely|Galaxy E5": 469
+, "Geely|EX5 BEV": 469
 , "BYD|Seagull": 467
 , "BMW|iX3": 438
 , "BMW|iX1": 426
@@ -6289,7 +6289,7 @@ db.insert(db.countries.UK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "BYD|Seal": 679
 , "Mercedes-Benz|CLA EQ": 675
 , "Volkswagen|ID.4": 665
-, "Geely|Galaxy E5": 642
+, "Geely|EX5 BEV": 642
 , "Ford|Puma Gen-E": 611
 , "Leapmotor|B10": 601
 , "Audi|Q6 e-tron": 579

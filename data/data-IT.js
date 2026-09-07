@@ -6758,7 +6758,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://u
 , "Polestar|4": 15
 , "BMW|i5": 14
 , "Ford|Capri EV": 14
-, "Geely|Galaxy E5": 14
+, "Geely|EX5 BEV": 14
 , "Porsche|Taycan": 14
 , "BYD|Atto 2": 13
 , "Renault|Scénic E-Tech": 13
@@ -7948,7 +7948,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX2": 60
 , "Xpeng|G6": 60
 , "Renault|4 E-Tech": 58
-, "Geely|Galaxy E5": 56
+, "Geely|EX5 BEV": 56
 , "Jeep|Compass Electric": 56
 , "Peugeot|other": 125
 , "BYD|other": 76
@@ -8038,7 +8038,7 @@ db.insert(db.countries.IT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-C3": 115
 , "Peugeot|e-208": 114
 , "Audi|Q6 e-tron": 100
-, "Geely|Galaxy E5": 99
+, "Geely|EX5 BEV": 99
 , "Porsche|Macan Electric": 97
 , "Tesla|Model Y": 96
 , "Fiat|Grande Panda Electric": 95

@@ -9264,7 +9264,7 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Hyundai|Kona Electric": 100
 , "Nissan|Micra EV": 99
 , "Leapmotor|B05": 91
-, "Geely|Galaxy E5": 86
+, "Geely|EX5 BEV": 86
 , "Nissan|Leaf": 86
 , "Kia|PV5": 85
 , "Ford|Explorer EV": 83
