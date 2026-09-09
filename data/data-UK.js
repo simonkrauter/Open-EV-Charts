@@ -6357,5 +6357,5 @@ db.insert(db.countries.UK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mazda|other": 114
 , "Aion|other": 111
 , "Suzuki|other": 105
-, "other": 2009
+, "other": 3570
 });
