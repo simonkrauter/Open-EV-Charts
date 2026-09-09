@@ -6646,6 +6646,7 @@ db.insert(db.countries.FR, "2026-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Cupra": 1466
 , "Seat": 1198
 , "Suzuki": 1065
+, "Omoda Jaecoo": 901
 , "Jeep": 865
 , "Volvo": 838
 , "Mazda": 743
@@ -6657,7 +6658,7 @@ db.insert(db.countries.FR, "2026-05", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Geely": 111
 , "Smart": 102
 , "Mitsubishi": 74
-, "other": 3524
+, "other": 2623
 });
 
 db.insert(db.countries.FR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/06/Immatriculations-mensuelles-par-energie_Mai2026-1.pdf, https://www.avere-france.org/wp-content/uploads/2026/06/barometre-avere-colombus-mai-2026-4.pdf",
@@ -6697,6 +6698,7 @@ db.insert(db.countries.FR, "2026-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Nissan": 2570
 , "Cupra": 2493
 , "Suzuki": 2117
+, "Omoda Jaecoo": 1987
 , "Seat": 1364
 , "Volvo": 1346
 , "Mazda": 1042
@@ -6710,7 +6712,7 @@ db.insert(db.countries.FR, "2026-06", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "Mitsubishi": 82
 , "Geely": 80
 , "Lynk & Co": 45
-, "other": 9043
+, "other": 7056
 });
 
 db.insert(db.countries.FR, "2026-06", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/07/Immatriculations-mensuelles-par-energie-Juin-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/07/barometre-avere-colombus-juin-2026-1.pdf",
