@@ -1457,6 +1457,7 @@ db.insert(db.countries.BR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|other": 762
 , "Chevrolet|other": 396
 , "Volvo|other": 390
+, "Aion|other": 220
 , "Geely|other": 213
 , "MG|other": 103
 , "Renault|other": 90
@@ -1466,7 +1467,7 @@ db.insert(db.countries.BR, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 37
 , "Mini|other": 37
 , "Leapmotor|other": 34
-, "other": 334
+, "other": 114
 });
 
 db.insert(db.countries.BR, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_02_02.pdf",
@@ -1501,6 +1502,7 @@ db.insert(db.countries.BR, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|other": 443
 , "Geely|other": 422
 , "Volvo|other": 183
+, "Aion|other": 158
 , "MG|other": 114
 , "Omoda Jaecoo|other": 62
 , "Zeekr|other": 61
@@ -1510,7 +1512,7 @@ db.insert(db.countries.BR, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 29
 , "Leapmotor|other": 20
 , "Porsche|other": 16
-, "other": 195
+, "other": 37
 });
 
 db.insert(db.countries.BR, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_03_02.pdf",
@@ -1548,6 +1550,7 @@ db.insert(db.countries.BR, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 441
 , "MG|other": 300
 , "Geely|other": 218
+, "Aion|other": 208
 , "Zeekr|other": 79
 , "Omoda Jaecoo|other": 68
 , "Renault|other": 68
@@ -1555,7 +1558,7 @@ db.insert(db.countries.BR, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|other": 50
 , "BMW|other": 31
 , "Porsche|other": 22
-, "other": 299
+, "other": 91
 });
 
 db.insert(db.countries.BR, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_04_02.pdf",
@@ -1590,6 +1593,7 @@ db.insert(db.countries.BR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Spark EUV": 1047
 , "BYD|other": 523
 , "Volvo|other": 419
+, "Aion|other": 360
 , "Leapmotor|other": 274
 , "MG|other": 235
 , "Chevrolet|other": 200
@@ -1601,7 +1605,7 @@ db.insert(db.countries.BR, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 22
 , "Ford|other": 19
 , "Renault|other": 16
-, "other": 395
+, "other": 35
 });
 
 db.insert(db.countries.BR, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_05_02.pdf",
@@ -1634,17 +1638,18 @@ db.insert(db.countries.BR, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|Spark EUV": 1054
 , "GWM|Ora 03": 490
 , "Leapmotor|C10 EV": 213
-, "Geely|other": 246
-, "Chevrolet|other": 68
 , "BYD|other": 704
 , "Volvo|other": 347
+, "Geely|other": 246
 , "Leapmotor|other": 263
 , "MG|other": 187
+, "Aion|other": 185
 , "Omoda Jaecoo|other": 81
+, "Chevrolet|other": 68
 , "Zeekr|other": 49
 , "Mini|other": 39
 , "BMW|other": 27
-, "other": 249
+, "other": 64
 });
 
 db.insert(db.countries.BR, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_06_02.pdf",
@@ -1674,6 +1679,7 @@ db.insert(db.countries.BR, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Dolphin": 5512
 , "Geely|EX2": 4383
 , "GWM|Ora 03": 383
+, "Aion|other": 1058
 , "Chevrolet|other": 871
 , "BYD|other": 730
 , "Leapmotor|other": 512
@@ -1685,7 +1691,7 @@ db.insert(db.countries.BR, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|other": 26
 , "Renault|other": 19
 , "Toyota|other": 19
-, "other": 1178
+, "other": 120
 });
 
 db.insert(db.countries.BR, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_07_02.pdf",
@@ -1714,11 +1720,13 @@ db.insert(db.countries.BR, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 { "BYD|Seagull": 7265
 , "BYD|Dolphin": 6492
 , "Geely|EX2": 5898
+, "Aion|UT": 1064
 , "GWM|other": 1035
 , "BYD|other": 1002
 , "Chevrolet|other": 592
 , "Leapmotor|other": 552
 , "MG|other": 499
+, "Aion|other": 352
 , "Geely|other": 324
 , "Volvo|other": 300
 , "Zeekr|other": 69
@@ -1726,5 +1734,5 @@ db.insert(db.countries.BR, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|other": 26
 , "Porsche|other": 24
 , "Suzuki|other": 22
-, "other": 1568
+, "other": 152
 });
