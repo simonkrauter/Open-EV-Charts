@@ -2413,6 +2413,7 @@ db.insert(db.countries.AU, "2026-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "MG|S6 EV": 216
 , "Zeekr|X": 211
 , "MG|S5 EV": 168
+, "Aion|UT": 148
 , "Kia|PV5": 135
 , "Tesla|Model 3": 134
 , "Subaru|Uncharted": 100
@@ -2438,13 +2439,12 @@ db.insert(db.countries.AU, "2026-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Tavascan": 35
 , "Leapmotor|C10 EV": 33
 , "Xpeng|G6": 33
-, "Kia|EV4": 31
-, "Kia|other": 37
+, "Kia|other": 68
 , "Renault|other": 30
 , "Volvo|other": 26
 , "Nissan|other": 17
 , "Mercedes-Benz|other": 15
 , "Ford|other": 14
 , "Zeekr|other": 12
-, "other": 1206
+, "other": 1058
 });
