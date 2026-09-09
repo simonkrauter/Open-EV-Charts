@@ -9168,10 +9168,10 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Toyota|other": 19
 , "Volkswagen|other": 19
 , "Hyundai|other": 16
-, "Aion|other": 13
+, "Aion|other": 15
 , "Zeekr|other": 13
 , "Mercedes-Benz|other": 12
-, "other": 333
+, "other": 331
 });
 
 db.insert(db.countries.ES, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
@@ -9296,11 +9296,11 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Zeekr|other": 38
 , "Jeep|other": 30
 , "Dacia|other": 27
+, "Aion|other": 24
 , "Nissan|other": 17
 , "Dongfeng|other": 14
-, "Aion|other": 13
 , "Toyota|other": 12
 , "BYD|other": 7
 , "MG|other": 7
-, "other": 333
+, "other": 322
 });
