@@ -1149,13 +1149,14 @@ db.insert(db.countries.BR, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 104
 , "Omoda Jaecoo|other": 99
 , "JAC|other": 70
+, "Aion|other": 64
 , "Mini|other": 39
 , "Zeekr|other": 35
 , "Porsche|other": 31
 , "Audi|other": 22
 , "Mercedes-Benz|other": 20
 , "Chevrolet|other": 17
-, "other": 100
+, "other": 36
 });
 
 db.insert(db.countries.BR, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_07_02.pdf",
@@ -1188,6 +1189,7 @@ db.insert(db.countries.BR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "GWM|Ora 03": 191
 , "BYD|other": 1170
 , "Volvo|other": 329
+, "Aion|other": 271
 , "Renault|other": 182
 , "Omoda Jaecoo|other": 101
 , "BMW|other": 98
@@ -1199,7 +1201,7 @@ db.insert(db.countries.BR, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|other": 27
 , "Audi|other": 18
 , "Mercedes-Benz|other": 15
-, "other": 297
+, "other": 26
 });
 
 db.insert(db.countries.BR, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_08_02.pdf",
@@ -1233,6 +1235,7 @@ db.insert(db.countries.BR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "GWM|Ora 03": 320
 , "Chevrolet|other": 317
 , "BYD|other": 265
+, "Aion|other": 242
 , "Renault|other": 164
 , "Geely|other": 159
 , "Omoda Jaecoo|other": 85
@@ -1242,7 +1245,7 @@ db.insert(db.countries.BR, "2025-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 24
 , "Nissan|other": 23
 , "JAC|other": 10
-, "other": 680
+, "other": 438
 });
 
 db.insert(db.countries.BR, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_09_02.pdf",
@@ -1278,6 +1281,7 @@ db.insert(db.countries.BR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|other": 421
 , "BYD|other": 288
 , "Geely|other": 196
+, "Aion|other": 194
 , "Omoda Jaecoo|other": 98
 , "Zeekr|other": 92
 , "BMW|other": 87
@@ -1287,7 +1291,7 @@ db.insert(db.countries.BR, "2025-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|other": 46
 , "Porsche|other": 31
 , "Audi|other": 26
-, "other": 271
+, "other": 77
 });
 
 db.insert(db.countries.BR, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_10_02.pdf",
@@ -1323,6 +1327,7 @@ db.insert(db.countries.BR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Chevrolet|other": 492
 , "BYD|other": 315
 , "Geely|other": 265
+, "Aion|other": 218
 , "Renault|other": 127
 , "Omoda Jaecoo|other": 83
 , "BMW|other": 71
@@ -1331,7 +1336,7 @@ db.insert(db.countries.BR, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|other": 47
 , "Porsche|other": 42
 , "JAC|other": 37
-, "other": 326
+, "other": 108
 });
 
 db.insert(db.countries.BR, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_11_02.pdf",
@@ -1368,6 +1373,7 @@ db.insert(db.countries.BR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|other": 350
 , "Chevrolet|other": 296
 , "Renault|other": 296
+, "Aion|other": 186
 , "Geely|other": 150
 , "BMW|other": 78
 , "Omoda Jaecoo|other": 67
@@ -1376,7 +1382,7 @@ db.insert(db.countries.BR, "2025-11", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|other": 36
 , "Mini|other": 33
 , "Zeekr|other": 21
-, "other": 247
+, "other": 61
 });
 
 db.insert(db.countries.BR, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2025_12_02.pdf",
@@ -1412,6 +1418,7 @@ db.insert(db.countries.BR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|other": 863
 , "Chevrolet|other": 613
 , "Volvo|other": 575
+, "Aion|other": 272
 , "Renault|other": 197
 , "Geely|other": 174
 , "MG|other": 89
@@ -1422,7 +1429,7 @@ db.insert(db.countries.BR, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Zeekr|other": 60
 , "Leapmotor|other": 46
 , "Porsche|other": 36
-, "other": 372
+, "other": 100
 });
 
 db.insert(db.countries.BR, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.fenabrave.org.br/portal/files/2026_01_02.pdf",
