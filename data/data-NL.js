@@ -9865,3 +9865,72 @@ db.insert(db.countries.NL, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Geely|other": 10
 , "other": 225
 });
+
+db.insert(db.countries.NL, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/juli/",
+{ "Kia": 2981
+, "Toyota": 2191
+, "Volkswagen": 2115
+, "Škoda": 1801
+, "Renault": 1476
+, "Volvo": 1471
+, "Hyundai": 1379
+, "BMW": 1307
+, "Audi": 1255
+, "Mercedes-Benz": 1144
+, "Ford": 1126
+, "Peugeot": 917
+, "Opel": 874
+, "Cupra": 831
+, "BYD": 626
+, "Citroën": 488
+, "Seat": 466
+, "Suzuki": 416
+, "Mini": 407
+, "Omoda Jaecoo": 390
+, "Leapmotor": 362
+, "Tesla": 359
+, "Dacia": 342
+, "Land Rover": 309
+, "Nissan": 286
+, "Jeep": 269
+, "Fiat": 266
+, "MG": 256
+, "Mazda": 249
+, "Zeekr": 220
+, "Lynk & Co": 184
+, "Porsche": 183
+, "Xpeng": 142
+, "Mitsubishi": 128
+, "Honda": 91
+, "Polestar": 90
+, "Smart": 66
+, "Geely": 45
+, "Subaru": 30
+, "Dongfeng": 15
+, "Changan": 7
+, "other": 506
+});
+
+db.insert(db.countries.NL, "2026-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/7, https://www.bovag.nl/pers/persberichten/minder-autoregistraties-in-juli",
+{ "Škoda|Elroq": 683
+, "Kia|EV3": 627
+, "Cupra|Raval": 533
+, "Hyundai|Inster": 466
+, "Volkswagen|ID.4": 448
+, "Kia|EV5": 418
+, "Volvo|EX40": 413
+, "Volvo|EX30": 411
+, "Kia|EV2": 392
+, "Volkswagen|ID.7": 387
+, "Tesla|Model Y": 346
+, "Renault|5 E-Tech": 308
+, "Hyundai|Kona Electric": 271
+, "BMW|iX3": 260
+, "Škoda|Enyaq": 258
+, "Toyota|C-HR+": 248
+, "BMW|iX1": 241
+, "Ford|Explorer EV": 218
+, "Toyota|Urban Cruiser Electric": 198
+, "Mercedes-Benz|CLA EQ": 193
+, "other": 5948
+});
