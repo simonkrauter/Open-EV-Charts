@@ -4630,3 +4630,60 @@ db.insert(db.countries.AT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q6 e-tron": 201
 , "other": 5164
 });
+
+db.insert(db.countries.AT, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisAugust2026.ods",
+{ "Škoda": 3100
+, "Volkswagen": 2811
+, "BMW": 1917
+, "Seat": 1626
+, "Audi": 1412
+, "Mercedes-Benz": 1399
+, "Toyota": 1313
+, "BYD": 1095
+, "Cupra": 1013
+, "Dacia": 955
+, "Opel": 899
+, "Peugeot": 852
+, "Renault": 733
+, "Kia": 718
+, "Ford": 688
+, "Volvo": 490
+, "Citroën": 489
+, "Hyundai": 450
+, "Omoda Jaecoo": 385
+, "Fiat": 383
+, "Leapmotor": 375
+, "MG": 354
+, "Mazda": 320
+, "Suzuki": 307
+, "Mini": 228
+, "Chery": 166
+, "Jeep": 163
+, "Xpeng": 163
+, "Mitsubishi": 138
+, "Land Rover": 137
+, "Porsche": 135
+, "Honda": 92
+, "Nissan": 87
+, "Smart": 63
+, "Polestar": 55
+, "Subaru": 36
+, "Tesla": 27
+, "BAIC": 7
+, "Chevrolet": 4
+, "other": 238
+});
+
+db.insert(db.countries.AT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisAugust2026.ods",
+{ "BMW|iX3": 422
+, "Škoda|Enyaq": 377
+, "BMW|iX1": 264
+, "Škoda|Elroq": 257
+, "Kia|EV2": 231
+, "Audi|Q6 e-tron": 220
+, "BYD|Sealion 7": 219
+, "BYD|Atto 2/3": 210
+, "Opel|Frontera Electric": 192
+, "Cupra|Born": 183
+, "other": 4498
+});
