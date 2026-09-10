@@ -9934,3 +9934,73 @@ db.insert(db.countries.NL, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|CLA EQ": 193
 , "other": 5948
 });
+
+db.insert(db.countries.NL, "2026-08", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/augustus/",
+{ "Kia": 2835
+, "Toyota": 2201
+, "BMW": 1847
+, "Volkswagen": 1564
+, "Renault": 1512
+, "Hyundai": 1395
+, "Škoda": 1375
+, "Mercedes-Benz": 1173
+, "Tesla": 1023
+, "Ford": 999
+, "Audi": 977
+, "Peugeot": 931
+, "Volvo": 920
+, "BYD": 680
+, "Opel": 674
+, "Citroën": 594
+, "Cupra": 560
+, "Dacia": 486
+, "Mini": 383
+, "Suzuki": 376
+, "Leapmotor": 373
+, "Omoda Jaecoo": 312
+, "Mazda": 288
+, "Nissan": 262
+, "MG": 244
+, "Jeep": 225
+, "Seat": 221
+, "Zeekr": 209
+, "Fiat": 203
+, "Lynk & Co": 165
+, "Land Rover": 159
+, "Porsche": 157
+, "Mitsubishi": 152
+, "Xpeng": 138
+, "Polestar": 120
+, "Geely": 81
+, "Honda": 76
+, "Smart": 61
+, "Subaru": 42
+, "Changan": 22
+, "Dongfeng": 16
+, "Chery": 15
+, "other": 409
+});
+
+db.insert(db.countries.NL, "2026-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/8, https://www.bovag.nl/pers/persberichten/autoregistraties-in-augustus-vrijwel-stabiel",
+{ "Škoda|Elroq": 606
+, "Kia|EV2": 566
+, "Kia|EV3": 565
+, "Tesla|Model Y": 550
+, "Tesla|Model 3": 483
+, "BMW|iX3": 450
+, "Hyundai|Inster": 419
+, "Kia|EV5": 389
+, "Cupra|Raval": 376
+, "BMW|iX1": 373
+, "Renault|5 E-Tech": 363
+, "Hyundai|Kona Electric": 301
+, "Volvo|EX30": 284
+, "Citroën|ë-C3": 277
+, "Toyota|C-HR+": 271
+, "Volvo|EX40": 260
+, "Toyota|Urban Cruiser Electric": 226
+, "Škoda|Enyaq": 204
+, "Mercedes-Benz|CLA EQ": 201
+, "Volkswagen|ID.4": 176
+, "other": 5585
+});
