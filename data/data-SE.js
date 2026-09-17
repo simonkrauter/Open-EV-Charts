@@ -8123,12 +8123,13 @@ db.insert(db.countries.SE, "2026-03", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|other": 23
 , "Kia|other": 21
 , "Leapmotor|other": 21
+, "Polestar|other": 16
 , "Nissan|other": 14
 , "Jeep|other": 9
 , "MG|other": 9
 , "Fiat|other": 8
 , "Porsche|other": 7
-, "other": 325
+, "other": 309
 });
 
 db.insert(db.countries.SE, "2026-04", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8243,7 +8244,8 @@ db.insert(db.countries.SE, "2026-04", db.dsTypes.ElectricCarsByModel, "https://m
 , "Ford|other": 13
 , "Xpeng|other": 11
 , "MG|other": 8
-, "other": 278
+, "Polestar|other": 6
+, "other": 272
 });
 
 db.insert(db.countries.SE, "2026-05", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
@@ -8360,7 +8362,8 @@ db.insert(db.countries.SE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://m
 , "Zeekr|other": 13
 , "Volvo|other": 11
 , "Jeep|other": 8
-, "other": 250
+, "Polestar|other": 8
+, "other": 242
 });
 
 db.insert(db.countries.SE, "2026-06", db.dsTypes.AllCarsByBrand, "https://mobilitysweden.se/statistik/databas-nyregistreringar",
