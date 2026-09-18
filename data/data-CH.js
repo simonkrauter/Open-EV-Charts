@@ -8966,3 +8966,72 @@ db.insert(db.countries.CH, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Uncharted": 65
 , "other": 2533
 });
+
+db.insert(db.countries.CH, "2026-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/09/ModellePW2026.xlsx",
+{ "Volkswagen": 1717
+, "Mercedes-Benz": 1428
+, "Škoda": 1398
+, "BMW": 1271
+, "Toyota": 1249
+, "Audi": 830
+, "Kia": 621
+, "Dacia": 609
+, "Volvo": 528
+, "BYD": 521
+, "Renault": 493
+, "Hyundai": 438
+, "Peugeot": 394
+, "Ford": 385
+, "Seat": 352
+, "MG": 312
+, "Opel": 268
+, "Suzuki": 255
+, "Cupra": 254
+, "Porsche": 254
+, "Mazda": 243
+, "Fiat": 203
+, "Leapmotor": 202
+, "Citroën": 201
+, "Honda": 201
+, "Mini": 177
+, "Land Rover": 168
+, "Zeekr": 150
+, "Subaru": 86
+, "Smart": 75
+, "Polestar": 74
+, "Tesla": 69
+, "Jeep": 67
+, "Xpeng": 52
+, "Nissan": 49
+, "Mitsubishi": 36
+, "JAC": 23
+, "Lynk & Co": 18
+, "BAIC": 15
+, "Dongfeng": 10
+, "Cadillac": 5
+, "Chevrolet": 2
+, "other": 344
+});
+
+db.insert(db.countries.CH, "2026-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/8 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
+{ "Škoda|Elroq": 302
+, "Škoda|Enyaq": 275
+, "Mercedes-Benz|GLC Electric": 246
+, "BMW|iX3": 217
+, "BMW|iX1": 139
+, "Volvo|EX30": 134
+, "Volkswagen|ID. Polo": 111
+, "Kia|EV3": 105
+, "Mercedes-Benz|CLA EQ": 103
+, "Renault|5 E-Tech": 97
+, "Volkswagen|ID.3": 92
+, "BYD|Sealion 7": 90
+, "Zeekr|7X": 87
+, "Toyota|bZ4X": 86
+, "Audi|Q4 e-tron": 79
+, "Kia|EV2": 79
+, "Cupra|Raval": 77
+, "Mazda|EZ-6 BEV": 69
+, "Audi|Q6 e-tron": 61
+, "other": 2391
+});
