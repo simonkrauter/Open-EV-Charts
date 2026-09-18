@@ -7793,6 +7793,61 @@ db.insert(db.countries.NO, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 4997
 });
 
+db.insert(db.countries.NO, "2026-08", db.dsTypes.AllCarsByBrand, "https://ofv.no/aktuelt/personbilsalget-gar-tilbake-seks-av-de-ti-storste-merkene-vokser",
+{ "Volkswagen": 1457
+, "Toyota": 1328
+, "BMW": 1094
+, "Volvo": 910
+, "Xpeng": 795
+, "BYD": 736
+, "Tesla": 627
+, "Audi": 621
+, "Škoda": 589
+, "Mercedes-Benz": 544
+, "Kia": 484
+, "Ford": 455
+, "MG": 395
+, "Peugeot": 365
+, "Hyundai": 341
+, "Nissan": 290
+, "Zeekr": 284
+, "Polestar": 214
+, "Subaru": 209
+, "Cupra": 201
+, "Smart": 193
+, "Mazda": 149
+, "Honda": 140
+, "Changan": 132
+, "Porsche": 103
+, "Opel": 97
+, "Citroën": 87
+, "Mini": 80
+, "Suzuki": 76
+, "other": 455
+});
+
+db.insert(db.countries.NO, "2026-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/8 (includes commercial vehicles), https://ofv.no/aktuelt/personbilsalget-gar-tilbake-seks-av-de-ti-storste-merkene-vokser",
+{ "Volkswagen|ID.4": 659
+, "Toyota|bZ4X": 542
+, "Volvo|EX30": 423
+, "BMW|iX3": 414
+, "Toyota|Urban Cruiser Electric": 382
+, "Tesla|Model 3": 373
+, "BYD|Atto 3": 368
+, "Audi|Q4 e-tron": 336
+, "Xpeng|G6": 306
+, "Škoda|Enyaq": 285
+, "Volkswagen|ID.7": 278
+, "Volkswagen|ID.3": 268
+, "Ford|Explorer EV": 267
+, "Volvo|EX40": 267
+, "Xpeng|G9": 259
+, "Škoda|Elroq": 259
+, "BMW|iX1": 258
+, "Tesla|Model Y": 252
+, "other": 7078
+});
+
 
 // Template:
 
