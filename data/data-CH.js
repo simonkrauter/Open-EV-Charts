@@ -5970,7 +5970,7 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX40": 69
 , "Renault|Megane E-Tech": 51
 , "Polestar|2": 50
-, "Mercedes-Benz|EQC": 45
+, "Mercedes-Benz|EQC": 47
 , "BMW|i5": 44
 , "Fiat|500e": 44
 , "Kia|Niro EV": 43
@@ -6013,7 +6013,7 @@ db.insert(db.countries.CH, "2024-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 8
 , "BMW|other": 7
 , "Jaguar|other": 3
-, "other": 127
+, "other": 125
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2025/01/ModellePW2024.xlsx",
@@ -6052,9 +6052,10 @@ db.insert(db.countries.CH, "2024-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BYD": 16
 , "Jaguar": 16
 , "Cadillac": 9
+, "Dongfeng": 4
 , "Chevrolet": 3
 , "JAC": 2
-, "other": 368
+, "other": 364
 });
 
 db.insert(db.countries.CH, "2024-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2024/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2024.pdf",
@@ -6834,7 +6835,8 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 17
 , "BYD": 8
 , "Cadillac": 7
-, "other": 369
+, "Dongfeng": 3
+, "other": 366
 });
 
 db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2025.pdf",
@@ -6907,11 +6909,12 @@ db.insert(db.countries.CH, "2025-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|other": 5
 , "Subaru|other": 5
 , "BYD|other": 3
+, "Dongfeng|other": 3
 , "Fiat|other": 3
 , "Jeep|other": 3
 , "Audi|other": 2
 , "Leapmotor|other": 2
-, "other": 170
+, "other": 167
 });
 
 db.insert(db.countries.CH, "2025-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7066,10 +7069,11 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Leapmotor": 51
 , "Smart": 51
 , "Nissan": 31
+, "Dongfeng": 27
 , "Jaguar": 21
 , "BYD": 14
 , "JAC": 5
-, "other": 473
+, "other": 446
 });
 
 db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2025.pdf",
@@ -7112,6 +7116,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Fiat|500e": 29
 , "Hyundai|Ioniq 6": 29
 , "Hyundai|Inster": 28
+, "Dongfeng|Box": 27
 , "Opel|Frontera Electric": 27
 , "BMW|iX2": 23
 , "Ford|Puma Gen-E": 22
@@ -7122,8 +7127,8 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|Cyberster": 19
 , "Porsche|Taycan": 19
 , "Smart|Hashtag 1": 19
-, "Kia|EV6": 18
 , "Opel|other": 28
+, "Kia|other": 20
 , "Fiat|other": 18
 , "MG|other": 14
 , "Mercedes-Benz|other": 14
@@ -7145,8 +7150,7 @@ db.insert(db.countries.CH, "2025-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 4
 , "Polestar|other": 3
 , "Jaguar|other": 2
-, "Kia|other": 2
-, "other": 232
+, "other": 205
 });
 
 db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7187,8 +7191,9 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Jaguar": 17
 , "JAC": 15
 , "Cadillac": 3
+, "Dongfeng": 3
 , "BAIC": 2
-, "other": 483
+, "other": 480
 });
 
 db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/5 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2025.pdf",
@@ -7263,8 +7268,9 @@ db.insert(db.countries.CH, "2025-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jaguar|other": 4
 , "Subaru|other": 4
 , "Cadillac|other": 3
+, "Dongfeng|other": 3
 , "Leapmotor|other": 3
-, "other": 299
+, "other": 296
 });
 
 db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7305,9 +7311,10 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "BYD": 41
 , "Jaguar": 24
 , "Cadillac": 8
+, "Dongfeng": 4
 , "BAIC": 3
 , "Xpeng": 3
-, "other": 474
+, "other": 470
 });
 
 db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2025.pdf",
@@ -7383,10 +7390,11 @@ db.insert(db.countries.CH, "2025-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|other": 6
 , "Cadillac|other": 5
 , "Citroën|other": 4
+, "Dongfeng|other": 4
 , "Jaguar|other": 4
 , "Leapmotor|other": 3
 , "Xpeng|other": 3
-, "other": 276
+, "other": 272
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7404,8 +7412,8 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Ford": 542
 , "Kia": 489
 , "Peugeot": 449
-, "MG": 410
 , "Tesla": 401
+, "MG": 410
 , "Porsche": 397
 , "Mini": 352
 , "Opel": 341
@@ -7426,9 +7434,10 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 53
 , "JAC": 29
 , "Jaguar": 13
+, "Dongfeng": 6
 , "Zeekr": 5
 , "Cadillac": 3
-, "other": 608
+, "other": 602
 });
 
 db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/7 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_July_2025.pdf",
@@ -7499,12 +7508,13 @@ db.insert(db.countries.CH, "2025-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 9
 , "Nissan|other": 8
 , "Jeep|other": 7
+, "Dongfeng|other": 6
 , "Leapmotor|other": 6
 , "Polestar|other": 6
 , "Zeekr|other": 5
 , "Audi|other": 4
 , "Fiat|other": 3
-, "other": 334
+, "other": 328
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7547,8 +7557,9 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Zeekr": 10
 , "Xpeng": 6
 , "Cadillac": 4
+, "Dongfeng": 4
 , "Nio": 2
-, "other": 464
+, "other": 460
 });
 
 db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/8 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_August_2025.pdf",
@@ -7624,11 +7635,12 @@ db.insert(db.countries.CH, "2025-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|other": 5
 , "Hyundai|other": 5
 , "Xpeng|other": 5
+, "Dongfeng|other": 4
 , "JAC|other": 3
 , "Tesla|other": 3
 , "Citroën|other": 2
 , "Renault|other": 2
-, "other": 247
+, "other": 243
 });
 
 db.insert(db.countries.CH, "2025-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7796,11 +7808,12 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Nissan": 30
 , "Zeekr": 20
 , "BAIC": 7
+, "Dongfeng": 7
 , "Xpeng": 6
 , "Chevrolet": 4
 , "Cadillac": 3
 , "Jaguar": 2
-, "other": 467
+, "other": 460
 });
 
 db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/10 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_October_2025.pdf",
@@ -7872,6 +7885,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|other": 11
 , "Renault|other": 11
 , "Hyundai|other": 10
+, "Dongfeng|other": 7
 , "Volkswagen|other": 7
 , "Audi|other": 6
 , "Honda|other": 6
@@ -7881,7 +7895,7 @@ db.insert(db.countries.CH, "2025-10", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|other": 5
 , "Xpeng|other": 5
 , "Citroën|other": 4
-, "other": 178
+, "other": 171
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -7924,9 +7938,10 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Cadillac": 11
 , "Xpeng": 9
 , "BAIC": 7
+, "Dongfeng": 6
 , "Jaguar": 4
 , "Omoda Jaecoo": 2
-, "other": 481
+, "other": 475
 });
 
 db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2025/11 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_November_2025.pdf",
@@ -8001,6 +8016,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 8
 , "Nissan|other": 7
 , "Cadillac|other": 6
+, "Dongfeng|other": 6
 , "Audi|other": 5
 , "JAC|other": 5
 , "Jeep|other": 5
@@ -8009,7 +8025,7 @@ db.insert(db.countries.CH, "2025-11", db.dsTypes.ElectricCarsByModel, "https://e
 , "Hyundai|other": 4
 , "BMW|other": 3
 , "Honda|other": 3
-, "other": 298
+, "other": 292
 });
 
 db.insert(db.countries.CH, "2025-12", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/01/ModellePW2025.xlsx",
@@ -8272,7 +8288,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Porsche": 311
 , "Opel": 289
 , "Citroën": 235
-, "Tesla": 221
+, "Tesla": 211
 , "Mini": 210
 , "Cupra": 207
 , "BYD": 198
@@ -8293,7 +8309,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 10
 , "BAIC": 5
 , "Cadillac": 3
-, "other": 428
+, "other": 438
 });
 
 db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
@@ -8416,9 +8432,10 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 38
 , "JAC": 32
 , "BAIC": 19
+, "Dongfeng": 10
 , "Cadillac": 7
 , "Lynk & Co": 6
-, "other": 540
+, "other": 530
 });
 
 db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
@@ -8499,7 +8516,8 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Zeekr|other": 8
 , "JAC|other": 5
 , "Nissan|other": 5
-, "other": 222
+, "Dongfeng|other": 4
+, "other": 218
 });
 
 db.insert(db.countries.CH, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/05/ModellePW2026.xlsx",
@@ -8669,8 +8687,9 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "JAC": 39
 , "Lynk & Co": 10
 , "BAIC": 7
+, "Dongfeng": 3
 , "Cadillac": 2
-, "other": 375
+, "other": 372
 });
 
 db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/5 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2026.pdf",
@@ -8793,7 +8812,8 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "Xpeng": 52
 , "BAIC": 24
 , "Lynk & Co": 12
-, "other": 562
+, "Dongfeng": 11
+, "other": 551
 });
 
 db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2026.pdf",
