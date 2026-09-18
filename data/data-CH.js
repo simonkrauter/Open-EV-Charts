@@ -8190,7 +8190,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 348
 });
 
-db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/1 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/1 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Škoda|Elroq": 199
 , "Škoda|Enyaq": 189
 , "Volvo|EX30": 164
@@ -8266,7 +8266,7 @@ db.insert(db.countries.CH, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|other": 4
 , "Audi|other": 2
 , "Nissan|other": 2
-, "other": 141
+, "other": 153
 });
 
 db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/03/ModellePW2026.xlsx",
@@ -8312,7 +8312,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 438
 });
 
-db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/2 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
+db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/2 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Škoda|Enyaq": 269
 , "Škoda|Elroq": 217
 , "Tesla|Model Y": 149
@@ -8390,7 +8390,7 @@ db.insert(db.countries.CH, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|other": 8
 , "Mitsubishi|other": 3
 , "Cadillac|other": 2
-, "other": 174
+, "other": 116
 });
 
 db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/04/ModellePW2026-2.xlsx",
@@ -8438,7 +8438,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 530
 });
 
-db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/3 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/3 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Škoda|Elroq": 345
 , "Tesla|Model Y": 314
 , "Škoda|Enyaq": 309
@@ -8517,7 +8517,7 @@ db.insert(db.countries.CH, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "JAC|other": 5
 , "Nissan|other": 5
 , "Dongfeng|other": 4
-, "other": 218
+, "other": 189
 });
 
 db.insert(db.countries.CH, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/05/ModellePW2026.xlsx",
@@ -8564,7 +8564,7 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 464
 });
 
-db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/4 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/4 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Škoda|Enyaq": 421
 , "Škoda|Elroq": 313
 , "Volvo|EX30": 199
@@ -8644,7 +8644,7 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|other": 6
 , "Mitsubishi|other": 5
 , "Audi|other": 3
-, "other": 180
+, "other": 157
 });
 
 db.insert(db.countries.CH, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/07/ModellePW2026-1.xlsx",
@@ -8692,7 +8692,7 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 372
 });
 
-db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/5 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_May_2026.pdf",
+db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/5 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Škoda|Elroq": 320
 , "Škoda|Enyaq": 269
 , "Volkswagen|ID.3": 201
@@ -8769,7 +8769,7 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Jeep|other": 6
 , "Tesla|other": 6
 , "Zeekr|other": 6
-, "other": 170
+, "other": 113
 });
 
 db.insert(db.countries.CH, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/07/ModellePW2026-1.xlsx",
@@ -8816,7 +8816,7 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.AllCarsByBrand, "https://www.au
 , "other": 551
 });
 
-db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/6 (includes commercial vehicles), https://www.acea.auto/files/Press_release_car_registrations_June_2026.pdf",
+db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/6 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
 { "Tesla|Model Y": 1385
 , "Volvo|EX30": 339
 , "Škoda|Enyaq": 245
@@ -8896,5 +8896,5 @@ db.insert(db.countries.CH, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Porsche|other": 9
 , "Audi|other": 6
 , "Jeep|other": 4
-, "other": 170
+, "other": 243
 });
