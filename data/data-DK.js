@@ -4962,3 +4962,31 @@ db.insert(db.countries.DK, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|other": 21
 , "other": 73
 });
+
+db.insert(db.countries.DK, "2026-07", db.dsTypes.AllCarsTotal, "https://www.statistikbanken.dk/bil55",
+{ "other": 14681
+});
+
+db.insert(db.countries.DK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/DK/Brands/Month/2026/7, https://www.statistikbanken.dk/bil51",
+{ "Toyota|bZ4X": 624
+, "Škoda|Elroq": 600
+, "Xpeng|G6": 559
+, "Volkswagen|ID. Buzz": 551
+, "Tesla|Model Y": 495
+, "Volkswagen|ID.4": 494
+, "Škoda|Enyaq": 477
+, "Citroën|ë-C3": 369
+, "BMW|iX3": 326
+, "Mercedes-Benz|GLB Electric": 269
+, "Toyota|Urban Cruiser Electric": 265
+, "Volkswagen|ID.7": 255
+, "Mercedes-Benz|CLA EQ": 253
+, "Volvo|EX40": 250
+, "BMW|iX1": 241
+, "Zeekr|007": 235
+, "Citroën|ë-C5": 227
+, "Toyota|C-HR+": 207
+, "Cupra|Raval": 202
+, "Renault|5 E-Tech": 179
+, "other": 4591
+});
