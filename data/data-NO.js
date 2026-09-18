@@ -7516,7 +7516,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1019
 });
 
-db.insert(db.countries.NO, "2026-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-mai-2026",
+db.insert(db.countries.NO, "2026-05", db.dsTypes.AllCarsByBrand, "https://ofv.no/aktuelt/flere-kjopte-ny-bi-i-mai-men-markedet-henger-fortsatt-etter",
 { "Tesla": 3345
 , "Toyota": 1976
 , "Volkswagen": 1761
@@ -7545,8 +7545,7 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Renault": 107
 , "Opel": 106
 , "Mini": 56
-, "Porsche": 38
-, "other": 370
+, "other": 408
 });
 
 db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/5 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-mai-2026",
@@ -7626,7 +7625,7 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1319
 });
 
-db.insert(db.countries.NO, "2026-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, https://ofv.no/bilsalget/bilsalget-i-juni-2026",
+db.insert(db.countries.NO, "2026-06", db.dsTypes.AllCarsByBrand, "https://ofv.no/aktuelt/elbilen-er-ikke-lenger-et-storbyfenomen-omstillingen-er-inne-i-en-ny-fase",
 { "Tesla": 3222
 , "Toyota": 2585
 , "Volvo": 1703
@@ -7651,11 +7650,12 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.AllCarsByBrand, "https://ofv.no
 , "Citroën": 148
 , "Mazda": 136
 , "Opel": 133
+, "Dongfeng": 126
 , "Renault": 124
 , "Suzuki": 111
 , "Porsche": 110
 , "Mini": 106
-, "other": 582
+, "other": 456
 });
 
 db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/6 (includes commercial vehicles), https://ofv.no/bilsalget/bilsalget-i-juni-2026",
