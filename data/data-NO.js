@@ -7739,10 +7739,64 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "other": 1888
 });
 
+db.insert(db.countries.NO, "2026-07", db.dsTypes.AllCarsByBrand, "https://ofv.no/aktuelt/nesten-uendret-bilsalg-store-skifter-pa-merketoppen",
+{ "Toyota": 1260
+, "Volkswagen": 985
+, "Xpeng": 843
+, "Volvo": 726
+, "BMW": 611
+, "Mercedes-Benz": 572
+, "Ford": 460
+, "BYD": 370
+, "Škoda": 366
+, "Kia": 360
+, "Hyundai": 288
+, "Audi": 269
+, "MG": 239
+, "Zeekr": 223
+, "Peugeot": 223
+, "Nissan": 207
+, "Smart": 185
+, "Polestar": 137
+, "Changan": 129
+, "Citroën": 125
+, "Subaru": 113
+, "Mazda": 97
+, "Mini": 95
+, "Opel": 89
+, "Suzuki": 73
+, "Honda": 72
+, "Porsche": 71
+, "Dongfeng": 51
+, "Renault": 48
+, "other": 322
+});
+
+db.insert(db.countries.NO, "2026-07", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/7 (includes commercial vehicles), https://ofv.no/aktuelt/nesten-uendret-bilsalg-store-skifter-pa-merketoppen",
+{ "Toyota|bZ4X": 459
+, "Volkswagen|ID.4": 458
+, "Toyota|Urban Cruiser Electric": 400
+, "Mercedes-Benz|GLC Electric": 354
+, "Xpeng|G6": 309
+, "Volvo|EX40": 269
+, "Ford|Explorer EV": 260
+, "Xpeng|G9": 237
+, "Volkswagen|ID.7": 222
+, "Škoda|Enyaq": 202
+, "BMW|iX3": 195
+, "BMW|iX1": 191
+, "BYD|Sealion 7": 184
+, "Volvo|EX30": 172
+, "Toyota|C-HR+": 168
+, "Kia|Niro EV": 153
+, "Volkswagen|ID.3": 149
+, "other": 4997
+});
+
 
 // Template:
 
-// db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "https://ofv.no/registreringsstatistikk, xxx",
+// db.insert(db.countries.NO, "xx", db.dsTypes.AllCarsByBrand, "xxx",
 // { "Tesla":
 // , "Toyota":
 // , "Volkswagen":
