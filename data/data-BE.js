@@ -1185,3 +1185,11 @@ db.insert(db.countries.BE, "2026-06", db.dsTypes.AllCarsTotal, "https://www.febi
 db.insert(db.countries.BE, "2026-06", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-juin-2026",
 { "other": 17271
 });
+
+db.insert(db.countries.BE, "2026-07", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-juillet-2026",
+{ "other": 29274
+});
+
+db.insert(db.countries.BE, "2026-07", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-juillet-2026",
+{ "other": 12559
+});
