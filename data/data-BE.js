@@ -1138,50 +1138,50 @@ db.insert(db.countries.BE, "2025-12", db.dsTypes.ElectricCarsTotal, "https://www
 { "other": 11333
 });
 
-db.insert(db.countries.BE, "2026-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
+db.insert(db.countries.BE, "2026-01", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-janvier-2026",
 { "other": 32997
 });
 
-db.insert(db.countries.BE, "2026-01", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_January_2026.pdf",
-{ "other": 12131
+db.insert(db.countries.BE, "2026-01", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-janvier-2026",
+{ "other": 12110
 });
 
-db.insert(db.countries.BE, "2026-02", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
+db.insert(db.countries.BE, "2026-02", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-fevrier-2026",
 { "other": 37075
 });
 
-db.insert(db.countries.BE, "2026-02", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_February_2026.pdf",
-{ "other": 11677
+db.insert(db.countries.BE, "2026-02", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-fevrier-2026",
+{ "other": 11679
 });
 
-db.insert(db.countries.BE, "2026-03", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
-{ "other": 43733
+db.insert(db.countries.BE, "2026-03", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-mars-2026",
+{ "other": 43731
 });
 
-db.insert(db.countries.BE, "2026-03", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
-{ "other": 15661
+db.insert(db.countries.BE, "2026-03", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-mars-2026",
+{ "other": 15699
 });
 
-db.insert(db.countries.BE, "2026-04", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
+db.insert(db.countries.BE, "2026-04", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-avril-2026",
 { "other": 37802
 });
 
-db.insert(db.countries.BE, "2026-04", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_April_2026.pdf",
-{ "other": 13971
+db.insert(db.countries.BE, "2026-04", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-avril-2026",
+{ "other": 13987
 });
 
-db.insert(db.countries.BE, "2026-05", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2026.pdf",
+db.insert(db.countries.BE, "2026-05", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-mai-2026",
 { "other": 33625
 });
 
-db.insert(db.countries.BE, "2026-05", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_May_2026.pdf",
-{ "other": 12586
+db.insert(db.countries.BE, "2026-05", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-mai-2026",
+{ "other": 12576
 });
 
-db.insert(db.countries.BE, "2026-06", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2026.pdf",
+db.insert(db.countries.BE, "2026-06", db.dsTypes.AllCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-juin-2026",
 { "other": 45449
 });
 
-db.insert(db.countries.BE, "2026-06", db.dsTypes.ElectricCarsTotal, "https://www.acea.auto/files/Press_release_car_registrations_June_2026.pdf",
-{ "other": 17256
+db.insert(db.countries.BE, "2026-06", db.dsTypes.ElectricCarsTotal, "https://www.febiac.be/fr/news/immatriculations-de-vehicules-neufs-juin-2026",
+{ "other": 17271
 });
