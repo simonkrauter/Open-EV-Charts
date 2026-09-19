@@ -2,6 +2,390 @@
 
 "use strict";
 
+db.insert(db.countries.BE, "2018-01", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/01",
+{ "other": 57121
+});
+
+db.insert(db.countries.BE, "2018-01", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/01",
+{ "other": 331
+});
+
+db.insert(db.countries.BE, "2018-02", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/02",
+{ "other": 50390
+});
+
+db.insert(db.countries.BE, "2018-02", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/02",
+{ "other": 171
+});
+
+db.insert(db.countries.BE, "2018-03", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/03",
+{ "other": 58591
+});
+
+db.insert(db.countries.BE, "2018-03", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/03",
+{ "other": 404
+});
+
+db.insert(db.countries.BE, "2018-04", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/04",
+{ "other": 54743
+});
+
+db.insert(db.countries.BE, "2018-04", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/04",
+{ "other": 229
+});
+
+db.insert(db.countries.BE, "2018-05", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/05",
+{ "other": 55132
+});
+
+db.insert(db.countries.BE, "2018-05", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/05",
+{ "other": 289
+});
+
+db.insert(db.countries.BE, "2018-06", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/06",
+{ "other": 56378
+});
+
+db.insert(db.countries.BE, "2018-06", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/06",
+{ "other": 275
+});
+
+db.insert(db.countries.BE, "2018-07", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/07",
+{ "other": 42925
+});
+
+db.insert(db.countries.BE, "2018-07", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/07",
+{ "other": 147
+});
+
+db.insert(db.countries.BE, "2018-08", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/08",
+{ "other": 54521
+});
+
+db.insert(db.countries.BE, "2018-08", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/08",
+{ "other": 246
+});
+
+db.insert(db.countries.BE, "2018-09", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/09",
+{ "other": 27219
+});
+
+db.insert(db.countries.BE, "2018-09", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/09",
+{ "other": 320
+});
+
+db.insert(db.countries.BE, "2018-10", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/10",
+{ "other": 37013
+});
+
+db.insert(db.countries.BE, "2018-10", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/10",
+{ "other": 430
+});
+
+db.insert(db.countries.BE, "2018-11", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/11",
+{ "other": 33919
+});
+
+db.insert(db.countries.BE, "2018-11", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/11",
+{ "other": 480
+});
+
+db.insert(db.countries.BE, "2018-12", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/12",
+{ "other": 23295
+});
+
+db.insert(db.countries.BE, "2018-12", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2018/12",
+{ "other": 349
+});
+
+db.insert(db.countries.BE, "2019-01", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/01",
+{ "other": 51193
+});
+
+db.insert(db.countries.BE, "2019-01", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/01",
+{ "other": 471
+});
+
+db.insert(db.countries.BE, "2019-02", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/02",
+{ "other": 50034
+});
+
+db.insert(db.countries.BE, "2019-02", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/02",
+{ "other": 642
+});
+
+db.insert(db.countries.BE, "2019-03", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/03",
+{ "other": 55005
+});
+
+db.insert(db.countries.BE, "2019-03", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/03",
+{ "other": 1086
+});
+
+db.insert(db.countries.BE, "2019-04", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/04",
+{ "other": 53620
+});
+
+db.insert(db.countries.BE, "2019-04", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/04",
+{ "other": 593
+});
+
+db.insert(db.countries.BE, "2019-05", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/05",
+{ "other": 51189
+});
+
+db.insert(db.countries.BE, "2019-05", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/05",
+{ "other": 675
+});
+
+db.insert(db.countries.BE, "2019-06", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/06",
+{ "other": 50147
+});
+
+db.insert(db.countries.BE, "2019-06", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/06",
+{ "other": 1143
+});
+
+db.insert(db.countries.BE, "2019-07", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/07",
+{ "other": 45256
+});
+
+db.insert(db.countries.BE, "2019-07", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/07",
+{ "other": 526
+});
+
+db.insert(db.countries.BE, "2019-08", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/08",
+{ "other": 48050
+});
+
+db.insert(db.countries.BE, "2019-08", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/08",
+{ "other": 579
+});
+
+db.insert(db.countries.BE, "2019-09", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/09",
+{ "other": 35823
+});
+
+db.insert(db.countries.BE, "2019-09", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/09",
+{ "other": 1035
+});
+
+db.insert(db.countries.BE, "2019-10", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/10",
+{ "other": 42861
+});
+
+db.insert(db.countries.BE, "2019-10", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/10",
+{ "other": 579
+});
+
+db.insert(db.countries.BE, "2019-11", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/11",
+{ "other": 34699
+});
+
+db.insert(db.countries.BE, "2019-11", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/11",
+{ "other": 464
+});
+
+db.insert(db.countries.BE, "2019-12", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/12",
+{ "other": 33596
+});
+
+db.insert(db.countries.BE, "2019-12", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2019/12",
+{ "other": 1077
+});
+
+db.insert(db.countries.BE, "2020-01", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/01",
+{ "other": 51953
+});
+
+db.insert(db.countries.BE, "2020-01", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/01",
+{ "other": 743
+});
+
+db.insert(db.countries.BE, "2020-02", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/02",
+{ "other": 46876
+});
+
+db.insert(db.countries.BE, "2020-02", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/02",
+{ "other": 863
+});
+
+db.insert(db.countries.BE, "2020-03", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/03",
+{ "other": 28846
+});
+
+db.insert(db.countries.BE, "2020-03", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/03",
+{ "other": 1276
+});
+
+db.insert(db.countries.BE, "2020-04", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/04",
+{ "other": 5311
+});
+
+db.insert(db.countries.BE, "2020-04", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/04",
+{ "other": 153
+});
+
+db.insert(db.countries.BE, "2020-05", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/05",
+{ "other": 34805
+});
+
+db.insert(db.countries.BE, "2020-05", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/05",
+{ "other": 746
+});
+
+db.insert(db.countries.BE, "2020-06", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/06",
+{ "other": 49280
+});
+
+db.insert(db.countries.BE, "2020-06", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/06",
+{ "other": 1148
+});
+
+db.insert(db.countries.BE, "2020-07", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/07",
+{ "other": 44653
+});
+
+db.insert(db.countries.BE, "2020-07", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/07",
+{ "other": 1137
+});
+
+db.insert(db.countries.BE, "2020-08", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/08",
+{ "other": 36496
+});
+
+db.insert(db.countries.BE, "2020-08", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/08",
+{ "other": 1372
+});
+
+db.insert(db.countries.BE, "2020-09", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/09",
+{ "other": 36182
+});
+
+db.insert(db.countries.BE, "2020-09", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/09",
+{ "other": 1879
+});
+
+db.insert(db.countries.BE, "2020-10", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/10",
+{ "other": 38816
+});
+
+db.insert(db.countries.BE, "2020-10", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/10",
+{ "other": 1471
+});
+
+db.insert(db.countries.BE, "2020-11", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/11",
+{ "other": 29207
+});
+
+db.insert(db.countries.BE, "2020-11", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/11",
+{ "other": 1476
+});
+
+db.insert(db.countries.BE, "2020-12", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/12",
+{ "other": 30195
+});
+
+db.insert(db.countries.BE, "2020-12", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2020/12",
+{ "other": 2733
+});
+
+db.insert(db.countries.BE, "2021-01", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/01",
+{ "other": 37842
+});
+
+db.insert(db.countries.BE, "2021-01", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/01",
+{ "other": 1092
+});
+
+db.insert(db.countries.BE, "2021-02", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/02",
+{ "other": 36630
+});
+
+db.insert(db.countries.BE, "2021-02", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/02",
+{ "other": 1142
+});
+
+db.insert(db.countries.BE, "2021-03", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/03",
+{ "other": 45162
+});
+
+db.insert(db.countries.BE, "2021-03", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/03",
+{ "other": 1802
+});
+
+db.insert(db.countries.BE, "2021-04", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/04",
+{ "other": 37309
+});
+
+db.insert(db.countries.BE, "2021-04", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/04",
+{ "other": 1305
+});
+
+db.insert(db.countries.BE, "2021-05", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/05",
+{ "other": 34978
+});
+
+db.insert(db.countries.BE, "2021-05", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/05",
+{ "other": 1504
+});
+
+db.insert(db.countries.BE, "2021-06", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/06",
+{ "other": 41250
+});
+
+db.insert(db.countries.BE, "2021-06", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/06",
+{ "other": 2264
+});
+
+db.insert(db.countries.BE, "2021-07", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/07",
+{ "other": 27732
+});
+
+db.insert(db.countries.BE, "2021-07", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/07",
+{ "other": 1486
+});
+
+db.insert(db.countries.BE, "2021-08", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/08",
+{ "other": 27104
+});
+
+db.insert(db.countries.BE, "2021-08", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/08",
+{ "other": 2080
+});
+
+db.insert(db.countries.BE, "2021-09", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/09",
+{ "other": 26644
+});
+
+db.insert(db.countries.BE, "2021-09", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/09",
+{ "other": 2618
+});
+
+db.insert(db.countries.BE, "2021-10", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/10",
+{ "other": 25145
+});
+
+db.insert(db.countries.BE, "2021-10", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/10",
+{ "other": 2154
+});
+
+db.insert(db.countries.BE, "2021-11", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/11",
+{ "other": 24272
+});
+
+db.insert(db.countries.BE, "2021-11", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/11",
+{ "other": 2473
+});
+
+db.insert(db.countries.BE, "2021-12", db.dsTypes.AllCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/12",
+{ "other": 20561
+});
+
+db.insert(db.countries.BE, "2021-12", db.dsTypes.ElectricCarsTotal, "https://www.ev-blitz.com/en/countries/belgium/2021/12",
+{ "other": 2787
+});
+
 db.insert(db.countries.BE, "2022-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230221_PRPC_2301-FINAL.pdf",
 { "other": 33947
 });
