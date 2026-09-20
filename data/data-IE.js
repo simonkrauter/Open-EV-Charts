@@ -7776,3 +7776,114 @@ db.insert(db.countries.IE, "2026-06", db.dsTypes.ElectricCarsByModel, "https://s
 , "Volvo|EX30": 1
 , "other": 1
 });
+
+db.insert(db.countries.IE, "2026-07", db.dsTypes.AllCarsByBrand, "https://stats.simi.ie",
+{ "Toyota": 3905
+, "Volkswagen": 3839
+, "Škoda": 2770
+, "Hyundai": 2626
+, "Kia": 1990
+, "BYD": 1161
+, "Dacia": 1094
+, "Audi": 1078
+, "Renault": 1078
+, "BMW": 1072
+, "MG": 1020
+, "Ford": 966
+, "Peugeot": 798
+, "Nissan": 707
+, "Opel": 634
+, "Volvo": 539
+, "Cupra": 506
+, "Mercedes-Benz": 477
+, "Citroën": 474
+, "Suzuki": 362
+, "Seat": 323
+, "Mazda": 212
+, "Honda": 155
+, "Xpeng": 147
+, "Leapmotor": 140
+, "Land Rover": 124
+, "Mini": 119
+, "Porsche": 98
+, "Tesla": 79
+, "Fiat": 76
+, "Jeep": 68
+, "Polestar": 64
+, "Smart": 8
+, "other": 290
+});
+
+db.insert(db.countries.IE, "2026-07", db.dsTypes.ElectricCarsByModel, "https://stats.simi.ie",
+{ "Volkswagen|ID.4": 697
+, "Toyota|bZ4X": 365
+, "Toyota|C-HR+": 337
+, "Hyundai|Inster": 319
+, "Škoda|Enyaq": 314
+, "Hyundai|Kona Electric": 312
+, "Škoda|Elroq": 299
+, "MG|S5 EV": 282
+, "BYD|Sealion 7": 262
+, "Renault|Megane E-Tech": 262
+, "Kia|EV3": 261
+, "BYD|Seagull": 253
+, "Hyundai|Ioniq 5": 248
+, "Kia|EV6": 237
+, "MG|4 EV": 233
+, "MG|S6 EV": 232
+, "Kia|EV5": 228
+, "BMW|iX3": 214
+, "Hyundai|Ioniq 6": 208
+, "Ford|Explorer EV": 198
+, "Kia|EV2": 183
+, "Renault|5 E-Tech": 176
+, "Kia|EV4": 175
+, "Cupra|Tavascan": 151
+, "Xpeng|G6": 147
+, "Volvo|EX40": 142
+, "Audi|Q6 e-tron": 140
+, "Renault|4 E-Tech": 134
+, "Renault|Scénic E-Tech": 133
+, "BMW|iX1": 129
+, "Volkswagen|ID.7": 125
+, "Volkswagen|ID.3": 112
+, "Cupra|Born": 105
+, "Nissan|Micra EV": 100
+, "BYD|Seal": 98
+, "Peugeot|E-5008": 94
+, "Ford|Puma Gen-E": 84
+, "Mini|Cooper SE": 80
+, "Peugeot|E-3008": 80
+, "Tesla|Model Y": 74
+, "Opel|Frontera Electric": 73
+, "Nissan|Ariya": 59
+, "Peugeot|e-2008": 59
+, "Citroën|ë-C3": 55
+, "BMW|i4": 50
+, "Ford|Capri EV": 49
+, "Volvo|EX30": 47
+, "Leapmotor|B10": 44
+, "Mercedes-Benz|CLA EQ": 44
+, "Audi|Q4 e-tron": 41
+, "Volvo|other": 79
+, "Kia|other": 70
+, "Leapmotor|other": 68
+, "Polestar|other": 64
+, "Porsche|other": 61
+, "Citroën|other": 56
+, "Opel|other": 42
+, "Volkswagen|other": 41
+, "BMW|other": 39
+, "Nissan|other": 35
+, "Hyundai|other": 33
+, "Fiat|other": 31
+, "Mazda|other": 30
+, "BYD|other": 26
+, "Jeep|other": 23
+, "Mercedes-Benz|other": 23
+, "Audi|other": 18
+, "Peugeot|other": 17
+, "Smart|other": 8
+, "Tesla|other": 5
+, "other": 141
+});
