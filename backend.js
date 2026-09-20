@@ -1358,7 +1358,7 @@ var db = {
     return chartConfig;
   },
 
-  getChartTitle: function(chartConfig, isSingleChart) {
+  getChartTitle: function(chartConfig, isSingleChart, isScreenshotMode) {
     let parts = [];
     const params = this.getChartParams(chartConfig);
     for (const i in params) {
@@ -1407,6 +1407,20 @@ var db = {
       else
         parts.push(text);
     }
+    if (isScreenshotMode) {
+      // Countries
+      if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
+        const countryValues = db.getSelectedCountries(chartConfig);
+        let countrieNames = [];
+        for (const i in countryValues) {
+          const code = countryValues[i];
+          const id = this.countries[code];
+          if (id != null)
+            countrieNames.push(this.countryNames[id]);
+        }
+        parts.push(this.joinItemList(countrieNames, 5, "more countries"));
+      }
+    }
     if (parts.length == 0) {
       if (!this.isSingleOrCombinedCountry(chartConfig))
         parts.push("Compare Countries");
@@ -1421,46 +1435,31 @@ var db = {
     return parts.join(" – ");
   },
 
-  getChartSubTitle: function(chartConfig) {
-    let parts = [];
-    // Metric description
+  getMetricDescription: function(chartConfig) {
     if (chartConfig.metric == this.metrics.ratioElectric)
-      parts.push("Share of battery electric cars within passenger car market");
+      return "Share of battery electric cars within passenger car market";
     else if (chartConfig.metric == this.metrics.salesElectric)
-      parts.push("Battery electric passenger car sales");
+      return "Battery electric passenger car sales";
     else if (chartConfig.metric == this.metrics.shareElectric) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        parts.push("Battery electric passenger car market split by company");
+        return "Battery electric passenger car market split by company";
       else if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand)
-        parts.push("Battery electric passenger car market split by brand");
+        return "Battery electric passenger car market split by brand";
       else
-        parts.push("Battery electric passenger car market split by model");
+        return "Battery electric passenger car market split by model";
     } else if (chartConfig.metric == this.metrics.salesAll)
-      parts.push("Passenger car sales");
+      return "Passenger car sales";
     else if (chartConfig.metric == this.metrics.shareAll) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        parts.push("Passenger car market split by company");
+        return "Passenger car market split by company";
       else
-        parts.push("Passenger car market split by brand");
+        return "Passenger car market split by brand";
     } else if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        parts.push("Share of battery electric cars of passenger car sales within company");
+        return "Share of battery electric cars of passenger car sales within company";
       else
-        parts.push("Share of battery electric cars of passenger car sales within brand");
+        return "Share of battery electric cars of passenger car sales within brand";
     }
-    // Countries
-    if (this.isMultiCountry(chartConfig) && this.isCombinedCountry(chartConfig)) {
-      const countryValues = db.getSelectedCountries(chartConfig);
-      let countrieNames = [];
-      for (const i in countryValues) {
-        const code = countryValues[i];
-        const id = this.countries[code];
-        if (id != null)
-          countrieNames.push(this.countryNames[id]);
-      }
-      parts.push(this.joinItemList(countrieNames, 6, "more countries"));
-    }
-    return parts.join(" – ");
   },
 
   getSelectedCountries: function(chartConfig) {

@@ -613,7 +613,7 @@ function renderChart(chartIndex) {
     chartDiv.classList.add("single");
 
   renderChartTitle(chartDiv, originalChartConfig, isSingleChart);
-  renderChartSubTitle(chartDiv, chartConfig);
+  renderMetricDescription(chartDiv, chartConfig);
 
   if (hasData) {
     if (isSingleChart) {
@@ -661,7 +661,7 @@ function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
   const titleElem = newChildNode(chartDiv, "DIV");
   titleElem.classList.add("chartTitle");
 
-  const title = db.getChartTitle(chartConfig, asSingleChart);
+  const title = db.getChartTitle(chartConfig, asSingleChart, isScreenshotModeEnabled);
   if (asSingleChart)
     titleElem.appendChild(createCountryFlagContainer(chartConfig.country, title, false, singleTitleFlagSizeFactor));
   else
@@ -675,14 +675,13 @@ function renderChartTitle(chartDiv, chartConfig, asSingleChart) {
   }
 }
 
-function renderChartSubTitle(chartDiv, chartConfig) {
-  if (!isScreenshotModeEnabled)
+function renderMetricDescription(chartDiv, chartConfig) {
+  if (!isSingleChart)
     return;
-  const subTitle = db.getChartSubTitle(chartConfig);
-  if (subTitle == "")
+  const text = db.getMetricDescription(chartConfig);
+  if (text == "")
     return;
-  const titleElem = newChildNode(chartDiv, "DIV", subTitle);
-  titleElem.classList.add("chartSubTitle");
+  newChildNode(chartDiv, "DIV", text);
 }
 
 function renderChartTabButtons(chartDiv) {
