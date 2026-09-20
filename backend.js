@@ -1437,28 +1437,28 @@ var db = {
 
   getMetricDescription: function(chartConfig) {
     if (chartConfig.metric == this.metrics.ratioElectric)
-      return "Share of battery electric cars within passenger car market";
+      return "Share of battery electric cars within new passenger car market";
     else if (chartConfig.metric == this.metrics.salesElectric)
-      return "Battery electric passenger car sales";
+      return "Battery electric new passenger car sales";
     else if (chartConfig.metric == this.metrics.shareElectric) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        return "Battery electric passenger car market split by company";
+        return "Battery electric new passenger car market split by company";
       else if (chartConfig.xProperty == this.xProperties.brand || chartConfig.detailLevel == this.detailLevels.brand)
-        return "Battery electric passenger car market split by brand";
+        return "Battery electric new passenger car market split by brand";
       else
-        return "Battery electric passenger car market split by model";
+        return "Battery electric new passenger car market split by model";
     } else if (chartConfig.metric == this.metrics.salesAll)
       return "Passenger car sales";
     else if (chartConfig.metric == this.metrics.shareAll) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        return "Passenger car market split by company";
+        return "New passenger car market split by company";
       else
-        return "Passenger car market split by brand";
+        return "New passenger car market split by brand";
     } else if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand) {
       if (chartConfig.xProperty == this.xProperties.company || chartConfig.detailLevel == this.detailLevels.company)
-        return "Share of battery electric cars of passenger car sales within company";
+        return "Share of battery electric cars of new passenger car sales within company";
       else
-        return "Share of battery electric cars of passenger car sales within brand";
+        return "Share of battery electric cars of new passenger car sales within brand";
     }
   },
 
