@@ -624,7 +624,7 @@ function renderChart(chartIndex) {
     if (!isSingleChart && ![db.views.barChart, db.views.lineChart].includes(chartConfig.view))
       chartConfig.view = params.view.defaultOption;
     if ([db.views.barChart, db.views.lineChart].includes(chartConfig.view)) {
-      renderChartView(chartConfig, chartData, chartDiv, false);
+      renderChartView(chartConfig, chartData, chartDiv);
       if (chartConfig != originalChartConfig)
         renderChartTitle3dFrames(chartDiv);
     } else if (chartConfig.view == db.views.table)
@@ -844,7 +844,7 @@ function setGlobalChartOptions() {
   Chart.defaults.interaction.intersect = true;
 }
 
-function renderChartView(chartConfig, chartData, chartDiv, isExport) {
+function renderChartView(chartConfig, chartData, chartDiv) {
   const chartSize = getChartSize();
   const yAxisMax = db.getYAxisMax(chartConfig, chartData);
 
@@ -882,10 +882,6 @@ function renderChartView(chartConfig, chartData, chartDiv, isExport) {
       },
       responsive: false,
       plugins: {
-        title: {
-          display: isExport,
-          text: db.getChartTitle(chartConfig)
-        },
         legend: {
           display: isSingleChart && chartData.series.length > 1
         },
