@@ -2797,3 +2797,31 @@ db.insert(db.countries.PT, "2026-06", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Nio": 9
 , "other": 15
 });
+
+db.insert(db.countries.PT, "2026-07", db.dsTypes.AllCarsTotal, "https://www.acap.pt/pt/noticia/1370/mercado-de-ligeiros-de-passageiros-eletrificados-com-crescimento-de-213-por-cento-em-julho-de-2026",
+{ "other": 18157
+});
+
+db.insert(db.countries.PT, "2026-07", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2026/7, https://www.acap.pt/pt/noticia/1370/mercado-de-ligeiros-de-passageiros-eletrificados-com-crescimento-de-213-por-cento-em-julho-de-2026",
+{ "BMW": 685
+, "Mercedes-Benz": 454
+, "Volvo": 400
+, "BYD": 333
+, "Citroën": 321
+, "Renault": 281
+, "MG": 279
+, "Peugeot": 270
+, "Volkswagen": 260
+, "Leapmotor": 212
+, "Xpeng": 207
+, "Kia": 203
+, "Toyota": 151
+, "Mini": 146
+, "Opel": 131
+, "Ford": 126
+, "Porsche": 109
+, "Hyundai": 107
+, "Audi": 92
+, "Tesla": 89
+, "other": 747
+});
