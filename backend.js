@@ -1652,14 +1652,16 @@ var db = {
           seriesRows[seriesName][category] = value;
         if (!categories.includes(category))
           categories.push(category);
+        let sourceKey = dataset.source + "_" + dataset.isEvs;
         if (sources[dataset.source] == null) {
           let sourceInfo = {};
+          sourceInfo.text = dataset.source;
           sourceInfo.country = dataset.country;
           sourceInfo.firstDate = dataset.monthString;
           sourceInfo.isEvs = dataset.isEvs;
-          sources[dataset.source] = sourceInfo;
+          sources[sourceKey] = sourceInfo;
         }
-        sources[dataset.source].lastDate = dataset.monthString;
+        sources[sourceKey].lastDate = dataset.monthString;
       }
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);

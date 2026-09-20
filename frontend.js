@@ -1435,9 +1435,9 @@ function renderSources(chartConfig, chartDiv, chartData) {
   const isMultiCountry = keys.length > 1 && chartData.sources[keys[0]].country != chartData.sources[keys[keys.length - 1]].country;
 
   let entries = [];
-  for (const text in chartData.sources) {
+  for (const key in chartData.sources) {
     let prefix = "";
-    const sourceInfo = chartData.sources[text];
+    const sourceInfo = chartData.sources[key];
     if (isMultiCountry) {
       prefix += db.countryNames[sourceInfo.country];
       prefix += " ";
@@ -1459,7 +1459,7 @@ function renderSources(chartConfig, chartDiv, chartData) {
     }
     let entry = {};
     entry.prefix = prefix;
-    entry.text = text;
+    entry.text = sourceInfo.text;
     entry.sortKey = sortKey;
     entries.push(entry);
   }
