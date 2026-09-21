@@ -7625,7 +7625,7 @@ db.insert(db.countries.IE, "2026-05", db.dsTypes.ElectricCarsByModel, "https://s
 , "Kia|EV2": 32
 , "BYD|Seal": 27
 , "Kia|EV6": 26
-, "Mercedes-Benz|CLA EQ": 26
+, "Mercedes-Benz|CLA Electric": 26
 , "Hyundai|Kona Electric": 25
 , "Cupra|Tavascan": 24
 , "Renault|5 E-Tech": 24
@@ -7863,7 +7863,7 @@ db.insert(db.countries.IE, "2026-07", db.dsTypes.ElectricCarsByModel, "https://s
 , "Ford|Capri EV": 49
 , "Volvo|EX30": 47
 , "Leapmotor|B10": 44
-, "Mercedes-Benz|CLA EQ": 44
+, "Mercedes-Benz|CLA Electric": 44
 , "Audi|Q4 e-tron": 41
 , "Volvo|other": 79
 , "Kia|other": 70
@@ -7960,7 +7960,7 @@ db.insert(db.countries.IE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://s
 , "BYD|Seal": 21
 , "Mercedes-Benz|GLC Electric": 21
 , "Kia|EV9": 18
-, "Mercedes-Benz|CLA EQ": 16
+, "Mercedes-Benz|CLA Electric": 16
 , "Hyundai|Ioniq 5": 15
 , "Audi|Q4 e-tron": 14
 , "BMW|i4": 14

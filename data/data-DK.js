@@ -4980,7 +4980,7 @@ db.insert(db.countries.DK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|GLB Electric": 269
 , "Toyota|Urban Cruiser Electric": 265
 , "Volkswagen|ID.7": 255
-, "Mercedes-Benz|CLA EQ": 253
+, "Mercedes-Benz|CLA Electric": 253
 , "Volvo|EX40": 250
 , "BMW|iX1": 241
 , "Zeekr|007": 235
@@ -5014,7 +5014,7 @@ db.insert(db.countries.DK, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mercedes-Benz|GLB Electric": 272
 , "Volkswagen|ID. Polo": 266
 , "Renault|Scénic E-Tech": 255
-, "Mercedes-Benz|CLA EQ": 249
+, "Mercedes-Benz|CLA Electric": 249
 , "Zeekr|007": 241
 , "other": 5716
 });

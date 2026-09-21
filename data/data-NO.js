@@ -7567,7 +7567,7 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Tesla|Model 3": 217
 , "Xpeng|G9": 214
 , "Audi|Q4 e-tron": 188
-, "Mercedes-Benz|CLA EQ": 187
+, "Mercedes-Benz|CLA Electric": 187
 , "Ford|Explorer EV": 186
 , "Škoda|Enyaq": 182
 , "Polestar|4": 172
@@ -7700,7 +7700,7 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Mini|Cooper SE": 103
 , "Peugeot|E-5008": 101
 , "Audi|Q4 e-tron": 100
-, "Mercedes-Benz|CLA EQ": 100
+, "Mercedes-Benz|CLA Electric": 100
 , "Citroën|ë-C3": 96
 , "Subaru|E-Outback": 95
 , "Nissan|Leaf": 82
