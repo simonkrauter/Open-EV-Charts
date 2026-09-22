@@ -1636,3 +1636,60 @@ db.insert(db.countries.PL, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 26
 , "other": 1578
 });
+
+db.insert(db.countries.PL, "2026-07", db.dsTypes.AllCarsByBrand, "https://www1.pzpm.org.pl/pl/content/download/22777/272942/file/PZPM_SOiSD_07_2026.xlsx",
+{ "Toyota": 7289
+, "Škoda": 5906
+, "Volkswagen": 4755
+, "Kia": 3110
+, "BMW": 3020
+, "Mercedes-Benz": 2618
+, "Hyundai": 2441
+, "Dacia": 2421
+, "Audi": 2172
+, "Omoda Jaecoo": 2080
+, "Volvo": 1709
+, "MG": 1571
+, "Renault": 1505
+, "Peugeot": 1320
+, "BYD": 1298
+, "Cupra": 1204
+, "Ford": 1153
+, "Chery": 1144
+, "BAIC": 1018
+, "Opel": 757
+, "Mazda": 739
+, "Citroën": 641
+, "Suzuki": 586
+, "Fiat": 440
+, "Honda": 370
+, "Nissan": 367
+, "Mini": 342
+, "Geely": 336
+, "Seat": 318
+, "Jeep": 308
+, "Land Rover": 225
+, "Porsche": 218
+, "Leapmotor": 213
+, "JAC": 99
+, "Mitsubishi": 88
+, "Dongfeng": 68
+, "Xpeng": 62
+, "Tesla": 47
+, "Changan": 43
+, "other": 2202
+});
+
+db.insert(db.countries.PL, "2026-07", db.dsTypes.ElectricCarsByModel, "https://www1.pzpm.org.pl/pl/content/download/22786/273044/file/PZPM_eRejestracje%20-%20tabele%2007.2026.xlsx",
+{ "Škoda|Elroq": 105
+, "Audi|Q4 e-tron": 82
+, "Toyota|bZ4X": 75
+, "Mercedes-Benz|CLA Electric": 63
+, "BYD|Seagull": 51
+, "BMW|iX1": 46
+, "Tesla|Model Y": 45
+, "BMW|iX2": 34
+, "Mercedes-Benz|EQA": 2
+, "Tesla|Model 3": 2
+, "other": 1753
+});
