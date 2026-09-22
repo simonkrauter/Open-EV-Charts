@@ -1653,7 +1653,7 @@ var db = {
         if (!categories.includes(category))
           categories.push(category);
         let sourceKey = dataset.source + "_" + dataset.isEvs;
-        if (sources[dataset.source] == null) {
+        if (sources[sourceKey] == null) {
           let sourceInfo = {};
           sourceInfo.text = dataset.source;
           sourceInfo.country = dataset.country;
