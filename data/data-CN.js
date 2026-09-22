@@ -2346,3 +2346,30 @@ db.insert(db.countries.CN, "2026-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Seal 06 EV": 4069
 , "other": 388671
 });
+
+db.insert(db.countries.CN, "2026-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/09/19/the-unstoppable-rise-of-leapmotor-augusts-china-ev-sales-report-45-bev-share/",
+{ "other": 1500000
+});
+
+db.insert(db.countries.CN, "2026-08", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/09/19/the-unstoppable-rise-of-leapmotor-augusts-china-ev-sales-report-45-bev-share/",
+{ "Geometry|Xingyuan": 39651
+, "Leapmotor|A10": 30652
+, "Tesla|Model Y": 29260
+, "BYD|Atto 2": 22958
+, "Tesla|Model 3": 20787
+, "BYD|Dolphin": 16829
+, "Xiaomi|SU7": 16518
+, "Wuling|Bingo Pro": 14695
+, "BYD|Song EV": 13954
+, "Xiaomi|YU7": 13635
+, "MG|4 EV": 13089
+, "Chery|QQ3 EV": 12579
+, "Wuling|Hongguang Mini EV": 11033
+, "Xpeng|Mona L03": 8424
+, "Leapmotor|A05": 8340
+, "BYD|Sealion 05 EV": 7440
+, "BYD|Seal 06 EV": 6183
+, "BYD|Qin EV": 4987
+, "BYD|Sealion 06 EV": 4877
+, "other": 379109
+});
