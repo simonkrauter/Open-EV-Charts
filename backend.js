@@ -1652,16 +1652,19 @@ var db = {
           seriesRows[seriesName][category] = value;
         if (!categories.includes(category))
           categories.push(category);
-        let sourceKey = dataset.source + "_" + dataset.isEvs;
-        if (sources[sourceKey] == null) {
+        if (sources[dataset.source] == null) {
           let sourceInfo = {};
-          sourceInfo.text = dataset.source;
           sourceInfo.country = dataset.country;
           sourceInfo.firstDate = dataset.monthString;
-          sourceInfo.isEvs = dataset.isEvs;
-          sources[sourceKey] = sourceInfo;
+          sourceInfo.isAllCars = false;
+          sourceInfo.isEvs = false;
+          sources[dataset.source] = sourceInfo;
         }
-        sources[sourceKey].lastDate = dataset.monthString;
+        sources[dataset.source].lastDate = dataset.monthString;
+        if (dataset.isEvs)
+          sources[dataset.source].isEvs = true;
+        else
+          sources[dataset.source].isAllCars = true;
       }
       if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
         nonMonthlyCountries.push(dataset.country);
@@ -2673,6 +2676,12 @@ var db = {
         for (const j in newChartData.sources) {
           if (chartData.sources[j] == null)
             chartData.sources[j] = newChartData.sources[j];
+          else {
+            if (newChartData.sources[j].isEvs)
+              chartData.sources[j].isEvs = true;
+            if (newChartData.sources[j].isAllCars)
+              chartData.sources[j].isAllCars = true;
+          }
         }
       } else {
         chartData = newChartData;

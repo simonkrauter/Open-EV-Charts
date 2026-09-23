@@ -1449,17 +1449,19 @@ function renderSources(chartConfig, chartDiv, chartData) {
       prefix += sourceInfo.lastDate;
     }
     if ([db.metrics.ratioElectric, db.metrics.ratioElectricWithinCompanyOrBrand].includes(chartConfig.metric) || db.isMultiMetric(chartConfig)) {
-      if (!sourceInfo.isEvs) {
-        prefix += " All cars";
-        sortKey += "0";
-      } else {
-        prefix += " BEVs";
-        sortKey += "1";
+      if (sourceInfo.isAllCars != sourceInfo.isEvs) {
+        if (sourceInfo.isEvs) {
+          prefix += " BEVs";
+          sortKey += "1";
+        } else {
+          prefix += " All cars";
+          sortKey += "0";
+        }
       }
     }
     let entry = {};
     entry.prefix = prefix;
-    entry.text = sourceInfo.text;
+    entry.text = key;
     entry.sortKey = sortKey;
     entries.push(entry);
   }
