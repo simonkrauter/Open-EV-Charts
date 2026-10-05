@@ -95,387 +95,387 @@ db.insert(db.countries.EU, "2017-12", db.dsTypes.ElectricCarsTotal, "https://www
 });
 
 db.insert(db.countries.EU, "2018-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1113862
+{ "other": 1126577
 });
 
 db.insert(db.countries.EU, "2018-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 7480
+{ "other": 7596
 });
 
 db.insert(db.countries.EU, "2018-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1077639
+{ "other": 1084031
 });
 
 db.insert(db.countries.EU, "2018-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 7656
+{ "other": 7630
 });
 
 db.insert(db.countries.EU, "2018-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1365358
+{ "other": 1367087
 });
 
 db.insert(db.countries.EU, "2018-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 14833
+{ "other": 14846
 });
 
 db.insert(db.countries.EU, "2018-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1168718
+{ "other": 1175765
 });
 
 db.insert(db.countries.EU, "2018-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 9558
+{ "other": 9539
 });
 
 db.insert(db.countries.EU, "2018-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1234040
+{ "other": 1238242
 });
 
 db.insert(db.countries.EU, "2018-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 8618
+{ "other": 8672
 });
 
 db.insert(db.countries.EU, "2018-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1381013
+{ "other": 1379264
 });
 
 db.insert(db.countries.EU, "2018-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 11570
+{ "other": 11545
 });
 
 db.insert(db.countries.EU, "2018-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1141768
+{ "other": 1135852
 });
 
 db.insert(db.countries.EU, "2018-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 8394
+{ "other": 8332
 });
 
 db.insert(db.countries.EU, "2018-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1009222
+{ "other": 1024097
 });
 
 db.insert(db.countries.EU, "2018-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 9872
+{ "other": 9861
 });
 
 db.insert(db.countries.EU, "2018-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 801375
+{ "other": 793695
 });
 
 db.insert(db.countries.EU, "2018-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 12595
+{ "other": 12586
 });
 
 db.insert(db.countries.EU, "2018-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 966002
+{ "other": 961841
 });
 
 db.insert(db.countries.EU, "2018-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 13141
+{ "other": 13215
 });
 
 db.insert(db.countries.EU, "2018-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1005205
+{ "other": 995302
 });
 
 db.insert(db.countries.EU, "2018-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 16434
+{ "other": 16476
 });
 
 db.insert(db.countries.EU, "2018-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 902114
+{ "other": 884563
 });
 
 db.insert(db.countries.EU, "2018-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 19849
+{ "other": 19702
 });
 
 db.insert(db.countries.EU, "2019-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1063472
+{ "other": 1072382
 });
 
 db.insert(db.countries.EU, "2019-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 15366
+{ "other": 15305
 });
 
 db.insert(db.countries.EU, "2019-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1068669
+{ "other": 1075979
 });
 
 db.insert(db.countries.EU, "2019-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 15448
+{ "other": 15526
 });
 
 db.insert(db.countries.EU, "2019-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1336154
+{ "other": 1336482
 });
 
 db.insert(db.countries.EU, "2019-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 28621
+{ "other": 28680
 });
 
 db.insert(db.countries.EU, "2019-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1177976
+{ "other": 1184246
 });
 
 db.insert(db.countries.EU, "2019-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 17073
+{ "other": 17062
 });
 
 db.insert(db.countries.EU, "2019-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1230674
+{ "other": 1231590
 });
 
 db.insert(db.countries.EU, "2019-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 16764
+{ "other": 16830
 });
 
 db.insert(db.countries.EU, "2019-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1278084
+{ "other": 1275518
 });
 
 db.insert(db.countries.EU, "2019-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 24768
+{ "other": 24987
 });
 
 db.insert(db.countries.EU, "2019-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1160902
+{ "other": 1158230
 });
 
 db.insert(db.countries.EU, "2019-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 16908
+{ "other": 16847
 });
 
 db.insert(db.countries.EU, "2019-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 933918
+{ "other": 945352
 });
 
 db.insert(db.countries.EU, "2019-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 15876
+{ "other": 15889
 });
 
 db.insert(db.countries.EU, "2019-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 962598
+{ "other": 958396
 });
 
 db.insert(db.countries.EU, "2019-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 26055
+{ "other": 26146
 });
 
 db.insert(db.countries.EU, "2019-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1071734
+{ "other": 1070528
 });
 
 db.insert(db.countries.EU, "2019-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 16777
+{ "other": 16764
 });
 
 db.insert(db.countries.EU, "2019-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1063716
+{ "other": 1053370
 });
 
 db.insert(db.countries.EU, "2019-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 19688
+{ "other": 19493
 });
 
 db.insert(db.countries.EU, "2019-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1116930
+{ "other": 1102754
 });
 
 db.insert(db.countries.EU, "2019-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 36656
+{ "other": 36471
 });
 
 db.insert(db.countries.EU, "2020-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 993186
+{ "other": 1006326
 });
 
 db.insert(db.countries.EU, "2020-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 29956
+{ "other": 29875
 });
 
 db.insert(db.countries.EU, "2020-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1011410
+{ "other": 1017625
 });
 
 db.insert(db.countries.EU, "2020-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 31676
+{ "other": 31661
 });
 
 db.insert(db.countries.EU, "2020-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 582930
+{ "other": 588685
 });
 
 db.insert(db.countries.EU, "2020-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 32756
+{ "other": 33089
 });
 
 db.insert(db.countries.EU, "2020-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 278369
+{ "other": 271059
 });
 
 db.insert(db.countries.EU, "2020-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 13068
+{ "other": 12878
 });
 
 db.insert(db.countries.EU, "2020-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 604460
+{ "other": 616243
 });
 
 db.insert(db.countries.EU, "2020-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 17872
+{ "other": 18099
 });
 
 db.insert(db.countries.EU, "2020-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 998507
+{ "other": 1008210
 });
 
 db.insert(db.countries.EU, "2020-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 34623
+{ "other": 34792
 });
 
 db.insert(db.countries.EU, "2020-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1137633
+{ "other": 1135030
 });
 
 db.insert(db.countries.EU, "2020-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 39527
+{ "other": 39563
 });
 
 db.insert(db.countries.EU, "2020-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 800033
+{ "other": 804256
 });
 
 db.insert(db.countries.EU, "2020-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 37329
+{ "other": 37633
 });
 
 db.insert(db.countries.EU, "2020-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1004630
+{ "other": 998469
 });
 
 db.insert(db.countries.EU, "2020-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 58847
+{ "other": 59069
 });
 
 db.insert(db.countries.EU, "2020-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1020331
+{ "other": 1016532
 });
 
 db.insert(db.countries.EU, "2020-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 55135
+{ "other": 55080
 });
 
 db.insert(db.countries.EU, "2020-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 956047
+{ "other": 943975
 });
 
 db.insert(db.countries.EU, "2020-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 62951
+{ "other": 62704
 });
 
 db.insert(db.countries.EU, "2020-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1119064
+{ "other": 1100190
 });
 
 db.insert(db.countries.EU, "2020-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 126260
+{ "other": 125557
 });
 
 db.insert(db.countries.EU, "2021-01", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 773065
+{ "other": 784350
 });
 
 db.insert(db.countries.EU, "2021-01", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 35170
+{ "other": 35350
 });
 
 db.insert(db.countries.EU, "2021-02", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 820333
+{ "other": 828029
 });
 
 db.insert(db.countries.EU, "2021-02", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 40466
+{ "other": 40568
 });
 
 db.insert(db.countries.EU, "2021-03", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1151844
+{ "other": 1155038
 });
 
 db.insert(db.countries.EU, "2021-03", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 72650
+{ "other": 72602
 });
 
 db.insert(db.countries.EU, "2021-04", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 919769
+{ "other": 923832
 });
 
 db.insert(db.countries.EU, "2021-04", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 56846
+{ "other": 56711
 });
 
 db.insert(db.countries.EU, "2021-05", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 950887
+{ "other": 950727
 });
 
 db.insert(db.countries.EU, "2021-05", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 63946
+{ "other": 63827
 });
 
 db.insert(db.countries.EU, "2021-06", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 1130399
+{ "other": 1129806
 });
 
 db.insert(db.countries.EU, "2021-06", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 95458
+{ "other": 95298
 });
 
 db.insert(db.countries.EU, "2021-07", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 867203
+{ "other": 861998
 });
 
 db.insert(db.countries.EU, "2021-07", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 57017
+{ "other": 57046
 });
 
 db.insert(db.countries.EU, "2021-08", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 645549
+{ "other": 649516
 });
 
 db.insert(db.countries.EU, "2021-08", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 69375
+{ "other": 69663
 });
 
 db.insert(db.countries.EU, "2021-09", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 782624
+{ "other": 779889
 });
 
 db.insert(db.countries.EU, "2021-09", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 93839
+{ "other": 94047
 });
 
 db.insert(db.countries.EU, "2021-10", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 716041
+{ "other": 714471
 });
 
 db.insert(db.countries.EU, "2021-10", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 77853
+{ "other": 78009
 });
 
 db.insert(db.countries.EU, "2021-11", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 771470
+{ "other": 766356
 });
 
 db.insert(db.countries.EU, "2021-11", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 95782
+{ "other": 95809
 });
 
 db.insert(db.countries.EU, "2021-12", db.dsTypes.AllCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 887640
+{ "other": 872812
 });
 
 db.insert(db.countries.EU, "2021-12", db.dsTypes.ElectricCarsTotal, "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
-{ "other": 131598
+{ "other": 131070
 });
 
 db.insert(db.countries.EU, "2022-01", db.dsTypes.AllCarsTotal, "https://www.acea.auto/files/20230221_PRPC_2301-FINAL.pdf",
