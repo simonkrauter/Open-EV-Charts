@@ -1015,11 +1015,11 @@ db.insert(db.countries.US, "2026-Q1", db.dsTypes.ElectricCarsByModel, "https://w
 , "other": 12520
 });
 
-db.insert(db.countries.US, "2026-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf",
-{ "other": 4200650
+db.insert(db.countries.US, "2026-Q2", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-09/Total%20Sales%20for%20Website_August%202026.pdf",
+{ "other": 4256929
 });
 
-db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-07/Total%20Sales%20for%20Website_June%202026.pdf, https://cleantechnica.com/2026/07/21/tesla-model-y-model-3-dominate-us-ev-market-but-who-completes-the-top-10/",
+db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://www.anl.gov/sites/www/files/2026-09/Total%20Sales%20for%20Website_August%202026.pdf, https://cleantechnica.com/2026/07/21/tesla-model-y-model-3-dominate-us-ev-market-but-who-completes-the-top-10/",
 { "Tesla|Model Y": 84863
 , "Tesla|Model 3": 34944
 , "Hyundai|Ioniq 5": 10940
@@ -1066,6 +1066,5 @@ db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volvo|EX40": 273
 , "Mercedes-Benz|G-Class EV": 240
 , "Jeep|Wagoneer S": 198
-, "Audi|e-tron GT": 135
-, "other": 32273
+, "other": 66865
 });
