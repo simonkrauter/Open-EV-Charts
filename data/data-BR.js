@@ -1776,11 +1776,12 @@ db.insert(db.countries.BR, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "MG|other": 646
 , "Chevrolet|other": 571
 , "Leapmotor|other": 416
+, "Aion|other": 385
 , "Geely|other": 374
 , "Volvo|other": 178
 , "Omoda Jaecoo|other": 115
 , "Zeekr|other": 74
 , "Mini|other": 20
 , "Porsche|other": 16
-, "other": 505
+, "other": 120
 });
