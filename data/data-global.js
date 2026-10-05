@@ -917,3 +917,11 @@ db.insert(db.countries.global, "2026-07", db.dsTypes.AllCarsTotal, "https://clea
 db.insert(db.countries.global, "2026-07", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/08/29/top-selling-electric-vehicles-in-the-world-27-ev-share-in-july/",
 { "other": 1283333
 });
+
+db.insert(db.countries.global, "2026-08", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/10/04/top-selling-electric-vehicles-in-the-world-27-ev-share-in-august/",
+{ "other": 6500000
+});
+
+db.insert(db.countries.global, "2026-08", db.dsTypes.ElectricCarsTotal, "https://cleantechnica.com/2026/10/04/top-selling-electric-vehicles-in-the-world-27-ev-share-in-august/",
+{ "other": 1300000
+});
