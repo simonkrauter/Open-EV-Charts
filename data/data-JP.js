@@ -449,3 +449,11 @@ db.insert(db.countries.JP, "2026-08", db.dsTypes.AllCarsTotal, "https://www.jada
 db.insert(db.countries.JP, "2026-08", db.dsTypes.ElectricCarsTotal, "https://www.jada.or.jp/files/libs/7572/202609030957113390.pdf",
 { "other": 8351
 });
+
+db.insert(db.countries.JP, "2026-09", db.dsTypes.AllCarsTotal, "https://www.jada.or.jp/files/libs/7726/202610051043121399.pdf",
+{ "other": 236293
+});
+
+db.insert(db.countries.JP, "2026-09", db.dsTypes.ElectricCarsTotal, "https://www.jada.or.jp/files/libs/7726/202610051043121399.pdf",
+{ "other": 13440
+});
