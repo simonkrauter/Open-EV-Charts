@@ -6425,3 +6425,71 @@ db.insert(db.countries.UK, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "MG|4 EV": 487
 , "other": 15443
 });
+
+db.insert(db.countries.UK, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Volkswagen": 25972
+, "Omoda Jaecoo": 22298
+, "BYD": 20140
+, "Kia": 18399
+, "MG": 18026
+, "Audi": 16722
+, "Tesla": 15875
+, "BMW": 15617
+, "Mercedes-Benz": 15571
+, "Toyota": 13948
+, "Škoda": 13741
+, "Volvo": 12236
+, "Vauxhall": 11991
+, "Ford": 11917
+, "Nissan": 11046
+, "Hyundai": 10003
+, "Peugeot": 9804
+, "Chery": 9793
+, "Land Rover": 9004
+, "Renault": 6725
+, "Mini": 6568
+, "Cupra": 5857
+, "Citroën": 5825
+, "Geely": 5155
+, "Mazda": 4417
+, "Honda": 4149
+, "Leapmotor": 3943
+, "Dacia": 3736
+, "Suzuki": 3020
+, "Seat": 2907
+, "Porsche": 2554
+, "Polestar": 2219
+, "Jeep": 1701
+, "Fiat": 1244
+, "Aion": 678
+, "Changan": 659
+, "Smart": 342
+, "Xpeng": 331
+, "Subaru": 204
+, "Mitsubishi": 76
+, "other": 6123
+});
+
+db.insert(db.countries.UK, "2026-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2026/9 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Tesla|Model 3": 9633
+, "Tesla|Model Y": 5776
+, "BYD|Sealion 7": 3045
+, "BYD|Seal": 3018
+, "Kia|EV3": 2789
+, "Škoda|Enyaq": 2104
+, "MG|4 EV": 2057
+, "Volvo|EX30": 1885
+, "Leapmotor|B10": 1837
+, "Mercedes-Benz|CLA Electric": 1764
+, "Škoda|Elroq": 1758
+, "Toyota|C-HR+": 1590
+, "Ford|Puma Gen-E": 1584
+, "Kia|EV2": 1576
+, "Audi|Q6 e-tron": 1488
+, "Geely|EX5 BEV": 1434
+, "Kia|EV5": 1379
+, "Omoda Jaecoo|Jaecoo E5": 1347
+, "Polestar|2": 1340
+, "Vauxhall|Frontera Electric": 1282
+, "other": 50515
+});
