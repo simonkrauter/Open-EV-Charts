@@ -6353,11 +6353,11 @@ db.insert(db.countries.UK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Citroën|other": 168
 , "Fiat|other": 162
 , "Xpeng|other": 154
+, "Aion|other": 138
 , "Geely|other": 123
 , "Mazda|other": 114
-, "Aion|other": 111
 , "Suzuki|other": 105
-, "other": 3570
+, "other": 3543
 });
 
 db.insert(db.countries.UK, "2026-08", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
