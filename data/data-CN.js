@@ -2373,3 +2373,29 @@ db.insert(db.countries.CN, "2026-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Sealion 06 EV": 4877
 , "other": 379109
 });
+
+db.insert(db.countries.CN, "2026-09", db.dsTypes.AllCarsTotal, "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
+{ "other": 1600000
+});
+
+db.insert(db.countries.CN, "2026-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
+{ "Tesla|Model Y": 50359
+, "Geometry|Xingyuan": 44275
+, "BYD|Atto 2": 22767
+, "Leapmotor|A10": 21772
+, "BYD|Song EV": 17131
+, "BYD|Dolphin": 16754
+, "Xiaomi|SU7": 15751
+, "Tesla|Model 3": 14478
+, "Wuling|Bingo Pro": 14002
+, "MG|4 EV": 13966
+, "Wuling|Hongguang Mini EV": 13630
+, "Chery|QQ3 EV": 12688
+, "Xiaomi|YU7": 11820
+, "MG|07 EV": 9901
+, "BYD|Sealion 06 EV": 9832
+, "BYD|Seal 06 EV": 7459
+, "BYD|Sealion 05 EV": 7050
+, "Deepal|S05 EV": 6547
+, "other": 409818
+});
