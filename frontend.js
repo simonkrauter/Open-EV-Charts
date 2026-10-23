@@ -1120,8 +1120,12 @@ function getChartSeriesColors(chartConfig, chartData) {
 function renderTable(chartConfig, chartDiv, chartData) {
   let horizontalBarMaxValue = 0;
   if (chartData.series.length == 1 && chartData.categories.length > 1) {
-    for (const i in chartData.categories) {
-      horizontalBarMaxValue = Math.max(horizontalBarMaxValue, chartData.series[0].data[i]);
+    if (db.isMetricPercent(chartConfig.metric)) {
+      horizontalBarMaxValue = 100;
+    } else {
+      for (const i in chartData.categories) {
+        horizontalBarMaxValue = Math.max(horizontalBarMaxValue, chartData.series[0].data[i]);
+      }
     }
   }
   const showRankColumn = !db.isTimeXProperty(chartConfig);
