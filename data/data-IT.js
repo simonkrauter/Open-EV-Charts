@@ -7799,7 +7799,7 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Ford|Puma Gen-E": 121
 , "BMW|iX3": 119
 , "Ford|Explorer EV": 119
-, "Deepal|S05": 118
+, "Deepal|S05 EV": 118
 , "Mercedes-Benz|CLA Electric": 114
 , "Audi|Q6 e-tron": 112
 , "Fiat|Grande Panda Electric": 112
@@ -7822,7 +7822,7 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Toyota|C-HR+": 62
 , "Jeep|Compass Electric": 58
 , "Leapmotor|B05": 53
-, "Deepal|S07": 52
+, "Deepal|S07 EV": 52
 , "Citroën|ë-C3 Aircross": 49
 , "Mercedes-Benz|GLC Electric": 47
 , "Mercedes-Benz|GLB Electric": 46
@@ -7944,7 +7944,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Porsche|Cayenne Electric": 66
 , "BMW|i4": 62
 , "BMW|i7": 62
-, "Deepal|S05": 61
+, "Deepal|S05 EV": 61
 , "BMW|iX2": 60
 , "Xpeng|G6": 60
 , "Renault|4 E-Tech": 58
@@ -8180,7 +8180,7 @@ db.insert(db.countries.IT, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Fiat|Grande Panda Electric": 44
 , "Porsche|Macan Electric": 44
 , "MG|4 EV": 41
-, "Deepal|S05": 38
+, "Deepal|S05 EV": 38
 , "Citroën|ë-C3": 37
 , "Xpeng|G6": 32
 , "Renault|5 E-Tech": 31

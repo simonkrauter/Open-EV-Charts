@@ -7043,7 +7043,7 @@ db.insert(db.countries.NO, "2025-12", db.dsTypes.ElectricCarsByModel, "https://e
 , "Subaru|Solterra": 325
 , "Xpeng|G9": 299
 , "Ford|Capri EV": 290
-, "Deepal|S05": 259
+, "Deepal|S05 EV": 259
 , "MG|S5 EV": 249
 , "Hyundai|Kona Electric": 244
 , "Peugeot|E-3008": 238
@@ -7123,7 +7123,7 @@ db.insert(db.countries.NO, "2026-01", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|bZ4X": 160
 , "Toyota|Urban Cruiser Electric": 81
 , "Škoda|Elroq": 76
-, "Deepal|S05": 66
+, "Deepal|S05 EV": 66
 , "Volkswagen|ID.4": 63
 , "Tesla|Model Y": 62
 , "Nissan|Micra EV": 57
@@ -7236,7 +7236,7 @@ db.insert(db.countries.NO, "2026-02", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.3": 185
 , "Ford|Explorer EV": 145
 , "Peugeot|E-5008": 142
-, "Deepal|S05": 137
+, "Deepal|S05 EV": 137
 , "BMW|iX1": 132
 , "Tesla|Model 3": 130
 , "Volkswagen|ID.7": 123
@@ -7354,7 +7354,7 @@ db.insert(db.countries.NO, "2026-03", db.dsTypes.ElectricCarsByModel, "https://e
 , "Ford|Explorer EV": 156
 , "Audi|Q6 e-tron": 151
 , "Audi|Q4 e-tron": 144
-, "Deepal|S05": 139
+, "Deepal|S05 EV": 139
 , "Kia|EV3": 130
 , "Hyundai|Ioniq 5": 125
 , "Hyundai|Kona Electric": 122
@@ -7469,7 +7469,7 @@ db.insert(db.countries.NO, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "BMW|iX1": 120
 , "Smart|Hashtag 5": 106
 , "Hyundai|Kona Electric": 101
-, "Deepal|S05": 95
+, "Deepal|S05 EV": 95
 , "Nissan|Ariya": 92
 , "Polestar|2": 89
 , "Kia|EV9": 87
@@ -7573,7 +7573,7 @@ db.insert(db.countries.NO, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|4": 172
 , "Audi|Q6 e-tron": 167
 , "BMW|iX1": 167
-, "Deepal|S05": 151
+, "Deepal|S05 EV": 151
 , "Kia|PV5": 147
 , "Honda|e:Ny1": 139
 , "MG|S6 EV": 125
@@ -7685,7 +7685,7 @@ db.insert(db.countries.NO, "2026-06", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volvo|EX90": 212
 , "Audi|Q6 e-tron": 211
 , "Hyundai|Ioniq 5": 206
-, "Deepal|S05": 201
+, "Deepal|S05 EV": 201
 , "Smart|Hashtag 5": 175
 , "Kia|PV5": 171
 , "Kia|EV3": 157

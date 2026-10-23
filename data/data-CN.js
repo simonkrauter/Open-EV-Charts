@@ -2226,7 +2226,7 @@ db.insert(db.countries.CN, "2026-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Zeekr|9X": 10060
 , "Aion|Y": 8078
 , "BYD|Sealion 06 EV": 8306
-, "Deepal|S05": 7020
+, "Deepal|S05 EV": 7020
 , "Geely|Panda Mini EV": 6562
 , "BYD|Seal 06 EV": 5220
 , "Leapmotor|C10 EV": 4980
@@ -2253,7 +2253,7 @@ db.insert(db.countries.CN, "2026-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 12192
 , "BYD|Sealion 06 EV": 10953
 , "Toyota|bZ3X": 10027
-, "Deepal|S05": 6988
+, "Deepal|S05 EV": 6988
 , "BYD|Seal 06 EV": 5949
 , "BYD|Song EV": 5940
 , "Leapmotor|C10 EV": 6013

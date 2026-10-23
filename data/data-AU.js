@@ -1369,7 +1369,7 @@ db.insert(db.countries.AU, "2025-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX40": 73
 , "Toyota|bZ4X": 72
 , "Zeekr|X": 68
-, "Deepal|S07": 67
+, "Deepal|S07 EV": 67
 , "Hyundai|Ioniq 5": 65
 , "Leapmotor|C10 EV": 55
 , "Mercedes-Benz|EQB": 49
@@ -1447,7 +1447,7 @@ db.insert(db.countries.AU, "2025-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Inster": 41
 , "Audi|Q6 e-tron": 36
 , "Volvo|EX90": 35
-, "Deepal|S07": 32
+, "Deepal|S07 EV": 32
 , "Mercedes-Benz|EQE": 32
 , "Polestar|3": 30
 , "Kia|EV6": 29
@@ -1512,7 +1512,7 @@ db.insert(db.countries.AU, "2025-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Omoda Jaecoo|Omoda E5": 48
 , "Leapmotor|C10 EV": 43
 , "Audi|Q6 e-tron": 41
-, "Deepal|S07": 40
+, "Deepal|S07 EV": 40
 , "Volvo|EX40": 40
 , "Cupra|Tavascan": 39
 , "Hyundai|Ioniq 5": 39
@@ -1599,7 +1599,7 @@ db.insert(db.countries.AU, "2025-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX90": 18
 , "Škoda|Enyaq": 18
 , "Polestar|3": 17
-, "Deepal|S07": 16
+, "Deepal|S07 EV": 16
 , "Porsche|Taycan": 10
 , "Mercedes-Benz|EQE": 9
 , "Renault|Megane E-Tech": 9
@@ -1647,7 +1647,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 88
 , "Toyota|bZ4X": 80
 , "Škoda|Elroq": 77
-, "Deepal|E07": 72
+, "Deepal|E07 EV": 72
 , "Leapmotor|C10 EV": 71
 , "Audi|Q4 e-tron": 68
 , "Mercedes-Benz|EQS SUV": 62
@@ -1669,7 +1669,7 @@ db.insert(db.countries.AU, "2025-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Cupra|Tavascan": 29
 , "Kia|EV9": 25
 , "BMW|i5": 24
-, "Deepal|S07": 23
+, "Deepal|S07 EV": 23
 , "Kia|EV6": 20
 , "Škoda|Enyaq": 17
 , "Renault|Megane E-Tech": 14
@@ -1736,8 +1736,8 @@ db.insert(db.countries.AU, "2025-10", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 6": 46
 , "Hyundai|Inster": 45
 , "Hyundai|Kona Electric": 45
-, "Deepal|E07": 43
-, "Deepal|S07": 39
+, "Deepal|E07 EV": 43
+, "Deepal|S07 EV": 39
 , "Mercedes-Benz|EQE SUV": 36
 , "BMW|i4": 32
 , "Zeekr|X": 31
@@ -1810,7 +1810,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 59
 , "BMW|iX2": 58
 , "Leapmotor|C10 EV": 57
-, "Deepal|E07": 56
+, "Deepal|E07 EV": 56
 , "Omoda Jaecoo|Omoda E5": 56
 , "Polestar|3": 56
 , "Volkswagen|ID.5": 51
@@ -1823,7 +1823,7 @@ db.insert(db.countries.AU, "2025-11", db.dsTypes.ElectricCarsByModel, "https://t
 , "Škoda|Elroq": 36
 , "Leapmotor|B10": 33
 , "Zeekr|X": 30
-, "Deepal|S07": 27
+, "Deepal|S07 EV": 27
 , "Kia|Niro EV": 25
 , "Hyundai|Ioniq 5": 23
 , "Volvo|EX90": 16
@@ -1889,7 +1889,7 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Ford|Mustang Mach-E": 48
 , "Hyundai|Ioniq 5": 48
 , "Subaru|Solterra": 45
-, "Deepal|S07": 43
+, "Deepal|S07 EV": 43
 , "Volkswagen|ID.5": 42
 , "Hyundai|Inster": 41
 , "Hyundai|Kona Electric": 38
@@ -1898,7 +1898,7 @@ db.insert(db.countries.AU, "2025-12", db.dsTypes.ElectricCarsByModel, "https://t
 , "Leapmotor|B10": 25
 , "Polestar|3": 25
 , "Zeekr|X": 24
-, "Deepal|E07": 23
+, "Deepal|E07 EV": 23
 , "Cupra|Tavascan": 22
 , "Hyundai|Ioniq 6": 21
 , "Mini|Cooper SE": 17
@@ -1960,7 +1960,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Omoda Jaecoo|Omoda E5": 72
 , "Mercedes-Benz|EQB": 67
 , "Volkswagen|ID. Buzz": 67
-, "Deepal|S07": 60
+, "Deepal|S07 EV": 60
 , "Volvo|EX30": 58
 , "Kia|EV4": 55
 , "Audi|Q6 e-tron": 54
@@ -1970,7 +1970,7 @@ db.insert(db.countries.AU, "2026-01", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Inster": 43
 , "Leapmotor|B10": 43
 , "Hyundai|Kona Electric": 41
-, "Deepal|E07": 39
+, "Deepal|E07 EV": 39
 , "Subaru|Solterra": 37
 , "Škoda|Elroq": 30
 , "Zeekr|009": 29
@@ -2043,7 +2043,7 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|EQB": 55
 , "Kia|EV6": 50
 , "Volkswagen|ID. Buzz": 48
-, "Deepal|S07": 46
+, "Deepal|S07 EV": 46
 , "Hyundai|Inster": 45
 , "Polestar|2": 45
 , "Volvo|EX40": 42
@@ -2056,7 +2056,7 @@ db.insert(db.countries.AU, "2026-02", db.dsTypes.ElectricCarsByModel, "https://t
 , "Kia|EV4": 32
 , "Hyundai|Ioniq 5": 30
 , "Volvo|EX90": 26
-, "Deepal|E07": 25
+, "Deepal|E07 EV": 25
 , "Leapmotor|B10": 25
 , "Subaru|Solterra": 25
 , "Leapmotor|C10 EV": 21
@@ -2128,7 +2128,7 @@ db.insert(db.countries.AU, "2026-03", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Ioniq 5": 64
 , "Kia|EV4": 63
 , "Volkswagen|ID.5": 62
-, "Deepal|S07": 61
+, "Deepal|S07 EV": 61
 , "Cupra|Tavascan": 59
 , "Leapmotor|C10 EV": 54
 , "Polestar|2": 49
@@ -2185,7 +2185,7 @@ db.insert(db.countries.AU, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "GWM|Ora 03": 197
 , "Volkswagen|ID. Buzz": 195
 , "Polestar|4": 190
-, "Deepal|S07": 179
+, "Deepal|S07 EV": 179
 , "Subaru|Solterra": 175
 , "Hyundai|Elexio": 158
 , "Hyundai|Kona Electric": 136
@@ -2264,8 +2264,8 @@ db.insert(db.countries.AU, "2026-05", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Elexio": 103
 , "Volvo|EX30": 93
 , "Volvo|EX40": 91
-, "Deepal|S07": 89
-, "Deepal|E07": 82
+, "Deepal|S07 EV": 89
+, "Deepal|E07 EV": 82
 , "Subaru|Solterra": 74
 , "Mercedes-Benz|EQA": 73
 , "Audi|Q6 e-tron": 72
@@ -2341,7 +2341,7 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Volvo|EX30": 133
 , "Volkswagen|ID. Buzz": 120
 , "Hyundai|Elexio": 90
-, "Deepal|S07": 87
+, "Deepal|S07 EV": 87
 , "Subaru|Uncharted": 83
 , "Renault|Megane E-Tech": 79
 , "Zeekr|X": 76
@@ -2350,7 +2350,7 @@ db.insert(db.countries.AU, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Subaru|Solterra": 73
 , "Škoda|Enyaq": 65
 , "Volkswagen|ID.5": 60
-, "Deepal|E07": 56
+, "Deepal|E07 EV": 56
 , "Mercedes-Benz|EQA": 53
 , "Kia|EV6": 46
 , "Škoda|Elroq": 45
@@ -2433,8 +2433,8 @@ db.insert(db.countries.AU, "2026-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|Elexio": 53
 , "Subaru|Solterra": 45
 , "Škoda|Elroq": 43
-, "Deepal|E07": 42
-, "Deepal|S07": 37
+, "Deepal|E07 EV": 42
+, "Deepal|S07 EV": 37
 , "Volkswagen|ID.5": 37
 , "Cupra|Tavascan": 35
 , "Leapmotor|C10 EV": 33

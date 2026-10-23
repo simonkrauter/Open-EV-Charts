@@ -8490,7 +8490,7 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID. Buzz": 63
 , "Citroën|ë-C3": 62
 , "Opel|Corsa-e": 62
-, "Deepal|S05": 60
+, "Deepal|S05 EV": 60
 , "BYD|Dolphin": 58
 , "Volkswagen|ID.3": 58
 , "Leapmotor|T03": 57
@@ -8591,7 +8591,7 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|5 E-Tech": 247
 , "Jeep|Avenger EV": 237
 , "Mini|Cooper SE": 227
-, "Deepal|S05": 184
+, "Deepal|S05 EV": 184
 , "Mercedes-Benz|EQA": 182
 , "Škoda|Elroq": 159
 , "Toyota|bZ4X": 150
@@ -8717,7 +8717,7 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 339
 , "Škoda|Elroq": 254
 , "Mercedes-Benz|EQA": 242
-, "Deepal|S05": 234
+, "Deepal|S05 EV": 234
 , "BMW|iX2": 201
 , "Citroën|ë-C3": 193
 , "Mercedes-Benz|CLA Electric": 186
@@ -8837,7 +8837,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 544
 , "Kia|EV3": 427
 , "Renault|5 E-Tech": 376
-, "Deepal|S05": 335
+, "Deepal|S05 EV": 335
 , "BYD|Atto 2": 283
 , "Škoda|Elroq": 282
 , "Mini|Cooper SE": 248
@@ -8966,7 +8966,7 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 587
 , "Tesla|Model Y": 504
 , "Kia|EV3": 495
-, "Deepal|S05": 387
+, "Deepal|S05 EV": 387
 , "Renault|5 E-Tech": 356
 , "Kia|EV2": 348
 , "BYD|Atto 2": 347
@@ -9098,7 +9098,7 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seal": 498
 , "BYD|Seagull": 479
 , "Toyota|C-HR+": 454
-, "Deepal|S05": 390
+, "Deepal|S05 EV": 390
 , "BYD|Atto 2": 374
 , "Citroën|ë-C3": 361
 , "Mini|Cooper SE": 361
@@ -9226,7 +9226,7 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|B10": 443
 , "BYD|Atto 2": 433
 , "BYD|Seagull": 386
-, "Deepal|S05": 337
+, "Deepal|S05 EV": 337
 , "Citroën|ë-C3": 326
 , "Renault|5 E-Tech": 266
 , "BYD|Atto 3": 259
@@ -9362,7 +9362,7 @@ db.insert(db.countries.ES, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Elroq": 284
 , "Kia|EV2": 260
 , "BYD|Seal": 242
-, "Deepal|S05": 235
+, "Deepal|S05 EV": 235
 , "Renault|5 E-Tech": 224
 , "Mini|Cooper SE": 197
 , "Xpeng|G6": 197

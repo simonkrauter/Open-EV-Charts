@@ -6324,7 +6324,7 @@ db.insert(db.countries.UK, "2026-07", db.dsTypes.ElectricCarsByModel, "https://e
 , "Polestar|4": 231
 , "Nissan|Micra EV": 228
 , "Renault|Scénic E-Tech": 225
-, "Deepal|S07": 216
+, "Deepal|S07 EV": 216
 , "BYD|Atto 2": 207
 , "Citroën|ë-C3": 207
 , "Kia|other": 1294
