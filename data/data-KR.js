@@ -737,3 +737,11 @@ db.insert(db.countries.KR, "2026-08", db.dsTypes.AllCarsTotal, "https://www.moti
 db.insert(db.countries.KR, "2026-08", db.dsTypes.ElectricCarsTotal, "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172213/view",
 { "other": 31060
 });
+
+db.insert(db.countries.KR, "2026-09", db.dsTypes.AllCarsTotal, "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172302/view",
+{ "other": 135396
+});
+
+db.insert(db.countries.KR, "2026-09", db.dsTypes.ElectricCarsTotal, "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172302/view",
+{ "other": 31768
+});
