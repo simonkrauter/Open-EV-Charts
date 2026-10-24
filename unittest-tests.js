@@ -167,6 +167,17 @@ runTest("categoryTitle_7", function() {
   assert(chartData.categoryTitle, "Year");
 });
 
+
+runTest("seriesTitle_1", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.seriesTitle, "Country");
+});
+
 runTest("decodeChartConfigString_1", function() {
   const chartConfig = db.decodeChartConfigString("BR:electric-sales:month:y2020");
   assert(chartConfig.country, "BR");

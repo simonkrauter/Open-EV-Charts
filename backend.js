@@ -1660,6 +1660,16 @@ var db = {
     return category;
   },
 
+  queryDatasets_getSeriesTitle: function(chartConfig) {
+    if (chartConfig.detailLevel == this.detailLevels.company)
+      return "Company";
+    if (chartConfig.detailLevel == this.detailLevels.brand)
+      return "Brand";
+    if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
+      return "Model";
+    return "Country";
+  },
+
   queryDatasets_getSeriesName: function(params, chartConfig, dataset, dataKey, filters, company, brand, model) {
     let seriesName = "";
     if (filters.useCountryAsSeriesName) {
@@ -1802,7 +1812,8 @@ var db = {
       categories: categories,
       hints: [],
       monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan,
-      categoryTitle: this.queryDatasets_getCategoryTitle(chartConfig)
+      categoryTitle: this.queryDatasets_getCategoryTitle(chartConfig),
+      seriesTitle: this.queryDatasets_getSeriesTitle(chartConfig)
     };
 
     if (withHints) {
@@ -2173,17 +2184,6 @@ var db = {
     return 0;
   },
 
-  getSeriesNameColumnHeader: function(chartConfig) {
-    if (chartConfig.detailLevel == this.detailLevels.company)
-      return "Company";
-    else if (chartConfig.detailLevel == this.detailLevels.brand)
-      return "Brand";
-    else if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
-      return "Model";
-    else
-      return "Country";
-  },
-
   fillMonthCategoryGaps: function(categories) {
     let i = 0;
     while (i < categories.length - 1) {
@@ -2357,12 +2357,12 @@ var db = {
     return this.getRealTimeSpan(chartConfig) != this.timeSpanOptions.all && [this.xProperties.monthAvg3, this.xProperties.monthAvg12].includes(chartConfig.xProperty);
   },
 
-  hasOtherSeries: function(chartConfig) {
+  hasOtherSeries: function(chartConfig, chartData) {
     if (chartConfig.view == this.views.lineChart)
       return false;
     if (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand)
       return false;
-    return chartConfig.metric != this.metrics.ratioElectric || this.getSeriesNameColumnHeader(chartConfig) != "Country";
+    return chartConfig.metric != this.metrics.ratioElectric || chartData.seriesTitle != "Country";
   },
 
   postProcessChartSeries: function(chartConfig, chartData) {
@@ -2444,7 +2444,7 @@ var db = {
       }
     }
 
-    if (this.hasOtherSeries(chartConfig) && otherSeries.data.length > 0)
+    if (this.hasOtherSeries(chartConfig, chartData) && otherSeries.data.length > 0)
       processedSeries.push(otherSeries);
 
     // Store metric in data series

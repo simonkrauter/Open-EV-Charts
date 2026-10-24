@@ -1278,7 +1278,7 @@ function renderTableTransposed(chartConfig, table, chartData) {
   // Table head
   const row = newChildNode(table, "TR");
   newChildNode(row, "TH", "#");
-  const columnTitle = db.getSeriesNameColumnHeader(chartConfig);
+  const columnTitle = chartData.seriesTitle;
   {
     const cell = newChildNode(row, "TH", columnTitle);
     addThSortClickEvent(chartConfig, cell, 0);
