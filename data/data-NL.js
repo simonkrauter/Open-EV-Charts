@@ -9985,12 +9985,12 @@ db.insert(db.countries.NL, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 { "Škoda|Elroq": 606
 , "Kia|EV2": 566
 , "Kia|EV3": 565
-, "Tesla|Model Y": 550
-, "Tesla|Model 3": 483
-, "BMW|iX3": 450
+, "Tesla|Model Y": 551
+, "Tesla|Model 3": 484
+, "BMW|iX3": 451
 , "Hyundai|Inster": 419
-, "Kia|EV5": 389
-, "Cupra|Raval": 376
+, "Kia|EV5": 390
+, "Cupra|Raval": 377
 , "BMW|iX1": 373
 , "Renault|5 E-Tech": 363
 , "Hyundai|Kona Electric": 301
@@ -9999,8 +9999,8 @@ db.insert(db.countries.NL, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Toyota|C-HR+": 271
 , "Volvo|EX40": 260
 , "Toyota|Urban Cruiser Electric": 226
-, "Škoda|Enyaq": 204
+, "Škoda|Enyaq": 205
 , "Mercedes-Benz|CLA Electric": 201
 , "Volkswagen|ID.4": 176
-, "other": 5585
+, "other": 5579
 });
