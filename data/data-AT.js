@@ -4744,3 +4744,60 @@ db.insert(db.countries.AT, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Explorer EV": 157
 , "other": 4070
 });
+
+db.insert(db.countries.AT, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisSeptember2026.ods",
+{ "Volkswagen": 3087
+, "Škoda": 2724
+, "Hyundai": 2705
+, "Tesla": 1560
+, "Seat": 1410
+, "BMW": 1283
+, "Audi": 1151
+, "Mercedes-Benz": 1100
+, "BYD": 1021
+, "Dacia": 931
+, "Renault": 924
+, "Toyota": 909
+, "Mazda": 882
+, "Cupra": 875
+, "MG": 745
+, "Kia": 724
+, "Omoda Jaecoo": 708
+, "Opel": 699
+, "Ford": 683
+, "Peugeot": 674
+, "Citroën": 544
+, "Suzuki": 474
+, "Volvo": 467
+, "Leapmotor": 416
+, "Fiat": 383
+, "Chery": 268
+, "Jeep": 191
+, "Xpeng": 179
+, "Mini": 147
+, "Nissan": 135
+, "Honda": 130
+, "Mitsubishi": 114
+, "Polestar": 113
+, "Land Rover": 107
+, "Porsche": 105
+, "Smart": 65
+, "Aion": 64
+, "Subaru": 40
+, "Geely": 17
+, "other": 214
+});
+
+db.insert(db.countries.AT, "2026-09", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisSeptember2026.ods",
+{ "Tesla|Model Y": 946
+, "Tesla|Model 3": 614
+, "Škoda|Enyaq": 403
+, "Škoda|Elroq": 329
+, "BYD|Atto 2/3": 318
+, "BMW|iX3": 292
+, "Volkswagen|ID. Polo": 237
+, "Hyundai|Inster": 231
+, "Cupra|Born": 225
+, "Hyundai|Ioniq 5": 197
+, "other": 5931
+});
