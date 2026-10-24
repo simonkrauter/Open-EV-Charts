@@ -2853,3 +2853,31 @@ db.insert(db.countries.PT, "2026-08", db.dsTypes.ElectricCarsByBrand, "https://e
 , "Audi": 84
 , "other": 1303
 });
+
+db.insert(db.countries.PT, "2026-09", db.dsTypes.AllCarsTotal, "https://www.acap.pt/pt/noticia/1402/mercado-de-ligeiros-de-passageiros-eletrificados-com-crescimento-de-369-por-cento-em-setembro-de-20()",
+{ "other": 19589
+});
+
+db.insert(db.countries.PT, "2026-09", db.dsTypes.ElectricCarsByBrand, "https://eu-evs.com/bestSellers/PT/Brands/Month/2026/9, https://www.acap.pt/pt/noticia/1402/mercado-de-ligeiros-de-passageiros-eletrificados-com-crescimento-de-369-por-cento-em-setembro-de-20()",
+{ "Tesla": 2749
+, "BMW": 620
+, "Mercedes-Benz": 578
+, "Volvo": 432
+, "BYD": 425
+, "Peugeot": 323
+, "Renault": 288
+, "Leapmotor": 268
+, "Kia": 249
+, "Xpeng": 241
+, "MG": 240
+, "Volkswagen": 240
+, "Dacia": 205
+, "Cupra": 202
+, "Opel": 166
+, "Citroën": 155
+, "Audi": 143
+, "Škoda": 141
+, "Toyota": 138
+, "Mini": 136
+, "other": 1399
+});
