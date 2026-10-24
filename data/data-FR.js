@@ -6767,7 +6767,7 @@ db.insert(db.countries.FR, "2026-07", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2853
 });
 
-db.insert(db.countries.FR, "2026-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/08/Immatriculations-VPN-Juillet-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/08/barometre-avere-colombus-juillet-2026-1.pdf",
+db.insert(db.countries.FR, "2026-07", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/08/Immatriculations-mensuelles-par-energie-Juillet-2026_2.pdf, https://www.avere-france.org/wp-content/uploads/2026/08/barometre-avere-colombus-juillet-2026-1.pdf",
 { "Renault|5 E-Tech": 3865
 , "Renault|Scénic E-Tech": 2917
 , "Renault|Twingo E-Tech": 2582
@@ -6819,7 +6819,7 @@ db.insert(db.countries.FR, "2026-08", db.dsTypes.AllCarsByBrand, "https://ccfa.f
 , "other": 2244
 });
 
-db.insert(db.countries.FR, "2026-08", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/09/Immatriculations-VPN-Aout-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/09/barometre-avere-colombus-aout-2026-1.pdf",
+db.insert(db.countries.FR, "2026-08", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/09/Immatriculations-mensuelles-par-energie-Aout-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/09/barometre-avere-colombus-aout-2026-1.pdf",
 { "Tesla|Model Y": 4622
 , "Renault|5 E-Tech": 2357
 , "Renault|Scénic E-Tech": 1753
