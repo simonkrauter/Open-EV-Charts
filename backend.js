@@ -1660,13 +1660,15 @@ var db = {
     return category;
   },
 
-  queryDatasets_getSeriesTitle: function(chartConfig) {
-    if (chartConfig.detailLevel == this.detailLevels.company)
-      return "Company";
-    if (chartConfig.detailLevel == this.detailLevels.brand)
-      return "Brand";
-    if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
-      return "Model";
+  queryDatasets_getSeriesTitle: function(chartConfig, filters) {
+    if (!filters.useCountryAsSeriesName) {
+      if (chartConfig.detailLevel == this.detailLevels.company)
+        return "Company";
+      if (chartConfig.detailLevel == this.detailLevels.brand)
+        return "Brand";
+      if (chartConfig.detailLevel == this.detailLevels.model && chartConfig.model == this.modelOptions.all)
+        return "Model";
+    }
     return "Country";
   },
 
@@ -1813,7 +1815,7 @@ var db = {
       hints: [],
       monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan,
       categoryTitle: this.queryDatasets_getCategoryTitle(chartConfig),
-      seriesTitle: this.queryDatasets_getSeriesTitle(chartConfig)
+      seriesTitle: this.queryDatasets_getSeriesTitle(chartConfig, filters)
     };
 
     if (withHints) {

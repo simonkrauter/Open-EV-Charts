@@ -167,11 +167,31 @@ runTest("categoryTitle_7", function() {
   assert(chartData.categoryTitle, "Year");
 });
 
-
 runTest("seriesTitle_1", function() {
   let chartConfig = {};
   chartConfig.metric = db.metrics.salesElectric;
   chartConfig.xProperty = db.xProperties.country;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.seriesTitle, "Country");
+});
+
+runTest("seriesTitle_2", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.shareElectric;
+  chartConfig.xProperty = db.xProperties.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.seriesTitle, "Country");
+});
+
+runTest("seriesTitle_3", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.shareElectric;
+  chartConfig.xProperty = db.xProperties.quarter;
+  chartConfig.brand = "Alpha";
   chartConfig = completeChartConfig(chartConfig);
   assert(!db.needsUnfold(chartConfig));
   const chartData = db.queryChartData(chartConfig);
