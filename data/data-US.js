@@ -1068,3 +1068,11 @@ db.insert(db.countries.US, "2026-Q2", db.dsTypes.ElectricCarsByModel, "https://w
 , "Jeep|Wagoneer S": 198
 , "other": 66865
 });
+
+db.insert(db.countries.US, "2026-Q3", db.dsTypes.AllCarsTotal, "https://www.anl.gov/sites/www/files/2026-10/Total%20Sales%20for%20Website_September%202026.pdf",
+{ "other": 4066038
+});
+
+db.insert(db.countries.US, "2026-Q3", db.dsTypes.ElectricCarsTotal, "https://www.anl.gov/sites/www/files/2026-10/Total%20Sales%20for%20Website_September%202026.pdf",
+{ "other": 251742
+});
