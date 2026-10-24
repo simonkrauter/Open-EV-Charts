@@ -6832,3 +6832,56 @@ db.insert(db.countries.FR, "2026-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Kia|EV2": 765
 , "other": 18895
 });
+
+db.insert(db.countries.FR, "2026-09", db.dsTypes.AllCarsByBrand, "https://ccfa.fr/wp-content/uploads/2026/10/Immatriculations-VPN-Septembre-2026.pdf",
+{ "Renault": 28844
+, "Peugeot": 19153
+, "Citroën": 11897
+, "Dacia": 10398
+, "Tesla": 9038
+, "Toyota": 8166
+, "Volkswagen": 8052
+, "Škoda": 4974
+, "BMW": 4548
+, "Mercedes-Benz": 4134
+, "BYD": 3972
+, "MG": 3787
+, "Kia": 3574
+, "Audi": 3563
+, "Hyundai": 3301
+, "Fiat": 2767
+, "Ford": 2734
+, "Omoda Jaecoo": 2575
+, "Opel": 2282
+, "Mini": 2196
+, "Nissan": 1869
+, "Suzuki": 1792
+, "Volvo": 1466
+, "Cupra": 1442
+, "Leapmotor": 1195
+, "Mazda": 921
+, "Xpeng": 716
+, "Jeep": 690
+, "Seat": 685
+, "Honda": 558
+, "Geely": 443
+, "Porsche": 256
+, "Land Rover": 182
+, "Smart": 180
+, "Mitsubishi": 128
+, "other": 4151
+});
+
+db.insert(db.countries.FR, "2026-09", db.dsTypes.ElectricCarsByModel, "https://ccfa.fr/wp-content/uploads/2026/10/Immatriculations-mensuelles-par-energie-Septembre-2026.pdf, https://www.avere-france.org/wp-content/uploads/2026/10/barometre-avere-colombus-septembre-2026.pdf",
+{ "Tesla|Model Y": 8184
+, "Renault|5 E-Tech": 5266
+, "Renault|Twingo E-Tech": 5005
+, "Peugeot|e-208": 3278
+, "Renault|Scénic E-Tech": 2742
+, "Citroën|ë-C3": 2705
+, "Peugeot|E-3008": 1648
+, "Škoda|Elroq": 1467
+, "Volkswagen|ID.4": 1418
+, "Kia|EV2": 1266
+, "other": 32264
+});
