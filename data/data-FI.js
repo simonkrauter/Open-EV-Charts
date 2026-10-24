@@ -7558,7 +7558,7 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.AllCarsByBrand, "https://trafi2
 { "Toyota": 831
 , "Volkswagen": 674
 , "Škoda": 587
-, "Volvo": 438
+, "Volvo": 439
 , "Audi": 352
 , "Kia": 328
 , "Mercedes-Benz": 327
@@ -7617,8 +7617,8 @@ db.insert(db.countries.FI, "2026-04", db.dsTypes.ElectricCarsByModel, "https://t
 , "Audi|A6 e-tron": 46
 , "Mercedes-Benz|GLC Electric": 46
 , "BYD|Sealion 7": 40
+, "Volvo|EC40": 38
 , "BMW|iX3": 37
-, "Volvo|EC40": 37
 , "BYD|Seal": 36
 , "Ford|Capri EV": 35
 , "Polestar|2": 35
@@ -7704,7 +7704,6 @@ db.insert(db.countries.FI, "2026-05", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Seat": 6
 , "Jeep": 3
 , "Fiat": 1
-, "Omoda Jaecoo": 1
 , "other": 92
 });
 
@@ -7820,7 +7819,6 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Mini": 17
 , "Fiat": 5
 , "Honda": 3
-, "Omoda Jaecoo": 1
 , "other": 87
 });
 
@@ -7896,7 +7894,7 @@ db.insert(db.countries.FI, "2026-06", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|other": 4
 , "Audi|other": 2
 , "Mercedes-Benz|other": 2
-, "other": 68
+, "other": 67
 });
 
 db.insert(db.countries.FI, "2026-07", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -7932,10 +7930,9 @@ db.insert(db.countries.FI, "2026-07", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Land Rover": 20
 , "Aion": 16
 , "Seat": 6
-, "Omoda Jaecoo": 2
 , "Honda": 1
 , "Jeep": 1
-, "other": 52
+, "other": 50
 });
 
 db.insert(db.countries.FI, "2026-07", db.dsTypes.ElectricCarsByModel, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -8011,7 +8008,7 @@ db.insert(db.countries.FI, "2026-07", db.dsTypes.ElectricCarsByModel, "https://t
 , "Toyota|other": 3
 , "Ford|other": 2
 , "Tesla|other": 2
-, "other": 90
+, "other": 89
 });
 
 db.insert(db.countries.FI, "2026-08", db.dsTypes.AllCarsByBrand, "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/TraFi__Ensirekisteroinnit/050_ensirek_tau_105.px/",
@@ -8048,9 +8045,7 @@ db.insert(db.countries.FI, "2026-08", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Aion": 12
 , "Land Rover": 8
 , "Seat": 5
-, "Leapmotor": 4
 , "Fiat": 2
-, "Omoda Jaecoo": 1
 , "other": 68
 });
 
@@ -8129,6 +8124,5 @@ db.insert(db.countries.FI, "2026-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Hyundai|other": 4
 , "Polestar|other": 3
 , "Audi|other": 2
-, "Leapmotor|other": 2
 , "other": 98
 });
