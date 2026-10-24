@@ -10004,3 +10004,73 @@ db.insert(db.countries.NL, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Volkswagen|ID.4": 176
 , "other": 5579
 });
+
+db.insert(db.countries.NL, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.autoweek.nl/verkoopcijfers/2026/september/",
+{ "Toyota": 3274
+, "Tesla": 3165
+, "Kia": 3060
+, "Renault": 2490
+, "Škoda": 2280
+, "BMW": 2264
+, "Volkswagen": 2078
+, "Volvo": 1499
+, "Mercedes-Benz": 1454
+, "BYD": 1351
+, "Hyundai": 1264
+, "Peugeot": 1114
+, "Audi": 1059
+, "Ford": 987
+, "Mazda": 740
+, "Opel": 723
+, "Cupra": 633
+, "Leapmotor": 630
+, "Omoda Jaecoo": 565
+, "Suzuki": 517
+, "Citroën": 472
+, "Dacia": 447
+, "Mini": 411
+, "Mitsubishi": 375
+, "Seat": 306
+, "Jeep": 291
+, "MG": 286
+, "Nissan": 265
+, "Polestar": 226
+, "Porsche": 222
+, "Zeekr": 214
+, "Geely": 192
+, "Lynk & Co": 188
+, "Xpeng": 187
+, "Fiat": 154
+, "Land Rover": 153
+, "Honda": 90
+, "Smart": 90
+, "Subaru": 38
+, "Changan": 30
+, "Chery": 26
+, "Dongfeng": 20
+, "other": 429
+});
+
+db.insert(db.countries.NL, "2026-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NL/Brands/Month/2026/9, https://www.bovag.nl/pers/persberichten/verkoop-nieuwe-auto-s-toont-herstel-in-derde-kwartaal-2026",
+{ "Tesla|Model Y": 2086
+, "Tesla|Model 3": 1090
+, "Škoda|Elroq": 1035
+, "Kia|EV2": 602
+, "Renault|5 E-Tech": 593
+, "Kia|EV3": 589
+, "BMW|iX3": 553
+, "Volvo|EX30": 487
+, "Volvo|EX40": 470
+, "Toyota|C-HR+": 444
+, "Kia|EV5": 422
+, "Volkswagen|ID.4": 416
+, "Cupra|Raval": 410
+, "Hyundai|Inster": 399
+, "Škoda|Enyaq": 387
+, "BMW|iX1": 380
+, "Volkswagen|ID.7": 326
+, "Hyundai|Kona Electric": 285
+, "Mercedes-Benz|CLA Electric": 264
+, "Mazda|EZ-6 BEV": 253
+, "other": 7021
+});
