@@ -1618,17 +1618,17 @@ var db = {
   queryDatasets_getCategoryTitle: function(chartConfig) {
     if (chartConfig.xProperty == this.xProperties.country)
       return "Country";
-    else if (chartConfig.xProperty == this.xProperties.model)
+    if (chartConfig.xProperty == this.xProperties.model)
       return "Model";
-    else if (chartConfig.xProperty == this.xProperties.brand)
+    if (chartConfig.xProperty == this.xProperties.brand)
       return "Brand";
-    else if (chartConfig.xProperty == this.xProperties.company)
+    if (chartConfig.xProperty == this.xProperties.company)
       return "Company";
-    else if (this.isByMonth(chartConfig))
+    if (this.isByMonth(chartConfig))
       return "Month";
-    else if (this.isByQuarter(chartConfig))
+    if (this.isByQuarter(chartConfig))
       return "Quarter";
-    else if (this.isByYear(chartConfig))
+    if (this.isByYear(chartConfig))
       return "Year";
   },
 
