@@ -2523,3 +2523,79 @@ db.insert(db.countries.AU, "2026-08", db.dsTypes.ElectricCarsByModel, "https://t
 , "Nissan|other": 16
 , "other": 176
 });
+
+db.insert(db.countries.AU, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-september-2026-ranger-beats-tesla-in-vfacts/",
+{ "Toyota": 17682
+, "BYD": 8191
+, "Ford": 7592
+, "Kia": 5901
+, "Mazda": 5702
+, "Tesla": 5654
+, "GWM": 5212
+, "Hyundai": 5073
+, "MG": 4635
+, "Geely": 4473
+, "Zeekr": 2045
+, "Omoda Jaecoo": 1980
+, "other": 34638
+});
+
+db.insert(db.countries.AU, "2026-09", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/10/02/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
+{ "Tesla|Model Y": 4476
+, "BYD|Sealion 7": 2687
+, "Geely|EX5 BEV": 2008
+, "Omoda Jaecoo|Jaecoo E5": 1754
+, "Zeekr|7X": 1628
+, "Geely|EX2": 1211
+, "Tesla|Model 3": 1178
+, "MG|4 EV": 1061
+, "BYD|Atto 2": 936
+, "BYD|Seagull": 633
+, "GWM|Ora 5": 609
+, "Kia|EV3": 564
+, "Xpeng|G6": 560
+, "Kia|EV5": 509
+, "BYD|Atto 3": 460
+, "Zeekr|X": 417
+, "Toyota|bZ4X": 410
+, "Mazda|EZ-6 BEV": 401
+, "Aion|UT": 384
+, "BYD|Dolphin": 337
+, "BYD|Seal": 327
+, "Aion|V": 281
+, "Omoda Jaecoo|Omoda E5": 226
+, "Škoda|Enyaq": 196
+, "Volvo|EX30": 170
+, "MG|S6 EV": 157
+, "Hyundai|Kona Electric": 154
+, "Audi|Q6 e-tron": 131
+, "Mercedes-Benz|EQA": 126
+, "Polestar|4": 114
+, "Volvo|EX40": 93
+, "BMW|i4": 91
+, "Subaru|Uncharted": 91
+, "Hyundai|Elexio": 87
+, "Kia|PV5": 80
+, "Subaru|Trailseeker": 80
+, "Polestar|2": 76
+, "Leapmotor|B10": 74
+, "Volkswagen|ID. Buzz": 63
+, "Hyundai|Ioniq 5": 62
+, "Hyundai|Inster": 57
+, "Cupra|Tavascan": 54
+, "Škoda|Elroq": 54
+, "Leapmotor|C10 EV": 53
+, "Subaru|Solterra": 52
+, "Volkswagen|ID.4": 47
+, "Ford|Mustang Mach-E": 39
+, "Porsche|Macan Electric": 39
+, "Nissan|Ariya": 37
+, "Deepal|E07 EV": 35
+, "Kia|other": 94
+, "Volvo|other": 36
+, "MG|other": 29
+, "Deepal|other": 28
+, "Renault|other": 27
+, "Leapmotor|other": 19
+, "other": 685
+});
