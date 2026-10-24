@@ -97,39 +97,74 @@ runTest("encodeChartConfig_1", function() {
 });
 
 
-runTest("getCategoryTitle_1", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:country");
-  assert(db.getCategoryTitle(chartConfig), "Country");
+runTest("categoryTitle_1", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.country;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Country");
 });
 
-runTest("getCategoryTitle_2", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:model");
-  assert(db.getCategoryTitle(chartConfig), "Model");
+runTest("categoryTitle_2", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.model;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Model");
 });
 
-runTest("getCategoryTitle_3", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:brand");
-  assert(db.getCategoryTitle(chartConfig), "Brand");
+runTest("categoryTitle_3", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.brand;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Brand");
 });
 
-runTest("getCategoryTitle_4", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:company");
-  assert(db.getCategoryTitle(chartConfig), "Company");
+runTest("categoryTitle_4", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.company;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Company");
 });
 
-runTest("getCategoryTitle_5", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:month");
-  assert(db.getCategoryTitle(chartConfig), "Month");
+runTest("categoryTitle_5", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.month;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Month");
 });
 
-runTest("getCategoryTitle_6", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:quarter");
-  assert(db.getCategoryTitle(chartConfig), "Quarter");
+runTest("categoryTitle_6", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.quarter;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Quarter");
 });
 
-runTest("getCategoryTitle_7", function() {
-  const chartConfig = db.decodeChartConfigString("electric-sales:year");
-  assert(db.getCategoryTitle(chartConfig), "Year");
+runTest("categoryTitle_7", function() {
+  let chartConfig = {};
+  chartConfig.metric = db.metrics.salesElectric;
+  chartConfig.xProperty = db.xProperties.year;
+  chartConfig = completeChartConfig(chartConfig);
+  assert(!db.needsUnfold(chartConfig));
+  const chartData = db.queryChartData(chartConfig);
+  assert(chartData.categoryTitle, "Year");
 });
 
 runTest("decodeChartConfigString_1", function() {

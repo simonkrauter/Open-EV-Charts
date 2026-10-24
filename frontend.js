@@ -1238,7 +1238,7 @@ function renderTableNormal(chartConfig, table, chartData, horizontalBarMaxValue,
   const row = newChildNode(table, "TR");
   if (showRankColumn)
     newChildNode(row, "TH", "#");
-  const columnTitle = db.getCategoryTitle(chartConfig);
+  const columnTitle = chartData.categoryTitle;
   {
     const cell = newChildNode(row, "TH", columnTitle);
     addThSortClickEvent(chartConfig, cell, 0);

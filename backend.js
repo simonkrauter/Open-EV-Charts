@@ -1615,6 +1615,23 @@ var db = {
       return this.unknownSeriesName;
   },
 
+  queryDatasets_getCategoryTitle: function(chartConfig) {
+    if (chartConfig.xProperty == this.xProperties.country)
+      return "Country";
+    else if (chartConfig.xProperty == this.xProperties.model)
+      return "Model";
+    else if (chartConfig.xProperty == this.xProperties.brand)
+      return "Brand";
+    else if (chartConfig.xProperty == this.xProperties.company)
+      return "Company";
+    else if (this.isByMonth(chartConfig))
+      return "Month";
+    else if (this.isByQuarter(chartConfig))
+      return "Quarter";
+    else if (this.isByYear(chartConfig))
+      return "Year";
+  },
+
   queryDatasets_getCategory: function(chartConfig, dataset, dataKey, company, brand) {
     let category = "";
     if (this.isByMonth(chartConfig))
@@ -1784,7 +1801,8 @@ var db = {
       sources: sources,
       categories: categories,
       hints: [],
-      monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan
+      monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan,
+      categoryTitle: this.queryDatasets_getCategoryTitle(chartConfig)
     };
 
     if (withHints) {
@@ -2153,23 +2171,6 @@ var db = {
     if (b.endsWith("|other") && !a.endsWith("|other"))
       return -1;
     return 0;
-  },
-
-  getCategoryTitle: function(chartConfig) {
-    if (chartConfig.xProperty == this.xProperties.country)
-      return "Country";
-    else if (chartConfig.xProperty == this.xProperties.model)
-      return "Model";
-    else if (chartConfig.xProperty == this.xProperties.brand)
-      return "Brand";
-    else if (chartConfig.xProperty == this.xProperties.company)
-      return "Company";
-    else if (this.isByMonth(chartConfig))
-      return "Month";
-    else if (this.isByQuarter(chartConfig))
-      return "Quarter";
-    else if (this.isByYear(chartConfig))
-      return "Year";
   },
 
   getSeriesNameColumnHeader: function(chartConfig) {
