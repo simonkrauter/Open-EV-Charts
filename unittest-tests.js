@@ -96,6 +96,42 @@ runTest("encodeChartConfig_1", function() {
   assert(db.encodeChartConfig(chartConfig), "BR:electric-sales:month:y2020");
 });
 
+
+runTest("getCategoryTitle_1", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:country");
+  assert(db.getCategoryTitle(chartConfig), "Country");
+});
+
+runTest("getCategoryTitle_2", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:model");
+  assert(db.getCategoryTitle(chartConfig), "Model");
+});
+
+runTest("getCategoryTitle_3", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:brand");
+  assert(db.getCategoryTitle(chartConfig), "Brand");
+});
+
+runTest("getCategoryTitle_4", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:company");
+  assert(db.getCategoryTitle(chartConfig), "Company");
+});
+
+runTest("getCategoryTitle_5", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:month");
+  assert(db.getCategoryTitle(chartConfig), "Month");
+});
+
+runTest("getCategoryTitle_6", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:quarter");
+  assert(db.getCategoryTitle(chartConfig), "Quarter");
+});
+
+runTest("getCategoryTitle_7", function() {
+  const chartConfig = db.decodeChartConfigString("electric-sales:year");
+  assert(db.getCategoryTitle(chartConfig), "Year");
+});
+
 runTest("decodeChartConfigString_1", function() {
   const chartConfig = db.decodeChartConfigString("BR:electric-sales:month:y2020");
   assert(chartConfig.country, "BR");
