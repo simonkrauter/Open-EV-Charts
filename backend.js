@@ -1500,201 +1500,6 @@ var db = {
     return params.metric.allOptions.get(chartConfig.metric);
   },
 
-  queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
-    // Returns datasets for chart
-    let filterCountryIds = this.queryDatasets_getCountryFilter(chartConfig);
-
-    const useCountryAsSeriesName = filterCountryIds.length != 1 && chartConfig.country != "global" && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
-
-    const params = db.getChartParams(chartConfig);
-
-    let filterCompanies = [];
-    if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
-      filterCompanies = this.getCompanies(chartConfig);
-    let filterBrands = [];
-    if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
-      filterBrands = this.getBrands(chartConfig);
-    const isSingleBrand = filterBrands.length == 1 || (filterCompanies.length == 1 && !this.companyGroupNames.includes(chartConfig.company));
-    let filterModels = [];
-    if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && onlyEvs)
-      filterModels = this.getModels(chartConfig);
-    const dateFilters = this.queryDatasets_getDateFilters(chartConfig);
-
-    let seriesRows = {};
-    let sources = [];
-    let categories = [];
-    let monthsPerCountryAndTimeSpan = {};
-    let gapDetectionData = {};
-    let monthsInRange = [];
-    let nonMonthlyCountries = [];
-
-    for (const i in this.datasets) {
-      const dataset = this.datasets[i];
-      if (dataset.isEvs != onlyEvs)
-        continue;
-      if (!filterCountryIds.includes(dataset.country))
-        continue;
-      if (dateFilters.firstYear != null && (dataset.year < dateFilters.firstYear || dataset.year > dateFilters.lastYear || (dataset.year == dateFilters.firstYear && dataset.month < dateFilters.firstMonth) || (dataset.year == dateFilters.lastYear && dataset.month > dateFilters.lastMonth)))
-        continue;
-
-      // add entry to monthsPerCountryAndTimeSpan
-      if (this.isTimeXProperty(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
-        let timeSpan;
-        if (this.isByYear(chartConfig))
-          timeSpan = dataset.year;
-        else if (this.isByQuarter(chartConfig))
-          timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-        else
-          timeSpan = dataset.monthString;
-        if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
-          monthsPerCountryAndTimeSpan[dataset.countryName] = {};
-        if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
-          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan] = [];
-        if (!monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].includes(dataset.monthString))
-          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
-      }
-
-      monthsInRange.push(dataset.monthString);
-
-      let category = "";
-      if (this.isByMonth(chartConfig))
-        category = dataset.monthString;
-      else if (this.isByQuarter(chartConfig))
-        category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
-      else if (this.isByYear(chartConfig))
-        category = dataset.year;
-      else if (chartConfig.xProperty == this.xProperties.country) {
-        if (this.countryGroupRestIds.includes(dataset.country))
-          category = this.unknownSeriesName;
-        else
-          category = dataset.countryName;
-      }
-
-      let otherOrUnkownSeriesName;
-      if (Object.keys(dataset.data).length >= 25)
-        otherOrUnkownSeriesName = this.otherSeriesName;
-      else
-        otherOrUnkownSeriesName = this.unknownSeriesName;
-
-      for (const dataKey in dataset.data) {
-        const dataKeyParts = dataKey.split("|", 2);
-        const brand = dataKeyParts[0];
-        const model = dataKeyParts[1];
-        const company = this.companiesByBrand[brand];
-        const value = dataset.data[dataKey];
-
-        // apply filters
-        if (filterCompanies.length > 0 && !filterCompanies.includes(company))
-          continue;
-        if (filterBrands.length > 0 && !filterBrands.includes(brand))
-          continue;
-        if (filterModels.length > 0 && !filterModels.includes(model))
-          continue;
-        if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
-          continue;
-
-        // save gapDetectionData
-        if (!(dataKey in gapDetectionData))
-          gapDetectionData[dataKey] = [[], 0];
-        gapDetectionData[dataKey][0].push(dataset.monthString);
-        gapDetectionData[dataKey][1] += value;
-
-        // set category
-        if (chartConfig.xProperty == this.xProperties.company)
-          category = company;
-        else if (chartConfig.xProperty == this.xProperties.brand)
-          category = brand;
-        else if (chartConfig.xProperty == this.xProperties.model) {
-          if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
-            category = dataKey + "|other";
-          else
-            category = dataKey;
-        }
-        if (category == "other")
-          category = otherOrUnkownSeriesName;
-
-        // set seriesName
-        let seriesName;
-        if (useCountryAsSeriesName) {
-          if (this.countryGroupRestIds.includes(dataset.country))
-            seriesName = this.otherSeriesName;
-          else
-            seriesName = dataset.countryName;
-        } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
-          if (chartConfig.detailLevel == this.detailLevels.company && filterCompanies.length != 1)
-            seriesName = company;
-          else if (chartConfig.detailLevel == this.detailLevels.brand && filterBrands.length != 1)
-            seriesName = brand;
-          else if (chartConfig.detailLevel == this.detailLevels.model && filterModels.length != 1) {
-            if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
-              seriesName = dataKey + "|other";
-            else {
-              if (isSingleBrand && !Number.isInteger(parseInt(model)))
-                seriesName = model;
-              else
-                seriesName = dataKey;
-            }
-          } else {
-            seriesName = this.getDefaultSeriesName(params, chartConfig);
-          }
-        } else {
-          seriesName = this.getDefaultSeriesName(params, chartConfig);
-        }
-        if (seriesName == "other")
-          seriesName = otherOrUnkownSeriesName;
-
-        // add entry to seriesRows, categories and sources
-        if (!(seriesName in seriesRows))
-          seriesRows[seriesName] = {};
-        if (category in seriesRows[seriesName])
-          seriesRows[seriesName][category] += value;
-        else
-          seriesRows[seriesName][category] = value;
-        if (!categories.includes(category))
-          categories.push(category);
-        if (sources[dataset.source] == null) {
-          let sourceInfo = {};
-          sourceInfo.country = dataset.country;
-          sourceInfo.firstDate = dataset.monthString;
-          sourceInfo.isAllCars = false;
-          sourceInfo.isEvs = false;
-          sources[dataset.source] = sourceInfo;
-        }
-        sources[dataset.source].lastDate = dataset.monthString;
-        if (dataset.isEvs)
-          sources[dataset.source].isEvs = true;
-        else
-          sources[dataset.source].isAllCars = true;
-      }
-      if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
-        nonMonthlyCountries.push(dataset.country);
-    }
-
-    if (this.isTimeXProperty(chartConfig))
-      categories.sort(); // provisional, needed for next processing steps and hints
-
-    this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
-    this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
-    this.removeIncompleteGlobalData(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
-
-    let chartData = {
-      seriesRows: seriesRows,
-      sources: sources,
-      categories: categories,
-      hints: [],
-      monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan
-    };
-
-    if (withHints) {
-      this.addHints_gapDetection(chartConfig, chartData, gapDetectionData, monthsInRange);
-      this.addHints_parseSources(chartConfig, chartData);
-      this.addHints_incompleteData(chartConfig, chartData);
-      this.addHints_notMonthly(chartConfig, chartData, nonMonthlyCountries);
-    }
-
-    return chartData;
-  },
-
   queryDatasets_getCountryFilter: function(chartConfig) {
     const isGlobal = chartConfig.country == "global";
     if (isGlobal && chartConfig.detailLevel == this.detailLevels.total)
@@ -1774,6 +1579,222 @@ var db = {
         dateFilters.firstYear = dateFilters.firstYear - 1;
     }
     return dateFilters;
+  },
+
+  queryDatasets_getFilters: function(chartConfig, onlyEvs) {
+    let filters = {};
+    // Country
+    filters.countryIds = this.queryDatasets_getCountryFilter(chartConfig);
+    // Company
+    if (chartConfig.company != this.companyOptions.all && chartConfig.xProperty != this.xProperties.company)
+      filters.companies = this.getCompanies(chartConfig);
+    else
+      filters.companies = [];
+    // Brand
+    if (chartConfig.brand != this.brandOptions.all && chartConfig.xProperty != this.xProperties.brand)
+      filters.brands = this.getBrands(chartConfig);
+    else
+      filters.brands = [];
+    // Model
+    if (chartConfig.model != this.modelOptions.all && chartConfig.xProperty != this.xProperties.model && onlyEvs)
+      filters.models = this.getModels(chartConfig);
+    else
+      filters.models = [];
+    // Date
+    filters.date = this.queryDatasets_getDateFilters(chartConfig);
+    // Other
+    filters.isSingleBrand = filters.brands.length == 1 || (filters.companies.length == 1 && !this.companyGroupNames.includes(chartConfig.company));
+    filters.useCountryAsSeriesName = filters.countryIds.length != 1 && chartConfig.country != "global" && !this.isCombinedCountry(chartConfig) && chartConfig.xProperty != this.xProperties.country;
+    return filters;
+  },
+
+  queryDatasets_getOtherOrUnkownSeriesName: function(dataset) {
+    if (Object.keys(dataset.data).length >= 25)
+      return this.otherSeriesName;
+    else
+      return this.unknownSeriesName;
+  },
+
+  queryDatasets_getCategory: function(chartConfig, dataset, dataKey, company, brand) {
+    let category = "";
+    if (this.isByMonth(chartConfig))
+      category = dataset.monthString;
+    else if (this.isByQuarter(chartConfig))
+      category = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
+    else if (this.isByYear(chartConfig))
+      category = dataset.year;
+    else if (chartConfig.xProperty == this.xProperties.country) {
+      if (this.countryGroupRestIds.includes(dataset.country))
+        category = this.unknownSeriesName;
+      else
+        category = dataset.countryName;
+    } else if (chartConfig.xProperty == this.xProperties.company)
+      category = company;
+    else if (chartConfig.xProperty == this.xProperties.brand)
+      category = brand;
+    else if (chartConfig.xProperty == this.xProperties.model) {
+      if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
+        category = dataKey + "|other";
+      else
+        category = dataKey;
+    }
+    if (category == "other")
+      category = this.queryDatasets_getOtherOrUnkownSeriesName(dataset);
+    return category;
+  },
+
+  queryDatasets_getSeriesName: function(params, chartConfig, dataset, dataKey, filters, company, brand, model) {
+    let seriesName = "";
+    if (filters.useCountryAsSeriesName) {
+      if (this.countryGroupRestIds.includes(dataset.country))
+        seriesName = this.otherSeriesName;
+      else
+        seriesName = dataset.countryName;
+    } else if (!this.isCompanyBrandModelXProperty(chartConfig)) {
+      if (chartConfig.detailLevel == this.detailLevels.company && filters.companies.length != 1)
+        seriesName = company;
+      else if (chartConfig.detailLevel == this.detailLevels.brand && filters.brands.length != 1)
+        seriesName = brand;
+      else if (chartConfig.detailLevel == this.detailLevels.model && filters.models.length != 1) {
+        if (dataset.dsType == this.dsTypes.ElectricCarsByBrand && dataKey != "other")
+          seriesName = dataKey + "|other";
+        else {
+          if (filters.isSingleBrand && !Number.isInteger(parseInt(model)))
+            seriesName = model;
+          else
+            seriesName = dataKey;
+        }
+      } else {
+        seriesName = this.getDefaultSeriesName(params, chartConfig);
+      }
+    } else {
+      seriesName = this.getDefaultSeriesName(params, chartConfig);
+    }
+    if (seriesName == "other")
+      seriesName = this.queryDatasets_getOtherOrUnkownSeriesName(dataset);
+    return seriesName;
+  },
+
+  queryDatasets: function(chartConfig, onlyEvs, withHints = true) {
+    // Returns datasets for chart
+    const params = db.getChartParams(chartConfig);
+    let filters = this.queryDatasets_getFilters(chartConfig, onlyEvs);
+
+    let seriesRows = {};
+    let sources = [];
+    let categories = [];
+    let monthsPerCountryAndTimeSpan = {};
+    let gapDetectionData = {};
+    let monthsInRange = [];
+    let nonMonthlyCountries = [];
+
+    for (const i in this.datasets) {
+      const dataset = this.datasets[i];
+      if (dataset.isEvs != onlyEvs)
+        continue;
+      if (!filters.countryIds.includes(dataset.country))
+        continue;
+      if (filters.date.firstYear != null && (dataset.year < filters.date.firstYear || dataset.year > filters.date.lastYear || (dataset.year == filters.date.firstYear && dataset.month < filters.date.firstMonth) || (dataset.year == filters.date.lastYear && dataset.month > filters.date.lastMonth)))
+        continue;
+
+      // add entry to monthsPerCountryAndTimeSpan
+      if (this.isTimeXProperty(chartConfig) || chartConfig.timeSpan.startsWith("q") || chartConfig.timeSpan.startsWith("y")) {
+        let timeSpan;
+        if (this.isByYear(chartConfig))
+          timeSpan = dataset.year;
+        else if (this.isByQuarter(chartConfig))
+          timeSpan = this.formatQuarter(dataset.year, this.monthToQuarter(dataset.month));
+        else
+          timeSpan = dataset.monthString;
+        if (!(dataset.countryName in monthsPerCountryAndTimeSpan))
+          monthsPerCountryAndTimeSpan[dataset.countryName] = {};
+        if (!(timeSpan in monthsPerCountryAndTimeSpan[dataset.countryName]))
+          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan] = [];
+        if (!monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].includes(dataset.monthString))
+          monthsPerCountryAndTimeSpan[dataset.countryName][timeSpan].push(dataset.monthString);
+      }
+
+      monthsInRange.push(dataset.monthString);
+
+      for (const dataKey in dataset.data) {
+        const dataKeyParts = dataKey.split("|", 2);
+        const brand = dataKeyParts[0];
+        const model = dataKeyParts[1];
+        const company = this.companiesByBrand[brand];
+        const value = dataset.data[dataKey];
+
+        // apply filters
+        if (filters.companies.length > 0 && !filters.companies.includes(company))
+          continue;
+        if (filters.brands.length > 0 && !filters.brands.includes(brand))
+          continue;
+        if (filters.models.length > 0 && !filters.models.includes(model))
+          continue;
+        if (brand == "other" && (chartConfig.metric == this.metrics.ratioElectricWithinCompanyOrBrand || (chartConfig.metric == this.metrics.shareElectric && !this.isTimeXProperty(chartConfig))))
+          continue;
+
+        // save gapDetectionData
+        if (!(dataKey in gapDetectionData))
+          gapDetectionData[dataKey] = [[], 0];
+        gapDetectionData[dataKey][0].push(dataset.monthString);
+        gapDetectionData[dataKey][1] += value;
+
+        // set category
+        let category = this.queryDatasets_getCategory(chartConfig, dataset, dataKey, company, brand);
+
+        // set seriesName
+        let seriesName = this.queryDatasets_getSeriesName(params, chartConfig, dataset, dataKey, filters, company, brand, model);
+
+        // add entry to seriesRows, categories and sources
+        if (!(seriesName in seriesRows))
+          seriesRows[seriesName] = {};
+        if (category in seriesRows[seriesName])
+          seriesRows[seriesName][category] += value;
+        else
+          seriesRows[seriesName][category] = value;
+        if (!categories.includes(category))
+          categories.push(category);
+        if (sources[dataset.source] == null) {
+          let sourceInfo = {};
+          sourceInfo.country = dataset.country;
+          sourceInfo.firstDate = dataset.monthString;
+          sourceInfo.isAllCars = false;
+          sourceInfo.isEvs = false;
+          sources[dataset.source] = sourceInfo;
+        }
+        sources[dataset.source].lastDate = dataset.monthString;
+        if (dataset.isEvs)
+          sources[dataset.source].isEvs = true;
+        else
+          sources[dataset.source].isAllCars = true;
+      }
+      if (dataset.perQuarter && !nonMonthlyCountries.includes(dataset.country))
+        nonMonthlyCountries.push(dataset.country);
+    }
+
+    if (this.isTimeXProperty(chartConfig))
+      categories.sort(); // provisional, needed for next processing steps and hints
+
+    this.removeLastIncompleteMonthOrQuarter(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+    this.removeMostRecentMonthIfIncomplete(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+    this.removeIncompleteGlobalData(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan);
+
+    let chartData = {
+      seriesRows: seriesRows,
+      sources: sources,
+      categories: categories,
+      hints: [],
+      monthsPerCountryAndTimeSpan: monthsPerCountryAndTimeSpan
+    };
+
+    if (withHints) {
+      this.addHints_gapDetection(chartConfig, chartData, gapDetectionData, monthsInRange);
+      this.addHints_parseSources(chartConfig, chartData);
+      this.addHints_incompleteData(chartConfig, chartData);
+      this.addHints_notMonthly(chartConfig, chartData, nonMonthlyCountries);
+    }
+
+    return chartData;
   },
 
   removeLastIncompleteMonthOrQuarter: function(chartConfig, seriesRows, categories, monthsPerCountryAndTimeSpan) {
