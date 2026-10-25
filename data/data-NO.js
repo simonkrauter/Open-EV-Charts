@@ -7883,3 +7883,58 @@ db.insert(db.countries.NO, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 // , "Honda":
 // , "other":
 // });
+
+db.insert(db.countries.NO, "2026-09", db.dsTypes.AllCarsByBrand, "https://ofv.no/aktuelt/sterk-vekst-i-nybilregistreringene-i-september-opp-30-prosent",
+{ "Tesla": 4935
+, "Toyota": 1333
+, "Volkswagen": 1182
+, "Volvo": 1088
+, "Mercedes-Benz": 886
+, "BMW": 856
+, "Kia": 770
+, "BYD": 758
+, "Škoda": 681
+, "Xpeng": 564
+, "Audi": 562
+, "Ford": 550
+, "MG": 483
+, "Zeekr": 398
+, "Polestar": 346
+, "Peugeot": 338
+, "Smart": 322
+, "Subaru": 304
+, "Hyundai": 297
+, "Nissan": 254
+, "Mazda": 178
+, "Changan": 176
+, "Cupra": 173
+, "Opel": 151
+, "Citroën": 141
+, "Porsche": 134
+, "Renault": 107
+, "Dongfeng": 102
+, "Mini": 95
+, "other": 569
+});
+
+db.insert(db.countries.NO, "2026-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/NO/Brands/Month/2026/9 (includes commercial vehicles), https://ofv.no/aktuelt/sterk-vekst-i-nybilregistreringene-i-september-opp-30-prosent",
+{ "Tesla|Model Y": 4792
+, "Mercedes-Benz|GLC Electric": 511
+, "Volvo|EX30": 489
+, "Volkswagen|ID.4": 477
+, "Toyota|bZ4X": 467
+, "BYD|Atto 3": 363
+, "Audi|Q4 e-tron": 358
+, "Kia|EV5": 320
+, "Škoda|Elroq": 303
+, "Toyota|Urban Cruiser Electric": 301
+, "BMW|iX3": 298
+, "Ford|Explorer EV": 297
+, "Volvo|EX40": 295
+, "Toyota|C-HR+": 285
+, "BYD|Sealion 7": 268
+, "Škoda|Enyaq": 267
+, "Volkswagen|ID.7": 253
+, "Smart|Hashtag 5": 224
+, "other": 7943
+});
