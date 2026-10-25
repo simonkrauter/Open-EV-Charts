@@ -9035,3 +9035,71 @@ db.insert(db.countries.CH, "2026-08", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|Q6 e-tron": 61
 , "other": 2391
 });
+
+db.insert(db.countries.CH, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.auto.swiss/wp-content/uploads/2026/10/ModellePW2026.xlsx",
+{ "Mercedes-Benz": 2118
+, "Tesla": 1950
+, "Volkswagen": 1900
+, "Škoda": 1806
+, "BMW": 1422
+, "Audi": 1395
+, "Toyota": 1240
+, "Renault": 827
+, "Volvo": 759
+, "BYD": 715
+, "Dacia": 656
+, "Kia": 545
+, "Peugeot": 538
+, "Hyundai": 528
+, "Seat": 477
+, "MG": 470
+, "Cupra": 382
+, "Ford": 340
+, "Leapmotor": 331
+, "Mini": 289
+, "Mazda": 288
+, "Suzuki": 270
+, "Opel": 252
+, "Fiat": 246
+, "Porsche": 244
+, "Citroën": 233
+, "Honda": 207
+, "Land Rover": 177
+, "Polestar": 151
+, "Zeekr": 146
+, "Jeep": 107
+, "Nissan": 103
+, "Subaru": 88
+, "Smart": 86
+, "Xpeng": 85
+, "Mitsubishi": 63
+, "JAC": 43
+, "Lynk & Co": 30
+, "BAIC": 14
+, "Dongfeng": 8
+, "Cadillac": 4
+, "other": 415
+});
+
+db.insert(db.countries.CH, "2026-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/CH/Brands/Month/2026/9 (includes commercial vehicles), https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Personenwagen_AlternativeAntriebe/",
+{ "Tesla|Model Y": 1679
+, "Škoda|Elroq": 312
+, "Škoda|Enyaq": 278
+, "Tesla|Model 3": 263
+, "BMW|iX3": 256
+, "Mercedes-Benz|GLC Electric": 247
+, "Volvo|EX30": 229
+, "Renault|5 E-Tech": 161
+, "Renault|Twingo E-Tech": 148
+, "BMW|iX1": 144
+, "Audi|Q4 e-tron": 136
+, "BYD|Atto 3": 122
+, "Volkswagen|ID.3": 121
+, "Kia|EV2": 119
+, "Toyota|bZ4X": 110
+, "Leapmotor|B05": 107
+, "Cupra|Raval": 97
+, "Mercedes-Benz|CLA Electric": 96
+, "BYD|Sealion 7": 95
+, "other": 3126
+});
