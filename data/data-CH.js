@@ -8598,7 +8598,7 @@ db.insert(db.countries.CH, "2026-04", db.dsTypes.ElectricCarsByModel, "https://e
 , "Audi|A6 e-tron": 41
 , "Polestar|4": 40
 , "Leapmotor|T03": 39
-, "BYD|Atto 2": 38
+, "BYD|Atto 2 EV": 38
 , "BYD|Seal": 37
 , "Opel|Astra Electric": 36
 , "Fiat|500e": 35
@@ -8737,7 +8737,7 @@ db.insert(db.countries.CH, "2026-05", db.dsTypes.ElectricCarsByModel, "https://e
 , "Renault|Megane E-Tech": 36
 , "Mercedes-Benz|EQA": 35
 , "Mercedes-Benz|eCitan": 35
-, "BYD|Atto 2": 34
+, "BYD|Atto 2 EV": 34
 , "BMW|iX": 31
 , "Leapmotor|C10 EV": 31
 , "Xpeng|G6": 31

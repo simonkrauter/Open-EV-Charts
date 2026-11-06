@@ -7047,7 +7047,7 @@ db.insert(db.countries.ES, "2025-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Citroën|ë-Berlingo Electric": 63
 , "Hyundai|Kona Electric": 49
 , "Mercedes-Benz|EQB": 48
-, "BYD|Atto 2": 45
+, "BYD|Atto 2 EV": 45
 , "Volkswagen|ID.3": 45
 , "Hyundai|Inster": 43
 , "Škoda|Enyaq": 40
@@ -7295,7 +7295,7 @@ db.insert(db.countries.ES, "2025-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 65
 , "BMW|i4": 64
 , "Kia|Niro EV": 63
-, "BYD|Atto 2": 59
+, "BYD|Atto 2 EV": 59
 , "Hyundai|Ioniq 5": 50
 , "Volkswagen|ID.3": 50
 , "Škoda|Elroq": 50
@@ -7406,7 +7406,7 @@ db.insert(db.countries.ES, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Audi|Q4 e-tron": 75
 , "Volkswagen|ID. Buzz": 74
 , "Mercedes-Benz|EQE": 73
-, "BYD|Atto 2": 72
+, "BYD|Atto 2 EV": 72
 , "BYD|Song Plus": 72
 , "Omoda Jaecoo|Omoda E5": 71
 , "Volkswagen|ID.3": 68
@@ -7521,7 +7521,7 @@ db.insert(db.countries.ES, "2025-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Dolphin": 139
 , "BYD|Sealion 7": 136
 , "Cupra|Born": 133
-, "BYD|Atto 2": 119
+, "BYD|Atto 2 EV": 119
 , "Ford|Puma Gen-E": 119
 , "Citroën|ë-Berlingo Electric": 113
 , "BMW|i4": 109
@@ -7636,7 +7636,7 @@ db.insert(db.countries.ES, "2025-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "Peugeot|e-2008": 164
 , "Polestar|2": 164
 , "Dacia|Spring": 154
-, "BYD|Atto 2": 153
+, "BYD|Atto 2 EV": 153
 , "BYD|Sealion 7": 153
 , "Škoda|Elroq": 139
 , "BMW|iX2": 132
@@ -7742,7 +7742,7 @@ db.insert(db.countries.ES, "2025-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 531
 , "Kia|EV3": 493
 , "Tesla|Model 3": 456
-, "BYD|Atto 2": 333
+, "BYD|Atto 2 EV": 333
 , "Renault|5 E-Tech": 332
 , "Škoda|Elroq": 318
 , "Hyundai|Inster": 292
@@ -7865,7 +7865,7 @@ db.insert(db.countries.ES, "2025-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 451
 , "Toyota|bZ4X": 358
 , "Renault|5 E-Tech": 320
-, "BYD|Atto 2": 308
+, "BYD|Atto 2 EV": 308
 , "Tesla|Model Y": 289
 , "Mini|Cooper SE": 286
 , "Dacia|Spring": 188
@@ -7980,7 +7980,7 @@ db.insert(db.countries.ES, "2025-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model Y": 1016
 , "Kia|EV3": 529
 , "BYD|Seagull": 502
-, "BYD|Atto 2": 410
+, "BYD|Atto 2 EV": 410
 , "BYD|Seal": 332
 , "Mini|Cooper SE": 304
 , "BYD|Atto 3": 269
@@ -8097,7 +8097,7 @@ db.insert(db.countries.ES, "2025-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV3": 582
 , "Renault|5 E-Tech": 434
 , "Jeep|Avenger EV": 376
-, "BYD|Atto 2": 351
+, "BYD|Atto 2 EV": 351
 , "Mini|Cooper SE": 341
 , "Tesla|Model Y": 338
 , "Škoda|Elroq": 267
@@ -8218,7 +8218,7 @@ db.insert(db.countries.ES, "2025-11", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 1263
 , "BYD|Seagull": 688
 , "Kia|EV3": 468
-, "BYD|Atto 2": 408
+, "BYD|Atto 2 EV": 408
 , "Mini|Cooper SE": 350
 , "Jeep|Avenger EV": 269
 , "BYD|Atto 3": 265
@@ -8337,7 +8337,7 @@ db.insert(db.countries.ES, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 { "Tesla|Model 3": 962
 , "Tesla|Model Y": 828
 , "BYD|Seagull": 697
-, "BYD|Atto 2": 437
+, "BYD|Atto 2 EV": 437
 , "Mini|Cooper SE": 401
 , "Kia|EV3": 399
 , "BYD|Seal": 390
@@ -8462,7 +8462,7 @@ db.insert(db.countries.ES, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mini|Cooper SE": 251
 , "Mercedes-Benz|EQA": 224
 , "Kia|EV3": 207
-, "BYD|Atto 2": 203
+, "BYD|Atto 2 EV": 203
 , "BYD|Atto 3": 201
 , "Toyota|bZ4X": 178
 , "Mercedes-Benz|CLA Electric": 172
@@ -8586,7 +8586,7 @@ db.insert(db.countries.ES, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 435
 , "Tesla|Model Y": 419
 , "Kia|EV3": 317
-, "BYD|Atto 2": 284
+, "BYD|Atto 2 EV": 284
 , "Kia|Niro EV": 260
 , "Renault|5 E-Tech": 247
 , "Jeep|Avenger EV": 237
@@ -8711,7 +8711,7 @@ db.insert(db.countries.ES, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model Y": 1157
 , "BYD|Seagull": 608
 , "Toyota|C-HR+": 401
-, "BYD|Atto 2": 400
+, "BYD|Atto 2 EV": 400
 , "Kia|EV3": 367
 , "Renault|5 E-Tech": 357
 , "Mini|Cooper SE": 339
@@ -8838,7 +8838,7 @@ db.insert(db.countries.ES, "2026-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV3": 427
 , "Renault|5 E-Tech": 376
 , "Deepal|S05 EV": 335
-, "BYD|Atto 2": 283
+, "BYD|Atto 2 EV": 283
 , "Škoda|Elroq": 282
 , "Mini|Cooper SE": 248
 , "Kia|EV2": 235
@@ -8969,7 +8969,7 @@ db.insert(db.countries.ES, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Deepal|S05 EV": 387
 , "Renault|5 E-Tech": 356
 , "Kia|EV2": 348
-, "BYD|Atto 2": 347
+, "BYD|Atto 2 EV": 347
 , "Mini|Cooper SE": 339
 , "Xpeng|G6": 277
 , "Citroën|ë-C3": 268
@@ -9099,7 +9099,7 @@ db.insert(db.countries.ES, "2026-06", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Seagull": 479
 , "Toyota|C-HR+": 454
 , "Deepal|S05 EV": 390
-, "BYD|Atto 2": 374
+, "BYD|Atto 2 EV": 374
 , "Citroën|ë-C3": 361
 , "Mini|Cooper SE": 361
 , "Leapmotor|B10": 344
@@ -9224,7 +9224,7 @@ db.insert(db.countries.ES, "2026-07", db.dsTypes.AllCarsByBrand, "https://www.dg
 db.insert(db.countries.ES, "2026-07", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
 { "Kia|EV3": 454
 , "Leapmotor|B10": 443
-, "BYD|Atto 2": 433
+, "BYD|Atto 2 EV": 433
 , "BYD|Seagull": 386
 , "Deepal|S05 EV": 337
 , "Citroën|ë-C3": 326
@@ -9354,7 +9354,7 @@ db.insert(db.countries.ES, "2026-08", db.dsTypes.AllCarsByBrand, "https://www.dg
 
 db.insert(db.countries.ES, "2026-08", db.dsTypes.ElectricCarsByModel, "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
 { "Kia|EV3": 433
-, "BYD|Atto 2": 373
+, "BYD|Atto 2 EV": 373
 , "BYD|Seagull": 343
 , "Leapmotor|B10": 332
 , "Citroën|ë-C3": 302
@@ -9491,7 +9491,7 @@ db.insert(db.countries.ES, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV3": 558
 , "BYD|Atto 3": 535
 , "Leapmotor|B10": 486
-, "BYD|Atto 2": 475
+, "BYD|Atto 2 EV": 475
 , "Toyota|C-HR+": 436
 , "Geely|EX5 BEV": 383
 , "Geely|EX2": 371

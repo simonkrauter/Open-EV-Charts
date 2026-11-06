@@ -8410,7 +8410,7 @@ db.insert(db.countries.DE, "2025-04", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV6": 287
 , "Leapmotor|T03": 274
 , "BYD|Song Plus": 268
-, "BYD|Atto 2": 262
+, "BYD|Atto 2 EV": 262
 , "BMW|iX3": 236
 , "Porsche|Taycan": 234
 , "Tesla|Model 3": 234
@@ -8520,7 +8520,7 @@ db.insert(db.countries.DE, "2025-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "Opel|Frontera Electric": 401
 , "Toyota|bZ4X": 375
 , "Mercedes-Benz|EQE": 372
-, "BYD|Atto 2": 356
+, "BYD|Atto 2 EV": 356
 , "Kia|EV6": 329
 , "BMW|iX2": 318
 , "BMW|iX": 306
@@ -9371,7 +9371,7 @@ db.insert(db.countries.DE, "2025-12", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQB": 319
 , "Renault|4 E-Tech": 317
 , "Hyundai|Inster": 305
-, "BYD|Atto 2": 297
+, "BYD|Atto 2 EV": 297
 , "Peugeot|e-2008": 297
 , "BYD|Seal": 277
 , "Mercedes-Benz|other": 829
@@ -9486,7 +9486,7 @@ db.insert(db.countries.DE, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Mercedes-Benz|EQE": 249
 , "Mazda|EZ-6 BEV": 246
 , "Fiat|Grande Panda Electric": 244
-, "BYD|Atto 2": 234
+, "BYD|Atto 2 EV": 234
 , "Mitsubishi|Eclipse Cross EV": 234
 , "Xpeng|G6": 219
 , "Smart|Hashtag 5": 218

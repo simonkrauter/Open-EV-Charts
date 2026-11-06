@@ -1677,7 +1677,7 @@ db.insert(db.countries.CN, "2024-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 9995
 , "BYD|Han EV": 8859
 , "BYD|Song EV": 8403
-, "BYD|Atto 2": 8620
+, "BYD|Atto 2 EV": 8620
 , "Geely|Panda Mini EV": 8125
 , "Changan|Lumin": 6890
 , "Nio|ET5": 6710
@@ -1725,7 +1725,7 @@ db.insert(db.countries.CN, "2024-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Geely|Panda Mini EV": 9154
 , "Nio|ET5": 8557
 , "BYD|Dolphin": 8429
-, "BYD|Atto 2": 8392
+, "BYD|Atto 2 EV": 8392
 , "BYD|Qin EV": 8323
 , "BMW|i3 (2022)": 6952
 , "Volkswagen|ID.4": 6854
@@ -1767,7 +1767,7 @@ db.insert(db.countries.CN, "2024-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Hongguang Mini EV": 26461
 , "BYD|Qin EV": 26093
 , "Wuling|Bingo": 22185
-, "BYD|Atto 2": 19344
+, "BYD|Atto 2 EV": 19344
 , "Tesla|Model 3": 18126
 , "BYD|Dolphin": 15984
 , "Changan|Lumin": 15701
@@ -1792,7 +1792,7 @@ db.insert(db.countries.CN, "2024-09", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 24036
 , "Tesla|Model 3": 23998
 , "Geely|Panda Mini EV": 17551
-, "BYD|Atto 2": 16018
+, "BYD|Atto 2 EV": 16018
 , "BYD|Dolphin": 15290
 , "Aion|Y": 14612
 , "Geely|EX5 BEV": 14250
@@ -1817,7 +1817,7 @@ db.insert(db.countries.CN, "2024-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Atto 3": 28676
 , "Wuling|Bingo": 24106
 , "Xiaomi|SU7": 20726
-, "BYD|Atto 2": 20216
+, "BYD|Atto 2 EV": 20216
 , "BYD|Dolphin": 18231
 , "Changan|Lumin": 17040
 , "Geely|Panda Mini EV": 15616
@@ -1841,7 +1841,7 @@ db.insert(db.countries.CN, "2024-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 26808
 , "BYD|Atto 3": 26400
 , "Xiaomi|SU7": 23156
-, "BYD|Atto 2": 21391
+, "BYD|Atto 2 EV": 21391
 , "Geometry|Xingyuan": 20038
 , "Geely|Panda Mini EV": 19027
 , "BYD|Song EV": 9236
@@ -1866,7 +1866,7 @@ db.insert(db.countries.CN, "2024-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaomi|SU7": 25815
 , "BYD|Atto 3": 23048
 , "Tesla|Model 3": 21046
-, "BYD|Atto 2": 18552
+, "BYD|Atto 2 EV": 18552
 , "Geometry|Xingyuan": 16491
 , "Xpeng|Mona M03": 15877
 , "BYD|Dolphin": 14439
@@ -1907,7 +1907,7 @@ db.insert(db.countries.CN, "2025-02", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|Mona M03": 15312
 , "Geely|Panda Mini EV": 12889
 , "BYD|Atto 3": 10758
-, "BYD|Atto 2": 10490
+, "BYD|Atto 2 EV": 10490
 , "Wuling|Bingo": 10163
 , "Changan|Lumin": 9970
 , "Geely|EX5 BEV": 8016
@@ -1929,7 +1929,7 @@ db.insert(db.countries.CN, "2025-03", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaomi|SU7": 29244
 , "Tesla|Model 3": 25938
 , "BYD|Atto 3": 20179
-, "BYD|Atto 2": 17177
+, "BYD|Atto 2 EV": 17177
 , "Xpeng|Mona M03": 16593
 , "Wuling|Bingo": 15935
 , "Changan|Lumin": 15425
@@ -1976,7 +1976,7 @@ db.insert(db.countries.CN, "2025-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Bingo": 15550
 , "Tesla|Model 3": 13818
 , "BYD|Dolphin": 13547
-, "BYD|Atto 2": 13047
+, "BYD|Atto 2 EV": 13047
 , "BYD|Qin EV": 12509
 , "BYD|Atto 3": 12255
 , "BYD|Song EV": 8265
@@ -1998,7 +1998,7 @@ db.insert(db.countries.CN, "2025-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Dolphin": 18106
 , "BYD|Qin EV": 18045
 , "Tesla|Model 3": 16636
-, "BYD|Atto 2": 15347
+, "BYD|Atto 2 EV": 15347
 , "Changan|Lumin": 15018
 , "Xpeng|Mona M03": 14111
 , "Geely|Panda Mini EV": 13471
@@ -2024,7 +2024,7 @@ db.insert(db.countries.CN, "2025-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xpeng|Mona M03": 15704
 , "Changan|Lumin": 13186
 , "BYD|Dolphin": 12865
-, "BYD|Atto 2": 12451
+, "BYD|Atto 2 EV": 12451
 , "Wuling|Bingo": 11886
 , "BYD|Atto 3": 11739
 , "Geely|EX5 BEV": 11470
@@ -2047,7 +2047,7 @@ db.insert(db.countries.CN, "2025-08", db.dsTypes.ElectricCarsByModel, "https://c
 , "Wuling|Hongguang Mini EV": 37828
 , "BYD|Seagull": 23031
 , "Xiaomi|SU7": 19848
-, "BYD|Atto 2": 19647
+, "BYD|Atto 2 EV": 19647
 , "Tesla|Model 3": 17739
 , "Xiaomi|YU7": 16548
 , "Xpeng|Mona M03": 15333
@@ -2072,7 +2072,7 @@ db.insert(db.countries.CN, "2025-09", db.dsTypes.ElectricCarsByModel, "https://c
 { "Wuling|Hongguang Mini EV": 51743
 , "Tesla|Model Y": 51173
 , "Geometry|Xingyuan": 48080
-, "BYD|Atto 2": 25919
+, "BYD|Atto 2 EV": 25919
 , "BYD|Seagull": 25272
 , "Changan|Lumin": 23188
 , "Xiaomi|YU7": 22369
@@ -2101,7 +2101,7 @@ db.insert(db.countries.CN, "2025-10", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaomi|YU7": 33662
 , "BYD|Seagull": 24706
 , "Changan|Lumin": 20520
-, "BYD|Atto 2": 19813
+, "BYD|Atto 2 EV": 19813
 , "Tesla|Model Y": 19488
 , "BYD|Qin EV": 17870
 , "Wuling|Bingo S": 17248
@@ -2126,7 +2126,7 @@ db.insert(db.countries.CN, "2025-11", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Qin EV": 32786
 , "Tesla|Model 3": 26013
 , "BYD|Seagull": 21807
-, "BYD|Atto 2": 20628
+, "BYD|Atto 2 EV": 20628
 , "Wuling|Bingo S": 17959
 , "BYD|Dolphin": 17320
 , "Geely|Panda Mini EV": 17301
@@ -2153,7 +2153,7 @@ db.insert(db.countries.CN, "2025-12", db.dsTypes.ElectricCarsByModel, "https://c
 , "BYD|Song EV": 4732
 , "Nio|ES8": 22258
 , "BYD|Seal 06 EV": 9059
-, "BYD|Atto 2": 18766
+, "BYD|Atto 2 EV": 18766
 , "BYD|Seagull": 18307
 , "BYD|Dolphin": 15602
 , "other": 478380
@@ -2213,7 +2213,7 @@ db.insert(db.countries.CN, "2026-03", db.dsTypes.AllCarsTotal, "https://cleantec
 db.insert(db.countries.CN, "2026-03", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/04/22/byd-wins-in-a-slow-return-to-normal-china-march-ev-sales-report/",
 { "Tesla|Model Y": 39827
 , "Geometry|Xingyuan": 30953
-, "BYD|Atto 2": 21538
+, "BYD|Atto 2 EV": 21538
 , "BYD|Dolphin": 17291
 , "Wuling|Hongguang Mini EV": 16806
 , "Tesla|Model 3": 16280
@@ -2243,7 +2243,7 @@ db.insert(db.countries.CN, "2026-04", db.dsTypes.ElectricCarsByModel, "https://c
 , "Xiaomi|SU7": 26826
 , "Tesla|Model Y": 22990
 , "Changan|Qiyuan Q05 EV": 15814
-, "BYD|Atto 2": 15658
+, "BYD|Atto 2 EV": 15658
 , "Leapmotor|A10": 14372
 , "BYD|Dolphin": 14218
 , "Xpeng|Mona M03": 13595
@@ -2274,7 +2274,7 @@ db.insert(db.countries.CN, "2026-05", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|A10": 22306
 , "Tesla|Model 3": 18370
 , "Wuling|Hongguang Mini EV": 18308
-, "BYD|Atto 2": 17043
+, "BYD|Atto 2 EV": 17043
 , "Changan|Qiyuan Q05 EV": 15954
 , "MG|4 EV": 15067
 , "Xpeng|Mona M03": 14160
@@ -2302,7 +2302,7 @@ db.insert(db.countries.CN, "2026-06", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|A10": 24865
 , "Xiaomi|SU7": 20414
 , "Changan|Qiyuan Q05 EV": 18908
-, "BYD|Atto 2": 17945
+, "BYD|Atto 2 EV": 17945
 , "MG|4 EV": 14397
 , "Xiaomi|YU7": 14324
 , "Tesla|Model 3": 14266
@@ -2330,7 +2330,7 @@ db.insert(db.countries.CN, "2026-07", db.dsTypes.ElectricCarsByModel, "https://c
 , "Leapmotor|A10": 26424
 , "Tesla|Model Y": 25158
 , "Xiaomi|SU7": 21044
-, "BYD|Atto 2": 20275
+, "BYD|Atto 2 EV": 20275
 , "Changan|Qiyuan Q05 EV": 18871
 , "BYD|Song EV": 13955
 , "BYD|Dolphin": 13910
@@ -2355,7 +2355,7 @@ db.insert(db.countries.CN, "2026-08", db.dsTypes.ElectricCarsByModel, "https://c
 { "Geometry|Xingyuan": 39651
 , "Leapmotor|A10": 30652
 , "Tesla|Model Y": 29260
-, "BYD|Atto 2": 22958
+, "BYD|Atto 2 EV": 22958
 , "Tesla|Model 3": 20787
 , "BYD|Dolphin": 16829
 , "Xiaomi|SU7": 16518
@@ -2381,7 +2381,7 @@ db.insert(db.countries.CN, "2026-09", db.dsTypes.AllCarsTotal, "https://cleantec
 db.insert(db.countries.CN, "2026-09", db.dsTypes.ElectricCarsByModel, "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
 { "Tesla|Model Y": 50359
 , "Geometry|Xingyuan": 44275
-, "BYD|Atto 2": 22767
+, "BYD|Atto 2 EV": 22767
 , "Leapmotor|A10": 21772
 , "BYD|Song EV": 17131
 , "BYD|Dolphin": 16754

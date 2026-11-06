@@ -2876,7 +2876,7 @@ db.insert(db.countries.AT, "2023-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4": 154
 , "BMW|i4": 110
 , "BMW|iX1": 103
-, "BYD|Atto 2/3": 103
+, "BYD|Atto 2/3 EV": 103
 , "other": 1819
 });
 
@@ -3138,7 +3138,7 @@ db.insert(db.countries.AT, "2024-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 134
 , "BMW|iX3": 97
 , "BYD|Seal": 88
-, "BYD|Atto 2/3": 81
+, "BYD|Atto 2/3 EV": 81
 , "Volkswagen|ID.4": 70
 , "other": 1501
 });
@@ -3338,7 +3338,7 @@ db.insert(db.countries.AT, "2024-06", db.dsTypes.AllCarsByBrand, "https://www.st
 });
 
 db.insert(db.countries.AT, "2024-06", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/NeuzulassungenFahrzeugeJaennerBisJuni2024.ods",
-{ "BYD|Atto 2/3": 457
+{ "BYD|Atto 2/3 EV": 457
 , "Tesla|Model Y": 614
 , "Tesla|Model 3": 420
 , "BMW|i4": 219
@@ -4350,7 +4350,7 @@ db.insert(db.countries.AT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 270
 , "Volkswagen|ID.7": 174
 , "BMW|iX1": 146
-, "BYD|Atto 2/3": 135
+, "BYD|Atto 2/3 EV": 135
 , "Cupra|Born": 132
 , "Volkswagen|ID.3": 131
 , "BYD|Seal": 129
@@ -4408,7 +4408,7 @@ db.insert(db.countries.AT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Explorer EV": 140
 , "BMW|iX1": 138
 , "Volkswagen|ID.7": 134
-, "BYD|Atto 2/3": 123
+, "BYD|Atto 2/3 EV": 123
 , "other": 2638
 });
 
@@ -4461,7 +4461,7 @@ db.insert(db.countries.AT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://w
 , "Škoda|Enyaq": 309
 , "BMW|iX1": 271
 , "BMW|iX3": 250
-, "BYD|Atto 2/3": 230
+, "BYD|Atto 2/3 EV": 230
 , "Volkswagen|ID.7": 210
 , "BYD|Sealion 7": 205
 , "other": 4531
@@ -4510,7 +4510,7 @@ db.insert(db.countries.AT, "2026-04", db.dsTypes.AllCarsByBrand, "https://www.st
 db.insert(db.countries.AT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://www.statistik.at/fileadmin/pages/77/DE2_NeuzulassungenFahrzeugeJaennerBisApril2026.ods",
 { "Škoda|Elroq": 476
 , "Škoda|Enyaq": 430
-, "BYD|Atto 2/3": 337
+, "BYD|Atto 2/3 EV": 337
 , "BYD|Sealion 7": 285
 , "Volkswagen|ID.7": 271
 , "BMW|iX1": 251
@@ -4570,7 +4570,7 @@ db.insert(db.countries.AT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://w
 , "BYD|Sealion 7": 228
 , "Volkswagen|ID.3": 220
 , "Cupra|Born": 216
-, "BYD|Atto 2/3": 200
+, "BYD|Atto 2/3 EV": 200
 , "Volkswagen|ID.7": 194
 , "Opel|Frontera Electric": 186
 , "other": 4029
@@ -4682,7 +4682,7 @@ db.insert(db.countries.AT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://w
 , "Kia|EV2": 231
 , "Audi|Q6 e-tron": 220
 , "BYD|Sealion 7": 219
-, "BYD|Atto 2/3": 210
+, "BYD|Atto 2/3 EV": 210
 , "Opel|Frontera Electric": 192
 , "Cupra|Born": 183
 , "other": 4498
@@ -4735,7 +4735,7 @@ db.insert(db.countries.AT, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 { "BMW|iX1": 290
 , "BMW|iX3": 288
 , "Škoda|Enyaq": 269
-, "BYD|Atto 2/3": 256
+, "BYD|Atto 2/3 EV": 256
 , "Kia|EV2": 216
 , "Škoda|Elroq": 215
 , "Opel|Frontera Electric": 214
@@ -4793,7 +4793,7 @@ db.insert(db.countries.AT, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Tesla|Model 3": 614
 , "Škoda|Enyaq": 403
 , "Škoda|Elroq": 329
-, "BYD|Atto 2/3": 318
+, "BYD|Atto 2/3 EV": 318
 , "BMW|iX3": 292
 , "Volkswagen|ID. Polo": 237
 , "Hyundai|Inster": 231

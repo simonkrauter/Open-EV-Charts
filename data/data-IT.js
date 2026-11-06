@@ -5953,7 +5953,7 @@ db.insert(db.countries.IT, "2025-01", db.dsTypes.ElectricCarsByModel, "https://u
 , "Renault|Twingo E-Tech": 42
 , "Hyundai|Ioniq 5": 41
 , "BMW|iX2": 40
-, "BYD|Atto 2": 40
+, "BYD|Atto 2 EV": 40
 , "Audi|A6 e-tron": 39
 , "Chery|eQ1": 39
 , "Peugeot|E-5008": 39
@@ -6406,7 +6406,7 @@ db.insert(db.countries.IT, "2025-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "BYD|Atto 3": 68
 , "Peugeot|e-2008": 61
 , "MG|4 EV": 57
-, "BYD|Atto 2": 56
+, "BYD|Atto 2 EV": 56
 , "Fiat|Grande Panda Electric": 55
 , "Volvo|EX40": 55
 , "Cupra|Born": 51
@@ -6529,7 +6529,7 @@ db.insert(db.countries.IT, "2025-06", db.dsTypes.ElectricCarsByModel, "https://u
 , "Volkswagen|ID.4": 52
 , "Peugeot|e-208": 50
 , "Smart|Hashtag 1": 50
-, "BYD|Atto 2": 48
+, "BYD|Atto 2 EV": 48
 , "Fiat|600e": 48
 , "Polestar|4": 47
 , "Hyundai|Kona Electric": 46
@@ -6635,7 +6635,7 @@ db.insert(db.countries.IT, "2025-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "BMW|iX2": 57
 , "Chery|eQ1": 55
 , "BYD|Atto 3": 53
-, "BYD|Atto 2": 50
+, "BYD|Atto 2 EV": 50
 , "Peugeot|e-2008": 50
 , "BYD|Dolphin": 49
 , "Volkswagen|ID.4": 48
@@ -6760,7 +6760,7 @@ db.insert(db.countries.IT, "2025-08", db.dsTypes.ElectricCarsByModel, "https://u
 , "Ford|Capri EV": 14
 , "Geely|EX5 BEV": 14
 , "Porsche|Taycan": 14
-, "BYD|Atto 2": 13
+, "BYD|Atto 2 EV": 13
 , "Renault|Scénic E-Tech": 13
 , "Volvo|EX90": 12
 , "Dongfeng|Box": 11
@@ -6864,7 +6864,7 @@ db.insert(db.countries.IT, "2025-09", db.dsTypes.ElectricCarsByModel, "https://u
 , "Škoda|Elroq": 80
 , "Renault|4 E-Tech": 78
 , "Hyundai|Inster": 75
-, "BYD|Atto 2": 71
+, "BYD|Atto 2 EV": 71
 , "BYD|Atto 3": 71
 , "Polestar|4": 61
 , "Leapmotor|B10": 59
@@ -6990,7 +6990,7 @@ db.insert(db.countries.IT, "2025-10", db.dsTypes.ElectricCarsByModel, "https://u
 , "Fiat|600e": 47
 , "Cupra|Born": 46
 , "Audi|A6 e-tron": 45
-, "BYD|Atto 2": 45
+, "BYD|Atto 2 EV": 45
 , "BYD|Atto 3": 43
 , "Peugeot|e-2008": 39
 , "Ford|Capri EV": 36
@@ -7104,7 +7104,7 @@ db.insert(db.countries.IT, "2025-11", db.dsTypes.ElectricCarsByModel, "https://u
 , "Volkswagen|ID.4": 117
 , "Renault|Scénic E-Tech": 116
 , "Audi|Q4 e-tron": 115
-, "BYD|Atto 2": 114
+, "BYD|Atto 2 EV": 114
 , "Škoda|Enyaq": 113
 , "Volkswagen|ID.3": 90
 , "BMW|iX2": 84
@@ -7201,7 +7201,7 @@ db.insert(db.countries.IT, "2025-12", db.dsTypes.ElectricCarsByModel, "https://u
 , "Mini|Cooper SE": 191
 , "Cupra|Born": 190
 , "Renault|4 E-Tech": 181
-, "BYD|Atto 2": 148
+, "BYD|Atto 2 EV": 148
 , "Audi|Q6 e-tron": 145
 , "Leapmotor|B10": 140
 , "Volvo|EX30": 128
@@ -7327,7 +7327,7 @@ db.insert(db.countries.IT, "2026-01", db.dsTypes.ElectricCarsByModel, "https://u
 , "Jeep|Avenger EV": 118
 , "Audi|Q6 e-tron": 116
 , "BYD|Atto 3": 111
-, "BYD|Atto 2": 109
+, "BYD|Atto 2 EV": 109
 , "Jeep|Compass Electric": 109
 , "Leapmotor|B10": 107
 , "Hyundai|Inster": 92
@@ -7441,7 +7441,7 @@ db.insert(db.countries.IT, "2026-02", db.dsTypes.ElectricCarsByModel, "https://u
 , "Audi|Q4 e-tron": 142
 , "Citroën|ë-C3 Aircross": 135
 , "Ford|Explorer EV": 133
-, "BYD|Atto 2": 127
+, "BYD|Atto 2 EV": 127
 , "Fiat|500e": 122
 , "BYD|Sealion 7": 120
 , "Audi|Q6 e-tron": 119
@@ -7575,7 +7575,7 @@ db.insert(db.countries.IT, "2026-03", db.dsTypes.ElectricCarsByModel, "https://u
 , "BMW|iX2": 83
 , "Škoda|Enyaq": 81
 , "Toyota|C-HR+": 80
-, "BYD|Atto 2": 70
+, "BYD|Atto 2 EV": 70
 , "Cupra|Tavascan": 65
 , "Renault|Scénic E-Tech": 64
 , "Audi|A6 e-tron": 60
@@ -7696,7 +7696,7 @@ db.insert(db.countries.IT, "2026-04", db.dsTypes.ElectricCarsByModel, "https://u
 , "Volkswagen|ID.4": 95
 , "BYD|Dolphin": 92
 , "Fiat|500e": 87
-, "BYD|Atto 2": 86
+, "BYD|Atto 2 EV": 86
 , "Mercedes-Benz|GLC Electric": 81
 , "Dongfeng|Box": 77
 , "Porsche|Macan Electric": 72
@@ -7807,7 +7807,7 @@ db.insert(db.countries.IT, "2026-05", db.dsTypes.ElectricCarsByModel, "https://u
 , "Kia|EV2": 105
 , "Tesla|Model 3": 104
 , "Mercedes-Benz|EQA": 103
-, "BYD|Atto 2": 99
+, "BYD|Atto 2 EV": 99
 , "Fiat|500e": 92
 , "Volkswagen|ID.3": 91
 , "Volkswagen|ID.4": 91
@@ -7922,7 +7922,7 @@ db.insert(db.countries.IT, "2026-06", db.dsTypes.ElectricCarsByModel, "https://u
 , "BYD|Sealion 7": 156
 , "Fiat|Grande Panda Electric": 155
 , "Mercedes-Benz|EQA": 155
-, "BYD|Atto 2": 143
+, "BYD|Atto 2 EV": 143
 , "Audi|Q4 e-tron": 127
 , "Mercedes-Benz|CLA Electric": 126
 , "Toyota|C-HR+": 121
@@ -8048,7 +8048,7 @@ db.insert(db.countries.IT, "2026-07", db.dsTypes.ElectricCarsByModel, "https://u
 , "Audi|Q4 e-tron": 85
 , "Ford|Puma Gen-E": 85
 , "Kia|EV4": 82
-, "BYD|Atto 2": 80
+, "BYD|Atto 2 EV": 80
 , "Kia|EV2": 75
 , "BYD|Seal": 74
 , "Toyota|C-HR+": 74
@@ -8169,7 +8169,7 @@ db.insert(db.countries.IT, "2026-08", db.dsTypes.ElectricCarsByModel, "https://u
 , "Ford|Puma Gen-E": 55
 , "Kia|EV3": 55
 , "Chery|eQ1": 54
-, "BYD|Atto 2": 50
+, "BYD|Atto 2 EV": 50
 , "Fiat|600e": 50
 , "Geely|EX5 BEV": 50
 , "Jeep|Avenger EV": 50
@@ -8280,7 +8280,7 @@ db.insert(db.countries.IT, "2026-09", db.dsTypes.ElectricCarsByModel, "https://u
 , "Volkswagen|ID. Polo": 121
 , "Cupra|Raval": 120
 , "Volvo|EX30": 120
-, "BYD|Atto 2": 116
+, "BYD|Atto 2 EV": 116
 , "Porsche|Macan Electric": 115
 , "Kia|EV3": 112
 , "Ford|Explorer EV": 110
