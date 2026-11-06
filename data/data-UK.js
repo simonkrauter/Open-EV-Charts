@@ -6493,3 +6493,71 @@ db.insert(db.countries.UK, "2026-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Vauxhall|Frontera Electric": 1282
 , "other": 50514
 });
+
+db.insert(db.countries.UK, "2026-10", db.dsTypes.AllCarsByBrand, "https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Volkswagen": 13687
+, "Omoda Jaecoo": 9226
+, "BMW": 8565
+, "Audi": 8125
+, "MG": 7837
+, "Kia": 7819
+, "Škoda": 6832
+, "Mercedes-Benz": 6586
+, "Toyota": 6190
+, "BYD": 6065
+, "Ford": 5851
+, "Nissan": 5444
+, "Mini": 5269
+, "Vauxhall": 5133
+, "Hyundai": 4833
+, "Renault": 4099
+, "Peugeot": 4063
+, "Volvo": 4004
+, "Land Rover": 3798
+, "Cupra": 3763
+, "Chery": 3707
+, "Citroën": 2310
+, "Geely": 2269
+, "Dacia": 1952
+, "Leapmotor": 1773
+, "Seat": 1752
+, "Honda": 1440
+, "Porsche": 1260
+, "Mazda": 1136
+, "Suzuki": 955
+, "Jeep": 877
+, "Polestar": 864
+, "Changan": 722
+, "Fiat": 411
+, "Aion": 385
+, "Xpeng": 330
+, "Tesla": 282
+, "Smart": 258
+, "Subaru": 83
+, "Mitsubishi": 30
+, "other": 2745
+});
+
+db.insert(db.countries.UK, "2026-10", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2026/10 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
+{ "Škoda|Enyaq": 1449
+, "Omoda Jaecoo|Jaecoo E5": 1432
+, "Vauxhall|Frontera Electric": 1289
+, "BYD|Seal": 1148
+, "Audi|Q4 e-tron": 1116
+, "Mini|Cooper SE": 1036
+, "BMW|iX3": 1014
+, "Leapmotor|B10": 1008
+, "Ford|Puma Gen-E": 995
+, "Kia|EV3": 942
+, "Renault|5 E-Tech": 920
+, "Škoda|Elroq": 909
+, "Kia|EV2": 876
+, "BYD|Sealion 7": 874
+, "Mercedes-Benz|CLA Electric": 854
+, "Cupra|Raval": 840
+, "Audi|Q6 e-tron": 807
+, "Kia|EV5": 776
+, "Volvo|EX40": 759
+, "Omoda Jaecoo|Omoda E5": 754
+, "other": 29060
+});
