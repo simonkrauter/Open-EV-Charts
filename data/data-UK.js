@@ -6472,7 +6472,7 @@ db.insert(db.countries.UK, "2026-09", db.dsTypes.AllCarsByBrand, "https://www.sm
 
 db.insert(db.countries.UK, "2026-09", db.dsTypes.ElectricCarsByModel, "https://eu-evs.com/bestSellers/GB/Brands/Month/2026/9 (includes commercial vehicles), https://www.smmt.co.uk/vehicle-data/car-registrations/",
 { "Tesla|Model 3": 9633
-, "Tesla|Model Y": 5776
+, "Tesla|Model Y": 5777
 , "BYD|Sealion 7": 3045
 , "BYD|Seal": 3018
 , "Kia|EV3": 2789
@@ -6491,5 +6491,5 @@ db.insert(db.countries.UK, "2026-09", db.dsTypes.ElectricCarsByModel, "https://e
 , "Omoda Jaecoo|Jaecoo E5": 1347
 , "Polestar|2": 1340
 , "Vauxhall|Frontera Electric": 1282
-, "other": 50515
+, "other": 50514
 });
