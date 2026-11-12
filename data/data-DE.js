@@ -10319,7 +10319,7 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|iX1": 2449
 , "Volkswagen|ID.7": 2236
 , "Volkswagen|ID.4/ID.5": 2189
-, "Mercedes-Benz|GLC Electric": 2176
+, "Mercedes-Benz|GLC Electric": 2164
 , "Škoda|Enyaq": 2140
 , "Audi|A6 e-tron": 1749
 , "Mercedes-Benz|CLA Electric": 1749
@@ -10373,8 +10373,8 @@ db.insert(db.countries.DE, "2026-08", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|other": 655
 , "Volvo|other": 623
 , "Porsche|other": 618
+, "Mercedes-Benz|other": 575
 , "MG|other": 569
-, "Mercedes-Benz|other": 563
 , "Xpeng|other": 557
 , "Opel|other": 530
 , "Smart|other": 491
@@ -10451,8 +10451,8 @@ db.insert(db.countries.DE, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Volkswagen|ID.4/ID.5": 2795
 , "Volkswagen|ID.3": 2425
 , "Mini|Cooper SE": 2389
-, "Mercedes-Benz|GLC Electric": 2357
 , "Volkswagen|ID.7": 2331
+, "Mercedes-Benz|GLC Electric": 2205
 , "Mercedes-Benz|CLA Electric": 2164
 , "Dacia|Spring": 1897
 , "BMW|iX1": 1809
@@ -10499,7 +10499,7 @@ db.insert(db.countries.DE, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Xpeng|other": 1250
 , "Porsche|other": 992
 , "Opel|other": 893
-, "Mercedes-Benz|other": 730
+, "Mercedes-Benz|other": 882
 , "Leapmotor|other": 718
 , "Škoda|other": 639
 , "Renault|other": 635
@@ -10573,9 +10573,9 @@ db.insert(db.countries.DE, "2026-10", db.dsTypes.AllCarsByBrand, "https://www.kb
 });
 
 db.insert(db.countries.DE, "2026-10", db.dsTypes.ElectricCarsByModel, "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2026_10.xlsx?__blob=publicationFile&v=3",
-{ "Mercedes-Benz|GLC Electric": 4086
-, "Volkswagen|ID.7": 3576
+{ "Volkswagen|ID.7": 3576
 , "Škoda|Elroq": 3542
+, "Mercedes-Benz|GLC Electric": 3429
 , "BMW|iX1": 3215
 , "Volkswagen|ID.4/ID.5": 3188
 , "Škoda|Enyaq": 2882
@@ -10610,6 +10610,7 @@ db.insert(db.countries.DE, "2026-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "BMW|i5": 884
 , "Kia|EV4": 713
 , "Volkswagen|ID. Polo": 673
+, "Mercedes-Benz|C-Class Electric": 657
 , "Opel|Grandland Electric": 644
 , "Ford|Puma Gen-E": 631
 , "Nissan|Micra EV": 622
@@ -10622,11 +10623,11 @@ db.insert(db.countries.DE, "2026-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Leapmotor|C10 EV": 512
 , "Fiat|Grande Panda Electric": 504
 , "Toyota|bZ4X": 503
-, "Kia|PV5": 498
 , "BYD|other": 2361
 , "MG|other": 1954
 , "Peugeot|other": 1454
 , "BMW|other": 1079
+, "Kia|other": 1077
 , "Opel|other": 1008
 , "Porsche|other": 786
 , "Smart|other": 772
@@ -10634,7 +10635,6 @@ db.insert(db.countries.DE, "2026-10", db.dsTypes.ElectricCarsByModel, "https://w
 , "Renault|other": 715
 , "Mercedes-Benz|other": 690
 , "Hyundai|other": 682
-, "Kia|other": 579
 , "Geely|other": 564
 , "Toyota|other": 534
 , "Leapmotor|other": 532
