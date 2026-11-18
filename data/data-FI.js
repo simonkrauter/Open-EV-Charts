@@ -8134,7 +8134,7 @@ db.insert(db.countries.FI, "2026-09", db.dsTypes.AllCarsByBrand, "https://trafi2
 , "Kia": 521
 , "Škoda": 511
 , "Mercedes-Benz": 491
-, "BMW": 395
+, "BMW": 396
 , "Volvo": 374
 , "Ford": 339
 , "Audi": 327
@@ -8211,6 +8211,7 @@ db.insert(db.countries.FI, "2026-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Porsche|Cayenne Electric": 26
 , "Aion|V": 25
 , "Hyundai|Inster": 25
+, "Mercedes-Benz|C-Class Electric": 25
 , "Mercedes-Benz|EQA": 23
 , "Audi|A6 e-tron": 21
 , "Mazda|EZ-6 BEV": 21
@@ -8237,5 +8238,5 @@ db.insert(db.countries.FI, "2026-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Mercedes-Benz|other": 4
 , "Škoda|other": 4
 , "Audi|other": 3
-, "other": 185
+, "other": 160
 });
