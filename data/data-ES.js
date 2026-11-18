@@ -9536,11 +9536,11 @@ db.insert(db.countries.ES, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Ford|Explorer EV": 86
 , "Škoda|Enyaq": 84
 , "Kia|other": 204
+, "Mercedes-Benz|other": 161
 , "Volkswagen|other": 143
 , "Peugeot|other": 127
 , "Cupra|other": 119
 , "Citroën|other": 116
-, "Mercedes-Benz|other": 116
 , "Renault|other": 116
 , "Audi|other": 115
 , "Porsche|other": 104
@@ -9562,5 +9562,5 @@ db.insert(db.countries.ES, "2026-09", db.dsTypes.ElectricCarsByModel, "https://w
 , "Dongfeng|other": 22
 , "Dacia|other": 12
 , "Toyota|other": 12
-, "other": 623
+, "other": 578
 });
