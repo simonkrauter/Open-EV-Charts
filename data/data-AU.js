@@ -2599,3 +2599,80 @@ db.insert(db.countries.AU, "2026-09", db.dsTypes.ElectricCarsByModel, "https://t
 , "Leapmotor|other": 19
 , "other": 685
 });
+
+db.insert(db.countries.AU, "2026-10", db.dsTypes.AllCarsByBrand, "https://www.drive.com.au/news/australian-new-car-sales-in-october-2026-record-result-as-hilux-tops-vfacts/",
+{ "Toyota": 20649
+, "BYD": 10025
+, "Ford": 7310
+, "Kia": 5801
+, "Mazda": 5730
+, "MG": 4676
+, "Hyundai": 4571
+, "GWM": 4417
+, "Chery": 4365
+, "Geely": 4365
+, "Tesla": 4050
+, "Omoda Jaecoo": 1993
+, "Zeekr": 1870
+, "other": 27671
+});
+
+db.insert(db.countries.AU, "2026-10", db.dsTypes.ElectricCarsByModel, "https://thedriven.io/2026/11/05/australian-electric-vehicle-sales-by-month-in-2026-by-model-and-by-brand-3/",
+{ "Tesla|Model Y": 3105
+, "BYD|Sealion 7": 2524
+, "Geely|EX5 BEV": 1789
+, "Omoda Jaecoo|Jaecoo E5": 1714
+, "Zeekr|7X": 1441
+, "Geely|EX2": 1350
+, "MG|4 EV": 1107
+, "Tesla|Model 3": 945
+, "BYD|Atto 2 EV": 747
+, "BYD|Atto 3": 709
+, "Mazda|EZ-6 BEV": 582
+, "Xpeng|G6": 577
+, "GWM|Ora 5": 520
+, "Kia|EV3": 504
+, "BYD|Dolphin": 489
+, "Kia|EV5": 453
+, "BYD|Seagull": 443
+, "Zeekr|X": 429
+, "Toyota|bZ4X": 414
+, "BYD|Seal": 359
+, "Aion|UT": 313
+, "Omoda Jaecoo|Omoda E5": 279
+, "Mercedes-Benz|EQA": 271
+, "Aion|V": 266
+, "Volvo|EX30": 203
+, "MG|S6 EV": 190
+, "MG|S5 EV": 170
+, "Subaru|Trailseeker": 158
+, "Nissan|Ariya": 149
+, "Škoda|Enyaq": 140
+, "Hyundai|Kona Electric": 138
+, "Kia|PV5": 107
+, "Leapmotor|B10": 92
+, "Subaru|Uncharted": 92
+, "Audi|Q6 e-tron": 91
+, "Leapmotor|B05": 88
+, "Volvo|EX40": 85
+, "Volkswagen|ID.4": 80
+, "Polestar|4": 79
+, "BMW|i4": 76
+, "Volkswagen|ID. Buzz": 75
+, "Hyundai|Inster": 63
+, "Subaru|Solterra": 63
+, "Škoda|Elroq": 59
+, "Hyundai|Elexio": 56
+, "Porsche|Macan Electric": 45
+, "Deepal|E07 EV": 40
+, "Mini|Cooper SE": 40
+, "Hyundai|Ioniq 5": 38
+, "Polestar|2": 30
+, "Kia|other": 58
+, "Leapmotor|other": 29
+, "Volvo|other": 29
+, "Ford|other": 23
+, "Hyundai|other": 13
+, "Volkswagen|other": 13
+, "other": 903
+});
